@@ -43,13 +43,13 @@ manager: "anneta"
   
  In our lab environment, when using four MessageBox databases, the maximum sustainable throughput results were as follows:  
   
--   For messaging scenario, 2790 documents per second.  
+- For messaging scenario, 2790 documents per second.  
   
--   For orchestration scenario, 1487 documents per second.  
+- For orchestration scenario, 1487 documents per second.  
   
- **Message considerations** While BizTalk Server imposes no restriction on message size, the tests we ran for BizTalk Server 2010 used 2-KB messages only and the type of WCF adapter used was WCF-NetTCP adapter. This matches the message size and adapter type used in the testing for the BizTalk Server 2009 Performance Optimization Guide.  
+  **Message considerations** While BizTalk Server imposes no restriction on message size, the tests we ran for BizTalk Server 2010 used 2-KB messages only and the type of WCF adapter used was WCF-NetTCP adapter. This matches the message size and adapter type used in the testing for the BizTalk Server 2009 Performance Optimization Guide.  
   
- The drivers for the performance improvement are:  
+  The drivers for the performance improvement are:  
   
 1.  **Hardware advancements** - The SQL Server computers used in our lab were 4-CPU, quad-core (16 cores), Intel Xeon E7330 @ 2.40 GHz. In the 2009 tests, 4-CPU, quad-core (16 cores), Intel Xeon 2.4 GHz were used.  
   

@@ -102,64 +102,64 @@ struct convert {
   
  Secondary return code; one of the following occurred:  
   
--   The file containing the user-written type G conversion table was not specified by the environment variable CSVTBLG.  
+- The file containing the user-written type G conversion table was not specified by the environment variable CSVTBLG.  
   
--   The table was not in the correct format.  
+- The table was not in the correct format.  
   
--   The file specified by the CSVTBLG variable was not found.  
+- The file specified by the CSVTBLG variable was not found.  
   
- SV_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  SV_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- SV_INVALID_VERB  
- Primary return code; the **opcode** parameter did not match the operation code of any verb. No verb executed.  
+  SV_INVALID_VERB  
+  Primary return code; the **opcode** parameter did not match the operation code of any verb. No verb executed.  
   
- SV_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  SV_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- SV_UNEXPECTED_DOS_ERROR  
- Primary return code; one of the following conditions occurred:  
+  SV_UNEXPECTED_DOS_ERROR  
+  Primary return code; one of the following conditions occurred:  
   
--   The Microsoft Windows system encountered an error while processing the verb. The operating system return code was returned through the secondary return code. If the problem persists, contact the system administrator for corrective action.  
+- The Microsoft Windows system encountered an error while processing the verb. The operating system return code was returned through the secondary return code. If the problem persists, contact the system administrator for corrective action.  
   
--   A CSV was issued from a message loop that was invoked by another application issuing a Windows **SendMessage** function call, rather than the more common Windows **PostMessage** function call. Verb processing cannot take place.  
+- A CSV was issued from a message loop that was invoked by another application issuing a Windows **SendMessage** function call, rather than the more common Windows **PostMessage** function call. Verb processing cannot take place.  
   
--   A CSV was issued when **SendMessage** invoked your application. You can determine whether your application has been invoked with **SendMessage** by using the **InSendMessage** Windows API function call.  
+- A CSV was issued when **SendMessage** invoked your application. You can determine whether your application has been invoked with **SendMessage** by using the **InSendMessage** Windows API function call.  
   
 ## Remarks  
  The type A character set consists of:  
   
--   Uppercase letters.  
+- Uppercase letters.  
   
--   Numerals 0 through 9.  
+- Numerals 0 through 9.  
   
--   Special characters $, #, @, and space.  
+- Special characters $, #, @, and space.  
   
- This character set is supported by a system-supplied type A conversion table.  
+  This character set is supported by a system-supplied type A conversion table.  
   
- The first character of the source string must be an uppercase letter or the special character $, #, or @. Spaces are allowed only in trailing positions. Lowercase ASCII letters are translated to uppercase EBCDIC letters when the direction is ASCII to EBCDIC.  
+  The first character of the source string must be an uppercase letter or the special character $, #, or @. Spaces are allowed only in trailing positions. Lowercase ASCII letters are translated to uppercase EBCDIC letters when the direction is ASCII to EBCDIC.  
   
- The type AE character set consists of:  
+  The type AE character set consists of:  
   
--   Uppercase letters.  
+- Uppercase letters.  
   
--   Lowercase letters.  
+- Lowercase letters.  
   
--   Numerals 0 through 9.  
+- Numerals 0 through 9.  
   
--   Special characters $, #, @, period, and space.  
+- Special characters $, #, @, period, and space.  
   
- This character set is supported by a system-supplied type AE conversion table.  
+  This character set is supported by a system-supplied type AE conversion table.  
   
- The first character of the source string can be any character in the character set, except the space. Spaces are allowed only in trailing positions.  
+  The first character of the source string can be any character in the character set, except the space. Spaces are allowed only in trailing positions.  
   
- During conversion, embedded blanks (including blanks in the first position) are converted to 0x00. Although such a conversion will complete, CONVERSION_ERROR is returned as the secondary return code, indicating that the CSV library has completed an irreversible conversion on the supplied data.  
+  During conversion, embedded blanks (including blanks in the first position) are converted to 0x00. Although such a conversion will complete, CONVERSION_ERROR is returned as the secondary return code, indicating that the CSV library has completed an irreversible conversion on the supplied data.  
   
- For Windows a description of COMTBLG should point to the Windows registry under **\SnaBase\Parameters\Client**.  
+  For Windows a description of COMTBLG should point to the Windows registry under **\SnaBase\Parameters\Client**.  
   
- The data for a type G conversion table must be an ASCII file 32 lines long. Each line must consist of 32 hexadecimal digits, representing 16 characters, and be terminated by a carriage return and line feed. The first 16 lines (256 characters) specify the EBCDIC characters to which ASCII characters are converted; the remaining 16 lines specify the ASCII characters to which EBCDIC characters are converted.  
+  The data for a type G conversion table must be an ASCII file 32 lines long. Each line must consist of 32 hexadecimal digits, representing 16 characters, and be terminated by a carriage return and line feed. The first 16 lines (256 characters) specify the EBCDIC characters to which ASCII characters are converted; the remaining 16 lines specify the ASCII characters to which EBCDIC characters are converted.  
   
- The hexadecimal digits A through F can be either uppercase or lowercase. However, you may want to make these digits uppercase to ensure compatibility with IBM ES for OS/2 version 1.0.  
+  The hexadecimal digits A through F can be either uppercase or lowercase. However, you may want to make these digits uppercase to ensure compatibility with IBM ES for OS/2 version 1.0.  
   
 > [!NOTE]
 >  You can use [GET_CP_CONVERT_TABLE](../core/get-cp-convert-table1.md) to build a type G user-written conversion table in memory, and then store the table in a file.

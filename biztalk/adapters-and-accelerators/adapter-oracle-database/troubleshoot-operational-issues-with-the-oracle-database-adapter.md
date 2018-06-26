@@ -38,18 +38,18 @@ ConfigurationErrorsException: Exception has been thrown by the target of an invo
   
  When you try to start the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] or the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], WCF loads the adapter bindings for all the installed adapters. In turn, the adapter bindings are dependent on the specific client software for the enterprise application. You might face this issue for one or both of the following reasons:  
   
--   The required LOB client software is not installed on the computer where you installed the adapter.  
+- The required LOB client software is not installed on the computer where you installed the adapter.  
   
--   You did a Typical or Complete installation of the adapter, which installs all the adapters contained in the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. However, the LOB client libraries might be installed for only one enterprise application. As a result, the GUI fails to load the bindings for the other adapters.  
+- You did a Typical or Complete installation of the adapter, which installs all the adapters contained in the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. However, the LOB client libraries might be installed for only one enterprise application. As a result, the GUI fails to load the bindings for the other adapters.  
   
- **Resolution**  
+  **Resolution**  
   
--   Make sure that the required LOB client versions are installed on the computer where you installed the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. [Supported Line-of-Business (LOB) and Enterprise systems](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx) lists the supported client versions.  
+- Make sure that the required LOB client versions are installed on the computer where you installed the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. [Supported Line-of-Business (LOB) and Enterprise systems](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx) lists the supported client versions.  
   
--   Make sure you do a custom installation of the adapters to install only the adapter you need.  
+- Make sure you do a custom installation of the adapters to install only the adapter you need.  
   
-    > [!NOTE]
-    >  To make sure your application works with the most recent version of ODP.NET, you must have the "policy DLLs" installed on the computer and registered in the GAC. For more information, see [Oracle Data Provider for .NET](http://go.microsoft.com/fwlink/p/?LinkId=92834) on Oracle's website.  
+  > [!NOTE]
+  >  To make sure your application works with the most recent version of ODP.NET, you must have the "policy DLLs" installed on the computer and registered in the GAC. For more information, see [Oracle Data Provider for .NET](http://go.microsoft.com/fwlink/p/?LinkId=92834) on Oracle's website.  
   
 ###  <a name="BKMK_OraDBAdapDisplay"></a> The Oracle database adapter does not display in the list of adapters in BizTalk Server Administration console  
  **Problem**  
@@ -82,21 +82,21 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
   
  You can fix this issue by setting the `maxItemsInObjectGraph` parameter. You can set this in either of the following two ways:  
   
--   Set this parameter by changing the `maxItemsInObjectGraph` parameter in the `ServiceBehavior` attribute on your service class.  
+- Set this parameter by changing the `maxItemsInObjectGraph` parameter in the `ServiceBehavior` attribute on your service class.  
   
--   Add the following to your application's app.config file.  
+- Add the following to your application's app.config file.  
   
-    ```  
-    <behaviors>  
-      <endpointBehaviors>  
-        <behavior name="NewBehavior">  
-          <dataContractSerializer maxItemsInObjectGraph="65536000" />  
-        </behavior>  
-      </endpointBehaviors>  
-    </behaviors>  
-    ```  
+  ```  
+  <behaviors>  
+    <endpointBehaviors>  
+      <behavior name="NewBehavior">  
+        <dataContractSerializer maxItemsInObjectGraph="65536000" />  
+      </behavior>  
+    </endpointBehaviors>  
+  </behaviors>  
+  ```  
   
- A sample app.config looks like this.  
+  A sample app.config looks like this.  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -122,19 +122,19 @@ Change the object graph or increase the MaxItemsInObjectGraph quota.
   
  The adapter gives the following error when performing any operation on the Oracle database using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
   
--   **For BizTalk Server**  
+- **For BizTalk Server**  
   
-    ```  
-    System.ArgumentNullException: Value cannot be null.  
-    ```  
+  ```  
+  System.ArgumentNullException: Value cannot be null.  
+  ```  
   
- **Cause**  
+  **Cause**  
   
- The WCF action for the message is not specified. WCF requires a SOAP action to be specified for every operation, which informs the adapter about the operation to be performed on the LOB application.  
+  The WCF action for the message is not specified. WCF requires a SOAP action to be specified for every operation, which informs the adapter about the operation to be performed on the LOB application.  
   
- **Resolution**  
+  **Resolution**  
   
- Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-the-soap-action-for-oracle-database.md). See [Messages and Message Schemas](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md) to see a list of actions for each operation.  
+  Specify the SOAP action in the send port or as a message context property in a BizTalk orchestration. For instructions, see [Configure the SOAP action for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-the-soap-action-for-oracle-database.md). See [Messages and Message Schemas](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md) to see a list of actions for each operation.  
   
 ###  <a name="BKMK_OraDBXmlParsing"></a> XmlReaderParsingException due to an incorrect operation name in the specified action  
  **Problem**  
@@ -214,61 +214,61 @@ Microsoft.ServiceModel.Channels.Common.TargetSystemException: ORA-01001: invalid
   
  Remove the StreamBody node from the WSDL when validating against the output that was generated using BizTalk Server. Perform the following steps to do so:  
   
-1.  The WSDL containing the StreamBody node looks like this.  
+1. The WSDL containing the StreamBody node looks like this.  
   
-    ```  
-    <xs:element name="ReadLOBResponse">  
-        <xs:annotation>  
-          <xs:documentation>  
-            <doc:action xmlns:doc="http://schemas.microsoft.com/servicemodel/adapters/metadata/documentation">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/TBL_ALL_DATATYPES/ReadLOB/response\</doc:action>  
-          </xs:documentation>  
-        </xs:annotation>  
-        <xs:complexType>  
-          <xs:sequence>  
-            <xs:element minOccurs="1" maxOccurs="1" name="ReadLOBResult" nillable="true" type="ns3:StreamBody" />  
-          </xs:sequence>  
-        </xs:complexType>  
-      </xs:element>  
-    ```  
+   ```  
+   <xs:element name="ReadLOBResponse">  
+       <xs:annotation>  
+         <xs:documentation>  
+           <doc:action xmlns:doc="http://schemas.microsoft.com/servicemodel/adapters/metadata/documentation">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/TBL_ALL_DATATYPES/ReadLOB/response\</doc:action>  
+         </xs:documentation>  
+       </xs:annotation>  
+       <xs:complexType>  
+         <xs:sequence>  
+           <xs:element minOccurs="1" maxOccurs="1" name="ReadLOBResult" nillable="true" type="ns3:StreamBody" />  
+         </xs:sequence>  
+       </xs:complexType>  
+     </xs:element>  
+   ```  
   
-     Replace the preceding with the following.  
+    Replace the preceding with the following.  
   
-    ```  
-    <xs:element name="ReadLOBResponse">  
-     <xs:annotation>  
-     <xs:documentation>  
-      <doc:action xmlns:doc="http://schemas.microsoft.com/servicemodel/adapters/metadata/documentation">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/TBL_ALL_DATATYPES/ReadLOB/response\</doc:action>   
-      </xs:documentation>  
-      </xs:annotation>  
-     <xs:complexType>  
-     <xs:sequence>  
-      <xs:element minOccurs="1" maxOccurs="1" name="ReadLOBResult" type="xs:base64Binary" />   
-      </xs:sequence>  
-      </xs:complexType>  
-      </xs:element>  
-    ```  
+   ```  
+   <xs:element name="ReadLOBResponse">  
+    <xs:annotation>  
+    <xs:documentation>  
+     <doc:action xmlns:doc="http://schemas.microsoft.com/servicemodel/adapters/metadata/documentation">http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/TBL_ALL_DATATYPES/ReadLOB/response\</doc:action>   
+     </xs:documentation>  
+     </xs:annotation>  
+    <xs:complexType>  
+    <xs:sequence>  
+     <xs:element minOccurs="1" maxOccurs="1" name="ReadLOBResult" type="xs:base64Binary" />   
+     </xs:sequence>  
+     </xs:complexType>  
+     </xs:element>  
+   ```  
   
-     In this step, you removed the reference to type="ns3:StreamBody" in the original XSD and replaced it with type="xs:base64Binary". Also, you removed the nillable="true" value from the original XSD.  
+    In this step, you removed the reference to type="ns3:StreamBody" in the original XSD and replaced it with type="xs:base64Binary". Also, you removed the nillable="true" value from the original XSD.  
   
-2.  Remove the following from the WSDL.  
+2. Remove the following from the WSDL.  
   
-    ```  
-    <xs:complexType name="StreamBody">  
-        <xs:sequence>  
-          <xs:element minOccurs="1" maxOccurs="1" name="Stream">  
-            <xs:simpleType>  
-              <xs:restriction base="xs:base64Binary">  
-                <xs:minLength value="0" />  
-              </xs:restriction>  
-            </xs:simpleType>  
-          </xs:element>  
-        </xs:sequence>  
-      </xs:complexType>  
-      <xs:element name="StreamBody" nillable="true" type="ns3:StreamBody" />  
-    ```  
+   ```  
+   <xs:complexType name="StreamBody">  
+       <xs:sequence>  
+         <xs:element minOccurs="1" maxOccurs="1" name="Stream">  
+           <xs:simpleType>  
+             <xs:restriction base="xs:base64Binary">  
+               <xs:minLength value="0" />  
+             </xs:restriction>  
+           </xs:simpleType>  
+         </xs:element>  
+       </xs:sequence>  
+     </xs:complexType>  
+     <xs:element name="StreamBody" nillable="true" type="ns3:StreamBody" />  
+   ```  
   
-    > [!NOTE]
-    >  ReadLOB operation is not supported with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. You should use a table Select operation to read LOB data from a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] solution.  
+   > [!NOTE]
+   >  ReadLOB operation is not supported with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. You should use a table Select operation to read LOB data from a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] solution.  
   
 ###  <a name="BKMK_OraDBSchemaValidateFail"></a> Schema validation may fail in polling scenarios  
  **Problem**  
@@ -381,13 +381,13 @@ The element 'bindings' has invalid child element 'oracleDBBinding'. List of poss
   
  This happens because of either of the following:  
   
--   You have generated more than one Notification schema in a BizTalk Server project, deployed it to a BizTalk Server application, and then ran the application to receive notifications from the Oracle database. Because the Notification schemas are common, there is a conflict between the schemas that are deployed in the BizTalk Server application.  
+- You have generated more than one Notification schema in a BizTalk Server project, deployed it to a BizTalk Server application, and then ran the application to receive notifications from the Oracle database. Because the Notification schemas are common, there is a conflict between the schemas that are deployed in the BizTalk Server application.  
   
--   In case of multiple projects, you have generated a Notification schema for each of the BizTalk Server projects, deployed each project to a separate BizTalk Server application on the same host, and then ran an application or applications to receive notifications from the Oracle database. Because the schemas and assemblies are accessible across the applications in BizTalk Server, there is a conflict between the common schemas deployed under various BizTalk Server applications and assemblies.  
+- In case of multiple projects, you have generated a Notification schema for each of the BizTalk Server projects, deployed each project to a separate BizTalk Server application on the same host, and then ran an application or applications to receive notifications from the Oracle database. Because the schemas and assemblies are accessible across the applications in BizTalk Server, there is a conflict between the common schemas deployed under various BizTalk Server applications and assemblies.  
   
- **Resolution**  
+  **Resolution**  
   
- Use a single Notification schema file for a BizTalk Server application. If you need to use the Notification schema in multiple BizTalk Server applications on the same host, create an application containing a single Notification schema, and then use the notification schema from all other applications in BizTalk Server.  
+  Use a single Notification schema file for a BizTalk Server application. If you need to use the Notification schema in multiple BizTalk Server applications on the same host, create an application containing a single Notification schema, and then use the notification schema from all other applications in BizTalk Server.  
   
 ###  <a name="BKMK_MemUsage"></a> Memory usage and thread count increases when using the adapter in a transacted inbound operation  
  **Problem**  

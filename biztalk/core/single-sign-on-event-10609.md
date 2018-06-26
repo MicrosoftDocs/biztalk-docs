@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10609
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10609|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_INFO_TICKETS_DISABLED_FOR_APP|  
-|Message Text|Tickets have been disabled for the application.%r<br /><br /> Tracking ID: %1%r<br /><br /> Client Computer: %2%r<br /><br /> Client User: %3%r<br /><br /> Application Name: %4|  
+|                 |                                                                                                                                                                                  |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                            Enterprise Single Sign-On                                                                             |
+| Product Version |                                                            [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                            |
+|    Event ID     |                                                                                      10609                                                                                       |
+|  Event Source   |                                                                                      ENTSSO                                                                                      |
+|    Component    |                                                                                       N/A                                                                                        |
+|  Symbolic Name  |                                                                        SSO_INFO_TICKETS_DISABLED_FOR_APP                                                                         |
+|  Message Text   | Tickets have been disabled for the application.%r<br /><br /> Tracking ID: %1%r<br /><br /> Client Computer: %2%r<br /><br /> Client User: %3%r<br /><br /> Application Name: %4 |
   
 ## Explanation  
  This is an informational message.  

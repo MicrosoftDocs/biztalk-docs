@@ -18,19 +18,19 @@ If you remove [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnover
   
 ### To remove Enterprise Single Sign-On  
   
-1.  Back up the master secret key.  
+1. Back up the master secret key.  
   
-     For more information, see [How to Back Up the Master Secret](../esso/how-to-back-up-the-master-secret.md).  
+    For more information, see [How to Back Up the Master Secret](../esso/how-to-back-up-the-master-secret.md).  
   
-2.  Uninstall [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
+2. Uninstall [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  
   
-3.  Click **Start**, point to **Settings**, and then click **Control Panel**.  
+3. Click **Start**, point to **Settings**, and then click **Control Panel**.  
   
-4.  Click **Add or Remove Programs**.  
+4. Click **Add or Remove Programs**.  
   
-5.  In **Add or Remove Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **Remove**.  
+5. In **Add or Remove Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **Remove**.  
   
-6.  Click **Yes** when you are prompted to confirm the removal of Microsoft Enterprise Single Sign-On.  
+6. Click **Yes** when you are prompted to confirm the removal of Microsoft Enterprise Single Sign-On.  
   
 ## See Also  
  [Installing Enterprise Single Sign-On](../esso/installing-enterprise-single-sign-on.md)

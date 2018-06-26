@@ -45,21 +45,21 @@ The MQSCorrelationSetOrchestrationWithSolicitResponse sample demonstrates how to
 ## How to Use This Sample  
  To create the application, you must complete the following steps:  
   
--   Create two MQSeries queues.  
+- Create two MQSeries queues.  
   
--   Set up a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location and send port.  
+- Set up a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location and send port.  
   
--   Enable the receive location.  
+- Enable the receive location.  
   
--   Start the send port.  
+- Start the send port.  
   
--   Create the appropriate folders.  
+- Create the appropriate folders.  
   
--   Modify the orchestration.  
+- Modify the orchestration.  
   
--   Deploy, bind and start the orchestration.  
+- Deploy, bind and start the orchestration.  
   
- If you have the required permissions to the MQSeries Server for Windows installation, you can create the MQSeries queue through the adapter dialog boxes, and can skip the next procedure. If you do not have such access, you can create the queue using the IBM WebSphere MQ Explorer. To create the queues through the WebSphere MQ Explorer, complete the following steps.  
+  If you have the required permissions to the MQSeries Server for Windows installation, you can create the MQSeries queue through the adapter dialog boxes, and can skip the next procedure. If you do not have such access, you can create the queue using the IBM WebSphere MQ Explorer. To create the queues through the WebSphere MQ Explorer, complete the following steps.  
   
 ## Creating the MQSeries Queues Through the WebSphere MQ Explorer  
   
@@ -226,16 +226,16 @@ The MQSCorrelationSetOrchestrationWithSolicitResponse sample demonstrates how to
   
 #### To test the application  
   
-1.  Put a file in the **C:\Temp\Pickup2** folder.  
+1. Put a file in the **C:\Temp\Pickup2** folder.  
   
-2.  Examine the files in the **C:\Temp\Dropit2** folder and the **C:\Temp\Moveit**folder.  
+2. Examine the files in the **C:\Temp\Dropit2** folder and the **C:\Temp\Moveit**folder.  
   
-    -   The **C:\Temp\Dropit2** folder should contain a copy of the message that was originally picked up by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+   - The **C:\Temp\Dropit2** folder should contain a copy of the message that was originally picked up by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
-    -   The **C:\Temp\Moveit**folder should contain a response document with the message identifier (MQMD_MsgId) and the correlation identifier (MQMD_CorrelId).  
+   - The **C:\Temp\Moveit**folder should contain a response document with the message identifier (MQMD_MsgId) and the correlation identifier (MQMD_CorrelId).  
   
-    > [!NOTE]
-    >  If you disable the **MQReply** receive location, you can examine the message in WebSphere MQ Explorer and see that the message and correlation identifiers are set. To do this, launch the **WebSphere MQ Explorer** and examine the message placed in the **REPLYTOQ** queue. The message and correlation identifiers are displayed on the **Identifiers** tab of the **Messageproperties** dialog box.  
+   > [!NOTE]
+   >  If you disable the **MQReply** receive location, you can examine the message in WebSphere MQ Explorer and see that the message and correlation identifiers are set. To do this, launch the **WebSphere MQ Explorer** and examine the message placed in the **REPLYTOQ** queue. The message and correlation identifiers are displayed on the **Identifiers** tab of the **Messageproperties** dialog box.  
   
 ## See Also  
  [Correlating Messages Using Request-Reply](../core/correlating-messages-using-request-reply.md)   

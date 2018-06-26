@@ -52,23 +52,23 @@ This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../incl
   
 ### To configure filters for a send port  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure send port filters.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure send port filters.  
   
-3.  Expand **Send Ports**, right-click the send port, click **Properties**, and then click **Filters**.  
+3. Expand **Send Ports**, right-click the send port, click **Properties**, and then click **Filters**.  
   
-4.  Configure filters as described in the following table, and then click **OK**.  
+4. Configure filters as described in the following table, and then click **OK**.  
   
-    |Use this|To do this|  
-    |--------------|----------------|  
-    |**Delete**|Click to delete the selected filter expression.|  
-    |**Move Up**|Click to move the selected property ahead in the filter expression sequence.|  
-    |**Move Down**|Click to move the selected property down in the filter expression sequence.|  
-    |**Property**|In the list, click a message property to use in this filter expression.|  
-    |**Operator**|Type or select the operator for the expression.|  
-    |**Value**|Type the value to validate against the property. The accepted value type varies according to the type of property. To see what type of value is accepted for a property, hover your mouse over the property. Acceptable values are as follows: Int: (Integer) This must be a whole number. String: A character string. dateTime: A date and/or time in .NET-supported format. For more information about .NET-supported time formats, see "DateTimeFormatInfo Class" in .NET Frameworks Help.|  
-    |**Group by**|Select **And** or **Or** to indicate the relationship between this and other filter expressions.|  
+   |Use this|To do this|  
+   |--------------|----------------|  
+   |**Delete**|Click to delete the selected filter expression.|  
+   |**Move Up**|Click to move the selected property ahead in the filter expression sequence.|  
+   |**Move Down**|Click to move the selected property down in the filter expression sequence.|  
+   |**Property**|In the list, click a message property to use in this filter expression.|  
+   |**Operator**|Type or select the operator for the expression.|  
+   |**Value**|Type the value to validate against the property. The accepted value type varies according to the type of property. To see what type of value is accepted for a property, hover your mouse over the property. Acceptable values are as follows: Int: (Integer) This must be a whole number. String: A character string. dateTime: A date and/or time in .NET-supported format. For more information about .NET-supported time formats, see "DateTimeFormatInfo Class" in .NET Frameworks Help.|  
+   |**Group by**|Select **And** or **Or** to indicate the relationship between this and other filter expressions.|  
   
 ## See Also  
  [Creating and Configuring Send Ports](../core/creating-and-configuring-send-ports.md)

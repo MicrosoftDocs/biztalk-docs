@@ -18,7 +18,7 @@ manager: "anneta"
 Creates a new BizTalk application in the BizTalk Management database. You can view the application in the Applications node of the BizTalk Server Administration console. You can add artifacts to the application by using the AddResource command, as described in [AddResource Command](../core/addresource-command.md).  
   
 ## Usage  
- **BTSTask AddApp /ApplicationName:** *value* [**/Description:***value*] [**/Default**] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask AddApp /ApplicationName:** *value* [**/Description:**<em>value</em>] [**/Default**] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
 ## Parameters  
   

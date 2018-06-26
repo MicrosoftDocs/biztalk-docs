@@ -18,11 +18,11 @@ The Windows-initiated processing (WIP) console supports the .NET Framework, TCP/
   
  There are two primary configuration elements for the WIP environment:  
   
--   **Remote environments.** The remote environments folder contains the definitions, called remote environments or REs, for the non-Windows host computers that receive requests from the WIP components.  
+- **Remote environments.** The remote environments folder contains the definitions, called remote environments or REs, for the non-Windows host computers that receive requests from the WIP components.  
   
--   **Objects.** The objects folder contains the metadata definitions for the client proxy objects that were created through the Host Integration Server Designer (HIS Designer).  
+- **Objects.** The objects folder contains the metadata definitions for the client proxy objects that were created through the Host Integration Server Designer (HIS Designer).  
   
- The Internet Information Services node is used to configure the virtual directories used by WIP .NET Framework objects.  
+  The Internet Information Services node is used to configure the virtual directories used by WIP .NET Framework objects.  
   
 ## In This Section  
  [Remote Environments](../core/remote-environments1.md)  

@@ -77,19 +77,19 @@ Local APPC LUs can be independent or dependent.
   
  **To explicitly partner LUs**  
   
-1.  In **SNA Manager**, click the **APPC Modes** folder.  
+1. In **SNA Manager**, click the **APPC Modes** folder.  
   
-2.  Right-click **RSYNPRTN**, and then click **Properties**.  
+2. Right-click **RSYNPRTN**, and then click **Properties**.  
   
-3.  Select the **Partner** tab.  
+3. Select the **Partner** tab.  
   
-4.  Click **Add**, and then follow the directions in the dialog box.  
+4. Click **Add**, and then follow the directions in the dialog box.  
   
- If you would like the Resync Service to use a different mode name, you can specify a new name with the following registry key:  
+   If you would like the Resync Service to use a different mode name, you can specify a new name with the following registry key:  
   
- HKLM\Software\Microsoft\Host Integration Server\UN2  
+   HKLM\Software\Microsoft\Host Integration Server\UN2  
   
- REG_SZ: modename  
+   REG_SZ: modename  
   
 ## See Also  
  [SNA Manager Help](../core/sna-manager-help1.md)

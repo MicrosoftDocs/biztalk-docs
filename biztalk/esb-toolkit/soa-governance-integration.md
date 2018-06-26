@@ -21,34 +21,34 @@ Enterprise-level applications must support robust and reliable management featur
 
 ## SOA challenges  
  Businesses deploying SOA-based systems into production face a number of challenges, including the following:  
-  
+
 -   Minimizing the cost of maintenance and upgrades, and allowing incremental updates  
-  
+
 -   Allowing rapid change through business process management and composition tools  
-  
+
 -   End-to-end security; this includes trust and protection of the privacy of message senders, receivers, and content  
-  
+
 -   Identifying, managing, and repairing exceptions as they occur  
-  
+
 -   Decoupling of services and consumers  
-  
+
 -   Measuring and proving the business value of SOA applications to offset cost concerns  
-  
+
 -   Control (governance) of the proliferation of duplicate or otherwise unnecessary services  
-  
+
 -   Facilitating the identification of the appropriate services required by potential users to reduce initial development cost  
-  
+
 -   Managing the life cycle of services to minimize the cost and risk of ongoing maintenance and change  
-  
+
 -   Simplifying the actual usage of appropriate services (decoupling location, transport, policies, standards, and messaging styles)  
-  
+
 -   Reporting facilities used to identify who is using which service, where, and why  
 
 ## Next steps
  The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] supports integration with two third-party run-time governance systems:  
-  
--   **Sentinet SOA Resolver and BizTalk Server Extensions**. For more information on how Sentinet extends [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] capabilities, see [Extending BizTalk ESB Toolkit Capabilities with Sentinet](../technical-guides/extending-biztalk-esb-toolkit-capabilities-with-sentinet.md).
-  
--   [SOA BizTalk Management Point](../esb-toolkit/soa-biztalk-management-point.md) from SOA Software, Inc.  
-  
--   [AmberPoint BizTalk Nano Agent](../esb-toolkit/amberpoint-biztalk-nano-agent.md) from AmberPoint, Inc.
+
+- **Sentinet SOA Resolver and BizTalk Server Extensions**. For more information on how Sentinet extends [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] capabilities, see [Extending BizTalk ESB Toolkit Capabilities with Sentinet](../technical-guides/extending-biztalk-esb-toolkit-capabilities-with-sentinet.md).
+
+- [SOA BizTalk Management Point](../esb-toolkit/soa-biztalk-management-point.md) from SOA Software, Inc.  
+
+- [AmberPoint BizTalk Nano Agent](../esb-toolkit/amberpoint-biztalk-nano-agent.md) from AmberPoint, Inc.

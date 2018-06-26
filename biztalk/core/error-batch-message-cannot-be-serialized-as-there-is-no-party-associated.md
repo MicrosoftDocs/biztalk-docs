@@ -17,15 +17,15 @@ manager: "anneta"
 # Batch message cannot be serialized as there is no party associated with send port
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|Batching Engine|  
-|Symbolic Name|BatchMessageSerializationFailureDueToMissingParty|  
-|Message Text|Batch message can not be serialized as there is no party associated with send port {0}. Make sure that a party is associated with the port|  
+|                 |                                                                                                                                            |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                             |
+| Product Version |                                         [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                         |
+|    Event ID     |                                                                     -                                                                      |
+|  Event Source   |                           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                           |
+|    Component    |                                                              Batching Engine                                                               |
+|  Symbolic Name  |                                             BatchMessageSerializationFailureDueToMissingParty                                              |
+|  Message Text   | Batch message can not be serialized as there is no party associated with send port {0}. Make sure that a party is associated with the port |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the send pipeline could not process a preserved interchange because it could not determine the party that the message should be sent to. It could not determine the party because the DestinationPartyName context property was not set. As a result, the send pipeline could not determine the envelope settings.  

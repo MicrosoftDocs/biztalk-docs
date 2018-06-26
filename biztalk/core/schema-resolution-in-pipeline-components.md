@@ -23,7 +23,7 @@ Pipeline disassembler and assembler components use XSD schemas to process messag
   
  Standard disassembler and assembler components support retrieval of deployed schemas by using the schema type name and message type. Some components retrieve by using both the schema type name and the message type, while others (for example, the Flat File Disassembler) retrieve only by the schema type.  
   
- Pipeline components that receive XML messages determine the message type by examining the message root element and namespace. For example, the message type for the following XML is "http://MyDocument.org#MyDocument".  
+ Pipeline components that receive XML messages determine the message type by examining the message root element and namespace. For example, the message type for the following XML is "<http://MyDocument.org#MyDocument>".  
   
 ```  
 <ns0:MyDocument xmlns:ns0="http://MyDocument.org">  
@@ -40,29 +40,29 @@ Pipeline disassembler and assembler components use XSD schemas to process messag
 ## How Schemas Are Resolved  
  Assuming you are not specifying the schema directly in the XmlDisassembler, schemas will be resolved in the following manner:  
   
-1.  First, an unqualified search on the deployed schemas is made using the root node name and namespace (for example, http://MyNamespace#MyRoot). If a unique match is found the schema is resolved. If multiple matches are found and differ only by version number and only one is active, that version is used and the schema is resolved. If the same schema is active in multiple applications, multiple active schemas will be found and the search will continue with step 2 below.  
+1. First, an unqualified search on the deployed schemas is made using the root node name and namespace (for example, http://MyNamespace#MyRoot). If a unique match is found the schema is resolved. If multiple matches are found and differ only by version number and only one is active, that version is used and the schema is resolved. If the same schema is active in multiple applications, multiple active schemas will be found and the search will continue with step 2 below.  
   
-2.  If there are multiple matches that step 1 cannot resolve, the search is qualified by the assembly the pipeline is executing in. If a unique schema is found within the same assembly the pipeline is executing in, then the schema is resolved.  
+2. If there are multiple matches that step 1 cannot resolve, the search is qualified by the assembly the pipeline is executing in. If a unique schema is found within the same assembly the pipeline is executing in, then the schema is resolved.  
   
-3.  If there are still no matches, then the publisher is used to resolve the schema. The search is narrowed by using the root node, namespace, and public key token. If a unique schema is found using this search, the schema is resolved.  
+3. If there are still no matches, then the publisher is used to resolve the schema. The search is narrowed by using the root node, namespace, and public key token. If a unique schema is found using this search, the schema is resolved.  
   
-4.  Schema cannot be resolved. An error is returned noting that no unique schema can be found.  
+4. Schema cannot be resolved. An error is returned noting that no unique schema can be found.  
   
- For other considerations including the effect of SQL Server collation and case-sensitivity on schema resolution, see [Namespace Management](../core/namespace-management.md).  
+   For other considerations including the effect of SQL Server collation and case-sensitivity on schema resolution, see [Namespace Management](../core/namespace-management.md).  
   
- To create an envelope in the XML Assembler or a header and trailer in the Flat File Assembler, you may do one of the following:  
+   To create an envelope in the XML Assembler or a header and trailer in the Flat File Assembler, you may do one of the following:  
   
--   Create a custom send pipeline and specify the schemas for the envelope in the configuration properties for the XML Assembler. This is done from within the pipeline designer.  
+- Create a custom send pipeline and specify the schemas for the envelope in the configuration properties for the XML Assembler. This is done from within the pipeline designer.  
   
--   In the BizTalk Server Administration console specify XMLTransmit for the Send pipeline property on a send port. Click the ellipsis to configure the pipeline properties and specify the schema for the envelope in the EnvelopeDocSpecNames property.  
+- In the BizTalk Server Administration console specify XMLTransmit for the Send pipeline property on a send port. Click the ellipsis to configure the pipeline properties and specify the schema for the envelope in the EnvelopeDocSpecNames property.  
   
- Schema resolution by message type may not work if several versions of the same schema are intentionally or accidentally deployed in the database (for example, in a side-by-side deployment or if multiple scenarios do not have unique message types). If schema resolution by message type fails, a "schema ambiguity" error is added to the event log. To ensure that schema resolution by message type succeeds, do one of the following:  
+  Schema resolution by message type may not work if several versions of the same schema are intentionally or accidentally deployed in the database (for example, in a side-by-side deployment or if multiple scenarios do not have unique message types). If schema resolution by message type fails, a "schema ambiguity" error is added to the event log. To ensure that schema resolution by message type succeeds, do one of the following:  
   
--   Define the schemas in the same BizTalk project as your custom pipeline.  
+- Define the schemas in the same BizTalk project as your custom pipeline.  
   
--   Sign the assembly with the schemas with the same key as the assembly containing the pipelines.  
+- Sign the assembly with the schemas with the same key as the assembly containing the pipelines.  
   
--   Explicitly specify schemas in pipeline components (message type names should be unique across the BizTalk Management database).  
+- Explicitly specify schemas in pipeline components (message type names should be unique across the BizTalk Management database).  
   
 > [!IMPORTANT]
 >  When schemas in the same assembly share a message type, you must not include the schemas in the same pipeline component assembly due to the limitations of ambiguity resolution; instead, reference schemas that are external to the pipeline component assembly. Ambiguity resolution does not work when schemas and pipeline components are in the same assembly, even if schema type names are explicitly specified in pipeline components in custom pipelines.  

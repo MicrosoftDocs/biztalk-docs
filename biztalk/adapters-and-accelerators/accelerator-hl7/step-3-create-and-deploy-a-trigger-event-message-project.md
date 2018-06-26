@@ -22,15 +22,15 @@ In this step, you create the schema for your trigger event message. For example,
   
 ### To create the project for the trigger event message  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **New**, then click **Project**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **New**, then click **Project**.  
   
-2.  In the New Project dialog box, in the **Project Types** section, expand **BizTalk Projects**, and then click **BTAHL7Projects**.  
+2. In the New Project dialog box, in the **Project Types** section, expand **BizTalk Projects**, and then click **BTAHL7Projects**.  
   
-3.  In the Templates section, click **Empty BTAHL7 Project**, in the **Name** box, type **BTAHL7V231Body Project**, and then click **OK**.  
+3. In the Templates section, click **Empty BTAHL7 Project**, in the **Name** box, type **BTAHL7V231Body Project**, and then click **OK**.  
   
-4.  In Solution Explorer, under the node for your new project, right-click **References**, and then click **Add Reference**.  
+4. In Solution Explorer, under the node for your new project, right-click **References**, and then click **Add Reference**.  
   
-5.  In the Add Reference dialog box, on the **Projects** tab, select **BTAHL7V231Common Project1**, click **Add**, and then click **OK**.  
+5. In the Add Reference dialog box, on the **Projects** tab, select **BTAHL7V231Common Project1**, click **Add**, and then click **OK**.  
   
 ## Step 3A: Add the Schema  
  Use the following procedure to add the new schema to the project.  
@@ -59,19 +59,19 @@ In this step, you create the schema for your trigger event message. For example,
   
 #### To assign a strong key and deploy the assembly  
   
-1.  In Solution Explorer, right-click **BTAHL7V231Body Project**, and then click **Properties**.  
+1. In Solution Explorer, right-click **BTAHL7V231Body Project**, and then click **Properties**.  
   
-2.  In the Project Property Pages page, click **Assembly**.  
+2. In the Project Property Pages page, click **Assembly**.  
   
-3.  In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (**…**) button.  
+3. In the right pane, scroll down to the **Strong name** section, click the field to the right of **Assembly Key File**, and then click the ellipsis (**…**) button.  
   
-4.  In the Assembly Key File dialog box, browse to \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial, click **key.snk**, and then click **Open**.  
+4. In the Assembly Key File dialog box, browse to \<*drive*\>:\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial, click **key.snk**, and then click **Open**.  
   
-5.  In the Project Property Pages dialog box, click **OK** to save your changes.  
+5. In the Project Property Pages dialog box, click **OK** to save your changes.  
   
-6.  In Solution Explorer right-click **BTAHL7V231Body Project**, and then click **Deploy**. Ensure a success message appears in the output window.  
+6. In Solution Explorer right-click **BTAHL7V231Body Project**, and then click **Deploy**. Ensure a success message appears in the output window.  
   
-    > [!NOTE]
-    >  If a successful deploy message does not appear, use [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] to troubleshoot your schemas.  
+   > [!NOTE]
+   >  If a successful deploy message does not appear, use [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] to troubleshoot your schemas.  
   
- Proceed to [Step 4: Create the Receive Port for Accepting ADT^A03 Messages from ADT Systems Using the MLLP Adapter](../../adapters-and-accelerators/accelerator-hl7/step-4-create-receive-port-to-accept-adt^a03-messages-from-adt-using-mllp.md).
+   Proceed to [Step 4: Create the Receive Port for Accepting ADT^A03 Messages from ADT Systems Using the MLLP Adapter](../../adapters-and-accelerators/accelerator-hl7/step-4-create-receive-port-to-accept-adt^a03-messages-from-adt-using-mllp.md).

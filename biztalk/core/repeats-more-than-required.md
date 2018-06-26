@@ -17,15 +17,15 @@ manager: "anneta"
 # Repeats more than required
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|X12FeRepeatsMoreThanRequiredDescription|  
-|Message Text|Repeats more than required|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Event ID     |                                           -                                            |
+|  Event Source   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    Component    |                                       EDI Engine                                       |
+|  Symbolic Name  |                        X12FeRepeatsMoreThanRequiredDescription                         |
+|  Message Text   |                               Repeats more than required                               |
   
 ## Explanation  
  This Error/Warning/Information event indicates that segments in an X12 interchange that are either inside or outside of a loop repeated more times than required by the document schema.  

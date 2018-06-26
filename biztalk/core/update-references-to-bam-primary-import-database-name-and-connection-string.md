@@ -32,71 +32,71 @@ Sign in as a member of the BizTalk Server Administrators group.
   
 ## Update the references  
   
-1.  Stop any BAM cube update and data maintenance Data Transformation Services (DTS) packages, or prevent them from running until you have restored the BAMPrimaryImport database.  
+1. Stop any BAM cube update and data maintenance Data Transformation Services (DTS) packages, or prevent them from running until you have restored the BAMPrimaryImport database.  
   
-2.  Stop the BizTalk Application service (which includes the BAM Event Bus service) so it does not try to import more data into the database.  
+2. Stop the BizTalk Application service (which includes the BAM Event Bus service) so it does not try to import more data into the database.  
   
-    1.  From the **Start** menu, type **services.msc**, and open **Services**.  
+   1.  From the **Start** menu, type **services.msc**, and open **Services**.  
   
-    2.  Right-click the **BizTalk Service BizTalk Group: BizTalkServerApplication** service, and then **Stop**.  
+   2.  Right-click the **BizTalk Service BizTalk Group: BizTalkServerApplication** service, and then **Stop**.  
   
-3.  Restore the BAMPrimaryImport database (steps in [How to Restore Your Databases](../core/how-to-restore-your-databases.md)).  
+3. Restore the BAMPrimaryImport database (steps in [How to Restore Your Databases](../core/how-to-restore-your-databases.md)).  
   
-4.  Update the following Web.Config files:  
+4. Update the following Web.Config files:  
   
-    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\BAMPortal\BamManagementService\Web.Config.  
+   - [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\BAMPortal\BamManagementService\Web.Config.  
   
-         Replace the *\<ServerName\>* string with the new server name, and *\<DatabaseName\>* with the new database name. Update the following connection strings:  
+      Replace the *\<ServerName\>* string with the new server name, and *\<DatabaseName\>* with the new database name. Update the following connection strings:  
   
-         \<appSettings\>  
+      \<appSettings\>  
   
-         <add key="BamServer" value="*\<ServerName\>*" /\>  
+      <add key="BamServer" value="*\<ServerName\>*" /\>  
   
-         <add key="BamDatabase" value="*\<DatabaseName\>*" /\>  
+      <add key="BamDatabase" value="*\<DatabaseName\>*" /\>  
   
-         \<add key="MaxResultRows" value="2000" /\>  
+      \<add key="MaxResultRows" value="2000" /\>  
   
-         \</appSettings\>  
+      \</appSettings\>  
   
-    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\BAMPortal\BamQueryService\Web.Config.  
+   - [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\BAMPortal\BamQueryService\Web.Config.  
   
-         Replace the *\<ServerName\>* string with the new server name and *\<DatabaseName\>* with the new database name. Update the following connection strings:  
+      Replace the *\<ServerName\>* string with the new server name and *\<DatabaseName\>* with the new database name. Update the following connection strings:  
   
-         \<appSettings\>  
+      \<appSettings\>  
   
-         \<add key="BamServer" value="*\<ServerName\>*" /\>  
+      \<add key="BamServer" value="*\<ServerName\>*" /\>  
   
-         \<add key="BamDatabase" value="*\<DatabaseName\>*" /\>  
+      \<add key="BamDatabase" value="*\<DatabaseName\>*" /\>  
   
-         \<add key="MaxResultRows" value="2000" /\>  
+      \<add key="MaxResultRows" value="2000" /\>  
   
-         \</appSettings\>  
+      \</appSettings\>  
   
-5.  Open a command prompt (Start menu > Command Prompt), and navigate to the following directory: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Schema\Restore.  
+5. Open a command prompt (Start menu > Command Prompt), and navigate to the following directory: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Schema\Restore.  
   
-6.  Right-click **SampleUpdateInfo.xml**, and **Edit**.  
+6. Right-click **SampleUpdateInfo.xml**, and **Edit**.  
   
-    1.  Comment out all of the database sections except for the  OldPrimaryImportDatabase, PrimaryImportDatabase, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert. 
-    2.  For the OldPrimaryImportDatabase, PrimaryImportDatabase, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert sections, set the **SourceServer** and **Destination Server** to the name of the existing server where those databases reside.  
+   1.  Comment out all of the database sections except for the  OldPrimaryImportDatabase, PrimaryImportDatabase, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert. 
+   2.  For the OldPrimaryImportDatabase, PrimaryImportDatabase, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert sections, set the **SourceServer** and **Destination Server** to the name of the existing server where those databases reside.  
   
-    3.  For PrimaryImportDatabase, set the **"SourceServer"** to the name of the server where you have moved the BAM Primary Import database.  
+   3.  For PrimaryImportDatabase, set the **"SourceServer"** to the name of the server where you have moved the BAM Primary Import database.  
   
-        > [!IMPORTANT]
-        >  Include the quotation marks around the name of the source and destination systems.  
+       > [!IMPORTANT]
+       >  Include the quotation marks around the name of the source and destination systems.  
   
-        > [!NOTE]
-        >  If you renamed any of the BizTalk Server databases, be sure to also update the database names.  
+       > [!NOTE]
+       >  If you renamed any of the BizTalk Server databases, be sure to also update the database names.  
   
-    4.  When you are finished editing the file, save it, and exit.  
+   4.  When you are finished editing the file, save it, and exit.  
   
-7.  At the command prompt, type:  
+7. At the command prompt, type:  
   
-     **cscript UpdateDatabase.vbs SampleUpdateInfo.xml**  
+    **cscript UpdateDatabase.vbs SampleUpdateInfo.xml**  
   
-    > [!NOTE]
-    >  Only run UpdateDatabase.vbs once.  
-    > 
-    >  On 64-bit computers, run UpdateDatabase.vbs from a 64-bit command prompt.  
+   > [!NOTE]
+   >  Only run UpdateDatabase.vbs once.  
+   > 
+   >  On 64-bit computers, run UpdateDatabase.vbs from a 64-bit command prompt.  
   
 8. At the command prompt, navigate to the following directory:  
   

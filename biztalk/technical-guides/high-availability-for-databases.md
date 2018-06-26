@@ -46,13 +46,13 @@ BizTalk Server relies heavily on SQL Server for data store and data persistence.
   
  For the BizTalk Server databases, we recommend that you do the following:  
   
--   **Set up failover clustering**. Failover clustering enables SQL Server to automatically switch the processing for an instance of SQL Server from a failed server to a working server.  
+- **Set up failover clustering**. Failover clustering enables SQL Server to automatically switch the processing for an instance of SQL Server from a failed server to a working server.  
   
-     The BAM Primary Import database collects event data. In the event of a disaster, data that was written to the BAM Primary Import database since the last backup will be lost. Because there is no way to regenerate lost events, it is especially important that you enable failover clustering on your BAM Primary Import database.  
+   The BAM Primary Import database collects event data. In the event of a disaster, data that was written to the BAM Primary Import database since the last backup will be lost. Because there is no way to regenerate lost events, it is especially important that you enable failover clustering on your BAM Primary Import database.  
   
--   **Use SQL Server RAID 1+0 (redundant array of independent disks)**, especially for the MessageBox database and the BAM Primary Import database.  
+- **Use SQL Server RAID 1+0 (redundant array of independent disks)**, especially for the MessageBox database and the BAM Primary Import database.  
   
- For information about backing up your BizTalk Server databases, see [Best Practices for Disaster Recovery](../technical-guides/best-practices-for-disaster-recovery.md).  
+  For information about backing up your BizTalk Server databases, see [Best Practices for Disaster Recovery](../technical-guides/best-practices-for-disaster-recovery.md).  
   
 > [!NOTE]  
 >  Microsoft SQL Server provides a software solution known as database mirroring for increasing the probability that a database is available. The use of SQL Server database mirroring is not currently a supported solution for ensuring high availability of the Microsoft BizTalk Server databases because of potential problems maintaining transactional consistency in the BizTalk Server databases.  

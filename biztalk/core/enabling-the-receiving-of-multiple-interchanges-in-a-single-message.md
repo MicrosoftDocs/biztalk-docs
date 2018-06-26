@@ -21,26 +21,26 @@ manager: "anneta"
   
  When the receive pipeline that includes the EDI Disassembler receives a message with multiple interchange, the Disassembler will parse each interchange from the interchange header to the interchange trailer. This processing is done according to the following rules:  
   
--   All interchanges in the same message must be of the same encoding type, either X12 or EDIFACT. If the message contains interchanges of more than one encoding type, the EDI Disassembler will process all interchanges that have the same encoding type as the first interchange in the message. The Disassembler will ignore all interchanges that are of a different encoding type from the first interchange.  
+- All interchanges in the same message must be of the same encoding type, either X12 or EDIFACT. If the message contains interchanges of more than one encoding type, the EDI Disassembler will process all interchanges that have the same encoding type as the first interchange in the message. The Disassembler will ignore all interchanges that are of a different encoding type from the first interchange.  
   
--   The EDI Disassembler will ignore any character between the interchange trailer of one interchange and the interchange heading of the next interchange.  
+- The EDI Disassembler will ignore any character between the interchange trailer of one interchange and the interchange heading of the next interchange.  
   
--   If you enable authentication by selecting either the **Drop messages if authentication fails** or the **Keep messages if authentication fails** property for the receive port, then [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will suspend the entire message if any one of the multiple interchanges in the message fails.  
+- If you enable authentication by selecting either the **Drop messages if authentication fails** or the **Keep messages if authentication fails** property for the receive port, then [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will suspend the entire message if any one of the multiple interchanges in the message fails.  
   
--   If you enable authentication, and if any one interchange in the same message does not resolve to an agreement, then all interchanges in the message will be suspended, and no acknowledgments will be returned, even for those interchanges that did resolve to an agreement.  
+- If you enable authentication, and if any one interchange in the same message does not resolve to an agreement, then all interchanges in the message will be suspended, and no acknowledgments will be returned, even for those interchanges that did resolve to an agreement.  
   
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B Operators group.  
   
 ### To enable the receiving of multiple interchanges in a message  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click the **Receive Locations** node, right-click the receive location that you want to enable to receive multiple interchange in a single message, and then click **Properties**.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click the **Receive Locations** node, right-click the receive location that you want to enable to receive multiple interchange in a single message, and then click **Properties**.  
   
-2.  Click the ellipses next to the receive pipeline (which must be either EdiReceive or AS2EdiReceive).  
+2. Click the ellipses next to the receive pipeline (which must be either EdiReceive or AS2EdiReceive).  
   
-3.  In the **Configure Pipeline** dialog box, set the **DetectMID** pipeline property to **True**.  
+3. In the **Configure Pipeline** dialog box, set the **DetectMID** pipeline property to **True**.  
   
-4.  Click **OK**, then click **OK** again.  
+4. Click **OK**, then click **OK** again.  
   
 ## See Also  
  [Configuring Ports for an EDI Solution](../core/configuring-ports-for-an-edi-solution.md)

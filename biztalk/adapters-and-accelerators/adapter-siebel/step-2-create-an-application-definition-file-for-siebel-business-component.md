@@ -212,30 +212,30 @@ manager: "anneta"
   
 ##### To modify the application definition file  
   
-1.  Open the application definition file, Siebel_Account.xml, by using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] or any other editor.  
+1. Open the application definition file, Siebel_Account.xml, by using [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] or any other editor.  
   
-2.  Modify the application definition file to replace the parameters for the **QueryAccount** method.  
+2. Modify the application definition file to replace the parameters for the **QueryAccount** method.  
   
-    1.  Within the application definition file, search for the following:  
+   1.  Within the application definition file, search for the following:  
   
-        ```  
-        <TypeDescriptor TypeName="BDC.AccountQueryRecord,Siebel_Account" Name="Item">  
-        ```  
+       ```  
+       <TypeDescriptor TypeName="BDC.AccountQueryRecord,Siebel_Account" Name="Item">  
+       ```  
   
-    2.  Within the `<TypeDescriptors>` tag, replace the existing `<TypeDescriptor>` elements with the following:  
+   2.  Within the `<TypeDescriptors>` tag, replace the existing `<TypeDescriptor>` elements with the following:  
   
-        ```  
+       ```  
   
-        <TypeDescriptor TypeName="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=<token>" Name="Id" />  
-        <TypeDescriptor TypeName="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=<token>" Name="Country" />  
-        <TypeDescriptor TypeName="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=<token>" Name="Name" />  
-        <TypeDescriptor TypeName="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=<token>" Name="Location" />  
-        ```  
+       <TypeDescriptor TypeName="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=<token>" Name="Id" />  
+       <TypeDescriptor TypeName="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=<token>" Name="Country" />  
+       <TypeDescriptor TypeName="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=<token>" Name="Name" />  
+       <TypeDescriptor TypeName="System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=<token>" Name="Location" />  
+       ```  
   
-    3.  Save and close the file.  
+   3.  Save and close the file.  
   
-    > [!TIP]
-    >  You can import the updated application definition file back in the Business Data Catalog Definition Editor tool to see the newly added fields. However, before importing you will have to remove the existing “Siebel_Account” application from the Business Data Catalog Definition Editor tool.  
+   > [!TIP]
+   >  You can import the updated application definition file back in the Business Data Catalog Definition Editor tool to see the newly added fields. However, before importing you will have to remove the existing “Siebel_Account” application from the Business Data Catalog Definition Editor tool.  
   
 ## Next Steps  
  You must now create a SharePoint application to retrieve data from a Siebel system. See [Step 3: Create a SharePoint Application to Retrieve Data from Siebel](../../adapters-and-accelerators/adapter-siebel/step-3-create-a-sharepoint-application-to-retrieve-data-from-siebel.md) for instructions.  

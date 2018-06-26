@@ -31,31 +31,31 @@ By default, [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkserver
 ## Message Validation  
  Message Repair and New Submission sends any message failing the following validation to MRSR site for repair:  
   
--   Structural validation performed by the flat file parser (unparsed messages)  
+- Structural validation performed by the flat file parser (unparsed messages)  
   
--   Data validation performed by the XML validating reader  
+- Data validation performed by the XML validating reader  
   
--   SWIFT network and usage rule validation performed by the Business Rule Engine (BRE)  
+- SWIFT network and usage rule validation performed by the Business Rule Engine (BRE)  
   
- [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] collects any errors encountered during validation in an error collection object that travels with the SWIFT message. The repair process includes serializing error information into XML and attaching it to the message as an error part. This processing also includes marking the message with a promoted property that indicates that the message has failed validation ([!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_Failed==True), and another promoted property that reports the error counts for each validation stage. The resulting multipart message consists of the following:  
+  [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] collects any errors encountered during validation in an error collection object that travels with the SWIFT message. The repair process includes serializing error information into XML and attaching it to the message as an error part. This processing also includes marking the message with a promoted property that indicates that the message has failed validation ([!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]_Failed==True), and another promoted property that reports the error counts for each validation stage. The resulting multipart message consists of the following:  
   
--   A body part containing the failed message  
+- A body part containing the failed message  
   
--   An error part containing the error-collection XML  
+- An error part containing the error-collection XML  
   
--   Promoted properties indicating the failure state  
+- Promoted properties indicating the failure state  
   
 ## Message Repair  
  The MRSRDepartmentRule business rule within the MRSRDepartmentPolicy determines which department will handle the failed message. The message repair orchestration starts the repair workflow by routing the message to an inbox associated with the repair role in the department. The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] user performing the repair role opens the message in the [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] form, repairs the message, and then signs and submits it. The orchestration routes the repaired message to each of the repair, rekey verification, or approval roles, and after the workflow has successfully completed, routes the message to the send port.  
   
  In addition to validation, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] checks the signatures on the message to determine the following:  
   
--   The users in the repair workflow belong to the same department  
+- The users in the repair workflow belong to the same department  
   
--   Each user has signed just once  
+- Each user has signed just once  
   
--   The sequence of roles corresponding to the users matches the sequence in the workflow defined for that department  
+- The sequence of roles corresponding to the users matches the sequence in the workflow defined for that department  
   
- For more information about departments, see [Creating Departments and Roles for Message Repair and New Submission](../../adapters-and-accelerators/accelerator-swift/creating-departments-and-roles-for-message-repair-and-new-submission.md).  
+  For more information about departments, see [Creating Departments and Roles for Message Repair and New Submission](../../adapters-and-accelerators/accelerator-swift/creating-departments-and-roles-for-message-repair-and-new-submission.md).  
   
- [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] also enables you to repair unparsed messages. However, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] performs different processing on a repaired unparsed message. For more information, see [Repairing Unparsed Messages](../../adapters-and-accelerators/accelerator-swift/repairing-unparsed-messages.md).
+  [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] also enables you to repair unparsed messages. However, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] performs different processing on a repaired unparsed message. For more information, see [Repairing Unparsed Messages](../../adapters-and-accelerators/accelerator-swift/repairing-unparsed-messages.md).

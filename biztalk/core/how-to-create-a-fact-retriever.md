@@ -47,11 +47,11 @@ rsCfg.FactRetriever = factRetriever;
   
  Additionally, you would need to write custom code to implement the following strategies:  
   
--   Know when to update the long-term facts  
+- Know when to update the long-term facts  
   
--   Keep track of which rule engine instance uses which long-term facts  
+- Keep track of which rule engine instance uses which long-term facts  
   
- The following sample code shows different fact retriever implementations, which are associated with MyPolicy to assert MyTableInstance as a long-term fact, using different binding types.  
+  The following sample code shows different fact retriever implementations, which are associated with MyPolicy to assert MyTableInstance as a long-term fact, using different binding types.  
   
 ## DataTable binding  
   

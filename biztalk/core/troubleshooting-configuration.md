@@ -185,21 +185,21 @@ echo %TEMP%
 ##### Cause  
  To illustrate the cause of this problem, consider the following example based on a sample BizTalk Server solution where a user wants to redeploy the Maps project. Note that compiling projects yields individual assemblies. The following figure indicates the state of the solution before the user does a redeployment. The relationships among the artifacts are as follows:  
   
--   Orch1, Orch2, Maps, Pipelines, and Schemas are projects.  
+- Orch1, Orch2, Maps, Pipelines, and Schemas are projects.  
   
--   Orch1 references Maps, which in turn references Schemas.  
+- Orch1 references Maps, which in turn references Schemas.  
   
--   Orch2 references Schemas.  
+- Orch2 references Schemas.  
   
--   Pipelines references Schemas.  
+- Pipelines references Schemas.  
   
- ![](../core/media/bcd-existingbiztalkserversolutionc.gif "bcd_ExistingBizTalkServerSolutionc")  
+  ![](../core/media/bcd-existingbiztalkserversolutionc.gif "bcd_ExistingBizTalkServerSolutionc")  
   
- If the user redeploys the Maps project using the default Visual Studio project settings, the Orch1, Orch2, and Pipeline artifacts vanish, as shown in the following figure.  
+  If the user redeploys the Maps project using the default Visual Studio project settings, the Orch1, Orch2, and Pipeline artifacts vanish, as shown in the following figure.  
   
- ![](../core/media/bcd-biztalksolutionwlostartifactsc.gif "bcd_BizTalkSolutionWLostArtifactsc")  
+  ![](../core/media/bcd-biztalksolutionwlostartifactsc.gif "bcd_BizTalkSolutionWLostArtifactsc")  
   
- Redeploying Maps is a two-step process of undeploying the currently deployed Maps.dll assembly, and then deploying the new Maps.dll file. Visual Studio performs these steps automatically as part of the redeployment process.  
+  Redeploying Maps is a two-step process of undeploying the currently deployed Maps.dll assembly, and then deploying the new Maps.dll file. Visual Studio performs these steps automatically as part of the redeployment process.  
   
 > [!NOTE]
 >  The preceding sentence is not strictly correct because these are steps that Visual Studio always does so there is no notion of it being the proper way.  

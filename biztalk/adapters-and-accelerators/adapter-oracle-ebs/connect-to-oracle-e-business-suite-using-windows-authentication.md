@@ -27,33 +27,33 @@ The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinesssh
 ## Enable Windows Authentication  
  To enable adapter clients to use Windows Authentication to connect to an Oracle database, you must perform the following tasks on the computer running the Oracle database.  
   
-1.  Make sure that the `sqlnet.ora` file on both the client and the server, available under `ORACLE_BASE\ORACLE_HOME\network\admin\sqlnet.ora`, has the following entry:  
+1. Make sure that the `sqlnet.ora` file on both the client and the server, available under `ORACLE_BASE\ORACLE_HOME\network\admin\sqlnet.ora`, has the following entry:  
   
-    ```  
-    SQLNET.AUTHENTICATION_SERVICES= (NTS)  
-    ```  
+   ```  
+   SQLNET.AUTHENTICATION_SERVICES= (NTS)  
+   ```  
   
-2.  Connect to the Oracle database as SYSDBA.  
+2. Connect to the Oracle database as SYSDBA.  
   
-3.  Create the Windows user as an external user in Oracle database. Note that the user name must be in upper case.  
+3. Create the Windows user as an external user in Oracle database. Note that the user name must be in upper case.  
   
-    ```  
-    CREATE USER “OPS$<DOMAIN_NAME>\<USER_NAME\>” IDENTIFIED EXTERNALLY;  
-    ```  
+   ```  
+   CREATE USER “OPS$<DOMAIN_NAME>\<USER_NAME\>” IDENTIFIED EXTERNALLY;  
+   ```  
   
-4.  Grant privileges to the user.  
+4. Grant privileges to the user.  
   
-    ```  
-    GRANT CONNECT,RESOURCE TO “OPS$<DOMAIN_NAME>\<USER_NAME\>”;  
-    ```  
+   ```  
+   GRANT CONNECT,RESOURCE TO “OPS$<DOMAIN_NAME>\<USER_NAME\>”;  
+   ```  
   
-5.  The Oracle E-Business Suite artifacts are available under the APPS schema. To enable the newly created user, logging in using Windows Authentication, to access the Oracle E-Business Suite artifacts, the user’s schema must be changed to the APPS schema. You can add the following SQL command to the logon script that changes the user’s default schema to APPS when the user logs on.  
+5. The Oracle E-Business Suite artifacts are available under the APPS schema. To enable the newly created user, logging in using Windows Authentication, to access the Oracle E-Business Suite artifacts, the user’s schema must be changed to the APPS schema. You can add the following SQL command to the logon script that changes the user’s default schema to APPS when the user logs on.  
   
-    ```  
-    alter session set current_schema=APPS;  
-    ```  
+   ```  
+   alter session set current_schema=APPS;  
+   ```  
   
-6.  Even though you changed the schema of the user to APPS schema, you will still not be able to see Oracle E-Business Suite artifacts while browsing and generating metadata using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. This is because the newly created user does not have permissions for the APPS schema. Make sure you provided permission for the APPS schema for the newly created user.  
+6. Even though you changed the schema of the user to APPS schema, you will still not be able to see Oracle E-Business Suite artifacts while browsing and generating metadata using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. This is because the newly created user does not have permissions for the APPS schema. Make sure you provided permission for the APPS schema for the newly created user.  
   
 ## See Also  
 [Configure the Oracle client for the E-Business Suite adapter](../../adapters-and-accelerators/adapter-oracle-ebs/configure-the-oracle-client-for-the-e-business-suite-adapter.md)   

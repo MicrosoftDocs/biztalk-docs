@@ -17,15 +17,15 @@ manager: "anneta"
 # Missing or invalid or duplicate Transaction set identifier
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|X12TsMissingOrInvalidTsIdentiferDescription2|  
-|Message Text|Missing or invalid or duplicate Transaction set identifier '{0}'|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Event ID     |                                           -                                            |
+|  Event Source   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    Component    |                                       EDI Engine                                       |
+|  Symbolic Name  |                      X12TsMissingOrInvalidTsIdentiferDescription2                      |
+|  Message Text   |            Missing or invalid or duplicate Transaction set identifier '{0}'            |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the receive or send pipeline could not process the X12 interchange because the value of the transaction set identifier (in the ST01 field) was missing, a duplicate, or had an invalid value. This can occur if the document schema does not have an ST header and an SE trailer.  

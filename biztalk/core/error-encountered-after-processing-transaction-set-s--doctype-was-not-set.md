@@ -17,15 +17,15 @@ manager: "anneta"
 # Error encountered after processing Transaction Set(s) because DocType was not set
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|DocTypeNotSet|  
-|Message Text|Error encountered after processing {0} Transaction Set(s). DocType was not set|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Event ID     |                                           -                                            |
+|  Event Source   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    Component    |                                       EDI Engine                                       |
+|  Symbolic Name  |                                     DocTypeNotSet                                      |
+|  Message Text   |     Error encountered after processing {0} Transaction Set(s). DocType was not set     |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the EDI receive pipeline could not process an incoming transaction set because ST01 (for an X12 interchange) or UNH2.1 (for an EDIFACT interchange) was not set for the transaction set.  

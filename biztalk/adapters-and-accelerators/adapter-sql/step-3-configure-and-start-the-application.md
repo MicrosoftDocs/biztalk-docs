@@ -26,31 +26,31 @@ manager: "anneta"
   
 ### To configure and start the application  
   
-1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+1. Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-2.  In the console tree on the left hand side, expand **BizTalk Server Administration**, right-click **BizTalk Group**, and then click **Refresh**.  
+2. In the console tree on the left hand side, expand **BizTalk Server Administration**, right-click **BizTalk Group**, and then click **Refresh**.  
   
-3.  Expand **BizTalk Group**, expand **Applications**, right-click **SampleApplication**, and then click **Configure**.  
+3. Expand **BizTalk Group**, expand **Applications**, right-click **SampleApplication**, and then click **Configure**.  
   
-4.  In the **Configure Application** dialog box, on the **EmployeeOrch** tab, do the following:  
+4. In the **Configure Application** dialog box, on the **EmployeeOrch** tab, do the following:  
   
-    1.  For **Host** drop-down list, select **BizTalkServerApplication**.  
+   1.  For **Host** drop-down list, select **BizTalkServerApplication**.  
   
-    2.  Double-click the cell across **ReceiveNotification** and select **NotifyReceivePort** from the drop-down list.  
+   2.  Double-click the cell across **ReceiveNotification** and select **NotifyReceivePort** from the drop-down list.  
   
-    3.  Double-click the cell across **SQLOutboundPort** and select **SQLOutboundPort** from the drop-down list.  
+   3.  Double-click the cell across **SQLOutboundPort** and select **SQLOutboundPort** from the drop-down list.  
   
-    4.  Double-click the cell across **SaveResponsePort** and select **EmailResponse** from the drop-down list.  
+   4.  Double-click the cell across **SaveResponsePort** and select **EmailResponse** from the drop-down list.  
   
-5.  The following figure shows a configured application.  
+5. The following figure shows a configured application.  
   
-     ![Configured application](../../adapters-and-accelerators/adapter-sql/media/sql-adap-tut-011-configure-app.gif "sql_adap_tut_011_configure_app")  
+    ![Configured application](../../adapters-and-accelerators/adapter-sql/media/sql-adap-tut-011-configure-app.gif "sql_adap_tut_011_configure_app")  
   
-6.  In the **Configure Application** dialog box, click **OK**.  
+6. In the **Configure Application** dialog box, click **OK**.  
   
-7.  In the console tree, right-click **SampleApplication**, and then click **Start**.  
+7. In the console tree, right-click **SampleApplication**, and then click **Start**.  
   
-8.  In the console tree, click **Applications**.  
+8. In the console tree, click **Applications**.  
   
 9. In the Applications details pane, check that the **Status** of **SampleApplication** is **Started**.  
   

@@ -25,21 +25,21 @@ You can create a new message template from an existing template. This enables a 
   
 ### To save a modified existing template as a new template  
   
-1.  In Internet Explorer, open your MRSR site at http://localhost/sites/bassite.  
+1. In Internet Explorer, open your MRSR site at http://localhost/sites/bassite.  
   
-2.  Click **Documents**.  
+2. Click **Documents**.  
   
-3.  On the Documents page, click the **New SWIFT MT Messages** document library.  
+3. On the Documents page, click the **New SWIFT MT Messages** document library.  
   
-4.  On the New SWIFT MT Messages page, click the category containing the template that you want to base your new template on.  
+4. On the New SWIFT MT Messages page, click the category containing the template that you want to base your new template on.  
   
-5.  Point to the template that you want to base your new template on, click the arrow to the right, and then click **Edit in Microsoft Office InfoPath**.  
+5. Point to the template that you want to base your new template on, click the arrow to the right, and then click **Edit in Microsoft Office InfoPath**.  
   
-6.  In the [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] 2007 window, in the message form, enter message data that you want to be part of the template.  
+6. In the [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] 2007 window, in the message form, enter message data that you want to be part of the template.  
   
-7.  Click **File**, and then click **Save As**.  
+7. Click **File**, and then click **Save As**.  
   
-8.  In the popup indicating that the form contains validation errors, click **Yes**.  
+8. In the popup indicating that the form contains validation errors, click **Yes**.  
   
 9. In the Save As dialog box, select the folder for the template in the **Save in** text box, and then enter a file name in the **File name** text box. Click **Save**.  
   

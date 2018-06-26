@@ -29,43 +29,43 @@ To invoke operations on the [!INCLUDE[adaptersql](../../includes/adaptersql-md.m
 ## Supported Channel Shapes for the SQL Server Adapter  
  The adapter implements the following WCF channel shapes:  
   
--   **IRequestChannel** (**System.ServiceModel.Channels.IRequestChannel**). The **IRequestChannel** interface implements the client side of a request-reply message exchange. You can use an **IRequestChannel** to perform operations for which you want to consume a response, for example to perform a SELECT query on a table.  
+- **IRequestChannel** (**System.ServiceModel.Channels.IRequestChannel**). The **IRequestChannel** interface implements the client side of a request-reply message exchange. You can use an **IRequestChannel** to perform operations for which you want to consume a response, for example to perform a SELECT query on a table.  
   
--   **IOutputChannel** (**System.ServiceModel.Channels.IOutputChannel**). This shape implements the client side of a one-way message exchange. You can use an **IOutputChannel** to invoke an operation for which you do not need to consume a response, for example to call a procedure that has no return parameters.  
+- **IOutputChannel** (**System.ServiceModel.Channels.IOutputChannel**). This shape implements the client side of a one-way message exchange. You can use an **IOutputChannel** to invoke an operation for which you do not need to consume a response, for example to call a procedure that has no return parameters.  
   
-    > [!IMPORTANT]
-    >  All underlying calls by the adapter to the SQL Server client are synchronous. This includes calls to the SQL Server client that are the result of operations invoked over an **IOutputChannel**. When you use an **IOutputChannel**, the adapter discards the response received from the SQL Server client.  
+  > [!IMPORTANT]
+  >  All underlying calls by the adapter to the SQL Server client are synchronous. This includes calls to the SQL Server client that are the result of operations invoked over an **IOutputChannel**. When you use an **IOutputChannel**, the adapter discards the response received from the SQL Server client.  
   
--   **IInputChannel** (**System.ServiceModel.Channels.IInputChannel**). This shape implements the service side of a one-way message exchange. You use an **IInputChannel** to receive messages for inbound operations, such as **Polling** or **Notification**, from the adapter.  
+- **IInputChannel** (**System.ServiceModel.Channels.IInputChannel**). This shape implements the service side of a one-way message exchange. You use an **IInputChannel** to receive messages for inbound operations, such as **Polling** or **Notification**, from the adapter.  
   
- Like any WCF binding, the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] uses a factory pattern to provide channels to application code. You use a **Microsoft.Adapters.SQLBinding** object to create instances of:  
+  Like any WCF binding, the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] uses a factory pattern to provide channels to application code. You use a **Microsoft.Adapters.SQLBinding** object to create instances of:  
   
--   **System.ServiceModel.ChannelFactory\<IRequestChannel\>** to provide **IRequestChannel** channels you can use to invoke request-response operations on the adapter.  
+- **System.ServiceModel.ChannelFactory\<IRequestChannel\>** to provide **IRequestChannel** channels you can use to invoke request-response operations on the adapter.  
   
--   **System.ServiceModel.ChannelFactory\<IOutputChannel\>** to provide **IOutputChannel** channels you can use to invoke one-way operations on the adapter.  
+- **System.ServiceModel.ChannelFactory\<IOutputChannel\>** to provide **IOutputChannel** channels you can use to invoke one-way operations on the adapter.  
   
--   **System.ServiceModel.IChannelListener\<IInputChannel\>** to provide **IInputChannel** channels you can use to receive messages for inbound operations, such as **Polling** or **Notification**, from the adapter.  
+- **System.ServiceModel.IChannelListener\<IInputChannel\>** to provide **IInputChannel** channels you can use to receive messages for inbound operations, such as **Polling** or **Notification**, from the adapter.  
   
 ### Creating Messages for the SQL Server Database Adapter in the WCF Channel Model  
  In WCF the **System.ServiceModel.Channels.Message** class provides an in memory representation of a SOAP message. You create a **Message** instance by invoking the static **Message.Create** method.  
   
  There are two important parts to the SOAP message that you must specify when you create a **Message** instance to send to the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
   
--   The message action is a string that is part of the SOAP message header. The message action identifies the operation that should be invoked on the database. The following shows the message action specified to invoke the Select operation on the Employee table: `TableOp/Select/dbo/Employee`.  
+- The message action is a string that is part of the SOAP message header. The message action identifies the operation that should be invoked on the database. The following shows the message action specified to invoke the Select operation on the Employee table: `TableOp/Select/dbo/Employee`.  
   
--   The message body contains the parameter data for the operation. The message body is composed of well-formed XML that corresponds to the message schema expected by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] for the requested operation. The following message body specifies a Select operation on the Employee table (SELECT * FROM Employee WHERE Employee_ID=10001).  
+- The message body contains the parameter data for the operation. The message body is composed of well-formed XML that corresponds to the message schema expected by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] for the requested operation. The following message body specifies a Select operation on the Employee table (SELECT * FROM Employee WHERE Employee_ID=10001).  
   
-    ```  
-    <Select xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Employee">  
-      <Columns>*</Columns>  
-      <Query>where Employee_ID=10001</Query>  
-    </Select>  
+  ```  
+  <Select xmlns="http://schemas.microsoft.com/Sql/2008/05/TableOp/dbo/Employee">  
+    <Columns>*</Columns>  
+    <Query>where Employee_ID=10001</Query>  
+  </Select>  
   
-    ```  
+  ```  
   
- For information about the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] message schemas and message actions for operations, see [Messages and Message Schemas for BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md).  
+  For information about the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] message schemas and message actions for operations, see [Messages and Message Schemas for BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md).  
   
- This **Create** method is overloaded and offers many different options for providing the message body. The following code shows how to create a **Message** instance by using an **XmlReader** to supply the message body. In this code, the message body is read from a file.  
+  This **Create** method is overloaded and offers many different options for providing the message body. The following code shows how to create a **Message** instance by using an **XmlReader** to supply the message body. In this code, the message body is read from a file.  
   
 ```  
 XmlReader readerIn = XmlReader.Create("SelectInput.xml");  

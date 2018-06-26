@@ -20,20 +20,20 @@ A VBScript ImportExport sample program written in Microsoft Visual Basic Scripti
   
  The follow sequence illustrates this issue using the ImportExport sample:  
   
-1.  Use SNA Manager to create a pool workstation association.  
+1. Use SNA Manager to create a pool workstation association.  
   
-2.  Export the SNA configuration to a MOF file using the ImportExport utility.  
+2. Export the SNA configuration to a MOF file using the ImportExport utility.  
   
-3.  Import that same MOF file again using the ImportExport utility.  
+3. Import that same MOF file again using the ImportExport utility.  
   
-4.  Duplicate pool-workstation associations are created.  
+4. Duplicate pool-workstation associations are created.  
   
- The result is that if a client uses the import/export sample or a similar application developed using WMI on a Host Integration Server configuration that has pool-to-workstation associations, then the number of associations will effectively double after running the sample. The workaround using the ImportExport sample would be as follows:  
+   The result is that if a client uses the import/export sample or a similar application developed using WMI on a Host Integration Server configuration that has pool-to-workstation associations, then the number of associations will effectively double after running the sample. The workaround using the ImportExport sample would be as follows:  
   
-1.  Export the configuration to a MOF file.  
+5. Export the configuration to a MOF file.  
   
-2.  Remove the pool to workstation associations from the MOF file that was just created.  
+6. Remove the pool to workstation associations from the MOF file that was just created.  
   
-3.  Re-import the MOF file.  
+7. Re-import the MOF file.  
   
- When importing the configuration from one domain to another using the ImportExport sample or a similar application developed using WMI, then step 2 should be ignored. Typically, WMI applications should copy an existing configuration to a blank configuration file so this condition does not occur.
+   When importing the configuration from one domain to another using the ImportExport sample or a similar application developed using WMI, then step 2 should be ignored. Typically, WMI applications should copy an existing configuration to a blank configuration file so this condition does not occur.

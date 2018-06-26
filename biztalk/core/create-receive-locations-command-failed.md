@@ -17,15 +17,15 @@ manager: "anneta"
 # Create receive locations command failed
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Create receive locations command failed: FileName={0} Arguments={1} ExitCode={2}|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Event ID     |                                         0                                          |
+|  Event Source   |                                         0                                          |
+|    Component    |                                         0                                          |
+|  Symbolic Name  |                                         0                                          |
+|  Message Text   |  Create receive locations command failed: FileName={0} Arguments={1} ExitCode={2}  |
   
 ## Explanation  
  The publishing wizard failed to create a receive location.  

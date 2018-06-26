@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10832
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10832|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_SSO_DATABASE_REQUIRES_UPGRADE|  
-|Message Text|The specified SSO database exists but requires an upgrade.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10832                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |           ENTSSO_E_SSO_DATABASE_REQUIRES_UPGRADE           |
+|  Message Text   | The specified SSO database exists but requires an upgrade. |
   
 ## Explanation  
  The specified SSO database exists but requires an upgrade.  

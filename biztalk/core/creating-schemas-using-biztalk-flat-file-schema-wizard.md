@@ -17,13 +17,13 @@ manager: "anneta"
 # Creating Schemas Using BizTalk Flat File Schema Wizard
 The BizTalk Flat File Schema Wizard is designed to simplify the process of creating flat file schemas by providing the following:  
   
--   The ability to use flat file instances as input  
+- The ability to use flat file instances as input  
   
--   A visual design surface for working with delimited and positional flat file schemas  
+- A visual design surface for working with delimited and positional flat file schemas  
   
--   An interactive wizard-based process for adding elements to the schema and defining flat file related annotations.  
+- An interactive wizard-based process for adding elements to the schema and defining flat file related annotations.  
   
- This section provides an overview of the BizTalk Flat File Schema Wizard, steps for launching the wizard, considerations for working with the wizard, and a walkthrough that shows you how to create flat file schemas from a document instance.  
+  This section provides an overview of the BizTalk Flat File Schema Wizard, steps for launching the wizard, considerations for working with the wizard, and a walkthrough that shows you how to create flat file schemas from a document instance.  
   
 ## In This Section  
   

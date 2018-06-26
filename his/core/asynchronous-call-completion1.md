@@ -16,19 +16,19 @@ manager: "anneta"
 # Asynchronous Call Completion
 With one exception, Microsoft® Host Integration Server permits one outstanding Windows® SNA asynchronous call per connection and one blocking verb per thread. The exception to this is that when issuing an asynchronous [Receive](./receive-cpi-c-2.md) call, the following calls can be issued while the **Receive** is outstanding:  
   
--   [Cancel_Conversation](./cancel-conversation-cpi-c-2.md)  
+- [Cancel_Conversation](./cancel-conversation-cpi-c-2.md)  
   
--   [Deallocate](./deallocate-cpi-c-1.md)  
+- [Deallocate](./deallocate-cpi-c-1.md)  
   
--   [Request_To_Send](./request-to-send-cpi-c-1.md)  
+- [Request_To_Send](./request-to-send-cpi-c-1.md)  
   
--   [Send_Error](./send-error-cpi-c-2.md)  
+- [Send_Error](./send-error-cpi-c-2.md)  
   
--   [Test_Request_To_Send_Received](./test-request-to-send-received-cpi-c-1.md)  
+- [Test_Request_To_Send_Received](./test-request-to-send-received-cpi-c-1.md)  
   
- This enables an application, in particular a 5250 emulator, to use an asynchronous **Receive** to receive data. Use of this feature is strongly recommended.  
+  This enables an application, in particular a 5250 emulator, to use an asynchronous **Receive** to receive data. Use of this feature is strongly recommended.  
   
- The following example illustrates how to use asynchronous call completion with Host Integration Server:  
+  The following example illustrates how to use asynchronous call completion with Host Integration Server:  
   
 ```  
 void ProcessVerbCompletion (WPARAM wParam LPARAM lParam)  

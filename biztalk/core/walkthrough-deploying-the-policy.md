@@ -223,23 +223,23 @@ This walkthrough provides step-by-step instructions for deploying the **ProcessP
   
 #### To export the ProcessPurchaseOrder 1.3 policy and the POVocabulary vocabulary to an XML file  
   
-1.  On the **Start** menu, open [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]. If you have the tool already open, press F5 to refresh it.  
+1. On the **Start** menu, open [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]. If you have the tool already open, press F5 to refresh it.  
   
-2.  Expand **Console Root**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, expand **Applications**, and then expand **RuleTestApp**.  
+2. Expand **Console Root**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, expand **Applications**, and then expand **RuleTestApp**.  
   
-3.  Click **Policies** and make sure that you see the ProcessPurchaseOrder 1.3 policy in the list.  
+3. Click **Policies** and make sure that you see the ProcessPurchaseOrder 1.3 policy in the list.  
   
-4.  Right-click **ProcessPurchaseOrder**, and then click **Export**.  
+4. Right-click **ProcessPurchaseOrder**, and then click **Export**.  
   
-5.  In the **Export Policies** dialog box, make sure the **ProcessPurchaseOrder** policy and the **POVocabulary** are selected.  
+5. In the **Export Policies** dialog box, make sure the **ProcessPurchaseOrder** policy and the **POVocabulary** are selected.  
   
-    > [!NOTE]
-    >  You can export all the policies in an application to an XML file by right-clicking **RuleTest** and then clicking **Export** on the **Policies** menu. This way you can export all the policies and vocabulary used by this application to a single XML file.  
+   > [!NOTE]
+   >  You can export all the policies in an application to an XML file by right-clicking **RuleTest** and then clicking **Export** on the **Policies** menu. This way you can export all the policies and vocabulary used by this application to a single XML file.  
   
-    > [!NOTE]
-    >  You can export all the policies in all the applications to an XML file by right-clicking the **Applications** node and then clicking **Export** on the **Policies** menu. This way you can export all the policies and vocabularies used by all the applications into a single XML file.  
+   > [!NOTE]
+   >  You can export all the policies in all the applications to an XML file by right-clicking the **Applications** node and then clicking **Export** on the **Policies** menu. This way you can export all the policies and vocabularies used by all the applications into a single XML file.  
   
-6.  Specify an output XML file name (**C:\BRE-Walkthroughs\ProcessPOFromAdmin.xml**), and then click **Ok**.  
+6. Specify an output XML file name (**C:\BRE-Walkthroughs\ProcessPOFromAdmin.xml**), and then click **Ok**.  
   
 #### To delete the ProcessPurchaseOrder policy  
   
@@ -258,17 +258,17 @@ This walkthrough provides step-by-step instructions for deploying the **ProcessP
   
 #### To import the XML file to re-create the ProcessPurchaseOrder policy  
   
-1.  In BizTalk Server Administration, expand **Console Root**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and then expand **BizTalk Group**.  
+1. In BizTalk Server Administration, expand **Console Root**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and then expand **BizTalk Group**.  
   
-2.  Right-click **Applications**, point to **Import**, and then click **Policies**.  
+2. Right-click **Applications**, point to **Import**, and then click **Policies**.  
   
-3.  Browse, and double-click the XML file (**C:\BRE-Walkthroughs\ProcessPOFromAdmin.xml**) that you created in the first procedure.  
+3. Browse, and double-click the XML file (**C:\BRE-Walkthroughs\ProcessPOFromAdmin.xml**) that you created in the first procedure.  
   
-4.  Expand **\<All Artifacts\>** under **Applications**.  
+4. Expand **\<All Artifacts\>** under **Applications**.  
   
-5.  Click **Policies**, and you should see version 1.3 of the **ProcessPurchaseOrder** policy in the list.  
+5. Click **Policies**, and you should see version 1.3 of the **ProcessPurchaseOrder** policy in the list.  
   
-6.  Press F5 to refresh the view. The **ProcessPurchaseOrder** policy should be in the **Not Published** state.  
+6. Press F5 to refresh the view. The **ProcessPurchaseOrder** policy should be in the **Not Published** state.  
   
 #### To add the ProcessPurchaseOrder policy to the RuleTestApp application  
   
@@ -293,21 +293,21 @@ This walkthrough provides step-by-step instructions for deploying the **ProcessP
   
 #### To export the RuleTestApp application to an MSI file  
   
-1.  On the **Start** menu, open **BizTalk Server Administration**. If you have the tool already open, press F5 to refresh it.  
+1. On the **Start** menu, open **BizTalk Server Administration**. If you have the tool already open, press F5 to refresh it.  
   
-2.  Expand **Console Root**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, and then expand **Applications**.  
+2. Expand **Console Root**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, and then expand **Applications**.  
   
-3.  Right-click **RuleTestApp**, point to **Export**, and then click **MSI file**.  
+3. Right-click **RuleTestApp**, point to **Export**, and then click **MSI file**.  
   
-4.  On the **Welcome to the Export MSI File Wizard** page, click **Next**.  
+4. On the **Welcome to the Export MSI File Wizard** page, click **Next**.  
   
-5.  On the **Select Resources** page, review all the default options, and then click **Next**.  
+5. On the **Select Resources** page, review all the default options, and then click **Next**.  
   
-6.  On the **Specify IIS Hosts** page, click **Next**.  
+6. On the **Specify IIS Hosts** page, click **Next**.  
   
-7.  On the **Dependencies** page, click **Next**.  
+7. On the **Dependencies** page, click **Next**.  
   
-8.  On the **Destination** page, specify the directory and name for the MSI as **C:\BRE-Walkthroughs\RuleTestApp.msi**.  
+8. On the **Destination** page, specify the directory and name for the MSI as **C:\BRE-Walkthroughs\RuleTestApp.msi**.  
   
 9. Click **Export**.  
   
@@ -342,21 +342,21 @@ This walkthrough provides step-by-step instructions for deploying the **ProcessP
   
 #### To import the MSI file to re-create the RuleTestApp application  
   
-1.  On the **Start** menu, open **BizTalk Server Administration**. If you have the BizTalk Server Administration console already open, press F5 to refresh it.  
+1. On the **Start** menu, open **BizTalk Server Administration**. If you have the BizTalk Server Administration console already open, press F5 to refresh it.  
   
-2.  Expand **Console Root**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and then expand **BizTalk Group**.  
+2. Expand **Console Root**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and then expand **BizTalk Group**.  
   
-3.  Right-click **Applications**, point to **Import**, and then click **MSI file**.  
+3. Right-click **Applications**, point to **Import**, and then click **MSI file**.  
   
-4.  On the **Welcome to the Import Wizard** page, browse and select the MSI file (RuleTestApp.msi) you exported earlier for the **MSI file to import** setting.  
+4. On the **Welcome to the Import Wizard** page, browse and select the MSI file (RuleTestApp.msi) you exported earlier for the **MSI file to import** setting.  
   
-5.  Click **Next**.  
+5. Click **Next**.  
   
-6.  On the **Application Settings** page, click **Next**.  
+6. On the **Application Settings** page, click **Next**.  
   
-7.  On the **Application Target Environment Settings** page, click **Next**.  
+7. On the **Application Target Environment Settings** page, click **Next**.  
   
-8.  On the **Import Summary** page, click **Import**.  
+8. On the **Import Summary** page, click **Import**.  
   
 9. On the **Import Succeeded** page, click **Finish**. You should see that the **RuleTestApp** application is created under **Applications** in the BizTalk Server Administration console.  
   
@@ -379,19 +379,19 @@ This walkthrough provides step-by-step instructions for deploying the **ProcessP
   
 #### To test the solution  
   
-1.  On the **Start** menu, open **BizTalk Server Administration**. If you have the BizTalk Server Administration console already open, press F5 to refresh it.  
+1. On the **Start** menu, open **BizTalk Server Administration**. If you have the BizTalk Server Administration console already open, press F5 to refresh it.  
   
-2.  Expand **Console Root**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, and then expand **Applications**.  
+2. Expand **Console Root**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand **BizTalk Group**, and then expand **Applications**.  
   
-3.  Right-click **RuleTestApp**, and then click **Start**.  
+3. Right-click **RuleTestApp**, and then click **Start**.  
   
-4.  Click **Start**.  
+4. Click **Start**.  
   
-5.  Copy **SamplePO.xml** that you created in [Walkthrough: Testing the Policy](../core/walkthrough-testing-the-policy.md) to the input directory for the orchestration.  
+5. Copy **SamplePO.xml** that you created in [Walkthrough: Testing the Policy](../core/walkthrough-testing-the-policy.md) to the input directory for the orchestration.  
   
-6.  You should see an output file in the output directory for the orchestration. Open the output XML file and notice that the value of the **Status** field is set to **Approved**.  
+6. You should see an output file in the output directory for the orchestration. Open the output XML file and notice that the value of the **Status** field is set to **Approved**.  
   
-7.  Repeat steps 3 and 4 with **SamplePO2.xml**, and notice that the value of the **Status** field in the output document is the same as in the input document (**XYZ**).  
+7. Repeat steps 3 and 4 with **SamplePO2.xml**, and notice that the value of the **Status** field in the output document is the same as in the input document (**XYZ**).  
   
 ## Comments  
   

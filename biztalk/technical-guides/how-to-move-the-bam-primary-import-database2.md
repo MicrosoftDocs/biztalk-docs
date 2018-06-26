@@ -28,28 +28,28 @@ You can use this procedure to move the BAM Primary Import database to another se
   
 #### To move the BAM Primary Import database  
   
-1.  Stop any BAM cube update and data maintenance SSIS packages, or prevent them from running until you have restored the BAM Primary Import database.  
+1. Stop any BAM cube update and data maintenance SSIS packages, or prevent them from running until you have restored the BAM Primary Import database.  
   
-2.  Stop all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](http://go.microsoft.com/fwlink/?LinkId=154394) (http://go.microsoft.com/fwlink/?LinkId=154394) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
+2. Stop all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](http://go.microsoft.com/fwlink/?LinkId=154394) (<http://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
   
-3.  Stop the IIS service.  
+3. Stop the IIS service.  
   
-4.  Stop the BAM Alerts Notification service:  
+4. Stop the BAM Alerts Notification service:  
   
-    1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+   1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-    2.  At the command prompt, type:  
+   2.  At the command prompt, type:  
   
-         **Net stop NS$BamAlerts**  
+        **Net stop NS$BamAlerts**  
   
-5.  Back up the BAM Primary import database on the old server. For instructions on backing up a database, follow the instructions on how to back up a database at [How to: Back Up a Database (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156510) (http://go.microsoft.com/fwlink/?LinkId=156510) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online.  
+5. Back up the BAM Primary import database on the old server. For instructions on backing up a database, follow the instructions on how to back up a database at [How to: Back Up a Database (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156510) (<http://go.microsoft.com/fwlink/?LinkId=156510>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online.  
   
-6.  Copy the BAM Primary Import database to the new [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer.  
+6. Copy the BAM Primary Import database to the new [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer.  
   
-7.  Restore the BAM Primary import database on the new server. For instructions on restoring the database, follow the instructions on how to restore a database at [How to: Restore a Database Backup (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156511) (http://go.microsoft.com/fwlink/?LinkId=156511) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online.  
+7. Restore the BAM Primary import database on the new server. For instructions on restoring the database, follow the instructions on how to restore a database at [How to: Restore a Database Backup (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=156511) (<http://go.microsoft.com/fwlink/?LinkId=156511>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online.  
   
-    > [!NOTE]  
-    >  If you restore the BAM Primary Import database from a backup, then you should also restore the BAM Archive, BAM Star Schema, and BAM Analysis databases by using a backup older than the BAM Primary backup.  
+   > [!NOTE]  
+   >  If you restore the BAM Primary Import database from a backup, then you should also restore the BAM Archive, BAM Star Schema, and BAM Analysis databases by using a backup older than the BAM Primary backup.  
   
 ##  <a name="BKMK_BAMPIRef"></a> Updating References to the New BAM Primary Import Database  
  After you have moved the database, you must update all the references to the new BAM Primary Import Database. The following references must be updated:  
@@ -66,45 +66,45 @@ You can use this procedure to move the BAM Primary Import database to another se
   
 ###  <a name="BKMK_UpdateDB"></a> To update BizTalk Databases with the new server name  
   
-1.  On a computer running BizTalk Server, browse to the following folder:  
+1. On a computer running BizTalk Server, browse to the following folder:  
   
-    -   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 64-bit version of Windows Server:  
+   - If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 64-bit version of Windows Server:  
   
-         **%ProgramFiles(x86)%\Microsoft BizTalk Server 2010\bins32\Schema\Restore**  
+      **%ProgramFiles(x86)%\Microsoft BizTalk Server 2010\bins32\Schema\Restore**  
   
-    -   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 32-bit version of Windows Server:  
+   - If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 32-bit version of Windows Server:  
   
-         **%ProgramFiles%\Microsoft BizTalk Server 2010\Schema\Restore**  
+      **%ProgramFiles%\Microsoft BizTalk Server 2010\Schema\Restore**  
   
-2.  Right-click **SampleUpdateInfo.xml**, and then click **Edit**.  
+2. Right-click **SampleUpdateInfo.xml**, and then click **Edit**.  
   
-3.  Comment out all of the database sections except for the BizTalkMgmtDb, OldPrimaryImportDatabase, PrimaryImportDatabase, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert.  
+3. Comment out all of the database sections except for the BizTalkMgmtDb, OldPrimaryImportDatabase, PrimaryImportDatabase, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert.  
   
-4.  In the `OldPrimaryImportDatabase` section of the file, for the `ServerName` property, replace **SourceServer** with the name of existing server where the database resides.  
+4. In the `OldPrimaryImportDatabase` section of the file, for the `ServerName` property, replace **SourceServer** with the name of existing server where the database resides.  
   
-5.  In the `PrimaryImportDatabase` section of the file, for the `ServerName` property, replace **DestinationServer** with the name of the server where you have moved the BAM Primary Import database  
+5. In the `PrimaryImportDatabase` section of the file, for the `ServerName` property, replace **DestinationServer** with the name of the server where you have moved the BAM Primary Import database  
   
-6.  For the BizTalkMgmtDb, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert sections, set the "SourceServer" and "Destination Server" to the name of the existing server where those databases reside.  
+6. For the BizTalkMgmtDb, ArchivingDatabase, AnalysisDatabase, StarSchemaDatabase, and Alert sections, set the "SourceServer" and "Destination Server" to the name of the existing server where those databases reside.  
   
-    > [!IMPORTANT]  
-    >  Include the quotation marks around the name of the source and destination systems.  
+   > [!IMPORTANT]
+   >  Include the quotation marks around the name of the source and destination systems.  
+   > 
+   > [!NOTE]
+   >  If you renamed any of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, you must also update the database names as appropriate.  
   
-    > [!NOTE]  
-    >  If you renamed any of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, you must also update the database names as appropriate.  
+7. When you are finished editing the file, save it and exit.  
   
-7.  When you are finished editing the file, save it and exit.  
-  
-8.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+8. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
 9. At the command prompt, navigate to the following directory:  
   
-    -   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 64-bit version of Windows Server:  
+   - If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 64-bit version of Windows Server:  
   
-         **%ProgramFiles(x86)%\Microsoft BizTalk Server 2010\Schema\Restore**  
+      **%ProgramFiles(x86)%\Microsoft BizTalk Server 2010\Schema\Restore**  
   
-    -   If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 32-bit version of Windows Server:  
+   - If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 32-bit version of Windows Server:  
   
-         **%ProgramFiles%\Microsoft BizTalk Server 2010\Schema\Restore**  
+      **%ProgramFiles%\Microsoft BizTalk Server 2010\Schema\Restore**  
   
 10. At the command prompt, type:  
   
@@ -135,15 +135,15 @@ You can use this procedure to move the BAM Primary Import database to another se
   
 ###  <a name="BKMK_UpdateExcel"></a> To update reference in BAM Livedata Microsoft Excel files  
   
-1.  Open the Excel live data file. The file name ends with _LiveData.xls.  
+1. Open the Excel live data file. The file name ends with _LiveData.xls.  
   
-2.  On the **BAM** menu, click **BAM DB Connection**.  
+2. On the **BAM** menu, click **BAM DB Connection**.  
   
-3.  In the **Select BAM Database** dialog box, enter the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer and the BAMPrimaryImport database, and then click **OK**.  
+3. In the **Select BAM Database** dialog box, enter the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer and the BAMPrimaryImport database, and then click **OK**.  
   
-4.  On the **File** menu, click **Close and Return to Microsoft Excel**.  
+4. On the **File** menu, click **Close and Return to Microsoft Excel**.  
   
-5.  On the **File** menu, click **Save**.  
+5. On the **File** menu, click **Save**.  
   
 ###  <a name="BKMK_UpdatePckg"></a> To update server and database names in all BAM SSIS packages  
   
@@ -199,27 +199,27 @@ You can use this procedure to move the BAM Primary Import database to another se
   
 ###  <a name="BKMK_UpdateDSOLAP"></a> To update server and database names in data sources for all OLAP cubes  
   
-1.  Update the server and database names in data sources for all OLAP cubes. To do so, click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 R2** or **Microsoft SQL Server 2008 SP1**, and then click **SQL Server Management Studio**.  
+1. Update the server and database names in data sources for all OLAP cubes. To do so, click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 R2** or **Microsoft SQL Server 2008 SP1**, and then click **SQL Server Management Studio**.  
   
-2.  In the **Connect to Server** dialog box, for the **Server type** drop-down list select **Analysis Services**, provide the server name, select an authentication method (and provide credentials if required), and then click **Connect**.  
+2. In the **Connect to Server** dialog box, for the **Server type** drop-down list select **Analysis Services**, provide the server name, select an authentication method (and provide credentials if required), and then click **Connect**.  
   
-3.  In the Object Explorer, expand **Databases**, expand **BAMAnalysis**, expand **Data Sources**, and then double-click a data source.  
+3. In the Object Explorer, expand **Databases**, expand **BAMAnalysis**, expand **Data Sources**, and then double-click a data source.  
   
-4.  In the **Data Source Properties** dialog box, click the ellipsis button **(…)** against the **Connection String** property.  
+4. In the **Data Source Properties** dialog box, click the ellipsis button **(…)** against the **Connection String** property.  
   
-5.  In the **Connection Manager** dialog box, in the **Server name** box, enter the name of the server hosting the BAMPrimaryImport database, click **OK**, and then click **OK**.  
+5. In the **Connection Manager** dialog box, in the **Server name** box, enter the name of the server hosting the BAMPrimaryImport database, click **OK**, and then click **OK**.  
   
-6.  Start all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](http://go.microsoft.com/fwlink/?LinkId=154394) (http://go.microsoft.com/fwlink/?LinkId=154394) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
+6. Start all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](http://go.microsoft.com/fwlink/?LinkId=154394) (<http://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
   
-7.  Start the IIS service.  
+7. Start the IIS service.  
   
-8.  Start the BAM Alerts Notification service:  
+8. Start the BAM Alerts Notification service:  
   
-    1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+   1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-    2.  At the command prompt, type:  
+   2.  At the command prompt, type:  
   
-         **Net start NS$BamAlerts**  
+        **Net start NS$BamAlerts**  
   
 9. Resolve any incomplete trace instances.  For information about resolving incomplete BAM activity instances, see [How to Resolve Incomplete Activity Instances](http://go.microsoft.com/fwlink/?LinkId=151475) (http://go.microsoft.com/fwlink/?LinkId=151475).  
   

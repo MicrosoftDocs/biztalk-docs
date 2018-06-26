@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10602
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10602|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_ERROR_RPC_FAILURE|  
-|Message Text|RPC failure. Please check your network configuration.%r<br /><br /> Error Code: %1|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   |                             Enterprise Single Sign-On                              |
+| Product Version |             [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]             |
+|    Event ID     |                                       10602                                        |
+|  Event Source   |                                       ENTSSO                                       |
+|    Component    |                                        N/A                                         |
+|  Symbolic Name  |                               SSO_ERROR_RPC_FAILURE                                |
+|  Message Text   | RPC failure. Please check your network configuration.%r<br /><br /> Error Code: %1 |
   
 ## Explanation  
  RPC failure.  

@@ -30,19 +30,19 @@ The RosettaNet organization creates and maintains Partner Interface Processes (P
 ## PIP Contents  
  A PIP specification does the following:  
   
--   Describes which public process pattern it implements  
+- Describes which public process pattern it implements  
   
--   Describes how to configure the public process  
+- Describes how to configure the public process  
   
--   Provides references to the documents to exchange within the PIP  
+- Provides references to the documents to exchange within the PIP  
   
- A PIP specification includes three major parts: a Business Operational View (BOV), Functional Service View (FSV), and an Implementation Framework View (IFV). Each of these views specifies element-level constraints:  
+  A PIP specification includes three major parts: a Business Operational View (BOV), Functional Service View (FSV), and an Implementation Framework View (IFV). Each of these views specifies element-level constraints:  
   
--   The BOV specifies the semantics of business data entities and the business process flow. It describes start and end states, and partner roles. It describes the interaction between roles, and details security, audit, and process controls. It specifies the business documents and business data entities.  
+- The BOV specifies the semantics of business data entities and the business process flow. It describes start and end states, and partner roles. It describes the interaction between roles, and details security, audit, and process controls. It specifies the business documents and business data entities.  
   
--   The FSV specifies network component services, agents, and interactions. It provides the network component design required to run the PIPs, and describes possible network component interactions.  
+- The FSV specifies network component services, agents, and interactions. It provides the network component design required to run the PIPs, and describes possible network component interactions.  
   
--   The IFV specifies the network-protocol message formats and communication requirements required to run the PIP.  
+- The IFV specifies the network-protocol message formats and communication requirements required to run the PIP.  
   
 ## Clusters and Segments  
  You categorize PIPs by a high-level business function (cluster) and a subfunction (segment). Clusters and segments organize business messages into recognizable categories. The following table lists these clusters and segments.  

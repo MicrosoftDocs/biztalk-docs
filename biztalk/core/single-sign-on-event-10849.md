@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10849
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10849|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_DIRECT_SYNC_NOT_ALLOWED_CREATE|  
-|Message Text|An application cannot be created with the ‘direct password sync’ flag specified.|  
+|                 |                                                                                  |
+|-----------------|----------------------------------------------------------------------------------|
+|  Product Name   |                            Enterprise Single Sign-On                             |
+| Product Version |            [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]            |
+|    Event ID     |                                      10849                                       |
+|  Event Source   |                                      ENTSSO                                      |
+|    Component    |                                       N/A                                        |
+|  Symbolic Name  |                     ENTSSO_E_DIRECT_SYNC_NOT_ALLOWED_CREATE                      |
+|  Message Text   | An application cannot be created with the ‘direct password sync’ flag specified. |
   
 ## Explanation  
  An application cannot be created with the ‘direct password sync’ flag specified.  

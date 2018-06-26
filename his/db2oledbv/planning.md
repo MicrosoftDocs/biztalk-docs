@@ -47,8 +47,8 @@ Enterprise developers who are using on-line transactional processing (OLTP) and 
  
 ### Usage reporting 
  Data Provider includes technology for telemetry and error reporting. The HIS product team utilizes this data to improve the quality, reliability, and performance of the Data Provider. Ths includes:
--    Installation reports when product is installed, changed or removed.
--    Runtime monitors connections established by reporting the connection instance by DRDA server class and version, data provider name and data consumer process name.
--    Runtime monitors errors by reporting SQLSTATE, SQLCODE, and reason code.
+- Installation reports when product is installed, changed or removed.
+- Runtime monitors connections established by reporting the connection instance by DRDA server class and version, data provider name and data consumer process name.
+- Runtime monitors errors by reporting SQLSTATE, SQLCODE, and reason code.
 
-    > **NOTE:** To disable usage reporting, use the **Options** dialog of the Data Provider **Data Access Tool**. 
+  > **NOTE:** To disable usage reporting, use the **Options** dialog of the Data Provider **Data Access Tool**. 

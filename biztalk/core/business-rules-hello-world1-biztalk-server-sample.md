@@ -58,38 +58,38 @@ The Business Rules Hello World1 sample demonstrates how to create a BizTalk rule
   
 #### To build and initialize this sample  
   
-1.  In a command window, navigate to the following folder:  
+1. In a command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\Business Rules\Business Rules Hello World1\  
+    \<*Samples Path*\>\Business Rules\Business Rules Hello World1\  
   
-2.  Run the file Setup.bat, which performs the following actions:  
+2. Run the file Setup.bat, which performs the following actions:  
   
-    -   Compiles and deploys the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects for this sample.  
+   - Compiles and deploys the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects for this sample.  
   
-    > [!NOTE]
-    >  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
-  
-    > [!NOTE]
-    >  If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe). Use this key pair to sign the resulting assemblies.  
-  
-    > [!NOTE]
-    >  To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
+   > [!NOTE]
+   >  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
+   > 
+   > [!NOTE]
+   >  If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe). Use this key pair to sign the resulting assemblies.  
+   > 
+   > [!NOTE]
+   >  To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
   
 ## Running This Sample  
  Use the following procedure to run the Business Rules Hello World1 sample.  
   
 #### To run this sample  
   
-1.  In a command window, navigate to the following folder:  
+1. In a command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\Business Rules\Business Rules Hello World1\bin\Debug\  
+    \<*Samples Path*\>\Business Rules\Business Rules Hello World1\bin\Debug\  
   
-2.  In the command window, type the name of the executable file for this sample (BusinessRulesHelloWorld1.exe), and then press ENTER.  
+2. In the command window, type the name of the executable file for this sample (BusinessRulesHelloWorld1.exe), and then press ENTER.  
   
-    > [!NOTE]
-    >  While running, this sample produces the rule set file SampleRuleStore.xml in the **bin\Debug** folder. When the executable pauses, waiting for you to press ENTER to finish, you can examine the contents of this file. Remember to close it before pressing any key to finish. Otherwise, the executable may not be able to delete it in preparation for subsequent runs of the sample.  
+   > [!NOTE]
+   >  While running, this sample produces the rule set file SampleRuleStore.xml in the **bin\Debug** folder. When the executable pauses, waiting for you to press ENTER to finish, you can examine the contents of this file. Remember to close it before pressing any key to finish. Otherwise, the executable may not be able to delete it in preparation for subsequent runs of the sample.  
   
- Based on the nature of the created rule set, if you run this sample with the provided sample input file SampleDocumentInstance.xml, which has a value of one (1) defined for its **ID** element, you will see the following output:  
+   Based on the nature of the created rule set, if you run this sample with the provided sample input file SampleDocumentInstance.xml, which has a value of one (1) defined for its **ID** element, you will see the following output:  
   
 ```  
 Creating a new ruleset ...  
@@ -133,11 +133,11 @@ Press any key to finish ...
   
  This rule depends on the following:  
   
--   A **MySampleBusinessObject** class with a public property called **MyValue** and a public method called **MySampleMethod** (that takes in an integer parameter).  
+- A **MySampleBusinessObject** class with a public property called **MyValue** and a public method called **MySampleMethod** (that takes in an integer parameter).  
   
--   An XML schema definition language (XSD) schema that defines an XML document that contains an **ID** element.  
+- An XML schema definition language (XSD) schema that defines an XML document that contains an **ID** element.  
   
- You define rules in terms of classes and schemas, but during execution, object instances of the relevant classes and document instances of the relevant schemas are required. You evaluate the rules against these run-time instances (known as facts). In this sample, the facts are multiple instances of the **MySampleBusinessObject** object, constructed with different values for their **MyValue** property, and a single XML instance of the defined schema that contains a value for the **ID** element.  
+  You define rules in terms of classes and schemas, but during execution, object instances of the relevant classes and document instances of the relevant schemas are required. You evaluate the rules against these run-time instances (known as facts). In this sample, the facts are multiple instances of the **MySampleBusinessObject** object, constructed with different values for their **MyValue** property, and a single XML instance of the defined schema that contains a value for the **ID** element.  
   
 ## See Also  
  [Business Rules (BizTalk Server Samples Folder)](../core/business-rules-biztalk-server-samples-folder.md)

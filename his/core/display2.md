@@ -268,22 +268,22 @@ struct display {
   
  The **DISPLAY** verb requires a user-supplied buffer for the return of system information. If the buffer is not large enough, APPC returns the AP_DISPLAY_INFO_EXCEEDS_LEN return code, along with the size actually needed at the time of the request (in the **area_needed** parameter). One possible strategy for the use of this verb follows:  
   
--   If the **buffer_len** value is less than the **area_needed** value returned by APPC, and the required length is less than 64 kilobytes (KB), then increase the size of the display buffer to equal or greater than the **area_needed** value.  
+- If the **buffer_len** value is less than the **area_needed** value returned by APPC, and the required length is less than 64 kilobytes (KB), then increase the size of the display buffer to equal or greater than the **area_needed** value.  
   
--   If the **area_needed** value is greater than 64KB, you can choose to request each information section individually. Or, you can take the following steps:  
+- If the **area_needed** value is greater than 64KB, you can choose to request each information section individually. Or, you can take the following steps:  
   
-    1.  Process the information sections with complete information, whose total number displayed equals the total actual number.  
+  1.  Process the information sections with complete information, whose total number displayed equals the total actual number.  
   
-    2.  Choose a subset of the information sections you requested that contains incomplete information, and reissue the verb requesting those information sections.  
+  2.  Choose a subset of the information sections you requested that contains incomplete information, and reissue the verb requesting those information sections.  
   
-    3.  Repeat steps a and b as needed.  
+  3.  Repeat steps a and b as needed.  
   
-    > [!NOTE]
-    >  If an individual information section is greater than 64 KB, then you cannot get all of the requested information from APPC.  
+  > [!NOTE]
+  >  If an individual information section is greater than 64 KB, then you cannot get all of the requested information from APPC.  
   
- The **DISPLAY** verb should not be executed from different threads of the same process, since it is not thread-safe.  
+  The **DISPLAY** verb should not be executed from different threads of the same process, since it is not thread-safe.  
   
- The **DISPLAY** verb returns AP_DISPLAY_INVALID_CONSTANT if the following values are not set for the supplied parameters for **init_sect_len** and **num_sections**:  
+  The **DISPLAY** verb returns AP_DISPLAY_INVALID_CONSTANT if the following values are not set for the supplied parameters for **init_sect_len** and **num_sections**:  
   
 ||NS/2 format|IBM EE format|NS/2 format (Windows only)|IBM EE format (Windows only)|  
 |------|------------------|-------------------|-----------------------------------|------------------------------------|  

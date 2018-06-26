@@ -43,15 +43,15 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
   
 ## Steps
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, click **Platform Settings**, and then click **Host Instances**.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, click **Platform Settings**, and then click **Host Instances**.  
   
-3.  In the details pane, right-click the host instance you want to start, and then click **Start**.  
+3. In the details pane, right-click the host instance you want to start, and then click **Start**.  
   
-     The status of the host instance changes to **Start pending**. After the host instance initiates, the status changes to **Running**.  
+    The status of the host instance changes to **Start pending**. After the host instance initiates, the status changes to **Running**.  
   
- After you start a host instance, you can stop it to prevent it from routing messages to the MessageBox database. You must stop a host instance before you can remove BizTalk Server from a given computer. For information about stopping a host instance, see [How to Stop a Host Instance](../core/how-to-stop-a-host-instance.md).  
+   After you start a host instance, you can stop it to prevent it from routing messages to the MessageBox database. You must stop a host instance before you can remove BizTalk Server from a given computer. For information about stopping a host instance, see [How to Stop a Host Instance](../core/how-to-stop-a-host-instance.md).  
   
 ## See Also  
  [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   

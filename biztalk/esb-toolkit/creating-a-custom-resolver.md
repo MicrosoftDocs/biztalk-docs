@@ -58,29 +58,29 @@ UDDI:\\serverUrl=http://localhost/uddi;serviceName=OrderPurchaseToOrderPost;serv
   
  Two Universal Description, Discovery, and Integration (UDDI) 3 resolvers have been defined in the configuration: UDDI 3 and UDDI 3-SOASOFTWARE. Both of these resolvers use the same underlying assembly, but they provide different configurations for supporting different UDDI 3.0–compliant registries with different Uniform Resource Identifier (URI) formats and security requirements. If you need to configure an additional moniker for a UDDI 3.0–compliant registry besides those already supported, the following configuration properties can be used:  
   
--   **cacheTimeoutValue**  
+- **cacheTimeoutValue**  
   
--   **cacheName**  
+- **cacheName**  
   
--   **publisherKey**  
+- **publisherKey**  
   
--   **useUddiAuth**  
+- **useUddiAuth**  
   
--   **baseUri**  
+- **baseUri**  
   
--   **inquireUriSuffix**  
+- **inquireUriSuffix**  
   
--   **securityUriSuffix**  
+- **securityUriSuffix**  
   
--   **securityMode**. For valid values, see the enumeration [System.ServiceModel.BasicHttpSecurityMode](http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409) ([http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409](http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409)). The default value is **TransportCredentialOnly**.  
+- **securityMode**. For valid values, see the enumeration [System.ServiceModel.BasicHttpSecurityMode](http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409) ([http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409](http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409)). The default value is **TransportCredentialOnly**.  
   
--   **credentialType**. For valid values, see the enumeration [System.ServiceModel.HttpClientCredentialType](http://go.microsoft.com/fwlink/?LinkId=188285) ([http://go.microsoft.com/fwlink/?LinkId=188285](http://go.microsoft.com/fwlink/?LinkId=188285)). The default value is **Windows**.  
+- **credentialType**. For valid values, see the enumeration [System.ServiceModel.HttpClientCredentialType](http://go.microsoft.com/fwlink/?LinkId=188285) ([http://go.microsoft.com/fwlink/?LinkId=188285](http://go.microsoft.com/fwlink/?LinkId=188285)). The default value is **Windows**.  
   
--   **username**  
+- **username**  
   
--   **password**  
+- **password**  
   
- If you want to create a resolver that relies on the dependency injection capabilities of the Unity Application Block, additional configuration is required. For more information, see [Creating a Custom Resolver with a Unity Container](../esb-toolkit/creating-a-custom-resolver-with-a-unity-container.md).  
+  If you want to create a resolver that relies on the dependency injection capabilities of the Unity Application Block, additional configuration is required. For more information, see [Creating a Custom Resolver with a Unity Container](../esb-toolkit/creating-a-custom-resolver-with-a-unity-container.md).  
   
 ## The IResolveProvider Interface  
  All resolvers must implement the **IResolveProvider** interface. The **IResolveProvider** interface, located in the Microsoft.Practices.ESB.Resolver project, consists of three overloads of the **Resolve** method that return an instance of the **Dictionary** class, which contains resolution facts provided by the instance of concrete resolver class. The following code example shows the signature of these method overloads.  
@@ -151,19 +151,19 @@ UDDI:\\serverUrl=http://localhost/uddi;serviceName=OrderPurchaseToOrderPost;serv
 ## Creating a Custom Resolver  
  At run time, a pipeline retrieves the resolver connection string and calls the resolver manager (an instance of the **ResolverMgr** class). The resolver manager parses, populates, and validates the resolver connection string. It does this by doing the following:  
   
--   It parses the connection string to determine which **Resolver** type to load.  
+- It parses the connection string to determine which **Resolver** type to load.  
   
--   It matches this type to a moniker defined in the configuration file (the key is the root moniker, such as UDDI).  
+- It matches this type to a moniker defined in the configuration file (the key is the root moniker, such as UDDI).  
   
--   It reads the assembly name of the resolver for this moniker.  
+- It reads the assembly name of the resolver for this moniker.  
   
--   It loads the specified assembly.  
+- It loads the specified assembly.  
   
- The dynamic resolution mechanism caches all loaded implementations of the **IResolveProvider** interface to avoid repeated reading of configuration information and assembly loading when several incoming messages use the same resolver.  
+  The dynamic resolution mechanism caches all loaded implementations of the **IResolveProvider** interface to avoid repeated reading of configuration information and assembly loading when several incoming messages use the same resolver.  
   
- Finally, the resolver manager executes the **Resolve** method of the concrete **IResolveProvider** implementation and returns the populated **Dictionary** instance.  
+  Finally, the resolver manager executes the **Resolve** method of the concrete **IResolveProvider** implementation and returns the populated **Dictionary** instance.  
   
- **To create a custom resolver**  
+  **To create a custom resolver**  
   
 1.  Create an assembly with a class that implements the **IResolveProvider** interface and contains a **Resolve** method that returns resolver facts as an instance of the **Dictionary** class.  
   

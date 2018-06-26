@@ -61,11 +61,11 @@ This topic presents the threat model analysis (TMA) for the HTTP and SOAP (Web s
 ## Step 2. Create and Analyze the Threat Model (HTTP and SOAP Adapters Scenario)  
  This section provides the results of the TMA we did for the HTTP and SOAP (Web services) adapters scenario for the sample architecture.  
   
--   **Identify Entry Points, Trust Boundaries, and Flow of Data -** See background information described earlier in step 1 and [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).  
+- **Identify Entry Points, Trust Boundaries, and Flow of Data -** See background information described earlier in step 1 and [Background Information for Sample Scenarios](../core/background-information-for-sample-scenarios.md).  
   
--   **Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges. The following table lists the threats we identified when you use the HTTP and SOAP adapters to send and receive messages to and from BizTalk Server.  
+- **Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges. The following table lists the threats we identified when you use the HTTP and SOAP adapters to send and receive messages to and from BizTalk Server.  
   
- **Table 1 List of threats**  
+  **Table 1 List of threats**  
   
 |Threat|Description|Asset|Impact|  
 |------------|-----------------|-----------|------------|  

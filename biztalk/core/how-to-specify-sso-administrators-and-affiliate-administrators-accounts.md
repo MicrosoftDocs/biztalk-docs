@@ -77,14 +77,14 @@ The Enterprise Single Sign-On (SSO) Administrators and Affiliate Administrators 
   
 ### To update the SSO database using the command line  
   
-1.  On the **Start** menu, click **run**, and then type **cmd**.  
+1. On the **Start** menu, click **run**, and then type **cmd**.  
   
-2.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+2. At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type **ssomanage –updatedb *\<update file\>***, where *\<update file\>* is the path and name of the XML file.  
+3. Type **ssomanage –updatedb *\<update file\>**<em>, where *\<update file\></em> is the path and name of the XML file.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
 ### To enable the Enterprise Single Sign-On system using the MMC Snap-In  
   

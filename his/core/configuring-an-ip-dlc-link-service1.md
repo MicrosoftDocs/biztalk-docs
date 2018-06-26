@@ -18,17 +18,17 @@ As with other link services, configuration requires setting parameters on the **
   
 #### To configure an IP-DLC link service  
   
-1.  If you have just created a new IP-DLC link service, the **IP-DLC Link Service Properties** dialog box displays. To reconfigure an existing IP-DLC link service, right-click the IP-DLC link service in the scope pane of the MCC snap-in, click **Properties**, and then click the **Configure** button to load the IP-DLC Link Service Properties dialog box.  
+1. If you have just created a new IP-DLC link service, the **IP-DLC Link Service Properties** dialog box displays. To reconfigure an existing IP-DLC link service, right-click the IP-DLC link service in the scope pane of the MCC snap-in, click **Properties**, and then click the **Configure** button to load the IP-DLC Link Service Properties dialog box.  
   
-2.  Add the required parameters according to the following table.  
+2. Add the required parameters according to the following table.  
   
-3.  Click **OK** to persist the settings to the configuration file and registry. The **Insert Link Service** dialog box appears.  
+3. Click **OK** to persist the settings to the configuration file and registry. The **Insert Link Service** dialog box appears.  
   
-4.  Click **Complete Configuration of the IP-DLC Link Service**.  
+4. Click **Complete Configuration of the IP-DLC Link Service**.  
   
- **General**  
+   **General**  
   
- The **General** page includes specified key configuration options that are required so that the IP-DLC link service is able to communicate with the NNS and the APPN network.  
+   The **General** page includes specified key configuration options that are required so that the IP-DLC link service is able to communicate with the NNS and the APPN network.  
   
 |||  
 |-|-|  
@@ -74,13 +74,13 @@ As with other link services, configuration requires setting parameters on the **
   
  Virtual Routing Nodes (VRN) are virtual nodes that exist in an Advanced Peer-to-Peer Networking (APPN) topology database. APPN nodes that operate in a VRN enable you to create dynamic connections to other APPN nodes in the same VRN. VRNs provide the following benefits:  
   
--   If direct connectivity between APPN nodes is required, VRNs reduce the number of APPN link definitions that must be manually defined.  
+- If direct connectivity between APPN nodes is required, VRNs reduce the number of APPN link definitions that must be manually defined.  
   
--   VRNs remove potential bottlenecks that are caused when session traffic is routed through intermediate network nodes (NNs) and when direct APPN links between APPN nodes do not exist.  
+- VRNs remove potential bottlenecks that are caused when session traffic is routed through intermediate network nodes (NNs) and when direct APPN links between APPN nodes do not exist.  
   
--   Fewer topology database updates (TDUs) are sent across the APPC network when VRNs are used. The number of TDUs is more when you manually define direct APPC link definitions between APPN nodes.  
+- Fewer topology database updates (TDUs) are sent across the APPC network when VRNs are used. The number of TDUs is more when you manually define direct APPC link definitions between APPN nodes.  
   
- The following table lists the options that you can use:  
+  The following table lists the options that you can use:  
   
 |**Option**|**Comment**|  
 |----------------|-----------------|  

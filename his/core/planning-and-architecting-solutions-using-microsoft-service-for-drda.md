@@ -46,36 +46,36 @@ The following sections provide help for planning and architecting solutions usin
 ### Distributed Relational Database Architecture  
  IBM DB2 clients and servers communicate using Distributed Relational Database Architecture (DRDA) protocol and formats. The DRDA Service functions as a DRDA Application Server (AS) to enable DRDA Application Requester (AR) clients to interact with Microsoft SQL Server databases. The DRDA Service supports a limited set of DRDA code points as defined in the architecture references published by The Open Group ([http://www.opengroup.org](http://www.opengroup.org)).  
   
--   DRDA, Version 5, Volume 1: Distributed Relational Database Architecture (DRDA)  
+- DRDA, Version 5, Volume 1: Distributed Relational Database Architecture (DRDA)  
   
--   DRDA, Version 5, Volume 2: Formatted Data Object Content Architecture (FD:OCA)  
+- DRDA, Version 5, Volume 2: Formatted Data Object Content Architecture (FD:OCA)  
   
--   DRDA, Version 5, Volume 3: Distributed Data Management (DDM) Architecture  
+- DRDA, Version 5, Volume 3: Distributed Data Management (DDM) Architecture  
   
- You can download DRDA V5 Vol. 3: Distributed Data Management Architecture, publication number C114, from the Open Group bookstore ([http://go.microsoft.com/fwlink/?LinkID=219127&clcid=0x409](http://go.microsoft.com/fwlink/?LinkID=219127&clcid=0x409)).  
+  You can download DRDA V5 Vol. 3: Distributed Data Management Architecture, publication number C114, from the Open Group bookstore ([http://go.microsoft.com/fwlink/?LinkID=219127&clcid=0x409](http://go.microsoft.com/fwlink/?LinkID=219127&clcid=0x409)).  
   
 ### IBM DB2 Servers and Clients  
  Microsoft, IBM, and third-party vendors implement DRDA protocols and formats in various DRDA Application Requester (AR) client technologies. The DRDA Service supports in-bound connections from DRDA AR clients that conform to the DRDA Version 5 standard, including DRDA ARs packaged in these IBM and Microsoft products.  
   
--   IBM DB2 for z/OS V9 and V10  
+- IBM DB2 for z/OS V9 and V10  
   
--   IBM DB2 for i5/OS V5R4, V6R1, V7R1  
+- IBM DB2 for i5/OS V5R4, V6R1, V7R1  
   
--   IBM DB2 for LUW V9.7 and V10  
+- IBM DB2 for LUW V9.7 and V10  
   
- Microsoft HIS 2013 includes two DRDA Application Requester clients, one designed to connect to remote IBM DB2 database servers and one designed to connect to remove IBM Informix database servers. These DRDA ARs support a subset of DRDA Version 5.0. The Microsoft client for DB2 supports these data providers for DB2:  
+  Microsoft HIS 2013 includes two DRDA Application Requester clients, one designed to connect to remote IBM DB2 database servers and one designed to connect to remove IBM Informix database servers. These DRDA ARs support a subset of DRDA Version 5.0. The Microsoft client for DB2 supports these data providers for DB2:  
   
--   Microsoft ODBC Driver for DB2  
+- Microsoft ODBC Driver for DB2  
   
--   Microsoft OLE DB Provider for DB2  
+- Microsoft OLE DB Provider for DB2  
   
--   Microsoft ADO.NET Framework Data Provider for DB2  
+- Microsoft ADO.NET Framework Data Provider for DB2  
   
--   Microsoft BizTalk Adapter for DB2  
+- Microsoft BizTalk Adapter for DB2  
   
--   Microsoft Entity Framework Provider for DB2  
+- Microsoft Entity Framework Provider for DB2  
   
- The Service for DRDA provides basic DRDA support for Microsoft DRDA clients and IBM DRDA clients.  
+  The Service for DRDA provides basic DRDA support for Microsoft DRDA clients and IBM DRDA clients.  
   
 ### Enterprise Single Sign-On  
  The DRDA Service relies on Microsoft Enterprise Single Sign-On to map in-bound host credentials (e.g. RACF user authorization identifier) to out-bound Windows Active Directory (AD) credentials, allowing the DRDA Service to connect to SQL Server using Integrated Security.  

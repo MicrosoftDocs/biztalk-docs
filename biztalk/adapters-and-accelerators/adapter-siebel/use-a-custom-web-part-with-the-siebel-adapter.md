@@ -64,19 +64,19 @@ This section provides information about using a custom Web Part with Microsoft O
 ## Step 3: Configure the SharePoint Portal to use the custom Web Part  
  You need to add the custom Web Part to the Microsoft Office SharePoint Server Web Part Gallery, so that you can use it on your SharePoint portal. To do so:  
   
-1.  Start SharePoint 3.0 Central Administration. Click **Start**, point to **All Programs**, point to **Microsoft Office Server**, and then click **SharePoint 3.0 Central Administration**.  
+1. Start SharePoint 3.0 Central Administration. Click **Start**, point to **All Programs**, point to **Microsoft Office Server**, and then click **SharePoint 3.0 Central Administration**.  
   
-2.  In the left navigation pane, click the name of the Shared Services Provider (SSP) to which you want to add the custom Web Part.  
+2. In the left navigation pane, click the name of the Shared Services Provider (SSP) to which you want to add the custom Web Part.  
   
-3.  On the **Shared Services Administration** page, in the upper-right corner, click **Site Actions**, and then click **Create**.  
+3. On the **Shared Services Administration** page, in the upper-right corner, click **Site Actions**, and then click **Create**.  
   
-4.  On the **Site Settings** page, click **Web Parts** under the **Galleries** column.  
+4. On the **Site Settings** page, click **Web Parts** under the **Galleries** column.  
   
-5.  On the **Web Part Gallery** page, to add the custom Web Part to the gallery,  click **New**. At this point the custom Web Part is not available in the **Web Part Gallery** page.  
+5. On the **Web Part Gallery** page, to add the custom Web Part to the gallery,  click **New**. At this point the custom Web Part is not available in the **Web Part Gallery** page.  
   
-6.  On the **New Web Parts** page, locate **CustomWebPart** (name of the custom Web Part) in the list, select the check box on the left, and then click **Populate Gallery** on the top of the page. This will add the **CustomWebPart** entry in the **Web Part Gallery** page.  
+6. On the **New Web Parts** page, locate **CustomWebPart** (name of the custom Web Part) in the list, select the check box on the left, and then click **Populate Gallery** on the top of the page. This will add the **CustomWebPart** entry in the **Web Part Gallery** page.  
   
- Now you can use the custom Web Part (**CustomWebPart**) to create Web Parts in your SharePoint portal. The custom Web Part (**CustomWebPart**) will appear under the **Miscellaneous** section in the **Add Web Parts** page.  
+   Now you can use the custom Web Part (**CustomWebPart**) to create Web Parts in your SharePoint portal. The custom Web Part (**CustomWebPart**) will appear under the **Miscellaneous** section in the **Add Web Parts** page.  
   
 ## See Also  
  [Use the Siebel Adapter with SharePoint](../../adapters-and-accelerators/adapter-siebel/use-the-siebel-adapter-with-sharepoint.md)

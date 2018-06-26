@@ -66,25 +66,25 @@ This section provides information that you should take into consideration when c
   
 > [!NOTE]
 >  To configure the **MethodName** property for the static SOAP send port programmatically, you need to set **Method name** to **[Specify Later]** in the **Web Service** tab of the **SOAP Transport Properties** dialog box in the BizTalk Server Administration Console.  
->   
+> 
 >  For more information about the **MethodName** property, see [How to Dynamically Set the URI of a Consumed Web Service](../core/how-to-dynamically-set-the-uri-of-a-consumed-web-service.md).  
->   
+> 
 >  For more information about **SOAP Transport Properties** dialog box, see the **SOAP Transport Properties Dialog Box, Web service** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Property Rules  
  If the configuration property is set in an orchestration or in a custom pipeline component in a receive pipeline, then the following rules are applied:  
   
--   If a message is sent to a static send port, the property value will be overwritten with the value configured for that send port.  
+- If a message is sent to a static send port, the property value will be overwritten with the value configured for that send port.  
   
--   If a message is sent to a dynamic send port, the property value will not be overwritten.  
+- If a message is sent to a dynamic send port, the property value will not be overwritten.  
   
- If a configuration property is set in a custom pipeline component in a send pipeline, then the following rule is applied:  
+  If a configuration property is set in a custom pipeline component in a send pipeline, then the following rule is applied:  
   
--   The value will not be overwritten regardless of whether the message is sent to a static or dynamic send port. In other words, send pipeline components overwrite the configuration property no matter where it was set.  
+- The value will not be overwritten regardless of whether the message is sent to a static or dynamic send port. In other words, send pipeline components overwrite the configuration property no matter where it was set.  
   
--   For more information about custom pipeline components, see [Developing Custom Pipeline Components](../core/developing-custom-pipeline-components.md).  
+- For more information about custom pipeline components, see [Developing Custom Pipeline Components](../core/developing-custom-pipeline-components.md).  
   
--   For more information about the configuration properties of the SOAP send adapter, see [How to Dynamically Set the URI of a Consumed Web Service](../core/how-to-dynamically-set-the-uri-of-a-consumed-web-service.md).  
+- For more information about the configuration properties of the SOAP send adapter, see [How to Dynamically Set the URI of a Consumed Web Service](../core/how-to-dynamically-set-the-uri-of-a-consumed-web-service.md).  
   
 ## Adding a Web reference to a consumed Web service that contains a multi-rooted schema will cause a compilation error  
  If you add a Web reference to your project for a Web service that was derived from a published BizTalk orchestration and the orchestration contains a schema with multiple roots then an error will occur when the project is compiled. If you add a Web reference to your project that was derived from a published BizTalk orchestration, ensure that the orchestration does not contain any multi-rooted schemas.  
@@ -92,13 +92,13 @@ This section provides information that you should take into consideration when c
 ## Using TypedDataSets as parameters to Web methods  
  The following is what you need to do to support using TypedDataSets as parameters to Web methods:  
   
-1.  Add the Web reference to a C# project and then generate the proxy.  
+1. Add the Web reference to a C# project and then generate the proxy.  
   
-2.  Create a SOAP send port and specify the proxy on the send port and choose the method.  
+2. Create a SOAP send port and specify the proxy on the send port and choose the method.  
   
-3.  In the orchestration, define a late bound port and define the message types. For most cases where no property promotion or distinguished field access is needed, the type can be defined as **XMLDocument**. Select PassThrough pipelines with this type.  
+3. In the orchestration, define a late bound port and define the message types. For most cases where no property promotion or distinguished field access is needed, the type can be defined as **XMLDocument**. Select PassThrough pipelines with this type.  
   
-4.  In BizTalk Server Administration console, in the **Web Service** tab in the **SOAP Transport Properties** dialog box of the SOAP send port, specify that you want to use that proxy that you created. You will also need to specify assembly, type, and method. For more information, see the **SOAP Transport Properties Dialog Box, Web service** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+4. In BizTalk Server Administration console, in the **Web Service** tab in the **SOAP Transport Properties** dialog box of the SOAP send port, specify that you want to use that proxy that you created. You will also need to specify assembly, type, and method. For more information, see the **SOAP Transport Properties Dialog Box, Web service** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
 ## Adding a Web reference to a consumed Web service that contains a Web method expecting generic based parameters will cause a compilation error  
  If you add a Web reference to your project for a Web service that contains a Web method expecting generic based parameters such as nullable parameters, an error will occur when the project is compiled. This is not supported. You must use explicit specialization to call the generic class from XLANG/s.  

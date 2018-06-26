@@ -32,21 +32,21 @@ Transaction Integrator (TI) does not support remote installation or configuratio
   
 #### To configure a remote database  
   
-1.  Click **Start**, point to **Programs**, point to **Microsoft Host Integration Server**, and then click **Configuration Wizard**.  
+1. Click **Start**, point to **Programs**, point to **Microsoft Host Integration Server**, and then click **Configuration Wizard**.  
   
-2.  Follow the directions on the screen.  
+2. Follow the directions on the screen.  
   
-3.  On the **Database configurations** wizard page, select **Transaction Integrator Configuration Database**.  
+3. On the **Database configurations** wizard page, select **Transaction Integrator Configuration Database**.  
   
-4.  Click **Edit**.  
+4. Click **Edit**.  
   
-5.  In the **Transaction Integrator Configuration Database Properties** dialog box, select the remote server and database to be used.  
+5. In the **Transaction Integrator Configuration Database Properties** dialog box, select the remote server and database to be used.  
   
-6.  Click **OK**, and then click **Next**.  
+6. Click **OK**, and then click **Next**.  
   
-7.  Continue to follow the directions on the screen.  
+7. Continue to follow the directions on the screen.  
   
- After you click **Finish** in the Wizard, TI installs the HIP database on the designated remote server.  
+   After you click **Finish** in the Wizard, TI installs the HIP database on the designated remote server.  
   
 ## See Also  
  [Getting Started with TI](../core/getting-started-with-ti1.md)   

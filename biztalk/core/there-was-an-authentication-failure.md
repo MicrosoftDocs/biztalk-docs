@@ -17,15 +17,15 @@ manager: "anneta"
 # There was an authentication failure
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|DescPartyNotFound|  
-|Message Text|There was an authentication failure. Make sure that a matching party exists for the message being processed. And the security/password information in the message matches the Party configuration|  
+|                 |                                                                                                                                                                                                   |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                         |
+| Product Version |                                                                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                     |
+|    Event ID     |                                                                                                 -                                                                                                 |
+|  Event Source   |                                                      [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                                       |
+|    Component    |                                                                                            EDI Engine                                                                                             |
+|  Symbolic Name  |                                                                                         DescPartyNotFound                                                                                         |
+|  Message Text   | There was an authentication failure. Make sure that a matching party exists for the message being processed. And the security/password information in the message matches the Party configuration |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the receive pipeline was unable to process the incoming interchange because BizTalk Server was unable to authenticate the sender of the message.  

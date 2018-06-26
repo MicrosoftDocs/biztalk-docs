@@ -18,13 +18,13 @@ When you receive a request from a source that is external to the corporate netwo
   
  In this case, Host Integration Server performs workstation authentication on the following services:  
   
--   TN3270 terminal access  
+- TN3270 terminal access  
   
--   TN5250 terminal access  
+- TN5250 terminal access  
   
--   3270 access from terminal emulators connecting through Host Integration Server client software  
+- 3270 access from terminal emulators connecting through Host Integration Server client software  
   
- For these services, you can specify a list of allowed client workstation IP addresses for defined resources. When Host Integration Server receives a session request, it determines whether the requesting IP (or workstation name for TN3270E connections) matches that specified for the requested resource. Once verified, Host Integration Server allows the request to proceed.  
+  For these services, you can specify a list of allowed client workstation IP addresses for defined resources. When Host Integration Server receives a session request, it determines whether the requesting IP (or workstation name for TN3270E connections) matches that specified for the requested resource. Once verified, Host Integration Server allows the request to proceed.  
   
 > [!NOTE]
 >  This type of authentication is not as secure as domain security because workstation names and the IP address are transmitted in clear text over the network.  

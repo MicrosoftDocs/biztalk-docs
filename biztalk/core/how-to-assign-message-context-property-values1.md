@@ -25,15 +25,15 @@ To manage the JD Edwards EnterpriseOne Adapter connection session from a BizTalk
   
 ### To assign context property value  
   
-1.  Create a new message.  
+1. Create a new message.  
   
-2.  Set the message content, for example, by assigning an existing message.  
+2. Set the message content, for example, by assigning an existing message.  
   
-3.  Set the properties.  
+3. Set the properties.  
   
- To assign context properties to a message destined to a send port that is bound to the Microsoft BizTalk Adapter for JD Edwards EnterpriseOne, use the message assignment operator. Then specify one of the available context properties within the JD Edwards EnterpriseOne namespace.  
+   To assign context properties to a message destined to a send port that is bound to the Microsoft BizTalk Adapter for JD Edwards EnterpriseOne, use the message assignment operator. Then specify one of the available context properties within the JD Edwards EnterpriseOne namespace.  
   
- The syntax is: `Message(JDE.Property) = value;`  
+   The syntax is: `Message(JDE.Property) = value;`  
   
 ## See Also  
  [Using Message Context Properties](../core/using-message-context-properties1.md)   

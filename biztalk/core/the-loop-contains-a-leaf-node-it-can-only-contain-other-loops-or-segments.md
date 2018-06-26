@@ -17,15 +17,15 @@ manager: "anneta"
 # The loop contains a leaf node. It can only contain other Loops or Segments
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|SchemaCode125ELoopContainsLeafNode|  
-|Message Text|The loop contains a leaf node. It can only contain other Loops or Segments|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Event ID     |                                           -                                            |
+|  Event Source   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    Component    |                                       EDI Engine                                       |
+|  Symbolic Name  |                           SchemaCode125ELoopContainsLeafNode                           |
+|  Message Text   |       The loop contains a leaf node. It can only contain other Loops or Segments       |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the receive pipeline could not process the incoming interchange, because the interchange did not conform to the document schema. In this case, a loop contained a childless leaf node, whereas the schema specified that the loop could only contain other loops or segments.  

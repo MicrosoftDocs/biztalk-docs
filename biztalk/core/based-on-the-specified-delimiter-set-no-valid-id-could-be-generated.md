@@ -17,15 +17,15 @@ manager: "anneta"
 # Based on the specified delimiter set, no valid ID could be generated
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|-|  
-|Message Text|Based on the specified delimiter set, no valid ID could be generated. Please use another delimiter set.|  
+|                 |                                                                                                         |
+|-----------------|---------------------------------------------------------------------------------------------------------|
+|  Product Name   |           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]            |
+| Product Version |                       [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                        |
+|    Event ID     |                                                    -                                                    |
+|  Event Source   |         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI          |
+|    Component    |                                               EDI Engine                                                |
+|  Symbolic Name  |                                                    -                                                    |
+|  Message Text   | Based on the specified delimiter set, no valid ID could be generated. Please use another delimiter set. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the EDI send pipeline could not generate a valid ID value because a character used in an identifier field of the outgoing interchange was the same as a separator character.  

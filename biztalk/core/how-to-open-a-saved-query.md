@@ -33,13 +33,13 @@ You can open a saved query directly from the folder where the query is saved or 
   
 ### To open a saved query from the Administration Console  
   
-1.  Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and then click the BizTalk group.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and then click the BizTalk group.  
   
-3.  In the details pane, click the **New Query** tab, and then click **Open Query**.  
+3. In the details pane, click the **New Query** tab, and then click **Open Query**.  
   
-4.  In the **Open** dialog box, browse to the saved query that you want to open, select that query, and then click **Open**.  
+4. In the **Open** dialog box, browse to the saved query that you want to open, select that query, and then click **Open**.  
   
 ## See Also  
  [Using the Administration Console Query Tab](../core/using-the-administration-console-query-tab.md)

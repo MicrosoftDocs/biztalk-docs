@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10821
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10821|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_ADAPTER_ASSIGNED_TO_GROUP_ADAPTER|  
-|Message Text|The adapter cannot be deleted because it is currently assigned to a group adapter.|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   |                             Enterprise Single Sign-On                              |
+| Product Version |             [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]             |
+|    Event ID     |                                       10821                                        |
+|  Event Source   |                                       ENTSSO                                       |
+|    Component    |                                        N/A                                         |
+|  Symbolic Name  |                     ENTSSO_E_ADAPTER_ASSIGNED_TO_GROUP_ADAPTER                     |
+|  Message Text   | The adapter cannot be deleted because it is currently assigned to a group adapter. |
   
 ## Explanation  
  The adapter cannot be deleted because it is currently assigned to a group adapter.  

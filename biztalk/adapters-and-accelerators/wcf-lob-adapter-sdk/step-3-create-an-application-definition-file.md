@@ -77,17 +77,17 @@ manager: "anneta"
   
 #### To set the SecondarySsoApplicationId property  
   
-1.  In the Metadata Objects pane, expand the **EchoWSLOB** node, and then expand the **Instances** node.  
+1. In the Metadata Objects pane, expand the **EchoWSLOB** node, and then expand the **Instances** node.  
   
-2.  Click **EchoWSLOB_Instance**, and in the Properties pane, click the ellipsis **(…)**button in the **Properties** field.  
+2. Click **EchoWSLOB_Instance**, and in the Properties pane, click the ellipsis <strong>(…)</strong>button in the **Properties** field.  
   
-3.  In the PropertyView Collection Editor window, click **Add**, and in the Property pane, type **SecondarySsoApplicationId** in the **Name** field.  
+3. In the PropertyView Collection Editor window, click **Add**, and in the Property pane, type **SecondarySsoApplicationId** in the **Name** field.  
   
-4.  In the **PropertyValue** field, type **EchoSSO**.  
+4. In the **PropertyValue** field, type **EchoSSO**.  
   
-     ![Set the SecondarySsoApplicationId](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/68e6be61-77af-46b1-8ff0-b8538c526228.gif "68e6be61-77af-46b1-8ff0-b8538c526228")  
+    ![Set the SecondarySsoApplicationId](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/68e6be61-77af-46b1-8ff0-b8538c526228.gif "68e6be61-77af-46b1-8ff0-b8538c526228")  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
 ## Create Input Filters and Default Values  
  The application definition file must be able to  accept user input that can be passed to a Web service. To accomplish this, you must perform the following set of tasks:  

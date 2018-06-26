@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10805
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10805|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_ACCOUNT_NOT_MAPPED_FOR_ADAPTER|  
-|Message Text|No mappings were found for this external account on this adapter.|  
+|                 |                                                                   |
+|-----------------|-------------------------------------------------------------------|
+|  Product Name   |                     Enterprise Single Sign-On                     |
+| Product Version |    [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]     |
+|    Event ID     |                               10805                               |
+|  Event Source   |                              ENTSSO                               |
+|    Component    |                                N/A                                |
+|  Symbolic Name  |              ENTSSO_E_ACCOUNT_NOT_MAPPED_FOR_ADAPTER              |
+|  Message Text   | No mappings were found for this external account on this adapter. |
   
 ## Explanation  
  No mappings were found for this external account on this adapter.  

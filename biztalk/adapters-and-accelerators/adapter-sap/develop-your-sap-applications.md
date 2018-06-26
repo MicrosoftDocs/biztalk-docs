@@ -24,25 +24,25 @@ manager: "anneta"
 ## Overview
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding. Client applications can consume the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to invoke operations on SAP artifacts. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] can be consumed:  
   
--   Through a physical port binding in a [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] solution.  
+- Through a physical port binding in a [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] solution.  
   
--   By invoking methods on an instance of a client proxy.  
+- By invoking methods on an instance of a client proxy.  
   
--   As a hosted WCF service.  
+- As a hosted WCF service.  
   
--   By sending SOAP messages over a channel instance in code that uses the WCF channel model.  
+- By sending SOAP messages over a channel instance in code that uses the WCF channel model.  
   
--   Through an ADO.NET interface.  
+- Through an ADO.NET interface.  
 
 ## BizTalk vs WCF service vs WCF channel vs ADO.NET
   
  The following table:  
   
--   Lists the different operations that can be performed on an SAP system using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+- Lists the different operations that can be performed on an SAP system using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
--   Indicates which of the approaches ([!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], WCF service model, WCF channel model, or ADO.NET interface) can be used to perform the operations.  
+- Indicates which of the approaches ([!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], WCF service model, WCF channel model, or ADO.NET interface) can be used to perform the operations.  
   
--   Provides links to more information about performing the task using the chosen approach.  
+- Provides links to more information about performing the task using the chosen approach.  
   
 |Task|BizTalk Server|WCF Service Model|WCF Channel Model|ADO.NET Interface|  
 |----------|--------------------|-----------------------|-----------------------|-----------------------|  

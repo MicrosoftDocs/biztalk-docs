@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10591
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10591|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_INFO_IN_SERVICE|  
-|Message Text|Enterprise Single Sign-On is back online.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10591                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                    SSO_INFO_IN_SERVICE                     |
+|  Message Text   |         Enterprise Single Sign-On is back online.          |
   
 ## Explanation  
  This is an informational message only.  

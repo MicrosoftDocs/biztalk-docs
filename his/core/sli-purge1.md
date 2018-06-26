@@ -165,85 +165,85 @@ struct LUA_COMMON {
   
  Secondary return code; no [SLI_RECEIVE](../core/sli-receive2.md) was outstanding when you issued **SLI_PURGE**. One of two situations caused the problem:  
   
--   **SLI_RECEIVE** completed before **SLI_PURGE** finished processing. You can change the application to take care of this problem because it is not an error condition.  
+- **SLI_RECEIVE** completed before **SLI_PURGE** finished processing. You can change the application to take care of this problem because it is not an error condition.  
   
--   The lua_data_ptr parameter does not correctly point to the SLI_RECEIVE you want to purge.  
+- The lua_data_ptr parameter does not correctly point to the SLI_RECEIVE you want to purge.  
   
- LUA_SLI_PURGE_PENDING  
+  LUA_SLI_PURGE_PENDING  
   
- Secondary return code; an **SLI_PURGE** was still active when another **SLI_PURGE** was issued. Only one **SLI_PURGE** can be active at a time.  
+  Secondary return code; an **SLI_PURGE** was still active when another **SLI_PURGE** was issued. Only one **SLI_PURGE** can be active at a time.  
   
- LUA_SESSION_FAILURE  
- Primary return code; an error condition, specified in the secondary return code, caused the session to fail.  
+  LUA_SESSION_FAILURE  
+  Primary return code; an error condition, specified in the secondary return code, caused the session to fail.  
   
- LUA_RECEIVED_UNBIND  
+  LUA_RECEIVED_UNBIND  
   
- Secondary return code; the primary logical unit (PLU) sent an SNA UNBIND command to the LUA interface when a session was active. As a result, the session was stopped.  
+  Secondary return code; the primary logical unit (PLU) sent an SNA UNBIND command to the LUA interface when a session was active. As a result, the session was stopped.  
   
- LUA_LU_COMPONENT_DISCONNECTED  
+  LUA_LU_COMPONENT_DISCONNECTED  
   
- Secondary return code; an LU component is unavailable because it is not connected properly. Make sure that the power is on.  
+  Secondary return code; an LU component is unavailable because it is not connected properly. Make sure that the power is on.  
   
- LUA_UNSUCCESSFUL  
- Primary return code; the verb record supplied was valid but the verb did not complete successfully.  
+  LUA_UNSUCCESSFUL  
+  Primary return code; the verb record supplied was valid but the verb did not complete successfully.  
   
- LUA_VERB_RECORD_SPANS_SEGMENTS  
+  LUA_VERB_RECORD_SPANS_SEGMENTS  
   
- Secondary return code; the LUA VCB length parameter plus the segment offset is beyond the segment end.  
+  Secondary return code; the LUA VCB length parameter plus the segment offset is beyond the segment end.  
   
- LUA_NOT_ACTIVE  
+  LUA_NOT_ACTIVE  
   
- Secondary return code; LUA was not active within Microsoft Host Integration Server or SNA Server when an LUA verb was issued.  
+  Secondary return code; LUA was not active within Microsoft Host Integration Server or SNA Server when an LUA verb was issued.  
   
- LUA_NOT_READY  
+  LUA_NOT_READY  
   
- Secondary return code; one of the following caused the SLI session to be temporarily suspended:  
+  Secondary return code; one of the following caused the SLI session to be temporarily suspended:  
   
--   An SNA UNBIND type 0x02 command was received, which indicates a new BIND is coming. If the UNBIND type 0x02 is received after the beginning [SLI_OPEN](../core/sli-open2.md) is complete, the session is suspended until a BIND, optional CRV and STSN, and SDT flows are received. These routines are re-entrant because they have to be called again. The session resumes after the SLI processes the SDT command. If the UNBIND type 0x02 is received while the **SLI_OPEN** is still processing, the primary return code is SESSION_FAILURE, not LUA_STATUS.  
+- An SNA UNBIND type 0x02 command was received, which indicates a new BIND is coming. If the UNBIND type 0x02 is received after the beginning [SLI_OPEN](../core/sli-open2.md) is complete, the session is suspended until a BIND, optional CRV and STSN, and SDT flows are received. These routines are re-entrant because they have to be called again. The session resumes after the SLI processes the SDT command. If the UNBIND type 0x02 is received while the **SLI_OPEN** is still processing, the primary return code is SESSION_FAILURE, not LUA_STATUS.  
   
--   The receipt of an SNA CLEAR caused the suspension. Receipt of an SNA SDT will cause the session to resume.  
+- The receipt of an SNA CLEAR caused the suspension. Receipt of an SNA SDT will cause the session to resume.  
   
- LUA_INVALID_PROCESS  
+  LUA_INVALID_PROCESS  
   
- Secondary return code; the session for which a Request Unit Interface (RUI) verb was issued is unavailable because another OS/2 process owns the session.  
+  Secondary return code; the session for which a Request Unit Interface (RUI) verb was issued is unavailable because another OS/2 process owns the session.  
   
- LUA_LU_INOPERATIVE  
+  LUA_LU_INOPERATIVE  
   
- Secondary return code; a severe error occurred while the RUI was attempting to stop the session. This LU is unavailable for any LUA requests until an activate logical unit (ACTLU) is received from the host.  
+  Secondary return code; a severe error occurred while the RUI was attempting to stop the session. This LU is unavailable for any LUA requests until an activate logical unit (ACTLU) is received from the host.  
   
- LUA_CANCELED  
- Primary return code; the secondary return code gives the reason for canceling the command.  
+  LUA_CANCELED  
+  Primary return code; the secondary return code gives the reason for canceling the command.  
   
- LUA_TERMINATED  
+  LUA_TERMINATED  
   
- Secondary return code; the session was terminated when a verb was pending. The verb process was canceled.  
+  Secondary return code; the session was terminated when a verb was pending. The verb process was canceled.  
   
- LUA_IN_PROGRESS  
- Primary return code; an asynchronous command was received but is not completed.  
+  LUA_IN_PROGRESS  
+  Primary return code; an asynchronous command was received but is not completed.  
   
- LUA_COMM_SUBSYSTEM_ABENDED  
- Primary return code; indicates one of the following conditions:  
+  LUA_COMM_SUBSYSTEM_ABENDED  
+  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the transaction program (TP) and the physical unit (PU) 2.1 node has been broken (a LAN error).  
+- The connection between the transaction program (TP) and the physical unit (PU) 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TPs computer encountered an ABEND.  
+- The SnaBase at the TPs computer encountered an ABEND.  
   
- LUA_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  LUA_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- LUA_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  LUA_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- LUA_UNEXPECTED_DOS_ERROR  
- Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
+  LUA_UNEXPECTED_DOS_ERROR  
+  Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
   
- LUA_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  LUA_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- LUA_INVALID_VERB  
- Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
+  LUA_INVALID_VERB  
+  Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
   
 ## Remarks  
  **SLI_PURGE** cancels [SLI_RECEIVE](../core/sli-receive2.md) commands with a wait condition.  

@@ -33,17 +33,17 @@ The heart of the publish/subscribe engine in Microsoft BizTalk Server is the Mes
   
  When BizTalk Server receives a message, it processes the message in a pipeline, and places the message in the MessageBox database. The incoming message has a context. The message context is a set of properties associated with the message. The three types of message context properties are:  
   
--   Simple written properties  
+- Simple written properties  
   
--   Promoted properties  
+- Promoted properties  
   
--   Predicate properties  
+- Predicate properties  
   
- The promoted and predicate message properties indicate the business process that subscribes to this message, and whether the business process has the permissions necessary to receive the message.  
+  The promoted and predicate message properties indicate the business process that subscribes to this message, and whether the business process has the permissions necessary to receive the message.  
   
- If a business process subscribes to the message, the MessageBox database sends the message to the business process. When the business process receives the message, it processes the message on an available host instance. After processing the message, if the business process subscribes to a pipeline or send port, the business process sends a return message to the MessageBox database.  
+  If a business process subscribes to the message, the MessageBox database sends the message to the business process. When the business process receives the message, it processes the message on an available host instance. After processing the message, if the business process subscribes to a pipeline or send port, the business process sends a return message to the MessageBox database.  
   
- For each BizTalk Host, the associated MessageBox has one work queue and one suspended queue. Additionally, each MessageBox database contains a set of tables for static states, dynamic states, and instance state. For information about BizTalk Hosts, see [Entities](../core/entities.md).  
+  For each BizTalk Host, the associated MessageBox has one work queue and one suspended queue. Additionally, each MessageBox database contains a set of tables for static states, dynamic states, and instance state. For information about BizTalk Hosts, see [Entities](../core/entities.md).  
   
 > [!IMPORTANT]
 >  If a host becomes unavailable --for example, the MessageBox database that receives messages from that host becomes unavailable, all other MessageBox databases become unavailable.  
@@ -56,13 +56,13 @@ The heart of the publish/subscribe engine in Microsoft BizTalk Server is the Mes
 ## Suspended Messages in the MessageBox Database  
  BizTalk Server stores messages associated with suspended pipelines in the MessageBox database. If a failure occurs in the pipeline, BizTalk Server suspends the instance of a message. There are two types of suspended service instances:  
   
--   Suspended instances that you can resume.  
+- Suspended instances that you can resume.  
   
--   Suspended instances that you cannot resume. For example, if an instance is corrupt.  
+- Suspended instances that you cannot resume. For example, if an instance is corrupt.  
   
- Depending on the cause of the suspension, you may be able to resume services that BizTalk Server suspends -- for example, if an orchestration hits a Suspend shape, or if a transport was unable to deliver a message, BizTalk Server does not automatically remove suspended instances that you cannot resume from the MessageBox database. You can choose to save a service instance to disk before removing it from the suspended queue.  
+  Depending on the cause of the suspension, you may be able to resume services that BizTalk Server suspends -- for example, if an orchestration hits a Suspend shape, or if a transport was unable to deliver a message, BizTalk Server does not automatically remove suspended instances that you cannot resume from the MessageBox database. You can choose to save a service instance to disk before removing it from the suspended queue.  
   
- For information about backing up MessageBox databases, see [Backing Up and Restoring BizTalk Server Databases](../core/backing-up-and-restoring-biztalk-server.md).  
+  For information about backing up MessageBox databases, see [Backing Up and Restoring BizTalk Server Databases](../core/backing-up-and-restoring-biztalk-server.md).  
   
 ## See Also  
  [The Messaging Engine](../core/the-messaging-engine.md)

@@ -54,11 +54,11 @@ This topic presents the threat model analysis (TMA) for the File adapter scenari
 ## Step 2. Create and Analyze the Threat Model (File Adapter Scenario)  
  This section provides the results of the TMA we did for the File adapter scenario for the sample architecture.  
   
--   **Identify Entry Points, Trust Boundaries, and Flow of Data -** See background information described earlier in "Collect Background Information for File Adapter Scenario" and "Background Information for all Scenarios."  
+- **Identify Entry Points, Trust Boundaries, and Flow of Data -** See background information described earlier in "Collect Background Information for File Adapter Scenario" and "Background Information for all Scenarios."  
   
--   **Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges. The following table lists the threats we identified when you use the File adapter to send and receive messages to and from BizTalk Server.  
+- **Create a List of the Identified Threats -** We used the following categorization for all entries in the DFD to identify potential threats to the scenario: **S**poofing identify, **T**ampering with data, **R**epudiation, **I**nformation disclosure, **D**enial of service, and **E**levation of privileges. The following table lists the threats we identified when you use the File adapter to send and receive messages to and from BizTalk Server.  
   
- **Table 1 List of identifies threats**  
+  **Table 1 List of identifies threats**  
   
 |Threat|Description|Asset|Impact|  
 |------------|-----------------|-----------|------------|  

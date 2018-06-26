@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10813
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10813|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_WINDOWS_UPDATE_FAILED_MORE_RECENT|  
-|Message Text|The Windows password in the SSO database is more recent.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10813                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |         ENTSSO_E_WINDOWS_UPDATE_FAILED_MORE_RECENT         |
+|  Message Text   |  The Windows password in the SSO database is more recent.  |
   
 ## Explanation  
  An outdated password has been received from the Windows system and will be ignored.  

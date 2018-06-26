@@ -53,7 +53,7 @@ null, --@nvcValidatingServer
   
 ## Hard purge
   
- Because the soft purge only purges data associated with completed instances, if you have many looping instances that run indefinitely, then your tracking database would grow and these instances would never be purged. The hard purge date allows all information older than the specified interval to be purged except for information indicating a service's existence. You set the hard purge using the **@nHardDeleteDays** parameter in the Archive and Purge step in the DTA Archive and Purge job. The hard purge setting should always be greater than your soft purge setting. In other words, **@nHardDeleteDays** should be greater than the sum of **@nLiveHours** and **@nLiveDays**.  
+ Because the soft purge only purges data associated with completed instances, if you have many looping instances that run indefinitely, then your tracking database would grow and these instances would never be purged. The hard purge date allows all information older than the specified interval to be purged except for information indicating a service's existence. You set the hard purge using the <strong>@nHardDeleteDays</strong> parameter in the Archive and Purge step in the DTA Archive and Purge job. The hard purge setting should always be greater than your soft purge setting. In other words, <strong>@nHardDeleteDays</strong> should be greater than the sum of <strong>@nLiveHours</strong> and <strong>@nLiveDays</strong>.  
   
  Archiving and purging includes the features described in the following table:  
   

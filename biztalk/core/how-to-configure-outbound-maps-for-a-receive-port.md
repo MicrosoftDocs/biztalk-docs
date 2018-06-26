@@ -33,20 +33,20 @@ This topic describes how to use the BizTalk Server Administration console to con
   
 ### To configure outbound maps for a receive port  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure outbound maps for a receive port.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure outbound maps for a receive port.  
   
-3.  Expand **Receive Ports**, right-click the receive port, click **Properties**, and then click **Outbound Maps**.  
+3. Expand **Receive Ports**, right-click the receive port, click **Properties**, and then click **Outbound Maps**.  
   
-4.  Configure the outbound maps as described in the following table, and then click **OK**.  
+4. Configure the outbound maps as described in the following table, and then click **OK**.  
   
-    |Use this|To do this|  
-    |--------------|----------------|  
-    |**Remove**|Click to remove the selected map.|  
-    |**Source Document**|From the drop-down list, select the source schema to use with this port.|  
-    |**Map**|From the drop-down list, select the map you want to associate with this port.|  
-    |**Target Document**|From the drop-down list, select the destination schema to use with this port.|  
+   |Use this|To do this|  
+   |--------------|----------------|  
+   |**Remove**|Click to remove the selected map.|  
+   |**Source Document**|From the drop-down list, select the source schema to use with this port.|  
+   |**Map**|From the drop-down list, select the map you want to associate with this port.|  
+   |**Target Document**|From the drop-down list, select the destination schema to use with this port.|  
   
 ## See Also  
  [Managing Receive Ports](../core/managing-receive-ports.md)   

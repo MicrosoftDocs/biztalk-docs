@@ -30,7 +30,7 @@ This section contains useful information that may help you avoid validation erro
 3.  Segment structure is not validated (order of segments is not validated).  
   
 ## V2.XML ACKs with multiple errors will fail validation  
- If an incoming V2.XML message contains more than one error, the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) parser may generate a V2.XML acknowledgment (ACK) with more than one error in the error field. Such a V2.XML ACK will fail validation, because the HL7 standard specifies that the parser can report only one error in a V2.XML ACK error field.  
+ If an incoming V2.XML message contains more than one error, the Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) parser may generate a V2.XML acknowledgment (ACK) with more than one error in the error field. Such a V2.XML ACK will fail validation, because the HL7 standard specifies that the parser can report only one error in a V2.XML ACK error field.  
   
 ## Two parsing errors are logged when messages in the Batch In/Batch Out scenario contain validation errors  
  When the first message in the Batch In/Batch Out scenario (multiple messages batched without batch headers) contains validation errors, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] logs two errors in the Event Log. The first error pertains to the first message in the batch, and the second error pertains to the remainder of the messages.  

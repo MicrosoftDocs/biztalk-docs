@@ -18,10 +18,10 @@ Health monitoring refers to viewing the current status of different aspects of H
   
 ### To monitor the health of Host Integration Server with WMI  
   
-1.  Connect to the namespace using **GetObject** with a moniker in the parameter.  
+1. Connect to the namespace using **GetObject** with a moniker in the parameter.  
   
-2.  Retrieve the object representing the SNA Status provider using **ExecQuery**.  
+2. Retrieve the object representing the SNA Status provider using **ExecQuery**.  
   
-3.  Use the information gathered from the **ExecQuery** as appropriate.  
+3. Use the information gathered from the **ExecQuery** as appropriate.  
   
- You can see an example of health monitoring in [How to Display Connection Status](../core/how-to-display-connection-status1.md).
+   You can see an example of health monitoring in [How to Display Connection Status](../core/how-to-display-connection-status1.md).

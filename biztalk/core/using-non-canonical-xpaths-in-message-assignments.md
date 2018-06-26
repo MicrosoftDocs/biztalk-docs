@@ -20,19 +20,19 @@ If you use .Net message parts, it is possible to annotate your code with the XML
 ## Canonical and Non-Canonical XPath  
  The canonical or short-form of XPath uses the abbreviated syntax from the XPath specification ([http://www.w3.org/TR/xpath](http://go.microsoft.com/fwlink/?LinkId=119567)) to specify a location path. Some distinguishing properties of canonical XPath expressions include:  
   
--   The `child::` axis is assumed by default for each step of the expression  
+- The `child::` axis is assumed by default for each step of the expression  
   
--   `@` is short for `attribute::`.  
+- `@` is short for `attribute::`.  
   
--   `//` is short for `/descendant-or-self::node()/`.  
+- `//` is short for `/descendant-or-self::node()/`.  
   
--   `.` is short for `self::node()`.  
+- `.` is short for `self::node()`.  
   
--   `..` is short for `parent::node()`.  
+- `..` is short for `parent::node()`.  
   
- Canonical XPath expressions are simple expressions such as `/*[local-name()='element-name' and namespaceURI()='http://MyUri.org']/*[local-name()='element-name']/@*[local-name='attribute-name']`.  
+  Canonical XPath expressions are simple expressions such as `/*[local-name()='element-name' and namespaceURI()='http://MyUri.org']/*[local-name()='element-name']/@*[local-name='attribute-name']`.  
   
- This can be contrasted with the non-canonical form of XPath. This form is also known as the "general form" or "arbitrary XPath" and is distinguished by expressions that are arbitrarily complex and may combine multiple axes: `//element-name//*[local-name()='element-name' and position()=2]`.  
+  This can be contrasted with the non-canonical form of XPath. This form is also known as the "general form" or "arbitrary XPath" and is distinguished by expressions that are arbitrarily complex and may combine multiple axes: `//element-name//*[local-name()='element-name' and position()=2]`.  
   
 ## Example  
  Consider the following program:  

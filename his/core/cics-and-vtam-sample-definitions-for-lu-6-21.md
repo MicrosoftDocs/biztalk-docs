@@ -18,15 +18,15 @@ This topic presents sample definitions for CICS (version 1.6) and VTAM (version 
   
  To configure a CICS host system for LU 6.2 operation with a Host Integration Server system, you configure the following information at the host:  
   
--   The remote systems with which CICS is able to communicate.  
+- The remote systems with which CICS is able to communicate.  
   
--   The name used by VTAM to communicate with each remote system.  
+- The name used by VTAM to communicate with each remote system.  
   
--   The transaction programs (TPs) available on the CICS system.  
+- The transaction programs (TPs) available on the CICS system.  
   
--   The programming language (PL/I, COBOL, or Assembler) in which each program is written.  
+- The programming language (PL/I, COBOL, or Assembler) in which each program is written.  
   
- This information is configured in CICS and VTAM tables. This topic provides sample definitions that show how to configure CICS for LU 6.2 using these CICS and VTAM tables.  
+  This information is configured in CICS and VTAM tables. This topic provides sample definitions that show how to configure CICS for LU 6.2 using these CICS and VTAM tables.  
   
 ## In This Section  
  [CICS Tables](../core/cics-tables1.md)  

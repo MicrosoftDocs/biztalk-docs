@@ -19,12 +19,12 @@ This section contains steps that can be followed to help diagnose problems with 
   
 ### Check the FTP log files on the FTP Server for errors  
   
--   The source or target FTP server log files can contain information that is helpful for troubleshooting problems with the FTP adapter. By default the FTP log files on a Windows Server or Windows XP computer are located in the following directory:  
+- The source or target FTP server log files can contain information that is helpful for troubleshooting problems with the FTP adapter. By default the FTP log files on a Windows Server or Windows XP computer are located in the following directory:  
   
-     *%WinDir%\\*system32\LogFiles\MSFTPSVC1\  
+   <em>%WinDir%\\</em>system32\LogFiles\MSFTPSVC1\  
   
-    > [!NOTE]
-    >  *%WinDir%* is a placeholder for the location of the Windows directory on the FTP server.  
+  > [!NOTE]
+  >  *%WinDir%* is a placeholder for the location of the Windows directory on the FTP server.  
   
 ### Enable logging for the FTP Receive location or Send Port  
   

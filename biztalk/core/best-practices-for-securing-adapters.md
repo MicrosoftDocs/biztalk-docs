@@ -33,69 +33,69 @@ This topic provides a list of best practices for adapter security.
   
  **Grant the following permissions on the shared folders (the Receive folder and Send folder) that are used to pick up and drop files using the File and EDI adapters:**  
   
--   **Receive  folder**  
+- **Receive  folder**  
   
-     The receive folder for the File adapter is configurable on the receive location. The receive folder for the EDI adapter is configurable on the receive handler. The service account for the BizTalk Host that picks up the file should have the following permissions at the file-system level:  
+   The receive folder for the File adapter is configurable on the receive location. The receive folder for the EDI adapter is configurable on the receive handler. The service account for the BizTalk Host that picks up the file should have the following permissions at the file-system level:  
   
-    -   List Folder / Read Data  
+  - List Folder / Read Data  
   
-    -   Delete SubFolder and Files  
+  - Delete SubFolder and Files  
   
-     If the receive folder is on a network share, the following permissions must be granted at the file-share level:  
+    If the receive folder is on a network share, the following permissions must be granted at the file-share level:  
   
-    -   The service account for the BizTalk Host that picks up the file must have Full Control permissions.  
+  - The service account for the BizTalk Host that picks up the file must have Full Control permissions.  
   
-    -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrators must have Full Control permissions for troubleshooting.  
+  - [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrators must have Full Control permissions for troubleshooting.  
   
-    -   The external user or programs that drop files to this location must have Write permissions.  
+  - The external user or programs that drop files to this location must have Write permissions.  
   
--   **Send folder**  
+- **Send folder**  
   
-     The send folder for the File and EDI adapters are configurable on the send port.  
+   The send folder for the File and EDI adapters are configurable on the send port.  
   
-    -   The service account for the BizTalk Host or Hosts that drop files here must have Write permissions.  
+  - The service account for the BizTalk Host or Hosts that drop files here must have Write permissions.  
   
-    -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrators must have Full Control permissions.  
+  - [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrators must have Full Control permissions.  
   
-    -   The external user or program that picks up files must have Read permissions.  
+  - The external user or program that picks up files must have Read permissions.  
   
- **Add the user account under which the EDI service is running to the BTS_HOST_USERS SQL role.**  
+  **Add the user account under which the EDI service is running to the BTS_HOST_USERS SQL role.**  
   
- This is required so that you can obtain BizTalk Explorer Object Management (OM) Access without administrative permissions. To do this, add "EDI Subsystem Users" to the BTS_HOST_USERS role in the BizTalk Management database, BizTalkMgmtDb.  
+  This is required so that you can obtain BizTalk Explorer Object Management (OM) Access without administrative permissions. To do this, add "EDI Subsystem Users" to the BTS_HOST_USERS role in the BizTalk Management database, BizTalkMgmtDb.  
   
- To add "EDI Subsystem Users" to the BTS_HOST_USERS role on SQL Server 2005, complete the following steps:  
+  To add "EDI Subsystem Users" to the BTS_HOST_USERS role on SQL Server 2005, complete the following steps:  
   
-1.  Launch SQL Server Management Studio from **Start, Programs, Microsoft SQL Server 2008**.  
+1. Launch SQL Server Management Studio from **Start, Programs, Microsoft SQL Server 2008**.  
   
-2.  Connect to the SQL Server that houses your BizTalk Management database.  
+2. Connect to the SQL Server that houses your BizTalk Management database.  
   
-3.  Expand this server in the Object Explorer.  
+3. Expand this server in the Object Explorer.  
   
-4.  Expand **Databases**, and then expand the BizTalk Management database.  
+4. Expand **Databases**, and then expand the BizTalk Management database.  
   
-5.  Expand **Security**, expand **Roles**, and then click to select **Database Roles**  
+5. Expand **Security**, expand **Roles**, and then click to select **Database Roles**  
   
-6.  In the details pane, right-click the BTS_HOST_USERS role, and then click **Properties**.  
+6. In the details pane, right-click the BTS_HOST_USERS role, and then click **Properties**.  
   
-7.  In the BTS_HOST_USERS dialog box, click **Add**, click **Browse**, and then check the box next to the EDI Subsystem Users group to add it.  
+7. In the BTS_HOST_USERS dialog box, click **Add**, click **Browse**, and then check the box next to the EDI Subsystem Users group to add it.  
   
-     If the EDI Subsystem Users group is not available in the list of users to add, you must add the EDI Subsystem Users group as a new database user to the BizTalk Management database. To add the EDI Subsystem Users group as a new database user, complete the following steps in SQL Server Management Studio:  
+    If the EDI Subsystem Users group is not available in the list of users to add, you must add the EDI Subsystem Users group as a new database user to the BizTalk Management database. To add the EDI Subsystem Users group as a new database user, complete the following steps in SQL Server Management Studio:  
   
-    1.  Expand the BizTalk Management database.  
+   1.  Expand the BizTalk Management database.  
   
-    2.  Expand **Security**.  
+   2.  Expand **Security**.  
   
-    3.  Right-click **Users** and click **New User**.  
+   3.  Right-click **Users** and click **New User**.  
   
-    4.  Click the ellipses (…) button next to the text box for **Login name** to display the **Select Login** dialog box.  
+   4.  Click the ellipses (…) button next to the text box for **Login name** to display the **Select Login** dialog box.  
   
-    5.  Click the Browse button, enter the **EDI Subsystem Users** group, and then click **OK.** If prompted with the **Multiple Objects Found** dialog box, select the **EDI Subsystem Users** login and click **OK**.  
+   5.  Click the Browse button, enter the **EDI Subsystem Users** group, and then click **OK.** If prompted with the **Multiple Objects Found** dialog box, select the **EDI Subsystem Users** login and click **OK**.  
   
-    6.  On the **Database User - New** dialog box enter **EDI Subsystem Users** for the **User name** textbox and click **OK**.  
+   6.  On the **Database User - New** dialog box enter **EDI Subsystem Users** for the **User name** textbox and click **OK**.  
   
- **Add the user account under which the BizTalk service is running to the EDI Subsystem Users group.**  
+   **Add the user account under which the BizTalk service is running to the EDI Subsystem Users group.**  
   
- Follow these steps to add the user account for the BizTalk service to the EDI Subsystem Users group.  
+   Follow these steps to add the user account for the BizTalk service to the EDI Subsystem Users group.  
   
 -   **If BizTalk Server is configured to use domain groups:**  
   

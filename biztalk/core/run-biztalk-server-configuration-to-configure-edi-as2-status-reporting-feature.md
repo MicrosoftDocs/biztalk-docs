@@ -17,15 +17,15 @@ manager: "anneta"
 # To enable status reporting, run &#39;BizTalk Server Configuration&#39; and configure EDI-AS2 status reporting feature
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|0|  
-|Message Text|To enable status reporting, run 'BizTalk Server Configuration' and configure EDI/AS2 status reporting feature.|  
+|                 |                                                                                                                |
+|-----------------|----------------------------------------------------------------------------------------------------------------|
+|  Product Name   |               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]               |
+| Product Version |                           [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                           |
+|    Event ID     |                                                       -                                                        |
+|  Event Source   |             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI             |
+|    Component    |                                                   EDI Engine                                                   |
+|  Symbolic Name  |                                                       0                                                        |
+|  Message Text   | To enable status reporting, run 'BizTalk Server Configuration' and configure EDI/AS2 status reporting feature. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that EDI/AS2 status reporting is not working because it has not been configured.  

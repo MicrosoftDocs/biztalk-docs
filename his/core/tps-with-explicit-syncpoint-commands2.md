@@ -22,13 +22,13 @@ CICS LU 6.2 Link transaction programs (TPs) cannot use explicit EXEC SYNCPOINT c
   
 ### To configure the RE to allow the use of explicit SYNCPOINT commands  
   
-1.  In TI Manager, right-click the RE that you want to configure, click **Properties**, and then click the **CICS Mirror TP** tab.  
+1. In TI Manager, right-click the RE that you want to configure, click **Properties**, and then click the **CICS Mirror TP** tab.  
   
-2.  Select the **Allow use of explicit SYNCPOINT commands for nontransactional components** check box.  
+2. Select the **Allow use of explicit SYNCPOINT commands for nontransactional components** check box.  
   
-3.  Click OK.  
+3. Click OK.  
   
- If the two requirements are not met, the transaction will not work on either the Windows or the mainframe side. In which case, TI writes a message to the Windows Event Log explaining the cause of the failure.  
+   If the two requirements are not met, the transaction will not work on either the Windows or the mainframe side. In which case, TI writes a message to the Windows Event Log explaining the cause of the failure.  
   
 ## See Also  
  [WIP Programming Model](../core/wip-programming-model2.md)

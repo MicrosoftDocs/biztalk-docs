@@ -30,30 +30,30 @@ When running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserverno
   
 ### To create and execute the bts_CleanupMsgbox stored procedure using SQL Server 2008  
   
-1.  Click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.  
+1. Click **Start**, click **All Programs**, click **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.  
   
-2.  In the **Connect to SQL Server** dialog box, select the SQL server and the appropriate authentication method, and then click **Connect**.  
+2. In the **Connect to SQL Server** dialog box, select the SQL server and the appropriate authentication method, and then click **Connect**.  
   
-3.  In the **Available databases** drop-down list, select the BizTalk Messagebox database (**BizTalkMsgBoxDB** by default).  
+3. In the **Available databases** drop-down list, select the BizTalk Messagebox database (**BizTalkMsgBoxDB** by default).  
   
-4.  Click the **New Query** icon on the toolbar.  
+4. Click the **New Query** icon on the toolbar.  
   
-5.  Open the **msgbox_cleanup_logic.sql** file from SQL Server Management Studio. The msgbox_cleanup_logic.sql file is located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Schema\ directory of the BizTalk Server computer.  
+5. Open the **msgbox_cleanup_logic.sql** file from SQL Server Management Studio. The msgbox_cleanup_logic.sql file is located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Schema\ directory of the BizTalk Server computer.  
   
-6.  Click the **Execute Query** icon on the toolbar to run the script to create the bts_CleanupMsgbox stored procedure. The bts_CleanupMsgbox stored procedure can then be viewed in the list of stored procedures as dbo.bts_CleanupMsgbox.  
+6. Click the **Execute Query** icon on the toolbar to run the script to create the bts_CleanupMsgbox stored procedure. The bts_CleanupMsgbox stored procedure can then be viewed in the list of stored procedures as dbo.bts_CleanupMsgbox.  
   
-7.  Click the **New Query** icon on the toolbar.  
+7. Click the **New Query** icon on the toolbar.  
   
-8.  Paste the following command into the new query window:  
+8. Paste the following command into the new query window:  
   
-    ```  
-    exec bts_CleanupMsgbox  
-    ```  
+   ```  
+   exec bts_CleanupMsgbox  
+   ```  
   
 9. Click the **Execute Query** icon on the toolbar to run the bts_CleanupMsgbox stored procedure.  
   
-    > [!IMPORTANT]
-    >  Do not run the bts_CleanupMsgbox stored procedure on a production server that is running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. You should only run the bts_CleanupMsgbox stored procedure in a test environment. Running the bts_CleanupMsgbox stored procedure in a production environment is not supported.  
+   > [!IMPORTANT]
+   >  Do not run the bts_CleanupMsgbox stored procedure on a production server that is running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. You should only run the bts_CleanupMsgbox stored procedure in a test environment. Running the bts_CleanupMsgbox stored procedure in a production environment is not supported.  
   
 10. Restart BizTalk services as needed.  
   

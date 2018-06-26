@@ -109,12 +109,12 @@ class MsSna_ServiceTN3270 : MsSna_Service
  The delay between updates of the status on the display.  
   
  **StatusDelay**  
- Data Type: **sint32**Qualifiers:MINVALUE**(0), MAXVALUE(86400),UNITS("sec")** Access Type: Read/Write  
+ Data Type: **sint32**Qualifiers:MINVALUE<strong>(0), MAXVALUE(86400),UNITS("sec")</strong> Access Type: Read/Write  
   
  The delay between the time when TN3270 service connects to a host session and the time the TN3270 service starts updating the client screen.  
   
  **Port**  
- Data Type: **sint32**Qualifiers: **MINVALUE(0), MAXVALUE(9999)**Access Type: Read/Write  
+ Data Type: **sint32**Qualifiers: <strong>MINVALUE(0), MAXVALUE(9999)</strong>Access Type: Read/Write  
   
  The default port number for the TN3270 service. You can override **Port** on a per-session basis. Use 0 for the default TN3270 port.  
   

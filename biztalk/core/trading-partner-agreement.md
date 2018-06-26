@@ -27,11 +27,11 @@ A Trading Partner Agreement (TPA) is defined as a definitive and binding agreeme
 ## Bi-directional agreements  
  Each agreement between two business profiles is bi-directional. For example, the agreement between “Shipping” and “Invoice” business profiles will contain properties to process messages:  
   
--   Received by “Shipping” profile from “Invoice” profile, and  
+- Received by “Shipping” profile from “Invoice” profile, and  
   
--   Sent by “Shipping” profile to “Invoice” profile  
+- Sent by “Shipping” profile to “Invoice” profile  
   
- In simpler terms, a bi-directional agreement is a collection of two one-way agreements. One one-way agreement can be considered as a collection of properties that define how message transaction happens from party A to party B. The other one-way agreement can be considered as a collection of properties that define how message transaction happens from party B to party A.  
+  In simpler terms, a bi-directional agreement is a collection of two one-way agreements. One one-way agreement can be considered as a collection of properties that define how message transaction happens from party A to party B. The other one-way agreement can be considered as a collection of properties that define how message transaction happens from party B to party A.  
   
 ## Considerations when defining an agreement  
  You must consider the following points while creating a Trading Partner Agreement:  

@@ -262,17 +262,17 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  Optionally, specify the APPC conversation security to identify the PC user to the DB2 database server.  
   
--   If the security level is set to **Program**, the Data Provider sends both a username and a password.  
+- If the security level is set to **Program**, the Data Provider sends both a username and a password.  
   
--   If the security level is set to **Same**, the Data Provider sends a username only.  
+- If the security level is set to **Same**, the Data Provider sends a username only.  
   
--   If the level of security is **None**, the Data Provider sends no security information (username or password).  
+- If the level of security is **None**, the Data Provider sends no security information (username or password).  
   
- **Authentication**  
+  **Authentication**  
   
- The **Authentication** method property sets the authentication method for the connection, based the weak Data Encryption Standard (DES) technologies. The default values are Server using interactive sign-on, security relying on a username and password with no encryption.  
+  The **Authentication** method property sets the authentication method for the connection, based the weak Data Encryption Standard (DES) technologies. The default values are Server using interactive sign-on, security relying on a username and password with no encryption.  
   
- The following table describes the default values for Server using interactive sign-on, security relying on a username and password with no encryption.  
+  The following table describes the default values for Server using interactive sign-on, security relying on a username and password with no encryption.  
   
 |||  
 |-|-|  
@@ -387,25 +387,25 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  Optionally, you can specify TRUE to instruct the Data Provider to optimize the processing of parameterized database commands. The default value is FALSE.  
   
--   For the **INSERT**, **UPDATE**, and **DELETE** commands, the Data Provider can combine **PREPARE**, **EXECUTE**, and **COMMIT** commands into one network flow to the remote database.  
+- For the **INSERT**, **UPDATE**, and **DELETE** commands, the Data Provider can combine **PREPARE**, **EXECUTE**, and **COMMIT** commands into one network flow to the remote database.  
   
--   For the **SELECT** command, the Data Provider can combine **PREPARE** and **EXECUTE** commands into one network flow. This minimizes network traffic and frequently improves overall performance.  
+- For the **SELECT** command, the Data Provider can combine **PREPARE** and **EXECUTE** commands into one network flow. This minimizes network traffic and frequently improves overall performance.  
   
- **Derive Parameters**  
+  **Derive Parameters**  
   
- Optionally, you can specify TRUE to instruct the Data Provider to verify and correct parameter lengths for character data types, on behalf of data consumers such as SQL Server Integration Services package designer and import/export wizard. The default is FALSE.  
+  Optionally, you can specify TRUE to instruct the Data Provider to verify and correct parameter lengths for character data types, on behalf of data consumers such as SQL Server Integration Services package designer and import/export wizard. The default is FALSE.  
   
- **Extended Properties**  
+  **Extended Properties**  
   
- Optionally, you can specify additional comma-separated property value pairs that the consumer will pass to the Data Provider at connection time.  
+  Optionally, you can specify additional comma-separated property value pairs that the consumer will pass to the Data Provider at connection time.  
   
- **Host CCSID**  
+  **Host CCSID**  
   
- The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS use EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](http://go.microsoft.com/fwlink/?LinkID=181017) (http://go.microsoft.com/fwlink/?LinkID=181017).  
+  The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS use EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](http://go.microsoft.com/fwlink/?LinkID=181017) (http://go.microsoft.com/fwlink/?LinkID=181017).  
   
- **Initial Catalog**  
+  **Initial Catalog**  
   
- The Data Provider requires this value to connect to an initial catalog on the DB2 database server. The following table describes the DB2 database version and accepted string types.  
+  The Data Provider requires this value to connect to an initial catalog on the DB2 database server. The following table describes the DB2 database version and accepted string types.  
   
 |||  
 |-|-|  
@@ -418,35 +418,35 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  Optionally, you can specify a string to instruct the Data Provider to use Enterprise Single Sign-On or Kerberos authentication.  
   
--   **SSPI** instructs the Data Provider to obtain credentials from the ESSO server with which to use when connecting to the IBM DB2 database server.  
+- **SSPI** instructs the Data Provider to obtain credentials from the ESSO server with which to use when connecting to the IBM DB2 database server.  
   
--   **Kerberos** instructs the Data Provider to present a ticket with encrypted credentials to the IBM DB2 database server.  
+- **Kerberos** instructs the Data Provider to present a ticket with encrypted credentials to the IBM DB2 database server.  
   
- The default is an empty string, which instructs the Data Provider to use interactive sign-on with user name and password derived from the connection object.  
+  The default is an empty string, which instructs the Data Provider to use interactive sign-on with user name and password derived from the connection object.  
   
- **Max Pool Size**  
+  **Max Pool Size**  
   
- Optionally, you can specify a numeric value to instruct the Data Provider to use a maximum number of connections within a client-side connection pool. The default value is 100. There is no upper limit for the **Max Pool Size** property.  
+  Optionally, you can specify a numeric value to instruct the Data Provider to use a maximum number of connections within a client-side connection pool. The default value is 100. There is no upper limit for the **Max Pool Size** property.  
   
- **Mode**  
+  **Mode**  
   
- Optionally, you can specify read to instruct the Data Provider to declare read-only access method when connecting to the DB2 database server. The default is read/write.  
+  Optionally, you can specify read to instruct the Data Provider to declare read-only access method when connecting to the DB2 database server. The default is read/write.  
   
- **Network Address**  
+  **Network Address**  
   
- The Data Provider requires an IP address or IP alias in either IPv4 or IPv6 format, when connecting to the IBM DB2 database server using a TCP/IP network connection.  
+  The Data Provider requires an IP address or IP alias in either IPv4 or IPv6 format, when connecting to the IBM DB2 database server using a TCP/IP network connection.  
   
- **Network Port**  
+  **Network Port**  
   
- The Data Provider requires an IP port number, when connecting to the IBM DB2 database server using a TCP/IP network connection. For DB2/400, the default value is TCP/IP port 446. Other IBM DB2 platforms support multiple concurrent database instances, each with a unique TCP/IP port number.  
+  The Data Provider requires an IP port number, when connecting to the IBM DB2 database server using a TCP/IP network connection. For DB2/400, the default value is TCP/IP port 446. Other IBM DB2 platforms support multiple concurrent database instances, each with a unique TCP/IP port number.  
   
- **Network Transport Library**  
+  **Network Transport Library**  
   
- The Data Provider supports TCP/IP and SNA (Systems Network Architecture) over LU6.2 APPC (Advanced Program to Program Communications) network connections to remote IBM DB2 database servers that are running on IBM mainframe and midrange host computers. The Data Provider supports TCP/IP network connections to remote IBM DB2 database servers that are running Linux, UNIX, and Windows operating systems.  
+  The Data Provider supports TCP/IP and SNA (Systems Network Architecture) over LU6.2 APPC (Advanced Program to Program Communications) network connections to remote IBM DB2 database servers that are running on IBM mainframe and midrange host computers. The Data Provider supports TCP/IP network connections to remote IBM DB2 database servers that are running Linux, UNIX, and Windows operating systems.  
   
- **New Password**  
+  **New Password**  
   
- Optionally, you can specify a string value to instruct the Data Provider to use PCM (Password Change Management) to replace an existing password with a new password. The following table describes the DB2 database version and accepted string types.  
+  Optionally, you can specify a string value to instruct the Data Provider to use PCM (Password Change Management) to replace an existing password with a new password. The following table describes the DB2 database version and accepted string types.  
   
 |||  
 |-|-|  

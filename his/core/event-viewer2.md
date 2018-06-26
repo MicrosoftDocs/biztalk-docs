@@ -18,49 +18,49 @@ Windows Event Logs can tell you the sequence and type of events that led up to a
   
  The Event Logs for Windows include:  
   
--   System Event Log  
+- System Event Log  
   
--   Security Event Log  
+- Security Event Log  
   
--   Application Event Log  
+- Application Event Log  
   
--   Directory Service  
+- Directory Service  
   
--   File Replication Service  
+- File Replication Service  
   
- The Event Viewer will display the following information about system events:  
+  The Event Viewer will display the following information about system events:  
   
--   Type  
+- Type  
   
--   Date  
+- Date  
   
--   Time  
+- Time  
   
--   Source  
+- Source  
   
--   Category  
+- Category  
   
--   Event ID  
+- Event ID  
   
--   User  
+- User  
   
--   Computer  
+- Computer  
   
- From the View menu you can:  
+  From the View menu you can:  
   
--   View All events  
+- View All events  
   
--   Filter Events  
+- Filter Events  
   
--   View newest event first  
+- View newest event first  
   
--   View oldest event first  
+- View oldest event first  
   
--   Find events  
+- Find events  
   
--   Display event details  
+- Display event details  
   
--   Refresh events window.  
+- Refresh events window.  
   
 ## See Also  
  [Windows Event Viewer](../core/windows-event-viewer1.md)

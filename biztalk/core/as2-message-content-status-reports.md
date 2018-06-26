@@ -19,17 +19,17 @@ manager: "anneta"
 ## Overview
 These status reports display the context properties, headers and payload of an AS2 message or an MDN. There are three AS2 message content status reports:  
   
--   Message Wire Format report  
+- Message Wire Format report  
   
--   Message Decoded Format report  
+- Message Decoded Format report  
   
--   Mdn Message report  
+- Mdn Message report  
   
- You display one of these reports by right-clicking an AS2 message within the AS2/MDN status report, and then clicking **View Message Wire Format**, **View Message Decoded Format**, or **View Mdn Message**. The MDN command will display the MDN that is correlated to the AS2 message.  
+  You display one of these reports by right-clicking an AS2 message within the AS2/MDN status report, and then clicking **View Message Wire Format**, **View Message Decoded Format**, or **View Mdn Message**. The MDN command will display the MDN that is correlated to the AS2 message.  
   
- Each of these reports is available only if you have selected the corresponding "Store messages in non-repudiation database" properties in the Party as AS2 Message Sender page or Party as AS2 Message Receiver page of the AS2 Properties dialog box for the related party. The commands store AS2 messages or MDNs in wire format or decoded format in the BizTalkDTADb database.  
+  Each of these reports is available only if you have selected the corresponding "Store messages in non-repudiation database" properties in the Party as AS2 Message Sender page or Party as AS2 Message Receiver page of the AS2 Properties dialog box for the related party. The commands store AS2 messages or MDNs in wire format or decoded format in the BizTalkDTADb database.  
   
- This report uses the **Message Details Properties Dialog Box** (see the UI details [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]) to display message data, with information separated into pages:  
+  This report uses the **Message Details Properties Dialog Box** (see the UI details [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]) to display message data, with information separated into pages:  
   
 |Page|Data Displayed|  
 |----------|--------------------|  

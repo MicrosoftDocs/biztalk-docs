@@ -74,21 +74,21 @@ You use the BizTalk Administration Console or Windows Management Instrumentation
   
 ### To delete a MessageBox database from a BizTalk Group  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, click **Platform Settings**, and then click **Message Boxes**.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, click **Platform Settings**, and then click **Message Boxes**.  
   
-3.  In the details pane, right-click the message box database you want to remove, and then click **Properties**.  
+3. In the details pane, right-click the message box database you want to remove, and then click **Properties**.  
   
-4.  In the **Message Box Properties** dialog box, select the **Disable new message publication** check box.  
+4. In the **Message Box Properties** dialog box, select the **Disable new message publication** check box.  
   
-5.  Use the Group Hub page in the BizTalk Server Administration Console to verify that no message instances are dehydrated or suspended on the MessageBox database you are deleting.  
+5. Use the Group Hub page in the BizTalk Server Administration Console to verify that no message instances are dehydrated or suspended on the MessageBox database you are deleting.  
   
-6.  Wait for a period of time twice the length of the CacheRefreshInterval. The default value of CacheRefreshInterval is 60 seconds.  
+6. Wait for a period of time twice the length of the CacheRefreshInterval. The default value of CacheRefreshInterval is 60 seconds.  
   
-7.  In the details pane, right-click the MessageBox database that you want to delete, and click **Delete**.  
+7. In the details pane, right-click the MessageBox database that you want to delete, and click **Delete**.  
   
-8.  After reading the warning message, click **OK**.  
+8. After reading the warning message, click **OK**.  
   
 9. In the console tree, expand the BizTalk group, click **Platform Settings**, and then click **Host Instances**.  
   

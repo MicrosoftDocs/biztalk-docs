@@ -22,32 +22,32 @@ Two levels of reporting are available in EDI status reporting: the first if the 
   
  For a received interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] stores the following information:  
   
--   A record of all received interchanges. This is the first information displayed in the status reporting UI for EDI.  
+- A record of all received interchanges. This is the first information displayed in the status reporting UI for EDI.  
   
--   A record of all transaction sets contained in the interchange. This does not include all the details that are stored when transaction-set storage is enabled.  
+- A record of all transaction sets contained in the interchange. This does not include all the details that are stored when transaction-set storage is enabled.  
   
--   A record of all Technical acknowledgments present in the received interchange  
+- A record of all Technical acknowledgments present in the received interchange  
   
--   A record of all Functional acknowledgments present in the received interchange  
+- A record of all Functional acknowledgments present in the received interchange  
   
-    > [!NOTE]
-    >  If an interchange has multiple functional groups, multiple functional acknowledgments will be stored in the status reporting UI. However, if [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives duplicate functional acknowledgments for a group, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will store only the last functional acknowledgment in the status reporting UI.  
+  > [!NOTE]
+  >  If an interchange has multiple functional groups, multiple functional acknowledgments will be stored in the status reporting UI. However, if [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives duplicate functional acknowledgments for a group, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will store only the last functional acknowledgment in the status reporting UI.  
   
--   Whether a technical acknowledgment needs to be generated for the received interchange  
+- Whether a technical acknowledgment needs to be generated for the received interchange  
   
--   Whether functional acknowledgments need to be generated for the received transaction sets  
+- Whether functional acknowledgments need to be generated for the received transaction sets  
   
- For a sent interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] stores the following information:  
+  For a sent interchange, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] stores the following information:  
   
--   A record of the sent interchange  
+- A record of the sent interchange  
   
--   A record of all transaction sets contained in the interchange  
+- A record of all transaction sets contained in the interchange  
   
--   A record of all Technical acknowledgments present in the sent interchange  
+- A record of all Technical acknowledgments present in the sent interchange  
   
--   A record of all Functional acknowledgments present in the sent interchange  
+- A record of all Functional acknowledgments present in the sent interchange  
   
- EDI status reporting UI correlates these records to display complete information. For example, if [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an interchange, and a technical acknowledgment and a functional acknowledgment need to be sent to the sender of the original message, you can easily find this information in the status reporting UI.  
+  EDI status reporting UI correlates these records to display complete information. For example, if [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an interchange, and a technical acknowledgment and a functional acknowledgment need to be sent to the sender of the original message, you can easily find this information in the status reporting UI.  
   
 ## Data Stored If Transaction Set Storage Is Enabled  
  If the **Store message payload for reporting** property is selected for an agreement, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will store details of all transaction sets found in a sent or received interchange. This level of status reporting implements all of the first-level reporting performed if EDI reporting is activated, plus transaction-set specific information. The EDI receive pipeline and send pipeline make entries in the BAM database for each incoming and outgoing Group/Transaction Set (while the "**Store message payload reporting** property is selected). If the interchange is rejected, no entry is made.  

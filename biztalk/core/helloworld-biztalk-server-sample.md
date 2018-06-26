@@ -24,11 +24,11 @@ The HelloWorld sample demonstrates how to use BizTalk orchestrations to convert 
 ## What This Sample Does  
  This sample configures the **In** folder as a receive location. When you place a file, such as the sample file **SamplePOInput.xml**, into this folder, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes the message using the following steps:  
   
-1.  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] retrieves the XML purchase order message from the receive location folder.  
+1. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] retrieves the XML purchase order message from the receive location folder.  
   
-2.  The orchestration uses the map file to create an XML invoice from the XML purchase order.  
+2. The orchestration uses the map file to create an XML invoice from the XML purchase order.  
   
-3.  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] places the resulting XML invoice message into the send adapter **Out** folder.  
+3. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] places the resulting XML invoice message into the send adapter **Out** folder.  
   
 ## How This Sample is Designed and Why  
  In an intercompany message-exchange scenario, it is often necessary to convert inbound messages received from trading partners into a format that internal applications can recognize. This sample uses a **Receive** shape, a **Transform** shape, and a **Send** shape to achieve this result. The **Transform** shape plays the important role in this sample because it is where the message format conversion occurs. You drag a **Transform** shape into your orchestration and configure the source message, map name, and destination message for it. During run time, the source message is mapped to the destination message by using the map you designated.  
@@ -55,21 +55,21 @@ The HelloWorld sample demonstrates how to use BizTalk orchestrations to convert 
   
 #### To build and initialize the HelloWorld sample  
   
-1.  In a command window, navigate to the following folder:  
+1. In a command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\Orchestrations\HelloWorld  
+    \<*Samples Path*\>\Orchestrations\HelloWorld  
   
-2.  Run the file Setup.bat, which performs the following actions:  
+2. Run the file Setup.bat, which performs the following actions:  
   
-    -   Creates the input (In) and output (Out) folders for this sample in the following folder:  
+   - Creates the input (In) and output (Out) folders for this sample in the following folder:  
   
-         \<*Samples Path*\>\Orchestrations\HelloWorld  
+      \<*Samples Path*\>\Orchestrations\HelloWorld  
   
-    -   Compiles the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project for this sample.  
+   - Compiles the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project for this sample.  
   
-    -   Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location, and the send and receive ports to the orchestration.  
+   - Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location, and the send and receive ports to the orchestration.  
   
-    -   Enables the receive location, and starts the send port. Enlists and starts orchestration.  
+   - Enables the receive location, and starts the send port. Enlists and starts orchestration.  
   
 > [!NOTE]
 >  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample. You can confirm this by viewing your event logs.  

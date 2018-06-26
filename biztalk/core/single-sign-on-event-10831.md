@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10831
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10831|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_SSO_DATABASE_EXISTS|  
-|Message Text|The specified SSO database already exists.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10831                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                ENTSSO_E_SSO_DATABASE_EXISTS                |
+|  Message Text   |         The specified SSO database already exists.         |
   
 ## Explanation  
  During configuration, you have attempted to create a database that already exists.  

@@ -18,43 +18,43 @@ Uninstall and unconfigure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbi
   
 ##  <a name="BKMK_BeforeYouBegin"></a> Before You Begin  
   
--   Before you uninstall, you must un-configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- Before you uninstall, you must un-configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   This topic lists the different jobs, packages, and databases to be deleted. The names listed are the default names. Your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment may be using non-default names.  
+- This topic lists the different jobs, packages, and databases to be deleted. The names listed are the default names. Your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment may be using non-default names.  
   
--   Complete the steps in the order listed. Otherwise, the uninstall is not complete.  
+- Complete the steps in the order listed. Otherwise, the uninstall is not complete.  
   
 ##  <a name="BKMK_Unconfigure"></a> Un-configure BizTalk Server  
   
-1.  Right-click **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration**, and select **Run as Administrator**.  
+1. Right-click **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Configuration**, and select **Run as Administrator**.  
   
-2.  In the Configuration, select **Unconfigure Features**.  
+2. In the Configuration, select **Unconfigure Features**.  
   
-3.  Select the features you want to unconfigure, and select **OK**. If prompted to proceed, select **Yes**. To  remove everything from the computer, you can select all the features.  
+3. Select the features you want to unconfigure, and select **OK**. If prompted to proceed, select **Yes**. To  remove everything from the computer, you can select all the features.  
   
-4.  Select **Next**, and continue through the wizard.  
+4. Select **Next**, and continue through the wizard.  
   
- A log file is generated in a temp folder, similar to: C:\Users\username\AppData\Local\Temp\ConfigLog(8-29-2016 0h37m59s).log.  
+   A log file is generated in a temp folder, similar to: C:\Users\username\AppData\Local\Temp\ConfigLog(8-29-2016 0h37m59s).log.  
   
 ##  <a name="BKMK_Uninstall"></a> Uninstall BizTalk Server Runtime Components  
   
-1.  Open **Programs and Features**.  
+1. Open **Programs and Features**.  
   
-2.  Select  your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] version from the list, and  **Uninstall**.  
+2. Select  your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] version from the list, and  **Uninstall**.  
   
-3.  **Remove** it, and continue through the wizard.  
+3. **Remove** it, and continue through the wizard.  
   
- A log file is generated in a temp folder, similar to: C:\Users\\*username*\AppData\Local\Setup(083016 xxxxxx).htm  
+   A log file is generated in a temp folder, similar to: C:\Users\\*username*\AppData\Local\Setup(083016 xxxxxx).htm  
   
 ##  <a name="BKMK_UninstallSSO"></a> Uninstall Enterprise Single Sign-On  
   
-1.  Open **Programs and Features**.  
+1. Open **Programs and Features**.  
   
-2.  Select **Microsoft Enterprise Single Sign-On** from the list, and **Uninstall**.  
+2. Select **Microsoft Enterprise Single Sign-On** from the list, and **Uninstall**.  
   
-3.  **Remove** it, and continue through the wizard.  
+3. **Remove** it, and continue through the wizard.  
   
- A log file is generated in a temp folder, similar to: C:\Users\\*username*\AppData\Local\Setup(083016 xxxxxx).htm  
+   A log file is generated in a temp folder, similar to: C:\Users\\*username*\AppData\Local\Setup(083016 xxxxxx).htm  
   
 ##  <a name="BKMK_RemoveRemaining"></a> Delete SQL jobs, databases, and packages  
   

@@ -22,20 +22,20 @@ manager: "anneta"
 # Declared Customizations
 With declared customizations, you have the flexibility of modifying or adding to HL7 messages. You can even define a new type of message. You can do this in any of the following ways:  
   
--   Changing the definition of a message by defining a new message type or trigger event  
+- Changing the definition of a message by defining a new message type or trigger event  
   
--   Adding a new segment to an existing message type  
+- Adding a new segment to an existing message type  
   
--   Changing the data type of an existing message part (segment, field, component, or subcomponent)  
+- Changing the data type of an existing message part (segment, field, component, or subcomponent)  
   
--   Changing the potential values that you can use in an existing message part  
+- Changing the potential values that you can use in an existing message part  
   
-    > [!NOTE]
-    >  You can change the enumeration values used in declared Z objects or the standard objects in HL7 schemas. To do so, see [Extending Enumerations](../../adapters-and-accelerators/accelerator-hl7/extending-enumerations.md).  
+  > [!NOTE]
+  >  You can change the enumeration values used in declared Z objects or the standard objects in HL7 schemas. To do so, see [Extending Enumerations](../../adapters-and-accelerators/accelerator-hl7/extending-enumerations.md).  
   
- You modify or add to HL7 messages by adding, maintaining, and associating custom objects within the currently defined message types. The HL7 standards call these custom objects "Z objects" to distinguish them from existing objects that conform to the HL7 standard. You use BizTalk Editor to define Z objects. You also use BizTalk Editor to work with features that propagate updates to a Z object across all the trigger events and abstract messages that include it. For more information about creating Z objects, see [Extending HL7 2.X Schemas with Z Objects](../../adapters-and-accelerators/accelerator-hl7/extending-hl7-2-x-schemas-with-z-objects.md).  
+  You modify or add to HL7 messages by adding, maintaining, and associating custom objects within the currently defined message types. The HL7 standards call these custom objects "Z objects" to distinguish them from existing objects that conform to the HL7 standard. You use BizTalk Editor to define Z objects. You also use BizTalk Editor to work with features that propagate updates to a Z object across all the trigger events and abstract messages that include it. For more information about creating Z objects, see [Extending HL7 2.X Schemas with Z Objects](../../adapters-and-accelerators/accelerator-hl7/extending-hl7-2-x-schemas-with-z-objects.md).  
   
- You can use Z objects to give local definitions to segments that you use in ways not specified in the HL7 standard. You make these changes to the schemas that the BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) Setup Wizard installed on your computer. You can then share these modified schemas with other [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] installations with which you exchange messages.  
+  You can use Z objects to give local definitions to segments that you use in ways not specified in the HL7 standard. You make these changes to the schemas that the BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) Setup Wizard installed on your computer. You can then share these modified schemas with other [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] installations with which you exchange messages.  
   
 ## Types of Z Objects  
  The HL7 standard (2.X) currently supports the following forms of customization:  

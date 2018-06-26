@@ -26,22 +26,22 @@ manager: "anneta"
 ## Prerequisites  
  Note the following requirements before you begin this step:  
   
--   Before you begin this step you must complete [Step 1: Deploy the Projects](../core/step-1-deploy-the-projects.md).  
+- Before you begin this step you must complete [Step 1: Deploy the Projects](../core/step-1-deploy-the-projects.md).  
   
--   You must log on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
+- You must log on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
   
 ## Procedures  
  The BizTalk application is a feature of BizTalk Server that makes it quicker and easier to deploy, manage, and troubleshoot BizTalk Server business solutions. A BizTalk application is a logical grouping of the items, called "artifacts," used in a BizTalk Server business solution.  For more information, see [What Is a BizTalk Application?](../core/what-is-a-biztalk-application.md).  In [Step 1: Deploy the Projects](../core/step-1-deploy-the-projects.md), we configure the application name to be “EAISolution” before we deploy the projects.  So the EAISolution application contains the orchestration, the two schema, and the map.  
   
 #### To open the EAISolution application from BizTalk Server Administration Console  
   
-1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
+1. Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
   
-2.  In the console tree on the left side of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], right-click **BizTalk Group**, and then click **Refresh**.  
+2. In the console tree on the left side of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], right-click **BizTalk Group**, and then click **Refresh**.  
   
-3.  Expand **BizTalk Group**, expand **Applications**, and then click **EAISolution**.  
+3. Expand **BizTalk Group**, expand **Applications**, and then click **EAISolution**.  
   
- In [Lesson 2: Define the Business Process](../core/lesson-2-define-the-business-process.md), we created an orchestration.  In the orchestration, we defined the logical ports.  In the following procedures, you will define the physical ports and bind the physical ports to the logical ports.  
+   In [Lesson 2: Define the Business Process](../core/lesson-2-define-the-business-process.md), we created an orchestration.  In the orchestration, we defined the logical ports.  In the following procedures, you will define the physical ports and bind the physical ports to the logical ports.  
   
 #### To create the ReceiveRequest port  
   

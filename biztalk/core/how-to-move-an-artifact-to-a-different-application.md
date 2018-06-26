@@ -34,17 +34,17 @@ This topic describes how to move an artifact from one application to another wit
   
 ### To move an artifact to a different application  
   
-1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, and then expand the application from which you want to move an artifact.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, and then expand the application from which you want to move an artifact.  
   
-3.  Click the folder containing the artifact that you want to move, right-click the artifact, and then click **Move To Application**.  
+3. Click the folder containing the artifact that you want to move, right-click the artifact, and then click **Move To Application**.  
   
-4.  In the **Destination application** box, click the arrow, and then click the application to which you want to move the artifact.  
+4. In the **Destination application** box, click the arrow, and then click the application to which you want to move the artifact.  
   
-     The **Moving Artifacts** box displays the artifact to move, along with all dependent artifacts, which will be moved as well.  
+    The **Moving Artifacts** box displays the artifact to move, along with all dependent artifacts, which will be moved as well.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
 ## See Also  
  [Creating and Modifying BizTalk Applications](../core/creating-and-modifying-biztalk-applications.md)

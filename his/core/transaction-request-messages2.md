@@ -18,43 +18,43 @@ When you use TCP/IP to communicate with CICS, the client sends the host a transa
   
  You can find templates for various TRMs at \installation directory\Microsoft Host Integration Server\system\TIM\MicrosoftTRMDefs.tim. Use Microsoft Visual Studio to open the file, and then expand the **User-Defined Types** node. The following TRMs are defined as UDTs:  
   
--   TRMIN_MSLink  
+- TRMIN_MSLink  
   
--   TRMOUT_MSLink  
+- TRMOUT_MSLink  
   
--   TRMIN_MSCCS  
+- TRMIN_MSCCS  
   
--   TRMIN_IBMCCS  
+- TRMIN_IBMCCS  
   
--   TRMOUT_CCS  
+- TRMOUT_CCS  
   
- You can also find templates for various enhanced listener messages (ELMs) at \installation directory\Microsoft Host Integration Server\system\TIM\MicrosoftELMDefs.tim. Use Visual Studio to open the file, and then expand the **User-Defined Types** node. The following ELMs are defined as UDTs:  
+  You can also find templates for various enhanced listener messages (ELMs) at \installation directory\Microsoft Host Integration Server\system\TIM\MicrosoftELMDefs.tim. Use Visual Studio to open the file, and then expand the **User-Defined Types** node. The following ELMs are defined as UDTs:  
   
--   ELMIN_MSLink  
+- ELMIN_MSLink  
   
--   ELMOUT_MSLink  
+- ELMOUT_MSLink  
   
--   ELMIN_MSCCS  
+- ELMIN_MSCCS  
   
--   ELMIN_IBMCCS  
+- ELMIN_IBMCCS  
   
--   ELMOUT_CCS  
+- ELMOUT_CCS  
   
- You can create a TRM or ELM template in COBOL to assist with your programming by exporting the TRM or ELM definition.  
+  You can create a TRM or ELM template in COBOL to assist with your programming by exporting the TRM or ELM definition.  
   
 ### To create a TRM template in COBOL  
   
-1.  Open Visual Studio.  
+1. Open Visual Studio.  
   
-2.  On the **File** menu, point to **Open**, and then click **File**.  
+2. On the **File** menu, point to **Open**, and then click **File**.  
   
-3.  In the **Open File** dialog box, navigate to \<drive>:\Program Files\Microsoft Host Integration Server\System\TIM\\, and then click either **MicrosoftTRMDefs.tim** or **MicrosoftELMDefs.tim**.  
+3. In the **Open File** dialog box, navigate to \<drive>:\Program Files\Microsoft Host Integration Server\System\TIM\\, and then click either **MicrosoftTRMDefs.tim** or **MicrosoftELMDefs.tim**.  
   
-4.  On the **File** menu, click **Export Host Definition**.  
+4. On the **File** menu, click **Export Host Definition**.  
   
-5.  In the **Export Host Definition** dialog box, type or select the file name, and then click **Save**.  
+5. In the **Export Host Definition** dialog box, type or select the file name, and then click **Save**.  
   
- You can substitute a custom TRM (or ELM) for the default TRM (or ELM) created by the TI runtime. Use the COMTIContext parameter to pass custom context data.  
+   You can substitute a custom TRM (or ELM) for the default TRM (or ELM) created by the TI runtime. Use the COMTIContext parameter to pass custom context data.  
   
 ## See Also  
  [Custom TRMs and ELMs with COMTIContext](../core/custom-trms-and-elms-with-comticontext2.md)   

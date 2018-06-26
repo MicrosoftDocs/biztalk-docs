@@ -20,21 +20,21 @@ This section discusses the variables and operators used in the XLANG/s language.
 ## XLANG/s Variables  
  Variables represent storage locations. Every variable has a type that determines what values can be stored in that variable. XLANG/s is type-safe, and its compiler guarantees that values stored in variables are always of the appropriate type. XLANG/s supports the following variable types:  
   
--   Messages  
+- Messages  
   
--   Correlation sets  
+- Correlation sets  
   
--   Service links  
+- Service links  
   
--   Ports  
+- Ports  
   
--   Distinguished built-in value types: **Boolean**, **Byte**, **Char**, **Decimal**, **Double**, **Int16**, **Int32**, **Int64**, **SByte**, **Single**, **String**, **UInt16**, **UInt32**, and **UInt64**  
+- Distinguished built-in value types: **Boolean**, **Byte**, **Char**, **Decimal**, **Double**, **Int16**, **Int32**, **Int64**, **SByte**, **Single**, **String**, **UInt16**, **UInt32**, and **UInt64**  
   
--   Objects  
+- Objects  
   
--   Enumeration types  
+- Enumeration types  
   
- XLANG/s provides initialization semantics for each of the preceding types. Such initialization can be viewed as an assignment to a variable of that type. In XLANG/s, a variable must be definitely assigned before its value can be obtained or used.  
+  XLANG/s provides initialization semantics for each of the preceding types. Such initialization can be viewed as an assignment to a variable of that type. In XLANG/s, a variable must be definitely assigned before its value can be obtained or used.  
   
 ## XLANG/s Operators  
  XLANG/s supports the following operators. They adhere closely to the functionality of the corresponding operators in C#.  

@@ -56,24 +56,24 @@ manager: "anneta"
   
 ### To customize an enumeration in the envelope schema  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], create a new project.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], create a new project.  
   
-2.  Add the X12_ServiceSchemaExtension.xsd schema (to modify X12 or HIPAA enums) or the EDIFACT_ServiceSchemaExtension.xsd schema in [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI to a BizTalk project in the BizTalk Editor. Open the schema.  
+2. Add the X12_ServiceSchemaExtension.xsd schema (to modify X12 or HIPAA enums) or the EDIFACT_ServiceSchemaExtension.xsd schema in [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI to a BizTalk project in the BizTalk Editor. Open the schema.  
   
-3.  To change the values in an enumeration, select the enumeration in the **Properties** pane, and then click the ellipsis to open the **Enumeration Editor**. Add to the list of values, as needed, ensuring that there is one value on each line in the **Values** pane. Click **OK**.  
+3. To change the values in an enumeration, select the enumeration in the **Properties** pane, and then click the ellipsis to open the **Enumeration Editor**. Add to the list of values, as needed, ensuring that there is one value on each line in the **Values** pane. Click **OK**.  
   
-    > [!IMPORTANT]
-    >  You cannot change the namespace for the service schema. The schema should have the same namespace and root node name as the original extension schema installed with the product.  
+   > [!IMPORTANT]
+   >  You cannot change the namespace for the service schema. The schema should have the same namespace and root node name as the original extension schema installed with the product.  
   
-    > [!NOTE]
-    >  If you were to add a new field to the schemas, that field would be ignored. Only the fields listed in the [Envelope Fields That Can Be Modified](../core/customizing-enumerations-in-the-envelope-schema.md#BKMK_Env_Can) section above can be changed.  
+   > [!NOTE]
+   >  If you were to add a new field to the schemas, that field would be ignored. Only the fields listed in the [Envelope Fields That Can Be Modified](../core/customizing-enumerations-in-the-envelope-schema.md#BKMK_Env_Can) section above can be changed.  
   
-4.  Save the schema.  
+4. Save the schema.  
   
-5.  Right-click the schema, and click **Deploy**.  
+5. Right-click the schema, and click **Deploy**.  
   
-    > [!NOTE]
-    >  The schema must be deployed in the current BizTalk group.  
+   > [!NOTE]
+   >  The schema must be deployed in the current BizTalk group.  
   
 ## See Also  
  [Developing EDI Schemas](../core/developing-edi-schemas.md)   

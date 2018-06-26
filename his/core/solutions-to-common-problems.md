@@ -160,9 +160,9 @@ Error Text: EXECUTION FAILED DUE TO UNAVAILABLE RESOURCES THAT WILL AFFECT THE S
   
  The DRDA Service may write the following error to the trace listener when processing the DRDA SECCHK (Security Check).  
   
--   Failed to authenticate the user: SSO LogonExternalUser failed using specified userid/passwd.  
+- Failed to authenticate the user: SSO LogonExternalUser failed using specified userid/passwd.  
   
- To support this authentication method using host-initiated Enterprise Single Sign-On, you must set the Verify external credentials property to True in the Affiliate Application.  
+  To support this authentication method using host-initiated Enterprise Single Sign-On, you must set the Verify external credentials property to True in the Affiliate Application.  
   
 ## Problem with failure to process BNDSQLSTT when parameter names contain hyphens  
  According to MSDN, Microsoft SQL Server does not recognize variable names and stored procedure parameters that are delimited. These types of identifiers must comply with the rules for regular identifiers. See [http://msdn.microsoft.com/library/ms176027.aspx](http://msdn.microsoft.com/library/ms176027.aspx). However, PL/I and COBOL parameter names contain hyphens and other special characters. Solution is for the DRDA Service to process the BGNBND BNDSQLSTT by removing special characters and replacing with a single underscore. For example, the DRDA Service replaces the static SQL parameter name “PARM-1” with SQL Server stored procedure parameter name “PARM_1”. The DRDA Service uses the replaced value when processing the BGNBIND BNDSQLSTT into a SQL Server stored procedure or into a static SQL for DB2 XML definition file. See list of invalid characters in the T-SQL reference, at [http://msdn.microsoft.com/library/aa224033(v=SQL.80).aspx](http://msdn.microsoft.com/library/aa224033\(v=SQL.80\).aspx).  
@@ -226,38 +226,38 @@ Only one usage of each socket address (protocol/network address/port) is normall
   
  Using a Command Window, you can stop and start the DRDA Service.  
   
-1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio 2010**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt (2010)**, and click **Run as administrator**. The **User Account Control** dialog will appear. Click **Yes** to continue.  
+1. On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio 2010**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt (2010)**, and click **Run as administrator**. The **User Account Control** dialog will appear. Click **Yes** to continue.  
   
-2.  From the command prompt, enter **net stop msdrdaservice** and press **Enter**.  
+2. From the command prompt, enter **net stop msdrdaservice** and press **Enter**.  
   
-    ```  
-    C:\Windows\system32>net stop msdrdaservice  
-    The Microsoft Service for DRDA service is stopping.  
-    The Microsoft Service for DRDA service was stopped successfully.  
-    ```  
+   ```  
+   C:\Windows\system32>net stop msdrdaservice  
+   The Microsoft Service for DRDA service is stopping.  
+   The Microsoft Service for DRDA service was stopped successfully.  
+   ```  
   
- Using a Command Window, you can run the DRDA Service as an application.  
+   Using a Command Window, you can run the DRDA Service as an application.  
   
-1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio 2010**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt (2010)**, and click **Run as administrator**. The **User Account Control** dialog will appear. Click **Yes** to continue.  
+3. On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio 2010**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt (2010)**, and click **Run as administrator**. The **User Account Control** dialog will appear. Click **Yes** to continue.  
   
-2.  From the command prompt, enter **net stop msdrdaservice** and press **Enter**.  
+4. From the command prompt, enter **net stop msdrdaservice** and press **Enter**.  
   
-    ```  
-    C:\Windows\system32>net stop msdrdaservice  
-    The Microsoft Service for DRDA service is stopping.  
-    The Microsoft Service for DRDA service was stopped successfully.  
-    ```  
+   ```  
+   C:\Windows\system32>net stop msdrdaservice  
+   The Microsoft Service for DRDA service is stopping.  
+   The Microsoft Service for DRDA service was stopped successfully.  
+   ```  
   
-3.  From the command prompt, enter **cd C:\Windows\system32>cd C:\Program Files\Microsoft Host Integration Server 2013\system** and press **Enter**.  
+5. From the command prompt, enter **cd C:\Windows\system32>cd C:\Program Files\Microsoft Host Integration Server 2013\system** and press **Enter**.  
   
-    ```  
-    C:\Program Files\Microsoft Host Integration Server 2013\system>MsDrdaService.exe -c  
-    DrdaAs Information: 0 : [10/4/2011 4:51:48 PM] Microsoft Service for DRDA (build: 9.0.1203.0 )  
-    DrdaAs Information: 0 : [10/4/2011 4:51:48 PM] TCP communication manager listening on port 446  
-    ```  
+   ```  
+   C:\Program Files\Microsoft Host Integration Server 2013\system>MsDrdaService.exe -c  
+   DrdaAs Information: 0 : [10/4/2011 4:51:48 PM] Microsoft Service for DRDA (build: 9.0.1203.0 )  
+   DrdaAs Information: 0 : [10/4/2011 4:51:48 PM] TCP communication manager listening on port 446  
+   ```  
   
-    > [!NOTE]
-    >  The DRDA Service log writer will output information to the console window.  
+   > [!NOTE]
+   >  The DRDA Service log writer will output information to the console window.  
   
 ## Cannot load Custom Package Bind Listener  
  At service startup, if the DRDA Service cannot load a custom package bind listener, then the DRDA Service will log the following warning.  

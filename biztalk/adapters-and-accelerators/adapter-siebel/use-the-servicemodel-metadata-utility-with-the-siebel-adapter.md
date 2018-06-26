@@ -71,19 +71,19 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
   
  You specify a mex endpoint and target operations in the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] connection URI in the following manner:  
   
--   You must include the "wsdl" parameter in the query_string. If it is the first parameter in the query_string, it is specified just after the question mark (?). If it is not the first parameter, it should be preceded with an ampersand (&).  
+- You must include the "wsdl" parameter in the query_string. If it is the first parameter in the query_string, it is specified just after the question mark (?). If it is not the first parameter, it should be preceded with an ampersand (&).  
   
--   You must follow the "wsdl" parameter by one or more "op" parameters. Each "op" parameter is preceded by an ampersand (&) and specifies the node ID of a target operation.  
+- You must follow the "wsdl" parameter by one or more "op" parameters. Each "op" parameter is preceded by an ampersand (&) and specifies the node ID of a target operation.  
   
- The following two examples show how to target various operations by using svcutil.exe.  
+  The following two examples show how to target various operations by using svcutil.exe.  
   
- This example creates a WCF client class for an insert operation on the ACCOUNT\ACCOUNT Business Object.  
+  This example creates a WCF client class for an insert operation on the ACCOUNT\ACCOUNT Business Object.  
   
- **.\svcutil "siebel://Username=YourUserName;Password=YourPassword@Siebel_server:1234?SiebelEnterpriseServer=ent_server&SiebelObjectManager=obj_mgr&Language=enu&wsdl&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert"**  
+  **.\svcutil "siebel://Username=YourUserName;Password=YourPassword@Siebel_server:1234?SiebelEnterpriseServer=ent_server&SiebelObjectManager=obj_mgr&Language=enu&wsdl&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert"**  
   
- This example creates a WCF client class for both an insert operation and a delete operation on the ACCOUNT\ACCOUNT Business Object.  
+  This example creates a WCF client class for both an insert operation and a delete operation on the ACCOUNT\ACCOUNT Business Object.  
   
- **.\svcutil " siebel://Username=YourUserName;Password=YourPassword@Siebel_server:1234?SiebelEnterpriseServer=ent_server&SiebelObjectManager=obj_mgr&Language=enu&wsdl&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Delete"**  
+  **.\svcutil " siebel://Username=YourUserName;Password=YourPassword@Siebel_server:1234?SiebelEnterpriseServer=ent_server&SiebelObjectManager=obj_mgr&Language=enu&wsdl&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert&op=http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Delete"**  
   
 > [!IMPORTANT]
 >  You must place the connection URI in quotation marks on the command line. Otherwise, svcutil.exe attempts to retrieve metadata for operations that the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] does not support. The results of such an attempt are undefined.  

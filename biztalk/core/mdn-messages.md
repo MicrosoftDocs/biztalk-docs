@@ -46,15 +46,15 @@ The Message Disposition Notification (MDN) is the acknowledgment sent in respons
 ## MDN Headers  
  The MDN contains the following headers:  
   
--   **HTTP/AS2 headers**. For more information, see [AS2 Messages](../core/as2-messages.md).  
+- **HTTP/AS2 headers**. For more information, see [AS2 Messages](../core/as2-messages.md).  
   
--   **Transfer Layer**. This includes the Content-Type header that includes the signed multipart message, the algorithm for the MIC, the signature formatting protocol, and the outermost multipart boundary sub-headers.  
+- **Transfer Layer**. This includes the Content-Type header that includes the signed multipart message, the algorithm for the MIC, the signature formatting protocol, and the outermost multipart boundary sub-headers.  
   
--   **First Part**. The first part of the multipart signed message is the embedded MDN. It is human readable.  
+- **First Part**. The first part of the multipart signed message is the embedded MDN. It is human readable.  
   
--   **Second Part**. The second part of the multipart signed message contains the digital signature, a reference to the original message, the disposition type and status, and the MIC value. It is machine readable.  
+- **Second Part**. The second part of the multipart signed message contains the digital signature, a reference to the original message, the disposition type and status, and the MIC value. It is machine readable.  
   
- The AS2-From header, AS2-To header, and MessageID context property are used to correlate an MDN to the AS2 message that it is responding to. The Original-Message-ID header in an MDN comes from the Message-ID header of the AS2 message that the MDN is responding to.  
+  The AS2-From header, AS2-To header, and MessageID context property are used to correlate an MDN to the AS2 message that it is responding to. The Original-Message-ID header in an MDN comes from the Message-ID header of the AS2 message that the MDN is responding to.  
   
 ## MIC  
  The Message Integrity Check (MIC) is used to verify that an MDN correlates to the original sent message payload. The MIC digest is included in the Received-Content-MIC extension field in the second part of the multipart signed MDN message.  

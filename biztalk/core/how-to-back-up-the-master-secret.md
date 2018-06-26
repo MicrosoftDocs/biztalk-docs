@@ -36,18 +36,18 @@ You can back up the master secret from the master secret server onto an NTFS fil
   
 ### To back up the master secret using the command line  
   
-1.  On the **Start** menu, click **All Programs**, and then click **Accessories**. Right-click **Command Prompt**, and then click **Run As…**.  
+1. On the **Start** menu, click **All Programs**, and then click **Accessories**. Right-click **Command Prompt**, and then click **Run As…**.  
   
-2.  Select the appropriate Administrator, and then click **OK**.  
+2. Select the appropriate Administrator, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+3. At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssoconfig –backupSecret *\<backup file\>***, where *\<backup file\>* is the path and name of the file where the master secret will be backed up. For example, A:\ssobackup.bak  
+4. Type **ssoconfig –backupSecret *\<backup file\>**<em>, where *\<backup file\></em> is the path and name of the file where the master secret will be backed up. For example, A:\ssobackup.bak  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
-5.  Provide a password to protect this file. You will be prompted to confirm the password and to provide a password hint to help you remember this password.  
+5. Provide a password to protect this file. You will be prompted to confirm the password and to provide a password hint to help you remember this password.  
   
 > [!IMPORTANT]
 >  You must save and store the backup file in a secure location.  

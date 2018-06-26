@@ -31,37 +31,37 @@ This topic describes how to use the BizTalk Server Administration console or the
   
 #### Using the BizTalk Server Administration console  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, right-click **Applications**, point to **Export**, and then click **Bindings**.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, right-click **Applications**, point to **Export**, and then click **Bindings**.  
   
-3.  On the Export Bindings page, in **Export to file**, type the absolute path of the .xml file to which to export the bindings.  
+3. On the Export Bindings page, in **Export to file**, type the absolute path of the .xml file to which to export the bindings.  
   
-     Example: C:\Bindings\Group1Bindings_Staging1.xml  
+    Example: C:\Bindings\Group1Bindings_Staging1.xml  
   
-4.  Ensure that **Export all bindings from the current group** is selected, and then click **OK**.  
+4. Ensure that **Export all bindings from the current group** is selected, and then click **OK**.  
   
-     The bindings are exported to an .xml file in the location that you specified.  
+    The bindings are exported to an .xml file in the location that you specified.  
   
 #### Using the command line  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
-2.  Type the following command, substituting the appropriate values, as described in the following table:  
+2. Type the following command, substituting the appropriate values, as described in the following table:  
   
-     **BTSTask ExportBindings /Destination:** *value* **/GroupLevel** [**/GlobalParties**] [**/Server:***value*] [**/Database:***value*]  
+    **BTSTask ExportBindings /Destination:** *value* **/GroupLevel** [**/GlobalParties**] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
-     Example:  
+    Example:  
   
-     **BTSTask ExportBindings /Destination:"C:\Binding Files\MyBindings.xml" /GroupLevel /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
+    **BTSTask ExportBindings /Destination:"C:\Binding Files\MyBindings.xml" /GroupLevel /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
   
-    |Parameter|Value|  
-    |---------------|-----------|  
-    |**/Destination**|Full path of the binding file to create, including the file name. If a binding file having the same path already exists, it is overwritten. If there are spaces in the path, you must enclose it in double quotation marks (").|  
-    |**/GroupLevel**|When specified, all bindings in the current BizTalk group are exported.|  
-    |**/GlobalParties**|When specified, exports global party information for the group.|  
-    |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database, in the form ServerName\InstanceName,Port.<br /><br /> Instance name is only required when the instance name is different than the server name. Port is only required when SQL Server uses a port number other than the default (1433).<br /><br /> Examples:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> If not provided, the name of the SQL Server instance running on the local computer is used.|  
-    |**/Database**|Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used.|  
+   |Parameter|Value|  
+   |---------------|-----------|  
+   |**/Destination**|Full path of the binding file to create, including the file name. If a binding file having the same path already exists, it is overwritten. If there are spaces in the path, you must enclose it in double quotation marks (").|  
+   |**/GroupLevel**|When specified, all bindings in the current BizTalk group are exported.|  
+   |**/GlobalParties**|When specified, exports global party information for the group.|  
+   |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database, in the form ServerName\InstanceName,Port.<br /><br /> Instance name is only required when the instance name is different than the server name. Port is only required when SQL Server uses a port number other than the default (1433).<br /><br /> Examples:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> If not provided, the name of the SQL Server instance running on the local computer is used.|  
+   |**/Database**|Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used.|  
   
 ## See Also  
  [Exporting Bindings](../core/exporting-bindings6.md)   

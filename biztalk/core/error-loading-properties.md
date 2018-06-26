@@ -17,15 +17,15 @@ manager: "anneta"
 # Error loading properties
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Error loading properties|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Event ID     |                                         0                                          |
+|  Event Source   |                                         0                                          |
+|    Component    |                                         0                                          |
+|  Symbolic Name  |                                         0                                          |
+|  Message Text   |                              Error loading properties                              |
   
 ## Explanation  
  This error occurs when the adapter is loading the properties for the receive location or send port from the database.  

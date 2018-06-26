@@ -17,15 +17,15 @@ manager: "anneta"
 # Invalid Control Structure
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|X12Ta1InvalidControlStructureDescription|  
-|Message Text|Invalid Control Structure|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Event ID     |                                           -                                            |
+|  Event Source   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    Component    |                                       EDI Engine                                       |
+|  Symbolic Name  |                        X12Ta1InvalidControlStructureDescription                        |
+|  Message Text   |                               Invalid Control Structure                                |
   
 ## Explanation  
  This Error/Warning/Information event indicates that BizTalk Server could not validate the structure of the TA1 acknowledgment against the TA1Schema.  

@@ -35,7 +35,7 @@ This topic shows you how to set these properties on your map.
     | True | The map level compilation property is set to `XslTransform` (legacy behavior) | 
     | False | The map level compilation property is set to `XslCompiledTransform` | 
 
-> [!NOTE] 
+> [!NOTE]
 > Starting with BizTalk Server 2013, the mapper compilation behavior was changed from `XslTransform` to `XslCompiledTransform`. The [What the Mapper Updates Mean for You](http://www.quicklearn.com/blog/2013/05/24/what-the-biztalk-server-2013-mapper-updates-mean-for-you/) blog post provides a great explanation of the behavior, and its potential impact. 
 > 
 > Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)], you can choose which class to compile your maps. 

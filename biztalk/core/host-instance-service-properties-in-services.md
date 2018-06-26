@@ -33,25 +33,25 @@ manager: "anneta"
 ### Recovery  
  The Recovery capability in Services does not provide indefinite service restart attempts when the host instance service fails to start. By modifying the Recovery properties, it is possible to improve uptime of a BizTalk host instance. The most common scenarios that would cause a BizTalk host instance to stop include:  
   
--   Loss of network connectivity with the SQL Server  
+- Loss of network connectivity with the SQL Server  
   
--   Out Of Memory exception  
+- Out Of Memory exception  
   
--   Access Violation  
+- Access Violation  
   
- **Potential Scenarios**  
+  **Potential Scenarios**  
   
--   The SQL Server goes down unexpectedly. In this situation, the **First Failure** property will apply. With the default **First Failure** and **Restart service after** settings, a single restart attempt is made after 1 minute. If the SQL Server is still not available after 1 minute, no additional restart attempts will be made. The host instance will remain stopped.  
+- The SQL Server goes down unexpectedly. In this situation, the **First Failure** property will apply. With the default **First Failure** and **Restart service after** settings, a single restart attempt is made after 1 minute. If the SQL Server is still not available after 1 minute, no additional restart attempts will be made. The host instance will remain stopped.  
   
--   SQL Server is clustered and a failover occurs. The failover takes more than 5 minutes. In this scenario, the default **First Failure** and **Restart service after** settings will attempt a single restart after 1 minute. The restart will fail because SQL Server is still offline. As a result, no additional restart attempts will be made. The host instance will remain stopped.  
+- SQL Server is clustered and a failover occurs. The failover takes more than 5 minutes. In this scenario, the default **First Failure** and **Restart service after** settings will attempt a single restart after 1 minute. The restart will fail because SQL Server is still offline. As a result, no additional restart attempts will be made. The host instance will remain stopped.  
   
- **Recommendations**  
+  **Recommendations**  
   
--   When stopping the SQL Server or failing over a SQL cluster, manually stop the BizTalk host instances. After the SQL Server is online, restart the host instances.  
+- When stopping the SQL Server or failing over a SQL cluster, manually stop the BizTalk host instances. After the SQL Server is online, restart the host instances.  
   
--   If it is a common occurrence for a SQL cluster failover to take longer than 1 minute, increase the **Restart service after** value to however long it takes the SQL cluster to be online.  
+- If it is a common occurrence for a SQL cluster failover to take longer than 1 minute, increase the **Restart service after** value to however long it takes the SQL cluster to be online.  
   
--   When SQL Server is maintained by a non-BizTalk Administrator, consider increasing the **Restart service after** value. Non-BizTalk Administrators tend to stop/start SQL Server without realizing the impact on BizTalk.  
+- When SQL Server is maintained by a non-BizTalk Administrator, consider increasing the **Restart service after** value. Non-BizTalk Administrators tend to stop/start SQL Server without realizing the impact on BizTalk.  
   
 ## See Also  
  [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)

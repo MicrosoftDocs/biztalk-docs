@@ -26,20 +26,20 @@ This topic gives you a high-level overview of changes to the BizTalk Project Sys
 ## Add Web Reference option on projects  
  The **Add Web Reference** option is not available when you right-click the project name or **References** in the Solution Explorer. You can add a Web reference to a Web service (.asmx) by using the following steps:  
   
-1.  Right-click **References** in the project, and then click **Add Service Reference**.  
+1. Right-click **References** in the project, and then click **Add Service Reference**.  
   
-2.  In the **Add Service Reference** dialog box, click **Advanced**.  
+2. In the **Add Service Reference** dialog box, click **Advanced**.  
   
-3.  In the **Service Reference Settings** dialog box, click **Add Web Reference**.  
+3. In the **Service Reference Settings** dialog box, click **Add Web Reference**.  
   
-4.  Type the URL, and then click **Go**.  
+4. Type the URL, and then click **Go**.  
   
-5.  Click **Add Reference** to add the Web reference.  
+5. Click **Add Reference** to add the Web reference.  
   
-    > [!TIP]
-    >  After you add a Web reference to a BizTalk project, the **Add Web Reference** menu option is available on the References, Web References and project nodes.  
+   > [!TIP]
+   >  After you add a Web reference to a BizTalk project, the **Add Web Reference** menu option is available on the References, Web References and project nodes.  
   
- For more information about adding service and Web references, see [http://go.microsoft.com/fwlink/?LinkId=131577](http://go.microsoft.com/fwlink/?LinkId=131577).  
+   For more information about adding service and Web references, see [http://go.microsoft.com/fwlink/?LinkId=131577](http://go.microsoft.com/fwlink/?LinkId=131577).  
   
 ## MSBUILD Integration  
  Visual Studio uses the MSBUILD project file format to store build information about managed projects including BizTalk projects. For more information, see [MSBUILD Integration with Visual Studio](../core/msbuild-integration-with-visual-studio.md).  

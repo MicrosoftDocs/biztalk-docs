@@ -18,28 +18,28 @@ The Remote Environments folder contains definitions for the non-Windows host com
   
  The RE is used by the WIP Runtime for the following primary purposes:  
   
--   Define the code page used by the host.  
+- Define the code page used by the host.  
   
--   Define the data conversion object that will be used by the WIP Runtime.  
+- Define the data conversion object that will be used by the WIP Runtime.  
   
- Properties on each RE define the characteristics of the host that will be receiving requests.  
+  Properties on each RE define the characteristics of the host that will be receiving requests.  
   
 ## REs Supported by WIP  
  WIP supports multiple types of REs (for backward compatibility reasons, there are not just two, as in host-initiated processing).  
   
  The following is a minimum set of REs that is supported:  
   
--   CICS and IMS using TCP/IP  
+- CICS and IMS using TCP/IP  
   
--   CICS LINK using LU6.2  
+- CICS LINK using LU6.2  
   
--   CICS using LU6.2  
+- CICS using LU6.2  
   
--   IMS Connect  
+- IMS Connect  
   
--   IMS using LU6.2  
+- IMS using LU6.2  
   
- Each of the previous RE types has a (possibly) unique collection of properties, some of which are in conjunction with the Host Security functionality.  
+  Each of the previous RE types has a (possibly) unique collection of properties, some of which are in conjunction with the Host Security functionality.  
   
 ### TCP/IP RE Properties  
  The basic TCP/IP RE properties contain the following:  

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10599
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10599|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_ENTSSO_IS_ADMIN|  
-|Message Text|The SSO service is running under a local administrator account. This is not recommended for security reasons. See documentation for details.%r<br /><br /> SSO Service Account: %1|  
+|                 |                                                                                                                                                                                    |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                             Enterprise Single Sign-On                                                                              |
+| Product Version |                                                             [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                             |
+|    Event ID     |                                                                                       10599                                                                                        |
+|  Event Source   |                                                                                       ENTSSO                                                                                       |
+|    Component    |                                                                                        N/A                                                                                         |
+|  Symbolic Name  |                                                                              SSO_WARN_ENTSSO_IS_ADMIN                                                                              |
+|  Message Text   | The SSO service is running under a local administrator account. This is not recommended for security reasons. See documentation for details.%r<br /><br /> SSO Service Account: %1 |
   
 ## Explanation  
  The SSO service specified is running under a local administrator account. This is not recommended for security reasons.  

@@ -23,11 +23,11 @@ manager: "anneta"
   
 ### To enable or disable BAM tracking  
   
-1.  Click **Start**, point to **Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
+1. Click **Start**, point to **Programs**, point to **Microsoft** [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
   
-2.  Right-click the [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] node in the scope pane, and then click **Properties**.  
+2. Right-click the [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] node in the scope pane, and then click **Properties**.  
   
-3.  In the **Global Properties** dialog box, select **Enable BAM Tracking** to enable tracking, or clear this option to disable it.  
+3. In the **Global Properties** dialog box, select **Enable BAM Tracking** to enable tracking, or clear this option to disable it.  
   
 > [!IMPORTANT]
 >  Whenever you change the enable flag to enable or disable tracking, you have to restart all services on which the public processes and the HTTP adapter are running. This includes the host service and the isolated host service.  

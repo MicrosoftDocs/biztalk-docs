@@ -24,7 +24,7 @@ Distinguished fields defined in a schema are written to the message context by t
   
  *name used* is the distinguished field in XPath  
   
- *namespace URI* is "http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields"  
+ *namespace URI* is "<http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields>"  
   
  The value of the property is the **System.String** value extracted from the XML document using specified XPath.  
   

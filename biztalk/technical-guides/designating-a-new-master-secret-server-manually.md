@@ -18,7 +18,7 @@ Cluster hardware can be expensive. If hardware cost is a concern, you can consid
   
  To make the process seamless, you will need to implement some monitoring mechanism so you will discover the failure as soon as possible. You can also automate the promotion process by using a monitoring application such as System Center Operations Manager.  
   
- For more information about manually moving the master secret server, see [How to Move the Master Secret Server](http://go.microsoft.com/fwlink/?LinkId=156841) (http://go.microsoft.com/fwlink/?LinkId=156841) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
+ For more information about manually moving the master secret server, see [How to Move the Master Secret Server](http://go.microsoft.com/fwlink/?LinkId=156841) (<http://go.microsoft.com/fwlink/?LinkId=156841>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.  
   
 ## See Also  
  [Clustering the Master Secret Server](../technical-guides/clustering-the-master-secret-server.md)

@@ -22,16 +22,16 @@ Project properties configure global settings for projects that you create in [!I
   
 ### To access properties with the Project Designer  
   
-1.  In Solution Explorer, select the project.  
+1. In Solution Explorer, select the project.  
   
-2.  On the **Project** menu, click **Properties** to access the Project Designer.  
+2. On the **Project** menu, click **Properties** to access the Project Designer.  
   
-    > [!NOTE]
-    >  Alternatively, you can right-click the project, and then click **Properties**.  
+   > [!NOTE]
+   >  Alternatively, you can right-click the project, and then click **Properties**.  
   
-3.  Click the desired property tab to access project properties.  
+3. Click the desired property tab to access project properties.  
   
- Documentation for properties common to all [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects can be found by referencing the respective Project Designer property tab information from the following link: [http://go.microsoft.com/fwlink/?LinkId=124727](http://go.microsoft.com/fwlink/?LinkId=124727).  
+   Documentation for properties common to all [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects can be found by referencing the respective Project Designer property tab information from the following link: [http://go.microsoft.com/fwlink/?LinkId=124727](http://go.microsoft.com/fwlink/?LinkId=124727).  
   
 ## In This Section  
   

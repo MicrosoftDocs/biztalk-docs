@@ -65,43 +65,43 @@ This topic explains how to use the SelectiveBindingImport sample. You can use th
   
 ### To run the sample  
   
-1.  Run **Build.Bat from the *\<Samples Path\>*\Application Deployment\CreateApp** directory. This creates the following files in the *\<Samples Path\>*\Application Deployment\CreateApp\Dlls folder: Schemas.dll, Maps.dll, and Orchestrations.dll.  
+1. Run **Build.Bat from the *\<Samples Path\>*\Application Deployment\CreateApp** directory. This creates the following files in the *\<Samples Path\>*\Application Deployment\CreateApp\Dlls folder: Schemas.dll, Maps.dll, and Orchestrations.dll.  
   
-2.  **Create the application.** In the BizTalk Server Administration console, create an application, as described in [How to Create an Application](../core/how-to-create-an-application.md).  
+2. **Create the application.** In the BizTalk Server Administration console, create an application, as described in [How to Create an Application](../core/how-to-create-an-application.md).  
   
-3.  **Add to the application the .dll files created in the first step.** For instructions, see [How to Add a BizTalk Assembly to an Application](../core/how-to-add-a-biztalk-assembly-to-an-application.md).  
+3. **Add to the application the .dll files created in the first step.** For instructions, see [How to Add a BizTalk Assembly to an Application](../core/how-to-add-a-biztalk-assembly-to-an-application.md).  
   
-4.  **Create the ENVIRONMENT variable, as follows:**  
+4. **Create the ENVIRONMENT variable, as follows:**  
   
-    1.  On the Start menu, right-click **My Computer** and click **Properties**.  
+   1.  On the Start menu, right-click **My Computer** and click **Properties**.  
   
-    2.  On the **Advanced** tab, click **Environment Variables**.  
+   2.  On the **Advanced** tab, click **Environment Variables**.  
   
-    3.  In the **User variables** section, click **New**.  
+   3.  In the **User variables** section, click **New**.  
   
-    4.  In **Variable name**, type **ENVIRONMENT**.  
+   4.  In **Variable name**, type **ENVIRONMENT**.  
   
-    5.  In **Variable value**, type on of the following values for the environment: **Develop**, **Production**, **Staging**, or **Test**. These values are case sensitive.  
+   5.  In **Variable value**, type on of the following values for the environment: **Develop**, **Production**, **Staging**, or **Test**. These values are case sensitive.  
   
-5.  Click **OK** three times.  
+5. Click **OK** three times.  
   
-6.  **Copy the binding files to a location on your file system.** Copy the binding .xml files from the Develop, Test, Staging, and Production folders to a location on your file system.  
+6. **Copy the binding files to a location on your file system.** Copy the binding .xml files from the Develop, Test, Staging, and Production folders to a location on your file system.  
   
-7.  **Edit the post-processing script.** Edit SelectiveBindings.bat as follows:  
+7. **Edit the post-processing script.** Edit SelectiveBindings.bat as follows:  
   
-    1.  **Specify the binding file location.** In the line containing BINDINGS_LOC, delete REM, and provide the path to the location where you copied the binding files.  
+   1.  **Specify the binding file location.** In the line containing BINDINGS_LOC, delete REM, and provide the path to the location where you copied the binding files.  
   
-         Example:  
+        Example:  
   
-         BINDINGS_LOC=C:\MyBindings  
+        BINDINGS_LOC=C:\MyBindings  
   
-    2.  **Specify the application name.** In the line containing APPLICATION_NAME, delete REM, and provide the name of the application into which you want to import the bindings.  
+   2.  **Specify the application name.** In the line containing APPLICATION_NAME, delete REM, and provide the name of the application into which you want to import the bindings.  
   
-         Example:  
+        Example:  
   
-         APPLICATION_Name=SelectiveBindingImport  
+        APPLICATION_Name=SelectiveBindingImport  
   
-8.  **Add the script to the application as a post-processing script.** For instructions, see [How to Add a Pre- or Post-processing Script to an Application](../core/how-to-add-a-pre-or-post-processing-script-to-an-application.md).  
+8. **Add the script to the application as a post-processing script.** For instructions, see [How to Add a Pre- or Post-processing Script to an Application](../core/how-to-add-a-pre-or-post-processing-script-to-an-application.md).  
   
 9. **Export the application.** For instructions, see [How to Export a BizTalk Application](../core/how-to-export-a-biztalk-application.md).  
   
@@ -111,11 +111,11 @@ This topic explains how to use the SelectiveBindingImport sample. You can use th
   
 12. **Verify that the right binding file was applied.** You can do this by checking the description field of the receive locations, as follows:  
   
-    1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+    1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-    2.  In the console tree, expand the BizTalk group, the BizTalk application, and the Receive Locations folder.  
+    2. In the console tree, expand the BizTalk group, the BizTalk application, and the Receive Locations folder.  
   
-    3.  In the right pane, view the description of the receive locations.  
+    3. In the right pane, view the description of the receive locations.  
   
 13. **Install the application.** For instructions, see [How to Install a BizTalk Application](../core/how-to-install-a-biztalk-application.md).  
   

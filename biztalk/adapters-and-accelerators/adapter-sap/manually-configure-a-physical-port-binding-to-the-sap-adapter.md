@@ -24,21 +24,21 @@ Configure the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] as a WCF c
 ## Port overview
 After deploying the adapter, you will be able to send and receive messages from the SAP system by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. The steps for deploying the adapter vary depending on:  
   
--   The direction of communication between [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. You may choose to configure a Send, Receive, Send-Receive, or a Receive-Send port. Your choices are summarized in the following table:  
+- The direction of communication between [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. You may choose to configure a Send, Receive, Send-Receive, or a Receive-Send port. Your choices are summarized in the following table:  
   
-    |Port direction|Communication pattern|Direction of communication to choose from|  
-    |---|---|---|  
-    |Send|One-way|I will always be sending messages on this port.|  
-    |Receive|One-way|I will always be receiving messages on this port.|  
-    |Send-Receive|Request-response|I will be sending a request and receiving a response.|  
-    |Receive-Send|Solicit-response|I will be receiving a request and sending a response.|  
+  |Port direction|Communication pattern|Direction of communication to choose from|  
+  |---|---|---|  
+  |Send|One-way|I will always be sending messages on this port.|  
+  |Receive|One-way|I will always be receiving messages on this port.|  
+  |Send-Receive|Request-response|I will be sending a request and receiving a response.|  
+  |Receive-Send|Solicit-response|I will be receiving a request and sending a response.|  
   
-     For more information, see [Create a Send Port](../../core/how-to-create-a-send-port2.md), or [Create a Receive Port](../../core/how-to-create-a-receive-port.md).
+   For more information, see [Create a Send Port](../../core/how-to-create-a-send-port2.md), or [Create a Receive Port](../../core/how-to-create-a-receive-port.md).
   
--   Whether the adapter sends messages to the SAP system or receives messages from the SAP system. Depending on whether you want to send or receive messages, you will create a send or receive port.  
+- Whether the adapter sends messages to the SAP system or receives messages from the SAP system. Depending on whether you want to send or receive messages, you will create a send or receive port.  
   
-    > [!NOTE]
-    >  You can also configure the send or receive ports by importing a binding configuration file that is created by the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] as part of metadata generation. For instructions on configuring ports using this binding file, see [Configure a physical port binding using a port binding file to SAP](../../adapters-and-accelerators/adapter-sap/configure-a-physical-port-binding-using-a-port-binding-file-to-sap.md).
+  > [!NOTE]
+  >  You can also configure the send or receive ports by importing a binding configuration file that is created by the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] as part of metadata generation. For instructions on configuring ports using this binding file, see [Configure a physical port binding using a port binding file to SAP](../../adapters-and-accelerators/adapter-sap/configure-a-physical-port-binding-using-a-port-binding-file-to-sap.md).
   
 ## In this section  
   

@@ -22,29 +22,29 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] can act as an RFC se
   
  To receive the inbound RFCs in the WCF service model, you must:  
   
--   Ensure that an RFC destination exists on the SAP system.  
+- Ensure that an RFC destination exists on the SAP system.  
   
--   Ensure that the RFC is defined on the SAP system.  
+- Ensure that the RFC is defined on the SAP system.  
   
--   Generate a WCF service contract (interface) for the RFC operation from the metadata exposed by the adapter. To do this, you use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe).  
+- Generate a WCF service contract (interface) for the RFC operation from the metadata exposed by the adapter. To do this, you use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe).  
   
--   Implement a WCF service from this interface. The methods of the WCF service contain the logic necessary to process the RFC and return a response to the adapter (and hence the SAP system).  
+- Implement a WCF service from this interface. The methods of the WCF service contain the logic necessary to process the RFC and return a response to the adapter (and hence the SAP system).  
   
--   Host this WCF service using a service host (**System.ServiceModel.ServiceHost**).  
+- Host this WCF service using a service host (**System.ServiceModel.ServiceHost**).  
   
- The following sections show you how to receive RFCs from the SAP system by using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+  The following sections show you how to receive RFCs from the SAP system by using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
 ## How to Set up the SAP System to Send an RFC to the SAP Adapter  
  Before you can send an RFC from the SAP system to the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], you must ensure that the following are true on the SAP system:  
   
--   An RFC destination for the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] must exist. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] registers itself with an RFC destination to receive RFCs from the SAP system. You supply parameters in the SAP connection URI such as the SAP Gateway Host, the SAP Gateway Service, and the SAP Program ID that the adapter uses to register itself. For information about how to setup an RFC destination on SAP, see [Create an RFC, RFC destination, and send an RFC from SAP system](creating-an-rfc-in-an-sap-system.md).  
+- An RFC destination for the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] must exist. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] registers itself with an RFC destination to receive RFCs from the SAP system. You supply parameters in the SAP connection URI such as the SAP Gateway Host, the SAP Gateway Service, and the SAP Program ID that the adapter uses to register itself. For information about how to setup an RFC destination on SAP, see [Create an RFC, RFC destination, and send an RFC from SAP system](creating-an-rfc-in-an-sap-system.md).  
   
--   The RFC must be defined on the SAP system. You must create a function module that defines the RFC on the SAP system. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses the RFC definition on the SAP system to retrieve metadata about the RFC (both at design time and at run time). For more information see [Creating an RFC in an SAP System](../../adapters-and-accelerators/adapter-sap/creating-an-rfc-in-an-sap-system.md).  
+- The RFC must be defined on the SAP system. You must create a function module that defines the RFC on the SAP system. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses the RFC definition on the SAP system to retrieve metadata about the RFC (both at design time and at run time). For more information see [Creating an RFC in an SAP System](../../adapters-and-accelerators/adapter-sap/creating-an-rfc-in-an-sap-system.md).  
   
-    > [!NOTE]
-    >  You must define the RFC on the SAP system; however you implement the RFC in your adapter client code. The RFC must be defined on the SAP system so that the adapter can retrieve metadata for the RFC.  
+  > [!NOTE]
+  >  You must define the RFC on the SAP system; however you implement the RFC in your adapter client code. The RFC must be defined on the SAP system so that the adapter can retrieve metadata for the RFC.  
   
- The following is an example of the source code on the SAP system for an RFC that adds two integers and returns their result. The code merely calls the RFC through a specified destination. The implementation of the function is done by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] client code.  
+  The following is an example of the source code on the SAP system for an RFC that adds two integers and returns their result. The code merely calls the RFC through a specified destination. The implementation of the function is done by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] client code.  
   
 ```  
 FUNCTION Z_RFC_SAMPLE_ADD.  

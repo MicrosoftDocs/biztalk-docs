@@ -11,15 +11,15 @@ Deployment overwrites the receive location configuration. When you deploy a bind
   
 ### To clean the target computer  
   
--   Remove send ports and receive locations bound to the orchestration.  
+- Remove send ports and receive locations bound to the orchestration.  
   
-     If you do not have Microsoft Visual Studio installed on the target computer, you can remove the ports by running these scripts:  
+   If you do not have Microsoft Visual Studio installed on the target computer, you can remove the ports by running these scripts:  
   
-    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs  
+  - [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\Remove Send Port\VBScript\RemoveSendPort.vbs  
   
-    -   [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs  
+  - [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\Admin\WMI\Remove Receive Port\VBScript\RemoveReceivePort.vbs  
   
-         For example, at a command prompt, run:  
+     For example, at a command prompt, run:  
   
-         **cscript RemoveSendPort.vbs \<Send port name\>**  
+     **cscript RemoveSendPort.vbs \<Send port name\>**  
   

@@ -22,28 +22,28 @@ manager: "anneta"
 # Create a channel using Oracle Database
 In the WCF channel model, you invoke operations on the Oracle database and receive the results of a polling query by exchanging SOAP messages with the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] over a WCF channel.  
   
--   You invoke operations (outbound operations) by using either an **IRequestChannel** or an **IOutputChannel** to send messages to the adapter.  
+- You invoke operations (outbound operations) by using either an **IRequestChannel** or an **IOutputChannel** to send messages to the adapter.  
   
--   You receive polling-based data-changed messages by receiving POLLINGSTMT messages over an **IInputChannel**.  
+- You receive polling-based data-changed messages by receiving POLLINGSTMT messages over an **IInputChannel**.  
   
- The topics in this section provide information about how to create and configure channel shapes that are used for inbound and outbound operations.  
+  The topics in this section provide information about how to create and configure channel shapes that are used for inbound and outbound operations.  
   
 ## Creating Outbound (Client) Channels  
  You can use either an **IRequestChannel** or an **IOutputChannel** to invoke operations on the Oracle database. In either case, you first create a **System.ServiceModel.ChannelFactory** using the appropriate interface. You then use the factory to create the channel. After you have created the channel you can use it to invoke operations on the adapter.  
   
 #### To create and open an outbound channel  
   
-1.  Create and initialize an instance of **ChannelFactory** for the desired channel shape by using an endpoint and a binding. The endpoint specifies an Oracle connection URI and the binding is an instance of **OracleDBBinding**.  
+1. Create and initialize an instance of **ChannelFactory** for the desired channel shape by using an endpoint and a binding. The endpoint specifies an Oracle connection URI and the binding is an instance of **OracleDBBinding**.  
   
-2.  Provide Oracle credentials for the channel factory by using the **Credentials** property.  
+2. Provide Oracle credentials for the channel factory by using the **Credentials** property.  
   
-3.  Open the channel factory.  
+3. Open the channel factory.  
   
-4.  Get an instance of the channel by invoking the **CreateChannel** method on the channel factory.  
+4. Get an instance of the channel by invoking the **CreateChannel** method on the channel factory.  
   
-5.  Open the channel.  
+5. Open the channel.  
   
- You can specify the binding and endpoint address in your code or from configuration.  
+   You can specify the binding and endpoint address in your code or from configuration.  
   
 ### Specifying the Binding and Endpoint Address in Code  
  The following code example shows how to create an **IRequestChannel** by specifying the binding and endpoint address in code. The code to create an **IOutputChannel** is the same except that you must specify an **IOutputChannel** interface for the **ChannelFactory** and channel type.  
@@ -127,21 +127,21 @@ channel.Open();
   
 ##### To create and open an IInputChannel to receive messages for inbound operations  
   
-1.  Create an instance of **OracleDBBinding**.  
+1. Create an instance of **OracleDBBinding**.  
   
-2.  Set the binding properties required for the inbound operation. For example, for the POLLINGSTMT operation, at a minimum you must set the **InboundOperationType**, **PollingStatement**, and **PollingInterval** binding properties to configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to poll the Oracle database.  
+2. Set the binding properties required for the inbound operation. For example, for the POLLINGSTMT operation, at a minimum you must set the **InboundOperationType**, **PollingStatement**, and **PollingInterval** binding properties to configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to poll the Oracle database.  
   
-3.  Create a binding parameter collection using the **BindingParameterCollection** class and set the credentials.  
+3. Create a binding parameter collection using the **BindingParameterCollection** class and set the credentials.  
   
-4.  Create a channel listener by invoking **BuildChannelListener\<IInputChannel\>** method on the **OracleDBBinding**. You specify the Oracle connection URI as one of the parameters to this method. For more information about the Oracle connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  
+4. Create a channel listener by invoking **BuildChannelListener\<IInputChannel\>** method on the **OracleDBBinding**. You specify the Oracle connection URI as one of the parameters to this method. For more information about the Oracle connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  
   
-5.  Open the listener.  
+5. Open the listener.  
   
-6.  Get an **IInputChannel** channel by invoking the **AcceptChannel** method on listener.  
+6. Get an **IInputChannel** channel by invoking the **AcceptChannel** method on listener.  
   
-7.  Open the channel.  
+7. Open the channel.  
   
- The following code shows how to create a channel listener and get an **IInputChannel** to inbound messages from the adapter using the POLLINGSTMT operation.  
+   The following code shows how to create a channel listener and get an **IInputChannel** to inbound messages from the adapter using the POLLINGSTMT operation.  
   
 > [!NOTE]
 >  The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] only supports one-way receive. So, you must use IInputChannel to receive messages for inbound operations from Oracle database.  

@@ -24,15 +24,15 @@ Optimization of the MSMQ adapter differs between the send and receive sides. You
 ## Receive Optimization  
  On the receive side, you can have the adapter use a single execution thread. Whether the adapter uses a single thread or multiple threads depends on the setting of the **Ordered Processing** property on the receive location, as follows:  
   
--   When the property is **True**, the adapter operates on a single thread. This limits the adapter to one message at a time and conserves memory. Notice that this effectively sets **Batch Size** to one (1), regardless of the value assigned to it in the property sheet.  
+- When the property is **True**, the adapter operates on a single thread. This limits the adapter to one message at a time and conserves memory. Notice that this effectively sets **Batch Size** to one (1), regardless of the value assigned to it in the property sheet.  
   
--   When **Ordered Processing** is **False**, the adapter runs multiple threads and can process multiple messages at a time, therefore increasing performance.  
+- When **Ordered Processing** is **False**, the adapter runs multiple threads and can process multiple messages at a time, therefore increasing performance.  
   
- You must set **Ordered Processing** to **True** if you put a premium on managing server resources, or if the number or size of messages might exhaust available memory.  
+  You must set **Ordered Processing** to **True** if you put a premium on managing server resources, or if the number or size of messages might exhaust available memory.  
   
- You can also control memory use by reducing the value of **Batch Size** on the receive location. A smaller batch size keeps fewer messages in memory and therefore uses less memory.  
+  You can also control memory use by reducing the value of **Batch Size** on the receive location. A smaller batch size keeps fewer messages in memory and therefore uses less memory.  
   
- Placing send ports and receive locations on separate computers can also reduce memory use.  
+  Placing send ports and receive locations on separate computers can also reduce memory use.  
   
 ## Send Optimization  
  On the send side, you can achieve the equivalent single-message processing by using the sample orchestration. The sample sends a single message and then waits to send the next message until it receives an acknowledgment. For more information, see [How to Create MSMQ Receive Locations and Send Ports from Code](../core/how-to-create-msmq-receive-locations-and-send-ports-from-code.md).  

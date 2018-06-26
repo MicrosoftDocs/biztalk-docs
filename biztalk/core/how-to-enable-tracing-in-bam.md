@@ -59,41 +59,41 @@ You can enable tracing in BAM to help troubleshoot problems within the following
 ## Enabling Tracing for the BAM Event Bus  
  Enabling tracing for the BAM event bus can help you diagnose two classes of database storage errors:  
   
--   Storage errors originating from events from the BizTalk Server service when using the Tracking Profile Editor.  
+- Storage errors originating from events from the BizTalk Server service when using the Tracking Profile Editor.  
   
--   Storage errors generated when using the buffered event stream APIs.  
+- Storage errors generated when using the buffered event stream APIs.  
   
- To enable tracing for the BAM event bus, edit or add the following section of the BTSNTSvc.exe.config file located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)] folder.  
+  To enable tracing for the BAM event bus, edit or add the following section of the BTSNTSvc.exe.config file located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)] folder.  
   
- `<system.diagnostics>`  
+  `<system.diagnostics>`  
   
- `<switches>`  
+  `<switches>`  
   
- `<add name="Microsoft.BizTalk.Bam.EventBus" value="1" />`  
+  `<add name="Microsoft.BizTalk.Bam.EventBus" value="1" />`  
   
- `</switches>`  
+  `</switches>`  
   
- `<trace autoflush="true" indentsize="4">`  
+  `<trace autoflush="true" indentsize="4">`  
   
- `<listeners>`  
+  `<listeners>`  
   
- `<add name="Text" type="System.Diagnostics.TextWriterTraceListener" initializeData="c:\tdds.log"/>`  
+  `<add name="Text" type="System.Diagnostics.TextWriterTraceListener" initializeData="c:\tdds.log"/>`  
   
- `</listeners>`  
+  `</listeners>`  
   
- `</trace>`  
+  `</trace>`  
   
- `</system.diagnostics>`  
+  `</system.diagnostics>`  
   
 #### To enable tracing for the BAM Event bus  
   
-1.  Edit the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BTSNTSvc.exe.config file.  
+1. Edit the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BTSNTSvc.exe.config file.  
   
-2.  Locate the \<system.diagnostics\> and \</system.diagnostics\> tag. If they are not present in the file, copy the code listed above and paste it into the configuration file.  
+2. Locate the \<system.diagnostics\> and \</system.diagnostics\> tag. If they are not present in the file, copy the code listed above and paste it into the configuration file.  
   
-3.  Uncomment the Uncomment the system diagnostics section by moving the end comment delimiter ('-->') from after the \</system.diagnostics\> tag to before the \<system.diagnostics\> tag.  
+3. Uncomment the Uncomment the system diagnostics section by moving the end comment delimiter ('-->') from after the \</system.diagnostics\> tag to before the \<system.diagnostics\> tag.  
   
-4.  Save the file.  
+4. Save the file.  
   
 ## Enabling Tracing for the BAM Portal  
  Enabling tracing for the BAM portal allows you to troubleshoot connectivity issues.  
@@ -102,79 +102,79 @@ You can enable tracing in BAM to help troubleshoot problems within the following
   
 #### To enable tracing for the BAM portal  
   
-1.  Edit the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config file.  
+1. Edit the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]BAMPortal\web.config file.  
   
-2.  Locate the \<system.diagnostics\> and \</system.diagnostics\> tags.  
+2. Locate the \<system.diagnostics\> and \</system.diagnostics\> tags.  
   
-3.  Uncomment the system diagnostics section by moving end comment delimiter ('-->') from after the \</system.diagnostics\> tag to before the \<system.diagnostics\> tag.  
+3. Uncomment the system diagnostics section by moving end comment delimiter ('-->') from after the \</system.diagnostics\> tag to before the \<system.diagnostics\> tag.  
   
-4.  Modify the initializeData attribute to specify the location to write the tracing log.  
+4. Modify the initializeData attribute to specify the location to write the tracing log.  
   
-5.  Locate \<system.web\> tag.  
+5. Locate \<system.web\> tag.  
   
-6.  In the system.web section locate the trace tag and uncomment the trace command by moving the delimiter ('-->') from after the trace tag to before it.  
+6. In the system.web section locate the trace tag and uncomment the trace command by moving the delimiter ('-->') from after the trace tag to before it.  
   
-7.  Save the file.  
+7. Save the file.  
   
- `<!--`  
+   `<!--`  
   
- `TRACING: To turn tracing on:`  
+   `TRACING: To turn tracing on:`  
   
- `1) Uncomment this tag and specify a file path for trace output`  
+   `1) Uncomment this tag and specify a file path for trace output`  
   
- `2) Uncomment the <trace tag> under <system.web>`  
+   `2) Uncomment the <trace tag> under <system.web>`  
   
- `The trace will be saved to the file pointed to by "initializeData" below.`  
+   `The trace will be saved to the file pointed to by "initializeData" below.`  
   
- `Ensure that the target directory exists (C:\temp by default).`  
+   `Ensure that the target directory exists (C:\temp by default).`  
   
- `Make sure that the IIS worker process user account (usually Network Service or ASPNET)`  
+   `Make sure that the IIS worker process user account (usually Network Service or ASPNET)`  
   
- `and the BAM Portal user have write permissions for the trace log file directory (C:\temp below).`  
+   `and the BAM Portal user have write permissions for the trace log file directory (C:\temp below).`  
   
- `To turn tracing on, you will need to uncomment the <trace> tag under <system.web>`  
+   `To turn tracing on, you will need to uncomment the <trace> tag under <system.web>`  
   
- `<system.diagnostics>`  
+   `<system.diagnostics>`  
   
- `<trace autoflush="true" indentsize="2">`  
+   `<trace autoflush="true" indentsize="2">`  
   
- `<listeners>`  
+   `<listeners>`  
   
- `<add name="BAMPortalListener"`  
+   `<add name="BAMPortalListener"`  
   
- `type="System.Diagnostics.TextWriterTraceListener"`  
+   `type="System.Diagnostics.TextWriterTraceListener"`  
   
- `initializeData="C:\temp\BAMPortalTrace.log" />`  
+   `initializeData="C:\temp\BAMPortalTrace.log" />`  
   
- `</listeners>`  
+   `</listeners>`  
   
- `</trace>`  
+   `</trace>`  
   
- `</system.diagnostics>`  
+   `</system.diagnostics>`  
   
- `-->`  
+   `-->`  
   
- `<!--`  
+   `<!--`  
   
- `TRACING: To turn tracing on:`  
+   `TRACING: To turn tracing on:`  
   
- `1) Uncomment this tag`  
+   `1) Uncomment this tag`  
   
- `2) Uncomment the <system.diagnostics> tag above and specify a file path for trace output`  
+   `2) Uncomment the <system.diagnostics> tag above and specify a file path for trace output`  
   
- `<trace enabled="true"`  
+   `<trace enabled="true"`  
   
- `requestLimit="40"`  
+   `requestLimit="40"`  
   
- `pageOutput="false"`  
+   `pageOutput="false"`  
   
- `traceMode="SortByTime"`  
+   `traceMode="SortByTime"`  
   
- `localOnly="true"`  
+   `localOnly="true"`  
   
- `writeToDiagnosticsTrace="true" />`  
+   `writeToDiagnosticsTrace="true" />`  
   
- `-->`  
+   `-->`  
   
 ## BAM Alerting  
  Enabling tracing for BAM alerting helps you troubleshoot alert delivery failures.  

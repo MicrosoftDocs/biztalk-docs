@@ -17,26 +17,26 @@ manager: "anneta"
 # Interfaces for a Transactional Asynchronous Batch-Supported Send Adapter
 A send adapter can create and control transactions when transactional transmission of messages is required. To support transactional send, an adapter needs to implement the following interfaces:  
   
--   **IBTTransport**  
+- **IBTTransport**  
   
--   **IBaseComponent**  
+- **IBaseComponent**  
   
--   **IBTTransportControl**  
+- **IBTTransportControl**  
   
--   **IPersistPropertyBag**  
+- **IPersistPropertyBag**  
   
--   **IBTBatchTransmitter**  
+- **IBTBatchTransmitter**  
   
--   **IBTTransmitterBatch**  
+- **IBTTransmitterBatch**  
   
--   **IBTBatchCallBack**  
+- **IBTBatchCallBack**  
   
- An adapter creates an MSDTC transaction and returns a pointer to that object in the call to the **BeginBatch** method of the **IBTTransmitterBatch** interface. The Messaging Engine calls this method to obtain a batch with which it posts outgoing messages to the send adapter. When the adapter finishes the send operation and commits or rolls back a transaction, it notifies the Messaging Engine of the result of the transaction by using the **DTCCommitConfirm** method of the **IBTDTCCommitConfirm** interface.  
+  An adapter creates an MSDTC transaction and returns a pointer to that object in the call to the **BeginBatch** method of the **IBTTransmitterBatch** interface. The Messaging Engine calls this method to obtain a batch with which it posts outgoing messages to the send adapter. When the adapter finishes the send operation and commits or rolls back a transaction, it notifies the Messaging Engine of the result of the transaction by using the **DTCCommitConfirm** method of the **IBTDTCCommitConfirm** interface.  
   
- The following figure shows the interaction between the transport proxy and the send adapter when performing a transactional send operation.  
+  The following figure shows the interaction between the transport proxy and the send adapter when performing a transactional send operation.  
   
- ![](../core/media/ebiz-sdk-devadapter8.gif "ebiz_sdk_devadapter8")  
-Workflow for sending a transactional message asynchronously  
+  ![](../core/media/ebiz-sdk-devadapter8.gif "ebiz_sdk_devadapter8")  
+  Workflow for sending a transactional message asynchronously  
   
 ## See Also  
  [Adapter Variables](../core/adapter-variables.md)   

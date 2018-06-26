@@ -730,21 +730,21 @@ union LUA_SPECIFIC {
   
  Data is received by the application in one of four session flows. The four session flows, from highest to lowest priority are:  
   
--   SSCP expedited  
+- SSCP expedited  
   
--   LU expedited  
+- LU expedited  
   
--   SSCP normal  
+- SSCP normal  
   
--   LU normal  
+- LU normal  
   
- The data flow type that **SLI_RECEIVE_EX** will process is specified in **lua_flag1**. The application can also specify whether it wants to look at more than one type of data flow. When multiple flow bits are set, the highest priority is received first. When **SLI_RECEIVE_EX** completes processing, **lua_flag2** indicates the specific type of flow for which data has been received by the Windows LUA application.  
+  The data flow type that **SLI_RECEIVE_EX** will process is specified in **lua_flag1**. The application can also specify whether it wants to look at more than one type of data flow. When multiple flow bits are set, the highest priority is received first. When **SLI_RECEIVE_EX** completes processing, **lua_flag2** indicates the specific type of flow for which data has been received by the Windows LUA application.  
   
- If [SLI_BID](../core/sli-bid2.md) successfully completes before SLI_RECEIVE is issued, the Windows LUA interface can be instructed to reuse the last SLI_BID verbs VCB. To do this, issue SLI_RECEIVE_EX with lua_flag1.bid_enable set to 1.  
+  If [SLI_BID](../core/sli-bid2.md) successfully completes before SLI_RECEIVE is issued, the Windows LUA interface can be instructed to reuse the last SLI_BID verbs VCB. To do this, issue SLI_RECEIVE_EX with lua_flag1.bid_enable set to 1.  
   
- When using lua_flag1.bid_enable, the SLI_BID storage must not be freed because the last SLI_BID verbs VCB is used. Also, when using lua_flag1.bid_enable, the successful completion of SLI_BID will be posted.  
+  When using lua_flag1.bid_enable, the SLI_BID storage must not be freed because the last SLI_BID verbs VCB is used. Also, when using lua_flag1.bid_enable, the successful completion of SLI_BID will be posted.  
   
- If SLI_RECEIVE_EX is issued with lua_flag1.nowait when no data is available to receive, LUA_NO_DATA will be the secondary return code set by the Windows LUA interface.  
+  If SLI_RECEIVE_EX is issued with lua_flag1.nowait when no data is available to receive, LUA_NO_DATA will be the secondary return code set by the Windows LUA interface.  
   
 ## Session Status Return Values  
  If LUA_STATUS is the primary return code, the secondary return code can be one of the following:  
@@ -767,17 +767,17 @@ union LUA_SPECIFIC {
   
  LUA_NOT_READY indicates that the SLI session is suspended because the SLI has received either an SNA CLEAR command or an SNA UNBIND command with an 0x02 UNBIND type (UNBIND with BIND forthcoming). Depending on what caused the suspension, the session can be reactivated as follows:  
   
--   When the suspension is caused by an SNA CLEAR, receiving an SNA SDT reactivates the session.  
+- When the suspension is caused by an SNA CLEAR, receiving an SNA SDT reactivates the session.  
   
--   When an SNA UNBIND type BIND forthcoming causes suspension of the session and the [SLI_OPEN](../core/sli-open2.md) that opened the session is completed, the session is suspended until the SLI receives a BIND and SDT command. The session can also optionally receive an STSN command. As a result, user-supplied routines issued with the initial SLI_OPEN must be re-entered because they will be recalled.  
+- When an SNA UNBIND type BIND forthcoming causes suspension of the session and the [SLI_OPEN](../core/sli-open2.md) that opened the session is completed, the session is suspended until the SLI receives a BIND and SDT command. The session can also optionally receive an STSN command. As a result, user-supplied routines issued with the initial SLI_OPEN must be re-entered because they will be recalled.  
   
- The application can send SSCP data after a CLEAR or UNBIND type BIND forthcoming arrives and before the NOT_READY status is read. The application can send and receive SSCP data after reading a NOT_READY.  
+  The application can send SSCP data after a CLEAR or UNBIND type BIND forthcoming arrives and before the NOT_READY status is read. The application can send and receive SSCP data after reading a NOT_READY.  
   
- When an SNA UNBIND type BIND forthcoming arrives before completion of the SLI_OPEN that opened the session, LUA_SESSION_FAILURE (not LUA_STATUS) is the primary return code.  
+  When an SNA UNBIND type BIND forthcoming arrives before completion of the SLI_OPEN that opened the session, LUA_SESSION_FAILURE (not LUA_STATUS) is the primary return code.  
   
- LUA_SESSION_END_REQUESTED indicates that the application received an SNA SHUTD from the host. The Windows LUA application should issue [SLI_CLOSE](../core/sli-close1.md) to close the session when convenient.  
+  LUA_SESSION_END_REQUESTED indicates that the application received an SNA SHUTD from the host. The Windows LUA application should issue [SLI_CLOSE](../core/sli-close1.md) to close the session when convenient.  
   
- LUA_INIT_COMPLETE is returned only when lua_init_type for [SLI_OPEN](../core/sli-open2.md) is LUA_INIT_TYPE_PRIM_SSCP. The status means that the SLI_OPEN has been processed sufficiently to allow SSCP data to now be sent or received.  
+  LUA_INIT_COMPLETE is returned only when lua_init_type for [SLI_OPEN](../core/sli-open2.md) is LUA_INIT_TYPE_PRIM_SSCP. The status means that the SLI_OPEN has been processed sufficiently to allow SSCP data to now be sent or received.  
   
 ## Exception Requests  
  If a host application request unit is converted into an EXR, sense data will be returned. When [SLI_BID](../core/sli-bid2.md) completes with the returned verb parameters set as shown, an EXR conversion occurs.  

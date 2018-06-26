@@ -24,7 +24,7 @@ You must have administrator rights on the master secret server in order to perfo
   
 > [!IMPORTANT]
 >  There can be only one master secret server in your SSO system.  
-  
+> 
 > [!NOTE]
 >  When Enterprise Single Sign-On is installed as part of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation, the master secret is generated as part of the Configuration Wizard. You will only need to perform this task if you want to generate a new master secret.  
   

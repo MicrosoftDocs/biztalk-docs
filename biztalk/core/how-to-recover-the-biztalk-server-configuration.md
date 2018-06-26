@@ -22,17 +22,17 @@ As part of recovering your BizTalk server, you must also import the configuratio
   
 ### To recover the BizTalk Server configuration  
   
-1.  Using Notepad, edit the BizTalk Server configuration file that you previously backed up, and enter the user account passwords for all of the BizTalk Server services.  
+1. Using Notepad, edit the BizTalk Server configuration file that you previously backed up, and enter the user account passwords for all of the BizTalk Server services.  
   
-2.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
+2. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
   
-3.  In **Microsoft BizTalk Server Configuration**, click **Import Configuration**.  
+3. In **Microsoft BizTalk Server Configuration**, click **Import Configuration**.  
   
-     Verify that there are no invalidation icons appearing in front of any feature. If any of the features have configuration errors, now is the time to correct them.  
+    Verify that there are no invalidation icons appearing in front of any feature. If any of the features have configuration errors, now is the time to correct them.  
   
-4.  Click **Apply Configuration**.  
+4. Click **Apply Configuration**.  
   
-     After all of the BizTalk Server features are configured, close the configuration window.  
+    After all of the BizTalk Server features are configured, close the configuration window.  
   
 ## See Also  
  [Recovering a Computer Running BizTalk Server](../core/recovering-a-computer-running-biztalk-server.md)   

@@ -29,43 +29,43 @@ When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
   
 ## Prerequisites  
   
--   Sign in with an account that is a member of the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] **sysadmin** fixed server role  
+- Sign in with an account that is a member of the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] **sysadmin** fixed server role  
   
--   Create a local [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] login. In the following steps, this account is mapped to a login on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] you will link to. 
+- Create a local [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] login. In the following steps, this account is mapped to a login on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] you will link to. 
   
 ## Create a linked server
   
-1.  Open **SQL Server Management Studio**, enter the name of your local [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], and then select **Connect**.  
+1. Open **SQL Server Management Studio**, enter the name of your local [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], and then select **Connect**.  
   
-2.  Expand **Server Objects**, right-click **Linked Servers**, and then select **New Linked Server**.  
+2. Expand **Server Objects**, right-click **Linked Servers**, and then select **New Linked Server**.  
 
-    To see **Server Objects**, connect to a local on-premises [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. Then, **Server Objects** should be displayed.
+   To see **Server Objects**, connect to a local on-premises [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. Then, **Server Objects** should be displayed.
   
-3.  In the **Linked server** text box, enter the full network name of the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] you want to link to.  
+3. In the **Linked server** text box, enter the full network name of the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] you want to link to.  
   
-    > [!NOTE]
-    >  This procedure often refers to the server you are linking to as the remote server. This is for convenience only, to indicate the relationship of the linked (“remote”) server to the local server.  
+   > [!NOTE]
+   >  This procedure often refers to the server you are linking to as the remote server. This is for convenience only, to indicate the relationship of the linked (“remote”) server to the local server.  
   
-4.  Under **Server type**, select **SQL Server**.  
+4. Under **Server type**, select **SQL Server**.  
   
-5.  In the left pane, select **Security**. 
+5. In the left pane, select **Security**. 
 
-    In this step, you map the local account you created to the remote server login. Your options: 
+   In this step, you map the local account you created to the remote server login. Your options: 
     
-    | | | 
-    |---|---|
-    | **Be made using the login’s current security context** | In domain environments, users typically connect with their domain logins. This option may be best since the security context of the signed-in domain account is mapped to the local account you created.|
-    | **Be made using this security context** | When users connect to the local SQL Server using a SQL Server login, then this option may be best. Then enter the login and password for the account on the linked server. |
+   | | | 
+   |---|---|
+   | **Be made using the login’s current security context** | In domain environments, users typically connect with their domain logins. This option may be best since the security context of the signed-in domain account is mapped to the local account you created.|
+   | **Be made using this security context** | When users connect to the local SQL Server using a SQL Server login, then this option may be best. Then enter the login and password for the account on the linked server. |
 
 
 6. Select **Add**, and enter the following: 
 
-    1. Under **Local Login**, select the local account you created. 
-    2. Check **Impersonate** if the local login also exists on the remote server. 
-    3. Alternatively, if the local login will be mapped to a remote [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] login you, enter the **Remote User** name and **Remote Password** for the remote server login.  
+   1. Under **Local Login**, select the local account you created. 
+   2. Check **Impersonate** if the local login also exists on the remote server. 
+   3. Alternatively, if the local login will be mapped to a remote [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] login you, enter the **Remote User** name and **Remote Password** for the remote server login.  
   
-    > [!NOTE]
-    >  To use impersonation, your [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] configuration and login accounts must meet the requirements for delegation. See [Configuring Linked Servers for Delegation](https://msdn.microsoft.com/library/ms189580.aspx) for more details.  
+      > [!NOTE]
+      >  To use impersonation, your [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] configuration and login accounts must meet the requirements for delegation. See [Configuring Linked Servers for Delegation](https://msdn.microsoft.com/library/ms189580.aspx) for more details.  
 
 7. In the left pane, choose **Server Options**. Set the **RPC** and **RPC Out** parameters to **True**, and then select **OK**. 
  

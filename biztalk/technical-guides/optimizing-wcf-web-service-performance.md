@@ -110,13 +110,13 @@ maxConcurrentInstances="200" />
 ## Use the WCF Module/Handler Registration tool to configure WCF modules/handlers and improve scalability of IIS 7.5/7.0 hosted WCF services  
  The WCF Module/Handler Registration Tool is available for download at [http://go.microsoft.com/fwlink/?LinkId=157593](http://go.microsoft.com/fwlink/?LinkId=157593) (http://go.microsoft.com/fwlink/?LinkId=157593). This utility can be used to install, list, or configure the following WCF modules:  
   
--   WCF Synchronous HTTP module and handler  
+- WCF Synchronous HTTP module and handler  
   
--   WCF Asynchronous HTTP module and handler  
+- WCF Asynchronous HTTP module and handler  
   
--   WCF HTTP module and handler  
+- WCF HTTP module and handler  
   
- For more information about using the asynchronous WCF HTTP modules/handlers to improve the scalability of IIS 7.5/7.0 hosted WCF services, see Wenlong Dong’s blog [Orcas SP1 Improvement: Asynchronous WCF HTTP Module/Handler for IIS7 for Better Server Scalability](http://go.microsoft.com/fwlink/?LinkId=157428) (http://go.microsoft.com/fwlink/?LinkId=157428).  
+  For more information about using the asynchronous WCF HTTP modules/handlers to improve the scalability of IIS 7.5/7.0 hosted WCF services, see Wenlong Dong’s blog [Orcas SP1 Improvement: Asynchronous WCF HTTP Module/Handler for IIS7 for Better Server Scalability](http://go.microsoft.com/fwlink/?LinkId=157428) (http://go.microsoft.com/fwlink/?LinkId=157428).  
   
 ## See Also  
  [Optimizing BizTalk Server WCF Adapter Performance](../technical-guides/optimizing-biztalk-server-wcf-adapter-performance.md)

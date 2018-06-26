@@ -25,15 +25,15 @@ An outbound send pipeline processes all messages transmitted by an [!INCLUDE[A4S
   
  The SWIFT assembler, a custom flat file assembler, provides functionality for processing outbound SWIFT messages, and performs the following functions:  
   
--   Dynamically discovers the message type and resolves the document schema  
+- Dynamically discovers the message type and resolves the document schema  
   
--   Serializes parsed XML into SWIFT flat files  
+- Serializes parsed XML into SWIFT flat files  
   
- The following figure shows the SWIFT assembler data flow.  
+  The following figure shows the SWIFT assembler data flow.  
   
- ![](../../adapters-and-accelerators/accelerator-swift/media/fsa-intro3.gif "FSA_Intro3")  
+  ![](../../adapters-and-accelerators/accelerator-swift/media/fsa-intro3.gif "FSA_Intro3")  
   
- For more information about the SWIFT assembler, see [Working with the SWIFT Disassembler and Assembler](../../adapters-and-accelerators/accelerator-swift/working-with-the-swift-disassembler-and-assembler.md).  
+  For more information about the SWIFT assembler, see [Working with the SWIFT Disassembler and Assembler](../../adapters-and-accelerators/accelerator-swift/working-with-the-swift-disassembler-and-assembler.md).  
   
 ## See Also  
  [BizTalk Accelerator for SWIFT Runtime](../../adapters-and-accelerators/accelerator-swift/biztalk-accelerator-for-swift-runtime.md)

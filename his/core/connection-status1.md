@@ -16,19 +16,19 @@ manager: "anneta"
 # Connection Status
 The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] SNA Manager offers six different messages that indicate the status of a connection:  
   
--   Active  
+- Active  
   
--   Pending  
+- Pending  
   
--   Stopping  
+- Stopping  
   
--   Inactive  
+- Inactive  
   
--   On Demand: Indicates that the connection is available to be started when needed. On Demand connections can also have all of the statuses listed above.  
+- On Demand: Indicates that the connection is available to be started when needed. On Demand connections can also have all of the statuses listed above.  
   
--   Incoming: Indicates that the connection is available to receive incoming calls. Incoming connections can also have all of the statuses listed above.  
+- Incoming: Indicates that the connection is available to receive incoming calls. Incoming connections can also have all of the statuses listed above.  
   
- To view a connection status, simply select the appropriate connection in the SNA Manager.  
+  To view a connection status, simply select the appropriate connection in the SNA Manager.  
   
 ## See Also  
  [Host Integration Server Status](../core/host-integration-server-status1.md)

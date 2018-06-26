@@ -20,7 +20,7 @@ To add a postprocessing script to a BizTalk application, you use the **AddResour
  A postprocessing script runs from the .msi file after the application import or installation, or before uninstallation. You can also use BTSTask to add a preprocessing script, which runs before application import or installation, or after uninstallation, as described in [AddResource Command: Preprocessing Script](../core/addresource-command-preprocessing-script.md). For more information about preprocessing and postprocessing scripts, see [Using Pre- and Post-processing Scripts to Customize Application Deployment](../core/using-pre-and-post-processing-scripts-to-customize-application-deployment.md).  
   
 ## Usage  
- **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:PostProcessingScript**[**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Server:***value*] [**/Database:***value*][**/Property:Args="***argument list***"**]  
+ **BTSTask AddResource** [**/ApplicationName:**<em>value</em>] **/Type:System.BizTalk:PostProcessingScript**[**/Overwrite**] **/Source:**<em>value</em> [**/Destination:**<em>value</em>] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>][**/Property:Args="**<em>argument list</em>**"**]  
   
 ## Parameters  
   

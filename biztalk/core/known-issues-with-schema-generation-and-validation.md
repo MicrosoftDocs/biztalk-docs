@@ -30,8 +30,8 @@ This topic provides information about known issues with schema generation and va
 ## An instance message generated for a schema that contains an infinite loop may not be valid.  
  Your schema can contain an infinite loop when it contains a circular reference to a node with a **Min Occurs** property value greater than or equal to one, essentially preventing a termination condition. Instance message generation will artificially terminate so that the generation operation can complete, but the produced instance message will thereby not conform to the schema from which it was generated. Such schemas are usually suspect.  
   
-## Validation of XML instance fails for document schema which has the target namespace="http://www.w3.org/XML/1998/namespace"  
- The HYPERLINK "http://www.w3.org/XML/1998/namespace" is a reserved namespace whose prefix should be “XML”. You can manually edit the prefix to “XML”.
+## Validation of XML instance fails for document schema which has the target namespace="<http://www.w3.org/XML/1998/namespace>"  
+ The HYPERLINK "<http://www.w3.org/XML/1998/namespace>" is a reserved namespace whose prefix should be “XML”. You can manually edit the prefix to “XML”.
 
 ## See also
 More details on these properties [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].

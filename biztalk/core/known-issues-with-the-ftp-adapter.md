@@ -34,9 +34,9 @@ This section contains information that may help you avoid errors.
 ##### Resolution  
  To work around this behavior, use one of the following methods:  
   
--   Configure the host application to write to a temporary folder on the same hard disk as the public FTP folder and to periodically move the contents of the temporary folder to the FTP folder. The temporary folder should be on the same hard disk as the public FTP folder to make sure that the move operation is atomic. An atomic operation is an operation that is functionally indivisible. If you write data to the public FTP folder by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] FTP adapter, you can do this by specifying a Temporary Folder property in the FTP Transport Properties dialog box when you configure a send port. If you specify a Temporary Folder property, make sure that this folder is on the same physical disk as the public FTP folder.  
+- Configure the host application to write to a temporary folder on the same hard disk as the public FTP folder and to periodically move the contents of the temporary folder to the FTP folder. The temporary folder should be on the same hard disk as the public FTP folder to make sure that the move operation is atomic. An atomic operation is an operation that is functionally indivisible. If you write data to the public FTP folder by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] FTP adapter, you can do this by specifying a Temporary Folder property in the FTP Transport Properties dialog box when you configure a send port. If you specify a Temporary Folder property, make sure that this folder is on the same physical disk as the public FTP folder.  
   
--   Configure the FTP receive location to operate within a service window when the host application is not writing data to the FTP server. You can specify the service window when you configure the receive location properties.  
+- Configure the FTP receive location to operate within a service window when the host application is not writing data to the FTP server. You can specify the service window when you configure the receive location properties.  
   
 #### FTP Adapter does not support revocation checks on the server certificates  
   

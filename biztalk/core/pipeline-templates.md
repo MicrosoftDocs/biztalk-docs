@@ -24,15 +24,15 @@ In addition to the default pipelines, [!INCLUDE[btsBizTalkServerNoVersion](../in
   
  A policy file specifies:  
   
--   The sequence of stages.  
+- The sequence of stages.  
   
--   The number of components allowed per stage.  
+- The number of components allowed per stage.  
   
--   The execution mode of each stage.  
+- The execution mode of each stage.  
   
- The policy files for the pipeline templates are stored in *\<BizTalk Server installation directory\>*\Developer Tools\Pipeline Policy Files. Do not modify the policy files. To make changes to a pipeline, open the pipeline template and use Pipeline Designer to modify it. For more information about using Pipeline Designer, see [Using Pipeline Designer](../core/using-pipeline-designer.md).  
+  The policy files for the pipeline templates are stored in *\<BizTalk Server installation directory\>*\Developer Tools\Pipeline Policy Files. Do not modify the policy files. To make changes to a pipeline, open the pipeline template and use Pipeline Designer to modify it. For more information about using Pipeline Designer, see [Using Pipeline Designer](../core/using-pipeline-designer.md).  
   
- The empty pipeline template files are stored in *\<BizTalk Server installation directory\>*\Developer Tools\BizTalkProjectItems, and are named BTSReceivePipeline.btp and BTSTransmitPipeline.btp. The file name extension .btp indicates that the file is a BizTalk Server pipeline and can be edited in Pipeline Designer.  
+  The empty pipeline template files are stored in *\<BizTalk Server installation directory\>*\Developer Tools\BizTalkProjectItems, and are named BTSReceivePipeline.btp and BTSTransmitPipeline.btp. The file name extension .btp indicates that the file is a BizTalk Server pipeline and can be edited in Pipeline Designer.  
   
 ## See Also  
  [Types of Pipelines](../core/types-of-pipelines.md)   

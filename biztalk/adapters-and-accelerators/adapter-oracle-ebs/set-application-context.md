@@ -20,20 +20,20 @@ In [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslo
 ## What is application context  
  Application context is a set of elements associated with an artifact in Oracle E-Business Suite that implements user preferences and access control on the artifact. Application context consists of the following elements:  
   
--   **User name**: A user that can connect to Oracle E-Business Suite.  
+- **User name**: A user that can connect to Oracle E-Business Suite.  
   
--   **Responsibility**: A responsibility is an access level in Oracle E-Business Suite that allows users to access only those data and functions that are appropriate to their roles in an organization. Responsibilities can allow access to a specific application, operating units, set of books, and a restricted list of windows, functions, and other responsibilities. By virtue of assigning responsibilities to a user, you can grant/restrict access of the user in Oracle E-Business Suite.  
+- **Responsibility**: A responsibility is an access level in Oracle E-Business Suite that allows users to access only those data and functions that are appropriate to their roles in an organization. Responsibilities can allow access to a specific application, operating units, set of books, and a restricted list of windows, functions, and other responsibilities. By virtue of assigning responsibilities to a user, you can grant/restrict access of the user in Oracle E-Business Suite.  
   
--   **Organization ID**: Oracle E-Business Suite supports setting up of multiple organizations. These different organizations are uniquely identified by a value, Organization ID, in the Org_ID column of the table in Oracle E-Business Suite that stores information about these organizations. By virtue of assigning a responsibility to an organization or selecting an organization explicitly, you can grant/restrict access of a user to an organization.  
+- **Organization ID**: Oracle E-Business Suite supports setting up of multiple organizations. These different organizations are uniquely identified by a value, Organization ID, in the Org_ID column of the table in Oracle E-Business Suite that stores information about these organizations. By virtue of assigning a responsibility to an organization or selecting an organization explicitly, you can grant/restrict access of a user to an organization.  
   
- For more information about responsibility, multiple organizations, and Organization ID in Oracle E-Business Suite, search the [Oracle help center](http://docs.oracle.com).  
+  For more information about responsibility, multiple organizations, and Organization ID in Oracle E-Business Suite, search the [Oracle help center](http://docs.oracle.com).  
   
 ## Setting application context  
  As the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] connects to the underlying database in the Oracle E-Business Suite, application context for the Oracle E-Business Suite artifacts are not established or initialized in the adapter. You can initialize or set the application context for these artifacts in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] by using either of the following:  
   
--   **Binding properties**: The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes the following binding properties for setting the application context: **OracleEBSOrganizationId**, **OracleUserName**, **OraclePassword**, **OracleEBSResponsibilityKey**, **OracleEBSResponsibilityName**, and **ApplicationShortName**. You do not need to specify values for all these binding properties to set application context for various artifacts. For information about the binding properties required for setting application context for an artifact, see [Binding Properties for Setting Application Context For Various Artifacts](#Binding) later in this topic.  
+- **Binding properties**: The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes the following binding properties for setting the application context: **OracleEBSOrganizationId**, **OracleUserName**, **OraclePassword**, **OracleEBSResponsibilityKey**, **OracleEBSResponsibilityName**, and **ApplicationShortName**. You do not need to specify values for all these binding properties to set application context for various artifacts. For information about the binding properties required for setting application context for an artifact, see [Binding Properties for Setting Application Context For Various Artifacts](#Binding) later in this topic.  
   
--   **Message context properties**: The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes the following message context properties for setting the application context: **ApplicationShortName**, **OrganizationID**, **ResponsibilityKey**, and **ResponsibilityName**. For specifying the user name and password, you must use the binding properties. For information about how to set application context using message context properties, see [Configure the Application Context Using Message Context Properties](../../adapters-and-accelerators/adapter-oracle-ebs/configure-application-context-using-message-context-properties-in-oracle-ebs.md).  
+- **Message context properties**: The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes the following message context properties for setting the application context: **ApplicationShortName**, **OrganizationID**, **ResponsibilityKey**, and **ResponsibilityName**. For specifying the user name and password, you must use the binding properties. For information about how to set application context using message context properties, see [Configure the Application Context Using Message Context Properties](../../adapters-and-accelerators/adapter-oracle-ebs/configure-application-context-using-message-context-properties-in-oracle-ebs.md).  
   
 > [!IMPORTANT]
 >  The value specified for the **OracleEBSResponsibilityKey** binding property overrides the value of the **OracleEBSResponsibilityName** binding property. Similarly, the value specified for the **ResponsibilityKey** message context property overrides the value specified for the **ResponsibilityName** message context property.  
@@ -45,25 +45,25 @@ In [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslo
   
  While setting the application context, the application short name is used in the following precedence order (highest to lowest):  
   
--   The application short name specified in the **ApplicationShortName** message context property.  
+- The application short name specified in the **ApplicationShortName** message context property.  
   
--   The application short name specified in the SOAP action (for interface tables, interface views, concurrent programs, and request sets only).  
+- The application short name specified in the SOAP action (for interface tables, interface views, concurrent programs, and request sets only).  
   
--   The application short name specified in the **ApplicationShortName** binding property.  
+- The application short name specified in the **ApplicationShortName** binding property.  
   
- However, for interface tables, interface views, concurrent programs, and request sets, this precedence order is only applicable while setting the application context. To identify the interface tables, interface views, concurrent programs, and request sets, the application short name in the SOAP action is used.  
+  However, for interface tables, interface views, concurrent programs, and request sets, this precedence order is only applicable while setting the application context. To identify the interface tables, interface views, concurrent programs, and request sets, the application short name in the SOAP action is used.  
   
- **Precedence Order for Responsibility Key and Responsibility Name**  
+  **Precedence Order for Responsibility Key and Responsibility Name**  
   
- While setting the application context, the responsibility key and responsibility name are used in the following precedence order (highest to lowest):  
+  While setting the application context, the responsibility key and responsibility name are used in the following precedence order (highest to lowest):  
   
--   The responsibility key specified in the **ResponsibilityKey** message context property.  
+- The responsibility key specified in the **ResponsibilityKey** message context property.  
   
--   The responsibility name specified in the **ResponsibilityName** message context property.  
+- The responsibility name specified in the **ResponsibilityName** message context property.  
   
--   The responsibility key specified in the **OracleEBSResponsibilityKey** binding property.  
+- The responsibility key specified in the **OracleEBSResponsibilityKey** binding property.  
   
--   The responsibility name specified in the **OracleEBSResponsibilityName** binding property.  
+- The responsibility name specified in the **OracleEBSResponsibilityName** binding property.  
   
 > [!TIP]
 >  **Why use message context properties over binding properties to set the application context?** If you set the application context using binding properties, the WCF-Custom send port for the Oracle E-Business adapter can be used only for the specific organization ID, responsibility, and application that you specified for the binding properties. On the contrary, if you use the message context property you can configure a “generic” WCF-Custom send port and set the application context at the message level.  
@@ -76,13 +76,13 @@ In [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslo
   
 ### Setting Application Context For PL/SQL APIs, Procedures, Functions, Tables, and Views  
   
--   **PL/SQL APIs**: The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes PL/SQL APIs associated with the Oracle database as well as the Oracle E-Business Suite application. While it is optional to set the application context for the PL/SQL APIs associated with the Oracle database, it is mandatory to set the application context for the PL/SQL APIs associated with the Oracle E-Business Suite application.  
+- **PL/SQL APIs**: The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes PL/SQL APIs associated with the Oracle database as well as the Oracle E-Business Suite application. While it is optional to set the application context for the PL/SQL APIs associated with the Oracle database, it is mandatory to set the application context for the PL/SQL APIs associated with the Oracle E-Business Suite application.  
   
--   **Procedures and Functions**: It is not mandatory to set the application context to perform operations on procedures and functions in the Oracle database.  
+- **Procedures and Functions**: It is not mandatory to set the application context to perform operations on procedures and functions in the Oracle database.  
   
--   **Tables and Views**: It is not mandatory to set the application context to perform operations on tables and views in the Oracle database. However, for custom Oracle E-Business Suite application, users may or may not register the base database tables as interface tables. If a database table is not registered as an interface table, it will be displayed along with the database tables in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. Because these tables are associated with an Oracle E-Business application, for any operation on these tables you must set the application context.  
+- **Tables and Views**: It is not mandatory to set the application context to perform operations on tables and views in the Oracle database. However, for custom Oracle E-Business Suite application, users may or may not register the base database tables as interface tables. If a database table is not registered as an interface table, it will be displayed along with the database tables in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. Because these tables are associated with an Oracle E-Business application, for any operation on these tables you must set the application context.  
   
- To set the application context for these artifacts, you must provide appropriate values for the binding properties or the message context properties as specified earlier.  
+  To set the application context for these artifacts, you must provide appropriate values for the binding properties or the message context properties as specified earlier.  
   
 ### Setting Application Context For Poll, ExecuteNonQuery, ExecuteReader, ExecuteScalar, and Composite Operations  
  Apart from the artifacts, you can also set the application context for various operations that are performed on these artifacts.  
@@ -116,8 +116,8 @@ In [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslo
  **√\* = Optional**  
   
 > [!IMPORTANT]
->  -   The default value of the **OracleEBSOrganizationId** binding property (optional) is null. If you specify a value for the **OracleEBSOrganizationId** binding property, the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] sets the ORG_ID of the session to this value while setting the application context.  
-> -   The value specified for the **OracleEBSResponsibilityKey** binding property overrides the value specified for the **OracleEBSResponsibilityName** binding property.  
+> - The default value of the **OracleEBSOrganizationId** binding property (optional) is null. If you specify a value for the **OracleEBSOrganizationId** binding property, the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] sets the ORG_ID of the session to this value while setting the application context.  
+>   -   The value specified for the **OracleEBSResponsibilityKey** binding property overrides the value specified for the **OracleEBSResponsibilityName** binding property.  
   
  For detailed information about each of these binding properties, see [Read about  BizTalk Adapter for Oracle E-Business Suite Binding Properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).  
   

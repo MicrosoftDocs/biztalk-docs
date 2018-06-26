@@ -21,13 +21,13 @@ Creating a link from a **Record** or **Field** node in a source schema to a **Re
   
 ### To create links between Field and Record nodes  
   
-1.  In BizTalk Mapper, drag a **Field** or **Record** node from the source schema tree to a **Field** or **Record** node in the destination schema tree.  
+1. In BizTalk Mapper, drag a **Field** or **Record** node from the source schema tree to a **Field** or **Record** node in the destination schema tree.  
   
-     **- Or -**  
+    **- Or -**  
   
-2.  In BizTalk Mapper, drag a **Field** or **Record** node from the destination schema tree to a **Field** or **Record** node in the source schema tree.  
+2. In BizTalk Mapper, drag a **Field** or **Record** node from the destination schema tree to a **Field** or **Record** node in the source schema tree.  
   
- There are several things to consider when creating links:  
+   There are several things to consider when creating links:  
   
 -   The data type of a **Field** or **Record** node in the source schema tree should match the data type of a **Field** or **Record** node to which it is linked in the destination schema tree.  
   
@@ -70,11 +70,11 @@ Creating a link from a **Record** or **Field** node in a source schema to a **Re
   
  To change the endpoint of a link:  
   
-1.  Click the link for which you want to change the source or destination node/functoid. The endpoints of the link become bold.  
+1. Click the link for which you want to change the source or destination node/functoid. The endpoints of the link become bold.  
   
-2.  Hold down the mouse key on any of the bold endpoints and drag the link to the desired node/functoid. This changes the linking from the previous node/functoid to the new node/functoid.  
+2. Hold down the mouse key on any of the bold endpoints and drag the link to the desired node/functoid. This changes the linking from the previous node/functoid to the new node/functoid.  
   
- However, you cannot perform this operation for invalid linking, such as:  
+   However, you cannot perform this operation for invalid linking, such as:  
   
 -   Adding a link as an input to Date/Time functoids. The Date/Time functoids do not need any input links.  
   

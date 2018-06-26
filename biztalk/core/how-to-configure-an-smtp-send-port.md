@@ -25,29 +25,29 @@ You can configure an SMTP send port either programmatically or by using the BizT
   
  The SMTP adapter stores its configuration information in the BizTalk Management database (also known as the Configuration database). Configuration information is stored in a custom XML property bag. During initialization of the SMTP adapter and during its run time, the server passes the configuration to the adapter as follows:  
   
--   For the SMTP send handler, configuration information passes to the adapter by calling the **Load** method of the **IPersistPropertyBag** interface.  
+- For the SMTP send handler, configuration information passes to the adapter by calling the **Load** method of the **IPersistPropertyBag** interface.  
   
--   For the SMTP send adapters, configuration information passes to the adapter as a set of properties on a message context. The SMTP namespace groups these properties together.  
+- For the SMTP send adapters, configuration information passes to the adapter as a set of properties on a message context. The SMTP namespace groups these properties together.  
   
- The BizTalk Explorer object model exposes the ITransportInfo adapter configuration interface for send ports, which contains the TransportTypeData read/write property. This property accepts the SMTP send port configuration property bag as a name/value pair XML string. Note that to set this property in the BizTalk Explorer object model, it must first be set on the Address property of the **ITransportInfo** interface.  
+  The BizTalk Explorer object model exposes the ITransportInfo adapter configuration interface for send ports, which contains the TransportTypeData read/write property. This property accepts the SMTP send port configuration property bag as a name/value pair XML string. Note that to set this property in the BizTalk Explorer object model, it must first be set on the Address property of the **ITransportInfo** interface.  
   
- Setting the **TransportTypeData** property of the **ITransportInfo** interface is not required. If it is not set, the SMTP send port uses the default values for the SMTP send handler. SMTP send port-specific properties are defined in SMTP send adapter property schema bts_smtp_properties.xsd.  
+  Setting the **TransportTypeData** property of the **ITransportInfo** interface is not required. If it is not set, the SMTP send port uses the default values for the SMTP send handler. SMTP send port-specific properties are defined in SMTP send adapter property schema bts_smtp_properties.xsd.  
   
- If you do not define properties that duplicate the send handler configuration properties, configuration properties for the handler are used. If you do not define required properties, default values are used. If you do not define default values, the SMTP send handler logs an error in the event log and moves the message to the backup adapter.  
+  If you do not define properties that duplicate the send handler configuration properties, configuration properties for the handler are used. If you do not define required properties, default values are used. If you do not define default values, the SMTP send handler logs an error in the event log and moves the message to the backup adapter.  
   
- You can set these properties programmatically on a message context. You can set these properties in a BizTalk orchestration schedule or in a custom pipeline component. The following rules apply when using these properties:  
+  You can set these properties programmatically on a message context. You can set these properties in a BizTalk orchestration schedule or in a custom pipeline component. The following rules apply when using these properties:  
   
--   If the property is set in an orchestration or in a custom pipeline component in a receive pipeline, then:  
+- If the property is set in an orchestration or in a custom pipeline component in a receive pipeline, then:  
   
-    -   If the message is sent to a static send port, the property value will be overwritten with the value configured for that send port.  
+  -   If the message is sent to a static send port, the property value will be overwritten with the value configured for that send port.  
   
-    -   If the message is sent to a dynamic send port, the property value will not be overwritten.  
+  -   If the message is sent to a dynamic send port, the property value will not be overwritten.  
   
--   If the property is set in a custom pipeline component in a send pipeline, then:  
+- If the property is set in a custom pipeline component in a send pipeline, then:  
   
-    -   The value will not be overwritten regardless of whether the message is sent to a static or dynamic send port.  
+  -   The value will not be overwritten regardless of whether the message is sent to a static or dynamic send port.  
   
- The following table lists the configuration properties that you can set in the BizTalk Explorer object model for the SMTP send location.  
+  The following table lists the configuration properties that you can set in the BizTalk Explorer object model for the SMTP send location.  
   
 |Property name|Type|Description|Restrictions|Comments|  
 |-------------------|----------|-----------------|------------------|--------------|  

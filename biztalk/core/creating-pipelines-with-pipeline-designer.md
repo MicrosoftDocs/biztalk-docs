@@ -21,19 +21,19 @@ manager: "anneta"
 # Creating Pipelines with Pipeline Designer
 This section describes how to:  
   
--   Create, open, and save pipelines  
+- Create, open, and save pipelines  
   
--   Add components to a pipeline  
+- Add components to a pipeline  
   
--   Use the Schema Collection Property Editor  
+- Use the Schema Collection Property Editor  
   
--   Use the Toolbox  
+- Use the Toolbox  
   
--   Navigate with the keyboard  
+- Navigate with the keyboard  
   
--   Work with read-only pipeline component properties.  
+- Work with read-only pipeline component properties.  
   
- For information about using Pipeline Designer, see [Using Pipeline Designer](../core/using-pipeline-designer.md).  
+  For information about using Pipeline Designer, see [Using Pipeline Designer](../core/using-pipeline-designer.md).  
   
 ## In This Section  
   

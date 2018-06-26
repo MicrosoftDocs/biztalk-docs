@@ -52,39 +52,39 @@ Transaction Integrator (TI) can use [!INCLUDE[hisHostIntServNoVersion](../includ
   
  **Server 1**  
   
--   Local APPC LU alias=COMTI  
+- Local APPC LU alias=COMTI  
   
--   Local APPC LU network name=APPN and LU name=SERVER1  
+- Local APPC LU network name=APPN and LU name=SERVER1  
   
--   Select the **Member of default outgoing Local APPC LU pool** check box  
+- Select the **Member of default outgoing Local APPC LU pool** check box  
   
--   Remote APPC LU alias=CICS  
+- Remote APPC LU alias=CICS  
   
--   Remote APPC LU network name=APPN and LU name=CICS  
+- Remote APPC LU network name=APPN and LU name=CICS  
   
- **Server**  
+  **Server**  
   
--   Local APPC LU alias=COMTI  
+- Local APPC LU alias=COMTI  
   
--   Local APPC LU network name=APPN and LU name=SERVER2  
+- Local APPC LU network name=APPN and LU name=SERVER2  
   
--   Select the **Member of default outgoing Local APPC LU pool** check box  
+- Select the **Member of default outgoing Local APPC LU pool** check box  
   
--   Remote APPC LU alias=CICS  
+- Remote APPC LU alias=CICS  
   
--   Remote APPC LU network name=APPN and LU name=CICS  
+- Remote APPC LU network name=APPN and LU name=CICS  
   
- **Server**  
+  **Server**  
   
--   Local APPC LU alias=COMTI  
+- Local APPC LU alias=COMTI  
   
--   Local APPC LU network name=APPN and LU name=SERVER3  
+- Local APPC LU network name=APPN and LU name=SERVER3  
   
--   Select the **Member of default outgoing Local APPC LU pool** check box  
+- Select the **Member of default outgoing Local APPC LU pool** check box  
   
--   Remote APPC LU alias=CICS  
+- Remote APPC LU alias=CICS  
   
--   Remote APPC LU network name=APPN and LU name=CICS  
+- Remote APPC LU network name=APPN and LU name=CICS  
   
 #### Required Parameters  
  The following table references the required Host Integration Server, VTAM, and CICS parameters.  

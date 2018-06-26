@@ -26,17 +26,17 @@ Chunking can be thought of as similar to segmentation. (For more information, se
   
  Application flags on chunks of RUs are handled in the same way as those on segments. (For more information, see [Application Flags](../core/application-flags1.md) and [Segment Delivery](../core/segment-delivery1.md).) In particular:  
   
--   FMHI, BCI, COMMIT, BBI, EBI, CODE, ENCRYP, ENPAD, QRI, and CEI are only set on the first chunk of an RU.  
+- FMHI, BCI, COMMIT, BBI, EBI, CODE, ENCRYP, ENPAD, QRI, and CEI are only set on the first chunk of an RU.  
   
--   ECI and CDI are only set on the last chunk of an RU.  
+- ECI and CDI are only set on the last chunk of an RU.  
   
--   BBIUI is always set on the first chunk of an RU.  
+- BBIUI is always set on the first chunk of an RU.  
   
--   EBIUI is always set on the last chunk of an RU.  
+- EBIUI is always set on the last chunk of an RU.  
   
- Note that EBI is set on the first chunk of the last RU in a bracket and not on the last chunk as might be expected. This is the same behavior as for segment delivery. The application should use the **Status-Session(BETB)** message, not the EBI flag, to determine when a bracket has ended.  
+  Note that EBI is set on the first chunk of the last RU in a bracket and not on the last chunk as might be expected. This is the same behavior as for segment delivery. The application should use the **Status-Session(BETB)** message, not the EBI flag, to determine when a bracket has ended.  
   
- Chunks are identified using the segmentation flags BBIUI and EBIUI, and therefore the application cannot distinguish between chunks and segments if both segmentation and chunking are being used outbound. However, there is generally no need for the distinction. The application can perform window shading by displaying each unit of data as it is received, whether the unit of data is a segment or a chunk. (For more information, see [Segment Delivery](../core/segment-delivery1.md).)  
+  Chunks are identified using the segmentation flags BBIUI and EBIUI, and therefore the application cannot distinguish between chunks and segments if both segmentation and chunking are being used outbound. However, there is generally no need for the distinction. The application can perform window shading by displaying each unit of data as it is received, whether the unit of data is a segment or a chunk. (For more information, see [Segment Delivery](../core/segment-delivery1.md).)  
   
 > [!NOTE]
 >  Previous versions of this document indicated this as a future feature. The support is enabled in Host Integration Server. Applications can test the product version returned on a call to [sepdgetinfo](./sepdgetinfo2.md) for version 1.2 or later before using the chunking system.  

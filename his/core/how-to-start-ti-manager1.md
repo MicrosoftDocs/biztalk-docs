@@ -16,17 +16,17 @@ manager: "anneta"
 # How to Start TI Manager
 You can start TI (Transaction Integrator) Manager many different ways:  
   
--   Use the **Start** menu  
+- Use the **Start** menu  
   
--   Start Microsoft Management Console (MMC), and then add the appropriate snap-in consoles  
+- Start Microsoft Management Console (MMC), and then add the appropriate snap-in consoles  
   
--   Double-click a saved MMC configuration file (.msc file)  
+- Double-click a saved MMC configuration file (.msc file)  
   
--   Enter a command line at a command prompt  
+- Enter a command line at a command prompt  
   
--   Use the **Run** command on the **Start** menu  
+- Use the **Run** command on the **Start** menu  
   
- You can also start TI Manager from MMC. Then you can save your MMC configuration as an .msc file, so that later you can just double-click the .msc file to start it. This technique can be useful when you are adding other snap-ins to MMC in addition to the TI Manager snap-ins.  
+  You can also start TI Manager from MMC. Then you can save your MMC configuration as an .msc file, so that later you can just double-click the .msc file to start it. This technique can be useful when you are adding other snap-ins to MMC in addition to the TI Manager snap-ins.  
   
 ### To start TI Manager from the Start menu  
   

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10828
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10828|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_PSADMIN_ADAPTER_ALREADY_ASSIGNED|  
-|Message Text|The adapter is already assigned to a group adapter.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10828                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |         ENTSSO_E_PSADMIN_ADAPTER_ALREADY_ASSIGNED          |
+|  Message Text   |    The adapter is already assigned to a group adapter.     |
   
 ## Explanation  
  An adapter can only be assigned to one group adapter.  

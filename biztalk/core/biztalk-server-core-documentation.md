@@ -17,7 +17,7 @@ manager: "anneta"
 # BizTalk Server core documentation
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] core documentation includes a variety of resources that can help you learn to develop, deploy, administer, and use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
 
-> [!NOTE] 
+> [!NOTE]
 > The core documentation  applies to  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013, and newer versions, but many topics still apply to previous BizTalk versions. For these previous BizTalk versions, it may be best to use that documentation set. Use the links at [Microsoft BizTalk Server](https://msdn.microsoft.com/library/dd547397\(BTS.10\).aspx) for previous versions.  
 
 ## Get started

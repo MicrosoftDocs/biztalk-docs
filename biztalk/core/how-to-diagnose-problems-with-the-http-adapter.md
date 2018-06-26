@@ -19,19 +19,19 @@ This section contains steps that can be followed to help diagnose problems with 
   
 ### Check the IIS and HTTPERR log files of the IIS Server for errors  
   
--   The source or target IIS server log files can contain information that is helpful for troubleshooting problems with the HTTP adapter. By default the IIS log files on a Windows Server are located in the following directory:  
+- The source or target IIS server log files can contain information that is helpful for troubleshooting problems with the HTTP adapter. By default the IIS log files on a Windows Server are located in the following directory:  
   
-     *%WinDir%\\*system32\LogFiles\W3SVC1\  
+   <em>%WinDir%\\</em>system32\LogFiles\W3SVC1\  
   
-    > [!NOTE]
-    >  *%WinDir%* is a placeholder for the location of the Windows directory on the IIS server.  
+  > [!NOTE]
+  >  *%WinDir%* is a placeholder for the location of the Windows directory on the IIS server.  
   
-     By default the HTTPERR log files on a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] based computer are located in the following directory:  
+   By default the HTTPERR log files on a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] based computer are located in the following directory:  
   
-     *%WinDir%\\*system32\LogFiles\HTTPERR\  
+   <em>%WinDir%\\</em>system32\LogFiles\HTTPERR\  
   
-    > [!NOTE]
-    >  The HTTPERR log file is available only on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] computers.  
+  > [!NOTE]
+  >  The HTTPERR log file is available only on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] computers.  
   
 ### Isolate problems with the HTTP send adapter by posting to the destination URL with a client that uses the System.Net.HttpWebRequest class  
   

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10772
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10772|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NOT_SSO_ADMIN|  
-|Message Text|The user is not a member of the specified SSO Administrators account.|  
+|                 |                                                                       |
+|-----------------|-----------------------------------------------------------------------|
+|  Product Name   |                       Enterprise Single Sign-On                       |
+| Product Version |      [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]       |
+|    Event ID     |                                 10772                                 |
+|  Event Source   |                                ENTSSO                                 |
+|    Component    |                                  N/A                                  |
+|  Symbolic Name  |                        ENTSSO_E_NOT_SSO_ADMIN                         |
+|  Message Text   | The user is not a member of the specified SSO Administrators account. |
   
 ## Explanation  
  You must be an SSO Administrator to perform this function.  

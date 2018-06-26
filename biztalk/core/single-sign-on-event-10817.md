@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10817
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10817|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NOTIFICATION_NOT_FOUND|  
-|Message Text|The specified notification was not found.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10817                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |              ENTSSO_E_NOTIFICATION_NOT_FOUND               |
+|  Message Text   |         The specified notification was not found.          |
   
 ## Explanation  
  The password change specified a notification GUID which cannot be found.  

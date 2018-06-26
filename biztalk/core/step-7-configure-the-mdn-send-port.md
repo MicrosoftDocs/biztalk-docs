@@ -29,23 +29,23 @@ manager: "anneta"
   
 ### To create the Send_Async_MDN send port  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, under the BizTalk Application 1 node, right-click **Send Ports**, point to **New**, and then click **Dynamic One-way Send Port**.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, under the BizTalk Application 1 node, right-click **Send Ports**, point to **New**, and then click **Dynamic One-way Send Port**.  
   
-2.  In the **Send Port Properties** dialog box, name the send port as **Send_Async_MDN**.  
+2. In the **Send Port Properties** dialog box, name the send port as **Send_Async_MDN**.  
   
-3.  Select **AS2Send** for **Send pipeline**.  
+3. Select **AS2Send** for **Send pipeline**.  
   
-    > [!NOTE]
-    >  The AS2Send pipeline is used because no EDI processing is required for the MDN.  
+   > [!NOTE]
+   >  The AS2Send pipeline is used because no EDI processing is required for the MDN.  
   
-4.  Click **Filters** in the console tree. In the Filters pane, select **EdiIntAS.IsAS2AsynchronousMdn** for **Property**, **==** for **Operator**, and enter **True** for **Value**.  
+4. Click **Filters** in the console tree. In the Filters pane, select **EdiIntAS.IsAS2AsynchronousMdn** for **Property**, **==** for **Operator**, and enter **True** for **Value**.  
   
-    > [!NOTE]
-    >  This filter ensures that the dynamic send port only picks up asynchronous MDNs from the MessageBox.  
+   > [!NOTE]
+   >  This filter ensures that the dynamic send port only picks up asynchronous MDNs from the MessageBox.  
   
-5.  Click **OK**.  
+5. Click **OK**.  
   
-6.  In the **Send Ports** pane of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click **Send_Async_MDN**, and then click **Start**.  
+6. In the **Send Ports** pane of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click **Send_Async_MDN**, and then click **Start**.  
   
 ## Next Steps  
  You configure the send port (**Send_Async_997**) to send the 997 acknowledgement back to Fabrikam, as described in [Step 8: Configure the 997 Send Port](../core/step-8-configure-the-997-send-port.md).  

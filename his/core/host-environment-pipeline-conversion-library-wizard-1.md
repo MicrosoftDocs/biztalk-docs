@@ -20,18 +20,18 @@ Use this page to identify the data format characteristics of the host.
  **Target environment**  
  Enter one of the two supported values:  
   
--   **CICS**  
+- **CICS**  
   
--   **IMS**  
+- **IMS**  
   
- **Programming Model**  
- The supported value for this field is **Link**.  
+  **Programming Model**  
+  The supported value for this field is **Link**.  
   
- **Host Language**  
- COBOL is the only supported host language.  
+  **Host Language**  
+  COBOL is the only supported host language.  
   
- **Allow 32K in/out**  
- The default value is unchecked.  
+  **Allow 32K in/out**  
+  The default value is unchecked.  
   
 ## See Also  
  [BizTalk Pipeline Conversion Library Wizard](../core/biztalk-pipeline-conversion-library-wizard1.md)

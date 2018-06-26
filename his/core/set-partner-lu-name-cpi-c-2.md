@@ -35,23 +35,23 @@ CM_ENTRY Set_Partner_LU_Name( 
  *partner_LU_name*  
  Supplied parameter. Specifies the starting address of the partner LU name. The mode name can contain up to 17 ASCII characters. The allowed characters are:  
   
--   Uppercase letters.  
+- Uppercase letters.  
   
--   Numerals from 0 through 9.  
+- Numerals from 0 through 9.  
   
- The partner LU name can be either:  
+  The partner LU name can be either:  
   
--   An alias consisting of one through eight characters.  
+- An alias consisting of one through eight characters.  
   
--   A fully qualified network name consisting of from 2 through 17 characters. A period separates the network identifier (which can be from zero through eight characters) from the network LU name (which can be from one through eight characters). If the network identifier is zero characters long, the period is still required.  
+- A fully qualified network name consisting of from 2 through 17 characters. A period separates the network identifier (which can be from zero through eight characters) from the network LU name (which can be from one through eight characters). If the network identifier is zero characters long, the period is still required.  
   
- The partner LU name must match the name of a partner LU established during configuration.  
+  The partner LU name must match the name of a partner LU established during configuration.  
   
- *partner_LU_name_length*  
- Supplied parameter. Specifies the length of the partner LU name. The range is from 1 through 17.  
+  *partner_LU_name_length*  
+  Supplied parameter. Specifies the length of the partner LU name. The range is from 1 through 17.  
   
- *return_code*  
- The code returned from this call. The valid return codes are listed later in this topic.  
+  *return_code*  
+  The code returned from this call. The valid return codes are listed later in this topic.  
   
 ## Return Codes  
  CM_OK  
@@ -63,12 +63,12 @@ CM_ENTRY Set_Partner_LU_Name( 
  CM_PROGRAM_PARAMETER_CHECK  
  Primary return code; one of the following occurred:  
   
--   The value specified by *conversation_ID* is invalid.  
+- The value specified by *conversation_ID* is invalid.  
   
--   The value specified by *partner_LU_name_length* is out of range (greater than 17 or less than 1).  
+- The value specified by *partner_LU_name_length* is out of range (greater than 17 or less than 1).  
   
- CM_PRODUCT_SPECIFIC_ERROR  
- Primary return code; a product-specific error occurred and has been logged in the products error log.  
+  CM_PRODUCT_SPECIFIC_ERROR  
+  Primary return code; a product-specific error occurred and has been logged in the products error log.  
   
 ## State Changes  
  The conversation must be in INITIALIZE state.  

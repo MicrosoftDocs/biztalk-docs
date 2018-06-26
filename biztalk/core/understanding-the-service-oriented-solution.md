@@ -24,15 +24,15 @@ The service oriented solution presents a credit balance reporting application de
   
  A Service Oriented Architecture (SOA) is an approach that partially overlaps building distributed systems. A service-oriented approach has several characteristics:  
   
--   Loosely coupled. The application's business logic is separate from the logic of handling the service.  
+- Loosely coupled. The application's business logic is separate from the logic of handling the service.  
   
--   Discoverable. There should be a mechanism for applications to find the service.  
+- Discoverable. There should be a mechanism for applications to find the service.  
   
--   Contractual. The interface to the service implements the contract between users and the service.  
+- Contractual. The interface to the service implements the contract between users and the service.  
   
- Although the literature often treats service oriented approaches as synonymous with web services, they are not necessarily synonyms. Web services present an attractive way to implement service oriented solutions, but you can use other technologies, such as .NET remoting, to create services.  
+  Although the literature often treats service oriented approaches as synonymous with web services, they are not necessarily synonyms. Web services present an attractive way to implement service oriented solutions, but you can use other technologies, such as .NET remoting, to create services.  
   
- For more information about service oriented architectures, see "Service Interface" at [http://go.microsoft.com/fwlink/?LinkId=46185](http://go.microsoft.com/fwlink/?LinkId=46185) and "Service-Oriented Integration" at [http://go.microsoft.com/fwlink/?LinkId=46186](http://go.microsoft.com/fwlink/?LinkId=46186).  
+  For more information about service oriented architectures, see "Service Interface" at [http://go.microsoft.com/fwlink/?LinkId=46185](http://go.microsoft.com/fwlink/?LinkId=46185) and "Service-Oriented Integration" at [http://go.microsoft.com/fwlink/?LinkId=46186](http://go.microsoft.com/fwlink/?LinkId=46186).  
   
 ## Reader Guidance  
  The documentation for this solution assumes that you are familiar with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. It also assumes that you understand basic concepts about enterprise application integration and web services.  
@@ -44,23 +44,23 @@ The service oriented solution presents a credit balance reporting application de
   
  In the scenario, requests for credit card balances come from two sources:  
   
--   An Interactive Voice Response (IVR) application.  
+- An Interactive Voice Response (IVR) application.  
   
--   An interactive client such as a web page or custom client application.  
+- An interactive client such as a web page or custom client application.  
   
- The solution receives requests from the IVR application through MQSeries. It handles requests from the interactive client through a web service using HTTP and SOAP.  
+  The solution receives requests from the IVR application through MQSeries. It handles requests from the interactive client through a web service using HTTP and SOAP.  
   
- New service oriented architecture applications often need to work with legacy applications that use older technologies, as well as function with modern applications such as web sites that consume web services. The scenario models this real world requirement—the IVR application represents a legacy application, while the customer service client application, is the modern one.  
+  New service oriented architecture applications often need to work with legacy applications that use older technologies, as well as function with modern applications such as web sites that consume web services. The scenario models this real world requirement—the IVR application represents a legacy application, while the customer service client application, is the modern one.  
   
- The Woodgrove Bank application uses data from three backend, legacy systems to respond to requests:  
+  The Woodgrove Bank application uses data from three backend, legacy systems to respond to requests:  
   
--   An application that provides the overall credit limit. This is a SAP system on a mainframe computer.  
+- An application that provides the overall credit limit. This is a SAP system on a mainframe computer.  
   
--   A pending transactions system that reports the total amount for transactions pending against the account. This system is a mainframe or AS/400 system. The solution uses a web service and Microsoft Host Integration Server (HIS) to communicate with the mainframe or AS/400 system.  
+- A pending transactions system that reports the total amount for transactions pending against the account. This system is a mainframe or AS/400 system. The solution uses a web service and Microsoft Host Integration Server (HIS) to communicate with the mainframe or AS/400 system.  
   
--   A payment tracking system that gives the last payment made to the system. The payment tracking system can be reached using MQSeries.  
+- A payment tracking system that gives the last payment made to the system. The payment tracking system can be reached using MQSeries.  
   
- After gathering and compiling the information from the legacy systems, the solution sends the response back to the originating application and, thus, to the customer.  
+  After gathering and compiling the information from the legacy systems, the solution sends the response back to the originating application and, thus, to the customer.  
   
 ## Business Requirements  
  Because the credit reporting application responds in real time to customer requests, it must have low latency in order to handle requests quickly. In addition, it must also be able to handle high numbers of simultaneous requests. The solution uses sensitive information and a public interface so that security is significant concern. Finally, the service needs to be reliable.  
@@ -86,13 +86,13 @@ The service oriented solution presents a credit balance reporting application de
 ## Three Versions of the Solution  
  There are three versions of the solution:  
   
--   The stub version replaces all of the backend systems with software stubs. The stubs simulate the backend systems. This version provides a quick way to deploy and run the solution on a single computer.  
+- The stub version replaces all of the backend systems with software stubs. The stubs simulate the backend systems. This version provides a quick way to deploy and run the solution on a single computer.  
   
--   The adapter version uses BizTalk adapters to connect to the backend systems. This version is how one might first think to implement the solution. However, sending messages to the backend systems using the adapters introduces significant latency in getting back responses. While adapters by themselves could offer very low latency, the distributed architecture of BizTalk Server requires adapters to communicate with the orchestration host instances using the message box. This introduces round trips to the database and affects latency times.  
+- The adapter version uses BizTalk adapters to connect to the backend systems. This version is how one might first think to implement the solution. However, sending messages to the backend systems using the adapters introduces significant latency in getting back responses. While adapters by themselves could offer very low latency, the distributed architecture of BizTalk Server requires adapters to communicate with the orchestration host instances using the message box. This introduces round trips to the database and affects latency times.  
   
--   The inline version replaces the adapters with inline code that communicates directly with the backend systems. The inline version of the solution has the lowest latency and the highest throughput.  
+- The inline version replaces the adapters with inline code that communicates directly with the backend systems. The inline version of the solution has the lowest latency and the highest throughput.  
   
- The deployment guide provides directions for building and deploying all three versions of the solution, as well as providing a way, in each version, to simulate the connection through HIS to the pending transactions system. For information about building and deploying the solution, see [Deploying the Service Oriented Solution](../core/deploying-the-service-oriented-solution.md).  
+  The deployment guide provides directions for building and deploying all three versions of the solution, as well as providing a way, in each version, to simulate the connection through HIS to the pending transactions system. For information about building and deploying the solution, see [Deploying the Service Oriented Solution](../core/deploying-the-service-oriented-solution.md).  
   
 ## See Also  
  [Service Oriented Solution](../core/service-oriented-solution.md)

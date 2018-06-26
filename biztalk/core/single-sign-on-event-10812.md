@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10812
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10812|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_HISSO_LSA_S4U_FAILED|  
-|Message Text|The LSA server returned an error.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10812                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |               ENTSSO_E_HISSO_LSA_S4U_FAILED                |
+|  Message Text   |             The LSA server returned an error.              |
   
 ## Explanation  
  This is an internal error.  

@@ -17,15 +17,15 @@ manager: "anneta"
 # Requirements for Single Sign-On
 To use Single Sign-On (SSO), you must have:  
   
--   Microsoft BizTalk Server 
+- Microsoft BizTalk Server 
   
--   Visual Studio  
+- Visual Studio  
   
--   Enterprise Single Sign-On  
+- Enterprise Single Sign-On  
   
--   A Server System that supports SSO  
+- A Server System that supports SSO  
   
- The isolated host should be configured as authentication trusted.  
+  The isolated host should be configured as authentication trusted.  
   
 ## Enable SSO  
   

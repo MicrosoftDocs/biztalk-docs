@@ -18,15 +18,15 @@ The first step that you must perform when you create a WMI application or script
   
 ### To connect to WMI using SWbemLocator  
   
-1.  Retrieve a locator object with a call to **CreateObject**.  
+1. Retrieve a locator object with a call to **CreateObject**.  
   
-2.  Log on to the namespace with a call to **ConnectServer**.  
+2. Log on to the namespace with a call to **ConnectServer**.  
   
-3.  Set the impersonation level with a call to **Security._ImpersonationLevel**.  
+3. Set the impersonation level with a call to **Security._ImpersonationLevel**.  
   
-4.  Implement your task.  
+4. Implement your task.  
   
- The following code sample shows how to connect to WMI using **SWbemLocator**:  
+   The following code sample shows how to connect to WMI using **SWbemLocator**:  
   
 ```  
 Set WmiLocator = CreateObject("WbemScripting.SWbemLocator")  
@@ -45,11 +45,11 @@ if Err = 0 then
   
 #### To connect to WMI using a moniker  
   
-1.  Call **GetObject** with a moniker in the input parameter.  
+1. Call **GetObject** with a moniker in the input parameter.  
   
-2.  Implement your task.  
+2. Implement your task.  
   
- The following example shows how to connect to WMI using a moniker:  
+   The following example shows how to connect to WMI using a moniker:  
   
 ```  
 set objService = GetObject("winmgmts:root/microsofthis")  

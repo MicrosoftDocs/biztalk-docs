@@ -17,15 +17,15 @@ manager: "anneta"
 # An exception has occurred during the execution of the upgrade batch orchestration
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|BizTalk Server EDI|  
-|Component|Batching Engine|  
-|Symbolic Name|ExceptionOccuredDuringUpgrade|  
-|Message Text|An exception has occurred during the execution of the upgrade batch Orchestration. ErrorMessage = {0}|  
+|                 |                                                                                                       |
+|-----------------|-------------------------------------------------------------------------------------------------------|
+|  Product Name   |          [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]           |
+| Product Version |                      [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                       |
+|    Event ID     |                                                   -                                                   |
+|  Event Source   |                                          BizTalk Server EDI                                           |
+|    Component    |                                            Batching Engine                                            |
+|  Symbolic Name  |                                     ExceptionOccuredDuringUpgrade                                     |
+|  Message Text   | An exception has occurred during the execution of the upgrade batch Orchestration. ErrorMessage = {0} |
   
 ## Explanation  
  The Error/Warning/Information event indicates that the upgrade batch orchestration could not process the message correctly because of the error condition indicated in ErrorMessage field.  

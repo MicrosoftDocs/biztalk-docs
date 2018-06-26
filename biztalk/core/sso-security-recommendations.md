@@ -78,13 +78,13 @@ With the Enterprise Single Sign-On (SSO) system, users can connect to different 
   
 ## Security Recommendations for an SSO Deployment  
   
--   If your network supports Kerberos authentication, you should register all SSO servers. When you use Kerberos authentication between the master secret server and the SSO database, you must configure Service Principal Names (SPN) on the SQL server where the SSO database is located. For more information about configuring Service Principal Names, see Microsoft Download Web site at [http://go.microsoft.com/fwlink/?LinkId=195797](http://go.microsoft.com/fwlink/?LinkId=195797).  
+- If your network supports Kerberos authentication, you should register all SSO servers. When you use Kerberos authentication between the master secret server and the SSO database, you must configure Service Principal Names (SPN) on the SQL server where the SSO database is located. For more information about configuring Service Principal Names, see Microsoft Download Web site at [http://go.microsoft.com/fwlink/?LinkId=195797](http://go.microsoft.com/fwlink/?LinkId=195797).  
   
--   When running [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], if the master secret server is on a different domain from the other SSO servers and from the SSO database, you must disable RPC security (as used for Data Transaction Coordinator (DTC) authentication between computers) on the master secret server, on the SSO servers (processing computers in the processing domain), and on the SSO database. RPC security is a DTC feature in [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] and [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. When you disable RPC security, the DTC authentication security level for RPC calls goes back to one available in Microsoft Windows Server 2003.  
+- When running [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], if the master secret server is on a different domain from the other SSO servers and from the SSO database, you must disable RPC security (as used for Data Transaction Coordinator (DTC) authentication between computers) on the master secret server, on the SSO servers (processing computers in the processing domain), and on the SSO database. RPC security is a DTC feature in [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] and [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. When you disable RPC security, the DTC authentication security level for RPC calls goes back to one available in Microsoft Windows Server 2003.  
   
--   SSO administrators should regularly monitor the event log in the master secret server and the SSO server for SSO auditing events.  
+- SSO administrators should regularly monitor the event log in the master secret server and the SSO server for SSO auditing events.  
   
--   In addition to firewalls, it is recommended to use Internet Protocol security (IPSec) or Secure Sockets Layer (SSL) between all the SSO servers and the SSO database. For more information about SSL, see Microsoft Help and Support Web site at [http://go.microsoft.com/fwlink/?LinkId=195798](http://go.microsoft.com/fwlink/?LinkId=195798). For more information about using SSL between all the SSO servers and the SSO database, see [How to Enable SSL for SSO](../core/how-to-enable-ssl-for-sso.md).  
+- In addition to firewalls, it is recommended to use Internet Protocol security (IPSec) or Secure Sockets Layer (SSL) between all the SSO servers and the SSO database. For more information about SSL, see Microsoft Help and Support Web site at [http://go.microsoft.com/fwlink/?LinkId=195798](http://go.microsoft.com/fwlink/?LinkId=195798). For more information about using SSL between all the SSO servers and the SSO database, see [How to Enable SSL for SSO](../core/how-to-enable-ssl-for-sso.md).  
   
 ## Perimeter Network  
  When running Internet Information Services (IIS) and Enterprise Single Sign-On, follow these recommendations:  
@@ -120,23 +120,23 @@ With the Enterprise Single Sign-On (SSO) system, users can connect to different 
 ## Auditing  
  Auditing is a critical mechanism for tracking information in your environment. Enterprise Single Sign-On (SSO) audits all operations performed in the SSO database. SSO uses event logs and audit logs of the database itself. SSO provides two audit levels for the Single Sign-On servers:  
   
--   Positive auditing levels audit successful operations  
+- Positive auditing levels audit successful operations  
   
--   Negative auditing levels audit operations that fail  
+- Negative auditing levels audit operations that fail  
   
- SSO administrators can set the positive and negative audit levels that suit their corporate policies.  
+  SSO administrators can set the positive and negative audit levels that suit their corporate policies.  
   
- You can set positive and negative audits to one of the following levels:  
+  You can set positive and negative audits to one of the following levels:  
   
- 0 = None. This level issues no audit messages  
+  0 = None. This level issues no audit messages  
   
- 1 = Low  
+  1 = Low  
   
- 2 = Medium  
+  2 = Medium  
   
- 3 = High. This level issues as many audit messages as possible  
+  3 = High. This level issues as many audit messages as possible  
   
- The default value for positive auditing is 0 (none), and the default value for negative auditing is 1 (low). You may want to change these values depending on the level of auditing you want for your SSO system.  
+  The default value for positive auditing is 0 (none), and the default value for negative auditing is 1 (low). You may want to change these values depending on the level of auditing you want for your SSO system.  
   
 > [!IMPORTANT]
 >  Enterprise Single Sign-On auditing issues messages generated by the Single Sign-On service. This is not a security audit, and the SSO system does not save the information in the security log of the Event Log. The SSO system saves the SSO audit messages directly to the Application Event Log.  
@@ -150,19 +150,19 @@ With the Enterprise Single Sign-On (SSO) system, users can connect to different 
 ### Domain Windows Groups and Accounts  
  When working with domain Windows groups, the following recommendations apply:  
   
--   Use domain groups and domain accounts.  
+- Use domain groups and domain accounts.  
   
--   When using [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]the ENTSSO service account can be configured to run under the Network Service account. However, this is not recommended for security reasons, as the Network Service account will need to be given the SSO Administrators privilege. It is recommended instead that you use a unique domain service account for the ENTSSO service account.  
+- When using [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]the ENTSSO service account can be configured to run under the Network Service account. However, this is not recommended for security reasons, as the Network Service account will need to be given the SSO Administrators privilege. It is recommended instead that you use a unique domain service account for the ENTSSO service account.  
   
--   Use a domain group for SSO administrators. You should not specify an individual domain account as the SSO administrator, because you cannot change this account from one individual account to another individual account.  
+- Use a domain group for SSO administrators. You should not specify an individual domain account as the SSO administrator, because you cannot change this account from one individual account to another individual account.  
   
--   Although you can specify an individual domain account as the SSO affiliate administrator, you should use a domain group.  
+- Although you can specify an individual domain account as the SSO affiliate administrator, you should use a domain group.  
   
--   Although you can specify an individual domain account as the application administrator, you should use a domain group.  
+- Although you can specify an individual domain account as the application administrator, you should use a domain group.  
   
--   You must use domain groups for the application user account. The SSO applications user account does not support an individual account.  
+- You must use domain groups for the application user account. The SSO applications user account does not support an individual account.  
   
--   Multiple accounts can be specified for each of these SSO access accounts.  
+- Multiple accounts can be specified for each of these SSO access accounts.  
   
 ## See Also  
  [Ports for the Enterprise Single Sign-On Servers](../core/ports-for-the-enterprise-single-sign-on-servers.md)   

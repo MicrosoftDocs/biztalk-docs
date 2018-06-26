@@ -17,15 +17,15 @@ manager: "anneta"
 # Operations on tables and views that contain large data types using the SQL adapter
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] provides supports for the following SQL Server large data types:  
   
--   Varchar(Max)  
+- Varchar(Max)  
   
--   Nvarchar(Max)  
+- Nvarchar(Max)  
   
--   Varbinary(Max)  
+- Varbinary(Max)  
   
- To read large data values from SQL Server, the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes the Select operation.  
+  To read large data values from SQL Server, the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes the Select operation.  
   
- To write large data values to SQL Server, the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes the Set<column_name> operation, where <column_name> is the name of the column of type Varchar(Max), Nvarchar(Max) or Varbinary(Max). The Set<column_name> operation also allows adapter clients to write FILESTREAM data in SQL Server 2008.  
+  To write large data values to SQL Server, the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] exposes the Set<column_name> operation, where <column_name> is the name of the column of type Varchar(Max), Nvarchar(Max) or Varbinary(Max). The Set<column_name> operation also allows adapter clients to write FILESTREAM data in SQL Server 2008.  
   
 > [!NOTE]
 >  The Set<column_name> operation is available only for those tables and views that contain columns with any of the three large data types mentioned earlier.  

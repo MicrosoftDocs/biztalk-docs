@@ -17,15 +17,15 @@ manager: "anneta"
 # The AS2 Decoder was unable to locate the Disposition-Notification-Options HTTP header
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|AS2 Engine|  
-|Symbolic Name|AS2DecoderMissingDispositionNotificationOptionsHTTPHeaderError|  
-|Message Text|The AS2 Decoder was unable to locate the Disposition-Notification-Options HTTP header which is required for MDN generation.|  
+|                 |                                                                                                                             |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                      |
+| Product Version |                                 [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                  |
+|    Event ID     |                                                              -                                                              |
+|  Event Source   |                   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                    |
+|    Component    |                                                         AS2 Engine                                                          |
+|  Symbolic Name  |                               AS2DecoderMissingDispositionNotificationOptionsHTTPHeaderError                                |
+|  Message Text   | The AS2 Decoder was unable to locate the Disposition-Notification-Options HTTP header which is required for MDN generation. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the receive pipeline could not generate the MDN because the incoming AS2 message did not include the Disposition-Notification-Options header that indicates whether the MDN must be signed and which MIC algorithm must be used.  

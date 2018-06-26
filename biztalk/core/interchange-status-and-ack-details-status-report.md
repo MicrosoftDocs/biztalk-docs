@@ -22,36 +22,36 @@ This status report displays details of an interchange and its correlated interch
 ## Interchange Status  
  This view provides a table showing the values for the following fields:  
   
--   Sender party ID  
+- Sender party ID  
   
--   Receiver party ID  
+- Receiver party ID  
   
--   Control ID  
+- Control ID  
   
--   Receiver party name  
+- Receiver party name  
   
--   Sender party name  
+- Sender party name  
   
--   Direction  
+- Direction  
   
--   Interchange Date Time  
+- Interchange Date Time  
   
-    > [!NOTE]
-    >  For received documents, if the date specified in the interchange is YYMMDD format and YY is greater than or equal to 75, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will display the year as 19YY. If the date is less than 75, it will be displayed as 20YY.  
-    >   
-    >  For example, if you receive an interchange that contains the value 991113 in ISA09, the Interchange Date will be listed in the report as 11/13/1999.  
+  > [!NOTE]
+  >  For received documents, if the date specified in the interchange is YYMMDD format and YY is greater than or equal to 75, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will display the year as 19YY. If the date is less than 75, it will be displayed as 20YY.  
+  > 
+  >  For example, if you receive an interchange that contains the value 991113 in ISA09, the Interchange Date will be listed in the report as 11/13/1999.  
   
--   Group count  
+- Group count  
   
--   Port ID  
+- Port ID  
   
--   Interchange Status  
+- Interchange Status  
   
--   EDI encoding type  
+- EDI encoding type  
   
--   Transaction Set Correlation Id  
+- Transaction Set Correlation Id  
   
- If a technical acknowledgment is enabled for a party as an interchange receiver (in the ACK Processing and Validation Settings page of the EDI Properties dialog box), BizTalk Server expects a technical (interchange) acknowledgment to be returned in response to an interchange that it sends. When it initially creates an interchange status entry for an outbound interchange, it will enter ACK Expected in the Interchange Status field. When it receives a technical acknowledgment and correlates it to the original interchange, it will update the Interchange Status field to indicate that it has received the acknowledgment.  
+  If a technical acknowledgment is enabled for a party as an interchange receiver (in the ACK Processing and Validation Settings page of the EDI Properties dialog box), BizTalk Server expects a technical (interchange) acknowledgment to be returned in response to an interchange that it sends. When it initially creates an interchange status entry for an outbound interchange, it will enter ACK Expected in the Interchange Status field. When it receives a technical acknowledgment and correlates it to the original interchange, it will update the Interchange Status field to indicate that it has received the acknowledgment.  
   
 ## Interchange Ack Status  
  This view displays status values for an interchange (technical) acknowledgment:  

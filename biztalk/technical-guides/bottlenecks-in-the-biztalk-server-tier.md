@@ -16,32 +16,32 @@ manager: "anneta"
 # Bottlenecks in the BizTalk Server Tier
 The BizTalk tier can be divided into the following functional areas:  
   
--   Receiving  
+- Receiving  
   
--   Processing  
+- Processing  
   
--   Transmitting  
+- Transmitting  
   
--   Tracking  
+- Tracking  
   
--   Other  
+- Other  
   
- For these areas, if the system resources (CPU, memory, and disk) appear to be saturated, upgrade the server by scaling the platform up or out based on the characteristics of your application. If the system resources are not saturated, perform the steps described in this section.  
+  For these areas, if the system resources (CPU, memory, and disk) appear to be saturated, upgrade the server by scaling the platform up or out based on the characteristics of your application. If the system resources are not saturated, perform the steps described in this section.  
   
 ## Bottlenecks in the receive location  
  If messages build up at the receive location (for example, file receive folder grows large), this indicates that the system is unable to absorb data fast enough to keep up with the incoming load. This is due to internal throttling. That is, BizTalk Server reduces the receiving rate if the subscribers are unable to process data fast enough causing backlog buildup in the database tables. If the bottleneck is caused by hardware limitations, try scaling up. For more information about scaling up, see the following topics in the BizTalk Server 2010 documentation:  
   
--   [Scaling Up the BizTalk Server Tier](http://go.microsoft.com/fwlink/?LinkId=158073) (http://go.microsoft.com/fwlink/?LinkId=158073).  
+- [Scaling Up the BizTalk Server Tier](http://go.microsoft.com/fwlink/?LinkId=158073) (http://go.microsoft.com/fwlink/?LinkId=158073).  
   
--   [Scaling Up the SQL Server Tier](http://go.microsoft.com/fwlink/?LinkId=158077) (http://go.microsoft.com/fwlink/?LinkId=158077).  
+- [Scaling Up the SQL Server Tier](http://go.microsoft.com/fwlink/?LinkId=158077) (http://go.microsoft.com/fwlink/?LinkId=158077).  
   
- It is also possible to scale out by adding a host instance (server) to the host mapped to the receive handler. For more information about scaling out, see the following topics in the BizTalk Server 2010 documentation:  
+  It is also possible to scale out by adding a host instance (server) to the host mapped to the receive handler. For more information about scaling out, see the following topics in the BizTalk Server 2010 documentation:  
   
--   [Scaling Out the BizTalk Server Tier](http://go.microsoft.com/fwlink/?LinkId=158076) (http://go.microsoft.com/fwlink/?LinkId=158076).  
+- [Scaling Out the BizTalk Server Tier](http://go.microsoft.com/fwlink/?LinkId=158076) (http://go.microsoft.com/fwlink/?LinkId=158076).  
   
--   [Scaling Out the SQL Server Tier](http://go.microsoft.com/fwlink/?LinkId=158075) (http://go.microsoft.com/fwlink/?LinkId=158075).  
+- [Scaling Out the SQL Server Tier](http://go.microsoft.com/fwlink/?LinkId=158075) (http://go.microsoft.com/fwlink/?LinkId=158075).  
   
- Use Perfmon to monitor the resource use on the system. It is important to confirm that the external receive location is not the cause of the bottleneck. For example, confirm whether the remote file share is saturated due to high disk I/O, the server hosting the remote outgoing queue is not saturated, or the client used to generate HTTP load is not starved on threads.  
+  Use Perfmon to monitor the resource use on the system. It is important to confirm that the external receive location is not the cause of the bottleneck. For example, confirm whether the remote file share is saturated due to high disk I/O, the server hosting the remote outgoing queue is not saturated, or the client used to generate HTTP load is not starved on threads.  
   
 ## Processing bottlenecks  
  If the Host Queue – Length performance counter is climbing, it indicates that the orchestrations are not completing fast enough. For more information, see the Perfmon counter table in this topic. This could be due to memory contention or CPU saturation.  
@@ -118,23 +118,23 @@ The BizTalk tier can be divided into the following functional areas:
   
  With ASP.NET 2.0 and ASP.Net 4, the \<processModel autoConfig="true"\> setting in the machine.config file will automatically configure the following settings for optimal performance:  
   
--   Maximum Worker Threads  
+- Maximum Worker Threads  
   
--   Maximum IO Threads  
+- Maximum IO Threads  
   
--   minFreeThreads attribute of the httpRuntime element  
+- minFreeThreads attribute of the httpRuntime element  
   
--   minLocalRequestFreeThreads attribute of the httpRuntime element  
+- minLocalRequestFreeThreads attribute of the httpRuntime element  
   
--   maxConnection attribute of the \<connectionManagement\> Element (Network Settings) element  
+- maxConnection attribute of the \<connectionManagement\> Element (Network Settings) element  
   
- For more information about configuring parameters that affect adapter performance, see [ASP.NET Configuration Settings for the processModel Element](http://go.microsoft.com/fwlink/?LinkId=158080) (http://go.microsoft.com/fwlink/?LinkId=158080).  
+  For more information about configuring parameters that affect adapter performance, see [ASP.NET Configuration Settings for the processModel Element](http://go.microsoft.com/fwlink/?LinkId=158080) (http://go.microsoft.com/fwlink/?LinkId=158080).  
   
- For more information about configuration settings that can affect BizTalk Server adapters, see [Configuration Parameters that Affect Adapter Performance](http://go.microsoft.com/fwlink/?LinkID=154200) (http://go.microsoft.com/fwlink/?LinkID=154200).  
+  For more information about configuration settings that can affect BizTalk Server adapters, see [Configuration Parameters that Affect Adapter Performance](http://go.microsoft.com/fwlink/?LinkID=154200) (http://go.microsoft.com/fwlink/?LinkID=154200).  
   
- In addition to optimizing your BizTalk Server applications, other ASP.NET applications running on the same server can have an affect on overall performance. It is important to optimize all of your ASP.NET applications to reduce demand on system resources. For more information, see [ASP.NET Performance](http://go.microsoft.com/fwlink/?LinkId=158081) (http://go.microsoft.com/fwlink/?LinkId=158081).  
+  In addition to optimizing your BizTalk Server applications, other ASP.NET applications running on the same server can have an affect on overall performance. It is important to optimize all of your ASP.NET applications to reduce demand on system resources. For more information, see [ASP.NET Performance](http://go.microsoft.com/fwlink/?LinkId=158081) (http://go.microsoft.com/fwlink/?LinkId=158081).  
   
- When configuring for maximum performance, consider optimizing other external systems such as messaging engines (Message Queuing, MQSeries), applications, databases, Active Directory, etc. that are part of your overall BizTalk solution. Performance bottlenecks in any of these other external systems can have a negative effect on your BizTalk solution.  
+  When configuring for maximum performance, consider optimizing other external systems such as messaging engines (Message Queuing, MQSeries), applications, databases, Active Directory, etc. that are part of your overall BizTalk solution. Performance bottlenecks in any of these other external systems can have a negative effect on your BizTalk solution.  
   
 ### Downstream bottlenecks  
  If the downstream system is unable to receive data fast enough from BizTalk, this output data will back up in the BizTalk databases. This results in bloat, causes throttling to start, shrinks the receive pipe, and impacts the overall throughput of the BizTalk system. A direct indication of this is Spool table growth. For more information about bottlenecks and the Spool table, see [How to Identify Bottlenecks in the MessageBox Database1](../technical-guides/how-to-identify-bottlenecks-in-the-messagebox-database1.md).  
@@ -213,15 +213,15 @@ The BizTalk tier can be divided into the following functional areas:
   
  You can set breakpoints to track the following events:  
   
--   The start and finish of an orchestration  
+- The start and finish of an orchestration  
   
--   The start and finish of a shape  
+- The start and finish of a shape  
   
--   The sending or receipt of a message  
+- The sending or receipt of a message  
   
--   Exceptions  
+- Exceptions  
   
- At each breakpoint, you can examine information about local variables, messages and their properties, ports, and role links.  
+  At each breakpoint, you can examine information about local variables, messages and their properties, ports, and role links.  
   
 ## See Also  
  [Finding and Eliminating Bottlenecks](../technical-guides/finding-and-eliminating-bottlenecks.md)

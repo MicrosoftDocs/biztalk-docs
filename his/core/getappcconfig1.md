@@ -38,52 +38,52 @@ LPINT pAsyncRetCode
  *pLocalLu*  
  Supplied parameter. Specifies the address of a buffer containing the local LU name for which information is returned. This local LU name must be specified as follows:  
   
--   Nonpadded  
+- Nonpadded  
   
--   Null-terminated  
+- Null-terminated  
   
--   ASCII string  
+- ASCII string  
   
--   Maximum length of eight bytes (excluding the terminator)  
+- Maximum length of eight bytes (excluding the terminator)  
   
- To request that the user's default local LU be used, the buffer should contain eight spaces followed by a null.  
+  To request that the user's default local LU be used, the buffer should contain eight spaces followed by a null.  
   
- *pMode*  
- Supplied parameter. Specifies the address of a buffer containing the mode name for which information is returned. In Microsoft Host Integration Server, this parameter is not used, but for compatibility with earlier versions of SNA Server a mode name must be specified as follows:  
+  *pMode*  
+  Supplied parameter. Specifies the address of a buffer containing the mode name for which information is returned. In Microsoft Host Integration Server, this parameter is not used, but for compatibility with earlier versions of SNA Server a mode name must be specified as follows:  
   
--   Nonpadded  
+- Nonpadded  
   
--   Null-terminated  
+- Null-terminated  
   
--   ASCII string  
+- ASCII string  
   
--   Maximum length of eight bytes (excluding the terminator)  
+- Maximum length of eight bytes (excluding the terminator)  
   
- *pNumRemLu*  
- Supplied parameter. Specifies the address of an integer variable that when the function completes will contain the number of remote LUs that would have been returned, had the buffer specified by *pRemLu* been large enough to accommodate all of the remote LUs.  
+  *pNumRemLu*  
+  Supplied parameter. Specifies the address of an integer variable that when the function completes will contain the number of remote LUs that would have been returned, had the buffer specified by *pRemLu* been large enough to accommodate all of the remote LUs.  
   
- *iMaxRemLu*  
- Supplied parameter. Specifies the number of remote LU names that can be held by the buffer indicated by *pRemLu*.  
+  *iMaxRemLu*  
+  Supplied parameter. Specifies the number of remote LU names that can be held by the buffer indicated by *pRemLu*.  
   
- *pRemLu*  
- Supplied parameter. Specifies the address of the buffer that will hold the remote LU names after the function completes. The information will be returned as an array of strings. Each remote LU name will be stored in the buffer as follows:  
+  *pRemLu*  
+  Supplied parameter. Specifies the address of the buffer that will hold the remote LU names after the function completes. The information will be returned as an array of strings. Each remote LU name will be stored in the buffer as follows:  
   
--   Nonpadded  
+- Nonpadded  
   
--   Null-terminated  
+- Null-terminated  
   
--   ASCII string  
+- ASCII string  
   
--   Maximum length of eight bytes (excluding the terminator)  
+- Maximum length of eight bytes (excluding the terminator)  
   
- The strings start every nine bytes in the buffer, and thus (*pRemLu* + (*i*–1)\*9) gives the start of the *i*th string. In the case where the buffer is too small to hold all the names, only *iMaxRemLu* strings will be returned.  
+  The strings start every nine bytes in the buffer, and thus (*pRemLu* + (*i*–1)\*9) gives the start of the *i*th string. In the case where the buffer is too small to hold all the names, only *iMaxRemLu* strings will be returned.  
   
- *pAsyncRetCode*  
- Supplied parameter. Specifies the address of an integer variable used to store the return code from this function, if the supplied address is non-null. The return codes will be the same as those returned by an asynchronous completion message. While the call is completing, the value of this variable will be APPC_CFG_PENDING. When this asynchronous call is completed, the value of this variable will contain some return code other than APPC_CFG_PENDING.  
+  *pAsyncRetCode*  
+  Supplied parameter. Specifies the address of an integer variable used to store the return code from this function, if the supplied address is non-null. The return codes will be the same as those returned by an asynchronous completion message. While the call is completing, the value of this variable will be APPC_CFG_PENDING. When this asynchronous call is completed, the value of this variable will contain some return code other than APPC_CFG_PENDING.  
   
- This variable is used by polling for completion when asynchronous message completion to a window handle is not used.  
+  This variable is used by polling for completion when asynchronous message completion to a window handle is not used.  
   
- Note that if *pAsyncRetCode* is used, *hWnd* must be null.  
+  Note that if *pAsyncRetCode* is used, *hWnd* must be null.  
   
 ## Return Value  
  The meaning of the immediate return value depends on whether or not the asynchronous request was accepted. To test for acceptance, evaluate the expression:  

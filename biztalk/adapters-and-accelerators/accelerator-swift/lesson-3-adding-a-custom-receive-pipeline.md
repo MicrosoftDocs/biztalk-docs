@@ -26,14 +26,14 @@ In this lesson you create a custom receive pipeline using BizTalk Pipeline Desig
   
 ### To create a new custom receive pipeline  
   
-1.  In Solution Explorer, right-click the **SWIFTPipelines** project, point to **Add**, and then click **New Item**.  
+1. In Solution Explorer, right-click the **SWIFTPipelines** project, point to **Add**, and then click **New Item**.  
   
-2.  In the Add New Item-SWIFTPipelines dialog box, click **Pipeline Files** in the Categories pane, and then select **Receive Pipeline** from the Templates pane.  
+2. In the Add New Item-SWIFTPipelines dialog box, click **Pipeline Files** in the Categories pane, and then select **Receive Pipeline** from the Templates pane.  
   
-3.  In the **Name** box, type **MT103ReceivePipeline.btp**.  
+3. In the **Name** box, type **MT103ReceivePipeline.btp**.  
   
-4.  Click **Add** to open the blank pipeline in BizTalk Pipeline Designer.  
+4. Click **Add** to open the blank pipeline in BizTalk Pipeline Designer.  
   
- An empty pipeline appears in the BizTalk Pipeline Designer. Visual Studio also adds the new pipeline to Solution Explorer under the SWIFTPipelines project.  
+   An empty pipeline appears in the BizTalk Pipeline Designer. Visual Studio also adds the new pipeline to Solution Explorer under the SWIFTPipelines project.  
   
- Proceed to [Lesson 4: Adding the SWIFT Assembler and Disassembler to the Toolbox](../../adapters-and-accelerators/accelerator-swift/lesson-4-adding-the-swift-assembler-and-disassembler-to-the-toolbox.md).
+   Proceed to [Lesson 4: Adding the SWIFT Assembler and Disassembler to the Toolbox](../../adapters-and-accelerators/accelerator-swift/lesson-4-adding-the-swift-assembler-and-disassembler-to-the-toolbox.md).

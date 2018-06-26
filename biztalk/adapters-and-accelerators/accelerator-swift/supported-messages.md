@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Supported Messages
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides a list of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] and SWIFT messages. The messages fall into several financial categories which are listed below.  
+Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides a list of Microsoft and SWIFT messages. The messages fall into several financial categories which are listed below.  
   
  This section contains:  
   
@@ -44,7 +44,7 @@ manager: "anneta"
 -   [Category 9: Cash Management and Customer Status](#fsa_intro_sptj)  
   
 ##  <a name="fsa_intro_xtkj"></a> SWIFT Messages - Microsoft  
- The following table describes the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] SWIFT messages for service types GPA and FIN Control.  
+ The following table describes the Microsoft SWIFT messages for service types GPA and FIN Control.  
   
 |Message type|Description|  
 |------------------|-----------------|  

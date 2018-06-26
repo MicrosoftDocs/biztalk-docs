@@ -26,24 +26,24 @@ APPC connection between AS/400 and Host Integration Server to send print job to 
   
 #### Enable the host transform feature using the default 5224 print device  
   
-1.  Stop the print writer associated with the print device.  
+1. Stop the print writer associated with the print device.  
   
-2.  Vary off the print device.  
+2. Vary off the print device.  
   
-3.  Issue the following command:  
+3. Issue the following command:  
   
-    ```  
-    chgdevprt devd(<print device>) transform(*YES) mfrtypmdl(<LAN printer type>)  
+   ```  
+   chgdevprt devd(<print device>) transform(*YES) mfrtypmdl(<LAN printer type>)  
   
-    ```  
+   ```  
   
-     Common LAN printer types include: *HP4, \*HPIII, \*HPII, \*IBM4039. To see a complete list of available options, prompt (F4) on the MFRTYPMDL parameter.  
+    Common LAN printer types include: *HP4, \*HPIII, \*HPII, \*IBM4039. To see a complete list of available options, prompt (F4) on the MFRTYPMDL parameter.  
   
-4.  Vary on the print device.  
+4. Vary on the print device.  
   
-5.  Start the print writer.  
+5. Start the print writer.  
   
- For more details on the Host Print Transform feature, see the "OS/400 Printer device programming" manual (SC41-3713), or the "AS/400 Printing IV" redbook (GG24-4389). Both are available from IBM.  
+   For more details on the Host Print Transform feature, see the "OS/400 Printer device programming" manual (SC41-3713), or the "AS/400 Printing IV" redbook (GG24-4389). Both are available from IBM.  
   
 ## SCS Codes  
  The SCS control codes are fully documented in the *IBM Host Print Guide* (document number SC31-7145). All of the SCS control codes fall within the range of '0x00'–'0x3F.' These codes range from single-byte codes, such as Subscript '0x38' to multiple-byte codes followed by several parameters, such as Set Horizontal Format '0x2BC1...'  

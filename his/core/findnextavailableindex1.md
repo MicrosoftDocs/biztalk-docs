@@ -24,9 +24,9 @@ The **FindNextAvailableIndex** function is used to determine the index a new ins
  *Return 0*  
  Status of the operation:  
   
--   STATUS_SUCCESSFUL: Operation succeeded.  
+- STATUS_SUCCESSFUL: Operation succeeded.  
   
--   STATUS_FAILED: Operation failed.  
+- STATUS_FAILED: Operation failed.  
   
- *Return 1*  
- First available index for the list.
+  *Return 1*  
+  First available index for the list.

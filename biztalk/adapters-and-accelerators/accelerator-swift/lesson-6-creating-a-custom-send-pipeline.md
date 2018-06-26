@@ -24,15 +24,15 @@ In this lesson, you create a custom send pipeline using BizTalk Pipeline Designe
   
 ### To create a custom send pipeline  
   
-1.  In Solution Explorer, right-click the **SWIFTPipelines** project, point to **Add**, and then click **New Item**.  
+1. In Solution Explorer, right-click the **SWIFTPipelines** project, point to **Add**, and then click **New Item**.  
   
-2.  In the Add New Item-SWIFTPipelines dialog box, verify that **Pipeline Files** is selected in the Categories pane, and then select **Send Pipeline** from the Templates pane.  
+2. In the Add New Item-SWIFTPipelines dialog box, verify that **Pipeline Files** is selected in the Categories pane, and then select **Send Pipeline** from the Templates pane.  
   
-3.  In the **Name** box, type **MT103SendPipeline.btp**.  
+3. In the **Name** box, type **MT103SendPipeline.btp**.  
   
-4.  Click **Add** to open the blank pipeline in BizTalk Pipeline Designer.  
+4. Click **Add** to open the blank pipeline in BizTalk Pipeline Designer.  
   
-    > [!NOTE]
-    >  An empty pipeline appears in the BizTalk Pipeline Designer. [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] adds the new pipeline to Solution Explorer under the SWIFTPipelines project.  
+   > [!NOTE]
+   >  An empty pipeline appears in the BizTalk Pipeline Designer. [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] adds the new pipeline to Solution Explorer under the SWIFTPipelines project.  
   
- Proceed to [Lesson 7: Adding the SWIFT Assembler to a Custom Send Pipeline](../../adapters-and-accelerators/accelerator-swift/lesson-7-adding-the-swift-assembler-to-a-custom-send-pipeline.md).
+   Proceed to [Lesson 7: Adding the SWIFT Assembler to a Custom Send Pipeline](../../adapters-and-accelerators/accelerator-swift/lesson-7-adding-the-swift-assembler-to-a-custom-send-pipeline.md).

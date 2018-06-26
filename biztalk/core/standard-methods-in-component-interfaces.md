@@ -22,15 +22,15 @@ manager: "anneta"
 # Standard Methods in Component Interfaces
 The standard methods for the component interface are as follows:  
   
--   `Create`  
+- `Create`  
   
--   `Find`  
+- `Find`  
   
--   `Get`  
+- `Get`  
   
--   `Save`  
+- `Save`  
   
- Only those methods in the underlying component are available. For example, if the underlying component does not contain `Add` capabilities, `Create` is unavailable.  
+  Only those methods in the underlying component are available. For example, if the underlying component does not contain `Add` capabilities, `Create` is unavailable.  
   
 ## Viewing or Changing Available Methods  
   

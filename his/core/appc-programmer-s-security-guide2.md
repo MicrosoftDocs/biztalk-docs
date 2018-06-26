@@ -21,19 +21,19 @@ The following topics discuss security as it applies to the APPC section of the M
   
 ### Conversation Security  
   
--   Owners of APPC transaction programs may want to allow only a limited set of users to start the program. APPC provides a mechanism, called APPC conversation security, where the client transaction program supplies credentials to the server to gain access to the program. You can find more information on conversation security in the section: APPC Security.  
+- Owners of APPC transaction programs may want to allow only a limited set of users to start the program. APPC provides a mechanism, called APPC conversation security, where the client transaction program supplies credentials to the server to gain access to the program. You can find more information on conversation security in the section: APPC Security.  
   
- Several APPC verbs create a connection with a remote LU. When creating a connection with a remote LU, credentials may be required to establish access. The **security** parameter controls conversation security, and the **pwd** and **user_id** parameters specify the information used to validate the user on the host.  
+  Several APPC verbs create a connection with a remote LU. When creating a connection with a remote LU, credentials may be required to establish access. The **security** parameter controls conversation security, and the **pwd** and **user_id** parameters specify the information used to validate the user on the host.  
   
- Conversational security is documented in the topic [Conversation Security](../core/conversation-security2.md), and in the reference pages for the following APPC verbs:  
+  Conversational security is documented in the topic [Conversation Security](../core/conversation-security2.md), and in the reference pages for the following APPC verbs:  
   
--   [ALLOCATE](./allocate2.md)  
+- [ALLOCATE](./allocate2.md)  
   
--   [MC_ALLOCATE](./mc-allocate2.md)  
+- [MC_ALLOCATE](./mc-allocate2.md)  
   
--   [SEND_CONVERSATION](./send-conversation2.md)  
+- [SEND_CONVERSATION](./send-conversation2.md)  
   
--   [MC_SEND_CONVERSATION](./mc-send-conversation1.md)  
+- [MC_SEND_CONVERSATION](./mc-send-conversation1.md)  
   
 ### Session Security configuration using SNACFG  
  You can use the utility SNACFG to set session security for a remote LU. Possible values are none, use a plaintext key, and use a scrambled key.  

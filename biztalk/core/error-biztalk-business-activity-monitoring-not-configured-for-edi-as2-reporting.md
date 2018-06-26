@@ -17,15 +17,15 @@ manager: "anneta"
 # BizTalk Business Activity Monitoring has not been configured for EDI-AS2 status reporting
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|AS2 Engine|  
-|Symbolic Name|-|  
-|Message Text|BizTalk Business Activity Monitoring has not been configured for EDI/AS2 status reporting. Hence status reporting feature will be disabled.|  
+|                 |                                                                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                              |
+| Product Version |                                         [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                          |
+|    Event ID     |                                                                      -                                                                      |
+|  Event Source   |                           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                            |
+|    Component    |                                                                 AS2 Engine                                                                  |
+|  Symbolic Name  |                                                                      -                                                                      |
+|  Message Text   | BizTalk Business Activity Monitoring has not been configured for EDI/AS2 status reporting. Hence status reporting feature will be disabled. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that EDI/AS2 status reporting is not enabled because Business Activity Monitoring (BAM) has not been configured through the BizTalk Configuration Wizard. The BAM infrastructure is a prerequisite for EDI/AS2 status reporting.  

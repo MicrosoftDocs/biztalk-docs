@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10790
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10790|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_TICKET_EXPIRED|  
-|Message Text|The ticket has timed out.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10790                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                  ENTSSO_E_TICKET_EXPIRED                   |
+|  Message Text   |                 The ticket has timed out.                  |
   
 ## Explanation  
  The ticket has timed out.  

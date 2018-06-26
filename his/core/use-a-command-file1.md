@@ -18,17 +18,17 @@ If you want to run a series of [!INCLUDE[hisHostIntServNoVersion](../includes/hi
   
  When creating a command file, do not include the following:  
   
--   The word **snacfg**  
+- The word **snacfg**  
   
--   A path for a configuration file  
+- A path for a configuration file  
   
--   A command path for another command file  
+- A command path for another command file  
   
--   A backslash inside the text string for a comment  
+- A backslash inside the text string for a comment  
   
- Also, you can include long, multiline commands in a command file by ending lines with a backslash ( \ ). The backslash indicates that the string in the next line should be appended to the current command.  
+  Also, you can include long, multiline commands in a command file by ending lines with a backslash ( \ ). The backslash indicates that the string in the next line should be appended to the current command.  
   
- There are two steps for using a command file. First, create the file, either by typing the configuration commands into a plain text file, or by using the **/print** option as described in the next section. Then run the command file from the command prompt by typing a line with the following syntax:  
+  There are two steps for using a command file. First, create the file, either by typing the configuration commands into a plain text file, or by using the **/print** option as described in the next section. Then run the command file from the command prompt by typing a line with the following syntax:  
   
 ```  
   

@@ -18,11 +18,11 @@ One of the tasks you must perform when setting up an IPDLC connection is to retr
   
 ### To retrieve an adapter name  
   
-1.  Connect to the namespace on the local computer using **GetObject**.  
+1. Connect to the namespace on the local computer using **GetObject**.  
   
-2.  Retrieve the name of the adapter using **ExecMethod** with **GetAllNetworkAdapters** as the method to execute.  
+2. Retrieve the name of the adapter using **ExecMethod** with **GetAllNetworkAdapters** as the method to execute.  
   
- The following example shows how to retrieve the name of the first adapter on a system:  
+   The following example shows how to retrieve the name of the first adapter on a system:  
   
 ```  
 Private Sub GetAdapterName()  

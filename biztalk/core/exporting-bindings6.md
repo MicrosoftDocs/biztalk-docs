@@ -22,15 +22,15 @@ The topics in this section describe how to export bindings for a BizTalk group, 
   
  You may find that using binding files speeds application deployment in the following scenarios by avoiding the need to manually configure bindings:  
   
--   Moving an application from one deployment environment to another.  
+- Moving an application from one deployment environment to another.  
   
--   Updating an assembly.  
+- Updating an assembly.  
   
--   Deploying an assembly together with its bindings to multiple BizTalk groups.  
+- Deploying an assembly together with its bindings to multiple BizTalk groups.  
   
- For more information about using binding files for these purposes, see [Binding Files and Application Deployment](../core/binding-files-and-application-deployment.md).  
+  For more information about using binding files for these purposes, see [Binding Files and Application Deployment](../core/binding-files-and-application-deployment.md).  
   
- For more information about importing and adding bindings, see [How to Import Bindings into a BizTalk Group](../core/how-to-import-bindings-into-a-biztalk-group.md), [How to Import Bindings into a BizTalk Application](../core/how-to-import-bindings-into-a-biztalk-application.md), and [How to Add a Binding File to an Application](../core/how-to-add-a-binding-file-to-an-application2.md).  
+  For more information about importing and adding bindings, see [How to Import Bindings into a BizTalk Group](../core/how-to-import-bindings-into-a-biztalk-group.md), [How to Import Bindings into a BizTalk Application](../core/how-to-import-bindings-into-a-biztalk-application.md), and [How to Add a Binding File to an Application](../core/how-to-add-a-binding-file-to-an-application2.md).  
   
 > [!IMPORTANT]
 >  The binding file may contain sensitive data. Be sure to take steps to secure the file.  

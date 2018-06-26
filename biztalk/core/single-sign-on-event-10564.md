@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10564
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10564|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_ERROR_BACKUP_FILE_INCORRECT_FORMAT|  
-|Message Text|The backup file does not have the correct format.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10564                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |           SSO_ERROR_BACKUP_FILE_INCORRECT_FORMAT           |
+|  Message Text   |     The backup file does not have the correct format.      |
   
 ## Explanation  
  The backup file does not have the correct format.  

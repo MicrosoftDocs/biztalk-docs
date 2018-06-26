@@ -21,25 +21,25 @@ Explains how the parameters of a query translate into an EXECQUERY command text.
 ## Open the Query in SAP GUI  
  Perform the following steps to open the query in SAP. The steps provided here are for ZQUERY_TST_NEW query and are specific to SAP versions.  
   
-1.  Run the transaction SQ01.  
+1. Run the transaction SQ01.  
   
-2.  In the **Query from User Group** page, click **Quick Viewer**.  
+2. In the **Query from User Group** page, click **Quick Viewer**.  
   
-3.  In the **Quick Viewer** page, in the **Quick View** text box, type `ZQUERY_TST_NEW`, and then click **Display**.  
+3. In the **Quick Viewer** page, in the **Quick View** text box, type `ZQUERY_TST_NEW`, and then click **Display**.  
   
-4.  In the **Quick Viewer** page, click the **Selection fields** tab to list all the parameters in the query.  
+4. In the **Quick Viewer** page, click the **Selection fields** tab to list all the parameters in the query.  
   
-     The following figure shows all the parameters in the query definition.  
+    The following figure shows all the parameters in the query definition.  
   
-     ![List of parameters for an SAP query](../../adapters-and-accelerators/adapter-sap/media/sap-query-param-types.gif "sap_query_param_types")  
+    ![List of parameters for an SAP query](../../adapters-and-accelerators/adapter-sap/media/sap-query-param-types.gif "sap_query_param_types")  
   
-5.  Click **Execute**. The following page is displayed.  
+5. Click **Execute**. The following page is displayed.  
   
-     ![Provide parameter values for an SAP query](../../adapters-and-accelerators/adapter-sap/media/sap-query-all-params.gif "sap_query_all_params")  
+    ![Provide parameter values for an SAP query](../../adapters-and-accelerators/adapter-sap/media/sap-query-all-params.gif "sap_query_all_params")  
   
-6.  Click the yellow arrows to define each parameter. You can either define specific allowable/non-allowable values or you can define a range of allowable/non-allowable values.  The EXECQUERY syntax must be specified based on the values configured in the SAP GUI for each parameter.  
+6. Click the yellow arrows to define each parameter. You can either define specific allowable/non-allowable values or you can define a range of allowable/non-allowable values.  The EXECQUERY syntax must be specified based on the values configured in the SAP GUI for each parameter.  
   
- The next section provides an explanation about how the values are defined in the SAP GUI and how those values translate to EXECQUERY syntax.  
+   The next section provides an explanation about how the values are defined in the SAP GUI and how those values translate to EXECQUERY syntax.  
   
 ## Frame an EXECQUERY Syntax  
  Let’s look at what the EXECQUERY syntax looks like based on the parameter values defined in the query definition. To understand this, we’ll show examples of how the values configured for the first parameter, **Two digit number**, translate to the  **ZQUERY_TST_NEW** query.  

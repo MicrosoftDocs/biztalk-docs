@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10765
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10765|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NO_CREDENTIALS|  
-|Message Text|No credentials have been set for the mapping.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10765                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                  ENTSSO_E_NO_CREDENTIALS                   |
+|  Message Text   |       No credentials have been set for the mapping.        |
   
 ## Explanation  
  You have requested a GetCredentials on a mapping, and the mapping specified has no credentials.  

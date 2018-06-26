@@ -44,9 +44,9 @@ The adapter "MQSeries" raised an error message. Details "The adapter has encount
 ##### Cause  
  This issue may occur if one or more of the following conditions are true:  
   
--   The host account for the MQSeries adapter does not have the required permissions for the MQSAgent COM+ application on the MQSeries server.  
+- The host account for the MQSeries adapter does not have the required permissions for the MQSAgent COM+ application on the MQSeries server.  
   
--   On a [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]-based server, the host account for the MQSeries adapter is not a member of the Distributed COM Users group on the MQSeries server.  
+- On a [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]-based server, the host account for the MQSeries adapter is not a member of the Distributed COM Users group on the MQSeries server.  
   
 ##### Resolution  
  To resolve this issue, use the following methods. If a method does not resolve the issue, try the next method.  

@@ -156,7 +156,7 @@ If your SQL Server is installed on a computer other than the BizTalk Server, the
 1. Open a Command Prompt.
 
 2. Change directory to %ProgramFiles%\Microsoft SQL Server\100\DTS\Binn.
- 
+
 3. Run the following command: notepad MsDtsSrvr.ini.xml
 
 4. In Notepad, update the text inside the “<ServerName>” tag to the host name of the SQL Server. Save your changes.
@@ -175,9 +175,9 @@ You can configure BAM Primary Import, BAM Archive, BAM Star Schema, BAM Analysis
 
 | BAM feature | Feature configuration | BizTalk Server | SQL Server | 
 |---|---|---|---|
-|BAM Tools | BAM Primary Import Tables and BAM Archive database | ADOMD.NET SQL Server Integration Services | Supported SQL Server version. See [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).|
+|BAM Tools | BAM Primary Import Tables and BAM Archive database | ADOMD.NET SQL Server Integration Services | Supported SQL Server version. See [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).|
 | BAM Tools| Enable Analysis Services for BAM aggregations| SQL Server Integration Services| SQL Server Analysis Services| 
-| BAM Notification Services Application Database| BAM Alerts| BAM Alerts <br/>Requirements listed in [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).| If using SQL Server 2012 or SQL Server 2014, configure SQL Server Database Mail. If using SQL Server 2008 R2, install SQL Server 2005 Notification Services Engine Components.<br/><br/>The BAM Alerts requirements are documented at Preparing Your Computer for Installation.
+| BAM Notification Services Application Database| BAM Alerts| BAM Alerts <br/>Requirements listed in [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).| If using SQL Server 2012 or SQL Server 2014, configure SQL Server Database Mail. If using SQL Server 2008 R2, install SQL Server 2005 Notification Services Engine Components.<br/><br/>The BAM Alerts requirements are documented at Preparing Your Computer for Installation.
 
 > [!NOTE] 
 > The service account used for the OLAP service should have db_datareader permissions on the BAM Star Schema database.
@@ -198,7 +198,7 @@ You can install SQL Server Notification Services in a multicomputer environment 
 **Update the Application definition file (.adf file)**:  
 
 1. On the computer where BizTalk Server is installed, open the Notification Services command prompt.
-2. Browse to \Program Files\Microsoft BizTalk Server *version*\Tracking.
+2. Browse to \Program Files\Microsoft BizTalk Server *version*\Tracking.
 3. Execute ProcessBamNsFiles.vbs to create the initial .adf file.
 4. Modify the .adf file with the path to the .xslt file.
 5. Execute ProcessBamNsFiles.vbs again to update the .adf file.
@@ -214,19 +214,19 @@ If you are upgrading your existing BAM scale-out alerts topology to BizTalk Serv
 
         Unregistering an instance removes the registry entries, removes the NS$instance_name service (if present), and deletes the performance counters for the service.
 
-2. Upgrade your servers that have Notification Services instances to a higher edition of SQL Server 2005 Notification Services.
+2. Upgrade your servers that have Notification Services instances to a higher edition of SQL Server 2005 Notification Services.
 
-3. To migrate your BAM databases based on the SQL Server version you are upgrading from, run the migration database command bm.exe program located in the BizTalk Server Tracking folder. For example, if SQL Server 2005 is upgraded to SQL Server 2008 R2, run the following in the command prompt with administrative credentials: `bm.exe migrate-sql –From:sql2005 –To:sql2008 –NSUser:<username>`.
+3. To migrate your BAM databases based on the SQL Server version you are upgrading from, run the migration database command bm.exe program located in the BizTalk Server Tracking folder. For example, if SQL Server 2005 is upgraded to SQL Server 2008 R2, run the following in the command prompt with administrative credentials: `bm.exe migrate-sql –From:sql2005 –To:sql2008 –NSUser:<username>`.
 
 4. Reregister the Notification Service on all the servers except the server where the migration program (bm.exe) is being used.
 
-    1. In **Programs**, click **Microsoft SQL Server 2005**, click **Configuration Tools**, and then click **Notification Services Command Prompt**.
-    2. At the command prompt, type: `nscontrol register -name BamAlerts -server <NS DB Server> -service -serviceusername "<NSServiceUserName>" -servicepassword "<NSServicePassword>"`
+   1. In **Programs**, click **Microsoft SQL Server 2005**, click **Configuration Tools**, and then click **Notification Services Command Prompt**.
+   2. At the command prompt, type: `nscontrol register -name BamAlerts -server <NS DB Server> -service -serviceusername "<NSServiceUserName>" -servicepassword "<NSServicePassword>"`
 
-    This enables Notification Services to log on to the correct database (this information is maintained in the registry of the service computer by nscontrol).
+      This enables Notification Services to log on to the correct database (this information is maintained in the registry of the service computer by nscontrol).
 
-    > [!IMPORTANT] 
-    > Remember to use the new Notification Services database server in the -server option when re-registering the service. In addition, use the same user name for the new Notification Services service as the old one.
+      > [!IMPORTANT] 
+      > Remember to use the new Notification Services database server in the -server option when re-registering the service. In addition, use the same user name for the new Notification Services service as the old one.
 
 5. Validate the BAM alerts: Open the **Notification Services Command Prompt** and type: `nscontrol.exe status –name BAMAlerts –server <NS DB Server>`.
 
@@ -243,18 +243,18 @@ Share the BAM databases across multiple BizTalk groups:
 
 2. Configure the subsequent BizTalk groups and do the following in the BizTalk Server Configuration Wizard:
 
-    1. Select **BAM Tools**, and then select the **Enable Business Activity Monitoring tools** and **Enable Analysis Services for BAM aggregations** check boxes.
+   1. Select **BAM Tools**, and then select the **Enable Business Activity Monitoring tools** and **Enable Analysis Services for BAM aggregations** check boxes.
 
-    2. Change the **Server Name** and **Database Name** of the BAM data stores to match the same names used when configuring the first BizTalk group.
+   2. Change the **Server Name** and **Database Name** of the BAM data stores to match the same names used when configuring the first BizTalk group.
 
-    3. Select **BAM Alerts** and then select **Enable BAM alerts**.
+   3. Select **BAM Alerts** and then select **Enable BAM alerts**.
 
-    4. Change the service account for BAM Alerts so it's a blank user name and password.
+   4. Change the service account for BAM Alerts so it's a blank user name and password.
 
-    5. Change the BAM Alerts SMTP Server, BAM Alerts File Location, SQL Server for Alerts Database, and Prefix for Alerts Database Names to match the same names used when configuring the first BizTalk group.
+   5. Change the BAM Alerts SMTP Server, BAM Alerts File Location, SQL Server for Alerts Database, and Prefix for Alerts Database Names to match the same names used when configuring the first BizTalk group.
 
-    > !NOTE] 
-    > The same Primary Import Tables (PIT) can be used but with different BAM Archive, BAM Analysis, and Star Schema databases. However, this option impacts all groups that use the same PIT.
+      > !NOTE] 
+      > The same Primary Import Tables (PIT) can be used but with different BAM Archive, BAM Analysis, and Star Schema databases. However, this option impacts all groups that use the same PIT.
 
 3. Select **BAM Portal**, and then select the **Enable BAM Portal** check box.
 
@@ -307,15 +307,16 @@ The following table lists the Windows groups and their membership used by BizTal
 ### User and Service Accounts
 The following table lists the Windows user or service accounts and group affiliations used by BizTalk Server. It also identifies the SQL Server Roles or Database Roles for the accounts.
 
-| User| User Description| Group Affiliation | SQL Server Roles or Database Roles| 
-| ---|---|---|---|
-| Enterprise Single Sign-On Service | Service account used to run Enterprise Single Sign-On Service, which accesses the SSO database. | SSO Administrators | | 
-| BizTalk Host Instance Account | Service account used to run BizTalk In-Process host instance (BTNTSVC). | BizTalk Application Users | | 
-| BizTalk Isolated Host Instance Account | Service account used to run BizTalk Isolated host instance (HTTP/SOAP). | BizTalk Isolated Host UsersIIS_WPG | | 
-| Rule Engine Update Service | Service account used to run Rule Engine Update Service, which receives notifications to deployment/undeployment policies from the Rule engine database.| | **RE_HOST_USERS** SQL Server Database Role in the BizTalkRuleEngineDb.| 
-| BAM Notification Services User | Service account used to run BAM Notification Services, which accesses the BAM databases. | SQLServer2005NotificationServicesUser$<ComputerName> | **NSRunService** SQL Server Database Role in the following databases:<br/>BAMAlertsApplication<br/>BAMAlertsNSMain<br/><br/>**BAM_ManagementNSReader** SQL Server role for the BAMPrimaryImport. | 
-| BAM Management Web Service User | User account for BAM Management Web service (BAMManagementService) to access various BAM resources. BAM Portal calls BAMManagementService with the user credentials logged on the BAM Portal to manage alerts, get BAM definition XML and BAM views. | IIS_WPG | **NSSubscriberAdmin** SQL Server Database Role in the following databases:<br/>BAMAlertsApplication<br/>BAMAlertsNSMain<br/><br/>**BAM_ManagementWS** SQL Server role for the BAMPrimaryImport. | 
-| BAM Application Pool Account| Application pool account for BAMAppPool, which hosts the BAM Portal website. | IIS_WPG | | 
+
+|                  User                  |                                                                                                                   User Description                                                                                                                   |                  Group Affiliation                   |                                                                                SQL Server Roles or Database Roles                                                                                |
+|----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   Enterprise Single Sign-On Service    |                                                                           Service account used to run Enterprise Single Sign-On Service, which accesses the SSO database.                                                                            |                  SSO Administrators                  |                                                                                                                                                                                                  |
+|     BizTalk Host Instance Account      |                                                                                       Service account used to run BizTalk In-Process host instance (BTNTSVC).                                                                                        |              BizTalk Application Users               |                                                                                                                                                                                                  |
+| BizTalk Isolated Host Instance Account |                                                                                       Service account used to run BizTalk Isolated host instance (HTTP/SOAP).                                                                                        |          BizTalk Isolated Host UsersIIS_WPG          |                                                                                                                                                                                                  |
+|       Rule Engine Update Service       |                                               Service account used to run Rule Engine Update Service, which receives notifications to deployment/undeployment policies from the Rule engine database.                                                |                                                      |                                                              **RE_HOST_USERS** SQL Server Database Role in the BizTalkRuleEngineDb.                                                              |
+|     BAM Notification Services User     |                                                                               Service account used to run BAM Notification Services, which accesses the BAM databases.                                                                               | SQLServer2005NotificationServicesUser$<ComputerName> | **NSRunService** SQL Server Database Role in the following databases:<br/>BAMAlertsApplication<br/>BAMAlertsNSMain<br/><br/>**BAM_ManagementNSReader** SQL Server role for the BAMPrimaryImport. |
+|    BAM Management Web Service User     | User account for BAM Management Web service (BAMManagementService) to access various BAM resources. BAM Portal calls BAMManagementService with the user credentials logged on the BAM Portal to manage alerts, get BAM definition XML and BAM views. |                       IIS_WPG                        | **NSSubscriberAdmin** SQL Server Database Role in the following databases:<br/>BAMAlertsApplication<br/>BAMAlertsNSMain<br/><br/>**BAM_ManagementWS** SQL Server role for the BAMPrimaryImport.  |
+|      BAM Application Pool Account      |                                                                                     Application pool account for BAMAppPool, which hosts the BAM Portal website.                                                                                     |                       IIS_WPG                        |                                                                                                                                                                                                  |
 
 > [!IMPORTANT]
 > For more information about Windows groups and service accounts used in BizTalk Server, see [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).
@@ -327,7 +328,7 @@ The following is the list of SQL Server databases used in BizTalk Server:
 | ---|---|---|---|---|
 | SSO Database | SSODB | Low | Low | This Enterprise Single Sign-On credential database securely stores the user name and password.| 
 | BizTalk Management Database | BizTalkMgmtDb | Low | Low | This database is the central meta-information store for all instances of BizTalk Server.| 
-| BizTalk MessageBox Database | BizTalkMsgBoxDb | High | Medium | The BizTalk Server engine uses this database for routing, queuing, instance management, and various other tasks.<br/><br/>**Note**<br/>Auto Update Statistics, Auto Create Statistics, and the Parallelism setting are purposely turned off in the SQL Server database instance that hosts the BizTalk Server BizTalkMsgBoxDB database. Do not enable these settings. | 
+| BizTalk MessageBox Database | BizTalkMsgBoxDb | High | Medium | The BizTalk Server engine uses this database for routing, queuing, instance management, and various other tasks.<br/><br/>**Note**<br/>Auto Update Statistics, Auto Create Statistics, and the Parallelism setting are purposely turned off in the SQL Server database instance that hosts the BizTalk Server BizTalkMsgBoxDB database. Do not enable these settings. | 
 | BizTalk Tracking Database | BizTalkDTADb | High | High | This database stores business and health monitoring data tracked by the BizTalk Server tracking engine. | 
 | Rule Engine Database | BizTalkRuleEngineDb | Low | Low | This database is a repository for policies, which are sets of related rules and vocabularies. Vocabularies are collections of user-friendly, domain-specific names for data references in rules. | 
 | BAM Primary Import Database | BAMPrimaryImport | Medium | Medium | This database collects raw BAM tracking data. | 
@@ -347,11 +348,11 @@ The following is the list of SQL Server databases used in BizTalk Server:
 
 1. **Install Active Directory Domain Services** - The first step required to install BizTalk Server into a multiple server environment is to install Active Directory domain services for the various BizTalk Server groups and accounts. To create the Active Directory domain, refer to the following:
 
-    - Windows Server 2012 and newer: [Install Active Directory Domain Services](https://docs.microsoft.com/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
-    - Windows Server 2008 R2: [AD DS Installation and Removal Step-by-Step Guide](https://technet.microsoft.com/library/cc755258(WS.10).aspx)
+   - Windows Server 2012 and newer: [Install Active Directory Domain Services](https://docs.microsoft.com/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
+   - Windows Server 2008 R2: [AD DS Installation and Removal Step-by-Step Guide](https://technet.microsoft.com/library/cc755258(WS.10).aspx)
 
-    > [!IMPORTANT]
-    > The BizTalk Server groups described in the **User and Service Accounts Used In BizTalk Server** table (in this topic) must be created before installing BizTalk Server into a multiple server environment.
+     > [!IMPORTANT]
+     > The BizTalk Server groups described in the **User and Service Accounts Used In BizTalk Server** table (in this topic) must be created before installing BizTalk Server into a multiple server environment.
 
 2. **Install Multiple Instances of SQL Server as needed** – If your load requirements dictate that you need multiple MessageBox databases or that you need to spread the BizTalk Server I/O load over multiple SQL Server instances, then install more SQL Server instances as required. 
 
@@ -370,8 +371,8 @@ The following is the list of SQL Server databases used in BizTalk Server:
 
 - **Install SQL Server Failover Clustering** – To provide high availability/fault tolerance for the BizTalk Server databases, it is recommended that the BizTalk Server databases are installed on a SQL Server failover cluster. For information on installing SQL Server failover cluster, see: 
 
-    * SQL Server 2016: [Always On Failover Cluster Instances (SQL Server)](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server)
-    * SQL Server 2014: [Windows Server Failover Clustering (WSFC) with SQL Server](https://msdn.microsoft.com/library/ms189134(v=sql.120).aspx)
+  * SQL Server 2016: [Always On Failover Cluster Instances (SQL Server)](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server)
+  * SQL Server 2014: [Windows Server Failover Clustering (WSFC) with SQL Server](https://msdn.microsoft.com/library/ms189134(v=sql.120).aspx)
 
     Once SQL Server is configured for high availability/fault tolerance, then the SQL Server clustered instance can be referenced just as any other SQL Server instance by the BizTalk Server configuration.
 
@@ -385,6 +386,6 @@ The following is the list of SQL Server databases used in BizTalk Server:
 
 ## Use SCOM
 The BizTalk Server Management Pack for Operations Manager provides comprehensive discovery and monitoring of BizTalk Server components and applications that are running in multiple machines. For more information about the BizTalk Server Management Pack, see http://www.microsoft.com/download/details.aspx?id=39617.
-  
+
 ## Next  
 [Configure BizTalk](configure-biztalk-server.md)

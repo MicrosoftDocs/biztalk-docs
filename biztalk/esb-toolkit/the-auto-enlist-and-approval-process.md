@@ -16,11 +16,11 @@ manager: "anneta"
 # The Auto-Enlist and Approval Process
 You can configure the ESB Management Portal to publish Microsoft BizTalk Server endpoints in two ways:  
   
--   It can be configured through the approval process, where an administrator must confirm and approve the registration request.  
+- It can be configured through the approval process, where an administrator must confirm and approve the registration request.  
   
--   It can be configured by using auto-publish, where the portal automatically publishes the request into the Universal Description, Discovery, and Integration (UDDI) registry without requiring administrator intervention.  
+- It can be configured by using auto-publish, where the portal automatically publishes the request into the Universal Description, Discovery, and Integration (UDDI) registry without requiring administrator intervention.  
   
- You can also specify several other settings of the UDDI Integration features of the portal, as described in the following two procedures.  
+  You can also specify several other settings of the UDDI Integration features of the portal, as described in the following two procedures.  
   
 ### To configure auto-approval and publishing in the ESB Management Portal  
   

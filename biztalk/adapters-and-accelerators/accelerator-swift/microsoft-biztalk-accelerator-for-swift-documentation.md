@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Microsoft BizTalk Accelerator for SWIFT documentation
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] is an add-in to [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Server, and leverages the open standards-based tools and run-time facilities of BizTalk Server to implement support for Society for Worldwide Interbank Financial Telecommunication (SWIFT) message formats.  
+Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] is an add-in to Microsoft BizTalk Server, and leverages the open standards-based tools and run-time facilities of BizTalk Server to implement support for Society for Worldwide Interbank Financial Telecommunication (SWIFT) message formats.  
   
  This added functionality makes it easier for businesses to adopt BizTalk Server as a general-purpose middleware integration platform. With A4SWIFT, customers, partners, and system integrators can streamline the development, deployment, and support of integration solutions for core financial services application infrastructure and business processes.  
 

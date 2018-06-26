@@ -17,15 +17,15 @@ manager: "anneta"
 # This scheduler was unable to schedule the batch
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|Batching Engine|  
-|Symbolic Name|UnableToScheduleBatch|  
-|Message Text|This scheduler was unable to schedule the batch|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Event ID     |                                           -                                            |
+|  Event Source   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    Component    |                                    Batching Engine                                     |
+|  Symbolic Name  |                                 UnableToScheduleBatch                                  |
+|  Message Text   |                    This scheduler was unable to schedule the batch                     |
   
 ## Explanation  
  This error indicates the scheduler could not determine the next occurrence of a batch release.  

@@ -25,30 +25,30 @@ manager: "anneta"
   
 ## Prerequisites  
   
--   [Lesson 1: Define Schemas and a Map](../core/lesson-1-define-schemas-and-a-map.md)  
+- [Lesson 1: Define Schemas and a Map](../core/lesson-1-define-schemas-and-a-map.md)  
   
--   [Lesson 2: Define the Business Process](../core/lesson-2-define-the-business-process.md)  
+- [Lesson 2: Define the Business Process](../core/lesson-2-define-the-business-process.md)  
   
--   Sign in as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group
+- Sign in as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group
 
--   Run Visual Studio with Administrative privileges
+- Run Visual Studio with Administrative privileges
 
 > [!TIP]
 > You can download the required tutorial files at [Tutorial 1: Enterprise Application Integration](https://www.microsoft.com/download/details.aspx?id=22793).
 
 ## Open the solution with administrative rights  
   
-1.  Sign in to Windows as a member of the BizTalk Server Administrators group.  
+1. Sign in to Windows as a member of the BizTalk Server Administrators group.  
   
-2.  Start **Microsoft Visual Studio** as an administrator.  
+2. Start **Microsoft Visual Studio** as an administrator.  
   
-3.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **Open**, and then click **Project/Solution**.  
+3. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **Open**, and then click **Project/Solution**.  
   
-4.  In the **Open Project** dialog box, browse to the **EAISolution.sln** project solution file, and then click **Open**.  
+4. In the **Open Project** dialog box, browse to the **EAISolution.sln** project solution file, and then click **Open**.  
   
- The deployment process requires that assembly is strongly signed.  You must sign your assemblies by associating the project with a strong name assembly key file.  This file is included in the tutorial files.  
+   The deployment process requires that assembly is strongly signed.  You must sign your assemblies by associating the project with a strong name assembly key file.  This file is included in the tutorial files.  
   
- The BizTalk application is a feature of BizTalk Server that makes it quicker and easier to deploy, manage, and troubleshoot BizTalk Server business solutions. A BizTalk application is a logical grouping of the items, called "artifacts," used in a BizTalk Server business solution. We can specify an application name for a project.  The deployment process automatically creates a new application having the specified name if it doesn’t exist.  
+   The BizTalk application is a feature of BizTalk Server that makes it quicker and easier to deploy, manage, and troubleshoot BizTalk Server business solutions. A BizTalk application is a logical grouping of the items, called "artifacts," used in a BizTalk Server business solution. We can specify an application name for a project.  The deployment process automatically creates a new application having the specified name if it doesn’t exist.  
   
 ## Configure and deploy the projects  
   

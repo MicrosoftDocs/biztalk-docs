@@ -88,38 +88,38 @@ RETURN @@ROWCOUNT;
   
  Dynamic SQL BLOB and CLOB  
   
--   BLOB to and from IMAGE  
+- BLOB to and from IMAGE  
   
--   BLOB to and from VARBINARY(MAX)  
+- BLOB to and from VARBINARY(MAX)  
   
--   CLOB to and from TEXT  
+- CLOB to and from TEXT  
   
--   CLOB to and from NTEXT  
+- CLOB to and from NTEXT  
   
--   CLOB to and from VARCHAR(MAX)  
+- CLOB to and from VARCHAR(MAX)  
   
- Static SQL BLOB and CLOB work in limited ways with these data type mappings.  
+  Static SQL BLOB and CLOB work in limited ways with these data type mappings.  
   
--   Input parameters  
+- Input parameters  
   
-    -   BLOB to VARBINARY(MAX)  
+  -   BLOB to VARBINARY(MAX)  
   
-    -   CLOB to VARCHAR(MAX)  
+  -   CLOB to VARCHAR(MAX)  
   
--   Output parameters  
+- Output parameters  
   
-    -   BLOB to VARBINARY(MAX)  
+  -   BLOB to VARBINARY(MAX)  
   
-    -   CLOB to VARCHAR(MAX)  
+  -   CLOB to VARCHAR(MAX)  
   
-    -   CLOB to TEXT  
+  -   CLOB to TEXT  
   
-    -   CLOB to NTEXT  
+  -   CLOB to NTEXT  
   
- Microsoft recommends that you utilize the default data type mappings.  
+  Microsoft recommends that you utilize the default data type mappings.  
   
- ntext, text, and image data types will be removed in a future version of Microsoft SQL Server. Avoid using these data types in new development work, and plan to modify applications that currently use them. Use nvarchar(max), varchar(max), and varbinary(max) instead.  
+  ntext, text, and image data types will be removed in a future version of Microsoft SQL Server. Avoid using these data types in new development work, and plan to modify applications that currently use them. Use nvarchar(max), varchar(max), and varbinary(max) instead.  
   
- Fixed and variable-length data types for storing large non-Unicode and Unicode character and binary data. Unicode data uses the UNICODE UCS-2 character set.  
+  Fixed and variable-length data types for storing large non-Unicode and Unicode character and binary data. Unicode data uses the UNICODE UCS-2 character set.  
   
- See [ntext, text, and image (Transact-SQL)](https://docs.microsoft.com/sql/t-sql/data-types/ntext-text-and-image-transact-sql).
+  See [ntext, text, and image (Transact-SQL)](https://docs.microsoft.com/sql/t-sql/data-types/ntext-text-and-image-transact-sql).

@@ -48,7 +48,7 @@ An orchestration can have multiple receive ports. Using the BizTalk Web Services
 >  If your receive port is defined as one-way, the Web method response type is **void** and no information is returned to the Web client. Exceptions thrown by the SOAP adapter or an orchestration are not returned to the Web client.  
   
 ## Web services naming conventions for published orchestrations  
- The BizTalk Web Services Publishing Wizard generates Web service (.asmx) file names based on the orchestrations namespace, followed by an underscore (_), followed by the type name, followed by an underscore (\_), and followed by the name of the receive port. An underscore (\_) replaces any of the parts that contain periods. The name of the Web service always has the port name appended.  
+ The BizTalk Web Services Publishing Wizard generates Web service (.asmx) file names based on the orchestrations namespace, followed by an underscore (*), followed by the type name, followed by an underscore (\\*), and followed by the name of the receive port. An underscore (\_) replaces any of the parts that contain periods. The name of the Web service always has the port name appended.  
   
  The following table shows how the BizTalk Web Services Publishing Wizard generates Web service names.  
   

@@ -17,11 +17,11 @@ manager: "anneta"
 # XML Message Envelopes
 XML envelopes serve two purposes within XML instance messages sent and received by Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
   
--   XML envelopes can contain data that supplements the data within the XML documents. This data can be promoted into the message context by the XML disassembler to provide easier access from a variety of BizTalk Server components. For outbound XML instance messages, the XML assembler can demote values from the message context into an envelope for inclusion in the instance message transmission.  
+- XML envelopes can contain data that supplements the data within the XML documents. This data can be promoted into the message context by the XML disassembler to provide easier access from a variety of BizTalk Server components. For outbound XML instance messages, the XML assembler can demote values from the message context into an envelope for inclusion in the instance message transmission.  
   
--   XML envelopes can be used to combine multiple XML documents into a single, valid XML instance message. Without an envelope to wrap multiple documents within a single root tag, an XML instance message containing multiple documents would not qualify as well-formed XML.  
+- XML envelopes can be used to combine multiple XML documents into a single, valid XML instance message. Without an envelope to wrap multiple documents within a single root tag, an XML instance message containing multiple documents would not qualify as well-formed XML.  
   
- A typical XML envelope (shown in bold type) contains both data and a tag used to delimit the one or more XML documents (shown in regular font) that it contains.  
+  A typical XML envelope (shown in bold type) contains both data and a tag used to delimit the one or more XML documents (shown in regular font) that it contains.  
   
 ```  
   

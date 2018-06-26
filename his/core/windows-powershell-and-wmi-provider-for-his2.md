@@ -46,19 +46,19 @@ Windows PowerShell is a task-based command-line shell and scripting language tha
   
  To start Windows PowerShell Integrated Scripting Environment (ISE), with the Import System Modules task, use the following procedure:  
   
--   In Windows Vista, Windows Server 2008, and later versions of Windows, from the **Start** menu, click **Start**, click **All Programs**, click **Accessories**, click the **Windows PowerShell** folder, and then click the **Windows PowerShell ISE** item.  
+- In Windows Vista, Windows Server 2008, and later versions of Windows, from the **Start** menu, click **Start**, click **All Programs**, click **Accessories**, click the **Windows PowerShell** folder, and then click the **Windows PowerShell ISE** item.  
   
- **To open and run sample scripts**  
+  **To open and run sample scripts**  
   
- To open and run an existing Host Integration Server sample script, use the following procedures:  
+  To open and run an existing Host Integration Server sample script, use the following procedures:  
   
--   On the toolbar, click **Open…**, or on the **File** menu, click **Open**.  
+- On the toolbar, click **Open…**, or on the **File** menu, click **Open**.  
   
--   In the **Open** dialog box, select the file that you want to open. The opened file appears in a new tab.  
+- In the **Open** dialog box, select the file that you want to open. The opened file appears in a new tab.  
   
--   On the toolbar, click **Run Script**, or on the **File** menu, click **Run**.  
+- On the toolbar, click **Run Script**, or on the **File** menu, click **Run**.  
   
- The **Output Pane** displays the results of the commands and scripts that you have run.  
+  The **Output Pane** displays the results of the commands and scripts that you have run.  
   
 > [!NOTE]
 >  You may need to enable scripting on your computer. For information about PowerShell security, see Examining the Execution Policy at http://msdn.microsoft.com/library/bb648601(VS.85).aspx.  

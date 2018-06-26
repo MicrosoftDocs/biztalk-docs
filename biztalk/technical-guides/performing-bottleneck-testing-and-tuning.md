@@ -19,11 +19,11 @@ You should complete performance testing to determine bottlenecks in the system a
 ## Testing a Subsystem  
  A best practice for identifying system bottlenecks is to run performance tests on subsets of the entire system, for example:  
   
--   Establish baseline performance parameters for external systems that send messages to or receive message from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
+- Establish baseline performance parameters for external systems that send messages to or receive message from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
--   Enlist orchestrations, but do not start them. Drop messages into the inbound queues/file locations and let the inbound receive adapters drain the queue/file locations and publish messages into the MessageBox database. This allows you to isolate your receive ports to determine their maximum sustained input rate.  
+- Enlist orchestrations, but do not start them. Drop messages into the inbound queues/file locations and let the inbound receive adapters drain the queue/file locations and publish messages into the MessageBox database. This allows you to isolate your receive ports to determine their maximum sustained input rate.  
   
--   Once the messages are pulled into the MessageBox database, stop the receive adapters, enable the orchestration processes and/or send adapters, and then measure the rate at which orchestrations and/or send adapters are processing messages.  
+- Once the messages are pulled into the MessageBox database, stop the receive adapters, enable the orchestration processes and/or send adapters, and then measure the rate at which orchestrations and/or send adapters are processing messages.  
   
 ## Testing the End-to-End System  
  Testing of input and output rates as described in preceding section is an effective way to isolate performance of the application subsystem, although it does not describe end-to-end performance. You should also test end-to-end performance because some bottlenecks cannot be identified until multiple resources begin to contend for the same shared resource (for example, the MessageBox database).  

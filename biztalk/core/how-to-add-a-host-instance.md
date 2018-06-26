@@ -47,23 +47,23 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
   
 ## Steps
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, and then click **Platform Settings**.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, and then click **Platform Settings**.  
   
-3.  Right-click **Host Instances**, click **New**, and then click **Host Instance**.  
+3. Right-click **Host Instances**, click **New**, and then click **Host Instance**.  
   
-4.  In the **Host Instance Properties** dialog box, do the following, and then click **OK**:  
+4. In the **Host Instance Properties** dialog box, do the following, and then click **OK**:  
   
-    |Use this|To do this|  
-    |--------------|----------------|  
-    |**Host name**|Displays the name of the host associated with the selected server.|  
-    |**Server**|Displays the server associated with the selected host.|  
-    |**Logon**|Displays the account name of the new service account under which the host instance will run.|  
-    |**Configure**|Click to display the **Logon Credentials** dialog box, where you can enter the account name and password of the account under which the host instance will run.|  
-    |**Disable host instance from starting**|Select this check box to change the status of the selected host from enabled to disabled. Disabling a host instance is useful if you do not want the host instance to start, but you do want to preserve its settings.|  
+   |Use this|To do this|  
+   |--------------|----------------|  
+   |**Host name**|Displays the name of the host associated with the selected server.|  
+   |**Server**|Displays the server associated with the selected host.|  
+   |**Logon**|Displays the account name of the new service account under which the host instance will run.|  
+   |**Configure**|Click to display the **Logon Credentials** dialog box, where you can enter the account name and password of the account under which the host instance will run.|  
+   |**Disable host instance from starting**|Select this check box to change the status of the selected host from enabled to disabled. Disabling a host instance is useful if you do not want the host instance to start, but you do want to preserve its settings.|  
   
- After you install a host instance, you must start it so that it can route messages to the MessageBox databases. For information about starting a host instance, see [How to Start a Host Instance](../core/how-to-start-a-host-instance.md).  
+   After you install a host instance, you must start it so that it can route messages to the MessageBox databases. For information about starting a host instance, see [How to Start a Host Instance](../core/how-to-start-a-host-instance.md).  
   
 ## Known Issues  
   

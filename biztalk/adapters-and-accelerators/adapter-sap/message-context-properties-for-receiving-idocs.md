@@ -21,83 +21,83 @@ For receiving an IDOC using Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../..
   
  **IDOC Control Record properties.**  
   
--   **TABNAM** - Name of table structure  
+- **TABNAM** - Name of table structure  
   
--   **MANDT** - Client  
+- **MANDT** - Client  
   
--   **DOCNUM** - IDOC number  
+- **DOCNUM** - IDOC number  
   
--   **DOCREL** - SAP Release for IDOC  
+- **DOCREL** - SAP Release for IDOC  
   
--   **STATUS** - Status of IDOC  
+- **STATUS** - Status of IDOC  
   
--   **DIRECT** - Direction  
+- **DIRECT** - Direction  
   
--   **OUTMOD** - Output mode  
+- **OUTMOD** - Output mode  
   
--   **EXPRSS** - Overriding in inbound processing  
+- **EXPRSS** - Overriding in inbound processing  
   
--   **TEST** - Test flag  
+- **TEST** - Test flag  
   
--   **IDOCTYP** - Name of basic type  
+- **IDOCTYP** - Name of basic type  
   
--   **CIMTYP** - Extension (defined by customer)  
+- **CIMTYP** - Extension (defined by customer)  
   
--   **MESTYP** - Message type  
+- **MESTYP** - Message type  
   
--   **MESCOD** - Message code  
+- **MESCOD** - Message code  
   
--   **MESFCT** - Message function  
+- **MESFCT** - Message function  
   
--   **STD** - EDI standard, flag  
+- **STD** - EDI standard, flag  
   
--   **STDVRS** - EDI standard, version and release  
+- **STDVRS** - EDI standard, version and release  
   
--   **STDMES** - EDI message type  
+- **STDMES** - EDI message type  
   
--   **SNDPOR** - Sender port (SAP System, external subsystem)  
+- **SNDPOR** - Sender port (SAP System, external subsystem)  
   
--   **SNDPRT** - Partner type of sender  
+- **SNDPRT** - Partner type of sender  
   
--   **SNDPFC** - Partner Function of Sender  
+- **SNDPFC** - Partner Function of Sender  
   
--   **SNDPRN** - Partner Number of Sender  
+- **SNDPRN** - Partner Number of Sender  
   
--   **SNDSAD** - Sender address (SADR)  
+- **SNDSAD** - Sender address (SADR)  
   
--   **SNDLAD** - Logical address of sender  
+- **SNDLAD** - Logical address of sender  
   
--   **RCVPOR** - Receiver port  
+- **RCVPOR** - Receiver port  
   
--   **RCVPRT** - Partner Type of receiver  
+- **RCVPRT** - Partner Type of receiver  
   
--   **RCVPFC** - Partner function of recipient  
+- **RCVPFC** - Partner function of recipient  
   
--   **RCVPRN** - Partner number of recipient  
+- **RCVPRN** - Partner number of recipient  
   
--   **RCVSAD** - Recipient address (SADR)  
+- **RCVSAD** - Recipient address (SADR)  
   
--   **RCVLAD** - Logical address of recipient  
+- **RCVLAD** - Logical address of recipient  
   
--   **CREDAT** - Created on  
+- **CREDAT** - Created on  
   
--   **CRETIM** - Time Created  
+- **CRETIM** - Time Created  
   
--   **REFINT** - Transmission file (EDI Interchange)  
+- **REFINT** - Transmission file (EDI Interchange)  
   
--   **REFGRP** - Message group (EDI Message Group)  
+- **REFGRP** - Message group (EDI Message Group)  
   
--   **REFMES** - Message (EDI Message)  
+- **REFMES** - Message (EDI Message)  
   
--   **ARCKEY** - Key for external message archive  
+- **ARCKEY** - Key for external message archive  
   
--   **SERIAL** - Serialization  
+- **SERIAL** - Serialization  
   
--   **DOCTYP** - IDOC type (This is available in EDI_DC only. Should be present in the context property but should be promoted for Version 2 IDOCs only)  
+- **DOCTYP** - IDOC type (This is available in EDI_DC only. Should be present in the context property but should be promoted for Version 2 IDOCs only)  
   
- **TID** – Represents the TID sent by the SAP system for the incoming TRFC call.  
+  **TID** – Represents the TID sent by the SAP system for the incoming TRFC call.  
   
- **GUID** – Represents the GUID which the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses internally. This has a one-to-one mapping with the TID which was received from the SAP system.  
+  **GUID** – Represents the GUID which the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] uses internally. This has a one-to-one mapping with the TID which was received from the SAP system.  
   
 ## See Also  
  [Messages and Message Schemas for BizTalk Adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md)

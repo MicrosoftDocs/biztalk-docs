@@ -22,17 +22,17 @@ TI provides a Meta data mechanism for returning exceptions from Automation serve
   
  A TP can also use this mechanism to provide information regarding the TP state to the TI run-time environment. Specifically, a TP can indicate whether the TP:  
   
--   Is willing to commit the work performed so far (and deallocate the conversation).  
+- Is willing to commit the work performed so far (and deallocate the conversation).  
   
--   Can perform no more work on the current conversation and expects the client to prepare and commit.  
+- Can perform no more work on the current conversation and expects the client to prepare and commit.  
   
--   Has encountered an error that will prevent it from committing the transaction.  
+- Has encountered an error that will prevent it from committing the transaction.  
   
- While it is always possible for a TP to deallocate the conversation abruptly, TI exceptions allow it to return detailed information about the error to the calling client application.  
+  While it is always possible for a TP to deallocate the conversation abruptly, TI exceptions allow it to return detailed information about the error to the calling client application.  
   
- TI uses the information contained in the exception block to update state information in the TI run-time environment and (if requested) return an exception to the client application.  
+  TI uses the information contained in the exception block to update state information in the TI run-time environment and (if requested) return an exception to the client application.  
   
- The following table shows the fields in the EXCEPINFO exception structure.  
+  The following table shows the fields in the EXCEPINFO exception structure.  
   
 |Field|Description|  
 |-----------|-----------------|  

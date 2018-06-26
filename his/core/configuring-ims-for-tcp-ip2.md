@@ -38,15 +38,15 @@ This section describes the necessary steps in configuring IMS for TCP/IP. It may
 ## IMS-to-TCP/IP Configuration  
  You can start an IMS Message Processing Program by specifying the program name of the IBM-supplied Listener program (EZAIMSLN). The Listener reads a configuration file identified by the DD statement **LSTNCFG**. This configuration data set contains one or more of the following startup parameter statements (one set for each transaction defined for at least one Command Region):  
   
--   `TCPIP` statement.  Identifies the job name for the TCP/IP address space that manages the connection for the Listener  
+- `TCPIP` statement.  Identifies the job name for the TCP/IP address space that manages the connection for the Listener  
   
--   `LISTENER` statement.  Specifies the port number that the Listener will use. This statement also specifies other port-related parameters, such as backlog, time-out values, and so on.  
+- `LISTENER` statement.  Specifies the port number that the Listener will use. This statement also specifies other port-related parameters, such as backlog, time-out values, and so on.  
   
--   `TRANSACTION` statement.  Defines a list of transactions that the Listener can start. It also defines whether the Implicit or Explicit connection mode is used.  
+- `TRANSACTION` statement.  Defines a list of transactions that the Listener can start. It also defines whether the Implicit or Explicit connection mode is used.  
   
- The Listener uses the three previously listed parameter statements to inform TCP/IP which port to use and which transactions can be accessed through TCP/IP.  
+  The Listener uses the three previously listed parameter statements to inform TCP/IP which port to use and which transactions can be accessed through TCP/IP.  
   
- The following is a sample of an IMS-to-TCP/IP host definition:  
+  The following is a sample of an IMS-to-TCP/IP host definition:  
   
 ```  
 TCPIP ADDRSPC=WNWTCP31  

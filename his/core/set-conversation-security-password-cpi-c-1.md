@@ -37,21 +37,21 @@ CM_ENTRY Set_Conversation_Security_Password( 
   
  The allowed characters are:  
   
--   Uppercase and lowercase letters.  
+- Uppercase and lowercase letters.  
   
--   Numerals from 0 through 9.  
+- Numerals from 0 through 9.  
   
--   Special characters, except the space.  
+- Special characters, except the space.  
   
- If the CPI-C automatic logon feature is to be used, this parameter must be set to the MS$SAME string. For details, see the Remarks section later in this topic.  
+  If the CPI-C automatic logon feature is to be used, this parameter must be set to the MS$SAME string. For details, see the Remarks section later in this topic.  
   
- *security_password_length*  
- Supplied parameter. Specifies the length of *security_password*. The range is from 0 through 8.  
+  *security_password_length*  
+  Supplied parameter. Specifies the length of *security_password*. The range is from 0 through 8.  
   
- If the CPI-C automatic logon feature is to be used, this parameter must be set to 7. For details, see the Remarks section later in this topic.  
+  If the CPI-C automatic logon feature is to be used, this parameter must be set to 7. For details, see the Remarks section later in this topic.  
   
- *return_code*  
- The code returned from this call. The valid return codes are listed later in this topic.  
+  *return_code*  
+  The code returned from this call. The valid return codes are listed later in this topic.  
   
 ## Return Codes  
  CM_OK  
@@ -60,16 +60,16 @@ CM_ENTRY Set_Conversation_Security_Password( 
  CM_PROGRAM_PARAMETER_CHECK  
  Primary return code; one of the following occurred:  
   
--   The value specified by *conversation_ID* is invalid.  
+- The value specified by *conversation_ID* is invalid.  
   
--   The value specified by *security_password_length* is out of range.  
+- The value specified by *security_password_length* is out of range.  
   
- CM_PROGRAM_STATE_CHECK  
- Primary return code; one of the following occurred:  
+  CM_PROGRAM_STATE_CHECK  
+  Primary return code; one of the following occurred:  
   
--   The conversation is not in INITIALIZE state.  
+- The conversation is not in INITIALIZE state.  
   
--   The conversations security type is not set to CM_SECURITY_PROGRAM.  
+- The conversations security type is not set to CM_SECURITY_PROGRAM.  
   
 ## State Changes  
  The conversation must be in INITIALIZE state.  

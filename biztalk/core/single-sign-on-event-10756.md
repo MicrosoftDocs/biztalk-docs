@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10756
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10756|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NO_APP|  
-|Message Text|The application does not exist.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10756                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |                      ENTSSO_E_NO_APP                       |
+|  Message Text   |              The application does not exist.               |
   
 ## Explanation  
  Either the application name was given incorrectly, or the application has been deleted.  

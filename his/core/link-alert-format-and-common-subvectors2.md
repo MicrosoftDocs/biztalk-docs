@@ -95,20 +95,20 @@ LL LL     Length of Major Vector
   
 ### Product set ID subvector  
   
-|Format and contents|Description|  
-|-------------------------|-----------------|  
-|2A 10|Product Set ID subvector|  
-|00|(unused field)|  
-|27 11|Product ID subvector|  
-|0C|Product classification: non-IBM software|  
-|08 04|Software product common level subfield|  
-|F0 F2|Version identifier: 02|  
-|F0 F0|Release identifier: 00|  
-|F0 F0|Modification identifier: 00|  
-|13 06|Software product common name subfield|  
-|C4 C3 C1 61 D4 E2 40 C3 D6 D4 D4 40 E2 C5 D9 E5 D9|Product name: Microsoft [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]|  
-|09 08|Software product program number subfield|  
-|F0 F0 F0 F0 F0 F0 F0|Product program number: zeros|  
+|                Format and contents                 |                                              Description                                               |
+|----------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+|                       2A 10                        |                                        Product Set ID subvector                                        |
+|                         00                         |                                             (unused field)                                             |
+|                       27 11                        |                                          Product ID subvector                                          |
+|                         0C                         |                                Product classification: non-IBM software                                |
+|                       08 04                        |                                 Software product common level subfield                                 |
+|                       F0 F2                        |                                         Version identifier: 02                                         |
+|                       F0 F0                        |                                         Release identifier: 00                                         |
+|                       F0 F0                        |                                      Modification identifier: 00                                       |
+|                       13 06                        |                                 Software product common name subfield                                  |
+| C4 C3 C1 61 D4 E2 40 C3 D6 D4 D4 40 E2 C5 D9 E5 D9 | Product name: Microsoft [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] |
+|                       09 08                        |                                Software product program number subfield                                |
+|                F0 F0 F0 F0 F0 F0 F0                |                                     Product program number: zeros                                      |
   
 ### LAN link connection subsystem data subvector*  
   

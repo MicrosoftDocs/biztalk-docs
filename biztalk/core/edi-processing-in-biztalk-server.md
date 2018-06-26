@@ -27,35 +27,35 @@ This topic provides an overview of receive-side and send-side processing of EDI 
 ## EDI Receive-Side Processing  
  When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an EDI message, it processes the message in the EDI receive pipeline. The receive pipeline performs the following basic processing:  
   
--   Trading partner agreement lookup and schema determination.  
+- Trading partner agreement lookup and schema determination.  
   
-    > [!NOTE]
-    >  In the previous versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], a party definition also included the agreement definition. So, when the receive pipeline looked up the party properties, it would internally look for the agreement definition within the party definition and then process the messages accordingly. With BizTalk Server, because the party (or trading partner) is distinct from the trading partner agreement, the receive pipeline looks for the trading partner agreement specifically.  
+  > [!NOTE]
+  >  In the previous versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], a party definition also included the agreement definition. So, when the receive pipeline looked up the party properties, it would internally look for the agreement definition within the party definition and then process the messages accordingly. With BizTalk Server, because the party (or trading partner) is distinct from the trading partner agreement, the receive pipeline looks for the trading partner agreement specifically.  
+  > 
+  > [!NOTE]
+  >  If all the agreements that a message resolves to are disabled, the message will be suspended. A warning is also logged in the Event log.  
   
-    > [!NOTE]
-    >  If all the agreements that a message resolves to are disabled, the message will be suspended. A warning is also logged in the Event log.  
+- If a single EDI message contains multiple interchanges, splits the interchanges and processes each interchange separately (if enabled). For more information, see [Enabling the Receiving of Multiple Interchanges in a Single Message](../core/enabling-the-receiving-of-multiple-interchanges-in-a-single-message.md).  
   
--   If a single EDI message contains multiple interchanges, splits the interchanges and processes each interchange separately (if enabled). For more information, see [Enabling the Receiving of Multiple Interchanges in a Single Message](../core/enabling-the-receiving-of-multiple-interchanges-in-a-single-message.md).  
+- Parses each EDI interchange, converting the X12- or EDIFACT-encoded data into an XML document.  
   
--   Parses each EDI interchange, converting the X12- or EDIFACT-encoded data into an XML document.  
+- Validates the envelope and its message according to the EDI standards, the partner agreement, and the message schemas.  
   
--   Validates the envelope and its message according to the EDI standards, the partner agreement, and the message schemas.  
+- If the interchange is batched, either splits the batched interchange, creating an XML file for each transaction set and promoting properties required for batch processing, or preserves the interchange.  
   
--   If the interchange is batched, either splits the batched interchange, creating an XML file for each transaction set and promoting properties required for batch processing, or preserves the interchange.  
+- Generates an acknowledgment.  
   
--   Generates an acknowledgment.  
+- Converts the EDI envelope into context properties, and promotes other properties for EDI processing.  
   
--   Converts the EDI envelope into context properties, and promotes other properties for EDI processing.  
+- Promotes properties that control batch processing. This can include sending debatched transaction sets to multiple parties.  
   
--   Promotes properties that control batch processing. This can include sending debatched transaction sets to multiple parties.  
+  Following are some considerations that you must make while using EDI receive-side processing:  
   
- Following are some considerations that you must make while using EDI receive-side processing:  
+- The receive location can use any type of transport type.  
   
--   The receive location can use any type of transport type.  
+- For more information about EDI receive-side processing, see [How BizTalk Server Receives EDI Messages](../core/how-biztalk-server-receives-edi-messages.md).  
   
--   For more information about EDI receive-side processing, see [How BizTalk Server Receives EDI Messages](../core/how-biztalk-server-receives-edi-messages.md).  
-  
--   For more information about the specific processing performed by the EDI Disassembler in the receive pipeline, see [How the EDI Disassembler Works](../core/how-the-edi-disassembler-works.md).  
+- For more information about the specific processing performed by the EDI Disassembler in the receive pipeline, see [How the EDI Disassembler Works](../core/how-the-edi-disassembler-works.md).  
   
 ## EDI Batch Processing  
  If the incoming message is a batch, the EDI receive pipeline will either split the batched interchange into its constituent transaction sets, or preserve the batched interchange, depending on the configuration. The EDIReceive pipeline uses the BatchMarker pipeline component to route any interchanges that are to be batched to the batching orchestration or the routing orchestration.  
@@ -69,33 +69,33 @@ This topic provides an overview of receive-side and send-side processing of EDI 
 ## EDI Send-Side Processing  
  When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generates and sends an outgoing EDI message, it processes the message in the EDI send pipeline. The send pipeline performs the following processing:  
   
--   Trading partner agreement lookup and schema determination.  
+- Trading partner agreement lookup and schema determination.  
   
-    > [!NOTE]
-    >  In the previous versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], a party definition also included the agreement definition. So, when the send pipeline looked up the party properties, it would internally look for the agreement definition within the party definition and then process the messages accordingly. With BizTalk Server, because the party (or trading partner) is distinct from the trading partner agreement, the send pipeline looks for the trading partner agreement specifically.  
+  > [!NOTE]
+  >  In the previous versions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], a party definition also included the agreement definition. So, when the send pipeline looked up the party properties, it would internally look for the agreement definition within the party definition and then process the messages accordingly. With BizTalk Server, because the party (or trading partner) is distinct from the trading partner agreement, the send pipeline looks for the trading partner agreement specifically.  
+  > 
+  > [!NOTE]
+  >  If all the agreements that a message resolves to are disabled, the message will be suspended.  A warning is also logged in the Event log.  
   
-    > [!NOTE]
-    >  If all the agreements that a message resolves to are disabled, the message will be suspended.  A warning is also logged in the Event log.  
+- Serializes the EDI message, converting the XML document into X12- or EDIFACT-encoded data.  
   
--   Serializes the EDI message, converting the XML document into X12- or EDIFACT-encoded data.  
+- If the message data contains characters that are also used as X12 separators, the send pipeline can be configured to replace the characters in the payload with another character.  
   
--   If the message data contains characters that are also used as X12 separators, the send pipeline can be configured to replace the characters in the payload with another character.  
+- If the EDI message is a batched interchange, the send pipeline picks up the interchange from the BizTalk MessageBox after the batching orchestration has built the batch.  
   
--   If the EDI message is a batched interchange, the send pipeline picks up the interchange from the BizTalk MessageBox after the batching orchestration has built the batch.  
+- Validates the outgoing message.  
   
--   Validates the outgoing message.  
+- Creates the EDI envelope according to the party properties or EDI envelope properties specified at runtime.  
   
--   Creates the EDI envelope according to the party properties or EDI envelope properties specified at runtime.  
+- Processes acknowledgments received.  
   
--   Processes acknowledgments received.  
+  Following are some considerations that you must make while using EDI send-side processing:  
   
- Following are some considerations that you must make while using EDI send-side processing:  
+- The send port can use any type of transport.  
   
--   The send port can use any type of transport.  
+- For more information about EDI send-side processing, see [How BizTalk Server Sends EDI Messages](../core/how-biztalk-server-sends-edi-messages.md).  
   
--   For more information about EDI send-side processing, see [How BizTalk Server Sends EDI Messages](../core/how-biztalk-server-sends-edi-messages.md).  
-  
--   For more information about the specific processing performed in the send pipeline, see [How the EDI Assembler Works](../core/how-the-edi-assembler-works.md).  
+- For more information about the specific processing performed in the send pipeline, see [How the EDI Assembler Works](../core/how-the-edi-assembler-works.md).  
   
 ## See Also  
  [EDI Support in BizTalk Server](../core/edi-support-in-biztalk-server1.md)   

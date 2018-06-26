@@ -20,14 +20,14 @@ Servers used primarily for communications need to provide fast network performan
   
 ### To view or change network communication options for a Windows Server  
   
-1.  Click **Start**, point to **Settings**, click **Control Panel**, and then double-click **Network and Dial-up Connections**.  
+1. Click **Start**, point to **Settings**, click **Control Panel**, and then double-click **Network and Dial-up Connections**.  
   
-2.  Double-click **Local Area Connection** and click **Properties**.  
+2. Double-click **Local Area Connection** and click **Properties**.  
   
-3.  Click **File and Printer Sharing for Microsoft Network**, and click **Properties**.  
+3. Click **File and Printer Sharing for Microsoft Network**, and click **Properties**.  
   
-4.  For a server dedicated to communications, select **Maximize data throughput for network applications**.  
+4. For a server dedicated to communications, select **Maximize data throughput for network applications**.  
   
-5.  Click **OK**, and then click **OK** again. Click **Close**.  
+5. Click **OK**, and then click **OK** again. Click **Close**.  
   
- If you made a change, the **Network Settings Change** message box appears. To put the changes into effect right away, restart the computer. To put the changes into effect later (at next startup), do not restart the computer now.
+   If you made a change, the **Network Settings Change** message box appears. To put the changes into effect right away, restart the computer. To put the changes into effect later (at next startup), do not restart the computer now.

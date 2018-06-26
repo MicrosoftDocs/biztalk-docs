@@ -21,35 +21,35 @@ The Operational Readiness checklists contain recommendations that you should con
 ## Typical Prerequisite Software  
  Prerequisite software for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application platform typically includes the following products:  
   
--   The Windows operating system  
+- The Windows operating system  
   
--   SQL Server 
+- SQL Server 
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Visual Studio (for development purposes, not at run time)  
+- Visual Studio (for development purposes, not at run time)  
   
 ## Additional Components  
  The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application platform may also require several of the following software components:  
   
--   Internet Information Services (IIS)  
+- Internet Information Services (IIS)  
   
--   SharePoint
+- SharePoint
   
--   Microsoft Office Excel 
+- Microsoft Office Excel 
   
-    > [!NOTE]  
-    >  BizTalk Server supports only the 32-bit version of Microsoft Office.  
+  > [!NOTE]  
+  >  BizTalk Server supports only the 32-bit version of Microsoft Office.  
   
--   SQL Server
+- SQL Server
   
--   SQLXML 
+- SQLXML 
   
--   .NET Framework 
+- .NET Framework 
   
--   Non-Microsoft components to enable functionality for certain [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapters.  
+- Non-Microsoft components to enable functionality for certain [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapters.  
   
- For more information about the dependency software that is required for specific features of the BizTalk application platform for various Windows operating system versions, see [What's New, Installation, Configuration, and Upgrade](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
+  For more information about the dependency software that is required for specific features of the BizTalk application platform for various Windows operating system versions, see [What's New, Installation, Configuration, and Upgrade](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
 - 
   
 ## Next steps

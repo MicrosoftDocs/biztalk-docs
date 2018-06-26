@@ -22,27 +22,27 @@ This topic contains information to help you identify and resolve issues that can
   
  When using Internet Explorer, you may encounter the error message **Server Error in '/BAM' Application** under the following circumstances:  
   
--   While clicking a related activity that points to a non-existing activity instance.  
+- While clicking a related activity that points to a non-existing activity instance.  
   
--   While clicking the **Save Alert** button in the following scenario:  
+- While clicking the **Save Alert** button in the following scenario:  
   
-    -   You create a query on the **ActivitySearch** page and then click **Set Alert**.  
+  -   You create a query on the **ActivitySearch** page and then click **Set Alert**.  
   
-    -   You complete the alert fields and then click **Save Alert**.  
+  -   You complete the alert fields and then click **Save Alert**.  
   
-    -   You click the back button.  
+  -   You click the back button.  
   
-    -   You click the **Save Alert** button again.  
+  -   You click the **Save Alert** button again.  
   
- **Cause**  
+  **Cause**  
   
- When running Internet Explorer with the security level set to low, Web requests are executed with low privileges. To fulfill the Windows integrated security challenge, Internet Explorer passes a user token with low privileges.  
+  When running Internet Explorer with the security level set to low, Web requests are executed with low privileges. To fulfill the Windows integrated security challenge, Internet Explorer passes a user token with low privileges.  
   
- If you are using Internet Explorer on the same computer as the one on which the BAM portal is installed, and you set the security level in Internet Explorer to low, the portal impersonates the user with the low privileges token. This token does not have the permissions to write to the event log. If the portal encounters an error, it attempts to log it to the event log and will fail since the reduced privileges of the user token are not sufficient to access the event log.  
+  If you are using Internet Explorer on the same computer as the one on which the BAM portal is installed, and you set the security level in Internet Explorer to low, the portal impersonates the user with the low privileges token. This token does not have the permissions to write to the event log. If the portal encounters an error, it attempts to log it to the event log and will fail since the reduced privileges of the user token are not sufficient to access the event log.  
   
- **Resolution**  
+  **Resolution**  
   
- If you need to browse from the local computer, you should add http://localhost to the list of trusted sites.  
+  If you need to browse from the local computer, you should add http://localhost to the list of trusted sites.  
   
 #### Add localhost to the list of trusted sites  
   

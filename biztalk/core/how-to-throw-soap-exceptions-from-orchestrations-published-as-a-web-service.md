@@ -23,16 +23,16 @@ You can return a SOAP exception from an orchestration that you have published as
   
 ### To throw a SOAP exception from an orchestration published as a Web service  
   
-1.  Add a fault message to the SOAP port type. The message type for the fault message can be any XML Schema (XSD) compliant schema or simple type.  
+1. Add a fault message to the SOAP port type. The message type for the fault message can be any XML Schema (XSD) compliant schema or simple type.  
   
-    > [!NOTE]
-    >  To return a string as a **SoapException** with error information, you can use the simple type string as the fault message type.  
+   > [!NOTE]
+   >  To return a string as a **SoapException** with error information, you can use the simple type string as the fault message type.  
   
-2.  In your orchestration, create the fault message.  
+2. In your orchestration, create the fault message.  
   
-3.  Use the **Send** shape to link to the fault operation in the SOAP port that corresponds to the fault message. A SOAP exception wraps the returned fault message.  
+3. Use the **Send** shape to link to the fault operation in the SOAP port that corresponds to the fault message. A SOAP exception wraps the returned fault message.  
   
- If your orchestration does not return an error, use a different **Send** shape to send the standard SOAP response message using the usual response operation.  
+   If your orchestration does not return an error, use a different **Send** shape to send the standard SOAP response message using the usual response operation.  
   
 ## See Also  
  [Fault Messages](../core/fault-messages.md)   

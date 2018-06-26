@@ -23,9 +23,9 @@ This topic describes how to import the configuration of an EDI and/or AS2 soluti
   
 ## Prerequisites  
   
--   You must be logged on with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. For more information, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+- You must be logged on with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. For more information, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
--   You must have added a reference to the **BizTalk EDI Application** from a BizTalk application that will be used as an EDI application. For instructions on adding a reference to the BizTalk EDI application, see [How to Add a Reference to the BizTalk Server EDI Application](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
+- You must have added a reference to the **BizTalk EDI Application** from a BizTalk application that will be used as an EDI application. For instructions on adding a reference to the BizTalk EDI application, see [How to Add a Reference to the BizTalk Server EDI Application](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
   
 ## Importing Bindings  
  When you import a configuration, existing EDI Properties will be overwritten. If you are importing properties for a party that has the same name as an existing party, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will override the EDI properties (or any bindings) for the existing party. In addition, if you are importing EDI global properties, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will overwrite existing EDI global properties.  
@@ -39,13 +39,13 @@ This topic describes how to import the configuration of an EDI and/or AS2 soluti
   
 ### To import the configuration from a binding file  
   
-1.  On the computer that you want to import the configuration to, open the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.  
+1. On the computer that you want to import the configuration to, open the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.  
   
-2.  Right-click the BizTalk Application that you want to import the EDI/AS2 configuration into, point to **Import**, and then click **Bindings**.  
+2. Right-click the BizTalk Application that you want to import the EDI/AS2 configuration into, point to **Import**, and then click **Bindings**.  
   
-3.  In the Import Bindings dialog box, move to the location that contains your binding file, and then click **Open**.  
+3. In the Import Bindings dialog box, move to the location that contains your binding file, and then click **Open**.  
   
-4.  After importing the bindings, open the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console. Manually set all the EDI password fields to the appropriate values.  
+4. After importing the bindings, open the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console. Manually set all the EDI password fields to the appropriate values.  
   
 ##  <a name="BKMK_Party"></a> How do Party Definitions in Previous BizTalk Server Versions Translate into the new TPM Entities?  
  In BizTalk Server, a party definition is essentially an agreement that defines how messages are exchanged between two trading partners. In BizTalk Server, EDI and AS2 messaging has undergone a lot of change and the new Trading Partner Management (TPM) model now requires agreements to be created between two trading business profiles. So, essentially, for an agreement to exist, you first need to have defined the two trading partners, profiles for both the trading partners, and the protocol settings for both the trading business profiles. Once you have defined these entities, you can create a trading partner agreement.  

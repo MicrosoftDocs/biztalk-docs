@@ -28,15 +28,15 @@ The FRR NAK Handler sample demonstrates how to create a custom handler to proces
   
  The FRR NAK Handler sample includes the following components:  
   
--   **RepairSWIFTRejectedMessage.odx.** This orchestration is the custom handler that processes a message that SWIFT could not successfully receive, routing it to the message-repair orchestration so a repairer can fix and resend the message.  
+- **RepairSWIFTRejectedMessage.odx.** This orchestration is the custom handler that processes a message that SWIFT could not successfully receive, routing it to the message-repair orchestration so a repairer can fix and resend the message.  
   
--   **RepairSWIFTRejectedMessage.btproj.** This project includes RepairSWIFTRejectedMessage.odx and the references required for the project to build and deploy.  
+- **RepairSWIFTRejectedMessage.btproj.** This project includes RepairSWIFTRejectedMessage.odx and the references required for the project to build and deploy.  
   
--   **RepairSWIFTRejectedMessage.sln.** This solution includes the RepairSWIFTRejectedMessage.btproj project.  
+- **RepairSWIFTRejectedMessage.sln.** This solution includes the RepairSWIFTRejectedMessage.btproj project.  
   
- This section contains:  
+  This section contains:  
   
--   [Implementing the FRR NAK Handler Sample](../../adapters-and-accelerators/accelerator-swift/implementing-the-frr-nak-handler-sample.md)  
+- [Implementing the FRR NAK Handler Sample](../../adapters-and-accelerators/accelerator-swift/implementing-the-frr-nak-handler-sample.md)  
   
--   [How the FRR NAK Handler Sample Works](../../adapters-and-accelerators/accelerator-swift/how-the-frr-nak-handler-sample-works.md)  
+- [How the FRR NAK Handler Sample Works](../../adapters-and-accelerators/accelerator-swift/how-the-frr-nak-handler-sample-works.md)  
   

@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How BTAHL7 Routes Messages
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) leverages the message processing capabilities of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], but also extends it in several ways that are specific to HL7 messaging requirements.  
+Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) leverages the message processing capabilities of Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], but also extends it in several ways that are specific to HL7 messaging requirements.  
 
 ## Routing overview
 

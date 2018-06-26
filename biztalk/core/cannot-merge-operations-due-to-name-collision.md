@@ -17,15 +17,15 @@ manager: "anneta"
 # Cannot merge operations due to name collision
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Cannot merge operation "{0}" due to name collision. All operations in a web service must have unique names.|  
+|                 |                                                                                                             |
+|-----------------|-------------------------------------------------------------------------------------------------------------|
+|  Product Name   |             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]              |
+| Product Version |                         [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                          |
+|    Event ID     |                                                      0                                                      |
+|  Event Source   |                                                      0                                                      |
+|    Component    |                                                      0                                                      |
+|  Symbolic Name  |                                                      0                                                      |
+|  Message Text   | Cannot merge operation "{0}" due to name collision. All operations in a web service must have unique names. |
   
 ## Explanation  
  This error indicates the port name or the operation name of two different ports that are being merged have the same name.  

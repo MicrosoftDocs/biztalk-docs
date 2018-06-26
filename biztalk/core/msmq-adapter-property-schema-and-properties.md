@@ -83,7 +83,7 @@ The MSMQ adapter assigns values to context properties that you use in your appli
   
 > [!NOTE]
 >  The **Acknowledgement**, **AcknowledgeType**, **EncryptionAlgorithm**, and **MessageType** properties use the integer-equivalent values of the enumerations in the **System.Messaging** namespace. For more information about these values, see "System.Messaging Namespace" in .NET Framework Class Library Help.  
-  
+> 
 > [!NOTE]
 >  If you need to develop a BizTalk project that will make use of the MSMQ adapter context properties, the BizTalk project must contain a reference to the file **Microsoft.BizTalk.Adapter.MSMQ.MsmqAdapterProperties.dll** located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation directory.  
   

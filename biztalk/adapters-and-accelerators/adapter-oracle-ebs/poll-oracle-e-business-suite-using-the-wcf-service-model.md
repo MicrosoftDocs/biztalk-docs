@@ -17,13 +17,13 @@ manager: "anneta"
 # Poll Oracle E-Business Suite using the WCF service model
 You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive polling-based messages from the Oracle database. The adapter provides two ways of polling the Oracle database:  
   
--   **Using SELECT statements**. You can specify a simple SELECT statement to poll the Oracle database. The adapter executes the SELECT statement at specified intervals and returns the result to the adapter clients.  
+- **Using SELECT statements**. You can specify a simple SELECT statement to poll the Oracle database. The adapter executes the SELECT statement at specified intervals and returns the result to the adapter clients.  
   
--   **Using stored procedures**. You can specify a stored procedure to poll the Oracle database. The adapter executes the stored procedure at specified intervals and returns the result to the adapter clients.  
+- **Using stored procedures**. You can specify a stored procedure to poll the Oracle database. The adapter executes the stored procedure at specified intervals and returns the result to the adapter clients.  
   
- The key difference in the two approaches is the way adapter clients specify a polling statement that the adapter uses to poll the Oracle database. While the polling statement for the first approach is a simple SELECT statement, the polling statement for the stored procedure approach is a request message that executes the stored procedure. Adapter clients specify the polling statement, for either approach, for the **PollingInput** binding property. For more information about the binding properties, see [Read about the BizTalk Adapter for Oracle E-Business Suite binding properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).  
+  The key difference in the two approaches is the way adapter clients specify a polling statement that the adapter uses to poll the Oracle database. While the polling statement for the first approach is a simple SELECT statement, the polling statement for the stored procedure approach is a request message that executes the stored procedure. Adapter clients specify the polling statement, for either approach, for the **PollingInput** binding property. For more information about the binding properties, see [Read about the BizTalk Adapter for Oracle E-Business Suite binding properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).  
   
- The topics in this section provide instructions on how to poll using a SELECT statement and a stored procedure.  
+  The topics in this section provide instructions on how to poll using a SELECT statement and a stored procedure.  
   
 ## In This Section  
   

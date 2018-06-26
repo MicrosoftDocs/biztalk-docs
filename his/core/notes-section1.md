@@ -19,13 +19,13 @@ This section contains notes about AS/400 computers, local and remote names, time
 ## Note About AS/400 Computers  
  To connect to an AS/400 computer, supply both local node and remote node parameters for the Network Name and the Control Point Name. These properties are configured in separate dialog boxes:  
   
--   **Local node (server) properties.** In the **Server Properties** dialog box of the computer running Host Integration Server, type the **Control Point Name** and the **Network Name**. The server Network Name must correspond to the RMTNETID parameter in the AS/400 APPC controller description. (The default for the AS/400 computer network ID is typically APPN.) If this value is set to **\*SAME**, refer to the Local Network ID parameter in the AS/400 Network Attributes screen (using the **dspneta** command). The server Control Point Name must match the RMTCPNAME parameter in the AS/400 APPC controller description. For 802.2 connections, the AS/400 computer can be configured to automatically create the APPC controller description when the computer running [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] first connects to the AS/400 computer, by setting the AUTOCRTCTL parameter to **\*YES** in the AS/400 Token-Ring or Ethernet line description. However, for SDLC connections, the APPC controller description must be manually created.  
+- **Local node (server) properties.** In the **Server Properties** dialog box of the computer running Host Integration Server, type the **Control Point Name** and the **Network Name**. The server Network Name must correspond to the RMTNETID parameter in the AS/400 APPC controller description. (The default for the AS/400 computer network ID is typically APPN.) If this value is set to **\*SAME**, refer to the Local Network ID parameter in the AS/400 Network Attributes screen (using the **dspneta** command). The server Control Point Name must match the RMTCPNAME parameter in the AS/400 APPC controller description. For 802.2 connections, the AS/400 computer can be configured to automatically create the APPC controller description when the computer running [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] first connects to the AS/400 computer, by setting the AUTOCRTCTL parameter to **\*YES** in the AS/400 Token-Ring or Ethernet line description. However, for SDLC connections, the APPC controller description must be manually created.  
   
-     If you specify a CPNAME in **Connection Properties**, it overrides the CPNAME in the **Server Properties** dialog box. The CPNAME in **Server Properties** is the default and will be used unless it is changed in **Connections Properties**.  
+   If you specify a CPNAME in **Connection Properties**, it overrides the CPNAME in the **Server Properties** dialog box. The CPNAME in **Server Properties** is the default and will be used unless it is changed in **Connections Properties**.  
   
--   **Remote node (connection) properties.** In the **Properties** dialog box for an 802.2 or SDLC connection, type the **Network Name** and **Control Point Name (CP name)** of the AS/400 computer into the **Network Name (Remote Node)** and **Control Point Name (Remote Node)** fields. The AS/400 Network Name and Local Control Point Name can be found on the AS/400 Network Attributes screen using the DSPNETA. For more information about these fields, click Help on the **Properties** dialog box for the connection.  
+- **Remote node (connection) properties.** In the **Properties** dialog box for an 802.2 or SDLC connection, type the **Network Name** and **Control Point Name (CP name)** of the AS/400 computer into the **Network Name (Remote Node)** and **Control Point Name (Remote Node)** fields. The AS/400 Network Name and Local Control Point Name can be found on the AS/400 Network Attributes screen using the DSPNETA. For more information about these fields, click Help on the **Properties** dialog box for the connection.  
   
-     On an AS/400 computer, the Network Name is specified in the Local network ID parameter in the Network Attributes screen and in the RMTNETID parameter on the APPC controller description. For more information, see your APPN documentation.  
+   On an AS/400 computer, the Network Name is specified in the Local network ID parameter in the Network Attributes screen and in the RMTNETID parameter on the APPC controller description. For more information, see your APPN documentation.  
   
 ## Using Remote Node Identifiers  
  You can use several types of parameters to specify the remote node with which a connection should connect:  
@@ -53,19 +53,19 @@ This section contains notes about AS/400 computers, local and remote names, time
   
 #### To configure multidrop connections  
   
-1.  Configure a link service for an SDLC line with the **Constant RTS** option not selected.  
+1. Configure a link service for an SDLC line with the **Constant RTS** option not selected.  
   
-2.  Configure each connection to be used in the multidrop configuration as follows:  
+2. Configure each connection to be used in the multidrop configuration as follows:  
   
-    -   In the **SDLC Properties** dialog box, select the same link service for each connection.  
+   -   In the **SDLC Properties** dialog box, select the same link service for each connection.  
   
-    -   In the **SDLC Properties** dialog box, under **Remote End**, select **Downstream**.  
+   -   In the **SDLC Properties** dialog box, under **Remote End**, select **Downstream**.  
   
-    -   Make all the parameters identical for each configuration, except for **Poll Address**, and possibly the **Local Node ID** and **Remote Node ID**. For these parameters, obtain values from the downstream system administrators. Make the **Poll Address** unique for each station.  
+   -   Make all the parameters identical for each configuration, except for **Poll Address**, and possibly the **Local Node ID** and **Remote Node ID**. For these parameters, obtain values from the downstream system administrators. Make the **Poll Address** unique for each station.  
   
-3.  For the primary connection in the multidrop configuration, on the SDLC page of the **SDLC Properties** dialog box, select the **Multidrop Primary** box.  
+3. For the primary connection in the multidrop configuration, on the SDLC page of the **SDLC Properties** dialog box, select the **Multidrop Primary** box.  
   
- For information about using the configuration dialog boxes, click **Help** in the **SDLC Properties** dialog box.  
+   For information about using the configuration dialog boxes, click **Help** in the **SDLC Properties** dialog box.  
   
 ## Note About Time-outs for 802.2  
  The time-outs for 802.2 (**t1**, **t2**, and **ti**) are derived from basic timer values that are set in the Windows registry. Host Integration Server is designed with the assumption that these registry values will not be changed after they have been set by the DLC (802.2) driver. If these registry values are changed, the choices displayed in the **Response Timeout**, **Receive ACK Timeout**, or **Inactivity Timeout** fields may no longer reflect the actual amounts of time that Host Integration Server waits.  
@@ -80,15 +80,15 @@ This section contains notes about AS/400 computers, local and remote names, time
 ## Standard Facility Data Example  
  The facility data string in this example initiates a connection using 256-byte packets, a sending window of 7, a receive window of 4, and charges reversed. The facility requests that do this are as follows:  
   
--   42 08 08 for Packet Size  
+- 42 08 08 for Packet Size  
   
--   43 04 07 for Window Size  
+- 43 04 07 for Window Size  
   
--   01 01 for reverse charging  
+- 01 01 for reverse charging  
   
- When these requests are concatenated, the following facility data string is created:  
+  When these requests are concatenated, the following facility data string is created:  
   
- 4208084304070101  
+  4208084304070101  
   
 ## Common Identifier Table  
  The following table shows commonly used identifiers for facility requests.  

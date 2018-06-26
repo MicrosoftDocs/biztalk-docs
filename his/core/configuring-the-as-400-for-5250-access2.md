@@ -28,16 +28,16 @@ When setting [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnovers
   
  If the configuration is not automatic, specify the following:  
   
--   APPN-capable *YES  
+- APPN-capable *YES  
   
--   A Control Point Name and network identifier that match corresponding parameters in Host Integration Server  
+- A Control Point Name and network identifier that match corresponding parameters in Host Integration Server  
   
--   APPN CP session support *YES  
+- APPN CP session support *YES  
   
- Communications > Network configuration > Configure communications  and remote hardware > Work with communications controllers  
- In this context, communications controller means the Host Integration Server.  
+  Communications > Network configuration > Configure communications  and remote hardware > Work with communications controllers  
+  In this context, communications controller means the Host Integration Server.  
   
- If the configuration is not automatic, specify the local address of the Host Integration Server computer.  
+  If the configuration is not automatic, specify the local address of the Host Integration Server computer.  
   
 |Connection<br /><br /> type|Address as<br /><br /> specified in AS/400<br /><br /> configuration|Method for finding out<br /><br /> address on Host Integration Server|  
 |-------------------------|-----------------------------------------------------------|-------------------------------------------------------------------|  

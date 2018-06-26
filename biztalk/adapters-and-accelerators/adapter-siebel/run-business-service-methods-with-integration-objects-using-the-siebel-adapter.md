@@ -31,98 +31,98 @@ The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] en
   
  The difference lies in the request message that you drop for the orchestration. This difference is because of the following:  
   
--   The schema for the request message is different because you invoke a different business service.  
+- The schema for the request message is different because you invoke a different business service.  
   
--   The request message contains the XML string for the integration object. This XML is encapsulated in a CDATA section. You must first generate the schema for the integration object and then create an XML that conforms to the schema. This XML must be passed within the CDATA section of the request message sent to the adapter.  
+- The request message contains the XML string for the integration object. This XML is encapsulated in a CDATA section. You must first generate the schema for the integration object and then create an XML that conforms to the schema. This XML must be passed within the CDATA section of the request message sent to the adapter.  
   
- After you have generated the XML that conforms to the integration object schema and included it in the request message, you must drop the request message at a FILE location, just like you do for any other orchestration. Look for the response message in the other FILE location.  
+  After you have generated the XML that conforms to the integration object schema and included it in the request message, you must drop the request message at a FILE location, just like you do for any other orchestration. Look for the response message in the other FILE location.  
   
 ## Request and Response Messages for Invoking Business Service with Integration Objects  
  As mentioned before, the only difference for invoking a business service that takes integration object parameters is the request message sent to the adapter. This section provides instructions on the steps you must perform to create the request message.  
   
  For better understanding, take a Siebel business service 'EAI Siebel Adapter' as an example. The 'EAI Siebel Adapter' business service operates on a Siebel integration object, 'Sample Account'. You must perform the following tasks to create the request message to invoke a method exposed by the 'EAI Siebel Adapter' business service:  
   
--   **Generate the schema for the EAI Siebel Adapter business service**. You must use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] to generate the schema. Once you generate the schema, generate the XML that conforms to the schema.  
+- **Generate the schema for the EAI Siebel Adapter business service**. You must use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] to generate the schema. Once you generate the schema, generate the XML that conforms to the schema.  
   
--   **Generate the schema for the integration object**. Use Siebel Tools to generate schema for an integration object. From the Siebel Tools interface, select the integration object, for example, Sample Account, and click **Generate Schema**. While generating the schema, make sure:  
+- **Generate the schema for the integration object**. Use Siebel Tools to generate schema for an integration object. From the Siebel Tools interface, select the integration object, for example, Sample Account, and click **Generate Schema**. While generating the schema, make sure:  
   
-    -   The **Select a Business Service from the list** drop-down has the value "EAI XML XSD Generator".  
+  - The **Select a Business Service from the list** drop-down has the value "EAI XML XSD Generator".  
   
-    -   The **Select an envelope type from the list** drop-down has the value "Siebel Message Envelope".  
+  - The **Select an envelope type from the list** drop-down has the value "Siebel Message Envelope".  
   
-     For more information, see the Siebel documentation.  
+    For more information, see the Siebel documentation.  
   
--   **Create an XML message that conforms to schema of the integration object**. A sample XML message generated for the 'Sample Account' integration object looks like:  
+- **Create an XML message that conforms to schema of the integration object**. A sample XML message generated for the 'Sample Account' integration object looks like:  
   
-    ```  
-    <?xml version="1.0" encoding="UTF-16"?>  
-    <SiebelMessage  MessageId="" IntObjectName="Sample Account" MessageType="Integration Object" IntObjectFormat="Siebel Hierarchical">  
-      <ListOfSampleAccount>  
-        <Account>  
-          <CurrencyCode>USD</CurrencyCode>  
-          <Location>Redmond</Location>  
-          <Name>IntegrationObjectTest</Name>  
-        </Account>  
-      </ListOfSampleAccount>  
-    </SiebelMessage>  
-    ```  
+  ```  
+  <?xml version="1.0" encoding="UTF-16"?>  
+  <SiebelMessage  MessageId="" IntObjectName="Sample Account" MessageType="Integration Object" IntObjectFormat="Siebel Hierarchical">  
+    <ListOfSampleAccount>  
+      <Account>  
+        <CurrencyCode>USD</CurrencyCode>  
+        <Location>Redmond</Location>  
+        <Name>IntegrationObjectTest</Name>  
+      </Account>  
+    </ListOfSampleAccount>  
+  </SiebelMessage>  
+  ```  
   
--   **Pass this XML message as the value for the CDATA element in the request message for the business service method**. A sample request message that contains the preceding XML message within a CDATA element looks like the following. This sample request is to invoke the Insert method for the 'EAI Siebel Adapter' business service.  
+- **Pass this XML message as the value for the CDATA element in the request message for the business service method**. A sample request message that contains the preceding XML message within a CDATA element looks like the following. This sample request is to invoke the Insert method for the 'EAI Siebel Adapter' business service.  
   
-    ```  
-    <Insert xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter/Operation">  
-      <InsertRequestRecord />   
-      <InsertInOutRecord>  
-        <SiebelMessage xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter">  
-          <![CDATA[ <?xml version="1.0" encoding="UTF-16"?>  
-            <SiebelMessage  MessageId="" IntObjectName="Sample Account" MessageType="Integration Object" IntObjectFormat="Siebel Hierarchical">  
-              <ListOfSampleAccount>  
-                <Account>  
-                  <CurrencyCode>USD</CurrencyCode>  
-                  <Location>Redmond</Location>  
-                  <Name>IntegrationObjectTest</Name>  
-                </Account>  
-              </ListOfSampleAccount>  
-            </SiebelMessage>  
-          ]]>   
-         </SiebelMessage>  
-      </InsertInOutRecord>  
-    </Insert>  
-    ```  
+  ```  
+  <Insert xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter/Operation">  
+    <InsertRequestRecord />   
+    <InsertInOutRecord>  
+      <SiebelMessage xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter">  
+        <![CDATA[ <?xml version="1.0" encoding="UTF-16"?>  
+          <SiebelMessage  MessageId="" IntObjectName="Sample Account" MessageType="Integration Object" IntObjectFormat="Siebel Hierarchical">  
+            <ListOfSampleAccount>  
+              <Account>  
+                <CurrencyCode>USD</CurrencyCode>  
+                <Location>Redmond</Location>  
+                <Name>IntegrationObjectTest</Name>  
+              </Account>  
+            </ListOfSampleAccount>  
+          </SiebelMessage>  
+        ]]>   
+       </SiebelMessage>  
+    </InsertInOutRecord>  
+  </Insert>  
+  ```  
   
-     The response from Siebel for the above request message resembles the following:  
+   The response from Siebel for the above request message resembles the following:  
   
-    ```  
-    <?xml version="1.0" encoding="utf-8" ?>   
-    <InsertResponse xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter/Operation">  
-      <InsertResult>  
-        <ErrorCode xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter">0x0</ErrorCode>   
-        <ErrorContextIntComp xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter" />   
-        <ErrorContextSearchSpec xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter" />   
-        <ErrorSymbol xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter" />   
-        <OMErrorCode xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter" />   
-        <OMErrorSymbol xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter" />   
-        <PrimaryRowId xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter">1-6SPSJ</PrimaryRowId>   
-      </InsertResult>  
-      <InsertInOutRecord>  
-        <SiebelMessage xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter">  
-          <![CDATA[ <?xml version="1.0" encoding="UTF-16"?>  
-            <SiebelMessage  MessageId="" IntObjectName="Sample Account" MessageType="Integration Object" IntObjectFormat="Siebel Hierarchical">  
-              <ListOfSampleAccount>  
-                <Account>  
-                  <CurrencyCode>USD</CurrencyCode>  
-                  <Location>Redmond</Location>  
-                  <Name>IntegrationObjectTest</Name>  
-                </Account>  
-              </ListOfSampleAccount>  
-            </SiebelMessage>  
-          ]]>   
-         </SiebelMessage>  
-      </InsertInOutRecord>  
-    </InsertResponse>  
-    ```  
+  ```  
+  <?xml version="1.0" encoding="utf-8" ?>   
+  <InsertResponse xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter/Operation">  
+    <InsertResult>  
+      <ErrorCode xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter">0x0</ErrorCode>   
+      <ErrorContextIntComp xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter" />   
+      <ErrorContextSearchSpec xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter" />   
+      <ErrorSymbol xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter" />   
+      <OMErrorCode xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter" />   
+      <OMErrorSymbol xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter" />   
+      <PrimaryRowId xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter">1-6SPSJ</PrimaryRowId>   
+    </InsertResult>  
+    <InsertInOutRecord>  
+      <SiebelMessage xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/EAI_x0020_Siebel_x0020_Adapter">  
+        <![CDATA[ <?xml version="1.0" encoding="UTF-16"?>  
+          <SiebelMessage  MessageId="" IntObjectName="Sample Account" MessageType="Integration Object" IntObjectFormat="Siebel Hierarchical">  
+            <ListOfSampleAccount>  
+              <Account>  
+                <CurrencyCode>USD</CurrencyCode>  
+                <Location>Redmond</Location>  
+                <Name>IntegrationObjectTest</Name>  
+              </Account>  
+            </ListOfSampleAccount>  
+          </SiebelMessage>  
+        ]]>   
+       </SiebelMessage>  
+    </InsertInOutRecord>  
+  </InsertResponse>  
+  ```  
   
- Using BizTalk features, adapter clients can also perform additional validation of the integration object IN and OUT parameter against the integration object schema (obtained from Siebel Tools.)  
+  Using BizTalk features, adapter clients can also perform additional validation of the integration object IN and OUT parameter against the integration object schema (obtained from Siebel Tools.)  
   
 ## See Also  
 [Develop BizTalk Applications using the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/develop-biztalk-applications-using-the-siebel-adapter.md)    

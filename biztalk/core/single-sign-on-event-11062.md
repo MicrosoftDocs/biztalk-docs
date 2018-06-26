@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11062
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11062|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_PASSWORD_FILTER_FAILED|  
-|Message Text|Password filtering failed. No password filter will be used.%r<br /><br /> Application Name: %1%r<br /><br /> Password Filter String: %2%r<br /><br /> Additional Data: %3%r<br /><br /> Error Code: %4|  
+|                 |                                                                                                                                                                                                        |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                       Enterprise Single Sign-On                                                                                        |
+| Product Version |                                                                       [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                       |
+|    Event ID     |                                                                                                 11062                                                                                                  |
+|  Event Source   |                                                                                                 ENTSSO                                                                                                 |
+|    Component    |                                                                                                  N/A                                                                                                   |
+|  Symbolic Name  |                                                                                    SSO_WARN_PASSWORD_FILTER_FAILED                                                                                     |
+|  Message Text   | Password filtering failed. No password filter will be used.%r<br /><br /> Application Name: %1%r<br /><br /> Password Filter String: %2%r<br /><br /> Additional Data: %3%r<br /><br /> Error Code: %4 |
   
 ## Explanation  
  An error occurred while creating a password filter, and the filter was not created.  

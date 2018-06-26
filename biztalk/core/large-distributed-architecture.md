@@ -41,7 +41,7 @@ Distributed BizTalk Server secure architecture
   
  This architecture contains the following five domains:  
   
- **Perimeter network.** The perimeter network (also known as DMZ, demilitarized zone, and screened subnet), contains servers that provide Internet-related services for an enterprise. This domain can contain servers that are home to the physical locations where Internet-facing transports send and receive messages to and from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. There are no BizTalk Servers, BizTalk receive locations, or Enterprise Single Sign-On servers in this domain. If you use the SOAP or HTTP adapter, you can use reverse proxy rules (Forefront Threat Management Gateway (TMG) 2010 server implementation is called Web Publishing) to relay the message from the Internet-facing firewall (FW4) to the firewall protecting the service interfaces domain (FW3). For more information about Web Publishing rules, see the Microsoft Web site at [http://go.microsoft.com/fwlink/?LinkID=205340](http://go.microsoft.com/fwlink/?LinkID=205340) (http://go.microsoft.com/fwlink/?LinkID=205340).  
+ **Perimeter network.** The perimeter network (also known as DMZ, demilitarized zone, and screened subnet), contains servers that provide Internet-related services for an enterprise. This domain can contain servers that are home to the physical locations where Internet-facing transports send and receive messages to and from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. There are no BizTalk Servers, BizTalk receive locations, or Enterprise Single Sign-On servers in this domain. If you use the SOAP or HTTP adapter, you can use reverse proxy rules (Forefront Threat Management Gateway (TMG) 2010 server implementation is called Web Publishing) to relay the message from the Internet-facing firewall (FW4) to the firewall protecting the service interfaces domain (FW3). For more information about Web Publishing rules, see the Microsoft Web site at [http://go.microsoft.com/fwlink/?LinkID=205340](http://go.microsoft.com/fwlink/?LinkID=205340) (<http://go.microsoft.com/fwlink/?LinkID=205340>).  
   
  In the preceding figure, the servers in the perimeter network represent servers that are in a domain outside of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment. Therefore, some of these servers may alternatively be on remote locations. For example, the File Transfer Protocol (FTP) server could be on a remote location; the Simple Mail Transfer Protocol (SMTP) server could be the corporate e-mail server, an Internet service provider’s (ISP) server, or a remote SMTP server.  
   
@@ -56,17 +56,17 @@ Distributed BizTalk Server secure architecture
   
  **Data domain.** The data domain is the furthest away from the Internet, as it contains the SQL Server databases that store critical business and process data, and it does not trust any other domain. While you can have each [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database on a different server running SQL Server, we recommend combining databases based on the main type of processing they do (mostly read operations, mostly write operations, or both):  
   
--   A SQL Server for each MessageBox database. You can add more MessageBox databases for load balancing. These are read- and write-intensive databases.  
+- A SQL Server for each MessageBox database. You can add more MessageBox databases for load balancing. These are read- and write-intensive databases.  
   
--   A SQL Server for the SSO database. BizTalk Server does mostly read operations in this database. This database holds sensitive data, and needs the most restrictive access permissions.  
+- A SQL Server for the SSO database. BizTalk Server does mostly read operations in this database. This database holds sensitive data, and needs the most restrictive access permissions.  
   
--   A SQL Server for the BizTalk Management, and the Business Rule Engine databases. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does mostly read operations in these databases. This server also contains the Tracking database, which is a write-intensive database.  
+- A SQL Server for the BizTalk Management, and the Business Rule Engine databases. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does mostly read operations in these databases. This server also contains the Tracking database, which is a write-intensive database.  
   
--   A SQL Server for the Analysis Server Tracking database.  
+- A SQL Server for the Analysis Server Tracking database.  
   
--   A SQL Server for the Microsoft Operations Manager (MOM) database.  
+- A SQL Server for the Microsoft Operations Manager (MOM) database.  
   
--   A SQL Server for the destination system for log shipping  
+- A SQL Server for the destination system for log shipping  
   
 > [!IMPORTANT]
 >  For failover protection, we recommend you cluster each BizTalk database. For more information about SQL Server failover clustering, see the Microsoft MSDN Web Site at [http://go.microsoft.com/fwlink/?LinkId=131016](http://go.microsoft.com/fwlink/?LinkId=131016).  
@@ -78,33 +78,33 @@ Distributed BizTalk Server secure architecture
   
  **Corporate domain.** This is the intranet domain, and it contains all the desktop computers within your company or department, and all the servers that provide services to the information workers within your company. There are two distinct logical containers within this domain:  
   
--   **Intranet services.** This container has the servers that receive and send messages to and from internal partners for the SQL and File adapters. While this is an intranet, it is different from the corporate network where most users have their accounts and services. Similar to the perimeter network in the figure, some of the servers in this container can be on a different location. For example, the send and receive location (folder) for the File adapter can be in any tier outside of the service interfaces domain, while you can place the server running SQL Server for the SQL adapter on the service interfaces domain.  
+- **Intranet services.** This container has the servers that receive and send messages to and from internal partners for the SQL and File adapters. While this is an intranet, it is different from the corporate network where most users have their accounts and services. Similar to the perimeter network in the figure, some of the servers in this container can be on a different location. For example, the send and receive location (folder) for the File adapter can be in any tier outside of the service interfaces domain, while you can place the server running SQL Server for the SQL adapter on the service interfaces domain.  
   
--   **Operations.** This container has the Terminal Service clients the IT Professionals use to remotely administer, maintain, and monitor the performance and health of all the servers in the environment. By using Terminal Services, IT professionals connect to the administration server in the services domain, and from there perform administrative tasks for all the servers in the environment.  
+- **Operations.** This container has the Terminal Service clients the IT Professionals use to remotely administer, maintain, and monitor the performance and health of all the servers in the environment. By using Terminal Services, IT professionals connect to the administration server in the services domain, and from there perform administrative tasks for all the servers in the environment.  
   
- Although you may have development computers within the corporate domain, the configuration of those computers does not fall within the scope of this document.  
+  Although you may have development computers within the corporate domain, the configuration of those computers does not fall within the scope of this document.  
   
- For more information about the BizTalk Server architecture including the information worker services, see [Large Distributed Architecture with Information Worker Services](../core/large-distributed-architecture-with-information-worker-services.md).  
+  For more information about the BizTalk Server architecture including the information worker services, see [Large Distributed Architecture with Information Worker Services](../core/large-distributed-architecture-with-information-worker-services.md).  
   
- The trust between the domains is as follows:  
+  The trust between the domains is as follows:  
   
--   The data domain does not trust any other domain.  
+- The data domain does not trust any other domain.  
   
--   The service interfaces domain trusts the data domain.  
+- The service interfaces domain trusts the data domain.  
   
--   The services domain trusts the data domain.  
+- The services domain trusts the data domain.  
   
--   The corporate domain trusts the services domains.  
+- The corporate domain trusts the services domains.  
   
- For more information about configuring a firewall for domains and trusts, see the Microsoft Help and Support Web site at [http://go.microsoft.com/fwlink/?LinkId=25230](http://go.microsoft.com/fwlink/?LinkId=25230).  
+  For more information about configuring a firewall for domains and trusts, see the Microsoft Help and Support Web site at [http://go.microsoft.com/fwlink/?LinkId=25230](http://go.microsoft.com/fwlink/?LinkId=25230).  
   
- While the preceding figure focuses on security, you can also extend the architecture with Network Load Balancing (NLB) and Clustering Services for availability and performance.  
+  While the preceding figure focuses on security, you can also extend the architecture with Network Load Balancing (NLB) and Clustering Services for availability and performance.  
   
- For more information about high availability, see [Planning for High Availability](../core/planning-for-high-availability3.md).  
+  For more information about high availability, see [Planning for High Availability](../core/planning-for-high-availability3.md).  
   
- For more information about performance, see [Planning for Sustained Performance](../core/planning-for-sustained-performance.md).  
+  For more information about performance, see [Planning for Sustained Performance](../core/planning-for-sustained-performance.md).  
   
- The following table summarizes the type of servers you can configure with Network Load Balancing (NLB) depending on the Service Level Agreement (SLA) that you need achieve:  
+  The following table summarizes the type of servers you can configure with Network Load Balancing (NLB) depending on the Service Level Agreement (SLA) that you need achieve:  
   
 |Name|Type|Domain|  
 |----------|----------|------------|  

@@ -29,13 +29,13 @@ Using the [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md
   
 ## Update the host instance level settings  
   
-1.  In the **BizTalk Server Administration Console**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], right-click **BizTalk Group**, and then click **Settings**.  
+1. In the **BizTalk Server Administration Console**, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], right-click **BizTalk Group**, and then click **Settings**.  
   
-2.  In the **BizTalk Settings Dashboard** dialog box, on the **Host Instances** tab, do any of the following:  
+2. In the **BizTalk Settings Dashboard** dialog box, on the **Host Instances** tab, do any of the following:  
   
-    -   Modify the .NET CLR settings for a host instance. See [Change the .NET CLR Settings](../core/how-to-modify-net-clr-settings.md).  
+   -   Modify the .NET CLR settings for a host instance. See [Change the .NET CLR Settings](../core/how-to-modify-net-clr-settings.md).  
   
-    -   Modify the orchestration memory throttling settings. See [Change the Orchestration Memory Throttling Settings](../core/how-to-modify-orchestration-memory-throttling-settings.md).  
+   -   Modify the orchestration memory throttling settings. See [Change the Orchestration Memory Throttling Settings](../core/how-to-modify-orchestration-memory-throttling-settings.md).  
   
 ## See Also  
  [Use Settings Dashboard for BizTalk Server Performance Tuning](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)

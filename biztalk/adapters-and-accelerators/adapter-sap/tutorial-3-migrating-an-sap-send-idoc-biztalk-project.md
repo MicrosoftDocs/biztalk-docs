@@ -20,23 +20,23 @@ manager: "anneta"
 # Tutorial 3: Migrating an SAP Send IDOC BizTalk Project
 The previous version of the SAP adapter that shipped with Microsoft BizTalk Server differs from the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in many aspects, including:  
   
--   The design-time experience of creating a BizTalk project.  
+- The design-time experience of creating a BizTalk project.  
   
--   The metadata retrieval experience.  
+- The metadata retrieval experience.  
   
--   Schema file name and namespace.  
+- Schema file name and namespace.  
   
--   Data type mappings.  
+- Data type mappings.  
   
--   The operations that can be performed using the adapter.  
+- The operations that can be performed using the adapter.  
   
--   Physical port configuration in the BizTalk Server Administration console.  
+- Physical port configuration in the BizTalk Server Administration console.  
   
- These differences are explained in the topics within [Migrating BizTalk Projects Created Using the Previous Version of the SAP Adapter](http://msdn.microsoft.com/library/a486bac9-8952-43fd-8099-413f1491de37).  
+  These differences are explained in the topics within [Migrating BizTalk Projects Created Using the Previous Version of the SAP Adapter](http://msdn.microsoft.com/library/a486bac9-8952-43fd-8099-413f1491de37).  
   
- However, you can make changes to the BizTalk project created using the previous version of the adapter and make it work with the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+  However, you can make changes to the BizTalk project created using the previous version of the adapter and make it work with the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
- This tutorial provides instructions on the changes you should make to the existing BizTalk project created using the previous version of the adapter.  
+  This tutorial provides instructions on the changes you should make to the existing BizTalk project created using the previous version of the adapter.  
   
 > [!NOTE]
 >  In this tutorial, for the sake of brevity, the previous version of the SAP adapter will be referred to as vPrev SAP adapter. Similarly, a BizTalk project that uses the vPrev SAP adapter will be referred to as vPrev BizTalk project.  
@@ -64,11 +64,11 @@ The previous version of the SAP adapter that shipped with Microsoft BizTalk Serv
 ## How to Migrate a BizTalk Project Created Using the Previous Version of the Adapter  
  The goal of this migration tutorial is to enable you to send a flat-file IDOC to an SAP system using a WCF-Custom send port instead of the send port for the vPrev SAP adapter. Before understanding what settings are required for the WCF-Custom send port, you must first understand what physical ports are required for the vPrev send IDOC orchestration:  
   
--   A file receive port that picks the flat-file IDOC. This port uses the flat-file disassembler pipeline, available in the BizTalk application, to convert the flat-file into an XML that conforms to the schema (BOMDOC01.xsd) generated using the vPrev SAP adapter.  
+- A file receive port that picks the flat-file IDOC. This port uses the flat-file disassembler pipeline, available in the BizTalk application, to convert the flat-file into an XML that conforms to the schema (BOMDOC01.xsd) generated using the vPrev SAP adapter.  
   
--   A vPrev SAP send port that sends the flat-file IDOC to the SAP system. Before sending the flat-file, the port uses the flat-file assembler to convert the XML IDOC into a flat-file IDOC.  
+- A vPrev SAP send port that sends the flat-file IDOC to the SAP system. Before sending the flat-file, the port uses the flat-file assembler to convert the XML IDOC into a flat-file IDOC.  
   
- To migrate your existing vPrev BizTalk project, you do not need to change the file receive port that picks the flat-file IDOC and converts the flat-file IDOC to XML using a flat-file disassembler. You only need to configure a new WCF-Custom send port with the right configuration settings. This tutorial demonstrates how to configure the WCF-Custom send port to send IDOCs to an SAP system using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+  To migrate your existing vPrev BizTalk project, you do not need to change the file receive port that picks the flat-file IDOC and converts the flat-file IDOC to XML using a flat-file disassembler. You only need to configure a new WCF-Custom send port with the right configuration settings. This tutorial demonstrates how to configure the WCF-Custom send port to send IDOCs to an SAP system using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
 ## In This Section  
   

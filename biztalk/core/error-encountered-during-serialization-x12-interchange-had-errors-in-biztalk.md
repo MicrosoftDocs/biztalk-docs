@@ -17,15 +17,15 @@ manager: "anneta"
 # Error encountered during serialization. The X12 interchange had the following errors
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|X12InterchangeSendError|  
-|Message Text|Error encountered during serialization. The X12 interchange with id '{0}', with sender id '{1}', receiver id '{2}' had the following errors|  
+|                 |                                                                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                              |
+| Product Version |                                         [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                          |
+|    Event ID     |                                                                      -                                                                      |
+|  Event Source   |                           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                            |
+|    Component    |                                                                 EDI Engine                                                                  |
+|  Symbolic Name  |                                                           X12InterchangeSendError                                                           |
+|  Message Text   | Error encountered during serialization. The X12 interchange with id '{0}', with sender id '{1}', receiver id '{2}' had the following errors |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the EDI send pipeline encountered an error when serializing an outgoing X12 interchange because of the stated errors.  

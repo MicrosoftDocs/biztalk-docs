@@ -47,17 +47,17 @@ The OrderedSample sample demonstrates how to use an orchestration to receive and
   
 #### To build and deploy the sample  
   
-1.  In a command window, navigate to the following folder:  
+1. In a command window, navigate to the following folder:  
   
-     `<Samples Path>\AdaptersUsage\MQSeriesAdapter\OrderedSample`  
+    `<Samples Path>\AdaptersUsage\MQSeriesAdapter\OrderedSample`  
   
-2.  Run the file Setup.bat, which performs the following actions:  
+2. Run the file Setup.bat, which performs the following actions:  
   
-    1.  Creates a strong name key for the project.  
+   1.  Creates a strong name key for the project.  
   
-    2.  Compiles and deploys the orchestration project.  
+   2.  Compiles and deploys the orchestration project.  
   
- If you have the required permissions to the MQSeries Server for Windows installation, you can create the MQSeries queue through the adapter dialog boxes, and can skip the next procedure. If you do not have such access, you can create the queue using the IBM WebSphere MQ Explorer. To create the queues through the WebSphere MQ Explorer, complete the following steps.  
+   If you have the required permissions to the MQSeries Server for Windows installation, you can create the MQSeries queue through the adapter dialog boxes, and can skip the next procedure. If you do not have such access, you can create the queue using the IBM WebSphere MQ Explorer. To create the queues through the WebSphere MQ Explorer, complete the following steps.  
   
 ## Creating the MQSeries Queues Through the WebSphere MQ Explorer  
   

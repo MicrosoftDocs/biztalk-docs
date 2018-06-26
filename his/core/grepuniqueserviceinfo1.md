@@ -20,28 +20,28 @@ The **GrepUniqueServiceInfo** function is used to determine information about a 
  *Argument 0*  
  Type of information to search:  
   
--   INDEX: Search the list of indexes.  
+- INDEX: Search the list of indexes.  
   
--   NAME: Search the list of service names.  
+- NAME: Search the list of service names.  
   
--   TITLE: Search the list of titles.  
+- TITLE: Search the list of titles.  
   
--   DESC: Search the list of descriptions.  
+- DESC: Search the list of descriptions.  
   
- *Argument 1*  
- Keyword to search for in the list.  
+  *Argument 1*  
+  Keyword to search for in the list.  
   
- *Argument 2*  
- List of indexes for the instances of this product.  
+  *Argument 2*  
+  List of indexes for the instances of this product.  
   
- *Argument 3*  
- List of service names for the instances of this product.  
+  *Argument 3*  
+  List of service names for the instances of this product.  
   
- *Argument 4*  
- List of titles for the instances of this product.  
+  *Argument 4*  
+  List of titles for the instances of this product.  
   
- *Argument 5*  
- List of descriptions for the instances of this product.  
+  *Argument 5*  
+  List of descriptions for the instances of this product.  
   
 ## Return Values  
  *Return 0*  

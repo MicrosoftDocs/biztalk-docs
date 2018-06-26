@@ -21,27 +21,27 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes 20 predefined 
   
 ### To run one of the pre-defined Itinerary On-Ramp samples  
   
-1.  If the GlobalBank.ESB application is not already running, use the BizTalk Administration Console to start it.  
+1. If the GlobalBank.ESB application is not already running, use the BizTalk Administration Console to start it.  
   
-2.  In Windows Explorer, open the subfolder \Source\Samples\Itinerary\Source\ESB.Itinerary.Test\bin\Debug where you installed the BizTalk ESB Toolkit samples, and then start the application named Esb.Itinerary.Test.exe.  
+2. In Windows Explorer, open the subfolder \Source\Samples\Itinerary\Source\ESB.Itinerary.Test\bin\Debug where you installed the BizTalk ESB Toolkit samples, and then start the application named Esb.Itinerary.Test.exe.  
   
-3.  Click the **LoadItinerary** button, and then select the sample itinerary named TwoWay-OrchTransform-OrchRoutingGroup-OrchTwoWayCustom.xml from the \Source\Samples\Itinerary\Itineraries folder.  
+3. Click the **LoadItinerary** button, and then select the sample itinerary named TwoWay-OrchTransform-OrchRoutingGroup-OrchTwoWayCustom.xml from the \Source\Samples\Itinerary\Itineraries folder.  
   
-4.  In the **Web Service Options** section, select the **Two-Way Service** check box. This instructs the test client to perform a request-response itinerary service operation.  
+4. In the **Web Service Options** section, select the **Two-Way Service** check box. This instructs the test client to perform a request-response itinerary service operation.  
   
-5.  (Optional) Select the **Use WCF Service** check box if you want the application to use the OnRamp.Itinerary.Response.WCF receive location instead of the default OnRamp.Itinerary.Response.SOAP receive location.  
+5. (Optional) Select the **Use WCF Service** check box if you want the application to use the OnRamp.Itinerary.Response.WCF receive location instead of the default OnRamp.Itinerary.Response.SOAP receive location.  
   
-6.  Click the **LoadMessage** button, and then select the NAOrderDoc.xml sample message from the \Source\Samples\Itinerary\Test\Data folder.  
+6. Click the **LoadMessage** button, and then select the NAOrderDoc.xml sample message from the \Source\Samples\Itinerary\Test\Data folder.  
   
-7.  Click the **SubmitRequest** button to send the request to the Itinerary On-Ramp service. Figure 1 shows the result.  
+7. Click the **SubmitRequest** button to send the request to the Itinerary On-Ramp service. Figure 1 shows the result.  
   
- ![Itinerary On Ramp](../esb-toolkit/media/ch6-itineraryonramp.gif "Ch6-ItineraryOnRamp")  
+   ![Itinerary On Ramp](../esb-toolkit/media/ch6-itineraryonramp.gif "Ch6-ItineraryOnRamp")  
   
- **Figure 1**  
+   **Figure 1**  
   
- **The Itinerary On-Ramp client application running one of the Itinerary On-Ramp samples**  
+   **The Itinerary On-Ramp client application running one of the Itinerary On-Ramp samples**  
   
- The name of the service specified in the itinerary definition corresponds directly to the **ServiceName** property of the service to which the sample subscribes. In the itinerary sample executed in the previous procedure (TwoWay-OrchTransform-OrchRoutingGroup-OrchTwoWayCustom.xml), the first service executed is an orchestration-based service that performs a transformation. The following section of the itinerary specifies this service.  
+   The name of the service specified in the itinerary definition corresponds directly to the **ServiceName** property of the service to which the sample subscribes. In the itinerary sample executed in the previous procedure (TwoWay-OrchTransform-OrchRoutingGroup-OrchTwoWayCustom.xml), the first service executed is an orchestration-based service that performs a transformation. The following section of the itinerary specifies this service.  
   
 ```  
 <Service uuid="" beginTime="" completeTime=""   

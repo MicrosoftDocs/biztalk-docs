@@ -31,11 +31,11 @@ Pipeline properties are used in processing an incoming or outgoing AS2 message w
   
 ### To set a pipeline property  
   
-1.  In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the receive location or send port using the pipeline that you want to set properties for. Click **Properties**.  
+1. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the receive location or send port using the pipeline that you want to set properties for. Click **Properties**.  
   
-2.  Click the ellipsis button (…) next to the pipeline that you want to set properties for.  
+2. Click the ellipsis button (…) next to the pipeline that you want to set properties for.  
   
-3.  Enter the value for the property, and then click **OK**.  
+3. Enter the value for the property, and then click **OK**.  
   
 ## See Also  
  [Developing and Configuring BizTalk Server AS2 Solutions](../core/developing-and-configuring-biztalk-server-as2-solutions.md)

@@ -56,17 +56,17 @@ This sections includes key information on using the Microsoft BizTalk Adapter fo
 #### JAR Files and the CLASSPATH  
  JD Edwards OneWorld JAR files must be available to the adapter. For instance, to connect to B7.3.3.3 Version, the following jar files are required. Depending on the server you connect, the jar file list may change:
   
--   Connector.jar    
--   Kernel.jar  
+- Connector.jar    
+- Kernel.jar  
   
- These files are located on a computer running JD Edwards OneWorld, at the following locations:  
+  These files are located on a computer running JD Edwards OneWorld, at the following locations:  
   
--   JD Edwards OneWorld XE_install_Directory\System\classes\Connector.jar    
--   JD Edwards OneWorld XE_install_Directory\System\classes\Kernel.jar  
+- JD Edwards OneWorld XE_install_Directory\System\classes\Connector.jar    
+- JD Edwards OneWorld XE_install_Directory\System\classes\Kernel.jar  
   
- You can copy these files to any location; however, you must specify the location of the JAR files in the CLASSPATH. The CLASSPATH must include both the full path of the file and the name of the JAR file (separated by a semicolon).  
+  You can copy these files to any location; however, you must specify the location of the JAR files in the CLASSPATH. The CLASSPATH must include both the full path of the file and the name of the JAR file (separated by a semicolon).  
   
- BizTalk Adapter for JD Edwards OneWorld provides the JDEJAccess JAR file for use with JD Edwards OneWorld. By default, the JDEJAccess.jar file is referenced from *Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards OneWorld(r)\classes\JDEJAccess.jar*. 
+  BizTalk Adapter for JD Edwards OneWorld provides the JDEJAccess JAR file for use with JD Edwards OneWorld. By default, the JDEJAccess.jar file is referenced from *Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards OneWorld(r)\classes\JDEJAccess.jar*. 
   
 > [!NOTE]
 >  You must verify the registration of the jdeinterop.ini file before you can use BizTalk Adapter for JD Edwards OneWorld. Make sure that you include a path to this file in the **JDE Transport Property** page when you create the send port in BizTalk Server. For a complete explanation, see "Customize the jdeinterop.ini File."  
@@ -142,13 +142,13 @@ Download [BTSREL](https://www.microsoft.com/download/details.aspx?id=56113). Ins
   
  The existing BTSREL.exe package directly works with the B7333 version. For the package to work with the B7334 version, then:  
   
-1.  Download and extract the contents of BTSREL.exe to your working folder.  
+1. Download and extract the contents of BTSREL.exe to your working folder.  
   
-2.  Modify both the **ReleaseLevelRequired** and the **Release** values to B7334 in the Deployment.Inf file.  
+2. Modify both the **ReleaseLevelRequired** and the **Release** values to B7334 in the Deployment.Inf file.  
   
-3.  Run the Setup.  
+3. Run the Setup.  
   
- To install BTSREL, the following are required:  
+   To install BTSREL, the following are required:  
   
 -   Deployment server installation    
 -   Installation Workbench  
@@ -199,11 +199,11 @@ Download [BTSREL](https://www.microsoft.com/download/details.aspx?id=56113). Ins
 #### Uninstall the custom package  
  There is no requirement to uninstall the custom package. However, if you want to clean the system, you can uninstall in different ways. After you uninstall, rebuild the package using one of the following methods:  
   
--   Use the JD Edwards OneWorld Deployment Server, Gh8612—P96470, on the **ROW** menu, select **Update**, and then select **Uninstall**.    
--   Check out all the custom objects (BTSREL) to a client computer and delete them.    
--   Apply a previous snapshot of database.  
+- Use the JD Edwards OneWorld Deployment Server, Gh8612—P96470, on the **ROW** menu, select **Update**, and then select **Uninstall**.    
+- Check out all the custom objects (BTSREL) to a client computer and delete them.    
+- Apply a previous snapshot of database.  
   
- During the clean-up, verify any other modifications to the other objects of JD Edwards OneWorld.  
+  During the clean-up, verify any other modifications to the other objects of JD Edwards OneWorld.  
   
 #### Manually register the business function library  
  Because of a limitation of the JD Edwards OneWorld product packaging process, the custom Business Function Library DLL for BizTalk Adapter for JD Edwards OneWorld must be manually registered with JD Edwards OneWorld. This process consists of the following steps.
@@ -378,11 +378,11 @@ This sections includes key information on using the Microsoft BizTalk Adapter fo
   
  BizTalk Adapter for JD Edwards EnterpriseOne supports the following integration access methods:  
   
--   JD Edwards EnterpriseOne ThinNet API    
--   JD Edwards EnterpriseOne XML    
--   JD Edwards EnterpriseOne unedited transaction tables (Z tables)  
+- JD Edwards EnterpriseOne ThinNet API    
+- JD Edwards EnterpriseOne XML    
+- JD Edwards EnterpriseOne unedited transaction tables (Z tables)  
   
- The adapter uses the JD Edwards EnterpriseOne ThinNet API to communicate with the JD Edwards EnterpriseOne application. By using the ThinNet API, the adapter can invoke one master business function (MBF) in a single unit of work (UOW). When an MBF fails, the whole UOW fails. This prevents partial updates. The validation of data, business rules, and communications to the underlying database are handled by the JD Edwards EnterpriseOne application.  
+  The adapter uses the JD Edwards EnterpriseOne ThinNet API to communicate with the JD Edwards EnterpriseOne application. By using the ThinNet API, the adapter can invoke one master business function (MBF) in a single unit of work (UOW). When an MBF fails, the whole UOW fails. This prevents partial updates. The validation of data, business rules, and communications to the underlying database are handled by the JD Edwards EnterpriseOne application.  
   
 #### JD Edwards Outbound Processing Framework  
  In the outbound process, the event starts when a specific MBF is executed in the JD Edwards EnterpriseOne environment. The MBF writes the required information for the event into the appropriate interface table and then notifies the subsystem batch function (BF) that an event occurred. The subsystem BF then includes an entry about the event on the subsystem data queue.  
@@ -443,17 +443,17 @@ set JAVA_HOME=C:\j2sdk1.4.2_06
   
 To use component interfaces (PeopleSoft 8 only) you must update your CLASSPATH to include the PeopleSoft component interface jar file:
   
-1.  In **Control Panel**, open **System**.  
+1. In **Control Panel**, open **System**.  
   
-2.  On the **Advanced** tab, select **Environment Variables**, and then select **CLASSPATH**.  
+2. On the **Advanced** tab, select **Environment Variables**, and then select **CLASSPATH**.  
   
-3.  Add the path. For example, enter:  
+3. Add the path. For example, enter:  
   
-    ```  
-    <PeopleSoft_Home>\web\PSJOA\psjoa.jar  
-    ```  
+   ```  
+   <PeopleSoft_Home>\web\PSJOA\psjoa.jar  
+   ```  
   
- BizTalk Adapter for PeopleSoft Enterprise requires the psjoa.jar file. This is performed when you create a send port. For more information, see "Setting Transport Properties in PeopleSoft System" in the adapter documentation.  
+   BizTalk Adapter for PeopleSoft Enterprise requires the psjoa.jar file. This is performed when you create a send port. For more information, see "Setting Transport Properties in PeopleSoft System" in the adapter documentation.  
   
 > [!NOTE]
 >  Only have one of these directories in your PATH to make sure that BizTalk Adapter for PeopleSoft Enterprise picks up the correct DLLs. Failure to set up your environment correctly for the desired version of PeopleSoft could lead to errors that are difficult to trace.  
@@ -466,11 +466,11 @@ To use component interfaces (PeopleSoft 8 only) you must update your CLASSPATH t
   
  This section explains how to manually import a custom component interface that let you browse component interfaces in PeopleSoft. Note that the custom methods do not use or modify any properties of the component interface that it is installed in. To import the custom component interface, you can use one of the following methods:  
   
--   Create a new component to import the custom methods.  
+- Create a new component to import the custom methods.  
   
--   Use an existing component that contains no keys, for example, INSTALLATION_RS.  
+- Use an existing component that contains no keys, for example, INSTALLATION_RS.  
   
- The simple component interface must not contain keys. If you are not sure whether a particular component interface contains keys, you can run this simple SQL statement using your SQL Query tool. It gives you a list of all the component interfaces in your application that have no keys.  
+  The simple component interface must not contain keys. If you are not sure whether a particular component interface contains keys, you can run this simple SQL statement using your SQL Query tool. It gives you a list of all the component interfaces in your application that have no keys.  
   
 ```  
 select distinct BCNAME  
@@ -490,21 +490,21 @@ and bc2.BCTYPE in (1, 2))
 ##### Create a new component interface  
  Follow these steps to create a new component interface using the PeopleSoft, Application Designer:
   
-1.  Open the **PeopleSoft Application Designer**.  
+1. Open the **PeopleSoft Application Designer**.  
   
-2.  Enter a three-tier connection type, and then click **OK**. For example, select Application Server from the list.  
+2. Enter a three-tier connection type, and then click **OK**. For example, select Application Server from the list.  
   
-3.  In the Application Designer, on the **File** menu, select **New**.  
+3. In the Application Designer, on the **File** menu, select **New**.  
   
-4.  In the **New** dialog box, select **Component Interface**, and then click **OK**.  
+4. In the **New** dialog box, select **Component Interface**, and then click **OK**.  
   
-5.  Click **Select**.  
+5. Click **Select**.  
   
-6.  From the list of all components, select any simple component. For example, select INSTALLATION_RS, or a new PeopleSoft component that you created.  
+6. From the list of all components, select any simple component. For example, select INSTALLATION_RS, or a new PeopleSoft component that you created.  
   
- The custom methods do not use or modify any properties of the component interface that it is installed in.  
+   The custom methods do not use or modify any properties of the component interface that it is installed in.  
   
- This simple component interface must not contain keys. If you are not sure whether a particular component interface contains keys, you can run this simple SQL statement using your SQL Query tool. It gives you a list of all the component interfaces in your application that have no keys:  
+   This simple component interface must not contain keys. If you are not sure whether a particular component interface contains keys, you can run this simple SQL statement using your SQL Query tool. It gives you a list of all the component interfaces in your application that have no keys:  
   
 ```  
 select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITEM bc2 where bc1.BCNAME = bc2.BCNAME and bc2.BCTYPE in (1, 2))  
@@ -713,11 +713,11 @@ To add the adapters to BizTalk Server, see "Add adapters to BizTalk Admin" in th
 ## Post-install overview - TIBCO Rendezvous  
  Microsoft BizTalk Adapter for TIBCO Rendezvous contains receive and transmit functionality that interface with supported databases and server systems to BizTalk Server.  
   
--   The receive side listens for calls that are outbound from the server system.  
+- The receive side listens for calls that are outbound from the server system.  
   
--   The transmit side enables you to invoke a server system’s call from BizTalk Server.  
+- The transmit side enables you to invoke a server system’s call from BizTalk Server.  
   
- See the adapter documentation for information about how to use Microsoft BizTalk Adapter for TIBCO Rendezvous and about the mapping between its model and the BizTalk Server model.  
+  See the adapter documentation for information about how to use Microsoft BizTalk Adapter for TIBCO Rendezvous and about the mapping between its model and the BizTalk Server model.  
   
 ### Installed components  
 * The adapter installation installs and registers the following components in the global assembly cache (GAC). You can verify the registration by opening the assembly folder in your explorer (<%WINDIR%>\assembly), or use the `gacutil /l` from the Visual Studio command prompt: 
@@ -776,11 +776,11 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 ## Post-install - TIBCO Enterprise Message Service  
  Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) contains receive and transmit functionality that interface with supported databases and server systems to BizTalk Server.  
   
--   The receive side listens for calls that are outbound from the server system.  
+- The receive side listens for calls that are outbound from the server system.  
 
--   The transmit side enables you to invoke a server system’s call from BizTalk Server.  
+- The transmit side enables you to invoke a server system’s call from BizTalk Server.  
   
- See the adapter documentation for information about how to use BizTalk Adapter for TIBCO EMS and about the mapping between its model and the BizTalk Server model.  
+  See the adapter documentation for information about how to use BizTalk Adapter for TIBCO EMS and about the mapping between its model and the BizTalk Server model.  
   
 ### Installed components  
 * The adapter installation installs and registers the `Microsoft.BizTalk.Adapters.TibcoEMS.dll` file in the global assembly cache (GAC). You can verify the registration by opening the assembly folder in your explorer (<%WINDIR%>\assembly), or use the `gacutil /l` from the Visual Studio command prompt.
@@ -794,9 +794,9 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
   
 * *Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin* folder contains the following files:  
   
-    -   Microsoft.BizTalk.Adapters.CoreManagement.dll    
-    -   Microsoft.BizTalk.Adapters.CoreReceiver.dll    
-    -   Microsoft.BizTalk.Adapters.CoreTransmitter.dll  
+  - Microsoft.BizTalk.Adapters.CoreManagement.dll    
+  - Microsoft.BizTalk.Adapters.CoreReceiver.dll    
+  - Microsoft.BizTalk.Adapters.CoreTransmitter.dll  
   
     > [!NOTE]
     >  You must use late binding to load assemblies so that the TIBCO EMS assemblies do not fail when a particular version of the TIBCO.EMS.dll is not present on the target computer.  
@@ -804,27 +804,27 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 ### Add TIBCO.EMS.dll API to the GAC  
  BizTalk Adapter for TIBCO EMS requires that you add the TIBCO.EMS.dll to the GAC. BizTalk Adapter for TIBCO EMS triggers an exception and logs an appropriate message if this assembly is not installed.  
   
-1.  Copy the TIBCO EMS C#API to your BizTalk computer.  
+1. Copy the TIBCO EMS C#API to your BizTalk computer.  
   
-2.  In a Visual Studio command prompt, change directories to the location of the C# API file.  
+2. In a Visual Studio command prompt, change directories to the location of the C# API file.  
   
-3.  In a Visual Studio command prompt, type the following:  
+3. In a Visual Studio command prompt, type the following:  
   
-    ```
-    C:\\<TIBCO EMS Folder\>bin> gacutil /i TIBCO.EMS.dll
-    ```
+   ```
+   C:\\<TIBCO EMS Folder\>bin> gacutil /i TIBCO.EMS.dll
+   ```
   
- The TIBCO.EMS.dll now shows in the C:\Windows\assembly listing. Or, in Control Panel, open **Administrator Tools**, open **Microsoft .NET Framework**, and open **Assembly Cache** to view the GAC list.  
+   The TIBCO.EMS.dll now shows in the C:\Windows\assembly listing. Or, in Control Panel, open **Administrator Tools**, open **Microsoft .NET Framework**, and open **Assembly Cache** to view the GAC list.  
   
- **Limitations**  
+   **Limitations**  
   
- BizTalk Adapter for TIBCO EMS uses TIBCO.EMS.dll to communicate with the server. The following are limitations when you use the TIBCO.EMS.dll:  
+   BizTalk Adapter for TIBCO EMS uses TIBCO.EMS.dll to communicate with the server. The following are limitations when you use the TIBCO.EMS.dll:  
   
-1.  Message compression, which enables the TIBCO EMS client to send messages in a compressed form to EMS, is not available.  
+4. Message compression, which enables the TIBCO EMS client to send messages in a compressed form to EMS, is not available.  
   
-2.  Encryption of messages between the adapter and the server is not available. The TIBCO.EMS.dll does not allow for SSL encryption using the OpenSSL libraries but the Adapters support the SLL with Tibco.EMS.dll with ProductVersion 5.0 and above.  
+5. Encryption of messages between the adapter and the server is not available. The TIBCO.EMS.dll does not allow for SSL encryption using the OpenSSL libraries but the Adapters support the SLL with Tibco.EMS.dll with ProductVersion 5.0 and above.  
   
-3.  Administration API for EMS is not supported.  
+6. Administration API for EMS is not supported.  
   
 ## Adapter tracing
 

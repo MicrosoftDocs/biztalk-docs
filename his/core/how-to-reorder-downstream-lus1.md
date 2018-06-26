@@ -32,19 +32,19 @@ An administrator might create a downstream LU called DOWNLU3, and then realize t
   
 ### To reorder the numbering of downstream LUs  
   
-1.  Verify that the server is inactive. If necessary, right-click the server node, and click **Stop**.  
+1. Verify that the server is inactive. If necessary, right-click the server node, and click **Stop**.  
   
-2.  In the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] console tree, select the downstream connection with which the LUs are associated.  
+2. In the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] console tree, select the downstream connection with which the LUs are associated.  
   
-3.  Select one or more LUs and pools that you want to move up in the list.  
+3. Select one or more LUs and pools that you want to move up in the list.  
   
-     To select several adjacent items, click the first item you want, hold down SHIFT, and click the last item.  
+    To select several adjacent items, click the first item you want, hold down SHIFT, and click the last item.  
   
-     To select several nonadjacent items, hold down CTRL as you click the items that you want.  
+    To select several nonadjacent items, hold down CTRL as you click the items that you want.  
   
-4.  To move LUs up or down in the list, click the up or down arrow buttons on the Host Integration Server toolbar.  
+4. To move LUs up or down in the list, click the up or down arrow buttons on the Host Integration Server toolbar.  
   
-5.  To put configuration changes into effect, restart the server.  
+5. To put configuration changes into effect, restart the server.  
   
 ### To create a downstream pool  
   

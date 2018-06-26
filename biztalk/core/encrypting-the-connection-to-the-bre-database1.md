@@ -17,11 +17,11 @@ manager: "anneta"
 # Encrypt the Connection to the BRE Database
 Based on the security policy of your company, consider encrypting:  
   
--   The credentials transmitted during the logon process.  
+- The credentials transmitted during the logon process.  
   
--   The data transmitted across a network between the client computer where the Business Rule Engine (BRE) policy runs and the Rule Engine database.  
+- The data transmitted across a network between the client computer where the Business Rule Engine (BRE) policy runs and the Rule Engine database.  
   
- This topic describes how to encrypt the connections to BRE databases hosted on SQL Server.  
+  This topic describes how to encrypt the connections to BRE databases hosted on SQL Server.  
   
 ## Encrypt the Connection to the BRE Database
  By default, credentials that are transmitted during the logon process when a client application connects to SQL Server are encrypted. If no certificate has been provisioned on the server, when it starts up, SQL Server generates a self-signed certificate that is used to encrypt logon packets.  

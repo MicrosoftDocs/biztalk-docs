@@ -57,16 +57,16 @@ struct SLI_OPEN {
  *lua_wait*  
  Secondary retry wait time. Specifies how many seconds the Windows LUA interface is to wait before retransmitting the INITSELF or the LOGON message after receiving one of the following:  
   
--   A NOTIFY command (indicating a procedure error)  
+- A NOTIFY command (indicating a procedure error)  
   
--   A network services procedure error message  
+- A network services procedure error message  
   
--   A negative response with one of the following secondary return codes:  
+- A negative response with one of the following secondary return codes:  
   
-     RESOURCE_NOT_AVAILABLE SESSION_LIMIT_EXCEEDED SESSION_SERVICE_PATH_ERROR  
+   RESOURCE_NOT_AVAILABLE SESSION_LIMIT_EXCEEDED SESSION_SERVICE_PATH_ERROR  
   
- *lua_open_extension*  
- Supplied parameter. Specifies any user-supplied dynamic-link libraries (DLLs) used to process specific LUA messages.  
+  *lua_open_extension*  
+  Supplied parameter. Specifies any user-supplied dynamic-link libraries (DLLs) used to process specific LUA messages.  
   
- *lua_ending_delim*  
- Extension list delimiter.
+  *lua_ending_delim*  
+  Extension list delimiter.

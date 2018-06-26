@@ -26,11 +26,11 @@ You can use the following procedures to open the BizTalk Server Administration C
   
 ### To open the BizTalk Server Administration Console  
   
--   Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+- Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-     Or  
+   Or  
   
--   Click **Start**, click **Run**, type **BTSmmcLauncher.exe**, and then click **OK**.  
+- Click **Start**, click **Run**, type **BTSmmcLauncher.exe**, and then click **OK**.  
   
 ### To refresh the BizTalk Server Administration Console  
   

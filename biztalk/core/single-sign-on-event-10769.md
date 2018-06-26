@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10769
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10769|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_APP_INCOMPLETE_FIELDS|  
-|Message Text|The application cannot be enabled because the fields are incomplete for this application.|  
+|                 |                                                                                           |
+|-----------------|-------------------------------------------------------------------------------------------|
+|  Product Name   |                                 Enterprise Single Sign-On                                 |
+| Product Version |                [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                 |
+|    Event ID     |                                           10769                                           |
+|  Event Source   |                                          ENTSSO                                           |
+|    Component    |                                            N/A                                            |
+|  Symbolic Name  |                              ENTSSO_E_APP_INCOMPLETE_FIELDS                               |
+|  Message Text   | The application cannot be enabled because the fields are incomplete for this application. |
   
 ## Explanation  
  The application cannot be enabled because the fields are incomplete for this application.  

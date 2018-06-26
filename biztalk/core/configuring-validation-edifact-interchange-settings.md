@@ -25,19 +25,19 @@ This section provides instructions on how to prevent duplicate control numbers f
   
 ### To configure duplicate validation  
   
-1.  Create an EDIFACT encoding agreement as described in [Configuring General Settings (EDIFACT)](../core/configuring-general-settings-edifact.md). To update an existing agreement, right-click the agreement in the **Parties and Business Profiles** page, and click **Properties**.  
+1. Create an EDIFACT encoding agreement as described in [Configuring General Settings (EDIFACT)](../core/configuring-general-settings-edifact.md). To update an existing agreement, right-click the agreement in the **Parties and Business Profiles** page, and click **Properties**.  
   
-2.  On a one-way agreement tab, under **Interchange Settings** section, click **Validation**.  
+2. On a one-way agreement tab, under **Interchange Settings** section, click **Validation**.  
   
-3.  Select the **Interchange control number (UNB5)** check box to enable the receive pipeline to block duplicate interchanges. If selected, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will check that the interchange control number for the received interchange does not match the interchange control number of another received interchange. If a match is detected, the receive pipeline will not process the interchange.  
+3. Select the **Interchange control number (UNB5)** check box to enable the receive pipeline to block duplicate interchanges. If selected, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will check that the interchange control number for the received interchange does not match the interchange control number of another received interchange. If a match is detected, the receive pipeline will not process the interchange.  
   
-4.  If **Interchange control number (UNB5)** is selected, in the **Check for duplicate UNB5 within** field, enter the number of days to check for a duplicate interchange.  
+4. If **Interchange control number (UNB5)** is selected, in the **Check for duplicate UNB5 within** field, enter the number of days to check for a duplicate interchange.  
   
-5.  Select **Group control number (UNG5) in interchange** to prevent the receive pipeline from processing duplicate groups.  
+5. Select **Group control number (UNG5) in interchange** to prevent the receive pipeline from processing duplicate groups.  
   
-6.  Select **Transaction Set Control Number (UNH1) in group** to prevent the receive pipeline from processing duplicate transaction sets.  
+6. Select **Transaction Set Control Number (UNH1) in group** to prevent the receive pipeline from processing duplicate transaction sets.  
   
-7.  Click **Apply** to accept the changes before continuing with the configuration, or click **OK** to validate the changes and then close the dialog box.  
+7. Click **Apply** to accept the changes before continuing with the configuration, or click **OK** to validate the changes and then close the dialog box.  
   
 ## See Also  
  [Configuring Interchange Settings (EDIFACT)](../core/configuring-interchange-settings-edifact.md)

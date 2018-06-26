@@ -26,11 +26,11 @@ This topic lists the steps to prepare your computer by installing and configurin
   
 ##  <a name="BKMK_InstUpdates"></a> Install Windows Updates  
   
--   **Windows 7**: Click Start. In the **Search** text box, type **Windows Update**.  
+- **Windows 7**: Click Start. In the **Search** text box, type **Windows Update**.  
   
--   **Windows 8.1, Windows Server 2012, and Windows Server 2012 R2**: Click the Windows button on the keyboard and type **Windows Update**. From the search results, click **Windows Update**.  
+- **Windows 8.1, Windows Server 2012, and Windows Server 2012 R2**: Click the Windows button on the keyboard and type **Windows Update**. From the search results, click **Windows Update**.  
   
- After installing updates, you may need to restart the computer.  
+  After installing updates, you may need to restart the computer.  
   
 ##  <a name="BKMK_IIS"></a> Enable Internet Information Services  
  Microsoft Internet Information Services (IIS) provides a Web application infrastructure for many BizTalk Server features, including:  
@@ -85,17 +85,17 @@ Also consider the following:
  
 ##  <a name="BKMK_XLS"></a> Install Microsoft Office Excel  
   
-1.  Run the Microsoft Office setup.  
+1. Run the Microsoft Office setup.  
   
-2.  When you reach the **Type of Installation** screen, select **Custom Install**, and then select **Next**.  
+2. When you reach the **Type of Installation** screen, select **Custom Install**, and then select **Next**.  
   
-3.  On the **Custom Setup** screen, select **Excel**, and then select **Next**.  
+3. On the **Custom Setup** screen, select **Excel**, and then select **Next**.  
   
-4.  Select **Install**.  
+4. Select **Install**.  
   
-5.  In **Setup Completed**, select **Finish**.  
+5. In **Setup Completed**, select **Finish**.  
   
- **Additional**  
+   **Additional**  
   
 -   BizTalk Server supports only 32-bit version of Microsoft Office.  
   
@@ -105,15 +105,15 @@ Also consider the following:
   
 ##  <a name="BKMK_VS"></a> Install Visual Studio  
   
-1.  Run the Visual Studio setup as Administrator.  
+1. Run the Visual Studio setup as Administrator.  
   
-2.  Accept the license agreement and click **Next**.  
+2. Accept the license agreement and click **Next**.  
   
-3.  In **Optional features to install**, select the options you need and then select **Install**. BizTalk Server does not require any of the optional features.  
+3. In **Optional features to install**, select the options you need and then select **Install**. BizTalk Server does not require any of the optional features.  
   
-4.  On the **Finish** page, close the window or click **Launch** to open Visual Studio.  
+4. On the **Finish** page, close the window or click **Launch** to open Visual Studio.  
   
- **Additional**  
+   **Additional**  
   
 -   If you install Visual Studio before installing BizTalk Server, and then upgrade to Visual Studio Team Explorer, you may need to repair your BizTalk Server installation from the **Control Panel** / **Programs** option.  
   
@@ -134,52 +134,52 @@ Also consider the following:
   
  When you install SQL Server, select the following features:  
   
--   Database Engine Services  
+- Database Engine Services  
   
-    -   SQL Server Replication  
+  -   SQL Server Replication  
   
-    -   Full-Text Search  
+  -   Full-Text Search  
   
--   Analysis Services  
+- Analysis Services  
   
--   Reporting Services  
+- Reporting Services  
   
--   Shared Features  
+- Shared Features  
   
-    -   SQL Server Data Tools (SQL Server 2014 / SQL Server 2012) or Business Intelligence Development Studio (SQL Server 2008 R2)  
+  -   SQL Server Data Tools (SQL Server 2014 / SQL Server 2012) or Business Intelligence Development Studio (SQL Server 2008 R2)  
   
-         [Download SQL Server 2014 Data Tools](http://www.microsoft.com/download/details.aspx?id=42313)  
+       [Download SQL Server 2014 Data Tools](http://www.microsoft.com/download/details.aspx?id=42313)  
   
-    -   Client Tools Connectivity  
+  -   Client Tools Connectivity  
   
-    -   Integration Services  
+  -   Integration Services  
   
-    -   Management Tools - Basic  
+  -   Management Tools - Basic  
   
-        -   Management Tools - Complete  
+      -   Management Tools - Complete  
   
- **Additional**  
+  **Additional**  
   
--   BizTalk Server supports all case-sensitive and case-insensitive SQL Server collations except for binary collations. Binary collations are not supported.  
+- BizTalk Server supports all case-sensitive and case-insensitive SQL Server collations except for binary collations. Binary collations are not supported.  
   
--   For optimal performance, Microsoft recommends using the Enterprise Edition of SQL Server. See [SQL Server 2008 R2 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.105\).aspx), [SQL Server 2012 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.110\).aspx), or [SQL Server 2014 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.120\).aspx).  
+- For optimal performance, Microsoft recommends using the Enterprise Edition of SQL Server. See [SQL Server 2008 R2 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.105\).aspx), [SQL Server 2012 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.110\).aspx), or [SQL Server 2014 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.120\).aspx).  
   
--   Service packs and Windows Updates are supported and should be installed.  
+- Service packs and Windows Updates are supported and should be installed.  
   
--   When BizTalk Server and SQL Server are on separate computers, Distributed Transaction Coordinator (MS DTC) handles the transactions between the computers. The SQL Server AlwaysOn feature does not support MSDTC transactions. The SQL Server AlwaysOn feature is not supported.  
+- When BizTalk Server and SQL Server are on separate computers, Distributed Transaction Coordinator (MS DTC) handles the transactions between the computers. The SQL Server AlwaysOn feature does not support MSDTC transactions. The SQL Server AlwaysOn feature is not supported.  
   
 ##  <a name="BKMK_MQSeries"></a> Install MQSeries Prerequisites  
  **MQSeries adapter**: Automatically installed with the BizTalk Server installation.  
   
  **MQSeries Client (MQSC) adapter**:  
   
-1.  Run the Host Integration Server (HIS) installation  
+1. Run the Host Integration Server (HIS) installation  
   
-2.  In component installation, expand **BizTalk Adapters**.  
+2. In component installation, expand **BizTalk Adapters**.  
   
-3.  Select **BizTalk Adapter for WebSphere MQ (Client-Based)**.  
+3. Select **BizTalk Adapter for WebSphere MQ (Client-Based)**.  
   
- **Supported IBM WebSphere MQ versions**:  
+   **Supported IBM WebSphere MQ versions**:  
   
 -   IBM WebSphere MQ 6.0.2.12 and later  
   
@@ -198,17 +198,17 @@ Also consider the following:
   
  **Additional**  
   
--   As a best practice, always install the latest WebSphere MQ fix pack. See [http://www.ibm.com/support/docview.wss?uid=swg27006037](http://www.ibm.com/support/docview.wss?uid=swg27006037).  
+- As a best practice, always install the latest WebSphere MQ fix pack. See [http://www.ibm.com/support/docview.wss?uid=swg27006037](http://www.ibm.com/support/docview.wss?uid=swg27006037).  
   
--   If IBM WebSphere MQ is installed on a non-Windows computer, install the **MQSAgent COM+ application** (MQSConfigWiz.exe) and **MQSeries Server for Windows** on the same computer. If IBM WebSphere MQ is installed on a Windows computer, then the **MQSAgent COM+ application** and **MQSeries Server for Windows** program are not used or needed.  
+- If IBM WebSphere MQ is installed on a non-Windows computer, install the **MQSAgent COM+ application** (MQSConfigWiz.exe) and **MQSeries Server for Windows** on the same computer. If IBM WebSphere MQ is installed on a Windows computer, then the **MQSAgent COM+ application** and **MQSeries Server for Windows** program are not used or needed.  
   
-     **MQSConfigWiz.exe** is included in the BizTalk Server installation files.  
+   **MQSConfigWiz.exe** is included in the BizTalk Server installation files.  
   
-     **MQSeries Server for Windows** is not a Microsoft program and must be obtained with your IBM WebSphere MQ program.  
+   **MQSeries Server for Windows** is not a Microsoft program and must be obtained with your IBM WebSphere MQ program.  
   
--   [MQSeries Adapter](http://technet.microsoft.com/library/aa547973\(v=BTS.80\).aspx) provides more information on the MQSeries adapter, including configuring the different components. [BizTalk Server: MQSeries and MQSeries Client (MQSC) adapters](http://social.technet.microsoft.com/wiki/contents/articles/18316.biztalk-server-mqseries-and-mqseries-client-mqsc-adapters.aspx) provides additional details on the MQSeries and MQSC adapters.  
+- [MQSeries Adapter](http://technet.microsoft.com/library/aa547973\(v=BTS.80\).aspx) provides more information on the MQSeries adapter, including configuring the different components. [BizTalk Server: MQSeries and MQSeries Client (MQSC) adapters](http://social.technet.microsoft.com/wiki/contents/articles/18316.biztalk-server-mqseries-and-mqseries-client-mqsc-adapters.aspx) provides additional details on the MQSeries and MQSC adapters.  
   
--   IBM WebSphere is not a Microsoft product and is not supported by Microsoft. Microsoft makes no guarantees about the suitability of this program. For more information about IBM WebSphere MQ, including download instructions, see www.ibm.com.  
+- IBM WebSphere is not a Microsoft product and is not supported by Microsoft. Microsoft makes no guarantees about the suitability of this program. For more information about IBM WebSphere MQ, including download instructions, see www.ibm.com.  
   
 ##  <a name="BKMK_BAMAlerts"></a> BAM Alerts  
  BAM Alerts with SQL Server 2012 and newer versions use Database Mail in SQL Server. BAM Alerts with SQL Server 2008 R2 and older versions use SQL Notification Services. Before installing or configuring BAM Alerts, you must configure the Notification Services or Database Mail in SQL Server.  
@@ -224,38 +224,38 @@ Also consider the following:
   
 ###  <a name="BKMK_SSNS"></a> BAM Alerts using SQL Server 2008 R2 – Install SQL Server 2005 Notification Services  
   
-1.  Go to [Feature Pack for Microsoft SQL Server 2005 SP4](http://go.microsoft.com/fwlink/p/?LinkId=286285).  
+1. Go to [Feature Pack for Microsoft SQL Server 2005 SP4](http://go.microsoft.com/fwlink/p/?LinkId=286285).  
   
-2.  Download and install the appropriate platform package for the following components:  
+2. Download and install the appropriate platform package for the following components:  
   
-     **Microsoft SQL Server Native Client**  
+    **Microsoft SQL Server Native Client**  
   
-    -   HYPERLINK "http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/sqlncli.msi" X86 Package (sqlncli.msi)  
+   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/sqlncli.msi>" X86 Package (sqlncli.msi)  
   
-    -   HYPERLINK "http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/sqlncli_x64.msi" X64 Package (sqlncli_x64.msi)  
+   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/sqlncli_x64.msi>" X64 Package (sqlncli_x64.msi)  
   
      **Microsoft SQL Server 2005 Management Objects Collection**  
   
-    -   HYPERLINK "http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_XMO.msi" X86 Package (SQLServer2005_XMO.msi)  
+   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_XMO.msi>" X86 Package (SQLServer2005_XMO.msi)  
   
-    -   HYPERLINK "http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_XMO_x64.msi" X64 Package (SQLServer2005_XMO_x64.msi)  
+   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_XMO_x64.msi>" X64 Package (SQLServer2005_XMO_x64.msi)  
   
      **Microsoft SQL Server 2005 Notification Services Client Components**  
   
-    -   HYPERLINK "http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_NS.msi" X86 Package (SQLServer2005_NS.msi)  
+   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_NS.msi>" X86 Package (SQLServer2005_NS.msi)  
   
-    -   HYPERLINK "http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_NS_x64.msi" X64 Package (SQLServer2005_NS_x64.msi)  
+   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_NS_x64.msi>" X64 Package (SQLServer2005_NS_x64.msi)  
   
- **Additional**  
+   **Additional**  
   
 -   SQL Notification Services does not need to be configured; only installed on the BizTalk Server.  
   
 ##  <a name="BKMK_WIF"></a> Windows Identity Foundation  
   
-|||  
-|-|-|  
-|Windows 8.1, Windows Server 2012, and Windows Server 2012 R2|Windows Identity Foundation is included with the operating system as a Feature in **Turn Windows features on or off**.|  
-|Windows Vista SP1|Download available at [Windows Identity Foundation](http://www.microsoft.com/download/details.aspx?id=17331) HYPERLINK "http://www.microsoft.com/download/details.aspx?id=17331" .|  
+|                                                              |                                                                                                                                                                                      |
+|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 |                                Windows Identity Foundation is included with the operating system as a Feature in **Turn Windows features on or off**.                                |
+|                      Windows Vista SP1                       | Download available at [Windows Identity Foundation](http://www.microsoft.com/download/details.aspx?id=17331) HYPERLINK "<http://www.microsoft.com/download/details.aspx?id=17331>" . |
   
  **Additional**  
   
@@ -297,17 +297,17 @@ Also consider the following:
   
 ##  <a name="BKMK_SharedMem"></a> Disable the Shared Memory Protocol  
   
-1.  Open **SQL Server Configuration Manager**.  
+1. Open **SQL Server Configuration Manager**.  
   
-2.  In **SQL Server Configuration Manager**, expand **SQL Server Network Configuration**, and then select **Protocols for MSSQLSERVER**.  
+2. In **SQL Server Configuration Manager**, expand **SQL Server Network Configuration**, and then select **Protocols for MSSQLSERVER**.  
   
-3.  Right-click **Shared Memory**, and then select **Disable**.  
+3. Right-click **Shared Memory**, and then select **Disable**.  
   
-4.  Select **SQL Server Services**, right-click **SQL Server (MSSQLSERVER)**, and then select **Stop**. After the service has stopped, right-click **SQL Server (MSSQLSERVER)** again, and then select **Start**.  
+4. Select **SQL Server Services**, right-click **SQL Server (MSSQLSERVER)**, and then select **Stop**. After the service has stopped, right-click **SQL Server (MSSQLSERVER)** again, and then select **Start**.  
   
-5.  Close **SQL Server Configuration Manager**.  
+5. Close **SQL Server Configuration Manager**.  
   
- **Additional**  
+   **Additional**  
   
 -   Under certain stress conditions (such as clients accessing SQL Server from the same computer), the SQL Server Shared Memory protocol may lower BizTalk Server performance. You can resolve this behavior by disabling the Shared Memory network protocol in SQL Server Network Configuration.  
   
@@ -326,27 +326,27 @@ Also consider the following:
   
 ##  <a name="BKMK_AppLog"></a> Configure the Application Event Log  
   
-1.  Open **Event Viewer**:  
+1. Open **Event Viewer**:  
   
-     **Windows Server 2012** : Click the Windows button on the keyboard and type **Event Viewer**. In the Results window, click **Event Viewer**.  
+    **Windows Server 2012** : Click the Windows button on the keyboard and type **Event Viewer**. In the Results window, click **Event Viewer**.  
   
-     **Windows 8.1**: Click the Windows button on the keyboard and type **Event Viewer**. In the Search window, click **Settings**. In the Results window, click **View event logs**.  
+    **Windows 8.1**: Click the Windows button on the keyboard and type **Event Viewer**. In the Search window, click **Settings**. In the Results window, click **View event logs**.  
   
-     **Windows 7 SP1**: Click Start. In the **Search** text box, type **Event Viewer**, and click it to open.  
+    **Windows 7 SP1**: Click Start. In the **Search** text box, type **Event Viewer**, and click it to open.  
   
-2.  Expand **Windows Logs**, right-click **Application**, and then click **Properties**. In **Log Properties**:  
+2. Expand **Windows Logs**, right-click **Application**, and then click **Properties**. In **Log Properties**:  
   
-    -   To determine the available space, compare the **Log Size** and the **Maximum log size** properties.  
+   -   To determine the available space, compare the **Log Size** and the **Maximum log size** properties.  
   
-    -   To provide more space, enter a higher number in **Maximum log size**.  
+   -   To provide more space, enter a higher number in **Maximum log size**.  
   
-    -   To enable overwriting of old events when the log becomes full, select **Overwrite events as needed**.  
+   -   To enable overwriting of old events when the log becomes full, select **Overwrite events as needed**.  
   
-    -   To clear the log events, select **Clear log**.  
+   -   To clear the log events, select **Clear log**.  
   
-3.  Click **OK** to close the **Event Viewer**.  
+3. Click **OK** to close the **Event Viewer**.  
   
- **Additional**  
+   **Additional**  
   
 -   BizTalk Server setup keeps a record of events in the Application Event Log. Depending on the BizTalk Server features installed, the amount of space required in the log may exceed its limit. If the application event log runs out of space during BizTalk Server setup, the installation fails. Changing the Application Event Log settings prevents this failure.  
   

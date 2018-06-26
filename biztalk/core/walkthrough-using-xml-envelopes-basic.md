@@ -43,52 +43,52 @@ This example demonstrates basic XML envelope disassembly by implementing part of
   
 ##### To create and configure a new BizTalk project  
   
-1.  Use [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to create a new BizTalk project. Call the project **BasicXMLEnvelope**.  
+1. Use [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to create a new BizTalk project. Call the project **BasicXMLEnvelope**.  
   
-2.  Generate a key file and assign it to the project. For more information about this task, see [How to Configure a Strong Name Assembly Key File](../core/how-to-configure-a-strong-name-assembly-key-file.md).  
+2. Generate a key file and assign it to the project. For more information about this task, see [How to Configure a Strong Name Assembly Key File](../core/how-to-configure-a-strong-name-assembly-key-file.md).  
   
-3.  In the deployment configuration properties for the project, assign an **Application Name** and set **Restart Host Instances** to `True`. Setting this flag tells the host to clear any cached instances of the assembly.  
+3. In the deployment configuration properties for the project, assign an **Application Name** and set **Restart Host Instances** to `True`. Setting this flag tells the host to clear any cached instances of the assembly.  
   
 ### Create the Error Schema  
  In this step you create the Error schema. It defines the key message for the system.  
   
 ##### To create the Error schema  
   
-1.  Add a new schema named "Error" to the project.  
+1. Add a new schema named "Error" to the project.  
   
-2.  Change the target namespace for the schema to **http://BasicXMLEnvelope**.  
+2. Change the target namespace for the schema to **http://BasicXMLEnvelope**.  
   
-3.  Change the schema property **Element FormDefault** under the **Advanced** category to **Qualified**. This indicates that locally declared elements must be qualified by the target namespace in an instance document.  
+3. Change the schema property **Element FormDefault** under the **Advanced** category to **Qualified**. This indicates that locally declared elements must be qualified by the target namespace in an instance document.  
   
-4.  Rename the root node "Error" and create five child elements with the types indicated:  
+4. Rename the root node "Error" and create five child elements with the types indicated:  
   
-    -   ID, xs:int  
+   - ID, xs:int  
   
-    -   Type, xs:int  
+   - Type, xs:int  
   
-    -   Priority, xs:string  
+   - Priority, xs:string  
   
-    -   Description, xs:string  
+   - Description, xs:string  
   
-    -   ErrorDateTime, xs:string  
+   - ErrorDateTime, xs:string  
   
      Your schema should look like the following:  
   
      ![Completed Error schema](../core/media/error-schema.gif "error_schema")  
   
-5.  Create a sample message for this schema. This is used to verify that single messages outside of an envelope are processed properly. An example sample message is:  
+5. Create a sample message for this schema. This is used to verify that single messages outside of an envelope are processed properly. An example sample message is:  
   
-    ```  
-    <Error xmlns="http://BasicXMLEnvelope">  
-      <ID>1</ID>  
-      <Type>5</Type>  
-      <Priority>Low</Priority>  
-      <Description>Sprocket widget prints reports slowly.</Description>  
-      <ErrorDateTime>1999-05-31T13:20:00.000-05:00</ErrorDateTime>  
-    </Error>  
-    ```  
+   ```  
+   <Error xmlns="http://BasicXMLEnvelope">  
+     <ID>1</ID>  
+     <Type>5</Type>  
+     <Priority>Low</Priority>  
+     <Description>Sprocket widget prints reports slowly.</Description>  
+     <ErrorDateTime>1999-05-31T13:20:00.000-05:00</ErrorDateTime>  
+   </Error>  
+   ```  
   
-     Save this message in a file in the project directory.  
+    Save this message in a file in the project directory.  
   
 ### Create the Envelope Schema  
  The envelope contains one or more error messages. In this basic example, the envelope does not have properties and elements of its own.  
@@ -137,9 +137,9 @@ This example demonstrates basic XML envelope disassembly by implementing part of
   
 ##### To deploy BasicXMLEnvelope  
   
-1.  From [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], choose **Deploy BasicXMLEnvelope** from the Build menu. This will build and deploy it to BizTalk Server as the application "BasicXMLEnvelope".  
+1. From [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], choose **Deploy BasicXMLEnvelope** from the Build menu. This will build and deploy it to BizTalk Server as the application "BasicXMLEnvelope".  
   
-2.  In the BizTalk Server Administration console, expand the **Applications** group to verify that **BasicXMLEnvelope** is present as a custom application.  
+2. In the BizTalk Server Administration console, expand the **Applications** group to verify that **BasicXMLEnvelope** is present as a custom application.  
   
 ##### To configure the receive port  
   
@@ -181,11 +181,11 @@ This example demonstrates basic XML envelope disassembly by implementing part of
 ## Extending the Example  
  You can extend the example to accommodate other requirements. This section addresses two common scenarios:  
   
--   If a batch of errors is submitted within an envelope, individual message failures in disassembly should not prohibit other nonfailing messages from being further processed.  
+- If a batch of errors is submitted within an envelope, individual message failures in disassembly should not prohibit other nonfailing messages from being further processed.  
   
--   Errors should be delivered to different locations based on error priority. High-priority messages are expedited while other priorities are handled through normal channels.  
+- Errors should be delivered to different locations based on error priority. High-priority messages are expedited while other priorities are handled through normal channels.  
   
- The following sections extend the example to handle these requirements.  
+  The following sections extend the example to handle these requirements.  
   
 ### Recoverable Interchange Processing  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports recoverable interchange processing. By using this feature, you can ensure that batches of messages fail individually in disassembly and not as a batch.  
@@ -238,17 +238,17 @@ This example demonstrates basic XML envelope disassembly by implementing part of
   
 ##### To promote the Priority field in the Error schema  
   
-1.  With the **BasicXMLEnvelope** project open in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the **Error** schema and expand the **Error** node.  
+1. With the **BasicXMLEnvelope** project open in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the **Error** schema and expand the **Error** node.  
   
-2.  Right-click the **Priority** element, point to **Promote**, and then click **Quick Promote**.  
+2. Right-click the **Priority** element, point to **Promote**, and then click **Quick Promote**.  
   
-3.  Click **OK** to confirm the addition of a new property schema for the promoted properties.  
+3. Click **OK** to confirm the addition of a new property schema for the promoted properties.  
   
-4.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], in Solution Explorer, open the new property schema PropertySchema.xsd. Remove "Field1" from the schema.  
+4. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], in Solution Explorer, open the new property schema PropertySchema.xsd. Remove "Field1" from the schema.  
   
-5.  Now recompile and redeploy the solution. On the Build menu, choose Deploy BasicXMLEnvelope.  
+5. Now recompile and redeploy the solution. On the Build menu, choose Deploy BasicXMLEnvelope.  
   
-6.  The project was configured to reset the host instance when the solution is redeployed. If you have changed this, you need to stop and start the host.  
+6. The project was configured to reset the host instance when the solution is redeployed. If you have changed this, you need to stop and start the host.  
   
 ##### To configure the low and medium-priority send port  
   

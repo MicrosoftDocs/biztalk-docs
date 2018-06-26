@@ -22,17 +22,17 @@ You can install the Enterprise Single Sign-On (SSO) Administration component as 
   
 ### To install the Enterprise Single Sign-On administrative component  
   
-1.  Perform a custom installation of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], selecting only the Enterprise Single Sign-On administration component.  
+1. Perform a custom installation of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], selecting only the Enterprise Single Sign-On administration component.  
   
-2.  When the installation program finishes, click **Start**, click **Run**, and then type `cmd`.  
+2. When the installation program finishes, click **Start**, click **Run**, and then type `cmd`.  
   
-3.  At the command prompt, go to the Enterprise Single Sign-On installation directory.  
+3. At the command prompt, go to the Enterprise Single Sign-On installation directory.  
   
-     The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+    The default installation directory is *\<drive>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Do one of the following:  
+4. Do one of the following:  
   
-    -   Type `ssomanage –server` to specify the SSO server that you want to connect to when you perform administration operations.  
+   - Type `ssomanage –server` to specify the SSO server that you want to connect to when you perform administration operations.  
   
      OR  
   

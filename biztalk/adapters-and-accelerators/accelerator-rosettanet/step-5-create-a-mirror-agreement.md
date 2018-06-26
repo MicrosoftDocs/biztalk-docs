@@ -22,21 +22,21 @@ In this step, you use the Loopback utility to create a mirror agreement simulati
   
 ### To create a mirror agreement using the Loopback utility  
   
-1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  At the command prompt, move to \<*drive*\>:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK. Type the following command and then press **Enter**:  
+2. At the command prompt, move to \<*drive*\>:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK. Type the following command and then press **Enter**:  
   
-    ```  
-    Loopback /enable HOME  
-    ```  
+   ```  
+   Loopback /enable HOME  
+   ```  
   
-3.  After the command executed in step 2 has completed, type the following command in the command prompt, and then press **Enter**:  
+3. After the command executed in step 2 has completed, type the following command in the command prompt, and then press **Enter**:  
   
-    ```  
-    Loopback /mirror "Trade Agreement"   
-    ```  
+   ```  
+   Loopback /mirror "Trade Agreement"   
+   ```  
   
- The Loopback utility automatically creates send ports for the home organization (initiator) and a mirror trade agreement for the partner organization. The partner uses the two new send ports to communicate with the home organization.  
+   The Loopback utility automatically creates send ports for the home organization (initiator) and a mirror trade agreement for the partner organization. The partner uses the two new send ports to communicate with the home organization.  
   
 > [!NOTE]
 >  You must re-mirror the trade agreement whenever you update the original trade agreement.  

@@ -21,33 +21,33 @@ Windows Clustering and SQL Server allow you to run SQL Server in Active/Active m
 ## Evaluating Failover for an Active/Active Cluster  
  Considerations when verifying that a single node can handle the load of all SQL Server instances in the event of a SQL Server cluster node failover include:  
   
--   Does the failover node have sufficient CPU resources?  
+- Does the failover node have sufficient CPU resources?  
   
--   Does the failover node have sufficient memory?  
+- Does the failover node have sufficient memory?  
   
--   Is there sufficient network bandwidth?  
+- Is there sufficient network bandwidth?  
   
--   Can the failover node handle the increased disk I/O contention?  
+- Can the failover node handle the increased disk I/O contention?  
   
- The following scenarios should be evaluated when testing failover:  
+  The following scenarios should be evaluated when testing failover:  
   
--   Power failure on the active server  
+- Power failure on the active server  
   
--   Power failure on the passive server  
+- Power failure on the passive server  
   
--   Loss of disk connection  
+- Loss of disk connection  
   
--   Broken public network connection on the Active node  
+- Broken public network connection on the Active node  
   
--   Broken private network connection on the Active node  
+- Broken private network connection on the Active node  
   
--   Broken public network connection on the Passive node  
+- Broken public network connection on the Passive node  
   
--   Broken private network connection on the Passive node  
+- Broken private network connection on the Passive node  
   
--   Failed SQL Server service  
+- Failed SQL Server service  
   
--   Failed SQL Server Agent service  
+- Failed SQL Server Agent service  
   
 ## Using an Active/Active/Passive Cluster  
  If you determine that one node cannot handle all SQL Server instances in a failover scenario, an alternative is to use an Active/Active/Passive clustering model. The Active/Active/Passive clustering model greatly increases the likelihood that there will always be one Passive node available for failover scenarios.  

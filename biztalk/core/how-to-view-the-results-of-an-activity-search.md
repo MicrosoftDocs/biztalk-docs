@@ -37,28 +37,28 @@ Users can view the results of a query by clicking the **Execute Query** button i
   
 #### To execute a query to return results  
   
-1.  Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BAM Portal Web Site**.  
+1. Click **Start**, point to **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BAM Portal Web Site**.  
   
-2.  In the **My Views** pane, click a view for which you are creating the activity search.  
+2. In the **My Views** pane, click a view for which you are creating the activity search.  
   
-3.  Click an activity associated with the view to load that activity in the content frame.  
+3. Click an activity associated with the view to load that activity in the content frame.  
   
-4.  Create an activity search or open an existing activity search. For information about creating or opening activity searches, see [How to Create a Query in Activity Search](../core/how-to-create-a-query-in-activity-search.md).  
+4. Create an activity search or open an existing activity search. For information about creating or opening activity searches, see [How to Create a Query in Activity Search](../core/how-to-create-a-query-in-activity-search.md).  
   
-5.  Click the **Execute Query** button located at the top of the content frame of the portal.  
+5. Click the **Execute Query** button located at the top of the content frame of the portal.  
   
-6.  Scroll down to view the output of the query in the **Results** area of the content frame.  
+6. Scroll down to view the output of the query in the **Results** area of the content frame.  
   
 ## View results information  
  You can view detailed status for items returned by the query. Additional details that are displayed are:  
   
--   Activity status, consisting of associated milestones and data  
+- Activity status, consisting of associated milestones and data  
   
--   Related documents  
+- Related documents  
   
--   Related activities  
+- Related activities  
   
- In addition, you can request assistance from your administrator by clicking the **Assistance** button below the **Related Activities** area in the content frame.  
+  In addition, you can request assistance from your administrator by clicking the **Assistance** button below the **Related Activities** area in the content frame.  
   
 #### To view detailed status information on results  
   

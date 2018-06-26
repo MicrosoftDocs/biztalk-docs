@@ -32,11 +32,11 @@ This topic describes how to use the BizTalk Server Administration console to sto
   
 ### To stop a send port or send port group  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the send port or send port group that you want to stop.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group, expand **Applications**, and then expand the application containing the send port or send port group that you want to stop.  
   
-3.  Click **Send Ports** or **Send Port Groups**, right-click the send port or send port, and then click **Stop**.  
+3. Click **Send Ports** or **Send Port Groups**, right-click the send port or send port, and then click **Stop**.  
   
 ## See Also  
  [Managing Send Ports and Send Port Groups](../core/managing-send-ports-and-send-port-groups.md)

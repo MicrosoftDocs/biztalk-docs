@@ -20,32 +20,32 @@ manager: "anneta"
 # Run Operations on Business Components Using BizTalk Server and the Siebel adapter
 The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces operations that can be invoked on a business component. The operations on business components can be categorized as:  
   
--   Standard operations on business components. These include Insert, Query, Update, and Delete. This topic discusses how to perform these operations using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
+- Standard operations on business components. These include Insert, Query, Update, and Delete. This topic discusses how to perform these operations using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].  
   
--   Operations on business components containing multivalued group fields. These include the standard operations as well as Associate, Disassociate, Query_[MVG_Child_Bussiness_Comp]. For more information about performing these operations, see [Run Operations on Business Components with MVG Fields Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-with-mvg-fields-using-the-siebel-adapter.md)  
+- Operations on business components containing multivalued group fields. These include the standard operations as well as Associate, Disassociate, Query_[MVG_Child_Bussiness_Comp]. For more information about performing these operations, see [Run Operations on Business Components with MVG Fields Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-with-mvg-fields-using-the-siebel-adapter.md)  
   
--   Operations on business components containing picklist fields. For more information about performing these operations, see [Run Operations on Business Components with Picklist Fields Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-tasks-on-business-components-with-picklist-fields-using-the-siebel-adapter.md).  
+- Operations on business components containing picklist fields. For more information about performing these operations, see [Run Operations on Business Components with Picklist Fields Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-tasks-on-business-components-with-picklist-fields-using-the-siebel-adapter.md).  
   
- For more information about how the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports operations on business components, see [Operations on Business Components in Siebel](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md). For more information about the structure of SOAP messages for performing these operations, see [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
+  For more information about how the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports operations on business components, see [Operations on Business Components in Siebel](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md). For more information about the structure of SOAP messages for performing these operations, see [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
   
 ## How to Perform Operations on a Business Component  
  Performing an operation on a Siebel system using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to create BizTalk applications with the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/building-blocks-to-create-biztalk-applications-with-the-siebel-adapter.md). 
  
  To complete an operation on a business component, these tasks are:  
   
-1.  Create a BizTalk project and generate schema for operation you want to invoke on the business component.  
+1. Create a BizTalk project and generate schema for operation you want to invoke on the business component.  
   
-2.  Create messages in the BizTalk project for sending and receiving messages from the Siebel system.  
+2. Create messages in the BizTalk project for sending and receiving messages from the Siebel system.  
   
-3.  Create an orchestration to invoke an operation in the Siebel system.  
+3. Create an orchestration to invoke an operation in the Siebel system.  
   
-4.  Build and deploy the BizTalk project.  
+4. Build and deploy the BizTalk project.  
   
-5.  Configure the BizTalk application by creating physical send and receive ports.  
+5. Configure the BizTalk application by creating physical send and receive ports.  
   
-6.  Start the BizTalk application.  
+6. Start the BizTalk application.  
   
- This topic provides instructions to perform these tasks.  
+   This topic provides instructions to perform these tasks.  
   
 ## Sample Based On This Topic  
  A sample, SiebelAccount, based on this topic is also provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/samples-for-the-siebel-adapter.md).  
@@ -85,17 +85,17 @@ The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] su
 ## Setting up the Orchestration  
  You must create a BizTalk orchestration to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for performing an operation on a Siebel business component. In this orchestration, you drop a request message at a defined receive location. The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] consumes this message and passes it on to the Siebel system. The response from the Siebel system is saved to another location. A typical orchestration for performing operations on Siebel business components would contain:  
   
--   Send and receive shapes to send messages to Siebel and receive responses.  
+- Send and receive shapes to send messages to Siebel and receive responses.  
   
--   A one-way receive port to receive request messages to send to Siebel.  
+- A one-way receive port to receive request messages to send to Siebel.  
   
--   A two-way send port to send request messages to Siebel and receive responses.  
+- A two-way send port to send request messages to Siebel and receive responses.  
   
--   A one-way send port to send the responses from Siebel to a folder.  
+- A one-way send port to send the responses from Siebel to a folder.  
   
- A sample orchestration for the *Insert* operation on an *Account* business component resembles the following:  
+  A sample orchestration for the *Insert* operation on an *Account* business component resembles the following:  
   
- ![Orchestration to insert data in Siebel BC](../../adapters-and-accelerators/adapter-siebel/media/f005df04-dfbf-4c75-8f9b-2bc3a357d52b.gif "f005df04-dfbf-4c75-8f9b-2bc3a357d52b")  
+  ![Orchestration to insert data in Siebel BC](../../adapters-and-accelerators/adapter-siebel/media/f005df04-dfbf-4c75-8f9b-2bc3a357d52b.gif "f005df04-dfbf-4c75-8f9b-2bc3a357d52b")  
   
 ### Adding Message Shapes  
  Make sure you specify the following properties for each of the message shapes. The names listed in the *Shape* column are the names of the message shapes as displayed in the orchestration above.  
@@ -135,18 +135,18 @@ The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] su
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
   
-    -   Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the Siebel system.  
+  - Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the Siebel system.  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the Siebel system.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the Siebel system.  
   
-    -   Define a physical WCF-Custom or WCF-Siebel send port to send messages to the Siebel system. You must also specify the action in the send port. For information about how to create ports, see [Manually configure a physical port binding to the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/manually-configure-a-physical-port-binding-to-the-siebel-adapter.md).
+  - Define a physical WCF-Custom or WCF-Siebel send port to send messages to the Siebel system. You must also specify the action in the send port. For information about how to create ports, see [Manually configure a physical port binding to the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/manually-configure-a-physical-port-binding-to-the-siebel-adapter.md).
   
-        > [!NOTE]
-        >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports. You can import this binding file from the BizTalk Administration Console to create send ports (for outbound calls). For more information, see [Configure a physical port binding using a port binding file to Siebel](../../adapters-and-accelerators/adapter-siebel/configure-a-physical-port-binding-using-a-port-binding-file-to-siebel.md).
+    > [!NOTE]
+    >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports. You can import this binding file from the BizTalk Administration Console to create send ports (for outbound calls). For more information, see [Configure a physical port binding using a port binding file to Siebel](../../adapters-and-accelerators/adapter-siebel/configure-a-physical-port-binding-using-a-port-binding-file-to-siebel.md).
   
 ## Starting the Application  
  You must start the BizTalk application for performing an *Insert* operation on the *Account* business component in Siebel. For instructions on starting a BizTalk application, see [Start a BizTalk Application](../../core/how-to-start-and-stop-a-biztalk-application.md) or [Start an Orchestration](../../core/how-to-start-an-orchestration.md).

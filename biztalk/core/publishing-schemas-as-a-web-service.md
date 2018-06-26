@@ -24,13 +24,13 @@ You use the BizTalk Web Services Publishing Wizard to create Web services that u
   
 > [!IMPORTANT]
 >  You must compile the BizTalk assemblies containing the schemas.  
-  
+> 
 > [!IMPORTANT]
 >  Each Web method can have one request schema and one response schema.  
-  
+> 
 > [!NOTE]
 >  To publish schemas as a Web service, you must have [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installed.  
-  
+> 
 > [!IMPORTANT]
 >  Prior to running the BizTalk Web Services Publishing Wizard, you must enable Web services. For more information about enabling Web services, see [Enabling Web Services](../core/enabling-web-services.md).  
   

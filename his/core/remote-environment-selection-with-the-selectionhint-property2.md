@@ -22,11 +22,11 @@ Developers can use the `SelectionHint` property to specify a remote environment 
   
  Before you can use the `SelectionHint` property to specify a remote environment (RE) programmatically, the following must be in place:  
   
--   [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] must be installed on all computers running the TI run-time environment or TI Designer.  
+- [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] must be installed on all computers running the TI run-time environment or TI Designer.  
   
--   The TI component must be assigned to an RE even though RE selection is in use. The RE assigned to the component is used when an application that has a TI component does not explicitly set the `SelectionHint` property.  
+- The TI component must be assigned to an RE even though RE selection is in use. The RE assigned to the component is used when an application that has a TI component does not explicitly set the `SelectionHint` property.  
   
- To assign a TI component to an RE, use TI Manager and follow the instructions provided in the TI online Help.  
+  To assign a TI component to an RE, use TI Manager and follow the instructions provided in the TI online Help.  
   
 ## In This Section  
  [Remote Environment Selection Guidelines](../core/remote-environment-selection-guidelines1.md)  

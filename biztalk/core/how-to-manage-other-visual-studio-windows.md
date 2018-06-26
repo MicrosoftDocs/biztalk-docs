@@ -19,19 +19,19 @@ Certain operations in BizTalk Editor use other Microsoft [!INCLUDE[btsVStudioNoV
   
 ### To open the Output window  
   
--   In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], click on the **View** menu, and then click **Output**.  
+- In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], click on the **View** menu, and then click **Output**.  
   
-    > [!NOTE]
-    >  If you want to view the file corresponding to a line in the Output window, double-click that line.  
+  > [!NOTE]
+  >  If you want to view the file corresponding to a line in the Output window, double-click that line.  
   
 ### To open the Task List window  
   
--   In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], click on the **View** menu, and then click **Task List**.  
+- In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], click on the **View** menu, and then click **Task List**.  
   
-    > [!NOTE]
-    >  If you want to view the node in a BizTalk schema that corresponds to a task line in the Task List window, double-click that task line.  
+  > [!NOTE]
+  >  If you want to view the node in a BizTalk schema that corresponds to a task line in the Task List window, double-click that task line.  
   
- By default, the Output window and the Task List window share the same section of the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell. If both windows are open at the same time, they are displayed with named tabs that allow you to switch back and forth between them.  
+  By default, the Output window and the Task List window share the same section of the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell. If both windows are open at the same time, they are displayed with named tabs that allow you to switch back and forth between them.  
   
 ## See Also  
  [Using BizTalk Editor](../core/using-biztalk-editor.md)

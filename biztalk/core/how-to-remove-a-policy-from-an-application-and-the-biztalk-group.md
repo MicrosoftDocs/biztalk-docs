@@ -39,30 +39,30 @@ This topic describes how to use the BizTalk Server Administration console or the
   
 #### Using the BizTalk Server Administration console  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand  **BizTalk Server Administration**, expand the BizTalk group containing the policy to remove, and then expand the application containing the policy  
+2. In the console tree, expand  **BizTalk Server Administration**, expand the BizTalk group containing the policy to remove, and then expand the application containing the policy  
   
-3.  Click **Policies**, right-click the policy, and then click **Remove**.  
+3. Click **Policies**, right-click the policy, and then click **Remove**.  
   
 #### Using the command line  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
-2.  Type the following command, substituting the appropriate values, as described in the following table:  
+2. Type the following command, substituting the appropriate values, as described in the following table:  
   
-     **BTSTask RemoveResource** [**/ApplicationName:***value*] **/Luid:***value* [**/Server:***value*] [**/Database:***value*]  
+    **BTSTask RemoveResource** [**/ApplicationName:**<em>value</em>] **/Luid:**<em>value</em> [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
-     Example:  
+    Example:  
   
-     **BTSTask RemoveResource /ApplicationName:MyApplication /Luid:"Rule/Policy1/1.0"**  
+    **BTSTask RemoveResource /ApplicationName:MyApplication /Luid:"Rule/Policy1/1.0"**  
   
-    |Parameter|Description|  
-    |---------------|-----------------|  
-    |**/ApplicationName**|Name of the BizTalk application containing the policy to delete. If this parameter is not specified, the default application is used.|  
-    |**/Luid**|Locally unique identifier (LUID) of the policy. You can obtain the LUID by using the **ListApp** command, as described in [ListApp Command](../core/listapp-command.md).|  
-    |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database. Required if you specify the Database parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
-    |**/Database**|Name of the BizTalk Management database. Required if you specify the Server parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
+   |Parameter|Description|  
+   |---------------|-----------------|  
+   |**/ApplicationName**|Name of the BizTalk application containing the policy to delete. If this parameter is not specified, the default application is used.|  
+   |**/Luid**|Locally unique identifier (LUID) of the policy. You can obtain the LUID by using the **ListApp** command, as described in [ListApp Command](../core/listapp-command.md).|  
+   |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database. Required if you specify the Database parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
+   |**/Database**|Name of the BizTalk Management database. Required if you specify the Server parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
   
 ## See Also  
  [Managing Policies](../core/managing-policies.md)

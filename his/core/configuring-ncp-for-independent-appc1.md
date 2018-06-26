@@ -18,19 +18,19 @@ Parameters on Network Control Program (NCP) must match Advanced Program-to-Progr
   
  This section provides information about NCP definitions used for supporting and defining independent LUs. The section is not intended to provide comprehensive information about NCP, which is described more thoroughly in IBM manuals such as:  
   
--   *Planning and Reference for NetView, NCP, VTAM* (CN4D1200)  
+- *Planning and Reference for NetView, NCP, VTAM* (CN4D1200)  
   
--   *NCP, SSP, and EP Resource Definition Guide* (CXDG7200)  
+- *NCP, SSP, and EP Resource Definition Guide* (CXDG7200)  
   
--   *NCP, SSP, and EP Resource Definition Reference* (CXDH1200)  
+- *NCP, SSP, and EP Resource Definition Reference* (CXDH1200)  
   
- You may need to study other IBM documentation as well. Some of the topics to study are:  
+  You may need to study other IBM documentation as well. Some of the topics to study are:  
   
--   Independent LUs  
+- Independent LUs  
   
--   Type 2.1 node support  
+- Type 2.1 node support  
   
--   Dynamic reconfiguration  
+- Dynamic reconfiguration  
   
 ## Table of NCP Parameters That Affect Independent APPC  
  The following table shows basic recommendations for setting NCP parameters for independent APPC with Host Integration Server. The next sections describe the parameters in more detail.  

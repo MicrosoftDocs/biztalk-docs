@@ -19,18 +19,18 @@ To add a BizTalk assembly to a BizTalk application, you use the **AddResource** 
   
  When using this command, bear in mind the following points:  
   
--   If an assembly has the same full name as an assembly that already exists in the application, you must specify the Overwrite parameter or the AddResource operation will fail. The full name consists of the name, public key token, culture, and version. If another application depends on this assembly, however, the AddResource operation will fail even if you specify the Overwrite parameter.  
+- If an assembly has the same full name as an assembly that already exists in the application, you must specify the Overwrite parameter or the AddResource operation will fail. The full name consists of the name, public key token, culture, and version. If another application depends on this assembly, however, the AddResource operation will fail even if you specify the Overwrite parameter.  
   
--   If another assembly having the same full name exists in the group, the AddResource operation will fail, even if you specify the Overwrite parameter.  
+- If another assembly having the same full name exists in the group, the AddResource operation will fail, even if you specify the Overwrite parameter.  
   
--   If you are overwriting an assembly that contains orchestrations, the orchestrations must be stopped and unenlisted before you run this command. In addition, the send ports to which the orchestration is bound must be stopped and unenlisted, and the receive locations disabled.  
+- If you are overwriting an assembly that contains orchestrations, the orchestrations must be stopped and unenlisted before you run this command. In addition, the send ports to which the orchestration is bound must be stopped and unenlisted, and the receive locations disabled.  
   
--   If the assembly you are adding has a dependency on another artifact that is not included in the application, the AddResource operation will fail.  
+- If the assembly you are adding has a dependency on another artifact that is not included in the application, the AddResource operation will fail.  
   
- For more information about dependencies, see [Dependencies and Application Deployment](../core/dependencies-and-application-deployment.md).  
+  For more information about dependencies, see [Dependencies and Application Deployment](../core/dependencies-and-application-deployment.md).  
   
 ## Usage  
- **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask AddResource** [**/ApplicationName:**<em>value</em>] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite**] **/Source:**<em>value</em> [**/Destination:**<em>value</em>] [**/Options:GacOnAdd**<em>&#124;</em>**GacOnInstall**<em>&#124;</em>**GacOnImport**] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
 ## Parameters  
   

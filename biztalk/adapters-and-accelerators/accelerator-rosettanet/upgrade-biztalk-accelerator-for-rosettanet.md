@@ -23,17 +23,17 @@ You can upgrade the previous version of the BizTalk Accelerator for RosettaNet (
   
  In a multi-server BTARN environment, you should upgrade all BizTalk Servers first, and then to BTARN. Migrate your servers in the following order:  
   
--   The server hosting the BizTalk Group  
+- The server hosting the BizTalk Group  
   
--   Each processing node  
+- Each processing node  
   
--   The BAM portal server  
+- The BAM portal server  
   
- In the BTARN upgrade process, ensure you do the following:  
+  In the BTARN upgrade process, ensure you do the following:  
   
--   Check if the SQL Server (MSSQLSERVER) service is running.  
+- Check if the SQL Server (MSSQLSERVER) service is running.  
   
--   Do not run a silent installation.  
+- Do not run a silent installation.  
   
 ## Upgrade steps  
   

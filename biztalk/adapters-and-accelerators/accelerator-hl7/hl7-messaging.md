@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # HL7 Messaging
-The primary purpose of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) is to process health care messages that conform to the HL7 standard. To introduce you to HL7 messaging, this section provides information about the HL7 standard, basic HL7 message modes, message types, and how [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] triggers HL7 messages.  
+The primary purpose of Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) is to process health care messages that conform to the HL7 standard. To introduce you to HL7 messaging, this section provides information about the HL7 standard, basic HL7 message modes, message types, and how [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] triggers HL7 messages.  
   
 ## In This Section  
   

@@ -174,34 +174,34 @@ struct LUA_COMMON {
  LUA_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the transaction program (TP) and the physical unit (PU) 2.1 node was broken (a LAN error).  
+- The connection between the transaction program (TP) and the physical unit (PU) 2.1 node was broken (a LAN error).  
   
--   The SnaBase at the TPs computer encountered an ABEND.  
+- The SnaBase at the TPs computer encountered an ABEND.  
   
- LUA_SESSION_FAILURE  
- Primary return code; a required Host Integration Server component has terminated.  
+  LUA_SESSION_FAILURE  
+  Primary return code; a required Host Integration Server component has terminated.  
   
- LUA_LU_COMPONENT_DISCONNECTED  
+  LUA_LU_COMPONENT_DISCONNECTED  
   
- Secondary return code; indicates that the LUA session failed because of a problem with the link service or with the host LU.  
+  Secondary return code; indicates that the LUA session failed because of a problem with the link service or with the host LU.  
   
- LUA_RUI_LOGIC_ERROR  
+  LUA_RUI_LOGIC_ERROR  
   
- Secondary return code; an internal error was detected within LUA. This error should not occur during normal operation.  
+  Secondary return code; an internal error was detected within LUA. This error should not occur during normal operation.  
   
- LUA_INVALID_VERB  
- Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
+  LUA_INVALID_VERB  
+  Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
   
- LUA_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  LUA_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- LUA_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  LUA_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- LUA_UNEXPECTED_DOS_ERROR  
- Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
+  LUA_UNEXPECTED_DOS_ERROR  
+  Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
   
 ## Remarks  
  [RUI_READ](../core/rui-read2.md) can wait indefinitely if it is sent without using the **lua_flag1.nowait** (immediate return) option and no data is available on the specified flow. **RUI_PURGE** forces the waiting verb to return (with the primary return code LUA_CANCELED).  

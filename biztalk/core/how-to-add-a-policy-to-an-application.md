@@ -43,43 +43,43 @@ This topic describes how to use the BizTalk Server Administration console or the
   
 #### Using the BizTalk Server Administration console  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)] and the BizTalk group.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)] and the BizTalk group.  
   
-3.  Expand Applications, expand the application to which you want to add a policy, and then right-click **Policies**.  
+3. Expand Applications, expand the application to which you want to add a policy, and then right-click **Policies**.  
   
-4.  Point to **Add** and click **Policy**.  
+4. Point to **Add** and click **Policy**.  
   
-5.  Select the check box of each policy and version to add, and then click **OK**.  
+5. Select the check box of each policy and version to add, and then click **OK**.  
   
 #### Using the command line  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
-2.  Type the following command, substituting the appropriate values, as described in the following table:  
+2. Type the following command, substituting the appropriate values, as described in the following table:  
   
-     **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Rules** [**Overwrite**] **/Name:***value***/Version:***value* [**/Server:***value*] [**/Database:***value*]  
+    **BTSTask AddResource** [**/ApplicationName:**<em>value</em>] **/Type:System.BizTalk:Rules** [**Overwrite**] **/Name:**<em>value</em>**/Version:**<em>value</em> [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
-    > [!NOTE]
-    >  Parameter values are case sensitive. Parameter names are not case sensitive. Also, when you add a policy to an application by using this command, any vocabularies used by the policy are automatically added as well.  
+   > [!NOTE]
+   >  Parameter values are case sensitive. Parameter names are not case sensitive. Also, when you add a policy to an application by using this command, any vocabularies used by the policy are automatically added as well.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
-     Example:  
+    Example:  
   
-     **BTSTask AddResource /ApplicationName:MyApplication /Type:System.BizTalk:Rules /Overwrite /Name:MyPolicy /Version:1.0 /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
+    **BTSTask AddResource /ApplicationName:MyApplication /Type:System.BizTalk:Rules /Overwrite /Name:MyPolicy /Version:1.0 /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
   
-    |Parameter|Value|  
-    |---------------|-----------|  
-    |**/ApplicationName**|Name of the BizTalk application to which to add the policy. If the application name is not specified, the default BizTalk application for the group is used. Names that include spaces must be enclosed in double quotation marks (").|  
-    |**/Type**|**System.BizTalk:Rules**|  
-    |**/Overwrite**|Option to update an existing policy. If not specified, and a policy already exists in the application that has the same name as the policy being added, the AddResource operation fails.|  
-    |**/Name**|Name of the policy.|  
-    |**/Version**|Version number of the policy.|  
-    |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database. Required if you specify the Database parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
-    |**/Database**|Name of the BizTalk Management database. Required if you specify the Server parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
+   |Parameter|Value|  
+   |---------------|-----------|  
+   |**/ApplicationName**|Name of the BizTalk application to which to add the policy. If the application name is not specified, the default BizTalk application for the group is used. Names that include spaces must be enclosed in double quotation marks (").|  
+   |**/Type**|**System.BizTalk:Rules**|  
+   |**/Overwrite**|Option to update an existing policy. If not specified, and a policy already exists in the application that has the same name as the policy being added, the AddResource operation fails.|  
+   |**/Name**|Name of the policy.|  
+   |**/Version**|Version number of the policy.|  
+   |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database. Required if you specify the Database parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
+   |**/Database**|Name of the BizTalk Management database. Required if you specify the Server parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
   
 ## See Also  
  [Managing Policies](../core/managing-policies.md)   

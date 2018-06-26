@@ -35,22 +35,22 @@ Adjusting network settings to optimal values has been shown to effectively addre
 In addition, each installed protocol generates network traffic. By removing unnecessary network clients, services and protocols, system resources are made available for other processes, excess network traffic is avoided and the number of network bindings that must be negotiated is reduced to a minimum.  
 To see the currently installed network clients, protocols and services, follow these steps:  
   
-1.  Click **Start**, and then click **Control Panel**.  
+1. Click **Start**, and then click **Control Panel**.  
   
-2.  In Control Panel, do one of the following  
+2. In Control Panel, do one of the following  
   
-    1.  In **Adjust your computer’s settings**, set **View by** to **Category**, click **Network and Internet**, and then click **Network and Sharing Center**.  
+   1.  In **Adjust your computer’s settings**, set **View by** to **Category**, click **Network and Internet**, and then click **Network and Sharing Center**.  
   
-    2.  In **Adjust your computer’s settings**, set **View by** to either **Large icons** or **Small icons**, and then click **Network and Sharing Center**.  
+   2.  In **Adjust your computer’s settings**, set **View by** to either **Large icons** or **Small icons**, and then click **Network and Sharing Center**.  
   
-3.  In the Tasks pane, click **Change adapter settings**.  
+3. In the Tasks pane, click **Change adapter settings**.  
   
-4.  Right-click **Local Area Connection** (or the entry for your network connection), and then click **Properties** to display the properties dialog box for the network connection.  
+4. Right-click **Local Area Connection** (or the entry for your network connection), and then click **Properties** to display the properties dialog box for the network connection.  
   
-5.  To remove an unnecessary item, select it and click **Uninstall**. To disable an item, simply clear the checkbox associated with the item.  
+5. To remove an unnecessary item, select it and click **Uninstall**. To disable an item, simply clear the checkbox associated with the item.  
   
- If you are unsure about the effects of uninstalling an item for the connection, then disable the item rather than uninstalling it. Disabling items allows you to determine which services, protocols and clients are actually required on a system. When it has been determined that disabling an item has no adverse affect on the server, the item can then be uninstalled.  
-In many cases, only the following three components are required for operation on a standard TCP/IP based network:  
+   If you are unsure about the effects of uninstalling an item for the connection, then disable the item rather than uninstalling it. Disabling items allows you to determine which services, protocols and clients are actually required on a system. When it has been determined that disabling an item has no adverse affect on the server, the item can then be uninstalled.  
+   In many cases, only the following three components are required for operation on a standard TCP/IP based network:  
   
 -   Client for Microsoft Networks  
   
@@ -70,50 +70,50 @@ In many cases, only the following three components are required for operation on
   
  Follow these steps to access settings for network adapters:  
   
-1.  Click **Start** and then click **Control Panel**.  
+1. Click **Start** and then click **Control Panel**.  
   
-2.  In Control Panel, do one of the following:  
+2. In Control Panel, do one of the following:  
   
-    1.  In **Adjust your computer’s settings**, set **View by** to **Category**, click **Network and Internet**, and then click **Network and Sharing Center**.  
+   1.  In **Adjust your computer’s settings**, set **View by** to **Category**, click **Network and Internet**, and then click **Network and Sharing Center**.  
   
-    2.  In **Adjust your computer’s settings**, set **View by** to either **Large icons** or **Small icons**, and then click **Network and Sharing Center**.  
+   2.  In **Adjust your computer’s settings**, set **View by** to either **Large icons** or **Small icons**, and then click **Network and Sharing Center**.  
   
-3.  In the Tasks pane, click **Change adapter settings**.  
+3. In the Tasks pane, click **Change adapter settings**.  
   
-4.  Right-click **Local Area Connection** (or the name of your network connection), and then click **Properties**.  
+4. Right-click **Local Area Connection** (or the name of your network connection), and then click **Properties**.  
   
-5.  On the **Networking** tab, click **Configure**.  
+5. On the **Networking** tab, click **Configure**.  
   
-6.  Click the **Advanced** tab to access properties that can be configured for the network adapter.  
+6. Click the **Advanced** tab to access properties that can be configured for the network adapter.  
   
- The following properties should be configured for each network adapter in the BizTalk Server environment:  
+   The following properties should be configured for each network adapter in the BizTalk Server environment:  
   
 > [!NOTE]  
 >  You apply these settings for each physical network adapter, including the individual network adapters within a teamed set of network adapters that are configured for aggregation, load balancing, or fault tolerance. With some teaming software, you might need to apply these settings to the team also. Note that some network adapters are self-tuning and may not offer the option to configure parameters manually.  
   
--   **Power Option** – Configure the network adapter driver to prevent power management functionality from turning off the network adapter to save power. This functionality may be useful for client computers but should seldom, if ever, be used on a BizTalk Server or SQL Server computer.  
+- **Power Option** – Configure the network adapter driver to prevent power management functionality from turning off the network adapter to save power. This functionality may be useful for client computers but should seldom, if ever, be used on a BizTalk Server or SQL Server computer.  
   
--   **Fixed Speed/Duplex (do not use AUTO)** - It is very important that the network speed, duplex, and flow control parameters are set to correspond to the settings on the switch to which they are connected. This will mitigate the occurrence of periodic “auto-synchronization” which may temporarily take connections off-line.  
+- **Fixed Speed/Duplex (do not use AUTO)** - It is very important that the network speed, duplex, and flow control parameters are set to correspond to the settings on the switch to which they are connected. This will mitigate the occurrence of periodic “auto-synchronization” which may temporarily take connections off-line.  
   
--   **Max Coalesce Buffers** - Map registers are system resources used to convert physical addresses to virtual addresses for network adapters that support bus mastering. Coalesce buffers are available to the network driver if the driver runs out of map registers. Set this value as high as possible for maximum performance. On servers with limited physical memory, this may have a negative impact as coalesce buffers consume system memory. On most systems however, the maximum setting can be applied without significantly reducing available memory.  
+- **Max Coalesce Buffers** - Map registers are system resources used to convert physical addresses to virtual addresses for network adapters that support bus mastering. Coalesce buffers are available to the network driver if the driver runs out of map registers. Set this value as high as possible for maximum performance. On servers with limited physical memory, this may have a negative impact as coalesce buffers consume system memory. On most systems however, the maximum setting can be applied without significantly reducing available memory.  
   
--   **Max Transmit/Send Descriptors and Send Buffers** - This setting specifies how many transmit control buffers the driver allocates for use by the network interface. This directly reflects the number of outstanding packets the driver can have in its “send” queue. Set this value as high as possible for maximum performance. On servers with limited physical memory, this may have a negative impact as send buffers consume system memory. On most systems however, the maximum setting can be applied without significantly reducing available memory.  
+- **Max Transmit/Send Descriptors and Send Buffers** - This setting specifies how many transmit control buffers the driver allocates for use by the network interface. This directly reflects the number of outstanding packets the driver can have in its “send” queue. Set this value as high as possible for maximum performance. On servers with limited physical memory, this may have a negative impact as send buffers consume system memory. On most systems however, the maximum setting can be applied without significantly reducing available memory.  
   
--   **Max Receive Buffers** - This setting specifies the amount of memory buffer used by the network interface driver when copying data to the protocol memory. It is normally set by default to a relatively low value. Set this value as high as possible for maximum performance. On servers with limited physical memory, this may have a negative impact as receive buffers consume system memory. On most systems however, the maximum setting can be applied without significantly reducing available memory.  
+- **Max Receive Buffers** - This setting specifies the amount of memory buffer used by the network interface driver when copying data to the protocol memory. It is normally set by default to a relatively low value. Set this value as high as possible for maximum performance. On servers with limited physical memory, this may have a negative impact as receive buffers consume system memory. On most systems however, the maximum setting can be applied without significantly reducing available memory.  
   
--   **All offload options ON** - In almost all cases performance is improved when enabling network interface offload features. Some network adapters provide separate parameters to enable or disable offloading for send and receive traffic. Offloading tasks from the CPU to the network adapter can help lower CPU usage on the server which will improve overall system performance. The Microsoft TCP/IP transport can offload one or more of the following tasks to a network adapter that has the appropriate capabilities:  
+- **All offload options ON** - In almost all cases performance is improved when enabling network interface offload features. Some network adapters provide separate parameters to enable or disable offloading for send and receive traffic. Offloading tasks from the CPU to the network adapter can help lower CPU usage on the server which will improve overall system performance. The Microsoft TCP/IP transport can offload one or more of the following tasks to a network adapter that has the appropriate capabilities:  
   
-    -   **Checksum tasks** - The TCP/IP transport can offload the calculation and validation of IP and TCP checksums for sends and receives to the network adapter; enable this option if the network adapter driver provides this capability.  
+  -   **Checksum tasks** - The TCP/IP transport can offload the calculation and validation of IP and TCP checksums for sends and receives to the network adapter; enable this option if the network adapter driver provides this capability.  
   
-    -   **IP security tasks** - The TCP/IP transport can offload the calculation and validation of encrypted checksums for authentication headers (AH) and encapsulating security payloads (ESP) to the network adapter. The TCP/IP transport can also offload the encryption and decryption of ESP payloads to the network adapter. Enable these options if the network adapter driver provides this capability.  
+  -   **IP security tasks** - The TCP/IP transport can offload the calculation and validation of encrypted checksums for authentication headers (AH) and encapsulating security payloads (ESP) to the network adapter. The TCP/IP transport can also offload the encryption and decryption of ESP payloads to the network adapter. Enable these options if the network adapter driver provides this capability.  
   
-    -   **Segmentation of large TCP packets** - The TCP/IP transport supports large send offload (LSO). With LSO, the TCP/IP transport can offload the segmentation of large TCP packets.  
+  -   **Segmentation of large TCP packets** - The TCP/IP transport supports large send offload (LSO). With LSO, the TCP/IP transport can offload the segmentation of large TCP packets.  
   
-    -   **Stack Offload** – The entire network stack can be offloaded to a network adapter that has the appropriate capabilities. Enable this option if the network adapter driver provides this capability.  
+  -   **Stack Offload** – The entire network stack can be offloaded to a network adapter that has the appropriate capabilities. Enable this option if the network adapter driver provides this capability.  
   
--   **Wake On LAN disabled (unless being used)** – Configure the network adapter driver to disable wake-on lan functionality. This functionality may be useful for client computers but should seldom if ever be used on a BizTalk Server or SQL Server computer.  
+- **Wake On LAN disabled (unless being used)** – Configure the network adapter driver to disable wake-on lan functionality. This functionality may be useful for client computers but should seldom if ever be used on a BizTalk Server or SQL Server computer.  
   
- For more information about tuning network adapters for performance, see the **Network Device Settings** section of the ["BizTalk Server Database Optimization" whitepaper](http://go.microsoft.com/fwlink/?LinkID=101578) (http://go.microsoft.com/fwlink/?LinkID=101578).  
+  For more information about tuning network adapters for performance, see the **Network Device Settings** section of the ["BizTalk Server Database Optimization" whitepaper](http://go.microsoft.com/fwlink/?LinkID=101578) (http://go.microsoft.com/fwlink/?LinkID=101578).  
   
 ## See Also  
  [Settings that can be Modified to Improve Network Performance](../technical-guides/settings-that-can-be-modified-to-improve-network-performance.md)

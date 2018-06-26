@@ -27,24 +27,24 @@ By default, global tracking is enabled when you install BizTalk Server. The BizT
   
 ### To turn off global tracking (SQL Server 2008)  
   
-1.  On the SQL server that hosts the BizTalk Tracking (BizTalkDTADb) database, click **Start**, click **Programs**, click **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.  
+1. On the SQL server that hosts the BizTalk Tracking (BizTalkDTADb) database, click **Start**, click **Programs**, click **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.  
   
-2.  In the **Connect to Server** dialog box, verify the server name and authentication, and then click **Connect**.  
+2. In the **Connect to Server** dialog box, verify the server name and authentication, and then click **Connect**.  
   
-3.  In Microsoft SQL Server Management Studio, in **Object Explorer**, expand \<*computer name*\>, expand **Databases**, expand **BizTalkMgmtDb**, expand **Tables**, right-click **adm_Group**, and then click **Open Table**.  
+3. In Microsoft SQL Server Management Studio, in **Object Explorer**, expand \<*computer name*\>, expand **Databases**, expand **BizTalkMgmtDb**, expand **Tables**, right-click **adm_Group**, and then click **Open Table**.  
   
-4.  In the table viewer, scroll horizontally until you find **GlobalTrackingOption**.  
+4. In the table viewer, scroll horizontally until you find **GlobalTrackingOption**.  
   
-5.  In the **GlobalTrackingOption** column, change the value from 1 to 0, to turn off this feature, and then press ENTER.  
+5. In the **GlobalTrackingOption** column, change the value from 1 to 0, to turn off this feature, and then press ENTER.  
   
-6.  Close Microsoft SQL Server Management Studio.  
+6. Close Microsoft SQL Server Management Studio.  
   
-    > [!NOTE]
-    >  You must restart your BizTalk hosts for the change to take effect.  
+   > [!NOTE]
+   >  You must restart your BizTalk hosts for the change to take effect.  
   
-7.  Click **Start**, click **Programs**, point to **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.  
+7. Click **Start**, click **Programs**, point to **Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)], and then click **BizTalk Server Administration**.  
   
-8.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then click **Host Instances**.  
+8. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Platform Settings**, and then click **Host Instances**.  
   
 9. In the details pane, right-click each host, and then click **Restart**.  
   

@@ -38,14 +38,14 @@ The **Start Orchestration** shape is similar to the **Call Orchestration** shape
   
 ### To configure a Start Orchestration shape  
   
-1.  Using the **Orchestration Selection** drop-down list box, select an orchestration from the list.  
+1. Using the **Orchestration Selection** drop-down list box, select an orchestration from the list.  
   
-2.  Using the **Orchestration Parameters** grid control, specify arguments to pass to the orchestration—as specified in the **Orchestration Selection** drop-down list box—that is started. You specify these arguments in the cells of the Variable column, one variable per cell, by typing the name of a variable or clicking a variable from a drop-down list in a cell.  
+2. Using the **Orchestration Parameters** grid control, specify arguments to pass to the orchestration—as specified in the **Orchestration Selection** drop-down list box—that is started. You specify these arguments in the cells of the Variable column, one variable per cell, by typing the name of a variable or clicking a variable from a drop-down list in a cell.  
   
-3.  To configure the **Start Orchestration** shape according to the service and arguments that you specified in the dialog box, click **OK**. To close the **Start Orchestration Configuration** dialog box without making any changes to the **Start Orchestration** shape, click **Cancel**.  
+3. To configure the **Start Orchestration** shape according to the service and arguments that you specified in the dialog box, click **OK**. To close the **Start Orchestration Configuration** dialog box without making any changes to the **Start Orchestration** shape, click **Cancel**.  
   
-    > [!CAUTION]
-    >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not support recursive orchestrations. If Orchestration A calls or starts Orchestration B, then Orchestration B cannot call or start Orchestration A directly, nor can it call or start any orchestration that directly or indirectly calls Orchestration A.  
+   > [!CAUTION]
+   >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not support recursive orchestrations. If Orchestration A calls or starts Orchestration B, then Orchestration B cannot call or start Orchestration A directly, nor can it call or start any orchestration that directly or indirectly calls Orchestration A.  
   
 ## Orchestration Selection drop-down list box  
  Click the Down arrow in the drop-down list box to view available orchestrations and select one. This list contains all the orchestrations that can be started from the current orchestration, including referenced assemblies.  

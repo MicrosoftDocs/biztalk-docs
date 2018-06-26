@@ -23,19 +23,19 @@ Specify the access accounts for the new Affiliate Application. You can specify o
   
  For example, UserA could be a member of two groups: Group1 and Group2. Each of these groups could in turn be mapped to an account as follows:  
   
--   Group1 is mapped to ExternalCredentials1  
+- Group1 is mapped to ExternalCredentials1  
   
--   Group2 is mapped to ExternalCredentials2  
+- Group2 is mapped to ExternalCredentials2  
   
- If the order specified for 'Application Users' is Group1;Group2, then when the credentials are requested for UserA, SSO returns ExternalCredentials1.  
+  If the order specified for 'Application Users' is Group1;Group2, then when the credentials are requested for UserA, SSO returns ExternalCredentials1.  
   
- However, if the order specified for 'Application Users' is Group2;Group1, then SSO returns ExternalCredentials2.  
+  However, if the order specified for 'Application Users' is Group2;Group1, then SSO returns ExternalCredentials2.  
   
- **Application Administrators**  
- The Windows account(s) that will manage this Affiliate Application.  
+  **Application Administrators**  
+  The Windows account(s) that will manage this Affiliate Application.  
   
- **Application Users**  
- The Windows account(s) for which mappings can be created.  
+  **Application Users**  
+  The Windows account(s) for which mappings can be created.  
   
 ## See Also  
  [Enterprise Single Sign-On (Configuration)](../core/enterprise-single-sign-on-configuration-1.md)   

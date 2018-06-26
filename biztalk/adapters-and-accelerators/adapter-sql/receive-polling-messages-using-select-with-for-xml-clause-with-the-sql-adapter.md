@@ -21,12 +21,12 @@ You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-
   
 > [!NOTE]
 >  This topic demonstrates how to use the **XmlPolling** inbound operation to receive polling messages. The **XmlPolling** operation is used to poll a SQL Server database using SELECT statements or stored procedures that include a FOR XML clause. The message for the **XmlPolling** operation includes the xml message received by executing the SELECT statement or the stored procedure in SQL Server Management Studio.  
->   
+> 
 >  You can also use the adapter to receive different types of polling messages.  
->   
->  -   If you want to get a weakly-typed polling message, you must use the Polling Operation. For more information, see [Receive Polling-based Data-changed Messages from SQL Server by Using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-polling-based-data-changed-messages-from-sql-server-using-biztalk.md).  
-> -   If you want to get strongly-typed polling message, you must use the **TypedPolling** operation. You must also use the **TypedPolling** operation to have multiple polling operations in a single BizTalk application. For instructions on how to perform **TypedPolling** operation, see [Receive Strongly-typed Polling-based Data-changed Messages from SQL Server using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-strongly-typed-polling-based-data-changed-messages-from-sql-in-biztalk.md).  
-  
+> 
+> - If you want to get a weakly-typed polling message, you must use the Polling Operation. For more information, see [Receive Polling-based Data-changed Messages from SQL Server by Using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-polling-based-data-changed-messages-from-sql-server-using-biztalk.md).  
+>   -   If you want to get strongly-typed polling message, you must use the **TypedPolling** operation. You must also use the **TypedPolling** operation to have multiple polling operations in a single BizTalk application. For instructions on how to perform **TypedPolling** operation, see [Receive Strongly-typed Polling-based Data-changed Messages from SQL Server using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-strongly-typed-polling-based-data-changed-messages-from-sql-in-biztalk.md).  
+> 
 > [!IMPORTANT]
 >  If you want to have more than one polling operation in a single BizTalk application, you must specify an **InboundID** connection property as part of the connection URI to make it unique. With a unique connection URI, you can create multiple receive ports that poll the same database, or even the same table in a database. For more information, see [Receive Polling Messages Across Multiple Receive Ports from SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-polling-messages-across-multiple-receive-ports-from-sql-using-biztalk.md).  
   
@@ -64,25 +64,25 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
   
 #### To add the schema to a BizTalk project  
   
-1.  Create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
+1. Create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
   
-2.  Add the response schema you generated for the stored procedure to the BizTalk project. Right-click the BizTalk project in the Solution Explorer, point to **Add**, and then click **Existing Item**. In the Add Existing Item dialog box, navigate to the location where you saved the schema and click **Add**.  
+2. Add the response schema you generated for the stored procedure to the BizTalk project. Right-click the BizTalk project in the Solution Explorer, point to **Add**, and then click **Existing Item**. In the Add Existing Item dialog box, navigate to the location where you saved the schema and click **Add**.  
   
-3.  Open the schema in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and make the following changes.  
+3. Open the schema in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and make the following changes.  
   
-    1.  Add a node to the schema and move the existing root node under this newly added node. Give a name to the root node. For this topic, rename the root node to **Root**.  
+   1.  Add a node to the schema and move the existing root node under this newly added node. Give a name to the root node. For this topic, rename the root node to **Root**.  
   
-    2.  The response schema generated for the SELECT statement references a sqltypes.xsd. You can get the sqltypes.xsd schema from [http://go.microsoft.com/fwlink/p/?LinkId=131087](http://go.microsoft.com/fwlink/p/?LinkId=131087). Add the sqltypes.xsd schema to the BizTalk project.  
+   2.  The response schema generated for the SELECT statement references a sqltypes.xsd. You can get the sqltypes.xsd schema from [http://go.microsoft.com/fwlink/p/?LinkId=131087](http://go.microsoft.com/fwlink/p/?LinkId=131087). Add the sqltypes.xsd schema to the BizTalk project.  
   
-    3.  In the schema generated for the SELECT statement, change the value of `import schemaLocation` to the following.  
+   3.  In the schema generated for the SELECT statement, change the value of `import schemaLocation` to the following.  
   
-        ```  
-        import schemaLocation=”sqltypes.xsd”  
-        ```  
+       ```  
+       import schemaLocation=”sqltypes.xsd”  
+       ```  
   
-         You do this because you have already added the sqltypes.xsd schema to your BizTalk project.  
+        You do this because you have already added the sqltypes.xsd schema to your BizTalk project.  
   
-    4.  Provide a target namespace for the schema. Click the **\<Schema\>** node, and in the properties pane, specify a namespace in the **Target Namespace** property. For this topic, give the namespace as `http://ForXmlPolling/namespace`.  
+   4.  Provide a target namespace for the schema. Click the **\<Schema\>** node, and in the properties pane, specify a namespace in the **Target Namespace** property. For this topic, give the namespace as `http://ForXmlPolling/namespace`.  
   
 ## Defining Messages and Message Types  
  The schema that you generated earlier describes the "types" required for the messages in the orchestration. A message is typically a variable, the type for which is defined by the corresponding schema. Once the schema is generated, you must link it to the messages from the Orchestration view of the BizTalk project.  
@@ -111,18 +111,18 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
 ## Setting up the Orchestration  
  You must create a BizTalk orchestration to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for receiving polling-based data-change messages from the SQL Server database. In this orchestration, the adapter receives the response of the select statement specified for the **PollingStatement** binding property. The response for the SELECT statement is saved to a FILE location. A typical orchestration for polling a SQL Server database would contain:  
   
--   Receive and Send shapes to receive messages from SQL Server and send to a FILE port, respectively.  
+- Receive and Send shapes to receive messages from SQL Server and send to a FILE port, respectively.  
   
--   A one-way receive port to receive messages from SQL Server.  
+- A one-way receive port to receive messages from SQL Server.  
   
-    > [!IMPORTANT]
-    >  For inbound polling scenarios you must always configure a one-way receive port. Two-way receive ports are not supported for inbound operations.  
+  > [!IMPORTANT]
+  >  For inbound polling scenarios you must always configure a one-way receive port. Two-way receive ports are not supported for inbound operations.  
   
--   A one-way send port to send polling responses from a SQL Server database to a folder.  
+- A one-way send port to send polling responses from a SQL Server database to a folder.  
   
- A sample orchestration resembles the following.  
+  A sample orchestration resembles the following.  
   
- ![Orchestration for polling a SQL Server database](../../adapters-and-accelerators/adapter-sql/media/5cf65d53-d70d-444d-82f7-2561efcd9ee4.gif "5cf65d53-d70d-444d-82f7-2561efcd9ee4")  
+  ![Orchestration for polling a SQL Server database](../../adapters-and-accelerators/adapter-sql/media/5cf65d53-d70d-444d-82f7-2561efcd9ee4.gif "5cf65d53-d70d-444d-82f7-2561efcd9ee4")  
   
 ### Adding Message Shapes  
  Make sure you specify the following properties for each of the message shapes. The names listed in the Shape column are the names of the message shapes as displayed in the just-mentioned orchestration.  
@@ -157,29 +157,29 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the messages from the SQL Server database. These messages will be in response to the polling statement that you specify for the receive port.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the messages from the SQL Server database. These messages will be in response to the polling statement that you specify for the receive port.  
   
-    -   Define a physical WCF-Custom or WCF-SQL one-way receive port. This port polls the SQL Server database with the polling statement you specify for the port. For information about how to create ports, see [Manually configure a physical port binding to the SQL adapter](../../adapters-and-accelerators/adapter-sql/manually-configure-a-physical-port-binding-to-the-sql-adapter.md). Make sure you specify the following binding properties for the receive port.  
+  - Define a physical WCF-Custom or WCF-SQL one-way receive port. This port polls the SQL Server database with the polling statement you specify for the port. For information about how to create ports, see [Manually configure a physical port binding to the SQL adapter](../../adapters-and-accelerators/adapter-sql/manually-configure-a-physical-port-binding-to-the-sql-adapter.md). Make sure you specify the following binding properties for the receive port.  
   
-        > [!IMPORTANT]
-        >  You do not need to perform this step if you specified the binding properties at design-time. In such a case, you can create a WCF-custom or WCF-SQL receive port, with the required binding properties set, by importing the binding file created by the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. For more information see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md).  
+    > [!IMPORTANT]
+    >  You do not need to perform this step if you specified the binding properties at design-time. In such a case, you can create a WCF-custom or WCF-SQL receive port, with the required binding properties set, by importing the binding file created by the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. For more information see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md).  
   
-        |Binding Property|Value|  
-        |----------------------|-----------|  
-        |**InboundOperationType**|Make sure you set this to **XmlPolling**.|  
-        |**PolledDataAvailableStatement**|Make sure you specify a SQL statement. For this topic, specify:<br /><br /> `SELECT COUNT(*) FROM Employee`|  
-        |**PollingStatement**|Make sure you provide the same statement, without the `xmlschema` clause, that you specified while generating the schema as described in [Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-polling-messages-using-select-with-for-xml-clause-with-the-sql-adapter.md).<br /><br /> `SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto`<br /><br /> **Note:** Note that the SELECT statement does not contain the `xmlschema` clause.|  
-        |**XmlStoredProcedureRootNodeName**|Specify the name of the root node that you added to the response schema you generated for the SELECT statement, as described under [Generating Schema for the Response Message for SELECT Statement](#BKMK_RespSchema). For this topic, set this to **Root**.|  
-        |**XmlStoredProcedureRootNodeNamespace**|Specify the target namespace for the response schema you generated for the SELECT statement, as described under [Generating Schema for the Response Message for SELECT Statement](#BKMK_RespSchema). For this topic, set this to `http://ForXmlPolling/namespace`.|  
+    |Binding Property|Value|  
+    |----------------------|-----------|  
+    |**InboundOperationType**|Make sure you set this to **XmlPolling**.|  
+    |**PolledDataAvailableStatement**|Make sure you specify a SQL statement. For this topic, specify:<br /><br /> `SELECT COUNT(*) FROM Employee`|  
+    |**PollingStatement**|Make sure you provide the same statement, without the `xmlschema` clause, that you specified while generating the schema as described in [Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-polling-messages-using-select-with-for-xml-clause-with-the-sql-adapter.md).<br /><br /> `SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto`<br /><br /> **Note:** Note that the SELECT statement does not contain the `xmlschema` clause.|  
+    |**XmlStoredProcedureRootNodeName**|Specify the name of the root node that you added to the response schema you generated for the SELECT statement, as described under [Generating Schema for the Response Message for SELECT Statement](#BKMK_RespSchema). For this topic, set this to **Root**.|  
+    |**XmlStoredProcedureRootNodeNamespace**|Specify the target namespace for the response schema you generated for the SELECT statement, as described under [Generating Schema for the Response Message for SELECT Statement](#BKMK_RespSchema). For this topic, set this to `http://ForXmlPolling/namespace`.|  
   
-         For more information about the different binding properties, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).  
+     For more information about the different binding properties, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).  
   
-        > [!NOTE]
-        >  We recommend configuring the transaction isolation level and the transaction timeout while performing inbound operations using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. You can do so by adding the service behavior while configuring the WCF-Custom or WCF-SQL receive port. For instruction on how to add the service behavior, see [Configure Transaction Isolation Level and Transaction Timeout with SQL](../../adapters-and-accelerators/adapter-sql/configure-transaction-isolation-level-and-transaction-timeout-with-sql.md).  
+    > [!NOTE]
+    >  We recommend configuring the transaction isolation level and the transaction timeout while performing inbound operations using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. You can do so by adding the service behavior while configuring the WCF-Custom or WCF-SQL receive port. For instruction on how to add the service behavior, see [Configure Transaction Isolation Level and Transaction Timeout with SQL](../../adapters-and-accelerators/adapter-sql/configure-transaction-isolation-level-and-transaction-timeout-with-sql.md).  
   
 ## Starting the Application  
  You must start the BizTalk application for receiving messages from the SQL Server database. For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md).

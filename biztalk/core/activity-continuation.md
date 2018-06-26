@@ -28,17 +28,17 @@ The BAM activity (also called the business activity) can span multiple heterogen
 ## Applications  
  The first part of the activity happens in the Sales application, the second part of the activity happens in the Packaging & Assembly application, and finally, the delivery progress is available in the Shipping application. Each application uses different IDs for the current work unit: purchase order number (PO), sales order number (SO), and shipping order number (UPS). To correlate the events between two different applications, you must:  
   
--   Identify the continuation token – a unique piece of data that is available to both applications (for example, the part of the message being exchanged).  
+- Identify the continuation token – a unique piece of data that is available to both applications (for example, the part of the message being exchanged).  
   
--   Call EnableContinuation in the first application and pass the continuation token along with the current ActivityID.  
+- Call EnableContinuation in the first application and pass the continuation token along with the current ActivityID.  
   
--   Do not call BeginActivity in the second application.  
+- Do not call BeginActivity in the second application.  
   
--   Fire all subsequent events in the second application by using the continuation token instead of ActivityID.  
+- Fire all subsequent events in the second application by using the continuation token instead of ActivityID.  
   
- The following code example illustrates the use of activity continuation among three applications:  
+  The following code example illustrates the use of activity continuation among three applications:  
   
- **Purchase Order Application**  
+  **Purchase Order Application**  
   
 ```  
 string oID="PO#123";  

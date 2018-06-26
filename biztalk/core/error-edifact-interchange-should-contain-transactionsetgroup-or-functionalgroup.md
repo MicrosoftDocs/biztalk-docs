@@ -17,15 +17,15 @@ manager: "anneta"
 # Edifact interchange should have contained TransactionSetGroup or FunctionalGroup Xml tags
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|-|  
-|Message Text|Edifact interchange should have contained TransactionSetGroup or FunctionalGroup Xml tags|  
+|                 |                                                                                           |
+|-----------------|-------------------------------------------------------------------------------------------|
+|  Product Name   |    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]     |
+| Product Version |                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                 |
+|    Event ID     |                                             -                                             |
+|  Event Source   |  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI   |
+|    Component    |                                        EDI Engine                                         |
+|  Symbolic Name  |                                             -                                             |
+|  Message Text   | Edifact interchange should have contained TransactionSetGroup or FunctionalGroup Xml tags |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the send pipeline could not process an EDIFACT batched interchange that was preserved because the TransactionSetGroup or FunctionalGroup tags were not included in the interchange XML file.  

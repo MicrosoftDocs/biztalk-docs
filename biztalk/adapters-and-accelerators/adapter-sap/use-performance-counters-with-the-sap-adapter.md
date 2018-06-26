@@ -29,27 +29,27 @@ Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md
   
  The endpoint ID could be:  
   
--   For calls from the adapter to the SAP system (outbound)  
+- For calls from the adapter to the SAP system (outbound)  
   
-    -   A,\<application server host\>,\<system number\>  
+  -   A,\<application server host\>,\<system number\>  
   
-    -   B,\<message server host\>,\<R3NAME\>  
+  -   B,\<message server host\>,\<R3NAME\>  
   
-    -   D,\<destination\>  
+  -   D,\<destination\>  
   
--   For calls from the SAP system to the adapter (inbound)  
+- For calls from the SAP system to the adapter (inbound)  
   
-    -   I,\<gateway host\>,\<gateway server\>  
+  -   I,\<gateway host\>,\<gateway server\>  
   
-    -   ID,\<destination\>  
+  -   ID,\<destination\>  
   
- The action ID could be:  
+  The action ID could be:  
   
--   \<RFC name\> (for an RFC call)  
+- \<RFC name\> (for an RFC call)  
   
--   T,\<RFC name\> (for a tRFC call)  
+- T,\<RFC name\> (for a tRFC call)  
   
- The performance counter is initialized only after the adapter makes the first call to the SAP system. Also, the [InstanceLifetime](https://msdn.microsoft.com/library/system.diagnostics.performancecounter.instancelifetime.aspx) property of the performance counter is set to 'Process', which means that the performance counter ceases to exist as soon as the program that creates the counter terminates.
+  The performance counter is initialized only after the adapter makes the first call to the SAP system. Also, the [InstanceLifetime](https://msdn.microsoft.com/library/system.diagnostics.performancecounter.instancelifetime.aspx) property of the performance counter is set to 'Process', which means that the performance counter ceases to exist as soon as the program that creates the counter terminates.
   
 > [!NOTE]
 >  The precision of the LOB Time (Cumulative) performance counter is 16 milliseconds.  

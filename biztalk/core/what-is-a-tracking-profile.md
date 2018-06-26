@@ -27,27 +27,27 @@ A profile is a set of characteristics that define a business process. A tracking
   
  When you create a tracking profile using the TPE, you are working with the following objects:  
   
--   BAM activities  
+- BAM activities  
   
--   BizTalk orchestrations in deployed assemblies  
+- BizTalk orchestrations in deployed assemblies  
   
--   Receive and send ports  
+- Receive and send ports  
   
--   Message schemas in deployed assemblies  
+- Message schemas in deployed assemblies  
   
--   Context properties  
+- Context properties  
   
--   BAM Primary Import database  
+- BAM Primary Import database  
   
--   BizTalk Management database  
+- BizTalk Management database  
   
--   BizTalk Tracking database  
+- BizTalk Tracking database  
   
- You define the data extraction from an orchestration by dropping items from message schemas, orchestration shapes, and context properties into business milestone (event) and data item folders.  
+  You define the data extraction from an orchestration by dropping items from message schemas, orchestration shapes, and context properties into business milestone (event) and data item folders.  
   
- For example, consider a BAM activity that includes a milestone called PO Received and has a Messaging port through which purchase orders flow to initiate processing. Developers can associate the `PO Received` milestone with a BizTalk Messaging property called `PortEndTime` for the port in their solution. Semantically, this indicates that the PO is successfully received once the receive port concludes its action and populates the `PortEndTime` property. The developer makes this and any other mappings to complete the tracking profile. All items in the activity are mapped if they have a BizTalk Server source, or are left unmapped to be populated by API calls directly if the source of the data or event is from a process outside of BizTalk Server’s run-time environment.  
+  For example, consider a BAM activity that includes a milestone called PO Received and has a Messaging port through which purchase orders flow to initiate processing. Developers can associate the `PO Received` milestone with a BizTalk Messaging property called `PortEndTime` for the port in their solution. Semantically, this indicates that the PO is successfully received once the receive port concludes its action and populates the `PortEndTime` property. The developer makes this and any other mappings to complete the tracking profile. All items in the activity are mapped if they have a BizTalk Server source, or are left unmapped to be populated by API calls directly if the source of the data or event is from a process outside of BizTalk Server’s run-time environment.  
   
- Although each pane or view in the TPE has a unique function, all the views and folders have similar navigational features to help you find and manipulate information.  
+  Although each pane or view in the TPE has a unique function, all the views and folders have similar navigational features to help you find and manipulate information.  
   
 ## Who uses tracking profiles and the TPE?  
  Users involved with enterprise integration development use tracking profiles and the TPE to map BizTalk Server event sources to BAM target activities. The resulting .btt file is handed off to IT Implementation for deployment.  

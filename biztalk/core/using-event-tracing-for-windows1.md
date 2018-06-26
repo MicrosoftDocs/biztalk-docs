@@ -18,29 +18,29 @@ Microsoft BizTalk Adapter for TIBCO Rendezvous logs error, warning, and informat
 > [!NOTE]
 >  tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by Microsoft BizTalk Adapter for TIBCO Rendezvous. To use logman.exe, see the logman documentation.  
   
--   **Consumer application**: Reads logged events.  
+- **Consumer application**: Reads logged events.  
   
-     For the consumer application to be able to read the event in the etl file, Event Tracing for Windows must dump them into that file. Typically this is done when the controller deactivates the tracing.  
+   For the consumer application to be able to read the event in the etl file, Event Tracing for Windows must dump them into that file. Typically this is done when the controller deactivates the tracing.  
   
-     To use the consumer application without deactivating the trace, the controller must activate the trace with the real time option, \<Real time\> = -rt.  
+   To use the consumer application without deactivating the trace, the controller must activate the trace with the real time option, \<Real time\> = -rt.  
   
--   **Provider**: Provides the event.  
+- **Provider**: Provides the event.  
   
-     BizTalk Adapter for TIBCO Rendezvous includes three different providers. They are registered in Windows Management Instrumentation (WMI). To find the registered providers in the root\WMI\EventTrace path, you can use tools such as WMI CIM Studio.  
+   BizTalk Adapter for TIBCO Rendezvous includes three different providers. They are registered in Windows Management Instrumentation (WMI). To find the registered providers in the root\WMI\EventTrace path, you can use tools such as WMI CIM Studio.  
   
- BizTalk Adapter for TIBCO Rendezvous has three providers. This lets you log different kinds of messages:  
+  BizTalk Adapter for TIBCO Rendezvous has three providers. This lets you log different kinds of messages:  
   
--   **Receiver Logging Provider**: The \<Trace element\> switch is **-receiver**.  
+- **Receiver Logging Provider**: The \<Trace element\> switch is **-receiver**.  
   
--   Use **-receiver** to get any messages from the log that were received by the adapter at runtime.  
+- Use **-receiver** to get any messages from the log that were received by the adapter at runtime.  
   
--   **Transmitter Logging Provider**: the \<Trace element\> switch is **-transmitter**.  
+- **Transmitter Logging Provider**: the \<Trace element\> switch is **-transmitter**.  
   
-     Use **-transmitter** to get any messages from the log that were transmitted by the adapter at run time.  
+   Use **-transmitter** to get any messages from the log that were transmitted by the adapter at run time.  
   
--   **Management Logging Provider—**the \<Trace element\> switch is **-management**.  
+- <strong>Management Logging Provider—</strong>the \<Trace element\> switch is **-management**.  
   
-     Use **-management**to get any messages from the log that were generated during browsing of the server system.  
+   Use **-management**to get any messages from the log that were generated during browsing of the server system.  
   
 ## BTATIBCORVTrace Command  
  To use ETW, run the BizTalk Adapter for TIBCO Rendezvous command, BTATIBCORVTrace.cmd. You use this command as follows:  
@@ -55,23 +55,23 @@ BTATIBCORVTrace <Trace element> -stop
   
  Its options are as follows:  
   
--   **-transmitter**  
+- **-transmitter**  
   
--   **-receiver**  
+- **-receiver**  
   
--   **-management**  
+- **-management**  
   
--   **-start, -stop**: Activate or deactivate the provider.  
+- **-start, -stop**: Activate or deactivate the provider.  
   
--   **-cir \<MB\>**: Size and kind of file. **-cir** is a circular file. **\<MB\>**: Size in megabytes.  
+- **-cir \<MB\>**: Size and kind of file. **-cir** is a circular file. **\<MB\>**: Size in megabytes.  
   
--   **-seq \<MB\>**: Size and kind of file. **-seq** is a sequential file. **\<MB\>**: Size in megabytes.  
+- **-seq \<MB\>**: Size and kind of file. **-seq** is a sequential file. **\<MB\>**: Size in megabytes.  
   
--   **-rt**: Set the real time mode on.  
+- **-rt**: Set the real time mode on.  
   
--   **Logfile**: Name of the log file (c:\rtlog.etl is the default).  
+- **Logfile**: Name of the log file (c:\rtlog.etl is the default).  
   
- For example:  
+  For example:  
   
 ```  
 BTATIBCORVTrace -transmitter -start -cir 10 -rt c:\log\mylog.etl  

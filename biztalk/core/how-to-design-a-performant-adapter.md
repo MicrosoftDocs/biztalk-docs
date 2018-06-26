@@ -37,26 +37,26 @@ For performance purposes all adapters should be batch-aware with regard to submi
   
  If you are writing a send adapter for a protocol that is inherently slow in nature (such as HTTP, FTP, or two-way SOAP), consider the following:  
   
--   Such an adapter might receive messages for transmission from the BizTalk Messaging Engine faster than it can transmit them. This discrepancy causes problems at various levels. The messages under transmission remain in memory and take up the virtual memory, slowing down the entire system.  
+- Such an adapter might receive messages for transmission from the BizTalk Messaging Engine faster than it can transmit them. This discrepancy causes problems at various levels. The messages under transmission remain in memory and take up the virtual memory, slowing down the entire system.  
   
--   The adapter might take up protocol-specific resources. For example, it might open too many concurrent connections to the server, which could disrupt the remote server.  
+- The adapter might take up protocol-specific resources. For example, it might open too many concurrent connections to the server, which could disrupt the remote server.  
   
--   The adapter might affect other adapters. For example, if too many messages queue up for a particular adapter, the Messaging Engine stops issuing requests to other send adapters in that process.  
+- The adapter might affect other adapters. For example, if too many messages queue up for a particular adapter, the Messaging Engine stops issuing requests to other send adapters in that process.  
   
- A solution is to put the slow and fast adapters in separate BizTalk Hosts and control the number of messages by using the "High Watermark" and "Low Watermark" settings.  
+  A solution is to put the slow and fast adapters in separate BizTalk Hosts and control the number of messages by using the "High Watermark" and "Low Watermark" settings.  
   
 ### Receive-Side Throttling Improves Performance  
  There are numerous situations in which a receive adapter receives messages faster than the rate at which the rest of the system can process the messages. When such a situation occurs, the MessageBox database becomes backlogged. When this happens, the performance of the whole system drops dramatically.  
   
  If this is happening with your adapter, you can use one of the following techniques to reduce the speed of the receive adapter:  
   
--   Reduce the Messaging Engine thread pool size. You can control the number of threads that the Messaging Engine uses to publish messages into the MessageBox. By reducing the number of threads, you reduce the rate at which the receive adapter receives messages into the MessageBox. This setting only needs to be done for the host corresponding to the receive handler for the adapter. You should not set this for the host corresponding to the send handler for the adapter, unless you want to slow down the send adapter as well.  
+- Reduce the Messaging Engine thread pool size. You can control the number of threads that the Messaging Engine uses to publish messages into the MessageBox. By reducing the number of threads, you reduce the rate at which the receive adapter receives messages into the MessageBox. This setting only needs to be done for the host corresponding to the receive handler for the adapter. You should not set this for the host corresponding to the send handler for the adapter, unless you want to slow down the send adapter as well.  
   
--   Reduce the adapter batch size. Most fast receive adapters publish messages to the MessageBox in batches. The size of these batches is usually configurable in the receive location property page. By decreasing the batch size you can decrease the overall throughput of messages coming into the system.  
+- Reduce the adapter batch size. Most fast receive adapters publish messages to the MessageBox in batches. The size of these batches is usually configurable in the receive location property page. By decreasing the batch size you can decrease the overall throughput of messages coming into the system.  
   
--   Change other adapter-specific settings. After you complete the two previous steps, you can try adjusting other adapter parameters to further decrease throughput. Some adapters expose internal parameters that can be used to decrease throughput. For example, the MQSeries adapter has a setting for “Ordered Delivery.” Ordered Delivery specifies that the adapter will publish a batch of messages, wait for it to complete, and then publish the next batch. By enabling this setting, you essentially remove all parallelism from the receive adapter. Conversely, tuning the parameters in the opposite way can be used to increase the receiving rate of a receive adapter.  
+- Change other adapter-specific settings. After you complete the two previous steps, you can try adjusting other adapter parameters to further decrease throughput. Some adapters expose internal parameters that can be used to decrease throughput. For example, the MQSeries adapter has a setting for “Ordered Delivery.” Ordered Delivery specifies that the adapter will publish a batch of messages, wait for it to complete, and then publish the next batch. By enabling this setting, you essentially remove all parallelism from the receive adapter. Conversely, tuning the parameters in the opposite way can be used to increase the receiving rate of a receive adapter.  
   
- An adapter can submit as many batches as required to the transport proxy. When the system is heavily stressed, a call to the **Done** method of the **IBTTransportBatch** interface will block the message until the required resources are released to the system.  
+  An adapter can submit as many batches as required to the transport proxy. When the system is heavily stressed, a call to the **Done** method of the **IBTTransportBatch** interface will block the message until the required resources are released to the system.  
   
 ## Plan for Asynchronous Receive and Send  
  The BizTalk Server messaging APIs have rich support for asynchronous programming. If you want to write a scalable adapter, plan on using the asynchronous model from the start because the asynchronous model provides better concurrency.  

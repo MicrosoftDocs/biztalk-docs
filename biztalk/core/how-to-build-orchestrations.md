@@ -28,13 +28,13 @@ After you have completed an orchestration drawing, you build your BizTalk projec
   
  You have several options for building in Visual Studio:  
   
--   You can build the entire solution in which your orchestration resides.  
+- You can build the entire solution in which your orchestration resides.  
   
--   You can build a single project within the solution.  
+- You can build a single project within the solution.  
   
--   You can skip the orchestration when building the project or solution.  
+- You can skip the orchestration when building the project or solution.  
   
- If you want to build other components, including other orchestrations, but do not want to build a particular orchestration, you can indicate in the file properties for the orchestration's .odx file that you do not want to build it, and it will be skipped.  
+  If you want to build other components, including other orchestrations, but do not want to build a particular orchestration, you can indicate in the file properties for the orchestration's .odx file that you do not want to build it, and it will be skipped.  
   
 ### To build an orchestration  
   

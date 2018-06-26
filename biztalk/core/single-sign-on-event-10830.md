@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10830
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10830|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_PSADMIN_ADAPTER_SAME_COMPUTER|  
-|Message Text|The specified adapter must be on the same computer as the group adapter.|  
+|                 |                                                                          |
+|-----------------|--------------------------------------------------------------------------|
+|  Product Name   |                        Enterprise Single Sign-On                         |
+| Product Version |        [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]        |
+|    Event ID     |                                  10830                                   |
+|  Event Source   |                                  ENTSSO                                  |
+|    Component    |                                   N/A                                    |
+|  Symbolic Name  |                  ENTSSO_E_PSADMIN_ADAPTER_SAME_COMPUTER                  |
+|  Message Text   | The specified adapter must be on the same computer as the group adapter. |
   
 ## Explanation  
  Each adapter in a group adapter must be configured with the same computer name as the group adapter.  

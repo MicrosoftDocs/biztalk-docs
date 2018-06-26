@@ -30,19 +30,19 @@ manager: "anneta"
 ### Resolution  
  Create the **StartAgentSleep** registry key and increase the timeout value:  
   
-1.  Open the registry and go to *HKEY_LOCAL_MACHINE\software\Microsoft\BizTalkAdapters*.  
+1. Open the registry and go to *HKEY_LOCAL_MACHINE\software\Microsoft\BizTalkAdapters*.  
   
-2.  Create a new DWORD value with the following properties:  
+2. Create a new DWORD value with the following properties:  
   
-     Name: StartAgentSleep  
+    Name: StartAgentSleep  
   
-     Base: Decimal  
+    Base: Decimal  
   
-     Value data: 1000  
+    Value data: 1000  
   
- Value data is measured in milliseconds (ms). 1000ms equals 1 second.  
+   Value data is measured in milliseconds (ms). 1000ms equals 1 second.  
   
- In some systems, one second may not be enough. Increase the value and test to help determine the appropriate timeout needed.  
+   In some systems, one second may not be enough. Increase the value and test to help determine the appropriate timeout needed.  
   
 > [!IMPORTANT]
 >  Adding the **StartAgentSleep** registry key impacts **all** the non-WCF LOB adapters.  

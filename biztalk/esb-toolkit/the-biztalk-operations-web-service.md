@@ -55,33 +55,33 @@ The Microsoft BizTalk Operations Web service exposes information about the objec
 ## Configuring the BizTalk Operations Web Service  
  The BizTalk Operations Web service either communicates directly with the BizTalk Server management databases using Windows Management Instrumentation (WMI) or it uses the BizTalk Operations and Explorer API to obtain the information it requires. Therefore, you must make sure that your system meets the following conditions and that you configure the following security permission settings:  
   
--   Set the **allowOverride** attribute in the machine-level Web.config file to **false** to make sure developers cannot change the trust level of their applications.  
+- Set the **allowOverride** attribute in the machine-level Web.config file to **false** to make sure developers cannot change the trust level of their applications.  
   
--   By default, the BizTalk Operations Web service is not configured to require Secure Sockets Layer (SSL) when accessed by clients. You should configure the service so that it requires SSL for client access, and protect the connection between the Internet Information Services (IIS) Web service host computer and the computer running SQL Server that hosts the BizTalkMgmtDb database using network-level IPSec and appropriate file-level access control list (ACL) permissions.  
+- By default, the BizTalk Operations Web service is not configured to require Secure Sockets Layer (SSL) when accessed by clients. You should configure the service so that it requires SSL for client access, and protect the connection between the Internet Information Services (IIS) Web service host computer and the computer running SQL Server that hosts the BizTalkMgmtDb database using network-level IPSec and appropriate file-level access control list (ACL) permissions.  
   
--   Users accessing the BizTalk Operations Web service must be members of the default BizTalk Server Administrators group for some methods and members of the default BizTalk Application Users group for other methods.  
+- Users accessing the BizTalk Operations Web service must be members of the default BizTalk Server Administrators group for some methods and members of the default BizTalk Application Users group for other methods.  
   
--   You must make sure that the BizTalk Operations Web service resides in an IIS virtual directory named ESB.BizTalkOperationsService that has anonymous access disabled.  
+- You must make sure that the BizTalk Operations Web service resides in an IIS virtual directory named ESB.BizTalkOperationsService that has anonymous access disabled.  
   
--   Users must have **SELECT** permission in SQL Server for several tables located in the BizTalkMgmtDb database and the BizTalkMsgBoxDb database. Use SQL Server Management Studio to set the following permissions:  
+- Users must have **SELECT** permission in SQL Server for several tables located in the BizTalkMgmtDb database and the BizTalkMsgBoxDb database. Use SQL Server Management Studio to set the following permissions:  
   
-    -   In the BizTalkMgmtDb database, configure the BTS_ADMIN_USERS database role with **SELECT** permission on the following tables:  
+  -   In the BizTalkMgmtDb database, configure the BTS_ADMIN_USERS database role with **SELECT** permission on the following tables:  
   
-        -   adm_Server2HostMapping  
+      -   adm_Server2HostMapping  
   
-        -   adm_Server  
+      -   adm_Server  
   
-        -   adm_hostInstance  
+      -   adm_hostInstance  
   
-    -   In the BizTalkMsgBoxDb database, configure the BTS_ADMIN_USER database role with **SELECT** permission on the ProcessHeartbeats table.  
+  -   In the BizTalkMsgBoxDb database, configure the BTS_ADMIN_USER database role with **SELECT** permission on the ProcessHeartbeats table.  
   
- In SQL Server Management Studio, you can configure the required permissions. To do this, expand **Security** in the left pane tree view of Object Explorer, expand **Roles**, expand **DatabaseRoles**, select the BTS_ADMIN_USERS role, and then edit the properties for this role, as shown in Figure 1.  
+  In SQL Server Management Studio, you can configure the required permissions. To do this, expand **Security** in the left pane tree view of Object Explorer, expand **Roles**, expand **DatabaseRoles**, select the BTS_ADMIN_USERS role, and then edit the properties for this role, as shown in Figure 1.  
   
- ![SQL Server Mgmt Studio](../esb-toolkit/media/ch4-sqlservermgmtstudio.gif "Ch4-SQLServerMgmtStudio")  
+  ![SQL Server Mgmt Studio](../esb-toolkit/media/ch4-sqlservermgmtstudio.gif "Ch4-SQLServerMgmtStudio")  
   
- **Figure 1**  
+  **Figure 1**  
   
- **Editing permissions for the BTS_ADMIN_USERS database role in Microsoft SQL Server Management Studio**  
+  **Editing permissions for the BTS_ADMIN_USERS database role in Microsoft SQL Server Management Studio**  
   
 > [!NOTE]
 >  You must configure this service to use Windows Integrated Security and run under the built-in NETWORK SERVICE account. You must also enable Kerberos authentication on your IIS Web server so that it sends the header **Negotiate,NTLM** to the client. For more information, see [How to configure IIS to support both the Kerberos protocol and the NTLM protocol for network authentication](http://go.microsoft.com/fwlink/?LinkId=186430)([http://go.microsoft.com/fwlink/?LinkId=186430](http://go.microsoft.com/fwlink/?LinkId=186430)).  

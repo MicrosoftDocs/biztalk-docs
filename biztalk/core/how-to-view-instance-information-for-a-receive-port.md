@@ -26,15 +26,15 @@ This topic describes how to use the BizTalk Server Administration console to vie
   
 ### To view instance information for a receive port  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to view instance information for a receive port.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to view instance information for a receive port.  
   
-3.  Click **Receive Ports**, select the receive port, click **View**, and then click **Instance Information**.  
+3. Click **Receive Ports**, select the receive port, click **View**, and then click **Instance Information**.  
   
-     The query results panel in the lower section of the page displays all instances of the receive port.  
+    The query results panel in the lower section of the page displays all instances of the receive port.  
   
-4.  To refine the query and view different instance information for the receive port, click the box under **Value** for the **Search For** field, select the instance type to view, and then click **Run Query**. For more information about creating queries, see the topics on searching under See Also.  
+4. To refine the query and view different instance information for the receive port, click the box under **Value** for the **Search For** field, select the instance type to view, and then click **Run Query**. For more information about creating queries, see the topics on searching under See Also.  
   
 ## See Also  
  [Managing Receive Ports](../core/managing-receive-ports.md)   

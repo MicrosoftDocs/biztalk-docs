@@ -273,27 +273,27 @@ CONNECT TO :LOC USER :USERID USING :PASSWORD; SELECT * FROM DSN8910.DEPT
 #### Alias for three-part object identifier  
  Optionally, one can encapsulate the 3-part name within a 2-part local table alias. To define an alias for use with DB2 for z/OS and a remote DRDA server, one must follow these steps.  
   
--   Define an alias in the local DB2 for z/OS database.  
+- Define an alias in the local DB2 for z/OS database.  
   
-    ```  
-    CREATE ALIAS DSN8910. FOR RDB1.COL1.TABLE1  
-    ```  
+  ```  
+  CREATE ALIAS DSN8910. FOR RDB1.COL1.TABLE1  
+  ```  
   
--   Define a corresponding synonym or view in the remote SQL Server database.  
+- Define a corresponding synonym or view in the remote SQL Server database.  
   
-    ```  
-    CREATE SYNONYM [DSN8910].[ADEPT] FOR [DSN8910].[DEPT]  
-    CREATE VIEW [DSN8910].[VDEPT] ("DEPTNO", "DEPTNAME", "MGRNO", "ADMRDEPT") AS SELECT ALL DEPTNO , DEPTNAME, MGRNO , ADMRDEPT FROM DSN8910.DEPT  
-    ```  
+  ```  
+  CREATE SYNONYM [DSN8910].[ADEPT] FOR [DSN8910].[DEPT]  
+  CREATE VIEW [DSN8910].[VDEPT] ("DEPTNO", "DEPTNAME", "MGRNO", "ADMRDEPT") AS SELECT ALL DEPTNO , DEPTNAME, MGRNO , ADMRDEPT FROM DSN8910.DEPT  
+  ```  
   
--   Reference the local DB2 for z/OS alias in a SQL statement.  
+- Reference the local DB2 for z/OS alias in a SQL statement.  
   
-    ```  
-    SELECT * FROM CONTOSO.DSN8910.ADEPT  
-    SELECT * FROM CONTOSO.DSN8910.VDEPT  
-    ```  
+  ```  
+  SELECT * FROM CONTOSO.DSN8910.ADEPT  
+  SELECT * FROM CONTOSO.DSN8910.VDEPT  
+  ```  
   
- Defining and using a DB2 for z/OS alias over a 3-part object identifier in a SQL statement.  
+  Defining and using a DB2 for z/OS alias over a 3-part object identifier in a SQL statement.  
   
 ### Verify DB2 for z/OS to DRDA Service connection using QMF  
  You can verify the DB2 for z/OS to DRDA Service connection by using QMF and a number of other host-resident DB2 client programs.  

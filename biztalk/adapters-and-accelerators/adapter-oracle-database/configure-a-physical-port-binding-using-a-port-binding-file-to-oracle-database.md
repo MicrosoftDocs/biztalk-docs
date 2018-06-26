@@ -55,15 +55,15 @@ When you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapter
 ## Configuring a WCF-OracleDB Port Using the Port Binding File Generated Using Consume Adapter Service Add-in  
  The [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] creates a port binding file that you can import in BizTalk Server Administration console. You can use the same port binding file to also create the BizTalk WCF-OracleDB port in BizTalk Server Administration console. However, before creating WCF-OracleDB port you must perform the following tasks to modify the port binding file.  
   
-1.  Open the port binding file in a text editor.  
+1. Open the port binding file in a text editor.  
   
-2.  Search and replace “WCF-Custom” with the name with which you added the WCF-OracleDB adapter in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For example, if you added the WCF-OracleDB adapter as “OracleDBAdapter”, replace “WCF-Custom” with “OracleDBAdapter”.  
+2. Search and replace “WCF-Custom” with the name with which you added the WCF-OracleDB adapter in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For example, if you added the WCF-OracleDB adapter as “OracleDBAdapter”, replace “WCF-Custom” with “OracleDBAdapter”.  
   
-3.  Search for the “ConfigurationClsid” attribute, and replace the existing value of the attribute with “D7127586-E851-412e-8A8A-2428AEDDC219”.  
+3. Search for the “ConfigurationClsid” attribute, and replace the existing value of the attribute with “D7127586-E851-412e-8A8A-2428AEDDC219”.  
   
-4.  Save and close the binding file.  
+4. Save and close the binding file.  
   
-5.  Import the binding file in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For instructions on how to import the binding file, see [Reuse Oracle Database Adapter bindings](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md).  
+5. Import the binding file in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For instructions on how to import the binding file, see [Reuse Oracle Database Adapter bindings](../../adapters-and-accelerators/adapter-oracle-database/reuse-oracle-database-adapter-bindings.md).  
   
 ## See Also  
 [Building Blocks to develop BizTalk Applications with Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md)

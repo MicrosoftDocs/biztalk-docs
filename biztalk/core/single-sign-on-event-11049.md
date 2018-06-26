@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11049
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11049|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_ERROR_DTC_FAILED|  
-|Message Text|Could not get MSDTC. SSO requires MSDTC for correct operation.|  
+|                 |                                                                |
+|-----------------|----------------------------------------------------------------|
+|  Product Name   |                   Enterprise Single Sign-On                    |
+| Product Version |   [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]   |
+|    Event ID     |                             11049                              |
+|  Event Source   |                             ENTSSO                             |
+|    Component    |                              N/A                               |
+|  Symbolic Name  |                      SSO_ERROR_DTC_FAILED                      |
+|  Message Text   | Could not get MSDTC. SSO requires MSDTC for correct operation. |
   
 ## Explanation  
  The ENTSSO system could not connect to the Microsoft Distributed Transaction Coordinator (MSDTC).  

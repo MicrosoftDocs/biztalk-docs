@@ -36,11 +36,11 @@ The Enumerate Receive Locations sample demonstrates how to retrieve details abou
 ## Where to Find This Sample  
  The samples are located in the following SDK locations:  
   
--   VBScript version: \<*Samples Path*\>\Admin\WMI\Enumerate Receive Locations\VBScript\  
+- VBScript version: \<*Samples Path*\>\Admin\WMI\Enumerate Receive Locations\VBScript\  
   
--   Visual C# version: \<*Samples Path*\>\Admin\WMI\Enumerate Receive Locations\CSharp\  
+- Visual C# version: \<*Samples Path*\>\Admin\WMI\Enumerate Receive Locations\CSharp\  
   
- The following table shows the files in this sample and describes their purpose.  
+  The following table shows the files in this sample and describes their purpose.  
   
 |File(s)|Description|  
 |---------------|-----------------|  
@@ -52,9 +52,9 @@ The Enumerate Receive Locations sample demonstrates how to retrieve details abou
   
 #### To build the Visual C# version of the Enumerate Receive Locations sample  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file BTSampleEnumerateRLs.sln.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file BTSampleEnumerateRLs.sln.  
   
-2.  In the **Build** menu, click **Build Solution**.  
+2. In the **Build** menu, click **Build Solution**.  
   
 ## Running This Sample  
   

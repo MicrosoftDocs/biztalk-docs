@@ -21,13 +21,13 @@ Microsoft BizTalk Adapter for JD Edwards EnterpriseOne supports the jdeRequest a
   
  You can use JD Edwards EnterpriseOne XML to do the following:  
   
--   Aggregate business function calls into a single object.  
+- Aggregate business function calls into a single object.  
   
--   Use the JD Edwards EnterpriseOne ThinNet API.  
+- Use the JD Edwards EnterpriseOne ThinNet API.  
   
--   Access both Z files and business functions.  
+- Access both Z files and business functions.  
   
- This section provides examples of the jdeRequest and jdeResponse XML structures for executing business functions within JD Edwards EnterpriseOne.  
+  This section provides examples of the jdeRequest and jdeResponse XML structures for executing business functions within JD Edwards EnterpriseOne.  
   
 ## In This Section  
   

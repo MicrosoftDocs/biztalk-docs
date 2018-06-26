@@ -55,80 +55,80 @@ manager: "anneta"
   
 #### To define the structure of the itinerary  
   
-1.  From the Toolbox, drag an **On-Ramp** model element to the design surface. In the **OnRamp1** Properties window, configure the following properties:  
+1. From the Toolbox, drag an **On-Ramp** model element to the design surface. In the **OnRamp1** Properties window, configure the following properties:  
   
-    1.  Click the **Name** property, and then type **ReceiveNAOrder**.  
+   1.  Click the **Name** property, and then type **ReceiveNAOrder**.  
   
-    2.  In the **Extender** drop-down list, click **On-Ramp ESB Extender**.  
+   2.  In the **Extender** drop-down list, click **On-Ramp ESB Extender**.  
   
-    3.  In the **BizTalk Application** drop-down list, click **Microsoft.Practices.ESB**.  
+   3.  In the **BizTalk Application** drop-down list, click **Microsoft.Practices.ESB**.  
   
-    4.  In the **Receive Port** drop-down list, click **OnRamp.Itinerary**.  
+   4.  In the **Receive Port** drop-down list, click **OnRamp.Itinerary**.  
   
-2.  From the Toolbox, drag an **Itinerary Service** model element to the design surface, and then place it to the right of the **On-Ramp** model element. In the **ItineraryService1** Properties window, configure the following properties:  
+2. From the Toolbox, drag an **Itinerary Service** model element to the design surface, and then place it to the right of the **On-Ramp** model element. In the **ItineraryService1** Properties window, configure the following properties:  
   
-    1.  Click the **Name** property, and then type **RouteMessageEmail**.  
+   1.  Click the **Name** property, and then type **RouteMessageEmail**.  
   
-    2.  In the **Itinerary Service Extender** drop-down list, click **Messaging Extender**.  
+   2.  In the **Itinerary Service Extender** drop-down list, click **Messaging Extender**.  
   
-        > [!NOTE]
-        >  This property defines that the process will take place in a pipeline (messaging). Alternately, if the process will take place in an orchestration, set the **Itinerary Service Extender** property to **Orchestration Extender**.  
+       > [!NOTE]
+       >  This property defines that the process will take place in a pipeline (messaging). Alternately, if the process will take place in an orchestration, set the **Itinerary Service Extender** property to **Orchestration Extender**.  
   
-    3.  In the **Container** drop-down list, expand **ReceiveNAOrder**, and then click **Receive Handlers**.  
+   3.  In the **Container** drop-down list, expand **ReceiveNAOrder**, and then click **Receive Handlers**.  
   
-    4.  In the **Service Name** drop-down list, click **Microsoft.Practices.ESB.Services.Routing**.  
+   4.  In the **Service Name** drop-down list, click **Microsoft.Practices.ESB.Services.Routing**.  
   
-3.  Right-click the **Resolver** collection of the **RouteMessageEmail** model element, and then click **Add new Resolver**. In the **Resolver1** Properties window, configure the following properties:  
+3. Right-click the **Resolver** collection of the **RouteMessageEmail** model element, and then click **Add new Resolver**. In the **Resolver1** Properties window, configure the following properties:  
   
-    1.  Click the **Name** property, and then type **LdapResolver**.  
+   1.  Click the **Name** property, and then type **LdapResolver**.  
   
-    2.  In the **Resolver Implementation** drop-down list, click **LDAP Resolver Extension**.  
+   2.  In the **Resolver Implementation** drop-down list, click **LDAP Resolver Extension**.  
   
-    3.  In the **Transport Name** drop-down list, click **SMTP**.  
+   3.  In the **Transport Name** drop-down list, click **SMTP**.  
   
-    4.  Click the **Transport Location** property, and then type **{mail}**  
+   4.  Click the **Transport Location** property, and then type **{mail}**  
   
-    5.  Click the **SearchRoot** property, and then type **ou=Employees,dc=globalbank,dc=com**  
+   5.  Click the **SearchRoot** property, and then type **ou=Employees,dc=globalbank,dc=com**  
   
-        > [!NOTE]
-        >  If you have not set up your environment according to the specifications in the "Prerequisites" section, replace the values in the preceding property with ones that are appropriate for your environment.  
+       > [!NOTE]
+       >  If you have not set up your environment according to the specifications in the "Prerequisites" section, replace the values in the preceding property with ones that are appropriate for your environment.  
   
-    6.  Click the **Filter** property, and then change the value to **(&(objectClass=User)(&#124;(givenName=john)))**  
+   6.  Click the **Filter** property, and then change the value to **(&(objectClass=User)(&#124;(givenName=john)))**  
   
-        > [!NOTE]
-        >  Type the preceding value to replace the existing text.  
+       > [!NOTE]
+       >  Type the preceding value to replace the existing text.  
   
-    7.  In the **ThrowErrorIfNotFound** drop-down list, click **True**.  
+   7.  In the **ThrowErrorIfNotFound** drop-down list, click **True**.  
   
-4.  In the Properties window, click the **Endpoint Configuration** property, and then click the ellipsis button (...).  
+4. In the Properties window, click the **Endpoint Configuration** property, and then click the ellipsis button (...).  
   
-    1.  In the **Endpoint Configuration** dialog box, click the **EmailBodyText** property, and then type **Order is ready to be processed**.  
+   1. In the **Endpoint Configuration** dialog box, click the **EmailBodyText** property, and then type **Order is ready to be processed**.  
   
-    2.  Click the **From** property, and then type **orders@globalbank.com**.  
+   2. Click the **From** property, and then type <strong>orders@globalbank.com</strong>.  
   
-    3.  Click the **MessagePartsAttachment** property, and then type **2**.  
+   3. Click the **MessagePartsAttachment** property, and then type **2**.  
   
-    4.  Click the **Subject** property, and then type **Order for {givenName}**.  
+   4. Click the **Subject** property, and then type **Order for {givenName}**.  
   
-    5.  Configure the **SMTPAuthentication, SMTPHost, UserName,** and **Password** properties using the connection information for your local environment.  
+   5. Configure the **SMTPAuthentication, SMTPHost, UserName,** and **Password** properties using the connection information for your local environment.  
   
-    6.  Click **OK** to close the **Endpoint Configuration** dialog box.  
+   6. Click **OK** to close the **Endpoint Configuration** dialog box.  
   
-5.  Right-click the **LdapResolver** resolver, and then click **Test Resolver Configuration**.  
+5. Right-click the **LdapResolver** resolver, and then click **Test Resolver Configuration**.  
   
-6.  In the Output window, verify the subject in the resolved **Endpoint Configuration** value is **Order for John**, and then verify that the resolved **Transport Location** is the e-mail address associated with the user's account in Active Directory (for example, johne@globalbank.com).  
+6. In the Output window, verify the subject in the resolved **Endpoint Configuration** value is **Order for John**, and then verify that the resolved **Transport Location** is the e-mail address associated with the user's account in Active Directory (for example, johne@globalbank.com).  
   
-7.  In the Toolbox, click **Connector**. Drag a connection from the **ReceiveNAOrder** model element to the **RouteMessageEmail** model element.  
+7. In the Toolbox, click **Connector**. Drag a connection from the **ReceiveNAOrder** model element to the **RouteMessageEmail** model element.  
   
-8.  From the Toolbox, drag an **Off-Ramp** model element to the design surface, and then place it to the right of the **RouteMessageEmail** model element. In the **OffRamp1** Properties window, configure the following properties:  
+8. From the Toolbox, drag an **Off-Ramp** model element to the design surface, and then place it to the right of the **RouteMessageEmail** model element. In the **OffRamp1** Properties window, configure the following properties:  
   
-    1.  Click the **Name** property, and then type **EmailNAOrderDoc**.  
+   1.  Click the **Name** property, and then type **EmailNAOrderDoc**.  
   
-    2.  In the **Extender** drop-down list, click **Off-Ramp ESB Extender**.  
+   2.  In the **Extender** drop-down list, click **Off-Ramp ESB Extender**.  
   
-    3.  In the **BizTalk Application** drop-down list, click **GlobalBank.ESB**.  
+   3.  In the **BizTalk Application** drop-down list, click **GlobalBank.ESB**.  
   
-    4.  In the **Send Port** drop-down list, click **DynamicResolutionOneWay**.  
+   4.  In the **Send Port** drop-down list, click **DynamicResolutionOneWay**.  
   
 9. From the Toolbox, drag an **Itinerary Service** model element to the design surface, and then place it between the **RouteMessageEmail** model element and the **EmailNAOrderDoc** model element. In the **ItineraryService1** Properties window, configure the following properties:  
   

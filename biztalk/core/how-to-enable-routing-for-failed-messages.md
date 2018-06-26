@@ -25,31 +25,31 @@ Failed message routing is a property of send and receive ports, and is enabled b
   
 ### To configure failed message routing for a receive port (this applies to both one-way and request-response receive ports)  
   
-1.  Open the BizTalk Server Administration console.  
+1. Open the BizTalk Server Administration console.  
   
-2.  Expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application to which the send port belongs.  
+2. Expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application to which the send port belongs.  
   
-3.  Click the **Receive Ports** folder.  
+3. Click the **Receive Ports** folder.  
   
-4.  In the right pane, double-click the name of the receive port you want to configure.  
+4. In the right pane, double-click the name of the receive port you want to configure.  
   
-5.  On the receive port's property page, in the left pane, select the **General** category.  
+5. On the receive port's property page, in the left pane, select the **General** category.  
   
-6.  In the right pane, select the **Enable routing for failed messages** check box, and then click **Apply**.  
+6. In the right pane, select the **Enable routing for failed messages** check box, and then click **Apply**.  
   
 ### To configure failed message routing for a send port (this applies only to static one-way and static solicit-response send ports)  
   
-1.  Open the BizTalk Server Administration console.  
+1. Open the BizTalk Server Administration console.  
   
-2.  Expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application to which the send port belongs.  
+2. Expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application to which the send port belongs.  
   
-3.  Click the **Send Ports** folder.  
+3. Click the **Send Ports** folder.  
   
-4.  In the right pane, double-click the name of the send port you want to configure.  
+4. In the right pane, double-click the name of the send port you want to configure.  
   
-5.  On the send port's property page, in the left pane, select the **Transport Advanced Options** category.  
+5. On the send port's property page, in the left pane, select the **Transport Advanced Options** category.  
   
-6.  In the right pane, in the **Transport Options** group box, select the **Enable routing for failed messages** check box, and then click **Apply**.  
+6. In the right pane, in the **Transport Options** group box, select the **Enable routing for failed messages** check box, and then click **Apply**.  
   
 ## See Also  
  [Error Handling](../core/error-handling.md)

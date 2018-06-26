@@ -51,13 +51,13 @@ Looping Functoid, Flat Schema Map
 ## Set the schema  
  For this type of map to work correctly, you must do the following:  
   
--   For each link connecting to the **Name** field in the destination schema, set the source-schema link properties to copy the name. For more information, see [Configuring Links](../core/configuring-links.md). Also see **Link Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+- For each link connecting to the **Name** field in the destination schema, set the source-schema link properties to copy the name. For more information, see [Configuring Links](../core/configuring-links.md). Also see **Link Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
--   For each link connecting to the **Value** field in the destination schema, set the source-schema link properties to copy the value (the default).  
+- For each link connecting to the **Value** field in the destination schema, set the source-schema link properties to copy the value (the default).  
   
--   For the link connecting the **Looping** functoid to the record named **Feature** in the destination schema, set the destination-schema link properties to match links top-down.  
+- For the link connecting the **Looping** functoid to the record named **Feature** in the destination schema, set the destination-schema link properties to match links top-down.  
   
- For the inverse of this mapping, converting a catalog schema to a flat schema, see [Value Mapping (Flattening) Functoid](../core/value-mapping-flattening-functoid.md).  
+  For the inverse of this mapping, converting a catalog schema to a flat schema, see [Value Mapping (Flattening) Functoid](../core/value-mapping-flattening-functoid.md).  
   
 ## See Also  
  [How to Add Looping Functoids to a Map](../core/how-to-add-looping-functoids-to-a-map.md)   

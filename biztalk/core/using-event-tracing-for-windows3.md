@@ -29,32 +29,32 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service logs error, warni
 ## ETW Components  
  Event Tracing for Windows has three components:  
   
--   **Controller application**: Activates and deactivates a provider (for example, tracelog.exe or logman.exe).  
+- **Controller application**: Activates and deactivates a provider (for example, tracelog.exe or logman.exe).  
   
-     You set your PATH environment variable to point to the location of tracelog.exe. This makes sure that BTATIBCO EMSTrace calls can locate tracelog.exe in the system. By default, BTATIBCO EMSTrace searches the current path.  
+   You set your PATH environment variable to point to the location of tracelog.exe. This makes sure that BTATIBCO EMSTrace calls can locate tracelog.exe in the system. By default, BTATIBCO EMSTrace searches the current path.  
   
-    > [!NOTE]
-    >  tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by Microsoft BizTalk Adapter for TIBCO Enterprise Message Service. To use logman.exe, see the logman documentation.  
+  > [!NOTE]
+  >  tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by Microsoft BizTalk Adapter for TIBCO Enterprise Message Service. To use logman.exe, see the logman documentation.  
   
--   **Consumer application**: Reads logged events.  
+- **Consumer application**: Reads logged events.  
   
-     For the consumer application to be able to read the event in the etl file, Event Tracing for Windows must dump them into that file. Typically this is done when the controller deactivates the tracing.  
+   For the consumer application to be able to read the event in the etl file, Event Tracing for Windows must dump them into that file. Typically this is done when the controller deactivates the tracing.  
   
-     To use the consumer application without deactivating the trace, the controller must activate the trace with the real time option, \<Real time\> = -rt.  
+   To use the consumer application without deactivating the trace, the controller must activate the trace with the real time option, \<Real time\> = -rt.  
   
--   **Provider**: Provides the event.  
+- **Provider**: Provides the event.  
   
-     BizTalk Adapter for TIBCO Enterprise Message Service includes three different providers. They are registered in Windows Management Instrumentation (WMI). To find the registered providers in the root\WMI\EventTrace path, you can use tools such as WMI CIM Studio.  
+   BizTalk Adapter for TIBCO Enterprise Message Service includes three different providers. They are registered in Windows Management Instrumentation (WMI). To find the registered providers in the root\WMI\EventTrace path, you can use tools such as WMI CIM Studio.  
   
- BizTalk Adapter for TIBCO Enterprise Message Service has providers that enable you to log different kinds of messages:  
+  BizTalk Adapter for TIBCO Enterprise Message Service has providers that enable you to log different kinds of messages:  
   
--   **Receiver Logging Provider**: The \<Trace element\> switch is **-receiver**.  
+- **Receiver Logging Provider**: The \<Trace element\> switch is **-receiver**.  
   
-     Use **-receiver** to obtain any messages from the log that were received by the adapter at run time.  
+   Use **-receiver** to obtain any messages from the log that were received by the adapter at run time.  
   
--   **Transmitter Logging Provider**: the \<Trace element\> switch is **-transmitter**.  
+- **Transmitter Logging Provider**: the \<Trace element\> switch is **-transmitter**.  
   
-     Use **-transmitter**to obtain any messages from the log that were transmitted by the adapter at run time.  
+   Use **-transmitter**to obtain any messages from the log that were transmitted by the adapter at run time.  
   
 ### BTATIBCOEMSTrace Command  
  To use ETW, run the BizTalk Adapter for TIBCO Enterprise Message Service command, BTATIBCOEMSTrace.cmd. You use this command as follows:  
@@ -67,25 +67,25 @@ BTA TIBCOEMSTrace <Trace element> -stop
   
  Where:  
   
--   **\<Trace element\>** (required) is the kind of provider.  
+- **\<Trace element\>** (required) is the kind of provider.  
   
- Its options are as follows:  
+  Its options are as follows:  
   
--   **-transmitter**  
+- **-transmitter**  
   
--   **-receiver**  
+- **-receiver**  
   
--   **-start, -stop**: Activate or deactivate the provider.  
+- **-start, -stop**: Activate or deactivate the provider.  
   
--   **-cir \<MB\>**: Size and kind of file. **-cir** is a circular file. **\<MB\>**: Size in megabytes.  
+- **-cir \<MB\>**: Size and kind of file. **-cir** is a circular file. **\<MB\>**: Size in megabytes.  
   
--   **-seq \<MB\>**: Size and kind of file. **-seq** is a sequential file. **\<MB\>**: Size in megabytes.  
+- **-seq \<MB\>**: Size and kind of file. **-seq** is a sequential file. **\<MB\>**: Size in megabytes.  
   
--   **-rt**: Set the real time mode on.  
+- **-rt**: Set the real time mode on.  
   
--   **Logfile**: Name of the log file (c:\rtlog.etl is the default).  
+- **Logfile**: Name of the log file (c:\rtlog.etl is the default).  
   
- For example:  
+  For example:  
   
 ```  
 BTATIBCOEMSTrace -transmitter -start -cir 10 -rt c:\log\mylog.etl  

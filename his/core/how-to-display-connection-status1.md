@@ -18,13 +18,13 @@ Retrieving the status of a connection is a common task that you might want to pe
   
 ### To display the status of a connection  
   
-1.  Connect to the namespace using **GetObject** with a moniker in the parameter.  
+1. Connect to the namespace using **GetObject** with a moniker in the parameter.  
   
-2.  Enumerate **MsSnaStatus_Connections** using **ExecQuery**.  
+2. Enumerate **MsSnaStatus_Connections** using **ExecQuery**.  
   
-3.  Display error codes if necessary.  
+3. Display error codes if necessary.  
   
- The following example shows how to display the status of all the connections defined in Host Integration Server (HIS):  
+   The following example shows how to display the status of all the connections defined in Host Integration Server (HIS):  
   
 ```  
 Private Function DisplayConnectionStatus ()  

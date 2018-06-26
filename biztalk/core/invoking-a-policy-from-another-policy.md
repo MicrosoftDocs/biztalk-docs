@@ -17,11 +17,11 @@ manager: "anneta"
 # Invoking a Policy from Another Policy
 You can invoke a policy (child) from another policy (parent) by using one of the following methods:  
   
--   Calling the **Policy.Execute** method directly from the parent policy  
+- Calling the **Policy.Execute** method directly from the parent policy  
   
--   Calling a method of a helper .NET component that wraps the **Policy.Execute** method from the parent policy  
+- Calling a method of a helper .NET component that wraps the **Policy.Execute** method from the parent policy  
   
- The advantage of using the second method is that you can add pre-processing and post-processing code to the **Policy.Execute** method. For example, you can create any facts required from the child policy in this wrapper method. The following sections provide an example for each method.  
+  The advantage of using the second method is that you can add pre-processing and post-processing code to the **Policy.Execute** method. For example, you can create any facts required from the child policy in this wrapper method. The following sections provide an example for each method.  
   
 ## Invoking the Policy.Execute Method Directly from the Parent Policy  
  This section presents the high-level steps to invoke the child policy from the parent policy by using the **Policy.Execute** method directly.  

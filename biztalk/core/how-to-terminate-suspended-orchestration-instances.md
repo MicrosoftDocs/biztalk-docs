@@ -32,23 +32,23 @@ You can terminate any suspended orchestration instances or ports from the Query 
   
 ### To terminate suspended orchestration instances  
   
-1.  Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and then click the BizTalk group.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and then click the BizTalk group.  
   
-3.  In the details pane, click the **New Query** tab.  
+3. In the details pane, click the **New Query** tab.  
   
-4.  In the **Query Expression** group, in the **Value** column, select **Suspended Service Instances** from the drop-down list box.  
+4. In the **Query Expression** group, in the **Value** column, select **Suspended Service Instances** from the drop-down list box.  
   
-5.  Do one of the following:  
+5. Do one of the following:  
   
-    -   To terminate a single instance, in the **Field Name** column, in the empty drop-down list box next to the asterisk (**\***), select the **Service Name** filter and then in the **Value** column, specify the service name.  
+   - To terminate a single instance, in the **Field Name** column, in the empty drop-down list box next to the asterisk (**\\**<em>), select the **Service Name</em>* filter and then in the **Value** column, specify the service name.  
   
-    -   To terminate instances in bulk, in the **Field Name** column, in the empty drop-down list box next to the asterisk (**\***), select **Group Results By** and then in the **Value** column, specify the service name.  
+   - To terminate instances in bulk, in the **Field Name** column, in the empty drop-down list box next to the asterisk (**\\**<em>), select **Group Results By</em>* and then in the **Value** column, specify the service name.  
   
-6.  Click **Run Query**.  
+6. Click **Run Query**.  
   
-7.  In the query results list, right-click the orchestration instance or group of instances you want to terminate, and then click **Terminate Instance** or **Terminate Instances**.  
+7. In the query results list, right-click the orchestration instance or group of instances you want to terminate, and then click **Terminate Instance** or **Terminate Instances**.  
   
 ## See Also  
  [Investigating Orchestration, Port, and Message Failures](../core/investigating-orchestration-port-and-message-failures.md)

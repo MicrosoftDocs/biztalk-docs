@@ -32,32 +32,32 @@ Use the following procedures to create mappings, set credentials, and enable or 
   
 ### To create mappings in host initiated SSO using the command line  
   
-1.  On the **Start** menu, click **Run**.  
+1. On the **Start** menu, click **Run**.  
   
-2.  In the **Run** dialog box, type **cmd**, and then click **OK**.  
+2. In the **Run** dialog box, type **cmd**, and then click **OK**.  
   
-3.  At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
+3. At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage –createmappings \<mapping file\>**, where **mapping file>** is the name of the xml file.  
+4. Type **ssomanage –createmappings \<mapping file\>**, where **mapping file>** is the name of the xml file.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
-     A sample mapping file is shown below:  
+    A sample mapping file is shown below:  
   
-    ```  
-    <SSO>  
-      <mapping>  
-        <windowsDomain>DomainName</windowsDomain>  
-        <windowsUserId>UserA</windowsUserId>  
-        <externalApplication>SSOApplication</externalApplication>  
-    <externalUserId>ExternalUserID that corresponds to UserA</externalUserId>  
-      </mapping>  
-    </SSO>  
+   ```  
+   <SSO>  
+     <mapping>  
+       <windowsDomain>DomainName</windowsDomain>  
+       <windowsUserId>UserA</windowsUserId>  
+       <externalApplication>SSOApplication</externalApplication>  
+   <externalUserId>ExternalUserID that corresponds to UserA</externalUserId>  
+     </mapping>  
+   </SSO>  
   
-    ```  
+   ```  
   
- When the Validate Password feature is enabled for the affiliate application, it is necessary to set credentials, as follows:  
+   When the Validate Password feature is enabled for the affiliate application, it is necessary to set credentials, as follows:  
   
 #### To set credentials for individual type affiliate applications using the command line  
   

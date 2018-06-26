@@ -18,15 +18,15 @@ Another task you may want to perform when setting up an IPDLC connection is to c
   
 ### To create a link service  
   
-1.  Connect to the namespace on the local computer using **GetObject**.  
+1. Connect to the namespace on the local computer using **GetObject**.  
   
-2.  Create the new link service instance using **SpawnInstance**.  
+2. Create the new link service instance using **SpawnInstance**.  
   
-3.  Set the properties of the new link service.  
+3. Set the properties of the new link service.  
   
-4.  Commit the new instance to memory using the **Put_** method.  
+4. Commit the new instance to memory using the **Put_** method.  
   
- The following example shows how to create a new link service:  
+   The following example shows how to create a new link service:  
   
 ```  
 private Sub CreateIPDLCLinkService  

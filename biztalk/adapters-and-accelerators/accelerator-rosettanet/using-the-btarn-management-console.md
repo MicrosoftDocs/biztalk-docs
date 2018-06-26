@@ -51,13 +51,13 @@ This topic describes how to administer [!INCLUDE[BTARN_CurrentVersion_FirstRef](
 ## Operations in the Scope Pane  
  You can perform the following operations on nodes in the scope pane:  
   
--   Set the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] send and receive pipelines that you want to use for partner send ports. For more information, see [Setting BTARN Send and Receive Pipelines](../../adapters-and-accelerators/accelerator-rosettanet/setting-btarn-send-and-receive-pipelines.md).  
+- Set the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] send and receive pipelines that you want to use for partner send ports. For more information, see [Setting BTARN Send and Receive Pipelines](../../adapters-and-accelerators/accelerator-rosettanet/setting-btarn-send-and-receive-pipelines.md).  
   
--   Enable Business Activity Monitoring (BAM) tracking. For more information, see [Enabling BAM Tracking](../../adapters-and-accelerators/accelerator-rosettanet/enabling-bam-tracking.md).  
+- Enable Business Activity Monitoring (BAM) tracking. For more information, see [Enabling BAM Tracking](../../adapters-and-accelerators/accelerator-rosettanet/enabling-bam-tracking.md).  
   
--   Make sure that any newly imported configuration is visible in the console by right-clicking the configuration node in the scope pane, and then clicking **Refresh**.  
+- Make sure that any newly imported configuration is visible in the console by right-clicking the configuration node in the scope pane, and then clicking **Refresh**.  
   
--   View additional columns in the results pane by right-clicking the **Process Configuration Settings** or **Agreement** node in the scope pane, pointing to **View**, and then clicking **Add/Remove columns**. Move columns between the available columns and displayed columns by using the **Add or Remove** button. This command is especially useful for agreements that have many available columns that [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not display by default.  
+- View additional columns in the results pane by right-clicking the **Process Configuration Settings** or **Agreement** node in the scope pane, pointing to **View**, and then clicking **Add/Remove columns**. Move columns between the available columns and displayed columns by using the **Add or Remove** button. This command is especially useful for agreements that have many available columns that [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not display by default.  
   
 ## Process Configurations  
  You can perform the following operations on a process configuration:  

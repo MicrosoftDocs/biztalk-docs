@@ -23,57 +23,57 @@ This section provides information on how to use the SQL Server Management Studio
 ## Prerequisites  
  Before performing the procedures provided in this topic, make sure:  
   
--   [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] is installed on the computer.  
+- [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] is installed on the computer.  
   
--   SQL Server Business Intelligence Development Studio is installed on the computer.  
+- SQL Server Business Intelligence Development Studio is installed on the computer.  
   
 ### To import data using SQL Server Management Studio  
   
-1.  Start the SQL Server Management Studio.  
+1. Start the SQL Server Management Studio.  
   
-2.  In the **Connect to Server** dialog box, specify the values to connect to a SQL Server database and click **Connect**. The **Microsoft SQL Server Management Studio** opens.  
+2. In the **Connect to Server** dialog box, specify the values to connect to a SQL Server database and click **Connect**. The **Microsoft SQL Server Management Studio** opens.  
   
-3.  In the **Object Explorer**, expand the SQL Server name, expand **Databases**, and right-click the database into which you will be exporting the tables from the SAP system. From the context menu, point to **Tasks**, and click **Import Data**. This starts the **SQL Server Import and Export Wizard**.  
+3. In the **Object Explorer**, expand the SQL Server name, expand **Databases**, and right-click the database into which you will be exporting the tables from the SAP system. From the context menu, point to **Tasks**, and click **Import Data**. This starts the **SQL Server Import and Export Wizard**.  
   
-4.  Read the information on the welcome screen and click **Next**.  
+4. Read the information on the welcome screen and click **Next**.  
   
-5.  In the **Choose a Data Source** dialog box, from the **Data Source** drop-down list **.NET Framework Data Provider for mySAP Business Suite**. The dialog box lists the different connection parameters to connect to an SAP system. A typical connection string to connect to an SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires:  
+5. In the **Choose a Data Source** dialog box, from the **Data Source** drop-down list **.NET Framework Data Provider for mySAP Business Suite**. The dialog box lists the different connection parameters to connect to an SAP system. A typical connection string to connect to an SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires:  
   
-    -   The connection parameters for a connection type. The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] supports connection types A, B, and D. To connect to an SAP system you must provide connection parameters for any *one* of these connection types. For example, for connection type A, you must provide the name of the application server host and the system number.  
+   - The connection parameters for a connection type. The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] supports connection types A, B, and D. To connect to an SAP system you must provide connection parameters for any *one* of these connection types. For example, for connection type A, you must provide the name of the application server host and the system number.  
   
-    -   The login information to connect to an SAP system such as username and password.  
+   - The login information to connect to an SAP system such as username and password.  
   
      For more information about the connection string to connect to an SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], see [Read about Data Provider for the SAP Connection String](../../adapters-and-accelerators/adapter-sap/read-about-data-provider-types-for-the-sap-connection-string.md).  
   
      In the **Choose a Data Source** dialog box, specify:  
   
-    -   The connection parameters for any one connection type.  
+   - The connection parameters for any one connection type.  
   
-    -   The login information to connect to an SAP system.  
+   - The login information to connect to an SAP system.  
   
-    -   Whether you want to enable SAP GUI debugging.  
+   - Whether you want to enable SAP GUI debugging.  
   
-    -   Whether you want to use RFC SDK tracing.  
+   - Whether you want to use RFC SDK tracing.  
   
      Click **Next**.  
   
-6.  In the **Choose a Destination** dialog box:  
+6. In the **Choose a Destination** dialog box:  
   
-    1.  From the **Destination** drop-down list, select **SQL Native Client**.  
+   1.  From the **Destination** drop-down list, select **SQL Native Client**.  
   
-    2.  From the **Server name** drop-down list, select a SQL server name.  
+   2.  From the **Server name** drop-down list, select a SQL server name.  
   
-    3.  Select an authentication mode.  
+   3.  Select an authentication mode.  
   
-    4.  From the **Database** drop-down list, select the database to which you want to import the SAP table.  
+   4.  From the **Database** drop-down list, select the database to which you want to import the SAP table.  
   
-    5.  Click **Next**.  
+   5.  Click **Next**.  
   
-7.  In the **Specify Table Copy or Query** dialog box, choose the **Write a query to specify the data to transfer** option and click **Next**.  
+7. In the **Specify Table Copy or Query** dialog box, choose the **Write a query to specify the data to transfer** option and click **Next**.  
   
-8.  In the **Provide a Source Query** dialog box, specify a SELECT query to filter the data to be imported into the SQL Server. For more information about the grammar for a SELECT query for the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], see [Syntax for a SELECT Statement SAP](../../adapters-and-accelerators/adapter-sap/syntax-for-a-select-statement-in-sap.md).  
+8. In the **Provide a Source Query** dialog box, specify a SELECT query to filter the data to be imported into the SQL Server. For more information about the grammar for a SELECT query for the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)], see [Syntax for a SELECT Statement SAP](../../adapters-and-accelerators/adapter-sap/syntax-for-a-select-statement-in-sap.md).  
   
-     Click the **Parse** button to validate the query and click **OK** in the pop-up dialog box. Click **Next**.  
+    Click the **Parse** button to validate the query and click **OK** in the pop-up dialog box. Click **Next**.  
   
 9. In the **Select Source Tables and Views** dialog box, select the check box against the source and destination tables. The source is the query you specified to retrieve data from SAP. The destination is the table that will be created in the SQL Server database.  
   
@@ -97,15 +97,15 @@ This section provides information on how to use the SQL Server Management Studio
   
 13. In the **Save and Execute Package** dialog box,  
   
-    -   Select the **Execute immediately** check box to execute the query.  
+    - Select the **Execute immediately** check box to execute the query.  
   
-    -   Select the **Save SSIS Package** check box to save the query as a package and execute it later. If you chose to save the package, you must also specify whether you want to save the package in the SQL Server or the file system.  
+    - Select the **Save SSIS Package** check box to save the query as a package and execute it later. If you chose to save the package, you must also specify whether you want to save the package in the SQL Server or the file system.  
   
-    -   From the **Package protection level** drop-down list, select a protection level for the package and specify credentials where required.  
+    - From the **Package protection level** drop-down list, select a protection level for the package and specify credentials where required.  
   
-    -   Click **Next**.  
+    - Click **Next**.  
   
-     If you chose to save the package, proceed to next step. Otherwise, skip to step 15.  
+      If you chose to save the package, proceed to next step. Otherwise, skip to step 15.  
   
 14. In the **Save SSIS Package** dialog box, specify:  
   
@@ -130,17 +130,17 @@ This section provides information on how to use the SQL Server Management Studio
   
 #### To run the package from Windows Explorer  
   
-1.  From the **Windows Explorer**, navigate to the location where you saved the package, and double-click the package.  
+1. From the **Windows Explorer**, navigate to the location where you saved the package, and double-click the package.  
   
-2.  On the **Execute Package Utility** dialog box, click **Execute**.  
+2. On the **Execute Package Utility** dialog box, click **Execute**.  
   
-3.  The **Package Execution Progress** dialog box displays the progress of the different tasks.  
+3. The **Package Execution Progress** dialog box displays the progress of the different tasks.  
   
-4.  After all the tasks are successfully executed, click **Close**.  
+4. After all the tasks are successfully executed, click **Close**.  
   
-5.  On the **Execute Package Utility** dialog box, click **Close**.  
+5. On the **Execute Package Utility** dialog box, click **Close**.  
   
- For more information about running packages, see [http://go.microsoft.com/fwlink/?LinkId=94972](http://go.microsoft.com/fwlink/?LinkId=94972). For any other information related to SSIS packages, see [http://go.microsoft.com/fwlink/?LinkId=94973](http://go.microsoft.com/fwlink/?LinkId=94973).  
+   For more information about running packages, see [http://go.microsoft.com/fwlink/?LinkId=94972](http://go.microsoft.com/fwlink/?LinkId=94972). For any other information related to SSIS packages, see [http://go.microsoft.com/fwlink/?LinkId=94973](http://go.microsoft.com/fwlink/?LinkId=94973).  
   
 ## Verifying the Results  
  After executing the package, you must verify the results by going to the SQL Server database to which the SAP data is imported. Executing the package should have created a table in destination database and populated with the values from the SAP table.  

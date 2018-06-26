@@ -33,17 +33,17 @@ For complete information about the system architecture for BizTalk Server deploy
 ## Windows Groups for a Secure Distributed BizTalk Server Deployment  
  The following list describes the recommended Windows groups for the domain administrator to create in the domain controller in the data tier.  
   
--   SSO Administrators  
+- SSO Administrators  
   
--   SSO Affiliate Administrators  
+- SSO Affiliate Administrators  
   
--   BizTalk Server Administrators  
+- BizTalk Server Administrators  
   
--   BizTalk Server Operators  
+- BizTalk Server Operators  
   
- For complete information about the Windows groups that BizTalk Server uses, see [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
+  For complete information about the Windows groups that BizTalk Server uses, see [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md).  
   
- In addition to the previous domain groups, the following table lists additional groups specific to secure deployment for the domain administrator to create in the domain controller in the data tier.  
+  In addition to the previous domain groups, the following table lists additional groups specific to secure deployment for the domain administrator to create in the domain controller in the data tier.  
   
 |Group name (suggested)|Purpose|  
 |------------------------------|-------------|  

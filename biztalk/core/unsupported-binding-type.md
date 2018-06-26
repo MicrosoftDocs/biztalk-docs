@@ -17,15 +17,15 @@ manager: "anneta"
 # Unsupported binding type
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Unsupported binding type|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Event ID     |                                         0                                          |
+|  Event Source   |                                         0                                          |
+|    Component    |                                         0                                          |
+|  Symbolic Name  |                                         0                                          |
+|  Message Text   |                              Unsupported binding type                              |
   
 ## Explanation  
  The MsmqIntegration binding was chosen, but is not supported by the WCF adapter.  

@@ -21,11 +21,11 @@ As with other link services, you can delete an IP-DLC link service in the MMC sn
   
 ### To delete a link service  
   
-1.  In the scope pane of the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] MMC snap-in, locate the computer with the link services that you want to delete.  
+1. In the scope pane of the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] MMC snap-in, locate the computer with the link services that you want to delete.  
   
-2.  Expand the list for that computer.  
+2. Expand the list for that computer.  
   
-3.  Right-click the appropriate link service, and then click **Delete**.  
+3. Right-click the appropriate link service, and then click **Delete**.  
   
 ## See Also  
  [Managing IP-DLC Link Services](../core/managing-ip-dlc-link-services2.md)

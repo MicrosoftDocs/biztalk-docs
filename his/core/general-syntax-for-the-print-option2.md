@@ -16,7 +16,7 @@ manager: "anneta"
 # General Syntax for the /print Option
 The syntax lines in this section and the next section show ways to use the **/print** option. By default, the output is sent to the screen. To capture the output in a file, redirect it in the standard way, by adding a greater-than sign (>) to the end of the command, followed by the name of the file in which you want to capture the output.  
   
- With all the syntax lines, if the source configuration file is not in the default path \Program files\Host Integration Server\SYSTEM\CONFIG\COM.CFGthen for **#***configpath*, substitute a path, preceded by the pound sign (**#**). Do not type the square brackets. After the greater-than sign (**>**), type the name of the command file you want to create. (For information about using the greater-than sign or other methods of redirection, see your Windows documentation.)  
+ With all the syntax lines, if the source configuration file is not in the default path \Program files\Host Integration Server\SYSTEM\CONFIG\COM.CFGthen for **#**<em>configpath</em>, substitute a path, preceded by the pound sign (**#**). Do not type the square brackets. After the greater-than sign (**>**), type the name of the command file you want to create. (For information about using the greater-than sign or other methods of redirection, see your Windows documentation.)  
   
  The general syntax for the **/print** option is:  
   

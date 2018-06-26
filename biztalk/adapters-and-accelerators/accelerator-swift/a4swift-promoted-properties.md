@@ -18,7 +18,7 @@ manager: "anneta"
 # A4SWIFT_* promoted properties
 
 ## Overview
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] defines custom context properties that the SWIFT disassembler, FIN Response and Reconciliation, and Message Repair and New Submission features use and promote. User solutions can use these properties for processing and for content-based routing and filter expressions. Declarations of the A4SWIFT promoted properties reside in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.A4SWIFT.Property namespace.  
+Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] defines custom context properties that the SWIFT disassembler, FIN Response and Reconciliation, and Message Repair and New Submission features use and promote. User solutions can use these properties for processing and for content-based routing and filter expressions. Declarations of the A4SWIFT promoted properties reside in the Microsoft .Solutions.A4SWIFT.Property namespace.  
 
 ## In this section 
   

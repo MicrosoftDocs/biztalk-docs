@@ -38,30 +38,30 @@ This topic describes how use the BizTalk Server Administration console or the co
   
 #### Using the BizTalk Server Administration console  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand BizTalk Server Administration, expand the BizTalk group containing the BizTalk assembly to remove, and then expand the application containing the BizTalk assembly.  
+2. In the console tree, expand BizTalk Server Administration, expand the BizTalk group containing the BizTalk assembly to remove, and then expand the application containing the BizTalk assembly.  
   
-3.  Click the **Resources** folder, right-click the BizTalk assembly, and then click **Remove**.  
+3. Click the **Resources** folder, right-click the BizTalk assembly, and then click **Remove**.  
   
 #### Using the command line  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
-2.  Type the following command, substituting the appropriate values, as described in the following table:  
+2. Type the following command, substituting the appropriate values, as described in the following table:  
   
-     **BTSTask RemoveResource** [**/ApplicationName:***value*] **/Luid:***value* [**/Server:***value*] [**/Database:***value*]  
+    **BTSTask RemoveResource** [**/ApplicationName:**<em>value</em>] **/Luid:**<em>value</em> [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
-     Example:  
+    Example:  
   
-     **BTSTask RemoveResource /ApplicationName:MyApplication /Luid:"MyApp.Orchestrations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0123456789ABCDEF"**  
+    **BTSTask RemoveResource /ApplicationName:MyApplication /Luid:"MyApp.Orchestrations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0123456789ABCDEF"**  
   
-    |Parameter|Description|  
-    |---------------|-----------------|  
-    |**/ApplicationName**|Name of the BizTalk application containing the BizTalk assembly to delete. If this parameter is not specified, the default application is used. If the name includes spaces, you must enclose it in double quotation marks (").|  
-    |**/Luid**|Locally unique identifier (LUID) of the BizTalk assembly. You can obtain the LUID by using the **ListApp** command, as described in [ListApp Command](../core/listapp-command.md).|  
-    |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database, in the form ServerName\InstanceName,Port.<br /><br /> Instance name is only required when the instance name is different than the server name. Port is only required when SQL Server uses a port number other than the default (1433).<br /><br /> Examples:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> If not provided, the name of the SQL Server instance running on the local computer is used.|  
-    |**/Database**|Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used.|  
+   |Parameter|Description|  
+   |---------------|-----------------|  
+   |**/ApplicationName**|Name of the BizTalk application containing the BizTalk assembly to delete. If this parameter is not specified, the default application is used. If the name includes spaces, you must enclose it in double quotation marks (").|  
+   |**/Luid**|Locally unique identifier (LUID) of the BizTalk assembly. You can obtain the LUID by using the **ListApp** command, as described in [ListApp Command](../core/listapp-command.md).|  
+   |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database, in the form ServerName\InstanceName,Port.<br /><br /> Instance name is only required when the instance name is different than the server name. Port is only required when SQL Server uses a port number other than the default (1433).<br /><br /> Examples:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> If not provided, the name of the SQL Server instance running on the local computer is used.|  
+   |**/Database**|Name of the BizTalk Management database. If not specified, the BizTalk Management database running in the local instance of SQL Server is used.|  
   
 ## See Also  
  [Managing BizTalk Assemblies](../core/managing-biztalk-assemblies.md)   

@@ -24,19 +24,19 @@ Deploy and redeploy BizTalk assemblies from [!INCLUDE[btsVStudioNoVersion](../in
   
  After completing these tasks, you can build, deploy, and undeploy the BizTalk assemblies by taking the following steps, as described in the topics in this section:  
   
--   Configure a strong name assembly key file for each [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project.  
+- Configure a strong name assembly key file for each [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project.  
   
--   Set deployment properties for the project, including configuring the Redeploy option to easily redeploy the assembly.  
+- Set deployment properties for the project, including configuring the Redeploy option to easily redeploy the assembly.  
   
--   Use the Deploy command in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to build the BizTalk assemblies contained in a solution and deploy them into a BizTalk application. Alternatively, you can use the Deploy command to build and deploy an assembly in a single project, although we do not recommend doing this.  
+- Use the Deploy command in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to build the BizTalk assemblies contained in a solution and deploy them into a BizTalk application. Alternatively, you can use the Deploy command to build and deploy an assembly in a single project, although we do not recommend doing this.  
   
--   After testing the application and making necessary changes, use the Deploy command in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to rebuild and redeploy the assembly.  
+- After testing the application and making necessary changes, use the Deploy command in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to rebuild and redeploy the assembly.  
   
--   Install the assembly in the global assembly cache (GAC), if necessary, or remove the assembly from the GAC.  
+- Install the assembly in the global assembly cache (GAC), if necessary, or remove the assembly from the GAC.  
   
--   Undeploy the assembly.  
+- Undeploy the assembly.  
   
- After deploying one or more assemblies into a BizTalk application, you can complete the configuration of the application and deploy it into a test and then production environment. For more information, see [Development Tasks for BizTalk Application Deployment](../core/development-tasks-for-biztalk-application-deployment.md).  
+  After deploying one or more assemblies into a BizTalk application, you can complete the configuration of the application and deploy it into a test and then production environment. For more information, see [Development Tasks for BizTalk Application Deployment](../core/development-tasks-for-biztalk-application-deployment.md).  
   
 ## In This Section  
   

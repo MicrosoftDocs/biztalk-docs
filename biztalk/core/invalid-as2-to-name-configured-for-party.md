@@ -17,15 +17,15 @@ manager: "anneta"
 # Invalid AS2-To name configured for Party
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|AS2 Engine|  
-|Symbolic Name|InvalidAS2ToNameConfiguredError|  
-|Message Text|Invalid AS2-To name configured for Party: {0}   Value: {1}|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    Event ID     |                                           -                                            |
+|  Event Source   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    Component    |                                       AS2 Engine                                       |
+|  Symbolic Name  |                            InvalidAS2ToNameConfiguredError                             |
+|  Message Text   |               Invalid AS2-To name configured for Party: {0}   Value: {1}               |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the AS2 encoder or decoder could not process the AS2 message because the value of the AS2-To header configured for the identified party did not conform to the specifications in AS2 RFC 4130.  

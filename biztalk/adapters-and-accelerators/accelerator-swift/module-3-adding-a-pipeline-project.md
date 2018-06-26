@@ -19,13 +19,13 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Module 3: Adding a Pipeline Project
-In this module, you add a new project to your solution that contains your custom send and receive pipelines. Because you are working with SWIFT messages, which are flat file in nature, you cannot use the default pipelines that are included with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].  
+In this module, you add a new project to your solution that contains your custom send and receive pipelines. Because you are working with SWIFT messages, which are flat file in nature, you cannot use the default pipelines that are included with Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)].  
   
- SWIFT messages require additional levels of validation so [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] includes custom disassembler (DASM) and assembler (ASM) components for use with SWIFT messages.  
+ SWIFT messages require additional levels of validation so Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] includes custom disassembler (DASM) and assembler (ASM) components for use with SWIFT messages.  
   
  In this module, you also add a new pipeline project, add receive and send pipelines, and use the SWIFT DASM and ASM.  
   
- Selecting the BizTalk project template exposes the BizTalk tools, such as BizTalk Mapper, within the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)][!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] development environment.  
+ Selecting the BizTalk project template exposes the BizTalk tools, such as BizTalk Mapper, within the Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)][!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] development environment.  
   
  This section contains:  
   

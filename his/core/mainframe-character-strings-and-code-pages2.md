@@ -18,17 +18,17 @@ When Transaction Integrator (TI) sends data to a mainframe-based transaction pro
   
  TI categorizes these strings of characters sent to and received from the mainframe as follows:  
   
--   Extended Binary Coded Decimal Interchange Code (EBCDIC) strings.  
+- Extended Binary Coded Decimal Interchange Code (EBCDIC) strings.  
   
--   IBM double-byte character set (DBCS) strings.  
+- IBM double-byte character set (DBCS) strings.  
   
--   Intermixed strings containing both EBCDIC and IBM DBCS strings with the necessary shift-out (SO) and shift-in (SI) characters.  
+- Intermixed strings containing both EBCDIC and IBM DBCS strings with the necessary shift-out (SO) and shift-in (SI) characters.  
   
- The TI run-time environment determines the type of mainframe character string based on the following information:  
+  The TI run-time environment determines the type of mainframe character string based on the following information:  
   
--   How the parameter, field, or column is defined in the TI component that was built by using TI Project.  
+- How the parameter, field, or column is defined in the TI component that was built by using TI Project.  
   
--   The code page defined for the specific remote environment (RE) that was associated with the active TI Automation server when it was deployed. When you create an RE in TI Manager, you specify a code page for that RE.  
+- The code page defined for the specific remote environment (RE) that was associated with the active TI Automation server when it was deployed. When you create an RE in TI Manager, you specify a code page for that RE.  
   
 ## In This Section  
  [How to Assign a Different Code Page to a Remote Environment](../core/how-to-assign-a-different-code-page-to-a-remote-environment2.md)  

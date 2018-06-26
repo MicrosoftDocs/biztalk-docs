@@ -17,15 +17,15 @@ manager: "anneta"
 # Unable to import service endpoint configuration.
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Unable to import service endpoint configuration|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Event ID     |                                         0                                          |
+|  Event Source   |                                         0                                          |
+|    Component    |                                         0                                          |
+|  Symbolic Name  |                                         0                                          |
+|  Message Text   |                  Unable to import service endpoint configuration                   |
   
 ## Explanation  
  There could be more than one explanation for this error. The configuration file may contain invalid characters. The root element may be missing. The data at the root level may be invalid.  

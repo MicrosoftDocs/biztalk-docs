@@ -28,17 +28,17 @@ manager: "anneta"
   
  The \<actionId\> is derived in the following manner:  
   
--   For opening a connection, the action ID is “Open”.  
+- For opening a connection, the action ID is “Open”.  
   
--   For inbound operations, the action ID is “Inbound”.  
+- For inbound operations, the action ID is “Inbound”.  
   
--   For outbound operations, the action ID is the action of the operation being invoked, with “/” replaced by an underscore “_”. Also, the action ID is prefixed with the “ExecuteScalar”, “ExecuteReader”, or “ExecuteNonQuery” depending on the method that the adapter internally uses to perform the operation on the SQL Server database. For example, the adapter internally uses the **ExecuteReader** method to execute a stored procedure in SQL Server. So, the action ID for the stored procedure, MyProcedure, will be:  
+- For outbound operations, the action ID is the action of the operation being invoked, with “/” replaced by an underscore “_”. Also, the action ID is prefixed with the “ExecuteScalar”, “ExecuteReader”, or “ExecuteNonQuery” depending on the method that the adapter internally uses to perform the operation on the SQL Server database. For example, the adapter internally uses the **ExecuteReader** method to execute a stored procedure in SQL Server. So, the action ID for the stored procedure, MyProcedure, will be:  
   
-    ```  
-    ExecuteReader_Procedure_dbo_MyProcedure  
-    ```  
+  ```  
+  ExecuteReader_Procedure_dbo_MyProcedure  
+  ```  
 
- The performance counter is initialized only after the adapter makes the first call to the SQL Server database. Also, the [InstanceLifetime](https://msdn.microsoft.com/library/system.diagnostics.performancecounter.instancelifetime.aspx) property of the performance counter is set to 'Process', which means that the performance counter ceases to exist as soon as the program that creates the counter terminates.
+  The performance counter is initialized only after the adapter makes the first call to the SQL Server database. Also, the [InstanceLifetime](https://msdn.microsoft.com/library/system.diagnostics.performancecounter.instancelifetime.aspx) property of the performance counter is set to 'Process', which means that the performance counter ceases to exist as soon as the program that creates the counter terminates.
   
 > [!NOTE]
 >  The precision of the LOB Time (Cumulative) performance counter is 16 milliseconds.  

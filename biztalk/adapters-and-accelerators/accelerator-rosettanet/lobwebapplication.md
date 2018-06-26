@@ -57,20 +57,20 @@ You use the LOBWebApplication utility to submit an action or response message fr
   
 #### To build LOBWebApplication  
   
-1.  Start Visual Studio.  
+1. Start Visual Studio.  
   
-2.  On the **File**, point to **Open**, and then click **Open Solution**.  
+2. On the **File**, point to **Open**, and then click **Open Solution**.  
   
-3.  Move to \<*drive*\>\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBWebApplication, select **LOBWebApplication.sln**, and then click **Open**.  
+3. Move to \<*drive*\>\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK\LOBWebApplication, select **LOBWebApplication.sln**, and then click **Open**.  
   
-    > [!NOTE]
-    >  If you have not added a virtual server for LOBWebApplication, the solution will not open correctly in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
+   > [!NOTE]
+   >  If you have not added a virtual server for LOBWebApplication, the solution will not open correctly in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
   
-4.  Right-click **References**, and then click **Add Reference**.  
+4. Right-click **References**, and then click **Add Reference**.  
   
-5.  In the **Add Reference** dialog box, click **Browse**, move to \<*drive*\>:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin, select the Microsoft.Solutions.BTARN.ConfigurationManager.dll and Microsoft.Solutions.BTARN.Shared.dll files, and then click **Open**.  
+5. In the **Add Reference** dialog box, click **Browse**, move to \<*drive*\>:\Program Files (x86)\Microsoft BizTalk \<version\> Accelerator for RosettaNet\Bin, select the Microsoft.Solutions.BTARN.ConfigurationManager.dll and Microsoft.Solutions.BTARN.Shared.dll files, and then click **Open**.  
   
-6.  Right-click **LOBWebApplication**, and then click **Build**.  
+6. Right-click **LOBWebApplication**, and then click **Build**.  
   
 ## Running LOBWebApplication  
   

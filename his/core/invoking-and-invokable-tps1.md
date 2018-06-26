@@ -18,13 +18,13 @@ There are two kinds of TPs: TPs that can invoke (that is, initiate a conversatio
   
  The topics in this section describe the following:  
   
--   How invoking TPs request invokable TPs.  
+- How invoking TPs request invokable TPs.  
   
--   How invokable TPs identify themselves to Host Integration Server in preparation for being invoked.  
+- How invokable TPs identify themselves to Host Integration Server in preparation for being invoked.  
   
--   How an invokable TP is matched to an invoking TP's request.  
+- How an invokable TP is matched to an invoking TP's request.  
   
- For information about how to configure LUs to support TPs, see [Configuring TPs on Host Integration Server](../core/configuring-tps-on-host-integration-server1.md) and Host Integration Server Help.  
+  For information about how to configure LUs to support TPs, see [Configuring TPs on Host Integration Server](../core/configuring-tps-on-host-integration-server1.md) and Host Integration Server Help.  
   
 ## InThis Section  
  [Invoking TPs](../core/invoking-tps2.md)  

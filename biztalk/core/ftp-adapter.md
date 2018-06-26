@@ -29,21 +29,21 @@ This section describes the FTP receive and send adapters, as well as security an
   
  The FTP receive adapter enables you to move data from an FTP server to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Key features include:  
   
--   Pulling files from the FTP server on demand  
+- Pulling files from the FTP server on demand  
   
--   Running polls based on a configurable schedule  
+- Running polls based on a configurable schedule  
   
--   Polling the FTP server and sending data directly to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- Polling the FTP server and sending data directly to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Specifying the FTP server as an IP address, port, password, and host name  
+- Specifying the FTP server as an IP address, port, password, and host name  
   
--   Guaranteed file delivery  
+- Guaranteed file delivery  
   
-     The FTP receive adapter also works with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console and BizTalk Explorer to configure and administer each receive function, which is composed of the following configuration items:  
+   The FTP receive adapter also works with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console and BizTalk Explorer to configure and administer each receive function, which is composed of the following configuration items:  
   
--   Poll interval to run an FTP command (for example, 60 minutes)  
+- Poll interval to run an FTP command (for example, 60 minutes)  
   
--   Information with which to route the document to a specific BizTalk send port or receive location  
+- Information with which to route the document to a specific BizTalk send port or receive location  
   
 > [!NOTE]
 >  The FTP receive adapter does not support receiving files from a partitioned data set.  
@@ -63,37 +63,37 @@ Access information stored in an FTP server on any of the following platforms:
 
 - [!INCLUDE[btsWinSrv2k12_md](../includes/btswinsrv2k12-md.md)] R2
   
--   [!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]  
+- [!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]  
   
--   [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]  
+- [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]  
   
--   [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] 2008  
+- [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] 2008  
   
--   [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)]  
+- [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)]  
   
--   [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] 2000 Service Pack 3 (SP3) and later  
+- [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] 2000 Service Pack 3 (SP3) and later  
   
--   Sun Solaris 9.0  
+- Sun Solaris 9.0  
   
--   HP-UX  
+- HP-UX  
   
--   LINUX (Redhat 7.x)  
+- LINUX (Redhat 7.x)  
   
--   IBM z/OS v1.9 (MVS)  
+- IBM z/OS v1.9 (MVS)  
   
--   IBM O/S 390 running MVS  
+- IBM O/S 390 running MVS  
   
--   AS/400 OS/400 V5R1  
+- AS/400 OS/400 V5R1  
   
--   i5/OS V5R4 (AS400)  
+- i5/OS V5R4 (AS400)  
   
--   i5/OS V6R1 (AS400)  
+- i5/OS V6R1 (AS400)  
   
--   GXS ICS  
+- GXS ICS  
   
--   AIX  
+- AIX  
   
- All services packs are supported, unless the service pack is specifically listed.  
+  All services packs are supported, unless the service pack is specifically listed.  
   
 ## In This Section  
   

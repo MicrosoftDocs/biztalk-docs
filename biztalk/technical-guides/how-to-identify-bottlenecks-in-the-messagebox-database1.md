@@ -18,22 +18,22 @@ To identify bottlenecks in the MessageBox database, first ensure that the SQL-Se
   
  By default, the BizTalk service will throttle if the Spool, TrackingData, or ApplicationQ tables grow. These tables are pruned by SQL-Agent jobs, which, if not running will cause the Spool to grow causing throttling to start and protect the database from additional pressure. Check the status of the following performance counters:  
   
--   BizTalk:Message Agent (Host Name) Message Delivery Throttling State  
+- BizTalk:Message Agent (Host Name) Message Delivery Throttling State  
   
--   BizTalk:Message Agent (Host Name) Message Publishing Throttling State  
+- BizTalk:Message Agent (Host Name) Message Publishing Throttling State  
   
- A value of “0” indicates no throttling is occurring. A value of “6” indicates the system is throttling due to database growth. For information about how to interpret the values of these counters, see [What is Host Throttling?](http://go.microsoft.com/fwlink/?LinkID=154694) (http://go.microsoft.com/fwlink/?LinkID=154694) and [Host Throttling Performance Counters](http://go.microsoft.com/fwlink/?LinkID=155285) (http://go.microsoft.com/fwlink/?LinkID=155285) in the BizTalk Server 2010 documentation.  
+  A value of “0” indicates no throttling is occurring. A value of “6” indicates the system is throttling due to database growth. For information about how to interpret the values of these counters, see [What is Host Throttling?](http://go.microsoft.com/fwlink/?LinkID=154694) (http://go.microsoft.com/fwlink/?LinkID=154694) and [Host Throttling Performance Counters](http://go.microsoft.com/fwlink/?LinkID=155285) (http://go.microsoft.com/fwlink/?LinkID=155285) in the BizTalk Server 2010 documentation.  
   
 ## Spool table growth  
  The Spool can start growing for multiple reasons. One reason for Spool growth is if the Application Queues are growing. They could grow due to reasons such as downstream bottlenecks and/or resource contention.  
   
  If the Application Queues are small and the Spool is still large, verify that the purge jobs are keeping up. Ensure that the SQL-Agent Service is running and then verify that the following jobs are successfully completing:  
   
--   MessageBox_Message_Cleanup_BizTalkMessageBoxDb  
+- MessageBox_Message_Cleanup_BizTalkMessageBoxDb  
   
--   MessageBox_Parts_Cleanup_BizTalkMessageBoxDb  
+- MessageBox_Parts_Cleanup_BizTalkMessageBoxDb  
   
- If the MessageZeroSum table is large, it indicates that the messages have been processed. This means that DeQueue has successfully completed and deleted data from the Application Queue tables and the rows have been flagged for deletion. However, the purge jobs are unable to keep up with deleting the data. This can happen if the computer running SQL Server is experiencing severe CPU contention, affecting the ability of the purge jobs to keep up due to CPU starvation.  
+  If the MessageZeroSum table is large, it indicates that the messages have been processed. This means that DeQueue has successfully completed and deleted data from the Application Queue tables and the rows have been flagged for deletion. However, the purge jobs are unable to keep up with deleting the data. This can happen if the computer running SQL Server is experiencing severe CPU contention, affecting the ability of the purge jobs to keep up due to CPU starvation.  
   
 ## Application queue table growth  
  Application Queues host in-flight transition data that, once processed, are cleaned up by DeQueue.  

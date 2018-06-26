@@ -46,9 +46,9 @@ Ordered message delivery ensures that messages that are published to the Message
 ### Ordered Delivery for Custom Adapters  
  There are special considerations for custom receive adapters. It you are writing a custom adapter that supports ordered delivery on receive, the adapter should do the following:  
   
--   After submitting a batch of messages, your custom receive adapter should wait for the **BatchComplete** callback from BizTalk Server before submitting the next batch. For more details, see [Interfaces for a Batch-Supported Receive Adapter](../core/interfaces-for-a-batch-supported-receive-adapter.md).  
+- After submitting a batch of messages, your custom receive adapter should wait for the **BatchComplete** callback from BizTalk Server before submitting the next batch. For more details, see [Interfaces for a Batch-Supported Receive Adapter](../core/interfaces-for-a-batch-supported-receive-adapter.md).  
   
--   If a message fails in the pipeline, it should be suspended, preferably as nonresumable. Use the **BTS.SuspendAsNonResumable** message context property in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to flag the message appropriately.  
+- If a message fails in the pipeline, it should be suspended, preferably as nonresumable. Use the **BTS.SuspendAsNonResumable** message context property in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to flag the message appropriately.  
   
 > [!NOTE]
 >  Message order can be broken if a suspended message is later resumed. If you do not want this behavior, suspend failed messages as nonresumable.  
@@ -58,20 +58,20 @@ Ordered message delivery ensures that messages that are published to the Message
 ## Conditions for End-to-End Ordered Message Processing  
  To provide end-to-end ordered delivery the following conditions must be met:  
   
--   Messages must be received with an adapter that preserves the order of the messages when submitting them to BizTalk Server. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], examples of such adapters are MSMQ and MQSeries. In addition, HTTP or SOAP adapters can be used to submit messages in order, but in that case the HTTP or SOAP client needs to enforce the order by submitting messages one at a time.  
+- Messages must be received with an adapter that preserves the order of the messages when submitting them to BizTalk Server. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], examples of such adapters are MSMQ and MQSeries. In addition, HTTP or SOAP adapters can be used to submit messages in order, but in that case the HTTP or SOAP client needs to enforce the order by submitting messages one at a time.  
   
--   You must subscribe to these messages with a send port that has the **Ordered Delivery** option set to `True`.  
+- You must subscribe to these messages with a send port that has the **Ordered Delivery** option set to `True`.  
   
--   If an orchestration is used to process the messages, only a single instance of the orchestration should be used, the orchestration should be configured to use a sequential convoy, and the **Ordered Delivery** property of the orchestration's receive port should be set to `True`.  
+- If an orchestration is used to process the messages, only a single instance of the orchestration should be used, the orchestration should be configured to use a sequential convoy, and the **Ordered Delivery** property of the orchestration's receive port should be set to `True`.  
   
 ## Restrictions  
  Ordered delivery of messages is not supported for the following:  
   
--   Dynamic send ports in [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] and previous versions
+- Dynamic send ports in [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] and previous versions
 
 - Dynamic send ports in [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] (and any newer versions) for those adapter types that **don't** support ordered delivery on static send ports
   
--   Backup transports  
+- Backup transports  
 
   
 ## Interactions  

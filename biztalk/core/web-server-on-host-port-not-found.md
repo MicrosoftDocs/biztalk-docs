@@ -17,15 +17,15 @@ manager: "anneta"
 # Web server on host port not found
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|0|  
-|Message Text|Web server on host "{0}" port {1} not found|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Event ID     |                                         0                                          |
+|  Event Source   |                                         0                                          |
+|    Component    |                                         0                                          |
+|  Symbolic Name  |                                         0                                          |
+|  Message Text   |                    Web server on host "{0}" port {1} not found                     |
   
 ## Explanation  
  This error indicates the World Wide Web (WWW) service is not running.  

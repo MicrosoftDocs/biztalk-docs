@@ -17,15 +17,15 @@ manager: "anneta"
 # Message cannot be serialized as the schema could not be located
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|MessageSerializationFailureDueToMissingSchema|  
-|Message Text|Message can not be serialized as the schema {0} could not be located. Either the schema is not deployed or multiple copies are deployed.|  
+|                 |                                                                                                                                          |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                            [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                            |
+| Product Version |                                        [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                        |
+|    Event ID     |                                                                    -                                                                     |
+|  Event Source   |                          [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                          |
+|    Component    |                                                                EDI Engine                                                                |
+|  Symbolic Name  |                                              MessageSerializationFailureDueToMissingSchema                                               |
+|  Message Text   | Message can not be serialized as the schema {0} could not be located. Either the schema is not deployed or multiple copies are deployed. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the send pipeline could not serialize the outgoing interchange because the pipeline could not determine the schema that it needed to use to serialize the interchange. The schema was either not deployed or multiple copies of the schema were deployed.  

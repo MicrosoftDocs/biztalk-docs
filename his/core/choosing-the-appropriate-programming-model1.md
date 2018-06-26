@@ -16,27 +16,27 @@ manager: "anneta"
 # Choosing the Appropriate Programming Model
 A TI programming model determines the method used to access and integrate host applications and TI configuration requirements depending on the specific TI programming model being used. Implementing TI may require modification to the existing mainframe TPs to be able to fit the programming models that it supports. Specifically, this may be necessary when:  
   
--   A TP does not expect a simple request-reply response.  
+- A TP does not expect a simple request-reply response.  
   
--   A CICS TP has terminal processing logic embedded in the same TP with the business logic. This type of TP must be restructured as two separate TPs. Accesses business logic that already exists on the mainframe computer as TPs. You can use this function, or you can create the methods on the COM side and then create the necessary server TPs on the mainframe computer. This is still a viable option because TI may be better for accessing some types of data, such as those stored in VSAM data sets, than standard data access methods.  
+- A CICS TP has terminal processing logic embedded in the same TP with the business logic. This type of TP must be restructured as two separate TPs. Accesses business logic that already exists on the mainframe computer as TPs. You can use this function, or you can create the methods on the COM side and then create the necessary server TPs on the mainframe computer. This is still a viable option because TI may be better for accessing some types of data, such as those stored in VSAM data sets, than standard data access methods.  
   
- You must carefully analyze the business requirements of your organization so that you can implement transaction access by using one of the programming models provided in TI.  
+  You must carefully analyze the business requirements of your organization so that you can implement transaction access by using one of the programming models provided in TI.  
   
- TI supports the programming models listed in the table below. Some of the factors you should consider when choosing the appropriate programming model for your organization are:  
+  TI supports the programming models listed in the table below. Some of the factors you should consider when choosing the appropriate programming model for your organization are:  
   
--   the network procotol  
+- the network procotol  
   
--   the maximum size of the message or data that can be sent to the host  
+- the maximum size of the message or data that can be sent to the host  
   
--   whether you need to use two-phase commit transactions in host applications  
+- whether you need to use two-phase commit transactions in host applications  
   
--   whether you have to write your own communications protocol to support a Link program  
+- whether you have to write your own communications protocol to support a Link program  
   
--   whether you want the server to have the ability to maintain the client to server context, also referred to as a persistent connection  
+- whether you want the server to have the ability to maintain the client to server context, also referred to as a persistent connection  
   
--   other requirements specific to a particular model.  
+- other requirements specific to a particular model.  
   
- The following table summarizes the similarities and differences among the programming models.  
+  The following table summarizes the similarities and differences among the programming models.  
   
 |Programming Model|Network Protocol|Maximum Message or Data Size|Supports Two-phase Commit?|Write Own Communi-cations Protocol?|Supports Persistent Connect-ions?|Other Requirements|  
 |-----------------------|----------------------|----------------------------------|---------------------------------|------------------------------------------|----------------------------------------|------------------------|  

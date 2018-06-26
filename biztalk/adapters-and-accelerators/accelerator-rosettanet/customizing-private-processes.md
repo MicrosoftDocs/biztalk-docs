@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Customizing Private Processes
-This section describes how to customize the private-process orchestrations that process service content. [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] implements business processes that are internal to an organization as private processes. These processes are orchestrations that process the service-content message part. For more information, see [Private Processes](../../adapters-and-accelerators/accelerator-rosettanet/private-processes.md).  
+This section describes how to customize the private-process orchestrations that process service content. Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] implements business processes that are internal to an organization as private processes. These processes are orchestrations that process the service-content message part. For more information, see [Private Processes](../../adapters-and-accelerators/accelerator-rosettanet/private-processes.md).  
   
 ## In This Section  
   

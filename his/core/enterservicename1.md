@@ -30,11 +30,11 @@ The **EnterServiceName** function presents the user with an algorithmically dete
  *Return 0*  
  Status of the operation:  
   
--   STATUS_SUCCESSFUL: Operation succeeded.  
+- STATUS_SUCCESSFUL: Operation succeeded.  
   
--   STATUS_NOSUCHLANGUAGE: The language specified is not supported.  
+- STATUS_NOSUCHLANGUAGE: The language specified is not supported.  
   
--   STATUS_USERCANCEL: User pressed the **Cancel** button.  
+- STATUS_USERCANCEL: User pressed the **Cancel** button.  
   
- *Return 1*  
- Service name that the user entered.
+  *Return 1*  
+  Service name that the user entered.

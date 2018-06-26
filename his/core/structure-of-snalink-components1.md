@@ -16,13 +16,13 @@ manager: "anneta"
 # Structure of SNALink Components
 The components of SNALink are:  
   
--   Local nodes  
+- Local nodes  
   
--   SNALinks  
+- SNALinks  
   
--   3270 emulators  
+- 3270 emulators  
   
- This section introduces the structure of these components and explains terms used to refer to the structure.  
+  This section introduces the structure of these components and explains terms used to refer to the structure.  
   
 ## In This Section  
   

@@ -23,19 +23,19 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces a set of st
 ## How to Perform Basic Operations on a SQL Server Database  
  Performing an operation on a SQL Server database by using [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to develop BizTalk applications with the SQL adapter](../../adapters-and-accelerators/adapter-sql/building-blocks-to-develop-biztalk-applications-with-the-sql-adapter.md). To perform Insert, Update, Delete, or Select operations on tables and views in SQL Server, these tasks are:  
   
-1.  Create a BizTalk project, and generate schema for the operation you want to invoke on a SQL Server database table or view.  
+1. Create a BizTalk project, and generate schema for the operation you want to invoke on a SQL Server database table or view.  
   
-2.  Create messages in the BizTalk project for sending and receiving messages from the SQL Server database.  
+2. Create messages in the BizTalk project for sending and receiving messages from the SQL Server database.  
   
-3.  Create an orchestration to invoke the operation on the SQL Server database table or view.  
+3. Create an orchestration to invoke the operation on the SQL Server database table or view.  
   
-4.  Build and deploy the BizTalk project.  
+4. Build and deploy the BizTalk project.  
   
-5.  Configure the BizTalk application by creating physical send and receive ports.  
+5. Configure the BizTalk application by creating physical send and receive ports.  
   
-6.  Start the BizTalk application.  
+6. Start the BizTalk application.  
   
- This topic provides instructions to perform these tasks.  
+   This topic provides instructions to perform these tasks.  
   
 ## Sample Based On This Topic  
  A sample, SelectTable, based on this topic is provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the SQL adapter](../../adapters-and-accelerators/adapter-sql/samples-for-the-sql-adapter.md).  
@@ -47,7 +47,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces a set of st
   
 > [!IMPORTANT]
 >  If you are generating metadata for operations on a table that has columns of user-defined types (UDTs), make sure the respective assemblies of the UDTs are available at the same location as the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] executable, devenv.exe. The executable is typically available at `<installation drive>:\Program Files\Microsoft Visual Studio <version>\Common7\IDE`. In this example, the EMPLOYEE table has a UDT (Point) column. Make sure you copy the respective assembly at the same location as the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] executable.  
->   
+> 
 >  For information about how to create a UDT, see [Create a User-Defined Type](https://msdn.microsoft.com/library/ms131106.aspx). For information about how to register a UDT in SQL Server, see [Registering User-Defined Types in SQL Server](https://msdn.microsoft.com/library/eybzcxe6(v=vs.85).aspx).  
   
 ## Defining Messages and Message Types  
@@ -118,18 +118,18 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces a set of st
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
   
-    -   Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the SQL Server database.  
+  - Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the SQL Server database.  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the SQL Server database.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the SQL Server database.  
   
-    -   Define a physical WCF-Custom or WCF-SQL send port to send messages to the SQL Server database. You must also specify the action in the send port. For information about how to create ports, see [Manually configure a physical port binding to the SQL adapter](../../adapters-and-accelerators/adapter-sql/manually-configure-a-physical-port-binding-to-the-sql-adapter.md).
+  - Define a physical WCF-Custom or WCF-SQL send port to send messages to the SQL Server database. You must also specify the action in the send port. For information about how to create ports, see [Manually configure a physical port binding to the SQL adapter](../../adapters-and-accelerators/adapter-sql/manually-configure-a-physical-port-binding-to-the-sql-adapter.md).
   
-        > [!NOTE]
-        >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file that contains information about the ports and the actions to be set for those ports. You can import this binding file from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md).
+    > [!NOTE]
+    >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file that contains information about the ports and the actions to be set for those ports. You can import this binding file from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md).
   
 ## Starting the Application  
  You must start the BizTalk application for selecting records from a SQL Server database table. For the steps to start a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md).
@@ -146,7 +146,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces a set of st
   
 > [!IMPORTANT]
 >  If you are performing operations on a table that has columns of user-defined types (UDTs), make sure the respective assemblies of the UDTs are available at the same location as the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] executable, btsntsvc.exe. The executable is typically available at `<installation drive>:\Program Files\Microsoft BizTalk Server <version>`. In this example, the EMPLOYEE table has a UDT (Point) column. Make sure you copy the respective assembly at the same location as the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] executable.  
->   
+> 
 >  For information about how to create a UDT, see [Create a User-Defined Type](https://msdn.microsoft.com/library/ms131106.aspx). For information about how to register a UDT in SQL Server, see [Register User-Defined Types in SQL Server](https://msdn.microsoft.com/library/ms131079.aspx).  
   
 ## Executing the Operation  

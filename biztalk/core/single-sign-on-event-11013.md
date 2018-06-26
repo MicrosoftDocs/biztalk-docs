@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11013
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11013|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_NOT_APP_USER|  
-|Message Text|Client user is not a member of the Application Users account.%r<br /><br /> Tracking ID: %1%r<br /><br /> Client User: %2\\%3%r<br /><br /> Application Name: %4%r<br /><br /> Application Users: %5|  
+|                 |                                                                                                                                                                                                      |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                      Enterprise Single Sign-On                                                                                       |
+| Product Version |                                                                      [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                      |
+|    Event ID     |                                                                                                11013                                                                                                 |
+|  Event Source   |                                                                                                ENTSSO                                                                                                |
+|    Component    |                                                                                                 N/A                                                                                                  |
+|  Symbolic Name  |                                                                                        SSO_WARN_NOT_APP_USER                                                                                         |
+|  Message Text   | Client user is not a member of the Application Users account.%r<br /><br /> Tracking ID: %1%r<br /><br /> Client User: %2\\%3%r<br /><br /> Application Name: %4%r<br /><br /> Application Users: %5 |
   
 ## Explanation  
  The client user is not a member of the Application Users account. This warning only appears when the audit levels are set to high.  

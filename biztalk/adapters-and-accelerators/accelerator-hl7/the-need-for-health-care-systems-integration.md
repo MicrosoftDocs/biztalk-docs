@@ -17,7 +17,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # The Need for Health Care Systems Integration
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] provides health care providers with solutions for their application integration and business-process automation needs. This topic describes some of the business challenges that health care organizations face, and how systems incorporating [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)] can help those organizations meet those challenges. Also take a look at a common scenario demonstrating a sample business scenario with [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)].  
+Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] provides health care providers with solutions for their application integration and business-process automation needs. This topic describes some of the business challenges that health care organizations face, and how systems incorporating Microsoft [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)] can help those organizations meet those challenges. Also take a look at a common scenario demonstrating a sample business scenario with [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)].  
   
 ## Health care business challenge
 

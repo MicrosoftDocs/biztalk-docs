@@ -29,28 +29,28 @@ manager: "anneta"
 ### Disable IIS ASP debugging in production environments  
  IIS ASP debugging should be disabled in a production environment. To disable IIS ASP debugging follow these steps: In the **Connections** pane, click to expand **Sites**, click to select the web site for which you would like to disable ASP debugging, click to select **Features View**, and then double-click the **ASP** feature. Click to expand **Compilation**, click to expand **Debugging Properties**, and verify that both **Enable Client-side Debugging** and **Enable Server-side Debugging** are set to **False**.  
   
-1.  Click **Start**, point to **All Programs**, click **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
+1. Click **Start**, point to **All Programs**, click **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  In the **Connections** pane, click to expand **Sites**, click to select the web site for which you would like to disable ASP debugging, click to select **Features View**, and then double-click the **ASP** feature.  
+2. In the **Connections** pane, click to expand **Sites**, click to select the web site for which you would like to disable ASP debugging, click to select **Features View**, and then double-click the **ASP** feature.  
   
-3.  Click to expand **Compilation**, click to expand **Debugging Properties**, and verify that both **Enable Client-side Debugging** and **Enable Server-side Debugging** are set to **False**.  
+3. Click to expand **Compilation**, click to expand **Debugging Properties**, and verify that both **Enable Client-side Debugging** and **Enable Server-side Debugging** are set to **False**.  
   
-4.  If necessary, click **Apply** in the **Actions** pane.  
+4. If necessary, click **Apply** in the **Actions** pane.  
   
- Disable debugging for ASP.NET Applications and Web Services by specifying the \<compilation debug="false"\> section in the web.config file for the web application.  
+   Disable debugging for ASP.NET Applications and Web Services by specifying the \<compilation debug="false"\> section in the web.config file for the web application.  
   
 ### Tune the value of the ASP Threads Per Processor Limit property  
  The ASP **Threads Per Processor Limit** property specifies the maximum number of worker threads per processor that IIS creates. Increase the value for the Threads Per Processor Limit until the processor utilization meets at least 50 percent or above. This setting can dramatically influence the scalability of your Web applications and the performance of your server in general. Because this property defines the maximum number of ASP requests that can execute simultaneously, this setting should remain at the default value unless your ASP applications are making extended calls to external components. In this case, you may increase the value of Threads Per Processor Limit. Doing so allows the server to create more threads to handle more concurrent requests. The default value of Threads Per Processor Limit is 25. The maximum recommended value for this property is 100.  
   
  To increase the value for the Threads Per Processor Limit follow these steps:In the **Connections** pane, select the web server, click to select **Features View**, and then double-click the **ASP** feature.  
   
-1.  Click **Start**, point to **All Programs**, click **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
+1. Click **Start**, point to **All Programs**, click **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  In the **Connections** pane, select the web server, click to select **Features View**, and then double-click the **ASP** feature.  
+2. In the **Connections** pane, select the web server, click to select **Features View**, and then double-click the **ASP** feature.  
   
-3.  Click to expand **Limits Properties** under **Behavior**, click **Threads Per Processor Limit**, enter the desired value for **Threads Per Processor Limit** and click **Apply** in the **Actions** pane.  
+3. Click to expand **Limits Properties** under **Behavior**, click **Threads Per Processor Limit**, enter the desired value for **Threads Per Processor Limit** and click **Apply** in the **Actions** pane.  
   
- For more information about how to modify the properties in the \<limits\> element of the IIS 7.5/7.0 \<asp\> element, see [ASP Limits \<limits\>](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
+   For more information about how to modify the properties in the \<limits\> element of the IIS 7.5/7.0 \<asp\> element, see [ASP Limits \<limits\>](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
   
 > [!NOTE]  
 >  Because this property can only be applied at the server level, modification of this property affects all Web sites that run on the server.  
@@ -60,13 +60,13 @@ manager: "anneta"
   
  To increase the value for the Queue Length property follow these steps:  
   
-1.  Click **Start**, point to **All Programs**, click **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
+1. Click **Start**, point to **All Programs**, click **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  In the **Connections** pane, select the Web server, click to select **Features View**, and then double-click the **ASP** feature.  
+2. In the **Connections** pane, select the Web server, click to select **Features View**, and then double-click the **ASP** feature.  
   
-3.  Click to expand **Limits Properties** under **Behavior**, click **Queue Length**, enter the desired value for **Queue Length** and then click **Apply** in the **Actions** pane.  
+3. Click to expand **Limits Properties** under **Behavior**, click **Queue Length**, enter the desired value for **Queue Length** and then click **Apply** in the **Actions** pane.  
   
- For more information about how to modify the properties in the \<limits\> element of the IIS 7.5/7.0 \<asp\> element, see [ASP Limits \<limits\>](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
+   For more information about how to modify the properties in the \<limits\> element of the IIS 7.5/7.0 \<asp\> element, see [ASP Limits \<limits\>](http://go.microsoft.com/fwlink/?LinkId=157483) (http://go.microsoft.com/fwlink/?LinkId=157483).  
   
 > [!NOTE]  
 >  Because this property can only be applied at the server level, modification of this property affects all Web sites that run on the server.  

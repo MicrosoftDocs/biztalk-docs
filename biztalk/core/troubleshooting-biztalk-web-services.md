@@ -46,87 +46,87 @@ This section offers advice on how to identify and resolve common Web service iss
   
 ##### To use the System.Diagnostics.Trace class to capture and write errors to a text file  
   
-1.  Update the web.config file for the Web service to set the TRACE compiler directive to **true** and add a **TraceSwitch** value:  
+1. Update the web.config file for the Web service to set the TRACE compiler directive to **true** and add a **TraceSwitch** value:  
   
-    ```  
-    <?xml version="1.0"?>  
-    <configuration>  
-      <system.codedom>  
-        <compilers>  
-          <compiler language="c#;cs;csharp"   
-                    extension=".cs"   
-                    compilerOptions="/d:TRACE"  
-                    type="Microsoft.CSharp.CSharpCodeProvider, System, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" warningLevel="1" />  
-          </compilers>  
-      </system.codedom>  
-      <system.diagnostics>  
-        <switches>  
-          <add name="WebSvcTraceSwitch" value="2" />  
-          <!-- Set to 0, 1, 2, 3, or 4, which corresponds   
-          to TraceLevel.Off, TraceLevel.Error, TraceLevel.Warning  
-          TraceLevel.Info, and TraceLevel.Verbose. -->  
-        </switches>  
-      </system.diagnostics>  
-    </configuration>  
-    ```  
+   ```  
+   <?xml version="1.0"?>  
+   <configuration>  
+     <system.codedom>  
+       <compilers>  
+         <compiler language="c#;cs;csharp"   
+                   extension=".cs"   
+                   compilerOptions="/d:TRACE"  
+                   type="Microsoft.CSharp.CSharpCodeProvider, System, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" warningLevel="1" />  
+         </compilers>  
+     </system.codedom>  
+     <system.diagnostics>  
+       <switches>  
+         <add name="WebSvcTraceSwitch" value="2" />  
+         <!-- Set to 0, 1, 2, 3, or 4, which corresponds   
+         to TraceLevel.Off, TraceLevel.Error, TraceLevel.Warning  
+         TraceLevel.Info, and TraceLevel.Verbose. -->  
+       </switches>  
+     </system.diagnostics>  
+   </configuration>  
+   ```  
   
-    > [!NOTE]
-    >  If the TRACE compiler directive is not set to **true** then no trace output will be generated. The **TraceSwitch** value can also be set in the calling class but is set here in the web.config file for convenience. Set the **TraceSwitch** value to the appropriate level for development purposes and change the value after development is complete to reduce or inhibit trace output.  
+   > [!NOTE]
+   >  If the TRACE compiler directive is not set to **true** then no trace output will be generated. The **TraceSwitch** value can also be set in the calling class but is set here in the web.config file for convenience. Set the **TraceSwitch** value to the appropriate level for development purposes and change the value after development is complete to reduce or inhibit trace output.  
   
-2.  Create an instance of the **TraceSwitch** and **TextWriterTraceListener** classes and use a **try…catch** block in the Web service [WebMethod] call to trap and write errors to a trace output file. For example, the following code traps an error that is generated when attempting to set the integer variable s2 to a null instance of the object variable o2:  
+2. Create an instance of the **TraceSwitch** and **TextWriterTraceListener** classes and use a **try…catch** block in the Web service [WebMethod] call to trap and write errors to a trace output file. For example, the following code traps an error that is generated when attempting to set the integer variable s2 to a null instance of the object variable o2:  
   
-    ```  
-    using System;  
-    using System.Web;  
-    using System.Web.Services;  
-    using System.Web.Services.Protocols;  
-    using System.Diagnostics;  
+   ```  
+   using System;  
+   using System.Web;  
+   using System.Web.Services;  
+   using System.Web.Services.Protocols;  
+   using System.Diagnostics;  
   
-    [WebService(Namespace = "http://tempuri.org/")]  
-    [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]  
-    public class Service : System.Web.Services.WebService  
-    {  
-        TraceSwitch WebSvcTraceSwitch = new TraceSwitch("WebSvcTraceSwitch", "Web Service Trace");  
-        TextWriterTraceListener TestTracer = new TextWriterTraceListener("C:\\traceout.txt");  
-    // Note that by default the local ASPNET account(IIS 5.x) or the   
-    // local NETWORK SERVICE account(IIS 6.0) needs write access to  
-    // this directory so that the instance of the   
-    // TextWriterTraceListener can write to the trace output file.  
-    );  
+   [WebService(Namespace = "http://tempuri.org/")]  
+   [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]  
+   public class Service : System.Web.Services.WebService  
+   {  
+       TraceSwitch WebSvcTraceSwitch = new TraceSwitch("WebSvcTraceSwitch", "Web Service Trace");  
+       TextWriterTraceListener TestTracer = new TextWriterTraceListener("C:\\traceout.txt");  
+   // Note that by default the local ASPNET account(IIS 5.x) or the   
+   // local NETWORK SERVICE account(IIS 6.0) needs write access to  
+   // this directory so that the instance of the   
+   // TextWriterTraceListener can write to the trace output file.  
+   );  
   
-        public Service () {  
-        }  
+       public Service () {  
+       }  
   
-        [WebMethod]  
-        public string HelloWorld()   
-        {  
-        string h2 = "Hello World";  
-        //object o2 = 1;  
-        object o2 = null;  
-            try  
-            {  
-                int s2 = (int)o2; //Error if o2 set to null   
-                return h2;  
-            }  
-            catch(Exception e)  
-            {  
-                Trace.Listeners.Add(TestTracer);  
-                Trace.WriteLineIf(WebSvcTraceSwitch.Level = TraceLevel.Warning,"Exception caught: " + e.Message);  
-                //Writes to the trace file if specified TraceLevel switch value (in web.config) >= 2  
-                TestTracer.Dispose();  
-                return "An error occurred in the Web service, please contact the web server administrator.";  
-            }  
-        }  
-    }  
-    ```  
+       [WebMethod]  
+       public string HelloWorld()   
+       {  
+       string h2 = "Hello World";  
+       //object o2 = 1;  
+       object o2 = null;  
+           try  
+           {  
+               int s2 = (int)o2; //Error if o2 set to null   
+               return h2;  
+           }  
+           catch(Exception e)  
+           {  
+               Trace.Listeners.Add(TestTracer);  
+               Trace.WriteLineIf(WebSvcTraceSwitch.Level = TraceLevel.Warning,"Exception caught: " + e.Message);  
+               //Writes to the trace file if specified TraceLevel switch value (in web.config) >= 2  
+               TestTracer.Dispose();  
+               return "An error occurred in the Web service, please contact the web server administrator.";  
+           }  
+       }  
+   }  
+   ```  
   
-    > [!NOTE]
-    >  This code is a modified version of the HelloWorld Web service that is generated by default when you create a new **ASP.Net Web Service** project in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+   > [!NOTE]
+   >  This code is a modified version of the HelloWorld Web service that is generated by default when you create a new **ASP.Net Web Service** project in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+   > 
+   > [!NOTE]
+   >  For Windows Vista, Administrator privileges may be required to write the trace output file to the root folder.  
   
-    > [!NOTE]
-    >  For Windows Vista, Administrator privileges may be required to write the trace output file to the root folder.  
-  
-3.  Rebuild the Web service project. Now, if an error occurs in the **Try** statement the exception is handled in the **Catch** statement and an error is written to the trace output file.  
+3. Rebuild the Web service project. Now, if an error occurs in the **Try** statement the exception is handled in the **Catch** statement and an error is written to the trace output file.  
   
 ## General Troubleshooting Questions and Answers  
  This section contains a set of questions and answers designed to help you resolve issues with Web services.  
@@ -134,27 +134,27 @@ This section offers advice on how to identify and resolve common Web service iss
 ### I am receiving errors when consuming a Web service; how can I avoid them?  
  There are many details to consider when consuming a Web service, including the following:  
   
--   Avoid using two underscore characters in a parameter name.  
+- Avoid using two underscore characters in a parameter name.  
   
--   Use of the **any** element or the **anyAttribute** attribute is not supported in Web methods.  
+- Use of the **any** element or the **anyAttribute** attribute is not supported in Web methods.  
   
--   Avoid using XLANG/s keywords as a Web service name or Web method name.  
+- Avoid using XLANG/s keywords as a Web service name or Web method name.  
   
--   Avoid using Web method parameter types that are not supported by XLANG/s.  
+- Avoid using Web method parameter types that are not supported by XLANG/s.  
   
--   Do not use element names that are C# keywords or will be invalid as a C# identifier in your schemas.  
+- Do not use element names that are C# keywords or will be invalid as a C# identifier in your schemas.  
   
--   Avoid Web Services Description Language (WSDL) files with multiple service or port type definitions.  
+- Avoid Web Services Description Language (WSDL) files with multiple service or port type definitions.  
   
--   Web method parameters must be Xml Serializable.  
+- Web method parameters must be Xml Serializable.  
   
--   Avoid references to consumed Web services that contain multi-rooted schemas.  
+- Avoid references to consumed Web services that contain multi-rooted schemas.  
   
--   Avoid referencing Web services with Web methods expecting generic-based parameters such as nullable parameters.  
+- Avoid referencing Web services with Web methods expecting generic-based parameters such as nullable parameters.  
   
--   The WSDL import element is not supported.  
+- The WSDL import element is not supported.  
   
- For more information about these and related considerations, see [Considerations When Consuming Web Services](../core/considerations-when-consuming-web-services.md).  
+  For more information about these and related considerations, see [Considerations When Consuming Web Services](../core/considerations-when-consuming-web-services.md).  
   
 ### Why am I getting errors publishing my schema that uses the \<include\> element?  
  Schemas cannot be published if they include circular references (the included schema has an **include** element to the including schema) or have an unresolved **schemaLocation** attribute.  

@@ -25,13 +25,13 @@ When a region on a mainframe fails or is taken offline for administrative mainte
   
  Use one of the following methods to activate or deactivate an RE:  
   
--   Start TI Manager, right-click the remote environment (RE) for the mainframe region that you want to activate or deactivate, and click **Activate** or **Deactivate**.  
+- Start TI Manager, right-click the remote environment (RE) for the mainframe region that you want to activate or deactivate, and click **Activate** or **Deactivate**.  
   
-     -or-  
+   -or-  
   
--   Start TI Manager, click the remote environment (RE) for the mainframe region that you want to activate or deactivate, and then click the green arrow on the tool bar to activate an inactive RE, or click the red arrow to deactivate an active RE.  
+- Start TI Manager, click the remote environment (RE) for the mainframe region that you want to activate or deactivate, and then click the green arrow on the tool bar to activate an inactive RE, or click the red arrow to deactivate an active RE.  
   
- If you click the Remote Environments folder in the console tree, the details pane lists all of the REs and indicates the current state of each RE.  
+  If you click the Remote Environments folder in the console tree, the details pane lists all of the REs and indicates the current state of each RE.  
   
 ## See Also  
  [Creating and Managing Remote Environments with TI Manager](../core/creating-and-managing-remote-environments-with-ti-manager1.md)   

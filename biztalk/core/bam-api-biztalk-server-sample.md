@@ -23,69 +23,69 @@ The BAM API sample illustrates how to incorporate calls to the BAM API into an a
 ## How This Sample Was Designed and Why  
  This sample was designed to illustrate how to use BAM to store information from an application that is not a BizTalk orchestration. While the application is simple, it illustrates several aspects of BAM that you are likely to use in a production application. These include the following:  
   
--   Multiple threads that contribute to a single activity  
+- Multiple threads that contribute to a single activity  
   
--   Creating a relationship between two activities  
+- Creating a relationship between two activities  
   
--   Using a continuation to allow the same activity to be accessed with different IDs  
+- Using a continuation to allow the same activity to be accessed with different IDs  
   
- The BAM API sample consists of three main classes: one to process purchase orders, one to process shipments, and one to process invoices. Each class has a **RunOnce** method that retrieves a message from a queue, and then processes the message. Each class also has a **Run** method that continually calls the **RunOnce** method.  
+  The BAM API sample consists of three main classes: one to process purchase orders, one to process shipments, and one to process invoices. Each class has a **RunOnce** method that retrieves a message from a queue, and then processes the message. Each class also has a **Run** method that continually calls the **RunOnce** method.  
   
- The **RunOnce** method of the **PoApplication** class does the following:  
+  The **RunOnce** method of the **PoApplication** class does the following:  
   
-1.  Creates an XML message that represents a purchase order.  
+1. Creates an XML message that represents a purchase order.  
   
-2.  Begins a BAMApiPo activity and adds to the activity information about the purchase order and when it was received.  
+2. Begins a BAMApiPo activity and adds to the activity information about the purchase order and when it was received.  
   
-3.  Arbitrarily approves or rejects the purchase order.  
+3. Arbitrarily approves or rejects the purchase order.  
   
-4.  Updates the BAMApiPo activity to record the status of the purchase order (accepted or rejected).  
+4. Updates the BAMApiPo activity to record the status of the purchase order (accepted or rejected).  
   
-5.  If the purchase order was accepted, the **RunOnce** method also does the following:  
+5. If the purchase order was accepted, the **RunOnce** method also does the following:  
   
-    1.  Creates an XML message to represent a package to be shipped, and adds the message to the queue of shipments.  
+   1.  Creates an XML message to represent a package to be shipped, and adds the message to the queue of shipments.  
   
-    2.  Adds the XML message that represents the purchase order to the queue of purchase orders to be included in an invoice.  
+   2.  Adds the XML message that represents the purchase order to the queue of purchase orders to be included in an invoice.  
   
-    3.  Enables continuation for the BAMApiPo activity.  
+   3.  Enables continuation for the BAMApiPo activity.  
   
-    4.  Ends the BAMApiPo activity.  
+   4.  Ends the BAMApiPo activity.  
   
- The **RunOnce** method of the **ShipmentApplication** class does the following:  
+   The **RunOnce** method of the **ShipmentApplication** class does the following:  
   
-1.  Retrieves from its queue an XML message that represents a package to be shipped.  
+6. Retrieves from its queue an XML message that represents a package to be shipped.  
   
-2.  Updates the BAMApiPo activity to record the time that the package was shipped.  
+7. Updates the BAMApiPo activity to record the time that the package was shipped.  
   
-3.  Ends the BAMApiPo activity.  
+8. Ends the BAMApiPo activity.  
   
- The **RunOnce** method of the **InvoiceApplication** class does the following:  
+   The **RunOnce** method of the **InvoiceApplication** class does the following:  
   
-1.  Retrieves from its queue an XML message that represents a purchase order to be invoiced.  
+9. Retrieves from its queue an XML message that represents a purchase order to be invoiced.  
   
-2.  Begins a BAMApiInvoice activity.  
+10. Begins a BAMApiInvoice activity.  
   
-3.  Creates a BAM relationship between the BAMApiInvoice activity and the BAMApiPo activity for the purchase order that is being invoiced.  
+11. Creates a BAM relationship between the BAMApiInvoice activity and the BAMApiPo activity for the purchase order that is being invoiced.  
   
-4.  Adds to the BAMApiPo activity information about the invoice and the time it was created.  
+12. Adds to the BAMApiPo activity information about the invoice and the time it was created.  
   
-5.  After an arbitrary delay to simulate waiting for the invoice to be paid, adds to the BAMApiInvoice activity the time the invoice was paid.  
+13. After an arbitrary delay to simulate waiting for the invoice to be paid, adds to the BAMApiInvoice activity the time the invoice was paid.  
   
-6.  Ends the BAMApiInvoice activity.  
+14. Ends the BAMApiInvoice activity.  
   
- The **Main** method of the **MainApp** class initializes the application. It does the following:  
+    The **Main** method of the **MainApp** class initializes the application. It does the following:  
   
-1.  Creates a **DirectEventStream** object.  
+15. Creates a **DirectEventStream** object.  
   
-2.  Starts several threads, and calls the **Run** method of the **POApplication** object in each thread.  
+16. Starts several threads, and calls the **Run** method of the **POApplication** object in each thread.  
   
-3.  Starts several threads, and calls the **Run** method of the **ShipmentApplication** object in each thread.  
+17. Starts several threads, and calls the **Run** method of the **ShipmentApplication** object in each thread.  
   
-4.  Starts several threads, and calls the **Run** method of the **InvoiceApplication** object in each thread.  
+18. Starts several threads, and calls the **Run** method of the **InvoiceApplication** object in each thread.  
   
- The **Global** class defines constants that are used by the sample application, such as the number of threads to create and the percentage of purchase orders to reject.  
+    The **Global** class defines constants that are used by the sample application, such as the number of threads to create and the percentage of purchase orders to reject.  
   
- In addition to the Visual Studio solution, the sample also contains a Microsoft Excel file that defines the activities.  
+    In addition to the Visual Studio solution, the sample also contains a Microsoft Excel file that defines the activities.  
   
 ## Where to Find This Sample  
  You can find this sample at *\<Samples Path\>*\BAM\BamApiSample.  

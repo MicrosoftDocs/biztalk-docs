@@ -21,22 +21,22 @@ Flat file schemas are used by the flat file disassembler to control how inbound 
 
 ## Example  
  For example, the left-aligned, asterisk-padded field value "`red*****`" in a flat file instance message can be translated into its equivalent XML representation in two different ways depending upon whether that field in the schema is a **Field Element** node or a **Field Attribute** node. When that field is represented in the schema by a **Field Element** node with its **Node Name** property set to "color", and the containing **Record** node has its **Node Name** property set to "shirt", the XML equivalent of the flat file field is (shown in bold type).  
-  
+
 ```  
 <shirt>  
     <color>red</color>  
 </shirt>  
 ```  
-  
+
  When that same flat file field is represented in the schema by a **Field Attribute** node with its **Node Name** property set to color, and the containing **Record** node has its **Node Name** property set to shirt, the XML equivalent of the flat file field is (shown in bold type):  
-  
+
 ```  
 <color shirt="red"/>  
 ```  
-  
+
 > [!NOTE]
 >  Flat file schemas have a further restriction that within a given **Record** node, subordinate **Field Attribute** nodes must come before subordinate **Record** nodes or **Field Element** nodes.  
-  
+
 ## See Also  
--  [Field Considerations](../core/field-considerations.md)
--  **Node Name** property [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+- [Field Considerations](../core/field-considerations.md)
+- **Node Name** property [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

@@ -20,7 +20,7 @@ manager: "anneta"
   
 > [!IMPORTANT]
 >  You must make sure that at least one protocol is available on all [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computers in the subdomain, and that this protocol is used for server/server communication and client/server communication.  
-  
+> 
 > [!NOTE]
 >  For example, if all [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computers in a subdomain use TCP/IP, the protocol used for server/server communication must be TCP/IP, and all servers must use TCP/IP for client/server communication as well.  
   

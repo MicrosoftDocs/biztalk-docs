@@ -50,11 +50,11 @@ You can use the MMC Snap-In or the **createapps** command to create one or more 
 > [!NOTE]
 >  If you are performing the configuration on a Domain Controller, and the Domain Local scope groups are specified for Application Administrators or Application Users while creating Affiliate Applications, it is recommended that you enable the local account flag. To do this:  
   
--   In the MMC Snap-in, select Allow local accounts for access accounts during the creation process.  
+- In the MMC Snap-in, select Allow local accounts for access accounts during the creation process.  
   
--   From the command line, specify allowLocalAccounts=yes in the XML file for Affiliate Application creation.  
+- From the command line, specify allowLocalAccounts=yes in the XML file for Affiliate Application creation.  
   
- After you create the affiliate application, you must enable it. For more information, see [How to Enable an Affiliate Application](../esso/how-to-enable-an-affiliate-application.md).  
+  After you create the affiliate application, you must enable it. For more information, see [How to Enable an Affiliate Application](../esso/how-to-enable-an-affiliate-application.md).  
   
 ### To create an affiliate application using the Microsoft Management Console (MMC) Snap-In  
   

@@ -19,9 +19,9 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] enables you to execu
   
  For more information about:  
   
--   Composite operations, see [Support for Composite Operations](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-composite-operations2.md).  
+- Composite operations, see [Support for Composite Operations](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-composite-operations2.md).  
   
--   How to perform composite operations using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see [Run composite operations in SQL Server  using the SQL adapter](../../adapters-and-accelerators/adapter-sql/run-composite-operations-in-sql-server-using-the-sql-adapter.md).  
+- How to perform composite operations using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see [Run composite operations in SQL Server  using the SQL adapter](../../adapters-and-accelerators/adapter-sql/run-composite-operations-in-sql-server-using-the-sql-adapter.md).  
   
 ## Message Structure for the Composite Operation  
  Since a composite operation contains multiple individual operations; the message structure of a composite operation contains message structures of the individual operations. As a composite operation contains operations on tables, views, and stored procedures, the composite operation message follows a request-response message exchange pattern.  

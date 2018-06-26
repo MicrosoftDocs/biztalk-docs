@@ -38,36 +38,36 @@ This tutorial demonstrates how to use the EDI functionality in [!INCLUDE[btsBizT
   
  The solution in this tutorial will do the following:  
   
-1.  Receive a flat-file interchange from the trading partner Fabrikam.  
+1. Receive a flat-file interchange from the trading partner Fabrikam.  
   
-    > [!NOTE]
-    >  The events in this list may not occur in the order shown.  
+   > [!NOTE]
+   >  The events in this list may not occur in the order shown.  
   
-2.  Validate the EDI interchange against its schema, disassemble the message into XML, and drop the message XML into the MessageBox.  
+2. Validate the EDI interchange against its schema, disassemble the message into XML, and drop the message XML into the MessageBox.  
   
-3.  Generate a 997 acknowledgment to the received EDI interchange, and drop it in the MessageBox.  
+3. Generate a 997 acknowledgment to the received EDI interchange, and drop it in the MessageBox.  
   
-4.  Pick up the 997 XML by a one-way send port, and assemble the 997 EDI interchange.  
+4. Pick up the 997 XML by a one-way send port, and assemble the 997 EDI interchange.  
   
-5.  Send the 997 interchange to Fabrikam.  
+5. Send the 997 interchange to Fabrikam.  
   
-6.  Pick up the Msg XML by a one-way send port, and assemble the message EDI interchange.  
+6. Pick up the Msg XML by a one-way send port, and assemble the message EDI interchange.  
   
-7.  Send the EDI interchange to OrderSystem.  
+7. Send the EDI interchange to OrderSystem.  
   
- **Configuration**  
+   **Configuration**  
   
- In this tutorial, you will do the following:  
+   In this tutorial, you will do the following:  
   
--   Configure BizTalk to expect the 850 message from your trading partner and to send back a 997 acknowledgment  
+- Configure BizTalk to expect the 850 message from your trading partner and to send back a 997 acknowledgment  
   
--   Use a BizTalk map to convert the 850 message data into the format required by the Order System. This map is provided in the tutorial files in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK.  
+- Use a BizTalk map to convert the 850 message data into the format required by the Order System. This map is provided in the tutorial files in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK.  
   
--   Configure a receive port for receiving the 850 message.  
+- Configure a receive port for receiving the 850 message.  
   
--   Configure a send port to send the 850 message to OrderSystem in the correct format.  
+- Configure a send port to send the 850 message to OrderSystem in the correct format.  
   
--   Configure a send port to subscribe to the BizTalk-generated 997 acknowledgment for routing back to the trading partner, Fabrikam.  
+- Configure a send port to subscribe to the BizTalk-generated 997 acknowledgment for routing back to the trading partner, Fabrikam.  
   
 ## In This Section  
   

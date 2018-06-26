@@ -21,15 +21,15 @@ Diagram showing Host Integration Server connecting to an AS/400 with several con
   
  In an APPN network, Host Integration Server emulates a type 2.1 physical unit device (PU 2.1). Host Integration Server computers can connect to an AS/400 computer using several connection methods:  
   
--   Token Ring  
+- Token Ring  
   
--   Ethernet  
+- Ethernet  
   
--   FDDI  
+- FDDI  
   
--   SDLC  
+- SDLC  
   
- Frame relay or bridging solutions can also be implemented to transport SNA traffic over wide area network (WAN) connections in branch-based deployment models. Host Integration Server operates as an APPN low-entry networking (LEN) node and communicates with other APPN nodes using the Advanced Program-to-Program Communications (APPC) or LU 6.2 protocol.  
+  Frame relay or bridging solutions can also be implemented to transport SNA traffic over wide area network (WAN) connections in branch-based deployment models. Host Integration Server operates as an APPN low-entry networking (LEN) node and communicates with other APPN nodes using the Advanced Program-to-Program Communications (APPC) or LU 6.2 protocol.  
   
 ## See Also  
  [Choosing Server-to-Host Connections](../core/choosing-server-to-host-connections1.md)   

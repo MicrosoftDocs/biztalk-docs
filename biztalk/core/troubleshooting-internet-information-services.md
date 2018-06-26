@@ -92,19 +92,19 @@ Microsoft Internet Information Services (IIS) is used extensively by Microsoft [
 ##### Cause  
  IIS defines several different 401 errors that indicate a more specific cause of the error. These specific error codes are displayed in the browser:  
   
--   401.1 - Logon failed.  
+- 401.1 - Logon failed.  
   
--   401.2 - Logon failed due to server configuration.  
+- 401.2 - Logon failed due to server configuration.  
   
--   401.3 - Unauthorized due to ACL on resource.  
+- 401.3 - Unauthorized due to ACL on resource.  
   
--   401.4 - Authorization failed by filter.  
+- 401.4 - Authorization failed by filter.  
   
--   401.5 - Authorization failed by ISAPI/CGI application.  
+- 401.5 - Authorization failed by ISAPI/CGI application.  
   
--   401.7 – Access denied by URL authorization policy on the Web server. This error code is specific to IIS 6.0.  
+- 401.7 – Access denied by URL authorization policy on the Web server. This error code is specific to IIS 6.0.  
   
- For a complete list of the IIS 7.0 status codes, see Microsoft Knowledge Base article 943891, "The HTTP status codes in IIS 7.0" available at [http://support.microsoft.com/kb/943891](http://support.microsoft.com/kb/943891).  
+  For a complete list of the IIS 7.0 status codes, see Microsoft Knowledge Base article 943891, "The HTTP status codes in IIS 7.0" available at [http://support.microsoft.com/kb/943891](http://support.microsoft.com/kb/943891).  
   
 ##### Resolution  
  Follow the steps in [Guidelines for Resolving IIS Permissions Problems](../core/guidelines-for-resolving-iis-permissions-problems.md) to resolve IIS permissions problems.  
@@ -122,25 +122,25 @@ Microsoft Internet Information Services (IIS) is used extensively by Microsoft [
 ##### Resolution  
  To resolve the issue, do the following:  
   
--   Review the Application log of the IIS server for information about why this error occurs.  
+- Review the Application log of the IIS server for information about why this error occurs.  
   
--   Review the IIS log files or HTTPERR log files for information that may be helpful for determining the cause of the error. By default the IIS log files on a computer running [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] operating systems are located in the following directory:  
+- Review the IIS log files or HTTPERR log files for information that may be helpful for determining the cause of the error. By default the IIS log files on a computer running [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] operating systems are located in the following directory:  
   
-     *%WinDir%\\*system32\LogFiles\W3SVC1\  
+   <em>%WinDir%\\</em>system32\LogFiles\W3SVC1\  
   
-    > [!NOTE]
-    >  *%WinDir%* is a placeholder for the location of the Windows directory on the IIS server.  
+  > [!NOTE]
+  >  *%WinDir%* is a placeholder for the location of the Windows directory on the IIS server.  
   
-     By default the IIS log files on a computer running Windows Server 2008 or Windows Vista are located in the following directory:  
+   By default the IIS log files on a computer running Windows Server 2008 or Windows Vista are located in the following directory:  
   
-     C:\inetpub\logs\LogFiles\W3SVC1\  
+   C:\inetpub\logs\LogFiles\W3SVC1\  
   
-     By default the HTTPERR log files on [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] are located in the following directory:  
+   By default the HTTPERR log files on [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] are located in the following directory:  
   
-     *%WinDir%*system32LogFilesHTTPERR  
+   <em>%WinDir%</em>system32LogFilesHTTPERR  
   
-    > [!NOTE]
-    >  The HTTPERR log file is only available on a [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], or Windows Vista computer.  
+  > [!NOTE]
+  >  The HTTPERR log file is only available on a [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], or Windows Vista computer.  
   
 #### "Service Unavailable" error occurs when accessing a Web page on an IIS server  
   

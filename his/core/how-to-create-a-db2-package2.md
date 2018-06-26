@@ -22,11 +22,11 @@ A DB2 package is a collection of data used by a provider implemented as an IBM D
   
 ## Create a DB2 package  
   
-1.  Create a connection string to the targeted database with a call to `Microsoft.HostIntegration.DataAccessLibrary.DB2OleDbConnectionString.ReadUDL%2A`.  
+1. Create a connection string to the targeted database with a call to `Microsoft.HostIntegration.DataAccessLibrary.DB2OleDbConnectionString.ReadUDL%2A`.  
   
-2.  Create the package with `Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.CreatePackages%2A`.  
+2. Create the package with `Microsoft.HostIntegration.DataAccessLibrary.DataAccessControl.CreatePackages%2A`.  
   
- The following example describes how to create a package.  
+   The following example describes how to create a package.  
   
 ```  
 static void CreatePackage(string myUDL, System.Exception myException)  

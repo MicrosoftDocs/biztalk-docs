@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Creating the Fabrikam Solution
-This section contains the steps that you have to follow to create the Fabrikam solution. After you create the organizations and trading partner agreement, you use a SDK sample provided in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] to communicate with the Contoso line-of-business (LOB) application.  
+This section contains the steps that you have to follow to create the Fabrikam solution. After you create the organizations and trading partner agreement, you use a SDK sample provided in Microsoft [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] to communicate with the Contoso line-of-business (LOB) application.  
   
 ## In This Section  
   

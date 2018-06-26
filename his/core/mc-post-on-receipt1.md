@@ -172,50 +172,50 @@ struct mc_post_on_receipt {
  AP_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  AP_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- AP_DEALLOC_ABEND_PROG  
- Primary return code; the conversation has been deallocated for one of the following reasons:  
+  AP_DEALLOC_ABEND_PROG  
+  Primary return code; the conversation has been deallocated for one of the following reasons:  
   
--   The partner TP issued [MC_DEALLOCATE](../core/mc-deallocate2.md).  
+- The partner TP issued [MC_DEALLOCATE](../core/mc-deallocate2.md).  
   
--   The partner TP has encountered an ABEND, causing the partner LU to send an **MC_DEALLOCATE** request.  
+- The partner TP has encountered an ABEND, causing the partner LU to send an **MC_DEALLOCATE** request.  
   
- AP_DEALLOC_NORMAL  
- Primary return code; the partner TP has deallocated the conversation without requesting confirmation and issued [MC_DEALLOCATE](../core/mc-deallocate2.md) with **dealloc_type** set to one of the following:  
+  AP_DEALLOC_NORMAL  
+  Primary return code; the partner TP has deallocated the conversation without requesting confirmation and issued [MC_DEALLOCATE](../core/mc-deallocate2.md) with **dealloc_type** set to one of the following:  
   
--   AP_CONFIRM_SYNC_LEVEL  
+- AP_CONFIRM_SYNC_LEVEL  
   
--   AP_FLUSH  
+- AP_FLUSH  
   
--   AP_SYNC_LEVEL with the synchronization level of the conversation specified as AP_NONE  
+- AP_SYNC_LEVEL with the synchronization level of the conversation specified as AP_NONE  
   
- AP_PROG_ERROR_NO_TRUNC  
- Primary return code; the partner TP has issued [MC_SEND_ERROR](../core/mc-send-error2.md) while the conversation was in SEND state. Data was not truncated.  
+  AP_PROG_ERROR_NO_TRUNC  
+  Primary return code; the partner TP has issued [MC_SEND_ERROR](../core/mc-send-error2.md) while the conversation was in SEND state. Data was not truncated.  
   
- AP_PROG_ERROR_PURGING  
- Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [MC_SEND_ERROR](../core/mc-send-error2.md). Data sent but not yet received is purged.  
+  AP_PROG_ERROR_PURGING  
+  Primary return code; while in RECEIVE, PENDING, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state, the partner TP issued [MC_SEND_ERROR](../core/mc-send-error2.md). Data sent but not yet received is purged.  
   
- AP_PROG_ERROR_TRUNC  
- Primary return code; the partner TP has issued [MC_SEND_ERROR](../core/mc-send-error2.md) while the conversation was in SEND state. Data was truncated.  
+  AP_PROG_ERROR_TRUNC  
+  Primary return code; the partner TP has issued [MC_SEND_ERROR](../core/mc-send-error2.md) while the conversation was in SEND state. Data was truncated.  
   
- AP_SVC_ERROR_NO_TRUNC  
- Primary return code; the partner TP (or partner LU) issued [MC_SEND_ERROR](../core/mc-send-error2.md) with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP was not truncated.  
+  AP_SVC_ERROR_NO_TRUNC  
+  Primary return code; the partner TP (or partner LU) issued [MC_SEND_ERROR](../core/mc-send-error2.md) with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP was not truncated.  
   
- AP_SVC_ERROR_PURGING  
- Primary return code; the partner TP (or partner LU) issued [MC_SEND_ERROR](../core/mc-send-error2.md) with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP may have been purged.  
+  AP_SVC_ERROR_PURGING  
+  Primary return code; the partner TP (or partner LU) issued [MC_SEND_ERROR](../core/mc-send-error2.md) with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP may have been purged.  
   
- AP_SVC_ERROR_TRUNC  
- Primary return code; the partner TP (or partner LU) issued [MC_SEND_ERROR](../core/mc-send-error2.md) with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP may have been truncated.  
+  AP_SVC_ERROR_TRUNC  
+  Primary return code; the partner TP (or partner LU) issued [MC_SEND_ERROR](../core/mc-send-error2.md) with **err_type** set to AP_SVC while in RECEIVE, PENDING_POST, CONFIRM, CONFIRM_SEND, or CONFIRM_DEALLOCATE state. Data sent to the partner TP may have been truncated.  
   
 ## Remarks  
  While an **MC_POST_ON_RECEIPT** verb is outstanding, the following verbs can be issued on the same conversation:  

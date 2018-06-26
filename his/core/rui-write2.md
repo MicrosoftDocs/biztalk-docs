@@ -321,55 +321,55 @@ struct LUA_COMMON {
   
  Secondary return code; indicates one of the following cases:  
   
--   None of the **lua_flag1** flow flags was set. One and only one of these flags must be set to 1.  
+- None of the **lua_flag1** flow flags was set. One and only one of these flags must be set to 1.  
   
--   **RUI_WRITE** was used to send a response, and the response required more data than was supplied.  
+- **RUI_WRITE** was used to send a response, and the response required more data than was supplied.  
   
- LUA_RESERVED_FIELD_NOT_ZERO  
+  LUA_RESERVED_FIELD_NOT_ZERO  
   
- Secondary return code; a reserved field in the verb record or a parameter not used by this verb was set to a nonzero value.  
+  Secondary return code; a reserved field in the verb record or a parameter not used by this verb was set to a nonzero value.  
   
- LUA_VERB_LENGTH_INVALID  
+  LUA_VERB_LENGTH_INVALID  
   
- Secondary return code; an LUA verb was issued with the value of **lua_verb_length** unexpected by LUA.  
+  Secondary return code; an LUA verb was issued with the value of **lua_verb_length** unexpected by LUA.  
   
- LUA_STATE_CHECK  
- Primary return code; the verb did not execute because it was issued in an invalid state.  
+  LUA_STATE_CHECK  
+  Primary return code; the verb did not execute because it was issued in an invalid state.  
   
- LUA_MODE_INCONSISTENCY  
+  LUA_MODE_INCONSISTENCY  
   
- Secondary return code; the SNA message sent on **RUI_WRITE** was not valid at this time. This is caused by trying to send data on the LU session before the session is bound. Check the sequence of SNA messages sent.  
+  Secondary return code; the SNA message sent on **RUI_WRITE** was not valid at this time. This is caused by trying to send data on the LU session before the session is bound. Check the sequence of SNA messages sent.  
   
- LUA_NO_RUI_SESSION  
+  LUA_NO_RUI_SESSION  
   
- Secondary return code; [RUI_INIT](../core/rui-init1.md) has not yet completed successfully for the LU name specified on this verb.  
+  Secondary return code; [RUI_INIT](../core/rui-init1.md) has not yet completed successfully for the LU name specified on this verb.  
   
- LUA_UNSUCCESSFUL  
- Primary return code; the verb record supplied was valid, but the verb did not complete successfully.  
+  LUA_UNSUCCESSFUL  
+  Primary return code; the verb record supplied was valid, but the verb did not complete successfully.  
   
- LUA_FUNCTION_NOT_SUPPORTED  
+  LUA_FUNCTION_NOT_SUPPORTED  
   
- Secondary return code; indicates one of the following cases:  
+  Secondary return code; indicates one of the following cases:  
   
--   The **lua_rh.fi** bit (format indicator) was set to 1, but the first byte of the supplied RU was not a recognized request code.  
+- The **lua_rh.fi** bit (format indicator) was set to 1, but the first byte of the supplied RU was not a recognized request code.  
   
--   The **lua_rh.ruc** parameter (RU category) specified the network control (NC) category; LUA does not allow applications to send requests in this category.  
+- The **lua_rh.ruc** parameter (RU category) specified the network control (NC) category; LUA does not allow applications to send requests in this category.  
   
- LUA_INVALID_PROCESS  
+  LUA_INVALID_PROCESS  
   
- Secondary return code; the OS/2 process that issued this verb was not the same process that issued **RUI_INIT** for this session. Only the process that started a session can issue verbs on that session.  
+  Secondary return code; the OS/2 process that issued this verb was not the same process that issued **RUI_INIT** for this session. Only the process that started a session can issue verbs on that session.  
   
- LUA_INVALID_SESSION_PARAMETERS  
+  LUA_INVALID_SESSION_PARAMETERS  
   
- Secondary return code; the application used **RUI_WRITE** to send a positive response to a BIND message received from the host. However, Host Integration Server cannot accept the BIND parameters as specified, and has sent a negative response to the host. For more information about the BIND profiles accepted by Host Integration Server, see [SNA Considerations Using LUA](./sna-considerations-with-lua1.md).  
+  Secondary return code; the application used **RUI_WRITE** to send a positive response to a BIND message received from the host. However, Host Integration Server cannot accept the BIND parameters as specified, and has sent a negative response to the host. For more information about the BIND profiles accepted by Host Integration Server, see [SNA Considerations Using LUA](./sna-considerations-with-lua1.md).  
   
- LUA_RSP_CORRELATION_ERROR  
+  LUA_RSP_CORRELATION_ERROR  
   
- Secondary return code; when using **RUI_WRITE** to send a response, **lua_th.snf** (which indicates the sequence number of the received message being responded to) did not contain a valid value.  
+  Secondary return code; when using **RUI_WRITE** to send a response, **lua_th.snf** (which indicates the sequence number of the received message being responded to) did not contain a valid value.  
   
- LUA_RU_LENGTH_ERROR  
+  LUA_RU_LENGTH_ERROR  
   
- Secondary return code; the **lua_data_length** parameter contained an invalid value. When sending data on the LU normal flow, the maximum length is as specified in the BIND received from the host; for all other flows the maximum length is 256 bytes.  
+  Secondary return code; the **lua_data_length** parameter contained an invalid value. When sending data on the LU normal flow, the maximum length is as specified in the BIND received from the host; for all other flows the maximum length is 256 bytes.  
   
 > [!NOTE]
 >  Any other secondary return code is an SNA sense code indicating that the supplied SNA data was invalid or could not be sent. For information about interpreting the SNA sense codes that can be returned, see [SNA Considerations Using LUA](./sna-considerations-with-lua1.md).  
@@ -377,34 +377,34 @@ struct LUA_COMMON {
  LUA_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the transaction program (TP) and the physical unit (PU) 2.1 node was broken (a LAN error).  
+- The connection between the transaction program (TP) and the physical unit (PU) 2.1 node was broken (a LAN error).  
   
--   The SnaBase at the TPs computer encountered an ABEND.  
+- The SnaBase at the TPs computer encountered an ABEND.  
   
- LUA_SESSION_FAILURE  
- Primary return code; a required Host Integration Server component has terminated.  
+  LUA_SESSION_FAILURE  
+  Primary return code; a required Host Integration Server component has terminated.  
   
- LUA_LU_COMPONENT_DISCONNECTED  
+  LUA_LU_COMPONENT_DISCONNECTED  
   
- Secondary return code; indicates that the LUA session has failed because of a problem with the link service or with the host LU.  
+  Secondary return code; indicates that the LUA session has failed because of a problem with the link service or with the host LU.  
   
- LUA_RUI_LOGIC_ERROR  
+  LUA_RUI_LOGIC_ERROR  
   
- Secondary return code; an internal error was detected within LUA. This error should not occur during normal operation.  
+  Secondary return code; an internal error was detected within LUA. This error should not occur during normal operation.  
   
- LUA_INVALID_VERB  
- Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
+  LUA_INVALID_VERB  
+  Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
   
- LUA_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  LUA_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- LUA_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  LUA_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or has terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- LUA_UNEXPECTED_DOS_ERROR  
- Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
+  LUA_UNEXPECTED_DOS_ERROR  
+  Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
   
 ## Remarks  
  [RUI_INIT](../core/rui-init1.md) must be issued successfully before this verb is issued.  
@@ -413,25 +413,25 @@ struct LUA_COMMON {
   
  When sending a response, the type of response determines the **RUI_WRITE** information required. For all responses, you must:  
   
--   Set the selected **lua_rh.rri** flag to 1.  
+- Set the selected **lua_rh.rri** flag to 1.  
   
--   Provide the sequence number in **lua_th.snf** for the request to which you are responding.  
+- Provide the sequence number in **lua_th.snf** for the request to which you are responding.  
   
- For multi-chain message responses, the sequence number of the last received chain element must be used. For a response to a multichain message ending with a CANCEL command, the CANCEL command sequence number is used.  
+  For multi-chain message responses, the sequence number of the last received chain element must be used. For a response to a multichain message ending with a CANCEL command, the CANCEL command sequence number is used.  
   
- For positive responses that only require the request code, set **lua_rh.ri** to zero (indicating that the response is positive) and **lua_data_length** to zero (indicating that no data is provided). The request code is filled in by the RUI, using the sequence number provided.  
+  For positive responses that only require the request code, set **lua_rh.ri** to zero (indicating that the response is positive) and **lua_data_length** to zero (indicating that no data is provided). The request code is filled in by the RUI, using the sequence number provided.  
   
- For negative responses, set **lua_rh.ri** to 1, **lua_data_ptr** to the SNA sense code address, and **lua_data_length** to the SNA sense code length (four bytes). The sequence number is used by the RUI to fill in the request code.  
+  For negative responses, set **lua_rh.ri** to 1, **lua_data_ptr** to the SNA sense code address, and **lua_data_length** to the SNA sense code length (four bytes). The sequence number is used by the RUI to fill in the request code.  
   
- For positive responses to the BIND and STSN commands that require data in the responses, set **lua_data_ptr** to point to the response and set **lua_data_length** to the length of the data provided in **lua_data_ptr**.  
+  For positive responses to the BIND and STSN commands that require data in the responses, set **lua_data_ptr** to point to the response and set **lua_data_length** to the length of the data provided in **lua_data_ptr**.  
   
- While an existing **RUI_WRITE** is pending, you can issue a second **RUI_WRITE** only if it specifies a different session flow from the pending **RUI_WRITE**. You cannot have more than one **RUI_WRITE** outstanding for the same session flow.  
+  While an existing **RUI_WRITE** is pending, you can issue a second **RUI_WRITE** only if it specifies a different session flow from the pending **RUI_WRITE**. You cannot have more than one **RUI_WRITE** outstanding for the same session flow.  
   
- **RUI_WRITE** can be issued on the SSCP normal flow at any time after a successful [RUI_INIT](../core/rui-init1.md). **RUI_WRITE** verbs on the LU expedited or LU normal flows are permitted only after a BIND has been received, and must abide by the protocols specified on the BIND.  
+  **RUI_WRITE** can be issued on the SSCP normal flow at any time after a successful [RUI_INIT](../core/rui-init1.md). **RUI_WRITE** verbs on the LU expedited or LU normal flows are permitted only after a BIND has been received, and must abide by the protocols specified on the BIND.  
   
- The successful completion of **RUI_WRITE** indicates that the message was queued successfully to the data link. It does not necessarily indicate that the message was sent successfully, or that the host accepted it.  
+  The successful completion of **RUI_WRITE** indicates that the message was queued successfully to the data link. It does not necessarily indicate that the message was sent successfully, or that the host accepted it.  
   
- Pacing can be used on the secondary-to-primary half-session (specified on the BIND) to prevent the LUA application from sending more data than the local or remote LU can handle. If this is the case, an **RUI_WRITE** on the LU normal flow may be delayed by LUA and may take some time to complete.  
+  Pacing can be used on the secondary-to-primary half-session (specified on the BIND) to prevent the LUA application from sending more data than the local or remote LU can handle. If this is the case, an **RUI_WRITE** on the LU normal flow may be delayed by LUA and may take some time to complete.  
   
 ## See Also  
  [RUI_INIT](../core/rui-init1.md)   

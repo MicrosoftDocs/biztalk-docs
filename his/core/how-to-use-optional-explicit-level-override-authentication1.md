@@ -23,19 +23,19 @@ Clicking the **Allow application override** check box enables applications to su
   
 ### To use explicit security  
   
-1.  Create an instance of an object that implements `IHostSecurityCallback`.  
+1. Create an instance of an object that implements `IHostSecurityCallback`.  
   
-     This object is created in the client application and is implemented by the developer.  
+    This object is created in the client application and is implemented by the developer.  
   
-2.  Create an instance of the TI utility object `COMTI.HostSecurityContext`.  
+2. Create an instance of the TI utility object `COMTI.HostSecurityContext`.  
   
-3.  Call `SetCallbackObject` on the utility object, and pass it the `IHostSecurityCallback` pointer on the callback object.  
+3. Call `SetCallbackObject` on the utility object, and pass it the `IHostSecurityCallback` pointer on the callback object.  
   
-4.  Create instances of its TI component by using the `CreateInstance` method on the security utility object.  
+4. Create instances of its TI component by using the `CreateInstance` method on the security utility object.  
   
- When the TI component instance created in step 4 establishes a conversation with the host, it calls the `ReturnSecurityInfo` method on the callback object. TI passes this method the name of the remote environment being contacted. The output parameters provide the logon and password as clear text.  
+   When the TI component instance created in step 4 establishes a conversation with the host, it calls the `ReturnSecurityInfo` method on the callback object. TI passes this method the name of the remote environment being contacted. The output parameters provide the logon and password as clear text.  
   
- As an additional aid to developers, TI provides the type information for the `IHostSecurityCallback` interface inside the component library for the TI security component. This enables Visual Basic developers to set a reference to this component and then use the `Implements` keyword to implement the callback class.  
+   As an additional aid to developers, TI provides the type information for the `IHostSecurityCallback` interface inside the component library for the TI security component. This enables Visual Basic developers to set a reference to this component and then use the `Implements` keyword to implement the callback class.  
   
 ## See Also  
  [Security Implications](../core/security-implications1.md)

@@ -17,11 +17,11 @@ manager: "anneta"
 # Run composite operations on SQL Server using BizTalk Server
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to perform composite operations on the SQL Server database. A composite operation can include:  
   
--   Insert, Update, and Delete operations. A Select operation is not supported as part of a composite operation.  
+- Insert, Update, and Delete operations. A Select operation is not supported as part of a composite operation.  
   
--   Stored procedures executed as operations.  
+- Stored procedures executed as operations.  
   
- A single composite operation can have any number of these operations, in any order. For example, you can have two Insert operations followed by a Delete operation, and finally a stored procedure execution. Also, you can have different operations targeting different database tables or views. For more information about how the adapter supports composite operations, see [Run composite operations in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/run-composite-operations-in-sql-server-using-the-sql-adapter.md). For information about the structure of the SOAP message for composite operations, see [Message Schemas for Composite Operations](../../adapters-and-accelerators/adapter-sql/message-schemas-for-composite-operations.md).  
+  A single composite operation can have any number of these operations, in any order. For example, you can have two Insert operations followed by a Delete operation, and finally a stored procedure execution. Also, you can have different operations targeting different database tables or views. For more information about how the adapter supports composite operations, see [Run composite operations in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/run-composite-operations-in-sql-server-using-the-sql-adapter.md). For information about the structure of the SOAP message for composite operations, see [Message Schemas for Composite Operations](../../adapters-and-accelerators/adapter-sql/message-schemas-for-composite-operations.md).  
   
 > [!NOTE]
 >  If you are performing operation on tables that have columns of user-defined types, make sure you refer to [Operations on Tables and Views with User-Defined Types using the SQL adapter](../../adapters-and-accelerators/adapter-sql/operations-on-tables-and-views-with-user-defined-types-using-the-sql-adapter.md) before you start developing your application.  
@@ -29,21 +29,21 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
 ## How to Perform Composite Operations on SQL Server  
  Performing an operation on SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to develop BizTalk applications with the SQL adapter](../../adapters-and-accelerators/adapter-sql/building-blocks-to-develop-biztalk-applications-with-the-sql-adapter.md). To perform composite operations on the SQL Server database, these tasks are:  
   
-1.  Create a BizTalk project, and generate schema for all the operations you want to invoke.  
+1. Create a BizTalk project, and generate schema for all the operations you want to invoke.  
   
-2.  Manually create a schema file that includes references to all the schemas you generated in the previous step.  
+2. Manually create a schema file that includes references to all the schemas you generated in the previous step.  
   
-3.  Create messages in the BizTalk project for sending and receiving messages from the SQL Server database. These messages must conform to the request and response schema you created in the previous step.  
+3. Create messages in the BizTalk project for sending and receiving messages from the SQL Server database. These messages must conform to the request and response schema you created in the previous step.  
   
-4.  Create an orchestration to invoke the composite operation on the SQL Server database.  
+4. Create an orchestration to invoke the composite operation on the SQL Server database.  
   
-5.  Build and deploy the BizTalk project.  
+5. Build and deploy the BizTalk project.  
   
-6.  Configure the BizTalk application by creating physical send and receive ports.  
+6. Configure the BizTalk application by creating physical send and receive ports.  
   
-7.  Start the BizTalk application.  
+7. Start the BizTalk application.  
   
- This topic provides instructions on how to perform these tasks.  
+   This topic provides instructions on how to perform these tasks.  
   
 ## Sample Based on This Topic  
  A sample, CompositeOperations, based on this topic is provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the SQL adapter](../../adapters-and-accelerators/adapter-sql/samples-for-the-sql-adapter.md).  
@@ -51,111 +51,111 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
 ## Generating Schema  
  In this topic, to demonstrate how to perform composite operations, the following tasks will be performed in the order specified:  
   
--   Insert record into the EMPLOYEE table.  
+- Insert record into the EMPLOYEE table.  
   
--   Retrieve all the columns for the last inserted record by invoking the GET_LAST_EMP_DATA stored procedure.  
+- Retrieve all the columns for the last inserted record by invoking the GET_LAST_EMP_DATA stored procedure.  
   
--   Delete the record from the EMPLOYEE table.  
+- Delete the record from the EMPLOYEE table.  
   
- Run the scripts provided with the samples to create the EMPLOYEE table. For more information about the samples, see [Schema Samples](../../adapters-and-accelerators/accelerator-rosettanet/schema-samples.md).  
+  Run the scripts provided with the samples to create the EMPLOYEE table. For more information about the samples, see [Schema Samples](../../adapters-and-accelerators/accelerator-rosettanet/schema-samples.md).  
   
- You must create a BizTalk project and use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] to generate the schema for these operations. See [Retrieving Metadata for SQL Server Operations in Visual Studio using the SQL adapter](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md) for more information about how to generate schemas.  
+  You must create a BizTalk project and use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] to generate the schema for these operations. See [Retrieving Metadata for SQL Server Operations in Visual Studio using the SQL adapter](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md) for more information about how to generate schemas.  
   
 ## Creating a Composite Schema Definition  
  You must now create a composite schema that references the schemas you created for the individual operations. Perform the following steps to create a composite schema definition.  
   
 #### To add a composite schema definition  
   
-1.  Add a schema file to the BizTalk project. Right-click the project name, point to **Add**, and then click **New Item**. In the **Add New Item** dialog box, from the **Categories** box, click **Schema Files**. From the **Templates** box, click **Schema**. Specify a name for the schema file, and then click **OK**.  
+1. Add a schema file to the BizTalk project. Right-click the project name, point to **Add**, and then click **New Item**. In the **Add New Item** dialog box, from the **Categories** box, click **Schema Files**. From the **Templates** box, click **Schema**. Specify a name for the schema file, and then click **OK**.  
   
-     For this example, specify the schema file name as `CompositeSchema.xsd`.  
+    For this example, specify the schema file name as `CompositeSchema.xsd`.  
   
-2.  Add references to the schema generated for the different operations that you want to perform. In this example, the different schemas generated for operations are:  
+2. Add references to the schema generated for the different operations that you want to perform. In this example, the different schemas generated for operations are:  
   
-    -   TableOperation.dbo.Employee.xsd, for Insert and Delete operations.  
+   - TableOperation.dbo.Employee.xsd, for Insert and Delete operations.  
   
-    -   Procedure.dbo.xsd, for the GET_LAST_EMP_DATA stored procedure.  
+   - Procedure.dbo.xsd, for the GET_LAST_EMP_DATA stored procedure.  
   
      To add references:  
   
-    1.  Right-click the root **\<Schema\>** node in the CompositeSchema.xsd, and click **Properties**.  
+   1.  Right-click the root **\<Schema\>** node in the CompositeSchema.xsd, and click **Properties**.  
   
-    2.  In the **Property** box, click the ellipsis button **(…)** against the **Imports** property.  
+   2.  In the **Property** box, click the ellipsis button **(…)** against the **Imports** property.  
   
-         ![Import schema definitions](../../adapters-and-accelerators/adapter-oracle-database/media/d084d0f0-60b5-4ae8-9e80-7ed2c9e3ecca.gif "d084d0f0-60b5-4ae8-9e80-7ed2c9e3ecca")  
+        ![Import schema definitions](../../adapters-and-accelerators/adapter-oracle-database/media/d084d0f0-60b5-4ae8-9e80-7ed2c9e3ecca.gif "d084d0f0-60b5-4ae8-9e80-7ed2c9e3ecca")  
   
-    3.  In the **Imports** dialog box, from the **Import new schema as** list, select **XSD Import**, and then click **Add**.  
+   3.  In the **Imports** dialog box, from the **Import new schema as** list, select **XSD Import**, and then click **Add**.  
   
-    4.  In the **BizTalk Type Picker** dialog box, expand the BizTalk project name node, expand **Schemas**, and then select the schema you want to import. For this example, select <BizTalk_project_name>.TableOperation_dbo_Employee. Click **OK**.  
+   4.  In the **BizTalk Type Picker** dialog box, expand the BizTalk project name node, expand **Schemas**, and then select the schema you want to import. For this example, select <BizTalk_project_name>.TableOperation_dbo_Employee. Click **OK**.  
   
-         Repeat this step to import <BizTalk_project_name>.Procedure_dbo too.  
+        Repeat this step to import <BizTalk_project_name>.Procedure_dbo too.  
   
-    5.  In the **Imports** dialog box, click **OK**.  
+   5.  In the **Imports** dialog box, click **OK**.  
   
-3.  Add two child nodes to the root schema node. One child node corresponds to the request schema for performing the composite operation. The other child node corresponds to the response schema. The node that corresponds to the request schema can have any name. The node that corresponds to the response schema must be called <request_schema_node>Response. For this example, we will call the request schema node as **Request**. So, the response schema node is called **RequestResponse**.  
+3. Add two child nodes to the root schema node. One child node corresponds to the request schema for performing the composite operation. The other child node corresponds to the response schema. The node that corresponds to the request schema can have any name. The node that corresponds to the response schema must be called <request_schema_node>Response. For this example, we will call the request schema node as **Request**. So, the response schema node is called **RequestResponse**.  
   
-    > [!NOTE]
-    >  By default, a **Root** node is also added to a new schema file. You can rename the **Root** node to **Request**. To rename a node, right-click the node name and click **Rename**.  
+   > [!NOTE]
+   >  By default, a **Root** node is also added to a new schema file. You can rename the **Root** node to **Request**. To rename a node, right-click the node name and click **Rename**.  
   
-     To add a node under the **\<Schema\>** node:  
+    To add a node under the **\<Schema\>** node:  
   
-    1.  Right-click the **\<Schema\>** node, point to **Insert Schema Node**, and click **Child Record**.  
+   1.  Right-click the **\<Schema\>** node, point to **Insert Schema Node**, and click **Child Record**.  
   
-    2.  Rename the new node to **RequestResponse**.  
+   2.  Rename the new node to **RequestResponse**.  
   
-4.  Add child nodes under the **Request** node that correspond to the request schema for each operation that you will perform as part of the composite operation. For this example, you must add child nodes corresponding to the following:  
+4. Add child nodes under the **Request** node that correspond to the request schema for each operation that you will perform as part of the composite operation. For this example, you must add child nodes corresponding to the following:  
   
-    -   Insert and Delete operations on the EMPLOYEE table.  
+   -   Insert and Delete operations on the EMPLOYEE table.  
   
-    -   GET_LAST_EMP_DATA stored procedure.  
+   -   GET_LAST_EMP_DATA stored procedure.  
   
-    > [!IMPORTANT]
-    >  You must add the nodes in the same order in which you want to perform the operations. For example, if you want to insert a record, then execute a stored procedure, and then delete a record you must first add a node for the Insert operation, followed by a node for the stored procedure, and finally a node for the Delete operation.  
+   > [!IMPORTANT]
+   >  You must add the nodes in the same order in which you want to perform the operations. For example, if you want to insert a record, then execute a stored procedure, and then delete a record you must first add a node for the Insert operation, followed by a node for the stored procedure, and finally a node for the Delete operation.  
   
-     To add child nodes to the **Request** node:  
+    To add child nodes to the **Request** node:  
   
-    1.  Right-click the **Request** node, point to **Insert Schema Node**, and then click  **Child Record**.  
+   1.  Right-click the **Request** node, point to **Insert Schema Node**, and then click  **Child Record**.  
   
-         ![Insert child nodes for a schema](../../adapters-and-accelerators/adapter-oracle-database/media/58992131-13a6-45c3-9513-5c0995091fae.gif "58992131-13a6-45c3-9513-5c0995091fae")  
+        ![Insert child nodes for a schema](../../adapters-and-accelerators/adapter-oracle-database/media/58992131-13a6-45c3-9513-5c0995091fae.gif "58992131-13a6-45c3-9513-5c0995091fae")  
   
-    2.  Rename the record to correspond to a request schema for an operation that you perform as part of the composite operation. For example, rename the node to “Insert”.  
+   2.  Rename the record to correspond to a request schema for an operation that you perform as part of the composite operation. For example, rename the node to “Insert”.  
   
-    3.  Map the **Insert** node to the request schema for the Insert operation on the EMPLOYEE table. To do so, right-click the **Insert** node, and click **Properties**. In the **Properties** box, from the **Data Structure Type** list, select **Insert (Reference)**.  
+   3.  Map the **Insert** node to the request schema for the Insert operation on the EMPLOYEE table. To do so, right-click the **Insert** node, and click **Properties**. In the **Properties** box, from the **Data Structure Type** list, select **Insert (Reference)**.  
   
-         ![Map child nodes to the request schema](../../adapters-and-accelerators/adapter-sql/media/5ace18be-0fe8-44c6-bd2f-cb19035494b5.gif "5ace18be-0fe8-44c6-bd2f-cb19035494b5")  
+        ![Map child nodes to the request schema](../../adapters-and-accelerators/adapter-sql/media/5ace18be-0fe8-44c6-bd2f-cb19035494b5.gif "5ace18be-0fe8-44c6-bd2f-cb19035494b5")  
   
-    4.  Repeat these steps to add nodes for the request schemas for GET_LAST_EMP_DATA stored procedure and the Delete operation. Specify the node names and map them to the corresponding schema as mentioned in the following table.  
+   4.  Repeat these steps to add nodes for the request schemas for GET_LAST_EMP_DATA stored procedure and the Delete operation. Specify the node names and map them to the corresponding schema as mentioned in the following table.  
   
-        |Node name|Mapped to schema|  
-        |---------------|----------------------|  
-        |GET_LAST_EMP_DATA|GET_LAST_EMP_DATA (Reference)|  
-        |Delete|Delete (Reference)|  
+       |Node name|Mapped to schema|  
+       |---------------|----------------------|  
+       |GET_LAST_EMP_DATA|GET_LAST_EMP_DATA (Reference)|  
+       |Delete|Delete (Reference)|  
   
-5.  Add child nodes under the **RequestResponse** node that correspond to the response schema for each operation that you will perform as part of the composite operation. For this example, you must add child nodes corresponding to the following:  
+5. Add child nodes under the **RequestResponse** node that correspond to the response schema for each operation that you will perform as part of the composite operation. For this example, you must add child nodes corresponding to the following:  
   
-    -   Insert and Delete operations on the EMPLOYEE table.  
+   -   Insert and Delete operations on the EMPLOYEE table.  
   
-    -   GET_LAST_EMP_DATA stored procedure.  
+   -   GET_LAST_EMP_DATA stored procedure.  
   
-    > [!IMPORTANT]
-    >  You must add the child nodes in the same order as the child nodes under the **Request** node.  
+   > [!IMPORTANT]
+   >  You must add the child nodes in the same order as the child nodes under the **Request** node.  
   
-     To add child nodes to the **RequestResponse** node:  
+    To add child nodes to the **RequestResponse** node:  
   
-    1.  Right-click the **RequestResponse** node, point to **Insert Schema Node**, and click **Child Record**.  
+   1.  Right-click the **RequestResponse** node, point to **Insert Schema Node**, and click **Child Record**.  
   
-    2.  Rename the record to correspond to a response schema for an operation that you perform as part of the composite operation. For example, rename the node to “InsertResponse”.  
+   2.  Rename the record to correspond to a response schema for an operation that you perform as part of the composite operation. For example, rename the node to “InsertResponse”.  
   
-    3.  Map the **InsertResponse** node to the response schema for the Insert operation on the EMPLOYEE table. To do so, right-click the **InsertResponse** node, and click **Properties**. In the **Properties** box, from the **Data Structure Type** list, select **InsertResponse (Reference)**.  
+   3.  Map the **InsertResponse** node to the response schema for the Insert operation on the EMPLOYEE table. To do so, right-click the **InsertResponse** node, and click **Properties**. In the **Properties** box, from the **Data Structure Type** list, select **InsertResponse (Reference)**.  
   
-    4.  Repeat these steps to add nodes for the response schemas for the GET_LAST_EMP_DATA stored procedure and the Delete operation. Specify the node names and map them to the corresponding schema as mentioned in the following table.  
+   4.  Repeat these steps to add nodes for the response schemas for the GET_LAST_EMP_DATA stored procedure and the Delete operation. Specify the node names and map them to the corresponding schema as mentioned in the following table.  
   
-        |Node name|Mapped to schema|  
-        |---------------|----------------------|  
-        |GET_LAST_EMP_DATAResponse|GET_LAST_EMP_DATAResponse (Reference)|  
-        |DeleteResponse|DeleteResponse (Reference)|  
+       |Node name|Mapped to schema|  
+       |---------------|----------------------|  
+       |GET_LAST_EMP_DATAResponse|GET_LAST_EMP_DATAResponse (Reference)|  
+       |DeleteResponse|DeleteResponse (Reference)|  
   
-6.  Save the **CompositeSchema.xsd** file.  
+6. Save the **CompositeSchema.xsd** file.  
   
 ## Defining Messages and Message Types  
  The composite schema that you created in the last step describes the “types” required for the messages in an orchestration. A message is typically a variable, the type for which is defined by the corresponding schema. You must now create messages for the orchestration and link them to schema you created in the previous step.  
@@ -227,20 +227,20 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
   
-    -   Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the SQL Server database.  
+  - Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the SQL Server database.  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the SQL Server database.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the SQL Server database.  
   
-    -   Define a physical WCF-Custom or WCF-SQL send port to send messages to the SQL Server database. Because the operations that are being as part of the composite operation are executed in a single transaction, make sure the **UseAmbientTransaction** binding property is set to **True**.  
+  - Define a physical WCF-Custom or WCF-SQL send port to send messages to the SQL Server database. Because the operations that are being as part of the composite operation are executed in a single transaction, make sure the **UseAmbientTransaction** binding property is set to **True**.  
   
-         You must also specify the action in the send port. The action for a composite operation is “**CompositeOperation**”. For information about how to create ports, see [Manually configure a physical port binding to the SQL adapter](../../adapters-and-accelerators/adapter-sql/manually-configure-a-physical-port-binding-to-the-sql-adapter.md). For more information about how to specify actions for ports, see [Configure the SOAP action for the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-the-soap-action-for-the-sql-adapter.md).
+     You must also specify the action in the send port. The action for a composite operation is “**CompositeOperation**”. For information about how to create ports, see [Manually configure a physical port binding to the SQL adapter](../../adapters-and-accelerators/adapter-sql/manually-configure-a-physical-port-binding-to-the-sql-adapter.md). For more information about how to specify actions for ports, see [Configure the SOAP action for the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-the-soap-action-for-the-sql-adapter.md).
   
-        > [!NOTE]
-        >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file that contains information about the ports and the actions to be set for those ports. You can import this binding file from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md). If you import this binding file, the action on the WCF-Custom or WCF-SQL send port is set to a dynamic action involving all the operations you selected in the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] while generating the schema. For a composite operation, you must replace the dynamic action with “CompositeOperation”.  
+    > [!NOTE]
+    >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file that contains information about the ports and the actions to be set for those ports. You can import this binding file from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to create send ports (for outbound calls) or receive ports (for inbound calls). For more information, see [Configure a physical port binding using a port binding file to use the SQL adapter](../../adapters-and-accelerators/adapter-sql/configure-a-physical-port-binding-using-a-port-binding-file-to-sql-adapter.md). If you import this binding file, the action on the WCF-Custom or WCF-SQL send port is set to a dynamic action involving all the operations you selected in the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] while generating the schema. For a composite operation, you must replace the dynamic action with “CompositeOperation”.  
   
 ## Starting the Application  
  You must start the BizTalk application for performing composite operations on the SQL Server database. For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md).

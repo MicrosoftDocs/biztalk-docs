@@ -67,83 +67,83 @@ struct receive_allocate {
   
  This parameter is a 64-byte EBCDIC character string and is case-sensitive. The **tp_name** parameter can consist of characters from the type AE EBCDIC character set:  
   
--   Uppercase and lowercase letters  
+- Uppercase and lowercase letters  
   
--   Numerals 0 through 9  
+- Numerals 0 through 9  
   
--   Special characters $, #, and period (.)  
+- Special characters $, #, and period (.)  
   
- If **tp_name** is fewer than 64 bytes, use EBCDIC spaces (0x40) to pad it on the right.  
+  If **tp_name** is fewer than 64 bytes, use EBCDIC spaces (0x40) to pad it on the right.  
   
- The SNA convention is that a service TP name can have up to four characters. The first character is a hexadecimal byte between 0x00 and 0x3F. The other characters are from the type AE EBCDIC character set.  
+  The SNA convention is that a service TP name can have up to four characters. The first character is a hexadecimal byte between 0x00 and 0x3F. The other characters are from the type AE EBCDIC character set.  
   
- *tp_id*  
- Returned parameter. Identifies the local TP.  
+  *tp_id*  
+  Returned parameter. Identifies the local TP.  
   
- *conv_id*  
- Returned parameter. Provides the conversation identifier. It identifies the conversation APPC has established between the two partner TPs.  
+  *conv_id*  
+  Returned parameter. Provides the conversation identifier. It identifies the conversation APPC has established between the two partner TPs.  
   
- *sync_level*  
- Returned parameter. Specifies the synchronization level of the conversation. It determines whether the TPs can request confirmation of receipt of data and confirm receipt of data.  
+  *sync_level*  
+  Returned parameter. Specifies the synchronization level of the conversation. It determines whether the TPs can request confirmation of receipt of data and confirm receipt of data.  
   
--   AP_NONE specifies that confirmation processing will not be used in this conversation.  
+- AP_NONE specifies that confirmation processing will not be used in this conversation.  
   
--   AP_CONFIRM_SYNC_LEVEL specifies that the TPs can use confirmation processing in this conversation.  
+- AP_CONFIRM_SYNC_LEVEL specifies that the TPs can use confirmation processing in this conversation.  
   
--   AP_SYNCPT specifies that TPs can use Sync Point Level 2 confirmation processing in this conversation.  
+- AP_SYNCPT specifies that TPs can use Sync Point Level 2 confirmation processing in this conversation.  
   
- *conv_type*  
- Returned parameter. Specifies the type of conversation chosen by the partner TP, using [MC_ALLOCATE](../core/mc-allocate2.md) or [ALLOCATE](../core/allocate2.md). The following are possible values:  
+  *conv_type*  
+  Returned parameter. Specifies the type of conversation chosen by the partner TP, using [MC_ALLOCATE](../core/mc-allocate2.md) or [ALLOCATE](../core/allocate2.md). The following are possible values:  
   
- AP_BASIC_CONVERSATION  
+  AP_BASIC_CONVERSATION  
   
- AP_MAPPED_CONVERSATION  
+  AP_MAPPED_CONVERSATION  
   
- *user_id*  
- Returned parameter. Provides the user identifier specified by the partner TP, using **MC_ALLOCATE** or **ALLOCATE** (if the partner TP set the **MC_ALLOCATE** or **ALLOCATE** verb's security parameter to AP_PGM or AP_SAME). It is a type AE EBCDIC character string.  
+  *user_id*  
+  Returned parameter. Provides the user identifier specified by the partner TP, using **MC_ALLOCATE** or **ALLOCATE** (if the partner TP set the **MC_ALLOCATE** or **ALLOCATE** verb's security parameter to AP_PGM or AP_SAME). It is a type AE EBCDIC character string.  
   
- *lu_alias*  
- Returned parameter. Provides the alias by which the local logical unit (LU) is known to the local TP. It is an ASCII character string.  
+  *lu_alias*  
+  Returned parameter. Provides the alias by which the local logical unit (LU) is known to the local TP. It is an ASCII character string.  
   
- *plu_alias*  
- Returned parameter. Provides the alias by which the partner LU (which initiated the incoming allocate) is known to the local TP. It is an ASCII character string.  
+  *plu_alias*  
+  Returned parameter. Provides the alias by which the partner LU (which initiated the incoming allocate) is known to the local TP. It is an ASCII character string.  
   
- *mode_name*  
- Returned parameter. Provides the mode name specified by **MC_ALLOCATE** or **ALLOCATE** in the partner TP. It is the name of a set of networking characteristics defined during configuration. The **mode_name** is a type A EBCDIC character string.  
+  *mode_name*  
+  Returned parameter. Provides the mode name specified by **MC_ALLOCATE** or **ALLOCATE** in the partner TP. It is the name of a set of networking characteristics defined during configuration. The **mode_name** is a type A EBCDIC character string.  
   
- *reserv3*  
- A reserved field.  
+  *reserv3*  
+  A reserved field.  
   
- *conv_group_id*  
- Conversation group identifier.  
+  *conv_group_id*  
+  Conversation group identifier.  
   
- *fqplu_name*  
- This returned parameter provides the fully qualified LU name.  
+  *fqplu_name*  
+  This returned parameter provides the fully qualified LU name.  
   
- *pip_incoming*  
- This optional supplied and returned parameter is applicable only if Sync Point services are required.  
+  *pip_incoming*  
+  This optional supplied and returned parameter is applicable only if Sync Point services are required.  
   
- For the supplied parameter:  
+  For the supplied parameter:  
   
- AP_YES if TP does accept PIP data.  
+  AP_YES if TP does accept PIP data.  
   
- AP_NO if TP does not accept PIP data.  
+  AP_NO if TP does not accept PIP data.  
   
- For the returned parameter:  
+  For the returned parameter:  
   
- AP_YES if PIP data is available.  
+  AP_YES if PIP data is available.  
   
- AP_NO if PIP data is not available.  
+  AP_NO if PIP data is not available.  
   
- *syncpoint_rqd*  
- This parameter indicates if Sync Point services are required.  
+  *syncpoint_rqd*  
+  This parameter indicates if Sync Point services are required.  
   
- AP_YES if Sync Point is required.  
+  AP_YES if Sync Point is required.  
   
- AP_NO if Sync Point is not required.  
+  AP_NO if Sync Point is not required.  
   
- *reserv4*  
- A reserved field.  
+  *reserv4*  
+  A reserved field.  
   
 ## Return Codes  
  AP_OK  
@@ -170,31 +170,31 @@ struct receive_allocate {
  AP_COMM_SUBSYSTEM_ABENDED  
  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
+- The connection between the TP and the PU 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TP's computer encountered an ABEND.  
+- The SnaBase at the TP's computer encountered an ABEND.  
   
- The system administrator should examine the error log to determine the reason for the ABEND.  
+  The system administrator should examine the error log to determine the reason for the ABEND.  
   
- AP_CONV_BUSY  
- Primary return code; there can only be one outstanding conversation verb at a time on any conversation.  
+  AP_CONV_BUSY  
+  Primary return code; there can only be one outstanding conversation verb at a time on any conversation.  
   
- AP_THREAD_BLOCKING  
- Primary return code; the calling thread is already in a blocking call.  
+  AP_THREAD_BLOCKING  
+  Primary return code; the calling thread is already in a blocking call.  
   
- AP_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  AP_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- AP_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  AP_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- AP_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  AP_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- AP_UNEXPECTED_DOS_ERROR  
- Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
+  AP_UNEXPECTED_DOS_ERROR  
+  Primary return code; the operating system has returned an error to APPC while processing an APPC call from the local TP. The operating system return code is returned through the **secondary_rc**. It appears in Intel byte-swapped order. If the problem persists, consult the system administrator.  
   
 ## Remarks  
  This must be the first APPC verb issued by the invoked TP. The initial state is RESET. If the verb executes successfully (**primary_rc** is AP_OK), the state changes to RECEIVE.  

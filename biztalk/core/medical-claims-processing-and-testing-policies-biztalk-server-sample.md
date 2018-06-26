@@ -60,50 +60,50 @@ The Medical Claims Processing and Testing Policies sample demonstrates how to cr
   
 #### To build and initialize the Medical Claims Processing and Testing Policies sample  
   
-1.  Make sure that you have the Northwind database on your machine.  
+1. Make sure that you have the Northwind database on your machine.  
   
-    > [!IMPORTANT]
-    >  To run this sample, you must have the Northwind SQL Server sample database. [Download](https://www.microsoft.com/download/details.aspx?id=23654), and install. 
+   > [!IMPORTANT]
+   >  To run this sample, you must have the Northwind SQL Server sample database. [Download](https://www.microsoft.com/download/details.aspx?id=23654), and install. 
   
-2.  In a command window, navigate to the following folder:  
+2. In a command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\Business Rules\Medical Claims Processing and Testing Policies\  
+    \<*Samples Path*\>\Business Rules\Medical Claims Processing and Testing Policies\  
   
-3.  Run the file Setup.bat, which performs the following actions:  
+3. Run the file Setup.bat, which performs the following actions:  
   
-    -   Compiles and deploys the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects for this sample, including Claims.dll, FactRetrieverForClaimsProcessing.dll, and RulesForMedicalClaims.dll.  
+   - Compiles and deploys the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects for this sample, including Claims.dll, FactRetrieverForClaimsProcessing.dll, and RulesForMedicalClaims.dll.  
   
-    > [!NOTE]
-    >  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
+   > [!NOTE]
+   >  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
+   > 
+   > [!NOTE]
+   >  If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe). Use this key pair to sign the resulting assemblies.  
   
-    > [!NOTE]
-    >  If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe). Use this key pair to sign the resulting assemblies.  
+   - Runs the provided SQL script Create_PolicyValidity_Table.sql using SQL Query Analyzer. The script creates the table, PolicyValidity, with two sample rows in the Northwind sample database. This table has two columns: ID and PolicyStatus.  
   
-    -   Runs the provided SQL script Create_PolicyValidity_Table.sql using SQL Query Analyzer. The script creates the table, PolicyValidity, with two sample rows in the Northwind sample database. This table has two columns: ID and PolicyStatus.  
+   - Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] send and receive ports.  
   
-    -   Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] send and receive ports.  
+   - Enables the receive location, and starts the send port.  
   
-    -   Enables the receive location, and starts the send port.  
+   - Enlists and starts orchestration.  
   
-    -   Enlists and starts orchestration.  
-  
-    > [!NOTE]
-    >  To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
+   > [!NOTE]
+   >  To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
   
 ## Running This Sample  
   
 #### To run the Medical Claims Processing and Testing Policies sample  
   
-1.  In a command window, navigate to the following folder:  
+1. In a command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\Business Rules\Medical Claims Processing and Testing Policies\RulesForMedicalClaims\bin\Debug\  
+    \<*Samples Path*\>\Business Rules\Medical Claims Processing and Testing Policies\RulesForMedicalClaims\bin\Debug\  
   
-2.  Run the file RulesForMedicalClaims.exe on the command line.  
+2. Run the file RulesForMedicalClaims.exe on the command line.  
   
-    > [!NOTE]
-    >  You can change the values of individual elements in the sample claim file sampleClaim.xml and run the sample repeatedly. The expected outputs for different values in these elements are shown in the list that follows.  
+   > [!NOTE]
+   >  You can change the values of individual elements in the sample claim file sampleClaim.xml and run the sample repeatedly. The expected outputs for different values in these elements are shown in the list that follows.  
   
- Output scenarios based on various combinations of values in the submitted sample claims file are:  
+   Output scenarios based on various combinations of values in the submitted sample claims file are:  
   
 -   For a claim whose amount exceeds $1000, the following output is obtained:  
   
@@ -147,21 +147,21 @@ The Medical Claims Processing and Testing Policies sample demonstrates how to cr
 ## Comments  
  The fact sources used in the rule set evaluation are:  
   
--   A long-term fact retriever, a .NET-based application that implements the **IFactReriever** interface, is built in the folder FactRetrieverForClaimsProcessing. It is used by the medical claims processing policy to retrieve data (in the form of a dataset) from the PolicyValidity database and to use in rule condition evaluation.  
+- A long-term fact retriever, a .NET-based application that implements the **IFactReriever** interface, is built in the folder FactRetrieverForClaimsProcessing. It is used by the medical claims processing policy to retrieve data (in the form of a dataset) from the PolicyValidity database and to use in rule condition evaluation.  
   
--   The claim is in the form of an XML document that contains the following information, stored in sibling elements: Name, ID, Amount, Nights, and Date.  
+- The claim is in the form of an XML document that contains the following information, stored in sibling elements: Name, ID, Amount, Nights, and Date.  
   
--   A .NET-based class library (Claims), with a **ClaimResults** class is used to record the STATUS and REASON of the claim using properties, and to send a lead (if the policy is not valid) by invoking the **SendLeads** method with ID and name as parameters.  
+- A .NET-based class library (Claims), with a **ClaimResults** class is used to record the STATUS and REASON of the claim using properties, and to send a lead (if the policy is not valid) by invoking the **SendLeads** method with ID and name as parameters.  
   
- Based on these fact sources, you can informally describe the rules defined for this scenario as follows:  
+  Based on these fact sources, you can informally describe the rules defined for this scenario as follows:  
   
-1.  Check to see if the incoming claim is valid. The claim is not valid if the amount is over the allowable limit for a claim, if the policy has expired (verified by checking the database table), if the number of nights has exceeded the maximum allowable limit, and if the claim is made for a future date. If the claim has been determined to be not valid, set the STATUS and REASON of the claim appropriately.  
+1. Check to see if the incoming claim is valid. The claim is not valid if the amount is over the allowable limit for a claim, if the policy has expired (verified by checking the database table), if the number of nights has exceeded the maximum allowable limit, and if the claim is made for a future date. If the claim has been determined to be not valid, set the STATUS and REASON of the claim appropriately.  
   
-2.  If the policy ID of the incoming claim has expired, send a lead (with policy ID and customer name) to the policy renewal department.  
+2. If the policy ID of the incoming claim has expired, send a lead (with policy ID and customer name) to the policy renewal department.  
   
-3.  If the claim is valid, set the STATUS and REASON of the claim appropriately.  
+3. If the claim is valid, set the STATUS and REASON of the claim appropriately.  
   
- A more formal representation of the rules and their term bindings is as follows:  
+   A more formal representation of the rules and their term bindings is as follows:  
   
 -   **Rule 1. Amount check**  
   

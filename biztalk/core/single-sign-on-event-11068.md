@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11068
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11068|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_ERROR_LOOKUP_CALLBACK_ACCESS_DENIED_NO_REMOTE|  
-|Message Text|Lookup server access denied. This SSO server is currently not configured to allow remote lookup. Use 'ssoconfig -remoteLookup yes' or the SSO Administration MMC.%r|  
+|                 |                                                                                                                                                                     |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                      Enterprise Single Sign-On                                                                      |
+| Product Version |                                                     [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                      |
+|    Event ID     |                                                                                11068                                                                                |
+|  Event Source   |                                                                               ENTSSO                                                                                |
+|    Component    |                                                                                 N/A                                                                                 |
+|  Symbolic Name  |                                                          SSO_ERROR_LOOKUP_CALLBACK_ACCESS_DENIED_NO_REMOTE                                                          |
+|  Message Text   | Lookup server access denied. This SSO server is currently not configured to allow remote lookup. Use 'ssoconfig -remoteLookup yes' or the SSO Administration MMC.%r |
   
 ## Explanation  
  Lookup server access has been denied because the ENTSSO server is not configured to allow remote lookup.  

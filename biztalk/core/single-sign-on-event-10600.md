@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10600
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10600|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_ERROR_CS_CALLBACK_ACCESS_DENIED|  
-|Message Text|Config Store server access denied.%r|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10600                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |            SSO_ERROR_CS_CALLBACK_ACCESS_DENIED             |
+|  Message Text   |            Config Store server access denied.%r            |
   
 ## Explanation  
  A message was sent to the Config Store server but was not accepted. This can be caused by a number of different reasons, such as incorrect protocol or insufficient security permissions.  

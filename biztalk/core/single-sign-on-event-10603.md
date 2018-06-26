@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10603
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10603|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_DB_ACCESS|  
-|Message Text|Could not access the SSO database. If this condition persists, the SSO service will go offline.%r<br /><br /> %1.%r<br /><br /> SQL Error code: %2|  
+|                 |                                                                                                                                                    |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                             Enterprise Single Sign-On                                                              |
+| Product Version |                                             [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                             |
+|    Event ID     |                                                                       10603                                                                        |
+|  Event Source   |                                                                       ENTSSO                                                                       |
+|    Component    |                                                                        N/A                                                                         |
+|  Symbolic Name  |                                                                 SSO_WARN_DB_ACCESS                                                                 |
+|  Message Text   | Could not access the SSO database. If this condition persists, the SSO service will go offline.%r<br /><br /> %1.%r<br /><br /> SQL Error code: %2 |
   
 ## Explanation  
  The SSO database is unavailable.  

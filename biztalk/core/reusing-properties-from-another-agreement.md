@@ -19,27 +19,27 @@ You can reuse properties between agreements. This can save a significant amount 
   
  Exporting the agreement to an XML template captures most, but not all, properties from the agreement. The following properties will *not* be exported to the XML template file:  
   
--   All the properties from the **General Properties** page in the **General** tab.  
+- All the properties from the **General Properties** page in the **General** tab.  
   
--   All the properties from the **Contacts** page in the **General** tab.  
+- All the properties from the **Contacts** page in the **General** tab.  
   
--   All the properties from the **Additional Properties** page in the **General** tab.  
+- All the properties from the **Additional Properties** page in the **General** tab.  
   
--   Identifier-related settings from the **Identifiers** page in the one-way agreement tab. These are:  
+- Identifier-related settings from the **Identifiers** page in the one-way agreement tab. These are:  
   
-    -   **For X12**: ISA5, ISA6, ISA7, ISA8, and additional agreement resolver settings  
+  -   **For X12**: ISA5, ISA6, ISA7, ISA8, and additional agreement resolver settings  
   
-    -   **For EDIFACT**: UNB 2.1, UNB 2.2, UNB 3.1, UNB 3.2, and additional agreement resolver settings  
+  -   **For EDIFACT**: UNB 2.1, UNB 2.2, UNB 3.1, UNB 3.2, and additional agreement resolver settings  
   
-    -   **For AS2**: AS2-To, AS2-From, and additional agreement resolver settings  
+  -   **For AS2**: AS2-To, AS2-From, and additional agreement resolver settings  
   
--   Send port association from the **Send Ports** page in the one-way agreement tab for X12, EDIFACT, and AS2 agreements.  
+- Send port association from the **Send Ports** page in the one-way agreement tab for X12, EDIFACT, and AS2 agreements.  
   
- Other than the properties listed above, the following properties will be exported to the XML template file:  
+  Other than the properties listed above, the following properties will be exported to the XML template file:  
   
--   All settings related to the encoding protocol (X12, EDIFACT, or AS2).  
+- All settings related to the encoding protocol (X12, EDIFACT, or AS2).  
   
--   All the batch-related settings (other than the batch ID).  
+- All the batch-related settings (other than the batch ID).  
   
 > [!NOTE]
 >  All the applicable properties will be overwritten when you copy properties to the destination agreement.  

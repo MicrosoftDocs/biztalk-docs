@@ -27,21 +27,21 @@ Transactions are a group of database operations combined into a logical unit of 
   
 ### To perform a transaction  
   
-1.  Call `MsDb2Connection.BeginTransaction` to mark the start of the transaction.  
+1. Call `MsDb2Connection.BeginTransaction` to mark the start of the transaction.  
   
-     `BeginTransaction` returns a reference to the transaction. Retain this reference so that you can assign it to commands that are enlisted in the transaction.  
+    `BeginTransaction` returns a reference to the transaction. Retain this reference so that you can assign it to commands that are enlisted in the transaction.  
   
-2.  Assign the transaction to the `MsDb2Command.Transaction` to be executed.  
+2. Assign the transaction to the `MsDb2Command.Transaction` to be executed.  
   
-     If a command is executed on a connection with an active transaction and the `Transaction` object has not been assigned to the `Transaction` property of the `Command`, an `MsDb2Exception` is thrown.  
+    If a command is executed on a connection with an active transaction and the `Transaction` object has not been assigned to the `Transaction` property of the `Command`, an `MsDb2Exception` is thrown.  
   
-3.  Execute the required commands.  
+3. Execute the required commands.  
   
-4.  Call `MsDb2Transaction.Commit` to complete the transaction, or call `MsDb2Transaction.Rollback` to cancel the transaction.  
+4. Call `MsDb2Transaction.Commit` to complete the transaction, or call `MsDb2Transaction.Rollback` to cancel the transaction.  
   
-     If the connection is closed or disposed before either the `Commit` or `Rollback` methods have been executed, the transaction is rolled back.  
+    If the connection is closed or disposed before either the `Commit` or `Rollback` methods have been executed, the transaction is rolled back.  
   
- The following code example demonstrates how to perform a transaction.  
+   The following code example demonstrates how to perform a transaction.  
   
 ```  
 static void TransactionConnection()  

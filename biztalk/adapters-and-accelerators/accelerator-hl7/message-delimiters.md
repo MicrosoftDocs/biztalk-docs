@@ -26,11 +26,11 @@ manager: "anneta"
 # Message Delimiters
 Message events defined by HL7 standards take the following form:  
   
--   **Flat files**. Message events defined by HL7 versions 2.4 and earlier take the form of flat files.  
+- **Flat files**. Message events defined by HL7 versions 2.4 and earlier take the form of flat files.  
   
--   **XML**. Message events defined by HL7 versions 2.XML and version 3 take the form of XML files.  
+- **XML**. Message events defined by HL7 versions 2.XML and version 3 take the form of XML files.  
   
- Since the HL7 standard does not follow positional format, it uses delimiters to define the segment, field, component, and subcomponent levels of flat files. The following table lists the default delimiters used by HL7 flat files.  
+  Since the HL7 standard does not follow positional format, it uses delimiters to define the segment, field, component, and subcomponent levels of flat files. The following table lists the default delimiters used by HL7 flat files.  
   
 |Delimiter|Value|Usage|  
 |---------------|-----------|-----------|  

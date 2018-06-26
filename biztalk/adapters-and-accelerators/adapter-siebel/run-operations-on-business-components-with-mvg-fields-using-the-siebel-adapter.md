@@ -17,32 +17,32 @@ manager: "anneta"
 # Run Operations on Business Components with MVG Fields Using BizTalk Server and the Siebel adapter
 This section provides instructions on performing operation on a business component containing multi-value fields. To demonstrate an end-to-end operation on such business components, you need to perform:  
   
--   An INSERT operation on a parent business component  
+- An INSERT operation on a parent business component  
   
--   An INSERT operation on a child business component  
+- An INSERT operation on a child business component  
   
--   An ASSOCIATE operation on the multi-value links between the parent and child business component  
+- An ASSOCIATE operation on the multi-value links between the parent and child business component  
   
--   A Query_[MVG_Child_Business_Comp] operation on a record of parent business component  
+- A Query_[MVG_Child_Business_Comp] operation on a record of parent business component  
   
- For more information about how the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports operations on business components, see [Operations on business components](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md). For more information about the structure of SOAP messages for performing these operations, see [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
+  For more information about how the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports operations on business components, see [Operations on business components](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md). For more information about the structure of SOAP messages for performing these operations, see [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md).  
   
 ## How to Perform Operations on a Business Component with Multi-value Fields?  
  Performing an operation on a Siebel system using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves procedural tasks described in [Building blocks to create Siebel applications](../../adapters-and-accelerators/adapter-siebel/building-blocks-to-create-biztalk-applications-with-the-siebel-adapter.md). To perform an operation on a business component, these tasks are:  
   
-1.  Create a BizTalk project and generate schema for all the operations you want to invoke on the business component. As described earlier, to perform operations on a business component with multi-value fields, you must generate schema for Insert operation on the parent and child business components, Associate operation on the multi-value links between the parent and child business components, and a Query operation on the parent business component.  
+1. Create a BizTalk project and generate schema for all the operations you want to invoke on the business component. As described earlier, to perform operations on a business component with multi-value fields, you must generate schema for Insert operation on the parent and child business components, Associate operation on the multi-value links between the parent and child business components, and a Query operation on the parent business component.  
   
-2.  Create messages in the BizTalk project for sending and receiving messages from the Siebel system.  
+2. Create messages in the BizTalk project for sending and receiving messages from the Siebel system.  
   
-3.  Create orchestration to invoke the different operations in the Siebel system.  
+3. Create orchestration to invoke the different operations in the Siebel system.  
   
-4.  Build and deploy the BizTalk project.  
+4. Build and deploy the BizTalk project.  
   
-5.  Configure the BizTalk application by creating physical send and receive ports.  
+5. Configure the BizTalk application by creating physical send and receive ports.  
   
-6.  Start the BizTalk application.  
+6. Start the BizTalk application.  
   
- This topic provides instructions to perform these tasks.  
+   This topic provides instructions to perform these tasks.  
   
 ## Sample Based On This Topic  
  A sample, MVLDemo, based on this topic is also provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/samples-for-the-siebel-adapter.md).  
@@ -50,15 +50,15 @@ This section provides instructions on performing operation on a business compone
 ## Generating Schema  
  In this topic, to demonstrate how to associate the parent business component, **Account** to a child business component, **Contact**, we will generate the schema for the following:  
   
--   INSERT operation on the **Account** business component. See [Run Operations on Business Components Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md).  
+- INSERT operation on the **Account** business component. See [Run Operations on Business Components Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md).  
   
--   INSERT operation on the **Contact** business component.  
+- INSERT operation on the **Contact** business component.  
   
--   ASSOCIATE operation on the **Account** business component.  
+- ASSOCIATE operation on the **Account** business component.  
   
--   QUERY_CONTACT operation on the **Account** business component.  
+- QUERY_CONTACT operation on the **Account** business component.  
   
- See [Get metadata for Siebel operations in Visual Studio](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md) for more information about how to generate schema.  
+  See [Get metadata for Siebel operations in Visual Studio](../../adapters-and-accelerators/adapter-siebel/get-metadata-for-siebel-operations-in-visual-studio.md) for more information about how to generate schema.  
   
 ## Defining Messages and Message Types  
  The schema that you generated earlier describes the "types" required for the messages in the orchestration. A message is typically a variable, the type for which is defined by the corresponding schema. You must link the schema you generated in the first step to the messages from the Orchestration view of the BizTalk project.  
@@ -92,21 +92,21 @@ This section provides instructions on performing operation on a business compone
 ## Set up the orchestrations  
  You must now set up orchestrations to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for performing operations on the Account and Contact business components.  
   
--   Set up an orchestration to perform an INSERT operation on the **Account** business component. See [Run Operations on Business Components Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md).  
+- Set up an orchestration to perform an INSERT operation on the **Account** business component. See [Run Operations on Business Components Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md).  
   
--   Set up an orchestration to perform an INSERT operation on the **Contact** business component. This is similar to the INSERT operation on the **Account** business component.  
+- Set up an orchestration to perform an INSERT operation on the **Contact** business component. This is similar to the INSERT operation on the **Account** business component.  
   
--   Set up an orchestration to perform an ASSOCIATE operation on the **Account** business component.  
+- Set up an orchestration to perform an ASSOCIATE operation on the **Account** business component.  
   
--   Set up an orchestration to perform a QUERY_CONTACT operation on the **Account** business component.  
+- Set up an orchestration to perform a QUERY_CONTACT operation on the **Account** business component.  
   
- This topic will demonstrate how to set up an orchestration for the ASSOCIATE operation on the **Account** business component. You must perform similar tasks to set up the remaining orchestrations as well.  
+  This topic will demonstrate how to set up an orchestration for the ASSOCIATE operation on the **Account** business component. You must perform similar tasks to set up the remaining orchestrations as well.  
   
- The orchestration for the ASSOCIATE operation on the Account business component looks like:  
+  The orchestration for the ASSOCIATE operation on the Account business component looks like:  
   
- ![Orchestration for working with MVL in Siebel](../../adapters-and-accelerators/adapter-siebel/media/6c7d548d-dc80-490f-89fe-12aff10fa3cf.gif "6c7d548d-dc80-490f-89fe-12aff10fa3cf")  
+  ![Orchestration for working with MVL in Siebel](../../adapters-and-accelerators/adapter-siebel/media/6c7d548d-dc80-490f-89fe-12aff10fa3cf.gif "6c7d548d-dc80-490f-89fe-12aff10fa3cf")  
   
- The following section provides information on how to set up this orchestration by dropping message shapes, ports, linking messages to schemas, etc. You must perform similar tasks to set up the other orchestrations as well.  
+  The following section provides information on how to set up this orchestration by dropping message shapes, ports, linking messages to schemas, etc. You must perform similar tasks to set up the other orchestrations as well.  
   
 ### Adding Message Shapes  
  Make sure you specify the following properties for each of the message shapes. The names listed in the *Shape* column are the names of the message shapes as displayed in the orchestration above.  
@@ -146,18 +146,18 @@ This section provides instructions on performing operation on a business compone
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the BizTalk Server Administration console. For this orchestration you must:  
   
-    -   Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the Siebel system. You can have the same port for all the four orchestrations.  
+  - Define a location on the hard disk and a corresponding file port where you will drop a request message. The BizTalk orchestration will consume the request message and send it to the Siebel system. You can have the same port for all the four orchestrations.  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the Siebel system. You can have the same port for all the four orchestrations.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the response message containing the response from the Siebel system. You can have the same port for all the four orchestrations.  
   
-    -   Define physical WCF-Custom or WCF-Siebel send ports to send messages to the Siebel system. You must also specify the action in the send port. For information about how to create ports, see [Manually configure a physical port binding to the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/manually-configure-a-physical-port-binding-to-the-siebel-adapter.md). You must have different ports for all the four orchestrations.  
+  - Define physical WCF-Custom or WCF-Siebel send ports to send messages to the Siebel system. You must also specify the action in the send port. For information about how to create ports, see [Manually configure a physical port binding to the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/manually-configure-a-physical-port-binding-to-the-siebel-adapter.md). You must have different ports for all the four orchestrations.  
   
-        > [!NOTE]
-        >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports. You can import this binding file from the BizTalk Administration Console to create send ports (for outbound calls). For more information, see [Configure a physical port binding using a port binding file to Siebel](../../adapters-and-accelerators/adapter-siebel/configure-a-physical-port-binding-using-a-port-binding-file-to-siebel.md).
+    > [!NOTE]
+    >  Generating the schema using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] also creates a binding file containing information about the ports and the actions to be set for those ports. You can import this binding file from the BizTalk Administration Console to create send ports (for outbound calls). For more information, see [Configure a physical port binding using a port binding file to Siebel](../../adapters-and-accelerators/adapter-siebel/configure-a-physical-port-binding-using-a-port-binding-file-to-siebel.md).
   
 ## Starting the Application  
  You must start the BizTalk application for associating a parent business component to the child business component. For instructions on starting a BizTalk application, see [Start a BizTalk Application](../../core/how-to-start-and-stop-a-biztalk-application.md) or [Start an Orchestration](../../core/how-to-start-an-orchestration.md).  
@@ -175,55 +175,55 @@ This section provides instructions on performing operation on a business compone
 ## Executing the Operation  
  You must drop the request messages to the FILE receive port. The schema for the request messages must conform to the schema you generated earlier in the topic. See [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md) for more information about the schema for the request message for different operations. You must drop the request messages in the following order:  
   
--   Drop a request message to insert a record into the **Account** business component. The request message will be similar to the one dropped for inserting a record in the Account business component in the topic [Run Operations on Business Components Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md). The orchestration consumes the message and sends it to the Siebel system. The response from the Siebel system is saved at the other FILE location defined as part of the orchestration.  
+- Drop a request message to insert a record into the **Account** business component. The request message will be similar to the one dropped for inserting a record in the Account business component in the topic [Run Operations on Business Components Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md). The orchestration consumes the message and sends it to the Siebel system. The response from the Siebel system is saved at the other FILE location defined as part of the orchestration.  
   
--   Drop a request message to insert a record into the **Contact** business component. The request message will be similar to the one dropped for inserting a record in the Account business component in the topic [Run Operations on Business Components Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md). The orchestration consumes the message and sends it to the Siebel system. The response from the Siebel system is saved at the other FILE location defined as part of the orchestration.  
+- Drop a request message to insert a record into the **Contact** business component. The request message will be similar to the one dropped for inserting a record in the Account business component in the topic [Run Operations on Business Components Using BizTalk Server and the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/run-operations-on-business-components-using-the-siebel-adapter-in-biztalk.md). The orchestration consumes the message and sends it to the Siebel system. The response from the Siebel system is saved at the other FILE location defined as part of the orchestration.  
   
--   Drop a request message to perform an ASSOCIATE operation on the **Account** business component. This will associate the parent and child business components based on the search expression and the name of the multi-valued field you specify in the input XML. Note that:  
+- Drop a request message to perform an ASSOCIATE operation on the **Account** business component. This will associate the parent and child business components based on the search expression and the name of the multi-valued field you specify in the input XML. Note that:  
   
-    -   The parent search expression in the ASSOCIATE operation must match a unique record in the parent table.  
+  - The parent search expression in the ASSOCIATE operation must match a unique record in the parent table.  
   
-    -   The child search expression in the ASSOCIATE operation must match a unique record in the child table.  
+  - The child search expression in the ASSOCIATE operation must match a unique record in the child table.  
   
-     For example, the request message to perform an Associate operation on the Account business component is:  
+    For example, the request message to perform an Associate operation on the Account business component is:  
   
-    ```  
-    <Associate xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation">  
-      <ViewMode>3</ViewMode>  
-      <ParentSearchExpr>[Name] LIKE "SampleName1"</ns0:ParentSearchExpr>   
-      <ParentMVGField>Bill To First Name</ns0:ParentMVGField>   
-      <ChildSearchExpr>[First Name] LIKE "SampleName2"</ns0:ChildSearchExpr>   
-    </Associate>  
-    ```  
+  ```  
+  <Associate xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation">  
+    <ViewMode>3</ViewMode>  
+    <ParentSearchExpr>[Name] LIKE "SampleName1"</ns0:ParentSearchExpr>   
+    <ParentMVGField>Bill To First Name</ns0:ParentMVGField>   
+    <ChildSearchExpr>[First Name] LIKE "SampleName2"</ns0:ChildSearchExpr>   
+  </Associate>  
+  ```  
   
-     The orchestration consumes the message and sends it to the Siebel system. The response from the Siebel system is saved at the other FILE location defined as part of the orchestration. For example, the response for the above request message is:  
+   The orchestration consumes the message and sends it to the Siebel system. The response from the Siebel system is saved at the other FILE location defined as part of the orchestration. For example, the response for the above request message is:  
   
-    ```  
-    <?xml version="1.0" encoding="utf-8"?>  
-    <AssociateResponse xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation">  
-      <AssociateResult>  
-        <ChildID xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects">1-8AO09</ChildID>  
-        <ParentID xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects">1-8ANZ5</ParentID>  
-      </AssociateResult>  
-    </AssociateResponse>  
-    ```  
+  ```  
+  <?xml version="1.0" encoding="utf-8"?>  
+  <AssociateResponse xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation">  
+    <AssociateResult>  
+      <ChildID xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects">1-8AO09</ChildID>  
+      <ParentID xmlns="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects">1-8ANZ5</ParentID>  
+    </AssociateResult>  
+  </AssociateResponse>  
+  ```  
   
--   Drop a request message to perform a QUERY_CONTACT operation on the **Account** business component. For example, the request message for a QUERY_CONTACT operation is:  
+- Drop a request message to perform a QUERY_CONTACT operation on the **Account** business component. For example, the request message for a QUERY_CONTACT operation is:  
   
-    ```  
-    <Query_Contact xmlns ="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation">  
-      <ViewMode>3</ViewMode>   
-      <ParentSearchExpr>[Name] LIKE "SampleName1"</ParentSearchExpr>   
-      <ParentMVGField>Bill To First Name</ParentMVGField>   
-      <ContactQueryInputRecord>  
-        <SearchExpr xmlns:ns1="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects">[Id] LIKE '*'</SearchExpr>   
-      </ContactQueryInputRecord>  
-    </Query_Contact>  
-    ```  
+  ```  
+  <Query_Contact xmlns ="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation">  
+    <ViewMode>3</ViewMode>   
+    <ParentSearchExpr>[Name] LIKE "SampleName1"</ParentSearchExpr>   
+    <ParentMVGField>Bill To First Name</ParentMVGField>   
+    <ContactQueryInputRecord>  
+      <SearchExpr xmlns:ns1="http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects">[Id] LIKE '*'</SearchExpr>   
+    </ContactQueryInputRecord>  
+  </Query_Contact>  
+  ```  
   
-     The orchestration consumes the message and sends it to the Siebel system. The response from the Siebel system is saved at the other FILE location defined as part of the orchestration.  
+   The orchestration consumes the message and sends it to the Siebel system. The response from the Siebel system is saved at the other FILE location defined as part of the orchestration.  
   
- See [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md) for more information about the schema for the request message.  
+  See [Message Schemas for Business Component Operations](../../adapters-and-accelerators/adapter-siebel/message-schemas-for-business-component-operations.md) for more information about the schema for the request message.  
   
 ## Possible Exceptions  
  For information about the exceptions you might encounter while performing an operation on business component with multivalued fields using [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [Exceptions and Error Handling](../../adapters-and-accelerators/adapter-siebel/exceptions-and-error-handling-with-the-siebel-adapter.md).  

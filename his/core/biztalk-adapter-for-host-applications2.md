@@ -21,17 +21,17 @@ The Microsoft BizTalk Adapter for Host Applications is based on technology in Tr
   
  A typical scenario involves the following steps:  
   
--   The IT professional installs the adapter.  
+- The IT professional installs the adapter.  
   
--   The IT professional configures the adapter and uses Transaction Integrator to define the Remote Environment.  
+- The IT professional configures the adapter and uses Transaction Integrator to define the Remote Environment.  
   
--   The developer creates the BizTalk application in Visual Studio. This involves defining the Remote Environment, building the TI assembly and schema, deploying, testing, and debugging the application, exporting the assemblies, and building the export package for use by BizTalk Server.  
+- The developer creates the BizTalk application in Visual Studio. This involves defining the Remote Environment, building the TI assembly and schema, deploying, testing, and debugging the application, exporting the assemblies, and building the export package for use by BizTalk Server.  
   
--   Finally, the IT professional imports the developer’s application into BizTalk Server, updates any necessary information, and deploys the application.  
+- Finally, the IT professional imports the developer’s application into BizTalk Server, updates any necessary information, and deploys the application.  
   
- Tracing tools are available to debug your deployed application and improve its performance.  
+  Tracing tools are available to debug your deployed application and improve its performance.  
   
- Some knowledge of Transaction Integrator is necessary. For an overview of TI basics, see the [Transaction Integrator User's Guide](../core/transaction-integrator-user-s-guide2.md).  
+  Some knowledge of Transaction Integrator is necessary. For an overview of TI basics, see the [Transaction Integrator User's Guide](../core/transaction-integrator-user-s-guide2.md).  
   
 ## In This Section  
  [How to Configure SSO for the Host Application Adapter](../core/how-to-configure-sso-for-the-host-application-adapter2.md)  

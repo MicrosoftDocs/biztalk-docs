@@ -22,19 +22,19 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Double Action Tutorial
-This tutorial covers an end-to-end solution using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The tutorial details the steps that you have to follow to implement a RosettaNet-compliant solution by creating a trading partner scenario between two fictitious companies: Contoso, the supplier organization, and Fabrikam, the buyer organization.  
+This tutorial covers an end-to-end solution using Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The tutorial details the steps that you have to follow to implement a RosettaNet-compliant solution by creating a trading partner scenario between two fictitious companies: Contoso, the supplier organization, and Fabrikam, the buyer organization.  
   
  This tutorial uses four different Partner Interface Processes (PIPs):  
   
--   0C2 - Asynchronous Test Request  
+- 0C2 - Asynchronous Test Request  
   
--   0C4 - Synchronous Test Query  
+- 0C4 - Synchronous Test Query  
   
--   3A2 - Request Price and Availability  
+- 3A2 - Request Price and Availability  
   
--   3A4 - Request Purchase Order  
+- 3A4 - Request Purchase Order  
   
- This tutorial addresses several distinct areas of a RosettaNet-based solution, including working with the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console, creating line-of-business (LOB) applications, and creating custom orchestrations that you can use to integrate Enterprise Resource Planning (ERP) systems.  
+  This tutorial addresses several distinct areas of a RosettaNet-based solution, including working with the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Management Console, creating line-of-business (LOB) applications, and creating custom orchestrations that you can use to integrate Enterprise Resource Planning (ERP) systems.  
   
 ## In This Section  
   

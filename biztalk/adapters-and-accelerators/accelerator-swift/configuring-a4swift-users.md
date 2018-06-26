@@ -23,19 +23,19 @@ During installation of [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes
   
  A4SWIFT creates the following document folders during installation:  
   
--   Outbox document library  
+- Outbox document library  
   
--   Templates document library  
+- Templates document library  
   
--   Unparsed document library  
+- Unparsed document library  
   
--   New SWIFT MT Message document library  
+- New SWIFT MT Message document library  
   
--   New SWIFT MX Messages document library  
+- New SWIFT MX Messages document library  
   
- For each department created, the A4SWIFT Administrator must manually set up site groups for the corresponding departments and A4SWIFT defined roles. Each department/role has an inbox created automatically by the Profile Web Client(PWC).  
+  For each department created, the A4SWIFT Administrator must manually set up site groups for the corresponding departments and A4SWIFT defined roles. Each department/role has an inbox created automatically by the Profile Web Client(PWC).  
   
- After the A4SWIFT setup configuration program is completed, the A4SWIFT Administrator configures workflows for each department in the organization. During Message Repair and New Submission configuration, through the Profile Web Client, corresponding inboxes are created for each department/role combination. For example, during PWC configuration an A4SWIFT Administrator creates a department named Payments and then assigns the roles of Creators, Repairers, and Approvers to a department called Payments. Document libraries on the MRSR site are created with the inbox names as shown in the examples in the following table:  
+  After the A4SWIFT setup configuration program is completed, the A4SWIFT Administrator configures workflows for each department in the organization. During Message Repair and New Submission configuration, through the Profile Web Client, corresponding inboxes are created for each department/role combination. For example, during PWC configuration an A4SWIFT Administrator creates a department named Payments and then assigns the roles of Creators, Repairers, and Approvers to a department called Payments. Document libraries on the MRSR site are created with the inbox names as shown in the examples in the following table:  
   
 |Department name|Role name|Inbox name|  
 |---------------------|---------------|----------------|  

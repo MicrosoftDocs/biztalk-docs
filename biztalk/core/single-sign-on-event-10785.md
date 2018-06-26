@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10785
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10785|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_DB_ACCESS|  
-|Message Text|An error occurred while attempting to access the SSO database.|  
+|                 |                                                                |
+|-----------------|----------------------------------------------------------------|
+|  Product Name   |                   Enterprise Single Sign-On                    |
+| Product Version |   [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]   |
+|    Event ID     |                             10785                              |
+|  Event Source   |                             ENTSSO                             |
+|    Component    |                              N/A                               |
+|  Symbolic Name  |                       ENTSSO_E_DB_ACCESS                       |
+|  Message Text   | An error occurred while attempting to access the SSO database. |
   
 ## Explanation  
  The ENTSSO database may be offline.  

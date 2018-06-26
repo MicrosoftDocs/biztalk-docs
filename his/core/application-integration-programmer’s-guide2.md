@@ -22,25 +22,25 @@ This section of the Microsoft Host Integration Server Software Development Kit (
   
  To use this guide effectively, you should be familiar with the following:  
   
--   Host Integration Server  
+- Host Integration Server  
   
--   Microsoft Windows operating systems  
+- Microsoft Windows operating systems  
   
--   Message Queuing  
+- Message Queuing  
   
--   IBM CICS or IMS transaction processing systems, or i5/OS servers  
+- IBM CICS or IMS transaction processing systems, or i5/OS servers  
   
--   BizTalk Server  
+- BizTalk Server  
   
- Depending on the application programming interface and development tools used, you should be familiar with the following:  
+  Depending on the application programming interface and development tools used, you should be familiar with the following:  
   
--   Microsoft .NET Framework  
+- Microsoft .NET Framework  
   
--   ASP.NET  
+- ASP.NET  
   
- For API references and other technical information for the Transaction Integrator, see the Programmer's Reference section of the SDK.  
+  For API references and other technical information for the Transaction Integrator, see the Programmer's Reference section of the SDK.  
   
- For information about how to tune your system to get the best possible performance from Transaction Integration, see the [Transaction Integrator Performance Guide](./transaction-integrator-performance-guide1.md) in the Operations section.  
+  For information about how to tune your system to get the best possible performance from Transaction Integration, see the [Transaction Integrator Performance Guide](./transaction-integrator-performance-guide1.md) in the Operations section.  
   
 ## In This Section  
  This section contains the following topics  

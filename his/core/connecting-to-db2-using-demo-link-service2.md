@@ -16,11 +16,11 @@ manager: "anneta"
 # Connecting to DB2 using Demo Link Service
 Host Integration Server includes two off-line demo link connections that enable you to learn how to configure data integration connections to IBM DB2 databases and IBM host file system servers. The demo link connections are based on SNA APPC sessions. The following two topics guide you through using the SNA Manager, Data Access Tool, and Data Source Wizard to sample connectivity to IBM DB2 and host files.  
   
--   [Configuring a Demo SNA Connection for DB2](../core/connecting-to-db2-using-demo-link-service2.md#sna)  
+- [Configuring a Demo SNA Connection for DB2](../core/connecting-to-db2-using-demo-link-service2.md#sna)  
   
--   [Configuring a Demo Data Source for DB2](../core/connecting-to-db2-using-demo-link-service2.md#ds)  
+- [Configuring a Demo Data Source for DB2](../core/connecting-to-db2-using-demo-link-service2.md#ds)  
   
- In these walkthroughs, you will use SNA Manager to configure a demo link service, connection, and logical units to simulate a connection to IBM DB2 for i5/OS. You will use the Data Access Tool and Data Source Wizard to configure and test a data source definition for DB2.  
+  In these walkthroughs, you will use SNA Manager to configure a demo link service, connection, and logical units to simulate a connection to IBM DB2 for i5/OS. You will use the Data Access Tool and Data Source Wizard to configure and test a data source definition for DB2.  
   
 ##  <a name="sna"></a> Configuring a Demo SNA Connection for DB2  
   
@@ -115,21 +115,21 @@ Host Integration Server includes two off-line demo link connections that enable 
   
 ##  <a name="ds"></a> Configuring a Demo Data Source for DB2  
   
-1.  Click **Start**, **Programs**, **Host Integration Server**, and then click **Data Access Tool**. The Data Access Tool appears.  
+1. Click **Start**, **Programs**, **Host Integration Server**, and then click **Data Access Tool**. The Data Access Tool appears.  
   
-2.  Click **File**, and then click **New Data Source**.  The Data Source Wizard appears.  
+2. Click **File**, and then click **New Data Source**.  The Data Source Wizard appears.  
   
-3.  In the **Welcome** dialog box, click **Next**.  The Data Source dialog appears.  
+3. In the **Welcome** dialog box, click **Next**.  The Data Source dialog appears.  
   
-4.  In the **Data source platform** list, click **DB2/400**. For **Network Transport Library**, select SNA **LU6.2 (APPC)**, and then click **Next**.  The APPC Network Connection dialog appears.  
+4. In the **Data source platform** list, click **DB2/400**. For **Network Transport Library**, select SNA **LU6.2 (APPC)**, and then click **Next**.  The APPC Network Connection dialog appears.  
   
-5.  In the **LOCAL LU alias** list, select **LOCAL**. In the **Remote LU alias** list, select **DRDADEMO**. In the **Mode name** list, select **QPCSUPP**, and then click **Next**.  The DB2 Database dialog appears.  
+5. In the **LOCAL LU alias** list, select **LOCAL**. In the **Remote LU alias** list, select **DRDADEMO**. In the **Mode name** list, select **QPCSUPP**, and then click **Next**.  The DB2 Database dialog appears.  
   
-6.  In the **Initial Catalog** field, type `OLYMPIA`. In the **Package collection** field type, `PUBS`. In the Default schema field, type `PUBS`, and then click **Next**.  The Locale dialog appears.  
+6. In the **Initial Catalog** field, type `OLYMPIA`. In the **Package collection** field type, `PUBS`. In the Default schema field, type `PUBS`, and then click **Next**.  The Locale dialog appears.  
   
-7.  In the **Host CCSID** list, verify that **EBCDIC – U.S./Canada [37]** is selected. In the **PC code page** list, verify that **ANSI – Latin I [1252]** is selected, and then click **Next**.  The Security dialog appears.  
+7. In the **Host CCSID** list, verify that **EBCDIC – U.S./Canada [37]** is selected. In the **PC code page** list, verify that **ANSI – Latin I [1252]** is selected, and then click **Next**.  The Security dialog appears.  
   
-8.  In the **Security method** list, verify that **Interactive sign-on** is selected. In the **User name** field, type **SNA**. In the **Password** and **Password confirmation** fields, type **SNA**, and then click **Save password**.  The Data Access Wizard displays a Warning dialog.  
+8. In the **Security method** list, verify that **Interactive sign-on** is selected. In the **User name** field, type **SNA**. In the **Password** and **Password confirmation** fields, type **SNA**, and then click **Save password**.  The Data Access Wizard displays a Warning dialog.  
   
 9. In the **Warning** dialog box, click **Yes**, and then in the **Security** dialog click **Next**.  The Advanced Options dialog appears.  
   
@@ -143,7 +143,7 @@ Host Integration Server includes two off-line demo link connections that enable 
   
 14. Click **Finish**.  The Data Access Tool displays the DRDADEMO connection in the DB2 OLE DB UDLs folder.  
   
- The Data Integration Samples in the SDK include a pre-configured UDL file for use with the DRDADEMO demo link service and connection. See C:\Program Files\\Host Integration Server\SDK\Samples\DataIntegration\DRDADEMO.UDL.  
+    The Data Integration Samples in the SDK include a pre-configured UDL file for use with the DRDADEMO demo link service and connection. See C:\Program Files\\Host Integration Server\SDK\Samples\DataIntegration\DRDADEMO.UDL.  
   
 ## See Also  
  [Data Integration (Configuration)](../core/data-integration-configuration-2.md)   

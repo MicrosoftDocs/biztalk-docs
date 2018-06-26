@@ -123,21 +123,21 @@ SECEXIT       ===>                          Name of Security Exit
 ## IMS to TCP/IP Configuration  
  An IMS MPP is started specifying the program name IMS IBM supplied Listener program (EZAIMSLN). This Listener reads a configuration file identified by the DD statement **LSTNCFG**. This configuration data set contains one or more the following startup parameter sets (one set for each transaction defined for least one CR):  
   
--   **TCPIP** statement  
+- **TCPIP** statement  
   
--   **LISTENER** statement  
+- **LISTENER** statement  
   
--   **TRANSACTION** statement  
+- **TRANSACTION** statement  
   
- The **TCPIP** statement is used to identify the job name for the TCP/IP address space that will manage connection for this listener.  
+  The **TCPIP** statement is used to identify the job name for the TCP/IP address space that will manage connection for this listener.  
   
- The **LISTENER** statement is used to specify the port number that this Listener will be using. This statement also specifies other port-related parameters such as backlog, time out values, and so on.  
+  The **LISTENER** statement is used to specify the port number that this Listener will be using. This statement also specifies other port-related parameters such as backlog, time out values, and so on.  
   
- The **TRANSACTION** statement defines a list of transaction that this Listener can start. In addition, this statement defines whether the implicit or explicit connection mode is used.  
+  The **TRANSACTION** statement defines a list of transaction that this Listener can start. In addition, this statement defines whether the implicit or explicit connection mode is used.  
   
- The Listener uses these three parameter statements to inform the Listener which TCP/IP port to use and which transactions can be accessed through TCP/IP.  
+  The Listener uses these three parameter statements to inform the Listener which TCP/IP port to use and which transactions can be accessed through TCP/IP.  
   
- Here is a sample of an IMS-to-TCP/IP host definition:  
+  Here is a sample of an IMS-to-TCP/IP host definition:  
   
 ```  
 TCPIP      ADDRSPC=WNWTCP31  

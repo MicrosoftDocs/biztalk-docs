@@ -26,11 +26,11 @@ Administrators and developers can use the BAM Management utility to retrieve the
   
 ### To retrieve the BAM configuration file using the BAM Management utility  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
+2. Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking.  
   
-3.  Type the following at the command line prompt: **bm get-config -FileName:\<output file\>**, where \<*output file*\> is replaced by the name of your BAM configuration file. Press **ENTER**.  
+3. Type the following at the command line prompt: **bm get-config -FileName:\<output file\>**, where \<*output file*\> is replaced by the name of your BAM configuration file. Press **ENTER**.  
   
 ## See Also  
  [BAM Management Utility](../core/bam-management-utility.md)

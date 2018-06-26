@@ -30,9 +30,9 @@ In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserverno
   
 ### To save a map  
   
-1.  In Solution Explorer, select the map you want to save.  
+1. In Solution Explorer, select the map you want to save.  
   
-2.  On the **File** menu, click **Save *\<Name of Map\>***.  
+2. On the **File** menu, click **Save *\<Name of Map\>***.  
   
 ### To save a map to a new location  
   
@@ -58,12 +58,12 @@ In Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserverno
   
 #### To close a map  
   
-1.  In Solution Explorer, select the map you want to close.  
+1. In Solution Explorer, select the map you want to close.  
   
-2.  On the **File** menu, click **Close**.  
+2. On the **File** menu, click **Close**.  
   
-    > [!NOTE]
-    >  You can also click the close icon ([**x**]) in the upper-right corner of the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] editing window.  
+   > [!NOTE]
+   >  You can also click the close icon ([**x**]) in the upper-right corner of the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] editing window.  
   
 ## See Also  
  [Managing Maps Within Projects](../core/managing-maps-within-projects.md)

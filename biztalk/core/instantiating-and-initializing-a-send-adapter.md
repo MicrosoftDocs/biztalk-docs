@@ -24,40 +24,40 @@ By default, send adapters are not instantiated until the first message is delive
 ## How a Send Adapter Is Initialized  
  To enable configuration and binding to the transport proxy, adapters must implement the following configuration interfaces:  
   
--   **IBTTransport**  
+- **IBTTransport**  
   
--   **IBaseComponent**  
+- **IBaseComponent**  
   
--   **IBTTransportControl**  
+- **IBTTransportControl**  
   
--   **IPersistPropertyBag**  
+- **IPersistPropertyBag**  
   
- The following steps describe the sequence of events involved in initializing a send adapter:  
+  The following steps describe the sequence of events involved in initializing a send adapter:  
   
-1.  When the Messaging Engine initializes a send adapter, it first performs a **QueryInterface** for **IPersistPropertyBag**, which is an optional interface. If the adapter implements the interface, the handler configuration is passed to the adapter in the **Load** method call. The adapter uses this information to ensure it is configured correctly.  
+1. When the Messaging Engine initializes a send adapter, it first performs a **QueryInterface** for **IPersistPropertyBag**, which is an optional interface. If the adapter implements the interface, the handler configuration is passed to the adapter in the **Load** method call. The adapter uses this information to ensure it is configured correctly.  
   
-2.  The Messaging Engine performs a **QueryInterface** for **IBTTransportControl**, which is a mandatory interface.  
+2. The Messaging Engine performs a **QueryInterface** for **IBTTransportControl**, which is a mandatory interface.  
   
-3.  The engine calls **IBTTransportControl.Initialize**, passing in the transport proxy for the adapter.  
+3. The engine calls **IBTTransportControl.Initialize**, passing in the transport proxy for the adapter.  
   
-4.  The Messaging Engine performs a **QueryInterface** for **IBTTransmitter**.  
+4. The Messaging Engine performs a **QueryInterface** for **IBTTransmitter**.  
   
-     If the Messaging Engine discovers this interface, the adapter is treated as a batch-unaware transmitter.  
+    If the Messaging Engine discovers this interface, the adapter is treated as a batch-unaware transmitter.  
   
-     If the Messaging Engine does not discover this interface, the Messaging Engine performs a **QueryInterface** for **IBTBatchTransmitter**, discovery of which indicates that the adapter is a batch-aware transmitter.  
+    If the Messaging Engine does not discover this interface, the Messaging Engine performs a **QueryInterface** for **IBTBatchTransmitter**, discovery of which indicates that the adapter is a batch-aware transmitter.  
   
-     If the Messaging Engine discovers neither of these interfaces, an error condition results, causing the initialization to fail. The initialization fails if any mandatory interfaces are not discovered.  
+    If the Messaging Engine discovers neither of these interfaces, an error condition results, causing the initialization to fail. The initialization fails if any mandatory interfaces are not discovered.  
   
- The following diagram illustrates this sequence of API calls; the interfaces in blue are implemented by the adapter.  
+   The following diagram illustrates this sequence of API calls; the interfaces in blue are implemented by the adapter.  
   
- ![](../core/media/transmit-adapter-init.gif "Transmit_adapter_init")  
+   ![](../core/media/transmit-adapter-init.gif "Transmit_adapter_init")  
   
- The adapter can send messages as soon as it is initialized and configured.  
+   The adapter can send messages as soon as it is initialized and configured.  
   
- The following figure shows the object interactions involved in initializing a send adapter.  
+   The following figure shows the object interactions involved in initializing a send adapter.  
   
- ![](../core/media/ebiz-sdk-devadapter10.gif "ebiz_sdk_devadapter10")  
-Workflow for initializing a send adapter  
+   ![](../core/media/ebiz-sdk-devadapter10.gif "ebiz_sdk_devadapter10")  
+   Workflow for initializing a send adapter  
   
 > [!NOTE]
 >  Adapters should not block the Messaging Engine in calls such as **IBTTransportControl.Initialize** and **IPersistPropertyBag.Load**. Performing excessive processing in these calls affects service startup time.

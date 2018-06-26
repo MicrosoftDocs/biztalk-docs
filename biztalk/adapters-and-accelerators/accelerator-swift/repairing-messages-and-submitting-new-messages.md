@@ -23,7 +23,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Repairing Messages and Submitting New Messages
-[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Message Repair and New Submission enables you to repair a message that has failed XML or Business Rules Engine validation. The repair process includes verification and approval steps that ensure the accuracy and appropriateness of the message repair. This process is performed using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)][!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] forms within MRSR site.  
+[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Message Repair and New Submission enables you to repair a message that has failed XML or Business Rules Engine validation. The repair process includes verification and approval steps that ensure the accuracy and appropriateness of the message repair. This process is performed using Microsoft [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)][!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] forms within MRSR site.  
   
  [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] also enables you to submit a new message using this process. A creator submits the message, and the workflow can include a repairer, a verifier, and an approver performing the same tasks as in message repair.  
   

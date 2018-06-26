@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 11025
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|11025|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|SSO_WARN_INVALID_APP_TICKET_TIMEOUT|  
-|Message Text|The ticket time-out value is not valid for application update.%r<br /><br /> Application Name: %1%r<br /><br /> Ticket time-out: %2 minutes%r<br /><br /> Maximum ticket time-out: %3 minutes%r<br /><br /> Error Code: %4|  
+|                 |                                                                                                                                                                                                                            |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                                                 Enterprise Single Sign-On                                                                                                  |
+| Product Version |                                                                                 [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                                 |
+|    Event ID     |                                                                                                           11025                                                                                                            |
+|  Event Source   |                                                                                                           ENTSSO                                                                                                           |
+|    Component    |                                                                                                            N/A                                                                                                             |
+|  Symbolic Name  |                                                                                            SSO_WARN_INVALID_APP_TICKET_TIMEOUT                                                                                             |
+|  Message Text   | The ticket time-out value is not valid for application update.%r<br /><br /> Application Name: %1%r<br /><br /> Ticket time-out: %2 minutes%r<br /><br /> Maximum ticket time-out: %3 minutes%r<br /><br /> Error Code: %4 |
   
 ## Explanation  
  The ticket time-out value is not valid.  

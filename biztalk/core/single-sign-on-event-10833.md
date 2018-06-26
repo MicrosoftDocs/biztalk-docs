@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10833
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10833|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_SSO_DATABASE_NOT_CONFIGURED|  
-|Message Text|The specified SSO database is not configured.|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  Product Name   |                 Enterprise Single Sign-On                  |
+| Product Version | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    Event ID     |                           10833                            |
+|  Event Source   |                           ENTSSO                           |
+|    Component    |                            N/A                             |
+|  Symbolic Name  |            ENTSSO_E_SSO_DATABASE_NOT_CONFIGURED            |
+|  Message Text   |       The specified SSO database is not configured.        |
   
 ## Explanation  
  The system cannot find the SSO database you have specified.  

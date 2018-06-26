@@ -17,21 +17,21 @@ manager: "anneta"
 # Send Adapter Operations
 Send adapters can perform the following operations:  
   
--   **Resubmit: void Resubmit(IBaseMessage msg, DateTime timeStamp).** After a transmission failure occurs on a message, an adapter resubmits it when appropriate. This is called on a per-message basis. If a batch of messages was submitted unsuccessfully, the adapter must determine the messages causing the failure, and resubmit the ones that did not cause the batch to fail in separate calls to **Resubmit**. There is information at the end of this topic about how to preserve message context property values when you call **Resubmit**.  
+- **Resubmit: void Resubmit(IBaseMessage msg, DateTime timeStamp).** After a transmission failure occurs on a message, an adapter resubmits it when appropriate. This is called on a per-message basis. If a batch of messages was submitted unsuccessfully, the adapter must determine the messages causing the failure, and resubmit the ones that did not cause the batch to fail in separate calls to **Resubmit**. There is information at the end of this topic about how to preserve message context property values when you call **Resubmit**.  
   
--   **Move to Next Transport: void MoveToNextTransport(IBaseMessage msg).** If a message fails during a send operation and its retry attempts have been exhausted, the adapter can send the message to the next configured transport for retransmission.  
+- **Move to Next Transport: void MoveToNextTransport(IBaseMessage msg).** If a message fails during a send operation and its retry attempts have been exhausted, the adapter can send the message to the next configured transport for retransmission.  
   
--   **Suspend: void MoveToSuspendQ(IBaseMessage msg).** The adapter moves a failed send message to the Suspended queue if no additional backup transport is configured. There is information at the end of this topic about how to preserve message context property values when you call **Suspend**.  
+- **Suspend: void MoveToSuspendQ(IBaseMessage msg).** The adapter moves a failed send message to the Suspended queue if no additional backup transport is configured. There is information at the end of this topic about how to preserve message context property values when you call **Suspend**.  
   
--   **Delete: void DeleteMessage(IBaseMessage msg).** The adapter deletes a message after being notified by BizTalk Server of its successful transmission. Deleting a message tells BizTalk Server that the adapter is finished with the message. Generally the **SubmitResponse** operation is done in the same batch as its associated **Delete** operation.  
+- **Delete: void DeleteMessage(IBaseMessage msg).** The adapter deletes a message after being notified by BizTalk Server of its successful transmission. Deleting a message tells BizTalk Server that the adapter is finished with the message. Generally the **SubmitResponse** operation is done in the same batch as its associated **Delete** operation.  
   
--   **Submit Response: void SubmitResponseMessage(IBaseMessage solicitMsgSent, IBaseMessage responseMsgToSubmit).** The adapter submits a response to the batch to be sent back to BizTalk Server. This operation includes the original message in the call along with the response so that BizTalk Server can correlate them.  
+- **Submit Response: void SubmitResponseMessage(IBaseMessage solicitMsgSent, IBaseMessage responseMsgToSubmit).** The adapter submits a response to the batch to be sent back to BizTalk Server. This operation includes the original message in the call along with the response so that BizTalk Server can correlate them.  
   
--   **Cancel Response: void CancelResponseMessages(string correlationToken).** If the sending of a response message needs to be canceled before the batch is submitted, the **CancelResponseMessages** method is used, passing in the correlation token for the associated response message to be deleted.  
+- **Cancel Response: void CancelResponseMessages(string correlationToken).** If the sending of a response message needs to be canceled before the batch is submitted, the **CancelResponseMessages** method is used, passing in the correlation token for the associated response message to be deleted.  
   
- When calling **Resubmit** or **Suspend** on a message you may want to preserve the values of certain message context properties. You can do this by saving property values in XML format. When the message is resubmitted or suspended the corresponding properties remain available in the message context.  
+  When calling **Resubmit** or **Suspend** on a message you may want to preserve the values of certain message context properties. You can do this by saving property values in XML format. When the message is resubmitted or suspended the corresponding properties remain available in the message context.  
   
- The following XML string describes the format in which the information is stored:  
+  The following XML string describes the format in which the information is stored:  
   
 ```  
 <PropertiesToUpdate>  

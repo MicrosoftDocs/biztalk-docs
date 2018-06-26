@@ -23,19 +23,19 @@ Readers of [Understanding BizTalk Server](../core/understanding-biztalk-server.m
 ## Prerequisites for Developers  
  A developer of BizTalk solutions must be at least moderately experienced with the use of  
   
--   Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], and the development of .NET solutions  
+- Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], and the development of .NET solutions  
   
--   Programming with the .NET Framework  
+- Programming with the .NET Framework  
   
--   Extensible Markup Language (XML)  
+- Extensible Markup Language (XML)  
   
--   Extensible Stylesheet Language Transformations (XSLT)  
+- Extensible Stylesheet Language Transformations (XSLT)  
   
--   XML Schema Definition Language (XSD)  
+- XML Schema Definition Language (XSD)  
 
--   REST Services, JSON, Swagger
+- REST Services, JSON, Swagger
   
--   Web Service use and development  
+- Web Service use and development  
   
 ## Prerequisites for IT Professionals  
  The following table shows the areas of proficiency expected for a system administrator or IT professional.  

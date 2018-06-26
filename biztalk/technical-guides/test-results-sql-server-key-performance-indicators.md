@@ -29,18 +29,18 @@ This topic summarizes SQL Server Key Performance Indicators (KPI) observed durin
   
  Follow these steps to increase performance of SQL Server running on a Hyper-V virtual machine as measured by the **\SQL Server:SQL Statistics\Batch Requests/sec** performance monitor counter:  
   
-1.  **Allocate additional fixed VHD disks with dedicated virtual controllers and channels –** Allocation of additional fixed VHD disks using dedicated virtual controllers and channels will increase disk throughput versus using a single VHD disk.  
+1. **Allocate additional fixed VHD disks with dedicated virtual controllers and channels –** Allocation of additional fixed VHD disks using dedicated virtual controllers and channels will increase disk throughput versus using a single VHD disk.  
   
-2.  **Optimize Network Performance –** Follow steps outlined in the “Optimize Network Performance” section of [Checklist: Optimizing Performance on Hyper-V](~/technical-guides/checklist-optimizing-performance-on-hyper-v.md). When running multiple Hyper-V virtual machines on the same Hyper-V host it is of particular importance to follow recommendations in the “Configure Hyper-V Virtual Machines that are Running on the same Hyper-V host computer to use a Private Virtual Network” section of [Network Optimizations](../technical-guides/network-optimizations.md).  
+2. **Optimize Network Performance –** Follow steps outlined in the “Optimize Network Performance” section of [Checklist: Optimizing Performance on Hyper-V](~/technical-guides/checklist-optimizing-performance-on-hyper-v.md). When running multiple Hyper-V virtual machines on the same Hyper-V host it is of particular importance to follow recommendations in the “Configure Hyper-V Virtual Machines that are Running on the same Hyper-V host computer to use a Private Virtual Network” section of [Network Optimizations](../technical-guides/network-optimizations.md).  
   
- Because of the stateless nature of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], additional [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] virtual machines can be easily added to the environment as required to provide scale out and increase the overall performance of the system.  
+   Because of the stateless nature of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], additional [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] virtual machines can be easily added to the environment as required to provide scale out and increase the overall performance of the system.  
   
- The graphic below illustrates the performance of SQL Server on the various test platforms:  
+   The graphic below illustrates the performance of SQL Server on the various test platforms:  
   
- ![SQL Key Performance Indicators](../technical-guides/media/sqlkpi.gif "SQLKPI")  
-SQL Key Performance Indicators  
+   ![SQL Key Performance Indicators](../technical-guides/media/sqlkpi.gif "SQLKPI")  
+   SQL Key Performance Indicators  
   
- The table below illustrates the relative performance of the collected KPI’s for each configuration. Each result set is calculated as a percentage of the Baseline configuration KPI  
+   The table below illustrates the relative performance of the collected KPI’s for each configuration. Each result set is calculated as a percentage of the Baseline configuration KPI  
   
 |KPI|Virtual BizTalk/Physical SQL|Virtual BizTalk/Virtual SQL on separate Hosts|Virtual BizTalk/Virtual SQL on Consolidated environment|  
 |---------|-----------------------------------|----------------------------------------------------|--------------------------------------------------------------|  

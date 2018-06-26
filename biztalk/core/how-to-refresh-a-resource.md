@@ -28,17 +28,17 @@ This topic describes how to use the BizTalk Server Administration console to ref
   
 ### To refresh a resource artifact  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the resource artifact to refresh, and then expand the application containing the artifact.  
+2. In the console tree, expand **BizTalk Server Administration**, expand the BizTalk group containing the resource artifact to refresh, and then expand the application containing the artifact.  
   
-3.  Click the **Resources** folder, right-click the file to refresh, and then click **Modify**.  
+3. Click the **Resources** folder, right-click the file to refresh, and then click **Modify**.  
   
-4.  In the **Modify Resources** dialog box, select the file to refresh, and then click **Refresh**.  
+4. In the **Modify Resources** dialog box, select the file to refresh, and then click **Refresh**.  
   
-5.  Browse to the updated file with which you want to replace the current file, and then click **OK**.  
+5. Browse to the updated file with which you want to replace the current file, and then click **OK**.  
   
-     The current file is replaced with the updated file. In addition, the configuration, settings displayed on the **Options** tab of the **Modify Resources** dialog box are applied to the refreshed file. For more information about changing these settings, click **Help** in the dialog box.  
+    The current file is replaced with the updated file. In addition, the configuration, settings displayed on the **Options** tab of the **Modify Resources** dialog box are applied to the refreshed file. For more information about changing these settings, click **Help** in the dialog box.  
   
 ## See Also  
  [Managing Pre- and Post-processing Scripts](../core/managing-pre-and-post-processing-scripts.md)   

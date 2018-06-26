@@ -25,27 +25,27 @@ To deploy an adapter, you must install the adapter assembly into the global asse
   
 #### Configure a strong name assembly key file  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], load the adapter project file that needs a strong name.  
+1. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], load the adapter project file that needs a strong name.  
   
-2.  Open a [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt.  
+2. Open a [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt.  
   
-3.  At the command prompt, from the folder where you want to store the key file, type the following command, and then press ENTER:  
+3. At the command prompt, from the folder where you want to store the key file, type the following command, and then press ENTER:  
   
-     **sn /k**  *file_name* **.snk**  
+    **sn /k**  *file_name* **.snk**  
   
-     Example: **sn /k EchoAdapter.snk**  
+    Example: **sn /k EchoAdapter.snk**  
   
-     A confirmation message, **Key pair written to** \<*file_name*\>**.snk**`,` displays on the command line.  
+    A confirmation message, **Key pair written to** \<*file_name*\>**.snk**`,` displays on the command line.  
   
-4.  In Visual Studio Solution Explorer, right-click the project, and then click **Properties**.  
+4. In Visual Studio Solution Explorer, right-click the project, and then click **Properties**.  
   
-5.  In the left pane, expand **Common Properties**, and then click **Assembly**.  
+5. In the left pane, expand **Common Properties**, and then click **Assembly**.  
   
-6.  In the right pane, scroll to the **Strong name** box.  
+6. In the right pane, scroll to the **Strong name** box.  
   
-7.  In the **Strong name** box, click the field next to **Assembly Key File**, click the browse button (**…**), and then browse to the key file.  
+7. In the **Strong name** box, click the field next to **Assembly Key File**, click the browse button (**…**), and then browse to the key file.  
   
-8.  Click the key file, click **Open**, and then click **OK**.  
+8. Click the key file, click **Open**, and then click **OK**.  
   
 9. On the Visual Studio menu, click **Build**, and then choose **Build Solution**.  
   
@@ -58,23 +58,23 @@ To deploy an adapter, you must install the adapter assembly into the global asse
   
  Use Microsoft Intermediate Language (MSIL) Disassembler to disassemble the assembly:  
   
--   ILDASM thirdparty.dll /out:thirdparty.il  
+- ILDASM thirdparty.dll /out:thirdparty.il  
   
- Use MSIL Assembler to reassemble the assembly with a strong name:  
+  Use MSIL Assembler to reassemble the assembly with a strong name:  
   
--   ILASM thirdparty.il /dll /key=strongkeyfile.snk  
+- ILASM thirdparty.il /dll /key=strongkeyfile.snk  
   
 #### Install an assembly in the GAC  
   
-1.  Verify that your adapter has been signed.  
+1. Verify that your adapter has been signed.  
   
-2.  Open a [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt.  
+2. Open a [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] command prompt.  
   
-3.  Type the following command:  
+3. Type the following command:  
   
-     **gacutil.exe /if "\<** *path to the assembly .dll file* **\>"**  
+    **gacutil.exe /if "\<** *path to the assembly .dll file* **\>"**  
   
-4.  This installs the assembly to the GAC, overwriting any existing assembly that has the same assembly name.  
+4. This installs the assembly to the GAC, overwriting any existing assembly that has the same assembly name.  
   
 ## Register the Adapter in Machine.config  
  An adapter developed using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is surfaced as a WCF binding.  See Microsoft.ServiceModel.Channels.Common.AdapterBinding for more information.  The adapter binding is registered with WCF using \<bindingExtensions\> section within \<system.ServiceModel\> and the adapter transport binding element is registered with WCF using \<bindingElementExtensions\> section within \<system.ServiceModel\>.  
@@ -83,43 +83,43 @@ To deploy an adapter, you must install the adapter assembly into the global asse
   
 #### Manually edit the machine.config file  
   
-1.  Edit the machine.config file located in the Microsoft .NET configuration folder. To do this, click **Start**, click **Run**, type notepad \<Windows install path\>\Microsoft.NET\Framework\\<version\>\CONFIG\machine.config, and then click **OK**.  
+1. Edit the machine.config file located in the Microsoft .NET configuration folder. To do this, click **Start**, click **Run**, type notepad \<Windows install path\>\Microsoft.NET\Framework\\<version\>\CONFIG\machine.config, and then click **OK**.  
   
-2.  Update the machine.config file. If the file does not contain a system.serviceModel section, add the following section at the end of the configuration file but before the closing root tag.  
+2. Update the machine.config file. If the file does not contain a system.serviceModel section, add the following section at the end of the configuration file but before the closing root tag.  
   
-    > [!NOTE]
-    >  Replace "myAdapterBinding", version, culture and other assembly-specific information with your adapter's information.  
+   > [!NOTE]
+   >  Replace "myAdapterBinding", version, culture and other assembly-specific information with your adapter's information.  
   
-    ```  
-    <system.serviceModel>  
-      <extensions>  
-        <bindingExtensions>  
-            <add name="myAdapterBinding" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingCollectionElement,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken= fafafafafafafafa" />  
-        </bindingExtensions>      <bindingElementExtensions>  
-            <add name="echoAdapter" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingElementExtension,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=37f23b4adb996dcf" />  
-          </bindingElementExtensions>  
-      </extensions>  
-    </system.serviceModel>  
-    ```  
+   ```  
+   <system.serviceModel>  
+     <extensions>  
+       <bindingExtensions>  
+           <add name="myAdapterBinding" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingCollectionElement,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken= fafafafafafafafa" />  
+       </bindingExtensions>      <bindingElementExtensions>  
+           <add name="echoAdapter" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingElementExtension,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=37f23b4adb996dcf" />  
+         </bindingElementExtensions>  
+     </extensions>  
+   </system.serviceModel>  
+   ```  
   
-     - OR -  
+   - OR -  
   
      If your machine.config file contains a system.serviceModel section, determine which elements are missing and add them, replacing "MyAdapter" and other information with your adapter's information.  
   
-    ```  
-    <extensions>  
-      <bindingExtensions>  
-            <add name="myAdapterBinding" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingCollectionElement,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken= fafafafafafafafa" />  
-      </bindingExtensions>  
-          <bindingElementExtensions>  
-            <add name="echoAdapter" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingElementExtension,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=37f23b4adb996dcf" />  
-          </bindingElementExtensions>  
-    </extensions>  
-    ```  
+   ```  
+   <extensions>  
+     <bindingExtensions>  
+           <add name="myAdapterBinding" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingCollectionElement,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken= fafafafafafafafa" />  
+     </bindingExtensions>  
+         <bindingElementExtensions>  
+           <add name="echoAdapter" type="Microsoft.Adapters.Samples.Echo.EchoAdapterBindingElementExtension,EchoAdapter, Version=0.0.0.0, Culture=neutral, PublicKeyToken=37f23b4adb996dcf" />  
+         </bindingElementExtensions>  
+   </extensions>  
+   ```  
   
-3.  Close and save the machine.config file.  
+3. Close and save the machine.config file.  
   
- You can also use the [Service Configuration Editor](https://msdn.microsoft.com/library/ms732009.aspx) to modify the machine.config file.
+   You can also use the [Service Configuration Editor](https://msdn.microsoft.com/library/ms732009.aspx) to modify the machine.config file.
   
 #### Edit the machine.config file using the Service Configuration Editor  
   

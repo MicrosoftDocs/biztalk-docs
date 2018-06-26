@@ -61,7 +61,7 @@ manager: "anneta"
   
 ```  
   
- ***Example 1.** Microsoft static SQL for DB2 custom package XML file format v85.*  
+ <em>**Example 1.</em>* Microsoft static SQL for DB2 custom package XML file format v85.*  
   
 ### Packages Root Element  
  The **Packages** root element contains a set of nested elements consisting of **Options** and **Package**. There may be one **Options** element per document. There must be at least one **Package** element per document, as described in the following table.  
@@ -116,7 +116,7 @@ manager: "anneta"
 |DEFINER_REVERT_TO_REQUESTER|Instructs the DRDA Server to use the authorization of the creator of a function or stored procedure, otherwise use the DRDA requester authorization|  
 |DEFINER_REVERT_TO_OWNER|Instructs the DRDA Server to use the authorization of the creator of a function or stored procedure, otherwise use the package owner authorization|  
   
- ***Table 1.** PKGATHRUL values.*  
+ <em>**Table 1.</em>* PKGATHRUL values.*  
   
  *Package Default CCSIDs for a Column*  
   
@@ -149,7 +149,7 @@ manager: "anneta"
 |F2|Indicates statements are released during commit, but kept during rollback|  
 |F3|Indicates statements are kept during commit and rollback|  
   
- ***Table 2.** PRPSTTKP values.*  
+ <em>**Table 2.</em>* PRPSTTKP values.*  
   
  *RDB Release Option*  
   
@@ -188,7 +188,7 @@ manager: "anneta"
 |YMDPRDDATFMT|yy.mm.dd|Year Month Day with period separator|  
 |YMDSLHDATFMT|yy/mm/dd|Year Month Day with slash separator|  
   
- ***Table 3.** STTDATFMT values.*  
+ <em>**Table 3.</em>* STTDATFMT values.*  
   
  *Statement Decimal Delimiter*  
   
@@ -216,7 +216,7 @@ manager: "anneta"
 |HMSCMATIMFMT|hh,mm,ss|Hour Minute Second with comma separator|  
 |HMSPRDTIMFMT|hh.mm.ss|Hour Minute Second with period separator|  
   
- ***Table 4.** STTTIMFMT values.*  
+ <em>**Table 4.</em>* STTTIMFMT values.*  
   
 ### Package Element  
  The **Package** element contains a set of attributes, and one or more nested **Section** elements. There must be at least one **Section** element per **Package** element.  
@@ -238,7 +238,7 @@ manager: "anneta"
 RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN  
 ```  
   
- ***Example 2.** Fully-qualified package name with consistency token.*  
+ <em>**Example 2.</em>* Fully-qualified package name with consistency token.*  
   
  *Package Identifier*  
   
@@ -248,17 +248,17 @@ RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN
   
  The **Token** attribute corresponds to the DRDA PKGCNSTKN (RDB Package Consistency Token) and informs the DRDA Server what is the package consistency token. This **optional** element accepts a **string** value. There is no default value. IBM DB2 supports an 8-byte string.  
   
--   PKGCNSTKN (RDB Package Consistency Token)  
+- PKGCNSTKN (RDB Package Consistency Token)  
   
--   VRSNAM (Version Name)  
+- VRSNAM (Version Name)  
   
- *Version Name*  
+  *Version Name*  
   
- The **Version** attribute corresponds to the DRDA VRSNAM (Version Name) and informs the DRDA Server what is the package version name. This **optional** element accepts a **string** value. There default value is null. IBM DB2 supports a 254-byte string.  
+  The **Version** attribute corresponds to the DRDA VRSNAM (Version Name) and informs the DRDA Server what is the package version name. This **optional** element accepts a **string** value. There default value is null. IBM DB2 supports a 254-byte string.  
   
- *Package Isolation Level*  
+  *Package Isolation Level*  
   
- The **IsolationLevel** attribute instructs the DRDA Server to bind the package with the requested DRDA PKGISOLVL (Package Isolation Level). This **required** element accepts a **string** value. The default value is **ISOLVLCS**.  
+  The **IsolationLevel** attribute instructs the DRDA Server to bind the package with the requested DRDA PKGISOLVL (Package Isolation Level). This **required** element accepts a **string** value. The default value is **ISOLVLCS**.  
   
 |DDM|Description|  
 |---------|-----------------|  
@@ -268,7 +268,7 @@ RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN
 |ISOLVLCHG|DRDA ISOLVLCHG (Isolation Level Change)<br /><br /> ANSI READ UNCOMITTED<br /><br /> IBM DB2 UNCOMMITTED READ (UR)<br /><br /> IBM DB2 for i5/OS COMMIT(*UR)<br /><br /> Microsoft .NET Framework ReadUncommitted|  
 |ISOLVLNC|DRDA ISOLVLNC (Isolation Level No Commit)<br /><br /> IBM DB2 for i5/OS COMMIT(*NC)|  
   
- ***Table 5.** PKGISOLVL values.*  
+ <em>**Table 5.</em>* PKGISOLVL values.*  
   
  *Package Title*  
   
@@ -403,7 +403,7 @@ RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN
 |VarCharForBit||A variable-length binary string.|  
 |VarGraphic||A double-byte character string.|  
   
- ***Table 6.** Data type and length values.*  
+ <em>**Table 6.</em>* Data type and length values.*  
   
  *Coded Character Set Identifiers*  
   
@@ -512,7 +512,7 @@ RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN
 |DBCS|EBCDIC|837|NA|IBM EBCDIC - Simplified Chinese|  
 |DBCS|EBCDIC|4396|NA|IBM EBCDIC - Japan|  
   
- ***Table 7.** Coded Character Set Identifier values.*  
+ <em>**Table 7.</em>* Coded Character Set Identifier values.*  
   
 > [!NOTE]
 >  The Microsoft ADO.NET Data Provider for DB2 supports a set of Coded Character Set Identifiers. IBM DB2 database servers for z/OS and i5/OS typically use EBCDIC. For more information, see [SNA Internationalization Programmer's Reference](http://go.microsoft.com/fwlink/?LinkID=181017) (http://go.microsoft.com/fwlink/?LinkID=181017).

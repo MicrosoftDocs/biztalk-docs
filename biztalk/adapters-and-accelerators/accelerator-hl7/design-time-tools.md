@@ -25,7 +25,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Design Time Tools
-Developers working on [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) have the use of a set of design time tools built into BizTalk Server. These tools are integrated into [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server Help.  
+Developers working on Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) have the use of a set of design time tools built into BizTalk Server. These tools are integrated into [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see MicrosoftBizTalk Server Help.  
   
 ## BizTalk Editor  
  You use BizTalk Editor to manage HL7 XSD schemas. You can use the following supported schema templates (as XSD files) for your solution development:  
@@ -61,21 +61,21 @@ Developers working on [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizT
 ## Visual Studio Starter Project  
  [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] includes the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Starter Project, which you can use to quick-start your HL7 solution implementation. The Starter Project includes the following projects:  
   
--   **Empty**  [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]  **Project**. Does not include any schemas.  
+- **Empty**  [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]  **Project**. Does not include any schemas.  
   
--   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V2XCommon Project**. Includes header and acknowledgment schemas.  
+- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V2XCommon Project**. Includes header and acknowledgment schemas.  
   
--   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V21Common Project**. Includes common schemas for HL7 version 2.1.  
+- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V21Common Project**. Includes common schemas for HL7 version 2.1.  
   
--   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V22Common Project**. Includes common schemas for HL7 version 2.2.  
+- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V22Common Project**. Includes common schemas for HL7 version 2.2.  
   
--   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V23Common Project**. Includes common schemas for HL7 version 2.3.  
+- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V23Common Project**. Includes common schemas for HL7 version 2.3.  
   
--   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V231Common Project**. Includes common schemas for HL7 version 2.3.1.  
+- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V231Common Project**. Includes common schemas for HL7 version 2.3.1.  
   
--   [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V24Common Project**. Includes common schemas for HL7 version 2.4.  
+- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] **V24Common Project**. Includes common schemas for HL7 version 2.4.  
   
--   BTAHL7**V25Common Project**. Includes common schemas for HL7 version 2.5.  
+- BTAHL7**V25Common Project**. Includes common schemas for HL7 version 2.5.  
   
 ## See Also  
  [Tools and Features](../../adapters-and-accelerators/accelerator-hl7/tools-and-features.md)   

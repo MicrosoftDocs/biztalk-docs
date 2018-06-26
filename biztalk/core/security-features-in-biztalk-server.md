@@ -38,17 +38,17 @@ Microsoft® BizTalk® Server provides a standard gateway for sending and receivi
   
  **Message security**  
   
--   Authenticating the sender of a message. BizTalk Server can authenticate the sender of a message (either by using the certificate information or Windows integrated Security) in order to validate the identity of the sender of the message. For more information, see [Inbound Message Authentication](../core/inbound-message-authentication.md).  
+- Authenticating the sender of a message. BizTalk Server can authenticate the sender of a message (either by using the certificate information or Windows integrated Security) in order to validate the identity of the sender of the message. For more information, see [Inbound Message Authentication](../core/inbound-message-authentication.md).  
   
--   Authorizing of the receiver of a message. After BizTalk Server receives the message, BizTalk Server can determine what processes and users have permissions to receive the message. For more information, see [Authorizing the Receiver of a Message](../core/authorizing-the-receiver-of-a-message.md).  
+- Authorizing of the receiver of a message. After BizTalk Server receives the message, BizTalk Server can determine what processes and users have permissions to receive the message. For more information, see [Authorizing the Receiver of a Message](../core/authorizing-the-receiver-of-a-message.md).  
   
- **Runtime and configuration security**  
+  **Runtime and configuration security**  
   
--   **Access control and securing data.** BizTalk Server uses access control to ensure that BizTalk Server processes have appropriate limits and that access to business critical information is controlled. In other words, BizTalk Server ensures that users and accounts have the least user rights possible to enable them to do their tasks. For more information, see [Access Control and Data Security](../core/access-control-and-data-security.md).  
+- **Access control and securing data.** BizTalk Server uses access control to ensure that BizTalk Server processes have appropriate limits and that access to business critical information is controlled. In other words, BizTalk Server ensures that users and accounts have the least user rights possible to enable them to do their tasks. For more information, see [Access Control and Data Security](../core/access-control-and-data-security.md).  
   
- **Integrated security**  
+  **Integrated security**  
   
--   Enterprise Single Sign-On. BizTalk Server uses Enterprise Single Sign-On (SSO) to ensure that it encrypts the sensitive configuration information that the adapters, send, and receive locations require, thus helping to ensure that BizTalk Server stores and transmit this information in a secure manner. For more information, see [Using SSO](../core/using-sso.md).  
+- Enterprise Single Sign-On. BizTalk Server uses Enterprise Single Sign-On (SSO) to ensure that it encrypts the sensitive configuration information that the adapters, send, and receive locations require, thus helping to ensure that BizTalk Server stores and transmit this information in a secure manner. For more information, see [Using SSO](../core/using-sso.md).  
   
 ## See Also  
  [Designing the System Architectures for BizTalk Server](../core/designing-the-system-architectures-for-biztalk-server.md)   

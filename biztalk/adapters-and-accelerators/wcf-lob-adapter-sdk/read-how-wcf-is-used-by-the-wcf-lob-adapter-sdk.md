@@ -56,15 +56,15 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] exte
   
  At runtime, when the message flows into the adapter written using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], the adapter often must take a series of actions on the receive message. These actions include:  
   
--   Looking up metadata pertaining to the message  
+- Looking up metadata pertaining to the message  
   
--   Opening the message  
+- Opening the message  
   
--   Interpreting the message  
+- Interpreting the message  
   
--   Calling the appropriate functions in the line-of-business system  
+- Calling the appropriate functions in the line-of-business system  
   
- In the case of a [!INCLUDE[nextref_btsWinCommFoundation_md](../../includes/nextref-btswincommfoundation-md.md)] service, messages simply pass through without being resolved through metadata.  
+  In the case of a [!INCLUDE[nextref_btsWinCommFoundation_md](../../includes/nextref-btswincommfoundation-md.md)] service, messages simply pass through without being resolved through metadata.  
   
 ## See Also  
  [BizTalk Adapter for Oracle Database and the WCF LOB Adapter SDK](../adapter-oracle-database/architecture-overview-of-the-biztalk-adapter-for-oracle-database.md)

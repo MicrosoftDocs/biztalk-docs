@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Deleting Digests
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] stores digests for outgoing messages, so it can validate them against signal content. However, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not delete the digests after validation. Periodically, you may want to delete these digests to maintain system performance.  
+Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] stores digests for outgoing messages, so it can validate them against signal content. However, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not delete the digests after validation. Periodically, you may want to delete these digests to maintain system performance.  
   
 ## When and How to Delete Digests  
  Digests are stored in the MessageDigestHelper table of the BTARNDATA database. Periodically, you may want to delete these digests from the table by using a stored procedure that deletes only those digests that are older than a certain period. The MessageDigestHelper table contains a `TimeCreated` property that you can use for this purpose.  

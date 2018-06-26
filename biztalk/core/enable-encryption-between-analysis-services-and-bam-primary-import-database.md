@@ -26,27 +26,27 @@ Encryption is not enabled by default during an installation or upgrade of BAM. T
   
 ### To enable encryption between SQL Server Analysis Services and the BAM Primary Import Database  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].  
+2. Navigate to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].  
   
-3.  Type **bm get-config -FileName:\<output file\>**.  
+3. Type **bm get-config -FileName:\<output file\>**.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
-4.  Press **ENTER**.  
+4. Press **ENTER**.  
   
-5.  Open the file configuration file that you have exported in a text editor and change the value of the UseEncryption property flag to 1.  
+5. Open the file configuration file that you have exported in a text editor and change the value of the UseEncryption property flag to 1.  
   
-    -   Default Setting: \<Property Name="UseEncryption"\>0\</Property\>  
+   -   Default Setting: \<Property Name="UseEncryption"\>0\</Property\>  
   
-    -   New Setting: \<Property Name="UseEncryption"\>1\</Property\>  
+   -   New Setting: \<Property Name="UseEncryption"\>1\</Property\>  
   
-6.  Update the BAM configuration by typing **bm update-config -FileName:\<config file\>**.  
+6. Update the BAM configuration by typing **bm update-config -FileName:\<config file\>**.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
 ## See Also  
  [BAM Management Utility](../core/bam-management-utility.md)

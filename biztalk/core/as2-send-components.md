@@ -27,11 +27,11 @@ manager: "anneta"
   
  This pipeline generates and sends EDI messages over AS2. The pipeline consists of the following pipeline components:  
   
--   EDI Assembler  
+- EDI Assembler  
   
--   AS2 Encoder  
+- AS2 Encoder  
   
- This pipeline is not used to generate and send MDNs over AS2, because the MDN does not need to be processed by the EDI Assembler. Use the AS2SendPipeline to send MDNs.  
+  This pipeline is not used to generate and send MDNs over AS2, because the MDN does not need to be processed by the EDI Assembler. Use the AS2SendPipeline to send MDNs.  
   
 > [!NOTE]
 >  Running the AS2EDISend pipeline from an orchestration is not supported.  
@@ -40,9 +40,9 @@ manager: "anneta"
   
  This pipeline sends messages over AS2 when the messages are not encoded in EDI. It also sends MDNs over AS2. The pipeline consists of the following pipeline components:  
   
--   AS2 Encoder.  
+- AS2 Encoder.  
   
- If the messages to be sent over AS2 are neither EDI nor XML messages, you can create a customized AS2Send pipeline to handle these messages. This pipeline must have a customized assembler to convert the intermediate XML in BizTalk Server into the other format before encoding the message in EDIINT/AS2.  
+  If the messages to be sent over AS2 are neither EDI nor XML messages, you can create a customized AS2Send pipeline to handle these messages. This pipeline must have a customized assembler to convert the intermediate XML in BizTalk Server into the other format before encoding the message in EDIINT/AS2.  
   
 > [!NOTE]
 >  Running the AS2Send pipeline from an orchestration is not supported.  

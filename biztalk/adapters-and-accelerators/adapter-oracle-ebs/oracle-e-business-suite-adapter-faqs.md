@@ -38,9 +38,9 @@ The following are some frequently asked questions (FAQs) related to [!INCLUDE[ad
   
  For more information:  
   
--   Data security in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], see [Secure your Oracle EBS applications](../../adapters-and-accelerators/adapter-oracle-ebs/secure-your-oracle-ebs-applications.md).  
+- Data security in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], see [Secure your Oracle EBS applications](../../adapters-and-accelerators/adapter-oracle-ebs/secure-your-oracle-ebs-applications.md).  
   
--   Best practices to ensure data security in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], see [Security best practices](../../adapters-and-accelerators/adapter-oracle-ebs/best-practices-to-secure-the-oracle-e-business-suite-adapter.md).  
+- Best practices to ensure data security in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], see [Security best practices](../../adapters-and-accelerators/adapter-oracle-ebs/best-practices-to-secure-the-oracle-e-business-suite-adapter.md).  
   
 ## Is there a GUI provided by the Oracle E-Business adapter to view and perform operations on the artifacts in Oracle E-Business Suite?  
  The Consume Adapter Service BizTalk Project Add-in and the Add Adapter Service Reference Visual Studio Plug-in provide a dialog box where you can view and perform operations on the artifacts in Oracle E-Business Suite. For more information about the GUI provided by the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], see [Browse, search, and get metadata for Oracle EBS operations](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-metadata-for-oracle-e-business-suite-operations.md).  

@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10843
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10843|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_NO_SECRET2|  
-|Message Text|Cannot perform encryption or decryption because the secret is not available from the master secret server. See the event log (on computer ‘%1’) for related errors.|  
+|                 |                                                                                                                                                                     |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                                      Enterprise Single Sign-On                                                                      |
+| Product Version |                                                     [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                      |
+|    Event ID     |                                                                                10843                                                                                |
+|  Event Source   |                                                                               ENTSSO                                                                                |
+|    Component    |                                                                                 N/A                                                                                 |
+|  Symbolic Name  |                                                                         ENTSSO_E_NO_SECRET2                                                                         |
+|  Message Text   | Cannot perform encryption or decryption because the secret is not available from the master secret server. See the event log (on computer ‘%1’) for related errors. |
   
 ## Explanation  
  Access is denied.  

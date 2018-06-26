@@ -32,19 +32,19 @@ You can use the BizTalk Server Administration console to help identify which tra
   
  You can use tracking data to identify which service instances completed and started after the point of recovery, as follows:  
   
--   Look for which instances completed or started since the last time you backed up the database.  
+- Look for which instances completed or started since the last time you backed up the database.  
   
--   If data in the BizTalk Tracking (BizTalkDTADb) database indicates that the message started but did not complete, and the message is not in the database, then that message was sent after the last backup.  
+- If data in the BizTalk Tracking (BizTalkDTADb) database indicates that the message started but did not complete, and the message is not in the database, then that message was sent after the last backup.  
   
- Tracking can report on any service that completed, and it can indicate that a service started. Tracking data is first staged to the MessageBox and then moved to the BizTalk Tracking database. The data that was staged may have been lost to the backlog of the BAM Event Bus service.  
+  Tracking can report on any service that completed, and it can indicate that a service started. Tracking data is first staged to the MessageBox and then moved to the BizTalk Tracking database. The data that was staged may have been lost to the backlog of the BAM Event Bus service.  
   
- While all databases need to be restored to the same mark for operational reasons, you can use a BizTalk Tracking database (that was not lost) in Archive mode to see what happened after the mark.  
+  While all databases need to be restored to the same mark for operational reasons, you can use a BizTalk Tracking database (that was not lost) in Archive mode to see what happened after the mark.  
   
- If tracking shows a service instance as having completed, you can terminate that instance. It may show instances that started after the point of recovery. If so, you will need to compensate for any actions these instances took and then resubmit their initial activation messages.  
+  If tracking shows a service instance as having completed, you can terminate that instance. It may show instances that started after the point of recovery. If so, you will need to compensate for any actions these instances took and then resubmit their initial activation messages.  
   
- You can use the Orchestration Debugger to see the last shapes that executed, and then use Message Flow to see what message should have been sent or received.  
+  You can use the Orchestration Debugger to see the last shapes that executed, and then use Message Flow to see what message should have been sent or received.  
   
- If the BizTalk Tracking database was lost, all discovery of what happened past the point of recovery will need to be done by using the external systems reporting mechanisms.  
+  If the BizTalk Tracking database was lost, all discovery of what happened past the point of recovery will need to be done by using the external systems reporting mechanisms.  
   
 ## See Also  
  [Resolving Data Loss](../core/resolving-data-loss.md)

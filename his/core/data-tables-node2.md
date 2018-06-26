@@ -20,15 +20,15 @@ Use the **Data Tables** node to view a list of all the **Data Tables** in the as
   
  Double-click the **Data Tables** node to expand it. The right pane displays the following information about the data tables:  
   
--   **Name**. Name of the individual data tables.  
+- **Name**. Name of the individual data tables.  
   
- Right-click the **Data Tables** node to view the following seven options:  
+  Right-click the **Data Tables** node to view the following seven options:  
   
--   **Add Data Table**. Adds a new data table to the assembly.  
+- **Add Data Table**. Adds a new data table to the assembly.  
   
--   **Paste**. Inserts the data table from the Clipboard into the current data table definition.  
+- **Paste**. Inserts the data table from the Clipboard into the current data table definition.  
   
--   **Properties**. Displays the **Properties** window.  
+- **Properties**. Displays the **Properties** window.  
   
 ## See Also  
  [Data Table Name Node](../core/data-table-name-node2.md)   

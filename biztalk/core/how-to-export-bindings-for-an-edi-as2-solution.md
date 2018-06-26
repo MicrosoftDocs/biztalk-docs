@@ -25,48 +25,48 @@ This topic describes how to export the configuration from a computer set up as a
   
  When you export the configuration, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will automatically export the EDI Properties, and other party information, of all bound parties. If you activate the exporting of global party information, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will also export properties for parties that are not bound to an orchestration, and global EDI properties. You can export global party information in three ways:  
   
--   By checking the Export Global Party Information property in the Export Bindings dialog box.  
+- By checking the Export Global Party Information property in the Export Bindings dialog box.  
   
--   By checking the Global Parties checkbox in the Select Resources pane of the Export MSI File Wizard.  
+- By checking the Global Parties checkbox in the Select Resources pane of the Export MSI File Wizard.  
   
--   By using the GlobalParties switch in the BTSTask command line tool, as follows:  
+- By using the GlobalParties switch in the BTSTask command line tool, as follows:  
   
-    ```  
-    BTSTask ExportBindings -Destination:value ((([-ApplicationName:value] | [-AssemblyName:value]) [-GlobalParties]) | [-GroupLevel])  
-    ```  
+  ```  
+  BTSTask ExportBindings -Destination:value ((([-ApplicationName:value] | [-AssemblyName:value]) [-GlobalParties]) | [-GroupLevel])  
+  ```  
   
- For security reasons, when you export a binding file, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] removes the passwords for the bindings from the file. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] removes UNB6.1 and UNB6.2 fields from EDIFACT Properties, and ISA1, ISA2, ISA3, and ISA4 fields from X12 Properties.  
+  For security reasons, when you export a binding file, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] removes the passwords for the bindings from the file. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] removes UNB6.1 and UNB6.2 fields from EDIFACT Properties, and ISA1, ISA2, ISA3, and ISA4 fields from X12 Properties.  
   
- In addition to using the export-bindings, export-application, or BTSTask commands, you can create an XML binding file manually. By doing so, you can export party and EDI settings from a line-of-business application. You could then import the bindings using the import-bindings command or the BTSTask command.  
+  In addition to using the export-bindings, export-application, or BTSTask commands, you can create an XML binding file manually. By doing so, you can export party and EDI settings from a line-of-business application. You could then import the bindings using the import-bindings command or the BTSTask command.  
   
 ## Prerequisites  
  You must be logged on with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. For more information, see "Permissions Required for Deploying and Managing a BizTalk Application" in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentation.  
   
 ### Exporting the Configuration into a Binding File  
   
-1.  On the computer that you want to export the configuration from, open the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.  
+1. On the computer that you want to export the configuration from, open the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console.  
   
-2.  Right-click the BizTalk Application that you want to copy the configuration from, point to **Export**, and then click **Bindings**.  
+2. Right-click the BizTalk Application that you want to copy the configuration from, point to **Export**, and then click **Bindings**.  
   
-    > [!NOTE]
-    >  You can also use the BTSTask utility to export or import the configuration.  
+   > [!NOTE]
+   >  You can also use the BTSTask utility to export or import the configuration.  
   
-3.  Select the export option, selecting to export from the current application or group, or exporting bindings for an assembly.  
+3. Select the export option, selecting to export from the current application or group, or exporting bindings for an assembly.  
   
-4.  If you want to export all parties and their non-sensitive properties, even if an orchestration is not bound to them, click **Export Global Party information**.  
+4. If you want to export all parties and their non-sensitive properties, even if an orchestration is not bound to them, click **Export Global Party information**.  
   
-    > [!NOTE]
-    >  If you do not click **Export Global Party information**, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will export properties for any parties that are bound to an orchestration, into the binding file. However, it will not export any parties that are not bound to an orchestration, unless you click **Export Global Party information**.  
+   > [!NOTE]
+   >  If you do not click **Export Global Party information**, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will export properties for any parties that are bound to an orchestration, into the binding file. However, it will not export any parties that are not bound to an orchestration, unless you click **Export Global Party information**.  
+   > 
+   > [!NOTE]
+   >  The binding file generated while the **Export Global Party information** property is selected will include the configuration of all parties defined on the computer. It is not possible to export the configuration of a subset of the complete set of parties defined on a computer.  
   
-    > [!NOTE]
-    >  The binding file generated while the **Export Global Party information** property is selected will include the configuration of all parties defined on the computer. It is not possible to export the configuration of a subset of the complete set of parties defined on a computer.  
+5. Click **OK** to export the bindings.  
   
-5.  Click **OK** to export the bindings.  
+   > [!NOTE]
+   >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will not export any EDI sensitive fields, such as passwords or security/authentication information. It will export a blank string for any EDI sensitive field. After importing the bindings onto another computer, you must manually set the values for EDI sensitive fields.  
   
-    > [!NOTE]
-    >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will not export any EDI sensitive fields, such as passwords or security/authentication information. It will export a blank string for any EDI sensitive field. After importing the bindings onto another computer, you must manually set the values for EDI sensitive fields.  
-  
-6.  Manually note any EDI sensitive fields, such as passwords or security/authentication information, for later setting on the computer that you import the bindings onto.  
+6. Manually note any EDI sensitive fields, such as passwords or security/authentication information, for later setting on the computer that you import the bindings onto.  
   
 ## EDI and AS2 Nodes in the BizTalk Server Binding File  
  If you export your configuration with the **Export Global Party information** property selected, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will generate a binding file that has that following nodes:  

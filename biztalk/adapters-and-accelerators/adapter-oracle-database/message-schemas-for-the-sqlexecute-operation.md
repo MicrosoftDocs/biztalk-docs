@@ -19,15 +19,15 @@ manager: "anneta"
 # Message Schemas for the SQLEXECUTE Operation
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces strongly-typed metadata for artifacts present in the LOB system and exposes standard operations on these artifacts. However, there are scenarios where an application might require the execution of an arbitrary SQL statement that is driven by the business logic in the application. For example, you may want to:  
   
--   Perform an operation on database artifacts that are not surfaced by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]; for example, get the CURVAL or NEXTVAL of an Oracle SEQUENCE.  
+- Perform an operation on database artifacts that are not surfaced by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]; for example, get the CURVAL or NEXTVAL of an Oracle SEQUENCE.  
   
--   Perform Data Definition Language operations; for example, create a table.  
+- Perform Data Definition Language operations; for example, create a table.  
   
--   Perform operations on a database artifact that was not present at design-time; for example, update records in a temporary table that is created by your business logic.  
+- Perform operations on a database artifact that was not present at design-time; for example, update records in a temporary table that is created by your business logic.  
   
--   Perform more complex DML operations on tables than the operations surfaced by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]; for example perform a query that includes a JOIN clause.  
+- Perform more complex DML operations on tables than the operations surfaced by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]; for example perform a query that includes a JOIN clause.  
   
- The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces a special operation called the SQLEXECUTE operation to support such scenarios. By using this operation, you can specify an arbitrary SQL statement for the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to execute on the Oracle database. You can also specify multiple blocks of input parameters to the SQL statement. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] executes the SQL statement once for each set of parameters and returns any output as a generic (weakly-typed) record set.  
+  The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces a special operation called the SQLEXECUTE operation to support such scenarios. By using this operation, you can specify an arbitrary SQL statement for the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to execute on the Oracle database. You can also specify multiple blocks of input parameters to the SQL statement. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] executes the SQL statement once for each set of parameters and returns any output as a generic (weakly-typed) record set.  
   
 > [!NOTE]
 >  You can pass IN and IN OUT parameters to procedures, functions, and packages in the SQLEXECUTE operation. The invoked artifact will execute with the supplied parameters on the Oracle database; however, the SQLEXECUTE operation does not return the value of OUT and IN OUT parameters to the client. If you want to invoke procedures, functions, or packages, Microsoft recommends that you do so by invoking the dedicated operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] exposes for these Oracle artifacts.  

@@ -53,13 +53,13 @@ THEN ItemB.Value = 100
   
  You need to be able to reassert objects without creating endless loops, and the **Update** function provides this capability. Like a reassert, the **Update** function performs **Retract** and **Assert** of the associated object instances, which have been changed from rule actions, but there are two key differences:  
   
--   Actions on the agenda for rules where the instance type is only used in the actions (not the predicates) will remain on the agenda.  
+- Actions on the agenda for rules where the instance type is only used in the actions (not the predicates) will remain on the agenda.  
   
--   Rules that only use the instance type in the actions will not be re-evaluated.  
+- Rules that only use the instance type in the actions will not be re-evaluated.  
   
- Therefore, rules that use the instance types in either the predicates only or both the predicates and actions will be re-evaluated and their actions added to the agenda as appropriate.  
+  Therefore, rules that use the instance types in either the predicates only or both the predicates and actions will be re-evaluated and their actions added to the agenda as appropriate.  
   
- Changing the preceding example to use the **Update** function ensures that only Rule 2 is re-evaluated because **ItemB** is used in the condition of Rule 2. Rule 1 is not reevaluated because **ItemB** is only used in the actions of Rule 1, eliminating the looping scenario.  
+  Changing the preceding example to use the **Update** function ensures that only Rule 2 is re-evaluated because **ItemB** is used in the condition of Rule 2. Rule 1 is not reevaluated because **ItemB** is only used in the actions of Rule 1, eliminating the looping scenario.  
   
 ### Rule 1  
   

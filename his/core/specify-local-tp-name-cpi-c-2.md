@@ -31,21 +31,21 @@ CM_ENTRY Specify_Local_TP_Name( 
  *TP_name*  
  Supplied parameter. Specifies the starting address of the local transaction program (TP) name. The program name can contain up to 64 ASCII characters. The allowed characters are:  
   
--   Uppercase and lowercase letters.  
+- Uppercase and lowercase letters.  
   
--   Numerals from 0 through 9.  
+- Numerals from 0 through 9.  
   
--   Special characters, except the space.  
+- Special characters, except the space.  
   
- You cannot use **Specify_Local_TP_Name** to specify the name of an SNA service TP.  
+  You cannot use **Specify_Local_TP_Name** to specify the name of an SNA service TP.  
   
- Double-byte character sets, such as Kanji, are not supported.  
+  Double-byte character sets, such as Kanji, are not supported.  
   
- *TP_name_length*  
- Supplied parameter. Specifies the length of the local program name. The range is from 1 through 64.  
+  *TP_name_length*  
+  Supplied parameter. Specifies the length of the local program name. The range is from 1 through 64.  
   
- *return_code*  
- The code returned from this call. The valid return codes are listed later in this topic.  
+  *return_code*  
+  The code returned from this call. The valid return codes are listed later in this topic.  
   
 ## Return Codes  
  CM_OK  
@@ -54,12 +54,12 @@ CM_ENTRY Specify_Local_TP_Name( 
  CM_PROGRAM_PARAMETER_CHECK  
  Primary return code; one of the following occurred:  
   
--   The *TP_name* supplied is invalid.  
+- The *TP_name* supplied is invalid.  
   
--   The value specified by *TP_name_length* is out of range (greater than 64 or less than 1).  
+- The value specified by *TP_name_length* is out of range (greater than 64 or less than 1).  
   
- CM_PRODUCT_SPECIFIC_ERROR  
- Primary return code; a product-specific error occurred and has been logged in the products error log.  
+  CM_PRODUCT_SPECIFIC_ERROR  
+  Primary return code; a product-specific error occurred and has been logged in the products error log.  
   
 ## State Changes  
  The call is not associated with a particular conversation, and no state restrictions apply.  

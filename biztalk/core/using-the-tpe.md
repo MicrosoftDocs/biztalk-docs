@@ -30,19 +30,19 @@ You use the Tracking Profile Editor (TPE) to map orchestrations and properties t
   
  There are two prerequisites for creating a tracking profile:  
   
-1.  A BAM activity has been defined by the business analyst, as part of an overall observation model, and has been deployed by the system administrator.  
+1. A BAM activity has been defined by the business analyst, as part of an overall observation model, and has been deployed by the system administrator.  
   
-2.  A BizTalk solution (including orchestrations, schemas, map, and pipelines) has been successfully deployed in the target environment.  
+2. A BizTalk solution (including orchestrations, schemas, map, and pipelines) has been successfully deployed in the target environment.  
   
- These prerequisites are necessary since after installation the TPE is not populated with any data to retrieve from the databases.  
+   These prerequisites are necessary since after installation the TPE is not populated with any data to retrieve from the databases.  
   
- **Creating a Profile for Customized BAM Solutions**  
+   **Creating a Profile for Customized BAM Solutions**  
   
- Tracking profiles are only relevant to run-times that have an interceptor. For BAM solutions that consist of custom code using the BAM APIs, there is no associated BAM run-time interceptor, and sending data to BAM can be done in only one of two ways:  
+   Tracking profiles are only relevant to run-times that have an interceptor. For BAM solutions that consist of custom code using the BAM APIs, there is no associated BAM run-time interceptor, and sending data to BAM can be done in only one of two ways:  
   
--   Directly through the BAM APIs. Using the APIs developers can explicitly send event data to the BAM infrastructure. For more information about using the BAM APIs, see [Implementing BAM Activities with Event Streams](../core/implementing-bam-activities-with-event-streams.md).  
+- Directly through the BAM APIs. Using the APIs developers can explicitly send event data to the BAM infrastructure. For more information about using the BAM APIs, see [Implementing BAM Activities with Event Streams](../core/implementing-bam-activities-with-event-streams.md).  
   
--   Indirectly, through [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] properties. In the case where the custom code is executing inside some run-time context that does have an associated interception technology, such as a custom pipeline - or expression/action shapes in invoking a custom assembly, You can use the BAM APIs as noted above or use traditional data promotion techniques. By promoting the properties you make them accessible to the TPE and the association of that event data to a BAM activity item can then be made in the TPE using the correct context property. For more information about promoting properties, see [Promoting Properties](../core/promoting-properties.md).  
+- Indirectly, through [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] properties. In the case where the custom code is executing inside some run-time context that does have an associated interception technology, such as a custom pipeline - or expression/action shapes in invoking a custom assembly, You can use the BAM APIs as noted above or use traditional data promotion techniques. By promoting the properties you make them accessible to the TPE and the association of that event data to a BAM activity item can then be made in the TPE using the correct context property. For more information about promoting properties, see [Promoting Properties](../core/promoting-properties.md).  
   
 ## In This Section  
   

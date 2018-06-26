@@ -23,31 +23,31 @@ Management tasks with respect to the XSD view can be divided into three categori
   
 ### To make the XSD view taller or shorter  
   
-1.  Move the mouse pointer to the bottom edge of the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] main editing window, which displays the XSD view side-by-side with the schema tree view, until the cursor changes to the standard window vertical resizing icon.  
+1. Move the mouse pointer to the bottom edge of the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] main editing window, which displays the XSD view side-by-side with the schema tree view, until the cursor changes to the standard window vertical resizing icon.  
   
-2.  Click and hold the left mouse button and drag the window edge either up or down.  
+2. Click and hold the left mouse button and drag the window edge either up or down.  
   
-     You have vertically resized the XSD view by vertically resizing the entire main editing window.  
+    You have vertically resized the XSD view by vertically resizing the entire main editing window.  
   
 ### To make the XSD view wider or more narrow  
   
-1.  Move the mouse pointer to the pane divider in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] main editing window, which divides the XSD view from the schema tree view, until the cursor changes to the standard window horizontal resizing icon.  
+1. Move the mouse pointer to the pane divider in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] main editing window, which divides the XSD view from the schema tree view, until the cursor changes to the standard window horizontal resizing icon.  
   
-2.  Click and hold the left mouse button and drag the pane edge either left (wider) or right (narrower).  
+2. Click and hold the left mouse button and drag the pane edge either left (wider) or right (narrower).  
   
-     You have horizontally resized the XSD view by changing the amount of the main editing window dedicated to the XSD view, relative to the schema tree view.  
+    You have horizontally resized the XSD view by changing the amount of the main editing window dedicated to the XSD view, relative to the schema tree view.  
   
-     You can also make the XSD view wider or narrower by horizontally resizing the entire main editing window.  
+    You can also make the XSD view wider or narrower by horizontally resizing the entire main editing window.  
   
 ### To change the background color and/or font used by the XSD view  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **Tools** menu, click **Options**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **Tools** menu, click **Options**.  
   
-2.  In the **Options** dialog box, click the BizTalk Editor folder, and if necessary, expand the **Schema Display** category by clicking the plus (+) icon.  
+2. In the **Options** dialog box, click the BizTalk Editor folder, and if necessary, expand the **Schema Display** category by clicking the plus (+) icon.  
   
-3.  Change the background color and/or font by using the drop-down color picker and/or **Font** dialog box associated with the **XSD View Background Color** and **XSD View Font** properties, respectively.  
+3. Change the background color and/or font by using the drop-down color picker and/or **Font** dialog box associated with the **XSD View Background Color** and **XSD View Font** properties, respectively.  
   
-     Access the **Font** dialog box by using the ellipsis (**…**) button located at the right end of the **XSD View Font** property value box.  
+    Access the **Font** dialog box by using the ellipsis (**…**) button located at the right end of the **XSD View Font** property value box.  
   
 ### To turn automatic refresh of the XSD view on and off  
   

@@ -22,13 +22,13 @@ manager: "anneta"
   
  The sections below describe the following:  
   
--   How [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] saves tracking data  
+- How [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] saves tracking data  
   
--   How you can create a custom pipeline component to enable correlation  
+- How you can create a custom pipeline component to enable correlation  
   
--   How you can correlate an incoming transaction set with an outgoing batch.  
+- How you can correlate an incoming transaction set with an outgoing batch.  
   
--   How you can query the BusinessMessageJournal activity to determine the BTSInterchangeID of the batch if you know the BTSInterchangeID of the transaction set contained in the batch.  
+- How you can query the BusinessMessageJournal activity to determine the BTSInterchangeID of the batch if you know the BTSInterchangeID of the transaction set contained in the batch.  
   
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B Operators group.  

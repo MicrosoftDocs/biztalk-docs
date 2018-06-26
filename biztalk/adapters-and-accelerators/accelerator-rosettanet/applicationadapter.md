@@ -18,7 +18,7 @@ The ApplicationAdapter sample demonstrates how to send notifications from the pu
   
  The ApplicationAdapter sample demonstrates how to implement the `IApplicationAdapter` interface to the `ApplicationAdapter1` class. This class includes two methods, `BeginNotify` and `Notify`. The parameters for each class are the message category, source party name, destination party name, Partner Interface Process (PIP) code, PIP instance ID, and PIP version.  
   
- You set the ApplicationAdapter for an agreement by entering the assembly name and class name on the **General** tab of the agreement in the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] ([!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]) Management Console. The application adapter .dll file runs under the same credentials as the BizTalk host service.  
+ You set the ApplicationAdapter for an agreement by entering the assembly name and class name on the **General** tab of the agreement in the Microsoft® [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] ([!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]) Management Console. The application adapter .dll file runs under the same credentials as the BizTalk host service.  
   
  If you change the ApplicationAdapter sample or any external environment variable that the ApplicationAdapter sample depends on, restart the BizTalk host service that hosts the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] public process.  
   
@@ -52,15 +52,15 @@ The ApplicationAdapter sample demonstrates how to send notifications from the pu
   
 #### To add the application adapter to an agreement  
   
-1.  Click **Start**, point to **All Programs**, point to [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] **BizTalk \<version\> Accelerator for RosettaNet**, and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
+1. Click **Start**, point to **All Programs**, point to Microsoft **BizTalk \<version\> Accelerator for RosettaNet**, and then click [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)] **Management Console**.  
   
-2.  In the [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and click **Agreements**.  
+2. In the [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Management Console, expand [!INCLUDE[btaBTARNNoVersionui](../../includes/btabtarnnoversionui-md.md)], and click **Agreements**.  
   
-3.  Double-click the agreement to which you want to add the application adapter.  
+3. Double-click the agreement to which you want to add the application adapter.  
   
-4.  In the **Application Adapter** box, click the ellipsis button (**...**) button to the right of **Assembly name**, move to the location that contains the application adapter assembly, select the appropriate .dll file, and then click **Open**.  
+4. In the **Application Adapter** box, click the ellipsis button (**...**) button to the right of **Assembly name**, move to the location that contains the application adapter assembly, select the appropriate .dll file, and then click **Open**.  
   
-5.  Click the down arrow for **Class Name**, select the application adapter class, and then click **OK**.  
+5. Click the down arrow for **Class Name**, select the application adapter class, and then click **OK**.  
   
 ## See Also  
  [Adapter Samples](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md)

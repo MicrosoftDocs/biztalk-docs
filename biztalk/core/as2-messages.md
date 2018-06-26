@@ -22,13 +22,13 @@ This topic describes an AS2 message, including its structure, its context proper
   
  The basic structure of an AS2 message consists of MIME format inside an HTTP message with additional AS2-specific headers. The nature of the message beneath the HTTP, AS2, and MIME headers depends upon the type of message:  
   
--   **Signed** – If the message is signed, a signature wrapper is added around the document payload.  
+- **Signed** – If the message is signed, a signature wrapper is added around the document payload.  
   
--   **Compressed** – If the message is compressed, a compression wrapper is added around the document and signature payloads.  
+- **Compressed** – If the message is compressed, a compression wrapper is added around the document and signature payloads.  
   
--   **Encrypted** – If the message is encrypted, an encryption wrapper is added around the document, signature, and compression payloads.  
+- **Encrypted** – If the message is encrypted, an encryption wrapper is added around the document, signature, and compression payloads.  
   
- The message structure of an AS2 message, based upon encryption, signature, and compression is shown in the table below.  
+  The message structure of an AS2 message, based upon encryption, signature, and compression is shown in the table below.  
   
 |AS2 Message Options|Message Structure|  
 |-------------------------|-----------------------|  

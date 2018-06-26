@@ -24,38 +24,38 @@ You can test a map in an EDI project at design time. To do so, you use the XML T
   
 ### To test a map  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], add the map that you want to test to a project, and add the source and destination schemas for that map to the project.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], add the map that you want to test to a project, and add the source and destination schemas for that map to the project.  
   
-    > [!NOTE]
-    >  You do not have to build the project to test the map.  
+   > [!NOTE]
+   >  You do not have to build the project to test the map.  
   
-2.  Right-click the map and click **Properties**.  
+2. Right-click the map and click **Properties**.  
   
-3.  In the **Properties** window, set **Validate TestMap Input** to **True** if you want to validate the input file against the source schema. Set **Validate TestMap Output** to **True** if you want to validate the output file against the destination schema.  
+3. In the **Properties** window, set **Validate TestMap Input** to **True** if you want to validate the input file against the source schema. Set **Validate TestMap Output** to **True** if you want to validate the output file against the destination schema.  
   
-    > [!NOTE]
-    >  If you test a map with the **TestMap Input** property set to **Native** and the **Validate TestMap Input** and **Validate TestMap Output** properties set to **False**, validation will still be performed. This occurs because the native-formatted input file will be converted into XML format, and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will validate the XML against the schema. If there are validation issues in the input instance, the validation mechanism will post errors, even though the **Validate TestMap Input** and **Validate TestMap Output** properties are set to **False**.  
+   > [!NOTE]
+   >  If you test a map with the **TestMap Input** property set to **Native** and the **Validate TestMap Input** and **Validate TestMap Output** properties set to **False**, validation will still be performed. This occurs because the native-formatted input file will be converted into XML format, and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will validate the XML against the schema. If there are validation issues in the input instance, the validation mechanism will post errors, even though the **Validate TestMap Input** and **Validate TestMap Output** properties are set to **False**.  
   
-4.  Set **TestMap Input** to **Native** for an input file that has an .edi extension. Set it to **XML** if it has an .xml extension. Set **TestMap Input** to **Generate Instance** to have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generate an input instance, rather than you designating an input instance manually.  
+4. Set **TestMap Input** to **Native** for an input file that has an .edi extension. Set it to **XML** if it has an .xml extension. Set **TestMap Input** to **Generate Instance** to have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] generate an input instance, rather than you designating an input instance manually.  
   
-5.  Set **TestMap Output** to **Native** for an output file that has an .edi extension. Set it to **XML** if it has an .xml extension.  
+5. Set **TestMap Output** to **Native** for an output file that has an .edi extension. Set it to **XML** if it has an .xml extension.  
   
-6.  For **TestMap Input Instance**, browse to the input instance that you want to be used to test the map, select it, and then **Open**. If you want to leave this property blank, set **TestMap Input** to **Generate Instance**.  
+6. For **TestMap Input Instance**, browse to the input instance that you want to be used to test the map, select it, and then **Open**. If you want to leave this property blank, set **TestMap Input** to **Generate Instance**.  
   
-    > [!NOTE]
-    >  You have to either designate an input instance for **TestMap Input Instance** or set **TestMap Input** to **Generate Instance**. If not, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will generate an error.  
+   > [!NOTE]
+   >  You have to either designate an input instance for **TestMap Input Instance** or set **TestMap Input** to **Generate Instance**. If not, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will generate an error.  
   
-7.  For **TestMap Output Instance**, browse to the location you want to save the output instance at, enter a name for the output instance, and then click **Save**.  
+7. For **TestMap Output Instance**, browse to the location you want to save the output instance at, enter a name for the output instance, and then click **Save**.  
   
-    > [!NOTE]
-    >  If you do not designate an output instance, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will create an output file, place the output file into a folder, and indicate the file name and path.  
+   > [!NOTE]
+   >  If you do not designate an output instance, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will create an output file, place the output file into a folder, and indicate the file name and path.  
   
-8.  Right-click the map you are testing, and then click **Test Map**.  
+8. Right-click the map you are testing, and then click **Test Map**.  
   
 9. In the X12 **EDI Instance Properties** dialog box, make sure that all properties are consistent with the settings for the input and output instances.  
   
-    > [!NOTE]
-    >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will display the **EDI Instance Properties** dialog box twice during the TestMap process: once for interpreting the input message instance and once for generating the output message instance. However, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] may display the dialog box more than just twice and may display the dialog box for non-EDI schema. If so, click **OK** to close the dialog box.  
+   > [!NOTE]
+   >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will display the **EDI Instance Properties** dialog box twice during the TestMap process: once for interpreting the input message instance and once for generating the output message instance. However, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] may display the dialog box more than just twice and may display the dialog box for non-EDI schema. If so, click **OK** to close the dialog box.  
   
 10. Click **OK**.  
   

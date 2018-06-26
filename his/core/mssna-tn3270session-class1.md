@@ -42,22 +42,22 @@ class MsSna_TN3270Session : MsSna_Config
   
 ## Properties  
  **Name**  
- Data Type: **String**Qualifiers: **Key, MAXLEN(8)**Access Type: Read-Only  
+ Data Type: **String**Qualifiers: <strong>Key, MAXLEN(8)</strong>Access Type: Read-Only  
   
  The LU name.  
   
  **ConnectionName**  
- Data Type: **String**Qualifiers: **MAXLEN(8)**Access Type: Read-Only  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(8)</strong>Access Type: Read-Only  
   
  The connection on which this LU is defined.  
   
  **Comment**  
- Data Type: **String**Qualifiers: **MAXLEN(25)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(25)</strong>Access Type: Read/Write  
   
  An optional comment field.  
   
  **PoolName**  
- Data Type: **String**Qualifiers: **MAXLEN(8)**Access Type: Read-Only  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(8)</strong>Access Type: Read-Only  
   
  If the LU has already been assigned to a pool, the pool name appears here.  
   
@@ -77,7 +77,7 @@ class MsSna_TN3270Session : MsSna_Config
  **true** to require both the user and the workstation to be assigned to this LU in order to acquire it; otherwise, **false**.  
   
  **Service**  
- Data Type: **String**Qualifiers: **Key, MAXLEN(20)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>Key, MAXLEN(20)</strong>Access Type: Read/Write  
   
  The SNA service to which this LU belongs.  
   
@@ -95,7 +95,7 @@ class MsSna_TN3270Session : MsSna_Config
 |4|AssoicatedPrinter|  
   
  **NumSessions**  
- Data Type: **sint32**Qualifiers: **MINVALUE(0), MAXVALUE(65535)**Access Type: Read/Write  
+ Data Type: **sint32**Qualifiers: <strong>MINVALUE(0), MAXVALUE(65535)</strong>Access Type: Read/Write  
   
  This is the number of TN3270 sessions allowed for the selected LU or pool.  
   
@@ -129,12 +129,12 @@ class MsSna_TN3270Session : MsSna_Config
 |20|3279_5_E|  
   
  **AssociatedLu**  
- Data Type: **String**Qualifiers: **MAXLEN(8)**Access Type: Read/Write  
+ Data Type: **String**Qualifiers: <strong>MAXLEN(8)</strong>Access Type: Read/Write  
   
  Used to associate a printer LU with this display LU.  
   
  **Port**  
- Data Type: **sint32**Qualifiers: **MINVALUE(0), MAXVALUE(9999)**Access Type: Read/Write  
+ Data Type: **sint32**Qualifiers: <strong>MINVALUE(0), MAXVALUE(9999)</strong>Access Type: Read/Write  
   
  The port to be used for this session—or 0 to use the default TN3270 port.  
   

@@ -22,25 +22,25 @@ You can install and run Transaction Integrator (TI) over TCP/IP without installi
   
 ## Run a TI application over TCP/IP  
   
-1.  Configure the mainframe (CICS or IMS) for TCP/IP, and establish a connection with your Windows-based [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Server computer.  
+1. Configure the mainframe (CICS or IMS) for TCP/IP, and establish a connection with your Windows-based [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Server computer.  
   
-     For more information, see the following:  
+    For more information, see the following:  
   
-    -   [Configuring CICS for TCP/IP](../core/configuring-cics-for-tcp-ip2.md)  
+   -   [Configuring CICS for TCP/IP](../core/configuring-cics-for-tcp-ip2.md)  
   
-    -   [Configuring IMS for TCP/IP](../core/configuring-ims-for-tcp-ip2.md).  
+   -   [Configuring IMS for TCP/IP](../core/configuring-ims-for-tcp-ip2.md).  
   
-    -   [Enhanced Listener CICS Administration](./enhanced-listener-cics-administration2.md)  
+   -   [Enhanced Listener CICS Administration](./enhanced-listener-cics-administration2.md)  
   
-2.  Install the COBOL programs within the CICS or IMS region that receives TI-initiated calls.  
+2. Install the COBOL programs within the CICS or IMS region that receives TI-initiated calls.  
   
-3.  Define an appropriate TCP/IP remote environment for the CICS or IMS region that receives TI-initiated calls.  
+3. Define an appropriate TCP/IP remote environment for the CICS or IMS region that receives TI-initiated calls.  
   
-4.  Build the TI component with a method for each transaction in the transaction program (TP).  
+4. Build the TI component with a method for each transaction in the transaction program (TP).  
   
-5.  Deploy the TI component in a COM+ application to create a TI Automation server.  
+5. Deploy the TI component in a COM+ application to create a TI Automation server.  
   
-6.  Run the client application that calls the new TI Automation server to automate the TP.  
+6. Run the client application that calls the new TI Automation server to automate the TP.  
   
 ## See Also  
  [Configuring CICS for TCP/IP](../core/configuring-cics-for-tcp-ip2.md)   

@@ -24,22 +24,22 @@ Business rules (or business policies) define and control the structure, operatio
   
  The Business Rules Framework is tightly integrated with Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and developers can use the following features to build and manage business rules:  
   
--   A high-performance rule engine that implements an inference mechanism to evaluate the business rules.  
+- A high-performance rule engine that implements an inference mechanism to evaluate the business rules.  
   
--   A rich set of application programming interfaces (APIs) for developing rule-based applications.  
+- A rich set of application programming interfaces (APIs) for developing rule-based applications.  
   
--   A graphical user interface, the Business Rule Composer, which developers, business analysts, and administrators can use in various ways to efficiently develop and apply rules and policies.  
+- A graphical user interface, the Business Rule Composer, which developers, business analysts, and administrators can use in various ways to efficiently develop and apply rules and policies.  
   
--   A seamless integration with BizTalk orchestrations, which enables you to invoke a business policy or a set of business rules from a BizTalk orchestration.  
+- A seamless integration with BizTalk orchestrations, which enables you to invoke a business policy or a set of business rules from a BizTalk orchestration.  
   
--   The Rule Engine Deployment Wizard, which enables you to rapidly import or export business rules or the vocabularies used by the rules, as well as to deploy or undeploy these rules.  
+- The Rule Engine Deployment Wizard, which enables you to rapidly import or export business rules or the vocabularies used by the rules, as well as to deploy or undeploy these rules.  
   
- The business rules (policy) you create by using the Business Rules Framework can be used in an orchestrated business process, as shown in the following figure.  
+  The business rules (policy) you create by using the Business Rules Framework can be used in an orchestrated business process, as shown in the following figure.  
   
- ![Diagram showing buisness policy in process.](../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
-Business Policy  
+  ![Diagram showing buisness policy in process.](../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
+  Business Policy  
   
- This section provides conceptual information about how you can leverage the Business Rules Framework and use the tools that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides to develop business rules.  
+  This section provides conceptual information about how you can leverage the Business Rules Framework and use the tools that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides to develop business rules.  
   
 ## In This Section  
   

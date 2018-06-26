@@ -17,15 +17,15 @@ manager: "anneta"
 ## Package Naming Convention  
  DRDA defines a fully-qualified static SQL package using a PKGNAM (RDB Package Name) that consists of these multiple parts.  
   
--   RDBNAM (Relational Database Name)  
+- RDBNAM (Relational Database Name)  
   
--   RDBCOLID (RDB Collection Identifier)  
+- RDBCOLID (RDB Collection Identifier)  
   
--   PKGID (RDB Package Identifier)  
+- PKGID (RDB Package Identifier)  
   
- `RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN`  
+  `RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN`  
   
- *Fully-qualified package name with consistency token.*  
+  *Fully-qualified package name with consistency token.*  
   
 > [!NOTE]
 >  If more than one package has the same value for PKGNAM, then the packages are distinguished by the VRSNAM (Version Name) or PKGCNSTKN (package name consistency token).  

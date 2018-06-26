@@ -18,23 +18,23 @@ You use the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkse
   
  Backing up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases and restoring them involves the following steps:  
   
-1.  **Configuring the Backup BizTalk Server job**  
+1. **Configuring the Backup BizTalk Server job**  
   
-     Before you can back up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, you must first configure the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job on the source system, which directs backups to be automatically written to a folder where they can then be used to restore the databases on the destination system. The destination system is the server or group of servers that will be used to restore the database backups produced by the source system. For more information about this step, see [How to Configure a Backup BizTalk Server Job](../technical-guides/how-to-configure-a-backup-biztalk-server-job.md).  
+    Before you can back up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, you must first configure the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job on the source system, which directs backups to be automatically written to a folder where they can then be used to restore the databases on the destination system. The destination system is the server or group of servers that will be used to restore the database backups produced by the source system. For more information about this step, see [How to Configure a Backup BizTalk Server Job](../technical-guides/how-to-configure-a-backup-biztalk-server-job.md).  
   
-2.  **Configuring the destination system for log shipping**  
+2. **Configuring the destination system for log shipping**  
   
-     You must also configure the destination system for log shipping, which provides standby server capabilities and reduces downtime in the event of a system failure. For more information about this step, see [How to Configure the Destination System](../technical-guides/how-to-configure-the-destination-system.md).  
+    You must also configure the destination system for log shipping, which provides standby server capabilities and reduces downtime in the event of a system failure. For more information about this step, see [How to Configure the Destination System](../technical-guides/how-to-configure-the-destination-system.md).  
   
-3.  **Restoring the databases**  
+3. **Restoring the databases**  
   
-     When a hardware failure occurs, you can restore your databases by using the backups and logs sent to your destination system. For more information about this step, see [How to Restore Databases in the Backup BizTalk Server Job](../technical-guides/how-to-restore-databases-in-the-backup-biztalk-server-job.md).  
+    When a hardware failure occurs, you can restore your databases by using the backups and logs sent to your destination system. For more information about this step, see [How to Restore Databases in the Backup BizTalk Server Job](../technical-guides/how-to-restore-databases-in-the-backup-biztalk-server-job.md).  
   
 ## BizTalk Server Databases  
  The following tables describe the databases used by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and identify which methods are used to back up the databases.  
   
 ### Databases Backed Up by the Backup BizTalk Server Job  
- The following table lists the databases that are backed up and restored as a part of the Backup BizTalk Server job. You can modify the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job to back up custom databases by adding them to the adm_OtherBackupDatabases table. For more information, see [How to Back Up Custom Databases](http://go.microsoft.com/fwlink/?LinkID=151569) (http://go.microsoft.com/fwlink/?LinkID=151569).  
+ The following table lists the databases that are backed up and restored as a part of the Backup BizTalk Server job. You can modify the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job to back up custom databases by adding them to the adm_OtherBackupDatabases table. For more information, see [How to Back Up Custom Databases](http://go.microsoft.com/fwlink/?LinkID=151569) (<http://go.microsoft.com/fwlink/?LinkID=151569>).  
   
 |Database|Default database name|Description|  
 |--------------|---------------------------|-----------------|  

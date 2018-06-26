@@ -16,47 +16,47 @@ manager: "anneta"
 # FM Profile 7
 Function management (FM) Profile 7 is supported on primary logical unit-secondary logical unit (PLU-SLU) sessions using LU 0. This profile uses the following session rules:  
   
--   PLU and SLU use immediate response mode.  
+- PLU and SLU use immediate response mode.  
   
--   PLU and SLU support the following data flow control (DFC) commands (an asterisk [*] indicates commands permitted by the FM profile that are never sent by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]):  
+- PLU and SLU support the following data flow control (DFC) commands (an asterisk [*] indicates commands permitted by the FM profile that are never sent by [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)]):  
   
-    -   **CANCEL**  
+  -   **CANCEL**  
   
-    -   **SIGNAL**  
+  -   **SIGNAL**  
   
-    -   **LUSTAT**  
+  -   **LUSTAT**  
   
-    -   **RSHUTD***  
+  -   **RSHUTD***  
   
--   Length-checked compression is allowed on LU 0 only.  
+- Length-checked compression is allowed on LU 0 only.  
   
- The following FM Usage fields define the options for Profile 7:  
+  The following FM Usage fields define the options for Profile 7:  
   
--   Chaining use (PLU and SLU)  
+- Chaining use (PLU and SLU)  
   
--   Request control mode selection (PLU and SLU)  
+- Request control mode selection (PLU and SLU)  
   
--   Chain response protocol (PLU and SLU)  
+- Chain response protocol (PLU and SLU)  
   
--   FMH-1 SCB Compression indicator (PLU and SLU)  
+- FMH-1 SCB Compression indicator (PLU and SLU)  
   
--   Send EB indicator (PLU and SLU)  
+- Send EB indicator (PLU and SLU)  
   
--   FM header usage  
+- FM header usage  
   
--   Brackets usage and reset state  
+- Brackets usage and reset state  
   
--   Bracket termination rule  
+- Bracket termination rule  
   
--   Alternate Code Set Allowed indicator  
+- Alternate Code Set Allowed indicator  
   
--   Normal-flow send/receive mode  
+- Normal-flow send/receive mode  
   
--   Recovery responsibility  
+- Recovery responsibility  
   
--   Contention winner/loser  
+- Contention winner/loser  
   
--   Half-duplex flip-flop reset states  
+- Half-duplex flip-flop reset states  
   
 ## See Also  
  [Transmission Service and Function Management Profiles](../core/transmission-service-and-function-management-profiles1.md)

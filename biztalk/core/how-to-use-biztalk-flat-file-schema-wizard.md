@@ -36,45 +36,45 @@ In previous releases of BizTalk Server, you had to manually add the annotations 
   
 #### To start the wizard from Solution Explorer  
   
-1.  In Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the **Solution Explorer**.  
+1. In Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the **Solution Explorer**.  
   
-2.  To add the new flat-file schema, right-click the BizTalk project, and select **Add**.  
+2. To add the new flat-file schema, right-click the BizTalk project, and select **Add**.  
   
-3.  Click **New Item.**  
+3. Click **New Item.**  
   
-     ![Solution Explorer menu](../core/media/flatfileschemawizard-01.gif "FlatFileSchemaWizard_01")  
+    ![Solution Explorer menu](../core/media/flatfileschemawizard-01.gif "FlatFileSchemaWizard_01")  
   
-4.  In the **Add New Item** window, do the following:  
+4. In the **Add New Item** window, do the following:  
   
-    1.  In the **Categories** section, select **Schema Files**.  
+   1.  In the **Categories** section, select **Schema Files**.  
   
-    2.  In the **Templates** section, select **Flat File Schema Wizard**.  
+   2.  In the **Templates** section, select **Flat File Schema Wizard**.  
   
-    3.  In the **Name** text box, type a name for the new schema.  
+   3.  In the **Name** text box, type a name for the new schema.  
   
-    4.  Click **Add**.  
+   4.  Click **Add**.  
   
-         The BizTalk Flat File Schema Wizard opens.  
+        The BizTalk Flat File Schema Wizard opens.  
   
 #### To start the Wizard from the Schema Editor  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the **Solution Explorer**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the **Solution Explorer**.  
   
-2.  To add the new flat-file schema, right-click the BizTalk project, and select **Add**. Select **New Item** and click **New Item**.  
+2. To add the new flat-file schema, right-click the BizTalk project, and select **Add**. Select **New Item** and click **New Item**.  
   
-3.  In the **Add New Item** window, do the following:  
+3. In the **Add New Item** window, do the following:  
   
-    1.  In the **Categories** section, select **Schema Files**.  
+   1.  In the **Categories** section, select **Schema Files**.  
   
-    2.  In the **Templates** section, select **Flat File Schema**.  
+   2.  In the **Templates** section, select **Flat File Schema**.  
   
-    3.  In the **Name** text box, type a name for the new schema.  
+   3.  In the **Name** text box, type a name for the new schema.  
   
-    4.  Click **Add**.  
+   4.  Click **Add**.  
   
-    5.  Right-click **Root** and select **Define Record from Flat File Instance**.  
+   5.  Right-click **Root** and select **Define Record from Flat File Instance**.  
   
-         The BizTalk Flat File Schema Wizard now starts.  
+        The BizTalk Flat File Schema Wizard now starts.  
   
 > [!NOTE]
 >  If you have a working schema opened in the Schema Editor, all you need to do is right-click the selected node and then select **Define Record from Flat File Instance**.  
@@ -141,33 +141,33 @@ In previous releases of BizTalk Server, you had to manually add the annotations 
 ### Delimiter Symbols in the Flat File Schema Wizard  
  The child delimiter property drop-down list contains with the following common delimiters:  
   
--   {CR}{LF}  
+- {CR}{LF}  
   
--   {CR}  
+- {CR}  
   
--   {LF}  
+- {LF}  
   
--   {TAB}  
+- {TAB}  
   
--   {SPACE}  
+- {SPACE}  
   
--   {0x1A}  
+- {0x1A}  
   
--   &#124;  
+- &#124;  
   
--   ,  
+- ,  
   
--   ;  
+- ;  
   
- The default value for this property is {CR}{LF}. The property is also an editable text box, so that you can specify the child delimiter as a sequence of characters or as hexadecimal values of the characters. An example of using characters for the child delimiter would be "a" or "street." Hexadecimal delimiters are specified using the following format:  
+  The default value for this property is {CR}{LF}. The property is also an editable text box, so that you can specify the child delimiter as a sequence of characters or as hexadecimal values of the characters. An example of using characters for the child delimiter would be "a" or "street." Hexadecimal delimiters are specified using the following format:  
   
--   {0xnnnn}. For example, {0x0D}{0x0A}, {0x09} or {0x20}.  
+- {0xnnnn}. For example, {0x0D}{0x0A}, {0x09} or {0x20}.  
   
- An example of using sequence of hexadecimal values is {0x0D}{0x0A}, {0x09}{0x20}.  
+  An example of using sequence of hexadecimal values is {0x0D}{0x0A}, {0x09}{0x20}.  
   
- If you use the symbols \\, {, or } as the delimiter, you must place an additional backslash symbol in front of the delimiter symbol, otherwise you will receive an error message. For example,  
+  If you use the symbols \\, {, or } as the delimiter, you must place an additional backslash symbol in front of the delimiter symbol, otherwise you will receive an error message. For example,  
   
--   \\\\, \\{, or \\}.  
+- \\\\, \\{, or \\}.  
   
 ### Relative Positions in the Flat File Schema Wizard  
   
@@ -179,26 +179,26 @@ In previous releases of BizTalk Server, you had to manually add the annotations 
   
  The escape character can be specified as a character or as a hexadecimal value. The hexadecimal value is specified using the following format:  
   
--   {0xnnnn}. For example, {0x0D}{0x0A}, {0x09}, or {0x20}.  
+- {0xnnnn}. For example, {0x0D}{0x0A}, {0x09}, or {0x20}.  
   
- If you use the symbols \\, {, or } as the escape character, you must place an additional backslash symbol in front of the delimiter symbol, otherwise you will receive an error message For example,  
+  If you use the symbols \\, {, or } as the escape character, you must place an additional backslash symbol in front of the delimiter symbol, otherwise you will receive an error message For example,  
   
--   \\\\, \\{, \\}.  
+- \\\\, \\{, \\}.  
   
 ### Child Elements in the Flat File Schema Wizard  
  Each child element contains **Element Name**, **Element Type**, **Data Type** and **Content**. You use the **Element Name** text box to type a meaningful name for the node. The **Element Type** is a drop-down list with the following values:  
   
--   **Field element**: Specifies that this node will be created in the schema as an element.  
+- **Field element**: Specifies that this node will be created in the schema as an element.  
   
--   **Field attribute**: Specifies that this node will be created in the schema as an attribute.  
+- **Field attribute**: Specifies that this node will be created in the schema as an attribute.  
   
--   **Record**: Specifies that a record without children will be created in the schema.  
+- **Record**: Specifies that a record without children will be created in the schema.  
   
--   **Repeating record**: Specifies that a record without children will be created in the schema and its max occurrence is set to **Unbounded**.  
+- **Repeating record**: Specifies that a record without children will be created in the schema and its max occurrence is set to **Unbounded**.  
   
--   **Ignore**: Nothing will be created in the schema for this node.  
+- **Ignore**: Nothing will be created in the schema for this node.  
   
- By default all elements are of type **Field element** and their data type is **string**.  
+  By default all elements are of type **Field element** and their data type is **string**.  
   
 > [!NOTE]
 >  A child element can be declared as a **Field attribute** only if there are no children before it that are declared as **Field elements**, **Record** or **Repeating record**.  

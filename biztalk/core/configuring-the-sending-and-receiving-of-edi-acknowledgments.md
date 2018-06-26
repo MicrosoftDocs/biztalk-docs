@@ -37,55 +37,55 @@ To configure the sending of an EDI acknowledgment in response to a received inte
   
 ### To request an acknowledgment for the party that sent the original interchange  
   
-1.  > [!NOTE]
-    >  By performing the steps in this procedure, you configure that the party that sends the interchange expects an acknowledgement back.  
+1. > [!NOTE]
+   >  By performing the steps in this procedure, you configure that the party that sends the interchange expects an acknowledgement back.  
   
-     In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click the **Parties** node. In the **Parties and Business Profiles** page, click the party that has the agreement for which you need to enable acknowledgement. In the **Agreement** section of the page, right-click the agreement and click **Properties**. In the **Agreement Properties** dialog box, in the one-way agreement tab (to which the inbound interchange will resolve), do the following:  
+    In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click the **Parties** node. In the **Parties and Business Profiles** page, click the party that has the agreement for which you need to enable acknowledgement. In the **Agreement** section of the page, right-click the agreement and click **Properties**. In the **Agreement Properties** dialog box, in the one-way agreement tab (to which the inbound interchange will resolve), do the following:  
   
-    1.  In the **Identifiers** page, enter the values for the sender and receiver qualifiers.  
+   1. In the **Identifiers** page, enter the values for the sender and receiver qualifiers.  
   
-         For an X12-encoded acknowledgment, enter values for ISA5, ISA6, ISA7, and ISA8. For ISA5 and ISA6, enter the values for the party that will send the interchange. For ISA7 and ISA8, enter the values for the party that will receive the interchange.  
+       For an X12-encoded acknowledgment, enter values for ISA5, ISA6, ISA7, and ISA8. For ISA5 and ISA6, enter the values for the party that will send the interchange. For ISA7 and ISA8, enter the values for the party that will receive the interchange.  
   
-         For an EDIFACT-encoded acknowledgment, enter values for UNB2.1, UNB2.2, UNB3.1, and UNB3.2. For UNB2.1 and UNB2.2, enter the values for the party that will send the interchange. For UNB3.1 and UNB3.2, enter the values for the party that will receive the interchange.  
+       For an EDIFACT-encoded acknowledgment, enter values for UNB2.1, UNB2.2, UNB3.1, and UNB3.2. For UNB2.1 and UNB2.2, enter the values for the party that will send the interchange. For UNB3.1 and UNB3.2, enter the values for the party that will receive the interchange.  
   
-    2.  In the **Acknowledgements** page, select properties defining the kind of acknowledgement that the sender party expects:  
+   2. In the **Acknowledgements** page, select properties defining the kind of acknowledgement that the sender party expects:  
   
-         For X12 acknowledgements, select **TA1 Expected** and/or **997 Expected** depending on which acknowledgements are expected. For each acknowledgement type, select **Do not batch \<ACK type\>** if you want each instance of an acknowledgment to be sent as a separate interchange.  
+       For X12 acknowledgements, select **TA1 Expected** and/or **997 Expected** depending on which acknowledgements are expected. For each acknowledgement type, select **Do not batch \<ACK type\>** if you want each instance of an acknowledgment to be sent as a separate interchange.  
   
-         For EDIFACT acknowledgements, select **Receipt of message (CONTRL) expected** and/or **Acknowledgement (CONTRL) expected** depending on which acknowledgements are expected. For each acknowledgement type, select **Do not batch \<ACK type\>** if you want each instance of an acknowledgment to be sent as a separate interchange.  
+       For EDIFACT acknowledgements, select **Receipt of message (CONTRL) expected** and/or **Acknowledgement (CONTRL) expected** depending on which acknowledgements are expected. For each acknowledgement type, select **Do not batch \<ACK type\>** if you want each instance of an acknowledgment to be sent as a separate interchange.  
   
-    3.  In the **Local Host Settings** page under the **Interchange Settings** section, clear the **Route ACK to send pipeline on request-response receive port** to return the acknowledgment asynchronously over a one-way send port. Keep this property as selected to return the acknowledgment synchronously over a two-way receive port.  
+   3. In the **Local Host Settings** page under the **Interchange Settings** section, clear the **Route ACK to send pipeline on request-response receive port** to return the acknowledgment asynchronously over a one-way send port. Keep this property as selected to return the acknowledgment synchronously over a two-way receive port.  
   
-    4.  In the **Send Ports** page, in the **Name** column of the **Send ports** grid, select the send port that you have set up to send the acknowledgment.  
+   4. In the **Send Ports** page, in the **Name** column of the **Send ports** grid, select the send port that you have set up to send the acknowledgment.  
   
-        > [!NOTE]
-        >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses this send port setting to determine the party to use when processing the message. For more information, see [Agreement Resolution and Schema Determination for Outgoing EDI Messages](../core/agreement-resolution-and-schema-determination-for-outgoing-edi-messages.md).  
-  
-        > [!NOTE]
-        >  If you have not set up the send port, you may have to perform this step later.  
+      > [!NOTE]
+      >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses this send port setting to determine the party to use when processing the message. For more information, see [Agreement Resolution and Schema Determination for Outgoing EDI Messages](../core/agreement-resolution-and-schema-determination-for-outgoing-edi-messages.md).  
+      > 
+      > [!NOTE]
+      >  If you have not set up the send port, you may have to perform this step later.  
   
 ### To configure how the party sends the acknowledgement back  
   
-1.  > [!NOTE]
-    >  By performing the steps in this procedure, you configure how the party that received the interchange sends an acknowledgement back.  
+1. > [!NOTE]
+   >  By performing the steps in this procedure, you configure how the party that received the interchange sends an acknowledgement back.  
   
-     In the same **Agreement Properties** dialog box, in the other one-way agreement tab, do the following:  
+    In the same **Agreement Properties** dialog box, in the other one-way agreement tab, do the following:  
   
-    1.  In the **Identifiers** page, enter the values for the sender and receiver qualifiers.  
+   1. In the **Identifiers** page, enter the values for the sender and receiver qualifiers.  
   
-        > [!NOTE]
-        >  While sending the acknowledgement, the party that received the original interchange becomes the sender and the party that sent the original interchange becomes the receiver. Hence, the values that you enter in the Identifiers page now are opposite of the values that you entered in the one-way agreement tab in the previous step. This serves two purposes:  
-        >   
-        >  -   The acknowledgement being sent back will resolve to this one-way agreement that you are creating because the sender and receiver context properties on the acknowledgement will match the sender and receiver values you enter on the Identifiers page now.  
-        > -   Any customization you want to include in the acknowledgement can be configured on this agreement tab. For example, you can use other separators, you can choose to have CR LF enabled, etc.  
+      > [!NOTE]
+      >  While sending the acknowledgement, the party that received the original interchange becomes the sender and the party that sent the original interchange becomes the receiver. Hence, the values that you enter in the Identifiers page now are opposite of the values that you entered in the one-way agreement tab in the previous step. This serves two purposes:  
+      > 
+      > - The acknowledgement being sent back will resolve to this one-way agreement that you are creating because the sender and receiver context properties on the acknowledgement will match the sender and receiver values you enter on the Identifiers page now.  
+      >   -   Any customization you want to include in the acknowledgement can be configured on this agreement tab. For example, you can use other separators, you can choose to have CR LF enabled, etc.  
   
-         For an X12-encoded acknowledgment, enter values for ISA5, ISA6, ISA7, and ISA8. For ISA5 and ISA6, enter the values for the party that will send the acknowledgement (this will be same as the party that received the original interchange). For ISA7 and ISA8, enter the values for the party that will receive the acknowledgement (this will be same as the party that sent the original interchange).  
+       For an X12-encoded acknowledgment, enter values for ISA5, ISA6, ISA7, and ISA8. For ISA5 and ISA6, enter the values for the party that will send the acknowledgement (this will be same as the party that received the original interchange). For ISA7 and ISA8, enter the values for the party that will receive the acknowledgement (this will be same as the party that sent the original interchange).  
   
-         For an EDIFACT-encoded acknowledgment, enter values for UNB2.1, UNB2.2, UNB3.1, and UNB3.2. For UNB2.1 and UNB2.2, enter the values for the party that will send the acknowledgement (this will be same as the party that received the original interchange). For UNB3.1 and UNB3.2, enter the values for the party that will receive the acknowledgement (this will be same as the party that sent the original interchange).  
+       For an EDIFACT-encoded acknowledgment, enter values for UNB2.1, UNB2.2, UNB3.1, and UNB3.2. For UNB2.1 and UNB2.2, enter the values for the party that will send the acknowledgement (this will be same as the party that received the original interchange). For UNB3.1 and UNB3.2, enter the values for the party that will receive the acknowledgement (this will be same as the party that sent the original interchange).  
   
-    2.  For an X12 or EDIFACT acknowledgment, if required, on the **Charset and Separators** page, specify separators that you want to use in the acknowledgement. You can also specify if the acknowledgement must use a CR LF suffix.  
+   2. For an X12 or EDIFACT acknowledgment, if required, on the **Charset and Separators** page, specify separators that you want to use in the acknowledgement. You can also specify if the acknowledgement must use a CR LF suffix.  
   
-    3.  For an EDIFACT acknowledgment, if required, on the **Envelopes** page under the **Interchange Settings** section, specify whether the acknowledgement would include a UNA or a UNG segment by selecting the appropriate options.  
+   3. For an EDIFACT acknowledgment, if required, on the **Envelopes** page under the **Interchange Settings** section, specify whether the acknowledgement would include a UNA or a UNG segment by selecting the appropriate options.  
   
 ## See Also  
  [Configuring EDI Acknowledgments](../core/configuring-edi-acknowledgments.md)   

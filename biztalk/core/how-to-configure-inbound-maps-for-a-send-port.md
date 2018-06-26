@@ -32,20 +32,20 @@ This topic describes how to use the BizTalk Server Administration console to con
   
 ### To configure inbound maps for a send port  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure an inbound map for a send port.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to configure an inbound map for a send port.  
   
-3.  Expand **Send Ports**, right-click the send port, click **Properties**, and then click **Inbound Maps**.  
+3. Expand **Send Ports**, right-click the send port, click **Properties**, and then click **Inbound Maps**.  
   
-4.  Configure the inbound maps as described in the following table, and then click **OK**. Repeat as needed to add or remove multiple maps.  
+4. Configure the inbound maps as described in the following table, and then click **OK**. Repeat as needed to add or remove multiple maps.  
   
-    |Use this|To do this|  
-    |--------------|----------------|  
-    |**Remove**|Click to remove the selected map.|  
-    |**Source Document**|From the drop-down list, select the source document for the inbound map.|  
-    |**Map**|From the drop-down list, select the map to associate with the source and target documents.|  
-    |**Target Document**|From the drop-down list, select the target document for the inbound map.|  
+   |Use this|To do this|  
+   |--------------|----------------|  
+   |**Remove**|Click to remove the selected map.|  
+   |**Source Document**|From the drop-down list, select the source document for the inbound map.|  
+   |**Map**|From the drop-down list, select the map to associate with the source and target documents.|  
+   |**Target Document**|From the drop-down list, select the target document for the inbound map.|  
   
 ## See Also  
  [Creating and Configuring Send Ports](../core/creating-and-configuring-send-ports.md)   

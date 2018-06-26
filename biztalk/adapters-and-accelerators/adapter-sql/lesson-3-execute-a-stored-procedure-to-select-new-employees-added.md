@@ -31,15 +31,15 @@ UPDATE Employee SET Status = 1 WHERE Status = 0
   
  In this lesson, you will execute a stored procedure, **UPDATE_EMPLOYEE**, which in turn executes the Select and Update statements. After you have finished this lesson, your orchestration will do the following:  
   
-1.  Receives notification for any changes to the **Employee** table.  
+1. Receives notification for any changes to the **Employee** table.  
   
-2.  Extracts the type of notification from the notification message received.  
+2. Extracts the type of notification from the notification message received.  
   
-3.  If the notification message is for an Insert operation, the orchestration executes the **UPDATE_EMPLOYEE** stored procedure.  
+3. If the notification message is for an Insert operation, the orchestration executes the **UPDATE_EMPLOYEE** stored procedure.  
   
-4.  The stored procedure reads the newly entered records in the **Employee** table. After reading the new records, the stored procedure also sets the **Status** column for those records to “1.”  
+4. The stored procedure reads the newly entered records in the **Employee** table. After reading the new records, the stored procedure also sets the **Status** column for those records to “1.”  
   
- Now you know why you need to execute the stored procedure. You now need to think about how to execute this as part of the orchestration. The orchestration needs a request message for the **UPDATE_EMPLOYEE** stored procedure. In this tutorial, you will create a custom class library that will create the message on the fly and then provide it to the orchestration. After the orchestration receives the message, it will send the message to the SQL Server using the SQL adapter and receive the response.  
+   Now you know why you need to execute the stored procedure. You now need to think about how to execute this as part of the orchestration. The orchestration needs a request message for the **UPDATE_EMPLOYEE** stored procedure. In this tutorial, you will create a custom class library that will create the message on the fly and then provide it to the orchestration. After the orchestration receives the message, it will send the message to the SQL Server using the SQL adapter and receive the response.  
   
 ## In This Section  
   

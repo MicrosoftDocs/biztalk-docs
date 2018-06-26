@@ -30,15 +30,15 @@ This section discusses how transactions work in receiving and sending.
   
  On transacted receives, the adapter suspends failed messages so that it does not lose any one of the messages. During a transacted receive the adapter adds messages to a batch until the batch is complete. It then submits the batch:  
   
--   If there are no problems and the server receives the messages, the adapter commits the transaction.  
+- If there are no problems and the server receives the messages, the adapter commits the transaction.  
   
--   If there are problems, the adapter creates a new batch as part of the current transaction. It then moves any problem messages into the new batch. It then resubmits the first batch and submits the new batch as suspended messages. The adapter commits the transaction if there are no problems during this resubmission.  
+- If there are problems, the adapter creates a new batch as part of the current transaction. It then moves any problem messages into the new batch. It then resubmits the first batch and submits the new batch as suspended messages. The adapter commits the transaction if there are no problems during this resubmission.  
   
- If you are running an MSMQ adapter send handler in a clustered BizTalk Host instance, you should cluster the MSMQ service in the same cluster group to ensure transactional consistency.  
+  If you are running an MSMQ adapter send handler in a clustered BizTalk Host instance, you should cluster the MSMQ service in the same cluster group to ensure transactional consistency.  
   
- If "Network DTC Access" is disabled in the DCOMCNFG utility, a MSMQ transactional remote receive operation will fail with a cryptic error message.  To do a transactional remote receive with the MSMQ adapter, "Network DTC Access" must be enabled. More information can be found at [http://go.microsoft.com/fwlink/?LinkId=124623](http://go.microsoft.com/fwlink/?LinkId=124623).  
+  If "Network DTC Access" is disabled in the DCOMCNFG utility, a MSMQ transactional remote receive operation will fail with a cryptic error message.  To do a transactional remote receive with the MSMQ adapter, "Network DTC Access" must be enabled. More information can be found at [http://go.microsoft.com/fwlink/?LinkId=124623](http://go.microsoft.com/fwlink/?LinkId=124623).  
   
- If you are running an MSMQ adapter receive handler in a clustered BizTalk Host instance, you should cluster the MSMQ service in the same cluster group to support local transacted reads because MSMQ does not support remote transactional reads. For more information about running MSMQ adapter handlers in a clustered instance of a BizTalk Host, see [Considerations for Running Adapter Handlers within a Clustered Host](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md).  
+  If you are running an MSMQ adapter receive handler in a clustered BizTalk Host instance, you should cluster the MSMQ service in the same cluster group to support local transacted reads because MSMQ does not support remote transactional reads. For more information about running MSMQ adapter handlers in a clustered instance of a BizTalk Host, see [Considerations for Running Adapter Handlers within a Clustered Host](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md).  
   
 ## See Also  
  [Reliable Messaging with the MSMQ Adapter](../core/reliable-messaging-with-the-msmq-adapter.md)

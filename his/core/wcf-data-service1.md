@@ -91,19 +91,19 @@ WCF Data Services enables you to create and consume Open Data Protocol (OData) s
 ##  <a name="test"></a> Testing the WCF Data Service  
  Follow these steps to test the WCF Data Service that you have created.  
   
-1.  In the **Debug** menu, click **Start Debugging**. If prompted t enable debugging, click **OK**. Internet Explorer displays the WCF Data Service.  
+1. In the **Debug** menu, click **Start Debugging**. If prompted t enable debugging, click **OK**. Internet Explorer displays the WCF Data Service.  
   
-     OData exposes data as resources that are addressable by URIs. The resource paths are constructed based on the entity-relationship conventions of the Entity Data Model. In this model, entities represent operational units of data in an application domain, such as DEPARTMENTs and EMPLOYEEs.  
+    OData exposes data as resources that are addressable by URIs. The resource paths are constructed based on the entity-relationship conventions of the Entity Data Model. In this model, entities represent operational units of data in an application domain, such as DEPARTMENTs and EMPLOYEEs.  
   
-2.  In Internet Explorer, enter a URI to return all of the records from a DB2 table through the data service.  
+2. In Internet Explorer, enter a URI to return all of the records from a DB2 table through the data service.  
   
-     In OData, you address entity resources as an entity set that contains instances of entity types. For example, the URI http://services.odata.org/Northwind/Northwind.svc/Customers('ALFKI')/Orders returns all of the orders from the Northwind data service that are related to the customer with a CustomerID value of ALFKI.  
+    In OData, you address entity resources as an entity set that contains instances of entity types. For example, the URI http://services.odata.org/Northwind/Northwind.svc/Customers('ALFKI')/Orders returns all of the orders from the Northwind data service that are related to the customer with a CustomerID value of ALFKI.  
   
-    ```  
-    http://localhost:36651/DynamicData/WcfDataServiceDB2.svc/DEPARTMENTs  
-    ```  
+   ```  
+   http://localhost:36651/DynamicData/WcfDataServiceDB2.svc/DEPARTMENTs  
+   ```  
   
-3.  Close the browser when you have finished viewing the database records.  
+3. Close the browser when you have finished viewing the database records.  
   
 ## See Also  
  [Dynamic Data Web](../core/dynamic-data-web1.md)   

@@ -34,22 +34,22 @@ CM_ENTRY Extract_Conversation_State( 
  *conversation_state*  
  Returned parameter. Specifies the conversation state. Possible values are:  
   
--   CM_INITIALIZE_STATE  
+- CM_INITIALIZE_STATE  
   
--   CM_SEND_STATE  
+- CM_SEND_STATE  
   
--   CM_RECEIVE_STATE  
+- CM_RECEIVE_STATE  
   
--   CM_SEND_PENDING_STATE  
+- CM_SEND_PENDING_STATE  
   
--   CM_CONFIRM_STATE  
+- CM_CONFIRM_STATE  
   
--   CM_CONFIRM_SEND_STATE  
+- CM_CONFIRM_SEND_STATE  
   
--   CM_CONFIRM_DEALLOCATE_STATE  
+- CM_CONFIRM_DEALLOCATE_STATE  
   
- *return_code*  
- The code returned from this call. The valid return codes are listed later in this topic.  
+  *return_code*  
+  The code returned from this call. The valid return codes are listed later in this topic.  
   
 ## Return Codes  
  CM_OK  

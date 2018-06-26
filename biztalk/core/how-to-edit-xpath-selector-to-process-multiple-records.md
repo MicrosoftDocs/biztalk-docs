@@ -50,7 +50,7 @@ Separate child TypedXmlDocuments are created when a TypedXmlDocument is asserted
   
  IF 1==1  
   
- THEN **/Order/Orderline/**Total = (**/Order/Orderline/Hat/**Cost + **/Order/Orderline/Shirt/**Cost)  
+ THEN <strong>/Order/Orderline/</strong>Total = (<strong>/Order/Orderline/Hat/</strong>Cost + <strong>/Order/Orderline/Shirt/</strong>Cost)  
   
  The bold portion of the XPaths indicate the Selector portion and the remainder represents the Field XPath. These are the defaults built by the Composer. Running this policy, however, would result in the creation of 6 objects—2 Orderline objects, 2 Hat objects, and 2 Shirt objects. The Orderline totals would be calculated for each combination of Hat and Shirt objects and the totals would always be set to the same value, which resulted from the last execution of the rule. The rule would fire 8 times. This is not what is intended in this scenario.  
   
@@ -58,7 +58,7 @@ Separate child TypedXmlDocuments are created when a TypedXmlDocument is asserted
   
  IF 1==1  
   
- THEN **/Order/Orderline/**Total = (**/Order/Orderline/**Hat/Cost + **/Order/Orderline/**Shirt/Cost)  
+ THEN <strong>/Order/Orderline/</strong>Total = (<strong>/Order/Orderline/</strong>Hat/Cost + <strong>/Order/Orderline/</strong>Shirt/Cost)  
   
  The Selector XPath values for all three fields have been set to the same /Order/Orderline value and the Field XPath values have been edited accordingly. This is done by changing the XPath Selector and XPath Field values in the Properties window when a node is selected in the XML Schemas tab. This should be done prior to dragging the field into a rule argument.  
   

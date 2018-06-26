@@ -59,33 +59,33 @@ CM_ENTRY Request_To_Send( 
   
  In response to this request, the partner program can change the conversation to RECEIVE state by issuing one of the following calls:  
   
--   [Receive](../core/receive-cpi-c-2.md) with receive type set to CM_RECEIVE_AND_WAIT  
+- [Receive](../core/receive-cpi-c-2.md) with receive type set to CM_RECEIVE_AND_WAIT  
   
--   [Prepare_To_Receive](../core/prepare-to-receive-cpi-c-1.md)  
+- [Prepare_To_Receive](../core/prepare-to-receive-cpi-c-1.md)  
   
--   **Send_Data** with send type set to CM_SEND_AND_PREP_TO_RECEIVE  
+- **Send_Data** with send type set to CM_SEND_AND_PREP_TO_RECEIVE  
   
- The partner program can also ignore the request to send.  
+  The partner program can also ignore the request to send.  
   
- The conversation state changes to SEND for the local program when the local program receives one of the following values through the *status_received* parameter of a subsequent **Receive** call:  
+  The conversation state changes to SEND for the local program when the local program receives one of the following values through the *status_received* parameter of a subsequent **Receive** call:  
   
--   CM_SEND_RECEIVED  
+- CM_SEND_RECEIVED  
   
--   CM_CONFIRM_SEND_RECEIVED and the local program replies with a [Confirmed](../core/confirmed-cpi-c-2.md) call  
+- CM_CONFIRM_SEND_RECEIVED and the local program replies with a [Confirmed](../core/confirmed-cpi-c-2.md) call  
   
 ## Remarks  
  The request-to-send notification is received by the partner program through the *request_to_send_received* parameter of the following calls:  
   
--   [Confirmed](../core/confirmed-cpi-c-2.md)  
+- [Confirmed](../core/confirmed-cpi-c-2.md)  
   
--   [Receive](../core/receive-cpi-c-2.md)  
+- [Receive](../core/receive-cpi-c-2.md)  
   
--   [Send_Data](../core/send-data-cpi-c-2.md)  
+- [Send_Data](../core/send-data-cpi-c-2.md)  
   
--   [Send_Error](../core/send-error-cpi-c-2.md)  
+- [Send_Error](../core/send-error-cpi-c-2.md)  
   
--   [Test_Request_To_Send_Received](../core/test-request-to-send-received-cpi-c-1.md)  
+- [Test_Request_To_Send_Received](../core/test-request-to-send-received-cpi-c-1.md)  
   
- Request-to-send notification is sent to the partner program immediately. CPI-C does not wait until the send buffer fills up or is flushed. Consequently, the request-to-send notification can arrive out of sequence. For example, if the local program is in SEND state and issues the [Prepare_To_Receive](../core/prepare-to-receive-cpi-c-1.md) call followed by the **Request_To_Send** call, the partner program, in RECEIVE state, can receive the request-to-send notification before it receives the send notification. For this reason, *request_to_send* can be reported to a program through the [Receive](../core/receive-cpi-c-2.md) call.  
+  Request-to-send notification is sent to the partner program immediately. CPI-C does not wait until the send buffer fills up or is flushed. Consequently, the request-to-send notification can arrive out of sequence. For example, if the local program is in SEND state and issues the [Prepare_To_Receive](../core/prepare-to-receive-cpi-c-1.md) call followed by the **Request_To_Send** call, the partner program, in RECEIVE state, can receive the request-to-send notification before it receives the send notification. For this reason, *request_to_send* can be reported to a program through the [Receive](../core/receive-cpi-c-2.md) call.  
   
- Upon receiving a request-to-send notification, the partner logical unit (LU) retains the notification until the partner issues a call that returns *request_to_send_received*. The LU keeps only one request-to-send notification per conversation. Thus the local program can issue more **Request_To_Send** calls than are explicitly handled by the partner transaction program (TP).
+  Upon receiving a request-to-send notification, the partner logical unit (LU) retains the notification until the partner issues a call that returns *request_to_send_received*. The LU keeps only one request-to-send notification per conversation. Thus the local program can issue more **Request_To_Send** calls than are explicitly handled by the partner transaction program (TP).

@@ -21,68 +21,68 @@ The Server message partners created in SAG must be specified in the SWIFTNet par
   
 ### To add SWIFTNet configuration to the paramfile  
   
-1.  Open the paramfile in a text editor, such as Notepad.  
+1. Open the paramfile in a text editor, such as Notepad.  
   
-    > [!NOTE]
-    >  The paramfile is typically located at: C:\SWIFTAlliance\RA\Ra1\cfg\paramfile.  
+   > [!NOTE]
+   >  The paramfile is typically located at: C:\SWIFTAlliance\RA\Ra1\cfg\paramfile.  
   
-2.  In the paramfile, make the highlighted change to specify the Server Message partner name:  
+2. In the paramfile, make the highlighted change to specify the Server Message partner name:  
   
-     username:snlowner  
+    username:snlowner  
   
-     subsystem_name:InteractStub  
+    subsystem_name:InteractStub  
   
-     \#subsystem_group:Interactsnf  
+    \#subsystem_group:Interactsnf  
   
-     \#subsystem_dependency:Support,Swarm  
+    \#subsystem_dependency:Support,Swarm  
   
-     subsystem_nature:critical  
+    subsystem_nature:critical  
   
-     subsystem_start:  
+    subsystem_start:  
   
-     **spawn "snlreceiver -SagMessagePartner \<Server MessagePartnerName for Interact SnF\> -AdapterMode Interact"**  
+    **spawn "snlreceiver -SagMessagePartner \<Server MessagePartnerName for Interact SnF\> -AdapterMode Interact"**  
   
-     *END  
+    *END  
   
-     subsystem_stop:  
+    subsystem_stop:  
   
-     *KILL9:snlreceiver  
+    *KILL9:snlreceiver  
   
-     *END  
+    *END  
   
-     subsystem_status:  
+    subsystem_status:  
   
-     *NB:1:snlreceiver  
+    *NB:1:snlreceiver  
   
-     *END  
+    *END  
   
-     start_event:SNL001:subsystem InteractStubSnF is up  
+    start_event:SNL001:subsystem InteractStubSnF is up  
   
-     stop_event:SNL002:subsystem InteractStubSnF is down  
+    stop_event:SNL002:subsystem InteractStubSnF is down  
   
-     \#subsystem_name:User  
+    \#subsystem_name:User  
   
-     \##subsystem_group:user  
+    \##subsystem_group:user  
   
-     \##subsystem_dependency:  
+    \##subsystem_dependency:  
   
-     \#subsystem_nature:critical  
+    \#subsystem_nature:critical  
   
-     \#subsystem_start:  
+    \#subsystem_start:  
   
-     \#*END  
+    \#*END  
   
-     \#subsystem_stop:  
+    \#subsystem_stop:  
   
-     \#*END  
+    \#*END  
   
-     \#subsystem_status:  
+    \#subsystem_status:  
   
-     \#*END  
+    \#*END  
   
-     #start_event:SNL001:subsystem User is up  
+    # start_event:SNL001:subsystem User is up  
   
-     #stop_event:SNL002:subsystem User is down  
+    # stop_event:SNL002:subsystem User is down  
   
 ## See Also  
  [InterAct Store and Forward (Push) Scenario](../../adapters-and-accelerators/fileact-interact/interact-store-and-forward-push-scenario.md)   

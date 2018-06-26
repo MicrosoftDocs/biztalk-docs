@@ -22,15 +22,15 @@ When many long-running business processes are running at the same time, memory a
 ## Dehydration  
  The orchestration engine might determine that an orchestration instance has been idle for a relatively long period of time. It calculates thresholds to determine how long it will wait for various actions to take place, and if those thresholds are exceeded, it dehydrates the instance. This can occur under the following circumstances:  
   
--   When the orchestration is waiting to receive a message, and the wait is longer than a threshold determined by the engine.  
+- When the orchestration is waiting to receive a message, and the wait is longer than a threshold determined by the engine.  
   
--   When the orchestration is "listening" for a message, as it does when you use a **Listen** shape, and no branch is triggered before a threshold determined by the engine. The only exception to this is when the **Listen** shape contains an activation receive.  
+- When the orchestration is "listening" for a message, as it does when you use a **Listen** shape, and no branch is triggered before a threshold determined by the engine. The only exception to this is when the **Listen** shape contains an activation receive.  
   
--   When a delay in the orchestration is longer than a threshold determined by the engine.  
+- When a delay in the orchestration is longer than a threshold determined by the engine.  
   
- The engine dehydrates the instance by saving the state, and frees up the memory required by the instance. By dehydrating dormant orchestration instances, the engine makes it possible for a large number of long-running business processes to run concurrently on the same computer.  
+  The engine dehydrates the instance by saving the state, and frees up the memory required by the instance. By dehydrating dormant orchestration instances, the engine makes it possible for a large number of long-running business processes to run concurrently on the same computer.  
   
- You can set 12 properties to configure how dehydration works in BizTalk Server. The topics in this section list and describe these properties and their default values, and discuss how various values affect dehydration behavior.  
+  You can set 12 properties to configure how dehydration works in BizTalk Server. The topics in this section list and describe these properties and their default values, and discuss how various values affect dehydration behavior.  
   
 ## Rehydration  
  The orchestration engine can be triggered to rehydrate an orchestration instance by the receipt of a message or by the expiration of a time-out specified in a Delay shape. It then loads the saved orchestration instance into memory, restores its state, and runs it from the point where it left off. For more information about using shapes in orchestrations, see [Orchestration Shapes](../core/orchestration-shapes.md).  

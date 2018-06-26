@@ -190,112 +190,112 @@ struct LUA_COMMON {
   
  Secondary return code; one of the following has occurred:  
   
--   A CLOSE_ABEND was still pending when another CLOSE_ABEND was issued. You can issue a CLOSE_ABEND if a CLOSE_NORMAL is pending.  
+- A CLOSE_ABEND was still pending when another CLOSE_ABEND was issued. You can issue a CLOSE_ABEND if a CLOSE_NORMAL is pending.  
   
--   Either a CLOSE_ABEND or a CLOSE_NORMAL was still pending when a CLOSE_NORMAL was issued.  
+- Either a CLOSE_ABEND or a CLOSE_NORMAL was still pending when a CLOSE_NORMAL was issued.  
   
- LUA_SESSION_FAILURE  
- Primary return code; an error condition, specified in the secondary return code, caused the session to fail.  
+  LUA_SESSION_FAILURE  
+  Primary return code; an error condition, specified in the secondary return code, caused the session to fail.  
   
- LUA_NOT_ACTIVE  
+  LUA_NOT_ACTIVE  
   
- Secondary return code; LUA was not active within Microsoft Host Integration Server  when an LUA verb was issued.  
+  Secondary return code; LUA was not active within Microsoft Host Integration Server  when an LUA verb was issued.  
   
- LUA_UNEXPECTED_SNA_SEQUENCE  
+  LUA_UNEXPECTED_SNA_SEQUENCE  
   
- Secondary return code; unexpected data or commands were received from the host while [SLI_OPEN](../core/sli-open2.md) was processing.  
+  Secondary return code; unexpected data or commands were received from the host while [SLI_OPEN](../core/sli-open2.md) was processing.  
   
- LUA_NEGATIVE_RSP_CHASE  
+  LUA_NEGATIVE_RSP_CHASE  
   
- Secondary return code; a negative response to an SNA CHASE command from the host was received by the LUA interface while **SLI_CLOSE** was being processed. **SLI_CLOSE** continued processing to stop the session.  
+  Secondary return code; a negative response to an SNA CHASE command from the host was received by the LUA interface while **SLI_CLOSE** was being processed. **SLI_CLOSE** continued processing to stop the session.  
   
- LUA_NEGATIVE_RSP_SHUTC  
+  LUA_NEGATIVE_RSP_SHUTC  
   
- Secondary return code; a negative response to an SNA SHUTC command from the host was received by the SLI while **SLI_CLOSE** was still being processed. **SLI_CLOSE** continued processing to stop the session.  
+  Secondary return code; a negative response to an SNA SHUTC command from the host was received by the SLI while **SLI_CLOSE** was still being processed. **SLI_CLOSE** continued processing to stop the session.  
   
- LUA_NEGATIVE_RSP_SHUTD  
+  LUA_NEGATIVE_RSP_SHUTD  
   
- Secondary return code; a negative response to an SNA RSHUTD command from the host was received by the LUA interface while **SLI_CLOSE** was still being processed. **SLI_CLOSE** continued processing to stop the session.  
+  Secondary return code; a negative response to an SNA RSHUTD command from the host was received by the LUA interface while **SLI_CLOSE** was still being processed. **SLI_CLOSE** continued processing to stop the session.  
   
- LUA_RECEIVED_UNBIND  
+  LUA_RECEIVED_UNBIND  
   
- Secondary return code; the primary logical unit (PLU) sent an SNA UNBIND command to the LUA interface when a session was active. As a result, the session was stopped.  
+  Secondary return code; the primary logical unit (PLU) sent an SNA UNBIND command to the LUA interface when a session was active. As a result, the session was stopped.  
   
- LUA_NO_RUI_SESSION  
+  LUA_NO_RUI_SESSION  
   
- Secondary return code; no session has been initialized for the LUA verb issued, or some verb other than [SLI_OPEN](../core/sli-open2.md) was issued before the session was initialized.  
+  Secondary return code; no session has been initialized for the LUA verb issued, or some verb other than [SLI_OPEN](../core/sli-open2.md) was issued before the session was initialized.  
   
- LUA_LU_COMPONENT_DISCONNECTED  
+  LUA_LU_COMPONENT_DISCONNECTED  
   
- Secondary return code; an LU component is unavailable because it is not connected properly. Make sure that the power is on.  
+  Secondary return code; an LU component is unavailable because it is not connected properly. Make sure that the power is on.  
   
- LUA_IN_PROGRESS  
- Primary return code; an asynchronous command was received but is not completed.  
+  LUA_IN_PROGRESS  
+  Primary return code; an asynchronous command was received but is not completed.  
   
- LUA_COMM_SUBSYSTEM_ABENDED  
- Primary return code; indicates one of the following conditions:  
+  LUA_COMM_SUBSYSTEM_ABENDED  
+  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the transaction program (TP) and the physical unit (PU) 2.1 node has been broken (a LAN error).  
+- The connection between the transaction program (TP) and the physical unit (PU) 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TPs computer encountered an ABEND.  
+- The SnaBase at the TPs computer encountered an ABEND.  
   
- LUA_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  LUA_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- LUA_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  LUA_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- LUA_UNEXPECTED_DOS_ERROR  
- Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
+  LUA_UNEXPECTED_DOS_ERROR  
+  Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
   
- LUA_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  LUA_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- LUA_INVALID_VERB  
- Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
+  LUA_INVALID_VERB  
+  Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
   
 ## Remarks  
  There are two types of **SLI_CLOSE**: normal and ABEND. For a normal close, **lua_flag1.close_abend** is set to zero. The sequence for a normal close can be initiated either as primary (host-initiated) or secondary (requested by a Windows LUA application). During a primary normal close, the Windows LUA interface:  
   
--   Reads the SHUTD command and posts the SESSION_END_REQUESTED status to the application.  
+- Reads the SHUTD command and posts the SESSION_END_REQUESTED status to the application.  
   
--   Writes the CHASE command (if necessary).  
+- Writes the CHASE command (if necessary).  
   
--   Reads and processes the CHASE command response (if necessary).  
+- Reads and processes the CHASE command response (if necessary).  
   
--   Writes the shutdown complete (SHUTC) command.  
+- Writes the shutdown complete (SHUTC) command.  
   
--   Reads and processes the SHUTC command response.  
+- Reads and processes the SHUTC command response.  
   
--   Reads and processes the CLEAR command (if necessary).  
+- Reads and processes the CLEAR command (if necessary).  
   
--   Writes the CLEAR command response (if necessary).  
+- Writes the CLEAR command response (if necessary).  
   
--   Reads and processes the UNBIND command.  
+- Reads and processes the UNBIND command.  
   
--   Writes the UNBIND command response.  
+- Writes the UNBIND command response.  
   
--   Stops the session.  
+- Stops the session.  
   
- During a secondary normal close, the Windows LUA interface:  
+  During a secondary normal close, the Windows LUA interface:  
   
--   Writes the RSHUTD command.  
+- Writes the RSHUTD command.  
   
--   Reads and processes the RSHUTD command response.  
+- Reads and processes the RSHUTD command response.  
   
--   Reads and processes the CLEAR command (if necessary).  
+- Reads and processes the CLEAR command (if necessary).  
   
--   Writes the CLEAR command response (if necessary).  
+- Writes the CLEAR command response (if necessary).  
   
--   Reads and processes the UNBIND command.  
+- Reads and processes the UNBIND command.  
   
--   Writes the UNBIND command response.  
+- Writes the UNBIND command response.  
   
--   Stops the session.  
+- Stops the session.  
   
- For an ABEND close, **lua_flag1.close_abend** is set to 1, which directs the Windows LUA interface to close the session immediately. After **SLI_CLOSE** starts processing, the LU-LU connection is terminated and the SSCP is informed that the LU is not capable of sustaining a session.  
+  For an ABEND close, **lua_flag1.close_abend** is set to 1, which directs the Windows LUA interface to close the session immediately. After **SLI_CLOSE** starts processing, the LU-LU connection is terminated and the SSCP is informed that the LU is not capable of sustaining a session.  
   
 ## See Also  
  [SLI_OPEN](../core/sli-open2.md)

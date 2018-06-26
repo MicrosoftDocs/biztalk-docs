@@ -31,7 +31,7 @@ manager: "anneta"
   
 > [!NOTE]
 >  Host clustering is only available with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Enterprise Edition.  
-  
+> 
 > [!NOTE]
 >  Before you can cluster a BizTalk host, you must have configured at least two [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group as members of a Windows Server Failover cluster. For more information about configuring a Windows Server Failover cluster, please see the Windows Server online help.  
   

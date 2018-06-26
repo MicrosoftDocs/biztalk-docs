@@ -60,13 +60,13 @@ BAM Roles
   
  Using the Tracking Profile Editor, the developer performs the following steps to map the XML to an orchestration:  
   
--   Loads the deployed assembly that is stored in the BizTalk Management database (also known as the Configuration database). The deployed assembly contains one or more orchestrations corresponding to the requirements that the business analyst specified in Step 1 above.  
+- Loads the deployed assembly that is stored in the BizTalk Management database (also known as the Configuration database). The deployed assembly contains one or more orchestrations corresponding to the requirements that the business analyst specified in Step 1 above.  
   
--   Defines the data to be extracted from an orchestration. You do this by dropping items from the message schemas and orchestration shapes into the appropriate business milestone (event) and data item folders.  
+- Defines the data to be extracted from an orchestration. You do this by dropping items from the message schemas and orchestration shapes into the appropriate business milestone (event) and data item folders.  
   
--   When he is finished, he saves the profile as a BizTalk® Server tracking (.btt) file, to a storage database such as Visual SourceSafe.  
+- When he is finished, he saves the profile as a BizTalk® Server tracking (.btt) file, to a storage database such as Visual SourceSafe.  
   
- The developer deploys the .btt file to a testing database, and verifies the result through integration testing.  
+  The developer deploys the .btt file to a testing database, and verifies the result through integration testing.  
   
 ## Deploying the Tracking Profile  
  Using the Tracking Profile Editor, the system administrator deploys the profile to one or more BizTalk Management databases.  

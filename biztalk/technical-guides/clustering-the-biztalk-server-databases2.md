@@ -47,15 +47,15 @@ If the BizTalk Server databases become unavailable, the BizTalk Server environme
   
 #### Run BizTalk Configuration  
   
-1.  Install BizTalk Server on a runtime server.  
+1. Install BizTalk Server on a runtime server.  
   
 2. Open **BizTalk Server Configuration**.  
   
-3.  To apply a custom configuration, see [Import and Export BizTalk Server Configuration](../install-and-config-guides/import-and-export-biztalk-server-configuration.md). To specify the SQL Server cluster for the BizTalk Server databases enter the name of the SQL Server cluster in the **Databases** dialog of the configuration.  
+3. To apply a custom configuration, see [Import and Export BizTalk Server Configuration](../install-and-config-guides/import-and-export-biztalk-server-configuration.md). To specify the SQL Server cluster for the BizTalk Server databases enter the name of the SQL Server cluster in the **Databases** dialog of the configuration.  
   
-4.  Complete the BizTalk Server configuration using a [Custom Configuration](../install-and-config-guides/configure-biztalk-server.md).
+4. Complete the BizTalk Server configuration using a [Custom Configuration](../install-and-config-guides/configure-biztalk-server.md).
   
- For more information about clustering BizTalk Server databases, see [Improving Fault Tolerance in BizTalk Server by Using a Windows Server 2008 Failover Cluster or Windows Server 2003 Server Cluster](https://www.microsoft.com/download/details.aspx?id=2290).  
+   For more information about clustering BizTalk Server databases, see [Improving Fault Tolerance in BizTalk Server by Using a Windows Server 2008 Failover Cluster or Windows Server 2003 Server Cluster](https://www.microsoft.com/download/details.aspx?id=2290).  
   
 ## Behavior of BizTalk Host Instances During SQL Server Failover  
  For more information about behavior of BizTalk host instances during SQL Server failover, see [Behavior of BizTalk Server Host Instances during SQL Server Failover](../core/behavior-of-biztalk-server-host-instances-during-sql-server-failover.md).  

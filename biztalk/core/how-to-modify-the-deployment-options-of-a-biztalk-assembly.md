@@ -38,15 +38,15 @@ This topic describes how to use the BizTalk Server Administration console to mod
   
 ### To modify the deployment options of a BizTalk assembly  
   
-1.  Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand BizTalk Server Administration, expand the BizTalk group containing the BizTalk assembly for which to modify deployment options, and then expand the application containing the BizTalk assembly.  
+2. In the console tree, expand BizTalk Server Administration, expand the BizTalk group containing the BizTalk assembly for which to modify deployment options, and then expand the application containing the BizTalk assembly.  
   
-3.  Click the **Resources** folder, right-click the BizTalk assembly, and then click **Modify**.  
+3. Click the **Resources** folder, right-click the BizTalk assembly, and then click **Modify**.  
   
-4.  In **Options**, select the check boxes of the deployment options that you want.  
+4. In **Options**, select the check boxes of the deployment options that you want.  
   
-5.  If necessary, in **Destination location** edit the path where the assembly will be copied when the application is installed, and then click **OK**.  
+5. If necessary, in **Destination location** edit the path where the assembly will be copied when the application is installed, and then click **OK**.  
   
 ## See Also  
  [Managing BizTalk Assemblies](../core/managing-biztalk-assemblies.md)

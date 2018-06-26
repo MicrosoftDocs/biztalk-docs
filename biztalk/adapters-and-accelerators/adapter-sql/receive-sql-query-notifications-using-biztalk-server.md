@@ -21,23 +21,23 @@ You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-
   
  Following are some scenarios in which you can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to receive notifications from SQL Server:  
   
--   Adapter clients get only “incremental” notification, for example, only for those changes that were made to a database table since the last notification.  
+- Adapter clients get only “incremental” notification, for example, only for those changes that were made to a database table since the last notification.  
   
--   If many rows are inserted into a database table, the adapter clients can configure multiple receive locations to load-balance receiving notifications.  
+- If many rows are inserted into a database table, the adapter clients can configure multiple receive locations to load-balance receiving notifications.  
   
--   If the receive location on which the adapter clients are receiving notifications goes down, the adapter clients can configure the adapter to receive a notification as soon as the receive location is up again. The clients must also implement the logic in their application to process the records that may have been inserted, updated, or deleted while the receive location was down.  
+- If the receive location on which the adapter clients are receiving notifications goes down, the adapter clients can configure the adapter to receive a notification as soon as the receive location is up again. The clients must also implement the logic in their application to process the records that may have been inserted, updated, or deleted while the receive location was down.  
   
- Once the adapter clients receive a notification message, they can perform specific tasks based on the kind of notification received. For example, a BizTalk orchestration can be designed in such a way that it performs one set of tasks if an insert notification is received and another set of tasks if an update notification is received.  
+  Once the adapter clients receive a notification message, they can perform specific tasks based on the kind of notification received. For example, a BizTalk orchestration can be designed in such a way that it performs one set of tasks if an insert notification is received and another set of tasks if an update notification is received.  
   
- The topics in this section provide information about how to configure the adapter for each of these scenarios. To start getting notifications from SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], you must specify certain binding properties. For more information about how the adapter supports receiving messages, see [Considerations Receiving Query Notifications Using the SQL adapter](../../adapters-and-accelerators/adapter-sql/considerations-for-receiving-query-notifications-using-the-sql-adapter.md). For more information about the binding properties related to notifications, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). For more information about the structure of notification messages, see [Message Schemas for Query Notification](../../adapters-and-accelerators/adapter-sql/message-schemas-for-query-notification.md).  
+  The topics in this section provide information about how to configure the adapter for each of these scenarios. To start getting notifications from SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], you must specify certain binding properties. For more information about how the adapter supports receiving messages, see [Considerations Receiving Query Notifications Using the SQL adapter](../../adapters-and-accelerators/adapter-sql/considerations-for-receiving-query-notifications-using-the-sql-adapter.md). For more information about the binding properties related to notifications, see [Read about the BizTalk Adapter for SQL Server adapter Binding Properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md). For more information about the structure of notification messages, see [Message Schemas for Query Notification](../../adapters-and-accelerators/adapter-sql/message-schemas-for-query-notification.md).  
   
- You must also perform the following tasks on SQL Server to enable query notifications.  
+  You must also perform the following tasks on SQL Server to enable query notifications.  
   
--   You must enable Service Broker for the SQL Server database.  
+- You must enable Service Broker for the SQL Server database.  
   
--   You must ensure that the adapter client has the necessary permissions to execute commands to request notification.  
+- You must ensure that the adapter client has the necessary permissions to execute commands to request notification.  
   
- For more information about these tasks, see “Enabling Query Notifications” at [http://go.microsoft.com/fwlink/?LinkID=122323](http://go.microsoft.com/fwlink/?LinkID=122323).  
+  For more information about these tasks, see “Enabling Query Notifications” at [http://go.microsoft.com/fwlink/?LinkID=122323](http://go.microsoft.com/fwlink/?LinkID=122323).  
   
 ## In This Section  
   

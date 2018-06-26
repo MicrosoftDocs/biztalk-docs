@@ -370,357 +370,357 @@ struct LUA_COMMON {
   
  Secondary return code; the **lua_flag1** flow flags were set incorrectly when a verb was issued:  
   
--   When issuing [SLI_SEND](../core/sli-send2.md) to send an SNA response, set only one **lua_flag1** flow flag.  
+- When issuing [SLI_SEND](../core/sli-send2.md) to send an SNA response, set only one **lua_flag1** flow flag.  
   
--   When issuing SLI_RECEIVE, set at least one lua_flag1 flow flag.  
+- When issuing SLI_RECEIVE, set at least one lua_flag1 flow flag.  
   
- LUA_VERB_LENGTH_INVALID  
+  LUA_VERB_LENGTH_INVALID  
   
- Secondary return code; an LUA verb was issued with a value for **lua_verb_length** unexpected by LUA.  
+  Secondary return code; an LUA verb was issued with a value for **lua_verb_length** unexpected by LUA.  
   
- LUA_STATE_CHECK  
- Primary return code; the verb did not execute because it was issued in an invalid state.  
+  LUA_STATE_CHECK  
+  Primary return code; the verb did not execute because it was issued in an invalid state.  
   
- LUA_NO_SLI_SESSION  
+  LUA_NO_SLI_SESSION  
   
- Secondary return code; a session was not open or was down due to an [SLI_CLOSE](../core/sli-close1.md) or session failure when a command was issued.  
+  Secondary return code; a session was not open or was down due to an [SLI_CLOSE](../core/sli-close1.md) or session failure when a command was issued.  
   
- LUA_RECEIVE_ON_FLOW_PENDING  
+  LUA_RECEIVE_ON_FLOW_PENDING  
   
- Secondary return code; an **SLI_RECEIVE** was still outstanding when this application issued another **SLI_RECEIVE** for an SNA flow.  
+  Secondary return code; an **SLI_RECEIVE** was still outstanding when this application issued another **SLI_RECEIVE** for an SNA flow.  
   
- LUA_SESSION_FAILURE  
- Primary return code; an error condition, specified in the secondary return code, caused the session to fail.  
+  LUA_SESSION_FAILURE  
+  Primary return code; an error condition, specified in the secondary return code, caused the session to fail.  
   
- LUA_RUI_WRITE_FAILURE  
+  LUA_RUI_WRITE_FAILURE  
   
- Secondary return code; an unexpected error was posted to the SLI by [RUI_WRITE](../core/rui-write2.md).  
+  Secondary return code; an unexpected error was posted to the SLI by [RUI_WRITE](../core/rui-write2.md).  
   
- LUA_RECEIVED_UNBIND  
+  LUA_RECEIVED_UNBIND  
   
- Secondary return code; the primary logical unit (PLU) sent an SNA UNBIND command to the LUA interface when a session was active. As a result, the session was stopped.  
+  Secondary return code; the primary logical unit (PLU) sent an SNA UNBIND command to the LUA interface when a session was active. As a result, the session was stopped.  
   
- LUA_SLI_LOGIC_ERROR  
+  LUA_SLI_LOGIC_ERROR  
   
- Secondary return code; the LUA interface found an internal error in logic.  
+  Secondary return code; the LUA interface found an internal error in logic.  
   
- LUA_NO_RUI_SESSION  
+  LUA_NO_RUI_SESSION  
   
- Secondary return code; no session has been initialized for the LUA verb issued or some verb other than [SLI_OPEN](../core/sli-open2.md) was issued before the session was initialized.  
+  Secondary return code; no session has been initialized for the LUA verb issued or some verb other than [SLI_OPEN](../core/sli-open2.md) was issued before the session was initialized.  
   
- LUA_MODE_INCONSISTENCY  
+  LUA_MODE_INCONSISTENCY  
   
- Secondary return code; performing this function is not allowed by the current status. The request sent to the half-session component was not executed even though it was understood and supported. This SNA sense code is also an exception request sense code.  
+  Secondary return code; performing this function is not allowed by the current status. The request sent to the half-session component was not executed even though it was understood and supported. This SNA sense code is also an exception request sense code.  
   
- LUA_RECEIVER_IN_TRANSMIT_MODE  
+  LUA_RECEIVER_IN_TRANSMIT_MODE  
   
- Secondary return code; either resources needed to handle normal flow data were not available or the state of the half-duplex contention was not received when a normal-flow request was received. The result is a race condition. This SNA sense code is also an exception request sense code.  
+  Secondary return code; either resources needed to handle normal flow data were not available or the state of the half-duplex contention was not received when a normal-flow request was received. The result is a race condition. This SNA sense code is also an exception request sense code.  
   
- LUA_LU_COMPONENT_DISCONNECTED  
+  LUA_LU_COMPONENT_DISCONNECTED  
   
- Secondary return code; an LU component is unavailable because it is not connected properly. Make sure that the power is on.  
+  Secondary return code; an LU component is unavailable because it is not connected properly. Make sure that the power is on.  
   
- LUA_FUNCTION_NOT_SUPPORTED  
+  LUA_FUNCTION_NOT_SUPPORTED  
   
- Secondary return code; LUA does not support the requested function. A control character, an RU parameter, or a formatted request code may have specified the function. Specific sense code information is in bytes 2 and 3.  
+  Secondary return code; LUA does not support the requested function. A control character, an RU parameter, or a formatted request code may have specified the function. Specific sense code information is in bytes 2 and 3.  
   
- LUA_CHAINING_ERROR  
+  LUA_CHAINING_ERROR  
   
- Secondary return code; the sequence of the chain indicator settings is in error. An invalid request header or request unit for the receivers current session control or data flow control state was found. Delivery to the half-session component was prevented.  
+  Secondary return code; the sequence of the chain indicator settings is in error. An invalid request header or request unit for the receivers current session control or data flow control state was found. Delivery to the half-session component was prevented.  
   
- LUA_BRACKET  
+  LUA_BRACKET  
   
- Secondary return code; the sender failed to enforce the session bracket rules. Note that contention and race conditions are exempt from this error. An invalid request header or request unit for the receivers current session control or data flow control state was found. Delivery to the half-session component was prevented.  
+  Secondary return code; the sender failed to enforce the session bracket rules. Note that contention and race conditions are exempt from this error. An invalid request header or request unit for the receivers current session control or data flow control state was found. Delivery to the half-session component was prevented.  
   
- LUA_DIRECTION  
+  LUA_DIRECTION  
   
- Secondary return code; while the half-duplex flip-flop state was NOT_RECEIVE, a request for normal flow was received. An invalid request header or request unit for the receivers current session control or data flow control state was found. Delivery to the half-session component was prevented.  
+  Secondary return code; while the half-duplex flip-flop state was NOT_RECEIVE, a request for normal flow was received. An invalid request header or request unit for the receivers current session control or data flow control state was found. Delivery to the half-session component was prevented.  
   
- LUA_DATA_TRAFFIC_QUIESCED  
+  LUA_DATA_TRAFFIC_QUIESCED  
   
- Secondary return code; a data flow control (DFC) or function management data (FMD) request was received from a half-session that sent either a SHUTC command or QC command, and the DFC or FMD request has not responded to a RELQ command. An invalid request header or request unit for the receivers current session control or data flow control state was found. Delivery to the half-session component was prevented.  
+  Secondary return code; a data flow control (DFC) or function management data (FMD) request was received from a half-session that sent either a SHUTC command or QC command, and the DFC or FMD request has not responded to a RELQ command. An invalid request header or request unit for the receivers current session control or data flow control state was found. Delivery to the half-session component was prevented.  
   
- LUA_NO_BEGIN_BRACKET  
+  LUA_NO_BEGIN_BRACKET  
   
- Secondary return code; the receiver has already sent a positive response to a BIS command when a BID or an FMD request specifying BBI=BB was received. An invalid request header or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
+  Secondary return code; the receiver has already sent a positive response to a BIS command when a BID or an FMD request specifying BBI=BB was received. An invalid request header or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
   
- LUA_IMMEDIATE_REQUEST_MODE_ERROR  
+  LUA_IMMEDIATE_REQUEST_MODE_ERROR  
   
- Secondary return code; the request violated the immediate request mode protocol. An invalid header request or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
+  Secondary return code; the request violated the immediate request mode protocol. An invalid header request or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
   
- LUA_QUEUED_RESPONSE_ERROR  
+  LUA_QUEUED_RESPONSE_ERROR  
   
- Secondary return code; the request violated the queued response protocol. An invalid header request or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
+  Secondary return code; the request violated the queued response protocol. An invalid header request or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
   
- LUA_ERP_SYNC_EVENT_ERROR  
+  LUA_ERP_SYNC_EVENT_ERROR  
   
- Secondary return code; a violation of the ERP synchronous event protocol occurred. An invalid header request or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
+  Secondary return code; a violation of the ERP synchronous event protocol occurred. An invalid header request or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
   
- LUA_RSP_CORRELATION_ERROR  
+  LUA_RSP_CORRELATION_ERROR  
   
- Secondary return code; a response was sent that does not correspond to a previously received request or a response was received that does not correspond to a previously sent request.  
+  Secondary return code; a response was sent that does not correspond to a previously received request or a response was received that does not correspond to a previously sent request.  
   
- LUA_RSP_PROTOCOL_ERROR  
+  LUA_RSP_PROTOCOL_ERROR  
   
- Secondary return code; a violation of the response protocol was found in the response received from the primary half-session.  
+  Secondary return code; a violation of the response protocol was found in the response received from the primary half-session.  
   
- LUA_BB_NOT_ALLOWED  
+  LUA_BB_NOT_ALLOWED  
   
- Secondary return code; the begin bracket indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the begin bracket indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_EB_NOT ALLOWED  
+  LUA_EB_NOT ALLOWED  
   
- Secondary return code; the end bracket indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the end bracket indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_EXCEPTION_RSP_NOT_ALLOWED  
+  LUA_EXCEPTION_RSP_NOT_ALLOWED  
   
- Secondary return code; when an exception response was not allowed, one was requested. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; when an exception response was not allowed, one was requested. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_DEFINITE_RSP_NOT_ALLOWED  
+  LUA_DEFINITE_RSP_NOT_ALLOWED  
   
- Secondary return code; when a definite response was not allowed, one was requested. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; when a definite response was not allowed, one was requested. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_CD_NOT_ALLOWED  
+  LUA_CD_NOT_ALLOWED  
   
- Secondary return code; the change-direction indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the change-direction indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_NO_RESPONSE_NOT_ALLOWED  
+  LUA_NO_RESPONSE_NOT_ALLOWED  
   
- Secondary return code; a request other than an EXR contained a NO RESPONSE. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; a request other than an EXR contained a NO RESPONSE. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_CHAINING_NOT_SUPPORTED  
+  LUA_CHAINING_NOT_SUPPORTED  
   
- Secondary return code; the chaining indicators were incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the chaining indicators were incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_BRACKETS_NOT_SUPPORTED  
+  LUA_BRACKETS_NOT_SUPPORTED  
   
- Secondary return code; the bracket indicators were incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the bracket indicators were incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_CD_NOT_SUPPORTED  
+  LUA_CD_NOT_SUPPORTED  
   
- Secondary return code; the change-direction indicator was set, but LUA does not support change-direction for this situation. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the change-direction indicator was set, but LUA does not support change-direction for this situation. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_INCORRECT_USE_OF_FI  
+  LUA_INCORRECT_USE_OF_FI  
   
- Secondary return code; the format indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the format indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_ALTERNATE_CODE_NOT_SUPPORTED  
+  LUA_ALTERNATE_CODE_NOT_SUPPORTED  
   
- Secondary return code; the code selection indicator was set, but LUA does not support code selection for this session. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the code selection indicator was set, but LUA does not support code selection for this session. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_INCORRECT_RU_CATEGORY  
+  LUA_INCORRECT_RU_CATEGORY  
   
- Secondary return code; the request unit category indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the request unit category indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_INCORRECT_REQUEST_CODE  
+  LUA_INCORRECT_REQUEST_CODE  
   
- Secondary return code; the request code was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the request code was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_INCORRECT_SPEC_OF_SDI_RTI  
+  LUA_INCORRECT_SPEC_OF_SDI_RTI  
   
- Secondary return code; the SDI and the RTI were not specified correctly on a response. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the SDI and the RTI were not specified correctly on a response. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_INCORRECT_DR1I_DR2I_ERI  
+  LUA_INCORRECT_DR1I_DR2I_ERI  
   
- Secondary return code; the DR1I, the DR2I, and the ERI were specified incorrectly. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the DR1I, the DR2I, and the ERI were specified incorrectly. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_INCORRECT_USE_OF_QRI  
+  LUA_INCORRECT_USE_OF_QRI  
   
- Secondary return code; the queued response indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the queued response indicator was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_INCORRECT_USE_OF_EDI  
+  LUA_INCORRECT_USE_OF_EDI  
   
- Secondary return code; the EDI was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the EDI was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_INCORRECT_USE_OF_PDI  
+  LUA_INCORRECT_USE_OF_PDI  
   
- Secondary return code; the PDI was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the PDI was incorrectly specified. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_UNSUCCESSFUL  
- Primary return code; the verb record supplied was valid but the verb did not complete successfully.  
+  LUA_UNSUCCESSFUL  
+  Primary return code; the verb record supplied was valid but the verb did not complete successfully.  
   
- LUA_DATA_TRUNCATED  
+  LUA_DATA_TRUNCATED  
   
- Secondary return code; the data was truncated because the data received was longer than the buffer length specified in **lua_max_length**.  
+  Secondary return code; the data was truncated because the data received was longer than the buffer length specified in **lua_max_length**.  
   
- LUA_DATA_SEGMENT_LENGTH_ERROR  
+  LUA_DATA_SEGMENT_LENGTH_ERROR  
   
- Secondary return code; one of the following has occurred:  
+  Secondary return code; one of the following has occurred:  
   
--   The supplied data segment for **SLI_RECEIVE** or [SLI_SEND](../core/sli-send2.md) is not a read/write data segment as required.  
+- The supplied data segment for **SLI_RECEIVE** or [SLI_SEND](../core/sli-send2.md) is not a read/write data segment as required.  
   
--   The supplied data segment for SLI_RECEIVE is not as long as that provided in lua_max_length.  
+- The supplied data segment for SLI_RECEIVE is not as long as that provided in lua_max_length.  
   
--   The supplied data segment for SLI_SEND is not as long as that provided in lua_data_length.  
+- The supplied data segment for SLI_SEND is not as long as that provided in lua_data_length.  
   
- LUA_NO_DATA  
+  LUA_NO_DATA  
   
- Secondary return code; no data was available to read when **SLI_RECEIVE** containing a no wait parameter was issued.  
+  Secondary return code; no data was available to read when **SLI_RECEIVE** containing a no wait parameter was issued.  
   
- LUA_VERB_RECORD_SPANS_SEGMENTS  
+  LUA_VERB_RECORD_SPANS_SEGMENTS  
   
- Secondary return code; the LUA VCB length parameter plus the segment offset is beyond the segment end.  
+  Secondary return code; the LUA VCB length parameter plus the segment offset is beyond the segment end.  
   
- LUA_NOT_ACTIVE  
+  LUA_NOT_ACTIVE  
   
- Secondary return code; LUA was not active within Microsoft Host Integration Server or SNA Server when an LUA verb was issued.  
+  Secondary return code; LUA was not active within Microsoft Host Integration Server or SNA Server when an LUA verb was issued.  
   
- LUA_NOT_READY  
+  LUA_NOT_READY  
   
- Secondary return code; one of the following has caused the SLI session to be temporarily suspended:  
+  Secondary return code; one of the following has caused the SLI session to be temporarily suspended:  
   
--   An SNA UNBIND type 0x02 command was received, which indicates a new BIND is coming. If the UNBIND type 0x02 is received after the beginning [SLI_OPEN](../core/sli-open2.md) is complete, the session is suspended until a BIND, optional CRV and STSN, and SDT flows are received. These routines are re-entrant because they have to be called again. The session resumes after the SLI processes the SDT command. If the UNBIND type 0x02 is received while the **SLI_OPEN** is still processing, the primary return code is LUA_SESSION_FAILURE, not LUA_STATUS.  
+- An SNA UNBIND type 0x02 command was received, which indicates a new BIND is coming. If the UNBIND type 0x02 is received after the beginning [SLI_OPEN](../core/sli-open2.md) is complete, the session is suspended until a BIND, optional CRV and STSN, and SDT flows are received. These routines are re-entrant because they have to be called again. The session resumes after the SLI processes the SDT command. If the UNBIND type 0x02 is received while the **SLI_OPEN** is still processing, the primary return code is LUA_SESSION_FAILURE, not LUA_STATUS.  
   
--   The receipt of an SNA CLEAR caused the suspension. Receipt of an SNA SDT will cause the session to resume.  
+- The receipt of an SNA CLEAR caused the suspension. Receipt of an SNA SDT will cause the session to resume.  
   
- LUA_SLI_LOGIC_ERROR  
+  LUA_SLI_LOGIC_ERROR  
   
- Secondary return code; the LUA interface found an internal error in logic.  
+  Secondary return code; the LUA interface found an internal error in logic.  
   
- LUA_INVALID_PROCESS  
+  LUA_INVALID_PROCESS  
   
- Secondary return code; the session for which an LUA verb was issued is unavailable because another OS/2 process owns the session.  
+  Secondary return code; the session for which an LUA verb was issued is unavailable because another OS/2 process owns the session.  
   
- LUA_LU_INOPERATIVE  
+  LUA_LU_INOPERATIVE  
   
- Secondary return code; a severe error occurred while the LUA was attempting to stop the session. This LU is unavailable for any LUA requests until an activate logical unit (ACTLU) is received from the host.  
+  Secondary return code; a severe error occurred while the LUA was attempting to stop the session. This LU is unavailable for any LUA requests until an activate logical unit (ACTLU) is received from the host.  
   
- LUA_RECEIVE_CORRELATION_TABLE_FULL  
+  LUA_RECEIVE_CORRELATION_TABLE_FULL  
   
- Secondary return code; the session receive correlation table for the flow requested reached its capacity.  
+  Secondary return code; the session receive correlation table for the flow requested reached its capacity.  
   
- LUA_NEGATIVE_RESPONSE  
- Primary return code; either the LUA sent a negative response to a message received from the primary logical unit (PLU) because an error was found in the message, or the application responded negatively to a chain for which the end-of-chain has arrived.  
+  LUA_NEGATIVE_RESPONSE  
+  Primary return code; either the LUA sent a negative response to a message received from the primary logical unit (PLU) because an error was found in the message, or the application responded negatively to a chain for which the end-of-chain has arrived.  
   
- LUA_MODE_INCONSISTENCY  
+  LUA_MODE_INCONSISTENCY  
   
- Secondary return code; performing this function is not allowed by the current status. The request sent to the half-session component was not executed even though it was understood and supported. This SNA sense code is also an exception request sense code.  
+  Secondary return code; performing this function is not allowed by the current status. The request sent to the half-session component was not executed even though it was understood and supported. This SNA sense code is also an exception request sense code.  
   
- LUA_FUNCTION_NOT_SUPPORTED  
+  LUA_FUNCTION_NOT_SUPPORTED  
   
- Secondary return code; the LUA does not support the requested function. A control character, an RU parameter, or a formatted request code may have specified the function. Specific sense code information is in bytes 2 and 3.  
+  Secondary return code; the LUA does not support the requested function. A control character, an RU parameter, or a formatted request code may have specified the function. Specific sense code information is in bytes 2 and 3.  
   
- LUA_DATA_TRAFFIC_RESET  
+  LUA_DATA_TRAFFIC_RESET  
   
- Secondary return code; a half-session of an active session but with inactive data traffic received a normal flow DFC or FMD request. An invalid request header or request unit for the receivers current session control or data flow control state was found. Delivery to the half-session component was prevented.  
+  Secondary return code; a half-session of an active session but with inactive data traffic received a normal flow DFC or FMD request. An invalid request header or request unit for the receivers current session control or data flow control state was found. Delivery to the half-session component was prevented.  
   
- LUA_DATA_TRAFFIC_NOT_RESET  
+  LUA_DATA_TRAFFIC_NOT_RESET  
   
- Secondary return code; while the data traffic state was not reset, the session control request was received. An invalid request header or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
+  Secondary return code; while the data traffic state was not reset, the session control request was received. An invalid request header or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
   
- LUA_SC_PROTOCOL_VIOLATION  
+  LUA_SC_PROTOCOL_VIOLATION  
   
- Secondary return code; a violation of SC protocol occurred. A request (that is permitted only after an SC request and a positive response to that request have been successfully exchanged) was received before the required exchange. Byte 4 of the sense data contains the request code. No user data exists for this sense code. An invalid header request or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
+  Secondary return code; a violation of SC protocol occurred. A request (that is permitted only after an SC request and a positive response to that request have been successfully exchanged) was received before the required exchange. Byte 4 of the sense data contains the request code. No user data exists for this sense code. An invalid header request or request unit for the received current session control or data flow control state was found. Delivery to the half-session component was prevented.  
   
- LUA_INVALID_SC_OR_NC_RH  
+  LUA_INVALID_SC_OR_NC_RH  
   
- Secondary return code; the RH of an SC or NC request was invalid.  
+  Secondary return code; the RH of an SC or NC request was invalid.  
   
- LUA_PACING_NOT_SUPPORTED  
+  LUA_PACING_NOT_SUPPORTED  
   
- Secondary return code; the request contained a pacing indicator when support of pacing for this session does not exist for the receiving half-session or boundary function half-session. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
+  Secondary return code; the request contained a pacing indicator when support of pacing for this session does not exist for the receiving half-session or boundary function half-session. The BIND options chosen previously or the architectural rules were violated by the request header parameter values. Delivery to the half-session component was prevented. The errors are not dependent on the current session state. The senders failure to enforce session rules may have caused the errors.  
   
- LUA_NAU_INOPERATIVE  
+  LUA_NAU_INOPERATIVE  
   
- Secondary return code; the network addressable unit is not able to process responses or requests. Delivery to the receiver could not take place for one of the following reasons:  
+  Secondary return code; the network addressable unit is not able to process responses or requests. Delivery to the receiver could not take place for one of the following reasons:  
   
--   A path information unit error  
+- A path information unit error  
   
--   A path outage  
+- A path outage  
   
--   An invalid sequence of requests for activation  
+- An invalid sequence of requests for activation  
   
- If a path error is received during an active session, it usually means there is no longer a valid path to the session partner.  
+  If a path error is received during an active session, it usually means there is no longer a valid path to the session partner.  
   
- LUA_CANCELED  
- Primary return code; the secondary return code gives the reason for canceling the command.  
+  LUA_CANCELED  
+  Primary return code; the secondary return code gives the reason for canceling the command.  
   
- LUA_PURGED  
+  LUA_PURGED  
   
- Secondary return code; [SLI_PURGE](../core/sli-purge1.md) was issued and canceled **SLI_RECEIVE**.  
+  Secondary return code; [SLI_PURGE](../core/sli-purge1.md) was issued and canceled **SLI_RECEIVE**.  
   
- LUA_NO_SLI_SESSION  
+  LUA_NO_SLI_SESSION  
   
- Secondary return code; a session was not open or was down due to an [SLI_CLOSE](../core/sli-close1.md) or session failure when a command was issued.  
+  Secondary return code; a session was not open or was down due to an [SLI_CLOSE](../core/sli-close1.md) or session failure when a command was issued.  
   
- LUA_CANCEL_COMMAND_RECEIVED  
+  LUA_CANCEL_COMMAND_RECEIVED  
   
- Secondary return code; the host sent an SNA CANCEL command to cancel the data chain currently being received by **SLI_RECEIVE**.  
+  Secondary return code; the host sent an SNA CANCEL command to cancel the data chain currently being received by **SLI_RECEIVE**.  
   
- LUA_TERMINATED  
+  LUA_TERMINATED  
   
- Secondary return code; the session was terminated when a verb was pending. The verb process has been canceled.  
+  Secondary return code; the session was terminated when a verb was pending. The verb process has been canceled.  
   
- LUA_IN_PROGRESS  
- Primary return code; an asynchronous command was received but is not completed.  
+  LUA_IN_PROGRESS  
+  Primary return code; an asynchronous command was received but is not completed.  
   
- LUA_STATUS  
- Primary return code; the secondary return code contains SLI status information for the application.  
+  LUA_STATUS  
+  Primary return code; the secondary return code contains SLI status information for the application.  
   
- LUA_READY  
+  LUA_READY  
   
- Secondary return code; following a NOT READY status, this status is issued to notify you that the SLI is ready to process commands.  
+  Secondary return code; following a NOT READY status, this status is issued to notify you that the SLI is ready to process commands.  
   
- LUA_NOT_READY  
+  LUA_NOT_READY  
   
- Secondary return code; the SLI session is temporarily suspended for the following reason:  
+  Secondary return code; the SLI session is temporarily suspended for the following reason:  
   
--   An SNA UNBIND type 0x02 command was received, which means a new BIND is coming. If the UNBIND type 0x02 is received after the beginning [SLI_OPEN](../core/sli-open2.md) is complete, the session is suspended until a BIND, optional CRV and STSN, and SDT flows are received. These routines are re-entrant because they have to be called again. The session resumes after the SLI processes the SDT command. If the UNBIND type 0x02 is received while the **SLI_OPEN** is still processing, the primary return code is session-failure, not status.  
+- An SNA UNBIND type 0x02 command was received, which means a new BIND is coming. If the UNBIND type 0x02 is received after the beginning [SLI_OPEN](../core/sli-open2.md) is complete, the session is suspended until a BIND, optional CRV and STSN, and SDT flows are received. These routines are re-entrant because they have to be called again. The session resumes after the SLI processes the SDT command. If the UNBIND type 0x02 is received while the **SLI_OPEN** is still processing, the primary return code is session-failure, not status.  
   
--   The receipt of an SNA CLEAR caused the suspension. Receipt of an SNA SDT will cause the session to resume.  
+- The receipt of an SNA CLEAR caused the suspension. Receipt of an SNA SDT will cause the session to resume.  
   
- LUA_INIT_COMPLETE  
+  LUA_INIT_COMPLETE  
   
- Secondary return code; the LUA interface initialized the session while [SLI_OPEN](../core/sli-open2.md) was processing. LUA applications that issue **SLI_OPEN** with **lua_open_type_prim_sscp** receive this status on **SLI_RECEIVE** or [SLI_BID](../core/sli-bid2.md).  
+  Secondary return code; the LUA interface initialized the session while [SLI_OPEN](../core/sli-open2.md) was processing. LUA applications that issue **SLI_OPEN** with **lua_open_type_prim_sscp** receive this status on **SLI_RECEIVE** or [SLI_BID](../core/sli-bid2.md).  
   
- LUA_SESSION_END_REQUESTED  
+  LUA_SESSION_END_REQUESTED  
   
- Secondary return code; the LUA interface received an SNA SHUTD from the host, which means the host is ready to shut down the session.  
+  Secondary return code; the LUA interface received an SNA SHUTD from the host, which means the host is ready to shut down the session.  
   
- LUA_COMM_SUBSYSTEM_ABENDED  
- Primary return code; indicates one of the following conditions:  
+  LUA_COMM_SUBSYSTEM_ABENDED  
+  Primary return code; indicates one of the following conditions:  
   
--   The node used by this conversation encountered an ABEND.  
+- The node used by this conversation encountered an ABEND.  
   
--   The connection between the transaction program (TP) and the physical unit (PU) 2.1 node has been broken (a LAN error).  
+- The connection between the transaction program (TP) and the physical unit (PU) 2.1 node has been broken (a LAN error).  
   
--   The SnaBase at the TPs computer encountered an ABEND.  
+- The SnaBase at the TPs computer encountered an ABEND.  
   
- LUA_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+  LUA_COMM_SUBSYSTEM_NOT_LOADED  
+  Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- LUA_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+  LUA_INVALID_VERB_SEGMENT  
+  Primary return code; the VCB extended beyond the end of the data segment.  
   
- LUA_UNEXPECTED_DOS_ERROR  
- Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
+  LUA_UNEXPECTED_DOS_ERROR  
+  Primary return code; after issuing an operating system call, an unexpected operating system return code was received and is specified in the secondary return code.  
   
- LUA_STACK_TOO_SMALL  
- Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
+  LUA_STACK_TOO_SMALL  
+  Primary return code; the stack size of the application is too small to execute the verb. Increase the stack size of your application.  
   
- LUA_INVALID_VERB  
- Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
+  LUA_INVALID_VERB  
+  Primary return code; either the verb code or the operation code, or both, is invalid. The verb did not execute.  
   
 ## Remarks  
  **SLI_RECEIVE** receives responses, SNA commands, and request unit data from the host. **SLI_RECEIVE** also provides the status of the session to the Windows LUA application. An [SLI_OPEN](../core/sli-open2.md) request must complete before **SLI_RECEIVE** can be issued. However, if **SLI_OPEN** is issued with **lua_init_type** set to LUA_INIT_TYPE_PRIM_SSCP, an **SLI_RECEIVE** over the SSCP normal flow can be issued as soon as **SLI_OPEN** returns an IN_PROGRESS.  
   
  Data is received by the application in one of four session flows. The four session flows, from highest to lowest priority are:  
   
--   SSCP expedited  
+- SSCP expedited  
   
--   LU expedited  
+- LU expedited  
   
--   SSCP normal  
+- SSCP normal  
   
--   LU normal  
+- LU normal  
   
- The data flow type that **SLI_RECEIVE** will process is specified in **lua_flag1**. The application can also specify whether it wants to look at more than one type of data flow. When multiple flow bits are set, the highest priority is received first. When **SLI_RECEIVE** completes processing, **lua_flag2** indicates the specific type of flow for which data has been received by the Windows LUA application.  
+  The data flow type that **SLI_RECEIVE** will process is specified in **lua_flag1**. The application can also specify whether it wants to look at more than one type of data flow. When multiple flow bits are set, the highest priority is received first. When **SLI_RECEIVE** completes processing, **lua_flag2** indicates the specific type of flow for which data has been received by the Windows LUA application.  
   
- If [SLI_BID](../core/sli-bid2.md) successfully completes before SLI_RECEIVE is issued, the Windows LUA interface can be instructed to reuse the last SLI_BID verbs VCB. To do this, issue SLI_RECEIVE with lua_flag1.bid_enable set to 1.  
+  If [SLI_BID](../core/sli-bid2.md) successfully completes before SLI_RECEIVE is issued, the Windows LUA interface can be instructed to reuse the last SLI_BID verbs VCB. To do this, issue SLI_RECEIVE with lua_flag1.bid_enable set to 1.  
   
- When using lua_flag1.bid_enable, the SLI_BID storage must not be freed because the last SLI_BID verbs VCB is used. Also, when using lua_flag1.bid_enable, the successful completion of SLI_BID will be posted.  
+  When using lua_flag1.bid_enable, the SLI_BID storage must not be freed because the last SLI_BID verbs VCB is used. Also, when using lua_flag1.bid_enable, the successful completion of SLI_BID will be posted.  
   
- If SLI_RECEIVE is issued with lua_flag1.nowait when no data is available to receive, LUA_NO_DATA will be the secondary return code set by the Windows LUA interface.  
+  If SLI_RECEIVE is issued with lua_flag1.nowait when no data is available to receive, LUA_NO_DATA will be the secondary return code set by the Windows LUA interface.  
   
 ## Session Status Return Values  
  If LUA_STATUS is the primary return code, the secondary return code can be one of the following:  
@@ -743,17 +743,17 @@ struct LUA_COMMON {
   
  LUA_NOT_READY indicates that the SLI session is suspended because the SLI has received either an SNA CLEAR command or an SNA UNBIND command with an 0x02 UNBIND type (UNBIND with BIND forthcoming). Depending on what caused the suspension, the session can be reactivated as follows:  
   
--   When the suspension is caused by an SNA CLEAR, receiving an SNA SDT reactivates the session.  
+- When the suspension is caused by an SNA CLEAR, receiving an SNA SDT reactivates the session.  
   
--   When an SNA UNBIND type BIND forthcoming causes suspension of the session and the [SLI_OPEN](../core/sli-open2.md) that opened the session is completed, the session is suspended until the SLI receives a BIND and SDT command. The session can also optionally receive an STSN command. As a result, user-supplied routines issued with the initial SLI_OPEN must be re-entered because they will be recalled.  
+- When an SNA UNBIND type BIND forthcoming causes suspension of the session and the [SLI_OPEN](../core/sli-open2.md) that opened the session is completed, the session is suspended until the SLI receives a BIND and SDT command. The session can also optionally receive an STSN command. As a result, user-supplied routines issued with the initial SLI_OPEN must be re-entered because they will be recalled.  
   
- The application can send SSCP data after a CLEAR or UNBIND type BIND forthcoming arrives and before the NOT_READY status is read. The application can send and receive SSCP data after reading a NOT_READY.  
+  The application can send SSCP data after a CLEAR or UNBIND type BIND forthcoming arrives and before the NOT_READY status is read. The application can send and receive SSCP data after reading a NOT_READY.  
   
- When an SNA UNBIND type BIND forthcoming arrives before completion of the SLI_OPEN that opened the session, LUA_SESSION_FAILURE (not LUA_STATUS) is the primary return code.  
+  When an SNA UNBIND type BIND forthcoming arrives before completion of the SLI_OPEN that opened the session, LUA_SESSION_FAILURE (not LUA_STATUS) is the primary return code.  
   
- LUA_SESSION_END_REQUESTED indicates that the application received an SNA SHUTD from the host. The Windows LUA application should issue [SLI_CLOSE](../core/sli-close1.md) to close the session when convenient.  
+  LUA_SESSION_END_REQUESTED indicates that the application received an SNA SHUTD from the host. The Windows LUA application should issue [SLI_CLOSE](../core/sli-close1.md) to close the session when convenient.  
   
- LUA_INIT_COMPLETE is returned only when lua_init_type for [SLI_OPEN](../core/sli-open2.md) is LUA_INIT_TYPE_PRIM_SSCP. The status means that the SLI_OPEN has been processed sufficiently to allow SSCP data to now be sent or received.  
+  LUA_INIT_COMPLETE is returned only when lua_init_type for [SLI_OPEN](../core/sli-open2.md) is LUA_INIT_TYPE_PRIM_SSCP. The status means that the SLI_OPEN has been processed sufficiently to allow SSCP data to now be sent or received.  
   
 ## Exception Requests  
  If a host application request unit is converted into an EXR, sense data will be returned. When [SLI_BID](../core/sli-bid2.md) completes with the returned verb parameters set as shown, an EXR conversion occurs.  

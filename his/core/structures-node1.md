@@ -18,15 +18,15 @@ Use the **Structures** node to view a list of all the **Structures** in an assem
   
  Double-click the **Structures** node to expand it. The right pane displays the following information about the structures:  
   
--   **Name**. Name of the individual structures.  
+- **Name**. Name of the individual structures.  
   
- Right-click the **Structures** node to display the following seven options:  
+  Right-click the **Structures** node to display the following seven options:  
   
--   **Add Struct**. Adds a new structure to the assembly.  
+- **Add Struct**. Adds a new structure to the assembly.  
   
--   **Paste**. Inserts the structure from the Clipboard into the current assembly definition.  
+- **Paste**. Inserts the structure from the Clipboard into the current assembly definition.  
   
--   **Properties**. Displays the **Properties** window.  
+- **Properties**. Displays the **Properties** window.  
   
 ## See Also  
  [Structure Name Node](../core/structure-name-node1.md)   

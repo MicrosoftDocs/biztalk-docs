@@ -50,35 +50,35 @@ You can delete an application from the BizTalk group. This removes all of its da
   
 #### Using the BizTalk Server Administration console  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand  **BizTalk Server Administration**, expand the BizTalk group, and expand **Applications**.  
+2. In the console tree, expand  **BizTalk Server Administration**, expand the BizTalk group, and expand **Applications**.  
   
-3.  Right-click the application folder, and then click **Delete**.  
+3. Right-click the application folder, and then click **Delete**.  
   
-4.  Click **Yes** to confirm the deletion.  
+4. Click **Yes** to confirm the deletion.  
   
-     BizTalk Server deletes all of the application data from the BizTalk databases and removes the application from the administration console.  
+    BizTalk Server deletes all of the application data from the BizTalk databases and removes the application from the administration console.  
   
-     If BizTalk Server cannot delete any of the application artifacts, the delete operation fails. In this case, BizTalk Server attempts to roll back the delete operation.  
+    If BizTalk Server cannot delete any of the application artifacts, the delete operation fails. In this case, BizTalk Server attempts to roll back the delete operation.  
   
 #### Using the command line  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
-2.  Type the following command, substituting the appropriate values, as described in the following table:  
+2. Type the following command, substituting the appropriate values, as described in the following table:  
   
-     **BTSTask RemoveApp /ApplicationName:** *value* [**/Server:***value*] [**/Database:***value*]  
+    **BTSTask RemoveApp /ApplicationName:** *value* [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
-     Example:  
+    Example:  
   
-     **BTSTask RemoveApp /ApplicationName:MyApplication**  
+    **BTSTask RemoveApp /ApplicationName:MyApplication**  
   
-    |Parameter|Value|  
-    |---------------|-----------|  
-    |**/ApplicationName**|Name of the BizTalk application to delete. If the name includes spaces, you must enclose it in double quotation marks (").|  
-    |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database. Required if you specify the Database parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
-    |**/Database**|Name of the BizTalk Management database. Required if you specify the Server parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
+   |Parameter|Value|  
+   |---------------|-----------|  
+   |**/ApplicationName**|Name of the BizTalk application to delete. If the name includes spaces, you must enclose it in double quotation marks (").|  
+   |**/Server**|Name of the SQL Server instance hosting the BizTalk Management database. Required if you specify the Database parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
+   |**/Database**|Name of the BizTalk Management database. Required if you specify the Server parameter. If Server and Database parameters are not specified, the default BizTalk Management database for the group is used.|  
   
 ## See Also  
  [Undeploying BizTalk Applications](../core/undeploying-biztalk-applications.md)   

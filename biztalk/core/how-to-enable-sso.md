@@ -51,23 +51,23 @@ You can enable the entire Enterprise Single Sign-On (SSO) system by using either
   
 ### To enable SSO to create affiliate applications and mappings  
   
-1.  Log on as an SSO administrator or SSO affiliate administrator to the SSO Server, or on a computer that has the SSO administration sub services of SSO.  
+1. Log on as an SSO administrator or SSO affiliate administrator to the SSO Server, or on a computer that has the SSO administration sub services of SSO.  
   
-2.  On the **Start** menu, click **Run**, and then type **cmd**.  
+2. On the **Start** menu, click **Run**, and then type **cmd**.  
   
-3.  At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
+3. At the command line prompt, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4.  Type **ssomanage -enablesso** to enable the Enterprise Single Sign-On service.  
+4. Type **ssomanage -enablesso** to enable the Enterprise Single Sign-On service.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
-5.  Log on as an SSO affiliate administrator.  
+5. Log on as an SSO affiliate administrator.  
   
-6.  Type **ssomanage -createapps *\<application file\>*** to create an affiliate application, where \<application file\> is the XML file that contains definitions for the affiliate applications.  
+6. Type **ssomanage -createapps *\<application file\>*** to create an affiliate application, where \<application file\> is the XML file that contains definitions for the affiliate applications.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
 ## See Also  
  [How to Set the SSO Server](../core/how-to-set-the-sso-server.md)   

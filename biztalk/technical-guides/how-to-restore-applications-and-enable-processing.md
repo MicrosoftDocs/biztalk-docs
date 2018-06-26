@@ -18,14 +18,14 @@ Configure the applications in the BizTalk group and enable application processin
   
 ### To enable application configuration and restore application processing  
   
-1.  Run the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Application Installation MSI file on each BizTalk server in the group.  
+1. Run the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Application Installation MSI file on each BizTalk server in the group.  
   
-2.  Run the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Application Configuration MSI file on one server in the group to configure the application for the disaster recovery site. The names for receive locations and send ports remain the same. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Application Configuration MSI file updates bindings so that these artifacts point to the correct locations in the disaster recovery environment.  
+2. Run the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Application Configuration MSI file on one server in the group to configure the application for the disaster recovery site. The names for receive locations and send ports remain the same. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Application Configuration MSI file updates bindings so that these artifacts point to the correct locations in the disaster recovery environment.  
   
-    > [!NOTE]  
-    >  If receive locations and send ports are not affected by the loss of the production site, it may not be necessary to reconfigure the application with disaster recovery-specific locations.  
+   > [!NOTE]  
+   >  If receive locations and send ports are not affected by the loss of the production site, it may not be necessary to reconfigure the application with disaster recovery-specific locations.  
   
-3.  Restore application processing by enabling all application receive locations, send ports, and host instances.  
+3. Restore application processing by enabling all application receive locations, send ports, and host instances.  
   
 ## See Also  
  [Recovering the Runtime Computers](../technical-guides/recovering-the-runtime-computers.md)

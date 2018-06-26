@@ -39,63 +39,63 @@ The following is a brief introduction to the terminology and concepts that are r
   
  In an APPN network, nodes can be one of the following types:  
   
--   Network Nodes (NN)  
+- Network Nodes (NN)  
   
--   End Nodes (EN)  
+- End Nodes (EN)  
   
--   Branch Network Nodes (BrNN)  
+- Branch Network Nodes (BrNN)  
   
--   Low-entry networking nodes (LEN nodes)  
+- Low-entry networking nodes (LEN nodes)  
   
- Each node in an APPN network is connected to at least one other node in the APPN network. Where supported, CP-CP (Control Point to Control Point) sessions are established over these connections to adjacent nodes (nodes in the same network that can establish direct connections without going through a third node). CP-CP sessions are used to exchange network topology information, request the location of network resources, and manage sessions. All of the nodes in an APPN network share a common network name.  
+  Each node in an APPN network is connected to at least one other node in the APPN network. Where supported, CP-CP (Control Point to Control Point) sessions are established over these connections to adjacent nodes (nodes in the same network that can establish direct connections without going through a third node). CP-CP sessions are used to exchange network topology information, request the location of network resources, and manage sessions. All of the nodes in an APPN network share a common network name.  
   
- **Network Node**  
+  **Network Node**  
   
- A Network Node provides distributed directory and routing services for all LUs in its domain, where its domain is all directly attached End Nodes and LEN nodes that are using the services of the Network Node. The Network Node is referred to as the Network Node Server (NNS) for those directly attached End Nodes and LEN nodes.  
+  A Network Node provides distributed directory and routing services for all LUs in its domain, where its domain is all directly attached End Nodes and LEN nodes that are using the services of the Network Node. The Network Node is referred to as the Network Node Server (NNS) for those directly attached End Nodes and LEN nodes.  
   
- A Network Node provides the following services:  
+  A Network Node provides the following services:  
   
--   LU-LU session services for its local LUs.  
+- LU-LU session services for its local LUs.  
   
--   Directory searches and route selection for all LUs in its domain.  
+- Directory searches and route selection for all LUs in its domain.  
   
--   Intermediate session routing for sessions between LUs on different nodes.  
+- Intermediate session routing for sessions between LUs on different nodes.  
   
--   Routing for Management Services (MS) data, such as alerts, between a served End Node or LEN node and an MS focal point.  
+- Routing for Management Services (MS) data, such as alerts, between a served End Node or LEN node and an MS focal point.  
   
- **End Node**  
+  **End Node**  
   
- An End Node is an end point in an APPN network. It maintains directory information only for local resources. An APPN End Node can independently establish sessions between local LUs and LUs on adjacent nodes. For sessions with LUs on nodes not directly connected to the End Node, an End Node requests routing and directory information from its Network Node Server using CP-CP sessions.  
+  An End Node is an end point in an APPN network. It maintains directory information only for local resources. An APPN End Node can independently establish sessions between local LUs and LUs on adjacent nodes. For sessions with LUs on nodes not directly connected to the End Node, an End Node requests routing and directory information from its Network Node Server using CP-CP sessions.  
   
- End Nodes can register their local LUs with their Network Node Server. This capability means the network operator at the Network Node Server does not have to predefine the names of all LUs on the attached End Nodes to which the Network Node provides services.  
+  End Nodes can register their local LUs with their Network Node Server. This capability means the network operator at the Network Node Server does not have to predefine the names of all LUs on the attached End Nodes to which the Network Node provides services.  
   
- An End Node can be attached to multiple network nodes, but it can have CP-CP sessions active with only one Network Node at a time: its Network Node Server. The other Network Nodes can be used only to provide intermediate routing for the end node or as substitute Network Node servers if the main Network Node Server becomes unavailable.  
+  An End Node can be attached to multiple network nodes, but it can have CP-CP sessions active with only one Network Node at a time: its Network Node Server. The other Network Nodes can be used only to provide intermediate routing for the end node or as substitute Network Node servers if the main Network Node Server becomes unavailable.  
   
- An End Node can also have a direct connection to another End Node or LEN node, but CP-CP sessions are never established between the two nodes.  
+  An End Node can also have a direct connection to another End Node or LEN node, but CP-CP sessions are never established between the two nodes.  
   
- **LEN Node**  
+  **LEN Node**  
   
- A LEN Node is a type 2.1 node that uses independent LU 6.2 protocols, but does not support CP-CP sessions. It can be connected to a Network Node or End Node but does not support APPN functions. The existing SNA node of Host Integration Server is a LEN node.  
+  A LEN Node is a type 2.1 node that uses independent LU 6.2 protocols, but does not support CP-CP sessions. It can be connected to a Network Node or End Node but does not support APPN functions. The existing SNA node of Host Integration Server is a LEN node.  
   
- A Network Node can provide routing services for an attached LEN node, enabling the LEN node to participate in an APPN network without requiring links to be defined between the LEN node and all of the nodes in the APPN network.  
+  A Network Node can provide routing services for an attached LEN node, enabling the LEN node to participate in an APPN network without requiring links to be defined between the LEN node and all of the nodes in the APPN network.  
   
- LUs in the APPN network with which the LEN node may want to establish sessions must be defined to the LEN node as if they reside on the LEN node's Network Node server. The LEN node establishes sessions with LUs defined to be contacted through its Network Node Server. The Network Node routes the session through the APPN network to the node in the network where the LU actually resides.  
+  LUs in the APPN network with which the LEN node may want to establish sessions must be defined to the LEN node as if they reside on the LEN node's Network Node server. The LEN node establishes sessions with LUs defined to be contacted through its Network Node Server. The Network Node routes the session through the APPN network to the node in the network where the LU actually resides.  
   
- LUs on the LEN node must be predefined to the Network Node that serves the LEN node. LU resources on LEN nodes (unlike those on End Nodes) cannot be registered on the Network Node Server by the LEN node.  
+  LUs on the LEN node must be predefined to the Network Node that serves the LEN node. LU resources on LEN nodes (unlike those on End Nodes) cannot be registered on the Network Node Server by the LEN node.  
   
- When a LEN node's only link is to an End Node, the LEN node can communicate only with LUs on the End Node through the direct link between the two nodes. This is because an End Node cannot provide intermediate routing.  
+  When a LEN node's only link is to an End Node, the LEN node can communicate only with LUs on the End Node through the direct link between the two nodes. This is because an End Node cannot provide intermediate routing.  
   
- **Branch Network Node**  
+  **Branch Network Node**  
   
- The Branch Network Node (BrNN) combines the functions of a Network Node and an End Node. As the name implies, a BrNN can be used to subdivide a network into a backbone network and attached branch networks. The BrNN provides the following functions:  
+  The Branch Network Node (BrNN) combines the functions of a Network Node and an End Node. As the name implies, a BrNN can be used to subdivide a network into a backbone network and attached branch networks. The BrNN provides the following functions:  
   
--   To the backbone network, the BrNN appears as an End Node, connected to its Network Node Server (NNS) in the backbone network.  
+- To the backbone network, the BrNN appears as an End Node, connected to its Network Node Server (NNS) in the backbone network.  
   
--   The nodes in the backbone network are not aware of the nodes within the branch, reducing the amount of topology information that must be stored.  
+- The nodes in the backbone network are not aware of the nodes within the branch, reducing the amount of topology information that must be stored.  
   
--   Because the BrNN appears as an End Node, it does not receive topology information from the backbone network (topology information is transmitted only between Network Nodes) reducing the amount of network overhead traffic flowing into the branch network.The BrNN registers all resources in the branch with its NNS as though they were located on the BrNN itself. This means that the nodes in the backbone network can locate resources in the branch without having to be aware of the separate nodes in the branch.  
+- Because the BrNN appears as an End Node, it does not receive topology information from the backbone network (topology information is transmitted only between Network Nodes) reducing the amount of network overhead traffic flowing into the branch network.The BrNN registers all resources in the branch with its NNS as though they were located on the BrNN itself. This means that the nodes in the backbone network can locate resources in the branch without having to be aware of the separate nodes in the branch.  
   
--   To the branch network, the BrNN appears as a Network Node, acting as the NNS for End Nodes and LEN Nodes in the branch.  
+- To the branch network, the BrNN appears as a Network Node, acting as the NNS for End Nodes and LEN Nodes in the branch.  
   
 ## High Performance Routing  
  High Performance Routing (HPR) is an extension of the APPN architecture. HPR provides the following functions:  

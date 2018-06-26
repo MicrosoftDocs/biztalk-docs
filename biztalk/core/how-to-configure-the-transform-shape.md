@@ -54,15 +54,15 @@ Transform shape
   
  If you selected **Existing Map**, you can use this section to do one of two things:  
   
--   Select an existing map to reuse as-is in the current transform.  
+- Select an existing map to reuse as-is in the current transform.  
   
--   Select an existing map in order to change (reconfigure) it, and then use it in its new configuration in the current transform.  
+- Select an existing map in order to change (reconfigure) it, and then use it in its new configuration in the current transform.  
   
- Specify source and destination messages by using the **Source Messages** and **Destination Messages** grid controls. You can use these grid controls to change the map file in several ways. If you delete a message (a row in either grid control), add a message, or select a message of a different type, you alter the structure of the map. When you alter the structure of a map, all other transforms that use it must be changed to match the new structure of the map. Other changes, such as removing a message and inserting in its place a message of the same type, do not alter the structure of the map.  
+  Specify source and destination messages by using the **Source Messages** and **Destination Messages** grid controls. You can use these grid controls to change the map file in several ways. If you delete a message (a row in either grid control), add a message, or select a message of a different type, you alter the structure of the map. When you alter the structure of a map, all other transforms that use it must be changed to match the new structure of the map. Other changes, such as removing a message and inserting in its place a message of the same type, do not alter the structure of the map.  
   
- The **Source Messages** and **Destination Messages** grid controls are identical in appearance and behavior. Each grid control has two columns: Message and Type. You populate the grid controls by selecting messages in the Message column. (You add data only into the Message column, because the Type column is read-only.) The cells in the Message column have drop-down lists populated with message instances that are within scope for the current orchestration.  
+  The **Source Messages** and **Destination Messages** grid controls are identical in appearance and behavior. Each grid control has two columns: Message and Type. You populate the grid controls by selecting messages in the Message column. (You add data only into the Message column, because the Type column is read-only.) The cells in the Message column have drop-down lists populated with message instances that are within scope for the current orchestration.  
   
- You can select a row in either grid control by clicking the *right arrow* (>) button at the left side of the grid control. After you have selected a row, you can delete it by pressing the DELETE key. Deleting a row (a message) alters the structure of the map file that contained it. You can modify only map files that are local to the project.  
+  You can select a row in either grid control by clicking the *right arrow* (>) button at the left side of the grid control. After you have selected a row, you can delete it by pressing the DELETE key. Deleting a row (a message) alters the structure of the map file that contained it. You can modify only map files that are local to the project.  
   
 ### When I click OK, launch the BizTalk Mapper  
  Clicking **When I click OK, launch the BizTalk Mapper** opens BizTalk Mapper automatically when you click **OK** to close the **Transform Configuration** dialog box and save your changes. You cannot save changes, however, if required information is missing. In this case, finish filling out the fields in the dialog box and then click **OK**.  

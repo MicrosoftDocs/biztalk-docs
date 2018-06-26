@@ -82,33 +82,33 @@ This topic shows example syntax for various EXEC statements.
 ## Support for Complex Parameter Types  
  There are two ways to support complex RFC parameters (tables and structures) when you use the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]:  
   
--   Provide an inline XML value for the complex type. This example shows how to pass XML to the complex parameter type *fields*. In the following example, *@fields* is a table parameter.  
+- Provide an inline XML value for the complex type. This example shows how to pass XML to the complex parameter type *fields*. In the following example, <em>@fields</em> is a table parameter.  
   
-    ```  
-    exec rfc_read_table @query_table='BNKA', @fields='<FIELDS xmlns='http://Microsoft.LobServices.Sap/2007/03/Rfc/'>  
-                <RFC_DB_FLD xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
-                  <FIELDNAME>BANKL</FIELDNAME>  
-                </RFC_DB_FLD>  
-                <RFC_DB_FLD  xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
-                    <FIELDNAME>BANKS</FIELDNAME>  
-                </RFC_DB_FLD>  
-              </FIELDS>', @fields=@flds output  
-    ```  
+  ```  
+  exec rfc_read_table @query_table='BNKA', @fields='<FIELDS xmlns='http://Microsoft.LobServices.Sap/2007/03/Rfc/'>  
+              <RFC_DB_FLD xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
+                <FIELDNAME>BANKL</FIELDNAME>  
+              </RFC_DB_FLD>  
+              <RFC_DB_FLD  xmlns="http://Microsoft.LobServices.Sap/2007/03/Types/Rfc/">  
+                  <FIELDNAME>BANKS</FIELDNAME>  
+              </RFC_DB_FLD>  
+            </FIELDS>', @fields=@flds output  
+  ```  
   
--   Create a **DataTable** parameter with columns for the fields in the complex type and set the SAP parameter value to **DataTable**. This example shows how to set the @fields complex type by using a **DataTable**.  
+- Create a **DataTable** parameter with columns for the fields in the complex type and set the SAP parameter value to **DataTable**. This example shows how to set the @fields complex type by using a **DataTable**.  
   
-    ```  
-    cmd.CommandText = "exec rfc_read_table @query_table='BNKA', @fields = @p_fields";  
-    DataTable dt = new DataTable();  
-    dt.Columns.Add("FIELDNAME");  
-    SAPParameter p = new SAPParameter("@p_fields");  
-    p.Value = dt;  
-    ```  
+  ```  
+  cmd.CommandText = "exec rfc_read_table @query_table='BNKA', @fields = @p_fields";  
+  DataTable dt = new DataTable();  
+  dt.Columns.Add("FIELDNAME");  
+  SAPParameter p = new SAPParameter("@p_fields");  
+  p.Value = dt;  
+  ```  
   
 ## Limitations  
  The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] has the following limitations for complex types.  
   
--   When you pass a complex type in a parameter by using a **DataTable**, you must include all fields (columns) of the complex type in the **DataTable**.  
+- When you pass a complex type in a parameter by using a **DataTable**, you must include all fields (columns) of the complex type in the **DataTable**.  
   
--   The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] does not support **DbNull**. You cannot set **DbNull** as a value for parameters.  
+- The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] does not support **DbNull**. You cannot set **DbNull** as a value for parameters.  
   

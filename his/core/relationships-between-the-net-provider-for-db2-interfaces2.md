@@ -16,15 +16,15 @@ manager: "anneta"
 # Relationships between the .NET Provider for DB2 Interfaces
 The Managed Provider for DB2 interfaces interact in different ways—with the exception of MsDb2DataAdapter, the remaining classes adhere to a rigid parent/child relationship:  
   
--   An MsDb2Connection can have one MsDb2Transaction running, although it can have multiple MsDb2Commands.  
+- An MsDb2Connection can have one MsDb2Transaction running, although it can have multiple MsDb2Commands.  
   
--   An MsDb2Transaction can have one or more MsDb2Commands running.  
+- An MsDb2Transaction can have one or more MsDb2Commands running.  
   
--   An MsDb2Command owns one MsDb2ParameterCollection, which stores multiple MsDb2Parameters.  
+- An MsDb2Command owns one MsDb2ParameterCollection, which stores multiple MsDb2Parameters.  
   
-     An MsDb2Command can also create a single MsDb2DataReader for parsing one or more resultsets.  
+   An MsDb2Command can also create a single MsDb2DataReader for parsing one or more resultsets.  
   
- The MsDb2DataAdapter takes advantage of all the other Managed Provider interfaces. The MsDb2DataAdapter serves as the gateway between a host DB2 system and a client-side ADO.NET DataSet. The DataSet is an important piece of the .NET data framework because it provides a mechanism for caching data in a managed environment and inferring XML schema information, basically providing a gateway between DB2 data and Microsoft Web services.  
+  The MsDb2DataAdapter takes advantage of all the other Managed Provider interfaces. The MsDb2DataAdapter serves as the gateway between a host DB2 system and a client-side ADO.NET DataSet. The DataSet is an important piece of the .NET data framework because it provides a mechanism for caching data in a managed environment and inferring XML schema information, basically providing a gateway between DB2 data and Microsoft Web services.  
   
 ## See Also  
  [Examining the Core Interface for a Managed Provider](../core/examining-the-core-interface-for-a-managed-provider1.md)   

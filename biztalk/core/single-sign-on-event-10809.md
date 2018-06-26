@@ -17,15 +17,15 @@ manager: "anneta"
 # Single Sign-On: Event 10809
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|Enterprise Single Sign-On|  
-|Product Version|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|Event ID|10809|  
-|Event Source|ENTSSO|  
-|Component|N/A|  
-|Symbolic Name|ENTSSO_E_HISSO_APP_NOT_ENABLED|  
-|Message Text|The application is not enabled for Host Initiated Single Sign-On.|  
+|                 |                                                                   |
+|-----------------|-------------------------------------------------------------------|
+|  Product Name   |                     Enterprise Single Sign-On                     |
+| Product Version |    [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]     |
+|    Event ID     |                               10809                               |
+|  Event Source   |                              ENTSSO                               |
+|    Component    |                                N/A                                |
+|  Symbolic Name  |                  ENTSSO_E_HISSO_APP_NOT_ENABLED                   |
+|  Message Text   | The application is not enabled for Host Initiated Single Sign-On. |
   
 ## Explanation  
  The application is not enabled for Host Initiated Single Sign-On.  

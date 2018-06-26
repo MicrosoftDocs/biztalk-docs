@@ -25,21 +25,21 @@ The DynamicReceive sample demonstrates how to receive [!INCLUDE[btsBizTalkServer
   
  To dynamically receive messages, specify the following in an **Expression** shape in the orchestration:  
   
-1.  Enable dynamic receive by setting the following property on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] message: **MQSeries.DynamicReceive** = `'Yes'`  
+1. Enable dynamic receive by setting the following property on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] message: **MQSeries.DynamicReceive** = `'Yes'`  
   
-2.  Specify the address from which to get the messages by setting the port URI. Optionally you can specify the following:  
+2. Specify the address from which to get the messages by setting the port URI. Optionally you can specify the following:  
   
-    -   Specify the wait interval before getting the messages by using the **MQSeries.WaitInterval** property on the message.  
+   -   Specify the wait interval before getting the messages by using the **MQSeries.WaitInterval** property on the message.  
   
-    -   Specify match criteria for receiving messages. The match criteria options are **Message ID**, **CorrelationID**, **GroupID**, and **MessageSequenceNumber**. See "Properties Related to BizTalk Server" at [http://go.microsoft.com/fwlink/?LinkId=89396](http://go.microsoft.com/fwlink/?LinkId=89396) for more details.  
+   -   Specify match criteria for receiving messages. The match criteria options are **Message ID**, **CorrelationID**, **GroupID**, and **MessageSequenceNumber**. See "Properties Related to BizTalk Server" at [http://go.microsoft.com/fwlink/?LinkId=89396](http://go.microsoft.com/fwlink/?LinkId=89396) for more details.  
   
- After the message is created with these properties it is sent to the MQSeries queue by using a solicit-response send port. The port specifies the adapter to receive messages from the specified URI with the indicated match options. The following actions result:  
+   After the message is created with these properties it is sent to the MQSeries queue by using a solicit-response send port. The port specifies the adapter to receive messages from the specified URI with the indicated match options. The following actions result:  
   
--   If the filter criteria to obtain a message are satisfied, then the message is retrieved from the queue and is sent back to the orchestration.  
+- If the filter criteria to obtain a message are satisfied, then the message is retrieved from the queue and is sent back to the orchestration.  
   
--   If the filter criteria to obtain a message are not satisfied, a dummy response is returned. This is an indication that the specified options did not return any messages from the queue.  
+- If the filter criteria to obtain a message are not satisfied, a dummy response is returned. This is an indication that the specified options did not return any messages from the queue.  
   
- Using the dynamic receive functionality gives you additional flexibility because a fixed receive location is not required. In some cases, you may not know the URI until run time. Dynamic receive functionality allows you to dynamically determine from where to obtain messages. It also means you do not need to implement a queuing contract within an orchestration.  You can wait to obtain messages by using a dynamically specified URI from the MQSeries queue based on the specified match criteria.  
+  Using the dynamic receive functionality gives you additional flexibility because a fixed receive location is not required. In some cases, you may not know the URI until run time. Dynamic receive functionality allows you to dynamically determine from where to obtain messages. It also means you do not need to implement a queuing contract within an orchestration.  You can wait to obtain messages by using a dynamically specified URI from the MQSeries queue based on the specified match criteria.  
   
 ## Where to Find This Sample  
  \<*Samples Path*\>\Samples\AdaptersUsage\MQSeriesAdapter\DynamicReceive  
@@ -60,29 +60,29 @@ The DynamicReceive sample demonstrates how to receive [!INCLUDE[btsBizTalkServer
   
 #### To create the sample  
   
-1.  Create a new orchestration project in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. Create a new orchestration project in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Enable the dynamic receive operation by setting the **MQSeries.DynamicReceive** property on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] message to `'Yes'`.  
+2. Enable the dynamic receive operation by setting the **MQSeries.DynamicReceive** property on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] message to `'Yes'`.  
   
-3.  Specify the address from which to obtain the messages by setting the **Port URI**.  
+3. Specify the address from which to obtain the messages by setting the **Port URI**.  
   
-4.  Optionally the following two properties can be specified:  
+4. Optionally the following two properties can be specified:  
   
-    1.  Specify a wait interval before getting the messages by using the **MQSeries.WaitInterval** property on the message.  
+   1.  Specify a wait interval before getting the messages by using the **MQSeries.WaitInterval** property on the message.  
   
-    2.  Specify match criteria for receiving messages. See "Match options" help for more details.  
+   2.  Specify match criteria for receiving messages. See "Match options" help for more details.  
   
-5.  Change the following variables in the orchestration to specify where to get the messages from:  
+5. Change the following variables in the orchestration to specify where to get the messages from:  
   
-    -   **Queue**, **queueManager**, and **server**. These are used to build the URI in the **Expression** shape.  
+   -   **Queue**, **queueManager**, and **server**. These are used to build the URI in the **Expression** shape.  
   
-6.  Modify the **Expression** shape to comment out dynamic queue creation and match options as necessary.  
+6. Modify the **Expression** shape to comment out dynamic queue creation and match options as necessary.  
   
-7.  You can build and deploy the project in either of the following ways:  
+7. You can build and deploy the project in either of the following ways:  
   
-    -   Open the solution, right click the project in Solution explorer and click **Properties** to view project properties. On the Signing tab click **\<New...\>** in the **Choose a strong name key file** drop down box. Then provide a key file name and deploy.  
+   -   Open the solution, right click the project in Solution explorer and click **Properties** to view project properties. On the Signing tab click **\<New...\>** in the **Choose a strong name key file** drop down box. Then provide a key file name and deploy.  
   
-    -   Alternatively, run the setup.bat file which creates the key file, builds the project and deploys it.  
+   -   Alternatively, run the setup.bat file which creates the key file, builds the project and deploys it.  
   
 #### To run the sample  
   

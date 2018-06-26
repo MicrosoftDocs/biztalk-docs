@@ -19,7 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Known Issues
-This section contains useful information that may help you avoid errors with [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. The known issues are grouped into the following areas:  
+This section contains useful information that may help you avoid errors with Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. The known issues are grouped into the following areas:  
   
 ## Message Repair and New Submission
 
@@ -71,7 +71,7 @@ This section contains useful information that may help you avoid errors with [!I
 ## Miscellaneous
 
 #### The CacheEntries setting may be reset by a Setup program, affecting performance  
- The CacheEntries registry key determines the maximum number of rulesets cached by the Business Rule Engine Update service. The [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Setup program sets CacheEntries to 32 by default. The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Setup program changes HKEY_LOCAL_MACHINE\SOFTWARE\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]\BusinessRules\3.0\CacheEntries to 512 for optimum performance. However, in certain circumstances, CacheEntries may be reset automatically. This may affect system performance.  
+ The CacheEntries registry key determines the maximum number of rulesets cached by the Business Rule Engine Update service. The [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Setup program sets CacheEntries to 32 by default. The [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Setup program changes HKEY_LOCAL_MACHINE\SOFTWARE\\Microsoft \BusinessRules\3.0\CacheEntries to 512 for optimum performance. However, in certain circumstances, CacheEntries may be reset automatically. This may affect system performance.  
   
  Rule Engine updates may change CacheEntries from 512 to 32. After installing a Rule Engine update, manually reset CacheEntries to 512, if necessary.  
   

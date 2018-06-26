@@ -19,18 +19,18 @@ Now that we have understood about the different types of components in building 
   
  A typical flow for creating a TPM solution would include the following:  
   
-1.  Create partners representing all the organizations involved in a business trade. For example, if there are two business organizations involved in a business trade, you must create a trading partner for each of them. For instructions on how to create trading partners, see [Configuring General Party Properties](../core/configuring-general-party-properties.md) or [Configuring General Party Properties (AS2)](../core/configuring-general-party-properties-as2.md)  
+1. Create partners representing all the organizations involved in a business trade. For example, if there are two business organizations involved in a business trade, you must create a trading partner for each of them. For instructions on how to create trading partners, see [Configuring General Party Properties](../core/configuring-general-party-properties.md) or [Configuring General Party Properties (AS2)](../core/configuring-general-party-properties-as2.md)  
   
-2.  For each business division within an organization, create a profile within the partner representing the business division. For example, if an organization has “Purchase” and “Supplies” business divisions, each of these divisions must be represented as a business profile in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Also, you must create the business profiles not just for the partner representing your organization but also the partner with which you trade. For instructions on how to create business profiles, see [Configuring Business Profile Properties](../core/configuring-business-profile-properties.md).  
+2. For each business division within an organization, create a profile within the partner representing the business division. For example, if an organization has “Purchase” and “Supplies” business divisions, each of these divisions must be represented as a business profile in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Also, you must create the business profiles not just for the partner representing your organization but also the partner with which you trade. For instructions on how to create business profiles, see [Configuring Business Profile Properties](../core/configuring-business-profile-properties.md).  
   
-3.  For each business profile, define the B2B protocol settings that include the message encoding setting and the message protocol settings. These settings define how the B2B messages are encoded and transported between two business profiles.  
+3. For each business profile, define the B2B protocol settings that include the message encoding setting and the message protocol settings. These settings define how the B2B messages are encoded and transported between two business profiles.  
   
-    > [!NOTE]
-    >  Specifying protocol settings is optional at this stage. You can directly add the protocol settings as part of the trading partner agreement.  
+   > [!NOTE]
+   >  Specifying protocol settings is optional at this stage. You can directly add the protocol settings as part of the trading partner agreement.  
   
-4.  Create Trading Partner Agreements (TPA) between the business profiles that define the encoding and/or messaging protocols the two business profiles agree to use while exchanging messages. For instructions on how to create agreements, see [Configuring X12-Specific Agreement Properties](../core/configuring-x12-specific-agreement-properties.md), [Configuring EDIFACT-Specific Agreement Properties](../core/configuring-edifact-specific-agreement-properties.md), or [Configuring AS2 Agreement Properties](../core/configuring-as2-agreement-properties.md).  
+4. Create Trading Partner Agreements (TPA) between the business profiles that define the encoding and/or messaging protocols the two business profiles agree to use while exchanging messages. For instructions on how to create agreements, see [Configuring X12-Specific Agreement Properties](../core/configuring-x12-specific-agreement-properties.md), [Configuring EDIFACT-Specific Agreement Properties](../core/configuring-edifact-specific-agreement-properties.md), or [Configuring AS2 Agreement Properties](../core/configuring-as2-agreement-properties.md).  
   
- By performing the above set of tasks you would have created TPM solution to exchange B2B messages with your trading partner.  
+   By performing the above set of tasks you would have created TPM solution to exchange B2B messages with your trading partner.  
   
 ## Where do I Start?  
  You can start by going through the following sections:  

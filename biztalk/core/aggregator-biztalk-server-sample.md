@@ -56,29 +56,29 @@ The purpose of this sample is to build a message aggregation functionality using
   
 #### To build and initialize the Aggregator sample  
   
-1.  In a command window, navigate to the following folder:  
+1. In a command window, navigate to the following folder:  
   
-     \<Samples Path\>\Pipelines\Aggregator  
+    \<Samples Path\>\Pipelines\Aggregator  
   
-2.  Run the file Setup.bat, which performs the following actions:  
+2. Run the file Setup.bat, which performs the following actions:  
   
-    -   Creates the input (In) and output (Out) folders for this sample in the folder:  
+   - Creates the input (In) and output (Out) folders for this sample in the folder:  
   
-         \<Samples Path\>\Pipelines\Aggregator  
+      \<Samples Path\>\Pipelines\Aggregator  
   
-    -   Compiles the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects for this sample.  
+   - Compiles the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects for this sample.  
   
-    -   Creates a new application called "Aggregator Sample" and deploys the sample assemblies into it.  
+   - Creates a new application called "Aggregator Sample" and deploys the sample assemblies into it.  
   
-    -   Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location, and the send and receive ports.  
+   - Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location, and the send and receive ports.  
   
-    -   Enlists and starts orchestration, enables the receive location, and starts the send port.  
+   - Enlists and starts orchestration, enables the receive location, and starts the send port.  
   
-         If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe). Use this key pair is used to sign the resulting assemblies.  
+      If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe). Use this key pair is used to sign the resulting assemblies.  
   
-3.  Before attempting to run this sample, confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process.  
+3. Before attempting to run this sample, confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process.  
   
-     To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
+    To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
   
 ## Running the Sample  
  Use the following procedure to run the Aggregator sample.  

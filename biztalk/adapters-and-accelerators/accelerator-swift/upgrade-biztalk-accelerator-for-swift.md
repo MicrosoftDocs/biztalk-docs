@@ -31,11 +31,11 @@ Upgrade [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-cur
 ## Supported upgrade paths  
  The following table lists the supported [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] versions that can be upgraded. “Yes” means that version can be upgraded. “No” means that version cannot be upgraded. If the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] version is not listed, that version cannot be upgraded.  
 
-||[!INCLUDE[bts2016_md](../../includes/bts2016-md.md)]|[!INCLUDE[bts2013r2](../../includes/bts2013r2-md.md)]|BizTalk Server 2013|
-|---|---|---|---|  
-|[!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] 2013|Yes|Yes|No|  
-|[!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] 2010|No|Yes|Yes|  
 
+|                                                                                                       | [!INCLUDE[bts2016_md](../../includes/bts2016-md.md)] | [!INCLUDE[bts2013r2](../../includes/bts2013r2-md.md)] | BizTalk Server 2013 |
+|-------------------------------------------------------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------|---------------------|
+| [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] 2013 |                         Yes                          |                          Yes                          |         No          |
+| [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] 2010 |                          No                          |                          Yes                          |         Yes         |
 
 ## Upgrade A4SWIFT
 
@@ -54,42 +54,42 @@ Upgrade [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-cur
 
 5. Run the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] setup to upgrade.
 
-> [!NOTE] 
+> [!NOTE]
 > When you upgrade [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)], the upgrade removes access permissions for the **A4SWIFT Administrators** and **A4SWIFT Users** groups from the `%programfiles%\Microsoft BizTalk <version> Accelerator for SWIFT\Service` folder.         
         
 ## Post-upgrade steps
 
 1. Using [BTSTask.exe](../../core/btstask-command-line-reference.md) (%programfiles%\Microsoft BizTalk Server), manually redeploy the A4SWIFT assemblies in the following order:
-* Microsoft.Solutions.FinancialServices.SWIFT.FrrSchemas
-* Microsoft.Solutions.FinancialServices.SWIFT.FrrOrchestration
+2. Microsoft.Solutions.FinancialServices.SWIFT.FrrSchemas
+3. Microsoft.Solutions.FinancialServices.SWIFT.FrrOrchestration
 
-    > [!NOTE]
-    > You do not have to redeploy `Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas`. The installation redeploys this assembly.
+     > [!NOTE]
+     > You do not have to redeploy `Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas`. The installation redeploys this assembly.
 
-    > [!IMPORTANT] 
-    > Before rebuilding and redeploying your schemas project in the previous step, delete the older versions of `A4SWIFT Base Types.xsd` and `SWIFT Common Data Types.xsd` from the schema project, replace them with the Message Pack versions of those schemas, and then build and deploy the schemas project. If you do not replace these schemas, you will not be able to build and deploy the schemas project.
+     > [!IMPORTANT] 
+     > Before rebuilding and redeploying your schemas project in the previous step, delete the older versions of `A4SWIFT Base Types.xsd` and `SWIFT Common Data Types.xsd` from the schema project, replace them with the Message Pack versions of those schemas, and then build and deploy the schemas project. If you do not replace these schemas, you will not be able to build and deploy the schemas project.
 
-2. Rebuild and deploy any projects or assemblies that you used with older versions of [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] or Message Pack.
-3. If you've made any changes to SWIFT Message Pack schemas, make those changes in the new Message Pack schemas, and then build and deploy those schemas.
-4. Undeploy any existing BRE policies that were installed with previous versions of [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]. Then install and deploy the newer corresponding policies from [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] installation files. You can do this manually or by using the **BREDeployment** tool.
+4. Rebuild and deploy any projects or assemblies that you used with older versions of [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] or Message Pack.
+5. If you've made any changes to SWIFT Message Pack schemas, make those changes in the new Message Pack schemas, and then build and deploy those schemas.
+6. Undeploy any existing BRE policies that were installed with previous versions of [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]. Then install and deploy the newer corresponding policies from [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] installation files. You can do this manually or by using the **BREDeployment** tool.
 
-    > [!NOTE] 
-    > Even though the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] upgrade does not cause any issues with the Business Rules Engine (BRE) functionality, we recommend that you replace the previous versions of [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] BRE policies with the latest Message Pack BRE policies, as some BRE policies get updated for each Message Pack.
+   > [!NOTE]
+   > Even though the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] upgrade does not cause any issues with the Business Rules Engine (BRE) functionality, we recommend that you replace the previous versions of [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] BRE policies with the latest Message Pack BRE policies, as some BRE policies get updated for each Message Pack.
     
-5. If you customized any files in the `%programfiles%\Microsoft BizTalk <version> Accelerator for SWIFT` folder, then make those same changes to the newer versions.
-6. Remove **a4swift_limited** as a member of the db_denydatareader role, as follows:
+7. If you customized any files in the `%programfiles%\Microsoft BizTalk <version> Accelerator for SWIFT` folder, then make those same changes to the newer versions.
+8. Remove **a4swift_limited** as a member of the db_denydatareader role, as follows:
     1. Open SQL Server Management Studio. In Management Studio, expand **Databases**, expand **BizTalk Accelerator for SWIFT**, and then select **Roles**.
     2. Double-click **a4swift_limited**. Select **Permissions**, and check SELECT for `Bic11` and `Bic10`. Select **OK**, and close the properties.
     3. Double-click **db_denydatareader**. In the User field, select **a4swift_limited**, and then select **Remove**. Select **OK**.
 
-7. Run the QFERollUpDBUpdate script:
+9. Run the QFERollUpDBUpdate script:
 
     > [!NOTE]
     > You must be a member of the **A4Swift Administrators** group to run the QFERollUpDBUpdate script.
     
-    1. Open SQL Server Management Studio. In Management Studio, click New Query. 
-    2. Select the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] database from the drop-down list. 
-    3. In Windows Explorer, go to `%programfiles%\Microsoft BizTalk <version> Accelerator for SWIFT\Scripts`, and drag the **QFERollUpDBUpdate.sql** file onto the new query pane, and then select **Execute**.
+   1. Open SQL Server Management Studio. In Management Studio, click New Query. 
+   2. Select the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] database from the drop-down list. 
+   3. In Windows Explorer, go to `%programfiles%\Microsoft BizTalk <version> Accelerator for SWIFT\Scripts`, and drag the **QFERollUpDBUpdate.sql** file onto the new query pane, and then select **Execute**.
     
     
 ## Upgrading in a multi-server environment

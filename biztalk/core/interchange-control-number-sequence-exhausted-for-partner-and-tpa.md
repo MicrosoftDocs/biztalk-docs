@@ -17,15 +17,15 @@ manager: "anneta"
 # Interchange control number sequence exhausted for Partner and TPA
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|EdiControlNumberExhaustedForParty|  
-|Message Text|Interchange control number sequence exhausted for Partner '{1}' for the TPA '{2}'. Reset the sequence in {2} - EDI Properties using BizTalk Server Administration.|  
+|                 |                                                                                                                                                                    |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                         |
+| Product Version |                                                     [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                     |
+|    Event ID     |                                                                                 -                                                                                  |
+|  Event Source   |                                       [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                       |
+|    Component    |                                                                             EDI Engine                                                                             |
+|  Symbolic Name  |                                                                 EdiControlNumberExhaustedForParty                                                                  |
+|  Message Text   | Interchange control number sequence exhausted for Partner '{1}' for the TPA '{2}'. Reset the sequence in {2} - EDI Properties using BizTalk Server Administration. |
   
 ## Explanation  
  This Error/Warning/Information event indicates BizTalk Server was not able to process the document because the Interchange control range has been used up for the agreement in {2}.  

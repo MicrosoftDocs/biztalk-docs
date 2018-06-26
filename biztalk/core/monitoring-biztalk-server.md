@@ -20,19 +20,19 @@ Monitoring your BizTalk Server applications and infrastructure on a regular basi
   
  When monitoring BizTalk Server, you should look for any unexpected or anomalous behavior. Monitoring can be either a manual or automatic process. You can monitor use the health of your BizTalk Server infrastructure using the BizTalk Server Administration Console. You can use the BizTalk Server Administration Console to monitor the health of your BizTalk Server applications and perform root-cause analysis to identify the underlying cause of any problems. . When monitoring BizTalk Server, keep these points in mind:  
   
--   Your infrastructure could be healthy, but your applications might not be (for example, they are receiving invalid messages and are unable to process them).  
+- Your infrastructure could be healthy, but your applications might not be (for example, they are receiving invalid messages and are unable to process them).  
   
--   Your infrastructure could be unhealthy, but your applications might be running fine (for example, if a server is down, but there are enough servers assigned to the host to take over the load).  
+- Your infrastructure could be unhealthy, but your applications might be running fine (for example, if a server is down, but there are enough servers assigned to the host to take over the load).  
   
--   An infrastructure problem could surface as an application problem (for example, messages are not being processed fast enough because a server is down).  
+- An infrastructure problem could surface as an application problem (for example, messages are not being processed fast enough because a server is down).  
   
- Monitoring your BizTalk Server and Applications falls into three main categories:  
+  Monitoring your BizTalk Server and Applications falls into three main categories:  
   
--   Availability monitoring  
+- Availability monitoring  
   
--   Health monitoring  
+- Health monitoring  
   
--   Performance monitoring  
+- Performance monitoring  
   
 ## Availability Monitoring  
  Availability monitoring answers the question "Is the inavailability of a system or application resource preventing your BizTalk Server applications from running optimally?" These issues are almost exclusively system-level, such as availability of services and connections. For example, if an adapter is failing because the Enterprise Single Sign-On service is stopped, this is an availability issue. If one of the servers assigned to a host has failed and your application is falling behind on processing messages, you have an availability issue. Likewise, if an application is stopped and is unable to process messages, you have an availability issue. The following table shows availability monitoring tools.  
@@ -68,29 +68,29 @@ Monitoring your BizTalk Server applications and infrastructure on a regular basi
 > [!NOTE]
 >  The Monitor BizTalk Server job only scans for issues. It does not fix the issues found.  
   
--   Messages without any references  
+- Messages without any references  
   
--   Messages without reference counts  
+- Messages without reference counts  
   
--   Messages with reference count less than 0  
+- Messages with reference count less than 0  
   
--   Message references without spool rows  
+- Message references without spool rows  
   
--   Message references without instances  
+- Message references without instances  
   
--   Instance state without instances  
+- Instance state without instances  
   
--   Instance subscriptions without corresponding instances  
+- Instance subscriptions without corresponding instances  
   
--   Orphaned DTA service instances  
+- Orphaned DTA service instances  
   
--   Orphaned DTA service instance exceptions  
+- Orphaned DTA service instance exceptions  
   
--   TDDS is not running on any host instance when global tracking option is enabled.  
+- TDDS is not running on any host instance when global tracking option is enabled.  
   
- The Monitor BizTalk Server job is configured and automated to run once in a week. Since the job is computationally intensive, we recommended you to schedule it during downtime/low traffic.  
+  The Monitor BizTalk Server job is configured and automated to run once in a week. Since the job is computationally intensive, we recommended you to schedule it during downtime/low traffic.  
   
- The job fails if it encounters any issues; error string contains the number of issues found. Else, it runs successfully. You can see the details in the job history. If you run the job with Administrator privileges, error string will be logged to Event Viewer also (along with the job history).  
+  The job fails if it encounters any issues; error string contains the number of issues found. Else, it runs successfully. You can see the details in the job history. If you run the job with Administrator privileges, error string will be logged to Event Viewer also (along with the job history).  
   
 ## Troubleshooting  
  Once you are aware of a health problem with your BizTalk Server applications (not infrastructure), you can use the Group Hub page and Query pages in the BizTalk Server Administration Console to analyze the problem. The BizTalk Server Administration Console provides an integrated configuration, deployment and troubleshooting experience, and you can fix configuration and deployment related problems within the Administration Console after you have pinpointed them. Typically, most application problems are due to messages not getting through as expected (this can manifest as suspended service instances, or retrying ports, or dehydrated instances that have not been reactivated, etc.)  

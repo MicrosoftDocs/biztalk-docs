@@ -22,37 +22,37 @@ The EDI receive pipeline and EDI send pipeline perform EDI validation on transac
 ## Validation Checks  
  When the EDI receive pipeline or EDI send pipeline performs EDI validation, it validates the following:  
   
--   Data types as defined by the EDI properties of the schema  
+- Data types as defined by the EDI properties of the schema  
   
--   Length restrictions  
+- Length restrictions  
   
--   Empty data elements and trailing separators  
+- Empty data elements and trailing separators  
   
-    > [!NOTE]
-    >  This validation does not check code sets (enumerations) or min or max occurs.  
+  > [!NOTE]
+  >  This validation does not check code sets (enumerations) or min or max occurs.  
   
- **Character Sets**  
+  **Character Sets**  
   
- To perform EDI data element validations, the EDI receive and send pipelines require the character set to be established as follows:  
+  To perform EDI data element validations, the EDI receive and send pipelines require the character set to be established as follows:  
   
--   For EDIFACT, the character set is established in data element **UNB1** of the **Charset and Separators** page of the one-way agreement tab of the **Agreement Properties** dialog box or the **EDIFACT Fallback Settings** dialog box (if no agreement has been established).  
+- For EDIFACT, the character set is established in data element **UNB1** of the **Charset and Separators** page of the one-way agreement tab of the **Agreement Properties** dialog box or the **EDIFACT Fallback Settings** dialog box (if no agreement has been established).  
   
--   For KEDIFACT, the character is established in data element **UNB1** of the **Charset and Separators** page of the one-way agreement tab of the **Agreement Properties** dialog box, as for EDIFACT. The value for the **UNB1.1** element must be set to `KECA`.  
+- For KEDIFACT, the character is established in data element **UNB1** of the **Charset and Separators** page of the one-way agreement tab of the **Agreement Properties** dialog box, as for EDIFACT. The value for the **UNB1.1** element must be set to `KECA`.  
   
--   For X12, the character set is established for the message in the pipeline properties.  
+- For X12, the character set is established for the message in the pipeline properties.  
   
-    > [!NOTE]
-    >  When the BizTalk runtime performs EDI validation of a message, it will use the X12 character set selected in the pipeline properties. However, validation of the properties entered in the pages of the **Agreement Properties** dialog box is performed using the character set selected in the **Charset and Separators** page of that dialog box. During runtime, the pipeline ignores the value of the X12 character set property **Charset and Separators** page of the **Agreement Properties** dialog box. If these two settings are not the same (i.e., the X12 character set property in the **Agreement Properties** dialog box is set to **Extended** while the X12 character property in the pipeline properties is set to **Basic**), message validation errors could result.  
+  > [!NOTE]
+  >  When the BizTalk runtime performs EDI validation of a message, it will use the X12 character set selected in the pipeline properties. However, validation of the properties entered in the pages of the **Agreement Properties** dialog box is performed using the character set selected in the **Charset and Separators** page of that dialog box. During runtime, the pipeline ignores the value of the X12 character set property **Charset and Separators** page of the **Agreement Properties** dialog box. If these two settings are not the same (i.e., the X12 character set property in the **Agreement Properties** dialog box is set to **Extended** while the X12 character property in the pipeline properties is set to **Basic**), message validation errors could result.  
   
- **Data Type Validation**  
+  **Data Type Validation**  
   
- For X12, the following EDI data types are annotated in schema for validation by the Disassembler/Assembler components in the Receive or Send Pipelines: Numeric, Decimal, Identifier, String, Date, Time, Binary, and Composite.  
+  For X12, the following EDI data types are annotated in schema for validation by the Disassembler/Assembler components in the Receive or Send Pipelines: Numeric, Decimal, Identifier, String, Date, Time, Binary, and Composite.  
   
- For EDIFACT, the following EDI data types are annotated in schema for validation by the Disassembler/Assembler components in the Receive or Send Pipelines: Alphabetic, Numeric, Identifier, String, and Composite.  
+  For EDIFACT, the following EDI data types are annotated in schema for validation by the Disassembler/Assembler components in the Receive or Send Pipelines: Alphabetic, Numeric, Identifier, String, and Composite.  
   
- **Length Restrictions**  
+  **Length Restrictions**  
   
- For both X12 and EDIFACT, elements or sub-elements must be validated for length (minimum and maximum) requirement. Length is defined as the number of character positions used. Length does not include signs and decimal notations.  
+  For both X12 and EDIFACT, elements or sub-elements must be validated for length (minimum and maximum) requirement. Length is defined as the number of character positions used. Length does not include signs and decimal notations.  
   
 > [!NOTE]
 >  For the X12_AN string data type, leading spaces are preserved and trailing spaces are allowed in any segment to satisfy the minimum length requirement.  
@@ -75,21 +75,21 @@ The EDI receive pipeline and EDI send pipeline perform EDI validation on transac
   
  Some of the errors that will be processed without causing the message to be suspended are:  
   
--   An unexpected/undefined transaction set  
+- An unexpected/undefined transaction set  
   
--   Unexpected/undefined data at the segment/loop and data element level  
+- Unexpected/undefined data at the segment/loop and data element level  
   
--   Optionality (min and max occurs) at the segment/loop and data element level  
+- Optionality (min and max occurs) at the segment/loop and data element level  
   
--   Length (min/max) violation at the data element level (data with length exceeding the maximum level or below the minimum level)  
+- Length (min/max) violation at the data element level (data with length exceeding the maximum level or below the minimum level)  
   
--   Data type mismatch at the data element level (except for the ID data type, which has its own control)  
+- Data type mismatch at the data element level (except for the ID data type, which has its own control)  
   
--   Invalid enumeration list at the data element level.  
+- Invalid enumeration list at the data element level.  
   
- If EDI type validation is disabled on the receive side, but enabled on the send side, the EDI send pipeline will not be able to reprocess the XML produced by the receive pipeline into a valid EDI file if the XML file contains errors. As a result, the send pipeline will generate an error.  
+  If EDI type validation is disabled on the receive side, but enabled on the send side, the EDI send pipeline will not be able to reprocess the XML produced by the receive pipeline into a valid EDI file if the XML file contains errors. As a result, the send pipeline will generate an error.  
   
- If EDI Type validation is disabled, the EDI receive pipeline or send pipeline will handle errors as follows:  
+  If EDI Type validation is disabled, the EDI receive pipeline or send pipeline will handle errors as follows:  
   
 |||  
 |-|-|  

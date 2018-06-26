@@ -24,17 +24,17 @@ The Windows 2000 Event Viewer can be a useful tool for troubleshooting data acce
   
  The ODBC Driver for DB2 maintains an internal integer variable named SQLCODE and an internal 5-byte character string variable named SQLSTATE used to check the execution of SQL statements on DB2. SQLCODE is set by DB2 after each SQL statement is executed. DB2 returns the following values for SQLCODE:  
   
--   If SQLCODE = 0, execution was successful.  
+- If SQLCODE = 0, execution was successful.  
   
--   If SQLCODE > 0, execution was successful with a warning.  
+- If SQLCODE > 0, execution was successful with a warning.  
   
--   If SQLCODE < 0, execution was not successful.  
+- If SQLCODE < 0, execution was not successful.  
   
--   SQLCODE = 100, "no data" was found. For example, a **FETCH** statement returned no data because the cursor was positioned after the last row of the result table.  
+- SQLCODE = 100, "no data" was found. For example, a **FETCH** statement returned no data because the cursor was positioned after the last row of the result table.  
   
- SQLSTATE is also set by DB2 after the execution of each SQL statement. Application programs can check the execution of SQL statements by testing SQLSTATE instead of SQLCODE. SQLSTATE provides application programs with common codes for common error conditions (the values of SQLSTATE are product-specific only if the error or warning is product-specific). Furthermore, SQLSTATE is designed so that application programs can test for specific errors or classes of errors.  
+  SQLSTATE is also set by DB2 after the execution of each SQL statement. Application programs can check the execution of SQL statements by testing SQLSTATE instead of SQLCODE. SQLSTATE provides application programs with common codes for common error conditions (the values of SQLSTATE are product-specific only if the error or warning is product-specific). Furthermore, SQLSTATE is designed so that application programs can test for specific errors or classes of errors.  
   
- SQLSTATE values consist of a two-character class code value, followed by a three-character subclass code value. The first character of an SQLSTATE value indicates whether the SQL statement was executed successfully or unsuccessfully (equal to or not equal to zero, respectively). Class code values represent classes of successful and unsuccessful execution conditions. The following table describes SQLSTATE class codes used by DB2.  
+  SQLSTATE values consist of a two-character class code value, followed by a three-character subclass code value. The first character of an SQLSTATE value indicates whether the SQL statement was executed successfully or unsuccessfully (equal to or not equal to zero, respectively). Class code values represent classes of successful and unsuccessful execution conditions. The following table describes SQLSTATE class codes used by DB2.  
   
 |Class Code|Description of Error Class|  
 |----------------|--------------------------------|  

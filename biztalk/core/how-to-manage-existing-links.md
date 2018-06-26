@@ -32,11 +32,11 @@ Sometimes you may need to change the source or destination of a link, name or re
   
 ### To set/edit the label of a link  
   
-1.  In BizTalk Mapper, in a grid page, click a link to select it.  
+1. In BizTalk Mapper, in a grid page, click a link to select it.  
   
-     The endpoints of a selected link in the grid page are highlighted.  
+    The endpoints of a selected link in the grid page are highlighted.  
   
-2.  In the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, provide a (new) name for the link using the **Label** property.  
+2. In the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Properties window, provide a (new) name for the link using the **Label** property.  
   
 ### To delete a link  
   

@@ -19,13 +19,13 @@ manager: "anneta"
 ## Overview
 Read about [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], see what's new, and gets the steps to install [!INCLUDE[his2016](../includes/his2016-md.md)] and  [!INCLUDE[his2013](../includes/his2013-md.md)]. These topics focus on the following:  
   
--   What is HIS  
+- What is HIS  
   
--   What's New  
+- What's New  
   
--   Installation and Configuration  
+- Installation and Configuration  
   
- If you're looking for help developing HIS applications, monitoring your environments, learning more about HIS, and other core tasks, go to the [Host Integration Server Core Documentation](../core/host-integration-server-core-documentation.md). If you want to install and configure HIS, then choose your HIS version to get started.  
+  If you're looking for help developing HIS applications, monitoring your environments, learning more about HIS, and other core tasks, go to the [Host Integration Server Core Documentation](../core/host-integration-server-core-documentation.md). If you want to install and configure HIS, then choose your HIS version to get started.  
   
 ## Next steps
  [What is HIS](../what-is-his.md)  

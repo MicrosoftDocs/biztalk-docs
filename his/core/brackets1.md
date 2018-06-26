@@ -20,11 +20,11 @@ This section primarily describes the bracket protocols between the local node an
   
  The management of this protocol for a generalized application is complex, and there is a significant amount of code in the local node to simplify the application's perception of the protocol. An application is only aware of two states:  
   
--   In-bracket  
+- In-bracket  
   
--   Between-bracket  
+- Between-bracket  
   
- The local node, in addition to the states of in-bracket and between-bracket, maintains transient states with a large state transition matrix, or finite-state machine, governing the half-session's state at a particular time.  
+  The local node, in addition to the states of in-bracket and between-bracket, maintains transient states with a large state transition matrix, or finite-state machine, governing the half-session's state at a particular time.  
   
 ## In This Section  
   

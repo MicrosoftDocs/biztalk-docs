@@ -19,29 +19,29 @@ The primary user interface for BizTalk Mapper is displayed on a tab within the [
   
  If you want to implement more advanced mapping methods, you can use functoids. Functoids are tools available on BizTalk Mapper tabs within the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Toolbox. They enable you to create maps to perform more complex operations, such as:  
   
--   Adding the values in two fields in a source schema and putting the result in a field in the destination schema.  
+- Adding the values in two fields in a source schema and putting the result in a field in the destination schema.  
   
--   Calculating the average value of a field in a looping record and putting the result in a field in the destination schema.  
+- Calculating the average value of a field in a looping record and putting the result in a field in the destination schema.  
   
--   Writing a custom script to manipulate instance data as appropriate for your business needs.  
+- Writing a custom script to manipulate instance data as appropriate for your business needs.  
   
- For more information about functoids, see [Functoids in Maps](../core/functoids-in-maps.md).  
+  For more information about functoids, see [Functoids in Maps](../core/functoids-in-maps.md).  
   
- BizTalk Mapper can support many different mapping scenarios from simple parent-child relationships to detailed, complex looping of records and hierarchies. Consider the following when you create maps:  
+  BizTalk Mapper can support many different mapping scenarios from simple parent-child relationships to detailed, complex looping of records and hierarchies. Consider the following when you create maps:  
   
--   BizTalk Mapper does not support merge and sort.  
+- BizTalk Mapper does not support merge and sort.  
   
--   If the source and target schema structures are extremely different, it is possible that the transformation cannot be done in a single map. You may need a double pass.  
+- If the source and target schema structures are extremely different, it is possible that the transformation cannot be done in a single map. You may need a double pass.  
   
--   **Looping** functoids are flexible and powerful, yet you will not be able to break up the iteration when a change in value on the source schema is detected to start the next iteration of the target loop.  
+- **Looping** functoids are flexible and powerful, yet you will not be able to break up the iteration when a change in value on the source schema is detected to start the next iteration of the target loop.  
   
--   You can declare a variable outside the method in a **Scripting** functoid, which results in the variable being in scope for the life of the map. Therefore, you can use the **Scripting** functoid for holding values between scope areas of the transformation.  
+- You can declare a variable outside the method in a **Scripting** functoid, which results in the variable being in scope for the life of the map. Therefore, you can use the **Scripting** functoid for holding values between scope areas of the transformation.  
   
- All data processed by [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] at run time must be in XML format. All non-XML data must be translated to an equivalent XML format before mapping. Similarly, when the mapping process is complete, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the output of a mapping operation to create a file format that is recognized by the trading partner or application to which the data is sent.  
+  All data processed by [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] at run time must be in XML format. All non-XML data must be translated to an equivalent XML format before mapping. Similarly, when the mapping process is complete, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the output of a mapping operation to create a file format that is recognized by the trading partner or application to which the data is sent.  
   
- BizTalk Mapper includes a compiler. This tool-level component generates the Extensible Stylesheet Language Transformations (XSLT) needed to transform or translate input instance messages to output instance messages.  
+  BizTalk Mapper includes a compiler. This tool-level component generates the Extensible Stylesheet Language Transformations (XSLT) needed to transform or translate input instance messages to output instance messages.  
   
- This section provides task-specific information about using BizTalk Mapper to create the mapping between two schemas. It assumes that you already have BizTalk Mapper open, and have chosen your source and destination schemas.  
+  This section provides task-specific information about using BizTalk Mapper to create the mapping between two schemas. It assumes that you already have BizTalk Mapper open, and have chosen your source and destination schemas.  
   
 ## In This Section  
   

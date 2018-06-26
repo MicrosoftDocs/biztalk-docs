@@ -55,25 +55,25 @@ You can use the BizTalk Server Administration Console or Windows Management Inst
   
 ## Steps
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, click **Platform Settings**, and then click **Host Instances**.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the BizTalk group, click **Platform Settings**, and then click **Host Instances**.  
   
-3.  In the details pane, right-click the host instance you want to modify, and then click **Properties**.  
+3. In the details pane, right-click the host instance you want to modify, and then click **Properties**.  
   
-4.  In the **Host Instance Properties** dialog box, click **Configure** to modify the service account information.  
+4. In the **Host Instance Properties** dialog box, click **Configure** to modify the service account information.  
   
-5.  In the **Logon Credentials** dialog box, enter the account name and password of the account under which the host instance will run, and then click **OK**.  
+5. In the **Logon Credentials** dialog box, enter the account name and password of the account under which the host instance will run, and then click **OK**.  
   
-6.  In the **Host Instance Properties** dialog box, do the following, and then click **OK**:  
+6. In the **Host Instance Properties** dialog box, do the following, and then click **OK**:  
   
-    |Use this|To do this|  
-    |--------------|----------------|  
-    |**Host name**|Displays the name of the host associated with the selected server.|  
-    |**Server**|Displays the server associated with the selected host.|  
-    |**Logon**|Displays the account name of the new service account under which the host instance will run.|  
-    |**Configure**|Click to display the **Logon Credentials** dialog box, where you can enter the account name and password of the account under which the host instance will run.|  
-    |**Disable host instance from starting**|Select this check box to change the status of the selected host from enabled to disabled. Disabling a host instance is useful if you do not want the host instance to start, but you do want to preserve its settings.|  
+   |Use this|To do this|  
+   |--------------|----------------|  
+   |**Host name**|Displays the name of the host associated with the selected server.|  
+   |**Server**|Displays the server associated with the selected host.|  
+   |**Logon**|Displays the account name of the new service account under which the host instance will run.|  
+   |**Configure**|Click to display the **Logon Credentials** dialog box, where you can enter the account name and password of the account under which the host instance will run.|  
+   |**Disable host instance from starting**|Select this check box to change the status of the selected host from enabled to disabled. Disabling a host instance is useful if you do not want the host instance to start, but you do want to preserve its settings.|  
   
 ## See Also  
  [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   

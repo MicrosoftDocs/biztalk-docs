@@ -22,21 +22,21 @@ There are situations where static design-time adapter configuration and the stan
 ## Guidelines for the Dynamic Development Process  
  The following list provides recommendations for building dynamic design-time functionality into your adapter. During development you may not need to do all of these steps nor execute them in a rigid sequence.  
   
-1.  Create a list of adapter configuration requirements and configuration parameters that you need to set. If the parameters are globally used for all receive locations and send ports, specify them in the handler schema configuration file. If they are port or location specific, configure them in the send port and receive location configuration files.  
+1. Create a list of adapter configuration requirements and configuration parameters that you need to set. If the parameters are globally used for all receive locations and send ports, specify them in the handler schema configuration file. If they are port or location specific, configure them in the send port and receive location configuration files.  
   
-2.  Modify the adapter property pages to account for any new configuration parameters. For information about this step, see [Adapter Configuration Schemas](../core/adapter-configuration-schemas.md).  
+2. Modify the adapter property pages to account for any new configuration parameters. For information about this step, see [Adapter Configuration Schemas](../core/adapter-configuration-schemas.md).  
   
-3.  Create a custom user interface (UI) for the Add Adapter Metadata Wizard to select the schema to add to the project. Of all the recommendations listed here only this differentiates a dynamic from a static adapter. For more information about this step, see [Dynamic Adapter DisplayUI Method](../core/dynamic-adapter-displayui-method.md) and the class [Microsoft.BizTalk.Adapter.Framework.IDynamicAdapterConfig.DisplayUI](http://msdn.microsoft.com/library/microsoft.biztalk.adapter.framework.idynamicadapterconfig.displayui.aspx).  
+3. Create a custom user interface (UI) for the Add Adapter Metadata Wizard to select the schema to add to the project. Of all the recommendations listed here only this differentiates a dynamic from a static adapter. For more information about this step, see [Dynamic Adapter DisplayUI Method](../core/dynamic-adapter-displayui-method.md) and the class [Microsoft.BizTalk.Adapter.Framework.IDynamicAdapterConfig.DisplayUI](http://msdn.microsoft.com/library/microsoft.biztalk.adapter.framework.idynamicadapterconfig.displayui.aspx).  
   
-4.  Modify the sample code to return schemas as Web Services Description Language (WSDL) files. For more information about this step, see [Static Adapter IStaticAdapterConfig Interface](../core/static-adapter-istaticadapterconfig-interface.md).  
+4. Modify the sample code to return schemas as Web Services Description Language (WSDL) files. For more information about this step, see [Static Adapter IStaticAdapterConfig Interface](../core/static-adapter-istaticadapterconfig-interface.md).  
   
-5.  Modify the existing WSDL files or create new WSDL files. For more information about this step, see [Adapter WSDL Files](../core/adapter-wsdl-files.md).  
+5. Modify the existing WSDL files or create new WSDL files. For more information about this step, see [Adapter WSDL Files](../core/adapter-wsdl-files.md).  
   
-6.  Modify the sample code to return additional XSD files needed by the adapter that are not included in the WSDL files. For more information about this step, see [Adapter GetSchema Method](../core/adapter-getschema-method.md).  
+6. Modify the sample code to return additional XSD files needed by the adapter that are not included in the WSDL files. For more information about this step, see [Adapter GetSchema Method](../core/adapter-getschema-method.md).  
   
-7.  Modify the adapter registry keys and run the adapter registry file. For more information about this step, see [Adapter Registration File](../core/adapter-registration-file.md).  
+7. Modify the adapter registry keys and run the adapter registry file. For more information about this step, see [Adapter Registration File](../core/adapter-registration-file.md).  
   
-8.  Install the static adapter into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information about this step, see [Install the Adapter into BizTalk Server](../core/install-the-adapter-into-biztalk-server.md).  
+8. Install the static adapter into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information about this step, see [Install the Adapter into BizTalk Server](../core/install-the-adapter-into-biztalk-server.md).  
   
 9. Test the changes made to the adapter property pages. Rebuild the adapter to test the UI that appears in the Add Adapter Metadata Wizard. For more information about this step, see [Build and Test the Adapter Project](../core/build-and-test-the-adapter-project.md)  
   

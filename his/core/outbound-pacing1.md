@@ -28,29 +28,29 @@ If the application has enough resources to handle outbound data as fast as the n
   
  The application should maintain a credit-used count, which it should report to the local node on [Status-Resource](./status-resource1.md) messages. The application needs to take the following actions:  
   
--   On processing (not receiving) **DATAFMI** messages with EBIU set (corresponding to FMD requests), increment the credit-used count by one.  
+- On processing (not receiving) **DATAFMI** messages with EBIU set (corresponding to FMD requests), increment the credit-used count by one.  
   
--   On processing **Status-Control** messages and all other messages from the local node, do not increment the credit-used count.  
+- On processing **Status-Control** messages and all other messages from the local node, do not increment the credit-used count.  
   
--   Periodically report the current credit-used count on a **Status-Resource** message.  
+- Periodically report the current credit-used count on a **Status-Resource** message.  
   
--   Report the credit-used count when its buffer becomes empty (whatever the last message processed was), unless the credit-used count is zero.  
+- Report the credit-used count when its buffer becomes empty (whatever the last message processed was), unless the credit-used count is zero.  
   
--   When the credit-used count is reported to the local node, reset it to zero.  
+- When the credit-used count is reported to the local node, reset it to zero.  
   
- The frequency at which the application provides [Status-Resource](./status-resource1.md) messages is not architected. However, the local node will only send the application as many [Data](./data1.md) messages as it has received credit for. When the application's credit-used count reaches the initial credit value, the local node will not send any more data. The application should attempt to send a **Status-Resource** message before this happens, because if the local node cannot send a **Data** message to the application and the host is still sending requests, the local node may not be able to send a pacing response to the host when required, with a consequent degradation of performance.  
+  The frequency at which the application provides [Status-Resource](./status-resource1.md) messages is not architected. However, the local node will only send the application as many [Data](./data1.md) messages as it has received credit for. When the application's credit-used count reaches the initial credit value, the local node will not send any more data. The application should attempt to send a **Status-Resource** message before this happens, because if the local node cannot send a **Data** message to the application and the host is still sending requests, the local node may not be able to send a pacing response to the host when required, with a consequent degradation of performance.  
   
- If the pacing window is small, such as one or two, the application should send a **Status-Resource** after processing each **DATAFMI** message to enable the local node to send the suitable pacing response.  
+  If the pacing window is small, such as one or two, the application should send a **Status-Resource** after processing each **DATAFMI** message to enable the local node to send the suitable pacing response.  
   
- The following figure shows the local node handling outbound pacing when the application is not involved (APPLPAC = 0x00). The pacing window is assumed to be two.  
+  The following figure shows the local node handling outbound pacing when the application is not involved (APPLPAC = 0x00). The pacing window is assumed to be two.  
   
- ![](../core/media/his-32703o.gif "his_32703o")  
-Local node handling outbound pacing  
+  ![](../core/media/his-32703o.gif "his_32703o")  
+  Local node handling outbound pacing  
   
- The following figure shows the local node and the application handling outbound pacing with the outbound pacing window assumed to be two and the initial credit from the local node to the application assumed to be four. Note that the local node can send an isolated pacing response (IPR) to the host to get another window full of data as soon as the application has sufficient credit for the rest of the present window and the next window.  
+  The following figure shows the local node and the application handling outbound pacing with the outbound pacing window assumed to be two and the initial credit from the local node to the application assumed to be four. Note that the local node can send an isolated pacing response (IPR) to the host to get another window full of data as soon as the application has sufficient credit for the rest of the present window and the next window.  
   
- ![](../core/media/his-32703oa.gif "his_32703oa")  
-Local node and application handling outbound pacing  
+  ![](../core/media/his-32703oa.gif "his_32703oa")  
+  Local node and application handling outbound pacing  
   
 ## See Also  
  [Opening the PLU Connection](../core/opening-the-plu-connection1.md)   

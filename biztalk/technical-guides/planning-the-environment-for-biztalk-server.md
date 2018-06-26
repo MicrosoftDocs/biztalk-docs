@@ -27,7 +27,7 @@ The planning section of the operations guide describes roles and responsibilitie
   
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] also includes several other features that facilitate business integration including a message workflow engine, a Business Rule Engine (BRE), and technologies for information workers such as Business Activity Monitoring (BAM).  
   
- For more information about using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business process management functionality, see [White Paper: Microsoft and BPM—Technical Overview](http://go.microsoft.com/fwlink/?LinkId=106015) (http://go.microsoft.com/fwlink/?LinkId=106015). To know more about the different integration technologies offered by Microsoft and the advantages one has over the other, see [Understanding Microsoft Integration Technologies](http://go.microsoft.com/fwlink/?LinkId=158452) (http://go.microsoft.com/fwlink/?LinkId=158452).  
+ For more information about using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business process management functionality, see [White Paper: Microsoft and BPM—Technical Overview](http://go.microsoft.com/fwlink/?LinkId=106015) (<http://go.microsoft.com/fwlink/?LinkId=106015>). To know more about the different integration technologies offered by Microsoft and the advantages one has over the other, see [Understanding Microsoft Integration Technologies](http://go.microsoft.com/fwlink/?LinkId=158452) (<http://go.microsoft.com/fwlink/?LinkId=158452>).  
   
  Certain integration scenarios are better suited to other Microsoft products. If your primary focus is upon any of the following scenarios, consider using these Microsoft products instead of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:  
   
@@ -40,17 +40,17 @@ The planning section of the operations guide describes roles and responsibilitie
 ## Deciding Which Edition of BizTalk Server Is Right for the Job  
  There are four different editions of BizTalk Server, each of which is targeted at specific scenarios. The four editions of BizTalk Server include:  
   
--   **Enterprise** - Designed for customers with enterprise-level requirements for high volume, reliability, and availability.  
+- **Enterprise** - Designed for customers with enterprise-level requirements for high volume, reliability, and availability.  
   
--   **Standard** - Designed for businesses with moderate volume and deployment scale requirements.  
+- **Standard** - Designed for businesses with moderate volume and deployment scale requirements.  
   
--   **Branch** - Specialty version of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] designed for hub and spoke deployment scenarios including RFID.  
+- **Branch** - Specialty version of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] designed for hub and spoke deployment scenarios including RFID.  
   
--   **Developer** - Provides all of the functionality of the Enterprise Edition for development and testing purposes and is available as the BizTalk Server Evaluation Edition at no cost for evaluation purposes. When installed as the Evaluation Edition, BizTalk Server will function for 120 days.  
+- **Developer** - Provides all of the functionality of the Enterprise Edition for development and testing purposes and is available as the BizTalk Server Evaluation Edition at no cost for evaluation purposes. When installed as the Evaluation Edition, BizTalk Server will function for 120 days.  
   
--   **RFID Enterprise** - Designed to provide a scalable, extensible platform for development, deployment, and management of rich RFID and sensor solutions, includes BizTalk RFID Server and BizTalk RFID Mobile.  
+- **RFID Enterprise** - Designed to provide a scalable, extensible platform for development, deployment, and management of rich RFID and sensor solutions, includes BizTalk RFID Server and BizTalk RFID Mobile.  
   
- For more information about the different editions of BizTalk Server, see [Microsoft BizTalk Server Editions](http://go.microsoft.com/fwlink/?LinkId=108051) (http://go.microsoft.com/fwlink/?LinkId=108051).  
+  For more information about the different editions of BizTalk Server, see [Microsoft BizTalk Server Editions](http://go.microsoft.com/fwlink/?LinkId=108051) (http://go.microsoft.com/fwlink/?LinkId=108051).  
   
 ## Planning for Message Load  
  Once you have determined that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] meets your business integration needs, the next thing that you should determine is the message load that the BizTalk solution will be expected to process. This is an important decision because different editions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] have different scale-up and scale-out capabilities.  

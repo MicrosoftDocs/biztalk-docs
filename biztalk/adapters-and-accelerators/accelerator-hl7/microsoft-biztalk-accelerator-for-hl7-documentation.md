@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Microsoft BizTalk Accelerator for HL7 documentation
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] documentation describes what's new with the different [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] versions, shows you how to install [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)], includes step-by-step tutorials, and provides information to learn about HL7, development tasks, and operational tasks.   
+Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] documentation describes what's new with the different [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] versions, shows you how to install [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)], includes step-by-step tutorials, and provides information to learn about HL7, development tasks, and operational tasks.   
   
 ## What's new
 

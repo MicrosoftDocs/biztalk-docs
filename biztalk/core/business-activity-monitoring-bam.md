@@ -50,24 +50,24 @@ The following diagram illustrates the architecture for the Business Activity Mon
 ## Presentation  
  The presentation layer consists of the following:  
   
--   **BAM Portal**. The BAM portal in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides real-time, end-to-end visibility into a business process. It is a Web-based feature that consists of a collection of ASP.NET  pages. You can customize BAM to enhance the performance and experience for your users. For more information about the BAM Portal, see [BAM Portal](../core/bam-portal.md).  
+- **BAM Portal**. The BAM portal in Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides real-time, end-to-end visibility into a business process. It is a Web-based feature that consists of a collection of ASP.NET  pages. You can customize BAM to enhance the performance and experience for your users. For more information about the BAM Portal, see [BAM Portal](../core/bam-portal.md).  
   
--   **Microsoft Excel**. The BAM Add-In for Excel provides a user interface that guides business analysts during the creation of Activities and Views. Excel serves as both a design tool for business analysts and a data consumption tool for business users. For more information about the BAM Add-In for Excel, see [Requirements for Using the BAM Add-In for Excel](../core/requirements-for-using-the-bam-add-in-for-excel.md).  
+- **Microsoft Excel**. The BAM Add-In for Excel provides a user interface that guides business analysts during the creation of Activities and Views. Excel serves as both a design tool for business analysts and a data consumption tool for business users. For more information about the BAM Add-In for Excel, see [Requirements for Using the BAM Add-In for Excel](../core/requirements-for-using-the-bam-add-in-for-excel.md).  
   
--   **Custom User Interface**. ISV’s and developers can create custom applications that display BAM data  
+- **Custom User Interface**. ISV’s and developers can create custom applications that display BAM data  
   
 ## Processing  
  The processing layer consists of the following:  
   
--   **BAM Management Web Service**. This Web service is used by the BAM Portal application to communicate with the BAM Primary Import Tables (PIT). The communication with the database is done using impersonated credentials stored in the registry which is created during configuration. Methods exposed by this Web service can be used by custom clients to get views and their details, related activities, and pivot table layouts for any user. They can also be used to manage alerts in the database.  
+- **BAM Management Web Service**. This Web service is used by the BAM Portal application to communicate with the BAM Primary Import Tables (PIT). The communication with the database is done using impersonated credentials stored in the registry which is created during configuration. Methods exposed by this Web service can be used by custom clients to get views and their details, related activities, and pivot table layouts for any user. They can also be used to manage alerts in the database.  
   
--   **Event Bus** . The BAM Event Bus Service processes tracking data (streams) stored in a source database and persists that data in a query table format in the destination database.  
+- **Event Bus** . The BAM Event Bus Service processes tracking data (streams) stored in a source database and persists that data in a query table format in the destination database.  
   
--   **SQL Notification Services**. SQL Notification Services evaluates the Instance and Aggregate BAM alerts that are defined by the business user.  
+- **SQL Notification Services**. SQL Notification Services evaluates the Instance and Aggregate BAM alerts that are defined by the business user.  
   
- The following diagram illustrates the underlying physical processes for the BAM architecture.  
+  The following diagram illustrates the underlying physical processes for the BAM architecture.  
   
- ![](../core/media/architecture-bam-02.gif "architecture_bam_02")  
+  ![](../core/media/architecture-bam-02.gif "architecture_bam_02")  
   
 ## Design time experience  
  The following diagram illustrates the design time experience.  
@@ -89,15 +89,15 @@ The following diagram illustrates the architecture for the Business Activity Mon
 ## Deployment  
  There are two categories of deployment  
   
--   Building out the dynamic infrastructure  
+- Building out the dynamic infrastructure  
   
--   Instrumenting the runtime to collect data.  
+- Instrumenting the runtime to collect data.  
   
- The following diagram illustrates BAM deployment.  
+  The following diagram illustrates BAM deployment.  
   
- ![](../core/media/architecture-bam-04.gif "architecture_bam_04")  
+  ![](../core/media/architecture-bam-04.gif "architecture_bam_04")  
   
- The following steps describe the sequence depicted in the illustration above.  
+  The following steps describe the sequence depicted in the illustration above.  
   
 1.  The BAM Management Utility is used to build out the dynamic infrastructure. Using the BAM definition or a design time Excel workbook plus the BAM Configuration XML file, the BAM Management Utility builds all the necessary databases and the corresponding DTS or SSIS tasks necessary for the system to operate.  
   

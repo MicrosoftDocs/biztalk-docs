@@ -17,15 +17,15 @@ manager: "anneta"
 # The AS2 Decoder failed processing when validating the MIC value returned in the MDN
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|AS2 Engine|  
-|Symbolic Name|AS2DecoderMdnMicFailureDuringProcessing|  
-|Message Text|The AS2 Decoder failed processing when validating the MIC value returned in the MDN.  Details of the MDN message are as follows:  AS2-From:"{0}" AS2-To:"{1}" MessageID:"{2}" OriginalMessageID:"{3}"|  
+|                 |                                                                                                                                                                                                       |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                          [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                           |
+| Product Version |                                                                      [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                       |
+|    Event ID     |                                                                                                   -                                                                                                   |
+|  Event Source   |                                                        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                                         |
+|    Component    |                                                                                              AS2 Engine                                                                                               |
+|  Symbolic Name  |                                                                                AS2DecoderMdnMicFailureDuringProcessing                                                                                |
+|  Message Text   | The AS2 Decoder failed processing when validating the MIC value returned in the MDN.  Details of the MDN message are as follows:  AS2-From:"{0}" AS2-To:"{1}" MessageID:"{2}" OriginalMessageID:"{3}" |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the receive pipeline could not process the incoming MDN because the MIC (Message Integrity Check) failed validation.  

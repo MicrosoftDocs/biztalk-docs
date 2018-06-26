@@ -29,18 +29,18 @@ In addition to the message payload, the supplementary information that a message
   
  **Answer:** The reply subject is populated in the context of the incoming message, and the orchestration can read it. If the orchestration ultimately produces a reply, it can use that value to set the send subject of the reply message.  
   
-1.  In a BizTalk Server project, add a reference to <install_directory>\TibcoRV\bin\Microsoft.BizTalk.Adapters.TibRV.Properties.dll.  
+1. In a BizTalk Server project, add a reference to <install_directory>\TibcoRV\bin\Microsoft.BizTalk.Adapters.TibRV.Properties.dll.  
   
-2.  In the orchestration (somewhere between the Receive shape that is handed the incoming Rendezvous message and the Send shape that is sending the reply), add a message construction/assignment shape (or an expression shape) to do something like the following example to the reply you constructed:  
+2. In the orchestration (somewhere between the Receive shape that is handed the incoming Rendezvous message and the Send shape that is sending the reply), add a message construction/assignment shape (or an expression shape) to do something like the following example to the reply you constructed:  
   
-    ```  
-    OutgoingMsg(Rendezvous.SendSubject) = IncomingMsg  
-    (Rendezvous.ReplySubject);  
-    ```  
-## Management assembly
-TIBCO Rendezvous does not provide metadata repositories, and Microsoft BizTalk Adapter for TIBCO Rendezvous management assembly does not provide browsing capabilities or schema generation. Therefore, you must provide a schema to BizTalk Server. For more information, see [Install, schemas, & limitations](../core/installing-biztalk-adapter-for-tibco-rendezvous.md).
+   ```  
+   OutgoingMsg(Rendezvous.SendSubject) = IncomingMsg  
+   (Rendezvous.ReplySubject);  
+   ```  
+   ## Management assembly
+   TIBCO Rendezvous does not provide metadata repositories, and Microsoft BizTalk Adapter for TIBCO Rendezvous management assembly does not provide browsing capabilities or schema generation. Therefore, you must provide a schema to BizTalk Server. For more information, see [Install, schemas, & limitations](../core/installing-biztalk-adapter-for-tibco-rendezvous.md).
   
- BizTalk Adapter for TIBCO Rendezvous includes a schema with predefined types. The adapter uses these types when generating messages for some specific data types (arrays).
+   BizTalk Adapter for TIBCO Rendezvous includes a schema with predefined types. The adapter uses these types when generating messages for some specific data types (arrays).
 
   
 ## See Also  

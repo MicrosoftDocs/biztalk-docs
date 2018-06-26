@@ -30,39 +30,39 @@ When you consume operations that the [!INCLUDE[adapteroracle](../../includes/ada
   
 #### To invoke operations on the Oracle Database adapter  
   
-1.  Generate a WCF client class and helper code. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a WCF client class targeted at the Oracle database artifacts with which you want to work. For more information about how to generate a WCF client, see [Generating a WCF Client or a WCF Service Contract for Oracle Database Artifacts](../../adapters-and-accelerators/adapter-oracle-database/create-a-wcf-client-or-wcf-service-contract-for-oracle-db-solution-artifacts.md).  
+1. Generate a WCF client class and helper code. Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a WCF client class targeted at the Oracle database artifacts with which you want to work. For more information about how to generate a WCF client, see [Generating a WCF Client or a WCF Service Contract for Oracle Database Artifacts](../../adapters-and-accelerators/adapter-oracle-database/create-a-wcf-client-or-wcf-service-contract-for-oracle-db-solution-artifacts.md).  
   
-2.  Create a WCF client instance by specifying a client binding. Specifying a client binding involves specifying the binding and endpoint address that the WCF client will use. You can do this either imperatively in code or declaratively in configuration. For more information about how to specify a client binding, see [Configure a client binding for the Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-a-client-binding-for-the-oracle-database.md). The following code creates a WCF client that can be used to perform data manipulation language (DML) operations on an Oracle database table (/SCOTT/ACCOUNTACTIVITY). It also sets the credentials for the Oracle database. The WCF client is initialized from configuration.  
+2. Create a WCF client instance by specifying a client binding. Specifying a client binding involves specifying the binding and endpoint address that the WCF client will use. You can do this either imperatively in code or declaratively in configuration. For more information about how to specify a client binding, see [Configure a client binding for the Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-a-client-binding-for-the-oracle-database.md). The following code creates a WCF client that can be used to perform data manipulation language (DML) operations on an Oracle database table (/SCOTT/ACCOUNTACTIVITY). It also sets the credentials for the Oracle database. The WCF client is initialized from configuration.  
   
-    ```  
-    SCOTTTableACCOUNTACTIVITYClient aaTableClient =   
-        new SCOTTTableACCOUNTACTIVITYClient("OracleDBBinding_SCOTT.Table.ACCOUNTACTIVITY");  
+   ```  
+   SCOTTTableACCOUNTACTIVITYClient aaTableClient =   
+       new SCOTTTableACCOUNTACTIVITYClient("OracleDBBinding_SCOTT.Table.ACCOUNTACTIVITY");  
   
-    aaTableClient.ClientCredentials.UserName.UserName = "SCOTT";  
-    aaTableClient.ClientCredentials.UserName.Password = "TIGER";  
-    ```  
+   aaTableClient.ClientCredentials.UserName.UserName = "SCOTT";  
+   aaTableClient.ClientCredentials.UserName.Password = "TIGER";  
+   ```  
   
-3.  Open the WCF client.  
+3. Open the WCF client.  
   
-    ```  
-    aaTableClient.Open();  
-    ```  
+   ```  
+   aaTableClient.Open();  
+   ```  
   
-4.  Invoke methods on the WCF client created in step 2 to perform operations on the Oracle database. The following code invokes the **Select** method of the WCF client to perform the following SQL SELECT query on the ACCOUNTACTIVITY table: `SELECT * FROM ACCOUNTACTIVITY`.  
+4. Invoke methods on the WCF client created in step 2 to perform operations on the Oracle database. The following code invokes the **Select** method of the WCF client to perform the following SQL SELECT query on the ACCOUNTACTIVITY table: `SELECT * FROM ACCOUNTACTIVITY`.  
   
-    ```  
-    // create a record set parameter to hold the SELECT query result set and invoke the Select operation;  
-    microsoft.lobservices.oracledb._2007._03.SCOTT.Table.ACCOUNTACTIVITY.ACCOUNTACTIVITYRECORDSELECT[] selectRecords;  
-    selectRecords = aaTableClient.Select("*", null);  
-    ```  
+   ```  
+   // create a record set parameter to hold the SELECT query result set and invoke the Select operation;  
+   microsoft.lobservices.oracledb._2007._03.SCOTT.Table.ACCOUNTACTIVITY.ACCOUNTACTIVITYRECORDSELECT[] selectRecords;  
+   selectRecords = aaTableClient.Select("*", null);  
+   ```  
   
-5.  Close the WCF client.  
+5. Close the WCF client.  
   
-    ```  
-    aaTableClient.Close();  
-    ```  
+   ```  
+   aaTableClient.Close();  
+   ```  
   
- For more information about performing DML operations on tables and views, including the Select operation used above, see [Performing Basic Insert, Update, Delete, and Select Operations by Using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/insert-update-delete-select-operations-in-oracle-db-using-a-wcf-service.md).  
+   For more information about performing DML operations on tables and views, including the Select operation used above, see [Performing Basic Insert, Update, Delete, and Select Operations by Using the WCF Service Model](../../adapters-and-accelerators/adapter-oracle-database/insert-update-delete-select-operations-in-oracle-db-using-a-wcf-service.md).  
   
 ## Creating and Implementing a WCF Service by Using the Oracle Database Adapter  
  The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] can perform polling on an Oracle database table or view. This functionality lets you specify a SQL SELECT query that the adapter should execute periodically against the Oracle database. The results of this query are returned to your application through a special operation, the POLLINGSTMT operation. To receive the results of the polling query, your application must implement the service contract that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] exposes for the POLLINGSTMT operation.  

@@ -51,17 +51,17 @@ typedef struct tecwrksd {
  *cwsestyp*  
  The LU type (display or printer) of the LU used by this session and (if it is a display LU or a pool of display LUs) the screen model. The possible values are:  
   
--   CERTMOD2 (0)        Model 2 display (24 by 80)  
+- CERTMOD2 (0)        Model 2 display (24 by 80)  
   
--   CERTMOD3 (1)        Model 3 display (32 by 80)  
+- CERTMOD3 (1)        Model 3 display (32 by 80)  
   
--   CERTMOD4 (2)        Model 4 display (43 by 80)  
+- CERTMOD4 (2)        Model 4 display (43 by 80)  
   
--   CERTMOD5 (3)        Model 5 display (27 by 132)  
+- CERTMOD5 (3)        Model 5 display (27 by 132)  
   
--   CERTPRNT (4)         Host printer  
+- CERTPRNT (4)         Host printer  
   
- The application should use this value to distinguish between display and printer sessions and to set the appropriate screen model for display sessions.  
+  The application should use this value to distinguish between display and printer sessions and to set the appropriate screen model for display sessions.  
   
- *cwsmodov*  
- **TRUE** if the user has permission to override the screen model for display sessions—that is, to change the session to use a different screen model from the one configured. If this value is **FALSE**, the user should not be permitted to change the screen model. This field is not used for printer sessions and should not be checked.
+  *cwsmodov*  
+  **TRUE** if the user has permission to override the screen model for display sessions—that is, to change the session to use a different screen model from the one configured. If this value is **FALSE**, the user should not be permitted to change the screen model. This field is not used for printer sessions and should not be checked.

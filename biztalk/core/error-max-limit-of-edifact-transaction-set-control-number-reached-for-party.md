@@ -17,15 +17,15 @@ manager: "anneta"
 # Max limit of acceptable Edifact transaction set control number has reached for party
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|EDI Engine|  
-|Symbolic Name|GlobalEdifactUnhNumberError|  
-|Message Text|Max limit of acceptable Edifact transaction set control number has reached for party {0}. Reset counter by navigating to Party in receiver role screen, field UNH 1 in Partner Agreement manager|  
+|                 |                                                                                                                                                                                                  |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Product Name   |                                                        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                        |
+| Product Version |                                                                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                    |
+|    Event ID     |                                                                                                -                                                                                                 |
+|  Event Source   |                                                      [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                                      |
+|    Component    |                                                                                            EDI Engine                                                                                            |
+|  Symbolic Name  |                                                                                   GlobalEdifactUnhNumberError                                                                                    |
+|  Message Text   | Max limit of acceptable Edifact transaction set control number has reached for party {0}. Reset counter by navigating to Party in receiver role screen, field UNH 1 in Partner Agreement manager |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the send pipeline could not process the outgoing interchange because the transaction set control number in the UNH1 field specified in the party settings, specifically the reference number in field UNH1.2, was greater than the maximum allowable value. The maximum allowable value for the transaction set control number depends upon the values of the three fields in UNH1. The maximum number of characters is 14 for the reference number in field UNH1.2, 13 for the prefix in UNH1.1 and 13 for the suffix in UNH1.3, and 14 for all three fields combined.  

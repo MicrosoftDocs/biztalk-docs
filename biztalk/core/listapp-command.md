@@ -24,7 +24,7 @@ Prints to the console a list of all of the resource artifacts in a BizTalk appli
  Example: http://MyWebServer:80/MyVirtualDirectory.  
   
 ## Usage  
- **BTSTask ListApp** [**/ApplicationName:***value*] [**/ResourceSpec:***value*] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask ListApp** [**/ApplicationName:**<em>value</em>] [**/ResourceSpec:**<em>value</em>] [**/Server:**<em>value</em>] [**/Database:**<em>value</em>]  
   
 ## Parameters  
   

@@ -26,25 +26,25 @@ With the MQSeries adapter you can send and receive messages to MQSeries systems 
   
  You can do the following with the MQSeries adapter:  
   
--   Send messages to MQSeries remote definition queues, local queues, transmission queues, and alias queues from BizTalk Server.  
+- Send messages to MQSeries remote definition queues, local queues, transmission queues, and alias queues from BizTalk Server.  
   
--   Receive messages from MQSeries transmission queues, local queues, and alias queues.  
+- Receive messages from MQSeries transmission queues, local queues, and alias queues.  
   
--   Send and receive messages from MQSeries Server for Windows (MQSeries Server can run on the same computer as BizTalk Server or on a remote installation). You only have to deploy one copy of MQSAgent (the COM+ component of the adapter) to support all your BizTalk Server installations.  
+- Send and receive messages from MQSeries Server for Windows (MQSeries Server can run on the same computer as BizTalk Server or on a remote installation). You only have to deploy one copy of MQSAgent (the COM+ component of the adapter) to support all your BizTalk Server installations.  
   
--   Poll MQSeries Server with a wait interval.  
+- Poll MQSeries Server with a wait interval.  
   
--   Use dynamic send ports to control the adapter.  
+- Use dynamic send ports to control the adapter.  
   
--   Dynamically create queues at run time.  
+- Dynamically create queues at run time.  
   
--   Dynamically receive messages from queues based upon MQSeries MatchOptions.  
+- Dynamically receive messages from queues based upon MQSeries MatchOptions.  
   
--   Map context properties to header properties for both transmitting and receiving messages. You can get and set MQSeries header properties (including MQMD, MQXQH, MQCIH, and MQIIH) through BizTalk Server context properties.  
+- Map context properties to header properties for both transmitting and receiving messages. You can get and set MQSeries header properties (including MQMD, MQXQH, MQCIH, and MQIIH) through BizTalk Server context properties.  
   
--   Enable correlation with either [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] or MQSeries Server creating the correlation identifier.  
+- Enable correlation with either [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] or MQSeries Server creating the correlation identifier.  
   
--   Request transactional and nontransactional delivery of messages for send and receive.  
+- Request transactional and nontransactional delivery of messages for send and receive.  
   
 > [!NOTE]
 >  When using features such as MQSeries which make Distributed Component Object Model (DCOM) calls to the server, make sure you do not have a Network Address Translation (NAT)-based firewall enabled. The client must be able to access the server by its actual IP address, and NAT-based firewalls translate this address to something the client will not recognize.  

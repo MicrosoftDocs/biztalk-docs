@@ -23,19 +23,19 @@ Administrators use the **add-subscription** command to add a subscriber to a spe
   
 ### To add subscribers to an alert  
   
-1.  Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+1. Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  Navigate to the tracking folder by typing [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking at the command prompt. Press **ENTER**.  
+2. Navigate to the tracking folder by typing [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking at the command prompt. Press **ENTER**.  
   
-3.  Type `bm add-subscription -View:<view name> -Alert:<alert name> -AccountName:<account name> -Type: [ File | Email ][ -Email:<e-mail address> ]`.  
+3. Type `bm add-subscription -View:<view name> -Alert:<alert name> -AccountName:<account name> -Type: [ File | Email ][ -Email:<e-mail address> ]`.  
   
-    > [!NOTE]
-    >  *Type* specifies the delivery method which BAM uses to deliver the alert. If you specify a delivery type of e-mail you must supply an e-mail address to which the alert is delivered.  
+   > [!NOTE]
+   >  *Type* specifies the delivery method which BAM uses to deliver the alert. If you specify a delivery type of e-mail you must supply an e-mail address to which the alert is delivered.  
   
-    > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+   > [!NOTE]
+   >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
-4.  Press **ENTER**.  
+4. Press **ENTER**.  
   
 ## See Also  
  [Managing the BAM Dynamic Infrastructure](../core/managing-the-bam-dynamic-infrastructure.md)   

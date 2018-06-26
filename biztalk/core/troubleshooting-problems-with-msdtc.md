@@ -20,25 +20,25 @@ Most BizTalk Server runtime operations require Microsoft Distributed Transaction
 ## Errors that can occur if MSDTC transaction support is not configured correctly  
  Errors similar to the following may occur on BizTalk Server when MSDTC transaction support is not configured correctly on the computers in a BizTalk environment:  
   
--   "A Microsoft Distributed Transaction Coordinator problem prevented connection to the Configuration database. The transaction manager has disabled its support for remote/network transactions".  
+- "A Microsoft Distributed Transaction Coordinator problem prevented connection to the Configuration database. The transaction manager has disabled its support for remote/network transactions".  
   
--   "A Microsoft Distributed Transaction Coordinator problem prevented connection to the Configuration database. The transaction has already been implicitly or explicitly committed or aborted".  
+- "A Microsoft Distributed Transaction Coordinator problem prevented connection to the Configuration database. The transaction has already been implicitly or explicitly committed or aborted".  
   
--   "Error Code: 0x8004d00a, New transaction cannot enlist in the specified transaction coordinator".  
+- "Error Code: 0x8004d00a, New transaction cannot enlist in the specified transaction coordinator".  
   
--   "Could not retrieve transport type data for Receive Location 'MySample ReceiveLocation' from config store. Primary SSO Server 'MyServer' failed. The RPC server is unavailable".  
+- "Could not retrieve transport type data for Receive Location 'MySample ReceiveLocation' from config store. Primary SSO Server 'MyServer' failed. The RPC server is unavailable".  
   
--   "Error Code: 0x8004d025, The partner transaction manager has disabled its support for remote/network transactions".  
+- "Error Code: 0x8004d025, The partner transaction manager has disabled its support for remote/network transactions".  
   
--   "Error Code: 0xc0002a24, Could not import a DTC transaction. Please check that MSDTC is configured correctly for remote operation".  
+- "Error Code: 0xc0002a24, Could not import a DTC transaction. Please check that MSDTC is configured correctly for remote operation".  
   
--   "0x8004d01c  
+- "0x8004d01c  
   
-     [0x1705] There was a failure creating the internal work item.  
+   [0x1705] There was a failure creating the internal work item.  
   
-     Make sure that SQL Server is running."  
+   Make sure that SQL Server is running."  
   
- To resolve MSDTC configuration errors, follow the steps below.  
+  To resolve MSDTC configuration errors, follow the steps below.  
   
 ## Ensure NetBIOS name resolution between the BizTalk Server and remote servers is successful  
  Successful MSDTC transactions between computers require that the client computer is able to resolve the NetBIOS name of the server computer to the correct IP address and the server computer is able to resolve the NetBIOS name of the client computer to the correct IP address. To verify that NetBIOS name resolution works in both directions (client to server and server to client) follow these steps:  
@@ -46,67 +46,67 @@ Most BizTalk Server runtime operations require Microsoft Distributed Transaction
 > [!NOTE]
 >  The NetBIOS name is also commonly referred to as the **Network** name.  
   
-1.  Determine the NetBIOS name of each computer:  
+1. Determine the NetBIOS name of each computer:  
   
-    1.  Right-click **My Computer** to display the **System Properties** dialog and click the **Computer Name** tab to view the **Full computer name** assigned to the computer.  
+   1.  Right-click **My Computer** to display the **System Properties** dialog and click the **Computer Name** tab to view the **Full computer name** assigned to the computer.  
   
-    2.  The NetBIOS name is the first portion of the name designated as the **Full computer name** so for example if the **Full computer name** is listed as myserver.company.domain.com, then the NetBIOS name of the computer is **myserver**.  
+   2.  The NetBIOS name is the first portion of the name designated as the **Full computer name** so for example if the **Full computer name** is listed as myserver.company.domain.com, then the NetBIOS name of the computer is **myserver**.  
   
-2.  Determine the IP Address or addresses that are associated with each computer:  
+2. Determine the IP Address or addresses that are associated with each computer:  
   
-    1.  Launch a command prompt on the client computer, type the following command, and then press ENTER:  
+   1.  Launch a command prompt on the client computer, type the following command, and then press ENTER:  
   
-        ```  
-        ipconfig /all  
-        ```  
+       ```  
+       ipconfig /all  
+       ```  
   
-    2.  The IP address or addresses associated with the client computer are listed in the command prompt window.  
+   2.  The IP address or addresses associated with the client computer are listed in the command prompt window.  
   
-    3.  Launch a command prompt on the server computer, type the following command, and then press ENTER:  
+   3.  Launch a command prompt on the server computer, type the following command, and then press ENTER:  
   
-        ```  
-        ipconfig /all  
-        ```  
+       ```  
+       ipconfig /all  
+       ```  
   
-    4.  The IP address or addresses associated with the server computer are listed in the command prompt window.  
+   4.  The IP address or addresses associated with the server computer are listed in the command prompt window.  
   
-3.  Verify that the NetBIOS name of each computer is resolved to one of the IP addresses associated with the computer:  
+3. Verify that the NetBIOS name of each computer is resolved to one of the IP addresses associated with the computer:  
   
-    1.  Launch a command prompt on the client computer, type the following command, and then press ENTER:  
+   1.  Launch a command prompt on the client computer, type the following command, and then press ENTER:  
   
-        ```  
-        ping <NetBIOS name of server computer>  
-        ```  
+       ```  
+       ping <NetBIOS name of server computer>  
+       ```  
   
-         The results of the ping command should return an IP address associated with the server computer.  
+        The results of the ping command should return an IP address associated with the server computer.  
   
-    2.  Launch a command prompt on the server computer, type the following command, and then press ENTER:  
+   2.  Launch a command prompt on the server computer, type the following command, and then press ENTER:  
   
-        ```  
-        ping <NetBIOS name of client computer>  
-        ```  
+       ```  
+       ping <NetBIOS name of client computer>  
+       ```  
   
-         The results of the ping command should return an IP address associated with the client computer.  
+        The results of the ping command should return an IP address associated with the client computer.  
   
-4.  Verify that reverse name lookup of the IP address associated with the NetBIOS name on each computer resolves to the correct computer name.  
+4. Verify that reverse name lookup of the IP address associated with the NetBIOS name on each computer resolves to the correct computer name.  
   
-    1.  Launch a command prompt on the client computer, type the following command, and then press ENTER:  
+   1.  Launch a command prompt on the client computer, type the following command, and then press ENTER:  
   
-        ```  
-        ping -a <IP Address associated with client computer NetBIOS name>  
-        ```  
+       ```  
+       ping -a <IP Address associated with client computer NetBIOS name>  
+       ```  
   
-         The results of the ping command should return a NetBIOS name or fully qualified domain name that corresponds to the NetBIOS name that was used in step 3a. If the name returned does not match or correspond to the NetBIOS name used in step 3a then IP address reverse lookup will fail which can cause MSDTC transactions to fail.  
+        The results of the ping command should return a NetBIOS name or fully qualified domain name that corresponds to the NetBIOS name that was used in step 3a. If the name returned does not match or correspond to the NetBIOS name used in step 3a then IP address reverse lookup will fail which can cause MSDTC transactions to fail.  
   
-    2.  Launch a command prompt on the server computer, type the following command, and then press ENTER:  
+   2.  Launch a command prompt on the server computer, type the following command, and then press ENTER:  
   
-        ```  
-        ping -a <IP Address associated with server computer NetBIOS name>  
-        ```  
+       ```  
+       ping -a <IP Address associated with server computer NetBIOS name>  
+       ```  
   
-         The results of the ping command should return a NetBIOS name or fully qualified domain name that corresponds to the NetBIOS name that was used in step 3b. If the name returned does not match or correspond to the NetBIOS name used in step 3b then IP address reverse lookup will fail which can cause MSDTC transactions to fail.  
+        The results of the ping command should return a NetBIOS name or fully qualified domain name that corresponds to the NetBIOS name that was used in step 3b. If the name returned does not match or correspond to the NetBIOS name used in step 3b then IP address reverse lookup will fail which can cause MSDTC transactions to fail.  
   
- If NetBIOS name resolution is not successful in either direction or if reverse name lookup fails then make the appropriate entries in the DNS server, NetBIOS name server, HOSTS file, or LMHOSTS file to correct the problem.  
+   If NetBIOS name resolution is not successful in either direction or if reverse name lookup fails then make the appropriate entries in the DNS server, NetBIOS name server, HOSTS file, or LMHOSTS file to correct the problem.  
   
 > [!NOTE]
 >  The method of name resolution used by the computer varies depending on the NetBIOS node type of the computer. For more information about NetBIOS node types, see [NetBIOS Name Resolution](http://go.microsoft.com/fwlink/?LinkId=201638).  
@@ -153,47 +153,47 @@ Most BizTalk Server runtime operations require Microsoft Distributed Transaction
   
  To change the users or groups that are granted the "Access this computer from the network" user right, follow these steps:  
   
-1.  Click **Start**, click **Run**, type **Gpedit.msc**, and then click **OK**.  
+1. Click **Start**, click **Run**, type **Gpedit.msc**, and then click **OK**.  
   
-2.  Expand the following items in the Local Computer Policy list:  
+2. Expand the following items in the Local Computer Policy list:  
   
-    -   Computer Configuration  
+   -   Computer Configuration  
   
-    -   Windows Settings  
+   -   Windows Settings  
   
-    -   Security Settings  
+   -   Security Settings  
   
-    -   Local Policies  
+   -   Local Policies  
   
-3.  Click **User Rights Assignment**.  
+3. Click **User Rights Assignment**.  
   
-4.  Double-click **Access this computer from the network**, and then click **Add User or Group**.  
+4. Double-click **Access this computer from the network**, and then click **Add User or Group**.  
   
-5.  Click **Object Types**, select **Computers** and click **OK**.  
+5. Click **Object Types**, select **Computers** and click **OK**.  
   
-6.  Add the computer name or the group name in the **Enter the object names to select** area.  
+6. Add the computer name or the group name in the **Enter the object names to select** area.  
   
-7.  Click **Check Names** to verify the entry.  
+7. Click **Check Names** to verify the entry.  
   
-8.  Click **OK** twice.  
+8. Click **OK** twice.  
   
- To change the users or groups that are included in the **Deny access to this computer from the network** user right, follow these steps:  
+   To change the users or groups that are included in the **Deny access to this computer from the network** user right, follow these steps:  
   
-1.  Expand the following items in the Local Computer Policy list:  
+9. Expand the following items in the Local Computer Policy list:  
   
-    -   Computer Configuration  
+   -   Computer Configuration  
   
-    -   Windows Settings  
+   -   Windows Settings  
   
-    -   Security Settings  
+   -   Security Settings  
   
-    -   Local Policies  
+   -   Local Policies  
   
-2.  Click **User Rights Assignment**.  
+10. Click **User Rights Assignment**.  
   
-3.  Double-click **Deny access this computer from the network**, and then click to select the computer name or group that you want to remove from this user right.  
+11. Double-click **Deny access this computer from the network**, and then click to select the computer name or group that you want to remove from this user right.  
   
-4.  Click **Remove** and then click **OK**.  
+12. Click **Remove** and then click **OK**.  
   
 ## Set the appropriate values for the EnableAuthEpResolution and RestrictRemoteClients options  
  Windows enhances security by requiring authenticated calls to the RPC interface. This functionality is configurable through the **EnableAuthEpResolution** and **RestrictRemoteClients** registry keys. To ensure that remote computers are able to access the RPC interface, follow these steps:  
@@ -280,10 +280,10 @@ For more information, see [Error message when you try to start a transaction in 
   
 > [!IMPORTANT]
 >  Reinstalling MSDTC may change the default behavior of the Distributed Transaction Coordinator service. Follow these steps after reinstalling MSDTC to ensure that the Distributed Transaction Coordinator service works correctly:  
->   
->  -   Reinstalling MSDTC may reset MSDTC Security Configuration options back to default values. Verify that the MSDTC Security Configuration options are set to the appropriate values after reinstalling MSDTC.  
-> -   Reinstalling MSDTC may change the **Startup Type** value for the Distributed Transaction Coordinator service. Verify that the **Startup Type** value for the Distributed Transaction Coordinator service is set to **Automatic** after reinstalling MSDTC.  
-> -   Reinstalling MSDTC may require a reboot of the computer. To ensure that the Distributed Transaction Coordinator service works correctly, reboot the computer after reinstalling MSDTC.  
+> 
+> - Reinstalling MSDTC may reset MSDTC Security Configuration options back to default values. Verify that the MSDTC Security Configuration options are set to the appropriate values after reinstalling MSDTC.  
+>   -   Reinstalling MSDTC may change the **Startup Type** value for the Distributed Transaction Coordinator service. Verify that the **Startup Type** value for the Distributed Transaction Coordinator service is set to **Automatic** after reinstalling MSDTC.  
+>   -   Reinstalling MSDTC may require a reboot of the computer. To ensure that the Distributed Transaction Coordinator service works correctly, reboot the computer after reinstalling MSDTC.  
   
 ## See Also  
  [Tools and Utilities to Use for Troubleshooting](../core/tools-and-utilities-to-use-for-troubleshooting.md)   

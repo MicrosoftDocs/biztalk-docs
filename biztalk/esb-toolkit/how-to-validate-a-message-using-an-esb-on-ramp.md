@@ -33,17 +33,17 @@ manager: "anneta"
 ## Before You Begin  
  Complete the following tasks before you perform the steps later in this How-to topic:  
   
--   Create an invalid test message.  
+- Create an invalid test message.  
   
--   Create an ESB itinerary domain-specific language (DSL) model.  
+- Create an ESB itinerary domain-specific language (DSL) model.  
   
--   Configure the properties of the itinerary.  
+- Configure the properties of the itinerary.  
   
--   Define the structure of the itinerary.  
+- Define the structure of the itinerary.  
   
--   Export the model to the Itinerary database.  
+- Export the model to the Itinerary database.  
   
- The following procedures describe how to do each of these.  
+  The following procedures describe how to do each of these.  
   
 #### To create an invalid test message  
   

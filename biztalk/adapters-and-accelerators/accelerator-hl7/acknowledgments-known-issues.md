@@ -21,7 +21,7 @@ manager: "anneta"
 This section contains useful information that may help you avoid acknowledgment (ACK) errors.  
   
 ## HL7 V2.1 acknowledgment message accepted even if it contains MSA6 field  
- [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) will accept a HL7 V2.1 acknowledgment message even if contains the MSA6 field.  
+ Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) will accept a HL7 V2.1 acknowledgment message even if contains the MSA6 field.  
   
 ## MSA-01 value not generated for commit acknowledgment errors  
  [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] does not generate an MSA-01 acknowledgment code for commit acknowledgments errors (CE).  
@@ -42,7 +42,7 @@ This section contains useful information that may help you avoid acknowledgment 
  In an ACK message generated in response to a batch message, the MSH10 field (message control ID) will be a GUID, rather than being based on the data type of the MSH10 field in the batch message.  
   
 ## Generated acknowledgments DOC type  
- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generates acknowledgments using the DOC type http://[!INCLUDE[btsCoName](../../includes/btsconame-md.md)].com/HealthCare/HL7/2X#ACK_24_GLO_DEF or http://[!INCLUDE[btsCoName](../../includes/btsconame-md.md)].com/HealthCare/HL7/2X#ACK_25_GLO_DEF. If your destination party uses a different namespace, you must apply a body map in the send port; otherwise, you may encounter serialization errors.  
+ [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generates acknowledgments using the DOC type http://Microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF or http://Microsoft.com/HealthCare/HL7/2X#ACK_25_GLO_DEF. If your destination party uses a different namespace, you must apply a body map in the send port; otherwise, you may encounter serialization errors.  
   
 ## See Also  
  [Known Issues](../../adapters-and-accelerators/accelerator-hl7/known-issues1.md)

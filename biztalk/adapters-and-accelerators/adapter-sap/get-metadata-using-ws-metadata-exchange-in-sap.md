@@ -35,11 +35,11 @@ As a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincomm
 ### The Connection URI  
  To use the **MetadataExchangeClient** you must supply a SAP connection URI that specifies a MEX endpoint and the operation or operations for which you want to retrieve metadata. You specify a MEX endpoint and target operations in the connection URI in the following manner:  
   
--   You must include the "wsdl" parameter in the query string. If it is the first parameter in the query string, it is specified just after the question mark (?). If it is not the first parameter, it should be preceded with an ampersand (&).  
+- You must include the "wsdl" parameter in the query string. If it is the first parameter in the query string, it is specified just after the question mark (?). If it is not the first parameter, it should be preceded with an ampersand (&).  
   
--   You must follow the "wsdl" parameter by one or more "op" parameters. Each "op" parameter is preceded by an ampersand (&) and specifies the message action (node ID) of a target operation.  
+- You must follow the "wsdl" parameter by one or more "op" parameters. Each "op" parameter is preceded by an ampersand (&) and specifies the message action (node ID) of a target operation.  
   
- For example, the following connection URI targets the Send operation for the SALESORDER_CREATEFROMDAT201 IDOC and the SALESORDER_CREATEFROMDAT202 IDOC. The "wsdl" and "op" parameters are highlighted.  
+  For example, the following connection URI targets the Send operation for the SALESORDER_CREATEFROMDAT201 IDOC and the SALESORDER_CREATEFROMDAT202 IDOC. The "wsdl" and "op" parameters are highlighted.  
   
 ```  
 "sap://User=YourUserName;Passwd=YourPassword;Client=800;Lang=EN;@a/YourSAPHost/00?wsdl&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT201//620/Send&op=http://Microsoft.LobServices.Sap/2007/03/Idoc/3/SALESORDER_CREATEFROMDAT202//620/Send"  
@@ -59,15 +59,15 @@ As a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincomm
   
  There are several binding properties that affect how the adapter generates metadata. These properties are:  
   
--   **GenerateFlatfileCompatibleIdocSchema**  
+- **GenerateFlatfileCompatibleIdocSchema**  
   
--   **ReceiveIDocFormat**  
+- **ReceiveIDocFormat**  
   
--   **EnableSafeTyping**  
+- **EnableSafeTyping**  
   
--   **FlatFileSegmentIndicator**  
+- **FlatFileSegmentIndicator**  
   
- You should ensure that these binding properties are set to the values required for your application before you invoke the **GetMetadata** method on the **MetadataExchangeClient**. For more information about the SAP adapter binding properties, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+  You should ensure that these binding properties are set to the values required for your application before you invoke the **GetMetadata** method on the **MetadataExchangeClient**. For more information about the SAP adapter binding properties, see [Read about BizTalk Adapter for mySAP Business Suite Binding Properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
 ### Example  
  The following example uses a **MetadataExchangeClient** to create a service description (WSDL document) for the BAPI_TRANSACTION_COMMIT and BAPI_TRANSACTION_ROLLBACK operations.  

@@ -22,20 +22,20 @@ You can use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservre
   
 #### To generate a WCF client class  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click your project, and then click **Add Adapter Service Reference**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click your project, and then click **Add Adapter Service Reference**.  
   
-2.  After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Get Metadata for SAP Operations in Visual Studio](../../adapters-and-accelerators/adapter-sap/get-metadata-for-sap-operations-in-visual-studio.md) to connect to the SAP system and browse and search for operations. To create a WCF client class for the operations that you select, be sure that **Client (Outbound operations)** is selected from the **Select contract type** drop-down list (this is the default).  
+2. After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Get Metadata for SAP Operations in Visual Studio](../../adapters-and-accelerators/adapter-sap/get-metadata-for-sap-operations-in-visual-studio.md) to connect to the SAP system and browse and search for operations. To create a WCF client class for the operations that you select, be sure that **Client (Outbound operations)** is selected from the **Select contract type** drop-down list (this is the default).  
   
-3.  After you select all of the operations that you want to target, click **OK** to generate the WCF client class.  
+3. After you select all of the operations that you want to target, click **OK** to generate the WCF client class.  
   
- The [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] adds two files to your project:  
+   The [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] adds two files to your project:  
   
--   **SAPBindingClient.cs**. This file contains the generated WCF client class and helper code for the operations that you selected.  
+- **SAPBindingClient.cs**. This file contains the generated WCF client class and helper code for the operations that you selected.  
   
--   **App.config**. This file contains a binding configuration and client endpoint configurations. The settings are based on the selections you made when you configured the binding and connection for the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
+- **App.config**. This file contains a binding configuration and client endpoint configurations. The settings are based on the selections you made when you configured the binding and connection for the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
   
-    > [!IMPORTANT]
-    >  While using the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], if you do not specify a value for a binding property of type string and whose default value is null then that binding property will not be available in the app.config file. You must manually add the binding property and its value in the app.config file, if required.  
+  > [!IMPORTANT]
+  >  While using the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], if you do not specify a value for a binding property of type string and whose default value is null then that binding property will not be available in the app.config file. You must manually add the binding property and its value in the app.config file, if required.  
   
 ## Generating a WCF Service Contract by Using the Add Adapter Service Reference Plug-in  
  When you use the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to receive IDOCs, RFCs, and tRFCs from the SAP system, your code acts as a service to the adapter. That is, the adapter receives the appropriate artifact from the SAP system and then invokes an (inbound) operation on your code to deliver the artifact to your application.  
@@ -46,22 +46,22 @@ You can use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservre
   
 #### To generate a WCF service contract  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click your project, and then click **Add Adapter Service Reference**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Solution Explorer, right-click your project, and then click **Add Adapter Service Reference**.  
   
-2.  After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Get Metadata for SAP Operations in Visual Studio](../../adapters-and-accelerators/adapter-sap/get-metadata-for-sap-operations-in-visual-studio.md) to connect to the SAP system and browse and search for operations. To create a WCF service contract for the operations that you select, be sure that **Service (Inbound operations)** is selected from the **Select contract type** drop-down list.  
+2. After the **Add Adapter Service Reference** dialog box opens, follow the steps in [Get Metadata for SAP Operations in Visual Studio](../../adapters-and-accelerators/adapter-sap/get-metadata-for-sap-operations-in-visual-studio.md) to connect to the SAP system and browse and search for operations. To create a WCF service contract for the operations that you select, be sure that **Service (Inbound operations)** is selected from the **Select contract type** drop-down list.  
   
-3.  After you select all of the operations that you want to target, click **OK** to generate the WCF service contract.  
+3. After you select all of the operations that you want to target, click **OK** to generate the WCF service contract.  
   
- The [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] adds three files to your project:  
+   The [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] adds three files to your project:  
   
--   **SAPBindingInterface.cs**. This file contains the generated WCF service contract (interface) and helper code for the operations that you selected.  
+- **SAPBindingInterface.cs**. This file contains the generated WCF service contract (interface) and helper code for the operations that you selected.  
   
--   **SAPBindingService.cs**. This file contains a stubbed WCF service class that implements the interface defined in SAPBindingInterface.cs. You can implement the business logic that processes the RFC, tRFC or IDOC directly in the methods of this class.  
+- **SAPBindingService.cs**. This file contains a stubbed WCF service class that implements the interface defined in SAPBindingInterface.cs. You can implement the business logic that processes the RFC, tRFC or IDOC directly in the methods of this class.  
   
--   **App.config**. This file contains a binding configuration, endpoint behaviors, and service endpoint configuration that are based on the selections you made when you configured the binding and connection for the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
+- **App.config**. This file contains a binding configuration, endpoint behaviors, and service endpoint configuration that are based on the selections you made when you configured the binding and connection for the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
   
-    > [!IMPORTANT]
-    >  While using the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], if you do not specify a value for a binding property of type string and whose default value is null then that binding property will not be available in the app.config file. You must manually add the binding property and its value in the app.config file, if required.  
+  > [!IMPORTANT]
+  >  While using the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], if you do not specify a value for a binding property of type string and whose default value is null then that binding property will not be available in the app.config file. You must manually add the binding property and its value in the app.config file, if required.  
   
 > [!NOTE]
 >  You do not have to specify RFC Server parameters when you configure the connection URI for the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] to generate the WCF service contract. The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] retrieves metadata from the SAP system through a client connection.  

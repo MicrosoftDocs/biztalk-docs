@@ -16,23 +16,23 @@ manager: "anneta"
 # How Host Integration Server Uses Active Directory
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] uses Active Directory by registering services and resources with the Active Directory schema. The benefits of using Active Directory include:  
   
--   Client configuration and resource location on the network is simplified.  
+- Client configuration and resource location on the network is simplified.  
   
--   The limitation of 8,000 sponsor connections that existed in SNA Server 4.0 is eliminated.  
+- The limitation of 8,000 sponsor connections that existed in SNA Server 4.0 is eliminated.  
   
- Host Integration Server client computers must be configured to communicate to a Host Integration Server computer using either sponsor connections or Active Directory. A client computer cannot be set up to use both at the same time.  
+  Host Integration Server client computers must be configured to communicate to a Host Integration Server computer using either sponsor connections or Active Directory. A client computer cannot be set up to use both at the same time.  
   
- If a Host Integration Server computer is configured to use Active Directory, it must operate in an Organizational Unit (OU). If this is the first Host Integration Server to be configured to use Active Directory, then you must perform the following steps:  
+  If a Host Integration Server computer is configured to use Active Directory, it must operate in an Organizational Unit (OU). If this is the first Host Integration Server to be configured to use Active Directory, then you must perform the following steps:  
   
-1.  Create an OU for the Host Integration Server if one does not already exist.  
+1. Create an OU for the Host Integration Server if one does not already exist.  
   
-2.  Grant Read/Write access to the OU service account used for the Host Integration Server.  
+2. Grant Read/Write access to the OU service account used for the Host Integration Server.  
   
-3.  Grant Read access to the desktop users configured to use Active Directory for resource location.  
+3. Grant Read access to the desktop users configured to use Active Directory for resource location.  
   
-4.  The Active Directory schema must be extended to include the Host Integration Server schema.  
+4. The Active Directory schema must be extended to include the Host Integration Server schema.  
   
- In addition, the following relationships between the SNA subdomain and the OU containing the Host Integration Server-specific containers must be observed:  
+   In addition, the following relationships between the SNA subdomain and the OU containing the Host Integration Server-specific containers must be observed:  
   
 -   Multiple Host Integration Server computers can exist within the same OU.  
   

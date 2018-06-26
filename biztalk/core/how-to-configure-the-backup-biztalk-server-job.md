@@ -44,120 +44,120 @@ To configure this job, you'll need to:
   
 ## Before you begin  
   
--   Certain configuration and backup operations require membership in the sysadmin SQL Server role. To back up your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, sign in the primary server with an account that is a member of the SQL Server sysadmin Server role. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration adds the BTS_BACKUP_USERS database role. The user account you use to back up your databases does not require System Administrator (sysadmin SQL Server role) permissions on all the SQL Servers that may be involved in a backup, except for the primary server.  
+- Certain configuration and backup operations require membership in the sysadmin SQL Server role. To back up your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, sign in the primary server with an account that is a member of the SQL Server sysadmin Server role. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration adds the BTS_BACKUP_USERS database role. The user account you use to back up your databases does not require System Administrator (sysadmin SQL Server role) permissions on all the SQL Servers that may be involved in a backup, except for the primary server.  
   
--   Decide which sign in account you use to run your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database backups. You can use a local account, and you can use more than one account. But it is generally simpler and more secure to create one dedicated Windows domain user account specifically for this purpose. You must configure a SQL Server logon account for this user, and the user must be mapped to a SQL Server login for all of the SQL Servers that participate in the backup process, either as primary (source) or secondary (destination) servers. Assign this user to the BizTalk BTS_BACKUP_USERS database role for each of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases you back up.  
+- Decide which sign in account you use to run your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database backups. You can use a local account, and you can use more than one account. But it is generally simpler and more secure to create one dedicated Windows domain user account specifically for this purpose. You must configure a SQL Server logon account for this user, and the user must be mapped to a SQL Server login for all of the SQL Servers that participate in the backup process, either as primary (source) or secondary (destination) servers. Assign this user to the BizTalk BTS_BACKUP_USERS database role for each of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases you back up.  
   
--   The Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job does not delete outdated backup files, so you need to manually manage those backup files to conserve disk space. After you have created a new full backup of your databases, you should move the outdated backup files onto an archival storage device to reclaim space on the primary disk. See the [SSIS packages](http://www.biztalkbill.com/2015/05/26/ssis-packages-to-help-management-biztalk-server-environments/) to manage these files.  
+- The Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job does not delete outdated backup files, so you need to manually manage those backup files to conserve disk space. After you have created a new full backup of your databases, you should move the outdated backup files onto an archival storage device to reclaim space on the primary disk. See the [SSIS packages](http://www.biztalkbill.com/2015/05/26/ssis-packages-to-help-management-biztalk-server-environments/) to manage these files.  
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not write tracking data directly to the BizTalk Tracking database; rather it caches the data in the MessageBox database, and then moves it to the BizTalk Tracking database. If MessageBox data loss occurs, some tracking data may also be lost.  
+- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not write tracking data directly to the BizTalk Tracking database; rather it caches the data in the MessageBox database, and then moves it to the BizTalk Tracking database. If MessageBox data loss occurs, some tracking data may also be lost.  
   
 ## Prerequisites  
 * Sign in to SQL Server using an account that is a member of the sysadmin SQL Server role.  
   
 * Configure the SQL Server Agent service to run under a domain account (recommended, although local accounts can be used), with a mapped user login on each instance of SQL Server.  
 
-* To use an Azure blob storage account, you need a [general purpose storage account](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account#create-a-storage-account), a container within your blob storage account, a [shared access signature](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url#SAS) (SAS), and a [SQL credential using the SAS](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url#credential). Once created, have your blob service endpoint URL ready, which is something like https://*yourstorageaccount*.blob.core.windows.net/*containername*. 
+* To use an Azure blob storage account, you need a [general purpose storage account](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account#create-a-storage-account), a container within your blob storage account, a [shared access signature](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url#SAS) (SAS), and a [SQL credential using the SAS](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url#credential). Once created, have your blob service endpoint URL ready, which is something like https://<em>yourstorageaccount</em>.blob.core.windows.net/*containername*. 
 
     > [!TIP]
     > If you don't have an existing blob storage account configured with a SAS, then the [SAS PowerShell script](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url#SAS) can create it, and the container. [SQL Server Backup to URL](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url) provides an overview, and the specific steps.
   
 ## Configure the job  
   
-1.  On the SQL Server that hosts the BizTalk Management database, open **SQL Server Management Studio**, and connect to your [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
+1. On the SQL Server that hosts the BizTalk Management database, open **SQL Server Management Studio**, and connect to your [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)].  
   
-2.  Expand **SQL Server Agent**, and expand **Jobs**.  
+2. Expand **SQL Server Agent**, and expand **Jobs**.  
   
-3.  Right-click **Backup BizTalk Server (BizTalkMgmtDb)** and select **Properties**. In the job properties, select **Steps**.  
+3. Right-click **Backup BizTalk Server (BizTalkMgmtDb)** and select **Properties**. In the job properties, select **Steps**.  
   
-4.  Select the **Set Compression Option** step, and select **Edit**:  
+4. Select the **Set Compression Option** step, and select **Edit**:  
 
-    This step calls the `sp_SetBackupCompression` stored procedure in the BizTalk management database (BizTalkMgmtDb) to set the value on the `adm_BackupSettings` table. The stored procedure has one parameter: **@bCompression**. By default, it is set to **0** (backup compression is off). To apply compression, change the value to **1**:  
+   This step calls the `sp_SetBackupCompression` stored procedure in the BizTalk management database (BizTalkMgmtDb) to set the value on the `adm_BackupSettings` table. The stored procedure has one parameter: <strong>@bCompression</strong>. By default, it is set to **0** (backup compression is off). To apply compression, change the value to **1**:  
   
-    ```  
-    exec [dbo].[sp_SetBackupCompression] @bCompression = 1 /*0 - Do not use Compression, 1 - Use Compression */  
-    ```  
+   ```  
+   exec [dbo].[sp_SetBackupCompression] @bCompression = 1 /*0 - Do not use Compression, 1 - Use Compression */  
+   ```  
   
-     Select **OK**.  
+    Select **OK**.  
   
-5.  Select the **BackupFull** step, and select **Edit**. In the **Command** box, update the parameter values:  
+5. Select the **BackupFull** step, and select **Edit**. In the **Command** box, update the parameter values:  
   
-    1. **Frequency**: The default is **d** (daily); which is the recommended setting. Other values include **h** (hourly), **w** (weekly), **m** (monthly), or **y** (yearly).  
+   1. **Frequency**: The default is **d** (daily); which is the recommended setting. Other values include **h** (hourly), **w** (weekly), **m** (monthly), or **y** (yearly).  
   
-    2. **Name**: The default is **BTS**. The name is used as part of the backup file name.  
+   2. **Name**: The default is **BTS**. The name is used as part of the backup file name.  
   
-    3. **Location of backup files**: Replace '*\<destination path\>*' with the full path (the path must include the single quotes) to the computer and folder where you want to back up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, or the blob service endpoint URL to an Azure blob storage account.  
+   3. **Location of backup files**: Replace '*\<destination path\>*' with the full path (the path must include the single quotes) to the computer and folder where you want to back up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, or the blob service endpoint URL to an Azure blob storage account.  
 
-        > [!IMPORTANT]
-        > - If you enter a local path, then you have to manually copy all the files to the same folder on the destination system whenever the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job creates new files.  
-        >   
-        >      To use a remote path, enter a UNC share such as \\\\*\<ServerName\>*\\*\<SharedDrive\>*\\, where *\<ServerName\>* is the name of the server where you want the files, and *\<SharedDrive\>* is name of the shared drive or folder.  
-        >   
-        >      Backing up data over a network is subject to any network issues. When using a remote location, verify the backup succeeded when the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job finishes.  
-        > - To avoid potential data loss, configure the backup disk to be a different disk than the database data and log disks. This is necessary so you can access the backups if the data or log disk fails.  
-        > - When backing up to an Azure blob account, enter the **Blob service endpoint** URL and the container name, which are listed in your blob service properties in the [Azure portal](https://portal.azure.com).
+      > [!IMPORTANT]
+      > - If you enter a local path, then you have to manually copy all the files to the same folder on the destination system whenever the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job creates new files.  
+      > 
+      >      To use a remote path, enter a UNC share such as \\\\*\<ServerName\>*\\*\<SharedDrive\>*\\, where *\<ServerName\>* is the name of the server where you want the files, and *\<SharedDrive\>* is name of the shared drive or folder.  
+      > 
+      >      Backing up data over a network is subject to any network issues. When using a remote location, verify the backup succeeded when the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job finishes.  
+      > - To avoid potential data loss, configure the backup disk to be a different disk than the database data and log disks. This is necessary so you can access the backups if the data or log disk fails.  
+      > - When backing up to an Azure blob account, enter the **Blob service endpoint** URL and the container name, which are listed in your blob service properties in the [Azure portal](https://portal.azure.com).
 
-    4. Optional. **Force full backup after partial backup failures** (@ForceFullBackupAfterPartialSetFailure): The default is **0**. If a log backup fails, no full backups are ran until the next full backup frequency interval is reached. Replace with **1** if you want a full backup ran whenever a log backup failure occurs.
+   4. Optional. **Force full backup after partial backup failures** (@ForceFullBackupAfterPartialSetFailure): The default is **0**. If a log backup fails, no full backups are ran until the next full backup frequency interval is reached. Replace with **1** if you want a full backup ran whenever a log backup failure occurs.
     
-    5. Optional. **Local time hour for the backup process to run** (@BackupHour): The default is **NULL**. The backup job is not associated with the time zone of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer, and runs at midnight UTC time (0000). If you want to backup at a specific hour in the time zone of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer, enter an integer value from 0 (midnight) to 23 (11 PM) as the local time hour. 
+   5. Optional. **Local time hour for the backup process to run** (@BackupHour): The default is **NULL**. The backup job is not associated with the time zone of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer, and runs at midnight UTC time (0000). If you want to backup at a specific hour in the time zone of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer, enter an integer value from 0 (midnight) to 23 (11 PM) as the local time hour. 
 
-    6. Optional. **Use local time** (@UseLocalTime): Tells the procedure to use local time. The default value is **0**, and uses current UTC time – GETUTCDATE() – 2007-05-04 01:34:11.933. If set to **1**, then it uses local time – GETDATE() – 2007-05-03 18:34:11.933
+   6. Optional. **Use local time** (@UseLocalTime): Tells the procedure to use local time. The default value is **0**, and uses current UTC time – GETUTCDATE() – 2007-05-04 01:34:11.933. If set to **1**, then it uses local time – GETDATE() – 2007-05-03 18:34:11.933
   
-    In the following example, daily backups are created at 2am, and stored in the m:\ drive:  
+   In the following example, daily backups are created at 2am, and stored in the m:\ drive:  
   
-    ```  
-    exec [dbo].[sp_BackupAllFull_Schedule]   
-    'd' /* Frequency */,   
-    'BTS' /* Name */,   
-    'm:\BizTalkBackups' /* location of backup files */,   
-    '0' /* 0 (default) or 1 ForceFullBackupAfterPartialSetFailure */,   
-    '2' /* local time hour for the backup process to run */  
-    ```  
+   ```  
+   exec [dbo].[sp_BackupAllFull_Schedule]   
+   'd' /* Frequency */,   
+   'BTS' /* Name */,   
+   'm:\BizTalkBackups' /* location of backup files */,   
+   '0' /* 0 (default) or 1 ForceFullBackupAfterPartialSetFailure */,   
+   '2' /* local time hour for the backup process to run */  
+   ```  
 
-    In the following example, weekly backups are created at midnight UTC time, and stored in your Azure blob account: 
+   In the following example, weekly backups are created at midnight UTC time, and stored in your Azure blob account: 
 
-    ```  
-    exec [dbo].[sp_BackupAllFull_Schedule]   
-    'w' /* Frequency */,   
-    'BTS' /* Name */,   
-    'http://yourstorageaccount.blob.core.windows.net/yourcontainer/' /* location of backup files */,   
-    '1' /* 0 (default) or 1 ForceFullBackupAfterPartialSetFailure */
-    ```  
+   ```  
+   exec [dbo].[sp_BackupAllFull_Schedule]   
+   'w' /* Frequency */,   
+   'BTS' /* Name */,   
+   'http://yourstorageaccount.blob.core.windows.net/yourcontainer/' /* location of backup files */,   
+   '1' /* 0 (default) or 1 ForceFullBackupAfterPartialSetFailure */
+   ```  
 
-     Select **OK**.  
+    Select **OK**.  
   
-6.  Select the **MarkAndBackupLog** step, and select **Edit**. In the **Command** box, update the parameter values:  
+6. Select the **MarkAndBackupLog** step, and select **Edit**. In the **Command** box, update the parameter values:  
   
-    1.  **@MarkName**: This is part of the naming convention for backup files: \<Server Name\>\_\<Database Name\>**\_Log\_**\< Log Mark Name \>\_\<Timestamp\>  
+   1. <strong>@MarkName</strong>: This is part of the naming convention for backup files: \<Server Name\>\_\<Database Name\>**\_Log\_**\< Log Mark Name \>\_\<Timestamp\>  
     
-    2.  **@BackupPath**: Full destination path (including single quotes) to the computer and folder to store the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database logs, or the Azure blob storage account and container. The *\<destination path\>* can also be local or a UNC path to another server.  
+   2. <strong>@BackupPath</strong>: Full destination path (including single quotes) to the computer and folder to store the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database logs, or the Azure blob storage account and container. The *\<destination path\>* can also be local or a UNC path to another server.  
   
-     The MarkAndBackupLog step marks the logs for backup, and then backs them up.  
+      The MarkAndBackupLog step marks the logs for backup, and then backs them up.  
   
-    > [!IMPORTANT]
-    >  To avoid **potential data loss** and for **performance improvement**, the *\<destination path\>* should be set to a different computer, or hard drive, different from what is used to store the original database logs.  
+   > [!IMPORTANT]
+   >  To avoid **potential data loss** and for **performance improvement**, the *\<destination path\>* should be set to a different computer, or hard drive, different from what is used to store the original database logs.  
   
-     Select **OK**.  
+    Select **OK**.  
   
-7.  Select the **Clear Backup History** step, and select **Edit**. In the **Command** box, update the parameter values:  
+7. Select the **Clear Backup History** step, and select **Edit**. In the **Command** box, update the parameter values:  
   
-    1.  **@DaysToKeep**: Default value is **14 days**. Determines how long the backup history is kept in the `Adm_BackupHistory` table. Periodically clearing the backup history helps maintain the `Adm_BackupHistory` table to an appropriate size. 
+   1. <strong>@DaysToKeep</strong>: Default value is **14 days**. Determines how long the backup history is kept in the `Adm_BackupHistory` table. Periodically clearing the backup history helps maintain the `Adm_BackupHistory` table to an appropriate size. 
     
-    2.  Optional. **@UseLocalTime**: Tells the procedure to use local time. The default value is 0. It uses current UTC time – GETUTCDATE() – 2007-05-04 01:34:11.933. If set to 1, then it uses local time – GETDATE() – 2007-05-03 18:34:11.933
+   2. Optional. <strong>@UseLocalTime</strong>: Tells the procedure to use local time. The default value is 0. It uses current UTC time – GETUTCDATE() – 2007-05-04 01:34:11.933. If set to 1, then it uses local time – GETDATE() – 2007-05-03 18:34:11.933
   
-    ```  
-    exec [dbo].[sp_DeleteBackupHistory] @DaysToKeep=14, @UseLocalTime =1 
-    ```  
+   ```  
+   exec [dbo].[sp_DeleteBackupHistory] @DaysToKeep=14, @UseLocalTime =1 
+   ```  
   
-    > [!NOTE]
-    >  This step **does not** delete backup files from the destination path.  
+   > [!NOTE]
+   >  This step **does not** delete backup files from the destination path.  
     
-     Select **OK** and close all property windows.  
+    Select **OK** and close all property windows.  
   
-8.  Optional. Change the backup schedule. See [How to Schedule the Backup BizTalk Server Job](../core/how-to-schedule-the-backup-biztalk-server-job.md).  
+8. Optional. Change the backup schedule. See [How to Schedule the Backup BizTalk Server Job](../core/how-to-schedule-the-backup-biztalk-server-job.md).  
   
-    > [!NOTE]
-    >  The Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job runs the first time you configure it. By default, on subsequent runs, the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job completes a full backup once a day, and completes log backups every 15 minutes.  
+   > [!NOTE]
+   >  The Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job runs the first time you configure it. By default, on subsequent runs, the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job completes a full backup once a day, and completes log backups every 15 minutes.  
   
 9. Right-click the **Backup BizTalk Server** job, and select **Enable**. The status should change to **Success**.  
 

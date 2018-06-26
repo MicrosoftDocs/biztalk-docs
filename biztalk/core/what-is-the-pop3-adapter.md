@@ -50,17 +50,17 @@ This section describes the POP3 receive adapter.
 ## POP3 Adapter Supported Platforms  
  The POP3 adapter is designed to work with any POP3 servers that conform to the following RFCs:  
   
--   **RFC 1939.** Post Office Protocol Version 3 (see [http://go.microsoft.com/fwlink/?LinkId=58808](http://go.microsoft.com/fwlink/?LinkId=58808))  
+- **RFC 1939.** Post Office Protocol Version 3 (see [http://go.microsoft.com/fwlink/?LinkId=58808](http://go.microsoft.com/fwlink/?LinkId=58808))  
   
--   **RFC 1734.** POP3 AUTHentication command (see [http://go.microsoft.com/fwlink/?LinkId=58809](http://go.microsoft.com/fwlink/?LinkId=58809))  
+- **RFC 1734.** POP3 AUTHentication command (see [http://go.microsoft.com/fwlink/?LinkId=58809](http://go.microsoft.com/fwlink/?LinkId=58809))  
   
--   **RFC 2045.** Multipurpose Internet Mail Extensions (MIME) Part One: Format of Internet Message Bodies (see [http://go.microsoft.com/fwlink/?LinkId=58810](http://go.microsoft.com/fwlink/?LinkId=58810))  
+- **RFC 2045.** Multipurpose Internet Mail Extensions (MIME) Part One: Format of Internet Message Bodies (see [http://go.microsoft.com/fwlink/?LinkId=58810](http://go.microsoft.com/fwlink/?LinkId=58810))  
   
--   **RFC 2046.** Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types (see [http://go.microsoft.com/fwlink/?LinkId=58811](http://go.microsoft.com/fwlink/?LinkId=58811))  
+- **RFC 2046.** Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types (see [http://go.microsoft.com/fwlink/?LinkId=58811](http://go.microsoft.com/fwlink/?LinkId=58811))  
   
--   **RFC 2047.** MIME (Multipurpose Internet Mail Extensions) Part Three: Message Header Extensions for Non-ASCII Text (see [http://go.microsoft.com/fwlink/?LinkId=58812](http://go.microsoft.com/fwlink/?LinkId=58812))  
+- **RFC 2047.** MIME (Multipurpose Internet Mail Extensions) Part Three: Message Header Extensions for Non-ASCII Text (see [http://go.microsoft.com/fwlink/?LinkId=58812](http://go.microsoft.com/fwlink/?LinkId=58812))  
   
- The POP3 adapter was tested extensively against Microsoft Exchange Server 2003.  
+  The POP3 adapter was tested extensively against Microsoft Exchange Server 2003.  
   
 ## Considerations for Preventing Data Duplication When Using the POP3 Adapter  
  The POP3 adapter is not a transactional adapter and therefore is subject to processing multiple copies of the same message, potentially causing data duplication. It is possible that the POP3 adapter will deliver duplicate copies of a message in the following scenarios:  
@@ -80,32 +80,32 @@ This section describes the POP3 receive adapter.
 ## Encrypted Messages Received by the POP3 Adapter that are sent to the Suspended Queue may be Viewable in Clear Text  
  You can configure the POP3 adapter to decrypt digitally encrypted e-mails. This is done by setting the **Apply MIME Decoding** property to **True** for receive locations that use the POP3 adapter. If the POP3 Adapter receives a digitally encrypted e-mail and the **Apply MIME Decoding** property for the receive location is set to **True** then the POP3 adapter attempts to decrypt the e-mail as follows:  
   
--   The POP3 Adapter searches for a private certificate that matches the public certificate used to encrypt the e-mail. The private certificate must be in the Personal certificate store of the server that is running the host instance that the POP3 receive handler is bound to.  
+- The POP3 Adapter searches for a private certificate that matches the public certificate used to encrypt the e-mail. The private certificate must be in the Personal certificate store of the server that is running the host instance that the POP3 receive handler is bound to.  
   
--   If the POP3 Adapter locates a corresponding private certificate, it uses the private certificate to decrypt the e-mail message.  
+- If the POP3 Adapter locates a corresponding private certificate, it uses the private certificate to decrypt the e-mail message.  
   
--   The e-mail is decrypted and persisted to the BizTalk MessageBox.  
+- The e-mail is decrypted and persisted to the BizTalk MessageBox.  
   
- If a message is suspended after being decrypted and persisted to the BizTalk MessageBox, the contents of the message will be visible in clear text in the BizTalk suspended queue.  
+  If a message is suspended after being decrypted and persisted to the BizTalk MessageBox, the contents of the message will be visible in clear text in the BizTalk suspended queue.  
   
- If you need to prevent the display of secure message text in the suspended queue, follow these steps:  
+  If you need to prevent the display of secure message text in the suspended queue, follow these steps:  
   
--   Set the **Apply MIME Decoding** property to **False** for receive locations that use the POP3 adapter and decrypt the message in a pipeline with the SMIME pipeline component.  
+- Set the **Apply MIME Decoding** property to **False** for receive locations that use the POP3 adapter and decrypt the message in a pipeline with the SMIME pipeline component.  
   
-    > [!NOTE]
-    >  This approach will prevent you from being able to promote e-mail specific properties to the message context.  
+  > [!NOTE]
+  >  This approach will prevent you from being able to promote e-mail specific properties to the message context.  
   
--   If you need to promote e-mail specific properties to the message context and ensure that encrypted messages remain encrypted if they are routed to the suspended queue, follow these steps:  
+- If you need to promote e-mail specific properties to the message context and ensure that encrypted messages remain encrypted if they are routed to the suspended queue, follow these steps:  
   
-    -   Check the option to **Enable routing for failed messages** on the receive port that houses the receive location(s) that use the POP3 adapter.  
+  -   Check the option to **Enable routing for failed messages** on the receive port that houses the receive location(s) that use the POP3 adapter.  
   
-    -   Create an orchestration to subscribe to messages that fail delivery to the receive port that houses the receive location(s) that use the POP3 adapter.  
+  -   Create an orchestration to subscribe to messages that fail delivery to the receive port that houses the receive location(s) that use the POP3 adapter.  
   
-    -   Configure the orchestration with a send port that encrypts the message in a pipeline using the SMIME pipeline component.  
+  -   Configure the orchestration with a send port that encrypts the message in a pipeline using the SMIME pipeline component.  
   
-    -   Configure the orchestration with a suspend shape to suspend the orchestration instance and the message.  
+  -   Configure the orchestration with a suspend shape to suspend the orchestration instance and the message.  
   
-    -   Build and deploy the orchestration, bind the deployed orchestration to the appropriate receive port.  
+  -   Build and deploy the orchestration, bind the deployed orchestration to the appropriate receive port.  
   
 ## Maximum Message Size Supported by the POP3 Adapter  
  The POP3 adapter has been tested with and supports receiving messages up to 50 MB in size.  

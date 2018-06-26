@@ -19,15 +19,15 @@ The BizTalk Mapper provides you with just-in-time assistance, through a shortcut
   
  You can create record-to-record links automatically in the following ways:  
   
--   **Direct Link.** Using this technique, the BizTalk Mapper links the record from source schema to the selected record in the destination schema.  
+- **Direct Link.** Using this technique, the BizTalk Mapper links the record from source schema to the selected record in the destination schema.  
   
--   **Link by Structure.** Using this technique, the BizTalk Mapper attempts to match the **Record** and **Field** nodes within the **Record** nodes being linked according to the structures of those **Record** nodes, regardless of names of the corresponding nodes within those structures.  
+- **Link by Structure.** Using this technique, the BizTalk Mapper attempts to match the **Record** and **Field** nodes within the **Record** nodes being linked according to the structures of those **Record** nodes, regardless of names of the corresponding nodes within those structures.  
   
--   **Link By Name.** Using this technique, the BizTalk Mapper attempts to match the **Record** and **Field** nodes within the **Record** nodes being linked according to the names of the corresponding nodes, regardless of their structure, within the **Record** nodes being linked.  
+- **Link By Name.** Using this technique, the BizTalk Mapper attempts to match the **Record** and **Field** nodes within the **Record** nodes being linked according to the names of the corresponding nodes, regardless of their structure, within the **Record** nodes being linked.  
   
--   **Mass Copy.** The **Mass Copy** functoid enables your maps to use schemas that include **any** and **anyAttribute** elements. For information about the functoids available in BizTalk Mapper, see [Using Functoids to Create More Complex Mappings](../core/using-functoids-to-create-more-complex-mappings.md).  
+- **Mass Copy.** The **Mass Copy** functoid enables your maps to use schemas that include **any** and **anyAttribute** elements. For information about the functoids available in BizTalk Mapper, see [Using Functoids to Create More Complex Mappings](../core/using-functoids-to-create-more-complex-mappings.md).  
   
- To use the shortcut menu, a link must originate from a sub-hierarchy parent node and must end on another sub-hierarchy parent node. The shortcut menu assists in what type of links should be created between the two schema nodes. The following is a list of options available on the shortcut menu.  
+  To use the shortcut menu, a link must originate from a sub-hierarchy parent node and must end on another sub-hierarchy parent node. The shortcut menu assists in what type of links should be created between the two schema nodes. The following is a list of options available on the shortcut menu.  
   
 |Map from|Map to|Link Behavior|  
 |--------------|------------|-------------------|  

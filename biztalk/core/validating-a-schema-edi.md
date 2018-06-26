@@ -22,17 +22,17 @@ You can validate an EDI schema at design time. To do so, you use the XML Tool ex
   
 ### To validate a schema  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open a project. To the project in Solution Explorer, add the message schema that you want to validate.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open a project. To the project in Solution Explorer, add the message schema that you want to validate.  
   
-    > [!NOTE]
-    >  The message schemas are located in the appropriate subfolder under the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI folder. For information on installing the schema files, see [How to Install EDI Schema Files](http://msdn.microsoft.com/library/787f45d9-d95d-40f4-a4ac-0a0e711f7550).  
+   > [!NOTE]
+   >  The message schemas are located in the appropriate subfolder under the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI folder. For information on installing the schema files, see [How to Install EDI Schema Files](http://msdn.microsoft.com/library/787f45d9-d95d-40f4-a4ac-0a0e711f7550).  
+   > 
+   > [!NOTE]
+   >  You do not have to build the project to validate a schema.  
   
-    > [!NOTE]
-    >  You do not have to build the project to validate a schema.  
+2. Right-click the schema in Solution Explorer, and then click **Validate Schema**.  
   
-2.  Right-click the schema in Solution Explorer, and then click **Validate Schema**.  
-  
-3.  Verify that there is a message in the Output window indicating that the operation succeeded.  
+3. Verify that there is a message in the Output window indicating that the operation succeeded.  
   
 ## See Also  
  [Using Design-Time XML Tools](../core/using-design-time-xml-tools.md)

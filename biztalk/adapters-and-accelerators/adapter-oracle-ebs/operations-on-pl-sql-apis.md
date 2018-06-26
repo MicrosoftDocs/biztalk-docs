@@ -25,10 +25,10 @@ The PL/SQL APIs are grouped by schema names under the **Artifact-Based View** an
 ## Important info
   -   Before you can perform operations on PL/SQL APIs associated with applications in Oracle E-Business Suite, you must set the applications context. This is because setting applications context facilitates secure transactions in Oracle E-Business Suite by setting user preferences (such as responsibility, organization, and language settings) and access control for an artifact. However, it is optional to set the applications context for PL/SQL APIs associated with Oracle database. See [Set Application Context](../../adapters-and-accelerators/adapter-oracle-ebs/set-application-context.md).  
 
--   The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] cannot ascertain whether or not a default value is assigned for a parameter in a PL/SQL API in Oracle.  Moreover, the adapter also cannot ascertain whether a parameter is defined as mandatory or optional in a PL/SQL API in Oracle. The adapter treats every parameter as an optional parameter, and if no value is specified for a parameter that:  
+- The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] cannot ascertain whether or not a default value is assigned for a parameter in a PL/SQL API in Oracle.  Moreover, the adapter also cannot ascertain whether a parameter is defined as mandatory or optional in a PL/SQL API in Oracle. The adapter treats every parameter as an optional parameter, and if no value is specified for a parameter that:  
 
-    -   Has a default value specified in Oracle then the default value is used.  
-    -   Is defined as a mandatory parameter in Oracle then an exception is thrown.  
+  -   Has a default value specified in Oracle then the default value is used.  
+  -   Is defined as a mandatory parameter in Oracle then an exception is thrown.  
   
 ## See Also  
  [What Operations Can be Performed Using the Adapter?](https://msdn.microsoft.com/library/cc185219(v=bts.10).aspx)

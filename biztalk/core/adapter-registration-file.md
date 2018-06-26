@@ -40,25 +40,25 @@ After the custom adapter code has been successfully built it must be registered 
   
  You have two options for specifying the .NET type that implements the adapter receiver, adapter transmitter, and adapter management:  
   
-1.  Install the adapter to a folder and specify *TypeName and \*AssemblyPath where \*TypeName is type.FullName of the class and \*AssemblyPath is the path and file name of the assembly.  
+1. Install the adapter to a folder and specify *TypeName and \*AssemblyPath where \*TypeName is type.FullName of the class and \*AssemblyPath is the path and file name of the assembly.  
   
-2.  Install the adapter in the global assembly cache and specify just *TypeName where \*TypeName is type.AssemblyQualifiedName of the class. This is the recommended option.  
+2. Install the adapter in the global assembly cache and specify just *TypeName where \*TypeName is type.AssemblyQualifiedName of the class. This is the recommended option.  
   
- All adapters must have the following registry keys with the specified GUID:  
+   All adapters must have the following registry keys with the specified GUID:  
   
--   **Implemented Categories\\{7F46FC3E-3C2C-405B-A47F-8D17942BA8F9}**  
+- **Implemented Categories\\{7F46FC3E-3C2C-405B-A47F-8D17942BA8F9}**  
   
--   **"InboundProtocol_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A281}"**  
+- **"InboundProtocol_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A281}"**  
   
--   **"OutboundProtocol_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A283}"**  
+- **"OutboundProtocol_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A283}"**  
   
--   **"ReceiveLocation_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A280}"**  
+- **"ReceiveLocation_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A280}"**  
   
--   **"TransmitLocation_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A282}"**  
+- **"TransmitLocation_PageProv"="{2DE93EE6-CB01-4007-93E9-C3D71689A282}"**  
   
- Adapters based on the adapter framework must use these specific GUIDS for send and receive handler and location property pages. Note that if an adapter is a send-only adapter it just needs the **OutboundProtocol_PageProv**and **TransmitLocation_PageProv**GUIDs. Similarly a receive-only adapter merely requires the **InboundProtocol_PageProv** and **ReceiveLocation_PageProv** GUIDs.  
+  Adapters based on the adapter framework must use these specific GUIDS for send and receive handler and location property pages. Note that if an adapter is a send-only adapter it just needs the **OutboundProtocol_PageProv**and **TransmitLocation_PageProv**GUIDs. Similarly a receive-only adapter merely requires the **InboundProtocol_PageProv** and **ReceiveLocation_PageProv** GUIDs.  
   
- The following code is from the StaticAdapterManagement.reg file, and the code for the DynamicAdapterManagement.reg file is almost identical. For more information about each of the registry properties, see [Registering an Adapter](../core/registering-an-adapter.md). After making the changes to the registry file, save the file and run it.  
+  The following code is from the StaticAdapterManagement.reg file, and the code for the DynamicAdapterManagement.reg file is almost identical. For more information about each of the registry properties, see [Registering an Adapter](../core/registering-an-adapter.md). After making the changes to the registry file, save the file and run it.  
   
 ```  
 Windows Registry Editor Version 5.00  
@@ -91,19 +91,19 @@ Windows Registry Editor Version 5.00
   
 ### To register the static sample adapter  
   
-1.  Complete the procedure to run the file adapter sample in the SDK. For more information, see [File Adapter (BizTalk Server Sample)](../core/file-adapter-biztalk-server-sample.md).  
+1. Complete the procedure to run the file adapter sample in the SDK. For more information, see [File Adapter (BizTalk Server Sample)](../core/file-adapter-biztalk-server-sample.md).  
   
-2.  Click **Start**, point to **All Programs**, point to **Accessories**, and then click **Windows Explorer**.  
+2. Click **Start**, point to **All Programs**, point to **Accessories**, and then click **Windows Explorer**.  
   
-3.  Navigate to the installation drive for BizTalk Server, and then navigate to **<**`drive`**>:\Program Files\Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**\SDK\Samples\AdaptersUsage\File Adapter**.  
+3. Navigate to the installation drive for BizTalk Server, and then navigate to **<**`drive`**>:\Program Files\Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**\SDK\Samples\AdaptersUsage\File Adapter**.  
   
-4.  To add the sample adapter to the registry, double-click **StaticAdapterManagement.reg**. (If you want to add the dynamic file adapter to the registry run **DynamicAdapterManagement.reg** instead and use that file everywhere else as appropriate.)  
+4. To add the sample adapter to the registry, double-click **StaticAdapterManagement.reg**. (If you want to add the dynamic file adapter to the registry run **DynamicAdapterManagement.reg** instead and use that file everywhere else as appropriate.)  
   
-    > [!NOTE]
-    >  If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is not installed on drive C of your computer, you must modify the StaticAdapterManagement.reg file with the appropriate installation path. Search the file for C: and replace it with the correct installation drive.  
+   > [!NOTE]
+   >  If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is not installed on drive C of your computer, you must modify the StaticAdapterManagement.reg file with the appropriate installation path. Search the file for C: and replace it with the correct installation drive.  
   
-5.  In the **Registry Editor** dialog box, click **Yes** to add the sample adapter to the registry, and then click **OK** to close the dialog box, verifying that the information was added to the registry.  
+5. In the **Registry Editor** dialog box, click **Yes** to add the sample adapter to the registry, and then click **OK** to close the dialog box, verifying that the information was added to the registry.  
   
-6.  To close Windows Explorer, on the **File** menu, click **Close**.  
+6. To close Windows Explorer, on the **File** menu, click **Close**.  
   
-     The sample static adapter is now registered with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
+    The sample static adapter is now registered with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

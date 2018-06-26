@@ -24,29 +24,29 @@ The easiest way to create a custom DTS task for processing BAM data is to start 
   
 ### To create a custom DTS task  
   
-1.  Create a BAM Definition that requires an OLAP cube. For example use the Excel wizards, and leave one PivotTable® report as non-RTA view.  
+1. Create a BAM Definition that requires an OLAP cube. For example use the Excel wizards, and leave one PivotTable® report as non-RTA view.  
   
-2.  Open the DTS package for cube processing that BAM creates. BAM creates one such package for each view, known as BAM_AN_\<*View Name*\>.  
+2. Open the DTS package for cube processing that BAM creates. BAM creates one such package for each view, known as BAM_AN_\<*View Name*\>.  
   
-3.  Open the Package in the DTS Designer and remove all steps except the first two steps and the last step. You may also want to keep the connection to the Primary Import database.  
+3. Open the Package in the DTS Designer and remove all steps except the first two steps and the last step. You may also want to keep the connection to the Primary Import database.  
   
-4.  Edit the properties of the first ActiveX® task. Remove all lines that contain DTSGlobalVariables.Parent.Steps, because they refer to the deleted steps. The script begins with:  
+4. Edit the properties of the first ActiveX® task. Remove all lines that contain DTSGlobalVariables.Parent.Steps, because they refer to the deleted steps. The script begins with:  
   
-    ```  
-    serverName = "<your server here>"   
-    databaseName = "<your analysis database here>"  
-    cubeName = "<your cube name here>"  
-    ```  
+   ```  
+   serverName = "<your server here>"   
+   databaseName = "<your analysis database here>"  
+   cubeName = "<your cube name here>"  
+   ```  
   
-    > [!NOTE]
-    >  The task "Begin Data Analysis" (the second task in the package) is very important because it gives your package:  
-    >   
-    >  -   A moving window for incremental processing of the completed Activities (the dynamic SQL view named  bam_(BamView)_View(Activity)_CompletedInstancesWindow  
-    > -   A Snapshot of the Activities that are in progress - a table named  bam\_(BamView)_View(Activity)_ActiveInstancesSnapshot.  
+   > [!NOTE]
+   >  The task "Begin Data Analysis" (the second task in the package) is very important because it gives your package:  
+   > 
+   > - A moving window for incremental processing of the completed Activities (the dynamic SQL view named  bam_(BamView)_View(Activity)_CompletedInstancesWindow  
+   >   -   A Snapshot of the Activities that are in progress - a table named  bam\_(BamView)_View(Activity)_ActiveInstancesSnapshot.  
   
-5.  Obtain the view and table in a short transaction, during which you insert no data, so that the data represents a real instantaneous snapshot of the Primary Import database. Implement one or more steps to do the actual data transformations based on the view and table as input data. If the purpose of your analysis task is something other than filling an OLAP cube, remember to keep a timestamp of when your job committed for the last time and replace the first ActiveX task with code that assigns this timestamp to the global variable "CompletedCubeLastProcessTime". The second task uses this variable to make sure that there is no missed data and that no data processes twice in case of a crash and restart of the DTS package.  
+5. Obtain the view and table in a short transaction, during which you insert no data, so that the data represents a real instantaneous snapshot of the Primary Import database. Implement one or more steps to do the actual data transformations based on the view and table as input data. If the purpose of your analysis task is something other than filling an OLAP cube, remember to keep a timestamp of when your job committed for the last time and replace the first ActiveX task with code that assigns this timestamp to the global variable "CompletedCubeLastProcessTime". The second task uses this variable to make sure that there is no missed data and that no data processes twice in case of a crash and restart of the DTS package.  
   
-6.  Finally, you must call the last task, which is "end data analysis". This task releases the completed activities that were processed, so that they can be archived and removed from the primary import once they are outside of the online window.  
+6. Finally, you must call the last task, which is "end data analysis". This task releases the completed activities that were processed, so that they can be archived and removed from the primary import once they are outside of the online window.  
   
 ## See Also  
  [Using Business Activity Monitoring](../core/using-business-activity-monitoring.md)

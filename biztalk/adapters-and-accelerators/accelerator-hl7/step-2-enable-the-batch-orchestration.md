@@ -19,12 +19,12 @@ The batch orchestration controls the create batch process. It maintains referenc
   
 ### To enable the batch orchestration  
   
-1.  In the BizTalk Administration Console, click **Orchestrations**, right-click **BatchOrchestration.Orchestration_1**, and then click **Properties**.  
+1. In the BizTalk Administration Console, click **Orchestrations**, right-click **BatchOrchestration.Orchestration_1**, and then click **Properties**.  
   
-2.  In the Orchestration Properties dialog box, in the console tree, click **Bindings**.  
+2. In the Orchestration Properties dialog box, in the console tree, click **Bindings**.  
   
-3.  In the **Bindings** pane, for **Host**, select **BizTalkServerApplication**. Click **OK**.  
+3. In the **Bindings** pane, for **Host**, select **BizTalkServerApplication**. Click **OK**.  
   
-4.  In the BizTalk Administration Console, right-click **BatchOrchestration.Orchestration_1**, and then click **Enlist**.  
+4. In the BizTalk Administration Console, right-click **BatchOrchestration.Orchestration_1**, and then click **Enlist**.  
   
- Proceed to [Step 3: Create and Configure a Destination Party](../../adapters-and-accelerators/accelerator-hl7/step-3-create-and-configure-a-destination-party.md).
+   Proceed to [Step 3: Create and Configure a Destination Party](../../adapters-and-accelerators/accelerator-hl7/step-3-create-and-configure-a-destination-party.md).

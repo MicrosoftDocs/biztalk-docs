@@ -22,24 +22,24 @@ The V2.3.1 schemas are commonly referenced schemas, which you use to validate th
   
 ### To create a common schema for V2.3.1  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **New**, and then click **Project**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **New**, and then click **Project**.  
   
-2.  In the New Project dialog box, in the **Project Types** section, expand **BizTalk Projects**, and then select **BTAHL7Projects**.  
+2. In the New Project dialog box, in the **Project Types** section, expand **BizTalk Projects**, and then select **BTAHL7Projects**.  
   
-3.  In the Templates section, select **BTAHL7V231Common Project**.  
+3. In the Templates section, select **BTAHL7V231Common Project**.  
   
-4.  In the **Name** box, enter **BTAHL7V231Common Project** as the project name.  
+4. In the **Name** box, enter **BTAHL7V231Common Project** as the project name.  
   
-5.  In the **Solution** box, select **Add to Solution**.  
+5. In the **Solution** box, select **Add to Solution**.  
   
-6.  Click **OK**.  
+6. Click **OK**.  
   
-    > [!NOTE]
-    >  In Solution Explorer, three schemas (datatypes_231.xsd, segments_231.xsd, and tablevalues_231.xsd) are included in the project.  
+   > [!NOTE]
+   >  In Solution Explorer, three schemas (datatypes_231.xsd, segments_231.xsd, and tablevalues_231.xsd) are included in the project.  
   
-7.  In Solution Explorer, right-click **BTAHL7V231Common Project**, and then click **Properties**.  
+7. In Solution Explorer, right-click **BTAHL7V231Common Project**, and then click **Properties**.  
   
-8.  On the BTAHL7V231Common Property Page, click **Signing**.  
+8. On the BTAHL7V231Common Property Page, click **Signing**.  
   
 9. Select the **Sign the assembly** check box.  
   
@@ -52,4 +52,4 @@ The V2.3.1 schemas are commonly referenced schemas, which you use to validate th
     > [!NOTE]
     >  If the correct message does not appear, use [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] to troubleshoot your schemas.  
   
- Proceed to [Step 3: Add a Trigger Event (Message) Schema](../../adapters-and-accelerators/accelerator-hl7/step-3-add-a-trigger-event-message-schema.md).
+    Proceed to [Step 3: Add a Trigger Event (Message) Schema](../../adapters-and-accelerators/accelerator-hl7/step-3-add-a-trigger-event-message-schema.md).

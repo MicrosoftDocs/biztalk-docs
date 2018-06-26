@@ -24,19 +24,19 @@ This installation guide provides basic instructions for using the [!INCLUDE[his2
   
 ## Installation  
   
-1.  Double-click the **HIS2016_Server_EN.msi** file.  
+1. Double-click the **HIS2016_Server_EN.msi** file.  
   
-2.  In the **License Agreement**, accept the **End User License Agreement**. To customize your installation (optional):  
+2. In the **License Agreement**, accept the **End User License Agreement**. To customize your installation (optional):  
   
-    1.  Select **Advanced**.  
+   1. Select **Advanced**.  
   
-    2.  In **Destination Folder**, you can optionally change the installation drive and directory.  
+   2. In **Destination Folder**, you can optionally change the installation drive and directory.  
   
-    3.  In **Product Features**, you can optionally choose the feature areas, tools, and sub features.  
+   3. In **Product Features**, you can optionally choose the feature areas, tools, and sub features.  
   
-     Select **Install** to continue.  
+      Select **Install** to continue.  
   
-3.  When complete, select **Finish**.  
+3. When complete, select **Finish**.  
   
 ## Configuration  
  After you successfully install HIS, run configuration to:  
@@ -49,11 +49,11 @@ This installation guide provides basic instructions for using the [!INCLUDE[his2
   
 ## Uninstall  
   
-1.  Open **Programs and Features**.  
+1. Open **Programs and Features**.  
   
-2.  In the list, select **Microsoft [!INCLUDE[his2016](../includes/his2016-md.md)]**, and then select **Uninstall**.  
+2. In the list, select **Microsoft [!INCLUDE[his2016](../includes/his2016-md.md)]**, and then select **Uninstall**.  
   
-3.  When prompted if you're sure, select **Yes**.  
+3. When prompted if you're sure, select **Yes**.  
   
 ## Unattended Installation  
  **Install using the following command**:  

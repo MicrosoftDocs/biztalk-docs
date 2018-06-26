@@ -34,19 +34,19 @@ You can use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-shor
 ## How This Topic Demonstrates Receiving Notification Messages  
  In this topic, to demonstrate how to process notification messages to perform subsequent tasks, we consider a basic scenario where an adapter client uses BizTalk application to receive notification messages for changes to the ACCOUNTACTIVITY table. After the notification is received, the client filters the type of notification received and performs subsequent action. To demonstrate a very basic scenario, let us consider that the adapter client copies the notification messages to different folders based on the kind of notification received. Therefore:  
   
--   If the notification message is for an Insert or Update operation, the adapter client copies the message to C:\TestLocation\UpsertNotification folder.  
+- If the notification message is for an Insert or Update operation, the adapter client copies the message to C:\TestLocation\UpsertNotification folder.  
   
--   If the notification message is for any other operation, for example Delete, the adapter client copies the message to C:\TestLocation\OtherNotificaiton folder.  
+- If the notification message is for any other operation, for example Delete, the adapter client copies the message to C:\TestLocation\OtherNotificaiton folder.  
   
- To achieve this as part of a BizTalk application, the orchestration must contain the following:  
+  To achieve this as part of a BizTalk application, the orchestration must contain the following:  
   
--   A one-way receive port to receive notification messages.  
+- A one-way receive port to receive notification messages.  
   
--   An Expression shape that contains an xpath query to extract the information about the kind of notification message received.  
+- An Expression shape that contains an xpath query to extract the information about the kind of notification message received.  
   
--   A Decide shape to include a decision block in the orchestration. In this decision block, the application decides on what subsequent operations to perform based on the notification message received.  
+- A Decide shape to include a decision block in the orchestration. In this decision block, the application decides on what subsequent operations to perform based on the notification message received.  
   
--   Two one-way send ports that finally receive the notification messages.  
+- Two one-way send ports that finally receive the notification messages.  
   
 ## Configuring Notifications with the Oracle Database Binding Properties  
  The following table summarizes the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] binding properties that you use to configure receiving notifications from the Oracle database. You must specify these binding properties while configuring the receive port in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
@@ -66,22 +66,22 @@ You can use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-shor
 ## How to Receive Notification Messages from Oracle Database  
  Performing an operation on the Oracle database using [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves the procedural tasks described in [Building blocks to develop BizTalk Applications with Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md). To configure the adapter to receive notification messages, these tasks are:  
   
-1.  Create a BizTalk project, and then generate schema for the **Notification** inbound operation. Optionally, you can specify values for the **InboundOperationType**, **NotificationPort**, and **NotificationStatement** binding properties.  
+1. Create a BizTalk project, and then generate schema for the **Notification** inbound operation. Optionally, you can specify values for the **InboundOperationType**, **NotificationPort**, and **NotificationStatement** binding properties.  
   
-2.  Create a message in the BizTalk project for receiving notification from the Oracle database.  
+2. Create a message in the BizTalk project for receiving notification from the Oracle database.  
   
-3.  Create an orchestration as described in the preceding section.  
+3. Create an orchestration as described in the preceding section.  
   
-4.  Build and deploy the BizTalk project.  
+4. Build and deploy the BizTalk project.  
   
-5.  Configure the BizTalk application by creating physical send and receive ports.  
+5. Configure the BizTalk application by creating physical send and receive ports.  
   
-    > [!NOTE]
-    >  For inbound operations, like receiving notification messages, you must only configure a one-way WCF-Custom or WCF-OracleDB receive port. Two-way receive ports are not supported for inbound operations.  
+   > [!NOTE]
+   >  For inbound operations, like receiving notification messages, you must only configure a one-way WCF-Custom or WCF-OracleDB receive port. Two-way receive ports are not supported for inbound operations.  
   
-6.  Start the BizTalk application.  
+6. Start the BizTalk application.  
   
- This topic provides instructions to perform these tasks.  
+   This topic provides instructions to perform these tasks.  
   
 ## Generating Schema  
  You must generate the schema for the **Notification** inbound operation. See [Retrieve metadata for Oracle Database operations in Visual Studio](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md) for more information about how to generate the schema. Perform the following tasks when generating the schema. Skip the first step if you do not want to specify the binding properties at design-time.  
@@ -119,25 +119,25 @@ You can use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-shor
 ## Setting up the Orchestration  
  You must create a BizTalk orchestration to use [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] for receiving notification messages from the Oracle database and then performing tasks based on the type of notification received. In this orchestration, the adapter receives the notification message based on the SELECT statement specified for the **NotificationStatement** binding property. The xpath query specified within the Expression shape extracts the type of notification into a variable, say **NotificationType**. The Decide shape uses the value in this variable to decide on the kind of notification received and takes the appropriate “path” to perform subsequent operations. As mentioned in the preceding section, the orchestration will perform the following operations based on the kind of notification message received.  
   
--   If the notification message is for an Insert or Update operation, the adapter client copies the message to C:\TestLocation\UpsertNotification folder.  
+- If the notification message is for an Insert or Update operation, the adapter client copies the message to C:\TestLocation\UpsertNotification folder.  
   
--   If the notification message is for any other operation, for example Delete, the adapter client copies the message to C:\TestLocation\OtherNotificaiton folder.  
+- If the notification message is for any other operation, for example Delete, the adapter client copies the message to C:\TestLocation\OtherNotificaiton folder.  
   
- So, your orchestration must contain the following:  
+  So, your orchestration must contain the following:  
   
--   A one-way receive port to receive notification messages.  
+- A one-way receive port to receive notification messages.  
   
--   An Expression shape that contains an xpath query to extract the kind of notification received.  
+- An Expression shape that contains an xpath query to extract the kind of notification received.  
   
--   A Decide shape to include a decision block in the orchestration. In this decision block, the application decides on what subsequent operations to perform based on the notification message received.  
+- A Decide shape to include a decision block in the orchestration. In this decision block, the application decides on what subsequent operations to perform based on the notification message received.  
   
--   Two one-way send ports that finally receive the notification messages.  
+- Two one-way send ports that finally receive the notification messages.  
   
--   Receive shape.  
+- Receive shape.  
   
- A sample orchestration resembles the following.  
+  A sample orchestration resembles the following.  
   
- ![Orchestration to perform post&#45;notification task](../../adapters-and-accelerators/adapter-oracle-database/media/40c637ea-dbec-47a8-b53b-58d6820093b4.gif "40c637ea-dbec-47a8-b53b-58d6820093b4")  
+  ![Orchestration to perform post&#45;notification task](../../adapters-and-accelerators/adapter-oracle-database/media/40c637ea-dbec-47a8-b53b-58d6820093b4.gif "40c637ea-dbec-47a8-b53b-58d6820093b4")  
   
 ### Adding Message Shapes  
  Make sure you specify the following properties for each of the message shapes. The names listed in the Shape column are the names of the message shapes as displayed in the just-mentioned orchestration.  
@@ -196,13 +196,13 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
 ### Adding Ports  
  You must now add the following logical ports to the orchestration:  
   
--   One-way receive port to receive notification messages from the Oracle database.  
+- One-way receive port to receive notification messages from the Oracle database.  
   
--   One-way send port to send notification messages for Insert and Update operations to a specific folder.  
+- One-way send port to send notification messages for Insert and Update operations to a specific folder.  
   
--   One-way send port to send notification messages for any other operations to a specific folder.  
+- One-way send port to send notification messages for any other operations to a specific folder.  
   
- Make sure you specify the following properties for each of the logical ports. The names listed in the Port column are the names of the ports as displayed in the orchestration.  
+  Make sure you specify the following properties for each of the logical ports. The names listed in the Port column are the names of the ports as displayed in the orchestration.  
   
 |Port|Properties|  
 |----------|----------------|  
@@ -228,30 +228,30 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
   
  Configuring an application involves:  
   
--   Selecting a host for the application.  
+- Selecting a host for the application.  
   
--   Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
+- Mapping the ports that you created in your orchestration to physical ports in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. For this orchestration you must:  
   
-    -   Define a physical WCF-Custom or WCF-OracleDB one-way receive port. This port listens for notifications coming from the Oracle database. For information about how to create receive ports, see [Manually configure a physical port binding to the Oracle Database Adapter](../../adapters-and-accelerators/adapter-oracle-database/manually-configure-a-physical-port-binding-to-the-oracle-database-adapter.md). Make sure you specify the following binding properties for the receive port.  
+  - Define a physical WCF-Custom or WCF-OracleDB one-way receive port. This port listens for notifications coming from the Oracle database. For information about how to create receive ports, see [Manually configure a physical port binding to the Oracle Database Adapter](../../adapters-and-accelerators/adapter-oracle-database/manually-configure-a-physical-port-binding-to-the-oracle-database-adapter.md). Make sure you specify the following binding properties for the receive port.  
   
-        > [!IMPORTANT]
-        >  You do not need to perform this step if you specified the binding properties at design-time. In such a case, you can create a WCF-custom or WCF-OracleDB receive port, with the required binding properties set, by importing the binding file created by the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. For more information, see Configuring a Physical Port Binding Using a Port Binding File.  
+    > [!IMPORTANT]
+    >  You do not need to perform this step if you specified the binding properties at design-time. In such a case, you can create a WCF-custom or WCF-OracleDB receive port, with the required binding properties set, by importing the binding file created by the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]. For more information, see Configuring a Physical Port Binding Using a Port Binding File.  
   
-        |Binding Property|Value|  
-        |----------------------|-----------|  
-        |**InboundOperationType**|Set this to **Notification**.|  
-        |**NotificationPort**|Specifies the port number that ODP.NET must open to listen for database change notification from Oracle database. Set this to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [http://go.microsoft.com/fwlink/?LinkID=196959](http://go.microsoft.com/fwlink/?LinkID=196959).<br /><br /> **Important:** If you set this to the default value of -1, you will have to completely disable Windows Firewall to receive notification messages.|  
-        |**NotificationStatement**|Set this to:<br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`<br /><br /> **Note:** You must specify the table name along with the schema name. For example, `SCOTT.ACCOUNTACTIVITY`.|  
-        |**NotifyOnListenerStart**|Set this to **True**.|  
+    |Binding Property|Value|  
+    |----------------------|-----------|  
+    |**InboundOperationType**|Set this to **Notification**.|  
+    |**NotificationPort**|Specifies the port number that ODP.NET must open to listen for database change notification from Oracle database. Set this to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [http://go.microsoft.com/fwlink/?LinkID=196959](http://go.microsoft.com/fwlink/?LinkID=196959).<br /><br /> **Important:** If you set this to the default value of -1, you will have to completely disable Windows Firewall to receive notification messages.|  
+    |**NotificationStatement**|Set this to:<br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`<br /><br /> **Note:** You must specify the table name along with the schema name. For example, `SCOTT.ACCOUNTACTIVITY`.|  
+    |**NotifyOnListenerStart**|Set this to **True**.|  
   
-         For more information about the different binding properties, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx).  
+     For more information about the different binding properties, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx).  
   
-        > [!NOTE]
-        >  We recommend configuring the transaction isolation level and the transaction timeout while performing inbound operations using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. You can do so by adding the service behavior while configuring the WCF-Custom or WCF-OracleDB receive port. For instruction on how to add the service behavior, see [Configure Transaction Isolation Level and Transaction Timeout with Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-transaction-isolation-level-and-transaction-timeout-with-oracle-db.md).  
+    > [!NOTE]
+    >  We recommend configuring the transaction isolation level and the transaction timeout while performing inbound operations using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. You can do so by adding the service behavior while configuring the WCF-Custom or WCF-OracleDB receive port. For instruction on how to add the service behavior, see [Configure Transaction Isolation Level and Transaction Timeout with Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-transaction-isolation-level-and-transaction-timeout-with-oracle-db.md).  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the notification messages from the Oracle database for Insert and Update operations. Configure this port to drop notification messages to the folder C:\TestLocation\UpsertNotification.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the notification messages from the Oracle database for Insert and Update operations. Configure this port to drop notification messages to the folder C:\TestLocation\UpsertNotification.  
   
-    -   Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the notification messages from the Oracle database for all other operations. Configure this port to drop notification messages to the folder C:\TestLocation\OtherNotification.  
+  - Define a location on the hard disk and a corresponding file port where the BizTalk orchestration will drop the notification messages from the Oracle database for all other operations. Configure this port to drop notification messages to the folder C:\TestLocation\OtherNotification.  
   
 ## Starting the Application  
  You must start the BizTalk application for receiving notification messages from the Oracle database and for performing the subsequent Select and Update operations. For instructions on starting a BizTalk application, see [How to Start an Orchestration](../../core/how-to-start-an-orchestration.md).  

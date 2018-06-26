@@ -76,19 +76,19 @@ End If
   
 #### To build and initialize the CallOrchestration sample  
   
-1.  In a command window, navigate to the following folder:  
+1. In a command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\Orchestrations\CallOrchestration\  
+    \<*Samples Path*\>\Orchestrations\CallOrchestration\  
   
-2.  Run the file Setup.bat, which performs the following actions:  
+2. Run the file Setup.bat, which performs the following actions:  
   
-    -   Creates the input (In) and output (Out) folders for this sample in the CallOrchestration folder.  
+   - Creates the input (In) and output (Out) folders for this sample in the CallOrchestration folder.  
   
-    -   Compiles and deploys the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project, containing both orchestrations, for this sample.  
+   - Compiles and deploys the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] project, containing both orchestrations, for this sample.  
   
-    -   Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location, and the send and receive ports.  
+   - Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location, and the send and receive ports.  
   
-    -   Enables the receive location, and starts the send port.  
+   - Enables the receive location, and starts the send port.  
   
 > [!NOTE]
 >  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
@@ -105,11 +105,11 @@ End If
   
 #### To uninstall the CallOrchestration sample  
   
-1.  In a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command window, navigate to the following folder:  
+1. In a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] command window, navigate to the following folder:  
   
-     \<*Samples Path*\>\Orchestrations\CallOrchestration\  
+    \<*Samples Path*\>\Orchestrations\CallOrchestration\  
   
-2.  Run Cleanup.bat.  
+2. Run Cleanup.bat.  
   
 ## See Also  
  [Orchestrations (BizTalk Server Samples Folder)](../core/orchestrations-biztalk-server-samples-folder.md)

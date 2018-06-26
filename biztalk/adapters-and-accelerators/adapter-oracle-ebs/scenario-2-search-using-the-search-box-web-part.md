@@ -58,35 +58,35 @@ We will configure the search settings in Microsoft Office SharePoint Server to c
   
 ##  <a name="Scope"></a> Define a Scope for the Crawled Content  
   
-1.  Start SharePoint 3.0 Central Administration. Click **Start**, point to **All Programs**, point to **Microsoft Office Server**, and then click **SharePoint 3.0 Central Administration**.  
+1. Start SharePoint 3.0 Central Administration. Click **Start**, point to **All Programs**, point to **Microsoft Office Server**, and then click **SharePoint 3.0 Central Administration**.  
   
-2.  In the left navigation pane, click the name of the Shared Service Provider (SSP) where you want to configure the search application.  
+2. In the left navigation pane, click the name of the Shared Service Provider (SSP) where you want to configure the search application.  
   
-3.  On the Home page, in the **Search** section, click **Search settings**.  
+3. On the Home page, in the **Search** section, click **Search settings**.  
   
-4.  On the Configure Search Settings page, in the left pane under **Queries and Results**, click **Scopes** to define a scope for the crawling of data.  
+4. On the Configure Search Settings page, in the left pane under **Queries and Results**, click **Scopes** to define a scope for the crawling of data.  
   
-5.  On the View Scopes page, click **New Scope**.  
+5. On the View Scopes page, click **New Scope**.  
   
-6.  On the Create Scope page, type `MS_SAMPLE_EMPLOYEE_Search` in the **Title** box, and then click **OK**.  
+6. On the Create Scope page, type `MS_SAMPLE_EMPLOYEE_Search` in the **Title** box, and then click **OK**.  
   
-     ![Create a scope](../../adapters-and-accelerators/adapter-oracle-ebs/media/28-create-scope.gif "28_Create_Scope")  
+    ![Create a scope](../../adapters-and-accelerators/adapter-oracle-ebs/media/28-create-scope.gif "28_Create_Scope")  
   
-7.  You will return to the View Scopes page with the new scope added. In the **Update Status** column for the newly added scope, click the **Add rules** link.  
+7. You will return to the View Scopes page with the new scope added. In the **Update Status** column for the newly added scope, click the **Add rules** link.  
   
-8.  On the Add Scope Rule page:  
+8. On the Add Scope Rule page:  
   
-    1.  In the **Scope Rule Type** area, click **Content Source**.  
+   1.  In the **Scope Rule Type** area, click **Content Source**.  
   
-    2.  In the **Content Source** list, click **MS_SAMPLE_EMPLOYEE**, and then click **OK**.  
+   2.  In the **Content Source** list, click **MS_SAMPLE_EMPLOYEE**, and then click **OK**.  
   
-         ![Add a scope rule](../../adapters-and-accelerators/adapter-oracle-ebs/media/29-add-scope-rule.gif "29_Add_Scope_Rule")  
+        ![Add a scope rule](../../adapters-and-accelerators/adapter-oracle-ebs/media/29-add-scope-rule.gif "29_Add_Scope_Rule")  
   
 9. You will return to the View Scopes page with the rule added for the scope. In the left pane, click **Search Administration**.  
   
 10. On the Search Administration page, locate the **Scopes needing update** row, and click the **Start update now** link.  
   
- The **Scope update status** row will display the status of the scope update. Wait until the update is complete. After the updated is completed, the scope is ready to be used.  
+    The **Scope update status** row will display the status of the scope update. Wait until the update is complete. After the updated is completed, the scope is ready to be used.  
   
 ##  <a name="AddScope"></a> Add the Scope to the Search Dropdown  
  After you have created the search scope, you must add the scope to the search dropdown in Microsoft Office SharePoint Server so that it can be used.  

@@ -27,17 +27,17 @@ This topic begins with general guidelines about dividing business processes into
   
  Where you divide the process is critical to which parts of the process you can version, and to the types of disruptions that you allow to outstanding orders. The Southridge Video solution uses four general criteria to determine the stages:  
   
--   The logical grouping of steps in the business process.  
+- The logical grouping of steps in the business process.  
   
--   The scope of operations within an orchestration.  
+- The scope of operations within an orchestration.  
   
--   The elements of the process that would be useful to version, given the business process.  
+- The elements of the process that would be useful to version, given the business process.  
   
--   An orchestration should end after completing a long-term operation.  
+- An orchestration should end after completing a long-term operation.  
   
- Of the four, the first and third are the most critical because there will usually be far more scopes of operations than logical groupings or obvious elements to version. Notice, however, that you do not want to end an orchestration in the middle of a scope.  
+  Of the four, the first and third are the most critical because there will usually be far more scopes of operations than logical groupings or obvious elements to version. Notice, however, that you do not want to end an orchestration in the middle of a scope.  
   
- If you look at the orchestration for the first stage, **CableOrder1.odx**, you'll see that it effectively ends with the request-response sequence to the facilities system. This is a good place for the stage to end because it is the part of the process that involves the actual physical work of completing the order. Having the long processing steps near the end of the orchestration guarantees that, when rehydrated, the orchestration ends quickly. This speeds up the movement of the solution as a whole to newer versions of the orchestrations.  
+  If you look at the orchestration for the first stage, **CableOrder1.odx**, you'll see that it effectively ends with the request-response sequence to the facilities system. This is a good place for the stage to end because it is the part of the process that involves the actual physical work of completing the order. Having the long processing steps near the end of the orchestration guarantees that, when rehydrated, the orchestration ends quickly. This speeds up the movement of the solution as a whole to newer versions of the orchestrations.  
   
 > [!NOTE]
 >  Although the solution splits the process into discontinuous stages, the solution monitoring enables you to see things a continuous view through the use of BAM.  
@@ -53,17 +53,17 @@ This topic begins with general guidelines about dividing business processes into
 ## Applications  
  If you look in the BizTalk Administration Console, you can see that the built solution consists of three separate applications:  
   
--   **BTSScn.BPM.OrderBrokerApp**, the application containing the order broker  
+- **BTSScn.BPM.OrderBrokerApp**, the application containing the order broker  
   
--   **BTSScn.BPM.CableOrderApp**, the application containing the order processing components  
+- **BTSScn.BPM.CableOrderApp**, the application containing the order processing components  
   
--   **BTSScn.BPM.MessagingApp**, an application that collects artifacts shared by the other two applications  
+- **BTSScn.BPM.MessagingApp**, an application that collects artifacts shared by the other two applications  
   
- The tripartite structure of the solution is possible because of the ability of BizTalk applications to use artifacts in other applications within the same BizTalk group. To use another application's artifacts, you add a reference to the other application from the referring application. For information about referencing other applications, see [How to Add a Reference to Another Application](../core/how-to-add-a-reference-to-another-application.md).  
+  The tripartite structure of the solution is possible because of the ability of BizTalk applications to use artifacts in other applications within the same BizTalk group. To use another application's artifacts, you add a reference to the other application from the referring application. For information about referencing other applications, see [How to Add a Reference to Another Application](../core/how-to-add-a-reference-to-another-application.md).  
   
- Putting the common artifacts in a separate application enables you, potentially, to update components in only one place. The shared components can be anything, including ports. For example, the orchestrations in the solution send errors to an error reporting port. That port is in the messaging application, BTSScn.BPM.MessagingApp, where the entire solution can use it.  
+  Putting the common artifacts in a separate application enables you, potentially, to update components in only one place. The shared components can be anything, including ports. For example, the orchestrations in the solution send errors to an error reporting port. That port is in the messaging application, BTSScn.BPM.MessagingApp, where the entire solution can use it.  
   
- Structuring the solution as three applications also makes it easier to move parts of the solution onto other servers. You can convert each application and its referenced applications into an MSI file. You can then install that MSI file on another machine. For information about converting applications into MSI files, see [How to Export a BizTalk Application](../core/how-to-export-a-biztalk-application.md).  
+  Structuring the solution as three applications also makes it easier to move parts of the solution onto other servers. You can convert each application and its referenced applications into an MSI file. You can then install that MSI file on another machine. For information about converting applications into MSI files, see [How to Export a BizTalk Application](../core/how-to-export-a-biztalk-application.md).  
   
 ### The Test Solution  
  You will also three test applications in the BizTalk Administration Console: **BTSScn.BPM.OrderBrokerApp.Test**, **BTSScn.BPM.CableOrderApp.Test**, and **BTSScn.BPM.MessagingApp.Test**. These three applications contain only the ports for the test application and are referenced by the main applications. This structure allows for the test ports to be used by the main applications to construct a test solution while at the same time decoupling the test ports from the solution.  

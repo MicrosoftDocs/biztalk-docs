@@ -21,23 +21,23 @@ manager: "anneta"
 # Persistence and the Orchestration Engine
 State persistence, its management and restoration form the basis of a lot of fundamental functionalities of the orchestration engine. In particular, persistence is critical to the correct functioning of:  
   
--   Dehydration and rehydration  
+- Dehydration and rehydration  
   
--   Machine agnostic execution and rehydration  
+- Machine agnostic execution and rehydration  
   
--   Compensation model  
+- Compensation model  
   
--   Controlled System Shutdown  
+- Controlled System Shutdown  
   
--   Recovery  
+- Recovery  
   
- The orchestration engine saves to persistent storage the entire state of a running orchestration instance at various points, so that the instance can later be completely restored in memory. The state includes:  
+  The orchestration engine saves to persistent storage the entire state of a running orchestration instance at various points, so that the instance can later be completely restored in memory. The state includes:  
   
--   The internal state of the engine, including its current progress.  
+- The internal state of the engine, including its current progress.  
   
--   The state of any .NET components that maintain state information and are being used by the orchestration.  
+- The state of any .NET components that maintain state information and are being used by the orchestration.  
   
--   Message and variable values.  
+- Message and variable values.  
   
 ## Persistence Points  
  The orchestration engine saves the state of a running orchestration instance at various points. If it needs to rehydrate the orchestration instance, start up from a controlled shutdown, or recover from an unexpected shutdown, it will run the orchestration instance from the last persistence point, as though nothing else had occurred. For example, if a message is received but there is an unexpected shutdown before state can be saved, the engine will not record that it has received the message, and will receive it again upon restarting. The engine will save the state of an orchestration in the following circumstances:  

@@ -41,9 +41,9 @@ manager: "anneta"
   
 ### To add reference to the BizTalk EDI Application  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, under the **Applications** node, right-click the application that you want to use for EDI, such as BizTalk Application 1. Point to **Add**, and then click References.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, under the **Applications** node, right-click the application that you want to use for EDI, such as BizTalk Application 1. Point to **Add**, and then click References.  
   
-2.  In the **Add Application Reference** dialog box, select **BizTalk EDI Application**, and then click **OK**.  
+2. In the **Add Application Reference** dialog box, select **BizTalk EDI Application**, and then click **OK**.  
   
 ## Next Steps  
  You build and deploy the Inbound_EDI assembly, as described in [Step 2: Update and Deploy the Tutorial Solution](../core/step-2-update-and-deploy-the-tutorial-solution.md).  

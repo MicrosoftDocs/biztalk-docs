@@ -26,15 +26,15 @@ This section provides the steps and results of a threat model analysis (TMA) for
   
  For each scenario, we followed these steps to complete the Threat Model Analysis:  
   
--   Collect background information  
+- Collect background information  
   
--   Create and analyze the threat model  
+- Create and analyze the threat model  
   
--   Review threats  
+- Review threats  
   
--   Identify mitigation techniques and technologies  
+- Identify mitigation techniques and technologies  
   
- For more information Threat Model Analysis, see [Threat Model Analysis](../core/threat-model-analysis.md).  
+  For more information Threat Model Analysis, see [Threat Model Analysis](../core/threat-model-analysis.md).  
   
 ## In This Section  
   

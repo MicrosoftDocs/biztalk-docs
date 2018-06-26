@@ -24,42 +24,42 @@ Following are the names of the dehydration properties and their default values. 
   
  **Dehydration**  
   
--   **MaxThreshold** = 1800  
+- **MaxThreshold** = 1800  
   
--   **MinThreshold** = 1  
+- **MinThreshold** = 1  
   
--   **ConstantThreshold** = -1  
+- **ConstantThreshold** = -1  
   
- **VirtualMemoryThrottlingCriteria**  
+  **VirtualMemoryThrottlingCriteria**  
   
--   **OptimalUsage** = 900  
+- **OptimalUsage** = 900  
   
--   **MaximalUsage** =  1300  
+- **MaximalUsage** =  1300  
   
--   **IsActive** = true  
+- **IsActive** = true  
   
- **PrivateMemoryThrottlingCriteria**  
+  **PrivateMemoryThrottlingCriteria**  
   
--   **OptimalUsage** = 50  
+- **OptimalUsage** = 50  
   
--   **MaximalUsage** =  350  
+- **MaximalUsage** =  350  
   
--   **IsActive** = true  
+- **IsActive** = true  
   
- **PhysicalMemoryThrottlingCriteria**  
+  **PhysicalMemoryThrottlingCriteria**  
   
--   **OptimalUsage** = 90  
+- **OptimalUsage** = 90  
   
--   **MaximalUsage** =  95  
+- **MaximalUsage** =  95  
   
--   **IsActive** = false  
+- **IsActive** = false  
   
- Each of these properties is described in detail next.  
+  Each of these properties is described in detail next.  
   
 ## Dehydration  
  **MaxThreshold** and **MinThreshold** are the upper and lower bounds, in seconds, of the time that an orchestration can be blocked at a subscription (that is, blocked by a receive, listen, or delay) before being dehydrated. There will also be a value calculated at run-time, called **TestThreshold**, and its value, measured in seconds, is between **MinThreshold** and **MaxThreshold**.  
   
- If you set a value besides the default of -1 for **ConstantThreshold**, there will not be a run-time value **TestThreshold**. When an orchestration is blocked at a subscription, and the history of how long all instances of that orchestration have been blocked at that subscription is greater than the value of **TestThreshold**, then the orchestration will dehydrate. Otherwise, if the history is less than **TestThreshold** value the orchestration will not dehydrate. Also, even if the history indicates that dehydration will not take place, if the current blocking time reaches 2***TestThreshold**, then the dehydration will take place. The history is defined by the average of the last 10 waiting times in seconds, or the average of however many waiting times there are in the history if the waiting times are less than 10.  
+ If you set a value besides the default of -1 for **ConstantThreshold**, there will not be a run-time value **TestThreshold**. When an orchestration is blocked at a subscription, and the history of how long all instances of that orchestration have been blocked at that subscription is greater than the value of **TestThreshold**, then the orchestration will dehydrate. Otherwise, if the history is less than **TestThreshold** value the orchestration will not dehydrate. Also, even if the history indicates that dehydration will not take place, if the current blocking time reaches 2<em>**TestThreshold</em>*, then the dehydration will take place. The history is defined by the average of the last 10 waiting times in seconds, or the average of however many waiting times there are in the history if the waiting times are less than 10.  
   
  When the value of **TestThreshold** tends toward **MinThreshold** as memory usage increases, it is called "memory based dehydration throttling." Memory-based dehydration throttling allows more orchestration instances to be live because when any of them are blocked waiting for work (that is, waiting for a message or a delay), they can be dehydrated and taken out of memory. **TestThreshold** is a monotonically decreasing function of memory usage, it is inversely proportional to memory usage.  
   

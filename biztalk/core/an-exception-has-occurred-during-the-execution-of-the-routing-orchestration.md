@@ -17,15 +17,15 @@ manager: "anneta"
 # An exception has occurred during the execution of the routing orchestration
 ## Details  
   
-|||  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|Event ID|-|  
-|Event Source|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI|  
-|Component|Batching Engine|  
-|Symbolic Name|ExceptionOccuredDuringRouting|  
-|Message Text|An exception has occured during the execution of the routing Orchestration. ErrorMessage = {0}|  
+|                 |                                                                                                |
+|-----------------|------------------------------------------------------------------------------------------------|
+|  Product Name   |       [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]       |
+| Product Version |                   [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                   |
+|    Event ID     |                                               -                                                |
+|  Event Source   |     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI     |
+|    Component    |                                        Batching Engine                                         |
+|  Symbolic Name  |                                 ExceptionOccuredDuringRouting                                  |
+|  Message Text   | An exception has occured during the execution of the routing Orchestration. ErrorMessage = {0} |
   
 ## Explanation  
  This Error/Warning/Information event indicates that the routing orchestration could not process each copy of the XML batch element correctly because of the error condition indicated in ErrorMessage field.  

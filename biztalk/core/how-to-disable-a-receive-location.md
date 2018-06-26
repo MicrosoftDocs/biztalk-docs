@@ -26,11 +26,11 @@ This topic describes how to use the BizTalk Server Administration console to dis
   
 ### To disable a receive location  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand the BizTalk group and the BizTalk application for which you want to disable a receive location.  
+2. In the console tree, expand the BizTalk group and the BizTalk application for which you want to disable a receive location.  
   
-3.  Click **Receive Locations**, right-click the receive location, and then click **Disable**.  
+3. Click **Receive Locations**, right-click the receive location, and then click **Disable**.  
   
 ## See Also  
  [Managing Receive Locations](../core/managing-receive-locations.md)   

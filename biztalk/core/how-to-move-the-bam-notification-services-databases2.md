@@ -29,40 +29,40 @@ You can use this procedure to move the BAM Notification Services databases to an
   
 ### To move the BAM Notification Services databases  
   
-1.  Get a copy of the .xml file used for restoring BAM:  
+1. Get a copy of the .xml file used for restoring BAM:  
   
-    1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+   1. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-    2.  At the command prompt, navigate to the following directory:  
+   2. At the command prompt, navigate to the following directory:  
   
-         **%SystemDrive%\Program Files\Microsoft**  [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\Tracking**  
+       **%SystemDrive%\Program Files\Microsoft**  [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\Tracking**  
   
-    3.  At the command prompt, type:  
+   3. At the command prompt, type:  
   
-        ```  
-        Bm.exe get-config –filename:BAMConfiguration.xml  
-        ```  
+      ```  
+      Bm.exe get-config –filename:BAMConfiguration.xml  
+      ```  
   
-        > [!NOTE]
-        >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
+      > [!NOTE]
+      >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
   
-2.  At the command prompt, type:  
+2. At the command prompt, type:  
   
-    ```  
-    Net stop NS$BamAlerts  
-    ```  
+   ```  
+   Net stop NS$BamAlerts  
+   ```  
   
-3.  Follow the instructions in SQL Server Books Online on how to back up the database on the old server.  
+3. Follow the instructions in SQL Server Books Online on how to back up the database on the old server.  
   
-4.  Copy the BAM Notification Services databases to the new SQL server.  
+4. Copy the BAM Notification Services databases to the new SQL server.  
   
-5.  Follow the instructions in SQL Server Books Online on how to restore the database on the new server.  
+5. Follow the instructions in SQL Server Books Online on how to restore the database on the new server.  
   
-6.  Edit the BAMConfiguration.xml file and change the ServerName in the Alert DeploymentUnit section to the new server name.  
+6. Edit the BAMConfiguration.xml file and change the ServerName in the Alert DeploymentUnit section to the new server name.  
   
-7.  Save and close the BAMConfiguration.xml file.  
+7. Save and close the BAMConfiguration.xml file.  
   
-8.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
+8. Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
 9. At the command prompt, navigate to the following directory:  
   

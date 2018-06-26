@@ -500,22 +500,22 @@ manager: "anneta"
  LUA_NAU_INOPERATIVE  
  The network addressable unit (NAU) is not able to process responses or requests. Delivery to the receiver could not take place for one of the following reasons:  
   
--   A path information unit error  
+- A path information unit error  
   
--   A path outage  
+- A path outage  
   
--   An invalid sequence of requests for activation  
+- An invalid sequence of requests for activation  
   
- If a path error is received during an active session that usually means there is no longer a valid path to the session partner.  
+  If a path error is received during an active session that usually means there is no longer a valid path to the session partner.  
   
 ## 0x80050000  
  LUA_NO_SESSION  
  A request to activate a session is required because no active half-session in the receiving end node for the origination-destination pair exists, or no active boundary function half-session component for the origination-destination pair in a node that supplies the boundary function exists. Delivery of the request could not take place for one of the following reasons:  
   
--   A path information unit error  
+- A path information unit error  
   
--   A path outage  
+- A path outage  
   
--   An invalid sequence of requests for activation  
+- An invalid sequence of requests for activation  
   
- If a path error is received during an active session that usually indicates there is no longer a valid path to the session partner.
+  If a path error is received during an active session that usually indicates there is no longer a valid path to the session partner.

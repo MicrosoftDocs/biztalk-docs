@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How BizTalk Server Solves the Business Need
-To solve your system integration needs, [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] enhances the functionality of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server for high-technology manufacturing systems. Because the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Setup program installs the accelerator on top of BizTalk Server, this section describes the technology by providing an overview of the functionality of BizTalk Server, and a description of the functionality that [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] adds to BizTalk Server.  
+To solve your system integration needs, Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] enhances the functionality of MicrosoftBizTalk Server for high-technology manufacturing systems. Because the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] Setup program installs the accelerator on top of BizTalk Server, this section describes the technology by providing an overview of the functionality of BizTalk Server, and a description of the functionality that [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] adds to BizTalk Server.  
   
 ## In This Section  
   

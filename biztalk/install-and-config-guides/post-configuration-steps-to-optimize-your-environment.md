@@ -49,35 +49,35 @@ BizTalk Server does not include any job to delete backup files. As a result, how
     AS
 
     BEGIN
-	set nocount on
-	IF @DaysToKeep IS NULL OR @DaysToKeep <= 1
-	RETURN
-	/*
-	Only delete full sets
-	If a set spans a day in such a way that some items fall into the deleted group and the other does not, do not delete the set
-	*/
+    set nocount on
+    IF @DaysToKeep IS NULL OR @DaysToKeep <= 1
+    RETURN
+    /*
+    Only delete full sets
+    If a set spans a day in such a way that some items fall into the deleted group and the other does not, do not delete the set
+    */
 
-	DECLARE DeleteBackupFiles CURSOR
-	FOR SELECT 'del "' + [BackupFileLocation] + '\' + [BackupFileName] + '"' FROM [adm_BackupHistory]
-	WHERE  datediff( dd, [BackupDateTime], getdate() ) >= @DaysToKeep
-	AND [BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [BackupSetId] AND datediff( dd, [h2].[BackupDateTime], getdate() ) < @DaysToKeep )
- 
-	DECLARE @cmd varchar(400)
-	OPEN DeleteBackupFiles
-	FETCH NEXT FROM DeleteBackupFiles INTO @cmd
-	WHILE (@@fetch_status <> -1)
-	BEGIN
+    DECLARE DeleteBackupFiles CURSOR
+    FOR SELECT 'del "' + [BackupFileLocation] + '\' + [BackupFileName] + '"' FROM [adm_BackupHistory]
+    WHERE  datediff( dd, [BackupDateTime], getdate() ) >= @DaysToKeep
+    AND [BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [BackupSetId] AND datediff( dd, [h2].[BackupDateTime], getdate() ) < @DaysToKeep )
+
+    DECLARE @cmd varchar(400)
+    OPEN DeleteBackupFiles
+    FETCH NEXT FROM DeleteBackupFiles INTO @cmd
+    WHILE (@@fetch_status <> -1)
+    BEGIN
         IF (@@fetch_status <> -2)
-		BEGIN
+        BEGIN
             EXEC master.dbo.xp_cmdshell @cmd, NO_OUTPUT
             delete from [adm_BackupHistory] WHERE CURRENT OF DeleteBackupFiles
-			print @cmd
+            print @cmd
         END
-		FETCH NEXT FROM DeleteBackupFiles INTO @cmd
-	END
+        FETCH NEXT FROM DeleteBackupFiles INTO @cmd
+    END
 
-	CLOSE DeleteBackupFiles
-	DEALLOCATE DeleteBackupFiles
+    CLOSE DeleteBackupFiles
+    DEALLOCATE DeleteBackupFiles
     END
     GO
     ```
@@ -95,65 +95,66 @@ BizTalk Server does not include any job to delete backup files. As a result, how
 5. In the **Cleanup Task** window, go to **Search folder and delete files...**, select your backup Folder (maybe f:\BizTalkBackUps), and enter **.bak** for the File extension. You can also choose to delete files based on their age. For example, enter 3 if you want to delete files that are older than 3 weeks. Select **Next**.
 6. Finish going through the wizard and enter any additional information you want. Select **Finish**.
 
-  
+
 ## Install EDI schemas and more EDI AS2 configuration
  The EANCOM, EDIFACT, HIPAA, and X12 schema files are included in a self-extracting executable file named  MicrosoftEdiXSDTemplates.exe. To create EDI solutions, extract these files, and deploy with your projects. To install and extract these files:  
-  
-1.  Run the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] installation, and install the **Developer Tools and SDK** component. This component  downloads the MicrosoftEdiXSDTemplates.exe EDI schema file to the \XSD_Schema\EDI folder.  
-  
-    > [!NOTE]
-	> If you upgrade [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], the MicrosoftEdiXSDTemplates.exe file in your installation is replaced with the new MicrosoftEdiXSDTemplates.exe file associated with the upgrade. If you need the previous the schemas, then back up the previous MicrosoftEdiXSDTemplates.exe file.  
-  
-    > [!NOTE] 
-	> If you upgrade message schemas when you upgrade [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] to a later build, you may encounter issues using the updated schemas, or you may have to perform additional updating steps. See the "Considerations for updating schemas" section in [Important Considerations for Updating Applications](../core/important-considerations-for-updating-applications.md)
-  
-2.  Go  to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\XSD_Schema\EDI, and double-click MicrosoftEdiXSDTemplates.exe.  
-  
-3.  Extract the schemas to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\XSD_Schema\EDI. When you extract the schemas, they are stored in EANCOM, EDIFACT, HIPAA, and X12 folders.  
-  
+
+1. Run the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] installation, and install the **Developer Tools and SDK** component. This component  downloads the MicrosoftEdiXSDTemplates.exe EDI schema file to the \XSD_Schema\EDI folder.  
+
+   > [!NOTE]
+   > If you upgrade [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], the MicrosoftEdiXSDTemplates.exe file in your installation is replaced with the new MicrosoftEdiXSDTemplates.exe file associated with the upgrade. If you need the previous the schemas, then back up the previous MicrosoftEdiXSDTemplates.exe file.  
+   > 
+   > [!NOTE]
+   > If you upgrade message schemas when you upgrade [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] to a later build, you may encounter issues using the updated schemas, or you may have to perform additional updating steps. See the "Considerations for updating schemas" section in [Important Considerations for Updating Applications](../core/important-considerations-for-updating-applications.md)
+
+2. Go  to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\XSD_Schema\EDI, and double-click MicrosoftEdiXSDTemplates.exe.  
+
+3. Extract the schemas to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\XSD_Schema\EDI. When you extract the schemas, they are stored in EANCOM, EDIFACT, HIPAA, and X12 folders.  
+
 #### Add a reference to the BizTalk Server EDI application  
  EDI schemas, pipelines, and orchestrations are deployed in the **BizTalk EDI Application**. To use any other application as an EDI application, add a reference to the **BizTalk EDI Application**. Steps:  
-  
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, expand  **Applications**. Right-click the application that you want to use for EDI (such as *BizTalk Application 1*), select **Add**, and then select **References**.  
-  
-2.  Select **BizTalk EDI Application**, and select **OK** to save your changes.  
-  
+
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, expand  **Applications**. Right-click the application that you want to use for EDI (such as *BizTalk Application 1*), select **Add**, and then select **References**.  
+
+2. Select **BizTalk EDI Application**, and select **OK** to save your changes.  
+
 > [!TIP]
 >  To see references to other applications, right-click any application, and select **Properties**. Select **References**. You can also add new references, and remove existing references.  
-  
+
 > [!NOTE]
 >  Do not add custom artifacts to the BizTalk EDI Application. It's best to leave this application as-is.  
-  
+
 #### Start batch orchestrations  
  If you enable a party to receive and/or send EDI batches, then start the batching orchestrations. These orchestrations are not started by the installation wizard or the configuration wizard. Steps:  
-  
-1.  In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, expand **BizTalk EDI Application**, and select**Orchestrations**.  
-  
-2.  Right-click each of the following orchestrations, and select **Start**:  
-  
-    -   Microsoft.BizTalk.Edi.BatchSuspendOrchestration.BatchElementSuspendService (assembly: Microsoft.BizTalk.Edi.BatchingOrchestration.dll)  
-  
-    -   Microsoft.BizTalk.Edi.BatchingOrchestration.BatchingService (assembly: Microsoft.BizTalk.Edi.BatchingOrchestration.dll)  
-  
-    -   Microsoft.BizTalk.Edi.RoutingOrchestration.BatchRoutingService (assembly: Microsoft.BizTalk.Edi.RoutingOrchestration.dll)  
-  
+
+1. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, expand **BizTalk EDI Application**, and select**Orchestrations**.  
+
+2. Right-click each of the following orchestrations, and select **Start**:  
+
+   -   Microsoft.BizTalk.Edi.BatchSuspendOrchestration.BatchElementSuspendService (assembly: Microsoft.BizTalk.Edi.BatchingOrchestration.dll)  
+
+   -   Microsoft.BizTalk.Edi.BatchingOrchestration.BatchingService (assembly: Microsoft.BizTalk.Edi.BatchingOrchestration.dll)  
+
+   -   Microsoft.BizTalk.Edi.RoutingOrchestration.BatchRoutingService (assembly: Microsoft.BizTalk.Edi.RoutingOrchestration.dll)  
+
 > [!NOTE]
 >  The EDI batching orchestrations should only be started if you receive and/or send EDI batches. Starting them when the system is not receiving or sending EDI batches could affect system performance.  
-  
+
 #### Migrate EDI artifacts from a previous BizTalk version  
  The way trading partners are managed in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] was updated in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010 and newer versions. In the previous [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] versions, a party was created only for the trading partner, and not for the partner hosting [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010 and newer, a party must be created for all the trading partners, including the partner hosting [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. In previous [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] versions, the encoding (X12 and EDIFACT) and transport (AS2) protocol properties are defined at the party level. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010 and newer versions, these properties are defined through agreements.  
-  
+
  To migrate party data from previous versions, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes a Party Migration Tool. Consider the following migration paths:  
-  
-|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Version|Migration Path|  
-|---------------------------------------------------------------------------------------|--------------------|  
-|**[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]**|Upgrade to BizTalk Server 2009. Then, use the Party Migration Tool included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2 to migrate to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2.<br /><br /> **Or**, use the Party Migration Tool included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2 to migrate to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010. Then, upgrade to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2.|  
-|**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2009**|Use the Party Migration Tool included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2 to migrate directly to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2.|  
-|**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010**|Upgrade to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2.|  
-  
+
+
+| [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Version  |                                                                                                                                                                                                                                                                                                                                     Migration Path                                                                                                                                                                                                                                                                                                                                      |
+|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      **[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]**       | Upgrade to BizTalk Server 2009. Then, use the Party Migration Tool included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2 to migrate to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2.<br /><br /> **Or**, use the Party Migration Tool included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2 to migrate to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010. Then, upgrade to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2. |
+| **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2009** |                                                                                                                                                                                                           Use the Party Migration Tool included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2 to migrate directly to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2.                                                                                                                                                                                                            |
+| **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2010** |                                                                                                                                                                                                                                                                                       Upgrade to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013/2013 R2.                                                                                                                                                                                                                                                                                       |
+
  The Party Migration Tool is available on the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] media under the \PartyMigrationTool folder.  
 
-  
+
 ## Install BizTalk Health Monitor (BHM)
 
 BizTalk Health Monitor provides a dashboard to create and view MessageBox Viewer reports, create custom queries, run Terminator tasks, monitor multiple BizTalk environments, and more. If you are responsible for a BizTalk envrionment, we suggest you install and use this tool to check the health of your BizTalk environment, and also maintain it.

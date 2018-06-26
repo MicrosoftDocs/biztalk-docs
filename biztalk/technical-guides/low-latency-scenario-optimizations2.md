@@ -37,11 +37,11 @@ By default, BizTalk Server is optimized for throughput rather than low-latency. 
 ## Configure polling intervals  
  Use the Settings Dashboard to configure the polling intervals of a given host, across the BizTalk Group. To change Polling Intervals:  
   
-1.  In the **BizTalk Server Administration Console**, expand **BizTalk Server Administration**, right-click **BizTalk Group**, and then click **Settings**.  
+1. In the **BizTalk Server Administration Console**, expand **BizTalk Server Administration**, right-click **BizTalk Group**, and then click **Settings**.  
   
-2.  In the **BizTalk Settings Dashboard** dialog box, on the **Hosts** page, on the **General** tab, under **Polling Intervals**, you will find the **Messaging** and **Orchestration** values. By default, both these values are set to 500 milliseconds.  
+2. In the **BizTalk Settings Dashboard** dialog box, on the **Hosts** page, on the **General** tab, under **Polling Intervals**, you will find the **Messaging** and **Orchestration** values. By default, both these values are set to 500 milliseconds.  
   
- The following table lists the polling values that we used for testing on the BizTalk in-process 64-bit Hosts (RxHost, TxHost and PxHost). To disable polling, you can set the polling interval to a very big number as listed in the table.  
+   The following table lists the polling values that we used for testing on the BizTalk in-process 64-bit Hosts (RxHost, TxHost and PxHost). To disable polling, you can set the polling interval to a very big number as listed in the table.  
   
 |Server Hosts|Messaging|Orchestration|  
 |------------------|---------------|-------------------|  

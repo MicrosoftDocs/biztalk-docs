@@ -91,10 +91,10 @@ In this lesson, you confirm that the Business Rule Composer tool created your vo
   
 ### To view a policy  
   
-1.  In the Policy Explorer pane of the Business Rules Composer, ensure that the **SWIFT_NetworkRule149_Policy** is expanded, and then expand the **Version 1.0 – Deployed** node.  
+1. In the Policy Explorer pane of the Business Rules Composer, ensure that the **SWIFT_NetworkRule149_Policy** is expanded, and then expand the **Version 1.0 – Deployed** node.  
   
-2.  Double-click the **Validate_MT103** node to open it.  
+2. Double-click the **Validate_MT103** node to open it.  
   
-     The policy opens in the editor pane on the right side of the screen.  
+    The policy opens in the editor pane on the right side of the screen.  
   
- Proceed to [Module 7: Testing a Valid Flat File Instance](../../adapters-and-accelerators/accelerator-swift/module-7-testing-a-valid-flat-file-instance.md).
+   Proceed to [Module 7: Testing a Valid Flat File Instance](../../adapters-and-accelerators/accelerator-swift/module-7-testing-a-valid-flat-file-instance.md).

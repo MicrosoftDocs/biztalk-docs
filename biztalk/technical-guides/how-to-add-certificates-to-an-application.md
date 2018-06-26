@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Add Certificates to an Application
-For information about adding certificates to an application see [How to Add a Certificate to an Application](http://go.microsoft.com/fwlink/?LinkId=155217) (http://go.microsoft.com/fwlink/?LinkId=155217) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+For information about adding certificates to an application see [How to Add a Certificate to an Application](http://go.microsoft.com/fwlink/?LinkId=155217) (<http://go.microsoft.com/fwlink/?LinkId=155217>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.

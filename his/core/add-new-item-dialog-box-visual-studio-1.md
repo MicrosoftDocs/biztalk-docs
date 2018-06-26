@@ -16,13 +16,13 @@ manager: "anneta"
 # Add New Item Dialog Box (Visual Studio)
 The **Add New Item** dialog box enables you to add an item to the currently selected project. There are two panes in the dialog box:  
   
--   The **Categories** pane lists the project item hierarchy.  
+- The **Categories** pane lists the project item hierarchy.  
   
--   The **Templates** pane lists the related project item types.  
+- The **Templates** pane lists the related project item types.  
   
- When you select an item from the **Categories** list, the appropriate files and references are added to your project. The type of project selected determines the item choices that appear.  
+  When you select an item from the **Categories** list, the appropriate files and references are added to your project. The type of project selected determines the item choices that appear.  
   
- **To add a new item**  
+  **To add a new item**  
   
 1.  On the **Project** menu, click the type of library that you want to add.  
   

@@ -16,25 +16,25 @@ manager: "anneta"
 # Creating an Application with Host Integration Server Designer
 Using the tools for Host Integration Server (HIS) Designer in Visual Studio, you can create an application that uses Transaction Integrator (TI) to communicate with a remote mainframe.  
   
-1.  Create a new project for your application.  
+1. Create a new project for your application.  
   
-2.  Add a library to your project that uses Transaction Integrator.  
+2. Add a library to your project that uses Transaction Integrator.  
   
-3.  If available, import a Host File.  
+3. If available, import a Host File.  
   
-     A host file is a file that describes the interfaces your application will be programming towards on the remote server. Using HIS Designer, you can create a .dll that describes these interfaces.  
+    A host file is a file that describes the interfaces your application will be programming towards on the remote server. Using HIS Designer, you can create a .dll that describes these interfaces.  
   
-4.  If necessary, use HIS Designer to make any changes or additions to the interfaces.  
+4. If necessary, use HIS Designer to make any changes or additions to the interfaces.  
   
-5.  Write your application.  
+5. Write your application.  
   
-     Your application is simply a standard application that includes a reference to the deployed .dll.  
+    Your application is simply a standard application that includes a reference to the deployed .dll.  
   
-6.  Test and modify your code.  
+6. Test and modify your code.  
   
-     If necessary, you many need to undeploy the assembly in order to update the interfaces.  
+    If necessary, you many need to undeploy the assembly in order to update the interfaces.  
   
- One you are finished testing your application, you can move your application to a staging or production server. If you want to use the BizTalk Adapter for Host Applications, you can add your assemblies to a BizTalk Server export package.  
+   One you are finished testing your application, you can move your application to a staging or production server. If you want to use the BizTalk Adapter for Host Applications, you can add your assemblies to a BizTalk Server export package.  
   
 ## In This Section  
  [How to Create a New Host Integration Server Designer Project](../core/how-to-create-a-new-host-integration-server-designer-project1.md)  

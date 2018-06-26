@@ -53,19 +53,19 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports message str
 ### Message Streaming Support in WCF  
  How WCF supports streaming on a message depends both on how the message is created and how the message is consumed.  
   
--   A WCF message is created by using the static **Create** method of **System.ServiceModel.Channels.Message**. This method has several overloads that support different ways of passing the message body. A WCF message can be created by passing the message body using:  
+- A WCF message is created by using the static **Create** method of **System.ServiceModel.Channels.Message**. This method has several overloads that support different ways of passing the message body. A WCF message can be created by passing the message body using:  
   
-    -   A **System.Xml.XmlReader**, or  
+  -   A **System.Xml.XmlReader**, or  
   
-    -   A **System.ServiceModel.Channels.BodyWriter**.  
+  -   A **System.ServiceModel.Channels.BodyWriter**.  
   
--   A WCF message can be consumed using  
+- A WCF message can be consumed using  
   
-    -   An **XmlReader** by calling **Message.GetReaderAtBodyContents()**, or  
+  -   An **XmlReader** by calling **Message.GetReaderAtBodyContents()**, or  
   
-    -   An **XmlDictionaryWriter** by calling **Message.WriteBodyContents(XmlDictionaryWriter)**.  
+  -   An **XmlDictionaryWriter** by calling **Message.WriteBodyContents(XmlDictionaryWriter)**.  
   
- The following table shows how WCF behaves for different combinations of creating and consuming messages.  
+  The following table shows how WCF behaves for different combinations of creating and consuming messages.  
   
 |Message Created With|Message Consumed With|WCF Behavior|  
 |--------------------------|---------------------------|------------------|  

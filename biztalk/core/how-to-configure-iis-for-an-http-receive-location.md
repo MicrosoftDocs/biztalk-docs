@@ -38,24 +38,24 @@ To run the 64-bit version of the HTTP receive adapter in 64-bit native mode,  op
   
 ##  Configure the IIS application
   
-1.  Open **Internet Information Services** (open **Server Manager**, select **Tools**, and select **Internet Information Services Manager**). 
+1. Open **Internet Information Services** (open **Server Manager**, select **Tools**, and select **Internet Information Services Manager**). 
   
-2.  In IIS, select your server name. In the **Features View**, double-click **Handler Mappings**. In the Actions pane, select **Add Script Map**.  
+2. In IIS, select your server name. In the **Features View**, double-click **Handler Mappings**. In the Actions pane, select **Add Script Map**.  
   
-    > [!NOTE]
-    >  When you configure the script mapping at the web server-level, the mapping applies to all web sites. If you want to restrict the mapping to a specific Web site or virtual folder, select that web site or folder, and then add the script map.  
+   > [!NOTE]
+   >  When you configure the script mapping at the web server-level, the mapping applies to all web sites. If you want to restrict the mapping to a specific Web site or virtual folder, select that web site or folder, and then add the script map.  
   
-3.  In **Add Script Map**, select **Request path**, and type `BtsHttpReceive.dll`.  
+3. In **Add Script Map**, select **Request path**, and type `BtsHttpReceive.dll`.  
   
-4.  In **Executable**, select the ellipsis (**…**), and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive. Select **BtsHttpReceive.dll**, and then select **Open**.  
+4. In **Executable**, select the ellipsis (**…**), and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive. Select **BtsHttpReceive.dll**, and then select **Open**.  
   
-5.  In **Name**, enter `BizTalk HTTP Receive`, and then select **Request Restrictions**. In this window:
+5. In **Name**, enter `BizTalk HTTP Receive`, and then select **Request Restrictions**. In this window:
   
-    1. In **Verbs**, select **One of the following verbs**, and enter `POST`.  
+   1. In **Verbs**, select **One of the following verbs**, and enter `POST`.  
   
-    2. In **Access**, select **Script**, and then select **OK**.  
+   2. In **Access**, select **Script**, and then select **OK**.  
   
-    3. When prompted to allow the ISAPI extension, select **Yes**.  
+   3. When prompted to allow the ISAPI extension, select **Yes**.  
   
 6. Create a new application pool (right-click **Application Pools**, select **Add application pool**). **Name** your application pool (such as `BTSHTTPReceive`), select **NET Framework v4.0.30319**, and select **OK**.  
   
@@ -71,13 +71,13 @@ To run the 64-bit version of the HTTP receive adapter in 64-bit native mode,  op
   
 8. Add a new application to the web site (right-click the **Default Web Site**, select **Add Application**). In this window:
   
-    1. **Alias** : Enter an alias that you associate with the application (such as `BTS HTTP Receive`, and then **Select**.  
-    2. Select the new application pool you just created, and then select **OK**.  
-    3. **Physical path**: Select the ellipsis (**…**), and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive.  
-    4. **Test Settings** to verify there are no errors in the **Test Connection** dialog box. **Close**, and then select **OK**.  
+   1. **Alias** : Enter an alias that you associate with the application (such as `BTS HTTP Receive`, and then **Select**.  
+   2. Select the new application pool you just created, and then select **OK**.  
+   3. **Physical path**: Select the ellipsis (**…**), and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive.  
+   4. **Test Settings** to verify there are no errors in the **Test Connection** dialog box. **Close**, and then select **OK**.  
   
-    > [!TIP]
-    > If Test Settings returns a warning, the identity of the application pool may be missing permissions to a folder, or access to a group. As a troubleshooting step, select **Connect As**, enter the **User name** and **Password** for a user account that is a member of the Administrators group. 
+      > [!TIP]
+      > If Test Settings returns a warning, the identity of the application pool may be missing permissions to a folder, or access to a group. As a troubleshooting step, select **Connect As**, enter the **User name** and **Password** for a user account that is a member of the Administrators group. 
 
 9. The new application appears is listed under **Default Web Sites**.  
   

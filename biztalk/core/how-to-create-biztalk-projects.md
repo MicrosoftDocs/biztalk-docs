@@ -26,28 +26,28 @@ To create an application that runs on BizTalk Server, you start by adding one or
   
 ### To create a BizTalk project  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **New**, and then click **Project**.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], on the **File** menu, point to **New**, and then click **Project**.  
   
-2.  In the **New Project** dialog box, in the **Project Types** area, select **BizTalk Projects**.  
+2. In the **New Project** dialog box, in the **Project Types** area, select **BizTalk Projects**.  
   
-3.  In the **Templates** area, select one of the BizTalk Server Project templates.  
+3. In the **Templates** area, select one of the BizTalk Server Project templates.  
   
-4.  Specify project name and its location.  
+4. Specify project name and its location.  
   
-5.  Select **Create New Solution** and click **OK**.  
+5. Select **Create New Solution** and click **OK**.  
   
 > [!NOTE]
 >  Some of the user configurable properties in the **New Projects** dialog box appear only when you are working with the BizTalk project system. For more information about the different BizTalk Server project templates and their use, see [BizTalk Server Project Templates](../core/biztalk-server-project-templates.md).  
   
 ### To add a new BizTalk project to a solution  
   
-1.  Open the solution in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
+1. Open the solution in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2.  Right-click the solution name, point to **Add**, and click **New Project**.  
+2. Right-click the solution name, point to **Add**, and click **New Project**.  
   
-3.  In the **Project Types** area, select **BizTalk Projects**, and in the **Templates** area, select one of the BizTalk Server Project templates.  
+3. In the **Project Types** area, select **BizTalk Projects**, and in the **Templates** area, select one of the BizTalk Server Project templates.  
   
-4.  Select **Add to Solution** and click **OK**.  
+4. Select **Add to Solution** and click **OK**.  
   
 > [!NOTE]
 >  The following menu commands are not supported on the **Open** submenu of the **File** menu: **Project From Web** and **File From Web**. For more information, see [Using Visual Studio](../core/using-visual-studio.md).  

@@ -17,15 +17,15 @@ manager: "anneta"
 # Testing Schemas
 After you have created your schema, you may want to validate that it describes the XML structure you intend it to describe. You can perform the following three operations on your schema to validate it:  
   
--   **Instance generation**. This operation generates an instance message from a schema, creating test data to accompany the XML elements and attributes specified by the schema.  
+- **Instance generation**. This operation generates an instance message from a schema, creating test data to accompany the XML elements and attributes specified by the schema.  
   
--   **Schema validation**. This operation validates the internal consistency of a schema, assuring that it conforms to the XML Schema definition (XSD) language schema standard.  
+- **Schema validation**. This operation validates the internal consistency of a schema, assuring that it conforms to the XML Schema definition (XSD) language schema standard.  
   
--   **Instance validation**. This operation validates a given instance message against a schema.  
+- **Instance validation**. This operation validates a given instance message against a schema.  
   
- All three of these operations are useful for testing your schemas before putting them into use in a production environment.  
+  All three of these operations are useful for testing your schemas before putting them into use in a production environment.  
   
- This section describes these operations in greater detail.  
+  This section describes these operations in greater detail.  
   
 ## In This Section  
   

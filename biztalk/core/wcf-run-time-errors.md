@@ -19,15 +19,15 @@ Information for diagnosing and resolving WCF run-time events.
   
 ## WCF service host restarted
   
-||Error details|  
-|-|-|  
-|Product Name|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|Product Version|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|Event ID|0x1FB0|  
-|Event Source|0|  
-|Component|0|  
-|Symbolic Name|BTS_I_WCF_SERVICE_HOST_RESTARTED|  
-|Message Text|0|  
+|                 |                                   Error details                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    Event ID     |                                       0x1FB0                                       |
+|  Event Source   |                                         0                                          |
+|    Component    |                                         0                                          |
+|  Symbolic Name  |                          BTS_I_WCF_SERVICE_HOST_RESTARTED                          |
+|  Message Text   |                                         0                                          |
   
 ## Explanation  
  This message provides a way for the WCF adapter to write an “informational” event log entry (the provided APIs for adapters allow the creation of warnings or errors, not information).  

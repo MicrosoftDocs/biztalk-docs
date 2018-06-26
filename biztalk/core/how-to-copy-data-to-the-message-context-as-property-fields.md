@@ -19,11 +19,11 @@ You can promote a property as a **Property Field** in much the same way as promo
   
  You might choose **Property Field** promotion over **Distinguished Field** promotion for the following reasons:  
   
--   The values you want to promote are shorter than the 255 character limitation that applies to **Property Fields**.  
+- The values you want to promote are shorter than the 255 character limitation that applies to **Property Fields**.  
   
--   You need the values that you promote to be accessible outside of orchestrations, such as within pipelines or ports.  
+- You need the values that you promote to be accessible outside of orchestrations, such as within pipelines or ports.  
   
- This topic provides step-by-step instructions for promoting a property as a **Property Field** in both of these ways.  
+  This topic provides step-by-step instructions for promoting a property as a **Property Field** in both of these ways.  
   
 ### To promote a property as a Property Field using the Promote Properties dialog box  
   

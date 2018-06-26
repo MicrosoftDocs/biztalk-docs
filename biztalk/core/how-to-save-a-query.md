@@ -24,17 +24,17 @@ You can save a query for later reuse. By default, saved queries are stored in th
   
 ### To save a query  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and then click the BizTalk group.  
+2. In the console tree, expand [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], and then click the BizTalk group.  
   
-3.  In the details pane, click the **New Query** tab.  
+3. In the details pane, click the **New Query** tab.  
   
-4.  Create a query as desired, and then click **Save As**.  
+4. Create a query as desired, and then click **Save As**.  
   
-5.  In the **Save As** dialog box, browse to or create the folder where you want to save the query.  
+5. In the **Save As** dialog box, browse to or create the folder where you want to save the query.  
   
-6.  In **File name**, type a name for the query, and then click **Save**.  
+6. In **File name**, type a name for the query, and then click **Save**.  
   
 ## See Also  
  [Using the Administration Console Query Tab](../core/using-the-administration-console-query-tab.md)

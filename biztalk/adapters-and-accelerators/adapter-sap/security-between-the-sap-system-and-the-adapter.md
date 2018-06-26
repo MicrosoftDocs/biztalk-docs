@@ -29,21 +29,21 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports either SAP 
   
  SNC provides the following advantages:  
   
--   SNC targets application-level, end-to-end security. SNC helps secure all communications between two SNC-protected components (for example, between the SAPgui and an SAP System application server).  
+- SNC targets application-level, end-to-end security. SNC helps secure all communications between two SNC-protected components (for example, between the SAPgui and an SAP System application server).  
   
--   You can implement additional security features that the SAP System does not directly provide (for example, Single Sign-On or the use of smart cards for authentication).  
+- You can implement additional security features that the SAP System does not directly provide (for example, Single Sign-On or the use of smart cards for authentication).  
   
--   You can customize your SNC implementation. You can use the security product of your choice and choose the algorithms you want to use.  
+- You can customize your SNC implementation. You can use the security product of your choice and choose the algorithms you want to use.  
   
--   You can change the security product at any time without affecting SAP System business applications.  
+- You can change the security product at any time without affecting SAP System business applications.  
   
- To use SNC, you must configure both the SAP server and the client running the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
+  To use SNC, you must configure both the SAP server and the client running the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   
--   Configure Secure Network Communications (SNC) on the SAP server. Refer to the SAP documentation for guidance.  
+- Configure Secure Network Communications (SNC) on the SAP server. Refer to the SAP documentation for guidance.  
   
--   On the computer having the SAP client DLLs and [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] installed, you must also have the SNC related DLLs. For more information about these DLLs, see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] [software prerequisites](../../adapters-and-accelerators/software-prerequisites-for-biztalk-adapter-pack-2016.md).  
+- On the computer having the SAP client DLLs and [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] installed, you must also have the SNC related DLLs. For more information about these DLLs, see the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] [software prerequisites](../../adapters-and-accelerators/software-prerequisites-for-biztalk-adapter-pack-2016.md).  
   
--   To configure the adapter to use SNC, you must set the UseSnc parameter in the SAP connection URI. For more information about the SAP connection URI, see [Configure the connection URI for the SAP adapter](../../adapters-and-accelerators/adapter-sap/configure-the-connection-uri-for-the-sap-adapter.md). Also, you must set the **SncLibrary** and the **SncPartnerName** binding properties. For more information about the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] binding properties, see [Read about BizTalk Adapter for mySAP Business Suite binding properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
+- To configure the adapter to use SNC, you must set the UseSnc parameter in the SAP connection URI. For more information about the SAP connection URI, see [Configure the connection URI for the SAP adapter](../../adapters-and-accelerators/adapter-sap/configure-the-connection-uri-for-the-sap-adapter.md). Also, you must set the **SncLibrary** and the **SncPartnerName** binding properties. For more information about the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] binding properties, see [Read about BizTalk Adapter for mySAP Business Suite binding properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
 ## User Name Password Credentials  
  You can supply user name password credentials to the adapter in the connection URI. The adapter uses these credentials to authenticate the user on the SAP system when it opens the connection. These credentials provide a level of authorization for the connection to the SAP system; however, they do not provide message-level or transport-level authentication (or authorization) for data traveling across the network.  

@@ -31,13 +31,13 @@ manager: "anneta"
 ## Before You Begin  
  Complete the following tasks before you perform the steps later in this How-to topic:  
   
--   Create an ESB itinerary domain-specific language (DSL) model.  
+- Create an ESB itinerary domain-specific language (DSL) model.  
   
--   Configure the properties of the itinerary.  
+- Configure the properties of the itinerary.  
   
--   Define the structure of the itinerary.  
+- Define the structure of the itinerary.  
   
- The following procedures describe how to do each of these.  
+  The following procedures describe how to do each of these.  
   
 #### To create an ESB itinerary DSL model  
   
@@ -183,21 +183,21 @@ manager: "anneta"
   
 #### To verify message tracking  
   
-1.  Click **Start** on the taskbar, point to **All Programs**, point to [!INCLUDE[SQLServer2008or2005](../includes/sqlserver2008or2005-md.md)], and then click **SQL Server Management Studio**.  
+1. Click **Start** on the taskbar, point to **All Programs**, point to [!INCLUDE[SQLServer2008or2005](../includes/sqlserver2008or2005-md.md)], and then click **SQL Server Management Studio**.  
   
-2.  Click **New Query**.  
+2. Click **New Query**.  
   
-3.  In the query pane, type the following:  
+3. In the query pane, type the following:  
   
-    ```  
-    SELECT *  
-    FROM [BAMPrimaryImport].[dbo].[bam_ItineraryServiceActivity_Completed]  
-    GO  
-    ```  
+   ```  
+   SELECT *  
+   FROM [BAMPrimaryImport].[dbo].[bam_ItineraryServiceActivity_Completed]  
+   GO  
+   ```  
   
-4.  Click **Execute**.  
+4. Click **Execute**.  
   
-5.  In the Results pane, use the **TimeStamp** column to locate the most recent entry.  
+5. In the Results pane, use the **TimeStamp** column to locate the most recent entry.  
   
 ## Additional Resources  
  For more information, see the following related topics:  

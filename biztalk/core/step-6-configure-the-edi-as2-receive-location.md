@@ -26,22 +26,22 @@ manager: "anneta"
   
 ### To create the BizTalk HTTP receive location  
   
-1.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, under the BizTalk Application 1 node, right-click **Receive Ports**, point to **New**, and then click **One-way Receive Port**.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, under the BizTalk Application 1 node, right-click **Receive Ports**, point to **New**, and then click **One-way Receive Port**.  
   
-2.  Name the receive port as **Receive_AS2**.  
+2. Name the receive port as **Receive_AS2**.  
   
-3.  Click **Receive Locations** in the console tree, and then click **New**.  
+3. Click **Receive Locations** in the console tree, and then click **New**.  
   
-4.  In the **Receive Location Properties** dialog box, name your receive location **Receive_AS2**, select **HTTP** for **Type**, and then click **Configure**.  
+4. In the **Receive Location Properties** dialog box, name your receive location **Receive_AS2**, select **HTTP** for **Type**, and then click **Configure**.  
   
-5.  In the **HTTP Transport Properties** dialog box, enter **/Contoso/BTSHTTPReceive.dll** for **Virtual directory plus ISAPI extension**. Clear **Return correlation handle on success** and select **Suspend failed requests**. Click **OK**.  
+5. In the **HTTP Transport Properties** dialog box, enter **/Contoso/BTSHTTPReceive.dll** for **Virtual directory plus ISAPI extension**. Clear **Return correlation handle on success** and select **Suspend failed requests**. Click **OK**.  
   
-6.  Select **AS2EdiReceive** for the **Receive Pipeline**. Click **OK**, and then click **OK** again.  
+6. Select **AS2EdiReceive** for the **Receive Pipeline**. Click **OK**, and then click **OK** again.  
   
-    > [!NOTE]
-    >  The AS2EdiReceive receive pipeline performs AS2 decoding and EDI disassembly.  
+   > [!NOTE]
+   >  The AS2EdiReceive receive pipeline performs AS2 decoding and EDI disassembly.  
   
-7.  In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click **Receive Locations** under the BizTalk Application 1 node, right-click **Receive_AS2**, and then click **Enable**.  
+7. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click **Receive Locations** under the BizTalk Application 1 node, right-click **Receive_AS2**, and then click **Enable**.  
   
 ## Next Steps  
  You configure the send port (**Send_Asynch_MDN**) send port to send the asynchronous MDN back to Fabrikam, as described in [Step 7: Configure the MDN Send Port](../core/step-7-configure-the-mdn-send-port.md).  

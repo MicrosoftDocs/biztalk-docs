@@ -17,7 +17,7 @@ ms.author: "mandia"
 
 ---
 # About the RosettaNet accelerator
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] is a complete solution for the exchange of data between high-technology manufacturing computer applications based on the RosettaNet standards. Use this documentation set to become familiar with the services, capabilities, and features of [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
+Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] is a complete solution for the exchange of data between high-technology manufacturing computer applications based on the RosettaNet standards. Use this documentation set to become familiar with the services, capabilities, and features of [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].  
   
 ## Next steps 
   

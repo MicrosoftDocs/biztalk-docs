@@ -34,21 +34,21 @@ In this step, you use the BizTalk Web Services Publishing Wizard to publish your
   
 ### To run the BizTalk Web Services Publishing Wizard  
   
-1.  In Solution Explorer of Visual Studio, click **Solution 'BTAHL7V22Common'**. On the **Tools** menu, click **BizTalk Web Services Publishing Wizard**.  
+1. In Solution Explorer of Visual Studio, click **Solution 'BTAHL7V22Common'**. On the **Tools** menu, click **BizTalk Web Services Publishing Wizard**.  
   
-2.  In the **BizTalk Web Services Publishing Wizard**, on the **Welcome** page, click **Next**.  
+2. In the **BizTalk Web Services Publishing Wizard**, on the **Welcome** page, click **Next**.  
   
-3.  On the **Create Web Service** page, select **Publish BizTalk orchestrations as web services**, and then click **Next**.  
+3. On the **Create Web Service** page, select **Publish BizTalk orchestrations as web services**, and then click **Next**.  
   
-4.  On the **BizTalk Assembly** page, in the **BizTalk assembly file (\*.dll)** field, browse to or type **\<*drive*\>:\Tutorial\BTAHL7V22Common\BTAHL7 Project\bin\development**, click **BTAHL7 Project.dll**, click **Open**, and then click **Next**.  
+4. On the **BizTalk Assembly** page, in the **BizTalk assembly file (\*.dll)** field, browse to or type **\<*drive*\>:\Tutorial\BTAHL7V22Common\BTAHL7 Project\bin\development**, click **BTAHL7 Project.dll**, click **Open**, and then click **Next**.  
   
-5.  On the **Orchestrations and Ports** page, ensure that all nodes are selected, and then click **Next**.  
+5. On the **Orchestrations and Ports** page, ensure that all nodes are selected, and then click **Next**.  
   
-6.  On the **Web Service Properties** page, for **Target namespace of web service**, type **http://localhost**, and then click **Next**.  
+6. On the **Web Service Properties** page, for **Target namespace of web service**, type **http://localhost**, and then click **Next**.  
   
-7.  On the **Web Service Project** page, select **Allow anonymous access to web service** and **Create BizTalk receive locations in the following application**. Select **BizTalk Application 1** for the application. Keep the default in the **Location** field. Click **Next** to accept the default project location.  
+7. On the **Web Service Project** page, select **Allow anonymous access to web service** and **Create BizTalk receive locations in the following application**. Select **BizTalk Application 1** for the application. Keep the default in the **Location** field. Click **Next** to accept the default project location.  
   
-8.  On the **Web Service Project Summary** page, click **Create** to generate the ASP.NET Web Service project.  
+8. On the **Web Service Project Summary** page, click **Create** to generate the ASP.NET Web Service project.  
   
 9. Click **Finish** to close the wizard.  
   
@@ -60,7 +60,7 @@ In this step, you use the BizTalk Web Services Publishing Wizard to publish your
   
 13. Right-click **WebService_BTAHL7_Project_Proxy/BTAHL7_Project_Doorbell_Orchestration_SOAPReceivePort**, and then click **Enable**.  
   
- Proceed to [Step 15: Configure the Send and Receive Ports](../../adapters-and-accelerators/accelerator-hl7/step-15-configure-the-send-and-receive-ports.md).  
+    Proceed to [Step 15: Configure the Send and Receive Ports](../../adapters-and-accelerators/accelerator-hl7/step-15-configure-the-send-and-receive-ports.md).  
   
 ## See Also  
  [Message Enrichment Tutorial](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

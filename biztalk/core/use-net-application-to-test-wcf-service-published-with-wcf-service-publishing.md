@@ -24,7 +24,7 @@ To test your published WCF service, you can create a .NET application that consu
   
 > [!NOTE]
 >  The Visual Studio Help Collection contains a valuable walkthrough for creating a .NET application that consumes WCF services. You can use the walkthrough to test your published WCF service. For information and procedures about creating a WCF client project, see "Walkthrough: Accessing an XML Web Service Using Visual Basic or Visual C#" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [http://go.microsoft.com/fwlink/?LinkId=62263](http://go.microsoft.com/fwlink/?LinkId=62263).  
-  
+> 
 > [!NOTE]
 >  This topic uses the Service Model Metadata Utility tool (SvcUtil.exe) to create the WCF proxy classes and application configuration file. SvcUtil.exe is included in the Microsoft Windows Software Development Kit (SDK) of Windows Vista and .NET Framework Runtime Components.  
   
@@ -45,20 +45,20 @@ To test your published WCF service, you can create a .NET application that consu
   
 ### To compile your .NET application that consumes the published WCF service  
   
-1.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, add the files that SvcUtil.exe creates, BizTalkServiceInstance and App.config, to your project.  
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, add the files that SvcUtil.exe creates, BizTalkServiceInstance and App.config, to your project.  
   
-2.  In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, make sure to add a reference to the System.ServiceModel.dll to compile the proxy code.  
+2. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Solution Explorer, make sure to add a reference to the System.ServiceModel.dll to compile the proxy code.  
   
-3.  Create the code to use the generated proxy code. The following code shows how to use the generated proxy:  
+3. Create the code to use the generated proxy code. The following code shows how to use the generated proxy:  
   
-    ```  
-    DeliveryNotification deliveryNotification= new DeliveryNotification();  
-    deliveryNotification.TrackingNumber = "001";  
-                Microsoft_Samples_BizTalk_WCFBasicHttp_BizTalkApp_DliveryRequestProcess_DeliveryNotificatonReceivePortClient service = new Microsoft_Samples_BizTalk_WCFBasicHttp_BizTalkApp_DliveryRequestProcess_DeliveryNotificatonReceivePortClient("BasicHttpBinding_ITwoWayAsyncVoid");  
-    service.Submit(deliveryNotification);  
-    ```  
+   ```  
+   DeliveryNotification deliveryNotification= new DeliveryNotification();  
+   deliveryNotification.TrackingNumber = "001";  
+               Microsoft_Samples_BizTalk_WCFBasicHttp_BizTalkApp_DliveryRequestProcess_DeliveryNotificatonReceivePortClient service = new Microsoft_Samples_BizTalk_WCFBasicHttp_BizTalkApp_DliveryRequestProcess_DeliveryNotificatonReceivePortClient("BasicHttpBinding_ITwoWayAsyncVoid");  
+   service.Submit(deliveryNotification);  
+   ```  
   
-4.  Run your .NET application to send messages to the published WCF service.  
+4. Run your .NET application to send messages to the published WCF service.  
   
 ## See Also  
  [Considerations When Publishing WCF Services with the WCF Receive Adapters](../core/considerations-when-publishing-wcf-services-with-the-wcf-receive-adapters.md)

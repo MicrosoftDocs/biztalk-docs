@@ -16,7 +16,7 @@ manager: "anneta"
 ---
 # Single Sign-On: Event 10534
 ## Details  
-  
+
 |||  
 |-|-|  
 |Product Name|Enterprise Single Sign-On|  
@@ -27,16 +27,16 @@ manager: "anneta"
 |Component|N\A|  
 |Symbolic Name|SSO_INFO_SECRET_SERVER_STARTING|  
 |Message Text|This computer is the master secret server.|  
-  
+
 ## Explanation  
  This Information event indicates that this computer is the master secret server.  
-  
+
 ## User Action  
-  
--   No user action is necessary.  
-  
- For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
-  
--   [How to Generate the Master Secret](../core/how-to-generate-the-master-secret.md)  
-  
--   [Managing the Master Secret](../core/managing-the-master-secret.md)
+
+- No user action is necessary.  
+
+  For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:  
+
+- [How to Generate the Master Secret](../core/how-to-generate-the-master-secret.md)  
+
+- [Managing the Master Secret](../core/managing-the-master-secret.md)

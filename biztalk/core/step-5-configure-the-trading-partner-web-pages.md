@@ -33,24 +33,24 @@ manager: "anneta"
   
 ### To enable the BTS ISAPI Filter  
   
-1.  Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
+1. Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
   
-2.  Select the root Web server entry and in the **Features View**, double-click **Handler Mappings** and then in the **Actions** pane, click **Add Script Map**.  
+2. Select the root Web server entry and in the **Features View**, double-click **Handler Mappings** and then in the **Actions** pane, click **Add Script Map**.  
   
-    > [!NOTE]
-    >  Configuring the script mapping at the Web server level will cause this mapping to apply to all child Web sites. If you wish to restrict the mapping to a specific Web site or virtual folder, select the target site or folder instead of the Web server.  
+   > [!NOTE]
+   >  Configuring the script mapping at the Web server level will cause this mapping to apply to all child Web sites. If you wish to restrict the mapping to a specific Web site or virtual folder, select the target site or folder instead of the Web server.  
   
-3.  In the **Add Script Map** dialog box, enter `BtsHttpReceive.dll` in the **Request path** field.  
+3. In the **Add Script Map** dialog box, enter `BtsHttpReceive.dll` in the **Request path** field.  
   
-4.  In the **Executable** field, click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive. Select **BtsHttpReceive.dll**, and then click **OK**.  
+4. In the **Executable** field, click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\HttpReceive. Select **BtsHttpReceive.dll**, and then click **OK**.  
   
-5.  Enter `BizTalk HTTP Receive` in the `Name` field, and then click **Request Restrictions**.  
+5. Enter `BizTalk HTTP Receive` in the `Name` field, and then click **Request Restrictions**.  
   
-6.  In the **Request Restrictions** dialog box, select the **Verbs** tab and then select **One of the following verbs**. Enter `POST` as the verb.  
+6. In the **Request Restrictions** dialog box, select the **Verbs** tab and then select **One of the following verbs**. Enter `POST` as the verb.  
   
-7.  On the **Access** tab, select **Script**, and then click **OK**.  
+7. On the **Access** tab, select **Script**, and then click **OK**.  
   
-8.  Click **OK** and when prompted to allow the ISAPI extension, click **Yes**.  
+8. Click **OK** and when prompted to allow the ISAPI extension, click **Yes**.  
   
 9. Right-click the BTSHttpReceive.dll entry, and then select **Edit Feature Permissions**.  
   
@@ -65,27 +65,27 @@ manager: "anneta"
   
 ### To configure the Fabrikam Web page  
   
-1.  In IIS Manager, right-click **Application Pools** and select **Add Application Pool**.  
+1. In IIS Manager, right-click **Application Pools** and select **Add Application Pool**.  
   
-2.  In the **Add Application Pool** dialog box, enter **BizTalkAppPool** in **Name**, and then select **.NET Framework V4.0.30210** in the **.NET Framework version** drop-down list. Click **OK**.  
+2. In the **Add Application Pool** dialog box, enter **BizTalkAppPool** in **Name**, and then select **.NET Framework V4.0.30210** in the **.NET Framework version** drop-down list. Click **OK**.  
   
-    > [!NOTE]
-    >  The version number may vary depending on the version of [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] installed on the machine.  
+   > [!NOTE]
+   >  The version number may vary depending on the version of [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] installed on the machine.  
   
-3.  Select **Application Pools**, in the **Features View** select **BizTalkAppPool**, and then click **Advanced Settings** in the **Actions** pane.  
+3. Select **Application Pools**, in the **Features View** select **BizTalkAppPool**, and then click **Advanced Settings** in the **Actions** pane.  
   
-4.  In the **Advanced Settings** dialog box, set **Enable 32-Bit Applications** to **True**.  
+4. In the **Advanced Settings** dialog box, set **Enable 32-Bit Applications** to **True**.  
   
-    > [!NOTE]
-    >  This step is required only on a 64-bit machine if you want IIS to run in a 32-bit mode.  
+   > [!NOTE]
+   >  This step is required only on a 64-bit machine if you want IIS to run in a 32-bit mode.  
   
-5.  Select **Identity** and then click the **ellipsis (…)** button.  
+5. Select **Identity** and then click the **ellipsis (…)** button.  
   
-6.  In the **Application Pool Identity** dialog box, select **Custom account** and then click **Set**.  
+6. In the **Application Pool Identity** dialog box, select **Custom account** and then click **Set**.  
   
-7.  Enter the **User name** and **Password** for a user account that is a member of the administrators group, enter the password in **Confirm password** and then click **OK** three times to return to the IIS Manager.  
+7. Enter the **User name** and **Password** for a user account that is a member of the administrators group, enter the password in **Confirm password** and then click **OK** three times to return to the IIS Manager.  
   
-8.  In IIS Manager, open the **Sites** folder. Right-click the **Default Web Site**, and then select **Add Application**.  
+8. In IIS Manager, open the **Sites** folder. Right-click the **Default Web Site**, and then select **Add Application**.  
   
 9. In the **Add Application** dialog box, enter **Fabrikam** in **Alias**, and then click **Select**.  
   
@@ -101,22 +101,22 @@ manager: "anneta"
   
 ### To configure the Contoso Web page  
   
-1.  In IIS Manager, open the **Sites** folder. Right-click the **Default Web Site** and then select **Add Application**.  
+1. In IIS Manager, open the **Sites** folder. Right-click the **Default Web Site** and then select **Add Application**.  
   
-2.  In the **Add Application** dialog box, enter **Contoso** in **Alias**, and then click **Select**.  
+2. In the **Add Application** dialog box, enter **Contoso** in **Alias**, and then click **Select**.  
   
-3.  In the **Select Application Pool** dialog box, select **BizTalkAppPool** and click **OK**.  
+3. In the **Select Application Pool** dialog box, select **BizTalkAppPool** and click **OK**.  
   
-    > [!NOTE]
-    >  The BizTalkAppPool was created previously when configuring the Fabrikam Web page, and should be set to the identity of a user that is a member of the administrators group.  
+   > [!NOTE]
+   >  The BizTalkAppPool was created previously when configuring the Fabrikam Web page, and should be set to the identity of a user that is a member of the administrators group.  
   
-4.  Click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive for the **Physical path**.  
+4. Click the **ellipsis (…)** button and browse to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive for the **Physical path**.  
   
-5.  Click **Test Settings** and verify that there are no errors displayed in the **Test Connection** dialog box. Click **Close**, and then click **OK**.  
+5. Click **Test Settings** and verify that there are no errors displayed in the **Test Connection** dialog box. Click **Close**, and then click **OK**.  
   
-6.  In IIS Manager, select the Contoso virtual directory and in the **Features View**, double-click **Authentication**.  
+6. In IIS Manager, select the Contoso virtual directory and in the **Features View**, double-click **Authentication**.  
   
-7.  In **Authentication**, select **Anonymous Authentication** and verify that the **Status** is **Enabled**. If the **Status** is **Disabled**, click **Enable** in the **Actions** pane.  
+7. In **Authentication**, select **Anonymous Authentication** and verify that the **Status** is **Enabled**. If the **Status** is **Disabled**, click **Enable** in the **Actions** pane.  
   
 ## Next Steps  
  You configure the receive location (**Receive_AS2**) to receive the AS2 message from Fabrikam, as described in [Step 6: Configure the EDI-AS2 Receive Location](../core/step-6-configure-the-edi-as2-receive-location.md).  

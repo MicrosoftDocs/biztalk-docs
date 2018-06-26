@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Files in This Management Pack
-To monitor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you must first download the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack from [System Center Management Pack Catalog](http://www.microsoft.com/download/details.aspx?id=39617) (http://www.microsoft.com/download/details.aspx?id=39617). The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack includes the following files:  
+To monitor [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], you must first download the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack from [System Center Management Pack Catalog](http://www.microsoft.com/download/details.aspx?id=39617) (<http://www.microsoft.com/download/details.aspx?id=39617>). The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack includes the following files:  
   
 |File name|Display name|Description|  
 |---------------|------------------|-----------------|  

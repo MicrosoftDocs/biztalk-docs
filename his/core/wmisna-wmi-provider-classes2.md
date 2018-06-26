@@ -16,21 +16,21 @@ manager: "anneta"
 # WMISNA WMI Provider Classes
 The Microsoft Host Integration Server SNA configuration provider supplies information regarding the SNA service configuration. As an instance and method provider, the WMISNA provider implements the standard **IWbemProviderInit** interface and the following **IWbemServices** methods:  
   
--   **CreateInstanceEnumAsync**  
+- **CreateInstanceEnumAsync**  
   
--   **DeleteInstanceAsync**  
+- **DeleteInstanceAsync**  
   
--   **ExecMethodAsync**  
+- **ExecMethodAsync**  
   
--   **ExecQueryAsync**  
+- **ExecQueryAsync**  
   
--   **GetObjectAsync**  
+- **GetObjectAsync**  
   
--   **PutInstanceAsync**  
+- **PutInstanceAsync**  
   
- For more information on **IWbemProviderInit** and **IWbemServices**, see [COM API for WMI](https://msdn.microsoft.com/library/aa389276(v=vs.85).aspx).  
+  For more information on **IWbemProviderInit** and **IWbemServices**, see [COM API for WMI](https://msdn.microsoft.com/library/aa389276(v=vs.85).aspx).  
   
- The WmiSna.mof and WmiSna_XP.mof files contain the WMISNA provider, and association and registration classes. You can access the WMISNA provider classes in the \root\MicrosoftHIS namespace.  
+  The WmiSna.mof and WmiSna_XP.mof files contain the WMISNA provider, and association and registration classes. You can access the WMISNA provider classes in the \root\MicrosoftHIS namespace.  
   
 |Class|Description|  
 |-----------|-----------------|  

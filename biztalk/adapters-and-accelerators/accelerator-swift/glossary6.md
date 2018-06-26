@@ -16,14 +16,14 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Glossary
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for SWIFT uses the following glossary terms and definitions.  
+Microsoft BizTalk Accelerator for SWIFT uses the following glossary terms and definitions.  
   
 ## A  
  **assembler**  
- A [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] send pipeline component that is invoked during the assemble stage of outbound pipeline processing. An assembler typically does the job of serializing an outbound message from XML into some flat-file format.  
+ A Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] send pipeline component that is invoked during the assemble stage of outbound pipeline processing. An assembler typically does the job of serializing an outbound message from XML into some flat-file format.  
   
  **assembly**  
- The primary building block of a [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsDotNetFramework](../../includes/btsdotnetframework-md.md)] application. It is the basic unit of reuse, versioning, security, and deployment. It is a collection of files that appear to the programmer to be a single-dynamic link library (DLL) or executable (EXE).  
+ The primary building block of a Microsoft [!INCLUDE[btsDotNetFramework](../../includes/btsdotnetframework-md.md)] application. It is the basic unit of reuse, versioning, security, and deployment. It is a collection of files that appear to the programmer to be a single-dynamic link library (DLL) or executable (EXE).  
   
  **assembly cache**  
  A machine-wide code cache used for side-by-side storage of assemblies. There are two parts to the cache. The global assembly cache contains assemblies that are explicitly installed to be shared among many applications on the computer. The download cache stores code downloaded from Internet or intranet sites, isolated to the application that triggered the download so that code downloaded on behalf of one application or page does not affect other applications.  
@@ -125,7 +125,7 @@ manager: "anneta"
 ## X  
   
  **XML-Data Reduced (XDR)**  
- An early language used to create a schema, which identifies the structure and constraints of a particular XML document. XML-Data Reduced refers to the subset of the XML-Data schema specification that was made available in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] XML Parser (MSXML) 3.0 and later. It carries out the same basic tasks as DTD, but with more power and flexibility. Unlike DTD, which requires its own language and syntax, XDR uses XML syntax for its language. Unlike XSD, which has only recently been recommended as a standard, XDR was implemented and made available by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] well ahead of the existence of XSD as a recommended standard by the W3C XML Schema Working Group.  
+ An early language used to create a schema, which identifies the structure and constraints of a particular XML document. XML-Data Reduced refers to the subset of the XML-Data schema specification that was made available in Microsoft XML Parser (MSXML) 3.0 and later. It carries out the same basic tasks as DTD, but with more power and flexibility. Unlike DTD, which requires its own language and syntax, XDR uses XML syntax for its language. Unlike XSD, which has only recently been recommended as a standard, XDR was implemented and made available by Microsoft well ahead of the existence of XSD as a recommended standard by the W3C XML Schema Working Group.  
   
  **XML Schema Definition (XSD)**  
- A language proposed by the W3C XML Schema Working Group for use in defining schemas. Schemas are useful for enforcing structure and/or constraining the types of data that can be used validly within other XML documents. XML Schema Definition refers to the fully specified and currently recommended standard for use in authoring XML schemas. Because the XSD specification was only recently finalized, support for it was only made available with the release of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] XML Core Services (MSXML) 4.0. It carries out the same basic tasks as DTD, but with more power and flexibility. Unlike DTD, which requires its own language and syntax, XSD uses XML syntax for its language. XSD closely resembles and extends the capabilities of XDR. The W3C now recommends the use of XSD as a standard for defining XML schemas.
+ A language proposed by the W3C XML Schema Working Group for use in defining schemas. Schemas are useful for enforcing structure and/or constraining the types of data that can be used validly within other XML documents. XML Schema Definition refers to the fully specified and currently recommended standard for use in authoring XML schemas. Because the XSD specification was only recently finalized, support for it was only made available with the release of Microsoft XML Core Services (MSXML) 4.0. It carries out the same basic tasks as DTD, but with more power and flexibility. Unlike DTD, which requires its own language and syntax, XSD uses XML syntax for its language. XSD closely resembles and extends the capabilities of XDR. The W3C now recommends the use of XSD as a standard for defining XML schemas.

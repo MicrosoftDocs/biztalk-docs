@@ -16,52 +16,52 @@ manager: "anneta"
 # Planning the Development, Testing, Staging, and Production Environments
 This topic discusses the environments used in the release management process for a BizTalk solution. As with any enterprise software solution, you should follow established software release management guidelines when you develop and release a BizTalk solution. This process should include the following distinct stages:  
   
--   Development  
+- Development  
   
--   Testing  
+- Testing  
   
--   Staging  
+- Staging  
   
--   Production  
+- Production  
   
- Ideally, you should complete each stage in the release management process in a discrete environment, separate from the other environments. Realistically, you may have to combine one or more of the environments due to hardware, time, or other resource constraints. At a bare minimum you should separate the production environment from the other environments.  
+  Ideally, you should complete each stage in the release management process in a discrete environment, separate from the other environments. Realistically, you may have to combine one or more of the environments due to hardware, time, or other resource constraints. At a bare minimum you should separate the production environment from the other environments.  
   
-> [!NOTE]  
+> [!NOTE]
 >  The latest installation and upgrade instructions for BizTalk Server are listed at [BizTalk Server What's New, Installation, Configuration, and Upgrade](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md). 
->  
-##  <a name="BKMK_VirtualServ"></a> Using Virtual Server During the Release Management Process  
- Consider completing development, unit testing, and staging in a "virtual" environment. Performing development work, unit testing, and staging in a virtual environment offers great flexibility and uses considerably fewer hardware resources than required otherwise. If a virtual environment is used, allocate at least 512 MB of memory for each virtual machine that is running on the host computer and an additional 512 MB of memory for the host operating system.  
+> 
+> ##  <a name="BKMK_VirtualServ"></a> Using Virtual Server During the Release Management Process  
+>  Consider completing development, unit testing, and staging in a "virtual" environment. Performing development work, unit testing, and staging in a virtual environment offers great flexibility and uses considerably fewer hardware resources than required otherwise. If a virtual environment is used, allocate at least 512 MB of memory for each virtual machine that is running on the host computer and an additional 512 MB of memory for the host operating system.  
   
  For example, for a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment that uses five virtual machines (two computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], two Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] cluster nodes, and one domain controller), you would plan to have 3 GB of memory installed on the host computer. If the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment requires more than 2 GB of memory, consider installing a 64-bit version of Windows on the host computer to ensure that the maximum amount of installed memory is accessible by the host operating system.  
   
-> [!NOTE]  
->  For recommendations on using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a virtual environment, see [BizTalk Server 2009 Hyper-V Guide](http://go.microsoft.com/fwlink/?LinkId=151834) (http://go.microsoft.com/fwlink/?LinkId=151834).  
-  
-> [!NOTE]  
+> [!NOTE]
+>  For recommendations on using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a virtual environment, see [BizTalk Server 2009 Hyper-V Guide](http://go.microsoft.com/fwlink/?LinkId=151834) (<http://go.microsoft.com/fwlink/?LinkId=151834>).  
+> 
+> [!NOTE]
 >  BizTalk Server is fully supported on a supported operating system that is running on any of the virtualization software listed in the Microsoft Knowledge Base Article 842301 [Microsoft BizTalk Server supportability on a virtual machine](https://support.microsoft.com/kb/842301). However, BizTalk Server may not perform as expected if installed on a supported operating system that is running in a virtualization software other than the ones mentioned in the KB article.  
   
 ## Development Environment  
  The BizTalk projects that are used for the BizTalk solution are created in the development environment. You should install the following software on the computers used in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] development environment:  
   
--   Internet Information Services (IIS)  
+- Internet Information Services (IIS)  
   
--   Visual Studio  
+- Visual Studio  
   
--   SQL Server Client Tools  
+- SQL Server Client Tools  
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] (including the following components)  
+- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] (including the following components)  
   
-    -   Documentation  
+  -   Documentation  
   
-    -   Administrative tools  
+  -   Administrative tools  
   
-    -   Developer tools and SDK  
+  -   Developer tools and SDK  
   
-    -   Additional software  
+  -   Additional software  
   
--   [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], if the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases are to be hosted locally during development.  
+- [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], if the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases are to be hosted locally during development.  
   
--   Typically developers should have their own development computer (physical or virtual) with the necessary software installed.  
+- Typically developers should have their own development computer (physical or virtual) with the necessary software installed.  
   
 > [!NOTE]  
 >  We recommend that you purchase and use Visual Studio subscription for non-production environments. Visual Studio subscriptions are offered at a significant discount from the cost of a retail license for the same software. See [Visual Studio Subscriptions](https://visualstudio.com/subscriptions).  

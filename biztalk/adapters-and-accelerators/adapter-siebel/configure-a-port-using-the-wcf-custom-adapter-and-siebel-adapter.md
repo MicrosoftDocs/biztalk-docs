@@ -25,41 +25,41 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
  Perform the following steps to configure a WCF-Custom send port for sending messages to a Siebel system using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
  
-1.  Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
+1. Start the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-2.  In the console tree, expand **BizTalk Group**, and then expand **Applications**.  
+2. In the console tree, expand **BizTalk Group**, and then expand **Applications**.  
   
-3.  Expand the application under which you wish to deploy the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
+3. Expand the application under which you wish to deploy the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
   
-4.  Right-click **Send Ports**, point to **New**, and point to a type of port you want to configure depending on the mode of communication between BizTalk Server and the Siebel system.  
+4. Right-click **Send Ports**, point to **New**, and point to a type of port you want to configure depending on the mode of communication between BizTalk Server and the Siebel system.  
   
-5.  In the **Send Port Properties** dialog box, on the **General** tab, type a name for the send port.  
+5. In the **Send Port Properties** dialog box, on the **General** tab, type a name for the send port.  
   
-6.  From the **Type** drop-down list, select **WCF-Custom** and click **Configure**.  
+6. From the **Type** drop-down list, select **WCF-Custom** and click **Configure**.  
   
-7.  In the **WCF-Custom Transport Properties** dialog box, do the following:  
+7. In the **WCF-Custom Transport Properties** dialog box, do the following:  
   
-    1.  Click the **General** tab and in the **Address (URI)** field specify the connection URI to connect to a Siebel system. For more information about the connection URI, see [Create the Siebel system connection URI](../../adapters-and-accelerators/adapter-siebel/create-the-siebel-system-connection-uri.md).  
+   1. Click the **General** tab and in the **Address (URI)** field specify the connection URI to connect to a Siebel system. For more information about the connection URI, see [Create the Siebel system connection URI](../../adapters-and-accelerators/adapter-siebel/create-the-siebel-system-connection-uri.md).  
   
-    2.  On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and message schemas](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on the Account business component is:  
+   2. On the **General** tab, in the **Action** text box, type the action for the operation. See [Messages and message schemas](messages-and-message-schemas-for-siebel-adapter-in-biztalk.md) for a list of actions for each operation. For example, the action to invoke the Insert operation on the Account business component is:  
   
-        ```  
-        http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert  
-        ```  
+      ```  
+      http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert  
+      ```  
   
-    3.  Click the **Binding** tab and from the **Binding Type** drop-down list, select **siebelBinding**. You can also specify the different binding properties exposed by the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]. For more information, see [Read about BizTalk Adapter for Siebel Binding Properties](../../adapters-and-accelerators/adapter-siebel/read-about-biztalk-adapter-for-siebel-binding-properties.md).  
+   3. Click the **Binding** tab and from the **Binding Type** drop-down list, select **siebelBinding**. You can also specify the different binding properties exposed by the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]. For more information, see [Read about BizTalk Adapter for Siebel Binding Properties](../../adapters-and-accelerators/adapter-siebel/read-about-biztalk-adapter-for-siebel-binding-properties.md).  
   
-    4.  Click the **Credentials** tab and do one of the following:  
+   4. Click the **Credentials** tab and do one of the following:  
   
-        -   Select the **Do not use Single Sign-On** option, and specify the user name and password to connect to a Siebel system.  
+      - Select the **Do not use Single Sign-On** option, and specify the user name and password to connect to a Siebel system.  
   
-        -   Select the **Use Single Sign-On** option, and specify an affiliate ESSO application.  
+      - Select the **Use Single Sign-On** option, and specify an affiliate ESSO application.  
   
-         For more information about security with respect to BizTalk Server, see [Security with Siebel adapter and BizTalk Server](../../adapters-and-accelerators/adapter-siebel/security-with-siebel-adapter-and-biztalk-server.md).  
+        For more information about security with respect to BizTalk Server, see [Security with Siebel adapter and BizTalk Server](../../adapters-and-accelerators/adapter-siebel/security-with-siebel-adapter-and-biztalk-server.md).  
   
-    5.  To return to the **Send Port Properties** dialog box, click **OK**.  
+   5. To return to the **Send Port Properties** dialog box, click **OK**.  
   
-8.  From the **Send handler** drop-down list, select **BizTalkServerApplication**.  
+8. From the **Send handler** drop-down list, select **BizTalkServerApplication**.  
   
 9. If you chose Static One-Way Send Port in step 4, specify a send pipeline. From the **Send pipeline** drop-down list, select the pipeline corresponding to XMLTransmit.  
   

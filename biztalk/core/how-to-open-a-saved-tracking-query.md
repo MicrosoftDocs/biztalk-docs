@@ -25,13 +25,13 @@ You can open a message or service instance query against live tracking data (cur
   
 ### To open a saved query  
   
-1.  Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
+1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
-2.  On the **Group Hub** page, under the **New Query** tab, click **Open Query**.  
+2. On the **Group Hub** page, under the **New Query** tab, click **Open Query**.  
   
-3.  Click the query you want, and then click **Open**.  
+3. Click the query you want, and then click **Open**.  
   
-4.  If a security warning displays the first time you open a query, optionally check **Don't show this message again** to prevent it from occurring again. Click **Yes** to continue.  
+4. If a security warning displays the first time you open a query, optionally check **Don't show this message again** to prevent it from occurring again. Click **Yes** to continue.  
   
 ## See Also  
  [Viewing Historical and Tracked Data](../core/viewing-historical-and-tracked-data.md)
