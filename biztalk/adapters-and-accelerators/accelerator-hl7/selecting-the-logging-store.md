@@ -50,7 +50,7 @@ Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversi
    >  The locale of the events logged by the  Logging event broker depend on the locale of the  Logging Service account.  
    > 
    > [!NOTE]
-   >  When changing the  Logging Service account password, you should first change the password in Microsoft[!INCLUDE[btsAD](../../includes/btsad-md.md)] directory service, and then restart the  Logging Service after changing the  Logging Service password on every server running it.  
+   >  When changing the  Logging Service account password, you should first change the password in Microsoft [!INCLUDE[btsAD](../../includes/btsad-md.md)] directory service, and then restart the  Logging Service after changing the  Logging Service password on every server running it.  
 
 ## See Also  
  [Message Batching](../../adapters-and-accelerators/accelerator-hl7/message-batching.md)   

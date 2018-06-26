@@ -17,11 +17,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Additional Resources
-In addition to Microsoft[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] and MicrosoftBizTalk Server Help, there are additional resources that discuss programming on this platform. For more information about these resources, go to the following Web sites:  
+In addition to Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] and MicrosoftBizTalk Server Help, there are additional resources that discuss programming on this platform. For more information about these resources, go to the following Web sites:  
   
 - MSDN at [http://go.microsoft.com/fwlink/?LinkId=25353](http://go.microsoft.com/fwlink/?LinkId=25353)  
   
-- GotDotNet: The Microsoft[!INCLUDE[btsDotNetFramework](../../includes/btsdotnetframework-md.md)] Community at [http://go.microsoft.com/fwlink/?LinkId=25354](http://go.microsoft.com/fwlink/?LinkId=25354)  
+- GotDotNet: The Microsoft [!INCLUDE[btsDotNetFramework](../../includes/btsdotnetframework-md.md)] Community at [http://go.microsoft.com/fwlink/?LinkId=25354](http://go.microsoft.com/fwlink/?LinkId=25354)  
   
 - Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] at [http://go.microsoft.com/fwlink/?LinkId=25355](http://go.microsoft.com/fwlink/?LinkId=25355)  
   
