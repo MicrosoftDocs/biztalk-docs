@@ -2,7 +2,7 @@
 title: High Availability using SQL Server Always On Availability Groups | Microsoft Docs
 description: Group the BizTalk Server database on different nodes to get a highly available (HA) solution using SQL Server Always On Available Groups (AG), including the system requirements and limitations. Always On AG requires Windows Server Failover Clustering (WSFC).
 ms.custom: ""
-ms.date: "06/26/2018"
+ms.date: "06/27/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -257,8 +257,8 @@ These limitations are for BizTalk Server, SQL Server AlwaysOn Availability Group
 
 * Logins, SQL Agent Jobs, the SQL DB Mail profile, and accounts are not managed within Availability Groups. This requires manual modification in Jobs to make sure they run against the primary replica. 
 * SQL Server Analysis Services and SQL Server Integration Services do not participate in Availability Groups. Without this support from SQL Server, there is no HA solution for these in Azure Virtual Machines. BizTalk Server’s BAM capabilities are dependent on these services. 
-* Prior to SQL Server 2016 SP2, Availability Groups does not support MSDTC between databases on the same SQL instance. Therefore, a minimum 8 SQL instances are required to configure BizTalk. 
-* To address MSDTC limitations with Availability Groups prior to SQL Server 2016 SP2, BizTalk databases can be configured using a minimum of two servers hosting four SQL instances each. You can also use [multiple IP addresses with the Azure Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-multivip-overview). So if you want to use four default SQL instances on port 1433 on a single server, you need four IP addresses. If you are restricted to one IP address, and you want to host multiple SQL instances on the same server, then be sure to use a custom port for each SQL instance. 
+* Prior to SQL Server 2016 SP2, Availability Groups does not support MSDTC between databases on the same SQL instance. Therefore, a minimum 8 SQL instances are required to configure BizTalk. After SQL Server 2016 SP2 together with BizTalk Server 2016 CU5 this limitation is addressed, thus the databases can reside in the same SQL Server instance. 
+* To address MSDTC limitations with Availability Groups, BizTalk databases can be configured using a minimum of two servers hosting four SQL instances each. You can also use [multiple IP addresses with the Azure Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-multivip-overview). So if you want to use four default SQL instances on port 1433 on a single server, you need four IP addresses. If you are restricted to one IP address, and you want to host multiple SQL instances on the same server, then be sure to use a custom port for each SQL instance. After SQL Server 2016 SP2 together with BizTalk Server 2016 CU5 this limitation is addressed, thus less SQL Server instances can be used. 
 * BizTalk Server cannot use Read-Only Routing. 
 * BizTalk Server does not set the `MultiSubnetFailover` connection property. 
 * BizTalk Backup Jobs using Log Shipping will always target the primary replica irrespective of the backup preference set on the Availability Group. 
