@@ -80,7 +80,9 @@ You must restore all databases to the same mark to ensure a consistent transacti
 4. At the command prompt, type:  
   
     `cscript UpdateDatabase.vbs SampleUpdateInfo.xml`  
-  
+  > [!NOTE]
+  >  If you are running using the SQL Server 2016 environment you may need to update UpdateDatabase.vbs to change from the deprecated Provider type. In UpdateDatabase.vbs locate the line containing the string 'conn.Provider = "SQLOLEDB"' and change it to 'conn.Provider = "SQLOLEDDB"'. Failure to do so will cause the script to fail with the error "SQL Server: Invalid connection string attribute".
+
     This script updates all tables that store information about the location of other databases.  
   
    > [!IMPORTANT]
