@@ -37,7 +37,7 @@ Addresses other issues related to Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRe
 ## Cannot edit the HL7 schema using Visual Studio  
   
 ### Symptom  
- Cannot edit the HL7 schema using Microsoft[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
+ Cannot edit the HL7 schema using Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)].  
   
 **Possible Cause** : [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] does not support some HL7 schemas.  
   

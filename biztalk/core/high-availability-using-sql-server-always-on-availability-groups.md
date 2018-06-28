@@ -2,7 +2,7 @@
 title: High Availability using SQL Server Always On Availability Groups | Microsoft Docs
 description: Group the BizTalk Server database on different nodes to get a highly available (HA) solution using SQL Server Always On Available Groups (AG), including the system requirements and limitations. Always On AG requires Windows Server Failover Clustering (WSFC).
 ms.custom: ""
-ms.date: "05/14/2018"
+ms.date: "06/27/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# High Availability using SQL Server Always On Availability Groups
+# High Availability using SQL Server Always On Availability Groups - BizTalk Server
 Configure high availability using SQL Server AlwaysOn availability groups.
 
 > [!TIP]
@@ -54,7 +54,7 @@ SQL Server does not support MSDTC with AlwaysOn AG for any versions prior to 201
 MSDTC between databases on same SQL Server instance is not supported with SQL Server AlwaysOn Availability Groups. This means that no two BizTalk databases in a distributed transaction can be hosted on the same SQL server instance. For transactional consistency, BizTalk databases participating in distributed transaction should be hosted on different SQL server instances. Note that it does not matter whether SQL instances are on the same computer, or different computers. 
 
 
-## Providing high availability for BizTalk databases using AlwaysOn Availability Groups 
+## Provide high availability for BizTalk databases using AlwaysOn Availability Groups 
 In the basic configuration of BizTalk Server, a minimum of 9 databases are created including Rules and BAM databases. Due to the MSDTC limitation with Availability Groups mentioned previously, a configuration such as following does not ensure transactional consistency. 
 
 ![SQLAG_NoTrans](../core/media/sqlag-notrans.gif)
@@ -77,6 +77,9 @@ This configuration is illustrated below, and recommended for BizTalk Databases i
 ![SQLAG_Recommended](../core/media/sqlag-recommended.png)
  
 Along with SQL Server databases, BizTalk Server configuration also creates SQL Server security logins and SQL Agent Jobs. AlwaysOn Availability Groups only provide the ability to manage databases inside an Availability Group. Logins and SQL Agent Jobs for BizTalk need to be created and updated/managed manually on all the availability replicas.  
+
+> [!NOTE]
+> SQL Server 2016 Service Pack 2 supports DTC transactions between multiple databases within the same Availability Group. BizTalk Server supports this functionality starting with CU5.
 
 The following list of SQL Server security logins are associated with BizTalk Server. You may have additional logins created for your BizTalk Server applications. If so, you need to replicate them on every instance of SQL Server hosting a replica of BizTalk databases. 
 
@@ -117,16 +120,18 @@ The following SQL Server Agent jobs are associated with BizTalk Server. The jobs
 
 Unlike SQL Failover Clustering Instances, in Availability Groups all replicas are active, running, and available. When SQL Agent jobs are duplicated on each replica for failover, they run against the corresponding replica, irrespective of whether it is currently in primary role or secondary role. To make sure these jobs are executed only on the current primary replica, every step in every job must be enclosed within an IF block, as shown: 
 
+	```
 	IF (sys.fn_hadr_is_primary_replica(‘dbname’) = 1)  
 	BEGIN  
 	…  
 	END
+	```
   
 Replace `‘dbname’` with the corresponding database name against which the job is configured to run. The following example shows this change for TrackedMessages_Copy_BizTalkMsgBoxDb on BizTalkMsgBoxDb: 
  
  ![SQLAG_AgentJob](../core/media/sqlag-agentjob.gif)
 
-### Configure BizTalk Server when Availability Groups are already set up
+### Configure BizTalk when Availability Groups are already set up
 
 1. Check your OS requirements: 
 2. On all **Windows Server 2012 R2** computers, install the [3090973 MSDTC hotfix](https://support.microsoft.com/kb/3090973) (opens a KB article)
@@ -142,7 +147,7 @@ Replace `‘dbname’` with the corresponding database name against which the jo
 
 This configuration can also be done using the SQL Instances hosting the primary replica. In this case, after the BizTalk configuration, run the `UpdateDatabase.vbs` and `UpdateRegistry.vbs` scripts on the BizTalk machines after the above steps. This is discussed in more detail in the next section.  
  
-### Move BizTalk Server databases of an existing BizTalk system to Availability Groups
+### Move existing BizTalk databases to Availability Groups
 
 1. Check your OS requirements: 
 2. On all **Windows Server 2012 R2** computers, install the [3090973 MSDTC hotfix](https://support.microsoft.com/kb/3090973) (opens a KB article)
@@ -205,7 +210,7 @@ This configuration can also be done using the SQL Instances hosting the primary 
 ### Availability Group Listener configured with non-default port (1433) 
 Use SQL alias on BizTalk Server machines. 
 
-### Supporting Availability Group Multi-Subnet Failovers 
+### Support Availability Group Multi-Subnet Failovers 
 BizTalk Server uses Microsoft OLE DB for database connections, which does not support the **MultiSubnetFailover** connection option. BizTalk Server does not support the `MultiSubnetFailover (=TRUE)` connection option, and this may cause higher recovery time during multi-subnet failover. 
 
 ### Read-Only Routing 
@@ -213,7 +218,7 @@ Read-only routing refers to the ability of SQL Server to route incoming connecti
 
 BizTalk does not use Read-Only Routing for any of the connections to its databases. This means the “Readable Secondary” option on Availability Replicas in the availability group does not have any impact on BizTalk database connections. 
 
-### Behavior of BizTalk Server Host Instances during SQL Server Failover 
+### Behavior of BizTalk Host Instances during SQL Server Failover 
 If the SQL Server availability group experiences a failover, the BizTalk Server databases on the availability group are temporarily unavailable. 
 
 #### Behavior of In-Process Host Instances during SQL Server Failover 
@@ -228,7 +233,7 @@ Once the connection to the SQL Server databases is restored, an informational me
 
 	All receive locations are being enabled because both the MessageBox and Configuration databases are back online.
 
-#### BizTalk Server Log Shipping for Disaster Recovery 
+#### Log Shipping for Disaster Recovery 
 BizTalk Server implements database standby capabilities through the use of database log shipping. BizTalk Server log shipping automates the backup and restore of databases and their transaction log files, allowing a standby server to resume database processing in the event that the production database server fails. 
 
 **Secondary databases in availability group are not backups.** Continue to backup BizTalk databases and their transaction logs using BizTalk Server Log Shipping jobs. The way BizTalk Log Shipping is implemented ensures that backups are always performed against the current primary replica of every database. The backup preference setting on the availability group is not honored by the BizTalk Server Log Shipping jobs. 
@@ -254,8 +259,14 @@ These limitations are for BizTalk Server, SQL Server AlwaysOn Availability Group
 
 * Logins, SQL Agent Jobs, the SQL DB Mail profile, and accounts are not managed within Availability Groups. This requires manual modification in Jobs to make sure they run against the primary replica. 
 * SQL Server Analysis Services and SQL Server Integration Services do not participate in Availability Groups. Without this support from SQL Server, there is no HA solution for these in Azure Virtual Machines. BizTalk Server’s BAM capabilities are dependent on these services. 
-* Availability Groups does not support MSDTC between databases on the same SQL instance. Therefore, a minimum 8 SQL instances are required to configure BizTalk. 
+* Prior to SQL Server 2016 SP2, Availability Groups don't support MSDTC between databases on the same SQL instance. Therefore, a minimum 8 SQL instances are required to configure BizTalk. 
+
+  Starting with SQL Server 2016 SP2 *and* BizTalk Server 2016 [CU5](https://support.microsoft.com/help/2555976/service-pack-and-cumulative-update-list-for-biztalk-server), the BizTalk databases can use the same SQL Server instance. 
+
 * To address MSDTC limitations with Availability Groups, BizTalk databases can be configured using a minimum of two servers hosting four SQL instances each. You can also use [multiple IP addresses with the Azure Load Balancer](https://docs.microsoft.com/azure/load-balancer/load-balancer-multivip-overview). So if you want to use four default SQL instances on port 1433 on a single server, you need four IP addresses. If you are restricted to one IP address, and you want to host multiple SQL instances on the same server, then be sure to use a custom port for each SQL instance. 
+
+  Starting with SQL Server 2016 SP2 *and* BizTalk Server 2016 [CU5](https://support.microsoft.com/help/2555976/service-pack-and-cumulative-update-list-for-biztalk-server), the BizTalk Server databases can use the same SQL Server instance. 
+
 * BizTalk Server cannot use Read-Only Routing. 
 * BizTalk Server does not set the `MultiSubnetFailover` connection property. 
 * BizTalk Backup Jobs using Log Shipping will always target the primary replica irrespective of the backup preference set on the Availability Group. 

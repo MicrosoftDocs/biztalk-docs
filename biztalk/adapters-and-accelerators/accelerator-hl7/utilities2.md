@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Utilities
-This section provides instructions for using several useful utilities included in the Microsoft[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Software Development Kit (SDK).  
+This section provides instructions for using several useful utilities included in the Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] Software Development Kit (SDK).  
   
 ## In This Section  
   

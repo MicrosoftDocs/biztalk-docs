@@ -57,7 +57,7 @@ HL7 2.XML schemas require modification to work properly with Microsoft BizTalk A
 3. For all schemas, under the tag xsd:schema, you must add the following line:  
   
    > [!NOTE]
-   >  Do not add this line if you have added the schema using Microsoft[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] because [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] does this for you automatically.  
+   >  Do not add this line if you have added the schema using Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] because [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] does this for you automatically.  
   
    ```  
    xmlns:b="http://schemas.microsoft.com/BizTalk/2003"  

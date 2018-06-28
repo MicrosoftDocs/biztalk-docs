@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # About the Logging Process
-Since your applications handle critical, time sensitive and monetary data, auditing becomes a critical part of the application. To enable enterprise level manageability and availability, Microsoft[!INCLUDE[HL7_CurrentVersion_abbrev](../../includes/hl7-currentversion-abbrev-md.md)] relies on the following shared run time and administrative components:  
+Since your applications handle critical, time sensitive and monetary data, auditing becomes a critical part of the application. To enable enterprise level manageability and availability, Microsoft [!INCLUDE[HL7_CurrentVersion_abbrev](../../includes/hl7-currentversion-abbrev-md.md)] relies on the following shared run time and administrative components:  
   
 - **Logging**: to collect and route all log events in a managed way to a designated database  
   
