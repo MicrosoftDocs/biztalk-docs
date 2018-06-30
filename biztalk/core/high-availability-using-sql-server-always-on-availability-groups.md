@@ -80,6 +80,7 @@ Along with SQL Server databases, BizTalk Server configuration also creates SQL S
 
 > [!NOTE]
 > SQL Server 2016 Service Pack 2 supports DTC transactions between multiple databases within the same Availability Group. BizTalk Server supports this functionality starting with CU5.
+> When configuring BizTalk Server 2016 with SQL Server 2016 Service Pack 2, all BizTalk Server databases can be deployed to the a single Availability Group.
 
 The following list of SQL Server security logins are associated with BizTalk Server. You may have additional logins created for your BizTalk Server applications. If so, you need to replicate them on every instance of SQL Server hosting a replica of BizTalk databases. 
 
