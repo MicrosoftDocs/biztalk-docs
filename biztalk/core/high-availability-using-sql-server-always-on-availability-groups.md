@@ -2,7 +2,7 @@
 title: High Availability using SQL Server Always On Availability Groups | Microsoft Docs
 description: Group the BizTalk Server database on different nodes to get a highly available (HA) solution using SQL Server Always On Available Groups (AG), including the system requirements and limitations. Always On AG requires Windows Server Failover Clustering (WSFC).
 ms.custom: ""
-ms.date: "06/27/2018"
+ms.date: "07/8/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -79,8 +79,8 @@ This configuration is illustrated below, and recommended for BizTalk Databases i
 Along with SQL Server databases, BizTalk Server configuration also creates SQL Server security logins and SQL Agent Jobs. AlwaysOn Availability Groups only provide the ability to manage databases inside an Availability Group. Logins and SQL Agent Jobs for BizTalk need to be created and updated/managed manually on all the availability replicas.  
 
 > [!NOTE]
-> SQL Server 2016 Service Pack 2 supports DTC transactions between multiple databases within the same Availability Group. BizTalk Server supports this functionality starting with CU5.
-> When configuring BizTalk Server 2016 with SQL Server 2016 Service Pack 2, all BizTalk Server databases can be deployed to the a single Availability Group.
+> SQL Server 2016 Service Pack 2 and newer supports DTC transactions between multiple databases within the same Availability Group. BizTalk Server supports this functionality starting with CU5.
+> When configuring BizTalk Server 2016 with SQL Server 2016 Service Pack 2 and newer, all BizTalk Server databases can be deployed to a single Availability Group.
 
 The following list of SQL Server security logins are associated with BizTalk Server. You may have additional logins created for your BizTalk Server applications. If so, you need to replicate them on every instance of SQL Server hosting a replica of BizTalk databases. 
 
