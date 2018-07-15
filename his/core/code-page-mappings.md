@@ -65,7 +65,7 @@ You can specify service-level and application-level code page mapping overrides.
     <em>**Example 2.</em>* Stop ETW event trace session command line argument with example property values.*  
   
 #### Format Event Trace Session Data  
- The Windows administrator can format DRDA Service ETW event trace session data using [Service Trace Viewer Tool (SvcTraceViewer.exe)](https://docs.microsoft.com/en-us/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe) or the tracerpt command line utility.  
+ The Windows administrator can format DRDA Service ETW event trace session data using [Service Trace Viewer Tool (SvcTraceViewer.exe)](https://docs.microsoft.com/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe) or the tracerpt command line utility.  
   
 1. On the **Start** menu, point to **All Programs**, point to **Microsoft Visual Studio**, point to **Visual Studio Tools**, right click **Visual Studio x64 Win64 Command Prompt**, and click **Run as administrator**. The **User Account Control dialog** may appear. Click **Yes** to continue.  
   

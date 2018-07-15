@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Monitor SQL Server Performance
-SQL Server provides several tools for monitoring events in SQL Server and for tuning the physical database design. [Tools for Performance Monitoring and Tuning](https://docs.microsoft.com/en-us/sql/relational-databases/performance/performance-monitoring-and-tuning-tools) describes these tools. 
+SQL Server provides several tools for monitoring events in SQL Server and for tuning the physical database design. [Tools for Performance Monitoring and Tuning](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools) describes these tools. 
   
 BizTalk Server is a database-intensive process. when troubleshooting BizTalk Server performance issues, it can be beneficial to also check the SQL Server performance. The following tools can help.  
   
