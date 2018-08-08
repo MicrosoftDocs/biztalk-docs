@@ -14,7 +14,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Domain Groups in BIzTalk
+# Domain Groups in BizTalk
 BizTalk Server supports domain group and user accounts in both single and multiple computer configurations. For multiple computer configurations, you must observe the requirements provided in this section and in the Considerations for Multiserver Environments in the Installation Guide. For more information, see the [installation overview](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).  
   
 ## Before you begin
