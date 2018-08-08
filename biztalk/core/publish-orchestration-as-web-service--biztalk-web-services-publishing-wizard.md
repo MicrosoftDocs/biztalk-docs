@@ -93,7 +93,7 @@ You use the BizTalk Web Services Publishing Wizard to publish an orchestration a
     > [!NOTE]
     >  The same combination of target namespace/root element name can only be added once as a request SOAP header and once as a response SOAP header.  
   
-9. On the **Web Service Project** page, in the **Project name** text box, type the name for the project. You can accept the default location (http://localhost/<*project_name*>), type a location for the project in the **Project location** text box, or click **Browse** and select a Web directory. Select any of the following options:  
+9. On the **Web Service Project** page, in the **Project name** text box, type the name for the project. You can accept the default location (`http://localhost/<project_name>`), type a location for the project in the **Project location** text box, or click **Browse** and select a Web directory. Select any of the following options:  
   
     -   **Overwrite existing project.** This option is only available if the project location already exists. You will only be able to publish to the same location if you select this option. Otherwise, you must enter a different project location.  
   
@@ -102,10 +102,10 @@ You use the BizTalk Web Services Publishing Wizard to publish an orchestration a
     -   **Create BizTalk receive locations.** This option automatically creates the SOAP adapter receive ports and locations that correspond to each generated .asmx file. If a receive location already exists, it is not replaced. Receive locations for the SOAP adapter are resolved using the format /\<*virtual directory name*\>/\<*orchestration namespace_typename_portname*\>.asmx. After selecting this option, choose the application where the receive ports and locations will be generated.  
   
         > [!NOTE]
-        >  The project location can exist on a different server. To publish a Web service to a different server, type the project name as **http://<*servername*>/<*project_name*>**.  
+        >  The project location can exist on a different server. To publish a Web service to a different server, type the project name as `http://<servername>/<project_name>`.  
   
         > [!NOTE]
-        >  The project location can exist on a non-default Web site. When publishing to a non-default Web site, include the port number of the Web site in the URL. For example, http://localhost:8080/<*project_name*>.  
+        >  The project location can exist on a non-default Web site. When publishing to a non-default Web site, include the port number of the Web site in the URL. For example, `http://localhost:8080/<project_name>`.  
   
         > [!NOTE]
         >  When using the wizard to create receive locations, the wizard creates the receive locations using the default values. The default value for the receive pipeline is the **Microsoft.BizTalk.DefaultPipelines.PassThruReceive** pipeline. If messages received through the published Web service require any special pipeline processing (for example, validation, correlation / property promotion, or inbound/outbound maps) then you should set the receive pipeline to **Microsoft.BizTalk.DefaultPipelines.XMLReceive**, or to a custom pipeline.  
