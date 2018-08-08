@@ -1,4 +1,4 @@
----
+﻿---
 title: "Test Scenarios for Measuring MST of DTA Tracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -55,7 +55,7 @@ To show how all of this works in practice and to introduce a simple technique fo
   
 - **Message Properties**. The track point associated with the dis-assembler (DA) component in the inbound pipeline represents the tracking of 10 properties from the inbound message. For more information about how to promote properties for tracking, see [Promoting Properties](../core/promoting-properties.md).  
   
-- **Message Body**. The two message body (MB) points from the figure represent the points at which message bodies are tracked. For more information on how to set up message body tracking, see [Configuring Tracking Using the BizTalk Server Administration Console](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef).  
+- **Message Body**. The two message body (MB) points from the figure represent the points at which message bodies are tracked. For more information on how to set up message body tracking, see [Configuring Tracking Using the BizTalk Server Administration Console](http://msdn.microsoft.com/49b7f9d3-60b5-41bd-ba8b-029253926bef).  
   
   **Test Scenario Architecture**  
   

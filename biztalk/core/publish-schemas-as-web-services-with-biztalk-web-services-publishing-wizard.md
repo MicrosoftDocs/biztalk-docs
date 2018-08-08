@@ -1,5 +1,6 @@
 ---
-title: "How to Use the BizTalk Web Services Publishing Wizard to Publish Schemas as a Web Service | Microsoft Docs"
+title: "Use the Web Services Publishing Wizard to Publish Schemas as a Web Service | Microsoft Docs"
+description: How to Use the BizTalk Web Services Publishing Wizard to Publish Schemas as a Web Service
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -17,12 +18,13 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Use the BizTalk Web Services Publishing Wizard to Publish Schemas as a Web Service
+
+# Publish Schemas as a Web Service in BizTalk
 You use the BizTalk Web Services Publishing Wizard to publish schemas as a Web service.  
   
-### To publish schemas as a Web service  
+## Publish schemas as a web service  
   
-1. Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Web Services Publishing Wizard**.  
+1. In **Programs**, select **BizTalk Server**, and then select **BizTalk Web Services Publishing Wizard**.  
   
    > [!IMPORTANT]
    >  You must build BizTalk projects prior to running the BizTalk Web Services Publishing Wizard.  
@@ -84,7 +86,7 @@ You use the BizTalk Web Services Publishing Wizard to publish schemas as a Web s
    > [!NOTE]
    >  The same combination of target namespace/root element name can only be added once as a request SOAP header and once as a response SOAP header.  
   
-9. On the **Web Service Project** page, in the **Project location** text box, type the project location. You can accept the default location (http://localhost/<*project_name*>), type a location for the project, or click **Browse** and select a Web directory. Select any of the following options:  
+9. On the **Web Service Project** page, in the **Project location** text box, type the project location. You can accept the default location (`http://localhost/your_project_name`), type a location for the project, or click **Browse** and select a Web directory. Select any of the following options:  
   
     -   **Overwrite existing project.** This option is only available if the project location already exists. You will only be able to publish to the same location if you select this option. Otherwise, you must enter a different project location.  
   
@@ -93,10 +95,10 @@ You use the BizTalk Web Services Publishing Wizard to publish schemas as a Web s
     -   **Create BizTalk receive locations.** This option automatically creates the SOAP adapter receive ports and locations that correspond to each generated .asmx file. If another receive location already exists, the receive location is not be replaced. Receive locations for the SOAP adapter are resolved using the format "/\<*virtual directory name*\>/\<*orchestration namespace_typename_portname*\>.asmx". After selecting this option, choose the application where the receive ports and locations will be generated.  
   
         > [!NOTE]
-        >  The project location can exist on a different server. To publish a Web service to a different server, type the project name as **http://<*servername*>/<*project_name*>**.  
+        >  The project location can exist on a different server. To publish a Web service to a different server, type the project name as **`http://<servername>/<project_name>`**.  
   
         > [!NOTE]
-        >  The project location can exist on a non-default Web site. When publishing to a non-default Web site, include the port number of the Web site in the URL: http://localhost:8080/<*project_name*>.  
+        >  The project location can exist on a non-default Web site. When publishing to a non-default Web site, include the port number of the Web site in the URL: `http://localhost:8080/<project_name>`.  
   
         > [!NOTE]
         >  When you use the wizard to create receive locations, the wizard creates the receive locations using many default values. The default values for receive and send pipelines are **Microsoft.BizTalk.DefaultPipelines.PassThruReceive** and **Microsoft.BizTalk.DefaultPipelines.PassThruTransmit**. If messages received through the published Web service require any special pipeline processing (for example, validation, correlation, or inbound/outbound maps), then you should set the send and receive pipelines to **Microsoft.BizTalk.DefaultPipelines.XMLReceive**, **Microsoft.BizTalk.DefaultPipelines.XMLSend**, or to a custom pipeline.  
