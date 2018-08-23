@@ -1,4 +1,3 @@
-
 ---
 title: "Configure using Basic or Custom configuration | Microsoft Docs"
 description: Steps to do a basic or custom configuration of BizTalk Server, and learn what happens with each configuration
