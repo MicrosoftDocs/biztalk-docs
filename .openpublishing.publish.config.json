@@ -16,6 +16,22 @@
       "template_folder": "_themes"
     },
     {
+      "docset_name": "biztalk-technical-reference",
+      "build_source_folder": "technical-reference",
+      "build_output_subfolder": "technical-reference",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "his",
       "build_source_folder": "his",
       "build_output_subfolder": "his",
