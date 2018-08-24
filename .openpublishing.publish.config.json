@@ -32,36 +32,25 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": [
-    "pacort@microsoft.com"
-  ],
+  "notification_subscribers": [],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
+  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
-    },
-    {
-    "path_to_root": "_themes.pdf",
-    "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-    "branch": "master"
-   }    
+    }
   ],
-  "branch_target_mapping": {
-    "live": [
-      "Publish",
-      "Pdf"
-    ]
-  },
+  "branch_target_mapping": {},
   "need_generate_pdf_url_template": true,
-   "Targets": {  
-       "Pdf": {  
-         
-            "template_folder": "_themes.pdf"  
-       }  
-   }
+  "targets": {
+    "Pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  }
 }
