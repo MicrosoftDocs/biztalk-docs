@@ -1,1 +1,3 @@
-# Welcome to biztalk-technical-reference!
+﻿---
+redirect_url: 'technical-reference5'
+---
