@@ -40,7 +40,7 @@ using System.Management;
       }     
 ```
 
-``` 
+``` VBScript
 Option Explicit  
   
 Sub SaveTrackedMessageInstanceToFolder(strMessageInstanceId, strOutputFolder)  

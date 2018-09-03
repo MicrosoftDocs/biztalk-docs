@@ -115,7 +115,7 @@ using System.Management;
    }  
 ```
 
-``` 
+``` VBScript
 ' wbemChangeFlagEnum Setting  
 const REGULAR_RESUME_MODE = 1  
   

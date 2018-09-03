@@ -84,7 +84,7 @@ using System.Management;
       }  
 ```
 
-``` 
+``` VBScript
 Option Explicit  
   
 ' Host Instance status number  
