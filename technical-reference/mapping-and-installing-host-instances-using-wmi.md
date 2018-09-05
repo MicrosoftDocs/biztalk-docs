@@ -67,7 +67,7 @@ using System.Management;
       }  
 ```
 
-``` 
+``` VBScript
 Option Explicit  
   
 ' Map and install a host instance using MSBTS_ServerHost and MSBTS_HostInstance  

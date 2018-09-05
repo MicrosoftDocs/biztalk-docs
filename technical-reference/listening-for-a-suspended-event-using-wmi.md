@@ -53,7 +53,7 @@ using System.Management;
       }  
 ```
 
-``` 
+``` VBScript
 Option Explicit  
   
 Sub ListenForSvcInstSuspendEvent()  

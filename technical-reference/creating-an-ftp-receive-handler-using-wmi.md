@@ -48,7 +48,7 @@ using System.Management;
       }  
 ```
 
-``` 
+``` VBScript
 Option Explicit  
   
 ' wbemChangeFlagEnum Setting  
