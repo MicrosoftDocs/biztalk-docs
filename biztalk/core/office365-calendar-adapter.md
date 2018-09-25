@@ -55,7 +55,7 @@ Use the Office 365 Outlook Calendar adapter in BizTalk Server to create and rece
 
 You can use a simple File receive port and location to create an event on your Office 365 Outlook Calendar.
 
-1. Create a receive port using the File adapter. Within your receive location,  set the **Receive folder** to **C:\Temp\In\**, and set the file mask to **\*.xml**.
+1. Create a receive port using the File adapter. Within your receive location,  set the **Receive folder** to **C:\\Temp\\In\\**, and set the file mask to **\*.xml**.
 2. In your Office 365 Outlook Calendar adapter send port properties, set the **Filters** to `BTS.ReceivePortName == <Receive Port Name>`.
 3. Paste the following into a text editor, and save the file as **Office365Calendar.xml**. This is your sample message.
 
@@ -119,7 +119,7 @@ You can use a simple File receive port and location to create an event on your O
 
 You can use a simple File send port to receive messages from your Office 365 Outlook Calendar.
 
-1. Create a send port using the File adapter. Within your send port properties, set the **Destination folder** to **C:\Temp\Out\**, and set the and **File name** to **%MessageID%.xml**.
+1. Create a send port using the File adapter. Within your send port properties, set the **Destination folder** to **C:\\Temp\\Out\\**, and set the and **File name** to **%MessageID%.xml**.
 2. In your File send port properties, set the **Filters** to  `BTS.ReceivePortName == <Receive Port Name>`.
 3. Start the Office 365 Outlook Calendar receive location and the File send port.
 4. Look for messages in the destination folder (c:\temp\out). 

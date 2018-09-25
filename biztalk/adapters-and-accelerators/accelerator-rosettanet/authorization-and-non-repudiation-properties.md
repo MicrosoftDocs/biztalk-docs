@@ -43,21 +43,21 @@ This topic describes the behavior of the `Is Authorization Required`, `Non-Repud
 |Is Authorization Required|Non-Repudiation of Origin and Content|Non-Repudiation Required (Acknowledgement of Receipt)|Supported by BTARN?|  
 |-------------------------------|--------------------------------------------|--------------------------------------------------------------|-------------------------|  
 |`False`|`False`|`False`|Yes|  
-|`False`|`False`|`True`|No*|  
-|`False`|`True`|`False`|No**|  
-|`False`|`True`|`True`|No***|  
-|`True`|`False`|`False`|Yes****|  
-|`True`|`False`|`True`|Yes****|  
+|`False`|`False`|`True`|No\*|  
+|`False`|`True`|`False`|No\*\*|  
+|`False`|`True`|`True`|No\*\*\*|  
+|`True`|`False`|`False`|Yes\*\*\*\*|  
+|`True`|`False`|`True`|Yes\*\*\*\*|  
 |`True`|`True`|`False`|Yes|  
 |`True`|`True`|`True`|Yes|  
 
  \* [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not support this combination because it requires that signals be signed and actions not be signed.  
 
- ** [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not support this combination because it requires that actions be signed and signals not be signed.  
+ \*\* [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not support this combination because it requires that actions be signed and signals not be signed.  
 
- *** [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not support this combination because setting non-repudiation to `True` for both actions and signals means that [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] is performing authorization. Therefore, this combination is not valid.  
+ \*\*\* [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] does not support this combination because setting non-repudiation to `True` for both actions and signals means that [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] is performing authorization. Therefore, this combination is not valid.  
 
- **** When you set `Is Authorization Required` to `True` and `Non-Repudiation of Origin and Content` to `False`, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] stores the message in the non-repudiation table.  
+ \*\*\*\* When you set `Is Authorization Required` to `True` and `Non-Repudiation of Origin and Content` to `False`, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] stores the message in the non-repudiation table.  
 
 ## See Also  
  [How to Create or Edit a Process Configuration](../../adapters-and-accelerators/accelerator-rosettanet/how-to-create-or-edit-a-process-configuration.md)

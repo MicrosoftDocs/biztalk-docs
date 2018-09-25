@@ -18,7 +18,7 @@ manager: "anneta"
 # Troubleshoot TIBCO Rendezvous
   
 ## Use Event Tracing for Windows
-Microsoft BizTalk Adapter for TIBCO Rendezvous logs error, warning, and information messages to the Windows Event Viewer. You can see additional tracing messages by using the Event Tracing for Windows (ETW) tool. When ETW is activated, it creates an *.etl file to receive the messages. This file is in binary format and must be converted to be read. To do this, you must have a consumer application available to interpret the \*.etl file, for example, tracerpt.exe or tracedmp.exe. For example, the tracerpt.exe application will convert the \*.etl file into two text files: summary.txt and dumpfile.csv.  
+Microsoft BizTalk Adapter for TIBCO Rendezvous logs error, warning, and information messages to the Windows Event Viewer. You can see additional tracing messages by using the Event Tracing for Windows (ETW) tool. When ETW is activated, it creates an \*.etl file to receive the messages. This file is in binary format and must be converted to be read. To do this, you must have a consumer application available to interpret the \*.etl file, for example, tracerpt.exe or tracedmp.exe. For example, the tracerpt.exe application will convert the \*.etl file into two text files: summary.txt and dumpfile.csv.  
   
 ## ETW Components  
  Event Tracing for Windows has three components:  

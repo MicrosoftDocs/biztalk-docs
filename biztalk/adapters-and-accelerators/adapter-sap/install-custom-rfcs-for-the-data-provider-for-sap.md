@@ -29,7 +29,7 @@ The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] re
   
 To perform these operations on the SAP system, you must install these custom RFCs on the SAP system. If you chose to install the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] along with the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], the Setup program copies the RFC transport for the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] as a compressed file (customRFC.zip) on the system where you install the adapter. The zip file is typically installed at *\<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Microsoft .NET Framework Data Provider for mySAP Business Suite*. 
   
- After extracting the zip file, you will find four data files, two following the naming pattern K9*.BI1 (for example, similar to K900534.BI1), and the other two following the pattern R9\*.BI1 (for example, similar to R900534.BI1).  
+ After extracting the zip file, you will find four data files, two following the naming pattern K9\*.BI1 (for example, similar to K900534.BI1), and the other two following the pattern R9\*.BI1 (for example, similar to R900534.BI1).  
   
 
   
@@ -37,11 +37,11 @@ To perform these operations on the SAP system, you must install these custom RFC
   
    1.  Log in as the SAP R/3 system administrator to the SAP application server of your development system.  
   
-   2.  Copy the two transport files with the naming pattern K9*.BI1 from the installation directory on the computer running the adapters to the following directory on the SAP application server:  
+   2.  Copy the two transport files with the naming pattern K9\*.BI1 from the installation directory on the computer running the adapters to the following directory on the SAP application server:  
   
         `<drive>:\usr\sap\trans\cofiles`  
   
-   3.  Copy the two transport files with the naming pattern R9*.BI1 from the installation directory on the computer running the adapters to the following directory on the SAP application server:  
+   3.  Copy the two transport files with the naming pattern R9\*.BI1 from the installation directory on the computer running the adapters to the following directory on the SAP application server:  
   
         `<drive>:\usr\sap\trans\data`  
   
@@ -134,7 +134,7 @@ To perform these operations on the SAP system, you must install these custom RFC
   
   - ACTVT: 03  
   
-  - DICBERCLS: *  
+  - DICBERCLS: \*  
   
     You can use DICBERCLS to restrict authorization to tables by authorization class.  
   
@@ -147,7 +147,7 @@ To perform these operations on the SAP system, you must install these custom RFC
   
   - ACTVT: 03  
   
-  - TABLE: *  
+  - TABLE: \*  
   
     You can use TABLE to explicitly define the authorized tables. Note, too, that S_TABU_DIS is also used in other transactions.  
   

@@ -155,7 +155,7 @@ You can use this procedure to move the BAM Primary Import database to another se
   
 4.  In the **Integration Services Project** dialog box, in Solution Explorer, right-click **SSIS Packages**, and then click **Add Existing Package**.  
   
-5.  In the **Add Copy of Existing Package** dialog box, in the **Server** drop-down list box, select the server that contains the BAM_AN_* and BAM_DM_* packages.  
+5.  In the **Add Copy of Existing Package** dialog box, in the **Server** drop-down list box, select the server that contains the BAM_AN_\* and BAM_DM_\* packages.  
   
 6.  In **Package Path**, click the ellipses button.  
   

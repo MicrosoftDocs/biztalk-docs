@@ -37,7 +37,7 @@ Some of the import and export features include:
 
 ## Prerequisites
 
-* You must be logged on with an account that is a member of the** BizTalk Server Administrators** group. See [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
+* You must be logged on with an account that is a member of the **BizTalk Server Administrators** group. See [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
 
 * You must have added a reference to the **BizTalk EDI Application** from a BizTalk application that will be used as an EDI application. See [Post-configuration steps](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md).
 

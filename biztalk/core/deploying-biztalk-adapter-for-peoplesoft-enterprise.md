@@ -41,7 +41,7 @@ Before you use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserver
   
 -   The folders for the responses must exist and be identical on the new computer—or edit the binding file.  
   
--   PeopleSoft Enterprise system passwords, if present in the configuration, are saved as ***** in the binding file. See **Limitations** in this topic.
+-   PeopleSoft Enterprise system passwords, if present in the configuration, are saved as \*\*\*\*\* in the binding file. See **Limitations** in this topic.
 
 > [!NOTE]
 >  Deployment overwrites receive location configuration. When you deploy a binding file and assembly on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are imported.  
@@ -64,7 +64,7 @@ cscript RemoveSendPort.vbs \<Send port name\>
 ```
 
 ## Limitations
-The Transport Adapter password is stored as asterisks (******) in the binding file that is exported by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and it passes to the management component in the same format.  
+The Transport Adapter password is stored as asterisks (\*\*\*\*\*\*) in the binding file that is exported by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and it passes to the management component in the same format.  
   
  When you export binding information, the resultant binding file does not contain any of the passwords that were used by transport adapters in receive locations/send ports. This prevents password information from appearing in clear text. The next time that you use the file to import the binding information, you must enter the passwords by using transport property pages user interface. Alternatively, you can temporarily modify the binding file before importing by typing the passwords into it. In this case, you must delete the passwords from the binding file after the import operation finishes.  
   
