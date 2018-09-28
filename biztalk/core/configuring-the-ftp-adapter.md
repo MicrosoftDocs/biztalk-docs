@@ -1,7 +1,7 @@
 ---
 title: "Configuring the FTP Adapter | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "09/28/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -56,7 +56,7 @@ You can set FTP receive location adapter properties in the BizTalk Server Admini
    |Use this|To do this|  
    |--------------|----------------|     
    |**Address**|Specify the address of the firewall, either a DNS name or an IP address.|  
-   |**Mode**|Specify the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server.<br /><br /> **Default value:** Active|  
+   |**Mode**|Specify the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server. Active mode may not work if you use an internal IP and you connect to an external IP. In this case you need to use Passive mode or Active mode with an application-layer gateway (ALG) with FTP support.<br /><br /> **Default value:** Active|  
    |**Password**|Specify the password for the firewall.|  
    |**Port**|Specify the port for the firewall.<br /><br /> **Valid values:** 1 through 65535 inclusive<br /><br /> **Default value:** 21|  
    |**Type**|Specify the type of firewall deployed.<br /><br /> **Valid values:** None, Socks 4, and Socks 5<br /><br /> **Default value:** None|  
@@ -136,7 +136,7 @@ You can set FTP send port adapter properties in the BizTalk Server Administratio
    |Use this|To do this|  
    |--------------|----------------|    
    |**Address**|Specify the address of the firewall, either a DNS name or an IP address.|  
-   |**Mode**|Select the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server.<br /><br /> **Default value:** Active|  
+   |**Mode**|Select the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server. Active mode may not work if you use an internal IP and you connect to an external IP. In this case you need to use Passive mode or Active mode with an application-layer gateway (ALG) with FTP support.<br /><br /> **Default value:** Active|  
    |**Password**|Specify the password for the firewall.|  
    |**Port**|Specify the port for the firewall.<br /><br /> **Valid values:** 1 through 65535 inclusively<br /><br /> **Default value:** 21|  
    |**Type**|Select the type of firewall deployed.<br /><br /> **Valid values:** Socks 4, Socks 5, None<br /><br /> **Default value:** None|  
