@@ -1,7 +1,7 @@
 ---
 title: "How to Restore Your Databases | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-05-10"
+ms.date: "2018-09-30"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -138,7 +138,10 @@ You must restore all databases to the same mark to ensure a consistent transacti
 > 
 > [!NOTE]
 >  If you are using BAM, this is the time to restore the BAM databases. See [Backing Up and Restoring BAM](../core/backing-up-and-restoring-bam.md).  
-  
+> 
+> [!NOTE]
+>  If you are moving databases and you are using BizTalk EDI or RosettaNet adapters some SQL ports may be setup against the BizTalk databases. Export bindings and search for the old database links and replace accordingly. 
+
 ## Next Steps  
  [Backing Up and Restoring BAM](../core/backing-up-and-restoring-bam.md)  
   
