@@ -1,7 +1,7 @@
 ---
 title: "How to Restore Your Databases | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-05-10"
+ms.date: "2018-09-30"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -98,7 +98,7 @@ You must restore all databases to the same mark to ensure a consistent transacti
   
     32-bit computer: `%SystemDrive%\Program Files\Microsoft BizTalk Server <version>\Schema\Restore`  
   
-    64-bit computer: `%SystemDrive%Program Files (x86)Microsoft BizTalk Server <version>Bins32SchemaRestore`  
+    64-bit computer: `%SystemDrive%Program Files (x86)Microsoft BizTalk Server <version>\Bins32\Schema\Restore`  
   
 7. At the command prompt, type:  
   
