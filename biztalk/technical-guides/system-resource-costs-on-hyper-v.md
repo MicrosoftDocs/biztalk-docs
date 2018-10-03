@@ -117,13 +117,13 @@ manager: "anneta"
   
  **Collected from both Virtual_SQL01 and Physical_SQL01**:  
   
-- \LogicalDisk(*)\\\*  
+- \LogicalDisk(\*)\\\*  
   
-- \PhysicalDisk(*)\\\*  
+- \PhysicalDisk(\*)\\\*  
   
   **Collected from virtual machine Hyper-V_02**:  
   
-- \Hyper-V Virtual Storage Device\\*  
+- \\Hyper-V Virtual Storage Device\\\*  
   
 ### Results  
  The passthrough disk was able to attain over 90% of the throughput of the SAN LUN connected directly to Physical_SQL01.  Total, read and write I/Os per second were all within 10% as was the total MB transferred per second.  Response times for healthy disks should be between 1-15 ms for read and write. Average I/O response times were less than 4 ms on both disks. Random reads response time was 5.4 ms on the physical and 5.7 ms on the pass-through disk. Write response time was less than 0.5 ms on both the physical and virtual environments.  
