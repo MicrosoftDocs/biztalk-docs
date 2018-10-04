@@ -1,30 +1,13 @@
 ---
 title: "How to Restore Your Databases | Microsoft Docs"
 ms.custom: ""
-ms.date: "2018-09-30"
+ms.date: "09/30/18"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "backing up, log shipping"
-  - "restoring [BAM], Star Schema database, Star Schema database [BAM], restoring"
-  - "restoring, 64-bit environments"
-  - "Star Schema database [BAM], restoring"
-  - "restoring [BAM], Analysis database"
-  - "log shipping"
-  - "databases, restoring"
-  - "Archive database [BAM], restoring"
-  - "backing up, restoring"
-  - "Analysis database [BAM], restoring"
-  - "restoring [BAM], Archive database"
-  - "restoring [BAM], Star Schema database"
-  - "databases, restoring [64-bit environment]"
-  - "Primary Import database [BAM], restoring"
-  - "64-bit environments, restoring databases"
-  - "restoring, databases"
 ms.assetid: 0176932a-6b3d-4502-975b-a76296189092
 caps.latest.revision: 52
 author: "MandiOhlinger"
@@ -98,7 +81,7 @@ You must restore all databases to the same mark to ensure a consistent transacti
   
     32-bit computer: `%SystemDrive%\Program Files\Microsoft BizTalk Server <version>\Schema\Restore`  
   
-    64-bit computer: `%SystemDrive%Program Files (x86)Microsoft BizTalk Server <version>Bins32SchemaRestore`  
+    64-bit computer: `%SystemDrive%\Program Files (x86)Microsoft BizTalk Server <version>\Bins32\Schema\Restore`  
   
 7. At the command prompt, type:  
   

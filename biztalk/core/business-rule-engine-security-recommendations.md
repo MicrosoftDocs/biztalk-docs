@@ -1,7 +1,7 @@
 ---
 title: "Business Rule Engine Security Recommendations | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "09/27/2018"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -28,7 +28,9 @@ The Business Rule Engine is the runtime component of the Business Rule Framework
  The RE_Host_Users group is for all other users of the Business Rule Engine that do not require administrative user rights, and perform tasks such as reading and executing rules. Members of the RE_Host_Users role include the BizTalk_Host_Users role. You can use the SQL Server roles to implement permissions to the Business Rule Engine independent from the BizTalk Server permissions. For more information about the minimum permission needed to use the Business Rule Engine, see [Minimum Security User Rights](../core/minimum-security-user-rights.md). It is recommended you follow these guidelines for securing and deploying the Business Rule Engine in your environment.  
   
 -   BizTalk Server gives the account you used to install the update service logon as service rights and adds it to the RE_Host_Users SQL Server role on the Business Rule Engine database. If the account you use for installation is not the same you are going to use for running the update service, you must remove the installation account from the RE_Host_Users SQL Server role.  
-  
+
+-   If you don't use the same account as another BizTalk host service account, also add the RuleEngine service account to to BTS_HOST_USERS in BizTalkMgmtDb and BizTalkMsgBoxDb.
+
 -   If you use the Update service component, you must install it on all BizTalk runtime computers. In order to retrieve a rule from the Rule Engine database, the update service impersonates the caller of the service.  
   
 -   By default, all BizTalk Hosts have the same level of access to rules engine artifacts. There is not per-host segregation of security. You can configure per-policy security by using the rule engine APIs. For more information about how to configure per-policy security, see [Business Rules Framework Security](../core/business-rules-framework-security.md).  
