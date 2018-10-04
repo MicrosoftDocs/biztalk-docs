@@ -56,7 +56,7 @@ You can set FTP receive location adapter properties in the BizTalk Server Admini
    |Use this|To do this|  
    |--------------|----------------|     
    |**Address**|Specify the address of the firewall, either a DNS name or an IP address.|  
-   |**Mode**|Specify the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server. Active mode may not work if you use an internal IP and you connect to an external IP. In this case you need to use Passive mode or Active mode with an application-layer gateway (ALG) with FTP support.<br /><br /> **Default value:** Active|  
+   |**Mode**|Specify the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server. Active mode may not work if you use an internal IP and you connect to an external IP. In this case, you need to use Passive mode or Active mode with an application-layer gateway (ALG) with FTP support.<br /><br /> **Default value:** Active|  
    |**Password**|Specify the password for the firewall.|  
    |**Port**|Specify the port for the firewall.<br /><br /> **Valid values:** 1 through 65535 inclusive<br /><br /> **Default value:** 21|  
    |**Type**|Specify the type of firewall deployed.<br /><br /> **Valid values:** None, Socks 4, and Socks 5<br /><br /> **Default value:** None|  
@@ -65,24 +65,24 @@ You can set FTP receive location adapter properties in the BizTalk Server Admini
    **FTP**
 
 
-   |         Use this         |                                                                                                                                                                                                   To do this                                                                                                                                                                                                   |
-   |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |       **Account**        |                                                                                                                                                Specify the account name for the FTP server. This option is deprecated and use of this property is discouraged.                                                                                                                                                 |
-   |      **After Get**       |                                                                                                                                                          Specify the FTP commands to run after the file GET. Separate commands with a semicolon (;).                                                                                                                                                           |
-   |      **Before Get**      |                                                                                                                           Specify the FTP commands to run before the file GET. Separate commands with a semicolon (;). **Note:**  QUIT command is not supported before the file GET.                                                                                                                           |
-   |   **Error Threshold**    |                                                                                                                                       Specify the number of errors that BizTalk Server can encounter before the location is disabled.<br /><br /> **Default value:** 10                                                                                                                                        |
-   |      **File Mask**       |                                                                                                                                                                          Specify the file mask filter to use when transmitting files.                                                                                                                                                                          |
-   |        **Folder**        |                                                                                                                                                                                Specify the polling location on the FTP server.                                                                                                                                                                                 |
+   |         Use this         |  To do this  |
+   |---|---|
+   |       **Account**        |  Specify the account name for the FTP server. This option is deprecated and use of this property is discouraged.  |
+   |      **After Get**       | Specify the FTP commands to run after the file GET. Separate commands with a semicolon (;). |
+   |      **Before Get**      |   Specify the FTP commands to run before the file GET. Separate commands with a semicolon (;). **Note:**  QUIT command is not supported before the file GET.   |
+   |   **Error Threshold**    |   Specify the number of errors that BizTalk Server can encounter before the location is disabled.<br /><br /> **Default value:** 10   |
+   |      **File Mask**       |  Specify the file mask filter to use when transmitting files.  |
+   |        **Folder**        |   Specify the polling location on the FTP server.  |
    |   **FTP Server Type**    | New starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. <br/><br/>Use this property to choose an FTP server that does not require the SYST command. Options are None, AIX, Detect, GXS, MVS, OS400, and Other. <br/><br/>If set to **None**, the SYST command is used. **Other** is used when the OS type does not fit into any of the specified categories. <br /><br /> **Default value:** None |
-   |         **Log**          |                                                                                                                                Specify the location to save a copy of the log file. You use this file to diagnose error conditions when sending or receiving files through FTP.                                                                                                                                |
-   |    **Max File Size**     |                                                                                                                             Specify the maximum downloadable file size, in megabytes.<br /><br /> Zero (0) indicates no limit on the file size.<br /><br /> **Default value:** 100                                                                                                                             |
-   |       **Password**       |                                                                                                                                                                             Specify the user password to log on to the FTP server.                                                                                                                                                                             |
-   |         **Port**         |                                                                                                                                                                Specify the port address for this FTP server.<br /><br /> **Default value:** 21                                                                                                                                                                 |
-   |    **Representation**    |                                                                                                                                             Select how FTP receives the data.<br /><br /> **Valid values:** binary or ASCII<br /><br /> **Default value:** binary                                                                                                                                              |
-   |        **Server**        |                                                                                                                                 Specify the server name or IP address of the FTP server. **Note:**  The URI for a send port or receive location cannot exceed 256 characters.                                                                                                                                  |
-   |    **SSO Affiliate**     |                                                                                                                                                                          Specify the Enterprise Single Sign-On affiliate application.                                                                                                                                                                          |
-   | **Use name list (NLST)** |                                                                                                                          Specify how the adapter lists files. To view file names instead of the system-defined file listing, set this value to Yes.<br /><br /> **Default value:** No                                                                                                                          |
-   |      **User Name**       |                                                                                                                                                                               Specify the user name to log on to the FTP server.                                                                                                                                                                               |
+   |         **Log**          |  Specify the location to save a copy of the log file. You use this file to diagnose error conditions when sending or receiving files through FTP.    |
+   |    **Max File Size**     |   Specify the maximum downloadable file size, in megabytes.<br /><br /> Zero (0) indicates no limit on the file size.<br /><br /> **Default value:** 100    |
+   |       **Password**       |   Specify the user password to log on to the FTP server. |
+   |         **Port**         |  Specify the port address for this FTP server.<br /><br /> **Default value:** 21 |
+   |    **Representation**    |  Select how FTP receives the data.<br /><br /> **Valid values:** binary or ASCII<br /><br /> **Default value:** binary  |
+   |        **Server**        |   Specify the server name or IP address of the FTP server. **Note:**  The URI for a send port or receive location cannot exceed 256 characters.  |
+   |    **SSO Affiliate**     |  Specify the Enterprise Single Sign-On affiliate application.  |
+   | **Use name list (NLST)** |  Specify how the adapter lists files. To view file names instead of the system-defined file listing, set this value to Yes.<br /><br /> **Default value:** No   |
+   |      **User Name**       |  Specify the user name to log on to the FTP server.  |
 
    **Polling**
 
@@ -106,10 +106,10 @@ You can set FTP receive location adapter properties in the BizTalk Server Admini
    **Tuning Parameters**
 
 
-   |         Use this         |                                                                                                   To do this                                                                                                   |
-   |--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |         Use this         | To do this  |
+   |---|---|
    | **Receive Data Timeout** | Specify the time in milliseconds before the receive call will abort. You use this property to prevent a slow server from causing the receive location to stop responding.<br /><br /> **Default value:** 90000 |
-   |   **Temporary Folder**   |                                               Specify the location for a temporary folder. You use this location to guarantee recovery from a transfer failure.                                                |
+   |   **Temporary Folder**   |  Specify the location for a temporary folder. You use this location to guarantee recovery from a transfer failure.                                                |
 
 
 6. Click **OK** to save settings.  
@@ -136,7 +136,7 @@ You can set FTP send port adapter properties in the BizTalk Server Administratio
    |Use this|To do this|  
    |--------------|----------------|    
    |**Address**|Specify the address of the firewall, either a DNS name or an IP address.|  
-   |**Mode**|Select the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server. Active mode may not work if you use an internal IP and you connect to an external IP. In this case you need to use Passive mode or Active mode with an application-layer gateway (ALG) with FTP support.<br /><br /> **Default value:** Active|  
+   |**Mode**|Select the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server. Active mode may not work if you use an internal IP and you connect to an external IP. In this case, you need to use Passive mode or Active mode with an application-layer gateway (ALG) with FTP support.<br /><br /> **Default value:** Active|  
    |**Password**|Specify the password for the firewall.|  
    |**Port**|Specify the port for the firewall.<br /><br /> **Valid values:** 1 through 65535 inclusively<br /><br /> **Default value:** 21|  
    |**Type**|Select the type of firewall deployed.<br /><br /> **Valid values:** Socks 4, Socks 5, None<br /><br /> **Default value:** None|  
@@ -145,22 +145,22 @@ You can set FTP send port adapter properties in the BizTalk Server Administratio
    **FTP**
 
 
-   |       Use this       |                                                                                                                                                                                                   To do this                                                                                                                                                                                                   |
-   |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |     **Account**      |                                                                                                                                                 Optional. Specify the account name for the FTP server. This option is and use of this property is discouraged.                                                                                                                                                 |
-   |    **After Put**     |                                                                                                                                                          Specify the FTP commands to run after the file PUT. Separate commands with a semicolon (;).                                                                                                                                                           |
-   | **Allocate Storage** |                                                                                                       Specify whether to allocate storage space for legacy host systems. This option is provided for backward compatibility.<br /><br /> **Valid values:** No and Yes<br /><br /> **Default value:** No                                                                                                        |
-   |    **Before Put**    |                                                                              Specify the FTP commands to run before the file PUT, such as commands to change default values on the FTP server. Separate commands with a semicolon (;). No open command is required. **Note:**  QUIT command is not supported before the file PUT.                                                                              |
-   |      **Folder**      |                                                                                                                                                                          Specify the location to move the files to on the FTP server.                                                                                                                                                                          |
+   |       Use this       | To do this |
+   |---|---|
+   |     **Account**      |  Optional. Specify the account name for the FTP server. This option is and use of this property is discouraged. |
+   |    **After Put**     |  Specify the FTP commands to run after the file PUT. Separate commands with a semicolon (;).  |
+   | **Allocate Storage** |  Specify whether to allocate storage space for legacy host systems. This option is provided for backward compatibility.<br /><br /> **Valid values:** No and Yes<br /><br /> **Default value:** No  |
+   |    **Before Put**    |  Specify the FTP commands to run before the file PUT, such as commands to change default values on the FTP server. Separate commands with a semicolon (;). No open command is required. **Note:**  QUIT command is not supported before the file PUT.  |
+   |      **Folder**      |  Specify the location to move the files to on the FTP server. |
    | **FTP Server Type**  | New starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. <br/><br/>Use this property to choose an FTP server that does not require the SYST command. Options are None, AIX, Detect, GXS, MVS, OS400, and Other. <br/><br/>If set to **None**, the SYST command is used. **Other** is used when the OS type does not fit into any of the specified categories. <br /><br /> **Default value:** None |
-   |       **Log**        |                                                                                                                               Specify the location to save a copy of a log file. Use this file to diagnose error conditions when sending or receiving files through FTP adapter.                                                                                                                               |
-   |     **Password**     |                                                                                                                                                                               Specify the password to log on to the FTP server.                                                                                                                                                                                |
-   |       **Port**       |                                                                                                                                                                 Specify the port address for the FTP server.<br /><br /> **Default value:** 21                                                                                                                                                                 |
-   |  **Representation**  |                                                                                                                            Select how FTP adapter sends the data, either as binary or as ASCII.<br /><br /> **Valid values:** binary or ASCII<br /><br /> **Default value:** binary                                                                                                                            |
-   |      **Server**      |                                                                                                                                                                            Specify the server name or IP address of the FTP server.                                                                                                                                                                            |
-   |  **SSO Affiliate**   |                                                                                                                                                                          Specify the Enterprise Single Sign-On affiliate application.                                                                                                                                                                          |
-   | **Target File Name** |                                                                                                                   Specify an alternative name for the file. Retaining the default name guarantees unique message names for each message sent.<br /><br /> **Default value:** %MessageID%.xml                                                                                                                   |
-   |    **User Name**     |                                                                                                                                                                               Specify the user name to log on to the FTP server.                                                                                                                                                                               |
+   |       **Log**        |  Specify the location to save a copy of a log file. Use this file to diagnose error conditions when sending or receiving files through FTP adapter.    |
+   |     **Password**     |  Specify the password to log on to the FTP server. |
+   |       **Port**       | Specify the port address for the FTP server.<br /><br /> **Default value:** 21  |
+   |  **Representation**  | Select how FTP adapter sends the data, either as binary or as ASCII.<br /><br /> **Valid values:** binary or ASCII<br /><br /> **Default value:** binary   |
+   |      **Server**      |  Specify the server name or IP address of the FTP server.  |
+   |  **SSO Affiliate**   |  Specify the Enterprise Single Sign-On affiliate application. |
+   | **Target File Name** |  Specify an alternative name for the file. Retaining the default name guarantees unique message names for each message sent.<br /><br /> **Default value:** %MessageID%.xml  |
+   |    **User Name**     |  Specify the user name to log on to the FTP server. |
 
    **SSL**
 
@@ -174,11 +174,10 @@ You can set FTP send port adapter properties in the BizTalk Server Administratio
    **Tuning Parameters**
 
 
-   |       Use this       |                                                                                                                                                                                                                      To do this                                                                                                                                                                                                                       |
-   |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |       Use this       | To do this  |
+   |---|---|
    | **Connection Limit** | Specify the maximum number of concurrent FTP connections that can be opened to the server. A value of 0 means no limit.<br /><br /> **Default value:** 0 **Note:**  This property replaces the registry entry that was used in earlier versions of BizTalk Server to govern the connection limit. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ignores the registry entry used to control the connection limit. |
    | **Temporary Folder** |      Specify the location for a temporary folder on the FTP server. The file is first uploaded here and then moved to the destination FTP folder. In case of transfer failure, the adapter restarts the file upload in ASCII mode of transfer and resumes in binary mode of transfer. **Note:**  If the file transfer is atomic between the temporary location and the relevant location on the FTP server, then the file upload is also atomic.      |
-
 
 4. Click **OK** and **OK** again to save settings.   
 
@@ -189,32 +188,32 @@ The FTP adapter is subject to the limitations of the FTP protocol, and requires 
 The FTP adapter operates as an FTP client and may require that the following commands are available on the FTP server to function correctly: 
 
 
-| Command  |                                 Required by Receive                                  |                                  Required by Send                                   |
-|----------|--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Command  |  Required by Receive  |  Required by Send  |
+|---|---|---|
 |   SYST   | ✔ <br/><br/>Optional starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] | ✔<br/><br/>Optional starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] |
-|  STORE   |                                                                                      |                                          ✔                                          |
-|   RETR   |                                          ✔                                           |                                                                                     |
-|   USER   |                                          ✔                                           |                                          ✔                                          |
-|   PASS   |                                          ✔                                           |                                          ✔                                          |
-|   CWD    |                                          ✔                                           |                                          ✔                                          |
-|   QUIT   |                                          ✔                                           |                                          ✔                                          |
-|   PORT   |                                          ✔                                           |                                          ✔                                          |
-|   PASV   |                                          ✔                                           |                                          ✔                                          |
-|   ABOR   |                                          ✔                                           |                                          ✔                                          |
-|   TYPE   |                                          ✔                                           |                                          ✔                                          |
-|   RNFR   |                                          ✔                                           |                                          ✔                                          |
-|   RNTO   |                                          ✔                                           |                                          ✔                                          |
-|   DELE   |                                          ✔                                           |                                          ✔                                          |
-|   PWD    |                                          ✔                                           |                                          ✔                                          |
-|   LIST   |                                          ✔                                           |                                          ✔                                          |
-|   NLST   |                                          ✔                                           |                                          ✔                                          |
-|   NOOP   |                                          ✔                                           |                                          ✔                                          |
-|   APPE   |                                                                                      |                                          ✔                                          |
-|   ALLO   |                                          ✔                                           |                                          ✔                                          |
-|   MDTM   |                                          ✔                                           |                                                                                     |
-| AUTH TLS |                                          ✔                                           |                                          ✔                                          |
-|   PBSZ   |                                          ✔                                           |                                          ✔                                          |
-|   PROT   |                                          ✔                                           |                                          ✔                                          |
+|  STORE   |  |  ✔  |
+|   RETR   |  ✔  |  |
+|   USER   |  ✔  |  ✔  |
+|   PASS   |  ✔  |  ✔  |
+|   CWD    |  ✔  |  ✔  |
+|   QUIT   |  ✔  |  ✔  |
+|   PORT   |  ✔  |  ✔  |
+|   PASV   |  ✔  |  ✔  |
+|   ABOR   |  ✔  |  ✔  |
+|   TYPE   |  ✔  |  ✔  |
+|   RNFR   |  ✔  |  ✔  |
+|   RNTO   |  ✔  |  ✔  |
+|   DELE   |  ✔  |  ✔  |
+|   PWD    |  ✔  |  ✔  |
+|   LIST   |  ✔  |  ✔  |
+|   NLST   |  ✔  |  ✔  |
+|   NOOP   |  ✔  |  ✔  |
+|   APPE   |  |  ✔   |
+|   ALLO   |  ✔  |  ✔  |
+|   MDTM   |  ✔  |  |
+| AUTH TLS |  ✔  |  ✔  |
+|   PBSZ   |  ✔  |  ✔  |
+|   PROT   |  ✔  |  ✔  |
 
  For more information about these FTP commands, see:  
 
