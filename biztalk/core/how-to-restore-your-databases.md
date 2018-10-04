@@ -64,9 +64,9 @@ You must restore all databases to the same mark to ensure a consistent transacti
     This script updates all tables that store information about the location of other databases.  
   
    > [!IMPORTANT]
-   > - Run UpdateDatabase.vbs on **one** server in the BizTalk group.  
-   >   -   On 64-bit computers, you must run UpdateDatabase.vbs from a 64-bit command prompt. Note that the default command prompt on 64-bit computers is a 64-bit command prompt and is located at %SystemDrive%\windows\System32\cmd.exe.  
-   >   -   The BizTalk EDI engine does not require any of its own modifications to SampleUpdateInfo.xml when restoring databases.  It relies on connectivity to the BizTalkDTADb database to access the EDI tables.  
+   >  - Run UpdateDatabase.vbs on **one** server in the BizTalk group.  
+   >  - On 64-bit computers, you must run UpdateDatabase.vbs from a 64-bit command prompt. Note that the default command prompt on 64-bit computers is a 64-bit command prompt and is located at %SystemDrive%\windows\System32\cmd.exe.  
+   >  - The BizTalk EDI engine does not require any of its own modifications to SampleUpdateInfo.xml when restoring databases.  It relies on connectivity to the BizTalkDTADb database to access the EDI tables.  
   
 5. Copy the edited SampleUpdateInfo.xml file to the following folder on **every** computer running BizTalk Server in this BizTalk group:  
   
