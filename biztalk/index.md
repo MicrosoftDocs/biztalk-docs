@@ -400,7 +400,7 @@ ms.author: mandia
                                                     </div>
                                                     <div class="cardText">
                                                         <h3>&#64;BizTalk_Server</h3>
-                                                        <p>The official handle for the BizTalk Sever product team.</p>
+                                                        <p>The official handle for the BizTalk Server product team.</p>
                                                     </div>
                                                 </div>
                                             </div>
