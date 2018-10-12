@@ -77,7 +77,7 @@ The following Windows SharePoint Services adapter properties are promoted into B
 |**SPECIAL**|N/A|  
   
 > [!NOTE]
->  All properties exist under the http://schemas.microsoft.com/BizTalk/2006/WindowsSharePointServices-properties namespace and are accessible from an orchestration or send port filter using the `WSS.<WSS_Property_Name>` syntax.  
+>  All properties exist under the http://schemas.microsoft.com/BizTalk/2006/WindowsSharePointServices-properties<!-- URL is unavailable --> namespace and are accessible from an orchestration or send port filter using the `WSS.<WSS_Property_Name>` syntax.  
   
 ## Property list  
   
