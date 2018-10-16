@@ -1,4 +1,4 @@
----
+--
 title: "Configure MSDTC on SQL Server and adapter client | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -37,11 +37,11 @@ The operations performed on SQL Server using the [!INCLUDE[adaptersqlshort](../.
    - **Allow Remote Clients** 
    - **Allow Inbound** 
    - **Allow Outbound** 
-   - **No Authetnication Required**
+   - **No Authentication Required**
   
 4. Select **OK** to save your changes.  
   
-5. If prompted to restarted the MSDTC service, select **Yes**. After the MSDTC service is restarted, close the properties and the Component Services MMC. 
+5. If prompted to restart the MSDTC service, select **Yes**. After the MSDTC service is restarted, close the properties and the Component Services MMC. 
   
 ## Add MSDTC to Windows Firewall exceptions list  
 
