@@ -24,7 +24,7 @@ The combination of Office and SharePoint empower end users by providing both rea
   
  **Business Connectivity Services (BCS)**  
   
- Business Connectivity Services (BCS) in Office provides a platform that allows you to connect to a variety of different data sources. It is the successorr to the Business Data Catalog in in Office 2007, providing a standard interface that makes it easy to tap into diverse targets. BCS provides a rich set of features that enable you to rapidly build solutions by using familiar tools such as Visual Studio and SharePoint Designer. For more information, see [Microsoft Business Connectivity Services](http://go.microsoft.com/fwlink/?LinkId=198251) (http://go.microsoft.com/fwlink/?LinkId=198251).  
+ Business Connectivity Services (BCS) in Office provides a platform that allows you to connect to a variety of different data sources. It is the successorr to the Business Data Catalog in Office 2007, providing a standard interface that makes it easy to tap into diverse targets. BCS provides a rich set of features that enable you to rapidly build solutions by using familiar tools such as Visual Studio and SharePoint Designer. For more information, see [Microsoft Business Connectivity Services](http://go.microsoft.com/fwlink/?LinkId=198251) (http://go.microsoft.com/fwlink/?LinkId=198251).  
 
 ## Designer
 The SharePoint Designer provides a graphical user interface that you can use for designing SharePoint sites and end-user workflows. SharePoint Designer also allows you to manipulate data from SharePoint as well as external data sources without coding directly against the .NET Framework.  
