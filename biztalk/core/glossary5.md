@@ -486,7 +486,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |SMTP adapter|An adapter that implements the SMTP protocol (that is, sends e-mail messages) to interact with line-of-business applications. This adapter includes only the send handler.|  
 |SOAP adapter|An adapter that implements the SOAP protocol to interact with line-of-business applications, publishes orchestrations as Web services, and consumes external Web services.|  
 |SOAP fault|An error message returned by a Web service that conveys an application exception in the Web service.|  
-|SOAP header|An optional element contained within the envelope of a SOAP message that can contain data not dirrectly related to the XML Web service method's primary functionality.|  
+|SOAP header|An optional element contained within the envelope of a SOAP message that can contain data not directly related to the XML Web service method's primary functionality.|  
 |SOAP message|A well-formed XML document. It should use the SOAP envelope and SOAP encoding namespaces and include an optional XML declaration, followed by a SOAP envelope (the root element), which is made up of an optional SOAP header and a SOAP message body.|  
 |SOAP message tracing|A method for setting a breakpoint in a published Web service to return detailed exceptions to a Web client.|  
 |solicit-response adapter|A two-way send adapter. A solicit-response send adapter sends a request message from BizTalk Server to a destination, waits for a response message, and then submits the response message back to BizTalk Server.|  
