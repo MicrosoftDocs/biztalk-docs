@@ -29,7 +29,7 @@ Run the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]
 Related link: [Minimum Security Rights](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx)
 
 ### How do I get started using the adapter?  
-If you're familiar with [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] and the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], then install [BAP 2016](../adapters-and-accelerators/install-the-biztalk-adapter-pack-2016.md) or [BAP 2013 R2 and 2013](../adapters-and-accelerators/install-biztalk-adapter-pack-2013-r2-and-2013.md), and then get started with the the [different adapters](../adapters-and-accelerators/biztalk-adapter-pack.md).
+If you're familiar with [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] and the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], then install [BAP 2016](../adapters-and-accelerators/install-the-biztalk-adapter-pack-2016.md) or [BAP 2013 R2 and 2013](../adapters-and-accelerators/install-biztalk-adapter-pack-2013-r2-and-2013.md), and then get started with the [different adapters](../adapters-and-accelerators/biztalk-adapter-pack.md).
 
 If you're brand new [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] or the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], then look at the get started topics, and step through the tutorials: 
 

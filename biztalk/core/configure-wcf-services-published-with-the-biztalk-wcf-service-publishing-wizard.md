@@ -92,7 +92,7 @@ After publishing WCF services with the BizTalk WCF Service Publishing Wizard, yo
 
     1.  In Notepad, open Web.config in the folder where the BizTalk Server WCF Service Publishing Wizard created the WCF service in %SystemDrive%\InetPub\\.  
 
-    2.  In Notepad, set the  the **httpGetEnabled** attribute in the  **\<serviceMetadata\>** element to false as following line:  
+    2.  In Notepad, set the **httpGetEnabled** attribute in the  **\<serviceMetadata\>** element to false as following line:  
 
         ```  
         <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />  
