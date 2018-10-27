@@ -452,7 +452,7 @@
               - name: Policies Node
                 href: policies-node.md
               - name: Schemas Node
-                href: https://docs.microsoft.com/en-us/biztalk/core/schemas-node?redirectedfrom=MSDN
+                href: https://docs.microsoft.com/biztalk/core/schemas-node?redirectedfrom=MSDN
               - name: Maps Node
                 href: maps-node.md
               - name: Pipelines Node
