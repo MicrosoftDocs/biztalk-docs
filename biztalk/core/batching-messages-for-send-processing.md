@@ -24,7 +24,7 @@ manager: "anneta"
   
  The following figure shows the use of separate batches for response messages.  
   
- ![Using a seperate batch for response messages](../core/media/eawp-seperatebatch.gif "EAWP_SeperateBatch")  
+ ![Using a separate batch for response messages](../core/media/eawp-separatebatch.gif "EAWP_SeparateBatch")  
   
 ## Sorting the Send-Side Transactional Batches by Endpoint  
  Batches of messages sent by BizTalk Server to the adapter can span multiple send ports (or endpoints). Because the adapter typically wants to have a transaction to a single endpoint, the adapter must sort the messages based on send port (**SPName** or **OutboundTransportLocation**). By doing this, the adapter can create a transaction that spans only a particular send port.  
