@@ -61,7 +61,7 @@ You can also adjust for daylight saving time (DST). When checked, the schedule a
 
         ![Monthly schedule](../core/media/monthly-schedule.PNG)
 
-        Use the **On** recurrence to run the receive port on on specific days of the month:
+        Use the **On** recurrence to run the receive port on specific days of the month:
 
         ![monthly on schedule](../core/media/monthly-on-schedule.PNG)
 
