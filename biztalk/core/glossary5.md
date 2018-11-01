@@ -291,7 +291,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |independent composition|The sequencing of two actions where the second action does not depend on a sync message from the first action before the second action begins processing business logic; the second action can begin immediately.|  
 |infotip|A tooltip used to provide a description for desktop, window, and Start menu commands, in Web views, and in the Windows Explorer Comment column when Details view is used.|  
 |inheriting|In the Trading Partner Management (TPM) Web service, the concept that a member profile will inherit all the preferences of its parent group. In the case of a non-inheriting group, the member profile does not inherit any preferences from the parent group. A non-inheriting group can be changed to an inheriting group; however, an inheriting group cannot be changed to non-inheriting group.|  
-|initerruptible orchestration|An orchestration that can be interrupted in mid-process at well-defined points.|  
+|interruptible orchestration|An orchestration that can be interrupted in mid-process at well-defined points.|  
 |In-process host|A host type that operates within the BizTalk Server process space. Any orchestration can be enlisted to an In-process host, and any send handler can be hosted by it. In-process hosts can only host receive handlers for In-process hosts (File adapter).|  
 |In-process receive adapter|An adapter that is hosted in the BizTalk Server processes. It is created, controlled, and destroyed by server processes.|  
 |Installation Wizard|A wizard that you can start during the final step of the Import Wizard to install a BizTalk application on the local computer.|  
