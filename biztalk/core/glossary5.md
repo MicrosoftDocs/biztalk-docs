@@ -1,6 +1,6 @@
 ---
 title: "Common terms and definitions | Microsoft Docs"
-description: Glossary of terms and and their meanings for BizTalk Server
+description: Glossary of terms and their meanings for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
