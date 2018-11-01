@@ -49,21 +49,21 @@ You can also adjust for daylight saving time (DST). When checked, the schedule a
 
     1. Use the **Daily** recurrence to run the receive port every *x* number of days, starting on the **From** date you choose, and only within the **service window** you choose:
 
-        ![Daily schedule](../core/media/daily-shcedule.png)
+        ![Daily schedule](../core/media/daily-schedule.png)
 
     2. Use the **Weekly** recurrence to run the receive port on a specific day within a week, and only within the **service window** you choose: 
 
-        ![Weekly schedule](../core/media/weekly-shcedule.png)
+        ![Weekly schedule](../core/media/weekly-schedule.png)
 
     3. Use the **Monthly** recurrence to run the receive port on a monthly schedule. The **Days** and **On** options are available. 
 	
         Use the **Days** recurrence to run the receive port on specific dates within the **months** you choose: 
 
-        ![Monthly schedule](../core/media/monthly-shcedule.PNG)
+        ![Monthly schedule](../core/media/monthly-schedule.PNG)
 
         Use the **On** recurrence to run the receive port on on specific days of the month:
 
-        ![monthly on schedule](../core/media/monthly-on-shcedule.PNG)
+        ![monthly on schedule](../core/media/monthly-on-schedule.PNG)
 
 5. Select **OK** to save your changes. 
 
