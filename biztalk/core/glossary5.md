@@ -437,7 +437,7 @@ The following terms and definitions are used in Microsoft [!INCLUDE[btsBizTalkSe
 |redeploy|The act of redeploying an assembly that already exists in the target environment by deleting the old bits and deploying the new ones.|  
 |rehydrate|To activate an idle orchestration in memory from persistent storage as a result of some event taking place, such as a message being received.|  
 |Relevance view|A view in BizTalk Mapper whereby non-relevant siblings of a schema element collapse to provide a more compact view of the schema. This reduces the need for scrolling, and brings the focus to the useful parts of the schema and map.|  
-|Reporting vews|A hierarchical set of views that show a business process or processes.|  
+|Reporting views|A hierarchical set of views that show a business process or processes.|  
 |repository|The storage container for the metadata used by Analysis Services. Metadata is stored in tables in a relational database and is used to define the parameters and properties of Analysis server objects. XML tools use the repository in read-write mode, while BizTalk Explorer accesses the data in read-only mode.|  
 |request-response adapter|A receive adapter that receives a request message from the client, submits it to the server, waits for a response, and then sends the response back to the client.|  
 |Return shape|A shape used to terminate an orchestration at some point before the orchestration's true end.  An example of this might be: If (security check passed) continue, else Return.|  
