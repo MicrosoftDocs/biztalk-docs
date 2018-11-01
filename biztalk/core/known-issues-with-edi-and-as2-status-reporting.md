@@ -99,7 +99,11 @@ This topic describes known issues with EDI status reporting in BizTalk Server.
   For example, if the value of ISA09 of an incoming message contains 991113, the status report will display the date as 11/13/1999.  
   
 ## Error message may be displayed as a string of question marks.  
- In BizTalk Server localized builds, if an error message is displayed as a string of question marks, you need to change the system locale according to the Operating System language to get the expected error message. For more information on changing the system locale, see [Change the system locale](http://windows.microsoft.com/windows-vista/Change-the-system-locale).  
+ In BizTalk Server localized builds, if an error message is displayed as a string of question marks, you need to change the system locale according to the Operating System language to get the expected error message. The specific steps vary depending on the operating system (OS), but the following steps may be similar to your OS: 
+ 
+ 1. Go to **Control Panel** > **Clock and Region** > **Region**.
+ 2. Select the **Administrative tab** > **Language for non-Unicode programs** > **Change system locale**.
+ 3. Choose your language > **OK** > **OK** to save your changes.
   
 ## See Also  
  [Troubleshooting EDI and AS2 Solutions](../core/troubleshooting-edi-and-as2-solutions.md)   
