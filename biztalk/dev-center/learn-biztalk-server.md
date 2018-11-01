@@ -1,6 +1,10 @@
 ---
 title: Learn Biztalk Server
 ms.prod: biztalk-server
+ms.author: mandia
+ms.date: 11/1/18
+ms.topic: conceptual
+
 ---
 
 ## Pluralsight training 
