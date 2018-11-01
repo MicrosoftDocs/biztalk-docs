@@ -51,7 +51,7 @@ The minimum hardware and software requirements are the same as BizTalk Server.
 ### Before you begin
 
 * For the BTARN database, BTARN only configures the SQL Server computer name and database name properties. Information about these properties is stored in the registry.
-* Sign in using an account that is a member of the the BizTalk Server Administrators group. 
+* Sign in using an account that is a member of the BizTalk Server Administrators group. 
 * In your BizTalk Server download, the BTARN setup is in the `\BizTalk Accelerators` folder.
 * BizTalk Server must be installed, and SQL Server must be running.
 * Both BTARN and BizTalk Server require Microsoft .NET Framework as software prerequisite. If you have multiple versions of .NET Framework installed on your computer, make sure that the BtarnAPP Web application is referencing .NET Framework 4.0 classic. You can configure this by using the Internet Information Services (IIS) Manager.  

@@ -41,7 +41,7 @@ The minimum hardware and software requirements are the same as [!INCLUDE[btsBizT
 
 ### Before you begin
 
-* Sign in using an account that is a member of the the BizTalk Server Administrators group. 
+* Sign in using an account that is a member of the BizTalk Server Administrators group. 
 * In your BizTalk Server download, the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] setup is in the `\BizTalk Accelerators` folder.
 * BizTalk Server must be installed, and SQL Server must be running.
 * A silent installation is supported, but is not recommended due to the complexity of the additional configuration steps that are required.
