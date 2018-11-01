@@ -22,7 +22,7 @@ manager: "anneta"
 In interactive—debug—mode, the Orchestration Debugger view contains three areas: Service pane, Tracked Events pane, and the Orchestration pane. In addition, in interactive mode, the Variable list and Variable properties display across the bottom of the view.  
   
 > [!NOTE]
->  The Orchestration Debugger cannot display the true state of the service unless it appears in In Breakpoint mode and you have attached it to the instance.  
+>  The Orchestration Debugger cannot display the true state of the service unless it appears in Breakpoint mode and you have attached it to the instance.  
   
 ## See Also  
  [Reporting Mode in Orchestration Debugger](../core/reporting-mode-in-orchestration-debugger.md)   
