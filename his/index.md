@@ -28,7 +28,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/his/his-what-is-his.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/his/his-what-is-his.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -47,7 +47,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-host-integration-whats-new.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-whats-new.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -66,7 +66,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-host-integration-install-configure.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-install-configure.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -85,7 +85,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-host-integration-core-documentation.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-core-documentation.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -104,7 +104,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/his/his-security.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/his/his-security.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -123,7 +123,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-host-integration-ole-db-provider.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-ole-db-provider.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">

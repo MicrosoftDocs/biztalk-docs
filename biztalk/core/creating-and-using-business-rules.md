@@ -36,7 +36,7 @@ Business rules (or business policies) define and control the structure, operatio
   
   The business rules (policy) you create by using the Business Rules Framework can be used in an orchestrated business process, as shown in the following figure.  
   
-  ![Diagram showing buisness policy in process.](../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
+  ![Diagram showing business policy in process.](../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
   Business Policy  
   
   This section provides conceptual information about how you can leverage the Business Rules Framework and use the tools that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides to develop business rules.  

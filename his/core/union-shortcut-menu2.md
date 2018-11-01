@@ -16,7 +16,7 @@ manager: "anneta"
 # Union Shortcut Menu
 When you select a union from the **Union** node in the **Library** tree, the following shortcut menu commands are available:  
   
- **Add Union Member:** Adds a union union to the selected union.  
+ **Add Union Member:** Adds a union to the selected union.  
   
  **Cut:** Copies the selected union to the clipboard and marks it as deleted.  
   

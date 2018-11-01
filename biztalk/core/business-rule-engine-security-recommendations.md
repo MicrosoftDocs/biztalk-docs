@@ -29,7 +29,7 @@ The Business Rule Engine is the runtime component of the Business Rule Framework
   
 -   BizTalk Server gives the account you used to install the update service logon as service rights and adds it to the RE_Host_Users SQL Server role on the Business Rule Engine database. If the account you use for installation is not the same you are going to use for running the update service, you must remove the installation account from the RE_Host_Users SQL Server role.  
 
--   If you don't use the same account as another BizTalk host service account, also add the RuleEngine service account to to BTS_HOST_USERS in BizTalkMgmtDb and BizTalkMsgBoxDb.
+-   If you don't use the same account as another BizTalk host service account, also add the RuleEngine service account to BTS_HOST_USERS in BizTalkMgmtDb and BizTalkMsgBoxDb.
 
 -   If you use the Update service component, you must install it on all BizTalk runtime computers. In order to retrieve a rule from the Rule Engine database, the update service impersonates the caller of the service.  
   

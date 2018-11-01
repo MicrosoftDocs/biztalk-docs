@@ -47,11 +47,11 @@ These release notes summarize the most important issues in [!INCLUDE[his2016](..
   
 -   Network Integration:  
   
-    -   SNA Configuration monitors the the SNA services features configured or unconfigured.
+    -   SNA Configuration monitors the SNA services features configured or unconfigured.
     
-    -   SNA Client monitors the the SNA client connections established by reporting the connection instance by type.
+    -   SNA Client monitors the SNA client connections established by reporting the connection instance by type.
 
-    -   SNA Sessions monitors the the SNA sessions connections established by reporting the session instance by type.
+    -   SNA Sessions monitors the SNA sessions connections established by reporting the session instance by type.
 
     -   Session Integrator monitors the connections established by reporting the connection instance by type.
     
