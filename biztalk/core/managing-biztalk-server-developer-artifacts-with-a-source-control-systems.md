@@ -100,7 +100,7 @@ Protecting your BizTalk project from unexpected system failures should be a top 
   
 5. Add the following to the end of the list of binary files. Verify there are semicolons between each file type:  
   
-    *.btm;\*.btp;\*.xsd;\*.odx  
+    \*.btm;\*.btp;\*.xsd;\*.odx  
   
 6. Click **OK**.  
   

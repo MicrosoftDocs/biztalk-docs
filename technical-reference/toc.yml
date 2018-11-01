@@ -1,0 +1,3344 @@
+- name: UI guidance and Developers reference
+  href: technical-reference5.md
+  items:
+  - name: UI Reference
+    href: ui-reference.md
+    items:
+    - name: Adapter UI Help
+      href: adapter-ui-help.md
+      items:
+      - name: <Host Name> Properties Dialog Box, Properties Tab (HTTP Adapter Send Handler)
+        href: host-name-properties-dialog-box-properties-tab-http-adapter-send-handler.md
+      - name: <Host Name> Properties Dialog Box, Proxy Tab (HTTP Adapter Send Handler)
+        href: host-name-properties-dialog-box-proxy-tab-http-adapter-send-handler.md
+      - name: <Host Name> Properties Dialog Box, General Tab (HTTP Adapter Receive Handler)
+        href: host-name-properties-dialog-box-general-tab-http-adapter-receive-handler.md
+      - name: <Host Name> Properties Dialog Box, Properties Tab (SMTP Adapter)
+        href: host-name-properties-dialog-box-properties-tab-smtp-adapter.md
+      - name: <Host Name> Properties Dialog Box, Proxy Tab (SOAP Adapter)
+        href: host-name-properties-dialog-box-proxy-tab-soap-adapter.md
+      - name: <Host Name> Properties Dialog Box, Properties Tab (FTP Adapter Send Handler)
+        href: host-name-properties-dialog-box-properties-tab-ftp-adapter-send-handler.md
+      - name: <Host Name> Properties Dialog Box, Properties Tab (FTP Adapter Receive Handler)
+        href: host-name-properties-dialog-box-properties-tab-ftp-adapter-receive-handler.md
+      - name: <Host Name> Properties Dialog Box, Properties Tab (MQSeries Adapter Send Handler)
+        href: host-name-properties-dialog-box-properties-tab-mqseries-adapter-send-handler.md
+      - name: <Host Name> Properties Dialog Box, Properties Tab (MQSeries Adapter Receive Handler)
+        href: host-name-properties-dialog-box-properties-tab-mqseries-adapter-receive-handler.md
+      - name: <Host Name> Properties Dialog Box, Properties Tab (MSMQ Adapter Send Handler)
+        href: host-name-properties-dialog-box-properties-tab-msmq-adapter-send-handler.md
+      - name: Windows SharePoint Services Transport Properties Dialog Box, Receive
+        href: windows-sharepoint-services-transport-properties-dialog-box-receive.md
+      - name: Windows SharePoint Services Transport Properties Dialog Box, Send
+        href: windows-sharepoint-services-transport-properties-dialog-box-send.md
+      - name: File Transport Properties Dialog Box, Receive, General Tab
+        href: file-transport-properties-dialog-box-receive-general-tab.md
+      - name: File Transport Properties Dialog Box, Receive, Authentication Tab
+        href: file-transport-properties-dialog-box-receive-authentication-tab.md
+      - name: File Transport Properties Dialog Box, Receive, Batching Tab
+        href: file-transport-properties-dialog-box-receive-batching-tab.md
+      - name: File Transport Properties Dialog Box, Receive, Advanced Settings Dialog Box
+        href: file-transport-properties-dialog-box-receive-advanced-settings-dialog-box.md
+      - name: File Transport Properties Dialog Box, Send, General Tab
+        href: file-transport-properties-dialog-box-send-general-tab.md
+      - name: File Transport Properties Dialog Box, Send, Authentication Tab
+        href: file-transport-properties-dialog-box-send-authentication-tab.md
+      - name: HTTP Transport Properties Dialog Box
+        href: http-transport-properties-dialog-box.md
+      - name: HTTP Transport Properties Dialog Box, General Tab
+        href: http-transport-properties-dialog-box-general-tab.md
+      - name: HTTP Transport Properties Dialog Box, Proxy Tab
+        href: http-transport-properties-dialog-box-proxy-tab.md
+      - name: HTTP Transport Properties Dialog Box, Authentication Tab
+        href: http-transport-properties-dialog-box-authentication-tab.md
+      - name: SMTP Transport Properties Dialog Box, General Tab
+        href: smtp-transport-properties-dialog-box-general-tab.md
+      - name: SMTP Transport Properties Dialog Box, Handler Override Tab
+        href: smtp-transport-properties-dialog-box-handler-override-tab.md
+      - name: SOAP Transport Properties Dialog Box
+        href: soap-transport-properties-dialog-box.md
+      - name: SOAP Transport Properties Dialog Box, General Tab
+        href: soap-transport-properties-dialog-box-general-tab.md
+      - name: SOAP Transport Properties Dialog Box, Proxy Tab
+        href: soap-transport-properties-dialog-box-proxy-tab.md
+      - name: FTP Transport Properties Dialog Box, Receive
+        href: ftp-transport-properties-dialog-box-receive.md
+      - name: FTP Transport Properties Dialog Box, Send
+        href: ftp-transport-properties-dialog-box-send.md
+      - name: Custom Adapter Receive Location Dialog Box
+        href: custom-adapter-receive-location-dialog-box.md
+      - name: Custom Adapter Receive Handler Dialog Box
+        href: custom-adapter-receive-handler-dialog-box.md
+      - name: Custom Adapter Send Port Dialog Box
+        href: custom-adapter-send-port-dialog-box.md
+      - name: Custom Adapter Send Handler Dialog Box
+        href: custom-adapter-send-handler-dialog-box.md
+      - name: Add Adapter Metadata Wizard Dialog Box
+        href: add-adapter-metadata-wizard-dialog-box.md
+      - name: SMTP Transport Properties Dialog Box, Compose Tab
+        href: smtp-transport-properties-dialog-box-compose-tab.md
+      - name: SMTP Transport Properties Dialog Box, Attachments Tab
+        href: smtp-transport-properties-dialog-box-attachments-tab.md
+      - name: SOAP Transport Properties Dialog Box, Web service Tab
+        href: soap-transport-properties-dialog-box-web-service-tab.md
+      - name: POP3 Transport Properties Dialog Box
+        href: pop3-transport-properties-dialog-box.md
+      - name: MQSeries Transport Properties Dialog Box, Send
+        href: mqseries-transport-properties-dialog-box-send.md
+      - name: MQSeries Transport Properties Dialog Box, Receive
+        href: mqseries-transport-properties-dialog-box-receive.md
+      - name: MSMQ Transport Properties Dialog Box, Send
+        href: msmq-transport-properties-dialog-box-send.md
+      - name: MSMQ Transport Properties Dialog Box, Receive
+        href: msmq-transport-properties-dialog-box-receive.md
+      - name: WCF Adapters UI Help
+        href: wcf-adapters-ui-help.md
+        items:
+        - name: WCF Adapters Transport Properties Dialog Box, General Tab, Identity Editor
+          href: wcf-adapters-transport-properties-dialog-box-general-tab-identity-editor.md
+        - name: WCF Adapters Transport Properties Dialog Box, Send, Client Credentials
+          href: wcf-adapters-transport-properties-dialog-box-send-client-credentials.md
+        - name: WCF-BasicHttp Transport Properties Dialog Box, Send, General Tab
+          href: wcf-basichttp-transport-properties-dialog-box-send-general-tab.md
+        - name: WCF-BasicHttp Transport Properties Dialog Box, Send, Binding Tab
+          href: wcf-basichttp-transport-properties-dialog-box-send-binding-tab.md
+        - name: WCF-BasicHttp Transport Properties Dialog Box, Send, Security Tab
+          href: wcf-basichttp-transport-properties-dialog-box-send-security-tab.md
+        - name: WCF-BasicHttp Transport Properties Dialog Box, Send, Proxy Tab
+          href: wcf-basichttp-transport-properties-dialog-box-send-proxy-tab.md
+        - name: WCF-BasicHttp Transport Properties Dialog Box, Send, Messages Tab
+          href: wcf-basichttp-transport-properties-dialog-box-send-messages-tab.md
+        - name: WCF-BasicHttp Transport Properties Dialog Box, Receive, General Tab
+          href: wcf-basichttp-transport-properties-dialog-box-receive-general-tab.md
+        - name: WCF-BasicHttp Transport Properties Dialog Box, Receive, Binding Tab
+          href: wcf-basichttp-transport-properties-dialog-box-receive-binding-tab.md
+        - name: WCF-BasicHttp Transport Properties Dialog Box, Receive, Security Tab
+          href: wcf-basichttp-transport-properties-dialog-box-receive-security-tab.md
+        - name: WCF-BasicHttp Transport Properties Dialog Box, Receive, Messages Tab
+          href: wcf-basichttp-transport-properties-dialog-box-receive-messages-tab.md
+        - name: WCF-WSHttp Transport Properties Dialog Box, Send, General Tab
+          href: wcf-wshttp-transport-properties-dialog-box-send-general-tab.md
+        - name: WCF-WSHttp Transport Properties Dialog Box, Send, Binding Tab
+          href: wcf-wshttp-transport-properties-dialog-box-send-binding-tab.md
+        - name: WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab
+          href: wcf-wshttp-transport-properties-dialog-box-send-security-tab.md
+        - name: WCF-WSHttp Transport Properties Dialog Box, Send, Proxy Tab
+          href: wcf-wshttp-transport-properties-dialog-box-send-proxy-tab.md
+        - name: WCF-WSHttp Transport Properties Dialog Box, Send, Messages Tab
+          href: wcf-wshttp-transport-properties-dialog-box-send-messages-tab.md
+        - name: WCF-WSHttp Transport Properties Dialog Box, Receive, General Tab
+          href: wcf-wshttp-transport-properties-dialog-box-receive-general-tab.md
+        - name: WCF-WSHttp Transport Properties Dialog Box, Receive, Binding Tab
+          href: wcf-wshttp-transport-properties-dialog-box-receive-binding-tab.md
+        - name: WCF-WSHttp Transport Properties Dialog Box, Receive, Security Tab
+          href: wcf-wshttp-transport-properties-dialog-box-receive-security-tab.md
+        - name: WCF-WSHttp Transport Properties Dialog Box, Receive, Messages Tab
+          href: wcf-wshttp-transport-properties-dialog-box-receive-messages-tab.md
+        - name: WCF-NetTcp Transport Properties Dialog Box, Send, General Tab
+          href: wcf-nettcp-transport-properties-dialog-box-send-general-tab.md
+        - name: WCF-NetTcp Transport Properties Dialog Box, Send, Binding Tab
+          href: wcf-nettcp-transport-properties-dialog-box-send-binding-tab.md
+        - name: WCF-NetTcp Transport Properties Dialog Box, Send, Security Tab
+          href: wcf-nettcp-transport-properties-dialog-box-send-security-tab.md
+        - name: WCF-NetTcp Transport Properties Dialog Box, Send, Messages Tab
+          href: wcf-nettcp-transport-properties-dialog-box-send-messages-tab.md
+        - name: WCF-NetTcp Transport Properties Dialog Box, Receive, General Tab
+          href: wcf-nettcp-transport-properties-dialog-box-receive-general-tab.md
+        - name: WCF-NetTcp Transport Properties Dialog Box, Receive, Binding Tab
+          href: wcf-nettcp-transport-properties-dialog-box-receive-binding-tab.md
+        - name: WCF-NetTcp Transport Properties Dialog Box, Receive, Security Tab
+          href: wcf-nettcp-transport-properties-dialog-box-receive-security-tab.md
+        - name: WCF-NetTcp Transport Properties Dialog Box, Receive, Messages Tab
+          href: wcf-nettcp-transport-properties-dialog-box-receive-messages-tab.md
+        - name: WCF-NetMsmq Transport Properties Dialog Box, Send, General Tab
+          href: wcf-netmsmq-transport-properties-dialog-box-send-general-tab.md
+        - name: WCF-NetMsmq Transport Properties Dialog Box, Send, Binding Tab
+          href: wcf-netmsmq-transport-properties-dialog-box-send-binding-tab.md
+        - name: WCF-NetMsmq Transport Properties Dialog Box, Send, Security Tab
+          href: wcf-netmsmq-transport-properties-dialog-box-send-security-tab.md
+        - name: WCF-NetMsmq Transport Properties Dialog Box, Send, Messages Tab
+          href: wcf-netmsmq-transport-properties-dialog-box-send-messages-tab.md
+        - name: WCF-NetMsmq Transport Properties Dialog Box, Receive, General Tab
+          href: wcf-netmsmq-transport-properties-dialog-box-receive-general-tab.md
+        - name: WCF-NetMsmq Transport Properties Dialog Box, Receive, Binding Tab
+          href: wcf-netmsmq-transport-properties-dialog-box-receive-binding-tab.md
+        - name: WCF-NetMsmq Transport Properties Dialog Box, Receive, Security Tab
+          href: wcf-netmsmq-transport-properties-dialog-box-receive-security-tab.md
+        - name: WCF-NetMsmq Transport Properties Dialog Box, Receive, Messages Tab
+          href: wcf-netmsmq-transport-properties-dialog-box-receive-messages-tab.md
+        - name: WCF-NetNamedPipe Transport Properties Dialog Box, Send, General Tab
+          href: wcf-netnamedpipe-transport-properties-dialog-box-send-general-tab.md
+        - name: WCF-NetNamedPipe Transport Properties Dialog Box, Send, Binding Tab
+          href: wcf-netnamedpipe-transport-properties-dialog-box-send-binding-tab.md
+        - name: WCF-NetNamedPipe Transport Properties Dialog Box, Send, Security Tab
+          href: wcf-netnamedpipe-transport-properties-dialog-box-send-security-tab.md
+        - name: WCF-NetNamedPipe Transport Properties Dialog Box, Send, Messages Tab
+          href: wcf-netnamedpipe-transport-properties-dialog-box-send-messages-tab.md
+        - name: WCF-NetNamedPipe Transport Properties Dialog Box, Receive, General Tab
+          href: wcf-netnamedpipe-transport-properties-dialog-box-receive-general-tab.md
+        - name: WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Binding Tab
+          href: wcf-netnamedpipe-transport-properties-dialog-box-receive-binding-tab.md
+        - name: WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Security Tab
+          href: wcf-netnamedpipe-transport-properties-dialog-box-receive-security-tab.md
+        - name: WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Messages Tab
+          href: wcf-netnamedpipe-transport-properties-dialog-box-receive-messages-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Send, General Tab
+          href: wcf-custom-transport-properties-dialog-box-send-general-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Send, Binding Tab
+          href: wcf-custom-transport-properties-dialog-box-send-binding-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Send, Behavior Tab
+          href: wcf-custom-transport-properties-dialog-box-send-behavior-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Send, Credentials Tab
+          href: wcf-custom-transport-properties-dialog-box-send-credentials-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Send, Messages Tab
+          href: wcf-custom-transport-properties-dialog-box-send-messages-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Send, Import-Export Tab
+          href: wcf-custom-transport-properties-dialog-box-send-import-export-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Receive, General Tab
+          href: wcf-custom-transport-properties-dialog-box-receive-general-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Receive, Binding Tab
+          href: wcf-custom-transport-properties-dialog-box-receive-binding-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Receive, Behavior Tab
+          href: wcf-custom-transport-properties-dialog-box-receive-behavior-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Receive, Other Tab
+          href: wcf-custom-transport-properties-dialog-box-receive-other-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Receive, Messages Tab
+          href: wcf-custom-transport-properties-dialog-box-receive-messages-tab.md
+        - name: WCF-Custom Transport Properties Dialog Box, Receive, Import-Export Tab
+          href: wcf-custom-transport-properties-dialog-box-receive-import-export-tab.md
+        - name: <Host Name> Properties Dialog Box, Proxy Tab (WCF-BasicHttp Adapter Send Handler)
+          href: host-name-properties-dialog-box-proxy-tab-wcf-basichttp-adapter-send-handler.md
+        - name: <Host Name> Properties Dialog Box, Proxy Tab (WCF-WSHttp Adapter Send Handler)
+          href: host-name-properties-dialog-box-proxy-tab-wcf-wshttp-adapter-send-handler.md
+        - name: <Host Name> Properties Dialog Box, Send Handler Tab (WCF-NetNamedPipe Adapter Send Handler)
+          href: host-name-properties-dialog-box-send-handler-tab-wcf-netnamedpipe-adapter-send-handler.md
+        - name: <Host Name> Properties Dialog Box, Receive Handler Tab (WCF-NetNamedPipe Adapter Receive Handler)
+          href: host-name-properties-dialog-box-receive-handler-tab-wcf-netnamedpipe-adapter-receive-handler.md
+        - name: <Host Name> Properties Dialog Box, Send Handler Tab (WCF-NetTcp Adapter Send Handler)
+          href: host-name-properties-dialog-box-send-handler-tab-wcf-nettcp-adapter-send-handler.md
+        - name: <Host Name> Properties Dialog Box, Receive Handler Tab (WCF-NetTcp Adapter Receive Handler)
+          href: host-name-properties-dialog-box-receive-handler-tab-wcf-nettcp-adapter-receive-handler.md
+        - name: <Host Name> Properties Dialog Box, WCF Extensions Tab (WCF-Custom Adapter Send Handler)
+          href: host-name-properties-dialog-box-wcf-extensions-tab-wcf-custom-adapter-send-handler.md
+        - name: <Host Name> Properties Dialog Box, WCF Extensions Tab (WCF-Custom or WCF-CustomIsolated Adapter Receive Handler)
+          href: host-name-properties-dialog-box-wcf-extensions-tab-wcf-custom-or-wcf-customisolated-adapter-receive-handler.md
+    - name: Assembly Viewer UI Help
+      href: assembly-viewer-ui-help.md
+      items:
+      - name: BTSAssembly Viewer Windows Explorer Extension, BizTalk Server Assemblies Screen
+        href: btsassembly-viewer-windows-explorer-extension-biztalk-server-assemblies-screen.md
+    - name: BizTalk Editor UI Help
+      href: biztalk-editor-ui-help.md
+      items:
+      - name: Body XPath Dialog Box
+        href: body-xpath-dialog-box.md
+      - name: Cleanup Global DataTypes Dialog Box
+        href: cleanup-global-datatypes-dialog-box.md
+      - name: CodeList Dialog Box
+        href: codelist-dialog-box.md
+      - name: Edit Instance XPath Dialog Box
+        href: edit-instance-xpath-dialog-box.md
+      - name: Generate Schemas Dialog Box
+        href: generate-schemas-dialog-box.md
+      - name: Imports Dialog Box
+        href: imports-dialog-box.md
+      - name: Notes Dialog Box
+        href: notes-dialog-box.md
+      - name: Options Dialog Box, BizTalk Editor Section
+        href: options-dialog-box-biztalk-editor-section.md
+      - name: Promote Properties Dialog Box
+        href: promote-properties-dialog-box.md
+      - name: Schema Editor Extensions Dialog Box
+        href: schema-editor-extensions-dialog-box.md
+    - name: BizTalk Mapper UI Help
+      href: biztalk-mapper-ui-help.md
+      items:
+      - name: BizTalk Mapper Grid
+        href: biztalk-mapper-grid.md
+      - name: Configure <Functoid> Functoid Dialog Box
+        href: configure-functoid-functoid-dialog-box.md
+      - name: Configure Functoid Script Dialog Box
+        href: configure-functoid-script-dialog-box.md
+      - name: Choose Toolbox Items Dialog Box, BizTalk Mapper Functoids Tab
+        href: choose-toolbox-items-dialog-box-biztalk-mapper-functoids-tab.md
+      - name: Grid Preview Dialog Box
+        href: grid-preview-dialog-box.md
+      - name: <Map File> Property Page Dialog Box, Test Map Tab
+        href: map-file-property-page-dialog-box-test-map-tab.md
+      - name: Options Dialog Box, BizTalk Mapper Section
+        href: options-dialog-box-biztalk-mapper-section.md
+      - name: Script Type Precedence Dialog Box
+        href: script-type-precedence-dialog-box.md
+      - name: Configure Table Looping Functoid Dialog Box, Table Looping Grid Tab
+        href: configure-table-looping-functoid-dialog-box-table-looping-grid-tab.md
+    - name: BPEL Import Wizard UI Help
+      href: bpel-import-wizard-ui-help.md
+      items:
+      - name: BPEL Import Wizard Pages
+        href: bpel-import-wizard-pages.md
+    - name: Business Rule Composer UI Help
+      href: business-rule-composer-ui-help.md
+      items:
+      - name: Business Rule Composer
+        href: business-rule-composer.md
+      - name: Policy Explorer
+        href: policy-explorer.md
+      - name: Facts Explorer, Vocabularies Tab
+        href: facts-explorer-vocabularies-tab.md
+      - name: Facts Explorer, XML Schemas Tab
+        href: facts-explorer-xml-schemas-tab.md
+      - name: Facts Explorer, Databases Tab
+        href: facts-explorer-databases-tab.md
+      - name: Facts Explorer, .NET Classes Tab
+        href: facts-explorer-net-classes-tab.md
+      - name: Properties Window
+        href: properties-window.md
+      - name: Policy Instructions Page
+        href: policy-instructions-page.md
+      - name: Rule Editor
+        href: rule-editor.md
+      - name: Vocabulary Definition Wizard
+        href: vocabulary-definition-wizard.md
+      - name: Constant Value, Range of Values, or Set of Values Page
+        href: constant-value-range-of-values-or-set-of-values-page.md
+      - name: Define a Constant Value Page
+        href: define-a-constant-value-page.md
+      - name: Define a Range of Values Page
+        href: define-a-range-of-values-page.md
+      - name: Define a Set of Values Page
+        href: define-a-set-of-values-page.md
+      - name: .NET Class Definition Page
+        href: net-class-definition-page.md
+      - name: Database Definition Page
+        href: database-definition-page.md
+      - name: XML Definition Page
+        href: xml-definition-page.md
+      - name: Display Name Page
+        href: display-name-page.md
+      - name: Parameter Definition Window
+        href: parameter-definition-window.md
+      - name: Conditions Editor
+        href: conditions-editor.md
+      - name: Actions Editor
+        href: actions-editor.md
+      - name: Fact Creator List View
+        href: fact-creator-list-view.md
+      - name: Fact Retriever Dialog Box
+        href: fact-retriever-dialog-box.md
+      - name: Translator Dialog Box
+        href: translator-dialog-box.md
+      - name: Output Window
+        href: output-window.md
+      - name: Test Policy Window
+        href: test-policy-window.md
+    - name: Configuration Wizard UI Help
+      href: configuration-wizard-ui-help.md
+      items:
+      - name: Configuration Wizard, Overview Page
+        href: configuration-wizard-overview-page.md
+      - name: Configuration Wizard, Group Page
+        href: configuration-wizard-group-page.md
+      - name: Configuration Wizard, Enterprise Single Sign-On Page
+        href: configuration-wizard-enterprise-single-sign-on-page.md
+      - name: Configuration Wizard, Runtime Page
+        href: configuration-wizard-runtime-page.md
+      - name: Configuration Wizard, Business Rules Engine Page
+        href: configuration-wizard-business-rules-engine-page.md
+      - name: Configuration Wizard, Windows SharePoint Services Page
+        href: configuration-wizard-windows-sharepoint-services-page.md
+      - name: Configuration Wizard, Business Activity Monitoring - Tools Page
+        href: configuration-wizard-business-activity-monitoring-tools-page.md
+      - name: Configuration Wizard, Business Activity Monitoring - Portal Page
+        href: configuration-wizard-business-activity-monitoring-portal-page.md
+      - name: Configuration Wizard, Start Page
+        href: configuration-wizard-start-page.md
+      - name: Configuration Wizard, Consolidated Databases View Page
+        href: configuration-wizard-consolidated-databases-view-page.md
+      - name: Configuration Wizard, Consolidated Service Accounts View Page
+        href: configuration-wizard-consolidated-service-accounts-view-page.md
+      - name: Configuration Wizard, Summary Page
+        href: configuration-wizard-summary-page.md
+      - name: Configuration Wizard, Progress Page
+        href: configuration-wizard-progress-page.md
+      - name: Configuration Wizard, Configuration Complete Page
+        href: configuration-wizard-configuration-complete-page.md
+      - name: Configuration Wizard, Unconfigure Features Page
+        href: configuration-wizard-unconfigure-features-page.md
+      - name: Configuration Wizard, Customer Feedback Options Page
+        href: configuration-wizard-customer-feedback-options-page.md
+      - name: Configuration Wizard, Microsoft Update Options Page
+        href: configuration-wizard-microsoft-update-options-page.md
+      - name: Configuration Wizard, Service Accounts Page
+        href: configuration-wizard-service-accounts-page.md
+      - name: Configuration Wizard, Database Accounts Page
+        href: configuration-wizard-database-accounts-page.md
+    - name: EDI and AS2 UI Help
+      href: edi-and-as2-ui-help.md
+      items:
+      - name: Batches Properties Page
+        href: batches-properties-page.md
+        items:
+        - name: Batch Filter Page
+          href: batch-filter-page.md
+        - name: Batch Schedule Page
+          href: batch-schedule-page.md
+      - name: EDI-AS2 Status Reports UI
+        href: edi-as2-status-reports-ui.md
+        items:
+        - name: EDI Interchange and Correlated ACK Status Page UI
+          href: edi-interchange-and-correlated-ack-status-page-ui.md
+          items:
+          - name: Interchange Status and ACK Details Page UI
+            href: interchange-status-and-ack-details-page-ui.md
+          - name: Transaction Set Details Page UI
+            href: transaction-set-details-page-ui.md
+          - name: Message Content Status Page UI
+            href: message-content-status-page-ui.md
+        - name: Batch Status Page UI
+          href: batch-status-page-ui.md
+        - name: Interchange Aggregation Report Page UI
+          href: interchange-aggregation-report-page-ui.md
+        - name: Transaction Set Aggregation Report Page UI
+          href: transaction-set-aggregation-report-page-ui.md
+        - name: AS2 Message and Correlated MDN Status Page UI
+          href: as2-message-and-correlated-mdn-status-page-ui.md
+          items:
+          - name: Message Wire Format Page UI
+            href: message-wire-format-page-ui.md
+          - name: Message Decoded Page UI
+            href: message-decoded-page-ui.md
+          - name: MDN Message Page UI
+            href: mdn-message-page-ui.md
+          - name: Resend Status Details Page UI
+            href: resend-status-details-page-ui.md
+      - name: EDI Design-Time XML Tools UI Help
+        href: edi-design-time-xml-tools-ui-help.md
+        items:
+        - name: EDI Instance Properties Dialog Box UI Help
+          href: edi-instance-properties-dialog-box-ui-help.md
+    - name: Administration UI Help
+      href: administration-ui-help.md
+      items:
+      - name: BizTalk Server Administration Console UI Help
+        href: biztalk-server-administration-console-ui-help.md
+        items:
+        - name: MMC 3.0 Console Tree Nodes
+          href: mmc-3-0-console-tree-nodes.md
+          items:
+          - name: Microsoft BizTalk Server 2013 Administration Node
+            href: microsoft-biztalk-server-2013-administration-node.md
+          - name: BizTalk GroupNode
+            href: biztalk-groupnode.md
+          - name: Applications Node
+            href: applications-node.md
+            items:
+            - name: <All Artifacts> Node
+              href: all-artifacts-node.md
+            - name: <Application Name> Node
+              href: application-name-node.md
+              items:
+              - name: Orchestrations Node
+                href: orchestrations-node.md
+              - name: Role Links Node
+                href: role-links-node.md
+              - name: Send Port Groups Node
+                href: send-port-groups-node.md
+              - name: Send Ports Node
+                href: send-ports-node.md
+              - name: Receive Ports Node
+                href: receive-ports-node.md
+              - name: Receive Locations Node
+                href: receive-locations-node.md
+              - name: Policies Node
+                href: policies-node.md
+              - name: Schemas Node
+                href: https://docs.microsoft.com/biztalk/core/schemas-node?redirectedfrom=MSDN
+              - name: Maps Node
+                href: maps-node.md
+              - name: Pipelines Node
+                href: pipelines-node.md
+              - name: Resources Node
+                href: resources-node.md
+          - name: Parties Node
+            href: parties-node.md
+          - name: Platform Settings Node
+            href: platform-settings-node.md
+            items:
+            - name: Hosts Node
+              href: hosts-node.md
+            - name: Host Instances Node
+              href: host-instances-node.md
+            - name: Servers Node
+              href: servers-node.md
+            - name: Message Boxes Node
+              href: message-boxes-node.md
+            - name: Adapters Node
+              href: adapters-node.md
+              items:
+              - name: <Adapter Type> Node
+                href: adapter-type-node.md
+        - name: Properties Pages
+          href: properties-pages.md
+          items:
+          - name: Group Properties Dialog Box
+            href: group-properties-dialog-box.md
+          - name: Application Properties Dialog Box
+            href: application-properties-dialog-box.md
+          - name: Orchestration Properties Dialog Box
+            href: orchestration-properties-dialog-box.md
+          - name: Role Link Properties Dialog Box
+            href: role-link-properties-dialog-box.md
+          - name: Send Port Group Properties Dialog Box
+            href: send-port-group-properties-dialog-box.md
+          - name: Send Port Properties Dialog Box
+            href: send-port-properties-dialog-box.md
+          - name: Receive Port Properties Dialog Box
+            href: receive-port-properties-dialog-box.md
+          - name: Receive Location Properties Dialog Box
+            href: receive-location-properties-dialog-box.md
+          - name: Policy Properties Dialog Box
+            href: policy-properties-dialog-box.md
+          - name: Schema Properties Dialog Box
+            href: schema-properties-dialog-box.md
+          - name: Map Properties Dialog Box
+            href: map-properties-dialog-box.md
+          - name: Pipeline Properties Dialog Box
+            href: pipeline-properties-dialog-box.md
+          - name: Party Properties Dialog Box
+            href: party-properties-dialog-box.md
+          - name: Host Properties Dialog Box
+            href: host-properties-dialog-box.md
+          - name: Host Instance Properties Dialog Box
+            href: host-instance-properties-dialog-box.md
+          - name: MessageBox Properties Dialog Box
+            href: messagebox-properties-dialog-box.md
+          - name: Adapter Properties Dialog Box
+            href: adapter-properties-dialog-box.md
+          - name: Adapter Handler Properties Dialog Box
+            href: adapter-handler-properties-dialog-box.md
+          - name: Message Details Properties Dialog Box
+            href: message-details-properties-dialog-box.md
+          - name: Service Instance and Message Instance States
+            href: service-instance-and-message-instance-states.md
+          - name: Service Details Properties Dialog Box
+            href: service-details-properties-dialog-box.md
+          - name: Subscription Details Properties Dialog Box
+            href: subscription-details-properties-dialog-box.md
+        - name: Dialog Boxes
+          href: dialog-boxes.md
+          items:
+          - name: Connect To Existing BizTalk Server Configuration Database Dialog Box
+            href: connect-to-existing-biztalk-server-configuration-database-dialog-box.md
+          - name: Connect To Existing BizTalk Tracking Database Dialog Box
+            href: connect-to-existing-biztalk-tracking-database-dialog-box.md
+          - name: Start Application Dialog Box
+            href: start-application-dialog-box.md
+          - name: Stop Application Dialog Box
+            href: stop-application-dialog-box.md
+          - name: Configure Application Dialog Box
+            href: configure-application-dialog-box.md
+          - name: Configure Pipeline Dialog Box
+            href: configure-pipeline-dialog-box.md
+          - name: Add Application Reference Dialog Box
+            href: add-application-reference-dialog-box.md
+          - name: Add Resources Dialog Box
+            href: add-resources-dialog-box.md
+          - name: Modify Resources Dialog Box
+            href: modify-resources-dialog-box.md
+          - name: Cluster Host Dialog Box
+            href: cluster-host-dialog-box.md
+          - name: Logon Credentials Dialog Box
+            href: logon-credentials-dialog-box.md
+          - name: Enlist Parties Dialog Box
+            href: enlist-parties-dialog-box.md
+          - name: Add Policies Dialog Box
+            href: add-policies-dialog-box.md
+          - name: Export Policies Dialog Box
+            href: export-policies-dialog-box.md
+          - name: Bind Party to Role Dialog Box
+            href: bind-party-to-role-dialog-box.md
+          - name: Select a Receive Port Dialog Box
+            href: select-a-receive-port-dialog-box.md
+          - name: Rename Dialog Box
+            href: rename-dialog-box.md
+          - name: New Send Port Dialog Box
+            href: new-send-port-dialog-box.md
+          - name: Move to Application Dialog Box
+            href: move-to-application-dialog-box.md
+          - name: Export Bindings Dialog Box
+            href: export-bindings-dialog-box.md
+        - name: Details Pane Objects
+          href: details-pane-objects.md
+          items:
+          - name: Orchestrations Node, Details Pane
+            href: orchestrations-node-details-pane.md
+          - name: Role Links Node, Details Pane
+            href: role-links-node-details-pane.md
+          - name: Send Port Groups Node, Details Pane
+            href: send-port-groups-node-details-pane.md
+          - name: Send Ports Node, Details Pane
+            href: send-ports-node-details-pane.md
+          - name: Receive Ports Node, Details Pane
+            href: receive-ports-node-details-pane.md
+          - name: Receive Locations Node, Details Pane
+            href: receive-locations-node-details-pane.md
+          - name: Policies Node, Details Pane
+            href: policies-node-details-pane.md
+          - name: Schemas Node, Details Pane
+            href: schemas-node-details-pane.md
+          - name: Maps Node, Details Pane
+            href: maps-node-details-pane.md
+          - name: Pipelines Node, Details Pane
+            href: pipelines-node-details-pane.md
+          - name: Resources Node, Details Pane
+            href: resources-node-details-pane.md
+          - name: Parties Node, Details Pane
+            href: parties-node-details-pane.md
+          - name: Hosts Node, Details Pane
+            href: hosts-node-details-pane.md
+          - name: Host Instances Node, Details Pane
+            href: host-instances-node-details-pane.md
+          - name: Servers Node, Details Pane
+            href: servers-node-details-pane.md
+          - name: MessageBoxes Node, Details Pane
+            href: messageboxes-node-details-pane.md
+          - name: Adapters Node, Details Pane
+            href: adapters-node-details-pane.md
+          - name: Adapter Handlers Node, Details Pane
+            href: adapter-handlers-node-details-pane.md
+      - name: BizTalk Settings Dashboard UI Help
+        href: biztalk-settings-dashboard-ui-help.md
+        items:
+        - name: BizTalk Settings Dashboard, Group Page
+          href: biztalk-settings-dashboard-group-page.md
+        - name: BizTalk Settings Dashboard, Host Page, General Tab
+          href: biztalk-settings-dashboard-host-page-general-tab.md
+        - name: BizTalk Settings Dashboard, Host Page, Resource Based Throttling Tab
+          href: biztalk-settings-dashboard-host-page-resource-based-throttling-tab.md
+        - name: BizTalk Settings Dashboard, Host Page, Rate Based Throttling Tab
+          href: biztalk-settings-dashboard-host-page-rate-based-throttling-tab.md
+        - name: BizTalk Settings Dashboard, Host Page, Orchestrations Throttling Tab
+          href: biztalk-settings-dashboard-host-page-orchestrations-throttling-tab.md
+        - name: BizTalk Settings Dashboard, Host Instances Page, .NET CLR Tab
+          href: biztalk-settings-dashboard-host-instances-page-net-clr-tab.md
+        - name: BizTalk Settings Dashboard, Host Instances Page, Orchestration Memory Throttling Tab
+          href: biztalk-settings-dashboard-host-instances-page-orchestration-memory-throttling-tab.md
+      - name: Import Settings Wizard UI Help
+        href: import-settings-wizard-ui-help.md
+        items:
+        - name: Import Settings Wizard, Specify File Location Page
+          href: import-settings-wizard-specify-file-location-page.md
+        - name: Import Settings Wizard, Host Mapping Page
+          href: import-settings-wizard-host-mapping-page.md
+        - name: Import Settings Wizard, Host Instance Mapping Page
+          href: import-settings-wizard-host-instance-mapping-page.md
+        - name: Import Settings Wizard, Import Summary Page
+          href: import-settings-wizard-import-summary-page.md
+        - name: Import Settings Wizard, Import Results Page
+          href: import-settings-wizard-import-results-page.md
+    - name: Orchestration Designer UI Help1
+      href: orchestration-designer-ui-help1.md
+      items:
+      - name: Orchestration Designer
+        href: orchestration-designer.md
+      - name: Call Orchestration Shape
+        href: call-orchestration-shape.md
+      - name: Catch Exception Block
+        href: catch-exception-block.md
+      - name: Compensate Shape
+        href: compensate-shape.md
+      - name: Compensation Block
+        href: compensation-block.md
+      - name: Construct Message Shape
+        href: construct-message-shape.md
+      - name: Decide Shape
+        href: decide-shape.md
+      - name: Decision Branch
+        href: decision-branch.md
+      - name: Delay Shape
+        href: delay-shape.md
+      - name: Start Orchestration Shape
+        href: start-orchestration-shape.md
+      - name: Listen Shape
+        href: listen-shape.md
+      - name: Listen Branch
+        href: listen-branch.md
+      - name: Message Assignment Shape
+        href: message-assignment-shape.md
+      - name: Parallel Actions Shape
+        href: parallel-actions-shape.md
+      - name: Parallel Branch
+        href: parallel-branch.md
+      - name: Receive Shape
+        href: receive-shape.md
+      - name: Scope Shape
+        href: scope-shape.md
+      - name: Send Shape
+        href: send-shape.md
+      - name: Role Link Shape
+        href: role-link-shape.md
+      - name: Suspend Shape
+        href: suspend-shape.md
+      - name: Group Shape
+        href: group-shape.md
+      - name: Terminate Shape
+        href: terminate-shape.md
+      - name: Throw Exception Shape
+        href: throw-exception-shape.md
+      - name: Transform Shape
+        href: transform-shape.md
+      - name: Expression Shape
+        href: expression-shape.md
+      - name: Loop Shape
+        href: loop-shape.md
+      - name: Call Rules Shape
+        href: call-rules-shape.md
+      - name: Orchestration View Window
+        href: orchestration-view-window.md
+      - name: Expression Editor
+        href: expression-editor.md
+      - name: Transform Configuration Dialog Box
+        href: transform-configuration-dialog-box.md
+      - name: Call Orchestration Configuration Dialog Box
+        href: call-orchestration-configuration-dialog-box.md
+      - name: Filter Expression Dialog Box
+        href: filter-expression-dialog-box.md
+      - name: Select Artifact Type Dialog Box
+        href: select-artifact-type-dialog-box.md
+      - name: Port Configuration Wizard
+        href: port-configuration-wizard.md
+      - name: Role Link Wizard
+        href: role-link-wizard.md
+      - name: Configure Correlation Properties Dialog Box
+        href: configure-correlation-properties-dialog-box.md
+      - name: Description Property
+        href: description-property.md
+      - name: Policy Configuration Dialog Box
+        href: policy-configuration-dialog-box.md
+    - name: Pipeline Designer UI Help
+      href: pipeline-designer-ui-help.md
+      items:
+      - name: Pipeline Design Surface
+        href: pipeline-design-surface.md
+      - name: Choose Toolbox Items Dialog Box, BizTalk Pipeline Components Tab
+        href: choose-toolbox-items-dialog-box-biztalk-pipeline-components-tab.md
+      - name: BizTalk Framework Assembler Pipeline Component Properties
+        href: biztalk-framework-assembler-pipeline-component-properties.md
+      - name: Flat File Assembler Pipeline Component Properties
+        href: flat-file-assembler-pipeline-component-properties.md
+      - name: XML Assembler Pipeline Component Properties
+        href: xml-assembler-pipeline-component-properties.md
+      - name: BizTalk Framework Disassembler Pipeline Component Properties
+        href: biztalk-framework-disassembler-pipeline-component-properties.md
+      - name: Flat File Disassembler Pipeline Component Properties
+        href: flat-file-disassembler-pipeline-component-properties.md
+      - name: XML Disassembler Pipeline Component Properties
+        href: xml-disassembler-pipeline-component-properties.md
+      - name: MIME-SMIME Decoder Pipeline Component Properties
+        href: mime-smime-decoder-pipeline-component-properties.md
+      - name: MIME-SMIME Encoder Pipeline Component Properties
+        href: mime-smime-encoder-pipeline-component-properties.md
+      - name: Party Resolution Pipeline Component Properties
+        href: party-resolution-pipeline-component-properties.md
+      - name: XML Validator Pipeline Component Properties
+        href: xml-validator-pipeline-component-properties.md
+    - name: Project System UI Help
+      href: project-system-ui-help.md
+      items:
+      - name: Deployment Page
+        href: deployment-page.md
+    - name: Rule Engine Deployment Wizard UI Help
+      href: rule-engine-deployment-wizard-ui-help.md
+    - name: Tracking Profile Editor UI Help
+      href: tracking-profile-editor-ui-help.md
+      items:
+      - name: Import BAM Activity Definition Dialog Box
+        href: import-bam-activity-definition-dialog-box.md
+      - name: Set Management Database Dialog Box
+        href: set-management-database-dialog-box.md
+      - name: Select Event Source Parent Assembly Dialog Box
+        href: select-event-source-parent-assembly-dialog-box.md
+      - name: Select Orchestration Dialog Box
+        href: select-orchestration-dialog-box.md
+      - name: Select Schema Dialog Box
+        href: select-schema-dialog-box.md
+      - name: Select Ports Dialog Box
+        href: select-ports-dialog-box.md
+    - name: Web Services UI Help
+      href: web-services-ui-help.md
+      items:
+      - name: BizTalk Web Services Publishing Wizard
+        href: biztalk-web-services-publishing-wizard.md
+    - name: WCF Service UI Help
+      href: wcf-service-ui-help.md
+      items:
+      - name: BizTalk WCF Service Publishing Wizard
+        href: biztalk-wcf-service-publishing-wizard.md
+      - name: BizTalk WCF Service Consuming Wizard
+        href: biztalk-wcf-service-consuming-wizard.md
+    - name: Setup & Upgrade Wizard UI Help
+      href: setup-upgrade-wizard-ui-help.md
+      items:
+      - name: Setup Wizard, Welcome Page
+        href: setup-wizard-welcome-page.md
+      - name: Setup Wizard, Redistributable Prerequisites Page
+        href: setup-wizard-redistributable-prerequisites-page.md
+      - name: Setup Wizard, Platform Prerequisites Page
+        href: setup-wizard-platform-prerequisites-page.md
+      - name: Setup Wizard, Download Installation Guide
+        href: setup-wizard-download-installation-guide.md
+    - name: BizTalk Flat File Schema Wizard UI Help
+      href: biztalk-flat-file-schema-wizard-ui-help.md
+      items:
+      - name: BizTalk Flat File Schema Wizard, Overview Page
+        href: biztalk-flat-file-schema-wizard-overview-page.md
+      - name: BizTalk Flat File Schema Wizard, Schema Information Page
+        href: biztalk-flat-file-schema-wizard-schema-information-page.md
+      - name: BizTalk Flat File Schema Wizard, Select Document Data Page
+        href: biztalk-flat-file-schema-wizard-select-document-data-page.md
+      - name: BizTalk Flat File Schema Wizard, Select Record Format Page
+        href: biztalk-flat-file-schema-wizard-select-record-format-page.md
+      - name: BizTalk Flat File Schema Wizard, Delimited Record Page
+        href: biztalk-flat-file-schema-wizard-delimited-record-page.md
+      - name: BizTalk Flat File Schema Wizard, Positional Record Page
+        href: biztalk-flat-file-schema-wizard-positional-record-page.md
+      - name: BizTalk Flat File Schema Wizard, Child Elements Page
+        href: biztalk-flat-file-schema-wizard-child-elements-page.md
+      - name: BizTalk Flat File Schema Wizard, Schema View Page
+        href: biztalk-flat-file-schema-wizard-schema-view-page.md
+      - name: BizTalk Flat File Schema Wizard, Summary Page
+        href: biztalk-flat-file-schema-wizard-summary-page.md
+    - name: Business Activity Monitoring Portal UI Help
+      href: business-activity-monitoring-portal-ui-help.md
+      items:
+      - name: Activity Status Portal Help
+        href: activity-status-portal-help.md
+      - name: Aggregation Viewer
+        href: aggregation-viewer.md
+      - name: Alert Manager
+        href: alert-manager.md
+      - name: Search
+        href: search.md
+      - name: Error
+        href: error.md
+      - name: View
+        href: view.md
+    - name: BAM Add-In for Excel
+      href: bam-add-in-for-excel.md
+      items:
+      - name: Business Activity Monitoring Activity Wizard
+        href: business-activity-monitoring-activity-wizard.md
+      - name: New Activity Dialog Box
+        href: new-activity-dialog-box.md
+      - name: New Activity Item Dialog Box
+        href: new-activity-item-dialog-box.md
+      - name: Welcome to the Business Activity Monitoring View Wizard
+        href: welcome-to-the-business-activity-monitoring-view-wizard.md
+      - name: Business Activity Monitoring View Wizard, BAM View Page
+        href: business-activity-monitoring-view-wizard-bam-view-page.md
+      - name: 'Business Activity Monitoring View Wizard, New-Edit BAM View: Name and Activities Page'
+        href: business-activity-monitoring-view-wizard-new-edit-bam-view-name-and-activities-page.md
+      - name: 'Business Activity Monitoring View Wizard, New-Edit BAM View: View Items Page'
+        href: business-activity-monitoring-view-wizard-new-edit-bam-view-view-items-page2.md
+      - name: 'Business Activity Monitoring View Wizard, New-Edit BAM View: View Items Page'
+        href: business-activity-monitoring-view-wizard-new-edit-bam-view-view-items-page1.md
+      - name: New Alias Dialog Box
+        href: new-alias-dialog-box.md
+      - name: New Duration Dialog Box
+        href: new-duration-dialog-box.md
+      - name: New Group Dialog Box
+        href: new-group-dialog-box2.md
+      - name: 'Business Activity Monitoring View Wizard, New-Edit BAM View: Aggregation Dimensions and Measures Page'
+        href: business-activity-monitoring-view-wizard-new-edit-bam-view-aggregation-dimensions-and-measures-page.md
+      - name: New Dimension Dialog Box
+        href: new-dimension-dialog-box.md
+      - name: New Range Dialog Box
+        href: new-range-dialog-box.md
+      - name: New Progress Stage
+        href: new-progress-stage.md
+      - name: New Measure Dialog Box
+        href: new-measure-dialog-box.md
+      - name: 'Business Activity Monitoring View Wizard, New-Edit BAM View: Summary Page'
+        href: business-activity-monitoring-view-wizard-new-edit-bam-view-summary-page.md
+      - name: Completing the Business Activity Monitoring View Wizard Page
+        href: completing-the-business-activity-monitoring-view-wizard-page.md
+        items:
+        - name: Select BAM Database Dialog Box
+          href: select-bam-database-dialog-box.md
+    - name: Enterprise Single Sign-On UI Help
+      href: enterprise-single-sign-on-ui-help.md
+      items:
+      - name: Create New Affiliate Application Wizard
+        href: create-new-affiliate-application-wizard.md
+        items:
+        - name: 'Create New Affiliate Application Wizard: Welcome'
+          href: create-new-affiliate-application-wizard-welcome.md
+        - name: 'Create New Affiliate Application Wizard: General'
+          href: create-new-affiliate-application-wizard-general.md
+        - name: 'Create New Affiliate Application Wizard: Accounts'
+          href: create-new-affiliate-application-wizard-accounts.md
+        - name: 'Create New Affiliate Application Wizard: Options'
+          href: create-new-affiliate-application-wizard-options.md
+        - name: 'Create New Affiliate Application Wizard: Fields'
+          href: create-new-affiliate-application-wizard-fields.md
+        - name: 'Create New Affiliate Application Wizard: Finish'
+          href: create-new-affiliate-application-wizard-finish.md
+      - name: Affiliate Applications Properties
+        href: affiliate-applications-properties.md
+        items:
+        - name: Affiliate Applications
+          href: affiliate-applications.md
+        - name: 'Affiliate Applications Properties: General'
+          href: affiliate-applications-properties-general.md
+        - name: 'Affiliate Applications Properties: Accounts'
+          href: affiliate-applications-properties-accounts.md
+        - name: 'Affiliate Applications Properties: Options'
+          href: affiliate-applications-properties-options.md
+        - name: 'Affiliate Applications Properties: Fields'
+          href: affiliate-applications-properties-fields.md
+      - name: Create New Password Sync Adapter Wizard
+        href: create-new-password-sync-adapter-wizard.md
+        items:
+        - name: 'Create New Password Sync Adapter Wizard: Welcome'
+          href: create-new-password-sync-adapter-wizard-welcome.md
+        - name: 'Create New Password Sync Adapter Wizard: General'
+          href: create-new-password-sync-adapter-wizard-general.md
+        - name: 'Create New Password Sync Adapter Wizard: Accounts'
+          href: create-new-password-sync-adapter-wizard-accounts.md
+        - name: 'Create New Password Sync Adapter Wizard: Options'
+          href: create-new-password-sync-adapter-wizard-options.md
+        - name: 'Create New Password Sync Adapter Wizard: Basic Filter'
+          href: create-new-password-sync-adapter-wizard-basic-filter.md
+        - name: 'Create New Password Sync Adapter Wizard: Advanced Filter'
+          href: create-new-password-sync-adapter-wizard-advanced-filter.md
+        - name: 'Create New Password Sync Adapter: Custom Properties'
+          href: create-new-password-sync-adapter-custom-properties.md
+        - name: 'Create New Password Sync Adapter Wizard: Finish'
+          href: create-new-password-sync-adapter-wizard-finish.md
+      - name: Password Sync Adapter Properties
+        href: password-sync-adapter-properties.md
+        items:
+        - name: Password Synchronization
+          href: password-synchronization1.md
+        - name: 'Password Sync Adapter Properties: General'
+          href: password-sync-adapter-properties-general.md
+        - name: 'Password Sync Adapter Properties: Accounts'
+          href: password-sync-adapter-properties-accounts.md
+        - name: 'Password Sync Adapter Properties: Options'
+          href: password-sync-adapter-properties-options.md
+        - name: 'Password Sync Adapter Properties: Basic'
+          href: password-sync-adapter-properties-basic.md
+        - name: 'Password Sync Adapter Properties: Advanced'
+          href: password-sync-adapter-properties-advanced.md
+        - name: 'Password Sync Adapter Properties: System'
+          href: password-sync-adapter-properties-system.md
+        - name: 'Password Sync Adapter Properties: Custom'
+          href: password-sync-adapter-properties-custom.md
+      - name: Mapping Wizard
+        href: mapping-wizard.md
+        items:
+        - name: 'Create New Mappings Wizard: Welcome'
+          href: create-new-mappings-wizard-welcome.md
+        - name: 'Create New Mappings Wizard: Mappings File Option'
+          href: create-new-mappings-wizard-mappings-file-option.md
+        - name: 'Create New Mappings Wizard: Files Location'
+          href: create-new-mappings-wizard-files-location.md
+        - name: 'Create New Mappings Wizard: Accounts'
+          href: create-new-mappings-wizard-accounts.md
+        - name: 'Create New Mappings Wizard: External User Name'
+          href: create-new-mappings-wizard-external-user-name.md
+        - name: 'Create New Mappings Wizard: Generate'
+          href: create-new-mappings-wizard-generate.md
+        - name: 'Create New Mappings Wizard: Options'
+          href: create-new-mappings-wizard-options.md
+        - name: 'Create New Mappings Wizard: Password'
+          href: create-new-mappings-wizard-password.md
+        - name: 'Create New Mappings Wizard: Create'
+          href: create-new-mappings-wizard-create.md
+        - name: 'Create New Mappings Wizard: Finish'
+          href: create-new-mappings-wizard-finish.md
+      - name: Enterprise Single Sign-On System
+        href: enterprise-single-sign-on-system.md
+        items:
+        - name: Enterprise Single Sign-On
+          href: enterprise-single-sign-on1.md
+        - name: 'SSO System Properties: Accounts'
+          href: sso-system-properties-accounts.md
+        - name: 'SSO System Properties: Audits'
+          href: sso-system-properties-audits.md
+        - name: 'SSO System Properties: General'
+          href: sso-system-properties-general.md
+        - name: 'SSO System Properties: Options'
+          href: sso-system-properties-options.md
+        - name: System
+          href: system.md
+        - name: System Main
+          href: system-main.md
+        - name: System Main Menu
+          href: system-main-menu.md
+      - name: Create Filter Wizard
+        href: create-filter-wizard.md
+        items:
+        - name: 'Create Filter Wizard: Welcome'
+          href: create-filter-wizard-welcome.md
+        - name: 'Create Filter Wizard: General'
+          href: create-filter-wizard-general.md
+        - name: 'Create Filter Wizard: Basic'
+          href: create-filter-wizard-basic.md
+        - name: 'Create Filter Wizard: Advanced'
+          href: create-filter-wizard-advanced.md
+        - name: 'Create Filter Wizard: Finish'
+          href: create-filter-wizard-finish.md
+        - name: 'Filter Properties: Basic'
+          href: filter-properties-basic.md
+        - name: 'Filter Properties: Advanced'
+          href: filter-properties-advanced.md
+      - name: Server Properties
+        href: server-properties.md
+        items:
+        - name: 'Server Properties: Audit Levels'
+          href: server-properties-audit-levels.md
+        - name: 'Server Properties: SSO Database'
+          href: server-properties-sso-database.md
+        - name: 'Server Properties: SSO Service'
+          href: server-properties-sso-service.md
+        - name: 'Server Properties: Password Sync Properties'
+          href: server-properties-password-sync-properties.md
+        - name: 'Server Properties: Advanced'
+          href: server-properties-advanced.md
+  - name: Application Deployment UI Help
+    href: application-deployment-ui-help.md
+    items:
+    - name: Add Policies Page
+      href: add-policies-page.md
+    - name: Export Policies Page
+      href: export-policies-page.md
+    - name: Export Bindings Page
+      href: export-bindings-page.md
+    - name: Export MSI File Wizard, Welcome Page
+      href: export-msi-file-wizard-welcome-page.md
+    - name: Export MSI File Wizard, Select Resources Page
+      href: export-msi-file-wizard-select-resources-page.md
+    - name: Export MSI File Wizard, Specify IIS Hosts Page
+      href: export-msi-file-wizard-specify-iis-hosts-page.md
+    - name: Export MSI File Wizard, Dependencies Page
+      href: export-msi-file-wizard-dependencies-page.md
+    - name: Export MSI File Wizard, Destination Page
+      href: export-msi-file-wizard-destination-page.md
+    - name: Export MSI File Wizard, Summary Page
+      href: export-msi-file-wizard-summary-page.md
+    - name: Import MSI Wizard, Welcome Page
+      href: import-msi-wizard-welcome-page.md
+    - name: Import MSI Wizard, Application Settings Page
+      href: import-msi-wizard-application-settings-page.md
+    - name: 'Import MSI Wizard: Application Target Environment Settings'
+      href: import-msi-wizard-application-target-environment-settings.md
+    - name: Import MSI Wizard, Import Summary Page
+      href: import-msi-wizard-import-summary-page.md
+    - name: Import MSI Wizard, Results Page
+      href: import-msi-wizard-results-page.md
+  - name: Developers Reference
+    href: developers-reference.md
+    items:
+    - name: COM Object Reference
+      href: com-object-reference.md
+      items:
+      - name: _BatchOperationType Enumeration (COM)
+        href: batchoperationtype-enumeration-com.md
+      - name: _BTBatchOperationStatus Structure (COM)
+        href: btbatchoperationstatus-structure-com.md
+        items:
+        - name: _BTBatchOperationStatus Members (COM)
+          href: btbatchoperationstatus-members-com.md
+        - name: _BTBatchOperationStatus Fields (COM)
+          href: btbatchoperationstatus-fields-com.md
+          items:
+          - name: _BTBatchOperationStatus.hrMessageStatus Field (COM)
+            href: btbatchoperationstatus-hrmessagestatus-field-com.md
+          - name: _BTBatchOperationStatus.hrStatus Field (COM)
+            href: btbatchoperationstatus-hrstatus-field-com.md
+          - name: _BTBatchOperationStatus.nMessageCount Field (COM)
+            href: btbatchoperationstatus-nmessagecount-field-com.md
+          - name: _BTBatchOperationStatus.Type Field (COM)
+            href: btbatchoperationstatus-type-field-com.md
+      - name: IAssemblerComponent Interface (COM)
+        href: iassemblercomponent-interface-com.md
+        items:
+        - name: IAssemblerComponent Members (COM)
+          href: iassemblercomponent-members-com.md
+        - name: IAssemblerComponent Methods (COM)
+          href: iassemblercomponent-methods-com.md
+          items:
+          - name: IAssemblerComponent.AddDocument Method (COM)
+            href: iassemblercomponent-adddocument-method-com.md
+          - name: IAssemblerComponent.Assemble Method (COM)
+            href: iassemblercomponent-assemble-method-com.md
+      - name: IBaseComponent Interface (COM)
+        href: ibasecomponent-interface-com.md
+        items:
+        - name: IBaseComponent Members (COM)
+          href: ibasecomponent-members-com.md
+        - name: IBaseComponent Properties (COM)
+          href: ibasecomponent-properties-com.md
+          items:
+          - name: IBaseComponent.Description Property (COM)
+            href: ibasecomponent-description-property-com.md
+          - name: IBaseComponent.Name Property (COM)
+            href: ibasecomponent-name-property-com.md
+          - name: IBaseComponent.Version Property (COM)
+            href: ibasecomponent-version-property-com.md
+      - name: IBaseMessage Interface (COM)
+        href: ibasemessage-interface-com.md
+        items:
+        - name: IBaseMessage Members (COM)
+          href: ibasemessage-members-com.md
+        - name: IBaseMessage Properties (COM)
+          href: ibasemessage-properties-com.md
+          items:
+          - name: IBaseMessage.BodyPart Property (COM)
+            href: ibasemessage-bodypart-property-com.md
+          - name: IBaseMessage.BodyPartName Property (COM)
+            href: ibasemessage-bodypartname-property-com.md
+          - name: IBaseMessage.Context Property (COM)
+            href: ibasemessage-context-property-com.md
+          - name: IBaseMessage.IsMutable Property (COM)
+            href: ibasemessage-ismutable-property-com.md
+          - name: IBaseMessage.MessageID Property (COM)
+            href: ibasemessage-messageid-property-com.md
+          - name: IBaseMessage.PartCount Property (COM)
+            href: ibasemessage-partcount-property-com.md
+        - name: IBaseMessage Methods (COM)
+          href: ibasemessage-methods-com.md
+          items:
+          - name: IBaseMessage.AddPart Method (COM)
+            href: ibasemessage-addpart-method-com.md
+          - name: IBaseMessage.GetErrorInfo Method (COM)
+            href: ibasemessage-geterrorinfo-method-com.md
+          - name: IBaseMessage.GetPart Method (COM)
+            href: ibasemessage-getpart-method-com.md
+          - name: IBaseMessage.GetPartByIndex Method (COM)
+            href: ibasemessage-getpartbyindex-method-com.md
+          - name: IBaseMessage.GetSize Method (COM)
+            href: ibasemessage-getsize-method-com.md
+          - name: IBaseMessage.RemovePart Method (COM)
+            href: ibasemessage-removepart-method-com.md
+          - name: IBaseMessage.SetErrorInfo Method (COM)
+            href: ibasemessage-seterrorinfo-method-com.md
+      - name: IBaseMessageContext Interface (COM)
+        href: ibasemessagecontext-interface-com.md
+        items:
+        - name: IBaseMessageContext Members (COM)
+          href: ibasemessagecontext-members-com.md
+        - name: IBaseMessageContext Methods (COM)
+          href: ibasemessagecontext-methods-com.md
+          items:
+          - name: IBaseMessageContext.AddPredicate Method (COM)
+            href: ibasemessagecontext-addpredicate-method-com.md
+          - name: IBaseMessageContext.CountProperties Method (COM)
+            href: ibasemessagecontext-countproperties-method-com.md
+          - name: IBaseMessageContext.GetPropertyType Method (COM)
+            href: ibasemessagecontext-getpropertytype-method-com.md
+          - name: IBaseMessageContext.IsPromoted Method (COM)
+            href: ibasemessagecontext-ispromoted-method-com.md
+          - name: IBaseMessageContext.Promote Method (COM)
+            href: ibasemessagecontext-promote-method-com.md
+          - name: IBaseMessageContext.Read Method (COM)
+            href: ibasemessagecontext-read-method-com.md
+          - name: IBaseMessageContext.ReadAt Method (COM)
+            href: ibasemessagecontext-readat-method-com.md
+          - name: IBaseMessageContext.Write Method (COM)
+            href: ibasemessagecontext-write-method-com.md
+      - name: IBaseMessageFactory Interface (COM)
+        href: ibasemessagefactory-interface-com.md
+        items:
+        - name: IBaseMessageFactory Members (COM)
+          href: ibasemessagefactory-members-com.md
+        - name: IBaseMessageFactory Methods (COM)
+          href: ibasemessagefactory-methods-com.md
+          items:
+          - name: IBaseMessageFactory.CreateMessage Method (COM)
+            href: ibasemessagefactory-createmessage-method-com.md
+          - name: IBaseMessageFactory.CreateMessageContext Method (COM)
+            href: ibasemessagefactory-createmessagecontext-method-com.md
+          - name: IBaseMessageFactory.CreateMessagePart Method (COM)
+            href: ibasemessagefactory-createmessagepart-method-com.md
+          - name: IBaseMessageFactory.CreatePropertyBag Method (COM)
+            href: ibasemessagefactory-createpropertybag-method-com.md
+      - name: IBaseMessagePart Interface (COM)
+        href: ibasemessagepart-interface-com.md
+        items:
+        - name: IBaseMessagePart Members (COM)
+          href: ibasemessagepart-members-com.md
+        - name: IBaseMessagePart Properties (COM)
+          href: ibasemessagepart-properties-com.md
+          items:
+          - name: IBaseMessagePart.Charset Property (COM)
+            href: ibasemessagepart-charset-property-com.md
+          - name: IBaseMessagePart.ContentType Property (COM)
+            href: ibasemessagepart-contenttype-property-com.md
+          - name: IBaseMessagePart.Data Property (COM)
+            href: ibasemessagepart-data-property-com.md
+          - name: IBaseMessagePart.IsMutable Property (COM)
+            href: ibasemessagepart-ismutable-property-com.md
+          - name: IBaseMessagePart.PartID Property (COM)
+            href: ibasemessagepart-partid-property-com.md
+          - name: IBaseMessagePart.PartProperties Property (COM)
+            href: ibasemessagepart-partproperties-property-com.md
+        - name: IBaseMessagePart Methods (COM)
+          href: ibasemessagepart-methods-com.md
+          items:
+          - name: IBaseMessagePart.GetOriginalDataStream Method (COM)
+            href: ibasemessagepart-getoriginaldatastream-method-com.md
+          - name: IBaseMessagePart.GetSize Method (COM)
+            href: ibasemessagepart-getsize-method-com.md
+      - name: IBasePropertyBag Interface (COM)
+        href: ibasepropertybag-interface-com.md
+        items:
+        - name: IBasePropertyBag Members (COM)
+          href: ibasepropertybag-members-com.md
+        - name: IBasePropertyBag Methods (COM)
+          href: ibasepropertybag-methods-com.md
+          items:
+          - name: IBasePropertyBag.CountProperties Method (COM)
+            href: ibasepropertybag-countproperties-method-com.md
+          - name: IBasePropertyBag.Read Method (COM)
+            href: ibasepropertybag-read-method-com.md
+          - name: IBasePropertyBag.ReadAt Method (COM)
+            href: ibasepropertybag-readat-method-com.md
+          - name: IBasePropertyBag.Write Method (COM)
+            href: ibasepropertybag-write-method-com.md
+      - name: IBTBatchCallBack Interface (COM)
+        href: ibtbatchcallback-interface-com.md
+        items:
+        - name: IBTBatchCallBack Members (COM)
+          href: ibtbatchcallback-members-com.md
+        - name: IBTBatchCallBack Methods (COM)
+          href: ibtbatchcallback-methods-com.md
+          items:
+          - name: IBTBatchCallBack.BatchComplete Method (COM)
+            href: ibtbatchcallback-batchcomplete-method-com.md
+      - name: IBTBatchTransmitter Interface (COM)
+        href: ibtbatchtransmitter-interface-com.md
+        items:
+        - name: IBTBatchTransmitter Members (COM)
+          href: ibtbatchtransmitter-members-com.md
+        - name: IBTBatchTransmitter Methods (COM)
+          href: ibtbatchtransmitter-methods-com.md
+          items:
+          - name: IBTBatchTransmitter.GetBatch Method (COM)
+            href: ibtbatchtransmitter-getbatch-method-com.md
+      - name: IBTDTCCommitConfirm Interface (COM)
+        href: ibtdtccommitconfirm-interface-com.md
+        items:
+        - name: IBTDTCCommitConfirm Members (COM)
+          href: ibtdtccommitconfirm-members-com.md
+        - name: IBTDTCCommitConfirm Methods (COM)
+          href: ibtdtccommitconfirm-methods-com.md
+          items:
+          - name: IBTDTCCommitConfirm.DTCCommitConfirm Method (COM)
+            href: ibtdtccommitconfirm-dtccommitconfirm-method-com.md
+      - name: IBTSTicket Interface (COM)
+        href: ibtsticket-interface-com.md
+        items:
+        - name: IBTSTicket Members (COM)
+          href: ibtsticket-members-com.md
+        - name: IBTSTicket Methods (COM)
+          href: ibtsticket-methods-com.md
+          items:
+          - name: IBTSTicket.ValidateAndRedeemTicket Method (COM)
+            href: ibtsticket-validateandredeemticket-method-com.md
+      - name: IBTTransmitter Interface (COM)
+        href: ibttransmitter-interface-com.md
+        items:
+        - name: IBTTransmitter Members (COM)
+          href: ibttransmitter-members-com.md
+        - name: IBTTransmitter Methods (COM)
+          href: ibttransmitter-methods-com.md
+          items:
+          - name: IBTTransmitter.Initialize Method (COM)
+            href: ibttransmitter-initialize-method-com.md
+          - name: IBTTransmitter.Terminate Method (COM)
+            href: ibttransmitter-terminate-method-com.md
+          - name: IBTTransmitter.TransmitMessage Method (COM)
+            href: ibttransmitter-transmitmessage-method-com.md
+      - name: IBTTransmitterBatch Interface (COM)
+        href: ibttransmitterbatch-interface-com.md
+        items:
+        - name: IBTTransmitterBatch Members (COM)
+          href: ibttransmitterbatch-members-com.md
+        - name: IBTTransmitterBatch Methods (COM)
+          href: ibttransmitterbatch-methods-com.md
+          items:
+          - name: IBTTransmitterBatch.BeginBatch Method (COM)
+            href: ibttransmitterbatch-beginbatch-method-com.md
+          - name: IBTTransmitterBatch.Clear Method (COM)
+            href: ibttransmitterbatch-clear-method-com.md
+          - name: IBTTransmitterBatch.Done Method (COM)
+            href: ibttransmitterbatch-done-method-com.md
+          - name: IBTTransmitterBatch.TransmitMessage Method (COM)
+            href: ibttransmitterbatch-transmitmessage-method-com.md
+      - name: IBTTransport Interface (COM)
+        href: ibttransport-interface-com.md
+        items:
+        - name: IBTTransport Members (COM)
+          href: ibttransport-members-com.md
+        - name: IBTTransport Properties (COM)
+          href: ibttransport-properties-com.md
+          items:
+          - name: IBTTransport.ClassID Property (COM)
+            href: ibttransport-classid-property-com.md
+          - name: IBTTransport.Description Property (COM)
+            href: ibttransport-description-property-com.md
+          - name: IBTTransport.Name Property (COM)
+            href: ibttransport-name-property-com.md
+          - name: IBTTransport.TransportType Property (COM)
+            href: ibttransport-transporttype-property-com.md
+          - name: IBTTransport.Version Property (COM)
+            href: ibttransport-version-property-com.md
+      - name: IBTTransportBatch Interface (COM)
+        href: ibttransportbatch-interface-com.md
+        items:
+        - name: IBTTransportBatch Members (COM)
+          href: ibttransportbatch-members-com.md
+        - name: IBTTransportBatch Properties (COM)
+          href: ibttransportbatch-properties-com.md
+          items:
+          - name: IBTTransportBatch.ResourceTracker Property (COM)
+            href: ibttransportbatch-resourcetracker-property-com.md
+        - name: IBTTransportBatch Methods (COM)
+          href: ibttransportbatch-methods-com.md
+          items:
+          - name: IBTTransportBatch.CancelResponseMessage Method (COM)
+            href: ibttransportbatch-cancelresponsemessage-method-com.md
+          - name: IBTTransportBatch.Clear Method (COM)
+            href: ibttransportbatch-clear-method-com.md
+          - name: IBTTransportBatch.DeleteMessage Method (COM)
+            href: ibttransportbatch-deletemessage-method-com.md
+          - name: IBTTransportBatch.Done Method (COM)
+            href: ibttransportbatch-done-method-com.md
+          - name: IBTTransportBatch.MoveToNextTransport Method (COM)
+            href: ibttransportbatch-movetonexttransport-method-com.md
+          - name: IBTTransportBatch.MoveToSuspendQ Method (COM)
+            href: ibttransportbatch-movetosuspendq-method-com.md
+          - name: IBTTransportBatch.Resubmit Method (COM)
+            href: ibttransportbatch-resubmit-method-com.md
+          - name: IBTTransportBatch.SubmitMessage Method (COM)
+            href: ibttransportbatch-submitmessage-method-com.md
+          - name: IBTTransportBatch.SubmitRequestMessage Method (COM)
+            href: ibttransportbatch-submitrequestmessage-method-com.md
+          - name: IBTTransportBatch.SubmitResponseMessage Method (COM)
+            href: ibttransportbatch-submitresponsemessage-method-com.md
+      - name: IBTTransportConfig Interface (COM)
+        href: ibttransportconfig-interface-com.md
+        items:
+        - name: IBTTransportConfig Members (COM)
+          href: ibttransportconfig-members-com.md
+        - name: IBTTransportConfig Methods (COM)
+          href: ibttransportconfig-methods-com.md
+          items:
+          - name: IBTTransportConfig.AddReceiveEndpoint Method (COM)
+            href: ibttransportconfig-addreceiveendpoint-method-com.md
+          - name: IBTTransportConfig.RemoveReceiveEndpoint Method (COM)
+            href: ibttransportconfig-removereceiveendpoint-method-com.md
+          - name: IBTTransportConfig.UpdateEndpointConfig Method (COM)
+            href: ibttransportconfig-updateendpointconfig-method-com.md
+      - name: IBTTransportControl Interface (COM)
+        href: ibttransportcontrol-interface-com.md
+        items:
+        - name: IBTTransportControl Members (COM)
+          href: ibttransportcontrol-members-com.md
+        - name: IBTTransportControl Methods (COM)
+          href: ibttransportcontrol-methods-com.md
+          items:
+          - name: IBTTransportControl.Initialize Method (COM)
+            href: ibttransportcontrol-initialize-method-com.md
+          - name: IBTTransportControl.Terminate Method (COM)
+            href: ibttransportcontrol-terminate-method-com.md
+      - name: IBTTransportProxy Interface (COM)
+        href: ibttransportproxy-interface-com.md
+        items:
+        - name: IBTTransportProxy Members (COM)
+          href: ibttransportproxy-members-com.md
+        - name: IBTTransportProxy Methods (COM)
+          href: ibttransportproxy-methods-com.md
+          items:
+          - name: IBTTransportProxy.GetBatch Method (COM)
+            href: ibttransportproxy-getbatch-method-com.md
+          - name: IBTTransportProxy.GetMessageFactory Method (COM)
+            href: ibttransportproxy-getmessagefactory-method-com.md
+          - name: IBTTransportProxy.ReceiverShuttingdown Method (COM)
+            href: ibttransportproxy-receivershuttingdown-method-com.md
+          - name: IBTTransportProxy.RegisterIsolatedReceiver Method (COM)
+            href: ibttransportproxy-registerisolatedreceiver-method-com.md
+          - name: IBTTransportProxy.SetErrorInfo Method (COM)
+            href: ibttransportproxy-seterrorinfo-method-com.md
+          - name: IBTTransportProxy.TerminateIsolatedReceive Method (COM)
+            href: ibttransportproxy-terminateisolatedreceive-method-com.md
+      - name: IComponent Interface (COM)
+        href: icomponent-interface-com.md
+        items:
+        - name: IComponent Members (COM)
+          href: icomponent-members-com.md
+        - name: IComponent Methods (COM)
+          href: icomponent-methods-com.md
+          items:
+          - name: IComponent.Execute Method (COM)
+            href: icomponent-execute-method-com.md
+      - name: IComponentUI Interface (COM)
+        href: icomponentui-interface-com.md
+        items:
+        - name: IComponentUI Members (COM)
+          href: icomponentui-members-com.md
+        - name: IComponentUI Properties (COM)
+          href: icomponentui-properties-com.md
+          items:
+          - name: IComponentUI.Icon Property (COM)
+            href: icomponentui-icon-property-com.md
+        - name: IComponentUI Methods (COM)
+          href: icomponentui-methods-com.md
+          items:
+          - name: IComponentUI.Validate Method (COM)
+            href: icomponentui-validate-method-com.md
+      - name: IDisassemblerComponent Interface (COM)
+        href: idisassemblercomponent-interface-com.md
+        items:
+        - name: IDisassemblerComponent Members (COM)
+          href: idisassemblercomponent-members-com.md
+        - name: IDisassemblerComponent Methods (COM)
+          href: idisassemblercomponent-methods-com.md
+          items:
+          - name: IDisassemblerComponent.Disassemble Method (COM)
+            href: idisassemblercomponent-disassemble-method-com.md
+          - name: IDisassemblerComponent.GetNext Method (COM)
+            href: idisassemblercomponent-getnext-method-com.md
+      - name: IDocumentSpec Interface (COM)
+        href: idocumentspec-interface-com.md
+        items:
+        - name: IDocumentSpec Members (COM)
+          href: idocumentspec-members-com.md
+        - name: IDocumentSpec Properties (COM)
+          href: idocumentspec-properties-com.md
+          items:
+          - name: IDocumentSpec.DocSpecName Property (COM)
+            href: idocumentspec-docspecname-property-com.md
+          - name: IDocumentSpec.DocType Property (COM)
+            href: idocumentspec-doctype-property-com.md
+        - name: IDocumentSpec Methods (COM)
+          href: idocumentspec-methods-com.md
+          items:
+          - name: IDocumentSpec.GetBodyPath Method (COM)
+            href: idocumentspec-getbodypath-method-com.md
+          - name: IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM)
+            href: idocumentspec-getpropertyannotationenumerator-method-com.md
+          - name: IDocumentSpec.GetSchemaCollection Method (COM)
+            href: idocumentspec-getschemacollection-method-com.md
+      - name: INamedItem Interface (COM)
+        href: inameditem-interface-com.md
+        items:
+        - name: INamedItem Members (COM)
+          href: inameditem-members-com.md
+        - name: INamedItem Properties (COM)
+          href: inameditem-properties-com.md
+          items:
+          - name: INamedItem.Name Property (COM)
+            href: inameditem-name-property-com.md
+          - name: INamedItem.Value Property (COM)
+            href: inameditem-value-property-com.md
+      - name: INamedItemList Interface (COM)
+        href: inameditemlist-interface-com.md
+        items:
+        - name: INamedItemList Members (COM)
+          href: inameditemlist-members-com.md
+        - name: INamedItemList Properties (COM)
+          href: inameditemlist-properties-com.md
+          items:
+          - name: INamedItemList.Count Property (COM)
+            href: inameditemlist-count-property-com.md
+        - name: INamedItemList Methods (COM)
+          href: inameditemlist-methods-com.md
+          items:
+          - name: INamedItemList.GetItem Method (COM)
+            href: inameditemlist-getitem-method-com.md
+      - name: IPipelineContext Interface (COM)
+        href: ipipelinecontext-interface-com.md
+        items:
+        - name: IPipelineContext Members (COM)
+          href: ipipelinecontext-members-com.md
+        - name: IPipelineContext Properties (COM)
+          href: ipipelinecontext-properties-com.md
+          items:
+          - name: IPipelineContext.ComponentIndex Property (COM)
+            href: ipipelinecontext-componentindex-property-com.md
+          - name: IPipelineContext.PipelineID Property (COM)
+            href: ipipelinecontext-pipelineid-property-com.md
+          - name: IPipelineContext.PipelineName Property (COM)
+            href: ipipelinecontext-pipelinename-property-com.md
+          - name: IPipelineContext.ResourceTracker Property (COM)
+            href: ipipelinecontext-resourcetracker-property-com.md
+          - name: IPipelineContext.StageID Property (COM)
+            href: ipipelinecontext-stageid-property-com.md
+          - name: IPipelineContext.StageIndex Property (COM)
+            href: ipipelinecontext-stageindex-property-com.md
+        - name: IPipelineContext Methods (COM)
+          href: ipipelinecontext-methods-com.md
+          items:
+          - name: IPipelineContext.GetDocumentSpecByName Method (COM)
+            href: ipipelinecontext-getdocumentspecbyname-method-com.md
+          - name: IPipelineContext.GetDocumentSpecByType Method (COM)
+            href: ipipelinecontext-getdocumentspecbytype-method-com.md
+          - name: IPipelineContext.GetGroupSigningCertificate Method (COM)
+            href: ipipelinecontext-getgroupsigningcertificate-method-com.md
+          - name: IPipelineContext.GetMessageFactory Method (COM)
+            href: ipipelinecontext-getmessagefactory-method-com.md
+      - name: IProbeMessage Interface (COM)
+        href: iprobemessage-interface-com.md
+        items:
+        - name: IProbeMessage Members (COM)
+          href: iprobemessage-members-com.md
+        - name: IProbeMessage Methods (COM)
+          href: iprobemessage-methods-com.md
+          items:
+          - name: IProbeMessage.Probe Method (COM)
+            href: iprobemessage-probe-method-com.md
+      - name: ISSOAdmin Interface (COM)
+        href: issoadmin-interface-com.md
+        items:
+        - name: ISSOAdmin Members
+          href: issoadmin-members.md
+        - name: ISSOAdmin Methods
+          href: issoadmin-methods.md
+          items:
+          - name: ISSOAdmin.CreateApplication Method
+            href: issoadmin-createapplication-method.md
+          - name: ISSOAdmin.CreateFieldInfo Method
+            href: issoadmin-createfieldinfo-method.md
+          - name: ISSOAdmin.DeleteApplication Method
+            href: issoadmin-deleteapplication-method.md
+          - name: ISSOAdmin.GetApplicationInfo Method
+            href: issoadmin-getapplicationinfo-method.md
+          - name: ISSOAdmin.GetGlobalInfo Method
+            href: issoadmin-getglobalinfo-method.md
+          - name: ISSOAdmin.PurgeCacheForApplication Method
+            href: issoadmin-purgecacheforapplication-method.md
+          - name: ISSOAdmin.UpdateApplication Method
+            href: issoadmin-updateapplication-method.md
+      - name: ISSOAdmin2 Interface (COM)
+        href: issoadmin2-interface-com.md
+        items:
+        - name: ISSOAdmin2 Members
+          href: issoadmin2-members.md
+        - name: ISSOAdmin2 Methods
+          href: issoadmin2-methods.md
+          items:
+          - name: ISSOAdmin2.GetApplicationInfo2 Method
+            href: issoadmin2-getapplicationinfo2-method.md
+          - name: ISSOAdmin2.UpdateApplication2 Method
+            href: issoadmin2-updateapplication2-method.md
+      - name: ISSOConfigDB Interface (COM)
+        href: issoconfigdb-interface-com.md
+        items:
+        - name: ISSOConfigDB Members
+          href: issoconfigdb-members.md
+        - name: ISSOConfigDB Methods
+          href: issoconfigdb-methods.md
+          items:
+          - name: ISSOConfigDB.CreateDatabase Method
+            href: issoconfigdb-createdatabase-method.md
+          - name: ISSOConfigDB.GetDBInfo Method
+            href: issoconfigdb-getdbinfo-method.md
+          - name: ISSOConfigDB.UpgradeDB Method
+            href: issoconfigdb-upgradedb-method.md
+      - name: ISSOConfigOM Interface (COM)
+        href: issoconfigom-interface-com.md
+        items:
+        - name: ISSOConfigOM Members
+          href: issoconfigom-members.md
+        - name: ISSOConfigOM Methods
+          href: issoconfigom-methods.md
+          items:
+          - name: ISSOConfigOM.DiscoverServer Method
+            href: issoconfigom-discoverserver-method.md
+          - name: ISSOConfigOM.GetServerStatus
+            href: issoconfigom-getserverstatus.md
+      - name: ISSOConfigSS Interface (COM)
+        href: issoconfigss-interface-com.md
+        items:
+        - name: ISSOConfigSS Members
+          href: issoconfigss-members.md
+        - name: ISSOConfigSS Methods
+          href: issoconfigss-methods.md
+          items:
+          - name: ISSOConfigSS.BackupSecret Method
+            href: issoconfigss-backupsecret-method.md
+          - name: ISSOConfigSS.GenerateSecret Method
+            href: issoconfigss-generatesecret-method.md
+          - name: ISSOConfigSS.GetFilePasswordReminder Method
+            href: issoconfigss-getfilepasswordreminder-method.md
+          - name: ISSOConfigSS.RestoreSecret Method
+            href: issoconfigss-restoresecret-method.md
+      - name: ISSOConfigStore Interface (COM)
+        href: issoconfigstore-interface-com.md
+        items:
+        - name: ISSOConfigStore Members
+          href: issoconfigstore-members.md
+        - name: ISSOConfigStore Methods
+          href: issoconfigstore-methods.md
+          items:
+          - name: ISSOConfigStore::DeleteConfigInfo
+            href: issoconfigstore-deleteconfiginfo.md
+          - name: ISSOConfigStore::GetConfigInfo
+            href: issoconfigstore-getconfiginfo.md
+          - name: ISSOConfigStore::SetConfigInfo
+            href: issoconfigstore-setconfiginfo.md
+      - name: ISSOLookup1 Interface (COM)
+        href: issolookup1-interface-com.md
+        items:
+        - name: ISSOLookup1 Members
+          href: issolookup1-members.md
+        - name: ISSOLookup1 Methods
+          href: issolookup1-methods.md
+          items:
+          - name: ISSOLookup1.GetCredentials Method
+            href: issolookup1-getcredentials-method.md
+      - name: ISSOLookup2 Interface (COM)
+        href: issolookup2-interface-com.md
+        items:
+        - name: ISSOLookup2 Members
+          href: issolookup2-members.md
+        - name: ISSOLookup2 Methods
+          href: issolookup2-methods.md
+          items:
+          - name: ISSOLookup2.GetCredentials Method
+            href: issolookup2-getcredentials-method.md
+          - name: ISSOLookup2.LogonExternalUser Method
+            href: issolookup2-logonexternaluser-method.md
+      - name: ISSOMapper Interface (COM)
+        href: issomapper-interface-com.md
+        items:
+        - name: ISSOMapper Members
+          href: issomapper-members.md
+        - name: ISSOMapper Methods
+          href: issomapper-methods.md
+          items:
+          - name: ISSOMapper.GetApplications Method
+            href: issomapper-getapplications-method.md
+          - name: ISSOMapper.GetFieldInfo Method
+            href: issomapper-getfieldinfo-method.md
+          - name: ISSOMapper.GetMappingsForExternalUser Method
+            href: issomapper-getmappingsforexternaluser-method.md
+          - name: ISSOMapper.GetMappingsForWindowsUser Method
+            href: issomapper-getmappingsforwindowsuser-method.md
+          - name: ISSOMapper.SetExternalCredentials Method
+            href: issomapper-setexternalcredentials-method.md
+          - name: ISSOMapper.SetWindowsPassword Method
+            href: issomapper-setwindowspassword-method.md
+      - name: ISSOMapper2 Interface (COM)
+        href: issomapper2-interface-com.md
+        items:
+        - name: ISSOMapper2 Members
+          href: issomapper2-members.md
+        - name: ISSOMapper2 Methods
+          href: issomapper2-methods.md
+          items:
+          - name: ISSOMapper2.GetApplications2 Method
+            href: issomapper2-getapplications2-method.md
+      - name: ISSOMapping Interface (COM)
+        href: issomapping-interface-com.md
+        items:
+        - name: ISSOMapping Members
+          href: issomapping-members.md
+        - name: ISSOMapping Properties
+          href: issomapping-properties.md
+          items:
+          - name: ISSOMapping.ApplicationName Property
+            href: issomapping-applicationname-property.md
+          - name: ISSOMapping.ExternalUserName Property
+            href: issomapping-externalusername-property.md
+          - name: ISSOMapping.Flags Property
+            href: issomapping-flags-property.md
+          - name: ISSOMapping.WindowsDomainName Property
+            href: issomapping-windowsdomainname-property.md
+          - name: ISSOMapping.WindowsUserName Property
+            href: issomapping-windowsusername-property.md
+        - name: ISSOMapping Methods
+          href: issomapping-methods.md
+          items:
+          - name: ISSOMapping.Create Method
+            href: issomapping-create-method.md
+          - name: ISSOMapping.Delete Method
+            href: issomapping-delete-method.md
+          - name: ISSOMapping.Disable Method
+            href: issomapping-disable-method.md
+          - name: ISSOMapping.Enable Method
+            href: issomapping-enable-method.md
+      - name: ISSONotification Interface (COM)
+        href: issonotification-interface-com.md
+        items:
+        - name: ISSONotification Members
+          href: issonotification-members.md
+        - name: ISSONotification Methods
+          href: issonotification-methods.md
+          items:
+          - name: ISSONotification.InitializeAdapter Method
+            href: issonotification-initializeadapter-method.md
+          - name: ISSONotification.SendNotification Method
+            href: issonotification-sendnotification-method.md
+          - name: ISSONotification.ReceiveNotification Method
+            href: issonotification-receivenotification-method.md
+          - name: ISSONotification.ShutdownAdapter Method
+            href: issonotification-shutdownadapter-method.md
+      - name: ISSOTicket Interface (COM)
+        href: issoticket-interface-com.md
+        items:
+        - name: ISSOTicket Members
+          href: issoticket-members.md
+        - name: ISSOTicket Methods
+          href: issoticket-methods.md
+          items:
+          - name: ISSOTicket.IssueTicket Method
+            href: issoticket-issueticket-method.md
+          - name: ISSOTicket.RedeemTicket Method
+            href: issoticket-redeemticket-method.md
+      - name: ISSOPSWrapper Interface (COM)
+        href: issopswrapper-interface-com.md
+        items:
+        - name: ISSOPSWrapper Members
+          href: issopswrapper-members.md
+        - name: ISSOWrapper Methods
+          href: issowrapper-methods.md
+          items:
+          - name: ISSOWrapper.InitializeAdapter Method
+            href: issowrapper-initializeadapter-method.md
+          - name: ISSOWrapper.SendNotification Method
+            href: issowrapper-sendnotification-method.md
+          - name: ISSOWrapper.ReceiveNotification Method
+            href: issowrapper-receivenotification-method.md
+          - name: ISSOWrapper.ShutdownAdapter Method
+            href: issowrapper-shutdownadapter-method.md
+      - name: SAdapter Structure (COM)
+        href: sadapter-structure-com.md
+        items:
+        - name: SAdapter Members
+          href: sadapter-members.md
+        - name: SAdapter Fields
+          href: sadapter-fields.md
+          items:
+          - name: SAdapter.bstrAdapterName Field
+            href: sadapter-bstradaptername-field.md
+      - name: SAdapterInGroup Structure (COM)
+        href: sadapteringroup-structure-com.md
+        items:
+        - name: SAdapterInGroup Members
+          href: sadapteringroup-members.md
+        - name: SAdapterInGroup Fields
+          href: sadapteringroup-fields.md
+          items:
+          - name: SAdapterInGroup.psaAdapters Field
+            href: sadapteringroup-psaadapters-field.md
+      - name: SExternalAccount Structure (COM)
+        href: sexternalaccount-structure-com.md
+        items:
+        - name: SExternalAccount Members
+          href: sexternalaccount-members.md
+        - name: SExternalAccount Fields
+          href: sexternalaccount-fields.md
+          items:
+          - name: SExternalAccount.bstrExternalAccount Field
+            href: sexternalaccount-bstrexternalaccount-field.md
+      - name: SPasswordChange Structure (COM)
+        href: spasswordchange-structure-com.md
+        items:
+        - name: SPasswordChange Members
+          href: spasswordchange-members.md
+        - name: SPasswordChange Fields
+          href: spasswordchange-fields.md
+          items:
+          - name: SPasswordChange.bstrExternalAccount Field
+            href: spasswordchange-bstrexternalaccount-field.md
+          - name: SPasswordChange.psaNewExternalPassword Field
+            href: spasswordchange-psanewexternalpassword-field.md
+          - name: SPasswordChange.psaOldExternalPassword Field
+            href: spasswordchange-psaoldexternalpassword-field.md
+          - name: SPasswordChange.ullTimeStamp Field
+            href: spasswordchange-ulltimestamp-field.md
+      - name: SPasswordChangeComplete Structure (COM)
+        href: spasswordchangecomplete-structure-com.md
+        items:
+        - name: SPasswordChangeComplete Members
+          href: spasswordchangecomplete-members.md
+        - name: SPasswordChangeComplete Fields
+          href: spasswordchangecomplete-fields.md
+          items:
+          - name: SPasswordChangeComplete.guidTrackingId Field
+            href: spasswordchangecomplete-guidtrackingid-field.md
+          - name: SPasswordChangeComplete.ullErrorCode Field
+            href: spasswordchangecomplete-ullerrorcode-field.md
+          - name: SPasswordChangeComplete.bstrErrorMessage Field
+            href: spasswordchangecomplete-bstrerrormessage-field.md
+      - name: SSO_NOTIFICATION_TYPE Enumeration (COM)
+        href: sso-notification-type-enumeration-com.md
+      - name: SSO_NOTIFICATION_FLAG Enumeration (COM)
+        href: sso-notification-flag-enumeration-com.md
+      - name: SStatus Structure (COM)
+        href: sstatus-structure-com.md
+        items:
+        - name: SStatus Members
+          href: sstatus-members.md
+        - name: SStatus Fields
+          href: sstatus-fields.md
+          items:
+          - name: SStatus.ullErrorCode Field
+            href: sstatus-ullerrorcode-field.md
+          - name: SStatus.bstrErrorMessage Field
+            href: sstatus-bstrerrormessage-field.md
+    - name: WMI Class Reference
+      href: wmi-class-reference.md
+      items:
+      - name: Core Server Classes
+        href: core-server-classes.md
+        items:
+        - name: Viewing the WMI Core Server Classes in CIM Studio
+          href: viewing-the-wmi-core-server-classes-in-cim-studio.md
+        - name: WMI Script Samples
+          href: wmi-script-samples.md
+          items:
+          - name: Creating, Updating, and Deleting a Host Instance Using WMI
+            href: creating-updating-and-deleting-a-host-instance-using-wmi.md
+          - name: Enumerating and Starting All Host Instances Using WMI
+            href: enumerating-and-starting-all-host-instances-using-wmi.md
+          - name: Mapping and Installing Host Instances Using WMI
+            href: mapping-and-installing-host-instances-using-wmi.md
+          - name: Uninstalling and Un-Mapping a Host Instance Using WMI
+            href: uninstalling-and-un-mapping-a-host-instance-using-wmi.md
+          - name: Resuming Suspended Service Instances of a Specific Orchestration Using WMI
+            href: resuming-suspended-service-instances-of-a-specific-orchestration-using-wmi.md
+          - name: Creating an FTP Receive Handler Using WMI
+            href: creating-an-ftp-receive-handler-using-wmi.md
+          - name: Creating a Receive Location with a Datetime Schedule Configuration Using WMI
+            href: creating-a-receive-location-with-a-datetime-schedule-configuration-using-wmi.md
+          - name: Listening for a Suspended Event Using WMI
+            href: listening-for-a-suspended-event-using-wmi.md
+          - name: Saving a Message to a File Using WMI
+            href: saving-a-message-to-a-file-using-wmi.md
+          - name: Updating the Receive Handler Host Association Using WMI
+            href: updating-the-receive-handler-host-association-using-wmi.md
+          - name: Resuming Suspended Service Instances That Failed to be Sent to a Specific URL Using WMI
+            href: resuming-suspended-service-instances-that-failed-to-be-sent-to-a-specific-url-using-wmi.md
+          - name: Removing Suspended Service Instances
+            href: removing-suspended-service-instances.md
+        - name: MSBTS_AdapterSetting (WMI)
+          href: msbts-adaptersetting-wmi.md
+          items:
+          - name: MSBTS_AdapterSetting.Comment Property (WMI)
+            href: msbts-adaptersetting-comment-property-wmi.md
+          - name: MSBTS_AdapterSetting.Constraints Property (WMI)
+            href: msbts-adaptersetting-constraints-property-wmi.md
+          - name: MSBTS_AdapterSetting.DefaultInboundCfg Property (WMI)
+            href: msbts-adaptersetting-defaultinboundcfg-property-wmi.md
+          - name: MSBTS_AdapterSetting.DefaultOutboundCfg Property (WMI)
+            href: msbts-adaptersetting-defaultoutboundcfg-property-wmi.md
+          - name: MSBTS_AdapterSetting.MgmtCLSID Property (WMI)
+            href: msbts-adaptersetting-mgmtclsid-property-wmi.md
+          - name: MSBTS_AdapterSetting.MgmtDbNameOverride Property (WMI)
+            href: msbts-adaptersetting-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_AdapterSetting.MgmtDbServerOverride Property (WMI)
+            href: msbts-adaptersetting-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_AdapterSetting.Name Property (WMI)
+            href: msbts-adaptersetting-name-property-wmi.md
+        - name: MSBTS_BTSObject (WMI)
+          href: msbts-btsobject-wmi.md
+        - name: MSBTS_DeploymentService (WMI)
+          href: msbts-deploymentservice-wmi.md
+          items:
+          - name: MSBTS_DeploymentService.Deploy Method (WMI)
+            href: msbts-deploymentservice-deploy-method-wmi.md
+          - name: MSBTS_DeploymentService.Export Method (WMI)
+            href: msbts-deploymentservice-export-method-wmi.md
+          - name: MSBTS_DeploymentService.Import Method (WMI)
+            href: msbts-deploymentservice-import-method-wmi.md
+          - name: MSBTS_DeploymentService.MgmtDbNameOverride Property (WMI)
+            href: msbts-deploymentservice-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_DeploymentService.MgmtDbServerOverride Property (WMI)
+            href: msbts-deploymentservice-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_DeploymentService.Remove Method (WMI)
+            href: msbts-deploymentservice-remove-method-wmi.md
+        - name: MSBTS_GroupSetting (WMI)
+          href: msbts-groupsetting-wmi.md
+          items:
+          - name: MSBTS_GroupSetting.BamDBName Property (WMI)
+            href: msbts-groupsetting-bamdbname-property-wmi.md
+          - name: MSBTS_GroupSetting.BamDBServerName Property (WMI)
+            href: msbts-groupsetting-bamdbservername-property-wmi.md
+          - name: MSBTS_GroupSetting.BizTalkAdministratorGroup Property (WMI)
+            href: msbts-groupsetting-biztalkadministratorgroup-property-wmi.md
+          - name: MSBTS_GroupSetting.BizTalkB2BOperatorGroup Property (WMI)
+            href: msbts-groupsetting-biztalkb2boperatorgroup-property-wmi.md
+          - name: MSBTS_GroupSetting.BizTalkOperatorGroup Property (WMI)
+            href: msbts-groupsetting-biztalkoperatorgroup-property-wmi.md
+          - name: MSBTS_GroupSetting.ConfigurationCacheRefreshInterval Property (WMI)
+            href: msbts-groupsetting-configurationcacherefreshinterval-property-wmi.md
+          - name: MSBTS_GroupSetting.GlobalTrackingOption Property (WMI)
+            href: msbts-groupsetting-globaltrackingoption-property-wmi.md
+          - name: MSBTS_GroupSetting.LMSFragmentSize Property (WMI)
+            href: msbts-groupsetting-lmsfragmentsize-property-wmi.md
+          - name: MSBTS_GroupSetting.LMSThreshold Property (WMI)
+            href: msbts-groupsetting-lmsthreshold-property-wmi.md
+          - name: MSBTS_GroupSetting.MajorVersion Property (WMI)
+            href: msbts-groupsetting-majorversion-property-wmi.md
+          - name: MSBTS_GroupSetting.MgmtDbName Property (WMI)
+            href: msbts-groupsetting-mgmtdbname-property-wmi.md
+          - name: MSBTS_GroupSetting.MgmtDbServerName Property (WMI)
+            href: msbts-groupsetting-mgmtdbservername-property-wmi.md
+          - name: MSBTS_GroupSetting.MinorVersion Property (WMI)
+            href: msbts-groupsetting-minorversion-property-wmi.md
+          - name: MSBTS_GroupSetting.Name Property (WMI)
+            href: msbts-groupsetting-name-property-wmi.md
+          - name: MSBTS_GroupSetting.PerfCounterCacheRefreshInterval Property (WMI)
+            href: msbts-groupsetting-perfcountercacherefreshinterval-property-wmi.md
+          - name: MSBTS_GroupSetting.RegisterLocalServer Method (WMI)
+            href: msbts-groupsetting-registerlocalserver-method-wmi.md
+          - name: MSBTS_GroupSetting.RuleEngineDBName Property (WMI)
+            href: msbts-groupsetting-ruleenginedbname-property-wmi.md
+          - name: MSBTS_GroupSetting.RuleEngineDBServerName Property (WMI)
+            href: msbts-groupsetting-ruleenginedbservername-property-wmi.md
+          - name: MSBTS_GroupSetting.SignCertComment Property (WMI)
+            href: msbts-groupsetting-signcertcomment-property-wmi.md
+          - name: MSBTS_GroupSetting.SignCertThumbprint Property (WMI)
+            href: msbts-groupsetting-signcertthumbprint-property-wmi.md
+          - name: MSBTS_GroupSetting.SSOServerName Property (WMI)
+            href: msbts-groupsetting-ssoservername-property-wmi.md
+          - name: MSBTS_GroupSetting.SubscriptionDBName Property (WMI)
+            href: msbts-groupsetting-subscriptiondbname-property-wmi.md
+          - name: MSBTS_GroupSetting.SubscriptionDBServerName Property (WMI)
+            href: msbts-groupsetting-subscriptiondbservername-property-wmi.md
+          - name: MSBTS_GroupSetting.TrackingAnalysisDBName Property (WMI)
+            href: msbts-groupsetting-trackinganalysisdbname-property-wmi.md
+          - name: MSBTS_GroupSetting.TrackingAnalysisDBServerName Property (WMI)
+            href: msbts-groupsetting-trackinganalysisdbservername-property-wmi.md
+          - name: MSBTS_GroupSetting.TrackingDBName Property (WMI)
+            href: msbts-groupsetting-trackingdbname-property-wmi.md
+          - name: MSBTS_GroupSetting.TrackingDBServerName Property (WMI)
+            href: msbts-groupsetting-trackingdbservername-property-wmi.md
+          - name: MSBTS_GroupSetting.UnRegisterLocalServer Method (WMI)
+            href: msbts-groupsetting-unregisterlocalserver-method-wmi.md
+        - name: MSBTS_Host (WMI)
+          href: msbts-host-wmi.md
+          items:
+          - name: MSBTS_Host.AuthTrusted Property (WMI)
+            href: msbts-host-authtrusted-property-wmi.md
+          - name: MSBTS_Host.Cluster Method (WMI)
+            href: msbts-host-cluster-method-wmi.md
+          - name: MSBTS_Host.ClusterResourceGroupName Property (WMI)
+            href: msbts-host-clusterresourcegroupname-property-wmi.md
+          - name: MSBTS_Host.DecryptCertComment Property (WMI)
+            href: msbts-host-decryptcertcomment-property-wmi.md
+          - name: MSBTS_Host.DecryptCertThumbprint Property (WMI)
+            href: msbts-host-decryptcertthumbprint-property-wmi.md
+          - name: MSBTS_Host.GetClusterResourceGroupNames (WMI)
+            href: msbts-host-getclusterresourcegroupnames-wmi.md
+          - name: MSBTS_Host.HostTracking Property (WMI)
+            href: msbts-host-hosttracking-property-wmi.md
+          - name: MSBTS_Host.HostType Property (WMI)
+            href: msbts-host-hosttype-property-wmi.md
+          - name: MSBTS_Host.IsDefault Property (WMI)
+            href: msbts-host-isdefault-property-wmi.md
+          - name: MSBTS_Host.LastUsedLogon Property (WMI)
+            href: msbts-host-lastusedlogon-property-wmi.md
+          - name: MSBTS_Host.MgmtDbNameOverride Property (WMI)
+            href: msbts-host-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_Host.MgmtDbServerOverride Property (WMI)
+            href: msbts-host-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_Host.Name Property (WMI)
+            href: msbts-host-name-property-wmi.md
+          - name: MSBTS_Host.NTGroupName Property (WMI)
+            href: msbts-host-ntgroupname-property-wmi.md
+          - name: MSBTS_Host.Start Method (WMI)
+            href: msbts-host-start-method-wmi.md
+          - name: MSBTS_Host.Stop Method (WMI)
+            href: msbts-host-stop-method-wmi.md
+          - name: MSBTS_Host.UnCluster Method (WMI)
+            href: msbts-host-uncluster-method-wmi.md
+        - name: MSBTS_HostInstance (WMI)
+          href: msbts-hostinstance-wmi.md
+          items:
+          - name: MSBTS_HostInstance.ClusterInstanceType Property (WMI)
+            href: msbts-hostinstance-clusterinstancetype-property-wmi.md
+          - name: MSBTS_HostInstance.ConfigurationState Property (WMI)
+            href: msbts-hostinstance-configurationstate-property-wmi.md
+          - name: MSBTS_HostInstance.GetState Method (WMI)
+            href: msbts-hostinstance-getstate-method-wmi.md
+          - name: MSBTS_HostInstance.HostName Property (WMI)
+            href: msbts-hostinstance-hostname-property-wmi.md
+          - name: MSBTS_HostInstance.HostType Property (WMI)
+            href: msbts-hostinstance-hosttype-property-wmi.md
+          - name: MSBTS_HostInstance.Install Method
+            href: msbts-hostinstance-install-method.md
+          - name: MSBTS_HostInstance.IsDisabled Property (WMI)
+            href: msbts-hostinstance-isdisabled-property-wmi.md
+          - name: MSBTS_HostInstance.Logon Property (WMI)
+            href: msbts-hostinstance-logon-property-wmi.md
+          - name: MSBTS_HostInstance.MgmtDbNameOverride Property (WMI)
+            href: msbts-hostinstance-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_HostInstance.MgmtDbServerOverride Property (WMI)
+            href: msbts-hostinstance-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_HostInstance.Name Property (WMI)
+            href: msbts-hostinstance-name-property-wmi.md
+          - name: MSBTS_HostInstance.NTGroupName Property (WMI)
+            href: msbts-hostinstance-ntgroupname-property-wmi.md
+          - name: MSBTS_HostInstance.RunningServer Property (WMI)
+            href: msbts-hostinstance-runningserver-property-wmi.md
+          - name: MSBTS_HostInstance.ServiceState Property (WMI)
+            href: msbts-hostinstance-servicestate-property-wmi.md
+          - name: MSBTS_HostInstance.Start Method (WMI)
+            href: msbts-hostinstance-start-method-wmi.md
+          - name: MSBTS_HostInstance.Stop Method (WMI)
+            href: msbts-hostinstance-stop-method-wmi.md
+          - name: MSBTS_HostInstance.UniqueID Property (WMI)
+            href: msbts-hostinstance-uniqueid-property-wmi.md
+          - name: MSBTS_HostInstance.Uninstall Method (WMI)
+            href: msbts-hostinstance-uninstall-method-wmi.md
+        - name: MSBTS_HostInstanceSetting (WMI)
+          href: msbts-hostinstancesetting-wmi.md
+          items:
+          - name: MSBTS_HostInstanceSetting.ClusterInstanceType (WMI)
+            href: msbts-hostinstancesetting-clusterinstancetype-wmi.md
+          - name: MSBTS_HostInstanceSetting.ConfigurationState Property (WMI)
+            href: msbts-hostinstancesetting-configurationstate-property-wmi.md
+          - name: MSBTS_HostInstanceSetting.HostName Property (WMI)
+            href: msbts-hostinstancesetting-hostname-property-wmi.md
+          - name: MSBTS_HostInstanceSetting.HostType Property (WMI)
+            href: msbts-hostinstancesetting-hosttype-property-wmi.md
+          - name: MSBTS_HostInstanceSetting.IsDisabled Property (WMI)
+            href: msbts-hostinstancesetting-isdisabled-property-wmi.md
+          - name: MSBTS_HostInstanceSetting.Logon Property (WMI)
+            href: msbts-hostinstancesetting-logon-property-wmi.md
+          - name: MSBTS_HostInstanceSetting.MgmtDbNameOverride Property (WMI)
+            href: msbts-hostinstancesetting-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_HostInstanceSetting.MgmtDbServerOverride Property (WMI)
+            href: msbts-hostinstancesetting-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_HostInstanceSetting.Name Property (WMI)
+            href: msbts-hostinstancesetting-name-property-wmi.md
+          - name: MSBTS_HostInstanceSetting.NTGroupName Property (WMI)
+            href: msbts-hostinstancesetting-ntgroupname-property-wmi.md
+          - name: MSBTS_HostInstanceSetting.RunningServer Property (WMI)
+            href: msbts-hostinstancesetting-runningserver-property-wmi.md
+        - name: MSBTS_HostQueue (WMI)
+          href: msbts-hostqueue-wmi.md
+          items:
+          - name: MSBTS_HostQueue.HostName Property (WMI)
+            href: msbts-hostqueue-hostname-property-wmi.md
+          - name: MSBTS_HostQueue.MgmtDbNameOverride Property (WMI)
+            href: msbts-hostqueue-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_HostQueue.MgmtDbServerOverride Property (WMI)
+            href: msbts-hostqueue-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_HostQueue.ResumeServiceInstancesByID Method (WMI)
+            href: msbts-hostqueue-resumeserviceinstancesbyid-method-wmi.md
+          - name: MSBTS_HostQueue.SuspendServiceInstancesByID Method (WMI)
+            href: msbts-hostqueue-suspendserviceinstancesbyid-method-wmi.md
+          - name: MSBTS_HostQueue.TerminateServiceInstancesByID Method (WMI)
+            href: msbts-hostqueue-terminateserviceinstancesbyid-method-wmi.md
+        - name: MSBTS_HostSetting (WMI)
+          href: msbts-hostsetting-wmi.md
+          items:
+          - name: MSBTS_HostSetting.AllowMultipleResponses Property (WMI)
+            href: msbts-hostsetting-allowmultipleresponses-property-wmi.md
+          - name: MSBTS_HostSetting.AuthTrusted Property (WMI)
+            href: msbts-hostsetting-authtrusted-property-wmi.md
+          - name: MSBTS_HostSetting.BizTalkOperatorGroup Property (WMI)
+            href: msbts-hostsetting-biztalkoperatorgroup-property-wmi.md
+          - name: MSBTS_HostSetting.ClusterResourceGroupName Property (WMI)
+            href: msbts-hostsetting-clusterresourcegroupname-property-wmi.md
+          - name: MSBTS_HostSetting.DBQueueSizeThreshold Property (WMI)
+            href: msbts-hostsetting-dbqueuesizethreshold-property-wmi.md
+          - name: MSBTS_HostSetting.DBSessionThreshold Property (WMI)
+            href: msbts-hostsetting-dbsessionthreshold-property-wmi.md
+          - name: MSBTS_HostSetting.DecryptCertComment Property (WMI)
+            href: msbts-hostsetting-decryptcertcomment-property-wmi.md
+          - name: MSBTS_HostSetting.DecryptCertThumbprint Property (WMI)
+            href: msbts-hostsetting-decryptcertthumbprint-property-wmi.md
+          - name: MSBTS_HostSetting.DehydrationBehavior Property (WMI)
+            href: msbts-hostsetting-dehydrationbehavior-property-wmi.md
+          - name: MSBTS_HostSetting.DeliveryQueueSize Property (WMI)
+            href: msbts-hostsetting-deliveryqueuesize-property-wmi.md
+          - name: MSBTS_HostSetting.GlobalMemoryThreshold Property (WMI)
+            href: msbts-hostsetting-globalmemorythreshold-property-wmi.md
+          - name: MSBTS_HostSetting.HostTracking Property (WMI)
+            href: msbts-hostsetting-hosttracking-property-wmi.md
+          - name: MSBTS_HostSetting.HostType Property (WMI)
+            href: msbts-hostsetting-hosttype-property-wmi.md
+          - name: MSBTS_HostSetting.InflightMessageThreshold Property (WMI)
+            href: msbts-hostsetting-inflightmessagethreshold-property-wmi.md
+          - name: MSBTS_HostSetting.IsDefault Property (WMI)
+            href: msbts-hostsetting-isdefault-property-wmi.md
+          - name: MSBTS_HostSetting.IsHost32BitOnly Property (WMI)
+            href: msbts-hostsetting-ishost32bitonly-property-wmi.md
+          - name: MSBTS_HostSetting.LastUsedLogon Property (WMI)
+            href: msbts-hostsetting-lastusedlogon-property-wmi.md
+          - name: MSBTS_HostSetting.LegacyWhitespace Property (WMI)
+            href: msbts-hostsetting-legacywhitespace-property-wmi.md
+          - name: MSBTS_HostSetting.MessageDeliveryMaximumDelay Property (WMI)
+            href: msbts-hostsetting-messagedeliverymaximumdelay-property-wmi.md
+          - name: MSBTS_HostSetting.MessageDeliveryOverdriveFactor Property (WMI)
+            href: msbts-hostsetting-messagedeliveryoverdrivefactor-property-wmi.md
+          - name: MSBTS_HostSetting.MessageDeliverySampleSpaceSize Property (WMI)
+            href: msbts-hostsetting-messagedeliverysamplespacesize-property-wmi.md
+          - name: MSBTS_HostSetting.MessageDeliverySampleSpaceWindow (WMI)
+            href: msbts-hostsetting-messagedeliverysamplespacewindow-wmi.md
+          - name: MSBTS_HostSetting.MessagePublishMaximumDelay Property (WMI)
+            href: msbts-hostsetting-messagepublishmaximumdelay-property-wmi.md
+          - name: MSBTS_HostSetting.MessagePublishOverdriveFactor Property (WMI)
+            href: msbts-hostsetting-messagepublishoverdrivefactor-property-wmi.md
+          - name: MSBTS_HostSetting.MessagePublishSampleSpaceWindow Property (WMI)
+            href: msbts-hostsetting-messagepublishsamplespacewindow-property-wmi.md
+          - name: MSBTS_HostSetting.MessagePublishSampleSpaceSize Property (WMI)
+            href: msbts-hostsetting-messagepublishsamplespacesize-property-wmi.md
+          - name: MSBTS_HostSetting.MessagingMaxReceiveInterval Property (WMI)
+            href: msbts-hostsetting-messagingmaxreceiveinterval-property-wmi.md
+          - name: MSBTS_HostSetting.MessagingReqRespTTL Property (WMI)
+            href: msbts-hostsetting-messagingreqrespttl-property-wmi.md
+          - name: MSBTS_HostSetting.MgmtDbNameOverride Property (WMI)
+            href: msbts-hostsetting-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_HostSetting.MgmtDbServerOverride Property (WMI)
+            href: msbts-hostsetting-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_HostSetting.MsgAgentPerfCounterServiceClassID Property (WMI)
+            href: msbts-hostsetting-msgagentperfcounterserviceclassid-property-wmi.md
+          - name: MSBTS_HostSetting.Name Property (WMI)
+            href: msbts-hostsetting-name-property-wmi.md
+          - name: MSBTS_HostSetting.NTGroupName Property (WMI)
+            href: msbts-hostsetting-ntgroupname-property-wmi.md
+          - name: MSBTS_HostSetting.ProcessMemoryThreshold Property (WMI)
+            href: msbts-hostsetting-processmemorythreshold-property-wmi.md
+          - name: MSBTS_HostSetting.SubscriptionPauseAt Property (WMI)
+            href: msbts-hostsetting-subscriptionpauseat-property-wmi.md
+          - name: MSBTS_HostSetting.SubscriptionResumeAt Property (WMI)
+            href: msbts-hostsetting-subscriptionresumeat-property-wmi.md
+          - name: MSBTS_HostSetting.ThreadPoolSize Property (WMI)
+            href: msbts-hostsetting-threadpoolsize-property-wmi.md
+          - name: MSBTS_HostSetting.ThreadThreshold Property (WMI)
+            href: msbts-hostsetting-threadthreshold-property-wmi.md
+          - name: MSBTS_HostSetting.ThrottlingBatchMemoryThresholdPercent Property (WMI)
+            href: msbts-hostsetting-throttlingbatchmemorythresholdpercent-property-wmi.md
+          - name: MSBTS_HostSetting.ThrottlingDeliveryOverride Property (WMI)
+            href: msbts-hostsetting-throttlingdeliveryoverride-property-wmi.md
+          - name: MSBTS_HostSetting.ThrottlingDeliveryOverrideSeverity Property (WMI)
+            href: msbts-hostsetting-throttlingdeliveryoverrideseverity-property-wmi.md
+          - name: MSBTS_HostSetting.ThrottlingLimitToTriggerGC Property (WMI)
+            href: msbts-hostsetting-throttlinglimittotriggergc-property-wmi.md
+          - name: MSBTS_HostSetting.ThrottlingPublishOverride Property (WMI)
+            href: msbts-hostsetting-throttlingpublishoverride-property-wmi.md
+          - name: MSBTS_HostSetting.ThrottlingPublishOverrideSeverity Property (WMI)
+            href: msbts-hostsetting-throttlingpublishoverrideseverity-property-wmi.md
+          - name: MSBTS_HostSetting.ThrottlingSeverityDatabaseSize Property (WMI)
+            href: msbts-hostsetting-throttlingseveritydatabasesize-property-wmi.md
+          - name: MSBTS_HostSetting.ThrottlingSeverityInflightMessage Property (WMI)
+            href: msbts-hostsetting-throttlingseverityinflightmessage-property-wmi.md
+          - name: MSBTS_HostSetting.ThrottlingSeverityProcessMemory Property (WMI)
+            href: msbts-hostsetting-throttlingseverityprocessmemory-property-wmi.md
+          - name: MSBTS_HostSetting.ThrottlingSpoolMultiplier Property (WMI)
+            href: msbts-hostsetting-throttlingspoolmultiplier-property-wmi.md
+          - name: MSBTS_HostSetting.ThrottlingTrackingDataMultiplier Property (WMI)
+            href: msbts-hostsetting-throttlingtrackingdatamultiplier-property-wmi.md
+          - name: MSBTS_HostSetting.TimeBasedMaxThreshold Property (WMI)
+            href: msbts-hostsetting-timebasedmaxthreshold-property-wmi.md
+          - name: MSBTS_HostSetting.TimeBasedMinThreshold Property (WMI)
+            href: msbts-hostsetting-timebasedminthreshold-property-wmi.md
+          - name: MSBTS_HostSetting.UseDefaultAppDomainForIsolatedAdapter Property (WMI)
+            href: msbts-hostsetting-usedefaultappdomainforisolatedadapter-property-wmi.md
+          - name: MSBTS_HostSetting.XlangMaxReceiveInterval Property (WMI)
+            href: msbts-hostsetting-xlangmaxreceiveinterval-property-wmi.md
+        - name: MSBTS_MessageInstance (WMI)
+          href: msbts-messageinstance-wmi.md
+          items:
+          - name: MSBTS_MessageInstance.AssemblyCulture Property (WMI)
+            href: msbts-messageinstance-assemblyculture-property-wmi.md
+          - name: MSBTS_MessageInstance.AssemblyName Property (WMI)
+            href: msbts-messageinstance-assemblyname-property-wmi.md
+          - name: MSBTS_MessageInstance.AssemblyPublicKeyToken Property (WMI)
+            href: msbts-messageinstance-assemblypublickeytoken-property-wmi.md
+          - name: MSBTS_MessageInstance.AssemblyVersion Property (WMI)
+            href: msbts-messageinstance-assemblyversion-property-wmi.md
+          - name: MSBTS_MessageInstance.Context Property (WMI)
+            href: msbts-messageinstance-context-property-wmi.md
+          - name: MSBTS_MessageInstance.CreationTime Property (WMI)
+            href: msbts-messageinstance-creationtime-property-wmi.md
+          - name: MSBTS_MessageInstance.HostName Property (WMI)
+            href: msbts-messageinstance-hostname-property-wmi.md
+          - name: MSBTS_MessageInstance.InboundAdapterName Property (WMI)
+            href: msbts-messageinstance-inboundadaptername-property-wmi.md
+          - name: MSBTS_MessageInstance.InboundURL Property (WMI)
+            href: msbts-messageinstance-inboundurl-property-wmi.md
+          - name: MSBTS_MessageInstance.MessageInstanceID Property (WMI)
+            href: msbts-messageinstance-messageinstanceid-property-wmi.md
+          - name: MSBTS_MessageInstance.MessageType Property (WMI)
+            href: msbts-messageinstance-messagetype-property-wmi.md
+          - name: MSBTS_MessageInstance.MgmtDbNameOverride Property (WMI)
+            href: msbts-messageinstance-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_MessageInstance.MgmtDbServerOverride Property (WMI)
+            href: msbts-messageinstance-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_MessageInstance.MsgBoxDBName Property (WMI)
+            href: msbts-messageinstance-msgboxdbname-property-wmi.md
+          - name: MSBTS_MessageInstance.MsgBoxDBServerName Property (WMI)
+            href: msbts-messageinstance-msgboxdbservername-property-wmi.md
+          - name: MSBTS_MessageInstance.OriginatorPID Property (WMI)
+            href: msbts-messageinstance-originatorpid-property-wmi.md
+          - name: MSBTS_MessageInstance.OriginatorSID Property (WMI)
+            href: msbts-messageinstance-originatorsid-property-wmi.md
+          - name: MSBTS_MessageInstance.OutboundAdapterName Property (WMI)
+            href: msbts-messageinstance-outboundadaptername-property-wmi.md
+          - name: MSBTS_MessageInstance.OutboundURL Property (WMI)
+            href: msbts-messageinstance-outboundurl-property-wmi.md
+          - name: MSBTS_MessageInstance.PublisherLogon Property (WMI)
+            href: msbts-messageinstance-publisherlogon-property-wmi.md
+          - name: MSBTS_MessageInstance.ReferenceType Property (WMI)
+            href: msbts-messageinstance-referencetype-property-wmi.md
+          - name: MSBTS_MessageInstance.RetryCount Property (WMI)
+            href: msbts-messageinstance-retrycount-property-wmi.md
+          - name: MSBTS_MessageInstance.SaveToFile Method (WMI)
+            href: msbts-messageinstance-savetofile-method-wmi.md
+          - name: MSBTS_MessageInstance.SendPortName Property (WMI)
+            href: msbts-messageinstance-sendportname-property-wmi.md
+          - name: MSBTS_MessageInstance.ServiceClass Property (WMI)
+            href: msbts-messageinstance-serviceclass-property-wmi.md
+          - name: MSBTS_MessageInstance.ServiceClassID Property (WMI)
+            href: msbts-messageinstance-serviceclassid-property-wmi.md
+          - name: MSBTS_MessageInstance.ServiceInstanceID Property (WMI)
+            href: msbts-messageinstance-serviceinstanceid-property-wmi.md
+          - name: MSBTS_MessageInstance.ServiceInstanceStatus Property (WMI)
+            href: msbts-messageinstance-serviceinstancestatus-property-wmi.md
+          - name: MSBTS_MessageInstance.ServiceName Property (WMI)
+            href: msbts-messageinstance-servicename-property-wmi.md
+          - name: MSBTS_MessageInstance.ServiceTypeID Property (WMI)
+            href: msbts-messageinstance-servicetypeid-property-wmi.md
+        - name: MSBTS_MessageInstanceSuspendedEvent (WMI)
+          href: msbts-messageinstancesuspendedevent-wmi.md
+          items:
+          - name: MSBTS_MessageInstanceSuspendedEvent.ErrorCategory Property (WMI)
+            href: msbts-messageinstancesuspendedevent-errorcategory-property-wmi.md
+          - name: MSBTS_MessageInstanceSuspendedEvent.ErrorDescription Property (WMI)
+            href: msbts-messageinstancesuspendedevent-errordescription-property-wmi.md
+          - name: MSBTS_MessageInstanceSuspendedEvent.ErrorId Property (WMI)
+            href: msbts-messageinstancesuspendedevent-errorid-property-wmi.md
+          - name: MSBTS_MessageInstanceSuspendedEvent.HostName Property (WMI)
+            href: msbts-messageinstancesuspendedevent-hostname-property-wmi.md
+          - name: MSBTS_MessageInstanceSuspendedEvent.MessageInstanceID Property (WMI)
+            href: msbts-messageinstancesuspendedevent-messageinstanceid-property-wmi.md
+          - name: MSBTS_MessageInstanceSuspendedEvent.MessageType Property (WMI)
+            href: msbts-messageinstancesuspendedevent-messagetype-property-wmi.md
+          - name: MSBTS_MessageInstanceSuspendedEvent.ReferenceType Property (WMI)
+            href: msbts-messageinstancesuspendedevent-referencetype-property-wmi.md
+          - name: MSBTS_MessageInstanceSuspendedEvent.ServiceClass Property (WMI)
+            href: msbts-messageinstancesuspendedevent-serviceclass-property-wmi.md
+          - name: MSBTS_MessageInstanceSuspendedEvent.ServiceClassID Property (WMI)
+            href: msbts-messageinstancesuspendedevent-serviceclassid-property-wmi.md
+          - name: MSBTS_MessageInstanceSuspendedEvent.ServiceInstanceID Property (WMI)
+            href: msbts-messageinstancesuspendedevent-serviceinstanceid-property-wmi.md
+          - name: MSBTS_MessageInstanceSuspendedEvent.ServiceTypeID Property (WMI)
+            href: msbts-messageinstancesuspendedevent-servicetypeid-property-wmi.md
+        - name: MSBTS_MsgBoxSetting (WMI)
+          href: msbts-msgboxsetting-wmi.md
+          items:
+          - name: MSBTS_MsgBoxSetting.DisableNewMessagePublication Property (WMI)
+            href: msbts-msgboxsetting-disablenewmessagepublication-property-wmi.md
+          - name: MSBTS_MsgBoxSetting.ForceDelete Method (WMI)
+            href: msbts-msgboxsetting-forcedelete-method-wmi.md
+          - name: MSBTS_MsgBoxSetting.IsMasterMsgBox Property (WMI)
+            href: msbts-msgboxsetting-ismastermsgbox-property-wmi.md
+          - name: MSBTS_MsgBoxSetting.MgmtDbNameOverride Property (WMI)
+            href: msbts-msgboxsetting-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_MsgBoxSetting.MgmtDbServerOverride Property (WMI)
+            href: msbts-msgboxsetting-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_MsgBoxSetting.MsgBoxDBName Property (WMI)
+            href: msbts-msgboxsetting-msgboxdbname-property-wmi.md
+          - name: MSBTS_MsgBoxSetting.MsgBoxDBServerName Property (WMI)
+            href: msbts-msgboxsetting-msgboxdbservername-property-wmi.md
+        - name: MSBTS_Orchestration (WMI)
+          href: msbts-orchestration-wmi.md
+          items:
+          - name: MSBTS_Orchestration.AssemblyCulture Property (WMI)
+            href: msbts-orchestration-assemblyculture-property-wmi.md
+          - name: MSBTS_Orchestration.AssemblyName Property (WMI)
+            href: msbts-orchestration-assemblyname-property-wmi.md
+          - name: MSBTS_Orchestration.AssemblyPublicKeyToken Property (WMI)
+            href: msbts-orchestration-assemblypublickeytoken-property-wmi.md
+          - name: MSBTS_Orchestration.AssemblyVersion Property (WMI)
+            href: msbts-orchestration-assemblyversion-property-wmi.md
+          - name: MSBTS_Orchestration.Enlist Method (WMI)
+            href: msbts-orchestration-enlist-method-wmi.md
+          - name: MSBTS_Orchestration.HostName Property (WMI)
+            href: msbts-orchestration-hostname-property-wmi.md
+          - name: MSBTS_Orchestration.MgmtDbNameOverride Property (WMI)
+            href: msbts-orchestration-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_Orchestration.MgmtDbServerOverride Property (WMI)
+            href: msbts-orchestration-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_Orchestration.Name Property (WMI)
+            href: msbts-orchestration-name-property-wmi.md
+          - name: MSBTS_Orchestration.OrchestrationStatus Property (WMI)
+            href: msbts-orchestration-orchestrationstatus-property-wmi.md
+          - name: MSBTS_Orchestration.QueryDependencyInfo Method (WMI)
+            href: msbts-orchestration-querydependencyinfo-method-wmi.md
+          - name: MSBTS_Orchestration.QueryInstanceInfo Method (WMI)
+            href: msbts-orchestration-queryinstanceinfo-method-wmi.md
+          - name: MSBTS_Orchestration.Start Method (WMI)
+            href: msbts-orchestration-start-method-wmi.md
+          - name: MSBTS_Orchestration.Stop Method (WMI)
+            href: msbts-orchestration-stop-method-wmi.md
+          - name: MSBTS_Orchestration.Unenlist Method (WMI)
+            href: msbts-orchestration-unenlist-method-wmi.md
+        - name: MSBTS_ReceiveHandler (WMI)
+          href: msbts-receivehandler-wmi.md
+          items:
+          - name: MSBTS_ReceiveHandler.AdapterName Property (WMI)
+            href: msbts-receivehandler-adaptername-property-wmi.md
+          - name: MSBTS_ReceiveHandler.CustomCfg Property (WMI)
+            href: msbts-receivehandler-customcfg-property-wmi.md
+          - name: MSBTS_ReceiveHandler.HostName Property (WMI)
+            href: msbts-receivehandler-hostname-property-wmi.md
+          - name: MSBTS_ReceiveHandler.HostNameToSwitchTo Property (WMI)
+            href: msbts-receivehandler-hostnametoswitchto-property-wmi.md
+          - name: MSBTS_ReceiveHandler.MgmtDbNameOverride Property (WMI)
+            href: msbts-receivehandler-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_ReceiveHandler.MgmtDbServerOverride Property (WMI)
+            href: msbts-receivehandler-mgmtdbserveroverride-property-wmi.md
+        - name: MSBTS_ReceiveLocation (WMI)
+          href: msbts-receivelocation-wmi.md
+          items:
+          - name: MSBTS_ReceiveLocation.ActiveStartDT Property (WMI)
+            href: msbts-receivelocation-activestartdt-property-wmi.md
+          - name: MSBTS_ReceiveLocation.ActiveStopDT Property (WMI)
+            href: msbts-receivelocation-activestopdt-property-wmi.md
+          - name: MSBTS_ReceiveLocation.AdapterName Property (WMI)
+            href: msbts-receivelocation-adaptername-property-wmi.md
+          - name: MSBTS_ReceiveLocation.CustomCfg Property (WMI)
+            href: msbts-receivelocation-customcfg-property-wmi.md
+          - name: MSBTS_ReceiveLocation.Disable Method (WMI)
+            href: msbts-receivelocation-disable-method-wmi.md
+          - name: MSBTS_ReceiveLocation.Enable Method (WMI)
+            href: msbts-receivelocation-enable-method-wmi.md
+          - name: MSBTS_ReceiveLocation.EncryptionCert (WMI)
+            href: msbts-receivelocation-encryptioncert-wmi.md
+          - name: MSBTS_ReceiveLocation.HostName Property (WMI)
+            href: msbts-receivelocation-hostname-property-wmi.md
+          - name: MSBTS_ReceiveLocation.InboundAddressableURL Property (WMI)
+            href: msbts-receivelocation-inboundaddressableurl-property-wmi.md
+          - name: MSBTS_ReceiveLocation.InboundTransportURL Property (WMI)
+            href: msbts-receivelocation-inboundtransporturl-property-wmi.md
+          - name: MSBTS_ReceiveLocation.IsDisabled Property (WMI)
+            href: msbts-receivelocation-isdisabled-property-wmi.md
+          - name: MSBTS_ReceiveLocation.IsPrimary Property (WMI)
+            href: msbts-receivelocation-isprimary-property-wmi.md
+          - name: MSBTS_ReceiveLocation.MgmtDbNameOverride Property (WMI)
+            href: msbts-receivelocation-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_ReceiveLocation.MgmtDbServerOverride Property (WMI)
+            href: msbts-receivelocation-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_ReceiveLocation.Name Property (WMI)
+            href: msbts-receivelocation-name-property-wmi.md
+          - name: MSBTS_ReceiveLocation.OperatingWindowEnabled (WMI)
+            href: msbts-receivelocation-operatingwindowenabled-wmi.md
+          - name: MSBTS_ReceiveLocation.PipelineName Property (WMI)
+            href: msbts-receivelocation-pipelinename-property-wmi.md
+          - name: MSBTS_ReceiveLocation.ReceivePortName Property (WMI)
+            href: msbts-receivelocation-receiveportname-property-wmi.md
+          - name: MSBTS_ReceiveLocation.SendPipeline (WMI)
+            href: msbts-receivelocation-sendpipeline-wmi.md
+          - name: MSBTS_ReceiveLocation.SendPipelineData (WMI)
+            href: msbts-receivelocation-sendpipelinedata-wmi.md
+          - name: MSBTS_ReceiveLocation.SrvWinStartDT Property (WMI)
+            href: msbts-receivelocation-srvwinstartdt-property-wmi.md
+          - name: MSBTS_ReceiveLocation.SrvWinStopDT Property (WMI)
+            href: msbts-receivelocation-srvwinstopdt-property-wmi.md
+          - name: MSBTS_ReceiveLocation.StartDateEnabled (WMI)
+            href: msbts-receivelocation-startdateenabled-wmi.md
+          - name: MSBTS_ReceiveLocation.StopDateEnabled (WMI)
+            href: msbts-receivelocation-stopdateenabled-wmi.md
+        - name: MSBTS_ReceiveLocationOrchestration (WMI)
+          href: msbts-receivelocationorchestration-wmi.md
+          items:
+          - name: MSBTS_ReceiveLocationOrchestration.AdapterName Property (WMI)
+            href: msbts-receivelocationorchestration-adaptername-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.InboundTransportUrl Property (WMI)
+            href: msbts-receivelocationorchestration-inboundtransporturl-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.IsDisabled Property (WMI)
+            href: msbts-receivelocationorchestration-isdisabled-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.IsPrimary Property (WMI)
+            href: msbts-receivelocationorchestration-isprimary-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.MgmtDbNameOverride Property (WMI)
+            href: msbts-receivelocationorchestration-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.MgmtDbServerOverride Property (WMI)
+            href: msbts-receivelocationorchestration-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyCulture Property (WMI)
+            href: msbts-receivelocationorchestration-orchestrationassemblyculture-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyName Property (WMI)
+            href: msbts-receivelocationorchestration-orchestrationassemblyname-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyPublicKeyToken Property (WMI)
+            href: msbts-receivelocationorchestration-orchestrationassemblypublickeytoken-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyVersion Property (WMI)
+            href: msbts-receivelocationorchestration-orchestrationassemblyversion-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.OrchestrationHostName Property (WMI)
+            href: msbts-receivelocationorchestration-orchestrationhostname-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.OrchestrationName Property (WMI)
+            href: msbts-receivelocationorchestration-orchestrationname-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.OrchestrationStatus Property (WMI)
+            href: msbts-receivelocationorchestration-orchestrationstatus-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.PipelineName Property (WMI)
+            href: msbts-receivelocationorchestration-pipelinename-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.ReceiveHostName Property (WMI)
+            href: msbts-receivelocationorchestration-receivehostname-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.ReceiveLocationName Property (WMI)
+            href: msbts-receivelocationorchestration-receivelocationname-property-wmi.md
+          - name: MSBTS_ReceiveLocationOrchestration.ReceivePortName Property (WMI)
+            href: msbts-receivelocationorchestration-receiveportname-property-wmi.md
+        - name: MSBTS_ReceivePort (WMI)
+          href: msbts-receiveport-wmi.md
+          items:
+          - name: MSBTS_ReceivePort.InboundTransforms Property (WMI)
+            href: msbts-receiveport-inboundtransforms-property-wmi.md
+          - name: MSBTS_ReceivePort.IsTwoWay Property (WMI)
+            href: msbts-receiveport-istwoway-property-wmi.md
+          - name: MSBTS_ReceivePort.MgmtDbNameOverride Property (WMI)
+            href: msbts-receiveport-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_ReceivePort.MgmtDbServerOverride Property (WMI)
+            href: msbts-receiveport-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_ReceivePort.Name Property (WMI)
+            href: msbts-receiveport-name-property-wmi.md
+          - name: MSBTS_ReceivePort.OutboundTransforms Property (WMI)
+            href: msbts-receiveport-outboundtransforms-property-wmi.md
+          - name: MSBTS_ReceivePort.PrimaryReceiveLocation Property (WMI)
+            href: msbts-receiveport-primaryreceivelocation-property-wmi.md
+          - name: MSBTS_ReceivePort.SendPipeline Property (WMI)
+            href: msbts-receiveport-sendpipeline-property-wmi.md
+          - name: MSBTS_ReceivePort.Tracking Property (WMI)
+            href: msbts-receiveport-tracking-property-wmi.md
+          - name: MSBTS_ReceivePort.RouteFailedMessage Property (WMI)
+            href: msbts-receiveport-routefailedmessage-property-wmi.md
+        - name: MSBTS_SendHandler (WMI)
+          href: msbts-sendhandler-wmi.md
+          items:
+          - name: MSBTS_SendHandler.AdapterName Property (WMI)
+            href: msbts-sendhandler-adaptername-property-wmi.md
+          - name: MSBTS_SendHandler.CustomCfg Property (WMI)
+            href: msbts-sendhandler-customcfg-property-wmi.md
+          - name: MSBTS_SendHandler.HostName Property (WMI)
+            href: msbts-sendhandler-hostname-property-wmi.md
+          - name: MSBTS_SendHandler.MgmtDbNameOverride Property (WMI)
+            href: msbts-sendhandler-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_SendHandler.MgmtDbServerOverride Property (WMI)
+            href: msbts-sendhandler-mgmtdbserveroverride-property-wmi.md
+        - name: MSBTS_SendHandler2 (WMI)
+          href: msbts-sendhandler2-wmi.md
+          items:
+          - name: MSBTS_SendHandler2.AdapterName Property (WMI)
+            href: msbts-sendhandler2-adaptername-property-wmi.md
+          - name: MSBTS_SendHandler2.MgmtDbNameOverride Property (WMI)
+            href: msbts-sendhandler2-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_SendHandler2.MgmtDbServerOverride Property (WMI)
+            href: msbts-sendhandler2-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_SendHandler2.HostName Property (WMI)
+            href: msbts-sendhandler2-hostname-property-wmi.md
+          - name: MSBTS_SendHandler2.CustomCfg Property (WMI)
+            href: msbts-sendhandler2-customcfg-property-wmi.md
+          - name: MSBTS_SendHandler2.HostNameToSwitchTo Property (WMI)
+            href: msbts-sendhandler2-hostnametoswitchto-property-wmi.md
+          - name: MSBTS_SendHandler2.IsDefault Property (WMI)
+            href: msbts-sendhandler2-isdefault-property-wmi.md
+        - name: MSBTS_SendPort (WMI)
+          href: msbts-sendport-wmi.md
+          items:
+          - name: MSBTS_SendPort.EncryptionCert Property (WMI)
+            href: msbts-sendport-encryptioncert-property-wmi.md
+          - name: MSBTS_SendPort.Enlist Method (WMI)
+            href: msbts-sendport-enlist-method-wmi.md
+          - name: MSBTS_SendPort.Filter Property (WMI)
+            href: msbts-sendport-filter-property-wmi.md
+          - name: MSBTS_SendPort.InboundTransforms Property (WMI)
+            href: msbts-sendport-inboundtransforms-property-wmi.md
+          - name: MSBTS_SendPort.IsDynamic Property (WMI)
+            href: msbts-sendport-isdynamic-property-wmi.md
+          - name: MSBTS_SendPort.IsTwoWay Property (WMI)
+            href: msbts-sendport-istwoway-property-wmi.md
+          - name: MSBTS_SendPort.MgmtDbNameOverride Property (WMI)
+            href: msbts-sendport-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_SendPort.MgmtDbServerOverride Property (WMI)
+            href: msbts-sendport-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_SendPort.Name Property (WMI)
+            href: msbts-sendport-name-property-wmi.md
+          - name: MSBTS_SendPort.OutboundTransforms Property (WMI)
+            href: msbts-sendport-outboundtransforms-property-wmi.md
+          - name: MSBTS_SendPort.Priority Property (WMI)
+            href: msbts-sendport-priority-property-wmi.md
+          - name: MSBTS_SendPort.PTAddress Property (WMI)
+            href: msbts-sendport-ptaddress-property-wmi.md
+          - name: MSBTS_SendPort.PTCustomCfg Property (WMI)
+            href: msbts-sendport-ptcustomcfg-property-wmi.md
+          - name: MSBTS_SendPort.PTFromTime Property (WMI)
+            href: msbts-sendport-ptfromtime-property-wmi.md
+          - name: MSBTS_SendPort.PTOrderedDelivery Property (WMI)
+            href: msbts-sendport-ptordereddelivery-property-wmi.md
+          - name: MSBTS_SendPort.PTRetryCount Property (WMI)
+            href: msbts-sendport-ptretrycount-property-wmi.md
+          - name: MSBTS_SendPort.PTRetryInterval Property (WMI)
+            href: msbts-sendport-ptretryinterval-property-wmi.md
+          - name: MSBTS_SendPort.PTServiceWindowEnabled Property (WMI)
+            href: msbts-sendport-ptservicewindowenabled-property-wmi.md
+          - name: MSBTS_SendPort.PTToTime Property (WMI)
+            href: msbts-sendport-pttotime-property-wmi.md
+          - name: MSBTS_SendPort.PTTransportType Property (WMI)
+            href: msbts-sendport-pttransporttype-property-wmi.md
+          - name: MSBTS_SendPort.ReceivePipeline Property (WMI)
+            href: msbts-sendport-receivepipeline-property-wmi.md
+          - name: MSBTS_SendPort.SendPipeline Property (WMI)
+            href: msbts-sendport-sendpipeline-property-wmi.md
+          - name: MSBTS_SendPort.STAddress Property (WMI)
+            href: msbts-sendport-staddress-property-wmi.md
+          - name: MSBTS_SendPort.Start Method (WMI)
+            href: msbts-sendport-start-method-wmi.md
+          - name: MSBTS_SendPort.Status Property (WMI)
+            href: msbts-sendport-status-property-wmi.md
+          - name: MSBTS_SendPort.STCustomCfg Property (WMI)
+            href: msbts-sendport-stcustomcfg-property-wmi.md
+          - name: MSBTS_SendPort.STFromTime Property (WMI)
+            href: msbts-sendport-stfromtime-property-wmi.md
+          - name: MSBTS_SendPort.Stop Method (WMI)
+            href: msbts-sendport-stop-method-wmi.md
+          - name: MSBTS_SendPort.STOrderedDelivery Property (WMI)
+            href: msbts-sendport-stordereddelivery-property-wmi.md
+          - name: MSBTS_SendPort.STRetryCount Property (WMI)
+            href: msbts-sendport-stretrycount-property-wmi.md
+          - name: MSBTS_SendPort.STRetryInterval Property (WMI)
+            href: msbts-sendport-stretryinterval-property-wmi.md
+          - name: MSBTS_SendPort.STServiceWindowEnabled Property (WMI)
+            href: msbts-sendport-stservicewindowenabled-property-wmi.md
+          - name: MSBTS_SendPort.STToTime Property (WMI)
+            href: msbts-sendport-sttotime-property-wmi.md
+          - name: MSBTS_SendPort.STTransportType Property (WMI)
+            href: msbts-sendport-sttransporttype-property-wmi.md
+          - name: MSBTS_SendPort.Tracking Property (WMI)
+            href: msbts-sendport-tracking-property-wmi.md
+          - name: MSBTS_SendPort.UnEnlist Method (WMI)
+            href: msbts-sendport-unenlist-method-wmi.md
+          - name: MSBTS_SendPort.OrderedDelivery Property (WMI)
+            href: msbts-sendport-ordereddelivery-property-wmi.md
+          - name: MSBTS_SendPort.StopSendingOnFailure Property (WMI)
+            href: msbts-sendport-stopsendingonfailure-property-wmi.md
+          - name: MSBTS_SendPort.RouteFailedMessage Property (WMI)
+            href: msbts-sendport-routefailedmessage-property-wmi.md
+        - name: MSBTS_SendPortGroup (WMI)
+          href: msbts-sendportgroup-wmi.md
+          items:
+          - name: MSBTS_SendPortGroup.Enlist Method (WMI)
+            href: msbts-sendportgroup-enlist-method-wmi.md
+          - name: MSBTS_SendPortGroup.Filter Property (WMI)
+            href: msbts-sendportgroup-filter-property-wmi.md
+          - name: MSBTS_SendPortGroup.MgmtDbNameOverride Property (WMI)
+            href: msbts-sendportgroup-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_SendPortGroup.MgmtDbServerOverride Property (WMI)
+            href: msbts-sendportgroup-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_SendPortGroup.Name Property (WMI)
+            href: msbts-sendportgroup-name-property-wmi.md
+          - name: MSBTS_SendPortGroup.Start Method (WMI)
+            href: msbts-sendportgroup-start-method-wmi.md
+          - name: MSBTS_SendPortGroup.Status Property (WMI)
+            href: msbts-sendportgroup-status-property-wmi.md
+          - name: MSBTS_SendPortGroup.Stop Method (WMI)
+            href: msbts-sendportgroup-stop-method-wmi.md
+          - name: MSBTS_SendPortGroup.UnEnlist Method (WMI)
+            href: msbts-sendportgroup-unenlist-method-wmi.md
+        - name: MSBTS_SendPortGroup2SendPort (WMI)
+          href: msbts-sendportgroup2sendport-wmi.md
+          items:
+          - name: MSBTS_SendPortGroup2SendPort.MgmtDbNameOverride Property (WMI)
+            href: msbts-sendportgroup2sendport-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_SendPortGroup2SendPort.MgmtDbServerOverride Property (WMI)
+            href: msbts-sendportgroup2sendport-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_SendPortGroup2SendPort.SendPortGroupName Property (WMI)
+            href: msbts-sendportgroup2sendport-sendportgroupname-property-wmi.md
+          - name: MSBTS_SendPortGroup2SendPort.SendPortName Property (WMI)
+            href: msbts-sendportgroup2sendport-sendportname-property-wmi.md
+        - name: MSBTS_Server (WMI)
+          href: msbts-server-wmi.md
+          items:
+          - name: MSBTS_Server.CheckIfCanInstallHostInstances Method (WMI)
+            href: msbts-server-checkifcaninstallhostinstances-method-wmi.md
+          - name: MSBTS_Server.MgmtDbNameOverride Property (WMI)
+            href: msbts-server-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_Server.MgmtDbServerOverride Property (WMI)
+            href: msbts-server-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_Server.Name Property (WMI)
+            href: msbts-server-name-property-wmi.md
+          - name: MSBTS_Server.Start Method (WMI)
+            href: msbts-server-start-method-wmi.md
+          - name: MSBTS_Server.Stop Method (WMI)
+            href: msbts-server-stop-method-wmi.md
+        - name: MSBTS_ServerHost (WMI)
+          href: msbts-serverhost-wmi.md
+          items:
+          - name: MSBTS_ServerHost.ForceUnmap Method (WMI)
+            href: msbts-serverhost-forceunmap-method-wmi.md
+          - name: MSBTS_ServerHost.HostName Property (WMI)
+            href: msbts-serverhost-hostname-property-wmi.md
+          - name: MSBTS_ServerHost.IsMapped Property (WMI)
+            href: msbts-serverhost-ismapped-property-wmi.md
+          - name: MSBTS_ServerHost.Map Method (WMI)
+            href: msbts-serverhost-map-method-wmi.md
+          - name: MSBTS_ServerHost.MgmtDbNameOverride Property (WMI)
+            href: msbts-serverhost-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_ServerHost.MgmtDbServerOverride Property (WMI)
+            href: msbts-serverhost-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_ServerHost.ServerName Property (WMI)
+            href: msbts-serverhost-servername-property-wmi.md
+          - name: MSBTS_ServerHost.Unmap Method (WMI)
+            href: msbts-serverhost-unmap-method-wmi.md
+        - name: MSBTS_ServerSetting (WMI)
+          href: msbts-serversetting-wmi.md
+          items:
+          - name: MSBTS_ServerSetting.MgmtDbNameOverride Property (WMI)
+            href: msbts-serversetting-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_ServerSetting.MgmtDbServerOverride Property (WMI)
+            href: msbts-serversetting-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_ServerSetting.Name Property (WMI)
+            href: msbts-serversetting-name-property-wmi.md
+        - name: MSBTS_Service (WMI)
+          href: msbts-service-wmi.md
+        - name: MSBTS_ServiceInstance (WMI)
+          href: msbts-serviceinstance-wmi.md
+          items:
+          - name: MSBTS_ServiceInstance.ActivationTime Property (WMI)
+            href: msbts-serviceinstance-activationtime-property-wmi.md
+          - name: MSBTS_ServiceInstance.AssemblyCulture Property (WMI)
+            href: msbts-serviceinstance-assemblyculture-property-wmi.md
+          - name: MSBTS_ServiceInstance.AssemblyName Property (WMI)
+            href: msbts-serviceinstance-assemblyname-property-wmi.md
+          - name: MSBTS_ServiceInstance.AssemblyPublicKeyToken Property (WMI)
+            href: msbts-serviceinstance-assemblypublickeytoken-property-wmi.md
+          - name: MSBTS_ServiceInstance.AssemblyVersion Property (WMI)
+            href: msbts-serviceinstance-assemblyversion-property-wmi.md
+          - name: MSBTS_ServiceInstance.ErrorCategory Property (WMI)
+            href: msbts-serviceinstance-errorcategory-property-wmi.md
+          - name: MSBTS_ServiceInstance.ErrorDescription Property (WMI)
+            href: msbts-serviceinstance-errordescription-property-wmi.md
+          - name: MSBTS_ServiceInstance.ErrorID Property (WMI)
+            href: msbts-serviceinstance-errorid-property-wmi.md
+          - name: MSBTS_ServiceInstance.HostName Property (WMI)
+            href: msbts-serviceinstance-hostname-property-wmi.md
+          - name: MSBTS_ServiceInstance.InstanceID Property (WMI)
+            href: msbts-serviceinstance-instanceid-property-wmi.md
+          - name: MSBTS_ServiceInstance.MgmtDbNameOverride Property (WMI)
+            href: msbts-serviceinstance-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_ServiceInstance.MgmtDbServerOverride Property (WMI)
+            href: msbts-serviceinstance-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_ServiceInstance.MsgBoxDBName Property (WMI)
+            href: msbts-serviceinstance-msgboxdbname-property-wmi.md
+          - name: MSBTS_ServiceInstance.MsgBoxDBServerName Property (WMI)
+            href: msbts-serviceinstance-msgboxdbservername-property-wmi.md
+          - name: MSBTS_ServiceInstance.PendingOperation Property (WMI)
+            href: msbts-serviceinstance-pendingoperation-property-wmi.md
+          - name: MSBTS_ServiceInstance.PendingOperationTime Property (WMI)
+            href: msbts-serviceinstance-pendingoperationtime-property-wmi.md
+          - name: MSBTS_ServiceInstance.Resume Method (WMI)
+            href: msbts-serviceinstance-resume-method-wmi.md
+          - name: MSBTS_ServiceInstance.ServiceClass Property (WMI)
+            href: msbts-serviceinstance-serviceclass-property-wmi.md
+          - name: MSBTS_ServiceInstance.ServiceClassID Property (WMI)
+            href: msbts-serviceinstance-serviceclassid-property-wmi.md
+          - name: MSBTS_ServiceInstance.ServiceName Property (WMI)
+            href: msbts-serviceinstance-servicename-property-wmi.md
+          - name: MSBTS_ServiceInstance.ServiceStatus Property (WMI)
+            href: msbts-serviceinstance-servicestatus-property-wmi.md
+          - name: MSBTS_ServiceInstance.ServiceTypeID Property (WMI)
+            href: msbts-serviceinstance-servicetypeid-property-wmi.md
+          - name: MSBTS_ServiceInstance.Suspend Method (WMI)
+            href: msbts-serviceinstance-suspend-method-wmi.md
+          - name: MSBTS_ServiceInstance.SuspendTime Property (WMI)
+            href: msbts-serviceinstance-suspendtime-property-wmi.md
+          - name: MSBTS_ServiceInstance.Terminate Method (WMI)
+            href: msbts-serviceinstance-terminate-method-wmi.md
+        - name: MSBTS_ServiceInstanceSuspendedEvent (WMI)
+          href: msbts-serviceinstancesuspendedevent-wmi.md
+          items:
+          - name: MSBTS_ServiceInstanceSuspendedEvent.ErrorCategory Property (WMI)
+            href: msbts-serviceinstancesuspendedevent-errorcategory-property-wmi.md
+          - name: MSBTS_ServiceInstanceSuspendedEvent.ErrorDescription Property (WMI)
+            href: msbts-serviceinstancesuspendedevent-errordescription-property-wmi.md
+          - name: MSBTS_ServiceInstanceSuspendedEvent.ErrorId Property (WMI)
+            href: msbts-serviceinstancesuspendedevent-errorid-property-wmi.md
+          - name: MSBTS_ServiceInstanceSuspendedEvent.HostName Property (WMI)
+            href: msbts-serviceinstancesuspendedevent-hostname-property-wmi.md
+          - name: MSBTS_ServiceInstanceSuspendedEvent.InstanceID Property (WMI)
+            href: msbts-serviceinstancesuspendedevent-instanceid-property-wmi.md
+          - name: MSBTS_ServiceInstanceSuspendedEvent.ServiceClass Property (WMI)
+            href: msbts-serviceinstancesuspendedevent-serviceclass-property-wmi.md
+          - name: MSBTS_ServiceInstanceSuspendedEvent.ServiceClassID Property (WMI)
+            href: msbts-serviceinstancesuspendedevent-serviceclassid-property-wmi.md
+          - name: MSBTS_ServiceInstanceSuspendedEvent.ServiceStatus Property (WMI)
+            href: msbts-serviceinstancesuspendedevent-servicestatus-property-wmi.md
+          - name: MSBTS_ServiceInstanceSuspendedEvent.ServiceTypeID Property (WMI)
+            href: msbts-serviceinstancesuspendedevent-servicetypeid-property-wmi.md
+        - name: MSBTS_Setting (WMI)
+          href: msbts-setting-wmi.md
+        - name: MSBTS_TrackedMessageInstance (WMI)
+          href: msbts-trackedmessageinstance-wmi.md
+          items:
+          - name: MSBTS_TrackedMessageInstance.MessageInstanceID Property (WMI)
+            href: msbts-trackedmessageinstance-messageinstanceid-property-wmi.md
+          - name: MSBTS_TrackedMessageInstance.PartCount Property (WMI)
+            href: msbts-trackedmessageinstance-partcount-property-wmi.md
+          - name: MSBTS_TrackedMessageInstance.SaveToFile Method (WMI)
+            href: msbts-trackedmessageinstance-savetofile-method-wmi.md
+          - name: MSBTS_TrackedMessageInstance.SourceDBName Property (WMI)
+            href: msbts-trackedmessageinstance-sourcedbname-property-wmi.md
+          - name: MSBTS_TrackedMessageInstance.SourceDBServerName Property (WMI)
+            href: msbts-trackedmessageinstance-sourcedbservername-property-wmi.md
+        - name: MSBTS_TrackedMessageInstance2 (WMI)
+          href: msbts-trackedmessageinstance2-wmi.md
+          items:
+          - name: MSBTS_TrackedMessageInstance2.MessageInstanceID Property (WMI)
+            href: msbts-trackedmessageinstance2-messageinstanceid-property-wmi.md
+          - name: MSBTS_TrackedMessageInstance2.SourceDBServerName Property (WMI)
+            href: msbts-trackedmessageinstance2-sourcedbservername-property-wmi.md
+          - name: MSBTS_TrackedMessageInstance2.SourceDBName Property (WMI)
+            href: msbts-trackedmessageinstance2-sourcedbname-property-wmi.md
+          - name: MSBTS_TrackedMessageInstance2.MgmtDbNameOverride Property (WMI)
+            href: msbts-trackedmessageinstance2-mgmtdbnameoverride-property-wmi.md
+          - name: MSBTS_TrackedMessageInstance2.MgmtDbServerOverride Property (WMI)
+            href: msbts-trackedmessageinstance2-mgmtdbserveroverride-property-wmi.md
+          - name: MSBTS_TrackedMessageInstance2.PartCount Property (WMI)
+            href: msbts-trackedmessageinstance2-partcount-property-wmi.md
+          - name: MSBTS_TrackedMessageInstance2.SaveToFile Method (WMI)
+            href: msbts-trackedmessageinstance2-savetofile-method-wmi.md
+    - name: Schema Property Reference
+      href: schema-property-reference.md
+      items:
+      - name: Schema File Properties
+        href: schema-file-properties.md
+        items:
+        - name: Filename (Schema Item Property)
+          href: filename-schema-item-property.md
+        - name: Full Path (Schema Item Property)
+          href: full-path-schema-item-property.md
+        - name: Build Action (Schema Item Property)
+          href: build-action-schema-item-property.md
+        - name: Fully Qualified Name (Schema Item Property)
+          href: fully-qualified-name-schema-item-property.md
+        - name: Namespace (Schema Item Property)
+          href: namespace-schema-item-property.md
+        - name: Type Name (Schema Item Property)
+          href: type-name-schema-item-property.md
+        - name: Default Property Schema Name (Schema File Property)
+          href: default-property-schema-name-schema-file-property.md
+        - name: Generate Instance Output Type (Schema File Property)
+          href: generate-instance-output-type-schema-file-property.md
+        - name: Input Instance Filename (Schema File Property)
+          href: input-instance-filename-schema-file-property.md
+        - name: Output Instance Filename (Schema File Property)
+          href: output-instance-filename-schema-file-property.md
+        - name: Validate Instance Input Type (Schema File Property)
+          href: validate-instance-input-type-schema-file-property.md
+      - name: Node Properties - By Node Type
+        href: node-properties-by-node-type.md
+        items:
+        - name: Schema Node Properties
+          href: schema-node-properties.md
+        - name: Record Node Properties
+          href: record-node-properties.md
+        - name: Field Element Node Properties
+          href: field-element-node-properties.md
+        - name: Field Attribute Node Properties
+          href: field-attribute-node-properties.md
+        - name: Sequence Group Node Properties
+          href: sequence-group-node-properties.md
+        - name: Choice Group Node Properties
+          href: choice-group-node-properties.md
+        - name: All Group Node Properties
+          href: all-group-node-properties.md
+        - name: Attribute Group Node Properties
+          href: attribute-group-node-properties.md
+        - name: Any Element Node Properties
+          href: any-element-node-properties.md
+        - name: Any Attribute Node Properties
+          href: any-attribute-node-properties.md
+        - name: Equivalent Node Properties
+          href: equivalent-node-properties.md
+        - name: Equivalent Child Node Properties
+          href: equivalent-child-node-properties.md
+      - name: Node Properties - Alphabetical Listings
+        href: node-properties-alphabetical-listings.md
+        items:
+        - name: Node Properties of All Schemas
+          href: node-properties-of-all-schemas.md
+          items:
+          - name: Attribute FormDefault (Node Property of All Schemas)
+            href: attribute-formdefault-node-property-of-all-schemas.md
+          - name: Base Data Type (Node Property of All Schemas)
+            href: base-data-type-node-property-of-all-schemas.md
+          - name: Base Type (Node Property of All Schemas)
+            href: base-type-node-property-of-all-schemas.md
+          - name: Block (Node Property of All Schemas)
+            href: block-node-property-of-all-schemas.md
+          - name: BlockDefault (Node Property of All Schemas)
+            href: blockdefault-node-property-of-all-schemas.md
+          - name: Body XPath (Node Property of All Schemas)
+            href: body-xpath-node-property-of-all-schemas.md
+          - name: CodeList (Node Property of All Schemas)
+            href: codelist-node-property-of-all-schemas.md
+          - name: CodeList Database (Node Property of All Schemas)
+            href: codelist-database-node-property-of-all-schemas.md
+          - name: Content Type (Node Property of All Schemas)
+            href: content-type-node-property-of-all-schemas.md
+          - name: Data Structure Type (Node Property of All Schemas)
+            href: data-structure-type-node-property-of-all-schemas.md
+          - name: Data Type (Node Property of All Schemas)
+            href: data-type-node-property-of-all-schemas.md
+          - name: Default Value (Node Property of All Schemas)
+            href: default-value-node-property-of-all-schemas.md
+          - name: Derivation Type (Node Property of All Schemas)
+            href: derivation-type-node-property-of-all-schemas.md
+          - name: Derived By (Node Property of All Schemas)
+            href: derived-by-node-property-of-all-schemas.md
+          - name: Document Type (Node Property of All Schemas)
+            href: document-type-node-property-of-all-schemas.md
+          - name: Document Version (Node Property of All Schemas)
+            href: document-version-node-property-of-all-schemas.md
+          - name: Element FormDefault (Node Property of All Schemas)
+            href: element-formdefault-node-property-of-all-schemas.md
+          - name: Enumeration (Node Property of All Schemas)
+            href: enumeration-node-property-of-all-schemas.md
+          - name: Envelope (Node Property of All Schemas)
+            href: envelope-node-property-of-all-schemas.md
+          - name: Field Type (Node Property of All Schemas)
+            href: field-type-node-property-of-all-schemas.md
+          - name: Final (Node Property of All Schemas)
+            href: final-node-property-of-all-schemas.md
+          - name: FinalDefault (Node Property of All Schemas)
+            href: finaldefault-node-property-of-all-schemas.md
+          - name: Fixed (Node Property of All Schemas)
+            href: fixed-node-property-of-all-schemas.md
+          - name: Form (Node Property of All Schemas)
+            href: form-node-property-of-all-schemas.md
+          - name: Group Max Occurs (Node Property of All Schemas)
+            href: group-max-occurs-node-property-of-all-schemas.md
+          - name: Group Min Occurs (Node Property of All Schemas)
+            href: group-min-occurs-node-property-of-all-schemas.md
+          - name: Group Order Type (Node Property of All Schemas)
+            href: group-order-type-node-property-of-all-schemas.md
+          - name: Group Reference (Node Property of All Schemas)
+            href: group-reference-node-property-of-all-schemas.md
+          - name: Imports (Node Property of All Schemas)
+            href: imports-node-property-of-all-schemas.md
+          - name: Instance XPath (Node Property of All Schemas)
+            href: instance-xpath-node-property-of-all-schemas.md
+          - name: Item Type (Node Property of All Schemas)
+            href: item-type-node-property-of-all-schemas.md
+          - name: Length (Node Property of All Schemas)
+            href: length-node-property-of-all-schemas.md
+          - name: Max Occurs (Node Property of All Schemas)
+            href: max-occurs-node-property-of-all-schemas.md
+          - name: MaxFacet Type (Node Property of All Schemas)
+            href: maxfacet-type-node-property-of-all-schemas.md
+          - name: MaxFacet Value (Node Property of All Schemas)
+            href: maxfacet-value-node-property-of-all-schemas.md
+          - name: Maximum Length (Node Property of All Schemas)
+            href: maximum-length-node-property-of-all-schemas.md
+          - name: Member Types (Node Property of All Schemas)
+            href: member-types-node-property-of-all-schemas.md
+          - name: Min Occurs (Node Property of All Schemas)
+            href: min-occurs-node-property-of-all-schemas.md
+          - name: MinFacet Type (Node Property of All Schemas)
+            href: minfacet-type-node-property-of-all-schemas.md
+          - name: MinFacet Value (Node Property of All Schemas)
+            href: minfacet-value-node-property-of-all-schemas.md
+          - name: Minimum Length (Node Property of All Schemas)
+            href: minimum-length-node-property-of-all-schemas.md
+          - name: Mixed (Node Property of All Schemas)
+            href: mixed-node-property-of-all-schemas.md
+          - name: Namespace (Node Property of All Schemas)
+            href: namespace-node-property-of-all-schemas.md
+          - name: Nillable (Node Property of All Schemas)
+            href: nillable-node-property-of-all-schemas.md
+          - name: Node Name (Node Property of All Schemas)
+            href: node-name-node-property-of-all-schemas.md
+          - name: Notes (Node Property of All Schemas)
+            href: notes-node-property-of-all-schemas.md
+          - name: Order Type (Node Property of All Schemas)
+            href: order-type-node-property-of-all-schemas.md
+          - name: Pattern (Node Property of All Schemas)
+            href: pattern-node-property-of-all-schemas.md
+          - name: Process Contents (Node Property of All Schemas)
+            href: process-contents-node-property-of-all-schemas.md
+          - name: Promote Properties (Node Property of All Schemas)
+            href: promote-properties-node-property-of-all-schemas.md
+          - name: Receipt (Node Property of All Schemas)
+            href: receipt-node-property-of-all-schemas.md
+          - name: Root Reference (Node Property of All Schemas)
+            href: root-reference-node-property-of-all-schemas.md
+          - name: RootNode TypeName (Node Property of All Schemas)
+            href: rootnode-typename-node-property-of-all-schemas.md
+          - name: Schema Editor Extensions (Node Property of All Schemas)
+            href: schema-editor-extensions-node-property-of-all-schemas.md
+          - name: Schema File Location (Node Property of All Schemas)
+            href: schema-file-location-node-property-of-all-schemas.md
+          - name: Schema Type (Node Property of All Schemas)
+            href: schema-type-node-property-of-all-schemas.md
+          - name: Specification Name (Node Property of All Schemas)
+            href: specification-name-node-property-of-all-schemas.md
+          - name: Standard (Node Property of All Schemas)
+            href: standard-node-property-of-all-schemas.md
+          - name: Standard Version (Node Property of All Schemas)
+            href: standard-version-node-property-of-all-schemas.md
+          - name: Target Namespace (Node Property of All Schemas)
+            href: target-namespace-node-property-of-all-schemas.md
+          - name: Use Requirement (Node Property of All Schemas)
+            href: use-requirement-node-property-of-all-schemas.md
+        - name: Supplemental Node Properties for Property Schemas
+          href: supplemental-node-properties-for-property-schemas.md
+          items:
+          - name: Property Schema Base (Node Property of Property Schemas)
+            href: property-schema-base-node-property-of-property-schemas.md
+          - name: Sensitive Information (Node Property of Property Schemas)
+            href: sensitive-information-node-property-of-property-schemas.md
+        - name: Supplemental Node Properties for Flat File Schemas
+          href: supplemental-node-properties-for-flat-file-schemas.md
+          items:
+          - name: Case (Node Property of Flat File Schemas)
+            href: case-node-property-of-flat-file-schemas.md
+          - name: Child Delimiter (Node Property of Flat File Schemas)
+            href: child-delimiter-node-property-of-flat-file-schemas.md
+          - name: Child Delimiter Type (Node Property of Flat File Schemas)
+            href: child-delimiter-type-node-property-of-flat-file-schemas.md
+          - name: Child Order (Node Property of Flat File Schemas)
+            href: child-order-node-property-of-flat-file-schemas.md
+          - name: Code Page (Node Property of Flat File Schemas)
+            href: code-page-node-property-of-flat-file-schemas.md
+          - name: Count Positions In Bytes (Node Property of Flat File Schemas)
+            href: count-positions-in-bytes-node-property-of-flat-file-schemas.md
+          - name: Custom Date-Time Format (Node Property of Flat File Schemas)
+            href: custom-date-time-format-node-property-of-flat-file-schemas.md
+          - name: Default Child Delimiter (Node Property of Flat File Schemas)
+            href: default-child-delimiter-node-property-of-flat-file-schemas.md
+          - name: Default Child Delimiter Type (Node Property of Flat File Schemas)
+            href: default-child-delimiter-type-node-property-of-flat-file-schemas.md
+          - name: Default Child Order (Node Property of Flat File Schemas)
+            href: default-child-order-node-property-of-flat-file-schemas.md
+          - name: Default Escape Character (Node Property of Flat File Schemas)
+            href: default-escape-character-node-property-of-flat-file-schemas.md
+          - name: Default Escape Character Type (Node Property of Flat File Schemas)
+            href: default-escape-character-type-node-property-of-flat-file-schemas.md
+          - name: Default Repeating Delimiter (Node Property of Flat File Schemas)
+            href: default-repeating-delimiter-node-property-of-flat-file-schemas.md
+          - name: Default Repeating Delimiter Type (Node Property of Flat File Schemas)
+            href: default-repeating-delimiter-type-node-property-of-flat-file-schemas.md
+          - name: Default Wrap Character (Node Property of Flat File Schemas)
+            href: default-wrap-character-node-property-of-flat-file-schemas.md
+          - name: Default Wrap Character Type (Node Property of Flat File Schemas)
+            href: default-wrap-character-type-node-property-of-flat-file-schemas.md
+          - name: Escape Character (Node Property of Flat File Schemas)
+            href: escape-character-node-property-of-flat-file-schemas.md
+          - name: Escape Character Type (Node Property of Flat File Schemas)
+            href: escape-character-type-node-property-of-flat-file-schemas.md
+          - name: Justification (Node Property of Flat File Schemas)
+            href: justification-node-property-of-flat-file-schemas.md
+          - name: Minimum Length with Pad Character (Node Property of Flat File Schemas)
+            href: minimum-length-with-pad-character-node-property-of-flat-file-schemas.md
+          - name: Pad Character (Node Property of Flat File Schemas)
+            href: pad-character-node-property-of-flat-file-schemas.md
+          - name: Pad Character Type (Node Property of Flat File Schemas)
+            href: pad-character-type-node-property-of-flat-file-schemas.md
+          - name: Positional Length (Node Property of Flat File Schemas)
+            href: positional-length-node-property-of-flat-file-schemas.md
+          - name: Positional Offset (Node Property of Flat File Schemas)
+            href: positional-offset-node-property-of-flat-file-schemas.md
+          - name: Preserve Delimiter For Empty Data (Node Property of Flat File Schemas)
+            href: preserve-delimiter-for-empty-data-node-property-of-flat-file-schemas.md
+          - name: Repeating Delimiter (Node Property of Flat File Schemas)
+            href: repeating-delimiter-node-property-of-flat-file-schemas.md
+          - name: Repeating Delimiter Type (Node Property of Flat File Schemas)
+            href: repeating-delimiter-type-node-property-of-flat-file-schemas.md
+          - name: Restricted Characters (Node Property of Flat File Schemas)
+            href: restricted-characters-node-property-of-flat-file-schemas.md
+          - name: Structure (Node Property of Flat File Schemas)
+            href: structure-node-property-of-flat-file-schemas.md
+          - name: Suppress Trailing Delimiters (Node Property of Flat File Schemas)
+            href: suppress-trailing-delimiters-node-property-of-flat-file-schemas.md
+          - name: Tag Identifier (Node Property of Flat File Schemas)
+            href: tag-identifier-node-property-of-flat-file-schemas.md
+          - name: Tag Offset (Node Property of Flat File Schemas)
+            href: tag-offset-node-property-of-flat-file-schemas.md
+          - name: Wrap Character (Node Property of Flat File Schemas)
+            href: wrap-character-node-property-of-flat-file-schemas.md
+          - name: Wrap Character Type (Node Property of Flat File Schemas)
+            href: wrap-character-type-node-property-of-flat-file-schemas.md
+    - name: Map Property Reference
+      href: map-property-reference.md
+      items:
+      - name: Map File Properties
+        href: map-file-properties.md
+        items:
+        - name: File Name (Map Item Property)
+          href: file-name-map-item-property.md
+        - name: Full Path (Map Item Property)
+          href: full-path-map-item-property.md
+        - name: Build Action (Map Item Property)
+          href: build-action-map-item-property.md
+        - name: Fully Qualified Name (Map Item Property)
+          href: fully-qualified-name-map-item-property.md
+        - name: Namespace (Map Item Property)
+          href: namespace-map-item-property.md
+        - name: Type Name (Map Item Property)
+          href: type-name-map-item-property.md
+        - name: TestMap Input Instance (Map File Property)
+          href: testmap-input-instance-map-file-property.md
+        - name: TestMap Output Instance (Map File Property)
+          href: testmap-output-instance-map-file-property.md
+        - name: TestMap Input (Map File Property)
+          href: testmap-input-map-file-property.md
+        - name: TestMap Output (Map File Property)
+          href: testmap-output-map-file-property.md
+        - name: Validate TestMap Input (Map File Property)
+          href: validate-testmap-input-map-file-property.md
+        - name: Validate TestMap Output (Map File Property)
+          href: validate-testmap-output-map-file-property.md
+      - name: Grid Properties
+        href: grid-properties.md
+        items:
+        - name: CDATA Section Elements (Grid Property)
+          href: cdata-section-elements-grid-property.md
+        - name: Copy Processing Instructions (PIs) (Grid Property)
+          href: copy-processing-instructions-pis-grid-property.md
+        - name: Custom Extension XML (Grid Property)
+          href: custom-extension-xml-grid-property.md
+        - name: Custom XSLT Path (Grid Property)
+          href: custom-xslt-path-grid-property.md
+        - name: Doctype Public (Grid Property)
+          href: doctype-public-grid-property.md
+        - name: Doctype System (Grid Property)
+          href: doctype-system-grid-property.md
+        - name: Ignore Namespaces for Links (Grid Property)
+          href: ignore-namespaces-for-links-grid-property.md
+        - name: Indent (Grid Property)
+          href: indent-grid-property.md
+        - name: Media-Type (Grid Property)
+          href: media-type-grid-property.md
+        - name: Method (Grid Property)
+          href: method-grid-property.md
+        - name: Omit XML Declaration (Grid Property)
+          href: omit-xml-declaration-grid-property.md
+        - name: Script Type Precedence (Grid Property)
+          href: script-type-precedence-grid-property.md
+        - name: Source Schema (Grid Property)
+          href: source-schema-grid-property.md
+        - name: Standalone (Grid Property)
+          href: standalone-grid-property.md
+        - name: Target Schema (Grid Property)
+          href: target-schema-grid-property.md
+        - name: Version (Grid Property)
+          href: version-grid-property.md
+        - name: XSLT Encoding (Grid Property)
+          href: xslt-encoding-grid-property.md
+      - name: General Functoid Properties
+        href: general-functoid-properties.md
+        items:
+        - name: (Name) (Functoid Property)
+          href: name-functoid-property.md
+        - name: Comments (Functoid Property)
+          href: comments-functoid-property.md
+        - name: Help (Functoid Property)
+          href: help-functoid-property.md
+        - name: Input Parameters (Functoid Property)
+          href: input-parameters-functoid-property.md
+        - name: Label (Functoid Property)
+          href: label-functoid-property.md
+        - name: Maximum Input Parameters (Functoid Property)
+          href: maximum-input-parameters-functoid-property.md
+        - name: Minimum Input Parameters (Functoid Property)
+          href: minimum-input-parameters-functoid-property.md
+        - name: Script (Functoid Property)
+          href: script-functoid-property.md
+        - name: Table Looping Grid (Functoid Property)
+          href: table-looping-grid-functoid-property.md
+      - name: Link Properties
+        href: link-properties.md
+        items:
+        - name: Label (Link Property)
+          href: label-link-property.md
+        - name: Link Source (Link Property)
+          href: link-source-link-property.md
+        - name: Link Target (Link Property)
+          href: link-target-link-property.md
+        - name: Source Links (Link Property)
+          href: source-links-link-property.md
+        - name: Target Links (Link Property)
+          href: target-links-link-property.md
+      - name: Schema Node Properties in BizTalk Mapper
+        href: schema-node-properties-in-biztalk-mapper.md
+        items:
+        - name: Value (Schema Node Property)
+          href: value-schema-node-property.md
+    - name: Functoid Reference
+      href: functoid-reference.md
+      items:
+      - name: Advanced Functoids Reference
+        href: advanced-functoids-reference.md
+        items:
+        - name: Assert Functoid Reference
+          href: assert-functoid-reference.md
+        - name: Index Functoid Reference
+          href: index-functoid-reference.md
+        - name: Iteration Functoid Reference
+          href: iteration-functoid-reference.md
+        - name: Looping Functoid Reference
+          href: looping-functoid-reference.md
+        - name: Mass Copy Functoid Reference
+          href: mass-copy-functoid-reference.md
+        - name: Nil Value Functoid Reference
+          href: nil-value-functoid-reference.md
+        - name: Record Count Functoid Reference
+          href: record-count-functoid-reference.md
+        - name: Scripting Functoid Reference
+          href: scripting-functoid-reference.md
+        - name: Table Extractor Functoid Reference
+          href: table-extractor-functoid-reference.md
+        - name: Table Looping Functoid Reference
+          href: table-looping-functoid-reference.md
+        - name: Value Mapping Functoid Reference
+          href: value-mapping-functoid-reference.md
+        - name: Value Mapping (Flattening) Functoid Reference
+          href: value-mapping-flattening-functoid-reference.md
+        - name: Value Mapping Functoid vs Value Mapping (Flattening) Functoid Reference
+          href: value-mapping-functoid-vs-value-mapping-flattening-functoid-reference.md
+      - name: Conversion Functoids Reference
+        href: conversion-functoids-reference.md
+        items:
+        - name: ASCII to Character Functoid
+          href: ascii-to-character-functoid.md
+        - name: Character to ASCII Functoid
+          href: character-to-ascii-functoid.md
+        - name: Hexadecimal Functoid
+          href: hexadecimal-functoid.md
+        - name: Octal Functoid
+          href: octal-functoid.md
+      - name: Cumulative Functoids Reference
+        href: cumulative-functoids-reference.md
+        items:
+        - name: Cumulative Average Functoid
+          href: cumulative-average-functoid.md
+        - name: Cumulative Concatenate Functoid
+          href: cumulative-concatenate-functoid.md
+        - name: Cumulative Maximum Functoid
+          href: cumulative-maximum-functoid.md
+        - name: Cumulative Minimum Functoid
+          href: cumulative-minimum-functoid.md
+        - name: Cumulative Sum Functoid
+          href: cumulative-sum-functoid.md
+      - name: Database Functoids Reference
+        href: database-functoids-reference.md
+        items:
+        - name: Database Lookup Functoid
+          href: database-lookup-functoid.md
+        - name: Error Return Functoid
+          href: error-return-functoid.md
+        - name: Format Message Functoid
+          href: format-message-functoid.md
+        - name: Get Application ID Functoid
+          href: get-application-id-functoid.md
+        - name: Get Application Value Functoid
+          href: get-application-value-functoid.md
+        - name: Get Common ID Functoid
+          href: get-common-id-functoid.md
+        - name: Get Common Value Functoid
+          href: get-common-value-functoid.md
+        - name: Remove Application ID Functoid
+          href: remove-application-id.md
+        - name: Set Common ID Functoid
+          href: set-common-id-functoid.md
+        - name: Value Extractor Functoid
+          href: value-extractor-functoid.md
+        - name: Importing Data for the Cross Referencing Functoids
+          href: importing-data-for-the-cross-referencing-functoids.md
+          items:
+          - name: BizTalk Server Cross Reference Import Tool (BTSXRefImport.exe)
+            href: biztalk-server-cross-reference-import-tool-btsxrefimport-exe.md
+          - name: SetUp-Files Document
+            href: setup-files-document.md
+          - name: listOfAppType Document
+            href: listofapptype-document.md
+          - name: listOfAppInstance Document
+            href: listofappinstance-document.md
+          - name: listOfIDXRef Document
+            href: listofidxref-document.md
+          - name: listOfIDXRefData Document
+            href: listofidxrefdata-document.md
+          - name: listOfValueXRef Document
+            href: listofvaluexref-document.md
+          - name: listOfValueXRefData Document
+            href: listofvaluexrefdata-document.md
+          - name: listOfMessageDef Document
+            href: listofmessagedef-document.md
+          - name: listOfMessageText Document
+            href: listofmessagetext-document.md
+      - name: Date and Time Functoids Reference
+        href: date-and-time-functoids-reference.md
+        items:
+        - name: Add Days Functoid
+          href: add-days-functoid.md
+        - name: Date Functoid
+          href: date-functoid.md
+        - name: Date and Time Functoid
+          href: date-and-time-functoid.md
+        - name: Time Functoid
+          href: time-functoid.md
+      - name: Logical Functoids Reference
+        href: logical-functoids-reference.md
+        items:
+        - name: Equal Functoid
+          href: equal-functoid.md
+        - name: Greater Than Functoid
+          href: greater-than-functoid.md
+        - name: Greater Than or Equal To Functoid
+          href: greater-than-or-equal-to-functoid.md
+        - name: IsNil Functoid
+          href: isnil-functoid.md
+        - name: Less Than Functoid
+          href: less-than-functoid.md
+        - name: Less Than or Equal To Functoid
+          href: less-than-or-equal-to-functoid.md
+        - name: Logical AND Functoid
+          href: logical-and-functoid.md
+        - name: Logical Date Functoid
+          href: logical-date-functoid.md
+        - name: Logical Existence Functoid
+          href: logical-existence-functoid.md
+        - name: Logical NOT Functoid
+          href: logical-not-functoid.md
+        - name: Logical Numeric Functoid
+          href: logical-numeric-functoid.md
+        - name: Logical OR Functoid
+          href: logical-or-functoid.md
+        - name: Logical String Functoid
+          href: logical-string-functoid.md
+        - name: Not Equal Functoid
+          href: not-equal-functoid.md
+      - name: Mathematical Functoids Reference
+        href: mathematical-functoids-reference.md
+        items:
+        - name: Absolute Value Functoid
+          href: absolute-value-functoid.md
+        - name: Addition Functoid
+          href: addition-functoid.md
+        - name: Division Functoid
+          href: division-functoid.md
+        - name: Integer Functoid
+          href: integer-functoid.md
+        - name: Maximum Value Functoid
+          href: maximum-value-functoid.md
+        - name: Minimum Value Functoid
+          href: minimum-value-functoid.md
+        - name: Modulo Functoid
+          href: modulo-functoid.md
+        - name: Multiplication Functoid
+          href: multiplication-functoid.md
+        - name: Round Functoid
+          href: round-functoid.md
+        - name: Square Root Functoid
+          href: square-root-functoid.md
+        - name: Subtraction Functoid
+          href: subtraction-functoid.md
+      - name: Scientific Functoids Reference
+        href: scientific-functoids-reference.md
+        items:
+        - name: 10^n Functoid
+          href: 10-n-functoid.md
+        - name: Arc Tangent Functoid
+          href: arc-tangent-functoid.md
+        - name: Base-Specified Logarithm Functoid
+          href: base-specified-logarithm-functoid.md
+        - name: Common Logarithm Functoid
+          href: common-logarithm-functoid.md
+        - name: Cosine Functoid
+          href: cosine-functoid.md
+        - name: Natural Exponential Functoid
+          href: natural-exponential-functoid.md
+        - name: Natural Logarithm Functoid
+          href: natural-logarithm-functoid.md
+        - name: Sine Functoid
+          href: sine-functoid.md
+        - name: Tangent Functoid
+          href: tangent-functoid.md
+        - name: X^Y Functoid
+          href: x-y-functoid.md
+      - name: String Functoids Reference
+        href: string-functoids-reference.md
+        items:
+        - name: Lowercase Functoid
+          href: lowercase-functoid.md
+        - name: Size Functoid
+          href: size-functoid.md
+        - name: String Concatenate Functoid
+          href: string-concatenate-functoid.md
+        - name: String Extract Functoid
+          href: string-extract-functoid.md
+        - name: String Find Functoid
+          href: string-find-functoid.md
+        - name: String Left Functoid
+          href: string-left-functoid.md
+        - name: String Left Trim Functoid
+          href: string-left-trim-functoid.md
+        - name: String Right Functoid
+          href: string-right-functoid.md
+        - name: String Right Trim Functoid
+          href: string-right-trim-functoid.md
+        - name: Uppercase Functoid
+          href: uppercase-functoid.md
+    - name: WCF Adapters Service Contract Reference
+      href: wcf-adapters-service-contract-reference.md
+      items:
+      - name: ITwoWayAsync Interface
+        href: itwowayasync-interface.md
+        items:
+        - name: ITwoWayAsync.BeginTwoWayMethod Method
+          href: itwowayasync-begintwowaymethod-method.md
+        - name: ITwoWayAsync.EndTwoWayMethod Method
+          href: itwowayasync-endtwowaymethod-method.md
+        - name: ITwoWayAsync.BizTalkSubmit Method
+          href: itwowayasync-biztalksubmit-method.md
+      - name: ITwoWayAsyncVoid Interface
+        href: itwowayasyncvoid-interface.md
+        items:
+        - name: ITwoWayAsyncVoid.BeginTwoWayMethod Method
+          href: itwowayasyncvoid-begintwowaymethod-method.md
+        - name: ITwoWayAsyncVoid.EndTwoWayMethod Method
+          href: itwowayasyncvoid-endtwowaymethod-method.md
+        - name: ITwoWayAsyncVoid.BizTalkSubmit Method
+          href: itwowayasyncvoid-biztalksubmit-method.md
+      - name: ITwoWayAsyncVoidTxn Interface
+        href: itwowayasyncvoidtxn-interface.md
+        items:
+        - name: ITwoWayAsyncVoidTxn.BeginTwoWayMethod Method
+          href: itwowayasyncvoidtxn-begintwowaymethod-method.md
+        - name: ITwoWayAsyncVoidTxn.EndTwoWayMethod Method
+          href: itwowayasyncvoidtxn-endtwowaymethod-method.md
+        - name: ITwoWayAsyncVoidTxn.BizTalkSubmit Method
+          href: itwowayasyncvoidtxn-biztalksubmit-method.md
+      - name: IOneWayAsync Interface
+        href: ionewayasync-interface.md
+        items:
+        - name: IOneWayAsync.BeginOneWayMethod Method
+          href: ionewayasync-beginonewaymethod-method.md
+        - name: IOneWayAsync.EndOneWayMethod Method
+          href: ionewayasync-endonewaymethod-method.md
+        - name: IOneWayAsync.BizTalkSubmit Method
+          href: ionewayasync-biztalksubmit-method.md
+      - name: IOneWayAsyncTxn Interface
+        href: ionewayasynctxn-interface.md
+        items:
+        - name: IOneWayAsyncTxn.BeginOneWayMethod Method
+          href: ionewayasynctxn-beginonewaymethod-method.md
+        - name: IOneWayAsyncTxn.EndOneWayMethod Method
+          href: ionewayasynctxn-endonewaymethod-method.md
+        - name: IOneWayAsyncTxn.BizTalkSubmit Method
+          href: ionewayasynctxn-biztalksubmit-method.md
+      - name: BizTalkServiceInstance Class
+        href: biztalkserviceinstance-class.md
+    - name: Message Context Properties
+      href: message-context-properties1.md
+    - name: Enterprise Single Sign-On Flags
+      href: enterprise-single-sign-on-flags.md
+    - name: BizTalk Server .NET Class Reference
+      href: biztalk-server-net-class-reference.md

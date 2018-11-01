@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Regenerate the Live Data Workbook
-In cases where the BAM live data workbook has been lost or corrupted, you can regenerate the workbook using the BAM Management utiprolity. This process is also useful when you are upgrading from from previous BizTalk Server versions.
+In cases where the BAM live data workbook has been lost or corrupted, you can regenerate the workbook using the BAM Management utiprolity. This process is also useful when you are upgrading from previous BizTalk Server versions.
   
  The general steps are as follows:  
   

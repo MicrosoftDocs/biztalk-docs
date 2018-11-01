@@ -223,12 +223,12 @@ class MsSna_PrintSession : MsSna_Config
  **NoHorizontalScaling**  
  Data Type: **Boolean** Access Type: Read/Write  
   
- **true** to turn off off the horizontal scaling feature of the printer driver; otherwise, **false**.  
+ **true** to turn off the horizontal scaling feature of the printer driver; otherwise, **false**.  
   
  **NoVerticalScaling**  
  Data Type: **Boolean** Access Type: Read/Write  
   
- **true** to turn off off the vertical scaling feature of the printer driver; otherwise, **false**.  
+ **true** to turn off the vertical scaling feature of the printer driver; otherwise, **false**.  
   
  **LPIOverride**  
  Data Type: **Boolean** Access Type: Read/Write  

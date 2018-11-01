@@ -29,7 +29,7 @@ You use the BtarnClean utility to clean Microsoft® [!INCLUDE[BTARN_CurrentVersi
   
 - Stopping and deleting all the associated ports  
   
-- Undeploying all the Microsoft .Solutions.BTARN.* assemblies  
+- Undeploying all the Microsoft .Solutions.BTARN.\* assemblies  
   
 ## Location in SDK  
  \<*drive*\>\Program Files (x86)\ Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK  

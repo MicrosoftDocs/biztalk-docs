@@ -251,7 +251,7 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
 ## Step 4: Build and Deploy the Project  
  Now the BizTalk project is complete and you can build and deploy it in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-1.  In Visual Studio, point to **Visual Studio Tools**, and then select Visual Studio Command Prompt**.  
+1.  In Visual Studio, point to **Visual Studio Tools**, and then select **Visual Studio Command Prompt**.  
   
 2.  To build the project, you need a strong name key file.At the command prompt, enter the following to create a strong name key file:  
   

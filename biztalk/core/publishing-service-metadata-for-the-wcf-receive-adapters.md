@@ -22,7 +22,7 @@ You can use the BizTalk WCF Service Publishing Wizard to create WCF services for
 
 ## IIS versions
 
- The WCF service that publishes service metadata can be running on the the IIS version included with the operating system.
+ The WCF service that publishes service metadata can be running on the IIS version included with the operating system.
 
 -   **IIS** provides the advanced process model. The published BizTalk WCF services must run in ASP.NET Compatibility Mode. The service metadata published by Web applications in IIS for the WCF receive adapters can be accessed over the HTTP transport.  
 

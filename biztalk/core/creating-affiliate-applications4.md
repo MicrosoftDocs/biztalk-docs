@@ -38,7 +38,7 @@ The following steps describe how to get started with affiliate applications usin
   
 3. Use the Enterprise Single Sign-On commands. For a list of commands, use the **-help** switch.  
   
-4. To create the affiliate application using *.XML as a beginning, type the following command:  
+4. To create the affiliate application using \*.XML as a beginning, type the following command:  
   
     `ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml`  
   

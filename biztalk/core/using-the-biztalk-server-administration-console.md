@@ -94,7 +94,7 @@ Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)], you can search 
 1. In BizTalk Administration, expand **BizTalk group**, expand **Applications**, and expand one of your applications that has artifacts. For example, expand the **BizTalk EDI Application**. 
 2. Select **Schemas**. In the schemas list, use the **Search** box to search for a schema, or filter the schemas displayed. For example, type in **x12** in the Search box, and hit Enter. All the schemas with X12 in the name are displayed. Clear your search. 
 
-    Next, type in **batch** in the Search box, and hit Enter. The the batch schemas are displayed. 
+    Next, type in **batch** in the Search box, and hit Enter. The batch schemas are displayed. 
     
 You can use this Search to find or filter any artifacts with your application, including send ports, resources, maps, and so on. 
 

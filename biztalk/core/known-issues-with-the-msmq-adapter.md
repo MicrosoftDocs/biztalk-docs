@@ -30,12 +30,12 @@ This section contains information that may help you avoid errors.
 ##### Resolution  
  To increase the number of available threads in the .NET thread pool for the host instance, follow the steps in the **CLR Hosting thread values for the host** section of the topic [Configuration Parameters that Affect Adapter Performance](../core/configuration-parameters-that-affect-adapter-performance.md).  
   
- Because each MSMQ receive location that is bound to an MSMQ receive handler requires a thread from the .NET thread pool, set **MinIOThreads** and **MinWorkerThreads** to a value that is greater than or equal to the number of MSMQ receive locations bound to the receive handler. Accordingly, set the value for **MaxIOThreads** and **MaxWorkerThreads** to a value equal to the number of MSMQ receive locations bound to the receive handler * 2 to allow for headroom:  
+ Because each MSMQ receive location that is bound to an MSMQ receive handler requires a thread from the .NET thread pool, set **MinIOThreads** and **MinWorkerThreads** to a value that is greater than or equal to the number of MSMQ receive locations bound to the receive handler. Accordingly, set the value for **MaxIOThreads** and **MaxWorkerThreads** to a value equal to the number of MSMQ receive locations bound to the receive handler \* 2 to allow for headroom:  
   
 |DWORD Entry|Recommended value|  
 |-----------------|-----------------------|  
-|MaxIOThreads|Number of MSMQ receive locations bound to the MSMQ adapter receive handler * 2.|  
-|MaxWorkerThreads|Number of MSMQ receive locations bound to the MSMQ adapter receive handler * 2.|  
+|MaxIOThreads|Number of MSMQ receive locations bound to the MSMQ adapter receive handler \* 2.|  
+|MaxWorkerThreads|Number of MSMQ receive locations bound to the MSMQ adapter receive handler \* 2.|  
 |MinIOThreads|Number of MSMQ receive locations bound to the MSMQ adapter receive handler.|  
 |MinWorkerThreads|Number of MSMQ receive locations bound to the MSMQ adapter receive handler.|  
   

@@ -1,0 +1,46 @@
+﻿---
+title: MSBTS_HostInstance.Stop Method (WMI)
+TOCTitle: MSBTS_HostInstance.Stop Method (WMI)
+ms:assetid: d4b7c69d-460c-4ebb-869b-0dfe698494ba
+ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578604(v=BTS.80)
+ms:contentKeyID: 51531492
+ms.date: 08/30/2017
+mtps_version: v=BTS.80
+---
+
+# MSBTS\_HostInstance.Stop Method (WMI)
+
+ 
+
+Stops the given instance of the BizTalk host.
+
+## Method Declaration
+
+*The syntax shown is language neutral.*
+
+``` 
+uint32 StopService();  
+```
+
+## Return Value
+
+This method returns an HRESULT indicating whether the method completed successfully.
+
+## Remarks
+
+For more information about the minimum security user rights required to administer a Host instance, see [Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\)).
+
+
+> [!NOTE]
+> <P>Always specify the name of the local server when using WMI. When you enumerate host instances, both local and remote instances will be returned. You can then call the start or stop methods.</P>
+
+
+
+For samples illustrating the **MSBTS\_HostInstance** class, see [WMI Script Samples](wmi-script-samples.md).
+
+## Requirements
+
+**Header:** Declared in BTSWMISchemaXP.mof.
+
+**Namespace:** Included in \\root\\MicrosoftBizTalkServer.
+

@@ -31,7 +31,7 @@ manager: "anneta"
 >  BizTalk projects now have two build types: **Release** and **Debug**, which replaces **Development** and **Deployment** of earlier versions. However, you will continue to see the **Development** and **Deployment** configurations for the projects that are migrated from [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)].  
 > 
 > [!CAUTION]
->  Only the *.btproj and \*.btproj.user project files are backed up as a result of choosing the back up option during the conversion. Other files must be manually backed up.  
+>  Only the \*.btproj and \*.btproj.user project files are backed up as a result of choosing the back up option during the conversion. Other files must be manually backed up.  
 > 
 > [!CAUTION]
 >  Any customizations to auto-generated items such XSD and ODX files will be lost during conversion. This applies to XSD files generated when a web reference is added to a BizTalk project as well.  

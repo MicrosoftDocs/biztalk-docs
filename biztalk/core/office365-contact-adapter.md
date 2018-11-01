@@ -38,7 +38,7 @@ Use the Office 365 Outlook Contact adapter in BizTalk Server to create contacts 
 
 You can use a simple File receive port and location to create an event on your Office 365 Outlook Contact adapter.
 
-1. Create a receive port using the File adapter. Within your receive location,  set the **Receive folder** to **C:\Temp\In\**, and set the file mask to **\*.xml**.
+1. Create a receive port using the File adapter. Within your receive location,  set the **Receive folder** to **C:\\Temp\\In\\**, and set the file mask to **\*.xml**.
 2. In your Office 365 Outlook Contact adapter send port properties, set the **Filters** to `BTS.ReceivePortName == <Receive Port Name>`.
 3. Paste the following into a text editor, and save the file as **Office365Contact.xml**. This is your sample message.
 
@@ -109,10 +109,10 @@ You can use a simple File receive port and location to create an event on your O
             </otherAddress>
         </ns0:Contact>
     ```
-    **The XML schema is provided as part of the SDK inside < BizTalk Installation Folder\SDK\Schemas >**
+    **The XML schema is provided as part of the SDK inside < BizTalk Installation Folder\\SDK\\Schemas >**
 
 4. Start the File receive location and the Office 365 Outlook Contact adapter send port.
-5. Copy **Office365Contact.xml** sample message into the receive folder (C:\Temp\In\). The send port creates a contact in your Office 365 Outlook account based on the xml.
+5. Copy **Office365Contact.xml** sample message into the receive folder (C:\\Temp\\In\\). The send port creates a contact in your Office 365 Outlook account based on the xml.
 
 ## Next steps
 See all the [Office 365 adapters](office365-adapters.md), or install [Feature Pack 3](https://aka.ms/bts2016fp3).

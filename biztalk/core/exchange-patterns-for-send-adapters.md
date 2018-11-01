@@ -223,8 +223,8 @@ return responseMsg;
 
 | Adapter alias | Adapter |   OutboundTransportLocation example    |
 |---------------|---------|----------------------------------------|
-|    HTTP://    |  HTTP   |     http://www. MyCompany.com/bar      |
-|   HTTPS://    |  HTTP   |     https://www. MyCompany.com/bar     |
-|    mailto:    |  SMTP   |      mailto:A.User@MyCompany.com       |
+|    HTTP://    |  HTTP   |     `http://www. MyCompany.com/bar`      |
+|   HTTPS://    |  HTTP   |     `https://www. MyCompany.com/bar`     |
+|    mailto:    |  SMTP   |      `mailto:A.User@MyCompany.com`       |
 |    FILE://    |  FILE   | FILE://C:\ MyCompany \\%MessageID%.xml |
 
