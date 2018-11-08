@@ -23,7 +23,7 @@ manager: "anneta"
 You can add a pipeline template to your project to create a new pipeline.  
   
 > [!WARNING]
->  You should not add a project that contains an implementation of a custom pipeline component to a solution that contains a project that uses that pipleine component. If you do, the next time you rebuild the solution you will get an error saying the output dll is being used by another process.  
+>  You should not add a project that contains an implementation of a custom pipeline component to a solution that contains a project that uses that pipeline component. If you do, the next time you rebuild the solution you will get an error saying the output dll is being used by another process.  
   
 ### To create a new pipeline  
   

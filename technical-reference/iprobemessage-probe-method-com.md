@@ -42,7 +42,7 @@ pInMsg As IBaseMessage) As Boolean
 \[in\] Reference to a **IPipelineContext** object/interface that contains the current pipeline context.
 
 *pContext*  
-**IPipelineContext** object/interface that contains the current pipleine context.
+**IPipelineContext** object/interface that contains the current pipeline context.
 
 *pInMsg*  
 \[in\] Reference to a **IBaseMessage** object/interface that contains the incoming message.
