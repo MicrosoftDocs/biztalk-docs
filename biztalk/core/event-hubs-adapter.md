@@ -126,7 +126,7 @@ You can use a simple File receive port and location to send messages to your Azu
 
     |Use this|To do this|  
     |---|---|  
-    | **Namespace for User Defined Message Properties** | http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User is the default schema, but you can enter another schema. This value represents a BizTalk message schema mapped to Event Hubs message properties. |
+    | **Namespace for User Defined Message Properties** | `http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User` is the default schema, but you can enter another schema. This value represents a BizTalk message schema mapped to Event Hubs message properties. |
     | **Promote user defined properties** | Optional. You can promote these properties if you prefer. <br/><br/>**NOTE**<br/>The properties that need to be promoted should have a porperty schema deployed *before* receiving events.|
 
 7. Select **Ok** to save your changes. 
