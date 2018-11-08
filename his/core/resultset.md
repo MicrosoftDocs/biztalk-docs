@@ -36,7 +36,7 @@ The Statement element described in the following table has one required attribut
   
 ### Child Elements  
   
-|Element|Description|Occurance Constraint|  
+|Element|Description|Occurrence Constraint|  
 |-------------|-----------------|--------------------------|  
 ||TBD.|1 to 1|  
   
