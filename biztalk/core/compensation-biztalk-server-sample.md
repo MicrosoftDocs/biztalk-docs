@@ -115,9 +115,9 @@ The Compensation sample demonstrates how to use the **Compensate** shape in an o
   
    4.  On the **Orchestrations and Ports** page, click **Next**.  
   
-   5.  On the **Web Service Properties** page, in **Target namespace of web service**, type **http://Microsoft.BizTalk.Samples.Compensation/**, and then click **Next**.  
+   5.  On the **Web Service Properties** page, in **Target namespace of web service**, type `http://Microsoft.BizTalk.Samples.Compensation/`, and then click **Next**.  
   
-   6.  On the **Web Service Project** page, in **Location**, type **http://localhost/CompensationOrchestrationWebServiceProxy**.  
+   6.  On the **Web Service Project** page, in **Location**, type `http://localhost/CompensationOrchestrationWebServiceProxy`.  
   
    7.  Select the **Allow anonymous access to web service** check box.  
   
