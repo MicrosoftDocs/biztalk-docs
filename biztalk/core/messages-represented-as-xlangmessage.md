@@ -17,12 +17,12 @@ manager: "anneta"
 # Messages Represented as XLANGMessage
 An **XLANGMessage** object represents a message instance declared with an XLANG service. This object is obtained by passing a reference to a message as a parameter in a method invocation. An **XLANGPart** object represents a message part contained in a message instance within an XLANG service. This object is obtained either by passing a part reference in a method invocation where the receiving parameter type is **XLANGPart** or by enumerating on a passed reference of **XLANGMessage**.  
   
- An orchestration message variable may be passed to a user component and received as an **XLANGMessage** object. The **XLANGMessage** object allows accessing the parts and accessing message properties.The user may "hold on" to an **XLANGMessage** and thereby extend its lifetime beyond the declared scope. Subsequently, an **XLANGMessage** may be retuned from a method and assigned to a message variable in an orchestration.  
+ An orchestration message variable may be passed to a user component and received as an **XLANGMessage** object. The **XLANGMessage** object allows accessing the parts and accessing message properties.The user may "hold on" to an **XLANGMessage** and thereby extend its lifetime beyond the declared scope. Subsequently, an **XLANGMessage** may be returned from a method and assigned to a message variable in an orchestration.  
   
 ## Constructing an XLANGMessage  
  When constructing an **XLANGMessage** with a stream, the stream type must either implement **IStreamFactory** or be a **MemoryStream**. The following code sample shows how to construct an **XLANGMessage**:  
   
-```  
+```csharp
 public class FileStreamFactory : IStreamFactory  
 {  
     string _fname;  
@@ -53,7 +53,7 @@ public static void AssignStreamFactoryToPart(XLANGMessage msg)
   
  There may be times when you want to create a new message without transforming a source message. You can do this by using a variable of type **System.Xml.XmlDocument** and loading or otherwise constructing appropriate content. In the following example, XML is loaded from a string by using the **LoadXml** method of **XmlDocument**:  
   
-```  
+```csharp
 XmlVariable.LoadXml("<ns0:Root PONumber="047745351122111" xmlns:ns0="http://BTSHTTPSend.SimpleSchema"><MyChildRecord SubAttr1="Simple Attribute " /></ns0:Root>");  
 XLANGMessage XmlMsg = XmlVariable;  
   
@@ -61,7 +61,7 @@ XLANGMessage XmlMsg = XmlVariable;
   
  The following example loads XML from a file by using the **Load** method of **XmlDocument**:  
   
-```  
+```csharp
 XmlVariable.Load("C:\MyData.xml");  
 XLANGMessage XmlMsg = XmlVariable;  
   
@@ -75,7 +75,7 @@ XLANGMessage XmlMsg = XmlVariable;
   
 -   Do not pass a message part as an **XLANGPart** argument or return a value of type **XLANGPart**. You should pass **XLANGPart** as the type of the part. For example:  
   
-    ```  
+    ```csharp
     Message String msg;  
     Class.Test(msg);  
     // or you can do the following  
@@ -90,7 +90,7 @@ XLANGMessage XmlMsg = XmlVariable;
   
      You can also pass the message itself as an **XLANGMessage** and use the **XLANGMessage** subscript operators to access the part inside the function call. However, you should not put an **XLANGPart** in a collection whose lifetime extends past the lifetime of the function call. Instead, you should put the **XLANGMessage** in the collection. For example:  
   
-    ```  
+    ```csharp
     Void Test(XLANGMessage xlm)  
     {  
          try  
@@ -111,7 +111,7 @@ XLANGMessage XmlMsg = XmlVariable;
   
      When an orchestration instance exits, any messages created in that instance are no longer valid, so the lifetime of such a collection should be less than or equal to that of the instance lifetime. However, if you want to release a message reference in a loop when the message was passed through an **XLANGMessage** argument that has the same lifetime as the orchestration instance, then you can call **XLANGMessage.Dispose** to free up the reference. Moreover, if inside the user code method, the **XLANGMessage** parameter is only used locally and the lifetime of the parameter is contained in that of the function call, you can also call **XLANGMessage.Dispose** to free up the reference to the root context and give the corresponding message back the normal lifetime behavior. For example:  
   
-    ```  
+    ```csharp
     void Test(XLANGMessage xlm)  
     {  
          try  
@@ -127,7 +127,7 @@ XLANGMessage XmlMsg = XmlVariable;
   
      If you place the xlm in a collection, then the class itself must have a **Dispose** method for cleanup. For example:  
   
-    ```  
+    ```csharp
     Public class A  
     {  
          Hashtable h = new Hashtable();  
