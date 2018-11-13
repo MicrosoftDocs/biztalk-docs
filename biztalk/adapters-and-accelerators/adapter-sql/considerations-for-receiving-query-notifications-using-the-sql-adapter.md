@@ -42,7 +42,7 @@ This topic provides some considerations and best practices to keep in mind while
   |-------------------|------------|  
   |John|0|  
   
-   To receive notifications for the newly inserted record, the adapter client will set the **NotificatonStatement** binding property as:  
+   To receive notifications for the newly inserted record, the adapter client will set the **NotificationStatement** binding property as:  
   
   ```  
   SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0  
