@@ -34,5 +34,5 @@ Use the **\<Host Name\> Properties** dialog box to configure the receive handler
 
 ## See Also
 
-[How to Configure a SOAP Receive Handler](https://msdn.microsoft.com/en-us/library/aa561525\(v=bts.80\))
+[How to Configure a SOAP Receive Handler](https://msdn.microsoft.com/library/aa561525\(v=bts.80\))
 

@@ -20,5 +20,5 @@ Use the **New/Edit BAM View: Summary** page of the Business Activity Monitoring 
 
 ## See Also
 
-[How to Define Measures](https://msdn.microsoft.com/en-us/library/aa562124\(v=bts.80\))
+[How to Define Measures](https://msdn.microsoft.com/library/aa562124\(v=bts.80\))
 

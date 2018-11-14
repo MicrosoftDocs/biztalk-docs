@@ -77,5 +77,5 @@ This method indicates errors by setting the **Number** property of the global **
 
 [ISSOMapper Interface (COM)](issomapper-interface-com.md)  
 [ISSOMapper Members](issomapper-members.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

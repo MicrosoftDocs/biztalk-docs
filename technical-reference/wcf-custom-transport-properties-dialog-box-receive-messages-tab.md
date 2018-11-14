@@ -113,7 +113,7 @@ The default value is cleared.</td>
 
 ## See Also
 
-[How to Configure a WCF-Custom Receive Location](https://msdn.microsoft.com/en-us/library/bb259941\(v=bts.80\))  
-[How to Configure a WCF-CustomIsolated Receive Location](https://msdn.microsoft.com/en-us/library/bb226374\(v=bts.80\))  
-[Specifying the Message Body for the WCF Adapters](https://msdn.microsoft.com/en-us/library/bb226478\(v=bts.80\))
+[How to Configure a WCF-Custom Receive Location](https://msdn.microsoft.com/library/bb259941\(v=bts.80\))  
+[How to Configure a WCF-CustomIsolated Receive Location](https://msdn.microsoft.com/library/bb226374\(v=bts.80\))  
+[Specifying the Message Body for the WCF Adapters](https://msdn.microsoft.com/library/bb226478\(v=bts.80\))
 

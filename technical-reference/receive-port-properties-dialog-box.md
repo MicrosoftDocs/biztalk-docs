@@ -224,5 +224,5 @@ Message body tracking saves messages after service instances processing is compl
 
 ## See Also
 
-[How to Create a Receive Port](https://msdn.microsoft.com/en-us/library/aa559206\(v=bts.80\))
+[How to Create a Receive Port](https://msdn.microsoft.com/library/aa559206\(v=bts.80\))
 

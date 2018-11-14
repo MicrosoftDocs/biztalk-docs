@@ -18,5 +18,5 @@ Use these menu commands to configure and run your Enterprise Single Sign-On syst
 
 ## See Also
 
-[Implementing Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa558712\(v=bts.80\))
+[Implementing Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa558712\(v=bts.80\))
 

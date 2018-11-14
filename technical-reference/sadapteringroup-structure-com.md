@@ -31,5 +31,5 @@ public: __value struct SAdapterInGroup
 ## See Also
 
 [SAdapterInGroup Members](sadapteringroup-members.md)  
-[Creating a Single Sign-On Application](https://msdn.microsoft.com/en-us/library/aa771662\(v=bts.80\))
+[Creating a Single Sign-On Application](https://msdn.microsoft.com/library/aa771662\(v=bts.80\))
 

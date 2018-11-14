@@ -98,5 +98,5 @@ Maximum length: 256</td>
 
 ## See Also
 
-[Configuring an HTTP Send Port](https://msdn.microsoft.com/en-us/library/aa577941\(v=bts.80\))
+[Configuring an HTTP Send Port](https://msdn.microsoft.com/library/aa577941\(v=bts.80\))
 

@@ -31,13 +31,13 @@ An empty value for this property means that the adapter is lacking important inf
 
 For more information about the configuring the receive location of any of the native adapters, see the following topics:
 
-  - [How to Configure a File Receive Handler](https://msdn.microsoft.com/en-us/library/aa560577\(v=bts.80\))
+  - [How to Configure a File Receive Handler](https://msdn.microsoft.com/library/aa560577\(v=bts.80\))
 
-  - [How to Configure an FTP Receive Handler](https://msdn.microsoft.com/en-us/library/aa561710\(v=bts.80\))
+  - [How to Configure an FTP Receive Handler](https://msdn.microsoft.com/library/aa561710\(v=bts.80\))
 
-  - [How to Configure an HTTP Receive Handler](https://msdn.microsoft.com/en-us/library/aa547842\(v=bts.80\))
+  - [How to Configure an HTTP Receive Handler](https://msdn.microsoft.com/library/aa547842\(v=bts.80\))
 
-  - [How to Configure a SOAP Receive Handler](https://msdn.microsoft.com/en-us/library/aa561525\(v=bts.80\))
+  - [How to Configure a SOAP Receive Handler](https://msdn.microsoft.com/library/aa561525\(v=bts.80\))
 
 For samples illustrating the **MSBTS\_ReceiveHandler** class, see [WMI Script Samples](wmi-script-samples.md).
 

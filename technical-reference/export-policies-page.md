@@ -46,7 +46,7 @@ Example: C:\Policies\MyPolicies.xml</td>
 
 ## See Also
 
-[How to Export a Policy](https://msdn.microsoft.com/en-us/library/aa559417\(v=bts.80\))  
-[How to Import a Policy](https://msdn.microsoft.com/en-us/library/aa577374\(v=bts.80\))  
-[Managing Policies](https://msdn.microsoft.com/en-us/library/aa561998\(v=bts.80\))
+[How to Export a Policy](https://msdn.microsoft.com/library/aa559417\(v=bts.80\))  
+[How to Import a Policy](https://msdn.microsoft.com/library/aa577374\(v=bts.80\))  
+[Managing Policies](https://msdn.microsoft.com/library/aa561998\(v=bts.80\))
 

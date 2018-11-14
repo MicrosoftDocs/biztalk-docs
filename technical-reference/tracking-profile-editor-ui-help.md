@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-This section provides instructions for the Tracking Profile Editor user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the Tracking Profile Editor to extract the data the business analyst requires and to perform the mapping between the specific business event data and the actual orchestration. For general information about the Tracking Profile Editor, see [Using the TPE](https://msdn.microsoft.com/en-us/library/aa561755\(v=bts.80\)).
+This section provides instructions for the Tracking Profile Editor user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the Tracking Profile Editor to extract the data the business analyst requires and to perform the mapping between the specific business event data and the actual orchestration. For general information about the Tracking Profile Editor, see [Using the TPE](https://msdn.microsoft.com/library/aa561755\(v=bts.80\)).
 
 ## In This Section
 

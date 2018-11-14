@@ -18,5 +18,5 @@ Use the **\<All Artifacts\>** node to view all user-created items that are confi
 
 ## See Also
 
-[Using the BizTalk Server Administration Console](https://msdn.microsoft.com/en-us/library/aa578089\(v=bts.80\))
+[Using the BizTalk Server Administration Console](https://msdn.microsoft.com/library/aa578089\(v=bts.80\))
 

@@ -58,9 +58,9 @@ Use the **\<Application Name\>** node to view artifacts specific to the applicat
 
 ## See Also
 
-[Using the BizTalk Server Administration Console](https://msdn.microsoft.com/en-us/library/aa578089\(v=bts.80\))  
-[How to Export a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa577804\(v=bts.80\))  
-[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/en-us/library/aa560565\(v=bts.80\))  
-[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/en-us/library/aa560565\(v=bts.80\))  
-[How to Uninstall a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa577996\(v=bts.80\))
+[Using the BizTalk Server Administration Console](https://msdn.microsoft.com/library/aa578089\(v=bts.80\))  
+[How to Export a BizTalk Application](https://msdn.microsoft.com/library/aa577804\(v=bts.80\))  
+[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/library/aa560565\(v=bts.80\))  
+[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/library/aa560565\(v=bts.80\))  
+[How to Uninstall a BizTalk Application](https://msdn.microsoft.com/library/aa577996\(v=bts.80\))
 

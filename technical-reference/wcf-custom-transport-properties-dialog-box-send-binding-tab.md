@@ -117,6 +117,6 @@ The default is an empty string.</td>
 
 ## See Also
 
-[How to Configure a WCF-Custom Send Port](https://msdn.microsoft.com/en-us/library/bb226446\(v=bts.80\))  
+[How to Configure a WCF-Custom Send Port](https://msdn.microsoft.com/library/bb226446\(v=bts.80\))  
 [The \<binding\> element](http://go.microsoft.com/fwlink/?linkid=75753)
 

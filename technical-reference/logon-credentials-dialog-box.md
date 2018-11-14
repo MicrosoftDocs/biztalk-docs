@@ -40,7 +40,7 @@ Use the **Logon Credentials** dialog box to supply the account name and password
 
 ## See Also
 
-[Host Instances](https://msdn.microsoft.com/en-us/library/aa560673\(v=bts.80\))  
-[Managing BizTalk Hosts and Host Instances](https://msdn.microsoft.com/en-us/library/aa561042\(v=bts.80\))  
-[How to Update the SSO Database](https://msdn.microsoft.com/en-us/library/aa559867\(v=bts.80\))
+[Host Instances](https://msdn.microsoft.com/library/aa560673\(v=bts.80\))  
+[Managing BizTalk Hosts and Host Instances](https://msdn.microsoft.com/library/aa561042\(v=bts.80\))  
+[How to Update the SSO Database](https://msdn.microsoft.com/library/aa559867\(v=bts.80\))
 

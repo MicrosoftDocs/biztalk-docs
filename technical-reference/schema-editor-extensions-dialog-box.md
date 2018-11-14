@@ -37,5 +37,5 @@ When you select an extension check box, the additional properties associated wit
 ## See Also
 
 [Schema Editor Extensions (Node Property of All Schemas)](schema-editor-extensions-node-property-of-all-schemas.md)  
-[Flat File Schemas](https://msdn.microsoft.com/en-us/library/aa561057\(v=bts.80\))
+[Flat File Schemas](https://msdn.microsoft.com/library/aa561057\(v=bts.80\))
 

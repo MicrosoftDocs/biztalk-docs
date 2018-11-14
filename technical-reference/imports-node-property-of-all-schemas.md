@@ -58,7 +58,7 @@ There are three different ways to use another schema within the schema you are e
 
   - You can "redefine" another schema (the redefined schema) into the schema you are editing (the redefining schema) only if the two schemas have exactly the same **Target Namespace** property values. When redefining another schema, you must make sure that the redefining and the redefined schemas do not have any of the same top level element names, attribute names, or data type names (groups, complex types, simple types, and so on). This is because redefining another schema is equivalent to copying and pasting the contents of the redefined schema into the redefining schema. Data types that you modify in the schema you are editing are also changed in the schema you are redefining.
 
-For additional information about importing, including, and redefining one schema into another schema, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+For additional information about importing, including, and redefining one schema into another schema, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 ## See Also
 

@@ -169,8 +169,8 @@ The WCF-WSHttp send adapter can redeem an SSO ticket from the SSO server to obta
 
 ## See Also
 
-[How to Configure a WCF-WSHttp Send Port](https://msdn.microsoft.com/en-us/library/bb245939\(v=bts.80\))  
-[Installing Certificates for the WCF Adapters](https://msdn.microsoft.com/en-us/library/bb245944\(v=bts.80\))  
-[Managing BizTalk Hosts and Host Instances](https://msdn.microsoft.com/en-us/library/aa561042\(v=bts.80\))  
-[How to Change Service Accounts and Passwords](https://msdn.microsoft.com/en-us/library/aa561505\(v=bts.80\))
+[How to Configure a WCF-WSHttp Send Port](https://msdn.microsoft.com/library/bb245939\(v=bts.80\))  
+[Installing Certificates for the WCF Adapters](https://msdn.microsoft.com/library/bb245944\(v=bts.80\))  
+[Managing BizTalk Hosts and Host Instances](https://msdn.microsoft.com/library/aa561042\(v=bts.80\))  
+[How to Change Service Accounts and Passwords](https://msdn.microsoft.com/library/aa561505\(v=bts.80\))
 

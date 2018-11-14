@@ -38,5 +38,5 @@ Use the **New Alias** dialog box to create a friendly name, or alias, for an exi
 
 ## See Also
 
-[How to Rename View Items](https://msdn.microsoft.com/en-us/library/aa547544\(v=bts.80\))
+[How to Rename View Items](https://msdn.microsoft.com/library/aa547544\(v=bts.80\))
 

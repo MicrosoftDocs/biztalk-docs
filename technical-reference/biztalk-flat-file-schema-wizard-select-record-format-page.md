@@ -42,6 +42,6 @@ Use the **Select Record Format** page to specify how you want the record data to
 
 ## See Also
 
-[How to Use BizTalk Flat File Schema Wizard](https://msdn.microsoft.com/en-us/library/aa577936\(v=bts.80\))  
-[BizTalk Flat File Schema Wizard Walkthrough](https://msdn.microsoft.com/en-us/library/aa577613\(v=bts.80\))
+[How to Use BizTalk Flat File Schema Wizard](https://msdn.microsoft.com/library/aa577936\(v=bts.80\))  
+[BizTalk Flat File Schema Wizard Walkthrough](https://msdn.microsoft.com/library/aa577613\(v=bts.80\))
 

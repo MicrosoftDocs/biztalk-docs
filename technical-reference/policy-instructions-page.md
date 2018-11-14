@@ -18,5 +18,5 @@ See the **Policy Instructions** page for Quick Start Help for using the Rule Com
 
 ## See Also
 
-[Windows of the Business Rule Composer](https://msdn.microsoft.com/en-us/library/aa561030\(v=bts.80\))
+[Windows of the Business Rule Composer](https://msdn.microsoft.com/library/aa561030\(v=bts.80\))
 

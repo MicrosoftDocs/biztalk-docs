@@ -31,6 +31,6 @@ This functoid expects integer input parameters and produces an integer output.
 ## See Also
 
 [Mathematical Functoids Reference](mathematical-functoids-reference.md)  
-[Mathematical Functoids](https://msdn.microsoft.com/en-us/library/aa559213\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[Mathematical Functoids](https://msdn.microsoft.com/library/aa559213\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

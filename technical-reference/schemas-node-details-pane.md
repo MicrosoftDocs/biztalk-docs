@@ -24,8 +24,8 @@ Use the Schemas node details pane to manage schemas in the application. Right-cl
 
 ## See Also
 
-[About Schemas](https://msdn.microsoft.com/en-us/library/aa559426\(v=bts.80\))  
-[XML Schemas](https://msdn.microsoft.com/en-us/library/aa559121\(v=bts.80\))  
-[Different Types of BizTalk Schemas](https://msdn.microsoft.com/en-us/library/aa578053\(v=bts.80\))  
-[Property Schemas](https://msdn.microsoft.com/en-us/library/aa561059\(v=bts.80\))
+[About Schemas](https://msdn.microsoft.com/library/aa559426\(v=bts.80\))  
+[XML Schemas](https://msdn.microsoft.com/library/aa559121\(v=bts.80\))  
+[Different Types of BizTalk Schemas](https://msdn.microsoft.com/library/aa578053\(v=bts.80\))  
+[Property Schemas](https://msdn.microsoft.com/library/aa561059\(v=bts.80\))
 

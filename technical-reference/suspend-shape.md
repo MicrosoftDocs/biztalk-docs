@@ -40,5 +40,5 @@ When an orchestration instance is suspended, an error is raised. You can specify
 
 ## See Also
 
-[How to Configure the Suspend Shape](https://msdn.microsoft.com/en-us/library/aa560486\(v=bts.80\))
+[How to Configure the Suspend Shape](https://msdn.microsoft.com/library/aa560486\(v=bts.80\))
 

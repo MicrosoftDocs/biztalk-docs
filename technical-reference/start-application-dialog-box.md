@@ -110,7 +110,7 @@ Each check box represents an application that is referenced by the current one. 
 
 ## See Also
 
-[How to Import a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa560132\(v=bts.80\))  
-[How to Delete a BizTalk Application from the BizTalk Group](https://msdn.microsoft.com/en-us/library/aa577446\(v=bts.80\))  
-[Deploying and Managing BizTalk Applications](https://msdn.microsoft.com/en-us/library/aa578693\(v=bts.80\))
+[How to Import a BizTalk Application](https://msdn.microsoft.com/library/aa560132\(v=bts.80\))  
+[How to Delete a BizTalk Application from the BizTalk Group](https://msdn.microsoft.com/library/aa577446\(v=bts.80\))  
+[Deploying and Managing BizTalk Applications](https://msdn.microsoft.com/library/aa578693\(v=bts.80\))
 

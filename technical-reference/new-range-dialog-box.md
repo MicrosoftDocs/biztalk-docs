@@ -29,5 +29,5 @@ Type the number with which you want to end the range. The range will not include
 
 ## See Also
 
-[Numeric Range Dimension](https://msdn.microsoft.com/en-us/library/aa577942\(v=bts.80\))
+[Numeric Range Dimension](https://msdn.microsoft.com/library/aa577942\(v=bts.80\))
 

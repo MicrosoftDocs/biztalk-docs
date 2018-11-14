@@ -35,9 +35,9 @@ Determine whether to use the **Value Mapping** functoid or the [Value Mapping (F
 ## See Also
 
 [Advanced Functoids Reference](advanced-functoids-reference.md)  
-[Advanced Functoids](https://msdn.microsoft.com/en-us/library/aa561121\(v=bts.80\))  
-[Value Mapping Functoid](https://msdn.microsoft.com/en-us/library/aa559723\(v=bts.80\))  
-[Value Mapping (Flattening) Functoid](https://msdn.microsoft.com/en-us/library/aa578572\(v=bts.80\))  
-[How to Add Value Mapping Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa548039\(v=bts.80\))  
-[How to Add Value Mapping (Flattening) Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa546740\(v=bts.80\))
+[Advanced Functoids](https://msdn.microsoft.com/library/aa561121\(v=bts.80\))  
+[Value Mapping Functoid](https://msdn.microsoft.com/library/aa559723\(v=bts.80\))  
+[Value Mapping (Flattening) Functoid](https://msdn.microsoft.com/library/aa578572\(v=bts.80\))  
+[How to Add Value Mapping Functoids to a Map](https://msdn.microsoft.com/library/aa548039\(v=bts.80\))  
+[How to Add Value Mapping (Flattening) Functoids to a Map](https://msdn.microsoft.com/library/aa546740\(v=bts.80\))
 

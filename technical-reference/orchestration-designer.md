@@ -66,5 +66,5 @@ The **Orchestration Designer** enables you to design and implement executable bu
 
 ## See Also
 
-[Creating Orchestrations Using Orchestration Designer](https://msdn.microsoft.com/en-us/library/aa560470\(v=bts.80\))
+[Creating Orchestrations Using Orchestration Designer](https://msdn.microsoft.com/library/aa560470\(v=bts.80\))
 

@@ -30,8 +30,8 @@ Often, BizTalk administrators try to tune the BizTalk Server performance in a st
 
 ## See Also
 
-[How to Import BizTalk Settings Using Settings Dashboard](https://msdn.microsoft.com/en-us/library/ff629773\(v=bts.80\))  
-[How to Import BizTalk Settings Using BTSTask](https://msdn.microsoft.com/en-us/library/ff629790\(v=bts.80\))  
-[How to Export BizTalk Settings Using Settings Dashboard](https://msdn.microsoft.com/en-us/library/ff629719\(v=bts.80\))  
-[How to Export BizTalk Settings Using BTSTask](https://msdn.microsoft.com/en-us/library/ff629697\(v=bts.80\))
+[How to Import BizTalk Settings Using Settings Dashboard](https://msdn.microsoft.com/library/ff629773\(v=bts.80\))  
+[How to Import BizTalk Settings Using BTSTask](https://msdn.microsoft.com/library/ff629790\(v=bts.80\))  
+[How to Export BizTalk Settings Using Settings Dashboard](https://msdn.microsoft.com/library/ff629719\(v=bts.80\))  
+[How to Export BizTalk Settings Using BTSTask](https://msdn.microsoft.com/library/ff629697\(v=bts.80\))
 

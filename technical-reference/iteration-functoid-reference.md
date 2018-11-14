@@ -36,7 +36,7 @@ For example, if the **Iteration** functoid is connected to a **Record** node in 
 ## See Also
 
 [Advanced Functoids Reference](advanced-functoids-reference.md)  
-[Advanced Functoids](https://msdn.microsoft.com/en-us/library/aa561121\(v=bts.80\))  
-[Iteration Functoid](https://msdn.microsoft.com/en-us/library/aa559232\(v=bts.80\))  
-[How to Add Iteration Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa559120\(v=bts.80\))
+[Advanced Functoids](https://msdn.microsoft.com/library/aa561121\(v=bts.80\))  
+[Iteration Functoid](https://msdn.microsoft.com/library/aa559232\(v=bts.80\))  
+[How to Add Iteration Functoids to a Map](https://msdn.microsoft.com/library/aa559120\(v=bts.80\))
 

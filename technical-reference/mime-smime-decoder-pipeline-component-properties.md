@@ -58,7 +58,7 @@ Default Value: True</td>
 
 ## See Also
 
-[Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa578392\(v=bts.80\))  
-[How to Configure the MIME-SMIME Decoder Pipeline Component](https://msdn.microsoft.com/en-us/library/aa578427\(v=bts.80\))  
-[MIME-SMIME Decoder Pipeline Component](https://msdn.microsoft.com/en-us/library/aa562169\(v=bts.80\))
+[Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))  
+[How to Configure the MIME-SMIME Decoder Pipeline Component](https://msdn.microsoft.com/library/aa578427\(v=bts.80\))  
+[MIME-SMIME Decoder Pipeline Component](https://msdn.microsoft.com/library/aa562169\(v=bts.80\))
 

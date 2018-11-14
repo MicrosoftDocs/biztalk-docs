@@ -16,7 +16,7 @@ f1_keywords:
 
 This section provides instructions for the BizTalk Assembly Viewer user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the BizTalk Assembly Viewer to view assemblies that you deployed on the local computer.
 
-For more information about the BizTalk Assembly Viewer, see [Viewing Assemblies with the BizTalk Assembly Viewer](https://msdn.microsoft.com/en-us/library/aa577474\(v=bts.80\)).
+For more information about the BizTalk Assembly Viewer, see [Viewing Assemblies with the BizTalk Assembly Viewer](https://msdn.microsoft.com/library/aa577474\(v=bts.80\)).
 
 ## In This Section
 

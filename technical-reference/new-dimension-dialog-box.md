@@ -228,5 +228,5 @@ The following table shows the details for the New Dimension dialog box when you 
 
 ## See Also
 
-[Defining Dimensions](https://msdn.microsoft.com/en-us/library/aa578432\(v=bts.80\))
+[Defining Dimensions](https://msdn.microsoft.com/library/aa578432\(v=bts.80\))
 

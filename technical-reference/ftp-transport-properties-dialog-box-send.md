@@ -182,7 +182,7 @@ Use of this property supports atomic writing of files.</td>
 
 ## See Also
 
-[Restrictions on Using Macros in File Names](https://msdn.microsoft.com/en-us/library/aa578022\(v=bts.80\))  
-[How to Configure an FTP Send Port](https://msdn.microsoft.com/en-us/library/aa546802\(v=bts.80\))  
-[Enhancements to the FTP Adapter](https://msdn.microsoft.com/en-us/library/ff629768\(v=bts.80\))
+[Restrictions on Using Macros in File Names](https://msdn.microsoft.com/library/aa578022\(v=bts.80\))  
+[How to Configure an FTP Send Port](https://msdn.microsoft.com/library/aa546802\(v=bts.80\))  
+[Enhancements to the FTP Adapter](https://msdn.microsoft.com/library/ff629768\(v=bts.80\))
 

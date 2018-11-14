@@ -131,6 +131,6 @@ The dead-letter queue is a queue managed by the sending application's Queue Mana
 
 ## See Also
 
-[How to Configure a WCF-NetMsmq Send Port](https://msdn.microsoft.com/en-us/library/bb245965\(v=bts.80\))  
+[How to Configure a WCF-NetMsmq Send Port](https://msdn.microsoft.com/library/bb245965\(v=bts.80\))  
 [Sending and Retrieving Messages within a Transaction](http://go.microsoft.com/fwlink/?linkid=75752)
 

@@ -72,6 +72,6 @@ When you need to update the number of Windows threads available in the .NET thre
 
 ## See Also
 
-[How to Modify Group Settings](https://msdn.microsoft.com/en-us/library/ff629808\(v=bts.80\))  
-[How to Modify Host Settings](https://msdn.microsoft.com/en-us/library/ff629679\(v=bts.80\))
+[How to Modify Group Settings](https://msdn.microsoft.com/library/ff629808\(v=bts.80\))  
+[How to Modify Host Settings](https://msdn.microsoft.com/library/ff629679\(v=bts.80\))
 

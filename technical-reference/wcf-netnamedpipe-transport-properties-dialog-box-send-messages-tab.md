@@ -102,6 +102,6 @@ The default value is selected.</td>
 
 ## See Also
 
-[How to Configure a WCF-NetNamedPipe Send Port](https://msdn.microsoft.com/en-us/library/bb246110\(v=bts.80\))  
-[Specifying the Message Body for the WCF Adapters](https://msdn.microsoft.com/en-us/library/bb226478\(v=bts.80\))
+[How to Configure a WCF-NetNamedPipe Send Port](https://msdn.microsoft.com/library/bb246110\(v=bts.80\))  
+[Specifying the Message Body for the WCF Adapters](https://msdn.microsoft.com/library/bb226478\(v=bts.80\))
 

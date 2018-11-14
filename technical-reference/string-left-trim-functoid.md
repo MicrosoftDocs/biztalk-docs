@@ -29,6 +29,6 @@ All leading white space characters (spaces and tabs) are removed from the specif
 ## See Also
 
 [String Functoids Reference](string-functoids-reference.md)  
-[String Functoids](https://msdn.microsoft.com/en-us/library/aa559399\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[String Functoids](https://msdn.microsoft.com/library/aa559399\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

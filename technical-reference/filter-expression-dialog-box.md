@@ -50,5 +50,5 @@ You can use the **Filter Expression** dialog box to specify filter expressions f
 
 ## See Also
 
-[Using Filters With the Receive Message Shape](https://msdn.microsoft.com/en-us/library/aa560178\(v=bts.80\))
+[Using Filters With the Receive Message Shape](https://msdn.microsoft.com/library/aa560178\(v=bts.80\))
 

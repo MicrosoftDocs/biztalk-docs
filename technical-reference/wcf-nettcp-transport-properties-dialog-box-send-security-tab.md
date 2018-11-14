@@ -111,6 +111,6 @@ The default value is <strong>Do not use Single Sign-On</strong>.</td>
 
 ## See Also
 
-[How to Configure a WCF-NetTcp Send Port](https://msdn.microsoft.com/en-us/library/bb226460\(v=bts.80\))  
-[Installing Certificates for the WCF Adapters](https://msdn.microsoft.com/en-us/library/bb245944\(v=bts.80\))
+[How to Configure a WCF-NetTcp Send Port](https://msdn.microsoft.com/library/bb226460\(v=bts.80\))  
+[Installing Certificates for the WCF Adapters](https://msdn.microsoft.com/library/bb245944\(v=bts.80\))
 

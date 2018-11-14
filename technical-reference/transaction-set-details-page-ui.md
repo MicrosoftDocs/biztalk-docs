@@ -137,5 +137,5 @@ Click to open a query in a BTQ file.
 
 ## See Also
 
-[Transaction Set Details Status Report](https://msdn.microsoft.com/en-us/library/bb743711\(v=bts.80\))
+[Transaction Set Details Status Report](https://msdn.microsoft.com/library/bb743711\(v=bts.80\))
 

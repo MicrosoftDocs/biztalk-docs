@@ -38,5 +38,5 @@ Use the **New/Edit BAM View: Names and Activities** page in the Business Activit
 
 ## See Also
 
-[How to Use the BAM Add-In for Excel](https://msdn.microsoft.com/en-us/library/aa561102\(v=bts.80\))
+[How to Use the BAM Add-In for Excel](https://msdn.microsoft.com/library/aa561102\(v=bts.80\))
 

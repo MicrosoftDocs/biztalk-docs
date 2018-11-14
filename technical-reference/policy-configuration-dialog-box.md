@@ -18,5 +18,5 @@ Use the **Policy Configuration** dialog box to select a policy to be executed, a
 
 ## See Also
 
-[Invoking Business Rules in Orchestrations](https://msdn.microsoft.com/en-us/library/aa578014\(v=bts.80\))
+[Invoking Business Rules in Orchestrations](https://msdn.microsoft.com/library/aa578014\(v=bts.80\))
 

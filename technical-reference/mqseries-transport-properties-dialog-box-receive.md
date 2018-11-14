@@ -113,6 +113,6 @@ Default: Yes</td>
 
 ## See Also
 
-[How to Configure MQSeries Adapter Receive Locations and Send Ports](https://msdn.microsoft.com/en-us/library/aa560215\(v=bts.80\))  
-[Ordered Delivery of Messages](https://msdn.microsoft.com/en-us/library/aa559637\(v=bts.80\))
+[How to Configure MQSeries Adapter Receive Locations and Send Ports](https://msdn.microsoft.com/library/aa560215\(v=bts.80\))  
+[Ordered Delivery of Messages](https://msdn.microsoft.com/library/aa559637\(v=bts.80\))
 

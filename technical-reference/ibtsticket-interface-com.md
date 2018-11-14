@@ -29,5 +29,5 @@ Interacts with the Enterprise Single Sign-On (SSO) ticket server.
 ## See Also
 
 [IBTSTicket Members (COM)](ibtsticket-members-com.md)  
-[Using SSO](https://msdn.microsoft.com/en-us/library/aa561654\(v=bts.80\))
+[Using SSO](https://msdn.microsoft.com/library/aa561654\(v=bts.80\))
 

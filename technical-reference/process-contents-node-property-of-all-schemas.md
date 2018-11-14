@@ -64,7 +64,7 @@ As the value of the **processContents** attribute of the corresponding **any** o
 
 You can examine and set this property in the Visual Studio Properties window when you select an **Any Element** or **Any Attribute** node in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 You should generally set this property value to **Skip** to successfully validate XML documents containing elements that are represented by the corresponding **Any Element** or **Any Attribute** node. Other setting combinations are summarized in the table below:
 

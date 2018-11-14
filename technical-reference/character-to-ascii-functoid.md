@@ -25,7 +25,7 @@ Use the **Character to ASCII** functoid ( ![](images/Aa561886.39dfce53-76e8-47ed
 ## See Also
 
 [Conversion Functoids Reference](conversion-functoids-reference.md)  
-[Conversion Functoids](https://msdn.microsoft.com/en-us/library/aa547311\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))  
+[Conversion Functoids](https://msdn.microsoft.com/library/aa547311\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))  
 [ASCII to Character Functoid](ascii-to-character-functoid.md)
 

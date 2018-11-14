@@ -53,5 +53,5 @@ mtps_version: v=BTS.80
 ## See Also
 
 [IDocumentSpec Interface (COM)](idocumentspec-interface-com.md)  
-[Using the Parsing and Serializing Engines](https://msdn.microsoft.com/en-us/library/aa577963\(v=bts.80\))
+[Using the Parsing and Serializing Engines](https://msdn.microsoft.com/library/aa577963\(v=bts.80\))
 

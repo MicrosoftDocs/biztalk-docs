@@ -33,15 +33,15 @@ This property is read-write.
 
 For more information about the configuring the receive location of any of the native adapters, see the following topics:
 
-  - [Configuring a File Send Handler](https://msdn.microsoft.com/en-us/library/aa577540\(v=bts.80\))
+  - [Configuring a File Send Handler](https://msdn.microsoft.com/library/aa577540\(v=bts.80\))
 
-  - [Configuring an FTP Send Handler](https://msdn.microsoft.com/en-us/library/aa561311\(v=bts.80\))
+  - [Configuring an FTP Send Handler](https://msdn.microsoft.com/library/aa561311\(v=bts.80\))
 
-  - [Configuring an HTTP Send Handler](https://msdn.microsoft.com/en-us/library/aa561097\(v=bts.80\))
+  - [Configuring an HTTP Send Handler](https://msdn.microsoft.com/library/aa561097\(v=bts.80\))
 
-  - [Configuring an SMTP Send Handler By Using BizTalk Explorer](https://msdn.microsoft.com/en-us/library/aa578257\(v=bts.80\))
+  - [Configuring an SMTP Send Handler By Using BizTalk Explorer](https://msdn.microsoft.com/library/aa578257\(v=bts.80\))
 
-  - [Configuring a SOAP Send Handler](https://msdn.microsoft.com/en-us/library/aa562126\(v=bts.80\))
+  - [Configuring a SOAP Send Handler](https://msdn.microsoft.com/library/aa562126\(v=bts.80\))
 
 ## Requirements
 

@@ -108,6 +108,6 @@ Except when both are 0 or 100.</td>
 
 ## See Also
 
-[How to Modify Group Settings](https://msdn.microsoft.com/en-us/library/ff629808\(v=bts.80\))  
-[How to Modify Host Settings](https://msdn.microsoft.com/en-us/library/ff629679\(v=bts.80\))
+[How to Modify Group Settings](https://msdn.microsoft.com/library/ff629808\(v=bts.80\))  
+[How to Modify Host Settings](https://msdn.microsoft.com/library/ff629679\(v=bts.80\))
 

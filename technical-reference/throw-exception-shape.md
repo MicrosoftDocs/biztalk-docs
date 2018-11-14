@@ -38,5 +38,5 @@ You can explicitly throw exceptions in an orchestration with the **Throw Excepti
 
 ## See Also
 
-[How to Configure the Throw Exception Shape](https://msdn.microsoft.com/en-us/library/aa578573\(v=bts.80\))
+[How to Configure the Throw Exception Shape](https://msdn.microsoft.com/library/aa578573\(v=bts.80\))
 

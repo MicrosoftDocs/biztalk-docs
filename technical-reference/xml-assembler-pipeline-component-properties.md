@@ -90,11 +90,11 @@ Default value: (None)</td>
 
 ## See Also
 
-[Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa578392\(v=bts.80\))  
-[How to Configure the XML Assembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa560698\(v=bts.80\))  
-[XML Information Set Elements in the XML Assembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa560313\(v=bts.80\))  
-[Character Encoding in the XML Assembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa578435\(v=bts.80\))  
-[Unrecognized Messages in the XML Assembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa561454\(v=bts.80\))  
-[Document Structure Enforcement in the XML Assembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa578455\(v=bts.80\))  
-[Processing Instructions in the XML Assembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa578687\(v=bts.80\))
+[Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))  
+[How to Configure the XML Assembler Pipeline Component](https://msdn.microsoft.com/library/aa560698\(v=bts.80\))  
+[XML Information Set Elements in the XML Assembler Pipeline Component](https://msdn.microsoft.com/library/aa560313\(v=bts.80\))  
+[Character Encoding in the XML Assembler Pipeline Component](https://msdn.microsoft.com/library/aa578435\(v=bts.80\))  
+[Unrecognized Messages in the XML Assembler Pipeline Component](https://msdn.microsoft.com/library/aa561454\(v=bts.80\))  
+[Document Structure Enforcement in the XML Assembler Pipeline Component](https://msdn.microsoft.com/library/aa578455\(v=bts.80\))  
+[Processing Instructions in the XML Assembler Pipeline Component](https://msdn.microsoft.com/library/aa578687\(v=bts.80\))
 

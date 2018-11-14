@@ -66,5 +66,5 @@ The first branch in a **Listen** shape for which a condition is met (a delay is 
 
 ## See Also
 
-[How to Configure the Listen Shape](https://msdn.microsoft.com/en-us/library/aa559905\(v=bts.80\))
+[How to Configure the Listen Shape](https://msdn.microsoft.com/library/aa559905\(v=bts.80\))
 

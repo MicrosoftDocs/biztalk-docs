@@ -92,7 +92,7 @@ class MSBTS_MsgBoxSetting : MSBTS_Setting
 
 ## Remarks
 
-For more information about the minimum security user rights required to administer the MessageBox database, see [Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\)).
+For more information about the minimum security user rights required to administer the MessageBox database, see [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\)).
 
 ## Requirements
 

@@ -26,7 +26,7 @@ string NTGroupName;
 
 This property is read only.
 
-The Windows NT group can be either a local or a domain Windows NT group. The group is granted access to the application queue created for the host type. The account used to host the host instances must be a member of the group. For more information about accounts in BizTalk Server, see [Windows Groups and User Accounts in BizTalk Server](https://msdn.microsoft.com/en-us/library/aa577661\(v=bts.80\)).
+The Windows NT group can be either a local or a domain Windows NT group. The group is granted access to the application queue created for the host type. The account used to host the host instances must be a member of the group. For more information about accounts in BizTalk Server, see [Windows Groups and User Accounts in BizTalk Server](https://msdn.microsoft.com/library/aa577661\(v=bts.80\)).
 
 The maximum length for this property is 63 characters.
 

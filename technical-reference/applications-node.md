@@ -38,6 +38,6 @@ Use the **Applications** node to create new empty applications and to refresh co
 
 ## See Also
 
-[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/en-us/library/aa560565\(v=bts.80\))  
-[How to Import a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa560132\(v=bts.80\))
+[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/library/aa560565\(v=bts.80\))  
+[How to Import a BizTalk Application](https://msdn.microsoft.com/library/aa560132\(v=bts.80\))
 

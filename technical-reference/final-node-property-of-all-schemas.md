@@ -106,13 +106,13 @@ You can examine and set this property in the Visual Studio Properties window whe
 
 When you configure this property, you can prevent all derivations, or restrict, extend, or set the default derivation from a base type.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 For **Record** nodes, the values **Restriction** and **Extension** can be set in combination with each other by selecting their corresponding check boxes in the **Final** property drop-down list. The corresponding values of the **final** attribute are space-separated.
 
 For **Field Element** and **Field Attribute** nodes, the values **Restriction**, **List**, and **Union** can be set in combination with each other by selecting their corresponding check boxes in the **Final** property drop-down list. The corresponding values of the **final** attribute are space-separated.
 
-For more information about different types of derivations, see [Type Reuse and Derivations](https://msdn.microsoft.com/en-us/library/aa559208\(v=bts.80\)).
+For more information about different types of derivations, see [Type Reuse and Derivations](https://msdn.microsoft.com/library/aa559208\(v=bts.80\)).
 
 ## See Also
 

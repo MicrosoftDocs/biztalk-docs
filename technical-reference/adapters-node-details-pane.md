@@ -30,13 +30,13 @@ Use the Adapters node details pane to manage adapters. Right-click a specific ad
 
 ## See Also
 
-[Using Adapters](https://msdn.microsoft.com/en-us/library/aa578103\(v=bts.80\))  
-[File Adapter](https://msdn.microsoft.com/en-us/library/aa561615\(v=bts.80\))  
-[FTP Adapter](https://msdn.microsoft.com/en-us/library/aa561215\(v=bts.80\))  
-[Configuring the HTTP Adapter](https://msdn.microsoft.com/en-us/library/aa560119\(v=bts.80\))  
-[POP3 Adapter](https://msdn.microsoft.com/en-us/library/aa546737\(v=bts.80\))  
-[SMTP Adapter](https://msdn.microsoft.com/en-us/library/aa578267\(v=bts.80\))  
-[SOAP Receive Adapter](https://msdn.microsoft.com/en-us/library/aa578345\(v=bts.80\))  
-[SOAP Send Adapter](https://msdn.microsoft.com/en-us/library/aa560057\(v=bts.80\))  
-[Windows SharePoint Services Adapter](https://msdn.microsoft.com/en-us/library/aa548027\(v=bts.80\))
+[Using Adapters](https://msdn.microsoft.com/library/aa578103\(v=bts.80\))  
+[File Adapter](https://msdn.microsoft.com/library/aa561615\(v=bts.80\))  
+[FTP Adapter](https://msdn.microsoft.com/library/aa561215\(v=bts.80\))  
+[Configuring the HTTP Adapter](https://msdn.microsoft.com/library/aa560119\(v=bts.80\))  
+[POP3 Adapter](https://msdn.microsoft.com/library/aa546737\(v=bts.80\))  
+[SMTP Adapter](https://msdn.microsoft.com/library/aa578267\(v=bts.80\))  
+[SOAP Receive Adapter](https://msdn.microsoft.com/library/aa578345\(v=bts.80\))  
+[SOAP Send Adapter](https://msdn.microsoft.com/library/aa560057\(v=bts.80\))  
+[Windows SharePoint Services Adapter](https://msdn.microsoft.com/library/aa548027\(v=bts.80\))
 

@@ -36,5 +36,5 @@ The default is 10.</td>
 
 ## See Also
 
-[How to Configure a WCF-NetTcp Send Handler](https://msdn.microsoft.com/en-us/library/bb728130\(v=bts.80\))
+[How to Configure a WCF-NetTcp Send Handler](https://msdn.microsoft.com/library/bb728130\(v=bts.80\))
 

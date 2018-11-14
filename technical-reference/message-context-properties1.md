@@ -18,35 +18,35 @@ The following table contains a list of message context properties that the Messa
 
 For additional information about properties and property schemas associated with pipeline components and adapters, see the following:
 
-  - [File Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa547908\(v=bts.80\))
+  - [File Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa547908\(v=bts.80\))
 
-  - [FTP Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa560564\(v=bts.80\))
+  - [FTP Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa560564\(v=bts.80\))
 
-  - [HTTP Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa547980\(v=bts.80\))
+  - [HTTP Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa547980\(v=bts.80\))
 
-  - [MSMQ Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa577593\(v=bts.80\))
+  - [MSMQ Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa577593\(v=bts.80\))
 
-  - [SMTP Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa560686\(v=bts.80\))
+  - [SMTP Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa560686\(v=bts.80\))
 
-  - [SOAP Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa578208\(v=bts.80\))
+  - [SOAP Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa578208\(v=bts.80\))
 
-  - [BizTalk Framework Schema and Properties](https://msdn.microsoft.com/en-us/library/aa561250\(v=bts.80\))
+  - [BizTalk Framework Schema and Properties](https://msdn.microsoft.com/library/aa561250\(v=bts.80\))
 
-  - [MQSeries Adapter Properties](https://msdn.microsoft.com/en-us/library/aa547870\(v=bts.80\))
+  - [MQSeries Adapter Properties](https://msdn.microsoft.com/library/aa547870\(v=bts.80\))
 
-  - [POP3 Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa560937\(v=bts.80\))
+  - [POP3 Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa560937\(v=bts.80\))
 
-  - [Windows SharePoint Services Adapter Properties Reference](https://msdn.microsoft.com/en-us/library/aa547920\(v=bts.80\))
+  - [Windows SharePoint Services Adapter Properties Reference](https://msdn.microsoft.com/library/aa547920\(v=bts.80\))
 
-  - [MIME/SMIME Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa559271\(v=bts.80\))
+  - [MIME/SMIME Property Schema and Properties](https://msdn.microsoft.com/library/aa559271\(v=bts.80\))
 
-  - [XML and Flat File Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa559096\(v=bts.80\))
+  - [XML and Flat File Property Schema and Properties](https://msdn.microsoft.com/library/aa559096\(v=bts.80\))
 
-  - [WCF Adapters Property Schema and Properties](https://msdn.microsoft.com/en-us/library/bb245991\(v=bts.80\))
+  - [WCF Adapters Property Schema and Properties](https://msdn.microsoft.com/library/bb245991\(v=bts.80\))
 
-  - [AS2 Context Properties](https://msdn.microsoft.com/en-us/library/bb226483\(v=bts.80\))
+  - [AS2 Context Properties](https://msdn.microsoft.com/library/bb226483\(v=bts.80\))
 
-  - [EDI Context Properties](https://msdn.microsoft.com/en-us/library/bb226554\(v=bts.80\))
+  - [EDI Context Properties](https://msdn.microsoft.com/library/bb226554\(v=bts.80\))
 
 <table>
 <thead>
@@ -372,6 +372,6 @@ There are a number of other properties in this namespace that carry information 
 
 ## See Also
 
-[About BizTalk Message Context Properties](https://msdn.microsoft.com/en-us/library/aa578366\(v=bts.80\))  
+[About BizTalk Message Context Properties](https://msdn.microsoft.com/library/aa578366\(v=bts.80\))  
 [Message Context Properties](message-context-properties1.md)
 

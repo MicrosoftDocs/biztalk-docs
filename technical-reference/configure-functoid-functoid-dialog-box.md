@@ -75,5 +75,5 @@ After inserting a new constant input parameter, you can use the up and down arro
 ## See Also
 
 [General Functoid Properties](general-functoid-properties.md)  
-[How to Configure Functoid Input Parameters](https://msdn.microsoft.com/en-us/library/aa559380\(v=bts.80\))
+[How to Configure Functoid Input Parameters](https://msdn.microsoft.com/library/aa559380\(v=bts.80\))
 

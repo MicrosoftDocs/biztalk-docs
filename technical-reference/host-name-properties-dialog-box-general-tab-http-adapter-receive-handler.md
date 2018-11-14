@@ -42,5 +42,5 @@ Maximum value: 256</td>
 
 ## See Also
 
-[How to Configure an HTTP Receive Handler](https://msdn.microsoft.com/en-us/library/aa547842\(v=bts.80\))
+[How to Configure an HTTP Receive Handler](https://msdn.microsoft.com/library/aa547842\(v=bts.80\))
 

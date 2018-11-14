@@ -20,7 +20,7 @@ When you select an **All Group** node in BizTalk Editor, you can examine and set
 
   - **General.** This category contains properties that correspond to XSD concepts that can be categorized as basic, such as setting the allowed number of occurrences of the element group.
 
-Many of the properties associated with **All Group** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs.For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+Many of the properties associated with **All Group** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs.For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 The following table shows the properties associated with **All Group** nodes that are available in all schemas.
 

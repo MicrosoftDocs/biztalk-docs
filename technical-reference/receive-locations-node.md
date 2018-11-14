@@ -24,8 +24,8 @@ Use the **Receive Locations** node to display the receive locations that are def
 
 ## See Also
 
-[Receive Locations](https://msdn.microsoft.com/en-us/library/aa578407\(v=bts.80\))  
-[How to Enable a Receive Location](https://msdn.microsoft.com/en-us/library/aa561716\(v=bts.80\))  
-[How to Disable a Receive Location](https://msdn.microsoft.com/en-us/library/aa547073\(v=bts.80\))  
-[How to Create a Receive Location](https://msdn.microsoft.com/en-us/library/aa561757\(v=bts.80\))
+[Receive Locations](https://msdn.microsoft.com/library/aa578407\(v=bts.80\))  
+[How to Enable a Receive Location](https://msdn.microsoft.com/library/aa561716\(v=bts.80\))  
+[How to Disable a Receive Location](https://msdn.microsoft.com/library/aa547073\(v=bts.80\))  
+[How to Create a Receive Location](https://msdn.microsoft.com/library/aa561757\(v=bts.80\))
 

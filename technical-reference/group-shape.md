@@ -34,5 +34,5 @@ You can use the **Group** shape to group actions in an intuitive and visually ma
 
 ## See Also
 
-[How to Use the Group Shape](https://msdn.microsoft.com/en-us/library/aa577521\(v=bts.80\))
+[How to Use the Group Shape](https://msdn.microsoft.com/library/aa577521\(v=bts.80\))
 

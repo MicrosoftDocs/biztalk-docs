@@ -39,7 +39,7 @@ The Section element described in the following table contains two attributes, Nu
   
 ### Child Elements  
   
-|Element|Description|Occurance Constraint|  
+|Element|Description|Occurrence Constraint|  
 |-------------|-----------------|--------------------------|  
 ||he Statement element described in the following table has one required attribute, Number, and a required value for the SQL statement command string.|0 to 1|  
 ||The Statement element described in the following table has one required attribute, Number, and a required value for the SQL statement command string.|1 to 1|  

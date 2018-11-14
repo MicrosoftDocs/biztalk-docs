@@ -86,6 +86,6 @@ The default is an empty string.</td>
 
 ## See Also
 
-[How to Configure a WCF-BasicHttp Send Port](https://msdn.microsoft.com/en-us/library/bb226467\(v=bts.80\))  
-[How to Configure a WCF-BasicHttp Send Handler](https://msdn.microsoft.com/en-us/library/bb245976\(v=bts.80\))
+[How to Configure a WCF-BasicHttp Send Port](https://msdn.microsoft.com/library/bb226467\(v=bts.80\))  
+[How to Configure a WCF-BasicHttp Send Handler](https://msdn.microsoft.com/library/bb245976\(v=bts.80\))
 

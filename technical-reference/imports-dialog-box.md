@@ -70,5 +70,5 @@ You can also edit the prefix by double-clicking the prefix entry.</td>
 
 ## See Also
 
-[Schemas That Use Other Schemas](https://msdn.microsoft.com/en-us/library/aa546766\(v=bts.80\))
+[Schemas That Use Other Schemas](https://msdn.microsoft.com/library/aa546766\(v=bts.80\))
 

@@ -42,5 +42,5 @@ The **Catch Exception** block represents an exception handler, and is attached t
 
 ## See Also
 
-[How to Add a Catch Exception Block](https://msdn.microsoft.com/en-us/library/aa560499\(v=bts.80\))
+[How to Add a Catch Exception Block](https://msdn.microsoft.com/library/aa560499\(v=bts.80\))
 

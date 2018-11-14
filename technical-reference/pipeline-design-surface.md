@@ -44,5 +44,5 @@ On the Pipeline Design Surface, you can do the following:
 
 ## See Also
 
-[Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa578392\(v=bts.80\))
+[Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))
 

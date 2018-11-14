@@ -30,7 +30,7 @@ This property is read-only.
 
 The maximum length for this property is 63 characters.
 
-For more information about accounts in BizTalk Server, see [Windows Groups and User Accounts in BizTalk Server](https://msdn.microsoft.com/en-us/library/aa577661\(v=bts.80\)).
+For more information about accounts in BizTalk Server, see [Windows Groups and User Accounts in BizTalk Server](https://msdn.microsoft.com/library/aa577661\(v=bts.80\)).
 
 ## Requirements
 

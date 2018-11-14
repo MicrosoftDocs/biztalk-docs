@@ -50,7 +50,7 @@ If you started the Import Wizard by right-clicking <strong>Applications</strong>
 
 ## See Also
 
-[How to Import a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa560132\(v=bts.80\))  
-[The Application Deployment Process](https://msdn.microsoft.com/en-us/library/aa559316\(v=bts.80\))  
-[What Happens When Artifacts Are Imported](https://msdn.microsoft.com/en-us/library/aa577939\(v=bts.80\))
+[How to Import a BizTalk Application](https://msdn.microsoft.com/library/aa560132\(v=bts.80\))  
+[The Application Deployment Process](https://msdn.microsoft.com/library/aa559316\(v=bts.80\))  
+[What Happens When Artifacts Are Imported](https://msdn.microsoft.com/library/aa577939\(v=bts.80\))
 

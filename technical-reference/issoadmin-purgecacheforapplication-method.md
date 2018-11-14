@@ -89,7 +89,7 @@ To access this method, you must be an SSO Administrator, SSO Affiliate Administr
 
 ## See Also
 
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))  
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))  
 [ISSOAdmin Interface (COM)](issoadmin-interface-com.md)  
 [ISSOAdmin Members](issoadmin-members.md)
 

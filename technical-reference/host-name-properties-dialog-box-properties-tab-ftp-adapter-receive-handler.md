@@ -164,5 +164,5 @@ This property is applicable only if the <strong>Use SSL</strong> property is set
 
 ## See Also
 
-[How to Configure an FTP Receive Handler](https://msdn.microsoft.com/en-us/library/aa561710\(v=bts.80\))
+[How to Configure an FTP Receive Handler](https://msdn.microsoft.com/library/aa561710\(v=bts.80\))
 

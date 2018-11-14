@@ -33,6 +33,6 @@ The time portion of the output of this functoid is expressed by using a 24 hour 
 ## See Also
 
 [Date and Time Functoids Reference](date-and-time-functoids-reference.md)  
-[Date and Time Functoids](https://msdn.microsoft.com/en-us/library/aa559411\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[Date and Time Functoids](https://msdn.microsoft.com/library/aa559411\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

@@ -29,7 +29,7 @@ You can also use the **Record Count** functoid to count repeating field elements
 ## See Also
 
 [Advanced Functoids Reference](advanced-functoids-reference.md)  
-[Advanced Functoids](https://msdn.microsoft.com/en-us/library/aa561121\(v=bts.80\))  
-[Record Count Functoid](https://msdn.microsoft.com/en-us/library/aa561646\(v=bts.80\))  
-[How to Add Record Count Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa559757\(v=bts.80\))
+[Advanced Functoids](https://msdn.microsoft.com/library/aa561121\(v=bts.80\))  
+[Record Count Functoid](https://msdn.microsoft.com/library/aa561646\(v=bts.80\))  
+[How to Add Record Count Functoids to a Map](https://msdn.microsoft.com/library/aa559757\(v=bts.80\))
 

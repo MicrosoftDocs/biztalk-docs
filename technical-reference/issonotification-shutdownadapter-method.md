@@ -82,5 +82,5 @@ Calls to **SendNotification** or **ReceiveNotification** that are in progress (o
 
 [ISSONotification Interface (COM)](issonotification-interface-com.md)  
 [ISSONotification Members](issonotification-members.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

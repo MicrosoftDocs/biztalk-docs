@@ -52,5 +52,5 @@ This property is optional. If left blank, you may later need to configure a send
 
 ## See Also
 
-[How to Add Adapter Metadata to a BizTalk Project](https://msdn.microsoft.com/en-us/library/aa561598\(v=bts.80\))
+[How to Add Adapter Metadata to a BizTalk Project](https://msdn.microsoft.com/library/aa561598\(v=bts.80\))
 

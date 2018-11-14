@@ -88,5 +88,5 @@ Use the **Policy Properties** window to view the rule sets that have been added 
 
 ## See Also
 
-[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/en-us/library/aa560565\(v=bts.80\))
+[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/library/aa560565\(v=bts.80\))
 

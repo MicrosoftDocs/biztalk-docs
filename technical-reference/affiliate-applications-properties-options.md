@@ -74,5 +74,5 @@ Use this dialog box to view or change options for the Affiliate Application.
 
 ## See Also
 
-[Implementing Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa558712\(v=bts.80\))
+[Implementing Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa558712\(v=bts.80\))
 

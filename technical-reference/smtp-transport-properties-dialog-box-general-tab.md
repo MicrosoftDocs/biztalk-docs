@@ -61,5 +61,5 @@ Maximum length: 256</td>
 
 ## See Also
 
-[Restrictions on the SMTP To Property](https://msdn.microsoft.com/en-us/library/aa547966\(v=bts.80\))
+[Restrictions on the SMTP To Property](https://msdn.microsoft.com/library/aa547966\(v=bts.80\))
 

@@ -35,7 +35,7 @@ Scripts associated with this functoid must meet one of the following criteria:
 ## See Also
 
 [Advanced Functoids Reference](advanced-functoids-reference.md)  
-[Advanced Functoids](https://msdn.microsoft.com/en-us/library/aa561121\(v=bts.80\))  
-[Scripting Functoid](https://msdn.microsoft.com/en-us/library/aa561729\(v=bts.80\))  
-[How to Add Scripting Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa561749\(v=bts.80\))
+[Advanced Functoids](https://msdn.microsoft.com/library/aa561121\(v=bts.80\))  
+[Scripting Functoid](https://msdn.microsoft.com/library/aa561729\(v=bts.80\))  
+[How to Add Scripting Functoids to a Map](https://msdn.microsoft.com/library/aa561749\(v=bts.80\))
 

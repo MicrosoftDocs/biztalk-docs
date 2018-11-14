@@ -125,6 +125,6 @@ BTS task example:<br />
 
 ## See Also
 
-[How to Modify Host Settings](https://msdn.microsoft.com/en-us/library/ff629679\(v=bts.80\))  
-[How to Modify Host Instance Settings](https://msdn.microsoft.com/en-us/library/ff629695\(v=bts.80\))
+[How to Modify Host Settings](https://msdn.microsoft.com/library/ff629679\(v=bts.80\))  
+[How to Modify Host Instance Settings](https://msdn.microsoft.com/library/ff629695\(v=bts.80\))
 

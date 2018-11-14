@@ -62,7 +62,7 @@ You can examine and set this property in the Visual Studio Properties window whe
 
 This value for this property controls the type of group that is persisted and meets the XSD requirement for having a group at every complex structure definition point. Use the **Group Order Type** property to modify group types. The group will be created automatically when the first child node is inserted.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 The **All Group** node has a number of special restrictions to which the **Sequence Group** and **Choice Group** nodes are not subject:
 

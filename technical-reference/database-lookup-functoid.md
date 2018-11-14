@@ -85,6 +85,6 @@ public string connectionString2(string password)
 ## See Also
 
 [Database Functoids Reference](database-functoids-reference.md)  
-[Database Functoids](https://msdn.microsoft.com/en-us/library/aa560892\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[Database Functoids](https://msdn.microsoft.com/library/aa560892\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

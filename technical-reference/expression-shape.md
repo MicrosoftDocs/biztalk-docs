@@ -38,5 +38,5 @@ You can use the **Expression** shape to enter any expression you choose in your 
 
 ## See Also
 
-[How to Use Expression Shape](https://msdn.microsoft.com/en-us/library/aa559398\(v=bts.80\))
+[How to Use Expression Shape](https://msdn.microsoft.com/library/aa559398\(v=bts.80\))
 

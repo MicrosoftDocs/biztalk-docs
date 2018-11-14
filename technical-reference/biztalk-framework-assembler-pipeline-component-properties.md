@@ -138,14 +138,14 @@ Default value: (None)</td>
 
 ## See Also
 
-[Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa578392\(v=bts.80\))  
-[How to Create a New Pipeline](https://msdn.microsoft.com/en-us/library/aa578387\(v=bts.80\))  
-[How to Open a Pipeline](https://msdn.microsoft.com/en-us/library/aa561730\(v=bts.80\))  
-[How to Add a Component to a Pipeline](https://msdn.microsoft.com/en-us/library/aa560652\(v=bts.80\))  
-[How to Set Pipeline Component Properties](https://msdn.microsoft.com/en-us/library/aa559409\(v=bts.80\))  
-[How to Use the Schema Collection Property Editor](https://msdn.microsoft.com/en-us/library/aa559127\(v=bts.80\))  
-[How to Save a Pipeline](https://msdn.microsoft.com/en-us/library/aa561936\(v=bts.80\))  
-[How to Use the Toolbox](https://msdn.microsoft.com/en-us/library/aa560943\(v=bts.80\))  
-[How to Navigate with the Keyboard](https://msdn.microsoft.com/en-us/library/aa559415\(v=bts.80\))  
-[How to Read Pipeline Component Properties](https://msdn.microsoft.com/en-us/library/aa547568\(v=bts.80\))
+[Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))  
+[How to Create a New Pipeline](https://msdn.microsoft.com/library/aa578387\(v=bts.80\))  
+[How to Open a Pipeline](https://msdn.microsoft.com/library/aa561730\(v=bts.80\))  
+[How to Add a Component to a Pipeline](https://msdn.microsoft.com/library/aa560652\(v=bts.80\))  
+[How to Set Pipeline Component Properties](https://msdn.microsoft.com/library/aa559409\(v=bts.80\))  
+[How to Use the Schema Collection Property Editor](https://msdn.microsoft.com/library/aa559127\(v=bts.80\))  
+[How to Save a Pipeline](https://msdn.microsoft.com/library/aa561936\(v=bts.80\))  
+[How to Use the Toolbox](https://msdn.microsoft.com/library/aa560943\(v=bts.80\))  
+[How to Navigate with the Keyboard](https://msdn.microsoft.com/library/aa559415\(v=bts.80\))  
+[How to Read Pipeline Component Properties](https://msdn.microsoft.com/library/aa547568\(v=bts.80\))
 

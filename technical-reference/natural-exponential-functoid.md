@@ -31,6 +31,6 @@ e ^ P = R (e raised to the power of P equals R)
 ## See Also
 
 [Scientific Functoids Reference](scientific-functoids-reference.md)  
-[Scientific Functoids](https://msdn.microsoft.com/en-us/library/aa546775\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[Scientific Functoids](https://msdn.microsoft.com/library/aa546775\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

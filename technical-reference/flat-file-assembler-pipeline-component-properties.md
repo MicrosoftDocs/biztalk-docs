@@ -64,10 +64,10 @@ Default value: (None)</td>
 
 ## See Also
 
-[Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa578392\(v=bts.80\))  
-[How to Configure the Flat File Assembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa560332\(v=bts.80\))  
-[Character Encoding in the Flat File Assembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa547314\(v=bts.80\))  
-[Property Demotion in Assembler Pipeline Components](https://msdn.microsoft.com/en-us/library/aa547894\(v=bts.80\))  
-[Document Structure Enforcement in the Flat File Assembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa559659\(v=bts.80\))  
-[How to Configure the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa578441\(v=bts.80\))
+[Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))  
+[How to Configure the Flat File Assembler Pipeline Component](https://msdn.microsoft.com/library/aa560332\(v=bts.80\))  
+[Character Encoding in the Flat File Assembler Pipeline Component](https://msdn.microsoft.com/library/aa547314\(v=bts.80\))  
+[Property Demotion in Assembler Pipeline Components](https://msdn.microsoft.com/library/aa547894\(v=bts.80\))  
+[Document Structure Enforcement in the Flat File Assembler Pipeline Component](https://msdn.microsoft.com/library/aa559659\(v=bts.80\))  
+[How to Configure the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa578441\(v=bts.80\))
 

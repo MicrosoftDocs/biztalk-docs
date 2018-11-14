@@ -31,21 +31,21 @@ An empty value for this property means that the adapter is lacking some importan
 
 For more information about the configuring the receive location of any of the native adapters, see the following topics:
 
-  - [How to Configure an HTTP Receive Location](https://msdn.microsoft.com/en-us/library/aa561370\(v=bts.80\))
+  - [How to Configure an HTTP Receive Location](https://msdn.microsoft.com/library/aa561370\(v=bts.80\))
 
-  - [How to Configure an FTP Receive Location](https://msdn.microsoft.com/en-us/library/aa559095\(v=bts.80\))
+  - [How to Configure an FTP Receive Location](https://msdn.microsoft.com/library/aa559095\(v=bts.80\))
 
-  - [How to Configure a File Receive Location](https://msdn.microsoft.com/en-us/library/aa547108\(v=bts.80\))
+  - [How to Configure a File Receive Location](https://msdn.microsoft.com/library/aa547108\(v=bts.80\))
 
-  - [How to Configure MQSeries Adapter Receive Locations and Send Ports](https://msdn.microsoft.com/en-us/library/aa560215\(v=bts.80\))
+  - [How to Configure MQSeries Adapter Receive Locations and Send Ports](https://msdn.microsoft.com/library/aa560215\(v=bts.80\))
 
-  - [How to Configure an MSMQ Receive Location](https://msdn.microsoft.com/en-us/library/aa578322\(v=bts.80\))
+  - [How to Configure an MSMQ Receive Location](https://msdn.microsoft.com/library/aa578322\(v=bts.80\))
 
-  - [How to Configure a POP3 Receive Location](https://msdn.microsoft.com/en-us/library/aa559245\(v=bts.80\))
+  - [How to Configure a POP3 Receive Location](https://msdn.microsoft.com/library/aa559245\(v=bts.80\))
 
-  - [How to Configure a SOAP Receive Location](https://msdn.microsoft.com/en-us/library/aa561021\(v=bts.80\))
+  - [How to Configure a SOAP Receive Location](https://msdn.microsoft.com/library/aa561021\(v=bts.80\))
 
-  - [How to Configure a Windows SharePoint Services Receive Location](https://msdn.microsoft.com/en-us/library/aa560390\(v=bts.80\))
+  - [How to Configure a Windows SharePoint Services Receive Location](https://msdn.microsoft.com/library/aa560390\(v=bts.80\))
 
 ## Requirements
 

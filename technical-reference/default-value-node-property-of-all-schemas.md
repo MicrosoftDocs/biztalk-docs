@@ -46,7 +46,7 @@ You can configure this property with any valid XML data that is of the associate
 
 
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 You cannot configure both the **Default Value** property and the **Fixed** property because it is prohibited by XSD.
 

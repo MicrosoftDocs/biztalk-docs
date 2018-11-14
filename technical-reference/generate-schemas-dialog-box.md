@@ -48,5 +48,5 @@ The schema generation modules for DTDs and well-formed XML are not loaded by def
 
 ## See Also
 
-[How to Migrate XDR Schemas to XSD Schemas](https://msdn.microsoft.com/en-us/library/aa561382\(v=bts.80\))
+[How to Migrate XDR Schemas to XSD Schemas](https://msdn.microsoft.com/library/aa561382\(v=bts.80\))
 

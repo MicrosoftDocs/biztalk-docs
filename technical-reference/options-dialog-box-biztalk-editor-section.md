@@ -66,5 +66,5 @@ Use the **BizTalk Editor** section (folder) of the Microsoft Visual Studio **Opt
 
 ## See Also
 
-[How to Manage the XSD View](https://msdn.microsoft.com/en-us/library/aa559495\(v=bts.80\))
+[How to Manage the XSD View](https://msdn.microsoft.com/library/aa559495\(v=bts.80\))
 

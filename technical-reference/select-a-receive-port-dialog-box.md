@@ -36,6 +36,6 @@ Use the **Select a Receive Port** dialog box to associate a receive port with a 
 
 ## See Also
 
-[How to Create a Receive Port](https://msdn.microsoft.com/en-us/library/aa559206\(v=bts.80\))  
-[How to Configure a Windows SharePoint Services Receive Location](https://msdn.microsoft.com/en-us/library/aa560390\(v=bts.80\))
+[How to Create a Receive Port](https://msdn.microsoft.com/library/aa559206\(v=bts.80\))  
+[How to Configure a Windows SharePoint Services Receive Location](https://msdn.microsoft.com/library/aa560390\(v=bts.80\))
 

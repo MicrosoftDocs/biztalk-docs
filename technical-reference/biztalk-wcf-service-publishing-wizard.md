@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-Use the BizTalk WCF Service Publishing Wizard to create and publish BizTalk orchestrations as WCF services, and to publish schemas as WCF services for the isolated WCF adapters hosted by Web applications running in IIS. You can also use the BizTalk WCF Service Publishing Wizard to publish service metadata for any WCF locations for the in-process WCF adapters. For general usage information about the BizTalk WCF Service Publishing Wizard, see [Using WCF Services](https://msdn.microsoft.com/en-us/library/bb246032\(v=bts.80\)).
+Use the BizTalk WCF Service Publishing Wizard to create and publish BizTalk orchestrations as WCF services, and to publish schemas as WCF services for the isolated WCF adapters hosted by Web applications running in IIS. You can also use the BizTalk WCF Service Publishing Wizard to publish service metadata for any WCF locations for the in-process WCF adapters. For general usage information about the BizTalk WCF Service Publishing Wizard, see [Using WCF Services](https://msdn.microsoft.com/library/bb246032\(v=bts.80\)).
 
 
 > [!NOTE]
@@ -320,9 +320,9 @@ Use this page to determine if you have successfully published your WCF service.
 
 ## See Also
 
-[Considerations When Publishing WCF Services with the WCF Receive Adapters](https://msdn.microsoft.com/en-us/library/bb226362\(v=bts.80\))  
-[How to Use the BizTalk WCF Service Publishing Wizard to Publish Orchestrations as WCF Services](https://msdn.microsoft.com/en-us/library/bb226564\(v=bts.80\))  
-[How to Use the BizTalk WCF Service Publishing Wizard to Publish Schemas as WCF Services](https://msdn.microsoft.com/en-us/library/bb246047\(v=bts.80\))  
-[Walkthrough: Publishing WCF Services with the WCF-BasicHttp Adapter](https://msdn.microsoft.com/en-us/library/bb246063\(v=bts.80\))  
-[Walkthrough: Publishing WCF Services with the WCF-NetMsmq Adapter](https://msdn.microsoft.com/en-us/library/bb259950\(v=bts.80\))
+[Considerations When Publishing WCF Services with the WCF Receive Adapters](https://msdn.microsoft.com/library/bb226362\(v=bts.80\))  
+[How to Use the BizTalk WCF Service Publishing Wizard to Publish Orchestrations as WCF Services](https://msdn.microsoft.com/library/bb226564\(v=bts.80\))  
+[How to Use the BizTalk WCF Service Publishing Wizard to Publish Schemas as WCF Services](https://msdn.microsoft.com/library/bb246047\(v=bts.80\))  
+[Walkthrough: Publishing WCF Services with the WCF-BasicHttp Adapter](https://msdn.microsoft.com/library/bb246063\(v=bts.80\))  
+[Walkthrough: Publishing WCF Services with the WCF-NetMsmq Adapter](https://msdn.microsoft.com/library/bb259950\(v=bts.80\))
 

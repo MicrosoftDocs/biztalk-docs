@@ -16,7 +16,7 @@ The Windows Management Instrumentation (WMI) classes in this table are used to m
 
 To view core server class and member information in CIM Studio, see [Viewing the WMI Core Server Classes in CIM Studio](viewing-the-wmi-core-server-classes-in-cim-studio.md). You can also view the MOF file and the member descriptions in a text editor, however the descriptions are easier to read in CIM Studio.
 
-WMI Samples are available in the Examples section and in the SDK and in this section. For more information, see [WMI Script Samples](wmi-script-samples.md) and [Admin\\WMI (BizTalk Server Samples Folder)](https://msdn.microsoft.com/en-us/library/aa559638\(v=bts.80\)).
+WMI Samples are available in the Examples section and in the SDK and in this section. For more information, see [WMI Script Samples](wmi-script-samples.md) and [Admin\\WMI (BizTalk Server Samples Folder)](https://msdn.microsoft.com/library/aa559638\(v=bts.80\)).
 
 
 > [!WARNING]
@@ -162,5 +162,5 @@ WMI Samples are available in the Examples section and in the SDK and in this sec
 
 **Remarks**
 
-For more information about the minimum security user rights required to administer items using WMI, see [Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\)).
+For more information about the minimum security user rights required to administer items using WMI, see [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\)).
 

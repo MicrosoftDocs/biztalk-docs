@@ -56,7 +56,7 @@ As the value of the **mixed** attribute of the **complexType** element that is a
 
 You can examine and set this property in the Visual Studio Properties window when you select a **Record** node, including root **Record** nodes, in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 HTML provides a very common example of mixed substructure and content. The paragraph tags in the following HTML example contain mixed content:
 

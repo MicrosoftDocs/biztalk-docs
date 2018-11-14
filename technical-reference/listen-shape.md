@@ -34,5 +34,5 @@ You use the **Listen** shape to make your orchestration wait for any one of seve
 
 ## See Also
 
-[How to Configure the Listen Shape](https://msdn.microsoft.com/en-us/library/aa559905\(v=bts.80\))
+[How to Configure the Listen Shape](https://msdn.microsoft.com/library/aa559905\(v=bts.80\))
 

@@ -52,6 +52,6 @@ Use the **Import/Export** tab to import and export the **Address (URI)** and **E
 
 ## See Also
 
-[How to Configure a WCF-Custom Send Port](https://msdn.microsoft.com/en-us/library/bb226446\(v=bts.80\))  
-[SOAP Headers with Consumed WCF Services](https://msdn.microsoft.com/en-us/library/bb245946\(v=bts.80\))
+[How to Configure a WCF-Custom Send Port](https://msdn.microsoft.com/library/bb226446\(v=bts.80\))  
+[SOAP Headers with Consumed WCF Services](https://msdn.microsoft.com/library/bb245946\(v=bts.80\))
 

@@ -34,7 +34,7 @@ Use the Orchestrations node details pane to control and manage orchestrations in
 
 ## See Also
 
-[About Orchestrations](https://msdn.microsoft.com/en-us/library/aa578451\(v=bts.80\))  
-[Creating Orchestrations](https://msdn.microsoft.com/en-us/library/aa577489\(v=bts.80\))  
-[How to Enlist an Orchestration](https://msdn.microsoft.com/en-us/library/aa578153\(v=bts.80\))
+[About Orchestrations](https://msdn.microsoft.com/library/aa578451\(v=bts.80\))  
+[Creating Orchestrations](https://msdn.microsoft.com/library/aa577489\(v=bts.80\))  
+[How to Enlist an Orchestration](https://msdn.microsoft.com/library/aa578153\(v=bts.80\))
 

@@ -18,6 +18,6 @@ The **Correlation Properties** dialog box enables you to select available proper
 
 ## See Also
 
-[How to Configure Correlation Sets](https://msdn.microsoft.com/en-us/library/aa547017\(v=bts.80\))  
-[Correlation Sets](https://msdn.microsoft.com/en-us/library/aa560163\(v=bts.80\))
+[How to Configure Correlation Sets](https://msdn.microsoft.com/library/aa547017\(v=bts.80\))  
+[Correlation Sets](https://msdn.microsoft.com/library/aa560163\(v=bts.80\))
 

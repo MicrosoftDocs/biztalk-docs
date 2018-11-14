@@ -76,5 +76,5 @@ Maximum length: 256</td>
 
 ## See Also
 
-[How to Configure an SMTP Send Handler](https://msdn.microsoft.com/en-us/library/aa578257\(v=bts.80\))
+[How to Configure an SMTP Send Handler](https://msdn.microsoft.com/library/aa578257\(v=bts.80\))
 

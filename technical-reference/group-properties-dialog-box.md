@@ -122,11 +122,11 @@ Use the **Group Properties** window to view or modify BizTalk Group properties.
 
 ## See Also
 
-[BizTalk Groups](https://msdn.microsoft.com/en-us/library/aa559010\(v=bts.80\))  
-[How to Add a Server to a Group](https://msdn.microsoft.com/en-us/library/aa560729\(v=bts.80\))  
-[How to Remove a Server from a Group](https://msdn.microsoft.com/en-us/library/aa561173\(v=bts.80\))  
-[Managing Groups](https://msdn.microsoft.com/en-us/library/aa560678\(v=bts.80\))  
-[How to Modify Group Properties](https://msdn.microsoft.com/en-us/library/aa560305\(v=bts.80\))  
-[How to Export Bindings for a BizTalk Group](https://msdn.microsoft.com/en-us/library/aa560143\(v=bts.80\))  
-[How to Move a Server from One Group to Another](https://msdn.microsoft.com/en-us/library/aa559752\(v=bts.80\))
+[BizTalk Groups](https://msdn.microsoft.com/library/aa559010\(v=bts.80\))  
+[How to Add a Server to a Group](https://msdn.microsoft.com/library/aa560729\(v=bts.80\))  
+[How to Remove a Server from a Group](https://msdn.microsoft.com/library/aa561173\(v=bts.80\))  
+[Managing Groups](https://msdn.microsoft.com/library/aa560678\(v=bts.80\))  
+[How to Modify Group Properties](https://msdn.microsoft.com/library/aa560305\(v=bts.80\))  
+[How to Export Bindings for a BizTalk Group](https://msdn.microsoft.com/library/aa560143\(v=bts.80\))  
+[How to Move a Server from One Group to Another](https://msdn.microsoft.com/library/aa559752\(v=bts.80\))
 

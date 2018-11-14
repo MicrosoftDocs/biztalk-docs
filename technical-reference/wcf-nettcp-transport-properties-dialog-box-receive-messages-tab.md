@@ -107,6 +107,6 @@ The default value is cleared.</td>
 
 ## See Also
 
-[Specifying the Message Body for the WCF Adapters](https://msdn.microsoft.com/en-us/library/bb226478\(v=bts.80\))  
-[How to Configure a WCF-NetTcp Receive Location](https://msdn.microsoft.com/en-us/library/bb226412\(v=bts.80\))
+[Specifying the Message Body for the WCF Adapters](https://msdn.microsoft.com/library/bb226478\(v=bts.80\))  
+[How to Configure a WCF-NetTcp Receive Location](https://msdn.microsoft.com/library/bb226412\(v=bts.80\))
 

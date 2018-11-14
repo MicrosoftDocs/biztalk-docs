@@ -47,5 +47,5 @@ Use the **New Activity Item** dialog box to create a new BAM activity item.
 
 ## See Also
 
-[How to Define a Business Activity](https://msdn.microsoft.com/en-us/library/aa559463\(v=bts.80\))
+[How to Define a Business Activity](https://msdn.microsoft.com/library/aa559463\(v=bts.80\))
 

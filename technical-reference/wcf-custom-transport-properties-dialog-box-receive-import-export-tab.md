@@ -52,7 +52,7 @@ Use the **Import/Export** tab to import and export the **Address (URI)** and **E
 
 ## See Also
 
-[How to Configure a WCF-Custom Receive Location](https://msdn.microsoft.com/en-us/library/bb259941\(v=bts.80\))  
-[How to Configure a WCF-CustomIsolated Receive Location](https://msdn.microsoft.com/en-us/library/bb226374\(v=bts.80\))  
-[SOAP Headers with Published WCF Services](https://msdn.microsoft.com/en-us/library/bb246105\(v=bts.80\))
+[How to Configure a WCF-Custom Receive Location](https://msdn.microsoft.com/library/bb259941\(v=bts.80\))  
+[How to Configure a WCF-CustomIsolated Receive Location](https://msdn.microsoft.com/library/bb226374\(v=bts.80\))  
+[SOAP Headers with Published WCF Services](https://msdn.microsoft.com/library/bb246105\(v=bts.80\))
 

@@ -54,7 +54,7 @@ Use the **Map Properties** window to view information relating to the map you ha
 
 ## See Also
 
-[About Maps](https://msdn.microsoft.com/en-us/library/aa560136\(v=bts.80\))  
-[How to Create New Maps](https://msdn.microsoft.com/en-us/library/aa559826\(v=bts.80\))  
-[Managing User Mappings](https://msdn.microsoft.com/en-us/library/aa578400\(v=bts.80\))
+[About Maps](https://msdn.microsoft.com/library/aa560136\(v=bts.80\))  
+[How to Create New Maps](https://msdn.microsoft.com/library/aa559826\(v=bts.80\))  
+[Managing User Mappings](https://msdn.microsoft.com/library/aa578400\(v=bts.80\))
 

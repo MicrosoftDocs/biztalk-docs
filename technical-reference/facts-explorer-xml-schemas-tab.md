@@ -34,5 +34,5 @@ Browse through XSD schemas for the definitions of XML elements and attributes. Y
 
 ## See Also
 
-[Windows of the Business Rule Composer](https://msdn.microsoft.com/en-us/library/aa561030\(v=bts.80\))
+[Windows of the Business Rule Composer](https://msdn.microsoft.com/library/aa561030\(v=bts.80\))
 

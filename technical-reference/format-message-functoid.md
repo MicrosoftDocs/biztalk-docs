@@ -43,8 +43,8 @@ Message strings, as identified by the first parameter, are strings with replacea
 ## See Also
 
 [Database Functoids Reference](database-functoids-reference.md)  
-[Database Functoids](https://msdn.microsoft.com/en-us/library/aa560892\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))  
+[Database Functoids](https://msdn.microsoft.com/library/aa560892\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))  
 [Get Application ID Functoid](get-application-id-functoid.md)  
 [Get Application Value Functoid](get-application-value-functoid.md)  
 [Get Common ID Functoid](get-common-id-functoid.md)  

@@ -58,5 +58,5 @@ Use the **New Measure** dialog box to create a new set of numeric values in an A
 
 ## See Also
 
-[How to Define Measures](https://msdn.microsoft.com/en-us/library/aa562124\(v=bts.80\))
+[How to Define Measures](https://msdn.microsoft.com/library/aa562124\(v=bts.80\))
 

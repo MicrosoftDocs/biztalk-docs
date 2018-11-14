@@ -68,6 +68,6 @@ When you double-click a warning or error in the Task window, BizTalk Mapper atte
 
 ## See Also
 
-[How to Customize Colors and Font in BizTalk Mapper](https://msdn.microsoft.com/en-us/library/aa559954\(v=bts.80\))  
-[Types of Links](https://msdn.microsoft.com/en-us/library/aa559534\(v=bts.80\))
+[How to Customize Colors and Font in BizTalk Mapper](https://msdn.microsoft.com/library/aa559954\(v=bts.80\))  
+[Types of Links](https://msdn.microsoft.com/library/aa559534\(v=bts.80\))
 

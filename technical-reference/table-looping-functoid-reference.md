@@ -12,7 +12,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Table Looping** functoid ( ![](images/Aa559129.8f4b3620-4778-4d73-a60d-b11dea1766aa(BTS.80).jpeg)), in conjunction with one or more **Table Extractor** functoids, to create a repeating structure in an output instance message by using constant values, values from an instance message, and values that are output from other functoids. The Table Looping functoid can also be used to add records to the output structure when there is no input record. For more information, please refer to the [Table-Driven Looping Example](https://msdn.microsoft.com/en-us/library/aa578676\(v=bts.80\)).
+Use the **Table Looping** functoid ( ![](images/Aa559129.8f4b3620-4778-4d73-a60d-b11dea1766aa(BTS.80).jpeg)), in conjunction with one or more **Table Extractor** functoids, to create a repeating structure in an output instance message by using constant values, values from an instance message, and values that are output from other functoids. The Table Looping functoid can also be used to add records to the output structure when there is no input record. For more information, please refer to the [Table-Driven Looping Example](https://msdn.microsoft.com/library/aa578676\(v=bts.80\)).
 
 ## Input
 
@@ -55,7 +55,7 @@ The **Table Looping Configuration** dialog box also has a check box with the lab
 ## See Also
 
 [Advanced Functoids Reference](advanced-functoids-reference.md)  
-[Advanced Functoids](https://msdn.microsoft.com/en-us/library/aa561121\(v=bts.80\))  
-[Table Looping and Table Extractor Functoids](https://msdn.microsoft.com/en-us/library/aa559310\(v=bts.80\))  
-[How to Add Table Looping and Table Extractor Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa559694\(v=bts.80\))
+[Advanced Functoids](https://msdn.microsoft.com/library/aa561121\(v=bts.80\))  
+[Table Looping and Table Extractor Functoids](https://msdn.microsoft.com/library/aa559310\(v=bts.80\))  
+[How to Add Table Looping and Table Extractor Functoids to a Map](https://msdn.microsoft.com/library/aa559694\(v=bts.80\))
 

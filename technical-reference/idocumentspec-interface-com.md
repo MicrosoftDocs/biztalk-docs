@@ -25,5 +25,5 @@ For a list of all members of this type, see [IDocumentSpec Members](idocumentspe
 ## See Also
 
 [IDocumentSpec Members (COM)](idocumentspec-members-com.md)  
-[Using the Parsing and Serializing Engines](https://msdn.microsoft.com/en-us/library/aa577963\(v=bts.80\))
+[Using the Parsing and Serializing Engines](https://msdn.microsoft.com/library/aa577963\(v=bts.80\))
 

@@ -40,5 +40,5 @@ Use the **Edit Instance XPath** dialog box to provide a custom XPath to a **Reco
 
 ## See Also
 
-[Promoting Properties](https://msdn.microsoft.com/en-us/library/aa561535\(v=bts.80\))
+[Promoting Properties](https://msdn.microsoft.com/library/aa561535\(v=bts.80\))
 

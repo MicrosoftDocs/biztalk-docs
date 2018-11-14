@@ -68,7 +68,7 @@ As the value of the **block** attribute of the **complexType** element that is a
 
 You can examine and set this property in the Visual Studio Properties window when you select a **Record** node (including a root **Record** node) in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 The values **Restriction**, **Extension**, and **Substitution** can be set in combination with each other by selecting their corresponding check boxes in the **Block** property drop-down list. The corresponding values of the **block** attribute are space-separated.
 
@@ -80,7 +80,7 @@ In corresponding instance messages, other derived data types can be used for a p
   
 ```
 
-In the example above, "BaseOrDerivedTypeName" is the name of a complex type that is derived from the data type specified by the **Data Structure Type** property of the corresponding **Record** node by some allowed type of derivation (a type of derivation that is not blocked by this property or the **BlockDefault** property). For more information about different types of derivations, see [Type Reuse and Derivations](https://msdn.microsoft.com/en-us/library/aa559208\(v=bts.80\)).
+In the example above, "BaseOrDerivedTypeName" is the name of a complex type that is derived from the data type specified by the **Data Structure Type** property of the corresponding **Record** node by some allowed type of derivation (a type of derivation that is not blocked by this property or the **BlockDefault** property). For more information about different types of derivations, see [Type Reuse and Derivations](https://msdn.microsoft.com/library/aa559208\(v=bts.80\)).
 
 ## See Also
 

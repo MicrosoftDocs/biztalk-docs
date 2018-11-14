@@ -48,5 +48,5 @@ where the full location of the .asmx file is http://localhost/PurchaseOrder/POOr
 
 ## See Also
 
-[How to Configure a SOAP Receive Location](https://msdn.microsoft.com/en-us/library/aa561021\(v=bts.80\))
+[How to Configure a SOAP Receive Location](https://msdn.microsoft.com/library/aa561021\(v=bts.80\))
 

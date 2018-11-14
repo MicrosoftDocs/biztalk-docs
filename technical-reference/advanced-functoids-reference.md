@@ -14,7 +14,7 @@ mtps_version: v=BTS.80
 
 Use **Advanced** functoids to create various types of data manipulation, such as implementing custom script, value mapping, and managing and extracting data from looping records.
 
-For conceptual information about **Advanced** functoids, see [Advanced Functoids](https://msdn.microsoft.com/en-us/library/aa561121\(v=bts.80\)).
+For conceptual information about **Advanced** functoids, see [Advanced Functoids](https://msdn.microsoft.com/library/aa561121\(v=bts.80\)).
 
 The following table shows the functoids in the **Advanced** category.
 
@@ -80,5 +80,5 @@ The following table shows the functoids in the **Advanced** category.
 
 ## See Also
 
-[Adding Advanced Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa578352\(v=bts.80\))
+[Adding Advanced Functoids to a Map](https://msdn.microsoft.com/library/aa578352\(v=bts.80\))
 
