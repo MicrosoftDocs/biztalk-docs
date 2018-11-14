@@ -43,6 +43,6 @@ P1 – (P2 + P3 + P4 + P5) = Output or 20 – (3 + 2 + 4 + 6) = 5
 ## See Also
 
 [Mathematical Functoids Reference](mathematical-functoids-reference.md)  
-[Mathematical Functoids](https://msdn.microsoft.com/en-us/library/aa559213\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[Mathematical Functoids](https://msdn.microsoft.com/library/aa559213\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

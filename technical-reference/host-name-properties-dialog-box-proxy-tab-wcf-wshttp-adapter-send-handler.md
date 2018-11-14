@@ -76,5 +76,5 @@ The default is an empty string.</td>
 
 ## See Also
 
-[How to Configure a WCF-WSHttp Send Handler](https://msdn.microsoft.com/en-us/library/bb226480\(v=bts.80\))
+[How to Configure a WCF-WSHttp Send Handler](https://msdn.microsoft.com/library/bb226480\(v=bts.80\))
 

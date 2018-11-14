@@ -31,8 +31,8 @@ To avoid errors that are only detected at run time, make sure that the first par
 ## See Also
 
 [Database Functoids Reference](database-functoids-reference.md)  
-[Database Functoids](https://msdn.microsoft.com/en-us/library/aa560892\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))  
+[Database Functoids](https://msdn.microsoft.com/library/aa560892\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))  
 [Database Lookup Functoid](database-lookup-functoid.md)  
 [Error Return Functoid](error-return-functoid.md)
 

@@ -43,8 +43,8 @@ A radian is a unit of measure of angles, such that there are 2π radians in a ci
 ## See Also
 
 [Scientific Functoids Reference](scientific-functoids-reference.md)  
-[Scientific Functoids](https://msdn.microsoft.com/en-us/library/aa546775\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))  
+[Scientific Functoids](https://msdn.microsoft.com/library/aa546775\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))  
 [Arc Tangent Functoid](arc-tangent-functoid.md)  
 [Cosine Functoid](cosine-functoid.md)  
 [Sine Functoid](sine-functoid.md)

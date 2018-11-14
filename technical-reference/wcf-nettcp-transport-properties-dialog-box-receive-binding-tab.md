@@ -145,6 +145,6 @@ The following table describes the semantics of transactional message submission 
 
 ## See Also
 
-[How to Configure a WCF-NetTcp Receive Location](https://msdn.microsoft.com/en-us/library/bb226412\(v=bts.80\))  
+[How to Configure a WCF-NetTcp Receive Location](https://msdn.microsoft.com/library/bb226412\(v=bts.80\))  
 [Load Balancing](http://go.microsoft.com/fwlink/?linkid=81089)
 

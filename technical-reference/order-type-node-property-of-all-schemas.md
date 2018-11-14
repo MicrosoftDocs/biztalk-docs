@@ -64,7 +64,7 @@ When you change the value of this property from **Sequence** or **Choice** to **
 
 This property can be useful when you have an element group node with a large number of children and find that the element group should be of a different kind. Rather than recreating the group and all of its children, you can simply change the value of this property to achieve the same effect.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 The **All Group** node has a number of special restrictions to which the **Sequence Group** and **Choice Group** nodes are not subject:
 

@@ -20,9 +20,9 @@ You can then import this .msi file into another BizTalk group to create the arti
 
 ## See Also
 
-[How to Export a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa577804\(v=bts.80\))  
-[How to Import a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa560132\(v=bts.80\))  
-[How to Install a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa577503\(v=bts.80\))  
-[What Happens When Artifacts Are Exported](https://msdn.microsoft.com/en-us/library/aa578034\(v=bts.80\))  
-[The Application Deployment Process](https://msdn.microsoft.com/en-us/library/aa559316\(v=bts.80\))
+[How to Export a BizTalk Application](https://msdn.microsoft.com/library/aa577804\(v=bts.80\))  
+[How to Import a BizTalk Application](https://msdn.microsoft.com/library/aa560132\(v=bts.80\))  
+[How to Install a BizTalk Application](https://msdn.microsoft.com/library/aa577503\(v=bts.80\))  
+[What Happens When Artifacts Are Exported](https://msdn.microsoft.com/library/aa578034\(v=bts.80\))  
+[The Application Deployment Process](https://msdn.microsoft.com/library/aa559316\(v=bts.80\))
 

@@ -35,5 +35,5 @@ The fields of the **SExternalAccount** interface are listed in the following tab
 ## See Also
 
 [SExternalAccount Structure (COM)](sexternalaccount-structure-com.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

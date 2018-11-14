@@ -20,7 +20,7 @@ Use the BizTalk WCF Service Publishing Wizard to create and modify the Windows C
 
 Use the BizTalk WCF Service Consuming Wizard to create the BizTalk artifacts needed to consume a WCF service.
 
-For more information about publishing and consuming WCF services with BizTalk Server, see [Using WCF Services](https://msdn.microsoft.com/en-us/library/bb246032\(v=bts.80\)).
+For more information about publishing and consuming WCF services with BizTalk Server, see [Using WCF Services](https://msdn.microsoft.com/library/bb246032\(v=bts.80\)).
 
 ## In This Section
 

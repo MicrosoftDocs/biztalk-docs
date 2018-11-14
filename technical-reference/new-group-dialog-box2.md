@@ -54,5 +54,5 @@ Use the **New Group** dialog box to group a set of business milestones. You can 
 
 ## See Also
 
-[How to Define Milestone Groups](https://msdn.microsoft.com/en-us/library/aa561276\(v=bts.80\))
+[How to Define Milestone Groups](https://msdn.microsoft.com/library/aa561276\(v=bts.80\))
 

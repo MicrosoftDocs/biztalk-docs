@@ -18,7 +18,7 @@ You can use the **Expression Editor** to type in XLANG/s expressions to perform 
 
 ## See Also
 
-[Using Expressions in Orchestrations](https://msdn.microsoft.com/en-us/library/aa995543\(v=bts.80\))  
-[Using Messages in Orchestrations](https://msdn.microsoft.com/en-us/library/aa560596\(v=bts.80\))  
-[Using Variables in Orchestrations](https://msdn.microsoft.com/en-us/library/aa995571\(v=bts.80\))
+[Using Expressions in Orchestrations](https://msdn.microsoft.com/library/aa995543\(v=bts.80\))  
+[Using Messages in Orchestrations](https://msdn.microsoft.com/library/aa560596\(v=bts.80\))  
+[Using Variables in Orchestrations](https://msdn.microsoft.com/library/aa995571\(v=bts.80\))
 

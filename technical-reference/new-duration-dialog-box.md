@@ -56,5 +56,5 @@ Use the **New Duration** dialog box to create a view item that calculates the am
 
 ## See Also
 
-[How to Define Durations](https://msdn.microsoft.com/en-us/library/aa561120\(v=bts.80\))
+[How to Define Durations](https://msdn.microsoft.com/library/aa561120\(v=bts.80\))
 

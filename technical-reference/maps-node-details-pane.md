@@ -24,9 +24,9 @@ Use the Maps node details pane to manage the maps that enable orchestrations to 
 
 ## See Also
 
-[About Maps](https://msdn.microsoft.com/en-us/library/aa560136\(v=bts.80\))  
-[Maps](https://msdn.microsoft.com/en-us/library/aa559603\(v=bts.80\))  
-[Managing Maps Within Projects](https://msdn.microsoft.com/en-us/library/aa560851\(v=bts.80\))  
-[How to Create New Maps](https://msdn.microsoft.com/en-us/library/aa559826\(v=bts.80\))  
-[Managing User Mappings](https://msdn.microsoft.com/en-us/library/aa578400\(v=bts.80\))
+[About Maps](https://msdn.microsoft.com/library/aa560136\(v=bts.80\))  
+[Maps](https://msdn.microsoft.com/library/aa559603\(v=bts.80\))  
+[Managing Maps Within Projects](https://msdn.microsoft.com/library/aa560851\(v=bts.80\))  
+[How to Create New Maps](https://msdn.microsoft.com/library/aa559826\(v=bts.80\))  
+[Managing User Mappings](https://msdn.microsoft.com/library/aa578400\(v=bts.80\))
 

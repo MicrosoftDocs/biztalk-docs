@@ -30,5 +30,5 @@ Use the Receive Ports node details pane to control and manage receive ports in t
 
 ## See Also
 
-[How to Create a Receive Port](https://msdn.microsoft.com/en-us/library/aa559206\(v=bts.80\))
+[How to Create a Receive Port](https://msdn.microsoft.com/library/aa559206\(v=bts.80\))
 

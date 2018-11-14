@@ -36,5 +36,5 @@ The default is 10.</td>
 
 ## See Also
 
-[How to Configure a WCF-NetTcp Receive Handler](https://msdn.microsoft.com/en-us/library/bb743650\(v=bts.80\))
+[How to Configure a WCF-NetTcp Receive Handler](https://msdn.microsoft.com/library/bb743650\(v=bts.80\))
 

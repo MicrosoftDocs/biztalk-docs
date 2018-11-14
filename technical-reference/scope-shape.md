@@ -70,5 +70,5 @@ The **Scope** shape provides a contextual framework for its contents. The first 
 
 ## See Also
 
-[How to Configure the Scope Shape](https://msdn.microsoft.com/en-us/library/aa559692\(v=bts.80\))
+[How to Configure the Scope Shape](https://msdn.microsoft.com/library/aa559692\(v=bts.80\))
 

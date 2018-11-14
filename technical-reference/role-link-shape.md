@@ -60,5 +60,5 @@ You can add port types directly to a Role Link shape, using either existing role
 
 ## See Also
 
-[How to Use the Role Link Shape](https://msdn.microsoft.com/en-us/library/aa561178\(v=bts.80\))
+[How to Use the Role Link Shape](https://msdn.microsoft.com/library/aa561178\(v=bts.80\))
 

@@ -38,7 +38,7 @@ In Microsoft BizTalk Server, all **Cumulative** functoids accept two input param
 
 
 
-For additional conceptual information about **Cumulative** functoids, including the scoping parameter, see [Cumulative Functoids](https://msdn.microsoft.com/en-us/library/aa561839\(v=bts.80\)).
+For additional conceptual information about **Cumulative** functoids, including the scoping parameter, see [Cumulative Functoids](https://msdn.microsoft.com/library/aa561839\(v=bts.80\)).
 
 The following table shows the functoids in the **Cumulative** category.
 
@@ -76,5 +76,5 @@ The following table shows the functoids in the **Cumulative** category.
 
 ## See Also
 
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

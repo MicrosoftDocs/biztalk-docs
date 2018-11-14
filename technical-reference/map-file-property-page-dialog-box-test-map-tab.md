@@ -52,7 +52,7 @@ Either type the path and name of the input instance message or use the ellipsis 
 
 ## See Also
 
-[Validating Instance Data](https://msdn.microsoft.com/en-us/library/aa559017\(v=bts.80\))  
-[How to Test Maps](https://msdn.microsoft.com/en-us/library/aa560292\(v=bts.80\))  
-[How to Validate Maps](https://msdn.microsoft.com/en-us/library/aa578098\(v=bts.80\))
+[Validating Instance Data](https://msdn.microsoft.com/library/aa559017\(v=bts.80\))  
+[How to Test Maps](https://msdn.microsoft.com/library/aa560292\(v=bts.80\))  
+[How to Validate Maps](https://msdn.microsoft.com/library/aa578098\(v=bts.80\))
 

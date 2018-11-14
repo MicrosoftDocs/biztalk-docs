@@ -60,7 +60,7 @@ As the value of the **elementFormDefault** attribute of the **schema** element.
 
 You can examine and set this property in the Visual Studio Properties window when you select the **Schema** node in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 You can override the global setting established by this property by setting the [Form](form-node-property-of-all-schemas.md) property for individual **Record** and **Field Element** nodes.
 

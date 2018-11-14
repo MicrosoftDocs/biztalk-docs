@@ -68,8 +68,8 @@ For more information about configuring the MSMQ adapter properties and running a
 
 ## See Also
 
-[How to Configure an MSMQ Receive Location](https://msdn.microsoft.com/en-us/library/aa578322\(v=bts.80\))  
-[Ordered Delivery of Messages](https://msdn.microsoft.com/en-us/library/aa559637\(v=bts.80\))  
-[Sending and Receiving Large Messages Using the MSMQ Adapter](https://msdn.microsoft.com/en-us/library/aa559149\(v=bts.80\))  
-[Considerations for Running Adapter Handlers within a Clustered Host](https://msdn.microsoft.com/en-us/library/aa561801\(v=bts.80\))
+[How to Configure an MSMQ Receive Location](https://msdn.microsoft.com/library/aa578322\(v=bts.80\))  
+[Ordered Delivery of Messages](https://msdn.microsoft.com/library/aa559637\(v=bts.80\))  
+[Sending and Receiving Large Messages Using the MSMQ Adapter](https://msdn.microsoft.com/library/aa559149\(v=bts.80\))  
+[Considerations for Running Adapter Handlers within a Clustered Host](https://msdn.microsoft.com/library/aa561801\(v=bts.80\))
 

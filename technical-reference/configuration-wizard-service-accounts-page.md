@@ -38,5 +38,5 @@ Use the **Service Accounts** page to edit the selected service account.
 
 ## See Also
 
-[Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/en-us/library/jj248688\(v=bts.80\))
+[Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/jj248688\(v=bts.80\))
 

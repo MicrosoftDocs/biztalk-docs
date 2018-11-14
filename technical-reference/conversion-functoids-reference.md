@@ -20,7 +20,7 @@ Use **Conversion** functoids to perform a variety of standard character and nume
 
 
 
-For conceptual information about **Conversion** functoids, see [Conversion Functoids](https://msdn.microsoft.com/en-us/library/aa547311\(v=bts.80\)).
+For conceptual information about **Conversion** functoids, see [Conversion Functoids](https://msdn.microsoft.com/library/aa547311\(v=bts.80\)).
 
 The following table shows the functoids in the **Conversion** category.
 
@@ -54,5 +54,5 @@ The following table shows the functoids in the **Conversion** category.
 
 ## See Also
 
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

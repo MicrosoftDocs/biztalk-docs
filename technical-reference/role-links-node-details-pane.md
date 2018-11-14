@@ -24,5 +24,5 @@ Use the Role Links node details pane to control and manage role links in the app
 
 ## See Also
 
-[Using Role Links in Orchestrations](https://msdn.microsoft.com/en-us/library/aa547316\(v=bts.80\))
+[Using Role Links in Orchestrations](https://msdn.microsoft.com/library/aa547316\(v=bts.80\))
 

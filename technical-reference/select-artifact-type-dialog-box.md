@@ -18,5 +18,5 @@ The **Select Artifact Type** dialog box enables you to browse among various avai
 
 ## See Also
 
-[How to Use the Select Artifact Type Dialog Box](https://msdn.microsoft.com/en-us/library/aa561854\(v=bts.80\))
+[How to Use the Select Artifact Type Dialog Box](https://msdn.microsoft.com/library/aa561854\(v=bts.80\))
 

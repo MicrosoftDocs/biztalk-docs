@@ -29,15 +29,15 @@ This property is read-write.
 
 For more information about the configuring the receive location of any of the native adapters, see the following topics:
 
-  - [How to Configure a File Send Port](https://msdn.microsoft.com/en-us/library/aa578662\(v=bts.80\))
+  - [How to Configure a File Send Port](https://msdn.microsoft.com/library/aa578662\(v=bts.80\))
 
-  - [How to Configure an FTP Send Port](https://msdn.microsoft.com/en-us/library/aa546802\(v=bts.80\))
+  - [How to Configure an FTP Send Port](https://msdn.microsoft.com/library/aa546802\(v=bts.80\))
 
-  - [How to Configure an HTTP Send Port](https://msdn.microsoft.com/en-us/library/aa559324\(v=bts.80\))
+  - [How to Configure an HTTP Send Port](https://msdn.microsoft.com/library/aa559324\(v=bts.80\))
 
-  - [How to Configure an SMTP Send Port](https://msdn.microsoft.com/en-us/library/aa578155\(v=bts.80\))
+  - [How to Configure an SMTP Send Port](https://msdn.microsoft.com/library/aa578155\(v=bts.80\))
 
-  - [How to Configure a SOAP Send Port](https://msdn.microsoft.com/en-us/library/aa559642\(v=bts.80\))
+  - [How to Configure a SOAP Send Port](https://msdn.microsoft.com/library/aa559642\(v=bts.80\))
 
 ## Requirements
 

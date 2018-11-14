@@ -38,6 +38,6 @@ When you add a policy, its associated vocabularies are also added.
 
 ## See Also
 
-[How to Add a Policy to an Application](https://msdn.microsoft.com/en-us/library/aa577392\(v=bts.80\))  
-[Managing Policies](https://msdn.microsoft.com/en-us/library/aa561998\(v=bts.80\))
+[How to Add a Policy to an Application](https://msdn.microsoft.com/library/aa577392\(v=bts.80\))  
+[Managing Policies](https://msdn.microsoft.com/library/aa561998\(v=bts.80\))
 

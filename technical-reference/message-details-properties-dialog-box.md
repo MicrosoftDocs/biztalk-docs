@@ -92,39 +92,39 @@ Use this tab to view system-specific and component-specific properties, such as 
 
 #### File Adapter
 
-[File Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa547908\(v=bts.80\))
+[File Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa547908\(v=bts.80\))
 
 #### FTP Adapter
 
-[FTP Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa560564\(v=bts.80\))
+[FTP Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa560564\(v=bts.80\))
 
 #### HTTP Adapter
 
-[HTTP Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa547980\(v=bts.80\))
+[HTTP Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa547980\(v=bts.80\))
 
 #### MQSeries Adapter
 
-[MQSeries Context Properties](https://msdn.microsoft.com/en-us/library/aa559055\(v=bts.80\))
+[MQSeries Context Properties](https://msdn.microsoft.com/library/aa559055\(v=bts.80\))
 
 #### MSMQ Adapter
 
-[MSMQ Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa577593\(v=bts.80\))
+[MSMQ Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa577593\(v=bts.80\))
 
 #### POP3 Adapter
 
-[POP3 Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa560937\(v=bts.80\))
+[POP3 Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa560937\(v=bts.80\))
 
 #### SMTP Adapter
 
-[SMTP Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa560686\(v=bts.80\))
+[SMTP Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa560686\(v=bts.80\))
 
 #### SOAP Adapter
 
-[SOAP Adapter Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa578208\(v=bts.80\))
+[SOAP Adapter Property Schema and Properties](https://msdn.microsoft.com/library/aa578208\(v=bts.80\))
 
 #### WSS Adapter
 
-[Windows SharePoint Services Adapter Properties Reference](https://msdn.microsoft.com/en-us/library/aa547920\(v=bts.80\))
+[Windows SharePoint Services Adapter Properties Reference](https://msdn.microsoft.com/library/aa547920\(v=bts.80\))
 
 ### System Properties
 
@@ -144,7 +144,7 @@ XML Normalization or "XML Norm" refers to the conversion of messages from custom
 
 ### Error Report properties
 
-At each point along the pathway that a message follows through the BizTalk Server messaging subsystem, failures can occur in the BizTalk Server infrastructure and in custom pipeline components, orchestrations, and so forth. If you have specified error reporting for the port through which a message is entering or will leave, BizTalk Server publishes an error report message derived from the failing message. The Error Report message is routed to the subscribing routing destination, such as a send port or orchestration; all previously promoted properties are demoted and selected properties related to the specific messaging failure are promoted to the message context. For more information, see [Using Failed Message Routing](https://msdn.microsoft.com/en-us/library/aa578516\(v=bts.80\)).
+At each point along the pathway that a message follows through the BizTalk Server messaging subsystem, failures can occur in the BizTalk Server infrastructure and in custom pipeline components, orchestrations, and so forth. If you have specified error reporting for the port through which a message is entering or will leave, BizTalk Server publishes an error report message derived from the failing message. The Error Report message is routed to the subscribing routing destination, such as a send port or orchestration; all previously promoted properties are demoted and selected properties related to the specific messaging failure are promoted to the message context. For more information, see [Using Failed Message Routing](https://msdn.microsoft.com/library/aa578516\(v=bts.80\)).
 
 ### Message Tracking Properties
 
@@ -210,5 +210,5 @@ Use the **File** menu to track or save messages, or to exit from the **Message D
 
 ## See Also
 
-[Viewing Tracked Message and Instance Data](https://msdn.microsoft.com/en-us/library/aa561587\(v=bts.80\))
+[Viewing Tracked Message and Instance Data](https://msdn.microsoft.com/library/aa561587\(v=bts.80\))
 

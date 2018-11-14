@@ -72,10 +72,10 @@ The default value is cleared.</td>
 
 ## See Also
 
-[Using SSO](https://msdn.microsoft.com/en-us/library/aa561654\(v=bts.80\))  
-[How to Configure a WCF-BasicHttp Send Port](https://msdn.microsoft.com/en-us/library/bb226467\(v=bts.80\))  
-[How to Configure a WCF-WSHttp Send Port](https://msdn.microsoft.com/en-us/library/bb245939\(v=bts.80\))  
-[How to Configure a WCF-NetTcp Send Port](https://msdn.microsoft.com/en-us/library/bb226460\(v=bts.80\))  
-[How to Configure a WCF-NetMsmq Send Port](https://msdn.microsoft.com/en-us/library/bb245965\(v=bts.80\))  
-[How to Configure a WCF-NetNamedPipe Send Port](https://msdn.microsoft.com/en-us/library/bb246110\(v=bts.80\))
+[Using SSO](https://msdn.microsoft.com/library/aa561654\(v=bts.80\))  
+[How to Configure a WCF-BasicHttp Send Port](https://msdn.microsoft.com/library/bb226467\(v=bts.80\))  
+[How to Configure a WCF-WSHttp Send Port](https://msdn.microsoft.com/library/bb245939\(v=bts.80\))  
+[How to Configure a WCF-NetTcp Send Port](https://msdn.microsoft.com/library/bb226460\(v=bts.80\))  
+[How to Configure a WCF-NetMsmq Send Port](https://msdn.microsoft.com/library/bb245965\(v=bts.80\))  
+[How to Configure a WCF-NetNamedPipe Send Port](https://msdn.microsoft.com/library/bb246110\(v=bts.80\))
 

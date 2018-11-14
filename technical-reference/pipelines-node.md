@@ -18,7 +18,7 @@ Use the **Pipelines** node to display the pipelines deployed in the application 
 
 ## See Also
 
-[About Pipelines, Stages, and Components](https://msdn.microsoft.com/en-us/library/aa577959\(v=bts.80\))  
-[Receive Pipelines](https://msdn.microsoft.com/en-us/library/aa561803\(v=bts.80\))  
-[Send Pipelines](https://msdn.microsoft.com/en-us/library/aa547976\(v=bts.80\))
+[About Pipelines, Stages, and Components](https://msdn.microsoft.com/library/aa577959\(v=bts.80\))  
+[Receive Pipelines](https://msdn.microsoft.com/library/aa561803\(v=bts.80\))  
+[Send Pipelines](https://msdn.microsoft.com/library/aa547976\(v=bts.80\))
 

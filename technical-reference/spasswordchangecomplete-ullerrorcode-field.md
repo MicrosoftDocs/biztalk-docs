@@ -35,5 +35,5 @@ The string must be freed after use.
 
 [SPasswordChangeComplete Structure (COM)](spasswordchangecomplete-structure-com.md)  
 [SPasswordChangeComplete Members](spasswordchangecomplete-members.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

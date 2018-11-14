@@ -26,5 +26,5 @@ Display the contents of the transaction set in non-delimited text format and a t
 
 ## See Also
 
-[EDI Message Content Status Report](https://msdn.microsoft.com/en-us/library/bb727703\(v=bts.80\))
+[EDI Message Content Status Report](https://msdn.microsoft.com/library/bb727703\(v=bts.80\))
 

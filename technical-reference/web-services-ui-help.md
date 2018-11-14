@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-This section provides instructions for the BizTalk Web Services Publishing Wizard user interface (UI). You can access this information by pressing the F1 key or clicking **Help** in the UI. Use the BizTalk Web Services Publishing Wizard to create and modify BizTalk Web services. For more information about publishing and consuming BizTalk Web services, see [Using Web Services](https://msdn.microsoft.com/en-us/library/aa577881\(v=bts.80\)).
+This section provides instructions for the BizTalk Web Services Publishing Wizard user interface (UI). You can access this information by pressing the F1 key or clicking **Help** in the UI. Use the BizTalk Web Services Publishing Wizard to create and modify BizTalk Web services. For more information about publishing and consuming BizTalk Web services, see [Using Web Services](https://msdn.microsoft.com/library/aa577881\(v=bts.80\)).
 
 ## In This Section
 

@@ -76,7 +76,7 @@ As the value of the **maxOccurs** attribute of the element that corresponds to t
 
 You can examine and set this property in the Visual Studio Properties window when you select a node of an appropriate type in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 When you set this property to any value other than **1**, BizTalk Mapper compiles the selected node as a looping record. If you configure this property with a value of **1**, BizTalk Mapper will not compile the selected node as a looping record.
 

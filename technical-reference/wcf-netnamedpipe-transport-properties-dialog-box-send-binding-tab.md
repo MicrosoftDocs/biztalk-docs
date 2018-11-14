@@ -83,5 +83,5 @@ The default is <strong>OleTransaction</strong>.</td>
 
 ## See Also
 
-[How to Configure a WCF-NetNamedPipe Send Port](https://msdn.microsoft.com/en-us/library/bb246110\(v=bts.80\))
+[How to Configure a WCF-NetNamedPipe Send Port](https://msdn.microsoft.com/library/bb246110\(v=bts.80\))
 

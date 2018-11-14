@@ -24,5 +24,5 @@ Use the Resources node details pane to manage resources in the application. Righ
 
 ## See Also
 
-[Understanding BizTalk Application Deployment and Management](https://msdn.microsoft.com/en-us/library/aa560022\(v=bts.80\))
+[Understanding BizTalk Application Deployment and Management](https://msdn.microsoft.com/library/aa560022\(v=bts.80\))
 

@@ -47,5 +47,5 @@ The methods of the **ISSOMapping** interface are listed in the following table. 
 ## See Also
 
 [ISSOMapping Interface (COM)](issomapping-interface-com.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

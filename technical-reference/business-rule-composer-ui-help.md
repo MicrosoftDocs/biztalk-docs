@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-This section provides instructions for the **Business Rule Composer** user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the **Business Rule Composer** to create and modify policies and vocabularies. For more information about the Business Rule Composer, see [Creating and Using Business Rules](https://msdn.microsoft.com/en-us/library/aa577691\(v=bts.80\)).
+This section provides instructions for the **Business Rule Composer** user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the **Business Rule Composer** to create and modify policies and vocabularies. For more information about the Business Rule Composer, see [Creating and Using Business Rules](https://msdn.microsoft.com/library/aa577691\(v=bts.80\)).
 
 ## In This Section
 

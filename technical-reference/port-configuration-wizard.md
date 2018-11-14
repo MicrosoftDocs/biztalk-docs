@@ -54,5 +54,5 @@ The Port Configuration Wizard enables you to configure all of the details associ
 
 ## See Also
 
-[How to Run the Port Configuration Wizard](https://msdn.microsoft.com/en-us/library/aa561061\(v=bts.80\))
+[How to Run the Port Configuration Wizard](https://msdn.microsoft.com/library/aa561061\(v=bts.80\))
 

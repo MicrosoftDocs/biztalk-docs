@@ -48,5 +48,5 @@ The default value is <strong>EncryptAndSign</strong>.</td>
 
 ## See Also
 
-[How to Configure a WCF-NetTcp Send Port](https://msdn.microsoft.com/en-us/library/bb226460\(v=bts.80\))
+[How to Configure a WCF-NetTcp Send Port](https://msdn.microsoft.com/library/bb226460\(v=bts.80\))
 

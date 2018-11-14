@@ -34,10 +34,10 @@ Use the Send Ports node details pane to manage send ports in the application. Ri
 
 ## See Also
 
-[How to Enlist a Send Port or Send Port Group](https://msdn.microsoft.com/en-us/library/aa578592\(v=bts.80\))  
-[Managing Send Ports and Send Port Groups](https://msdn.microsoft.com/en-us/library/aa561407\(v=bts.80\))  
-[How to Start a Send Port or Send Port Group](https://msdn.microsoft.com/en-us/library/aa561872\(v=bts.80\))  
-[How to Stop a Send Port or Send Port Group](https://msdn.microsoft.com/en-us/library/aa577932\(v=bts.80\))  
-[How to Unenlist a Send Port or Send Port Group](https://msdn.microsoft.com/en-us/library/aa559480\(v=bts.80\))  
-[Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\))
+[How to Enlist a Send Port or Send Port Group](https://msdn.microsoft.com/library/aa578592\(v=bts.80\))  
+[Managing Send Ports and Send Port Groups](https://msdn.microsoft.com/library/aa561407\(v=bts.80\))  
+[How to Start a Send Port or Send Port Group](https://msdn.microsoft.com/library/aa561872\(v=bts.80\))  
+[How to Stop a Send Port or Send Port Group](https://msdn.microsoft.com/library/aa577932\(v=bts.80\))  
+[How to Unenlist a Send Port or Send Port Group](https://msdn.microsoft.com/library/aa559480\(v=bts.80\))  
+[Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\))
 

@@ -56,7 +56,7 @@ When you choose to refer to an existing global **Field Element** or **Field Attr
 
 You can examine and set this property in the Visual Studio Properties window when you select a **Field Element** or **Field Attribute** node in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 You can configure this property with data types such as **xs:string**, **xs:positiveInteger**, **xs:URI**, and so on.
 

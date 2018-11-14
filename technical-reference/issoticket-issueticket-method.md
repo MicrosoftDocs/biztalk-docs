@@ -81,5 +81,5 @@ To access this method, you must be an Application User. You can only issue a tic
 
 [ISSOTicket Interface (COM)](issoticket-interface-com.md)  
 [ISSOTicket Members](issoticket-members.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

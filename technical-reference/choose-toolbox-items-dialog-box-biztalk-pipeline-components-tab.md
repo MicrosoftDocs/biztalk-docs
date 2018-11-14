@@ -55,6 +55,6 @@ Use the **BizTalk Pipeline Components** tab on the **Choose Toolbox Items** dial
 
 ## See Also
 
-[Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa578392\(v=bts.80\))  
-[How to Use the Toolbox](https://msdn.microsoft.com/en-us/library/aa560943\(v=bts.80\))
+[Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))  
+[How to Use the Toolbox](https://msdn.microsoft.com/library/aa560943\(v=bts.80\))
 

@@ -18,6 +18,6 @@ Use the **Maps** node to display all the maps in the application and to refresh 
 
 ## See Also
 
-[Managing Maps Within Projects](https://msdn.microsoft.com/en-us/library/aa560851\(v=bts.80\))  
-[Creating Maps](https://msdn.microsoft.com/en-us/library/aa548047\(v=bts.80\))
+[Managing Maps Within Projects](https://msdn.microsoft.com/library/aa560851\(v=bts.80\))  
+[Creating Maps](https://msdn.microsoft.com/library/aa548047\(v=bts.80\))
 

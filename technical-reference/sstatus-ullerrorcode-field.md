@@ -31,5 +31,5 @@ public: ULONGLONG ullErrorCode;
 
 [SStatus Structure (COM)](sstatus-structure-com.md)  
 [SStatus Members](sstatus-members.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

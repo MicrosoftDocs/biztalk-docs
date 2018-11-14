@@ -25,6 +25,6 @@ Use the **Uppercase** functoid ( ![](images/Aa547624.e0c8c03c-312d-4d9e-ad77-902
 ## See Also
 
 [String Functoids Reference](string-functoids-reference.md)  
-[String Functoids](https://msdn.microsoft.com/en-us/library/aa559399\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[String Functoids](https://msdn.microsoft.com/library/aa559399\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

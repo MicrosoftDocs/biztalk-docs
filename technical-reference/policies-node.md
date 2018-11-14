@@ -26,7 +26,7 @@ Use the **Policies** node to view, add, and manage policies associated with the 
 
 ## See Also
 
-[Creating and Using Business Rules](https://msdn.microsoft.com/en-us/library/aa577691\(v=bts.80\))  
-[How to Import and Export Policies and Vocabularies](https://msdn.microsoft.com/en-us/library/aa547878\(v=bts.80\))  
+[Creating and Using Business Rules](https://msdn.microsoft.com/library/aa577691\(v=bts.80\))  
+[How to Import and Export Policies and Vocabularies](https://msdn.microsoft.com/library/aa547878\(v=bts.80\))  
 [Add Policies Page](add-policies-page.md)
 

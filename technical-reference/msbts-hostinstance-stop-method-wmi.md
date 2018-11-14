@@ -28,7 +28,7 @@ This method returns an HRESULT indicating whether the method completed successfu
 
 ## Remarks
 
-For more information about the minimum security user rights required to administer a Host instance, see [Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\)).
+For more information about the minimum security user rights required to administer a Host instance, see [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\)).
 
 
 > [!NOTE]

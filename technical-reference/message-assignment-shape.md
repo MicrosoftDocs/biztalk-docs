@@ -38,5 +38,5 @@ Use the **Message Assignment** shape to construct messages by assigning one mess
 
 ## See Also
 
-[How to Configure the Message Assignment Shape](https://msdn.microsoft.com/en-us/library/aa559886\(v=bts.80\))
+[How to Configure the Message Assignment Shape](https://msdn.microsoft.com/library/aa559886\(v=bts.80\))
 

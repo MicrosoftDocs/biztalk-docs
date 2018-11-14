@@ -18,5 +18,5 @@ Use the **Orchestrations** node to display orchestrations for the selected appli
 
 ## See Also
 
-[How to Enlist an Orchestration](https://msdn.microsoft.com/en-us/library/aa578153\(v=bts.80\))
+[How to Enlist an Orchestration](https://msdn.microsoft.com/library/aa578153\(v=bts.80\))
 

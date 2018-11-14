@@ -51,7 +51,7 @@ In-process hosts represent service instances that an administrator creates, dele
 
 Isolated hosts represent service instances that a solutions developer programmatically creates, deletes, and controls. An administrator uses WMI and the BizTalk Administration console to configure these hosts (for example, to configure the host service account and authentication trust).
 
-For more information about in-process and isolated hosts, see [Hosts](https://msdn.microsoft.com/en-us/library/aa578695\(v=bts.80\)).
+For more information about in-process and isolated hosts, see [Hosts](https://msdn.microsoft.com/library/aa578695\(v=bts.80\)).
 
 Note that the integer values must be used in code and script.
 

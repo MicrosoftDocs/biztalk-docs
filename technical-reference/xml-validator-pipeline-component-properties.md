@@ -47,7 +47,7 @@ Default Value: False</td>
 
 ## See Also
 
-[Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa578392\(v=bts.80\))  
-[How to Configure the XML Validator Pipeline Component](https://msdn.microsoft.com/en-us/library/aa559670\(v=bts.80\))  
-[XML Validator Pipeline Component](https://msdn.microsoft.com/en-us/library/aa578187\(v=bts.80\))
+[Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))  
+[How to Configure the XML Validator Pipeline Component](https://msdn.microsoft.com/library/aa559670\(v=bts.80\))  
+[XML Validator Pipeline Component](https://msdn.microsoft.com/library/aa578187\(v=bts.80\))
 

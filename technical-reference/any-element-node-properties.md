@@ -20,7 +20,7 @@ As you develop a schema, you may insert **Any Element** nodes to represent a por
 
 Unlike many other types of nodes, which you can and should rename, the **Any Element** node has the fixed node name "\<Any\>", which you cannot change.
 
-Many of the properties associated with **Any Element** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs.For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+Many of the properties associated with **Any Element** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs.For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 
 > [!NOTE]

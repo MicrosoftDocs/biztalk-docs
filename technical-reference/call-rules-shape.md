@@ -38,5 +38,5 @@ You can use the **Call Rules** shape to specify a rule policy to be applied usin
 
 ## See Also
 
-[How to Use the Call Rules Shape](https://msdn.microsoft.com/en-us/library/aa561607\(v=bts.80\))
+[How to Use the Call Rules Shape](https://msdn.microsoft.com/library/aa561607\(v=bts.80\))
 

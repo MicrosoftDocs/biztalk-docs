@@ -58,9 +58,9 @@ Default value: False</td>
 
 ## See Also
 
-[Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa578392\(v=bts.80\))  
-[Envelope Use in the XML Assembler and Disassembler Pipeline Components](https://msdn.microsoft.com/en-us/library/aa548053\(v=bts.80\))  
-[BizTalk Framework Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa559940\(v=bts.80\))  
-[BizTalk Framework Schema and Properties](https://msdn.microsoft.com/en-us/library/aa561250\(v=bts.80\))  
-[Configuring Native Pipeline Components](https://msdn.microsoft.com/en-us/library/aa577837\(v=bts.80\))
+[Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))  
+[Envelope Use in the XML Assembler and Disassembler Pipeline Components](https://msdn.microsoft.com/library/aa548053\(v=bts.80\))  
+[BizTalk Framework Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa559940\(v=bts.80\))  
+[BizTalk Framework Schema and Properties](https://msdn.microsoft.com/library/aa561250\(v=bts.80\))  
+[Configuring Native Pipeline Components](https://msdn.microsoft.com/library/aa577837\(v=bts.80\))
 

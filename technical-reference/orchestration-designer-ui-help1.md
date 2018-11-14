@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-This section provides instructions for the Orchestration Designer user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the Orchestration Designer to design and implement business processes. For more information about the Orchestration Designer, see [Creating Orchestrations Using Orchestration Designer](https://msdn.microsoft.com/en-us/library/aa560470\(v=bts.80\)).
+This section provides instructions for the Orchestration Designer user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the Orchestration Designer to design and implement business processes. For more information about the Orchestration Designer, see [Creating Orchestrations Using Orchestration Designer](https://msdn.microsoft.com/library/aa560470\(v=bts.80\)).
 
 ## In This Section
 

@@ -72,11 +72,11 @@ Default Value: False</td>
 
 ## See Also
 
-[Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa578392\(v=bts.80\))  
-[How to Configure the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa578441\(v=bts.80\))  
-[Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa561315\(v=bts.80\))  
-[Document Validation in the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa561301\(v=bts.80\))  
-[Character Encoding in the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa547361\(v=bts.80\))  
-[Extending the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa560024\(v=bts.80\))  
-[Distinguished Fields in Disassembler Pipeline Components](https://msdn.microsoft.com/en-us/library/aa561024\(v=bts.80\))
+[Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))  
+[How to Configure the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa578441\(v=bts.80\))  
+[Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa561315\(v=bts.80\))  
+[Document Validation in the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa561301\(v=bts.80\))  
+[Character Encoding in the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa547361\(v=bts.80\))  
+[Extending the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa560024\(v=bts.80\))  
+[Distinguished Fields in Disassembler Pipeline Components](https://msdn.microsoft.com/library/aa561024\(v=bts.80\))
 

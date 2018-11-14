@@ -16,7 +16,7 @@ This section provides an alphabetically organized set of reference topics for th
 
 Because different properties can apply to one, some, or all types of nodes, the following table and each node property reference topic contains a column or section that indicates the node types to which the property applies.
 
-Many of the properties associated with all nodes in schemas correspond directly to the semantics of XML Schema definition language (XSD) constructs.For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+Many of the properties associated with all nodes in schemas correspond directly to the semantics of XML Schema definition language (XSD) constructs.For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 The following table shows the nodes properties that are available in all schemas.
 

@@ -35,5 +35,5 @@ The fields of the **SAdapter** interface is listed in the following table. For a
 ## See Also
 
 [SAdapter Structure (COM)](sadapter-structure-com.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

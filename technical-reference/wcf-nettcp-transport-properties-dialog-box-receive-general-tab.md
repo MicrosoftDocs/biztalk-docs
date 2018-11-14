@@ -51,6 +51,6 @@ The default is an empty string.</td>
 ## See Also
 
 [The \<identity\> element](http://go.microsoft.com/fwlink/?linkid=75747)  
-[How to Configure a WCF-NetTcp Receive Location](https://msdn.microsoft.com/en-us/library/bb226412\(v=bts.80\))  
-[Publishing Service Metadata for the WCF Receive Adapters](https://msdn.microsoft.com/en-us/library/bb246083\(v=bts.80\))
+[How to Configure a WCF-NetTcp Receive Location](https://msdn.microsoft.com/library/bb226412\(v=bts.80\))  
+[Publishing Service Metadata for the WCF Receive Adapters](https://msdn.microsoft.com/library/bb246083\(v=bts.80\))
 

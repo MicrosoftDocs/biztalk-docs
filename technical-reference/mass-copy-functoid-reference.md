@@ -33,7 +33,7 @@ In general, you can use the **Mass Copy** functoid in this same way if the **Rec
 ## See Also
 
 [Advanced Functoids Reference](advanced-functoids-reference.md)  
-[Advanced Functoids](https://msdn.microsoft.com/en-us/library/aa561121\(v=bts.80\))  
-[Mass Copy Functoid](https://msdn.microsoft.com/en-us/library/aa559187\(v=bts.80\))  
-[How to Add Mass Copy Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa559086\(v=bts.80\))
+[Advanced Functoids](https://msdn.microsoft.com/library/aa561121\(v=bts.80\))  
+[Mass Copy Functoid](https://msdn.microsoft.com/library/aa559187\(v=bts.80\))  
+[How to Add Mass Copy Functoids to a Map](https://msdn.microsoft.com/library/aa559086\(v=bts.80\))
 

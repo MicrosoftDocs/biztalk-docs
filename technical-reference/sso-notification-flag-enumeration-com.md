@@ -128,5 +128,5 @@ You should use this flag when using one PS Helper for ReceiveNotification (for r
 
 ## See Also
 
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

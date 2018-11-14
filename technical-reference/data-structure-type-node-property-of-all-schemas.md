@@ -50,7 +50,7 @@ When you choose to refer to an existing global Record node, this property value 
 
 You can examine and set this property in the Visual Studio Properties window when you select a **Record** node in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 If the value of this property is blank, the complex type of the underlying **Record** node is unnamed, and therefore cannot be used by any other **Record** node. If you type a new name for this property, the underlying complex type becomes global and can be used as the value of the **Data Structure Type** or **Base Data Type** property of other **Record** nodes. You can also select a value from a list of existing global named complex types using the drop-down list, or type a name of an existing complex type to reuse that type.
 

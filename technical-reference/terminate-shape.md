@@ -38,5 +38,5 @@ You can use the **Terminate** shape to end all activities of a running orchestra
 
 ## See Also
 
-[How to Configure the Terminate Shape](https://msdn.microsoft.com/en-us/library/aa559376\(v=bts.80\))
+[How to Configure the Terminate Shape](https://msdn.microsoft.com/library/aa559376\(v=bts.80\))
 

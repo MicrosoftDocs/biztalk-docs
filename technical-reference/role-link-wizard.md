@@ -18,5 +18,5 @@ The **Role Link Wizard** enables you to configure the details associated with a 
 
 ## See Also
 
-[How to Use the Role Link Wizard](https://msdn.microsoft.com/en-us/library/aa561458\(v=bts.80\))
+[How to Use the Role Link Wizard](https://msdn.microsoft.com/library/aa561458\(v=bts.80\))
 

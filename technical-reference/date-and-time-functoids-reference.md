@@ -16,7 +16,7 @@ Use **Date and Time** functoids to retrieve current date and time information, a
 
 The date and time formats used by the **Date and Time** functoids are ISO 8601-compliant.
 
-For conceptual information about **Date and Time** functoids, see [Date and Time Functoids](https://msdn.microsoft.com/en-us/library/aa559411\(v=bts.80\)).
+For conceptual information about **Date and Time** functoids, see [Date and Time Functoids](https://msdn.microsoft.com/library/aa559411\(v=bts.80\)).
 
 The following table shows the functoids in the **Date and Time** category.
 
@@ -50,5 +50,5 @@ The following table shows the functoids in the **Date and Time** category.
 
 ## See Also
 
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

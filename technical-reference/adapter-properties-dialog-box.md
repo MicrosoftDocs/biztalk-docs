@@ -46,6 +46,6 @@ Use the **Adapter Properties** window to view information about an adapter. You 
 
 ## See Also
 
-[Using Adapters](https://msdn.microsoft.com/en-us/library/aa578103\(v=bts.80\))  
-[Adapter Groups and Group Adapters](https://msdn.microsoft.com/en-us/library/aa744384\(v=bts.80\))
+[Using Adapters](https://msdn.microsoft.com/library/aa578103\(v=bts.80\))  
+[Adapter Groups and Group Adapters](https://msdn.microsoft.com/library/aa744384\(v=bts.80\))
 

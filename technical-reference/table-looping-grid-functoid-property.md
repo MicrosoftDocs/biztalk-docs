@@ -30,7 +30,7 @@ The **Configure \<Functoid\> Functoid** dialog box also contains a check box lab
 
 This property is available only for the **Table Looping** functoid, and is not enabled when any other type of functoid is selected.
 
-For more information about how this property is used with the **Table Looping** functoid, see [Table Looping and Table Extractor Functoids](https://msdn.microsoft.com/en-us/library/aa559310\(v=bts.80\)).
+For more information about how this property is used with the **Table Looping** functoid, see [Table Looping and Table Extractor Functoids](https://msdn.microsoft.com/library/aa559310\(v=bts.80\)).
 
 ## See Also
 

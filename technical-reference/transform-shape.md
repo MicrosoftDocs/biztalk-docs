@@ -52,5 +52,5 @@ You can use the **Transform**shape to move data from one message into another. Y
 
 ## See Also
 
-[How to Configure the Transform Shape](https://msdn.microsoft.com/en-us/library/aa547996\(v=bts.80\))
+[How to Configure the Transform Shape](https://msdn.microsoft.com/library/aa547996\(v=bts.80\))
 

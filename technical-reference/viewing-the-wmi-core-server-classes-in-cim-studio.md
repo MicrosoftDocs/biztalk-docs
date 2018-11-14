@@ -45,5 +45,5 @@ Depicts the class hierarchy for WMI Core classes.
 
 ## See Also
 
-[Admin-WMI (BizTalk Server Samples Folder)](https://msdn.microsoft.com/en-us/library/aa559638\(v=bts.80\))
+[Admin-WMI (BizTalk Server Samples Folder)](https://msdn.microsoft.com/library/aa559638\(v=bts.80\))
 

@@ -113,5 +113,5 @@ Click to open a query in a BTQ file.
 
 ## See Also
 
-[Transaction Set Aggregation Report](https://msdn.microsoft.com/en-us/library/bb727941\(v=bts.80\))
+[Transaction Set Aggregation Report](https://msdn.microsoft.com/library/bb727941\(v=bts.80\))
 

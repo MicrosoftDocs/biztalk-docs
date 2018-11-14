@@ -20,7 +20,7 @@ If the export was unsuccessful, the page displays the location of the log file f
 
 ## See Also
 
-[How to Import a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa560132\(v=bts.80\))  
-[How to Install a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa577503\(v=bts.80\))  
-[What Happens When Artifacts Are Exported](https://msdn.microsoft.com/en-us/library/aa578034\(v=bts.80\))
+[How to Import a BizTalk Application](https://msdn.microsoft.com/library/aa560132\(v=bts.80\))  
+[How to Install a BizTalk Application](https://msdn.microsoft.com/library/aa577503\(v=bts.80\))  
+[What Happens When Artifacts Are Exported](https://msdn.microsoft.com/library/aa578034\(v=bts.80\))
 

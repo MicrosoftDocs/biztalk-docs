@@ -131,6 +131,6 @@ After you run a test map operation, you get the following output:
 
 ## See Also
 
-[Value Mapping Functoid](https://msdn.microsoft.com/en-us/library/aa559723\(v=bts.80\))  
-[Value Mapping (Flattening) Functoid](https://msdn.microsoft.com/en-us/library/aa578572\(v=bts.80\))
+[Value Mapping Functoid](https://msdn.microsoft.com/library/aa559723\(v=bts.80\))  
+[Value Mapping (Flattening) Functoid](https://msdn.microsoft.com/library/aa578572\(v=bts.80\))
 

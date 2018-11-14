@@ -20,5 +20,5 @@ You can use the Types pane of the Orchestration View window to add, delete, and 
 
 ## See Also
 
-[Creating Orchestrations](https://msdn.microsoft.com/en-us/library/aa577489\(v=bts.80\))
+[Creating Orchestrations](https://msdn.microsoft.com/library/aa577489\(v=bts.80\))
 

@@ -30,5 +30,5 @@ Right-click the **Microsoft** BizTalk Server **Administration** node to displa
 
 ## See Also
 
-[Using the BizTalk Server Administration Console](https://msdn.microsoft.com/en-us/library/aa578089\(v=bts.80\))
+[Using the BizTalk Server Administration Console](https://msdn.microsoft.com/library/aa578089\(v=bts.80\))
 

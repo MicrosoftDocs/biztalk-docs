@@ -55,5 +55,5 @@ The default value is cleared.</td>
 
 ## See Also
 
-[How to Configure a WCF-NetNamedPipe Receive Location](https://msdn.microsoft.com/en-us/library/bb259943\(v=bts.80\))
+[How to Configure a WCF-NetNamedPipe Receive Location](https://msdn.microsoft.com/library/bb259943\(v=bts.80\))
 

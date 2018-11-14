@@ -36,5 +36,5 @@ Use the **Add Application Reference** dialog box to add a reference to another a
 
 ## See Also
 
-[How to Add a Reference to Another Application](https://msdn.microsoft.com/en-us/library/aa560629\(v=bts.80\))
+[How to Add a Reference to Another Application](https://msdn.microsoft.com/library/aa560629\(v=bts.80\))
 

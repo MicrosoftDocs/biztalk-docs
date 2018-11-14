@@ -66,5 +66,5 @@ Default is not selected.</td>
 
 ## See Also
 
-[Implementing Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa558712\(v=bts.80\))
+[Implementing Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa558712\(v=bts.80\))
 

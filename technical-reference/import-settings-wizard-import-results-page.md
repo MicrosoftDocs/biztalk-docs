@@ -16,9 +16,9 @@ f1_keywords:
 
 The **Import Results** page appears after you have imported the group, host, and host instance settings of source environment to the destination environment. Click **Finish** to exit the wizard.
 
-For conceptual details about how to import BizTalk Server settings, see [How to Import BizTalk Settings Using Settings Dashboard](https://msdn.microsoft.com/en-us/library/ff629773\(v=bts.80\)).
+For conceptual details about how to import BizTalk Server settings, see [How to Import BizTalk Settings Using Settings Dashboard](https://msdn.microsoft.com/library/ff629773\(v=bts.80\)).
 
 ## See Also
 
-[How to Import BizTalk Settings Using BTSTask](https://msdn.microsoft.com/en-us/library/ff629790\(v=bts.80\))
+[How to Import BizTalk Settings Using BTSTask](https://msdn.microsoft.com/library/ff629790\(v=bts.80\))
 

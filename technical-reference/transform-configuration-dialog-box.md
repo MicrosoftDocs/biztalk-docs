@@ -54,5 +54,5 @@ You use the **Transform Configuration** dialog box to configure the Transform sh
 
 ## See Also
 
-[How to Configure the Transform Shape](https://msdn.microsoft.com/en-us/library/aa547996\(v=bts.80\))
+[How to Configure the Transform Shape](https://msdn.microsoft.com/library/aa547996\(v=bts.80\))
 

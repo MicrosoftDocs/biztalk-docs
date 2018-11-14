@@ -39,7 +39,7 @@ btsxrefimport  –file=setupfile
 
 ## Remarks
 
-The import tool does not create the SQL Server tables. Rather, the BizTalk Server Configuration Wizard automatically creates the required tables during installation. For more information about the configuration wizard, see [Working with the Configuration Framework](https://msdn.microsoft.com/en-us/library/aa558808\(v=bts.80\)).
+The import tool does not create the SQL Server tables. Rather, the BizTalk Server Configuration Wizard automatically creates the required tables during installation. For more information about the configuration wizard, see [Working with the Configuration Framework](https://msdn.microsoft.com/library/aa558808\(v=bts.80\)).
 
 
 > [!NOTE]

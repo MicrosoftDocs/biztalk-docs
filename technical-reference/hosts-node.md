@@ -24,9 +24,9 @@ Use the **Hosts** node to view a list of all the hosts currently configured and 
 
 ## See Also
 
-[Hosts](https://msdn.microsoft.com/en-us/library/aa578695\(v=bts.80\))  
-[Providing High Availability for BizTalk Hosts](https://msdn.microsoft.com/en-us/library/aa577430\(v=bts.80\))  
-[How to Create a New Host](https://msdn.microsoft.com/en-us/library/aa561079\(v=bts.80\))  
-[How to Delete a Host](https://msdn.microsoft.com/en-us/library/aa561590\(v=bts.80\))  
-[Managing BizTalk Hosts and Host Instances](https://msdn.microsoft.com/en-us/library/aa561042\(v=bts.80\))
+[Hosts](https://msdn.microsoft.com/library/aa578695\(v=bts.80\))  
+[Providing High Availability for BizTalk Hosts](https://msdn.microsoft.com/library/aa577430\(v=bts.80\))  
+[How to Create a New Host](https://msdn.microsoft.com/library/aa561079\(v=bts.80\))  
+[How to Delete a Host](https://msdn.microsoft.com/library/aa561590\(v=bts.80\))  
+[Managing BizTalk Hosts and Host Instances](https://msdn.microsoft.com/library/aa561042\(v=bts.80\))
 

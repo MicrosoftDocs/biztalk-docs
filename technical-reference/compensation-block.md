@@ -34,5 +34,5 @@ Add shapes to the **Compensation** block to undo or reverse the effects of the t
 
 ## See Also
 
-[How to Add a Compensation Block](https://msdn.microsoft.com/en-us/library/aa559069\(v=bts.80\))
+[How to Add a Compensation Block](https://msdn.microsoft.com/library/aa559069\(v=bts.80\))
 

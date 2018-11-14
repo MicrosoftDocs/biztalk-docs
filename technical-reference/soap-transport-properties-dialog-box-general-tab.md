@@ -77,6 +77,6 @@ Maximum length: 59</td>
 
 ## See Also
 
-[How to Configure a SOAP Send Port](https://msdn.microsoft.com/en-us/library/aa559642\(v=bts.80\))  
-[Using SSO](https://msdn.microsoft.com/en-us/library/aa561654\(v=bts.80\))
+[How to Configure a SOAP Send Port](https://msdn.microsoft.com/library/aa559642\(v=bts.80\))  
+[Using SSO](https://msdn.microsoft.com/library/aa561654\(v=bts.80\))
 

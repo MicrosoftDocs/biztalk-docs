@@ -46,11 +46,11 @@ Use the **Connect to Existing BizTalk Server Configuration Database** dialog box
 
 ## See Also
 
-[BizTalk Groups](https://msdn.microsoft.com/en-us/library/aa559010\(v=bts.80\))  
-[How to Add a Server to a Group](https://msdn.microsoft.com/en-us/library/aa560729\(v=bts.80\))  
-[How to Remove a Server from a Group](https://msdn.microsoft.com/en-us/library/aa561173\(v=bts.80\))  
-[Managing Groups](https://msdn.microsoft.com/en-us/library/aa560678\(v=bts.80\))  
-[How to Connect to an Existing Group](https://msdn.microsoft.com/en-us/library/aa559123\(v=bts.80\))  
-[Backing Up and Restoring BizTalk Server Databases](https://msdn.microsoft.com/en-us/library/aa561125\(v=bts.80\))  
-[How to Move a Server from One Group to Another](https://msdn.microsoft.com/en-us/library/aa559752\(v=bts.80\))
+[BizTalk Groups](https://msdn.microsoft.com/library/aa559010\(v=bts.80\))  
+[How to Add a Server to a Group](https://msdn.microsoft.com/library/aa560729\(v=bts.80\))  
+[How to Remove a Server from a Group](https://msdn.microsoft.com/library/aa561173\(v=bts.80\))  
+[Managing Groups](https://msdn.microsoft.com/library/aa560678\(v=bts.80\))  
+[How to Connect to an Existing Group](https://msdn.microsoft.com/library/aa559123\(v=bts.80\))  
+[Backing Up and Restoring BizTalk Server Databases](https://msdn.microsoft.com/library/aa561125\(v=bts.80\))  
+[How to Move a Server from One Group to Another](https://msdn.microsoft.com/library/aa559752\(v=bts.80\))
 

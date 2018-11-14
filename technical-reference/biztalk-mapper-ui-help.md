@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-This section provides instructions for the BizTalk Mapper user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use BizTalk Mapper to define how to transform an instance message from one structure into a different structure that is semantically equivalent. For more information about BizTalk Mapper, see [Creating Maps Using BizTalk Mapper](https://msdn.microsoft.com/en-us/library/aa559261\(v=bts.80\)).
+This section provides instructions for the BizTalk Mapper user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use BizTalk Mapper to define how to transform an instance message from one structure into a different structure that is semantically equivalent. For more information about BizTalk Mapper, see [Creating Maps Using BizTalk Mapper](https://msdn.microsoft.com/library/aa559261\(v=bts.80\)).
 
 ## In This Section
 

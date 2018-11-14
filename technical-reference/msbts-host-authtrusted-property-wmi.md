@@ -25,7 +25,7 @@ boolean AuthTrusted;
 
 This property is read-write.
 
-Each host can be marked as authentication trusted. These hosts are permitted to indicate that a sender of a message, which the trusted host is queuing, is an entity other than the host itself. In other words, the service accounts of an authentication trusted host are trusted to place a sender's security ID (SSID) on a message that maps to a user other than to the host specifically. For more information, see [Authenticating the Sender of a Message](https://msdn.microsoft.com/en-us/library/aa561080\(v=bts.80\)).
+Each host can be marked as authentication trusted. These hosts are permitted to indicate that a sender of a message, which the trusted host is queuing, is an entity other than the host itself. In other words, the service accounts of an authentication trusted host are trusted to place a sender's security ID (SSID) on a message that maps to a user other than to the host specifically. For more information, see [Authenticating the Sender of a Message](https://msdn.microsoft.com/library/aa561080\(v=bts.80\)).
 
 
 > [!NOTE]

@@ -27,7 +27,7 @@ uint32 ForceDelete();
 
 This operation bypasses all delete constraints and will succeed even if incomplete instances are still running or are suspended in this MessageBox.
 
-For more information about the minimum security user rights required to administer the MessageBox database, see [Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\)).
+For more information about the minimum security user rights required to administer the MessageBox database, see [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\)).
 
 ## Return Value
 

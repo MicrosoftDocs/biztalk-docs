@@ -34,7 +34,7 @@ The values associated with property promotion, as established using the **Promot
 
   - For distinguished field promotions, the instance message XPath of the property to be promoted.
 
-For conceptual and procedural information about property promotion, see [Ways to Use Message Content to Control Message Processing](https://msdn.microsoft.com/en-us/library/aa561543\(v=bts.80\)). Also see [Promoting Properties](https://msdn.microsoft.com/en-us/library/aa561535\(v=bts.80\)).
+For conceptual and procedural information about property promotion, see [Ways to Use Message Content to Control Message Processing](https://msdn.microsoft.com/library/aa561543\(v=bts.80\)). Also see [Promoting Properties](https://msdn.microsoft.com/library/aa561535\(v=bts.80\)).
 
 ## XSD Persistence
 
@@ -54,9 +54,9 @@ Property field promotion is subject to the following limitations:
 
   - Promoting nodes of data type **xs:long** or **xs:unsignedLong** is not supported at run time and may lead to unexpected results. To avoid this issue, consider changing the data type of such promoted nodes to **xs:string**.
 
-For conceptual information about promoting properties, see [Ways to Use Message Content to Control Message Processing](https://msdn.microsoft.com/en-us/library/aa561543\(v=bts.80\)).
+For conceptual information about promoting properties, see [Ways to Use Message Content to Control Message Processing](https://msdn.microsoft.com/library/aa561543\(v=bts.80\)).
 
-For information about the **Promote Properties** dialog box, see [How to Open the Promote Properties Dialog Box](https://msdn.microsoft.com/en-us/library/aa559207\(v=bts.80\)).
+For information about the **Promote Properties** dialog box, see [How to Open the Promote Properties Dialog Box](https://msdn.microsoft.com/library/aa559207\(v=bts.80\)).
 
 
 > [!WARNING]

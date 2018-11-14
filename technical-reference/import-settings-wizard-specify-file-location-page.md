@@ -54,9 +54,9 @@ Use the **Specify File Location** tab to specify the XML file that contains the 
 </table>
 
 
-For conceptual details about how to import BizTalk Server settings, see [How to Import BizTalk Settings Using Settings Dashboard](https://msdn.microsoft.com/en-us/library/ff629773\(v=bts.80\)).
+For conceptual details about how to import BizTalk Server settings, see [How to Import BizTalk Settings Using Settings Dashboard](https://msdn.microsoft.com/library/ff629773\(v=bts.80\)).
 
 ## See Also
 
-[How to Import BizTalk Settings Using BTSTask](https://msdn.microsoft.com/en-us/library/ff629790\(v=bts.80\))
+[How to Import BizTalk Settings Using BTSTask](https://msdn.microsoft.com/library/ff629790\(v=bts.80\))
 

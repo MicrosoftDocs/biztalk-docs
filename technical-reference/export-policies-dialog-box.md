@@ -44,6 +44,6 @@ Use the **Export Policies** dialog box to selectively export business rules and 
 
 ## See Also
 
-[How to Deploy and Undeploy Policies and Vocabularies](https://msdn.microsoft.com/en-us/library/aa577524\(v=bts.80\))  
-[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/en-us/library/aa560565\(v=bts.80\))
+[How to Deploy and Undeploy Policies and Vocabularies](https://msdn.microsoft.com/library/aa577524\(v=bts.80\))  
+[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/library/aa560565\(v=bts.80\))
 

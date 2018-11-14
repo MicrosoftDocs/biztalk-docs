@@ -46,5 +46,5 @@ The **Call Orchestration** shape invokes another orchestration synchronously; th
 
 ## See Also
 
-[How to Configure the Call Orchestration Shape](https://msdn.microsoft.com/en-us/library/aa560780\(v=bts.80\))
+[How to Configure the Call Orchestration Shape](https://msdn.microsoft.com/library/aa560780\(v=bts.80\))
 

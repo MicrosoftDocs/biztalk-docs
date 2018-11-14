@@ -20,5 +20,5 @@ After the PivotTable report appears in your Excel workbook, you must drag the de
 
 ## See Also
 
-[How to Use the PivotTable](https://msdn.microsoft.com/en-us/library/aa578091\(v=bts.80\))
+[How to Use the PivotTable](https://msdn.microsoft.com/library/aa578091\(v=bts.80\))
 

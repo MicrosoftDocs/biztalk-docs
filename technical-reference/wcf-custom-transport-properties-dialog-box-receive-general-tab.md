@@ -50,10 +50,10 @@ The default value is an empty string.</td>
 
 ## See Also
 
-[How to Configure a WCF-Custom Receive Location](https://msdn.microsoft.com/en-us/library/bb259941\(v=bts.80\))  
-[How to Configure a WCF-CustomIsolated Receive Location](https://msdn.microsoft.com/en-us/library/bb226374\(v=bts.80\))  
-[Publishing Service Metadata for the WCF Receive Adapters](https://msdn.microsoft.com/en-us/library/bb246083\(v=bts.80\))  
-[Configuring IIS for the Isolated WCF Receive Adapters](https://msdn.microsoft.com/en-us/library/bb245982\(v=bts.80\))  
-[Publishing WCF Services with the Isolated WCF Receive Adapters](https://msdn.microsoft.com/en-us/library/bb226318\(v=bts.80\))  
+[How to Configure a WCF-Custom Receive Location](https://msdn.microsoft.com/library/bb259941\(v=bts.80\))  
+[How to Configure a WCF-CustomIsolated Receive Location](https://msdn.microsoft.com/library/bb226374\(v=bts.80\))  
+[Publishing Service Metadata for the WCF Receive Adapters](https://msdn.microsoft.com/library/bb246083\(v=bts.80\))  
+[Configuring IIS for the Isolated WCF Receive Adapters](https://msdn.microsoft.com/library/bb245982\(v=bts.80\))  
+[Publishing WCF Services with the Isolated WCF Receive Adapters](https://msdn.microsoft.com/library/bb226318\(v=bts.80\))  
 [The \<identity\> element](http://go.microsoft.com/fwlink/?linkid=75747)
 

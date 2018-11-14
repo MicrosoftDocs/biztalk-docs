@@ -38,7 +38,7 @@ The following two obscure cases are also supported:
 
 Passing a Boolean input parameter and a numeric input parameter is not supported in a meaningful way.
 
-For conceptual information about **Logical** functoids, see [Logical Functoids](https://msdn.microsoft.com/en-us/library/aa561580\(v=bts.80\)).
+For conceptual information about **Logical** functoids, see [Logical Functoids](https://msdn.microsoft.com/library/aa561580\(v=bts.80\)).
 
 
 > [!IMPORTANT]
@@ -118,5 +118,5 @@ The following table shows the functoids in the **Logical** category.
 
 ## See Also
 
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

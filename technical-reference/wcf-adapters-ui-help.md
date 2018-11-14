@@ -14,7 +14,7 @@ mtps_version: v=BTS.80
 
 This section provides instructions for the WCF adapters user interface (UI). You access this information by using the F1 key or by clicking **Help** in the UI.
 
-Use the WCF adapters to exchange messages with Windows Communication Foundation (WCF). For more information about the WCF adapters, see [Using WCF Services](https://msdn.microsoft.com/en-us/library/bb246032\(v=bts.80\)).
+Use the WCF adapters to exchange messages with Windows Communication Foundation (WCF). For more information about the WCF adapters, see [Using WCF Services](https://msdn.microsoft.com/library/bb246032\(v=bts.80\)).
 
 ## In This Section
 

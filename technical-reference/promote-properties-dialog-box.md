@@ -108,6 +108,6 @@ Use the ellipsis (<strong>...</strong>) button to the right of the cells in this
 
 ## See Also
 
-[Promoting Properties](https://msdn.microsoft.com/en-us/library/aa561535\(v=bts.80\))  
-[Property Schemas](https://msdn.microsoft.com/en-us/library/aa561059\(v=bts.80\))
+[Promoting Properties](https://msdn.microsoft.com/library/aa561535\(v=bts.80\))  
+[Property Schemas](https://msdn.microsoft.com/library/aa561059\(v=bts.80\))
 

@@ -70,6 +70,6 @@ Use the **XML Definition** page to specify a definition for an XML document elem
 
 ## See Also
 
-[How to Create Vocabulary Definitions](https://msdn.microsoft.com/en-us/library/aa560743\(v=bts.80\))  
-[Windows of the Business Rule Composer](https://msdn.microsoft.com/en-us/library/aa561030\(v=bts.80\))
+[How to Create Vocabulary Definitions](https://msdn.microsoft.com/library/aa560743\(v=bts.80\))  
+[Windows of the Business Rule Composer](https://msdn.microsoft.com/library/aa561030\(v=bts.80\))
 

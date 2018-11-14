@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-Use the Rule Engine Deployment Wizard to import business rule policies from a Business Rule Language (BRL) file and publish them to an SQL rule store, to export policies from an SQL rule store to a BRL file, to deploy published policies, or to undeploy deployed policies. See [How to Import and Export Policies and Vocabularies](https://msdn.microsoft.com/en-us/library/aa547878\(v=bts.80\)) and [How to Deploy and Undeploy Policies and Vocabularies](https://msdn.microsoft.com/en-us/library/aa577524\(v=bts.80\)).
+Use the Rule Engine Deployment Wizard to import business rule policies from a Business Rule Language (BRL) file and publish them to an SQL rule store, to export policies from an SQL rule store to a BRL file, to deploy published policies, or to undeploy deployed policies. See [How to Import and Export Policies and Vocabularies](https://msdn.microsoft.com/library/aa547878\(v=bts.80\)) and [How to Deploy and Undeploy Policies and Vocabularies](https://msdn.microsoft.com/library/aa577524\(v=bts.80\)).
 
 ## Policy and rules UI options
 
@@ -58,6 +58,6 @@ You can use it in development, staging, and production environments.
 
 ## See Also
 
-[How to Deploy and Undeploy Policies and Vocabularies](https://msdn.microsoft.com/en-us/library/aa577524\(v=bts.80\))  
-[How to Import and Export Policies and Vocabularies](https://msdn.microsoft.com/en-us/library/aa547878\(v=bts.80\))
+[How to Deploy and Undeploy Policies and Vocabularies](https://msdn.microsoft.com/library/aa577524\(v=bts.80\))  
+[How to Import and Export Policies and Vocabularies](https://msdn.microsoft.com/library/aa547878\(v=bts.80\))
 

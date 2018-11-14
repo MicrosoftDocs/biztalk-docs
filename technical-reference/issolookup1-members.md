@@ -35,5 +35,5 @@ The following table shows the ISSOLookup1 member.
 ## See Also
 
 [ISSOLookup1 Interface (COM)](issolookup1-interface-com.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

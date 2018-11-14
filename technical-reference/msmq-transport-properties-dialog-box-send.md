@@ -104,6 +104,6 @@ Select Days, Hours, Minutes, or Seconds.</td>
 
 ## See Also
 
-[How to Configure an MSMQ Send Port](https://msdn.microsoft.com/en-us/library/aa559595\(v=bts.80\))  
-[Message Queuing Queues](https://msdn.microsoft.com/en-us/library/aa578285\(v=bts.80\))
+[How to Configure an MSMQ Send Port](https://msdn.microsoft.com/library/aa559595\(v=bts.80\))  
+[Message Queuing Queues](https://msdn.microsoft.com/library/aa578285\(v=bts.80\))
 

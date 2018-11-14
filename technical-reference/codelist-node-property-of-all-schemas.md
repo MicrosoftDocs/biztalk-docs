@@ -68,7 +68,7 @@ There are four separate steps in setting this property:
 
 For a given **Field Element** or **Field Attribute** node, do not use both the **Enumeration** property and the **CodeList** property. Using the latter property can result in values entered using the former property to be overwritten.
 
-For conceptual information about working with code lists in BizTalk Editor, see [Code List Management](https://msdn.microsoft.com/en-us/library/aa577951\(v=bts.80\)).
+For conceptual information about working with code lists in BizTalk Editor, see [Code List Management](https://msdn.microsoft.com/library/aa577951\(v=bts.80\)).
 
 ## See Also
 

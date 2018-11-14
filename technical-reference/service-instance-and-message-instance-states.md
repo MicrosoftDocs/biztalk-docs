@@ -139,5 +139,5 @@ Note that when you suspend a scheduled instance and then resume it, the instance
 
 ## See Also
 
-[Viewing Tracked Message and Instance Data](https://msdn.microsoft.com/en-us/library/aa561587\(v=bts.80\))
+[Viewing Tracked Message and Instance Data](https://msdn.microsoft.com/library/aa561587\(v=bts.80\))
 

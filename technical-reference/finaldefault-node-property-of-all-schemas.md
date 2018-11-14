@@ -72,13 +72,13 @@ As the value of the **finalDefault** attribute of the **schema** element.
 
 You can examine and set this property in the Visual Studio Properties window when you select the **Schema** node in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 The values **Restriction**, **Extension**, **List**, and **Union** can be set in combination with each other by selecting their corresponding check boxes in the **FinalDefault** property drop-down list. The corresponding values of the **finalDefault** attribute are space-separated.
 
 You can override the global setting established by this property by setting the [Final](final-node-property-of-all-schemas.md) property for individual **Record**, **Field Element**, and **Field Attribute** nodes.
 
-For more information about different types of derivations, see [Type Reuse and Derivations](https://msdn.microsoft.com/en-us/library/aa559208\(v=bts.80\)).
+For more information about different types of derivations, see [Type Reuse and Derivations](https://msdn.microsoft.com/library/aa559208\(v=bts.80\)).
 
 ## See Also
 

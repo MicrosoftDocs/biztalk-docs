@@ -38,5 +38,5 @@ Use the **Construct Message** shape to construct a new instance of a multipart m
 
 ## See Also
 
-[How to Configure the Construct Message Shape](https://msdn.microsoft.com/en-us/library/aa561304\(v=bts.80\))
+[How to Configure the Construct Message Shape](https://msdn.microsoft.com/library/aa561304\(v=bts.80\))
 

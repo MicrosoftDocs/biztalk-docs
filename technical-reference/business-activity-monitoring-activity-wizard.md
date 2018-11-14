@@ -42,5 +42,5 @@ Use the **Business Activity Monitoring Activity Definition** to create, modify, 
 
 ## See Also
 
-[How to Define a Business Activity](https://msdn.microsoft.com/en-us/library/aa559463\(v=bts.80\))
+[How to Define a Business Activity](https://msdn.microsoft.com/library/aa559463\(v=bts.80\))
 

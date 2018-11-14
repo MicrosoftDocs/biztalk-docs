@@ -46,5 +46,5 @@ Use the **New Activity** dialog box to provide the parameters for the activity y
 
 ## See Also
 
-[How to Define a Business Activity](https://msdn.microsoft.com/en-us/library/aa559463\(v=bts.80\))
+[How to Define a Business Activity](https://msdn.microsoft.com/library/aa559463\(v=bts.80\))
 

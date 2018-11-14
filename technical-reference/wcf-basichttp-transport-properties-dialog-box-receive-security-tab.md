@@ -180,9 +180,9 @@ The WCF-BasicHttp receive adapter can issue an SSO ticket from the SSO server on
 
 ## See Also
 
-[How to Configure a WCF-BasicHttp Receive Location](https://msdn.microsoft.com/en-us/library/bb246064\(v=bts.80\))  
-[Installing Certificates for the WCF Adapters](https://msdn.microsoft.com/en-us/library/bb245944\(v=bts.80\))  
-[Configuring IIS for the Isolated WCF Receive Adapters](https://msdn.microsoft.com/en-us/library/bb245982\(v=bts.80\))  
-[Managing BizTalk Hosts and Host Instances](https://msdn.microsoft.com/en-us/library/aa561042\(v=bts.80\))  
-[How to Change Service Accounts and Passwords](https://msdn.microsoft.com/en-us/library/aa561505\(v=bts.80\))
+[How to Configure a WCF-BasicHttp Receive Location](https://msdn.microsoft.com/library/bb246064\(v=bts.80\))  
+[Installing Certificates for the WCF Adapters](https://msdn.microsoft.com/library/bb245944\(v=bts.80\))  
+[Configuring IIS for the Isolated WCF Receive Adapters](https://msdn.microsoft.com/library/bb245982\(v=bts.80\))  
+[Managing BizTalk Hosts and Host Instances](https://msdn.microsoft.com/library/aa561042\(v=bts.80\))  
+[How to Change Service Accounts and Passwords](https://msdn.microsoft.com/library/aa561505\(v=bts.80\))
 

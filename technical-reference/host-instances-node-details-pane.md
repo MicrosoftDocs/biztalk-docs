@@ -30,11 +30,11 @@ Use the Host Instances node details pane to manage and control host instances. R
 
 ## See Also
 
-[Host Instances](https://msdn.microsoft.com/en-us/library/aa560673\(v=bts.80\))  
-[How to Add a Host Instance](https://msdn.microsoft.com/en-us/library/aa577483\(v=bts.80\))  
-[How to Delete a Host Instance](https://msdn.microsoft.com/en-us/library/aa559563\(v=bts.80\))  
-[How to Modify Host Instance Properties](https://msdn.microsoft.com/en-us/library/aa577841\(v=bts.80\))  
-[How to Start a Host Instance](https://msdn.microsoft.com/en-us/library/aa577955\(v=bts.80\))  
-[How to Stop a Host Instance](https://msdn.microsoft.com/en-us/library/aa547830\(v=bts.80\))  
-[Managing BizTalk Hosts and Host Instances](https://msdn.microsoft.com/en-us/library/aa561042\(v=bts.80\))
+[Host Instances](https://msdn.microsoft.com/library/aa560673\(v=bts.80\))  
+[How to Add a Host Instance](https://msdn.microsoft.com/library/aa577483\(v=bts.80\))  
+[How to Delete a Host Instance](https://msdn.microsoft.com/library/aa559563\(v=bts.80\))  
+[How to Modify Host Instance Properties](https://msdn.microsoft.com/library/aa577841\(v=bts.80\))  
+[How to Start a Host Instance](https://msdn.microsoft.com/library/aa577955\(v=bts.80\))  
+[How to Stop a Host Instance](https://msdn.microsoft.com/library/aa547830\(v=bts.80\))  
+[Managing BizTalk Hosts and Host Instances](https://msdn.microsoft.com/library/aa561042\(v=bts.80\))
 

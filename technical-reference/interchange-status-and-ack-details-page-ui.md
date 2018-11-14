@@ -16,7 +16,7 @@ f1_keywords:
 
 If you right-click a row in the query results on the EDI Interchange and Correlated ACK Status Page, and click the **Interchange status and ack details** command, details about the interchange and its technical and functional acknowledgments related to that interchange will be displayed.
 
-The error report displayed for interchange acknowledgments shows numeric error codes only. To determine what the actual error condition is, see [EDI Acknowledgment Error Codes](https://msdn.microsoft.com/en-us/library/bb245948\(v=bts.80\)).
+The error report displayed for interchange acknowledgments shows numeric error codes only. To determine what the actual error condition is, see [EDI Acknowledgment Error Codes](https://msdn.microsoft.com/library/bb245948\(v=bts.80\)).
 
 ## Interchange Status and ACK Details Pages
 

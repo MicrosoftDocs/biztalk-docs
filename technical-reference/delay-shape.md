@@ -40,5 +40,5 @@ For more information about **System.DateTime** and **System.TimeSpan**, see "Dat
 
 ## See Also
 
-[How to Configure the Delay Shape](https://msdn.microsoft.com/en-us/library/aa560800\(v=bts.80\))
+[How to Configure the Delay Shape](https://msdn.microsoft.com/library/aa560800\(v=bts.80\))
 

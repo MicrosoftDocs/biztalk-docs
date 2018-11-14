@@ -19,5 +19,5 @@ This section documents properties and menu commands in BizTalk Server the Admini
 ## See Also
 
 [Managing BizTalk Server](https://msdn.microsoft.com/library/cc296834\(v=bts.10\).aspx)  
-[Administration Tools](https://msdn.microsoft.com/en-us/library/aa577382\(v=bts.80\))
+[Administration Tools](https://msdn.microsoft.com/library/aa577382\(v=bts.80\))
 

@@ -36,5 +36,5 @@ The default is 10.</td>
 
 ## See Also
 
-[How to Configure a WCF-NetNamedPipe Receive Handler](https://msdn.microsoft.com/en-us/library/bb743827\(v=bts.80\))
+[How to Configure a WCF-NetNamedPipe Receive Handler](https://msdn.microsoft.com/library/bb743827\(v=bts.80\))
 

@@ -49,5 +49,5 @@ SQL connection strings can be specified in one of two ways:<br />
 
 ## See Also
 
-[Tracking Profile Editor](https://msdn.microsoft.com/en-us/library/aa547038\(v=bts.80\))
+[Tracking Profile Editor](https://msdn.microsoft.com/library/aa547038\(v=bts.80\))
 

@@ -18,5 +18,5 @@ You can place any shape in a parallel branch. Each branch of a parallel runs con
 
 ## See Also
 
-[How to Configure the Parallel Actions Shape](https://msdn.microsoft.com/en-us/library/aa559632\(v=bts.80\))
+[How to Configure the Parallel Actions Shape](https://msdn.microsoft.com/library/aa559632\(v=bts.80\))
 
