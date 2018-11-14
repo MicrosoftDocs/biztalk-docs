@@ -55,6 +55,6 @@ Use the **Configure Functoid Script** dialog box to either identify or provide t
 ## See Also
 
 [Script Type Precedence Dialog Box](script-type-precedence-dialog-box.md)  
-[How to Configure the Scripting Functoid](https://msdn.microsoft.com/en-us/library/aa578238\(v=bts.80\))  
-[Scripting Functoid](https://msdn.microsoft.com/en-us/library/aa561729\(v=bts.80\))
+[How to Configure the Scripting Functoid](https://msdn.microsoft.com/library/aa578238\(v=bts.80\))  
+[Scripting Functoid](https://msdn.microsoft.com/library/aa561729\(v=bts.80\))
 

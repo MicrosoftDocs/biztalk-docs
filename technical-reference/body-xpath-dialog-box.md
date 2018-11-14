@@ -43,6 +43,6 @@ The **Body XPath** property can only be set using this dialog box when the **Env
 
 ## See Also
 
-[Envelope Schemas](https://msdn.microsoft.com/en-us/library/aa578090\(v=bts.80\))  
+[Envelope Schemas](https://msdn.microsoft.com/library/aa578090\(v=bts.80\))  
 [Envelope (Node Property of All Schemas)](envelope-node-property-of-all-schemas.md)
 

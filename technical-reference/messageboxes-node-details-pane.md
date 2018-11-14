@@ -20,10 +20,10 @@ Use the MessageBoxes node details pane to view message box properties and status
 
 ## See Also
 
-[The MessageBox Database](https://msdn.microsoft.com/en-us/library/aa562016\(v=bts.80\))  
-[How to Add a New MessageBox Database](https://msdn.microsoft.com/en-us/library/aa577486\(v=bts.80\))  
-[How to Delete a MessageBox Database](https://msdn.microsoft.com/en-us/library/aa560152\(v=bts.80\))  
-[Managing MessageBox Databases](https://msdn.microsoft.com/en-us/library/aa577445\(v=bts.80\))  
-[Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\))  
-[Backing Up and Restoring BizTalk Server Databases](https://msdn.microsoft.com/en-us/library/aa561125\(v=bts.80\))
+[The MessageBox Database](https://msdn.microsoft.com/library/aa562016\(v=bts.80\))  
+[How to Add a New MessageBox Database](https://msdn.microsoft.com/library/aa577486\(v=bts.80\))  
+[How to Delete a MessageBox Database](https://msdn.microsoft.com/library/aa560152\(v=bts.80\))  
+[Managing MessageBox Databases](https://msdn.microsoft.com/library/aa577445\(v=bts.80\))  
+[Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\))  
+[Backing Up and Restoring BizTalk Server Databases](https://msdn.microsoft.com/library/aa561125\(v=bts.80\))
 

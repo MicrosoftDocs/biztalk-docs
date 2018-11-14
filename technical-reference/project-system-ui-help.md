@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-This section provides instructions for the Project System user interface (UI). You can access this information by pressing the F1 key or clicking **Help** in the UI. Use the Project System to add, edit, or remove BizTalk project items within Microsoft Visual Studio. For more information about the BizTalk project system, see the [Developer Tools](https://msdn.microsoft.com/en-us/library/aa559046\(v=bts.80\)).
+This section provides instructions for the Project System user interface (UI). You can access this information by pressing the F1 key or clicking **Help** in the UI. Use the Project System to add, edit, or remove BizTalk project items within Microsoft Visual Studio. For more information about the BizTalk project system, see the [Developer Tools](https://msdn.microsoft.com/library/aa559046\(v=bts.80\)).
 
 ## In This Section
 

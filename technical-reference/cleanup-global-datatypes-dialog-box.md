@@ -36,5 +36,5 @@ In general, your schema files will be smaller if they do not maintain informatio
 
 ## See Also
 
-[How to Create References to Another Node or Type](https://msdn.microsoft.com/en-us/library/aa547916\(v=bts.80\))
+[How to Create References to Another Node or Type](https://msdn.microsoft.com/library/aa547916\(v=bts.80\))
 

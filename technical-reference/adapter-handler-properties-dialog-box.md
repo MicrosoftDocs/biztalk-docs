@@ -58,6 +58,6 @@ Use the **Adapter Handler Properties** window to create and configure new adapte
 
 ## See Also
 
-[Using Adapters](https://msdn.microsoft.com/en-us/library/aa578103\(v=bts.80\))  
-[Adapter Groups and Group Adapters](https://msdn.microsoft.com/en-us/library/aa744384\(v=bts.80\))
+[Using Adapters](https://msdn.microsoft.com/library/aa578103\(v=bts.80\))  
+[Adapter Groups and Group Adapters](https://msdn.microsoft.com/library/aa744384\(v=bts.80\))
 

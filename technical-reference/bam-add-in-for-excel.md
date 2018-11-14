@@ -12,7 +12,7 @@ mtps_version: v=BTS.80
 
  
 
-This section provides instructions for BAM Add-In for Excel user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the BAM Add-In for Excel to define what data to collect from business processes and to define the way in which business users will view the collected data. For more information about Business Activity Monitoring (BAM), see [Monitoring Business Activities with BAM](https://msdn.microsoft.com/en-us/library/aa559295\(v=bts.80\)).
+This section provides instructions for BAM Add-In for Excel user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the BAM Add-In for Excel to define what data to collect from business processes and to define the way in which business users will view the collected data. For more information about Business Activity Monitoring (BAM), see [Monitoring Business Activities with BAM](https://msdn.microsoft.com/library/aa559295\(v=bts.80\)).
 
 ## In This Section
 

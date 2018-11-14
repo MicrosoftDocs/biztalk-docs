@@ -44,6 +44,6 @@ If the first cell is output from a <strong>Logical</strong> functoid, the row is
 
 [Table Looping Functoid Reference](table-looping-functoid-reference.md)  
 [Table Extractor Functoid Reference](table-extractor-functoid-reference.md)  
-[Table Looping and Table Extractor Functoids](https://msdn.microsoft.com/en-us/library/aa559310\(v=bts.80\))  
-[Table-Driven Looping Example](https://msdn.microsoft.com/en-us/library/aa578676\(v=bts.80\))
+[Table Looping and Table Extractor Functoids](https://msdn.microsoft.com/library/aa559310\(v=bts.80\))  
+[Table-Driven Looping Example](https://msdn.microsoft.com/library/aa578676\(v=bts.80\))
 

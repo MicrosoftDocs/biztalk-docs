@@ -82,5 +82,5 @@ This property indicates errors by setting the **Number** property of the global 
 
 [IDocumentSpec Interface (COM)](idocumentspec-interface-com.md)  
 [IDocumentSpec Members (COM)](idocumentspec-members-com.md)  
-[Using the Parsing and Serializing Engines](https://msdn.microsoft.com/en-us/library/aa577963\(v=bts.80\))
+[Using the Parsing and Serializing Engines](https://msdn.microsoft.com/library/aa577963\(v=bts.80\))
 

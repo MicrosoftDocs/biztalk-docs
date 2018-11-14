@@ -35,5 +35,5 @@ The method of the **ISSOLookup1** interface is listed in the following table. Fo
 ## See Also
 
 [ISSOLookup1 Interface (COM)](issolookup1-interface-com.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-This section provides instructions for BizTalk Editor user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the BizTalk Editor to develop the schemas that govern the structure of your business documents. For more information about BizTalk Editor, see [Creating Schemas Using BizTalk Editor](https://msdn.microsoft.com/en-us/library/aa546812\(v=bts.80\)).
+This section provides instructions for BizTalk Editor user interface (UI). You access this information by pressing the F1 key or clicking **Help** in the UI. Use the BizTalk Editor to develop the schemas that govern the structure of your business documents. For more information about BizTalk Editor, see [Creating Schemas Using BizTalk Editor](https://msdn.microsoft.com/library/aa546812\(v=bts.80\)).
 
 ## In This Section
 

@@ -38,5 +38,5 @@ You can use the **Loop** shape to repeat actions in a continuous loop, as long a
 
 ## See Also
 
-[How to Configure the Loop Shape](https://msdn.microsoft.com/en-us/library/aa559930\(v=bts.80\))
+[How to Configure the Loop Shape](https://msdn.microsoft.com/library/aa559930\(v=bts.80\))
 

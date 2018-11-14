@@ -18,5 +18,5 @@ Use the **Platform Settings** node to view physical and logical entities that su
 
 ## See Also
 
-[Using Adapters](https://msdn.microsoft.com/en-us/library/aa578103\(v=bts.80\))
+[Using Adapters](https://msdn.microsoft.com/library/aa578103\(v=bts.80\))
 

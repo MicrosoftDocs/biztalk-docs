@@ -70,14 +70,14 @@ Default Value: False</td>
 
 ## See Also
 
-[Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa578392\(v=bts.80\))  
-[XML Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa561814\(v=bts.80\))  
-[How to Configure the XML Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa577393\(v=bts.80\))  
-[XML Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa561814\(v=bts.80\))  
-[XML and Flat File Property Schema and Properties](https://msdn.microsoft.com/en-us/library/aa559096\(v=bts.80\))  
-[XML Information Set Elements in the XML Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa548044\(v=bts.80\))  
-[Unrecognized Messages in the XML Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa560317\(v=bts.80\))  
-[Document Validation in the XML Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa562154\(v=bts.80\))  
-[Document Structure Enforcement in the XML Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa578016\(v=bts.80\))  
-[Character Encoding in XML Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa559602\(v=bts.80\))
+[Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))  
+[XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa561814\(v=bts.80\))  
+[How to Configure the XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa577393\(v=bts.80\))  
+[XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa561814\(v=bts.80\))  
+[XML and Flat File Property Schema and Properties](https://msdn.microsoft.com/library/aa559096\(v=bts.80\))  
+[XML Information Set Elements in the XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa548044\(v=bts.80\))  
+[Unrecognized Messages in the XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa560317\(v=bts.80\))  
+[Document Validation in the XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa562154\(v=bts.80\))  
+[Document Structure Enforcement in the XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa578016\(v=bts.80\))  
+[Character Encoding in XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa559602\(v=bts.80\))
 

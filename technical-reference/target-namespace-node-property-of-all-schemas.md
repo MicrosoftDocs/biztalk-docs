@@ -40,7 +40,7 @@ As the value of the **targetNamespace** attribute of the **schema** element.
 
 You can examine and set this property in the Visual Studio Properties window when you select a **Schema** node in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 If you use "x-schema" in the **targetNamespace** attribute value, you may cause a test failure when you test the instance in BizTalk Mapper.
 

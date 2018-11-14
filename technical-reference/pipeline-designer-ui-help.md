@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-This section provides instructions for the Pipeline Designer user interface (UI). You access this information by selecting a component in the Pipeline Designer Toolbox and pressing the F1 key or clicking **Help** in the UI. Use the Pipeline Designer to create new pipelines, view the pipeline templates included with Microsoft BizTalk Server, move pipeline components within a pipeline, as well as configure pipelines, stages, and pipeline components. For more information about the Pipeline Designer, see [Creating Pipelines Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa561179\(v=bts.80\)).
+This section provides instructions for the Pipeline Designer user interface (UI). You access this information by selecting a component in the Pipeline Designer Toolbox and pressing the F1 key or clicking **Help** in the UI. Use the Pipeline Designer to create new pipelines, view the pipeline templates included with Microsoft BizTalk Server, move pipeline components within a pipeline, as well as configure pipelines, stages, and pipeline components. For more information about the Pipeline Designer, see [Creating Pipelines Using Pipeline Designer](https://msdn.microsoft.com/library/aa561179\(v=bts.80\)).
 
 ## In This Section
 

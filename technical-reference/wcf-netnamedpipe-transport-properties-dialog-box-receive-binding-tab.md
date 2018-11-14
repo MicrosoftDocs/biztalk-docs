@@ -133,5 +133,5 @@ The following table describes the semantics of transactional message submission 
 
 ## See Also
 
-[How to Configure a WCF-NetNamedPipe Receive Location](https://msdn.microsoft.com/en-us/library/bb259943\(v=bts.80\))
+[How to Configure a WCF-NetNamedPipe Receive Location](https://msdn.microsoft.com/library/bb259943\(v=bts.80\))
 

@@ -56,7 +56,7 @@ As the value of the **nillable** attribute of the element that corresponds to th
 
 You can examine and set this property in the Visual Studio Properties window when you select a **Record** (including a root **Record** node) or **Field Element** node in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 In instance messages, the use of the **nil** attribute must include the namespace prefix for the XML Schema namespace for instances, http://www.w3.org/2001/xmlschema-instance, which is "xsi" by convention. An element in an instance message that includes the attribute setting **xsi:nil="true"** may not have any element content but it may still have attributes.
 

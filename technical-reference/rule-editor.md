@@ -38,5 +38,5 @@ Use the **Rule Editor** to view and edit conditions in the Conditions Editor and
 
 ## See Also
 
-[Windows of the Business Rule Composer](https://msdn.microsoft.com/en-us/library/aa561030\(v=bts.80\))
+[Windows of the Business Rule Composer](https://msdn.microsoft.com/library/aa561030\(v=bts.80\))
 

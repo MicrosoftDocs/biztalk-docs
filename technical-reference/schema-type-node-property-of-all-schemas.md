@@ -60,7 +60,7 @@ As the value of the **schema\_type** attribute of the **schema/annotation/appinf
 
 You can examine and set this property in the Visual Studio Properties window when you select the **Schema** node in BizTalk Editor.
 
-For detailed instructions about how to create a property schema, see [How to Create Property Schemas](https://msdn.microsoft.com/en-us/library/aa559209\(v=bts.80\)).
+For detailed instructions about how to create a property schema, see [How to Create Property Schemas](https://msdn.microsoft.com/library/aa559209\(v=bts.80\)).
 
 ## See Also
 

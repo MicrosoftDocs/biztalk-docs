@@ -48,5 +48,5 @@ Use the **WCF Extensions** tab to configure the send handler for the WCF-Custom 
 
 ## See Also
 
-[How to Configure a WCF-Custom Send Handler](https://msdn.microsoft.com/en-us/library/ff629673\(v=bts.80\))
+[How to Configure a WCF-Custom Send Handler](https://msdn.microsoft.com/library/ff629673\(v=bts.80\))
 

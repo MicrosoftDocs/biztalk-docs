@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-This section provides instructions for the Microsoft BizTalk Server adapters user interface (UI). You access this information using the F1 key or clicking **Help** in the UI. Use the native adapters to exchange messages between applications and BizTalk Server. For more information about the native adapters, see [Using Adapters](https://msdn.microsoft.com/en-us/library/aa578103\(v=bts.80\)).
+This section provides instructions for the Microsoft BizTalk Server adapters user interface (UI). You access this information using the F1 key or clicking **Help** in the UI. Use the native adapters to exchange messages between applications and BizTalk Server. For more information about the native adapters, see [Using Adapters](https://msdn.microsoft.com/library/aa578103\(v=bts.80\)).
 
 ## In This Section
 

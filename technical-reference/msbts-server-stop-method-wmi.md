@@ -30,7 +30,7 @@ This method returns an HRESULT indicating whether the method completed successfu
 
 The execution of this method is valid anytime the specified server is in a running state.
 
-For more information about the minimum security user rights required to administer a server, see [Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\)).
+For more information about the minimum security user rights required to administer a server, see [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\)).
 
 ## Requirements
 

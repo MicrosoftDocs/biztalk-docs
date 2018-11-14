@@ -150,6 +150,6 @@ Type: String</td>
 
 ## See Also
 
-[How to Configure a POP3 Receive Handler](https://msdn.microsoft.com/en-us/library/aa559164\(v=bts.80\))  
-[What Is the POP3 Adapter?](https://msdn.microsoft.com/en-us/library/aa547008\(v=bts.80\))
+[How to Configure a POP3 Receive Handler](https://msdn.microsoft.com/library/aa559164\(v=bts.80\))  
+[What Is the POP3 Adapter?](https://msdn.microsoft.com/library/aa547008\(v=bts.80\))
 

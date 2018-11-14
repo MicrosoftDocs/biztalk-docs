@@ -16,7 +16,7 @@ f1_keywords:
 
 Use the **Welcome to the Import Wizard** page to select the .msi file to import. This must be an .msi file that was exported from another BizTalk application. Importing the .msi file will create the application and its artifacts in the current BizTalk group.
 
-If you are importing this .msi file into an existing application, you may need to stop artifacts in the application or the application itself before beginning the import. For more information, see [Updating BizTalk Applications](https://msdn.microsoft.com/en-us/library/aa560380\(v=bts.80\)).
+If you are importing this .msi file into an existing application, you may need to stop artifacts in the application or the application itself before beginning the import. For more information, see [Updating BizTalk Applications](https://msdn.microsoft.com/library/aa560380\(v=bts.80\)).
 
 ## UIElement List
 
@@ -40,8 +40,8 @@ Example: C:\MSI Files\MyApplication.msi</td>
 
 ## See Also
 
-[How to Import a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa560132\(v=bts.80\))  
-[How to Export a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa577804\(v=bts.80\))  
-[The Application Deployment Process](https://msdn.microsoft.com/en-us/library/aa559316\(v=bts.80\))  
-[What Happens When Artifacts Are Imported](https://msdn.microsoft.com/en-us/library/aa577939\(v=bts.80\))
+[How to Import a BizTalk Application](https://msdn.microsoft.com/library/aa560132\(v=bts.80\))  
+[How to Export a BizTalk Application](https://msdn.microsoft.com/library/aa577804\(v=bts.80\))  
+[The Application Deployment Process](https://msdn.microsoft.com/library/aa559316\(v=bts.80\))  
+[What Happens When Artifacts Are Imported](https://msdn.microsoft.com/library/aa577939\(v=bts.80\))
 

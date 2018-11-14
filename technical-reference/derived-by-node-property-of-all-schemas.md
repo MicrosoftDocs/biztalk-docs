@@ -238,7 +238,7 @@ Moreover, you cannot set the **Derived By** property to **Extension** to derive 
 
 
 
-For more information about different types of derivations, see [Type Reuse and Derivations](https://msdn.microsoft.com/en-us/library/aa559208\(v=bts.80\)).
+For more information about different types of derivations, see [Type Reuse and Derivations](https://msdn.microsoft.com/library/aa559208\(v=bts.80\)).
 
 ## See Also
 

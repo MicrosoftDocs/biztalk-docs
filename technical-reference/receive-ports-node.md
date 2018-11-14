@@ -24,5 +24,5 @@ Use the **Receive Ports** node to display receive ports already defined in the a
 
 ## See Also
 
-[How to Create a Receive Port](https://msdn.microsoft.com/en-us/library/aa559206\(v=bts.80\))
+[How to Create a Receive Port](https://msdn.microsoft.com/library/aa559206\(v=bts.80\))
 

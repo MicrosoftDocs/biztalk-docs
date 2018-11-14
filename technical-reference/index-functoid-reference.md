@@ -37,7 +37,7 @@ Adding more parameters to the functoid causes the functoid to output fewer value
 ## See Also
 
 [Advanced Functoids Reference](advanced-functoids-reference.md)  
-[Advanced Functoids](https://msdn.microsoft.com/en-us/library/aa561121\(v=bts.80\))  
-[Index Functoid](https://msdn.microsoft.com/en-us/library/aa547297\(v=bts.80\))  
-[How to Add Index Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa578354\(v=bts.80\))
+[Advanced Functoids](https://msdn.microsoft.com/library/aa561121\(v=bts.80\))  
+[Index Functoid](https://msdn.microsoft.com/library/aa547297\(v=bts.80\))  
+[How to Add Index Functoids to a Map](https://msdn.microsoft.com/library/aa578354\(v=bts.80\))
 

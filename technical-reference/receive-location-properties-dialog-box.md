@@ -146,9 +146,9 @@ The **Certificate** tab appears only for request-response receive locations.
 
 ## See Also
 
-[Receive Locations](https://msdn.microsoft.com/en-us/library/aa578407\(v=bts.80\))  
-[How to Configure a Windows SharePoint Services Receive Location](https://msdn.microsoft.com/en-us/library/aa560390\(v=bts.80\))  
-[How to Configure Scheduling for a Receive Location](https://msdn.microsoft.com/en-us/library/aa559260\(v=bts.80\))  
-[How to Enable a Receive Location](https://msdn.microsoft.com/en-us/library/aa561716\(v=bts.80\))  
-[Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\))
+[Receive Locations](https://msdn.microsoft.com/library/aa578407\(v=bts.80\))  
+[How to Configure a Windows SharePoint Services Receive Location](https://msdn.microsoft.com/library/aa560390\(v=bts.80\))  
+[How to Configure Scheduling for a Receive Location](https://msdn.microsoft.com/library/aa559260\(v=bts.80\))  
+[How to Enable a Receive Location](https://msdn.microsoft.com/library/aa561716\(v=bts.80\))  
+[Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\))
 

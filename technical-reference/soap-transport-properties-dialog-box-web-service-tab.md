@@ -54,5 +54,5 @@ Default value: Not selected.</td>
 
 ## See Also
 
-[Publishing Web Services](https://msdn.microsoft.com/en-us/library/aa561809\(v=bts.80\))
+[Publishing Web Services](https://msdn.microsoft.com/library/aa561809\(v=bts.80\))
 

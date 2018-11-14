@@ -110,5 +110,5 @@ End Sub
 
 [WMI Script Samples](wmi-script-samples.md)  
 [MSBTS\_ReceiveHandler (WMI)](msbts-receivehandler-wmi.md)  
-[Configuring the FTP Adapter](https://msdn.microsoft.com/en-us/library/aa561032\(v=bts.80\))
+[Configuring the FTP Adapter](https://msdn.microsoft.com/library/aa561032\(v=bts.80\))
 

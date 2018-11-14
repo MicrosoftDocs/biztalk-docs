@@ -24,7 +24,7 @@ Database functoids fall into two categories. The first category consists of the 
 
 The **Cross Referencing** functoids—**Format Message**, **Get Application ID**, **Get Application Value**, **Get Common ID**, **Get Common Value**, **Remove Application ID**, and **Set Common ID**—look for data in specific SQL Server tables. For more information about how populate those tables and the structure of the input files, see [Importing Data for the Cross Referencing Functoids](importing-data-for-the-cross-referencing-functoids.md).
 
-For conceptual information about **Database**functoids, see [Database Functoids](https://msdn.microsoft.com/en-us/library/aa560892\(v=bts.80\)).
+For conceptual information about **Database**functoids, see [Database Functoids](https://msdn.microsoft.com/library/aa560892\(v=bts.80\)).
 
 The following table shows the functoids in the **Database** category.
 
@@ -86,5 +86,5 @@ This section also contains:
 
 ## See Also
 
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

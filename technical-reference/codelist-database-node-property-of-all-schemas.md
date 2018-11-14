@@ -46,7 +46,7 @@ You can examine and set this property in the Visual Studio Properties window whe
 
 To make use of the appropriate database table in the Access database identified by this property, you must use the **CodeList** property associated with **Field Element** and **Field Attribute** nodes.
 
-For conceptual information about working with code lists in BizTalk Editor, see [Code List Management](https://msdn.microsoft.com/en-us/library/aa577951\(v=bts.80\)).
+For conceptual information about working with code lists in BizTalk Editor, see [Code List Management](https://msdn.microsoft.com/library/aa577951\(v=bts.80\)).
 
 ## See Also
 

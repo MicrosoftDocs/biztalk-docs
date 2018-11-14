@@ -35,5 +35,5 @@ If zero, then Enterprise Single Sign-On (ENTSSO) uses the current time.
 
 [SPasswordChange Structure (COM)](spasswordchange-structure-com.md)  
 [SPasswordChange Members](spasswordchange-members.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

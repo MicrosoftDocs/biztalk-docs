@@ -162,5 +162,5 @@ The Orchestrations tab contains a node for each orchestration in the project. Cl
 
 ## See Also
 
-[Using the BizTalk Server Administration Console](https://msdn.microsoft.com/en-us/library/aa578089\(v=bts.80\))
+[Using the BizTalk Server Administration Console](https://msdn.microsoft.com/library/aa578089\(v=bts.80\))
 

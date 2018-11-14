@@ -50,7 +50,7 @@ Type: String</td>
 
 ## See Also
 
-[How to Configure a File Send Port](https://msdn.microsoft.com/en-us/library/aa578662\(v=bts.80\))  
-[Restrictions on the File Mask and File Name Properties](https://msdn.microsoft.com/en-us/library/aa578688\(v=bts.80\))  
-[Restrictions on Using Macros in File Names](https://msdn.microsoft.com/en-us/library/aa578022\(v=bts.80\))
+[How to Configure a File Send Port](https://msdn.microsoft.com/library/aa578662\(v=bts.80\))  
+[Restrictions on the File Mask and File Name Properties](https://msdn.microsoft.com/library/aa578688\(v=bts.80\))  
+[Restrictions on Using Macros in File Names](https://msdn.microsoft.com/library/aa578022\(v=bts.80\))
 

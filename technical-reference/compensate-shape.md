@@ -38,5 +38,5 @@ If you are using nested transactions, you can add a **Compensate** shape in the 
 
 ## See Also
 
-[How to Configure the Compensate Shape](https://msdn.microsoft.com/en-us/library/aa577630\(v=bts.80\))
+[How to Configure the Compensate Shape](https://msdn.microsoft.com/library/aa577630\(v=bts.80\))
 

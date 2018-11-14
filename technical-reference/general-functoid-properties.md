@@ -14,7 +14,7 @@ mtps_version: v=BTS.80
 
 The properties of functoids are displayed in the Microsoft® Visual Studio Properties window when a functoid is selected in a grid page. All functoid properties are categorized as General properties and are shown here in the order in which they appear in the Properties window, regardless of whether they are being shown by category or alphabetically.
 
-For more information about how to edit functoid properties, see [Editing Functoid Properties and Input Parameters](https://msdn.microsoft.com/en-us/library/aa559242\(v=bts.80\)).
+For more information about how to edit functoid properties, see [Editing Functoid Properties and Input Parameters](https://msdn.microsoft.com/library/aa559242\(v=bts.80\)).
 
 The following table describes the properties of functoids.
 

@@ -40,5 +40,5 @@ Use the **Unconfigure Features** page to remove features from the BizTalk Server
 
 ## See Also
 
-[Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/en-us/library/jj248688\(v=bts.80\))
+[Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/jj248688\(v=bts.80\))
 

@@ -95,7 +95,7 @@ class MSBTS_Server : MSBTS_Service
 
 This class provides several server-wide operations. **MSBTS\_Server** is created with an **MSBTS\_ServerSetting** class instance.
 
-For more information about the minimum security user rights required to administer a server, see [Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\)).
+For more information about the minimum security user rights required to administer a server, see [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\)).
 
 ## Requirements
 

@@ -24,7 +24,7 @@ When a **Mathematical** functoid determines that one or more of its input parame
 
 When the input parameter descriptions specify a numeric value, strings that can be interpreted as numbers are also accepted.
 
-For conceptual information about **Mathematical** functoids, see [Mathematical Functoids](https://msdn.microsoft.com/en-us/library/aa559213\(v=bts.80\)).
+For conceptual information about **Mathematical** functoids, see [Mathematical Functoids](https://msdn.microsoft.com/library/aa559213\(v=bts.80\)).
 
 The following table shows the functoids in the **Mathematical** category.
 
@@ -86,5 +86,5 @@ The following table shows the functoids in the **Mathematical** category.
 
 ## See Also
 
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

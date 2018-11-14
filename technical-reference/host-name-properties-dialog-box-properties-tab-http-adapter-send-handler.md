@@ -72,5 +72,5 @@ Maximum length: 256</td>
 
 ## See Also
 
-[How to Configure an HTTP Send Handler](https://msdn.microsoft.com/en-us/library/aa561097\(v=bts.80\))
+[How to Configure an HTTP Send Handler](https://msdn.microsoft.com/library/aa561097\(v=bts.80\))
 

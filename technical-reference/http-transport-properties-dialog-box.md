@@ -98,6 +98,6 @@ Type: Boolean</td>
 
 ## See Also
 
-[How to Configure an HTTP Receive Location](https://msdn.microsoft.com/en-us/library/aa561370\(v=bts.80\))  
-[Configuring the HTTP Adapter](https://msdn.microsoft.com/en-us/library/aa560119\(v=bts.80\))
+[How to Configure an HTTP Receive Location](https://msdn.microsoft.com/library/aa561370\(v=bts.80\))  
+[Configuring the HTTP Adapter](https://msdn.microsoft.com/library/aa560119\(v=bts.80\))
 

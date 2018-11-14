@@ -25,6 +25,6 @@ Use the **10^n** functoid ( ![](images/Aa547865.34aadbe8-9246-43d9-a8f9-a412570c
 ## See Also
 
 [Scientific Functoids Reference](scientific-functoids-reference.md)  
-[Scientific Functoids](https://msdn.microsoft.com/en-us/library/aa546775\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[Scientific Functoids](https://msdn.microsoft.com/library/aa546775\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

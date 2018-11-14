@@ -36,5 +36,5 @@ Default value: 5</td>
 
 ## See Also
 
-[How to Configure an MSMQ Send Handler](https://msdn.microsoft.com/en-us/library/aa559163\(v=bts.80\))
+[How to Configure an MSMQ Send Handler](https://msdn.microsoft.com/library/aa559163\(v=bts.80\))
 

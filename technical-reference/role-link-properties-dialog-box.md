@@ -50,6 +50,6 @@ Use the **Role Link Properties** window to configure the relationship between tw
 
 ## See Also
 
-[How to Use the Role Link Wizard](https://msdn.microsoft.com/en-us/library/aa561458\(v=bts.80\))  
-[Using Role Links in Orchestrations](https://msdn.microsoft.com/en-us/library/aa547316\(v=bts.80\))
+[How to Use the Role Link Wizard](https://msdn.microsoft.com/library/aa561458\(v=bts.80\))  
+[Using Role Links in Orchestrations](https://msdn.microsoft.com/library/aa547316\(v=bts.80\))
 

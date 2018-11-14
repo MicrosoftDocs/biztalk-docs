@@ -42,7 +42,7 @@ This property is read-only for all node types other than **Any Element** and **A
 
 When the **Namespace** property is blank, it means that the selected node is in the "blank" namespace. For example, when you define a schema with no value set for its **Target Namespace** property, all of the nodes in that schema are in the blank namespace.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 ## See Also
 

@@ -142,6 +142,6 @@ If the host only contains orchestrations, change the <strong>Show performance co
 
 ## See Also
 
-[How to Modify Group Settings](https://msdn.microsoft.com/en-us/library/ff629808\(v=bts.80\))  
-[How to Modify Host Instance Settings](https://msdn.microsoft.com/en-us/library/ff629695\(v=bts.80\))
+[How to Modify Group Settings](https://msdn.microsoft.com/library/ff629808\(v=bts.80\))  
+[How to Modify Host Instance Settings](https://msdn.microsoft.com/library/ff629695\(v=bts.80\))
 

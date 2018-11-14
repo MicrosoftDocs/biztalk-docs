@@ -36,5 +36,5 @@ Use the **Enlist Parties** dialog box to enlist a party, which is an organizatio
 
 ## See Also
 
-[Using Role Links in Orchestrations](https://msdn.microsoft.com/en-us/library/aa547316\(v=bts.80\))
+[Using Role Links in Orchestrations](https://msdn.microsoft.com/library/aa547316\(v=bts.80\))
 

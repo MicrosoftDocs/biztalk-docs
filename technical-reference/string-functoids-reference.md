@@ -20,7 +20,7 @@ Use **String** functoids to manipulate strings in standard ways.
 
 
 
-For conceptual information about **String** functoids, see [String Functoids](https://msdn.microsoft.com/en-us/library/aa559399\(v=bts.80\)).
+For conceptual information about **String** functoids, see [String Functoids](https://msdn.microsoft.com/library/aa559399\(v=bts.80\)).
 
 The following table shows the functoids in the **String** category.
 
@@ -78,5 +78,5 @@ The following table shows the functoids in the **String** category.
 
 ## See Also
 
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

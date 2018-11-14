@@ -78,9 +78,9 @@ Use the **Application Properties** window to set one application as the default 
 
 ## See Also
 
-[How to Install a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa577503\(v=bts.80\))  
-[Understanding BizTalk Application Deployment and Management](https://msdn.microsoft.com/en-us/library/aa560022\(v=bts.80\))  
-[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/en-us/library/aa560565\(v=bts.80\))  
-[How to Import a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa560132\(v=bts.80\))  
-[How to Export a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa577804\(v=bts.80\))
+[How to Install a BizTalk Application](https://msdn.microsoft.com/library/aa577503\(v=bts.80\))  
+[Understanding BizTalk Application Deployment and Management](https://msdn.microsoft.com/library/aa560022\(v=bts.80\))  
+[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/library/aa560565\(v=bts.80\))  
+[How to Import a BizTalk Application](https://msdn.microsoft.com/library/aa560132\(v=bts.80\))  
+[How to Export a BizTalk Application](https://msdn.microsoft.com/library/aa577804\(v=bts.80\))
 

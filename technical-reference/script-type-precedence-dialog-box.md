@@ -67,6 +67,6 @@ Use the **Script Type Precedence** dialog box to configure the relative preceden
 ## See Also
 
 [Configure Functoid Script Dialog Box](configure-functoid-script-dialog-box.md)  
-[How to Configure the Scripting Functoid](https://msdn.microsoft.com/en-us/library/aa578238\(v=bts.80\))  
-[Scripting Functoid](https://msdn.microsoft.com/en-us/library/aa561729\(v=bts.80\))
+[How to Configure the Scripting Functoid](https://msdn.microsoft.com/library/aa578238\(v=bts.80\))  
+[Scripting Functoid](https://msdn.microsoft.com/library/aa561729\(v=bts.80\))
 

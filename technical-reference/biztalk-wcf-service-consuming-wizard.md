@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-Use the BizTalk WCF Service Consuming Wizard to generate the BizTalk artifacts, such as BizTalk orchestrations and types, to consume a WCF service based on the metadata document of the WCF service. For general usage information about the BizTalk WCF Services Consuming Wizard, see [Using WCF Services](https://msdn.microsoft.com/en-us/library/bb246032\(v=bts.80\)).
+Use the BizTalk WCF Service Consuming Wizard to generate the BizTalk artifacts, such as BizTalk orchestrations and types, to consume a WCF service based on the metadata document of the WCF service. For general usage information about the BizTalk WCF Services Consuming Wizard, see [Using WCF Services](https://msdn.microsoft.com/library/bb246032\(v=bts.80\)).
 
 ## Metadata Source Page
 
@@ -148,6 +148,6 @@ Use this page to determine if you have successfully generated the BizTalk artifa
 
 ## See Also
 
-[How to Use the BizTalk WCF Service Consuming Wizard to Consume a WCF Service](https://msdn.microsoft.com/en-us/library/bb226552\(v=bts.80\))  
-[Considerations When Consuming WCF Services with the WCF Send Adapters](https://msdn.microsoft.com/en-us/library/bb226398\(v=bts.80\))
+[How to Use the BizTalk WCF Service Consuming Wizard to Consume a WCF Service](https://msdn.microsoft.com/library/bb226552\(v=bts.80\))  
+[Considerations When Consuming WCF Services with the WCF Send Adapters](https://msdn.microsoft.com/library/bb226398\(v=bts.80\))
 

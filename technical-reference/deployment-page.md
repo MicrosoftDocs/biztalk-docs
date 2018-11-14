@@ -66,5 +66,5 @@ Type: Boolean</td>
 
 ## See Also
 
-[Project Designer: Deployment Tab](https://msdn.microsoft.com/en-us/library/aa560343\(v=bts.80\))
+[Project Designer: Deployment Tab](https://msdn.microsoft.com/library/aa560343\(v=bts.80\))
 

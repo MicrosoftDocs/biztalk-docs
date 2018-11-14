@@ -33,7 +33,7 @@ This functoid may output multiple values, one per row in the table looping grid 
 ## See Also
 
 [Advanced Functoids Reference](advanced-functoids-reference.md)  
-[Advanced Functoids](https://msdn.microsoft.com/en-us/library/aa561121\(v=bts.80\))  
-[Table Looping and Table Extractor Functoids](https://msdn.microsoft.com/en-us/library/aa559310\(v=bts.80\))  
-[How to Add Table Looping and Table Extractor Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa559694\(v=bts.80\))
+[Advanced Functoids](https://msdn.microsoft.com/library/aa561121\(v=bts.80\))  
+[Table Looping and Table Extractor Functoids](https://msdn.microsoft.com/library/aa559310\(v=bts.80\))  
+[How to Add Table Looping and Table Extractor Functoids to a Map](https://msdn.microsoft.com/library/aa559694\(v=bts.80\))
 

@@ -36,7 +36,7 @@ The order of input parameters is important to proper functoid operation, and you
 
 To undo a set of changes made in this dialog box, click **Cancel** to close the dialog box without saving changes, and then reopen it.
 
-For more information about how this property is used to establish the correct set of input parameters to a functoid, see [Editing Functoid Properties and Input Parameters](https://msdn.microsoft.com/en-us/library/aa559242\(v=bts.80\)).
+For more information about how this property is used to establish the correct set of input parameters to a functoid, see [Editing Functoid Properties and Input Parameters](https://msdn.microsoft.com/library/aa559242\(v=bts.80\)).
 
 ## See Also
 

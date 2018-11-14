@@ -38,5 +38,5 @@ Browse through .NET assemblies for public .NET class definitions. You can drag i
 
 ## See Also
 
-[Windows of the Business Rule Composer](https://msdn.microsoft.com/en-us/library/aa561030\(v=bts.80\))
+[Windows of the Business Rule Composer](https://msdn.microsoft.com/library/aa561030\(v=bts.80\))
 

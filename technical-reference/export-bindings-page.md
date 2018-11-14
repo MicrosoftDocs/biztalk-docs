@@ -58,10 +58,10 @@ Example: C:\Bindings\MyBindings.xml</td>
 
 ## See Also
 
-[How to Export Bindings for a BizTalk Group](https://msdn.microsoft.com/en-us/library/aa560143\(v=bts.80\))  
-[How to Export Bindings for a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa560753\(v=bts.80\))  
-[How to Export Bindings for a BizTalk Assembly](https://msdn.microsoft.com/en-us/library/aa561022\(v=bts.80\))  
-[How to Import Bindings into a BizTalk Group](https://msdn.microsoft.com/en-us/library/aa559621\(v=bts.80\))  
-[How to Import Bindings into a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa561249\(v=bts.80\))  
-[Binding Files and Application Deployment](https://msdn.microsoft.com/en-us/library/aa559631\(v=bts.80\))
+[How to Export Bindings for a BizTalk Group](https://msdn.microsoft.com/library/aa560143\(v=bts.80\))  
+[How to Export Bindings for a BizTalk Application](https://msdn.microsoft.com/library/aa560753\(v=bts.80\))  
+[How to Export Bindings for a BizTalk Assembly](https://msdn.microsoft.com/library/aa561022\(v=bts.80\))  
+[How to Import Bindings into a BizTalk Group](https://msdn.microsoft.com/library/aa559621\(v=bts.80\))  
+[How to Import Bindings into a BizTalk Application](https://msdn.microsoft.com/library/aa561249\(v=bts.80\))  
+[Binding Files and Application Deployment](https://msdn.microsoft.com/library/aa559631\(v=bts.80\))
 

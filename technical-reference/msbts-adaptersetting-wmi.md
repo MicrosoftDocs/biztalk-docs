@@ -82,9 +82,9 @@ class MSBTS_AdapterSetting : MSBTS_Setting
 
 ## Remarks
 
-Creating or deleting instances of this class registers and un-registers adapters from BizTalk Server. Enumerating instances of this class returns all the registered BizTalk adapters. Microsoft BizTalk Server includes several native adapters such as FILE, FTP, HTTP, BizTalk Message Queuing, SMTP, SOAP, and SQL. You can develop custom adapters and register them using this class. For more information about native adapters, see [Using Adapters](https://msdn.microsoft.com/en-us/library/aa578103\(v=bts.80\)). For more information about creating custom adapters, see [Developing Adapters Using the Adapter Framework](https://msdn.microsoft.com/en-us/library/aa559841\(v=bts.80\)).
+Creating or deleting instances of this class registers and un-registers adapters from BizTalk Server. Enumerating instances of this class returns all the registered BizTalk adapters. Microsoft BizTalk Server includes several native adapters such as FILE, FTP, HTTP, BizTalk Message Queuing, SMTP, SOAP, and SQL. You can develop custom adapters and register them using this class. For more information about native adapters, see [Using Adapters](https://msdn.microsoft.com/library/aa578103\(v=bts.80\)). For more information about creating custom adapters, see [Developing Adapters Using the Adapter Framework](https://msdn.microsoft.com/library/aa559841\(v=bts.80\)).
 
-For more information about the minimum security user rights required to administer an adapter, see [Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\)).
+For more information about the minimum security user rights required to administer an adapter, see [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\)).
 
 ## Requirements
 

@@ -29,6 +29,6 @@ The date format used by this functoid is ISO 8601-compliant.
 ## See Also
 
 [Date and Time Functoids Reference](date-and-time-functoids-reference.md)  
-[Date and Time Functoids](https://msdn.microsoft.com/en-us/library/aa559411\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[Date and Time Functoids](https://msdn.microsoft.com/library/aa559411\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

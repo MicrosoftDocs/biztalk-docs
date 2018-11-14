@@ -22,7 +22,7 @@ When you select the **Schema** node in BizTalk Editor, you can examine and set i
 
   - **Reference.** This category contains properties that are related to categorizing the business purpose of the schema and the industry standards to which it conforms.
 
-Many of the properties associated with **Schema** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs.For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+Many of the properties associated with **Schema** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs.For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 
 > [!NOTE]

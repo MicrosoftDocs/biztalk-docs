@@ -52,5 +52,5 @@ Maximum path length: 256 characters <strong>Note:</strong> We recommend as a bes
 
 ## See Also
 
-[Restrictions on the SMTP To Property](https://msdn.microsoft.com/en-us/library/aa547966\(v=bts.80\))
+[Restrictions on the SMTP To Property](https://msdn.microsoft.com/library/aa547966\(v=bts.80\))
 

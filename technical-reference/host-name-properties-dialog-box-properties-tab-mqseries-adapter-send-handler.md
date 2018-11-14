@@ -24,5 +24,5 @@ The name of the computer that is running MQSeries Server for Windows.
 
 ## See Also
 
-[How to Configure MQSeries Adapter Send and Receive Handlers](https://msdn.microsoft.com/en-us/library/aa561541\(v=bts.80\))
+[How to Configure MQSeries Adapter Send and Receive Handlers](https://msdn.microsoft.com/library/aa561541\(v=bts.80\))
 

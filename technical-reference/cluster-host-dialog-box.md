@@ -36,8 +36,8 @@ Use the **Cluster Host** dialog box to assign all host instances of the selected
 
 ## See Also
 
-[Providing High Availability for BizTalk Hosts](https://msdn.microsoft.com/en-us/library/aa577430\(v=bts.80\))  
-[Clustering the BizTalk Server Databases](https://msdn.microsoft.com/en-us/library/aa577514\(v=bts.80\))  
-[Using Windows Server Cluster to Provide High Availability for BizTalk Server Hosts2](https://msdn.microsoft.com/en-us/library/aa560059\(v=bts.80\))  
-[How to Configure a BizTalk Host as a Cluster Resource](https://msdn.microsoft.com/en-us/library/aa578376\(v=bts.80\))
+[Providing High Availability for BizTalk Hosts](https://msdn.microsoft.com/library/aa577430\(v=bts.80\))  
+[Clustering the BizTalk Server Databases](https://msdn.microsoft.com/library/aa577514\(v=bts.80\))  
+[Using Windows Server Cluster to Provide High Availability for BizTalk Server Hosts2](https://msdn.microsoft.com/library/aa560059\(v=bts.80\))  
+[How to Configure a BizTalk Host as a Cluster Resource](https://msdn.microsoft.com/library/aa578376\(v=bts.80\))
 

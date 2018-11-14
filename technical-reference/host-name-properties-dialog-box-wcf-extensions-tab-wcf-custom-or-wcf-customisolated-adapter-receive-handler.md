@@ -48,6 +48,6 @@ Use the **WCF Extensions** tab to configure the receive handler for the WCF-Cust
 
 ## See Also
 
-[How to Configure a WCF-Custom Receive Handler](https://msdn.microsoft.com/en-us/library/ff629675\(v=bts.80\))  
-[How to Configure a WCF-CustomIsolated Receive Handler](https://msdn.microsoft.com/en-us/library/ff629709\(v=bts.80\))
+[How to Configure a WCF-Custom Receive Handler](https://msdn.microsoft.com/library/ff629675\(v=bts.80\))  
+[How to Configure a WCF-CustomIsolated Receive Handler](https://msdn.microsoft.com/library/ff629709\(v=bts.80\))
 

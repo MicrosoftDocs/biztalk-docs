@@ -134,5 +134,5 @@ Enter the column value to be set for this message. You can type in a literal val
 
 ## See Also
 
-[Configuring the Windows SharePoint Services Adapter](https://msdn.microsoft.com/en-us/library/aa560619\(v=bts.80\))
+[Configuring the Windows SharePoint Services Adapter](https://msdn.microsoft.com/library/aa560619\(v=bts.80\))
 

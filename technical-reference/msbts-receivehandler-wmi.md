@@ -74,7 +74,7 @@ class MSBTS_ReceiveHandler : MSBTS_Setting
 
 ## Remarks
 
-For more information about the minimum security user rights required to administer a receive handler, see [Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\)).
+For more information about the minimum security user rights required to administer a receive handler, see [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\)).
 
 For samples illustrating the **MSBTS\_ReceiveHandler** class, see [WMI Script Samples](wmi-script-samples.md).
 

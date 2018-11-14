@@ -89,5 +89,5 @@ The default is 200</td>
 
 ## See Also
 
-[How to Configure a WCF-BasicHttp Receive Location](https://msdn.microsoft.com/en-us/library/bb246064\(v=bts.80\))
+[How to Configure a WCF-BasicHttp Receive Location](https://msdn.microsoft.com/library/bb246064\(v=bts.80\))
 

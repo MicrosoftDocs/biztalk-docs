@@ -40,6 +40,6 @@ Maximum value: MAX\_LONG
 
 ## See Also
 
-[How to Configure a File Receive Location](https://msdn.microsoft.com/en-us/library/aa547108\(v=bts.80\))  
-[Restrictions on the File Mask and File Name Properties](https://msdn.microsoft.com/en-us/library/aa578688\(v=bts.80\))
+[How to Configure a File Receive Location](https://msdn.microsoft.com/library/aa547108\(v=bts.80\))  
+[Restrictions on the File Mask and File Name Properties](https://msdn.microsoft.com/library/aa578688\(v=bts.80\))
 

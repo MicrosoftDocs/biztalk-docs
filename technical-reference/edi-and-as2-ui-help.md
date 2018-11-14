@@ -12,7 +12,7 @@ mtps_version: v=BTS.80
 
  
 
-This section provides information about user-interface (UI) commands in BizTalk Server EDI and AS2. While most of the user interface information related to EDI and AS2 processing in BizTalk Server such as creating parties, profiles, agreements, and fallback settings is available as part of the procedural content ([Configuring EDI Properties](https://msdn.microsoft.com/en-us/library/bb246069\(v=bts.80\)), [Configuring AS2 Properties](https://msdn.microsoft.com/en-us/library/bb245980\(v=bts.80\)), [Configuring Global or Fallback Agreement Properties](https://msdn.microsoft.com/en-us/library/bb245981\(v=bts.80\)), etc.), information related to the following user interface components is provided in this section.
+This section provides information about user-interface (UI) commands in BizTalk Server EDI and AS2. While most of the user interface information related to EDI and AS2 processing in BizTalk Server such as creating parties, profiles, agreements, and fallback settings is available as part of the procedural content ([Configuring EDI Properties](https://msdn.microsoft.com/library/bb246069\(v=bts.80\)), [Configuring AS2 Properties](https://msdn.microsoft.com/library/bb245980\(v=bts.80\)), [Configuring Global or Fallback Agreement Properties](https://msdn.microsoft.com/library/bb245981\(v=bts.80\)), etc.), information related to the following user interface components is provided in this section.
 
   - **Batching**. The properties included in this page define how BizTalk Server generates and sends an EDI batch to the party.
 

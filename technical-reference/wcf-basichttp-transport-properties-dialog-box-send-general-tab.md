@@ -73,7 +73,7 @@ The default is an empty string.</td>
 ## See Also
 
 [The \<identity\> element](http://go.microsoft.com/fwlink/?linkid=75747)  
-[How to Configure a WCF-BasicHttp Send Port](https://msdn.microsoft.com/en-us/library/bb226467\(v=bts.80\))  
-[WCF Adapters Property Schema and Properties](https://msdn.microsoft.com/en-us/library/bb245991\(v=bts.80\))  
-[Configuring Dynamic Send Ports Using WCF Adapters Context Properties](https://msdn.microsoft.com/en-us/library/bb727706\(v=bts.80\))
+[How to Configure a WCF-BasicHttp Send Port](https://msdn.microsoft.com/library/bb226467\(v=bts.80\))  
+[WCF Adapters Property Schema and Properties](https://msdn.microsoft.com/library/bb245991\(v=bts.80\))  
+[Configuring Dynamic Send Ports Using WCF Adapters Context Properties](https://msdn.microsoft.com/library/bb727706\(v=bts.80\))
 

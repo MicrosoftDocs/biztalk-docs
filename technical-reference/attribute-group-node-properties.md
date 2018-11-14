@@ -22,7 +22,7 @@ When you select an **Attribute Group** node in BizTalk Editor, you can examine a
 
 Further, **Attribute Group** nodes have no structure beyond the set of attributes that they group together for collective use, whereas element group nodes can have very deep structures.
 
-Many of the properties associated with **Attribute Group** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs.For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+Many of the properties associated with **Attribute Group** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs.For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 The following table shows the properties associated with **Attribute Group** nodes that are available in all schemas.
 

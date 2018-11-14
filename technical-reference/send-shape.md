@@ -50,5 +50,5 @@ Use the **Send** shape to send a given message to a specified port. If you expec
 
 ## See Also
 
-[How to Configure the Send Shape](https://msdn.microsoft.com/en-us/library/aa559388\(v=bts.80\))
+[How to Configure the Send Shape](https://msdn.microsoft.com/library/aa559388\(v=bts.80\))
 

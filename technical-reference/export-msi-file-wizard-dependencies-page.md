@@ -18,8 +18,8 @@ Use the **Dependencies** page to review the list of other applications on which 
 
 ## See Also
 
-[How to Export a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa577804\(v=bts.80\))  
-[Dependencies and Application Deployment](https://msdn.microsoft.com/en-us/library/aa578278\(v=bts.80\))  
-[What Happens When Artifacts Are Exported](https://msdn.microsoft.com/en-us/library/aa578034\(v=bts.80\))  
-[The Application Deployment Process](https://msdn.microsoft.com/en-us/library/aa559316\(v=bts.80\))
+[How to Export a BizTalk Application](https://msdn.microsoft.com/library/aa577804\(v=bts.80\))  
+[Dependencies and Application Deployment](https://msdn.microsoft.com/library/aa578278\(v=bts.80\))  
+[What Happens When Artifacts Are Exported](https://msdn.microsoft.com/library/aa578034\(v=bts.80\))  
+[The Application Deployment Process](https://msdn.microsoft.com/library/aa559316\(v=bts.80\))
 

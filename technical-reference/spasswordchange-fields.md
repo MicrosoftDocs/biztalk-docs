@@ -47,5 +47,5 @@ The fields of the **SPasswordChange** interface are listed in the following tabl
 ## See Also
 
 [SPasswordChange Structure (COM)](spasswordchange-structure-com.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

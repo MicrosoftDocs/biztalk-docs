@@ -50,5 +50,5 @@ Use the second **New/Edit BAM View: View Items** page in the Business Activity M
 
 ## See Also
 
-[How to Use the BAM Add-In for Excel](https://msdn.microsoft.com/en-us/library/aa561102\(v=bts.80\))
+[How to Use the BAM Add-In for Excel](https://msdn.microsoft.com/library/aa561102\(v=bts.80\))
 

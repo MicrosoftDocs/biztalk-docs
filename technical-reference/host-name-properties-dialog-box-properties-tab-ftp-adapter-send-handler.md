@@ -158,6 +158,6 @@ If an ASCII file is uploaded, the file is first uploaded to this folder and then
 
 ## See Also
 
-[How to Configure an FTP Send Handler](https://msdn.microsoft.com/en-us/library/aa561311\(v=bts.80\))  
-[Enhancements to the FTP Adapter](https://msdn.microsoft.com/en-us/library/ff629768\(v=bts.80\))
+[How to Configure an FTP Send Handler](https://msdn.microsoft.com/library/aa561311\(v=bts.80\))  
+[Enhancements to the FTP Adapter](https://msdn.microsoft.com/library/ff629768\(v=bts.80\))
 

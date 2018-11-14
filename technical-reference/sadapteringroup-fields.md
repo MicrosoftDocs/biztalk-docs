@@ -35,5 +35,5 @@ The fields of the **SAdapterInGroup** interface are listed in the following tabl
 ## See Also
 
 [SAdapterInGroup Structure (COM)](sadapteringroup-structure-com.md)  
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

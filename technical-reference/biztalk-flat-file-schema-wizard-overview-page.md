@@ -34,5 +34,5 @@ Use the BizTalk Flat File Schema Wizard to create the flat file schema based on 
 
 ## See Also
 
-[Creating Schemas Using BizTalk Flat File Schema Wizard](https://msdn.microsoft.com/en-us/library/aa559306\(v=bts.80\))
+[Creating Schemas Using BizTalk Flat File Schema Wizard](https://msdn.microsoft.com/library/aa559306\(v=bts.80\))
 

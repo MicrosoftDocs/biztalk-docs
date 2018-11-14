@@ -43,8 +43,8 @@ An exception is also generated if either of the following conditions is encounte
 ## See Also
 
 [Database Functoids Reference](database-functoids-reference.md)  
-[Database Functoids](https://msdn.microsoft.com/en-us/library/aa560892\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))  
+[Database Functoids](https://msdn.microsoft.com/library/aa560892\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))  
 [Format Message Functoid](format-message-functoid.md)  
 [Get Application ID Functoid](get-application-id-functoid.md)  
 [Get Application Value Functoid](get-application-value-functoid.md)  

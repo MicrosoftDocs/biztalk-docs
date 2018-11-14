@@ -66,7 +66,7 @@ As the value of the **minOccurs** attribute of the element that corresponds to t
 
 You can examine and set this property in the Visual Studio Properties window when you select node of an appropriate type, including root **Record** nodes, in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 Any value set for this property must be less than or equal to the value specified for the **Max Occurs** property.
 

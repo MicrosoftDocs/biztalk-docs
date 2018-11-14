@@ -54,5 +54,5 @@ You will be prompted before all custom Toolbox items are removed.</td>
 ## See Also
 
 [Functoid Reference](functoid-reference.md)  
-[Custom Functoid (BizTalk Server Sample)](https://msdn.microsoft.com/en-us/library/aa577632\(v=bts.80\))
+[Custom Functoid (BizTalk Server Sample)](https://msdn.microsoft.com/library/aa577632\(v=bts.80\))
 

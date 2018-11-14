@@ -24,7 +24,7 @@ When you select a **Field Element** node in BizTalk Editor, you can examine and 
 
 When you insert a **Field Element** node, the name of the node as displayed in the schema tree, and which corresponds to its **Node Name** property, is immediately made available for editing within the schema tree. Your choice of a name for this node is important because it defines the name of the corresponding XML element in the instance messages that this schema defines.
 
-Many of the properties associated with **Field Element** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs. For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+Many of the properties associated with **Field Element** nodes correspond directly to the semantics of XML Schema definition language (XSD) constructs. For links to information about XSD concepts and specifications, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 
 > [!NOTE]

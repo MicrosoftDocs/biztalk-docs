@@ -14,7 +14,7 @@ f1_keywords:
 
  
 
-Use the **BizTalk Web Services Publishing Wizard** to create and publish BizTalk orchestrations as Web services, and to publish schemas as Web services. For general usage information about the BizTalk Web Services Publishing Wizard, see [Using Web Services](https://msdn.microsoft.com/en-us/library/aa577881\(v=bts.80\)).
+Use the **BizTalk Web Services Publishing Wizard** to create and publish BizTalk orchestrations as Web services, and to publish schemas as Web services. For general usage information about the BizTalk Web Services Publishing Wizard, see [Using Web Services](https://msdn.microsoft.com/library/aa577881\(v=bts.80\)).
 
 ## Create Web Services page
 
@@ -319,7 +319,7 @@ Use this page to determine if you have successfully published your Web service.
 
 ## See Also
 
-[How to Use the BizTalk Web Services Publishing Wizard to Publish an Orchestration as a Web Service](https://msdn.microsoft.com/en-us/library/aa578703\(v=bts.80\))  
-[How to Use the BizTalk Web Services Publishing Wizard to Publish Schemas as a Web Service](https://msdn.microsoft.com/en-us/library/aa578158\(v=bts.80\))  
-[Considerations When Publishing Web Services](https://msdn.microsoft.com/en-us/library/aa559660\(v=bts.80\))
+[How to Use the BizTalk Web Services Publishing Wizard to Publish an Orchestration as a Web Service](https://msdn.microsoft.com/library/aa578703\(v=bts.80\))  
+[How to Use the BizTalk Web Services Publishing Wizard to Publish Schemas as a Web Service](https://msdn.microsoft.com/library/aa578158\(v=bts.80\))  
+[Considerations When Publishing Web Services](https://msdn.microsoft.com/library/aa559660\(v=bts.80\))
 

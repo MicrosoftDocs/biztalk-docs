@@ -24,7 +24,7 @@ Use the **Adapters** node to create and configure new adapters for available tra
 
 ## See Also
 
-[Creating and Deleting Adapter Handlers](https://msdn.microsoft.com/en-us/library/aa560480\(v=bts.80\))  
-[Using Adapters](https://msdn.microsoft.com/en-us/library/aa578103\(v=bts.80\))  
-[Developing Custom Adapters](https://msdn.microsoft.com/en-us/library/aa559841\(v=bts.80\))
+[Creating and Deleting Adapter Handlers](https://msdn.microsoft.com/library/aa560480\(v=bts.80\))  
+[Using Adapters](https://msdn.microsoft.com/library/aa578103\(v=bts.80\))  
+[Developing Custom Adapters](https://msdn.microsoft.com/library/aa559841\(v=bts.80\))
 

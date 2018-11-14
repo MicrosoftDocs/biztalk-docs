@@ -58,5 +58,5 @@ Use the **Receive** shape to receive a message from a port. You can use it to st
 
 ## See Also
 
-[How to Configure the Receive Shape](https://msdn.microsoft.com/en-us/library/aa558717\(v=bts.80\))
+[How to Configure the Receive Shape](https://msdn.microsoft.com/library/aa558717\(v=bts.80\))
 

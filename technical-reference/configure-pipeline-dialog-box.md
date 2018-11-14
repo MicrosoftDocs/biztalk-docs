@@ -160,12 +160,12 @@ Schemas specified in this property should have unique target namespaces. If any 
 
 ## See Also
 
-[About Pipelines, Stages, and Components](https://msdn.microsoft.com/en-us/library/aa577959\(v=bts.80\))  
-[How to Create a New Pipeline](https://msdn.microsoft.com/en-us/library/aa578387\(v=bts.80\))  
-[How to Configure Tracking for a Pipeline](https://msdn.microsoft.com/en-us/library/aa560101\(v=bts.80\))  
-[Investigating Orchestration, Port, and Message Failures](https://msdn.microsoft.com/en-us/library/aa560126\(v=bts.80\))  
-[Receive Pipelines](https://msdn.microsoft.com/en-us/library/aa561803\(v=bts.80\))  
-[Send Pipelines](https://msdn.microsoft.com/en-us/library/aa547976\(v=bts.80\))  
-[How to Configure the XML Assembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa560698\(v=bts.80\))  
-[How to Configure the XML Disassembler Pipeline Component](https://msdn.microsoft.com/en-us/library/aa577393\(v=bts.80\))
+[About Pipelines, Stages, and Components](https://msdn.microsoft.com/library/aa577959\(v=bts.80\))  
+[How to Create a New Pipeline](https://msdn.microsoft.com/library/aa578387\(v=bts.80\))  
+[How to Configure Tracking for a Pipeline](https://msdn.microsoft.com/library/aa560101\(v=bts.80\))  
+[Investigating Orchestration, Port, and Message Failures](https://msdn.microsoft.com/library/aa560126\(v=bts.80\))  
+[Receive Pipelines](https://msdn.microsoft.com/library/aa561803\(v=bts.80\))  
+[Send Pipelines](https://msdn.microsoft.com/library/aa547976\(v=bts.80\))  
+[How to Configure the XML Assembler Pipeline Component](https://msdn.microsoft.com/library/aa560698\(v=bts.80\))  
+[How to Configure the XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa577393\(v=bts.80\))
 

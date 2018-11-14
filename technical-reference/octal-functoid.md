@@ -25,6 +25,6 @@ Use the **Octal** functoid ( ![](images/Aa547877.67ce9c32-e259-4a34-88f3-3486944
 ## See Also
 
 [Conversion Functoids Reference](conversion-functoids-reference.md)  
-[Conversion Functoids](https://msdn.microsoft.com/en-us/library/aa547311\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[Conversion Functoids](https://msdn.microsoft.com/library/aa547311\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

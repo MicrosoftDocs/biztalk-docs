@@ -38,7 +38,7 @@ The value of this property, if any, is used as the value of the **fixed** attrib
 
 You can examine and set this property in the Visual Studio Properties window when you select a **Field Element** node in BizTalk Editor.
 
-This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/en-us/library/aa547363\(v=bts.80\)).
+This property represents a standard XSD construct. For additional information about the corresponding XSD construct, see [XSD Resources on the Web](https://msdn.microsoft.com/library/aa547363\(v=bts.80\)).
 
 You cannot configure both the **Fixed** and **Default Value** properties because it is prohibited by XSD.
 

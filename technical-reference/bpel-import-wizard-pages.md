@@ -60,7 +60,7 @@ Click <strong>Remove</strong> to remove selected files from the import wizard.</
 
 ## See Also
 
-[BizTalk Server Project Templates](https://msdn.microsoft.com/en-us/library/aa547846\(v=bts.80\))  
-[BPEL Import (BizTalk Server Sample)](https://msdn.microsoft.com/en-us/library/aa559758\(v=bts.80\))  
-[How to Import BPEL4WS](https://msdn.microsoft.com/en-us/library/aa559576\(v=bts.80\))
+[BizTalk Server Project Templates](https://msdn.microsoft.com/library/aa547846\(v=bts.80\))  
+[BPEL Import (BizTalk Server Sample)](https://msdn.microsoft.com/library/aa559758\(v=bts.80\))  
+[How to Import BPEL4WS](https://msdn.microsoft.com/library/aa559576\(v=bts.80\))
 

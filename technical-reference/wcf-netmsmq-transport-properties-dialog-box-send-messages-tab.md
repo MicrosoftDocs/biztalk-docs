@@ -56,6 +56,6 @@ xmlns=&quot;http://www.microsoft.com/schemas/bts2007&quot; encoding=&quot;xml&qu
 
 ## See Also
 
-[How to Configure a WCF-NetMsmq Send Port](https://msdn.microsoft.com/en-us/library/bb245965\(v=bts.80\))  
-[Specifying the Message Body for the WCF Adapters](https://msdn.microsoft.com/en-us/library/bb226478\(v=bts.80\))
+[How to Configure a WCF-NetMsmq Send Port](https://msdn.microsoft.com/library/bb245965\(v=bts.80\))  
+[Specifying the Message Body for the WCF Adapters](https://msdn.microsoft.com/library/bb226478\(v=bts.80\))
 

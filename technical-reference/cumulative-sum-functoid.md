@@ -31,6 +31,6 @@ For more information about the scoping parameter, see [Cumulative Functoids Refe
 ## See Also
 
 [Cumulative Functoids Reference](cumulative-functoids-reference.md)  
-[Cumulative Functoids](https://msdn.microsoft.com/en-us/library/aa561839\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[Cumulative Functoids](https://msdn.microsoft.com/library/aa561839\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

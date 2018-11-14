@@ -94,10 +94,10 @@ Use the **Host Properties** window to view the common properties of the selected
 
 ## See Also
 
-[Hosts](https://msdn.microsoft.com/en-us/library/aa578695\(v=bts.80\))  
-[Host Groups](https://msdn.microsoft.com/en-us/library/aa547356\(v=bts.80\))  
-[Host Instances](https://msdn.microsoft.com/en-us/library/aa560673\(v=bts.80\))  
-[How to Create a New Host](https://msdn.microsoft.com/en-us/library/aa561079\(v=bts.80\))  
-[How to Delete a Host](https://msdn.microsoft.com/en-us/library/aa561590\(v=bts.80\))  
-[Minimum Security User Rights](https://msdn.microsoft.com/en-us/library/aa559845\(v=bts.80\))
+[Hosts](https://msdn.microsoft.com/library/aa578695\(v=bts.80\))  
+[Host Groups](https://msdn.microsoft.com/library/aa547356\(v=bts.80\))  
+[Host Instances](https://msdn.microsoft.com/library/aa560673\(v=bts.80\))  
+[How to Create a New Host](https://msdn.microsoft.com/library/aa561079\(v=bts.80\))  
+[How to Delete a Host](https://msdn.microsoft.com/library/aa561590\(v=bts.80\))  
+[Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\))
 

@@ -30,5 +30,5 @@ You can:
 
 ## See Also
 
-[How to Register and Remove the BizTalk Assembly Viewer](https://msdn.microsoft.com/en-us/library/aa560741\(v=bts.80\))
+[How to Register and Remove the BizTalk Assembly Viewer](https://msdn.microsoft.com/library/aa560741\(v=bts.80\))
 

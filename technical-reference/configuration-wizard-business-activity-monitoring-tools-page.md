@@ -86,5 +86,5 @@ Use the **Business Activity Monitoring - Alerts** page to configure subscription
 
 ## See Also
 
-[Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/en-us/library/jj248688\(v=bts.80\))[Getting Started](https://msdn.microsoft.com/en-us/library/aa560946\(v=bts.80\))
+[Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/jj248688\(v=bts.80\))[Getting Started](https://msdn.microsoft.com/library/aa560946\(v=bts.80\))
 

@@ -52,7 +52,7 @@ Compiler
 
 You can see the effect of this property only when the source and target nodes of the link are at different levels in their respective schemas. This property determines the for-each relationship between the source and target nodes when the data is being copied through this link.
 
-For more information about node hierarchy matching, see [Node-Hierarchy Level Matching](https://msdn.microsoft.com/en-us/library/aa560350\(v=bts.80\)).
+For more information about node hierarchy matching, see [Node-Hierarchy Level Matching](https://msdn.microsoft.com/library/aa560350\(v=bts.80\)).
 
 ## See Also
 

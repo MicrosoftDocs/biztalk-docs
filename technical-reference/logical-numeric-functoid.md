@@ -25,6 +25,6 @@ Use the **Logical Numeric** functoid ( ![](images/Aa577628.d53b1a3c-b6cc-49a7-b6
 ## See Also
 
 [Logical Functoids Reference](logical-functoids-reference.md)  
-[Logical Functoids](https://msdn.microsoft.com/en-us/library/aa561580\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[Logical Functoids](https://msdn.microsoft.com/library/aa561580\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

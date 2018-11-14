@@ -42,5 +42,5 @@ Use the **BAM View** page in the Business Activity Monitoring View Wizard to def
 
 ## See Also
 
-[Defining a BAM View](https://msdn.microsoft.com/en-us/library/aa577906\(v=bts.80\))
+[Defining a BAM View](https://msdn.microsoft.com/library/aa577906\(v=bts.80\))
 

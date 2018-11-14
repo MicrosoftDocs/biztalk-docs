@@ -93,5 +93,5 @@ The default value is cleared.</td>
 
 ## See Also
 
-[How to Configure a WCF-WSHttp Send Port](https://msdn.microsoft.com/en-us/library/bb245939\(v=bts.80\))
+[How to Configure a WCF-WSHttp Send Port](https://msdn.microsoft.com/library/bb245939\(v=bts.80\))
 

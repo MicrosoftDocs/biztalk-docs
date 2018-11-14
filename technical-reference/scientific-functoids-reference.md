@@ -24,7 +24,7 @@ When a **Scientific** functoid determines that one or more of its input paramete
 
 When the input parameter descriptions specify a numeric value, strings that can be interpreted as numbers are also accepted.
 
-For conceptual information about **Scientific** functoids, see [Scientific Functoids](https://msdn.microsoft.com/en-us/library/aa546775\(v=bts.80\)).
+For conceptual information about **Scientific** functoids, see [Scientific Functoids](https://msdn.microsoft.com/library/aa546775\(v=bts.80\)).
 
 The following table shows the functoids in the **Scientific** category.
 
@@ -82,6 +82,6 @@ The following table shows the functoids in the **Scientific** category.
 
 ## See Also
 
-[Scientific Functoids](https://msdn.microsoft.com/en-us/library/aa546775\(v=bts.80\))  
-[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa560635\(v=bts.80\))
+[Scientific Functoids](https://msdn.microsoft.com/library/aa546775\(v=bts.80\))  
+[How to Add Basic Functoids to a Map](https://msdn.microsoft.com/library/aa560635\(v=bts.80\))
 

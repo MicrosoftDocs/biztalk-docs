@@ -26,5 +26,5 @@ ISSOPSWrapper implements the same methods as ISSONotification but does not use s
 
 ## See Also
 
-[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa704508\(v=bts.80\))
+[Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
 

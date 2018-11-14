@@ -94,5 +94,5 @@ Maximum length: 256</td>
 
 ## See Also
 
-[How to Configure a SOAP Send Port](https://msdn.microsoft.com/en-us/library/aa559642\(v=bts.80\))
+[How to Configure a SOAP Send Port](https://msdn.microsoft.com/library/aa559642\(v=bts.80\))
 

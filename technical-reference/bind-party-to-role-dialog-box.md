@@ -54,5 +54,5 @@ Use the **Bind Party to Role** dialog box to bind a party, which is an organizat
 
 ## See Also
 
-[Using Role Links in Orchestrations](https://msdn.microsoft.com/en-us/library/aa547316\(v=bts.80\))
+[Using Role Links in Orchestrations](https://msdn.microsoft.com/library/aa547316\(v=bts.80\))
 

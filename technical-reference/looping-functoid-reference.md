@@ -28,7 +28,7 @@ The input and output links for the **Looping** functoid define the repeating str
 
 For example, if there are two input links and their corresponding structures repeat 5 and 10 times, respectively, in a particular input instance message, the corresponding structure in the output instance message repeats 15 times.
 
-The **Looping** functoid can be useful in a number of ways, but it is somewhat more complicated to set up correctly than many other functoids.For more information about the **Looping** functoid, see the [Looping Functoid](https://msdn.microsoft.com/en-us/library/aa559012\(v=bts.80\)).
+The **Looping** functoid can be useful in a number of ways, but it is somewhat more complicated to set up correctly than many other functoids.For more information about the **Looping** functoid, see the [Looping Functoid](https://msdn.microsoft.com/library/aa559012\(v=bts.80\)).
 
 Under certain conditions, some functoids might not behave as expected when they are used in a map with a **Looping** functoid. If a functoid meets the following conditions, it does not produce the expected results when used with the **Looping** functoid:
 
@@ -49,7 +49,7 @@ Under certain conditions, some functoids might not behave as expected when they 
 ## See Also
 
 [Advanced Functoids Reference](advanced-functoids-reference.md)  
-[Advanced Functoids](https://msdn.microsoft.com/en-us/library/aa561121\(v=bts.80\))  
-[Looping Functoid](https://msdn.microsoft.com/en-us/library/aa559012\(v=bts.80\))  
-[How to Add Looping Functoids to a Map](https://msdn.microsoft.com/en-us/library/aa578162\(v=bts.80\))
+[Advanced Functoids](https://msdn.microsoft.com/library/aa561121\(v=bts.80\))  
+[Looping Functoid](https://msdn.microsoft.com/library/aa559012\(v=bts.80\))  
+[How to Add Looping Functoids to a Map](https://msdn.microsoft.com/library/aa578162\(v=bts.80\))
 

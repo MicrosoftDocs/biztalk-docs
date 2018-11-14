@@ -52,5 +52,5 @@ If ticketing is disabled at the system level, it cannot be used at the Affiliate
 
 ## See Also
 
-[Implementing Enterprise Single Sign-On](https://msdn.microsoft.com/en-us/library/aa558712\(v=bts.80\))
+[Implementing Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa558712\(v=bts.80\))
 

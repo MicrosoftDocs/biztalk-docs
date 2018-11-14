@@ -48,8 +48,8 @@ Click **BizTalk Group \[\<Group Name\>\]** node to view Group Overview on the de
 
 ## See Also
 
-[BizTalk Groups](https://msdn.microsoft.com/en-us/library/aa559010\(v=bts.80\))  
-[Managing Groups](https://msdn.microsoft.com/en-us/library/aa560678\(v=bts.80\))  
-[How to Modify Group Properties](https://msdn.microsoft.com/en-us/library/aa560305\(v=bts.80\))  
-[How to Remove a Server from a Group](https://msdn.microsoft.com/en-us/library/aa561173\(v=bts.80\))
+[BizTalk Groups](https://msdn.microsoft.com/library/aa559010\(v=bts.80\))  
+[Managing Groups](https://msdn.microsoft.com/library/aa560678\(v=bts.80\))  
+[How to Modify Group Properties](https://msdn.microsoft.com/library/aa560305\(v=bts.80\))  
+[How to Remove a Server from a Group](https://msdn.microsoft.com/library/aa561173\(v=bts.80\))
 

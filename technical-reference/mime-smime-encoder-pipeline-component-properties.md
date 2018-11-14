@@ -86,7 +86,7 @@ Default Value: NoSign</td>
 
 ## See Also
 
-[Using Pipeline Designer](https://msdn.microsoft.com/en-us/library/aa578392\(v=bts.80\))  
-[How to Configure the MIME-SMIME Encoder Pipeline Component](https://msdn.microsoft.com/en-us/library/aa561432\(v=bts.80\))  
-[MIME-SMIME Encoder Pipeline Component](https://msdn.microsoft.com/en-us/library/aa559633\(v=bts.80\))
+[Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))  
+[How to Configure the MIME-SMIME Encoder Pipeline Component](https://msdn.microsoft.com/library/aa561432\(v=bts.80\))  
+[MIME-SMIME Encoder Pipeline Component](https://msdn.microsoft.com/library/aa559633\(v=bts.80\))
 

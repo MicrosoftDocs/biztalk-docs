@@ -56,8 +56,8 @@ Use the **Export Bindings** dialog box to export binding information from an app
 
 ## See Also
 
-[How to Export Bindings for a BizTalk Assembly](https://msdn.microsoft.com/en-us/library/aa561022\(v=bts.80\))  
-[How to Export Bindings for a BizTalk Group](https://msdn.microsoft.com/en-us/library/aa560143\(v=bts.80\))  
-[How to Export Bindings for a BizTalk Application](https://msdn.microsoft.com/en-us/library/aa560753\(v=bts.80\))  
-[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/en-us/library/aa560565\(v=bts.80\))
+[How to Export Bindings for a BizTalk Assembly](https://msdn.microsoft.com/library/aa561022\(v=bts.80\))  
+[How to Export Bindings for a BizTalk Group](https://msdn.microsoft.com/library/aa560143\(v=bts.80\))  
+[How to Export Bindings for a BizTalk Application](https://msdn.microsoft.com/library/aa560753\(v=bts.80\))  
+[Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/library/aa560565\(v=bts.80\))
 

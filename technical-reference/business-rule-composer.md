@@ -134,8 +134,8 @@ You can use the **Business Rule Composer** to create and edit policies (or rule 
 
 ## See Also
 
-[Using Policy Explorer](https://msdn.microsoft.com/en-us/library/aa559224\(v=bts.80\))  
-[Using Facts Explorer](https://msdn.microsoft.com/en-us/library/aa561796\(v=bts.80\))  
-[Using Rule Editor](https://msdn.microsoft.com/en-us/library/aa560525\(v=bts.80\))  
-[Windows of the Business Rule Composer](https://msdn.microsoft.com/en-us/library/aa561030\(v=bts.80\))
+[Using Policy Explorer](https://msdn.microsoft.com/library/aa559224\(v=bts.80\))  
+[Using Facts Explorer](https://msdn.microsoft.com/library/aa561796\(v=bts.80\))  
+[Using Rule Editor](https://msdn.microsoft.com/library/aa560525\(v=bts.80\))  
+[Windows of the Business Rule Composer](https://msdn.microsoft.com/library/aa561030\(v=bts.80\))
 

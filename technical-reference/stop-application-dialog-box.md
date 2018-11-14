@@ -90,6 +90,6 @@ Each check box represents an application that is referenced by the current one. 
 
 ## See Also
 
-[Undeploying BizTalk Applications](https://msdn.microsoft.com/en-us/library/aa559800\(v=bts.80\))  
-[How to Delete a BizTalk Application from the BizTalk Group](https://msdn.microsoft.com/en-us/library/aa577446\(v=bts.80\))
+[Undeploying BizTalk Applications](https://msdn.microsoft.com/library/aa559800\(v=bts.80\))  
+[How to Delete a BizTalk Application from the BizTalk Group](https://msdn.microsoft.com/library/aa577446\(v=bts.80\))
 
