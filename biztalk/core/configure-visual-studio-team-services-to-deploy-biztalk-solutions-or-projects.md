@@ -106,11 +106,11 @@ Next, create the BizTalk Server Application Deployment definition.
 
 1. Select the **Builds** tab, select **All Definitions**, and select **New**:
 
-    ![Create new release defintion](../core/media/create-new-release-defintion.png)
+    ![Create new release definition](../core/media/create-new-release-definition.png)
 
 2. Select the **Empty** template, and select **Next**:
 
-    ![Create new defintion from an empty template](../core/media/create-new-defintion-from-an-empty-template.png)
+    ![Create new definition from an empty template](../core/media/create-new-definition-from-an-empty-template.png)
 
 3. Select your **Repository** source and **Branch** for the definition.
 4. **Optional**. Select **Continous Integration**.
