@@ -76,7 +76,7 @@ You can configure a WCF-NetNamedPipe receive location either programmatically or
 
  Use the following format to set the properties:  
 
-```  
+```xml
 <CustomProps>  
   <UseSSO vt="11">0</UseSSO>  
   <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
@@ -101,7 +101,7 @@ You can configure a WCF-NetNamedPipe receive location either programmatically or
 
  The following code fragment illustrates creating a WCF-NetNamedPipe receive location:  
 
-```  
+```csharp
 // Use BizTalk Explorer object model to create new WCF-NetNamedPipe receive location   
 string server = System.Environment.MachineName;  
 string database = "BizTalkMgmtDb";  
@@ -128,8 +128,8 @@ explorer.SaveChanges();
 IReceivePort receivePort = application.AddNewReceivePort(false);  
 receivePort.Name = "SampleReceivePort";  
 // Add a new one-way receive location  
-IReceiveLocation recieveLocation = receivePort.AddNewReceiveLocation();  
-recieveLocation.Name = "SampleReceiveLocation";  
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
+receiveLocation.Name = "SampleReceiveLocation";  
 // Find a receive handler for WCF-NetNamedPipe   
 int i = 0;  
 for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
@@ -137,11 +137,11 @@ for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
     if("WCF-NetNamedPipe" == explorer.ReceiveHandlers[i].TransportType.Name)  
         break;  
 }  
-recieveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-recieveLocation.Address = "net.pipe://mycomputer/samplePipeName";  
-recieveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-recieveLocation.TransportType = explorer.ProtocolTypes["WCF-NetNamedPipe"];  
-recieveLocation.TransportTypeData = transportConfigData;  
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
+receiveLocation.Address = "net.pipe://mycomputer/samplePipeName";  
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-NetNamedPipe"];  
+receiveLocation.TransportTypeData = transportConfigData;  
 // Save  
 explorer.SaveChanges();   
 ```  

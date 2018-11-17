@@ -56,7 +56,7 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
   
 2.  In Solution Explorer, open FFReceivePipelineTest.cs and add the following directives to the top of that file:  
   
-    ```  
+    ```csharp
     using System.IO;  
     using System.Collections.Specialized;  
     using System.Collections.Generic;  
@@ -64,7 +64,7 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
   
 3.  Scroll to the bottom of the file and replace the **FFReceivePipelineConstructorTest** method with the following code, which verifies that the pipeline inputs exist before testing the pipeline. This code also verifies that a message conforming to the flat file schema is generated.  
   
-    ```  
+    ```csharp
     [TestMethod()]  
     public void FFReceivePipelineUnitTest()  
     {  
@@ -119,8 +119,8 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
   
      The processed message should look similar to the following:  
   
-    ```  
-    <purchaseOrder orderDate="1999-10-20" xmlns="http://FlatFileRecieve.PO">  
+    ```xml
+    <purchaseOrder orderDate="1999-10-20" xmlns="http://FlatFileReceive.PO">  
   
       <shipTo country="US" xmlns="">  
         <name>Alice Smith</name>  
@@ -146,14 +146,14 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
           <productName>Lawnmower</productName>  
           <quantity>1</quantity>  
           <USPrice>148.95</USPrice>  
-          <comment xmlns="http://FlatFileRecieve.PO">Confirm this is electric</comment>  
+          <comment xmlns="http://FlatFileReceive.PO">Confirm this is electric</comment>  
         </item>  
   
         <item partNum="926-AA">  
           <productName>Baby Monitor</productName>  
           <quantity>1</quantity>  
           <USPrice>39.98</USPrice>  
-          <comment xmlns="http://FlatFileRecieve.PO">Confirm this is electric</comment>  
+          <comment xmlns="http://FlatFileReceive.PO">Confirm this is electric</comment>  
           <shipDate>1999-05-21</shipDate>  
         </item>  
   

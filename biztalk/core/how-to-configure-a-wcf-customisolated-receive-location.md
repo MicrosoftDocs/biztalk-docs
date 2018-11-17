@@ -83,7 +83,7 @@ You can configure a WCF-CustomIsolated receive location either programmatically 
 
  You can use the following format to set the properties:  
 
-```  
+```xml
 <CustomProps>  
   <InboundBodyPathExpression vt="8" />  
   <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
@@ -108,7 +108,7 @@ You can configure a WCF-CustomIsolated receive location either programmatically 
 
  The following code fragment illustrates creating a WCF-CustomIsolated receive location:  
 
-```  
+```csharp
 // Use BizTalk Explorer object model to create new WCF-CustomIsolated receive location   
 string server = System.Environment.MachineName;  
 string database = "BizTalkMgmtDb";  
@@ -130,8 +130,8 @@ explorer.SaveChanges();
 IReceivePort receivePort = application.AddNewReceivePort(false);  
 receivePort.Name = "SampleReceivePort";  
 // Add a new one-way receive location  
-IReceiveLocation recieveLocation = receivePort.AddNewReceiveLocation();  
-recieveLocation.Name = "SampleReceiveLocation";  
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
+receiveLocation.Name = "SampleReceiveLocation";  
 // Find a receive handler for WCF-CustomIsolated   
 int i = 0;  
 for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
@@ -139,11 +139,11 @@ for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
     if("WCF-CustomIsolated" == explorer.ReceiveHandlers[i].TransportType.Name)  
         break;  
 }  
-recieveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-recieveLocation.Address = "http://mycomputer/samplepath/sampleservice";  
-recieveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-recieveLocation.TransportType = explorer.ProtocolTypes["WCF-CustomIsolated"];  
-recieveLocation.TransportTypeData = transportConfigData;  
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
+receiveLocation.Address = "http://mycomputer/samplepath/sampleservice";  
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-CustomIsolated"];  
+receiveLocation.TransportTypeData = transportConfigData;  
 // Save  
 explorer.SaveChanges();   
 ```  
