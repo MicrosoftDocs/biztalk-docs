@@ -7619,7 +7619,7 @@
                     "type": "boolean"
                 },
                 "OrderedDelivery": {
-                    "description": "Floag specifying whether or not the send port orders the delivery of messages.",
+                    "description": "Flag specifying whether or not the send port orders the delivery of messages.",
                     "type": "boolean"
                 },
                 "StopSendingOnFailure": {
