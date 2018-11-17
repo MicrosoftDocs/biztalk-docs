@@ -6899,7 +6899,7 @@
                     "description": "Outbound Message Body",
                     "type": "boolean"
                 },
-                "OrchestartionEvents": {
+                "OrchestrationEvents": {
                     "description": "Orchestration Events",
                     "type": "boolean"
                 },
