@@ -31,7 +31,7 @@ Common Programming Interface for Communications (CPI-C) maintains a set of inter
 |Log data length|0|0|[Set_Log_Data](./set-log-data-cpi-c-2.md)|  
 |Mode name|The mode name contained in the side information. If no *sym_dest_name* is specified, this is a null string.|The mode name for the session on which the conversation startup request arrived.|[Set_Mode_Name](./set-mode-name-cpi-c-2.md)|  
 |Mode name length|Length of mode name. If no *sym_dest_name* is specified, this is zero.|Length of mode name.|[Set_Mode_Name](./set-mode-name-cpi-c-2.md)|  
-artner LU name|The partner logical unit (LU) name contained in the side information. If no *sym_dest_name* is specified, this is a single blank.|The partner LU name for the session on which the conversation startup request arrived.|[Set_Partner_LU_Name](./set-partner-lu-name-cpi-c-2.md)|  
+Partner LU name|The partner logical unit (LU) name contained in the side information. If no *sym_dest_name* is specified, this is a single blank.|The partner LU name for the session on which the conversation startup request arrived.|[Set_Partner_LU_Name](./set-partner-lu-name-cpi-c-2.md)|  
 |Partner LU name length|Length of partner LU name. If no *sym_dest_name* is specified, this is 1.|Length of partner LU name.|[Set_Partner_LU_Name](./set-partner-lu-name-cpi-c-2.md)|  
 |Partner program name|The program name contained in the side information. If no *sym_dest_name* is specified, this is a single blank.|Not applicable.|[Set_TP_Name](./set-tp-name-cpi-c-1.md)|  
 |Partner program name length|Length of partner program name. If no *sym_dest_name* is specified, this is 1.|Not applicable.|[Set_TP_Name](./set-tp-name-cpi-c-1.md)|  
