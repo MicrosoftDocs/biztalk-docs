@@ -7193,7 +7193,7 @@
                 },
                 "EndDate": {
                     "format": "date-time",
-                    "description": "Endt date of the service window",
+                    "description": "End date of the service window",
                     "type": "string"
                 },
                 "EndDateEnabled": {
