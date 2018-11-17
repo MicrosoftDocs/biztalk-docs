@@ -17,7 +17,7 @@ manager: "anneta"
 # How to Configure a WCF-NetMsmq Receive Location
 You can configure a WCF-NetMsmq receive location either programmatically or by using the BizTalk Administration console.  
 
-## Configuratin properties
+## Configuration properties
 
  The BizTalk Explorer Object Model enables you to create and configure receive locations programmatically. The BizTalk Explorer Object Model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a WCF-NetMsmq receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer Object Model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.  
 
