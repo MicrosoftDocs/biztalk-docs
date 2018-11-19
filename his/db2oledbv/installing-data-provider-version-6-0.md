@@ -20,6 +20,8 @@ This topic provides instructions to install the Data Provider Version 6.0.
 ## Supported Operating Systems  
  The Data Provider (32-bit x86 or 64-bit x64) will install on these Microsoft operating systems.  
   
+-   Windows Server 2019
+
 -   Windows Server 2016  
   
 -   Windows Server 2012 R2  
@@ -39,10 +41,14 @@ This topic provides instructions to install the Data Provider Version 6.0.
 ### Supported OLE DB Data Consumers  
  The Data Provider (32-bit x86 or 64-bit x64) is supported with these Microsoft OLE DB data consumers.  
   
+-   SQL Server 2017
+
 -   SQL Server 2016  
   
 -   SQL Server 2014  
   
+-   SQL Server Data Tools for SQL Server 2017
+
 -   SQL Server Data Tools for SQL Server 2016  
   
 -   SQL Server Data Tools for SQL Server 2014  
