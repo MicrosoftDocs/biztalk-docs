@@ -16,13 +16,13 @@ manager: "anneta"
 # What's New in Version 6.0
 The Microsoft OLE DB Provider for DB2 version 6.0 offers the following improvements:  
   
--   Compatibility with SQL Server 2016  
+-   Compatibility with SQL Server 2016 and SQL Server 2017  
   
 -   Compatibility with SQL Server Data Tools for SQL Server 2016  
   
 -   Installation on Windows 10  
   
--   Installation on Windows Server 2016  
+-   Installation on Windows Server 2016 and Windows Server 2019  
   
 -   Connectivity to IBM DB2 for z/OS V11
 
