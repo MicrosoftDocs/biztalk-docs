@@ -84,7 +84,7 @@ manager: "anneta"
      ![Updated orchestration to send update message](../../adapters-and-accelerators/adapter-sql/media/sql-adap-tut-04-update-msg-orch.gif "sql_adap_tut_04_update_msg_orch")  
   
 ## What did I just do?  
- In this step, you updated the orchestration by adding a **MessageAssignment** shape, **Send** and **Receive** shapes, and a port. You connected the shapes and ports to send request message to execute the UDPATE_EMPLOYEE request message and receive the response.  
+ In this step, you updated the orchestration by adding a **MessageAssignment** shape, **Send** and **Receive** shapes, and a port. You connected the shapes and ports to send request message to execute the UPDATE_EMPLOYEE request message and receive the response.  
   
 ## Next Steps  
  In the next step, you add orchestration shapes to invoke the Insert operation on the **Purchase_Order** table, as described in [Lesson 4: Perform an Insert Operation on the Purchase Order Table](../../adapters-and-accelerators/adapter-sql/lesson-4-perform-an-insert-operation-on-the-purchase-order-table.md).  
