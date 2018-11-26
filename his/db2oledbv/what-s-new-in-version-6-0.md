@@ -18,7 +18,7 @@ The Microsoft OLE DB Provider for DB2 version 6.0 offers the following improveme
   
 -   Compatibility with SQL Server 2016 and SQL Server 2017  
   
--   Compatibility with SQL Server Data Tools for SQL Server 2016  
+-   Compatibility with SQL Server Data Tools for SQL Server 2016 and SQL Server 2017  
   
 -   Installation on Windows 10  
   
