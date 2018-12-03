@@ -40,7 +40,7 @@ After the custom adapter code has been successfully built it must be registered 
   
  You have two options for specifying the .NET type that implements the adapter receiver, adapter transmitter, and adapter management:  
   
-1. Install the adapter to a folder and specify *TypeName and \*AssemblyPath where \*TypeName is type.FullName of the class and \*AssemblyPath is the path and file name of the assembly.  
+1. Install the adapter to a folder and specify \*TypeName and \*AssemblyPath where \*TypeName is type.FullName of the class and \*AssemblyPath is the path and file name of the assembly.  
   
 2. Install the adapter in the global assembly cache and specify just *TypeName where \*TypeName is type.AssemblyQualifiedName of the class. This is the recommended option.  
   
