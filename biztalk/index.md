@@ -637,7 +637,7 @@ ms.author: mandia
                                 </a>
                             </li>
                             <li>
-                                <a href="http://www.codeplex.com/site/search?query=biztalk&ac=4">
+                                <a href="https://archive.codeplex.com/?s=biztalk">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
