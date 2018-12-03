@@ -5872,7 +5872,7 @@
                     "readOnly": true
                 },
                 "ProcessingServer": {
-                    "description": "ProcessingS erver",
+                    "description": "Processing Server",
                     "type": "string",
                     "readOnly": true
                 },
