@@ -7197,7 +7197,7 @@
                     "type": "string"
                 },
                 "EndDateEnabled": {
-                    "description": "Flag indiacting if end date of the service window is enabled.",
+                    "description": "Flag indicating if end date of the service window is enabled.",
                     "type": "boolean"
                 },
                 "ServiceWindowEnabled": {
