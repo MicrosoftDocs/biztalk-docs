@@ -38,7 +38,7 @@ artner LU name|The partner logical unit (LU) name contained in the side informat
 |Password|The password contained in the side information. If no *sym_dest_name* is specified, this is a single blank.|The value specified by the invoking program.|[Set_Conversation_Security_Password](./set-conversation-security-password-cpi-c-1.md)|  
 |Password length|Length of password. If no *sym_dest_name* is specified, this is 1.|Length of password.|[Set_Conversation_Security_Password](./set-conversation-security-password-cpi-c-1.md)|  
 |Prepare-to-receive type|CM_PREP_TO_ RECEIVE_SYNC_ LEVEL|CM_PREP_TO_ RECEIVE_SYNC_ LEVEL|[Set_Prepare_To_Receive_Type](./set-prepare-to-receive-type-cpi-c-1.md)|  
-eceive type|CM_RECEIVE_AND_ WAIT|CM_RECEIVE_AND_ WAIT|[Set_Receive_Type](./set-receive-type-cpi-c-2.md)|  
+Receive type|CM_RECEIVE_AND_ WAIT|CM_RECEIVE_AND_ WAIT|[Set_Receive_Type](./set-receive-type-cpi-c-2.md)|  
 |Return control|CM_WHEN_SESSION_ ALLOCATED|Not applicable.|[Set_Return_Control](./set-return-control-cpi-c-2.md)|  
 |Security type|The security type contained in the side information.|The value specified by the invoking program.|[Set_Conversation_Security_Type](./set-conversation-security-type-cpi-c-1.md)|  
 |Send type|CM_BUFFER_DATA|CM_BUFFER_DATA|[Set_Send_Type](./set-send-type-cpi-c-2.md)|  

@@ -7141,7 +7141,7 @@
                     "type": "string"
                 },
                 "ReceiveHandler": {
-                    "description": "Receive handler for this eceive location.",
+                    "description": "Receive handler for this receive location.",
                     "type": "string"
                 },
                 "CustomData": {
