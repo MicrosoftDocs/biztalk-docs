@@ -195,7 +195,7 @@ The Transactional Adapter sample demonstrates how to create and use an explicit 
 
 3. Select the **New Query** toolbar button and paste the following into the new query window to insert a test table, test data, and a test stored procedure into the Northwind database. Select the **Execute** toolbar button.  
 
-   ```  
+   ```sql
    use [Northwind]  
    GO  
    if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[scratch]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)  
@@ -221,7 +221,7 @@ The Transactional Adapter sample demonstrates how to create and use an explicit 
 
 4. In [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the **Send Ports** node, select the **TxnSendPort1** send port, and select **Start**.  
 
-5. In [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the **ReceiveLocations** node, select the **TxnRecieveLocation1** receive location, and then select **Enable**.  
+5. In [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)], expand the **ReceiveLocations** node, select the **TxnReceiveLocation1** receive location, and then select **Enable**.  
 
 6. Once the receive location is enabled, it will automatically poll the database at the designated intervals for data.  
 

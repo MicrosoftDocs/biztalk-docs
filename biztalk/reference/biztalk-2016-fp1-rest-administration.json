@@ -7235,7 +7235,7 @@
             "type": "object",
             "properties": {
                 "Name": {
-                    "description": "Name of the recieve port.",
+                    "description": "Name of the receive port.",
                     "type": "string"
                 },
                 "Description": {
