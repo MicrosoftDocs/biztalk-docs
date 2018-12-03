@@ -5948,7 +5948,7 @@
                     "readOnly": true
                 },
                 "OriginatorPartyName": {
-                    "description": "Originato rParty Name",
+                    "description": "Originator Party Name",
                     "type": "string",
                     "readOnly": true
                 },
