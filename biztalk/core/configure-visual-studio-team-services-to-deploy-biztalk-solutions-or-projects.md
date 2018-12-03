@@ -106,11 +106,11 @@ Next, create the BizTalk Server Application Deployment definition.
 
 1. Select the **Builds** tab, select **All Definitions**, and select **New**:
 
-    ![Create new release defintion](../core/media/create-new-release-defintion.png)
+    ![Create new release definition](../core/media/create-new-release-definition.png)
 
 2. Select the **Empty** template, and select **Next**:
 
-    ![Create new defintion from an empty template](../core/media/create-new-defintion-from-an-empty-template.png)
+    ![Create new definition from an empty template](../core/media/create-new-definition-from-an-empty-template.png)
 
 3. Select your **Repository** source and **Branch** for the definition.
 4. **Optional**. Select **Continuous Integration**.
@@ -120,8 +120,10 @@ Next, create the BizTalk Server Application Deployment definition.
     ![Add new deploy definition](../core/media/add-new-deploy-definition.png)
 
 7. Select the **Operation Name** you want to use:
-    * **Create new BizTalk Application** deploys a new application. If the application already exsist, it uninstalls the current applications (full stop), and installs the new application. If continuous integration is enabled, it automatically redeploys the application when it is updated in the repository.
-    * **Update an exsisting BizTalk Application** appends changes, such as **Schemas** to an already running application. It does not require a full redeploy of the application.
+
+    * **Create new BizTalk Application** deploys a new application. If the application already exist, it uninstalls the current applications (full stop), and installs the new application. If continous integration is enabled, it automatically redeploys the application when it is updated in the repository.
+    * **Update an existing BizTalk Application** appends changes, such as **Schemas** to an already running application. It does not require a full redeploy of the application.
+
 8. Enter the **Application name** in your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] environment.
 9. In **Deployment package path**, select the path to the zip file in your repository.
 10. Select **Triggers** from the menu, enable **Continuous Integration**, and select the correct **Branch** for the build.
