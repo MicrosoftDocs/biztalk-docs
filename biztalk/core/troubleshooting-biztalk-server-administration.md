@@ -30,7 +30,7 @@ This section provides a centralized location for information about common proble
  This is because the ENTSSO service can take more time to start than is allowed by the BizTalk Server service timeout duration.  
   
 ##### Solution  
- To resolve this issue, set DTC to automatic. If DTC is clustered it should be set to manual start-up as the cluster service is managing the start and stop of clustered services. 
+ To resolve this issue, set DTC to automatic. If DTC is clustered, it should be set to manual start-up because the cluster service is managing the start and stop of clustered services. 
   
 #### SQL resources may become locked  
   
