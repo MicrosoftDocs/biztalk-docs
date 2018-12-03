@@ -76,7 +76,7 @@ This topic shows you how to set up and configure Visual Studio Team Service (VST
 
       ![Delete steps not needed](../core/media/delete-steps-not-needed.png)
 
-13. **Optional**. If you want to enable Continous Integration (CI), select **Triggers** in the menu, and check **Continous integration (CI)**.
+13. **Optional**. If you want to enable Continuous Integration (CI), select **Triggers** in the menu, and check **Continuous integration (CI)**.
 
 Next, install the agent on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. 
 
@@ -113,18 +113,20 @@ Next, create the BizTalk Server Application Deployment definition.
     ![Create new definition from an empty template](../core/media/create-new-definition-from-an-empty-template.png)
 
 3. Select your **Repository** source and **Branch** for the definition.
-4. **Optional**. Select **Continous Integration**.
+4. **Optional**. Select **Continuous Integration**.
 5. Select the **Default** agent from the queue list, and select **Create**.
 6. **Add build step**, select the **BizTalk Server Application Deployment** task, and select **Add**. **Close** the task catalog.
 
     ![Add new deploy definition](../core/media/add-new-deploy-definition.png)
 
 7. Select the **Operation Name** you want to use:
+
     * **Create new BizTalk Application** deploys a new application. If the application already exist, it uninstalls the current applications (full stop), and installs the new application. If continous integration is enabled, it automatically redeploys the application when it is updated in the repository.
     * **Update an existing BizTalk Application** appends changes, such as **Schemas** to an already running application. It does not require a full redeploy of the application.
+
 8. Enter the **Application name** in your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] environment.
 9. In **Deployment package path**, select the path to the zip file in your repository.
-10. Select **Triggers** from the menu, enable **Continous Integration**, and select the correct **Branch** for the build.
+10. Select **Triggers** from the menu, enable **Continuous Integration**, and select the correct **Branch** for the build.
 11. Select **Save**:
 
     ![Save the new build definition](../core/media/save-the-new-build-definition.png)
