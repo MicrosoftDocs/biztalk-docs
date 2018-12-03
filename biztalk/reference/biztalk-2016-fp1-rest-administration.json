@@ -5857,7 +5857,7 @@
                     "readOnly": true
                 },
                 "PendingOperation": {
-                    "description": "PendingO peration",
+                    "description": "Pending Operation",
                     "type": "string",
                     "readOnly": true
                 },
