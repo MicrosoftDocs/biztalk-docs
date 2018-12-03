@@ -20,7 +20,7 @@ Describes the part of the TN3270 session that specifies client configuration.
   
 ## Syntax  
   
-```  
+```csharp
   
 class MsSna_TN3270Session : MsSna_Config  
 {  
@@ -92,7 +92,7 @@ class MsSna_TN3270Session : MsSna_Config
 |1|Specific|  
 |2|GenericPrinter|  
 |3|SpecificPrinter|  
-|4|AssoicatedPrinter|  
+|4|AssociatedPrinter|  
   
  **NumSessions**  
  Data Type: **sint32**Qualifiers: <strong>MINVALUE(0), MAXVALUE(65535)</strong>Access Type: Read/Write  

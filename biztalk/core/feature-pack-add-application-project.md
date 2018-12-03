@@ -132,7 +132,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
     ![Set the debug or release version](../core/media/application-project-version.png)
 
-8. Right-click your application project (e.g. appProjectHelloWorld), and select **Build**. If it succeeds, a zip file is created in ***yourApplicationProject*\bin\debug** folder:  
+8. Right-click your application project (e.g. appProjectHelloWorld), and select **Build**. If it succeeds, a zip file is created in **_yourApplicationProject_\bin\debug** folder:  
 
     ![Build zip file](../core/media/application-project-zip-file.png)
 
