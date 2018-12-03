@@ -6740,7 +6740,7 @@
                     "readOnly": true
                 },
                 "LastBatchAction": {
-                    "description": "Last BatchA ction",
+                    "description": "Last Batch Action",
                     "type": "string",
                     "readOnly": true
                 },
