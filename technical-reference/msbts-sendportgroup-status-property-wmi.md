@@ -18,7 +18,7 @@ Displays the current status of the port.
 
 ## Syntax
 
-``` 
+```C#
 uint32 Status;  
 ```
 

@@ -18,7 +18,7 @@ The syntax shown is language neutral.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 LMSThreshold;  
 ```

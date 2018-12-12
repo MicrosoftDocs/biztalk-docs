@@ -18,7 +18,7 @@ Starts the send port.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Start();  
 ```

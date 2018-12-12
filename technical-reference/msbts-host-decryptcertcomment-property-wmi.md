@@ -16,7 +16,7 @@ Represents a comment field that allows you to associate a friendly name with a d
 
 ## Syntax
 
-``` 
+```C#
   
 string DecryptCertComment;  
 ```

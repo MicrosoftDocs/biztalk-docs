@@ -16,7 +16,7 @@ This property contains the name of the BizTalk Host that this transport handler 
 
 ## Syntax
 
-``` 
+```C#
   
 stringHostNameToSwitchTo;  
 ```

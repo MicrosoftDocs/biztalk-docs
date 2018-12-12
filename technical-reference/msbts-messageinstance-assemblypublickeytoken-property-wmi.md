@@ -18,7 +18,7 @@ Contains the public key token of the .NET assembly that corresponds to the servi
 
 ## Syntax
 
-``` 
+```C#
   
 string AssemblyPublicKeyToken;  
 ```

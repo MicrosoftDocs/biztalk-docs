@@ -60,7 +60,7 @@ In the following figure, you can see that the second parameter to the Database L
 
 You can use the following scripts in the Scripting functoid.
 
-``` 
+```C#
 public string connectionString1()  
         {  
             string serverName = Environment.MachineName;  
@@ -70,7 +70,7 @@ public string connectionString1()
   
 ```
 
-``` 
+```C#
 public string connectionString2(string password)  
         {  
             string serverName = Environment.MachineName;  

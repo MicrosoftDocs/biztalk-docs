@@ -14,7 +14,7 @@ mtps_version: v=BTS.80
 
 The **listOfValueXRef** document contains data stored in the **xref\_ValueXRef** SQL Server table. The document has the following structure:
 
-``` 
+```C#
 <?xml version = "1.0" encoding = "UTF-8"?>  
 <listOfValueXRef>  
     <valueXRef>  

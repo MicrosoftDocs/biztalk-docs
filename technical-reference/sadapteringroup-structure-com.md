@@ -16,7 +16,7 @@ Describes the names of one or more adapters in a group.
 
 ## Syntax
 
-``` 
+```C#
   
 public: __value struct SAdapterInGroup  
   

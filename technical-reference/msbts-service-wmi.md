@@ -16,7 +16,7 @@ This type or member supports the BizTalk Server infrastructure and is not intend
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_Service : CIM_LogicalElement  
 ```
 

@@ -16,7 +16,7 @@ This property contains the name of the adapter used by the given instance. This 
 
 ## Syntax
 
-``` 
+```C#
   
 stringAdapterName;  
 ```

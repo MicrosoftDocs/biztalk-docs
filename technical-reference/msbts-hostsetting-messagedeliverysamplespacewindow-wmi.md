@@ -16,7 +16,7 @@ This property represents the time-window in milliseconds beyond which samples wi
 
 ## Syntax
 
-``` 
+```C#
   
 uint32MessageDeliverySampleSpaceWindow;  
 ```

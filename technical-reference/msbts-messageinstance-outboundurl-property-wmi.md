@@ -18,7 +18,7 @@ Contains the name of the URL this message is going to be sent to.
 
 ## Syntax
 
-``` 
+```C#
   
 string OutboundURL;  
 ```

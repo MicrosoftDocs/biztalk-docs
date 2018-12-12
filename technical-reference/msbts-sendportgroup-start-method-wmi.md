@@ -18,7 +18,7 @@ Starts the send port group.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Start();  
 ```

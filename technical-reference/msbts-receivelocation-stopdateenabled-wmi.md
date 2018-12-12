@@ -18,7 +18,7 @@ Enables or disables the active stop date specified by **ActiveStopDT** property.
 
 ## Syntax
 
-``` 
+```C#
   
 boolean StopDateEnabled = false;  
 ```

@@ -16,7 +16,7 @@ This property indicates whether the send handler is the default one for this ada
 
 ## Syntax
 
-``` 
+```C#
   
 Boolean IsDefault;  
 ```

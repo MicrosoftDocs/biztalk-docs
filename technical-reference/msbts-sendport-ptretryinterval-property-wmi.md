@@ -18,7 +18,7 @@ Contains the retry interval for the primary transport of the port.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 PTRetryInterval;  
 ```

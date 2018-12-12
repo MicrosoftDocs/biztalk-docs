@@ -18,7 +18,7 @@ Contains the name of the BizTalk Host with which this orchestration is enlisted.
 
 ## Syntax
 
-``` 
+```C#
   
 string HostName;  
 ```

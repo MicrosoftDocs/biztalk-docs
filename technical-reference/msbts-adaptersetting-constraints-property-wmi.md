@@ -18,7 +18,7 @@ Gets or sets a bitmap with the constraints of the adapter.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Constraints;  
 ```

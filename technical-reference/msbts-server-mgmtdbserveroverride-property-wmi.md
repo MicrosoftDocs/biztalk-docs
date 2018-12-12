@@ -24,7 +24,7 @@ Overrides the data source part of the BizTalk Management database connection str
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 string MgmtDbServerOverride = "";  
 ```
 

@@ -18,7 +18,7 @@ Determines whether the primary transport for the port supports ordered delivery.
 
 ## Syntax
 
-``` 
+```C#
   
 boolean PTOrderedDelivery;  
 ```

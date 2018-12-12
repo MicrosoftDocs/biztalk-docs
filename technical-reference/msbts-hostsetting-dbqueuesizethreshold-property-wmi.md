@@ -16,7 +16,7 @@ This property represents the maximum number of items in the Database.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32DBQueueSizeThreshold;  
 ```

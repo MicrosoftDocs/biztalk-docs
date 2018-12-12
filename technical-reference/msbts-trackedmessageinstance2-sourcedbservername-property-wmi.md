@@ -16,7 +16,7 @@ Name of the SQL server where the tracked message is stored (either MessageBox or
 
 ## Syntax
 
-``` 
+```C#
   
 stringSourceDBServerName;  
 ```

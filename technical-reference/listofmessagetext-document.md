@@ -14,7 +14,7 @@ mtps_version: v=BTS.80
 
 The **listOfMessageText** document contains data stored in the **xref\_MessageText** SQL Server table. The document has the following structure:
 
-``` 
+```C#
 <?xml version="1.0" encoding="UTF-8"?>  
 <listOfMessageText lang="en-us">  
     <messageText code="INVALID_CREDIT">Invalid Credit '%1'</messageText>  

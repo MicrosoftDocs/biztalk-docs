@@ -16,7 +16,7 @@ Contains the name of the SQL Server where the MessageBox database is located. Th
 
 ## Syntax
 
-``` 
+```C#
   
 string MsgBoxDBServerName;  
 ```

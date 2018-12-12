@@ -18,7 +18,7 @@ Contains the number of retries available for the primary transport of the port.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 PTRetryCount;  
 ```

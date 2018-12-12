@@ -18,7 +18,7 @@ Contains the name of the BizTalk Host for the receive handler hosting the given 
 
 ## Syntax
 
-``` 
+```C#
   
 string ReceiveHostName;  
 ```

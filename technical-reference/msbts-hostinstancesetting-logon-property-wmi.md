@@ -18,7 +18,7 @@ Contains the logon information that this BizTalk host instance is using.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 string Logon;  
 ```
 

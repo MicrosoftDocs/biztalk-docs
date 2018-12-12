@@ -32,7 +32,7 @@ Configure the functoids with desired input parameters; configure the Scripting f
 
 The script for S1 is as follows:
 
-``` 
+```C#
 public bool IsPetProduct(string SKU)  
 {  
      return SKU.StartsWith("88");  
@@ -41,7 +41,7 @@ public bool IsPetProduct(string SKU)
 
 The script for S2 is as follows:
 
-``` 
+```C#
 public bool IsGroovyProduct(string SKU)  
 {  
      return SKU.StartsWith("89");  
@@ -51,7 +51,7 @@ public bool IsGroovyProduct(string SKU)
 
 The script for S3 is as follows:
 
-``` 
+```C#
 public bool IsOtherProduct(string SKU)  
 {  
      return !IsGroovyProduct(SKU) && !IsPetProduct(SKU);  
@@ -60,7 +60,7 @@ public bool IsOtherProduct(string SKU)
 
 The input file is as below:
 
-``` 
+```C#
 <ns0:FlattenedCatalog xmlns:ns0="http://ValueMappingFunctoid">  
   <Product Name="Stapler" SKU="1929383" Price="5.95" />   
   <Product Name="Tape" SKU="6433400" Price="3.50" />   
@@ -73,7 +73,7 @@ The input file is as below:
 
 After you run a test map operation, you get the following output:
 
-``` 
+```C#
 <ns0:CategorizedCatalog xmlns:ns0="http://ValueMapping">  
   <PetProduct Name="Solar-Powered Pet Groomer" SKU="8802222" Price="229.15" />   
   <GroovyProduct Name="Disco Ball" SKU="8900230" Price="49.99" />   
@@ -99,7 +99,7 @@ Configure the functoids with desired input parameters, and also set the **TestMa
 
 The input file is as below:
 
-``` 
+```C#
 <ns0:Catalog xmlns:ns0="http://ValueMappingFunctoid">  
   <Product>  
   <Field Name="Name" Value="Stapler" />   
@@ -121,7 +121,7 @@ The input file is as below:
 
 After you run a test map operation, you get the following output:
 
-``` 
+```C#
 <ns0:FlattenedCatalog xmlns:ns0="http://ValueMappingFunctoid">  
   <Product Name="Stapler" SKU="1929383" Price="5.95" />   
   <Product Name="Tape" SKU="6433400" Price="3.50" />   

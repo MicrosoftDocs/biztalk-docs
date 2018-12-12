@@ -18,7 +18,7 @@ Contains the ID of the message instance.
 
 ## Syntax
 
-``` 
+```C#
   
 string MessageInstanceID;  
 ```

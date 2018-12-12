@@ -18,7 +18,7 @@ Represents the name of the pipeline that will process the document before it is 
 
 ## Syntax
 
-``` 
+```C#
   
 string PipelineName;  
 ```

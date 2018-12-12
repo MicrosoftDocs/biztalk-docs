@@ -18,7 +18,7 @@ Contains transport type data for the secondary transport of the port.
 
 ## Syntax
 
-``` 
+```C#
   
 string STCustomCfg;  
 ```

@@ -18,7 +18,7 @@ Contains the installation state for given instance of the BizTalk host.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 uint32 ConfigurationState;  
 ```
 

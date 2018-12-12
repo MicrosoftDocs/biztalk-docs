@@ -22,7 +22,7 @@ Terminates service instances by ID.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 TerminateServiceInstancesByID(  
     string ServiceClassID[],  

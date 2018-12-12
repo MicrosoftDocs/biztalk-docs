@@ -38,7 +38,7 @@ You can provide this property value in several ways:
 
 If you do not provide a value for this property, generated output instance messages will be written to your designated temporary folder using a path and filename of the following form:
 
-``` 
+```C#
 C:\Documents and Settings\<UserName>\Local Settings\Temp\_SchemaData\<SchemaName>_output.<xml|txt>  
 ```
 

@@ -18,7 +18,7 @@ Contains the name of the adapter.
 
 ## Syntax
 
-``` 
+```C#
   
 string AdapterName;  
 ```

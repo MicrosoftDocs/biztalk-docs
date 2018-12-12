@@ -18,7 +18,7 @@ Contains information about how this message is referenced by a service.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 ReferenceType;  
 ```

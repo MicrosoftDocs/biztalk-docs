@@ -16,7 +16,7 @@ This optional property can be used to override the initial catalog part of the B
 
 ## Syntax
 
-``` 
+```C#
   
 string MgmtDbNameOverride;  
 ```

@@ -91,7 +91,7 @@ If the *bstrSSOServer* parameter is NULL, the Single Sign-On (SSO) server locati
 
 ## Example
 
-``` 
+```C#
   
 ConfigStore  
 bstrApplication  

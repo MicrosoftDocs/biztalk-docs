@@ -101,7 +101,7 @@ If the ***bstrSSOServer*** parameter is NULL, the SSO server location is obtaine
 
 ## Example
 
-``` 
+```C#
   
 ConfigStore  
 bstrApplication  

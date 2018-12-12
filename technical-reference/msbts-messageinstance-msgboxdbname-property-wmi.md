@@ -18,7 +18,7 @@ Contains the name of the MessageBox database.
 
 ## Syntax
 
-``` 
+```C#
   
 string MsgBoxDBName;  
 ```

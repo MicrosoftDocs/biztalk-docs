@@ -16,7 +16,7 @@ Contains the error category when the service instance is suspended. The syntax s
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 ErrorCategory;  
 ```

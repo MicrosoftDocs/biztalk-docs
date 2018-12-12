@@ -18,7 +18,7 @@ Contains a default logon for the BizTalk Host instance creation user interface.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 string LastUsedLogon;  
 ```
 

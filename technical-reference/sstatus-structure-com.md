@@ -16,7 +16,7 @@ Describes the current status.
 
 ## Syntax
 
-``` 
+```C#
   
 public: __value struct SStatus  
   

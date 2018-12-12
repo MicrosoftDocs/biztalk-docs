@@ -20,7 +20,7 @@ Contains the name of the receive port used by the receive location.
 
 ## Syntax
 
-``` 
+```C#
   
 string ReceivePortName;  
 ```

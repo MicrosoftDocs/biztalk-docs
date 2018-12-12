@@ -18,7 +18,7 @@ Contains the start time of the service window of the primary transport for the p
 
 ## Syntax
 
-``` 
+```C#
   
 datetime PTFromTime;  
 ```

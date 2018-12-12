@@ -18,7 +18,7 @@ Contains the name of the Microsoft® .NET-based assembly with which this orchest
 
 ## Syntax
 
-``` 
+```C#
   
 string OrchestrationAssemblyName;  
 ```

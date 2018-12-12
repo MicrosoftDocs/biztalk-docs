@@ -20,7 +20,7 @@ Contains the name of the send port.
 
 ## Syntax
 
-``` 
+```C#
 string Name;  
 ```
 

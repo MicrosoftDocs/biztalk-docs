@@ -18,7 +18,7 @@ Indicates whether this port is a one way or two way port.
 
 ## Syntax
 
-``` 
+```C#
 boolean IsTwoWay;  
 ```
 

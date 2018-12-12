@@ -18,7 +18,7 @@ Contains the start time of a service window when the receive location should act
 
 ## Syntax
 
-``` 
+```C#
   
 datetime SrvWinStartDT;  
 ```

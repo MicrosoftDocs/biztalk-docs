@@ -18,7 +18,7 @@ Contains the URL of primary transport for the port.
 
 ## Syntax
 
-``` 
+```C#
   
 string PTAddress;  
 ```

@@ -16,7 +16,7 @@ Provides an instance of a service, with start and stop functionality.
 
 ## Syntax
 
-``` 
+```C#
   
 class MSBTS_ServiceInstance : MSBTS_BTSObject  
 ```
@@ -177,7 +177,7 @@ class MSBTS_ServiceInstance : MSBTS_BTSObject
 
 The following example displays how to limit the results of WMI queries on the MSBTS\_ServiceInstance and MSBTS\_MessageInstance WMI classes. These two WMI classes have support for WMI context properties that allow limiting a result set. This is required because the number of service instances or message instances may be very large. This is not the case for any other BizTalk WMI class and WMI context should be not used with them.
 
-``` 
+```C#
 EnumAllInstances  
   
 If Err <> 0 Then  

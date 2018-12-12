@@ -74,7 +74,7 @@ The values **Restriction**, **Extension**, and **Substitution** can be set in co
 
 In corresponding instance messages, other derived data types can be used for a particular element unless explicitly prevented by the settings of the **Block** and/or **BlockDefault** properties, as follows:
 
-``` 
+```C#
 <RecordName   
             xmlns:xsi="http://www.w3c.org/2001/XMLSchema-instance>"  
   

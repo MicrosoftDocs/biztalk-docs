@@ -18,7 +18,7 @@ Set to 0 to disable throttling that is based on process memory. If you provide a
 
 ## Syntax
 
-``` 
+```C#
   
 uint32ProcessMemoryThreshold;  
 ```

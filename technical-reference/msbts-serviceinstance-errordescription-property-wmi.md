@@ -16,7 +16,7 @@ Contains the error description when service instance is suspended. The syntax sh
 
 ## Syntax
 
-``` 
+```C#
   
 string ErrorDescription;  
 ```

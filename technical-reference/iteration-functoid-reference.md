@@ -26,7 +26,7 @@ Use the **Iteration** functoid ( ![](images/Aa560018.1c8ae190-aed0-49fc-b235-5c8
 
 For example, if the **Iteration** functoid is connected to a **Record** node in the source schema and connected to a **Field Element** node named "book" in the destination schema, and in a particular instance message the corresponding input element occurs three times, the following output is produced:
 
-``` 
+```C#
 <book>1</book>  
 <book>2</book>  
 <book>3</book>  

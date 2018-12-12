@@ -16,7 +16,7 @@ This method clusters all BizTalk Host Instances on the given BizTalk Host.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Cluster(string ClusterResourceGroupName);  
 ```

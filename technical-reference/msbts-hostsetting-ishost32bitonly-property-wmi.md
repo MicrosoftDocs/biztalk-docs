@@ -16,7 +16,7 @@ This property indicates whether the host instance process should be created as 3
 
 ## Syntax
 
-``` 
+```C#
   
 Boolean IsHost32BitOnly  
 ```

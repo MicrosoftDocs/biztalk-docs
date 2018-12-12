@@ -16,7 +16,7 @@ Represents an instance of an orchestration that belongs to the installed module.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_Orchestration : MSBTS_Service  
 ```
 

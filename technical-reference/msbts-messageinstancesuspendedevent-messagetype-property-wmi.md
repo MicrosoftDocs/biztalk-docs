@@ -18,7 +18,7 @@ This property is not supported in the current release. This information can be r
 
 ## Syntax
 
-``` 
+```C#
   
 string MessageType;  
 ```

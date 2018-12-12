@@ -16,7 +16,7 @@ This method returns a string array that contains a list of available cluster res
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 GetClusterResourceGroupNames(string[] ClusterResourceGroupNames);  
 ```

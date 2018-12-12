@@ -18,7 +18,7 @@ Contains the retry interval for the secondary transport of the port.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 STRetryInterval;  
 ```

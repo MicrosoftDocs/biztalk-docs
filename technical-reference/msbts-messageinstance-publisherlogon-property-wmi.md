@@ -18,7 +18,7 @@ Contains the document type that corresponds to the message instance.
 
 ## Syntax
 
-``` 
+```C#
   
 string Schema;  
 ```

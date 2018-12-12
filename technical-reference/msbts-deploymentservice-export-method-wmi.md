@@ -18,7 +18,7 @@ Exports the binding file from the target database.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Export (string Server, string Database, string Assembly, string Name, string Version, string Culture, string PublicKeyToken, string Binding, string Log);  
 ```

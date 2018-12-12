@@ -16,7 +16,7 @@ Updates the **IsDisabled** property when a host is in the stopped state.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_HostInstanceSetting : MSBTS_Setting  
 ```
 

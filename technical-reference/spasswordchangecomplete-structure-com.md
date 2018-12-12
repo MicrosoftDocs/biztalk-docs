@@ -16,7 +16,7 @@ Describes when a change to a password has been completed.
 
 ## Syntax
 
-``` 
+```C#
   
 public: __value struct SPasswordChangeComplete  
   

@@ -16,7 +16,7 @@ Represents tracked message instances stored in the MessageBox or Archived databa
 
 ## Syntax
 
-``` 
+```C#
 class MSBTS_TrackedMessageInstance : MSBTS_BTSObject  
 ```
 

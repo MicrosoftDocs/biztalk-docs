@@ -18,7 +18,7 @@ Contains the document type that corresponds to this message.
 
 ## Syntax
 
-``` 
+```C#
   
 string MessageType;  
 ```

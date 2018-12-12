@@ -18,7 +18,7 @@ Stops all BizTalk Server services on a specific server.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 uint32 Stop();  
 ```
 

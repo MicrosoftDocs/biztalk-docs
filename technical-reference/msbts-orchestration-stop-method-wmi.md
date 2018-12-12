@@ -18,7 +18,7 @@ Stops the orchestration by disabling its activation subscription.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Stop(  
     uint32 AutoDisableReceiveLocationFlag,   

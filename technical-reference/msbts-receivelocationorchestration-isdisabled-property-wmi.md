@@ -18,7 +18,7 @@ Enables or disables a receive location.
 
 ## Syntax
 
-``` 
+```C#
   
 boolean IsDisabled = false;  
 ```

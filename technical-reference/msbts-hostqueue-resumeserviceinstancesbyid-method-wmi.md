@@ -22,7 +22,7 @@ Resubmits service instances by ID.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 ResumeServiceInstancesByID(  
     string ServiceClassID[],  

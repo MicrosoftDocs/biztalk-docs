@@ -18,7 +18,7 @@ Contains the originators SID.
 
 ## Syntax
 
-``` 
+```C#
   
 string OriginatorSID;  
 ```

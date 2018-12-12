@@ -115,7 +115,7 @@ minOccurs=&quot;1&quot; maxOccurs=&quot;50&quot;/&gt;</td>
 
 There are some combinations of elements that, when used with the **Any** element, may cause the content model to become ambiguous. For example, if your schema contains an element with a maxOccurs constraint prior to an **Any** element, you must qualify the **Any** element with a namespace:
 
-``` 
+```C#
 <xs:element ref="ns0:Automobile" maxOccurs="10"/>  
 <xs:any namespace="http://mynamespace" processContents="lax"/>   
 ```

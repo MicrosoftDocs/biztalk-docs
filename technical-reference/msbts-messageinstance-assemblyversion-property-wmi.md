@@ -18,7 +18,7 @@ Contains the version of the .NET assembly that corresponds to the service instan
 
 ## Syntax
 
-``` 
+```C#
   
 string AssemblyVersion;  
 ```

@@ -18,7 +18,7 @@ Contains the URL provided by the transport component, based on the specific adap
 
 ## Syntax
 
-``` 
+```C#
   
 string InboundTransportUrl;  
 ```

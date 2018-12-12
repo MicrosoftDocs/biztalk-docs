@@ -16,7 +16,7 @@ Indicates whether a tracking service can be trusted to collect authentication in
 
 ## Syntax
 
-``` 
+```C#
   
 boolean AuthTrusted;  
 ```

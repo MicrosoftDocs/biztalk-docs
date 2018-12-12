@@ -16,7 +16,7 @@ Enables an administrator to suspend an instance of a service. The syntax shown i
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Suspend();  
 ```

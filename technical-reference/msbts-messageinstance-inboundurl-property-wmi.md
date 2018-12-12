@@ -18,7 +18,7 @@ Contains the name of the URL this message is received from.
 
 ## Syntax
 
-``` 
+```C#
   
 string InboundURL;  
 ```

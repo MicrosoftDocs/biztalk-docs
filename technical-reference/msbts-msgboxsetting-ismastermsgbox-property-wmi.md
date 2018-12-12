@@ -18,7 +18,7 @@ Indicates whether this MessageBox is the master MessageBox.
 
 ## Syntax
 
-``` 
+```C#
   
 Boolean IsMasterMsgBox;  
 ```

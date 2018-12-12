@@ -16,7 +16,7 @@ This property lists the maximum number of threads in the process (per CPU) allow
 
 ## Syntax
 
-``` 
+```C#
   
 uint32ThreadThreshold;  
 ```

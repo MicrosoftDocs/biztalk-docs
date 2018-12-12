@@ -16,7 +16,7 @@ Contains the name of the assembly associated with the message instance. The synt
 
 ## Syntax
 
-``` 
+```C#
   
 string AssemblyName;  
 ```

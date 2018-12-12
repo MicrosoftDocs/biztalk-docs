@@ -18,7 +18,7 @@ Maps the server to the MessageBox without installing applications.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 uint32 Map();  
 ```
 

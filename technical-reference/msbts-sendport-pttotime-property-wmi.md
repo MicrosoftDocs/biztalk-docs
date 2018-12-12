@@ -18,7 +18,7 @@ Contains the end time of the service window of the primary transport for the por
 
 ## Syntax
 
-``` 
+```C#
   
 datetime PTToTime;  
 ```

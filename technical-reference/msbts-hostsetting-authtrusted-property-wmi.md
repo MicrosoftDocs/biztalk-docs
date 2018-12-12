@@ -18,7 +18,7 @@ Indicates whether a BizTalk host can be trusted to collect authentication inform
 
 *The syntax shown is language neutral*.
 
-``` 
+```C#
 boolean AuthTrusted = false;  
 ```
 

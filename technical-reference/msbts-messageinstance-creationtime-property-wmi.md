@@ -18,7 +18,7 @@ Contains the time that this message was last modified.
 
 ## Syntax
 
-``` 
+```C#
   
 datetime CreationTime;  
 ```

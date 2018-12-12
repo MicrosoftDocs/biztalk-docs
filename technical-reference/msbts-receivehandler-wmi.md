@@ -16,7 +16,7 @@ Represents an individual receive handler defined by Microsoft BizTalk Server.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_ReceiveHandler : MSBTS_Setting  
 ```
 

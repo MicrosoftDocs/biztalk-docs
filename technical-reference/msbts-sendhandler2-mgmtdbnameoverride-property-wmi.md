@@ -18,7 +18,7 @@ string MgmtDbNameOverride="";
 
 ## Syntax
 
-``` 
+```C#
   
 string MgmtDbNameOverride;  
 ```

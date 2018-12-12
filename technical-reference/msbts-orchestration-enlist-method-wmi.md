@@ -18,7 +18,7 @@ Enlists the orchestration by creating its activation subscription.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Enlist(string ApplicationTypeName);  
 ```

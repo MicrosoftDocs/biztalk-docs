@@ -16,7 +16,7 @@ Overrides the initial catalog part of the BizTalk Management database connect st
 
 ## Syntax
 
-``` 
+```C#
   
 string MgmtDbNameOverride = "";  
 ```

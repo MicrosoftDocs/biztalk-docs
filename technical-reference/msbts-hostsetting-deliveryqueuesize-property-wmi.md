@@ -16,7 +16,7 @@ This property represents the size of the in-memory queue. This queue serves as a
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 DeliveryQueueSize;  
 ```

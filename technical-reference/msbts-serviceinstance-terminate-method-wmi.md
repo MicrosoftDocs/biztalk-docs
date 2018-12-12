@@ -16,7 +16,7 @@ Enables an administrator to terminate an instance of a service. The syntax shown
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Terminate();  
 ```
