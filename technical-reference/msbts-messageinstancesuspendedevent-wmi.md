@@ -16,7 +16,7 @@ Represents a suspended event for a BizTalk Message Queuing (MSMQT) message insta
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_MessageInstanceSuspendedEvent : _ExtrinsicEvent  
 ```
 

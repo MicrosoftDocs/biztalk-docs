@@ -16,7 +16,7 @@ Represents group of send ports defined by the BizTalk Server.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_SendPortGroup : MSBTS_Setting  
 ```
 

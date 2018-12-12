@@ -18,7 +18,7 @@ Contains the message context.
 
 ## Syntax
 
-``` 
+```C#
   
 string Context;  
 ```

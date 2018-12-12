@@ -16,7 +16,7 @@ Describes change to a password.
 
 ## Syntax
 
-``` 
+```C#
   
 public: __value struct SPasswordChange  
   

@@ -16,7 +16,7 @@ Contains the error description when the service instance is suspended. The synta
 
 ## Syntax
 
-``` 
+```C#
   
 string ErrorDescription;  
 ```

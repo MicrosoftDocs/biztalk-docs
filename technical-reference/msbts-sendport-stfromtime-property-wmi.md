@@ -18,7 +18,7 @@ Contains the start time of the service window of the secondary transport for the
 
 ## Syntax
 
-``` 
+```C#
   
 datetime STFromTime;  
 ```

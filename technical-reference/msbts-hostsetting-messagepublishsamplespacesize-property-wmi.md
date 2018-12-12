@@ -16,7 +16,7 @@ The number of samples used to determine the rate of Message Publishing by the Se
 
 ## Syntax
 
-``` 
+```C#
   
 uint32MessagePublishSampleSpaceSize;  
 ```

@@ -18,7 +18,7 @@ Contains the name of the host.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 string HostName;  
 ```
 

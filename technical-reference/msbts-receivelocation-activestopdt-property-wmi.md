@@ -18,7 +18,7 @@ Contains the date when the receive location should deactivate.
 
 ## Syntax
 
-``` 
+```C#
   
 datetime ActiveStopDT;  
 ```

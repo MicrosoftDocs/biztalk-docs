@@ -22,7 +22,7 @@ Causes the runtime to create WSDL operations in the metadata. This method should
 
 ## Method Declaration
 
-``` 
+```C#
 [OperationContract(IsOneWay = false, Action = "BizTalkSubmit")]  
 [TransactionFlow(TransactionFlowOption.Mandatory)]  
 Message BizTalkSubmit(Message message);  

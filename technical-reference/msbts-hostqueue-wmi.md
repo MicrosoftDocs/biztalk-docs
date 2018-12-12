@@ -16,7 +16,7 @@ Represents an application.
 
 ## Syntax
 
-``` 
+```C#
   
 class MSBTS_HostQueue : MSBTS_BTSObject  
 ```

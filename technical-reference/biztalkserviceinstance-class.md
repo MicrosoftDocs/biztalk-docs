@@ -22,7 +22,7 @@ The **BizTalkServiceInstance** class implements the service contracts that the W
 
 ## Interface Declaration
 
-``` 
+```C#
 [ServiceBehavior(  
      InstanceContextMode = InstanceContextMode.Single,  
      ConcurrencyMode = ConcurrencyMode.Multiple  

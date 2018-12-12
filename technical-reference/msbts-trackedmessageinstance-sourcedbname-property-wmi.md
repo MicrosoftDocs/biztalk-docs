@@ -18,7 +18,7 @@ Contains the name of the SQL database where the tracked message is stored, eithe
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 string SourceDBName;  
 ```
 

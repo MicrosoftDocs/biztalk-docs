@@ -18,7 +18,7 @@ Deploys the assembly into the target database.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Deploy (string Server, string Database, string Assembly, boolean Install, string Binding, string Log);  
 ```

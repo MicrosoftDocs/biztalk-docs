@@ -18,7 +18,7 @@ Gets a default outbound configuration for the adapter.
 
 ## Syntax
 
-``` 
+```C#
   
 string DefaultOutboundCfg;  
 ```

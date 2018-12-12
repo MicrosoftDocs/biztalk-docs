@@ -18,7 +18,7 @@ Contains state of the service instance to which this message belongs.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 ServiceInstanceStatus;  
 ```

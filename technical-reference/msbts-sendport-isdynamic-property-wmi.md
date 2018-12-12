@@ -18,7 +18,7 @@ Indicates whether this port is a dynamic or static.
 
 ## Syntax
 
-``` 
+```C#
   
 boolean IsDynamic;  
 ```

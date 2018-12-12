@@ -22,7 +22,7 @@ Represents a comment field that enables you to associate a friendly name with a 
 
 ## Syntax
 
-``` 
+```C#
   
 string DecryptCertComment;  
 ```

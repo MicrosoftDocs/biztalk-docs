@@ -18,7 +18,7 @@ Contains the GUID of the service type that the service instance referencing this
 
 ## Syntax
 
-``` 
+```C#
   
 string ServiceTypeID;  
 ```

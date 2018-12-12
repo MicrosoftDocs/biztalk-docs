@@ -18,7 +18,7 @@ Contains the name of the adapter that will send this message.
 
 ## Syntax
 
-``` 
+```C#
   
 string OutboundAdapterName;  
 ```

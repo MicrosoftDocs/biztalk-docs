@@ -18,7 +18,7 @@ Specifies a primary receive function to use for correlation.
 
 ## Syntax
 
-``` 
+```C#
   
 boolean IsPrimary = false;  
 ```

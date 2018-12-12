@@ -18,7 +18,7 @@ Contains the name of receive port used by the given instance of the receive loca
 
 ## Syntax
 
-``` 
+```C#
   
 string ReceivePortName;  
 ```

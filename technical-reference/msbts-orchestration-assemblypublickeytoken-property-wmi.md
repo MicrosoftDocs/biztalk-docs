@@ -18,7 +18,7 @@ Contains the public key token of the .NET assembly to which this orchestration b
 
 ## Syntax
 
-``` 
+```C#
   
 string AssemblyPublicKeyToken;  
 ```

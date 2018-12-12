@@ -18,7 +18,7 @@ Enables or disables the publication of new messages in the MessageBox database.
 
 ## Syntax
 
-``` 
+```C#
   
 boolean DisableNewMessagePublication = FALSE;  
 ```

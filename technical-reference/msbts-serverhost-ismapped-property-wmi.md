@@ -18,7 +18,7 @@ Indicates whether the specified server works with the specified MessageBox.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 boolean IsMapped;  
 ```
 

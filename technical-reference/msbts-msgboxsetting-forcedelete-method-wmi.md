@@ -18,7 +18,7 @@ Deletes the MessageBox object.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 ForceDelete();  
 ```

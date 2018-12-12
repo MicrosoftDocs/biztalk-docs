@@ -18,7 +18,7 @@ Contains the thumbprint of the public key certificate used to decrypt inbound me
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 string DecryptCertThumbprint;  
 ```
 

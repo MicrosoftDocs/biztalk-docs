@@ -22,7 +22,7 @@ Asynchronously processes messages incoming through the WCF one-way receive locat
 
 ## Method Declaration
 
-``` 
+```C#
 [OperationContract(AsyncPattern = true, IsOneWay = false, Action = "*", ReplyAction = "*")]  
 [TransactionFlow(TransactionFlowOption.Mandatory)]  
 IAsyncResult BeginTwoWayMethod(Message message, AsyncCallback callback, object state);  

@@ -48,7 +48,7 @@ The value for Input\[1\] is “Provider=SQLNCLI10;Server=localhost;Database=Cont
 
 If the lookup table name is incorrect, the output message would be similar to the one below. If “authors” is an invalid table name, an error message is encountered which is stored in the “ErrorMessage” node.
 
-``` 
+```C#
 <ns0:SampleSource xmlns:ns0="http://Sample">  
     <Person>  
         <FirstName>FirstName_0</FirstName>  

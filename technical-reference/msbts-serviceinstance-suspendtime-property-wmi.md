@@ -16,7 +16,7 @@ Contains the time at which the service instance was suspended. The syntax shown 
 
 ## Syntax
 
-``` 
+```C#
   
 datetime SuspendTime;  
 ```

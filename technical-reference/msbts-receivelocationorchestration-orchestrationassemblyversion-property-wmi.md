@@ -18,7 +18,7 @@ Contains the version of the Microsoft® .NET-based assembly with which this orch
 
 ## Syntax
 
-``` 
+```C#
   
 string OrchestrationAssemblyName;  
 ```

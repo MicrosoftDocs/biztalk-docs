@@ -18,7 +18,7 @@ Contains the end time of the service window of the secondary transport for the p
 
 ## Syntax
 
-``` 
+```C#
   
 datetime STToTime;  
 ```

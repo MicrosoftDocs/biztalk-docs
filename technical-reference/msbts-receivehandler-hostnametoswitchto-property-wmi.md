@@ -18,7 +18,7 @@ Contains the name of the BizTalk Host that this adapter handler should switch to
 
 ## Syntax
 
-``` 
+```C#
   
 string HostNameToSwitchTo = "";  
 ```

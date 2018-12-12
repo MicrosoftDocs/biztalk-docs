@@ -16,7 +16,7 @@ Creates a Microsoft BizTalk Server host setting.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_HostSetting : MSBTS_Setting  
 ```
 

@@ -18,7 +18,7 @@ Contains the priority of the send port.
 
 ## Syntax
 
-``` 
+```C#
 uint32 Priority;  
 ```
 

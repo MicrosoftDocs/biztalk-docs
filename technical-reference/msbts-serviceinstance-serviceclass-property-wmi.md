@@ -16,7 +16,7 @@ Contains the name of the service class that corresponds to the message instance.
 
 ## Syntax
 
-``` 
+```C#
   
 uint ServiceClass;  
 ```

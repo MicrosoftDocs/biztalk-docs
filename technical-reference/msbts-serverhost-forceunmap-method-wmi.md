@@ -18,7 +18,7 @@ Unmaps the server from the MessageBox even whether or not all applications canno
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 uint32 ForceUnmap();  
 ```
 

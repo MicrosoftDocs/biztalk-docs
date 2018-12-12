@@ -18,7 +18,7 @@ Contains the name of the primary receive location for the port.
 
 ## Syntax
 
-``` 
+```C#
 string PrimaryReceiveLocation;  
 ```
 

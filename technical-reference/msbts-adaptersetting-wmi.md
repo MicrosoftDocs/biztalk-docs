@@ -16,7 +16,7 @@ Registers new adapters with Microsoft® BizTalk® Server.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_AdapterSetting : MSBTS_Setting  
 ```
 

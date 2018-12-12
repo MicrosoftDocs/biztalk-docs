@@ -18,7 +18,7 @@ Unmaps the server from the MessageBox.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 uint32 Unmap();  
 ```
 

@@ -18,7 +18,7 @@ Contains the culture of the .NET assembly that corresponds to the service instan
 
 ## Syntax
 
-``` 
+```C#
   
 string AssemblyCulture;  
 ```

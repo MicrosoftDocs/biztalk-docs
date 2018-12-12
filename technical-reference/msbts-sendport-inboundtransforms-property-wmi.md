@@ -18,7 +18,7 @@ Contains a string representation of the maps to apply per inbound document.
 
 ## Syntax
 
-``` 
+```C#
 string InboundTransforms;  
 ```
 

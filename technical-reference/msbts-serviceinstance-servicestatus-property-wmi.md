@@ -16,7 +16,7 @@ Contains the state of the service instance to which this message belongs. The sy
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 ServiceStatus;  
 ```

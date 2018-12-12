@@ -16,7 +16,7 @@ This property controls whether failed messages have to be routed to failed messa
 
 ## Syntax
 
-``` 
+```C#
   
 boolean RouteFailedMessage;  
 ```

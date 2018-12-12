@@ -16,7 +16,7 @@ Represents a single instance of a BizTalk Host.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_HostInstance : MSBTS_Service  
 ```
 

@@ -20,7 +20,7 @@ Enables or disables a receive function.
 
 ## Syntax
 
-``` 
+```C#
   
 boolean IsDisabled = true;  
 ```

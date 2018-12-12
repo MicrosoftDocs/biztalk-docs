@@ -20,7 +20,7 @@ Contains the name of the pipeline that will process the document before the docu
 
 ## Syntax
 
-``` 
+```C#
   
 string PipelineName;  
 ```

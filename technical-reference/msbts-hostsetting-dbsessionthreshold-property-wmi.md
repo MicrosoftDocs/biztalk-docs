@@ -16,7 +16,7 @@ This parameter represents the maximum number of DB Sessions (per CPU) allowed be
 
 ## Syntax
 
-``` 
+```C#
   
 uint32DBSessionThreshold;  
 ```

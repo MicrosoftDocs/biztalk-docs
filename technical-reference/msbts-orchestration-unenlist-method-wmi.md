@@ -18,7 +18,7 @@ Terminates all instances of the orchestration and removes its activation subscri
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 UnenlistService(  
     uint32 AutoTerminateOrchestrationInstanceFlag  

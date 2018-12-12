@@ -18,7 +18,7 @@ Contains the name of the service that corresponds to the message instance.
 
 ## Syntax
 
-``` 
+```C#
   
 string ServiceName;  
 ```

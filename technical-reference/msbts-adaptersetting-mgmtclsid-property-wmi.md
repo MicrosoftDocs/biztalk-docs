@@ -18,7 +18,7 @@ Gets the class identifier (CLSID) of the COM component responsible for managing 
 
 ## Syntax
 
-``` 
+```C#
   
 string MgmtCLSID;  
 ```

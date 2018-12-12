@@ -18,7 +18,7 @@ Enables or disables a host instance.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 boolean IsDisabled = FALSE;  
 ```
 

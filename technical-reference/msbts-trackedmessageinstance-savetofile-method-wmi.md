@@ -18,7 +18,7 @@ Saves the message context and parts into multiple output files.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 uint32 SaveToFile(  
      string OutputFolderFullPath  
 );  

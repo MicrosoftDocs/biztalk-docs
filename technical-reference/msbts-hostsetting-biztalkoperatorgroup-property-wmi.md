@@ -16,7 +16,7 @@ Contains the name of the BizTalk Operators Windows Group.
 
 ## Syntax
 
-``` 
+```C#
   
 string BizTalkOperatorGroup;  
 ```

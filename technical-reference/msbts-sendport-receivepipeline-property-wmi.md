@@ -18,7 +18,7 @@ Contains the name of the receive pipeline for the port.
 
 ## Syntax
 
-``` 
+```C#
 string ReceivePipeline;  
 ```
 

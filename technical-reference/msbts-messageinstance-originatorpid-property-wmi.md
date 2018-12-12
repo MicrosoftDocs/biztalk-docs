@@ -18,7 +18,7 @@ Contains the originators PID.
 
 ## Syntax
 
-``` 
+```C#
   
 string OriginatorPID;  
 ```

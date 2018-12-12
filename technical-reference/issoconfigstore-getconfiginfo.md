@@ -109,7 +109,7 @@ To get the config info, this method is provided with an empty property bag that 
 
 ## Example Code
 
-``` 
+```C#
   
 ConfigStore  
 bstrApplication  

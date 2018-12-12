@@ -16,7 +16,7 @@ Contains the type of a pending operations (if any) for this service instance. Th
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 PendingOperation;  
 ```

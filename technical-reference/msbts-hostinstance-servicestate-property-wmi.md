@@ -18,7 +18,7 @@ Contains the state of the host instance.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 uint32 ServiceState;  
 ```
 

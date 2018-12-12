@@ -16,7 +16,7 @@ This property represents the maximum number of in-memory in-flight messages allo
 
 ## Syntax
 
-``` 
+```C#
   
 uint32InflightMessageThreshold;  
 ```

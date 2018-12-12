@@ -18,7 +18,7 @@ Contains textual representation of the filter.
 
 ## Syntax
 
-``` 
+```C#
 string Filter;  
 ```
 

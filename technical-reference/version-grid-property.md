@@ -14,7 +14,7 @@ mtps_version: v=BTS.80
 
 Use the **Version** property to specify version "1.0" in relation to the "xml" output method, which appears in the output XML declaration as:
 
-``` 
+```C#
 <?xml version='1.0' ?>  
 ```
 

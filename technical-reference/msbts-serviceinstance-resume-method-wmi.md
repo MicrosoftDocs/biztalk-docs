@@ -16,7 +16,7 @@ Enables an administrator to resume instances of a service. The syntax shown is l
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Resume();  
 ```

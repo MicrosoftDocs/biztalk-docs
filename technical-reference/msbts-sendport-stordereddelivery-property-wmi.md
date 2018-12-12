@@ -18,7 +18,7 @@ Determines whether the secondary transport for the port supports ordered deliver
 
 ## Syntax
 
-``` 
+```C#
   
 boolean STOrderedDelivery;  
 ```

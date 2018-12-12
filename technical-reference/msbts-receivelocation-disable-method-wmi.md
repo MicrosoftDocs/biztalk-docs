@@ -18,7 +18,7 @@ Disables a receive location.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Disable();  
 ```

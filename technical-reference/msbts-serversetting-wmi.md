@@ -16,7 +16,7 @@ Represents specific computers within the BizTalk group that have BizTalk Servers
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_ServerSetting : MSBTS_Setting  
 ```
 

@@ -18,7 +18,7 @@ Contains the name of the host this send handler.
 
 ## Syntax
 
-``` 
+```C#
   
 string HostName;  
 ```

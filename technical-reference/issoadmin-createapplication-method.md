@@ -31,7 +31,7 @@ LONG lNumFields
 );  
 ```
 
-``` 
+```C#
   
 [Visual Basic]  
 Sub CreateApplication(  

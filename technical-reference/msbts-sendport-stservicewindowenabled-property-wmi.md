@@ -18,7 +18,7 @@ Determines whether a service window of the secondary transport for the port is e
 
 ## Syntax
 
-``` 
+```C#
   
 boolean STServiceWindowEnabled;  
 ```

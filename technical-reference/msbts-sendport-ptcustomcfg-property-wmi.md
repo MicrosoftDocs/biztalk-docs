@@ -18,7 +18,7 @@ Contains transport type data for the primary transport of the port.
 
 ## Syntax
 
-``` 
+```C#
   
 string PTCustomCfg;  
 ```

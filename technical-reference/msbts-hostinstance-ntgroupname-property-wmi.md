@@ -18,7 +18,7 @@ Contains the name of the Microsoft Windows NT group.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 string NTGroupName;  
 ```
 

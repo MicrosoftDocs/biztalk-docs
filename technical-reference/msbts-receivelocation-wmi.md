@@ -22,7 +22,7 @@ Represents an individual receive location defined by Microsoft BizTalk Server.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_ReceiveLocation : MSBTS_Setting  
 ```
 

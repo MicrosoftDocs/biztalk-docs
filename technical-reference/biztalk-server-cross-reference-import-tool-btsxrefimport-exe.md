@@ -16,7 +16,7 @@ The BizTalk Server Cross Reference Import tool reads data from a series of XML f
 
 ## Syntax
 
-``` 
+```C#
   
 btsxrefimport  –file=setupfile  
 ```
@@ -51,7 +51,7 @@ The import tool does not create the SQL Server tables. Rather, the BizTalk Serve
 
 In the following command, btsxrefimport reads the names of the data files from the XML document in the file `setupfile.xml`:
 
-``` 
+```C#
 btsxrefimport –file=setupfile.xml  
 ```
 

@@ -16,7 +16,7 @@ This method saves message context and parts into multiple output files.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32SaveToFile(string OutputFolderFullPath);  
 ```

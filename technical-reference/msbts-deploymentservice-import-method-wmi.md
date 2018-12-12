@@ -18,7 +18,7 @@ Imports the binding file into the target database.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Import (string Server, string Database, string Assembly, boolean Install, string Binding, string Log);  
 ```

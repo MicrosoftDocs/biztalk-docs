@@ -16,7 +16,7 @@ This property tells whether the BizTalk Host Instance NT service is clustered.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32ClusterInstanceType;  
 ```
