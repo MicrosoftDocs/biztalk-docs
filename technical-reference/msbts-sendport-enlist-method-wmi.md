@@ -18,7 +18,7 @@ Enlists the send port.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Enlist();  
 ```

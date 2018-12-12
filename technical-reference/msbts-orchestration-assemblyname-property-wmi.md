@@ -21,7 +21,7 @@ Contains the name of the Microsoft .NET-based assembly to which the orchestratio
 
 ## Syntax
 
-``` 
+```C#
   
 string AssemblyName;  
 ```

@@ -16,7 +16,7 @@ Contains the error code when service instance is suspended. The syntax shown is 
 
 ## Syntax
 
-``` 
+```C#
   
 string ErrorID;  
 ```

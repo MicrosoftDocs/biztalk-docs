@@ -18,7 +18,7 @@ Contains the URL of secondary transport for the port.
 
 ## Syntax
 
-``` 
+```C#
   
 string STAddress;  
 ```

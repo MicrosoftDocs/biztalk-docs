@@ -18,7 +18,7 @@ Contains the name of the server.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 string ServerName;  
 ```
 

@@ -18,7 +18,7 @@ Indicates whether instances of this BizTalk Host will host the tracking sub serv
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 boolean HostTracking;  
 ```
 

@@ -16,7 +16,7 @@ This parameter represents (in percent) the maximum System-wide Virtual Memory us
 
 ## Syntax
 
-``` 
+```C#
   
 uint32GlobalMemoryThreshold;  
 ```

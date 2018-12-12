@@ -18,7 +18,7 @@ Contains the number of attempts made to send this message.
 
 ## Syntax
 
-``` 
+```C#
   
 string RetryCount;  
 ```

@@ -16,7 +16,7 @@ This property contains the custom configuration data for the SendPipeline.
 
 ## Syntax
 
-``` 
+```C#
   
 String SendPipelineData;  
 ```

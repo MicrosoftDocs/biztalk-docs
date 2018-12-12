@@ -16,7 +16,7 @@ This property represents the maximum number of messaging engine threads per CPU.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32ThreadPoolSize  
 ```

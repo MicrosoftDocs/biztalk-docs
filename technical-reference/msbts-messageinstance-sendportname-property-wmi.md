@@ -18,7 +18,7 @@ Contains the name of the send port that this message is going to be sent through
 
 ## Syntax
 
-``` 
+```C#
   
 string SendPortName;  
 ```

@@ -16,7 +16,7 @@ Percent Factor by which the system will overdrive the Input rate.
 
 ## Syntax
 
-``` 
+```C#
   
 Uint32 MessagePublishOverdriveFactor = 40;  
 ```

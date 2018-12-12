@@ -22,7 +22,7 @@ Asynchronously processes messages incoming through the WCF-NetMsmq one-way non-t
 
 ## Method Declaration
 
-``` 
+```C#
 [OperationContract(AsyncPattern = true, IsOneWay = true, Action = "*")]  
 IAsyncResult BeginOneWayMethod(Message message, AsyncCallback callback, object state);  
 ```

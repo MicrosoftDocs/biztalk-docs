@@ -24,7 +24,7 @@ The syntax shown is language neutral.
 
 ## Syntax
 
-``` 
+```C#
   
 string TrackingAnalysisDBName = "";  
 ```

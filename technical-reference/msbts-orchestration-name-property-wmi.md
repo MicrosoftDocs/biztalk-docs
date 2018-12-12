@@ -18,7 +18,7 @@ Contains the name of the orchestration.
 
 ## Syntax
 
-``` 
+```C#
   
 string Name;  
 ```

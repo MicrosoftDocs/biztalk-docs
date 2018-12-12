@@ -16,7 +16,7 @@ This property determines whether the port should send messages in an ordered man
 
 ## Syntax
 
-``` 
+```C#
   
 boolean OrderedDelivery;  
 ```

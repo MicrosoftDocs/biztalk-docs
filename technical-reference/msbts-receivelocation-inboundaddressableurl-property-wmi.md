@@ -18,7 +18,7 @@ Contains a URL that can be used by external parties to send documents to the rec
 
 ## Syntax
 
-``` 
+```C#
   
 string InboudAddressableURL;  
 ```

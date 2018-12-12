@@ -150,7 +150,7 @@ To access this method, you must be an SSO Administrator, SSO Affiliate Administr
 
 ## Example
 
-``` 
+```C#
 using System;  
 using System.Runtime.InteropServices;  
   

@@ -16,7 +16,7 @@ Represents all possible combinations of receive locations and orchestrations.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_ReceiveLocationOrchestration : MSBTS_Setting  
 ```
 

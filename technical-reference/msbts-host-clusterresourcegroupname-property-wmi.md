@@ -16,7 +16,7 @@ When the host instances of this host are clustered, this property contains the c
 
 ## Syntax
 
-``` 
+```C#
   
 string ClusterResourceGroupName;  
 ```

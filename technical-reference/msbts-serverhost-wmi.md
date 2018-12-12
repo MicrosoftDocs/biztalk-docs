@@ -16,7 +16,7 @@ Reflects the mapping between BizTalk servers and BizTalk Hosts.
 
 ## Syntax
 
-``` 
+```C#
   
 class MSBTS_ServerHost : MSBTS_BTSObject  
 ```

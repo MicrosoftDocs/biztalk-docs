@@ -22,7 +22,7 @@ mtps_version: v=BTS.80
 
 ## Method Declaration
 
-``` 
+```C#
 void EndTwoWayMethod(IAsyncResult result);  
 ```
 

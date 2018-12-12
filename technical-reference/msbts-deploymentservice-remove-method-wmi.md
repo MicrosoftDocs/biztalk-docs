@@ -18,7 +18,7 @@ Removes the assembly from the target database.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Remove (string Server, string Database, string Assembly, string Name, string Version, string Culture, string PublicKeyToken, boolean UnInstall, string Log);  
 ```

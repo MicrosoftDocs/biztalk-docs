@@ -18,7 +18,7 @@ Enables or disables a service window, which is defined by the **SrvWinStartDT** 
 
 ## Syntax
 
-``` 
+```C#
   
 boolean ServiceWindowEnabled = FALSE;  
 ```

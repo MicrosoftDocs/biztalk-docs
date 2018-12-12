@@ -18,7 +18,7 @@ Contains the end time of a service window when the receive location should deact
 
 ## Syntax
 
-``` 
+```C#
   
 datetime SrvWinStopDT;  
 ```

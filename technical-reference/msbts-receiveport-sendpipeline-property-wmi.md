@@ -18,7 +18,7 @@ Contains the name of the send pipeline for the port.
 
 ## Syntax
 
-``` 
+```C#
 string SendPipeline;  
 ```
 

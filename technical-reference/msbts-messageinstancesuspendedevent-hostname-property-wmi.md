@@ -18,7 +18,7 @@ Contains the name of the BizTalk Host that corresponds to this queue.
 
 ## Syntax
 
-``` 
+```C#
   
 string HostName;  
 ```

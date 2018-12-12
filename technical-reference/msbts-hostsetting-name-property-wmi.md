@@ -21,7 +21,7 @@ Contains the name of the BizTalk host.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 string Name;  
 ```
 

@@ -18,7 +18,7 @@ Contains the name of the adapter used by the given instance of the receive locat
 
 ## Syntax
 
-``` 
+```C#
   
 string AdapterName;  
 ```

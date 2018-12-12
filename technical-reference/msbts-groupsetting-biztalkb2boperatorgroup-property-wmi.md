@@ -16,7 +16,7 @@ This property is the name of the BizTalk B2B Operators Windows Group. Members of
 
 ## Syntax
 
-``` 
+```C#
   
 string BizTalkB2BOperatorGroup;  
 ```

@@ -18,7 +18,7 @@ Represents a message instance.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_MessageInstance : MSBTS_BTSObject  
 ```
 

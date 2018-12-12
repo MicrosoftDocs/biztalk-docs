@@ -16,7 +16,7 @@ This property represents the name of the pipeline that will process outbound doc
 
 ## Syntax
 
-``` 
+```C#
   
 String SendPipeline;  
 ```

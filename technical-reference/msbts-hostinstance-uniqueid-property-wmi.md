@@ -18,7 +18,7 @@ Contains the unique ID of the host instance.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 string UniqueID;  
 ```
 

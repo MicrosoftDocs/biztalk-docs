@@ -18,7 +18,7 @@ Contains the ID of the service class to which the message instance belongs.
 
 ## Syntax
 
-``` 
+```C#
   
 string ServiceClassID;  
 ```

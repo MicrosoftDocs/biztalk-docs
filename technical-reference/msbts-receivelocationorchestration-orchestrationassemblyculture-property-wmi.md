@@ -18,7 +18,7 @@ Contains the culture of the Microsoft® .NET-based assembly with which this orch
 
 ## Syntax
 
-``` 
+```C#
   
 string OrchestrationAssemblyCulture;  
 ```

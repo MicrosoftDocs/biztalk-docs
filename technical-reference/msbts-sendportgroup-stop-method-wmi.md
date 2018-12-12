@@ -18,7 +18,7 @@ Stops the send port group.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Stop();  
 ```

@@ -16,7 +16,7 @@ Maximum Delay (in milliseconds) imposed for Message Delivery Throttling. Zero in
 
 ## Syntax
 
-``` 
+```C#
   
 uint32MessageDeliveryMaximumDelay;  
 ```

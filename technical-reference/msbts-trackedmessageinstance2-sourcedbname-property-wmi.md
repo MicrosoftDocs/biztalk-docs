@@ -16,7 +16,7 @@ This parameter contains the name of the SQL database where the tracked message i
 
 ## Syntax
 
-``` 
+```C#
   
 stringSourceDBName;  
 ```

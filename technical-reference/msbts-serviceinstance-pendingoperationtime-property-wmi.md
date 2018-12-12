@@ -16,7 +16,7 @@ Contains the time of last pending operation. The syntax shown is language neutra
 
 ## Syntax
 
-``` 
+```C#
   
 datetime PendingOperationTime;  
 ```

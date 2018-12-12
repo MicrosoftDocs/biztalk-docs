@@ -18,7 +18,7 @@ Contains the adapter-specific configuration in XML format.
 
 ## Syntax
 
-``` 
+```C#
   
 string CustomCfg;  
 ```

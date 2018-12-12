@@ -18,7 +18,7 @@ Stops the send port.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Stop();  
 ```

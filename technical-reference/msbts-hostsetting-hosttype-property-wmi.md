@@ -22,7 +22,7 @@ Indicates which runtime model the instances of the BizTalk Host will be running 
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 HostType;  
 ```

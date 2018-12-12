@@ -16,7 +16,7 @@ This property contains the ID of this message.
 
 ## Syntax
 
-``` 
+```C#
   
 stringMessageInstanceID;  
 ```

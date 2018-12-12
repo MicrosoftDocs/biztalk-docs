@@ -16,7 +16,7 @@ This property contains adapter-specific configuration in XML format.
 
 ## Syntax
 
-``` 
+```C#
   
 stringCustomCfg;  
 ```

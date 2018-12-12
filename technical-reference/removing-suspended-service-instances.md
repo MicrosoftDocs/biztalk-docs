@@ -14,7 +14,7 @@ mtps_version: v=BTS.80
 
 Use the following code to delete suspended service instances.
 
-``` 
+```C#
 ' terminate.vbs  
 ' Enter terminate.vbs with no arguments from a command prompt for usage  
 ' This script needs to be run under a user account that is a member of the BizTalk Administrators   

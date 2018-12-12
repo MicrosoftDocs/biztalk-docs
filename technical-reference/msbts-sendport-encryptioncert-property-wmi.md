@@ -18,7 +18,7 @@ This property contains the Name of the certificate used for outbound encryption.
 
 ## Syntax
 
-``` 
+```C#
 string EncryptionCert;  
 ```
 
@@ -32,13 +32,13 @@ The syntax shown is language neutral.The maximum length for this property is 256
 
 The string must be constructed as shown below with appropriate values filled in and no extra spaces:
 
-``` 
+```C#
 "E=, C=, S=, L=, O=, OU=, CN="  
 ```
 
 For example, the following string specifies a certificate for a fictitious sample:
 
-``` 
+```C#
 "E=lab, C=US, S=Wa, L=Redmond, O=Microsoft, OU=BizTalk, CN=EncryptSample"  
 ```
 

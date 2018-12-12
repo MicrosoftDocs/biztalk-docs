@@ -22,7 +22,7 @@ Contains the thumbprint of the decryption certificate.
 
 ## Syntax
 
-``` 
+```C#
   
 string DecryptCertThumbprint;  
 ```

@@ -16,7 +16,7 @@ Encapsulates BizTalk assemblies for deployment or undeployment and bindings expo
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_DeploymentService : MSBTS_Setting  
 ```
 

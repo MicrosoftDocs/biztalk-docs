@@ -16,7 +16,7 @@ Represents the many to many relations between the send ports and the send port g
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_SendPortGroup2SendPort : MSBTS_Setting  
 ```
 

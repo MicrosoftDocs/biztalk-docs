@@ -16,7 +16,7 @@ Represents a suspended event for a service instance.
 
 ## Syntax
 
-``` 
+```C#
   
 class MSBTS_ServiceInstanceSuspendedEvent : _ExtrinsicEvent  
 ```

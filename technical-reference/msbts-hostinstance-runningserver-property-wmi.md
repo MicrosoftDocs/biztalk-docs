@@ -18,7 +18,7 @@ Contains the name of the server on which the host instance runs.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 string RunningServer;  
 ```
 

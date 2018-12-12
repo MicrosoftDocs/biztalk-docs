@@ -18,7 +18,7 @@ Retrieves information about instances of the orchestration in various states.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 QueryInstanceInfo(  
     uint32 NumberOfRunningActiveInstances,  

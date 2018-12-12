@@ -16,7 +16,7 @@ The maximum Delay (in milliseconds) imposed for Message Publishing Throttling. Z
 
 ## Syntax
 
-``` 
+```C#
   
 uint32MessagePublishMaximumDelay;  
 ```

@@ -16,7 +16,7 @@ Represents computers within a group that have Microsoft® BizTalk® Servers inst
 
 ## Syntax
 
-``` 
+```C#
   
 class MSBTS_Server : MSBTS_Service  
 ```

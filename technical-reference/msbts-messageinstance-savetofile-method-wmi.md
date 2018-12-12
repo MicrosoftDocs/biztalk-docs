@@ -18,7 +18,7 @@ Enables an administrator to save message context and parts into multiple output 
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 SaveToFile(string OutputFolderFullPath);  
 ```

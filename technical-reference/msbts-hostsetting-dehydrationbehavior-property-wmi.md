@@ -16,7 +16,7 @@ This property controls the dehydration behavior of the orchestration (XLANG) eng
 
 ## Syntax
 
-``` 
+```C#
 uint32  DehydrationBehavior;  
 ```
 

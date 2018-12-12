@@ -16,7 +16,7 @@ This method un-clusters all BizTalk host Instances on the given BizTalk host.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 UnCluster();  
 ```

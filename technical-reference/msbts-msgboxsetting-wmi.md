@@ -16,7 +16,7 @@ Represents a single MessageBox setting in the Microsoft BizTalk Server group.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_MsgBoxSetting : MSBTS_Setting  
 ```
 

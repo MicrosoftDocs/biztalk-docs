@@ -18,7 +18,7 @@ Retrieves information about services that this service depends on through either
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 QueryDependencyInfo(  
     uint32 Direction,  
@@ -44,7 +44,7 @@ This method returns an HRESULT indicating whether the method completed successfu
 
 The format of the XML is illustrated in the example below where one orchestration A calls orchestration B, and they both exist in the same assembly:
 
-``` 
+```C#
 <RootOrchestration Name="A" AssemblyName="X" AssemblyVersion="1.0.0.0" AssemblyCulture="neutral" AssemblyPublicKeyToken="cb1543ab759ce10e" EnlistedHost="">  
 <DownstreamOrchestration Relationship="CALL" Name="B" AssemblyName="X" AssemblyVersion="1.0.0.0" AssemblyCulture="neutral" AssemblyPublicKeyToken="cb1543ab759ce10e" EnlistedApp="App2"/>  
 </RootOrchestration>  

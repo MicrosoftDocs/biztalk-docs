@@ -14,7 +14,7 @@ mtps_version: v=BTS.80
 
 The SetUp-Files document contains information about the names and locations of the data files to import. It has the following structure:
 
-``` 
+```C#
 <?xml version="1.0" encoding="UTF-8"?>  
 <Setup-Files>  
     <App_Type_file>c:\ListOfAppType.xml</App_Type_file>  

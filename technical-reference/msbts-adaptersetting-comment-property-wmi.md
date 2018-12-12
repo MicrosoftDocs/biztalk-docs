@@ -18,7 +18,7 @@ Gets user comments.
 
 ## Syntax
 
-``` 
+```C#
   
 string Comment;  
 ```

@@ -16,7 +16,7 @@ This property controls how EPM handles failures for order delivery enabled send 
 
 ## Syntax
 
-``` 
+```C#
   
 boolean StopSendingOnFailure;  
 ```

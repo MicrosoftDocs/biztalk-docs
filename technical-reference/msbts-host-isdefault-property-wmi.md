@@ -18,7 +18,7 @@ Indicates whether the BizTalk Host represented by this WMI instance is the defau
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 boolean IsDefault;  
 ```
 

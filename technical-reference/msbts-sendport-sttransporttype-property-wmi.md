@@ -18,7 +18,7 @@ Contains the transport type of the secondary transport for the port.
 
 ## Syntax
 
-``` 
+```C#
   
 string STTransportType;  
 ```

@@ -18,7 +18,7 @@ Contains the version of the .NET assembly to which this orchestration belongs.
 
 ## Syntax
 
-``` 
+```C#
   
 string AssemblyVersion;  
 ```

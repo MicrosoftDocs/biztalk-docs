@@ -18,7 +18,7 @@ Checks if the server can host BizTalk host instances.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 uint32 CheckIfCanInstallHostInstances();  
 ```
 

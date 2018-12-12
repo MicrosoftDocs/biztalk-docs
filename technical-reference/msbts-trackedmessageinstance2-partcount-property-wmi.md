@@ -16,7 +16,7 @@ This parameter contains the number of message parts.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32PartCount;  
 ```

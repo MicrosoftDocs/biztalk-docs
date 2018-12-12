@@ -18,7 +18,7 @@ Retrieves the state of the given instance of the BizTalk host.
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 uint32 GetState(   
           [out] uint32 State  
 );  

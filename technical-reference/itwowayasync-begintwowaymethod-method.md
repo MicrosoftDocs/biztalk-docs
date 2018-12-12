@@ -22,7 +22,7 @@ Asynchronously processes messages incoming through the WCF request-response rece
 
 ## Method Declaration
 
-``` 
+```C#
 [OperationContract(AsyncPattern = true, IsOneWay = false, Action = "*", ReplyAction = "*")]  
 IAsyncResult BeginTwoWayMethod(Message message, AsyncCallback callback, object state);  
 ```

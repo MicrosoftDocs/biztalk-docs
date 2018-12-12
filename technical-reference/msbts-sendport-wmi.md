@@ -22,7 +22,7 @@ Represents an individual send port defined by BizTalk Server.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_SendPort : MSBTS_Setting  
 ```
 

@@ -18,7 +18,7 @@ Starts all BizTalk Host instances in the BizTalk group for the given BizTalk Hos
 
 *The syntax shown is language neutral.*
 
-``` 
+```C#
 uint32 StartService();  
 ```
 

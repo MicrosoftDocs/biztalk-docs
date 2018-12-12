@@ -16,7 +16,7 @@ Contains the name of the host that corresponds to this queue. The syntax shown i
 
 ## Syntax
 
-``` 
+```C#
   
 string HostName;  
 ```

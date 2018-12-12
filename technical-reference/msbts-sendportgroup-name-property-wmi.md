@@ -18,7 +18,7 @@ Contains the name of the send port group.
 
 ## Syntax
 
-``` 
+```C#
 string Name;  
 ```
 

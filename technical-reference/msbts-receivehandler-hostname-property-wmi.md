@@ -18,7 +18,7 @@ Contains the name of the BizTalk Host for this adapter.
 
 ## Syntax
 
-``` 
+```C#
   
 string HostName;  
 ```

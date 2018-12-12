@@ -27,7 +27,7 @@ SAFEARRAY externalCredentials
 );  
 ```
 
-``` 
+```C#
   
 [Visual Basic]  
 Sub SetExternalCredentials(  

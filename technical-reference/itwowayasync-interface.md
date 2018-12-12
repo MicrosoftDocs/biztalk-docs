@@ -22,7 +22,7 @@ The **ITwoWayAsync** interface is used for the WCF request-response receive loca
 
 ## Interface Declaration
 
-``` 
+```C#
 [ServiceContract(Namespace = http://www.microsoft.com/biztalk/2006/r2/wcf-adapter")]  
 public interface ITwoWayAsync  
 ```

@@ -16,7 +16,7 @@ This type or member supports the BizTalk Server infrastructure and is not intend
 
 ## Syntax
 
-``` 
+```C#
   
 class MSBTS_Setting : CIM_Setting  
 ```

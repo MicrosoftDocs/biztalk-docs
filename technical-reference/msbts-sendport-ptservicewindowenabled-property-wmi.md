@@ -18,7 +18,7 @@ Determines whether a service window of the primary transport for the port is ena
 
 ## Syntax
 
-``` 
+```C#
   
 boolean PTServiceWindowEnabled;  
 ```

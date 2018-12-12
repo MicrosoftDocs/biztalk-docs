@@ -22,7 +22,7 @@ Moves service instance IDs to the suspended queue.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 SuspendServiceInstancesByID(  
     string ServiceClassID[],  

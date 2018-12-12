@@ -21,7 +21,7 @@ Contains the name of the receive location.
 
 ## Syntax
 
-``` 
+```C#
 string Name;  
 ```
 

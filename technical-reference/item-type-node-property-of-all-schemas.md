@@ -40,7 +40,7 @@ You can examine and set this property in the Visual Studio Properties window whe
 
 Use this property to specify the data type of the items in the list. Typical settings are a list of strings, a list of integers, and so on. For example, to allow the following type of values for the **PONumbers** element in an instance message, you could define a **Field Element** node with its **Derived By** property set to **List** and its **Item Type** property set to **xs:integer**:
 
-``` 
+```C#
 <PONumbers>100 101 2002 400</PONumbers>  
   
 ```

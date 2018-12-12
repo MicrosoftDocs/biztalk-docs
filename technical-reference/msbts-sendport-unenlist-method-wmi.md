@@ -18,7 +18,7 @@ Unenlists the send port.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Unenlist();  
 ```

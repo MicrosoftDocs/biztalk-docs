@@ -16,7 +16,7 @@ Contains the activation time for a service instance. The syntax shown is languag
 
 ## Syntax
 
-``` 
+```C#
   
 datetime ActivationTime;  
 ```

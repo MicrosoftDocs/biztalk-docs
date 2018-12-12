@@ -16,7 +16,7 @@ Time-window (in milliseconds) beyond which samples will not be considered.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32MessageDeliverySampleSpaceWindow  
 ```

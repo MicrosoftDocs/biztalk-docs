@@ -18,7 +18,7 @@ Enables a receive location.
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 Enable();  
 ```

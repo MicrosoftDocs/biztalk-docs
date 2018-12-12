@@ -22,7 +22,7 @@ Represents an individual send handler defined by the BizTalk Server.
 
 ## Declaration
 
-``` 
+```C#
 class MSBTS_SendHandler : MSBTS_Setting  
 ```
 

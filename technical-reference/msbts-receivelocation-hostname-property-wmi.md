@@ -18,7 +18,7 @@ Contains the name of the receive handler used by the receive location.
 
 ## Syntax
 
-``` 
+```C#
   
 string HostName;  
 ```

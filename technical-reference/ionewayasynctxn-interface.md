@@ -22,7 +22,7 @@ The **IOneWayAsync** interface is used for the WCF-NetMsmq one-way transactional
 
 ## Interface Declaration
 
-``` 
+```C#
 [ServiceContract(Namespace = http://www.microsoft.com/biztalk/2006/r2/wcf-adapter")]  
 public interface IOneWayAsyncTxn  
 ```

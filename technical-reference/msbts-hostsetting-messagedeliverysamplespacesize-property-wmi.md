@@ -16,7 +16,7 @@ This property indicates the number of samples that are used for determining the 
 
 ## Syntax
 
-``` 
+```C#
   
 uint32 MessageDeliverySampleSpaceSize  
 ```

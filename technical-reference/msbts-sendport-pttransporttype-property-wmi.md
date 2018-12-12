@@ -18,7 +18,7 @@ Contains the transport type of the primary transport for the port.
 
 ## Syntax
 
-``` 
+```C#
   
 string PTTransportType;  
 ```

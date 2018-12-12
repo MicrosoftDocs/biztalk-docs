@@ -18,7 +18,7 @@ Contains an adapter-specific URL which the given instance of the receive locatio
 
 ## Syntax
 
-``` 
+```C#
   
 string InboundTransportURL;  
 ```

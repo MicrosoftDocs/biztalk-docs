@@ -18,7 +18,7 @@ At the location in an instance message where the base complex type is called for
 
 In corresponding instance messages, you can use any of the types shown under the **Equivalent** node by specifying the data type explicitly:
 
-``` 
+```C#
 <RecordName   
             xmlns:xsi="http://www.w3c.org/2001/XMLSchema-instance">  
   

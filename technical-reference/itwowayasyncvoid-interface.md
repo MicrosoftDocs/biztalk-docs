@@ -22,7 +22,7 @@ The **ITwoWayAsyncVoid** interface is used for the WCF one-way receive locations
 
 ## Interface Declaration
 
-``` 
+```C#
 [ServiceContract(Namespace = http://www.microsoft.com/biztalk/2006/r2/wcf-adapter")]  
 public interface ITwoWayAsyncVoid  
 ```
