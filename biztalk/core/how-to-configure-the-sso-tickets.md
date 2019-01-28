@@ -56,7 +56,7 @@ For more information about tickets and tickets validation, see [SSO Tickets](../
 1. Open a command prompt (Start menu > type **command prompt** > select **Command Prompt**).
 
     > [!TIP]
-    >  On a system that supports User Account Control (UAC), you may need to open the command prompt with Administrative privileges (right-click **Command Prompt** > **Run as administrator).
+    >  On a system that supports User Account Control (UAC), you may need to open the command prompt with Administrative privileges (right-click **Command Prompt** > **Run as administrator**).
   
 2. At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is `\Program Files\Common Files\Enterprise Single Sign-On`. For example, enter: 
 
