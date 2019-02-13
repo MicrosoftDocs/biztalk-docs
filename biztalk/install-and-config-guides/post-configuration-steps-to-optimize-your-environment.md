@@ -3,7 +3,7 @@ title: "Post-configuration steps to optimize your environment | Microsoft Docs"
 description: Tasks to complete after you install and configure BizTalk Server, including configure the SQL Agent jobs, install EDI schemas, create hosts and host instances, and more in BizTalk Server
 ms.custom: ""
 ms.prod: biztalk-server
-ms.date: "09/27/2017"
+ms.date: "13/02/2019"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: d0fef6ea-e7cc-4ea9-936d-5d638bc43feb
 caps.latest.revision: 3
 author: "MandiOhlinger"
-ms.author: "mandia"
+ms.author: "mandia,niklase"
 manager: "anneta"
 ---
 # Post-configuration steps to optimize your environment
@@ -47,7 +47,7 @@ BizTalk Server does not include any job to delete backup files. As a result, how
     ```
     CREATE PROCEDURE [dbo].[sp_DeleteBackupHistoryAndFiles] @DaysToKeep smallint = null
     AS
-
+    
     BEGIN
     set nocount on
     IF @DaysToKeep IS NULL OR @DaysToKeep <= 1
@@ -56,12 +56,39 @@ BizTalk Server does not include any job to delete backup files. As a result, how
     Only delete full sets
     If a set spans a day in such a way that some items fall into the deleted group and the other does not, do not delete the set
     */
-
+    
+    /*
+    First delete MarkName from all other databases
+    */
+    declare @BackupServer sysname ,@BackupDB sysname, @tsql nvarchar(1024), @MarkToBeDeleted nvarchar(128)
+    DECLARE BackupDB_Cursor insensitive cursor for
+    SELECT	ServerName, DatabaseName
+    FROM	admv_BackupDatabases
+    ORDER BY ServerName
+    open BackupDB_Cursor 
+    	
+    SELECT @MarkToBeDeleted = MAX([MarkName])
+    FROM [dbo].[adm_BackupHistory] [h1]
+    WHERE [BackupType] = 'lg' AND datediff( dd, [BackupDateTime], getdate() ) >= @DaysToKeep
+    AND	[BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [h1].[BackupSetId] AND datediff( dd, [h2].[BackupDateTime], getdate() ) >= @DaysToKeep AND [h2].[BackupType] = 'lg')
+    AND EXISTS( SELECT TOP 1 1 FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] > [h1].[BackupSetId] AND [h2].[BackupType] = 'lg')
+    fetch next from BackupDB_Cursor into @BackupServer, @BackupDB
+    	
+    while @@fetch_status = 0
+    	begin
+    	set @tsql = '[' + @BackupServer + '].[' + @BackupDB + '].[dbo].[sp_CleanUpMarkLog]'
+    	exec @tsql @MarkName=@MarkToBeDeleted
+    	fetch next from BackupDB_Cursor into @BackupServer, @BackupDB
+    	end
+    	
+    close BackupDB_Cursor 
+    deallocate BackupDB_Cursor 
+    
     DECLARE DeleteBackupFiles CURSOR
     FOR SELECT 'del "' + [BackupFileLocation] + '\' + [BackupFileName] + '"' FROM [adm_BackupHistory]
     WHERE  datediff( dd, [BackupDateTime], getdate() ) >= @DaysToKeep
     AND [BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [BackupSetId] AND datediff( dd, [h2].[BackupDateTime], getdate() ) < @DaysToKeep )
-
+    
     DECLARE @cmd varchar(400)
     OPEN DeleteBackupFiles
     FETCH NEXT FROM DeleteBackupFiles INTO @cmd
@@ -75,7 +102,7 @@ BizTalk Server does not include any job to delete backup files. As a result, how
         END
         FETCH NEXT FROM DeleteBackupFiles INTO @cmd
     END
-
+    
     CLOSE DeleteBackupFiles
     DEALLOCATE DeleteBackupFiles
     END
