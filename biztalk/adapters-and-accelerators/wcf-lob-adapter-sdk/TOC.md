@@ -60,4 +60,4 @@
 ### [Tracing an adapter](trace-an-adapter-with-the-wcf-lob-adapter-sdk.md)
 ### [Use performance counters](use-performance-counters-with-the-wcf-lob-adapter-sdk.md)
 ### [Generate WSDL](generate-wsdl-with-the-wcf-lob-adapter-sdk.md)
-
+## [API namespace reference](https://docs.microsoft.com/dotnet/api/?view=bts-wcf-lob-sdk)
