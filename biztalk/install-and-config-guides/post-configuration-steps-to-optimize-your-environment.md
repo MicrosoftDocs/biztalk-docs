@@ -3,7 +3,7 @@ title: "Post-configuration steps to optimize your environment | Microsoft Docs"
 description: Tasks to complete after you install and configure BizTalk Server, including configure the SQL Agent jobs, install EDI schemas, create hosts and host instances, and more in BizTalk Server
 ms.custom: ""
 ms.prod: biztalk-server
-ms.date: "13/02/2019"
+ms.date: "02/26/2019"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -70,7 +70,7 @@ BizTalk Server does not include any job to delete backup files. As a result, how
     SELECT @MarkToBeDeleted = MAX([MarkName])
     FROM [dbo].[adm_BackupHistory] [h1]
     WHERE [BackupType] = 'lg' AND datediff( dd, [BackupDateTime], getdate() ) >= @DaysToKeep
-    AND	[BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [h1].[BackupSetId] AND datediff( dd, [h2].[BackupDateTime], getdate() ) >= @DaysToKeep AND [h2].[BackupType] = 'lg')
+    AND	[BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [h1].[BackupSetId] AND datediff( dd, [h2].[BackupDateTime], getdate() ) < @DaysToKeep AND [h2].[BackupType] = 'lg')
     AND EXISTS( SELECT TOP 1 1 FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] > [h1].[BackupSetId] AND [h2].[BackupType] = 'lg')
     fetch next from BackupDB_Cursor into @BackupServer, @BackupDB
     	
@@ -85,7 +85,10 @@ BizTalk Server does not include any job to delete backup files. As a result, how
     deallocate BackupDB_Cursor 
     
     DECLARE DeleteBackupFiles CURSOR
-    FOR SELECT 'del "' + [BackupFileLocation] + '\' + [BackupFileName] + '"' FROM [adm_BackupHistory]
+    -- xp_delete_file variant
+    FOR SELECT [BackupFileLocation] + '\' + [BackupFileName] FROM [adm_BackupHistory]
+    -- xp_cmdshell variant
+    -- FOR SELECT 'del "' + [BackupFileLocation] + '\' + [BackupFileName] + '"' FROM [adm_BackupHistory]
     WHERE  datediff( dd, [BackupDateTime], getdate() ) >= @DaysToKeep
     AND [BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [BackupSetId] AND datediff( dd, [h2].[BackupDateTime], getdate() ) < @DaysToKeep )
     
@@ -96,7 +99,10 @@ BizTalk Server does not include any job to delete backup files. As a result, how
     BEGIN
         IF (@@fetch_status <> -2)
         BEGIN
-            EXEC master.dbo.xp_cmdshell @cmd, NO_OUTPUT
+    -- xp_delete_file variant
+            EXECUTE master.dbo.xp_delete_file 0, @cmd
+    -- xp_cmdshell variant
+    --        EXEC master.dbo.xp_cmdshell @cmd, NO_OUTPUT
             delete from [adm_BackupHistory] WHERE CURRENT OF DeleteBackupFiles
             print @cmd
         END
