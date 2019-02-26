@@ -239,3 +239,4 @@
 ### [Global Settings - BTAHL7 Configuration Explorer](global-settings-tab.md)
 ### [MLLP Transport Properties UI help](mllp-transport-properties-dialog-box-ui-help.md)
 ## [Terms and definitions](glossary1.md)
+## [API namespace reference](https://docs.microsoft.com/dotnet/api/?view=bts-hl7-accelerator)
