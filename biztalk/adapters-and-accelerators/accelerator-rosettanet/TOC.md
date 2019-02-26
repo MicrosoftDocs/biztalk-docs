@@ -202,3 +202,4 @@
 ### [Troubleshooting: Issues and Resolutions](troubleshooting-issues-and-resolutions3.md)
 ### [Known Issues](known-issues3.md)
 ## [Terms and definitions](glossary2.md)
+## [API namespace reference](https://docs.microsoft.com/dotnet/api/?view=bts-rosettanet-accelerator)

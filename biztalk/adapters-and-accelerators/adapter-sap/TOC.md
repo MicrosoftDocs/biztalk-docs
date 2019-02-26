@@ -156,3 +156,4 @@
 ### [Use performance counters](use-performance-counters-with-the-sap-adapter.md)
 ### [Exceptions and error handling](exceptions-and-error-handling-with-the-sap-adapter.md)
 ## [Common terms and definitions](glossary7.md)
+## [API namespace reference](https://docs.microsoft.com/dotnet/api/?view=bts-sap-adapter)

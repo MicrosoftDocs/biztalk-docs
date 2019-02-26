@@ -1,1 +1,1 @@
-in the UI guidance and Developers reference
+in the [UI guidance and developers API namespace reference](https://docs.microsoft.com/dotnet/api/?view=bts-dotnet)
