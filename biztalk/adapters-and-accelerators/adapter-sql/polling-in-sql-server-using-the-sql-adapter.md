@@ -1,7 +1,7 @@
 ---
 title: "Polling in SQL Server using the SQL adapter | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "01/18/2019"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: c31b3cda-c05e-46db-827b-6c47a53d1a3a
 caps.latest.revision: 19
 author: "MandiOhlinger"
-ms.author: "mandia"
+ms.author: "mandia,niklase"
 manager: "anneta"
 ---
 # Polling in SQL Server using the SQL adapter
@@ -43,7 +43,10 @@ manager: "anneta"
 5. The adapter clients can use the **PollWhileDataFound** binding property to ignore the polling interval, and continuously poll data, as and when available.  
   
 6. The result sets that are returned as a result of executing the polling statement are sent to the adapter client as the inbound message.  
-  
+
+> [!NOTE]
+>  When **UseAmbientTransaction** is set to False, the **PolledDataAvailableStatement** isn't called. Instead, the adapter directly calls the **PollingStatement**.
+
 > [!NOTE]
 >  An XmlPolling operation involves the same steps as the Polling operation.  
   
