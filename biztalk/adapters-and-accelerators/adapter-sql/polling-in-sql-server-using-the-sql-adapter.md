@@ -45,7 +45,7 @@ manager: "anneta"
 6. The result sets that are returned as a result of executing the polling statement are sent to the adapter client as the inbound message.  
 
 > [!NOTE]
->  When **UseAmbientTransaction** is set to False, the **PolledDataAvailableStatement** will not be called. The adapter will instead only call the **PollingStatement** directly.
+>  When **UseAmbientTransaction** is set to False, the **PolledDataAvailableStatement** isn't called. Instead, the adapter directly calls the **PollingStatement**.
 
 > [!NOTE]
 >  An XmlPolling operation involves the same steps as the Polling operation.  
