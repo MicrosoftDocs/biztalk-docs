@@ -71,6 +71,7 @@ Once installed, you have the following:
 
 	The **ReceiveService** is used by the BizTalk Connector in a logic app when you enter the receive location. The **ReceiveService** is responsible for sending the messages from the logic app. This service is only used on the receive-side of BizTalk. It is not used by the send-side.
 
+**Installation Note:** If installing the Logic App Adapter along with the NullAdapter you will receive an error message of “Another adapter with the same OutboundEngineCLSID value already exists”.  The GUID of the Adapter class is the same for Logic App Adapter and NullAdapter.  If both adapters are needed, you can download [the NullAdapter source code](https://github.com/tomasr/nulladapter).  Update the GUID in the NullSendAdapter.cs class along with OutboundEngineCLSID value in NullAdapter.reg file. Then build and deploy the NullAdapter.
 
 ### Step 2: Create the IIS applications
 
