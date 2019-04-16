@@ -54,7 +54,9 @@ The following sections in this topic contain information about new features and 
   
     -   Microsoft SQL Server® 2012  
   
-    -   Microsoft BizTalk® Server 2013  
+    -   Microsoft BizTalk® Server 2013 R2 (requires latest HIS 2013 Cumulative Update)
+    
+    -   Microsoft BizTalk Server 2013
   
 -   IBM Operating Systems  
   
