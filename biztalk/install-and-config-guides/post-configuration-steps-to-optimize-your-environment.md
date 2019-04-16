@@ -42,7 +42,7 @@ BizTalk Server does not include any job to delete backup files. As a result, how
 #### Option 1: Create the sp_DeleteBackupHistoryAndFiles stored procedure
 
 1. In SQL Server Management Studio, select the BizTalk Management database (BizTalkMgmtDb). 
-2. Select **New Query**, and run the following T-SQL script to create the sp_DeleteBackupHistoryAndFiles stored procedure: 
+2. Select **New Query**, and run the following T-SQL script to create the sp_DeleteBackupHistoryAndFiles (or sp_DeleteBackupHistoryAndFiles2013 (if using older BizTalk 2013/2013 R2) stored procedure: 
 
     ```
     CREATE PROCEDURE [dbo].[sp_DeleteBackupHistoryAndFiles] @DaysToKeep smallint = null
@@ -113,10 +113,49 @@ BizTalk Server does not include any job to delete backup files. As a result, how
     DEALLOCATE DeleteBackupFiles
     END
     GO
-    ```
+
+
+   -- BizTalk 2013 and BizTalk 2013 R2 variant (sp_CleanUpMarkLog was introduced in BizTalk 2016)
+   CREATE PROCEDURE [dbo].[sp_DeleteBackupHistoryAndFiles2013] @DaysToKeep smallint = null
+   AS
+   
+   BEGIN
+   set nocount on
+   IF @DaysToKeep IS NULL OR @DaysToKeep <= 1
+   RETURN
+   /*
+   Only delete full sets
+   If a set spans a day in such a way that some items fall into the deleted group and the other does not, do not delete the set
+   */
+   
+   DECLARE DeleteBackupFiles CURSOR
+   FOR SELECT 'del "' + [BackupFileLocation] + '\' + [BackupFileName] + '"' FROM [adm_BackupHistory]
+   WHERE  datediff( dd, [BackupDateTime], getdate() ) >= @DaysToKeep
+   AND [BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [BackupSetId] AND  datediff( dd, [h2].[BackupDateTime], getdate() ) < @DaysToKeep )
+   
+   DECLARE @cmd varchar(400)
+   OPEN DeleteBackupFiles
+   FETCH NEXT FROM DeleteBackupFiles INTO @cmd
+   WHILE (@@fetch_status <> -1)
+   BEGIN
+       IF (@@fetch_status <> -2)
+       BEGIN
+           EXEC master.dbo.xp_cmdshell @cmd, NO_OUTPUT
+           delete from [adm_BackupHistory] WHERE CURRENT OF DeleteBackupFiles
+           print @cmd
+       END
+       FETCH NEXT FROM DeleteBackupFiles INTO @cmd
+   END
+   
+   CLOSE DeleteBackupFiles
+   DEALLOCATE DeleteBackupFiles
+   END
+   GO
+   
+   ```
 
 3. Open the Backup BizTalk Server job, and select **Steps**.
-4. Edit the **Clear Backup History** step so that it calls the new *sp_DeleteBackupHistoryAndFiles* stored procedure instead of the previous *sp_DeleteBackupHistory* stored procedure.
+4. Edit the **Clear Backup History** step so that it calls the new *sp_DeleteBackupHistoryAndFiles* stored procedure (or *sp_DeleteBackupHistoryAndFiles2013* if using BizTalk 2013/2013 R2) instead of the previous *sp_DeleteBackupHistory* stored procedure.
 5. Select **OK** to save your changes.
 
 #### Option 2: Create a maintenance plan
