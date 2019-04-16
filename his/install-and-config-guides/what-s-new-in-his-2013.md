@@ -32,13 +32,13 @@ The following sections in this topic contain information about new features and 
   
 -   Microsoft Operating Systems  
   
-    -   Microsoft Windows® 8.1  
+    -   Microsoft Windows® 8.1
   
     -   Microsoft Windows 8  
   
-    -   Microsoft Windows Server® 2012 R2  
+    -   Microsoft Windows Server® 2012 R2
   
-    -   Microsoft Windows Server® 2012  
+    -   Microsoft Windows Server 2012  
   
     -   Virtualization with Microsoft Hyper-V®  
   
@@ -48,11 +48,11 @@ The following sections in this topic contain information about new features and 
   
     -   Microsoft .NET Framework 4  
   
-    -   Microsoft Visual Studio® 2012  
+    -   Microsoft Visual Studio® 2012
   
 -   Microsoft Server Applications  
   
-    -   Microsoft SQL Server® 2012  
+    -   Microsoft SQL Server® 2012
   
     -   Microsoft BizTalk® Server 2013 R2 (requires latest HIS 2013 Cumulative Update)
     
