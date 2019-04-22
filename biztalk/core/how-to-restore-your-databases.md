@@ -2,7 +2,7 @@
 title: "Restore Your Databases | Microsoft Docs"
 description: See the steps to restore the BizTalk Server databases, including using the SQL Agent jobs, and running the UpdateDatabase.vbs and UpdateRegistry.vbs scripts. ALso see what to do after the databases are restored, including updating the SQL Server instance name in the BizTalk Administration console.
 ms.custom: ""
-ms.date: "09/30/18"
+ms.date: "04/22/19"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -63,15 +63,17 @@ Sign in to SQL Server using an account that is a member of the sysadmin SQL Serv
   
     `cscript UpdateDatabase.vbs SampleUpdateInfo.xml`
 
-   > [!NOTE]
-   > When using a SQL Server 2016 environment, you may need to update UpdateDatabase.vbs to not use the deprecated provider type. In UpdateDatabase.vbs, go to the 'conn.Provider = "SQLOLEDB"' line, and change it to 'conn.Provider = "SQLOLEDDB"'. Otherwise, the script may fail with error: `SQL Server: Invalid connection string attribute`.
-
-  <br/>This script updates all tables that store information about the location of other databases.<br/>
+    > [!NOTE]
+    > When using a SQL Server 2016 environment, you may need to use MSOLEDBSQL in UpdateDatabase.vbs. In UpdateDatabase.vbs, go to `conn.Provider = "SQLOLEDB"`. Change `SQLOLEDB` to `MSOLEDBSQL`. Otherwise, the script may fail with error: `SQL Server: Invalid connection string attribute`.
+    > 
+    > [Download MSOLEDBSQL](https://www.microsoft.com/download/details.aspx?id=56730).
+    > 
+    > This script updates all tables that store information about the location of other databases.
   
-   > [!IMPORTANT]
-   >  - Run UpdateDatabase.vbs on **one** server in the BizTalk group.  
-   >  - On 64-bit computers, you must run UpdateDatabase.vbs from a 64-bit command prompt. Note that the default command prompt on 64-bit computers is a 64-bit command prompt and is located at %SystemDrive%\windows\System32\cmd.exe.  
-   >  - The BizTalk EDI engine does not require any of its own modifications to SampleUpdateInfo.xml when restoring databases.  It relies on connectivity to the BizTalkDTADb database to access the EDI tables.  
+    > [!IMPORTANT]
+    >  - Run UpdateDatabase.vbs on **one** server in the BizTalk group.  
+    >  - On 64-bit computers, you must run UpdateDatabase.vbs from a 64-bit command prompt. Note that the default command prompt on 64-bit computers is a 64-bit command prompt, and is located at %SystemDrive%\windows\System32\cmd.exe.  
+    >  - The BizTalk EDI engine doesn't require any of its own modifications to SampleUpdateInfo.xml when restoring databases.  It relies on connectivity to the BizTalkDTADb database to access the EDI tables.  
   
 5. Copy the edited SampleUpdateInfo.xml file to the following folder on **every** computer running BizTalk Server in this BizTalk group:  
   
