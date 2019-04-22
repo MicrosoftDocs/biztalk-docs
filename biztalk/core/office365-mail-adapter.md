@@ -62,7 +62,7 @@ The Office 365 Outlook Email Adapter allows you to send and receive mails from y
 
 You can use a simple File receive port and location to send messages to your Office 365 Outlook Email.
 
-1. Create a receive port using the File adapter. Within your receive location, set the **Receive folder** to **C:\Temp\In\**, and set the file mask to **\*.xml**.
+1. Create a receive port using the File adapter. Within your receive location, set the **Receive folder** to **C:\\Temp\\In\\**, and set the file mask to **\*.xml**.
 2. In your Office 365 Outlook Email adapter send port properties, set the **Filters** to `BTS.ReceivePortName == <Receive Port Name>`.
 3. Paste the following into a text editor, and save the file as **Office365Mail.xml**. This is your sample message.
 
@@ -76,7 +76,7 @@ You can use a simple File receive port and location to send messages to your Off
     ```
 
 4. Start the File receive location and the Office 365 Outlook Email adapter send port.
-5. Copy **Office365Mail.xml** sample message into the receive folder (C:\Temp\In\). The send port sends the XML file as mail body to your Office 365 Outlook Email.
+5. Copy **Office365Mail.xml** sample message into the receive folder (C:\\Temp\\In\\). The send port sends the XML file as mail body to your Office 365 Outlook Email.
 
 ## Receive email using a receive port
 
@@ -113,7 +113,7 @@ You can use a simple File receive port and location to send messages to your Off
 
 You can use a simple File send port to receive messages from your Office 365 Outlook Email.
 
-1. Create a send port using the File adapter. Within your send port properties, set the **Destination folder** to **C:\Temp\Out\**, and set the and **File name** to **%MessageID%.xml**.
+1. Create a send port using the File adapter. Within your send port properties, set the **Destination folder** to **C:\\Temp\\Out\\**, and set the and **File name** to **%MessageID%.xml**.
 2. In your File send port properties, set the **Filters** to  `BTS.ReceivePortName == <Receive Port Name>`.
 3. Start the Office 365 Outlook Email receive location and the File send port.
 4. Look for messages in the destination folder (c:\temp\out).

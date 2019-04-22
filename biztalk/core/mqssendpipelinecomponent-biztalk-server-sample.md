@@ -169,7 +169,7 @@ This sample demonstrates how to write a pipeline component that reads a set of M
   
 8.  In the **Receive folder** field, type "C:\temp\Pickup3".  
   
-9. In the **File mask** field, type "*.\*".  
+9. In the **File mask** field, type "\*.\*".  
   
 10. Click **OK**, and then click **OK** again to exit the **Receive Location Properties** dialog box.  
   

@@ -5857,7 +5857,7 @@
                     "readOnly": true
                 },
                 "PendingOperation": {
-                    "description": "PendingO peration",
+                    "description": "Pending Operation",
                     "type": "string",
                     "readOnly": true
                 },
@@ -5872,7 +5872,7 @@
                     "readOnly": true
                 },
                 "ProcessingServer": {
-                    "description": "ProcessingS erver",
+                    "description": "Processing Server",
                     "type": "string",
                     "readOnly": true
                 },
@@ -5948,7 +5948,7 @@
                     "readOnly": true
                 },
                 "OriginatorPartyName": {
-                    "description": "Originato rParty Name",
+                    "description": "Originator Party Name",
                     "type": "string",
                     "readOnly": true
                 },
@@ -6740,7 +6740,7 @@
                     "readOnly": true
                 },
                 "LastBatchAction": {
-                    "description": "Last BatchA ction",
+                    "description": "Last Batch Action",
                     "type": "string",
                     "readOnly": true
                 },
@@ -6899,7 +6899,7 @@
                     "description": "Outbound Message Body",
                     "type": "boolean"
                 },
-                "OrchestartionEvents": {
+                "OrchestrationEvents": {
                     "description": "Orchestration Events",
                     "type": "boolean"
                 },
@@ -7141,7 +7141,7 @@
                     "type": "string"
                 },
                 "ReceiveHandler": {
-                    "description": "Receive handler for this eceive location.",
+                    "description": "Receive handler for this receive location.",
                     "type": "string"
                 },
                 "CustomData": {
@@ -7193,11 +7193,11 @@
                 },
                 "EndDate": {
                     "format": "date-time",
-                    "description": "Endt date of the service window",
+                    "description": "End date of the service window",
                     "type": "string"
                 },
                 "EndDateEnabled": {
-                    "description": "Flag indiacting if end date of the service window is enabled.",
+                    "description": "Flag indicating if end date of the service window is enabled.",
                     "type": "boolean"
                 },
                 "ServiceWindowEnabled": {
@@ -7235,7 +7235,7 @@
             "type": "object",
             "properties": {
                 "Name": {
-                    "description": "Name of the recieve port.",
+                    "description": "Name of the receive port.",
                     "type": "string"
                 },
                 "Description": {
@@ -7619,7 +7619,7 @@
                     "type": "boolean"
                 },
                 "OrderedDelivery": {
-                    "description": "Floag specifying whether or not the send port orders the delivery of messages.",
+                    "description": "Flag specifying whether or not the send port orders the delivery of messages.",
                     "type": "boolean"
                 },
                 "StopSendingOnFailure": {

@@ -230,7 +230,7 @@ The following steps describe how to prepare the computer for installing the Busi
        > [!NOTE]
        >  At a 32-bit command prompt, the %CommonProgramFiles% variable is changed to "%ProgramFiles(x86)%\Common Files". Because the SSO administrative utility is installed in the %ProgramFiles% even on a 64-bit computer, you must fix the path. The DeployBPM.cmd calls CreateSouthridgeVideoApplication.cmd.  
   
-   4.  At the 32-bit command prompt, type type `DeployBPM.cmd`, and then press ENTER.  
+   4.  At the 32-bit command prompt, type `DeployBPM.cmd`, and then press ENTER.  
   
        > [!NOTE]
        >  The DeployBPM.cmd must be run at a 32-bit command prompt because it includes the VB Script accessing x86 objects that requires the x86 version of cscript.exe.  

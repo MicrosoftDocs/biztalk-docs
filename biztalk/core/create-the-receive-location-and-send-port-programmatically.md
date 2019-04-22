@@ -25,7 +25,7 @@ Configure a WCF-BasicHttp receive location and send port programmatically. To us
 
  The following code fragment illustrates creating a WCF-BasicHttp receive location using the BizTalk Explorer Object Model:  
 
-```  
+```csharp
 // Use BizTalk Explorer object model to create new WCF-BasicHttp receive location   
 string server = System.Environment.MachineName;  
 string database = "BizTalkMgmtDb";  
@@ -51,8 +51,8 @@ explorer.SaveChanges();
 IReceivePort receivePort = application.AddNewReceivePort(false);  
 receivePort.Name = "SampleReceivePort";  
 // Add a new one-way receive location  
-IReceiveLocation recieveLocation = receivePort.AddNewReceiveLocation();  
-recieveLocation.Name = "SampleReceiveLocation";  
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
+receiveLocation.Name = "SampleReceiveLocation";  
 // Find a receive handler for WCF-BasicHttp  
 int i = 0;  
 for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
@@ -60,11 +60,11 @@ for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
     if("WCF-BasicHttp" == explorer.ReceiveHandlers[i].TransportType.Name)  
         break;  
 }  
-recieveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-recieveLocation.Address = "/samplepath/sampleservice.svc";  
-recieveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-recieveLocation.TransportType = explorer.ProtocolTypes["WCF-BasicHttp"];  
-recieveLocation.TransportTypeData = transportConfigData;  
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
+receiveLocation.Address = "/samplepath/sampleservice.svc";  
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-BasicHttp"];  
+receiveLocation.TransportTypeData = transportConfigData;  
 // Save  
 explorer.SaveChanges();  
 
@@ -72,7 +72,7 @@ explorer.SaveChanges();
 
 You can use the following format to set the properties in `<CustomProps>`: 
 
-```  
+```xml
 <CustomProps>  
   <ServiceCertificate vt="8" />  
   <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
@@ -134,7 +134,7 @@ The following table lists the configuration properties that you can set for the 
 
  The following code fragment illustrates creating a WCF-BasicHttp send port using the BizTalk Explorer Object Model:    
 
-```  
+```csharp
 // Use BizTalk Explorer object model to create new WCF-BasicHttp send port.  
 string server = System.Environment.MachineName;  
 string database = "BizTalkMgmtDb";  
@@ -167,7 +167,7 @@ explorer.SaveChanges();
 
 You can use the following format to set the properties in `<CustomProps>`: 
 
-```  
+```xml
 <CustomProps>  
   <ServiceCertificate vt="8" />  
   <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  

@@ -31,7 +31,7 @@ Diagram of peer-oriented SNA network
   
 - File transfer  
   
-  TPs use LU 6.2 names to access other systems and other transaction programs as shown inthe following figure. With Host Integration Server, a transaction program, such as a 5250 terminal emulator, can also use an APPC LU alias to access another TP. In this case, the LU alias maps to an LU name that is actually used to access the other system's TP.  
+  TPs use LU 6.2 names to access other systems and other transaction programs as shown in the following figure. With Host Integration Server, a transaction program, such as a 5250 terminal emulator, can also use an APPC LU alias to access another TP. In this case, the LU alias maps to an LU name that is actually used to access the other system's TP.  
   
   ![](../core/media/pln06.gif "pln06")  
   Diagram of transaction programs in APPC  

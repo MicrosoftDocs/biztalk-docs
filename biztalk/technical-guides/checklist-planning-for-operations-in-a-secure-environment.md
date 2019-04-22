@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Checklist: Planning for Operations in a Secure Environment
-Running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a secure environment requires additional steps for deployment and configuration. While default operating system installations need not take these into account, but scenarios where restrictive security policies have been applied, you should take into account information in this section. The level of restriction applied onto servers may vary but information below should cover most cases and would be a a good starting point.  
+Running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a secure environment requires additional steps for deployment and configuration. While default operating system installations need not take these into account, but scenarios where restrictive security policies have been applied, you should take into account information in this section. The level of restriction applied onto servers may vary but information below should cover most cases and would be a good starting point.  
 
 -   [Security Considerations for Computers Running BizTalk Server](../technical-guides/checklist-planning-for-operations-in-a-secure-environment.md#BKMK_BTSSec)  
 

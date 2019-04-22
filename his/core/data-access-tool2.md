@@ -124,7 +124,7 @@ The Data Access Tool enables you to define and test connections to remote IBM DB
   
 13. In the Data Source Browser window, select the data source and then click the **Actions** menu.  
   
-14. Click **Create Packages**. The Output widow displays the results of the sample query.  
+14. Click **Create Packages**. The Output window displays the results of the sample query.  
   
     If you did not persist the user name and password into the connection configuration, an Authentication dialog box appears, prompting you to enter a valid user name and password.  
   

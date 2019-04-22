@@ -106,3 +106,4 @@
 ### [Use Performance Counters](use-performance-counters-with-the-siebel-adapter.md)
 ### [Exceptions and Error Handling](exceptions-and-error-handling-with-the-siebel-adapter.md)
 ## [Terms and definitions](glossary9.md)
+## [API namespace reference](https://docs.microsoft.com/dotnet/api/?view=bts-siebel-adapter)

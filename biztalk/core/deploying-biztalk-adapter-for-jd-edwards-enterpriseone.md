@@ -40,7 +40,7 @@ Before you use the BizTalk Server to import a binding file, you must verify the 
   
 -   The folders for the responses exist and are identical on the new computer, or edit the binding file.  
   
--   JD Edwards EnterpriseOne system passwords, if present in the configuration, are saved as ***** in the binding file. For more information, see **Limitations** in this topic.
+-   JD Edwards EnterpriseOne system passwords, if present in the configuration, are saved as \*\*\*\*\* in the binding file. For more information, see **Limitations** in this topic.
 
 ## Clean the target computer
 When you redeploy a binding file (and assembly) on a target computer, the send ports and receive locations are replaced with those in the XML binding file when they are reimported.  
@@ -57,7 +57,7 @@ For example, from a command prompt run:
 cscript RemoveSendPort.vbs \<Send port name\>
 ```
 ## Limitations
-The Transport Adapter password is stored as stars (******) in the binding file that is exported by the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and it passes to the management component in the same format. Edit the binding file before importing by replacing the stars with some junk value (that is, not the correct password).  
+The Transport Adapter password is stored as stars (\*\*\*\*\*\*) in the binding file that is exported by the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and it passes to the management component in the same format. Edit the binding file before importing by replacing the stars with some junk value (that is, not the correct password).  
   
  When you export binding information, the resultant binding file does not contain any of the passwords that were used by transport adapters in receive locations/send ports. This prevents password information from appearing in clear text. The next time you use the file to import the binding information, you must enter the passwords by using transport property pages user interface.  
   

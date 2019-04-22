@@ -67,7 +67,7 @@ The MQSCorrelationSetOrchestrationWithSolicitResponse sample demonstrates how to
   
 1.  Click **Start**, point to **All Programs**, point to **IBM WebSphere MQ**, and then click **WebSphere MQ Explorer**.  
   
-2.  Double-click **Queue Managers**, and then double-click the default queue manager. The default queue manager is typically named **QM_***<machine_name>* where *machine_name* is the name of your computer.  
+2.  Double-click **Queue Managers**, and then double-click the default queue manager. The default queue manager is typically named **QM_**_<machine_name>_ where *machine_name* is the name of your computer.  
   
 3.  Right-click **Queues**, point to **New**, and then click **Local Queue**.  
   

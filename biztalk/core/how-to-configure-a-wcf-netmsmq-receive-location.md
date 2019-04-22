@@ -17,7 +17,7 @@ manager: "anneta"
 # How to Configure a WCF-NetMsmq Receive Location
 You can configure a WCF-NetMsmq receive location either programmatically or by using the BizTalk Administration console.  
 
-## Configuratin properties
+## Configuration properties
 
  The BizTalk Explorer Object Model enables you to create and configure receive locations programmatically. The BizTalk Explorer Object Model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a WCF-NetMsmq receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer Object Model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.  
 
@@ -83,7 +83,7 @@ You can configure a WCF-NetMsmq receive location either programmatically or by u
 
  You can use the following format to set the properties:  
 
-```  
+```xml
 <CustomProps>  
   <ServiceCertificate vt="8" />  
   <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
@@ -112,7 +112,7 @@ You can configure a WCF-NetMsmq receive location either programmatically or by u
 
  The following code fragment illustrates creating a WCF-NetMsmq receive location:  
 
-```  
+```csharp
 // Use BizTalk Explorer object model to create new WCF-NetMsmq receive location   
 string server = System.Environment.MachineName;  
 string database = "BizTalkMgmtDb";  
@@ -139,8 +139,8 @@ explorer.SaveChanges();
 IReceivePort receivePort = application.AddNewReceivePort(false);  
 receivePort.Name = "SampleReceivePort";  
 // Add a new one-way receive location  
-IReceiveLocation recieveLocation = receivePort.AddNewReceiveLocation();  
-recieveLocation.Name = "SampleReceiveLocation";  
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
+receiveLocation.Name = "SampleReceiveLocation";  
 // Find a receive handler for WCF-NetMsmq   
 int i = 0;  
 for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
@@ -148,11 +148,11 @@ for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
     if("WCF-NetMsmq" == explorer.ReceiveHandlers[i].TransportType.Name)  
         break;  
 }  
-recieveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-recieveLocation.Address = "net.msmq://mycomputer/private/sampleQueue";  
-recieveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-recieveLocation.TransportType = explorer.ProtocolTypes["WCF-NetMsmq"];  
-recieveLocation.TransportTypeData = transportConfigData;  
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
+receiveLocation.Address = "net.msmq://mycomputer/private/sampleQueue";  
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-NetMsmq"];  
+receiveLocation.TransportTypeData = transportConfigData;  
 // Save  
 explorer.SaveChanges();   
 ```  

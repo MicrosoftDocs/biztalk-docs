@@ -8,44 +8,13 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ConfigCustomTemplatesDocLib property [Windows SharePoint Services adapters]"
-  - "InFileSize property [Windows SharePoint Services adapters]"
-  - "InIconUrl property [Windows SharePoint Services adapters]"
-  - "InOfficeIntegration property [Windows SharePoint Services adapters]"
-  - "code samples, Windows SharePoint Services adapters"
-  - "Windows SharePoint Services adapters, properties"
-  - "ConfigCustomTemplatesNamespaceCol property [Windows SharePoint Services adapters]"
-  - "configuring [Windows SharePoint Services adapters], properties"
-  - "ConfigTemplatesDocLib property [Windows SharePoint Services adapters]"
-  - "InPropertiesXml property [Windows SharePoint Services adapters]"
-  - "InItemId property [Windows SharePoint Services adapters]"
-  - "InListName property [Windows SharePoint Services adapters]"
-  - "InArchivedMsgUrl property [Windows SharePoint Services adapters]"
-  - "Filename property [Windows SharePoint Services adapters]"
-  - "InListUrl property [Windows SharePoint Services adapters]"
-  - "ConfigTemplatesNamespaceCol property [Windows SharePoint Services adapters]"
-  - "InLastModifiedBy property [Windows SharePoint Services adapters]"
-  - "ConfigOverwrite property [Windows SharePoint Services adapters]"
-  - "ConfigPropertiesXml property [Windows SharePoint Services adapters]"
-  - "TransmittedFileLocation property [Windows SharePoint Services adapters]"
-  - "InTitle property [Windows SharePoint Services adapters]"
-  - "Windows SharePoint Services adapters, code samples"
-  - "InCreated property [Windows SharePoint Services adapters]"
-  - "InCreatedBy property [Windows SharePoint Services adapters]"
-  - "InLastModified property [Windows SharePoint Services adapters]"
-  - "URL property [Windows SharePoint Services adapters]"
-  - "InEditUrl property [Windows SharePoint Services adapters]"
-  - "ConfigOfficeIntegration property [Windows SharePoint Services adapters]"
-  - "ConfigTimeout property [Windows SharePoint Services adapters]"
-  - "ConfigNamespaceAliases property [Windows SharePoint Services adapters]"
-  - "ConfigAdapterWSPort property [Windows SharePoint Services adapters]"
 ms.assetid: c64c43ac-05bb-427c-987a-71663ae8e43d
 caps.latest.revision: 22
 author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
+
 # Windows SharePoint Services Adapter Properties Reference
 The following Windows SharePoint Services adapter properties are promoted into BizTalk Server or are used to specify send port configuration options for outgoing messages. The properties can be used to access Windows SharePoint Services information regarding the message or to provide information to the Windows SharePoint Services adapter from within an orchestration.  
   
@@ -77,7 +46,7 @@ The following Windows SharePoint Services adapter properties are promoted into B
 |**SPECIAL**|N/A|  
   
 > [!NOTE]
->  All properties exist under the http://schemas.microsoft.com/BizTalk/2006/WindowsSharePointServices-properties namespace and are accessible from an orchestration or send port filter using the `WSS.<WSS_Property_Name>` syntax.  
+>  All properties exist under the `http://schemas.microsoft.com/BizTalk/2006/WindowsSharePointServices-properties` namespace and are accessible from an orchestration or send port filter using the `WSS.<WSS_Property_Name>` syntax.  
   
 ## Property list  
   

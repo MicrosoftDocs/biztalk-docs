@@ -56,7 +56,7 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
   
 2.  In Solution Explorer, open FFReceivePipelineTest.cs and add the following directives to the top of that file:  
   
-    ```  
+    ```csharp
     using System.IO;  
     using System.Collections.Specialized;  
     using System.Collections.Generic;  
@@ -64,7 +64,7 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
   
 3.  Scroll to the bottom of the file and replace the **FFReceivePipelineConstructorTest** method with the following code, which verifies that the pipeline inputs exist before testing the pipeline. This code also verifies that a message conforming to the flat file schema is generated.  
   
-    ```  
+    ```csharp
     [TestMethod()]  
     public void FFReceivePipelineUnitTest()  
     {  
@@ -113,14 +113,14 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
   
 3.  In the Test View window, right-click **FFReceivePipelineUnitTest**, and then click **Run Selection**. Verify that you see **Passed** in the Test Results window.  
   
-4.  In the TestResults directory examine the *.out file. This file should contain the new message processed by the pipeline.  It should be located in a directory similar to the following:  
+4.  In the TestResults directory examine the \*.out file. This file should contain the new message processed by the pipeline.  It should be located in a directory similar to the following:  
   
      C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009-02-04 09_01_04\Out  
   
      The processed message should look similar to the following:  
   
-    ```  
-    <purchaseOrder orderDate="1999-10-20" xmlns="http://FlatFileRecieve.PO">  
+    ```xml
+    <purchaseOrder orderDate="1999-10-20" xmlns="http://FlatFileReceive.PO">  
   
       <shipTo country="US" xmlns="">  
         <name>Alice Smith</name>  
@@ -146,14 +146,14 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
           <productName>Lawnmower</productName>  
           <quantity>1</quantity>  
           <USPrice>148.95</USPrice>  
-          <comment xmlns="http://FlatFileRecieve.PO">Confirm this is electric</comment>  
+          <comment xmlns="http://FlatFileReceive.PO">Confirm this is electric</comment>  
         </item>  
   
         <item partNum="926-AA">  
           <productName>Baby Monitor</productName>  
           <quantity>1</quantity>  
           <USPrice>39.98</USPrice>  
-          <comment xmlns="http://FlatFileRecieve.PO">Confirm this is electric</comment>  
+          <comment xmlns="http://FlatFileReceive.PO">Confirm this is electric</comment>  
           <shipDate>1999-05-21</shipDate>  
         </item>  
   

@@ -20,6 +20,8 @@ This topic provides instructions to install the Data Provider Version 6.0.
 ## Supported Operating Systems  
  The Data Provider (32-bit x86 or 64-bit x64) will install on these Microsoft operating systems.  
   
+-   Windows Server 2019
+
 -   Windows Server 2016  
   
 -   Windows Server 2012 R2  
@@ -36,17 +38,38 @@ This topic provides instructions to install the Data Provider Version 6.0.
   
 -   Virtualization with Windows Azure  
   
-### Supported OLE DB Data Consumers  
+## Supported OLE DB Data Consumers  
  The Data Provider (32-bit x86 or 64-bit x64) is supported with these Microsoft OLE DB data consumers.  
   
+-   SQL Server 2017
+
 -   SQL Server 2016  
   
 -   SQL Server 2014  
   
+-   SQL Server Data Tools for SQL Server 2017
+
 -   SQL Server Data Tools for SQL Server 2016  
   
 -   SQL Server Data Tools for SQL Server 2014  
+
+## Supported DB2 Servers
+ The Data Provider supports these IBM relational database management systems, using the included Microsoft DRDA (Distributed Relational Database Architecture) Client, when connecting across a TCP/IP network.
+
+-   IBM DB2 for z/OS 11.1
+
+-   IBM DB2 for z/OS 10.1  
   
+-   IBM DB2 for i 7.3
+
+-   IBM DB2 for i 7.2
+
+-   IBM DB2 for i 7.1
+
+-   IBM DB2 for LUW 11
+
+-   IBM DB2 for LUW 10.5
+
 ## Prerequisite Software  
  The Data Provider requires the following software products as installation prerequisites.  
   

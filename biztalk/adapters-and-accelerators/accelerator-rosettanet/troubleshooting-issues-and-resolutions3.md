@@ -323,7 +323,7 @@ This topic addresses issues related to running Microsoft® [!INCLUDE[BTARN_Curre
   
  1. Enable the BTARN Application Pools for 32 bit.  
   
- 2. Add a HTTP Handler for *.dll refering the IsapiModule Filters.  
+ 2. Add a HTTP Handler for \*.dll referring the IsapiModule Filters.  
   
 ## See Also  
  [BtarnClean](../../adapters-and-accelerators/accelerator-rosettanet/btarnclean.md)   

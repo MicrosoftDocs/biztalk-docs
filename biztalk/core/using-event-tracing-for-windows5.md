@@ -25,7 +25,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Using Event Tracing for Windows
-Microsoft BizTalk Adapter for PeopleSoft Enterprise logs error, warning, and information messages to the Windows Event Viewer. You can see additional tracing messages by using the Event Tracing for Windows (ETW) tool. When ETW is enabled, it creates an *.etl file to receive the messages. The file is in binary format and must be converted to be read. To do this you must have a consumer application available to interpret the \*.etl file; for example, tracerpt.exe or tracedmp.exe.  
+Microsoft BizTalk Adapter for PeopleSoft Enterprise logs error, warning, and information messages to the Windows Event Viewer. You can see additional tracing messages by using the Event Tracing for Windows (ETW) tool. When ETW is enabled, it creates an \*.etl file to receive the messages. The file is in binary format and must be converted to be read. To do this you must have a consumer application available to interpret the \*.etl file; for example, tracerpt.exe or tracedmp.exe.  
   
 ## ETW Components  
  Event Tracing for Windows has three components:  

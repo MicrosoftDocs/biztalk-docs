@@ -1,0 +1,68 @@
+{
+    "build":  {
+                  "content":  [
+                                  {
+                                      "files":  [
+                                                    "**/*.md",
+                                                    "**/*.yml",
+                                                    "toc.yml"
+                                                ],
+                                      "exclude":  [
+                                                      "**/obj/**",
+                                                      "**/includes/**",
+                                                      "_themes/**",
+                                                      "_themes.pdf/**",
+                                                      "README.md",
+                                                      "LICENSE",
+                                                      "LICENSE-CODE",
+                                                      "ThirdPartyNotices",
+                                                      "**/toc.md"
+                                                  ]
+                                  }
+                              ],
+                  "resource":  [
+                                   {
+                                       "files":  [
+                                                     "**/*.png",
+                                                     "**/*.jpg",
+                                                     "**/*.gif",
+                                                     "**/*.bmp",
+                                                     "**/*.jpeg"
+                                                 ],
+                                       "exclude":  [
+                                                       "**/obj/**",
+                                                       "**/includes/**",
+                                                       "_themes/**",
+                                                       "_themes.pdf/**"
+                                                   ]
+                                   }
+                               ],
+                  "overwrite":  [
+
+                                ],
+                  "externalReference":  [
+
+                                        ],
+                  "globalMetadata":  {
+                                         "breadcrumb_path":  "/biztalk/core/technical-reference/breadcrumb/toc.json",
+                                         "extendBreadcrumb":  true,
+                                         "feedback_system":  "None",
+                                         "ROBOTS":  "INDEX,FOLLOW",
+                                         "is_archived":  false,
+                                         "author":  "MandiOhlinger",
+                                         "ms.author":  "mandia",
+                                         "ms.date":  "08/17/2018",
+                                         "ms.prod":  "biztalk-server",
+                                         "ms.topic":  "conceptual",
+                                         "uhfHeaderId": "MSDocsHeader-BizTalk"      
+                                     },
+                  "fileMetadata":  {
+
+                                   },
+                  "template":  [
+
+                               ],
+                  "dest":  "technical-reference",
+                  "markdownEngineName":  "markdig"
+              }
+}

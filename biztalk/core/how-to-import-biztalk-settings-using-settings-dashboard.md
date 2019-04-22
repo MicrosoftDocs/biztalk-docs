@@ -106,7 +106,7 @@ Using the BizTalk Settings Dashboard, you can export the settings from a [!INCLU
 3. Browse to the location where you want to save the current BizTalk settings. Enter the filename, select the type as XML format, and then click **Save**.  
 
 > [!IMPORTANT]
->  We do not not recommended manually updating the exported XML file. When you import an updated XML file to a production environment, the import process might fail due to some data type mismatch or other errors introduced by manual editing.  
+>  We do not recommended manually updating the exported XML file. When you import an updated XML file to a production environment, the import process might fail due to some data type mismatch or other errors introduced by manual editing.  
 
 ## See Also  
  [Using Settings Dashboard for BizTalk Server Performance Tuning](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)
