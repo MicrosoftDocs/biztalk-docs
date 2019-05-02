@@ -34,8 +34,8 @@ These adapters are updated by the cumulative updates for HIS.
 
 | Product Version | Latest Service Pack | Latest Cumulative Update |
 | --- | --- | --- |
-| HIS 2016 | n/a | CU 1 ([KB 3216544](https://support.microsoft.com/kb/3216544)) |
-| HIS 2013 | n/a | CU 4 ([KB 3108547](https://support.microsoft.com/kb/3108547)) |
+| HIS 2016 | n/a | CU 3 ([KB 4043569](https://support.microsoft.com/en-us/help/4043569)) |
+| HIS 2013 | n/a | CU 5 ([KB 4089507](https://support.microsoft.com/en-us/help/4089507)) |
 |  HIS 2010 | n/a | CU 10 ([KB 2917398](https://support.microsoft.com/kb/2917398)) |
 |  HIS 2009 | n/a | CU 7 ([KB 2975320](http://support.microsoft.com/kb/2975320)) |
 |  HIS 2006 | SP1 ([KB 979238](http://support.microsoft.com/kb/979238))  | n/a |
@@ -45,6 +45,7 @@ These adapters are updated by the cumulative updates for HIS.
 
 | Product Version | Version | Latest Update & Version |
 | --- | --- | --- |
+| [Microsoft OLEDB Provider for DB2 v6.0 for SQL Server 2017](https://www.microsoft.com/en-us/download/details.aspx?id=55992) | 10.0.2469.0 |[KB 4043569](https://www.microsoft.com/en-us/download/details.aspx?id=55992) (10.0.2469.0) <br/><br/>See Note |
 | [Microsoft OLEDB Provider for DB2 v5.0 for SQL Server 2014](https://www.microsoft.com/download/details.aspx?id=42295) | 9.0.2148.0 |[KB 3104962](https://support.microsoft.com/kb/3104962) (9.0.2343.0) <br/><br/>See Note |
 | [Microsoft OLEDB Provider for DB2 v4.0 Refresh for SQL Server 2012 SP1](https://www.microsoft.com/download/details.aspx?id=35580) | 9.0.1390.0  | [KB 2913611](http://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
 | [Microsoft OLEDB Provider for DB2 v4.0 for SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=29065) | 9.0.1356.0 | [KB 2913611](http://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
@@ -57,11 +58,14 @@ These adapters are updated by the cumulative updates for HIS.
 
 #### HIS 2016
 
+-   [Cumulative Update 3](https://support.microsoft.com/en-us/help/4043569)
 -   [Cumulative Update 2](https://support.microsoft.com/help/4043569)
 -   [Cumulative Update 1](https://support.microsoft.com/help/3216544) 
 
 #### HIS 2013
 
+-   [Cumulative update 5](https://support.microsoft.com/en-us/help/4089507)
+-   [Cumulative update 4](https://support.microsoft.com/en-us/help/3108547)
 -   [Cumulative update 3](https://support.microsoft.com/kb/3019572)
 -   [Cumulative update 2](https://support.microsoft.com/kb/2929767)
 -   [Cumulative update 1](https://support.microsoft.com/kb/2908834)
