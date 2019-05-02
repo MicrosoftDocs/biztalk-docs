@@ -2,7 +2,7 @@
 title: Update center | Microsoft Docs
 description: See all the available cumulative updates and service packs available for HIS and OLE DB Provider for DB2
 author: "gplarsen"
-manager: "anneta"
+manager: "dougeby"
 
 ms.date: "05/02/2019"
 ms.prod: "host-integration-server"
@@ -45,7 +45,7 @@ These adapters are updated by the cumulative updates for HIS.
 
 | Product Version | Version | Latest Update & Version |
 | --- | --- | --- |
-| [Microsoft OLEDB Provider for DB2 v6.0 for SQL Server 2017](https://www.microsoft.com/download/details.aspx?id=55992) | 10.0.2469.0 |[KB 4043569](https://support.microsoft.com/kb/4043569) (10.0.2469.0) <br/><br/>See Note |
+| [Microsoft OLEDB Provider for DB2 v6.0 for SQL Server 2017](https://www.microsoft.com/download/details.aspx?id=55992) | 10.0.2469.0 |[KB 4470651](https://support.microsoft.com/kb/4470651) (10.0.2469.0) <br/><br/>See Note |
 | [Microsoft OLEDB Provider for DB2 v5.0 for SQL Server 2014](https://www.microsoft.com/download/details.aspx?id=42295) | 9.0.2148.0 |[KB 3104962](https://support.microsoft.com/kb/3104962) (9.0.2343.0) <br/><br/>See Note |
 | [Microsoft OLEDB Provider for DB2 v4.0 Refresh for SQL Server 2012 SP1](https://www.microsoft.com/download/details.aspx?id=35580) | 9.0.1390.0  | [KB 2913611](http://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
 | [Microsoft OLEDB Provider for DB2 v4.0 for SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=29065) | 9.0.1356.0 | [KB 2913611](http://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
