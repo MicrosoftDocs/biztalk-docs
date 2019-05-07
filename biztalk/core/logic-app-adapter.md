@@ -2,7 +2,7 @@
 title: "Use Logic App adapter in BizTalk Server| Microsoft Docs"
 description: Install and configure the Logic Apps adapter to create a receive port, receive location, and send port in BizTalk Server
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "04/17/2019"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -71,6 +71,17 @@ Once installed, you have the following:
 
 	The **ReceiveService** is used by the BizTalk Connector in a logic app when you enter the receive location. The **ReceiveService** is responsible for sending the messages from the logic app. This service is only used on the receive-side of BizTalk. It is not used by the send-side.
 
+#### Using the NullAdapter and Logic App Adapter together
+If you install the Logic App Adapter and the NullAdapter, you may see the following error:
+
+`Another adapter with the same OutboundEngineCLSID value already exists`
+
+The GUID of the Adapter class is the same for Logic App Adapter and NullAdapter. If both adapters are needed, you can:
+
+1. Download the [NullAdapter source code on GitHub](https://github.com/tomasr/nulladapter).
+2. Update the GUID in the **NullSendAdapter.cs** class.
+3. Update the OutboundEngineCLSID value in the **NullAdapter.reg** file. 
+4. Build and deploy the NullAdapter.
 
 ### Step 2: Create the IIS applications
 
