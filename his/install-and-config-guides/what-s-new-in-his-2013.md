@@ -32,7 +32,9 @@ The following sections in this topic contain information about new features and 
   
 -   Microsoft Operating Systems  
   
-    -   Microsoft Windows® 8.1
+    -   Microsoft Windows® 10 (requires HIS 2013 CU5)
+    
+    -   Microsoft Windows 8.1
   
     -   Microsoft Windows 8  
   
@@ -50,13 +52,17 @@ The following sections in this topic contain information about new features and 
   
     -   Microsoft .NET Framework 4  
   
-    -   Microsoft Visual Studio® 2012
+    -   Microsoft Visual Studio® 2013 (requires HIS 2013 CU5)
+    
+    -   Microsoft Visual Studio 2012
   
 -   Microsoft Server Applications  
   
-    -   Microsoft SQL Server® 2012
+    -   Microsoft SQL Server® 2014 (requires HIS 2013 CU5)
+    
+    -   Microsoft SQL Server 2012
   
-    -   Microsoft BizTalk® Server 2013 R2 (requires latest HIS 2013 Cumulative Update)
+    -   Microsoft BizTalk® Server 2013 R2 (requires HIS 2013 CU5)
     
     -   Microsoft BizTalk Server 2013
   
