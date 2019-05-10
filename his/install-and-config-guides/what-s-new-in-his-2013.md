@@ -36,8 +36,10 @@ The following sections in this topic contain information about new features and 
   
     -   Microsoft Windows 8  
   
-    -   Microsoft Windows Server® 2012 R2
+    -   Microsoft Windows Server® 2016 (requires HIS 2013 CU5)
   
+    -   Microsoft Windows Server 2012 R2
+    
     -   Microsoft Windows Server 2012  
   
     -   Virtualization with Microsoft Hyper-V®  
