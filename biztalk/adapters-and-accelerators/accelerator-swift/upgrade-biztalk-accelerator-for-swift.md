@@ -102,4 +102,4 @@ In a multi-server [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4s
 
 
 ## Next steps
-[Configure BizTalk Accelerator for SWIFT ](../../adapters-and-accelerators/accelerator-swift/configure-biztalk-accelerator-for-swift.md)
+[Configure BizTalk Accelerator for SWIFT](../../adapters-and-accelerators/accelerator-swift/configure-biztalk-accelerator-for-swift.md)

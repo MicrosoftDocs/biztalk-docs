@@ -98,4 +98,4 @@ The minimum hardware and software requirements are the same as [!INCLUDE[btsBizT
 > If **Run Configuration Wizard** is selected on the Installation Completed page, the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] Configuration Wizard runs automatically when you click **Finish**. 
 
 ## Next steps
-[Configure BizTalk Accelerator for SWIFT ](../../adapters-and-accelerators/accelerator-swift/configure-biztalk-accelerator-for-swift.md)
+[Configure BizTalk Accelerator for SWIFT](../../adapters-and-accelerators/accelerator-swift/configure-biztalk-accelerator-for-swift.md)

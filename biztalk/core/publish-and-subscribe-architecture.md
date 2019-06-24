@@ -104,4 +104,4 @@ In a publish/subscribe design, you have three components:
   If the service receiving the message is the Endpoint Manager, then the send port is invoked (or the response portion of a request/response receive port) and if it is the XLANG/s subservice, an orchestration is either created, or located to service the subscription depending on whether there is an instance ID in the subscription. The service then releases the reference to the message and its part so that if no other services have references, the message data can be deleted.  
   
 ## See Also  
- [The Messaging Engine ](../core/the-messaging-engine.md)
+ [The Messaging Engine](../core/the-messaging-engine.md)
