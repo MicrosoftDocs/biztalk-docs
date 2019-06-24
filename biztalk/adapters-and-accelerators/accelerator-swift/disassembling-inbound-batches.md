@@ -62,9 +62,9 @@ The SWIFT disassembler is able to inbound debatching in which it processes or di
   
   The expression that represents the expected batch structure is as follows:  
   
-  `[BH] ([MH] SI [MT])* [BT]  `
+  `[BH] ([MH] SI [MT])* [BT]`
   
-  The brackets ( `[ ] ` ) indicate that the part is optional. The asterisk (**\\***)indicates that the block is repeatable. Whoever builds the message batch must use the message header (*<em>MH</em>*) and trailer (*<em>MT</em>*) consistently in each repetition of (`[MH] SI [MT]`).  
+  The brackets ( `[ ]` ) indicate that the part is optional. The asterisk (**\\***)indicates that the block is repeatable. Whoever builds the message batch must use the message header (*<em>MH</em>*) and trailer (*<em>MT</em>*) consistently in each repetition of (`[MH] SI [MT]`).  
   
   The SWIFT disassembler is able to process any inbound batch that obeys the above structure, because each part in the structure conforms to a flat-file schema. However, if you do not use the optional batch header/trailer and message header/trailer, the message will not conform to those schemas. As a result, a batch containing only consecutive SWIFT messages will have the Batch Header Schema, Batch Trailer Schema, Message Header Schema, and Message Trailer Schema properties set to "None".  
 
