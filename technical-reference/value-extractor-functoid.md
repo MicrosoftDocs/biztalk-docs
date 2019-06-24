@@ -2,7 +2,7 @@
 title: Value Extractor Functoid
 TOCTitle: Value Extractor Functoid
 ms:assetid: 45a9a968-b100-4812-884a-f18879afc9c7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559864(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559864(v=BTS.80)
 ms:contentKeyID: 51527666
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

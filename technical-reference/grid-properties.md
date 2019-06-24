@@ -2,7 +2,7 @@
 title: Grid Properties
 TOCTitle: Grid Properties
 ms:assetid: 0478cd4a-3786-4b90-9e37-6dc64797e018
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546825(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546825(v=BTS.80)
 ms:contentKeyID: 51525949
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

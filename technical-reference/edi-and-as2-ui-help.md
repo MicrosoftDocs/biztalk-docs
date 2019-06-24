@@ -2,7 +2,7 @@
 title: EDI and AS2 UI Help
 TOCTitle: EDI and AS2 UI Help
 ms:assetid: c1b391e8-da12-4b47-8dde-e7bff3ecf815
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226507(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226507(v=BTS.80)
 ms:contentKeyID: 51531065
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

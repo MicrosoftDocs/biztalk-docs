@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, Properties Tab (FTP Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Properties Tab (FTP Adapter Send Handler)
 ms:assetid: c289993c-3bb8-4755-b4d7-5504c5e10a7c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547840(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547840(v=BTS.80)
 ms:contentKeyID: 51530967
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

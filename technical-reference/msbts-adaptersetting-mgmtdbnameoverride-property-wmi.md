@@ -2,7 +2,7 @@
 title: MSBTS_AdapterSetting.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_AdapterSetting.MgmtDbNameOverride Property (WMI)
 ms:assetid: 2e3c86de-42ba-47db-8eff-7e71133addf9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559414(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559414(v=BTS.80)
 ms:contentKeyID: 51527050
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

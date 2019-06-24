@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocationOrchestration.OrchestrationStatus Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.OrchestrationStatus Property (WMI)
 ms:assetid: 6450b2f8-7e1d-4457-a686-9316afa1bc1b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560507(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560507(v=BTS.80)
 ms:contentKeyID: 51528538
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: XML Assembler Pipeline Component Properties
 TOCTitle: XML Assembler Pipeline Component Properties
 ms:assetid: a5095838-bb3c-4da9-9f83-ff2f4f9e0465
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577876(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577876(v=BTS.80)
 ms:contentKeyID: 51530268
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -56,13 +56,13 @@ Default Value: True</td>
 </tr>
 <tr class="even">
 <td><strong>Document schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="https://msdn.microsoft.com/en-us/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
+<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
 <br />
 Default value: Empty collection (Collection)</td>
 </tr>
 <tr class="odd">
 <td><strong>Envelope schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas that will be applied to the envelope. For more information, see <a href="https://msdn.microsoft.com/en-us/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
+<td>Indicate the namespace and typename of the schema or schemas that will be applied to the envelope. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
 <br />
 Default value: Empty collection (Collection)</td>
 </tr>

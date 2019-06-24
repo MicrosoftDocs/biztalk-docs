@@ -2,7 +2,7 @@
 title: MSBTS_SendHandler2.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_SendHandler2.MgmtDbNameOverride Property (WMI)
 ms:assetid: 303efd7c-d33b-4253-8b36-398587494ec2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559457(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559457(v=BTS.80)
 ms:contentKeyID: 51527106
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

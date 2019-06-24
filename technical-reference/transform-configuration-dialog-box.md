@@ -2,7 +2,7 @@
 title: Transform Configuration Dialog Box
 TOCTitle: Transform Configuration Dialog Box
 ms:assetid: 7956489d-94ac-4e7d-b3a2-4a2fc059fd3c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560924(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560924(v=BTS.80)
 ms:contentKeyID: 51529077
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

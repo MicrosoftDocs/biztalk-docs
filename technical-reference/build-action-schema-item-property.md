@@ -2,7 +2,7 @@
 title: Build Action (Schema Item Property)
 TOCTitle: Build Action (Schema Item Property)
 ms:assetid: d3e954e0-f261-4132-a1e5-e8a4ce4534ab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578586(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578586(v=BTS.80)
 ms:contentKeyID: 51531471
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

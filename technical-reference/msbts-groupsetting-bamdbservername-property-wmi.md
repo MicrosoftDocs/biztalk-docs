@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.BamDBServerName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.BamDBServerName Property (WMI)
 ms:assetid: 88bda811-1523-4d10-b3cb-1d8f4f9b2a89
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561234(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561234(v=BTS.80)
 ms:contentKeyID: 51529497
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

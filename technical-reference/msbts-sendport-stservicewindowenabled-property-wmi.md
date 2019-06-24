@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.STServiceWindowEnabled Property (WMI)
 TOCTitle: MSBTS_SendPort.STServiceWindowEnabled Property (WMI)
 ms:assetid: 0ab6ff24-3b52-4251-8598-fde0eac6d325
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547237(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547237(v=BTS.80)
 ms:contentKeyID: 51526104
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MIME-SMIME Decoder Pipeline Component Properties
 TOCTitle: MIME-SMIME Decoder Pipeline Component Properties
 ms:assetid: b272610f-f6ad-4466-9931-b96595ed4cc1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578167(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578167(v=BTS.80)
 ms:contentKeyID: 51530578
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

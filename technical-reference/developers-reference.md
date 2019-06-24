@@ -2,7 +2,7 @@
 title: Developers Reference
 TOCTitle: Developers Reference
 ms:assetid: cd392f20-cbe1-4806-8739-1ed2c428b54e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548064(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548064(v=BTS.80)
 ms:contentKeyID: 52323154
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: WCF-WSHttp Transport Properties Dialog Box, Receive, Binding Tab
 TOCTitle: WCF-WSHttp Transport Properties Dialog Box, Receive, Binding Tab
 ms:assetid: 16ccffe5-c047-4bb8-9247-a1cb178b5b06
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb245968(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb245968(v=BTS.80)
 ms:contentKeyID: 51526454
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

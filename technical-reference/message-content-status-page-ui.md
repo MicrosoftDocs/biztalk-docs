@@ -2,7 +2,7 @@
 title: Message Content Status Page UI
 TOCTitle: Message Content Status Page UI
 ms:assetid: 795bf59c-5290-4c97-984e-0bf36676ca4e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743492(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743492(v=BTS.80)
 ms:contentKeyID: 51529081
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Configuration Wizard, Business Activity Monitoring - Portal Page
 TOCTitle: Configuration Wizard, Business Activity Monitoring - Portal Page
 ms:assetid: 4a0cbac7-726b-4619-8896-0910162f2915
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559970(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559970(v=BTS.80)
 ms:contentKeyID: 51527832
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

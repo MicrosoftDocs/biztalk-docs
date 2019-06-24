@@ -2,7 +2,7 @@
 title: Send Port Group Properties Dialog Box
 TOCTitle: Send Port Group Properties Dialog Box
 ms:assetid: 6876e80c-f760-4bbc-be21-0d29cb6b9db3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560579(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560579(v=BTS.80)
 ms:contentKeyID: 51528650
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

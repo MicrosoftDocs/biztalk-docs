@@ -2,7 +2,7 @@
 title: MSBTS_SendPort (WMI)
 TOCTitle: MSBTS_SendPort (WMI)
 ms:assetid: 3f3767e1-4590-41b2-8ee3-02eac6ea8c5c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559751(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559751(v=BTS.80)
 ms:contentKeyID: 51527565
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -16,7 +16,7 @@ Represents an individual send port defined by BizTalk Server.
 
 
 > [!WARNING]
-> <P>Certificates must be installed on the box for the MSBTS_SendPort class to work. The only way to create send ports without certificates is to use the <A href="http://msdn.microsoft.com/library/microsoft.biztalk.explorerom.aspx">Microsoft.BizTalk.ExplorerOM</A> APIs.</P>
+> <P>Certificates must be installed on the box for the MSBTS_SendPort class to work. The only way to create send ports without certificates is to use the <A href="https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.aspx">Microsoft.BizTalk.ExplorerOM</A> APIs.</P>
 
 
 

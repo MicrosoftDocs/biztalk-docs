@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.StopSendingOnFailure Property (WMI)
 TOCTitle: MSBTS_SendPort.StopSendingOnFailure Property (WMI)
 ms:assetid: 7f8ebfdc-5032-43f5-9d71-366be9894e91
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561047(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561047(v=BTS.80)
 ms:contentKeyID: 51529245
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBTTransportConfig.AddReceiveEndpoint Method (COM)
 TOCTitle: IBTTransportConfig.AddReceiveEndpoint Method (COM)
 ms:assetid: d215daf8-c25b-4601-af3d-ded7cddde612
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578554(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578554(v=BTS.80)
 ms:contentKeyID: 51531541
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

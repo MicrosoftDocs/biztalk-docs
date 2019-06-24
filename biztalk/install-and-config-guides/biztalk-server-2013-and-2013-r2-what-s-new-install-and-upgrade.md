@@ -28,7 +28,7 @@ Also get access to the installation guides, and read about upgrading to [!INCLUD
   
  [What's New in BizTalk Server 2013 and 2013 R2](../install-and-config-guides/what-s-new-in-biztalk-server-2013-and-2013-r2.md)  
   
- [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)  
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)  
   
  [Upgrade to BizTalk Server 2013 and 2013 R2](../install-and-config-guides/upgrade-to-biztalk-server-2013-and-2013-r2.md)  
   

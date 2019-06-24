@@ -2,7 +2,7 @@
 title: Greater Than or Equal To Functoid
 TOCTitle: Greater Than or Equal To Functoid
 ms:assetid: f8a1d808-0199-4ff8-8602-de85a64667fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562017(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562017(v=BTS.80)
 ms:contentKeyID: 51533543
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

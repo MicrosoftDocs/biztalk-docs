@@ -2,7 +2,7 @@
 title: IPipelineContext.GetGroupSigningCertificate Method (COM)
 TOCTitle: IPipelineContext.GetGroupSigningCertificate Method (COM)
 ms:assetid: dee7be36-2968-44a5-a76a-5d565d7e71dd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561483(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561483(v=BTS.80)
 ms:contentKeyID: 51532839
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

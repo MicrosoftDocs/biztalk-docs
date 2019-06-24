@@ -2,7 +2,7 @@
 title: File Transport Properties Dialog Box, Receive, Authentication Tab
 TOCTitle: File Transport Properties Dialog Box, Receive, Authentication Tab
 ms:assetid: 0e8cb45b-43e7-4ff2-bbd0-c3328f79b629
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547377(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547377(v=BTS.80)
 ms:contentKeyID: 51526233
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

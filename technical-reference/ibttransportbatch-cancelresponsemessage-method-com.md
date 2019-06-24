@@ -2,7 +2,7 @@
 title: IBTTransportBatch.CancelResponseMessage Method (COM)
 TOCTitle: IBTTransportBatch.CancelResponseMessage Method (COM)
 ms:assetid: 97afd5ed-694a-4b96-804c-2f57ef81e355
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577461(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577461(v=BTS.80)
 ms:contentKeyID: 51529876
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

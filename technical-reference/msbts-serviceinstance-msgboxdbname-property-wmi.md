@@ -2,7 +2,7 @@
 title: MSBTS_ServiceInstance.MsgBoxDBName Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.MsgBoxDBName Property (WMI)
 ms:assetid: 3e075e46-b457-43c0-ac48-7dcc15897ed4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559726(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559726(v=BTS.80)
 ms:contentKeyID: 51527471
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

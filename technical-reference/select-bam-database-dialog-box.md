@@ -2,7 +2,7 @@
 title: Select BAM Database Dialog Box
 TOCTitle: Select BAM Database Dialog Box
 ms:assetid: 15fb0ace-3890-49dd-a8ef-889b0a6f160a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558728(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558728(v=BTS.80)
 ms:contentKeyID: 51526407
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

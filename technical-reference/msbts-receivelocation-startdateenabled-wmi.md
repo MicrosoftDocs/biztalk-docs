@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocation.StartDateEnabled (WMI)
 TOCTitle: MSBTS_ReceiveLocation.StartDateEnabled (WMI)
 ms:assetid: 2ca499e4-2ac8-4320-9d69-0208cfafc87d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559381(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559381(v=BTS.80)
 ms:contentKeyID: 51526994
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Server Properties
 TOCTitle: Server Properties
 ms:assetid: bd29c317-ff25-461d-8940-2993f6265011
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb728064(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb728064(v=BTS.80)
 ms:contentKeyID: 51530875
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

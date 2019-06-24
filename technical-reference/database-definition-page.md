@@ -2,7 +2,7 @@
 title: Database Definition Page
 TOCTitle: Database Definition Page
 ms:assetid: 23b8f76c-20e2-4ba8-8728-6dde4de6aa6f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559200(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559200(v=BTS.80)
 ms:contentKeyID: 51526805
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

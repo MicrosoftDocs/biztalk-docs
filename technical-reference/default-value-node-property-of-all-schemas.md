@@ -2,7 +2,7 @@
 title: Default Value (Node Property of All Schemas)
 TOCTitle: Default Value (Node Property of All Schemas)
 ms:assetid: 32fe94f4-7e71-456e-b55e-91a28e4a762c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559513(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559513(v=BTS.80)
 ms:contentKeyID: 51527192
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

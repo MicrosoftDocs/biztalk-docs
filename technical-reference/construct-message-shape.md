@@ -2,7 +2,7 @@
 title: Construct Message Shape
 TOCTitle: Construct Message Shape
 ms:assetid: bd57a22d-d6ee-41da-a0f8-f28c61af64f3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578383(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578383(v=BTS.80)
 ms:contentKeyID: 51530876
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

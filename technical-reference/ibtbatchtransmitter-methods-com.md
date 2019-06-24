@@ -2,7 +2,7 @@
 title: IBTBatchTransmitter Methods (COM)
 TOCTitle: IBTBatchTransmitter Methods (COM)
 ms:assetid: b61131ec-6e93-4c24-bab6-0738713e8768
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578245(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578245(v=BTS.80)
 ms:contentKeyID: 51530682
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

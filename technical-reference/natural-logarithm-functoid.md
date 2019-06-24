@@ -2,7 +2,7 @@
 title: Natural Logarithm Functoid
 TOCTitle: Natural Logarithm Functoid
 ms:assetid: a6a2a238-0a2e-4c69-aecc-a475fda1272e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577913(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577913(v=BTS.80)
 ms:contentKeyID: 51530259
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

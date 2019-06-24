@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.MessagingMaxReceiveInterval Property (WMI)
 TOCTitle: MSBTS_HostSetting.MessagingMaxReceiveInterval Property (WMI)
 ms:assetid: 06784349-d6e8-471c-8c12-3aa63dcaea7b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678620(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678620(v=BTS.80)
 ms:contentKeyID: 51526016
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Remove Application ID
 TOCTitle: Remove Application ID Functoid
 ms:assetid: 4cdfef07-1b23-4844-ad86-28ddbf9bcf19
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560047(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560047(v=BTS.80)
 ms:contentKeyID: 51527900
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

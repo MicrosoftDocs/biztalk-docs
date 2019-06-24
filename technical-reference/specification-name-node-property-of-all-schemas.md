@@ -2,7 +2,7 @@
 title: Specification Name (Node Property of All Schemas)
 TOCTitle: Specification Name (Node Property of All Schemas)
 ms:assetid: 4260e1df-d6a4-49d0-a5ae-321f59e78f89
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559802(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559802(v=BTS.80)
 ms:contentKeyID: 51527621
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

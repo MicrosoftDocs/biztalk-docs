@@ -2,7 +2,7 @@
 title: MSBTS_MsgBoxSetting.DisableNewMessagePublication Property (WMI)
 TOCTitle: MSBTS_MsgBoxSetting.DisableNewMessagePublication Property (WMI)
 ms:assetid: 88490869-a061-415d-9194-95a4fdd53f14
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561226(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561226(v=BTS.80)
 ms:contentKeyID: 51529486
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

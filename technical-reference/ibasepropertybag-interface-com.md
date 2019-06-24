@@ -2,7 +2,7 @@
 title: IBasePropertyBag Interface (COM)
 TOCTitle: IBasePropertyBag Interface (COM)
 ms:assetid: d9cab7bd-1424-48f3-806f-0c7501ccc14a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578712(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578712(v=BTS.80)
 ms:contentKeyID: 51531751
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

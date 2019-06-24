@@ -2,7 +2,7 @@
 title: 'Affiliate Applications Properties: Fields'
 TOCTitle: 'Affiliate Applications Properties: Fields'
 ms:assetid: 8ab6d3ac-b973-427d-a68f-a40ce8212130
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561265(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561265(v=BTS.80)
 ms:contentKeyID: 51529540
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

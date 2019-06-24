@@ -2,7 +2,7 @@
 title: Test Policy Window
 TOCTitle: Test Policy Window
 ms:assetid: 63aea727-d788-44aa-9132-de3cd2539926
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560497(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560497(v=BTS.80)
 ms:contentKeyID: 51528524
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Pattern (Node Property of All Schemas)
 TOCTitle: Pattern (Node Property of All Schemas)
 ms:assetid: 86dec810-b972-48d9-8141-3f07e3a3035e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561200(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561200(v=BTS.80)
 ms:contentKeyID: 51529444
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBaseComponent Properties (COM)
 TOCTitle: IBaseComponent Properties (COM)
 ms:assetid: 531e7785-11bb-4163-a0ce-b40cf71de718
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560179(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560179(v=BTS.80)
 ms:contentKeyID: 51528075
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

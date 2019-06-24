@@ -2,7 +2,7 @@
 title: Map Properties Dialog Box
 TOCTitle: Map Properties Dialog Box
 ms:assetid: a4e24d8a-4208-4150-899f-4e54b12aaeaa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577871(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577871(v=BTS.80)
 ms:contentKeyID: 51530264
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

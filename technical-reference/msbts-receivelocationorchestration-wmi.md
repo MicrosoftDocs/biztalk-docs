@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocationOrchestration (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration (WMI)
 ms:assetid: 0835f43a-25ce-431d-b4ba-a1f7105d9047
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547083(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547083(v=BTS.80)
 ms:contentKeyID: 51526057
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

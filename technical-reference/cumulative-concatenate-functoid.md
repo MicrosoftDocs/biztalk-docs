@@ -2,7 +2,7 @@
 title: Cumulative Concatenate Functoid
 TOCTitle: Cumulative Concatenate Functoid
 ms:assetid: f04c493c-d150-4f80-aca9-9b77889b6b3f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561837(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561837(v=BTS.80)
 ms:contentKeyID: 51533294
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

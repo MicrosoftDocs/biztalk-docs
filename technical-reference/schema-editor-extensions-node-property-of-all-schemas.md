@@ -2,7 +2,7 @@
 title: Schema Editor Extensions (Node Property of All Schemas)
 TOCTitle: Schema Editor Extensions (Node Property of All Schemas)
 ms:assetid: 2fd636b1-903b-44c5-8808-3ca5e6b0de1f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559451(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559451(v=BTS.80)
 ms:contentKeyID: 51527096
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

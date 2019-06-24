@@ -2,7 +2,7 @@
 title: ISSOMapper.GetMappingsForExternalUser Method
 TOCTitle: ISSOMapper.GetMappingsForExternalUser Method
 ms:assetid: fdc06da6-1806-4b18-95bf-76a7486132d0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705785(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705785(v=BTS.80)
 ms:contentKeyID: 51533729
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

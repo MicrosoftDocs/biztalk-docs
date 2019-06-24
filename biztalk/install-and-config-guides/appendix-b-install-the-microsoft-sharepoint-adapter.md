@@ -92,7 +92,7 @@ SharePoint support is listed in the following table:
     ||SSOM Support|  
     |---|---|  
     |SharePoint 2016<br /><br /> [Install SharePoint 2016](https://technet.microsoft.com/library/cc262957(v=office.16).aspx)|No| 
-    |SharePoint 2013<br /><br /> [Install SharePoint 2013](http://technet.microsoft.com/library/cc303424.aspx)|No|  
+    |SharePoint 2013<br /><br /> [Install SharePoint 2013](https://technet.microsoft.com/library/cc303424.aspx)|No|  
     |SharePoint Online<br /><br /> [SharePoint Online administration](https://technet.microsoft.com/library/gg132908.aspx)|No|  
     |SharePoint 2010<br /><br /> [Installation and Deployment for SharePoint Server 2010](https://technet.microsoft.com/library/cc262957(v=office.14).aspx)|Yes|  
     |SharePoint 2007<br /><br /> [Installation for SharePoint Server 2007](https://technet.microsoft.com/library/cc262957(v=office.12).aspx) |Yes|  

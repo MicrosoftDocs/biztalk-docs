@@ -2,7 +2,7 @@
 title: MSBTS_SendHandler2 (WMI)
 TOCTitle: MSBTS_SendHandler2 (WMI)
 ms:assetid: 732a03ae-c699-45cc-be92-06cf9cac7ce1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560809(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560809(v=BTS.80)
 ms:contentKeyID: 51528923
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

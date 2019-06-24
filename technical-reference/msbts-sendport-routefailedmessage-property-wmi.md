@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.RouteFailedMessage Property (WMI)
 TOCTitle: MSBTS_SendPort.RouteFailedMessage Property (WMI)
 ms:assetid: 49a42d5f-993d-4a86-bf54-a49835538cc4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559962(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559962(v=BTS.80)
 ms:contentKeyID: 51527820
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

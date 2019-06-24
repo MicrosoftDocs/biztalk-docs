@@ -2,7 +2,7 @@
 title: IDocumentSpec Methods (COM)
 TOCTitle: IDocumentSpec Methods (COM)
 ms:assetid: 7f9334a4-20a7-4f7c-aa96-5f2ca95b1041
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561048(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561048(v=BTS.80)
 ms:contentKeyID: 51529246
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

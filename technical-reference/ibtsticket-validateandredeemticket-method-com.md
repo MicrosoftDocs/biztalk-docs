@@ -2,7 +2,7 @@
 title: IBTSTicket.ValidateAndRedeemTicket Method (COM)
 TOCTitle: IBTSTicket.ValidateAndRedeemTicket Method (COM)
 ms:assetid: c2df4b05-f484-434f-b785-b4ca3be26aa0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547848(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547848(v=BTS.80)
 ms:contentKeyID: 51531108
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

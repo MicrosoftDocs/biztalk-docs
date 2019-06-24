@@ -2,7 +2,7 @@
 title: Orchestration Designer UI Help1
 TOCTitle: Orchestration Designer UI Help1
 ms:assetid: 4b6f9ed1-fb1d-4668-9df8-ebcc34cb351c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560015(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560015(v=BTS.80)
 ms:contentKeyID: 51527860
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

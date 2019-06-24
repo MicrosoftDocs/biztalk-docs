@@ -2,7 +2,7 @@
 title: IBTBatchTransmitter.GetBatch Method (COM)
 TOCTitle: IBTBatchTransmitter.GetBatch Method (COM)
 ms:assetid: 36be99fb-e7b0-442a-b487-e8e64dbb79d1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559589(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559589(v=BTS.80)
 ms:contentKeyID: 51527342
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_Orchestration.QueryDependencyInfo Method (WMI)
 TOCTitle: MSBTS_Orchestration.QueryDependencyInfo Method (WMI)
 ms:assetid: 6da32e40-b5b1-43f2-891a-c81a5cc4402b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560699(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560699(v=BTS.80)
 ms:contentKeyID: 51528758
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

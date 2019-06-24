@@ -2,7 +2,7 @@
 title: IBTTransportControl Members (COM)
 TOCTitle: IBTTransportControl Members (COM)
 ms:assetid: 11d10f45-2cd6-40b0-a429-b5732ee64a47
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547598(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547598(v=BTS.80)
 ms:contentKeyID: 51526304
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: ISSOMapping.WindowsUserName Property
 TOCTitle: ISSOMapping.WindowsUserName Property
 ms:assetid: af1ef5a6-0019-41c9-9a2d-bf1e6087667d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705197(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705197(v=BTS.80)
 ms:contentKeyID: 51530544
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Configuration Wizard, Unconfigure Features Page
 TOCTitle: Configuration Wizard, Unconfigure Features Page
 ms:assetid: 4fc97c6d-de7f-41e5-8c13-e98d9acca487
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560107(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560107(v=BTS.80)
 ms:contentKeyID: 51527963
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

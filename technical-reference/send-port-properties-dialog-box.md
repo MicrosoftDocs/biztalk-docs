@@ -2,7 +2,7 @@
 title: Send Port Properties Dialog Box
 TOCTitle: Send Port Properties Dialog Box
 ms:assetid: 14261d44-dfbe-4074-8b57-6f34a624fd5f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547640(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547640(v=BTS.80)
 ms:contentKeyID: 51526367
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: 'Create New Affiliate Application Wizard: Fields'
 TOCTitle: 'Create New Affiliate Application Wizard: Fields'
 ms:assetid: 7f9a8675-dd4f-4718-90f1-9538661f7494
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561050(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561050(v=BTS.80)
 ms:contentKeyID: 51529251
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

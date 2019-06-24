@@ -2,7 +2,7 @@
 title: MSBTS_Orchestration.HostName Property (WMI)
 TOCTitle: MSBTS_Orchestration.HostName Property (WMI)
 ms:assetid: a738aa3e-8c87-41bb-801b-1d68452dfc0a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577922(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577922(v=BTS.80)
 ms:contentKeyID: 51530274
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

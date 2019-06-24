@@ -2,7 +2,7 @@
 title: New Measure Dialog Box
 TOCTitle: New Measure Dialog Box
 ms:assetid: 4ab69324-5f5a-49a3-9025-4a6dc80c0e45
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559983(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559983(v=BTS.80)
 ms:contentKeyID: 51527839
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

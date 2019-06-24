@@ -2,7 +2,7 @@
 title: IProbeMessage Interface (COM)
 TOCTitle: IProbeMessage Interface (COM)
 ms:assetid: a3683382-1ac3-493e-8bf7-96fa7ec0722c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577843(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577843(v=BTS.80)
 ms:contentKeyID: 51530171
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

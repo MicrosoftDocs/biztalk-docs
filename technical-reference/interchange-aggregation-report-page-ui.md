@@ -2,7 +2,7 @@
 title: Interchange Aggregation Report Page UI
 TOCTitle: Interchange Aggregation Report Page UI
 ms:assetid: f852eca6-b6af-466c-af09-771f07731df9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743829(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743829(v=BTS.80)
 ms:contentKeyID: 51533508
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

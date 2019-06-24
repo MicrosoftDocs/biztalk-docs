@@ -2,7 +2,7 @@
 title: Node Properties - By Node Type
 TOCTitle: Node Properties - By Node Type
 ms:assetid: 0884d2fb-2085-4a4c-bc38-ab08b8229326
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547091(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547091(v=BTS.80)
 ms:contentKeyID: 51526066
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

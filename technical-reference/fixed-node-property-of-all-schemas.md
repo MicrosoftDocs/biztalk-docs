@@ -2,7 +2,7 @@
 title: Fixed (Node Property of All Schemas)
 TOCTitle: Fixed (Node Property of All Schemas)
 ms:assetid: 4edfb40c-6401-4f78-9851-119904d4b4c9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560089(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560089(v=BTS.80)
 ms:contentKeyID: 51527939
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

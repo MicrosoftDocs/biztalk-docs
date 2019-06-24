@@ -2,7 +2,7 @@
 title: MSBTS_HostInstance.Uninstall Method (WMI)
 TOCTitle: MSBTS_HostInstance.Uninstall Method (WMI)
 ms:assetid: 0010f00a-252d-4ced-8a4c-bc315bf84e7e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546727(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546727(v=BTS.80)
 ms:contentKeyID: 51525829
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

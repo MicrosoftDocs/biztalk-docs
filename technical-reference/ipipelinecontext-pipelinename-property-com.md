@@ -2,7 +2,7 @@
 title: IPipelineContext.PipelineName Property (COM)
 TOCTitle: IPipelineContext.PipelineName Property (COM)
 ms:assetid: a7906a2c-1c25-4a08-9b0a-a0900fac7e38
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577929(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577929(v=BTS.80)
 ms:contentKeyID: 51530283
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

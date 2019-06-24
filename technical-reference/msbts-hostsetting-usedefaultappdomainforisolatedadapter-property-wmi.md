@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.UseDefaultAppDomainForIsolatedAdapter Property (WMI)
 TOCTitle: MSBTS_HostSetting.UseDefaultAppDomainForIsolatedAdapter Property (WMI)
 ms:assetid: 2b54a1bb-5269-4bc6-9a94-3a5cc167ae4f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678625(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678625(v=BTS.80)
 ms:contentKeyID: 51527035
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

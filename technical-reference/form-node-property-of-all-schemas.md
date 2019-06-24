@@ -2,7 +2,7 @@
 title: Form (Node Property of All Schemas)
 TOCTitle: Form (Node Property of All Schemas)
 ms:assetid: f111b9cd-8343-457f-9c90-1dc96b2463eb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561862(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561862(v=BTS.80)
 ms:contentKeyID: 51533324
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

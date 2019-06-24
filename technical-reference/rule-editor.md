@@ -2,7 +2,7 @@
 title: Rule Editor
 TOCTitle: Rule Editor
 ms:assetid: fc4e521b-e46c-4169-924b-c11afbf9eb5b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562102(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562102(v=BTS.80)
 ms:contentKeyID: 51533656
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

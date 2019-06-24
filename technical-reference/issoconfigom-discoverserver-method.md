@@ -2,7 +2,7 @@
 title: ISSOConfigOM.DiscoverServer Method
 TOCTitle: ISSOConfigOM.DiscoverServer Method
 ms:assetid: 076f04db-1bdf-4e0a-83c2-fc224141a630
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa753953(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa753953(v=BTS.80)
 ms:contentKeyID: 51526039
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

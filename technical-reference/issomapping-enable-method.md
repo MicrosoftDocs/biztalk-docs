@@ -2,7 +2,7 @@
 title: ISSOMapping.Enable Method
 TOCTitle: ISSOMapping.Enable Method
 ms:assetid: 38d7a0b4-7d61-4234-9dfa-d8d13e0cbe41
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa770559(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa770559(v=BTS.80)
 ms:contentKeyID: 51527388
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

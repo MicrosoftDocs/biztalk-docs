@@ -34,7 +34,7 @@ You can specify service-level and application-level code page mapping overrides.
  Enterprise Single Sign-On utilizes the Windows Application event log. The Event Viewer is a Microsoft Management Console (MMC) snap-in that enables you to browse and manage event logs. For more information, see [Event Viewer](http://go.microsoft.com/fwlink/?LinkID=131274) (http://go.microsoft.com/fwlink/?LinkID=131274).  
   
 ### Event Tracing for Windows using Performance Monitor  
- The DRDA Service ETW (Event Tracing for Windows) trace listener operates as an ETW provider to output trace data to a Windows ETW controller for access by ETW consumers. The Windows Performance Monitor uses performance counters, event trace data, and configuration information, which can be combined into Data Collector Sets. For more information, see [Performance Monitor](http://technet.microsoft.com/library/cc749249.aspx) (http://technet.microsoft.com/library/cc749249.aspx).  
+ The DRDA Service ETW (Event Tracing for Windows) trace listener operates as an ETW provider to output trace data to a Windows ETW controller for access by ETW consumers. The Windows Performance Monitor uses performance counters, event trace data, and configuration information, which can be combined into Data Collector Sets. For more information, see [Performance Monitor](https://technet.microsoft.com/library/cc749249.aspx) (https://technet.microsoft.com/library/cc749249.aspx).  
   
 #### Start Event Trace Session  
  The Windows administrator must start a DRDA Service ETW event trace session using Performance Monitor or the logman command line utility.  

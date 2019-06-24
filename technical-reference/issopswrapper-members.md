@@ -2,7 +2,7 @@
 title: ISSOPSWrapper Members
 TOCTitle: ISSOPSWrapper Members
 ms:assetid: 39214490-7930-4754-a1bc-8c63cc26a32b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa770628(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa770628(v=BTS.80)
 ms:contentKeyID: 51527337
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

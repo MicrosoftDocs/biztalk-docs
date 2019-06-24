@@ -2,7 +2,7 @@
 title: IBTTransportControl Interface (COM)
 TOCTitle: IBTTransportControl Interface (COM)
 ms:assetid: 20bb526b-4c86-401a-8cb8-e2dd1b312677
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559152(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559152(v=BTS.80)
 ms:contentKeyID: 51526745
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

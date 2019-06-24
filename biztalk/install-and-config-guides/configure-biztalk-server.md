@@ -277,7 +277,7 @@ After you configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalks
 
 ## More configuration topics  
 
- [Configuring BizTalk Server on an Azure VM](http://msdn.microsoft.com/library/azure/jj248689.aspx)  
+ [Configuring BizTalk Server on an Azure VM](https://msdn.microsoft.com/library/azure/jj248689.aspx)  
 
 [Configuring BizTalk Server in a Cluster](../install-and-config-guides/configure-biztalk-server-in-a-cluster.md)
 

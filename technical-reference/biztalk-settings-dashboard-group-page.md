@@ -2,7 +2,7 @@
 title: BizTalk Settings Dashboard, Group Page
 TOCTitle: BizTalk Settings Dashboard, Group Page
 ms:assetid: 16e0ac35-49da-448c-b6d7-06e714d9e957
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629685(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629685(v=BTS.80)
 ms:contentKeyID: 51526432
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

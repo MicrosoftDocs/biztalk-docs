@@ -2,7 +2,7 @@
 title: AS2 Message and Correlated MDN Status Page UI
 TOCTitle: AS2 Message and Correlated MDN Status Page UI
 ms:assetid: e61c36a2-d15e-4b81-9d8d-07614f5f1c9f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb259949(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb259949(v=BTS.80)
 ms:contentKeyID: 51533039
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

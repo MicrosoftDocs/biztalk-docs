@@ -2,7 +2,7 @@
 title: BizTalk Framework Assembler Pipeline Component Properties
 TOCTitle: BizTalk Framework Assembler Pipeline Component Properties
 ms:assetid: 00179f6d-75ba-4cac-9136-dd1c1b2c05bf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546729(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546729(v=BTS.80)
 ms:contentKeyID: 51525834
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -72,7 +72,7 @@ Default value: biz: <strong>Note:</strong> The biz: prefix was used to signify o
 </tr>
 <tr class="even">
 <td><strong>Document schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="https://msdn.microsoft.com/en-us/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
+<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
 <br />
 Default value: (Collection) Empty collection</td>
 </tr>
@@ -84,7 +84,7 @@ Default value: None</td>
 </tr>
 <tr class="even">
 <td><strong>Envelope schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas that will be applied to the envelope. For more information, see <a href="https://msdn.microsoft.com/en-us/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
+<td>Indicate the namespace and typename of the schema or schemas that will be applied to the envelope. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
 <br />
 Default value: (Collection), BTF2Schemas.btf2_envelope</td>
 </tr>

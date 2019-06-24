@@ -2,7 +2,7 @@
 title: MDN Message Page UI
 TOCTitle: MDN Message Page UI
 ms:assetid: 51c991ed-0878-47c3-9a9b-d7f79d1180a7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb246099(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb246099(v=BTS.80)
 ms:contentKeyID: 51528023
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

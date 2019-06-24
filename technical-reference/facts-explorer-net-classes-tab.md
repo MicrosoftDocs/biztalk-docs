@@ -2,7 +2,7 @@
 title: Facts Explorer, .NET Classes Tab
 TOCTitle: Facts Explorer, .NET Classes Tab
 ms:assetid: cd55116c-b540-4f1c-a971-ade09a1f6073
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548068(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548068(v=BTS.80)
 ms:contentKeyID: 51531294
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

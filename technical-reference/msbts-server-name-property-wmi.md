@@ -2,7 +2,7 @@
 title: MSBTS_Server.Name Property (WMI)
 TOCTitle: MSBTS_Server.Name Property (WMI)
 ms:assetid: cd033a53-02f1-4be9-9e41-205bd749b973
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548055(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548055(v=BTS.80)
 ms:contentKeyID: 51531393
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

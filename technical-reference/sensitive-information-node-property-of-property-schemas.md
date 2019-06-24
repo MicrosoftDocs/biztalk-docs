@@ -2,7 +2,7 @@
 title: Sensitive Information (Node Property of Property Schemas)
 TOCTitle: Sensitive Information (Node Property of Property Schemas)
 ms:assetid: 8155e60f-2d47-4b07-81c3-fc99935a9123
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561084(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561084(v=BTS.80)
 ms:contentKeyID: 51529291
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Supplemental Node Properties for Flat File Schemas
 TOCTitle: Supplemental Node Properties for Flat File Schemas
 ms:assetid: 02149f63-8031-4c09-bf64-220739e6e7b2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546762(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546762(v=BTS.80)
 ms:contentKeyID: 51525891
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

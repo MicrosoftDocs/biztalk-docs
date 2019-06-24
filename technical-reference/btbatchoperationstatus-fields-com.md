@@ -2,7 +2,7 @@
 title: _BTBatchOperationStatus Fields (COM)
 TOCTitle: _BTBatchOperationStatus Fields (COM)
 ms:assetid: a330c061-2426-4936-bed6-070ce58ede82
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577836(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577836(v=BTS.80)
 ms:contentKeyID: 51530208
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

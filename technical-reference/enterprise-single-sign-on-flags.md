@@ -2,7 +2,7 @@
 title: Enterprise Single Sign-On Flags
 TOCTitle: Enterprise Single Sign-On Flags
 ms:assetid: 3fd3c97b-c3cf-43f8-b4af-2598b8241cde
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559759(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559759(v=BTS.80)
 ms:contentKeyID: 51527518
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

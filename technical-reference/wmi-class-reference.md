@@ -2,7 +2,7 @@
 title: WMI Class Reference
 TOCTitle: WMI Class Reference
 ms:assetid: 0a238032-71e6-4cdb-a94b-a55d871556f9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547120(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547120(v=BTS.80)
 ms:contentKeyID: 51526107
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

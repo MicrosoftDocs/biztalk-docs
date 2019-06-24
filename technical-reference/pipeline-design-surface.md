@@ -2,7 +2,7 @@
 title: Pipeline Design Surface
 TOCTitle: Pipeline Design Surface
 ms:assetid: eedf81f3-3209-44c9-8ee5-1ca826e5cabb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561810(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561810(v=BTS.80)
 ms:contentKeyID: 51533260
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_ServerSetting (WMI)
 TOCTitle: MSBTS_ServerSetting (WMI)
 ms:assetid: 586cfcb0-3aff-429d-8b18-bad01c04c7ac
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560278(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560278(v=BTS.80)
 ms:contentKeyID: 51528193
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

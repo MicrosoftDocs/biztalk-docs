@@ -2,7 +2,7 @@
 title: Lowercase Functoid
 TOCTitle: Lowercase Functoid
 ms:assetid: e9131376-7e74-493a-a3d3-72d1de0bb25c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561693(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561693(v=BTS.80)
 ms:contentKeyID: 51533131
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Date and Time Functoid
 TOCTitle: Date and Time Functoid
 ms:assetid: dc2597f1-3031-4934-b42e-eac70df80994
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561424(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561424(v=BTS.80)
 ms:contentKeyID: 51532767
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

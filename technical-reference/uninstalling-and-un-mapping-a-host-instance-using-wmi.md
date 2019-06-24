@@ -2,7 +2,7 @@
 title: Uninstalling and Un-Mapping a Host Instance Using WMI
 TOCTitle: Uninstalling and Un-Mapping a Host Instance Using WMI
 ms:assetid: ef76bcba-7faa-4d40-b243-0d8d08120632
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561820(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561820(v=BTS.80)
 ms:contentKeyID: 51533272
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

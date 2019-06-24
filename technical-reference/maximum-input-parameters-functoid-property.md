@@ -2,7 +2,7 @@
 title: Maximum Input Parameters (Functoid Property)
 TOCTitle: Maximum Input Parameters (Functoid Property)
 ms:assetid: 3ab70557-4650-4cc2-8267-854610cd3c61
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559655(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559655(v=BTS.80)
 ms:contentKeyID: 51527438
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

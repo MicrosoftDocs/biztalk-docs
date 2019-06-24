@@ -2,7 +2,7 @@
 title: Properties Pages
 TOCTitle: Properties Pages
 ms:assetid: 3743ffaa-df6e-4017-b0c5-e1fbdcfa13d7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559597(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559597(v=BTS.80)
 ms:contentKeyID: 51527356
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

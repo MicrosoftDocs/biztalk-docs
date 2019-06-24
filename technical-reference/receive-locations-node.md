@@ -2,7 +2,7 @@
 title: Receive Locations Node
 TOCTitle: Receive Locations Node
 ms:assetid: c6628738-5929-4220-ab04-cf01cae5a007
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547922(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547922(v=BTS.80)
 ms:contentKeyID: 51531088
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

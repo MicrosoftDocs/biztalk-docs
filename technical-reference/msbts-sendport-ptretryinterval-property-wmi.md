@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.PTRetryInterval Property (WMI)
 TOCTitle: MSBTS_SendPort.PTRetryInterval Property (WMI)
 ms:assetid: 6900c089-25ed-47ab-82a6-7a8643de0b3c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560594(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560594(v=BTS.80)
 ms:contentKeyID: 51528637
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

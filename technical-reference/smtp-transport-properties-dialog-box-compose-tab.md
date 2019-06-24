@@ -2,7 +2,7 @@
 title: SMTP Transport Properties Dialog Box, Compose Tab
 TOCTitle: SMTP Transport Properties Dialog Box, Compose Tab
 ms:assetid: 2bfd6bf6-9cce-4c28-a53d-c93efef30c83
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559368(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559368(v=BTS.80)
 ms:contentKeyID: 51526977
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

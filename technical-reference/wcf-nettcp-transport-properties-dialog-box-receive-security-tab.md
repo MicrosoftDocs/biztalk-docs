@@ -2,7 +2,7 @@
 title: WCF-NetTcp Transport Properties Dialog Box, Receive, Security Tab
 TOCTitle: WCF-NetTcp Transport Properties Dialog Box, Receive, Security Tab
 ms:assetid: 51a99053-7248-498f-a3aa-62b615c364e6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb246097(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb246097(v=BTS.80)
 ms:contentKeyID: 51528031
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

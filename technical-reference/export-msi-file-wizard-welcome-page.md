@@ -2,7 +2,7 @@
 title: Export MSI File Wizard, Welcome Page
 TOCTitle: Export MSI File Wizard, Welcome Page
 ms:assetid: 56e71b65-55f7-485d-987c-8e4049f9b74a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560257(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560257(v=BTS.80)
 ms:contentKeyID: 51528174
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

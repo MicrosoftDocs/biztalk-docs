@@ -2,7 +2,7 @@
 title: Configuration Wizard, Microsoft Update Options Page
 TOCTitle: Configuration Wizard, Microsoft Update Options Page
 ms:assetid: 1f779014-98ce-42aa-8e1e-3fc38912bc92
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb727684(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb727684(v=BTS.80)
 ms:contentKeyID: 51526670
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

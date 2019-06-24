@@ -2,7 +2,7 @@
 title: IBaseMessageContext.CountProperties Method (COM)
 TOCTitle: IBaseMessageContext.CountProperties Method (COM)
 ms:assetid: c6a0493b-a079-49a2-8f6b-c858ec3429f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547924(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547924(v=BTS.80)
 ms:contentKeyID: 51531207
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

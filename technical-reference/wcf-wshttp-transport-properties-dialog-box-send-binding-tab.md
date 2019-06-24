@@ -2,7 +2,7 @@
 title: WCF-WSHttp Transport Properties Dialog Box, Send, Binding Tab
 TOCTitle: WCF-WSHttp Transport Properties Dialog Box, Send, Binding Tab
 ms:assetid: 2093e122-91db-47e5-a970-46e03339e934
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb245992(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb245992(v=BTS.80)
 ms:contentKeyID: 51526743
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

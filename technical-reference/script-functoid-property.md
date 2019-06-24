@@ -2,7 +2,7 @@
 title: Script (Functoid Property)
 TOCTitle: Script (Functoid Property)
 ms:assetid: 083334f8-2aa2-4054-9d11-6174b546156c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547082(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547082(v=BTS.80)
 ms:contentKeyID: 51526036
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Facts Explorer, XML Schemas Tab
 TOCTitle: Facts Explorer, XML Schemas Tab
 ms:assetid: 3a906c8c-7476-4848-a566-6ba8a7909076
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559650(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559650(v=BTS.80)
 ms:contentKeyID: 51527430
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

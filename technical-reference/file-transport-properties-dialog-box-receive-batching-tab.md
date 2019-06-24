@@ -2,7 +2,7 @@
 title: File Transport Properties Dialog Box, Receive, Batching Tab
 TOCTitle: File Transport Properties Dialog Box, Receive, Batching Tab
 ms:assetid: d510de47-ad5b-4499-8ec8-c99d372078a3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578614(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578614(v=BTS.80)
 ms:contentKeyID: 51531623
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

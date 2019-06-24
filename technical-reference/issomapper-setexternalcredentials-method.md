@@ -2,7 +2,7 @@
 title: ISSOMapper.SetExternalCredentials Method
 TOCTitle: ISSOMapper.SetExternalCredentials Method
 ms:assetid: 139abc00-7276-4148-a116-5042809b32f3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa744747(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa744747(v=BTS.80)
 ms:contentKeyID: 51526382
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

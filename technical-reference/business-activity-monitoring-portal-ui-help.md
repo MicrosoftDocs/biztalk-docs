@@ -2,7 +2,7 @@
 title: Business Activity Monitoring Portal UI Help
 TOCTitle: Business Activity Monitoring Portal UI Help
 ms:assetid: bb3ca648-8df9-4440-9902-c77227447cf9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578340(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578340(v=BTS.80)
 ms:contentKeyID: 51530857
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

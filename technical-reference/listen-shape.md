@@ -2,7 +2,7 @@
 title: Listen Shape
 TOCTitle: Listen Shape
 ms:assetid: 983a0ed0-b964-4736-afb7-5ba4aff4b75d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577476(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577476(v=BTS.80)
 ms:contentKeyID: 51529908
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

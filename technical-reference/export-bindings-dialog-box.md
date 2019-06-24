@@ -2,7 +2,7 @@
 title: Export Bindings Dialog Box
 TOCTitle: Export Bindings Dialog Box
 ms:assetid: 0d234df8-b377-434d-88a3-d2819c435976
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547338(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547338(v=BTS.80)
 ms:contentKeyID: 51526177
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

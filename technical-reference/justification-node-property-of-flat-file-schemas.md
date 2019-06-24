@@ -2,7 +2,7 @@
 title: Justification (Node Property of Flat File Schemas)
 TOCTitle: Justification (Node Property of Flat File Schemas)
 ms:assetid: d26646dc-71d1-45b9-a162-82d36eeb4008
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578563(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578563(v=BTS.80)
 ms:contentKeyID: 51531550
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

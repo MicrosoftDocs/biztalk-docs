@@ -2,7 +2,7 @@
 title: Compensate Shape
 TOCTitle: Compensate Shape
 ms:assetid: cc75193c-0193-4891-86e9-f887e5008f4e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548041(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548041(v=BTS.80)
 ms:contentKeyID: 51531373
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_SendHandler2.IsDefault Property (WMI)
 TOCTitle: MSBTS_SendHandler2.IsDefault Property (WMI)
 ms:assetid: fb3441a8-187d-4a4b-888a-387093c58c33
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562077(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562077(v=BTS.80)
 ms:contentKeyID: 51533640
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

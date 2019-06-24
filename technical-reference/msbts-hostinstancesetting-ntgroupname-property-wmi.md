@@ -2,7 +2,7 @@
 title: MSBTS_HostInstanceSetting.NTGroupName Property (WMI)
 TOCTitle: MSBTS_HostInstanceSetting.NTGroupName Property (WMI)
 ms:assetid: 717f3c96-6f69-4be8-8252-481a4b965552
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560778(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560778(v=BTS.80)
 ms:contentKeyID: 51528882
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

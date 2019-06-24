@@ -57,9 +57,9 @@ manager: "anneta"
   
 -   [How to Configure a WCF-WSHttp Send Port](../core/how-to-configure-a-wcf-wshttp-send-port.md)  
   
--   [How to Configure a WCF-BasicHttp Send Port](http://msdn.microsoft.com/library/acdb50fa-57fe-4657-9561-b6b2f4919c7f)  
+-   [How to Configure a WCF-BasicHttp Send Port](https://msdn.microsoft.com/library/acdb50fa-57fe-4657-9561-b6b2f4919c7f)  
   
--   [How to Configure a WCF-BasicHttp Send Handler](http://msdn.microsoft.com/library/18dcc616-4732-42f8-bd64-e55a5ebbaa49)  
+-   [How to Configure a WCF-BasicHttp Send Handler](https://msdn.microsoft.com/library/18dcc616-4732-42f8-bd64-e55a5ebbaa49)  
   
 -   [How to Configure a WCF-WSHttp Send Handler](../core/how-to-configure-a-wcf-wshttp-send-handler.md)  
   

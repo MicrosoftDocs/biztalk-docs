@@ -2,7 +2,7 @@
 title: Configuration Wizard, Consolidated Service Accounts View Page
 TOCTitle: Configuration Wizard, Consolidated Service Accounts View Page
 ms:assetid: 6cf2915f-469e-4a60-bfb0-e59bdd8f60ba
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560684(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560684(v=BTS.80)
 ms:contentKeyID: 51528771
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

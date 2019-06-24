@@ -2,7 +2,7 @@
 title: Group Min Occurs (Node Property of All Schemas)
 TOCTitle: Group Min Occurs (Node Property of All Schemas)
 ms:assetid: 462d442d-2a16-4c57-9f4e-b6330f827acb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559873(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559873(v=BTS.80)
 ms:contentKeyID: 51527729
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Application Properties Dialog Box
 TOCTitle: Application Properties Dialog Box
 ms:assetid: 3b6b33e4-079c-4114-a152-cde2f9ae1cbc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559675(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559675(v=BTS.80)
 ms:contentKeyID: 51527404
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

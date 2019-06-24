@@ -2,7 +2,7 @@
 title: Flat File Assembler Pipeline Component Properties
 TOCTitle: Flat File Assembler Pipeline Component Properties
 ms:assetid: ea54099a-c907-4f51-b020-747534a4b907
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561722(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561722(v=BTS.80)
 ms:contentKeyID: 51533169
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

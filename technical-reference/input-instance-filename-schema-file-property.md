@@ -2,7 +2,7 @@
 title: Input Instance Filename (Schema File Property)
 TOCTitle: Input Instance Filename (Schema File Property)
 ms:assetid: b04088ab-4da5-48b3-afd1-a4f0955e2717
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578118(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578118(v=BTS.80)
 ms:contentKeyID: 51530523
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

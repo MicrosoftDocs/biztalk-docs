@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.Name Property (WMI)
 TOCTitle: MSBTS_GroupSetting.Name Property (WMI)
 ms:assetid: acd97a5e-487e-443b-b0e9-e3e0c7b1ecf2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578036(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578036(v=BTS.80)
 ms:contentKeyID: 51530479
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

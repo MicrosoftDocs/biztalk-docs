@@ -2,7 +2,7 @@
 title: Core Server Classes
 TOCTitle: Core Server Classes
 ms:assetid: 4e1f87e1-6c20-459b-89d9-b478c7353a8d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560069(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560069(v=BTS.80)
 ms:contentKeyID: 51527928
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

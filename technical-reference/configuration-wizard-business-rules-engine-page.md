@@ -2,7 +2,7 @@
 title: Configuration Wizard, Business Rules Engine Page
 TOCTitle: Configuration Wizard, Business Rules Engine Page
 ms:assetid: 3abd5663-47cd-448c-b478-9ce45c36cbe2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559657(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559657(v=BTS.80)
 ms:contentKeyID: 51527382
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

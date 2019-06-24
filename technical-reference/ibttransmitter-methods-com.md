@@ -2,7 +2,7 @@
 title: IBTTransmitter Methods (COM)
 TOCTitle: IBTTransmitter Methods (COM)
 ms:assetid: 5215d8e6-1232-4a0e-8974-8bd172b498af
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560155(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560155(v=BTS.80)
 ms:contentKeyID: 51528030
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

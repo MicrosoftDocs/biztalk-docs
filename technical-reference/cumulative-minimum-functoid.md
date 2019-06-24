@@ -2,7 +2,7 @@
 title: Cumulative Minimum Functoid
 TOCTitle: Cumulative Minimum Functoid
 ms:assetid: 0dc39b45-0928-4fe9-a56f-f2d58665f81b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547362(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547362(v=BTS.80)
 ms:contentKeyID: 51526215
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

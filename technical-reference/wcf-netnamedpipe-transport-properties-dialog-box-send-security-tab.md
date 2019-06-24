@@ -2,7 +2,7 @@
 title: WCF-NetNamedPipe Transport Properties Dialog Box, Send, Security Tab
 TOCTitle: WCF-NetNamedPipe Transport Properties Dialog Box, Send, Security Tab
 ms:assetid: dfe137a4-e579-4c90-a8a7-84a3f2f6d4e4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb259936(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb259936(v=BTS.80)
 ms:contentKeyID: 51532865
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

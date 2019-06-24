@@ -25,7 +25,7 @@ This topic describes how to use the BizTalk Server Administration console to enl
   
  When enlisting or unenlisting a party for a role, bear in mind the following points:  
   
--   You must create a party before you can enlist it. For instructions, see [How to Create a Party](http://msdn.microsoft.com/library/f6feca1d-bc83-4fb6-981d-26c9e0d53044).  
+-   You must create a party before you can enlist it. For instructions, see [How to Create a Party](https://msdn.microsoft.com/library/f6feca1d-bc83-4fb6-981d-26c9e0d53044).  
   
 -   You can enlist or unenlist a party for a role without needing to restart the application.  
   

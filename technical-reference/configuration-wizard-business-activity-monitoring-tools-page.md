@@ -2,7 +2,7 @@
 title: Configuration Wizard, Business Activity Monitoring - Tools Page
 TOCTitle: Configuration Wizard, Business Activity Monitoring - Tools Page
 ms:assetid: 6e84dfe8-6ea6-42a0-9f71-02da594aead3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560722(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560722(v=BTS.80)
 ms:contentKeyID: 51528805
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

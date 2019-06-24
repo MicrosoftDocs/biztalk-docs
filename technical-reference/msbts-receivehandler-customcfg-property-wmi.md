@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveHandler.CustomCfg Property (WMI)
 TOCTitle: MSBTS_ReceiveHandler.CustomCfg Property (WMI)
 ms:assetid: 97607975-232b-4888-bedd-5d90d8a5dac6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577460(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577460(v=BTS.80)
 ms:contentKeyID: 51529852
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

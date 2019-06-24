@@ -2,7 +2,7 @@
 title: IDisassemblerComponent Methods (COM)
 TOCTitle: IDisassemblerComponent Methods (COM)
 ms:assetid: 9ce3921e-46f7-4065-be4a-376163803e25
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577570(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577570(v=BTS.80)
 ms:contentKeyID: 51529959
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -82,7 +82,7 @@ OLE DB error: OLE DB or ODBC error: Login failed for user <username>.; 42000. 
 ```  
   
 ##  <a name="BKMK_Upgrade"></a> Issues While Using BizTalk Server with SQL Server 2012  
- While using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] with [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] you can set the **Remote Login Timeout** value in SQL Server to 20 seconds. If you don’t do so, you might encounter errors in stress conditions. For instructions on how to set the Remote Login Timeout value in [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)], see [http://msdn.microsoft.com/library/ms175136.aspx](http://msdn.microsoft.com/library/ms175136.aspx)  
+ While using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] with [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] you can set the **Remote Login Timeout** value in SQL Server to 20 seconds. If you don’t do so, you might encounter errors in stress conditions. For instructions on how to set the Remote Login Timeout value in [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)], see [https://msdn.microsoft.com/library/ms175136.aspx](https://msdn.microsoft.com/library/ms175136.aspx)  
   
 ##  <a name="BKMK_Adapters"></a> Issues with Adapters  
  This section lists the known issues with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapters.  

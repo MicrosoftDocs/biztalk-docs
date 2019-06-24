@@ -2,7 +2,7 @@
 title: IBTTransmitter Interface (COM)
 TOCTitle: IBTTransmitter Interface (COM)
 ms:assetid: e8900c8b-3ddc-4a68-94ed-4b3ef24eb2a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561680(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561680(v=BTS.80)
 ms:contentKeyID: 51533114
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

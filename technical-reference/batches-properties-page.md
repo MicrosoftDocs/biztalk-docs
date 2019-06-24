@@ -2,7 +2,7 @@
 title: Batches Properties Page
 TOCTitle: Batches Properties Page
 ms:assetid: 881a356b-88f9-42c4-a52d-0348ea2638e8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd210274(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd210274(v=BTS.80)
 ms:contentKeyID: 51529475
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

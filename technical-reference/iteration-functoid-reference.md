@@ -2,7 +2,7 @@
 title: Iteration Functoid Reference
 TOCTitle: Iteration Functoid Reference
 ms:assetid: 3ccd959f-93e9-46bc-93a3-af366d845db1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559704(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559704(v=BTS.80)
 ms:contentKeyID: 51527498
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

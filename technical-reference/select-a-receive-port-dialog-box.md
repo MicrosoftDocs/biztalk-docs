@@ -2,7 +2,7 @@
 title: Select a Receive Port Dialog Box
 TOCTitle: Select a Receive Port Dialog Box
 ms:assetid: 9f958393-6499-4801-93d0-bae219d18177
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577649(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577649(v=BTS.80)
 ms:contentKeyID: 51530100
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

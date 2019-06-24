@@ -2,7 +2,7 @@
 title: ISSOTicket Methods
 TOCTitle: ISSOTicket Methods
 ms:assetid: 6eafa151-83f2-4871-93f4-78b8b4aa94ea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa745382(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa745382(v=BTS.80)
 ms:contentKeyID: 51528809
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

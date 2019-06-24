@@ -20,7 +20,7 @@ Before you start working with the Tracking Profile Editor (TPE), we recommend th
  As a solution developer, you also need to have specialized knowledge about how the business processes of your organization are implemented using Microsoft BizTalk Server orchestrations. You must understand how to use the Orchestration Designer to produce orchestrations. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestrations, see [About Orchestrations](../core/about-orchestrations.md).  
   
 > [!IMPORTANT]
->  In order to use TPE, you must use a full or custom BizTalk Server product installation and ensure that your choice includes the "Developer Tools and SDK" or "Administration Tools" options. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
+>  In order to use TPE, you must use a full or custom BizTalk Server product installation and ensure that your choice includes the "Developer Tools and SDK" or "Administration Tools" options. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
   
 > [!NOTE]
 >  TPE does not track .NET message parts. You cannot view the message schema for these types of messages.  

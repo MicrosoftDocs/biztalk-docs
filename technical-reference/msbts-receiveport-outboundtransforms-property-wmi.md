@@ -2,7 +2,7 @@
 title: MSBTS_ReceivePort.OutboundTransforms Property (WMI)
 TOCTitle: MSBTS_ReceivePort.OutboundTransforms Property (WMI)
 ms:assetid: 9402848f-bbdb-4daa-ac44-e1f828a617aa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577396(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577396(v=BTS.80)
 ms:contentKeyID: 51529775
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

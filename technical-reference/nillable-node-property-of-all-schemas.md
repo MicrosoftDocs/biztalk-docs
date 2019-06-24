@@ -2,7 +2,7 @@
 title: Nillable (Node Property of All Schemas)
 TOCTitle: Nillable (Node Property of All Schemas)
 ms:assetid: ca6f2282-de14-45cf-8672-191df723fd97
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547995(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547995(v=BTS.80)
 ms:contentKeyID: 51531305
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

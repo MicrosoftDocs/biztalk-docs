@@ -2,7 +2,7 @@
 title: Configuration Wizard, Database Accounts Page
 TOCTitle: Configuration Wizard, Database Accounts Page
 ms:assetid: 77e6a3e2-5b5a-44d7-acbc-b7d94838ddea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560900(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560900(v=BTS.80)
 ms:contentKeyID: 51529054
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

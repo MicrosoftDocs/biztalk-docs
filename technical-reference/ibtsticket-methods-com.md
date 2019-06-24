@@ -2,7 +2,7 @@
 title: IBTSTicket Methods (COM)
 TOCTitle: IBTSTicket Methods (COM)
 ms:assetid: 861e4bb1-5f37-4223-952a-b2db961f26bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561190(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561190(v=BTS.80)
 ms:contentKeyID: 51529427
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

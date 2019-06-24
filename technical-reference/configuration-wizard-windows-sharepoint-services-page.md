@@ -2,7 +2,7 @@
 title: Configuration Wizard, Windows SharePoint Services Page
 TOCTitle: Configuration Wizard, Windows SharePoint Services Page
 ms:assetid: 03a6f28c-f66e-4193-b7a5-f7b1caac110e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546789(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546789(v=BTS.80)
 ms:contentKeyID: 51525927
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

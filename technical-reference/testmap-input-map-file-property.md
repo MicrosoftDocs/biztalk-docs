@@ -2,7 +2,7 @@
 title: TestMap Input (Map File Property)
 TOCTitle: TestMap Input (Map File Property)
 ms:assetid: ad11b72e-c9c1-4589-8f87-461cbf70e2c6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578041(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578041(v=BTS.80)
 ms:contentKeyID: 51530489
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: SPasswordChange.psaOldExternalPassword Field
 TOCTitle: SPasswordChange.psaOldExternalPassword Field
 ms:assetid: b5d60ec8-9271-4366-9125-b3bb75147c22
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa746051(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa746051(v=BTS.80)
 ms:contentKeyID: 51530674
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

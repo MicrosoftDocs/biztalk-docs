@@ -2,7 +2,7 @@
 title: Enumeration (Node Property of All Schemas)
 TOCTitle: Enumeration (Node Property of All Schemas)
 ms:assetid: 7c99c5fe-cfd9-4669-af24-e4825d8e91ae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560984(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560984(v=BTS.80)
 ms:contentKeyID: 51529159
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

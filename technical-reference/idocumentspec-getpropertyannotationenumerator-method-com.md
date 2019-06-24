@@ -2,7 +2,7 @@
 title: IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM)
 TOCTitle: IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM)
 ms:assetid: aaab489c-ce2d-4e07-90c6-c884f9316ed7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577982(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577982(v=BTS.80)
 ms:contentKeyID: 51530368
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

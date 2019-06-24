@@ -2,7 +2,7 @@
 title: MSBTS_TrackedMessageInstance.MessageInstanceID Property (WMI)
 TOCTitle: MSBTS_TrackedMessageInstance.MessageInstanceID Property (WMI)
 ms:assetid: eec5b1c3-9da1-4018-8c4b-56ceface2e26
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561807(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561807(v=BTS.80)
 ms:contentKeyID: 51533281
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

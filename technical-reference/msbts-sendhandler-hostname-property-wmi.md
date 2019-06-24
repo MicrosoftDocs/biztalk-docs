@@ -2,7 +2,7 @@
 title: MSBTS_SendHandler.HostName Property (WMI)
 TOCTitle: MSBTS_SendHandler.HostName Property (WMI)
 ms:assetid: 572ee012-b3e7-4fd3-8823-3babcae80221
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560261(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560261(v=BTS.80)
 ms:contentKeyID: 51528167
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

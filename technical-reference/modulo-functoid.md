@@ -2,7 +2,7 @@
 title: Modulo Functoid
 TOCTitle: Modulo Functoid
 ms:assetid: b6b861fb-8d77-447f-a538-69a882f5c0a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578260(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578260(v=BTS.80)
 ms:contentKeyID: 51530700
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

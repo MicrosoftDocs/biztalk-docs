@@ -2,7 +2,7 @@
 title: Display Name Page
 TOCTitle: Display Name Page
 ms:assetid: 736bff8b-57f1-4bc9-a681-bf3c20f1d4f7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560817(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560817(v=BTS.80)
 ms:contentKeyID: 51528933
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: 'Create New Affiliate Application Wizard: Accounts'
 TOCTitle: 'Create New Affiliate Application Wizard: Accounts'
 ms:assetid: 844c4f3f-50fc-4751-a7d0-65f59d876059
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561149(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561149(v=BTS.80)
 ms:contentKeyID: 51529374
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

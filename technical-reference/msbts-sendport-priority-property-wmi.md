@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.Priority Property (WMI)
 TOCTitle: MSBTS_SendPort.Priority Property (WMI)
 ms:assetid: 6f9459d2-d351-4c0e-b215-260c52b28871
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560744(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560744(v=BTS.80)
 ms:contentKeyID: 51528837
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

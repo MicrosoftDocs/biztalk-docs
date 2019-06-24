@@ -2,7 +2,7 @@
 title: SSO_NOTIFICATION_TYPE Enumeration (COM)
 TOCTitle: SSO_NOTIFICATION_TYPE Enumeration (COM)
 ms:assetid: d97a99e2-059a-4574-8962-a7797cf5e7dd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa772068(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa772068(v=BTS.80)
 ms:contentKeyID: 51531649
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

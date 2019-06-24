@@ -2,7 +2,7 @@
 title: Final (Node Property of All Schemas)
 TOCTitle: Final (Node Property of All Schemas)
 ms:assetid: dfbfd5b8-a9dc-404d-aa9a-6fad259bd319
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561500(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561500(v=BTS.80)
 ms:contentKeyID: 51532862
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

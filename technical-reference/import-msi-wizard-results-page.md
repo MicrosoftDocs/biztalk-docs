@@ -2,7 +2,7 @@
 title: Import MSI Wizard, Results Page
 TOCTitle: Import MSI Wizard, Results Page
 ms:assetid: c764fb8b-83f0-4727-a09c-a2fc9c0ba23a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547941(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547941(v=BTS.80)
 ms:contentKeyID: 51531106
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

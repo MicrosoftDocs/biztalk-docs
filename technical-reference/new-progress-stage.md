@@ -2,7 +2,7 @@
 title: New Progress Stage
 TOCTitle: New Progress Stage
 ms:assetid: 8825be09-b17e-45ac-a50d-e96a18c3d1a1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561225(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561225(v=BTS.80)
 ms:contentKeyID: 51529481
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

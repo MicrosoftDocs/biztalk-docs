@@ -2,7 +2,7 @@
 title: SAdapter Fields
 TOCTitle: SAdapter Fields
 ms:assetid: 563613ab-11c7-4795-89ee-f34111282766
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa754771(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa754771(v=BTS.80)
 ms:contentKeyID: 51528142
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

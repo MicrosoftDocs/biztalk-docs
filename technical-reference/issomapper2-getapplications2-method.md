@@ -2,7 +2,7 @@
 title: ISSOMapper2.GetApplications2 Method
 TOCTitle: ISSOMapper2.GetApplications2 Method
 ms:assetid: 8eca0fe4-e178-4267-a510-6ed42a33f011
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa745609(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa745609(v=BTS.80)
 ms:contentKeyID: 51529632
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

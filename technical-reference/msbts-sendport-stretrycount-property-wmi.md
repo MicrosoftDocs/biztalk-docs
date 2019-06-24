@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.STRetryCount Property (WMI)
 TOCTitle: MSBTS_SendPort.STRetryCount Property (WMI)
 ms:assetid: c7d97ff0-8e07-4740-83ca-e05d873cab3c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547952(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547952(v=BTS.80)
 ms:contentKeyID: 51531236
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

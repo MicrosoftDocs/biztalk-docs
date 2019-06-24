@@ -2,7 +2,7 @@
 title: Hosts Node
 TOCTitle: Hosts Node
 ms:assetid: 6a945c56-a0a8-4883-88c5-43c748917f06
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560640(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560640(v=BTS.80)
 ms:contentKeyID: 51528682
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

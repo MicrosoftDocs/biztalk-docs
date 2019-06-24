@@ -2,7 +2,7 @@
 title: SStatus Members
 TOCTitle: SStatus Members
 ms:assetid: d4dd41ad-b083-4f6d-b3e8-a5d1c635ee55
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771991(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771991(v=BTS.80)
 ms:contentKeyID: 51531615
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

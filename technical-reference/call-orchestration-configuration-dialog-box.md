@@ -2,7 +2,7 @@
 title: Call Orchestration Configuration Dialog Box
 TOCTitle: Call Orchestration Configuration Dialog Box
 ms:assetid: fdbac3e5-383c-4d6e-bdb9-ef1d4de25fc5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562133(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562133(v=BTS.80)
 ms:contentKeyID: 51533724
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

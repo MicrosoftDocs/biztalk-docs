@@ -2,7 +2,7 @@
 title: Configure Functoid Script Dialog Box
 TOCTitle: Configure Functoid Script Dialog Box
 ms:assetid: 696dc165-0452-4b5b-83f4-2cbe814f175b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560603(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560603(v=BTS.80)
 ms:contentKeyID: 51528649
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

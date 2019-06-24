@@ -2,7 +2,7 @@
 title: Group Properties Dialog Box
 TOCTitle: Group Properties Dialog Box
 ms:assetid: 0e9524fe-5a9b-44c6-bfc6-e0656848483b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547381(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547381(v=BTS.80)
 ms:contentKeyID: 51526238
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

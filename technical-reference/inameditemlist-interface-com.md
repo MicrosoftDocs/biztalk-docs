@@ -2,7 +2,7 @@
 title: INamedItemList Interface (COM)
 TOCTitle: INamedItemList Interface (COM)
 ms:assetid: deb019bc-d498-4997-b9b3-a497d94411cc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561478(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561478(v=BTS.80)
 ms:contentKeyID: 51532834
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

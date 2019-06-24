@@ -2,7 +2,7 @@
 title: ISSOAdmin Methods
 TOCTitle: ISSOAdmin Methods
 ms:assetid: 1cb93e3a-1c9a-4914-ac0e-d1e3b97a25f0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa754034(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa754034(v=BTS.80)
 ms:contentKeyID: 51526589
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: ISSOLookup1.GetCredentials Method
 TOCTitle: ISSOLookup1.GetCredentials Method
 ms:assetid: d27aa67f-0ab7-46f1-9720-28268df30747
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771960(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771960(v=BTS.80)
 ms:contentKeyID: 51531440
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

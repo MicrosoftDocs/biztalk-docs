@@ -2,7 +2,7 @@
 title: MSBTS_Host.IsDefault Property (WMI)
 TOCTitle: MSBTS_Host.IsDefault Property (WMI)
 ms:assetid: f13c1666-0263-42b7-8b0e-770b246b44f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561867(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561867(v=BTS.80)
 ms:contentKeyID: 51533354
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Select Orchestration Dialog Box
 TOCTitle: Select Orchestration Dialog Box
 ms:assetid: 9adc04f5-a259-4741-88a9-fa6d784c02aa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577536(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577536(v=BTS.80)
 ms:contentKeyID: 51529969
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Schema Properties Dialog Box
 TOCTitle: Schema Properties Dialog Box
 ms:assetid: d81bff33-aa23-48bc-b77e-67993de1ae3c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578664(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578664(v=BTS.80)
 ms:contentKeyID: 51531593
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

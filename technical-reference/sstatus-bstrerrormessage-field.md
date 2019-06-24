@@ -2,7 +2,7 @@
 title: SStatus.bstrErrorMessage Field
 TOCTitle: SStatus.bstrErrorMessage Field
 ms:assetid: 65b4d7b7-6482-428e-ad40-e33bcb29d61c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771250(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771250(v=BTS.80)
 ms:contentKeyID: 51528548
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

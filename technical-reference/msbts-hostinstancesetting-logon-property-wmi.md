@@ -2,7 +2,7 @@
 title: MSBTS_HostInstanceSetting.Logon Property (WMI)
 TOCTitle: MSBTS_HostInstanceSetting.Logon Property (WMI)
 ms:assetid: 15df41a3-55b8-40a3-b355-fb131ad658c0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558723(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558723(v=BTS.80)
 ms:contentKeyID: 51526431
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

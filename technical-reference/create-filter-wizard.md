@@ -2,7 +2,7 @@
 title: Create Filter Wizard
 TOCTitle: Create Filter Wizard
 ms:assetid: d5dd94ef-542e-48aa-8a9a-d7b1e7ed3534
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743696(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743696(v=BTS.80)
 ms:contentKeyID: 51531529
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

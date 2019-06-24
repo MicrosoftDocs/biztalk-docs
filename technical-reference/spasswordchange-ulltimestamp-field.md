@@ -2,7 +2,7 @@
 title: SPasswordChange.ullTimeStamp Field
 TOCTitle: SPasswordChange.ullTimeStamp Field
 ms:assetid: cc7be835-44ee-4413-be15-ccb4b3422653
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771884(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771884(v=BTS.80)
 ms:contentKeyID: 51531263
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

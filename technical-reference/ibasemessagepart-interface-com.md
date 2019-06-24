@@ -2,7 +2,7 @@
 title: IBaseMessagePart Interface (COM)
 TOCTitle: IBaseMessagePart Interface (COM)
 ms:assetid: 8b2ce970-a9aa-4285-8612-a8199b978836
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561277(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561277(v=BTS.80)
 ms:contentKeyID: 51529549
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

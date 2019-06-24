@@ -2,7 +2,7 @@
 title: MSBTS_BTSObject (WMI)
 TOCTitle: MSBTS_BTSObject (WMI)
 ms:assetid: 2ce4d9ad-6e18-4dbc-aa40-e476312bdfca
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559387(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559387(v=BTS.80)
 ms:contentKeyID: 51527002
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.PerfCounterCacheRefreshInterval Property (WMI)
 TOCTitle: MSBTS_GroupSetting.PerfCounterCacheRefreshInterval Property (WMI)
 ms:assetid: d984a408-d4a8-498e-ab8c-71a08be87e1b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678644(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678644(v=BTS.80)
 ms:contentKeyID: 51531743
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

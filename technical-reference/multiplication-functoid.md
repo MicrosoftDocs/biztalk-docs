@@ -2,7 +2,7 @@
 title: Multiplication Functoid
 TOCTitle: Multiplication Functoid
 ms:assetid: 07d811cd-c6a4-474e-aea5-99b9ab1e7eb9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547077(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547077(v=BTS.80)
 ms:contentKeyID: 51526048
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Media-Type (Grid Property)
 TOCTitle: Media-Type (Grid Property)
 ms:assetid: 7dcd3cd6-779d-45e4-bfc2-88d8ece64633
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561015(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561015(v=BTS.80)
 ms:contentKeyID: 51529198
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

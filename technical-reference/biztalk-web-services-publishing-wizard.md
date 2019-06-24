@@ -2,7 +2,7 @@
 title: BizTalk Web Services Publishing Wizard
 TOCTitle: BizTalk Web Services Publishing Wizard
 ms:assetid: 44e7419f-a39f-4d15-867a-60bcedf4d2fb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559849(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559849(v=BTS.80)
 ms:contentKeyID: 51527646
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

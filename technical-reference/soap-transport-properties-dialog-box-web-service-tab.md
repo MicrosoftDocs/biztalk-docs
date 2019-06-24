@@ -2,7 +2,7 @@
 title: SOAP Transport Properties Dialog Box, Web service Tab
 TOCTitle: SOAP Transport Properties Dialog Box, Web service Tab
 ms:assetid: ea43d93b-5f97-479c-a9af-193f3218adb0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561719(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561719(v=BTS.80)
 ms:contentKeyID: 51533140
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

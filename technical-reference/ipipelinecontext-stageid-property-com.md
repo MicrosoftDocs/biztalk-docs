@@ -2,7 +2,7 @@
 title: IPipelineContext.StageID Property (COM)
 TOCTitle: IPipelineContext.StageID Property (COM)
 ms:assetid: e89b583d-3d50-499c-b1e2-f046ab330704
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561683(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561683(v=BTS.80)
 ms:contentKeyID: 51533091
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

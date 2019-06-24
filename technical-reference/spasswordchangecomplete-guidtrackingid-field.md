@@ -2,7 +2,7 @@
 title: SPasswordChangeComplete.guidTrackingId Field
 TOCTitle: SPasswordChangeComplete.guidTrackingId Field
 ms:assetid: 4c4a285b-3416-4491-8347-e8e67b8cd13b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa754460(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa754460(v=BTS.80)
 ms:contentKeyID: 51527871
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

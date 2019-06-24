@@ -2,7 +2,7 @@
 title: ISSOAdmin Members
 TOCTitle: ISSOAdmin Members
 ms:assetid: f0985014-1610-47e8-986f-593c188a3c12
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705625(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705625(v=BTS.80)
 ms:contentKeyID: 51533335
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

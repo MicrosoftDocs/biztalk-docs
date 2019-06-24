@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.SignCertThumbprint Property (WMI)
 TOCTitle: MSBTS_GroupSetting.SignCertThumbprint Property (WMI)
 ms:assetid: 6e545297-da6d-4e57-9d26-4ebce88b9a72
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560718(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560718(v=BTS.80)
 ms:contentKeyID: 51528784
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Setup Wizard, Redistributable Prerequisites Page
 TOCTitle: Setup Wizard, Redistributable Prerequisites Page
 ms:assetid: d6f31d9c-46eb-438d-9329-8f30e7ae8a99
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578652(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578652(v=BTS.80)
 ms:contentKeyID: 51531687
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

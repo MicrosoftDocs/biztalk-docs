@@ -2,7 +2,7 @@
 title: BPEL Import Wizard Pages
 TOCTitle: BPEL Import Wizard Pages
 ms:assetid: 7a72ddfd-13dd-4cb7-a0a9-8f979d4f61f1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560944(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560944(v=BTS.80)
 ms:contentKeyID: 51529105
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

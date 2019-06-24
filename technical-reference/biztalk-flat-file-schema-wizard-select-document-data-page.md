@@ -2,7 +2,7 @@
 title: BizTalk Flat File Schema Wizard, Select Document Data Page
 TOCTitle: BizTalk Flat File Schema Wizard, Select Document Data Page
 ms:assetid: 102b7638-e8ad-46ee-b640-05c6e8beee8c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547556(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547556(v=BTS.80)
 ms:contentKeyID: 51526289
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

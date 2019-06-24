@@ -2,7 +2,7 @@
 title: Web Services UI Help
 TOCTitle: Web Services UI Help
 ms:assetid: 0e8d7b2c-092f-460c-9b6d-b37332b79ffb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547378(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547378(v=BTS.80)
 ms:contentKeyID: 51526222
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

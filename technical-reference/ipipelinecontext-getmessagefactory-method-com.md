@@ -2,7 +2,7 @@
 title: IPipelineContext.GetMessageFactory Method (COM)
 TOCTitle: IPipelineContext.GetMessageFactory Method (COM)
 ms:assetid: 80eb1e7d-6f3e-475d-8d68-d3cbec03cd21
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561072(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561072(v=BTS.80)
 ms:contentKeyID: 51529273
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

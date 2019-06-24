@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, Proxy Tab (WCF-WSHttp Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Proxy Tab (WCF-WSHttp Adapter Send Handler)
 ms:assetid: 8d4b87d6-82b7-4410-99db-7a5c0f6084f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226403(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226403(v=BTS.80)
 ms:contentKeyID: 51529602
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

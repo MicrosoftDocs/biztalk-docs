@@ -2,7 +2,7 @@
 title: Sequence Group Node Properties
 TOCTitle: Sequence Group Node Properties
 ms:assetid: f9d6a1c2-d85b-416c-b77a-0acc48bc6049
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562045(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562045(v=BTS.80)
 ms:contentKeyID: 51533552
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

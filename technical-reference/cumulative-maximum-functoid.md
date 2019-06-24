@@ -2,7 +2,7 @@
 title: Cumulative Maximum Functoid
 TOCTitle: Cumulative Maximum Functoid
 ms:assetid: f24cf94a-10dd-4f8f-bcf7-d2b43f49a697
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561894(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561894(v=BTS.80)
 ms:contentKeyID: 51533388
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

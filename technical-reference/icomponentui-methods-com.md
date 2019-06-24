@@ -2,7 +2,7 @@
 title: IComponentUI Methods (COM)
 TOCTitle: IComponentUI Methods (COM)
 ms:assetid: 2a7803a3-2929-4ba0-90b9-e296a70d7a24
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559335(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559335(v=BTS.80)
 ms:contentKeyID: 51526932
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: BizTalk Settings Dashboard, Host Page, Rate Based Throttling Tab
 TOCTitle: BizTalk Settings Dashboard, Host Page, Rate Based Throttling Tab
 ms:assetid: 1c75659d-246f-4666-a62e-5c7ee7d777e9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629691(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629691(v=BTS.80)
 ms:contentKeyID: 51526585
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

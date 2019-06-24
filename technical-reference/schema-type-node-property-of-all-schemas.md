@@ -2,7 +2,7 @@
 title: Schema Type (Node Property of All Schemas)
 TOCTitle: Schema Type (Node Property of All Schemas)
 ms:assetid: b56b7f04-2e28-40c0-8f47-60902b3a9173
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578227(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578227(v=BTS.80)
 ms:contentKeyID: 51530661
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

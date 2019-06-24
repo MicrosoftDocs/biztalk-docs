@@ -2,7 +2,7 @@
 title: MSBTS_ServerHost.IsMapped Property (WMI)
 TOCTitle: MSBTS_ServerHost.IsMapped Property (WMI)
 ms:assetid: 0c967535-3cea-42b2-a852-4a0013557c64
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547305(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547305(v=BTS.80)
 ms:contentKeyID: 51526161
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

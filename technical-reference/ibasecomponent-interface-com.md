@@ -2,7 +2,7 @@
 title: IBaseComponent Interface (COM)
 TOCTitle: IBaseComponent Interface (COM)
 ms:assetid: 119e24bd-af2f-429b-b591-8d9a4996f714
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547594(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547594(v=BTS.80)
 ms:contentKeyID: 51526302
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

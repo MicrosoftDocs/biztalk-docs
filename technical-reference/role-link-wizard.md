@@ -2,7 +2,7 @@
 title: Role Link Wizard
 TOCTitle: Role Link Wizard
 ms:assetid: f067aff7-cd45-43be-9038-451003776ae5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561845(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561845(v=BTS.80)
 ms:contentKeyID: 51533329
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

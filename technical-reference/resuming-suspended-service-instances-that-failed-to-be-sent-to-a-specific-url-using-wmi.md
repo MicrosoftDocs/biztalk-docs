@@ -2,7 +2,7 @@
 title: Resuming Suspended Service Instances That Failed to be Sent to a Specific URL Using WMI
 TOCTitle: Resuming Suspended Service Instances That Failed to be Sent to a Specific URL Using WMI
 ms:assetid: 0f6f6dc6-43c8-4e2d-80d7-0ada8e3a2301
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547538(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547538(v=BTS.80)
 ms:contentKeyID: 51526250
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBTTransmitter Members (COM)
 TOCTitle: IBTTransmitter Members (COM)
 ms:assetid: edfef603-74a9-4f90-8b75-b4329e2eed5e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561794(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561794(v=BTS.80)
 ms:contentKeyID: 51533238
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

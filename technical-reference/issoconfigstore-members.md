@@ -2,7 +2,7 @@
 title: ISSOConfigStore Members
 TOCTitle: ISSOConfigStore Members
 ms:assetid: e8d20258-2f72-412b-a738-a60fd10e820f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705520(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705520(v=BTS.80)
 ms:contentKeyID: 51533097
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

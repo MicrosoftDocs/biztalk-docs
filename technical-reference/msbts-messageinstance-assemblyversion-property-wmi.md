@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstance.AssemblyVersion Property (WMI)
 TOCTitle: MSBTS_MessageInstance.AssemblyVersion Property (WMI)
 ms:assetid: 523fdaf3-e00d-4ae5-93dc-2b124da293d5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560157(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560157(v=BTS.80)
 ms:contentKeyID: 51528035
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

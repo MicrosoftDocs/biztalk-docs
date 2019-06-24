@@ -2,7 +2,7 @@
 title: Cleanup Global DataTypes Dialog Box
 TOCTitle: Cleanup Global DataTypes Dialog Box
 ms:assetid: a26940dd-007a-4569-9aa0-54b9f070cf7e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577814(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577814(v=BTS.80)
 ms:contentKeyID: 51530135
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

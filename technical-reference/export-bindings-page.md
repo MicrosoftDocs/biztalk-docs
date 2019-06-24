@@ -2,7 +2,7 @@
 title: Export Bindings Page
 TOCTitle: Export Bindings Page
 ms:assetid: ed067fa7-c80d-422a-8983-e89d2bdb5a25
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561771(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561771(v=BTS.80)
 ms:contentKeyID: 51533212
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

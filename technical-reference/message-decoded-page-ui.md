@@ -2,7 +2,7 @@
 title: Message Decoded Page UI
 TOCTitle: Message Decoded Page UI
 ms:assetid: 79f14504-9a09-42c1-ae6a-0f65e2c19cbd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226363(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226363(v=BTS.80)
 ms:contentKeyID: 51529093
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

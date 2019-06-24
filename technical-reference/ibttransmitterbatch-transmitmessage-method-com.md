@@ -2,7 +2,7 @@
 title: IBTTransmitterBatch.TransmitMessage Method (COM)
 TOCTitle: IBTTransmitterBatch.TransmitMessage Method (COM)
 ms:assetid: 22dd77c3-f3f5-4f01-b945-54110f5d2596
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559193(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559193(v=BTS.80)
 ms:contentKeyID: 51526754
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

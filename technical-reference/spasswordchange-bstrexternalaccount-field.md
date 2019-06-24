@@ -2,7 +2,7 @@
 title: SPasswordChange.bstrExternalAccount Field
 TOCTitle: SPasswordChange.bstrExternalAccount Field
 ms:assetid: db85f14d-3b40-4464-b3b4-56ff2bdf1b9b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa772096(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa772096(v=BTS.80)
 ms:contentKeyID: 51531769
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

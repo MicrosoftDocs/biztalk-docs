@@ -2,7 +2,7 @@
 title: Importing Data for the Cross Referencing Functoids
 TOCTitle: Importing Data for the Cross Referencing Functoids
 ms:assetid: 9eb847a6-bc9c-4459-8c8b-c7286c69c642
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577624(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577624(v=BTS.80)
 ms:contentKeyID: 51530019
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBaseMessage.GetErrorInfo Method (COM)
 TOCTitle: IBaseMessage.GetErrorInfo Method (COM)
 ms:assetid: 1b68d601-fafb-4604-b1c3-171ab6072d66
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559059(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559059(v=BTS.80)
 ms:contentKeyID: 51526570
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

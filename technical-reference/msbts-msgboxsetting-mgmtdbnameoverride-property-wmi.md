@@ -2,7 +2,7 @@
 title: MSBTS_MsgBoxSetting.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_MsgBoxSetting.MgmtDbNameOverride Property (WMI)
 ms:assetid: 0fa086a5-f85d-4acc-98d9-2bbd7723fac7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547541(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547541(v=BTS.80)
 ms:contentKeyID: 51526270
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

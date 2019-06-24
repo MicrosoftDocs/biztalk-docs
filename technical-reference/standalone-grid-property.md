@@ -2,7 +2,7 @@
 title: Standalone (Grid Property)
 TOCTitle: Standalone (Grid Property)
 ms:assetid: 9d3dc39f-2eb2-4712-bd51-d3d516f140d1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577581(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577581(v=BTS.80)
 ms:contentKeyID: 51529970
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

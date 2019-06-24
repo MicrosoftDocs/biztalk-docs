@@ -2,7 +2,7 @@
 title: _BTBatchOperationStatus Structure (COM)
 TOCTitle: _BTBatchOperationStatus Structure (COM)
 ms:assetid: b06050cb-11a2-43f3-8f98-227a85ab12cd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578122(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578122(v=BTS.80)
 ms:contentKeyID: 51530579
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_Server.Stop Method (WMI)
 TOCTitle: MSBTS_Server.Stop Method (WMI)
 ms:assetid: 2b3a74f9-593d-4059-b04e-bd93fefee4a2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559357(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559357(v=BTS.80)
 ms:contentKeyID: 51526961
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

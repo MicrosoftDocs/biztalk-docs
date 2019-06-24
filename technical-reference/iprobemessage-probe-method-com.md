@@ -2,7 +2,7 @@
 title: IProbeMessage.Probe Method (COM)
 TOCTitle: IProbeMessage.Probe Method (COM)
 ms:assetid: 1fefbfe0-0eb4-4544-88a5-96164bfdd25f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559139(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559139(v=BTS.80)
 ms:contentKeyID: 51526681
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

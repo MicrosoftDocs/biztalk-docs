@@ -2,7 +2,7 @@
 title: RootNode TypeName (Node Property of All Schemas)
 TOCTitle: RootNode TypeName (Node Property of All Schemas)
 ms:assetid: fa10f0bf-da9c-4709-b308-6466213e4bf2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562051(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562051(v=BTS.80)
 ms:contentKeyID: 51533559
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

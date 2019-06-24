@@ -2,7 +2,7 @@
 title: ISSOMapping.Delete Method
 TOCTitle: ISSOMapping.Delete Method
 ms:assetid: af2fb3e2-6185-4b6f-b0e2-305c8c320c5b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705200(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705200(v=BTS.80)
 ms:contentKeyID: 51530546
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_DeploymentService.Deploy Method (WMI)
 TOCTitle: MSBTS_DeploymentService.Deploy Method (WMI)
 ms:assetid: 1a7fd9b2-0375-47ef-8c35-7bf37c114968
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559040(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559040(v=BTS.80)
 ms:contentKeyID: 51526543
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

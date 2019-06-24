@@ -2,7 +2,7 @@
 title: MSBTS_HostInstanceSetting.MgmtDbServerOverride Property (WMI)
 TOCTitle: MSBTS_HostInstanceSetting.MgmtDbServerOverride Property (WMI)
 ms:assetid: e8976a17-0368-483d-a2b5-902336812ca3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561682(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561682(v=BTS.80)
 ms:contentKeyID: 51533116
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

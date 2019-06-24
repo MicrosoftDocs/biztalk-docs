@@ -2,7 +2,7 @@
 title: Indent (Grid Property)
 TOCTitle: Indent (Grid Property)
 ms:assetid: acc8c9a7-64af-42bf-873e-a05169c7ca5e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578033(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578033(v=BTS.80)
 ms:contentKeyID: 51530476
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

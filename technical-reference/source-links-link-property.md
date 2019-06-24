@@ -2,7 +2,7 @@
 title: Source Links (Link Property)
 TOCTitle: Source Links (Link Property)
 ms:assetid: 9dc062d9-5de5-4e8f-a493-98ff4976c6b9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577591(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577591(v=BTS.80)
 ms:contentKeyID: 51529984
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

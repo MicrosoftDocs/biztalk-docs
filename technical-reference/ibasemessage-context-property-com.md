@@ -2,7 +2,7 @@
 title: IBaseMessage.Context Property (COM)
 TOCTitle: IBaseMessage.Context Property (COM)
 ms:assetid: a7aff1ff-04bc-440e-8dcd-925d25f3d4b4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577933(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577933(v=BTS.80)
 ms:contentKeyID: 51530290
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

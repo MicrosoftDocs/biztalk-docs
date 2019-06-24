@@ -2,7 +2,7 @@
 title: IBTTransportProxy Methods (COM)
 TOCTitle: IBTTransportProxy Methods (COM)
 ms:assetid: 2d9f000c-6f70-4b93-a42f-9e3003e823ff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559403(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559403(v=BTS.80)
 ms:contentKeyID: 51527027
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

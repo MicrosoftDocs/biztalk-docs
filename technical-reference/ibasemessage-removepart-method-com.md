@@ -2,7 +2,7 @@
 title: IBaseMessage.RemovePart Method (COM)
 TOCTitle: IBaseMessage.RemovePart Method (COM)
 ms:assetid: e4dd1504-8101-4b3c-89e3-2b6e3b7fc3f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561612(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561612(v=BTS.80)
 ms:contentKeyID: 51533013
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

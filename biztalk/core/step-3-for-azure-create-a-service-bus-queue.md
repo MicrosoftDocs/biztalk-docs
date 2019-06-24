@@ -23,7 +23,7 @@ In this topic, you create a Service Bus Queue to which the X12 sales order is se
   
 2.  On the lower left-hand side of the page, click **AppFabric**.  
   
-3.  Expand Services in the tree on the left-hand side, expand your subscription, and click a namespace that you must have already created. If you don’t have a namespace already, see [How to: Create or Modify a Windows Azure CTP Service Namespace](http://msdn.microsoft.com/library/windowsazure/hh697699.aspx).  
+3.  Expand Services in the tree on the left-hand side, expand your subscription, and click a namespace that you must have already created. If you don’t have a namespace already, see [How to: Create or Modify a Windows Azure CTP Service Namespace](https://msdn.microsoft.com/library/windowsazure/hh697699.aspx).  
   
 4.  To create a Queue click **New Queue** from the **Manage Entities** category from the toolbar at the top of the page.  
   

@@ -2,7 +2,7 @@
 title: Configuration Wizard UI Help
 TOCTitle: Configuration Wizard UI Help
 ms:assetid: 3c7fedb6-24bc-436c-9238-03b0b5693835
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559693(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559693(v=BTS.80)
 ms:contentKeyID: 51527428
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

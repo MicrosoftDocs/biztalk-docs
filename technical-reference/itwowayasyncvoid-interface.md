@@ -2,7 +2,7 @@
 title: ITwoWayAsyncVoid Interface
 TOCTitle: ITwoWayAsyncVoid Interface
 ms:assetid: d453d7ec-d49c-401d-b21f-0ffb28220fd1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743686(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743686(v=BTS.80)
 ms:contentKeyID: 51531482
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

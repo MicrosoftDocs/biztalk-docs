@@ -2,7 +2,7 @@
 title: Removing Suspended Service Instances
 TOCTitle: Removing Suspended Service Instances
 ms:assetid: 92a4378f-96fd-44b2-afe6-d3de6e129493
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb203857(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb203857(v=BTS.80)
 ms:contentKeyID: 51529732
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

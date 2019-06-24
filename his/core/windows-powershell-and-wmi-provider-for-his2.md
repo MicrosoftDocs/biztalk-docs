@@ -61,8 +61,8 @@ Windows PowerShell is a task-based command-line shell and scripting language tha
   The **Output Pane** displays the results of the commands and scripts that you have run.  
   
 > [!NOTE]
->  You may need to enable scripting on your computer. For information about PowerShell security, see Examining the Execution Policy at http://msdn.microsoft.com/library/bb648601(VS.85).aspx.  
+>  You may need to enable scripting on your computer. For information about PowerShell security, see Examining the Execution Policy at https://msdn.microsoft.com/library/bb648601(VS.85).aspx.  
   
  **Other Resources**  
   
-For more information about Windows PowerShell 2.0, see the Windows PowerShell Getting Started Guide at http://msdn.microsoft.com/library/aa973757(VS.85).aspx.
+For more information about Windows PowerShell 2.0, see the Windows PowerShell Getting Started Guide at https://msdn.microsoft.com/library/aa973757(VS.85).aspx.

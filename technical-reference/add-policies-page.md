@@ -2,7 +2,7 @@
 title: Add Policies Page
 TOCTitle: Add Policies Page
 ms:assetid: 37d5aaec-a478-4d8c-9ff3-300a2e039479
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559607(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559607(v=BTS.80)
 ms:contentKeyID: 51527312
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

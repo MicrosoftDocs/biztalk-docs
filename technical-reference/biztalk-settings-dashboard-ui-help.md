@@ -2,7 +2,7 @@
 title: BizTalk Settings Dashboard UI Help
 TOCTitle: BizTalk Settings Dashboard UI Help
 ms:assetid: a02c65c7-11b2-42cd-95ab-c3deda052422
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629752(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629752(v=BTS.80)
 ms:contentKeyID: 51530118
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

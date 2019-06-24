@@ -2,7 +2,7 @@
 title: WCF-Custom Transport Properties Dialog Box, Send, Messages Tab
 TOCTitle: WCF-Custom Transport Properties Dialog Box, Send, Messages Tab
 ms:assetid: a12fdf10-4955-4596-b8d5-888a529276a8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226442(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226442(v=BTS.80)
 ms:contentKeyID: 51530151
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

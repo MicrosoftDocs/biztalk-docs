@@ -2,7 +2,7 @@
 title: TestMap Output Instance (Map File Property)
 TOCTitle: TestMap Output Instance (Map File Property)
 ms:assetid: d7284f2e-5264-40e5-89b2-00b6b7aee771
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff731137(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff731137(v=BTS.80)
 ms:contentKeyID: 51531693
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

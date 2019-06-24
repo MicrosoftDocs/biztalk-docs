@@ -2,7 +2,7 @@
 title: Send Shape
 TOCTitle: Send Shape
 ms:assetid: f5561659-ae7a-423e-a254-60586ca32cef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561950(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561950(v=BTS.80)
 ms:contentKeyID: 51533456
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

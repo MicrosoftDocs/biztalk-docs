@@ -2,7 +2,7 @@
 title: ISSOConfigDB.GetDBInfo Method
 TOCTitle: ISSOConfigDB.GetDBInfo Method
 ms:assetid: be146a0d-a29b-495a-ad54-5b546ab69b9c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa746225(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa746225(v=BTS.80)
 ms:contentKeyID: 51530991
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

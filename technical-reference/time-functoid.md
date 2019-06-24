@@ -2,7 +2,7 @@
 title: Time Functoid
 TOCTitle: Time Functoid
 ms:assetid: 9ce8cddb-6de7-4c2c-b2cb-dc92e763ec60
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577571(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577571(v=BTS.80)
 ms:contentKeyID: 51530012
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

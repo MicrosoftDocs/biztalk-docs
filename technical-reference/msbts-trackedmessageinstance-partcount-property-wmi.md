@@ -2,7 +2,7 @@
 title: MSBTS_TrackedMessageInstance.PartCount Property (WMI)
 TOCTitle: MSBTS_TrackedMessageInstance.PartCount Property (WMI)
 ms:assetid: 6dc5b591-3e28-49f2-b123-a50b79ac8cb1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560701(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560701(v=BTS.80)
 ms:contentKeyID: 51528791
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

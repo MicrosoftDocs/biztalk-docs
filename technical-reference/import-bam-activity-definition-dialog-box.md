@@ -2,7 +2,7 @@
 title: Import BAM Activity Definition Dialog Box
 TOCTitle: Import BAM Activity Definition Dialog Box
 ms:assetid: c583cc81-ade8-48b2-92ad-f13b9f9516c9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547902(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547902(v=BTS.80)
 ms:contentKeyID: 51531179
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

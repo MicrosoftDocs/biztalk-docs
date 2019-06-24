@@ -2,7 +2,7 @@
 title: MSBTS_Orchestration.QueryInstanceInfo Method (WMI)
 TOCTitle: MSBTS_Orchestration.QueryInstanceInfo Method (WMI)
 ms:assetid: 3e9944ca-231e-44f7-a6c4-e39cb02bf9cd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559739(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559739(v=BTS.80)
 ms:contentKeyID: 51527547
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

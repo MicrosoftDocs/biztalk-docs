@@ -2,7 +2,7 @@
 title: Ignore Namespaces for Links (Grid Property)
 TOCTitle: Ignore Namespaces for Links (Grid Property)
 ms:assetid: a139416b-da76-4aa8-9058-0c3979a39bb9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577689(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577689(v=BTS.80)
 ms:contentKeyID: 51530154
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

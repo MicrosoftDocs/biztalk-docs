@@ -2,7 +2,7 @@
 title: Host Properties Dialog Box
 TOCTitle: Host Properties Dialog Box
 ms:assetid: 2241f922-3a90-429e-91cb-72f972dee70b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559181(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559181(v=BTS.80)
 ms:contentKeyID: 51526788
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

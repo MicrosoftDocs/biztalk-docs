@@ -2,7 +2,7 @@
 title: Interchange Status and ACK Details Page UI
 TOCTitle: Interchange Status and ACK Details Page UI
 ms:assetid: d4322d4d-683b-4fb3-a71e-1c6ccf82c2c8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226549(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226549(v=BTS.80)
 ms:contentKeyID: 51531596
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

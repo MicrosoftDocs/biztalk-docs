@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.MessagePublishOverdriveFactor Property (WMI)
 TOCTitle: MSBTS_HostSetting.MessagePublishOverdriveFactor Property (WMI)
 ms:assetid: d5c807ad-ecc1-444d-92da-89830689e762
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578628(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578628(v=BTS.80)
 ms:contentKeyID: 51531646
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

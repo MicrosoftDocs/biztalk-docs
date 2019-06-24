@@ -2,7 +2,7 @@
 title: Attribute Group Node Properties
 TOCTitle: Attribute Group Node Properties
 ms:assetid: f7384d51-9a79-4e69-b436-67bb74db8aac
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561988(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561988(v=BTS.80)
 ms:contentKeyID: 51533474
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

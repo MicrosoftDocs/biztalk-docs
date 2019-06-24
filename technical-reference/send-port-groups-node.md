@@ -2,7 +2,7 @@
 title: Send Port Groups Node
 TOCTitle: Send Port Groups Node
 ms:assetid: 3bb977bc-7e97-4034-9ab2-09e4fb1898fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559679(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559679(v=BTS.80)
 ms:contentKeyID: 51527470
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

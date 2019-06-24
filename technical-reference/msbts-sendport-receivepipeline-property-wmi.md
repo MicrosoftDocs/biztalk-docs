@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.ReceivePipeline Property (WMI)
 TOCTitle: MSBTS_SendPort.ReceivePipeline Property (WMI)
 ms:assetid: 46be81e8-ed56-4d56-aeb2-49ff4464c1bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559891(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559891(v=BTS.80)
 ms:contentKeyID: 51527756
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

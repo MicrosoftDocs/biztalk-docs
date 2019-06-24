@@ -2,7 +2,7 @@
 title: Enumerating and Starting All Host Instances Using WMI
 TOCTitle: Enumerating and Starting All Host Instances Using WMI
 ms:assetid: d580d161-b282-40bc-af51-8f6d2c10a471
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578621(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578621(v=BTS.80)
 ms:contentKeyID: 51531516
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: TestMap Output (Map File Property)
 TOCTitle: TestMap Output (Map File Property)
 ms:assetid: f568ea9d-77a0-47cf-b0b6-b55952c402a9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561952(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561952(v=BTS.80)
 ms:contentKeyID: 51533433
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.PTRetryCount Property (WMI)
 TOCTitle: MSBTS_SendPort.PTRetryCount Property (WMI)
 ms:assetid: cbd10391-0649-4357-9fd9-9b6190ff8f56
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548023(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548023(v=BTS.80)
 ms:contentKeyID: 51531235
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Standard Version (Node Property of All Schemas)
 TOCTitle: Standard Version (Node Property of All Schemas)
 ms:assetid: bb9c08b2-8cf1-4263-acaf-861c58f33c22
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578346(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578346(v=BTS.80)
 ms:contentKeyID: 51530839
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

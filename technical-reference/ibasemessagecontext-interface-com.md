@@ -2,7 +2,7 @@
 title: IBaseMessageContext Interface (COM)
 TOCTitle: IBaseMessageContext Interface (COM)
 ms:assetid: b67fc3aa-4326-4c45-af54-a8e24553fc66
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578256(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578256(v=BTS.80)
 ms:contentKeyID: 51530692
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

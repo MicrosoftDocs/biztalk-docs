@@ -2,7 +2,7 @@
 title: Logical Date Functoid
 TOCTitle: Logical Date Functoid
 ms:assetid: 9cff7543-f240-4ff4-aba1-64f963b4eb42
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577573(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577573(v=BTS.80)
 ms:contentKeyID: 51530011
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

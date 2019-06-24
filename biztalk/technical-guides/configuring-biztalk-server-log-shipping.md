@@ -48,7 +48,7 @@ You use the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkse
 |SSO database|SSODB|This Enterprise Single Sign-On database more securely stores the configuration information for receive locations.|  
   
 ### Databases Backed Up When Backing Up the BAM Analysis and Tracking Analysis Server Databases  
- The following table lists the databases that are backed up using the procedures in [Backing Up the BAM Analysis and Tracking Analysis Server Database](http://msdn.microsoft.com/library/aa578580\(v=bts.70\).aspx):  
+ The following table lists the databases that are backed up using the procedures in [Backing Up the BAM Analysis and Tracking Analysis Server Database](https://msdn.microsoft.com/library/aa578580\(v=bts.70\).aspx):  
   
 |Database|Default database name|Description|  
 |--------------|---------------------------|-----------------|  

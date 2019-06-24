@@ -2,7 +2,7 @@
 title: IBaseMessage.PartCount Property (COM)
 TOCTitle: IBaseMessage.PartCount Property (COM)
 ms:assetid: 1f643699-4ff7-46ab-8c15-2bdb2421a235
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559132(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559132(v=BTS.80)
 ms:contentKeyID: 51526712
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

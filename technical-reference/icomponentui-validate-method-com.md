@@ -2,7 +2,7 @@
 title: IComponentUI.Validate Method (COM)
 TOCTitle: IComponentUI.Validate Method (COM)
 ms:assetid: 99f52e7b-37cc-4c69-8f88-f92524577fbf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577504(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577504(v=BTS.80)
 ms:contentKeyID: 51529934
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

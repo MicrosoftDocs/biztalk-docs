@@ -2,7 +2,7 @@
 title: ISSONotification Methods
 TOCTitle: ISSONotification Methods
 ms:assetid: 8bbac3a7-6271-4399-be53-69c7cb79add3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa745570(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa745570(v=BTS.80)
 ms:contentKeyID: 51529568
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

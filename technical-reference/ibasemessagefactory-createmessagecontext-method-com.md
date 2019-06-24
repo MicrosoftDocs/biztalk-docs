@@ -2,7 +2,7 @@
 title: IBaseMessageFactory.CreateMessageContext Method (COM)
 TOCTitle: IBaseMessageFactory.CreateMessageContext Method (COM)
 ms:assetid: 72683e61-af87-4059-80f5-9c429a5bba5a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560799(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560799(v=BTS.80)
 ms:contentKeyID: 51528907
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

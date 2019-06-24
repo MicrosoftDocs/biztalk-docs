@@ -2,7 +2,7 @@
 title: Cumulative Average Functoid
 TOCTitle: Cumulative Average Functoid
 ms:assetid: b8ed38e8-6674-40c1-af26-26ab79bc3a81
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578299(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578299(v=BTS.80)
 ms:contentKeyID: 51530778
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

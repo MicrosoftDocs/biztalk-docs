@@ -2,7 +2,7 @@
 title: MSBTS_Orchestration.AssemblyName Property (WMI)
 TOCTitle: MSBTS_Orchestration.AssemblyName Property (WMI)
 ms:assetid: 734ebf5a-207a-4e7c-b8c0-fd3f5d2cffa7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560813(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560813(v=BTS.80)
 ms:contentKeyID: 51528929
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

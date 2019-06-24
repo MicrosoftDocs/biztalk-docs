@@ -2,7 +2,7 @@
 title: MSBTS_Host.Name Property (WMI)
 TOCTitle: MSBTS_Host.Name Property (WMI)
 ms:assetid: 296f8fea-fc9e-49e0-a46c-3403f7d7d038
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559319(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559319(v=BTS.80)
 ms:contentKeyID: 51526976
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

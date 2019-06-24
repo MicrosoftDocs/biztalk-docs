@@ -2,7 +2,7 @@
 title: New Dimension Dialog Box
 TOCTitle: New Dimension Dialog Box
 ms:assetid: f8fc8a9d-b52a-400f-9ef8-1925340ca21f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562026(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562026(v=BTS.80)
 ms:contentKeyID: 51533529
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

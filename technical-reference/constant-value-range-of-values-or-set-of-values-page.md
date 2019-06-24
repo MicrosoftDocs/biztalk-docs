@@ -2,7 +2,7 @@
 title: Constant Value, Range of Values, or Set of Values Page
 TOCTitle: Constant Value, Range of Values, or Set of Values Page
 ms:assetid: 34b42a87-4f23-4197-8592-73b70612209a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559537(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559537(v=BTS.80)
 ms:contentKeyID: 51527283
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, Receive Handler Tab (WCF-NetNamedPipe Adapter Receive Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Receive Handler Tab (WCF-NetNamedPipe Adapter Receive Handler)
 ms:assetid: c4bcbb8f-0b30-41ed-8fb9-86ae61ebdf83
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb728127(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb728127(v=BTS.80)
 ms:contentKeyID: 51531036
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

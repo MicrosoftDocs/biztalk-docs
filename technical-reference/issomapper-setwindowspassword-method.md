@@ -2,7 +2,7 @@
 title: ISSOMapper.SetWindowsPassword Method
 TOCTitle: ISSOMapper.SetWindowsPassword Method
 ms:assetid: d02c4959-4c6e-4f94-945f-1451bc78c5de
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771929(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771929(v=BTS.80)
 ms:contentKeyID: 51531483
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

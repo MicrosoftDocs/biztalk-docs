@@ -2,7 +2,7 @@
 title: Target Schema (Grid Property)
 TOCTitle: Target Schema (Grid Property)
 ms:assetid: cb07dd68-e0cb-4b69-94ba-e90d6437cda8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548007(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548007(v=BTS.80)
 ms:contentKeyID: 51531214
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

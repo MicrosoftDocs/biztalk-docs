@@ -2,7 +2,7 @@
 title: Configure Pipeline Dialog Box
 TOCTitle: Configure Pipeline Dialog Box
 ms:assetid: 1eff5976-417a-4ed2-8688-ad12d6f51eaf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559126(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559126(v=BTS.80)
 ms:contentKeyID: 51526699
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -140,7 +140,7 @@ Schemas specified in this property should have unique target namespaces. If any 
 </tr>
 <tr class="odd">
 <td><strong>ProcessingInstructionOption</strong></td>
-<td>Specifies how processing instructions are added to outgoing documents. For more information about the ProcessingInstructionOption, see <a href="https://msdn.microsoft.com/en-us/library/aa578687(v=bts.80)">Processing Instructions in the XML Assembler Pipeline Component</a>.</td>
+<td>Specifies how processing instructions are added to outgoing documents. For more information about the ProcessingInstructionOption, see <a href="https://msdn.microsoft.com/library/aa578687(v=bts.80)">Processing Instructions in the XML Assembler Pipeline Component</a>.</td>
 </tr>
 <tr class="even">
 <td><strong>ProcessingInstructionsScope</strong></td>

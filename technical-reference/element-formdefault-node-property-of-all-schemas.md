@@ -2,7 +2,7 @@
 title: Element FormDefault (Node Property of All Schemas)
 TOCTitle: Element FormDefault (Node Property of All Schemas)
 ms:assetid: 80e0ff7d-38cb-49dc-9044-1a2547752f63
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561070(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561070(v=BTS.80)
 ms:contentKeyID: 51529272
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

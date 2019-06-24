@@ -2,7 +2,7 @@
 title: SAdapterInGroup.psaAdapters Field
 TOCTitle: SAdapterInGroup.psaAdapters Field
 ms:assetid: 9b843b84-8413-4e28-9838-22a8eb1c83a1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa704988(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa704988(v=BTS.80)
 ms:contentKeyID: 51529930
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

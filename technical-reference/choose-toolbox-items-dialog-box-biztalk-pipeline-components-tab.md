@@ -2,7 +2,7 @@
 title: Choose Toolbox Items Dialog Box, BizTalk Pipeline Components Tab
 TOCTitle: Choose Toolbox Items Dialog Box, BizTalk Pipeline Components Tab
 ms:assetid: 413fe923-df14-4ba0-932c-73c7163f9780
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559784(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559784(v=BTS.80)
 ms:contentKeyID: 51527549
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

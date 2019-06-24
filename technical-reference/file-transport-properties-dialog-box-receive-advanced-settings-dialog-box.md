@@ -2,7 +2,7 @@
 title: File Transport Properties Dialog Box, Receive, Advanced Settings Dialog Box
 TOCTitle: File Transport Properties Dialog Box, Receive, Advanced Settings Dialog Box
 ms:assetid: 2f67a63c-57f2-4ba9-af7c-151817c32c97
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559438(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559438(v=BTS.80)
 ms:contentKeyID: 51527082
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

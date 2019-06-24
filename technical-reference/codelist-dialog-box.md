@@ -2,7 +2,7 @@
 title: CodeList Dialog Box
 TOCTitle: CodeList Dialog Box
 ms:assetid: 1531ab63-8bd6-4f12-a64e-b72757131edb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558705(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558705(v=BTS.80)
 ms:contentKeyID: 51526419
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

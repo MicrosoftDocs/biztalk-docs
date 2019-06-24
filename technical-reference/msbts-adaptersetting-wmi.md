@@ -2,7 +2,7 @@
 title: MSBTS_AdapterSetting (WMI)
 TOCTitle: MSBTS_AdapterSetting (WMI)
 ms:assetid: 4b775cb4-b8a8-40a4-9aa8-2363620d306d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560016(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560016(v=BTS.80)
 ms:contentKeyID: 51527862
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

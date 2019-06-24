@@ -2,7 +2,7 @@
 title: Export MSI File Wizard, Specify IIS Hosts Page
 TOCTitle: Export MSI File Wizard, Specify IIS Hosts Page
 ms:assetid: f5cdfde4-23a8-43b5-928a-df2cf433d1c9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561956(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561956(v=BTS.80)
 ms:contentKeyID: 51533463
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

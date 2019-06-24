@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, Proxy Tab (SOAP Adapter)
 TOCTitle: <Host Name> Properties Dialog Box, Proxy Tab (SOAP Adapter)
 ms:assetid: b0340493-5b77-4aef-b143-859cf770af26
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578117(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578117(v=BTS.80)
 ms:contentKeyID: 51530573
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

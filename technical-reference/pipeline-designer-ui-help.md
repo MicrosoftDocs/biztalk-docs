@@ -2,7 +2,7 @@
 title: Pipeline Designer UI Help
 TOCTitle: Pipeline Designer UI Help
 ms:assetid: aae6d7e0-5c5f-47d5-99d8-7b09c77a315a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577986(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577986(v=BTS.80)
 ms:contentKeyID: 51530374
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_AdapterSetting.Name Property (WMI)
 TOCTitle: MSBTS_AdapterSetting.Name Property (WMI)
 ms:assetid: 43264ec1-652f-4c2f-b4a8-70f9f42fba13
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559817(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559817(v=BTS.80)
 ms:contentKeyID: 51527592
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

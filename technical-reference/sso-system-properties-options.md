@@ -2,7 +2,7 @@
 title: 'SSO System Properties: Options'
 TOCTitle: 'SSO System Properties: Options'
 ms:assetid: d8df3e47-49e4-4acc-9b8e-7b4a2e5de21b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578685(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578685(v=BTS.80)
 ms:contentKeyID: 51531622
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

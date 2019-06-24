@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.ThrottlingPublishOverride Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingPublishOverride Property (WMI)
 ms:assetid: 14341b68-52f5-4fcf-9341-7ec9d88efddb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678621(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678621(v=BTS.80)
 ms:contentKeyID: 51526403
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

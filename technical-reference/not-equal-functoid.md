@@ -2,7 +2,7 @@
 title: Not Equal Functoid
 TOCTitle: Not Equal Functoid
 ms:assetid: 6b1b8f53-2151-4854-877b-a5695de8e6dc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560651(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560651(v=BTS.80)
 ms:contentKeyID: 51528697
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

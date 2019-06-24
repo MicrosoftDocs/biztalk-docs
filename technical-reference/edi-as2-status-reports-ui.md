@@ -2,7 +2,7 @@
 title: EDI-AS2 Status Reports UI
 TOCTitle: EDI-AS2 Status Reports UI
 ms:assetid: 4fb699ee-7eb1-4015-b5a7-6cfeb1c72ee5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb246087(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb246087(v=BTS.80)
 ms:contentKeyID: 51527968
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

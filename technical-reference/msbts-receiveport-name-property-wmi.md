@@ -2,7 +2,7 @@
 title: MSBTS_ReceivePort.Name Property (WMI)
 TOCTitle: MSBTS_ReceivePort.Name Property (WMI)
 ms:assetid: b7686057-0255-49a6-bc26-fdebf4a7d501
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578275(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578275(v=BTS.80)
 ms:contentKeyID: 51530754
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

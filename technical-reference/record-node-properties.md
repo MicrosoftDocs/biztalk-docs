@@ -2,7 +2,7 @@
 title: Record Node Properties
 TOCTitle: Record Node Properties
 ms:assetid: 61d5b2f6-b600-437a-8031-f66d05f131d4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560465(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560465(v=BTS.80)
 ms:contentKeyID: 51528450
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

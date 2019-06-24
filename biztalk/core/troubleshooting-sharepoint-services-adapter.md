@@ -54,7 +54,7 @@ This topic focuses on troubleshooting the [!INCLUDE[btsWinSharePointSvcsNoVersio
 
     [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)]: [An update for Setspn.exe in Windows Server 2003 is available](http://support.microsoft.com/kb/970536)  
 
-    [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)] 8, [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] and [!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]: [SetSPN](http://technet.microsoft.com/library/cc731241.aspx)  
+    [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)] 8, [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] and [!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]: [SetSPN](https://technet.microsoft.com/library/cc731241.aspx)  
 
    > [!IMPORTANT]
    >  SetSPN requires Domain Administrator rights and can be executed from any computer in the domain.  

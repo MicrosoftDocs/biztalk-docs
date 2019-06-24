@@ -2,7 +2,7 @@
 title: 'Create Filter Wizard: Advanced'
 TOCTitle: 'Create Filter Wizard: Advanced'
 ms:assetid: 132336a2-16e0-4d8d-b6cf-0e29edc2f423
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743369(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743369(v=BTS.80)
 ms:contentKeyID: 51526328
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

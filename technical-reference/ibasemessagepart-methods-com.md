@@ -2,7 +2,7 @@
 title: IBaseMessagePart Methods (COM)
 TOCTitle: IBaseMessagePart Methods (COM)
 ms:assetid: 92ff50af-57f3-4a76-b4a8-414ff4b511d6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577375(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577375(v=BTS.80)
 ms:contentKeyID: 51529740
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

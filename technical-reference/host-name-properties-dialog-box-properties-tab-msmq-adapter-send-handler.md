@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, Properties Tab (MSMQ Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Properties Tab (MSMQ Adapter Send Handler)
 ms:assetid: 9f268b9f-b965-4d1b-a1e7-5403ae327bf1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577634(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577634(v=BTS.80)
 ms:contentKeyID: 51530031
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

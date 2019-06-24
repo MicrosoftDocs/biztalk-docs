@@ -2,7 +2,7 @@
 title: 'Affiliate Applications Properties: Options'
 TOCTitle: 'Affiliate Applications Properties: Options'
 ms:assetid: c0f62ae8-6504-4f24-89b3-7337a64d9d8b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578452(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578452(v=BTS.80)
 ms:contentKeyID: 51531046
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Configuration Wizard, Progress Page
 TOCTitle: Configuration Wizard, Progress Page
 ms:assetid: 1a28b473-5aeb-4cd2-aec2-b886e30b35c2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559028(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559028(v=BTS.80)
 ms:contentKeyID: 51526528
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

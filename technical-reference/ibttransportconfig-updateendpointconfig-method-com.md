@@ -2,7 +2,7 @@
 title: IBTTransportConfig.UpdateEndpointConfig Method (COM)
 TOCTitle: IBTTransportConfig.UpdateEndpointConfig Method (COM)
 ms:assetid: cdb73a17-f39f-425c-8fd2-6a496f9717f9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548075(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548075(v=BTS.80)
 ms:contentKeyID: 51531304
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocation.StopDateEnabled (WMI)
 TOCTitle: MSBTS_ReceiveLocation.StopDateEnabled (WMI)
 ms:assetid: ccf496bc-7095-4f43-806a-0e3d9a9d9918
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548051(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548051(v=BTS.80)
 ms:contentKeyID: 51531276
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Select Artifact Type Dialog Box
 TOCTitle: Select Artifact Type Dialog Box
 ms:assetid: 8533d14c-e56e-46ae-b083-bfe8e32bcad0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561170(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561170(v=BTS.80)
 ms:contentKeyID: 51529402
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

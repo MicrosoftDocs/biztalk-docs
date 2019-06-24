@@ -2,7 +2,7 @@
 title: SOAP Transport Properties Dialog Box, General Tab
 TOCTitle: SOAP Transport Properties Dialog Box, General Tab
 ms:assetid: 28abbac8-d51d-4094-a5fb-b62df2d350b8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559300(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559300(v=BTS.80)
 ms:contentKeyID: 51526959
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

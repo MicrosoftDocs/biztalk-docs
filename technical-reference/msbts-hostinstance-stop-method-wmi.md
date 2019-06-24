@@ -2,7 +2,7 @@
 title: MSBTS_HostInstance.Stop Method (WMI)
 TOCTitle: MSBTS_HostInstance.Stop Method (WMI)
 ms:assetid: d4b7c69d-460c-4ebb-869b-0dfe698494ba
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578604(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578604(v=BTS.80)
 ms:contentKeyID: 51531492
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

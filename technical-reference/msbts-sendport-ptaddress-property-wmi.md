@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.PTAddress Property (WMI)
 TOCTitle: MSBTS_SendPort.PTAddress Property (WMI)
 ms:assetid: 2b2c9371-d426-4c84-9341-03b36979e56d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559355(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559355(v=BTS.80)
 ms:contentKeyID: 51526958
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Configuration Wizard, Summary Page
 TOCTitle: Configuration Wizard, Summary Page
 ms:assetid: 2efadae1-0032-47f5-a615-54e21578bf54
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559433(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559433(v=BTS.80)
 ms:contentKeyID: 51527074
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

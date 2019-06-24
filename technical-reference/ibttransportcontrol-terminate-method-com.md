@@ -2,7 +2,7 @@
 title: IBTTransportControl.Terminate Method (COM)
 TOCTitle: IBTTransportControl.Terminate Method (COM)
 ms:assetid: 0022ba49-0c5e-49af-8558-b5b032788687
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546730(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546730(v=BTS.80)
 ms:contentKeyID: 51525827
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

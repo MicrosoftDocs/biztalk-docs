@@ -2,7 +2,7 @@
 title: Schema Property Reference
 TOCTitle: Schema Property Reference
 ms:assetid: 5e8c0622-0908-4a44-b6ce-76e7b0d74cbf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560408(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560408(v=BTS.80)
 ms:contentKeyID: 51528379
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

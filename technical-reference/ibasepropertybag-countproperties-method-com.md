@@ -2,7 +2,7 @@
 title: IBasePropertyBag.CountProperties Method (COM)
 TOCTitle: IBasePropertyBag.CountProperties Method (COM)
 ms:assetid: 3701a2a2-fdc5-4e50-bb25-7c6c6fdb5c9c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559593(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559593(v=BTS.80)
 ms:contentKeyID: 51527290
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: WCF-NetMsmq Transport Properties Dialog Box, Receive, General Tab
 TOCTitle: WCF-NetMsmq Transport Properties Dialog Box, Receive, General Tab
 ms:assetid: 4059915a-9a01-4b64-8349-4c4864bcb5d6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb246053(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb246053(v=BTS.80)
 ms:contentKeyID: 51527528
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

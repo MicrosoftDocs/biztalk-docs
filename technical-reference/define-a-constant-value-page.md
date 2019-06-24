@@ -2,7 +2,7 @@
 title: Define a Constant Value Page
 TOCTitle: Define a Constant Value Page
 ms:assetid: 771fd01a-0a6e-4085-9be8-837e45ac2e8c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560875(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560875(v=BTS.80)
 ms:contentKeyID: 51529025
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

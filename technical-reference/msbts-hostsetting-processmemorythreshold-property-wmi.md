@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.ProcessMemoryThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.ProcessMemoryThreshold Property (WMI)
 ms:assetid: 1e403eec-e59e-4603-84db-370c7ba8cb6b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559112(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559112(v=BTS.80)
 ms:contentKeyID: 51526673
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

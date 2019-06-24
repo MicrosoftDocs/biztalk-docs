@@ -2,7 +2,7 @@
 title: IBTBatchCallBack.BatchComplete Method (COM)
 TOCTitle: IBTBatchCallBack.BatchComplete Method (COM)
 ms:assetid: 75fa8e05-38f8-460b-bd1f-2213f1672bff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560855(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560855(v=BTS.80)
 ms:contentKeyID: 51528997
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

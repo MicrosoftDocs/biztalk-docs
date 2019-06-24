@@ -2,7 +2,7 @@
 title: MSBTS_ReceivePort.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_ReceivePort.MgmtDbNameOverride Property (WMI)
 ms:assetid: eb1235e3-b657-4618-a7cb-6361450f067d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561738(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561738(v=BTS.80)
 ms:contentKeyID: 51533189
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

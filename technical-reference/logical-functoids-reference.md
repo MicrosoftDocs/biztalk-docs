@@ -2,7 +2,7 @@
 title: Logical Functoids Reference
 TOCTitle: Logical Functoids Reference
 ms:assetid: e64b6106-4ac1-460e-b214-f655820428bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561635(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561635(v=BTS.80)
 ms:contentKeyID: 51533020
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

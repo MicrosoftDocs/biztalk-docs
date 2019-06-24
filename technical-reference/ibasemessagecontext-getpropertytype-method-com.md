@@ -2,7 +2,7 @@
 title: IBaseMessageContext.GetPropertyType Method (COM)
 TOCTitle: IBaseMessageContext.GetPropertyType Method (COM)
 ms:assetid: 49c3cb8b-0ab3-478f-9422-fcc2d09b74f3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559966(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559966(v=BTS.80)
 ms:contentKeyID: 51527817
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

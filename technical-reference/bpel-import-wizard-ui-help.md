@@ -2,7 +2,7 @@
 title: BPEL Import Wizard UI Help
 TOCTitle: BPEL Import Wizard UI Help
 ms:assetid: ad765d52-57fc-4244-bc9e-140275852708
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578050(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578050(v=BTS.80)
 ms:contentKeyID: 51530496
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

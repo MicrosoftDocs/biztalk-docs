@@ -2,7 +2,7 @@
 title: Import Settings Wizard UI Help
 TOCTitle: Import Settings Wizard UI Help
 ms:assetid: e3a732e5-3f3d-47a7-a6ed-323189e56d11
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629789(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629789(v=BTS.80)
 ms:contentKeyID: 51532984
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

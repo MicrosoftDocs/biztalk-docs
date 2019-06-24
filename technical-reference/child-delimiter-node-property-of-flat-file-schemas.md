@@ -2,7 +2,7 @@
 title: Child Delimiter (Node Property of Flat File Schemas)
 TOCTitle: Child Delimiter (Node Property of Flat File Schemas)
 ms:assetid: 623841ac-925d-42af-8476-28493e4c804f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560472(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560472(v=BTS.80)
 ms:contentKeyID: 51528458
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: WCF Adapters Transport Properties Dialog Box, General Tab, Identity Editor
 TOCTitle: WCF Adapters Transport Properties Dialog Box, General Tab, Identity Editor
 ms:assetid: 47a04277-71a9-4bc3-b2bb-67aa61007656
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb246073(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb246073(v=BTS.80)
 ms:contentKeyID: 51527721
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

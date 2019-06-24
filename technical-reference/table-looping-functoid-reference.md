@@ -2,7 +2,7 @@
 title: Table Looping Functoid Reference
 TOCTitle: Table Looping Functoid Reference
 ms:assetid: 1f284a8a-3cfb-4397-b9a9-aa6315919716
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559129(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559129(v=BTS.80)
 ms:contentKeyID: 51526707
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

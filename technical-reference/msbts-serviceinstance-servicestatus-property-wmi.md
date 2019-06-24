@@ -2,7 +2,7 @@
 title: MSBTS_ServiceInstance.ServiceStatus Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.ServiceStatus Property (WMI)
 ms:assetid: 82ec2502-2df3-401c-a86e-9f41967d5076
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561123(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561123(v=BTS.80)
 ms:contentKeyID: 51529336
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

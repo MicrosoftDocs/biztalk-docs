@@ -2,7 +2,7 @@
 title: Define a Range of Values Page
 TOCTitle: Define a Range of Values Page
 ms:assetid: 62cf0024-9c1f-4bad-9a4a-2370653bb55d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560483(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560483(v=BTS.80)
 ms:contentKeyID: 51528488
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

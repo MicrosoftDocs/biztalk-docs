@@ -2,7 +2,7 @@
 title: IBTTransmitterBatch Methods (COM)
 TOCTitle: IBTTransmitterBatch Methods (COM)
 ms:assetid: 59f297d0-bc25-43cd-a92f-aecf9197c0f3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560309(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560309(v=BTS.80)
 ms:contentKeyID: 51528250
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

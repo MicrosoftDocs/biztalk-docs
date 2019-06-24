@@ -2,7 +2,7 @@
 title: SPasswordChange Fields
 TOCTitle: SPasswordChange Fields
 ms:assetid: c2343389-ef2f-45a3-954d-7173c3a6b3ff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771673(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771673(v=BTS.80)
 ms:contentKeyID: 51531080
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

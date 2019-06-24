@@ -2,7 +2,7 @@
 title: Help (Functoid Property)
 TOCTitle: Help (Functoid Property)
 ms:assetid: d785bb75-60f9-4477-963c-227893b4722d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578659(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578659(v=BTS.80)
 ms:contentKeyID: 51531570
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

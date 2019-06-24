@@ -2,7 +2,7 @@
 title: BizTalk Mapper Grid
 TOCTitle: BizTalk Mapper Grid
 ms:assetid: 3ac092c0-a58b-4b8b-ac06-b7d8e729a489
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559658(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559658(v=BTS.80)
 ms:contentKeyID: 51527383
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Schema Node Properties in BizTalk Mapper
 TOCTitle: Schema Node Properties in BizTalk Mapper
 ms:assetid: 15cd7271-c9cb-42b1-8f2b-62fe5efdd497
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558721(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558721(v=BTS.80)
 ms:contentKeyID: 51526401
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

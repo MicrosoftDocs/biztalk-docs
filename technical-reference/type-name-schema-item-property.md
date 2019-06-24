@@ -2,7 +2,7 @@
 title: Type Name (Schema Item Property)
 TOCTitle: Type Name (Schema Item Property)
 ms:assetid: f8a7d4d5-52c6-4df9-820b-b81358b412ab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562018(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562018(v=BTS.80)
 ms:contentKeyID: 51533547
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

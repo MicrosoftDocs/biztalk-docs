@@ -2,7 +2,7 @@
 title: Business Rule Composer
 TOCTitle: Business Rule Composer
 ms:assetid: 9f4f2d94-ad13-4ec7-a938-fd0ab4be4e0a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577642(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577642(v=BTS.80)
 ms:contentKeyID: 51530037
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

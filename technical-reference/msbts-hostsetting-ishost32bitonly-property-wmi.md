@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.IsHost32BitOnly Property (WMI)
 TOCTitle: MSBTS_HostSetting.IsHost32BitOnly Property (WMI)
 ms:assetid: c8ca1896-33a7-47be-8867-3a25e338a86f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547971(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547971(v=BTS.80)
 ms:contentKeyID: 51531260
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

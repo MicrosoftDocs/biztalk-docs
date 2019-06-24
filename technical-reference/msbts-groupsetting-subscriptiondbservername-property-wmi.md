@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.SubscriptionDBServerName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.SubscriptionDBServerName Property (WMI)
 ms:assetid: 1ac5a718-ddb9-4307-a3e7-0d24b0dd7e98
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559048(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559048(v=BTS.80)
 ms:contentKeyID: 51526573
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

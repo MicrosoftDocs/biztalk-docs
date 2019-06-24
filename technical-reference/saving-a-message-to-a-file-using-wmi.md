@@ -2,7 +2,7 @@
 title: Saving a Message to a File Using WMI
 TOCTitle: Saving a Message to a File Using WMI
 ms:assetid: 4972da32-94f0-4478-ad24-fc2f552a447a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559958(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559958(v=BTS.80)
 ms:contentKeyID: 51527810
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

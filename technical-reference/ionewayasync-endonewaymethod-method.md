@@ -2,7 +2,7 @@
 title: IOneWayAsync.EndOneWayMethod Method
 TOCTitle: IOneWayAsync.EndOneWayMethod Method
 ms:assetid: 2d0b6f77-b4d6-4c0d-94a4-5c48081bf019
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb727719(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb727719(v=BTS.80)
 ms:contentKeyID: 51527008
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

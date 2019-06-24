@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.GlobalTrackingOption Property (WMI)
 TOCTitle: MSBTS_GroupSetting.GlobalTrackingOption Property (WMI)
 ms:assetid: 9f2bcaa2-346b-4e19-8a22-796d9994d40c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577636(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577636(v=BTS.80)
 ms:contentKeyID: 51530032
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

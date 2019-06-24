@@ -2,7 +2,7 @@
 title: MSBTS_Orchestration.Enlist Method (WMI)
 TOCTitle: MSBTS_Orchestration.Enlist Method (WMI)
 ms:assetid: 6914664b-0017-41a2-a1c7-3732672c5620
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560599(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560599(v=BTS.80)
 ms:contentKeyID: 51528664
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

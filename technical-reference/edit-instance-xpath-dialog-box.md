@@ -2,7 +2,7 @@
 title: Edit Instance XPath Dialog Box
 TOCTitle: Edit Instance XPath Dialog Box
 ms:assetid: 46372743-0f10-4f13-9883-f08a598e0cfd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559874(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559874(v=BTS.80)
 ms:contentKeyID: 51527673
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

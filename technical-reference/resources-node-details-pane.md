@@ -2,7 +2,7 @@
 title: Resources Node, Details Pane
 TOCTitle: Resources Node, Details Pane
 ms:assetid: 5513ea8d-4095-4b44-8226-05c67e0bfc01
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560213(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560213(v=BTS.80)
 ms:contentKeyID: 51528108
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

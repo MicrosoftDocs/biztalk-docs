@@ -2,7 +2,7 @@
 title: Export MSI File Wizard, Select Resources Page
 TOCTitle: Export MSI File Wizard, Select Resources Page
 ms:assetid: 38742c36-4dac-4576-8107-9b1cc2843552
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559614(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559614(v=BTS.80)
 ms:contentKeyID: 51527381
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

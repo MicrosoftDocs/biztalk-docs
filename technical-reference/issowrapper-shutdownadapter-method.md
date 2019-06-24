@@ -2,7 +2,7 @@
 title: ISSOWrapper.ShutdownAdapter Method
 TOCTitle: ISSOWrapper.ShutdownAdapter Method
 ms:assetid: 3af07290-5a92-4fd3-82f5-b37165928b2f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa770674(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa770674(v=BTS.80)
 ms:contentKeyID: 51527444
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

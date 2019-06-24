@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstance.ServiceClass Property (WMI)
 TOCTitle: MSBTS_MessageInstance.ServiceClass Property (WMI)
 ms:assetid: 4137d3a0-2380-43de-8734-c3383a505d34
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559782(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559782(v=BTS.80)
 ms:contentKeyID: 51527546
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

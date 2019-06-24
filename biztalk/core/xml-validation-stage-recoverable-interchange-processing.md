@@ -29,7 +29,7 @@ The **XML validator** pipeline component processes an interchange in two modes:
   
 3. In the Properties window, set the value of the **Recoverable Interchange Processing** property to **True** if you want the **XML validator** component to process interchanges in the recoverable mode, or set the property to **False** if you want the component to process interchanges in the standard mode. The default value of this property is `False`.  
   
-   The **XMLValidator** class in the object model, which corresponds to the **XML validator** pipeline component, has a public property named **RecoverableInterchangeProcessing** that you can use to get/set the mode programmatically. See documentation for [Microsoft.BizTalk.Component.XmlValidator](http://msdn.microsoft.com/library/microsoft.biztalk.component.xmlvalidator.aspx) class for more information.  
+   The **XMLValidator** class in the object model, which corresponds to the **XML validator** pipeline component, has a public property named **RecoverableInterchangeProcessing** that you can use to get/set the mode programmatically. See documentation for [Microsoft.BizTalk.Component.XmlValidator](https://msdn.microsoft.com/library/microsoft.biztalk.component.xmlvalidator.aspx) class for more information.  
   
    Messages that are successfully validated have their sending party identified according to the party configured for the receive port on which the parent interchange arrived. If party resolution for any message extracted from the interchange fails, then the party resolution is considered to have failed for the entire interchange.  
   

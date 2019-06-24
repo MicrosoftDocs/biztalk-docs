@@ -280,7 +280,7 @@ In a multicomputer environment, BizTalk Server supports only domain groups and d
 
 - BizTalk Server supports only Active Directory domain groups and user accounts in multicomputer configurations. Domain groups include Domain Local groups, Global groups, and Universal groups, which are supported in both single computer and multicomputer environments.
 
-- In general, Domain Local Groups are not recommended because their use requires that all of the servers, including SQL Servers, in the BizTalk Server infrastructure belong to the same domain. This consideration does not apply to small networks where all of the servers and user accounts reside in a single domain. [Active Directory groups](http://technet.microsoft.com/library/cc733001.aspx) provides more information.
+- In general, Domain Local Groups are not recommended because their use requires that all of the servers, including SQL Servers, in the BizTalk Server infrastructure belong to the same domain. This consideration does not apply to small networks where all of the servers and user accounts reside in a single domain. [Active Directory groups](https://technet.microsoft.com/library/cc733001.aspx) provides more information.
 
 - Built-in accounts such as NT AUTHORITY\LOCAL SERVICE, NT AUTHORITY\NETWORK SERVICE, NT AUTHORITY\SERVICE, NT AUTHORITY\SYSTEM, and Everyone are not supported when you install and configure BizTalk Server in a multicomputer environment.
 

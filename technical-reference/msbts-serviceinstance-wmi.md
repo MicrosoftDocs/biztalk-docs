@@ -2,7 +2,7 @@
 title: MSBTS_ServiceInstance (WMI)
 TOCTitle: MSBTS_ServiceInstance (WMI)
 ms:assetid: b0b60759-d44b-4e2b-b8d3-3b4683564f94
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578129(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578129(v=BTS.80)
 ms:contentKeyID: 51530591
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

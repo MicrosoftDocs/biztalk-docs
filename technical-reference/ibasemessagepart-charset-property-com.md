@@ -2,7 +2,7 @@
 title: IBaseMessagePart.Charset Property (COM)
 TOCTitle: IBaseMessagePart.Charset Property (COM)
 ms:assetid: 205422d8-d396-4783-b849-a086946bf93e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559144(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559144(v=BTS.80)
 ms:contentKeyID: 51526691
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

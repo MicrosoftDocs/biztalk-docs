@@ -39,7 +39,7 @@ The topics in this section provide the links about configuring firewall ports, I
  
  [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)  
   
- [Configuring BizTalk Server on an Azure VM](http://msdn.microsoft.com/library/azure/jj248689.aspx)  
+ [Configuring BizTalk Server on an Azure VM](https://msdn.microsoft.com/library/azure/jj248689.aspx)  
   
 [Configure BizTalk Server in a Cluster](../install-and-config-guides/configure-biztalk-server-in-a-cluster.md)
     
