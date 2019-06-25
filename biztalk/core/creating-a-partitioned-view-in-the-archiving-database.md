@@ -29,7 +29,7 @@ The solution to prevent lost data is to have a single archiving package, which f
 
 You must be logged on as a member of the BizTalk Server Administrators group to perform this procedure.
 
-### To create a partitioned view in the BAM Archive database in SQL Server 2008 SP1 or SQL Server 2008 R2
+## Create a partitioned view in the BAM Archive database (SQL Server 2008 SP1 or SQL Server 2008 R2)
 
 1. Open SQL Server Management Studio.
 
