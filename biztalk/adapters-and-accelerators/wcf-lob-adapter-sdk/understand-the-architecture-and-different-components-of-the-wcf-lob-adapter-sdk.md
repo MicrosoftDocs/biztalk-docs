@@ -26,7 +26,7 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is a
 [Read how WCF is used by the WCF LOB Adapter SDK](read-how-wcf-is-used-by-the-wcf-lob-adapter-sdk.md) explains the relationship with the SDK and WCF.
 
 ## Architecture Overview  
-[Architecture overview ](architecture-overview-of-the-wcf-lob-adapter-sdk.md) descrbied the internal architecture and the main components of WCF LOB Adapter SDK.
+[Architecture overview](architecture-overview-of-the-wcf-lob-adapter-sdk.md) descrbied the internal architecture and the main components of WCF LOB Adapter SDK.
  
 ## Connection, handler, metadata, custom, and core components
 [Key Components of the WCF LOB Adapter SDK](key-components-of-the-wcf-lob-adapter-sdk.md) describes these different components.

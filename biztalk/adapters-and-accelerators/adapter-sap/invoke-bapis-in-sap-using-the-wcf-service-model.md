@@ -170,7 +170,7 @@ public partial class BapiBUS2032Client : System.ServiceModel.ClientBase<BapiBUS2
 ### Example  
  The following example invokes the CREATEFROMDAT2 BAPI on the Sales Order business object. It invokes the BAPI several times and then invokes BAPI_TRANSACTION_COMMIT to commit the transaction. If an error occurs when invoking the BAPI, BAPI_TRANSACTION_ROLLBACK is invoked in the exception handler to roll back the transaction.  
   
- The CREATEFROMDAT2 method takes many parameters; these are omitted in the example for the sake of brevity. You can find a sample that demonstrates BAPI transactions in the samples shipped with the Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the SAP Adapter ](../../adapters-and-accelerators/adapter-sap/samples-for-the-sap-adapter.md).  
+ The CREATEFROMDAT2 method takes many parameters; these are omitted in the example for the sake of brevity. You can find a sample that demonstrates BAPI transactions in the samples shipped with the Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the SAP Adapter](../../adapters-and-accelerators/adapter-sap/samples-for-the-sap-adapter.md).  
   
 ```  
 using System;  
