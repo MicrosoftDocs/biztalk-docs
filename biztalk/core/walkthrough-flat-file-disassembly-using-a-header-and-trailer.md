@@ -72,7 +72,7 @@ Before generating schemas, you need to create a test file.
   
     The file can have one or more ERROR records.  
   
-     **-- OR --  **
+     **-- OR --**
   
      Copy the following sample data into the new file. The last line contains a trailing linefeed:
   
