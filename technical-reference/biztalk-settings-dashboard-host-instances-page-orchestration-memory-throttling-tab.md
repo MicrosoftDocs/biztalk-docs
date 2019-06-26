@@ -2,7 +2,7 @@
 title: BizTalk Settings Dashboard, Host Instances Page, Orchestration Memory Throttling Tab
 TOCTitle: BizTalk Settings Dashboard, Host Instances Page, Orchestration Memory Throttling Tab
 ms:assetid: d1686113-09b0-402b-876d-b8fd058bcdb0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629779(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629779(v=BTS.80)
 ms:contentKeyID: 51531515
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

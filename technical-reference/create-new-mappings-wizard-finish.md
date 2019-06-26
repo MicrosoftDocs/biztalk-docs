@@ -2,7 +2,7 @@
 title: 'Create New Mappings Wizard: Finish'
 TOCTitle: 'Create New Mappings Wizard: Finish'
 ms:assetid: 8407b533-934f-45ee-875d-57669cb49dca
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743509(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743509(v=BTS.80)
 ms:contentKeyID: 51529375
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

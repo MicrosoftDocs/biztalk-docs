@@ -2,7 +2,7 @@
 title: Base Data Type (Node Property of All Schemas)
 TOCTitle: Base Data Type (Node Property of All Schemas)
 ms:assetid: 17972a21-fe2e-4968-ab94-89f87d6b93f6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558779(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558779(v=BTS.80)
 ms:contentKeyID: 51526470
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

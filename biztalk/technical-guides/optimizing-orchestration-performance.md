@@ -339,7 +339,7 @@ public static Root SetValues(Microsoft.XLANGs.BaseTypes.XLANGMessage msg)
   
   For more information about using Orchestration exception handling blocks, see the following articles:  
   
-- [Using BizTalk Server Exception Handling](http://msdn.microsoft.com/library/aa561229.aspx) (http://msdn.microsoft.com/library/aa561229.aspx).  
+- [Using BizTalk Server Exception Handling](https://msdn.microsoft.com/library/aa561229.aspx) (https://msdn.microsoft.com/library/aa561229.aspx).  
   
 - [Charles Young Blog, BizTalk Server 2006: The Compensation Model](http://go.microsoft.com/fwlink/?LinkId=158017) (http://go.microsoft.com/fwlink/?LinkId=158017).  
   

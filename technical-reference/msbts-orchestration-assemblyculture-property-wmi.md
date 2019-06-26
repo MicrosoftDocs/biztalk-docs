@@ -2,7 +2,7 @@
 title: MSBTS_Orchestration.AssemblyCulture Property (WMI)
 TOCTitle: MSBTS_Orchestration.AssemblyCulture Property (WMI)
 ms:assetid: cbfd855d-fd2d-497b-870e-38693d8d232e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548028(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548028(v=BTS.80)
 ms:contentKeyID: 51531241
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

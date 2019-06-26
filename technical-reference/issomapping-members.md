@@ -2,7 +2,7 @@
 title: ISSOMapping Members
 TOCTitle: ISSOMapping Members
 ms:assetid: 13314982-9787-4775-b4f9-f7909ab04aef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa744736(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa744736(v=BTS.80)
 ms:contentKeyID: 51526332
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

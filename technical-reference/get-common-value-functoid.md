@@ -2,7 +2,7 @@
 title: Get Common Value Functoid
 TOCTitle: Get Common Value Functoid
 ms:assetid: 14a33cfa-e27a-41f1-82d1-d074117d8990
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558698(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558698(v=BTS.80)
 ms:contentKeyID: 51526377
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

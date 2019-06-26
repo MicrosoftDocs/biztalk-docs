@@ -2,7 +2,7 @@
 title: MSBTS_ReceivePort.PrimaryReceiveLocation Property (WMI)
 TOCTitle: MSBTS_ReceivePort.PrimaryReceiveLocation Property (WMI)
 ms:assetid: 2205327d-7cbc-4885-9ac7-491e6aed7611
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559176(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559176(v=BTS.80)
 ms:contentKeyID: 51526732
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

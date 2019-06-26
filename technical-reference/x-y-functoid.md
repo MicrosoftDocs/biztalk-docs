@@ -2,7 +2,7 @@
 title: X^Y Functoid
 TOCTitle: X^Y Functoid
 ms:assetid: 639f7d29-7610-4992-969e-25d027185f0c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560496(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560496(v=BTS.80)
 ms:contentKeyID: 51528521
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

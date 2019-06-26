@@ -2,7 +2,7 @@
 title: Listening for a Suspended Event Using WMI
 TOCTitle: Listening for a Suspended Event Using WMI
 ms:assetid: 921444a0-16df-4c7a-8029-9377c367c018
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577357(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577357(v=BTS.80)
 ms:contentKeyID: 51529724
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

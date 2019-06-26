@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.LMSThreshold Property (WMI)
 TOCTitle: MSBTS_GroupSetting.LMSThreshold Property (WMI)
 ms:assetid: 2f12dc3d-b6a9-4c2e-8d94-0d379ddf01fc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559435(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559435(v=BTS.80)
 ms:contentKeyID: 51527145
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

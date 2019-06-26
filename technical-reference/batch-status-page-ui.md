@@ -2,7 +2,7 @@
 title: Batch Status Page UI
 TOCTitle: Batch Status Page UI
 ms:assetid: d0019eb4-15c5-439b-bb7a-4a1ef3a42428
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226538(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226538(v=BTS.80)
 ms:contentKeyID: 51531368
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IPipelineContext Interface (COM)
 TOCTitle: IPipelineContext Interface (COM)
 ms:assetid: 719eba49-a7da-4bd2-a9bf-2a811ce1048a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560782(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560782(v=BTS.80)
 ms:contentKeyID: 51528887
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

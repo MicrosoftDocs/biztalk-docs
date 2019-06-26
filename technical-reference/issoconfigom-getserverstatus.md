@@ -2,7 +2,7 @@
 title: ISSOConfigOM.GetServerStatus
 TOCTitle: ISSOConfigOM.GetServerStatus
 ms:assetid: 9cbc817c-108c-4a5e-a3cf-c7f1354d80e6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705006(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705006(v=BTS.80)
 ms:contentKeyID: 51530006
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

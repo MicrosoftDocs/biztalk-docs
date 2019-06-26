@@ -2,7 +2,7 @@
 title: 'Import MSI Wizard: Application Target Environment Settings'
 TOCTitle: 'Import MSI Wizard: Application Target Environment Settings'
 ms:assetid: b0f80f12-e530-4c53-86e6-fec8417fbdd2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578134(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578134(v=BTS.80)
 ms:contentKeyID: 51530545
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

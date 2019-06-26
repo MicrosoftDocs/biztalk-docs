@@ -2,7 +2,7 @@
 title: MSBTS_SendPortGroup.Start Method (WMI)
 TOCTitle: MSBTS_SendPortGroup.Start Method (WMI)
 ms:assetid: b02594a9-5edb-4e35-b5f7-4400b48fef5a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578114(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578114(v=BTS.80)
 ms:contentKeyID: 51530515
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

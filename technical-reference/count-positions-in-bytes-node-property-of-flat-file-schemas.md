@@ -2,7 +2,7 @@
 title: Count Positions In Bytes (Node Property of Flat File Schemas)
 TOCTitle: Count Positions In Bytes (Node Property of Flat File Schemas)
 ms:assetid: 56eccdab-d4fb-4f8b-b39d-b269929b30c2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560258(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560258(v=BTS.80)
 ms:contentKeyID: 51528164
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

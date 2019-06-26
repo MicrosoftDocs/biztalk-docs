@@ -2,7 +2,7 @@
 title: Code Page (Node Property of Flat File Schemas)
 TOCTitle: Code Page (Node Property of Flat File Schemas)
 ms:assetid: 3ea69942-7642-4cd8-befe-63d170eafd4f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559740(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559740(v=BTS.80)
 ms:contentKeyID: 51527488
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

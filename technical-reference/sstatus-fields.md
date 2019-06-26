@@ -2,7 +2,7 @@
 title: SStatus Fields
 TOCTitle: SStatus Fields
 ms:assetid: 700e9052-7307-48da-8579-6a38c0d1af6e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa745405(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa745405(v=BTS.80)
 ms:contentKeyID: 51528848
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

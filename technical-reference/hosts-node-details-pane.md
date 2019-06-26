@@ -2,7 +2,7 @@
 title: Hosts Node, Details Pane
 TOCTitle: Hosts Node, Details Pane
 ms:assetid: 059b11a2-2677-4a06-a833-eb4a79e67881
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546990(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546990(v=BTS.80)
 ms:contentKeyID: 51525976
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

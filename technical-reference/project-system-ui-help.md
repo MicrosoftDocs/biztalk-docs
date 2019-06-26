@@ -2,7 +2,7 @@
 title: Project System UI Help
 TOCTitle: Project System UI Help
 ms:assetid: d3f9a849-1f2f-4f8e-8a38-e488fcbf1964
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578588(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578588(v=BTS.80)
 ms:contentKeyID: 51531472
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

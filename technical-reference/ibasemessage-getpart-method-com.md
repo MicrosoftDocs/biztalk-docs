@@ -2,7 +2,7 @@
 title: IBaseMessage.GetPart Method (COM)
 TOCTitle: IBaseMessage.GetPart Method (COM)
 ms:assetid: 4797896e-dd93-482d-a786-959240fd9522
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559912(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559912(v=BTS.80)
 ms:contentKeyID: 51527772
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IDocumentSpec.DocSpecName Property (COM)
 TOCTitle: IDocumentSpec.DocSpecName Property (COM)
 ms:assetid: a21fdd1d-04ec-4a32-9d4f-2162c786cb66
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577808(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577808(v=BTS.80)
 ms:contentKeyID: 51530127
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

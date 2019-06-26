@@ -2,7 +2,7 @@
 title: IBTTransportConfig Members (COM)
 TOCTitle: IBTTransportConfig Members (COM)
 ms:assetid: 16660b4e-a55f-4d16-94ce-4c6e9ddac1c8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558755(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558755(v=BTS.80)
 ms:contentKeyID: 51526442
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

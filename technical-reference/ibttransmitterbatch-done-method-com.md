@@ -2,7 +2,7 @@
 title: IBTTransmitterBatch.Done Method (COM)
 TOCTitle: IBTTransmitterBatch.Done Method (COM)
 ms:assetid: b3a11a9b-de6a-494a-9335-47678c20a510
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578191(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578191(v=BTS.80)
 ms:contentKeyID: 51530665
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

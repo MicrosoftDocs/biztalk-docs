@@ -2,7 +2,7 @@
 title: IBaseMessageContext.Promote Method (COM)
 TOCTitle: IBaseMessageContext.Promote Method (COM)
 ms:assetid: fd845a40-1de1-48b8-9d3e-e8ce7db91428
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562128(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562128(v=BTS.80)
 ms:contentKeyID: 51533710
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

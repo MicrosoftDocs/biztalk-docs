@@ -2,7 +2,7 @@
 title: Connect To Existing BizTalk Server Configuration Database Dialog Box
 TOCTitle: Connect To Existing BizTalk Server Configuration Database Dialog Box
 ms:assetid: db4d5e42-9e7f-40a2-b507-ebfbc51b0d5e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561408(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561408(v=BTS.80)
 ms:contentKeyID: 51531766
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

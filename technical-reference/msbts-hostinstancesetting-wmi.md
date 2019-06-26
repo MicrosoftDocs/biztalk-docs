@@ -2,7 +2,7 @@
 title: MSBTS_HostInstanceSetting (WMI)
 TOCTitle: MSBTS_HostInstanceSetting (WMI)
 ms:assetid: a3adb52f-f106-4221-8794-01ed32c50605
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577852(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577852(v=BTS.80)
 ms:contentKeyID: 51530236
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

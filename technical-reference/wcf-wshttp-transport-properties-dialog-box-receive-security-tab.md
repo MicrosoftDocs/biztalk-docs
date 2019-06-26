@@ -2,7 +2,7 @@
 title: WCF-WSHttp Transport Properties Dialog Box, Receive, Security Tab
 TOCTitle: WCF-WSHttp Transport Properties Dialog Box, Receive, Security Tab
 ms:assetid: 9358f419-92c4-43f8-9eb4-97b6c69bd1c3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226411(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226411(v=BTS.80)
 ms:contentKeyID: 51529755
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBTTransmitterBatch.BeginBatch Method (COM)
 TOCTitle: IBTTransmitterBatch.BeginBatch Method (COM)
 ms:assetid: 84cdad96-142d-40ea-b640-b310dd31dab8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561157(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561157(v=BTS.80)
 ms:contentKeyID: 51529386
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveHandler (WMI)
 TOCTitle: MSBTS_ReceiveHandler (WMI)
 ms:assetid: 1c04de0e-b85d-4e1a-ad18-bd625f05e025
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559071(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559071(v=BTS.80)
 ms:contentKeyID: 51526580
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

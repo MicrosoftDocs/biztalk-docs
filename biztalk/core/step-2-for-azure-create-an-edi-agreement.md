@@ -21,7 +21,7 @@ In this topic, you will create partners using the Azure BizTalk portal available
   
 1.  Using your Microsoft account, log into the portal at [http://go.microsoft.com/fwlink/p/?LinkId=235056](http://go.microsoft.com/fwlink/p/?LinkId=235056).  
   
-2.  Create a partner for Northwind. Follow the steps at [Partners and Profiles](http://msdn.microsoft.com/library/windowsazure/hh689791) to create a partner.  
+2.  Create a partner for Northwind. Follow the steps at [Partners and Profiles](https://msdn.microsoft.com/library/windowsazure/hh689791) to create a partner.  
   
     > [!IMPORTANT]
     >  Mark this partner as the managed partner.  

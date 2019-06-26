@@ -2,7 +2,7 @@
 title: Minimum Input Parameters (Functoid Property)
 TOCTitle: Minimum Input Parameters (Functoid Property)
 ms:assetid: 45238013-9ffa-4e46-b559-fee1d0b5e2d6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559854(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559854(v=BTS.80)
 ms:contentKeyID: 51527654
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

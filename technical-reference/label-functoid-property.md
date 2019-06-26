@@ -2,7 +2,7 @@
 title: Label (Functoid Property)
 TOCTitle: Label (Functoid Property)
 ms:assetid: 1677ba7d-56da-4ebb-9d0d-8cde865aad71
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558756(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558756(v=BTS.80)
 ms:contentKeyID: 51526444
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

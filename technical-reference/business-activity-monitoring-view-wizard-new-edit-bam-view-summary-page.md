@@ -2,7 +2,7 @@
 title: 'Business Activity Monitoring View Wizard, New-Edit BAM View: Summary Page'
 TOCTitle: 'Business Activity Monitoring View Wizard, New-Edit BAM View: Summary Page'
 ms:assetid: 24bbc302-2623-4670-83c9-8c49cd88c328
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559230(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559230(v=BTS.80)
 ms:contentKeyID: 51526824
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

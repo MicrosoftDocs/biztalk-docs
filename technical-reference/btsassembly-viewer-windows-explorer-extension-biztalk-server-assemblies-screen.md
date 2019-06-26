@@ -2,7 +2,7 @@
 title: BTSAssembly Viewer Windows Explorer Extension, BizTalk Server Assemblies Screen
 TOCTitle: BTSAssembly Viewer Windows Explorer Extension, BizTalk Server Assemblies Screen
 ms:assetid: 21ea6411-276e-4d3d-8fed-7b2de24251e4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559172(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559172(v=BTS.80)
 ms:contentKeyID: 51526727
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

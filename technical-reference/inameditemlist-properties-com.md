@@ -2,7 +2,7 @@
 title: INamedItemList Properties (COM)
 TOCTitle: INamedItemList Properties (COM)
 ms:assetid: 119867c3-5656-457d-b0be-f9a271ee23eb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547593(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547593(v=BTS.80)
 ms:contentKeyID: 51526335
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

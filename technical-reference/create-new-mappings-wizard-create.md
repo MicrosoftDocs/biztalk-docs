@@ -2,7 +2,7 @@
 title: 'Create New Mappings Wizard: Create'
 TOCTitle: 'Create New Mappings Wizard: Create'
 ms:assetid: 8ef23785-46d3-4ec5-b634-0f216cb0446e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743567(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743567(v=BTS.80)
 ms:contentKeyID: 51529639
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

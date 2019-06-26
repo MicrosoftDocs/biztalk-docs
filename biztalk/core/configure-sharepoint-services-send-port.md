@@ -116,7 +116,7 @@ This topic compares a Static Send Port with a Dynamic Send Port and also lists t
 
    - **Separate orchestrations**: Individual orchestrations can be in their own host. For example, if an orchestration uses high memory or high CPU, then put that orchestration into its own host.  
 
-     [BizTalk Server Performance Optimization Guide](http://msdn.microsoft.com/library/dn775063\(v=bts.10\).aspx) and [How to maintain and troubleshoot BizTalk Server databases](http://support.microsoft.com/kb/952555) provide performance suggestions.  
+     [BizTalk Server Performance Optimization Guide](https://msdn.microsoft.com/library/dn775063\(v=bts.10\).aspx) and [How to maintain and troubleshoot BizTalk Server databases](http://support.microsoft.com/kb/952555) provide performance suggestions.  
 
 5. Click **OK** save the settings.  
 

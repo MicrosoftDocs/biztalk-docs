@@ -2,7 +2,7 @@
 title: ISSOLookup2.LogonExternalUser Method
 TOCTitle: ISSOLookup2.LogonExternalUser Method
 ms:assetid: 0faa99de-77b7-4583-8284-57f609e707d9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa744687(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa744687(v=BTS.80)
 ms:contentKeyID: 51526261
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

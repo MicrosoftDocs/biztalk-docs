@@ -2,7 +2,7 @@
 title: MSBTS_ServiceInstance.InstanceID Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.InstanceID Property (WMI)
 ms:assetid: 587ae471-50ef-4f43-9f88-f2c434c29e40
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560279(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560279(v=BTS.80)
 ms:contentKeyID: 51528206
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

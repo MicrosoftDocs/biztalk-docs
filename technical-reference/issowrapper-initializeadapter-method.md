@@ -2,7 +2,7 @@
 title: ISSOWrapper.InitializeAdapter Method
 TOCTitle: ISSOWrapper.InitializeAdapter Method
 ms:assetid: 70c6acf1-98a7-486c-bb97-3cb1200b7616
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa745416(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa745416(v=BTS.80)
 ms:contentKeyID: 51528862
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

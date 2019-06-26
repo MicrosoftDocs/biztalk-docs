@@ -2,7 +2,7 @@
 title: MSBTS_DeploymentService.Remove Method (WMI)
 TOCTitle: MSBTS_DeploymentService.Remove Method (WMI)
 ms:assetid: d9bccd96-e5b7-41ff-868e-95429bccd452
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578710(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578710(v=BTS.80)
 ms:contentKeyID: 51531662
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -51,7 +51,7 @@ This parameter is ignored. Whether **true** or **false**, the assembly will not 
 
 
 > [!NOTE]
-> <P>To properly uninstall an assembly from the GAC, refer to <A href="https://msdn.microsoft.com/en-us/library/aa559881(v=bts.80)">How to Uninstall an Assembly from the GAC</A>.</P>
+> <P>To properly uninstall an assembly from the GAC, refer to <A href="https://msdn.microsoft.com/library/aa559881(v=bts.80)">How to Uninstall an Assembly from the GAC</A>.</P>
 
 
 

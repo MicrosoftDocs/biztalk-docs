@@ -2,7 +2,7 @@
 title: Instance XPath (Node Property of All Schemas)
 TOCTitle: Instance XPath (Node Property of All Schemas)
 ms:assetid: 46464980-8e70-4c8e-bf71-5b9fa3094807
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559880(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559880(v=BTS.80)
 ms:contentKeyID: 51527735
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

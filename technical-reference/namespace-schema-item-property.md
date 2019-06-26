@@ -2,7 +2,7 @@
 title: Namespace (Schema Item Property)
 TOCTitle: Namespace (Schema Item Property)
 ms:assetid: 750a8260-1cfb-4997-b8ed-b62359d40fc3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560842(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560842(v=BTS.80)
 ms:contentKeyID: 51528973
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

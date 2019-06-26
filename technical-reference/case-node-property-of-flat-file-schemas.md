@@ -2,7 +2,7 @@
 title: Case (Node Property of Flat File Schemas)
 TOCTitle: Case (Node Property of Flat File Schemas)
 ms:assetid: ea52fb87-d08d-4265-984b-d71123f51724
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561721(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561721(v=BTS.80)
 ms:contentKeyID: 51533141
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Wrap Character Type (Node Property of Flat File Schemas)
 TOCTitle: Wrap Character Type (Node Property of Flat File Schemas)
 ms:assetid: 650d45fd-3afd-44f0-a828-d212168b6d4b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560522(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560522(v=BTS.80)
 ms:contentKeyID: 51528535
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

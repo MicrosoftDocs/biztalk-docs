@@ -2,7 +2,7 @@
 title: Import MSI Wizard, Application Settings Page
 TOCTitle: Import MSI Wizard, Application Settings Page
 ms:assetid: 4555894a-95d7-4d65-97a6-953c95f441dc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559858(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559858(v=BTS.80)
 ms:contentKeyID: 51527712
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: SAdapterInGroup Members
 TOCTitle: SAdapterInGroup Members
 ms:assetid: 2966e0db-10a4-4c06-9495-18e40e73b2e9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa745038(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa745038(v=BTS.80)
 ms:contentKeyID: 51526973
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

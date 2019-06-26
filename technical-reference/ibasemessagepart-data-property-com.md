@@ -2,7 +2,7 @@
 title: IBaseMessagePart.Data Property (COM)
 TOCTitle: IBaseMessagePart.Data Property (COM)
 ms:assetid: 463b8e0c-2fe5-4ac0-acc6-893f6ec0be98
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559876(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559876(v=BTS.80)
 ms:contentKeyID: 51527674
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

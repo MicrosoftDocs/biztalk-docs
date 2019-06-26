@@ -2,7 +2,7 @@
 title: System
 TOCTitle: System
 ms:assetid: e40d2ecd-3109-44d7-9ddd-b0b9191013b3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561594(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561594(v=BTS.80)
 ms:contentKeyID: 51532971
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

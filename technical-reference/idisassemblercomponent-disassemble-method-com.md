@@ -2,7 +2,7 @@
 title: IDisassemblerComponent.Disassemble Method (COM)
 TOCTitle: IDisassemblerComponent.Disassemble Method (COM)
 ms:assetid: 61ad5f2a-26d8-4f47-89f3-549a267db554
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560463(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560463(v=BTS.80)
 ms:contentKeyID: 51528457
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

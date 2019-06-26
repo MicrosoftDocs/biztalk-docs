@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, WCF Extensions Tab (WCF-Custom Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, WCF Extensions Tab (WCF-Custom Adapter Send Handler)
 ms:assetid: 70fa616b-e6a8-42a6-a2bd-6bc0802d7f6a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629732(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629732(v=BTS.80)
 ms:contentKeyID: 51528864
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

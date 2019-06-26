@@ -2,7 +2,7 @@
 title: Loop Shape
 TOCTitle: Loop Shape
 ms:assetid: 64c78fb6-44b0-4a48-ad8a-c4e7775328f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560517(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560517(v=BTS.80)
 ms:contentKeyID: 51528523
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

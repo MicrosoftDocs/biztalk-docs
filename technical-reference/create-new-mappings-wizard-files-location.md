@@ -2,7 +2,7 @@
 title: 'Create New Mappings Wizard: Files Location'
 TOCTitle: 'Create New Mappings Wizard: Files Location'
 ms:assetid: 336a5685-3944-4321-a18c-8583c7f18f6c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb727764(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb727764(v=BTS.80)
 ms:contentKeyID: 51527258
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

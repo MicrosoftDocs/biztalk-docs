@@ -2,7 +2,7 @@
 title: IBaseMessageFactory.CreatePropertyBag Method (COM)
 TOCTitle: IBaseMessageFactory.CreatePropertyBag Method (COM)
 ms:assetid: f8861750-ae0d-4076-9e24-92fd0ed8e732
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562015(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562015(v=BTS.80)
 ms:contentKeyID: 51533515
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

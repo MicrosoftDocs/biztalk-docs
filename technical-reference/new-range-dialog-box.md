@@ -2,7 +2,7 @@
 title: New Range Dialog Box
 TOCTitle: New Range Dialog Box
 ms:assetid: 787ee9d1-1a5a-4763-a8f0-f982b6943eff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560909(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560909(v=BTS.80)
 ms:contentKeyID: 51529060
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

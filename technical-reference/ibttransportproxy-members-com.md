@@ -2,7 +2,7 @@
 title: IBTTransportProxy Members (COM)
 TOCTitle: IBTTransportProxy Members (COM)
 ms:assetid: 38bece0f-bc57-494b-b31d-c8f5af90bd90
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559618(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559618(v=BTS.80)
 ms:contentKeyID: 51527327
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

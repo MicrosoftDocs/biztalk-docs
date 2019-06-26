@@ -2,7 +2,7 @@
 title: Common Logarithm Functoid
 TOCTitle: Common Logarithm Functoid
 ms:assetid: ef606a06-b666-4901-acd8-77fa99a4991a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561818(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561818(v=BTS.80)
 ms:contentKeyID: 51533270
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

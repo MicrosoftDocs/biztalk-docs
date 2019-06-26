@@ -2,7 +2,7 @@
 title: IPipelineContext.StageIndex Property (COM)
 TOCTitle: IPipelineContext.StageIndex Property (COM)
 ms:assetid: 7472420e-217b-4dca-a2a2-a2f78d3df186
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560831(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560831(v=BTS.80)
 ms:contentKeyID: 51528949
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

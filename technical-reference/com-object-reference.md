@@ -2,7 +2,7 @@
 title: COM Object Reference
 TOCTitle: COM Object Reference
 ms:assetid: 4ea1e9b7-ed89-4095-8773-37718e93660a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560078(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560078(v=BTS.80)
 ms:contentKeyID: 51527930
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

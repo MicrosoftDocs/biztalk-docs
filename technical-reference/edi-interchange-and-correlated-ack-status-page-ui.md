@@ -2,7 +2,7 @@
 title: EDI Interchange and Correlated ACK Status Page UI
 TOCTitle: EDI Interchange and Correlated ACK Status Page UI
 ms:assetid: 9edaf8b6-80ce-414b-967d-476e1930c342
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226437(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226437(v=BTS.80)
 ms:contentKeyID: 51530075
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: BizTalk Editor UI Help
 TOCTitle: BizTalk Editor UI Help
 ms:assetid: 7ea2b812-8b81-4705-8370-2b4aa6b7cbb8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561034(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561034(v=BTS.80)
 ms:contentKeyID: 51529224
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Group Order Type (Node Property of All Schemas)
 TOCTitle: Group Order Type (Node Property of All Schemas)
 ms:assetid: 9f495e5b-6552-48e3-8995-984d9757308d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577641(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577641(v=BTS.80)
 ms:contentKeyID: 51530088
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

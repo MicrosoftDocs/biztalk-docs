@@ -2,7 +2,7 @@
 title: IBaseComponent.Version Property (COM)
 TOCTitle: IBaseComponent.Version Property (COM)
 ms:assetid: 41d78d01-4fe8-4e76-8262-2c17330fd710
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559795(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559795(v=BTS.80)
 ms:contentKeyID: 51527613
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IComponentUI.Icon Property (COM)
 TOCTitle: IComponentUI.Icon Property (COM)
 ms:assetid: 4ad8b610-4b75-451d-9452-c5fe69fdc1b1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559986(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559986(v=BTS.80)
 ms:contentKeyID: 51527842
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

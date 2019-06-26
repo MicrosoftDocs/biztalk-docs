@@ -2,7 +2,7 @@
 title: SPasswordChangeComplete Members
 TOCTitle: SPasswordChangeComplete Members
 ms:assetid: 79598417-1ef9-4ddf-9e74-5fd73a813d24
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa704731(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa704731(v=BTS.80)
 ms:contentKeyID: 51529080
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

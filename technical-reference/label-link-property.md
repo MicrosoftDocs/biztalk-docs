@@ -2,7 +2,7 @@
 title: Label (Link Property)
 TOCTitle: Label (Link Property)
 ms:assetid: 1565c75f-fea9-48ec-b8f3-cb903929937a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558714(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558714(v=BTS.80)
 ms:contentKeyID: 51526421
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

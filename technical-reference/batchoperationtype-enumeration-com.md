@@ -2,7 +2,7 @@
 title: _BatchOperationType Enumeration (COM)
 TOCTitle: _BatchOperationType Enumeration (COM)
 ms:assetid: b12c20fd-9f2b-4ba3-92b5-3e57d7eaaa07
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578139(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578139(v=BTS.80)
 ms:contentKeyID: 51530604
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

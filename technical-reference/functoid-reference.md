@@ -2,7 +2,7 @@
 title: Functoid Reference
 TOCTitle: Functoid Reference
 ms:assetid: ed56b236-3663-4a20-a2ea-14e4a4492bf8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561783(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561783(v=BTS.80)
 ms:contentKeyID: 51533249
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

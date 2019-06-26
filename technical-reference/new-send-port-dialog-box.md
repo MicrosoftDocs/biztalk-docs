@@ -2,7 +2,7 @@
 title: New Send Port Dialog Box
 TOCTitle: New Send Port Dialog Box
 ms:assetid: 30d44a0e-01ce-460d-9667-ec200218bb37
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559468(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559468(v=BTS.80)
 ms:contentKeyID: 51527117
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

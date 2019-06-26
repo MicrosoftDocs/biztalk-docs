@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstance.InboundAdapterName Property (WMI)
 TOCTitle: MSBTS_MessageInstance.InboundAdapterName Property (WMI)
 ms:assetid: fd15d785-c49d-4e0e-86d5-8d204131b1c3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562117(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562117(v=BTS.80)
 ms:contentKeyID: 51533682
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

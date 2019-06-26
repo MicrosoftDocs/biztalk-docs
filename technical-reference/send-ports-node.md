@@ -2,7 +2,7 @@
 title: Send Ports Node
 TOCTitle: Send Ports Node
 ms:assetid: 8fd747c8-b69e-4a31-b201-03510f91c918
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561362(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561362(v=BTS.80)
 ms:contentKeyID: 51529660
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Terminate Shape
 TOCTitle: Terminate Shape
 ms:assetid: 5d3be1ec-47cb-46bc-9748-47dcd92d396c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560381(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560381(v=BTS.80)
 ms:contentKeyID: 51528339
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

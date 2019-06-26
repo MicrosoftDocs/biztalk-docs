@@ -2,7 +2,7 @@
 title: IBaseMessageContext.IsPromoted Method (COM)
 TOCTitle: IBaseMessageContext.IsPromoted Method (COM)
 ms:assetid: 48b76ff7-f945-4dfb-9e3d-58a1276e3d16
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559933(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559933(v=BTS.80)
 ms:contentKeyID: 51527749
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

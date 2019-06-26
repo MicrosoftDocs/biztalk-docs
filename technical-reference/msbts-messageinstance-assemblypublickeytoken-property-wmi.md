@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstance.AssemblyPublicKeyToken Property (WMI)
 TOCTitle: MSBTS_MessageInstance.AssemblyPublicKeyToken Property (WMI)
 ms:assetid: 712c7fc8-676a-4e3f-9acf-afa149718b34
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560770(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560770(v=BTS.80)
 ms:contentKeyID: 51528867
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

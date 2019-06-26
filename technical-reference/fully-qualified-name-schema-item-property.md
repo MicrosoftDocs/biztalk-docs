@@ -2,7 +2,7 @@
 title: Fully Qualified Name (Schema Item Property)
 TOCTitle: Fully Qualified Name (Schema Item Property)
 ms:assetid: 193a0312-661d-4cef-bd23-4aab346542ef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559007(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559007(v=BTS.80)
 ms:contentKeyID: 51526498
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

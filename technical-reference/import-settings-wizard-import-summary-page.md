@@ -2,7 +2,7 @@
 title: Import Settings Wizard, Import Summary Page
 TOCTitle: Import Settings Wizard, Import Summary Page
 ms:assetid: 508f1361-bd31-41b2-842b-9d2aa68ac701
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629717(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629717(v=BTS.80)
 ms:contentKeyID: 51527995
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

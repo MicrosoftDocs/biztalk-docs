@@ -2,7 +2,7 @@
 title: IBaseMessage.BodyPartName Property (COM)
 TOCTitle: IBaseMessage.BodyPartName Property (COM)
 ms:assetid: 2d4a3c71-8385-45f7-b214-c7108b95b67a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559394(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559394(v=BTS.80)
 ms:contentKeyID: 51527014
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

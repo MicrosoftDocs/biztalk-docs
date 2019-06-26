@@ -2,7 +2,7 @@
 title: Content Type (Node Property of All Schemas)
 TOCTitle: Content Type (Node Property of All Schemas)
 ms:assetid: db67f54d-cb33-4a25-9893-8ddbca7f3fe2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561409(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561409(v=BTS.80)
 ms:contentKeyID: 51531702
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

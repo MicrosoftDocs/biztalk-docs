@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.XlangMaxReceiveInterval Property (WMI)
 TOCTitle: MSBTS_HostSetting.XlangMaxReceiveInterval Property (WMI)
 ms:assetid: 5e6a5762-49f7-4db3-b07d-9d8c13de320f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678629(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678629(v=BTS.80)
 ms:contentKeyID: 51528378
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

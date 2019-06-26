@@ -2,7 +2,7 @@
 title: Greater Than Functoid
 TOCTitle: Greater Than Functoid
 ms:assetid: 3573241d-d7ef-4be4-beb5-7c49fe7815e2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559558(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559558(v=BTS.80)
 ms:contentKeyID: 51527252
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

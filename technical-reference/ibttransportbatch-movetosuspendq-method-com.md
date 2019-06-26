@@ -2,7 +2,7 @@
 title: IBTTransportBatch.MoveToSuspendQ Method (COM)
 TOCTitle: IBTTransportBatch.MoveToSuspendQ Method (COM)
 ms:assetid: d20040f1-9194-4d51-98eb-55229a1e9d01
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578551(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578551(v=BTS.80)
 ms:contentKeyID: 51531538
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

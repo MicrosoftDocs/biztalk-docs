@@ -2,7 +2,7 @@
 title: Subtraction Functoid
 TOCTitle: Subtraction Functoid
 ms:assetid: 188efc20-0c07-4d32-86af-ec0854d641a5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558800(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558800(v=BTS.80)
 ms:contentKeyID: 51526503
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

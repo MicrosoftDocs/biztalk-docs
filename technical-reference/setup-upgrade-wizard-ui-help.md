@@ -2,7 +2,7 @@
 title: Setup & Upgrade Wizard UI Help
 TOCTitle: Setup & Upgrade Wizard UI Help
 ms:assetid: 3624bf2d-ed9c-4a37-8837-03106073af77
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559574(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559574(v=BTS.80)
 ms:contentKeyID: 51527329
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

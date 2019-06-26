@@ -2,7 +2,7 @@
 title: Doctype Public (Grid Property)
 TOCTitle: Doctype Public (Grid Property)
 ms:assetid: 99fd3833-deef-4d7c-a1fd-8cf033426dd6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577506(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577506(v=BTS.80)
 ms:contentKeyID: 51529936
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

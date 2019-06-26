@@ -2,7 +2,7 @@
 title: IBaseMessageFactory Methods (COM)
 TOCTitle: IBaseMessageFactory Methods (COM)
 ms:assetid: a3c50e3b-1ab4-40f3-b945-34c0ca8b3833
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577853(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577853(v=BTS.80)
 ms:contentKeyID: 51530183
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

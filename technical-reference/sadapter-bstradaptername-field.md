@@ -2,7 +2,7 @@
 title: SAdapter.bstrAdapterName Field
 TOCTitle: SAdapter.bstrAdapterName Field
 ms:assetid: aa93d291-eb47-47cc-af08-171a765f14eb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa746032(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa746032(v=BTS.80)
 ms:contentKeyID: 51530363
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

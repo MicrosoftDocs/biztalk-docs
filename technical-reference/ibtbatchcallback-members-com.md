@@ -2,7 +2,7 @@
 title: IBTBatchCallBack Members (COM)
 TOCTitle: IBTBatchCallBack Members (COM)
 ms:assetid: ce61f6f4-533c-48fa-8116-00fd7e6e2166
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578483(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578483(v=BTS.80)
 ms:contentKeyID: 51531441
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

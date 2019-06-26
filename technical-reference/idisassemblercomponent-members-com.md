@@ -2,7 +2,7 @@
 title: IDisassemblerComponent Members (COM)
 TOCTitle: IDisassemblerComponent Members (COM)
 ms:assetid: 9b7807ec-92e9-48ce-a461-6331fa9a2f09
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577546(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577546(v=BTS.80)
 ms:contentKeyID: 51529928
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

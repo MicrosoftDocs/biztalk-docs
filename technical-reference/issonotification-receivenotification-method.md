@@ -2,7 +2,7 @@
 title: ISSONotification.ReceiveNotification Method
 TOCTitle: ISSONotification.ReceiveNotification Method
 ms:assetid: 3de270b8-6548-4c4b-9da7-de2043d77f98
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa770717(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa770717(v=BTS.80)
 ms:contentKeyID: 51527527
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

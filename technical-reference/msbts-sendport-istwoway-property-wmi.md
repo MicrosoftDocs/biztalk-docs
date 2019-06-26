@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.IsTwoWay Property (WMI)
 TOCTitle: MSBTS_SendPort.IsTwoWay Property (WMI)
 ms:assetid: 9e7b8ddc-30e6-46ed-91e8-a3a8cdfd8304
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577614(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577614(v=BTS.80)
 ms:contentKeyID: 51530063
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

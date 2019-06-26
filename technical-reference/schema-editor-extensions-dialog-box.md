@@ -2,7 +2,7 @@
 title: Schema Editor Extensions Dialog Box
 TOCTitle: Schema Editor Extensions Dialog Box
 ms:assetid: 18f15b2c-e613-482b-ba32-493a40e97cf0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558809(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558809(v=BTS.80)
 ms:contentKeyID: 51526490
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

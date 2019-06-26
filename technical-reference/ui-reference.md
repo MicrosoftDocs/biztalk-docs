@@ -2,7 +2,7 @@
 title: UI Reference
 TOCTitle: UI Reference
 ms:assetid: b5bd5906-222c-4130-b13a-579713c8ff27
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578235(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578235(v=BTS.80)
 ms:contentKeyID: 51530723
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

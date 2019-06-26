@@ -2,7 +2,7 @@
 title: listOfIDXRef Document
 TOCTitle: listOfIDXRef Document
 ms:assetid: cb319c04-aac1-4281-9585-30bcb996ece3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548010(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548010(v=BTS.80)
 ms:contentKeyID: 51531328
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

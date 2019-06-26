@@ -2,7 +2,7 @@
 title: WMI Script Samples
 TOCTitle: WMI Script Samples
 ms:assetid: 8729f343-e424-4e84-86ae-bdffb534c4cc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561208(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561208(v=BTS.80)
 ms:contentKeyID: 51529453
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

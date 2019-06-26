@@ -2,7 +2,7 @@
 title: MSBTS_SendHandler.CustomCfg Property (WMI)
 TOCTitle: MSBTS_SendHandler.CustomCfg Property (WMI)
 ms:assetid: 91688ee0-8715-41be-b02a-adf386e5e090
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561390(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561390(v=BTS.80)
 ms:contentKeyID: 51529705
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

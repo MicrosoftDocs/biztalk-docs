@@ -2,7 +2,7 @@
 title: MSBTS_Setting (WMI)
 TOCTitle: MSBTS_Setting (WMI)
 ms:assetid: 1a3b6d20-ae8a-49ba-89a9-e927f5c4d34c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559031(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559031(v=BTS.80)
 ms:contentKeyID: 51526532
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

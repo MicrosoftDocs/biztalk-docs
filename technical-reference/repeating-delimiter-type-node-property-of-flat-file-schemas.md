@@ -2,7 +2,7 @@
 title: Repeating Delimiter Type (Node Property of Flat File Schemas)
 TOCTitle: Repeating Delimiter Type (Node Property of Flat File Schemas)
 ms:assetid: 99852a46-ef7a-48a5-b4ff-d76a24e34c50
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577494(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577494(v=BTS.80)
 ms:contentKeyID: 51529878
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

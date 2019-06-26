@@ -2,7 +2,7 @@
 title: Delay Shape
 TOCTitle: Delay Shape
 ms:assetid: b29c5dbf-2f8b-4e26-bc1a-4f93a139846d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578173(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578173(v=BTS.80)
 ms:contentKeyID: 51530583
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

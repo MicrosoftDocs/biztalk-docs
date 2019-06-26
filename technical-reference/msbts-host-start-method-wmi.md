@@ -2,7 +2,7 @@
 title: MSBTS_Host.Start Method (WMI)
 TOCTitle: MSBTS_Host.Start Method (WMI)
 ms:assetid: b4f439b6-de26-4adb-9497-3b4140c6acf2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578217(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578217(v=BTS.80)
 ms:contentKeyID: 51530696
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_ServiceInstance.AssemblyName Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.AssemblyName Property (WMI)
 ms:assetid: ec31ef06-3cc7-46dd-a787-112e88f4e48b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561760(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561760(v=BTS.80)
 ms:contentKeyID: 51533196
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

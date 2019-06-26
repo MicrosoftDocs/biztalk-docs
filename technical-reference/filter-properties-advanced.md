@@ -2,7 +2,7 @@
 title: 'Filter Properties: Advanced'
 TOCTitle: 'Filter Properties: Advanced'
 ms:assetid: 9f4fde39-6e6b-4a9b-bd3b-5c1610fb6906
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743621(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743621(v=BTS.80)
 ms:contentKeyID: 51530090
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

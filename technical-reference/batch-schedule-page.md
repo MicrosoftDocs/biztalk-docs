@@ -2,7 +2,7 @@
 title: Batch Schedule Page
 TOCTitle: Batch Schedule Page
 ms:assetid: 370b8792-3578-4df6-9f63-6d9defc3f850
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd224416(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd224416(v=BTS.80)
 ms:contentKeyID: 51527347
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

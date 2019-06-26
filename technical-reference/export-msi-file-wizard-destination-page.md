@@ -2,7 +2,7 @@
 title: Export MSI File Wizard, Destination Page
 TOCTitle: Export MSI File Wizard, Destination Page
 ms:assetid: 9e0294ff-37ef-4f6c-82eb-c303203af655
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577598(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577598(v=BTS.80)
 ms:contentKeyID: 51529993
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Supplemental Node Properties for Property Schemas
 TOCTitle: Supplemental Node Properties for Property Schemas
 ms:assetid: 08a7aa68-be69-4ac0-8bc0-910896debf22
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547092(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547092(v=BTS.80)
 ms:contentKeyID: 51526049
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

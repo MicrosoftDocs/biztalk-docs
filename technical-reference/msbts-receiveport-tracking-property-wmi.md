@@ -2,7 +2,7 @@
 title: MSBTS_ReceivePort.Tracking Property (WMI)
 TOCTitle: MSBTS_ReceivePort.Tracking Property (WMI)
 ms:assetid: b96f44e5-f1fc-4cca-b467-fc1119079639
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578309(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578309(v=BTS.80)
 ms:contentKeyID: 51530788
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

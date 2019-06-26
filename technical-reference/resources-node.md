@@ -2,7 +2,7 @@
 title: Resources Node
 TOCTitle: Resources Node
 ms:assetid: 29583596-e342-4548-8023-5d2e5506deaf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559318(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559318(v=BTS.80)
 ms:contentKeyID: 51526900
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

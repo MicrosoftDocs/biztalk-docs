@@ -2,7 +2,7 @@
 title: XML Definition Page
 TOCTitle: XML Definition Page
 ms:assetid: 36e41aca-e4e1-4d8c-bf35-13498f098023
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559592(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559592(v=BTS.80)
 ms:contentKeyID: 51527288
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

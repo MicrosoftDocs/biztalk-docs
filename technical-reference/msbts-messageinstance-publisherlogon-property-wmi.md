@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstance.PublisherLogon Property (WMI)
 TOCTitle: MSBTS_MessageInstance.PublisherLogon Property (WMI)
 ms:assetid: a49192f3-4c0e-4bc8-bc03-d103dd83b58f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577865(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577865(v=BTS.80)
 ms:contentKeyID: 51530256
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

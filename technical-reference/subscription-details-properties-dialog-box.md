@@ -2,7 +2,7 @@
 title: Subscription Details Properties Dialog Box
 TOCTitle: Subscription Details Properties Dialog Box
 ms:assetid: 22ed4779-bb6c-473e-805c-18e82361bb98
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559194(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559194(v=BTS.80)
 ms:contentKeyID: 51526798
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

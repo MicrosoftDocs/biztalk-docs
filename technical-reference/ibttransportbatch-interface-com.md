@@ -2,7 +2,7 @@
 title: IBTTransportBatch Interface (COM)
 TOCTitle: IBTTransportBatch Interface (COM)
 ms:assetid: 8421b25f-b830-4b93-a03a-403574c9a6c7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561148(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561148(v=BTS.80)
 ms:contentKeyID: 51529378
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Configuration Wizard, Consolidated Databases View Page
 TOCTitle: Configuration Wizard, Consolidated Databases View Page
 ms:assetid: 54e145db-5770-4c82-8823-c6c5f1d20b32
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560208(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560208(v=BTS.80)
 ms:contentKeyID: 51528115
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

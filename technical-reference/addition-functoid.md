@@ -2,7 +2,7 @@
 title: Addition Functoid
 TOCTitle: Addition Functoid
 ms:assetid: 5d78afdb-99e4-4ec3-826a-9bfbc0b5b358
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560388(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560388(v=BTS.80)
 ms:contentKeyID: 51528340
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

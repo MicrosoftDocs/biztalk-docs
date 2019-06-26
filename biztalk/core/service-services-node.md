@@ -26,7 +26,7 @@ The Service node of a binding file contains information about a service exported
 |--------------|-------------------|-------------------|---------------------|----------------------|------------------|  
 |Name|Attribute|xs:string|Specifies the name of the service.|Required|Default value: empty|  
 |State|Attribute|ServiceRefState (SimpleType)|Specifies the state of the service.|Required|Default value: Default<br /><br /> Possible values include:<br /><br /> -   Default<br />-   Unenlisted<br />-   Enlisted<br />-   Started|  
-|TrackingOption|Attribute|OrchestrationTrackingTypes (SimpleType)|Specifies the message tracking options for the service.|Required|Default value: none<br /><br /> Possible values include those available in the [Microsoft.BizTalk.ExplorerOM.OrchestrationTrackingTypes](http://msdn.microsoft.com/library/microsoft.biztalk.explorerom.orchestrationtrackingtypes.aspx) enumeration.|  
+|TrackingOption|Attribute|OrchestrationTrackingTypes (SimpleType)|Specifies the message tracking options for the service.|Required|Default value: none<br /><br /> Possible values include those available in the [Microsoft.BizTalk.ExplorerOM.OrchestrationTrackingTypes](https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.orchestrationtrackingtypes.aspx) enumeration.|  
 |Description|Attribute|xs:string|Specifies a description for the service.|Not required|Default value: empty|  
 |[Ports](../core/ports-service-node.md)|Record|ArrayOfServicePortRef (ComplexType)|Container node for the ports bound to the service.|Not required|Default value: none|  
 |[Roles](../core/roles-service-node.md)|Record|ArrayOfRoleRef (ComplexType)|Container node for the roles bound to the service.|Not required|Default value: none|  

@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, Properties Tab (SMTP Adapter)
 TOCTitle: <Host Name> Properties Dialog Box, Properties Tab (SMTP Adapter)
 ms:assetid: a4e09d76-8304-4eb1-b23e-0dd2fe7b9388
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577870(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577870(v=BTS.80)
 ms:contentKeyID: 51530204
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

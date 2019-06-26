@@ -2,7 +2,7 @@
 title: WCF-BasicHttp Transport Properties Dialog Box, Receive, Binding Tab
 TOCTitle: WCF-BasicHttp Transport Properties Dialog Box, Receive, Binding Tab
 ms:assetid: bd29d41c-3c83-447d-a01e-310ea3467905
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226498(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226498(v=BTS.80)
 ms:contentKeyID: 51530964
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBTTransportBatch.DeleteMessage Method (COM)
 TOCTitle: IBTTransportBatch.DeleteMessage Method (COM)
 ms:assetid: c556ef11-2db1-4d2e-ae84-e0300ab6ec86
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547897(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547897(v=BTS.80)
 ms:contentKeyID: 51531054
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

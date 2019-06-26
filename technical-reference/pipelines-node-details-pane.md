@@ -2,7 +2,7 @@
 title: Pipelines Node, Details Pane
 TOCTitle: Pipelines Node, Details Pane
 ms:assetid: 8ff897fc-c8a4-4bf8-8d2f-dd03484f2996
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561365(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561365(v=BTS.80)
 ms:contentKeyID: 51529665
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

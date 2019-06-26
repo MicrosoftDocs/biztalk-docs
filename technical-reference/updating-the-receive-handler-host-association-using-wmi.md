@@ -2,7 +2,7 @@
 title: Updating the Receive Handler Host Association Using WMI
 TOCTitle: Updating the Receive Handler Host Association Using WMI
 ms:assetid: 4de658e6-bbb4-4488-b80b-6ebdc0f72a21
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560066(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560066(v=BTS.80)
 ms:contentKeyID: 51527924
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

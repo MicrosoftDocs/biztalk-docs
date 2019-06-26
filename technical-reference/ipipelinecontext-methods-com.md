@@ -2,7 +2,7 @@
 title: IPipelineContext Methods (COM)
 TOCTitle: IPipelineContext Methods (COM)
 ms:assetid: 4712ed24-b788-4b04-8c57-6a61224b1f2c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559897(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559897(v=BTS.80)
 ms:contentKeyID: 51527704
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

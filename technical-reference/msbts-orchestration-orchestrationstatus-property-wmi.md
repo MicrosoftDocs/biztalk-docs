@@ -2,7 +2,7 @@
 title: MSBTS_Orchestration.OrchestrationStatus Property (WMI)
 TOCTitle: MSBTS_Orchestration.OrchestrationStatus Property (WMI)
 ms:assetid: bbe48cdb-e3d6-479c-b908-fc25d8d85632
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578351(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578351(v=BTS.80)
 ms:contentKeyID: 51530848
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

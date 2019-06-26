@@ -2,7 +2,7 @@
 title: Message Context Properties1
 TOCTitle: Message Context Properties
 ms:assetid: fce413a0-5b61-48b2-8a5d-c1cf496df616
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562116(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562116(v=BTS.80)
 ms:contentKeyID: 51533723
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

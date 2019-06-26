@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstanceSuspendedEvent.ServiceTypeID Property (WMI)
 TOCTitle: MSBTS_MessageInstanceSuspendedEvent.ServiceTypeID Property (WMI)
 ms:assetid: b08e5465-a595-460c-a55b-fcbfd9ffee82
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578126(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578126(v=BTS.80)
 ms:contentKeyID: 51530533
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

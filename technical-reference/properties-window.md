@@ -2,7 +2,7 @@
 title: Properties Window
 TOCTitle: Properties Window
 ms:assetid: d0c2e99d-c7dd-47d9-98a5-b4f871be179e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578524(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578524(v=BTS.80)
 ms:contentKeyID: 51531498
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBaseMessageContext.Read Method (COM)
 TOCTitle: IBaseMessageContext.Read Method (COM)
 ms:assetid: 17da744e-c779-4765-b071-217eb08e782f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558785(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558785(v=BTS.80)
 ms:contentKeyID: 51526453
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

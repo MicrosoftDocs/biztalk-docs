@@ -2,7 +2,7 @@
 title: BizTalk Mapper UI Help
 TOCTitle: BizTalk Mapper UI Help
 ms:assetid: abf1be6e-b844-4764-8c47-9c20dc7bd338
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578009(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578009(v=BTS.80)
 ms:contentKeyID: 51530448
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

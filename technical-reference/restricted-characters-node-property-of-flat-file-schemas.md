@@ -2,7 +2,7 @@
 title: Restricted Characters (Node Property of Flat File Schemas)
 TOCTitle: Restricted Characters (Node Property of Flat File Schemas)
 ms:assetid: 854422a3-49c9-4a2e-81b2-f62e38886491
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561171(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561171(v=BTS.80)
 ms:contentKeyID: 51529404
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

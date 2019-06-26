@@ -2,7 +2,7 @@
 title: MinFacet Value (Node Property of All Schemas)
 TOCTitle: MinFacet Value (Node Property of All Schemas)
 ms:assetid: 08d59136-21f5-464d-89e9-e93fab08d23b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547096(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547096(v=BTS.80)
 ms:contentKeyID: 51526075
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

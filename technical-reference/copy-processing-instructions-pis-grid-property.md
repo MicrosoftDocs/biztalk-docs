@@ -2,7 +2,7 @@
 title: Copy Processing Instructions (PIs) (Grid Property)
 TOCTitle: Copy Processing Instructions (PIs) (Grid Property)
 ms:assetid: dadc1164-16c5-466c-9419-2395405d54aa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561403(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561403(v=BTS.80)
 ms:contentKeyID: 51531686
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

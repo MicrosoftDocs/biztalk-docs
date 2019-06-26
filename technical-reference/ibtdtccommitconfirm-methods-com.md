@@ -2,7 +2,7 @@
 title: IBTDTCCommitConfirm Methods (COM)
 TOCTitle: IBTDTCCommitConfirm Methods (COM)
 ms:assetid: 9e080a7c-b24d-42e3-8e30-717a97fc6946
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577601(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577601(v=BTS.80)
 ms:contentKeyID: 51529998
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

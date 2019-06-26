@@ -2,7 +2,7 @@
 title: Equivalent Node Properties
 TOCTitle: Equivalent Node Properties
 ms:assetid: b77dc843-fce6-4397-a133-eabd1b446256
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578276(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578276(v=BTS.80)
 ms:contentKeyID: 51530757
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Filter Expression Dialog Box
 TOCTitle: Filter Expression Dialog Box
 ms:assetid: c315c4bb-36d8-4fe2-bb55-e0b06363c0f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547855(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547855(v=BTS.80)
 ms:contentKeyID: 51530987
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

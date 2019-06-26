@@ -2,7 +2,7 @@
 title: INamedItem Members (COM)
 TOCTitle: INamedItem Members (COM)
 ms:assetid: feb82edb-e473-4f49-9977-66ba94dac5d0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562155(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562155(v=BTS.80)
 ms:contentKeyID: 51533802
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

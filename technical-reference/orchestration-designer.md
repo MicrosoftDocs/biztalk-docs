@@ -2,7 +2,7 @@
 title: Orchestration Designer
 TOCTitle: Orchestration Designer
 ms:assetid: f2d02c3a-321a-4466-9787-69b5fe30ff36
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561905(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561905(v=BTS.80)
 ms:contentKeyID: 51533377
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

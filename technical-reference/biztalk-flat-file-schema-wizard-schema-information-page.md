@@ -2,7 +2,7 @@
 title: BizTalk Flat File Schema Wizard, Schema Information Page
 TOCTitle: BizTalk Flat File Schema Wizard, Schema Information Page
 ms:assetid: 72846e8d-9dc6-463f-87bb-c160c3160705
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560801(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560801(v=BTS.80)
 ms:contentKeyID: 51528909
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

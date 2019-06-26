@@ -2,7 +2,7 @@
 title: Min Occurs (Node Property of All Schemas)
 TOCTitle: Min Occurs (Node Property of All Schemas)
 ms:assetid: f9676bf6-3a90-4d7f-822e-47c28cf31717
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562037(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562037(v=BTS.80)
 ms:contentKeyID: 51533567
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

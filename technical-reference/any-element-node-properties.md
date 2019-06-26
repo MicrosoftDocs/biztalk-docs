@@ -2,7 +2,7 @@
 title: Any Element Node Properties
 TOCTitle: Any Element Node Properties
 ms:assetid: 9ab407dd-e8b2-4dd5-9c65-4cc8b85d0634
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577529(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577529(v=BTS.80)
 ms:contentKeyID: 51529899
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

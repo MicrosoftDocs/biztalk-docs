@@ -2,7 +2,7 @@
 title: Schema File Location (Node Property of All Schemas)
 TOCTitle: Schema File Location (Node Property of All Schemas)
 ms:assetid: aa6dec35-456b-4370-b8ee-30a3b28eb36e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577976(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577976(v=BTS.80)
 ms:contentKeyID: 51530408
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

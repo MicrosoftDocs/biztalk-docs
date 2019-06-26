@@ -46,7 +46,7 @@ This topic discusses multiserver setup and deployment considerations for the [!I
   
 #### To install the Windows SharePoint Services adapter  
   
-1. Install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
+1. Install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
   
 2. On the **Component Installation** screen, under **Available Components**, under **Additional Software**, select **Windows SharePoint Services Adapter Web service**.  
   
@@ -54,7 +54,7 @@ This topic discusses multiserver setup and deployment considerations for the [!I
 >  You must run setup and configuration on the computer that hosts the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime and the computer running Windows SharePoint Services.  
   
 ## Configuring the Windows SharePoint Services adapter Web service in a multiserver deployment  
- You configure the Windows SharePoint Services adapter using the BizTalk Server Configuration. For more information about these tools, see [Configuration Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/aa58c43f-8f0e-4a5c-89b9-db7b8a852a72).  
+ You configure the Windows SharePoint Services adapter using the BizTalk Server Configuration. For more information about these tools, see [Configuration Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/aa58c43f-8f0e-4a5c-89b9-db7b8a852a72).  
   
 ### Using a custom configuration  
  The BizTalk Server Configuration provides a high-level analysis of the configuration state of the features you have installed on the local computer. The tool allows you to configure and unconfigure features, configure security settings, and import and export configurations from other computers.  

@@ -2,7 +2,7 @@
 title: Application Deployment UI Help
 TOCTitle: Application Deployment UI Help
 ms:assetid: fdb1518f-7552-4533-89a2-151ead9e1f73
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562132(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562132(v=BTS.80)
 ms:contentKeyID: 51533759
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

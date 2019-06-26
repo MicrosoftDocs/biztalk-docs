@@ -2,7 +2,7 @@
 title: Nil Value Functoid Reference
 TOCTitle: Nil Value Functoid Reference
 ms:assetid: 7ad97ac5-dc72-438e-a9fb-8c88d53284d5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560952(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560952(v=BTS.80)
 ms:contentKeyID: 51529116
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

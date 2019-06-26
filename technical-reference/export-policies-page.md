@@ -2,7 +2,7 @@
 title: Export Policies Page
 TOCTitle: Export Policies Page
 ms:assetid: 1e7942c1-ce81-44d5-a5aa-879ba799c93c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559117(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559117(v=BTS.80)
 ms:contentKeyID: 51526640
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

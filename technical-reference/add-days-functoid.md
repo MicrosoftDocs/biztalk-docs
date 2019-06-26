@@ -2,7 +2,7 @@
 title: Add Days Functoid
 TOCTitle: Add Days Functoid
 ms:assetid: e59aaf65-864f-49ac-a8d4-b67ac4c00d3d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561626(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561626(v=BTS.80)
 ms:contentKeyID: 51533028
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

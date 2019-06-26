@@ -2,7 +2,7 @@
 title: Round Functoid
 TOCTitle: Round Functoid
 ms:assetid: a0993b70-e388-470f-bbe7-b40f61595486
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577673(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577673(v=BTS.80)
 ms:contentKeyID: 51530128
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

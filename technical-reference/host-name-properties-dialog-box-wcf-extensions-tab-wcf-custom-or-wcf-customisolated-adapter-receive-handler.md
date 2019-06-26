@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, WCF Extensions Tab (WCF-Custom or WCF-CustomIsolated Adapter Receive Handler)
 TOCTitle: <Host Name> Properties Dialog Box, WCF Extensions Tab (WCF-Custom or WCF-CustomIsolated Adapter Receive Handler)
 ms:assetid: 2647fd12-92b5-4682-a4f7-b262bcef8a0a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629696(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629696(v=BTS.80)
 ms:contentKeyID: 51526904
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

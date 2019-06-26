@@ -2,7 +2,7 @@
 title: Preserve Delimiter For Empty Data (Node Property of Flat File Schemas)
 TOCTitle: Preserve Delimiter For Empty Data (Node Property of Flat File Schemas)
 ms:assetid: 069d5a6d-1ff1-4028-889a-4e7dfc32425d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547057(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547057(v=BTS.80)
 ms:contentKeyID: 51526005
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -64,7 +64,7 @@ When a field corresponding to a **Field Element** or **Field Attribute** node is
 
 
 > [!NOTE]
-> <P>When a Record follows a missing optional Field, delimiters will not be preserved. For more information missing flat file delimiters, see <A href="https://msdn.microsoft.com/en-us/library/aa559464(v=bts.80)">Delimiter Preservation and Suppression</A>.</P>
+> <P>When a Record follows a missing optional Field, delimiters will not be preserved. For more information missing flat file delimiters, see <A href="https://msdn.microsoft.com/library/aa559464(v=bts.80)">Delimiter Preservation and Suppression</A>.</P>
 
 
 

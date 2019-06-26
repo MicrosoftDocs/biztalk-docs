@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting (WMI)
 TOCTitle: MSBTS_HostSetting (WMI)
 ms:assetid: 59e7065d-178d-4d74-8a3e-77cb0068e89f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560307(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560307(v=BTS.80)
 ms:contentKeyID: 51528236
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

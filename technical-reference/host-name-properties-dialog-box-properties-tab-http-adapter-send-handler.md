@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, Properties Tab (HTTP Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Properties Tab (HTTP Adapter Send Handler)
 ms:assetid: e1395497-2631-4c1a-b40c-7e1d66c115ea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561531(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561531(v=BTS.80)
 ms:contentKeyID: 51532919
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

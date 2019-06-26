@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.DehydrationBehavior Property (WMI)
 TOCTitle: MSBTS_HostSetting.DehydrationBehavior Property (WMI)
 ms:assetid: 1b672a19-0080-4025-8b6d-80e4a6056f40
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678622(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678622(v=BTS.80)
 ms:contentKeyID: 51526569
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

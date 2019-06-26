@@ -2,7 +2,7 @@
 title: Output Instance Filename (Schema File Property)
 TOCTitle: Output Instance Filename (Schema File Property)
 ms:assetid: 17a77178-8e84-41bd-a2a2-6ee5d8f0e409
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558782(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558782(v=BTS.80)
 ms:contentKeyID: 51526449
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

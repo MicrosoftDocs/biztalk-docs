@@ -2,7 +2,7 @@
 title: Parallel Actions Shape
 TOCTitle: Parallel Actions Shape
 ms:assetid: 7b3d78a7-77fb-4a7c-9bab-8af5e2c5eb1d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560959(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560959(v=BTS.80)
 ms:contentKeyID: 51529127
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

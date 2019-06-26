@@ -2,7 +2,7 @@
 title: Default Child Delimiter (Node Property of Flat File Schemas)
 TOCTitle: Default Child Delimiter (Node Property of Flat File Schemas)
 ms:assetid: cd53f0d9-78ec-41be-9e35-ba2aa1945b25
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548067(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548067(v=BTS.80)
 ms:contentKeyID: 51531405
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

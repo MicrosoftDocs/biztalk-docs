@@ -2,7 +2,7 @@
 title: Activity Status Portal Help
 TOCTitle: Activity Status Portal Help
 ms:assetid: a39fe5f4-16c8-45bf-a075-3169fe06b505
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577849(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577849(v=BTS.80)
 ms:contentKeyID: 51530179
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

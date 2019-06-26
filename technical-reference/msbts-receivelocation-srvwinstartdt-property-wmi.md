@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocation.SrvWinStartDT Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.SrvWinStartDT Property (WMI)
 ms:assetid: 3057540b-8c4f-4daa-802b-9357e56bbdda
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559461(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559461(v=BTS.80)
 ms:contentKeyID: 51527109
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Modify Resources Dialog Box
 TOCTitle: Modify Resources Dialog Box
 ms:assetid: 6974c4d6-55b1-479c-bdc0-fe1a917c1d36
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560604(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560604(v=BTS.80)
 ms:contentKeyID: 51528670
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

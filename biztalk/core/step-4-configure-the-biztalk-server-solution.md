@@ -51,7 +51,7 @@ In the previous step, you created and deployed a [!INCLUDE[btsBizTalkServerNoVer
   
       -   For **Security mode**, select **Transport** and for **Relay client authentication type**, select **None**.  
   
-      -   Select the **Enable service discovery** check box to publish the service behavior in the [Service Registry](http://msdn.microsoft.com/library/windowsazure/dd582704.aspx). Specify the **Display name** which denotes the name with which the service is published to the registry. You can set the **Discovery mode** to public or private. For this tutorial, set **Display name** to `SF Outbound Notification` and **Discovery mode** to **Public**.  
+      -   Select the **Enable service discovery** check box to publish the service behavior in the [Service Registry](https://msdn.microsoft.com/library/windowsazure/dd582704.aspx). Specify the **Display name** which denotes the name with which the service is published to the registry. You can set the **Discovery mode** to public or private. For this tutorial, set **Display name** to `SF Outbound Notification` and **Discovery mode** to **Public**.  
   
       -   Under Access control service box, click **Edit**. For **Access Control Service STS Uri**, enter `https://btssalesforce-sb.accesscontrol.windows.net/`. For **Issuer Name** and **Issuer Key**, enter the values that you saved in [Step 1: Create a Service Bus Namespace](../core/step-1-create-a-service-bus-namespace.md) for **Default User** and **Default Key** fields.  
   

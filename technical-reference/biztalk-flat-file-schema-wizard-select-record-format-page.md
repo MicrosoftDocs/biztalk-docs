@@ -2,7 +2,7 @@
 title: BizTalk Flat File Schema Wizard, Select Record Format Page
 TOCTitle: BizTalk Flat File Schema Wizard, Select Record Format Page
 ms:assetid: 3d64a5a6-b99a-4095-b0a9-dbf7eef79074
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559717(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559717(v=BTS.80)
 ms:contentKeyID: 51527515
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

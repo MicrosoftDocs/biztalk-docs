@@ -2,7 +2,7 @@
 title: Advanced Functoids Reference
 TOCTitle: Advanced Functoids Reference
 ms:assetid: 4b7a761f-510c-47ce-9506-4cb8e9ebba5c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560018(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560018(v=BTS.80)
 ms:contentKeyID: 51527854
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

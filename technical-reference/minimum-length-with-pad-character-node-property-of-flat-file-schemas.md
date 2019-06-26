@@ -2,7 +2,7 @@
 title: Minimum Length with Pad Character (Node Property of Flat File Schemas)
 TOCTitle: Minimum Length with Pad Character (Node Property of Flat File Schemas)
 ms:assetid: 0a2dbfb2-4956-44f1-a67c-56ef1e7ad29c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547122(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547122(v=BTS.80)
 ms:contentKeyID: 51526106
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

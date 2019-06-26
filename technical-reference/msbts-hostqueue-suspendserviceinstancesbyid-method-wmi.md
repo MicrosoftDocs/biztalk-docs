@@ -2,7 +2,7 @@
 title: MSBTS_HostQueue.SuspendServiceInstancesByID Method (WMI)
 TOCTitle: MSBTS_HostQueue.SuspendServiceInstancesByID Method (WMI)
 ms:assetid: c59e21d2-b63a-47ed-bc8d-5662e053af33
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547906(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547906(v=BTS.80)
 ms:contentKeyID: 51531183
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Completing the Business Activity Monitoring View Wizard Page
 TOCTitle: Completing the Business Activity Monitoring View Wizard Page
 ms:assetid: 3cf3cb07-1ee8-4048-9c3b-676c865192ed
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559705(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559705(v=BTS.80)
 ms:contentKeyID: 51527440
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

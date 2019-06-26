@@ -2,7 +2,7 @@
 title: New Alias Dialog Box
 TOCTitle: New Alias Dialog Box
 ms:assetid: 607f9b7f-35e8-45c0-8bcd-3e080458e06c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560442(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560442(v=BTS.80)
 ms:contentKeyID: 51528420
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Scope Shape
 TOCTitle: Scope Shape
 ms:assetid: ff3a3a49-526b-4e54-8071-ba82c801a281
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562165(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562165(v=BTS.80)
 ms:contentKeyID: 51533825
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

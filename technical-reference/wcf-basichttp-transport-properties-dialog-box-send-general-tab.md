@@ -2,7 +2,7 @@
 title: WCF-BasicHttp Transport Properties Dialog Box, Send, General Tab
 TOCTitle: WCF-BasicHttp Transport Properties Dialog Box, Send, General Tab
 ms:assetid: e2ec7b5d-ee55-4742-b473-589e53d16b70
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb259944(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb259944(v=BTS.80)
 ms:contentKeyID: 51532935
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

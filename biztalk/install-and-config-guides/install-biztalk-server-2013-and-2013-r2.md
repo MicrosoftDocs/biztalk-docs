@@ -37,9 +37,9 @@ Lists the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
 
 - **BAM Portal**  - If the BAM portal is configured on a website used by applications that are running .NET Framework 2.0, then create a new website for the BAM portal:  
 
-   [Create an IIS 7 web site](http://technet.microsoft.com/library/cc772350\(WS.10\).aspx)  
+   [Create an IIS 7 web site](https://technet.microsoft.com/library/cc772350\(WS.10\).aspx)  
 
-   [Create an IIS 8 web site](http://technet.microsoft.com/library/hh831515.aspx)  
+   [Create an IIS 8 web site](https://technet.microsoft.com/library/hh831515.aspx)  
 
    After creating the new website:  
 
@@ -49,7 +49,7 @@ Lists the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
 
 - **Community Additions**: Read:  
 
-   [Proactivity in BizTalk Server](http://msdn.microsoft.com/library/dn393929\(v=bts.10\).aspx)  
+   [Proactivity in BizTalk Server](https://msdn.microsoft.com/library/dn393929\(v=bts.10\).aspx)  
 
    [BizTalk Server 2013 R2: Installation and Configuration – Important considerations before set up the server (Part 1)](http://sandroaspbiztalkblog.wordpress.com/2015/01/04/biztalk-server-2013-r2-installation-and-configuration-important-considerations-before-set-up-the-server-part-1/)  
 
@@ -121,7 +121,7 @@ Lists the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
 
 - After you download the self-extracting EXE for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the installation guide is opened. The Setup.exe for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is at the same location as the installation guide.  
 
-- Instead of installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a physical computer, you can o configure a [!INCLUDE[winazure](../includes/winazure-md.md)] virtual machine with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] image. See [Configuring BizTalk Server on an Azure VM](http://msdn.microsoft.com/library/azure/jj248689.aspx).  
+- Instead of installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a physical computer, you can o configure a [!INCLUDE[winazure](../includes/winazure-md.md)] virtual machine with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] image. See [Configuring BizTalk Server on an Azure VM](https://msdn.microsoft.com/library/azure/jj248689.aspx).  
 
 - For the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] using a command prompt, see [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md).  
 

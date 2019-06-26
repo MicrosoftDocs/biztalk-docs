@@ -2,7 +2,7 @@
 title: MSBTS_TrackedMessageInstance.SourceDBServerName Property (WMI)
 TOCTitle: MSBTS_TrackedMessageInstance.SourceDBServerName Property (WMI)
 ms:assetid: 8325e1d9-a97c-4bc5-8e4f-5a872371c4a1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561127(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561127(v=BTS.80)
 ms:contentKeyID: 51529346
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

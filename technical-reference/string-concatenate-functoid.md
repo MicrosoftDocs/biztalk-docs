@@ -2,7 +2,7 @@
 title: String Concatenate Functoid
 TOCTitle: String Concatenate Functoid
 ms:assetid: 7c121b17-cee8-480b-9822-e9e67d1bdd76
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560973(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560973(v=BTS.80)
 ms:contentKeyID: 51529143
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

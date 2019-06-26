@@ -2,7 +2,7 @@
 title: ISSONotification.SendNotification Method
 TOCTitle: ISSONotification.SendNotification Method
 ms:assetid: ab5c09e5-9017-4272-a53f-8db46a7a1971
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705137(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705137(v=BTS.80)
 ms:contentKeyID: 51530386
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

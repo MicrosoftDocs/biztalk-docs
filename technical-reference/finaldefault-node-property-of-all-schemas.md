@@ -2,7 +2,7 @@
 title: FinalDefault (Node Property of All Schemas)
 TOCTitle: FinalDefault (Node Property of All Schemas)
 ms:assetid: 6e5a6169-043c-4e6f-bf58-b5983f3f7650
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560720(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560720(v=BTS.80)
 ms:contentKeyID: 51528802
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

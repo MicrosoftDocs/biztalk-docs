@@ -2,7 +2,7 @@
 title: Parties Node
 TOCTitle: Parties Node
 ms:assetid: e8bc2838-c30e-4ffc-90f7-a17d3ef61704
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561687(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561687(v=BTS.80)
 ms:contentKeyID: 51533096
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

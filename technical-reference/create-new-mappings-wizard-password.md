@@ -2,7 +2,7 @@
 title: 'Create New Mappings Wizard: Password'
 TOCTitle: 'Create New Mappings Wizard: Password'
 ms:assetid: 821737a4-4b36-46eb-9b24-b50c7d651b8b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743504(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743504(v=BTS.80)
 ms:contentKeyID: 51529309
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MessageBoxes Node, Details Pane
 TOCTitle: MessageBoxes Node, Details Pane
 ms:assetid: 97d52e27-b082-49e1-9cd5-e0589a9ca7c8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577467(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577467(v=BTS.80)
 ms:contentKeyID: 51529857
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

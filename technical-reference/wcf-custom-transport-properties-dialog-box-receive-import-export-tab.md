@@ -2,7 +2,7 @@
 title: WCF-Custom Transport Properties Dialog Box, Receive, Import-Export Tab
 TOCTitle: WCF-Custom Transport Properties Dialog Box, Receive, Import-Export Tab
 ms:assetid: 888a2428-f3ea-4551-b404-ddc9367499ab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226392(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226392(v=BTS.80)
 ms:contentKeyID: 51529489
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

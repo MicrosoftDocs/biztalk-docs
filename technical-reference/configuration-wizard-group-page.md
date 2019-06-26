@@ -2,7 +2,7 @@
 title: Configuration Wizard, Group Page
 TOCTitle: Configuration Wizard, Group Page
 ms:assetid: 9e3c8f7f-85ac-42f7-9ab2-12dc5ad7c5f9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577608(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577608(v=BTS.80)
 ms:contentKeyID: 51530004
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

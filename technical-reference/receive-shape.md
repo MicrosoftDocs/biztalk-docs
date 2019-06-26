@@ -2,7 +2,7 @@
 title: Receive Shape
 TOCTitle: Receive Shape
 ms:assetid: 60625f7e-6a95-4822-b302-aae2adae7252
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560440(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560440(v=BTS.80)
 ms:contentKeyID: 51528412
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBTTransportControl.Initialize Method (COM)
 TOCTitle: IBTTransportControl.Initialize Method (COM)
 ms:assetid: 861280f6-75e9-4f7b-a5ad-4175a1bb51a9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561188(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561188(v=BTS.80)
 ms:contentKeyID: 51529420
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

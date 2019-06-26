@@ -2,7 +2,7 @@
 title: IPipelineContext.GetDocumentSpecByType Method (COM)
 TOCTitle: IPipelineContext.GetDocumentSpecByType Method (COM)
 ms:assetid: 34d689c9-6dd7-48c0-a41d-a63730fc0e1c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559541(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559541(v=BTS.80)
 ms:contentKeyID: 51527232
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

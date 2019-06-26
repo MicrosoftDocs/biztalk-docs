@@ -2,7 +2,7 @@
 title: IBTTransportBatch Properties (COM)
 TOCTitle: IBTTransportBatch Properties (COM)
 ms:assetid: ec412d66-f66e-4c8e-80a6-ef200365a4f2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561761(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561761(v=BTS.80)
 ms:contentKeyID: 51533223
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

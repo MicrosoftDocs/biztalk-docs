@@ -2,7 +2,7 @@
 title: Item Type (Node Property of All Schemas)
 TOCTitle: Item Type (Node Property of All Schemas)
 ms:assetid: ba4cb81e-8427-4b22-9157-d84d75852c10
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578323(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578323(v=BTS.80)
 ms:contentKeyID: 51530800
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

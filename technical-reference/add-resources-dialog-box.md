@@ -2,7 +2,7 @@
 title: Add Resources Dialog Box
 TOCTitle: Add Resources Dialog Box
 ms:assetid: c3e28cea-aeb2-4d93-a45e-faaa5a6d6533
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547874(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547874(v=BTS.80)
 ms:contentKeyID: 51531139
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_ServiceInstanceSuspendedEvent.ErrorDescription Property (WMI)
 TOCTitle: MSBTS_ServiceInstanceSuspendedEvent.ErrorDescription Property (WMI)
 ms:assetid: 4cd04eff-f62b-46bd-858c-f927db8804c2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560044(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560044(v=BTS.80)
 ms:contentKeyID: 51527894
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

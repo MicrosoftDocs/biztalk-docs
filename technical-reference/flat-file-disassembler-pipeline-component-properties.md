@@ -2,7 +2,7 @@
 title: Flat File Disassembler Pipeline Component Properties
 TOCTitle: Flat File Disassembler Pipeline Component Properties
 ms:assetid: 579f9da1-fbdc-4733-846d-cdb6495b8d74
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560266(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560266(v=BTS.80)
 ms:contentKeyID: 51528188
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -62,7 +62,7 @@ Default Value: False <strong>Note:</strong> You must specify a document schema (
 </tr>
 <tr class="even">
 <td><strong>Recoverable interchange processing</strong></td>
-<td>Indicate whether to process messages within an interchange individually. For more information, see <a href="https://msdn.microsoft.com/en-us/library/aa578714(v=bts.80)">Recoverable Interchange Processing</a><br />
+<td>Indicate whether to process messages within an interchange individually. For more information, see <a href="https://msdn.microsoft.com/library/aa578714(v=bts.80)">Recoverable Interchange Processing</a><br />
 <br />
 Default Value: False</td>
 </tr>

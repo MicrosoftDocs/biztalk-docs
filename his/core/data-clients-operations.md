@@ -14,7 +14,7 @@ ms.author: "hisdocs; plarsen"
 manager: "anneta"
 ---
 # Data Clients (Operations)
-For the most recent version of Microsoft Host Integration Server documentation, see [http://msdn.microsoft.com/library/gg241192.aspx](http://msdn.microsoft.com/library/gg241192.aspx).  
+For the most recent version of Microsoft Host Integration Server documentation, see [https://msdn.microsoft.com/library/gg241192.aspx](https://msdn.microsoft.com/library/gg241192.aspx).  
   
  The following sections provide help for operating the Data Clients.  
   

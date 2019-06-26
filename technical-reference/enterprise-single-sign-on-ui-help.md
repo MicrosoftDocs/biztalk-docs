@@ -2,7 +2,7 @@
 title: Enterprise Single Sign-On UI Help
 TOCTitle: Enterprise Single Sign-On UI Help
 ms:assetid: 637108fd-956c-4581-8051-cce03ba9dfde
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560494(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560494(v=BTS.80)
 ms:contentKeyID: 51528493
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBasePropertyBag.Read Method (COM)
 TOCTitle: IBasePropertyBag.Read Method (COM)
 ms:assetid: 8f16bd8a-e7ba-4e47-afa0-b01ca47f2bd6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561344(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561344(v=BTS.80)
 ms:contentKeyID: 51529642
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

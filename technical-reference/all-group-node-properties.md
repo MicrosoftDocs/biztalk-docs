@@ -2,7 +2,7 @@
 title: All Group Node Properties
 TOCTitle: All Group Node Properties
 ms:assetid: b030e1b7-2bc5-4204-a541-0dd2cca0d202
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578115(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578115(v=BTS.80)
 ms:contentKeyID: 51530572
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

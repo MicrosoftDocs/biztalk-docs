@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocationOrchestration.MgmtDbServerOverride Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.MgmtDbServerOverride Property (WMI)
 ms:assetid: c88ed607-b699-4dc1-8c0b-1e617741ef91
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547968(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547968(v=BTS.80)
 ms:contentKeyID: 51531138
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

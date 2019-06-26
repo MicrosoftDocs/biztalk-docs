@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Deploy Policies
-You can deploy policies programmatically by using the [Microsoft.RuleEngine.RuleSetDeploymentDriver](http://msdn.microsoft.com/library/microsoft.ruleengine.rulesetdeploymentdriver.aspx) class in the **Microsoft.RuleEngine.RuleEngineExtensions** namespace. The following sample code demonstrates how to use the [Microsoft.RuleEngine.RuleSetDeploymentDriver](http://msdn.microsoft.com/library/microsoft.ruleengine.rulesetdeploymentdriver.aspx) class to deploy a policy named **LoanProcessing**:  
+You can deploy policies programmatically by using the [Microsoft.RuleEngine.RuleSetDeploymentDriver](https://msdn.microsoft.com/library/microsoft.ruleengine.rulesetdeploymentdriver.aspx) class in the **Microsoft.RuleEngine.RuleEngineExtensions** namespace. The following sample code demonstrates how to use the [Microsoft.RuleEngine.RuleSetDeploymentDriver](https://msdn.microsoft.com/library/microsoft.ruleengine.rulesetdeploymentdriver.aspx) class to deploy a policy named **LoanProcessing**:  
   
 ```  
 string policyName = “LoanProcessing”;  
@@ -28,7 +28,7 @@ dd.Deploy(rsi);
 ```  
   
 > [!NOTE]
->  The overloaded constructors of the [Microsoft.RuleEngine.RuleSetDeploymentDriver](http://msdn.microsoft.com/library/microsoft.ruleengine.rulesetdeploymentdriver.aspx) class take the names of the rule store database as a parameter. This allows you to deploy policies to a database that your BizTalk Server environment is not configured to use.  
+>  The overloaded constructors of the [Microsoft.RuleEngine.RuleSetDeploymentDriver](https://msdn.microsoft.com/library/microsoft.ruleengine.rulesetdeploymentdriver.aspx) class take the names of the rule store database as a parameter. This allows you to deploy policies to a database that your BizTalk Server environment is not configured to use.  
   
 ## Using the GetDeploymentDriver Method  
  If you are deploying policies to the database that your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment is configured to use, you do not have to create the **RuleSetDeploymentDriver** object in the code. Instead, you can request the rule engine to create a **RuleSetDeploymentDriver** object for you by invoking the **GetDeploymentDriver** method of the **Configuration** class in the **System.RuleEngine** namespace. The following sample code demonstrates how to invoke the **GetDeploymentDriver** method:  

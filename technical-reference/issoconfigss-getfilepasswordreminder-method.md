@@ -2,7 +2,7 @@
 title: ISSOConfigSS.GetFilePasswordReminder Method
 TOCTitle: ISSOConfigSS.GetFilePasswordReminder Method
 ms:assetid: 71833ea3-a19f-431b-b8a1-96355113d171
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa745427(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa745427(v=BTS.80)
 ms:contentKeyID: 51528880
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

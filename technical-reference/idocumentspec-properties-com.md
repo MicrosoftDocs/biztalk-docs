@@ -2,7 +2,7 @@
 title: IDocumentSpec Properties (COM)
 TOCTitle: IDocumentSpec Properties (COM)
 ms:assetid: 06b12e06-61e8-4262-96cc-f68f61d0eef1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547059(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547059(v=BTS.80)
 ms:contentKeyID: 51526009
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

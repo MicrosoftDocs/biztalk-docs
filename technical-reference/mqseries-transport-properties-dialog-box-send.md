@@ -2,7 +2,7 @@
 title: MQSeries Transport Properties Dialog Box, Send
 TOCTitle: MQSeries Transport Properties Dialog Box, Send
 ms:assetid: 5a9ae8e2-9d5c-411e-b9b6-7f625c26a082
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560320(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560320(v=BTS.80)
 ms:contentKeyID: 51528254
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

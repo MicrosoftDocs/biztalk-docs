@@ -2,7 +2,7 @@
 title: Enlist Parties Dialog Box
 TOCTitle: Enlist Parties Dialog Box
 ms:assetid: f5ed2cb4-9f22-4e21-aa32-a7a23a937a29
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561958(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561958(v=BTS.80)
 ms:contentKeyID: 51533440
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

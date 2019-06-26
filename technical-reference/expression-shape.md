@@ -2,7 +2,7 @@
 title: Expression Shape
 TOCTitle: Expression Shape
 ms:assetid: 6e4403da-8a96-40f3-984d-104276c4d3ef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560714(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560714(v=BTS.80)
 ms:contentKeyID: 51528780
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

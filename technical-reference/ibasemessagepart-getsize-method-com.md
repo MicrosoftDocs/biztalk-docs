@@ -2,7 +2,7 @@
 title: IBaseMessagePart.GetSize Method (COM)
 TOCTitle: IBaseMessagePart.GetSize Method (COM)
 ms:assetid: ca648ba0-707a-4e1d-860b-2882b30c004f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547994(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547994(v=BTS.80)
 ms:contentKeyID: 51531303
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

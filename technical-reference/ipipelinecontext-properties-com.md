@@ -2,7 +2,7 @@
 title: IPipelineContext Properties (COM)
 TOCTitle: IPipelineContext Properties (COM)
 ms:assetid: 94af265e-b579-46f1-9ee7-b005896037c6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577405(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577405(v=BTS.80)
 ms:contentKeyID: 51529782
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

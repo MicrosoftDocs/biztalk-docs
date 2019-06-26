@@ -2,7 +2,7 @@
 title: IBTTransmitter.Initialize Method (COM)
 TOCTitle: IBTTransmitter.Initialize Method (COM)
 ms:assetid: bd9ebee4-1e45-4cf2-a14d-f2e8d7e708c2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578388(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578388(v=BTS.80)
 ms:contentKeyID: 51530880
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

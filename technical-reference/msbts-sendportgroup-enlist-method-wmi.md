@@ -2,7 +2,7 @@
 title: MSBTS_SendPortGroup.Enlist Method (WMI)
 TOCTitle: MSBTS_SendPortGroup.Enlist Method (WMI)
 ms:assetid: 5b44a9e0-d983-4326-8cae-f2ce83139ed0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560338(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560338(v=BTS.80)
 ms:contentKeyID: 51528291
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

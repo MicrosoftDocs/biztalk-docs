@@ -2,7 +2,7 @@
 title: Business Rule Composer UI Help
 TOCTitle: Business Rule Composer UI Help
 ms:assetid: 9c28ac00-a369-4e62-87ce-a627e9817aa2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577559(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577559(v=BTS.80)
 ms:contentKeyID: 51529941
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

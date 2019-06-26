@@ -2,7 +2,7 @@
 title: Body XPath Dialog Box
 TOCTitle: Body XPath Dialog Box
 ms:assetid: 13cfe362-46d7-47c0-ae4f-6d068ffd4859
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547627(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547627(v=BTS.80)
 ms:contentKeyID: 51526391
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

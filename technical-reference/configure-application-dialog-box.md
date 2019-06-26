@@ -2,7 +2,7 @@
 title: Configure Application Dialog Box
 TOCTitle: Configure Application Dialog Box
 ms:assetid: c4ec8bdf-fad6-4f55-bc2a-63418b322bd6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547889(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547889(v=BTS.80)
 ms:contentKeyID: 51531039
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

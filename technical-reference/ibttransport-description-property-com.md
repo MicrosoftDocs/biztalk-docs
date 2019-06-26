@@ -2,7 +2,7 @@
 title: IBTTransport.Description Property (COM)
 TOCTitle: IBTTransport.Description Property (COM)
 ms:assetid: 33d68ae9-e67c-4f0f-8b5b-26dea7e8f46e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559525(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559525(v=BTS.80)
 ms:contentKeyID: 51527266
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

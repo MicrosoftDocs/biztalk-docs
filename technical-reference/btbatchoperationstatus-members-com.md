@@ -2,7 +2,7 @@
 title: _BTBatchOperationStatus Members (COM)
 TOCTitle: _BTBatchOperationStatus Members (COM)
 ms:assetid: 51a5529d-54f0-4411-92f5-5987abb0c26f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560144(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560144(v=BTS.80)
 ms:contentKeyID: 51528019
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

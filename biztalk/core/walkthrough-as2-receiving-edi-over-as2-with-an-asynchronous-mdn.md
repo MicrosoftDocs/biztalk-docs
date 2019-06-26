@@ -109,7 +109,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
    >  This project, which is shipped for the AS2 tutorial, includes an 864 schema for use with the test message.  
 
    > [!NOTE]
-   >  This topic assumes that you have already added a reference from your application to the BizTalk EDI Application, which contains EDI schemas, pipelines, and orchestrations. If not, see [How to Add a Reference to the BizTalk Server EDI Application](http://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
+   >  This topic assumes that you have already added a reference from your application to the BizTalk EDI Application, which contains EDI schemas, pipelines, and orchestrations. If not, see [How to Add a Reference to the BizTalk Server EDI Application](https://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
 
 2. Right-click the **Schemas** project in the Solution Explorer, and then click **Properties**. Click the **Signing** tab in the project designer, check the **Sign the Assembly** checkbox, and from the drop-down, select **New** and provide the necessary values to create a strong name key file. Save the changes and close the project properties window.  
 

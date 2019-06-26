@@ -2,7 +2,7 @@
 title: Arc Tangent Functoid
 TOCTitle: Arc Tangent Functoid
 ms:assetid: 4fb47c9d-9586-4469-8d54-404ac1157c87
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560104(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560104(v=BTS.80)
 ms:contentKeyID: 51527958
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Build Action (Map Item Property)
 TOCTitle: Build Action (Map Item Property)
 ms:assetid: 1769ec8e-b7b8-40e3-902f-e78f9ea89f42
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558771(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558771(v=BTS.80)
 ms:contentKeyID: 51526437
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

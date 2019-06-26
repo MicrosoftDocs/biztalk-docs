@@ -2,7 +2,7 @@
 title: BizTalk Flat File Schema Wizard, Positional Record Page
 TOCTitle: BizTalk Flat File Schema Wizard, Positional Record Page
 ms:assetid: 56aa5658-04e8-4dee-82e2-5471746a919e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560250(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560250(v=BTS.80)
 ms:contentKeyID: 51528153
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

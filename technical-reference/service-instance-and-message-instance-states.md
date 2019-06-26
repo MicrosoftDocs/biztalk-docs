@@ -2,7 +2,7 @@
 title: Service Instance and Message Instance States
 TOCTitle: Service Instance and Message Instance States
 ms:assetid: 2666a27c-e5f7-4ae6-8f12-afa06bba8876
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559264(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559264(v=BTS.80)
 ms:contentKeyID: 51526908
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

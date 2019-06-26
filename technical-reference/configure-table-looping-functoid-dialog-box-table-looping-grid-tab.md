@@ -2,7 +2,7 @@
 title: Configure Table Looping Functoid Dialog Box, Table Looping Grid Tab
 TOCTitle: Configure Table Looping Functoid Dialog Box, Table Looping Grid Tab
 ms:assetid: 8739d80f-87c1-4854-9a95-4a383f200eba
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561211(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561211(v=BTS.80)
 ms:contentKeyID: 51529458
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

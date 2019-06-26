@@ -2,7 +2,7 @@
 title: Transform Shape
 TOCTitle: Transform Shape
 ms:assetid: 0bf78389-597f-437c-a893-88ec99147f55
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547255(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547255(v=BTS.80)
 ms:contentKeyID: 51526139
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

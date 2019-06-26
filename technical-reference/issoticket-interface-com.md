@@ -2,7 +2,7 @@
 title: ISSOTicket Interface (COM)
 TOCTitle: ISSOTicket Interface (COM)
 ms:assetid: 3bb446f3-8602-4176-9285-19b7bdb1a3e6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa770683(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa770683(v=BTS.80)
 ms:contentKeyID: 51527411
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: SetUp-Files Document
 TOCTitle: SetUp-Files Document
 ms:assetid: f2f11033-e85e-4293-80b2-9870bb23eafd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561908(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561908(v=BTS.80)
 ms:contentKeyID: 51533408
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

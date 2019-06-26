@@ -2,7 +2,7 @@
 title: SExternalAccount Fields
 TOCTitle: SExternalAccount Fields
 ms:assetid: 6747a580-cbbe-4d33-850d-5a4a70035f2a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771274(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771274(v=BTS.80)
 ms:contentKeyID: 51528618
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

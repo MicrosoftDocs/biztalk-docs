@@ -23,7 +23,7 @@ The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
 ## Get started
 **[Getting started](../core/getting-started-with-biztalk-server.md)** includes information about common tasks, the message engine, trading partner management using EDI and AS2, BizTalk Server tutorials, and topics for new  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] users.
   
-[Common Tasks and walkthroughs](http://msdn.microsoft.com/library/cd02757d-48c6-4ba4-b72d-02acd0b1eff1) and [Tutorials](http://msdn.microsoft.com/library/1e404aca-6e25-4189-a0cc-5e9b95194b81) are also a great way to get started.
+[Common Tasks and walkthroughs](https://msdn.microsoft.com/library/cd02757d-48c6-4ba4-b72d-02acd0b1eff1) and [Tutorials](https://msdn.microsoft.com/library/1e404aca-6e25-4189-a0cc-5e9b95194b81) are also a great way to get started.
 
 ## Feature Pack 
 **[Configure the feature pack](../core/configure-the-feature-pack.md)** lists the different updates available in the feature pack, including using Application Insights and Power BI for tracking data, automatic deployment with Visual Studio Team Services, and more good stuff. 

@@ -2,7 +2,7 @@
 title: MSBTS_Host.GetClusterResourceGroupNames (WMI)
 TOCTitle: MSBTS_Host.GetClusterResourceGroupNames (WMI)
 ms:assetid: a6872748-cd0a-487a-acbe-69ae7e1a9d34
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577910(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577910(v=BTS.80)
 ms:contentKeyID: 51530308
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

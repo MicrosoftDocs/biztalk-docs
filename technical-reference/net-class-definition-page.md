@@ -2,7 +2,7 @@
 title: .NET Class Definition Page
 TOCTitle: .NET Class Definition Page
 ms:assetid: 35c55f36-f791-4602-b408-deac8026f2a3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559566(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559566(v=BTS.80)
 ms:contentKeyID: 51527317
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

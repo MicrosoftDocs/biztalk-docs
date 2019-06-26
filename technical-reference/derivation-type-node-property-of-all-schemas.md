@@ -2,7 +2,7 @@
 title: Derivation Type (Node Property of All Schemas)
 TOCTitle: Derivation Type (Node Property of All Schemas)
 ms:assetid: 3d6ac9be-781d-45cf-928c-916628f105bf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559718(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559718(v=BTS.80)
 ms:contentKeyID: 51527458
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

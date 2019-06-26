@@ -2,7 +2,7 @@
 title: Receive Location Properties Dialog Box
 TOCTitle: Receive Location Properties Dialog Box
 ms:assetid: a51afe52-a9a5-40c0-b3ca-51abdf6d7a3f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577877(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577877(v=BTS.80)
 ms:contentKeyID: 51530271
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Group Shape
 TOCTitle: Group Shape
 ms:assetid: fb0e335b-44cf-4da9-aac7-5991abd85c2b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562074(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562074(v=BTS.80)
 ms:contentKeyID: 51533634
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Expression Editor
 TOCTitle: Expression Editor
 ms:assetid: a2a7cc57-8021-42d4-b0ee-d2300e94e058
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577821(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577821(v=BTS.80)
 ms:contentKeyID: 51530145
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

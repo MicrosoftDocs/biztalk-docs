@@ -2,7 +2,7 @@
 title: Script Type Precedence (Grid Property)
 TOCTitle: Script Type Precedence (Grid Property)
 ms:assetid: 463c89fc-c389-436c-afc5-e6e31269141c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559877(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559877(v=BTS.80)
 ms:contentKeyID: 51527734
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

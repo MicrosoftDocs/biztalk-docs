@@ -164,7 +164,7 @@ The Custom Functoid sample demonstrates how to write a custom functoid for BizTa
    -   Removes the assembly from the GAC.  
   
 ## Classes or Methods Used in This Sample  
- [Microsoft.BizTalk.BaseFunctoids.BaseFunctoid](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.basefunctoid.aspx)  
+ [Microsoft.BizTalk.BaseFunctoids.BaseFunctoid](https://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.basefunctoid.aspx)  
   
 ## See Also  
  [Using BaseFunctoid](../core/using-basefunctoid.md)   

@@ -2,7 +2,7 @@
 title: Hexadecimal Functoid
 TOCTitle: Hexadecimal Functoid
 ms:assetid: bf53af11-b1a3-422f-8b91-9c9e2184824c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578422(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578422(v=BTS.80)
 ms:contentKeyID: 51530916
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

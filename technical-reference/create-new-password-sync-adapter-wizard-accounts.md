@@ -2,7 +2,7 @@
 title: 'Create New Password Sync Adapter Wizard: Accounts'
 TOCTitle: 'Create New Password Sync Adapter Wizard: Accounts'
 ms:assetid: 2dec8b3a-1bbc-467d-b4f2-a4890d07f8ee
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559408(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559408(v=BTS.80)
 ms:contentKeyID: 51527038
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

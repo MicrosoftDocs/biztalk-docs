@@ -2,7 +2,7 @@
 title: Imports (Node Property of All Schemas)
 TOCTitle: Imports (Node Property of All Schemas)
 ms:assetid: d0ecbee6-ee9f-4cb6-b531-7c5eabb2083e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578526(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578526(v=BTS.80)
 ms:contentKeyID: 51531390
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

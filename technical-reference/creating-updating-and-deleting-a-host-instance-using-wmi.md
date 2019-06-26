@@ -2,7 +2,7 @@
 title: Creating, Updating, and Deleting a Host Instance Using WMI
 TOCTitle: Creating, Updating, and Deleting a Host Instance Using WMI
 ms:assetid: 620433d5-936f-476a-9480-55568c20e23f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560467(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560467(v=BTS.80)
 ms:contentKeyID: 51528464
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

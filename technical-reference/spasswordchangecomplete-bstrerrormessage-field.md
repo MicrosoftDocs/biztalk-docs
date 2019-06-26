@@ -2,7 +2,7 @@
 title: SPasswordChangeComplete.bstrErrorMessage Field
 TOCTitle: SPasswordChangeComplete.bstrErrorMessage Field
 ms:assetid: b70ee92b-f05b-4f53-acdf-7dbbd43b5c0a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa746078(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa746078(v=BTS.80)
 ms:contentKeyID: 51530750
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

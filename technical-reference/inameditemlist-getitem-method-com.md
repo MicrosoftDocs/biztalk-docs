@@ -2,7 +2,7 @@
 title: INamedItemList.GetItem Method (COM)
 TOCTitle: INamedItemList.GetItem Method (COM)
 ms:assetid: d61bd524-0f71-4ad9-91b1-b14a6e2f3ce2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578638(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578638(v=BTS.80)
 ms:contentKeyID: 51531660
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

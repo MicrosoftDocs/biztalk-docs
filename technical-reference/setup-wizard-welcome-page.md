@@ -2,7 +2,7 @@
 title: Setup Wizard, Welcome Page
 TOCTitle: Setup Wizard, Welcome Page
 ms:assetid: 7d7f80b9-cdf7-488c-b021-f6d63f61cee1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561007(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561007(v=BTS.80)
 ms:contentKeyID: 51529188
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

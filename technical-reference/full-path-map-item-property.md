@@ -2,7 +2,7 @@
 title: Full Path (Map Item Property)
 TOCTitle: Full Path (Map Item Property)
 ms:assetid: f15db3d3-7f96-4c7d-8715-082c714933d7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561869(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561869(v=BTS.80)
 ms:contentKeyID: 51533358
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: ISSOConfigDB.UpgradeDB Method
 TOCTitle: ISSOConfigDB.UpgradeDB Method
 ms:assetid: d8be3db9-ccfc-497e-b0c8-934609534e6e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa772054(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa772054(v=BTS.80)
 ms:contentKeyID: 51531616
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

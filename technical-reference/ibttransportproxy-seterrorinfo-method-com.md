@@ -2,7 +2,7 @@
 title: IBTTransportProxy.SetErrorInfo Method (COM)
 TOCTitle: IBTTransportProxy.SetErrorInfo Method (COM)
 ms:assetid: f05983ae-1c10-4724-9aa0-17de892730a6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561841(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561841(v=BTS.80)
 ms:contentKeyID: 51533297
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

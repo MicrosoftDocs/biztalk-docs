@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.BizTalkAdministratorGroup Property (WMI)
 TOCTitle: MSBTS_GroupSetting.BizTalkAdministratorGroup Property (WMI)
 ms:assetid: d848685e-5156-4647-aa60-c42a6a03d70f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578669(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578669(v=BTS.80)
 ms:contentKeyID: 51531716
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

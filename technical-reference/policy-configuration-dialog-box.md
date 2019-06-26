@@ -2,7 +2,7 @@
 title: Policy Configuration Dialog Box
 TOCTitle: Policy Configuration Dialog Box
 ms:assetid: bf4a79e2-7079-414f-a3b4-af0ea5efc8b4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578420(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578420(v=BTS.80)
 ms:contentKeyID: 51531010
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

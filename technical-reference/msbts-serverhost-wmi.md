@@ -2,7 +2,7 @@
 title: MSBTS_ServerHost (WMI)
 TOCTitle: MSBTS_ServerHost (WMI)
 ms:assetid: 81e42b3b-c75f-47ae-837a-a38ef2304f56
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561095(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561095(v=BTS.80)
 ms:contentKeyID: 51529308
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

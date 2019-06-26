@@ -2,7 +2,7 @@
 title: ISSOTicket.RedeemTicket Method
 TOCTitle: ISSOTicket.RedeemTicket Method
 ms:assetid: ad89b448-0064-4158-bcc0-73ef93be9993
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705179(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705179(v=BTS.80)
 ms:contentKeyID: 51530449
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

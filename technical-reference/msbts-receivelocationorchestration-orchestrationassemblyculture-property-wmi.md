@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyCulture Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyCulture Property (WMI)
 ms:assetid: 8fee02af-71a5-4736-a7ee-dbe5894005fe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561363(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561363(v=BTS.80)
 ms:contentKeyID: 51529666
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

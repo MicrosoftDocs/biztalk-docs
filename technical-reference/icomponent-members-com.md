@@ -2,7 +2,7 @@
 title: IComponent Members (COM)
 TOCTitle: IComponent Members (COM)
 ms:assetid: a2322fab-4307-4ef2-a1ab-28568ee5c8e2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577811(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577811(v=BTS.80)
 ms:contentKeyID: 51530185
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

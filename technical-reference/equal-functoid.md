@@ -2,7 +2,7 @@
 title: Equal Functoid
 TOCTitle: Equal Functoid
 ms:assetid: 1ab9776a-068c-4b5c-8d94-82aeddf3d145
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559045(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559045(v=BTS.80)
 ms:contentKeyID: 51526547
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

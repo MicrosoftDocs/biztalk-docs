@@ -2,7 +2,7 @@
 title: IOneWayAsync.BizTalkSubmit Method
 TOCTitle: IOneWayAsync.BizTalkSubmit Method
 ms:assetid: f0b0f828-20ea-462b-bc6a-51b086c620d8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743798(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743798(v=BTS.80)
 ms:contentKeyID: 51533309
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

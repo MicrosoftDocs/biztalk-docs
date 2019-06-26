@@ -2,7 +2,7 @@
 title: Assert Functoid Reference
 TOCTitle: Assert Functoid Reference
 ms:assetid: 6fa11fc8-1fd2-403e-a961-f67714781aa6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560747(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560747(v=BTS.80)
 ms:contentKeyID: 51528839
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

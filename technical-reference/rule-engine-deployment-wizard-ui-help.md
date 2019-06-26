@@ -2,7 +2,7 @@
 title: Rule Engine Deployment Wizard UI Help
 TOCTitle: Rule Engine Deployment Wizard UI Help
 ms:assetid: c2187fd9-ebf9-4f47-b048-42ea78ca949d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547834(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547834(v=BTS.80)
 ms:contentKeyID: 51530955
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

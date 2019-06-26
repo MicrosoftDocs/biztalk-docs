@@ -2,7 +2,7 @@
 title: Catch Exception Block
 TOCTitle: Catch Exception Block
 ms:assetid: c3545960-9ea0-409e-8a36-c5c6c49dd435
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547861(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547861(v=BTS.80)
 ms:contentKeyID: 51531002
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

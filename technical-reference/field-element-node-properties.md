@@ -2,7 +2,7 @@
 title: Field Element Node Properties
 TOCTitle: Field Element Node Properties
 ms:assetid: b844d4ca-99f5-4a37-a9c4-b50b6b3c397f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578287(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578287(v=BTS.80)
 ms:contentKeyID: 51530737
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

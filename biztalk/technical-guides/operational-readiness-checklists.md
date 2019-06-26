@@ -54,7 +54,7 @@ The Operational Readiness checklists contain recommendations that you should con
   
 ## Next steps
   
--   [Checklist: Getting Started with BizTalk Server](http://msdn.microsoft.com/library/37d265cd-c393-46ac-ac21-129a1511359b)  
+-   [Checklist: Getting Started with BizTalk Server](https://msdn.microsoft.com/library/37d265cd-c393-46ac-ac21-129a1511359b)  
   
 -   [Checklist: Configuring Windows Server](../technical-guides/checklist-configuring-windows-server.md)  
   

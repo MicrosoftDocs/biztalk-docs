@@ -25,7 +25,7 @@ A business profile represents a business division in an organization. Just like 
 
 - Encoding settings (for X12 and EDIFACT messages) and protocol settings (AS2) that defines how the business profile can send or receive messages from another party.  
 
-  For more information about business profiles, see [Business Profiles](http://msdn.microsoft.com/library/f8286130-57fe-40ed-9fd8-81da2c8baaaf). For more information about encoding and transport protocol settings, see [Protocol Settings](../core/protocol-settings.md).  
+  For more information about business profiles, see [Business Profiles](https://msdn.microsoft.com/library/f8286130-57fe-40ed-9fd8-81da2c8baaaf). For more information about encoding and transport protocol settings, see [Protocol Settings](../core/protocol-settings.md).  
 
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B Operators group.  

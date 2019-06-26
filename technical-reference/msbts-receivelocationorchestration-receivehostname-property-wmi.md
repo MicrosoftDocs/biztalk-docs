@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocationOrchestration.ReceiveHostName Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.ReceiveHostName Property (WMI)
 ms:assetid: 86f91245-3e0a-4875-90d9-c2adc3c0d714
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561205(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561205(v=BTS.80)
 ms:contentKeyID: 51529446
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

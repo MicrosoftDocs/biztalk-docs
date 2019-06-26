@@ -2,7 +2,7 @@
 title: IBaseMessagePart.GetOriginalDataStream Method (COM)
 TOCTitle: IBaseMessagePart.GetOriginalDataStream Method (COM)
 ms:assetid: 2359b2e5-e574-41a1-9f56-aaa117825a4a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559195(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559195(v=BTS.80)
 ms:contentKeyID: 51526758
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Aggregation Viewer
 TOCTitle: Aggregation Viewer
 ms:assetid: d39664b8-0d2a-4ad7-a718-b4cbbe35a21b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578579(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578579(v=BTS.80)
 ms:contentKeyID: 51531577
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

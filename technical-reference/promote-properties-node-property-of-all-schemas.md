@@ -2,7 +2,7 @@
 title: Promote Properties (Node Property of All Schemas)
 TOCTitle: Promote Properties (Node Property of All Schemas)
 ms:assetid: 85921875-6286-4abb-a3ca-838237ec46aa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561182(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561182(v=BTS.80)
 ms:contentKeyID: 51529418
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

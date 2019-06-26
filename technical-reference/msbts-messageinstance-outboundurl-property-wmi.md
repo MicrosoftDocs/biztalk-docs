@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstance.OutboundURL Property (WMI)
 TOCTitle: MSBTS_MessageInstance.OutboundURL Property (WMI)
 ms:assetid: e25ff873-b1d9-472e-9767-c38157441730
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561560(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561560(v=BTS.80)
 ms:contentKeyID: 51532949
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

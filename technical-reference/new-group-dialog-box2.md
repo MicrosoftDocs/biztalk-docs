@@ -2,7 +2,7 @@
 title: New Group Dialog Box2
 TOCTitle: New Group Dialog Box
 ms:assetid: 1a5202e9-4159-41fb-838b-ed3424244140
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559036(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559036(v=BTS.80)
 ms:contentKeyID: 51526539
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

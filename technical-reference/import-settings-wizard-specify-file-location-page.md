@@ -2,7 +2,7 @@
 title: Import Settings Wizard, Specify File Location Page
 TOCTitle: Import Settings Wizard, Specify File Location Page
 ms:assetid: 73c1b1e4-0485-46c0-90af-fc7a4e45e1be
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629733(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629733(v=BTS.80)
 ms:contentKeyID: 51528943
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Method (Grid Property)
 TOCTitle: Method (Grid Property)
 ms:assetid: e2dfa3d6-bb40-45c7-ba81-526bec9304f7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561572(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561572(v=BTS.80)
 ms:contentKeyID: 51532932
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

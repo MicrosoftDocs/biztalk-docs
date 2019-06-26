@@ -2,7 +2,7 @@
 title: SAdapter Structure (COM)
 TOCTitle: SAdapter Structure (COM)
 ms:assetid: 36073d1a-af5c-4e20-b882-549713879da2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa770517(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa770517(v=BTS.80)
 ms:contentKeyID: 51527265
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

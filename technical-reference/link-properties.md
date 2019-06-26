@@ -2,7 +2,7 @@
 title: Link Properties
 TOCTitle: Link Properties
 ms:assetid: a3a16232-507c-4536-9584-de483a9bf220
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577850(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577850(v=BTS.80)
 ms:contentKeyID: 51530234
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

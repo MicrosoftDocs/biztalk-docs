@@ -2,7 +2,7 @@
 title: IBaseMessagePart.ContentType Property (COM)
 TOCTitle: IBaseMessagePart.ContentType Property (COM)
 ms:assetid: e02744b5-713e-47bb-9b6f-ac074527a338
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561511(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561511(v=BTS.80)
 ms:contentKeyID: 51532884
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

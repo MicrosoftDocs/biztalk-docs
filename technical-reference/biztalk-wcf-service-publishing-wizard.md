@@ -2,7 +2,7 @@
 title: BizTalk WCF Service Publishing Wizard
 TOCTitle: BizTalk WCF Service Publishing Wizard
 ms:assetid: d2cdd4d6-af92-447d-959a-6eff26c7db37
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226547(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226547(v=BTS.80)
 ms:contentKeyID: 51531446
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -24,7 +24,7 @@ Use the BizTalk WCF Service Publishing Wizard to create and publish BizTalk orch
 
 
 > [!NOTE]
-> <P>You may need to register the .svc extension with Internet Information Server (IIS) before you are able to browse to the service using the <STRONG>WCF Service Location Page</STRONG>. You can find information on this topic at either <A href="http://msdn.microsoft.com/en-us/library/aa751792.aspx">Deploying an Internet Information Services-Hosted WCF Service</A> or <A href="http://msdn.microsoft.com/en-us/library/aa751792(vs.85).aspx">Deploying an IIS-Hosted WCF Service</A>.</P>
+> <P>You may need to register the .svc extension with Internet Information Server (IIS) before you are able to browse to the service using the <STRONG>WCF Service Location Page</STRONG>. You can find information on this topic at either <A href="https://msdn.microsoft.com/library/aa751792.aspx">Deploying an Internet Information Services-Hosted WCF Service</A> or <A href="https://msdn.microsoft.com/library/aa751792(vs.85).aspx">Deploying an IIS-Hosted WCF Service</A>.</P>
 
 
 

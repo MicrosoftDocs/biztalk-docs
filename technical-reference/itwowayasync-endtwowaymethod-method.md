@@ -2,7 +2,7 @@
 title: ITwoWayAsync.EndTwoWayMethod Method
 TOCTitle: ITwoWayAsync.EndTwoWayMethod Method
 ms:assetid: f9b2f919-cbce-4989-87ea-e0495064ec04
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743838(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743838(v=BTS.80)
 ms:contentKeyID: 51533571
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

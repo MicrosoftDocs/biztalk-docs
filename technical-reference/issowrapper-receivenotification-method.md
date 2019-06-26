@@ -2,7 +2,7 @@
 title: ISSOWrapper.ReceiveNotification Method
 TOCTitle: ISSOWrapper.ReceiveNotification Method
 ms:assetid: e21e9fba-7114-49ff-a127-cac04991c8ef
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705432(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705432(v=BTS.80)
 ms:contentKeyID: 51532945
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

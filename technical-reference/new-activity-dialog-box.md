@@ -2,7 +2,7 @@
 title: New Activity Dialog Box
 TOCTitle: New Activity Dialog Box
 ms:assetid: 42de723e-df2b-4639-b2ba-8c6d5d54b40e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559811(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559811(v=BTS.80)
 ms:contentKeyID: 51527634
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

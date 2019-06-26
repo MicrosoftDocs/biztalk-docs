@@ -2,7 +2,7 @@
 title: ISSONotification Interface (COM)
 TOCTitle: ISSONotification Interface (COM)
 ms:assetid: 3294d633-fd1c-4ada-9bfa-5b169dca9433
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa770461(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa770461(v=BTS.80)
 ms:contentKeyID: 51527233
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

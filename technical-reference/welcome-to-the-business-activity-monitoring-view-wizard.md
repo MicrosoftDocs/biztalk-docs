@@ -2,7 +2,7 @@
 title: Welcome to the Business Activity Monitoring View Wizard
 TOCTitle: Welcome to the Business Activity Monitoring View Wizard
 ms:assetid: 52cc02f6-2d64-48fa-9053-4e8db1dc3148
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560170(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560170(v=BTS.80)
 ms:contentKeyID: 51528064
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

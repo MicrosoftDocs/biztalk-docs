@@ -2,7 +2,7 @@
 title: SPasswordChange Structure (COM)
 TOCTitle: SPasswordChange Structure (COM)
 ms:assetid: b3bd157d-3b83-4f7b-8590-88620b2551dc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705271(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705271(v=BTS.80)
 ms:contentKeyID: 51530612
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

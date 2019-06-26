@@ -2,7 +2,7 @@
 title: listOfValueXRefData Document
 TOCTitle: listOfValueXRefData Document
 ms:assetid: 17d7a54b-3f7b-4217-90b0-49f8f2b4e48d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558784(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558784(v=BTS.80)
 ms:contentKeyID: 51526479
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

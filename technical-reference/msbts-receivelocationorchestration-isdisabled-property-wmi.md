@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocationOrchestration.IsDisabled Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.IsDisabled Property (WMI)
 ms:assetid: fbf0e820-d4bc-414e-8bcd-6446ad2aa66c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562093(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562093(v=BTS.80)
 ms:contentKeyID: 51533673
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

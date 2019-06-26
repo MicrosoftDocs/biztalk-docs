@@ -2,7 +2,7 @@
 title: BizTalk Settings Dashboard, Host Instances Page, .NET CLR Tab
 TOCTitle: BizTalk Settings Dashboard, Host Instances Page, .NET CLR Tab
 ms:assetid: 050dc059-31e2-4eb2-9367-4af55da81a58
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629678(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629678(v=BTS.80)
 ms:contentKeyID: 51525980
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

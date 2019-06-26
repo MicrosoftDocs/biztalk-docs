@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocation.CustomCfg Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.CustomCfg Property (WMI)
 ms:assetid: 50db0788-b49c-484b-8fa6-e5f002a32e72
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560129(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560129(v=BTS.80)
 ms:contentKeyID: 51527992
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

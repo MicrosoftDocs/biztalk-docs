@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.ConfigurationCacheRefreshInterval Property (WMI)
 TOCTitle: MSBTS_GroupSetting.ConfigurationCacheRefreshInterval Property (WMI)
 ms:assetid: e51e7730-3fa6-4d9c-b268-d54372fda962
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561618(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561618(v=BTS.80)
 ms:contentKeyID: 51532996
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

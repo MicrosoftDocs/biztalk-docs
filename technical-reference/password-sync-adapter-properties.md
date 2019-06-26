@@ -2,7 +2,7 @@
 title: Password Sync Adapter Properties
 TOCTitle: Password Sync Adapter Properties
 ms:assetid: 868e30de-6969-4f0e-bc1b-6becba5891b6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743521(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743521(v=BTS.80)
 ms:contentKeyID: 51529435
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

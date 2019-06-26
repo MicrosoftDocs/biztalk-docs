@@ -2,7 +2,7 @@
 title: Record Count Functoid Reference
 TOCTitle: Record Count Functoid Reference
 ms:assetid: a380ed75-7726-4a74-9bc1-936369b1d886
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577847(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577847(v=BTS.80)
 ms:contentKeyID: 51530228
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

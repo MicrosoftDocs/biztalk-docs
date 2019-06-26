@@ -2,7 +2,7 @@
 title: Import Settings Wizard, Import Results Page
 TOCTitle: Import Settings Wizard, Import Results Page
 ms:assetid: 84422e17-0f17-476d-aa07-808029876353
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629739(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629739(v=BTS.80)
 ms:contentKeyID: 51529372
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

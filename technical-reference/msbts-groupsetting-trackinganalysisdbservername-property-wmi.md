@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.TrackingAnalysisDBServerName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.TrackingAnalysisDBServerName Property (WMI)
 ms:assetid: 97b37873-027a-485e-8f20-227dc51471b1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577462(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577462(v=BTS.80)
 ms:contentKeyID: 51529854
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

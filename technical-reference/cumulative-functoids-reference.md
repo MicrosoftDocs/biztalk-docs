@@ -2,7 +2,7 @@
 title: Cumulative Functoids Reference
 TOCTitle: Cumulative Functoids Reference
 ms:assetid: ee3b72df-92f3-4516-973a-c439eae1c150
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561799(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561799(v=BTS.80)
 ms:contentKeyID: 51533245
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

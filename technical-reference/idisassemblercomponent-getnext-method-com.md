@@ -2,7 +2,7 @@
 title: IDisassemblerComponent.GetNext Method (COM)
 TOCTitle: IDisassemblerComponent.GetNext Method (COM)
 ms:assetid: d01f6e61-9490-4b52-9772-e16e9c5f5c0a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578511(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578511(v=BTS.80)
 ms:contentKeyID: 51531370
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

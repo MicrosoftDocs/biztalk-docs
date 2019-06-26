@@ -2,7 +2,7 @@
 title: MSBTS_HostQueue.ResumeServiceInstancesByID Method (WMI)
 TOCTitle: MSBTS_HostQueue.ResumeServiceInstancesByID Method (WMI)
 ms:assetid: 48cc4259-c211-4423-94b0-6bc88edd952b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559938(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559938(v=BTS.80)
 ms:contentKeyID: 51527789
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

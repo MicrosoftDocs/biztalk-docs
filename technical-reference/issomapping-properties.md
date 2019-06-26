@@ -2,7 +2,7 @@
 title: ISSOMapping Properties
 TOCTitle: ISSOMapping Properties
 ms:assetid: d5143619-34c9-4e0d-a7fd-f16ff2e61a09
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771994(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771994(v=BTS.80)
 ms:contentKeyID: 51531506
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

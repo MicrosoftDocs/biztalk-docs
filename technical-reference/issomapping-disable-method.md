@@ -2,7 +2,7 @@
 title: ISSOMapping.Disable Method
 TOCTitle: ISSOMapping.Disable Method
 ms:assetid: 261e9716-fced-40b8-a63b-f4b1b75adbeb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa754269(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa754269(v=BTS.80)
 ms:contentKeyID: 51526897
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

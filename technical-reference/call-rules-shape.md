@@ -2,7 +2,7 @@
 title: Call Rules Shape
 TOCTitle: Call Rules Shape
 ms:assetid: c7d32b81-8169-495d-8b1d-a1c33e3cb898
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547950(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547950(v=BTS.80)
 ms:contentKeyID: 51531234
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

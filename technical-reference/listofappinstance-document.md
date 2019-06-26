@@ -2,7 +2,7 @@
 title: listOfAppInstance Document
 TOCTitle: listOfAppInstance Document
 ms:assetid: 831eaa54-facf-4528-921f-3af6a5e7fd6f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561126(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561126(v=BTS.80)
 ms:contentKeyID: 51529343
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

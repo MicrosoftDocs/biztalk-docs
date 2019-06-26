@@ -2,7 +2,7 @@
 title: ISSOAdmin.PurgeCacheForApplication Method
 TOCTitle: ISSOAdmin.PurgeCacheForApplication Method
 ms:assetid: 28e49ab8-3a67-452c-8263-58903e7709e9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa745033(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa745033(v=BTS.80)
 ms:contentKeyID: 51526887
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

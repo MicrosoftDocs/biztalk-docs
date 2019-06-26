@@ -2,7 +2,7 @@
 title: BizTalkServiceInstance Class
 TOCTitle: BizTalkServiceInstance Class
 ms:assetid: 5771903f-6eda-4ebf-b68b-5c81800ec9e5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb727883(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb727883(v=BTS.80)
 ms:contentKeyID: 51528171
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

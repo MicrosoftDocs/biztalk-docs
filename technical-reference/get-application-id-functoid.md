@@ -2,7 +2,7 @@
 title: Get Application ID Functoid
 TOCTitle: Get Application ID Functoid
 ms:assetid: 5cf8cb55-6d17-4e5a-b654-9bee51e0cd89
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560375(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560375(v=BTS.80)
 ms:contentKeyID: 51528320
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

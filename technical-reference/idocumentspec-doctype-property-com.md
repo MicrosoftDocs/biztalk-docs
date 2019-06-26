@@ -2,7 +2,7 @@
 title: IDocumentSpec.DocType Property (COM)
 TOCTitle: IDocumentSpec.DocType Property (COM)
 ms:assetid: ec9331a5-1d05-4181-98e0-fe781cf74515
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561765(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561765(v=BTS.80)
 ms:contentKeyID: 51533204
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

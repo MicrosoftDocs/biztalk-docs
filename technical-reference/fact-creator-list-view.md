@@ -2,7 +2,7 @@
 title: Fact Creator List View
 TOCTitle: Fact Creator List View
 ms:assetid: 557499e7-6ccf-4e78-bf54-c90b9bd70a12
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560226(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560226(v=BTS.80)
 ms:contentKeyID: 51528136
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

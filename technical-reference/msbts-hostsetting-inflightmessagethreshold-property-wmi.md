@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.InflightMessageThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.InflightMessageThreshold Property (WMI)
 ms:assetid: bace1a98-8c17-4613-bc42-1712e02fbf3d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578331(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578331(v=BTS.80)
 ms:contentKeyID: 51530808
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

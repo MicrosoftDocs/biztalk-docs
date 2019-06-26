@@ -2,7 +2,7 @@
 title: File Transport Properties Dialog Box, Receive, General Tab
 TOCTitle: File Transport Properties Dialog Box, Receive, General Tab
 ms:assetid: cd3061d7-9ef7-4a26-8809-fe394f97f064
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548062(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548062(v=BTS.80)
 ms:contentKeyID: 51531400
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

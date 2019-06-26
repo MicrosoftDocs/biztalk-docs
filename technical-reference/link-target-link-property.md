@@ -2,7 +2,7 @@
 title: Link Target (Link Property)
 TOCTitle: Link Target (Link Property)
 ms:assetid: b2938442-bde4-4bd3-aec6-69ffafc73134
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578172(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578172(v=BTS.80)
 ms:contentKeyID: 51530637
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

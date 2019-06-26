@@ -2,7 +2,7 @@
 title: Get Application Value Functoid
 TOCTitle: Get Application Value Functoid
 ms:assetid: af38c0b4-113e-49ee-9795-bf3f18a8aa96
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578092(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578092(v=BTS.80)
 ms:contentKeyID: 51530549
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

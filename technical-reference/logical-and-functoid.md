@@ -2,7 +2,7 @@
 title: Logical AND Functoid
 TOCTitle: Logical AND Functoid
 ms:assetid: 5fef25b1-8f1f-4056-80d0-02438362da1d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560432(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560432(v=BTS.80)
 ms:contentKeyID: 51528416
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

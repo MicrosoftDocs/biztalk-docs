@@ -2,7 +2,7 @@
 title: IBaseMessageContext.AddPredicate Method (COM)
 TOCTitle: IBaseMessageContext.AddPredicate Method (COM)
 ms:assetid: b1bd4386-86ab-4b58-af17-ad837a763c59
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578148(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578148(v=BTS.80)
 ms:contentKeyID: 51530561
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

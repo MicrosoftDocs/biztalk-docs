@@ -2,7 +2,7 @@
 title: Input Parameters (Functoid Property)
 TOCTitle: Input Parameters (Functoid Property)
 ms:assetid: e7af7273-1d80-4c6e-bb3e-0091700d35db
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561660(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561660(v=BTS.80)
 ms:contentKeyID: 51533058
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

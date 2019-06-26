@@ -2,7 +2,7 @@
 title: Envelope (Node Property of All Schemas)
 TOCTitle: Envelope (Node Property of All Schemas)
 ms:assetid: b6333ccc-f8df-4078-90fe-c9b5be25f16c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578250(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578250(v=BTS.80)
 ms:contentKeyID: 51530739
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

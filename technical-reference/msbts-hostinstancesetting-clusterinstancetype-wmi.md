@@ -2,7 +2,7 @@
 title: MSBTS_HostInstanceSetting.ClusterInstanceType (WMI)
 TOCTitle: MSBTS_HostInstanceSetting.ClusterInstanceType (WMI)
 ms:assetid: 0e8c40a5-9c35-4159-bd5f-c8608e63ed03
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547376(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547376(v=BTS.80)
 ms:contentKeyID: 51526218
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

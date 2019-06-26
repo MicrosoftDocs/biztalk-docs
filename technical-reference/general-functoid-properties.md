@@ -2,7 +2,7 @@
 title: General Functoid Properties
 TOCTitle: General Functoid Properties
 ms:assetid: c0a7f15d-9573-4991-aa1f-a963b4730999
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578442(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578442(v=BTS.80)
 ms:contentKeyID: 51530930
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

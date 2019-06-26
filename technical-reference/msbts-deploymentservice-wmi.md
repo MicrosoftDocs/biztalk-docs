@@ -2,7 +2,7 @@
 title: MSBTS_DeploymentService (WMI)
 TOCTitle: MSBTS_DeploymentService (WMI)
 ms:assetid: b2ff0753-edef-494c-980a-b5071faf23b2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578176(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578176(v=BTS.80)
 ms:contentKeyID: 51530589
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

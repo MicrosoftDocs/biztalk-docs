@@ -2,7 +2,7 @@
 title: ISSOMapping Methods
 TOCTitle: ISSOMapping Methods
 ms:assetid: 86429b9a-2bda-4c65-93ce-546a4fca4a31
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771483(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771483(v=BTS.80)
 ms:contentKeyID: 51529425
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

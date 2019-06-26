@@ -2,7 +2,7 @@
 title: FTP Transport Properties Dialog Box, Receive
 TOCTitle: FTP Transport Properties Dialog Box, Receive
 ms:assetid: c1eb4f71-3fe9-4c49-9a42-6d7a9858f244
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547828(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547828(v=BTS.80)
 ms:contentKeyID: 51530956
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

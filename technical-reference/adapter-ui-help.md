@@ -2,7 +2,7 @@
 title: Adapter UI Help
 TOCTitle: Adapter UI Help
 ms:assetid: 272351df-6425-4bbe-b3e9-8a932fbee71d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559277(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559277(v=BTS.80)
 ms:contentKeyID: 51526862
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

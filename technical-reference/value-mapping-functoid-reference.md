@@ -2,7 +2,7 @@
 title: Value Mapping Functoid Reference
 TOCTitle: Value Mapping Functoid Reference
 ms:assetid: e9c6e5ca-cedf-4e43-bbcc-fb8c2d880525
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561705(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561705(v=BTS.80)
 ms:contentKeyID: 51533146
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

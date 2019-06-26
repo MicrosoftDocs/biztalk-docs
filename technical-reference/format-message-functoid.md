@@ -2,7 +2,7 @@
 title: Format Message Functoid
 TOCTitle: Format Message Functoid
 ms:assetid: 477cc8b5-fe76-4b82-baee-fbc5fda1f1d5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559909(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559909(v=BTS.80)
 ms:contentKeyID: 51527768
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

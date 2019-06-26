@@ -2,7 +2,7 @@
 title: BizTalk Server Administration Console UI Help
 TOCTitle: BizTalk Server Administration Console UI Help
 ms:assetid: 23f58f81-e0e8-4b38-8f29-e17533fed2fc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559205(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559205(v=BTS.80)
 ms:contentKeyID: 51526808
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

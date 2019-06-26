@@ -2,7 +2,7 @@
 title: Namespace (Map Item Property)
 TOCTitle: Namespace (Map Item Property)
 ms:assetid: 177a6d92-4b6f-46f8-b7e6-605028234726
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558775(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558775(v=BTS.80)
 ms:contentKeyID: 51526467
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: ITwoWayAsyncVoid.BeginTwoWayMethod Method
 TOCTitle: ITwoWayAsyncVoid.BeginTwoWayMethod Method
 ms:assetid: 3f5f4351-9e16-4b14-98df-53edb9aa89e3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb727793(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb727793(v=BTS.80)
 ms:contentKeyID: 51527508
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

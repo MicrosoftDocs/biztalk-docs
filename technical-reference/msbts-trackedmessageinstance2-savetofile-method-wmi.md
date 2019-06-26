@@ -2,7 +2,7 @@
 title: MSBTS_TrackedMessageInstance2.SaveToFile Method (WMI)
 TOCTitle: MSBTS_TrackedMessageInstance2.SaveToFile Method (WMI)
 ms:assetid: 53f35713-c618-463d-abe5-66ff315b706b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560191(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560191(v=BTS.80)
 ms:contentKeyID: 51528084
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

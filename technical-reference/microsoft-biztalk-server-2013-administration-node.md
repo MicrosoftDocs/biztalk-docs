@@ -2,7 +2,7 @@
 title: Microsoft BizTalk Server 2013 Administration Node
 TOCTitle: Microsoft BizTalk Server 2013 Administration Node
 ms:assetid: af5f7220-9560-4cab-8740-761dd7447dfe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578094(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578094(v=BTS.80)
 ms:contentKeyID: 51530553
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

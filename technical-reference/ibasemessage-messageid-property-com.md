@@ -2,7 +2,7 @@
 title: IBaseMessage.MessageID Property (COM)
 TOCTitle: IBaseMessage.MessageID Property (COM)
 ms:assetid: a6fd85b4-3ad7-4884-8a80-025cdbd3630c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577917(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577917(v=BTS.80)
 ms:contentKeyID: 51530323
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

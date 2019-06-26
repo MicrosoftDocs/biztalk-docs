@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.STFromTime Property (WMI)
 TOCTitle: MSBTS_SendPort.STFromTime Property (WMI)
 ms:assetid: d3cbe6a3-2556-4aa4-87a6-fb02e8ab5b29
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578583(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578583(v=BTS.80)
 ms:contentKeyID: 51531580
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

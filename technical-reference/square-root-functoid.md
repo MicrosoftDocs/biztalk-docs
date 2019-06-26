@@ -2,7 +2,7 @@
 title: Square Root Functoid
 TOCTitle: Square Root Functoid
 ms:assetid: 1a4bb642-3295-4733-8457-efe1a5f8b3d6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559035(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559035(v=BTS.80)
 ms:contentKeyID: 51526535
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

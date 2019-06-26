@@ -2,7 +2,7 @@
 title: String Functoids Reference
 TOCTitle: String Functoids Reference
 ms:assetid: dfaf1813-21bf-4000-9010-845788c9cb45
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561496(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561496(v=BTS.80)
 ms:contentKeyID: 51532859
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_Orchestration.Stop Method (WMI)
 TOCTitle: MSBTS_Orchestration.Stop Method (WMI)
 ms:assetid: 613b10af-c86e-432b-b6cd-ede1add9d57f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560453(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560453(v=BTS.80)
 ms:contentKeyID: 51528434
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

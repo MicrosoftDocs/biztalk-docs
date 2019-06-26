@@ -2,7 +2,7 @@
 title: Facts Explorer, Vocabularies Tab
 TOCTitle: Facts Explorer, Vocabularies Tab
 ms:assetid: 21babd6a-39c8-4b89-8033-3d05b632b6f9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559171(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559171(v=BTS.80)
 ms:contentKeyID: 51526726
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

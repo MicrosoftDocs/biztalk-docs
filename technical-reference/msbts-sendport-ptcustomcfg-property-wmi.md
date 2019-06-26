@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.PTCustomCfg Property (WMI)
 TOCTitle: MSBTS_SendPort.PTCustomCfg Property (WMI)
 ms:assetid: 66d7b8d7-9cc7-4197-bc58-21752364177f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560550(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560550(v=BTS.80)
 ms:contentKeyID: 51528601
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

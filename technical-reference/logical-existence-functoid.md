@@ -2,7 +2,7 @@
 title: Logical Existence Functoid
 TOCTitle: Logical Existence Functoid
 ms:assetid: 2ce33c5d-8384-4b82-b929-add0e5519c53
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559386(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559386(v=BTS.80)
 ms:contentKeyID: 51527072
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

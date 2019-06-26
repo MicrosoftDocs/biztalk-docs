@@ -2,7 +2,7 @@
 title: IBTSTicket Members (COM)
 TOCTitle: IBTSTicket Members (COM)
 ms:assetid: 69f81536-7df6-4b8c-a800-a7ac9a56bced
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560627(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560627(v=BTS.80)
 ms:contentKeyID: 51528676
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

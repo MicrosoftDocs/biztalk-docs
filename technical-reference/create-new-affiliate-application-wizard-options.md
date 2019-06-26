@@ -2,7 +2,7 @@
 title: 'Create New Affiliate Application Wizard: Options'
 TOCTitle: 'Create New Affiliate Application Wizard: Options'
 ms:assetid: 5baebd21-cf3a-4b84-af00-1e20ca4afb97
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560351(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560351(v=BTS.80)
 ms:contentKeyID: 51528290
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_AdapterSetting.DefaultInboundCfg Property (WMI)
 TOCTitle: MSBTS_AdapterSetting.DefaultInboundCfg Property (WMI)
 ms:assetid: 8f069e42-ad9b-46be-b1ac-5c41fa8d43a8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561341(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561341(v=BTS.80)
 ms:contentKeyID: 51529637
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

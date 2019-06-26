@@ -2,7 +2,7 @@
 title: Policies Node, Details Pane
 TOCTitle: Policies Node, Details Pane
 ms:assetid: fe4dfc1d-299e-4af1-a7fc-29045f3b9b6c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562147(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562147(v=BTS.80)
 ms:contentKeyID: 51533786
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

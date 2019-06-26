@@ -2,7 +2,7 @@
 title: BizTalk Flat File Schema Wizard UI Help
 TOCTitle: BizTalk Flat File Schema Wizard UI Help
 ms:assetid: 944c8cc6-3488-4498-9533-c764b63d85ca
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577401(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577401(v=BTS.80)
 ms:contentKeyID: 51529784
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Group Max Occurs (Node Property of All Schemas)
 TOCTitle: Group Max Occurs (Node Property of All Schemas)
 ms:assetid: 17318b5b-29b9-42d7-88af-b2a742cf3f60
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558767(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558767(v=BTS.80)
 ms:contentKeyID: 51526458
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

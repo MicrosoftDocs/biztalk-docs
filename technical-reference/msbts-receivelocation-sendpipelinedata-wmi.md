@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocation.SendPipelineData (WMI)
 TOCTitle: MSBTS_ReceiveLocation.SendPipelineData (WMI)
 ms:assetid: 4ddc26fb-4f15-4ff3-a3fa-684fccdb2d03
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560064(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560064(v=BTS.80)
 ms:contentKeyID: 51527913
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

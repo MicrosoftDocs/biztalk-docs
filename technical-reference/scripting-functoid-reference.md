@@ -2,7 +2,7 @@
 title: Scripting Functoid Reference
 TOCTitle: Scripting Functoid Reference
 ms:assetid: d2bd405b-d432-492b-8557-de843c1c8f2f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578566(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578566(v=BTS.80)
 ms:contentKeyID: 51531562
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

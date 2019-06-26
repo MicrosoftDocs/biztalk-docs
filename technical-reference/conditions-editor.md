@@ -2,7 +2,7 @@
 title: Conditions Editor
 TOCTitle: Conditions Editor
 ms:assetid: 4bc3780f-7a5b-401d-93a2-38fd82aeab4d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560023(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560023(v=BTS.80)
 ms:contentKeyID: 51527859
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

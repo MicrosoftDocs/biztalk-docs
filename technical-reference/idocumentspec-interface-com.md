@@ -2,7 +2,7 @@
 title: IDocumentSpec Interface (COM)
 TOCTitle: IDocumentSpec Interface (COM)
 ms:assetid: 4660b0bb-d7c3-4863-bfba-2cc5321a9fc4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559883(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559883(v=BTS.80)
 ms:contentKeyID: 51527741
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

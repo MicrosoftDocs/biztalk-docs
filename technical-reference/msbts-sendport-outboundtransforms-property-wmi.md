@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.OutboundTransforms Property (WMI)
 TOCTitle: MSBTS_SendPort.OutboundTransforms Property (WMI)
 ms:assetid: d9f5764d-fbef-4fac-9ba0-8b65438aa2f2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578715(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578715(v=BTS.80)
 ms:contentKeyID: 51531667
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Script Type Precedence Dialog Box
 TOCTitle: Script Type Precedence Dialog Box
 ms:assetid: 3369245f-d8af-4046-80db-757d8fb4916b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559520(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559520(v=BTS.80)
 ms:contentKeyID: 51527202
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

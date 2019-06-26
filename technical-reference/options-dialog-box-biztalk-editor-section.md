@@ -2,7 +2,7 @@
 title: Options Dialog Box, BizTalk Editor Section
 TOCTitle: Options Dialog Box, BizTalk Editor Section
 ms:assetid: 32bbe3ba-8c8c-407b-855a-31d89bea4f8b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559503(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559503(v=BTS.80)
 ms:contentKeyID: 51527173
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

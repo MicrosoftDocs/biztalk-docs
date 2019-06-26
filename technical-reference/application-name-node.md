@@ -2,7 +2,7 @@
 title: <Application Name> Node
 TOCTitle: <Application Name> Node
 ms:assetid: b5af7d8a-2bb7-40bb-9c72-e51ea70e2d7b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578232(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578232(v=BTS.80)
 ms:contentKeyID: 51530667
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

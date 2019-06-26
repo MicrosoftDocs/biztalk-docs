@@ -2,7 +2,7 @@
 title: Resuming Suspended Service Instances of a Specific Orchestration Using WMI
 TOCTitle: Resuming Suspended Service Instances of a Specific Orchestration Using WMI
 ms:assetid: 87d93c70-0443-4b4d-a44b-896a5b2556cb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561219(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561219(v=BTS.80)
 ms:contentKeyID: 51529470
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

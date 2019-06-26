@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.SSOServerName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.SSOServerName Property (WMI)
 ms:assetid: 41daf653-b4cc-4068-805c-a85f3f8445a1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559796(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559796(v=BTS.80)
 ms:contentKeyID: 51527562
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

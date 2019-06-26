@@ -2,7 +2,7 @@
 title: MSBTS_ReceivePort.RouteFailedMessage Property (WMI)
 TOCTitle: MSBTS_ReceivePort.RouteFailedMessage Property (WMI)
 ms:assetid: 1e5194cb-78a4-4a28-b9d7-c610388b6529
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559114(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559114(v=BTS.80)
 ms:contentKeyID: 51526676
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

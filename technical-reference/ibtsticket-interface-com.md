@@ -2,7 +2,7 @@
 title: IBTSTicket Interface (COM)
 TOCTitle: IBTSTicket Interface (COM)
 ms:assetid: 6117f93d-d596-40e2-9880-7cfd74b00ec8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560452(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560452(v=BTS.80)
 ms:contentKeyID: 51528442
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

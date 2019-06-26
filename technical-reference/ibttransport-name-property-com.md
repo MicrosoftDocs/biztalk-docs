@@ -2,7 +2,7 @@
 title: IBTTransport.Name Property (COM)
 TOCTitle: IBTTransport.Name Property (COM)
 ms:assetid: 1e3d4eb6-d245-4ad1-bf33-f8d81bc44277
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559110(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559110(v=BTS.80)
 ms:contentKeyID: 51526671
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.ThrottlingTrackingDataMultiplier Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingTrackingDataMultiplier Property (WMI)
 ms:assetid: 2362aaa6-7e9e-4587-bdeb-c1019563e0c3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678623(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678623(v=BTS.80)
 ms:contentKeyID: 51526802
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

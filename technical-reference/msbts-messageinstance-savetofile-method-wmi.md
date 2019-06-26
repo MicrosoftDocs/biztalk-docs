@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstance.SaveToFile Method (WMI)
 TOCTitle: MSBTS_MessageInstance.SaveToFile Method (WMI)
 ms:assetid: 7758e76b-a0e6-4830-9974-b82365f03265
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560882(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560882(v=BTS.80)
 ms:contentKeyID: 51529034
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

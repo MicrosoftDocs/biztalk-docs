@@ -2,7 +2,7 @@
 title: HTTP Transport Properties Dialog Box
 TOCTitle: HTTP Transport Properties Dialog Box
 ms:assetid: aa3a9d4d-56d6-4db8-8636-347bd0293653
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577971(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577971(v=BTS.80)
 ms:contentKeyID: 51530351
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBTTransmitterBatch Interface (COM)
 TOCTitle: IBTTransmitterBatch Interface (COM)
 ms:assetid: 2c57383d-4e6a-4abd-b31b-2674d898a30f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559377(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559377(v=BTS.80)
 ms:contentKeyID: 51527063
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

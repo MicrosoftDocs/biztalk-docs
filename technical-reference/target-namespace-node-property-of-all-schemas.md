@@ -2,7 +2,7 @@
 title: Target Namespace (Node Property of All Schemas)
 TOCTitle: Target Namespace (Node Property of All Schemas)
 ms:assetid: 6067d3a3-f8f4-4ba4-b6c3-175755b90d67
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560441(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560441(v=BTS.80)
 ms:contentKeyID: 51528429
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

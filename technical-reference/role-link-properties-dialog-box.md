@@ -2,7 +2,7 @@
 title: Role Link Properties Dialog Box
 TOCTitle: Role Link Properties Dialog Box
 ms:assetid: ad535297-7174-4a14-9281-612c91e345a3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578046(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578046(v=BTS.80)
 ms:contentKeyID: 51530440
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

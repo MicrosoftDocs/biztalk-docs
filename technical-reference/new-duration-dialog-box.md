@@ -2,7 +2,7 @@
 title: New Duration Dialog Box
 TOCTitle: New Duration Dialog Box
 ms:assetid: 807eb875-2cce-4e8d-b5c4-c1f04b98cdbd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561066(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561066(v=BTS.80)
 ms:contentKeyID: 51529264
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

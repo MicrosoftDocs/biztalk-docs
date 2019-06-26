@@ -2,7 +2,7 @@
 title: Pipelines Node
 TOCTitle: Pipelines Node
 ms:assetid: 950ea897-f9f3-4c37-80be-b2f38ca3bd95
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577418(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577418(v=BTS.80)
 ms:contentKeyID: 51529812
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

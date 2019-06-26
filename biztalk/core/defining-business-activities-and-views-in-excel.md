@@ -28,7 +28,7 @@ Your first step in creating any BAM solution is to identify what data you're int
   
  The completed activity definition defines the data points and events that you need collected when a business process is run. You can get the BAM Add-in from a variety of sources.  
   
- You can install the BAM Add-in XLA during the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)  
+ You can install the BAM Add-in XLA during the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)  
   
  The BAM.XLA file is installed in one of the following locations:  
   

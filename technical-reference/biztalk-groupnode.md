@@ -2,7 +2,7 @@
 title: BizTalk GroupNode
 TOCTitle: BizTalk GroupNode
 ms:assetid: 2d4c607f-af04-4c39-bbbf-ba364be2d3dd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559395(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559395(v=BTS.80)
 ms:contentKeyID: 51527016
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

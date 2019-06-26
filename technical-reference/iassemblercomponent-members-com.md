@@ -2,7 +2,7 @@
 title: IAssemblerComponent Members (COM)
 TOCTitle: IAssemblerComponent Members (COM)
 ms:assetid: 4e62c366-1590-44f0-9788-36e11237e098
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560073(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560073(v=BTS.80)
 ms:contentKeyID: 51527925
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

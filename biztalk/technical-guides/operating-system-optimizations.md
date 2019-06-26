@@ -60,7 +60,7 @@ This topic provides recommendations for optimizing performance of the [!INCLUDE[
     >  Use the PageDefrag utility available at [http://go.microsoft.com/fwlink/?LinkId=108976](http://go.microsoft.com/fwlink/?LinkId=108976) to defragment the Windows PageFile and pre-allocate the Master File Tables.  
   
 ### If antivirus software is installed on the SQL Server computer(s), disable real-time scanning of data and transaction files  
- Real-time scanning of the SQL Server data and transaction files (.mdf, .ndf, .ldf, .mdb) can increase disk I/O contention and reduce SQL Server performance. Note that the names of the SQL Server data and transaction files may vary between BizTalk Server environments. For more information about the data and transaction files created with a default BizTalk Server configuration, see[Optimizing Filegroups for the Databases](http://msdn.microsoft.com/library/ee377060\(v=bts.70\).aspx).  
+ Real-time scanning of the SQL Server data and transaction files (.mdf, .ndf, .ldf, .mdb) can increase disk I/O contention and reduce SQL Server performance. Note that the names of the SQL Server data and transaction files may vary between BizTalk Server environments. For more information about the data and transaction files created with a default BizTalk Server configuration, see[Optimizing Filegroups for the Databases](https://msdn.microsoft.com/library/ee377060\(v=bts.70\).aspx).  
   
 ### Configure MSDTC for BizTalk Server  
  Review the following information to configure MSDTC for BizTalk Server:  

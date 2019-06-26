@@ -2,7 +2,7 @@
 title: Role Link Shape
 TOCTitle: Role Link Shape
 ms:assetid: 6d36cffd-70db-4ed5-a773-1bc33d8c400f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560689(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560689(v=BTS.80)
 ms:contentKeyID: 51528777
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

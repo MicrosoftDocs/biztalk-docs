@@ -2,7 +2,7 @@
 title: INamedItemList.Count Property (COM)
 TOCTitle: INamedItemList.Count Property (COM)
 ms:assetid: 9f23a437-d215-438c-9d89-8d8caeea35f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577633(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577633(v=BTS.80)
 ms:contentKeyID: 51530083
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

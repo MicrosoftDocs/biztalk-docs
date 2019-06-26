@@ -2,7 +2,7 @@
 title: IBTTransportProxy Interface (COM)
 TOCTitle: IBTTransportProxy Interface (COM)
 ms:assetid: c15e965c-a630-4eae-b9b4-e9f3b704ad4b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578458(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578458(v=BTS.80)
 ms:contentKeyID: 51530944
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

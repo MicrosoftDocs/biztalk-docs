@@ -2,7 +2,7 @@
 title: Default Repeating Delimiter Type (Node Property of Flat File Schemas)
 TOCTitle: Default Repeating Delimiter Type (Node Property of Flat File Schemas)
 ms:assetid: 187a13dc-e17b-4171-b2a4-8df13da5223e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558797(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558797(v=BTS.80)
 ms:contentKeyID: 51526475
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.TimeBasedMaxThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.TimeBasedMaxThreshold Property (WMI)
 ms:assetid: d49968f4-81c9-4ef7-aa08-a58381d80d24
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678640(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678640(v=BTS.80)
 ms:contentKeyID: 51531487
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

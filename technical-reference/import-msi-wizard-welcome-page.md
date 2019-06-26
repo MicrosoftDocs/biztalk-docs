@@ -2,7 +2,7 @@
 title: Import MSI Wizard, Welcome Page
 TOCTitle: Import MSI Wizard, Welcome Page
 ms:assetid: 659a2aa8-279a-479a-bf39-9f1c1be5fe1a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560529(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560529(v=BTS.80)
 ms:contentKeyID: 51528543
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

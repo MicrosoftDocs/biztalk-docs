@@ -2,7 +2,7 @@
 title: Octal Functoid
 TOCTitle: Octal Functoid
 ms:assetid: c41f5c3a-1e5d-4270-867f-ec8863d10170
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547877(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547877(v=BTS.80)
 ms:contentKeyID: 51531143
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

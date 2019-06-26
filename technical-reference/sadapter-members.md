@@ -2,7 +2,7 @@
 title: SAdapter Members
 TOCTitle: SAdapter Members
 ms:assetid: 4500864e-01ec-4077-a721-11f6defdfe1e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa754318(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa754318(v=BTS.80)
 ms:contentKeyID: 51527700
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

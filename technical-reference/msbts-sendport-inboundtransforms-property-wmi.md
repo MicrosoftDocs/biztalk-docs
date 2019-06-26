@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.InboundTransforms Property (WMI)
 TOCTitle: MSBTS_SendPort.InboundTransforms Property (WMI)
 ms:assetid: 03d7b925-a839-4a7c-a4e3-6c0e64783529
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546800(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546800(v=BTS.80)
 ms:contentKeyID: 51525948
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

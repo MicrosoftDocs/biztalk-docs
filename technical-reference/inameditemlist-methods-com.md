@@ -2,7 +2,7 @@
 title: INamedItemList Methods (COM)
 TOCTitle: INamedItemList Methods (COM)
 ms:assetid: fc2def5f-3c56-4cf7-9fc6-931ab14a9565
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562101(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562101(v=BTS.80)
 ms:contentKeyID: 51533649
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

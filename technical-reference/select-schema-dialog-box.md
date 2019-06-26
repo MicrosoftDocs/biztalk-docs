@@ -2,7 +2,7 @@
 title: Select Schema Dialog Box
 TOCTitle: Select Schema Dialog Box
 ms:assetid: ac55e958-520b-4fdb-ba48-e60108157aee
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578019(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578019(v=BTS.80)
 ms:contentKeyID: 51530409
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
