@@ -93,7 +93,7 @@ You can test your published Web service without writing a Web client application
   
 #### Test a Web service with Internet Explorer using HTTP-GET (alternate method)  
   
-1.  In Internet Explorer, in the **Address** box, type the URL for the Web service using the format ***http://servername/vdir/webservicename.asmx/Methodname?parameter=value***.  
+1.  In Internet Explorer, in the **Address** box, type the URL for the Web service using the format **_http://servername/vdir/webservicename.asmx/Methodname?parameter=value_**.  
   
     |Parameter|Value|  
     |---------------|-----------|  

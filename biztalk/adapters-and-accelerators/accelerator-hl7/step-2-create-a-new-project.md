@@ -33,7 +33,7 @@ In this step, you build a new solution by using the Microsoft [!INCLUDE[btsVStud
   
 5. In the **Name** field, type **BTAHL7V22Common** as the project name.  
   
-6. In the **Location** field, type *\<drive\>***:\Tutorial** as the path, and then click **OK** to open the new project.  
+6. In the **Location** field, type *\<drive\>**_:\Tutorial_* as the path, and then click **OK** to open the new project.  
   
    > [!NOTE]
    >  BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) adds a new project to Solution Explorer with the three common schemas:  
@@ -54,7 +54,7 @@ In this step, you build a new solution by using the Microsoft [!INCLUDE[btsVStud
   
 10. In the **Name** field, type **BTAHL7V2XCommon** as the project name.  
   
-11. In the **Location** field, type *\<drive\>***:\Tutorial** as the path.  
+11. In the **Location** field, type *\<drive\>**_:\Tutorial_* as the path.  
   
 12. In the **Solution** field, select **Add to Solution**, and then click **OK**.  
   

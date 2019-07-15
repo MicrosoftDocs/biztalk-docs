@@ -39,7 +39,7 @@ You can use the **Query** tab in the BizTalk Server Administration Console to se
 
 4. In the **Query Expression** group, in the **Value** column, select **All In-Progress Service Instances** from the drop-down list box.  
 
-5. In the **Field Name** column, in the empty drop-down list box next to the asterisk (**\\***), select one or more of the following:  
+5. In the **Field Name** column, in the empty drop-down list box next to the asterisk (**\\\***), select one or more of the following:  
 
 
    |        Use this         |                                                                                                              To do this                                                                                                              |

@@ -81,7 +81,7 @@ After you perform the steps necessary to restore the Business Activity Monitorin
   
    1.  Click **Start**, click **Programs**, click **Microsoft SQL Server 2008 R2**, click **Configuration Tools**, and then click **Notification Services Command Prompt**.  
   
-   2.  At the command prompt, type: **nscontrol register -name BamAlerts -server** *\<ServerName\>***-service -serviceusername "***\<ServiceUserName\>***" -servicepassword "***\<ServicePassword\>***"**  
+   2.  At the command prompt, type: **nscontrol register -name BamAlerts -server** _\<ServerName\>_**-service -serviceusername "**_\<ServiceUserName\>_**" -servicepassword "**_\<ServicePassword\>_**"**  
   
         This enables Notification Services to log on to the correct database (this information is maintained in the registry of the service machine by nscontrol).  
   
