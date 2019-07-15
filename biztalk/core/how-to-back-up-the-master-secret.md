@@ -42,7 +42,7 @@ You can back up the master secret from the master secret server onto an NTFS fil
   
 3. At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4. Type **ssoconfig –backupSecret *\<backup file\>**<em>, where *\<backup file\></em> is the path and name of the file where the master secret will be backed up. For example, A:\ssobackup.bak  
+4. Type **ssoconfig –backupSecret \*\<backup file\>**<em>, where *\<backup file\></em> is the path and name of the file where the master secret will be backed up. For example, A:\ssobackup.bak  
   
    > [!NOTE]
    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
