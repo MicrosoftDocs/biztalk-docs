@@ -53,7 +53,7 @@ This topic describes how the [!INCLUDE[adaptersql](../../includes/adaptersql-md.
 |Time|Duration|Timespan|-|  
 |Timestamp|Base64Binary|Byte[]|-|  
 |Tinyint|UnsignedByte|Byte|-|  
-|Uniqueidentifier|{http://schemas.microsoft.com/2003/10/Serialization/}:guid|Guid|-|  
+|Uniqueidentifier|{http:\//schemas.microsoft.com/2003/10/Serialization/}:guid|Guid|-|  
 |Varbinary|Base64Binary|Byte[]|-|  
 |Varbinary(Max)|Base64Binary|Byte[]|-|  
 |Varchar|String|String|-|  
