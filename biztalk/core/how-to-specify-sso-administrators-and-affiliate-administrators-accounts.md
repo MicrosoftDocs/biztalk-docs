@@ -62,7 +62,7 @@ The Enterprise Single Sign-On (SSO) Administrators and Affiliate Administrators 
   
 2.  At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3.  Type **ssomanage** –**disablesso**.  
+3.  Type **ssomanage -disablesso**.  
   
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
@@ -81,7 +81,7 @@ The Enterprise Single Sign-On (SSO) Administrators and Affiliate Administrators 
   
 2. At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3. Type **ssomanage –updatedb *\<update file\>**<em>, where *\<update file\></em> is the path and name of the XML file.  
+3. Type **ssomanage –updatedb \<update file>**, where \<update file> is the path and name of the XML file.  
   
    > [!NOTE]
    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
