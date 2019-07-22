@@ -38,7 +38,7 @@ The File adapter transfers files into and out of BizTalk Server from and to a di
 
 ## Required permissions
 
-Adapter handlers run under the security context of the host instance selected for the adapter handler. The host instance uses the `Logon` property in the ***Host name* - Host Instance Properties** in BizTalk Administration. This `Logon` account must have specific permissions to any folders or shares used by the File adapter.
+Adapter handlers run under the security context of the host instance selected for the adapter handler. The host instance uses the `Logon` property in the **_Host name_ - Host Instance Properties** in BizTalk Administration. This `Logon` account must have specific permissions to any folders or shares used by the File adapter.
 
 The host instance user account used by the handler requires the following permissions. A ✔ means the permission is required. A blank entry means the permission is not required.
 
