@@ -56,7 +56,7 @@ This topic describes the development process and the database and tables that st
   
     -   Update the data items in the record.  
   
-    -   End the activity and move the record to the BAM_\<*activity name**\>_completed table.  
+    -   End the activity and move the record to the BAM_\<*activity name*\>_completed table.  
   
 ## Where BAM Data Is Stored  
  BAM provides the EventObservation namespace that contains the EventStream classes that are used to handle BAM events.  
