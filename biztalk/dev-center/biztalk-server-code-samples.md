@@ -6,6 +6,8 @@ ms.author: mandia
 ms.date: 11/01/2018
 ms.topic: conceptual
 
+author: MandiOhlinger
+
 ---
 # BizTalk Server Code Samples
 
