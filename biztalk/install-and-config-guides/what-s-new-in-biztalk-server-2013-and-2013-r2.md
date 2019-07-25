@@ -6,7 +6,7 @@ author: "MandiOhlinger"
 manager: "anneta"
 
 ms.custom: ""
-ms.date: "2017-08-10"
+ms.date: "08/10/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""

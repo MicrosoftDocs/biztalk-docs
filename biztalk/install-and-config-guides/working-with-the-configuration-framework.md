@@ -1,7 +1,7 @@
 ---
 title: "Working with the Configuration Framework | Microsoft Docs"
 ms.custom: ""
-ms.date: "2015-10-28"
+ms.date: "10/28/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""

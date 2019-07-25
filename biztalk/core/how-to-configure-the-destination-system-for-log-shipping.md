@@ -1,7 +1,7 @@
 ---
 title: "How to Configure the Destination System for Log Shipping | Microsoft Docs"
 ms.custom: ""
-ms.date: "2015-12-03"
+ms.date: "12/03/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
