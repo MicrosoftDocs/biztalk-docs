@@ -1,7 +1,7 @@
 ---
 title: "High Availability for Enterprise Single Sign-On | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-02-29"
+ms.date: "02/29/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

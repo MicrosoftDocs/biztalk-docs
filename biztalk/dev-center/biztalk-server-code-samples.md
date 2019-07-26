@@ -3,8 +3,10 @@ title: BizTalk Server code samples
 description: Download BizTalk Server sample collections, or browse lists of individual samples.
 ms.prod: biztalk-server
 ms.author: mandia
-ms.date: 11/1/18
+ms.date: 11/01/2018
 ms.topic: conceptual
+
+author: MandiOhlinger
 
 ---
 # BizTalk Server Code Samples

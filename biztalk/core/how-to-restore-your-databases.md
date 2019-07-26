@@ -2,7 +2,7 @@
 title: "Restore Your Databases | Microsoft Docs"
 description: See the steps to restore the BizTalk Server databases, including using the SQL Agent jobs, and running the UpdateDatabase.vbs and UpdateRegistry.vbs scripts. ALso see what to do after the databases are restored, including updating the SQL Server instance name in the BizTalk Administration console.
 ms.custom: ""
-ms.date: "04/22/19"
+ms.date: "04/22/2019"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

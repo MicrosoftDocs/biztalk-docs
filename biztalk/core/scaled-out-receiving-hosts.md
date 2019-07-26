@@ -1,7 +1,7 @@
 ---
 title: "Scaled-Out Receiving Hosts | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-03-17"
+ms.date: "03/17/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

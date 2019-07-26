@@ -2,7 +2,7 @@
 title: "Technical Guides"
 ms.custom: ""
 ms.prod: biztalk-server
-ms.date: "2016-03-17"
+ms.date: "03/17/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

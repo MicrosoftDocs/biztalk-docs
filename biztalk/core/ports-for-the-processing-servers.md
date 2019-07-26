@@ -1,7 +1,7 @@
 ---
 title: "Ports for the Processing Servers | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-01-07"
+ms.date: "01/07/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

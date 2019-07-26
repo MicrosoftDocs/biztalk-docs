@@ -1,7 +1,7 @@
 ---
 title: "How to Configure an SMTP Send Handler | Microsoft Docs"
 ms.custom: ""
-ms.date: "2015-10-22"
+ms.date: "10/22/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

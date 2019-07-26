@@ -1,7 +1,7 @@
 ---
 title: "Step 4: Create the Receive Port for Accepting ADT^A03 Messages from ADT Systems Using the MLLP Adapter | Microsoft Docs"
 ms.custom: ""
-ms.date: "2015-12-09"
+ms.date: "12/09/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
