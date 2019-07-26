@@ -2,7 +2,7 @@
 title: Minimum Value Functoid
 TOCTitle: Minimum Value Functoid
 ms:assetid: e9ea1d87-dd6d-4814-87f4-ffd933d6f0c3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561708(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561708(v=BTS.80)
 ms:contentKeyID: 51533127
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

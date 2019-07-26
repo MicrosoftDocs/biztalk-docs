@@ -2,7 +2,7 @@
 title: Escape Character Type (Node Property of Flat File Schemas)
 TOCTitle: Escape Character Type (Node Property of Flat File Schemas)
 ms:assetid: d2aac497-80e9-49f8-a0c7-64e23aa323a4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578565(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578565(v=BTS.80)
 ms:contentKeyID: 51531444
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

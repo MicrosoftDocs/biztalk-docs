@@ -2,7 +2,7 @@
 title: Business Activity Monitoring Activity Wizard
 TOCTitle: Business Activity Monitoring Activity Wizard
 ms:assetid: d57f9e0b-b88e-4e12-816a-59f5ed2fd22a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578620(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578620(v=BTS.80)
 ms:contentKeyID: 51531636
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

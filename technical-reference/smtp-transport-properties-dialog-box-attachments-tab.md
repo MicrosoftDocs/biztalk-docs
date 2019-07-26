@@ -2,7 +2,7 @@
 title: SMTP Transport Properties Dialog Box, Attachments Tab
 TOCTitle: SMTP Transport Properties Dialog Box, Attachments Tab
 ms:assetid: d0bba641-1112-4770-8e85-6e0fe74c0d3f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578523(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578523(v=BTS.80)
 ms:contentKeyID: 51531497
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

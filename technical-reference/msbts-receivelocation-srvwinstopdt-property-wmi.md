@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocation.SrvWinStopDT Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.SrvWinStopDT Property (WMI)
 ms:assetid: 3961c0d9-7e16-4495-809a-49f37db649f8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559629(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559629(v=BTS.80)
 ms:contentKeyID: 51527343
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

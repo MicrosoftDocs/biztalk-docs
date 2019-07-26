@@ -2,7 +2,7 @@
 title: IAssemblerComponent.Assemble Method (COM)
 TOCTitle: IAssemblerComponent.Assemble Method (COM)
 ms:assetid: fe93cd74-5ddc-45b4-9427-f6380134453a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562151(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562151(v=BTS.80)
 ms:contentKeyID: 51533793
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

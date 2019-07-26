@@ -2,7 +2,7 @@
 title: Default Property Schema Name (Schema File Property)
 TOCTitle: Default Property Schema Name (Schema File Property)
 ms:assetid: e53b023e-c5de-450b-9b60-bda0ec5cf16b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561620(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561620(v=BTS.80)
 ms:contentKeyID: 51532997
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

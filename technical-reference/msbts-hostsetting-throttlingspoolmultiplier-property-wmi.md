@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.ThrottlingSpoolMultiplier Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingSpoolMultiplier Property (WMI)
 ms:assetid: a5fb1531-f8cc-4270-ada8-3069ab37acf3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678633(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678633(v=BTS.80)
 ms:contentKeyID: 51530244
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

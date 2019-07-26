@@ -2,7 +2,7 @@
 title: MSBTS_HostInstance.IsDisabled Property (WMI)
 TOCTitle: MSBTS_HostInstance.IsDisabled Property (WMI)
 ms:assetid: b22d8b0b-81ef-4e07-a058-3eb5ddeecc61
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578157(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578157(v=BTS.80)
 ms:contentKeyID: 51530569
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

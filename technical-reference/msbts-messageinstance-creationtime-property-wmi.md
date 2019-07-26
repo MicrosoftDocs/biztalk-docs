@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstance.CreationTime Property (WMI)
 TOCTitle: MSBTS_MessageInstance.CreationTime Property (WMI)
 ms:assetid: 99e41944-9cc4-4863-bd68-621297818582
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577501(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577501(v=BTS.80)
 ms:contentKeyID: 51529933
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

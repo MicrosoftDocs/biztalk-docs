@@ -2,7 +2,7 @@
 title: BizTalk WCF Service Consuming Wizard
 TOCTitle: BizTalk WCF Service Consuming Wizard
 ms:assetid: 6f4fc7b6-5a85-4c90-ae89-2933c90f7325
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226343(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226343(v=BTS.80)
 ms:contentKeyID: 51528828
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -64,7 +64,7 @@ The default is an empty string.</td>
 </tr>
 <tr class="even">
 <td><strong>Edit</strong></td>
-<td>Edit the user credential to use when downloading metadata documents from the service specified in the <strong>Metadata Address (URL)</strong> drop-down list. If the service requires user credentials with the basic authentication scheme, you must supply an appropriate user name and password to the service. This open the <strong>BizTalk WCF Service Consuming Wizard</strong> dialog box in which you can specify user name and password. <strong>Note:</strong> BizTalk WCF Service Consuming Wizard does not allow you to set certificate credentials in the wizard. To workaround this limitation, see <a href="https://msdn.microsoft.com/en-us/library/bb246060(v=bts.80)">Known Issues for the WCF Adapters</a>.</td>
+<td>Edit the user credential to use when downloading metadata documents from the service specified in the <strong>Metadata Address (URL)</strong> drop-down list. If the service requires user credentials with the basic authentication scheme, you must supply an appropriate user name and password to the service. This open the <strong>BizTalk WCF Service Consuming Wizard</strong> dialog box in which you can specify user name and password. <strong>Note:</strong> BizTalk WCF Service Consuming Wizard does not allow you to set certificate credentials in the wizard. To workaround this limitation, see <a href="https://msdn.microsoft.com/library/bb246060(v=bts.80)">Known Issues for the WCF Adapters</a>.</td>
 </tr>
 <tr class="odd">
 <td><strong>Get</strong></td>

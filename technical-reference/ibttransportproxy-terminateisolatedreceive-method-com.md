@@ -2,7 +2,7 @@
 title: IBTTransportProxy.TerminateIsolatedReceive Method (COM)
 TOCTitle: IBTTransportProxy.TerminateIsolatedReceive Method (COM)
 ms:assetid: 0a894785-8bb0-4a5f-afab-b85cc18ced67
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547233(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547233(v=BTS.80)
 ms:contentKeyID: 51526099
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

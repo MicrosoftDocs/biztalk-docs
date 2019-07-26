@@ -50,4 +50,4 @@ This section contains information for developers who are tasked with creating Bi
 ## See Also  
  [Understanding BizTalk Application Deployment and Management](../core/understanding-biztalk-application-deployment-and-management.md)   
  [BizTalk Application Deployment and Management Checklists](../core/biztalk-application-deployment-and-management-checklists.md)   
- [BizTalk Application Deployment and Management Walkthroughs](http://msdn.microsoft.com/library/5321f8e0-1e2a-4ac4-a4a2-fc244071bc5b)
+ [BizTalk Application Deployment and Management Walkthroughs](https://msdn.microsoft.com/library/5321f8e0-1e2a-4ac4-a4a2-fc244071bc5b)

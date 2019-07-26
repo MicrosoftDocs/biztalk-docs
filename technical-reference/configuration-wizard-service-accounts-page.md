@@ -2,7 +2,7 @@
 title: Configuration Wizard, Service Accounts Page
 TOCTitle: Configuration Wizard, Service Accounts Page
 ms:assetid: fabdbd15-69fb-4b70-8cbd-ffc20bb47f31
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562069(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562069(v=BTS.80)
 ms:contentKeyID: 51533582
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

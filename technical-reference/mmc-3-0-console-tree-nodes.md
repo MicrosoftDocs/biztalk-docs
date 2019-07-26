@@ -2,7 +2,7 @@
 title: MMC 3.0 Console Tree Nodes
 TOCTitle: MMC 3.0 Console Tree Nodes
 ms:assetid: 081d101d-9bac-4a76-a45e-cf35f37b3a4c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547081(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547081(v=BTS.80)
 ms:contentKeyID: 51526054
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

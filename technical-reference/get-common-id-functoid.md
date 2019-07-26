@@ -2,7 +2,7 @@
 title: Get Common ID Functoid
 TOCTitle: Get Common ID Functoid
 ms:assetid: d5d30c54-8b77-4623-8171-903b98edb9a1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578629(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578629(v=BTS.80)
 ms:contentKeyID: 51531530
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

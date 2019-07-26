@@ -2,7 +2,7 @@
 title: Any Attribute Node Properties
 TOCTitle: Any Attribute Node Properties
 ms:assetid: e23a71b6-68f8-42e1-9415-3d6b71658592
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561552(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561552(v=BTS.80)
 ms:contentKeyID: 51532946
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

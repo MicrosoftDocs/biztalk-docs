@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.MessageDeliverySampleSpaceWindow (WMI)
 TOCTitle: MSBTS_HostSetting.MessageDeliverySampleSpaceWindow (WMI)
 ms:assetid: 42ff0faa-3152-4aa8-b74f-3d8249057d69
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559813(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559813(v=BTS.80)
 ms:contentKeyID: 51527636
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

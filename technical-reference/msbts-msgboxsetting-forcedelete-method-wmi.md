@@ -2,7 +2,7 @@
 title: MSBTS_MsgBoxSetting.ForceDelete Method (WMI)
 TOCTitle: MSBTS_MsgBoxSetting.ForceDelete Method (WMI)
 ms:assetid: 7399c9ff-ef94-44b7-973d-a183d63109d2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560820(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560820(v=BTS.80)
 ms:contentKeyID: 51528934
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

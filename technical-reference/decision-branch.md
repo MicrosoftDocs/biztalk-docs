@@ -2,7 +2,7 @@
 title: Decision Branch
 TOCTitle: Decision Branch
 ms:assetid: a18e7b9a-599b-47c6-9d16-4fec5bbdc97d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577695(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577695(v=BTS.80)
 ms:contentKeyID: 51530162
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

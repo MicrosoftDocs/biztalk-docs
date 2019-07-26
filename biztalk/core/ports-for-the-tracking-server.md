@@ -1,7 +1,7 @@
 ---
 title: "Ports for the Tracking Server | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-01-07"
+ms.date: "01/07/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -47,4 +47,4 @@ For complete information about securing your BizTalk Server deployment, see [Sam
  [Security Considerations for Message and Instance Data Tracking](../core/security-considerations-for-message-and-instance-data-tracking.md)   
  [Large Distributed Architecture with Information Worker Services](../core/large-distributed-architecture-with-information-worker-services.md)   
  [Required Ports for BizTalk Server](../core/required-ports-for-biztalk-server.md)   
- [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)

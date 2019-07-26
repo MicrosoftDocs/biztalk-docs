@@ -2,7 +2,7 @@
 title: Table Looping Grid (Functoid Property)
 TOCTitle: Table Looping Grid (Functoid Property)
 ms:assetid: 2e5244a1-2a12-40ed-ad67-b8e7baa3f048
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559418(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559418(v=BTS.80)
 ms:contentKeyID: 51527054
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

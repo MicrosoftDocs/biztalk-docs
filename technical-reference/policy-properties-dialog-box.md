@@ -2,7 +2,7 @@
 title: Policy Properties Dialog Box
 TOCTitle: Policy Properties Dialog Box
 ms:assetid: b44d2456-7079-4a08-89f5-a79029178ee6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578202(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578202(v=BTS.80)
 ms:contentKeyID: 51530683
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

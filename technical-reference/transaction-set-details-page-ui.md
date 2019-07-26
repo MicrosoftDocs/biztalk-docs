@@ -2,7 +2,7 @@
 title: Transaction Set Details Page UI
 TOCTitle: Transaction Set Details Page UI
 ms:assetid: 1123586a-ecd8-439c-96f0-43c8965b9340
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743355(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743355(v=BTS.80)
 ms:contentKeyID: 51526296
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

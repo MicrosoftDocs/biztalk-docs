@@ -2,7 +2,7 @@
 title: Alert Manager
 TOCTitle: Alert Manager
 ms:assetid: 9a032bd2-ea99-4bc7-8ea2-b253d007c571
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577507(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577507(v=BTS.80)
 ms:contentKeyID: 51529939
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

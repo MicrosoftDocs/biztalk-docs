@@ -2,7 +2,7 @@
 title: IBaseMessageContext.Write Method (COM)
 TOCTitle: IBaseMessageContext.Write Method (COM)
 ms:assetid: dc0e9c2f-43e8-470e-a285-86c4e7000f9e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561422(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561422(v=BTS.80)
 ms:contentKeyID: 51532644
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

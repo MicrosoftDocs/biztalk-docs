@@ -2,7 +2,7 @@
 title: MSBTS_Host.AuthTrusted Property (WMI)
 TOCTitle: MSBTS_Host.AuthTrusted Property (WMI)
 ms:assetid: a5cdb4fc-aa4d-4b27-845d-d93b4dc590c6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577897(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577897(v=BTS.80)
 ms:contentKeyID: 51530294
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

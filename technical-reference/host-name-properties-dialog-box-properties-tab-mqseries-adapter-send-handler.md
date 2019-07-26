@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, Properties Tab (MQSeries Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Properties Tab (MQSeries Adapter Send Handler)
 ms:assetid: 426d2b81-40d5-4029-8ba3-56d9816d25f8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559803(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559803(v=BTS.80)
 ms:contentKeyID: 51527622
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

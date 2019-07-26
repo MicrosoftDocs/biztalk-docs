@@ -2,7 +2,7 @@
 title: Grid Preview Dialog Box
 TOCTitle: Grid Preview Dialog Box
 ms:assetid: 7f984d2c-0d91-472e-9d68-fce98f22da3f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561049(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561049(v=BTS.80)
 ms:contentKeyID: 51529247
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

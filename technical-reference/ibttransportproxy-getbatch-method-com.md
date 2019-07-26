@@ -2,7 +2,7 @@
 title: IBTTransportProxy.GetBatch Method (COM)
 TOCTitle: IBTTransportProxy.GetBatch Method (COM)
 ms:assetid: 484a32a6-be4c-4d6e-8457-2a6e94996daf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559926(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559926(v=BTS.80)
 ms:contentKeyID: 51527736
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

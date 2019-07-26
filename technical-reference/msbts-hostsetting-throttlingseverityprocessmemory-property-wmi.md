@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.ThrottlingSeverityProcessMemory Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingSeverityProcessMemory Property (WMI)
 ms:assetid: d3871300-a44f-49c3-91bf-f8e3a1cb0413
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678639(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678639(v=BTS.80)
 ms:contentKeyID: 51531572
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

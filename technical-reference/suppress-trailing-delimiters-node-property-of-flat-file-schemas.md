@@ -2,7 +2,7 @@
 title: Suppress Trailing Delimiters (Node Property of Flat File Schemas)
 TOCTitle: Suppress Trailing Delimiters (Node Property of Flat File Schemas)
 ms:assetid: ec30cc12-a074-4077-9665-17825d7af738
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561759(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561759(v=BTS.80)
 ms:contentKeyID: 51533221
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

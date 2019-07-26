@@ -2,7 +2,7 @@
 title: WCF-NetMsmq Transport Properties Dialog Box, Receive, Binding Tab
 TOCTitle: WCF-NetMsmq Transport Properties Dialog Box, Receive, Binding Tab
 ms:assetid: 183a2a54-ddde-44b1-891b-76a30eb21146
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb245972(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb245972(v=BTS.80)
 ms:contentKeyID: 51526466
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

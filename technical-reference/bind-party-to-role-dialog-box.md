@@ -2,7 +2,7 @@
 title: Bind Party to Role Dialog Box
 TOCTitle: Bind Party to Role Dialog Box
 ms:assetid: edeec610-77de-47b8-a5bf-25fe74d64714
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561792(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561792(v=BTS.80)
 ms:contentKeyID: 51533263
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

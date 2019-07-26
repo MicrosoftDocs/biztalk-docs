@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.Stop Method (WMI)
 TOCTitle: MSBTS_SendPort.Stop Method (WMI)
 ms:assetid: 93640a67-9436-4f96-b0a5-9314d5443e83
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577385(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577385(v=BTS.80)
 ms:contentKeyID: 51529756
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

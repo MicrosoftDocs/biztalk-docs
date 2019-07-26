@@ -44,7 +44,7 @@ This topic describes how to use the BizTalk Server Administration console or the
   
 -   You must be logged on with an account that is a member of the BizTalk Server Administrators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
--   The Business Rule Engine must be installed. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
+-   The Business Rule Engine must be installed. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
   
 -   The policy that you want to export must exist in the Rule Engine database for the BizTalk group. If you want to export the policy from an application, it must have also been added to the application as well.  
   

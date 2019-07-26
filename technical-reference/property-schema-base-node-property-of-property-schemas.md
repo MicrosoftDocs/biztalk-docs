@@ -2,7 +2,7 @@
 title: Property Schema Base (Node Property of Property Schemas)
 TOCTitle: Property Schema Base (Node Property of Property Schemas)
 ms:assetid: 5cd7da90-1a6b-4a2b-8e29-ee2a9b60d1d9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560371(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560371(v=BTS.80)
 ms:contentKeyID: 51528316
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

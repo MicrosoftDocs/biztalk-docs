@@ -2,7 +2,7 @@
 title: String Find Functoid
 TOCTitle: String Find Functoid
 ms:assetid: 46904cff-5580-4269-9688-37efe0ffec02
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559885(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559885(v=BTS.80)
 ms:contentKeyID: 51527684
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

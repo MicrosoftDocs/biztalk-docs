@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting (WMI)
 TOCTitle: MSBTS_GroupSetting (WMI)
 ms:assetid: bb440da1-b650-4345-80d5-949bcc774b5f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578341(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578341(v=BTS.80)
 ms:contentKeyID: 51530817
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

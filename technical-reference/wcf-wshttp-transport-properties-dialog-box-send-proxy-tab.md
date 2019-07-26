@@ -2,7 +2,7 @@
 title: WCF-WSHttp Transport Properties Dialog Box, Send, Proxy Tab
 TOCTitle: WCF-WSHttp Transport Properties Dialog Box, Send, Proxy Tab
 ms:assetid: 40f2ae93-add8-4963-8aa1-f798b829d026
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb246057(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb246057(v=BTS.80)
 ms:contentKeyID: 51527542
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

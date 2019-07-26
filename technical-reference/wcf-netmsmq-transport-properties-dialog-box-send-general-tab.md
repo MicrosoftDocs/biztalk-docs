@@ -2,7 +2,7 @@
 title: WCF-NetMsmq Transport Properties Dialog Box, Send, General Tab
 TOCTitle: WCF-NetMsmq Transport Properties Dialog Box, Send, General Tab
 ms:assetid: 94a307bf-9eeb-44ba-badf-6f450dde6f89
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226418(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226418(v=BTS.80)
 ms:contentKeyID: 51529786
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

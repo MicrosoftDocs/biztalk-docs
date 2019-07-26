@@ -97,7 +97,7 @@ SqlCmd -s . -d Repository -A -Q "EXEC sp_changedbowner [$(COMPUTERNAME)\Administ
 ```  
 - <!--   
 References:  
-"Unattended Installation Settings Reference" @ http://technet.microsoft.com/library/cc749204.aspx  
+"Unattended Installation Settings Reference" @ https://technet.microsoft.com/library/cc749204.aspx  
 "How to Sysprep in Windows 2008 " @ http://briandesmond.com/blog/how-to-sysprep-in-windows-2008  
   
 Make sure to modify the values specified for the   

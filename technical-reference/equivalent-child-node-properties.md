@@ -2,7 +2,7 @@
 title: Equivalent Child Node Properties
 TOCTitle: Equivalent Child Node Properties
 ms:assetid: b0c313db-da7e-4436-bcca-61be09785bd5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578130(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578130(v=BTS.80)
 ms:contentKeyID: 51530592
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

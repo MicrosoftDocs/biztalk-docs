@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, Properties Tab (MQSeries Adapter Receive Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Properties Tab (MQSeries Adapter Receive Handler)
 ms:assetid: 9b870a40-24ac-4d47-a2f9-7dd4e6e56076
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577548(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577548(v=BTS.80)
 ms:contentKeyID: 51529987
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

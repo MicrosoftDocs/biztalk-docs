@@ -2,7 +2,7 @@
 title: 'SSO System Properties: General'
 TOCTitle: 'SSO System Properties: General'
 ms:assetid: 5f61cfef-5afa-4a1a-b2ab-959c02d028f2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560424(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560424(v=BTS.80)
 ms:contentKeyID: 51528390
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

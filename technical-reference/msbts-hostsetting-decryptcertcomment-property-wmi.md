@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.DecryptCertComment Property (WMI)
 TOCTitle: MSBTS_HostSetting.DecryptCertComment Property (WMI)
 ms:assetid: 777a90ee-808b-4438-8c1c-28c5be9c1f08
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560886(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560886(v=BTS.80)
 ms:contentKeyID: 51529036
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

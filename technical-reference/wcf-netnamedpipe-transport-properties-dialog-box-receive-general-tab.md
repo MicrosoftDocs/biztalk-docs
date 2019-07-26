@@ -2,7 +2,7 @@
 title: WCF-NetNamedPipe Transport Properties Dialog Box, Receive, General Tab
 TOCTitle: WCF-NetNamedPipe Transport Properties Dialog Box, Receive, General Tab
 ms:assetid: 881b1fd1-6337-4026-baab-1de61594b95f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226390(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226390(v=BTS.80)
 ms:contentKeyID: 51529478
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: WCF-Custom Transport Properties Dialog Box, Receive, Binding Tab
 TOCTitle: WCF-Custom Transport Properties Dialog Box, Receive, Binding Tab
 ms:assetid: 68c748ba-3bc5-4582-8284-1cb941ef0940
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226331(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226331(v=BTS.80)
 ms:contentKeyID: 51528659
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

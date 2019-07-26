@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.Tracking Property (WMI)
 TOCTitle: MSBTS_SendPort.Tracking Property (WMI)
 ms:assetid: 4c74d82d-2b5e-47c2-ac21-aa0d3b332ea2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560036(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560036(v=BTS.80)
 ms:contentKeyID: 51527876
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

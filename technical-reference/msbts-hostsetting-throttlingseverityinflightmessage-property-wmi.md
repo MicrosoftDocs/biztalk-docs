@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.ThrottlingSeverityInflightMessage Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingSeverityInflightMessage Property (WMI)
 ms:assetid: 258463ae-1225-476c-a6e5-bffd3272455c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678624(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678624(v=BTS.80)
 ms:contentKeyID: 51526838
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBasePropertyBag.Write Method (COM)
 TOCTitle: IBasePropertyBag.Write Method (COM)
 ms:assetid: a7a1e8bf-a3dd-49a0-bad1-9bc05f383aab
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577931(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577931(v=BTS.80)
 ms:contentKeyID: 51530284
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

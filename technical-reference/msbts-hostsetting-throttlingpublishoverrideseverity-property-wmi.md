@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.ThrottlingPublishOverrideSeverity Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingPublishOverrideSeverity Property (WMI)
 ms:assetid: 3bca88d2-7d20-4bfe-96fb-3b2dfaeddbe0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678627(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678627(v=BTS.80)
 ms:contentKeyID: 51527412
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

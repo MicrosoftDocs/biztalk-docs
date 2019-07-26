@@ -2,7 +2,7 @@
 title: Orchestrations Node, Details Pane
 TOCTitle: Orchestrations Node, Details Pane
 ms:assetid: 83a5b192-66b6-4c54-a67b-85b949d449b3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561136(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561136(v=BTS.80)
 ms:contentKeyID: 51529358
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

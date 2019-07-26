@@ -2,7 +2,7 @@
 title: MSBTS_ServerHost.ForceUnmap Method (WMI)
 TOCTitle: MSBTS_ServerHost.ForceUnmap Method (WMI)
 ms:assetid: 32ebde10-54e1-462d-bbff-321ed4b827f6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559511(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559511(v=BTS.80)
 ms:contentKeyID: 51527189
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

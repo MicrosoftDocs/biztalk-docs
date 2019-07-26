@@ -2,7 +2,7 @@
 title: Add Application Reference Dialog Box
 TOCTitle: Add Application Reference Dialog Box
 ms:assetid: c6a6990f-32e0-44b7-9ef4-76be3788e2f8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547925(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547925(v=BTS.80)
 ms:contentKeyID: 51531208
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

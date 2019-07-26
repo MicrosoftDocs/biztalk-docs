@@ -2,7 +2,7 @@
 title: Start Orchestration Shape
 TOCTitle: Start Orchestration Shape
 ms:assetid: 2c1e9b7f-8797-4225-8d7a-2a427a1ca66e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559372(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559372(v=BTS.80)
 ms:contentKeyID: 51527056
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

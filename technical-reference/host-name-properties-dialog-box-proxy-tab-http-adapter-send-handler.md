@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, Proxy Tab (HTTP Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Proxy Tab (HTTP Adapter Send Handler)
 ms:assetid: 54aee60f-6cc6-4fd7-a6d5-59ac94a8fa83
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560204(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560204(v=BTS.80)
 ms:contentKeyID: 51528098
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

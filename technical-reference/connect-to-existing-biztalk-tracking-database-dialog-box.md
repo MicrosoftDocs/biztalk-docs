@@ -2,7 +2,7 @@
 title: Connect To Existing BizTalk Tracking Database Dialog Box
 TOCTitle: Connect To Existing BizTalk Tracking Database Dialog Box
 ms:assetid: 4519f122-b183-414b-be72-df467f680d88
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg164019(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg164019(v=BTS.80)
 ms:contentKeyID: 51527703
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

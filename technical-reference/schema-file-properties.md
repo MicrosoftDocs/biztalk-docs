@@ -2,7 +2,7 @@
 title: Schema File Properties
 TOCTitle: Schema File Properties
 ms:assetid: c4f2236e-d11c-4327-b54a-3190dbf5959f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547891(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547891(v=BTS.80)
 ms:contentKeyID: 51531160
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

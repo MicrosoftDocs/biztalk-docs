@@ -2,7 +2,7 @@
 title: IBTTransmitterBatch.Clear Method (COM)
 TOCTitle: IBTTransmitterBatch.Clear Method (COM)
 ms:assetid: 241f001a-46eb-4668-b652-ac2eed962501
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559210(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559210(v=BTS.80)
 ms:contentKeyID: 51526811
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

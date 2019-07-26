@@ -2,7 +2,7 @@
 title: MSBTS_Host.DecryptCertThumbprint Property (WMI)
 TOCTitle: MSBTS_Host.DecryptCertThumbprint Property (WMI)
 ms:assetid: 1660cc95-d73e-49f5-a3b1-de781efb02eb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558750(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558750(v=BTS.80)
 ms:contentKeyID: 51526414
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

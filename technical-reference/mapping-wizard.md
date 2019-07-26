@@ -2,7 +2,7 @@
 title: Mapping Wizard
 TOCTitle: Mapping Wizard
 ms:assetid: 9937138d-d650-4c77-bbb1-3f80406fb8a0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743605(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743605(v=BTS.80)
 ms:contentKeyID: 51529874
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

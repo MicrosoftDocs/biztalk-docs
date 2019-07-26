@@ -2,7 +2,7 @@
 title: Receive Ports Node
 TOCTitle: Receive Ports Node
 ms:assetid: 40d5e9f7-44a5-4877-bdb7-a44da28cb0ea
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559776(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559776(v=BTS.80)
 ms:contentKeyID: 51527597
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

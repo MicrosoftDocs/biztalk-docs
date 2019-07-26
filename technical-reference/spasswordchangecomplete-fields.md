@@ -2,7 +2,7 @@
 title: SPasswordChangeComplete Fields
 TOCTitle: SPasswordChangeComplete Fields
 ms:assetid: 18bece98-4f31-4180-8982-5790b78fa165
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa744974(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa744974(v=BTS.80)
 ms:contentKeyID: 51526509
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

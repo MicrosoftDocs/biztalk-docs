@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.AllowMultipleResponses Property (WMI)
 TOCTitle: MSBTS_HostSetting.AllowMultipleResponses Property (WMI)
 ms:assetid: 36b76462-1149-444e-be0e-0b67ea357367
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678626(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678626(v=BTS.80)
 ms:contentKeyID: 51527285
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

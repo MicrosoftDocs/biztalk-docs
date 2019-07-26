@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.Status Property (WMI)
 TOCTitle: MSBTS_SendPort.Status Property (WMI)
 ms:assetid: 2b51ca92-caf5-4e08-bde5-6129b59ed407
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559358(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559358(v=BTS.80)
 ms:contentKeyID: 51526962
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

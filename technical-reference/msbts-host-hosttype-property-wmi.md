@@ -2,7 +2,7 @@
 title: MSBTS_Host.HostType Property (WMI)
 TOCTitle: MSBTS_Host.HostType Property (WMI)
 ms:assetid: 9dbeaabf-6a43-4b87-8f1e-cdf72481a418
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577590(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577590(v=BTS.80)
 ms:contentKeyID: 51530035
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

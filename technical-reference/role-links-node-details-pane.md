@@ -2,7 +2,7 @@
 title: Role Links Node, Details Pane
 TOCTitle: Role Links Node, Details Pane
 ms:assetid: 67fa28d9-3c0f-4a81-a626-60803d105976
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560571(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560571(v=BTS.80)
 ms:contentKeyID: 51528614
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

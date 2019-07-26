@@ -2,7 +2,7 @@
 title: Schema Node Properties
 TOCTitle: Schema Node Properties
 ms:assetid: 2a51bf02-c636-4edd-ad43-cc0dcebc28f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559329(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559329(v=BTS.80)
 ms:contentKeyID: 51527000
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

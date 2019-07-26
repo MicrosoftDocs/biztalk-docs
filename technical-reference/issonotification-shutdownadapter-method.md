@@ -2,7 +2,7 @@
 title: ISSONotification.ShutdownAdapter Method
 TOCTitle: ISSONotification.ShutdownAdapter Method
 ms:assetid: e1326ddc-476e-421c-a06e-fb8a557f2f09
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705416(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705416(v=BTS.80)
 ms:contentKeyID: 51532918
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

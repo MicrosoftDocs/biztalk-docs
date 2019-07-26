@@ -2,7 +2,7 @@
 title: HTTP Transport Properties Dialog Box, Proxy Tab
 TOCTitle: HTTP Transport Properties Dialog Box, Proxy Tab
 ms:assetid: 9567b416-b440-46ff-bd9e-6960ea788b78
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577427(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577427(v=BTS.80)
 ms:contentKeyID: 51529824
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

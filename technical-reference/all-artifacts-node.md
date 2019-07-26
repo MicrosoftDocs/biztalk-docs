@@ -2,7 +2,7 @@
 title: <All Artifacts> Node
 TOCTitle: <All Artifacts> Node
 ms:assetid: 4a81a0b7-a73e-45c7-b393-402cb322f86b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559979(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559979(v=BTS.80)
 ms:contentKeyID: 51527843
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

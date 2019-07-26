@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocation (WMI)
 TOCTitle: MSBTS_ReceiveLocation (WMI)
 ms:assetid: f75bd1ce-1bf5-4707-9b8e-55377c2538a1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561991(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561991(v=BTS.80)
 ms:contentKeyID: 51533505
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -16,7 +16,7 @@ Represents an individual receive location defined by Microsoft BizTalk Server.
 
 
 > [!WARNING]
-> <P>Certificates must be installed on the box for the MSBTS_ReceiveLocation class to work. The only way to create receive locations without certificates is to use the <A href="http://msdn.microsoft.com/library/microsoft.biztalk.explorerom.aspx">Microsoft.BizTalk.ExplorerOM</A>APIs.</P>
+> <P>Certificates must be installed on the box for the MSBTS_ReceiveLocation class to work. The only way to create receive locations without certificates is to use the <A href="https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.aspx">Microsoft.BizTalk.ExplorerOM</A>APIs.</P>
 
 
 

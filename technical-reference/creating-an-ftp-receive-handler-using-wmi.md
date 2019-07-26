@@ -2,7 +2,7 @@
 title: Creating an FTP Receive Handler Using WMI
 TOCTitle: Creating an FTP Receive Handler Using WMI
 ms:assetid: 54bbf495-866b-4d3f-a1b7-db256a9bcff7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560206(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560206(v=BTS.80)
 ms:contentKeyID: 51528100
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

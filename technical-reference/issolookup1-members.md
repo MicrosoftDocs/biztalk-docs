@@ -2,7 +2,7 @@
 title: ISSOLookup1 Members
 TOCTitle: ISSOLookup1 Members
 ms:assetid: 1509443b-1ae1-4a88-9fb0-4b652ecec4e7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa744900(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa744900(v=BTS.80)
 ms:contentKeyID: 51526384
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

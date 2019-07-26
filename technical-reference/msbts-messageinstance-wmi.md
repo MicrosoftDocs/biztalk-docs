@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstance (WMI)
 TOCTitle: MSBTS_MessageInstance (WMI)
 ms:assetid: 1e85b0e3-5e92-403c-a8bf-c5d6b5f30f10
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559119(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559119(v=BTS.80)
 ms:contentKeyID: 51526687
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

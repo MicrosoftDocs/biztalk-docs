@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocationOrchestration.ReceivePortName Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.ReceivePortName Property (WMI)
 ms:assetid: 50bd0cee-3f60-4736-be00-3a8b8541e47f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560127(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560127(v=BTS.80)
 ms:contentKeyID: 51527999
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

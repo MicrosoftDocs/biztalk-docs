@@ -2,7 +2,7 @@
 title: Value Mapping (Flattening) Functoid Reference
 TOCTitle: Value Mapping (Flattening) Functoid Reference
 ms:assetid: e03c96d0-9215-496b-ab53-a385f1cdcae0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561516(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561516(v=BTS.80)
 ms:contentKeyID: 51532891
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

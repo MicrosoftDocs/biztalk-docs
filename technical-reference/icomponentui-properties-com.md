@@ -2,7 +2,7 @@
 title: IComponentUI Properties (COM)
 TOCTitle: IComponentUI Properties (COM)
 ms:assetid: 51ab5731-688e-4f1c-bc16-fb32f7de88f6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560145(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560145(v=BTS.80)
 ms:contentKeyID: 51528018
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

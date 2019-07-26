@@ -2,7 +2,7 @@
 title: IBaseMessage.GetPartByIndex Method (COM)
 TOCTitle: IBaseMessage.GetPartByIndex Method (COM)
 ms:assetid: 5d49630b-6d5c-481c-aff5-91385cac232c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560385(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560385(v=BTS.80)
 ms:contentKeyID: 51528334
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

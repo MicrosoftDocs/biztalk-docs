@@ -2,7 +2,7 @@
 title: SAdapterInGroup Fields
 TOCTitle: SAdapterInGroup Fields
 ms:assetid: eed9b993-2519-4935-9726-d2cbc752db37
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705606(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705606(v=BTS.80)
 ms:contentKeyID: 51533285
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

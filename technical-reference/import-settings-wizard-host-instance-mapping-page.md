@@ -2,7 +2,7 @@
 title: Import Settings Wizard, Host Instance Mapping Page
 TOCTitle: Import Settings Wizard, Host Instance Mapping Page
 ms:assetid: 30f67bea-5f55-4682-a43c-6e8afb1f2387
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629704(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629704(v=BTS.80)
 ms:contentKeyID: 51527123
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

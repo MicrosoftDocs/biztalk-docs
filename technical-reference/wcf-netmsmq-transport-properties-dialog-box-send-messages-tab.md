@@ -2,7 +2,7 @@
 title: WCF-NetMsmq Transport Properties Dialog Box, Send, Messages Tab
 TOCTitle: WCF-NetMsmq Transport Properties Dialog Box, Send, Messages Tab
 ms:assetid: c2636e50-992f-4576-a013-992318c28e75
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226510(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226510(v=BTS.80)
 ms:contentKeyID: 51531087
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

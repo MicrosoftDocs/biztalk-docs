@@ -2,7 +2,7 @@
 title: Default Wrap Character (Node Property of Flat File Schemas)
 TOCTitle: Default Wrap Character (Node Property of Flat File Schemas)
 ms:assetid: 27d1b870-fda7-43cc-941f-5122f5a4e5f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559288(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559288(v=BTS.80)
 ms:contentKeyID: 51526867
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

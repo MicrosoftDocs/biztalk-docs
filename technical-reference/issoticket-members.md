@@ -2,7 +2,7 @@
 title: ISSOTicket Members
 TOCTitle: ISSOTicket Members
 ms:assetid: dad66b57-aa60-4147-80b5-9d15fe09c797
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa772083(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa772083(v=BTS.80)
 ms:contentKeyID: 51531683
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Configure Correlation Properties Dialog Box
 TOCTitle: Configure Correlation Properties Dialog Box
 ms:assetid: f306a6c8-9949-41d8-b218-db2ac95dbe4d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561909(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561909(v=BTS.80)
 ms:contentKeyID: 51533383
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Define a Set of Values Page
 TOCTitle: Define a Set of Values Page
 ms:assetid: ae50fe05-570b-48be-ae4a-7d3df25ec382
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578073(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578073(v=BTS.80)
 ms:contentKeyID: 51530467
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

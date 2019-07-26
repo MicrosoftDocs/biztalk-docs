@@ -2,7 +2,7 @@
 title: Integer Functoid
 TOCTitle: Integer Functoid
 ms:assetid: 5ae6d0b3-3cf1-4089-909a-f675281dfeae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560329(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560329(v=BTS.80)
 ms:contentKeyID: 51528265
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

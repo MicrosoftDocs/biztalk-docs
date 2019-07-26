@@ -2,7 +2,7 @@
 title: 'Password Sync Adapter Properties: Accounts'
 TOCTitle: 'Password Sync Adapter Properties: Accounts'
 ms:assetid: 9d42e2ff-39c2-4322-a9cc-cd6d2a8e181a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577582(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577582(v=BTS.80)
 ms:contentKeyID: 51530023
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

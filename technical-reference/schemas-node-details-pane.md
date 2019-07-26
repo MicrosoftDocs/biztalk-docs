@@ -2,7 +2,7 @@
 title: Schemas Node, Details Pane
 TOCTitle: Schemas Node, Details Pane
 ms:assetid: 89410bc8-e2cb-4cbf-b512-72df5db8dbc2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561246(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561246(v=BTS.80)
 ms:contentKeyID: 51529511
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

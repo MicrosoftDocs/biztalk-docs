@@ -2,7 +2,7 @@
 title: Generate Instance Output Type (Schema File Property)
 TOCTitle: Generate Instance Output Type (Schema File Property)
 ms:assetid: 8561460f-bb1d-4328-9f8f-11eaa567ae1b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561174(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561174(v=BTS.80)
 ms:contentKeyID: 51529410
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

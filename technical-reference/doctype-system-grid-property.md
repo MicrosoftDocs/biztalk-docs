@@ -2,7 +2,7 @@
 title: Doctype System (Grid Property)
 TOCTitle: Doctype System (Grid Property)
 ms:assetid: 35217ea9-4bb6-41af-8671-8346db933c5a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559549(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559549(v=BTS.80)
 ms:contentKeyID: 51527299
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

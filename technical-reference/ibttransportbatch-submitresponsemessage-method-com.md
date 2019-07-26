@@ -2,7 +2,7 @@
 title: IBTTransportBatch.SubmitResponseMessage Method (COM)
 TOCTitle: IBTTransportBatch.SubmitResponseMessage Method (COM)
 ms:assetid: 1a15ef76-9015-4d9a-8089-773e7a2191cf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559026(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559026(v=BTS.80)
 ms:contentKeyID: 51526549
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Error
 TOCTitle: Error
 ms:assetid: f1807ac8-cfb2-49eb-bf9d-876066294071
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561874(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561874(v=BTS.80)
 ms:contentKeyID: 51533362
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

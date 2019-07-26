@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocation.ActiveStartDT Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.ActiveStartDT Property (WMI)
 ms:assetid: fa70e779-7d3d-43b5-9dd9-3b7fba6d8358
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562061(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562061(v=BTS.80)
 ms:contentKeyID: 51533569
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

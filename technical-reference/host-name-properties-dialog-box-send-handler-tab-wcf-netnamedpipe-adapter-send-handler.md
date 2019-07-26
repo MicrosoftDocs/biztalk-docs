@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, Send Handler Tab (WCF-NetNamedPipe Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Send Handler Tab (WCF-NetNamedPipe Adapter Send Handler)
 ms:assetid: 0af57e28-4ec1-4ad8-9063-730132bda452
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743300(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743300(v=BTS.80)
 ms:contentKeyID: 51526110
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

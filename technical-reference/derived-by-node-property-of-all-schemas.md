@@ -2,7 +2,7 @@
 title: Derived By (Node Property of All Schemas)
 TOCTitle: Derived By (Node Property of All Schemas)
 ms:assetid: d9b89527-6611-4cc6-af58-e2e6334f8b0d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578709(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578709(v=BTS.80)
 ms:contentKeyID: 51531659
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

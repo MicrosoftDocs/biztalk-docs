@@ -2,7 +2,7 @@
 title: IBTDTCCommitConfirm Members (COM)
 TOCTitle: IBTDTCCommitConfirm Members (COM)
 ms:assetid: db751658-709b-42b1-96bd-9339911252f2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561410(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561410(v=BTS.80)
 ms:contentKeyID: 51531768
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSMQ Transport Properties Dialog Box, Receive
 TOCTitle: MSMQ Transport Properties Dialog Box, Receive
 ms:assetid: 890a00b2-deca-412f-853e-85816c3f0c0d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561241(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561241(v=BTS.80)
 ms:contentKeyID: 51529506
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

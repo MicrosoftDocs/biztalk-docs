@@ -2,7 +2,7 @@
 title: Export MSI File Wizard, Dependencies Page
 TOCTitle: Export MSI File Wizard, Dependencies Page
 ms:assetid: eddb4838-4b85-4bd4-869a-0c7543835d71
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561790(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561790(v=BTS.80)
 ms:contentKeyID: 51533261
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

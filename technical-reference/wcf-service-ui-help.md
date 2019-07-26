@@ -2,7 +2,7 @@
 title: WCF Service UI Help
 TOCTitle: WCF Service UI Help
 ms:assetid: b69f9d1c-75b2-479d-87bd-c13fc1ad6cbe
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226486(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226486(v=BTS.80)
 ms:contentKeyID: 51530695
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

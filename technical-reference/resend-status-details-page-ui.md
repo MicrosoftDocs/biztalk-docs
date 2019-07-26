@@ -2,7 +2,7 @@
 title: Resend Status Details Page UI
 TOCTitle: Resend Status Details Page UI
 ms:assetid: 5265b0b5-a5db-4a3d-9574-286fe39a0b01
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd792686(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd792686(v=BTS.80)
 ms:contentKeyID: 51528050
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

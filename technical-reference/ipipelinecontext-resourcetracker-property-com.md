@@ -2,7 +2,7 @@
 title: IPipelineContext.ResourceTracker Property (COM)
 TOCTitle: IPipelineContext.ResourceTracker Property (COM)
 ms:assetid: 494b8687-6238-4ae2-bd25-d9d6842a4599
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559952(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559952(v=BTS.80)
 ms:contentKeyID: 51527807
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

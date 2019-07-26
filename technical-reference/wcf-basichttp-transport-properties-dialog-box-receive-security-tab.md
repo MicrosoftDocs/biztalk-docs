@@ -2,7 +2,7 @@
 title: WCF-BasicHttp Transport Properties Dialog Box, Receive, Security Tab
 TOCTitle: WCF-BasicHttp Transport Properties Dialog Box, Receive, Security Tab
 ms:assetid: 648016dc-fe56-4e73-addc-03714d7dc41c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226322(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226322(v=BTS.80)
 ms:contentKeyID: 51528515
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.ThrottlingLimitToTriggerGC Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingLimitToTriggerGC Property (WMI)
 ms:assetid: d677733d-a88b-4acf-a325-b099e0224de5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678642(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678642(v=BTS.80)
 ms:contentKeyID: 51531669
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

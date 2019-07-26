@@ -2,7 +2,7 @@
 title: MSBTS_HostQueue.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_HostQueue.MgmtDbNameOverride Property (WMI)
 ms:assetid: cca068e8-4148-493b-93c7-bac34dfa7aa7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548048(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548048(v=BTS.80)
 ms:contentKeyID: 51531381
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

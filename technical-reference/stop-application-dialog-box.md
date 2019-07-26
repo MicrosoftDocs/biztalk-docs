@@ -2,7 +2,7 @@
 title: Stop Application Dialog Box
 TOCTitle: Stop Application Dialog Box
 ms:assetid: 2941db8a-24c6-4ebf-bf45-03827e9d9491
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559315(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559315(v=BTS.80)
 ms:contentKeyID: 51526970
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

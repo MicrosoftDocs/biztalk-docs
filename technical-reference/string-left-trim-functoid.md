@@ -2,7 +2,7 @@
 title: String Left Trim Functoid
 TOCTitle: String Left Trim Functoid
 ms:assetid: 916f322c-886b-4aee-b8ac-178b1721e69c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561391(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561391(v=BTS.80)
 ms:contentKeyID: 51529708
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

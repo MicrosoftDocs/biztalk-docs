@@ -2,7 +2,7 @@
 title: ISSOAdmin.UpdateApplication Method
 TOCTitle: ISSOAdmin.UpdateApplication Method
 ms:assetid: 1b0f25f5-4e39-4ca4-a151-c8e01c474f45
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa704506(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa704506(v=BTS.80)
 ms:contentKeyID: 51526581
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

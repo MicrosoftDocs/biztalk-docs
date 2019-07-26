@@ -2,7 +2,7 @@
 title: XSLT Encoding (Grid Property)
 TOCTitle: XSLT Encoding (Grid Property)
 ms:assetid: 9e206d6d-55f4-41bf-a46a-29e33fe324fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577606(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577606(v=BTS.80)
 ms:contentKeyID: 51530003
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

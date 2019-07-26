@@ -2,7 +2,7 @@
 title: Configuration Wizard, Start Page
 TOCTitle: Configuration Wizard, Start Page
 ms:assetid: 60609799-07d5-4a05-9f09-2a7b7ac09cad
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560439(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560439(v=BTS.80)
 ms:contentKeyID: 51528424
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

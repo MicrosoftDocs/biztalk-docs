@@ -2,7 +2,7 @@
 title: Add Adapter Metadata Wizard Dialog Box
 TOCTitle: Add Adapter Metadata Wizard Dialog Box
 ms:assetid: 0108026c-33cd-4b93-a086-24a6948c11bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546747(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546747(v=BTS.80)
 ms:contentKeyID: 51525852
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBTTransportProxy.ReceiverShuttingdown Method (COM)
 TOCTitle: IBTTransportProxy.ReceiverShuttingdown Method (COM)
 ms:assetid: 767e6a3a-bbd2-4c02-81bb-3b3ff5faa0be
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560862(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560862(v=BTS.80)
 ms:contentKeyID: 51529004
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

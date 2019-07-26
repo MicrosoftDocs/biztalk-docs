@@ -2,7 +2,7 @@
 title: IBasePropertyBag Members (COM)
 TOCTitle: IBasePropertyBag Members (COM)
 ms:assetid: 40e77309-03e8-47fd-a585-9d51e57fa728
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559778(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559778(v=BTS.80)
 ms:contentKeyID: 51527541
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

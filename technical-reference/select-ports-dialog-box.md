@@ -2,7 +2,7 @@
 title: Select Ports Dialog Box
 TOCTitle: Select Ports Dialog Box
 ms:assetid: e7ecb632-14e9-4346-8183-a91b77643caa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561670(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561670(v=BTS.80)
 ms:contentKeyID: 51533069
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

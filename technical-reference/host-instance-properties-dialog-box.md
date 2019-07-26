@@ -2,7 +2,7 @@
 title: Host Instance Properties Dialog Box
 TOCTitle: Host Instance Properties Dialog Box
 ms:assetid: 5e20a6c8-350e-45b9-9def-b70f3867765b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560403(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560403(v=BTS.80)
 ms:contentKeyID: 51528368
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

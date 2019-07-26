@@ -2,7 +2,7 @@
 title: MSBTS_ServiceInstance.AssemblyVersion Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.AssemblyVersion Property (WMI)
 ms:assetid: c99adc10-467d-4b2d-b92c-5c8028cbeed5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547978(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547978(v=BTS.80)
 ms:contentKeyID: 51531159
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

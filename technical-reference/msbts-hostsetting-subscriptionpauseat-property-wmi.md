@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.SubscriptionPauseAt Property (WMI)
 TOCTitle: MSBTS_HostSetting.SubscriptionPauseAt Property (WMI)
 ms:assetid: caa006f1-e5ac-40b9-9558-c4eb2f87ea29
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678638(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678638(v=BTS.80)
 ms:contentKeyID: 51531315
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

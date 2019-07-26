@@ -87,8 +87,8 @@ The following table lists the supported Edition upgrade path from [!INCLUDE[bts2
 
 - **Certificates**: Back up the Windows certificates store:  
 
-    [Windows 7 and Windows Server 2008 R2: Import a Certificate](http://technet.microsoft.com/library/cc754489.aspx)  
-    [Windows 7 and Windows Server 2008 R2: Export a Certificate](http://technet.microsoft.com/library/cc730988.aspx)  
+    [Windows 7 and Windows Server 2008 R2: Import a Certificate](https://technet.microsoft.com/library/cc754489.aspx)  
+    [Windows 7 and Windows Server 2008 R2: Export a Certificate](https://technet.microsoft.com/library/cc730988.aspx)  
 
 - **DTC**: Enable Microsoft Distributed Transaction Coordinator (MSDTC) ([Post-configuration steps to optimize your environment](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)), and then enable the Inbound/Outbound DTC rules:
 

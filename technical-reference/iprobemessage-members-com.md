@@ -2,7 +2,7 @@
 title: IProbeMessage Members (COM)
 TOCTitle: IProbeMessage Members (COM)
 ms:assetid: 8c22546c-a68c-4f72-a1d9-683a3b916835
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561288(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561288(v=BTS.80)
 ms:contentKeyID: 51529572
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

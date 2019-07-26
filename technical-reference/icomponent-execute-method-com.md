@@ -2,7 +2,7 @@
 title: IComponent.Execute Method (COM)
 TOCTitle: IComponent.Execute Method (COM)
 ms:assetid: 9d9bf0db-d6e5-4f68-a78e-a8b25d3a33fc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577585(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577585(v=BTS.80)
 ms:contentKeyID: 51529977
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

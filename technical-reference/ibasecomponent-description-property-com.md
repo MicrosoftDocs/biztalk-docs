@@ -2,7 +2,7 @@
 title: IBaseComponent.Description Property (COM)
 TOCTitle: IBaseComponent.Description Property (COM)
 ms:assetid: e4387905-2f54-48cc-a0d0-681f0f85ca4c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561597(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561597(v=BTS.80)
 ms:contentKeyID: 51532994
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

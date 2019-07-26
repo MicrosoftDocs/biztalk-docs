@@ -2,7 +2,7 @@
 title: Division Functoid
 TOCTitle: Division Functoid
 ms:assetid: bfb31acf-04b5-4716-92da-741a8f8793bc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578425(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578425(v=BTS.80)
 ms:contentKeyID: 51531016
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Party Resolution Pipeline Component Properties
 TOCTitle: Party Resolution Pipeline Component Properties
 ms:assetid: 39f63895-f24d-4578-8031-689a05ebc94e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559640(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559640(v=BTS.80)
 ms:contentKeyID: 51527415
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

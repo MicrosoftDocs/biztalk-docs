@@ -2,7 +2,7 @@
 title: MSBTS_HostInstanceSetting.ConfigurationState Property (WMI)
 TOCTitle: MSBTS_HostInstanceSetting.ConfigurationState Property (WMI)
 ms:assetid: e8b0ab09-a8b4-43cb-9cc4-f56f5deafe48
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561686(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561686(v=BTS.80)
 ms:contentKeyID: 51533094
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

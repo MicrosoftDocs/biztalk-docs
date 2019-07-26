@@ -2,7 +2,7 @@
 title: IBaseMessagePart Members (COM)
 TOCTitle: IBaseMessagePart Members (COM)
 ms:assetid: 06547bc7-0036-4273-8f83-3f3177388c8c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547040(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547040(v=BTS.80)
 ms:contentKeyID: 51526014
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

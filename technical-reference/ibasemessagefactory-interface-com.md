@@ -2,7 +2,7 @@
 title: IBaseMessageFactory Interface (COM)
 TOCTitle: IBaseMessageFactory Interface (COM)
 ms:assetid: 9f15aad7-4a1c-4788-8632-5effe938688f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577631(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577631(v=BTS.80)
 ms:contentKeyID: 51530080
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

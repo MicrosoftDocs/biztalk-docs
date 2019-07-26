@@ -2,7 +2,7 @@
 title: Natural Exponential Functoid
 TOCTitle: Natural Exponential Functoid
 ms:assetid: 3b26db64-4404-4d76-9c7c-2b24d3b32e88
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559669(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559669(v=BTS.80)
 ms:contentKeyID: 51527453
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

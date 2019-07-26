@@ -2,7 +2,7 @@
 title: IPipelineContext.ComponentIndex Property (COM)
 TOCTitle: IPipelineContext.ComponentIndex Property (COM)
 ms:assetid: f242b9c5-7b50-4139-8d16-cd7bc6ae7ea5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561892(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561892(v=BTS.80)
 ms:contentKeyID: 51533359
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

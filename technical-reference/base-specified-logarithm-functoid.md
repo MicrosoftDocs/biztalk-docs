@@ -2,7 +2,7 @@
 title: Base-Specified Logarithm Functoid
 TOCTitle: Base-Specified Logarithm Functoid
 ms:assetid: a1b67a1f-939a-441c-97c4-7db0bc582296
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577698(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577698(v=BTS.80)
 ms:contentKeyID: 51530166
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IBasePropertyBag Methods (COM)
 TOCTitle: IBasePropertyBag Methods (COM)
 ms:assetid: fa0cdf31-8630-4fd4-a6f2-14ccb2f8559f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562050(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562050(v=BTS.80)
 ms:contentKeyID: 51533564
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

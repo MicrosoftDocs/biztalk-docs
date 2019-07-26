@@ -2,7 +2,7 @@
 title: Database Lookup Functoid
 TOCTitle: Database Lookup Functoid
 ms:assetid: 0f370a59-ec4d-4d93-9c8e-79716d86f297
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547392(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547392(v=BTS.80)
 ms:contentKeyID: 51526259
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

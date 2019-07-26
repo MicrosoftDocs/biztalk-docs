@@ -2,7 +2,7 @@
 title: MSBTS_SendPortGroup2SendPort.SendPortGroupName Property (WMI)
 TOCTitle: MSBTS_SendPortGroup2SendPort.SendPortGroupName Property (WMI)
 ms:assetid: b4fc74c9-9b0c-413e-92ab-b5acd8baedd6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578218(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578218(v=BTS.80)
 ms:contentKeyID: 51530698
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

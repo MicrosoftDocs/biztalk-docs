@@ -2,7 +2,7 @@
 title: File Name (Map Item Property)
 TOCTitle: File Name (Map Item Property)
 ms:assetid: 4dc855d5-c1ca-4ccd-a505-21eeca211c85
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560063(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560063(v=BTS.80)
 ms:contentKeyID: 51527923
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

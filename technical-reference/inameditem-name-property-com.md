@@ -2,7 +2,7 @@
 title: INamedItem.Name Property (COM)
 TOCTitle: INamedItem.Name Property (COM)
 ms:assetid: 52a11191-c5e5-4288-8f06-2ef2662fb9ff
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560165(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560165(v=BTS.80)
 ms:contentKeyID: 51528058
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_HostQueue (WMI)
 TOCTitle: MSBTS_HostQueue (WMI)
 ms:assetid: 25a01b53-4759-4914-a742-df065b90c3e6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559246(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559246(v=BTS.80)
 ms:contentKeyID: 51526840
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

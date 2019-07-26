@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocation.AdapterName Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.AdapterName Property (WMI)
 ms:assetid: f0571f9c-f8bd-4e3a-b4e2-ed60ca6119c9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561840(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561840(v=BTS.80)
 ms:contentKeyID: 51533322
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

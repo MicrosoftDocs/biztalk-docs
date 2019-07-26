@@ -2,7 +2,7 @@
 title: ISSOWrapper.SendNotification Method
 TOCTitle: ISSOWrapper.SendNotification Method
 ms:assetid: ac203b80-31eb-4dcf-9bc3-3f8221566502
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705152(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705152(v=BTS.80)
 ms:contentKeyID: 51530402
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

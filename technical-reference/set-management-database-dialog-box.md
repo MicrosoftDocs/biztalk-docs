@@ -2,7 +2,7 @@
 title: Set Management Database Dialog Box
 TOCTitle: Set Management Database Dialog Box
 ms:assetid: b6efff59-1393-4ab9-8a27-592365a7edb6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578265(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578265(v=BTS.80)
 ms:contentKeyID: 51530707
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

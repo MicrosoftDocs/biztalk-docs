@@ -2,7 +2,7 @@
 title: Adapter Properties Dialog Box
 TOCTitle: Adapter Properties Dialog Box
 ms:assetid: 8ae16811-2905-4572-94fb-92a70278f6c1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561273(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561273(v=BTS.80)
 ms:contentKeyID: 51529543
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

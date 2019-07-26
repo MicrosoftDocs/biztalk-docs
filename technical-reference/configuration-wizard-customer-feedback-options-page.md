@@ -2,7 +2,7 @@
 title: Configuration Wizard, Customer Feedback Options Page
 TOCTitle: Configuration Wizard, Customer Feedback Options Page
 ms:assetid: 28671ef4-cc7c-4d7d-82b1-c21b9b4a2ade
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559298(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559298(v=BTS.80)
 ms:contentKeyID: 51526879
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

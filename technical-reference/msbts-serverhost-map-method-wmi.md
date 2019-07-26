@@ -2,7 +2,7 @@
 title: MSBTS_ServerHost.Map Method (WMI)
 TOCTitle: MSBTS_ServerHost.Map Method (WMI)
 ms:assetid: a97cd07c-77bc-41f0-ab23-4328525f5e25
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577957(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577957(v=BTS.80)
 ms:contentKeyID: 51530377
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

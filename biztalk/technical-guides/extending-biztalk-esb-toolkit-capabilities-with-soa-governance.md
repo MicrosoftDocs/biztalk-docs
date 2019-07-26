@@ -71,9 +71,9 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is shipped with [!INCLU
   
 -   Visual Studio 2012.  
   
--   BizTalk Server 2013. For instructions, see [Installing BizTalk Server 2013](http://msdn.microsoft.com/library/jj248688\(v=bts.80\).aspx).  
+-   BizTalk Server 2013. For instructions, see [Installing BizTalk Server 2013](https://msdn.microsoft.com/library/jj248688\(v=bts.80\).aspx).  
   
--   BizTalk Server ESB Toolkit. For instructions, see [Install and Configure the Microsoft BizTalk ESB Toolkit](http://msdn.microsoft.com/library/jj684558\(v=bts.80\).aspx).  
+-   BizTalk Server ESB Toolkit. For instructions, see [Install and Configure the Microsoft BizTalk ESB Toolkit](https://msdn.microsoft.com/library/jj684558\(v=bts.80\).aspx).  
   
 -   Sentinet BizTalk Server Extensions. For instructions, refer to the documentation available as part of the product download available [here](http://www.nevatech.com/download).  
   

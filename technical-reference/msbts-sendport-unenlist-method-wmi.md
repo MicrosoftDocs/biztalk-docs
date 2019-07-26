@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.UnEnlist Method (WMI)
 TOCTitle: MSBTS_SendPort.UnEnlist Method (WMI)
 ms:assetid: b1a6c59d-ea58-43b9-bc1d-907a0d2b1c52
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578145(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578145(v=BTS.80)
 ms:contentKeyID: 51530611
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

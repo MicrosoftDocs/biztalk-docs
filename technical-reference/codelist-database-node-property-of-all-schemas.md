@@ -2,7 +2,7 @@
 title: CodeList Database (Node Property of All Schemas)
 TOCTitle: CodeList Database (Node Property of All Schemas)
 ms:assetid: 424ee8f0-a870-4d7a-95fb-0432089ad9a8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559801(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559801(v=BTS.80)
 ms:contentKeyID: 51527572
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

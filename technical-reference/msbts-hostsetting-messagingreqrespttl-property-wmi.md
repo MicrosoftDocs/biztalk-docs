@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.MessagingReqRespTTL Property (WMI)
 TOCTitle: MSBTS_HostSetting.MessagingReqRespTTL Property (WMI)
 ms:assetid: 5ed09696-22f0-43a6-a6f5-c7cabbfde923
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678630(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678630(v=BTS.80)
 ms:contentKeyID: 51528386
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

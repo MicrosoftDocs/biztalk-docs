@@ -2,7 +2,7 @@
 title: ISSOMapper2 Members
 TOCTitle: ISSOMapper2 Members
 ms:assetid: ee688393-4bda-420f-ba55-bd730d9d6c01
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705599(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705599(v=BTS.80)
 ms:contentKeyID: 51533248
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

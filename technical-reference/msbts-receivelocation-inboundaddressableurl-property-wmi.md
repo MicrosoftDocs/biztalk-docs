@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocation.InboundAddressableURL Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.InboundAddressableURL Property (WMI)
 ms:assetid: 396a28bc-5f53-4e24-be7f-7dc12d77140f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559630(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559630(v=BTS.80)
 ms:contentKeyID: 51527345
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

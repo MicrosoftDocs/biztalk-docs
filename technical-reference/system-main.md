@@ -2,7 +2,7 @@
 title: System Main
 TOCTitle: System Main
 ms:assetid: 167c180a-a436-465e-b12d-081aac78d90d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558759(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558759(v=BTS.80)
 ms:contentKeyID: 51526423
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

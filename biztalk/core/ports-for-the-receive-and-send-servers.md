@@ -1,7 +1,7 @@
 ---
 title: "Ports for the Receive and Send Servers | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-01-07"
+ms.date: "01/07/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -69,8 +69,8 @@ For complete information about securing your BizTalk Server deployment, see [Sam
  [Server Naming Conventions](../core/server-naming-conventions.md)   
  [HTTP Adapter Security Recommendations](../core/http-adapter-security-recommendations.md)   
  [SOAP Adapter Security Recommendations](../core/soap-adapter-security-recommendations.md)   
- [FTP Adapter Security Recommendations](http://msdn.microsoft.com/library/ea7c0577-9d72-4d63-94e7-8f649c6e713f)   
+ [FTP Adapter Security Recommendations](https://msdn.microsoft.com/library/ea7c0577-9d72-4d63-94e7-8f649c6e713f)   
  [SMTP Adapter Security Recommendations](../core/smtp-adapter-security-recommendations.md)   
- [File Adapter Security Recommendations](http://msdn.microsoft.com/library/fe4d51c0-b697-457b-bf27-f1cf6965d954)   
+ [File Adapter Security Recommendations](https://msdn.microsoft.com/library/fe4d51c0-b697-457b-bf27-f1cf6965d954)   
  [Large Distributed Architecture with Information Worker Services](../core/large-distributed-architecture-with-information-worker-services.md)   
  [Required Ports for BizTalk Server](../core/required-ports-for-biztalk-server.md)

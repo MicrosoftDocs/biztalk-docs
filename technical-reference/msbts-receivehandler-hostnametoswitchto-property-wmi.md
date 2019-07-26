@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveHandler.HostNameToSwitchTo Property (WMI)
 TOCTitle: MSBTS_ReceiveHandler.HostNameToSwitchTo Property (WMI)
 ms:assetid: 7b274a30-bfbe-4d6b-a7db-0c7567db70d6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560957(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560957(v=BTS.80)
 ms:contentKeyID: 51529124
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

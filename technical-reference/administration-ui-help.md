@@ -2,7 +2,7 @@
 title: Administration UI Help
 TOCTitle: Administration UI Help
 ms:assetid: 19de7d08-b7b1-4a25-a1ca-fbbea86cc708
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559020(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559020(v=BTS.80)
 ms:contentKeyID: 51526516
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

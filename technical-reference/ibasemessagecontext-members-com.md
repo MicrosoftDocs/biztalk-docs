@@ -2,7 +2,7 @@
 title: IBaseMessageContext Members (COM)
 TOCTitle: IBaseMessageContext Members (COM)
 ms:assetid: affbb9c7-f149-45b1-b7c2-0ee364bc5927
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578108(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578108(v=BTS.80)
 ms:contentKeyID: 51530512
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

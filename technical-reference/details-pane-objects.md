@@ -2,7 +2,7 @@
 title: Details Pane Objects
 TOCTitle: Details Pane Objects
 ms:assetid: 2ab8b592-2671-476f-ad0d-4093ab8fdc59
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559340(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559340(v=BTS.80)
 ms:contentKeyID: 51526940
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: BizTalk Server Cross Reference Import Tool (BTSXRefImport.exe)
 TOCTitle: BizTalk Server Cross Reference Import Tool (BTSXRefImport.exe)
 ms:assetid: d87a26b7-753b-4605-939a-0dd99c2a50d8
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578674(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578674(v=BTS.80)
 ms:contentKeyID: 51531721
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

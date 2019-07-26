@@ -52,7 +52,7 @@ Because of the critical role that SQL Server plays in any BizTalk Server environ
 >  Certain limitations apply when granting the SQL Server service account the Windows Lock Pages in Memory privilege. See the following: 
 >   
 > - [Buffer Pool Extension](https://docs.microsoft.com/sql/database-engine/configure-windows/buffer-pool-extension)  
-> - [Enable the Lock Pages in Memory Option ](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows)  
+> - [Enable the Lock Pages in Memory Option](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows)  
   
 ## Grant the SE_MANAGE_VOLUME_NAME right to the SQL Server Service Account  
  Ensure the account running the SQL Server service has the ‘Perform Volume Maintenance Tasks’ Windows privilege or ensure it belongs to a group that does. This will allow instant file Initialization ensuring optimum performance if a database has to Auto-grow.  

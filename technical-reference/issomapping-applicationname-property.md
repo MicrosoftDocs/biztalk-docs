@@ -2,7 +2,7 @@
 title: ISSOMapping.ApplicationName Property
 TOCTitle: ISSOMapping.ApplicationName Property
 ms:assetid: ef4c7235-0050-41ad-8fb3-70e7ffe28def
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705611(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705611(v=BTS.80)
 ms:contentKeyID: 51533293
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

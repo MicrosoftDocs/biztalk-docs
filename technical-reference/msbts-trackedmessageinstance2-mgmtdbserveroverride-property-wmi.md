@@ -2,7 +2,7 @@
 title: MSBTS_TrackedMessageInstance2.MgmtDbServerOverride Property (WMI)
 TOCTitle: MSBTS_TrackedMessageInstance2.MgmtDbServerOverride Property (WMI)
 ms:assetid: cd1c337b-41f2-4630-a19e-b2aceaa0dc05
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548058(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548058(v=BTS.80)
 ms:contentKeyID: 51531284
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

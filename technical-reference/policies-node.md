@@ -2,7 +2,7 @@
 title: Policies Node
 TOCTitle: Policies Node
 ms:assetid: a9fbaaea-c32c-42f1-9df8-c2e372ca15e7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577966(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577966(v=BTS.80)
 ms:contentKeyID: 51530395
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

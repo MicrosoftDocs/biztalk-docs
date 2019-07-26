@@ -2,7 +2,7 @@
 title: Absolute Value Functoid
 TOCTitle: Absolute Value Functoid
 ms:assetid: f29fb258-a84f-4af9-98ff-19c74af30d1d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561898(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561898(v=BTS.80)
 ms:contentKeyID: 51533394
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

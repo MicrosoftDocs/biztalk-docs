@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocation.EncryptionCert (WMI)
 TOCTitle: MSBTS_ReceiveLocation.EncryptionCert (WMI)
 ms:assetid: 6484cfd0-20c5-4650-bb42-61f4c797bafc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560512(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560512(v=BTS.80)
 ms:contentKeyID: 51528544
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

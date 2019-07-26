@@ -2,7 +2,7 @@
 title: IBTBatchCallBack Methods (COM)
 TOCTitle: IBTBatchCallBack Methods (COM)
 ms:assetid: e191e25d-93ec-4286-9440-9f03e76dfc65
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561536(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561536(v=BTS.80)
 ms:contentKeyID: 51532930
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

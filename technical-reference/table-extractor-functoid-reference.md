@@ -2,7 +2,7 @@
 title: Table Extractor Functoid Reference
 TOCTitle: Table Extractor Functoid Reference
 ms:assetid: edb1c912-bdaf-4989-b61f-7bd8806f9566
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561789(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561789(v=BTS.80)
 ms:contentKeyID: 51533233
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: ISSOTicket.IssueTicket Method
 TOCTitle: ISSOTicket.IssueTicket Method
 ms:assetid: e1fb6fee-1415-48c8-9527-3118e1cc9043
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705430(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705430(v=BTS.80)
 ms:contentKeyID: 51532905
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

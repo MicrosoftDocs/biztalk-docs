@@ -2,7 +2,7 @@
 title: EDI Instance Properties Dialog Box UI Help
 TOCTitle: EDI Instance Properties Dialog Box UI Help
 ms:assetid: a0d3c0eb-72c8-4142-ad24-6c75371fac76
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743625(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743625(v=BTS.80)
 ms:contentKeyID: 51530137
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

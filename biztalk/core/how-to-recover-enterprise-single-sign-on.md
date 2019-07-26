@@ -66,4 +66,4 @@ Before you can recover BizTalk Server, you must first recover Enterprise Single 
   
 ## See Also  
  [Recovering a Computer Running BizTalk Server](../core/recovering-a-computer-running-biztalk-server.md)   
- [Configuring Enterprise SSO Using the BizTalk Server Configuration](http://msdn.microsoft.com/library/f63d1aec-a8c7-4e76-a67f-19af69e252f0)
+ [Configuring Enterprise SSO Using the BizTalk Server Configuration](https://msdn.microsoft.com/library/f63d1aec-a8c7-4e76-a67f-19af69e252f0)

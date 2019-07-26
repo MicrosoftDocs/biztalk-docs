@@ -43,7 +43,7 @@ The DRDA Service communicates to upstream local or remote SQL Server databases u
   
  *DRDA Service supports these SqlClient Connection String argument names and values.*  
   
- For more information, see [http://msdn.microsoft.com/library/system.data.sqlclient.sqlconnection.connectionstring.aspx](http://msdn.microsoft.com/library/system.data.sqlclient.sqlconnection.connectionstring.aspx).  
+ For more information, see [https://msdn.microsoft.com/library/system.data.sqlclient.sqlconnection.connectionstring.aspx](https://msdn.microsoft.com/library/system.data.sqlclient.sqlconnection.connectionstring.aspx).  
   
 #### Client Application Name  
  The **clientApplicationName** attribute instructs the DRDA Service how to set the SQL Client Application Name connection property. This **optional** attribute accepts a **string** value. The default value is **externalName**, which is the DRDA External Name (EXTNAM) representing the name of the job, task or process of the DRDA AR client program. Optionally, specify a value of **transactionIdentifier**, which is bytes 5-8 of the EXTNAM representing the name of the transaction identifier of the DRDA AR client program when running in CICS for z/OS.  

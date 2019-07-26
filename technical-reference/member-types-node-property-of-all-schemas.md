@@ -2,7 +2,7 @@
 title: Member Types (Node Property of All Schemas)
 TOCTitle: Member Types (Node Property of All Schemas)
 ms:assetid: b5a657d2-0c01-47c2-81e0-ede74bf732d3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578231(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578231(v=BTS.80)
 ms:contentKeyID: 51530721
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

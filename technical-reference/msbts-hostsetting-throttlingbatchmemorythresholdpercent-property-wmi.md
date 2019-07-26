@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.ThrottlingBatchMemoryThresholdPercent Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingBatchMemoryThresholdPercent Property (WMI)
 ms:assetid: c2a4b690-bc44-4e67-9580-380186f6f78a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678636(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678636(v=BTS.80)
 ms:contentKeyID: 51530973
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

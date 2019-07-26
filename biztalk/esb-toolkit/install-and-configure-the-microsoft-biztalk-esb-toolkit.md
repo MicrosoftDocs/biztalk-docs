@@ -55,7 +55,7 @@ An install log file is created, similar to `C:\Users\yourUserName\AppData\Local\
    > [!IMPORTANT]
    >  At this stage, you can select **Apply Configuration** to configure the [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)] with these default settings. However, if you want to do a custom configuration, complete the remaining steps. Rhe values you enter in the next steps take precedence over the default values.  
   
-5. In the left pane, expand **ESB Configuration**, expand ** Exception Management**, and then:  
+5. In the left pane, expand **ESB Configuration**, expand **Exception Management**, and then:  
   
    -   If you don't want to configure an exception management database, then select **Database**, and uncheck the **Enable Exception Management Database**.
   

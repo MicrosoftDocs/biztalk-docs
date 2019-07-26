@@ -2,7 +2,7 @@
 title: 'Affiliate Applications Properties: General'
 TOCTitle: 'Affiliate Applications Properties: General'
 ms:assetid: d0026e4d-38a8-46dc-9788-40391be41c91
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578509(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578509(v=BTS.80)
 ms:contentKeyID: 51531479
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

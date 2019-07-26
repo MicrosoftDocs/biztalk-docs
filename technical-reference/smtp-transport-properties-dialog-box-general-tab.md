@@ -2,7 +2,7 @@
 title: SMTP Transport Properties Dialog Box, General Tab
 TOCTitle: SMTP Transport Properties Dialog Box, General Tab
 ms:assetid: 3c38713b-853b-4f35-bce1-795b73e07d43
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559688(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559688(v=BTS.80)
 ms:contentKeyID: 51527421
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

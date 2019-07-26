@@ -37,7 +37,7 @@ According to the business scenario, the X12 sales order message sent from Contos
    | **Username** | Specify the user name and password to connect to SQL Server by specifying credentials for a user defined in SQL Server database. Note that the user name and password are case-sensitive. **Note:**  If you leave the **User name** and **Password** fields as blank, the adapter connects to SQL Server using Windows authentication. |
 
 
-6. Click the **URI Properties** tab, and then specify values for the connection parameters. For more information about the connection URI for the [!INCLUDE[adaptersqlshort](../includes/adaptersqlshort-md.md)], see [SQL Server Connection URI](http://msdn.microsoft.com/library/dd788089.aspx).  
+6. Click the **URI Properties** tab, and then specify values for the connection parameters. For more information about the connection URI for the [!INCLUDE[adaptersqlshort](../includes/adaptersqlshort-md.md)], see [SQL Server Connection URI](https://msdn.microsoft.com/library/dd788089.aspx).  
 
    > [!NOTE]
    >  If the connection parameters contain any reserved characters, you must specify them as-is in the **URI Properties** tab, that is, without using any escape characters. However, if you specify the URI directly in the **Configure a URI** field and the connection parameters contain reserved characters, you must specify the connection parameters using proper escape characters.  

@@ -41,4 +41,4 @@ Business Activity Monitoring (BAM) provides visibility into business processes i
 -   [Troubleshoot BAM](../core/troubleshooting-bam.md)  
   
 ## See Also  
- [Tutorial 4: Business Activity Monitoring](http://msdn.microsoft.com/library/81d5e768-f8a6-4eb0-8e6c-64db47455476)
+ [Tutorial 4: Business Activity Monitoring](https://msdn.microsoft.com/library/81d5e768-f8a6-4eb0-8e6c-64db47455476)

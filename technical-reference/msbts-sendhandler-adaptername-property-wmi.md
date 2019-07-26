@@ -2,7 +2,7 @@
 title: MSBTS_SendHandler.AdapterName Property (WMI)
 TOCTitle: MSBTS_SendHandler.AdapterName Property (WMI)
 ms:assetid: b88536d5-9165-498c-8c04-60f79130a461
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578293(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578293(v=BTS.80)
 ms:contentKeyID: 51530773
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

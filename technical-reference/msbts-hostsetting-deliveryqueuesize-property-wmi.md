@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.DeliveryQueueSize Property (WMI)
 TOCTitle: MSBTS_HostSetting.DeliveryQueueSize Property (WMI)
 ms:assetid: 9be7f63e-9521-4d39-8c74-810a9b157805
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577556(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577556(v=BTS.80)
 ms:contentKeyID: 51529991
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

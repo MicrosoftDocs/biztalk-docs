@@ -2,7 +2,7 @@
 title: MSBTS_Orchestration.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_Orchestration.MgmtDbNameOverride Property (WMI)
 ms:assetid: b5d4d7d5-fc87-4308-b204-a61977791028
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578237(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578237(v=BTS.80)
 ms:contentKeyID: 51530729
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

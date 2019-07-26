@@ -2,7 +2,7 @@
 title: Assembly Viewer UI Help
 TOCTitle: Assembly Viewer UI Help
 ms:assetid: 97c02869-1d1b-4559-ab85-92e58953389d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577466(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577466(v=BTS.80)
 ms:contentKeyID: 51529896
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Send Port Groups Node, Details Pane
 TOCTitle: Send Port Groups Node, Details Pane
 ms:assetid: d6025871-203c-4fab-8863-bd83117a9262
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578634(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578634(v=BTS.80)
 ms:contentKeyID: 51531656
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: ISSOMapping.ExternalUserName Property
 TOCTitle: ISSOMapping.ExternalUserName Property
 ms:assetid: a09a045e-197d-4abc-a87c-ce5cb2361725
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705079(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705079(v=BTS.80)
 ms:contentKeyID: 51530077
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

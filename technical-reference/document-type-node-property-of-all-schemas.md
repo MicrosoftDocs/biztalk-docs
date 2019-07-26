@@ -2,7 +2,7 @@
 title: Document Type (Node Property of All Schemas)
 TOCTitle: Document Type (Node Property of All Schemas)
 ms:assetid: ea77bc01-72fe-4b68-9d77-a66ebe29d929
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561725(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561725(v=BTS.80)
 ms:contentKeyID: 51533174
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

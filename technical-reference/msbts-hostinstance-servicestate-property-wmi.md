@@ -2,7 +2,7 @@
 title: MSBTS_HostInstance.ServiceState Property (WMI)
 TOCTitle: MSBTS_HostInstance.ServiceState Property (WMI)
 ms:assetid: 982db257-a2b7-4a39-994e-46d7cf333ea5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577472(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577472(v=BTS.80)
 ms:contentKeyID: 51529904
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

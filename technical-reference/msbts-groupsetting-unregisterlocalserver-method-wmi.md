@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.UnRegisterLocalServer Method (WMI)
 TOCTitle: MSBTS_GroupSetting.UnRegisterLocalServer Method (WMI)
 ms:assetid: f20282a5-d710-4dbf-b01e-f9ed5d08c967
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561882(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561882(v=BTS.80)
 ms:contentKeyID: 51533346
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

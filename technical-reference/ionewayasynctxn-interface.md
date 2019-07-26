@@ -2,7 +2,7 @@
 title: IOneWayAsyncTxn Interface
 TOCTitle: IOneWayAsyncTxn Interface
 ms:assetid: 9df99847-61a4-4975-be48-8bbb72c8f00a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743620(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743620(v=BTS.80)
 ms:contentKeyID: 51529996
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

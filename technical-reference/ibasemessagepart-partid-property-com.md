@@ -2,7 +2,7 @@
 title: IBaseMessagePart.PartID Property (COM)
 TOCTitle: IBaseMessagePart.PartID Property (COM)
 ms:assetid: 2ee35a62-d72b-42d0-b9f2-4f33ec3acec0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559431(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559431(v=BTS.80)
 ms:contentKeyID: 51527069
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

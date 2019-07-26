@@ -2,7 +2,7 @@
 title: IBTDTCCommitConfirm Interface (COM)
 TOCTitle: IBTDTCCommitConfirm Interface (COM)
 ms:assetid: d8e8470f-8ce4-4dcb-b1e4-521f5a33c3fb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578686(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578686(v=BTS.80)
 ms:contentKeyID: 51531624
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Call Orchestration Shape
 TOCTitle: Call Orchestration Shape
 ms:assetid: e12af37d-302a-4da5-a2c2-741fc1a4bdf5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561529(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561529(v=BTS.80)
 ms:contentKeyID: 51532886
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -3101,7 +3101,7 @@
 ### [Get a Memory Dump of a BizTalk Process](core/how-to-capture-a-memory-dump-of-a-biztalk-process.md)
 #### [Get a Memory Dump of a Non Responsive Process](core/how-to-capture-a-memory-dump-of-a-process-that-is-non-responsive.md)
 #### [Get a Memory Dump of a crashing process](core/how-to-capture-a-memory-dump-of-a-process-that-is-crashing.md)
-#### [Get a Memory Dump of a high memory process ](core/how-to-capture-a-memory-dump-of-a-process-that-is-leaking-memory.md)
+#### [Get a Memory Dump of a high memory process](core/how-to-capture-a-memory-dump-of-a-process-that-is-leaking-memory.md)
 #### [Analyze a Memory Dump](core/how-to-use-debug-diagnostics-to-analyze-a-memory-dump.md)
 ### [Tools and Utilities](core/tools-and-utilities-to-use-for-troubleshooting.md)
 ### [Troubleshoot Message Validation Failures using the Hexadecimal Contents of Suspended Messages](core/troubleshoot-message-validation-failures-using-the-hexadecimal-contents.md)

@@ -2,7 +2,7 @@
 title: Start Application Dialog Box
 TOCTitle: Start Application Dialog Box
 ms:assetid: 4276b81e-5d2e-4e59-a5a9-1401f61d9ce3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559804(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559804(v=BTS.80)
 ms:contentKeyID: 51527577
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

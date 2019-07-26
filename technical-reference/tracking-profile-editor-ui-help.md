@@ -2,7 +2,7 @@
 title: Tracking Profile Editor UI Help
 TOCTitle: Tracking Profile Editor UI Help
 ms:assetid: bc2608cc-c1ca-4629-ba36-a0418f4c0076
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578358(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578358(v=BTS.80)
 ms:contentKeyID: 51530854
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

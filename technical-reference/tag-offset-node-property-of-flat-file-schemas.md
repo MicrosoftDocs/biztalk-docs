@@ -2,7 +2,7 @@
 title: Tag Offset (Node Property of Flat File Schemas)
 TOCTitle: Tag Offset (Node Property of Flat File Schemas)
 ms:assetid: 82d7f1a0-5fe4-41d4-958d-81a9d2560f12
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561122(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561122(v=BTS.80)
 ms:contentKeyID: 51529334
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

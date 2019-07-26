@@ -2,7 +2,7 @@
 title: Orchestrations Node
 TOCTitle: Orchestrations Node
 ms:assetid: 83ffd13a-9ae1-4862-b070-474de220b41a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561147(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561147(v=BTS.80)
 ms:contentKeyID: 51529365
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

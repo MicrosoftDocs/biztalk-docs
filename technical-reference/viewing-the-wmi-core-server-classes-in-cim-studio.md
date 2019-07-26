@@ -2,7 +2,7 @@
 title: Viewing the WMI Core Server Classes in CIM Studio
 TOCTitle: Viewing the WMI Core Server Classes in CIM Studio
 ms:assetid: da9a0b3d-47c5-404a-b9a9-ed4298178001
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561401(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561401(v=BTS.80)
 ms:contentKeyID: 51531758
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IDocumentSpec Members (COM)
 TOCTitle: IDocumentSpec Members (COM)
 ms:assetid: dff95ebb-a36f-4aae-8eb5-0d1ed9b7ab53
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561506(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561506(v=BTS.80)
 ms:contentKeyID: 51532867
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

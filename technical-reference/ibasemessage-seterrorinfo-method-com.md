@@ -2,7 +2,7 @@
 title: IBaseMessage.SetErrorInfo Method (COM)
 TOCTitle: IBaseMessage.SetErrorInfo Method (COM)
 ms:assetid: f84ec341-bff7-4f00-af8e-a9100ab986c5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562009(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562009(v=BTS.80)
 ms:contentKeyID: 51533532
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_ServerHost.Unmap Method (WMI)
 TOCTitle: MSBTS_ServerHost.Unmap Method (WMI)
 ms:assetid: c0566f22-ce16-4205-a491-b7f9efe247ae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578437(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578437(v=BTS.80)
 ms:contentKeyID: 51530926
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

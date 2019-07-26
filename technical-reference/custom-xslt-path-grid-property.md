@@ -2,7 +2,7 @@
 title: Custom XSLT Path (Grid Property)
 TOCTitle: Custom XSLT Path (Grid Property)
 ms:assetid: 8a10ef52-75cd-4443-833c-a7bb74e31dc4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561256(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561256(v=BTS.80)
 ms:contentKeyID: 51529528
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

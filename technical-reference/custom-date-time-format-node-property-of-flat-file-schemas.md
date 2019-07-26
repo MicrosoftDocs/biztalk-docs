@@ -2,7 +2,7 @@
 title: Custom Date-Time Format (Node Property of Flat File Schemas)
 TOCTitle: Custom Date-Time Format (Node Property of Flat File Schemas)
 ms:assetid: 83d3e688-40bc-4547-9ef1-c0f0554201df
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561142(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561142(v=BTS.80)
 ms:contentKeyID: 51529363
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

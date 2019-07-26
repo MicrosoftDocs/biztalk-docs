@@ -2,7 +2,7 @@
 title: Applications Node
 TOCTitle: Applications Node
 ms:assetid: f8a9f5d3-7745-45a6-af04-caa07e7ba157
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562019(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562019(v=BTS.80)
 ms:contentKeyID: 51533522
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

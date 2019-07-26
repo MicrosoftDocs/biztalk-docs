@@ -2,7 +2,7 @@
 title: Role Links Node
 TOCTitle: Role Links Node
 ms:assetid: f93e924f-7ea4-4193-a37d-dbb4649c969c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562034(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562034(v=BTS.80)
 ms:contentKeyID: 51533538
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

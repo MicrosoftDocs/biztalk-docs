@@ -2,7 +2,7 @@
 title: Windows SharePoint Services Transport Properties Dialog Box, Receive
 TOCTitle: Windows SharePoint Services Transport Properties Dialog Box, Receive
 ms:assetid: dc147c06-30fd-4346-a467-36635fbf70af
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561423(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561423(v=BTS.80)
 ms:contentKeyID: 51532769
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

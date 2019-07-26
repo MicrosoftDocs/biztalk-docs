@@ -2,7 +2,7 @@
 title: Choose Toolbox Items Dialog Box, BizTalk Mapper Functoids Tab
 TOCTitle: Choose Toolbox Items Dialog Box, BizTalk Mapper Functoids Tab
 ms:assetid: 7acd1e5f-1113-489d-b716-483d213a8c5c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560949(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560949(v=BTS.80)
 ms:contentKeyID: 51529112
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

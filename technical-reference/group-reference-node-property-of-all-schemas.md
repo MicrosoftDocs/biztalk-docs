@@ -2,7 +2,7 @@
 title: Group Reference (Node Property of All Schemas)
 TOCTitle: Group Reference (Node Property of All Schemas)
 ms:assetid: 62919e8b-f312-4ff0-97ea-53bd0e6ece28
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560477(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560477(v=BTS.80)
 ms:contentKeyID: 51528478
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

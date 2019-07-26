@@ -56,7 +56,7 @@ All IDOC calls to SAP are internally treated as tRFC calls where the adapter act
    This topic provides instructions to perform these tasks.  
 
 ## Sample Based On This Topic  
- A sample, IDOCSend, based on this topic is also provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the SAP Adapter ](../../adapters-and-accelerators/adapter-sap/samples-for-the-sap-adapter.md).  
+ A sample, IDOCSend, based on this topic is also provided with the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information, see [Samples for the SAP Adapter](../../adapters-and-accelerators/adapter-sap/samples-for-the-sap-adapter.md).  
 
 ## Generating Schema  
  This topic demonstrates how to send an IDOC to an SAP system by generating schema for the *Send* operation under \IDOC\ORDERS\ORDERS05\ORDERS05.V3(620) IDOC. See [Browse, search and get metadata for IDOC operations in SAP](../../adapters-and-accelerators/adapter-sap/browse-search-and-get-metadata-for-idoc-operations-in-sap.md) for more information about how to generate schema for a particular IDOC.  

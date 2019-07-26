@@ -2,7 +2,7 @@
 title: (Name) (Functoid Property)
 TOCTitle: (Name) (Functoid Property)
 ms:assetid: 1dfbd26e-42bf-42a4-9dc5-baed13834e2a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559102(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559102(v=BTS.80)
 ms:contentKeyID: 51526618
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

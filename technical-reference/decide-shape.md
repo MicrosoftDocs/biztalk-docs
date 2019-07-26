@@ -2,7 +2,7 @@
 title: Decide Shape
 TOCTitle: Decide Shape
 ms:assetid: 3c3d25ce-8216-4617-a5b8-b481b39937a4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559689(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559689(v=BTS.80)
 ms:contentKeyID: 51527424
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: IDocumentSpec.GetBodyPath Method (COM)
 TOCTitle: IDocumentSpec.GetBodyPath Method (COM)
 ms:assetid: 31bb56aa-2f8e-44fe-a046-8d572d32198c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559485(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559485(v=BTS.80)
 ms:contentKeyID: 51527146
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

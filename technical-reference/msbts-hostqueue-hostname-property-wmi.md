@@ -2,7 +2,7 @@
 title: MSBTS_HostQueue.HostName Property (WMI)
 TOCTitle: MSBTS_HostQueue.HostName Property (WMI)
 ms:assetid: 5e1d8796-ded8-405f-863a-510af0243c9b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560402(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560402(v=BTS.80)
 ms:contentKeyID: 51528355
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Namespace (Node Property of All Schemas)
 TOCTitle: Namespace (Node Property of All Schemas)
 ms:assetid: b4a430b0-aeab-463e-af8c-5e9d351a57bd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578213(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578213(v=BTS.80)
 ms:contentKeyID: 51530636
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

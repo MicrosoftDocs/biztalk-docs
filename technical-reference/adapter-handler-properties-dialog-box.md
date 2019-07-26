@@ -2,7 +2,7 @@
 title: Adapter Handler Properties Dialog Box
 TOCTitle: Adapter Handler Properties Dialog Box
 ms:assetid: e67f67df-cf15-4c2f-bbb8-5a8d6ad8556d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561639(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561639(v=BTS.80)
 ms:contentKeyID: 51533025
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

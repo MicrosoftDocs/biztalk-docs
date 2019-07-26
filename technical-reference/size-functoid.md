@@ -2,7 +2,7 @@
 title: Size Functoid
 TOCTitle: Size Functoid
 ms:assetid: eaf6f008-0025-4110-a391-fc3c92745129
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561736(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561736(v=BTS.80)
 ms:contentKeyID: 51533187
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

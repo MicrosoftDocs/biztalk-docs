@@ -2,7 +2,7 @@
 title: BizTalk Settings Dashboard, Host Page, Resource Based Throttling Tab
 TOCTitle: BizTalk Settings Dashboard, Host Page, Resource Based Throttling Tab
 ms:assetid: c37d700d-5fe6-4f31-97ae-92e0bcbc3589
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629765(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629765(v=BTS.80)
 ms:contentKeyID: 51531008
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: ISSOAdmin2.GetApplicationInfo2 Method
 TOCTitle: ISSOAdmin2.GetApplicationInfo2 Method
 ms:assetid: a1555fec-42f4-4965-b5ac-f7e99075a5fd
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa745801(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa745801(v=BTS.80)
 ms:contentKeyID: 51530158
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

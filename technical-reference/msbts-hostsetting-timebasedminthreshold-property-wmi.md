@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.TimeBasedMinThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.TimeBasedMinThreshold Property (WMI)
 ms:assetid: d8764573-046a-46b5-8db8-5a9d5b55a4bf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678643(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678643(v=BTS.80)
 ms:contentKeyID: 51531719
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

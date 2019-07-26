@@ -2,7 +2,7 @@
 title: WCF-NetTcp Transport Properties Dialog Box, Send, Binding Tab
 TOCTitle: WCF-NetTcp Transport Properties Dialog Box, Send, Binding Tab
 ms:assetid: ca2f3b64-d646-475e-a745-e767e39e6941
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226527(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226527(v=BTS.80)
 ms:contentKeyID: 51531176
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

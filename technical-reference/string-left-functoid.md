@@ -2,7 +2,7 @@
 title: String Left Functoid
 TOCTitle: String Left Functoid
 ms:assetid: 54ee2a92-7ba1-4214-ae3c-457c14bb1588
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560209(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560209(v=BTS.80)
 ms:contentKeyID: 51528116
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

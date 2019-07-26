@@ -2,7 +2,7 @@
 title: IAssemblerComponent.AddDocument Method (COM)
 TOCTitle: IAssemblerComponent.AddDocument Method (COM)
 ms:assetid: f97bcd79-a576-44be-ac05-c088fa3936c7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562039(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562039(v=BTS.80)
 ms:contentKeyID: 51533545
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

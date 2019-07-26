@@ -2,7 +2,7 @@
 title: IBaseMessageFactory.CreateMessage Method (COM)
 TOCTitle: IBaseMessageFactory.CreateMessage Method (COM)
 ms:assetid: b30e0ea9-9861-42e8-8a9b-13167686c930
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578181(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578181(v=BTS.80)
 ms:contentKeyID: 51530649
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

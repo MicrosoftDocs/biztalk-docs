@@ -2,7 +2,7 @@
 title: BizTalk Flat File Schema Wizard, Delimited Record Page
 TOCTitle: BizTalk Flat File Schema Wizard, Delimited Record Page
 ms:assetid: f5152b53-aba5-4102-992d-f1a374218176
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561946(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561946(v=BTS.80)
 ms:contentKeyID: 51533425
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

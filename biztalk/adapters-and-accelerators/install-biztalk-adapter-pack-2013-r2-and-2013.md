@@ -2,7 +2,7 @@
 title: "Install BizTalk Adapter Pack 2013 R2 and 2013 | Microsoft Docs"
 description: Prerequisites and steps to install BAP 2013 R2 and BAP 2013 included with BizTalk Server
 ms.custom: ""
-ms.date: "2015-12-09"
+ms.date: "12/09/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

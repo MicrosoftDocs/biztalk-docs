@@ -2,7 +2,7 @@
 title: Standard (Node Property of All Schemas)
 TOCTitle: Standard (Node Property of All Schemas)
 ms:assetid: 90378ade-fe27-42a2-bd25-0682ec51b65e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561372(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561372(v=BTS.80)
 ms:contentKeyID: 51529674
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

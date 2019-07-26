@@ -126,11 +126,11 @@ Also consider the following:
 -   The BizTalk Server runtime requires .NET Framework 4.5. The .NET Framework 3.0 is required if the Windows Communication Foundation (WCF) adapter or WCF Interceptor is installed.  
   
 ##  <a name="BKMK_SQL"></a> Install SQL Server  
- Install [SQL Server 2008 R2](http://msdn.microsoft.com/library/bb500395\(v=sql.105\).aspx)  
+ Install [SQL Server 2008 R2](https://msdn.microsoft.com/library/bb500395\(v=sql.105\).aspx)  
   
- Install [SQL Server 2012](http://msdn.microsoft.com/library/bb500469\(v=sql.110\).aspx)  
+ Install [SQL Server 2012](https://msdn.microsoft.com/library/bb500469\(v=sql.110\).aspx)  
   
- Install [SQL Server 2014](http://msdn.microsoft.com/library/bb500469\(v=sql.120\).aspx)  
+ Install [SQL Server 2014](https://msdn.microsoft.com/library/bb500469\(v=sql.120\).aspx)  
   
  When you install SQL Server, select the following features:  
   
@@ -162,7 +162,7 @@ Also consider the following:
   
 - BizTalk Server supports all case-sensitive and case-insensitive SQL Server collations except for binary collations. Binary collations are not supported.  
   
-- For optimal performance, Microsoft recommends using the Enterprise Edition of SQL Server. See [SQL Server 2008 R2 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.105\).aspx), [SQL Server 2012 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.110\).aspx), or [SQL Server 2014 Editions](http://msdn.microsoft.com/library/cc645993\(v=sql.120\).aspx).  
+- For optimal performance, Microsoft recommends using the Enterprise Edition of SQL Server. See [SQL Server 2008 R2 Editions](https://msdn.microsoft.com/library/cc645993\(v=sql.105\).aspx), [SQL Server 2012 Editions](https://msdn.microsoft.com/library/cc645993\(v=sql.110\).aspx), or [SQL Server 2014 Editions](https://msdn.microsoft.com/library/cc645993\(v=sql.120\).aspx).  
   
 - Service packs and Windows Updates are supported and should be installed.  
   
@@ -206,7 +206,7 @@ Also consider the following:
   
    **MQSeries Server for Windows** is not a Microsoft program and must be obtained with your IBM WebSphere MQ program.  
   
-- [MQSeries Adapter](http://technet.microsoft.com/library/aa547973\(v=BTS.80\).aspx) provides more information on the MQSeries adapter, including configuring the different components. [BizTalk Server: MQSeries and MQSeries Client (MQSC) adapters](http://social.technet.microsoft.com/wiki/contents/articles/18316.biztalk-server-mqseries-and-mqseries-client-mqsc-adapters.aspx) provides additional details on the MQSeries and MQSC adapters.  
+- [MQSeries Adapter](https://technet.microsoft.com/library/aa547973\(v=BTS.80\).aspx) provides more information on the MQSeries adapter, including configuring the different components. [BizTalk Server: MQSeries and MQSeries Client (MQSC) adapters](http://social.technet.microsoft.com/wiki/contents/articles/18316.biztalk-server-mqseries-and-mqseries-client-mqsc-adapters.aspx) provides additional details on the MQSeries and MQSC adapters.  
   
 - IBM WebSphere is not a Microsoft product and is not supported by Microsoft. Microsoft makes no guarantees about the suitability of this program. For more information about IBM WebSphere MQ, including download instructions, see www.ibm.com.  
   
@@ -214,9 +214,9 @@ Also consider the following:
  BAM Alerts with SQL Server 2012 and newer versions use Database Mail in SQL Server. BAM Alerts with SQL Server 2008 R2 and older versions use SQL Notification Services. Before installing or configuring BAM Alerts, you must configure the Notification Services or Database Mail in SQL Server.  
   
 ###  <a name="BKMK_DBMail"></a> BAM Alerts using SQL Server 2012/2014  
- Configure [SQL Server 2012 Database Mail](http://msdn.microsoft.com/library/hh245116\(v=sql.110\).aspx).  
+ Configure [SQL Server 2012 Database Mail](https://msdn.microsoft.com/library/hh245116\(v=sql.110\).aspx).  
   
- Configure [SQL Server 2014 Database Mail](http://msdn.microsoft.com/library/hh245116\(v=sql.120\).aspx).  
+ Configure [SQL Server 2014 Database Mail](https://msdn.microsoft.com/library/hh245116\(v=sql.120\).aspx).  
   
  **Additional**  
   
@@ -271,13 +271,13 @@ Also consider the following:
 -   [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md) provides specific information on the SharePoint installation options.  
   
 ##  <a name="BKMK_WSS"></a> Install and Configure Microsoft SharePoint  
- Install [SharePoint 2013](http://technet.microsoft.com/library/cc303424.aspx)  
+ Install [SharePoint 2013](https://technet.microsoft.com/library/cc303424.aspx)  
   
- Install [SharePoint Online Service](http://technet.microsoft.com/library/jj819267.aspx)  
+ Install [SharePoint Online Service](https://technet.microsoft.com/library/jj819267.aspx)  
   
- Install [SharePoint Server 2010](http://technet.microsoft.com/library/cc303424\(v=office.14\).aspx)  
+ Install [SharePoint Server 2010](https://technet.microsoft.com/library/cc303424\(v=office.14\).aspx)  
   
- Install [SharePoint 2007](http://technet.microsoft.com/library/cc303424\(v=office.12\).aspx)  
+ Install [SharePoint 2007](https://technet.microsoft.com/library/cc303424\(v=office.12\).aspx)  
   
  **Additional**  
   
@@ -351,10 +351,10 @@ Also consider the following:
 -   BizTalk Server setup keeps a record of events in the Application Event Log. Depending on the BizTalk Server features installed, the amount of space required in the log may exceed its limit. If the application event log runs out of space during BizTalk Server setup, the installation fails. Changing the Application Event Log settings prevents this failure.  
   
 ## Next  
- [Choose BizTalk Server Features and Components](http://msdn.microsoft.com/library/b8c43fcf-9e5c-48ba-830b-13a5177e30f0)  
+ [Choose BizTalk Server Features and Components](https://msdn.microsoft.com/library/b8c43fcf-9e5c-48ba-830b-13a5177e30f0)  
   
 ## See Also  
- [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)   
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)   
  [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md)   
  [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)   
  [Appendix C: Redistributable CAB Files](../install-and-config-guides/appendix-c-redistributable-cab-files.md)   

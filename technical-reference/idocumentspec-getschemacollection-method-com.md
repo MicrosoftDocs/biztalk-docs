@@ -2,7 +2,7 @@
 title: IDocumentSpec.GetSchemaCollection Method (COM)
 TOCTitle: IDocumentSpec.GetSchemaCollection Method (COM)
 ms:assetid: bcc0f179-89c7-455c-996c-be9fb9590d02
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578374(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578374(v=BTS.80)
 ms:contentKeyID: 51530934
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

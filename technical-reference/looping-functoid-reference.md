@@ -2,7 +2,7 @@
 title: Looping Functoid Reference
 TOCTitle: Looping Functoid Reference
 ms:assetid: 776041c2-1f1d-415d-ac86-89d40dedc103
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560883(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560883(v=BTS.80)
 ms:contentKeyID: 51529035
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

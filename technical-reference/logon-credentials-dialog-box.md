@@ -2,7 +2,7 @@
 title: Logon Credentials Dialog Box
 TOCTitle: Logon Credentials Dialog Box
 ms:assetid: 3a96bd80-3959-456c-b3a3-aa3ffc1a9857
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559652(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559652(v=BTS.80)
 ms:contentKeyID: 51527432
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

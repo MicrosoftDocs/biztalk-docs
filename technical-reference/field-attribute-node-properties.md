@@ -2,7 +2,7 @@
 title: Field Attribute Node Properties
 TOCTitle: Field Attribute Node Properties
 ms:assetid: aea31ecf-ef0b-47a8-844f-2175b6ea1c90
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578079(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578079(v=BTS.80)
 ms:contentKeyID: 51530529
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

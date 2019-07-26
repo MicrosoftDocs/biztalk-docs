@@ -2,7 +2,7 @@
 title: ISSOAdmin.DeleteApplication Method
 TOCTitle: ISSOAdmin.DeleteApplication Method
 ms:assetid: d6accf27-285f-4059-8df4-cbed39e71f01
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa772027(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa772027(v=BTS.80)
 ms:contentKeyID: 51531556
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

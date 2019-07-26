@@ -2,7 +2,7 @@
 title: String Extract Functoid
 TOCTitle: String Extract Functoid
 ms:assetid: ed1aa7b5-5261-4821-af9a-6f998d4360ee
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561774(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561774(v=BTS.80)
 ms:contentKeyID: 51533241
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

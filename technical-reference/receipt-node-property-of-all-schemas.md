@@ -2,7 +2,7 @@
 title: Receipt (Node Property of All Schemas)
 TOCTitle: Receipt (Node Property of All Schemas)
 ms:assetid: 80f2054e-09a1-46b5-9695-b1fd6891c6e6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561073(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561073(v=BTS.80)
 ms:contentKeyID: 51529276
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

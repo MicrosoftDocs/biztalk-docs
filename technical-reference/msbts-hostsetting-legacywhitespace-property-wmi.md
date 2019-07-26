@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.LegacyWhitespace Property (WMI)
 TOCTitle: MSBTS_HostSetting.LegacyWhitespace Property (WMI)
 ms:assetid: d579248c-7abe-4217-9edd-c9c8f01f69c5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Gg678641(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg678641(v=BTS.80)
 ms:contentKeyID: 51531513
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

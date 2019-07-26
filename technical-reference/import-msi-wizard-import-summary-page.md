@@ -2,7 +2,7 @@
 title: Import MSI Wizard, Import Summary Page
 TOCTitle: Import MSI Wizard, Import Summary Page
 ms:assetid: 515361f2-a7b7-4a6d-9997-2e9e5fa97e99
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560138(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560138(v=BTS.80)
 ms:contentKeyID: 51528006
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

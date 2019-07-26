@@ -2,7 +2,7 @@
 title: Message Assignment Shape
 TOCTitle: Message Assignment Shape
 ms:assetid: ea3adb29-810b-4602-aca4-d480a1a06964
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561718(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561718(v=BTS.80)
 ms:contentKeyID: 51533163
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

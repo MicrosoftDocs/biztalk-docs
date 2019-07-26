@@ -2,7 +2,7 @@
 title: Message Boxes Node
 TOCTitle: Message Boxes Node
 ms:assetid: a534863e-365e-4ab5-8648-3346d75a1b3c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577880(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577880(v=BTS.80)
 ms:contentKeyID: 51530220
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

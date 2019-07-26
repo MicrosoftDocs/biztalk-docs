@@ -2,7 +2,7 @@
 title: IOneWayAsyncTxn.BeginOneWayMethod Method
 TOCTitle: IOneWayAsyncTxn.BeginOneWayMethod Method
 ms:assetid: 673efbb7-cada-494c-946a-fd9306f35ea4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743430(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743430(v=BTS.80)
 ms:contentKeyID: 51528615
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

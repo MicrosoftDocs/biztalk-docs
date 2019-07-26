@@ -2,7 +2,7 @@
 title: Minimum Length (Node Property of All Schemas)
 TOCTitle: Minimum Length (Node Property of All Schemas)
 ms:assetid: fe25af72-30c4-4f17-afd8-597b269f4935
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562144(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562144(v=BTS.80)
 ms:contentKeyID: 51533785
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Actions Editor
 TOCTitle: Actions Editor
 ms:assetid: 4f32d294-db77-443c-84fe-c54bc6c51f38
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560095(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560095(v=BTS.80)
 ms:contentKeyID: 51527944
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

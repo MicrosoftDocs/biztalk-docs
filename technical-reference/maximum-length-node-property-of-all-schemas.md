@@ -2,7 +2,7 @@
 title: Maximum Length (Node Property of All Schemas)
 TOCTitle: Maximum Length (Node Property of All Schemas)
 ms:assetid: 44fb4f75-fdd9-463d-bba2-6a1e3836981e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559850(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559850(v=BTS.80)
 ms:contentKeyID: 51527698
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

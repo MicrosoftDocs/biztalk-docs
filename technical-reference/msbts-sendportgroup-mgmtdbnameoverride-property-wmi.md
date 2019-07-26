@@ -2,7 +2,7 @@
 title: MSBTS_SendPortGroup.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_SendPortGroup.MgmtDbNameOverride Property (WMI)
 ms:assetid: ed320d27-2d05-49f4-9def-fa6efca8ad83
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561779(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561779(v=BTS.80)
 ms:contentKeyID: 51533219
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

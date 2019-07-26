@@ -2,7 +2,7 @@
 title: Host Instances Node, Details Pane
 TOCTitle: Host Instances Node, Details Pane
 ms:assetid: 01f0f584-30a5-4d5c-a6a9-6778b22a46d4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546760(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546760(v=BTS.80)
 ms:contentKeyID: 51525880
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

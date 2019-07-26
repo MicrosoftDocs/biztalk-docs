@@ -2,7 +2,7 @@
 title: Configuration Wizard, Enterprise Single Sign-On Page
 TOCTitle: Configuration Wizard, Enterprise Single Sign-On Page
 ms:assetid: 15c013f1-a7ff-4c56-a6e6-babf3c3d38ae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa558719(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa558719(v=BTS.80)
 ms:contentKeyID: 51526399
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

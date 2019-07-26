@@ -2,7 +2,7 @@
 title: BizTalk Framework Disassembler Pipeline Component Properties
 TOCTitle: BizTalk Framework Disassembler Pipeline Component Properties
 ms:assetid: c88cca43-21aa-41c1-87de-9b030510920c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547967(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547967(v=BTS.80)
 ms:contentKeyID: 51531136
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -36,13 +36,13 @@ Default value: False</td>
 </tr>
 <tr class="even">
 <td><strong>Document schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="https://msdn.microsoft.com/en-us/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
+<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
 <br />
 Default value: Empty collection (Collection)</td>
 </tr>
 <tr class="odd">
 <td><strong>Envelope schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas to be applied to the envelope. For more information, see <a href="https://msdn.microsoft.com/en-us/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
+<td>Indicate the namespace and typename of the schema or schemas to be applied to the envelope. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
 <br />
 Default value: (Collection), BTF2Schemas.btf2_envelope</td>
 </tr>

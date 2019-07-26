@@ -2,7 +2,7 @@
 title: Scientific Functoids Reference
 TOCTitle: Scientific Functoids Reference
 ms:assetid: e60738d7-9df9-4c73-91cc-692a6d481d4f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561631(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561631(v=BTS.80)
 ms:contentKeyID: 51533012
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

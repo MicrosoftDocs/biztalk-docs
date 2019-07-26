@@ -2,7 +2,7 @@
 title: Creating a Receive Location with a Datetime Schedule Configuration Using WMI
 TOCTitle: Creating a Receive Location with a Datetime Schedule Configuration Using WMI
 ms:assetid: 3257d7f4-78e9-4862-9517-1468a8efa6c4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559496(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559496(v=BTS.80)
 ms:contentKeyID: 51527225
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

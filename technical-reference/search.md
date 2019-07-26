@@ -2,7 +2,7 @@
 title: Search
 TOCTitle: Search
 ms:assetid: 34c39cf2-4684-4a76-833d-427dd9aead11
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559540(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559540(v=BTS.80)
 ms:contentKeyID: 51527231
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

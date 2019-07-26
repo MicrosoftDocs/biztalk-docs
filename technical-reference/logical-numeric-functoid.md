@@ -2,7 +2,7 @@
 title: Logical Numeric Functoid
 TOCTitle: Logical Numeric Functoid
 ms:assetid: 9ee5601b-6a86-483a-9df2-8378470521be
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577628(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577628(v=BTS.80)
 ms:contentKeyID: 51530022
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

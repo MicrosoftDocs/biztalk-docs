@@ -2,7 +2,7 @@
 title: Add Policies Dialog Box
 TOCTitle: Add Policies Dialog Box
 ms:assetid: 8ce00f2e-196c-4bd0-b782-74876ba5e473
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561302(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561302(v=BTS.80)
 ms:contentKeyID: 51529590
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

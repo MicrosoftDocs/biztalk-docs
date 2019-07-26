@@ -2,7 +2,7 @@
 title: MIME-SMIME Encoder Pipeline Component Properties
 TOCTitle: MIME-SMIME Encoder Pipeline Component Properties
 ms:assetid: b5efd9df-c30c-46db-ab59-2dd1e9fe5224
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578240(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578240(v=BTS.80)
 ms:contentKeyID: 51530732
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

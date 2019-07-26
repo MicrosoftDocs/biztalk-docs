@@ -2,7 +2,7 @@
 title: ISSOMapping.WindowsDomainName Property
 TOCTitle: ISSOMapping.WindowsDomainName Property
 ms:assetid: 7f79fec5-c57a-48eb-9722-ac9988a00059
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771356(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771356(v=BTS.80)
 ms:contentKeyID: 51529244
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Adapters Node
 TOCTitle: Adapters Node
 ms:assetid: f43b26ed-d518-47e8-93e0-17de6b2aad5a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561932(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561932(v=BTS.80)
 ms:contentKeyID: 51533432
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

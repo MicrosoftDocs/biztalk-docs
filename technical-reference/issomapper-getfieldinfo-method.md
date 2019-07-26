@@ -2,7 +2,7 @@
 title: ISSOMapper.GetFieldInfo Method
 TOCTitle: ISSOMapper.GetFieldInfo Method
 ms:assetid: bc2a5698-f01c-44d0-b20d-6518d7b1090b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa746189(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa746189(v=BTS.80)
 ms:contentKeyID: 51530856
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

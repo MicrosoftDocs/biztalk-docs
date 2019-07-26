@@ -2,7 +2,7 @@
 title: Adapters Node, Details Pane
 TOCTitle: Adapters Node, Details Pane
 ms:assetid: 5b0e48bc-b205-4a36-9dea-0285062fdce2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560335(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560335(v=BTS.80)
 ms:contentKeyID: 51528273
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

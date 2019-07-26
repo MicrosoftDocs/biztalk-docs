@@ -2,7 +2,7 @@
 title: Deployment Page
 TOCTitle: Deployment Page
 ms:assetid: cde65d26-8bff-4bf5-bcc3-3f5301be5e1b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578469(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578469(v=BTS.80)
 ms:contentKeyID: 51531312
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -58,7 +58,7 @@ Type: Boolean</td>
 </tr>
 <tr class="odd">
 <td><strong>Enable Unit Testing</strong></td>
-<td>Specifies whether to enable unit testing for the project. For more information see: <a href="https://msdn.microsoft.com/en-us/library/dd257907(v=bts.80)">Unit Testing with BizTalk Server Projects</a>.</td>
+<td>Specifies whether to enable unit testing for the project. For more information see: <a href="https://msdn.microsoft.com/library/dd257907(v=bts.80)">Unit Testing with BizTalk Server Projects</a>.</td>
 </tr>
 </tbody>
 </table>

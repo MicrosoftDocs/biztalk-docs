@@ -2,7 +2,7 @@
 title: MSBTS_ServiceInstance.PendingOperationTime Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.PendingOperationTime Property (WMI)
 ms:assetid: 2182b87a-13ec-4693-a709-d7f08df7a216
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559161(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559161(v=BTS.80)
 ms:contentKeyID: 51526713
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

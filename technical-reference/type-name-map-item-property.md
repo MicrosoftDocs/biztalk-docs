@@ -2,7 +2,7 @@
 title: Type Name (Map Item Property)
 TOCTitle: Type Name (Map Item Property)
 ms:assetid: 68881504-1571-4502-9c41-b3853985769e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560581(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560581(v=BTS.80)
 ms:contentKeyID: 51528651
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

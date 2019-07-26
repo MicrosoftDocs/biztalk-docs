@@ -2,7 +2,7 @@
 title: Structure (Node Property of Flat File Schemas)
 TOCTitle: Structure (Node Property of Flat File Schemas)
 ms:assetid: db8bc83f-cb46-47b1-95ac-cebb57ae776c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561411(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561411(v=BTS.80)
 ms:contentKeyID: 51531708
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

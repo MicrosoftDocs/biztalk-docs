@@ -2,7 +2,7 @@
 title: ISSOMapping.Flags Property
 TOCTitle: ISSOMapping.Flags Property
 ms:assetid: 86169c9e-24e4-4260-9f91-4980a08134af
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771476(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771476(v=BTS.80)
 ms:contentKeyID: 51529423
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

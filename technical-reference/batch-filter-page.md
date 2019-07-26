@@ -2,7 +2,7 @@
 title: Batch Filter Page
 TOCTitle: Batch Filter Page
 ms:assetid: 6739943b-b5e1-412d-b8c3-a18e0f9fb586
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Dd257229(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Dd257229(v=BTS.80)
 ms:contentKeyID: 51528613
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

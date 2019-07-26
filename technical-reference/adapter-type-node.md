@@ -2,7 +2,7 @@
 title: <Adapter Type> Node
 TOCTitle: <Adapter Type> Node
 ms:assetid: b7b70c85-49e3-4153-922e-ef4ac4b2c023
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578279(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578279(v=BTS.80)
 ms:contentKeyID: 51530726
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

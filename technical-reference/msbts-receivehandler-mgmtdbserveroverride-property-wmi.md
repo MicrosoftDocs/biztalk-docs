@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveHandler.MgmtDbServerOverride Property (WMI)
 TOCTitle: MSBTS_ReceiveHandler.MgmtDbServerOverride Property (WMI)
 ms:assetid: 6ea637b5-ecac-460b-9338-ea9fadb59842
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560724(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560724(v=BTS.80)
 ms:contentKeyID: 51528808
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

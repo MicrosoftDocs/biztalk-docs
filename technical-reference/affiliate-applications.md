@@ -2,7 +2,7 @@
 title: Affiliate Applications
 TOCTitle: Affiliate Applications
 ms:assetid: b25dd2e9-bdce-44f4-bd82-13560265f115
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578163(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578163(v=BTS.80)
 ms:contentKeyID: 51530575
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

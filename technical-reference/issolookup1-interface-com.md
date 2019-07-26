@@ -2,7 +2,7 @@
 title: ISSOLookup1 Interface (COM)
 TOCTitle: ISSOLookup1 Interface (COM)
 ms:assetid: d1bc2bc5-64d9-476e-9471-2f2c2376154f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771951(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771951(v=BTS.80)
 ms:contentKeyID: 51531416
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

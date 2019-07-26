@@ -2,7 +2,7 @@
 title: MSBTS_ServerSetting.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_ServerSetting.MgmtDbNameOverride Property (WMI)
 ms:assetid: 3cae05e9-9b91-4b38-9b5f-b4a5bd0fd48c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559698(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559698(v=BTS.80)
 ms:contentKeyID: 51527489
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

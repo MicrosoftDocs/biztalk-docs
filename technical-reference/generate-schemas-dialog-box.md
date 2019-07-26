@@ -2,7 +2,7 @@
 title: Generate Schemas Dialog Box
 TOCTitle: Generate Schemas Dialog Box
 ms:assetid: 82747abd-2e73-40e3-9b49-9d8d09505ca1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561107(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561107(v=BTS.80)
 ms:contentKeyID: 51529322
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

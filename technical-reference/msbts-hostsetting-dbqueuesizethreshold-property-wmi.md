@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.DBQueueSizeThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.DBQueueSizeThreshold Property (WMI)
 ms:assetid: a99999b4-b673-400e-892d-971079d6b370
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577960(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577960(v=BTS.80)
 ms:contentKeyID: 51530382
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

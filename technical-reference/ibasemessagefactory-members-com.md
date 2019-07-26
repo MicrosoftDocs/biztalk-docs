@@ -2,7 +2,7 @@
 title: IBaseMessageFactory Members (COM)
 TOCTitle: IBaseMessageFactory Members (COM)
 ms:assetid: bdef7678-39c6-486f-8334-ba770d6c0839
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578401(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578401(v=BTS.80)
 ms:contentKeyID: 51530889
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

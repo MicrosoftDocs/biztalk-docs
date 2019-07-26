@@ -2,7 +2,7 @@
 title: MSBTS_ServiceInstance.SuspendTime Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.SuspendTime Property (WMI)
 ms:assetid: f13ec5aa-ad8a-4b7a-9785-acc3a9fb9ce4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561868(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561868(v=BTS.80)
 ms:contentKeyID: 51533330
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

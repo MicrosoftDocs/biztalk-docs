@@ -52,8 +52,8 @@ Configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 4. Review your configuration details, and select **Next**.
 5. When the configuration wizard completes, select **Finish**.
 
-A configuration log file is generated in a temp folder, similar to: `
-C:\Users\username\AppData\Local\Temp\ConfigLog(01-12-2017 0h37m59s).log`.
+A configuration log file is generated in a temp folder, similar to:
+`C:\Users\username\AppData\Local\Temp\ConfigLog(01-12-2017 0h37m59s).log`.
 
 When you do a basic configuration, the following occurs:
 
@@ -251,8 +251,8 @@ Select **Apply configuration**, and continue with the configuration.
 1. In **Summary**, review the components you selected, and select **Next**.
 2. When complete, select **Finish**.
 
-When finished, a configuration log file is generated in a temp folder, similar to: `
-C:\Users\username\AppData\Local\Temp\ConfigLog(1-12-2017 2h39m30s).log`.
+When finished, a configuration log file is generated in a temp folder, similar to:
+`C:\Users\username\AppData\Local\Temp\ConfigLog(1-12-2017 2h39m30s).log`.
 
 ## IIS application pools and web sites
 After you configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the following Internet Information Services (IIS) application pools and virtual applications may be created: 
@@ -277,7 +277,7 @@ After you configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalks
 
 ## More configuration topics  
 
- [Configuring BizTalk Server on an Azure VM](http://msdn.microsoft.com/library/azure/jj248689.aspx)  
+ [Configuring BizTalk Server on an Azure VM](https://msdn.microsoft.com/library/azure/jj248689.aspx)  
 
 [Configuring BizTalk Server in a Cluster](../install-and-config-guides/configure-biztalk-server-in-a-cluster.md)
 

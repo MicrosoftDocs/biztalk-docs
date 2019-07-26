@@ -2,7 +2,7 @@
 title: Date Functoid
 TOCTitle: Date Functoid
 ms:assetid: 1ff2a39c-741b-42e4-bdc7-85fb9378f7c7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559140(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559140(v=BTS.80)
 ms:contentKeyID: 51526682
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

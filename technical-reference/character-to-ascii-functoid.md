@@ -2,7 +2,7 @@
 title: Character to ASCII Functoid
 TOCTitle: Character to ASCII Functoid
 ms:assetid: f22849d2-0f3e-46f5-8529-964d9bcd3f70
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561886(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561886(v=BTS.80)
 ms:contentKeyID: 51533376
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

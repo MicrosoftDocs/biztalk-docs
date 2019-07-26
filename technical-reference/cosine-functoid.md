@@ -2,7 +2,7 @@
 title: Cosine Functoid
 TOCTitle: Cosine Functoid
 ms:assetid: 3bb3dc97-020a-41ff-854a-28924c21054d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559678(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559678(v=BTS.80)
 ms:contentKeyID: 51527468
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

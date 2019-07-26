@@ -2,7 +2,7 @@
 title: Receive Ports Node, Details Pane
 TOCTitle: Receive Ports Node, Details Pane
 ms:assetid: 7f018c99-9eef-4fc4-aaab-059e5e9285f4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561037(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561037(v=BTS.80)
 ms:contentKeyID: 51529228
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

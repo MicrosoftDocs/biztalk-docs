@@ -2,7 +2,7 @@
 title: Adapter Handlers Node, Details Pane
 TOCTitle: Adapter Handlers Node, Details Pane
 ms:assetid: 2fb0de60-d3ee-4dec-82f8-32ea61897d0b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559447(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559447(v=BTS.80)
 ms:contentKeyID: 51527089
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

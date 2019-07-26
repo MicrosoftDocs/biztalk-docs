@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.PTFromTime Property (WMI)
 TOCTitle: MSBTS_SendPort.PTFromTime Property (WMI)
 ms:assetid: 8d7d19b0-7e33-4d81-a689-5568854a1aba
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561319(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561319(v=BTS.80)
 ms:contentKeyID: 51529612
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Facts Explorer, Databases Tab
 TOCTitle: Facts Explorer, Databases Tab
 ms:assetid: c6d73066-94c7-4ffe-a647-cd3c0bfd7351
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547931(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547931(v=BTS.80)
 ms:contentKeyID: 51531209
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

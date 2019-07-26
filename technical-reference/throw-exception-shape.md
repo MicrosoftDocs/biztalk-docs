@@ -2,7 +2,7 @@
 title: Throw Exception Shape
 TOCTitle: Throw Exception Shape
 ms:assetid: b51b38c6-162e-4e38-9fc6-73ba639814ca
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578219(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578219(v=BTS.80)
 ms:contentKeyID: 51530648
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

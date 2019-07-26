@@ -2,7 +2,7 @@
 title: ITwoWayAsyncVoidTxn.BizTalkSubmit Method
 TOCTitle: ITwoWayAsyncVoidTxn.BizTalkSubmit Method
 ms:assetid: 3be75cd9-a235-478a-922c-dfcc287dc6b1
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb727786(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb727786(v=BTS.80)
 ms:contentKeyID: 51527473
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

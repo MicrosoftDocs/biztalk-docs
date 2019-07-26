@@ -2,7 +2,7 @@
 title: IBaseMessageContext Methods (COM)
 TOCTitle: IBaseMessageContext Methods (COM)
 ms:assetid: 10873016-4f9d-4230-a857-4612ad273705
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547563(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547563(v=BTS.80)
 ms:contentKeyID: 51526280
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

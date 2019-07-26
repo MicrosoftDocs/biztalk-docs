@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocationOrchestration.PipelineName Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.PipelineName Property (WMI)
 ms:assetid: e66da1bb-90bb-453e-be1e-af89ac2dd10a
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561638(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561638(v=BTS.80)
 ms:contentKeyID: 51533046
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

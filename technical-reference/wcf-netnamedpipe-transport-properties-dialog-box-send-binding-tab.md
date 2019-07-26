@@ -2,7 +2,7 @@
 title: WCF-NetNamedPipe Transport Properties Dialog Box, Send, Binding Tab
 TOCTitle: WCF-NetNamedPipe Transport Properties Dialog Box, Send, Binding Tab
 ms:assetid: 000627b0-68be-4ca9-9a07-ab8603ddd960
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb245931(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb245931(v=BTS.80)
 ms:contentKeyID: 51525830
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: HTTP Transport Properties Dialog Box, Authentication Tab
 TOCTitle: HTTP Transport Properties Dialog Box, Authentication Tab
 ms:assetid: d9d510e4-c34f-4ef3-817e-62e9ed199e24
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578713(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578713(v=BTS.80)
 ms:contentKeyID: 51531663
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

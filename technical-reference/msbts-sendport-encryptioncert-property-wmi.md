@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.EncryptionCert Property (WMI)
 TOCTitle: MSBTS_SendPort.EncryptionCert Property (WMI)
 ms:assetid: 5917c349-4c6a-43c2-9e6e-9d206bdbc17b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560289(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560289(v=BTS.80)
 ms:contentKeyID: 51528226
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

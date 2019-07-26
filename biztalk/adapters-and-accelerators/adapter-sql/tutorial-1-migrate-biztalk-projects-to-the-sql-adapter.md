@@ -55,7 +55,7 @@ The previous version of the SQL adapter that shipped with Microsoft [!INCLUDE[bt
   
 -   You must have a request message to perform an Insert operation on the SQL Server database using the vPrev SQL adapter. The request message must conform to the schema of the Insert operation generated using the vPrev SQL adapter.  
   
--   You should have completed the steps in [Before You Develop BizTalk Applications](http://msdn.microsoft.com/library/3539741d-5266-43d4-9b7b-73e82f0ed4f6).  
+-   You should have completed the steps in [Before You Develop BizTalk Applications](https://msdn.microsoft.com/library/3539741d-5266-43d4-9b7b-73e82f0ed4f6).  
   
 ## Understanding a BizTalk Project Created Using the Previous Version of the Adapter  
  The key constituents of a vPrev BizTalk project created are:  

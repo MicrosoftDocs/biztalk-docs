@@ -2,7 +2,7 @@
 title: Mapping and Installing Host Instances Using WMI
 TOCTitle: Mapping and Installing Host Instances Using WMI
 ms:assetid: 67c82dc7-719e-4e75-ab00-a908240b43fa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560568(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560568(v=BTS.80)
 ms:contentKeyID: 51528634
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

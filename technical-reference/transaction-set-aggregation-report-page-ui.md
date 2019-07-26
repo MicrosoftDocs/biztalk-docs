@@ -2,7 +2,7 @@
 title: Transaction Set Aggregation Report Page UI
 TOCTitle: Transaction Set Aggregation Report Page UI
 ms:assetid: 7e9a693b-17af-4f57-92d9-ab8278eed2ae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743496(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743496(v=BTS.80)
 ms:contentKeyID: 51529225
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

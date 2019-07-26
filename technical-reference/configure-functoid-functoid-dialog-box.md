@@ -2,7 +2,7 @@
 title: Configure <Functoid> Functoid Dialog Box
 TOCTitle: Configure <Functoid> Functoid Dialog Box
 ms:assetid: 1fd1d80f-c5c2-4ae7-8f29-c510c2927ef4
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559136(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559136(v=BTS.80)
 ms:contentKeyID: 51526677
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

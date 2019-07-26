@@ -2,7 +2,7 @@
 title: Listen Branch
 TOCTitle: Listen Branch
 ms:assetid: 76f40f18-8df3-4992-9030-8084ae700683
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560869(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560869(v=BTS.80)
 ms:contentKeyID: 51529013
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

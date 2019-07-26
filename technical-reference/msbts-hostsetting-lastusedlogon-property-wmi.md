@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.LastUsedLogon Property (WMI)
 TOCTitle: MSBTS_HostSetting.LastUsedLogon Property (WMI)
 ms:assetid: 477ef419-da67-4b49-b6bb-c3eb89bbea0e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559910(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559910(v=BTS.80)
 ms:contentKeyID: 51527769
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

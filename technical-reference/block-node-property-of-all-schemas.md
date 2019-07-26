@@ -2,7 +2,7 @@
 title: Block (Node Property of All Schemas)
 TOCTitle: Block (Node Property of All Schemas)
 ms:assetid: 068c9913-183e-452d-a66f-9b0a12f259d9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547049(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547049(v=BTS.80)
 ms:contentKeyID: 51526008
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

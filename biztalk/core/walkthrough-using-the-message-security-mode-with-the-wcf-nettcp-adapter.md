@@ -71,9 +71,9 @@ manager: "anneta"
       > [!NOTE]
       >  When using [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] as the certificate authority and requesting a certificate request from a [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] computer, you may get the error **“In order to complete certificate enrollment, the Web site for the CA must be configured to use HTTPS authentication”**. If this error occurs, the enrollment website needs to be configured with a Web Certificate (SSL). Refer to these links for details in accomplishing this task:  
       > 
-      >  [AD CS: Web Enrollment](http://technet.microsoft.com/library/cc732517.aspx)  
+      >  [AD CS: Web Enrollment](https://technet.microsoft.com/library/cc732517.aspx)  
       > 
-      >  [IIS Server Certificate Installation Instructions](http://msdn.microsoft.com/library/ms751408.aspx)  
+      >  [IIS Server Certificate Installation Instructions](https://msdn.microsoft.com/library/ms751408.aspx)  
 
    2. On the **Advanced Certificate Request** page, click **Create and submit a request to this CA**.  
 

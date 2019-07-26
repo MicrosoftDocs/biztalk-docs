@@ -2,7 +2,7 @@
 title: Error Return Functoid
 TOCTitle: Error Return Functoid
 ms:assetid: 2bcd968b-fb40-419b-be16-09293f1f9f96
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559365(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559365(v=BTS.80)
 ms:contentKeyID: 51526975
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

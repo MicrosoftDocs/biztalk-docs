@@ -2,7 +2,7 @@
 title: ITwoWayAsync Interface
 TOCTitle: ITwoWayAsync Interface
 ms:assetid: 49978f17-67b7-4d95-be55-8ffc558a4efa
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb727810(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb727810(v=BTS.80)
 ms:contentKeyID: 51527814
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

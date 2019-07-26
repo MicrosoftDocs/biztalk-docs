@@ -2,7 +2,7 @@
 title: Attribute FormDefault (Node Property of All Schemas)
 TOCTitle: Attribute FormDefault (Node Property of All Schemas)
 ms:assetid: 46cfd564-b2d0-4d9a-ba11-0ccef79cf81f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559892(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559892(v=BTS.80)
 ms:contentKeyID: 51527758
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

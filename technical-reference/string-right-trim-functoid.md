@@ -2,7 +2,7 @@
 title: String Right Trim Functoid
 TOCTitle: String Right Trim Functoid
 ms:assetid: 3caefebc-2399-4b0d-9c30-f6a1d645311e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559699(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559699(v=BTS.80)
 ms:contentKeyID: 51527433
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstance.MgmtDbServerOverride Property (WMI)
 TOCTitle: MSBTS_MessageInstance.MgmtDbServerOverride Property (WMI)
 ms:assetid: 3cf6c9d6-2ef0-4bba-9cfb-a8bd37de2011
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559706(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559706(v=BTS.80)
 ms:contentKeyID: 51527442
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

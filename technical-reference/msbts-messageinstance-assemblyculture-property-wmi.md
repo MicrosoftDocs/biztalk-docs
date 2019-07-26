@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstance.AssemblyCulture Property (WMI)
 TOCTitle: MSBTS_MessageInstance.AssemblyCulture Property (WMI)
 ms:assetid: 62571a12-fbdb-416c-a979-8ed9b0d26399
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560473(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560473(v=BTS.80)
 ms:contentKeyID: 51528461
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

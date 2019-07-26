@@ -2,7 +2,7 @@
 title: MSBTS_AdapterSetting.Constraints Property (WMI)
 TOCTitle: MSBTS_AdapterSetting.Constraints Property (WMI)
 ms:assetid: 13dc7518-34d3-4e67-abfa-dd7151cc1537
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547628(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547628(v=BTS.80)
 ms:contentKeyID: 51526355
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MSBTS_ServiceInstanceSuspendedEvent.HostName Property (WMI)
 TOCTitle: MSBTS_ServiceInstanceSuspendedEvent.HostName Property (WMI)
 ms:assetid: 4b1ba4f8-408d-4170-a328-2a2e37ccc135
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560012(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560012(v=BTS.80)
 ms:contentKeyID: 51527846
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

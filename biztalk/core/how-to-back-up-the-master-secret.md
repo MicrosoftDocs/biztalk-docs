@@ -26,7 +26,7 @@ You can back up the master secret from the master secret server onto an NTFS fil
 > [!CAUTION]
 >  If the master secret server fails and you lose the key, or if the key becomes corrupted, you will not be able to retrieve data stored in the SSO database. You must back up the master secret, or you risk losing data from the SSO database.  
   
-### To back up the master secret using the MMC Snap-In  
+## Back up the master secret using the MMC Snap-In  
   
 1.  On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.  
   
@@ -34,7 +34,7 @@ You can back up the master secret from the master secret server onto an NTFS fil
   
 3.  Right-click **System**, and then click **Backup Secret**.  
   
-### To back up the master secret using the command line  
+## Back up the master secret using the command line  
   
 1. On the **Start** menu, click **All Programs**, and then click **Accessories**. Right-click **Command Prompt**, and then click **Run As…**.  
   
@@ -42,7 +42,7 @@ You can back up the master secret from the master secret server onto an NTFS fil
   
 3. At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-4. Type **ssoconfig –backupSecret *\<backup file\>**<em>, where *\<backup file\></em> is the path and name of the file where the master secret will be backed up. For example, A:\ssobackup.bak  
+4. Type **ssoconfig –backupSecret \<*backup file*\>**, where \<*backup file*\> is the path and name of the file where the master secret will be backed up. For example, A:\ssobackup.bak  
   
    > [!NOTE]
    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  

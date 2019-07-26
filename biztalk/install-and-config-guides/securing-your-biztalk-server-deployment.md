@@ -21,7 +21,7 @@ The topics in this section provide the links about configuring firewall ports, I
   
 - For more information about how to enable encryption between SQL Server and its clients such as processing servers and administration clients, see [Transparent Data Encryption (TDE)](https://msdn.microsoft.com/library/bb934049.aspx).  
   
-- For more information about how to configure identity management for your on-premises servers, see [Identity Manager ](https://docs.microsoft.com/microsoft-identity-manager/).  
+- For more information about how to configure identity management for your on-premises servers, see [Identity Manager](https://docs.microsoft.com/microsoft-identity-manager/).  
   
   In addition to the topics in this section, you should review the following information:  
   
@@ -39,7 +39,7 @@ The topics in this section provide the links about configuring firewall ports, I
  
  [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)  
   
- [Configuring BizTalk Server on an Azure VM](http://msdn.microsoft.com/library/azure/jj248689.aspx)  
+ [Configuring BizTalk Server on an Azure VM](https://msdn.microsoft.com/library/azure/jj248689.aspx)  
   
 [Configure BizTalk Server in a Cluster](../install-and-config-guides/configure-biztalk-server-in-a-cluster.md)
     

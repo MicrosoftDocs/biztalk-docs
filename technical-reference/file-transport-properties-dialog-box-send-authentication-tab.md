@@ -2,7 +2,7 @@
 title: File Transport Properties Dialog Box, Send, Authentication Tab
 TOCTitle: File Transport Properties Dialog Box, Send, Authentication Tab
 ms:assetid: f492b49b-13f5-480d-b497-451d69531e98
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561938(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561938(v=BTS.80)
 ms:contentKeyID: 51533417
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

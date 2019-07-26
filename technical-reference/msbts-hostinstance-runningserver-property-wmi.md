@@ -2,7 +2,7 @@
 title: MSBTS_HostInstance.RunningServer Property (WMI)
 TOCTitle: MSBTS_HostInstance.RunningServer Property (WMI)
 ms:assetid: 00b939e8-0800-4d8a-b09b-ddf399c19190
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546741(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546741(v=BTS.80)
 ms:contentKeyID: 51525859
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

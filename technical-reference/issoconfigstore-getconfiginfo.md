@@ -2,7 +2,7 @@
 title: ISSOConfigStore::GetConfigInfo
 TOCTitle: ISSOConfigStore::GetConfigInfo
 ms:assetid: 2e9d479e-2018-45b2-b951-574b7d3d2cb5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa745237(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa745237(v=BTS.80)
 ms:contentKeyID: 51527134
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

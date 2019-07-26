@@ -2,7 +2,7 @@
 title: IBTBatchTransmitter Members (COM)
 TOCTitle: IBTBatchTransmitter Members (COM)
 ms:assetid: c1901a70-bc7a-4644-8ae2-2813a6252e3b
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578464(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578464(v=BTS.80)
 ms:contentKeyID: 51530946
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

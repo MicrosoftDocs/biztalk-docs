@@ -2,7 +2,7 @@
 title: Child Order (Node Property of Flat File Schemas)
 TOCTitle: Child Order (Node Property of Flat File Schemas)
 ms:assetid: 6de9f681-9087-48fa-985c-e18449da0820
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560706(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560706(v=BTS.80)
 ms:contentKeyID: 51528770
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

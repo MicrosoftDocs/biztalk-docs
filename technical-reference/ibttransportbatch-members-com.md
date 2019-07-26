@@ -2,7 +2,7 @@
 title: IBTTransportBatch Members (COM)
 TOCTitle: IBTTransportBatch Members (COM)
 ms:assetid: 59bb0b1f-6599-426b-858b-ddf2bd733d26
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560303(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560303(v=BTS.80)
 ms:contentKeyID: 51528229
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

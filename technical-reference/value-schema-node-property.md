@@ -2,7 +2,7 @@
 title: Value (Schema Node Property)
 TOCTitle: Value (Schema Node Property)
 ms:assetid: 77fed485-dcd7-437b-b0e3-807b75b2df9f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560901(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560901(v=BTS.80)
 ms:contentKeyID: 51529053
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

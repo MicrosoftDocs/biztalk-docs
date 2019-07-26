@@ -31,7 +31,7 @@ How to update an orchestration that is running in a production environment when 
 ## Prerequisites  
 Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. Your account also must have Read/Write permission on the local file system, and the global assembly cache. The Administrators account on the local computer has this permission.  
 
-For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights ](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx). 
+For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md), and [Minimum Security Rights](https://social.technet.microsoft.com/wiki/contents/articles/24590.minimum-security-rights-for-biztalk-server-2006-to-2016.aspx). 
  
 ## Update an orchestration  
   
@@ -68,7 +68,7 @@ For more detailed information about permissions, see [Permissions Required for D
   
 10. When all of its active, dehydrated, and suspended instances are complete, undeploy the original orchestration from the application, as described in [How to Remove an Orchestration from an Application](../core/how-to-remove-an-orchestration-from-an-application.md).  
   
-11. Optionally uninstall the original assembly version from the GAC on each computer running the application, as described in [How to Uninstall an Assembly from the GAC](http://msdn.microsoft.com/library/464706a8-f902-4d05-a724-19169facd2b4).  
+11. Optionally uninstall the original assembly version from the GAC on each computer running the application, as described in [How to Uninstall an Assembly from the GAC](https://msdn.microsoft.com/library/464706a8-f902-4d05-a724-19169facd2b4).  
   
 ## See Also  
  [Updating BizTalk Applications](../core/updating-biztalk-applications.md)   

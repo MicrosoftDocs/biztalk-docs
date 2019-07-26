@@ -2,7 +2,7 @@
 title: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyPublicKeyToken Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyPublicKeyToken Property (WMI)
 ms:assetid: db1280e6-fe35-4ce4-8a1c-cc76dfc928cf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561406(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561406(v=BTS.80)
 ms:contentKeyID: 51531764
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

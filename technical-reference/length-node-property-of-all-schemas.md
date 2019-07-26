@@ -2,7 +2,7 @@
 title: Length (Node Property of All Schemas)
 TOCTitle: Length (Node Property of All Schemas)
 ms:assetid: 9494883a-c424-4dc6-bc71-9d2e2514a0e9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577404(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577404(v=BTS.80)
 ms:contentKeyID: 51529781
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

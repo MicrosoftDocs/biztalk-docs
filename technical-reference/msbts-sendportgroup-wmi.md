@@ -2,7 +2,7 @@
 title: MSBTS_SendPortGroup (WMI)
 TOCTitle: MSBTS_SendPortGroup (WMI)
 ms:assetid: 38ba51dd-d332-4300-9bc4-2eb1bbbc57a7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559617(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559617(v=BTS.80)
 ms:contentKeyID: 51527384
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

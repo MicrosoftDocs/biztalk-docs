@@ -2,7 +2,7 @@
 title: BizTalk Settings Dashboard, Host Page, General Tab
 TOCTitle: BizTalk Settings Dashboard, Host Page, General Tab
 ms:assetid: 84de6f06-1074-4dc6-9873-5b4ec4a7f11c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Ff629740(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff629740(v=BTS.80)
 ms:contentKeyID: 51529391
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

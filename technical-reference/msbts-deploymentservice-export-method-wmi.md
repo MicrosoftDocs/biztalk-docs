@@ -2,7 +2,7 @@
 title: MSBTS_DeploymentService.Export Method (WMI)
 TOCTitle: MSBTS_DeploymentService.Export Method (WMI)
 ms:assetid: ca5d0029-e1f7-4103-86dc-2d1bf781e055
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547992(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547992(v=BTS.80)
 ms:contentKeyID: 51531184
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

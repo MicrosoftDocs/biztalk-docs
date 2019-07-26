@@ -2,7 +2,7 @@
 title: ISSOPSWrapper Interface (COM)
 TOCTitle: ISSOPSWrapper Interface (COM)
 ms:assetid: 05f46e79-a404-43e7-93e2-bccfc692aac6
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa753935(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa753935(v=BTS.80)
 ms:contentKeyID: 51526000
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

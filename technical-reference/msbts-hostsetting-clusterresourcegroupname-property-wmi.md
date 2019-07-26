@@ -2,7 +2,7 @@
 title: MSBTS_HostSetting.ClusterResourceGroupName Property (WMI)
 TOCTitle: MSBTS_HostSetting.ClusterResourceGroupName Property (WMI)
 ms:assetid: 06284e74-875b-467c-8911-8517f814228f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547031(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547031(v=BTS.80)
 ms:contentKeyID: 51526006
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: BlockDefault (Node Property of All Schemas)
 TOCTitle: BlockDefault (Node Property of All Schemas)
 ms:assetid: 86e41518-e11b-4d56-8894-c33ae8f4f9f2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561201(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561201(v=BTS.80)
 ms:contentKeyID: 51529445
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

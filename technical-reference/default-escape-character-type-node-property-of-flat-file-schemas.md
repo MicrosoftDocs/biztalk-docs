@@ -2,7 +2,7 @@
 title: Default Escape Character Type (Node Property of Flat File Schemas)
 TOCTitle: Default Escape Character Type (Node Property of Flat File Schemas)
 ms:assetid: 8c553aed-9a8f-4713-8add-b1413116213e
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561290(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561290(v=BTS.80)
 ms:contentKeyID: 51529580
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

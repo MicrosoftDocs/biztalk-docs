@@ -2,7 +2,7 @@
 title: IBaseMessage Properties (COM)
 TOCTitle: IBaseMessage Properties (COM)
 ms:assetid: 37b52ee5-0ba7-4069-bdb0-10aaaf0b6319
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559605(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559605(v=BTS.80)
 ms:contentKeyID: 51527364
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

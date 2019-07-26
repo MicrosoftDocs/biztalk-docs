@@ -2,7 +2,7 @@
 title: WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab
 TOCTitle: WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab
 ms:assetid: 8ba2f499-8d83-4644-a084-bc4f43efe6d3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb226397(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb226397(v=BTS.80)
 ms:contentKeyID: 51529562
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

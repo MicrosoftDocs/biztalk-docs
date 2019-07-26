@@ -2,7 +2,7 @@
 title: Description Property
 TOCTitle: Description Property
 ms:assetid: dbc8f2be-3e42-4752-a7c9-a1f2030ef34f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561419(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561419(v=BTS.80)
 ms:contentKeyID: 51531829
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

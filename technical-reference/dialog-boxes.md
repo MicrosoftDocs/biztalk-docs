@@ -2,7 +2,7 @@
 title: Dialog Boxes
 TOCTitle: Dialog Boxes
 ms:assetid: c7c286ef-8a40-44b5-95d1-9ff0189ddfae
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547947(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547947(v=BTS.80)
 ms:contentKeyID: 51531232
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

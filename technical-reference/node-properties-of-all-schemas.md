@@ -2,7 +2,7 @@
 title: Node Properties of All Schemas
 TOCTitle: Node Properties of All Schemas
 ms:assetid: 893c7352-7c18-4771-a9b6-e93239fe7d64
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561245(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561245(v=BTS.80)
 ms:contentKeyID: 51529512
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

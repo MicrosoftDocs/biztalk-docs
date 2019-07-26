@@ -2,7 +2,7 @@
 title: Policy Explorer
 TOCTitle: Policy Explorer
 ms:assetid: 9a492caa-1a9f-4529-b844-65f093644802
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577519(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577519(v=BTS.80)
 ms:contentKeyID: 51529951
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -1,7 +1,7 @@
 ---
 title: "Community Resources5 | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-03-24"
+ms.date: "03/24/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

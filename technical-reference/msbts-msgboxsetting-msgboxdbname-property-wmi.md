@@ -2,7 +2,7 @@
 title: MSBTS_MsgBoxSetting.MsgBoxDBName Property (WMI)
 TOCTitle: MSBTS_MsgBoxSetting.MsgBoxDBName Property (WMI)
 ms:assetid: 61484743-9e16-465b-be0e-c085f82a3ce3
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560455(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560455(v=BTS.80)
 ms:contentKeyID: 51528435
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

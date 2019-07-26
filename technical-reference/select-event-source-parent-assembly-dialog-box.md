@@ -2,7 +2,7 @@
 title: Select Event Source Parent Assembly Dialog Box
 TOCTitle: Select Event Source Parent Assembly Dialog Box
 ms:assetid: e27df5a7-3770-44a6-bf8e-0a5f5618c9e5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561562(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561562(v=BTS.80)
 ms:contentKeyID: 51532950
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

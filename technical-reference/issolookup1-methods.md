@@ -2,7 +2,7 @@
 title: ISSOLookup1 Methods
 TOCTitle: ISSOLookup1 Methods
 ms:assetid: 5a09428d-967f-4e02-a801-37c0511bdabf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa770954(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa770954(v=BTS.80)
 ms:contentKeyID: 51528252
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

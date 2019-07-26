@@ -2,7 +2,7 @@
 title: MaxFacet Type (Node Property of All Schemas)
 TOCTitle: MaxFacet Type (Node Property of All Schemas)
 ms:assetid: 03718aa0-e392-41fc-a389-405a2d092f73
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546783(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546783(v=BTS.80)
 ms:contentKeyID: 51525914
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

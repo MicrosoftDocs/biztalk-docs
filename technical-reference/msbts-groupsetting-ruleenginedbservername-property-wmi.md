@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.RuleEngineDBServerName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.RuleEngineDBServerName Property (WMI)
 ms:assetid: e4a20ee7-9b48-436d-a24e-ac2a97263566
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561604(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561604(v=BTS.80)
 ms:contentKeyID: 51533005
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

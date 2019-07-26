@@ -2,7 +2,7 @@
 title: <Host Name> Properties Dialog Box, General Tab (HTTP Adapter Receive Handler)
 TOCTitle: <Host Name> Properties Dialog Box, General Tab (HTTP Adapter Receive Handler)
 ms:assetid: 42d56ec6-23f1-476d-b296-7ff420d7d311
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559810(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559810(v=BTS.80)
 ms:contentKeyID: 51527631
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

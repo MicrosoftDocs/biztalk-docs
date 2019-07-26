@@ -2,7 +2,7 @@
 title: ISSONotification.InitializeAdapter Method
 TOCTitle: ISSONotification.InitializeAdapter Method
 ms:assetid: e8f9635f-1c64-4340-964c-f485bf17f266
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705522(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705522(v=BTS.80)
 ms:contentKeyID: 51533130
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

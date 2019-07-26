@@ -2,7 +2,7 @@
 title: ISSOConfigDB.CreateDatabase Method
 TOCTitle: ISSOConfigDB.CreateDatabase Method
 ms:assetid: aaf064ed-aeae-4337-bc9c-a527f3001685
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa705133(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa705133(v=BTS.80)
 ms:contentKeyID: 51530378
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Uppercase Functoid
 TOCTitle: Uppercase Functoid
 ms:assetid: 13addbe9-70f6-4b23-a6d9-3c2b9b0fc3bc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547624(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547624(v=BTS.80)
 ms:contentKeyID: 51526347
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: MessageBox Properties Dialog Box
 TOCTitle: MessageBox Properties Dialog Box
 ms:assetid: 1a3e0887-5659-4b69-8e26-2c84721c6bfb
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559032(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559032(v=BTS.80)
 ms:contentKeyID: 51526557
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

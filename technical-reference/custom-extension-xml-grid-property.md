@@ -2,7 +2,7 @@
 title: Custom Extension XML (Grid Property)
 TOCTitle: Custom Extension XML (Grid Property)
 ms:assetid: 0e00f1d4-f77c-4ce5-923c-ef9ca70802c2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa547368(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa547368(v=BTS.80)
 ms:contentKeyID: 51526219
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

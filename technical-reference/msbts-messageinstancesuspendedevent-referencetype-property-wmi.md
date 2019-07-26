@@ -2,7 +2,7 @@
 title: MSBTS_MessageInstanceSuspendedEvent.ReferenceType Property (WMI)
 TOCTitle: MSBTS_MessageInstanceSuspendedEvent.ReferenceType Property (WMI)
 ms:assetid: 619ea34b-9c30-4118-b2cd-2c4a6ad7928f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560461(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560461(v=BTS.80)
 ms:contentKeyID: 51528456
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: CodeList (Node Property of All Schemas)
 TOCTitle: CodeList (Node Property of All Schemas)
 ms:assetid: cdc08af6-04d9-40a0-bdbf-65598ad8b677
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa548078(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa548078(v=BTS.80)
 ms:contentKeyID: 51531306
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

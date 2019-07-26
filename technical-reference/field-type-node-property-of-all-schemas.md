@@ -2,7 +2,7 @@
 title: Field Type (Node Property of All Schemas)
 TOCTitle: Field Type (Node Property of All Schemas)
 ms:assetid: 9615f4cb-c9ee-45f6-9587-89aa044485c0
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577439(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577439(v=BTS.80)
 ms:contentKeyID: 51529814
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

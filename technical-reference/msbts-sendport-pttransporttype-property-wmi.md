@@ -2,7 +2,7 @@
 title: MSBTS_SendPort.PTTransportType Property (WMI)
 TOCTitle: MSBTS_SendPort.PTTransportType Property (WMI)
 ms:assetid: 3b854195-a6cb-484f-aba7-5a26c9d17850
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559677(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559677(v=BTS.80)
 ms:contentKeyID: 51527405
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

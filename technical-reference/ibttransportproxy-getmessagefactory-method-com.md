@@ -2,7 +2,7 @@
 title: IBTTransportProxy.GetMessageFactory Method (COM)
 TOCTitle: IBTTransportProxy.GetMessageFactory Method (COM)
 ms:assetid: ce8dff51-a7b6-459c-a770-e5c29430970f
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578487(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578487(v=BTS.80)
 ms:contentKeyID: 51531448
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

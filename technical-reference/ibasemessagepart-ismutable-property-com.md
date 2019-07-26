@@ -2,7 +2,7 @@
 title: IBaseMessagePart.IsMutable Property (COM)
 TOCTitle: IBaseMessagePart.IsMutable Property (COM)
 ms:assetid: b5b8b885-6e3a-4c31-9351-07cac7c4c4b7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578234(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578234(v=BTS.80)
 ms:contentKeyID: 51530722
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

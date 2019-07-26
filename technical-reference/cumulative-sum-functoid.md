@@ -2,7 +2,7 @@
 title: Cumulative Sum Functoid
 TOCTitle: Cumulative Sum Functoid
 ms:assetid: fd284a70-5f29-4631-974a-3f97a154f9b9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562121(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562121(v=BTS.80)
 ms:contentKeyID: 51533734
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

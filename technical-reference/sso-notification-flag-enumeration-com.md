@@ -2,7 +2,7 @@
 title: SSO_NOTIFICATION_FLAG Enumeration (COM)
 TOCTitle: SSO_NOTIFICATION_FLAG Enumeration (COM)
 ms:assetid: 616829c9-25cd-4c5c-8f4e-47edcfe2bfc7
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa771088(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa771088(v=BTS.80)
 ms:contentKeyID: 51528448
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Translator Dialog Box
 TOCTitle: Translator Dialog Box
 ms:assetid: 2470adb5-b6b8-40b2-b6f4-dc72579ef389
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559219(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559219(v=BTS.80)
 ms:contentKeyID: 51526817
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

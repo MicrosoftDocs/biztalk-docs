@@ -2,7 +2,7 @@
 title: IBTTransport.Version Property (COM)
 TOCTitle: IBTTransport.Version Property (COM)
 ms:assetid: e7a624e4-61fd-4369-83e5-2cbaffc004e2
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa561659(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa561659(v=BTS.80)
 ms:contentKeyID: 51533056
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -29,7 +29,7 @@ According to the business scenario, after [!INCLUDE[btsBizTalkServerNoVersion](.
 |Message Name|Corresponds to schema|  
 |------------------|---------------------------|  
 |Message1_SO_Inbound|This message is an instance of the **ECommerceSalesOrder.xsd** schema.|  
-|Message2_SO_Inbound|This message is a copy of the **Message1_SO_Inbound**. As a best practice, you must create a copy of the message and then modify the new message, leaving the original message intact. For more information, see [The BizTalk Server Message](http://msdn.microsoft.com/library/aa560436).|  
+|Message2_SO_Inbound|This message is a copy of the **Message1_SO_Inbound**. As a best practice, you must create a copy of the message and then modify the new message, leaving the original message intact. For more information, see [The BizTalk Server Message](https://msdn.microsoft.com/library/aa560436).|  
 |Message1_SO_Outbound|This message is an instance of the **TableOperations.dbo.SalesOrder (Insert)** schema.|  
   
 #### To create the messages  

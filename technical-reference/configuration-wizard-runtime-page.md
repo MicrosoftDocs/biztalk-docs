@@ -2,7 +2,7 @@
 title: Configuration Wizard, Runtime Page
 TOCTitle: Configuration Wizard, Runtime Page
 ms:assetid: a72538d7-aa60-4374-86e5-951a052d0e00
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa577921(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa577921(v=BTS.80)
 ms:contentKeyID: 51530328
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

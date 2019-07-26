@@ -2,7 +2,7 @@
 title: Conversion Functoids Reference
 TOCTitle: Conversion Functoids Reference
 ms:assetid: b77f6dd9-9a0e-460c-8b17-a1d3bec7212d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578277(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578277(v=BTS.80)
 ms:contentKeyID: 51530724
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

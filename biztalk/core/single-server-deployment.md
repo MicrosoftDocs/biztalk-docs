@@ -45,12 +45,12 @@ This topic discusses single-server setup and deployment considerations for the [
   
 #### To install the Windows SharePoint Services adapter  
   
-1.  Install BizTalk Server. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
+1.  Install BizTalk Server. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
   
 2.  On the **Component Installation** screen, under **Available Components**, under **Additional Software**, select **Windows SharePoint Services Adapter Web service**.  
   
 ## Configuring the Windows SharePoint Services adapter Web service in a single-server deployment  
- You can configure the Windows SharePoint Services adapter using either a basic configuration or a custom configuration. For more information about these tools, see [Configuration Overview for BizTalk Server 2013 and 2013 R2](http://msdn.microsoft.com/library/aa58c43f-8f0e-4a5c-89b9-db7b8a852a72).  
+ You can configure the Windows SharePoint Services adapter using either a basic configuration or a custom configuration. For more information about these tools, see [Configuration Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/aa58c43f-8f0e-4a5c-89b9-db7b8a852a72).  
   
 ### Using a basic configuration  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] allows you to configure the server by using default settings. The default settings for the server are configured using the database server name, user name, and password that you enter into the configuration wizard. When you configure the Windows SharePoint Services adapter Web service using a basic configuration, the following happens:  
@@ -68,7 +68,7 @@ This topic discusses single-server setup and deployment considerations for the [
   
 - The BTSharePointAdapterWS virtual application contains the Web service  
   
-  For more information about basic configuration, see [Basic Configuration](http://msdn.microsoft.com/library/abdf3eb5-9779-47ff-bc97-2209eb4b12f5).  
+  For more information about basic configuration, see [Basic Configuration](https://msdn.microsoft.com/library/abdf3eb5-9779-47ff-bc97-2209eb4b12f5).  
   
 ### Using a custom configuration  
  The BizTalk Server Configuration provides a high-level analysis of the configuration state of the features you have installed on the local computer. The tool allows you to configure and unconfigure features, configure security settings, and import and export configurations from other computers.  

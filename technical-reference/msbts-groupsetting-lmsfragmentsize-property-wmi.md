@@ -2,7 +2,7 @@
 title: MSBTS_GroupSetting.LMSFragmentSize Property (WMI)
 TOCTitle: MSBTS_GroupSetting.LMSFragmentSize Property (WMI)
 ms:assetid: 04099624-c907-4fe5-ae98-17cd09559a8c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa546815(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa546815(v=BTS.80)
 ms:contentKeyID: 51525955
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

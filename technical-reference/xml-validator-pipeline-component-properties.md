@@ -2,7 +2,7 @@
 title: XML Validator Pipeline Component Properties
 TOCTitle: XML Validator Pipeline Component Properties
 ms:assetid: fc10c053-9878-4a66-aa89-b21a81068adc
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa562097(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa562097(v=BTS.80)
 ms:contentKeyID: 51533643
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
@@ -31,13 +31,13 @@ The properties of the XML validator pipeline component can be set in the Propert
 <tbody>
 <tr class="odd">
 <td><strong>Document schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="https://msdn.microsoft.com/en-us/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>. If no schemas are specified, the runtime schema discovery will use the message's target namespace and root element name information.<br />
+<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>. If no schemas are specified, the runtime schema discovery will use the message's target namespace and root element name information.<br />
 <br />
 Default value: Empty collection (Collection)</td>
 </tr>
 <tr class="even">
 <td><strong>Recoverable interchange processing</strong></td>
-<td>Indicate whether to process messages within an interchange individually. For more information, see <a href="https://msdn.microsoft.com/en-us/library/aa578714(v=bts.80)">Recoverable Interchange Processing</a><br />
+<td>Indicate whether to process messages within an interchange individually. For more information, see <a href="https://msdn.microsoft.com/library/aa578714(v=bts.80)">Recoverable Interchange Processing</a><br />
 <br />
 Default Value: False</td>
 </tr>

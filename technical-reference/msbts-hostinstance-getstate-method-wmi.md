@@ -2,7 +2,7 @@
 title: MSBTS_HostInstance.GetState Method (WMI)
 TOCTitle: MSBTS_HostInstance.GetState Method (WMI)
 ms:assetid: bc8502b8-50db-47fe-b403-57a258be45f5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578369(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578369(v=BTS.80)
 ms:contentKeyID: 51530868
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

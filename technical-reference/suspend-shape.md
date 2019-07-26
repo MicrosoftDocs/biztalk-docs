@@ -2,7 +2,7 @@
 title: Suspend Shape
 TOCTitle: Suspend Shape
 ms:assetid: 76e9ea47-1e32-450a-9532-fa311181567d
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560868(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560868(v=BTS.80)
 ms:contentKeyID: 51529014
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

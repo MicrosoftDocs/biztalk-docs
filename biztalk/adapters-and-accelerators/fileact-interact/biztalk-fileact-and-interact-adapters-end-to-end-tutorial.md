@@ -1,7 +1,7 @@
 ---
 title: "BizTalk FileAct and InterAct Adapters End-to-End Tutorial | Microsoft Docs"
 ms.custom: ""
-ms.date: "2015-12-10"
+ms.date: "12/10/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

@@ -2,7 +2,7 @@
 title: MSBTS_Server.Start Method (WMI)
 TOCTitle: MSBTS_Server.Start Method (WMI)
 ms:assetid: 3618084a-ccb4-4534-bcbf-e135c385bcdf
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559573(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559573(v=BTS.80)
 ms:contentKeyID: 51527269
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

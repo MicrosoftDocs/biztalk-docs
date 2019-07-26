@@ -2,7 +2,7 @@
 title: Fact Retriever Dialog Box
 TOCTitle: Fact Retriever Dialog Box
 ms:assetid: 3efc715a-9a87-4bb7-9563-a4656d21eb24
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559744(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559744(v=BTS.80)
 ms:contentKeyID: 51527558
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

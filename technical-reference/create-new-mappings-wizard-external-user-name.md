@@ -2,7 +2,7 @@
 title: 'Create New Mappings Wizard: External User Name'
 TOCTitle: 'Create New Mappings Wizard: External User Name'
 ms:assetid: 0af5add1-e129-4689-b59a-926f48d61525
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Bb743302(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Bb743302(v=BTS.80)
 ms:contentKeyID: 51526128
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

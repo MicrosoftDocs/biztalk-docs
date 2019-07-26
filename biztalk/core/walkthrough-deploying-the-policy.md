@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Deploying the Policy | Microsoft Docs"
 ms.custom: ""
-ms.date: "2016-04-05"
+ms.date: "04/05/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

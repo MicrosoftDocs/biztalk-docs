@@ -2,7 +2,7 @@
 title: Data Structure Type (Node Property of All Schemas)
 TOCTitle: Data Structure Type (Node Property of All Schemas)
 ms:assetid: 2a581300-66c3-4bc6-906b-fd1c58dc5ab9
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa559331(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa559331(v=BTS.80)
 ms:contentKeyID: 51526929
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

@@ -2,7 +2,7 @@
 title: Order Type (Node Property of All Schemas)
 TOCTitle: Order Type (Node Property of All Schemas)
 ms:assetid: c08082e1-4ee8-4b13-90d8-ec920b95eda5
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578439(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578439(v=BTS.80)
 ms:contentKeyID: 51530928
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

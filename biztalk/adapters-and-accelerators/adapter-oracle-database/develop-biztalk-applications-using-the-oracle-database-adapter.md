@@ -32,7 +32,7 @@ Developing BizTalk applications involves creating a BizTalk project in [!INCLUDE
 > 
 > Also, to generate metadata, use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]. Do not use the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]. For instructions on using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], see [Get metadata for Oracle Database operations in Visual Studio](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md). 
 > 
-> For other differences between the adapter versions, see [Migrating BizTalk Projects Created Using the BizTalk ODBC Adapter for Oracle Database](http://msdn.microsoft.com/library/18f40265-c7f3-44a1-99b6-1b1dc800561e).  
+> For other differences between the adapter versions, see [Migrating BizTalk Projects Created Using the BizTalk ODBC Adapter for Oracle Database](https://msdn.microsoft.com/library/18f40265-c7f3-44a1-99b6-1b1dc800561e).  
   
   
   

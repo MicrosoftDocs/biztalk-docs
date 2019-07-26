@@ -2,7 +2,7 @@
 title: Receive Port Properties Dialog Box
 TOCTitle: Receive Port Properties Dialog Box
 ms:assetid: ad315dc4-2894-4bcf-84d9-e2827b328f7c
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa578044(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa578044(v=BTS.80)
 ms:contentKeyID: 51530492
 ms.date: 08/30/2017
 mtps_version: v=BTS.80

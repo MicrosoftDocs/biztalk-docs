@@ -2,7 +2,7 @@
 title: IBTTransmitter.Terminate Method (COM)
 TOCTitle: IBTTransmitter.Terminate Method (COM)
 ms:assetid: 77b8eee7-3fd8-4083-a73f-c155f0df9255
-ms:mtpsurl: https://msdn.microsoft.com/en-us/library/Aa560891(v=BTS.80)
+ms:mtpsurl: https://msdn.microsoft.com/library/Aa560891(v=BTS.80)
 ms:contentKeyID: 51529041
 ms.date: 08/30/2017
 mtps_version: v=BTS.80
