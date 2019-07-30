@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: a87bfb40-7e6f-46aa-8ac7-db6d13ce7eb2
 caps.latest.revision: 2
 author: "MandiOhlinger"
-ms.author: "valrobb"
+ms.author: "mandia"
 manager: "anneta"
 ---
 

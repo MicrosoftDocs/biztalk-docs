@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 4606f583-da74-4a26-95cb-88915ecafe37
 caps.latest.revision: 43
 author: "MandiOhlinger"
-ms.author: "niklase,mandia"
+ms.author: "mandia"
 manager: "anneta"
 ---
 # Read about the BizTalk Adapter for SQL Server adapter binding properties
