@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0b18eeae-8ab6-4577-bfdb-8c97a9fa8de7
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Required Exports

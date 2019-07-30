@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ca88666d-cb53-43f6-b863-c4855cdcfda4
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Network Management with NetView

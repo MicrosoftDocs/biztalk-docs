@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a9b97664-412e-45b6-8b17-66c931d84d24
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # COM Mapper Programmer's Reference

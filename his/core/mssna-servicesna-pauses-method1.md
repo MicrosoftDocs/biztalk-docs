@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3b272e53-fd4a-4b99-9fe6-8ea52c4712b6
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_ServiceSNA.Pauses Method

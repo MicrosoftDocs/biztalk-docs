@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 98f9dfd2-87d0-400d-af03-cade72ea3ce9
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IP-DLC Link Service Concepts and Terminology

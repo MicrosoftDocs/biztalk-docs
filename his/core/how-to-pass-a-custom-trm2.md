@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0bb2602e-1387-48b3-b7e3-7d8dc3e3904e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Pass a Custom TRM

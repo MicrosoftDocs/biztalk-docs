@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d231a3da-72f7-415c-8e47-91d65d9d9013
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Function 0x47: Off-Board Load

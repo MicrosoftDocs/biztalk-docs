@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f78572a5-a5b6-4920-bf91-170ba54c8b73
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # FindSNAProductServices

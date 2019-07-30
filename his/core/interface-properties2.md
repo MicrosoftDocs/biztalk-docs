@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 07c70adc-071c-4347-8f76-cf69c977f2fb
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Interface Properties

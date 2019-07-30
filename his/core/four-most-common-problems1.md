@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ee76392d-8ea0-4c5f-ac61-d0b6131ca0c0
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Four Most Common Problems

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 959e2155-e3fa-4137-a962-492729e2ef4c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Set_Conversation_Security_Password (CPI-C)

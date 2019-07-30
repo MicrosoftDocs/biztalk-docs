@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ec577240-0164-4de8-b5b9-7a778d526720
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Administering HIS with WMI

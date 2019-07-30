@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b65d5c5b-e5e9-4af9-b250-cc00a94a25ea
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # BIND Checking

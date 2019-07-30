@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 82c070d5-90fc-485f-bd5d-13d2a3536f18
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Extract_Conversation_Security_Type (CPI-C)

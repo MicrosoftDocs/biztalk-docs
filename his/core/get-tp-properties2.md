@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0d2ee8f7-04f4-45c9-ab63-9f668c77f328
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # GET_TP_PROPERTIES

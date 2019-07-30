@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a9292d25-6a4e-49c9-a3ad-a194680b324f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Adapter Programming Configuration

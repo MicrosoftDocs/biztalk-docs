@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d975e776-e49d-4337-a239-b4194008df11
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create New Mappings Wizard: Finish

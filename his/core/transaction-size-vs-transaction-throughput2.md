@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 844bb849-3207-496d-bb26-6df475f8f768
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Transaction Size vs. Transaction Throughput

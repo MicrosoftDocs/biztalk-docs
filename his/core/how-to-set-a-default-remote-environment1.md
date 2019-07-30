@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ff5023a5-6ede-4cc4-a23e-39e08d4bec6e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Set a Default Remote Environment

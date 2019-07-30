@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bc8b2560-3947-4064-8e6c-1d07778abd23
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Environment (MQ Channel Library Wizard)

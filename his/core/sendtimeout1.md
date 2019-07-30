@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8418580d-2469-4499-b039-fbe5503c0f97
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SendTimeOut

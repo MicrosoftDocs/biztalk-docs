@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 9b7f1a4e-c8bd-41a7-a447-c0e258b13ed6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # APPC Mode Properties

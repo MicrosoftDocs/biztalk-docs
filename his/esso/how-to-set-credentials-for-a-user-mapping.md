@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 42fddcba-5b91-4dac-95f4-8288bed3f90f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Set Credentials for a User Mapping

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1269a058-1f6e-41ea-a0eb-1febbd71592b
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # FM Profile 4

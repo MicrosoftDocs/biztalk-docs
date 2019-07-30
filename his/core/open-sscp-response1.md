@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f1ebb6b1-4a53-4663-9fef-24827d179e6e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Open(SSCP) Response

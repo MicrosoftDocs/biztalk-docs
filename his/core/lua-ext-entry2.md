@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2bba5da6-711a-4a72-8cce-3a7d68761edd
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUA_EXT_ENTRY

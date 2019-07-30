@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8dcab8be-cb3f-4b0c-b443-dc2fc695a1f6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MC_SEND_DATA

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5320cc8b-f536-4d1f-be6f-aaca4599de00
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create New Mappings Wizard: External User Name

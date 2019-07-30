@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 5c0a42a7-0e0a-4ad5-996a-2cc4d2c3e21c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Tables Node

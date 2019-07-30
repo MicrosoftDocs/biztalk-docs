@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4fd324ad-3420-4ef3-8bf6-6ab743e2e916
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Bit Ordering

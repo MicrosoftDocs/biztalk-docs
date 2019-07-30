@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b29cee4c-445f-4196-8681-eacf308fc833
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Configure SSL for the MQSC Adapter: Non-Transactional

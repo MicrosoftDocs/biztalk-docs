@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 50c09c4d-7a21-481f-90fd-5ad5495ae1b5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SSO Tickets

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 61247bf0-3fde-40b0-9321-cf446f539b5d
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Path Errors (Category X&#39;80&#39;)

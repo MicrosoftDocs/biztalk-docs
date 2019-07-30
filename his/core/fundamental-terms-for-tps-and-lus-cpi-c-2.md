@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1da98197-7874-41d7-a2e0-0e4f61c4d6eb
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Fundamental Terms for TPs and LUs (CPI-C)

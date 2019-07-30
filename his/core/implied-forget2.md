@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 32c93e3e-d620-46e4-8b66-181bbf111f64
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Implied Forget

@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 98b1d149-cf20-4ccb-8997-26fa2be4a6b2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Connection Properties: SDLC

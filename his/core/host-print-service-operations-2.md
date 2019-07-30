@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 242dd431-8ec4-497d-82b7-ebf3dca5a26e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Print Service (Operations)

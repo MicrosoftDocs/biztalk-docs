@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 9764829f-e785-4a08-ac9c-0ea7ded5570f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Add New Users

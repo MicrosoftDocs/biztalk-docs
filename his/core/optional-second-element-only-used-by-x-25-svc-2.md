@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 29e59583-2ff6-48a5-a289-30bad92fd319
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Optional Second Element (Only Used by X.25 SVC)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2b109939-f252-4ede-8804-1f1ecfc8105c
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring Host Print Service

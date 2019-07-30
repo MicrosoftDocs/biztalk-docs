@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2e3b2cdd-24d9-4850-9deb-5898e28c6bc4
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Key Limitations

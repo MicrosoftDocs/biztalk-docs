@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6c905d7b-a7ca-41e8-830a-98aeaae4f09a
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create New Password Sync Adapter: Finish

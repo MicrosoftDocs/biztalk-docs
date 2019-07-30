@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8af32e71-b377-48bb-9daa-8a7de779fe8d
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TCP Host Environments

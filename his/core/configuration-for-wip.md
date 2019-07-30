@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1fc623fa-910a-4089-9c81-111402dad2fc
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuration for WIP

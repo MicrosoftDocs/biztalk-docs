@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: fc55555e-8aa9-495e-b219-42098bc98518
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # 3270 Session

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 857d54d6-74bb-4643-820f-693d218fcc1f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUA Verb Control Blocks

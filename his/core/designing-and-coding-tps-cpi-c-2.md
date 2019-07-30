@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3a7dd23e-7299-44de-85a8-bd5d1c35de38
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Designing and Coding TPs (CPI-C)

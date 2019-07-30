@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 800a35d2-aa92-4878-93d8-90119ff2073d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ConfigureLinkService

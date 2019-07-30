@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b7b48169-97f6-4688-b949-b6f7e1199f94
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IP-DLC Link Service

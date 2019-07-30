@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 114c8aa9-2802-4e79-9745-c5a0a796dfe7
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSnaStatus_PrintSession.PA2Key Method

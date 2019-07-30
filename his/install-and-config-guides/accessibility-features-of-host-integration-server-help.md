@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4c0faf95-84ef-449c-ba2c-20ac8373d07f
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Accessibility Features of HIS help

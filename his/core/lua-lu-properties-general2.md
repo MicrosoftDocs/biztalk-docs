@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 208e95de-012c-4103-8b90-9f1f7db9cc03
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUA LU Properties: General

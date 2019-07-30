@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8af7848f-fabf-4f3d-8653-84c13bd16a4d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Tabular Data Definition

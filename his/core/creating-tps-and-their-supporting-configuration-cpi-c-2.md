@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3f788938-1776-4244-b91c-61ace533c26f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create TPs and Their Supporting Configuration (CPI-C)

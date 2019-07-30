@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 21f6b576-b6fe-443c-83cf-b18d82023b85
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUA Concepts

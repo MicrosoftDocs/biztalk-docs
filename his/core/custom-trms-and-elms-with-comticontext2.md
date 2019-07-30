@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 041d213f-06c4-4776-86d1-2c63194d9d58
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Custom TRMs and ELMs with COMTIContext

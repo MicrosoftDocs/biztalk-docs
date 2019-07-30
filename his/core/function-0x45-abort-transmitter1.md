@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: aea51bf9-def1-4255-870c-55fcf605df63
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Function 0x45: Abort Transmitter

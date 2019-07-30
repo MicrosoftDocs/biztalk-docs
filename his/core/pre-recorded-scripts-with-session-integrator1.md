@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fd8c2d14-5c5f-4e46-bcba-d90e67e67841
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Pre-Recorded Scripts with Session Integrator

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 78108a08-e566-433e-b71e-7297e517602a
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Application Integration (Configuration)

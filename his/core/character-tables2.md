@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 73f87cfa-eb80-4d03-ad99-dc3718ef798f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Character Tables

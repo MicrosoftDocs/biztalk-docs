@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f43bdbfe-33ff-4bb6-b6f3-16469db576d0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUSTATs]

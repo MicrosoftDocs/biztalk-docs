@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 00287ee5-4b50-4995-97b9-37c82fbc8361
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Managing Transaction Integrator with TI Manager

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 043d9506-2449-4885-86a9-c2da97914924
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Specifying Single Sign-On Administrators and Affiliate Administrators Accounts

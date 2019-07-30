@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7a5be3cc-c88b-42b5-af02-539384463624
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOMapping.ApplicationName Property

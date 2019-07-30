@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8405e56a-f83b-4fbc-b8f8-7aa901629197
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsHisTrace_Global Class

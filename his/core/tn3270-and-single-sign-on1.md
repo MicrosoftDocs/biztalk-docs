@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e55304b6-0631-4f36-a658-7d35c8e16626
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TN3270 and Single Sign-On

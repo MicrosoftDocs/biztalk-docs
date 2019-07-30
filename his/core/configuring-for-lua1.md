@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d57d1bba-5deb-40b6-9255-937496a5d962
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring for LUA

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f6f132fc-5594-4bb6-91e2-63f8d9daddee
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # FindSNARegEntry

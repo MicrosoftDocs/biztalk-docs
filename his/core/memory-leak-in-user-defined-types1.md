@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f28e5592-0517-4cc3-8c22-eaa3220eb9ae
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Memory Leak in User-Defined Types

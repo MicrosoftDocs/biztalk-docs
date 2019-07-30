@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a1eeb0c5-3fa5-4166-8d1a-3ffc21672ada
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNA Link Tuning

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7deaf71f-374a-4abe-a906-e6b0db2840a6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Union Member Shortcut Menu

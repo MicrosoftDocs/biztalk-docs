@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 99b0c548-5a27-4762-b110-3065eaa82528
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Use the Servers Snap-In

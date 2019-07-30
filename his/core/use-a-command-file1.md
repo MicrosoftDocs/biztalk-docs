@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e8397f7c-199c-49e3-88b8-003150853045
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Use a Command File

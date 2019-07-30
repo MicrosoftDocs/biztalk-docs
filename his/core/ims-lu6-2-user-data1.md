@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7abcc217-664e-4c41-8860-7267fd4b7542
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IMS LU6.2 User Data

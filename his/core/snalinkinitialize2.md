@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b8a1b65b-1147-41ce-859b-4ec824610540
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNALinkInitialize

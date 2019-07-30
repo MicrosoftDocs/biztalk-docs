@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c8cf0f6e-2577-4654-8c4d-f2789449c386
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Debug a Visual Basic Application Integration Application

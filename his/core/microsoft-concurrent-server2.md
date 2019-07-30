@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7c44192e-c482-4d5e-91bc-1bf56864eb53
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Microsoft Concurrent Server

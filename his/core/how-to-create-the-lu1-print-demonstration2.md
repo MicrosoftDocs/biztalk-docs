@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 05758698-756e-4b9e-a3c2-0b5b30bbce74
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create the LU1 Print Demonstration

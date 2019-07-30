@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d6baf852-9ae1-4861-9cba-58231453a9d6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Change the Behavior of a Single Sign-On Interface

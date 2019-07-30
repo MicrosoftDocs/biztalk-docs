@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 322ac1da-2590-42c3-8ef5-9a906e5c2d35
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSONotification.SendNotification Method

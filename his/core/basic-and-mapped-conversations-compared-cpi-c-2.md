@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5193e3a9-8b9f-46f1-aead-37b04d9276d5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Basic and Mapped Conversations Compared (CPI-C)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 384acfd0-1b78-4bd7-93ea-ebcb937c0f11
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Administration and Management Programmer's Reference

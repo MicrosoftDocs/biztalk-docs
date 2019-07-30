@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5a309a9f-ef20-4629-9b04-ecd24ce0eea4
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Snacfg Reference

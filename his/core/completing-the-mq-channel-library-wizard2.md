@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 298f70e6-c117-4fb7-a592-4292574c400c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Completing the MQ Channel Library Wizard

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6a897791-d32f-46a4-8c5d-2b2161e92bd9
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Clear the Application Cache

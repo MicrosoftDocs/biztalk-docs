@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fcf397eb-2e1f-4c99-bc51-08068ef8df7f
 caps.latest.revision: 124
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Planning and Architecting Solutions Using Microsoft Service for DRDA

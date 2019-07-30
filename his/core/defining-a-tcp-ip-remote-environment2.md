@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c38e7c02-736d-4514-916f-aa33773e9ac5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Defining a TCP/IP Remote Environment

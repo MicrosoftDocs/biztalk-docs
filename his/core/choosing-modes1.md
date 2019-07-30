@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b917edcd-5687-4bce-a81b-670c4615554d
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Choosing Modes

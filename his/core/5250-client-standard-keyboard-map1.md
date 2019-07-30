@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: db7371c7-9121-4a01-a66f-ffe820192163
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # 5250 Client Standard Keyboard Map

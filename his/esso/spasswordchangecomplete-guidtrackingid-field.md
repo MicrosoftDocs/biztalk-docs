@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 73cdad8a-e003-411c-8e38-35fd65861938
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SPasswordChangeComplete.guidTrackingId Field

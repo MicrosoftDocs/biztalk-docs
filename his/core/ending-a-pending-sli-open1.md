@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f3c7a921-97ac-468a-b3bd-723e02d2bb76
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Ending a Pending SLI_OPEN

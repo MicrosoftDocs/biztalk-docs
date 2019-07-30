@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 62066043-a24c-4b1b-9df0-f667069636ab
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TP Name Unique for Each TP (CPI-C)

@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 69b45413-4995-4b3d-b3f2-2dbcf8580736
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Remote APPC LUs Folder

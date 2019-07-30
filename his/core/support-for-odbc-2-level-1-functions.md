@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c3ca8a29-579b-481d-bbb7-014968d7c9dc
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Support for ODBC 2 Level 1 Functions

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 282496be-e6b3-4ced-ba02-5af3b2572d15
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # BizTalk Adapter for Host Applications

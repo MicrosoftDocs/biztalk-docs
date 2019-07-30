@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: cda05846-7ef5-4660-8970-bb9d430c4b61
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create New Password Sync Adapter Wizard

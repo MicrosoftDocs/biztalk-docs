@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f7073f50-a70f-42fc-b431-cf35973ea358
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Quiesce

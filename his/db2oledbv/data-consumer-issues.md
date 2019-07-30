@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 596564f9-ad8a-4c56-915f-1a4ff2a4e110
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Consumer Issues

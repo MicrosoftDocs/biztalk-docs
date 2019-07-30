@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: e6baf157-5108-49d9-9fdb-e8b5b648a410
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Active TN5250 Sessions

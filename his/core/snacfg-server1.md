@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 42ae3bab-2e40-41ad-8df1-5fb17f96d409
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Snacfg Server

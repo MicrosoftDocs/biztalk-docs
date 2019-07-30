@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bc8f5b36-a727-4155-a1d0-89afb0707198
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUA User Name and Password Replacement

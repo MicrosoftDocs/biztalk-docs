@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 99bc34b9-e870-46be-a4c2-605624e7e417
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Initial Conversation Characteristics

@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 7ab136bb-1a8c-430e-b460-2563404cd8fb
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Tracing Global Properties

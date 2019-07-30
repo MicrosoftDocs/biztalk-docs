@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: df1af558-7eb1-447e-9366-345ae13f7412
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Confirmation and Rejection of Outbound Data

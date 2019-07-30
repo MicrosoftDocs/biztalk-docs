@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f56fed1d-d603-4dfa-9e33-ef96a4da8964
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Support for Isolation Levels Using the ODBC Driver for DB2

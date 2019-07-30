@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5dfe5f32-1459-4b8f-8ef0-f21b26f49249
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Sample Logon Script

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ae52225c-73ea-452c-ac27-f36ebc62ca24
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Icom3270.wait Method

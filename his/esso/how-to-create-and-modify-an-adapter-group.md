@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b3fc186c-b909-4a28-a341-2226d91b0aa4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create and Modify an Adapter Group

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 086f92f8-f69a-4166-bb25-dbec2565ebba
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create an Independent Session

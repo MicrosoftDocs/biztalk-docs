@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e557b58e-6469-4ffc-a265-75f6b26ae2ab
 caps.latest.revision: 6
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Transaction Errors

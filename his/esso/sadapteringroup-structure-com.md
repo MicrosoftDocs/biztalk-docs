@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b1f9e9e5-719d-4fa1-a574-b89ab116961e
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SAdapterInGroup Structure (COM)

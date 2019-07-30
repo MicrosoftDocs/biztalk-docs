@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: de2c2fc1-31fc-4c7e-a98b-4c47a1c5df09
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Integration Server Extensions

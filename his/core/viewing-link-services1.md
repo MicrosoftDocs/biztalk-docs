@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c97ae193-9f0c-4735-84e4-e87c8d8d8723
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Viewing Link Services

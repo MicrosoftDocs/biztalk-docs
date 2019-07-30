@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 242887b1-f9e3-4e0f-a360-f04e2b2e5f3a
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Recordset Columns Wizard Page

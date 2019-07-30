@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 891eb07d-4d21-4431-b529-a304a5002129
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Diagnostics Record Format

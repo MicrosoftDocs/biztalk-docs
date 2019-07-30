@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 47ded631-3bc0-47fa-8a36-925d5837f5b3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Structures Shortcut Menu

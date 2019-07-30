@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8dec2460-da39-4c09-ac66-4730701881ad
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_AdapterOnMachine Class

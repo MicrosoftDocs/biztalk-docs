@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: dc201817-b8a4-455e-96ee-ccda4785b3b1
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Protect TI from Unauthorized Mainframe or AS/400 Access

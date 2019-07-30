@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e1fbadb9-e7bc-45ee-af94-bfa60816d712
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Deploy a Host File Interface

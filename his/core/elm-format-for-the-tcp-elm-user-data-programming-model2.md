@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2cd824c7-1f6e-449e-86d7-7f654523a425
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ELM Format for the TCP ELM User Data Programming Model

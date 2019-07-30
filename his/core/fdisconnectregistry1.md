@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b1b50087-dde1-48bf-ad65-33a25af17311
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # fDisconnectRegistry

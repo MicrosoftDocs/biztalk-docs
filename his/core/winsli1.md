@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d3df18dc-b603-4150-b99a-e821f495f20d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # WinSLI

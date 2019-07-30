@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 5f2555f5-3e47-420b-994b-d3843348fba8
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Configuration

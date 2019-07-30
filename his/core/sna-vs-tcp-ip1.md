@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c7a03022-adbf-421f-b062-ff7b2918f710
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNA vs. TCP/IP

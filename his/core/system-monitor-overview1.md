@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fd6fe37b-42fa-455f-bfe0-41a4f3e03e09
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # System Monitor Overview

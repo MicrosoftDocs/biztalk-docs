@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 094eb433-40f5-4549-a1ee-eacff5753440
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Set_Send_Type (CPI-C)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e7ccacec-9758-4104-87f5-fd8bfe8d979f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Implicit Incoming Remote LU and Implicit Incoming Mode

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 39366b20-64b4-484f-b720-5b4709b19633
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Link Service Adapter

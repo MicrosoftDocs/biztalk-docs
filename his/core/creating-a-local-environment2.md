@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d71da125-6a33-4085-9d16-5355f8031352
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Creating a Local Environment

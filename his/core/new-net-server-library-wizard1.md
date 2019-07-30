@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6369ef32-b6b6-4418-ba2e-29dc5961c16c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # New .NET Server Library Wizard

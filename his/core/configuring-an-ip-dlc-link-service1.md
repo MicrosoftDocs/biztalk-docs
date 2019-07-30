@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: efe4f455-2a08-4d90-bffb-544285927376
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring an IP-DLC Link Service

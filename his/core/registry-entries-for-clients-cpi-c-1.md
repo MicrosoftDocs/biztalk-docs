@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 722e6477-5280-4432-83f5-80c1900e5d79
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Registry Entries for Clients (CPI-C)

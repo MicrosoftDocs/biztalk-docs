@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: caf23cff-cea3-4307-8b8d-35eadbcabe90
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Parameters and the DB2 DataAdapter

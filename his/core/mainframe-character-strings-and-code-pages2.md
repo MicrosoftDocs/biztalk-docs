@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 068ddf61-61bd-4313-b1c9-ccea073fb876
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Mainframe Character Strings and Code Pages

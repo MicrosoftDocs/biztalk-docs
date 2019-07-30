@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6ef30d3f-bb5c-4a37-bbd8-1d0054f75539
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Start System Monitor

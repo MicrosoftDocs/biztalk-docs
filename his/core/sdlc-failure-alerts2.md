@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 63408717-c21d-4378-91b2-d49e5170f820
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SDLC Failure Alerts

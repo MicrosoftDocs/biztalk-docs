@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e9a9061d-20e6-40d4-b7cb-b0b8446041ad
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Server Properties: SSO Database

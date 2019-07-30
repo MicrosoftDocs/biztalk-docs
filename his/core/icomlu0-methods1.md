@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f7aa4f7e-b4bb-460a-acb1-ae070acd01b5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IcomLU0 Methods

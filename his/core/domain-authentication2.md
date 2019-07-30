@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 245319a1-a92f-4081-8f51-4a772a70a6a2
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Domain Authentication

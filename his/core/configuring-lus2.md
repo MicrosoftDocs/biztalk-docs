@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6b94f422-512a-4e0a-a64f-22def10fc043
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring LUs

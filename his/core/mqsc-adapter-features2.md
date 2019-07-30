@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b2c43fab-5da3-4e81-ae14-5091649f6d83
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MQSC Adapter Features

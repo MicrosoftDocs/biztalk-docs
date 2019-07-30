@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 03411b99-b695-4b4e-bc31-9e9e765a3c16
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Link Alert Format and Common Subvectors

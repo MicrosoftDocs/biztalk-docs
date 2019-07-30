@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a0dd8054-5a8e-46d2-9f50-21302af28fa4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOLookup2.GetCredentials Method

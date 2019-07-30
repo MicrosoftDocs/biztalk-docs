@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d881cef9-bf0d-4d7a-845b-ae91727ce5c3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # WinCPICIsBlocking

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 304f68a9-5e85-4640-a1b7-79e2d6182e6a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Export the Encryption Key

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0be47e9c-e709-492d-92ae-369d6f80e949
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsHis_Locale

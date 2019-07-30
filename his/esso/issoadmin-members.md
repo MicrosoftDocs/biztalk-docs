@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 9bbf2f04-52f2-4711-8cf2-97d729047a4b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOAdmin Members

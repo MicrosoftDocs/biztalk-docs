@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e2caf8b5-c32c-4e64-aa87-71e09d52d416
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host (VTAM, CICS or IMS) Response Time

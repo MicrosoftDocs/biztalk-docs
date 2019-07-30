@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 89a0c962-cd23-4580-9f42-ee00d6dce9a9
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSnaStatus_PrintSession.Cancel Method

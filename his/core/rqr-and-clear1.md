@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5f19a7f0-09a0-4253-9410-49a16c4c755c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # RQR and CLEAR

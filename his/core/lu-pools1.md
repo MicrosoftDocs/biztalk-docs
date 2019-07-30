@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 6440fd0c-40e2-43e7-b53b-dd7519dfd99e
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LU Pools

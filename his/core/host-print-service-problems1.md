@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ffe4820a-0f87-4d62-b7da-5c4d9fe93cb3
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Print Service Problems

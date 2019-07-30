@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 66d20ecd-1858-4e94-81b9-33230e368801
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_ServiceSharedFolder.Start Method

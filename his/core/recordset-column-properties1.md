@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: bbbe57e5-4781-4428-bfd9-4128d591051f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Recordset Column Properties

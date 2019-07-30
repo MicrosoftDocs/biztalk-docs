@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d8ab1460-7342-422a-b187-5101550dbfe5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # COMTIContext Keywords

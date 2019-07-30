@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: dca14204-a176-425f-b12d-a64328f6ae03
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Planning and Architecting Solutions Using Data Clients

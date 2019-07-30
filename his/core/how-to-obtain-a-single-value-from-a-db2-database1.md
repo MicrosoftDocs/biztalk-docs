@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c2ec71ad-4dd6-409a-8af2-acbb9fe5843b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Obtain a Single Value from a DB2 Database

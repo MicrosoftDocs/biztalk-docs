@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ecb73d36-143f-45da-b139-d750b010f441
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # CMDSemSet

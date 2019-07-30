@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e8f5948c-1b49-473f-80a0-bd45e932bf13
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SStatus Members

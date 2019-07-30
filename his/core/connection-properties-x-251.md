@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: e74bf072-17a0-4c54-82be-1568bb762eff
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Connection Properties: X.25

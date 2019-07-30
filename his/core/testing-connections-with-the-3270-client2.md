@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1c38fe7c-1d55-43b9-8a90-5111e0015428
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Testing Connections with the 3270 Client

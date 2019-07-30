@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 98c71dbb-83ec-435c-ac3b-fea01f5bca60
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # OS/400 Distributed Program Calls

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bce915ca-6352-407c-a91c-7da6af23491d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Save Performance Data

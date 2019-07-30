@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a5c3329b-2801-4710-92af-03124c93e931
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Retrieve an Instance

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b9c362b6-6597-4529-9460-cd36129896fa
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # packageBindListener

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 33b257c7-511f-4dc4-89ad-598121f8eb36
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Set_Mode_Name (CPI-C)

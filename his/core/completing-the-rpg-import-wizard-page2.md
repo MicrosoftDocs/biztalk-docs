@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 72dac1d2-9c7e-4836-806b-5af34aecbec1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Completing the RPG Import Wizard Page

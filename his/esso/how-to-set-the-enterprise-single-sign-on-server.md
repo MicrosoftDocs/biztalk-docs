@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: cf1db7d4-ced5-4fef-b438-7292364b88e3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Set the Enterprise Single Sign-On Server

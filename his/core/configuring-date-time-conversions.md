@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 60270aa0-2d8e-407c-9a11-ede2aa42e3e0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring Date Time Conversions

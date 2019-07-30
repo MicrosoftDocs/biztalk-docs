@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 36afbc4f-ecb0-4851-8892-2a23893a8d58
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # X.25, 802.2, or Switched SDLC Line (XIDs Exchanged)

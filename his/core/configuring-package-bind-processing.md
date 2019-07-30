@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 059cd3ac-7d29-41b0-95e5-ba1300284c77
 caps.latest.revision: 9
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring Package Bind Processing

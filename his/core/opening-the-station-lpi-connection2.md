@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4d5d1cf2-ed13-43f4-86b2-9e7c5d7b38f4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Opening the STATION LPI Connection

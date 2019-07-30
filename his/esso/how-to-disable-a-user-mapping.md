@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 51c745dd-4d39-46e5-88bf-b803ae2e0a1b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Disable a User Mapping

@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 7d42c85f-67f8-458d-8abb-cf60072cd471
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Print Service Properties

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8b7284ef-7fa7-42a4-b501-ce89d0f9e627
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNA National Language Support Programmer&#39;s Guide

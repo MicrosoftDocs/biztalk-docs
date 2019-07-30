@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ba6ec78f-4ca5-446e-a9e7-5a8210dc4980
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Protect the Remoting Session

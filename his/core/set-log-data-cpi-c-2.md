@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bbd93c60-ee27-473b-b375-89b4a827b6a1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Set_Log_Data (CPI-C)

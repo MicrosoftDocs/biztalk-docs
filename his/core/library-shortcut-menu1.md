@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f9d7f61c-7211-4033-91cf-3a4b8aee15e9
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Library Shortcut Menu

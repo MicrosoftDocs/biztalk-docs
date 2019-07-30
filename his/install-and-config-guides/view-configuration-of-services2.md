@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ba47dc53-eceb-4475-8734-75df409a68c6
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # View Configuration of Services

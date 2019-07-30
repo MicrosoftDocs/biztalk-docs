@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 97f95be2-ec26-4c03-9db3-cda3d645a1ed
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create a Connection String

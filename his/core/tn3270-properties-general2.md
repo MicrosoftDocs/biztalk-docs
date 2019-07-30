@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 2d4ba716-2681-451a-b859-4e95d3fa2640
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TN3270 Properties: General

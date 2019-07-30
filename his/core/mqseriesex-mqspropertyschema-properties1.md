@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f6954786-ad65-4538-8904-4fb3edcb0cd1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MQSeriesEx.MQSPropertySchema Properties

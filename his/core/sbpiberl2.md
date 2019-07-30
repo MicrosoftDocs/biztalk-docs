@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 530076d4-ba0d-4c07-ba06-1251e48ccc3f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # sbpiberl

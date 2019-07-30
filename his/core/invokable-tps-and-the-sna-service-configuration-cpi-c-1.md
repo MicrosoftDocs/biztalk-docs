@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: dd01f458-b0f7-4e77-9617-a6d22b3b5a57
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Invokable TPs and the SNA Service Configuration (CPI-C)

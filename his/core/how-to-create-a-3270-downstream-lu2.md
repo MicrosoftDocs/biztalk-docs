@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6a9da1c6-71b4-4688-b27c-84e1f8e2f250
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create a 3270 Downstream LU

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d549ab36-3640-4891-aa65-7d09e972c440
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SSO Mappings

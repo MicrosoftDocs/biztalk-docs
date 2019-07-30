@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1f82ee67-8d65-4955-9459-83f8ee2b1ee7
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Selecting Components to Trace

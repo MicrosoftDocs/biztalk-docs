@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d205c478-e1b0-4dca-b6a0-427f8edeb470
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # State Checks

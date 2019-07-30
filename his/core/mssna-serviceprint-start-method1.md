@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5b8cd83f-b7ee-4fe4-b9aa-bdeb44687ccc
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_ServicePrint.Start Method

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f6df60ea-9b06-44b9-b0cc-dfe6c1a5f469
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Truncating Undefined Portions of Strings

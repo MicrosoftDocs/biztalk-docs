@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 20704965-e497-4296-82fb-007fea14409c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Compiler Options

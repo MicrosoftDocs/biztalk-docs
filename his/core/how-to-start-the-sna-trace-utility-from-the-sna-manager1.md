@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1bd91911-1d4d-437d-8baf-b3d108141db1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Start the SNA Trace Utility from the SNA Manager

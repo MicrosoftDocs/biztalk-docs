@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 274ae97c-3b3f-40f9-90e9-b7954aa055b9
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_PoolDisplayAssignedToUser Class

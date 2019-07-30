@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 92574f33-d186-4597-a56d-b944f41c7517
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Setting up DataTable and DataColumn Mappings for a DB2 Database

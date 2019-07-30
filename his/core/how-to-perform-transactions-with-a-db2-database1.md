@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 20df9893-4238-4dce-b943-6e3d93543a92
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Perform Transactions with a DB2 Database

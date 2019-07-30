@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d69c762c-84c3-44bf-afc0-f79e41ed23e4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Filler

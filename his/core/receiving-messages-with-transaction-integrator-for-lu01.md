@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f493a6ba-7cdb-475e-8554-8d1e0ac5ee77
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Receiving Messages with Transaction Integrator for LU0

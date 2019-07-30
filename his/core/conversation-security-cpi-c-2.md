@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1eee5c2f-74a4-4793-9ea6-5b949a640a13
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Conversation Security (CPI-C)

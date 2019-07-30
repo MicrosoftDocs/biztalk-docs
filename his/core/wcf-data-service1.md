@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b8d6320c-a682-495b-b1cf-c7b84a57104d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # WCF Data Service

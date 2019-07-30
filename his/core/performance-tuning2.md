@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 93d88cb7-98e1-4138-8dea-d7caeaa0ace2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Performance Tuning

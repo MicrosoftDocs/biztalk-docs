@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 725fc34a-392c-4ec1-bc57-deb69b2dd104
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Integration Server Components and NLS Support

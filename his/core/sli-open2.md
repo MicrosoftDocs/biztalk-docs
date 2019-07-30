@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6bb743f8-327c-4bdc-82bc-c26057e91212
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SLI_OPEN

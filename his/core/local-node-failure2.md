@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4c7af4dd-eedb-4a5a-bbe8-58231c945db5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Local Node Failure

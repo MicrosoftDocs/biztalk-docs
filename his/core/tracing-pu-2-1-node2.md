@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 19d59f2a-fad8-4003-a08a-b8e46428a4c6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Tracing PU 2.1 Node

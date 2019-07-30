@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e968af29-a458-431f-8005-71a2d102b1d0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Matching Invoking and Invokable TPs

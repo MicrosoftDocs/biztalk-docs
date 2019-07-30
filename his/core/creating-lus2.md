@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 98a8d190-4bfe-4d19-8c59-aa395b307221
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Creating LUs

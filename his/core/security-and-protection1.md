@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 79248d92-1d71-4ec7-9734-63cdef75698c
 caps.latest.revision: 8
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Security tips and guidance - HIS

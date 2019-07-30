@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f0c6dafd-70a7-47f0-ae8b-a4caac8a5fe0
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_Workstation Class

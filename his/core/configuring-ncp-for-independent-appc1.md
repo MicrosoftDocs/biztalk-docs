@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 15ff08c8-ffae-42de-b9fd-321194518ba8
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring NCP for Independent APPC

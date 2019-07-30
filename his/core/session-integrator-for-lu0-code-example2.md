@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0090d0a1-e168-4424-8adf-b6c1913f2de2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Session Integrator for LU0 Code Example

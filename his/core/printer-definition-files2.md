@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b89e01fc-ba4d-4f85-95ed-f5284055bb0c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Printer Definition Files

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2923e40f-17ca-4668-9b7a-401f3fc3ee09
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNA Communication Tuning

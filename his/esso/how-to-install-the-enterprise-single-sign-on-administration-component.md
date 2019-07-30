@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1e28ca64-08a1-4b79-9e90-5073ddf4e7ab
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Install the Enterprise Single Sign-On Administration Component

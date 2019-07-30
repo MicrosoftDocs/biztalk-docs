@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 72804888-63ed-49ab-b77e-a64418fa7f38
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Tracing SNA APIs

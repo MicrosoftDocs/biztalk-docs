@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 9e4568ed-0a07-43fc-a7c0-076efe7a22ba
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SPasswordChange Structure (COM)

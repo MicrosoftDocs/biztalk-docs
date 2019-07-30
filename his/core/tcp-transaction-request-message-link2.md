@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 799a1b2d-d2a9-4d0c-b7f2-cdc05016c051
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TCP Transaction Request Message Link

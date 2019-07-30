@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5c2d5f38-00ce-4992-9043-111d17d6da78
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Run TI Over TCP/IP

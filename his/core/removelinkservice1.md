@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f0ef9ff9-29a0-456a-87be-6844ee2ca7f6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # RemoveLinkService

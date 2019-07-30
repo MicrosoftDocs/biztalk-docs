@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 56670e4e-e2de-4f08-8ccb-d645d7a5a740
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Audit Enterprise Single Sign-On

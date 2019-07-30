@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0c0e6198-69b7-4ca3-9480-ca24eec46a4a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create a New TI Component

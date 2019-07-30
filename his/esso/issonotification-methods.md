@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 91797293-fc2f-403a-bd92-b947f3948367
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSONotification Methods

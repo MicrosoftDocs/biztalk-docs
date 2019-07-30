@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e07e8123-9ca3-4cf3-ba27-853a5fd9a56a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # An Example of a Mapped Conversation (CPI-C)

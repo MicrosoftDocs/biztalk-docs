@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fb3e53d8-1751-43e5-958e-8ef1c8835a9e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Support for CPI-C Automatic Logon

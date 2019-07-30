@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0a0deee0-85ef-4f38-b554-bd595e3b993a
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # sqlToDb2

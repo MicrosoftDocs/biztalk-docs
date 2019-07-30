@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 65f740dd-8930-49b9-9add-0e0efa8c440b
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Command Request Support

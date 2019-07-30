@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b517ce65-85c8-419d-851b-cf025d3b0e4e
 caps.latest.revision: 6
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Install the Enterprise Single Sign-On Client Utility

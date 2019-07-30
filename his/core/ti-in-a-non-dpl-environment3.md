@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a9e72743-8cf7-4600-b440-117935c2903c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TI in a Non-DPL Environment

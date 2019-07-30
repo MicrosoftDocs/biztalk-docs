@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2d7cef34-abad-4bf8-b0cc-7349bd2389a2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Add Constraints to the Host File Dataset

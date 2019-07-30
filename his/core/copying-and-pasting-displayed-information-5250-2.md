@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3b474df6-16d3-40fb-978e-7ba13882f990
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Copying and Pasting Displayed Information (5250)

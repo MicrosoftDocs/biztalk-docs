@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 31f28e3e-cf40-4036-b779-0b5c691a8571
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Network Integration User&#39;s Guide

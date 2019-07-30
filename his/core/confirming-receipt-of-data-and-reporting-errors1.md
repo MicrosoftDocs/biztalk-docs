@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: df9ce965-016f-4422-be5d-7c336f8cf172
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Confirming Receipt of Data and Reporting Errors

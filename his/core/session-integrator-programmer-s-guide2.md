@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 864b2c30-b9de-46b8-981e-346869530b58
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Session Integrator Programmer&#39;s Guide

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4550f2ba-c5c6-4457-af6f-bdeedebf0a82
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IcomLUO.SendResponse Method

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bb58ee58-14bb-4413-a7cf-39885fa00cbe
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOMapping Properties

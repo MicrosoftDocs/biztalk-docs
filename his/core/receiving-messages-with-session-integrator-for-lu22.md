@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4d77ce2b-348f-4cc5-a57d-60973f76c49f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Receiving Messages with Session Integrator for LU2

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2ca97bcb-38ff-44ff-b77a-30815dd17a92
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Non-APPC LU Status

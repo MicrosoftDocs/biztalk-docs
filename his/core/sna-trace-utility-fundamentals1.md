@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b62b09ad-32fb-445e-870d-da9fb02c9746
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNA Trace Utility Fundamentals

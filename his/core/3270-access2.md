@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8afd9e90-5f6a-4e60-8897-ac72d1a5bc7d
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # 3270 Access

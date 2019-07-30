@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 99373c45-afaa-4f4b-abc2-abf140bd5158
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Library (Pipeline Conversion Library Wizard)

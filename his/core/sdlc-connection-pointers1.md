@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8b6ae3aa-bbaf-4135-8531-df6807192d36
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SDLC Connection Pointers

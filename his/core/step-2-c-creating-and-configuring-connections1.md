@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f90e8e5c-6b5e-4e08-ba3e-78926eec741e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Step 2 (C) Creating and Configuring Connections

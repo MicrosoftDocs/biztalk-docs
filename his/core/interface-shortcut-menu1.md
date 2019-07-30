@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: df12d6c8-dd4f-4075-9251-bf7bcd34150a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Interface Shortcut Menu

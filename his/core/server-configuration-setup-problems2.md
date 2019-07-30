@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7cd444a8-4c02-49ac-a7ca-feb16da478af
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Server Configuration Setup Problems

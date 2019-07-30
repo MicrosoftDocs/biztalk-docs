@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: c3d34725-49e6-42a9-a203-099d59f17182
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Remote LU Properties: General

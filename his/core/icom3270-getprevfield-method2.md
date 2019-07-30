@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 18827107-e4ce-4464-9658-f34e6245c899
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Icom3270.getPrevField Method

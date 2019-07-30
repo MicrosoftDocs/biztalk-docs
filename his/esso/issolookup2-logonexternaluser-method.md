@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 96d95485-2558-4845-99b3-9180cb3f0d15
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOLookup2.LogonExternalUser Method

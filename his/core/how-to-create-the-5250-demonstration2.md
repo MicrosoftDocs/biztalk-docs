@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 627b3644-8856-4f42-b7a8-f538541414d6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create the 5250 Demonstration

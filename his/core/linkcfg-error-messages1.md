@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ef50ff69-c0b9-4794-a5c1-0fcfd9849726
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Linkcfg Error Messages

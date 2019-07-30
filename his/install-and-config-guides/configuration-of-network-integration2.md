@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 96f04b21-b46d-4156-8680-e0065d5ff0a9
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configure Network Integration

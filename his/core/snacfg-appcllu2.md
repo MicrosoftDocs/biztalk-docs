@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1c85498e-7280-453a-bdaa-b86466bb4d97
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Snacfg APPCLLU

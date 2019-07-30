@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2358ba56-5af6-49dc-8229-c1a9899c9ac1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOAdmin.GetApplicationInfo Method

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0e9e8a91-d48e-418f-a032-475c91212183
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How To Connect a HIP Component to a Visual Basic Applications

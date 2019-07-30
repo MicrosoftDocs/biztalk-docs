@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6c8b4d92-5539-478a-8d6a-7faaf485d7b2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Function 0x43: Set V24 Output Status

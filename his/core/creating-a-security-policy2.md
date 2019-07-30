@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0a3e6fae-8e09-4467-8607-1aaf929b26f9
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Creating a Security Policy

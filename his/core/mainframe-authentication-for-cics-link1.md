@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ec919c4d-b7f8-45d6-a9d2-f990689208c7
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Mainframe Authentication for CICS LINK

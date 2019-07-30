@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: de648bfa-8d4e-4a98-946e-9521d3639dd4
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Service for DRDA Security and Protection

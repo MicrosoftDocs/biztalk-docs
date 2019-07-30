@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 051bc35f-55e6-4811-9559-b1bb66a570ce
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Enable an Affiliate Application

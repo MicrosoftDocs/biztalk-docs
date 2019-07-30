@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4b582671-4389-45f4-83e1-4b5962e38980
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Brackets

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0e556c38-8a32-458f-823d-4fb12e2a05a4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # fFindAndReplaceString
