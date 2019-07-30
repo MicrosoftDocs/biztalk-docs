@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b54aa562-d27c-45fb-b3e0-9a4470bcb687
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Solution Explorer

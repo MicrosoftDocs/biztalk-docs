@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bb966730-5f23-4e7d-80c9-814d03bca735
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SSO Server

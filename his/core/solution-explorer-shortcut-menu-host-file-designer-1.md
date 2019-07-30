@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1c1af8a8-157a-47b9-925c-43bac56aadcf
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Solution Explorer Shortcut Menu (Host File Designer)

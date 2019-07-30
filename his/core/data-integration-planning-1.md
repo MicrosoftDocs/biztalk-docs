@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: def90f27-a600-4ef8-ad11-905fe1ce85e8
 caps.latest.revision: 13
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create Data Integration solutions

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 14be169d-4355-458f-ae87-2e82373d9387
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsDrdaService Event Logs

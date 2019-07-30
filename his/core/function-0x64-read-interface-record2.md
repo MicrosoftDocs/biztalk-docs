@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 69a6d971-f877-44b7-82d5-4539e6d352c4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Function 0x64: Read Interface Record

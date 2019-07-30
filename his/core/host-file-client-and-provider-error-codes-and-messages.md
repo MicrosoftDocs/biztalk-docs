@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: cf84e451-41d5-4881-95fa-30a6349aafc9
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host File Client and Provider Error Codes and Messages

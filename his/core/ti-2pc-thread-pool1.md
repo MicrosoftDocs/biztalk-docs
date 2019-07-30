@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c4080d93-8803-46e1-8ba9-ff39025f35bc
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TI 2PC Thread Pool

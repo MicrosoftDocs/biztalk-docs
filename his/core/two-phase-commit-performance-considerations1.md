@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 9ed340af-e88d-47de-8ffd-65766d782f10
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Two-Phase Commit Performance Considerations

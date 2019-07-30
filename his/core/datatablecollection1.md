@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e7368163-7006-4884-9944-6cd4fee1e561
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # DataTableCollection

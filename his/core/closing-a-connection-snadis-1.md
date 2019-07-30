@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d005f479-f7fd-4f77-b4f4-82e8941f6821
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Closing a Connection (SNADIS)

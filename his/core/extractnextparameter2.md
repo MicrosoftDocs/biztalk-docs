@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c0f07d7d-c197-42ca-b280-4390b4077fd8
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ExtractNextParameter

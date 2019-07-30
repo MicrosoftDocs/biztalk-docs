@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 670c84f7-d954-46db-ac66-189aca9c1635
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Connections Used for NetView and RTM

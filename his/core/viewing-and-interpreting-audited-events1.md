@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ed0376bb-3336-4282-acae-d55e97160146
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Viewing and Interpreting Audited Events

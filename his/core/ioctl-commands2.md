@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7eebe37d-65a6-4a88-a267-60154bffb811
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IOCTL Commands

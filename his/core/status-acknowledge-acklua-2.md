@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2f34ef80-2f99-455b-b9bb-666e5ba2e8c6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Status-Acknowledge(ACKLUA)

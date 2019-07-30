@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c8b35aee-962c-4ad1-8f45-df0135abe01a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Outbound Data

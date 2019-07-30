@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f348b44a-7cab-4676-9fe9-541efcb84daf
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Error Codes for Open(PLU) Error Confirm

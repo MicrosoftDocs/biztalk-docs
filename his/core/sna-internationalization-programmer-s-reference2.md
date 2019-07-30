@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4eefd7e0-6406-4f81-a8f6-6e646e3cdf1c
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNA Internationalization Programmer&#39;s Reference

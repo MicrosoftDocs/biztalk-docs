@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 601af589-2cac-4594-990c-07ed54749c47
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # RUI_BID

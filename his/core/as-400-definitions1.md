@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 4834dfcf-11b5-4570-9950-7aedeba1e505
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # AS/400 Definitions

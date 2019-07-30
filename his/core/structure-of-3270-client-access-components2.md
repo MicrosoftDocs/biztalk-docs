@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 80ec95f1-cfb2-4a5d-ac26-e0318feb6cac
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Structure of 3270 Client Access Components

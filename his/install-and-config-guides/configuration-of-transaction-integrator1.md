@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d2212cb5-7000-418e-be99-39ecb2c9f7c4
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuration of Transaction Integrator

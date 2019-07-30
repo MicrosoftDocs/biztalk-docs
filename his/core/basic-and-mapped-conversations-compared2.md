@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 038b39cc-de37-472a-b69c-dc5bd58d99c6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Basic and Mapped Conversations Compared

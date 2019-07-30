@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c6c4fcb1-2e4f-4a0c-a6fd-3d9cc2deb0ec
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUA Programmer's Guide

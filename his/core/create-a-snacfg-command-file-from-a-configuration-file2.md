@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 961e3c86-1a15-41ff-b176-5c9925928510
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create a Snacfg Command File from a Configuration File

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: efe7cb5e-3543-45e8-b17b-4a0503f9252b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Localities and DMODs

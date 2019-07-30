@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4936e582-d258-461b-8f79-e39961b532f1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Sample CICS Configuration Screens for Use with APPC

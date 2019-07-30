@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 33e378a6-8010-416f-a470-2b55f3518159
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # sbputerm

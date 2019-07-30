@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8fc88244-c762-4c3f-a638-cb9882f115bc
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create a DB2 Package

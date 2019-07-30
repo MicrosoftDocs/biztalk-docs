@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e36ea4d9-be48-4b6f-9c83-a6554540b87a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOMapper.GetApplications Method

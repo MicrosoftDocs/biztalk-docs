@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b64091e9-d601-44a2-8b39-c0af7a958b9f
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_LuAppcLocal Class

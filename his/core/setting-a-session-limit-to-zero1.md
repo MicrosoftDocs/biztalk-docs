@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e47e4048-66be-4dfa-bedf-17c7e41dc6a4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Setting a Session Limit to Zero

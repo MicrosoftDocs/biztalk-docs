@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c5d41531-a4ff-46f4-9f6b-7678b68b5e6c
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Transmission Service and Function Management Profiles

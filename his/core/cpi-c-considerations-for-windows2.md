@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 64eaf87a-824c-4a46-b39c-332033956348
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # CPI-C Considerations for Windows

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ae52a594-18c9-4dc5-acb4-43b80942aa05
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Assign a Different Code Page to a Remote Environment

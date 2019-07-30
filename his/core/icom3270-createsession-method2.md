@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2a70c8f2-1770-433b-849e-34bc5ef856e6
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Icom3270.createSession Method

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 779dfac4-c27c-40de-bdd4-8d7be613917f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # CICS LU6.2 User Data

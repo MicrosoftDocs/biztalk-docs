@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2741065d-5ad8-411f-95ac-ee1535877c56
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Work Manager

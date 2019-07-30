@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: df9497a1-67ee-440e-a656-de9bf363d645
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Function 0x42: Set Link Characteristics

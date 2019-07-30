@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 55fc4eab-ea35-442a-aea5-ef1d4d20b7f2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Writing CPI-C Applications

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3a307041-9697-4bb3-a5d6-77ec2b5ff3c2
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Active Directory Schema Reference

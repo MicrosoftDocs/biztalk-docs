@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 484ef761-830a-4c5b-bc1c-235ec9044a3f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Making a Connection

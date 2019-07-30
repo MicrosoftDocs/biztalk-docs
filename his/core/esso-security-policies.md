@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ef00ea02-f24f-45f6-9779-a1816d946514
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ESSO Security Policies

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 44d13965-dfd6-425b-a16c-4652bfb5334b
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configure SQL Syntax Transformations

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c5dede6a-598f-47a1-b64e-2b5e8b8abcc0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Cluster the SQL Server

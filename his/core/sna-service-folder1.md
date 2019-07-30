@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: e2067e95-f029-48d2-8a65-f22bdf06f144
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNA Service Folder

@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 453e7bd0-c5ab-4443-af41-0663d5ee40a8
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Structure Member Name Node

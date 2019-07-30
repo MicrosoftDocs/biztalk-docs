@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2d6a56fd-614d-408a-99ff-294f3102d58e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # CPI-C and LU 6.2 (CPI-C)

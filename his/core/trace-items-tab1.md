@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: f0b38532-0fb9-47ba-941c-ff1204d3b7ad
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Trace Items Tab

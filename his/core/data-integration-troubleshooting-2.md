@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 115d5ff8-0159-4a44-9920-f93226a73fac
 caps.latest.revision: 7
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Integration (Troubleshooting)

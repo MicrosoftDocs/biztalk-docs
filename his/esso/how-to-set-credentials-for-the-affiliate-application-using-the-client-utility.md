@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e565fe22-6805-4ec8-9fc5-dd5ef88e752c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Set Credentials for the Affiliate Application Using the Client Utility

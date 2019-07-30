@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5f2b1edb-abd8-48bc-9c09-9ec05a43faf5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SLI

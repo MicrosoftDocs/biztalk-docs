@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 13981e98-08ed-4fc6-a890-2d4d05b7529b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Run the 5250 Client Demonstration

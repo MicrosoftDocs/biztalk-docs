@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 07fd0dfb-6478-473c-bc41-3883f033688c
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Compiling the Source Text File

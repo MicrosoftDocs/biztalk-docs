@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0ecca55d-b902-48b1-b3d9-d64fe6254996
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Service Connection Point

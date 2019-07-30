@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 004c41d8-c0b2-49c5-9768-fda7858c9fe7
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Update a Transaction Integrator Assembly

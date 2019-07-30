@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8dc8c495-7ff1-4ed0-921a-0828e69319b8
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOConfigSS.BackupSecret Method

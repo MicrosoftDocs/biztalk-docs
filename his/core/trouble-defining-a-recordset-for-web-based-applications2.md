@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0d0d05a5-cc3a-4b61-bf76-b190c4e76ad4
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Trouble Defining a Recordset for Web-Based Applications

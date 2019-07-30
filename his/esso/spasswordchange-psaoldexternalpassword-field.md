@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: af597c0b-0f55-4d13-97cb-3d8f0b58986c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SPasswordChange.psaOldExternalPassword Field

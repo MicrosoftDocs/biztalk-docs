@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 9f510dab-bc0c-452d-9899-16ae897b2203
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Union Member Properties

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f71cda01-af19-476c-ad9f-db0354cee247
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Structures Node

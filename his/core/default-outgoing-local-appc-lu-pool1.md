@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b653358d-5e80-4629-bd1b-9690496eb137
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Default Outgoing Local APPC LU Pool

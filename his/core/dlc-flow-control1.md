@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e4367c75-9068-4c5f-9c9a-04472166908a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # DLC Flow Control

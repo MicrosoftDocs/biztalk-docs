@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 49e45ae5-25b5-4852-ac85-9604e15e93d4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SAdapter.bstrAdapterName Field

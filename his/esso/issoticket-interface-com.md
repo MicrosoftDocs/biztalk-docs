@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6fe1f352-f9e9-46f6-b41b-c7768617e466
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOTicket Interface (COM)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: df22f0ba-a8e6-4444-840a-33c626fde6be
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Resolve Transactions Manually

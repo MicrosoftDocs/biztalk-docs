@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7b5d3f07-9ee7-472b-b160-30e5d4cdea1a
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # collationName

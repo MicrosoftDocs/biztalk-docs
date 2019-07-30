@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b3676638-c7e8-495f-91a6-ee5a44f08d68
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # I/O Request Packets

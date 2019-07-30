@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6449c984-5f07-4958-9707-782d5340eb4c
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Support for LUA Single Sign-On

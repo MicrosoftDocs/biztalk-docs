@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 975ff986-fbc0-4008-8c43-97d5089ab7c6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Sample VTAM Parameters

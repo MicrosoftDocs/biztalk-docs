@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5beab066-e347-4fc6-b100-7124dd18d9c4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SharePoint as a data source - HIS

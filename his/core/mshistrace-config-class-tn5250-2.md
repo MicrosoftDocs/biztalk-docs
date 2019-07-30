@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4dda104f-64a7-4912-b278-eb4206e96569
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsHisTrace_Config Class (TN5250)

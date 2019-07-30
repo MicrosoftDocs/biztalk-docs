@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ff6ef092-82a2-45dc-bf5e-739748f9eef7
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # 3270 User Name and Password Replacement

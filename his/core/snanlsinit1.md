@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d563fcdc-5cb9-444a-aa79-78e2ef20eba4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SnaNlsInit

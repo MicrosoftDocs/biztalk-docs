@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b9953324-b26e-45e4-9a02-e1eafc97ceb0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOConfigSS Interface (COM)

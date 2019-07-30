@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: cbad90fa-d163-4459-a86d-4b5fbc630404
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Types of Client Logons

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 57de188f-62a4-4543-8c44-ae7cac5a2c07
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # fStringCompare

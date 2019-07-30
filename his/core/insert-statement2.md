@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8e0ef68c-2e88-496c-a559-2c86bb0c0544
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # INSERT Statement

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e973b342-3ea7-48bc-8006-25c8ff80fdfc
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Flow

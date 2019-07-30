@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8247f174-1404-499c-8bcf-f8d7746990e3
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TS Profile 1

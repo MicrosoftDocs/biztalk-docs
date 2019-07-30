@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 27688aae-e555-4682-b3b4-1f7d86c0b1c1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Managing the Master Secret

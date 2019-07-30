@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 04338b82-3c6d-45a9-88f4-ac3dc2c02a05
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # fQueryRegistryValue

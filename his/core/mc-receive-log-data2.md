@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 41929e28-4e2d-4bf4-96c5-ad2f8096c4d4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MC_RECEIVE_LOG_DATA

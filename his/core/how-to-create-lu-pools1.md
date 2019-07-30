@@ -14,7 +14,7 @@ f1_keywords:
 ms.assetid: f548db93-cad4-4bf0-b12b-eef7c5b46894
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create LU Pools

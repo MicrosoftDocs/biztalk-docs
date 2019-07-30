@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 298cdd1c-40ad-4d9f-b636-f0e73a07a5db
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Invokable Transaction Programs

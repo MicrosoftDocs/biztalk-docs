@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4b83b1aa-6221-4872-968a-a2f20fee0e5c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Windows CSV Considerations]

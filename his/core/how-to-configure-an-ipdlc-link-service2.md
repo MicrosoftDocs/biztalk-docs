@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2363e1e2-86a8-4940-8ee4-e120a6832052
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Configure an IPDLC Link Service

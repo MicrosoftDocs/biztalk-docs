@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d188621b-73b5-4685-b7e5-2a021875ad61
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create the 3270 Demonstration

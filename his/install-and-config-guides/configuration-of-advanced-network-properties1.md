@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6ccadbc7-0464-4733-8cf8-3ebb50b10813
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuration of Advanced Network Properties

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d1cadabe-e027-4b1b-a2fb-01d03b672ba4
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # conversionBehavior

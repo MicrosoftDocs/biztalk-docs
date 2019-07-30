@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0be4e186-9e87-4400-bf2a-f8c7ecb41621
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # OLE DB Provider for DB2

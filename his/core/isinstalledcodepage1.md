@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fea9230d-34e6-45bf-830b-60dc8df27ee7
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IsInstalledCodePage

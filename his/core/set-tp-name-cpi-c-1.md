@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: dcde03ca-6c97-4105-b204-c9a07afd4d46
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Set_TP_Name (CPI-C)

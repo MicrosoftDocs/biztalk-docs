@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 77c8159f-cd3a-4347-b93f-1dddbe54cb93
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Sync Point Level 2 Support in Host Integration Server

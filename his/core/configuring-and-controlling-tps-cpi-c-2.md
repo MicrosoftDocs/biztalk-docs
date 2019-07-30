@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 97cbd297-b0d7-4c57-8030-c92a42e56dca
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring and Controlling TPs (CPI-C)

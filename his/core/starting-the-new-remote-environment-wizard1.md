@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ffd990eb-a6e5-49b0-b367-99648e52e507
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Starting the New Remote Environment Wizard

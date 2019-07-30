@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2c055164-995f-4d79-92a7-e57b82772add
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSnaStatus_EventTN5250Session Class

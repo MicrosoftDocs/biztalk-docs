@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 9aa7c4ea-9593-4353-909d-94cf4e4df451
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Application Integration Development Tools

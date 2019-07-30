@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ec3db1a8-977e-4cd7-a19e-50c4dfff15f4
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Icom3270.setScreenData Method

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 40ed2db8-e83c-4537-ab5f-54723dc57df7
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_Connection8022Dlc Class

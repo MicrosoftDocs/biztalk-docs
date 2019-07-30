@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 31fa3784-b5ed-488c-b659-42283c3f811f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Select Item Wizard Page

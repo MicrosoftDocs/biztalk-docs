@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 46fc1840-9aba-4380-8d3f-902ee98cc913
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_LinkService_IpDlc.GetNextAvailableOrdinal Method

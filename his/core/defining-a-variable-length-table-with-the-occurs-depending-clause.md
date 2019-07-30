@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 02ef3bb4-47a2-493e-877e-8466df279725
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Defining a Variable-length Table with the OCCURS DEPENDING Clause

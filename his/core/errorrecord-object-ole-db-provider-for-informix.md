@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 81065190-cba9-41bd-bff0-243cf8830602
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ErrorRecord Object (OLE DB Provider for Informix)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 10e72feb-f053-41ba-b645-7323c49851ad
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create New Mappings Wizard: Password

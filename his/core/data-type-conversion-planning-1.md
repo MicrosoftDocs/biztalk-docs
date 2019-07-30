@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0cde8a3f-4c56-42f7-81a0-d6367f934817
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Type Conversion (Planning)

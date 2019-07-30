@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8293a599-5969-4566-8a90-7b654357c595
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Troubleshooting Host Initiated SSO

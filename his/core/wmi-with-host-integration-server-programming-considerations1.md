@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 93fa47ad-38fc-4dfd-80c1-9a4762ae3644
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # WMI with Host Integration Server Programming Considerations

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 049b6331-3854-49e6-9df0-572057d120f7
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Function Management Interface

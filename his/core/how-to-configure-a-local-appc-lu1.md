@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: cc3089bb-ec42-4b43-a10e-fd771237c758
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Configure a Local APPC LU

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: eb2bca9c-8b0d-46e1-a3a8-be002defcbcb
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # drdaServiceTraceListener

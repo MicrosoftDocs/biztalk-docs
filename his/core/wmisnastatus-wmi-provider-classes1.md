@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e17d9658-eff3-4cba-995d-9b1d855b113d
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # WmiSnaStatus WMI Provider Classes

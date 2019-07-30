@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 10265606-86aa-4a51-bdbb-0fca8fd8f2e9
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Process Structure and Scheduling

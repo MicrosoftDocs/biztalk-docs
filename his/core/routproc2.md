@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1f756842-46e8-4437-b1d4-091dc8aa1f8f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # routproc

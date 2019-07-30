@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7e47a6be-666b-44df-a4af-8dda022fe7e2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # PrtFilterJobData

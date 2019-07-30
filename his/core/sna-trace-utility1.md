@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c05c1041-9a6e-4a44-8caa-8566a27584ba
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNA Trace Utility

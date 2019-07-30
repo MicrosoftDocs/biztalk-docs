@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 15d75b51-33ab-44fb-b751-4ef4ce1cc5a3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUA Synchronous and Asynchronous Verb Completion

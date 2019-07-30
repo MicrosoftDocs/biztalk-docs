@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ef196bdb-0218-4e58-8207-ac13a254f75c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring TPs on Host Integration Server

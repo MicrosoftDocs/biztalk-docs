@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4b2e2951-ed28-4149-90b0-359866c231fe
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Non-transactional Data Flows That Support Unbounded Recordsets

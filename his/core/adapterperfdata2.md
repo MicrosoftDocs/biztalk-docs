@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 21c956b2-7fec-40c1-a6d8-f026a8c9897e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ADAPTERPERFDATA

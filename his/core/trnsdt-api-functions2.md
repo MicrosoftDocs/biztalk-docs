@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 72371cdf-4391-43a5-85ba-dd207a50bd34
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TrnsDT API Functions

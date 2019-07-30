@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b60246d7-4fa9-444b-9ddf-b453c131dfd6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # BACKOUT Verb Issued Remotely

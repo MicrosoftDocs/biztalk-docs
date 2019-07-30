@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 05aed1e0-70d2-439f-bed4-6960be87aa92
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Error Codes for Nack-2 Messages

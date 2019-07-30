@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e0add6a2-2a71-4e60-86b7-0a2a15b8b20a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Date and Time Parameters

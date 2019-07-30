@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3cdce08e-1e9c-4133-b995-986cecd33b8e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Primary with SSCP Access

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2036d8af-b2ad-409b-bb99-70fc24040796
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TI Runtime

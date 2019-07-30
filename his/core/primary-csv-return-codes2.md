@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 13606d7e-f60a-4752-af2b-850982ee5248
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Primary CSV Return Codes

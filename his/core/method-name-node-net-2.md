@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 31c93479-31d1-434e-8ae3-4d349028c8ab
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Method Name Node (.NET)

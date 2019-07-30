@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b7073ed1-bed1-4b4b-a371-542d24b2d3b3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Enable SSL for Enterprise Single Sign-On

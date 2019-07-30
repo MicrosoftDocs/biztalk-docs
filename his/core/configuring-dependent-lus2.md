@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 812067c9-137c-4819-9148-5592e6ba76ac
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring Dependent LUs

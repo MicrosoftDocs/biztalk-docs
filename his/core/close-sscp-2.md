@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6c0d2674-9fb3-467f-94b8-f353c9f9e6d2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Close(SSCP)

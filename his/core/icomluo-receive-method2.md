@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 411053e8-207b-43b0-a9d4-cc8a0abee8fc
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IcomLUO.Receive Method

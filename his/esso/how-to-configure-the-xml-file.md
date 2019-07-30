@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7ab7cfce-d6a8-4287-a11c-42d5c29ca445
 caps.latest.revision: 6
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Configure the XML File

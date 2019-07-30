@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 21c84e0d-4bff-44e3-a699-d37ffbe7eb78
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Array Dimension Dialog Box

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 29f80473-6d46-4be0-8a8c-ad4be5c5e393
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSnaStatus_EventServiceSharedFolder Class

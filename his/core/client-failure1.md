@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c5041852-076a-4829-84df-72730a3dd6c6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Client Failure

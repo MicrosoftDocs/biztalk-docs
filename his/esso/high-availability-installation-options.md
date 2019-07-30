@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ddc7ad2a-d978-4fd5-8a4d-412040fd91fe
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # High-Availability Installation Options

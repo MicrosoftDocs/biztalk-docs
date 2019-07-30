@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ecf7ac29-3e49-41a5-8007-419a65ebeaa0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Scalability and Long-Running TPs

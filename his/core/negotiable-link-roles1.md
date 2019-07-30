@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b0af0bd4-bec7-4b0e-b064-124c6072cd22
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Negotiable Link Roles

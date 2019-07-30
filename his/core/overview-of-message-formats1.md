@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2f355b34-90f0-4667-a0ad-4626badcbaf8
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Overview of Message Formats

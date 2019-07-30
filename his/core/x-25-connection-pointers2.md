@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 57e2f671-1ecb-4d47-a58c-7fd05ed071e8
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # X.25 Connection Pointers

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6326b83e-8f55-4c4f-927c-d59d1733fede
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Affiliate Applications

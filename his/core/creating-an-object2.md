@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 466ed8b1-afa1-4c53-8d3b-a08abbc0c7c4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Creating an Object

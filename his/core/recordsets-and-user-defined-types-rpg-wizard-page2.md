@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 1ba465b7-af34-4561-bfdc-97a5ac79769b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Recordsets and User-Defined Types (RPG) Wizard Page

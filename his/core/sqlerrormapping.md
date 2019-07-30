@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 403c365b-2114-4d68-89b1-6fea136f1b25
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # sqlErrorMapping

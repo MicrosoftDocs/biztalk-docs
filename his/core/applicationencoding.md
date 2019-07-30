@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a3758bdd-3209-45e2-ba8a-8f988072a9cb
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # applicationEncoding

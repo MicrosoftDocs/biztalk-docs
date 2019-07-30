@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e1c69e78-db55-4f0d-8172-a222223f2416
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SDLC Link Statistics

@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: eeb46b1f-4ea8-416b-9b71-1ebd33a9d7ed
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Add New Item Dialog Box (Host File Designer)

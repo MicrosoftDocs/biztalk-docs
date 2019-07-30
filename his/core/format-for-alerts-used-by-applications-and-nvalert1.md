@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f91a82ba-d83b-40df-958d-910bddc0c24d
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Format for Alerts Used by Applications and NVAlert

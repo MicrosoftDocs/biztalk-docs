@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0d261c1e-c53f-4b2a-825e-ce9c9828a2c1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # GetConnectionInfo

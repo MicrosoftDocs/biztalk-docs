@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 647f197f-594a-4447-b661-1e6018b28105
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Partner Definition Information

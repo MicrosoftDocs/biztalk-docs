@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3b0da85a-3e33-4e06-b9b8-27e610ff0895
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Access Library Tasks

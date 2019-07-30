@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4fa02781-dc4a-4ec2-aa0b-0686d0e3ff18
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Modify Objects

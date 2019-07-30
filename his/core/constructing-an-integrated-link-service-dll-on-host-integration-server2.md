@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8ed41551-190b-4446-8645-4d7ba8463d5a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Constructing an Integrated Link Service DLL on Host Integration Server

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 04e95c91-8285-435a-8e55-fa5cc046c875
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SSO_NOTIFICATION_FLAG Enumeration (COM)

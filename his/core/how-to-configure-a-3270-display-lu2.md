@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 94534e87-97b1-4036-8813-2d297043cb97
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Configure a 3270 Display LU

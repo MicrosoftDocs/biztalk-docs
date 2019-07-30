@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2c712e15-20c1-452d-bfda-6accfa6d7a4b
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Icom3270.getProperty Method

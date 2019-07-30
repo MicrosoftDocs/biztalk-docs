@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 280e5698-d85a-40ec-ac80-8c84e1ed5a84
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Integration Server Installation and Configuration

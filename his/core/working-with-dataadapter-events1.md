@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7db82781-c0df-4b02-b08c-f304ea70d094
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Working with DataAdapter Events

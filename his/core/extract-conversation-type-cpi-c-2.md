@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3eff9b34-24be-44b2-8d8b-f517f066e164
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Extract_Conversation_Type (CPI-C)

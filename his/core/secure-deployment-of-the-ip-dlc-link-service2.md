@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 41d4ba28-4ca0-4bd9-babb-8926124f45b5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Secure Deployment of the IP-DLC Link Service

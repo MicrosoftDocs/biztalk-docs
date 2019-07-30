@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 67c60193-6042-44a7-8b7d-a449f52f9ef5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Segment Delivery

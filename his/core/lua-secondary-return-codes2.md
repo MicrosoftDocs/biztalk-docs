@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 19d69c5a-c50a-424e-9a87-0e8b9a3fba76
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUA Secondary Return Codes

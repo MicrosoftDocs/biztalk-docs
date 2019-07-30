@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3dabf033-355d-4061-8a72-6f71b00ff22f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOMapping.Flags Property

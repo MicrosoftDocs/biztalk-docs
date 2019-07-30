@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a5cca54e-330e-4b2c-94c7-57f789af7a63
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOConfigSS.RestoreSecret Method

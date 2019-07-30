@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ab685ff6-b610-4b40-8f01-59bccbd28e95
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Icom3270.getNextField Method

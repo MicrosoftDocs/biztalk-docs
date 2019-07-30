@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fa0b06f6-92d2-4dca-83b9-5e30d56e270d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Creating an Application with Host Integration Server Designer

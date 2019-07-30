@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b6b44ec1-5681-4ccb-81ca-f0a037a3f7a2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SExternalAccount.bstrExternalAccount Field

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e37bb505-9bbb-48e3-93e0-560b444366fd
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Integration Server Status

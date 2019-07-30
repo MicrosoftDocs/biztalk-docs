@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a9de1284-124b-4f0f-a8c9-c67cbc41153a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IPropertyBag.RemoteRead Method

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 45e0bc9a-999b-4a1f-b623-9a9edb95a6e1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # FMI Extension for the Windows Environment

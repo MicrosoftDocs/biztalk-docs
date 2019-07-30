@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4b90721b-8ab0-4207-9e65-6854f7f90124
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Case Discrepancies in Assigned Names

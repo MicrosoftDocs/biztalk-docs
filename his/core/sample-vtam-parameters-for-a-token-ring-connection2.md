@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5909ca74-6ab1-4b5e-8daf-f6721045653f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Sample VTAM Parameters for a Token Ring Connection

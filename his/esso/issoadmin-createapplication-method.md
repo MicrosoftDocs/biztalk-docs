@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8a781803-b0ba-4dfe-b79e-d8d83811a3a5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOAdmin.CreateApplication Method

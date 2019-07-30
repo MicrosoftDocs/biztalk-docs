@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a84cc677-7815-4c63-b8ae-eef1afa8c5b9
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # DataSource Object (OLE DB Provider for Informix)

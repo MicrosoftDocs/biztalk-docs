@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b5136891-0bc4-4772-a37c-e24e01371282
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IcomLUO.Offline Method

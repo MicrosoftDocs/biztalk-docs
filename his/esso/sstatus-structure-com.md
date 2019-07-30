@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 11423eda-2dc8-4733-b667-aa867fa03bbc
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SStatus Structure (COM)

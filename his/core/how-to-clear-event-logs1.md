@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ad18aa7f-af25-4d14-8c68-69fed5f0b77b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Clear Event Logs

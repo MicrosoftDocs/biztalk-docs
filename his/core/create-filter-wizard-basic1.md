@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 367fdfbe-e3a0-4cdd-b070-d5a567097540
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create Filter Wizard: Basic

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4c926357-c90b-4ba0-a582-84d822b8db0d
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Changing the Default Values of the Security Parameters

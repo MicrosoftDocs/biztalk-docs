@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6baae608-dd20-4087-aad0-60e2c79e90ab
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Deployment Overview

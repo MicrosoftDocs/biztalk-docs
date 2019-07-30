@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3561623b-27ac-408c-9639-0413b0176985
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Event Viewer

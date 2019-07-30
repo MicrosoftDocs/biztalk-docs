@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1a45a221-87ee-40e0-8c91-d5d8c5283833
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Viewing Link Service Properties

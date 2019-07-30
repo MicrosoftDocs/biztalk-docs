@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 76b5f548-5bd9-4e0c-8edf-841a4fe98d23
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data for Host Files

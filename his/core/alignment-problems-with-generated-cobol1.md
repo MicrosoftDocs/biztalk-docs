@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b757f5a0-ef53-4c89-8eb3-9311ea67506b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Alignment Problems with Generated COBOL

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 46b7553b-f88a-458c-9873-b3a0bc192654
 caps.latest.revision: 6
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Planning

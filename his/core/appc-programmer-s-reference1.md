@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 92efac1c-9c64-4ca9-accf-cb66ac013857
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # APPC Programmer's Reference

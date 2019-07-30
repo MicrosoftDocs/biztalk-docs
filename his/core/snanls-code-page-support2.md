@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3f3dec40-5306-405c-82bf-ed163266f7a3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNANLS Code Page Support

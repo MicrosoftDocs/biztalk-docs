@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 44ac6268-2726-4426-8a45-0b445acf3a15
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Value Parsing

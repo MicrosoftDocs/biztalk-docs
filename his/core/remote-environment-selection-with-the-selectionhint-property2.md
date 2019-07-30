@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4cd3c73d-282c-4c04-8107-a570ed56beb1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Remote Environment Selection with the SelectionHint Property

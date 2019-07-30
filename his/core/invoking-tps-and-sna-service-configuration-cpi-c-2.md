@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3efe0eda-832c-4c23-8a90-2dedacdd70ff
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Invoking TPs and SNA Service Configuration (CPI-C)

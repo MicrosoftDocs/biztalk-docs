@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 92323b92-79a9-4ad4-a231-e7f105956254
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Application Localities

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: de9de8d0-d058-4e1b-9b07-8e1673d50422
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Mainframe Authentication for CICS LINREs

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4b73243c-a457-4193-aafe-1dda6bbbeaba
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Network Integration Security Guides

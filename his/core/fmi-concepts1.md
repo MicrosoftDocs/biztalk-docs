@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 819a379a-4c4c-44b7-b7d5-30dc1928967f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # FMI Concepts

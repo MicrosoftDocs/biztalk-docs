@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ee87dbd7-4c57-442b-863a-94a0da51000f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # CSV Extensions for the Windows Environment

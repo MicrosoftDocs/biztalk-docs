@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: cf666c62-b34d-40f7-9824-f162bb92dafd
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Excel as a data source - HIS

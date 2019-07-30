@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 808e7265-ce85-41b9-9b3f-6a9441c1c489
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Populate a Host File Dataset from the Data Adapter

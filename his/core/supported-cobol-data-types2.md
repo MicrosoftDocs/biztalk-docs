@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 28a4da9e-4461-407b-8595-b8bdf33dfa42
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Supported COBOL Data Types

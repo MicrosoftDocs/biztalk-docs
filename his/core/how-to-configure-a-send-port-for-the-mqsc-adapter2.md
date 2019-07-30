@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 56848859-c2af-4bc2-9b44-b0dde53de6ff
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Configure a Send Port for the MQSC Adapter

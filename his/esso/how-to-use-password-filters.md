@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 88c785d8-ba54-4505-836f-eabb1ddef30f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Use Password Filters

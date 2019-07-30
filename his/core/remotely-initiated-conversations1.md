@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d83968ce-0e52-45e1-8360-5771bcb5660d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Remotely Initiated Conversations

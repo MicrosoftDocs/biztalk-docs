@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 3e53356d-a32f-475f-a0e0-b8247cb8a8c8
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Import COBOL Source File Wizard Page

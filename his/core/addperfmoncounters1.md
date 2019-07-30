@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8c8adb4e-34d7-4a7e-a942-b256679a9cfc
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # AddPerfmonCounters

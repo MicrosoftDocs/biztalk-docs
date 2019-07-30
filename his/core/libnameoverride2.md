@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5a2ffa81-0ac8-412b-ac05-5994257751b0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LibNameOverride

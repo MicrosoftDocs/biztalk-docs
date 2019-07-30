@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: dcf44507-fcb0-41c5-ad77-9f40cf7105ac
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Parameter Name Node (.NET)

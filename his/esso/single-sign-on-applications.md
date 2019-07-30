@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 90643fd3-7228-4dc1-8219-96ab4f25c758
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Single Sign-On Applications

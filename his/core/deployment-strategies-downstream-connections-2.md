@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2849aa37-8a8f-444e-9071-bf97e1adc9e8
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Deployment Strategies (Downstream Connections)

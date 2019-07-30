@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 28f127af-5494-4915-80c3-62ddb39b7a13
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Close a Connection with the Host File Adapter

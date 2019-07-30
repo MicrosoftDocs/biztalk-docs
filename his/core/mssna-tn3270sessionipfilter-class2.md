@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 47f2b3ba-b9e4-4a0c-98c3-e81c5c638cd9
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_TN3270SessionIPFilter Class

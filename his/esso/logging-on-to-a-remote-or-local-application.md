@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a33b61ff-7105-43a8-a343-99b9a1fff786
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Logging on to a Remote or Local Application

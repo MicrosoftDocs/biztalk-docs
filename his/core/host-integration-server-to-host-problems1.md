@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6dfd5db7-14ae-4e07-ac40-94deced07132
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Integration Server to Host Problems

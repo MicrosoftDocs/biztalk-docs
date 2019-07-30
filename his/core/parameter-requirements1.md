@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: dd2e2c14-e570-484f-aa4d-da68a212fdea
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Parameter Requirements

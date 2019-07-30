@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e5060a68-b61b-4aaa-8253-34a0d8f7e48b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Programming Windows-Initiated Processing

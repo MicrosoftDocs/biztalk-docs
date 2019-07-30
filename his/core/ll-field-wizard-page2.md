@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 89078e7f-bc1b-4c9f-8678-be425496bf8d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LL Field Wizard Page

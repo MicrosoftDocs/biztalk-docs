@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 803bb2c1-38fe-4963-a2ca-70531f43725d
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Choosing the Appropriate Programming Model

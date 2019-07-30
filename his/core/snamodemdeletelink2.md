@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 225b2398-93ff-4893-b391-227f75804174
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNAModemDeleteLink

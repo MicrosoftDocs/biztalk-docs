@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b04ce26b-ee2e-49ee-9a22-94737763af57
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # APPC

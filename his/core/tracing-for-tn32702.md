@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8d6b4404-8bcd-40e0-b903-284b6d30f06c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Tracing for TN3270

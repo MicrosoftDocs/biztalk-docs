@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 04a42eb9-2e45-4cfd-9d89-c517a716d124
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host-Initiated Processing

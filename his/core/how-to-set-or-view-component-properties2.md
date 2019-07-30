@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d1ae824e-3d91-4ac9-9c3f-8f5e54787f10
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Set or View Component Properties

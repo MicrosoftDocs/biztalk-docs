@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4e160d2e-6a32-4ba7-84c1-b8bbead5e3de
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Named Pipes Clients

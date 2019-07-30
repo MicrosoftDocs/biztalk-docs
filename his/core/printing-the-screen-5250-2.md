@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 35ca7d1e-a98e-40c3-aed1-d9a7638fea28
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Printing the Screen (5250)

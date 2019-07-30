@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8c72594b-d02d-47b9-bf16-503cc3fabd50
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Providers for Host Files

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 32d0c822-78a1-48ce-927d-730afa4a846d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Converting Data Types from OS/390 COBOL to Automation

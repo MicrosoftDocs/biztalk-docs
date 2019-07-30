@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 655174b2-5f39-4337-a30b-231303e1ac40
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOConfigSS Methods

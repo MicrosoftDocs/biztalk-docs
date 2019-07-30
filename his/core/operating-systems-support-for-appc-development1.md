@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: afc1a12c-352b-4af1-8d15-7579f8bd9178
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Operating Systems Support for APPC Development
