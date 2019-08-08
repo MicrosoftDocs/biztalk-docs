@@ -21,7 +21,7 @@ In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md
   
 1. If necessary, activate BizTalk Editor for the schema to be saved by clicking the appropriate tab at the top of the main editing window in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
   
-2. On the **File** menu, click **Save *\<Name of Schema\>***.  
+2. On the **File** menu, click **Save _\<Name of Schema\>_**.  
   
     If the schema had unsaved changes, its name as displayed on the tab at the top of the main editing window will no longer end with an asterisk (*), which is used to indicate unsaved changes.  
   

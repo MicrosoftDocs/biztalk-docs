@@ -52,7 +52,7 @@ Overview of the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md
 
 2. Back up the [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] databases and your HL7 message schemas.  
 
-3. Back up any files under the ***\<drive\>*:\Program Files\Microsoft BizTalk Accelerator for HL7** folder that you have changed. For example, back up files in the SDK.  
+3. Back up any files under the **_\<drive\>_:\Program Files\Microsoft BizTalk Accelerator for HL7** folder that you have changed. For example, back up files in the SDK.  
 
 4. Install the appropriate update for your version of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]:  
 
