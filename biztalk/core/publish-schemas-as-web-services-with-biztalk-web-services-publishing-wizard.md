@@ -37,7 +37,7 @@ You use the BizTalk Web Services Publishing Wizard to publish schemas as a Web s
   
    -   The root node to the tree (Web service description) describes the Web service project name. The virtual directory name uses the root node as the default name. You can modify the Web service description by selecting **Rename web service description**.  
   
-   -   To add a new Web service, right-click the **Web service description** node, and then click **Add web service**. This creates a new Web service without any Web methods. To modify the name of the Web service, right-click the Web service node, and select **Rename web service**,and then press Enter to accept the new name.  
+   -   To add a new Web service, right-click the **Web service description** node, and then click **Add web service**. This creates a new Web service without any Web methods. To modify the name of the Web service, right-click the Web service node, and select **Rename web service**, and then press Enter to accept the new name.  
   
    -   To add a new Web method, right-click the Web service node, point to **Add Web Method**, and then click **One-way** (for a request Web method) or **Request-response** (for a request-response Web method) from the shortcut menu.  
   
@@ -62,7 +62,7 @@ You use the BizTalk Web Services Publishing Wizard to publish schemas as a Web s
    |SOAP Parameter Style|Wrapped|This option specifies how parameters are formatted in a SOAP message. For more information, see SoapParameterStyle Enumeration at [http://go.microsoft.com/fwlink/?LinkId=62259](http://go.microsoft.com/fwlink/?LinkId=62259).|  
    |Conformance Claims|None|This option specifies the Web Services Interoperability (WSI) specification to which the binding claims to conform. For more information, see WebServiceBindingAttribute.ConformsTo Property at [http://go.microsoft.com/fwlink/?LinkId=193064](http://go.microsoft.com/fwlink/?LinkId=193064).|  
    |Conformance Claims|WS-I Basic Profile 1.1|This option specifies the Web Services Interoperability (WSI) specification to which the binding claims to conform. For more information, see WebServiceBindingAttribute.ConformsTo Property at [http://go.microsoft.com/fwlink/?LinkId=193064](http://go.microsoft.com/fwlink/?LinkId=193064).|  
-   |Force Request Response|[Default]|This option specifies whether one-way BizTalk operations should be exposed as request-response web methods. Default is not force the on-way flag.|  
+   |Force Request Response|[Default]|This option specifies whether one-way BizTalk operations should be exposed as request-response web methods. Default is not force the one-way flag.|  
   
    > [!NOTE]
    >  The selection any of the SOAP header options are applied globally to all Web services and Web methods created when running this instance of the wizard.  
