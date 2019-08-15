@@ -45,7 +45,7 @@ This topic provides a description of recommended values   that impact network pe
 |Key:|HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters|  
 |Value:|TcpTimedWaitDelay|  
 |Data Type:|REG_DWORD|  
-|Range:|2-300 (Prior to Windows Server 2012 range is 30-300) (decimal)|  
+|Range:|Windows Server 2012 and earlier versions, and Windows 8 and earlier versions: 30-300 Windows Server 2012 R2 and later versions, and Windows 8.1 and later versions: 2-300 (decimal)|  
 |Default value:|0x78 (120 decimal)|  
 |Recommended value:|30|  
 |Value exists by default?|**No**, needs to be added.|  
