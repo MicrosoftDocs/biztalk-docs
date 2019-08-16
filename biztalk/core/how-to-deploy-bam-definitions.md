@@ -45,7 +45,7 @@ Administrators use the **deploy-all** BAM Management utility command to deploy a
   
 1.  Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2.  Navigate to the tracking folder by typing **C:\Program Files\Microsoft BizTalk Server \<version\>\Tracking** at the command prompt. Press **ENTER**.  
+2.  Navigate to the tracking folder by typing **C:\Program Files (x86)\Microsoft BizTalk Server \<version\>\Tracking** at the command prompt. Press **ENTER**.  
   
 3.  Type **bm deploy-all -DefinitionFile:\<BAM definition file\>**.  
   
