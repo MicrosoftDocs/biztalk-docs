@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: d0fef6ea-e7cc-4ea9-936d-5d638bc43feb
 caps.latest.revision: 3
 author: "MandiOhlinger"
-ms.author: "mandia,niklase"
+ms.author: "niklase"
 manager: "anneta"
 ---
 # Post-configuration steps to optimize your environment
