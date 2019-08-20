@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 42bec64b-48b4-4c6d-92d3-dd8d434434cc
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Set_Receive_Type (CPI-C)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 984dc6b5-0f9f-4316-ad72-da6e89ff0996
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Component Localities (SNADIS)

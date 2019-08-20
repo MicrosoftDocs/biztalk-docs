@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b020bea7-7a14-49ea-bb60-e8be7706bad1
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_ConnectionChannel Class

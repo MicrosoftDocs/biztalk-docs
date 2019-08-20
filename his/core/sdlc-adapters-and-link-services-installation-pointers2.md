@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d01dc25c-7aed-466a-a514-8f15320009e4
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SDLC Adapters and Link Services: Installation Pointers

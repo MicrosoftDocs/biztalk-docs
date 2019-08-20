@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 602a14c9-84b6-4eae-88ed-db1200c18958
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TPs with Explicit SYNCPOINT Commands

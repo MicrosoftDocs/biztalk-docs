@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: aa7e551c-572e-4c1e-852b-ca28a0ac27c0
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SLI_PURGE

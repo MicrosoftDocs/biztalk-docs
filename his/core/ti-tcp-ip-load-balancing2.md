@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0e7a19d1-637c-4f5d-a2ad-513d3b54f88e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TI TCP/IP Load Balancing

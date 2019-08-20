@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 91692dc3-f57f-41e8-a250-177987c729c3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # DEACTIVATE_SESSION

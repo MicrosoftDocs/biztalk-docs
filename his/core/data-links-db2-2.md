@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0d24a781-a455-4740-ba3a-92599517e514
 caps.latest.revision: 8
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Links (DB2)
@@ -22,13 +22,13 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  This topic contains the following sections:  
   
--   [Provider](../core/data-links-db2-2.md#Provider)  
+-   [Provider](#provider)  
   
--   [Connection](../core/data-links-db2-2.md#Connection)  
+-   [Connection](#connection)  
   
--   [Advanced](../core/data-links-db2-2.md#Advanced)  
+-   [Advanced](#advanced)  
   
--   [All](../core/data-links-db2-2.md#All)  
+-   [All](#all)  
   
 ## Provider  
  Use the **Provider** tab to select the **Microsoft OLE DB Provider for DB2** (the provider name string) from a list of possible OLE DB providers.  

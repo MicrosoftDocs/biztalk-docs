@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4f1f4d04-eaa1-4746-b324-6401b68f17f1
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Firewall Support Overview

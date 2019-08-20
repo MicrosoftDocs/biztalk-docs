@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 65e4bc53-a118-42f1-8172-3a2580b73799
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Planning 3270 Connectivity

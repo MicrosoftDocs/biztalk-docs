@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7c84ff0b-205a-4578-b8e7-82283ebe8d40
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Windows CPI-C Asynchronous Support

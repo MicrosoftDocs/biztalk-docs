@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8aa90bcb-f0bf-45e0-8907-babc7aebb33c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create a 3270 Application LU (LUA)

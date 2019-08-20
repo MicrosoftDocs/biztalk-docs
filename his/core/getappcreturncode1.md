@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a3abe7c1-14bc-4c02-88b2-382673187510
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # GetAppcReturnCode

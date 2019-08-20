@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2398fce4-22e2-46c4-a789-2eec3b429403
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Connect to and Disconnect from a Host File System

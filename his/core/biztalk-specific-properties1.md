@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f32245c5-0568-408a-9225-148dae793d03
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # BizTalk-Specific Properties

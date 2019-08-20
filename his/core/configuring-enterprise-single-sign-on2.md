@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f0f0ec1d-1c11-4a02-80a5-2025c4125ee3
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring Enterprise Single Sign-On

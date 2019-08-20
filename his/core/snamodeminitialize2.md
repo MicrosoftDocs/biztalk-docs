@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 03127fd0-8be4-4051-a8a3-eab84c7c3257
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNAModemInitialize

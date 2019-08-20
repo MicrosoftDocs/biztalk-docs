@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e3374a4b-829e-4e61-966c-c150893970e5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Activate a Peer Connection (SNADIS)

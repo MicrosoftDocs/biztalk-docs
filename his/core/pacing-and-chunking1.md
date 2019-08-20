@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f8d26db1-aec3-4df9-aa77-7d673ee94619
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Pacing and Chunking

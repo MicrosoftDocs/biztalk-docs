@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 54e89a40-a7dd-40cd-bb9a-63186063cb66
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # CPI-C Functions Not Supported (CPI-C)

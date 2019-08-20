@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 80c18554-aa15-463e-a139-13f25db7d571
 caps.latest.revision: 8
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Install HIS 2016

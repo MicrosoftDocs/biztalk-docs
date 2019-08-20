@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0f27eb2b-0ab3-40de-ae6f-741b98f31ce9
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Managing Password Synchronization

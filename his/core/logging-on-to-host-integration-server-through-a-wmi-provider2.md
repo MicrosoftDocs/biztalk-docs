@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1ab927a6-09fa-4a00-90d9-2ebb7840a43a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Logging on to Host Integration Server Through a WMI Provider

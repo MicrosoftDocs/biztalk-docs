@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e0c91e16-4c57-4d9d-856d-00ce35298f5e
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Logical Unit (LU)

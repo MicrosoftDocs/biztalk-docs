@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8c9f6ebc-d2a7-41d1-b0ef-dbb0d949d380
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUA_COMMON

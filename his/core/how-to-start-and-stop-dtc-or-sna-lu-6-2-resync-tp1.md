@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c35f1acd-d987-4fd6-b6e5-bc34f568c29e
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Start and Stop DTC or SNA LU 6.2 Resync TP

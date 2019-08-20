@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e2b45021-9d76-4e25-bb1b-3e8432d27a77
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNALink Structure (SNADIS)

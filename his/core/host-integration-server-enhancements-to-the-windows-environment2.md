@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 064edc01-b887-4a7c-b0e4-f2dac2dd32ca
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Integration Server Enhancements to the Windows Environment

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 19625d15-884a-4f24-85d4-9f891b06846c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Add or Remove TI Manager for a Remote Computer

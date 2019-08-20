@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c7ff5c44-3fbd-413f-93be-49308f2a1fcc
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Opening the SSCP Connection

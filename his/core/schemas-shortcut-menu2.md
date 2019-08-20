@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 0d34192b-8982-4783-bb08-d32fa75cc2dd
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Schemas Shortcut Menu

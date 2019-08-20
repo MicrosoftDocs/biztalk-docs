@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d79b122e-da1a-459a-8331-154816d7db0a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Retrieve Multiple Result Sets

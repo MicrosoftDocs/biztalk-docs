@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 849bc4f3-e51d-49fc-b2da-104453553158
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # WinCSVCleanup

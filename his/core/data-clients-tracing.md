@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 54c04404-7c81-4c86-94b4-b7ef844cca85
 caps.latest.revision: 6
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Clients Tracing

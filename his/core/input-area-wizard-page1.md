@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: c1972f59-acec-466c-b460-771a4bc3905c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Input Area Wizard Page

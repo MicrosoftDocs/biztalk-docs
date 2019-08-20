@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fbe7c55e-1077-4110-a133-a1b3c3ad1471
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Record-Level Input/Output (RLIO) Protocol Errors

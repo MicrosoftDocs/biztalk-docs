@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d4cbc41a-bdf8-406d-920c-423b9c1ab782
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Providing a Fail-Safe Environment for ACID Transactions

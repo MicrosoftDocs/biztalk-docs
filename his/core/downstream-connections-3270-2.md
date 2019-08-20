@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 64e99e7c-4e17-44fd-bce7-90377b51cb7e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Downstream Connections (3270)

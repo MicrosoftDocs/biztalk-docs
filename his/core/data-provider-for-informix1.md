@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f50b553b-8dd3-4649-aa96-cfc451d442ed
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Provider for  Informix

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f2ed5bd9-e68a-4fc0-a82b-d0ada122e57c
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Use the /print Option

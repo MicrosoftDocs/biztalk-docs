@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1b4b746c-0ae1-4964-84fc-e60c7b29b098
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # View Configuration of Service Accounts

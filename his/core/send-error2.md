@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 790ebf6e-02b6-406b-95af-5350542c210c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SEND_ERROR

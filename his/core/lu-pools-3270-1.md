@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a9093cb1-dbfd-4d37-9f6b-173d6c87c97d
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LU Pools (3270)

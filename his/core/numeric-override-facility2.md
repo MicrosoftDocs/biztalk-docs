@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 44e295a0-69cf-4653-a517-107bd908485b
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Numeric Override Facility

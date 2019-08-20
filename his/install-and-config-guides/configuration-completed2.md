@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 642822f4-2ad7-4e78-907d-9e78ff2a4d7f
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuration Completed

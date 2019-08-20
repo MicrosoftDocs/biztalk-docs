@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c681a94b-8f0d-4d26-a3d5-1f2a486ed450
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Creating a 3270 Connection with a Wizard

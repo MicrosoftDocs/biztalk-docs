@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 25999dd2-b48a-4920-8c48-ef96270f10f3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOMapper.GetFieldInfo Method

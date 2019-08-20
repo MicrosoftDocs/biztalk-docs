@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 07fad27b-353e-46ee-a9de-7cc43ba02386
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Send_Error (CPI-C)

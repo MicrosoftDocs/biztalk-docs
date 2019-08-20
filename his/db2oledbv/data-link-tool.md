@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e94d7c36-bd21-4730-9a91-24cccc9d510f
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Link Tool

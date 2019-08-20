@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 4854936c-6a17-49f1-b076-516d40ffc8a5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Recordsets (COBOL) &amp; UDT Wizard Page

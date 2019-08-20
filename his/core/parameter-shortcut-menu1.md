@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c6942595-1835-494e-863e-a97e863e6b0c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Parameter Shortcut Menu

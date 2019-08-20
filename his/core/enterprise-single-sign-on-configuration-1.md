@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: b8dd04ee-ddb1-441c-84e2-5d378d4f2695
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Use Enterprise Single Sign-On with HIS

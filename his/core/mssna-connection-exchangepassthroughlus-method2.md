@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 39bbe411-74e7-4229-a1d0-4145ac1afda0
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_Connection.ExchangePassthroughLus Method

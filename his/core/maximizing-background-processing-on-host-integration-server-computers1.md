@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d93b7ab4-2d78-4727-acaf-a680429c3689
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Maximizing Background Processing on Host Integration Server Computers

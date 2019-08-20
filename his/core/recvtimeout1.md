@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e1dc4561-7051-4e0a-a9f5-a61cfdb929e8
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # RecvTimeOut

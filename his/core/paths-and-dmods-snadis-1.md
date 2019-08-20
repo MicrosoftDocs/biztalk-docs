@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f4772aed-51c5-4a59-870a-14269b6facd3
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Paths and DMODs (SNADIS)

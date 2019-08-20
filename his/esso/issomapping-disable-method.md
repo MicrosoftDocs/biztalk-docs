@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ce83abde-52e1-4d9e-92f9-e1f89e8a4272
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOMapping.Disable Method

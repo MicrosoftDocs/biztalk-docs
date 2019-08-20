@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 93e022b8-e7f6-46d7-8de1-fe235db17a6e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Useful Performance Counters

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 614f9129-4f8f-4e3e-9f33-b23fe4e26122
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Confirmation (CPI-C)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1f567716-f860-429b-ae4e-51130eb770b9
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsHisTrace_Config Class

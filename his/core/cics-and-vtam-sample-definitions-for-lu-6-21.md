@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b1bbc153-a25d-461b-9b02-748ece9d89cb
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # CICS and VTAM Sample Definitions for LU 6.2

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 70852e7a-8b0d-45d8-9aa9-d90852d3aaac
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Enhanced Listener CICS Administration

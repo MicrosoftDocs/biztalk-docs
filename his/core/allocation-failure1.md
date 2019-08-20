@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c9512006-ac5d-4f2e-afb3-3787983dd794
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Allocation Failure

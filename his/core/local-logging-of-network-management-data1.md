@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e6736b9b-2d9d-4a16-9326-605938cff374
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Local Logging of Network Management Data

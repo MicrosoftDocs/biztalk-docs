@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 44713863-f0fc-42a4-8573-4003afa98344
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Common APPC Return Codes

@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: d509dc85-924b-4e6e-bdd5-c7a2f50024f2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Method Properties

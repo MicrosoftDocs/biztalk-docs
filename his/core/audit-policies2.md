@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 312017e8-3973-4345-adfe-a8ca6cd95bc1
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Audit Policies

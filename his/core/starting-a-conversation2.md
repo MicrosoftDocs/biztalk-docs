@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 50ab17ce-0e18-483f-89ee-a5333bd96840
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Starting a Conversation

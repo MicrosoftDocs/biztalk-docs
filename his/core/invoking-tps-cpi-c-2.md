@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 212388b4-9c9c-4f5a-be1b-200746078203
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Invoking TPs (CPI-C)

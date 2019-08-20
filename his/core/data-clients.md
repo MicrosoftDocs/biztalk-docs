@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b035d34b-d649-49eb-8ba3-ef7672742161
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Clients

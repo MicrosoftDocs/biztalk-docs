@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f39c72de-272e-4d61-ac14-1acc7d62cb0d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Open(PLU)

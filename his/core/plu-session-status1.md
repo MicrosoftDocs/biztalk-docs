@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 829cebfb-deea-452a-af8f-ce9976e6f08c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # PLU Session Status

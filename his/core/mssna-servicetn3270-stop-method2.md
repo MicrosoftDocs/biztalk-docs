@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0536a289-b523-43fe-9754-a495e6695f14
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_ServiceTN3270.Stop Method

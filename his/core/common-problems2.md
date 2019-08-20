@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 40adc313-75db-48c6-b61c-61688f4cae4f
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Common Problems

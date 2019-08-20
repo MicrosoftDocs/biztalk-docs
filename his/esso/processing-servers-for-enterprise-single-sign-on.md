@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8a4f35cf-8ad1-4965-b2b0-46e0e422bca9
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Processing Servers for Enterprise Single Sign-On

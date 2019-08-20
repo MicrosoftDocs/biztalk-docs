@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f2858d23-10fe-4cb4-a8dc-0f968a37fe78
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Client-Based BizTalk Adapter for WebSphere MQ Programmer&#39;s Guide

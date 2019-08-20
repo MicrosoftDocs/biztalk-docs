@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 13cb8205-33bb-4a4a-b330-25e309bfe6ca
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # An Example of a Mapped Conversation

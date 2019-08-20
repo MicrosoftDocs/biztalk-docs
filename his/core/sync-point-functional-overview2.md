@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 46064ad1-d4ae-4c43-b146-077e893726d3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Sync Point Functional Overview

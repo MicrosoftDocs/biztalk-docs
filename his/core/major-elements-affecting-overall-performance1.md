@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0cfacd3d-d95b-4865-ab75-dd05f8ba5804
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Major Elements Affecting Overall Performance

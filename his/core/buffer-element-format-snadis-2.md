@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5368ec90-5429-4118-9c62-1d9d9ade2b0b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Buffer Element Format (SNADIS)

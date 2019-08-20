@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 00f22a20-85d4-463a-8da5-54bbe447363e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TP Name Not Unique; Local LU Alias Unique (CPI-C)

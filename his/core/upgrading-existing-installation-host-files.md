@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8082c641-4725-4c95-8997-a1953700d616
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Upgrading Existing Installation (Host Files)

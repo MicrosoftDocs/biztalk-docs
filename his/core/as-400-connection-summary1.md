@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a2cb4c72-b039-403f-b5ee-56d1fb178f0d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # AS/400 Connection Summary

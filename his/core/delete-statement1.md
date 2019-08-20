@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 1aa87c7e-e0f4-4340-8cf6-17cdcdc4b998
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # DELETE Statement

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fe6927a4-dc84-4a1b-897f-7ef7499b7575
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Understanding the Schema Collections for the Managed Provider for DB2

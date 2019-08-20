@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 9f480f39-0baf-4929-a5ce-c9cb2aa066f4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Boost Application Performance with Windows

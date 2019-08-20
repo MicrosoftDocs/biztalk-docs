@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4ec9e26f-a0c0-4ec5-8a36-6d6cbd91e5e7
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IcomLUO.GetProperty Method

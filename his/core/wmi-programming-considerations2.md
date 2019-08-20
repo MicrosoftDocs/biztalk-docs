@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 9ec4dfa4-1fa6-41ea-8cb8-e14b3bab5c2c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # WMI Programming Considerations

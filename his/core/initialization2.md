@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 00f05d84-c6da-4945-9e04-4d5c26bb7cc1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Initialization

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0f6aa7e2-86f5-45e3-ba16-308120fc4759
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSnaStatus_EventAppcLocalLu Class

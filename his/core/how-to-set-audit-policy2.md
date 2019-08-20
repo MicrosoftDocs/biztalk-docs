@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0cb836ad-38ef-48c7-a353-e9a1fb2e29f9
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Set Audit Policy

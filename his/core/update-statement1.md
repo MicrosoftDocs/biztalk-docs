@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b9fcdf21-60e9-4be2-84a0-de21804e5e08
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # UPDATE Statement

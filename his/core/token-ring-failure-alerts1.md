@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 61cea5f8-3c74-41a1-8a25-afc466fefd79
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Token Ring Failure Alerts

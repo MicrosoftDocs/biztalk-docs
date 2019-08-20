@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e90edf34-82d7-467c-ab7d-cd3ab04e5457
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Sample Source Text File

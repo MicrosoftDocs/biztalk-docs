@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 48d9719e-de94-4faf-9af1-55d9b75c6cc7
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Variably Sized Data

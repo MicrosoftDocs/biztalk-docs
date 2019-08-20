@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 100acde9-f482-4812-8fd2-c0c477317d81
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Use Direct Password Sync

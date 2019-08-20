@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f85680e3-ae4c-4bf0-9613-c56a29226468
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Troubleshooting for Invokable TPs (CPI-C)

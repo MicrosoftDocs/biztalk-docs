@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 26f9c350-eaa7-455f-9f78-2fc1072318e0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Name Conflict Dialog Box

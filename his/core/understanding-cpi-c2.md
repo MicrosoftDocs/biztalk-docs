@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0f76cc28-051a-45ff-890c-84c1865029ca
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Understanding CPI-C

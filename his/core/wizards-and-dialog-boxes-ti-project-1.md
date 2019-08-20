@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: cd56b965-c2ec-4ecc-9b25-fd2918642bed
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Wizards and Dialog Boxes (TI Project)

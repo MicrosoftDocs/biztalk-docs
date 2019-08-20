@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6c0df885-1415-405e-8619-49e24e817535
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Open Systems Code Page Support (SNANLS)

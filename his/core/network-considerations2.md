@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 9ca1a1f9-fac2-4455-ab0d-521afa91af0e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Network Considerations

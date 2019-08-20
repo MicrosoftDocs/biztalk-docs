@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b5e5f933-31eb-4840-a637-ba13200f70e1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # PrtFilterFree

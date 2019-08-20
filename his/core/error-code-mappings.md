@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 719997da-0185-4a2a-af42-c23d8f24cdbb
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Error Code Mappings

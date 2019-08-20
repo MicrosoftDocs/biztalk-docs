@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 904a0a09-633f-4b0a-a24e-e966830d29ae
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # PrtFilterAlloc

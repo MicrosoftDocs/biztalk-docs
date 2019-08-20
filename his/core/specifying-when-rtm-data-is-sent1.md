@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5a989286-9dac-4932-b3c8-ae06d20d063a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Specifying When RTM Data is Sent

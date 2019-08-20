@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bc20b5aa-01bc-4524-b00a-d5b776d64928
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Status-RTM Message

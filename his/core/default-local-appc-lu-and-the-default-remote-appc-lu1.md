@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ec30bdb6-838e-4639-b0b1-40db662955f3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Default Local APPC LU and the Default Remote APPC LU

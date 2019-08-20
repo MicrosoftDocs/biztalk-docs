@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 539b4def-d35c-4888-9e94-9a86f4a5f375
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Generate the Master Secret

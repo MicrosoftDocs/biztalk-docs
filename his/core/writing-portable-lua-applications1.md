@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a0ee110a-95e2-4821-8f9a-efc3b8039c68
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Writing Portable LUA Applications

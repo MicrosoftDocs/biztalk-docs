@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 60d0f112-18cc-49b5-a85c-905b80fd2b30
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # FILLER for Discontiguous Output Area and Return Value

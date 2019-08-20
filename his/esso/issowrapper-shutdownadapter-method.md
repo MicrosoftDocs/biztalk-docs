@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 23f0668f-9c57-4f3d-b032-924d5f53e3cb
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOWrapper.ShutdownAdapter Method

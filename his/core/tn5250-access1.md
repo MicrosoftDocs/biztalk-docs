@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2892942d-dbb8-4610-8e5b-86e95f10d981
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TN5250 Access

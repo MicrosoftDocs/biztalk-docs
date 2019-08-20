@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c04d4748-22d2-41be-b5eb-95dd87f41b44
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Transaction Integrator Manager Console

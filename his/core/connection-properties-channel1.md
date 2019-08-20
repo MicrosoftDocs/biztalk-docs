@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 5289c8d5-6718-48cb-88e4-d3174df83ae9
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Connection Properties: Channel

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 82077160-f96b-4157-9714-5291b35bebe1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Choosing Client/Server Network Protocols

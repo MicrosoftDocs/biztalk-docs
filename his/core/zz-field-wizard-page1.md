@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 2681a1be-36eb-442c-882a-3bbf035a0a9e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ZZ Field Wizard Page

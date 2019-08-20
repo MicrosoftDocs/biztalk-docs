@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5136454e-64f9-412d-a6b3-b43677292108
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SSO with Encrypted Passwords

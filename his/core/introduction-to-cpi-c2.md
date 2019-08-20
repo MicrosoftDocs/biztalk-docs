@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 97a24ed4-229b-4ed1-952e-cff9dc6df2d8
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Introduction to CPI-C

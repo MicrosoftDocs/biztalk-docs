@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: dfeebbb7-0ad0-4949-9b81-88000a45f7a1
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Office data sources

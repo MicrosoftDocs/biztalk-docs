@@ -151,10 +151,10 @@ The following recommendations can be used to increase [!INCLUDE[btsBizTalkServer
 1. Stop the BizTalk host instance.  
   
 2. Click **Start**, click **Run**, type **regedit.exe**, and then click **OK** to start Registry Editor.  
-   Navigate to **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTSSvc$**<em>hostname</em>] where *hostname* is the name of the host associated with the host instance.  
+   Navigate to **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTSSvc$**<em>hostname</em> where *hostname* is the name of the host associated with the host instance.  
   
    > [!NOTE]  
-   >  If you have upgraded your BizTalk Server 2006 installation from BizTalk Server 2004, this registry key may be represented as **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTSSvc***guid*] where *guid* is a GUID unique to each instance of a BizTalk Server host.  
+   >  If you have upgraded your BizTalk Server 2006 installation from BizTalk Server 2004, this registry key may be represented as **HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\BTSSvc**_guid_ where *guid* is a GUID unique to each instance of a BizTalk Server host.  
   
 3. Locate the **CLR Hosting** key. If this key does not exist, then create the key by following these steps:  
   

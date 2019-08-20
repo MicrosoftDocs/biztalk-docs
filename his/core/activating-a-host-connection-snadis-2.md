@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8d4a69bd-1cc1-4cf3-aea5-3f6eb2e12f72
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Activating a Host Connection (SNADIS)

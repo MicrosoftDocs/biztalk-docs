@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c5e52fe3-2f74-4cbc-b706-4a702bbb8bc9
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Session Integrator for TN3270

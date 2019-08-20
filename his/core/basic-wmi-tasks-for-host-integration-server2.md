@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0197dece-a9b9-4859-8eab-28852262e911
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Basic WMI Tasks for Host Integration Server

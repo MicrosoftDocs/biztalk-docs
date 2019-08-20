@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bc367394-9df1-4914-9ed2-e8ab9293cf65
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Additional Information About NetView and RTM

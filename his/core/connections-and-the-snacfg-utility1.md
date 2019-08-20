@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2897a23d-5516-47d6-ad32-adcda1cfe223
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Connections and the SnaCfg Utility

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 529cde95-b0aa-4ead-a717-23fb7fd84fdb
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Flush (CPI-C)

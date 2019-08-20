@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ab963709-3ca8-4c5d-927f-8b801cb9326b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Zoned Decimal or Packed Decimal Data Types

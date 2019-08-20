@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6559044e-b726-4619-b812-102f8f43c4cd
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Sample TPs Illustrating Fundamental Concepts

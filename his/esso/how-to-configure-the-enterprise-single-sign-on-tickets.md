@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4650ce49-1d02-4ce5-841c-ad4262d60e9b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Configure the Enterprise Single Sign-On Tickets

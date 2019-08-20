@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 73bdc381-5029-4641-835f-2bbd4c179292
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # AS/400 (APPC) Printing

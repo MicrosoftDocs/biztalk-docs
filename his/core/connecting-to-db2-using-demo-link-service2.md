@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 854026b7-f989-4aa4-a9f6-677e3bd4de35
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Connecting to DB2 using Demo Link Service

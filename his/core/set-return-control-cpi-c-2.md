@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 4ebdba9c-fca0-4605-8357-9f1c16a9f733
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Set_Return_Control (CPI-C)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c93129ac-b4ca-413e-a612-52a2cc4caaa0
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MsSna_Cpic Class

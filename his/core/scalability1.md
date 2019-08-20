@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e3bfa2ed-5c01-447b-be47-8847f537c8fd
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Scalability

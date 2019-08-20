@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 68e0c19b-eeb8-4254-91aa-5be518b5fcf5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Set the Enterprise SSO Server Using the Client Utility

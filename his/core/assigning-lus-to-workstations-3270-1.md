@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8bab45c6-7dbc-44ca-b3ac-257680c1b81f
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Assigning LUs to Workstations (3270)

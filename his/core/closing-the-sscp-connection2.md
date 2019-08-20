@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 29cce4c0-62d0-4fad-8dd3-60e15843ff1d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Closing the SSCP Connection

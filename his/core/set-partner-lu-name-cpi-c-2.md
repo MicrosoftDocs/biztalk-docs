@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0eb8d60e-6c7b-4e4a-8a4e-036b3dec4e90
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Set_Partner_LU_Name (CPI-C)

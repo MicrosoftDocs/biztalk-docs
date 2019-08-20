@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 3cc088aa-14ce-4a62-93f2-6ebfc580edef
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Get started with message integration - HIS

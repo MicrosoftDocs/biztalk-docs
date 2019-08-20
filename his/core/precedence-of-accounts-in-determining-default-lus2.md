@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 61361beb-5d80-4cb4-be55-f2708422b2c9
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Precedence of Accounts in Determining Default LUs

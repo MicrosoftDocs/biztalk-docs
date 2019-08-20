@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ddc839de-ad90-42f9-8660-5d9784dc0cda
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Bounded Final Fields

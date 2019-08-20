@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e0af0932-c1e6-4663-897b-e86549ed1acb
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to List User Mappings

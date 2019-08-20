@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ac4e5c7f-eed8-49d2-83a8-c3dbf83c41dc
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Outbound Chaining

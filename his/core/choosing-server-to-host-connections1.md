@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f93fd89f-4ef4-47d4-8345-51cb31ba3179
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Choosing Server-to-Host Connections

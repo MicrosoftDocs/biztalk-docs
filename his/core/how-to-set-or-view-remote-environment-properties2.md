@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 426d6895-62d4-4b69-a9e3-8686843b3bff
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Set or View Remote Environment Properties

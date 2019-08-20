@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 24b8b9af-f453-4751-b6f6-79810690f2b8
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Import RPG Source File Wizard Page (Host Files Designer)

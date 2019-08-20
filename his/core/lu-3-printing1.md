@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 82b4218d-d668-4e1c-b887-fa8f5dc9df47
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LU 3 Printing

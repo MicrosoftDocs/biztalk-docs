@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: df8c16a8-4b38-4453-9558-1a00a6ec6695
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Maximizing Communications Performance

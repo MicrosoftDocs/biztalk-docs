@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e74f3836-df66-4ac7-9d75-8e78255ccd0e
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # DataTable Shortcut Menu

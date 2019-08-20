@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bb19d081-0cbb-4357-87d8-ce310b64cf90
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Connecting to a Host Application

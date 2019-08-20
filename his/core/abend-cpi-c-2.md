@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 48b2fa39-3cea-47c0-9c41-c37acc25b872
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ABEND (CPI-C)

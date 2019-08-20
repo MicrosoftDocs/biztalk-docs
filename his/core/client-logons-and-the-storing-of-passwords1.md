@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c775bd7e-8bc0-48a5-9685-fdf88c88ec80
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Client Logons and the Storing of Passwords

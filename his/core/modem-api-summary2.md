@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 13f42b3b-9ced-42b8-be10-b52b8d949b06
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Modem API Summary

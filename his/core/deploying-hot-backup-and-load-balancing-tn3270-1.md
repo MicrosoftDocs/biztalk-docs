@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c0dda96d-0d0e-4b10-b219-b6f6a4336602
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Deploying Hot Backup and Load Balancing (TN3270)

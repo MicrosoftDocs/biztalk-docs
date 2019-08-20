@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f419b19a-ed95-4c59-a7ec-d216379b85e5
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Use REDEFINES in COBOL

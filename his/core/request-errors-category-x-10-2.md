@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b99f3f2d-00b0-4df3-b8f1-07cbbf14b021
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Request Errors (Category X&#39;10&#39;)

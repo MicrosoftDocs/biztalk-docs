@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d46d6c66-8028-4454-bf46-7b7b03ab11bc
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Secure your network integration

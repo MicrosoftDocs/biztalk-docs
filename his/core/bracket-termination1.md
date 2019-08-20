@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: aec6f71c-ea29-4337-9b18-a0554be48858
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Bracket Termination

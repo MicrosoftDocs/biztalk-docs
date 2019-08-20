@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 434d1eaf-20ae-4f1d-be34-310b19b2f58c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # CPI-C Symbolic Name: General

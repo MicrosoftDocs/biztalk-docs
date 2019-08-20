@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 46739014-e868-407c-ae6d-c5b7fc656c97
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Type Conversion

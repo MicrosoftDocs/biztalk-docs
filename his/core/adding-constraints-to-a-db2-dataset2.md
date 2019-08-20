@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2513167e-014a-4013-9aa2-bcbd955e6cff
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Adding Constraints to a DB2 DataSet

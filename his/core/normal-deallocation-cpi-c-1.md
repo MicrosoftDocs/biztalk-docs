@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: cb0231d4-e731-4974-ac5d-3795bb016b2b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Normal Deallocation (CPI-C)

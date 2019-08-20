@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 29ec253a-759d-414a-a9a3-ef43d8bff039
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # WIP Programming Model

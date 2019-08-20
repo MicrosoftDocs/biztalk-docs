@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fd2b95d3-9e83-4b8c-ba3a-a99923fbac1a
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Trace Viewer

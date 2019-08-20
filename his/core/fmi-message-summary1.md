@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ea7ec569-240b-4c7c-9926-40b26ca46621
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # FMI Message Summary

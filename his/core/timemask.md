@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: afda2f39-4a9b-48e0-aad5-78999bc8912d
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # timeMask

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 71a8bd3b-441f-4992-9d3f-dc0d27083862
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # WinCPICUnhookBlockingHook

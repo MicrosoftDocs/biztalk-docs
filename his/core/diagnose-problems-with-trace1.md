@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d9ab10d2-f34e-4680-bad1-ea539359b053
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Diagnose Problems with Trace

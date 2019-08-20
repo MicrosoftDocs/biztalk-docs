@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e64547c2-124c-4503-8b2b-963e38fda53d
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TP Name Unique for Each TP (Transaction Programs)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bc785b73-64a5-470d-971c-c60bf82492a3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Message Descriptor Properties

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8422ce4f-b031-4e3a-a6dd-8f0fd3cbc76c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUA Common Return Codes

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fe26ec67-8ecd-4f52-850b-574d241148d5
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNA Print Server Data Filter Programmer&#39;s Reference

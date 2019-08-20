@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 814ac94d-9bc0-450c-81d1-9a6c37df35b7
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Additional Sync Point Return Codes

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 28ff7f84-953e-44de-8f58-ccd15f28697e
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Password Sync Adapter Properties: Accounts

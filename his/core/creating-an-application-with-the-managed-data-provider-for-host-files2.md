@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3c368678-ac64-4ac2-a33b-a82603a160e2
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Creating an Application with the Managed Data Provider for Host Files

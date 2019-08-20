@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7b5f936c-a0cf-47aa-adc0-2130a74ac7d2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Connect with an MsDb2Connection

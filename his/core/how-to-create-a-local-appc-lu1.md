@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: dadae4a3-1b5b-4b77-b6ad-0bb0a3917e17
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create a Local APPC LU

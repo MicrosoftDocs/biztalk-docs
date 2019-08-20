@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e7e4f07d-4776-49dc-acfc-5f0e9173e3af
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # sbpuinit

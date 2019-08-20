@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 51e5ff81-f0ae-4fda-b821-6787c45e9a8b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Discriminant Value Table Dialog Box (Host File Designer)

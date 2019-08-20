@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 205b704c-e0e9-49a2-b293-1eddf692d1bb
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LUA Verbs

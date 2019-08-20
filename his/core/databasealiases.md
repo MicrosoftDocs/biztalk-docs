@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8f681471-99c1-4ab2-a7c8-e8da4dd26bad
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # databaseAliases

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 9446d298-27c9-4042-b7eb-3d3defee9910
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Precedence of Accounts in Determining LU Access

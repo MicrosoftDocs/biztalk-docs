@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 648a3e0f-2135-44f5-857d-3ab58bb3b0cd
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TP Name Not Unique; Local LU Alias Unspecified (SNA)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: aaf86a15-6ede-4fa0-b736-42ed411b4feb
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Disable Enterprise Single Sign-On

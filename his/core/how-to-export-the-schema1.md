@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c19925ac-e39e-4679-b3c5-46496101398d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Export the Schema

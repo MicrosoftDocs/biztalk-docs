@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fe0387e3-97ee-4053-b242-0068db2a90e0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Receiving Data Asynchronously

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8b6534a4-0bdd-4e2c-ac10-7472a22a785b
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOWrapper Methods

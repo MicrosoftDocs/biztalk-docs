@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f8cfd3a5-e7a6-4d97-9661-9c8d49a0b6f0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Change the Master Secret Server

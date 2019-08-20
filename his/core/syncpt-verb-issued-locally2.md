@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0feadb9a-26ee-4c2a-95a5-43f65a722579
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SYNCPT Verb Issued Locally

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 698ebac6-1126-4cf7-b742-8b2cfc6cc66b
 caps.latest.revision: 11
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring Trace Listeners

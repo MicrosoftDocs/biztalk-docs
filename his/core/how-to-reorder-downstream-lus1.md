@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a75a8d60-6f8e-4a1b-8eb4-b2b698bbea90
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Reorder Downstream LUs

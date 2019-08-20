@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e7490ee8-e237-4399-84f4-aa918b7b9d84
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Prepare_To_Receive (CPI-C)

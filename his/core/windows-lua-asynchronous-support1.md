@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 50d4398d-1886-4330-8e4c-dedc494c5263
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Windows LUA Asynchronous Support

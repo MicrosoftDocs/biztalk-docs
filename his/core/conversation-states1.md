@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7b52ce78-16ae-4957-b97f-53656ee49c82
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Conversation States

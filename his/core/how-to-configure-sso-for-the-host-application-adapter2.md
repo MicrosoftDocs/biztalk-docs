@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 29b5f028-49ec-4640-8200-678711fcbc4d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Configure SSO for the Host Application Adapter

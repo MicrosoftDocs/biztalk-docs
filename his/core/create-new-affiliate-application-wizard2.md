@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 30349926-2c2c-4cdf-9a33-9d731c06426b
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Create New Affiliate Application Wizard

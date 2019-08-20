@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 64b020b6-8cc7-4bc1-9bb6-725524dff048
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Icom3270.getField Method

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 25e49a59-b271-45a4-936c-cf01eed0f400
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Print Tracing Problems

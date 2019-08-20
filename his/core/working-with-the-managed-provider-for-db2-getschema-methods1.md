@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f137ffb1-e9fa-4095-8382-3886c4de7754
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Working with the Managed Provider for DB2 GetSchema Methods

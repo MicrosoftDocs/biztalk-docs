@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 33876bcf-2d0e-4900-9f24-2dcc04be3046
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Configure a 3270 Downstream LU

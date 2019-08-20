@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 53a73515-a68d-471a-a1bf-c5279a91ca18
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ALLOCATE

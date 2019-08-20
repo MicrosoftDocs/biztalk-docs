@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c8570437-dca3-498d-b46e-217a1d056f0f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Extract_Sync_Level (CPI-C)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 72ced032-e356-46aa-8c5c-3380875f7e90
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create a Remote APPC LU

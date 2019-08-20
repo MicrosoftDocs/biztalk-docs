@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bc4b1593-9301-423e-b515-a6a59230e78f
 caps.latest.revision: 6
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Server to Server Migration

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d5d4c58b-8fb9-44c4-991e-41c4431864e6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # AS/400 5250 Terminal Connections

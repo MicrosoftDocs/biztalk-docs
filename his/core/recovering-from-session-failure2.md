@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7d5624d8-6220-4565-860d-dab05cdabe91
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Recovering from SESSION_FAILURE

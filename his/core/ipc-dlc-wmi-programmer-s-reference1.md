@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5498731a-3ee4-4533-bd31-004425462b31
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # IPC-DLC WMI Programmer&#39;s Reference

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7efe60ae-0e57-4fde-bbfa-25dc03881810
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Working with TI Designer

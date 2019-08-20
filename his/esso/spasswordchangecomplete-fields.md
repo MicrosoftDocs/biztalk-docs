@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d717acd4-c15b-4421-a390-c43c7dcb7cd3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SPasswordChangeComplete Fields

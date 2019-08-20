@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: df70b0e4-659c-4518-87f8-e0f2ff97c2d9
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Confirmation and Rejection of Data]

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e780e5f3-1632-434d-91a0-4e517b50ebab
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Choosing a Connection Type

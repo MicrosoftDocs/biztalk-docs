@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 77122cbb-9d1f-4412-812a-234e465e1916
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Create a BizTalk Project

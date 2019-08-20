@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fc097367-936c-4e47-bd1a-43176c7c5a2d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TN3270 Emulator

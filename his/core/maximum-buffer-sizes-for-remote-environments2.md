@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ac05c5aa-5ecd-4138-baa2-6b07797fe3e0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Maximum Buffer Sizes for Remote Environments

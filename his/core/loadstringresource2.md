@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5a43db83-c2ca-452b-9371-ce6ff967efd7
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LoadStringResource

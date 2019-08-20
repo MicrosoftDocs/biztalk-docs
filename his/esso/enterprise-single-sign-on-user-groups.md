@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3267a756-3556-4a9c-af68-6cbe382059f9
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Enterprise Single Sign-On User Groups

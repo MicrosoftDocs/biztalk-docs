@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7afe4c2a-c839-4885-afa0-55c7373f7c9c
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Security

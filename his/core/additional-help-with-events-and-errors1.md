@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: db610680-724f-46ca-8f88-595d8da4c557
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Additional Help with Events and Errors

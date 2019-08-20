@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 1b57eeed-a95c-4430-8f42-a4606f873df2
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Link Services Folder

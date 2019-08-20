@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a6e25a34-f6bb-4883-ab66-1e093274f798
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Working with the Managed Provider for DB2

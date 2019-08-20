@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0037fb76-c9b0-41ce-9a52-aa80b1bf93c3
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Equates and Structure Layouts

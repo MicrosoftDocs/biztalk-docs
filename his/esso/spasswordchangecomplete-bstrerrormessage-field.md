@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a9dac12d-eb03-41ed-afa1-0adb3073fb37
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SPasswordChangeComplete.bstrErrorMessage Field

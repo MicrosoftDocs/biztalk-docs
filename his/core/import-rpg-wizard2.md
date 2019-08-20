@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: bce15017-57a4-4e9c-a495-c2a501d50893
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Import RPG Wizard

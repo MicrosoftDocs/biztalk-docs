@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: b2651eab-eefe-49d8-b702-5da02e3771f4
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host File Designer Main Menu

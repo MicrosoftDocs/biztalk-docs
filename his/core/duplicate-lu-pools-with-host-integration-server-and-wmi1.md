@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 75ab4e2b-5692-481a-9f99-a51bbb4cb970
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Duplicate LU Pools with Host Integration Server and WMI

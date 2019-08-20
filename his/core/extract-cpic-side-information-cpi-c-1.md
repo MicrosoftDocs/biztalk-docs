@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: fc73acb7-0a0e-48a9-9f31-3993c8f1b407
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Extract_CPIC_Side_Information (CPI-C)

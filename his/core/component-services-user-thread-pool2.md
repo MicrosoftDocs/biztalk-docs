@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 87cf2693-6eda-476b-a568-63fc15cd3243
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Component Services User Thread Pool

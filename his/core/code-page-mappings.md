@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 282b5c83-a583-46af-8cc0-80ad1a5e1c34
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Code Page Mappings

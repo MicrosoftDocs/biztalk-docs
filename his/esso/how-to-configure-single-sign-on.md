@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 13f7e5a5-1fec-4c8f-bbf1-e0821c2e97a6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Configure Single Sign-On

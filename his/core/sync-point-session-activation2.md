@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d747d592-b572-4d17-a7df-b976ef90b8b0
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Sync Point Session Activation

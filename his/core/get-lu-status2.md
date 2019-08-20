@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: aa453759-b105-4ffb-a1c1-9ee93ededb6d
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # GET_LU_STATUS

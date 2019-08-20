@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 23c75b2d-95c4-43d6-a01e-d09be4745036
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # services

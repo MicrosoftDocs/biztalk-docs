@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: f4b46091-0d66-44cb-a714-c56f5572eb0c
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ClosePersistentConnection

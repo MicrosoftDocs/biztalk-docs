@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 515348ed-9ce3-4708-abf9-648d21327358
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Sign-On Errors

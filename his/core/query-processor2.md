@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: 050d2e9a-bada-4bda-af41-fe233e47eae2
 caps.latest.revision: 6
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Query Processor

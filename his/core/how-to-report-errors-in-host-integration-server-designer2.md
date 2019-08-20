@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 893ad083-9f86-423e-b651-b5e8301766eb
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How To Report Errors in Host Integration Server Designer

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 65def2bf-cb8a-4cb4-b598-032f3054f98e
 caps.latest.revision: 2
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Command Object (OLE DB Provider for Informix)

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 748c4886-afae-4fbd-88a2-060057bea2be
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # HIS Designer Options

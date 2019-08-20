@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 855405a1-6801-4ff3-9fd9-b8730147343a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # APPC Definition

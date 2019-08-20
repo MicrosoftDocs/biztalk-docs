@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6df71a37-0d2b-4fd7-9a03-eddf97ae0f01
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Define an SNA CICS or SNA IMS Remote Environment

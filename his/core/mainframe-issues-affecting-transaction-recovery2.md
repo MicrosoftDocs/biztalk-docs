@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 3466dd46-a437-4c1c-9a5e-0042fd052146
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Mainframe Issues Affecting Transaction Recovery

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7b76596f-91bb-447f-9c21-2f9b45ffb31f
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Message Traces

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 21172221-f716-4c6c-b12b-9f0f5fa23fcd
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Determine Current Single Sign-On Access

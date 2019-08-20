@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5fd2a5d6-c7fc-4598-86bb-499e624e2e29
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNA Session Support

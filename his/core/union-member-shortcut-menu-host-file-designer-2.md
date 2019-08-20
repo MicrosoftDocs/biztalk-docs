@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 2e07cdaf-b24f-451d-addb-a80ad703d4c8
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Union Member Shortcut Menu (Host File Designer)

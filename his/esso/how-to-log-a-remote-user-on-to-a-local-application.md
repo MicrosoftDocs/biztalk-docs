@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: dc743671-77f7-413d-8d6f-d23a54c37fdd
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Log a Remote User on to a Local Application

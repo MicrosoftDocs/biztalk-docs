@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ebd6725d-4d90-42d5-b33d-c2b008a0eedf
 caps.latest.revision: 6
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # HIS 2016 - What's New, Release Notes, System Requirements, and Installation

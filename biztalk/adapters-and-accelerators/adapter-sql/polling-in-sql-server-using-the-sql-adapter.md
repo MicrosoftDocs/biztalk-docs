@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: c31b3cda-c05e-46db-827b-6c47a53d1a3a
 caps.latest.revision: 19
 author: "MandiOhlinger"
-ms.author: "mandia,niklase"
+ms.author: "mandia"
 manager: "anneta"
 ---
 # Polling in SQL Server using the SQL adapter

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 20fc6559-440f-4d0c-b532-983ebe00a502
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # MQSeries Header Properties

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ca4eea71-2324-4483-b546-a79b56accf17
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # How to Configure a 5250 Remote APPC LU

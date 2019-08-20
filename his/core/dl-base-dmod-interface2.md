@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6b6e7826-3b47-404e-9f87-79fac68cbb25
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # DL-BASE/DMOD Interface

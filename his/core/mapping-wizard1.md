@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 93dd4157-a783-419c-8f36-404347c92de3
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Mapping Wizard

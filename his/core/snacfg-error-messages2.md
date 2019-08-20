@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a2cb780c-5e74-4421-b97b-b36557516c6f
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Snacfg Error Messages

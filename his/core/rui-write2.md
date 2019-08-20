@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: a28c4f31-45be-4c84-826d-a0a31c5c3d9a
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # RUI_WRITE

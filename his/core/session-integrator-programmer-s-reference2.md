@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6df040bc-344f-4ee6-a234-2cec60bcf896
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Session Integrator Programmer&#39;s Reference

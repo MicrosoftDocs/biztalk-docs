@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6e3b3b3d-8301-40ab-831a-d1d24088d491
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNAReleaseElement

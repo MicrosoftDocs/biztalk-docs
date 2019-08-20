@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 51a4c1f4-36de-40a1-bb96-eef9bfde3414
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Wait_For_Conversation (CPI-C)

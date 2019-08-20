@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 386ba531-c622-49dd-91c5-bbe67889e9b6
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Integration Server 3270 Connectivity

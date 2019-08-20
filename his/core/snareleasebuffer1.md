@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d8f8f2d8-f3a1-4af4-8d70-343a7441ab80
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNAReleaseBuffer

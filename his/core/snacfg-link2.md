@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0c8923eb-f626-4db1-9ab1-126831a06a9e
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Snacfg LINK

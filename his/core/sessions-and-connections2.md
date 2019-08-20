@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 8f830d7f-59c2-4325-8a2e-da22eacb0c10
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Sessions and Connections

@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d7b9aec1-472a-480c-bf08-fe74cb0a62d1
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Administering TN3270

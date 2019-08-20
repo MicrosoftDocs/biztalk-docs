@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e508dcfa-829d-4712-a9e6-137f7c4c1897
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Inbound Chaining

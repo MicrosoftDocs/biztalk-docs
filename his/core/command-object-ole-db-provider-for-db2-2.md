@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 20fe7649-0b05-43c3-b78f-ff4f95f82338
 caps.latest.revision: 3
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Command Object (OLE DB Provider for DB2)

@@ -35,26 +35,26 @@ You can use the **Query** tab in the BizTalk Server Administration Console to se
 
 4. In the **Query Expression** group, in the **Value** column, select **Messages** from the drop-down list box.  
 
-5. In the **Field Name** column, in the empty drop-down list box next to the asterisk (**\\***), select one or more of the following:  
+5. In the **Field Name** column, in the empty drop-down list box next to the asterisk (`\`), select one or more of the following:  
 
 
-   |          Item           |                                                                                                                                                                Description                                                                                                                                                                |
-   |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |    **Creation Time**    |                                                                                                                                         Find messages created before or after the specified date.                                                                                                                                         |
-   |    **Error Adapter**    |                                                                                                   You can group or filter messages by adapter type: FILE, FTP, HTTP, MQSeries, MSMQ, POP3, SMTP, SOAP, or Windows SharePoint Services.                                                                                                    |
-   |     **Error Code**      |                                                                                                                                              You can group or filter messages by error code.                                                                                                                                              |
-   |  **Error Description**  |                                                                                                                                          You can group or filter messages by error description.                                                                                                                                           |
-   |      **Host Name**      |                                                                                                                                              You can group or filter messages by host name.                                                                                                                                               |
+   |          Item           |  Description  |
+   |---|---|
+   |    **Creation Time**    | Find messages created before or after the specified date.  |
+   |    **Error Adapter**    |  You can group or filter messages by adapter type: FILE, FTP, HTTP, MQSeries, MSMQ, POP3, SMTP, SOAP, or Windows SharePoint Services.  |
+   |     **Error Code**      | You can group or filter messages by error code.  |
+   |  **Error Description**  | You can group or filter messages by error description.  |
+   |      **Host Name**      | You can group or filter messages by host name.  |
    |   **Instance Status**   | The status of the service instance referencing the message. You can search for all of the following types of instances: all running instances, all suspended instances, active instances, dehydrated instances, ready-to-run instances, scheduled instances, suspended but not resumable instances, or suspended and resumable instances. |
-   |   **Maximum Matches**   |                                                                                                                                                     The number of matches to display.                                                                                                                                                     |
-   |     **Message ID**      |                                                                                                                                              You can group or filter messages by message ID.                                                                                                                                              |
-   |   **Message Status**    |                                                 You can search for messages with consumed, in process, suspended, suspended but not resumable, suspended and resumable, queued, queued but awaiting processing, queued but scheduled for later delivery, and queued but waiting to retry.                                                 |
-   |    **Message Type**     |                                                                                                                                             You can group or filter messages by message type.                                                                                                                                             |
-   |    **Service Class**    |                                                                                                    You can search for isolated adapters; messaging; messaging, and isolated adapters; MSMQT; Orchestration; or Routing Failure Report.                                                                                                    |
-   | **Service Instance ID** |                                                                                                                                         You can group or filter messages by service instance ID.                                                                                                                                          |
-   |    **Service Name**     |                                                                                                                                             You can group or filter messages by service name.                                                                                                                                             |
-   |   **Service Type ID**   |                                                                                                                                           You can group or filter messages by service type ID.                                                                                                                                            |
-   |         **URI**         |                                                                                                                                                 You can group or filter messages by URI.                                                                                                                                                  |
+   |   **Maximum Matches**   | The number of matches to display.  |
+   |     **Message ID**      | You can group or filter messages by message ID.  |
+   |   **Message Status**    |  You can search for messages with consumed, in process, suspended, suspended but not resumable, suspended and resumable, queued, queued but awaiting processing, queued but scheduled for later delivery, and queued but waiting to retry.  |
+   |    **Message Type**     |  You can group or filter messages by message type. |
+   |    **Service Class**    |   You can search for isolated adapters; messaging; messaging, and isolated adapters; MSMQT; Orchestration; or Routing Failure Report.  |
+   | **Service Instance ID** |   You can group or filter messages by service instance ID.  |
+   |    **Service Name**     |  You can group or filter messages by service name. |
+   |   **Service Type ID**   |  You can group or filter messages by service type ID.   |
+   |         **URI**         |  You can group or filter messages by URI.  |
 
 
 6. Complete the **Value** column as appropriate for the selection you made in the **Field Name** column.  

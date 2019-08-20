@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5a6492dd-2628-49e6-8a55-78ed43d05ffc
 caps.latest.revision: 5
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Dynamic Data Web

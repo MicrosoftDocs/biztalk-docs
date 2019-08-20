@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 152dda2d-4ded-4af1-89b9-b932e3572429
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Snacfg TNIPID

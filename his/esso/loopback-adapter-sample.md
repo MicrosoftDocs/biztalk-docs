@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 0b9344e8-7759-432d-bff8-001f4393728d
 caps.latest.revision: 4
 author: "gplarsen"
-ms.author: "hisdocs; plarsen"
+ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Loopback Adapter Sample
