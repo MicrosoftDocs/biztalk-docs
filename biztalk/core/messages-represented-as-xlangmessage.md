@@ -91,18 +91,18 @@ XLANGMessage XmlMsg = XmlVariable;
      You can also pass the message itself as an **XLANGMessage** and use the **XLANGMessage** subscript operators to access the part inside the function call. However, you should not put an **XLANGPart** in a collection whose lifetime extends past the lifetime of the function call. Instead, you should put the **XLANGMessage** in the collection. For example:  
   
     ```csharp
-    Void Test(XLANGMessage xlm)  
-    {  
-         try  
-         {  
-          XLANGPart xlp = xlm[0];  
-          String sval = (String) xlp.RetrieveAs(typeof(string));  
-         }  
-         finally  
-         {  
-          Xlm.Dispose();  
-         }  
-    }  
+    void Test(XLANGMessage xlm)
+    {
+         try
+         {
+             XLANGPart xlp = xlm[0];
+             string sval = (string)xlp.RetrieveAs(typeof(string));
+         }
+         finally
+         {
+             xlm.Dispose();
+         }
+    }
     ```  
   
 -   Do not define an orchestration parameter as **XLANGMessage** or **XLANGPart**. If you want to pass a message, then use a message type parameter to pass the message. If you want to pass a part, then pass the message instead and then use the part. If you only want the part value, then use the part type to pass the part.  
@@ -112,36 +112,38 @@ XLANGMessage XmlMsg = XmlVariable;
      When an orchestration instance exits, any messages created in that instance are no longer valid, so the lifetime of such a collection should be less than or equal to that of the instance lifetime. However, if you want to release a message reference in a loop when the message was passed through an **XLANGMessage** argument that has the same lifetime as the orchestration instance, then you can call **XLANGMessage.Dispose** to free up the reference. Moreover, if inside the user code method, the **XLANGMessage** parameter is only used locally and the lifetime of the parameter is contained in that of the function call, you can also call **XLANGMessage.Dispose** to free up the reference to the root context and give the corresponding message back the normal lifetime behavior. For example:  
   
     ```csharp
-    void Test(XLANGMessage xlm)  
-    {  
-         try  
-         {  
-          //XLANGMessage is only used locally  
-         }  
-         finally  
-         {  
-          xlm.Dispose();  
-         }  
-    }  
+    void Test(XLANGMessage xlm)
+    {
+         try
+         {
+            //XLANGMessage is only used locally
+         }
+         finally
+         {
+            xlm.Dispose();
+         }
+    }
     ```  
   
      If you place the xlm in a collection, then the class itself must have a **Dispose** method for cleanup. For example:  
   
     ```csharp
-    Public class A  
-    {  
-         Hashtable h = new Hashtable();  
-         Public Test(XLANGMessage xlm)  
-         {  
-          h[xlm] = 1;  
-         }  
-         //You can have more methods here  
-         Public Dispose()  
-         {  
-          foreach (XLANGMessage xlm in h.Keys)  
-           Xlm.Dispose();  
-         }  
-    }  
+    public class A
+    {
+         Hashtable h = new Hashtable();
+         public void Test(XLANGMessage xlm)
+         {
+             h[xlm] = 1;
+         }
+         //You can have more methods here
+         public void Dispose()
+         {
+             foreach (XLANGMessage xlm in h.Keys)
+             {
+                 xlm.Dispose();
+             }
+         }
+    }
     ```  
   
      You would call **A.Dispose** when you are finished with the collection of **XLANGMessages**.  

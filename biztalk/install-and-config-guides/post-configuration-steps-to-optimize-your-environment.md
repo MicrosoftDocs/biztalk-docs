@@ -3,7 +3,7 @@ title: "Post-configuration steps to optimize your environment | Microsoft Docs"
 description: Tasks to complete after you install and configure BizTalk Server, including configure the SQL Agent jobs, install EDI schemas, create hosts and host instances, and more in BizTalk Server
 ms.custom: ""
 ms.prod: biztalk-server
-ms.date: "09/27/2017"
+ms.date: "04/16/2019"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,7 +11,7 @@ ms.topic: "article"
 ms.assetid: d0fef6ea-e7cc-4ea9-936d-5d638bc43feb
 caps.latest.revision: 3
 author: "MandiOhlinger"
-ms.author: "mandia"
+ms.author: "niklase"
 manager: "anneta"
 ---
 # Post-configuration steps to optimize your environment
@@ -19,21 +19,33 @@ Post-configuration steps to help improve performance, maintain your BizTalk envi
 
 ## Disable Shared Memory protocol in SQL Server
 
-1. Open **SQL Server Configuration Manager**.
-2. Expand **SQL Server Network Configuration**, and select **Protocols for MSSQLSERVER**.
-3. Right-click **Shared Memory**, and select **Disable**.
-4. Select **SQL Server Services**, right-click **SQL Server (MSSQLServer)**, and select **Restart**.
-5. Close **SQL Server Configuration Manager**.
+1. Open **SQL Server Configuration Manager** > expand **SQL Server Network Configuration** > **Protocols for MSSQLSERVER**.
+2. Right-click **Shared Memory** > **Disable**.
+3. Select **SQL Server Services**, right-click **SQL Server (MSSQLServer)** > **Restart**.
+4. Close **SQL Server Configuration Manager**.
 
 ## Configure the SQL Agent jobs
 
-1. **SQL Server Management Studio**, and connect to **Database Engine**.
+1. Open **SQL Server Management Studio**, and connect to **Database Engine**.
 2. Expand **SQL Server Agent**, and expand **Jobs**. Configure the following jobs:  
 
-    Job Name  |Description  |Why you need it  
-    ---------|---------|---------
-    Backup BizTalk Server | Backs up the BizTalk Server databases and the log files. When configuring the job, you determine parameters like frequency and file location.<br/><br/>The following links describe the SQL Agent job and its parameters:<br/><br/>[Backing Up and Restoring BizTalk Server Databases](../core/backing-up-and-restoring-biztalk-server-databases.md)<br/>[How to Configure the Backup BizTalk Server Job](../core/how-to-configure-the-backup-biztalk-server-job.md)|This SQL Agent job also truncates the transaction logs, which helps improve performance.<br/><br/>This job does not remove or delete backup files, including older files. To delete backup files, refer to The "Backup BizTalk Server" job fails when backup files accumulate over time in the Microsoft BizTalk Server database server.
-    DTA Purge and Archive |Truncates and archives the BizTalk Server Tracking database (BizTalkDTADb). When configuring the job, you determine parameters like how many days to keep completed instances and how many to days to keep all data.<br/><br/>The following links describe the SQL Agent job and its parameters: <br/><br/>[Archiving and Purging the BizTalk Tracking Database](../core/archiving-and-purging-the-biztalk-tracking-database.md)<br/>[How to Configure the DTA Purge and Archive Job](../core/how-to-configure-the-dta-purge-and-archive-job.md)|This SQL Agent job directly impacts performance by maintaining the Tracking host and purging tracking events.
+    - **Backup BizTalk Server**: Backs up the BizTalk Server databases and the log files. When configuring the job, you determine parameters like frequency and file location.
+    
+      The following links describe the SQL Agent job and its parameters:
+        - [Backing Up and Restoring BizTalk Server Databases](../core/backing-up-and-restoring-biztalk-server-databases.md)
+        - [How to Configure the Backup BizTalk Server Job](../core/how-to-configure-the-backup-biztalk-server-job.md)
+        
+      This SQL Agent job also truncates the transaction logs, which helps improve performance.
+        
+      This job doesn't remove or delete backup files, including older files. To delete backup files, refer to The "Backup BizTalk Server" job fails when backup files accumulate over time in the Microsoft BizTalk Server database server.
+
+    - **DTA Purge and Archive**: Truncates and archives the BizTalk Server Tracking database (BizTalkDTADb). When configuring the job, you determine parameters like how many days to keep completed instances and how many to days to keep all data.
+
+      The following links describe the SQL Agent job and its parameters:
+        - [Archiving and Purging the BizTalk Tracking Database](../core/archiving-and-purging-the-biztalk-tracking-database.md)
+        - [How to Configure the DTA Purge and Archive Job](../core/how-to-configure-the-dta-purge-and-archive-job.md)
+      
+      This SQL Agent job directly impacts performance by maintaining the tracking host and purging tracking events.
 
 ## Maintain your backup files
 
@@ -42,12 +54,14 @@ BizTalk Server does not include any job to delete backup files. As a result, how
 #### Option 1: Create the sp_DeleteBackupHistoryAndFiles stored procedure
 
 1. In SQL Server Management Studio, select the BizTalk Management database (BizTalkMgmtDb). 
-2. Select **New Query**, and run the following T-SQL script to create the sp_DeleteBackupHistoryAndFiles stored procedure: 
+2. Select **New Query**, and run the following T-SQL script to create the `sp_DeleteBackupHistoryAndFiles` (BizTalk Server 2016) or `sp_DeleteBackupHistoryAndFiles2013` (BizTalk Server 2013 R2 and older) stored procedure: 
 
-    ```
+    **sp_DeleteBackupHistoryAndFiles (BizTalk Server 2016 and newer)**  
+
+    ```sql
     CREATE PROCEDURE [dbo].[sp_DeleteBackupHistoryAndFiles] @DaysToKeep smallint = null
     AS
-
+    
     BEGIN
     set nocount on
     IF @DaysToKeep IS NULL OR @DaysToKeep <= 1
@@ -56,12 +70,42 @@ BizTalk Server does not include any job to delete backup files. As a result, how
     Only delete full sets
     If a set spans a day in such a way that some items fall into the deleted group and the other does not, do not delete the set
     */
-
+    
+    /*
+    First delete MarkName from all other databases
+    */
+    declare @BackupServer sysname ,@BackupDB sysname, @tsql nvarchar(1024), @MarkToBeDeleted nvarchar(128)
+    DECLARE BackupDB_Cursor insensitive cursor for
+    SELECT	ServerName, DatabaseName
+    FROM	admv_BackupDatabases
+    ORDER BY ServerName
+    open BackupDB_Cursor 
+    	
+    SELECT @MarkToBeDeleted = MAX([MarkName])
+    FROM [dbo].[adm_BackupHistory] [h1]
+    WHERE [BackupType] = 'lg' AND datediff( dd, [BackupDateTime], getdate() ) >= @DaysToKeep
+    AND	[BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [h1].[BackupSetId] AND datediff( dd, [h2].[BackupDateTime], getdate() ) < @DaysToKeep AND [h2].[BackupType] = 'lg')
+    AND EXISTS( SELECT TOP 1 1 FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] > [h1].[BackupSetId] AND [h2].[BackupType] = 'lg')
+    fetch next from BackupDB_Cursor into @BackupServer, @BackupDB
+    	
+    while @@fetch_status = 0
+    	begin
+    	set @tsql = '[' + @BackupServer + '].[' + @BackupDB + '].[dbo].[sp_CleanUpMarkLog]'
+    	exec @tsql @MarkName=@MarkToBeDeleted
+    	fetch next from BackupDB_Cursor into @BackupServer, @BackupDB
+    	end
+    	
+    close BackupDB_Cursor 
+    deallocate BackupDB_Cursor 
+    
     DECLARE DeleteBackupFiles CURSOR
-    FOR SELECT 'del "' + [BackupFileLocation] + '\' + [BackupFileName] + '"' FROM [adm_BackupHistory]
+    -- xp_delete_file variant
+    FOR SELECT [BackupFileLocation] + '\' + [BackupFileName] FROM [adm_BackupHistory]
+    -- xp_cmdshell variant
+    -- FOR SELECT 'del "' + [BackupFileLocation] + '\' + [BackupFileName] + '"' FROM [adm_BackupHistory]
     WHERE  datediff( dd, [BackupDateTime], getdate() ) >= @DaysToKeep
     AND [BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [BackupSetId] AND datediff( dd, [h2].[BackupDateTime], getdate() ) < @DaysToKeep )
-
+    
     DECLARE @cmd varchar(400)
     OPEN DeleteBackupFiles
     FETCH NEXT FROM DeleteBackupFiles INTO @cmd
@@ -69,21 +113,64 @@ BizTalk Server does not include any job to delete backup files. As a result, how
     BEGIN
         IF (@@fetch_status <> -2)
         BEGIN
-            EXEC master.dbo.xp_cmdshell @cmd, NO_OUTPUT
+    -- xp_delete_file variant
+            EXECUTE master.dbo.xp_delete_file 0, @cmd
+    -- xp_cmdshell variant
+    --        EXEC master.dbo.xp_cmdshell @cmd, NO_OUTPUT
             delete from [adm_BackupHistory] WHERE CURRENT OF DeleteBackupFiles
             print @cmd
         END
         FETCH NEXT FROM DeleteBackupFiles INTO @cmd
     END
-
+    
     CLOSE DeleteBackupFiles
     DEALLOCATE DeleteBackupFiles
     END
     GO
     ```
 
-3. Open the Backup BizTalk Server job, and select **Steps**.
-4. Edit the **Clear Backup History** step so that it calls the new *sp_DeleteBackupHistoryAndFiles* stored procedure instead of the previous *sp_DeleteBackupHistory* stored procedure.
+    **sp_DeleteBackupHistoryAndFiles2013 (BizTalk 2013 R2 and older)**  
+
+   ```sql
+   CREATE PROCEDURE [dbo].[sp_DeleteBackupHistoryAndFiles2013] @DaysToKeep smallint = null
+   AS
+   
+   BEGIN
+   set nocount on
+   IF @DaysToKeep IS NULL OR @DaysToKeep <= 1
+   RETURN
+   /*
+   Only delete full sets
+   If a set spans a day in such a way that some items fall into the deleted group and the other does not, do not delete the set
+   */
+   
+   DECLARE DeleteBackupFiles CURSOR
+   FOR SELECT 'del "' + [BackupFileLocation] + '\' + [BackupFileName] + '"' FROM [adm_BackupHistory]
+   WHERE  datediff( dd, [BackupDateTime], getdate() ) >= @DaysToKeep
+   AND [BackupSetId] NOT IN ( SELECT [BackupSetId] FROM [dbo].[adm_BackupHistory] [h2] WHERE [h2].[BackupSetId] = [BackupSetId] AND  datediff( dd, [h2].[BackupDateTime], getdate() ) < @DaysToKeep )
+   
+   DECLARE @cmd varchar(400)
+   OPEN DeleteBackupFiles
+   FETCH NEXT FROM DeleteBackupFiles INTO @cmd
+   WHILE (@@fetch_status <> -1)
+   BEGIN
+       IF (@@fetch_status <> -2)
+       BEGIN
+           EXEC master.dbo.xp_cmdshell @cmd, NO_OUTPUT
+           delete from [adm_BackupHistory] WHERE CURRENT OF DeleteBackupFiles
+           print @cmd
+       END
+       FETCH NEXT FROM DeleteBackupFiles INTO @cmd
+   END
+   
+   CLOSE DeleteBackupFiles
+   DEALLOCATE DeleteBackupFiles
+   END
+   GO
+   ```
+
+3. Open the Backup BizTalk Server job > select **Steps**.
+4. Edit the **Clear Backup History** step so that it calls the new *sp_DeleteBackupHistoryAndFiles* or *sp_DeleteBackupHistoryAndFiles2013* stored procedure instead of the previous *sp_DeleteBackupHistory* stored procedure.
 5. Select **OK** to save your changes.
 
 #### Option 2: Create a maintenance plan
@@ -91,7 +178,7 @@ BizTalk Server does not include any job to delete backup files. As a result, how
 1. In SQL Server Management Studio, expand **Management**, right-click **Maintenance Plans**, and select **Maintenance Plan Wizard**.
 2. Name the plan (for example, name it *Purge Backup Files*), and then select the **Change** button next to **Schedule**.
 3. Choose how frequently you want to purge the backup files. These settings are completely up to you. Select **OK**, and then select **Next**.
-4. Select **Maintenance Cleanup Task**, and select **Next**.
+4. Select **Maintenance Cleanup Task** > **Next**.
 5. In the **Cleanup Task** window, go to **Search folder and delete files...**, select your backup Folder (maybe f:\BizTalkBackUps), and enter **.bak** for the File extension. You can also choose to delete files based on their age. For example, enter 3 if you want to delete files that are older than 3 weeks. Select **Next**.
 6. Finish going through the wizard and enter any additional information you want. Select **Finish**.
 
