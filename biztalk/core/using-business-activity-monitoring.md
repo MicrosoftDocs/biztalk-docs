@@ -26,7 +26,7 @@ Business Activity Monitoring (BAM) provides visibility into business processes i
   
 -   [Install and Configure BAM](../core/installing-and-configuring-bam.md)  
   
--   [Implementg BAM Solutions](../core/implementing-bam-solutions.md)  
+-   [Implementing BAM Solutions](../core/implementing-bam-solutions.md)  
   
 -   [BAM Dynamic Infrastructure](../core/bam-dynamic-infrastructure.md)  
   
