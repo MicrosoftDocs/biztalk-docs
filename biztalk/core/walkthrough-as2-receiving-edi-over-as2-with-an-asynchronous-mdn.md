@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Walkthrough (AS2): Receiving EDI over AS2 with an Asynchronous MDN
-This walkthrough provides a set of step-by-step procedures that creates a solution for receiving EDI messages over AS2 transport, returning synchronous MDNs.  
+This walkthrough provides a set of step-by-step procedures that creates a solution for receiving EDI messages over AS2 transport, returning Asynchronous MDNs. 
 
 ## Prerequisites  
  The following are prerequisites for performing the procedure in this topic:  
