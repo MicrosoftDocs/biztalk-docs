@@ -43,7 +43,7 @@ You must include envelope schemas in schema projects whenever you set up Message
   
 3.  In the Add Reference dialog box, click the **Browse** tag.  
   
-4.  In the Select Component dialog box, open the **Look in** drop-down list. Move to ***\<drive\>*:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\Assemblies**. Select **Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll** from the list of assemblies, and then click **Add**.  
+4.  In the Select Component dialog box, open the **Look in** drop-down list. Move to **_\<drive\>_:\Program Files\Microsoft BizTalk Accelerator for SWIFT \<version\> Message Pack\Assemblies**. Select **Microsoft.Solutions.FinancialServices.SWIFT.RuntimeSchemas.dll** from the list of assemblies, and then click **Add**.  
   
 5.  In the **Add Reference** dialog box, click **OK**.  
   
