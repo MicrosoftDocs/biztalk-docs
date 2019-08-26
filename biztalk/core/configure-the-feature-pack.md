@@ -33,7 +33,7 @@ manager: "anneta"
 
 The feature packs are cumulative. So when you install feature pack 3, you also get the features and updates in feature packs 2 and 1. You also get the latest cumulative updates.
 
-* Download the [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [Feature Pack 3 CU5](https://aka.ms/bts2016fp3) or [Feature Pack 3 CU6](https://www.microsoft.com/en-us/download/details.aspx?id=57961).
+* Download the [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [Feature Pack 3 CU6](https://aka.ms/bts2016fp3).
 
 * Download the [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [Feature Pack 2](https://aka.ms/bts2016fp2).
 
