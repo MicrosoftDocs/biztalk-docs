@@ -18,7 +18,7 @@ manager: "anneta"
 # Send BizTalk tracking data to Azure Application Insights or Event Hubs
 
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, you can process and send your tracking data to Azure Application Insights. 
-  		  
+
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**:
 
 * Application Insights supports SQL default instances, and SQL named instances
@@ -27,6 +27,7 @@ manager: "anneta"
 Use these Azure services to track your instances from receive ports, send ports, and orchestrations.
 
 ## Prerequisites
+
 * Create a new instance of [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-create-new-resource). BizTalk Server uses the **Instrumentation Key** to authenticate.
 * Create an [Azure Event Hubs namespace and event hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-create). BizTalk Server uses the SAS (namespace-level) or event hub-level policy to authenticate.
 * Install [Feature Pack 2](https://aka.ms/bts2016fp2) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]

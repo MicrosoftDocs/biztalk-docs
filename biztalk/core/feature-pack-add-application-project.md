@@ -60,73 +60,72 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 2. The template includes the following sections: 
 
     | | |
-	|---|---|
-	|BizTalkAssemblies | The assemblies used in your applications |
-	|BindingFiles | The binding files you are referencing|
-	|DeploymentSequence | The sequence for the elements to be installed|
-	
-	Sample template: 
-	
-	![FP1 Json template image 1](../core/media/fp1-json-template-image-1.png)
+    |---|---|
+    |BizTalkAssemblies | The assemblies used in your applications |
+    |BindingFiles | The binding files you are referencing|
+    |DeploymentSequence | The sequence for the elements to be installed|
+    
+    Sample template: 
+    
+    ![FP1 Json template image 1](../core/media/fp1-json-template-image-1.png)
 
     > [!IMPORTANT]
-	> Depending on the complexity of your solution, the elements you want in the build must be referenced in this JSON template file.
+    > Depending on the complexity of your solution, the elements you want in the build must be referenced in this JSON template file.
 
 3. In `BizTalkAssemblies`, add the assemblies used by your BizTalk project: 
 
-	```
-	"BizTalkAssemblies": [
-		{
-			"Name": "AssemblyName",
-			"Path": "PathToAssembly
-		}
-	]
-	```
+    ```json
+    "BizTalkAssemblies": [
+        {
+            "Name": "AssemblyName",
+            "Path": "PathToAssembly
+        }
+    ]
+    ```
 
 4. In `BindingsFiles`, add the binding files for your BizTalk project: 
 
-	```
-	"BindingsFiles": [
-		{
-			"Name": "Binding File Name",
-			"Path": "PathToBindingFile
-		}
-	]
-	```
+    ```json
+    "BindingsFiles": [
+        {
+            "Name": "Binding File Name",
+            "Path": "PathToBindingFile
+        }
+    ]
+    ```
 
 5. In `DeploymentSequence`, add the application names in the order you want them deployed, and installed on the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]: 
 
-	```
-	"DeploymentSequence": [
-		{
-			"NameOfFirst", "NameOfSecond", "NameOfThird"
-		}
-	]
-	```
-
+    ```json
+    "DeploymentSequence": [
+        "NameOfFirst",
+        "NameOfSecond",
+        "NameOfThird"
+    ]
+    ```
 
 6. **Save** your changes. When finished, your .json file looks like the following: 
 
-	```
-	{
-	  "$schema": "C:\\Program Files (x86)\\Microsoft BizTalk Server 2016\\Developer Tools\\BizTalkServerAppplicationSchema.json",
-	  "BizTalkAssemblies": [
-	    {
-	      "Name": "HelloWorld",
-	      "Path": "HelloWorld\\bin\\Release\\HelloWorld.dll"
-	    }
-	  ],
-	  "BindingsFiles": [
-	    {
-	      "Name": "HelloWorldBinding",
-	      "Path": "HelloWorld\\HelloWorldBinding.xml"
-	    }
-	  ],
-	  "DeploymentSequence": [
-	    "HelloWorld", "HelloWorldBinding"
-	  ]
-	}
-	```
+    ```json
+    {
+      "$schema": "C:\\Program Files (x86)\\Microsoft BizTalk Server 2016\\Developer Tools\\BizTalkServerAppplicationSchema.json",
+      "BizTalkAssemblies": [
+        {
+          "Name": "HelloWorld",
+          "Path": "HelloWorld\\bin\\Release\\HelloWorld.dll"
+        }
+      ],
+      "BindingsFiles": [
+        {
+          "Name": "HelloWorldBinding",
+          "Path": "HelloWorld\\HelloWorldBinding.xml"
+        }
+      ],
+      "DeploymentSequence": [
+        "HelloWorld", "HelloWorldBinding"
+      ]
+    }
+    ```
 
 7. **Optional**. Right-click your application project (e.g. appProjectHelloWorld), and select **Properties**. You can set the Debug or Release version to a new value. We don’t in these steps, but be aware you can do this.  
 

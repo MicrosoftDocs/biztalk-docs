@@ -17,13 +17,14 @@ manager: "anneta"
 # Hardware and Software Requirements for BizTalk Server 2016
 
 ## Hardware requirements
+
 The following table lists the minimum hardware requirements for your BizTalk Server computer. In a production environment, the volume of traffic may require greater hardware requirements for your servers. 
 
-| Resource	|Minimum Requirement |
+| Resource |Minimum Requirement |
 | --- | --- |
-|Computer and processor	| A computer with an Intel Pentium-compatible CPU that is: <ul><li>1 GHz or higher for single processors</li><li>900 MHz or higher for double processors</li><li>700 MHz or higher for quad processors</li></ul> **NOTE**: Hyper-threading and dual-core processors are supported.<br/><br/>The 64-bit versions of BizTalk Server require a 64-bit operating system running on an x64-based system. Computers based on CPUs that are compatible with the AMD64 (x86-64) and Extended Memory 64-bit Technology (EM64T) processor architecture are considered x64-based systems.<br/><br/>BizTalk Server is not supported on Itanium-based systems. |
-|Memory	| 2 GB or more|
-|Hard disk	|10 GB of available hard disk space for a complete installation, including the operating system and all prerequisite software. The hard disk must be NTFS formatted.|
+|Computer and processor | A computer with an Intel Pentium-compatible CPU that is: <ul><li>1 GHz or higher for single processors</li><li>900 MHz or higher for double processors</li><li>700 MHz or higher for quad processors</li></ul> **NOTE**: Hyper-threading and dual-core processors are supported.<br/><br/>The 64-bit versions of BizTalk Server require a 64-bit operating system running on an x64-based system. Computers based on CPUs that are compatible with the AMD64 (x86-64) and Extended Memory 64-bit Technology (EM64T) processor architecture are considered x64-based systems.<br/><br/>BizTalk Server is not supported on Itanium-based systems. |
+|Memory | 2 GB or more|
+|Hard disk |10 GB of available hard disk space for a complete installation, including the operating system and all prerequisite software. The hard disk must be NTFS formatted.|
 
 > [!TIP] 
 > The hardware requirements listed are the minimum. Every environment is different and there's a very good chance that your environment may need more. See [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](http://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx). 
@@ -56,4 +57,4 @@ All service packs, cumulative updates, security updates, and hotfixes are suppor
 
  ## Next Step
  
- [Set up and install prerequisites](../install-and-config-guides/set-up-and-install-prerequisites-for-biztalk-server-2016.md)
+[Set up and install prerequisites](../install-and-config-guides/set-up-and-install-prerequisites-for-biztalk-server-2016.md)

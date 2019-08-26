@@ -18,6 +18,7 @@ manager: "anneta"
 There are 14 different Remote Environment types that can be configured. A remote environment defines the characteristics of the non-Windows host environment that receives requests from Windows-initiated processing (WIP) components. The Remote Environment that is defined must match the Remote Environment type the for the TI Meta data object.
 
 ## Environments list
+
 Right-click the Remote Environments node and select New to bring up the list of the Remote Environments to choose from.  See the Related Sections below to explore which is the appropriate programming model for various environments.
 
 1. **Distributed Program Call** - TCP/IP call to an iSeries system via DPC
@@ -35,7 +36,7 @@ Right-click the Remote Environments node and select New to bring up the list of 
 13. **TRM Link** - TCP/IP call to a link to program in CICS on a mainframe
 14. **TRM User Data** - TCP/IP call to a transaction in CICS on a mainframe
 
-For each Remote Environment type there are a number of parameters available to identify the endpoint where the data will be sent and information about how the WIP Runtime will handle the call. 
+For each Remote Environment type there are a number of parameters available to identify the endpoint where the data will be sent and information about how the WIP Runtime will handle the call.
 
 All Remote Environments include the following:
 
@@ -43,9 +44,9 @@ All Remote Environments include the following:
 * **Is Default** - default is false
 * **Timeout** - default is 10 (seconds)
 * **Code Page** - default is 37
-	
+
 Other parameters are available depending upon the programming model:
-	 
+
 * **ESSO Affiliate Application** - default is null
 * **Security from Client Context** - default is False
 * **Certificate Common Name** - if using SSL, default is null
@@ -69,6 +70,7 @@ Other parameters are available depending upon the programming model:
 * **Allow Explicit Sync Point** - used by APPC to CICS - default is False
 * **Mirror Transaction Id** - used by APPC to CICS Link - default is null
 * **Override SNA Source Transaction Program** - used by APPC to CICS Link - default is False
-		
+
 ## Related Sections
+
 [Choosing the Appropriate Programming Model](../core/choosing-the-appropriate-programming-model1.md)
