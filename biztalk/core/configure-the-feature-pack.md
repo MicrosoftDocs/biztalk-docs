@@ -28,7 +28,6 @@ manager: "anneta"
 > - Running [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] in Azure using an Enterprise Agreement
 > 
 > The feature packs are not available for any other [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] edition (Standard and Branch editions), or any other [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] version (2013 R2, 2013, 2010, and so on). 
-> After the installation of the feature packs, you may not be able to find Biztalk project templates in Visual Studio.
 
 ## Download and install
 
@@ -55,7 +54,6 @@ A setup log is created in `C:\ProgramData\Microsoft\E-Business Servers Updates\U
 ## Feature Pack 3 updates
 
 **Office 365 Adapters**
-
 
 Microsoft Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. By combining best-in-class apps like Excel and Outlook with powerful cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
 
@@ -145,3 +143,7 @@ Use the WCF-SQL adapter to query encrypted columns from an Always Encrypted data
 #### [Integrate with API Management](../core/connect-to-azure-api-management.md)
 
 Within your Azure API management service, you can create and expose an API as WSDL, and use the URI to a BizTalk SOAP endpoint.  
+
+## Uninstall the feature pack
+
+To uninstall the feature pack, be sure you're signed in as an administrator. Otherwise, the uninstall may not complete successfully, and the BizTalk Server project templates in Visual Studio may be removed.
