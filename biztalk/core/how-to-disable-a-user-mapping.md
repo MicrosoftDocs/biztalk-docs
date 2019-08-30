@@ -29,7 +29,7 @@ You can disable a user mapping when you want to turn off all operations associat
   
 2. At the command line, go to the Enterprise Single Sign-On installation directory. The default installation directory is *\<drive\>*:\Program Files\Common Files\Enterprise Single Sign-On.  
   
-3. Type **ssomanage –disablemapping \<*domain*\>\\<*username*\> \<*application name*\>**, where \<*domain*\> is the Windows domain for the user account, and *\<username\>* is the Windows user name for which you want to disable the credentials, and *\<application name\>* is the name of the affiliate application you want to remove the user mapping for.  
+3. Type **ssomanage –disablemapping \<_domain_\>\\<_username_\> \<_application name_\>**, where \<*domain*\> is the Windows domain for the user account, and *\<username\>* is the Windows user name for which you want to disable the credentials, and *\<application name\>* is the name of the affiliate application you want to remove the user mapping for.  
   
    > [!NOTE]
    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.  
