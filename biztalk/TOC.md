@@ -553,7 +553,7 @@
 ##### [BizTalk Assemblies](core/biztalk-assemblies.md)
 #### [Management and Tracking Architecture](core/management-and-tracking-architecture.md)
 ##### [Business Activity Monitoring (BAM)](core/business-activity-monitoring-bam.md)
-##### [Plann for Message and Instance Tracking](core/planning-for-message-and-instance-tracking.md)
+##### [Plan for Message and Instance Tracking](core/planning-for-message-and-instance-tracking.md)
 ##### [Record Size in Tracking Databases](core/record-size-in-tracking-databases.md)
 ### [Performance and Capacity Planning](core/performance-and-capacity-planning.md)
 #### [BizTalk Server 64-Bit Support](core/biztalk-server-64-bit-support2.md)
