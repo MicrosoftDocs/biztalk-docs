@@ -19,7 +19,7 @@ When the server\database name combination changes as the result of a change in y
   
 ### To update the BAM management configuration file a after backup and restore  
   
-1. Open the bm.exe.config file using Notepad by clicking **Start**, clicking **Run**, typing notepad [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]tracking\bm.exe.config, and then clicking **OK**.  
+1. Open the bm.exe.config file using Notepad by clicking **Start**, clicking **Run**, typing notepad c:[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking\bm.exe.config, and then clicking **OK**.  
   
 2. Locate the appSettings section in the file and change the following values:  
   
