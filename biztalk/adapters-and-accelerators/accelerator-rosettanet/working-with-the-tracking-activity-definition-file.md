@@ -51,7 +51,7 @@ The activity definition file contains information about the tracking process and
   
    ```  
    cd %ProgramFiles%\Microsoft BizTalk Server 2013\Tracking  
-   bm.exe deploy-all -DefinitionFile:"%ProgramFiles%\Microsoft BizTalk 2030 Accelerator for RosettaNet\BAMTracking\<filename\>.xml"  
+   bm.exe deploy-all -DefinitionFile:"%ProgramFiles%\Microsoft BizTalk 2013 Accelerator for RosettaNet\BAMTracking\<filename\>.xml"  
    ```  
   
    The information tracked in BAM does not include the message content, because that is stored in a [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] database.  
