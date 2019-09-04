@@ -46,7 +46,7 @@ You must install the BAM interceptor software and configure your application to 
   
 4. Deploy the observation model by using bm.exe:  
   
-    [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\BM.exe deploy-all -definitionfile:\<*definitionfile.xml*\>  
+    c:[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking\BM.exe deploy-all -definitionfile:\<*definitionfile.xml*\>  
   
     Make sure you replace \<*definitionfile.xml*\> with the name of the observation file you want to deploy. For more options see [Interceptor Management Commands](../core/interceptor-management-commands.md).  
   
