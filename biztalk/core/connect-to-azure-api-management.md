@@ -27,19 +27,21 @@ Expose your BizTalk SOAP endpoints as services within Azure API Management.
 > [What is API Management?](https://docs.microsoft.com/azure/api-management/api-management-key-concepts) is a great resource to understand and learn more about this Azure service.
 
 ## Prerequisites
+
 * Configure and set up [Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-get-started)
 * Create a [virtual network](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet) between your BizTalk computer and the API Management instance
 * Install [Feature Pack 2](https://aka.ms/bts2016fp2) on the BizTalk Server
 
 ## Create using API Management in Azure portal 
+
 1. In the [Azure portal](https://portal.azure.com), open up your API management, and select **APIs**:
 
-	![select API for BizTalk](../core/media/select-api-for-biztalk.png)
-	
+    ![select API for BizTalk](../core/media/select-api-for-biztalk.png)
+
 2. Select **WSDL**:
 
-	![select wsdl biztalk api](../core/media/select-wsdl-biztalk-api.png)
-	
+    ![select wsdl biztalk api](../core/media/select-wsdl-biztalk-api.png)
+
 3. Configure your WSDL properties: 
 
    1. **WSDL specification** : Enter the full URI to your BizTalk SOAP endpoint. For example, enter something like `http://10.0.31.22/RestEndPoint/OrderIncome.svc?wsdl` or `http://biztalkfp1.westus.cloudapp.azure.com/RestEndPoint/OrderIncome.svc?wsdl`.  
@@ -84,11 +86,12 @@ Expose your BizTalk SOAP endpoints as services within Azure API Management.
       When finished, your properties look similar to the following:  
       ![publish to API window](../core/media/api-management-publish-window.png)
 
-
 3. Select **Publish**. When successful, the receive location is displayed as a service in API Management in the [Azure portal](https://portal.azure.com). 
 
 ## Do more
+
 Azure API Management is a powerful service that is used by a lot of Azure services, including Logic Apps. API Management includes many features, including rate limits and quotas, who has access to your APIs, caching, and more. See [What is API Management?](https://docs.microsoft.com/azure/api-management/api-management-key-concepts) to get started.
 
 ## See also
+
 [Configure the feature pack](configure-the-feature-pack.md)

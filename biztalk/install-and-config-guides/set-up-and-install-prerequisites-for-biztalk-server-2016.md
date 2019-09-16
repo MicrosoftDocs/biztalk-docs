@@ -18,29 +18,33 @@ ms.author: "mandia"
 ---
 
 # Set up and install prerequisites for BizTalk Server 2016
+
 Set up the server, and install and configure the software prerequisites.
 
 ## Join the Administrators Group
+
 To install and configure BizTalk Server, sign in to the server using an administrator account on the local computer. Add any user accounts that are administering the BizTalk Server to the local Administrators group:
 
-1.	In the Start menu, open **Computer Management**.
+1. In the Start menu, open **Computer Management**.
 
     * Or, open **Administrative Tools**, and then select **Computer Management**.
     * Or, open **Server Manager**, select **Tools**, and then select **Computer Management**.
   
-2.	Expand **Local Users and Groups**, and select **Groups**.
-3.	Right-click the **Administrators** group, and select **Add to Group**. **Add** your accounts, and select **OK** to save your changes. 
+2. Expand **Local Users and Groups**, and select **Groups**.
+3. Right-click the **Administrators** group, and select **Add to Group**. **Add** your accounts, and select **OK** to save your changes. 
 
 ## Change the computer name (optional)
+
 If your computer name is longer than 15 characters, then BizTalk Server configuration fails. To change the computer name to less than 15 characters:
 
-1.	In **Server Manager** > **Dashboard**, select **Local Server**. 
-2.	In **Properties**, select the Computer name property to change it.
+1. In **Server Manager** > **Dashboard**, select **Local Server**. 
+2. In **Properties**, select the Computer name property to change it.
 3. Restart the computer. 
 
 **SEE ALSO** : Windows PowerShell [Rename-Computer](https://technet.microsoft.com/library/hh849792.aspx)
 
 ## Enable Network DTC Access
+
 If BizTalk and SQL Server are installed on separate computers, then enable Network DTC Access on the BizTalk Server and the SQL Server. 
 
 1. In the Start menu, open "dcomcnfg".
@@ -85,8 +89,8 @@ When using Edge, the following message displays:
 To allow Edge to open using the built-in administrator account:
 
 1. In the Start menu, open **Local Security Policy**. Or, open **Server Manager**, select **Tools**, and then select **Local Security Policy**.
-2.	Expand **Local Policies**, and select **Security Options**. 
-3.	Go to the **User Account Control: Admin Approval Mode for the Built-in Administrator account** policy, and **Enable** the policy. 
+2. Expand **Local Policies**, and select **Security Options**. 
+3. Go to the **User Account Control: Admin Approval Mode for the Built-in Administrator account** policy, and **Enable** the policy. 
 4. Select **OK**, and restart your computer.
 
 ## Install Windows Updates
@@ -97,6 +101,7 @@ Be sure to install the latest critical Windows updates.
 2. After installing updates, you may need to restart the computer.
 
 ## Enable IIS
+
 BizTalk Server requires IIS for the following features:
 
 - HTTP adapter
@@ -139,24 +144,28 @@ IIS is included with the operating system as a **Role** or a **Feature**, depend
 
 
 ## Run 64-bit BAM portal (optional)
+
 If you don't use the BAM portal, then you can skip this section. 
 
 The BAM Portal runs in 32-bit mode. If you are using Internet Information Services (IIS) in a 64-bit environment, then set the application pool to run in 32-bit mode. 
 
 #### Using adsutil.vbs
-1.	Open a command prompt as administrator. 
-2.	In the command prompt, type:  
+
+1. Open a command prompt as administrator. 
+2. In the command prompt, type:  
     `cscript c:\inetpub\adminscripts\adsutil.vbs SET W3SVC/AppPools/Enable32bitAppOnWin64 1`
 3. Select Enter.
 
 #### Using IIS Manager
+
 1. In the Start menu, open "inetmgr".
-2.	Expand the computer name, and select **Application Pools**.
-3.	Right-click **DefaultAppPool**, and select **Advanced Settings**. 
-4.	Change the value of **Enable 32-bit Applications** to **True**. 
-5.	Select **OK**.
+2. Expand the computer name, and select **Application Pools**.
+3. Right-click **DefaultAppPool**, and select **Advanced Settings**. 
+4. Change the value of **Enable 32-bit Applications** to **True**. 
+5. Select **OK**.
 
 ## Install Windows Identity Foundation (WIF) (optional)
+
 If you use the SharePoint Services adapter, BizTalk Server requires WIF. If you don't use the SharePoint Services adapter, you can skip this section.
 
 Windows Identity Foundation is included with the operating system as a **Feature**.
@@ -166,6 +175,7 @@ Windows Identity Foundation is included with the operating system as a **Feature
 3. Restart the computer if prompted.
 
 ## Install & configure SMTP Server (optional)
+
 If you use BAM Alerts, BizTalk Server requires SMTP Server. If you don't use BAM Alerts, you can skip this section.
 
 SQL Server Database Mail uses an SMTP Server to send BAM Alerts. SMTP Server can be installed locally on the BizTalk Server or on another server with IIS installed. SMTP Server is not available on client operating systems, such as Windows 8.1 or Windows 10. 
@@ -177,6 +187,7 @@ SMTP Server is included with server operating systems as a **Feature**.
 3. Restart the computer if prompted.
 
 ## Install Excel 2016 or 2013 (optional)
+
 If you use Business Activity Monitoring (BAM), BizTalk Server requires Excel. If you don't use BAM, you can skip this section.
 
 The BAM Office Excel Workbook defines the business processes you want to monitor. You also use the BAM Excel Workbook to define the way business users see the data collected by BAM.
@@ -193,7 +204,7 @@ Office 2016 is installed using "Click-to-Run" or "C2R Installer". The C2R instal
 2. In the folder with the Office 2016 Deployment Tool files you extracted, open the **configuration.xml** file with a text editor, such as notepad.
 3. Replace the `<Configuration>` section with the following:  
 
-    ```
+    ```xml
     <Configuration>
     <Add SourcePath="D:\" OfficeClientEdition="32">
     <Product ID="O365ProPlusRetail" >
@@ -215,8 +226,8 @@ Office 2016 is installed using "Click-to-Run" or "C2R Installer". The C2R instal
     </Add>
     </Configuration>
     ```
-	
-  	Replace “SourcePath” with the location of your Office 2016 ISO file.
+
+    Replace “SourcePath” with the location of your Office 2016 ISO file.
 4. In the folder with the Office 2016 Deployment Tool files, hold down the **SHIFT** key, and right-click an empty area in the folder. Select **Open command window here**. 
 5. Start the Excel installation by entering the following:  
   `setup.exe /configure configuration.xml`
@@ -229,6 +240,7 @@ Office 2016 is installed using "Click-to-Run" or "C2R Installer". The C2R instal
 **SEE ALSO** : [Configuration options for the Office Deployment Tool](https://technet.microsoft.com/library/jj219426.aspx) and [Install Office 2016 or 2013](https://support.office.com/article/Install-Office-on-your-PC-or-Mac-4414eaaf-0478-48be-9c42-23adc4716658)
 
 #### Install Excel 2013
+
 1. Run the Microsoft Office setup.
 2. Select a **Custom Install**, and select Excel.
 3. Continue with the installation.   
@@ -240,6 +252,7 @@ Download and install the [Visual C++ redistributable package](https://support.mi
 The [Visual C++ downloads](https://support.microsoft.com/help/2977003/the-latest-supported-visual-c-downloads) lists all the available versions.
 
 ## Install Visual Studio 2015 (optional)
+
 BizTalk Server requires Visual Studio to create BizTalk projects using the development tools. If this is a staging or production server, or you're not doing any BizTalk development, then skip this section.
 
 Visual Studio Enterprise Edition is recommended, but Professional and Community editions are also supported. 
@@ -261,15 +274,17 @@ Visual Studio Enterprise Edition is recommended, but Professional and Community 
 > - The BizTalk Server runtime requires .NET Framework 4.6. If the Windows Communication Foundation (WCF) adapter or WCF Interceptor is installed, then .NET Framework 3.0 is required
 
 #### Uninstall SQL Server Express
+
 1. In the Start menu, open **Programs and Features**. Or, open the **Control Panel**, and select **Uninstall a program**.
 2. Uninstall: 
     - Microsoft SQL Server 2014 Express LocalDb
     - Microsoft SQL Server Compact 4.0 SP1 x64 ENU
     - Microsoft SQL Server 2016 LocalDB (SQL Server 2016 Express LocalDB)
-	
+
 3. Continue with the uninstall, and restart your computer if prompted. 
 
 ## Install SQL Server 2016
+
 BizTalk Server requires SQL Server. SQL Server can be installed on the same computer as BizTalk, or on a different computer. Most production environments install BizTalk and SQL on separate servers. 
 
 > [!IMPORTANT]
@@ -329,15 +344,17 @@ If you use BAM Alerts, BizTalk Server requires SQL Server Database Mail. If you 
 
    
 To send a test email: 
-1.	Right-click **Database Mail**, and select **Send Test E-Mail**. 
-2.	Enter a **To:** email address, and select **Send Test E-Mail**.  
+1. Right-click **Database Mail**, and select **Send Test E-Mail**. 
+2. Enter a **To:** email address, and select **Send Test E-Mail**.  
  
 If the **To:** recipient receives the email, then Database Mail is configured. 
 
 ## Install WinSCP (optional)
+
 Required by the FTP adapter. If you don't use the FTP adapter, then skip this section. 
 
 Download and install [WinSCP](http://winscp.net). 
 
 ## Next step
+
 Install [BizTalk Server 2016](../install-and-config-guides/install-biztalk-server-2016.md).

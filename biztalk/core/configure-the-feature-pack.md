@@ -55,7 +55,6 @@ A setup log is created in `C:\ProgramData\Microsoft\E-Business Servers Updates\U
 
 **Office 365 Adapters**
 
-
 Microsoft Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. By combining best-in-class apps like Excel and Outlook with powerful cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
 
 Microsoft BizTalk Server adapters for Office 365 enable IT professionals and enterprise developers to integrate Outlook mail, contacts, and schedules with new solutions based on BizTalk Server 2016.
@@ -144,3 +143,7 @@ Use the WCF-SQL adapter to query encrypted columns from an Always Encrypted data
 #### [Integrate with API Management](../core/connect-to-azure-api-management.md)
 
 Within your Azure API management service, you can create and expose an API as WSDL, and use the URI to a BizTalk SOAP endpoint.  
+
+## Uninstall the feature pack
+
+To uninstall the feature pack, be sure you're signed in as an administrator. Otherwise, the uninstall may not complete successfully, and the BizTalk Server project templates in Visual Studio may be removed.
