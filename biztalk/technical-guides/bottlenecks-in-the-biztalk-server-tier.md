@@ -189,7 +189,7 @@ The BizTalk tier can be divided into the following functional areas:
   
  If one of the Application Queues is growing, diagnose the cause of this growth. Monitor the system resources on the system that is unable to drain the specific Application Queue (for example, Orchestration Host-Q is growing due to CPU starvation on the server). In addition, verify the values of the throttling counter for the specific host instance.  
   
- If the BizTalk:Messsage Agent Message Delivery Throttling State and Message Publishing Throttling State performance counters are not zero, check the value to confirm the reason for throttling (for example, memory threshold exceeded, in-flight message count too high, and so on).  
+ If the BizTalk:Message Agent Message Delivery Throttling State and Message Publishing Throttling State performance counters are not zero, check the value to confirm the reason for throttling (for example, memory threshold exceeded, in-flight message count too high, and so on).  
   
 ## Stand-Alone Profiler  
  You can use performance counters to detect the location of the bottleneck at a high level. However, once narrowed down, you might need to examine the code more closely to help ease the problem. The Stand-Alone Profiler that ships with Visual Studio 2010 can be a very helpful tool to help diagnose where the code is spending most of its cycles. For more information, see  
