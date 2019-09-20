@@ -58,7 +58,7 @@ You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapt
 -   Until more data is added to the ACCOUNTACTIVITY table, you will continue to get empty response messages. So, you must repopulate the ACCOUNTACTIVITY table with new records. You can do so by running the more_activity_data.sql script provided with the samples. After you run this script, the next polling operation will fetch the new records inserted into the table.  
 
 ## How to Receive Data-change Messages from Oracle  
- Performing an operation on Oracle database using [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves the following procedural tasks described in [Building blocks to create Oracle E-Business Suite aplications](../../adapters-and-accelerators/adapter-oracle-ebs/building-blocks-to-create-oracle-e-business-suite-applications.md). To configure the adapter to poll Oracle database using a stored procedure, these tasks are:  
+ Performing an operation on Oracle database using [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves the following procedural tasks described in [Building blocks to create Oracle E-Business Suite applications](../../adapters-and-accelerators/adapter-oracle-ebs/building-blocks-to-create-oracle-e-business-suite-applications.md). To configure the adapter to poll Oracle database using a stored procedure, these tasks are:  
 
 1. Create a BizTalk project, and generate schema for the stored procedure you want to use for polling.  
 
