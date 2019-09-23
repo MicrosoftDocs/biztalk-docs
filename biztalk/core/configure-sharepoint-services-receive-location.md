@@ -15,40 +15,40 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configure SharePoint Services Receive Location
-This topic lists the steps to create a [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] receive location.  
+This topic lists the steps to create a [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] receive location.
 
-## Create a Receive Location  
- When creating a receive location, the receive location uses the default Receive Handler associated with Transport Type. When using the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter, the default Receive Handler is **BizTalkServerApplication**. For the steps to add a new Receive Handler, go to [How to Create an Adapter Handler](http://go.microsoft.com/fwlink/p/?LinkId=263646).  
+## Create a Receive Location
+ When creating a receive location, the receive location uses the default Receive Handler associated with Transport Type. When using the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter, the default Receive Handler is **BizTalkServerApplication**. For the steps to add a new Receive Handler, go to [How to Create an Adapter Handler](https://go.microsoft.com/fwlink/p/?LinkId=263646).
 
- Create the Receive Location:  
+ Create the Receive Location:
 
-1. In the **BizTalk Server Administration** console, expand **BizTalk Group [*GroupName*]**, expand **Applications**, and then expand the application to contain the receive location.  
+1. In the **BizTalk Server Administration** console, expand **BizTalk Group [*GroupName*]**, expand **Applications**, and then expand the application to contain the receive location.
 
-2. Create a **One-way Receive Port**. [How to Create a Receive Port](../core/how-to-create-a-receive-port.md) lists the steps.  
-
-   > [!IMPORTANT]
-   >  A **Request Response Receive Location** is not configurable with the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter.  
-
-    Additional Receive Port configuration options include:  
-
-    [How to Add a Receive Location to a Receive Port](../core/how-to-add-a-receive-location-to-a-receive-port.md): A receive location is added in the next step.  
-
-    [How to Configure Inbound Maps for a Receive Port](../core/how-to-configure-inbound-maps-for-a-receive-port.md)  
-
-    [How to Configure Tracking for a Receive Port](../core/how-to-configure-tracking-for-a-receive-port.md)  
-
-3. Click **OK** to save the settings.  
-
-4. Right-click **Receive Locations**, click **New**, and then click **One-way Receive Location**.  
+2. Create a **One-way Receive Port**. [How to Create a Receive Port](../core/how-to-create-a-receive-port.md) lists the steps.
 
    > [!IMPORTANT]
-   >  A **Request Response Receive Location** is not configurable with the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter.  
+   >  A **Request Response Receive Location** is not configurable with the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter.
 
-5. Select the receive port and then click **OK**.  
+    Additional Receive Port configuration options include:
 
-6. In  **Properties**, enter the **Name** and **pipeline** properties. In the **Type** drop-down list, click **Windows SharePoint Services** and select the **Receive Handler** property.  
+    [How to Add a Receive Location to a Receive Port](../core/how-to-add-a-receive-location-to-a-receive-port.md): A receive location is added in the next step.
 
-7. Click **Configure**. In  **Properties**, configure the following:  
+    [How to Configure Inbound Maps for a Receive Port](../core/how-to-configure-inbound-maps-for-a-receive-port.md)
+
+    [How to Configure Tracking for a Receive Port](../core/how-to-configure-tracking-for-a-receive-port.md)
+
+3. Click **OK** to save the settings.
+
+4. Right-click **Receive Locations**, click **New**, and then click **One-way Receive Location**.
+
+   > [!IMPORTANT]
+   >  A **Request Response Receive Location** is not configurable with the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter.
+
+5. Select the receive port and then click **OK**.
+
+6. In  **Properties**, enter the **Name** and **pipeline** properties. In the **Type** drop-down list, click **Windows SharePoint Services** and select the **Receive Handler** property.
+
+7. Click **Configure**. In  **Properties**, configure the following:
 
 
    |                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -71,25 +71,25 @@ This topic lists the steps to create a [!INCLUDE[btsWinSharePointSvcsNoVersion](
    |  SharePoint Online Username  |                                                                                                                                                                                                                                                                                                                                                                                                                                                      **Optional**. The username for the SharePoint online account.                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 
-8. Click **OK** save the settings.  
+8. Click **OK** save the settings.
 
-9. Additional Receive Location configuration options include:  
+9. Additional Receive Location configuration options include:
 
-     [How to Configure Scheduling for a Receive Location](../core/how-to-configure-scheduling-for-a-receive-location.md)  
+     [How to Configure Scheduling for a Receive Location](../core/how-to-configure-scheduling-for-a-receive-location.md)
 
-10. Click **OK** save the settings.  
+10. Click **OK** save the settings.
 
-    Additional Receive Port and Receive Location topics:  
+    Additional Receive Port and Receive Location topics:
 
-    [Managing Receive Ports](../core/managing-receive-ports.md)  
+    [Managing Receive Ports](../core/managing-receive-ports.md)
 
-    [Managing Receive Locations](../core/managing-receive-locations.md)  
+    [Managing Receive Locations](../core/managing-receive-locations.md)
 
-    Next, create a [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] Send Port:  
+    Next, create a [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnoversion-md.md)] Send Port:
 
-    [Configure SharePoint Services Send Port](../core/configure-sharepoint-services-send-port.md)  
+    [Configure SharePoint Services Send Port](../core/configure-sharepoint-services-send-port.md)
 
-## See Also  
- [Configure SharePoint Services Send Port](../core/configure-sharepoint-services-send-port.md)   
- [Troubleshooting SharePoint Services Adapter](../core/troubleshooting-sharepoint-services-adapter.md)   
+## See Also
+ [Configure SharePoint Services Send Port](../core/configure-sharepoint-services-send-port.md)
+ [Troubleshooting SharePoint Services Adapter](../core/troubleshooting-sharepoint-services-adapter.md)
  [CSOM: SharePoint Services Adapter](../core/csom-sharepoint-services-adapter.md)

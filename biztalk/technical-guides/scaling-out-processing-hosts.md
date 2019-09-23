@@ -14,9 +14,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Scaling Out Processing Hosts
-For information about scaling out processing hosts, see [Scaled-Out Processing Hosts](http://go.microsoft.com/fwlink/?LinkId=151285) (http://go.microsoft.com/fwlink/?LinkId=151285).  
-  
-## See Also  
- [Scaling Out Receiving Hosts](../technical-guides/scaling-out-receiving-hosts.md)   
- [Clustering Receiving Hosts](../technical-guides/clustering-receiving-hosts.md)   
+For information about scaling out processing hosts, see [Scaled-Out Processing Hosts](https://go.microsoft.com/fwlink/?LinkId=151285) (https://go.microsoft.com/fwlink/?LinkId=151285).
+
+## See Also
+ [Scaling Out Receiving Hosts](../technical-guides/scaling-out-receiving-hosts.md)
+ [Clustering Receiving Hosts](../technical-guides/clustering-receiving-hosts.md)
  [Scaling Out Sending Hosts](../technical-guides/scaling-out-sending-hosts.md)

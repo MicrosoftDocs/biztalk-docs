@@ -15,29 +15,29 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Administrative and performance tools 
+# Administrative and performance tools
 
 ## Tools list
-You can use the following tools to administer BizTalk ServerBizTalk Server, to manage BizTalk Server groups, to deploy BizTalk Server applications, to interact with trading partners, and to monitor the status of BizTalk Server:  
-  
-- **BizTalk Server Administration console**. The BizTalk Server Administration console is the primary management tool for BizTalk Server. It provides a graphical user interface for performing all of the deployment operations for a BizTalk application. For example, you can start the Import, Installation, and Export Wizards as well as add and remove an application's artifacts and make other modifications to the application.  
-  
-   Using the BizTalk Server Administration console, you can use view live or archived message event or service instance data to track the health of your BizTalk Server implementation, identify bottlenecks, and monitor the BizTalk Server environment. You can view the technical details of a particular orchestration, pipeline, or message instance, as well as see the message flow of a particular message that enters the system.  
-  
-   For information about using the BizTalk Server Administration console, see [Using the BizTalk Server Administration Console](../core/using-the-biztalk-server-administration-console.md).  
-  
-- **BTSTask command-line tool**. BTSTask enables you to perform many administrative tasks from the command line. For more information about using BTSTask, see [BTSTask Command-Line Reference](../core/btstask-command-line-reference.md).  
-  
+You can use the following tools to administer BizTalk ServerBizTalk Server, to manage BizTalk Server groups, to deploy BizTalk Server applications, to interact with trading partners, and to monitor the status of BizTalk Server:
+
+- **BizTalk Server Administration console**. The BizTalk Server Administration console is the primary management tool for BizTalk Server. It provides a graphical user interface for performing all of the deployment operations for a BizTalk application. For example, you can start the Import, Installation, and Export Wizards as well as add and remove an application's artifacts and make other modifications to the application.
+
+   Using the BizTalk Server Administration console, you can use view live or archived message event or service instance data to track the health of your BizTalk Server implementation, identify bottlenecks, and monitor the BizTalk Server environment. You can view the technical details of a particular orchestration, pipeline, or message instance, as well as see the message flow of a particular message that enters the system.
+
+   For information about using the BizTalk Server Administration console, see [Using the BizTalk Server Administration Console](../core/using-the-biztalk-server-administration-console.md).
+
+- **BTSTask command-line tool**. BTSTask enables you to perform many administrative tasks from the command line. For more information about using BTSTask, see [BTSTask Command-Line Reference](../core/btstask-command-line-reference.md).
+
 - **Scripting and programmability APIs**. You can use Microsoft Windows Management Instrumentation (WMI) Object Model to create and run scripts that automate administrative tasks. For information about using WMI, see the **WMI Class Reference** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
-  
-   The WMI object model exposes and simplifies administrative APIs. All administration APIs expose some form of the following operations on every object they manage: create, enumerate, modify, and delete. WMI exposes this functionality in a consistent manner for all WMI objects.  
-  
-- **Business Activity Monitoring (BAM).** BAM uses a Microsoft Office Excel workbook to provide business users with a way to see a real-time holistic view of business processes. For more information about BAM, see [Using Business Activity Monitoring](../core/using-business-activity-monitoring.md).  
+
+   The WMI object model exposes and simplifies administrative APIs. All administration APIs expose some form of the following operations on every object they manage: create, enumerate, modify, and delete. WMI exposes this functionality in a consistent manner for all WMI objects.
+
+- **Business Activity Monitoring (BAM).** BAM uses a Microsoft Office Excel workbook to provide business users with a way to see a real-time holistic view of business processes. For more information about BAM, see [Using Business Activity Monitoring](../core/using-business-activity-monitoring.md).
 
 
-- [**BizTalk Health Monitor**](http://blogs.msdn.com/b/biztalkhealthmonitor/ "BizTalk Health Monitor ") was created by the BizTalk support team to collect information about a BizTalk environment, including table usage and known issues. An report is generated with potential problem areas highlighted. Consider executing this tool and reviewing the output on a regular basis to help maintain your BizTalk environment. This replaces BizTalk MsbBox Viewer.
+- [**BizTalk Health Monitor**](https://blogs.msdn.com/b/biztalkhealthmonitor/ "BizTalk Health Monitor ") was created by the BizTalk support team to collect information about a BizTalk environment, including table usage and known issues. An report is generated with potential problem areas highlighted. Consider executing this tool and reviewing the output on a regular basis to help maintain your BizTalk environment. This replaces BizTalk MsbBox Viewer.
 
-- [**BizTalk Terminator Tool**](https://www.microsoft.com/download/en/details.aspx?id=2846 "BizTalk Terminator Tool") was created by the BizTalk support team to resolve common database integrity issues typically found in the BizTalk MsgBox Viewer output. Common tasks include removing instances and purging large tables. For more information about the BizTalk Terminator tool, go to [this post](http://blogs.msdn.com/b/biztalkcpr/archive/2011/02/10/using-biztalk-terminator-to-resolve-issues-identified-by-biztalk-msgboxviewer.aspx) in One Blog for BizTalk Engineers.
+- [**BizTalk Terminator Tool**](https://www.microsoft.com/download/en/details.aspx?id=2846 "BizTalk Terminator Tool") was created by the BizTalk support team to resolve common database integrity issues typically found in the BizTalk MsgBox Viewer output. Common tasks include removing instances and purging large tables. For more information about the BizTalk Terminator tool, go to [this post](https://blogs.msdn.com/b/biztalkcpr/archive/2011/02/10/using-biztalk-terminator-to-resolve-issues-identified-by-biztalk-msgboxviewer.aspx) in One Blog for BizTalk Engineers.
 
 - [**Microsoft BizTalk LoadGen 2007**](https://www.microsoft.com/download/details.aspx?id=14925) generates message transmission loads to run performance and stress tests for your Microsoft BizTalk Server applications, and provides performance counters to monitor the performance of the infrastructure running BizTalk Server.
 
@@ -55,6 +55,6 @@ You can use the following tools to administer BizTalk ServerBizTalk Server, to m
 
 - [**DTCPing**](https://www.microsoft.com/download/details.aspx?id=2868) is designed to assist with troubleshooting Microsoft DTC Firewall Issues, which you'll often see in a multiserver BizTalk deployment.
 
-  
-## See Also  
+
+## See Also
  [Application Deployment and Management Tools](../core/application-deployment-and-management-tools.md)

@@ -15,14 +15,14 @@ Download BizTalk Server sample collections, or browse lists of individual sample
 
 ## BizTalk Server
 
-[BizTalk Server 2009 Code Samples](http://go.microsoft.com/fwlink/?LinkId=146129 "BizTalk Server 2009 Samples")
+[BizTalk Server 2009 Code Samples](https://go.microsoft.com/fwlink/?LinkId=146129 "BizTalk Server 2009 Samples")
 Download the entire collection of BizTalk Server 2009 samples in one download. The RFID samples are on the BizTalk Server media (RFID folder).
 
-[BizTalk Server 2006 R2 Samples](http://go.microsoft.com/fwlink/?LinkId=99676 "BizTalk Server 2006 R2 Samples")
-Download the entire collection of BizTalk Server 2006 R2 samples in one download. Alternatively, to browse and download individual samples, go to [BizTalk Server 2006 R2 Code Samples](http://go.microsoft.com/fwlink/?LinkId=109862).
+[BizTalk Server 2006 R2 Samples](https://go.microsoft.com/fwlink/?LinkId=99676 "BizTalk Server 2006 R2 Samples")
+Download the entire collection of BizTalk Server 2006 R2 samples in one download. Alternatively, to browse and download individual samples, go to [BizTalk Server 2006 R2 Code Samples](https://go.microsoft.com/fwlink/?LinkId=109862).
 
-[BizTalk Server 2006 Samples](http://go.microsoft.com/fwlink/?LinkId=109522 "BizTalk Server 2006 Samples")
-Download the entire collection of samples published for BizTalk Server 2006 in one download. Alternatively, to browse and download individual samples, go to [BizTalk Server 2006 Code Samples](http://go.microsoft.com/fwlink/?LinkId=109861).
+[BizTalk Server 2006 Samples](https://go.microsoft.com/fwlink/?LinkId=109522 "BizTalk Server 2006 Samples")
+Download the entire collection of samples published for BizTalk Server 2006 in one download. Alternatively, to browse and download individual samples, go to [BizTalk Server 2006 Code Samples](https://go.microsoft.com/fwlink/?LinkId=109861).
 
 ## BizTalk Adapter Pack 2010
 

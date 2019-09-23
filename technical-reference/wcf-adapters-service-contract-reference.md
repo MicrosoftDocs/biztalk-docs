@@ -57,32 +57,32 @@ The WCF adapters use untyped message contracts when receiving messages. By using
 
 
   - The WCF adapters choose one of the WCF service contracts to receive messages depending on the channel stack configured in the WCF receive locations.
-    
+
 
     > [!NOTE]
     > <P>For the standard WCF adapters, the channel stack is automatically configured by the WCF configuration properties of the receive locations.</P>
 
-    
+
     To determine which service contract to use, the WCF adapters invoke the **Binding.CanBuildChannelListener** method with **IReplyChannel**, **IReplySessionChannel**, and **IDuplexSessionChannel** against the binding for the WCF receive locations. If any of the method calls returns **true**, the service contracts starting with **ITwoWayAsync** are used to ensure at-least-once delivery. Otherwise, the service contracts starting with **IOneWayAsync** are used to receive messages. Then the WCF adapters choose the service contracts ending with **Txn** for the following cases:
-    
+
       - The **TransactionFlowBindingElement** is added to the channel stack, in which the transaction flow is enabled.
-    
+
       - The **MsmqTransportBindingElement** is added to the channel stack, of which the **ExactlyOnce** property is set to **true**.
-    
+
       - A binding element implementing the **ITransactedBindingElement** is added to the binding, of which the **TransactedReceiveEnabled** property is set to **true**.
 
   - If the **OneWayBindingElement** is added for a WCF request-response receive location, messages incoming through the receive locations can be lost because the **OneWayBindingElement** generates a dummy response immediately before dispatching the messages to the WCF adapters.
 
 ## See Also
 
-[ServiceHost Class](http://go.microsoft.com/fwlink/?linkid=88630)  
-[Binding.CanBuildChannelListener](http://go.microsoft.com/fwlink/?linkid=88633)  
-[IReplyChannel Interface](http://go.microsoft.com/fwlink/?linkid=88636)  
-[IReplySessionChannel Interface](http://go.microsoft.com/fwlink/?linkid=88638)  
-[IDuplexSessionChannel Interface](http://go.microsoft.com/fwlink/?linkid=88639)  
-[TransactionFlowBindingElement Class](http://go.microsoft.com/fwlink/?linkid=88641)  
-[MsmqTransportBindingElement](http://go.microsoft.com/fwlink/?linkid=88642)  
-[ITransactedBindingElement Interface](http://go.microsoft.com/fwlink/?linkid=88643)  
-[ITransactedBindingElement.TransactedReceiveEnabled Property](http://go.microsoft.com/fwlink/?linkid=88645)  
-[OneWayBindingElement Class](http://go.microsoft.com/fwlink/?linkid=88644)
+[ServiceHost Class](https://go.microsoft.com/fwlink/?linkid=88630)
+[Binding.CanBuildChannelListener](https://go.microsoft.com/fwlink/?linkid=88633)
+[IReplyChannel Interface](https://go.microsoft.com/fwlink/?linkid=88636)
+[IReplySessionChannel Interface](https://go.microsoft.com/fwlink/?linkid=88638)
+[IDuplexSessionChannel Interface](https://go.microsoft.com/fwlink/?linkid=88639)
+[TransactionFlowBindingElement Class](https://go.microsoft.com/fwlink/?linkid=88641)
+[MsmqTransportBindingElement](https://go.microsoft.com/fwlink/?linkid=88642)
+[ITransactedBindingElement Interface](https://go.microsoft.com/fwlink/?linkid=88643)
+[ITransactedBindingElement.TransactedReceiveEnabled Property](https://go.microsoft.com/fwlink/?linkid=88645)
+[OneWayBindingElement Class](https://go.microsoft.com/fwlink/?linkid=88644)
 

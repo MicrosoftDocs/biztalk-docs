@@ -14,8 +14,8 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Installation Guide
-This document contains information about the basic installation process for [!INCLUDE[his2013](../includes/his2013-md.md)].  
-  
- You can download the latest version of this topic at [http://go.microsoft.com/fwlink/p/?LinkId=296408](http://go.microsoft.com/fwlink/p/?LinkId=296408).  
-  
+This document contains information about the basic installation process for [!INCLUDE[his2013](../includes/his2013-md.md)].
+
+ You can download the latest version of this topic at [http://go.microsoft.com/fwlink/p/?LinkId=296408](https://go.microsoft.com/fwlink/p/?LinkId=296408).
+
  It is important to read the entire document before you start the installation because it contains hardware and software requirements, correct installation procedures, and other information necessary for successful installation.

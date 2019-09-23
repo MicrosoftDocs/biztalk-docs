@@ -50,8 +50,8 @@ The default is an empty string.</td>
 
 ## See Also
 
-[Subqueues](http://go.microsoft.com/fwlink/?linkid=83344)  
-[Public and private queues](http://go.microsoft.com/fwlink/?linkid=75825)  
-[How to Configure a WCF-NetMsmq Receive Location](https://msdn.microsoft.com/library/bb259976\(v=bts.80\))  
+[Subqueues](https://go.microsoft.com/fwlink/?linkid=83344)
+[Public and private queues](https://go.microsoft.com/fwlink/?linkid=75825)
+[How to Configure a WCF-NetMsmq Receive Location](https://msdn.microsoft.com/library/bb259976\(v=bts.80\))
 [Publishing Service Metadata for the WCF Receive Adapters](https://msdn.microsoft.com/library/bb246083\(v=bts.80\))
 

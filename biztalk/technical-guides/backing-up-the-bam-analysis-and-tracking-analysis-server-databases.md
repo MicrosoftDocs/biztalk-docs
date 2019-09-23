@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Backing Up the BAM Analysis and Tracking Analysis Server Databases
-For information about backing up the BAM Analysis and Tracking Analysis Server databases, see [How to Back Up the BAM Analysis and Tracking Analysis Server Databases](http://go.microsoft.com/fwlink/?LinkId=151392) (http://go.microsoft.com/fwlink/?LinkId=151392).
+For information about backing up the BAM Analysis and Tracking Analysis Server databases, see [How to Back Up the BAM Analysis and Tracking Analysis Server Databases](https://go.microsoft.com/fwlink/?LinkId=151392) (https://go.microsoft.com/fwlink/?LinkId=151392).

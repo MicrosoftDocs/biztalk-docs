@@ -15,15 +15,15 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure a WCF-NetMsmq Receive Location
-You can configure a WCF-NetMsmq receive location either programmatically or by using the BizTalk Administration console.  
+You can configure a WCF-NetMsmq receive location either programmatically or by using the BizTalk Administration console.
 
 ## Configuration properties
 
- The BizTalk Explorer Object Model enables you to create and configure receive locations programmatically. The BizTalk Explorer Object Model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a WCF-NetMsmq receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer Object Model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.  
+ The BizTalk Explorer Object Model enables you to create and configure receive locations programmatically. The BizTalk Explorer Object Model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a WCF-NetMsmq receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer Object Model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.
 
- The **TransportTypeData** property of the **IReceiveLocation** interface does not have to be set. If it is not set, the WCF-NetMsmq adapter uses the default values for the WCF-NetMsmq receive location configuration as indicated in the following table.  
+ The **TransportTypeData** property of the **IReceiveLocation** interface does not have to be set. If it is not set, the WCF-NetMsmq adapter uses the default values for the WCF-NetMsmq receive location configuration as indicated in the following table.
 
- The following table lists the configuration properties that you can set in the BizTalk Explorer Object Model for the WCF-NetMsmq receive location.  
+ The following table lists the configuration properties that you can set in the BizTalk Explorer Object Model for the WCF-NetMsmq receive location.
 
 
 |           Property name            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Type                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                Description                                                                                                                                                                                                                                                                                                                                                |
@@ -53,118 +53,118 @@ You can configure a WCF-NetMsmq receive location either programmatically or by u
 
 ## Configure a WCF-NetMsmq Receive Location with the BizTalk Administration Console
 
- You can set WCF-NetMsmq receive location adapter variables in the BizTalk Administration console. If properties are not set in the receive location, the default receive handler values set in the BizTalk Administration console are used.  
+ You can set WCF-NetMsmq receive location adapter variables in the BizTalk Administration console. If properties are not set in the receive location, the default receive handler values set in the BizTalk Administration console are used.
 
 > [!NOTE]
->  Before completing the following procedure you must have already added a receive port. For more information, see [How to Create a Receive Port](../core/how-to-create-a-receive-port.md).  
+>  Before completing the following procedure you must have already added a receive port. For more information, see [How to Create a Receive Port](../core/how-to-create-a-receive-port.md).
 
 > [!NOTE]
->  The binding configurations of WCF clients and WCF-NetMsmq receive locations must match. If they do not match, the WCF-NetMsmq receive locations can lose incoming messages.  
+>  The binding configurations of WCF clients and WCF-NetMsmq receive locations must match. If they do not match, the WCF-NetMsmq receive locations can lose incoming messages.
 
-## Configure variables for a WCF-NetMsmq receive location  
+## Configure variables for a WCF-NetMsmq receive location
 
-1. In the BizTalk Administration console, expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application you want to create a receive location in.  
+1. In the BizTalk Administration console, expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application you want to create a receive location in.
 
-2. In the BizTalk Administration console, in the left pane, click the **Receive Port** node. Then in the right pane, right-click the receive port that is associated with an existing receive location or that you want to associate with a new receive location, and then click **Properties**.  
+2. In the BizTalk Administration console, in the left pane, click the **Receive Port** node. Then in the right pane, right-click the receive port that is associated with an existing receive location or that you want to associate with a new receive location, and then click **Properties**.
 
-3. In the **Receive Port Properties** dialog box, in the left pane, select **Receive Locations**, and then in the right pane, double-click an existing receive location or click **New**to create a new receive location.  
+3. In the **Receive Port Properties** dialog box, in the left pane, select **Receive Locations**, and then in the right pane, double-click an existing receive location or click **New**to create a new receive location.
 
-4. In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **WCF-NetMsmq** from the drop-down list, and then click **Configure**.  
+4. In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **WCF-NetMsmq** from the drop-down list, and then click **Configure**.
 
-5. In the **WCF-NetMsmq Transport Properties** dialog box, on the **General** tab, configure the endpoint address and the service identity for the WCF-NetMsmq receive location. For more information about the **General** tab in the **WCF-NetMsmq Transport Properties** dialog box, see the **WCF-NetMsmq Transport Properties Dialog Box, Receive, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+5. In the **WCF-NetMsmq Transport Properties** dialog box, on the **General** tab, configure the endpoint address and the service identity for the WCF-NetMsmq receive location. For more information about the **General** tab in the **WCF-NetMsmq Transport Properties** dialog box, see the **WCF-NetMsmq Transport Properties Dialog Box, Receive, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
-6. In the **WCF-NetMsmq Transport Properties** dialog box, on the **Binding** tab, configure the time-out and transaction properties. For more information about the **Binding** tab in the **WCF-NetMsmq Transport Properties** dialog box, see the **WCF-NetMsmq Transport Properties Dialog Box, Receive, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+6. In the **WCF-NetMsmq Transport Properties** dialog box, on the **Binding** tab, configure the time-out and transaction properties. For more information about the **Binding** tab in the **WCF-NetMsmq Transport Properties** dialog box, see the **WCF-NetMsmq Transport Properties Dialog Box, Receive, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
-7. In the **WCF-NetMsmq Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-NetMsmq receive location. For more information about the **Security** tab in the **WCF-NetMsmq Transport Properties** dialog box, see the **WCF-NetMsmq Transport Properties Dialog Box, Receive, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+7. In the **WCF-NetMsmq Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-NetMsmq receive location. For more information about the **Security** tab in the **WCF-NetMsmq Transport Properties** dialog box, see the **WCF-NetMsmq Transport Properties Dialog Box, Receive, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
-8. In the **WCF-NetMsmq Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-NetMsmq Transport Properties** dialog box, see the **WCF-NetMsmq Transport Properties Dialog Box, Receive, Messages** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]. 
+8. In the **WCF-NetMsmq Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-NetMsmq Transport Properties** dialog box, see the **WCF-NetMsmq Transport Properties Dialog Box, Receive, Messages** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
 ## Configure a WCF-NetMsmq Receive Location Programmatically
 
- You can use the following format to set the properties:  
+ You can use the following format to set the properties:
 
 ```xml
-<CustomProps>  
-  <ServiceCertificate vt="8" />  
-  <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
-  <InboundBodyPathExpression vt="8" />  
-  <MessageClientCredentialType vt="8">Windows</MessageClientCredentialType>  
-  <SendTimeout vt="8">00:01:00</SendTimeout>  
-  <IncludeExceptionDetailInFaults vt="11">0</IncludeExceptionDetailInFaults>  
-  <OpenTimeout vt="8">00:01:00</OpenTimeout>  
-  <AlgorithmSuite vt="8">Basic256</AlgorithmSuite>  
-  <MaxConcurrentCalls vt="3">16</MaxConcurrentCalls>  
-  <SecurityMode vt="8">Transport</SecurityMode>  
-  <OrderedProcessing vt="11">0</OrderedProcessing>  
-  <CloseTimeout vt="8">00:01:00</CloseTimeout>  
-  <MsmqEncryptionAlgorithm vt="8">RC4Stream</MsmqEncryptionAlgorithm>  
-  <MaxReceivedMessageSize vt="3">2097152</MaxReceivedMessageSize>  
-  <MsmqProtectionLevel vt="8">Sign</MsmqProtectionLevel>  
-  <DisableLocationOnFailure vt="11">0</DisableLocationOnFailure>  
-  <MsmqSecureHashAlgorithm vt="8">Sha1</MsmqSecureHashAlgorithm>  
-  <SuspendMessageOnFailure vt="11">-1</SuspendMessageOnFailure>  
-  <EnableTransaction vt="11">-1</EnableTransaction>  
-  <InboundNodeEncoding vt="8">Xml</InboundNodeEncoding>  
-  <MsmqAuthenticationMode vt="8">WindowsDomain</MsmqAuthenticationMode>  
-</CustomProps>  
+<CustomProps>
+  <ServiceCertificate vt="8" />
+  <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>
+  <InboundBodyPathExpression vt="8" />
+  <MessageClientCredentialType vt="8">Windows</MessageClientCredentialType>
+  <SendTimeout vt="8">00:01:00</SendTimeout>
+  <IncludeExceptionDetailInFaults vt="11">0</IncludeExceptionDetailInFaults>
+  <OpenTimeout vt="8">00:01:00</OpenTimeout>
+  <AlgorithmSuite vt="8">Basic256</AlgorithmSuite>
+  <MaxConcurrentCalls vt="3">16</MaxConcurrentCalls>
+  <SecurityMode vt="8">Transport</SecurityMode>
+  <OrderedProcessing vt="11">0</OrderedProcessing>
+  <CloseTimeout vt="8">00:01:00</CloseTimeout>
+  <MsmqEncryptionAlgorithm vt="8">RC4Stream</MsmqEncryptionAlgorithm>
+  <MaxReceivedMessageSize vt="3">2097152</MaxReceivedMessageSize>
+  <MsmqProtectionLevel vt="8">Sign</MsmqProtectionLevel>
+  <DisableLocationOnFailure vt="11">0</DisableLocationOnFailure>
+  <MsmqSecureHashAlgorithm vt="8">Sha1</MsmqSecureHashAlgorithm>
+  <SuspendMessageOnFailure vt="11">-1</SuspendMessageOnFailure>
+  <EnableTransaction vt="11">-1</EnableTransaction>
+  <InboundNodeEncoding vt="8">Xml</InboundNodeEncoding>
+  <MsmqAuthenticationMode vt="8">WindowsDomain</MsmqAuthenticationMode>
+</CustomProps>
 
-```  
+```
 
- The following code fragment illustrates creating a WCF-NetMsmq receive location:  
+ The following code fragment illustrates creating a WCF-NetMsmq receive location:
 
 ```csharp
-// Use BizTalk Explorer object model to create new WCF-NetMsmq receive location   
-string server = System.Environment.MachineName;  
-string database = "BizTalkMgmtDb";  
-string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);  
-string transportConfigData = @"<CustomProps>  
-  <InboundBodyLocation vt=""8"">UseBodyElement</InboundBodyLocation>  
-  <UseSSO vt=""11"">0</UseSSO>  
-  <Identity vt=""8"">  
-    <identity>  
-    <userPrincipalName value=""username@contoso.com"" />  
-    </identity>  
-  </Identity>  
-</CustomProps>";  
-//requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll  
-BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();  
-explorer.ConnectionString = connectionString;  
-// Add a new BizTalk application  
-Application application = explorer.AddNewApplication();  
-application.Name = "SampleBizTalkApplication";  
-// Save  
-explorer.SaveChanges();  
+// Use BizTalk Explorer object model to create new WCF-NetMsmq receive location
+string server = System.Environment.MachineName;
+string database = "BizTalkMgmtDb";
+string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);
+string transportConfigData = @"<CustomProps>
+  <InboundBodyLocation vt=""8"">UseBodyElement</InboundBodyLocation>
+  <UseSSO vt=""11"">0</UseSSO>
+  <Identity vt=""8"">
+    <identity>
+    <userPrincipalName value=""username@contoso.com"" />
+    </identity>
+  </Identity>
+</CustomProps>";
+//requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll
+BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();
+explorer.ConnectionString = connectionString;
+// Add a new BizTalk application
+Application application = explorer.AddNewApplication();
+application.Name = "SampleBizTalkApplication";
+// Save
+explorer.SaveChanges();
 
-// Add a new one-way receive port  
-IReceivePort receivePort = application.AddNewReceivePort(false);  
-receivePort.Name = "SampleReceivePort";  
-// Add a new one-way receive location  
-IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
-receiveLocation.Name = "SampleReceiveLocation";  
-// Find a receive handler for WCF-NetMsmq   
-int i = 0;  
-for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
-{  
-    if("WCF-NetMsmq" == explorer.ReceiveHandlers[i].TransportType.Name)  
-        break;  
-}  
-receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-receiveLocation.Address = "net.msmq://mycomputer/private/sampleQueue";  
-receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-receiveLocation.TransportType = explorer.ProtocolTypes["WCF-NetMsmq"];  
-receiveLocation.TransportTypeData = transportConfigData;  
-// Save  
-explorer.SaveChanges();   
-```  
+// Add a new one-way receive port
+IReceivePort receivePort = application.AddNewReceivePort(false);
+receivePort.Name = "SampleReceivePort";
+// Add a new one-way receive location
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();
+receiveLocation.Name = "SampleReceiveLocation";
+// Find a receive handler for WCF-NetMsmq
+int i = 0;
+for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
+{
+    if("WCF-NetMsmq" == explorer.ReceiveHandlers[i].TransportType.Name)
+        break;
+}
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];
+receiveLocation.Address = "net.msmq://mycomputer/private/sampleQueue";
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-NetMsmq"];
+receiveLocation.TransportTypeData = transportConfigData;
+// Save
+explorer.SaveChanges();
+```
 
-## See Also  
- [Publishing Service Metadata for the WCF Receive Adapters](../core/publishing-service-metadata-for-the-wcf-receive-adapters.md)   
- [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
- [How to Change Service Accounts and Passwords](../core/how-to-change-service-accounts-and-passwords.md)   
- [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)   
- [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md)   
- [Configuring the WCF-NetMsmq Adapter](../core/configuring-the-wcf-netmsmq-adapter.md)   
- [Ordered Delivery of Messages](../core/ordered-delivery-of-messages.md)   
- [Sending and Retrieving Messages within a Transaction](http://go.microsoft.com/fwlink/?LinkID=75752)   
- [Message Queuing and Active Directory](http://go.microsoft.com/fwlink/?LinkID=75769)   
- [Public and private queues](http://go.microsoft.com/fwlink/?LinkId=196673)
+## See Also
+ [Publishing Service Metadata for the WCF Receive Adapters](../core/publishing-service-metadata-for-the-wcf-receive-adapters.md)
+ [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)
+ [How to Change Service Accounts and Passwords](../core/how-to-change-service-accounts-and-passwords.md)
+ [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)
+ [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md)
+ [Configuring the WCF-NetMsmq Adapter](../core/configuring-the-wcf-netmsmq-adapter.md)
+ [Ordered Delivery of Messages](../core/ordered-delivery-of-messages.md)
+ [Sending and Retrieving Messages within a Transaction](https://go.microsoft.com/fwlink/?LinkID=75752)
+ [Message Queuing and Active Directory](https://go.microsoft.com/fwlink/?LinkID=75769)
+ [Public and private queues](https://go.microsoft.com/fwlink/?LinkId=196673)

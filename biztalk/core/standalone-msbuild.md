@@ -15,21 +15,21 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Standalone MSBUILD
-The **Project Build** component of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] allows you to build BizTalk Server solutions without [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. To install the **Project Build** component on your server, select the **Project Build Component** option in the **Additional Software category** during installation. You should unselect the **Developer Tools and SDK** as you are installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a computer without [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
-  
- For more information on MSBUILD, see [http://go.microsoft.com/fwlink/?LinkId=193567](http://go.microsoft.com/fwlink/?LinkId=193567).  
-  
-## To build a BizTalk project  
-  
-1.  Click **Start**, and click **Run**.  
-  
-2.  Type **cmd**, and press ENTER.  
-  
-3.  Switch to the project directory, and run a MSBUILD command to build the BizTalk solution.  
-  
-    ```  
-    msbuild unittesttest.sln /p:Configuration=Debug  
-    ```  
-  
+The **Project Build** component of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] allows you to build BizTalk Server solutions without [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. To install the **Project Build** component on your server, select the **Project Build Component** option in the **Additional Software category** during installation. You should unselect the **Developer Tools and SDK** as you are installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a computer without [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].
+
+ For more information on MSBUILD, see [http://go.microsoft.com/fwlink/?LinkId=193567](https://go.microsoft.com/fwlink/?LinkId=193567).
+
+## To build a BizTalk project
+
+1.  Click **Start**, and click **Run**.
+
+2.  Type **cmd**, and press ENTER.
+
+3.  Switch to the project directory, and run a MSBUILD command to build the BizTalk solution.
+
+    ```
+    msbuild unittesttest.sln /p:Configuration=Debug
+    ```
+
     > [!TIP]
     >  You may need set the PATH environment variable to point to the folder in which msbuild.exe resides (\<*windows installation directory*\>\Microsoft.NET\Framework\v4).

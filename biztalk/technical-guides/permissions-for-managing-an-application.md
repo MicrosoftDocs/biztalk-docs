@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Permissions for Managing an Application
-For information about the permissions required for deploying and managing applications, see [Permissions Required for Deploying and Managing a BizTalk Application](http://go.microsoft.com/fwlink/?LinkId=154733) (http://go.microsoft.com/fwlink/?LinkId=154733).
+For information about the permissions required for deploying and managing applications, see [Permissions Required for Deploying and Managing a BizTalk Application](https://go.microsoft.com/fwlink/?LinkId=154733) (https://go.microsoft.com/fwlink/?LinkId=154733).

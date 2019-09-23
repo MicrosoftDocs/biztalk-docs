@@ -8,7 +8,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "security, Windows SharePoint Services"
   - "Windows SharePoint Services, security"
   - "security, BAS"
@@ -20,14 +20,14 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Windows SharePoint Services Security
-Windows SharePoint Services 3.0 uses Windows SharePoint Services site groups to manage site-wide security. Each site group possesses corresponding rights. Rights are actions that users can perform—such as view, edit, and delete site resources. Resources include site lists, document libraries, and site administration. For each role created in the Profile Web Client you need to define a Windows SharePoint Service site group and assign rights accordingly to each resource to which that group has access.  
-  
- For more information about WSS 3.0 security, see the WSS 3.0 evaluation guide at [http://go.microsoft.com/fwlink/?LinkID=94370](http://go.microsoft.com/fwlink/?LinkID=94370).  
-  
- This section contains:  
-  
--   [Configuring A4SWIFT Users](../../adapters-and-accelerators/accelerator-swift/configuring-a4swift-users.md)  
-  
--   [Configuring A4SWIFT Site Groups](../../adapters-and-accelerators/accelerator-swift/configuring-a4swift-site-groups.md)  
-  
+Windows SharePoint Services 3.0 uses Windows SharePoint Services site groups to manage site-wide security. Each site group possesses corresponding rights. Rights are actions that users can perform—such as view, edit, and delete site resources. Resources include site lists, document libraries, and site administration. For each role created in the Profile Web Client you need to define a Windows SharePoint Service site group and assign rights accordingly to each resource to which that group has access.
+
+ For more information about WSS 3.0 security, see the WSS 3.0 evaluation guide at [http://go.microsoft.com/fwlink/?LinkID=94370](https://go.microsoft.com/fwlink/?LinkID=94370).
+
+ This section contains:
+
+-   [Configuring A4SWIFT Users](../../adapters-and-accelerators/accelerator-swift/configuring-a4swift-users.md)
+
+-   [Configuring A4SWIFT Site Groups](../../adapters-and-accelerators/accelerator-swift/configuring-a4swift-site-groups.md)
+
 -   [Assigning Rights](../../adapters-and-accelerators/accelerator-swift/assigning-rights.md)

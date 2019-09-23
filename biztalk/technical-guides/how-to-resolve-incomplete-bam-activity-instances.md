@@ -14,7 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Resolve Incomplete BAM Activity Instances
-For information about resolving incomplete BAM activity instances, see [How to Resolve Incomplete Activity Instances](http://go.microsoft.com/fwlink/?LinkId=151475) (http://go.microsoft.com/fwlink/?LinkId=151475).  
-  
-## See Also  
+For information about resolving incomplete BAM activity instances, see [How to Resolve Incomplete Activity Instances](https://go.microsoft.com/fwlink/?LinkId=151475) (https://go.microsoft.com/fwlink/?LinkId=151475).
+
+## See Also
  [Backing Up the BAM Analysis and Tracking Analysis Server Databases](../technical-guides/backing-up-the-bam-analysis-and-tracking-analysis-server-databases.md)
