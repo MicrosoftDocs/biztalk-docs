@@ -296,3 +296,10 @@ C:\Program Files (x86)\Microsoft SQL Server\100\DTS\MappingFiles
 - C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\DataWarehouseDesigner\UIRdmsCartridge\db2v0801.xs  
 
   SQL Server Analysis Services uses the updated configuration files to correctly name objects in SQL commands.
+  
+### SQL Server Migration Assistant for DB2
+ When using SQL Server Migration Assistant for DB2 (SSMA) to read DB2 CLOB data, you should define the DB2 connection within SSMA using the connection string option, and then include in the connection string the following argument. 
+ 
+- Use Early Metadata=True
+
+ This argument instructs the Data Provider to use early metadata (parameter and column data types) defined at design time or late metadata defined at runtime. This optional property accepts a Boolean value. The default value is false. Specify true when using SQL Server Migration Assistant (SSMA) for DB2 to read CLOB data, including schema information encoded as CLOB data (e.g. STATEMENT column of SYSIBM.SYSTRIGGERS table.
