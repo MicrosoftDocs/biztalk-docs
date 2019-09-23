@@ -97,7 +97,37 @@ This topic provides instructions to install the Data Provider Version 6.0.
 -   Microsoft OLE DB Provider for DB2 V4.0  
 
 -   Microsoft OLE DB Provider for DB2 V5.0
-  
+
+ Prior to upgrading, Microsoft recommends that you consider the Microsoft SQL Server and IBM DB2 support provided by previous releases of the Microsoft OLE DB Provider for DB2.
+ 
+### Previous Version Platform Support Matrix
+
+||**DB2OLEDB 6.0**|**DB2OLEDB 5.0**|**DB2OLEDB 4.0**|  
+|-|-|-|-|
+|SQL Server 2019|Yes|No|No|
+|SQL Server 2017|Yes|No|No|
+|SQL Server 2016|Yes|Yes|No|
+|SQL Server 2014|No|Yes|No|
+|SQL Server 2012|No|No|Yes|
+|SQL Server 2018 R2|No|No|Yes|
+|DB2 for z/OS 12|Yes|No|No|
+|DB2 for z/OS 11|Yes|No|No|
+|DB2 for z/OS 10|Yes|Yes|No|
+|DB2 for z/OS 9|No|Yes|Yes|
+|DB2 for z/OS 8|No|Yes|Yes|
+|DB2 for i 7.3|Yes|No|No|
+|DB2 for i 7.2|Yes|No|No|
+|DB2 for i 7.1|Yes|Yes|Yes|
+|DB2 for i 6.1|No|Yes|Yes|
+|DB2 for i 5.4|No|Yes|Yes|
+|DB2 for LUW 11.5|Yes|No|No|
+|DB2 for LUW 11|Yes|No|No|
+|DB2 for LUW V10.5|Yes|Yes|No|
+|DB2 for LUW 10|Yes|Yes|No|
+|DB2 for LUW 9.7|No|Yes|Yes|
+|DB2 for LUW 9.5|No|No|Yes|
+|DB2 for LUW 9.1|No|No|Yes|
+
 ## Install the Product  
  There are two options for installing the Data Provider, including interactive installation and unattended installation. The following steps guide you through interactive installation.  
   
