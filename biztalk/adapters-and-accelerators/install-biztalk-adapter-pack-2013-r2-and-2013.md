@@ -158,7 +158,7 @@ Applies to BizTalk Adapter Pack 2013 only.
 
 - **SAP RFC SDK 7.10 UNICODE**. This is available as part of SNOTE<sup>1</sup> 27517. The instructions to download the SDK are available at [http://go.microsoft.com/fwlink/?LinkId=94691](https://go.microsoft.com/fwlink/?LinkId=94691). After you have downloaded and extracted the SDK, copy all the DLLs from the \rfcsdk\bin and \rfcsdk\lib folders to the relevant location mentioned preceding this table.
 
-- DLLs are available from SAP as part of \*\*R3DLLINST.zip\*. <em>This contains Microsoft run-time DLLs and can be downloaded from the SAP site. See SNOTE<sup>1</sup></em> 684106 for more information. You can download the .zip file from [http://go.microsoft.com/fwlink/?LinkId=94693](https://go.microsoft.com/fwlink/?LinkId=94693). This link has an “Attachments” option from where you can download the package.
+- DLLs are available from SAP as part of **R3DLLINST.zip**. This contains Microsoft run-time DLLs and can be downloaded from the SAP site. See SNOTE<sup>1</sup> 684106 for more information. You can download the .zip file from [http://go.microsoft.com/fwlink/?LinkId=94693](https://go.microsoft.com/fwlink/?LinkId=94693). This link has an “Attachments” option from where you can download the package.
 
 - Microsoft Visual C++ run-time DLLs required for SAP 7.1 client are available from the following links:
   - **For 32-bit SAP 7.1 client**:  Vcredist_x86.exe from [http://go.microsoft.com/fwlink/?LinkId=107086](https://go.microsoft.com/fwlink/?LinkId=107086)
