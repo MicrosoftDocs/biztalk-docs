@@ -29,7 +29,7 @@ Download [HIS 2016 Client installation packages](https://www.microsoft.com/downl
 
 ## Migration tool
 
-Migrate earlier versions of HIS to Host Integration Server 2016. This tool also migrates an existing HIS 2016 configuration to another server. 
+Migrate earlier versions of HIS to Host Integration Server 2016. This tool also migrates an existing HIS 2016 configuration to another server.
 
 Download [HIS 2016 Migration Tool](https://www.microsoft.com/download/details.aspx?id=54950).
 
@@ -44,18 +44,18 @@ Download the SDK to get headers, libraries, and code samples for developers to c
 
 Monitor your environments using System Center Operations Manager (SCOM).
 
-- [HIS 2016 Management Pack](http://www.microsoft.com/download/details.aspx?id=55030)
+- [HIS 2016 Management Pack](https://www.microsoft.com/download/details.aspx?id=55030)
 - [HIS 2013 Management Pack](https://www.microsoft.com/download/details.aspx?id=39978)
 
 ## Best practices analyzer
 
-Scans your environment, and verifies your configuration of HIS. 
+Scans your environment, and verifies your configuration of HIS.
 
 Download [HIS 2013 Best Practices Analyzer (BPA)](https://www.microsoft.com/download/details.aspx?id=40325).
 
 ## Guides and white papers
 
-Get assistance and guidance on mainframes and AS/400, installing and configuring the HIS client, and SOA. 
+Get assistance and guidance on mainframes and AS/400, installing and configuring the HIS client, and SOA.
 
 - [Configuring IP-DLC Link Service for IBM Enterprise Extender](https://www.microsoft.com/download/details.aspx?id=17441)
 - [Understanding the Host Integration Server Client](https://www.microsoft.com/download/details.aspx?id=15069)

@@ -19,10 +19,10 @@ ms.author: "mandia"
 Find and manage updates for Host Integration Server (HIS), and the Microsoft OLE DB Provider for DB2 (included in Microsoft SQL Server Feature Packs).
 
 ## Overview
-This page lists the latest updates for the different versions Host Integration Server and Microsoft OLE DB Provider for DB2. 
+This page lists the latest updates for the different versions Host Integration Server and Microsoft OLE DB Provider for DB2.
 
 > [!NOTE]
-> The [Microsoft Product Lifecycle Page](http://support.microsoft.com/lifecycle/) lists the supported state for the different HIS versions.
+> The [Microsoft Product Lifecycle Page](https://support.microsoft.com/lifecycle/) lists the supported state for the different HIS versions.
 
 ## BizTalk Adapters for Host Systems
 There are four BizTalk Adapters for Host Systems that are included with HIS:
@@ -41,18 +41,18 @@ These adapters are updated by the cumulative updates for HIS.
 | HIS 2016 | n/a | CU 2 ([KB 4043569](https://support.microsoft.com/kb/4043569)) |
 | HIS 2013 | n/a | CU 4 ([KB 3108547](https://support.microsoft.com/kb/3108547)) |
 |  HIS 2010 | n/a | CU 10 ([KB 2917398](https://support.microsoft.com/kb/2917398)) |
-|  HIS 2009 | n/a | CU 7 ([KB 2975320](http://support.microsoft.com/kb/2975320)) |
-|  HIS 2006 | SP1 ([KB 979238](http://support.microsoft.com/kb/979238))  | n/a |
-|  HIS 2004 |  SP1 ([KB 940312](http://support.microsoft.com/kb/940312)) | n/a |
+|  HIS 2009 | n/a | CU 7 ([KB 2975320](https://support.microsoft.com/kb/2975320)) |
+|  HIS 2006 | SP1 ([KB 979238](https://support.microsoft.com/kb/979238))  | n/a |
+|  HIS 2004 |  SP1 ([KB 940312](https://support.microsoft.com/kb/940312)) | n/a |
 
 ## OLE DB Provider for DB2 latest updates
 
 | Product Version | Version | Latest Update & Version |
 | --- | --- | --- |
 | [Microsoft OLEDB Provider for DB2 v5.0 for Microsoft SQL Server 2014](https://www.microsoft.com/download/details.aspx?id=42295) | 9.0.2148.0 |[KB 3104962](https://support.microsoft.com/kb/3104962) (9.0.2343.0) <br/><br/>See Note |
-| [Microsoft OLEDB Provider for DB2 v4.0 Refresh for Microsoft SQL Server 2012 SP1](https://www.microsoft.com/download/details.aspx?id=35580) | 9.0.1390.0  | [KB 2913611](http://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
-| [Microsoft OLEDB Provider for DB2 v4.0 for Microsoft SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=29065) | 9.0.1356.0 | [KB 2913611](http://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
-| [Microsoft OLE DB Provider for DB2 Version 3.0 for Microsoft SQL Server 2008 R2](https://www.microsoft.com/download/details.aspx?id=26728) | 8.0.4294.0 | [KB 2827515](http://support.microsoft.com/kb/2827515) (8.0.4329.2) |
+| [Microsoft OLEDB Provider for DB2 v4.0 Refresh for Microsoft SQL Server 2012 SP1](https://www.microsoft.com/download/details.aspx?id=35580) | 9.0.1390.0  | [KB 2913611](https://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
+| [Microsoft OLEDB Provider for DB2 v4.0 for Microsoft SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=29065) | 9.0.1356.0 | [KB 2913611](https://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
+| [Microsoft OLE DB Provider for DB2 Version 3.0 for Microsoft SQL Server 2008 R2](https://www.microsoft.com/download/details.aspx?id=26728) | 8.0.4294.0 | [KB 2827515](https://support.microsoft.com/kb/2827515) (8.0.4329.2) |
 
 > [!NOTE]
 > Updates to the Microsoft OLE DB Provider for DB2 v4.0 and later are released as new MSI installation packages. This requires that the previous version of the Microsoft OLE DB Provider for DB2 provider be removed before installing the updated version.

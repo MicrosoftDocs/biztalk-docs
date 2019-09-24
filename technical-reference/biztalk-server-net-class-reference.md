@@ -12,5 +12,5 @@ mtps_version: v=BTS.80
 
  
 
-For BizTalk Server .NET Class Reference, see [http://go.microsoft.com/fwlink/?LinkId=275853](http://go.microsoft.com/fwlink/?linkid=275853).
+For BizTalk Server .NET Class Reference, see [http://go.microsoft.com/fwlink/?LinkId=275853](https://go.microsoft.com/fwlink/?linkid=275853).
 

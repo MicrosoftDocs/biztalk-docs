@@ -14,9 +14,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Message Editor Pipeline Sample
-This sample demonstrates how to modify the contents of an incoming message by adding a custom component to the receive pipeline.  
-  
- This sample is available from the Microsoft [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Web site at [http://go.microsoft.com/fwlink/?LinkId=37877](http://go.microsoft.com/fwlink/?LinkId=37467).  
-  
-## See Also  
+This sample demonstrates how to modify the contents of an incoming message by adding a custom component to the receive pipeline.
+
+ This sample is available from the Microsoft [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Web site at [http://go.microsoft.com/fwlink/?LinkId=37877](https://go.microsoft.com/fwlink/?LinkId=37467).
+
+## See Also
  [Pipeline Samples](../../adapters-and-accelerators/accelerator-rosettanet/pipeline-samples.md)

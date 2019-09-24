@@ -15,39 +15,39 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configure SharePoint Services Send Port
-This topic compares a Static Send Port with a Dynamic Send Port and also lists the steps to create a [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] send port. Specifically:  
+This topic compares a Static Send Port with a Dynamic Send Port and also lists the steps to create a [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] send port. Specifically:
 
- [Static Send Port versus Dynamic Send Port](../core/configure-sharepoint-services-send-port.md#BKMK_StaticvsDynamic)  
+ [Static Send Port versus Dynamic Send Port](../core/configure-sharepoint-services-send-port.md#BKMK_StaticvsDynamic)
 
- [Create a Static Send Port](../core/configure-sharepoint-services-send-port.md#BKMK_StaticSend)  
+ [Create a Static Send Port](../core/configure-sharepoint-services-send-port.md#BKMK_StaticSend)
 
- [Create a Dynamic Send Port](../core/configure-sharepoint-services-send-port.md#BKMK_DynamicSend)  
+ [Create a Dynamic Send Port](../core/configure-sharepoint-services-send-port.md#BKMK_DynamicSend)
 
-##  <a name="BKMK_StaticvsDynamic"></a> Static Send Port versus Dynamic Send Port  
+##  <a name="BKMK_StaticvsDynamic"></a> Static Send Port versus Dynamic Send Port
 
-||Static Send Port|Dynamic Send Port|  
-|-|----------------------|-----------------------|  
-|Use a single Send Port with different adapters.|No<br /><br /> When creating a Static Send Port, the Transport Type is required.|Yes<br /><br /> A Dynamic Send Port is typically added to an orchestration. The Transport Type is configured in the orchestration logic.|  
-|Use a single Send Port with different send port properties, like URL.|No<br /><br /> When creating a Static Send Port, some adapter properties must be configured, like URL.|Yes<br /><br /> A Dynamic Send Port is typically added to an orchestration. The properties are configured in the orchestration logic.|  
-|Must use the default Send Handler.|No<br /><br /> The Send Handler is configurable when creating a Send Port.|No<br /><br /> The Send Handler is configurable when creating a Send Port.|  
-|Use when you don’t know where the message should go.|No<br /><br /> When creating a Static Send Port, you specify the transport type and end location.|Yes<br /><br /> The end location can be configured in an orchestration and content-based routing scenario. Rules can also be used to filter where the message is sent.|  
-|Use a single Send Port to send messages to multiple Partners.|No<br /><br /> When creating a Static Send Port, you specify the transport type and end location.|Yes<br /><br /> A Dynamic Send Port is typically added to an orchestration. The properties are configured in the orchestration logic and based on rules you specify, messages can be sent to multiple partners.|  
+||Static Send Port|Dynamic Send Port|
+|-|----------------------|-----------------------|
+|Use a single Send Port with different adapters.|No<br /><br /> When creating a Static Send Port, the Transport Type is required.|Yes<br /><br /> A Dynamic Send Port is typically added to an orchestration. The Transport Type is configured in the orchestration logic.|
+|Use a single Send Port with different send port properties, like URL.|No<br /><br /> When creating a Static Send Port, some adapter properties must be configured, like URL.|Yes<br /><br /> A Dynamic Send Port is typically added to an orchestration. The properties are configured in the orchestration logic.|
+|Must use the default Send Handler.|No<br /><br /> The Send Handler is configurable when creating a Send Port.|No<br /><br /> The Send Handler is configurable when creating a Send Port.|
+|Use when you don’t know where the message should go.|No<br /><br /> When creating a Static Send Port, you specify the transport type and end location.|Yes<br /><br /> The end location can be configured in an orchestration and content-based routing scenario. Rules can also be used to filter where the message is sent.|
+|Use a single Send Port to send messages to multiple Partners.|No<br /><br /> When creating a Static Send Port, you specify the transport type and end location.|Yes<br /><br /> A Dynamic Send Port is typically added to an orchestration. The properties are configured in the orchestration logic and based on rules you specify, messages can be sent to multiple partners.|
 
-##  <a name="BKMK_StaticSend"></a> Create a Static Send Port  
- When creating a Static Send Port, the send port uses the default Send Handler associated with Transport Type. When using the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter, the default Send Handler is **BizTalkServerApplication**. For the steps to add a new Send Handler, go to [How to Create an Adapter Handler](http://go.microsoft.com/fwlink/p/?LinkId=263646).  
+##  <a name="BKMK_StaticSend"></a> Create a Static Send Port
+ When creating a Static Send Port, the send port uses the default Send Handler associated with Transport Type. When using the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter, the default Send Handler is **BizTalkServerApplication**. For the steps to add a new Send Handler, go to [How to Create an Adapter Handler](https://go.microsoft.com/fwlink/p/?LinkId=263646).
 
- Create the Static Send Port:  
+ Create the Static Send Port:
 
-1. In the **BizTalk Server Administration** console, expand **BizTalk Group [*GroupName*]**, expand **Applications**, and then expand the application to contain the send port.  
+1. In the **BizTalk Server Administration** console, expand **BizTalk Group [*GroupName*]**, expand **Applications**, and then expand the application to contain the send port.
 
-2. Right-click **Send Ports**, click **New**, and then click **Static One-way Send Port**.  
+2. Right-click **Send Ports**, click **New**, and then click **Static One-way Send Port**.
 
    > [!IMPORTANT]
-   >  A **Static Solicit-Response Send Port** is not configurable with the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter.  
+   >  A **Static Solicit-Response Send Port** is not configurable with the [!INCLUDE[btsWinSharePointSvcsNoVersion](../includes/btswinsharepointsvcsnoversion-md.md)] adapter.
 
-3. In  **Properties**, click **Windows SharePoint Services** in the **Type** drop-down list. Enter the **Name**, **Send Handler**, and **Send Pipeline** properties.  
+3. In  **Properties**, click **Windows SharePoint Services** in the **Type** drop-down list. Enter the **Name**, **Send Handler**, and **Send Pipeline** properties.
 
-4. Click **Configure**. In  **Properties**, configure the following:  
+4. Click **Configure**. In  **Properties**, configure the following:
 
 
    |                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -71,76 +71,76 @@ This topic compares a Static Send Port with a Dynamic Send Port and also lists t
    |          Column `n` Value           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        **Optional**. Enter the column value to be set for this message. You can type in a literal value like 'Purchase Order' or an expression. Expressions can include any mix of literals, macros, and XPATH queries. For example, enter **"%XPATH=//po:POAmount%", "%SendingOrchestrationID%"**. **Note:**  Up to 16 columns can be specified.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 
-5. Click **OK** save the settings.  
+5. Click **OK** save the settings.
 
-6. Additional Send Port configuration options include:  
+6. Additional Send Port configuration options include:
 
-   1.  [How to Configure Transport Advanced Options for a Send Port](../core/how-to-configure-transport-advanced-options-for-a-send-port.md)  
+   1.  [How to Configure Transport Advanced Options for a Send Port](../core/how-to-configure-transport-advanced-options-for-a-send-port.md)
 
-   2.  [How to Configure Backup Transport Options for a Send Port](../core/how-to-configure-backup-transport-options-for-a-send-port.md)  
+   2.  [How to Configure Backup Transport Options for a Send Port](../core/how-to-configure-backup-transport-options-for-a-send-port.md)
 
-   3.  [How to Configure Outbound Maps for a Send Port](../core/how-to-configure-outbound-maps-for-a-send-port.md)  
+   3.  [How to Configure Outbound Maps for a Send Port](../core/how-to-configure-outbound-maps-for-a-send-port.md)
 
-   4.  [How to Configure Filters for a Send Port](../core/how-to-configure-filters-for-a-send-port.md)  
+   4.  [How to Configure Filters for a Send Port](../core/how-to-configure-filters-for-a-send-port.md)
 
-   5.  [How to Assign a Certificate to a Send Port](../core/how-to-assign-a-certificate-to-a-send-port.md)  
+   5.  [How to Assign a Certificate to a Send Port](../core/how-to-assign-a-certificate-to-a-send-port.md)
 
-   6.  [How to Configure Tracking for a Send Port](../core/how-to-configure-tracking-for-a-send-port.md)  
+   6.  [How to Configure Tracking for a Send Port](../core/how-to-configure-tracking-for-a-send-port.md)
 
-##  <a name="BKMK_DynamicSend"></a> Create a Dynamic Send Port  
- When creating a Dynamic Send Port, the Send Handler is configurable for every adapter. A single Dynamic Send Port can be used by multiple adapters. See [Dynamic Send Port Handler is Configurable](../core/dynamic-send-port-handler-is-configurable.md) for the steps to configure the Dynamic Send Port Handler.  
+##  <a name="BKMK_DynamicSend"></a> Create a Dynamic Send Port
+ When creating a Dynamic Send Port, the Send Handler is configurable for every adapter. A single Dynamic Send Port can be used by multiple adapters. See [Dynamic Send Port Handler is Configurable](../core/dynamic-send-port-handler-is-configurable.md) for the steps to configure the Dynamic Send Port Handler.
 
-1. In the **BizTalk Server Administration** console, expand **BizTalk Group [*GroupName*]**, expand **Applications**, and then expand the application to contain the send port.  
+1. In the **BizTalk Server Administration** console, expand **BizTalk Group [*GroupName*]**, expand **Applications**, and then expand the application to contain the send port.
 
-2. Right-click **Send Ports**, click **New**, and then choose **Dynamic One-way Send Port** or **Dynamic Solicit-Response Send Port**  
+2. Right-click **Send Ports**, click **New**, and then choose **Dynamic One-way Send Port** or **Dynamic Solicit-Response Send Port**
 
-3. In  **Properties**, enter the **Name** and the **Pipeline** properties  
+3. In  **Properties**, enter the **Name** and the **Pipeline** properties
 
-    Click **Configure**.  
+    Click **Configure**.
 
-4. In the **Configure Send Handler** window, choose the **Send Handler** for the individual adapters. The default Send Handler is **BizTalkServerApplication**. For the steps to add a new send handler, go to [How to Create an Adapter Handler](http://go.microsoft.com/fwlink/p/?LinkId=263646).  
+4. In the **Configure Send Handler** window, choose the **Send Handler** for the individual adapters. The default Send Handler is **BizTalkServerApplication**. For the steps to add a new send handler, go to [How to Create an Adapter Handler](https://go.microsoft.com/fwlink/p/?LinkId=263646).
 
-    There are many reasons to use separate hosts, including:  
+    There are many reasons to use separate hosts, including:
 
-   - **32-bit Requirements**: Some adapters require a 32-bit host, like the FTP and POP3 adapters. You can group all or individual 32-bit adapters into their own host.  
+   - **32-bit Requirements**: Some adapters require a 32-bit host, like the FTP and POP3 adapters. You can group all or individual 32-bit adapters into their own host.
 
-      [BizTalk Server 64-Bit Support](../core/biztalk-server-64-bit-support2.md)  
+      [BizTalk Server 64-Bit Support](../core/biztalk-server-64-bit-support2.md)
 
-   - **Host by purpose**: Create a host for sending, a host for receiving, a host for processing orchestrations, and a host for tracking.  
+   - **Host by purpose**: Create a host for sending, a host for receiving, a host for processing orchestrations, and a host for tracking.
 
-   - **Different host settings**: Many settings are implemented at the host-level. As a result, different throttling settings are configurable for each host. For example, you can disable throttling on HostA. Track every event in HostB. Modify the .NET CLR settings for HostC. Increase memory usage on HostD.  
+   - **Different host settings**: Many settings are implemented at the host-level. As a result, different throttling settings are configurable for each host. For example, you can disable throttling on HostA. Track every event in HostB. Modify the .NET CLR settings for HostC. Increase memory usage on HostD.
 
-   - **Security**: Security is implemented at the host-level. Each host runs under its own Windows account. For example, HostA uses the FILE adapter to access a file share. Give the HostA user account permissions to the file share. HostB uses a web service hosted on an IIS server. Give the HostB user account authorization to the web service. This also prevents other host accounts from accessing entities it doesn’t need to access.  
+   - **Security**: Security is implemented at the host-level. Each host runs under its own Windows account. For example, HostA uses the FILE adapter to access a file share. Give the HostA user account permissions to the file share. HostB uses a web service hosted on an IIS server. Give the HostB user account authorization to the web service. This also prevents other host accounts from accessing entities it doesn’t need to access.
 
-   - **Separate adapters**: For example, you have several artifacts (receive location and send ports) using the HTTP adapter. You want everything associated with the HTTP adapter in its own host.  
+   - **Separate adapters**: For example, you have several artifacts (receive location and send ports) using the HTTP adapter. You want everything associated with the HTTP adapter in its own host.
 
-   - **Separate orchestrations**: Individual orchestrations can be in their own host. For example, if an orchestration uses high memory or high CPU, then put that orchestration into its own host.  
+   - **Separate orchestrations**: Individual orchestrations can be in their own host. For example, if an orchestration uses high memory or high CPU, then put that orchestration into its own host.
 
-     [BizTalk Server Performance Optimization Guide](https://msdn.microsoft.com/library/dn775063\(v=bts.10\).aspx) and [How to maintain and troubleshoot BizTalk Server databases](http://support.microsoft.com/kb/952555) provide performance suggestions.  
+     [BizTalk Server Performance Optimization Guide](https://msdn.microsoft.com/library/dn775063\(v=bts.10\).aspx) and [How to maintain and troubleshoot BizTalk Server databases](https://support.microsoft.com/kb/952555) provide performance suggestions.
 
-5. Click **OK** save the settings.  
+5. Click **OK** save the settings.
 
-6. Additional Send Port configuration options include:  
+6. Additional Send Port configuration options include:
 
-   1.  [How to Configure Transport Advanced Options for a Send Port](../core/how-to-configure-transport-advanced-options-for-a-send-port.md)  
+   1.  [How to Configure Transport Advanced Options for a Send Port](../core/how-to-configure-transport-advanced-options-for-a-send-port.md)
 
-   2.  [How to Configure Outbound Maps for a Send Port](../core/how-to-configure-outbound-maps-for-a-send-port.md)  
+   2.  [How to Configure Outbound Maps for a Send Port](../core/how-to-configure-outbound-maps-for-a-send-port.md)
 
-   3.  [How to Configure Filters for a Send Port](../core/how-to-configure-filters-for-a-send-port.md)  
+   3.  [How to Configure Filters for a Send Port](../core/how-to-configure-filters-for-a-send-port.md)
 
-   4.  [How to Assign a Certificate to a Send Port](../core/how-to-assign-a-certificate-to-a-send-port.md)  
+   4.  [How to Assign a Certificate to a Send Port](../core/how-to-assign-a-certificate-to-a-send-port.md)
 
-   5.  [How to Configure Tracking for a Send Port](../core/how-to-configure-tracking-for-a-send-port.md)  
+   5.  [How to Configure Tracking for a Send Port](../core/how-to-configure-tracking-for-a-send-port.md)
 
-7. Click **OK** save the settings.  
+7. Click **OK** save the settings.
 
-   Additional Send Port topics:  
+   Additional Send Port topics:
 
-   [Creating and Configuring Send Ports](../core/creating-and-configuring-send-ports.md)  
+   [Creating and Configuring Send Ports](../core/creating-and-configuring-send-ports.md)
 
-   [Creating and Configuring Send Port Groups](../core/creating-and-configuring-send-port-groups.md)  
+   [Creating and Configuring Send Port Groups](../core/creating-and-configuring-send-port-groups.md)
 
-## See Also  
- [Troubleshooting SharePoint Services Adapter](../core/troubleshooting-sharepoint-services-adapter.md)   
- [Configure SharePoint Services Receive Location](../core/configure-sharepoint-services-receive-location.md)   
+## See Also
+ [Troubleshooting SharePoint Services Adapter](../core/troubleshooting-sharepoint-services-adapter.md)
+ [Configure SharePoint Services Receive Location](../core/configure-sharepoint-services-receive-location.md)
  [CSOM: SharePoint Services Adapter](../core/csom-sharepoint-services-adapter.md)

@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Testing an Application
-For information about the steps involved in deploying the artifacts of a BizTalk application to a test environment for testing and debugging, see [Testing Tasks for BizTalk Application Deployment](http://go.microsoft.com/fwlink/?LinkID=154825) (http://go.microsoft.com/fwlink/?LinkID=154825).
+For information about the steps involved in deploying the artifacts of a BizTalk application to a test environment for testing and debugging, see [Testing Tasks for BizTalk Application Deployment](https://go.microsoft.com/fwlink/?LinkID=154825) (https://go.microsoft.com/fwlink/?LinkID=154825).

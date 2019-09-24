@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # X12 EDI Character Set
-When using the Ñ character or a grave accent (`), specify the following:  
+When using the Ñ character or a grave accent (`), specify the following:
 
 
 |                                                                   |                                  Character Set                                   |
@@ -24,8 +24,8 @@ When using the Ñ character or a grave accent (`), specify the following:
 |           Only a grave accent (\`) in the EDI document            |                              Use UTF8 Character Set                              |
 | The Ñ character **and** a grave accent (\`) in the same document: | -   The inbound document must have UTF8 encoding<br />-   Use UTF8 Character Set |
 
- The following links provider more information on EDI Character Sets:  
+ The following links provider more information on EDI Character Sets:
 
- [EDI Character Sets](http://go.microsoft.com/fwlink/p/?LinkId=271249)  
+ [EDI Character Sets](https://go.microsoft.com/fwlink/p/?LinkId=271249)
 
- [EDI Character Set Support](http://go.microsoft.com/fwlink/p/?LinkId=271250)
+ [EDI Character Set Support](https://go.microsoft.com/fwlink/p/?LinkId=271250)

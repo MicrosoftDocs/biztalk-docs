@@ -20,5 +20,5 @@ This section provides instructions for the Project System user interface (UI). Y
 
   - [Deployment Page](deployment-page.md)
 
-  - [Application Page, Project Designer (C\#)](http://go.microsoft.com/fwlink/?linkid=146461)
+  - [Application Page, Project Designer (C\#)](https://go.microsoft.com/fwlink/?linkid=146461)
 

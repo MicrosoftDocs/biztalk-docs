@@ -20,10 +20,10 @@ mtps_version: v=BTS.80
 
 ## UIElement List
 
-**Manually install the redistributable prerequisites**  
+**Manually install the redistributable prerequisites**
 Select this option to manually install the redistributable files that are required for setup to continue. Selecting this option will exit setup.
 
-**Automatically install the redistributable prerequisites from the Web**  
+**Automatically install the redistributable prerequisites from the Web**
 Select this option to automatically install the redistributable prerequisites from the Web. Setup downloads and installs the necessary software for you.
 
 
@@ -32,7 +32,7 @@ Select this option to automatically install the redistributable prerequisites fr
 
 
 
-**Download the redistributable prerequisites CAB file**  
+**Download the redistributable prerequisites CAB file**
 Select this option to download the redistributable prerequisites CAB file to this computer.
 
 
@@ -41,12 +41,12 @@ Select this option to download the redistributable prerequisites CAB file to thi
 
 
 
-**Automatically install the redistributable prerequisites from a CAB file**  
+**Automatically install the redistributable prerequisites from a CAB file**
 Select this option to automatically install the redistributable prerequisites from a CAB file that you have downloaded.
 
 ## Redistributable CAB Files
 
 If your computer is missing a prerequisite component, Setup is able to install redistributable prerequisites automatically from the Web or from a pre-downloaded CAB file. Automatically installing from the Web or downloading the required CAB file requires internet access.
 
-For a list of all CAB files and the software they include, refer to the latest version of the BizTalk Server 2013 R2 Installation Guide at [http://go.microsoft.com/fwlink/?LinkId=269585](http://go.microsoft.com/fwlink/?linkid=269585).
+For a list of all CAB files and the software they include, refer to the latest version of the BizTalk Server 2013 R2 Installation Guide at [http://go.microsoft.com/fwlink/?LinkId=269585](https://go.microsoft.com/fwlink/?linkid=269585).
 

@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Install an Application
-For information about installing an application, see [How to Install a BizTalk Application](http://go.microsoft.com/fwlink/?LinkID=154728) (http://go.microsoft.com/fwlink/?LinkID=154728).
+For information about installing an application, see [How to Install a BizTalk Application](https://go.microsoft.com/fwlink/?LinkID=154728) (https://go.microsoft.com/fwlink/?LinkID=154728).
