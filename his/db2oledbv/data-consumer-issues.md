@@ -291,7 +291,7 @@ C:\Program Files (x86)\Microsoft SQL Server\100\DTS\MappingFiles
 ### Replication INSERT operation fails with Error 8152: String or binary data would be truncated  
  SQL Server Replication INSERT operation may fail with SQL Server Error 8152 (String or binary data would be truncated.). This may occur when (1)  Data Provider is not configured to use early metadata, and (2) Replication is not configured to use parameterized INSERT statements.
     
- Reconfigure Data Provider connection to specify "Use Early Metadata=true" in the SQL Server Replication subscriber data source defintion. 
+ Reconfigure Data Provider connection to specify "Use Early Metadata=true" in the SQL Server Replication subscriber data source definition. 
  
  For more information, see [Configure Data Providers for DB2 Data Links (DB2) All Properties](https://docs.microsoft.com/en-us/host-integration-server/core/data-links-db2-2) (https://docs.microsoft.com/en-us/host-integration-server/core/data-links-db2-2) in OLE DB Provider for DB2 documentation.
  
