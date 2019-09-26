@@ -146,7 +146,7 @@ EXEC sp_changearticle @publication, @article, 'status' , 'parameters' , 0 , 0;
   
  For more information, see [Replication System Stored Procedures Concepts](http://go.microsoft.com/fwlink/?LinkId=193232) (http://go.microsoft.com/fwlink/?LinkId=193232) in SQL Server Books Online.
  
- ##  <a name="datetime2"></a> Replication INSERT operation fails with Error 8152: String or binary data would be truncated  
+ ##  <a name="truncation"></a> Replication INSERT operation fails with Error 8152: String or binary data would be truncated  
  **Problem**  
   
  SQL Server Replication INSERT operation may fail with SQL Server Error 8152 (String or binary data would be truncated.). This may occur when (1)  Data Provider is not configured to use early metadata, and (2) Replication is not configured to use parameterized INSERT statements.
