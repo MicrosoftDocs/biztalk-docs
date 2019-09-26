@@ -507,7 +507,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  **Use Early Metadata**  
   
- The **Use Early Metadata** property instructs the Data Provider to use early metadata (parameter and column data types) defined at design time or late metadata defined at runtime. This optional property accepts a **Boolean** value. The default value is **false**. Optionally, specify **true** when working with data consumer programs that offer a design time option to derive data types or verify the early metadata. Specify true when using SQL Server Integration Services and Distributed Query Processor four-part linked server queries. Specify true when using DB2 BLOB, CLOB, XML, NUMERIC, and UDT with most other data consumers.  
+ The **Use Early Metadata** property instructs the Data Provider to use early metadata (parameter and column data types) defined at design time or late metadata defined at runtime. This optional property accepts a **Boolean** value. The default value is **false**. Optionally, specify **true** when working with data consumer programs that offer a design time option to derive data types or verify the early metadata. Specify true when using SQL Server Integration Services, SQL Server Replication, and Distributed Query Processor (four-part linked server queries). Specify true when using DB2 BLOB, CLOB, XML, NUMERIC, and UDT with most other data consumers.  
   
  **User ID**  
   
