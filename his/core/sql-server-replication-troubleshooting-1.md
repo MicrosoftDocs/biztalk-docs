@@ -153,7 +153,7 @@ EXEC sp_changearticle @publication, @article, 'status' , 'parameters' , 0 , 0;
     
  **Solution**  
   
- **Step 1**. Reconfigure Data Provider connection to specify "Use Early Metadata=true" in the SQL Server Replication subscriber data source defintion. 
+ **Step 1**. Reconfigure Data Provider connection to specify "Use Early Metadata=true" in the SQL Server Replication subscriber data source definition. 
  
  For more information, see [Configure Data Providers for DB2 Data Links (DB2) All Properties](https://docs.microsoft.com/en-us/host-integration-server/core/data-links-db2-2) (https://docs.microsoft.com/en-us/host-integration-server/core/data-links-db2-2) in OLE DB Provider for DB2 documentation.
  
