@@ -287,7 +287,18 @@ C:\Program Files (x86)\Microsoft SQL Server\100\DTS\MappingFiles
     ```  
 
     For more information, see [Replication System Stored Procedures Concepts](http://go.microsoft.com/fwlink/?LinkId=241525) (http://go.microsoft.com/fwlink/?LinkId=241525) in SQL Server Books Online.  
+    
+### Replication INSERT operation fails with Error 8152: String or binary data would be truncated  
+ SQL Server Replication INSERT operation may fail with SQL Server Error 8152 (String or binary data would be truncated.). This may occur when (1)  Data Provider is not configured to use early metadata, and (2) Replication is not configured to use parameterized INSERT statements.
+    
+ Reconfigure Data Provider connection to specify "Use Early Metadata=true" in the SQL Server Replication subscriber data source defintion. 
+ 
+ For more information, see [Configure Data Providers for DB2 Data Links (DB2) All Properties](https://docs.microsoft.com/en-us/host-integration-server/core/data-links-db2-2) (https://docs.microsoft.com/en-us/host-integration-server/core/data-links-db2-2) in OLE DB Provider for DB2 documentation.
+ 
+ Re-configure SQL Server Replication subscription article to include option "24" ("Includes the column name in INSERT statements and uses parameterized statements."). 
 
+ For more information, see [SQL Server Replication sp_addarticle (Transact-SQL)](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) (https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) in SQL Server documentation.
+ 
 ### SQL Server Analysis Services  
  When you design cubes for use with SQL Server Analysis Services, the tools generate SQL commands that contain long alias names that may exceed the maximum length supported by the DB2 server. Depending on the DB2 platform and version that you use, you may not be able to use queries with alias names exceeding 18 characters. For example, many objects deployed in DB2 for z/OS use names of 18 characters. Refer to the DB2 SQL Reference for your DB2 platform and version and check with your DB2 database administrator. We recommend that the administrator or developer update the two SQL Server Analysis Service configuration cartridge files that contain the data type mapping support for DB2 by changing the identifier-length (limit-table-identifier-length) from 29 to 18. The following are the names and location of the two cartridge files that must be updated.  
 
