@@ -30,7 +30,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
 - **Message conversion**. There are many message types, for example, eXtended Markup Language (XML), Electronic Data Interchange (EDI), delimitated files and so on. BizTalk Server is XML centric. For most cases, you convert inbound messages into XML first.  This process is called *parsing*.  On the outbound side, you can convert messages from XML to other types.  This process is called *serialization*.  
   
-- **Business process mangement**. Most of the EAI scenarios are more than simply forwarding messages from one system to another system.  They usually involve more systems and complex workflows.  In this scenario, the warehouse sends a message requesting inventory replenishment; your solution receives the message and then checks the grand total of the request.  If the grand total is over a certain amount, the solution rejects the request automatically and sends a decline message; otherwise the solution forwards the request to the ERP system.  
+- **Business process management**. Most of the EAI scenarios are more than simply forwarding messages from one system to another system.  They usually involve more systems and complex workflows.  In this scenario, the warehouse sends a message requesting inventory replenishment; your solution receives the message and then checks the grand total of the request.  If the grand total is over a certain amount, the solution rejects the request automatically and sends a decline message; otherwise the solution forwards the request to the ERP system.  
   
    The following diagram illustrates the business process:  
   
