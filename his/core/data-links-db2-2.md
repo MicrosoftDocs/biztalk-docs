@@ -344,184 +344,184 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
  Optionally, you can specify TRUE to instruct the Data Provider to delete the time portion of SQL DATETIME data values mapped to OLE DB DBTYPE_TIMESTAMP data values, allowing the DB2 database to read these values as DB2 DATE data values. The default for this Boolean property is False.
 
 > [!WARNING]
->  You cannot use both DateTime As Char=True and DateTime As Date=True in the same connection. To use these two features, you must use separate connections.
-
- **DBMS Platform**
-
- Optionally, you can instruct the Data Provider to connect the IBM DB2 database servers based on a relational database management systems platform designation. The Data Provider supports these string values: DB2/MVS, DB2/400, DB2/6000, and DB2/NT. The default is DB2/MVS.
-
- **Default Qualifier**
-
- Optionally, you can specify a string to instruct the Data Provider to set an environment option for a default qualifier, with which to inform the DB2 server in which schema to locate database objects. The default is an empty string.
-
- DB2 database objects are organized into logical groups called schemas. The schema name is used to identify SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. Data consumers may issue SQL statements with one-part or unqualified object names.
-
- The value of default qualifier must match an existing DB2 schema name, or an error may be returned by the DB2 server.
-
- The following table describes the DB2 database version and accepted string types.
-
-|||
-|-|-|
-|**DB2 Database**|**String Type**|
-|DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
-|DB2 for LUW|A 30-byte string.|
-
- **Default Schema**
-
- Optionally, you can specify a string to instruct the Data Provider to restrict schema queries to a single database schema, which improves your efficiency and performance. The default is an empty string.
-
- DB2 database objects are organized into logical groups called schemas. The schema name is used to catalog SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. At design time, to construct SQL such as SELECT statements, Data consumers can present to the user a list of all objects in the database catalog.
-
- The following table describes the DB2 database version and accepted string types.
-
-|||
-|-|-|
-|**DB2 Database**|**String Type**|
-|DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library)|
-|DB2 for LUW|A 30-byte string.|
-|DB2 for Windows|A 32-byte string.|
-
- **Defer Prepare**
-
- Optionally, you can specify TRUE to instruct the Data Provider to optimize the processing of parameterized database commands. The default value is FALSE.
-
-- For the **INSERT**, **UPDATE**, and **DELETE** commands, the Data Provider can combine **PREPARE**, **EXECUTE**, and **COMMIT** commands into one network flow to the remote database.
-
-- For the **SELECT** command, the Data Provider can combine **PREPARE** and **EXECUTE** commands into one network flow. This minimizes network traffic and frequently improves overall performance.
-
-  **Derive Parameters**
-
-  Optionally, you can specify TRUE to instruct the Data Provider to verify and correct parameter lengths for character data types, on behalf of data consumers such as SQL Server Integration Services package designer and import/export wizard. The default is FALSE.
-
-  **Extended Properties**
-
-  Optionally, you can specify additional comma-separated property value pairs that the consumer will pass to the Data Provider at connection time.
-
-  **Host CCSID**
-
-  The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS use EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
-
-  **Initial Catalog**
-
-  The Data Provider requires this value to connect to an initial catalog on the DB2 database server. The following table describes the DB2 database version and accepted string types.
-
-|||
-|-|-|
-|**DB2 Database**|**String Type**|
-|DB2 for z/OS|A 16-byte string (catalog is also known as a location).|
-|DB2 for i5/OS|An 18-byte string (catalog is also known as a relational database).|
-|DB2 for LUW|An 8-byte string (catalog is also known as a database).|
-
- **Integrated Security**
-
- Optionally, you can specify a string to instruct the Data Provider to use Enterprise Single Sign-On or Kerberos authentication.
-
-- **SSPI** instructs the Data Provider to obtain credentials from the ESSO server with which to use when connecting to the IBM DB2 database server.
-
-- **Kerberos** instructs the Data Provider to present a ticket with encrypted credentials to the IBM DB2 database server.
-
-  The default is an empty string, which instructs the Data Provider to use interactive sign-on with user name and password derived from the connection object.
-
-  **Max Pool Size**
-
-  Optionally, you can specify a numeric value to instruct the Data Provider to use a maximum number of connections within a client-side connection pool. The default value is 100. There is no upper limit for the **Max Pool Size** property.
-
-  **Mode**
-
-  Optionally, you can specify read to instruct the Data Provider to declare read-only access method when connecting to the DB2 database server. The default is read/write.
-
-  **Network Address**
-
-  The Data Provider requires an IP address or IP alias in either IPv4 or IPv6 format, when connecting to the IBM DB2 database server using a TCP/IP network connection.
-
-  **Network Port**
-
-  The Data Provider requires an IP port number, when connecting to the IBM DB2 database server using a TCP/IP network connection. For DB2/400, the default value is TCP/IP port 446. Other IBM DB2 platforms support multiple concurrent database instances, each with a unique TCP/IP port number.
-
-  **Network Transport Library**
-
-  The Data Provider supports TCP/IP and SNA (Systems Network Architecture) over LU6.2 APPC (Advanced Program to Program Communications) network connections to remote IBM DB2 database servers that are running on IBM mainframe and midrange host computers. The Data Provider supports TCP/IP network connections to remote IBM DB2 database servers that are running Linux, UNIX, and Windows operating systems.
-
-  **New Password**
-
-  Optionally, you can specify a string value to instruct the Data Provider to use PCM (Password Change Management) to replace an existing password with a new password. The following table describes the DB2 database version and accepted string types.
-
-|||
-|-|-|
-|**DB2 Database**|**String Type**|
-|DB2 for z/OS|An 8-byte string.|
-|DB2 for i5/OS|A 128-byte string.|
-|DB2 for Linux or UNIX|An 8-byte string.|
-|DB2 for Windows|A 32-byte string.|
-
- **Package Collection**
-
- The package collection is required to instruct the Data Provider into which DB2 schema to create a set of packages. Each package is divided into sections with static SQL statements, such as **CREATE CURSOR**, used to retrieve data when querying the database.
-
- The following table describes the DB2 database version and accepted string types.
-
-|||
-|-|-|
-|**DB2 Database**|**String Type**|
-|DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
-|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library)|
-|DB2 for Linux or UNIX|A 30-byte string.|
-
- **Password**
-
- Interactive sign-on security relies on a username and password that you enter at runtime, or that is stored in a configuration file or data consumer configuration store, such as an Integration Services package.
-
- The following table describes the DB2 database version and accepted string types.
-
-|||
-|-|-|
-|**DB2 Database**|**String Type**|
-|DB2 for z/OS|An 8-byte string.|
-|DB2 for i5/OS|A 128-byte string.|
-|DB2 for Linux or UNIX|An 8-byte string.|
-|DB2 for Windows|A 32-byte string.|
-
- **PC Code Page**
-
- The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode. For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
-
- **Persist Security Info**
-
- Optionally, you can specify TRUE to instruct the data consumer or service component to persist security information, such as password, together with other authentication information. By default, this Boolean value is set to FALSE.
-
- **Principal Name**
-
- This property is required for use with Kerberos authentication.
-
- **RowSetCacheSize**
-
- Optionally, you can specify a numeric value to instruct the Data Provider to pre-fetch rows from IBM DB2 database servers while concurrently processing rows to the data consumer. The default is 0.
-
- This feature may improve performance in bulk read-only operations on multiprocessor computers. We recommend setting a value of 5 through 200, depending on the average row size, available network bandwidth, IBM DB2 database server and data consumer responsiveness.
-
- **Units of Work**
-
- Optionally, to enlist the Data Provider in distributed transactions, select this property to support two-phase commit protected DB2 DUW (distributed unit of work). By default this value is set to RUW (Remote Unit of Work).
-
- **Use Early Metadata**
-
- The **Use Early Metadata** property instructs the Data Provider to use early metadata (parameter and column data types) defined at design time or late metadata defined at runtime. This optional property accepts a **Boolean** value. The default value is **false**. Optionally, specify **true** when working with data consumer programs that offer a design time option to derive data types or verify the early metadata. Specify true when using SQL Server Integration Services and Distributed Query Processor four-part linked server queries. Specify true when using DB2 BLOB, CLOB, XML, NUMERIC, and UDT with most other data consumers.
-
- **User ID**
-
- Interactive sign-on security relies on a username and password that the user enters at runtime, or that is stored in a configuration file or data consumer configuration store, such as an Integration Services package.
-
- The following table describes the DB2 database version and accepted string types.
-
-|||
-|-|-|
-|**DB2 Database**|**String Type**|
-|DB2 for z/OS|An 8-byte string.|
-|DB2 for i5/OS|A 10-byte string.|
-|DB2 for Linux or UNIX|An 8-byte string.|
-|DB2 for Windows|A 30-byte string Password.|
-
-## See Also
+>  You cannot use both DateTime As Char=True and DateTime As Date=True in the same connection. To use these two features, you must use separate connections.  
+  
+ **DBMS Platform**  
+  
+ Optionally, you can instruct the Data Provider to connect the IBM DB2 database servers based on a relational database management systems platform designation. The Data Provider supports these string values: DB2/MVS, DB2/400, DB2/6000, and DB2/NT. The default is DB2/MVS.  
+  
+ **Default Qualifier**  
+  
+ Optionally, you can specify a string to instruct the Data Provider to set an environment option for a default qualifier, with which to inform the DB2 server in which schema to locate database objects. The default is an empty string.  
+  
+ DB2 database objects are organized into logical groups called schemas. The schema name is used to identify SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. Data consumers may issue SQL statements with one-part or unqualified object names.  
+  
+ The value of default qualifier must match an existing DB2 schema name, or an error may be returned by the DB2 server.  
+  
+ The following table describes the DB2 database version and accepted string types.  
+  
+|||  
+|-|-|  
+|**DB2 Database**|**String Type**|  
+|DB2 for z/OS|A 128-byte string (schema is also known as a collection).|  
+|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|  
+|DB2 for LUW|A 30-byte string.|  
+  
+ **Default Schema**  
+  
+ Optionally, you can specify a string to instruct the Data Provider to restrict schema queries to a single database schema, which improves your efficiency and performance. The default is an empty string.  
+  
+ DB2 database objects are organized into logical groups called schemas. The schema name is used to catalog SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. At design time, to construct SQL such as SELECT statements, Data consumers can present to the user a list of all objects in the database catalog.  
+  
+ The following table describes the DB2 database version and accepted string types.  
+  
+|||  
+|-|-|  
+|**DB2 Database**|**String Type**|  
+|DB2 for z/OS|A 128-byte string (schema is also known as a collection).|  
+|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library)|  
+|DB2 for LUW|A 30-byte string.|  
+|DB2 for Windows|A 32-byte string.|  
+  
+ **Defer Prepare**  
+  
+ Optionally, you can specify TRUE to instruct the Data Provider to optimize the processing of parameterized database commands. The default value is FALSE.  
+  
+- For the **INSERT**, **UPDATE**, and **DELETE** commands, the Data Provider can combine **PREPARE**, **EXECUTE**, and **COMMIT** commands into one network flow to the remote database.  
+  
+- For the **SELECT** command, the Data Provider can combine **PREPARE** and **EXECUTE** commands into one network flow. This minimizes network traffic and frequently improves overall performance.  
+  
+  **Derive Parameters**  
+  
+  Optionally, you can specify TRUE to instruct the Data Provider to verify and correct parameter lengths for character data types, on behalf of data consumers such as SQL Server Integration Services package designer and import/export wizard. The default is FALSE.  
+  
+  **Extended Properties**  
+  
+  Optionally, you can specify additional comma-separated property value pairs that the consumer will pass to the Data Provider at connection time.  
+  
+  **Host CCSID**  
+  
+  The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS use EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](http://go.microsoft.com/fwlink/?LinkID=181017) (http://go.microsoft.com/fwlink/?LinkID=181017).  
+  
+  **Initial Catalog**  
+  
+  The Data Provider requires this value to connect to an initial catalog on the DB2 database server. The following table describes the DB2 database version and accepted string types.  
+  
+|||  
+|-|-|  
+|**DB2 Database**|**String Type**|  
+|DB2 for z/OS|A 16-byte string (catalog is also known as a location).|  
+|DB2 for i5/OS|An 18-byte string (catalog is also known as a relational database).|  
+|DB2 for LUW|An 8-byte string (catalog is also known as a database).|  
+  
+ **Integrated Security**  
+  
+ Optionally, you can specify a string to instruct the Data Provider to use Enterprise Single Sign-On or Kerberos authentication.  
+  
+- **SSPI** instructs the Data Provider to obtain credentials from the ESSO server with which to use when connecting to the IBM DB2 database server.  
+  
+- **Kerberos** instructs the Data Provider to present a ticket with encrypted credentials to the IBM DB2 database server.  
+  
+  The default is an empty string, which instructs the Data Provider to use interactive sign-on with user name and password derived from the connection object.  
+  
+  **Max Pool Size**  
+  
+  Optionally, you can specify a numeric value to instruct the Data Provider to use a maximum number of connections within a client-side connection pool. The default value is 100. There is no upper limit for the **Max Pool Size** property.  
+  
+  **Mode**  
+  
+  Optionally, you can specify read to instruct the Data Provider to declare read-only access method when connecting to the DB2 database server. The default is read/write.  
+  
+  **Network Address**  
+  
+  The Data Provider requires an IP address or IP alias in either IPv4 or IPv6 format, when connecting to the IBM DB2 database server using a TCP/IP network connection.  
+  
+  **Network Port**  
+  
+  The Data Provider requires an IP port number, when connecting to the IBM DB2 database server using a TCP/IP network connection. For DB2/400, the default value is TCP/IP port 446. Other IBM DB2 platforms support multiple concurrent database instances, each with a unique TCP/IP port number.  
+  
+  **Network Transport Library**  
+  
+  The Data Provider supports TCP/IP and SNA (Systems Network Architecture) over LU6.2 APPC (Advanced Program to Program Communications) network connections to remote IBM DB2 database servers that are running on IBM mainframe and midrange host computers. The Data Provider supports TCP/IP network connections to remote IBM DB2 database servers that are running Linux, UNIX, and Windows operating systems.  
+  
+  **New Password**  
+  
+  Optionally, you can specify a string value to instruct the Data Provider to use PCM (Password Change Management) to replace an existing password with a new password. The following table describes the DB2 database version and accepted string types.  
+  
+|||  
+|-|-|  
+|**DB2 Database**|**String Type**|  
+|DB2 for z/OS|An 8-byte string.|  
+|DB2 for i5/OS|A 128-byte string.|  
+|DB2 for Linux or UNIX|An 8-byte string.|  
+|DB2 for Windows|A 32-byte string.|  
+  
+ **Package Collection**  
+  
+ The package collection is required to instruct the Data Provider into which DB2 schema to create a set of packages. Each package is divided into sections with static SQL statements, such as **CREATE CURSOR**, used to retrieve data when querying the database.  
+  
+ The following table describes the DB2 database version and accepted string types.  
+  
+|||  
+|-|-|  
+|**DB2 Database**|**String Type**|  
+|DB2 for z/OS|A 128-byte string (schema is also known as a collection).|  
+|DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library)|  
+|DB2 for Linux or UNIX|A 30-byte string.|  
+  
+ **Password**  
+  
+ Interactive sign-on security relies on a username and password that you enter at runtime, or that is stored in a configuration file or data consumer configuration store, such as an Integration Services package.  
+  
+ The following table describes the DB2 database version and accepted string types.  
+  
+|||  
+|-|-|  
+|**DB2 Database**|**String Type**|  
+|DB2 for z/OS|An 8-byte string.|  
+|DB2 for i5/OS|A 128-byte string.|  
+|DB2 for Linux or UNIX|An 8-byte string.|  
+|DB2 for Windows|A 32-byte string.|  
+  
+ **PC Code Page**  
+  
+ The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode. For more information, see [SNA Internationalization Programmer's Reference](http://go.microsoft.com/fwlink/?LinkID=181017) (http://go.microsoft.com/fwlink/?LinkID=181017).  
+  
+ **Persist Security Info**  
+  
+ Optionally, you can specify TRUE to instruct the data consumer or service component to persist security information, such as password, together with other authentication information. By default, this Boolean value is set to FALSE.  
+  
+ **Principal Name**  
+  
+ This property is required for use with Kerberos authentication.  
+  
+ **RowSetCacheSize**  
+  
+ Optionally, you can specify a numeric value to instruct the Data Provider to pre-fetch rows from IBM DB2 database servers while concurrently processing rows to the data consumer. The default is 0.  
+  
+ This feature may improve performance in bulk read-only operations on multiprocessor computers. We recommend setting a value of 5 through 200, depending on the average row size, available network bandwidth, IBM DB2 database server and data consumer responsiveness.  
+  
+ **Units of Work**  
+  
+ Optionally, to enlist the Data Provider in distributed transactions, select this property to support two-phase commit protected DB2 DUW (distributed unit of work). By default this value is set to RUW (Remote Unit of Work).  
+  
+ **Use Early Metadata**  
+  
+ The **Use Early Metadata** property instructs the Data Provider to use early metadata (parameter and column data types) defined at design time or late metadata defined at runtime. This optional property accepts a **Boolean** value. The default value is **false**. Optionally, specify **true** when working with data consumer programs that offer a design time option to derive data types or verify the early metadata. Specify **true** when using SQL Server Integration Services, SQL Server Replication, and Distributed Query Processor (four-part linked server queries). Specify **true** when using DB2 BLOB, CLOB, XML, NUMERIC, and UDT with most other data consumers. Specify **true** when using SQL Server Migration Assistant (SSMA) for DB2 to read CLOB data, including schema information encoded as CLOB data (e.g. STATEMENT column of SYSIBM.SYSTRIGGERS table.   
+  
+ **User ID**  
+  
+ Interactive sign-on security relies on a username and password that the user enters at runtime, or that is stored in a configuration file or data consumer configuration store, such as an Integration Services package.  
+  
+ The following table describes the DB2 database version and accepted string types.  
+  
+|||  
+|-|-|  
+|**DB2 Database**|**String Type**|  
+|DB2 for z/OS|An 8-byte string.|  
+|DB2 for i5/OS|A 10-byte string.|  
+|DB2 for Linux or UNIX|An 8-byte string.|  
+|DB2 for Windows|A 30-byte string Password.|  
+  
+## See Also  
  [Data Integration (Configuration)](../core/data-integration-configuration-2.md)

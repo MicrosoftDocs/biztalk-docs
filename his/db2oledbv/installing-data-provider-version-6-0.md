@@ -56,6 +56,8 @@ This topic provides instructions to install the Data Provider Version 6.0.
 ## Supported DB2 Servers
  The Data Provider supports these IBM relational database management systems, using the included Microsoft DRDA (Distributed Relational Database Architecture) Client, when connecting across a TCP/IP network.
 
+-   IBM DB2 for z/OS 12.1
+
 -   IBM DB2 for z/OS 11.1
 
 -   IBM DB2 for z/OS 10.1
@@ -96,40 +98,70 @@ This topic provides instructions to install the Data Provider Version 6.0.
 
 -   Microsoft OLE DB Provider for DB2 V5.0
 
-## Install the Product
- There are two options for installing the Data Provider, including interactive installation and unattended installation. The following steps guide you through interactive installation.
+ Prior to upgrading, Microsoft recommends that you consider the Microsoft SQL Server and IBM DB2 support provided by previous releases of the Microsoft OLE DB Provider for DB2.
+ 
+### Previous Version Platform Support Matrix
 
-1.  Go to the Microsoft Download Center to locate the [Feature Pack for SQL Server 2017](https://aka.ms/db2oledb).
+||**DB2OLEDB 6.0**|**DB2OLEDB 5.0**|**DB2OLEDB 4.0**|  
+|-|-|-|-|
+|SQL Server 2019|Yes|No|No|
+|SQL Server 2017|Yes|No|No|
+|SQL Server 2016|Yes|Yes|No|
+|SQL Server 2014|No|Yes|No|
+|SQL Server 2012|No|No|Yes|
+|SQL Server 2018 R2|No|No|Yes|
+|DB2 for z/OS 12|Yes|No|No|
+|DB2 for z/OS 11|Yes|No|No|
+|DB2 for z/OS 10|Yes|Yes|No|
+|DB2 for z/OS 9|No|Yes|Yes|
+|DB2 for z/OS 8|No|Yes|Yes|
+|DB2 for i 7.3|Yes|No|No|
+|DB2 for i 7.2|Yes|No|No|
+|DB2 for i 7.1|Yes|Yes|Yes|
+|DB2 for i 6.1|No|Yes|Yes|
+|DB2 for i 5.4|No|Yes|Yes|
+|DB2 for LUW 11.5|Yes|No|No|
+|DB2 for LUW 11|Yes|No|No|
+|DB2 for LUW V10.5|Yes|Yes|No|
+|DB2 for LUW 10|Yes|Yes|No|
+|DB2 for LUW 9.7|No|Yes|Yes|
+|DB2 for LUW 9.5|No|No|Yes|
+|DB2 for LUW 9.1|No|No|Yes|
 
-2.  Download either the x86 (32-bit) **DB2OLEDB6_x86.msi** or the x64 (64-bit) version **DB2OLEDB6_x64.msi** of installation program.
+## Install the Product  
+ There are two options for installing the Data Provider, including interactive installation and unattended installation. The following steps guide you through interactive installation.  
+  
+1.  Go to the Microsoft Download Center to locate the [Feature Pack for SQL Server 2017](https://aka.ms/db2oledb).  
+  
+2.  Download either the x86 (32-bit) **DB2OLEDB6_x86.msi** or the x64 (64-bit) version **DB2OLEDB6_x64.msi** of installation program.  
+  
+3.  Double-click the **.msi** file to start the **Setup** program.  
 
-3.  Double-click the **.msi** file to start the **Setup** program.
+4.  On the **License Agreement** page, review the license terms, click the **I accept the terms in the license agreement** option, and then click **Install**. 
 
-4.  On the **License Agreement** page, review the license terms, click the **I accept the terms in the license agreement** option, and then click **Install**.
-
-    > **NOTE:** Optionally, on the **License Agreement** page, click **Advanced**, and then on the **Destination Folder** page click **Change**, then on the **Product Features** page click **Next**, and then click **Install**.
-
-5.  On the **Registration Information** page, enter your **Name** and **Company**, and then click **Next**.
-
-6. When prompted by Windows **User Account Control**, click **Yes**.
-
-7. On the **Progress** page, view the status of the installation process.
-
-8. On the **Completion** page, click **Finish**.
-
-## Install the product unattended
- There are two options for installing the Service for DRDA, including interactive installation and unattended installation. The following steps guide you through unattended installation.
-
-1.  From a command prompt with administration privileges, locate the installation folder in which you downloaded the installation program, enter **DB2OLEDB6_x86.msi /quiet** or **DB2OLEDB6_x64.msi /quiet** depending on the processor architecture.
-
-3.  To verify the installation, locate the installed product in **C:\Program Files (x86)\Microsoft OLE DB Provider for DB2** or **C:\Program Files\Microsoft OLE DB Provider for DB2**.
-
-    > **NOTE:** Optionally, to generate a log, add **/l \<log file name>** to the command string. To verify the installation, enter **notepad \<log file name>**, and then click **Enter**.
-
-## Repair
- You can use **Windows Programs and Features** to launch the Program Maintenance to repair the installation.
-
-1.  Click **Control Panel**, click **Programs**, and then click **Programs and Features**. The **Uninstall or change a program** dialog appears.
+    > **NOTE:** Optionally, on the **License Agreement** page, click **Advanced**, and then on the **Destination Folder** page click **Change**, then on the **Product Features** page click **Next**, and then click **Install**. 
+  
+5.  On the **Registration Information** page, enter your **Name** and **Company**, and then click **Next**.  
+  
+6. When prompted by Windows **User Account Control**, click **Yes**.  
+  
+7. On the **Progress** page, view the status of the installation process.  
+  
+8. On the **Completion** page, click **Finish**.  
+  
+## Install the product unattended  
+ There are two options for installing the Service for DRDA, including interactive installation and unattended installation. The following steps guide you through unattended installation.  
+  
+1.  From a command prompt with administration privileges, locate the installation folder in which you downloaded the installation program, enter **DB2OLEDB6_x86.msi /quiet** or **DB2OLEDB6_x64.msi /quiet** depending on the processor architecture.  
+  
+3.  To verify the installation, locate the installed product in **C:\Program Files (x86)\Microsoft OLE DB Provider for DB2** or **C:\Program Files\Microsoft OLE DB Provider for DB2**.  
+  
+    > **NOTE:** Optionally, to generate a log, add **/l \<log file name>** to the command string. To verify the installation, enter **notepad \<log file name>**, and then click **Enter**.  
+  
+## Repair  
+ You can use **Windows Programs and Features** to launch the Program Maintenance to repair the installation.  
+  
+1.  Click **Control Panel**, click **Programs**, and then click **Programs and Features**. The **Uninstall or change a program** dialog appears.  
 
 2.  In the **Name** list, right click **Microsoft OLE DB Provider for DB2 Version 6.0**,and then click **Repair**.
 

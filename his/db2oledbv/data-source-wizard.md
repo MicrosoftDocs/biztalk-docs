@@ -167,34 +167,35 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 |Shadow Catalog|All|All|Optionally, you can specify TRUE to instruct the Data Provider to retrieve schema information from a DB2 shadow catalog, which can improve concurrent access to metadata and increase performance. The default is FALSE.|
 |Special Registers|All|All|Optionally, you can specify a DB2 SET statement to instruct the Data Provider to process a single DB2 SET special registers statement at database connection time. For example, to connect to IBM Netezza and IDAA (IBM DB2 Analytics Accelerator), specify "SET CURRENT QUERY ACCELERATION=ALL".|
 |Units of Work|(Distributed transactions)|Advanced|Data Provider supports both RUW (Remote Units of Work) and DUW (Distributed Units of Work) using XA. The default value is RUW.|
-|Use Early Metadata|All|All|Instructs the Data Provider to use early metadata (parameter and column data types) defined at design time or late metadata defined at runtime. This optional property accepts a Boolean value. The default value is false. Optionally, specify true when working with data consumer programs that offer a design time option to derive data types or verify the early metadata. Specify true when using SQL Server Integration Services and Distributed Query Processor four-part linked server queries. Specify true when using DB2 BLOB, CLOB, XML, NUMERIC, and UDT with most other data consumers. Specify true when using FastLoad with SQL Server Integration Services to INSERT data into TIMESTAMP columns. Specify true when using FastLoad with SQL Server Integration Services to INSERT data into TIMESTAMP columns.|
-|User ID|Security|Connection|Interactive sign-on security relies on a username and password that the user enters at runtime or that is stored in a configuration file or data consumer configuration store, such as an Integration Services package.|
+|Use Early Metadata|All|All|Instructs the Data Provider to use early metadata (parameter and column data types) defined at design time or late metadata defined at runtime. This optional property accepts a Boolean value. The default value is false. Optionally, specify true when working with data consumer programs that offer a design time option to derive data types or verify the early metadata. Specify true when using SQL Server Integration Services, SQL Server Replication, and Distributed Query Processor (four-part linked server queries). Specify true when using DB2 BLOB, CLOB, XML, NUMERIC, and UDT with most other data consumers. Specify true when using FastLoad with SQL Server Integration Services to INSERT data into TIMESTAMP columns. Specify true when using SQL Server Migration Assistant (SSMA) for DB2 to read CLOB data, including schema information encoded as CLOB data (e.g. STATEMENT column of SYSIBM.SYSTRIGGERS table.|  
+|User ID|Security|Connection|Interactive sign-on security relies on a username and password that the user enters at runtime or that is stored in a configuration file or data consumer configuration store, such as an Integration Services package.|  
+  
+## Validation  
+ You can use the Validation screen to validate your configuration by testing the connection. You can also use it to create DB2 packages and execute a sample query.  
+  
+### Connect  
+ Click the **Connect** button to perform a test connection to verify the data source, and to display information such as the host platform and version. The **Output** window displays the results of the test connection command. The **Connection String** displays the Data Source definition in connection string format.  
+  
+### Packages  
+ Click the **Packages** button to create the DB2 packages required to execute SQL statements in a multi-user environment. The **Output** window displays the results of the create packages command.  
+  
+### Sample Query  
+ Click the **Sample Query** button to execute a sample query against the remote data source. The sample query retrieves a list of tables from the system catalog by using the default schema property configured in the data source. The **Output** window displays the results of the sample query command. The **Grid** window displays a list of tables in the default schema.  
+  
+## Saving Information  
+ Use the Saving Information screen to name and save your configuration. Configurations are saved in the fXollowing location.  
+  
+ C:\Users\\<username\>\Documents\Host Integration Projects\Data Sources\  
+  
+### Data source name  
+ The data source is a parameter that can be used to describe the data source. When you create a data source using the Data Source Wizard, the Data Source property is used to name the Universal Data Link (UDL) file or connection string file.  
+  
+### OLE DB or Managed group  
+ The Visual Studio Server Explorer and SQL Server Business Intelligence Development Studio (BIDS) presents a standard OLE DB Data Links property dialog, with which the user can browse to an UDL file. For other data consumers, you can save the configuration in a Managed initialization text string file format.  
+  
+### Finish  
+ The Completing the Data Source Wizard screen displays a summary and status of your configuration. Click **Finish** to implement your actions.  
+  
+## Data Access Library  
+ You can use the .NET Framework classes in the **Microsoft.HostIntegration.DataAccessLibrary** Namespace to automate defining packages and data sources. For the reference documentation, see [Microsoft.HostIntegration.DataAccessLibrary Namespace](http://go.microsoft.com/fwlink/?LinkID=180763) (http://go.microsoft.com/fwlink/?LinkID=180763).
 
-## Validation
- You can use the Validation screen to validate your configuration by testing the connection. You can also use it to create DB2 packages and execute a sample query.
-
-### Connect
- Click the **Connect** button to perform a test connection to verify the data source, and to display information such as the host platform and version. The **Output** window displays the results of the test connection command. The **Connection String** displays the Data Source definition in connection string format.
-
-### Packages
- Click the **Packages** button to create the DB2 packages required to execute SQL statements in a multi-user environment. The **Output** window displays the results of the create packages command.
-
-### Sample Query
- Click the **Sample Query** button to execute a sample query against the remote data source. The sample query retrieves a list of tables from the system catalog by using the default schema property configured in the data source. The **Output** window displays the results of the sample query command. The **Grid** window displays a list of tables in the default schema.
-
-## Saving Information
- Use the Saving Information screen to name and save your configuration. Configurations are saved in the fXollowing location.
-
- C:\Users\\<username\>\Documents\Host Integration Projects\Data Sources\
-
-### Data source name
- The data source is a parameter that can be used to describe the data source. When you create a data source using the Data Source Wizard, the Data Source property is used to name the Universal Data Link (UDL) file or connection string file.
-
-### OLE DB or Managed group
- The Visual Studio Server Explorer and SQL Server Business Intelligence Development Studio (BIDS) presents a standard OLE DB Data Links property dialog, with which the user can browse to an UDL file. For other data consumers, you can save the configuration in a Managed initialization text string file format.
-
-### Finish
- The Completing the Data Source Wizard screen displays a summary and status of your configuration. Click **Finish** to implement your actions.
-
-## Data Access Library
- You can use the .NET Framework classes in the **Microsoft.HostIntegration.DataAccessLibrary** Namespace to automate defining packages and data sources. For the reference documentation, see [Microsoft.HostIntegration.DataAccessLibrary Namespace](https://go.microsoft.com/fwlink/?LinkID=180763) (https://go.microsoft.com/fwlink/?LinkID=180763).
