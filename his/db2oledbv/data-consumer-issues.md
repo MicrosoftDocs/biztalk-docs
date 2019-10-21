@@ -293,7 +293,7 @@ C:\Program Files (x86)\Microsoft SQL Server\100\DTS\MappingFiles
     
  Reconfigure Data Provider connection to specify "Use Early Metadata=true" in the SQL Server Replication subscriber data source definition. 
  
- For more information, see [Configure Data Providers for DB2 Data Links (DB2) All Properties](data-links-db2-2.md) (https://docs.microsoft.com/host-integration-server/core/data-links-db2-2) in OLE DB Provider for DB2 documentation.
+ For more information, see [Configure Data Providers for DB2 Data Links (DB2) All Properties](../core/data-links-db2-2.md) (https://docs.microsoft.com/host-integration-server/core/data-links-db2-2) in OLE DB Provider for DB2 documentation.
  
  Re-configure SQL Server Replication subscription article to include option "24" ("Includes the column name in INSERT statements and uses parameterized statements."). 
 
