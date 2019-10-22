@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting the BizTalk Server Mangement Pack | Microsoft Docs"
+title: "Troubleshooting the BizTalk Server Management Pack | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"

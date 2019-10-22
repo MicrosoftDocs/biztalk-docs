@@ -65,7 +65,7 @@ Lists the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
 
 5. In **Customer Experience Improvement Program**, choose your participation preference, and then select **Next**.
 
-    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] participates in the Customer Experience Improvement Program. You choose to provide useful feedback to Microsoft regarding feature usage reporting functionality of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The data collected is anonymous and cannot be used to identify you. Microsoft collects feature usage statistics as part of this program. By participating in this program, you can help improve the reliability and performance of various features of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information about this program and its privacy policy, see [Microsoft BizTalk Server CEIP Privacy Policy](https://go.microsoft.com/fwlink/p/?LinkId=188553).
+    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] participates in the Customer Experience Improvement Program. You choose to provide useful feedback to Microsoft regarding feature usage reporting functionality of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The data collected is anonymous and cannot be used to identify you. Microsoft collects feature usage statistics as part of this program. By participating in this program, you can help improve the reliability and performance of various features of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
 
 6. In **Component Installation**, review the available components, and select the ones you want to install:
 
@@ -128,7 +128,7 @@ Lists the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
 
 ## See Also
 
- [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md)
- [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)
- [Appendix C: Redistributable CAB Files](../install-and-config-guides/appendix-c-redistributable-cab-files.md)
+ [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md)   
+ [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)   
+ [Appendix C: Redistributable CAB Files](../install-and-config-guides/appendix-c-redistributable-cab-files.md)   
  [Appendix D: Create the SMTP Server](../install-and-config-guides/appendix-d-create-the-smtp-server.md)

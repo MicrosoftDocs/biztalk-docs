@@ -309,7 +309,7 @@ You cannot roll back to [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/20
 ## Appendix A: Customer experience improvement Program
 As part of the Customer Experience Improvement Program in BizTalk Server, you can provide useful feedback to Microsoft regarding feature usage of BizTalk Server. The data collected is anonymous, and cannot be used to identify you. Microsoft collects feature usage statistics as part of this program.
 
-By participating in this program, you can help improve the reliability and performance of various features of BizTalk Server. For more information about this program and its privacy policy, see [Microsoft BizTalk Server CEIP Privacy Policy](https://go.microsoft.com/fwlink/p/?LinkId=188553).
+By participating in this program, you can help improve the reliability and performance of various features of BizTalk Server. 
 
 ## Appendix B: Known issues
 
