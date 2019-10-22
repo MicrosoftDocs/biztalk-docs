@@ -36,6 +36,8 @@ Receive shape
 >  If you put a **Receive** shape inside a scope with the **Activate** property set to **True**, and then add a .NET Class variable to your orchestration without changing the variable's **Use Default Constructor** property to **False**, the activate receive statement will be outside of the scope in the generated XLANG/S code, but the design surface will continue to show it as being inside the scope.  
 
  Each orchestration must have at least one **Receive** shape with the **Activate** property set to **True**.  
+ 
+ ![Receive Shape Activate True](https://blog.sandro-pereira.com/wp-content/uploads/2012/03/receive-port-activate-true.png)
 
  If you expect to receive an indirect or asynchronous response (not on a request-response port) to a message that you have previously sent, you need to correlate the message with the currently running instance of the orchestration, so that the respondent can get the response to the correct instance. You can apply an initializing correlation set to the Receive shape if you plan to do subsequent correlation on values in the incoming message, or a following correlation set for correlating using a previously initialized correlation set. For more information, see [Using Correlations in Orchestrations](../core/using-correlations-in-orchestrations.md).  
 
