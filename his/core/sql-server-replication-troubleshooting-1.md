@@ -14,6 +14,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SQL Server Replication (Troubleshooting)
+
 This topic contains the following sections relating to troubleshooting issues between the OLE DB Provider for DB2 and SQL Server (Data Provider) and SQL Server.  
   
  [Incorrect Data Type Mappings](../core/sql-server-replication-troubleshooting-1.md#datatype)  
@@ -155,7 +156,7 @@ EXEC sp_changearticle @publication, @article, 'status' , 'parameters' , 0 , 0;
   
  **Step 1**. Reconfigure Data Provider connection to specify "Use Early Metadata=true" in the SQL Server Replication subscriber data source definition. 
  
- For more information, see [Configure Data Providers for DB2 Data Links (DB2) All Properties](https://docs.microsoft.com/en-us/host-integration-server/core/data-links-db2-2) (https://docs.microsoft.com/en-us/host-integration-server/core/data-links-db2-2) in OLE DB Provider for DB2 documentation.
+ For more information, see [Configure Data Providers for DB2 Data Links (DB2) All Properties](data-links-db2-2.md) (https://docs.microsoft.com/host-integration-server/core/data-links-db2-2) in OLE DB Provider for DB2 documentation.
  
  **Step 2** Re-configure SQL Server Replication subscription article to include option "24" ("Includes the column name in INSERT statements and uses parameterized statements."). 
 

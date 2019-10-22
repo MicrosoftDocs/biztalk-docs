@@ -14,24 +14,24 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Performing Unit Testing
-Unit testing is focused at the component level and is basically a pass/fail test that verifies if individual components of the BizTalk solution perform as expected. You have several options for unit testing your BizTalk solution.  
+Unit testing is focused at the component level and is basically a pass/fail test that verifies if individual components of the BizTalk solution perform as expected. You have several options for unit testing your BizTalk solution.
 
-## Using Visual Studio  
- Unit testing functionality is available with Visual Studio 2008 and later. For more information about the testing functionality that is available with Visual Studio, see [Testing the Application](http://go.microsoft.com/fwlink/?LinkId=159595) (http://go.microsoft.com/fwlink/?LinkId=159595).  
+## Using Visual Studio
+ Unit testing functionality is available with Visual Studio 2008 and later. For more information about the testing functionality that is available with Visual Studio, see [Testing the Application](https://go.microsoft.com/fwlink/?LinkId=159595) (https://go.microsoft.com/fwlink/?LinkId=159595).
 
- BizTalk Server also provides a unit testing feature to enable users to create unit tests for schemas, maps, and pipelines. For more information about this feature, see [Unit Testing with BizTalk Server Projects](http://go.microsoft.com/fwlink/?LinkId=158270) (http://go.microsoft.com/fwlink/?LinkId=158270).  
+ BizTalk Server also provides a unit testing feature to enable users to create unit tests for schemas, maps, and pipelines. For more information about this feature, see [Unit Testing with BizTalk Server Projects](https://go.microsoft.com/fwlink/?LinkId=158270) (https://go.microsoft.com/fwlink/?LinkId=158270).
 
-> [!NOTE]  
->  Visual Studio is very useful for unit testing BizTalk artifacts such as orchestrations, schemas, pipelines, and pipeline components. BizTalk Server provides test classes that you can use with Visual Studio Team System to test BizTalk artifacts.  
+> [!NOTE]
+>  Visual Studio is very useful for unit testing BizTalk artifacts such as orchestrations, schemas, pipelines, and pipeline components. BizTalk Server provides test classes that you can use with Visual Studio Team System to test BizTalk artifacts.
 
-## Using Non-Microsoft Tools  
- Two other commonly used tools for unit testing BizTalk solutions are **BizUnit** and **NUnit**. **BizUnit** works seamlessly with Visual Studio Team System Test Edition. Similarly, **NUnit** tests can be easily modified so that they can run as-is in Visual Studio Team System Test Edition. For more information about these tools, see [Tools for Testing](~/technical-guides/tools-for-testing.md).  
+## Using Non-Microsoft Tools
+ Two other commonly used tools for unit testing BizTalk solutions are **BizUnit** and **NUnit**. **BizUnit** works seamlessly with Visual Studio Team System Test Edition. Similarly, **NUnit** tests can be easily modified so that they can run as-is in Visual Studio Team System Test Edition. For more information about these tools, see [Tools for Testing](~/technical-guides/tools-for-testing.md).
 
-> [!NOTE]  
->  Use of **BizUnit** and **NUnit** are not supported by Microsoft, and Microsoft makes no guarantees about the suitability of these programs. Use of these programs is entirely at your own risk.  
+> [!NOTE]
+>  Use of **BizUnit** and **NUnit** are not supported by Microsoft, and Microsoft makes no guarantees about the suitability of these programs. Use of these programs is entirely at your own risk.
 
-## Using the BizTalk Server SDK  
- You can perform unit testing of individual BizTalk artifacts with utilities available in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK. The table below provides a summary of the utilities in the SDK that can be used for unit testing:  
+## Using the BizTalk Server SDK
+ You can perform unit testing of individual BizTalk artifacts with utilities available in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK. The table below provides a summary of the utilities in the SDK that can be used for unit testing:
 
 
 |    **Utility**     |                                                                                                                                                                                                                                                                   **Purpose**                                                                                                                                                                                                                                                                   |
@@ -44,7 +44,7 @@ Unit testing is focused at the component level and is basically a pass/fail test
 |     XMLAsm.exe     |                                                                                                                                                                    Runs the XML assembler component, directly invoking it by emulating a send pipeline to enable you to see how it serializes, assembles, or envelopes a user's XML document(s) into an output XML document.                                                                                                                                                                    |
 |    XMLDasm.exe     |                                                                                                                                                                Runs the XML disassembler component, directly invoking it by emulating a receive pipeline to enable you to see how it parses, disassembles, or un-envelopes a user's XML document into one or more XML documents.                                                                                                                                                                |
 
- For more information about the utilities available in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK, see [Utilities in the SDK](http://go.microsoft.com/fwlink/?LinkId=154387) (<http://go.microsoft.com/fwlink/?LinkId=154387>).  
+ For more information about the utilities available in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK, see [Utilities in the SDK](https://go.microsoft.com/fwlink/?LinkId=154387) (<http://go.microsoft.com/fwlink/?LinkId=154387>).
 
-## See Also  
+## See Also
  [Tools for Testing](~/technical-guides/tools-for-testing.md)

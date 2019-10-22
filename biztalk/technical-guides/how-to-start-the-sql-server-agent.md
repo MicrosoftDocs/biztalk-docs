@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Start the SQL Server Agent
-For information about how to start the SQL Server agent, see [How to: Start SQL Server Agent (SQL Server Configuration Manager)](http://go.microsoft.com/fwlink/?LinkId=154672) (http://go.microsoft.com/fwlink/?LinkId=154672) in SQL Server Books Online.
+For information about how to start the SQL Server agent, see [How to: Start SQL Server Agent (SQL Server Configuration Manager)](https://go.microsoft.com/fwlink/?LinkId=154672) (https://go.microsoft.com/fwlink/?LinkId=154672) in SQL Server Books Online.

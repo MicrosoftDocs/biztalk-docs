@@ -14,6 +14,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Bottlenecks in the BizTalk Server Tier
+
 The BizTalk tier can be divided into the following functional areas:  
   
 - Receiving  

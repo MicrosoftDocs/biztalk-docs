@@ -14,18 +14,18 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Optimizing Database Performance
-BizTalk Server is an extremely database-intensive application that may require the creation of up to 13 databases in SQL Server. Because one of the primary design goals of BizTalk Server is to ensure that no messages are lost, BizTalk Server persists data to disk with great frequency and furthermore, does so within the context of an MSDTC transaction. Therefore, database performance is paramount to the overall performance of any BizTalk Server solution.  
-  
- This section describes general methods for maximizing SQL Server performance as well as methods for maximizing database performance that are specific to a BizTalk Server environment. For additional information about optimizing BizTalk database performance, see the [BizTalk Database Optimization whitepaper](http://go.microsoft.com/fwlink/?LinkId=101578) (http://go.microsoft.com/fwlink/?LinkId=101578).  
-  
-## In This Section  
-  
--   [Pre-Configuration Database Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md)  
-  
--   [Post-Configuration Database Optimizations2](../technical-guides/post-configuration-database-optimizations2.md)  
-  
--   [Optimizing Filegroups for the Databases2](../technical-guides/optimizing-filegroups-for-the-databases2.md)  
-  
--   [BizTalk Server MessageBox Database Filegroups SQL Script](../technical-guides/biztalk-server-messagebox-database-filegroups-sql-script.md)  
-  
+BizTalk Server is an extremely database-intensive application that may require the creation of up to 13 databases in SQL Server. Because one of the primary design goals of BizTalk Server is to ensure that no messages are lost, BizTalk Server persists data to disk with great frequency and furthermore, does so within the context of an MSDTC transaction. Therefore, database performance is paramount to the overall performance of any BizTalk Server solution.
+
+ This section describes general methods for maximizing SQL Server performance as well as methods for maximizing database performance that are specific to a BizTalk Server environment. For additional information about optimizing BizTalk database performance, see the [BizTalk Database Optimization whitepaper](https://go.microsoft.com/fwlink/?LinkId=101578) (https://go.microsoft.com/fwlink/?LinkId=101578).
+
+## In This Section
+
+-   [Pre-Configuration Database Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md)
+
+-   [Post-Configuration Database Optimizations2](../technical-guides/post-configuration-database-optimizations2.md)
+
+-   [Optimizing Filegroups for the Databases2](../technical-guides/optimizing-filegroups-for-the-databases2.md)
+
+-   [BizTalk Server MessageBox Database Filegroups SQL Script](../technical-guides/biztalk-server-messagebox-database-filegroups-sql-script.md)
+
 -   [Monitoring SQL Server Performance](../technical-guides/monitoring-sql-server-performance.md)

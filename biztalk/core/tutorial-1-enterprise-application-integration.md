@@ -8,7 +8,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "enterprise application integration tutorial"
   - "getting started tutorials, integrating enterprise applications"
   - "enterprise application integration tutorial, about the tutorial"
@@ -19,6 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Tutorial 1: Enterprise Application Integration
+
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides a development and run-time environment for application integration and business process management (BPM). This tutorial presents an end-to-end exercise in setting up and deploying an enterprise application integration (EAI) solution using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
   
 ##  <a name="BKMK_Tut1_scenario"></a> Business Scenario  
@@ -26,7 +27,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
  There are several challenges for this integration solution:  
   
-- **Message transportation**.  The warehouse system and the ERP system can reside on two different platforms, and use different transportation protocols for sending and receiving messages. This solution must be able to receive the messages using the protocols supported by the sending system and forward the messages using the protocols supported by the receiving system.  BizTalk Server uses *adapters* for transporting messages.  There are many native adapters that come with the BizTalk Server installation and the BizTalk Adapter pack.  For additional adapters, you can either purchase from vendors or develop your own using the adapter frameworks provided by BizTalk Server. For more information about adapters, see [http://go.microsoft.com/fwlink/?LinkId=191131](http://go.microsoft.com/fwlink/?LinkId=191131).  
+- **Message transportation**.  The warehouse system and the ERP system can reside on two different platforms, and use different transportation protocols for sending and receiving messages. This solution must be able to receive the messages using the protocols supported by the sending system and forward the messages using the protocols supported by the receiving system.  BizTalk Server uses *adapters* for transporting messages.  There are many native adapters that come with the BizTalk Server installation and the BizTalk Adapter pack.  For additional adapters, you can either purchase from vendors or develop your own using the adapter frameworks provided by BizTalk Server. For more information about adapters, see [Adapters in BizTalk Server](adapters-in-biztalk-server.md).  
   
 - **Message conversion**. There are many message types, for example, eXtended Markup Language (XML), Electronic Data Interchange (EDI), delimitated files and so on. BizTalk Server is XML centric. For most cases, you convert inbound messages into XML first.  This process is called *parsing*.  On the outbound side, you can convert messages from XML to other types.  This process is called *serialization*.  
   
@@ -73,3 +74,4 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 -   [Lesson 2: Define the Business Process](../core/lesson-2-define-the-business-process.md)  
   
 -   [Lesson 3: Deploy the Solution](../core/lesson-3-deploy-the-solution.md)
+

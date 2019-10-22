@@ -122,7 +122,7 @@ The dead-letter queue is a queue managed by the sending application's Queue Mana
   - An encrypted message cannot be decrypted by the destination queue manager.
 
   - The destination queue is purged or deleted before the message is retrieved.
-    
+
 
     > [!NOTE]
     > <P>If the <STRONG>Dead letter queue</STRONG> property is set to <STRONG>None</STRONG>, messages can be lost if target queue service failure occurs. If the <STRONG>Dead letter queue</STRONG> property is set to <STRONG>System</STRONG>, failed messages are placed in the transactional dead-letter queue or nontransactional dead-letter queue depending on the <STRONG>Transactional</STRONG> property.</P>
@@ -131,6 +131,6 @@ The dead-letter queue is a queue managed by the sending application's Queue Mana
 
 ## See Also
 
-[How to Configure a WCF-NetMsmq Send Port](https://msdn.microsoft.com/library/bb245965\(v=bts.80\))  
-[Sending and Retrieving Messages within a Transaction](http://go.microsoft.com/fwlink/?linkid=75752)
+[How to Configure a WCF-NetMsmq Send Port](https://msdn.microsoft.com/library/bb245965\(v=bts.80\))
+[Sending and Retrieving Messages within a Transaction](https://go.microsoft.com/fwlink/?linkid=75752)
 

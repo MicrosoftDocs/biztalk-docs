@@ -15,15 +15,15 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure a WCF-CustomIsolated Receive Location
-You can configure a WCF-CustomIsolated receive location either programmatically or by using the BizTalk Administration console.  
+You can configure a WCF-CustomIsolated receive location either programmatically or by using the BizTalk Administration console.
 
 ## Configuration properties
 
- The BizTalk Explorer Object Model enables you to create and configure receive locations programmatically. The BizTalk Explorer Object Model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a WCF-CustomIsolated receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer Object Model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.  
+ The BizTalk Explorer Object Model enables you to create and configure receive locations programmatically. The BizTalk Explorer Object Model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a WCF-CustomIsolated receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer Object Model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.
 
- The **TransportTypeData** property of the **IReceiveLocation** interface does not have to be set. If it is not set, the WCF-CustomIsolated adapter uses the default values for the WCF-CustomIsolated receive location configuration as indicated in the following table.  
+ The **TransportTypeData** property of the **IReceiveLocation** interface does not have to be set. If it is not set, the WCF-CustomIsolated adapter uses the default values for the WCF-CustomIsolated receive location configuration as indicated in the following table.
 
- The following table lists the configuration properties that you can set in the BizTalk Explorer Object Model for the WCF-CustomIsolated receive location.  
+ The following table lists the configuration properties that you can set in the BizTalk Explorer Object Model for the WCF-CustomIsolated receive location.
 
 
 |           Property name            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -46,116 +46,116 @@ You can configure a WCF-CustomIsolated receive location either programmatically 
 |    **DisableLocationOnFailure**    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Boolean                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Specify whether to disable the receive location that fails inbound processing due to a receive pipeline failure or a routing failure.<br /><br /> Default: **False**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |    **SuspendMessageOnFailure**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Boolean                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Specify whether to suspend the request message that fails inbound processing due to a receive pipeline failure or a routing failure.<br /><br /> Default value: **True**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | **IncludeExceptionDetailInFaults** |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Boolean                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Specify whether to include managed exception information in the detail of SOAP faults returned to the client for debugging purposes.<br /><br /> Default: **False**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|       **ReferencedBindings**       | XML Blob<br /><br /> Example:<br /><br /> \<**BindingConfiguration** vt="8"\><br /><br /> &lt;wsFederationHttpBinding&gt;<br /><br /> &lt;binding name="sampleBinding"&gt;<br /><br /> &lt;security mode="Message"&gt;<br /><br /> &lt;message issuedKeyType="AsymmetricKey"&gt;<br /><br /> &lt;issuer address="<http://www.contoso.com/samplests>" binding="wsFederationHttpBinding" bindingConfiguration="**contosoSTSBinding**"/&gt;<br /><br /> &lt;/message&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/binding&gt;<br /><br /> &lt;/wsFederationHttpBinding&gt;<br /><br /> \</**BindingConfiguration**\><br /><br /> \<**ReferencedBindings** vt="8"\><br /><br /> &lt;bindings&gt;<br /><br /> &lt;wsFederationHttpBinding&gt;<br /><br /> &lt;binding name="**contosoSTSBinding**"&gt;<br /><br /> &lt;security mode="Message"&gt;<br /><br /> &lt;message negotiateServiceCredential="false"&gt;<br /><br /> &lt;issuer address="<http://northwind.com/samplests>" bindingConfiguration="**northwindBinding**" binding="wsHttpBinding"&gt;<br /><br /> &lt;/issuer&gt;<br /><br /> &lt;/message&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/binding&gt;<br /><br /> &lt;/wsFederationHttpBinding&gt;<br /><br /> &lt;wsHttpBinding&gt;<br /><br /> &lt;binding name="**northwindBinding**"&gt;<br /><br /> &lt;security mode="Message"&gt;<br /><br /> &lt;message clientCredentialType="Certificate" /&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/binding&gt;<br /><br /> &lt;/wsHttpBinding&gt;<br /><br /> &lt;/bindings&gt;<br /><br /> \</**ReferencedBindings**\> **Note:**  The **ReferencedBinding** property must not contain the binding configuration used in the **BindingConfiguration** property. | Specify the binding configurations referenced by the **bindingConfiguration** attribute of the **\<issuer\>** element for the **wsFederationHttpBinding** and **customBinding**, which indicates the Security Token Service (STS) that issues security tokens. For more information about the **\<issuer\>** element, see the topic, "\<issuer\>" at [http://go.microsoft.com/fwlink/?LinkId=83476](http://go.microsoft.com/fwlink/?LinkId=83476).<br /><br /> The binding information including the **\<issuer\>** element for the **wsFederationHttpBinding** and **customBinding** can be configured through the **BindingConfiguration** property of the WCF-Custom and the WCF-CustomIsolated adapters. All of the referenced binding configurations for this property must be placed in the form of the [\<bindings\>](http://go.microsoft.com/fwlink/?LinkID=80878) element. **Note:**  You cannot configure this property on the **Binding** tab in the transport properties dialog box. You can import and export this property through the **Import/Export** tab in the transport properties dialog box of the WCF-Custom and WCF-CustomIsolated adapters. **Note:**  The **bindingConfiguration** attribute of the **\<issuer\>** element must refer a valid binding name in this property. **Note:**  The **\<issuer\>** element in the referenced binding configurations can also refer to a different binding configuration in t his property if this reference chain does not make a circular dependency. <br /><br /> The default is an empty string. |
+|       **ReferencedBindings**       | XML Blob<br /><br /> Example:<br /><br /> \<**BindingConfiguration** vt="8"\><br /><br /> &lt;wsFederationHttpBinding&gt;<br /><br /> &lt;binding name="sampleBinding"&gt;<br /><br /> &lt;security mode="Message"&gt;<br /><br /> &lt;message issuedKeyType="AsymmetricKey"&gt;<br /><br /> &lt;issuer address="<http://www.contoso.com/samplests>" binding="wsFederationHttpBinding" bindingConfiguration="**contosoSTSBinding**"/&gt;<br /><br /> &lt;/message&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/binding&gt;<br /><br /> &lt;/wsFederationHttpBinding&gt;<br /><br /> \</**BindingConfiguration**\><br /><br /> \<**ReferencedBindings** vt="8"\><br /><br /> &lt;bindings&gt;<br /><br /> &lt;wsFederationHttpBinding&gt;<br /><br /> &lt;binding name="**contosoSTSBinding**"&gt;<br /><br /> &lt;security mode="Message"&gt;<br /><br /> &lt;message negotiateServiceCredential="false"&gt;<br /><br /> &lt;issuer address="<http://northwind.com/samplests>" bindingConfiguration="**northwindBinding**" binding="wsHttpBinding"&gt;<br /><br /> &lt;/issuer&gt;<br /><br /> &lt;/message&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/binding&gt;<br /><br /> &lt;/wsFederationHttpBinding&gt;<br /><br /> &lt;wsHttpBinding&gt;<br /><br /> &lt;binding name="**northwindBinding**"&gt;<br /><br /> &lt;security mode="Message"&gt;<br /><br /> &lt;message clientCredentialType="Certificate" /&gt;<br /><br /> &lt;/security&gt;<br /><br /> &lt;/binding&gt;<br /><br /> &lt;/wsHttpBinding&gt;<br /><br /> &lt;/bindings&gt;<br /><br /> \</**ReferencedBindings**\> **Note:**  The **ReferencedBinding** property must not contain the binding configuration used in the **BindingConfiguration** property. | Specify the binding configurations referenced by the **bindingConfiguration** attribute of the **\<issuer\>** element for the **wsFederationHttpBinding** and **customBinding**, which indicates the Security Token Service (STS) that issues security tokens. For more information about the **\<issuer\>** element, see the topic, "\<issuer\>" at [http://go.microsoft.com/fwlink/?LinkId=83476](https://go.microsoft.com/fwlink/?LinkId=83476).<br /><br /> The binding information including the **\<issuer\>** element for the **wsFederationHttpBinding** and **customBinding** can be configured through the **BindingConfiguration** property of the WCF-Custom and the WCF-CustomIsolated adapters. All of the referenced binding configurations for this property must be placed in the form of the [\<bindings\>](https://go.microsoft.com/fwlink/?LinkID=80878) element. **Note:**  You cannot configure this property on the **Binding** tab in the transport properties dialog box. You can import and export this property through the **Import/Export** tab in the transport properties dialog box of the WCF-Custom and WCF-CustomIsolated adapters. **Note:**  The **bindingConfiguration** attribute of the **\<issuer\>** element must refer a valid binding name in this property. **Note:**  The **\<issuer\>** element in the referenced binding configurations can also refer to a different binding configuration in t his property if this reference chain does not make a circular dependency. <br /><br /> The default is an empty string. |
 
- **How to Configure a WCF-CustomIsolated Receive Location with the BizTalk Administration Console**  
+ **How to Configure a WCF-CustomIsolated Receive Location with the BizTalk Administration Console**
 
- You can set WCF-CustomIsolated receive location adapter variables in the BizTalk Administration console. If properties are not set in the receive location, the default receive handler values set in the BizTalk Administration console are used.  
+ You can set WCF-CustomIsolated receive location adapter variables in the BizTalk Administration console. If properties are not set in the receive location, the default receive handler values set in the BizTalk Administration console are used.
 
 > [!NOTE]
->  Before completing the following procedure you must have already added a receive port. For more information, see [How to Create a Receive Port](../core/how-to-create-a-receive-port.md).  
+>  Before completing the following procedure you must have already added a receive port. For more information, see [How to Create a Receive Port](../core/how-to-create-a-receive-port.md).
 
-## Configure variables for a WCF-CustomIsolated receive location  
+## Configure variables for a WCF-CustomIsolated receive location
 
-1. If you plan to use the WCF extensibility points such as the custom binding elements, custom behavior element, and custom channel components when configuring the WCF-CustomIsolated adapter, you must add the assemblies that implement the extensibility points and all of the dependent assemblies to the global assembly cache on both the BizTalk processing computer (runtime computer) and the administration computer. In addition, you must register the extension components to the machine.config file. For more information about how to use the WCF extensibility points with the WCF CustomIsolated adapter, see [How to Enable the WCF Extensibility Points with the WCF Adapters](../core/how-to-enable-the-wcf-extensibility-points-with-the-wcf-adapters.md).  
+1. If you plan to use the WCF extensibility points such as the custom binding elements, custom behavior element, and custom channel components when configuring the WCF-CustomIsolated adapter, you must add the assemblies that implement the extensibility points and all of the dependent assemblies to the global assembly cache on both the BizTalk processing computer (runtime computer) and the administration computer. In addition, you must register the extension components to the machine.config file. For more information about how to use the WCF extensibility points with the WCF CustomIsolated adapter, see [How to Enable the WCF Extensibility Points with the WCF Adapters](../core/how-to-enable-the-wcf-extensibility-points-with-the-wcf-adapters.md).
 
-2. In the BizTalk Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application in which you want to create a receive location.  
+2. In the BizTalk Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application in which you want to create a receive location.
 
-3. In the BizTalk Administration console, in the left pane, click the **Receive Port** node. Then in the right pane, right-click the receive port that is associated with an existing receive location or that you want to associate with a new receive location, and then click **Properties**.  
+3. In the BizTalk Administration console, in the left pane, click the **Receive Port** node. Then in the right pane, right-click the receive port that is associated with an existing receive location or that you want to associate with a new receive location, and then click **Properties**.
 
-4. In the **Receive Port Properties** dialog box, in the left pane, select **Receive Locations**, and then in the right pane, double-click an existing receive location or click **New**to create a new receive location.  
+4. In the **Receive Port Properties** dialog box, in the left pane, select **Receive Locations**, and then in the right pane, double-click an existing receive location or click **New**to create a new receive location.
 
-5. In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **WCF-CustomIsolated** from the drop-down list, and then click **Configure**.  
+5. In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **WCF-CustomIsolated** from the drop-down list, and then click **Configure**.
 
-6. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **General** tab, configure the endpoint address and the service identity for the WCF-CustomIsolated receive location. For more information about the **General** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+6. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **General** tab, configure the endpoint address and the service identity for the WCF-CustomIsolated receive location. For more information about the **General** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
-7. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **Binding** tab, configure different types of predefined or custom bindings for WCF. For more information about the **Binding** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+7. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **Binding** tab, configure different types of predefined or custom bindings for WCF. For more information about the **Binding** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
-8. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **Behavior** tab, configure the endpoint and service behaviors for this receive location. An endpoint behavior is a set of behavior extension elements that modify or extend service or client functionality. For more information about the **Behavior** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Behavior** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+8. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **Behavior** tab, configure the endpoint and service behaviors for this receive location. An endpoint behavior is a set of behavior extension elements that modify or extend service or client functionality. For more information about the **Behavior** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Behavior** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
-9. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **Other** tab, configure which credentials for this receive location to use when polling an external service, and whether this receive location preserves message order when processing messages. For more information about the **Other** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Other** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+9. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **Other** tab, configure which credentials for this receive location to use when polling an external service, and whether this receive location preserves message order when processing messages. For more information about the **Other** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Other** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
-10. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Messages** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+10. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **Messages** tab, specify the data selection for the SOAP **Body** element. For more information about the **Messages** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Messages** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
-11. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **Import/Export** tab, import and export the **Address (URI)** and **Endpoint Identity** properties on the **General** tab, binding information on the **Binding** tab, and endpoint behavior on the **Behavior** tab for this receive location. For more information about the **Import/Export** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Import-Export** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+11. In the **WCF-CustomIsolated Transport Properties** dialog box, on the **Import/Export** tab, import and export the **Address (URI)** and **Endpoint Identity** properties on the **General** tab, binding information on the **Binding** tab, and endpoint behavior on the **Behavior** tab for this receive location. For more information about the **Import/Export** tab in the **WCF-CustomIsolated Transport Properties** dialog box, see the **WCF-Custom Transport Properties Dialog Box, Receive, Import-Export** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
 ## Configure a WCF-CustomIsolated Receive Location Programmatically
 
- You can use the following format to set the properties:  
+ You can use the following format to set the properties:
 
 ```xml
-<CustomProps>  
-  <InboundBodyPathExpression vt="8" />  
-  <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
-  <BindingConfiguration vt="8"><binding name="wsHttpBinding" transactionFlow="true"><security><message clientCredentialType="UserName" /></security></binding></BindingConfiguration>  
-  <OutboundXmlTemplate vt="8"><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
-  <CredentialType vt="8">None</CredentialType>  
-  <Identity vt="8" />  
-  <ServiceBehaviorConfiguration vt="8"><behavior name="SampleServiceBehavior"><serviceAuthorization principalPermissionMode="UseAspNetRoles" /><serviceCredentials><serviceCertificate findValue="539d9ab3089bb6dc187fa7dbb382cf01f8d78f5f" storeLocation="CurrentUser" x509FindType="FindByThumbprint" /></serviceCredentials><serviceMetadata httpGetEnabled="true" /></behavior></ServiceBehaviorConfiguration>  
-  <OrderedProcessing vt="11">0</OrderedProcessing>  
-  <IncludeExceptionDetailInFaults vt="11">0</IncludeExceptionDetailInFaults>  
-  <AffiliateApplicationName vt="8" />  
-  <DisableLocationOnFailure vt="11">0</DisableLocationOnFailure>  
-  <SuspendMessageOnFailure vt="11">0</SuspendMessageOnFailure>  
-  <BindingType vt="8">wsHttpBinding</BindingType>  
-  <UserName vt="8" />  
-  <InboundNodeEncoding vt="8">Xml</InboundNodeEncoding>  
-  <EndpointBehaviorConfiguration vt="8"><behavior name="EndpointBehavior" /></EndpointBehaviorConfiguration>  
-  <OutboundBodyLocation vt="8">UseBodyElement</OutboundBodyLocation>  
-</CustomProps>  
+<CustomProps>
+  <InboundBodyPathExpression vt="8" />
+  <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>
+  <BindingConfiguration vt="8"><binding name="wsHttpBinding" transactionFlow="true"><security><message clientCredentialType="UserName" /></security></binding></BindingConfiguration>
+  <OutboundXmlTemplate vt="8"><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>
+  <CredentialType vt="8">None</CredentialType>
+  <Identity vt="8" />
+  <ServiceBehaviorConfiguration vt="8"><behavior name="SampleServiceBehavior"><serviceAuthorization principalPermissionMode="UseAspNetRoles" /><serviceCredentials><serviceCertificate findValue="539d9ab3089bb6dc187fa7dbb382cf01f8d78f5f" storeLocation="CurrentUser" x509FindType="FindByThumbprint" /></serviceCredentials><serviceMetadata httpGetEnabled="true" /></behavior></ServiceBehaviorConfiguration>
+  <OrderedProcessing vt="11">0</OrderedProcessing>
+  <IncludeExceptionDetailInFaults vt="11">0</IncludeExceptionDetailInFaults>
+  <AffiliateApplicationName vt="8" />
+  <DisableLocationOnFailure vt="11">0</DisableLocationOnFailure>
+  <SuspendMessageOnFailure vt="11">0</SuspendMessageOnFailure>
+  <BindingType vt="8">wsHttpBinding</BindingType>
+  <UserName vt="8" />
+  <InboundNodeEncoding vt="8">Xml</InboundNodeEncoding>
+  <EndpointBehaviorConfiguration vt="8"><behavior name="EndpointBehavior" /></EndpointBehaviorConfiguration>
+  <OutboundBodyLocation vt="8">UseBodyElement</OutboundBodyLocation>
+</CustomProps>
 
-```  
+```
 
- The following code fragment illustrates creating a WCF-CustomIsolated receive location:  
+ The following code fragment illustrates creating a WCF-CustomIsolated receive location:
 
 ```csharp
-// Use BizTalk Explorer object model to create new WCF-CustomIsolated receive location   
-string server = System.Environment.MachineName;  
-string database = "BizTalkMgmtDb";  
-string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);  
-string transportConfigData = @"<CustomProps>  
-  <BindingConfiguration vt=""8""><binding name=""wsHttpBinding"" transactionFlow=""true""><security><message clientCredentialType=""UserName"" /></security></binding></BindingConfiguration>  
-  <BindingType vt=""8"">wsHttpBinding</BindingType>  
-</CustomProps>";  
-//requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll  
-BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();  
-explorer.ConnectionString = connectionString;  
-// Add a new BizTalk application  
-Application application = explorer.AddNewApplication();  
-application.Name = "SampleBizTalkApplication1001";  
-// Save  
-explorer.SaveChanges();  
+// Use BizTalk Explorer object model to create new WCF-CustomIsolated receive location
+string server = System.Environment.MachineName;
+string database = "BizTalkMgmtDb";
+string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);
+string transportConfigData = @"<CustomProps>
+  <BindingConfiguration vt=""8""><binding name=""wsHttpBinding"" transactionFlow=""true""><security><message clientCredentialType=""UserName"" /></security></binding></BindingConfiguration>
+  <BindingType vt=""8"">wsHttpBinding</BindingType>
+</CustomProps>";
+//requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll
+BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();
+explorer.ConnectionString = connectionString;
+// Add a new BizTalk application
+Application application = explorer.AddNewApplication();
+application.Name = "SampleBizTalkApplication1001";
+// Save
+explorer.SaveChanges();
 
-// Add a new one-way receive port  
-IReceivePort receivePort = application.AddNewReceivePort(false);  
-receivePort.Name = "SampleReceivePort";  
-// Add a new one-way receive location  
-IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
-receiveLocation.Name = "SampleReceiveLocation";  
-// Find a receive handler for WCF-CustomIsolated   
-int i = 0;  
-for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
-{  
-    if("WCF-CustomIsolated" == explorer.ReceiveHandlers[i].TransportType.Name)  
-        break;  
-}  
-receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-receiveLocation.Address = "http://mycomputer/samplepath/sampleservice";  
-receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-receiveLocation.TransportType = explorer.ProtocolTypes["WCF-CustomIsolated"];  
-receiveLocation.TransportTypeData = transportConfigData;  
-// Save  
-explorer.SaveChanges();   
-```  
+// Add a new one-way receive port
+IReceivePort receivePort = application.AddNewReceivePort(false);
+receivePort.Name = "SampleReceivePort";
+// Add a new one-way receive location
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();
+receiveLocation.Name = "SampleReceiveLocation";
+// Find a receive handler for WCF-CustomIsolated
+int i = 0;
+for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
+{
+    if("WCF-CustomIsolated" == explorer.ReceiveHandlers[i].TransportType.Name)
+        break;
+}
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];
+receiveLocation.Address = "http://mycomputer/samplepath/sampleservice";
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-CustomIsolated"];
+receiveLocation.TransportTypeData = transportConfigData;
+// Save
+explorer.SaveChanges();
+```
 
-## See Also  
- [Publishing WCF Services with the Isolated WCF Receive Adapters](../core/publishing-wcf-services-with-the-isolated-wcf-receive-adapters.md)   
- [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
- [How to Change Service Accounts and Passwords](../core/how-to-change-service-accounts-and-passwords.md)   
- [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)   
- [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md)   
- [Configuring the WCF-CustomIsolated Adapter](../core/configuring-the-wcf-customisolated-adapter.md)   
- [How to Create an Affiliate Application](../core/how-to-create-an-affiliate-application.md)   
- [\<behavior\> of \<endpointBehaviors\>](http://go.microsoft.com/fwlink/?LinkId=80879)   
- [\<bindings\>](http://go.microsoft.com/fwlink/?LinkId=80878)   
- [\<behavior\> of \<serviceBehaviors\>](http://go.microsoft.com/fwlink/?LinkId=81095)
+## See Also
+ [Publishing WCF Services with the Isolated WCF Receive Adapters](../core/publishing-wcf-services-with-the-isolated-wcf-receive-adapters.md)
+ [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)
+ [How to Change Service Accounts and Passwords](../core/how-to-change-service-accounts-and-passwords.md)
+ [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)
+ [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md)
+ [Configuring the WCF-CustomIsolated Adapter](../core/configuring-the-wcf-customisolated-adapter.md)
+ [How to Create an Affiliate Application](../core/how-to-create-an-affiliate-application.md)
+ [\<behavior\> of \<endpointBehaviors\>](https://go.microsoft.com/fwlink/?LinkId=80879)
+ [\<bindings\>](https://go.microsoft.com/fwlink/?LinkId=80878)
+ [\<behavior\> of \<serviceBehaviors\>](https://go.microsoft.com/fwlink/?LinkId=81095)

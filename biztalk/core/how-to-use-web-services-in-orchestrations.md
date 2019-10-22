@@ -15,16 +15,16 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Use Web Services in Orchestrations
-Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides built-in support for Web services. BizTalk Server enables the reuse and aggregation of all your existing Web services within your orchestrations. You can also publish (expose) your orchestrations as Web services to separate the Web service logic from the business process logic.  
-  
-## Examples of Using Web Services  
- The following samples show ways in which you can use Web services:  
-  
--   Download the SDK sample "Publishing and Consuming Web Services with SOAP Headers" from [http://go.microsoft.com/fwlink/?LinkId=73703](http://go.microsoft.com/fwlink/?LinkId=73703).  
-  
--   Download the SDK sample "Consuming Web Services with Array Parameters" from [http://go.microsoft.com/fwlink/?LinkId=73703](http://go.microsoft.com/fwlink/?LinkId=73703).  
-  
--   Download the SDK sample "Consuming Web Services", a messaging-only scenario sample, from [http://go.microsoft.com/fwlink/?LinkId=73703](http://go.microsoft.com/fwlink/?LinkId=73703).  
-  
-## See Also  
+Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides built-in support for Web services. BizTalk Server enables the reuse and aggregation of all your existing Web services within your orchestrations. You can also publish (expose) your orchestrations as Web services to separate the Web service logic from the business process logic.
+
+## Examples of Using Web Services
+ The following samples show ways in which you can use Web services:
+
+-   Download the SDK sample "Publishing and Consuming Web Services with SOAP Headers" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+
+-   Download the SDK sample "Consuming Web Services with Array Parameters" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+
+-   Download the SDK sample "Consuming Web Services", a messaging-only scenario sample, from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+
+## See Also
  [Using Web Services](../core/using-web-services.md)

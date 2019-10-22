@@ -19,8 +19,8 @@ Contains the start time of a service window when the receive location should act
 ## Syntax
 
 ```C#
-  
-datetime SrvWinStartDT;  
+
+datetime SrvWinStartDT;
 ```
 
 ## Remarks
@@ -29,7 +29,7 @@ Date part of the property is not used.
 
 This property is read-write.
 
-For more information about the format of the datetime value, see the Platform SDK: Windows Management Instrumentation documentation at [http://go.microsoft.com/fwlink/?LinkID=24855](http://go.microsoft.com/fwlink/?linkid=24855).
+For more information about the format of the datetime value, see the Platform SDK: Windows Management Instrumentation documentation at [http://go.microsoft.com/fwlink/?LinkID=24855](https://go.microsoft.com/fwlink/?linkid=24855).
 
 ## Requirements
 

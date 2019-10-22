@@ -14,4 +14,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Artifacts That Must Be Unique in an Application
-For information about the unique artifacts in an application, see [Artifacts That Must Be Unique in an Application or Group](http://go.microsoft.com/fwlink/?LinkID=155141) (http://go.microsoft.com/fwlink/?LinkID=155141).
+For information about the unique artifacts in an application, see [Artifacts That Must Be Unique in an Application or Group](https://go.microsoft.com/fwlink/?LinkID=155141) (https://go.microsoft.com/fwlink/?LinkID=155141).
