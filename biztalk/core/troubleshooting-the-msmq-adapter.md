@@ -15,11 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Troubleshooting the MSMQ Adapter
-This section describes known issues using the MSMQ adapter.  
-  
-## In This Section  
-  
--   [Known Issues with the MSMQ Adapter](../core/known-issues-with-the-msmq-adapter.md)  
-  
-## See Also  
- [MSMQ Best Practices](http://go.microsoft.com/fwlink/?LinkId=69974)
+This section describes known issues using the MSMQ adapter.
+
+## In This Section
+
+-   [Known Issues with the MSMQ Adapter](../core/known-issues-with-the-msmq-adapter.md)
+
+## See Also
+ [MSMQ Best Practices](https://go.microsoft.com/fwlink/?LinkId=69974)

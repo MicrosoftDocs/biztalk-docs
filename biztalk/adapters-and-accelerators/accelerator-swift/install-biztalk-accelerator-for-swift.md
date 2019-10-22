@@ -8,7 +8,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "documentation"
 ms.assetid: 8d492248-fde6-4fd8-be6b-e86ac7d0808b
 caps.latest.revision: 12
@@ -17,11 +17,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Install BizTalk Accelerator for SWIFT
-Install [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-currentversion-firstref-md.md)] on BizTalk Server. 
+Install [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-currentversion-firstref-md.md)] on BizTalk Server.
 
 \<!--- Previous text
-- [Installation Guide for BizTalk Accelerator for SWIFT](http://go.microsoft.com/fwlink/?LinkId=198120)    
-- Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] Readme, located in the \Program Files\Microsoft BizTalk Accelerator for SWIFT \Documentation folder.  
+- [Installation Guide for BizTalk Accelerator for SWIFT](https://go.microsoft.com/fwlink/?LinkId=198120)
+- Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)] Readme, located in the \Program Files\Microsoft BizTalk Accelerator for SWIFT \Documentation folder.
   -->
 
 ## Hardware and software requirements
@@ -34,14 +34,14 @@ The minimum hardware and software requirements are the same as [!INCLUDE[btsBizT
 |                                                       [!INCLUDE[bts2016_md](../../includes/bts2016-md.md)]                                                        |             [Hardware and Software Requirements for BizTalk Server 2016](../../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)             |                                      **SQL Server hardware and software requirements**: <br/>[SQL Server 2016](https://msdn.microsoft.com/library/ms143506(v=sql.130).aspx)<br/>[SQL Server 2014](https://msdn.microsoft.com/library/ms143506(v=sql.120).aspx)<br/><br/>**Windows Server hardware requirements**: <br/>[Windows Server 2016](https://technet.microsoft.com/windows-server-docs/get-started/server-basics)<br/>[Windows Server 2012](https://technet.microsoft.com/library/jj134246.aspx)                                      |
 | [!INCLUDE[bts2013r2_md](../../includes/bts2013r2-md.md)] <br/><br/> [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] 2013 | [Hardware and Software Requirements for BizTalk Server 2013 and 2013 R2](../../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md) | **SQL Server hardware and software requirements**: <br/>[SQL Server 2014](https://msdn.microsoft.com/library/ms143506(v=sql.120).aspx)<br/>[SQL Server 2012](https://msdn.microsoft.com/library/ms143506(v=sql.110).aspx)<br/>[SQL Server 2008 R2](https://msdn.microsoft.com/library/ms143506(v=sql.105).aspx)<br/><br/>**Windows Server hardware requirements**: <br/>[Windows Server 2012](https://technet.microsoft.com/library/jj134246.aspx)<br/>[Windows Server 2008 R2](https://technet.microsoft.com/library/dd379511(v=ws.10).aspx) |
 
-> [!TIP] 
-> The hardware requirements listed are the minimum. Every environment is different and there's a very good chance that your environment may need more. See [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](http://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx). 
+> [!TIP]
+> The hardware requirements listed are the minimum. Every environment is different and there's a very good chance that your environment may need more. See [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](https://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx).
 
 ## Install SWIFT
 
 ### Before you begin
 
-* Sign in using an account that is a member of the BizTalk Server Administrators group. 
+* Sign in using an account that is a member of the BizTalk Server Administrators group.
 * In your BizTalk Server download, the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] setup is in the `\BizTalk Accelerators` folder.
 * BizTalk Server must be installed, and SQL Server must be running.
 * A silent installation is supported, but is not recommended due to the complexity of the additional configuration steps that are required.
@@ -63,7 +63,7 @@ The minimum hardware and software requirements are the same as [!INCLUDE[btsBizT
 7. Select **Finish** when complete. A setup log file is generated in a temp folder, similar to: `C:\Users\username\AppData\Local\Setup(111016 xxxxxx).log`.
 
 > [!NOTE]
-> If **Run Configuration Wizard** is selected on the Installation Completed page, the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] Configuration Wizard runs automatically when you click **Finish**. 
+> If **Run Configuration Wizard** is selected on the Installation Completed page, the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] Configuration Wizard runs automatically when you click **Finish**.
 
 
 ### Custom installation
@@ -95,7 +95,7 @@ The minimum hardware and software requirements are the same as [!INCLUDE[btsBizT
 8. Select **Finish** when complete. A setup log file is generated in a temp folder, similar to: `C:\Users\username\AppData\Local\Setup(111016 xxxxxx).log`.
 
 > [!NOTE]
-> If **Run Configuration Wizard** is selected on the Installation Completed page, the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] Configuration Wizard runs automatically when you click **Finish**. 
+> If **Run Configuration Wizard** is selected on the Installation Completed page, the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] Configuration Wizard runs automatically when you click **Finish**.
 
 ## Next steps
 [Configure BizTalk Accelerator for SWIFT](../../adapters-and-accelerators/accelerator-swift/configure-biztalk-accelerator-for-swift.md)

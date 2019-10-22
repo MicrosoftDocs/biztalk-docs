@@ -48,7 +48,7 @@ The following table lists the supported operating systems that can be upgraded t
 | Windows 8 | No | No
 | Windows 7 SP1 | No | No |
 
-The following table lists the supported SQL Server versions that can be upgraded to [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. The SQL Server hosts the databases used by BizTalk Server. “Yes” means BizTalk Server using that SQL Server version can be upgraded. “No” means BizTalk Server using that SQL Server version cannot be upgraded. When “No”, the BizTalk environment must be recreated on a supported SQL Server version. [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md) lists the supported SQL Server versions. 
+The following table lists the supported SQL Server versions that can be upgraded to [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. The SQL Server hosts the databases used by BizTalk Server. “Yes” means BizTalk Server using that SQL Server version can be upgraded. “No” means BizTalk Server using that SQL Server version cannot be upgraded. When “No”, the BizTalk environment must be recreated on a supported SQL Server version. [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md) lists the supported SQL Server versions.
 
 > [!TIP]
 > If you're SQL Server version isn't supported, or isn't in the following list, then review the SQL Server upgrade documentation. The SQL upgrade covers more versions than what BizTalk supports. For example, if you're using SQL Server 2008, you may be able to upgrade SQL Server 2016. Then, you can upgrade to [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. [Upgrade to SQL Server 2016](https://msdn.microsoft.com/library/bb677622.aspx) and [Upgrade to SQL Server 2014](https://msdn.microsoft.com/library/bb677622(v=sql.120).aspx) lists the SQL Server versions that can be upgraded.
@@ -65,11 +65,11 @@ The following table lists the supported Edition upgrade path from [!INCLUDE[bts2
 
 | BizTalk Server 2013 R2/2013 | BizTalk Server 2016 Evaluation Edition | BizTalk Server 2016 Branch Edition | BizTalk Server 2016 Developer Edition | BizTalk Server 2016 Standard Edition | BizTalk Server 2016 Enterprise Edition |
 | --- | --- | --- | --- | --- | --- |
-| Evaluation | No | No | No | No | Yes | 
-| Branch | No | Yes | No | No | Yes | 
-| Developer | No | No | Yes | No | Yes | 
-| Standard | No | No | No | Yes | Yes | 
-| Enterprise | No | No | No | No | Yes | 
+| Evaluation | No | No | No | No | Yes |
+| Branch | No | Yes | No | No | Yes |
+| Developer | No | No | Yes | No | Yes |
+| Standard | No | No | No | Yes | Yes |
+| Enterprise | No | No | No | No | Yes |
 
 ## Before the upgrade – what you need to know
 
@@ -85,10 +85,10 @@ The following table lists the supported Edition upgrade path from [!INCLUDE[bts2
 
 - **Network Service Account**: Must have write access to %windir%\temp.
 
-- **Certificates**: Back up the Windows certificates store:  
+- **Certificates**: Back up the Windows certificates store:
 
-    [Windows 7 and Windows Server 2008 R2: Import a Certificate](https://technet.microsoft.com/library/cc754489.aspx)  
-    [Windows 7 and Windows Server 2008 R2: Export a Certificate](https://technet.microsoft.com/library/cc730988.aspx)  
+    [Windows 7 and Windows Server 2008 R2: Import a Certificate](https://technet.microsoft.com/library/cc754489.aspx)
+    [Windows 7 and Windows Server 2008 R2: Export a Certificate](https://technet.microsoft.com/library/cc730988.aspx)
 
 - **DTC**: Enable Microsoft Distributed Transaction Coordinator (MSDTC) ([Post-configuration steps to optimize your environment](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)), and then enable the Inbound/Outbound DTC rules:
 
@@ -102,7 +102,7 @@ The following table lists the supported Edition upgrade path from [!INCLUDE[bts2
 
     If you are using SharePoint versions that doesn't support CSOM, you may be able to upgrade to a supported SharePoint version:
 
-    [Upgrade to SharePoint 2016](https://technet.microsoft.com/library/cc303420(v=office.16).aspx)  
+    [Upgrade to SharePoint 2016](https://technet.microsoft.com/library/cc303420(v=office.16).aspx)
     [Upgrade to SharePoint 2013](https://technet.microsoft.com/library/cc303420(v=office.15).aspx)
 
 - **.NET Framework**: There is no concept of side-by-side installation between .NET Framework 4.5 and .NET Framework 4.6. The .NET Framework 4.6 binaries overwrite .NET Framework 4.5 binaries. .NET Framework 4.6 is a [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] requirement, and is not supported (and should not be installed) in previous BizTalk Server versions.
@@ -132,19 +132,19 @@ SQL Server Database Mail is required to use BAM Alerts. If SQL Server is being u
 
 > [!IMPORTANT]
 > If you don’t follow these steps in the order listed or create a definition file, you must recreate the definition files after the BizTalk Server upgrade.
-> 
+>
 > To view the BM.exe help, type: `bm.exe help`.
 
 
-### BAM 
+### BAM
 
-- **BAM DTS Packages**: Stop all BAM Data Transformation Services (DTS) packages. Otherwise, data may be lost or an online analytical processing (OLAP) cube may corrupt. 
+- **BAM DTS Packages**: Stop all BAM Data Transformation Services (DTS) packages. Otherwise, data may be lost or an online analytical processing (OLAP) cube may corrupt.
 
 - **Disk Space**: The free disk space should be at least the size of the existing BAM databases.
 
 - **Real-time Aggregations**: If you are using BAM real-time aggregations in your current version of BizTalk Server and are upgrading SQL Server, install or upgrade to the SQL Server Enterprise Edition. Otherwise, the upgrade fails.
 
-- **maxTimeout value**: If you have a large BAM database, update the `maxTimeout` value for distributed transactions in your machine.config file to:  
+- **maxTimeout value**: If you have a large BAM database, update the `maxTimeout` value for distributed transactions in your machine.config file to:
 
     ```
     <system.transactions>
@@ -156,11 +156,11 @@ SQL Server Database Mail is required to use BAM Alerts. If SQL Server is being u
 
 - **LiveData Workbook**: If you are using BAM in BizTalk Server 2013 R2/2013, after the upgrade, you must manually regenerate the LiveData Workbook. To regenerate the LiveData Workbook:
 
-  1. Retrieve the BAM Definition by running the following command:  
+  1. Retrieve the BAM Definition by running the following command:
      `BM get-defxml MyDef.xml`
   2. Re-create the PivotTable reports by opening Microsoft Office Excel, and then selecting the BAM Add-ins. Import the *MyDef.xml* file created in step (1), and recreate the PivotTable reports. Save the new BAM Workbook as *MyNewBook.xls*.
   3. Rename the PivotTable reports by finding the PivotTable names in *MyDef.xml* under `<Caption>` in the  `<BAMDefinition>\<Extension>\<OWC>\<PivotTableView>\<PivotTable>\<PivotView>\<Label>` path. Use these names to rename your PivotTable reports in *MyNewBook.xls*.
-  4. Regenerate the LiveData Workbook by running the following command:  
+  4. Regenerate the LiveData Workbook by running the following command:
      `BM regenerate-livedataworkbook MyNewBook.xls`
 
      > [!NOTE]
@@ -182,16 +182,16 @@ In a multicomputer environment, upgrade the SSO master secret server computer. T
 3. Administration tools and monitoring computer
 4. Development and any other remaining computers that are running BizTalk Server
 
-**Additional**  
+**Additional**
 Using the Settings Dashboard, you can extensively tweak BizTalk Server settings for performance optimization. You can also modify settings for the BizTalk Group, BizTalk Host, and BizTalk Host Instance. See [Using Settings Dashboard for BizTalk Server Performance Tuning](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md).
 
 ### General information
 
 - **Account names**: Use the default account names whenever possible. The BizTalk Server Setup program automatically configures installed components to use the default accounts. If there are multiple BizTalk Server groups in an Active Directory forest, change the account names to avoid conflicts. BizTalk Server supports only `<NetBIOS domain name>\<user>` name formats for service accounts and Windows groups.
 
-- **Account names with BAM Management Web Service**: BizTalk Server does not support built-in accounts or accounts without passwords for the BAM Management Web Service User. 
+- **Account names with BAM Management Web Service**: BizTalk Server does not support built-in accounts or accounts without passwords for the BAM Management Web Service User.
 
-  Configuring BizTalk Server with such accounts may appear to succeed, but the BAM Management Web Service fails. 
+  Configuring BizTalk Server with such accounts may appear to succeed, but the BAM Management Web Service fails.
 
   Use of such accounts for the BAM Application pool is supported.
 
@@ -229,9 +229,9 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 
 > [!IMPORTANT]
 > When you installed SQL Server, setup granted your logged-on account system administrator rights. System administrator rights are also required to install BizTalk Server. Do one of the following:
-> 
-> - Use the same account you used when you installed SQL Server  
-> **OR**  
+>
+> - Use the same account you used when you installed SQL Server
+> **OR**
 > - Make sure the current logged-on account has system administrator rights
 
 ### Upgrade steps
@@ -245,9 +245,9 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 7. In **Component Installation**, review the available components, and select **Next**.
 8. If your computer is missing a prerequisite, Setup can install the redistributable prerequisites. You can either:
 
-    - Select Automatically install the redistributable prerequisites from the web  
+    - Select Automatically install the redistributable prerequisites from the web
 
-      OR  
+      OR
 
     - Select Automatically install the redistributable prerequisites from a CAB file if you downloaded the CAB file. Browse to the location of the CAB file and select it.
 
@@ -256,7 +256,7 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 11. Optional: Select **Use the Microsoft Update when I check for updates (recommended)**.
 12. In **Upgrade Completed**, clear the L**aunch BizTalk Server Configuration** check box, and then select **Finish**.
 
-**ADDITIONAL**  
+**ADDITIONAL**
 A lot happens during an upgrade of BizTalk Server, and it’s not uncommon to run into an error during the process. However, most errors are easily remedied if you’re prepared. We recommend reading the **Appendix B** (in this topic) for tips on how to avoid upgrade errors, and what to do if one occurs.
 
 The upgrade process only upgrades features that were part of your previous version of BizTalk Server. New features are not installed during an upgrade. To install these features, rerun Setup after the upgrade, choose **Modify**, and select the features you want to install. Once installed, configure them using the **BizTalk Server Configuration Manager**.
@@ -278,10 +278,10 @@ You cannot roll back to [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/20
 
     ```
     <?xml version="1.0" encoding="Windows-1252"?>
-    <configuration> 
+    <configuration>
      <startup>
       <supportedRuntime version="v2.0.50727" />
-     </startup>   
+     </startup>
     </configuration>
     ```
 
@@ -292,11 +292,11 @@ You cannot roll back to [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/20
 
 - **Restart applications**: Restart all deployed applications that are upgraded.
 
-- **BAM Portal error**: When you open the BAM portal, you may receive the following error message: 
+- **BAM Portal error**: When you open the BAM portal, you may receive the following error message:
 
-    `The server encountered a critical failure while trying to access the list of Views. The Business Management Web Service requires Administrator's attention.` 
+    `The server encountered a critical failure while trying to access the list of Views. The Business Management Web Service requires Administrator's attention.`
 
-    This error can occur if the BAM portal is configured on a website used by applications that are running .NET Framework 2.0. In this scenario, host the BAM portal on a new website. To add a website, see [Create a Web Site](http://go.microsoft.com/fwlink/p/?LinkID=196470). After creating the website, reconfigure the BAM Portal:
+    This error can occur if the BAM portal is configured on a website used by applications that are running .NET Framework 2.0. In this scenario, host the BAM portal on a new website. To add a website, see [Create a Web Site](https://go.microsoft.com/fwlink/p/?LinkID=196470). After creating the website, reconfigure the BAM Portal:
 
     1. Open **BizTalk Server Configuration**.
     2. Select **Unconfigure Features**. In **Unconfigure Features**, select the **BAM Portal** check box, and select **OK**.
@@ -309,7 +309,7 @@ You cannot roll back to [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/20
 ## Appendix A: Customer experience improvement Program
 As part of the Customer Experience Improvement Program in BizTalk Server, you can provide useful feedback to Microsoft regarding feature usage of BizTalk Server. The data collected is anonymous, and cannot be used to identify you. Microsoft collects feature usage statistics as part of this program.
 
-By participating in this program, you can help improve the reliability and performance of various features of BizTalk Server. For more information about this program and its privacy policy, see [Microsoft BizTalk Server CEIP Privacy Policy](http://go.microsoft.com/fwlink/p/?LinkId=188553).
+By participating in this program, you can help improve the reliability and performance of various features of BizTalk Server. For more information about this program and its privacy policy, see [Microsoft BizTalk Server CEIP Privacy Policy](https://go.microsoft.com/fwlink/p/?LinkId=188553).
 
 ## Appendix B: Known issues
 
@@ -337,7 +337,7 @@ By participating in this program, you can help improve the reliability and perfo
 
     If the upgrade continues to fail and you need to regress to your previous version of BizTalk Server, you must restore the databases you backed up, and then reinstall your previous BizTalk Server version.
 
-- **Use the same versions**: In a BizTalk application group, you cannot run machines with different versions of BizTalk Server. For example, in the BizTalk Administration Console, you cannot bind a send port running on one version of BizTalk Server to a receive location running on a different version of BizTalk Server. 
+- **Use the same versions**: In a BizTalk application group, you cannot run machines with different versions of BizTalk Server. For example, in the BizTalk Administration Console, you cannot bind a send port running on one version of BizTalk Server to a receive location running on a different version of BizTalk Server.
 
 - **Restart SSO Service**: If you have a previous Visual Studio version or .NET Framework 4.5 installed on your machine, then the SSO service in earlier versions of BizTalk Server stops working. To resolve this issue, run the `regasm SSOSQL.dll` command from the Visual Studio command prompt. This command restarts the SSO service.
 
@@ -382,7 +382,7 @@ By participating in this program, you can help improve the reliability and perfo
       - key="MainPageContentUrl"
       - key="AlertNotificationOptions"
 
-     > [!NOTE] 
+     > [!NOTE]
      > On a 64-bit machine, after you upgrade the operating system, we recommend that you reconfigure the BAM portal.
 
 - **Deploy EDI BAM activities**: When you upgrade, the upgrade may partially succeed. This can happen when you upgrade SQL Server (with EDI configured). The EDI BAM activities might not be upgraded properly. To resolve this issue, deploy the BAM activities by running the following commands at the command prompt with administrative credentials:
@@ -395,7 +395,7 @@ By participating in this program, you can help improve the reliability and perfo
 
 - **SSO Error on Cluster**: On a BizTalk Server runtime cluster environment, when you try to upgrade, you may receive an error message:
 
-    `SSO Master Secret Server service is not running on <Cluster name>.Please start the service to continue the upgrade.` 
+    `SSO Master Secret Server service is not running on <Cluster name>.Please start the service to continue the upgrade.`
 
     To resolve this issue, refresh the SSO services both in the SSO and BizTalk Server runtime cluster.
 

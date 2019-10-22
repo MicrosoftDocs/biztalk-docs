@@ -8,7 +8,7 @@ ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "FTP adapters, configuring"
   - "configuring [FTP adapters]"
 ms.assetid: 7e7d2e2d-142e-4459-be25-efd501b396d2
@@ -21,8 +21,8 @@ manager: "anneta"
 
 
 ## Before you begin
-- The FTP adapter supports reading and writing data from a secure FTP server. The adapter provides support for file transfer from an FTP server over Secure Sockets Layer (SSL)/Transport Level Security (TLS). 
-- The FTP adapter supports downloading of files from read-only file locations. 
+- The FTP adapter supports reading and writing data from a secure FTP server. The adapter provides support for file transfer from an FTP server over Secure Sockets Layer (SSL)/Transport Level Security (TLS).
+- The FTP adapter supports downloading of files from read-only file locations.
 - The FTP adapter supports atomic file transfer for ASCII mode also.
 
 See [Best practices and recommendations for the FTP adapter](../core/best-practices-and-recommendations-for-the-ftp-adapter.md).
@@ -30,37 +30,37 @@ See [Best practices and recommendations for the FTP adapter](../core/best-practi
 
 ## Configure the receive location
 
-You can set FTP receive location adapter properties in the BizTalk Server Administration console. If properties are not set in the receive location, then the default receive handler values in the BizTalk Server Administration console are used.  
+You can set FTP receive location adapter properties in the BizTalk Server Administration console. If properties are not set in the receive location, then the default receive handler values in the BizTalk Server Administration console are used.
 
 > [!NOTE]
->  Before completing the following procedure, you must have already added a receive port. See [How to Create a Receive Port](../core/how-to-create-a-receive-port.md).  
-> 1.  In the BizTalk Server Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application in which you want to create a receive location.  
+>  Before completing the following procedure, you must have already added a receive port. See [How to Create a Receive Port](../core/how-to-create-a-receive-port.md).
+> 1.  In the BizTalk Server Administration console, expand **BizTalk Server Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application in which you want to create a receive location.
 
-2. In the left pane, click the **Receive Ports** node. In the right pane, right-click the receive port that is associated with an existing receive location or that you want to associate with a new receive location, and then click **Properties**.  
+2. In the left pane, click the **Receive Ports** node. In the right pane, right-click the receive port that is associated with an existing receive location or that you want to associate with a new receive location, and then click **Properties**.
 
-3. In the **Receive Port Properties** dialog box, in the left pane, select **Receive Locations**. In the right pane, double-click an existing receive location or click **New** to create a new receive location.  
+3. In the **Receive Port Properties** dialog box, in the left pane, select **Receive Locations**. In the right pane, double-click an existing receive location or click **New** to create a new receive location.
 
-4. In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **FTP** from the drop-down list and then click **Configure**.  
+4. In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **FTP** from the drop-down list and then click **Configure**.
 
-5. In **FTP Transport Properties**, do the following:  
+5. In **FTP Transport Properties**, do the following:
 
    **Batch**
 
-   |Use this|To do this|  
-   |--------------|----------------|  
-   |**Maximum Files**|Specify the maximum number of files per BizTalk Server batch.<br /><br /> Zero (0) indicates no limit.<br /><br /> **Default value:** 0|  
-   |**Maximum Size**|Specify the maximum number of bytes per BizTalk Server batch.<br /><br /> Zero (0) indicates no limit.<br /><br /> **Default value:** 0|  
+   |Use this|To do this|
+   |--------------|----------------|
+   |**Maximum Files**|Specify the maximum number of files per BizTalk Server batch.<br /><br /> Zero (0) indicates no limit.<br /><br /> **Default value:** 0|
+   |**Maximum Size**|Specify the maximum number of bytes per BizTalk Server batch.<br /><br /> Zero (0) indicates no limit.<br /><br /> **Default value:** 0|
 
    **Firewall**
 
-   |Use this|To do this|  
-   |--------------|----------------|     
-   |**Address**|Specify the address of the firewall, either a DNS name or an IP address.|  
-   |**Mode**|Specify the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server. Active mode may not work if you use an internal IP and you connect to an external IP. In this case, you need to use Passive mode or Active mode with an application-layer gateway (ALG) with FTP support.<br /><br /> **Default value:** Active|  
-   |**Password**|Specify the password for the firewall.|  
-   |**Port**|Specify the port for the firewall.<br /><br /> **Valid values:** 1 through 65535 inclusive<br /><br /> **Default value:** 21|  
-   |**Type**|Specify the type of firewall deployed.<br /><br /> **Valid values:** None, Socks 4, and Socks 5<br /><br /> **Default value:** None|  
-   |**User**|Specify the user name for the firewall.|  
+   |Use this|To do this|
+   |--------------|----------------|
+   |**Address**|Specify the address of the firewall, either a DNS name or an IP address.|
+   |**Mode**|Specify the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server. Active mode may not work if you use an internal IP and you connect to an external IP. In this case, you need to use Passive mode or Active mode with an application-layer gateway (ALG) with FTP support.<br /><br /> **Default value:** Active|
+   |**Password**|Specify the password for the firewall.|
+   |**Port**|Specify the port for the firewall.<br /><br /> **Valid values:** 1 through 65535 inclusive<br /><br /> **Default value:** 21|
+   |**Type**|Specify the type of firewall deployed.<br /><br /> **Valid values:** None, Socks 4, and Socks 5<br /><br /> **Default value:** None|
+   |**User**|Specify the user name for the firewall.|
 
    **FTP**
 
@@ -86,22 +86,22 @@ You can set FTP receive location adapter properties in the BizTalk Server Admini
 
    **Polling**
 
-   |Use this|To do this|  
-   |--------------|----------------|         
-   |**Delete After Download**|Specify whether the adapter deletes a file from the FTP server after downloading it.<br /><br /> **Default value:** Yes **Note:**|  
-   |**Enable Timestamp Comparison**|Specify whether the adapter downloads a file again based on its modified timestamp. In cases when the adapter does not have delete permissions on the FTP server, the MDTM (Modification Time) command allows the adapter to know whether a file has been modified since last download.  Based on the value of this property, the file is downloaded again.<br /><br /> **Default value:** No **Note**:  In case the FTP server does not support MDTM, set the **Redownload Interval** property. **Note:**  This property is applicable only when **Delete After Download** is set to No.|  
-   |**Interval**|Specify the interval number for polling this location. To poll continuously, set this value to zero (0).<br /><br /> **Default value:** 60|  
-   |**Redownload Interval**|Specify the interval after which the adapter downloads files again. This property is applicable only when both **Delete After Download** and **Enable Timestamp Comparison** are set to No.<br /><br /> **Default value:** -1<br /><br /> -1 indicates that the adapter will not download files again.<br /><br /> 0 indicates that the adapter will download the file in each polling cycle.|  
-   |**Unit**|Specify the type of units for the **Interval** and **Redownload Interval** properties.<br /><br /> **Valid values:** Seconds, Minutes, Hours, and Days<br /><br /> **Default value:** Seconds|  
+   |Use this|To do this|
+   |--------------|----------------|
+   |**Delete After Download**|Specify whether the adapter deletes a file from the FTP server after downloading it.<br /><br /> **Default value:** Yes **Note:**|
+   |**Enable Timestamp Comparison**|Specify whether the adapter downloads a file again based on its modified timestamp. In cases when the adapter does not have delete permissions on the FTP server, the MDTM (Modification Time) command allows the adapter to know whether a file has been modified since last download.  Based on the value of this property, the file is downloaded again.<br /><br /> **Default value:** No **Note**:  In case the FTP server does not support MDTM, set the **Redownload Interval** property. **Note:**  This property is applicable only when **Delete After Download** is set to No.|
+   |**Interval**|Specify the interval number for polling this location. To poll continuously, set this value to zero (0).<br /><br /> **Default value:** 60|
+   |**Redownload Interval**|Specify the interval after which the adapter downloads files again. This property is applicable only when both **Delete After Download** and **Enable Timestamp Comparison** are set to No.<br /><br /> **Default value:** -1<br /><br /> -1 indicates that the adapter will not download files again.<br /><br /> 0 indicates that the adapter will download the file in each polling cycle.|
+   |**Unit**|Specify the type of units for the **Interval** and **Redownload Interval** properties.<br /><br /> **Valid values:** Seconds, Minutes, Hours, and Days<br /><br /> **Default value:** Seconds|
 
    **SSL**
 
-   |Use this|To do this|  
+   |Use this|To do this|
    |--------------|----------------|
-   |**Client Certificate Hash**|Specify the SHA1 hash of the client certificate that must be used in the Secure Sockets Layer (SSL) negotiation.<br /><br /> Based on this hash, the client certificate is picked up from the personal store of the user account under which the BizTalk host instance is running.|  
-   |**FTPS Connection Mode**|Specify the mode of SSL connection made to the FTPS server.<br /><br /> **Valid Values:** Implicit or Explicit<br /><br /> **Default Value:** Explicit|  
-   |**Use Data Protection**|Specify this as Yes if the adapter must use SSL encryption when it sends and receives data files from the FTPS server. Specify this as No for the adapter to send and receive data files as plaintext. **Note:**  This property is applicable only if the **Use SSL** property is set to Yes. <br /><br /> **Valid Values:** Yes or No<br /><br /> **Default Value:** Yes|  
-   |**Use SSL**|Specify whether the FTP adapter must use SSL to communicate with the FTPS server.<br /><br /> **Valid Values:** Yes or No<br /><br /> **Default Value:** No|  
+   |**Client Certificate Hash**|Specify the SHA1 hash of the client certificate that must be used in the Secure Sockets Layer (SSL) negotiation.<br /><br /> Based on this hash, the client certificate is picked up from the personal store of the user account under which the BizTalk host instance is running.|
+   |**FTPS Connection Mode**|Specify the mode of SSL connection made to the FTPS server.<br /><br /> **Valid Values:** Implicit or Explicit<br /><br /> **Default Value:** Explicit|
+   |**Use Data Protection**|Specify this as Yes if the adapter must use SSL encryption when it sends and receives data files from the FTPS server. Specify this as No for the adapter to send and receive data files as plaintext. **Note:**  This property is applicable only if the **Use SSL** property is set to Yes. <br /><br /> **Valid Values:** Yes or No<br /><br /> **Default Value:** Yes|
+   |**Use SSL**|Specify whether the FTP adapter must use SSL to communicate with the FTPS server.<br /><br /> **Valid Values:** Yes or No<br /><br /> **Default Value:** No|
 
    **Tuning Parameters**
 
@@ -112,35 +112,35 @@ You can set FTP receive location adapter properties in the BizTalk Server Admini
    |   **Temporary Folder**   |  Specify the location for a temporary folder. You use this location to guarantee recovery from a transfer failure.                                                |
 
 
-6. Click **OK** to save settings.  
+6. Click **OK** to save settings.
 
-7. In the **Receive Location Properties** dialog box, enter the appropriate values to complete the configuration of the receive location and then click **OK** to save settings. For information about the **Receive Locations Properties** dialog box, see [How to Create a Receive Location](../core/how-to-create-a-receive-location.md).  
+7. In the **Receive Location Properties** dialog box, enter the appropriate values to complete the configuration of the receive location and then click **OK** to save settings. For information about the **Receive Locations Properties** dialog box, see [How to Create a Receive Location](../core/how-to-create-a-receive-location.md).
 
 > [!NOTE]
->  Do not configure multiple FTP receive locations to poll the same FTP URL. If multiple FTP receive locations are polling the same URL concurrently then each receive location can receive a copy of the file, which can cause data duplication. This behavior occurs because the FTP protocol has no provision for locking files when reading them from the target URL.  
->   
->  To provide high availability for the FTP receive adapter, you should configure the FTP receive adapter to run in a clustered BizTalk Host instance. See [Considerations for Running Adapter Handlers within a Clustered Host](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md).  
+>  Do not configure multiple FTP receive locations to poll the same FTP URL. If multiple FTP receive locations are polling the same URL concurrently then each receive location can receive a copy of the file, which can cause data duplication. This behavior occurs because the FTP protocol has no provision for locking files when reading them from the target URL.
+>
+>  To provide high availability for the FTP receive adapter, you should configure the FTP receive adapter to run in a clustered BizTalk Host instance. See [Considerations for Running Adapter Handlers within a Clustered Host](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md).
 
 ## Configure the send port
 
-You can set FTP send port adapter properties in the BizTalk Server Administration console. If properties are not set for the send port, the default send handler values in the BizTalk Server Administration console are used.  
+You can set FTP send port adapter properties in the BizTalk Server Administration console. If properties are not set for the send port, the default send handler values in the BizTalk Server Administration console are used.
 
-1. In the BizTalk Server Administration console, create a new send port or double-click an existing send port to modify it. See [How to Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options, and in the **Transport** section of the **General** page, specify **FTP** for the **Type** option.  
+1. In the BizTalk Server Administration console, create a new send port or double-click an existing send port to modify it. See [How to Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options, and in the **Transport** section of the **General** page, specify **FTP** for the **Type** option.
 
-2. On the **General** page, in the **Transport** section, click the **Configure** button next to **Type**.  
+2. On the **General** page, in the **Transport** section, click the **Configure** button next to **Type**.
 
-3. In **FTP Transport Properties**, do the following:  
+3. In **FTP Transport Properties**, do the following:
 
    **Firewall**
 
-   |Use this|To do this|  
-   |--------------|----------------|    
-   |**Address**|Specify the address of the firewall, either a DNS name or an IP address.|  
-   |**Mode**|Select the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server. Active mode may not work if you use an internal IP and you connect to an external IP. In this case, you need to use Passive mode or Active mode with an application-layer gateway (ALG) with FTP support.<br /><br /> **Default value:** Active|  
-   |**Password**|Specify the password for the firewall.|  
-   |**Port**|Specify the port for the firewall.<br /><br /> **Valid values:** 1 through 65535 inclusively<br /><br /> **Default value:** 21|  
-   |**Type**|Select the type of firewall deployed.<br /><br /> **Valid values:** Socks 4, Socks 5, None<br /><br /> **Default value:** None|  
-   |**User**|Specify the user name for the firewall.|  
+   |Use this|To do this|
+   |--------------|----------------|
+   |**Address**|Specify the address of the firewall, either a DNS name or an IP address.|
+   |**Mode**|Select the mode in which the adapter connects to the FTP server.<br /><br /> **Valid values:** Passive and Active<br /><br /> In active mode, the FTP server connects to a port opened by the FTP adapter. In passive mode, the FTP adapter connects to a port opened by the FTP server. Active mode may not work if you use an internal IP and you connect to an external IP. In this case, you need to use Passive mode or Active mode with an application-layer gateway (ALG) with FTP support.<br /><br /> **Default value:** Active|
+   |**Password**|Specify the password for the firewall.|
+   |**Port**|Specify the port for the firewall.<br /><br /> **Valid values:** 1 through 65535 inclusively<br /><br /> **Default value:** 21|
+   |**Type**|Select the type of firewall deployed.<br /><br /> **Valid values:** Socks 4, Socks 5, None<br /><br /> **Default value:** None|
+   |**User**|Specify the user name for the firewall.|
 
    **FTP**
 
@@ -164,12 +164,12 @@ You can set FTP send port adapter properties in the BizTalk Server Administratio
 
    **SSL**
 
-   |Use this|To do this|  
+   |Use this|To do this|
    |--------------|----------------|
-   |**Client Certificate Hash**|Specify the SHA1 hash of the client certificate that must be used in the Secure Sockets Layer (SSL) negotiation.<br /><br /> Based on this hash, the client certificate is picked up from the personal store of the user account under which the BizTalk host instance is running.|  
-   |**FTPS Connection Mode**|Specify the mode of SSL connection made to the FTPS server.<br /><br /> **Valid values:** Implicit or Explicit<br /><br /> **Default value:** Explicit|  
-   |**Use Data Protection**|Specify this as Yes if the adapter must use SSL encryption when it sends and receives data files from the FTPS server. Specify this as No for the adapter to send and receive data files as plaintext. **Note:**  This property is applicable only if the **Use SSL** property is set to Yes. <br /><br /> **Valid values:** Yes or No<br /><br /> **Default value:** Yes|  
-   |**Use SSL**|Specify whether the FTP adapter must use SSL to communicate with the FTPS server.<br /><br /> **Valid values:** Yes or No<br /><br /> **Default value:** No|  
+   |**Client Certificate Hash**|Specify the SHA1 hash of the client certificate that must be used in the Secure Sockets Layer (SSL) negotiation.<br /><br /> Based on this hash, the client certificate is picked up from the personal store of the user account under which the BizTalk host instance is running.|
+   |**FTPS Connection Mode**|Specify the mode of SSL connection made to the FTPS server.<br /><br /> **Valid values:** Implicit or Explicit<br /><br /> **Default value:** Explicit|
+   |**Use Data Protection**|Specify this as Yes if the adapter must use SSL encryption when it sends and receives data files from the FTPS server. Specify this as No for the adapter to send and receive data files as plaintext. **Note:**  This property is applicable only if the **Use SSL** property is set to Yes. <br /><br /> **Valid values:** Yes or No<br /><br /> **Default value:** Yes|
+   |**Use SSL**|Specify whether the FTP adapter must use SSL to communicate with the FTPS server.<br /><br /> **Valid values:** Yes or No<br /><br /> **Default value:** No|
 
    **Tuning Parameters**
 
@@ -179,13 +179,13 @@ You can set FTP send port adapter properties in the BizTalk Server Administratio
    | **Connection Limit** | Specify the maximum number of concurrent FTP connections that can be opened to the server. A value of 0 means no limit.<br /><br /> **Default value:** 0 **Note:**  This property replaces the registry entry that was used in earlier versions of BizTalk Server to govern the connection limit. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] ignores the registry entry used to control the connection limit. |
    | **Temporary Folder** |      Specify the location for a temporary folder on the FTP server. The file is first uploaded here and then moved to the destination FTP folder. In case of transfer failure, the adapter restarts the file upload in ASCII mode of transfer and resumes in binary mode of transfer. **Note:**  If the file transfer is atomic between the temporary location and the relevant location on the FTP server, then the file upload is also atomic.      |
 
-4. Click **OK** and **OK** again to save settings.   
+4. Click **OK** and **OK** again to save settings.
 
 
-## FTP commands required by the FTP adapter  
-The FTP adapter is subject to the limitations of the FTP protocol, and requires that certain FTP commands are available on the source or destination FTP Server.  
+## FTP commands required by the FTP adapter
+The FTP adapter is subject to the limitations of the FTP protocol, and requires that certain FTP commands are available on the source or destination FTP Server.
 
-The FTP adapter operates as an FTP client and may require that the following commands are available on the FTP server to function correctly: 
+The FTP adapter operates as an FTP client and may require that the following commands are available on the FTP server to function correctly:
 
 
 | Command  |  Required by Receive  |  Required by Send  |
@@ -215,44 +215,44 @@ The FTP adapter operates as an FTP client and may require that the following com
 |   PBSZ   |  ✔  |  ✔  |
 |   PROT   |  ✔  |  ✔  |
 
- For more information about these FTP commands, see:  
+ For more information about these FTP commands, see:
 
--   [RFC 959 - File Transfer Protocol](http://go.microsoft.com/fwlink/p/?LinkId=119603) (http://go.microsoft.com/fwlink/p/?LinkId=119603)  
+-   [RFC 959 - File Transfer Protocol](https://go.microsoft.com/fwlink/p/?LinkId=119603) (https://go.microsoft.com/fwlink/p/?LinkId=119603)
 
--   [RFC 4217 - Securing FTP with TLS](http://go.microsoft.com/fwlink/p/?LinkId=183154) (http://go.microsoft.com/fwlink/p/?LinkId=183154)  
+-   [RFC 4217 - Securing FTP with TLS](https://go.microsoft.com/fwlink/p/?LinkId=183154) (https://go.microsoft.com/fwlink/p/?LinkId=183154)
 
--   [RFC 3659 - Extensions to FTP](http://go.microsoft.com/fwlink/p/?LinkId=183155) (http://go.microsoft.com/fwlink/p/?LinkId=183155)  
+-   [RFC 3659 - Extensions to FTP](https://go.microsoft.com/fwlink/p/?LinkId=183155) (https://go.microsoft.com/fwlink/p/?LinkId=183155)
 
 ## Configuring an FTP Adapter to Work with Legacy Hosts
 
-This sections addresses what you need to know to facilitate communication between the FTP adapter and a mainframe computer.   
+This sections addresses what you need to know to facilitate communication between the FTP adapter and a mainframe computer.
 > [!NOTE]
->  You cannot use the temporary folder function when sending files to an MVS or AS400 host. Input into this field is not supported and will cause errors.  
+>  You cannot use the temporary folder function when sending files to an MVS or AS400 host. Input into this field is not supported and will cause errors.
 
 > [!IMPORTANT]
->  The following information is provided as a guide and should not be substituted for information found in AS400 or IBM documentation.  
+>  The following information is provided as a guide and should not be substituted for information found in AS400 or IBM documentation.
 
-## MVS  
- To send files to an FTP server on a mainframe, the mainframe must support IBM Generation Data Group (GDG). In the name field, each file name will append a (+1) to the destination file name (a full path with quotes around it).  
+## MVS
+ To send files to an FTP server on a mainframe, the mainframe must support IBM Generation Data Group (GDG). In the name field, each file name will append a (+1) to the destination file name (a full path with quotes around it).
 
-## AS400  
- There are three methods of naming files and defining their paths when transferring files to and from an AS400 system:  
+## AS400
+ There are three methods of naming files and defining their paths when transferring files to and from an AS400 system:
 
--   **Filename field**: When sending a file to an FTP server, enter the file name in the **Filename** field. The file name must conform to the file-naming conventions of the AS400 system because the file will be stored in the Library File System.  
+-   **Filename field**: When sending a file to an FTP server, enter the file name in the **Filename** field. The file name must conform to the file-naming conventions of the AS400 system because the file will be stored in the Library File System.
 
--   **Quote command**: Use the Quote command to run a script on the remote computer. Enter the Quote command into the **Before GET**, **Before PUT**, **After GET**, and **After PUT** fields on any of the endpoints. Enter the Quote command in the following format:  
+-   **Quote command**: Use the Quote command to run a script on the remote computer. Enter the Quote command into the **Before GET**, **Before PUT**, **After GET**, and **After PUT** fields on any of the endpoints. Enter the Quote command in the following format:
 
-    ```  
-    QUOTE RCMD <command to be run on the remote system>.  
-    ```  
+    ```
+    QUOTE RCMD <command to be run on the remote system>.
+    ```
 
--   **Integrated File System (IFS)**: IFS is an area on the AS400 system that allows the storage of PC-based files and therefore the same naming conventions as a PC. To use the IFS instead of the default Library File System, the first command to enter is `quote site namefmt 1`. This command tells the AS400 system to use the IFS naming convention.    
+-   **Integrated File System (IFS)**: IFS is an area on the AS400 system that allows the storage of PC-based files and therefore the same naming conventions as a PC. To use the IFS instead of the default Library File System, the first command to enter is `quote site namefmt 1`. This command tells the AS400 system to use the IFS naming convention.
 
 
 ## More good stuff
 
-[FTP Adapter Property Schema and Properties](../core/ftp-adapter-property-schema-and-properties.md)  
+[FTP Adapter Property Schema and Properties](../core/ftp-adapter-property-schema-and-properties.md)
 
-[Best practices and recommendations for the FTP adapter](../core/best-practices-and-recommendations-for-the-ftp-adapter.md)  
+[Best practices and recommendations for the FTP adapter](../core/best-practices-and-recommendations-for-the-ftp-adapter.md)
 
 [FTP Adapter](../core/ftp-adapter.md)

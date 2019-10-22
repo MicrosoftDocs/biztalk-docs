@@ -16,9 +16,9 @@ manager: "anneta"
 # HIS Migration Tool
 
 ## Overview
-The HIS Migration Tool assists with migrating to HIS 2016 from earlier versions of HIS as well as assisting with migrating the configuration from an existing HIS 2016 installation to another server. The migration tool will harvest the configuration information in an existing HIS installation and allow that information to be applied to a new installation of HIS 2016. The configuration information that is harvested includes HIS Services, Registry Entries, config files and SNA Gateway Configuration information. 
-    
-[Download the HIS Migration Tool](http://go.microsoft.com/fwlink/?linkid=829851) (HisMigration.exe).
+The HIS Migration Tool assists with migrating to HIS 2016 from earlier versions of HIS as well as assisting with migrating the configuration from an existing HIS 2016 installation to another server. The migration tool will harvest the configuration information in an existing HIS installation and allow that information to be applied to a new installation of HIS 2016. The configuration information that is harvested includes HIS Services, Registry Entries, config files and SNA Gateway Configuration information.
+
+[Download the HIS Migration Tool](https://go.microsoft.com/fwlink/?linkid=829851) (HisMigration.exe).
 
 ## Tool Syntax
 
@@ -28,7 +28,7 @@ The HIS Migration Tool assists with migrating to HIS 2016 from earlier versions 
     drive:path The full path to an existing directory.
 
     /Apply     Apply a previously saved configuration to the current version of HIS.
-    
+
     /Overwrite Overwrite any existing files when doing a /Save.
                This entry is ignored when using /Apply.
 
@@ -40,5 +40,5 @@ The HIS Migration Tool assists with migrating to HIS 2016 from earlier versions 
 ```
 
 ## See Also
-[Same Server Migration](../install-and-config-guides/same-server-migration.md)  
+[Same Server Migration](../install-and-config-guides/same-server-migration.md)
 [Server to Server Migration](../install-and-config-guides/server-to-server-migration.md)

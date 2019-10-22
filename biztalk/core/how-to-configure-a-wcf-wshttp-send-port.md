@@ -15,15 +15,15 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure a WCF-WSHttp Send Port
-You can configure a WCF-WSHttp send port either programmatically or by using the BizTalk Administration console.  
+You can configure a WCF-WSHttp send port either programmatically or by using the BizTalk Administration console.
 
 ## Configuration properties
 
- The BizTalk Explorer Object Model exposes an adapter-specific interface for send ports named **ITransportInfo** that has the **TransportTypeData** read/write property. This property accepts a WCF-WSHttp send port configuration property bag in the form of a name-value pair of XML strings.  
+ The BizTalk Explorer Object Model exposes an adapter-specific interface for send ports named **ITransportInfo** that has the **TransportTypeData** read/write property. This property accepts a WCF-WSHttp send port configuration property bag in the form of a name-value pair of XML strings.
 
- The **TransportTypeData** property of the **ITransportInfo** interface is not required. If it is not set, the adapter uses the default values for the WCF-WSHttp send port configuration, as indicated in the following table.  
+ The **TransportTypeData** property of the **ITransportInfo** interface is not required. If it is not set, the adapter uses the default values for the WCF-WSHttp send port configuration, as indicated in the following table.
 
- The following table lists the configuration properties you can set in the BizTalk Explorer Object Model for WCF-WSHttp send ports.  
+ The following table lists the configuration properties you can set in the BizTalk Explorer Object Model for WCF-WSHttp send ports.
 
 
 | Property name | Type |  Description |
@@ -51,7 +51,7 @@ You can configure a WCF-WSHttp send port either programmatically or by using the
 |           **Password**            |  String  | Specify the password to use for authentication with the destination server when the **UseSSO** property is set to **False**.<br /><br /> The default is an empty string. |
 |          **ProxyToUse**           | Enum<br /><br /> -   **None** - Do not use a proxy server for this send port.<br />-   **Default** - Use the proxy settings in the send handler hosting this send port.<br />-   **UserSpecified** - Use the proxy server specified in the **ProxyAddress** property.  | Specify which proxy server to use for outgoing HTTP traffic.<br /><br /> Default value: **None**  |
 |         **ProxyAddress**          | String |  Specify the address of the proxy server. Use the **https** or the **http** scheme depending on the security configuration. This address can be followed by a colon and the port number. For example, `http://127.0.0.1:8080`.<br /><br /> The default is an empty string. |
-|         **ProxyUserName**         |  String  | Specify the user name to use for the proxy. The WCF-WSHttp adapter leverages the [WSHttpBinding](http://go.microsoft.com/fwlink/?LinkId=81206) in the buffered transfer mode to communicate with an endpoint. Proxy credentials of **WSHttpBinding** are applicable only when the security mode is **Transport**, or **None**. If you set the **SecurityMode** property to **Message** or **TransportWithMessageCredential**, the WCF-WSHttp adapter does not use the credential specified in the **ProxyUserName** and **ProxyPassword** properties for authentication against the proxy. **Note:**  The WCF-WSHttp send adapter uses the basic authentication for the proxy. <br /><br /> The default is an empty string.  |
+|         **ProxyUserName**         |  String  | Specify the user name to use for the proxy. The WCF-WSHttp adapter leverages the [WSHttpBinding](https://go.microsoft.com/fwlink/?LinkId=81206) in the buffered transfer mode to communicate with an endpoint. Proxy credentials of **WSHttpBinding** are applicable only when the security mode is **Transport**, or **None**. If you set the **SecurityMode** property to **Message** or **TransportWithMessageCredential**, the WCF-WSHttp adapter does not use the credential specified in the **ProxyUserName** and **ProxyPassword** properties for authentication against the proxy. **Note:**  The WCF-WSHttp send adapter uses the basic authentication for the proxy. <br /><br /> The default is an empty string.  |
 |         **ProxyPassword**         |  String  |  Specify the password to use for the proxy.<br /><br /> The default is an empty string.|
 |     **OutboundBodyLocation**      |  Enum<br /><br /> -   **UseBodyElement** - Use the BizTalk message body part to create the content of the SOAP **Body** element for an outgoing message.<br />-   **UseTemplate** - Use the template supplied in the **OutboundXMLTemplate** property to create the content of the SOAP **Body** element for an outgoing message.<br /><br /> For more information about how to use the **OutboundBodyLocation** property, see [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md).  |  Specify the data selection for the SOAP **Body** element of outgoing WCF messages.<br /><br /> Default value: **UseBodyElement**  |
 |      **OutboundXMLTemplate**      |  String<br /><br /> For more information about how to use the **OutboundXMLTemplate** property, see [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md).  |  Specify the XML-formatted template for the content of the SOAP **Body** element of an outgoing message. This property is required if the **OutboundBodyLocation** property is set to **UseTemplate**.<br /><br /> The default is an empty string.  |
@@ -62,17 +62,17 @@ You can configure a WCF-WSHttp send port either programmatically or by using the
 
 ## Configure a WCF-WSHttp Send Port with the BizTalk Administration Console
 
- You can set WCF-WSHttp send port adapter variables in the BizTalk Administration console. If properties are not set for the send port, the default values for the WCF-WSHttp send port configuration are used, as indicated in the previous table.  
+ You can set WCF-WSHttp send port adapter variables in the BizTalk Administration console. If properties are not set for the send port, the default values for the WCF-WSHttp send port configuration are used, as indicated in the previous table.
 
-## Configure variables for a WCF-WSHttp send port  
+## Configure variables for a WCF-WSHttp send port
 
-1. In the BizTalk Administration console, create a new send port or double-click an existing send port to modify it. For more information, see [How to Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options and specify **WCF-WSHttp** for the **Type** option in the **Transport** section of the **General** tab.  
+1. In the BizTalk Administration console, create a new send port or double-click an existing send port to modify it. For more information, see [How to Create a Send Port](../core/how-to-create-a-send-port2.md). Configure all of the send port options and specify **WCF-WSHttp** for the **Type** option in the **Transport** section of the **General** tab.
 
-2. On the **General** tab, in the **Transport** section, click the **Configure** button next to **Type**.  
+2. On the **General** tab, in the **Transport** section, click the **Configure** button next to **Type**.
 
-3. In the **WCF-WSHttp Transport Properties** dialog box, on the **General** tab, configure the endpoint address, the service identity, and the **SOAPAction** HTTP header for the WCF-WSHttp send port. For more information about the **General** tab in the **WCF-WSHttp Transport Properties** dialog box, see the **WCF-WSHttp Transport Properties Dialog Box, Send, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+3. In the **WCF-WSHttp Transport Properties** dialog box, on the **General** tab, configure the endpoint address, the service identity, and the **SOAPAction** HTTP header for the WCF-WSHttp send port. For more information about the **General** tab in the **WCF-WSHttp Transport Properties** dialog box, see the **WCF-WSHttp Transport Properties Dialog Box, Send, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
-4. In the **WCF-WSHttp Transport Properties** dialog box, on the **Binding** tab, configure the time-out, encoding, and transaction properties. For more information about the **Binding** tab in the **WCF-WSHttp Transport Properties** dialog box, see the **WCF-WSHttp Transport Properties Dialog Box, Send, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+4. In the **WCF-WSHttp Transport Properties** dialog box, on the **Binding** tab, configure the time-out, encoding, and transaction properties. For more information about the **Binding** tab in the **WCF-WSHttp Transport Properties** dialog box, see the **WCF-WSHttp Transport Properties Dialog Box, Send, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
 5. In the **WCF-WSHttp Transport Properties** dialog box, on the **Security** tab, define the security capabilities of the WCF-WSHttp send port. For more information about the **Security** tab in the **WCF-WSHttp Transport Properties** dialog box, see the **WCF-WSHttp Transport Properties Dialog Box, Send, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
@@ -82,77 +82,77 @@ You can configure a WCF-WSHttp send port either programmatically or by using the
 
 ## Configure a WCF-WSHttp Send Port Programmatically
 
- You can use the following format to set the properties:  
+ You can use the following format to set the properties:
 
-```  
- <CustomProps>    
-  <ServiceCertificate vt="8" />  
-  <UseSSO vt="11">0</UseSSO>  
-  <InboundBodyPathExpression vt="8" />  
-  <MessageClientCredentialType vt="8">Windows</MessageClientCredentialType>  
-  <SendTimeout vt="8">00:01:00</SendTimeout>  
-  <OutboundXmlTemplate vt="8"><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
-  <OpenTimeout vt="8">00:01:00</OpenTimeout>  
-  <Identity vt="8" />  
-  <AlgorithmSuite vt="8">Basic256</AlgorithmSuite>  
-  <SecurityMode vt="8">Message</SecurityMode>  
-  <TransportClientCredentialType vt="8">Windows</TransportClientCredentialType>  
-  <TextEncoding vt="8">utf-8</TextEncoding>  
-  <NegotiateServiceCredential vt="11">-1</NegotiateServiceCredential>  
-  <MaxReceivedMessageSize vt="3">2097152</MaxReceivedMessageSize>  
-  <ClientCertificate vt="8" />  
-  <ProxyUserName vt="8" />  
-  <CloseTimeout vt="8">00:01:00</CloseTimeout>  
-  <ProxyToUse vt="8">Default</ProxyToUse>  
-  <EnableTransaction vt="11">0</EnableTransaction>  
-  <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
-  <InboundNodeEncoding vt="8">Xml</InboundNodeEncoding>  
-  <EstablishSecurityContext vt="11">-1</EstablishSecurityContext>  
-  <StaticAction vt="8">http://www.northwindtraders.com/Service/Operation</StaticAction>  
-  <PropagateFaultMessage vt="11">-1</PropagateFaultMessage>  
-  <ProxyAddress vt="8" />  
-  <MessageEncoding vt="8">Text</MessageEncoding>  
-  <OutboundBodyLocation vt="8">UseBodyElement</OutboundBodyLocation>  
-</CustomProps>  
+```
+ <CustomProps>
+  <ServiceCertificate vt="8" />
+  <UseSSO vt="11">0</UseSSO>
+  <InboundBodyPathExpression vt="8" />
+  <MessageClientCredentialType vt="8">Windows</MessageClientCredentialType>
+  <SendTimeout vt="8">00:01:00</SendTimeout>
+  <OutboundXmlTemplate vt="8"><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>
+  <OpenTimeout vt="8">00:01:00</OpenTimeout>
+  <Identity vt="8" />
+  <AlgorithmSuite vt="8">Basic256</AlgorithmSuite>
+  <SecurityMode vt="8">Message</SecurityMode>
+  <TransportClientCredentialType vt="8">Windows</TransportClientCredentialType>
+  <TextEncoding vt="8">utf-8</TextEncoding>
+  <NegotiateServiceCredential vt="11">-1</NegotiateServiceCredential>
+  <MaxReceivedMessageSize vt="3">2097152</MaxReceivedMessageSize>
+  <ClientCertificate vt="8" />
+  <ProxyUserName vt="8" />
+  <CloseTimeout vt="8">00:01:00</CloseTimeout>
+  <ProxyToUse vt="8">Default</ProxyToUse>
+  <EnableTransaction vt="11">0</EnableTransaction>
+  <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>
+  <InboundNodeEncoding vt="8">Xml</InboundNodeEncoding>
+  <EstablishSecurityContext vt="11">-1</EstablishSecurityContext>
+  <StaticAction vt="8">http://www.northwindtraders.com/Service/Operation</StaticAction>
+  <PropagateFaultMessage vt="11">-1</PropagateFaultMessage>
+  <ProxyAddress vt="8" />
+  <MessageEncoding vt="8">Text</MessageEncoding>
+  <OutboundBodyLocation vt="8">UseBodyElement</OutboundBodyLocation>
+</CustomProps>
 
-```  
+```
 
- The following code fragment illustrates creating a WCF-WSHttp send port:  
+ The following code fragment illustrates creating a WCF-WSHttp send port:
 
-```  
-// Use BizTalk Explorer object model to create new WCF-WSHttp send port.  
-string server = System.Environment.MachineName;  
-string database = "BizTalkMgmtDb";  
-string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);  
-string transportConfigData = @"<CustomProps>  
-                                 <StaticAction vt=""8"">http://www.northwindtraders.com/Service/Operation</StaticAction>  
-                                 <MessageEncoding vt=""8"">Text</MessageEncoding>  
-                                 <TextEncoding vt=""8"">utf-8</TextEncoding>  
-                                 <OpenTimeout vt=""8"">00:01:00</OpenTimeout>  
-                               </CustomProps>";  
-//requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll  
-BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();  
-explorer.ConnectionString = connectionString;  
-// Add a new BizTalk application  
-Application application = explorer.AddNewApplication();  
-application.Name = "SampleBizTalkApplication";  
-// Save  
-explorer.SaveChanges();  
+```
+// Use BizTalk Explorer object model to create new WCF-WSHttp send port.
+string server = System.Environment.MachineName;
+string database = "BizTalkMgmtDb";
+string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);
+string transportConfigData = @"<CustomProps>
+                                 <StaticAction vt=""8"">http://www.northwindtraders.com/Service/Operation</StaticAction>
+                                 <MessageEncoding vt=""8"">Text</MessageEncoding>
+                                 <TextEncoding vt=""8"">utf-8</TextEncoding>
+                                 <OpenTimeout vt=""8"">00:01:00</OpenTimeout>
+                               </CustomProps>";
+//requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll
+BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();
+explorer.ConnectionString = connectionString;
+// Add a new BizTalk application
+Application application = explorer.AddNewApplication();
+application.Name = "SampleBizTalkApplication";
+// Save
+explorer.SaveChanges();
 
-// Add a new static one-way send port  
-SendPort sendPort = application.AddNewSendPort(false, false);   
-sendPort.Name = "SampleSendPort";  
-sendPort.PrimaryTransport.TransportType = explorer.ProtocolTypes["WCF-WSHttp"];  
-sendPort.PrimaryTransport.Address = "http://mycomputer/samplepath";  
-sendPort.PrimaryTransport.TransportTypeData = transportConfigData; // propertyData; // need to change  
-sendPort.SendPipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruTransmit"];  
-// Save  
-explorer.SaveChanges();  
-```  
+// Add a new static one-way send port
+SendPort sendPort = application.AddNewSendPort(false, false);
+sendPort.Name = "SampleSendPort";
+sendPort.PrimaryTransport.TransportType = explorer.ProtocolTypes["WCF-WSHttp"];
+sendPort.PrimaryTransport.Address = "http://mycomputer/samplepath";
+sendPort.PrimaryTransport.TransportTypeData = transportConfigData; // propertyData; // need to change
+sendPort.SendPipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruTransmit"];
+// Save
+explorer.SaveChanges();
+```
 
-## See Also  
- [WCF Adapters Property Schema and Properties](../core/wcf-adapters-property-schema-and-properties.md)   
- [Configuring the WCF-WSHttp Adapter](../core/configuring-the-wcf-wshttp-adapter.md)   
- [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md)   
- [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)   
+## See Also
+ [WCF Adapters Property Schema and Properties](../core/wcf-adapters-property-schema-and-properties.md)
+ [Configuring the WCF-WSHttp Adapter](../core/configuring-the-wcf-wshttp-adapter.md)
+ [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md)
+ [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)
  [Configuring Dynamic Send Ports Using WCF Adapters Context Properties](../core/configuring-dynamic-send-ports-using-wcf-adapters-context-properties.md)

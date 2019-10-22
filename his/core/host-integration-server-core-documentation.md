@@ -14,12 +14,12 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Integration Server Core Documentation
-The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] core documentation provides in-depth information about Microsoft Host Integration Server.  
-  
+The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] core documentation provides in-depth information about Microsoft Host Integration Server.
+
 > [!NOTE]
->  To install and configure HIS, and read about what's new, go to [Host Integration Server Installation and Configuration](../install-and-config-guides/host-integration-server-installation-and-configuration.md).  
-  
-## Contents  
+>  To install and configure HIS, and read about what's new, go to [Host Integration Server Installation and Configuration](../install-and-config-guides/host-integration-server-installation-and-configuration.md).
+
+## Contents
 
 [Network Integration](network-integration.md)
 
@@ -28,7 +28,7 @@ The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md
 [Application Integration](application-integration-planning-2.md)
 
 [Message integration](message-integration-configuration-2.md)
-  
+
 [Configure Enterprise Single Sign-On](enterprise-single-sign-on-configuration-1.md)
 
 [Security tips](security-and-protection1.md)
@@ -39,13 +39,13 @@ The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md
 
 [Glossary](glossary2.md)
 
-## Additional Resources  
- Plug into the Host Integration Server community to connect with other developers and get answers to your questions, read the latest from bloggers, see webcasts, find out about events, and participate in the TechNet Wiki.  
-  
-|Resource|Location|  
-|--------------|--------------|  
-|Host Integration Server Home|[http://go.microsoft.com/fwlink/?LinkId=187949](http://go.microsoft.com/fwlink/?LinkId=187949)|  
-|Host Integration Server Blog|[http://go.microsoft.com/fwlink/?LinkId=142377](http://go.microsoft.com/fwlink/?LinkId=142377)|  
-|Host Integration Server Forum|[http://go.microsoft.com/fwlink/?LinkId=191382](http://go.microsoft.com/fwlink/?LinkId=191382)|  
-|Host Integration Server on Microsoft Connect|[http://go.microsoft.com/fwlink/?LinkId=187946](http://go.microsoft.com/fwlink/?LinkId=187946)|  
-|TechNet Wiki|[http://go.microsoft.com/fwlink/?LinkId=198099](http://go.microsoft.com/fwlink/?LinkId=198099)|
+## Additional Resources
+ Plug into the Host Integration Server community to connect with other developers and get answers to your questions, read the latest from bloggers, see webcasts, find out about events, and participate in the TechNet Wiki.
+
+|Resource|Location|
+|--------------|--------------|
+|Host Integration Server Home|[http://go.microsoft.com/fwlink/?LinkId=187949](https://go.microsoft.com/fwlink/?LinkId=187949)|
+|Host Integration Server Blog|[http://go.microsoft.com/fwlink/?LinkId=142377](https://go.microsoft.com/fwlink/?LinkId=142377)|
+|Host Integration Server Forum|[http://go.microsoft.com/fwlink/?LinkId=191382](https://go.microsoft.com/fwlink/?LinkId=191382)|
+|Host Integration Server on Microsoft Connect|[http://go.microsoft.com/fwlink/?LinkId=187946](https://go.microsoft.com/fwlink/?LinkId=187946)|
+|TechNet Wiki|[http://go.microsoft.com/fwlink/?LinkId=198099](https://go.microsoft.com/fwlink/?LinkId=198099)|

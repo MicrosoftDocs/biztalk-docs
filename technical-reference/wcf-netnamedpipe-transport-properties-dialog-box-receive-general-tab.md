@@ -50,7 +50,7 @@ The default is an empty string.</td>
 
 ## See Also
 
-[How to Configure a WCF-NetNamedPipe Receive Location](https://msdn.microsoft.com/library/bb259943\(v=bts.80\))  
-[The \<identity\> element](http://go.microsoft.com/fwlink/?linkid=75747)  
+[How to Configure a WCF-NetNamedPipe Receive Location](https://msdn.microsoft.com/library/bb259943\(v=bts.80\))
+[The \<identity\> element](https://go.microsoft.com/fwlink/?linkid=75747)
 [Publishing Service Metadata for the WCF Receive Adapters](https://msdn.microsoft.com/library/bb246083\(v=bts.80\))
 

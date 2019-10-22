@@ -14,6 +14,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SQL Server Replication (Troubleshooting)
+
 This topic contains the following sections relating to troubleshooting issues between the OLE DB Provider for DB2 and SQL Server (Data Provider) and SQL Server.  
   
  [Incorrect Data Type Mappings](../core/sql-server-replication-troubleshooting-1.md#datatype)  
@@ -145,3 +146,18 @@ EXEC sp_changearticle @publication, @article, 'status' , 'parameters' , 0 , 0;
 ```  
   
  For more information, see [Replication System Stored Procedures Concepts](http://go.microsoft.com/fwlink/?LinkId=193232) (http://go.microsoft.com/fwlink/?LinkId=193232) in SQL Server Books Online.
+ 
+ ##  <a name="truncation"></a> Replication INSERT operation fails with Error 8152: String or binary data would be truncated  
+ **Problem**  
+  
+ SQL Server Replication INSERT operation may fail with SQL Server Error 8152 (String or binary data would be truncated.). This may occur when (1)  Data Provider is not configured to use early metadata, and (2) Replication is not configured to use parameterized INSERT statements.
+    
+ **Solution**  
+  
+ **Step 1**. Reconfigure Data Provider connection to specify "Use Early Metadata=true" in the SQL Server Replication subscriber data source definition. 
+ 
+ For more information, see [Configure Data Providers for DB2 Data Links (DB2) All Properties](data-links-db2-2.md) (https://docs.microsoft.com/host-integration-server/core/data-links-db2-2) in OLE DB Provider for DB2 documentation.
+ 
+ **Step 2** Re-configure SQL Server Replication subscription article to include option "24" ("Includes the column name in INSERT statements and uses parameterized statements."). 
+
+ For more information, see [SQL Server Replication sp_addarticle (Transact-SQL)](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) (https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) in SQL Server documentation.

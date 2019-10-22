@@ -14,8 +14,8 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Import Bindings from a Binding File
-You can import the bindings of a BizTalk application into another existing BizTalk application by using a binding file. You can also import all the bindings for a group into a group or the bindings of an assembly into an application.  
-  
--   For information about various considerations to keep in mind when importing bindings, see [Importing Bindings](http://go.microsoft.com/fwlink/?LinkId=155012) (http://go.microsoft.com/fwlink/?LinkId=155012).  
-  
--   For instructions on importing bindings into a BizTalk application, see [How to Import Bindings into a BizTalk Application](http://go.microsoft.com/fwlink/?LinkId=155013) (http://go.microsoft.com/fwlink/?LinkId=155013).
+You can import the bindings of a BizTalk application into another existing BizTalk application by using a binding file. You can also import all the bindings for a group into a group or the bindings of an assembly into an application.
+
+-   For information about various considerations to keep in mind when importing bindings, see [Importing Bindings](https://go.microsoft.com/fwlink/?LinkId=155012) (https://go.microsoft.com/fwlink/?LinkId=155012).
+
+-   For instructions on importing bindings into a BizTalk application, see [How to Import Bindings into a BizTalk Application](https://go.microsoft.com/fwlink/?LinkId=155013) (https://go.microsoft.com/fwlink/?LinkId=155013).

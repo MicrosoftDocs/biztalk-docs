@@ -23,8 +23,8 @@ Causes the runtime to create WSDL operations in the metadata. This method should
 ## Method Declaration
 
 ```C#
-[OperationContract(IsOneWay = false, Action = "BizTalkSubmit")]  
-Message BizTalkSubmit(Message message);  
+[OperationContract(IsOneWay = false, Action = "BizTalkSubmit")]
+Message BizTalkSubmit(Message message);
 ```
 
 ## Return Value
@@ -33,5 +33,5 @@ This method throws the **NotSupportedException** if called.
 
 ## See Also
 
-[NotSupportedException Class](http://go.microsoft.com/fwlink/?linkid=88629)
+[NotSupportedException Class](https://go.microsoft.com/fwlink/?linkid=88629)
 

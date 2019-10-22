@@ -14,12 +14,12 @@ mtps_version: v=BTS.80
 
 The following figure shows the class hierarchy of the WMI Core classes, as displayed in CIM Studio.
 
-![](images/Aa561401.2443b144-083c-413e-8878-4d1fe1cf8aee(BTS.80).jpeg)  
+![](images/Aa561401.2443b144-083c-413e-8878-4d1fe1cf8aee(BTS.80).jpeg)
 Depicts the class hierarchy for WMI Core classes.
 
 #### To view documentation for WMI Classes using CIM Studio
 
-1.  Install CIM Studio, part of the Windows Management Instrumentation (WMI) SDK 1.5. The WMI SDK is available for download at [http://go.microsoft.com/fwlink/?LinkId=93373](http://go.microsoft.com/fwlink/?linkid=93373).
+1.  Install CIM Studio, part of the Windows Management Instrumentation (WMI) SDK 1.5. The WMI SDK is available for download at [http://go.microsoft.com/fwlink/?LinkId=93373](https://go.microsoft.com/fwlink/?linkid=93373).
 
 2.  To download the minimal requirements for CIM Studio, in the WMI SDK Installation Wizard, on the Components screen, select **Applications** only, uncheck the other options.
 
@@ -40,7 +40,7 @@ Depicts the class hierarchy for WMI Core classes.
 2.  In Windows Explorer, navigate to the BizTalk Server install directory, right-click BTSWMISchema.mof, in the **Windows** dialog box, select **Select the appropriate program from a list**, and then click **OK**.
 
 3.  In the **Open With** dialog box, in Programs, select a text editor, such as **NotePad** or **Wordpad**, and then click **OK**.
-    
+
     The BTSWMISchema.mof file is displayed in the text editor. The comments appear at the bottom of the text file.
 
 ## See Also

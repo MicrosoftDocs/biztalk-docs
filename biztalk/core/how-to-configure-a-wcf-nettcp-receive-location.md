@@ -15,15 +15,15 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure a WCF-NetTcp Receive Location
-You can configure a WCF-NetTcp receive location either programmatically or by using the BizTalk Administration console.  
+You can configure a WCF-NetTcp receive location either programmatically or by using the BizTalk Administration console.
 
 ## Configuration properties
 
- The BizTalk Explorer Object Model enables you to create and configure receive locations programmatically. The BizTalk Explorer Object Model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a WCF-NetTcp receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer Object Model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.  
+ The BizTalk Explorer Object Model enables you to create and configure receive locations programmatically. The BizTalk Explorer Object Model exposes the**IReceiveLocation** receive location configuration interface that has a **TransportTypeData** read/write property. This property accepts a WCF-NetTcp receive location configuration property bag in the form of a name-value pair of XML strings. To set this property in the BizTalk Explorer Object Model, you must set the **InboundTransportLocation** property of the **IReceiveLocation** interface.
 
- The **TransportTypeData** property of the **IReceiveLocation** interface does not have to be set. If it is not set, the WCF-NetTcp adapter uses the default values for the WCF-NetTcp receive location configuration as indicated in the following table.  
+ The **TransportTypeData** property of the **IReceiveLocation** interface does not have to be set. If it is not set, the WCF-NetTcp adapter uses the default values for the WCF-NetTcp receive location configuration as indicated in the following table.
 
- The following table lists the configuration properties that you can set in the BizTalk Explorer Object Model for the WCF-NetTcp receive location.  
+ The following table lists the configuration properties that you can set in the BizTalk Explorer Object Model for the WCF-NetTcp receive location.
 
 
 |           Property name            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Type                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                                   Description                                                                                                                                                                                                                                                                                                                                                                   |
@@ -32,10 +32,10 @@ You can configure a WCF-NetTcp receive location either programmatically or by us
 |          **OpenTimeout**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                    **System.TimeSpan**                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                              Specify a time span value that indicates the interval of time provided for a channel open operation to complete.<br /><br /> Default value: 00:01:00                                                                                                                                                                                                                                                                                               |
 |          **SendTimeout**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                    **System.TimeSpan**                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                  Specify a time span value that indicates the interval of time provided for a send operation to complete. If you use a request-response receive port, this value specifies a time span for the whole interaction to complete, even if the client returns a large message.<br /><br /> Default value: 00:01:00                                                                                                                                                                                                                   |
 |          **CloseTimeout**          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                    **System.TimeSpan**                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                              Specify a time span value that indicates the interval of time provided for a channel close operation to complete.<br /><br /> Default value: 00:01:00                                                                                                                                                                                                                                                                                              |
-|     **MaxReceivedMessageSize**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Integer                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                  Specify the maximum size, in bytes, for a message (including headers) that can be received on the wire. The size of the messages is bounded by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks.<br /><br /> The WCF-NetTcp adapter leverages the [NetTcpBinding](http://go.microsoft.com/fwlink/?LinkId=81087) class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the [NetTcpBinding.MaxBufferSize](http://go.microsoft.com/fwlink/?LinkId=81088) property is always equal to the value of this property.<br /><br /> Default value: 65536                                  |
+|     **MaxReceivedMessageSize**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Integer                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                  Specify the maximum size, in bytes, for a message (including headers) that can be received on the wire. The size of the messages is bounded by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks.<br /><br /> The WCF-NetTcp adapter leverages the [NetTcpBinding](https://go.microsoft.com/fwlink/?LinkId=81087) class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the [NetTcpBinding.MaxBufferSize](https://go.microsoft.com/fwlink/?LinkId=81088) property is always equal to the value of this property.<br /><br /> Default value: 65536                                  |
 |       **EnableTransaction**        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Boolean                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Specify whether a message is submitted to the MessageBox database using the transaction flowed from clients. If this property is set to **True**, the clients are required to submit messages using the transaction protocol specified in the **TransactionProtocol** property. If the clients submit messages outside the transactional scope then this receive location returns an exception back to the clients, and no messages are suspended.<br /><br /> The option is available only for one-way receive locations. If the clients submit messages in a transactional context for request-response receive locations, then an exception is returned back to the clients and no messages are suspended.<br /><br /> Default value: `False` |
 |      **TransactionProtocol**       |                                                                                                                                                                                                                                                                                                                                                                                                                                         Enum<br /><br /> -   **OleTransaction**<br />-   **WS-AtomicTransaction**                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                              Specify the transaction protocol to be used with this receive location.<br /><br /> Default value: **OleTransaction**                                                                                                                                                                                                                                                                                                              |
-|          **LeaseTimeout**          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                    **System.TimeSpan**                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                   Specify the maximum lifetime of an active pooled connection. After the specified time elapses, the connection closes after the current request is serviced.<br /><br /> The WCF-NetTcp adapter leverages the [NetTcpBinding](http://go.microsoft.com/fwlink/?LinkId=81087) class to communicate with an endpoint. When using the [NetTcpBinding](http://go.microsoft.com/fwlink/?LinkId=81087) in load-balanced scenarios, consider reducing the default lease time-out. For more information about load balancing when using the [NetTcpBinding](http://go.microsoft.com/fwlink/?LinkId=81087), see the appropriate topic in See Also.<br /><br /> Default value: 00:05:00                                   |
+|          **LeaseTimeout**          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                    **System.TimeSpan**                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                   Specify the maximum lifetime of an active pooled connection. After the specified time elapses, the connection closes after the current request is serviced.<br /><br /> The WCF-NetTcp adapter leverages the [NetTcpBinding](https://go.microsoft.com/fwlink/?LinkId=81087) class to communicate with an endpoint. When using the [NetTcpBinding](https://go.microsoft.com/fwlink/?LinkId=81087) in load-balanced scenarios, consider reducing the default lease time-out. For more information about load balancing when using the [NetTcpBinding](https://go.microsoft.com/fwlink/?LinkId=81087), see the appropriate topic in See Also.<br /><br /> Default value: 00:05:00                                   |
 |       **MaxConcurrentCalls**       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Integer                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                      Specify the number of concurrent calls to a single service instance. Calls in excess of the limit are queued. The range of this property is from 1 to Int32.MaxValue.<br /><br /> Default value: 200                                                                                                                                                                                                                                                                       |
 |          **SecurityMode**          |                                                                                                                                                                                                                                                              Enum<br /><br /> -   **None**<br />-   **Message**<br />-   **Transport**<br />-   **TransportWithMessageCredential**<br /><br /> For more information about the member names for the **SecurityMode** property, see the **Security mode** property in the **WCF-NetTcp Transport Properties Dialog Box, Receive, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                               Specify the type of security that is used.<br /><br /> Default value: **Transport**                                                                                                                                                                                                                                                                                                                               |
 | **TransportClientCredentialType**  |                                                                                                                                                                                                                                                                 Enum<br /><br /> -   **None**<br />-   **Windows**<br />-   **Certificate**<br /><br /> For more information about the member names for the **TransportClientCredentialType** property, see the **Transport client credential type** property in the **WCF-NetTcp Transport Properties Dialog Box, Receive, Security** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                           Specify the type of credential to be used when performing the client authentication.<br /><br /> Default value: **Windows**                                                                                                                                                                                                                                                                                                           |
@@ -54,22 +54,22 @@ You can configure a WCF-NetTcp receive location either programmatically or by us
 
 ## Configure a WCF-NetTcp Receive Location with the BizTalk Administration Console
 
- You can set WCF-NetTcp receive location adapter variables in the BizTalk Administration console. If properties are not set in the receive location, the default receive handler values set in the BizTalk Administration console are used.  
+ You can set WCF-NetTcp receive location adapter variables in the BizTalk Administration console. If properties are not set in the receive location, the default receive handler values set in the BizTalk Administration console are used.
 
 > [!NOTE]
->  Before completing the following procedure you must have already added a receive port. For more information, see [How to Create a Receive Port](../core/how-to-create-a-receive-port.md).  
+>  Before completing the following procedure you must have already added a receive port. For more information, see [How to Create a Receive Port](../core/how-to-create-a-receive-port.md).
 
-## Configure variables for a WCF-NetTcp receive location  
+## Configure variables for a WCF-NetTcp receive location
 
-1. In the BizTalk Administration console, expand **BizTalk Server 2009 Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application you want to create a receive location in.  
+1. In the BizTalk Administration console, expand **BizTalk Server 2009 Administration**, expand **BizTalk Group**, expand **Applications**, and then expand the application you want to create a receive location in.
 
-2. In the BizTalk Administration console, in the left pane, click the **Receive Port** node. Then in the right pane, right-click the receive port that is associated with an existing receive location or that you want to associate with a new receive location, and then click **Properties**.  
+2. In the BizTalk Administration console, in the left pane, click the **Receive Port** node. Then in the right pane, right-click the receive port that is associated with an existing receive location or that you want to associate with a new receive location, and then click **Properties**.
 
-3. In the **Receive Port Properties** dialog box, in the left pane, select **Receive Locations**, and then in the right pane, double-click an existing receive location or click **New**to create a new receive location.  
+3. In the **Receive Port Properties** dialog box, in the left pane, select **Receive Locations**, and then in the right pane, double-click an existing receive location or click **New**to create a new receive location.
 
-4. In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **WCF-NetTcp** from the drop-down list, and then click **Configure**.  
+4. In the **Receive Location Properties** dialog box, in the **Transport** section next to **Type**, select **WCF-NetTcp** from the drop-down list, and then click **Configure**.
 
-5. In the **WCF-NetTcp Transport Properties** dialog box, on the **General** tab, configure the endpoint address and the service identity for the WCF-NetTcp receive location. For more information about the **General** tab in the **WCF-NetTcp Transport Properties** dialog box, see the **WCF-NetTcp Transport Properties Dialog Box, Receive, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].  
+5. In the **WCF-NetTcp Transport Properties** dialog box, on the **General** tab, configure the endpoint address and the service identity for the WCF-NetTcp receive location. For more information about the **General** tab in the **WCF-NetTcp Transport Properties** dialog box, see the **WCF-NetTcp Transport Properties Dialog Box, Receive, General** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
 6. In the **WCF-NetTcp Transport Properties** dialog box, on the **Binding** tab, configure the time-out and transaction properties. For more information about the **Binding** tab in the **WCF-NetTcp Transport Properties** dialog box, see the **WCF-NetTcp Transport Properties Dialog Box, Receive, Binding** tab [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
 
@@ -79,85 +79,85 @@ You can configure a WCF-NetTcp receive location either programmatically or by us
 
 ## Configure a WCF-NetTcp Receive Location Programmatically
 
- You can use the following format to set the properties:  
+ You can use the following format to set the properties:
 
 ```xml
-<CustomProps>  
-  <InboundBodyPathExpression vt="8" />  
-  <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
-  <UseSSO vt="11">0</UseSSO>  
-  <MessageClientCredentialType vt="8">Windows</MessageClientCredentialType>  
-  <SendTimeout vt="8">00:01:00</SendTimeout>  
-  <OutboundXmlTemplate vt="8"><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>  
-  <OpenTimeout vt="8">00:01:00</OpenTimeout>  
-  <AlgorithmSuite vt="8">Basic256</AlgorithmSuite>  
-  <SecurityMode vt="8">Message</SecurityMode>  
-  <TransportClientCredentialType vt="8">Windows</TransportClientCredentialType>  
-  <MaxReceivedMessageSize vt="3">2097152</MaxReceivedMessageSize>  
-  <CloseTimeout vt="8">00:01:00</CloseTimeout>  
-  <SuspendMessageOnFailure vt="11">0</SuspendMessageOnFailure>  
-  <EnableTransaction vt="11">0</EnableTransaction>  
-  <InboundNodeEncoding vt="8">Xml</InboundNodeEncoding>  
-  <IncludeExceptionDetailInFaults vt="11">0</IncludeExceptionDetailInFaults>  
-  <MaxConcurrentCalls vt="3">16</MaxConcurrentCalls>  
-  <ServiceCertificate vt="8" />  
-  <OutboundBodyLocation vt="8">UseBodyElement</OutboundBodyLocation>  
-</CustomProps>  
+<CustomProps>
+  <InboundBodyPathExpression vt="8" />
+  <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>
+  <UseSSO vt="11">0</UseSSO>
+  <MessageClientCredentialType vt="8">Windows</MessageClientCredentialType>
+  <SendTimeout vt="8">00:01:00</SendTimeout>
+  <OutboundXmlTemplate vt="8"><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/></OutboundXmlTemplate>
+  <OpenTimeout vt="8">00:01:00</OpenTimeout>
+  <AlgorithmSuite vt="8">Basic256</AlgorithmSuite>
+  <SecurityMode vt="8">Message</SecurityMode>
+  <TransportClientCredentialType vt="8">Windows</TransportClientCredentialType>
+  <MaxReceivedMessageSize vt="3">2097152</MaxReceivedMessageSize>
+  <CloseTimeout vt="8">00:01:00</CloseTimeout>
+  <SuspendMessageOnFailure vt="11">0</SuspendMessageOnFailure>
+  <EnableTransaction vt="11">0</EnableTransaction>
+  <InboundNodeEncoding vt="8">Xml</InboundNodeEncoding>
+  <IncludeExceptionDetailInFaults vt="11">0</IncludeExceptionDetailInFaults>
+  <MaxConcurrentCalls vt="3">16</MaxConcurrentCalls>
+  <ServiceCertificate vt="8" />
+  <OutboundBodyLocation vt="8">UseBodyElement</OutboundBodyLocation>
+</CustomProps>
 
-```  
+```
 
- The following code fragment illustrates creating a WCF-NetTcp receive location:  
+ The following code fragment illustrates creating a WCF-NetTcp receive location:
 
 ```csharp
-// Use BizTalk Explorer object model to create new WCF-NetTcp receive location   
-string server = System.Environment.MachineName;  
-string database = "BizTalkMgmtDb";  
-string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);  
-string transportConfigData = @"<CustomProps>  
-  <InboundBodyLocation vt=""8"">UseBodyElement</InboundBodyLocation>  
-  <UseSSO vt=""11"">0</UseSSO>  
-  <Identity vt=""8"">  
-    <identity>  
-    <userPrincipalName value=""username@contoso.com"" />  
-    </identity>  
-  </Identity>  
-</CustomProps>";  
-//requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll  
-BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();  
-explorer.ConnectionString = connectionString;  
-// Add a new BizTalk application  
-Application application = explorer.AddNewApplication();  
-application.Name = "SampleBizTalkApplication";  
-// Save  
-explorer.SaveChanges();  
+// Use BizTalk Explorer object model to create new WCF-NetTcp receive location
+string server = System.Environment.MachineName;
+string database = "BizTalkMgmtDb";
+string connectionString = string.Format("Server={0};Database={1};Integrated Security=true", server, database);
+string transportConfigData = @"<CustomProps>
+  <InboundBodyLocation vt=""8"">UseBodyElement</InboundBodyLocation>
+  <UseSSO vt=""11"">0</UseSSO>
+  <Identity vt=""8"">
+    <identity>
+    <userPrincipalName value=""username@contoso.com"" />
+    </identity>
+  </Identity>
+</CustomProps>";
+//requires project reference to \Program Files\Microsoft BizTalk Server 2009\Developer Tools\Microsoft.BizTalk.ExplorerOM.dll
+BtsCatalogExplorer explorer = new Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer();
+explorer.ConnectionString = connectionString;
+// Add a new BizTalk application
+Application application = explorer.AddNewApplication();
+application.Name = "SampleBizTalkApplication";
+// Save
+explorer.SaveChanges();
 
-// Add a new one-way receive port  
-IReceivePort receivePort = application.AddNewReceivePort(false);  
-receivePort.Name = "SampleReceivePort";  
-// Add a new one-way receive location  
-IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
-receiveLocation.Name = "SampleReceiveLocation";  
-// Find a receive handler for WCF-NetTcp   
-int i = 0;  
-for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
-{  
-    if("WCF-NetTcp" == explorer.ReceiveHandlers[i].TransportType.Name)  
-        break;  
-}  
-receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-receiveLocation.Address = "net.tcp://mycomputer/samplepath";  
-receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-receiveLocation.TransportType = explorer.ProtocolTypes["WCF-NetTcp"];  
-receiveLocation.TransportTypeData = transportConfigData;  
-// Save  
-explorer.SaveChanges();   
-```  
+// Add a new one-way receive port
+IReceivePort receivePort = application.AddNewReceivePort(false);
+receivePort.Name = "SampleReceivePort";
+// Add a new one-way receive location
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();
+receiveLocation.Name = "SampleReceiveLocation";
+// Find a receive handler for WCF-NetTcp
+int i = 0;
+for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
+{
+    if("WCF-NetTcp" == explorer.ReceiveHandlers[i].TransportType.Name)
+        break;
+}
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];
+receiveLocation.Address = "net.tcp://mycomputer/samplepath";
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-NetTcp"];
+receiveLocation.TransportTypeData = transportConfigData;
+// Save
+explorer.SaveChanges();
+```
 
-## See Also  
- [Publishing Service Metadata for the WCF Receive Adapters](../core/publishing-service-metadata-for-the-wcf-receive-adapters.md)   
- [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)   
- [How to Change Service Accounts and Passwords](../core/how-to-change-service-accounts-and-passwords.md)   
- [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)   
- [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md)   
- [Load Balancing](http://go.microsoft.com/fwlink/?LinkId=81089)   
+## See Also
+ [Publishing Service Metadata for the WCF Receive Adapters](../core/publishing-service-metadata-for-the-wcf-receive-adapters.md)
+ [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md)
+ [How to Change Service Accounts and Passwords](../core/how-to-change-service-accounts-and-passwords.md)
+ [Installing Certificates for the WCF Adapters](../core/installing-certificates-for-the-wcf-adapters.md)
+ [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md)
+ [Load Balancing](https://go.microsoft.com/fwlink/?LinkId=81089)
  [Configuring the WCF-NetTcp Adapter](../core/configuring-the-wcf-nettcp-adapter.md)

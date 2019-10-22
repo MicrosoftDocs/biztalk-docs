@@ -76,7 +76,7 @@ The default values are <strong>EndpointBehavior</strong> and <strong>ServiceBeha
 
 ## See Also
 
-[How to Configure a WCF-Custom Receive Location](https://msdn.microsoft.com/library/bb259941\(v=bts.80\))  
-[How to Configure a WCF-CustomIsolated Receive Location](https://msdn.microsoft.com/library/bb226374\(v=bts.80\))  
-[The \<behaviors\> element](http://go.microsoft.com/fwlink/?linkid=75851)
+[How to Configure a WCF-Custom Receive Location](https://msdn.microsoft.com/library/bb259941\(v=bts.80\))
+[How to Configure a WCF-CustomIsolated Receive Location](https://msdn.microsoft.com/library/bb226374\(v=bts.80\))
+[The \<behaviors\> element](https://go.microsoft.com/fwlink/?linkid=75851)
 
