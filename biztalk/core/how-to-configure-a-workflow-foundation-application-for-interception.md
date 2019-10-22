@@ -15,41 +15,42 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure a Workflow Foundation Application for Interception
-You must install the BAM interceptor software and configure your application to use the [!INCLUDE[firstref_btsWinWorkflowFoundation](../includes/firstref-btswinworkflowfoundation-md.md)] interceptor service before you can begin collecting BAM activity data. It is assumed that you have successfully installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and its dependencies and have created at least one BizTalk group.
 
-## Installing the BAM-Eventing Software
- Before you can configure your [!INCLUDE[nextref_btsWinWorkflowFoundation](../includes/nextref-btswinworkflowfoundation-md.md)] application to use the BAM interceptor for [!INCLUDE[nextref_btsWinWorkflowFoundation](../includes/nextref-btswinworkflowfoundation-md.md)], you must install the BAM-Eventing software by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Setup program. For more information about installing the BAM-Eventing software and registering the performance counters, see [Installing the BAM-Eventing Software](../core/installing-the-bam-eventing-software.md).
-
-## Configuring a Windows Workflow Foundation Application for Tracking
- Four tasks must be completed before your [!INCLUDE[nextref_btsWinWorkflowFoundation](../includes/nextref-btswinworkflowfoundation-md.md)] application can begin writing BAM event information:
-
-- An observation model must be created by using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] BAM tools and then deployed by using the BAM Manager command-line tool (bm.exe).
-
-- An interceptor configuration file must be created and deployed by using the BAM Manager command line-tool (bm.exe).
-
-- The user running the host application must be a member of the appropriate BAM activity event writer (bam_\<activity\>_EventWriter) SQL Server roles to enable the application to read the interceptor configuration information and write to the BAM activities.
-
-- The App.config file or the application itself must be modified to load the BAM tracking service and then restart the application.
-
-  Only after these tasks have been successfully completed will events begin appearing in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] BAM database.
-
-### Deploying an Observation Model
- You must have an observation model deployed before you can deploy an interceptor configuration file or capture BAM activities in your application.
-
-##### To deploy an observation model by using bm.exe
-
-1. Click **Start** and then click **Run** to open the Windows command prompt.
-
-2. Type **cmd** in the **Open** field, and then click **OK**.
-
-3. Use the change directory command to move to the directory containing the observation model to deploy. For example, **cd c:\businessprocess\Orders**.
-
-4. Deploy the observation model by using bm.exe:
-
-    [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking\BM.exe deploy-all -definitionfile:\<*definitionfile.xml*\>
-
-    Make sure you replace \<*definitionfile.xml*\> with the name of the observation file you want to deploy. For more options see [Interceptor Management Commands](../core/interceptor-management-commands.md).
-
+You must install the BAM interceptor software and configure your application to use the [!INCLUDE[firstref_btsWinWorkflowFoundation](../includes/firstref-btswinworkflowfoundation-md.md)] interceptor service before you can begin collecting BAM activity data. It is assumed that you have successfully installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and its dependencies and have created at least one BizTalk group.  
+  
+## Installing the BAM-Eventing Software  
+ Before you can configure your [!INCLUDE[nextref_btsWinWorkflowFoundation](../includes/nextref-btswinworkflowfoundation-md.md)] application to use the BAM interceptor for [!INCLUDE[nextref_btsWinWorkflowFoundation](../includes/nextref-btswinworkflowfoundation-md.md)], you must install the BAM-Eventing software by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Setup program. For more information about installing the BAM-Eventing software and registering the performance counters, see [Installing the BAM-Eventing Software](../core/installing-the-bam-eventing-software.md).  
+  
+## Configuring a Windows Workflow Foundation Application for Tracking  
+ Four tasks must be completed before your [!INCLUDE[nextref_btsWinWorkflowFoundation](../includes/nextref-btswinworkflowfoundation-md.md)] application can begin writing BAM event information:  
+  
+- An observation model must be created by using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] BAM tools and then deployed by using the BAM Manager command-line tool (bm.exe).  
+  
+- An interceptor configuration file must be created and deployed by using the BAM Manager command line-tool (bm.exe).  
+  
+- The user running the host application must be a member of the appropriate BAM activity event writer (bam_\<activity\>_EventWriter) SQL Server roles to enable the application to read the interceptor configuration information and write to the BAM activities.  
+  
+- The App.config file or the application itself must be modified to load the BAM tracking service and then restart the application.  
+  
+  Only after these tasks have been successfully completed will events begin appearing in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] BAM database.  
+  
+### Deploying an Observation Model  
+ You must have an observation model deployed before you can deploy an interceptor configuration file or capture BAM activities in your application.  
+  
+##### To deploy an observation model by using bm.exe  
+  
+1. Click **Start** and then click **Run** to open the Windows command prompt.  
+  
+2. Type **cmd** in the **Open** field, and then click **OK**.  
+  
+3. Use the change directory command to move to the directory containing the observation model to deploy. For example, **cd c:\businessprocess\Orders**.  
+  
+4. Deploy the observation model by using bm.exe:  
+  
+    c:[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking\BM.exe deploy-all -definitionfile:\<*definitionfile.xml*\>  
+  
+    Make sure you replace \<*definitionfile.xml*\> with the name of the observation file you want to deploy. For more options see [Interceptor Management Commands](../core/interceptor-management-commands.md).  
+  
    > [!NOTE]
    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.
 
