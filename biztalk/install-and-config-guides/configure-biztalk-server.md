@@ -19,6 +19,10 @@ manager: "anneta"
 # Configure BizTalk Server
 Configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] using basic configuration or custom configuration.
 
+This is a new paragraph. 
+
+- add some text
+
 ## Basic configuration vs. Custom configuration
 
 * If your configuration uses domain groups, do a Custom Configuration.
