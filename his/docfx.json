@@ -38,9 +38,14 @@
       "uhfHeaderId": "MSDocsHeader-His",
       "extendBreadcrumb": true
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "author": {"troubleshooting/*.md": "gplarsen"},
+      "ms.author": {"troubleshooting/*.md": "plarsen"},
+      "titleSuffix": {"troubleshooting/*.md": "Host Integration Server"}
+    },
     "template": [],
     "dest": "his",
     "markdownEngineName": "markdig"
+
   }
 }
