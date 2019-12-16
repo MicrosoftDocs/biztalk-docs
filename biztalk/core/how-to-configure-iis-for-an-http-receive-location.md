@@ -24,8 +24,8 @@ Depending on your operating system, the steps to configure the IIS application m
 
 An HTTP receive location uses the BTSHTTPReceive.dll. There is a 32-bit and a 64-bit version of the DLL. You choose which version you want to use. 64-bit processes have more available memory, so if you process larger messages, then the 64-bit version may be best. 
 
-**32-bit install location**: *Program Files (x86)\Microsoft BizTalk Server\HttpReceive*.
-**64-bit install location**: *Program Files (x86)\Microsoft BizTalk Server\HttpReceive64*
+* **32-bit install location**: *..\Program Files (x86)\Microsoft BizTalk Server <version>\HttpReceive*.
+* **64-bit install location**: *..\Program Files (x86)\Microsoft BizTalk Server <version>\HttpReceive64*
 
 To run the 64-bit version of the HTTP receive adapter in 64-bit native mode,  open a command prompt, and execute the following scripts:  
 
