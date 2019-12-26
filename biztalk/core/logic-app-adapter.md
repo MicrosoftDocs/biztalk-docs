@@ -1,8 +1,8 @@
 ---
 title: "Use Logic App adapter in BizTalk Server| Microsoft Docs"
 description: Install and configure the Logic Apps adapter to create a receive port, receive location, and send port in BizTalk Server
-ms.custom: ""
-ms.date: "06/25/2019"
+ms.custom: "biztalk-2020"
+ms.date: "12/26/2019"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -46,6 +46,9 @@ There are a few steps involved for BizTalk Server to receive messages from a log
 - If BizTalk Server is installed on an Azure VM, and the VM is exposed as an HTTP endpoint, then the gateway is not needed or used. 
 
 ### Step 1: Install the Logic App adapter
+
+> [!NOTE]
+> Starting with **BizTalk Server 2020**, the logic app adapter is included with the BizTalk Server installation. If you are using BizTalk Server 2020, please skip this step and proceed to Step 2.
 
 The Logic App adapter is a separate download, and is not included with the BizTalk Server installation. 
 
@@ -229,6 +232,9 @@ This section lists the steps to create your own artifacts.
 ## Send messages to a logic app
 
 ### Step 1: Install the Logic Apps adapter
+
+> [!NOTE]
+> Starting with **BizTalk Server 2020**, the logic app adapter is included with the BizTalk Server installation. If you are using BizTalk Server 2020, please skip this step and proceed to Step 2.
 
 The Logic Apps adapter is a separate download, and is not included with the BizTalk Server installation.
 
