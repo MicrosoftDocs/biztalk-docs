@@ -51,16 +51,17 @@ Azure Blob storage is Microsoft's object storage solution for the cloud, which i
 
     |Use this|To do this|  
     |---|---|  
-    | **Storage Authentication** | Select an authentication method. <ul><li>Typically, it's recommended to use a Shared Access Signature, which is also by default selected. You can input the Shared Access Signature connection string to **Connection string** field to provide the authentication.</li> <li>If you are using Access keys as authentication method, a collection of storage account will be poped up in **Account** drop-down list, after you select the storage account, **Connection string** field will be automatically filled up using your primary access key, which also know as **key1**. </li></ul><br />The  The following links are good resources to help you decide which is right for your scenario:<br/><br/>[About Azure storage accounts](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)<br/>[Using shared access signatures (SAS)](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1) |
-    | **Blob container name** | Select the name of your Blob container from the drop-down list which should be automatically manipulated after the **Connection string** field is filled up. |
-    | **Blob name** | Name of the blob used by adapter to upload the message to Blob storage container. Macros can be used for Blob name as well as file adapter, for available Macros please refere to [Using macros in file names](restrictions-when-configuring-the-file-adapter.md#using-macros-in-file-names). |
-    | **Namespace for blob metadata** | Context properties of the message can be written to blob metadata if namespace of the property match this field. |
+    | **Storage Authentication** | Select an authentication method. <ul><li>Typically, it's recommended to use a Shared Access Signature, which is also selected by default. You can input the Shared Access Signature connection string in the **Connection string** field to provide the authentication.</li> <li>If you are using Access keys as authentication method, a collection of storage account will be populated up in **Account** drop-down list. After you select the storage account, **Connection string** field will be automatically populated with your primary access key, which also known as **key1**. </li></ul><br />The following links are good resources to help you decide which authentication method is right for your scenario:<br/><br/>[About Azure storage accounts](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)<br/>[Using shared access signatures (SAS)](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1) |
+    | **Blob container name** | Select the name of your Blob container from the drop-down list. The list should be auto-populated after the **Connection string** field is filled up. |
+    | **Blob name** | Name of the blob used by adapter to upload the message to Blob storage container. Macros can be used for Blob name similar to file adapter. For available Macros please refer to [Using macros in file names](restrictions-when-configuring-the-file-adapter.md#using-macros-in-file-names). |
+    | **Namespace for blob metadata** | Context properties of the message can be written to blob metadata if the namespace of the property matches this field. |
 
     When finished, your properties look similar to the following: 
 
     ![General properties](../core/media/BlobAdapter-send-General.png)
 
 5. Configure the **Advanced** properties:
+
     |Use this|To do this|  
     |---|---|  
     |**Blob type**| Azure Blob adapter can upload message as different blob types as needed, visit [blob types](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction) for more information. |
