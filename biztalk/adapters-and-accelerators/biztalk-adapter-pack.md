@@ -36,6 +36,12 @@ Using these adapters, you can connect to these on-premises line-of-business (LOB
 * A Microsoft SharePoint portal
 
 ## Install BAP
+
+> [!NOTE]
+>  Starting with **BizTalk Server 2020**, all BizTalk Adapter Pack capabilities including SDK are included with BizTalk Server 2020 installation. Separate installation of BizTalk Adapter Pack or WCF LOB Adapter SDK is not required.
+>  Installing BizTalk Developer Tools/SDK and BizTalk Server Visual Studio Extension will install WCF LOB Adapter SDK.
+>  Installing BizTalk Server Runtime and Windows Communication Foundation Adapter will install all Adapters included in BizTalk Adapter Pack.
+
 The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] is included with [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. For the specific installation steps, see:
 
 * [Install BizTalk Adapter Pack 2016](../adapters-and-accelerators/install-the-biztalk-adapter-pack-2016.md)
