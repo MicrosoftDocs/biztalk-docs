@@ -77,7 +77,6 @@ MySubject= MyMessage(POP3.Subject);
 |BTS.SignatureCertificate|Set by some adapters when submitting a message into the server. This property is used by the Party Resolution pipeline component.|xs:string|Identifies the thumbprint of the signing certificate that was used to sign the message received by BizTalk Server.|  
 |BTS.SourcePartyID|Set by the Party Resolution pipeline component after the party has been identified for the incoming message.|xs:string|The ID of the BizTalk party.|  
 |BTS.SSOTicket|If the receive adapter supports this property, it is set when publishing the message to a server.|xs:string|A ticket contains the encrypted domain and username of the current user, as well as the ticket expiration time. The ticket is used by SSO enabled adapters to get the credentials for the user when authenticating with destination endpoints.|  
-|BTS.TransmitWorkID|Set by the Messaging Engine when sending a message.|xs:string|An identity for a message that stays the same between retries. It will not change if the message is suspended or resumed.
 |BTS.WindowsUser|Set by some adapters when submitting a message into the server. This property is used by the Party Resolution pipeline component.|xs:string|Specifies the account of a user on behalf of which the message is submitted into the server.|  
   
  For additional information about properties and property schemas associated with pipeline components and adapters, see the following:  
