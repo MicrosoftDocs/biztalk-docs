@@ -247,6 +247,39 @@ BAM alerts require BAM tools to be enabled.
     |Windows group|You can keep the default group name, or enter something custom. |
     |Windows SharePoint Services Adapter Web site|Select the Web site that hosts the Windows SharePoint Service Adapter web service.|
 
+### Configure the REST APIs
+>[!NOTE]
+>REST APIs configuration is available start from **BizTalk Server 2020**.
+
+
+1. Select **REST APIs**.
+2. Configure the following:
+
+    |Use this|To do this|
+    | --- | --- |
+    |Enable BizTalk REST APIs | Check this if you want enable BizTalk REST APIs. | 
+    |Web service accounts | Specify the account used to run the IIS services. <ul><li>Management Service: REST APIs for BizTalk Server artifacts management. The default URI for **Management Service** APIs is http(s)://localhost/BizTalkManagementService. </li><li>Operational Data Service: Service providing information on the instances and messages flowing through your BizTalk Server environment. The operational data feed is the same data you get looking at Group Hub in BizTalk Server Administration.The default URI for **Operational Data service** APIs is http(s)://localhost/BizTalkOperationalDataService.</li></ul>|
+    |Windows groups | BizTalk REST APIs use Windows authentication, specify the Windows groups allowed to access the APIs here. <ul><li>Management REST APIs User Role: Specify this as an extra layer of security check or keep default, because actually windows user who *request* (not user hosting the service) to management REST APIs will take the access challenge. </li><li>Operational Data REST APIs User Role: Specify user group allowed to access.</li>|
+    |REST APIs website|Select the Web site to host the both the REST APIs. |
+
+### Configure BizTalk TMS
+
+BizTalk TMS is a service that refreshes the authentication tokens used by BizTalk, it is a prerequisite for some adapters, i.e. Office 365 series adapters.  
+
+>[!IMPORTANT]
+><li>TMS must be configured on a server which also has the "Enterprise Single Sign-On Service" (ENTSSO) running.</li>
+><li>TMS should only be configured on one server in a BizTalk Group. For high-availability scenarios, you may configure TMS on multiple servers in an Active-Passive topology.</li>
+
+>[!NOTE]
+>BizTalk TMS configuration is available start from **BizTalk Server 2020**.
+
+1. Select **BizTalk TMS**.
+2. Configure the following:
+
+    |Use this|To do this|
+    | --- | --- |
+    |Enable BizTalk TMS | Check this if you want enable BizTalk TMS. | 
+    |Service accounts | Specify the account used to run TMS service. The service account should be a member of the "SSO Administrators" group.|
 
 ### Apply your configuration
 
@@ -269,6 +302,8 @@ After you configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalks
 |BTSSharePointAdapterWSAppPool|*User-defined*|Application pool for the Windows SharePoint Service adapter Web service.|  
 |STSWebServiceAppPool|*User-defined*|Application pool for the Trading Partner Management tools.|  
 |TpmWSAppPool|*User-defined*|Application pool for the TPM Management Web service.|  
+|BizTalkManagementServiceAppPool|*User-defined*|Application pool for management service REST APIs.|
+|BizTalkOperationalDataServiceAppPool|*User-defined*|Application pool for operational data service REST APIs.|
 
 ### Virtual applications  
 
@@ -277,7 +312,8 @@ After you configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalks
 |BAM|BAMAppPool|Virtual application which hosts the BAM Portal components (pages, images, precompiled code, and other resources). This virtual application calls in to the BAMManagementService application to communicate with the BAM databases. **Note:**  To brand the BAM Portal, you can modify the contents of this application.|  
 |BAMManagementService|BAMAppPool|Virtual application which hosts the BAMManagementService web service. This web service is used by the BAM Portal application to communicate with the BAM Primary Import Tables (PIT). The communication with the database is done using impersonated credentials stored in the registry which is created during configuration. Methods exposed by this web service can be used by custom clients to get views and their details, related activities, and pivot table layouts for any user. They can also be used to manage alerts in the database.|  
 |BTSharePointAdapterWS|BTSSharePointAdapterWSAppPool|Virtual application which hosts the Windows SharePoint Service adapter Web service. Applies to BizTalk Server 2013 R2 and 2013 only.|  
-
+|BizTalkManagementService|BizTalkManagementServiceAppPool|Virtual application which hosts the management service REST APIs.|  
+|BizTalkOperationalDataService|BizTalkOperationalDataServiceAppPool|Virtual application which hosts the operational data service REST APIs.|  
 
 ## More configuration topics  
 
