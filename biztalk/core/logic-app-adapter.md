@@ -40,8 +40,6 @@ Use this topic to create a receive location and a send port using the Logic Apps
 > [!NOTE]
 > This section applies to **BizTalk Server 2016 only**. 
 
-The Logic App adapter is a separate download, and is not included with the BizTalk Server installation. 
-
 1. On your BizTalk Server, download and install the Logic App adapter:
    - Go to [Microsoft BizTalk Server Adapter for Logic Apps](https://www.microsoft.com/download/details.aspx?id=54287), and save.
    - Open the LogicAppAdapter.iso, and run the **LogicApp Adapter.msi** file to install.
