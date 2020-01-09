@@ -480,7 +480,7 @@
 ###### [Keyboard Shortcuts Specific to Port Connectors](core/keyboard-shortcuts-specific-to-port-connectors.md)
 ## [Configure the feature pack](core/configure-the-feature-pack.md)
 ### [Track data to Azure](core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
-### [Configure data feed for Power BI](core/configure-the-operational-data-feed-for-power-bi-with-biztalk-server.md)
+### [Configure Operataional Data Service](core/fp2016-configure-operational-data-service.md)
 ### [Configure management REST APIs](core/install-and-configure-the-management-rest-apis-in-biztalk-server.md)
 ### [Configure time zone and recurrence](core/configure-the-time-zone-and-recurrence-scheduling-in-biztalk-server.md)
 ### [Configure automatic deployment using VSTS](core/configure-automatic-deployment-with-visual-studio-team-services-in-biztalk.md)
