@@ -242,4 +242,4 @@ div.WordSection1
 ```
 
 ## Next steps
-See all the [Office 365 adapters](office365-adapters.md), or install [Feature Pack 3](https://aka.ms/bts2016fp3).
+See all the [Office 365 adapters](office365-adapters.md).
