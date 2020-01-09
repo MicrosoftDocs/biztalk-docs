@@ -1,17 +1,29 @@
 ﻿---
-title: XSLT custom transform implementation (Grid Property)
-TOCTitle: XSLT custom transform implementation (Grid Property)
-ms:assetid: 9e206d6d-55f4-41bf-a46a-29e33fe324fd
-ms:mtpsurl: https://msdn.microsoft.com/library/Aa577606(v=BTS.80)
-ms:contentKeyID: 51530003
-ms.date: 08/30/2017
-mtps_version: v=BTS.80
+# required metadata
+
+title: Custom XSLT transform implementation
+description: Custom XSLT transform implementation
+author: Elvis-Shi
+ms.author: elsh
+manager: dougeby
+ms.date: 01/06/2029
+ms.topic: conceptual
+ms.prod: biztalk-server
+# optional metadata
+
+#ROBOTS:
+
+ms.reviewer: 
+ms.suite:
+ms.tgt_pltfrm:
+ms.assetid: 
+ms.custom: biztalk-2020
 ---
 
-# XSLT custom transform implementation (Grid Property)
+# Custom XSLT transform implementation
 
 ## ITransform2 class.
- XSLT custom transform should implement abstract class ITransform2.
+ **Start from BizTalk Server 2020**, custom XSLT transform engine is supported for BizTalk map. You can implement custom XSLT transform engine by defining XSLT transform implementation derived from abstract class Microsoft.XLANGs.BaseTypes.ITransform2 in assembly Microsoft.XLANGs.BaseTypes.dll.
 
 ```C#
     public abstract class ITransform2
@@ -118,5 +130,6 @@ namespace CustomTransform
 
 ## See Also
 
-[XSLT custom transform engine property](xslt-transform-engine-grid-properties.md)
+[XSLT custom transform engine property](xslt-transform-engine-grid-property.md)
 
+[Custom Extension XML](custom-extension-xml-grid-property.md)

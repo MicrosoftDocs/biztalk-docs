@@ -1,16 +1,28 @@
 ﻿---
+# required metadata
+
 title: Use XSL Transform (Grid Property)
-TOCTitle: Use XSL Transform (Grid Property)
-ms:assetid: 9e206d6d-55f4-41bf-a46a-29e33fe324fd
-ms:mtpsurl: https://msdn.microsoft.com/library/Aa577606(v=BTS.80)
-ms:contentKeyID: 51530003
-ms.date: 12/27/2019
-mtps_version: v=BTS.80
+description: Use XSL Transform (Grid Property)
+author: Elvis-Shi
+ms.author: elsh
+manager: dougeby
+ms.date: 01/06/2029
+ms.topic: conceptual
+ms.prod: biztalk-server
+# optional metadata
+
+#ROBOTS:
+
+ms.reviewer: 
+ms.suite:
+ms.tgt_pltfrm:
+ms.assetid: 
+ms.custom: biztalk-2020
 ---
 
 # Use XSL Transform (Grid Property)
 
-Use the **Use XSL Transform** property to specify whether XslTransform will be used for XSLT transform or XslCompiledTransform. This property will only be used when ".Net Framework" is selected for "XSLT transform engine" property.
+**Start from BizTalk Server 2020**, user can use **Use XSL Transform** property to specify whether [XslTransform](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xsl.xsltransform) (or [XslCompiledTransform](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xsl.xslcompiledtransform)) will be used for XSLT transform. This property will only be used when ".Net Framework" is selected for [XSLT transform engine](xslt-transform-engine-grid-property.md) property.
 
 ## Category
 
@@ -32,11 +44,11 @@ Compiler
 </tr>
 <tr class="even">
 <td>Yes</td>
-<td>XslTransform will be used for XSLT transform.</td>
+<td><a href="https://docs.microsoft.com/en-us/dotnet/api/system.xml.xsl.xsltransform">XslTransform</a> will be used for XSLT transform.</td>
 </tr>
 <tr class="odd">
 <td>No</td>
-<td>XslCompiledTransform will be used for XSLT transform.</td>
+<td><a href="https://docs.microsoft.com/en-us/dotnet/api/system.xml.xsl.xslcompiledtransform">XslCompiledTransform</a> will be used for XSLT transform.</td>
 </tr>
 </tbody>
 </table>
