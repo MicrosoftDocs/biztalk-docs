@@ -175,9 +175,9 @@ You can configure BAM Primary Import, BAM Archive, BAM Star Schema, BAM Analysis
 
 | BAM feature | Feature configuration | BizTalk Server | SQL Server |
 |---|---|---|---|
-|BAM Tools | BAM Primary Import Tables and BAM Archive database | ADOMD.NET SQL Server Integration Services | Supported SQL Server version. See [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).|
+|BAM Tools | BAM Primary Import Tables and BAM Archive database | SQL Server Analysis Services ADOMD.NET<br/> SQL Server Integration Services | Supported SQL Server version. See [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).<br/>Create SSIS Catalog (SSISDB) (Starting with **BizTalk Server 2020**)|
 | BAM Tools| Enable Analysis Services for BAM aggregations| SQL Server Integration Services| SQL Server Analysis Services|
-| BAM Notification Services Application Database| BAM Alerts| BAM Alerts <br/>Requirements listed in [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).| If using SQL Server 2012 or SQL Server 2014, configure SQL Server Database Mail. If using SQL Server 2008 R2, install SQL Server 2005 Notification Services Engine Components.<br/><br/>The BAM Alerts requirements are documented at Preparing Your Computer for Installation.
+| BAM Alerts Application Database| BAM Alerts| SQL Server Analysis Services ADOMD.NET<br/> BAM Alerts <br/>Requirements listed in [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).| Configure SQL Server Database Mail.<br/><br/>The BAM Alerts requirements are documented at Preparing Your Computer for Installation.
 
 > [!NOTE]
 > The service account used for the OLAP service should have db_datareader permissions on the BAM Star Schema database.
