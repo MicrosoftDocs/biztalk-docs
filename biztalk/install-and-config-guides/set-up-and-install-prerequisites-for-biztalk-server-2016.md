@@ -349,11 +349,11 @@ To send a test email:
  
 If the **To:** recipient receives the email, then Database Mail is configured. 
 
-## Install WinSCP (optional)
+## Copy WinSCP to BizTalk installation (optional)
 
-Required by the FTP adapter. If you don't use the FTP adapter, then skip this section. 
+Required by the SFTP adapter. If you don't use the SFTP adapter, then skip this section. 
 
-Download and install [WinSCP](http://winscp.net). 
+Download [WinSCP](http://winscp.net) zip file and extract files to BizTalk Server 2020 installation folder. 
 
 ## Next step
 

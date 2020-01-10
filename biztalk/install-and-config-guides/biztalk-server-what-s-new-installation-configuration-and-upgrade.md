@@ -19,6 +19,8 @@ Read about what's new, and how to install and configure [!INCLUDE[btsBizTalkServ
 
 ## BizTalk versions
 
+* [BizTalk Server 2020](../install-and-config-guides/biztalk-server-2020-whats-new-and-installation.md)
+
 * [BizTalk Server 2016](../install-and-config-guides/biztalk-server-2016-what-s-new-and-installation.md)
   
 *  [BizTalk Server 2013 R2 and 2013](../install-and-config-guides/biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)
@@ -38,6 +40,8 @@ These topics focus on::
   
 ## Next steps
 
+- [BizTalk Server 2020: What's new, and installation](../install-and-config-guides/biztalk-server-2020-whats-new-and-installation.md)
+  
 - [BizTalk Server 2016: What's new, and installation](../install-and-config-guides/biztalk-server-2016-what-s-new-and-installation.md)
   
 - [BizTalk Server 2013 R2 and 2013: What's new, and installation](../install-and-config-guides/biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)

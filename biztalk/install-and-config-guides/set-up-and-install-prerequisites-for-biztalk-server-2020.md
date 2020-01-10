@@ -170,7 +170,7 @@ Windows Identity Foundation is included with the operating system as a **Feature
 2. Select **Windows Identity Foundation 3.5**, and continue with the installation. 
 3. Restart the computer if prompted.
 
-## Install SQL Server 2016 Analysis Service ADOMD
+## Install SQL Server 2016 Analysis Services ADOMD.NET
 
 Download and install x86 and x64 SQL_AS_ADOMD from [Microsoft SQL Server 2016 Feature Pack download](https://www.microsoft.com/download/details.aspx?id=52676).
 
@@ -273,7 +273,7 @@ If you use BAM, BizTalk Server requires SSIS Catalog to be created. If you don't
 
 ## Install WinSCP (optional)
 
-Required by the FTP adapter. If you don't use the FTP adapter, then skip this section. 
+Required by the SFTP adapter. If you don't use the SFTP adapter, then skip this section. 
 
 Download and install [WinSCP](http://winscp.net). 
 
