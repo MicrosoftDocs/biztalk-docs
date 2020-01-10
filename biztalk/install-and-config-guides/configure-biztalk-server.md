@@ -249,7 +249,7 @@ BAM alerts require BAM tools to be enabled.
 
 ### Configure the REST APIs
 >[!NOTE]
->REST APIs configuration is available start from **BizTalk Server 2020**.
+>Applicable starting **BizTalk Server 2020**.
 
 
 1. Select **REST APIs**.
@@ -257,29 +257,29 @@ BAM alerts require BAM tools to be enabled.
 
     |Use this|To do this|
     | --- | --- |
-    |Enable BizTalk REST APIs | Check this if you want enable BizTalk REST APIs. | 
-    |Web service accounts | Specify the account used to run the IIS services. <ul><li>Management Service: REST APIs for BizTalk Server artifacts management. The default URI for **Management Service** APIs is http(s)://localhost/BizTalkManagementService. </li><li>Operational Data Service: Service providing information on the instances and messages flowing through your BizTalk Server environment. The operational data feed is the same data you get looking at Group Hub in BizTalk Server Administration.The default URI for **Operational Data service** APIs is http(s)://localhost/BizTalkOperationalDataService.</li></ul>|
-    |Windows groups | BizTalk REST APIs use Windows authentication, specify the Windows groups allowed to access the APIs here. <ul><li>Management REST APIs User Role: Specify this as an extra layer of security check or keep default, because actually windows user who *request* (not user hosting the service) to management REST APIs will take the access challenge. </li><li>Operational Data REST APIs User Role: Specify user group allowed to access.</li>|
-    |REST APIs website|Select the Web site to host the both the REST APIs. |
+    |Enable BizTalk REST APIs | Check this if you want to enable BizTalk REST APIs. | 
+    |Web service accounts | Specify the account used to run the IIS services. <ul><li>Management Service: REST APIs for BizTalk Server artifacts management. The default URI for **Management Service** APIs is http(s)://localhost/BizTalkManagementService. </li><li>Operational Data Service: Service providing information on the instances and messages flowing through your BizTalk Server environment. The operational data feed is the same data you get looking at Group Hub in BizTalk Server Administration. The default URI for **Operational Data service** APIs is http(s)://localhost/BizTalkOperationalDataService.</li></ul>|
+    |Windows groups | BizTalk REST APIs use Windows authentication, specify the Windows groups allowed to access the APIs here. <ul><li>Management REST APIs User Role: Specify name of Windows group as an extra layer of security. Once specified, the requester access to BizTalk information at REST endpoint is limited to what is configured in BizTalk for the specified Windows group(s).</li><li>Operational Data REST APIs User Role: Specify Windows group name that you wish to use to control the access.</li>|
+    |REST APIs website|Select the Web site to host both the REST APIs. |
 
 ### Configure BizTalk TMS
+>[!NOTE]
+>Applicable starting **BizTalk Server 2020**.
 
-BizTalk TMS is a service that refreshes the authentication tokens used by BizTalk, it is a prerequisite for some adapters, i.e. Office 365 series adapters.  
+BizTalk TMS is a service that refreshes authentication tokens used by BizTalk. It is a prerequisite for the Office 365 adapters.
 
 >[!IMPORTANT]
 ><li>TMS must be configured on a server which also has the "Enterprise Single Sign-On Service" (ENTSSO) running.</li>
-><li>TMS should only be configured on one server in a BizTalk Group. For high-availability scenarios, you may configure TMS on multiple servers in an Active-Passive topology.</li>
+><li>TMS should only be configured on a single server in a BizTalk Group. For high-availability scenarios, you may configure TMS on multiple servers in an Active-Passive topology.</li>
 
->[!NOTE]
->BizTalk TMS configuration is available start from **BizTalk Server 2020**.
 
 1. Select **BizTalk TMS**.
 2. Configure the following:
 
     |Use this|To do this|
     | --- | --- |
-    |Enable BizTalk TMS | Check this if you want enable BizTalk TMS. | 
-    |Service accounts | Specify the account used to run TMS service. The service account should be a member of the "SSO Administrators" group.|
+    |Enable BizTalk TMS | Check this if you want to enable BizTalk TMS. | 
+    |Service accounts | Specify the account used to run TMS. The service account must be a member of the "SSO Administrators" group.|
 
 ### Apply your configuration
 
