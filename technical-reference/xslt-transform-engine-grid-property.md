@@ -66,11 +66,11 @@ Undefined
 
 ## Create custom XSLT transform
 
-Define custom XSL transformer by implementing abstract class Microsoft.XLANGs.BaseTypes.ITransform2. And drop the implementation dll file into directory "[BizTalkInstallationDir]\Transform Components\" in the runtime server. 
+Define custom XSL transformer by implementing abstract class Microsoft.XLANGs.BaseTypes.ITransform2. And drop the implementation dll file into directory "\Program Files (x86)\Microsoft BizTalk Server\Transform Components\" in the runtime server. 
 
 - [Custom XSLT transform implementation](xslt-custom-transform-implementation.md)
 
-To use this custom transformer in Visual Studio during design time, "[BizTalkInstallationDir]\Developer Tools\CustomTransform.xml" should updated,
+To use this custom transformer in Visual Studio during design time, "\Program Files (x86)\Microsoft BizTalk Server\Developer Tools\CustomTransform.xml" should updated,
 a new "Transform" node like below should be added. "DisplayName" will be the item text display in the drop-down list for "XSLT transform engine" property, and "TypeAssemblyQualifiedName" will indicate the custom transform class. 
 
 ```xml
@@ -91,7 +91,7 @@ Global level XSLT transform engine will be used if "Undefined" is selected for m
 
 Only standard XSLT and XPath instructions are supported in Saxon if claimed. Saxon also provides several different ways of extensions, most of which are only available in PE and EE, create custom XSLT transform based on these editions if you are willing to use Saxon PE and EE.
 
-**Custom Extension XML** is still a supported way for creating your custom extension for Saxon 9 HE transform engine. Create custom .Net extension functions by implementing ExtensionFunction or ExtensionFunctionDefinition intefaces, and add your implementations into **Custom Extension XML**.  Saxon 9 HE transform engine will register extension functions defined in **Custom Extension XML**, and transform processor can then recognize and invoke any call from XSLT.
+**Custom Extension XML** is still a supported way for creating your custom extension for Saxon 9 HE transform engine. Create custom .Net extension functions by implementing interface `ExtensionFunction` or `ExtensionFunctionDefinition`, and add your implementations into **Custom Extension XML**.  Saxon 9 HE transform engine will register extension functions defined in **Custom Extension XML**, and transform processor can then recognize and invoke any call from XSLT.
 
 
 

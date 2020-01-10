@@ -48,8 +48,7 @@ The feed includes the following data tables:
 ## Use Power BI to Load Operational Data.
 
 1. Download and install the [Power BI Desktop](https://powerbi.microsoft.com/desktop/) on your BizTalk Server. You can select to open it, which is optional. If you have a work or school account, you may have access to Power BI. Try signing in with that account. Or, you can try it for free after signing up.
-2. Open the `\Program Files (x86)\Microsoft BizTalk Server 2016\OperationalDataService` folder, and open the `BizTalkOperationalData.pbit` file:
-![Open pbit file](../core/media/operational-data-pbit.png)
+2. Open the `\Program Files (x86)\Microsoft BizTalk Server\OperationalDataService` folder, and open the `BizTalkOperationalData.pbit` file.
 
 3. Power BI desktop opens, and you are prompted for a URL. Enter the `http://localhost/<yourWebSite>` URL that you created for your OData feed. For example, enter `http://localhost/BizTalkOperationalDataService`. Your URL looks similar to the following:
 ![Enter the URL](../core/media/operational-data-url.png)

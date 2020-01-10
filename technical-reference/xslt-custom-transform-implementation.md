@@ -30,7 +30,7 @@ ms.custom: biztalk-2020
     {
        // This is not required, user can implement if they want their transform support custom extension.
        // These 3 parameters passed in are from "Custom Extension XML", in which user can provide namespace, assembly name, class name of the extension object, here user should create the extension behavior, like extension object creation, and registry.
-        public virtual void RegisterExtension(string namespaceUri, string assemblyName, string className)
+        public virtual void RegisterExtension(string namespaceUri, string assemblyName, string className);
                
         // Load XSLT string.
         public abstract void Load(string xslt);
