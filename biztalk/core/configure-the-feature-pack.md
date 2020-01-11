@@ -128,7 +128,7 @@ Use OData visualization tools like PowerBI to query operational data. [Configure
 
 Use REST APIs to remotely manage your BizTalk artifacts, including agreements, suspended instances, unenlisted orchestrations, and more.
 
-#### [Configure advanced scheduling](../core/configure-the-time-zone-and-recurrence-scheduling-in-biztalk-server.md)
+#### [Configure advanced scheduling](../core/how-to-configure-scheduling-for-a-receive-location.md)
 
 Enable advanced scheduling in your receive locations. For example, set the timezone, or set a recurrence service window for a specific day on a specific month.
 
