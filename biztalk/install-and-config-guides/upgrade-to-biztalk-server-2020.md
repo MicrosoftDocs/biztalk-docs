@@ -97,6 +97,8 @@ The following table lists the supported Edition upgrade path from BizTalk Server
 
 - **SQL Adapter**: SQL Adapter is **removed** from BizTalk Server 2020 installation. It is in deprecated state in BizTalk Server 2016 and versions prior to that.  BizTalk Server 2020 Upgrade will change ports associated with EDI batching or ESBT exceptions to use WCF-SQL Adapter. It is **user responsibility** to eliminate any other use of SQL Adapter in their BizTalk solution **prior to applying the BizTalk Server 2020 Upgrade**. 
 
+- **TIBCO Enterprise Message Service Adapter**: Applicable starting `BizTalk Server 2020`, TIBCO Enterprise Message Service Adapter is supported in 64 bit host only.
+
 ### BAM
 
 - **BAM DTS Packages**: Stop all BAM Data Transformation Services (DTS) packages. Otherwise, data may be lost or an online analytical processing (OLAP) cube may corrupt.
@@ -250,6 +252,8 @@ You cannot roll back to BizTalk Server 2016.
     - **Management Service and Operational Data Service**: If you use Management Service or Operational Data Service, delete exising Management Service and Operational Data Service in IIS Manager, delete corresponding App Pools, and then re-configure BizTalk REST API feature in BizTalk Server 2020 configuration.
 
 - **Restart applications**: Restart all deployed applications that are upgraded.
+
+- **Update Host to 64bit for TIBCO Enterprise Message Service Adapter**: Update the Send and Receive Handler host for TIBCO Enterprise Message Service Adapter to a 64 bit host.
 
 ## Appendix A: Customer experience improvement Program
 As part of the Customer Experience Improvement Program in BizTalk Server, you can provide useful feedback to Microsoft regarding feature usage of BizTalk Server. The data collected is anonymous, and cannot be used to identify you. Microsoft collects feature usage statistics as part of this program.
