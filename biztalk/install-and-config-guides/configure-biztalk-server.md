@@ -68,6 +68,9 @@ When you do a basic configuration, the following occurs:
 
 ## Custom Configuration
 
+> [!TIP]
+> Applicable starting BizTalk Server 2020, group Managed Service Accounts(gMSA) can be used to configure accounts used for various features in BizTalk. Please refer to [using group Managed Service Accounts for BizTalk Features](../core/gmsa-config.md) for more details.
+
 1. In the start menu, right-select **BizTalk Server Configuration**, and then select **Run as Administrator**. This opens the configuration wizard.
 2. Select **Custom configuration**, and select **Configure**.
 
