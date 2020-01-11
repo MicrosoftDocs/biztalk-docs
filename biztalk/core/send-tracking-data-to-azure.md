@@ -1,8 +1,8 @@
 ---
 title: "Track data to Application Insights or Event Hubs | Microsoft Docs"
-description: Install feature pack to enable analytics of tracked data with Azure Application Insights or Azure Event Hubs in BizTalk Server
-ms.custom: "fp1, fp2"
-ms.date: "11/16/2017"
+description: Enable analytics of tracked data with Azure Application Insights or Azure Event Hubs in BizTalk Server
+ms.custom: "fp1, fp2, biztalk-2020"
+ms.date: "01/09/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -15,22 +15,14 @@ author: "tordgladnordahl"
 ms.author: mandia
 manager: "anneta"
 ---
-# Send BizTalk tracking data to Azure Application Insights or Event Hubs
+# Send BizTalk tracking data to Azure
 
-**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, you can process and send your tracking data to Azure Application Insights. 
-
-**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**:
-
-* Application Insights supports SQL default instances, and SQL named instances
-* You can process and send tracking data to Azure Event Hubs
-
-Use these Azure services to track your instances from receive ports, send ports, and orchestrations.
+Leverage the power of Azure (Application Insights and Azure Event Hubs) to monitor your BizTalk applications.
 
 ## Prerequisites
 
-* Create a new instance of [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-create-new-resource). BizTalk Server uses the **Instrumentation Key** to authenticate.
-* Create an [Azure Event Hubs namespace and event hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-create). BizTalk Server uses the SAS (namespace-level) or event hub-level policy to authenticate.
-* Install [Feature Pack 2](https://aka.ms/bts2016fp2) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
+* If you wish to send your tracking data to Application Insights, create a new instance of [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-create-new-resource). BizTalk Server uses the **Instrumentation Key** to authenticate.
+* If you wish to send your tracking data to Azure Event Hubs, create an [Azure Event Hubs namespace and event hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-create). BizTalk Server uses the SAS (namespace-level) or event hub-level policy to authenticate.
 
 ## Enable analytics for your environment
 
@@ -105,4 +97,8 @@ Some possible resolutions:
 Now, query the BizTalkMsgBoxDb TrackingData_2_x tables again. If the tables are empty, then the data was moved, and should start displaying in Application Insights.
     
 ## See also
- [Install & configure the Feature Pack](../core/configure-the-feature-pack.md)
+ [Configure the Power BI operational data feed in BizTalk Server](../core/configure-the-operational-data-feed-for-power-bi-with-biztalk-server.md)
+ 
+ [Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
+ 
+ [Azure Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-about)

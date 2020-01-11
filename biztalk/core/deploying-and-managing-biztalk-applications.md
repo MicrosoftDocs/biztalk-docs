@@ -49,5 +49,7 @@ This section provides information about managing BizTalk applications, including
 -   [Deploying BizTalk Applications](../core/deploying-biztalk-applications.md)  
   
 -   [Updating BizTalk Applications](../core/updating-biztalk-applications.md)  
+
+-   [Configure automatic deployment using VSTS](../core/configure-automatic-deployment-with-visual-studio-team-services-in-biztalk.md)
   
 -   [Undeploying BizTalk Applications](../core/undeploying-biztalk-applications.md)

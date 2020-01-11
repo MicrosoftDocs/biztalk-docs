@@ -36,6 +36,8 @@ This section provides instructions on creating, configuring, and managing receiv
 -   [Disable a Receive Location](../core/how-to-disable-a-receive-location.md)  
   
 -   [Configure Scheduling for a Receive Location](../core/how-to-configure-scheduling-for-a-receive-location.md)  
+
+-   [Connect to Azure API Management](../core/connect-to-azure-api-management.md)
   
 -   [Assign a Certificate to a Receive Location](../core/how-to-assign-a-certificate-to-a-receive-location.md)  
   

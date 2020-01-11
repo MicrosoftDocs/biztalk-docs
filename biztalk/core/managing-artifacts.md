@@ -44,6 +44,10 @@ The tracking configuration settings allow you to track the following types of da
 > If you set tracking options on a pipeline, then the tracking options are set globally for every port that uses the pipeline. This results in far more data being tracked than you may intend, and may impact system performance. During development, this may be normal. In production scenarios, we recommend you enable any tracking options on the send ports and receive ports, instead of the pipelines.
   
 ## In this section  
+
+-   [Send tracking data to Azure](../core/send-tracking-data-to-azure.md)
+
+-   [Configure the operational data feed using Power BI](../core/operational-data-service.md)
   
 -   [Managing Orchestrations](../core/managing-orchestrations.md)  
   

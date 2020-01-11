@@ -26,7 +26,6 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 * Have the path to the XML binding file to your BizTalk project ready. 
 * Know your VSTS account, your collection, and your team project details.
 * Be familiar with git concepts, including cloning and working with repositories. 
-* Be sure [Feature Pack 2](https://aka.ms/bts2016fp2) is installed.
 
 ## Add the application project
 

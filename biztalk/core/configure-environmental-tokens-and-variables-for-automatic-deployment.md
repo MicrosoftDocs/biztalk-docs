@@ -62,4 +62,3 @@ We show you how to add the VSTS variable in your binding file, and how to create
 ## See also
 
 [Configure automatic deployment with Visual Studio Team Services](configure-automatic-deployment-with-visual-studio-team-services-in-biztalk.md)  
-[Configure the feature pack](configure-the-feature-pack.md)

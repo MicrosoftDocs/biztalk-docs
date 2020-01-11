@@ -19,7 +19,24 @@ ms.assetid:
 ms.custom: "biztalk-2016fp"
 
 ---
-## Configure Operational Data Service in BizTalk Server 2016 Feature Pack
+
+# Install and configure the Operational Data Service in BizTalk Server
+
+**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, send tracking to Power BI using the Power BI template provided, or create your own.
+
+## What is operational data
+Operational data is information on the instances and messages flowing through your BizTalk Server environment. To learn more, see [Operational Data Service](operational-data-service.md).
+
+## Prerequisites
+* Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) on any computer that has network access to your BizTalk Server.
+
+* Install [Feature Pack 2](https://aka.ms/bts2016fp2) or newer feature pack on your BizTalk Server.
+
+* Install IIS on the BizTalk Server. In most BizTalk Server environments, IIS is already installed. See [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md). Confirm IIS is installed by opening **Internet Information Services Manager**.
+
+* Optional. Install and configure a [Power BI Gateway](https://powerbi.microsoft.com/gateway/) to connect [PowerBI.com](https://powerbi.microsoft.com) with your on-premises BizTalk Server. If you're not using an on-premises BizTalk Server, then you don't need the gateway.
+
+## Steps:
 
 1. Run Windows PowerShell as Administrator (**Start** menu, type **PowerShell**, right click, and select **Run as administrator**).
 2. Go to the BizTalk installation folder (for example, type: `cd 'C:\Program Files (x86)\Microsoft BizTalk Server 2016\'`).
@@ -62,4 +79,8 @@ ms.custom: "biztalk-2016fp"
 > ![Computer name is in all CAPS](../core/media/groups-case.png)
 
 ## See also
+
 [More about Operational Data Service](operational-data-service.md)
+
+[What's new in Feature Pack](../core/configure-the-feature-pack.md)
+ 
