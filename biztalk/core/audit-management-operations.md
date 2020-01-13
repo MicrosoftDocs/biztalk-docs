@@ -1,7 +1,7 @@
 ---
 title: "Audit Management Operations  | Microsoft Docs"
 description: How to Audit management Operations.
-author: "Pravakar Garnayak"
+author: "pravagar"
 ms.author: "pravagar"
 manager: "dougeby"
 ms.date: "01/10/2020"

@@ -385,7 +385,7 @@ The following is the list of SQL Server databases used in BizTalk Server:
 - **Cluster the File System** – See [How to Cluster the File System](https://go.microsoft.com/fwlink/p/?LinkId=189517).
 
 ## Use SCOM
-The BizTalk Server Management Pack for Operations Manager provides comprehensive discovery and monitoring of BizTalk Server components and applications that are running in multiple machines. For more information about the BizTalk Server Management Pack, see http://www.microsoft.com/download/details.aspx?id=39617.
+The BizTalk Server Management Pack for Operations Manager provides comprehensive discovery and monitoring of BizTalk Server components and applications that are running in multiple machines. For more information about the BizTalk Server Management Pack, see https://www.microsoft.com/download/details.aspx?id=54291.
 
 ## Next
 [Configure BizTalk](configure-biztalk-server.md)

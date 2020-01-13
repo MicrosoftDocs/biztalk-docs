@@ -17,7 +17,7 @@ manager: "anneta"
 ---
 # Operational Data Service
 
-**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, BizTalk Server provide the operational data service, which can be accessed or queried using OData visualization tools, like Power BI. [What is OData?](https://docs.microsoft.com/en-us/odata/overview)
+Send tracking data to Power BI using OData. For example, get a visual representation of your tracking data from your ports and orchestrations.
 
 ## What is operational data
 Operational data is information on the instances and messages flowing through your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] environment. The operational data feed is the same data you get looking at Group Hub in [!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)].

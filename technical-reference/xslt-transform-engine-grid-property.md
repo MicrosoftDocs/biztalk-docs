@@ -24,7 +24,7 @@ ms.custom: biztalk-2020
 
 **Applicable starting BizTalk Server 2020**, user can choose Saxon:registered: as XSLT transform engine. It is also possible to plug-in your own XSLT transform engine. Use **XSLT Transform Engine** property to specify the XSLT transform engine you wish to use.
 
-BizTalk's default XSL transform engine implementation is based on .Net Framework [XSLT Transformations](https://docs.microsoft.com/en-us/dotnet/standard/data/xml/xslt-transformations). This support is limited to XSLT 1.0. Use this property to configure other XSL transform engines at map level. This makes it possible for BizTalk server maps to support newer versions of XSLT. Using Saxon:registered: one can readily use XSLT3.0.
+BizTalk's default XSL transform engine implementation is based on .Net Framework [XSLT Transformations](https://docs.microsoft.com/dotnet/standard/data/xml/xslt-transformations). This support is limited to XSLT 1.0. Use this property to configure other XSL transform engines at map level. This makes it possible for BizTalk server maps to support newer versions of XSLT. Using Saxon:registered: one can readily use XSLT3.0.
 
 ## Category
 

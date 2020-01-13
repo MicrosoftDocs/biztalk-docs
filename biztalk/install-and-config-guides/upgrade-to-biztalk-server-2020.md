@@ -50,7 +50,7 @@ The following table lists the supported operating systems that can be upgraded t
 The following table lists the supported SQL Server versions that can be upgraded to BizTalk Server 2020. The SQL Server hosts the databases used by BizTalk Server. “Yes” means BizTalk Server using that SQL Server version can be upgraded. “No” means BizTalk Server using that SQL Server version cannot be upgraded. When “No”, the BizTalk environment must be recreated on a supported SQL Server version. [Hardware and Software Requirements for BizTalk Server 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md) lists the supported SQL Server versions.
 
 > [!TIP]
-> If you're SQL Server version isn't supported, or isn't in the following list, then review the SQL Server upgrade documentation. The SQL upgrade covers more versions than what BizTalk supports. For example, if you're using SQL Server 2014, you may be able to upgrade to SQL Server 2016/2017/2019. Then, you can upgrade to BizTalk Server 2020. [Upgrade SQL Server](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/upgrade-sql-server) lists the SQL Server versions that can be upgraded.
+> If you're SQL Server version isn't supported, or isn't in the following list, then review the SQL Server upgrade documentation. The SQL upgrade covers more versions than what BizTalk supports. For example, if you're using SQL Server 2014, you may be able to upgrade to SQL Server 2016/2017/2019. Then, you can upgrade to BizTalk Server 2020. [Upgrade SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/upgrade-sql-server) lists the SQL Server versions that can be upgraded.
 
 | SQL Server | BizTalk Server 2016 |
 | --- | --- |

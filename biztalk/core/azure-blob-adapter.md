@@ -67,7 +67,7 @@ Azure Blob storage is Microsoft's object storage solution for the cloud, which i
 
     |Use this|To do this|  
     |---|---|  
-    |**Blob type**| Specify **Blob type** to be used, visit [blob types](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction) for more information. |
+    |**Blob type**| Specify **Blob type** to be used, visit [blob types](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction) for more information. |
     |**Write mode**| Use this setting to specify adapter behavior when given **Blob name** already exists. 	<ul><li>**Create new**: Adapter will always try to create a new blob. In case a blob with the same name already exists, the BizTalk message will be suspended. </li><li>**Overwrite**: Adapter will overwrite if blob with given name already exists, metadata will be overwritten as well.</li><li>**Append**: Adapter will append message body to existing blob if blob already exists, metadata will not change.</li></ul>|  
 
 6. Select **OK** to save your changes. 
@@ -159,6 +159,6 @@ Azure Blob storage receive adapter supports high-availability topologies. Add mu
 - Blobs being received by Azure Blob storage adapter can't be updated while in a leased state.
 
 Visit [Pessimistic concurrency for blobs
-](https://docs.microsoft.com/en-us/azure/storage/common/storage-concurrency#pessimistic-concurrency-for-blobs) to understand more about Azure blob lease.
+](https://docs.microsoft.com/azure/storage/common/storage-concurrency#pessimistic-concurrency-for-blobs) to understand more about Azure blob lease.
 
 Azure Blob storage send adapter like most of other send adapters, provides high availability for the sending host by just having multiple host instances in the same sending host.

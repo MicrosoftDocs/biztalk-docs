@@ -1,13 +1,11 @@
 ---
-# required metadata
-
 title: BizTalk Server 2020: Supported Line-of-Business (LOB) and Enterprise systems | Microsoft Docs
 description: Details of Line-of-Business (LOB) and Enterprise systems supported by BizTalk Server 2020
 author: msjaydeep
 ms.author: jaah
 manager: dougeby
 ms.date: 01/09/2020
-ms.topic: support-metrics
+ms.topic: conceptual
 ms.prod: biztalk-server
 
 # optional metadata
@@ -94,7 +92,7 @@ This article lists the Line-of-Business (LOB) and Enterprise systems supported b
 | Azure SQL Database | Yes |
 
 > [!IMPORTANT]
-> This refers to the SQL Server versions used by the WCF-SQL adapter in BizTalk Server 2020. For the SQL Server versions supported as the back-end system to BizTalk Server, refer to Hardware and Software Requirements for BizTalk Server 2020 [here](..\install-and-config-guides\hardware-and-software-requirements-for-biztalk-server-2020.md)
+> This refers to the SQL Server versions used by the WCF-SQL adapter in BizTalk Server 2020. For the SQL Server versions supported as the back-end system to BizTalk Server, refer to [Hardware and Software Requirements for BizTalk Server 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md).
 
 ## Supported Enterprise Systems
 

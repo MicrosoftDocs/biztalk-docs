@@ -22,7 +22,7 @@ ms.custom: biztalk-2020
 
 # Use XSL Transform (Grid Property)
 
-**Start from BizTalk Server 2020**, user can use **Use XSL Transform** property to specify whether [XslTransform](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xsl.xsltransform) (or [XslCompiledTransform](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xsl.xslcompiledtransform)) will be used for XSLT transform. This property will only be used when ".Net Framework" is selected for [XSLT transform engine](xslt-transform-engine-grid-property.md) property.
+**Start from BizTalk Server 2020**, user can use **Use XSL Transform** property to specify whether [XslTransform](https://docs.microsoft.com/dotnet/api/system.xml.xsl.xsltransform) (or [XslCompiledTransform](https://docs.microsoft.com/dotnet/api/system.xml.xsl.xslcompiledtransform)) will be used for XSLT transform. This property will only be used when ".Net Framework" is selected for [XSLT transform engine](xslt-transform-engine-grid-property.md) property.
 
 ## Category
 

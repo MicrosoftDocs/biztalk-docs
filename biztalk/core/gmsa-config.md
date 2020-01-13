@@ -5,7 +5,7 @@ author: msjaydeep
 ms.author: jaah
 manager: dougeby
 ms.date: 01/03/2020
-ms.topic: config
+ms.topic: conceptual
 ms.prod: biztalk-server
 
 # optional metadata
