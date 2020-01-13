@@ -1,8 +1,8 @@
 ---
 title: "Manage Receive Locations | Microsoft Docs"
 description: Work with receive locations in BizTalk Server, including creating, changing the properties, enabling & disabling, adding certificates, and deleting
-ms.custom: ""
-ms.date: "06/08/2017"
+ms.custom: "biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -36,6 +36,8 @@ This section provides instructions on creating, configuring, and managing receiv
 -   [Disable a Receive Location](../core/how-to-disable-a-receive-location.md)  
   
 -   [Configure Scheduling for a Receive Location](../core/how-to-configure-scheduling-for-a-receive-location.md)  
+
+-   [Connect to Azure API Management](../core/connect-to-azure-api-management.md)
   
 -   [Assign a Certificate to a Receive Location](../core/how-to-assign-a-certificate-to-a-receive-location.md)  
   

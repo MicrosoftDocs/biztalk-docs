@@ -1,7 +1,7 @@
 ---
 title: "Ordered Delivery of Messages | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
+ms.custom: "biztalk-2020"
+ms.date: "12/23/2019"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -95,6 +95,10 @@ Ordered message delivery ensures that messages that are published to the Message
 -   If messages are written to individual files, the order is reflected in the file names, which are sequentially named. In this case, for files written by the adapter, file system properties relating to chronology (for example, file creation time or modification time) do not necessarily reflect the message arrival sequence.
 
 ## Performance Impact of Ordered Delivery
+
+> [!NOTE]
+> Starting with **BizTalk Server 2020**, for dynamic send ports with ordered delivery where order does not need to be maintained across different outbound locations, higher throughput can be achieved by using multiple send port instances to process messages sent to different outbound locations in parallel.
+
  To achieve ordered delivery, BizTalk Server must serialize processing of ordered messages at various points along the message pathway. This works against scale-out techniques, such as the use of multiple host instances for parallel processing of messages. When using ordered delivery, even ports configured to run on multiple host instances run only on a single host instance to ensure ordered delivery. However, in this situation, high availability is still maintained because the failure of a host instance that is processing ordered delivery of messages results in reprocessing of the failed message on another available host instance.
 
  When Ordered Delivery is enabled, the default **Retry Interval** is 5 minutes. To improve performance, set the Retry Interval to the lowest value, which is 1 minute. The **Retry Interval** property may accept a value of zero (0) but zero (0) is not valid. The **Retry Count** can also be tuned to the number of retries needed. For example, if you know the request should process in <1 minute and the send port destination is always accessible, set both values to 1.

@@ -1,8 +1,8 @@
 ---
 title: "Install BizTalk Adapters for Enterprise Applications | Microsoft Docs"
 description: Requirements and installation steps for JD Edwards OneWorld, JD Edwards EnterpriseOne, PeopleSoft Enterprise, TIBCO Rendezvous, and TIBCO Enterprise Message Service on BizTalk Server
-ms.custom: ""
-ms.date: "10/13/2017"
+ms.custom: "biztalk-2020"
+ms.date: "01/06/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -37,8 +37,8 @@ manager: "anneta"
 
 ||Requirements|
 |---|---|
-|Operating System|The adapter supports the same OS as BizTalk Server:<ul><li>[BizTalk Server 2016 requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)</li><li>[BizTalk Server 2013 R2 / 2013 requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)</li></ul>|
-|Supported enterprise system|[Supported Line-of-Business (LOB) and Enterprise systems](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx) lists the supported versions |
+|Operating System|The adapter supports the same OS as BizTalk Server:<ul><li>[BizTalk Server 2020 requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md)</li><li>[BizTalk Server 2016 requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)</li><li>[BizTalk Server 2013 R2 / 2013 requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)</li></ul>|
+|Supported enterprise system|<ul><li>[BizTalk Server 2020](../adapters-and-accelerators/lob-and-enterprise-2020-support.md)</li><li>[Previous versions](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)</li></ul> |
 |JD Edwards OneWorld XE | <ul><li>JD Edwards Enterprise server on Windows</li><li>JD Edwards Deployment server on Windows</li></ul>|
 |JD Edwards EnterpriseOne | The adapter calls the JD Edwards EnterpriseOne API that uses JDBC, which needs a driver for the database. If you install JD Edwards EnterpriseOne with a SQL database, you need MS-SQL drivers. Similarly if you installed JD Edwards EnterpriseOne with an Oracle database, you need Oracle drivers; or if you installed with a DB2 database, you need DB2 drivers. |
 |PeopleSoft Enterprise | <ul><li>Sun Systems Java Development Kit (JDK)</li><li>PeopleSoft Tools release</li><li>PeopleSoft Applications release</li><li>This adapter requires a modification to the PeopleSoft application. To use component interfaces, upload a custom component interface, GET_CI_INFO, into PeopleSoft. GET_CI_INFO.pc is in Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r)\Config\.</li></ul>|
@@ -565,7 +565,12 @@ The **Component Interface Tester** window opens. There should be no keys listed.
 ## Install steps
  Before you install, be sure BizTalk Server and all the software prerequisites for the adapters are installed. It is recommended that you close all applications before running Setup.
 
-1.  Run the BizTalk Server **Setup.exe**, select **Install Microsoft BizTalk Adapters**, and select **Install Microsoft BizTalk Adapters for Enterprise Applications**.
+1.  Run the BizTalk Server **Setup.exe** and select **Install Microsoft BizTalk Adapters for Enterprise Applications**.
+
+    ![bts2020install_splash](../install-and-config-guides/media/bts2020install-splash.png)
+
+    **For BizTalk Server 2016 and older**
+    Run the BizTalk Server **Setup.exe**, select **Install Microsoft BizTalk Adapters**, and select **Install Microsoft BizTalk Adapters for Enterprise Applications**.
 
     > [!NOTE]
     >  - You can also run a silent installation using the following command: msiexec /i <msi\> /qn /l* <logfile\> -- where <logfile\> is optional, but is useful in the event of a failed installation.

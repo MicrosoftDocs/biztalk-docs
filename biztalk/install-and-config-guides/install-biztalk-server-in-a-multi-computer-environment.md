@@ -1,8 +1,8 @@
 ---
 title: "Install BizTalk Server in a Multi-Computer Environment | Microsoft Docs"
 description: Multi-server installation and setup guidance when BizTalk and SQL Server are installed on a different computers, including BAM
-ms.custom: ""
-ms.date: "09/27/2018"
+ms.custom: "biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -175,9 +175,9 @@ You can configure BAM Primary Import, BAM Archive, BAM Star Schema, BAM Analysis
 
 | BAM feature | Feature configuration | BizTalk Server | SQL Server |
 |---|---|---|---|
-|BAM Tools | BAM Primary Import Tables and BAM Archive database | ADOMD.NET SQL Server Integration Services | Supported SQL Server version. See [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).|
+|BAM Tools | BAM Primary Import Tables and BAM Archive database | SQL Server Analysis Services ADOMD.NET<br/> SQL Server Integration Services | Supported SQL Server version. See [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).<br/>Create SSIS Catalog (SSISDB) (Starting with **BizTalk Server 2020**)|
 | BAM Tools| Enable Analysis Services for BAM aggregations| SQL Server Integration Services| SQL Server Analysis Services|
-| BAM Notification Services Application Database| BAM Alerts| BAM Alerts <br/>Requirements listed in [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).| If using SQL Server 2012 or SQL Server 2014, configure SQL Server Database Mail. If using SQL Server 2008 R2, install SQL Server 2005 Notification Services Engine Components.<br/><br/>The BAM Alerts requirements are documented at Preparing Your Computer for Installation.
+| BAM Alerts Application Database| BAM Alerts| SQL Server Analysis Services ADOMD.NET<br/> BAM Alerts <br/>Requirements listed in [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md).| Configure SQL Server Database Mail.<br/><br/>The BAM Alerts requirements are documented at Preparing Your Computer for Installation.
 
 > [!NOTE]
 > The service account used for the OLAP service should have db_datareader permissions on the BAM Star Schema database.
@@ -385,7 +385,7 @@ The following is the list of SQL Server databases used in BizTalk Server:
 - **Cluster the File System** – See [How to Cluster the File System](https://go.microsoft.com/fwlink/p/?LinkId=189517).
 
 ## Use SCOM
-The BizTalk Server Management Pack for Operations Manager provides comprehensive discovery and monitoring of BizTalk Server components and applications that are running in multiple machines. For more information about the BizTalk Server Management Pack, see http://www.microsoft.com/download/details.aspx?id=39617.
+The BizTalk Server Management Pack for Operations Manager provides comprehensive discovery and monitoring of BizTalk Server components and applications that are running in multiple machines. For more information about the BizTalk Server Management Pack, see https://www.microsoft.com/download/details.aspx?id=54291.
 
 ## Next
 [Configure BizTalk](configure-biztalk-server.md)
