@@ -128,6 +128,13 @@ Provides a value for the <strong>standalone</strong> attribute of the XSL <stron
  <strong>Note:</strong> In Microsoft BizTalk® Server, &quot;target&quot; and &quot;destination&quot; are used interchangeably with respect to schemas and instance messages.</td>
 </tr>
 <tr class="odd">
+<td><a href="use-xsl-transform-grid-property.md">Use XSL Transform</a></td>
+<td>Compiler</td>
+<td>Indicates whether to use legacy .Net <a href="https://docs.microsoft.com/en-us/dotnet/api/system.xml.xsl.xsltransform">XslTransform</a> to achieve XSLT transformation, otherwise <a href="https://docs.microsoft.com/en-us/dotnet/api/system.xml.xsl.xslcompiledtransform">XslCompiledTransform</a> will be used if "False" is selected.<br />
+<br />
+This option will only be used when ".Net Framework" is selected as "XSLT transform engine".</td>
+</tr>
+<tr class="even">
 <td><a href="version-grid-property.md">Version</a></td>
 <td>Custom Header</td>
 <td>Specifies version &quot;1.0&quot; in relation to the &quot;xml&quot; output method, which appears in the output XML declaration as:<br />
@@ -136,25 +143,18 @@ Provides a value for the <strong>standalone</strong> attribute of the XSL <stron
 <br />
 Provides a value for the <strong>version</strong> attribute of the XSL <strong>output</strong> element.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="xslt-encoding-grid-property.md">XSLT Encoding</a></td>
 <td>Custom Header</td>
 <td>Specifies the preferred character encoding that the parser should use to encode sequences of characters as sequences of bytes.<br />
 <br />
 Provides a value for the <strong>encoding</strong> attribute of the XSL <strong>output</strong> element.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="xslt-transform-engine-grid-property.md">XSLT transform engine</a></td>
 <td>Compiler</td>
 <td>Indicates XSLT transform engine to be used in runtime transformation.<br />
 </td>
-</tr>
-<tr class="even">
-<td><a href="use-xsl-transform-grid-property.md">Use XSL Transform</a></td>
-<td>Compiler</td>
-<td>Indicates whether to use legacy .Net <a href="https://docs.microsoft.com/en-us/dotnet/api/system.xml.xsl.xsltransform">XslTransform</a> to achieve XSLT transformation, otherwise <a href="https://docs.microsoft.com/en-us/dotnet/api/system.xml.xsl.xslcompiledtransform">XslCompiledTransform</a> will be used if "False" is selected.<br />
-<br />
-This option will only be used when ".Net Framework" is selected as "XSLT transform engine".</td>
 </tr>
 </tbody>
 </table>

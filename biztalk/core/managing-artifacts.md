@@ -45,7 +45,7 @@ The tracking configuration settings allow you to track the following types of da
   
 ## In this section  
 
--   [Send tracking data to Azure](../core/send-tracking-data-to-azure.md)
+-   [Send tracking data to Azure](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
 
 -   [Configure the operational data feed using Power BI](../core/operational-data-service.md)
   

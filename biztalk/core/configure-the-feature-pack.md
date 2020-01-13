@@ -90,7 +90,7 @@ Using deployment groups, you can deploy your applications to multiple BizTalk Se
 
 The Service Bus adapter supports Service Bus Premium, including sending messages to partitioned queues and topics. [Service Bus Premium and Standard messaging tiers](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-premium-messaging) details more about Service Bus Premium. 
 
-#### [Send tracking data to Azure Event Hubs](../core/send-tracking-data-to-azure.md)
+#### [Send tracking data to Azure Event Hubs](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
 Expanding on the Feature Pack 1 capabilities, you can now send your tracking data to Azure Event Hubs. Support for SQL names instances has also been added.
 
 #### TLS 1.2 support
@@ -110,15 +110,15 @@ Newtonsoft is a JSON framework for .NET. In this feature pack, support for versi
 
 ## Feature Pack 1 updates
 
-#### [Send tracking data to Application Insights](../core/send-tracking-data-to-azure.md)
+#### [Send tracking data to Application Insights](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
 
 Send tracking data to Application Insights to use its features, such as analytics, machine learning, diagnostics, and more. 
 
-#### [Configure the operational data feed using Power BI](../core/fp2016-configure-operational-data-service.md)
+#### [Configure the operational data feed using Power BI](../core/configure-the-operational-data-feed-for-power-bi-with-biztalk-server.md)
 
 Use OData visualization tools like PowerBI to query operational data. For example, get a visual representation of your tracking data from your ports and orchestrations.
 
-#### [Connect to the management REST APIs in BizTalk](../core/fp2016-configure-management-rest-apis.md)
+#### [Connect to the management REST APIs in BizTalk](../core/install-and-configure-the-management-rest-apis-in-biztalk-server.md)
 
 Use REST APIs to remotely manage your BizTalk artifacts, including agreements, suspended instances, unenlisted orchestrations, and more.
 

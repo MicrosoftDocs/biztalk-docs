@@ -25,9 +25,6 @@ The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
   
 [Common Tasks and walkthroughs](https://msdn.microsoft.com/library/cd02757d-48c6-4ba4-b72d-02acd0b1eff1) and [Tutorials](https://msdn.microsoft.com/library/1e404aca-6e25-4189-a0cc-5e9b95194b81) are also a great way to get started.
 
-## Feature Pack 
-**[Configure the feature pack](../core/configure-the-feature-pack.md)** lists the different updates available in the feature pack, including using Application Insights and Power BI for tracking data, automatic deployment with Visual Studio Team Services, and more good stuff. 
-  
 ## Plan and architect your applications
 **[Planning and architecture](../core/plan-and-architect-your-biztalk-server-solution.md)** covers architecture, performance and capacity, high availability, and security. Also read about designing, building, and running two complete model [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solutions: a service-oriented solution, and a business process management solution.
 
