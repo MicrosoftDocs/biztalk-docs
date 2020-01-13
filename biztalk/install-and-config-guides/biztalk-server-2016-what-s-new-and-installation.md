@@ -1,9 +1,9 @@
 ---
 title: "BizTalk Server 2016: What's New, and Installation | Microsoft Docs"
 description: Introduction to what's new, and installing and upgrading to BizTalk Server 2016
-ms.custom: ""
+ms.custom: "biztalk-2020"
 ms.prod: biztalk-server
-ms.date: "08/10/2017"
+ms.date: "01/07/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +18,7 @@ manager: "anneta"
 
 ## Get started with BizTalk Server 2016
 
-[!INCLUDE[bts2016_md](../includes/bts2016-md.md)] is the latest on-premises release. With this new version, you can expect closer integration with Azure using the new Logic Apps adapter, and connect to Azure resources using the File and WCF-SQL adapters. 
+With BizTalk Server 2016, you can expect closer integration with Azure using the new Logic Apps adapter, and connect to Azure resources using the File and WCF-SQL adapters. 
 
 One of the biggest changes is support for SQL Server 2016 AlwaysOn Availability Groups (AG). This support covers using BizTalk Server on-premises, and using BizTalk Server Azure virtual machines. With AlwaysOn, you can now have a highly-available solution using Azure virtual machines.
 

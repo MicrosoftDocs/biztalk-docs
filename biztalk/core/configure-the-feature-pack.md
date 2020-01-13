@@ -1,8 +1,8 @@
 ---
 title: "Configure the feature pack | Microsoft Docs"
 description: Install and configure feature pack 1, and feature pack 2. See the new features list, including API Management, team services deployment, new Azure adapters, backups, and more in BizTalk Server 2016 
-ms.custom: ""
-ms.date: "06/26/2018"
+ms.custom: "biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -90,14 +90,8 @@ Using deployment groups, you can deploy your applications to multiple BizTalk Se
 
 The Service Bus adapter supports Service Bus Premium, including sending messages to partitioned queues and topics. [Service Bus Premium and Standard messaging tiers](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-premium-messaging) details more about Service Bus Premium. 
 
-#### [Use named instances with Application Insights](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
-When you enable Analytics, and enter the Application Insights key, you may get error: 
-
-```
-Group settings were not applied. (A database failure occurred due to database connectivity problems.)
-```
-
-This happens when you use SQL named instances. This is fixed in this feature pack; you can use SQL default instances, and SQL named instances. 
+#### [Send tracking data to Azure Event Hubs](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
+Expanding on the Feature Pack 1 capabilities, you can now send your tracking data to Azure Event Hubs. Support for SQL names instances has also been added.
 
 #### TLS 1.2 support
 
@@ -118,25 +112,25 @@ Newtonsoft is a JSON framework for .NET. In this feature pack, support for versi
 
 #### [Send tracking data to Application Insights](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
 
-Send tracking data to Azure Application Insights to use its features, such as analytics, machine learning, diagnostics, and more. 
+Send tracking data to Application Insights to use its features, such as analytics, machine learning, diagnostics, and more. 
 
 #### [Configure the operational data feed using Power BI](../core/configure-the-operational-data-feed-for-power-bi-with-biztalk-server.md)
 
-Send tracking data to Power BI using oData. For example, get a visual representation of your tracking data from your ports and orchestrations. 
+Use OData visualization tools like PowerBI to query operational data. For example, get a visual representation of your tracking data from your ports and orchestrations.
 
 #### [Connect to the management REST APIs in BizTalk](../core/install-and-configure-the-management-rest-apis-in-biztalk-server.md)
 
 Use REST APIs to remotely manage your BizTalk artifacts, including agreements, suspended instances, unenlisted orchestrations, and more.
 
-#### [Configure advanced scheduling](../core/configure-the-time-zone-and-recurrence-scheduling-in-biztalk-server.md)
+#### [Configure advanced scheduling](../core/how-to-configure-scheduling-for-a-receive-location.md)
 
 Enable advanced scheduling in your receive locations. For example, set the timezone, or set a recurrence service window for a specific day on a specific month.
 
 #### [Configure automatic deployments with VSTS](../core/configure-automatic-deployment-with-visual-studio-team-services-in-biztalk.md)  
 
-Use Visual Studio Team Services (VSTS) to automatically deploy your solutions, or update existing applications. VSTS communicates with an agent installed on the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)].
+Use Visual Studio Team Services (VSTS) to automatically deploy your solutions, or update existing applications. VSTS communicates with an agent installed on the BizTalk Server.
 
-#### [Connect to SQL Server Always Encrypted columns with BizTalk Server](../core/connect-to-sql-server-always-encrypted-columns-with-biztalk-server.md)  
+#### [Connect to SQL Server Always Encrypted columns with BizTalk Server](../adapters-and-accelerators/adapter-sql/key-features-in-biztalk-adapter-for-sql-server.md)  
 
 Use the WCF-SQL adapter to query encrypted columns from an Always Encrypted database in SQL Server.
 

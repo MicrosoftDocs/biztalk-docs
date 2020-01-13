@@ -6,8 +6,8 @@ manager: "anneta"
 
 ms.prod: "biztalk-server"
 
-ms.custom: ""
-ms.date: "04/25/2018"
+ms.custom: "biztalk-2020"
+ms.date: "01/06/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,7 +17,7 @@ caps.latest.revision: 11
 ms.author: "mandia"
 ---
 
-# Set up and install prerequisites for BizTalk Server 2016
+# Set up and install prerequisites for BizTalk Server 2020
 
 Set up the server, and install and configure the software prerequisites.
 
@@ -81,24 +81,22 @@ BizTalk Server setup keeps a record of events in the Application Event Log. Depe
 
 4. Select **OK**.
 
-## Edge can’t be opened (optional)
-
-When using Edge, the following message displays:  
-`Microsoft Edge can't be opened using the Built-in Administrator account. Sign in with a different account and try again.`
-
-To allow Edge to open using the built-in administrator account:
-
-1. In the Start menu, open **Local Security Policy**. Or, open **Server Manager**, select **Tools**, and then select **Local Security Policy**.
-2. Expand **Local Policies**, and select **Security Options**. 
-3. Go to the **User Account Control: Admin Approval Mode for the Built-in Administrator account** policy, and **Enable** the policy. 
-4. Select **OK**, and restart your computer.
-
 ## Install Windows Updates
 
 Be sure to install the latest critical Windows updates. 
 
 1. On the Start menu, open **Windows Updates**, and check for updates. You can also open **Settings**, and select **Update and security**.
 2. After installing updates, you may need to restart the computer.
+
+## Install Visual C++ 2015-2019 redistributable package
+
+Download and install the [Visual C++ 2015-2019 redistributable package - x86](https://aka.ms/vs/16/release/VC_redist.x86.exe) and [Visual C++ 2015-2019 redistributable package - x64](https://aka.ms/vs/16/release/VC_redist.x64.exe).
+
+The [Visual C++ downloads](https://support.microsoft.com/help/2977003/the-latest-supported-visual-c-downloads) lists all the available versions.
+
+## Install Microsoft OLE DB Driver for SQL Server
+
+Download and install the [Microsoft OLE DB Driver for SQL Server](https://docs.microsoft.com/sql/connect/oledb/oledb-driver-for-sql-server?view=sql-server-ver15).
 
 ## Enable IIS
 
@@ -108,6 +106,7 @@ BizTalk Server requires IIS for the following features:
 - SOAP adapter
 - Windows SharePoint Services adapter
 - Secure Sockets Layer (SSL) encryption
+- Management REST API
 - BAM Portal
 - EDI
 
@@ -140,9 +139,6 @@ IIS is included with the operating system as a **Role** or a **Feature**, depend
 
 3. Continue with the installation, and restart the computer if prompted. 
 
-**SEE ALSO** : Install IIS on [Windows 8 or Windows Server 2012](http://www.iis.net/learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012).
-
-
 ## Run 64-bit BAM portal (optional)
 
 If you don't use the BAM portal, then you can skip this section. 
@@ -174,6 +170,10 @@ Windows Identity Foundation is included with the operating system as a **Feature
 2. Select **Windows Identity Foundation 3.5**, and continue with the installation. 
 3. Restart the computer if prompted.
 
+## Install SQL Server 2016 Analysis Services ADOMD.NET
+
+Download and install x86 and x64 SQL_AS_ADOMD from [Microsoft SQL Server 2016 Feature Pack download](https://www.microsoft.com/download/details.aspx?id=52676).
+
 ## Install & configure SMTP Server (optional)
 
 If you use BAM Alerts, BizTalk Server requires SMTP Server. If you don't use BAM Alerts, you can skip this section.
@@ -186,7 +186,7 @@ SMTP Server is included with server operating systems as a **Feature**.
 2. Select **SMTP Server**, and continue with the installation. 
 3. Restart the computer if prompted.
 
-## Install Excel 2016 or 2013 (optional)
+## Install Excel 2019 or 2016 (optional)
 
 If you use Business Activity Monitoring (BAM), BizTalk Server requires Excel. If you don't use BAM, you can skip this section.
 
@@ -196,62 +196,7 @@ The BAM Office Excel Workbook defines the business processes you want to monitor
 > * BizTalk Server supports only 32-bit version of Microsoft Office. 
 > * To successfully load BAM.xla into Excel, install **Visual Basic for Applications** (under **Office Shared Features**). Otherwise, you may get error: `This workbook has lost its VBA project, ActiveX controls and any other programmability-related features.`
 
-#### Install Excel 2016
-
-Office 2016 is installed using "Click-to-Run" or "C2R Installer". The C2R installation downloads and installs all programs within Office. For BAM, we only need Excel. To work around this, download and install the [Office 2016 Deployment Tool](https://www.microsoft.com/download/details.aspx?id=49117) to customize the C2R installer.
-
-1. Download and install the [Office 2016 Deployment Tool](https://www.microsoft.com/download/details.aspx?id=49117).
-2. In the folder with the Office 2016 Deployment Tool files you extracted, open the **configuration.xml** file with a text editor, such as notepad.
-3. Replace the `<Configuration>` section with the following:  
-
-    ```xml
-    <Configuration>
-    <Add SourcePath="D:\" OfficeClientEdition="32">
-    <Product ID="O365ProPlusRetail" >
-      <Language ID="en-us" />
-      <ExcludeApp ID="Access" />
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="InfoPath" />
-      <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="OneDrive" />
-      <ExcludeApp ID="OneNote" />
-      <ExcludeApp ID="Outlook" />
-      <ExcludeApp ID="PowerPoint" />
-      <ExcludeApp ID="Project" />
-      <ExcludeApp ID="Publisher" />
-      <ExcludeApp ID="SharePointDesigner" />
-      <ExcludeApp ID="Visio" />
-      <ExcludeApp ID="Word" />
-    </Product>
-    </Add>
-    </Configuration>
-    ```
-
-    Replace “SourcePath” with the location of your Office 2016 ISO file.
-4. In the folder with the Office 2016 Deployment Tool files, hold down the **SHIFT** key, and right-click an empty area in the folder. Select **Open command window here**. 
-5. Start the Excel installation by entering the following:  
-  `setup.exe /configure configuration.xml`
-
-    > [!TIP]
-    > `setup.exe /download configuration.xml` downloads the required office setup files.
- 
-6. Select Excel, and continue with the installation. 
- 
-**SEE ALSO** : [Configuration options for the Office Deployment Tool](https://technet.microsoft.com/library/jj219426.aspx) and [Install Office 2016 or 2013](https://support.office.com/article/Install-Office-on-your-PC-or-Mac-4414eaaf-0478-48be-9c42-23adc4716658)
-
-#### Install Excel 2013
-
-1. Run the Microsoft Office setup.
-2. Select a **Custom Install**, and select Excel.
-3. Continue with the installation.   
-
-## Install Visual C++ redistributable package
-
-Download and install the [Visual C++ redistributable package](https://support.microsoft.com/help/3179560/update-for-visual-c-2013-and-visual-c-redistributable-package). The 2013 version is required, even though Visual Studio 2015 is used.
-
-The [Visual C++ downloads](https://support.microsoft.com/help/2977003/the-latest-supported-visual-c-downloads) lists all the available versions.
-
-## Install Visual Studio 2015 (optional)
+## Install Visual Studio 2019 (optional)
 
 BizTalk Server requires Visual Studio to create BizTalk projects using the development tools. If this is a staging or production server, or you're not doing any BizTalk development, then skip this section.
 
@@ -259,58 +204,38 @@ Visual Studio Enterprise Edition is recommended, but Professional and Community 
 
 1. Run the Visual Studio setup as Administrator.
 2. Select a **Default** installation. BizTalk Server does not require any of the optional features.
-
-    > [!NOTE]
-    > If you use Visual Studio for more than BizTalk projects, then select the **Custom** installation to install other features. Some commonly-used features include Microsoft Web Developer Tools, Microsoft Office Developer Tools, PowerShell Tools for Visual Studio, and ClickOnce Publishing Tools.
- 
 3. Continue with the installation, and restart your computer if prompted.
 
-**SEE ALSO** : [Installing Visual Studio](https://msdn.microsoft.com/library/e2h7fzkw.aspx)
+**SEE ALSO** : [Installing Visual Studio 2019](https://docs.microsoft.com/visualstudio/install/install-visual-studio?view=vs-2019)
 
 > [!IMPORTANT]
-> - If you install Visual Studio before installing BizTalk Server, and then upgrade to Visual Studio Team Explorer, you may need to repair your BizTalk Server installation.
-> - Visual Studio automatically installs Microsoft SQL Server Express; which is not used by BizTalk Server. Uninstall Microsoft SQL Server Express. You can also uninstall Microsoft SQL Server Compact.  
-> - The BizTalk Server development tools are based on Visual Studio. At a minimum, install the Microsoft Visual C#® .NET component before you install the BizTalk Server Developer Tools and SDK.
-> - The BizTalk Server runtime requires .NET Framework 4.6. If the Windows Communication Foundation (WCF) adapter or WCF Interceptor is installed, then .NET Framework 3.0 is required
+> - The BizTalk Server development tools are based on Visual Studio. At a minimum, install the .NET desktop development workload before you install the BizTalk Server Developer Tools/SDK and BizTalk Server extension.
+> - The BizTalk Server runtime requires .NET Framework 4.7.2 or higher.
 
-#### Uninstall SQL Server Express
-
-1. In the Start menu, open **Programs and Features**. Or, open the **Control Panel**, and select **Uninstall a program**.
-2. Uninstall: 
-    - Microsoft SQL Server 2014 Express LocalDb
-    - Microsoft SQL Server Compact 4.0 SP1 x64 ENU
-    - Microsoft SQL Server 2016 LocalDB (SQL Server 2016 Express LocalDB)
-
-3. Continue with the uninstall, and restart your computer if prompted. 
-
-## Install SQL Server 2016
+## Install SQL Server
 
 BizTalk Server requires SQL Server. SQL Server can be installed on the same computer as BizTalk, or on a different computer. Most production environments install BizTalk and SQL on separate servers. 
 
 > [!IMPORTANT]
 > - SQL Server Express Edition is not recommended or supported. The Express edition does not include certain features needed by BizTalk Server.
 > - BizTalk Server supports SQL Standard Edition. However, to use Business Activity Monitoring real-time aggregation (BAM RTA), install SQL Server Enterprise Edition. BAM real-time aggregation (RTA) is not supported in the Standard Edition of SQL Server.
-> - To fully use the BizTalk Server SDK or deploy BizTalk Server applications from a Visual Studio, install the SQL Server Development Tools.
 > - BizTalk Server supports all case-sensitive and case-insensitive SQL Server collations except for binary collations. Binary collations are not supported.
 
-**For specific install steps, see** [Install SQL Server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup) or [Install SQL Server 2014](https://msdn.microsoft.com/library/bb500469(v=sql.120).aspx).
+**For specific install steps, see** [Install SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup).
 
 1. Start the SQL Server installation. 
 2. During the Feature setup, select the following:
    - Database Engine Services
-       - SQL Server Replication
-       - R Services (in-Database) (**optional**; info at [SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services))
-       - Full-Text and Semantic Extractions for Search
    - Analysis Services
-   - Reporting Services - Native
    - Shared Features
-       - Client Tools Connectivity
-       - Integration Services
+      - Client Tools Connectivity
+      - Integration Services
 
-     > [!NOTE]
-     > **SQL Server Data Tools** is not included in the default installation of SQL Server. It isn't required, but can be downloaded at [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt). Download [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) that works with all supported versions of SQL Server, including Azure SQL Database. However, to connect to remote SSIS when using BAM, you need to install the same version of SSMS as the destination SSIS server. For example, [install SSMS 16.*x*](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases) to install the related drivers to connect to SQL 2016 SSIS. SSMS 17.*x* cannot connect to SQL 2016 SSIS. You can have multiple versions of SSMS installed. 
+3. Configure Analysis Services in Multidimensional Mode. Default is Tabular Mode, make sure to change it to Multidimensional Mode in SQL Server installation wizard before continuing with installation.
 
-3. Continue with the installation, and restart the computer if prompted.
+    ![sqlasconfiguration](../install-and-config-guides/media/sqlasconfiguration.png)
+
+4. Continue with the installation, and restart the computer if prompted.
 
 ## Disable Shared Memory
 
@@ -322,15 +247,6 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
 
 Typically, the Shared Memory protocol only impacts clients (BizTalk Server) that are installed on the same computer as SQL Server. Under certain stress conditions (such as clients accessing SQL Server from the same computer), the SQL Server Shared Memory protocol may lower BizTalk Server performance. Disabling the Shared Memory network protocol resolves this.
 
-> [!TIP]
-> If SQL Server Agent fails to start after disabling Shared Memory, then confirm 
-> [ODBC Driver 13.1 for SQL Server](https://www.microsoft.com/download/details.aspx?id=53339) is installed.
-
-## Install SQL XML 4
-Required for BizTalk Server Runtime, Administrative Tools, and BAM. 
-
-Download and install [SqlXml 4.0](https://www.microsoft.com/download/details.aspx?id=30403).
-
 ## Configure SQL Database Mail (optional)
 If you use BAM Alerts, BizTalk Server requires SQL Server Database Mail. If you don't use BAM Alerts, then skip this section. 
 
@@ -340,8 +256,7 @@ If you use BAM Alerts, BizTalk Server requires SQL Server Database Mail. If you 
 > - You need to know the server name and TCP port number for the SMTP Server. If you installed IIS and SMTP Server on this same computer, then you use the local SMTP Server. If the SMTP server requires authentication, then have the user name and password ready.
 > - The BAM portal and BAM Alerts are separate features. If you are using BAM Alerts, then SQL Server Database Mail is required. If you are not using BAM Alerts, then SQL Server Database Mail is not required.
 
-**For specific configuration steps, see**: Configure [SQL Server 2016 Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail) or [SQL Server 2014 Database Mail](https://msdn.microsoft.com/library/hh245116(v=sql.120).aspx).
-
+**For specific configuration steps, see**: Configure [SQL Server Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail).
    
 To send a test email: 
 1. Right-click **Database Mail**, and select **Send Test E-Mail**. 
@@ -349,12 +264,19 @@ To send a test email:
  
 If the **To:** recipient receives the email, then Database Mail is configured. 
 
+## Create the SSIS Catalog (optional)
+If you use BAM, BizTalk Server requires SSIS Catalog to be created. If you don't use BAM, then skip this section.
+
+**SEE ALSO** : More on [SSIS Catalog](https://docs.microsoft.com/sql/integration-services/catalog/ssis-catalog).
+
+**For specific steps to create the SSIS Catalog, see**: [Create the SSIS Catalog](https://docs.microsoft.com/sql/integration-services/create-the-ssis-catalog).
+
 ## Install WinSCP (optional)
 
-Required by the FTP adapter. If you don't use the FTP adapter, then skip this section. 
+Required by the SFTP adapter. If you don't use the SFTP adapter, then skip this section. 
 
 Download and install [WinSCP](http://winscp.net). 
 
 ## Next step
 
-Install [BizTalk Server 2016](../install-and-config-guides/install-biztalk-server-2016.md).
+Install [BizTalk Server 2020](../install-and-config-guides/install-biztalk-server-2020.md).

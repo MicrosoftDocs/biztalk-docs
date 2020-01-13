@@ -4,7 +4,8 @@ TOCTitle: XML Disassembler Pipeline Component Properties
 ms:assetid: bec76e08-3a06-43ff-b22f-3c71f00f7783
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578415(v=BTS.80)
 ms:contentKeyID: 51531004
-ms.date: 08/30/2017
+ms.date: 01/07/2020
+ms.custom: biztalk-2020
 mtps_version: v=BTS.80
 f1_keywords:
 - Microsoft.BizTalk.Component.XmlDasmComp
@@ -47,18 +48,24 @@ Default Value: False</td>
 Default value: Empty collection (Collection)</td>
 </tr>
 <tr class="odd">
+<td><strong>DTD Processing</strong></td>
+<td>Indicate whether to allow DTD processing within the pipeline. Valid values are: Parse, Ignore, Prohibit. This property is available <b>BizTalk Server 2020</b> onwards. <br />
+<br />
+Default value: empty</td>
+</tr>
+<tr class="even">
 <td><strong>Envelope schemas</strong></td>
 <td>Indicate the namespace and typename of the schema or schemas to be applied to the envelope. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
 <br />
 Default value: Empty collection (Collection)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Recoverable interchange processing</strong></td>
 <td>Indicate whether to process messages within an interchange individually. For more information, see <a href="https://msdn.microsoft.com/library/aa578714(v=bts.80)">Recoverable Interchange Processing</a>.<br />
 <br />
 Default Value: False</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Validate document structure</strong></td>
 <td>Perform a validation of the incoming message against document and optionally envelope schemas, when set to True.<br />
 <br />
