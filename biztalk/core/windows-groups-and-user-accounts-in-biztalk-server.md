@@ -1,7 +1,7 @@
 ---
 title: "Windows Groups and User Accounts in BizTalk Server | Microsoft Docs"
-ms.custom: ""
-ms.date: "09/27/2018"
+ms.custom: "biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

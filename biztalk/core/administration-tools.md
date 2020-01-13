@@ -1,8 +1,8 @@
 ---
 title: "Administrative and performance tools | Microsoft Docs"
 description: Common tools to manage tasks, performance, and tracing in BizTalk Server
-ms.custom: ""
-ms.date: "11/29/2017"
+ms.custom: "biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

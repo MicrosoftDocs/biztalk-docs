@@ -61,7 +61,7 @@ Azure Blob storage is Microsoft's object storage solution for the cloud, which i
 
     When finished, your properties look similar to the following: 
 
-    ![Send General properties](../core/media/BlobAdapter-send-General.png)
+    ![Send General properties](../core/media/blob-adapter-send-general.png)
 
 5. Configure the **Advanced** properties:
 
@@ -126,7 +126,7 @@ You can use a simple File receive port and location to send messages to your Azu
 
     When finished, your properties look similar to the following: 
 
-    ![Receive General properties](../core/media/BlobAdapter-receive-General.png)
+    ![Receive General properties](../core/media/blob-adapter-receive-general.png)
 
 6. Configure the **Advanced** properties: 
 

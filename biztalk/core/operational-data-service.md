@@ -2,7 +2,7 @@
 title: "Operational Data Service | Microsoft Docs"
 description: Operational Data Service 
 ms.custom: "biztalk-2020"
-ms.date: "1/7/2020"
+ms.date: "01/07/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

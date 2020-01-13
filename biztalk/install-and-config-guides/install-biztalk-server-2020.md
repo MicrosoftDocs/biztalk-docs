@@ -62,7 +62,7 @@ Install BizTalk Server on a single computer.
 
 8. To complete **Developer Tools** component installation, install **BizTalk Server extension** in **Visual Studio**.
 
-    ![BizTalkServer_extension](../install-and-config-guides/media/BizTalkServer-extension.PNG)
+    ![BizTalkServer_extension](../install-and-config-guides/media/biztalk-server-extension.png)
 
 9. To configure BizTalk now, check **Launch BizTalk Server Configuration**. If you don't want to configure BizTalk now, then uncheck this option, and select **Finish** to close the installation wizard. 
 

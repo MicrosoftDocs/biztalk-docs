@@ -4,7 +4,7 @@ description: Configure and use BizTalk Server with group managed service account
 author: msjaydeep
 ms.author: jaah
 manager: dougeby
-ms.date: 01/03/2019
+ms.date: 01/03/2020
 ms.topic: config
 ms.prod: biztalk-server
 
@@ -16,7 +16,7 @@ ms.reviewer:
 ms.suite:
 ms.tgt_pltfrm:
 ms.assetid: 
-ms.custom: 
+ms.custom: "biztalk-2020"
 ---
 
 # Using Group Managed Service Account for BizTalk Server Features

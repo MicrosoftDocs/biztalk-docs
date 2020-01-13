@@ -1,8 +1,8 @@
 ---
 title: "Use the Office 365 Outlook Email adapter | Microsoft Docs"
 description: Send and receive email messages using the Office 365 Outlook Email adapter in BizTalk Server. To do this, create a receive port and send port using the email adapter, and use sample messages to test your ports. 
-ms.custom: ""
-ms.date: "06/25/2018"
+ms.custom: "biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

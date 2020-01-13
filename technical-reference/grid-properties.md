@@ -5,6 +5,7 @@ ms:assetid: 0478cd4a-3786-4b90-9e37-6dc64797e018
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa546825(v=BTS.80)
 ms:contentKeyID: 51525949
 ms.date: 12/27/2019
+ms.custom: biztalk-2020
 mtps_version: v=BTS.80
 ---
 

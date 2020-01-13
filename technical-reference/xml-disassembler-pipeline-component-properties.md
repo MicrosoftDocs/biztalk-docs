@@ -5,7 +5,7 @@ ms:assetid: bec76e08-3a06-43ff-b22f-3c71f00f7783
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578415(v=BTS.80)
 ms:contentKeyID: 51531004
 ms.date: 01/07/2020
-ms.custom: "biztalk-2020"
+ms.custom: biztalk-2020
 mtps_version: v=BTS.80
 f1_keywords:
 - Microsoft.BizTalk.Component.XmlDasmComp

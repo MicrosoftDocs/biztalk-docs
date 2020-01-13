@@ -1,8 +1,8 @@
 ---
 title: "Install and configure the management REST APIs | Microsoft Docs"
 description: Query the artifacts in your BizTalk environment using management data REST APIs with Feature Pack in BizTalk Server
-ms.custom: "fp1"
-ms.date: "02/25/2019"
+ms.custom: "fp1, biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

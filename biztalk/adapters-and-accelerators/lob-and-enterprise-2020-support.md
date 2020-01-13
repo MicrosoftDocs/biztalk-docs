@@ -6,7 +6,7 @@ description: Details of Line-of-Business (LOB) and Enterprise systems supported 
 author: msjaydeep
 ms.author: jaah
 manager: dougeby
-ms.date: 01/09/2019
+ms.date: 01/09/2020
 ms.topic: support-metrics
 ms.prod: biztalk-server
 

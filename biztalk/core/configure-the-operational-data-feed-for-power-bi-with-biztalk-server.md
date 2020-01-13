@@ -4,7 +4,7 @@ description: Configure Operational Data Service in BizTalk Server 2016 Feature P
 author: "Elvis-Shi"
 ms.author: "elsh"
 manager: "dougeby"
-ms.date: "1/7/2019"
+ms.date: "01/07/2020"
 ms.topic: conceptual
 ms.prod: biztalk-server
 
@@ -16,7 +16,7 @@ ms.reviewer:
 ms.suite:
 ms.tgt_pltfrm:
 ms.assetid: 
-ms.custom: "biztalk-2016fp"
+ms.custom: "fp1, biztalk-2020"
 
 ---
 

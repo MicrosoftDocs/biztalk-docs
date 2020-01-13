@@ -1,7 +1,7 @@
 ---
 title: "Managing BizTalk Server Security | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
+ms.custom: "biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

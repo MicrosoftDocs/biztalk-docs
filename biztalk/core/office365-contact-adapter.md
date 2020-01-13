@@ -1,8 +1,8 @@
 ---
 title: "Use the Office 365 Outlook Contact adapter | Microsoft Docs"
 description: Send messages using the Office 365 Outlook Contact adapter in BizTalk Server. To do this, create a send port using the Outlook adapter, and use a sample XML message to create a contact in Office 365 Outlook account.
-ms.custom: ""
-ms.date: "06/25/2018"
+ms.custom: "biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

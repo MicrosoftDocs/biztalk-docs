@@ -7,7 +7,7 @@ manager: "anneta"
 ms.prod: "biztalk-server"
 
 ms.custom: ""
-ms.date: "04/25/2018"
+ms.date: "01/10/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -1,7 +1,7 @@
 ---
 title: "BizTalk Server core documentation | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/30/2017"
+ms.custom: "biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
