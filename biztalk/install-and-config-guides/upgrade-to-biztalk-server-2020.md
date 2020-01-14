@@ -240,7 +240,7 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 3. In Start, select **Install Microsoft BizTalk Server**.
 4. In **Customer Information**, enter your user name, organization, and product key. Select **Next**.
 5. Accept the license agreement, and select **Next**.
-6. In Customer Experience Improvement Program, enter your preference. See **Appendix A** (in this topic) for more information.
+6. In Customer Experience Improvement Program, enter your preference. See [Appendix A](#appendix-a-customer-experience-improvement-program) (in this article) for more information.
 7. In **Component Installation**, review the available components, and select **Next**.
 8. In **Summary**, review the upgradable components.
 9. Select **Upgrade** to start.
@@ -249,7 +249,7 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 
 **ADDITIONAL**
 
-A lot happens during an upgrade of BizTalk Server, and it’s not uncommon to run into an error during the process. However, most errors are easily remedied if you’re prepared. We recommend reading the **Appendix B** (in this topic) for tips on how to avoid upgrade errors, and what to do if one occurs.
+A lot happens during an upgrade of BizTalk Server, and it’s not uncommon to run into an error during the process. However, most errors are easily remedied if you’re prepared. We recommend reading the [Appendix B](#appendix-b-known-issues) (in this article) for tips on how to avoid upgrade errors, and what to do if one occurs.
 
 The upgrade process only upgrades features that were part of your previous version of BizTalk Server. New features are not installed during an upgrade. To install these features, rerun Setup after the upgrade, choose **Modify**, and select the features you want to install. Once installed, configure them using the **BizTalk Server Configuration Manager**.
 

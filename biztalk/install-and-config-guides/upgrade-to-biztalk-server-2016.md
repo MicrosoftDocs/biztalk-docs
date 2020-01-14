@@ -13,7 +13,9 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
+
 # Upgrade to BizTalk Server 2016
+
 Upgrading to [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] from [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)], or BizTalk Server 2013.
 
 This topic provides an overview of the [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] upgrade process, key information, and step-by-step instructions for upgrading from BizTalk Server 2013 R2 or BizTalk Server 2013.
@@ -183,6 +185,7 @@ In a multicomputer environment, upgrade the SSO master secret server computer. T
 4. Development and any other remaining computers that are running BizTalk Server
 
 **Additional**
+
 Using the Settings Dashboard, you can extensively tweak BizTalk Server settings for performance optimization. You can also modify settings for the BizTalk Group, BizTalk Host, and BizTalk Host Instance. See [Using Settings Dashboard for BizTalk Server Performance Tuning](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md).
 
 ### General information
@@ -241,7 +244,7 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 3. In Start, select **Install Microsoft BizTalk Server**.
 4. In **Customer Information**, enter your user name, organization, and product key. Select **Next**.
 5. Accept the license agreement, and select **Next**.
-6. In Customer Experience Improvement Program, enter you preference. See **Appendix A** (in this topic) for more information.
+6. In Customer Experience Improvement Program, enter you preference. See [Appendix A](#appendix-a-customer-experience-improvement-program) (in this article) for more information.
 7. In **Component Installation**, review the available components, and select **Next**.
 8. If your computer is missing a prerequisite, Setup can install the redistributable prerequisites. You can either:
 
@@ -257,7 +260,8 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 12. In **Upgrade Completed**, clear the L**aunch BizTalk Server Configuration** check box, and then select **Finish**.
 
 **ADDITIONAL**
-A lot happens during an upgrade of BizTalk Server, and it’s not uncommon to run into an error during the process. However, most errors are easily remedied if you’re prepared. We recommend reading the **Appendix B** (in this topic) for tips on how to avoid upgrade errors, and what to do if one occurs.
+
+A lot happens during an upgrade of BizTalk Server, and it’s not uncommon to run into an error during the process. However, most errors are easily remedied if you’re prepared. We recommend reading [Appendix B](#appendix-b-known-issues) (in this article) for tips on how to avoid upgrade errors, and what to do if one occurs.
 
 The upgrade process only upgrades features that were part of your previous version of BizTalk Server. New features are not installed during an upgrade. To install these features, rerun Setup after the upgrade, choose **Modify**, and select the features you want to install. Once installed, configure them using the **BizTalk Server Configuration Manager**.
 

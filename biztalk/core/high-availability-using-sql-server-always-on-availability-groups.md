@@ -2,7 +2,7 @@
 title: High Availability using SQL Server Always On Availability Groups | Microsoft Docs
 description: Group the BizTalk Server database on different nodes to get a highly available (HA) solution using SQL Server Always On Available Groups (AG), including the system requirements and limitations. Always On AG requires Windows Server Failover Clustering (WSFC).
 ms.custom: "biztalk-2020"
-ms.date: "01/13/2020"
+ms.date: "01/14/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -41,8 +41,9 @@ Starting with SQL Server 2016, SQL Server AlwaysOn Availability Groups supports 
 Deploying AlwaysOn Availability Groups requires a Windows Server Failover Clustering (WSFC) cluster. Each availability replica of a given availability group must reside on a different node of the same WSFC cluster. A WSFC resource group is created for every availability group that you create. The WSFC cluster monitors this resource group to evaluate the health of the primary replica.  
 
 The following illustration shows an availability group that contains one primary replica and four secondary replicas.  
- 
-![SQLAG_PrimaryReplica](../core/media/sqlag-primaryreplica.png)
+
+> [!div class="mx-imgBorder"]
+> ![Primary replica in SQL AlwaysOn availability group with BizTalk Server](../core/media/sqlag-primaryreplica.png)
 
 Clients can connect to the primary replica of a given availability group using an availability group listener. An availability group listener provides a set of resources that are attached to a given availability group to direct client connections to the appropriate availability replica. 
 
@@ -111,22 +112,23 @@ The following SQL Server Agent jobs are associated with BizTalk Server. The jobs
 
 Unlike SQL Failover Clustering Instances, in Availability Groups all replicas are active, running, and available. When SQL Agent jobs are duplicated on each replica for failover, they run against the corresponding replica, irrespective of whether it is currently in primary role or secondary role. To make sure these jobs are executed only on the current primary replica, every step in every job must be enclosed within an IF block, as shown: 
 
-    ```sql
-    IF (sys.fn_hadr_is_primary_replica(‘dbname’) = 1)  
-    BEGIN  
-    …  
-    END
-    ```
+```sql
+IF (sys.fn_hadr_is_primary_replica(‘dbname’) = 1)  
+BEGIN  
+…  
+END
+```
   
 Replace `‘dbname’` with the corresponding database name against which the job is configured to run. The following example shows this change for TrackedMessages_Copy_BizTalkMsgBoxDb on BizTalkMsgBoxDb: 
- 
-![SQLAG_AgentJob](../core/media/sqlag-agentjob.gif)
+
+> [!div class="mx-imgBorder"]
+> ![Change the name of the SQL Agent job in AlwaysOn Availability group with BizTalk Server](../core/media/sqlag-agentjob.gif)
 
 ### Configure BizTalk when Availability Groups are already set up
 
 1. Check your OS requirements: 
-2. On all **Windows Server 2012 R2** computers, install the [3090973 MSDTC hotfix](https://support.microsoft.com/kb/3090973) (opens a KB article)
-3. On all **Windows Server 2016** computers, enable the [RemoteAccessEnabled registry key](https://support.microsoft.com/kb/3182294) (opens a KB article)
+    - On all **Windows Server 2012 R2** computers, install the [3090973 MSDTC hotfix](https://support.microsoft.com/kb/3090973) (opens a KB article).
+    - On all **Windows Server 2016** computers, enable the [RemoteAccessEnabled registry key](https://support.microsoft.com/kb/3182294) (opens a KB article).
 4. Create the required Availability Groups. Make sure the Availability Groups are created with the **Per Database DTC Support** option.
 5. When configuring BizTalk Server and specifying the SQL server name, use the Availability Group’s listener name instead of the actual machine name. This creates the BizTalk databases, logins, and SQL Agent jobs on the current primary replica. 
 6. Stop BizTalk processing (Host Instances, SSO Service, IIS, Rules Engine Update Service, BAMAlerts Service, and so on), and stop the SQL Agent Jobs. 
@@ -142,8 +144,8 @@ This configuration can also be done using the SQL Instances hosting the primary 
 ### Move existing BizTalk databases to Availability Groups
 
 1. Check your OS requirements: 
-2. On all **Windows Server 2012 R2** computers, install the [3090973 MSDTC hotfix](https://support.microsoft.com/kb/3090973) (opens a KB article)
-3. On all **Windows Server 2016** computers, enable the [RemoteAccessEnabled registry key](https://support.microsoft.com/kb/3182294) (opens a KB article)
+    - On all **Windows Server 2012 R2** computers, install the [3090973 MSDTC hotfix](https://support.microsoft.com/kb/3090973) (opens a KB article)
+    - On all **Windows Server 2016** computers, enable the [RemoteAccessEnabled registry key](https://support.microsoft.com/kb/3182294) (opens a KB article)
 4. Create the required Availability Groups. Be sure the Availability Group are created with **Per Database DTC Support** option.  
 5. Stop BizTalk processing and SQL Agent Jobs. 
 6. Perform full backup of all BizTalk Databases. 
@@ -157,9 +159,9 @@ This configuration can also be done using the SQL Instances hosting the primary 
  
         64-bit computer: `%SystemRoot%\Program Files (x86)\Microsoft BizTalk Server 20xx\Bins32\Schema\Restore`
  
-            1. Replace "SourceServer" with the source server name (old SQL Server hosting old databases).  
-            2. Replace "DestinationServer" with the name of the destination server, which should be the availability group listener name.  
-            3. If you have the BAMAnalysis, BAM databases or RuleEngineDB, uncomment the appropriate sections. 
+        1. Replace "SourceServer" with the source server name (old SQL Server hosting old databases).  
+        2. Replace "DestinationServer" with the name of the destination server, which should be the availability group listener name.  
+        3. If you have the BAMAnalysis, BAM databases or RuleEngineDB, uncomment the appropriate sections. 
 
     3. Open a command prompt, and go to: 
  
@@ -236,11 +238,11 @@ If the BizTalk Server databases are unavailable, then an in-process instance of 
 
 If the BizTalk Server databases are unavailable, then an isolated instance of a BizTalk Server host pauses, and an error similar to the following is generated in the BizTalk Server Application log: 
 
-    All receive locations are being temporarily disabled because either the MessageBox or Configuration database is not available. When these databases become available, the receive locations will be automatically enabled.
- 
+`All receive locations are being temporarily disabled because either the MessageBox or Configuration database is not available. When these databases become available, the receive locations will be automatically enabled.`
+
 Once the connection to the SQL Server databases is restored, an informational message similar to the following is written to the BizTalk Server Application log, and then document processing resumes normally: 
 
-    All receive locations are being enabled because both the MessageBox and Configuration databases are back online.
+`All receive locations are being enabled because both the MessageBox and Configuration databases are back online.`
 
 #### Log Shipping for Disaster Recovery 
 

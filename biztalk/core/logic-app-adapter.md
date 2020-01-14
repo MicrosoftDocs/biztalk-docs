@@ -2,7 +2,7 @@
 title: "Use Logic App adapter in BizTalk Server| Microsoft Docs"
 description: Install and configure the Logic Apps adapter to create a receive port, receive location, and send port in BizTalk Server
 ms.custom: "biztalk-2020"
-ms.date: "01/13/2020"
+ms.date: "01/14/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -43,9 +43,6 @@ Starting with BizTalk Server 2020, the Logic App adapter is included with the Bi
 
 ### BizTalk Server 2016
 
-> [!NOTE]
-> This section applies to **BizTalk Server 2016 only**.
-
 1. On your BizTalk Server, download and install the Logic App adapter:
    - Go to [Microsoft BizTalk Server Adapter for Logic Apps](https://www.microsoft.com/download/details.aspx?id=54287), and save.
    - Open the LogicAppAdapter.iso, and run the **LogicApp Adapter.msi** file to install.
@@ -73,7 +70,7 @@ There are a few steps involved for BizTalk Server to receive messages from a log
 - If BizTalk Server is installed on an Azure VM, and the VM is not exposed as an HTTP endpoint, then install and configure the [on-premises data gateway](https://azure.microsoft.com/documentation/articles/app-service-logic-gateway-install/) for Logic Apps. Then, in Azure, [create the data gateway resource](https://azure.microsoft.com/documentation/articles/app-service-logic-gateway-connection/) to connect to your BizTalk Server.
 - If BizTalk Server is installed on an Azure VM, and the VM is exposed as an HTTP endpoint, then the gateway is not needed or used. 
 
-### Using the NullAdapter and Logic App Adapter together
+### Using the NullAdapter and Logic App Adapter together - BizTalk Server 2016 only
 
 If you install the Logic App Adapter and the NullAdapter, you may see the following error:
 
@@ -99,6 +96,11 @@ You can run the IIS applications using a new application pool, or an existing ap
 
 The URL of this IIS application is used by the BizTalk Connector (in your logic app) to use the data gateway on your BizTalk Server.
 
+#### BizTalk Server 2020 and newer
+
+1. Configure the REST APIs using the BizTalk Configuration Wizard. For help with configuration, please refer to the [Configuration Guide](../install-and-config-guides/configure-biztalk-server.md). For more details about the REST APIs, please refer to the [BizTalk REST API Reference](https://docs.microsoft.com/rest/api/biztalk)
+2. Open a web browser, and go to `http://localhost/BizTalkManagementService/Schemas`. Either a list of schemas display, or you are prompted to open/save `schemas.json`. The actual result depends on your web browser. If neither of these happens, then please check your REST API configuration.
+
 ##### BizTalk Server 2016
 
 1. Open the Internet Information Services (IIS) Manager.
@@ -111,11 +113,6 @@ The URL of this IIS application is used by the BizTalk Connector (in your logic 
 
 3. Select **OK** to save your changes.
 4. Open a web browser, and go to `http://localhost/YourApplicationAlias/schemas?api-version=2016-10-26`, such as `http://localhost/IISLogicApp/Schemas?api-version=2016-10-26`. Either a list of schemas display, or you are prompted to open/save `schemas.json`. The actual result depends on your web browser. If neither of these happens, then your AppPool identity may be missing membership to the BizTalk groups.
-
-#### BizTalk Server 2020 and newer
-
-1. Configure the REST APIs using the BizTalk Configuration Wizard. For help with configuration, please refer to the [Configuration Guide](../install-and-config-guides/configure-biztalk-server.md). For more details about the REST APIs, please refer to the [BizTalk REST API Reference](https://docs.microsoft.com/rest/api/biztalk)
-2. Open a web browser, and go to `http://localhost/BizTalkManagementService/Schemas`. Either a list of schemas display, or you are prompted to open/save `schemas.json`. The actual result depends on your web browser. If neither of these happens, then please check your REST API configuration.
 
 #### Create the BizTalk ReceiveService IIS application
 
@@ -166,7 +163,7 @@ The URL of this IIS application is used by the BizTalk Connector (in your logic 
 
 8. **Save** your changes. 
 
-When you save, the HTTP Request trigger automatically creates a URL. Copy this URL; you need it in **Step 5: Send a message**.
+When you save, the HTTP Request trigger automatically creates a URL. Copy this URL. You need it in [Step 4: Send a message](#step-4-send-a-message) (in this article).
 
 ### Step 3: Create a receive port and a receive location
 

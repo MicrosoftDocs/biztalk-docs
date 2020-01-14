@@ -66,7 +66,7 @@ Before installing and configuring BizTalk Server in a multicomputer environment,
 
 Additional:
 
-- All BizTalk servers and SQL Servers in a group must have the same remote procedure call (RPC) authentication level applied. The DTC proxy may not correctly authenticate DTC when the computers use different operating systems, are joined to workgroups, or are in different domains that do not trust each other. See [MSDTC Fails to Mutually Authenticate](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms686976(v=vs.85)).
+- All BizTalk servers and SQL Servers in a group must have the same remote procedure call (RPC) authentication level applied. The DTC proxy may not correctly authenticate DTC when the computers use different operating systems, are joined to workgroups, or are in different domains that do not trust each other. See [MSDTC Fails to Mutually Authenticate](https://docs.microsoft.com/previous-versions/windows/desktop/ms686976(v=vs.85)).
 
 - If using a firewall, open the required DTC and RPC ports. See [Service overview and network port requirements for Windows](https://support.microsoft.com/kb/832017).
 
@@ -386,7 +386,7 @@ Administrators of the Enterprise Single Sign-On (SSO) service. For more informat
 - db_owner SQL Server database role for the SSO
 - securityadmin SQL Server role for the SQL Server where SSO is located
 
-#### SSO Affiliate Administrators
+#### **SSO Affiliate Administrators**
 
 Administrators of certain SSO affiliate applications. Can create/delete SSO affiliate applications, administer user mappings, and set credentials for affiliate application users
 
@@ -397,7 +397,7 @@ Administrators of certain SSO affiliate applications. Can create/delete SSO affi
 
 **SQL Server roles or database roles**: None
 
-#### BizTalk Server Administrators
+#### **BizTalk Server Administrators**
 
 Has the least privileges necessary to perform administrative tasks. Users in this group can deploy solutions, manage applications, and resolve message processing issues.
 
@@ -434,7 +434,7 @@ Includes users and groups that need to configure and administer BizTalk Server.
 
 - OLAP Administrators on the computer hosting the BAMAnalysis OLAP database.
 
-#### BizTalk Server Operators
+#### **BizTalk Server Operators**
 
 A low privilege role with access only to monitoring and troubleshooting actions. For more information, see [Managing BizTalk Server Security](../core/managing-biztalk-server-security.md).
 
@@ -451,7 +451,7 @@ A low privilege role with access only to monitoring and troubleshooting actions.
   - BizTalkMsgBoxDb
   - BizTalkRuleEngineDb
 
-### BizTalk Server Read Only Users
+#### **BizTalk Server Read Only Users**
 
 Has least privilege to view BizTalk Artifacts, Service State, Message Flow and Tracking Information.
 
@@ -471,7 +471,7 @@ For more information, see [Managing BizTalk Server Security](../core/managing-bi
   - BizTalkRuleEngineDb
   - BAMPrimaryImport
 
-#### BizTalk Application Users
+#### **BizTalk Application Users**
 
 The default name of the first In-Process BizTalk Host Group created by Configuration Manager. Use one BizTalk host group for each in-process host in your environment. Also includes accounts with access to in-process BizTalk hosts, such as hosts processes in BizTalk Server, and BTSNTSvc.exe.
 
@@ -491,7 +491,7 @@ The default name of the first In-Process BizTalk Host Group created by Configura
 
 - BAM_EVENT_WRITER SQL Server database role in the BAMPrimaryImport
 
-#### BizTalk Isolated Host Users
+#### **BizTalk Isolated Host Users**
 
 The default name of the first Isolated BizTalk Host Group created by Configuration Manager. Isolated BizTalk hosts not running on BizTalk Server, such as HTTP and SOAP.
 
@@ -511,7 +511,7 @@ BTS_HOST_USERS SQL Server database role in the following databases:
 - BizTalkDTADb
 - BAMPrimaryImport
 
-#### BAM Portal Users
+#### **BAM Portal Users**
 
 Has access to BAM Portal web site.
 
@@ -522,7 +522,7 @@ Has access to BAM Portal web site.
 
 **SQL Server roles or database roles**: None
 
-#### BizTalk SharePoint Adapter Enabled Hosts
+#### **BizTalk SharePoint Adapter Enabled Hosts**
 
 Has access to Windows SharePoint Services Adapter Web Service.
 
@@ -532,7 +532,7 @@ Has access to Windows SharePoint Services Adapter Web Service.
 
 **SQL Server roles or database roles**: None
 
-#### BizTalk B2B Operators Group
+#### **BizTalk B2B Operators Group**
 
 A BizTalk role that reduces the onus on the Administrators to perform all party management operation. This role allows Windows users associated with the role to run all party management operations.
 
@@ -554,7 +554,7 @@ BTS_OPERATORS SQL Server database role in the following databases:
 
 The following list describes the Windows user or service accounts and group affiliations used by BizTalk Server. It also identifies the SQL Server Roles or Database Roles for the accounts.
 
-#### Enterprise Single Sign-On Service
+#### **Enterprise Single Sign-On Service**
 
 Service account used to run Enterprise Single Sign-On Service that accesses the SSO database.
 
@@ -564,7 +564,7 @@ Service account used to run Enterprise Single Sign-On Service that accesses the 
 
 **SQL Server roles or database roles**: None
 
-#### BizTalk Host Instance Account
+#### **BizTalk Host Instance Account**
 
 Service account used to run the BizTalk In-Process host instance that accesses the In-Process BizTalk host instance (BTNTSVC.exe).
 
@@ -575,7 +575,7 @@ Service account used to run the BizTalk In-Process host instance that accesses t
 
 **SQL Server roles or database roles**: None
 
-#### BizTalk Isolated Host Instance Account
+#### **BizTalk Isolated Host Instance Account**
 
 Service account used to run BizTalk Isolated host instance (HTTP/SOAP).
 
@@ -587,7 +587,7 @@ Service account used to run BizTalk Isolated host instance (HTTP/SOAP).
 
 **SQL Server roles or database roles**: None
 
-#### Rule Engine Update Service
+#### **Rule Engine Update Service**
 
 Service account that runs Rule Engine Update Service. This service receives notifications to deployment/undeployment policies from the Rule engine database.
 
@@ -597,7 +597,7 @@ Service account that runs Rule Engine Update Service. This service receives noti
 
 - RE_HOST_USERS SQL Server database role in the BizTalkRuleEngineDb
 
-#### BAM Notification Services User
+#### **BAM Notification Services User**
 
 Service account that runs the BAM Notification Services. These services access the BAM databases.
 
@@ -613,7 +613,7 @@ Service account that runs the BAM Notification Services. These services access t
 
 - BAM_ManagementNSReader SQL Server role for the BAMPrimaryImport
 
-#### BAM Management Web Service User
+#### **BAM Management Web Service User**
 
 User account for BAM Management Web service (BAMManagementService) to access various BAM resources. BAM Portal calls the BAMManagementService with the user credentials logged on the BAM Portal to manage alerts, get BAM definition XML and BAM views.
 
@@ -628,7 +628,7 @@ User account for BAM Management Web service (BAMManagementService) to access var
   - BAMAlertsNSMain
 - BAM_ManagementWS SQL Server role for the BAMPrimaryImport
 
-#### BAM Application Pool Account
+#### **BAM Application Pool Account**
 
 Application pool account for BAMAppPool that hosts BAM Portal Web site.
 

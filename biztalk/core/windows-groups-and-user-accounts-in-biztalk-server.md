@@ -33,7 +33,7 @@ Have permissions to use **Active Directory Users and Computers**, and create dom
 
 ## Group list and descriptions
 
-### **SSO Administrators**
+### SSO Administrators
 
 Administrators of the Enterprise Single Sign-On (SSO) service.
 

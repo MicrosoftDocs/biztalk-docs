@@ -32,7 +32,7 @@ Use the BizTalk Server Administration console to configure transport advanced op
 
   Consider six messages: M1, M2, M3, M4, M5, and M6. M1, M3, M5 are meant for a file location F1. M2, M4, and M6 are meant for a file location F2. The ordered delivery dynamic send port makes sure that M1, M3, and M5 are ordered; and M2, M4, and M6 are ordered respectively.
 
-  You can choose to enforce order across all outbound locations for a given transport type by changing the 'Enforce order across outbound locations' setting on the 'Transport Advanced Options' tab. Consider the six messages scenario above. If 'Enforce order across outbound locations' is enabled, the port will ensure that all six message M1, M2, M3, M4, M5, M6 are delivered in order. 
+  You can choose to enforce order across all outbound locations for a given transport type by changing the **Enforce order across outbound locations** setting on the **Transport Advanced Options** tab. Consider the six messages scenario above. If **Enforce order across outbound locations** is enabled, the port will ensure that all six message M1, M2, M3, M4, M5, M6 are delivered in order. 
 
 ## Prerequisites
 
@@ -69,6 +69,11 @@ BizTalk Server does not attempt to be fair in the processing of messages with di
     - **Ordered delivery**: Select this check box to send messages in order of receipt.
     - **Stop sending subsequent messages on current message failure**: Select this check box to stop sending subsequent messages that follow a failed message. This option is available only when the **Ordered delivery** option is selected.
     - **Enforce order across outbound locations**: This property is only visible for dynamic send ports. Select this check box to enforce ordered delivery across all outbound locations for a given transport type. This option is available only when the **Ordered delivery** option is selected.
+
+      This setting applies to:
+
+      - BizTalk Server 2020 and newer
+
     - **Enable routing for failed messages**: Select this option to enable routing for failed messages. 
     - **Enable service window**: Select this option to specify the time period each day during which the send port will be operational by specifying a start time and stop time.
     - **Start time**: Enter the time each day at which the send port starts sending messages. This option is available only when the **Enable service window** option is selected.

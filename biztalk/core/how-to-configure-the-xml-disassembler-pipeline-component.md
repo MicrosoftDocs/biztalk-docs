@@ -41,6 +41,7 @@ The XML Disassembler pipeline component should be used in the Disassemble stage 
       This setting applies to:
 
       - BizTalk Server 2020 and newer
+      - BizTalk Server 2016 cumulative update 6 and newer
 
     - **Envelope schemas**: Indicates the namespace and typename of the schema or schemas to be applied to the envelope. Default value: **Empty collection**
 
