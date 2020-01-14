@@ -1,10 +1,10 @@
 ---
-title: BizTalk Server - group managed service account (gMSA) | Microsoft Docs
-description: Configure and use BizTalk Server with group managed service account (gMSA)
+title: Group managed service account (gMSA) | Microsoft Docs
+description: Configure and use BizTalk Server with group managed service account (gMSA) to run BizTalk services in a custom configuration.
 author: msjaydeep
 ms.author: jaah
 manager: dougeby
-ms.date: 01/03/2020
+ms.date: 01/13/2020
 ms.topic: conceptual
 ms.prod: biztalk-server
 
@@ -21,14 +21,12 @@ ms.custom: "biztalk-2020"
 
 # Using Group Managed Service Account for BizTalk Server Features
 
-BizTalk 2020 Supports Group Managed Service Account. Detailed information about gMSA can be found [here](https://docs.microsoft.com/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview) .
+BizTalk Server 2020 and newer supports [Group Managed Service Accounts (gMSA)](https://docs.microsoft.com/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview).
 
-With gMSA support users can continue to run BizTalk service without having the need to change passwords.
+When using gMSA, users continue to run BizTalk services without changing the service passwords. The following table shows the BizTalk Server features that support gMSA:
 
-There are multiple BizTalk Features and following table shows the features where gMSA is supported
-
-| Feature Name | Supported |
-| --- | --- | 
+| Feature | Supported |
+| --- | --- |
 | Enterprise SSO | No |
 | Group | N/A |
 | BizTalk Runtime | Yes |
@@ -39,46 +37,37 @@ There are multiple BizTalk Features and following table shows the features where
 | Rest API | Yes |
 | BizTalk TMS | Yes |
 
-New installations of BizTalk may be configured with gMSA(where ever supported) by running Microsoft BizTalk Server Configuration. 
+New installations of BizTalk Server may be configured with gMSA by running BizTalk Server Custom Configuration.
 
 > [!NOTE]
-> gMSA is not available in basic configuration.
+> gMSA isn't available with a Basic Configuration.
 
-The features where gMSA is supported shows a check box which when checked password gets disabled. The user name should be set to appropriate gMSA account.
+When you run BizTalk Server Custom Configuration, the features that support gMSA have a **Is gMSA account** setting. When this setting is checked, the password property disables. Be sure the user name is set to the correct gMSA.
 
-![BizTalk_Server_gmsa_login_dialog](media/gmsa-login-dialog.png)
+> [!div class="mx-imgBorder"]
+> ![BizTalk_Server_gmsa_login_dialog](media/gmsa-login-dialog.png)
 
-Users upgrading to BizTalk 2020, may use the below mentioned ways to configure individual features with gMSA.
+Users upgrading to BizTalk Server 2020 can use the information in this article to configure individual features with gMSA.
 
 ## BizTalk Runtime
 
-Users can update logon information using `BizTalk Server Administration Console`
+Users can update logon information using the BizTalk Server Administration console.
 
-1. Go to Platform Settings > Host Instances  
-2. Open the host instance you want to change to gMSA account
-3. Click on configure button and configure logon while choosing `"Is Group Managed Service Account"`
+1. In BizTalk Server Administration, go to **Platform Settings** > **Host Instances**.
+2. Open the host instance you want to change to gMSA.
+3. Select the **Configure** button. Enter the logon account, and select **Is Group Managed Service Account**:
 
+    > [!div class="mx-imgBorder"]
+    > ![Configure the Group Managed Service Account in BizTalk Server Administration](media/mmc-gmsa-logon.png)
 
-![BizTalk_Server_mmc_gmsa_logon_dialog](media/mmc-gmsa-logon.png)
+## Business Rules Engine, BAM Alerts, and BizTalk TMS
 
-## Business Rules Engine, BAM Alerts & BizTalk TMS
-
-Users may update 'Rule Engine Update Service', 'BAMAlerts' and 'BizTalk TMS' services with appropriate logon for group managed service account.
-To change logon, please use sc config or Services MMC(Microsoft Management Console).
-Detailed information on sc config can be found [here](https://docs.microsoft.com/windows-server/administration/windows-commands/sc-config)
+Users can update the **Rule Engine Update Service**, **BAMAlerts**, and **BizTalk TMS** services to use gMSA. To change the logon, use **[SC config](https://docs.microsoft.com/windows-server/administration/windows-commands/sc-config)** or the **Services** app.
 
 ## BAM Portal and Rest API
 
-BAM portal and Rest API create Application Pools in IIS(Internet Information Services Manager)
-The Identity of each of these pools can be changed to use gMSA account.
-Please refer to IIS documentation for more details on Application Pools
+The BAM portal and REST APIs create application pools in IIS. The identity of each of these app pools can be changed to use gMSA.
 
+## Next steps
 
-
-
-
-
-
-
-
-
+[Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md).

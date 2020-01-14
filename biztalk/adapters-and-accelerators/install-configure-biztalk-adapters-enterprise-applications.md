@@ -2,7 +2,7 @@
 title: "Install BizTalk Adapters for Enterprise Applications | Microsoft Docs"
 description: Requirements and installation steps for JD Edwards OneWorld, JD Edwards EnterpriseOne, PeopleSoft Enterprise, TIBCO Rendezvous, and TIBCO Enterprise Message Service on BizTalk Server
 ms.custom: "biztalk-2020"
-ms.date: "01/06/2020"
+ms.date: "01/13/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -11,27 +11,26 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "anneta"
+manager: "dougeby"
 ---
 
 # Install and configure the Microsoft BizTalk Adapters for Enterprise Applications
 
  Microsoft BizTalk Adapters for Enterprise Applications includes the following adapters:
 
--   Microsoft BizTalk Adapter for JD Edwards OneWorld
+- Microsoft BizTalk Adapter for JD Edwards OneWorld
 
--   Microsoft BizTalk Adapter for JD Edwards EnterpriseOne
+- Microsoft BizTalk Adapter for JD Edwards EnterpriseOne
 
--   Microsoft BizTalk Adapter for PeopleSoft Enterprise
+- Microsoft BizTalk Adapter for PeopleSoft Enterprise
 
--   Microsoft BizTalk Adapter for TIBCO Rendezvous
+- Microsoft BizTalk Adapter for TIBCO Rendezvous
 
--   Microsoft BizTalk Adapter for TIBCO Enterprise Message Service
-
+- Microsoft BizTalk Adapter for TIBCO Enterprise Message Service
 
 > [!IMPORTANT]
-> - Back up all data before you make any configuration changes
-> - You must be experienced with the specific enterprise application before you make any configuration changes
+> - Back up all data before you make any configuration changes.
+> - You must be experienced with the specific enterprise application before you make any configuration changes.
 
 ## Supported versions & requirements
 
@@ -45,21 +44,22 @@ manager: "anneta"
 |TIBCO Rendezvous | <ul><li>The TIBCO Rendezvous run-time component must be installed on the computer where BizTalk Adapter for TIBCO Rendezvous is running</li><li>The TIBCO Rendezvous license must be configured on the computer where BizTalk Adapter for TIBCO Rendezvous is running.</li><li>The TIBCO Rendezvous binaries directory must be visible to the adapter: either in the Environment variables PATH value, or specified on each Rendezvous port in BizTalk Server. This is necessary for the Rendezvous assembly to find its libraries and executable.</li></ul>|
 |TIBCO Enterprise Message Service | Enterprise Message Service (EMS) version 5.x and above includes a client SDK (using the TIBCO EMS C# API). BizTalk Adapter for TIBCO EMS uses this to communicate with the server. |
 
-
 ## JD Edwards OneWorld XE
 
 This sections includes key information on using the Microsoft BizTalk Adapter for JD Edwards OneWorld XE with BizTalk Server.
 
 ### Create the JAR Files
+
  This section describes the requirements for JD Edwards OneWorld to work with Microsoft BizTalk Adapter for JD Edwards OneWorld.
 
 #### JAR Files and the CLASSPATH
- JD Edwards OneWorld JAR files must be available to the adapter. For instance, to connect to B7.3.3.3 Version, the following jar files are required. Depending on the server you connect, the jar file list may change:
+
+JD Edwards OneWorld JAR files must be available to the adapter. For instance, to connect to B7.3.3.3 Version, the following jar files are required. Depending on the server you connect, the jar file list may change:
 
 - Connector.jar
 - Kernel.jar
 
-  These files are located on a computer running JD Edwards OneWorld, at the following locations:
+These files are located on a computer running JD Edwards OneWorld, at the following locations:
 
 - JD Edwards OneWorld XE_install_Directory\System\classes\Connector.jar
 - JD Edwards OneWorld XE_install_Directory\System\classes\Kernel.jar
@@ -72,11 +72,12 @@ This sections includes key information on using the Microsoft BizTalk Adapter fo
 >  You must verify the registration of the jdeinterop.ini file before you can use BizTalk Adapter for JD Edwards OneWorld. Make sure that you include a path to this file in the **JDE Transport Property** page when you create the send port in BizTalk Server. For a complete explanation, see "Customize the jdeinterop.ini File."
 
 #### Create the BTSLIBinterop.jar File
+
 Create the file, and confirm it can be accessed by the adapter. Use the following sample as a guide:
 
-1.  Create the BTSLIB.cmd file that contains the following code:
+1. Create the BTSLIB.cmd file that contains the following code:
 
-    ```
+    ```cmd
     define library BTSLIB
     login
     library BTSLIB
@@ -88,7 +89,7 @@ Create the file, and confirm it can be accessed by the adapter. Use the followin
 
 2.  Run the following command:
 
-    ```
+    ```cmd
     GenJava  /cmd  .\BTSLIB.cmd
     ```
 
@@ -108,13 +109,13 @@ Create the file, and confirm it can be accessed by the adapter. Use the followin
 
 6.  Test the environment by typing the following command, which is case sensitive.
 
-    ```
+    ```cmd
     javap -s -p com.microsoft.jde.JDEJAccess
     ```
 
 7.  The command you give, javap, is the Java Class File Disassembler:
 
-    ```
+    ```html
     http://java.sun.com/j2se/1.3/docs/tooldocs/solaris/javap.html
     ```
 
@@ -125,6 +126,7 @@ Create the file, and confirm it can be accessed by the adapter. Use the followin
 9. Set up the DNS resolution by configuring the local host file (*C:\WINNT\system32\drivers\etc\hosts*), with the server name of the JD Edwards OneWorld system.
 
 ### Create and install the custom package
+
 Install the BTSREL custom package to use BizTalk Adapter for JD Edwards OneWorld. This section describes:
 
 -   The JD Edwards OneWorld custom package-creation process
@@ -138,6 +140,7 @@ Install the BTSREL custom package to use BizTalk Adapter for JD Edwards OneWorld
  A custom package is a post-release deliverable that provides software changes for specific purposes, such as regulatory changes or enhancements. These custom packages are created for specific functionality. For example, BTSREL is created to extract metadata. When the BTSREL custom package is installed, it updates selected modules in the JD Edwards OneWorld environment. To update, BTSREL objects must be merged into the appropriate JD Edwards OneWorld environment. For a detailed list of modules updated by BTSREL, see the list of modules.
 
 #### Install the BTSREL custom package
+
 Download [BTSREL](https://www.microsoft.com/download/details.aspx?id=56113). Install it on the deployment server, and then deploy it to the enterprise server.
 
  The existing BTSREL.exe package directly works with the B7333 version. For the package to work with the B7334 version, then:
@@ -150,11 +153,12 @@ Download [BTSREL](https://www.microsoft.com/download/details.aspx?id=56113). Ins
 
    To install BTSREL, the following are required:
 
--   Deployment server installation
--   Installation Workbench
+    - Deployment server installation
+    - Installation Workbench
 
 #### Install BTSREL on the deployment server
- The custom package only works on a Windows operating system, and is used with the deployment server. It must be built on the deployment server, and then deployed to the enterprise server. The enterprise server is usually a production server, and can be on either a Windows or UNIX operating system.
+
+The custom package only works on a Windows operating system, and is used with the deployment server. It must be built on the deployment server, and then deployed to the enterprise server. The enterprise server is usually a production server, and can be on either a Windows or UNIX operating system.
 
 > [!NOTE]
 >  When applying the ASU to the JD Edwards OneWorld deployment server, verify that you are in **Update** mode. The **Proof** mode verifies that there are no bugs in the ASU, whereas **Update** mode is designated for when you apply the ASU.
@@ -217,10 +221,10 @@ Download [BTSREL](https://www.microsoft.com/download/details.aspx?id=56113). Ins
 
 3.  Enter the following information for the New Business Function Library Object:
 
-    -   **Name:** ACBLIB
-    -   **Description:** Microsoft DLL
-    -   **Product Code:** 55
-    -   **Product System Code:** 55
+    - **Name:** ACBLIB
+    - **Description:** Microsoft DLL
+    - **Product Code:** 55
+    - **Product System Code:** 55
 
 4.  Select **OK**.
 
@@ -341,7 +345,7 @@ After each directory and file is created, verify the authorization.
 -   D5500900K - TEST DATE 2
 
 #### Customize the jdeinterop.ini file
- The JD Edwards OneWorld XE connector classes in Connector.jar and Kernel.jar require that you use the jdeinterop.ini configuration file. This file is defined by the JD Edwards OneWorld software and uses its terminology. The JD Edwards Interoperability Guide Release OneWorld may provide more information about the purpose and terminology of this file. There is a sample jdeinterop.ini file in *<Adapter_Installation>\config\jde*.
+ The JD Edwards OneWorld XE connector classes in Connector.jar and Kernel.jar require that you use the jdeinterop.ini configuration file. This file is defined by the JD Edwards OneWorld software and uses its terminology. The JD Edwards Interoperability Guide Release OneWorld may provide more information about the purpose and terminology of this file. There is a sample jdeinterop.ini file in `<Adapter_Installation>\config\jde`.
 
 Update jdeinterop.ini to match the parameter values that you defined in the **Transport Properties** screen. Multiple JD Edwards OneWorld logical systems can share the same jdeinterop.ini file if their parameters are compatible. Generally, if two logical systems point to two different JD Edwards OneWorld computers, they need two different copies of jdeinterop.ini.
 
@@ -435,7 +439,7 @@ For more information about PeopleSoft, see the PeopleSoft documentation.
 
  Set the JAVA_HOME variable to point to your JDK installation, for example:
 
-```
+```cmd
 set JAVA_HOME=C:\j2sdk1.4.2_06
 ```
 
@@ -449,7 +453,7 @@ To use component interfaces (PeopleSoft 8 only) you must update your CLASSPATH t
 
 3. Add the path. For example, enter:
 
-   ```
+   ```cmd
    <PeopleSoft_Home>\web\PSJOA\psjoa.jar
    ```
 
@@ -470,17 +474,14 @@ To use component interfaces (PeopleSoft 8 only) you must update your CLASSPATH t
 
 - Use an existing component that contains no keys, for example, INSTALLATION_RS.
 
-  The simple component interface must not contain keys. If you are not sure whether a particular component interface contains keys, you can run this simple SQL statement using your SQL Query tool. It gives you a list of all the component interfaces in your application that have no keys.
+  The simple component interface must not contain keys. If you are not sure whether a particular component interface contains keys, you can run the following SQL statement using your SQL Query tool. It gives you a list of all the component interfaces in your application that have no keys.
 
-```
-select distinct BCNAME
-from PSBCITEM bc1
-where not exists
-(select 1
-from PSBCITEM bc2
-where bc1.BCNAME = bc2.BCNAME
-and bc2.BCTYPE in (1, 2))
-```
+  ```sql
+  select distinct BCNAME
+  from PSBCITEM bc1
+  where not exists
+  (select 1 from PSBCITEM bc2 where bc1.BCNAME = bc2.BCNAME and bc2.BCTYPE in (1, 2))
+  ```
 
  You can follow PeopleSoft documentation to create a unique simple component for storing BizTalk Adapter for PeopleSoft Enterprise custom methods. You can also clone one of the pre-existing component interfaces and use it to store the custom methods.
 
@@ -504,11 +505,11 @@ and bc2.BCTYPE in (1, 2))
 
    The custom methods do not use or modify any properties of the component interface that it is installed in.
 
-   This simple component interface must not contain keys. If you are not sure whether a particular component interface contains keys, you can run this simple SQL statement using your SQL Query tool. It gives you a list of all the component interfaces in your application that have no keys:
+   This simple component interface must not contain keys. If you are not sure whether a particular component interface contains keys, you can run the following SQL statement using your SQL Query tool. It gives you a list of all the component interfaces in your application that have no keys:
 
-```
-select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITEM bc2 where bc1.BCNAME = bc2.BCNAME and bc2.BCTYPE in (1, 2))
-```
+   ```sql
+   select distinct BCNAME from PSBCITEM bc1 where not exists (select 1 from PSBCITEM bc2 where bc1.BCNAME = bc2.BCNAME and bc2.BCTYPE in (1, 2))
+   ```
 
 > [!NOTE]
 >  You can also follow PeopleSoft documentation to create a unique simple component for storing custom methods for BizTalk Adapter for PeopleSoft Enterprise.
@@ -565,15 +566,16 @@ The **Component Interface Tester** window opens. There should be no keys listed.
 ## Install steps
  Before you install, be sure BizTalk Server and all the software prerequisites for the adapters are installed. It is recommended that you close all applications before running Setup.
 
-1.  Run the BizTalk Server **Setup.exe** and select **Install Microsoft BizTalk Adapters for Enterprise Applications**.
+1. Run the BizTalk Server **Setup.exe**, and select **Install Microsoft BizTalk Adapters for Enterprise Applications**.
 
-    ![bts2020install_splash](../install-and-config-guides/media/bts2020install-splash.png)
+    > [!div class="mx-imgBorder"]
+    > ![Install BizTalk Adapters for Enterprise Applications](../install-and-config-guides/media/bts2020install-splash.png)
 
-    **For BizTalk Server 2016 and older**
+    **For BizTalk Server 2016 and older**:  
     Run the BizTalk Server **Setup.exe**, select **Install Microsoft BizTalk Adapters**, and select **Install Microsoft BizTalk Adapters for Enterprise Applications**.
 
     > [!NOTE]
-    >  - You can also run a silent installation using the following command: msiexec /i <msi\> /qn /l* <logfile\> -- where <logfile\> is optional, but is useful in the event of a failed installation.
+    >  - You can also run a silent installation using the following command: `msiexec /i <msi\> /qn /l* <logfile\>` -- where `<logfile\>` is optional, but is useful in the event of a failed installation.
     >  - The installation updates the PATH environment variable. To make sure that you are using the correct variables, close the installation command window to update your variables.
 
 2.  Accept the **License Agreement**, and select **Next**.
@@ -637,20 +639,20 @@ To add the adapters to BizTalk Server, see "Add adapters to BizTalk Admin" in th
     -   Microsoft.BizTalk.Adapters.CoreTransmitter.dll
 
 
-* btsTask.exe installs and deploys the `Microsoft.BizTalk.Adapters.JDEProperties.dll` file to the GAC. The BizTalk Server deployment log results are in *\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\jdeDeploy.html* and **jdeDeploy.xml**.
+* btsTask.exe installs and deploys the `Microsoft.BizTalk.Adapters.JDEProperties.dll` file to the GAC. The BizTalk Server deployment log results are in `\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\jdeDeploy.html` and **jdeDeploy.xml**.
 
-* Adapter-specific files are installed in *Program Files* and *Program Files\Common Files*.
+* Adapter-specific files are installed in `Program Files` and `Program Files\Common Files`.
 
-* The `sdk\` is installed in *Program Files\Microsoft BizTalk Adapters for Enterprise Applications\ J.D. Edwards OneWorld(r)*.
+* The `sdk\` is installed in `Program Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards OneWorld(r)`.
 
-* *Program Files\Microsoft BizTalk Adapters for Enterprise Applications\JD Edwards OneWorld(r)\* contains the following files:
+* `Program Files\Microsoft BizTalk Adapters for Enterprise Applications\JD Edwards OneWorld(r)\` contains the following files:
 
     -   classes\JDEJAccess.jar
     -   Config\ J.D. Edwards OneWorld(r) \BTSREL.exe
     -   Config\ J.D. Edwards OneWorld(r) \jdearglist.txt
     -   Config\ J.D. Edwards OneWorld(r) \jdeinterop.ini
 
-* *Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\Bin\* contains the following files:
+* `Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\Bin\` contains the following files:
 
     -   Microsoft.BizTalk.Adapters.JDEProperties.dll
     -   jdecba.dll
@@ -669,12 +671,12 @@ To add the adapters to BizTalk Server, see "Add adapters to BizTalk Admin" in th
     -   Microsoft.BizTalk.Adapters.CoreReceiver.dll
     -   Microsoft.BizTalk.Adapters.CoreTransmitter.dll
 
-* The adapter-specific files are installed in the *Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\Bin* folder. This folder contains the following files:
+* The adapter-specific files are installed in the `Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\Bin` folder. This folder contains the following files:
 
     -   Jdecba.dll
     -   Microsoft.BizTalk.Adapters.JDEProperties.dll
 
-* The following files are installed in *Program Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards EnterpriseOne(r)*:
+* The following files are installed in `Program Files\Microsoft BizTalk Adapters for Enterprise Applications\J.D. Edwards EnterpriseOne(r)`:
 
     -   Bin\BTAJDEEnterpriseOneTrace.cmd
     -   Classes\JDEDynAccess.jar
@@ -700,7 +702,7 @@ To add the adapters to BizTalk Server, see "Add adapters to BizTalk Admin" in th
     -   Microsoft.BizTalk.Adapters.CoreReceiver.dll
     -   Microsoft.BizTalk.Adapters.CoreTransmitter.dll
 
-* Adapter-specific files are installed in *Program Files* and *Program Files\Common Files*. The following files are installed in *Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise (r)*:
+* Adapter-specific files are installed in `*`Program Files` and `Program Files\Common Files`. The following files are installed in `Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise (r)`:
 
     -   bin\BTAPeopleSoftTrace.cmd
     -   config\btaPeopleSoftTrace.mof
@@ -708,7 +710,7 @@ To add the adapters to BizTalk Server, see "Add adapters to BizTalk Admin" in th
     -   config\GET_CI_INFO.pc
     -   sdk\
 
-* *Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications* contains the following files:
+* `Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications` contains the following files:
 
     -   bin\psosa.dll
     -   bin\Microsoft.BizTalk.Adapters.CoreManagement.dll
@@ -737,7 +739,7 @@ To add the adapters to BizTalk Server, see "Add adapters to BizTalk Admin" in th
     -   Microsoft.BizTalk.Adapters.TibcoRVReceiver
     -   Microsoft.BizTalk.Adapters.TibcoRVTransmitter
 
-* Adapter-specific files are installed in *Program Files and Program Files\Common Files*. The following files are installed in *Program Files\Microsoft BizTalk Adapters for Enterprise Applications\ TIBCO(r) Rendezvous(r)*:
+* Adapter-specific files are installed in `Program Files` and `Program Files\Common Files`. The following files are installed in `Program Files\Microsoft BizTalk Adapters for Enterprise Applications\ TIBCO(r) Rendezvous(r)`:
 
     -   bin\BTATibcoRVTrace.cmd
     -   bin\mbaRV.exe
@@ -752,7 +754,7 @@ To add the adapters to BizTalk Server, see "Add adapters to BizTalk Admin" in th
     -   Config\btaTibcoRVTrace.mof
     -   sdk\
 
-* *Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications* contains the following files:
+* `Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications` contains the following files:
 
     -   bin\tibcorvcba.dll
     -   Microsoft.BizTalk.Adapters.CoreManagement.dll
@@ -760,19 +762,19 @@ To add the adapters to BizTalk Server, see "Add adapters to BizTalk Admin" in th
     -   Microsoft.BizTalk.Adapters.CoreTransmitter.dll
 
 ### Add TIBCO.Rendezvous.dll to the GAC
- BizTalk Adapter for TIBCO Rendezvous requires the **TIBCO.Rendezvous.dll** file. The minimum version that is required is 1.0.3036.23330 FileVersion, which is shipped with the product version 8.1. The adapter triggers an exception and logs an appropriate message if this assembly is not installed.
+BizTalk Adapter for TIBCO Rendezvous requires the **TIBCO.Rendezvous.dll** file. The minimum version that is required is 1.0.3036.23330 FileVersion, which is shipped with the product version 8.1. The adapter triggers an exception and logs an appropriate message if this assembly is not installed.
 
- You must use late binding to load assemblies so that the TIBCO Rendezvous assemblies don't fail when a particular version of the TIBCO.Rendezvous.dll and TIBCO.Rendezvous.net module aren't on the target computer.
+You must use late binding to load assemblies so that the TIBCO Rendezvous assemblies don't fail when a particular version of the TIBCO.Rendezvous.dll and TIBCO.Rendezvous.net module aren't on the target computer.
 
- **Runtime Component**
+**Runtime Component**
 
- Verify you have the TIBCO Rendezvous Runtime Component installed on your computer. The Runtime Component is the only component that you must install when you install TIBCO Rendezvous.
+Verify you have the TIBCO Rendezvous Runtime Component installed on your computer. The Runtime Component is the only component that you must install when you install TIBCO Rendezvous.
 
 1. In a Visual Studio command prompt, change directories to the location of the TIBCO.Rendezvous.dll file. The path of this DLL in the default installation of TIBCO Rendezvous is **C:\TIBCO\TIBRV\BIN\TIBCO.Rendezvous.dll**.
 
 2. At the command prompt, type the following:
 
-```
+```cmd
 C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 ```
 
@@ -790,14 +792,14 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 ### Installed components
 * The adapter installation installs and registers the `Microsoft.BizTalk.Adapters.TibcoEMS.dll` file in the global assembly cache (GAC). You can verify the registration by opening the assembly folder in your explorer (<%WINDIR%>\assembly), or use the `gacutil /l` from the Visual Studio command prompt.
 
-* Adapter-specific files are installed in *Program Files* and *Program Files\Common Files*. The following files are installed under *Program Files\Microsoft BizTalk Adapters for Enterprise Applications\TIBCO(r) Enterprise Message Service(TM)*:
+* Adapter-specific files are installed in `Program Files` and `Program Files\Common Files`. The following files are installed under `Program Files\Microsoft BizTalk Adapters for Enterprise Applications\TIBCO(r) Enterprise Message Service(TM)`:
 
     -   bin\BTATibcoEMSTrace.cmd
     -   Microsoft.BizTalk.Adapters.TibcoEMS.dll
     -   Config\btaTibcoEMSTrace.mof
     -   sdk\
 
-* *Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin* folder contains the following files:
+* `Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin` folder contains the following files:
 
   - Microsoft.BizTalk.Adapters.CoreManagement.dll
   - Microsoft.BizTalk.Adapters.CoreReceiver.dll
@@ -815,11 +817,11 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 
 3. In a Visual Studio command prompt, type the following:
 
-   ```
+   ```cmd
    C:\\<TIBCO EMS Folder\>bin> gacutil /i TIBCO.EMS.dll
    ```
 
-   The TIBCO.EMS.dll now shows in the C:\Windows\assembly listing. Or, in Control Panel, open **Administrator Tools**, open **Microsoft .NET Framework**, and open **Assembly Cache** to view the GAC list.
+   The TIBCO.EMS.dll now shows in the C:\Windows\assembly listing. Or, in Control Panel, open **Administrator Tools** > **Microsoft .NET Framework** > **Assembly Cache** to view the GAC list.
 
    **Limitations**
 
@@ -836,7 +838,7 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 ### Enable tracing
  The file name used with Windows tracing is up to the administrator. The application writes to the operating system, which ignores all logs until you want the logs for a particular back-end system. You do this by running a separate BizTalk Adapters for Enterprise Applications command file. One of the arguments for that command is the name of the file that is used to capture the trace information. For more information, see "Use Windows trace event" (in this topic).
 
- Trace files install to *\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\*.
+ Trace files install to `\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\`.
 
 -   bin\BTATrace.cmd
 -   config\btaTrace.mof
@@ -875,7 +877,7 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 
 To use ETW, run the command for the specific adapter: `BTA<Adapter Name\>Trace.cmd`. You use this command as follows:
 
-```
+```cmd
 BTA<Adapter Name>Trace <Trace element> -start [-cir <MB>|
     -seq <MB>] [-rt] logfile
 BTA<Adapter Name>Trace <Trace element> -stop
@@ -908,7 +910,7 @@ BTA<Adapter Name>Trace <Trace element> -stop
 
  For example:
 
-```
+```cmd
 BTAXXXTrace -transmitter -start -cir 10 -rt c:\log\mylog.etl
 BTAXXXTrace -transmitter -stop
 
@@ -918,6 +920,7 @@ BTAXXXTrace -transmitter -stop
 >  You use the tracerpt.exe command to format the .etl files.
 
 ## Next steps
+
 * [JD Edwards EnterpriseOne adapter](../core/jd-edwards-enterpriseone-adapter.md)
 * [JD Edwards OneWorld adapter](../core/jd-edwards-oneworld-adapter.md)
 * [PeopleSoft Enterprise adapter](../core/peoplesoft-enterprise-adapter.md)

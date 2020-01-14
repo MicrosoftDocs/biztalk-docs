@@ -30,20 +30,24 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Ordered Delivery of Messages
+
+# Ordered Delivery of Messages in BizTalk Server
+
 Ordered message delivery ensures that messages that are published to the MessageBox database in a given order are delivered to each matching subscriber in the same order in which they were published to the message box.
 
 ## Configuring Ordered Message Delivery
+
  Ordered message delivery can be configured in the following places:
 
 -   **Receive** shape in an orchestration
-
 -   Send port
 
 ## Ordered Delivery with Existing Transports
+
  The protocols underlying certain transports, such as FILE and HTTP, are not consistent with the notion of ordered delivery. However, even with such transports, if the port bound to the transport is marked for ordered delivery, then BizTalk Server enforces ordered delivery by ensuring that the transport does not get the next outbound message until the current one has been successfully sent. To achieve this, BizTalk Server passes each message to the transport's adapter in a single batch and waits until the adapter has successfully deleted the message from the message box before delivering the next message, in another batch, to the adapter.
 
 ### Ordered Delivery for Custom Adapters
+
  There are special considerations for custom receive adapters. It you are writing a custom adapter that supports ordered delivery on receive, the adapter should do the following:
 
 - After submitting a batch of messages, your custom receive adapter should wait for the **BatchComplete** callback from BizTalk Server before submitting the next batch. For more details, see [Interfaces for a Batch-Supported Receive Adapter](../core/interfaces-for-a-batch-supported-receive-adapter.md).
@@ -56,6 +60,7 @@ Ordered message delivery ensures that messages that are published to the Message
  For more details on building a custom adapter, see [Developing Custom Adapters](../core/developing-custom-adapters.md).
 
 ## Conditions for End-to-End Ordered Message Processing
+
  To provide end-to-end ordered delivery the following conditions must be met:
 
 - Messages must be received with an adapter that preserves the order of the messages when submitting them to BizTalk Server. In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], examples of such adapters are MSMQ and MQSeries. In addition, HTTP or SOAP adapters can be used to submit messages in order, but in that case the HTTP or SOAP client needs to enforce the order by submitting messages one at a time.
@@ -65,6 +70,7 @@ Ordered message delivery ensures that messages that are published to the Message
 - If an orchestration is used to process the messages, only a single instance of the orchestration should be used, the orchestration should be configured to use a sequential convoy, and the **Ordered Delivery** property of the orchestration's receive port should be set to `True`.
 
 ## Restrictions
+
  Ordered delivery of messages is not supported for the following:
 
 - Dynamic send ports in [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] and previous versions
@@ -73,8 +79,8 @@ Ordered message delivery ensures that messages that are published to the Message
 
 - Backup transports
 
-
 ## Interactions
+
  When ordered delivery is configured for a send port, be aware of the following interactions with other configured behaviors in BizTalk Server:
 
 -   For the "Stop sending subsequent messages on current message failure" setting on the same send port:
@@ -88,6 +94,7 @@ Ordered message delivery ensures that messages that are published to the Message
 -   Before deleting an ordered send port, ensure that there are no instances associated with it. If there are associated instances, you should terminate them before deleting the send port.
 
 ## Ordered Delivery to File Transport
+
  Messages arrive at the File adapter in sequence. The File adapter may append messages to a single file or write out a sequence of files, with the following results:
 
 -   If message data is appended to a single file, individual messages are appended in order. The ordered delivery option on a send port that uses the FILE adapter only makes sense if the send transport works in append mode
@@ -97,20 +104,21 @@ Ordered message delivery ensures that messages that are published to the Message
 ## Performance Impact of Ordered Delivery
 
 > [!NOTE]
-> Starting with **BizTalk Server 2020**, for dynamic send ports with ordered delivery where order does not need to be maintained across different outbound locations, higher throughput can be achieved by using multiple send port instances to process messages sent to different outbound locations in parallel.
+> Starting with **BizTalk Server 2020**, for dynamic send ports with ordered delivery where order doesn't need to be maintained across different outbound locations, higher throughput can be achieved by using multiple send port instances to process messages sent to different outbound locations in parallel.
 
- To achieve ordered delivery, BizTalk Server must serialize processing of ordered messages at various points along the message pathway. This works against scale-out techniques, such as the use of multiple host instances for parallel processing of messages. When using ordered delivery, even ports configured to run on multiple host instances run only on a single host instance to ensure ordered delivery. However, in this situation, high availability is still maintained because the failure of a host instance that is processing ordered delivery of messages results in reprocessing of the failed message on another available host instance.
+To achieve ordered delivery, BizTalk Server must serialize processing of ordered messages at various points along the message pathway. This works against scale-out techniques, such as the use of multiple host instances for parallel processing of messages. When using ordered delivery, even ports configured to run on multiple host instances run only on a single host instance to ensure ordered delivery. However, in this situation, high availability is still maintained because the failure of a host instance that is processing ordered delivery of messages results in reprocessing of the failed message on another available host instance.
 
- When Ordered Delivery is enabled, the default **Retry Interval** is 5 minutes. To improve performance, set the Retry Interval to the lowest value, which is 1 minute. The **Retry Interval** property may accept a value of zero (0) but zero (0) is not valid. The **Retry Count** can also be tuned to the number of retries needed. For example, if you know the request should process in <1 minute and the send port destination is always accessible, set both values to 1.
+When Ordered Delivery is enabled, the default **Retry Interval** is 5 minutes. To improve performance, set the Retry Interval to the lowest value, which is 1 minute. The **Retry Interval** property may accept a value of zero (0) but zero (0) is not valid. The **Retry Count** can also be tuned to the number of retries needed. For example, if you know the request should process in <1 minute and the send port destination is always accessible, set both values to 1.
 
- To change the Retry values, go to [How to Configure Transport Advanced Options for a Send Port](https://go.microsoft.com/fwlink/p/?LinkID=267697).
+To change the Retry values, go to [How to Configure Transport Advanced Options for a Send Port](https://go.microsoft.com/fwlink/p/?LinkID=267697).
 
- For additional information on Ordered Delivery, refer to the following:
+For additional information on Ordered Delivery, refer to the following:
 
- [BizTalk: End-to-End Ordered Message Processing Options](https://social.technet.microsoft.com/wiki/contents/articles/12887.biztalk-end-to-end-ordered-message-processing-options.aspx)
+[BizTalk: End-to-End Ordered Message Processing Options](https://social.technet.microsoft.com/wiki/contents/articles/12887.biztalk-end-to-end-ordered-message-processing-options.aspx)
 
- [BizTalk: Ordered Delivery](https://social.technet.microsoft.com/wiki/contents/articles/6681.biztalk-ordered-delivery.aspx)
+[BizTalk: Ordered Delivery](https://social.technet.microsoft.com/wiki/contents/articles/6681.biztalk-ordered-delivery.aspx)
 
 ## See Also
- [Ordered Delivery of Messages with the MSMQ Adapter](../core/ordered-delivery-of-messages-with-the-msmq-adapter.md)
+
+ [Ordered Delivery of Messages with the MSMQ Adapter](../core/ordered-delivery-of-messages-with-the-msmq-adapter.md)  
  [Ordered Delivery of Messages with the MQSeries Adapter](../core/ordered-delivery-of-messages-with-the-mqseries-adapter.md)
