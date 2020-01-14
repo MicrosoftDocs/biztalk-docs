@@ -70,7 +70,6 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
 |BAM Archive database|BAMArchive|Stores subscription predicates. The BAM Archive database minimizes the accumulation of Business Activity data in the BAM Primary Import database.|
 |SSO database|SSODB|Securely stores the configuration information for receive locations. Stores information for SSO affiliate applications, as well as the encrypted user credentials to all the affiliate applications.|
 |Rule Engine database|BizTalkRuleEngineDb|Repository for:<br /><br /> -   Policies, which are sets of related rules.<br />-   Vocabularies, which are collections of user-friendly, domain-specific names for data references in rules.|
-|BizTalk Base EDI database|BizTalkEDIDb|Stores EDI document tracking and processing data.|
 |Human Workflow Services Administration database|BizTalkHwsDb|Stores administrative information required by the BizTalk Human Workflow Services.|
 |Trading Partner Management database|TPM|Stores trading partner data for Business Activity Services (BAS).|
 |Tracking Analysis Server Administration database|BizTalkAnalysisDb|Stores both business and health monitoring OLAP cubes.|

@@ -7,7 +7,7 @@ author: Elvis-Shi
 ms.author: elsh
 manager: dougeby
 ms.date: 01/06/2020
-ms.topic: conceptual
+ms.topic: reference
 ms.prod: biztalk-server
 # optional metadata
 
@@ -22,8 +22,9 @@ ms.custom: biztalk-2020
 
 # Custom XSLT transform implementation
 
-## ITransform2 class.
- **Start from BizTalk Server 2020**, custom XSLT transform engine is supported for BizTalk map. You can implement custom XSLT transform engine by defining XSLT transform implementation derived from abstract class Microsoft.XLANGs.BaseTypes.ITransform2 in assembly Microsoft.XLANGs.BaseTypes.dll.
+## ITransform2 class
+
+**Starting with BizTalk Server 2020**, custom XSLT transform engine is supported for BizTalk map. You can implement custom XSLT transform engine by defining XSLT transform implementation derived from abstract class Microsoft.XLANGs.BaseTypes.ITransform2 in assembly Microsoft.XLANGs.BaseTypes.dll.
 
 ```C#
     public abstract class ITransform2
@@ -125,8 +126,6 @@ namespace CustomTransform
     }
 }
 ```
-
-
 
 ## See Also
 

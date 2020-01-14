@@ -3,10 +3,10 @@ title: "Install and configure the Microsoft BizTalk ESB Toolkit | Microsoft Docs
 description: Step-by-steps instructions to install and configure the ESB Toolkit on BizTalk Server
 caps.latest.revision: 8
 author: "MandiOhlinger"
-manager: "anneta"
+manager: "dougeby"
 
 ms.custom: "biztalk-2020"
-ms.date: "01/06/2020"
+ms.date: "01/14/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,10 +17,11 @@ ms.author: "mandia"
 ---
 
 # Install and configure the Microsoft BizTalk ESB Toolkit
+
 Starting with BizTalk Server 2013 and newer versions, [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is integrated with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup. This topic shows you how to install and configure [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)], and also includes a community-written link to upgrade the ESB Toolkit.  
   
 > [!IMPORTANT]
->  You must have BizTalk Server installed before you start installing the [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)].  
+> BizTalk Server must be installed before you install the [!INCLUDE[esbToolkit_short](../includes/esbtoolkit-short-md.md)].  
   
 ## Install 
   
@@ -32,13 +33,12 @@ Starting with BizTalk Server 2013 and newer versions, [!INCLUDE[esbToolkit](../i
   
 4. In the **Summary**, review what you chose, and then select **Install**.  
   
-5. Select **Finish** to close the installation wizard.  
-
-An install log file is created, similar to `C:\Users\yourUserName\AppData\Local\Temp\Setup(081017 175042).htm'. 
+5. Select **Finish** to close the installation wizard. An install log file is created, similar to `C:\Users\yourUserName\AppData\Local\Temp\Setup(081017 175042).htm`.
 
 6. **Starting with BizTalk Server 2020**, to install **Itinerary Designer**, also install **BizTalk ESB Toolkit Itinerary Designer extension** in **Visual Studio**.
 
-![ESB_ItineraryDesigner_extension](../esb-toolkit/media/esb-itinerary-designer-extension.png)
+    > [!div class="mx-imgBorder"]
+    > ![Install BizTalk ESB Toolkit Itinerary Designer extension on BizTalk Server](../esb-toolkit/media/esb-itinerary-designer-extension.png)
 
 ## Configure 
   
@@ -100,8 +100,10 @@ An install log file is created, similar to `C:\Users\yourUserName\AppData\Local\
   
    - Select **Apply Configuration** to create the applications you selected. Verify that the applications are created in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-## Upgrade ESB Toolkit – Community Addition  
+## Upgrade ESB Toolkit – Community Addition
+
  [In-place upgrade of ESB Toolkit 2.1 to 2.2](http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html) (http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html)
 
 ## See also
+
 [Troubleshoot installation issues, and common errors & resolutions](troubleshooting-the-biztalk-esb-toolkit.md)

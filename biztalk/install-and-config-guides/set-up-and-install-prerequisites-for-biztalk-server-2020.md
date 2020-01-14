@@ -1,19 +1,15 @@
 ---
-title: "Set up and install prerequisites for BizTalk Server 2016 | Microsoft Docs"
-description: Step-by-step instructions to install and configure the required software and settings for BizTalk Server 2016
+title: "Set up and install prerequisites for BizTalk Server 2020 | Microsoft Docs"
+description: Step-by-step instructions to install and configure the required software and settings for BizTalk Server 2020
 author: "MandiOhlinger"
-manager: "anneta"
-
+manager: "dougeby"
 ms.prod: "biztalk-server"
-
 ms.custom: "biztalk-2020"
-ms.date: "01/06/2020"
+ms.date: "01/14/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: aa70b621-903a-4cfa-9cb0-c6a82ed8f733
-caps.latest.revision: 11
 ms.author: "mandia"
 ---
 
@@ -193,7 +189,7 @@ If you use Business Activity Monitoring (BAM), BizTalk Server requires Excel. If
 The BAM Office Excel Workbook defines the business processes you want to monitor. You also use the BAM Excel Workbook to define the way business users see the data collected by BAM.
 
 > [!IMPORTANT] 
-> * BizTalk Server supports only 32-bit version of Microsoft Office. 
+> * BizTalk Server supports only 32-bit versions of Microsoft Office. 
 > * To successfully load BAM.xla into Excel, install **Visual Basic for Applications** (under **Office Shared Features**). Otherwise, you may get error: `This workbook has lost its VBA project, ActiveX controls and any other programmability-related features.`
 
 ## Install Visual Studio 2019 (optional)
@@ -248,6 +244,7 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
 Typically, the Shared Memory protocol only impacts clients (BizTalk Server) that are installed on the same computer as SQL Server. Under certain stress conditions (such as clients accessing SQL Server from the same computer), the SQL Server Shared Memory protocol may lower BizTalk Server performance. Disabling the Shared Memory network protocol resolves this.
 
 ## Configure SQL Database Mail (optional)
+
 If you use BAM Alerts, BizTalk Server requires SQL Server Database Mail. If you don't use BAM Alerts, then skip this section. 
 
 **SEE ALSO** : More on [Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/database-mail).
