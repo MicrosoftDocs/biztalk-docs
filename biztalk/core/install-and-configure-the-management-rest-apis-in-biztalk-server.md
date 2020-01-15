@@ -1,8 +1,8 @@
 ---
 title: "Install and configure the management REST APIs | Microsoft Docs"
 description: Query the artifacts in your BizTalk environment using management data REST APIs with Feature Pack in BizTalk Server
-ms.custom: "fp1"
-ms.date: "02/25/2019"
+ms.custom: "fp1, biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -22,14 +22,12 @@ Management data APIs are endpoints that let you remotely update, add, and query 
 
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, there's a Windows PowerShell script that installs these REST APIs, and their swagger definitions. These APIs make REST calls to remotely manage ports, orchestrations, partners, agreements, pipelines, and more. 
 
-To see the available APIs, and what you can do, see [Feature Pack REST API reference](https://docs.microsoft.com/rest/api/biztalk/?view=rest-biztalk-2016).
+To see the available APIs, please refer to the [REST API reference](https://docs.microsoft.com/rest/api/biztalk/?view=rest-biztalk-2016).
 
 ## Prerequisites
-* Install [Feature Pack 2](https://aka.ms/bts2016fp2) on your [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
+* Install [Feature Pack 2](https://aka.ms/bts2016fp2) or newer feature pack on your BizTalk Server.
 
-* Install IIS on the [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. Confirm IIS is installed on the BizTalk Server by opening **Internet Information Services Manager**. 
-
-  In most [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] environments, IIS is already installed. See [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md). 
+* Install IIS on the BizTalk Server. In most BizTalk Server environments, IIS is already installed. See [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md). Confirm IIS is installed by opening **Internet Information Services Manager**.
 
 ## Step 1: Install the REST APIs
 
@@ -61,7 +59,7 @@ To see the available APIs, and what you can do, see [Feature Pack REST API refer
 > 
 > ![Computer name is in all CAPS](../core/media/groups-case.png)
 
-Now that the REST APIs are exposed through IIS, they can be accessed and executed by other applications. [Feature Pack REST API reference](https://docs.microsoft.com/rest/api/biztalk/?view=rest-biztalk-2016) lists the APIs.
+Now that the REST APIs are exposed through IIS, they can be accessed and executed by other applications. The [REST API reference](https://docs.microsoft.com/rest/api/biztalk/?view=rest-biztalk-2016) lists the APIs.
 
 You can change who has access by manually updating the **web.config** file, which is in the root folder of the management application. For example, use the following to allow anyone access to the swagger output: 
 
@@ -89,4 +87,7 @@ You can change who has access by manually updating the **web.config** file, whic
 
 
 ## See also
- [Configure the Feature Pack](../core/configure-the-feature-pack.md)
+
+[REST API reference](https://docs.microsoft.com/rest/api/biztalk/?view=rest-biztalk-2016)
+
+[What's new in Feature Pack](../core/configure-the-feature-pack.md)

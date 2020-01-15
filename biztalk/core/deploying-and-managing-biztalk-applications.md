@@ -1,7 +1,7 @@
 ---
 title: "Deploying and Managing BizTalk Applications | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
+ms.custom: "biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -49,5 +49,7 @@ This section provides information about managing BizTalk applications, including
 -   [Deploying BizTalk Applications](../core/deploying-biztalk-applications.md)  
   
 -   [Updating BizTalk Applications](../core/updating-biztalk-applications.md)  
+
+-   [Configure automatic deployment using VSTS](../core/configure-automatic-deployment-with-visual-studio-team-services-in-biztalk.md)
   
 -   [Undeploying BizTalk Applications](../core/undeploying-biztalk-applications.md)

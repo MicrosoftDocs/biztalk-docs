@@ -1,8 +1,8 @@
 ---
 title: "Use the Office 365 Outlook Contact adapter | Microsoft Docs"
 description: Send messages using the Office 365 Outlook Contact adapter in BizTalk Server. To do this, create a send port using the Outlook adapter, and use a sample XML message to create a contact in Office 365 Outlook account.
-ms.custom: ""
-ms.date: "06/25/2018"
+ms.custom: "biztalk-2020"
+ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -115,4 +115,4 @@ You can use a simple File receive port and location to create an event on your O
 5. Copy **Office365Contact.xml** sample message into the receive folder (C:\\Temp\\In\\). The send port creates a contact in your Office 365 Outlook account based on the xml.
 
 ## Next steps
-See all the [Office 365 adapters](office365-adapters.md), or install [Feature Pack 3](https://aka.ms/bts2016fp3).
+See all the [Office 365 adapters](office365-adapters.md).

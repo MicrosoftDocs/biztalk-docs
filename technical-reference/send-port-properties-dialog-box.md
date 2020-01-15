@@ -4,7 +4,8 @@ TOCTitle: Send Port Properties Dialog Box
 ms:assetid: 14261d44-dfbe-4074-8b57-6f34a624fd5f
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa547640(v=BTS.80)
 ms:contentKeyID: 51526367
-ms.date: 08/30/2017
+ms.date: 12/23/2019
+ms.custom: biztalk-2020
 mtps_version: v=BTS.80
 f1_keywords:
 - bts10.admin.sendport.properties
@@ -72,7 +73,7 @@ This property is visible only for Solicit-Response ports. <strong>Note:</strong>
 
 ## Transport Advanced Options Tab
 
-The **Transport Advanced Options** tab is visible only for static one way or static solicit-response ports.
+Only some of the following properties are available for dynamic send ports.
 
 ## UIElement List
 
@@ -103,22 +104,27 @@ The **Transport Advanced Options** tab is visible only for static one way or sta
 <tr class="odd">
 <td><strong>Transport Options - Stop sending subsequent messages on current message failure</strong></td>
 <td>Select this check box if you want the send port instance to be suspended if any of the messages fails to be processed. Clear the check box to suspend only the failed message and enable subsequent messages to continue to be processed.<br />
-<br />
 This check box is available when you select the <strong>Ordered delivery</strong> check box.</td>
 </tr>
 <tr class="even">
+<td><strong>Transport Options - Enforce order across outbound locations</strong></td>
+<td>This property is visible only for Dynamic send ports. <br />
+Select this check box if you want messages to be ordered across all outbound locations for a given transport type. The default value of this check box is cleared, meaning the port does not enforce ordered delivery of messages across different outbound locations, even for the same transport type.<br />
+This check box is available when you select the <strong>Ordered delivery</strong> check box.</td>
+</tr>
+<tr class="odd">
 <td><strong>Transport Options - Enable routing for failed messages</strong></td>
 <td>Select this check box if you want enable routing of failed messages. When failed message routing is enabled, failed messages are not suspended but instead are sent to any subscribing routing destination, such as a send port or orchestration.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Schedule - Enable service window</strong></td>
 <td>Select this check box to configure the port to send only at specified times of the day, then specify the times in the <strong>Start time</strong> and <strong>Stop time</strong> boxes. If the check box is cleared, the send port sends messages at any time. The default value is false (cleared).</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Schedule - Start time</strong></td>
 <td>Specify the time when the port should begin to send messages. This box is available only when the <strong>Enable service window</strong> check box is selected.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Schedule - Stop time</strong></td>
 <td>Specify the time when the port should cease to send messages. This box is available only when the <strong>Enable service window</strong> check box is selected.</td>
 </tr>
