@@ -3028,10 +3028,17 @@
           href: standalone-grid-property.md
         - name: Target Schema (Grid Property)
           href: target-schema-grid-property.md
+        - name: Use XSL Transform (Grid Property)
+          href: use-xsl-transform-grid-property.md		  
         - name: Version (Grid Property)
           href: version-grid-property.md
         - name: XSLT Encoding (Grid Property)
           href: xslt-encoding-grid-property.md
+        - name: XSLT transform engine (Grid Property)
+          href: xslt-transform-engine-grid-property.md
+          items:
+          - name: Custom XSLT transform implementation
+            href: xslt-custom-transform-implementation.md
       - name: General Functoid Properties
         href: general-functoid-properties.md
         items:
