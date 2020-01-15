@@ -37,7 +37,7 @@ Read about what's new in BizTalk Server 2020.
 |Blob Adapter|Send and Receive messages to/from Azure Blob Storage. <br/><br/>[Azure Blob storage adapter](../core/azure-blob-adapter.md)|  
 |Audit Log|Making BizTalk further secure by maintaining audit trails of all management operation.|  
 |New Read Only Operator role|Brand new read only operator role to facilitate dev ops model, where access to production stamp is provided without the ability to update anything.|  
-|XSLT 3.0|New extensible model for runtime map execution, out of box wiring to work with Saxon XSLT3.0. <br/><br/>[XSLT Transform Engine](../biztalk/technical-reference/xslt-transform-engine-grid-property.md)<br/>[XSLT custom transform implementation](https://docs.microsoft.com/biztalk/core/technical-reference/xslt-custom-transform-implementation)|  
+|XSLT 3.0|New extensible model for runtime map execution, out of box wiring to work with Saxon XSLT3.0. <br/><br/>[XSLT Transform Engine](https://docs.microsoft.com/biztalk/core/technical-reference/xslt-transform-engine-grid-property)<br/>[XSLT custom transform implementation](https://docs.microsoft.com/biztalk/core/technical-reference/xslt-custom-transform-implementation)|  
 |Additional updates|<ul><li>Move to new long term supported Microsoft OLEDB Driver for SQL Server. </li><br/><li>Support for SSO Affiliate applications in SFTP adapter.</li><br/><li>SQL Availability Group support for BAM DTS Package via SSIS Catalog.</li><br/><li>Partially disabled receive locations.</li><br/><li>Throughput improvements for Dynamic Send Ports with Ordered Delivery.</li></ul>|   
   
 ## Deprecated & Removed List  
