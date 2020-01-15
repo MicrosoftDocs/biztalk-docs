@@ -48,6 +48,16 @@
             "source_path": "his/db2oledbv/accessibility-for-people-with-disabilities2.md",
             "redirect_url": "/host-integration-server/db2oledbv/accessibility",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "biztalk/core/configure-the-time-zone-and-recurrence-scheduling-in-biztalk-server.md",
+            "redirect_url": "/biztalk/core/how-to-configure-scheduling-for-a-receive-location",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "biztalk/core/connect-to-sql-server-always-encrypted-columns-with-biztalk-server.md",
+            "redirect_url": "/biztalk/adapters-and-accelerators/adapter-sql/key-features-in-biztalk-adapter-for-sql-server",
+            "redirect_document_id": false
         }
     ]
 }

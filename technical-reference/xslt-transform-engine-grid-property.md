@@ -6,8 +6,8 @@ description: XSLT Transform Engine (Grid Property).
 author: Elvis-Shi
 ms.author: elsh
 manager: dougeby
-ms.date: 01/06/2020
-ms.topic: conceptual
+ms.date: 01/14/2020
+ms.topic: reference
 ms.prod: biztalk-server
 # optional metadata
 
@@ -22,7 +22,7 @@ ms.custom: biztalk-2020
 
 # XSLT Transform Engine (Grid Property)
 
-**Applicable starting BizTalk Server 2020**, user can choose Saxon:registered: as XSLT transform engine. It is also possible to plug-in your own XSLT transform engine. Use **XSLT Transform Engine** property to specify the XSLT transform engine you wish to use.
+**Starting with BizTalk Server 2020**, user can choose Saxon:registered: as XSLT transform engine. It is also possible to plug-in your own XSLT transform engine. Use **XSLT Transform Engine** property to specify the XSLT transform engine you wish to use.
 
 BizTalk's default XSL transform engine implementation is based on .Net Framework [XSLT Transformations](https://docs.microsoft.com/dotnet/standard/data/xml/xslt-transformations). This support is limited to XSLT 1.0. Use this property to configure other XSL transform engines at map level. This makes it possible for BizTalk server maps to support newer versions of XSLT. Using Saxon:registered: one can readily use XSLT3.0.
 
@@ -59,7 +59,6 @@ Compiler
 </tbody>
 </table>
 
-
 ## Default Value
 
 Undefined
@@ -77,22 +76,25 @@ Undefined
     For example: 
 
 ```xml
-	<Transform 
-		DisplayName="Saxon 9 HE"
-		TypeAssemblyQualifiedName="Microsoft.XLANGs.BaseTypes.SaxonHEXsltTransform, Microsoft.XLANGs.BaseTypes, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-	/>
- ```
+<Transform
+  DisplayName="Saxon 9 HE"
+  TypeAssemblyQualifiedName="Microsoft.XLANGs.BaseTypes.SaxonHEXsltTransform, Microsoft.XLANGs.BaseTypes, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+/>
+```
+
 Your custom transform engine will show up in the **XSLT transform engine** drop-down list after Visual Studio restart.
 
 ## Global XSLT transform engine
 
 When the map-level XSLT tranform engine is set to "Undefined", the global XSLT transform engine is used. 
 
-By default BizTalk uses ".Net Framework" as the global engine. To override this value, specify the AssemblyQualifiedName of the class implementing the transformation engine as a string value "XsltEngine" in the BizTalk Server registry at 
-- "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk Server\3.0\Configuration" (for 64 bit host instances)
-- "HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\BizTalk Server\3.0\Configuration" (for 32 bit host instances)
+By default BizTalk uses ".Net Framework" as the global engine. To override this value, specify the AssemblyQualifiedName of the class implementing the transformation engine as a string value "XsltEngine" in the BizTalk Server registry:
+
+- 64 bit host instances: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk Server\3.0\Configuration`
+- 32 bit host instances: `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\BizTalk Server\3.0\Configuration`
 
 ## Saxon:registered: 9 transform engine
+
 >[!IMPORTANT]
 >Saxon:registered: 9 doesn't support embedded scripting . As a result, functoids shipped as part of BizTalk may not function well with Saxon 9. 
 
@@ -100,18 +102,13 @@ You must refer to Saxon:registered: documentation for scope of XSLT and Xpath su
 
 **Custom Extension XML** is still a supported way for creating your custom extension for Saxon 9 HE transform engine. Create custom .Net extension functions by implementing interface `ExtensionFunction` or `ExtensionFunctionDefinition`, and add your implementations into **Custom Extension XML**.  Saxon 9 HE transform engine will register extension functions defined in **Custom Extension XML**, and transform processor can then recognize and invoke any call from XSLT.
 
-
-
-## Remark
+## Remarks
 
 > [!NOTE]
-> <P>You cannot undo or redo the <STRONG>XSLT transform engine</STRONG> property.</P>
-
-
+> You cannot undo or redo the <STRONG>XSLT transform engine</STRONG> property.
 
 ## See Also
 
 [Grid Properties](grid-properties.md)
 
 [Custom Extension XML](custom-extension-xml-grid-property.md)
-

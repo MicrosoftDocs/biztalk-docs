@@ -11,15 +11,10 @@ mtps_version: v=BTS.80
 
 # Grid Properties
 
- 
-
 Grid properties are displayed in the Microsoft® Visual Studio Properties window when you click in the background of a grid page. These properties control global aspects of how a map is created and compiled. Many of these properties, specifically those in the Custom Header category, correspond to attributes of the XSL **output** element, allowing you to specify options for use in serializing the transformation output.
-
 
 > [!NOTE]
 > <P>Grid properties apply to the grid as a whole, and not to the individual pages in the grid. In other words, if you set a grid property on one grid page, and then set the same property when a different grid page is showing, you are setting the same single property, and not two different instances of the same property.</P>
-
-
 
 The following table describes grid properties.
 
@@ -159,4 +154,3 @@ Provides a value for the <strong>encoding</strong> attribute of the XSL <strong>
 </tr>
 </tbody>
 </table>
-

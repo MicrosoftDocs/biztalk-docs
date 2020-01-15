@@ -40,7 +40,11 @@
       "uhfHeaderId": "MSDocsHeader-BizTalk",
        "feedback_system": "None"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "author": {"troubleshooting/*.md": "MandiOhlinger"},
+      "ms.author": {"troubleshooting/*.md": "mandia"},
+      "titleSuffix": {"troubleshooting/*.md": "BizTalk Server"}
+    },
     "template": [],
     "dest": "biztalk",
     "markdownEngineName": "markdig"

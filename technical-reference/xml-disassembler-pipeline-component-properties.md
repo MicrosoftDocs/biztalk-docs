@@ -4,16 +4,14 @@ TOCTitle: XML Disassembler Pipeline Component Properties
 ms:assetid: bec76e08-3a06-43ff-b22f-3c71f00f7783
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578415(v=BTS.80)
 ms:contentKeyID: 51531004
-ms.date: 01/07/2020
+ms.date: 01/14/2020
 ms.custom: biztalk-2020
 mtps_version: v=BTS.80
 f1_keywords:
 - Microsoft.BizTalk.Component.XmlDasmComp
 ---
 
-# XML Disassembler Pipeline Component Properties
-
- 
+# XML Disassembler Pipeline Component Properties 
 
 Use the XML disassembler pipeline component to do the following:
 
@@ -49,7 +47,7 @@ Default value: Empty collection (Collection)</td>
 </tr>
 <tr class="odd">
 <td><strong>DTD Processing</strong></td>
-<td>Indicate whether to allow DTD processing within the pipeline. Valid values are: Parse, Ignore, Prohibit. This property is available <b>BizTalk Server 2020</b> onwards. <br />
+<td>Indicate whether to allow DTD processing within the pipeline. Valid values are: Parse, Ignore, Prohibit. This property is available in BizTalk Server 2020 and newer.<br />
 <br />
 Default value: empty</td>
 </tr>

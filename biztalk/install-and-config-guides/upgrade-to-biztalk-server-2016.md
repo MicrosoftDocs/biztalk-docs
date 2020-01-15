@@ -13,7 +13,9 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
+
 # Upgrade to BizTalk Server 2016
+
 Upgrading to [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] from [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)], or BizTalk Server 2013.
 
 This topic provides an overview of the [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] upgrade process, key information, and step-by-step instructions for upgrading from BizTalk Server 2013 R2 or BizTalk Server 2013.
@@ -183,6 +185,7 @@ In a multicomputer environment, upgrade the SSO master secret server computer. T
 4. Development and any other remaining computers that are running BizTalk Server
 
 **Additional**
+
 Using the Settings Dashboard, you can extensively tweak BizTalk Server settings for performance optimization. You can also modify settings for the BizTalk Group, BizTalk Host, and BizTalk Host Instance. See [Using Settings Dashboard for BizTalk Server Performance Tuning](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md).
 
 ### General information
@@ -222,7 +225,7 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 |         Install Visual Studio         |                         See [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md) for the supported versions. Different Visual Studio versions can be installed side-by-side. See [Visual Studio 2015](https://msdn.microsoft.com/library/ms246609(v=vs.140).aspx) and [Visual Studio 2013](https://msdn.microsoft.com/library/ms246609(v=vs.120).aspx).                         |
 |            Install Office             |                                     See [Install and use different versions of Office](https://support.office.com/article/Install-and-use-different-versions-of-Office-on-the-same-PC-6EBB44CE-18A3-43F9-A187-B78C513788BF) on the same computer. [Hardware and Software Requirements for BizTalk Server 2016](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md) lists the supported Office versions.                                     |
 | Stop the BizTalk and Windows Services |                                                                                                      - BizTalk Service BizTalk Group:  *<Application_Name>*<br/>- BizTalk Base EDI Service<br/>- Rule Engine Update Service<br/>- World Wide Web Publishing Service<br/><br/>**NOTE**<br/>If you have any BizTalk Server accelerators installed, stop the HL7 Logging Service.                                                                                                      |
-|         Back up the databases         | - Master<br/>- MSDB<br/>- BAMArchive<br/>- BAMPrimaryImport<br/>- BAMStarSchema<br/>- BizTalkDTADb<br/>- BizTalkEDIDb<br/>- BizTalkHwsDb<br/>- BizTalkMgmtDb<br/>- BizTalkMsgBoxDb<br/>- BizTalkRuleEngineDb<br/>- TPM<br/>- BizTalkAnalysisDb<br/>- BAMAnalysis<br/><br/>[SQL Server 2014: Backup Overview](https://technet.microsoft.com/library/ms175477(v=sql.120).aspx)<br/>[SQL Server 2012: Backup Overview](https://technet.microsoft.com/library/ms175477(v=sql.110).aspx) |
+|         Back up the databases         | - Master<br/>- MSDB<br/>- BAMArchive<br/>- BAMPrimaryImport<br/>- BAMStarSchema<br/>- BizTalkDTADb<br/>- BizTalkHwsDb<br/>- BizTalkMgmtDb<br/>- BizTalkMsgBoxDb<br/>- BizTalkRuleEngineDb<br/>- TPM<br/>- BizTalkAnalysisDb<br/>- BAMAnalysis<br/><br/>[SQL Server 2014: Backup Overview](https://technet.microsoft.com/library/ms175477(v=sql.120).aspx)<br/>[SQL Server 2012: Backup Overview](https://technet.microsoft.com/library/ms175477(v=sql.110).aspx) |
 |  Configure SQL Server Database Mail   |                                                                                                                      Applies only if you use BAM Alert definitions with SQL Server Notification Services.<br/><br/>**Before the upgrade** (in this topic) lists the specific steps.<br/><br/>Otherwise, recreate the BAM Alert definitions after you upgrade.                                                                                                                       |
 
 ## Do the upgrade
@@ -241,7 +244,7 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 3. In Start, select **Install Microsoft BizTalk Server**.
 4. In **Customer Information**, enter your user name, organization, and product key. Select **Next**.
 5. Accept the license agreement, and select **Next**.
-6. In Customer Experience Improvement Program, enter you preference. See **Appendix A** (in this topic) for more information.
+6. In Customer Experience Improvement Program, enter you preference. See [Appendix A](#appendix-a-customer-experience-improvement-program) (in this article) for more information.
 7. In **Component Installation**, review the available components, and select **Next**.
 8. If your computer is missing a prerequisite, Setup can install the redistributable prerequisites. You can either:
 
@@ -257,7 +260,8 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 12. In **Upgrade Completed**, clear the L**aunch BizTalk Server Configuration** check box, and then select **Finish**.
 
 **ADDITIONAL**
-A lot happens during an upgrade of BizTalk Server, and it’s not uncommon to run into an error during the process. However, most errors are easily remedied if you’re prepared. We recommend reading the **Appendix B** (in this topic) for tips on how to avoid upgrade errors, and what to do if one occurs.
+
+A lot happens during an upgrade of BizTalk Server, and it’s not uncommon to run into an error during the process. However, most errors are easily remedied if you’re prepared. We recommend reading [Appendix B](#appendix-b-known-issues) (in this article) for tips on how to avoid upgrade errors, and what to do if one occurs.
 
 The upgrade process only upgrades features that were part of your previous version of BizTalk Server. New features are not installed during an upgrade. To install these features, rerun Setup after the upgrade, choose **Modify**, and select the features you want to install. Once installed, configure them using the **BizTalk Server Configuration Manager**.
 

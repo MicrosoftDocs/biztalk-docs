@@ -2,7 +2,7 @@
 title: "Use Logic App adapter in BizTalk Server| Microsoft Docs"
 description: Install and configure the Logic Apps adapter to create a receive port, receive location, and send port in BizTalk Server
 ms.custom: "biztalk-2020"
-ms.date: "12/26/2019"
+ms.date: "01/14/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -13,11 +13,11 @@ ms.assetid: 72f2a5ac-a1f6-4bdb-8c29-8267ede75b17
 caps.latest.revision: 12
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "anneta"
+manager: "dougeby"
 ---
-# Logic App Adapter
 
-## Overview
+# Install and use the Logic App Adapter on BizTalk Server
+
 BizTalk Server uses the Logic Apps adapter to receive messages from an Azure logic app, or send messages to an Azure logic app. 
 
 In Azure, we create a logic app. This logic app uses the BizTalk Connector to connect to a receive location that you create on your BizTalk Server. This topic assumes you have some familiarity with Azure Logic Apps. If you're new to logic apps, we suggest [learning more about them](https://azure.microsoft.com/documentation/articles/app-service-logic-what-are-logic-apps/), and even [creating your own logic app](https://azure.microsoft.com/documentation/articles/app-service-logic-create-a-logic-app/).
@@ -33,12 +33,15 @@ Use this topic to create a receive location and a send port using the Logic Apps
 ## Requirements
 
 - An Azure subscription to sign-in to the Azure portal, and create a logic app.
-- Optional. To send a test message to your logic app, install an HTTP testing tool, such as [Fiddler](http://www.telerik.com/fiddler) or [Postman](https://www.getpostman.com/). If you use another method to send a message to a logic app, you don't have to use these tools. 
+- Optional. To send a test message to your logic app, install an HTTP testing tool, such as [Fiddler](http://www.telerik.com/fiddler) or [Postman](https://www.getpostman.com/). If you use another method to send a message to a logic app, you don't have to use these tools.
 
-#### Install the Logic App adapter
+## Install the Logic App adapter
 
-> [!NOTE]
-> This section applies to **BizTalk Server 2016 only**. 
+### BizTalk Server 2020 and newer
+
+Starting with BizTalk Server 2020, the Logic App adapter is included with the BizTalk Server installation.
+
+### BizTalk Server 2016
 
 1. On your BizTalk Server, download and install the Logic App adapter:
    - Go to [Microsoft BizTalk Server Adapter for Logic Apps](https://www.microsoft.com/download/details.aspx?id=54287), and save.
@@ -61,13 +64,14 @@ Once installed, you have the following:
 
 There are a few steps involved for BizTalk Server to receive messages from a logic app. This section lists these steps. It's possible the user interface in Azure changes, so some of the steps may not be exactly as listed. 
 
-#### Prerequisites
+### Prerequisites
 
 - If BizTalk Server is on-premises, install and configure the [on-premises data gateway](https://azure.microsoft.com/documentation/articles/app-service-logic-gateway-install/) for Logic Apps. Then, in Azure, [create the data gateway resource](https://azure.microsoft.com/documentation/articles/app-service-logic-gateway-connection/) to connect to your BizTalk Server.
 - If BizTalk Server is installed on an Azure VM, and the VM is not exposed as an HTTP endpoint, then install and configure the [on-premises data gateway](https://azure.microsoft.com/documentation/articles/app-service-logic-gateway-install/) for Logic Apps. Then, in Azure, [create the data gateway resource](https://azure.microsoft.com/documentation/articles/app-service-logic-gateway-connection/) to connect to your BizTalk Server.
 - If BizTalk Server is installed on an Azure VM, and the VM is exposed as an HTTP endpoint, then the gateway is not needed or used. 
 
-#### Using the NullAdapter and Logic App Adapter together
+### Using the NullAdapter and Logic App Adapter together - BizTalk Server 2016 only
+
 If you install the Logic App Adapter and the NullAdapter, you may see the following error:
 
 `Another adapter with the same OutboundEngineCLSID value already exists`
@@ -89,25 +93,29 @@ You can run the IIS applications using a new application pool, or an existing ap
 > If you create a new application pool, then keep the default .NET CLR version, and managed pipeline. Remember, choose an identity (Advanced Settings) that has membership to the same BizTalk groups as your BizTalk service account. 
 
 #### Create the Management IIS application
+
 The URL of this IIS application is used by the BizTalk Connector (in your logic app) to use the data gateway on your BizTalk Server.
 
-##### For BizTalk Server 2016
+##### BizTalk Server 2020 and newer
+
+1. Configure the REST APIs using the BizTalk Configuration Wizard. For help with configuration, please refer to the [Configuration Guide](../install-and-config-guides/configure-biztalk-server.md). For more details about the REST APIs, please refer to the [BizTalk REST API Reference](https://docs.microsoft.com/rest/api/biztalk)
+2. Open a web browser, and go to `http://localhost/BizTalkManagementService/Schemas`. Either a list of schemas display, or you are prompted to open/save `schemas.json`. The actual result depends on your web browser. If neither of these happens, then please check your REST API configuration.
+
+##### BizTalk Server 2016
+
 1. Open the Internet Information Services (IIS) Manager.
 2. Right-click **Default Web Site**, and **Add Application**. In this new application: 
 
     1. Enter the **Alias** (name) for your application, such as **IISLogicApp**. 
     2. **Select** the application pool.
     3. Set the **Physical path** to `C:\Program Files (x86)\Microsoft BizTalk Server 2016\LogicApp Adapter\Management`. 
-    3. **Test Settings** to confirm the application pool identity passes the Authentication and Authorization tests.
+    4. **Test Settings** to confirm the application pool identity passes the Authentication and Authorization tests.
 
 3. Select **OK** to save your changes.
 4. Open a web browser, and go to `http://localhost/YourApplicationAlias/schemas?api-version=2016-10-26`, such as `http://localhost/IISLogicApp/Schemas?api-version=2016-10-26`. Either a list of schemas display, or you are prompted to open/save `schemas.json`. The actual result depends on your web browser. If neither of these happens, then your AppPool identity may be missing membership to the BizTalk groups.
 
-##### For BizTalk Server 2020 onwards
-1. Configure the REST APIs using the BizTalk Configuration Wizard. For help with configuration, please refer to the [Configuration Guide](../install-and-config-guides/configure-biztalk-server.md). For more details about the REST APIs, please refer to the [BizTalk REST API Reference](https://docs.microsoft.com/rest/api/biztalk)
-2. Open a web browser, and go to `http://localhost/BizTalkManagementService/Schemas`. Either a list of schemas display, or you are prompted to open/save `schemas.json`. The actual result depends on your web browser. If neither of these happens, then please check your REST API configuration.
-
 #### Create the BizTalk ReceiveService IIS application
+
 The URL of this IIS application is used by the BizTalk Connector (in your logic app) when you choose the receive location. 
 
 1. Open the Internet Information Services (IIS) Manager.
@@ -155,7 +163,7 @@ The URL of this IIS application is used by the BizTalk Connector (in your logic 
 
 8. **Save** your changes. 
 
-When you save, the HTTP Request trigger automatically creates a URL. Copy this URL; you need it in **Step 5: Send a message**.
+When you save, the HTTP Request trigger automatically creates a URL. Copy this URL. You need it in [Step 4: Send a message](#step-4-send-a-message) (in this article).
 
 ### Step 3: Create a receive port and a receive location
 
@@ -202,7 +210,6 @@ This section lists the steps to create your own artifacts.
     | Transport client credential types | Choose the credential type when using client authentication. Options:  <br/><br/><ul><li>None: No authentication occurs at the transport level.</li><li>Basic: Uses Basic authentication to send user names and passwords in plain text over the network. You must create the domain or local user accounts corresponding to the credentials.</li><li>Digest: Uses Digest authentication to send passwords as a hash value over the network. Only available on domains with domain controllers running Windows Server operating systems authentication. You must create the domain or local user accounts corresponding to client credentials.</li><li>Ntlm: Default. Clients sends the credentials without sending a password to this receive location. You must create the domain or local user accounts corresponding to client credentials.</li><li>Windows: Windows integrated authentication negotiates Kerberos or NTLM, preferring Kerberos if a domain is present. To use Kerberos, it is important to have the client identify the service with a service principal name (SPN). You must create the domain or local user accounts corresponding to client credentials.</li><li>Certificate: Uses a client certificate. The CA certificate chain for the client X.509 certificates must be installed in the Trusted Root Certification Authorities certificate store of this computer so that the clients can authenticate to this receive location.</li><li>InheritedFromHost</li></ul> |
     | Use Single Sign-On | |
 
-
 10. **Optional**. In the **Messages** tab, use the **Outbound HTTP Headers** property to add any custom headers, and use the additional properties to help with faults: 
 
     | Use this | To do this |
@@ -226,7 +233,6 @@ This section lists the steps to create your own artifacts.
 
 4. Because this is a one-way call to BizTalk, the result should be an HTTP 202. If you're using the HelloWorld SDK sample, go to your BizTalk server. There may be a file in your send folder. 
 
-
 ## Send messages to a logic app
 
 ### Step 1: Create a logic app
@@ -239,7 +245,6 @@ This section lists the steps to create your own artifacts.
     ![LogicAppExample](../core/media/logicappexample.gif)
 
 5. Copy the HTTP POST URL that is automatically created when you save the logic app; you need this URL in the next step. You may have to close and reopen the logic app to see the URL.  
-
 
 ### Step 2: Create a Send Port
 
@@ -261,7 +266,7 @@ For BizTalk Server to send messages to a logic app, the logic app must have a **
       > You can also use your management APIs to get this URI.
 
       **Option 2** : If you don't know the Callback URI for your trigger, select **Configure**, and sign-in to Azure. Then, use the drop-down lists to choose your **Subscription**, **Resource Group**, **Logic App**, and **Trigger**.
- 
+
 6. **Optional**. In the **Binding** tab, configure any timeout and encoding-related properties of the underlying WCF-WebHttp binding. These properties are helpful when dealing with large messages.
 
     | Use this | To do this |

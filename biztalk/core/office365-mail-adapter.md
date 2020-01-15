@@ -2,7 +2,7 @@
 title: "Use the Office 365 Outlook Email adapter | Microsoft Docs"
 description: Send and receive email messages using the Office 365 Outlook Email adapter in BizTalk Server. To do this, create a receive port and send port using the email adapter, and use sample messages to test your ports. 
 ms.custom: "biztalk-2020"
-ms.date: "01/10/2020"
+ms.date: "01/13/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -13,6 +13,7 @@ author: "MandiOhlinger"
 ms.author: "ribarua"
 manager: dougeby
 ---
+
 # Send and receive email with Office 365 Outlook Email adapter - BizTalk Server
 
 The Office 365 Outlook Email Adapter allows you to send and receive mails from your Office 365 Outlook Email from BizTalk.
@@ -29,33 +30,32 @@ The Office 365 Outlook Email Adapter allows you to send and receive mails from y
 
 4. Allow BizTalk Server approval for permission to access:
 
-    ![Office 365 Mail permissions](../core/media/office365-mail-permissions.png)
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 adapter mail permissions in BizTalk Server](../core/media/office365-mail-permissions.png)
 
 5. Configure your Office 365 Outlook Email **General** properties:
 
-    |Use this|To do this|  
-    |---|---|  
-    | **To** | Specify your default To mail addresses separated by ';' (256 character max)|
-    | **CC** | Specify your default CC mail addresses separated by ';' (256 character max)|
-    | **Subject** | Mention your default mail subject. (256 character max) |
-    | **Importance** | Select your value of Importance. Dropdown contains values **Low**, **Normal** and **High** with **Normal** being the default. |
+    - **To**: Enter your default To mail addresses separated by ';' (256 character max)
+    - **CC**: Enter your default CC mail addresses separated by ';' (256 character max)
+    - **Subject**: Mention your default mail subject. (256 character max)
+    - **Importance**: Select your value of Importance. Dropdown contains values **Low**, **Normal**, and **High** with **Normal** being the default.
 
     When finished, your properties look similar to the following:
 
-    ![Endpoint properties](../core/media/office365-mail-send-properties.png)
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Outlook Email General properties in BizTalk Server](../core/media/office365-mail-send-properties.png)
 
 6. Configure your Office 365 Outlook Email **Attachments** properties:
 
     The body of the email being sent corresponds to the body part of the BizTalk message. To add attachments to the email, do the following:
 
-    |Use this|To do this|  
-    | --- | --- |  
-    | **Attach BizTalk message parts** | If checked, BizTalk message non-body parts will be added as attachments to the email sent.|
-    | **Files** | Specifies that a file or files will be attached to the e-mail message and the full path to the file or files. The specified path or paths must be accessible to the host for the adapter at run time. Default value: empty. |
+    - **Attach BizTalk message parts**: If checked, BizTalk message non-body parts are added as attachments to the email sent.
+    - **Files**: Specifies that a file or files are attached to the e-mail message and the full path to the file or files. The specified path or paths must be accessible to the host for the adapter at run time. Default value: empty.
 
     After selecting some files, the attachments properties look similar to the following:
 
-    ![Endpoint properties](../core/media/office365-mail-send-attachments-properties.png)
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Outlook Email Attachments properties in BizTalk Server](../core/media/office365-mail-send-attachments-properties.png)
 
 7. Select **Ok** to save your changes.
 
@@ -63,14 +63,13 @@ The Office 365 Outlook Email Adapter allows you to send and receive mails from y
 
 1. The default properties may also be updated using promoted properties:
 
-    Property|Promoted property|
+    |Property Name| Promoted Property|
     |---|---|
-    | **To** | OfficeMail.To |
-    | **CC** | OfficeMail.CC |
-    | **Subject** | OfficeMail.Subject |
-    | **Importance** | OfficeMail.Importance |
-    | **Attached Files** | OfficeMail.AttachedFiles |
-
+    | **To** | OfficeMail.To|
+    | **CC** | OfficeMail.CC|
+    | **Subject** | OfficeMail.Subject|
+    | **Importance** | OfficeMail.Importance|
+    | **Attached Files** | OfficeMail.AttachedFiles|
 
 2. The **OfficeMail.AttachedFiles** property value is list of files with "|" as delimiter in between different files. For instance: "C:\\Attachments\File1.pdf|C:\\Attachments\File2.xml".
 
@@ -110,36 +109,35 @@ You can use a simple File receive port and location to send messages to your Off
 
 3. Select **New**, and **Name** the receive location. In **Transport**, select **Office 365 Outlook Email** from the **Type** drop-down list, and then select **Configure**.
 
-4. Select **[Sign in …**, and sign in to your Office 365 Account. The account is auto-populated with your email address.
+4. Select **Sign in …**, and sign in to your Office 365 Account. The account is auto-populated with your email address.
 
 5. Allow BizTalk Server approval for permission to access:
 
-    ![Office 365 Mail permissions](../core/media/office365-mail-permissions.png)
+    > [!div class="mx-imgBorder"]
+    > ![Allow BizTalk Server approval for permission to access Office 365 Mail permissions](../core/media/office365-mail-permissions.png)
 
 6. Configure the endpoint **General** properties:
 
-    |Use this|To do this|  
-    |---|---|  
-    | **Folder** | Select the folder to get email. The default folder is Inbox. Note that folders aren’t recursive in nature. For example, email from subfolders are not retrieved. |
-    | **Start from** | Enter how email is received from Office 365. This value indicates receivedTimeStamp of an email in Office 365 Outlook. Email more recent than the entered values are received.  |
-    | **Unread mails only** | Check this to read only unread email. Keep it unchecked to read all email. |
-    | **Post Action** | Select a post action to be performed after an email is read. **None** is the default, and does nothing after email is received by BizTalk. **Mark as read** implies, that after an email is received by BizTalk, the email in your mailbox is marked as read. **Delete** implies, that after an email is received by BizTalk, the email in your mailbox is deleted. Post actions are performed on a best-effort basis.|
+    - **Folder**: Select the folder to get email. The default folder is Inbox. Note that folders aren’t recursive in nature. For example, email from subfolders are not retrieved.
+    - **Start from**: Enter how email is received from Office 365. This value indicates receivedTimeStamp of an email in Office 365 Outlook. Email more recent than the entered values are received.
+    - **Unread mails only**: Check this to read only unread email. Keep it unchecked to read all email.
+    - **Post Action**: Select a post action to be performed after an email is read. **None** is the default, and does nothing after email is received by BizTalk. **Mark as read** implies, that after an email is received by BizTalk, the email in your mailbox is marked as read. **Delete** implies, that after an email is received by BizTalk, the email in your mailbox is deleted. Post actions are performed on a best-effort basis.
 
     When finished, your properties look similar to the following:
 
-    ![Endpoint properties](../core/media/office365-mail-receive-properties.png)
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 mail Endpoint properties in BizTalk Server](../core/media/office365-mail-receive-properties.png)
 
 7. Configure the endpoint **Payload** properties:
 
-    |Use this|To do this|  
-    |---|---|  
-    | **Deliver MIME** | Select this to save the MIME representation of an email. The MIME content will contain email body and all attachments.|
-    | **Process content** | Select this to save the email body. It is selected by default. The content type of the email body will be saved in the ContentType property of the created BizTalk message. |
-    | **Include attachments** | Check this to save email attachments as parts of the BizTalk message. It is unchecked by default. Each BizTalk message part has the ContentType property set to the MIME type of the attachment. Attachments that are Outlook items (emails, calendar events, contacts) are saved in their MIME representation.|
-   
+    - **Deliver MIME**: Saves the MIME representation of an email. The MIME content includes email body and all attachments.
+    - **Process content**: Saves the email body. It is selected by default. The content type of the email body is saved in the ContentType property of the created BizTalk message.
+    - **Include attachments**: Saves email attachments as parts of the BizTalk message. It is unchecked by default. Each BizTalk message part has the ContentType property set to the MIME type of the attachment. Attachments that are Outlook items (emails, calendar events, contacts) are saved in their MIME representation.
+
     When finished, your properties look similar to the following:
 
-    ![Endpoint properties](../core/media/office365-mail-receive-payload-properties.png)
+    > [!div class="mx-imgBorder"]
+    > ![Payload Endpoint properties for Office 365 adapter in BizTalk Server](../core/media/office365-mail-receive-payload-properties.png)
 
 8. Select **Ok** to save your changes.
 
@@ -165,4 +163,5 @@ The following properties from the Receive Pipeline are promoted by default:
 | **HasAttachments**| OfficeMail.HasAttachments |
 
 ## Next steps
+
 See all the [Office 365 adapters](office365-adapters.md).
