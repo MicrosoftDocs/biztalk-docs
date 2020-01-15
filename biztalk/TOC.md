@@ -2178,7 +2178,7 @@
 ####### [Configure Per-instance Pipeline Properties for a Receive Location](core/how-to-configure-per-instance-pipeline-properties-for-a-receive-location.md)
 ####### [Enable a Receive Location](core/how-to-enable-a-receive-location.md)
 ####### [Disable a Receive Location](core/how-to-disable-a-receive-location.md)
-####### [Configure scheduling on receive lsocations](core/how-to-configure-scheduling-for-a-receive-location.md)
+####### [Configure scheduling on receive locations](core/how-to-configure-scheduling-for-a-receive-location.md)
 ####### [Connect to Azure API Management](core/connect-to-azure-api-management.md)
 ####### [Assign a Certificate to a Receive Location](core/how-to-assign-a-certificate-to-a-receive-location.md)
 ####### [Remove a Certificate from a Receive Location](core/how-to-remove-a-certificate-from-a-receive-location.md)
