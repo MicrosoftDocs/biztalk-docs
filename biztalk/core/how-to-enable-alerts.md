@@ -25,7 +25,7 @@ Administrators use the **enable-alerts** command to enable all of the alerts on 
   
 1. Open a command prompt as follows: Click **Start**, click **Run**, type **cmd**, and then click **OK**.  
   
-2. Navigate to the tracking folder by typing [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking at the command prompt. Press **ENTER**.  
+2. Navigate to the tracking folder by typing [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]\Tracking at the command prompt. Press **ENTER**.  
   
 3. Type **bm enable-alerts -View:\<view name\>**.  
   
