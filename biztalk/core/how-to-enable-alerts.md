@@ -37,4 +37,4 @@ Administrators use the **enable-alerts** command to enable all of the alerts on 
 ## See Also  
  [Managing the BAM Dynamic Infrastructure](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM Management Utility](../core/bam-management-utility.md)   
- [enter link description here](../core/how-to-disable-alerts.md)
+ [How to Disable Alerts](../core/how-to-disable-alerts.md)
