@@ -349,7 +349,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/biztalk-get-started-scenarios.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-scenarios.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -390,7 +390,7 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/illustrations/dynamics-training.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/illustrations/dynamics-training.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
