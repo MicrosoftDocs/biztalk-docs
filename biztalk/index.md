@@ -349,14 +349,14 @@ ms.author: mandia
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-announcements-integrate-2017.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/illustrations/biztalk-get-started-scenarios.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Integrate 2020</h3>
                                                     <p>The integration love continues. Come and see how Microsoft
-                                                        and the integration community is changing the world, one workflow
-                                                        at a time.</p>
+                                                    and the integration community is changing the world, one workflow
+                                                    at a time.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -376,8 +376,26 @@ ms.author: mandia
                                                 <div class="cardText">
                                                     <h3>BizTalk magazine on Flipboard</h3>
                                                     <p>A great collection of BizTalk and integration resources that focus on
-                                                        on-premises and cloud. Read topics from experts in the community,
-                                                        and with Microsoft</p>
+                                                    on-premises and cloud. Read topics from experts in the community, and with Microsoft.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.integrationbootcamp.com/">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/media/illustrations/dynamics-training.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Global Integration Bootcamp</h3>
+                                                    <p>Get hands-on learning and experience from your fellow integrators.</p>
                                                 </div>
                                             </div>
                                         </div>
