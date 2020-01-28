@@ -20,11 +20,9 @@ manager: "dougeby"
 The following table lists the minimum hardware requirements for your BizTalk Server computer. In a production environment, the volume of traffic may require greater hardware requirements for your servers.
 
 - **Computer and processor**: A computer with an Intel Pentium-compatible CPU that is:
-  - 1 GHz or higher for single processors
-  - 900 MHz or higher for double processors
-  - 700 MHz or higher for quad processors
+  - 1.4 GHz or higher
 
-  Hyper-threading and dual-core processors are supported.
+  Hyper-threading and multi-core processors are supported.
 
   The 64-bit versions of BizTalk Server require a 64-bit operating system running on an x64-based system. Computers based on CPUs that are compatible with the AMD64 (x86-64) and Extended Memory 64-bit Technology (EM64T) processor architecture are considered x64-based systems.
 
