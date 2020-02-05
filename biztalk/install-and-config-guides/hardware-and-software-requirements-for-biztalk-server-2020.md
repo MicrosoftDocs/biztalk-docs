@@ -1,4 +1,4 @@
-ri---
+---
 title: "Hardware and Software Requirements for BizTalk Server 2020 | Microsoft Docs"
 description: Software prerequisites and supported version lists to install BizTalk Server 2020
 ms.custom: "biztalk-2020"
