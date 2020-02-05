@@ -1,7 +1,7 @@
 ---
 title: "Installing Data Provider Version 6.0 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "2/5/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
