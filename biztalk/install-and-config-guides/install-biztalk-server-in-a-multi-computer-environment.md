@@ -783,7 +783,7 @@ This database contains instance information that specifies how the notification 
 
 ## Use SCOM
 
-The BizTalk Server Management Pack for Operations Manager provides comprehensive discovery and monitoring of BizTalk Server components and applications that are running in multiple machines. For more information about the BizTalk Server Management Pack, see [BizTalk Server Monitoring Management Pack](https://www.microsoft.com/download/details.aspx?id=54291).
+The BizTalk Server Management Pack for Operations Manager provides comprehensive discovery and monitoring of BizTalk Server components and applications that are running in multiple machines. For more information about the BizTalk Server Management Pack, see [BizTalk Server Monitoring Management Pack](https://www.microsoft.com/download/details.aspx?id=100852).
 
 ## Next steps
 
