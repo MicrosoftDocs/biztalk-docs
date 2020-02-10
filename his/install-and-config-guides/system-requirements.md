@@ -16,7 +16,7 @@ manager: "anneta"
 
 # System Requirements
 
-These system requirements list the installation, configuration, and feature usage prerequisites for the [!INCLUDE[his2016].
+These system requirements list the installation, configuration, and feature usage prerequisites for Host Integration Server 2016.
 
 ## Requirements
 
@@ -26,7 +26,7 @@ These system requirements list the installation, configuration, and feature usag
 | Operating Systems | -   Windows Server 2019 (requires HIS 2016 CU3)<br />-   Windows Server 2016<br />-   Windows Server 2012 R2<br />-   Windows 10<br />-   Windows 8.1<br />-   Virtualization with Azure and Hyper-V  |
 |  .NET Framework  | Microsoft .NET Framework 4.6 using the [Web installer](https://go.microsoft.com/fwlink/p/?LinkId=528259) (<https://go.microsoft.com/fwlink/p/?LinkId=528259>) **OR** the [off-line installer](https://go.microsoft.com/fwlink/p/?LinkId=528233) (<https://go.microsoft.com/fwlink/p/?LinkId=528233>).  |
 |  Visual Studio  | The HIS designer supports the following Visual Studio versions:<br /><br /> -   Visual Studio 2015<br /> -   Visual Studio 2013 with Update 5 |
-| BizTalk Adapters and Tools | Supported [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] versions:<br /><br />-   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2020 (requires HIS 2016 CU3)<br />-   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2016<br />-   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 R2  |
+| BizTalk Adapters and Tools | Supported BizTalk Server versions:<br /><br />-   BizTalk Server 2020 (requires HIS 2016 CU3)<br />-   BizTalk Server 2016<br />-   BizTalk Server 2013 R2  |
 | Data Integration |  Data integration clients and DRDA Service support the following SQL Server versions:<br /><br />-   SQL Server 2019 (requires HIS 2016 CU3)<br />-   SQL Server 2017 (requires HIS 2016 CU3)<br />-   SQL Server 2016<br />-   SQL Server 2014<br />-   SQL Server 2012 |
 | WCF Channel for MQ and BizTalk adapter for MQ Series Client (MQSC) | Supported IBM WebSphere versions to configure the WCF Channel for MQ and BizTalk Adapter for MQSC:<br /><br /> -   IBM MQ 9 (requires HIS 2016 CU3)<br />-   IBM MQ 8<br />-   IBM MQ 7.5 (client, extended client, server) |
 | IBM operating systems | Supported IBM OS' to use the network integration features, including SNA services and terminal emulators:<br /><br /> -   IBM z/OS 2.3 (requires HIS 2016 CU3)<br />-   IBM z/OS 2.2<br />-   IBM z/OS 2.1<br />-   IBM z/VM 6.3<br />-   IBM z/VM 6.2<br />-   IBM z/VSE 6.2<br />-   IBM z/VSE 6.1<br />-   IBM i 7.3 (requires HIS 2016 CU3)<br />-   IBM i 7.2<br />-   IBM i 7.1 |
