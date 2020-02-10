@@ -45,14 +45,14 @@ Sign in as a member of the BizTalk Server Administrators group.
       In an upgrade, this value is set to the maximum of the existing **Large message size** and **LargeMessageFragmentSize** values.
 
     - **Enable fault tolerance**: When set to **On**, receive locations recover from transient errors, and aren't disabled. When set to **Off** (default), receive locations with transient errors are disabled in the faulty host instance, and BizTalk tries to recover the receive locations using the **Retry interval** value you enter. The receive location continues to run in other host instances.
-    
-    This setting applies to:  
-      - BizTalk Server 2020 and newer
+
+      This setting applies to:  
+        - BizTalk Server 2020 and newer
 
     - **Retry interval**: Set the interval, from 1 – 43200, for BizTalk server to recover receive locations from failures. Default value is `60`.
 
-    This setting applies to:  
-      - BizTalk Server 2020 and newer
+      This setting applies to:  
+        - BizTalk Server 2020 and newer
 
     - **Message box performance counter sampling interval**: Enter the interval to refresh the performance counters, from 1 – Maximum value of type Integer. The interval trades off load on database versus up-to-dateness of counters. The higher value means less frequently updated data, and lesser load on the database.
 
@@ -61,11 +61,11 @@ Sign in as a member of the BizTalk Server Administrators group.
     - **Enable group level tracking**: Select **On** to turn the group level tracking for BizTalk Server on. Turning off global tracking disables the tracking interceptors for the entire BizTalk Server group. So, BizTalk Server will not track events in its tracking tables. This setting doesn't impact BAM Tracking. Default is **On**.
     - **Allow import of tracking settings**: Select **On** to allow import of tracking settings when a binding file is imported. When unchecked, import of binding file will not impact BizTalk application artifact tracking settings. Default is **On**.
 
-    This setting applies to:  
-      - BizTalk Server 2016 and newer
+      This setting applies to:  
+        - BizTalk Server 2016 and newer
 
     - **Audit management operations**: Select **On** to enable audit of management operations. Default is **Off**.
-    
+
       This setting applies to:  
         - BizTalk Server 2020 and newer
 
