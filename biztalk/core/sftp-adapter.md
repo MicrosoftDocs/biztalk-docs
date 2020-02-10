@@ -1,8 +1,8 @@
 ---
 title: "SFTP Adapter | Microsoft Docs"
 description: Create or configure a receive location and send port using the SFTP adapter in BizTalk Server, including FAQs using the SFTP adapter
-ms.custom: ""
-ms.date: "02/26/2018"
+ms.custom: "biztalk-2020"
+ms.date: "01/22/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -50,8 +50,11 @@ BizTalk Server 2013 R2 and previous versions do not support WinSCP.
 
     |Use this|To do this|
     |--------------|----------------|
+    |Enable Timestamp Comparison|Available starting with BizTalk Server 2016 cumulative update 6. <br/><br/>If **Retain After Download** is set to True, this property determines whether a change in file timestamp will trigger a re-download of the file.<br /><br /> **Default value:** False|
     |Polling Interval|Specify the intervals at which the adapter polls the server. To poll continuously, set this value to zero.<br /><br /> **Default value:** 5|
-    |Unit|Specifies the unit in which the polling interval is specified, for example, Seconds, Minutes, Hours, or Days.<br /><br /> **Default value:** Seconds|
+    |Redownload Interval|Available starting with BizTalk Server 2016 cumulative update 6. <br/><br/>Specifies interval after which the file will be downloaded again. Applicable if **Retain After Download** is True and **Enable Timestamp Comparison** is set to False. If set to -1, the file will not be downloaded again.<br /><br /> **Default value:** 0 <br /><br /> -1 indicates that the adapter will not download files again.<br /><br /> 0 indicates that the adapter will download the file in each polling cycle.|
+    |Retain After Download|Available starting with BizTalk Server 2016 cumulative update 6. <br/><br/>Specifies whether the adapter will retain a file from the SFTP server after downloading it.<br/><br> **Default value:** False|
+    |Unit|Specifies the unit in which the polling interval is specified, for example, Seconds, Minutes, Hours, or Days.<br /><br /> **Default value:** Seconds|  
 
      **Proxy** (Available starting with BizTalk Server 2013 R2)
 
@@ -70,10 +73,12 @@ BizTalk Server 2013 R2 and previous versions do not support WinSCP.
     |Accept Any SSH Server Host Key|When **True**, the receive location accepts any SSH public host key from the server. When **False**, the receive location uses the fingerprint of the server for authentication. You enter the fingerprint in the **SSHServerHostKeyFingerPrint** property.<br /><br /> **Default value:** False|
     |Client Authentication Mode|Select the authentication method that the receive location uses for authenticating the client to the SSH Server. If set to **Password**, you must enter the value in the **Password** property. If set to **PublicKeyAuthentication**, you must enter the private key of the user in the **PrivateKey** property. If set to **MultiFactorAuthentication** you must enter **Username** with its **Password** and **PrivateKey**. Additionally, if the private key is protected by a password, enter the password as well for the **PrivateKeyPassword** property.<br /><br /> **Default value:** Password|
     |Encryption Cipher |Available starting with BizTalk Server 2013 R2. <br/><br/>Enter the kind of encryption cipher.<br/><br/>BizTalk Server 2013 R2 options: Auto, AES, and TripleDES<br/><br/>BizTalk Server 2016 options: Auto, AES, Arcfour, Blowfish, TripleDES, and DES|
+    |Key Exchange Algorithm Selection Policy |Available starting with BizTalk Server 2016 cumulative update 6. <br/><br/>Specify comma-separated list of KEX preference order. Token WARN is used to delimit substandard KEXes. Example: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1. Visit WinSCP website for latest information.|
     |Password|Specify the SFTP user password if you set the **ClientAuthenticationMode** to **Password**.|
     |Private Key|Specify the private key for the SFTP user if you set the **ClientAuthenticationMode** to **PublicKeyAuthentication**.<br /><br /> **Note:** The private key file must be the specified .ppk file.|
     |Private Key Password|Specify a private key password, if required for the key specified in the **PrivateKey** property.|
     |SSH Server Host Key FingerPrint|Specifies the fingerprint of the public host key for the SSH server.|
+    |SSO Affiliate|Available starting with BizTalk Server 2020. <br/><br/> Specify the Enterprise Single Sign-On affiliate application.|
     |User Name|Specifies a username to log on to the SFTP server.|
 
      **SSH Server**
@@ -122,10 +127,12 @@ BizTalk Server 2013 R2 and previous versions do not support WinSCP.
     |Access Any SSH Server Host Key|When **True**, the send port accepts any SSH public host key from the server. When **False**, the port matches the host key with the key specified in the **SSHServerHostKey** property.<br /><br /> **Default value:** False|
     |Client Authentication Mode|Specifies the authentication method that the send port uses for authenticating the client to the SSH Server. If set to **Password**, you must enter the value in the **Password** property. If set to **PublicKeyAuthentication**, you must enter the private key of the user in the **PrivateKey** property. If set to **MultiFactorAuthentication** you must provide **Username** with its **Password** and **PrivateKey**. Additionally, if the private key is protected by a password, enter the password as well for the **PrivateKeyPassword** property.<br /><br /> **Default value:** Password|
     |Encryption Cipher | Available starting with BizTalk Server 2013 R2.<br/><br/>Enter the kind of encryption cipher.<br/><br/>BizTalk Server 2013 R2 options: Auto, AES, and TripleDES<br/><br/>BizTalk Server 2016 options: Auto, AES, Arcfour, Blowfish, TripleDES, and DES|
+    |Key Exchange Algorithm Selection Policy |Available starting with BizTalk Server 2016 cumulative update 6. <br/><br/>Specify comma-separated list of KEX preference order. Token WARN is used to delimit substandard KEXes. Example: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1. Visit WinSCP website for latest information.|
     |Password|Specify the SFTP user password if you set the **ClientAuthenticationMode** to **Password**.|
     |Private Key|Specify the private key for the SFTP user if you set the **ClientAuthenticationMode** to **PublicKeyAuthentication**.|
     |Private Key Password|Specify a private key password, if required for the key specified in the **PrivateKey** property.|
     |SSH Server Host Key Finger Print|Specifies the fingerprint of the server used by the adapter to authenticate the server if the **AccessAnySSHServerHostKey** property is set to **False**. If the fingerprints do not match, the connection fails.|
+    |SSO Affiliate|Available starting with BizTalk Server 2020. <br/><br/> Specify the Enterprise Single Sign-On affiliate application.|
     |User name|Specifies a username for the secure FTP server.|
 
     **SSH Server**
