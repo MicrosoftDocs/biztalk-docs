@@ -1,7 +1,7 @@
 ---
 title: "Installing Data Provider Version 6.0 | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "2/5/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -41,11 +41,15 @@ This topic provides instructions to install the Data Provider Version 6.0.
 ## Supported OLE DB Data Consumers
  The Data Provider (32-bit x86 or 64-bit x64) is supported with these Microsoft OLE DB data consumers.
 
+-   SQL Server 2019
+
 -   SQL Server 2017
 
 -   SQL Server 2016
 
 -   SQL Server 2014
+
+-   SQL Server Data Tools for SQL Server 2019
 
 -   SQL Server Data Tools for SQL Server 2017
 
@@ -67,6 +71,8 @@ This topic provides instructions to install the Data Provider Version 6.0.
 -   IBM DB2 for i 7.2
 
 -   IBM DB2 for i 7.1
+
+-   IBM DB2 for LUW 11.5
 
 -   IBM DB2 for LUW 11
 
