@@ -1,7 +1,7 @@
 ---
 title: "How to Enable Receive Location fault tolerance  | Microsoft Docs"
 description: How to Enable Receive Location Fault Tolerance.
-author: "Pravakar Garnayak"
+author: "pravagar"
 ms.author: "pravagar"
 manager: "dougeby"
 ms.date: "02/13/2020"
