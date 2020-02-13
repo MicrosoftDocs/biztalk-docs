@@ -2609,6 +2609,7 @@
 ####### [Change the Console Colors for BTSTask](core/how-to-edit-the-console-colors-for-btstask.md)
 #### [Restart services, shut down BizTalk Server](core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)
 #### [Audit management operations](core/audit-management-operations.md)
+#### [Enable Receive Location fault tolerance](core/how-to-enable-receive-location-fault-tolerance.md)
 ### [Track and performance counters](core/monitoring-biztalk-server.md)
 #### [Tracking Dependencies Between Artifacts in a BizTalk Server Application](core/tracking-dependencies-between-artifacts-in-a-biztalk-server-application.md)
 #### [Performance Counters](core/performance-counters.md)
