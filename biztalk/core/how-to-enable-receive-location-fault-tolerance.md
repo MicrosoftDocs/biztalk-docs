@@ -39,4 +39,4 @@ For example, you create three host instances (A, B anc C) to run your HTTP recei
 
 ## Next steps
 
-[Configure scheduling](core/how-to-configure-scheduling-for-a-receive-location.md) on your receive location.
+[Configure scheduling](../core/how-to-configure-scheduling-for-a-receive-location.md) on your receive location.
