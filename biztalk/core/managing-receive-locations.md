@@ -34,6 +34,8 @@ This section provides instructions on creating, configuring, and managing receiv
 -   [Enable a Receive Location](../core/how-to-enable-a-receive-location.md)  
   
 -   [Disable a Receive Location](../core/how-to-disable-a-receive-location.md)  
+
+-   [Enable Receive Location Fault Tolerance](../core/how-to-enable-receive-location-fault-tolerance.md)  
   
 -   [Configure Scheduling for a Receive Location](../core/how-to-configure-scheduling-for-a-receive-location.md)  
 
