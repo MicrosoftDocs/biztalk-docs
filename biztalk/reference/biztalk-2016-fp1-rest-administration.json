@@ -269,7 +269,7 @@
                     "Applications"
                 ],
                 "summary": "GET Specific Application",
-                "operationId": "Applications_Get",
+                "operationId": "Applications_GetApplication",
                 "consumes": [],
                 "produces": [
                     "application/json",
@@ -1727,7 +1727,7 @@
                     "Orchestrations"
                 ],
                 "summary": "Get Specific Orchestration",
-                "operationId": "Orchestrations_Get",
+                "operationId": "Orchestrations_GetOrchestration",
                 "consumes": [],
                 "produces": [
                     "application/json",
@@ -1953,7 +1953,7 @@
                     "Parties"
                 ],
                 "summary": "Get Party",
-                "operationId": "Parties_Get",
+                "operationId": "Parties_GetParty",
                 "consumes": [],
                 "produces": [
                     "application/json",
@@ -2189,7 +2189,7 @@
                     "Pipelines"
                 ],
                 "summary": "Get Details about a specific Pipeline",
-                "operationId": "Pipelines_Get",
+                "operationId": "Pipelines_GetPipeline",
                 "consumes": [],
                 "produces": [
                     "application/json",
@@ -2371,7 +2371,7 @@
                     "ReceiveLocations"
                 ],
                 "summary": "Get receive location of a receive port",
-                "operationId": "ReceiveLocations_Get",
+                "operationId": "ReceiveLocations_GetReceiveLocation",
                 "consumes": [],
                 "produces": [
                     "application/json",
@@ -2633,7 +2633,7 @@
                     "ReceivePorts"
                 ],
                 "summary": "Get Receive Ports",
-                "operationId": "ReceivePorts_Get",
+                "operationId": "ReceivePorts_GetReceivePort",
                 "consumes": [],
                 "produces": [
                     "application/json",
@@ -2780,7 +2780,7 @@
                     "RoleLinks"
                 ],
                 "summary": "Get Role link",
-                "operationId": "RoleLinks_Get",
+                "operationId": "RoleLinks_GetRoleLink",
                 "consumes": [],
                 "produces": [
                     "application/json",
@@ -2945,7 +2945,7 @@
                     "Schemas"
                 ],
                 "summary": "GET a schemas by name.",
-                "operationId": "Schemas_Get",
+                "operationId": "Schemas_GetSchema",
                 "consumes": [],
                 "produces": [
                     "application/json",
@@ -3074,7 +3074,7 @@
                     "SendPortGroups"
                 ],
                 "summary": "Get specific SendPortGroup",
-                "operationId": "SendPortGroups_Get",
+                "operationId": "SendPortGroups_GetSendPortGroup",
                 "consumes": [],
                 "produces": [
                     "application/json",
@@ -3326,7 +3326,7 @@
                     "SendPorts"
                 ],
                 "summary": "Get Sendport",
-                "operationId": "SendPorts_Get",
+                "operationId": "SendPorts_GetSendPort",
                 "consumes": [],
                 "produces": [
                     "application/json",
@@ -3547,7 +3547,7 @@
                     "Transforms"
                 ],
                 "summary": "Get details about a specific transform",
-                "operationId": "Transforms_Get",
+                "operationId": "Transforms_GetTransform",
                 "consumes": [],
                 "produces": [
                     "application/json",
@@ -6899,7 +6899,7 @@
                     "description": "Outbound Message Body",
                     "type": "boolean"
                 },
-                "OrchestrationEvents": {
+                "OrchestartionEvents": {
                     "description": "Orchestration Events",
                     "type": "boolean"
                 },
