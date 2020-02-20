@@ -3,7 +3,7 @@ title: "Hardware and Software Requirements for BizTalk Server 2020 | Microsoft D
 description: Software prerequisites and supported version lists to install BizTalk Server 2020
 ms.custom: "biztalk-2020"
 ms.prod: biztalk-server
-ms.date: "01/14/2020"
+ms.date: "02/20/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -68,7 +68,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 
 - **Microsoft .NET Framework**: Required for all BizTalk Server managed components. BizTalk projects created in Visual Studio require the Visual Studio build target be set to your .NET Framework version. 
 
-  Supported versions:
+  Supported minium version:
 
   - .NET Framework 4.7
 
