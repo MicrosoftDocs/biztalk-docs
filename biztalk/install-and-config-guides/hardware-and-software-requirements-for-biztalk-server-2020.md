@@ -3,7 +3,7 @@ title: "Hardware and Software Requirements for BizTalk Server 2020 | Microsoft D
 description: Software prerequisites and supported version lists to install BizTalk Server 2020
 ms.custom: "biztalk-2020"
 ms.prod: biztalk-server
-ms.date: "01/14/2020"
+ms.date: "02/20/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -68,15 +68,15 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 
 - **Microsoft .NET Framework**: Required for all BizTalk Server managed components. BizTalk projects created in Visual Studio require the Visual Studio build target be set to your .NET Framework version. 
 
-  Supported versions:
+  Supported minimum version:
 
-  - .NET Framework 4.7
+  - .NET Framework 4.7.2
 
 - **Microsoft Visual Studio**: Optional. Provides a development environment for building BizTalk Server applications. Enterprise Edition is recommended, but Professional is also supported. Required for BizTalk Server Developer Tools and SDK.
 
-  Supported versions:
+  Supported minimum versions:
 
-  - Visual Studio 2019
+  - Visual Studio 2019 (Version 16.4.0)
 
 - **Microsoft Visual C++ 2015-2019 Redistributable Package**: Required. The Microsoft Visual C++ Redistributable Package installs runtime components of Visual C++ Libraries required to run applications developed with Visual C++ on a computer that doesn't have Visual C++ installed.
 
@@ -86,7 +86,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 
 - **Microsoft OLE DB Driver for SQL Server**: Required on all BizTalk Server devices.
 
-  Supported versions:
+  Supported minimum versions:
 
   - Microsoft OLE DB Driver 18.3.0 for SQL Server. Download at [Microsoft OLE DB Driver for SQL Server](https://docs.microsoft.com/sql/connect/oledb/download-oledb-driver-for-sql-server?view=sql-server-ver15).
 
@@ -101,7 +101,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 
   - Microsoft SQL Server 2019
   - Microsoft SQL Server 2017
-  - Microsoft SQL Server 2016 SP2
+  - Microsoft SQL Server 2016 SP2 CU7
 
 - **SSIS Catalog** (SSIDB): Optional. Required to use BAM. [Create the SSIS Catalog](https://docs.microsoft.com/sql/integration-services/create-the-ssis-catalog).
 
