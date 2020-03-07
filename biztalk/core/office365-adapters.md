@@ -27,7 +27,7 @@ Use the Office 365 Outlook adapters in BizTalk to send and receive messages betw
 ## Prerequisites
 
 - Have an [Office 365 account](https://outlook.office365.com)
-- [Configure BizTalk TMS service](../core/configure-biztalk-server.md#configure-biztalk-tms)
+- [Configure BizTalk TMS](../install-and-config-guides/configure-biztalk-server.md#configure-biztalk-tms)
 
 ## TMS overview
 
