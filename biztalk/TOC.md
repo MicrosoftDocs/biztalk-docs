@@ -381,6 +381,7 @@
 ### [What's new in Feature pack](core/configure-the-feature-pack.md)
 #### [Configure operational data service](core/configure-the-operational-data-feed-for-power-bi-with-biztalk-server.md)
 #### [Configure management REST APIs](core/install-and-configure-the-management-rest-apis-in-biztalk-server.md)
+#### [Configure BizTalk Server TMS](core/install-and-configure-biztalk-tms-for-fp.md)
 ## [BizTalk 2013 R2 & 2013](install-and-config-guides/biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)
 ### [What's New](install-and-config-guides/what-s-new-in-biztalk-server-2013-and-2013-r2.md)
 ### [Hardware and Software Requirements](install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)
