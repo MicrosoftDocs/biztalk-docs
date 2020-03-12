@@ -79,8 +79,5 @@
     "pdf": {
       "template_folder": "_themes.pdf"
     }
-  },
-  "docs_build_engine": {
-    "name": "docfx_v3"
-  }
+  }  
 }
