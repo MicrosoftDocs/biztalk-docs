@@ -32,7 +32,7 @@ In this section, we focus on the specific documentation for BizTalk Server 2020,
 * [Set up and install prerequisites](../install-and-config-guides/set-up-and-install-prerequisites-for-biztalk-server-2020.md)  
 * [Install BizTalk Server](../install-and-config-guides/install-biztalk-server-2020.md)
 * [Upgrade BizTalk Server](../install-and-config-guides/upgrade-to-biztalk-server-2020.md)
-* [Download Licensing Datasheet](http://download.microsoft.com/download/0/1/9/0194b3c5-72cc-4dcb-91a8-1908642c8fde/BizTalk_Server_2020_Licensing_Datasheet_EN_US.pdf)
+* [Download Licensing Datasheet](https://download.microsoft.com/download/0/1/9/0194b3c5-72cc-4dcb-91a8-1908642c8fde/BizTalk_Server_2020_Licensing_Datasheet_EN_US.pdf)
 * BizTalk Server VM Images on Azure Marketplace
     - [BizTalk Server 2020 Standard](https://azuremarketplace.microsoft.com/marketplace/apps/Microsoft.BizTalkServer2020Standard)
     - [BizTalk Server 2020 Enterprise](https://azuremarketplace.microsoft.com/marketplace/apps/Microsoft.BizTalkServer2020Enterprise)
