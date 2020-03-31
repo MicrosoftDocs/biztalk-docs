@@ -42,25 +42,6 @@ ms.author: mandia
                 </a>
             </li>
             <li>
-                <a href="/biztalk/core/configure-the-feature-pack">
-                    <div class="cardSize">
-                        <div class="cardPadding">
-                            <div class="card">
-                                <div class="cardImageOuter">
-                                    <div class="cardImage">
-                                        <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="" />
-                                    </div>
-                                </div>
-                                <div class="cardText">
-                                    <h3>Feature Pack</h3>
-                                    <p>See the newest features to BizTalk Server</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
                 <a href="/biztalk/technical-guides/">
                     <div class="cardSize">
                         <div class="cardPadding">
@@ -73,6 +54,25 @@ ms.author: mandia
                                 <div class="cardText">
                                     <h3>Technical Guides</h3>
                                     <p>BizTalk and Logic Apps white papers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.microsoft.com/host-integration-server">
+                    <div class="cardSize">
+                        <div class="cardPadding">
+                            <div class="card">
+                                <div class="cardImageOuter">
+                                    <div class="cardImage">
+                                        <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="cardText">
+                                    <h3>Host Integration Server</h3>
+                                    <p>See the newest features, and more</p>
                                 </div>
                             </div>
                         </div>
