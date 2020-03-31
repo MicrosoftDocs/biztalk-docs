@@ -2,7 +2,7 @@
 title: "Use the Office 365 Outlook Email adapter | Microsoft Docs"
 description: Send and receive email messages using the Office 365 Outlook Email adapter in BizTalk Server. To do this, create a receive port and send port using the email adapter, and use sample messages to test your ports. 
 ms.custom: "biztalk-2020"
-ms.date: "01/13/2020"
+ms.date: "03/31/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -128,7 +128,7 @@ You can use a simple File receive port and location to send messages to your Off
     > [!div class="mx-imgBorder"]
     > ![Office 365 mail Endpoint properties in BizTalk Server](../core/media/office365-mail-receive-properties.png)
 
-7. Configure the endpoint **Payload** properties:
+7. Configure the endpoint **Payload** properties (available starting with BizTalk Server 2020 and newer):
 
     - **Deliver MIME**: Saves the MIME representation of an email. The MIME content includes email body and all attachments.
     - **Process content**: Saves the email body. It is selected by default. The content type of the email body is saved in the ContentType property of the created BizTalk message.

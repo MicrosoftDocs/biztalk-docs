@@ -15,7 +15,7 @@ ms.workload: integration
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: hub-page
-ms.date: 01/27/2020
+ms.date: 03/31/2020
 ms.author: mandia
 ---
 
@@ -42,25 +42,6 @@ ms.author: mandia
                 </a>
             </li>
             <li>
-                <a href="/biztalk/core/configure-the-feature-pack">
-                    <div class="cardSize">
-                        <div class="cardPadding">
-                            <div class="card">
-                                <div class="cardImageOuter">
-                                    <div class="cardImage">
-                                        <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="" />
-                                    </div>
-                                </div>
-                                <div class="cardText">
-                                    <h3>Feature Pack</h3>
-                                    <p>See the newest features to BizTalk Server</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li>
                 <a href="/biztalk/technical-guides/">
                     <div class="cardSize">
                         <div class="cardPadding">
@@ -73,6 +54,25 @@ ms.author: mandia
                                 <div class="cardText">
                                     <h3>Technical Guides</h3>
                                     <p>BizTalk and Logic Apps white papers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://docs.microsoft.com/host-integration-server">
+                    <div class="cardSize">
+                        <div class="cardPadding">
+                            <div class="card">
+                                <div class="cardImageOuter">
+                                    <div class="cardImage">
+                                        <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="cardText">
+                                    <h3>Host Integration Server</h3>
+                                    <p>See the newest features, and more</p>
                                 </div>
                             </div>
                         </div>
@@ -101,8 +101,8 @@ ms.author: mandia
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>What’s New</h3>
-                                                    <p>See what’s new in your latest BizTalk version.</p>
+                                                    <h3>What's New</h3>
+                                                    <p>See what's new in your latest BizTalk version.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -353,9 +353,9 @@ ms.author: mandia
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Integrate 2020</h3>
-                                                    <p>The integration love continues. Come and see how Microsoft
-                                                    and the integration community is changing the world, one workflow
+                                                    <h3>Integrate</h3>
+                                                    <p>The integration love continues. See how Microsoft
+                                                    and the integration community are changing the world, one workflow
                                                     at a time.</p>
                                                 </div>
                                             </div>
@@ -437,7 +437,7 @@ ms.author: mandia
                                                     </div>
                                                     <div class="cardText">
                                                         <h3>#msbts</h3>
-                                                        <p>It’s what all the cool kids use. And by “cool”, we mean everyone
+                                                        <p>It's what all the cool kids use. And by "cool", we mean everyone
                                                             in the BizTalk space – Obviously.</p>
                                                     </div>
                                                 </div>
@@ -680,133 +680,6 @@ ms.author: mandia
                 </ul>
             </li>
             <li>
-                <a href="#host">Host Integration Server</a>
-                <ul id="host">
-                    <li>
-                        <a href="#host-all"></a>
-                        <ul id="host-all" class="cardsC">
-                            <li>
-                                <a href="https://docs.microsoft.com/host-integration-server/install-and-config-guides/what-s-new-in-his-2016">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-whats-new.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>What&#39;s New</h3>
-                                                    <p>See what’s new in your latest HIS sversion</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/host-integration-server/install-and-config-guides/installing-his-2016">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-install-configure.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Install and configuration</h3>
-                                                    <p>Install HIS 2016</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/host-integration-server/core/host-integration-server-core-documentation">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-core-documentation.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Core documentation</h3>
-                                                    <p>Learn about network, data, application &amp; message integration, and more.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.microsoft.com/host-integration-server/db2oledbv/microsoft-ole-db-provider-for-db2">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-ole-db-provider.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Microsoft OLE DB Provider for DB2 Version 5.0</h3>
-                                                    <p>Read all about installation and configuration, tooling, data type mapping,
-                                                        security, and more.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/biztalk/dev-center/his-update-center">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-update-center.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Update Center</h3>
-                                                    <p>See all the available updates for HIS and the OLE DB Provider for DB2.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/biztalk/dev-center/his-downloads-blogs">
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-popular-downloads.svg" alt="" />
-                                                    </div>
-                                                </div>
-                                                <div class="cardText">
-                                                    <h3>Popular downloads and blogs</h3>
-                                                    <p>Quick links to SDKs, management packs, best practices analyzer, and popular
-                                                        blogs.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li>
                 <a href="#watch">Watch</a>
                 <ul id="watch">
                     <li>
@@ -833,7 +706,7 @@ ms.author: mandia
                                 </a>
                             </li>
                             <li>
-                                <a href="http://www.biztalk360.com/integrate-2017-resources/">
+                                <a href="https://www.biztalk360.com/integrate-2019-resources/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -843,7 +716,7 @@ ms.author: mandia
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Integrate 2017 - London</h3>
+                                                    <h3>Integrate 2019</h3>
                                                     <p>Watch the videos and download the presentations.</p>
                                                 </div>
                                             </div>
@@ -863,7 +736,7 @@ ms.author: mandia
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Azure Logic Apps on YouTube</h3>
-                                                    <p>Watch your Logic Apps PM team show you what’s new, and what’s coming.
+                                                    <p>Watch your Logic Apps PM team show you what's new, and what's coming.
                                                     </p>
                                                 </div>
                                             </div>
@@ -883,7 +756,7 @@ ms.author: mandia
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Channel 9 videos</h3>
-                                                    <p>Watch all things “integration” from your BizTalk peers, inside and outside
+                                                    <p>Watch all things "integration" from your BizTalk peers, inside and outside
                                                         of Microsoft.</p>
                                                 </div>
                                             </div>
