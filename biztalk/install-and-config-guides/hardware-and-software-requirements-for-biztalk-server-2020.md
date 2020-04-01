@@ -73,6 +73,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
   - .NET Framework 4.7.2
 
 - **Microsoft Visual Studio**: Optional. Provides a development environment for building BizTalk Server applications. Enterprise Edition is recommended, but Professional is also supported. Required for BizTalk Server Developer Tools and SDK.
+  * **Note**: Visual Studio Community Edition is not supported.
 
   Supported minimum versions:
 
