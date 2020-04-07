@@ -5,7 +5,7 @@ author: "MandiOhlinger"
 manager: "dougeby"
 ms.prod: "biztalk-server"
 ms.custom: "biztalk-2020"
-ms.date: "01/14/2020"
+ms.date: "04/07/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -196,8 +196,7 @@ The BAM Office Excel Workbook defines the business processes you want to monitor
 
 BizTalk Server requires Visual Studio to create BizTalk projects using the development tools. If this is a staging or production server, or you're not doing any BizTalk development, then skip this section.
 
-Visual Studio Enterprise Edition is recommended, but Professional and Community editions are also supported. 
-* **Note**: Visual Studio Community edition is not supported.
+Visual Studio Enterprise (recommended) and Professional editions are supported. Visual Studio Community edition isn't supported.
 
 1. Run the Visual Studio setup as Administrator.
 2. Select a **Default** installation. BizTalk Server does not require any of the optional features.
