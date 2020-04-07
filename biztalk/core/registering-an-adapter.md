@@ -64,7 +64,7 @@ If you are developing a custom adapter, you can register it with BizTalk Server 
 |8|0x0008|eProtocolReceiveIsCreatable|Receive handler of adapter is hosted in-process.|  
 |128|0x0080|eProtocolSupportsRequestResponse|Adapter supports request-response operations.|  
 |256|0x0100|eProtocolSupportsSolicitResponse|Adapter supports solicit-response operations.|  
-|1024|0x4000|eOutboundProtocolRequiresContextInitialization|Indicates that the adapter uses the Adapter Framework user interface for send handler configuration.|  
+|1024|0x0400|eOutboundProtocolRequiresContextInitialization|Indicates that the adapter uses the Adapter Framework user interface for send handler configuration.|  
 |2048|0x0800|eInboundProtocolRequiresContextInitialization|Indicates that the adapter uses the Adapter Framework user interface for receive handler configuration.|  
 |4096|0x1000|eReceiveLocationRequiresContextInitialization|Indicates that the adapter uses the Adapter Framework user interface for receive location configuration.|  
 |8192|0x2000|eTransmitLocationRequiresContextInitialization|Indicates that the adapter uses the Adapter Framework user interface for send port configuration.|  
