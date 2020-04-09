@@ -36,6 +36,8 @@ highlightedContent:
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
+  sections:
+  - items:
       items:
         # Card
         - title: Core integration
