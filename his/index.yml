@@ -35,10 +35,8 @@ highlightedContent:
 # additionalContent section (optional)
 # Card with summary style
 additionalContent:
-  # Supports up to 3 sections
   sections:
   - items:
-      items:
         # Card
         - title: Core integration
           summary: Learn about network, data, application &amp; message integration, and more
