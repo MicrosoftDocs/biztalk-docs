@@ -1,0 +1,52 @@
+### YamlMime:Hub
+
+title: Host Integration Server(HIS) documentation # < 60 chars
+summary: Explore documentation for Host Integration Server(HIS) # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
+brand: azure
+
+metadata:
+  title: Host Integration Server(HIS) documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Explore documentation for Host Integration Server(HIS) # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: host-integration-server #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  author: MandiOhlinger #Required; your GitHub user alias, with correct capitalization.
+  ms.author: mandia #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/07/2020 #Required; mm/dd/yyyy format.
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    # Card
+    - title: What is HIS?
+      itemType: overview
+      url: what-is-his.md
+    # Card
+    - title: What’s New?
+      itemType: whats-new
+      url: install-and-config-guides/what-s-new-in-his-2016.md
+    # Card
+    - title: Install & Config 
+      itemType: how-to-guide
+      url: install-and-config-guides/installing-his-2016.md
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+      items:
+        # Card
+        - title: Core integration
+          summary: Learn about network, data, application &amp; message integration, and more
+          url: core/host-integration-server-core-documentation.md
+        # Card
+        - title: Enterprise single sign-on security
+          summary: Read about SSO, and how it secures your applications
+          url: esso/enterprise-single-sign-on1.md
+        # Card
+        - title: OLE DB Provider for DB2 
+          summary: Read all about installation and configuration, tooling, data type mapping, security, and more
+          url: db2oledbv/microsoft-ole-db-provider-for-db2.md
