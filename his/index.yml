@@ -38,7 +38,7 @@ additionalContent:
   - items:
         # Card
         - title: Core integration
-          summary: Learn about network, data, application &amp; message integration, and more
+          summary: Learn about network, data, application & message integration, and more
           url: core/host-integration-server-core-documentation.md
         # Card
         - title: Enterprise single sign-on security
