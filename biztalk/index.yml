@@ -14,12 +14,8 @@ metadata:
   ms.author: mandia #Required; microsoft alias of author; optional team alias.
   ms.date: 04/08/2020 #Required; mm/dd/yyyy format.
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
-  items:
-    # Card
+highlightedContent: 
+  items: 
     - title: Install, config & upgrade
       itemType: how-to-guide
       url: /biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade
@@ -32,64 +28,121 @@ highlightedContent:
       itemType: overview
       url: https://docs.microsoft.com/host-integration-server
 
-# additionalContent section (optional)
-# Card with summary style
-additionalContent:
-  sections:
-    - title: Get Started # < 60 chars (optional)
-      items:
-        # Card
-        - title: What's New
-          summary: See what's new in your latest BizTalk version.
+conceptualContent:
+  items:
+    - title: Get Started
+      links:
+        - text: What's New
           url: /biztalk/install-and-config-guides/whats-new-in-biztalk-server-2020
-        # Card
-        - title: get-started
-          summary: Read about SSO, and how it secures your applications
+          itemType: overview
+        - text: get-started
           url: /biztalk/core/getting-started-with-biztalk-server
-        # Card
-        - title: Scenarios for business solutions
-          summary: Read all about installation and configuration, tooling, data type mapping, security, and more
+          itemType: overview
+        - text: Scenarios for business solutions
           url: /biztalk/core/scenarios-for-business-solutions
-        # Card
-        - title: B2B
-          summary: Read all about installation and configuration, tooling, data type mapping, security, and more
+          itemType: how-to-guide
+        - text: B2B
           url: /biztalk/core/trading-partner-management-using-biztalk-server
+          itemType: overview
+    - title: Adapters & Accelerators
+      links:
+        - text: Adapters & Accelerators
+          url: /biztalk/adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server
+          itemType: quickstart
+        - text: Built-in adapters
+          url: /biztalk/core/using-adapters
+          itemType: tutorial
+        - text: BizTalk Adapter Pack
+          url: /biztalk/adapters-and-accelerators/biztalk-adapter-pack
+          itemType: overview
+        - text: HL7
+          url: /biztalk/adapters-and-accelerators/fileact-interact/microsoft-biztalk-server-fileact-and-interact-adapters-documentation
+          itemType: overview
+        - text: RosettaNet
+          url: /biztalk/adapters-and-accelerators/accelerator-rosettanet/microsoft-biztalk-accelerator-for-rosettanet-documentation
+          itemType: overview
+        - text: SWIFT
+          url: /biztalk/adapters-and-accelerators/accelerator-swift/microsoft-biztalk-accelerator-for-swift-documentation
+          itemType: how-to-guide
+        - text: BizTalk adapters for host system
+          url: /biztalk/dev-center/his-biztalk-adapters
+          itemType: overview
+    - title: Partner training
+      links:
+        - text: Pluralsight
+          url: https://www.pluralsight.com/search?q=biztalk
+          itemType: get-started
+        - text: QuickLearn
+          url: https://www.quicklearn.com/biztalk-training.aspx
+          itemType: how-to-guide
+    - title: Social media
+      links:
+        - text: '@Biztalk_Server'
+          url: https://twitter.com/@Biztalk_Server
+          itemType: quickstart
+        - text: '@msbts'
+          url: https://twitter.com/hashtag/msbts
+          itemType: tutorial
+        - text: '@BizTalk Gurus'
+          url: https://twitter.com/BizTalkGurus
+          itemType: overview
+        - text: '@BizTalkers'
+          url: https://twitter.com/@BizTalkers
+          itemType: overview
+        - text: '@logicappsio'
+          url: https://twitter.com/@logicappsio
+          itemType: overview
+        - text: '@MicrosoftFlow'
+          url: https://twitter.com/@MicrosoftFlow
+          itemType: how-to-guide
+        - text: '@AzureApiMgmt'
+          url: https://twitter.com/@AzureApiMgmt
+          itemType: overview
+        - text: BizTalk on Facebook
+          url: https://facebook.com/MicrosoftBiztalk
+          itemType: deploy
+    - title: Announcements
+      links:
+        - text: Integrate
+          url: https://www.biztalk360.com/integrate-2020/
+          itemType: how-to-guide
+        - text: BizTalk magazine on Flipboard
+          url: https://flipboard.com/@sandroasp/biztalkmagazine-hh6jepeby
+          itemType: learn
+        - text: Stay current with ConfigMgr and Windows 10
+          url: https://www.integrationbootcamp.com/
+          itemType: learn
 
-# additionalContent section (optional)
-# Card with summary style
 additionalContent:
-  sections:
-    - title: Adapters & Accelerators # < 60 chars (optional)
+   sections:
+   - title: Developers
       items:
         # Card
-        - title: Adapters & Accelerators
-          summary: Work with the WCF-based adapters in the BizTalk Adapter Pack, the HL7 and SWIFT accelerators, and more.
-          url: /biztalk/adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server
+        - title: Documentation for developers
+          summary: Guidance on creating maps, orchestrations, and pipelines. View the SDK samples and tools.
+          url: /biztalk/core/develop-your-biztalk-applications
         # Card
-        - title: Built-in adapters
-          summary: Installing BizTalk Server also installs built-in adapters ready to send & receive with FTP, MQSeries, SOAP, SharePoint and more.
-          url: /biztalk/core/using-adapters
+        - title: CodePlex tools and adapters
+          summary: Check out some of the great tools and adapters your peers are creating.
+          url: https://archive.codeplex.com/?s=biztalk
         # Card
-        - title: BizTalk Adapter Pack
-          summary: Use these WCF-based adapters to connect receive, and send data to Oracle Database, Oracle E-Business Suite, mySAP Business Suite, Siebel eBusiness Applications, and SQL Server.
-          url: /biztalk/adapters-and-accelerators/biztalk-adapter-pack
+        - title: Five day course on GitHub
+          summary: Read all about installation and configuration, tooling, data type mapping, security, and more
+          url: https://github.com/wmmihaa/BizTalk-Server---Developing-Integration-Solutions
+   - title: Other content
+     items:
+        - title: Ignite videos on YouTube
+          summary: Watch the videos that focus on integration including BizTalk Server and Logic Apps.
+          url: https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg/search?query=integration
         # Card
-        - title: FileAct & Interact
-          summary: These adapters use SWIFTNet to provide connectivity between BizTalk Server and the SWIFT Secure IP Network (SIPN) for the transfer of files.
-          url: /biztalk/adapters-and-accelerators/fileact-interact/microsoft-biztalk-server-fileact-and-interact-adapters-documentation
+        - title: Integrate 2019
+          summary: Watch the videos and download the presentations.
+          url: https://www.biztalk360.com/integrate-2019-resources/
         # Card
-        - title: HL7
-          summary: Using the HL7 accelerator, developers, IT pros, and interface analysts can work in a common environment to develop end-to-end integrated BTAHL7-based solutions across health care applications.
-          url: /biztalk/adapters-and-accelerators/accelerator-hl7/microsoft-biztalk-accelerator-for-hl7-documentation
+        - title: Azure Logic Apps on YouTube
+          summary: Watch your Logic Apps PM team show you what's new, and what's coming.
+          url: https://www.youtube.com/channel/UCbJQweD96Y7n-ebKpdLDJww
         # Card
-        - title: RosettaNet
-          summary: Use this accelerator to build or develop RNIF-compliant solutions and e-business processes, such as order management and inventory management.
-          url: /biztalk/adapters-and-accelerators/accelerator-rosettanet/microsoft-biztalk-accelerator-for-rosettanet-documentation
-        # Card
-        - title: SWIFT
-          summary: With A4SWIFT, customers, partners, and system integrators can streamline the development, deployment, and support of integration solutions for core financial services application infrastructure and business processes.
-          url: /biztalk/adapters-and-accelerators/accelerator-swift/microsoft-biztalk-accelerator-for-swift-documentation
-        # Card
-        - title: BizTalk adapters for host system
-          summary: Host Integration Server (HIS) includes adapters that connect to Host Applications, Host Files, DB2, and WebSphere MQ. These adapters are built-in, and can be used within your BizTalk applications.
-          url: /biztalk/dev-center/his-biztalk-adapters
+        - title: Channel 9 videos
+          summary: Watch all things "integration" from your BizTalk peers, inside and outside of Microsoft.
+          url: https://channel9.msdn.com/Search?term=integration
