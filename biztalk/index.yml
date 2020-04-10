@@ -145,31 +145,31 @@ additionalContent:
           summary: Get hands-on learning and experience from your fellow integrators.
           url: https://www.integrationbootcamp.com/
         # Card
-        - title: @Biztalk_Server
+        - title: '@Biztalk_Server'
           summary: The official handle for the BizTalk Server product team.
           url: https://twitter.com/@Biztalk_Server
         # Card
-        - title: @msbts
+        - title: '@msbts'
           summary: It's what all the cool kids use. And by "cool", we mean everyone in the BizTalk space – Obviously.
           url: https://twitter.com/hashtag/msbts
         # Card
-        - title: @BizTalk Gurus
+        - title: '@BizTalk Gurus'
           summary: Includes links to lots of really good info.
           url: https://twitter.com/BizTalkGurus
         # Card
-        - title: @BizTalkers
+        - title: '@BizTalkers'
           summary: A group based out of the UK that focuses on development, and more.
           url: https://twitter.com/@BizTalkers
         # Card
-        - title: @logicappsio
+        - title: '@logicappsio'
           summary: The official handle for Azure Logic Apps.
           url: https://twitter.com/@logicappsio
         # Card
-        - title: @MicrosoftFlow
+        - title: '@MicrosoftFlow'
           summary: The official handle for Microsoft Power Automate.
           url: https://twitter.com/@MicrosoftFlow
         # Card
-        - title: @AzureApiMgmt
+        - title: '@AzureApiMgmt'
           summary: The official handle for Azure API Management.
           url: https://twitter.com/@AzureApiMgmt
         # Card
