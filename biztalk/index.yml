@@ -130,8 +130,8 @@ additionalContent:
         - title: Five day course on GitHub
           summary: Read all about installation and configuration, tooling, data type mapping, security, and more
           url: https://github.com/wmmihaa/BizTalk-Server---Developing-Integration-Solutions
-   - title: Other content
-     items:
+    - title: Other content
+      items:
         - title: Ignite videos on YouTube
           summary: Watch the videos that focus on integration including BizTalk Server and Logic Apps.
           url: https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg/search?query=integration
