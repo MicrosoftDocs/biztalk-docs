@@ -114,8 +114,9 @@ conceptualContent:
           itemType: learn
 
 additionalContent:
-   sections:
-   - title: Developers
+  # Supports up to 3 sections
+  sections:
+    - title: For Developers # < 60 chars (optional)
       items:
         # Card
         - title: Documentation for developers
