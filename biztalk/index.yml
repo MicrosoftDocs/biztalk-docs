@@ -1,0 +1,191 @@
+### YamlMime:Hub
+
+title: Microsoft BizTalk Server documentation # < 60 chars
+summary: Explore documentation for Microsoft BizTalk Server # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
+brand: azure
+
+metadata:
+  title: Microsoft BizTalk Server documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Explore documentation for Microsoft BizTalk Server # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: biztalk-service #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  author: MandiOhlinger #Required; your GitHub user alias, with correct capitalization.
+  ms.author: mandia #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/08/2020 #Required; mm/dd/yyyy format.
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Install, config & upgrade
+      itemType: how-to-guide
+      url: /biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade
+    # Card
+    - title: Technical Guides
+      itemType: tutorial
+      url: /biztalk/technical-guides/
+    # Card
+    - title: Host Integration Server
+      itemType: overview
+      url: https://docs.microsoft.com/host-integration-server
+
+# additionalContent section (optional)
+# Card with summary style
+additionalContent:
+  sections:
+    - title: Get Started # < 60 chars (optional)
+      items:
+        # Card
+        - title: What's New
+          summary: See what's new in your latest BizTalk version.
+          url: /biztalk/install-and-config-guides/whats-new-in-biztalk-server-2020
+        # Card
+        - title: get-started
+          summary: Read about SSO, and how it secures your applications
+          url: /biztalk/core/getting-started-with-biztalk-server
+        # Card
+        - title: Scenarios for business solutions
+          summary: Read all about installation and configuration, tooling, data type mapping, security, and more
+          url: /biztalk/core/scenarios-for-business-solutions
+        # Card
+        - title: B2B
+          summary: Read all about installation and configuration, tooling, data type mapping, security, and more
+          url: /biztalk/core/trading-partner-management-using-biztalk-server
+  sections:
+    - title: Adapters & Accelerators # < 60 chars (optional)
+      items:
+        # Card
+        - title: Adapters & Accelerators
+          summary: Work with the WCF-based adapters in the BizTalk Adapter Pack, the HL7 and SWIFT accelerators, and more.
+          url: /biztalk/adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server
+        # Card
+        - title: Built-in adapters
+          summary: Installing BizTalk Server also installs built-in adapters ready to send & receive with FTP, MQSeries, SOAP, SharePoint and more.
+          url: /biztalk/core/using-adapters
+        # Card
+        - title: BizTalk Adapter Pack
+          summary: Use these WCF-based adapters to connect receive, and send data to Oracle Database, Oracle E-Business Suite, mySAP Business Suite, Siebel eBusiness Applications, and SQL Server.
+          url: /biztalk/adapters-and-accelerators/biztalk-adapter-pack
+        # Card
+        - title: FileAct & Interact
+          summary: These adapters use SWIFTNet to provide connectivity between BizTalk Server and the SWIFT Secure IP Network (SIPN) for the transfer of files.
+          url: /biztalk/adapters-and-accelerators/fileact-interact/microsoft-biztalk-server-fileact-and-interact-adapters-documentation
+        # Card
+        - title: HL7
+          summary: Using the HL7 accelerator, developers, IT pros, and interface analysts can work in a common environment to develop end-to-end integrated BTAHL7-based solutions across health care applications.
+          url: /biztalk/adapters-and-accelerators/accelerator-hl7/microsoft-biztalk-accelerator-for-hl7-documentation
+        # Card
+        - title: RosettaNet
+          summary: Use this accelerator to build or develop RNIF-compliant solutions and e-business processes, such as order management and inventory management.
+          url: /biztalk/adapters-and-accelerators/accelerator-rosettanet/microsoft-biztalk-accelerator-for-rosettanet-documentation
+        # Card
+        - title: SWIFT
+          summary: With A4SWIFT, customers, partners, and system integrators can streamline the development, deployment, and support of integration solutions for core financial services application infrastructure and business processes.
+          url: /biztalk/adapters-and-accelerators/accelerator-swift/microsoft-biztalk-accelerator-for-swift-documentation
+        # Card
+        - title: BizTalk adapters for host system
+          summary: Host Integration Server (HIS) includes adapters that connect to Host Applications, Host Files, DB2, and WebSphere MQ. These adapters are built-in, and can be used within your BizTalk applications.
+          url: /biztalk/dev-center/his-biztalk-adapters
+
+additionalContent:
+  sections:
+    - title: Developers # < 60 chars (optional)
+      items:
+        # Card
+        - title: Documentation for developers
+          summary: Guidance on creating maps, orchestrations, and pipelines. View the SDK samples and tools.
+          url: /biztalk/core/develop-your-biztalk-applications
+        # Card
+        - title: CodePlex tools and adapters
+          summary: Check out some of the great tools and adapters your peers are creating.
+          url: https://archive.codeplex.com/?s=biztalk
+        # Card
+        - title: Five day course on GitHub
+          summary: Read all about installation and configuration, tooling, data type mapping, security, and more
+          url: https://github.com/wmmihaa/BizTalk-Server---Developing-Integration-Solutions
+
+additionalContent:
+  sections:
+    - title: Watch # < 60 chars (optional)
+      items:
+        # Card
+        - title: Ignite videos on YouTube
+          summary: Watch the videos that focus on integration including BizTalk Server and Logic Apps.
+          url: https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg/search?query=integration
+        # Card
+        - title: Integrate 2019
+          summary: Watch the videos and download the presentations.
+          url: https://www.biztalk360.com/integrate-2019-resources/
+        # Card
+        - title: Azure Logic Apps on YouTube
+          summary: Watch your Logic Apps PM team show you what's new, and what's coming.
+          url: https://www.youtube.com/channel/UCbJQweD96Y7n-ebKpdLDJww
+        # Card
+        - title: Channel 9 videos
+          summary: Watch all things "integration" from your BizTalk peers, inside and outside of Microsoft.
+          url: https://channel9.msdn.com/Search?term=integration
+
+additionalContent:
+  sections:
+    - title: Announcements & social media # < 60 chars (optional)
+      items:
+        # Card
+        - title: Integrate
+          summary: The integration love continues. See how Microsoft and the integration community are changing the world, one workflow at a time.
+          url: https://www.biztalk360.com/integrate-2020/
+        # Card
+        - title: BizTalk magazine on Flipboard
+          summary: A great collection of BizTalk and integration resources that focus on on-premises and cloud. Read topics from experts in the community, and with Microsoft.
+          url: https://flipboard.com/@sandroasp/biztalkmagazine-hh6jepeby
+        # Card
+        - title: Global Integration Bootcamp
+          summary: Get hands-on learning and experience from your fellow integrators.
+          url: https://www.integrationbootcamp.com/
+        # Card
+        - title: @Biztalk_Server
+          summary: The official handle for the BizTalk Server product team.
+          url: https://twitter.com/@Biztalk_Server
+        # Card
+        - title: @msbts
+          summary: It's what all the cool kids use. And by "cool", we mean everyone in the BizTalk space – Obviously.
+          url: https://twitter.com/hashtag/msbts
+        # Card
+        - title: @BizTalk Gurus
+          summary: Includes links to lots of really good info.
+          url: https://twitter.com/BizTalkGurus
+        # Card
+        - title: @BizTalkers
+          summary: A group based out of the UK that focuses on development, and more.
+          url: https://twitter.com/@BizTalkers
+        # Card
+        - title: @logicappsio
+          summary: The official handle for Azure Logic Apps.
+          url: https://twitter.com/@logicappsio
+        # Card
+        - title: @MicrosoftFlow
+          summary: The official handle for Microsoft Power Automate.
+          url: https://twitter.com/@MicrosoftFlow
+        # Card
+        - title: @AzureApiMgmt
+          summary: The official handle for Azure API Management.
+          url: https://twitter.com/@AzureApiMgmt
+        # Card
+        - title: BizTalk on Facebook
+          summary: The official BizTalk Facebook page.
+          url: https://facebook.com/MicrosoftBiztalk
+        
+additionalContent:
+  sections:
+    - title: Partner training # < 60 chars (optional)
+      items:
+        # Card
+        - title: Pluralsight
+          summary: Learn about functoids, ESB, and more at Pluralsight.com.
+          url: https://www.pluralsight.com/search?q=biztalk
+        # Card
+        - title: QuickLearn
+          summary: Instructor-led training for BizTalk Server administrators and developers of all skill levels at QuickLearn.com.
+          url: https://www.quicklearn.com/biztalk-training.aspx
