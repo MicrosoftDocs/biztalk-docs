@@ -1,0 +1,150 @@
+### YamlMime:Hub
+
+title: Microsoft BizTalk Server documentation # < 60 chars
+summary: Explore documentation for Microsoft BizTalk Server # < 160 chars
+# brand: aspnet | azure | dotnet | dynamics | m365 | ms-graph | office | power-platform | project | sharepoint | sql | sql-server | teams | vs | visual-studio | windows | xamarin
+brand: azure
+
+metadata:
+  title: Microsoft BizTalk Server documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Explore documentation for Microsoft BizTalk Server # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: biztalk-service #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: hub-page # Required
+  author: MandiOhlinger #Required; your GitHub user alias, with correct capitalization.
+  ms.author: mandia #Required; microsoft alias of author; optional team alias.
+  ms.date: 04/10/2020 #Required; mm/dd/yyyy format.
+
+highlightedContent: 
+  items:
+    # Card 
+    - title: Install, config & upgrade
+      itemType: how-to-guide
+      url: /biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade
+    # Card
+    - title: Technical Guides
+      itemType: tutorial
+      url: /biztalk/technical-guides/
+    # Card
+    - title: Host Integration Server
+      itemType: overview
+      url: https://docs.microsoft.com/host-integration-server
+
+conceptualContent:
+  items:
+    - title: Get Started
+      links:
+        - text: What's New
+          url: /biztalk/install-and-config-guides/whats-new-in-biztalk-server-2020
+          itemType: whats-new
+        - text: get-started
+          url: /biztalk/core/getting-started-with-biztalk-server
+          itemType: how-to-guide
+        - text: Scenarios for business solutions
+          url: /biztalk/core/scenarios-for-business-solutions
+          itemType: overview
+        - text: B2B
+          url: /biztalk/core/trading-partner-management-using-biztalk-server
+          itemType: overview
+    - title: Adapters & Accelerators
+      links:
+        - text: Adapters & Accelerators
+          url: /biztalk/adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server
+          itemType: overview
+        - text: Built-in adapters
+          url: /biztalk/core/using-adapters
+          itemType: overview
+        - text: BizTalk Adapter Pack
+          url: /biztalk/adapters-and-accelerators/biztalk-adapter-pack
+          itemType: overview
+        - text: HL7
+          url: /biztalk/adapters-and-accelerators/fileact-interact/microsoft-biztalk-server-fileact-and-interact-adapters-documentation
+          itemType: overview
+        - text: RosettaNet
+          url: /biztalk/adapters-and-accelerators/accelerator-rosettanet/microsoft-biztalk-accelerator-for-rosettanet-documentation
+          itemType: overview
+        - text: SWIFT
+          url: /biztalk/adapters-and-accelerators/accelerator-swift/microsoft-biztalk-accelerator-for-swift-documentation
+          itemType: overview
+        - text: BizTalk adapters for host system
+          url: /biztalk/dev-center/his-biztalk-adapters
+          itemType: overview
+    - title: Announcements
+      links:
+        - text: Integrate
+          url: https://www.biztalk360.com/integrate-2020/
+          itemType: reference
+        - text: BizTalk magazine on Flipboard
+          url: https://flipboard.com/@sandroasp/biztalkmagazine-hh6jepeby
+          itemType: reference
+        - text: Stay current with ConfigMgr and Windows 10
+          url: https://www.integrationbootcamp.com/
+          itemType: reference
+    - title: Social media
+      links:
+        - text: '@Biztalk_Server'
+          url: https://twitter.com/@Biztalk_Server
+          itemType: reference
+        - text: '@msbts'
+          url: https://twitter.com/hashtag/msbts
+          itemType: reference
+        - text: '@BizTalk Gurus'
+          url: https://twitter.com/BizTalkGurus
+          itemType: reference
+        - text: '@BizTalkers'
+          url: https://twitter.com/@BizTalkers
+          itemType: reference
+        - text: '@logicappsio'
+          url: https://twitter.com/@logicappsio
+          itemType: reference
+        - text: '@MicrosoftFlow'
+          url: https://twitter.com/@MicrosoftFlow
+          itemType: reference
+        - text: '@AzureApiMgmt'
+          url: https://twitter.com/@AzureApiMgmt
+          itemType: reference
+        - text: BizTalk on Facebook
+          url: https://facebook.com/MicrosoftBiztalk
+          itemType: reference
+    - title: Partner training
+      links:
+        - text: Pluralsight
+          url: https://www.pluralsight.com/search?q=biztalk
+          itemType: learn
+        - text: QuickLearn
+          url: https://www.quicklearn.com/biztalk-training.aspx
+          itemType: learn
+
+additionalContent:
+  # Supports up to 3 sections
+  sections:
+    - title: For Developers # < 60 chars (optional)
+      items:
+        # Card
+        - title: Documentation for developers
+          summary: Guidance on creating maps, orchestrations, and pipelines. View the SDK samples and tools.
+          url: /biztalk/core/develop-your-biztalk-applications
+        # Card
+        - title: CodePlex tools and adapters
+          summary: Check out some of the great tools and adapters your peers are creating.
+          url: https://archive.codeplex.com/?s=biztalk
+        # Card
+        - title: Five day course on GitHub
+          summary: Read all about installation and configuration, tooling, data type mapping, security, and more
+          url: https://github.com/wmmihaa/BizTalk-Server---Developing-Integration-Solutions
+    - title: Watch
+      items:
+        - title: Ignite videos on YouTube
+          summary: Watch the videos that focus on integration including BizTalk Server and Logic Apps.
+          url: https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg/search?query=integration
+        # Card
+        - title: Integrate 2019
+          summary: Watch the videos and download the presentations.
+          url: https://www.biztalk360.com/integrate-2019-resources/
+        # Card
+        - title: Azure Logic Apps on YouTube
+          summary: Watch your Logic Apps PM team show you what's new, and what's coming.
+          url: https://www.youtube.com/channel/UCbJQweD96Y7n-ebKpdLDJww
+        # Card
+        - title: Channel 9 videos
+          summary: Watch all things "integration" from your BizTalk peers, inside and outside of Microsoft.
+          url: https://channel9.msdn.com/Search?term=integration
