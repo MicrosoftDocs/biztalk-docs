@@ -36,11 +36,11 @@ Sign in as a member of the BizTalk Server Administrators group.
 2. In the **BizTalk Settings Dashboard** dialog box, on the **Group** page, do the following:
 
     - **Configuration refresh interval**: Set the interval for BizTalk Server to refresh the messaging configuration, from 1 - 43200.
-    - **Message Batch Threshold**: If the total size of an incoming message batch exceeds this value, then it is split into smaller batches and processed. Enter a value between 1 - 10000000. Default value is `102400`.
+    - **Message Batch Threshold**: If the total size of an incoming message batch exceeds this value, then it is split into smaller batches and processed. Enter a value between 1 - 10000000. Default value is `1000000`(977Kb).
 
       In an upgrade, the `HKEY_LOCAL_MACHINE\Software\Microsoft\BizTalk Server\3.0\Administration\TransformThreshold` value is copied.
 
-    - **Large message size**: Set the threshold size of an individual message that triggers streaming in a batch and/or during transformations. Enter a value between 1 - 10000000. Default value is `1000000`. 
+    - **Large message size**: Set the threshold size of an individual message that triggers streaming in a batch and/or during transformations. Enter a value between 1 - 10000000. Default value is `102400`(100Kb). 
 
       In an upgrade, this value is set to the maximum of the existing **Large message size** and **LargeMessageFragmentSize** values.
 
