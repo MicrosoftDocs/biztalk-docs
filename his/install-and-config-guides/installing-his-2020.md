@@ -1,5 +1,5 @@
 ---
-title: "Install HIS 2016 | Microsoft Docs"
+title: "Install HIS 2020 | Microsoft Docs"
 ms.custom: ""
 ms.date: 5/4/2020
 ms.prod: host-integration-server
