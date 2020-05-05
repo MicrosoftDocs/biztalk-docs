@@ -1,7 +1,7 @@
 ---
 title: "Release Notes | Microsoft Docs"
 ms.custom: ""
-ms.date: 10/24/2016
+ms.date: "5/5/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -14,30 +14,30 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Release Notes
-These release notes summarize the most important issues in [!INCLUDE[his2016](../includes/his2016-md.md)].  
+These release notes summarize the most important issues in Host Integration Server 2020.  
   
 ## Software  
- A single Microsoft Installer (MSI) file contains the server software. You can download the software from the [Microsoft TechNet evaluation center](https://www.microsoft.com/evalcenter/evaluate-host-integration-server-2016).  
+ A single Microsoft Installer (MSI) file contains the server software. You can download the software from the [Microsoft Evaluation Center](https://www.microsoft.com/evalcenter/evaluate-host-integration-server-2020).  
   
 ## Upgrade  
- You cannot do an in-place upgrade to HIS 2016.  You must uninstall all existing copies of Host Integration Server, and then install HIS 2016.  A [HIS migration tool](https://www.microsoft.com/download/details.aspx?id=54950) is available to assist in upgrading from previous versions of HIS. [HIS Migration Tool](../install-and-config-guides/his-migration-tool.md) has more details.
+ This release allows an in-place upgrade of HIS 2016.  For version older than HIS 2016 there is a [HIS migration tool](https://www.microsoft.com/download/details.aspx?id=54950) available to assist in upgrading from previous versions of HIS. [HIS Migration Tool](../install-and-config-guides/his-migration-tool-2020.md) has more details.
+
+ After an in-place upgrade from HIS 2016 to HIS 2020, if the configuration tool is not allowed to open at the end of setup, the services may fail to start.   Many of the services depend on having the correct versions of the Visual C++ Runtime DLLs.  These are installed by the configuration tool when it first starts.  To fix this issue, simply launch the configuration tool from the Start menu.
   
 ## Installation  
- The setup installation is a new simple wizard that installs the software, and also has an optional advanced dialog to select (install) or de-select (uninstall) features.  
+ The installation is a simple wizard that installs the software, and also has an optional advanced dialog to select (install) or de-select (uninstall) features.  
   
 ## Configuration  
- The post-installation configuration is a new set of simple dialogs that configure the features, and also has advanced settings to (enable) or un-configure (disable) sub-features.  
-  
- Configuration is required to use most features, including services, adapters, and tools.  
+ The post-installation configuration is a set of simple dialogs that configure the features, and also has advanced settings to (enable) or un-configure (disable) sub-features.  Configuration is required to use most features, including services, adapters, and tools.  
   
 ## 32-bit and 64-bit  
- You cannot install HIS 2016 on a 32-bit x86 only operating system. The setup installation supports 64-bit x64 operating systems. It installs features and tools to use side-by-side on x64 and x86 systems. For example, set up the installation and configuration so that you enable BizTalk Adapters to run in both a BizTalk Server 64-bit and 32-bit host application.  
+ You cannot install HIS 2020 on a 32-bit x86 only operating system. The installation only supports 64-bit x64 operating systems. It installs side-by-side support for most 32-bit applications. For example, the installation will support running a 32-bit APPC application or 32-bit emulator.   
   
 ## Client  
- The setup installation installs the server side-by-side with the client. The installation does not provide the client as a stand-alone option. The HIS team is developing a client-only MSI for x86 and x64 operating systems, which will be available at retail release.  
+ The 64-bit and 32-bit client installations are available as separate MSI packages.  
   
 ## Telemetry  
- HIS 2016 includes technology for telemetry and error reporting. The HIS product team utilizes this data to improve the quality, reliability, and performance of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  Ths includes:  
+ HIS 2020 includes technology for telemetry and error reporting. The HIS product team utilizes this data to improve the quality, reliability, and performance of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  This includes:  
   
 -   Installation and Configuration:  
   
