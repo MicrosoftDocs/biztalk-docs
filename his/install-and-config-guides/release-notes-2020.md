@@ -31,7 +31,7 @@ These release notes summarize the most important issues in Host Integration Serv
  The post-installation configuration is a set of simple dialogs that configure the features, and also has advanced settings to (enable) or un-configure (disable) sub-features.  Configuration is required to use most features, including services, adapters, and tools.  
   
 ## 32-bit and 64-bit  
- You cannot install HIS 2020 on a 32-bit x86 only operating system. The installation only supports 64-bit x64 operating systems. It installs side-by-side support for most 32-bit applications. For example, the installation will support running a 32-bit APPC application or 32-bit emulator.   
+ You cannot install HIS 2020 Server on a 32-bit x86 only operating system. The installation only supports 64-bit x64 operating systems. The server installs side-by-side support for most 32-bit applications. For example, the installation will support running a 32-bit APPC application or 32-bit emulator.   
   
 ## Client  
  The 64-bit and 32-bit client installations are available as separate MSI packages.  
