@@ -1,7 +1,7 @@
 ---
 title: "HIS Migration Tool | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "5/5/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -16,7 +16,7 @@ manager: "anneta"
 # HIS Migration Tool
 
 ## Overview
-The HIS Migration Tool assists with migrating to HIS 2016 from earlier versions of HIS as well as assisting with migrating the configuration from an existing HIS 2016 installation to another server. The migration tool will harvest the configuration information in an existing HIS installation and allow that information to be applied to a new installation of HIS 2016. The configuration information that is harvested includes HIS Services, Registry Entries, config files and SNA Gateway Configuration information.
+The HIS Migration Tool assists with migrating to HIS 2020 or HIS 2016 from earlier versions of HIS as well as assisting with migrating the configuration from an existing HIS 2020 or HIS 2016 installation to another server. The migration tool will harvest the configuration information in an existing HIS installation and allow that information to be applied to a new installation. The configuration information that is harvested includes HIS Services, Registry Entries, config files and SNA Gateway Configuration information.
 
 [Download the HIS Migration Tool](https://go.microsoft.com/fwlink/?linkid=829851) (HisMigration.exe).
 
@@ -40,5 +40,5 @@ The HIS Migration Tool assists with migrating to HIS 2016 from earlier versions 
 ```
 
 ## See Also
-[Same Server Migration](../install-and-config-guides/same-server-migration.md)
-[Server to Server Migration](../install-and-config-guides/server-to-server-migration.md)
+[Same Server Migration](../install-and-config-guides/same-server-migration-2020.md)
+[Server to Server Migration](../install-and-config-guides/server-to-server-migration-2020.md)
