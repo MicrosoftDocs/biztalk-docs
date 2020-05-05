@@ -1,7 +1,7 @@
 ---
-title: "HIS 2016 - What's New, Release Notes, System Requirements, and Installation | Microsoft Docs"
+title: "HIS 2020 - What's New, Release Notes, System Requirements, and Installation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "5/5/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -13,21 +13,21 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# HIS 2016 - What's New, Release Notes, System Requirements, and Installation
+# HIS 2020 - What's New, Release Notes, System Requirements, and Installation
 
 ## Overview
-Read about what's new in [!INCLUDE[his2016](../includes/his2016-md.md)]. You can also read the release notes, view the system requirements, and install HIS.  
+Read about what's new in Host Integration Server 2020. You can also read the release notes, view the system requirements, and install HIS.  
   
 ## Next steps
- [What's New in HIS 2016](../install-and-config-guides/what-s-new-in-his-2016.md)  
+ [What's New in HIS 2020](../install-and-config-guides/what-s-new-in-his-2020.md)  
   
- [Release Notes](../install-and-config-guides/release-notes.md)  
+ [Release Notes](../install-and-config-guides/release-notes-2020.md)  
   
- [System Requirements](../install-and-config-guides/system-requirements.md)  
+ [System Requirements](../install-and-config-guides/system-requirements-2020.md)  
   
- [Installing HIS 2016](../install-and-config-guides/installing-his-2016.md)  
+ [Installing HIS 2020](../install-and-config-guides/installing-his-2020.md)  
  
- [HIS Migration Tool](../install-and-config-guides/his-migration-tool.md)
+ [HIS Migration Tool](../install-and-config-guides/his-migration-tool-2020.md)
   
 ## See Also  
  [Host Integration Server Core Documentation](../core/host-integration-server-core-documentation.md)   
