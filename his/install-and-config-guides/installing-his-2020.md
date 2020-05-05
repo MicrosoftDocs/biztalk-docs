@@ -18,9 +18,9 @@ This installation guide provides basic instructions for using the Host Integrati
 
 ## Before you begin
 
--   Read the [Release Notes](../install-and-config-guides/release-notes.md)
+-   Read the [Release Notes](../install-and-config-guides/release-notes-2020.md)
 
--   Refer to the [System Requirements](../install-and-config-guides/system-requirements.md)
+-   Refer to the [System Requirements](../install-and-config-guides/system-requirements-2020.md)
 
 ## Installation
 
