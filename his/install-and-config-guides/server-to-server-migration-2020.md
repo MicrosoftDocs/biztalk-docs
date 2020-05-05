@@ -1,7 +1,7 @@
 ---
 title: "Server to Server Migration | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/30/2017"
+ms.date: "5/5/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -17,9 +17,9 @@ manager: "anneta"
 
 ## Overview
 
-The HIS Migration tool can be used for migrating the configuration from older versions of Host Integration Server to a new Host Integration Server 2016 Server or for migrating the configuration from one Host Integration Server 2016 Server to a different Host Integration Server 2016 Server.
+The HIS Migration tool can be used for migrating the configuration from older versions of Host Integration Server to a new Host Integration Server 2020 or 2016 Server or for migrating the configuration of Host Integration Server 2020 or 2016 from one server to  another srver.
 
-## Steps to migrate from Host Integration Server on one server to Host Integration Server 2016 on a different server
+## Steps to migrate from Host Integration Server on one server to Host Integration Server on a different server
 
 - These instructions assume the migration tool is downloaded to a local C:\Files directory.
 - On the first Host Integration Server, open an Administrative Windows Command Prompt and issue the following command:
@@ -29,7 +29,7 @@ The HIS Migration tool can be used for migrating the configuration from older ve
     > [!NOTE]
     > C:\Files\HIS_Migrate must exist and have no files in it
 
-- On the new Host Integration Server 2016 Server - copy the C:\Files directory and subdirectory from the first HIS Server.
+- On the new Host Integration Server Server - copy the C:\Files directory and subdirectory from the first HIS Server.
 - The C:\Files\HIS_Migrate\System\Config\com.cfg file must be modified using the snacfg.exe tool. First generate a command file using the /print option, edit the command file to change the server name from the existing server name to the new server name, then use the snacfg.exe tool with the new command file to generate a new com.cfg file.
 
     1. SNACFG.exe #C:\Files\HIS_Migrate\System\Config\com.cfg /print > HISconfig.txt
@@ -50,5 +50,5 @@ The HIS Migration tool can be used for migrating the configuration from older ve
 
 ## See Also
 
-[HIS Migration Tool](../install-and-config-guides/his-migration-tool.md)  
-[Same Server Migration](../install-and-config-guides/same-server-migration.md)
+[HIS Migration Tool](../install-and-config-guides/his-migration-tool-2020.md)  
+[Same Server Migration](../install-and-config-guides/same-server-migration-2020.md)
