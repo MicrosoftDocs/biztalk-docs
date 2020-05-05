@@ -1,7 +1,7 @@
 ---
 title: "Install HIS 2016 | Microsoft Docs"
 ms.custom: ""
-ms.date: 6/13/2018
+ms.date: 5/4/2020
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -13,8 +13,8 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Install HIS 2016
-This installation guide provides basic instructions for using the [!INCLUDE[his2016](../includes/his2016-md.md)] setup installation and configuration.
+# Install HIS 2020
+This installation guide provides basic instructions for using the Host Integration Server 2020 setup installation and configuration.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ This installation guide provides basic instructions for using the [!INCLUDE[his2
 
 ## Installation
 
-1. Double-click the **HIS2016_Server_EN.msi** file.
+1. Double-click the **HIS2020_Server_EN.msi** file.
 
 2. In the **License Agreement**, accept the **End User License Agreement**. To customize your installation (optional):
 
@@ -51,28 +51,40 @@ This installation guide provides basic instructions for using the [!INCLUDE[his2
 
 1. Open **Programs and Features**.
 
-2. In the list, select **Microsoft [!INCLUDE[his2016](../includes/his2016-md.md)]**, and then select **Uninstall**.
+2. In the list, select **Microsoft Host Integration Server 2020**, and then select **Uninstall**.
 
 3. When prompted if you're sure, select **Yes**.
+
+## In-place upgrade of HIS 2016
+
+1. Double-click the **HIS2020_Server_EN.msi** file.
+
+2.  In the **License Agreement**, accept the **End User License Agreement**.
+
+3. Select **Install** to continue proceed with the upgrade
+
+4. When complete, select **Finish**.
+
+After an in-place upgrade from HIS 2016 to HIS 2020, if the configuration tool is not allowed to open at the end of setup, the services may fail to start.   Many of the services depend on having the correct versions of the Visual C++ Runtime DLLs.  These are installed by the configuration tool when it first starts.  To fix this issue, simply launch the configuration tool from the Start menu. 
 
 ## Unattended Installation
  **Install using the following command**:
 
 ```Output
-msiexec /i HIS2016_Server_EN.msi /quiet
+msiexec /i HIS2020_Server_EN.msi /quiet
 ```
 *Note: A setup log will be written to the %temp% folder*
 
- Verify the installation by going to ***drive*:\Program Files\Microsoft Host Integration Server 2016**, and confirming the HIS files are there.
+ Verify the installation by going to ***drive*:\Program Files\Microsoft Host Integration Server**, and confirming the HIS files are there.
 
  **Uninstall using the following command**:
 
 ```Output
-msiexec /x HIS2016_Server_EN.msi /quiet
+msiexec /x HIS2020_Server_EN.msi /quiet
 ```
 *Note: A setup log will be written to the %temp% folder*
 
- Verify the uninstallation by going to ***drive*:\Program Files\Microsoft Host Integration Server 2016**, and confirming the files are removed.
+ Verify the uninstallation by going to ***drive*:\Program Files\Microsoft Host Integration Server**, and confirming the files are removed.
 
  For a list of MSIEXEC command line options, read the [Installer documentation](https://go.microsoft.com/fwlink/p/?LinkId=799793) (https://go.microsoft.com/fwlink/p/?LinkId=799793).
 
@@ -80,9 +92,9 @@ msiexec /x HIS2016_Server_EN.msi /quiet
 **Configure using the command:**
 
 ```Output
-ConfigurationWizard.exe /APPLY HIS2016.configurationfile.config
+ConfigurationWizard.exe /APPLY HIS2020.configurationfile.config
 ```
-The config file can be created by running the Configuration Wizard as a UI program – either by running ConfigurationWizard.exe with no parameters or running Configuration under the Microsoft Host Integration Server 2016 programs list.
+The config file can be created by running the Configuration Wizard as a UI program – either by running ConfigurationWizard.exe with no parameters or running Configuration under the Microsoft Host Integration Server 2020 programs list.
 
 **Unconfigure using the command:**
 
@@ -95,7 +107,7 @@ ConfigurationWizard.exe /u
 **Install and Configure using the command:**
 
 ```Output
-msiexec /i HIS2016_Server_EN.msi /quiet CONFIGURATIONFILE= HIS2016.configurationfile.config
+msiexec /i HIS2020_Server_EN.msi /quiet CONFIGURATIONFILE= HIS2020.configurationfile.config
 ```
 
 ## Disable Telemetry
