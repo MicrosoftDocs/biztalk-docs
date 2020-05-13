@@ -1,7 +1,7 @@
 ---
-title: "Server to Server Migration | Microsoft Docs"
+title: "Host Integration Server server-to-server Migration | Microsoft Docs"
 ms.custom: ""
-ms.date: "5/5/2020"
+ms.date: "5/13/2020"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -11,44 +11,62 @@ ms.assetid: bc4b1593-9301-423e-b515-a6a59230e78f
 caps.latest.revision: 6
 author: "gplarsen"
 ms.author: "hisdocs"
-manager: "anneta"
+manager: "dougeby"
 ---
-# Server to Server Migration
+
+# Server to Server migration
 
 ## Overview
 
-The HIS Migration tool can be used for migrating the configuration from older versions of Host Integration Server to a new Host Integration Server 2020 or 2016 Server or for migrating the configuration of Host Integration Server 2020 or 2016 from one server to  another srver.
+The HIS Migration tool can be used to:
 
-## Steps to migrate from Host Integration Server on one server to Host Integration Server on a different server
+- Move older HIS version configurations to a Host Integration Server 2020 or 2016 server.
+- Move the Host Integration Server 2020 or 2016 configuration from one server to another srver.
 
-- These instructions assume the migration tool is downloaded to a local C:\Files directory.
-- On the first Host Integration Server, open an Administrative Windows Command Prompt and issue the following command:
+## Steps to migrate HIS to HIS on a different server
 
-    C:\Files>**HisMigration.exe C:\Files\HIS_Migrate /Save**
+- These steps assume the migration tool is downloaded to a local `c:\Files` directory.
+- On the first Host Integration Server, open a command prompt as administrator, go to `c:\Files`, and run the following command:
 
-    > [!NOTE]
-    > C:\Files\HIS_Migrate must exist and have no files in it
+  ```cmd
+  HisMigration.exe C:\Files\HIS_Migrate /Save
+  ```
 
-- On the new Host Integration Server Server - copy the C:\Files directory and subdirectory from the first HIS Server.
-- The C:\Files\HIS_Migrate\System\Config\com.cfg file must be modified using the snacfg.exe tool. First generate a command file using the /print option, edit the command file to change the server name from the existing server name to the new server name, then use the snacfg.exe tool with the new command file to generate a new com.cfg file.
+  > [!NOTE]
+  > `c:\Files\HIS_Migrate` must exist, and have no files in it.
 
-    1. SNACFG.exe #C:\Files\HIS_Migrate\System\Config\com.cfg /print > HISconfig.txt
-    2. Make a copy of the blank com.cfg file
-        a. In C:\Program Files\Microsoft Host Integration Server\System\config create a folder called Blank
-        b. Copy and paste the file com.cfg to the folder Blank
-    3. SNACFG.exe #”C:\Program Files\Microsoft Host Integration Server\System\config \com.cfg”  @ C:\Files\HIS_Migrate\System\Config\HISconfig.txt /NOVALIDATEPRINTER  /V
+- From the first HIS server, copy the `c:\Files` directory and subdirectory, and paste it to the new HIS server.
+- Use the `snacfg.exe` tool to update the `c:\Files\HIS_Migrate\System\Config\com.cfg`:
 
-- Edit the C:\Files\HIS_Migrate\savedConfig.config file to insert the correct password(s) for the account(s) the services will run as. For security purposes the password(s) are replaced with "PasswordReplacedByThis", the correct password(s) must be entered or the services will not start.  Note there may be multiple instances of the password element.
-- Apply the saved configuration by opening an Administrative Windows Command Prompt and issuing the following command:
+  1. Generate a blank command file using the `/print` option:
+  
+      ```cmd
+      SNACFG.exe #c:\Files\HIS_Migrate\System\Config\com.cfg /print > HISconfig.txt
+      ```
 
-   C:\Files>**HisMigration.exe C:\Files\HIS_Migrate /Apply**
+  2. In the command file, change the server name from the existing server name to the new server name.
+  3. Make a copy of the blank `com.cfg` file:
+
+      1. In `c:\Program Files\Microsoft Host Integration Server\System\config`, create a folder named `Blank`.
+      2. Copy and paste the `com.cfg` file to the `Blank` folder.
+
+  4. To generate a new com.cfg file, use the snacfg.exe tool with the new command file:
+
+      ```cmd
+      SNACFG.exe #”C:\Program Files\Microsoft Host Integration Server\System\config \com.cfg”  @ C:\Files\HIS_Migrate\System\Config\HISconfig.txt /NOVALIDATEPRINTER  /V
+      ```
+
+- Edit the `c:\Files\HIS_Migrate\savedConfig.config` file to insert the correct password(s) for the account(s) that the services run as. For security purposes, the password(s) are replaced with `PasswordReplacedByThis`. The correct password(s) must be entered, or the services won't start. There may be multiple instances of the password element.
+- To apply the saved configuration:
+  1. Open a command prompt as administrator, and go to `c:\Files`.
+  2. Run: `HisMigration.exe c:\Files\HIS_Migrate /Apply`.
 
 ## Additional Considerations
 
 - When migrating to a new system, you may need to manually update the IPDLC link Services configuration of the network adapter(s).
-- If the configuration to be migrated contains SNA Print Sessions, ensure that the same printers are configured on the new system.
+- If the configuration to be migrated includes SNA Print Sessions, then confirm the same printers are configured on the new system.
 
-## See Also
+## Next steps
 
 [HIS Migration Tool](../install-and-config-guides/his-migration-tool-2020.md)  
 [Same Server Migration](../install-and-config-guides/same-server-migration-2020.md)
