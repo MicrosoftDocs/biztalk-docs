@@ -11,16 +11,17 @@ ms.assetid: 80c18554-aa15-463e-a139-13f25db7d571
 caps.latest.revision: 8
 author: "gplarsen"
 ms.author: "hisdocs"
-manager: "anneta"
+manager: "dougeby"
 ---
+
 # Install HIS 2020
-This installation guide provides basic instructions for using the Host Integration Server 2020 setup installation and configuration.
+
+This installation guide includes basic steps to use the Host Integration Server 2020 setup installation and configuration.
 
 ## Before you begin
 
--   Read the [Release Notes](../install-and-config-guides/release-notes-2020.md)
-
--   Refer to the [System Requirements](../install-and-config-guides/system-requirements-2020.md)
+- Read the [Release Notes](../install-and-config-guides/release-notes-2020.md).
+- Confirm the [System Requirements](../install-and-config-guides/system-requirements-2020.md) are installed.
 
 ## Installation
 
@@ -28,30 +29,29 @@ This installation guide provides basic instructions for using the Host Integrati
 
 2. In the **License Agreement**, accept the **End User License Agreement**. To customize your installation (optional):
 
-   1. Select **Advanced**.
+    1. Select **Advanced**.
 
-   2. In **Destination Folder**, you can optionally change the installation drive and directory.
+    2. In **Destination Folder**, you can optionally change the installation drive and directory.
 
-   3. In **Product Features**, you can optionally choose the feature areas, tools, and sub features.
+    3. In **Product Features**, you can optionally choose the feature areas, tools, and sub features.
 
-      Select **Install** to continue.
+        Select **Install** to continue.
 
 3. When complete, select **Finish**.
 
 ## Configuration
- After you successfully install HIS, run configuration to:
 
--   Define security groups
+After you successfully install HIS, run configuration to:
 
--   Enter service credentials
-
--   Enable (configures) or disable (un-configures) features and tools. For example, configuration registers BizTalk Adapters and Visual Studio design tools.
+- Define security groups.
+- Enter service credentials.
+- Enable (configures) or disable (un-configures) features and tools. For example, configuration registers BizTalk Adapters and Visual Studio design tools.
 
 ## Uninstall
 
 1. Open **Programs and Features**.
 
-2. In the list, select **Microsoft Host Integration Server 2020**, and then select **Uninstall**.
+2. In the list, select **Microsoft Host Integration Server 2020** > **Uninstall**.
 
 3. When prompted if you're sure, select **Yes**.
 
@@ -59,42 +59,47 @@ This installation guide provides basic instructions for using the Host Integrati
 
 1. Double-click the **HIS2020_Server_EN.msi** file.
 
-2.  In the **License Agreement**, accept the **End User License Agreement**.
+2. In the **License Agreement**, accept the **End User License Agreement**.
 
-3. Select **Install** to continue proceed with the upgrade
+3. Select **Install** to continue with the upgrade.
 
 4. When complete, select **Finish**.
 
-After an in-place upgrade from HIS 2016 to HIS 2020, if the configuration tool is not allowed to open at the end of setup, the services may fail to start.   Many of the services depend on having the correct versions of the Visual C++ Runtime DLLs.  These are installed by the configuration tool when it first starts.  To fix this issue, simply launch the configuration tool from the Start menu. 
+After an in-place upgrade from HIS 2016 to HIS 2020, if the configuration tool isn't allowed to open at the end of setup, then the services may fail to start. Many of the services require the correct versions of the Visual C++ Runtime DLLs. These DLLs are installed by the configuration tool when it first starts. To fix this issue, open the Start menu, and open the configuration tool.
 
 ## Unattended Installation
- **Install using the following command**:
+
+**Install using the following command**:
 
 ```Output
 msiexec /i HIS2020_Server_EN.msi /quiet
 ```
-*Note: A setup log will be written to the %temp% folder*
 
- Verify the installation by going to ***drive*:\Program Files\Microsoft Host Integration Server**, and confirming the HIS files are there.
+A setup log is written to the `%temp% folder`.
 
- **Uninstall using the following command**:
+To confirm the installation, go to `\Program Files\Microsoft Host Integration Server`, and confirm the HIS files are there.
+
+**Uninstall using the following command**:
 
 ```Output
 msiexec /x HIS2020_Server_EN.msi /quiet
 ```
-*Note: A setup log will be written to the %temp% folder*
 
- Verify the uninstallation by going to ***drive*:\Program Files\Microsoft Host Integration Server**, and confirming the files are removed.
+A setup log is written to the `%temp% folder`.
 
- For a list of MSIEXEC command line options, read the [Installer documentation](https://go.microsoft.com/fwlink/p/?LinkId=799793) (https://go.microsoft.com/fwlink/p/?LinkId=799793).
+To confirm the uninstallation, go to `\Program Files\Microsoft Host Integration Server`, and confirm the HIS files are removed.
+
+For a list of MSIEXEC command line options, see the [Installer documentation](https://go.microsoft.com/fwlink/p/?LinkId=799793) (https://go.microsoft.com/fwlink/p/?LinkId=799793).
 
 ## Unattended Configuration
+
 **Configure using the command:**
 
 ```Output
 ConfigurationWizard.exe /APPLY HIS2020.configurationfile.config
 ```
-The config file can be created by running the Configuration Wizard as a UI program – either by running ConfigurationWizard.exe with no parameters or running Configuration under the Microsoft Host Integration Server 2020 programs list.
+
+The config file can be created by running the Configuration Wizard as a UI program. Run ConfigurationWizard.exe with no parameters, or run Configuration under the Microsoft Host Integration Server 2020 programs list.
 
 **Unconfigure using the command:**
 
@@ -102,8 +107,8 @@ The config file can be created by running the Configuration Wizard as a UI progr
 ConfigurationWizard.exe /u
 ```
 
-
 ## Unattended Installation and Configuration
+
 **Install and Configure using the command:**
 
 ```Output
@@ -111,15 +116,17 @@ msiexec /i HIS2020_Server_EN.msi /quiet CONFIGURATIONFILE= HIS2020.configuration
 ```
 
 ## Disable Telemetry
+
 **Opt-out through UI**
 
-On the Common setting panel of the Configuration tool, uncheck **Turn on Telemetry to help improve the quality, reliability and performance**.
+In the Configuration tool > Common setting panel, uncheck **Turn on Telemetry to help improve the quality, reliability and performance**.
 
 **Opt-out through PowerShell**
 
 You can use the following PowerShell script to enable or disable telemetry:
 
-Import-Module Microsoft.HostIntegration.PowerShell
+`Import-Module Microsoft.HostIntegration.PowerShell`
+
 ```Output
 $c = Import-HisConfiguration
 $cs = $c | Get-HisFeature -CommonSettings
@@ -127,3 +134,6 @@ $cs.EnableTelemetry = $false
 $c.Apply()
 ```
 
+## Next steps
+
+[Get started using Host Integration Server](../core/host-integration-server-core-documentation.md).
