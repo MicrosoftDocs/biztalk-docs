@@ -45,13 +45,15 @@ The HIS Migration tool allows you to migrate from an earlier edition of Host Int
 - After the migration, when you're ready to allow access to the services, manually enable the firewall rules.
 - For HIP Services, the migration tool examines the `HIPService.exe.config` contents for the `assemblyPath` of the HIP Objects. If the `assemblyPath` points to an HIS product path, such as `%snaroot%\TIM`, then the HIP Objects are moved to the new HIS TIM folder. If the `assemblyPath` is to a custom directory, then that directory is created, and the objects are copied to it.
 - The migration tool doesn't examine the server for Application Integration Windows Initiated Programs (WIP). If these programs exist on the server, then look at the app.config files for these programs. Confirm the app.config file contents use the up-to-date locations on the server.
-- If upgrading from HIS 2013 to HIS 2020 or 2016, then both WIP and HIP programs, and TI Assemblies must be recompiled to work with these HIS versions. Be sure to:
+- If upgrading from HIS 2013 to HIS 2020 or 2016, then both WIP and HIP programs, and TI Assemblies must be recompiled to work with these HIS versions.
+
+  Be sure to:
 
   - Add new references to the HIS TI runtime assemblies.
   - Update the .config files to use version 10.0, instead of version 9.0.
-  - Projects must use .Net 4.8 or 4.6. 
-  
-  In the HIS designer, open any TI .hidx file(s), and save them again. This step generates updated dll(s). This step isn't required when migrating from HIS 2016 to HIS 2020.
+  - Projects must use .Net 4.8 or 4.6.
+  - In the HIS designer, open any TI .hidx file(s), and save them. This step generates updated dll(s). This step isn't required when migrating from HIS 2016 to HIS 2020.
+
 - For both WIP and HIP, all configuration must be done in the .config files. No configuration information is read from the registry.
 - The Visual Studio Integration feature is no longer migrated by this tool. In HIS 2020, the Visual Studio extenstions are re-written as a VSIX package. It isn't possible to support the migration from the old VSIP packages. To restore this feature, run the configuration wizard, and enable the Visual Studio Integration feature.
 
