@@ -45,15 +45,21 @@ The HIS Migration tool can be used to:
       ```
 
   2. In the command file, change the server name from the existing server name to the new server name.
-  3. Make a copy of the blank `com.cfg` file:
+  
+  3. Install Host Integration Server 2020 or 2016. Don't run the Configuration Wizard. 
+  
+  4. Make a copy of the blank `com.cfg` file:
 
       1. In `c:\Program Files\Microsoft Host Integration Server\System\config`, create a folder named `Blank`.
-      2. Copy and paste the `com.cfg` file to the `Blank` folder.
+      2. Copy the file com.cfg from C:\Program Files\Microsoft Host Integration Server\System\config to the folder Blank.
+      
+      [!NOTE]
+      This will allow you to repeat this step with a clean com.cfg file
 
-  4. To generate a new com.cfg file, use the snacfg.exe tool with the new command file:
+  5. To generate a new com.cfg file, use the snacfg.exe tool with the new command file:
 
       ```cmd
-      SNACFG.exe #”C:\Program Files\Microsoft Host Integration Server\System\config \com.cfg”  @ C:\Files\HIS_Migrate\System\Config\HISconfig.txt /NOVALIDATEPRINTER  /V
+      SNACFG.exe #”C:\Program Files\Microsoft Host Integration Server\System\config\com.cfg”  @ C:\Files\HIS_Migrate\System\Config\HISconfig.txt /NOVALIDATEPRINTER  /V
       ```
 
 - Edit the `c:\Files\HIS_Migrate\savedConfig.config` file to insert the correct password(s) for the account(s) that the services run as. For security purposes, the password(s) are replaced with `PasswordReplacedByThis`. The correct password(s) must be entered, or the services won't start. There may be multiple instances of the password element.
