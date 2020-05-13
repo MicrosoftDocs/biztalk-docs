@@ -44,7 +44,7 @@ The HIS Migration tool can be used to:
       SNACFG.exe #c:\Files\HIS_Migrate\System\Config\com.cfg /print > HISconfig.txt
       ```
 
-  2. In the command file, change the server name from the existing server name to the new server name.
+  2. If the new server has a different name, edit HISconfig.txt and replace all instances of the old name with the new name.
   
   3. Install Host Integration Server 2020 or 2016. Don't run the Configuration Wizard. 
   
