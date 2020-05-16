@@ -2,7 +2,7 @@
 title: "Install and configure | Microsoft Docs"
 description: Get started on installing and configuring Host Integration Server
 ms.custom: ""
-ms.date: 10/24/2016
+ms.date: 5/15/2020
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -17,7 +17,7 @@ manager: "anneta"
 # Host Integration Server Installation and Configuration
 
 ## Overview
-Read about [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], see what's new, and gets the steps to install [!INCLUDE[his2016](../includes/his2016-md.md)] and  [!INCLUDE[his2013](../includes/his2013-md.md)]. These topics focus on the following:  
+Read about [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)], see what's new, and gets the steps to install Host Integration Server 2020, Host Integration Server 2016 and  Host Integration Server 2013. These topics focus on the following:  
   
 - What is HIS  
   
@@ -29,7 +29,9 @@ Read about [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversio
   
 ## Next steps
  [What is HIS](../what-is-his.md)  
-  
+ 
+ [HIS 2020 - What's New, Release Notes, System Requirements, and Installation](../install-and-config-guides/his-2020-what-s-new-install-and-configure.md)
+ 
  [HIS 2016 - What's New, Release Notes, System Requirements, and Installation](../install-and-config-guides/his-2016-what-s-new-release-notes-system-requirements-and-installation.md)  
   
  [HIS 2013 - What's New, Install, and Configure](../install-and-config-guides/his-2013-what-s-new-install-and-configure.md)
