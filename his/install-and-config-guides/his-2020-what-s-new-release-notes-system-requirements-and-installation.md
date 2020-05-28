@@ -16,9 +16,11 @@ manager: "anneta"
 # HIS 2020 - What's New, Release Notes, System Requirements, and Installation
 
 ## Overview
+
 Read about what's new in Host Integration Server 2020. You can also read the release notes, view the system requirements, and install HIS.  
   
 ## Next steps
+
  [What's New in HIS 2020](../install-and-config-guides/what-s-new-in-his-2020.md)  
   
  [Release Notes](../install-and-config-guides/release-notes-2020.md)  
@@ -30,4 +32,5 @@ Read about what's new in Host Integration Server 2020. You can also read the rel
  [HIS Migration Tool](../install-and-config-guides/his-migration-tool-2020.md)
   
 ## See Also  
+
  [Host Integration Server Core Documentation](../core/host-integration-server-core-documentation.md)   

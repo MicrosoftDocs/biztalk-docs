@@ -14,7 +14,7 @@ ms.author: "hisdocs"
 manager: "dougeby"
 ---
 
-# Install HIS 2020
+# Install and configure HIS 2020
 
 This installation guide includes basic steps to use the Host Integration Server 2020 setup installation and configuration.
 
