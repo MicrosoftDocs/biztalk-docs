@@ -27,7 +27,7 @@ Read about what's new in Host Integration Server 2020. You can also read the rel
   
  [System Requirements](../install-and-config-guides/system-requirements-2020.md)  
   
- [Installing HIS 2020](../install-and-config-guides/installing-his-2020.md)  
+ [Install and configure HIS 2020](../install-and-config-guides/installing-his-2020.md)  
  
  [HIS Migration Tool](../install-and-config-guides/his-migration-tool-2020.md)
   
