@@ -1,0 +1,29 @@
+---
+title: "What's New in HIS 2020 | Microsoft Docs"
+ms.custom: ""
+ms.date: 5/4/2020
+ms.prod: host-integration-server
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+ms.assetid: 6f50d11f-8026-48d8-a13b-5ebf86369222
+caps.latest.revision: 15
+author: "gplarsen"
+ms.author: "hisdocs"
+manager: "anneta"
+---
+# What's New in HIS 2020
+Read about what's new in Host Integration Server 2020.  
+
+
+|             Feature             |                                                                                                                                                                                                                                                                       Description                                                                                                                                                                                                                                                                        |
+|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   Support for newer platforms   |                                                                                                                                                       Host Integration Server 2020 adds support for the following Microsoft products:<br /><br />-   Windows Server 2019 <br />-   Windows Server 2016<br />-   Windows 10<br />-   .NET Framework 4.8<br />-   BizTalk Server 2020 <br />-   SQL Server 2019 <br />-   SQL Server 2017 <br />-   Visual Studio 2019  <br />-  Visual Studio 2017                                                                                                                                                      |
+| Support for newer IBM platforms |                                       Host Integration Server 2020 adds support for the following IBM platforms:<br /><br /> -   IBM z/OS 2.3 <br />-   IBM z/OS 2.2<br />-   IBM z/VM 6.3<br />-   IBM zVSE  6.1<br />-   IBM i 7.3 <br />-   IBM i 7.2<br />-   IBM CICS 5.4 <br />-   IBM CICS 5.3<br />-   IBM IMS 14.1, 13.1<br />-   IBM MQ 9.1 <br />-   IBM MQ 9 <br />-   IBM MQ 8<br />-   IBM DFSMS DFM for z/OS 2.3 <br />-   IBM DFSMS DFM for z/OS 2.2<br />-   IBM DB2 for z/OS 12 <br />-   IBM DB2 for z/OS 11<br />-   IBM DB2 for i 7.3 <br />-   IBM DB2 for i 7.2<br />-   IBM DB2 for LUW 11.5 <br />-   IBM DB2 for LUW 11<br />-   IBM DB2 for LUW 10.5                                       |
+| Installation and configuration  |                                                                                                                                                                              Improvements include:<br /><br /> -   Support for GMSA (Group Managed Service Accounts)<br />-   In-place upgrade of HIS 2016<br />-   Support for remote use of PowerShell for product configuration                                                                                                                                                                               |
+|       Network integration       |                                                                                                                                                                                   Improvements include:<br /><br />-   Accessibility improvements in SNA Manager<br />-   Improvements to the TN3270 emulator                                                                                                                                                                                    |
+|     Application integration     |                                                                                                                                                                                                                                                    Improvements include:<br /><br />-   Accessibility improvements in TI Configuration Tool<br />-   Support for nested Discriminated Unions and Discriminated Union as a return value                                                                                                                                                                                                                                                    |
+|       Message integration       |                                                                                                                                       Improvements include:<br /><br />-   Support for the IBM .NET MQ Client in the BizTalk Adapter<br />-   Support for client authentication over TLS in the BizTalk adapter     <br />-   Support for IBM MQ RFH2 header                                                                                                                                   |
+|        Data integration         | Improvements include:<br /><br />-   DRDA Client connections to DB2 database via intermediary IBM DB2 Connect gateway<br />-   DRDA Client processing select from DB2 for z/OS with attached IBM accelerator (IDAA, Netezza)<br />-   DRDA Service Active Directory to Azure Active Directory integrated authentication)<br />-   Enhanced DRDA Service DB2 to TSQL syntax transformations |
+|       Visual Studio integration       |                                                                                                                                       Improvements include:<br /><br /> -   VSIX based extensions
