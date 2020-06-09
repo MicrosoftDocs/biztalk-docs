@@ -57,7 +57,7 @@ If you have an existing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizt
 * [Performance counters](../core/performance-counters.md)
 
 
-## Topics in this section :)
+## Topics in this section
 
 -   [Prerequisite Skills and Knowledge](../core/prerequisite-skills-and-knowledge5.md)
 
