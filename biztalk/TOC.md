@@ -473,7 +473,7 @@
 ### [Get BizTalk Server Assistance](core/getting-biztalk-server-assistance.md)
 ### [Community Resources](core/community-resources5.md)
 ### [Accessibility for People with Disabilities](core/accessibility-for-people-with-disabilities1.md)
-### [Navigating and creating New Query in Group Overview](core/navigating-new-query-using-nvda-screen-reader.md)
+### [Use NVDA to create New Query in Group Overview](core/navigating-new-query-using-nvda-screen-reader.md)
 #### [Keyboard Shortcuts](core/keyboard-shortcuts.md)
 ##### [Pipeline Designer Keyboard Shortcuts](core/pipeline-designer-keyboard-shortcuts.md)
 ##### [BizTalk Editor Keyboard Shortcuts](core/biztalk-editor-keyboard-shortcuts.md)
