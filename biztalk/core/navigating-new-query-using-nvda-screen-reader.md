@@ -25,7 +25,7 @@ This guidance is for **Group Overview** > **New Query** tab in BizTalk Server Ad
 
 Use the **New Query** tab to get the following information:
 
-- Create query expressions to get more information on your data, such as messaging and orchestration instances. This query is created in a table.
+- Create query expressions to get more information on your BizTalk artifacts, such as messaging and orchestration instances. This query is created in a table.
 - Use the **Run Query**, **Save As…**, and **Open Query…** buttons to:
 
   - **Run Query**: Runs the query expression you created.
