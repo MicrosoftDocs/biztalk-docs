@@ -24,8 +24,8 @@ manager: "anneta"
 |    Event ID     |                                                          -                                                          |
 |  Event Source   |               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                |
 |    Component    |                                                   Batching Engine                                                   |
-|  Symbolic Name  |                                                  ExceptionOccured                                                   |
-|  Message Text   | An exception has occured during the batch submission in the batching Orchestration. Batch Id= {0}, ErrorMessage {1} |
+|  Symbolic Name  |                                                  ExceptionOccurred                                                  |
+|  Message Text   | An exception has occurred during the batch submission in the batching Orchestration. Batch Id= {0}, ErrorMessage {1}|
   
 ## Explanation  
  This Error/Warning/Information event indicates that the batching orchestration could not add a batch element to a batch because of the error condition indicated in the ErrorMessage field.  
