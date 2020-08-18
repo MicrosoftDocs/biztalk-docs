@@ -5,7 +5,7 @@ author: msjaydeep
 ms.author: jaah
 manager: dougeby
 ms.date: 06/15/2020
-ms.topic: accessibility
+ms.topic: conceptual
 ms.prod: biztalk-server
 
 #ROBOTS:
