@@ -14,12 +14,14 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
+
 # Step 2: Add SWIFTNet Configuration to the Paramfile for the FileAct Real-Time Scenario
+
 The Server message partners created in SAG must be specified in the SWIFTNet paramfile to enable Receivers to initialize with these values.  
   
  Before you begin this step, you must complete [Step 1: Configure the SWIFT Adapter for the FileAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-fileact-real-time-scenario.md).  
   
-### To add SWIFTNet configuration to the paramfile  
+## To add SWIFTNet configuration to the paramfile  
   
 1. Open the paramfile in a text editor, such as Notepad.  
   
@@ -78,13 +80,14 @@ The Server message partners created in SAG must be specified in the SWIFTNet par
   
     \#subsystem_status:  
   
-    # *END  
+    \# *END  
   
-    # start_event:SNL001:subsystem User is up  
+    \# start_event:SNL001:subsystem User is up  
   
-    # stop_event:SNL002:subsystem User is down  
+    \# stop_event:SNL002:subsystem User is down  
   
-## See Also  
+## See Also
+
  [FileAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/fileact-real-time-scenario.md)   
  [Step 1: Configure the SWIFT Adapter for the FileAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-fileact-real-time-scenario.md)   
  [Step 3: Create the Send Ports and Receive Ports for the FileAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-3-create-the-send-ports-and-receive-ports-for-fileact-real-time-scenario.md)   

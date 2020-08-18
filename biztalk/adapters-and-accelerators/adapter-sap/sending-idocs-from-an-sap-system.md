@@ -1,7 +1,6 @@
 ---
 title: "Send IDOCs from an SAP system to use the mySAP adapter in BizTalk | Microsoft Docs"
 description: Send IDOCs, view transaction IDs, and view details about sent IDOCs - BizTalk Adapter Pack (BAP)
-description: 
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
