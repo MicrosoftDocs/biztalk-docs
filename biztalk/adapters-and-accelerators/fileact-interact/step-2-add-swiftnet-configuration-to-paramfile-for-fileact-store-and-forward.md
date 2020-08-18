@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 2: Add SWIFTNet Configuration to the Paramfile for the FileAct Store and Forward Scenario
+
 The Server message partners created in SAG must be specified in the SWIFTNet paramfile to enable Receivers to initialize with these values.  
   
 Complete [Step 1: Configure the SWIFT Adapter for the FileAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-1-configure-the-swift-adapter-for-the-fileact-store-and-forward-scenario.md) before you begin this step.
@@ -79,9 +80,9 @@ Complete [Step 1: Configure the SWIFT Adapter for the FileAct Store and Forward 
   
     \#*END  
   
-    # start_event:SNL001:subsystem User is up  
+    \# start_event:SNL001:subsystem User is up  
   
-    # stop_event:SNL002:subsystem User is down  
+    \# stop_event:SNL002:subsystem User is down  
     
   
 ## Complete steps

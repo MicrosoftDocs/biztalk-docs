@@ -6,8 +6,7 @@ ms.topic: troubleshooting
 ms.custom: kb=123456
 ms.date: 12/10/2019
 
-ROBOTS: NOINDEX
-ROBOTS: NOFOLLOW
+ROBOTS: NOINDEX; NOFOLLOW
 ---
 
 # Blank file to create /troubleshooting folder
