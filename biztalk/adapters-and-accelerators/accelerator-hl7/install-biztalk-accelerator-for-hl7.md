@@ -37,6 +37,7 @@ The minimum hardware and software requirements are the same as [!INCLUDE[btsBizT
 * The user installing and configuring [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)] must be a member of the BizTalk Administrators group, and a member of the Administrators group on the SQL Server where the [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)] data is stored.
 * The computer and signed-in user must have access to the primary domain controller (PDC). If the setup fails to access the PDC, then the installation fails, and won’t continue.
 * BizTalk Server should have the basic components installed and configured, including a 32-bit BizTalkServerApplication host with standard out of the box adapters, Enterprise Single Sign-on (SSO), the Group, and Runtime.
+* The default host should be configured as a FILE receive handler.
 * Read the [installation known issues](../../adapters-and-accelerators/accelerator-hl7/installation-known-issues.md).
 * [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)] is available in Enterprise and Standard Editions. The following table shows the compatibility between the different editions of [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)].
 
