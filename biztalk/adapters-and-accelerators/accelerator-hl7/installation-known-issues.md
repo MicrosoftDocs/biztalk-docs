@@ -23,10 +23,15 @@ Useful information that may help you avoid installation problems.
 - Basic components of [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], including Enterprise Single Sign-On (SSO), Group, and Runtime, should be configured.  
   
 - The user installing and configuring BTAHL7 must be a member of the BizTalk Administrators group, and a member of the Administrators group on the SQL Server where the BTAHL7 data is stored.
+
+- The default host should be configured as a FILE receive handler.
   
 ## SQL Server mixed mode not supported  
 The [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] does not support SQL Server in mixed mode.  
   
+## Installation succeeds but the BatchControlLocation receive location does not get created. 
+This indicates that the default host is not configured as a FILE receive handler.  During install popup with message "Error while creating receive location for outbound batching" will be shown.  
+
 ## Repair does not work from uninstall/change  
 If user access control (UAC) is enabled, and you try to repair your installation using the control panel, the repair fails. 
 
