@@ -25,20 +25,20 @@ After you create the token, you install the build agent, and configure it to use
 ## Before you begin
 Complete [Step 1 - Add Application project and update json](feature-pack-add-application-project.md).
 
-## Sign into VSTS, and create the token
-1. Go to [https://app.vsaex.visualstudio.com/go/profile](https://app.vsaex.visualstudio.com/go/profile), and sign-in with your work or school account. After you sign in, your VSTS account is listed. In the following example, the account is **mandiaprojects.visualstudio.com**.  
+## Sign into Azure DevOps, and create the token
+1. Go to [https://app.vsaex.visualstudio.com/go/profile](https://app.vsaex.visualstudio.com/go/profile), and sign-in with your work or school account. After you sign in, your VSTS account is listed. In the following example, the account is **dev.azure.com/v-vabi**.  
 
     ![VSTS account](../core/media/team-services-accounts.png)
 
-    If you don’t have an account, select **Create new account**, and enter a name. To manage your code, choose your personal preference between **Git or Team Foundation Version Control**. When finished, your new account is created, and a site similar to *https://YourAccountName.visualstudio.com/MyFirstProject* opens:  
+    If you don’t have an account, select **Create new account**, and enter a name. To manage your code, choose your personal preference between **Git or Team Foundation Version Control**. When finished, your new account is created, and a site similar to *https://dev.azure.com/v-vabi/BizTalkVSTS* opens:  
 
     ![Git or TFS](../core/media/git-or-team-foundation.png)
 
-2. Open your VSTS account (https://<em>YourAccountName</em>.visualstudio.com). Select your icon in the top right-side corner, and select **Security**: 
+2. Open your VSTS account (https://dev.azure.com/v-vabi/). Select your icon in the top second right-side corner, and select User settings: click on Personal access tokens
 
-    ![Open your account security](../core/media/vsts-account-security.png)
+    ![Open your account security](../core/media/azure-devops-personal-access-token.png)
 
-3. **Personal access tokens** automatically opens. If you have an existing agent, select it, and confirm **Agent Pools (read, manage)** is selected:
+3. Displays all the personal access tokens
 
     ![Agent pools - read and manage](../core/media/agent-pools-read-manage.png)
 
@@ -51,9 +51,9 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 
     Select **Create Token**. **Note the token value; you need in future steps.**
 
-4. Select **Code**, and select **Clone in Visual Studio**:  
+4. Select Repos, and select Clone in Visual Studio:  
 
-    ![In your project, select Code](../core/media/vsts-project-code.png)  
+    ![In your project, select Code](../core/media/azure-devops-select-repo.png)  
 
     ![Clone in Visual Studio](../core/media/vsts-clone-in-visual-studio.png)
 
@@ -63,11 +63,11 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 
 The build agent is installed on the BizTalk development computer. If using deployment groups, the build agent is installed on all the BizTalk servers you want to deploy to. The following steps show you how to install the build agent on a single computer. For details on using deployment groups, see [Deployment groups](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index).
 
-1. Open your VSTS account and project, which is something like *https://YourAccountName.visualstudio.com/MyFirstProject*. Select the settings icon, and select **Agent Queues**:  
+1. Open your Azure DevOps account and project, which is something like https://dev.azure.com/v-vabi/BizTalkVSTS. Select the Project settings icon, and select **Agent Pools**:
 
-    ![Settings > Agent Queues](../core/media/vsts-settings-agent-queues.png)
+    ![Settings > Agent Queues](../core/media/azure-devops-settings-agent-queues.png)
 
-2. Select the **Default** agent, and select **Download Agent**. Select the **Download** button, and save the file to your **Downloads** folders.
+2. Select the **Default** agent, and select **New Agent**. Select the **Download** button, and save the file to your **Downloads** folders.
 
 3. The install steps automatically open. Follow those steps for the most up-to-date details. Here is some guidance: 
 
@@ -107,7 +107,7 @@ The build agent is installed on the BizTalk development computer. If using deplo
 
    5. When finished, your PowerShell window looks like the following:  
 
-       ![Agent install](../core/media/vsts-agent-powershell-install.png)
+       ![Agent install](../core/media/azure-devops-agent-powershell-install.png)
 
 4. Open services.msc to see the new service. It should be running:  
 

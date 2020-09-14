@@ -45,9 +45,9 @@ We show you how to add the VSTS variable in your binding file, and how to create
 
 4. When done, save the binding file, and add it to your JSON build template (steps in [Step 1: Add Application project & update .json template](feature-pack-add-application-project.md)).
 
-## Create the variables in VSTS
+## Create the variables in Azure DevOps
 
-1. In your VSTS account, select **Build and release**, and select **Releases**.
+1. In your Azure DevOps account, select **Build and release**, and select **Releases**.
 
 2. Select your **Release definition**, and select **Variables**:  
 

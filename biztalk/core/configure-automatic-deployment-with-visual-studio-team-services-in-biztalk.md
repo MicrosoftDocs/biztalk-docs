@@ -1,6 +1,6 @@
 ---
 title: "Configure automatic deployment with Visual Studio Team Services | Microsoft Docs"
-description: Install BizTalk Feature Pack to use application lifecycle management with VSTS to deploy your applications to different BizTalk environments
+description: Install BizTalk Feature Pack to use application lifecycle management with Azure DevOps to deploy your applications to different BizTalk environments
 ms.custom: "biztalk-2020"
 ms.date: "01/10/2020"
 ms.prod: "biztalk-server"
@@ -19,25 +19,25 @@ manager: "anneta"
 
 ## Overview
 
-Using Visual Studio Team Services, you can automatically deploy [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] applications to different BizTalk environments. 
+Using Azure DevOps, you can automatically deploy [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] applications to different BizTalk environments. 
 
 Typically, there are two roles involved:
 
 - BizTalk developer creates the application, and builds it locally. Then, checks the application into Git or Team Foundation Version Control.
-- VSTS admin creates the build and release definitions, and deploys to the BizTalk application to different environments (Dev, UAT, Production).
+- Azure DevOps admin creates the build and release definitions, and deploys to the BizTalk application to different environments (Dev, UAT, Production).
 
-If you’ve never used VSTS, this walkthrough may be challenging. It does require some understanding of git, including cloning, and pushing changes. 
+If you’ve never used Azure DevOps, this walkthrough may be challenging. It does require some understanding of git, including cloning, and pushing changes. 
 
-We show you how to setup VSTS with [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], and add your first application to deploy. We recommend you refer to the [VSTS guidance](https://docs.microsoft.com/vsts/user-guide/), as the VSTS UI changes. 
+We show you how to setup Azure DevOps with [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], and add your first application to deploy. We recommend you refer to the [VSTS guidance](https://docs.microsoft.com/vsts/user-guide/), as the Azure DevOps UI changes. 
 
 ## Before you begin
 
-* Have your Visual Studio Team Services (VSTS) account ready. Don't have one? [Sign up for Visual Studio Team Services](https://www.visualstudio.com/docs/setup-admin/team-services/sign-up-for-visual-studio-team-services).
-* If you already have a VSTS Agent installed on your BizTalk computer, then the existing agent is overwritten with the latest VSTS Agent. You may have to update your [VSTS service to align with the new agent](https://www.visualstudio.com/docs/build/actions/agents/v2-windows#replace-an-agent).
+* Have Azure DevOps account ready. Don't have one? [Sign up for Visual Studio Team Services](https://www.visualstudio.com/docs/setup-admin/team-services/sign-up-for-visual-studio-team-services).
+* If you already have a Azure DevOps Agent installed on your BizTalk computer, then the existing agent is overwritten with the latest Azure DevOps Agent. You may have to update your [VSTS service to align with the new agent](https://www.visualstudio.com/docs/build/actions/agents/v2-windows#replace-an-agent).
 
 ## Prerequisites
 
-* Some experience and knowledge with creating and working with definitions in VSTS. If you're brand new to VSTS, these may be good resources: 
+* Some experience and knowledge with creating and working with definitions in Azure DevOps. If you're brand new to Azure DevOps, these may be good resources: 
 
   [Visual Studio Team Services overview](https://www.visualstudio.com/docs/overview)  
   [CI/CD for newbies](https://www.visualstudio.com/docs/build/get-started/ci-cd-part-1)
@@ -45,7 +45,7 @@ We show you how to setup VSTS with [!INCLUDE[btsBizTalkServerNoVersion_md](../in
 ## Get started
 [Step 1: Add Application project & update .json template](feature-pack-add-application-project.md)  
 
-[Step 2: Create the VSTS token & install the build agent](feature-pack-create-vsts-token.md)
+[Step 2: Create the Azure DevOps token & install the build agent](feature-pack-create-vsts-token.md)
 
 [Step 3: Create the build and release definitions](feature-pack-add-build-release-definitions.md)
 
