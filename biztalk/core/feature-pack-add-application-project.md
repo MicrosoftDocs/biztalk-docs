@@ -2,7 +2,7 @@
 title: Step 1 - Add Application project and update json | Microsoft Docs
 description: Add the BizTalk Server Application project in Visual Studio, and update the BizTalkServerInventory.json file with the DLLs, binding files, and deployment sequence of your applications - Visual Studio Team Services
 ms.custom: "biztalk-2020"
-ms.date: "01/10/2020"
+ms.date: "10/19/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -22,8 +22,8 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
 ## Before you begin
 
-* Create a simple Biztalk Project with Orchestration.
-* Have the path to the XML binding file to your BizTalk project ready(To create Send and Receive Port). 
+* Create a simple BizTalk project with orchestration.
+* Have the path to the XML binding file to your BizTalk project ready. This XML file creates your send and receive port.
 * Know your Azure DevOps account, your collection, and your team project details.
 * Be familiar with git concepts, including cloning and working with repositories. 
 
@@ -35,7 +35,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
 3. Right-click your solution, select **Add**, and select **Add New Project**.
 
-4. Select **BizTalk Server Application Project** click on **next** Enter a name (e.g. appProjectHelloWorld), and click on **Create button**. 
+4. Select **BizTalk Server Application Project** > **Next**. Enter a project name, such as `appProjectHelloWorld` > **Create**. 
 
     ![Add application project](../core/media/add-application-project.png)
 
@@ -44,7 +44,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
 6. In Solution Explorer, right-click your application project (.btaproj), select **Add**, select **Existing Item**, and **Add** your binding XML file.
 
-7. Optional. Right-click your newly-added application project, and select **Properties**. Customize the **Application Name** you want displayed in BizTalk Administration:  
+7. Optional. Right-click your newly-added application project, and select **Properties**. Customize the **Application Name** you want shown in BizTalk Administration:  
 
     ![Application name](../core/media/application-project-name.png)
 
@@ -54,7 +54,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
 2. The template includes the following sections: 
 
-    | | |
+    | Section | Description |
     |---|---|
     |BizTalkAssemblies | The assemblies used in your applications |
     |BindingFiles | The binding files you are referencing|
@@ -134,8 +134,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
     ![Connect to Team Services](../core/media/connect-team-services.png)
 
-    ![Click on Connect](../core/media/click-on-connect.png)
-
+    ![Click Connect](../core/media/click-on-connect.png)
 
 10. Select your Azure DevOps account, your collection, and your team project. Select **OK**. If you didn’t create a Azure DevOps account yet, then create one ([Step 2: Create the Azure DevOps token](feature-pack-create-vsts-token.md) provides some guidance). Once it's created, come back to this step, and connect.  
 
