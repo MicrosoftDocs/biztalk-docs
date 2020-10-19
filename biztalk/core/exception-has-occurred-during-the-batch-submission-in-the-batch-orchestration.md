@@ -26,8 +26,8 @@ manager: "anneta"
 |    Event ID     |                                                          -                                                          |
 |  Event Source   |               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                |
 |    Component    |                                                   Batching Engine                                                   |
-|  Symbolic Name  |                                                  ExceptionOccured                                                   |
-|  Message Text   | An exception has occured during the batch submission in the batching Orchestration. Batch Id= {0}, ErrorMessage {1} |
+|  Symbolic Name  |                                                  ExceptionOccurred                                                  |
+|  Message Text   | An exception has occurred during the batch submission in the batching Orchestration. Batch Id= {0}, ErrorMessage {1}|
   
 ## Explanation  
 

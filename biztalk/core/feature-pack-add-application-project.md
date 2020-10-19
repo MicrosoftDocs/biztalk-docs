@@ -2,7 +2,7 @@
 title: Step 1 - Add Application project and update json | Microsoft Docs
 description: Add the BizTalk Server Application project in Visual Studio, and update the BizTalkServerInventory.json file with the DLLs, binding files, and deployment sequence of your applications - Visual Studio Team Services
 ms.custom: "biztalk-2020"
-ms.date: "01/10/2020"
+ms.date: "10/19/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -16,15 +16,15 @@ manager: "anneta"
 
 # Step 1: Add the BizTalk Server Application project in Visual Studio
 
-When you build your applications using Visual Studio Team Services, a new BizTalk project file is created – .btaproj. This new project holds all the BizTalk applications that you build and deploy using the VSTS build and release features. 
+When you build your applications using Visual Studio Team Services, a new BizTalk project file is created – .btaproj. This new project holds all the BizTalk applications that you build and deploy using the Azure DevOps build and release features. 
 
 The BizTalk Application Project includes the `BizTalkServerInventory.json` file. In this file, add your BizTalk assemblies, add the binding files for your BizTalk application, and then set a deployment sequence. 
 
 ## Before you begin
 
-* These steps assume you have an existing BizTalk project. If not, you can use the HelloWorld SDK sample (\Program Files (x86)\Microsoft BizTalk Server *yourVersion*\SDK\Samples\Orchestrations\HelloWorld). 
-* Have the path to the XML binding file to your BizTalk project ready. 
-* Know your VSTS account, your collection, and your team project details.
+* Create a simple BizTalk project with orchestration.
+* Have the path to the XML binding file to your BizTalk project ready. This XML file creates your send and receive port.
+* Know your Azure DevOps account, your collection, and your team project details.
 * Be familiar with git concepts, including cloning and working with repositories. 
 
 ## Add the application project
@@ -35,7 +35,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
 3. Right-click your solution, select **Add**, and select **Add New Project**.
 
-4. Select the **BizTalk Projects** tab, select **.NET Framework 4.6.1** from the drop-down list, and select **BizTalk Server Application Project**. Enter a name (e.g. appProjectHelloWorld), and select **OK**:  
+4. Select **BizTalk Server Application Project** > **Next**. Enter a project name, such as `appProjectHelloWorld` > **Create**. 
 
     ![Add application project](../core/media/add-application-project.png)
 
@@ -44,11 +44,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
 6. In Solution Explorer, right-click your application project (.btaproj), select **Add**, select **Existing Item**, and **Add** your binding XML file.
 
-7. Open the properties of binding.xml, and set **Copy to Output Directory** to **Copy always**. **Save** your changes:  
-
-    ![Binding file properties](../core/media/xml-binding-file-properties.png)
-
-8. Optional. Right-click your newly-added application project, and select **Properties**. Customize the **Application Name** you want displayed in BizTalk Administration:  
+7. Optional. Right-click your newly-added application project, and select **Properties**. Customize the **Application Name** you want shown in BizTalk Administration:  
 
     ![Application name](../core/media/application-project-name.png)
 
@@ -58,7 +54,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
 2. The template includes the following sections: 
 
-    | | |
+    | Section | Description |
     |---|---|
     |BizTalkAssemblies | The assemblies used in your applications |
     |BindingFiles | The binding files you are referencing|
@@ -107,7 +103,7 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
     ```json
     {
-      "$schema": "C:\\Program Files (x86)\\Microsoft BizTalk Server 2016\\Developer Tools\\BizTalkServerAppplicationSchema.json",
+      "$schema": "http://json.schemastore.org/BizTalkServerApplicationSchema",
       "BizTalkAssemblies": [
         {
           "Name": "HelloWorld",
@@ -134,11 +130,13 @@ The BizTalk Application Project includes the `BizTalkServerInventory.json` file.
 
     ![Build zip file](../core/media/application-project-zip-file.png)
 
-9. Select your solution, and select the **Team Explorer** tab. Under VSTS, select **Connect**.  
+9. Select your solution, and select the **Team Explorer** tab. Under Azure DevOps, select **Connect**.  
 
     ![Connect to Team Services](../core/media/connect-team-services.png)
 
-10. Select your VSTS account, your collection, and your team project. Select **OK**. If you didn’t create a VSTS account yet, then create one ([Step 2: Create the VSTS token](feature-pack-create-vsts-token.md) provides some guidance). Once it's created, come back to this step, and connect.  
+    ![Click Connect](../core/media/click-on-connect.png)
+
+10. Select your Azure DevOps account, your collection, and your team project. Select **OK**. If you didn’t create a Azure DevOps account yet, then create one ([Step 2: Create the Azure DevOps token](feature-pack-create-vsts-token.md) provides some guidance). Once it's created, come back to this step, and connect.  
 
     ![Select your collection and project](../core/media/team-collections-projects.png)
 

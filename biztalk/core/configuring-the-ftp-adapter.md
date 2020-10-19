@@ -1,5 +1,6 @@
 ---
 title: "Configuring the FTP Adapter | Microsoft Docs"
+description: Add and configure the FTP adapter in a receive port, receive location, and send port in BizTalk Server.
 ms.custom: ""
 ms.date: "09/28/2018"
 ms.prod: "biztalk-server"
@@ -74,7 +75,7 @@ You can set FTP receive location adapter properties in the BizTalk Server Admini
    |      **File Mask**       |  Specify the file mask filter to use when transmitting files.  |
    |        **Folder**        |   Specify the polling location on the FTP server.  |
    |   **FTP Server Type**    | New starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. <br/><br/>Use this property to choose an FTP server that does not require the SYST command. Options are None, AIX, Detect, GXS, MVS, OS400, and Other. <br/><br/>If set to **None**, the SYST command is used. **Other** is used when the OS type does not fit into any of the specified categories. <br /><br /> **Default value:** None |
-   |         **Log**          |  Specify the location to save a copy of the log file. You use this file to diagnose error conditions when sending or receiving files through FTP.    |
+   |         **Log**          |  Specify the full path including filename of the log file to output to. You use this file to diagnose error conditions when sending or receiving files through FTP.    |
    |    **Max File Size**     |   Specify the maximum downloadable file size, in megabytes.<br /><br /> Zero (0) indicates no limit on the file size.<br /><br /> **Default value:** 100    |
    |       **Password**       |   Specify the user password to log on to the FTP server. |
    |         **Port**         |  Specify the port address for this FTP server.<br /><br /> **Default value:** 21 |
@@ -153,7 +154,7 @@ You can set FTP send port adapter properties in the BizTalk Server Administratio
    |    **Before Put**    |  Specify the FTP commands to run before the file PUT, such as commands to change default values on the FTP server. Separate commands with a semicolon (;). No open command is required. **Note:**  QUIT command is not supported before the file PUT.  |
    |      **Folder**      |  Specify the location to move the files to on the FTP server. |
    | **FTP Server Type**  | New starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]. <br/><br/>Use this property to choose an FTP server that does not require the SYST command. Options are None, AIX, Detect, GXS, MVS, OS400, and Other. <br/><br/>If set to **None**, the SYST command is used. **Other** is used when the OS type does not fit into any of the specified categories. <br /><br /> **Default value:** None |
-   |       **Log**        |  Specify the location to save a copy of a log file. Use this file to diagnose error conditions when sending or receiving files through FTP adapter.    |
+   |       **Log**        |  Specify the full path including filename of the log file to output to. Use this file to diagnose error conditions when sending or receiving files through FTP adapter.    |
    |     **Password**     |  Specify the password to log on to the FTP server. |
    |       **Port**       | Specify the port address for the FTP server.<br /><br /> **Default value:** 21  |
    |  **Representation**  | Select how FTP adapter sends the data, either as binary or as ASCII.<br /><br /> **Valid values:** binary or ASCII<br /><br /> **Default value:** binary   |

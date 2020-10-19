@@ -10,7 +10,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "MandiOhlinger"
-ms.author: "plarsen"
+ms.author: "valthom"
 manager: "anneta"
 ---
 
@@ -56,10 +56,10 @@ Your event hub is now created, and you have the connection strings you need to s
 
     When finished, your properties look similar to the following: 
 
-    ![Endpoint properties](../core/media/event-hub-endpoint-properties.png)
+    ![Sample namespace, name, partition key, and authentication properties in the Event Hub adapter send port endpoint properties in BizTalk Server](../core/media/event-hub-endpoint-properties.png)
 
 
-5. Optional. Configure the **Message** properties. The **Namespace for User Defined Message Properties** value represents a BizTalk message schema mapped to Event Hubs message properties.
+5. Optional. Configure the **Message** properties. The **Namespace for User Defined Message Properties** value represents the namespace for context properties mapped to Event Hubs message properties.  This can be achieved using a property schema.
 
 6. Select **Ok** to save your changes. 
 
@@ -111,7 +111,7 @@ You can use a simple File receive port and location to send messages to your Azu
 
     When finished, your properties look similar to the following: 
 
-    ![Endpoint properties](../core/media/event-hub-endpoint-receive-properties.png)
+    ![Sample namespace, name, consumer group, and authentication properties in the Event Hub adapter receive location endpoint properties in BizTalk Server](../core/media/event-hub-endpoint-receive-properties.png)
 
 5. Configure the **Checkpoint** properties. This adapter uses an Azure blob storage account to reliably read events using a checkpoint, and resume from a restart. 
 
@@ -127,7 +127,7 @@ You can use a simple File receive port and location to send messages to your Azu
     |Use this|To do this|  
     |---|---|  
     | **Namespace for User Defined Message Properties** | `http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User` is the default schema, but you can enter another schema. This value represents a BizTalk message schema mapped to Event Hubs message properties. |
-    | **Promote user defined properties** | Optional. You can promote these properties if you prefer. <br/><br/>**NOTE**<br/>The properties that need to be promoted should have a porperty schema deployed *before* receiving events.|
+    | **Promote user defined properties** | Optional. You can promote these properties if you prefer. <br/><br/>**NOTE**<br/>The properties that need to be promoted should have a property schema deployed *before* receiving events.|
 
 7. Select **Ok** to save your changes. 
 
