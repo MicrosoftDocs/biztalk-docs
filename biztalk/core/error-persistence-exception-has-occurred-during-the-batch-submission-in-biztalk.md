@@ -1,5 +1,6 @@
 ---
 title: "A persistence exception has occurred during the batch submission in the batching Orchestration | Microsoft Docs"
+description: Persistence exception error message and resolution when using EDI batching in BizTalk Server.
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -12,20 +13,21 @@ ms.assetid: cf6e832f-9d01-46e7-aaf5-2b402d509fac
 caps.latest.revision: 9
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "anneta"
+manager: "dougeby"
 ---
 # A persistence exception has occurred during the batch submission in the batching Orchestration
+
 ## Details  
   
-|                 |                                                                                                                                                                                            |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  Product Name   |                                                     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                     |
-| Product Version |                                                                 [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                 |
-|    Event ID     |                                                                                             -                                                                                              |
-|  Event Source   |                                                   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                                   |
-|    Component    |                                                                                      Batching Engine                                                                                       |
-|  Symbolic Name  |                                                                                PersistenceExceptionOccured                                                                                 |
-|  Message Text   | A persistence exception has occured during the batch submission in the batching Orchestration. Batch Id = {0}, ErrorMessage = {1}. Please check your send port subscriptions and fix them. |
+| Catetgory | Information |
+|---|---|
+|  Product Name   |  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| Product Version |  [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)] |
+|    Event ID     | |
+|  Event Source   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI   |
+|    Component    |  Batching Engine  |
+|  Symbolic Name  |  PersistenceExceptionOccurred  |
+|  Message Text   | A persistence exception has occurred during the batch submission in the batching Orchestration. Batch Id = {0}, ErrorMessage = {1}. Please check your send port subscriptions and fix them. |
   
 ## Explanation  
  This Error/Warning/Information event indicates that BizTalk Server could not send a batched interchange because no send port subscribed to the interchange.  
