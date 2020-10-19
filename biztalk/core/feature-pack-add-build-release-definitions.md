@@ -2,7 +2,7 @@
 title: Step 3 - Create the build and release definitions | Microsoft Docs
 description: In VSTS, create a build definition to build the projects within your git or TFS repository, then create a release definition to deploy the BizTalk Server application
 ms.custom: ""
-ms.date: "11/20/2017"
+ms.date: "10/19/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -16,25 +16,25 @@ manager: "anneta"
 
 # Step 3: Create the build and release definition
 
-The build and release definitions are Azure DevOps, and should probably be done by a Azure DevOps admin. The build definition builds your project within your git repository, and the release definitions deploys it to your BizTalk Server environment. 
+The build and release definitions are Azure DevOps tasks, and should probably be done by a Azure DevOps admin. The build definition builds your project within your git repository, and the release definitions deploys it to your BizTalk Server environment. 
 
 ## Before you begin
 Complete [Step 2 - Create VSTS token and install agent](feature-pack-create-vsts-token.md).
 
 ## Add the Build tasks
-1. In your project, select **Pipelines**. Click on **Create Pipeline**.
+1. In your project, select **Pipelines** > **Create Pipeline**:
 
     ![New build definition](../core/media/azure-devops-pipeline.png)
 
-    Use the classic editor to create a pipeline without YAML
+    Use the classic editor to create a pipeline without YAML:
 
     ![Create pipeline](../core/media/azure-devops-create-pipeline.png)
 
-    Click on Azure Repos Git and Continue.
+    Select **Azure Repos Git** > **Continue**:
 
     ![Find repo](../core/media/azure-repos-git.png)
 
-2. Select the **Empty** template, and select **Apply**:  
+2. Select the **Empty** template > **Apply**:  
 
     ![Select empty template](../core/media/azure-devops-empty-template.png)
  
@@ -44,7 +44,7 @@ Complete [Step 2 - Create VSTS token and install agent](feature-pack-create-vsts
 
 4. In **Phase 1**, add a task, select **Visual Studio Build**, and select **Add**:
 
-    ![Add VS build task](../core/media/azure-devops-add-visual-studio-task.png)
+    ![Add a Visual Studio build task to your BizTalk Server project](../core/media/azure-devops-add-visual-studio-task.png)
 
 5. Click the Visual Studio Build task you just added, and set the following properties:  
 
@@ -54,12 +54,13 @@ Complete [Step 2 - Create VSTS token and install agent](feature-pack-create-vsts
     | Visual Studio version | Visual Studio 2015 | 
     | MSBuild Architecture | MSBuild x86 | 
 
-    ![Azure repo properties](../core/media/azure-repos-build-properties.png)
+    Your properties look similar to the following:
 
+    ![Azure repo properties](../core/media/azure-repos-build-properties.png)
 
 6. In **Phase 1**, add a task, select **Publish Build Artifacts**, and select **Add**: 
 
-    ![Add VS build task](../core/media/azure-devops-add-publish-build-task.png)
+    ![Add a Visual Studio build artifacts task to your BizTalk Server project](../core/media/azure-devops-add-publish-build-task.png)
 
 7. Select the **Publish Artifact** task, and enter your preferred **Display name**. For **Path to publish**, select the **...**  button, and choose the application project folder (e.g. appProjectHelloWorld). Select **OK**.
 
@@ -69,7 +70,7 @@ Complete [Step 2 - Create VSTS token and install agent](feature-pack-create-vsts
 
 9. Go to **Triggers**, and set the **Trigger status** to **Enabled**:  
 
-    ![Add VS build task](../core/media/azure-devops-continuous-integration.png)
+    ![Add and enable a Visual Studio trigger to your BizTalk Server project](../core/media/azure-devops-continuous-integration.png)
 
 10. **Save & Queue** to test your build definition. When you queue, you are prompted for the agent queue and your branch. Select the **Default** agent queue, and choose your branch. Select **Queue**.  
 
@@ -81,11 +82,11 @@ Complete [Step 2 - Create VSTS token and install agent](feature-pack-create-vsts
 
 When the build succeeds, the release definition deploys your application to your BizTalk Server. 
 
-1. Select the **Releases** tab, select **NewPipeline**. 
+1. Select the **Releases** tab > **New pipeline**. 
 
     ![New pipeline](../core/media/azure-devops-new-pipeline.png)
 
-2. Select the **Empty** template, and select **Apply**:
+2. Select the **Empty** template > **Apply**:
 
     ![Add Empty template](../core/media/azure-devops-empty-release-template.png)
 
@@ -99,11 +100,11 @@ When the build succeeds, the release definition deploys your application to your
 
     ![Add release task](../core/media/azure-devops-new-release-tasks.png)
 
-6. From the list, filter the results, select the **BizTalk Server Application Deployment** task, and select **Add**:  
+6. From the list, filter the results, select the **BizTalk Server Application Deployment** task > **Add**:  
 
     ![Add BizTalk deployment task](../core/media/azure-devops-biztalk-application-deployment-task.png)
 
-    If **BizTalk Server Application Deployment** ins't listed, then install it at [Deploy BizTalk Application](https://marketplace.visualstudio.com/items?itemName=ms-biztalk.deploy-biztalk-application).
+    If **BizTalk Server Application Deployment** isn't listed, then install it at [Deploy BizTalk Application](https://marketplace.visualstudio.com/items?itemName=ms-biztalk.deploy-biztalk-application).
 
 7. Select the **Deploy** task, and enter the values: 
 
