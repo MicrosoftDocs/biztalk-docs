@@ -2,7 +2,7 @@
 title: Create environmental tokens & variables | Microsoft Docs"
 description: Update the binding file to use environment tokens, and create variables in VSTS to automate deployment of BizTalk Server applications
 ms.custom: "biztalk-2020"
-ms.date: "01/10/2020"
+ms.date: "10/19/2020"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -41,17 +41,17 @@ We show you how to add the VSTS variable in your binding file, and how to create
 
 3. Remove the populated value, and replace it with you variables: `$(YourValue)`. For example, enter `$(SendPort1)`: 
 
-   ![Binding file](../core/media/biztalk-feature-pack-1-binding-3.png)
+   ![Enter the send port variable name in the binding file in BizTalk Server](../core/media/biztalk-feature-pack-1-binding-3.png)
 
 4. When done, save the binding file, and add it to your JSON build template (steps in [Step 1: Add Application project & update .json template](feature-pack-add-application-project.md)).
 
-## Create the variables in VSTS
+## Create the variables in Azure DevOps
 
-1. In your VSTS account, select **Build and release**, and select **Releases**.
+1. In your Azure DevOps account, select **Build and release**, and select **Releases**.
 
 2. Select your **Release definition**, and select **Variables**:  
 
-    ![Binding file](../core/media/vsts-release-variables.png)
+    ![Select the release definition and variables in the binding file in BizTalk Server](../core/media/vsts-release-variables.png)
 
 3. Select **Add**, and create the variable names and values:   
 
