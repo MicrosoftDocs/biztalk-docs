@@ -33,15 +33,15 @@ We show you how to add the VSTS variable in your binding file, and how to create
 
 1. Open the application binding file:
 
-   ![Open the binding file](../core/media/biztalk-feature-pack-1-binding-1.png)
+    :::image type="content" source="./media/configure-environmental-tokens-and-variables-for-automatic-deployment/biztalk-feature-pack-1-binding-1.png" alt-text="Open the BizTalk Server application binding file in Visual Studio.":::
 
 2. Find the element you want to change:
 
-    ![Select the element](../core/media/biztalk-feature-pack-1-binding-2.png)
+    :::image type="content" source="./media/configure-environmental-tokens-and-variables-for-automatic-deployment/biztalk-feature-pack-1-binding-2.png" alt-text="In the BizTalk Server application binding file, select the element you want to change in Visual Studio.":::
 
 3. Remove the populated value, and replace it with you variables: `$(YourValue)`. For example, enter `$(SendPort1)`: 
 
-   ![Enter the send port variable name in the binding file in BizTalk Server](../core/media/biztalk-feature-pack-1-binding-3.png)
+    :::image type="content" source="./media/configure-environmental-tokens-and-variables-for-automatic-deployment/biztalk-feature-pack-1-binding-3.png" alt-text="In the BizTalk Server application binding file, remove the existing variable, and change it to your send port variable.":::
 
 4. When done, save the binding file, and add it to your JSON build template (steps in [Step 1: Add Application project & update .json template](feature-pack-add-application-project.md)).
 
@@ -51,11 +51,11 @@ We show you how to add the VSTS variable in your binding file, and how to create
 
 2. Select your **Release definition**, and select **Variables**:  
 
-    ![Select the release definition and variables in the binding file in BizTalk Server](../core/media/vsts-release-variables.png)
+    :::image type="content" source="./media/configure-environmental-tokens-and-variables-for-automatic-deployment/vsts-release-variables.png" alt-text="Select the release definition and variables in the application binding file in BizTalk Server.":::
 
-3. Select **Add**, and create the variable names and values:   
+3. Select **Add**, and create the variable names and values:
 
-   ![configure variables](../core/media/environment-specific-variables.png)
+    :::image type="content" source="./media/configure-environmental-tokens-and-variables-for-automatic-deployment/environment-specific-variables.png" alt-text="Add the variables in the BizTalk Server application binding file to Azure DevOps release definition.":::
 
 4. **Save** your changes. When the deploy is initiated, the values are added from the binding file.
 
