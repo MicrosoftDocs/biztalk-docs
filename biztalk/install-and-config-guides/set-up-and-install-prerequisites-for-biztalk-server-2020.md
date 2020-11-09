@@ -266,7 +266,7 @@ If you use BAM, BizTalk Server requires SSIS Catalog to be created. If you don't
 
 **SEE ALSO** : More on [SSIS Catalog](https://docs.microsoft.com/sql/integration-services/catalog/ssis-catalog).
 
-**For specific steps to create the SSIS Catalog, see**: [Create the SSIS Catalog](https://docs.microsoft.com/sql/integration-services/create-the-ssis-catalog).
+**For specific steps to create the SSIS Catalog, see**: [Create the SSIS Catalog](https://docs.microsoft.com/sql/integration-services/catalog/ssis-catalog#create-the-ssis-catalog).
 
 ## Install WinSCP (optional)
 
