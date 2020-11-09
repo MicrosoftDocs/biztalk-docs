@@ -49,6 +49,10 @@ A setup log is created in `C:\ProgramData\Microsoft\E-Business Servers Updates\U
 
 ## Feature Pack 3 updates
 
+### FIPS Compliance
+
+After installing Feature Pack, BizTalk Server can be configured and deployed on machines where [FIPS security policy](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing) is enabled.
+
 ### [Office 365 Adapters](../core/install-and-configure-biztalk-tms-for-fp.md)
 
 Microsoft Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. By combining best-in-class apps like Excel and Outlook with powerful cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device.
