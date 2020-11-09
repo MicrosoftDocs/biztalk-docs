@@ -44,7 +44,8 @@ BizTalk Server 2013 R2 and previous versions do not support WinSCP.
     |Use this|To do this|
     |--------------|----------------|
     |Connection Limit|Specify the maximum number of concurrent connections that can be opened to the server.<br /><br /> This setting is per server and per receive location. Consider the following scenarios:<br /><br /> - There are two receive locations that have the same configuration property values, including the ConnectionLimit property set to the same value. For example, the property is set to 6. In this situation, there is one connection pool (with 6 available connections) that is used by both receive locations.<br /><br /> - There are two receive locations configured with same configuration values, and have the ConnectionLimit property set to different values. For example, ReceiveLocation1 property is set to 6 and ReceiveLocation2 property is set to 5. In this situation, each receive location has its own connection pool with its own available connections. ReceiveLocation1 connection pool has 6 available connections. ReceiveLocation2 connection pool has 5 available connections.|
-    |Log | Available starting with BizTalk Server 2016. <br/><br/>Enter the full path to create a client-side log file. Use this log file to troubleshoot any errors.|
+    |Log| Available starting with BizTalk Server 2016. <br/><br/>Enter the full path to create a client-side log file. Use this log file to troubleshoot any errors.|
+    |Maximum Connection Reuse Time In Seconds| Available starting with BizTalk Server 2016 CU 7. <br/><br/>The maximum connection reuse time allows connections to be gracefully closed and removed from the pool after a connection has been in use for a specific amount of time. A value is 0 or less indicates that this behaviour is disabled.|
 
      **Polling**
 
@@ -107,7 +108,8 @@ BizTalk Server 2013 R2 and previous versions do not support WinSCP.
     |Use this|To do this|
     |--------------|----------------|
     |Connection Limit|Specify the maximum number of concurrent connections that can be opened to the server.|
-    |Log | Available starting with BizTalk Server 2016. <br/><br/>Enter the full path to create a client-side log file. Use this log file to troubleshoot any errors.|
+    |Log| Available starting with BizTalk Server 2016. <br/><br/>Enter the full path to create a client-side log file. Use this log file to troubleshoot any errors.|
+    |Maximum Connection Reuse Time In Seconds| Available starting with BizTalk Server 2016 CU 7. <br/><br/>The maximum connection reuse time allows connections to be gracefully closed and removed from the pool after a connection has been in use for a specific amount of time. A value is 0 or less indicates that this behaviour is disabled.|
     |Temporary Folder | Available starting with BizTalk Server 2013 R2. <br/><br/>A temporary folder on the SFTP server to upload large files to, before they can be atomically moved to the required location on the same server.|
 
     **Proxy** (available starting with BizTalk Server 2013 R2)

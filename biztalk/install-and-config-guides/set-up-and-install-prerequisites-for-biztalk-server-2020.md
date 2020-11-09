@@ -92,7 +92,7 @@ The [Visual C++ downloads](https://support.microsoft.com/help/2977003/the-latest
 
 ## Install Microsoft OLE DB Driver for SQL Server
 
-Download and install the [Microsoft OLE DB Driver for SQL Server](https://docs.microsoft.com/sql/connect/oledb/oledb-driver-for-sql-server?view=sql-server-ver15).
+Download and install the [Microsoft OLE DB Driver for SQL Server](https://docs.microsoft.com/sql/connect/oledb/oledb-driver-for-sql-server).
 
 ## Enable IIS
 
@@ -229,7 +229,7 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
 
 3. Configure Analysis Services in Multidimensional Mode. Default is Tabular Mode, make sure to change it to Multidimensional Mode in SQL Server installation wizard before continuing with installation.
 
-    ![sqlasconfiguration](../install-and-config-guides/media/sqlasconfiguration.png)
+    ![Change Analysis Services from tabular mode to multidimensional mode when installing SQL server](../install-and-config-guides/media/sqlasconfiguration.png)
 
 4. Continue with the installation, and restart the computer if prompted.
 
@@ -266,7 +266,7 @@ If you use BAM, BizTalk Server requires SSIS Catalog to be created. If you don't
 
 **SEE ALSO** : More on [SSIS Catalog](https://docs.microsoft.com/sql/integration-services/catalog/ssis-catalog).
 
-**For specific steps to create the SSIS Catalog, see**: [Create the SSIS Catalog](https://docs.microsoft.com/sql/integration-services/create-the-ssis-catalog).
+**For specific steps to create the SSIS Catalog, see**: [Create the SSIS Catalog](https://docs.microsoft.com/sql/integration-services/catalog/ssis-catalog#create-the-ssis-catalog).
 
 ## Install WinSCP (optional)
 
