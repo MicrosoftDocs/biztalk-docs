@@ -105,7 +105,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
   - Microsoft SQL Server 2017
   - Microsoft SQL Server 2016 SP2 CU7
 
-- **SSIS Catalog** (SSIDB): Optional. Required to use BAM. [Create the SSIS Catalog](https://docs.microsoft.com/sql/integration-services/create-the-ssis-catalog).
+- **SSIS Catalog** (SSIDB): Optional. Required to use BAM. [Create the SSIS Catalog](https://docs.microsoft.com/sql/integration-services/catalog/ssis-catalog#create-the-ssis-catalog).
 
 - **SQL Server Database Mail**: Optional. Required to use BAM Alerts.
 
