@@ -123,7 +123,11 @@ The URL of this IIS application is used by the BizTalk Connector (in your logic 
 
     1. Enter the **Alias** (name) for your application, such as **ReceiveWCFService**. 
     2. **Select** the same application pool as the previous IIS application.
-    3. Set the **Physical path** to `C:\Program Files (x86)\Microsoft BizTalk Server 2016\LogicApp Adapter\ReceiveService`. 
+    3. Set the **Physical path** to:
+    
+    - BizTalk Server 2020: `C:\Program Files (x86)\Microsoft BizTalk Server\LogicApp Adapter\ReceiveService`. 
+    - BizTalk Server 2016: `C:\Program Files (x86)\Microsoft BizTalk Server 2016\LogicApp Adapter\ReceiveService`. 
+    
     4. **Test Settings** to confirm the application pool identity passes the Authentication and Authorization tests.
 
 3. Select **OK** to save your changes.
