@@ -121,6 +121,9 @@ JD Edwards EnterpriseOne Tools Release:
 > [!IMPORTANT]
 > Starting with BizTalk Server 2020 and newer, the TIBCO Enterprise Message Service Adapter is supported only in a 64-bit host.
 
+### Updates for Enterprise Adapters
+Cumulative Updates for Enterpise Adapters provides fixes and product improvements. These details can be found in the [KB Article](https://support.microsoft.com/en-us/help/4598360/cu-for-biztalk-server-2020-adapters-for-enterprise-applications)
+
 ## Next steps
 
 Get started with the [adapters and accelerators in BizTalk Server](../adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server.md).
