@@ -2,7 +2,7 @@
 title: "Use Logic App adapter in BizTalk Server| Microsoft Docs"
 description: Install and configure the Logic Apps adapter to create a receive port, receive location, and send port in BizTalk Server
 ms.custom: "biztalk-2020"
-ms.date: "01/14/2020"
+ms.date: "12/09/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -125,8 +125,8 @@ The URL of this IIS application is used by the BizTalk Connector (in your logic 
     2. **Select** the same application pool as the previous IIS application.
     3. Set the **Physical path** to:
     
-    - BizTalk Server 2020: `C:\Program Files (x86)\Microsoft BizTalk Server\LogicApp Adapter\ReceiveService`. 
-    - BizTalk Server 2016: `C:\Program Files (x86)\Microsoft BizTalk Server 2016\LogicApp Adapter\ReceiveService`. 
+        - BizTalk Server 2020: `C:\Program Files (x86)\Microsoft BizTalk Server\LogicApp Adapter\ReceiveService`. 
+        - BizTalk Server 2016: `C:\Program Files (x86)\Microsoft BizTalk Server 2016\LogicApp Adapter\ReceiveService`. 
     
     4. **Test Settings** to confirm the application pool identity passes the Authentication and Authorization tests.
 
@@ -244,9 +244,9 @@ This section lists the steps to create your own artifacts.
 1. In the [Azure portal](https://portal.azure.com), create a new logic app.
 2. Add the **When an HTTP request is received** trigger
 3. Add the **Office 365 Outlook - Send an email** action. For the **To** address, enter your Office 365 address. For the **Subject**, enter `Sending from BizTalk`. For **Body**, choose the *Body* output from the **When an HTTP request is received** trigger. 
-4. Your logic app looks similar to: 
+4. Your logic app looks similar to the following example: 
 
-    ![LogicAppExample](../core/media/logicappexample.gif)
+    :::image type="content" source="../core/media/logicappexample.gif" alt-text="LogicApp adapter example that uses Office 365 and Outlook":::
 
 5. Copy the HTTP POST URL that is automatically created when you save the logic app; you need this URL in the next step. You may have to close and reopen the logic app to see the URL.  
 
