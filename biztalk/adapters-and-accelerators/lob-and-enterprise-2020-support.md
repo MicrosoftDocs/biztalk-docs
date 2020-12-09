@@ -4,7 +4,7 @@ description: Details of Line-of-Business (LOB) and Enterprise systems supported 
 author: msjaydeep
 ms.author: jaah
 manager: dougeby
-ms.date: 01/13/2020
+ms.date: 12/09/2020
 ms.topic: conceptual
 ms.prod: biztalk-server
 
@@ -120,6 +120,10 @@ JD Edwards EnterpriseOne Tools Release:
 
 > [!IMPORTANT]
 > Starting with BizTalk Server 2020 and newer, the TIBCO Enterprise Message Service Adapter is supported only in a 64-bit host.
+
+### Updates for Enterprise Adapters
+
+Fixes and product improvements are included in cumulative updates for the Enterpise Adapters. For more information, see [KB 4598360: Cumulative Update for BizTalk Server 2020 - Adapters for Enterprise Applications](https://support.microsoft.com/help/4598360/cu-for-biztalk-server-2020-adapters-for-enterprise-applications).
 
 ## Next steps
 
