@@ -62,6 +62,7 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 5. Visual Studio opens. Within Visual Studio, open your BizTalk solution.
 
 ## Install the Build Agent
+        Notice BizTalk projects build can be accomplished in Azure Pipelines agent pool as well, skip this section if you want to use Azure Pipelines agent pool. Check next step for more detail.
 
 The build agent is installed on the BizTalk development computer. If using deployment groups, the build agent is installed on all the BizTalk servers you want to deploy to. The following steps show you how to install the build agent on a single computer. For details on using deployment groups, see [Deployment groups](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index).
 

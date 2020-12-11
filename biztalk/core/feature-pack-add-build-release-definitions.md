@@ -40,9 +40,13 @@ Complete [Step 2 - Create Azure DevOps token and install agent](feature-pack-cre
 
     :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-empty-template.png" alt-text="Select the empty template to create a new pipeline in BizTalk Server.":::
 
-3. Set the **Agent Pool** to **Default**: 
+3. Set the **Agent Pool**: 
+    - **Azure Pipelines**: Select *Windows-2019* for agent specification to use Azure hosted agents for BizTalk projects build.
 
-    :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-select-agent-queue.png" alt-text="Select the default queue for the agent pool in Azure DevOps and BizTalk Server.":::
+        :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-azure-pipelines.png" alt-text="Select the Azure Pipelines for the agent pool in Azure DevOps and BizTalk Server.":::
+    - **Default**: Or other agent pool name to use your own defined agent pool.
+
+        :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-select-agent-queue.png" alt-text="Select the default queue for the agent pool in Azure DevOps and BizTalk Server.":::
 
 4. In **Phase 1**, add a task, select **Visual Studio Build** > **Add**:
 
