@@ -2,7 +2,7 @@
 title: Step 3 - Create the build and release definitions | Microsoft Docs
 description: In VSTS, create a build definition to build the projects within your git or TFS repository, then create a release definition to deploy the BizTalk Server application
 ms.custom: ""
-ms.date: "10/19/2020"
+ms.date: "12/15/2020"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -40,11 +40,13 @@ Complete [Step 2 - Create Azure DevOps token and install agent](feature-pack-cre
 
     :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-empty-template.png" alt-text="Select the empty template to create a new pipeline in BizTalk Server.":::
 
-3. Set the **Agent Pool**: 
-    - **Azure Pipelines**: Select *Windows-2019* for agent specification to use Azure hosted agents for BizTalk projects build.
+3. Set the **Agent Pool**. Your options:
+
+    - **Azure Pipelines**: Select this option to use Azure hosted agents > **windows-2019**:
 
         :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-azure-pipelines.png" alt-text="Select the Azure Pipelines for the agent pool in Azure DevOps and BizTalk Server.":::
-    - **Default**: Or other agent pool name to use your own defined agent pool.
+
+    - **Default**: Select this option to use your own defined agent pool:
 
         :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-select-agent-queue.png" alt-text="Select the default queue for the agent pool in Azure DevOps and BizTalk Server.":::
 
