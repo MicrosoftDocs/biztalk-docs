@@ -115,7 +115,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 
   Supported versions:
 
-  - SQL Server 2016 Analysis Services ADOMD.NET. Download at [SQL Server 2016 Feature Pack](https://www.microsoft.com/download/details.aspx?id=52676).
+  - SQL Server 2016 Analysis Services ADOMD.NET. Download at [SQL Server 2016 Feature Pack](https://www.microsoft.com/download/details.aspx?id=56833).
 
 - **WinSCP**: Required to use the SFTP adapter.
 
