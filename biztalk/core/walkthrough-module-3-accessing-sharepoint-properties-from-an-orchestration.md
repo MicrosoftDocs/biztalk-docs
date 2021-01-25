@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Module 3 - Accessing SharePoint Properties from an Orchestration"
 title: "Walkthrough: Module 3 - Accessing SharePoint Properties from an Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

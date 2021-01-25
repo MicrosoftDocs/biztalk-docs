@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XML Message Envelopes"
 title: "XML Message Envelopes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Creating a Flat File Schema From a Document Instance"
 title: "Walkthrough: Creating a Flat File Schema From a Document Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

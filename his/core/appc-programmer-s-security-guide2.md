@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: APPC Programmer&#39;s Security Guide"
 title: "APPC Programmer&#39;s Security Guide2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

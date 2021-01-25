@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How the Designer Extensibility Sample Works"
 title: "How the Designer Extensibility Sample Works | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

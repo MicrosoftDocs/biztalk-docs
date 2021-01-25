@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for Publishing Web Services"
 title: "Publish web Services planning | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

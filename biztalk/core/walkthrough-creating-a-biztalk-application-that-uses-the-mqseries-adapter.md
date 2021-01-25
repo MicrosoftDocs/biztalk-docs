@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Creating a BizTalk Application That Uses the MQSeries Adapter"
 title: "Walkthrough: Creating a BizTalk Application That Uses the MQSeries Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

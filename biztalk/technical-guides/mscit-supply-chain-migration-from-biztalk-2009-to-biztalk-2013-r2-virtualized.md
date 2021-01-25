@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MSCIT: Supply Chain migration from BizTalk Server 2009 hub to BizTalk Server 2013 R2 virtualized hub"
 title: "MSCIT: Supply Chain migration from BizTalk Server 2009 hub to BizTalk Server 2013 R2 virtualized hub | Microsoft Docs"
 ms.custom: ""
 ms.prod: biztalk-server

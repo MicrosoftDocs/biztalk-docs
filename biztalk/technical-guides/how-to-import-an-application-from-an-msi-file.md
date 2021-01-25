@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Import an Application from an .msi File"
 title: "How to Import an Application from an .msi File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

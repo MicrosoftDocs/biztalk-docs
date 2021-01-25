@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Adding a Rule to the Policy"
 title: "Walkthrough: Adding a Rule to the Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2016"

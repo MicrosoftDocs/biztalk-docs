@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: What is Message Tracking?"
 title: "What is Message Tracking? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

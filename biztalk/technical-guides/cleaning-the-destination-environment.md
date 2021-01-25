@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cleaning the Destination Environment"
 title: "Cleaning the Destination Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

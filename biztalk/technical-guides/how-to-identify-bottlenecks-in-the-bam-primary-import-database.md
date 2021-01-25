@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Identify Bottlenecks in the BAM Primary Import Database"
 title: "How to Identify Bottlenecks in the BAM Primary Import Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

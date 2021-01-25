@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix A: Optimizations Applied to Computers in Test Environment"
 title: "Appendix A: Optimizations Applied to Computers in Test Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

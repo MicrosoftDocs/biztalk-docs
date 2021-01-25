@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The ESB Fault Processor Pipeline"
 title: "The ESB Fault Processor Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

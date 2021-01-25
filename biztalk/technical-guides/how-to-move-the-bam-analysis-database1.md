@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Move the BAM Analysis Database"
 title: "How to Move the BAM Analysis Database1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

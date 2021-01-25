@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Batching to Improve Adapter Performance"
 title: "Configuring Batching to Improve Adapter Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

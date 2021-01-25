@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: APPC TP Verbs"
 title: "APPC TP Verbs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

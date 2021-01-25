@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Visual Studio to Facilitate Automated Testing"
 title: "Using Visual Studio to Facilitate Automated Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

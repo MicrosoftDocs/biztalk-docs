@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is an Adapter Handler?"
 title: "What Is an Adapter Handler? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

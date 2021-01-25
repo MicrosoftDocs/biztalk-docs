@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BACKOUT Verb Issued Locally"
 title: "BACKOUT Verb Issued Locally1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

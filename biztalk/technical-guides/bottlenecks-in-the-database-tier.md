@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bottlenecks in the Database Tier"
 title: "Bottlenecks in the Database Tier | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

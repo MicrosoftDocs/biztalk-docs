@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Monitoring BizTalk Server with Operations Manager 2007"
 title: "Checklist: Monitoring BizTalk Server with Operations Manager 2007 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

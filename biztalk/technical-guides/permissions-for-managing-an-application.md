@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Permissions for Managing an Application"
 title: "Permissions for Managing an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

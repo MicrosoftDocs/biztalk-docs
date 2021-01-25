@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Disable Tracking"
 title: "How to Disable Tracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

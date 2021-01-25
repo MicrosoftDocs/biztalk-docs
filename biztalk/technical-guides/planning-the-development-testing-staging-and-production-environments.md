@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning the Development, Testing, Staging, and Production Environments"
 title: "Planning the Development, Testing, Staging, and Production Environments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

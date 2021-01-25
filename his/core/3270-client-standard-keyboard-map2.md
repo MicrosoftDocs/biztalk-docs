@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: 3270 Client Standard Keyboard Map"
 title: "3270 Client Standard Keyboard Map2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

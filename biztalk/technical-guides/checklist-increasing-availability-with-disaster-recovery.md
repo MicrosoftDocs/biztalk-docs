@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Increasing Availability with Disaster Recovery"
 title: "Checklist: Increasing Availability with Disaster Recovery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

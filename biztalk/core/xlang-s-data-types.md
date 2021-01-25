@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XLANG-s Data Types"
 title: "XLANG-s Data Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

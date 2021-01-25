@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best Practices for Deploying an Application"
 title: "Best Practices for Deploying an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

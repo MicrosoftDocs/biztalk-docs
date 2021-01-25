@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Arranging TPs Within an SNA Network"
 title: "Arranging TPs Within an SNA Network2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

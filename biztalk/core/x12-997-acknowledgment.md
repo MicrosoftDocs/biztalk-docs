@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: X12 997 Acknowledgment"
 title: "X12 997 Acknowledgment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Adapters Performance Counters"
 title: "WCF Adapters Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

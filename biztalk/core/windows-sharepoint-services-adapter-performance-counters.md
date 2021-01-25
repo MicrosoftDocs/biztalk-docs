@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows SharePoint Services Adapter Performance Counters"
 title: "Windows SharePoint Services Adapter Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

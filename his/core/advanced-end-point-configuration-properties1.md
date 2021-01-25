@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Advanced End-Point Configuration Properties"
 title: "Advanced End-Point Configuration Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

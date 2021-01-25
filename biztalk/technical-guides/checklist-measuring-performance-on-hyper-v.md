@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Measuring Performance on Hyper-V"
 title: "Checklist: Measuring Performance on Hyper-V | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

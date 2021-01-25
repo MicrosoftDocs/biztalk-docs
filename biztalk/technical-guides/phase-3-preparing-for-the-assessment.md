@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Phase 3: Preparing for the Assessment"
 title: "Phase 3: Preparing for the Assessment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Enable BAM Tracking in an ESB Itinerary Service"
 title: "How to: Enable BAM Tracking in an ESB Itinerary Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

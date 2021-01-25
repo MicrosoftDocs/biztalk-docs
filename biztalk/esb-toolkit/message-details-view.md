@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Details View"
 title: "Message Details View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

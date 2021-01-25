@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Happens to Artifacts During Installation and Uninstallation"
 title: "What Happens to Artifacts During Installation and Uninstallation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing AppFabric Connect for Services"
 title: "Installing AppFabric Connect for Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

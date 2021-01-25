@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with Existing Nodes"
 title: "Working with Existing Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

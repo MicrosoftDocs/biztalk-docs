@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Implement Content-Based Routing Using a Business Rules Policy for a Known Message Type"
 title: "How to: Implement Content-Based Routing Using a Business Rules Policy for a Known Message Type | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

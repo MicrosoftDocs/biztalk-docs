@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optimizing WCF Web Service Performance"
 title: "Optimizing WCF Web Service Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

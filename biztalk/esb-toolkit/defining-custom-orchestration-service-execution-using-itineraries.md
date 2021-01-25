@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining Custom Orchestration Service Execution Using Itineraries"
 title: "Defining Custom Orchestration Service Execution Using Itineraries | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

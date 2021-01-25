@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SOA BizTalk Management Point"
 title: "SOA BizTalk Management Point | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring a Dedicated Tracking Host"
 title: "Configuring a Dedicated Tracking Host | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

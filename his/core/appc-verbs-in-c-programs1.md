@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: APPC Verbs in C Programs"
 title: "APPC Verbs in C Programs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

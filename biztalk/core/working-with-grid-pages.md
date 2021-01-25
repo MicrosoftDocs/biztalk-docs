@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with Grid Pages"
 title: "Working with Grid Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

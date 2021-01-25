@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a New Management Pack for Customizations"
 title: "Create a New Management Pack for Customizations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

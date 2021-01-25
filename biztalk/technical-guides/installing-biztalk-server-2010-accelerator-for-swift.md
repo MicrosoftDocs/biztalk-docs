@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing BizTalk Server 2010 Accelerator for SWIFT"
 title: "Installing BizTalk Server 2010 Accelerator for SWIFT | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

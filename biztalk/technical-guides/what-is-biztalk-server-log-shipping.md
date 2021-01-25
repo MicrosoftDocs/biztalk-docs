@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is BizTalk Server Log Shipping?"
 title: "What Is BizTalk Server Log Shipping? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

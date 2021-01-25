@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Warning - Using Custom XSLT and Extension XML"
 title: "Warning - Using Custom XSLT and Extension XML | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

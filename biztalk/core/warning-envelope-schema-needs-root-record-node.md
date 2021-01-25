@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Warning - Envelope Schema Needs Root Record Node"
 title: "Warning - Envelope Schema Needs Root Record Node | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

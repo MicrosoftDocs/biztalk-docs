@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Resolve a Service Endpoint Using a UDDI Category Search"
 title: "How to: Resolve a Service Endpoint Using a UDDI Category Search | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

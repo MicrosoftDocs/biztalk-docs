@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best Practices for Managing Certificates"
 title: "Best Practices for Managing Certificates2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

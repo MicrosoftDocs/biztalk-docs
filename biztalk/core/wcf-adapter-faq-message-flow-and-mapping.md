@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Adapter FAQ: Message Flow and Mapping"
 title: "WCF Adapter FAQ: Message Flow and Mapping | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

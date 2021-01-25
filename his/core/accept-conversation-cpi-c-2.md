@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Accept_Conversation (CPI-C)"
 title: "Accept_Conversation (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

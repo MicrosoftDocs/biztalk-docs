@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Who Uses BAM?"
 title: "Who Uses BAM? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

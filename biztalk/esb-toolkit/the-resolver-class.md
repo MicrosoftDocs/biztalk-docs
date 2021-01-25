@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Resolver Class"
 title: "The Resolver Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

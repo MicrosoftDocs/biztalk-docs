@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is the Source Event View?"
 title: "What Is the Source Event View? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XML Validator Pipeline Component"
 title: "XML Validator Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

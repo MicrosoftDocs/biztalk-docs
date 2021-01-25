@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: X12 TA1 Acknowledgment Error Codes"
 title: "X12 TA1 Acknowledgment Error Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

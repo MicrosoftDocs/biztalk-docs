@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Events and Errors"
 title: "WCF Events and Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

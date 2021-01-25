@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Resolve a Service Endpoint Using a UDDI Binding Key Search"
 title: "How to: Resolve a Service Endpoint Using a UDDI Binding Key Search | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

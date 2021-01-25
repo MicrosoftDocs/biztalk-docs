@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Validate a Message Using an ESB On-Ramp"
 title: "How to: Validate a Message Using an ESB On-Ramp | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

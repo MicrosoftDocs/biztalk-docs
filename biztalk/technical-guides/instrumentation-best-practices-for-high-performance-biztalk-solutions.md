@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instrumentation Best Practices for High Performance BizTalk Solutions"
 title: "Instrumentation Best Practices for High Performance BizTalk Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

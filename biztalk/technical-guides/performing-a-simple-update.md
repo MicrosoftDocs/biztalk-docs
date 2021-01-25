@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Performing a Simple Update"
 title: "Performing a Simple Update | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

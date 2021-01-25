@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Server Roles and Responsibilities"
 title: "BizTalk Server Roles and Responsibilities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scaling Out Sending Hosts"
 title: "Scaling Out Sending Hosts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

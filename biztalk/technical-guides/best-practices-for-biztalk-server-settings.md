@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best Practices for BizTalk Server Settings"
 title: "Best Practices for BizTalk Server Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

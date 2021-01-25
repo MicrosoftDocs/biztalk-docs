@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is Sustainable Performance?"
 title: "What Is Sustainable Performance? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

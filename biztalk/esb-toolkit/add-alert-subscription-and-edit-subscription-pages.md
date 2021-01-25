@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Add Alert Subscription and Edit Subscription Pages"
 title: "Add Alert Subscription and Edit Subscription Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

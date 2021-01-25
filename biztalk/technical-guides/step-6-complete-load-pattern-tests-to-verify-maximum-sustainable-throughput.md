@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 6: Perform Constant Load Pattern Tests to Verify Maximum Sustainable Throughput"
 title: "Step 6: Perform Constant Load Pattern Tests to Verify Maximum Sustainable Throughput | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

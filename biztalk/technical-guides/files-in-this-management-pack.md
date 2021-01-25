@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Files in This Management Pack"
 title: "Files in This Management Pack | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

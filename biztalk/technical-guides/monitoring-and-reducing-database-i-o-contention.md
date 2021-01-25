@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Monitoring and Reducing Database I/O Contention"
 title: "Monitoring and Reducing Database I/O Contention | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

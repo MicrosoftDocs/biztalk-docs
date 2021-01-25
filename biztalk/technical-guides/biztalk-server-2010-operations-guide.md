@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Server 2010 Operations Guide"
 title: "BizTalk Server 2010 Operations Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"

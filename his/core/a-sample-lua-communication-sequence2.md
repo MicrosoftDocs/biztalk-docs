@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: A Sample LUA Communication Sequence"
 title: "Sample LUA Communication Sequence | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

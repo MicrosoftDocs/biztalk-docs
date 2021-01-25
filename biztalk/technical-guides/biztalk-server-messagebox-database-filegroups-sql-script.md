@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Server MessageBox Database Filegroups SQL Script"
 title: "BizTalk Server MessageBox Database Filegroups SQL Script | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

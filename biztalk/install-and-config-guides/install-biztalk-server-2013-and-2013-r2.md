@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Install BizTalk Server 2013 and 2013 R2"
 title: "Install BizTalk Server 2013 and 2013 R2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

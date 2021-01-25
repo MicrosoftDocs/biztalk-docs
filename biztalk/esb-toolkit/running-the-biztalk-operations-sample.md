@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Running the BizTalk Operations Sample"
 title: "Running the BizTalk Operations Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

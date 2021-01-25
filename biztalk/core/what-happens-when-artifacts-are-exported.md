@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Happens When Artifacts Are Exported"
 title: "What Happens When Artifacts Are Exported | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

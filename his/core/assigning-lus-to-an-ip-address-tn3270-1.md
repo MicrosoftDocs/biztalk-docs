@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Assigning LUs to an IP Address (TN3270)"
 title: "Assigning LUs to an IP Address (TN3270)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AS/400 Connection Summary"
 title: "AS-400 Connection Summary1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

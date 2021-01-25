@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scaling Out Receiving Hosts"
 title: "Scaling Out Receiving Hosts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

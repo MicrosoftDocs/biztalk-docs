@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Adapters Security Recommendations"
 title: "WCF Adapters Security Recommendations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Portal My Settings Page"
 title: "Portal My Settings Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

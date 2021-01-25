@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Known Issues with Updating Applications and Artifacts"
 title: "Known Issues with Updating Applications and Artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

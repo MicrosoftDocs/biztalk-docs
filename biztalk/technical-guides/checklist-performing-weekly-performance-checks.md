@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Performing Weekly Performance Checks"
 title: "Checklist: Performing Weekly Performance Checks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

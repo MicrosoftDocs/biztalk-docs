@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Assigning LUs to Workstations (3270)"
 title: "Assigning LUs to Workstations (3270)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

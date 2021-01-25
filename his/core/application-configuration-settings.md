@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: staticSql, drda.sqlErrorMappings, and drdaAs.drdaService configuration settings"
 title: "Application configuration settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

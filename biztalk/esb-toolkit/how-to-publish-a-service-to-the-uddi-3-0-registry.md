@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Publish a Service to the UDDI 3.0 Registry"
 title: "How to: Publish a Service to the UDDI 3.0 Registry | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

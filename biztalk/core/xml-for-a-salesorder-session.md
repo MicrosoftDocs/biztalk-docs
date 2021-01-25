@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XML for a SalesOrder Session"
 title: "XML for a SalesOrder Session | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

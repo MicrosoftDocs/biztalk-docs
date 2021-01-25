@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Custom Resolver"
 title: "Creating a Custom Resolver | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

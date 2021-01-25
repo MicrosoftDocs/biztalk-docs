@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prepare the Disaster Recovery Site"
 title: "Prepare the Disaster Recovery Site | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

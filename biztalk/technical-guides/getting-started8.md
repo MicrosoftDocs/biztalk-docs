@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Getting Started"
 title: "Getting Started8 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

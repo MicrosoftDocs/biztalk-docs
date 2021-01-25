@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: System Resource Costs on Hyper-V"
 title: "System Resource Costs on Hyper-V | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

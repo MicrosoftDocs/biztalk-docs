@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Configuring Windows Server"
 title: "Checklist: Configuring Windows Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

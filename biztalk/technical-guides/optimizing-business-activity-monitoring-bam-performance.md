@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optimizing Business Activity Monitoring (BAM) Performance"
 title: "Optimizing Business Activity Monitoring (BAM) Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

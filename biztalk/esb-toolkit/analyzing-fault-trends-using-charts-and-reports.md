@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Analyzing Fault Trends Using Charts and Reports"
 title: "Analyzing Fault Trends Using Charts and Reports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

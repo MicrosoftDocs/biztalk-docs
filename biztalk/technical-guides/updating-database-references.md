@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Updating Database References"
 title: "Updating Database References | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

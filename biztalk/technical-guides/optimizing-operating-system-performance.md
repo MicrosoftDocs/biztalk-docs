@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optimizing Operating System Performance"
 title: "Optimizing Operating System Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

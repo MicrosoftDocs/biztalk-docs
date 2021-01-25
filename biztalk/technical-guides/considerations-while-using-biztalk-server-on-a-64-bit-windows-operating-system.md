@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations While Using BizTalk Server on a 64-bit Windows Operating System"
 title: "Considerations While Using BizTalk Server on a 64-bit Windows Operating System | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

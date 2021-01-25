@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is the SOAP Adapter?"
 title: "What Is the SOAP Adapter? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Added Headers and Subvectors"
 title: "Added Headers and Subvectors1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: 5250 Terminal Access and APPC Access"
 title: "5250 Terminal Access and APPC Access2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

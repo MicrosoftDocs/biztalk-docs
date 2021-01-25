@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Phase 4: Building the Assessment Environment"
 title: "Phase 4: Building the Assessment Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

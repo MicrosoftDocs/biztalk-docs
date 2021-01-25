@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fault Details View"
 title: "Fault Details View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

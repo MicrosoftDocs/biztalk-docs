@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Activate a Peer Connection (SNADIS)"
 title: "Activate a Peer Connection (SNADIS) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

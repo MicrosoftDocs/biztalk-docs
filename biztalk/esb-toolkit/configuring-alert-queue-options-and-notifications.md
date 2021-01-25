@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Alert Queue Options and Notifications"
 title: "Configuring Alert Queue Options and Notifications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for Testing"
 title: "Planning for Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

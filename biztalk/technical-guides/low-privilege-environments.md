@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Low-Privilege Environments"
 title: "Low-Privilege Environments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

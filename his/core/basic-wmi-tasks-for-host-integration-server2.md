@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Basic WMI Tasks for Host Integration Server"
 title: "Basic WMI Tasks for Host Integration Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

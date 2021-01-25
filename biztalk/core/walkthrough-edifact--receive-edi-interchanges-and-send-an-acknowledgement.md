@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough (EDIFACT): Receiving EDI Interchanges and Sending Back an Acknowledgement"
 title: "Walkthrough (EDIFACT): Receiving EDI Interchanges and Sending Back an Acknowledgement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

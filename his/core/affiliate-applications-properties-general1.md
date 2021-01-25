@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Affiliate Applications Properties: General"
 title: "Affiliate Applications Properties: General1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Known Issues in Installation, Configuration, and Deployment"
 title: "Known Issues in Installation, Configuration, and Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

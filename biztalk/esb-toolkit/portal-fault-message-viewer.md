@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Portal Fault Message Viewer"
 title: "Portal Fault Message Viewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

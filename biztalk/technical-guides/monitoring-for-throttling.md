@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Monitoring for Throttling"
 title: "Monitoring for Throttling | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

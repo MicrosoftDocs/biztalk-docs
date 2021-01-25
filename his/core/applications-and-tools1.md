@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Applications and Tools"
 title: "Applications and Tools1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

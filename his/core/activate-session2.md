@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ACTIVATE_SESSION"
 title: "ACTIVATE_SESSION2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

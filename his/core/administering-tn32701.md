@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Administering TN3270"
 title: "Administering TN32701 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optimizing Business Rule Engine (BRE) Performance"
 title: "Optimizing Business Rule Engine (BRE) Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

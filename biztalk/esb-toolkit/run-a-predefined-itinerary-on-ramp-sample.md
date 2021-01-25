@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run a Predefined Itinerary On-Ramp Sample"
 title: "Run a Predefined Itinerary On-Ramp Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

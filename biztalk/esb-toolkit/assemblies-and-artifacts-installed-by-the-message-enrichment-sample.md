@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Assemblies and Artifacts Installed by the Message Enrichment Sample"
 title: "Assemblies and Artifacts Installed by the Message Enrichment Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

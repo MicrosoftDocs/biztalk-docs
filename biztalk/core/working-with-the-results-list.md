@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with the Results List"
 title: "Working with the Results List | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

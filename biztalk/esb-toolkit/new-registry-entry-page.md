@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: New Registry Entry Page"
 title: "New Registry Entry Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Stopping Application Processing on the Source System"
 title: "Stopping Application Processing on the Source System | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

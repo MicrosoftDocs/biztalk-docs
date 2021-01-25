@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Running the Message Persisting Custom Exception Handler Sample"
 title: "Running the Message Persisting Custom Exception Handler Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

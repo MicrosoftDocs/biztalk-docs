@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Wrapping the Parsing Engine"
 title: "Wrapping the Parsing Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

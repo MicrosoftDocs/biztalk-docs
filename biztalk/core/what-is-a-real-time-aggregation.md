@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is a Real-Time Aggregation?"
 title: "What Is a Real-Time Aggregation? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

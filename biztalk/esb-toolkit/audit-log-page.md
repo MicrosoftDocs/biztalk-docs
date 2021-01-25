@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Audit Log Page"
 title: "Audit Log Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

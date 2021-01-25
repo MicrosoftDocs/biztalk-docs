@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Clustering Receiving Hosts"
 title: "Clustering Receiving Hosts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

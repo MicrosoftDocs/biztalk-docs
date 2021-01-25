@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The ESB JMS Encoder and Decoder Components"
 title: "The ESB JMS Encoder and Decoder Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

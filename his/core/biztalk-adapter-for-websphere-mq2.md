@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Adapter for WebSphere MQ"
 title: "BizTalk Adapter for WebSphere MQ2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

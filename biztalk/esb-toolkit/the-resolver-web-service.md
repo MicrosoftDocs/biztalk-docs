@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Resolver Web Service"
 title: "The Resolver Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

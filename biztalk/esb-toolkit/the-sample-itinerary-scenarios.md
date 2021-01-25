@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Sample Itinerary Scenarios"
 title: "The Sample Itinerary Scenarios | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

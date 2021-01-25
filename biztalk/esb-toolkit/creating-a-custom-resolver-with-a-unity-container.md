@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Custom Resolver with a Unity Container"
 title: "Creating a Custom Resolver with a Unity Container | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

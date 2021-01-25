@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: APPC LU Status"
 title: "APPC LU Status2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

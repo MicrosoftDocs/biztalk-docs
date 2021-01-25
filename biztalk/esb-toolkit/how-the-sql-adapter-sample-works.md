@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How the SQL Adapter Sample Works"
 title: "How the SQL Adapter Sample Works | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

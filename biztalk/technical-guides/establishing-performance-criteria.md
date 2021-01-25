@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Establishing Performance Criteria"
 title: "Establishing Performance Criteria | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

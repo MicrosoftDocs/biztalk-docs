@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: An Example of a Mapped Conversation (CPI-C)"
 title: "Mapped Conversation (CPI-C) Example | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

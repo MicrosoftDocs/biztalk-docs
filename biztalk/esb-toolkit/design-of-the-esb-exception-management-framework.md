@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Design of the ESB Exception Management Framework"
 title: "Design of the ESB Exception Management Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

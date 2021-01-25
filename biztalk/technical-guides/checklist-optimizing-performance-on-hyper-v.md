@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Optimizing Performance on Hyper-V"
 title: "Checklist: Optimizing Performance on Hyper-V | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"

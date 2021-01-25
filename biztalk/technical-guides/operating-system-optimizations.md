@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operating System Optimizations"
 title: "Operating System Optimizations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

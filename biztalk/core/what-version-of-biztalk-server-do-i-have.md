@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Version of BizTalk Server Do I Have?"
 title: "What Version of BizTalk Server Do I Have? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Updating an Artifact"
 title: "Updating an Artifact | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

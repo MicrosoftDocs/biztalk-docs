@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Automating the Build Process"
 title: "Automating the Build Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

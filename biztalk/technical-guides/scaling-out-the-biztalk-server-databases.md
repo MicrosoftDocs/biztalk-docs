@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scaling Out the BizTalk Server Databases"
 title: "Scaling Out the BizTalk Server Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/29/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF client must allow impersonation to use Single Sign-On"
 title: "WCF client must allow impersonation to use Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
