@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AS2 Message Content Status Reports"
 title: "AS2 Message Content Status Reports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

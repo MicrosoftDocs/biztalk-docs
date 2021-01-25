@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Install Microsoft BizTalk Adapter for SQL Server - 2013 R2 and 2013"
 title: "Install Microsoft BizTalk Adapter for SQL Server - 2013 R2 and 2013 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

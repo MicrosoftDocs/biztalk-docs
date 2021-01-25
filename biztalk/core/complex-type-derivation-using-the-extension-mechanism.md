@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Complex Type Derivation Using the Extension Mechanism"
 title: "Complex Type Derivation Using the Extension Mechanism | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SWIFT Receive Adapter Store and Forward"
 title: "SWIFT Receive Adapter Store and Forward | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

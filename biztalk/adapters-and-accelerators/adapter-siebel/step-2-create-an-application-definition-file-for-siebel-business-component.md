@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Create an Application Definition File for Siebel Business Component Operations"
 title: "Step 2: Create an Application Definition File for Siebel Business Component Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

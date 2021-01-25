@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations and Known Issues for TPE"
 title: "Considerations and Known Issues for TPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

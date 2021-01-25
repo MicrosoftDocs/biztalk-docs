@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoke Strongly-typed Stored Procedures in SQL using WCF Service Model"
 title: "Invoke Strongly-typed Stored Procedures in SQL using WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

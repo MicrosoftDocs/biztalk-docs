@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adapter Framework Configuration Schema Decoration Tags"
 title: "Adapter Framework Configuration Schema Decoration Tags | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

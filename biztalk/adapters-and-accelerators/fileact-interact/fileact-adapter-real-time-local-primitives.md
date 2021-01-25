@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FileAct Adapter Real-Time Local Primitives"
 title: "FileAct Adapter Real-Time Local Primitives | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

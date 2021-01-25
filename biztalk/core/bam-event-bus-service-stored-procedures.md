@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM Event Bus Service Stored Procedures"
 title: "BAM Event Bus Service Stored Procedures | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM WCF Interceptor"
 title: "BAM WCF Interceptor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

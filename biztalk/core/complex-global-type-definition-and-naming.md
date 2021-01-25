@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Complex Global Type Definition and Naming"
 title: "Complex Global Type Definition and Naming | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

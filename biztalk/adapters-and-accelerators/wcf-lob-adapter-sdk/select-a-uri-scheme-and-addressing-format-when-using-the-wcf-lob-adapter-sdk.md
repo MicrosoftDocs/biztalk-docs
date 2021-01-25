@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Select a URI scheme and addressing format when using the WCF LOB Adapter SDK"
 title: "Select a URI scheme and addressing format when using the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

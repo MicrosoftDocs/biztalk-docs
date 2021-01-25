@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Case Handling in Flat File Schemas"
 title: "Case Handling in Flat File Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

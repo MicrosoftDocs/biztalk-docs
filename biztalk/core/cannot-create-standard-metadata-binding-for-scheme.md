@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cannot create standard metadata binding for scheme"
 title: "Cannot create standard metadata binding for scheme | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

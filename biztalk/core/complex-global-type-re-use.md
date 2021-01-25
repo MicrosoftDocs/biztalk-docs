@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Complex Global Type Re-use"
 title: "Complex Global Type Re-use | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Overview of the WCF service model with the Siebel adapter"
 title: "Overview of the WCF service model with the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

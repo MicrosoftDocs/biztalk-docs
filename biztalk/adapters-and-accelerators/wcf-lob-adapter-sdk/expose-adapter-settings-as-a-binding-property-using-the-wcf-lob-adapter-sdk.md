@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Expose adapter settings as a binding property using the WCF LOB Adapter SDK"
 title: "Expose adapter settings as a binding property using the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

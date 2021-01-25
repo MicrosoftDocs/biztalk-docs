@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cannot obtain scheme from binding to validate address"
 title: "Cannot obtain scheme from binding to validate address | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

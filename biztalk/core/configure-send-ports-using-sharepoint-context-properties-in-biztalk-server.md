@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Send Ports Using Windows Sharepoint Services Context Properties"
 title: "How to Configure Send Ports Using Windows Sharepoint Services Context Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

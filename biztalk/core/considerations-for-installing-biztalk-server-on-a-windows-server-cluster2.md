@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations for Installing BizTalk Server on a Windows Server Cluster"
 title: "Considerations for Installing BizTalk Server on a Windows Server Cluster2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

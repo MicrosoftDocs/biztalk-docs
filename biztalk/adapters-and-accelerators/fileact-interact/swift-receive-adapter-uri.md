@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SWIFT Receive Adapter URI"
 title: "SWIFT Receive Adapter URI | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Basic Orchestration Design"
 title: "Basic Orchestration Design1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

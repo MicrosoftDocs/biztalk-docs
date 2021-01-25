@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Import Siebel Data Using Visual Studio"
 title: "Import Siebel Data Using Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

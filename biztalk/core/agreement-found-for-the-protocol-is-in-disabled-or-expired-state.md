@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Agreement found for the Protocol is in Disabled or Expired state"
 title: "Agreement found for the Protocol is in Disabled or Expired state | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

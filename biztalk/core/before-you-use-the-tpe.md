@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Before You Use the TPE"
 title: "Before You Use the TPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

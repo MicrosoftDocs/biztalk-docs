@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring an HTTP Send Port"
 title: "Configuring an HTTP Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

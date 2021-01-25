@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Flow Control Shapes"
 title: "Configuring Flow Control Shapes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

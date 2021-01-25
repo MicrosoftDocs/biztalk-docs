@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM Interceptors in a High Availability Environment"
 title: "BAM Interceptors in a High Availability Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

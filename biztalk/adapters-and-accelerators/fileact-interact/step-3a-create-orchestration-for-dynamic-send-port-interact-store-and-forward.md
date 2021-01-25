@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3A: Create an orchestration for dynamic send port for InterAct Store and Forward (Pull) Scenario"
 title: "Step 3A: Create an orchestration for dynamic send port for InterAct Store and Forward (Pull) Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

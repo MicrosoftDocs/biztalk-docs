@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Agreement Resolution, Schema Discovery, and Authorization for Received EDI Messages"
 title: "Agreement Resolution, Schema Discovery, and Authorization for Received EDI Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

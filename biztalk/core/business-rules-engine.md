@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Business Rules Engine"
 title: "Business Rules Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

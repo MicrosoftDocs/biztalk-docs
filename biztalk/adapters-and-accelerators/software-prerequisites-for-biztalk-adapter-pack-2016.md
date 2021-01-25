@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Software prerequisites for BizTalk Adapter Pack 2016"
 title: "Software prerequisites for BizTalk Adapter Pack 2016 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

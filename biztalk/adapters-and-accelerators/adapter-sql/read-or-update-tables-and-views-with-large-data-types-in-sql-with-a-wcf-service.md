@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run Operations on Tables and Views with Large Data Types in SQL using the WCF Service Model"
 title: "Run Operations on Tables and Views with Large Data Types in SQL using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

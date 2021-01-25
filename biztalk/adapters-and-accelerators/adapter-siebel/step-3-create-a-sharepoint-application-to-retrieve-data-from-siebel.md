@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Create a SharePoint Application to Retrieve Data from Siebel"
 title: "Step 3: Create a SharePoint Application to Retrieve Data from Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

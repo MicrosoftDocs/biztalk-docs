@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SWIFT Receive Adapter Initialization"
 title: "SWIFT Receive Adapter Initialization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

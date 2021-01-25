@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding Advanced Functoids to a Map"
 title: "Adding Advanced Functoids to a Map | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

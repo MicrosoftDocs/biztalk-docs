@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InterAct Real-Time Scenario"
 title: "InterAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

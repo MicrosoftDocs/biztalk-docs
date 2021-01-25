@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3A: Add a FILE Receive Location for the FileAct Real-Time Scenario"
 title: "Step 3A: Add a FILE Receive Location for the FileAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

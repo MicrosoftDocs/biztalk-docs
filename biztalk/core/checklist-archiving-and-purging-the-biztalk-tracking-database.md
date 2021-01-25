@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Archiving and Purging the BizTalk Tracking Database"
 title: "Checklist: Archiving and Purging the BizTalk Tracking Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

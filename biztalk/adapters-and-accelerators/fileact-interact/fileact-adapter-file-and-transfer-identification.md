@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FileAct Adapter File and Transfer Identification"
 title: "FileAct Adapter File and Transfer Identification | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

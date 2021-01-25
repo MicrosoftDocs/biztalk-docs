@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Install and configure FileAct and InterAct adapter in BizTalk Server"
 title: "Install and configure FileAct and InterAct adapter in BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

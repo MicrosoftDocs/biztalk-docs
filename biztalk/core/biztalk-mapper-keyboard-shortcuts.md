@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Mapper Keyboard Shortcuts"
 title: "BizTalk Mapper Keyboard Shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

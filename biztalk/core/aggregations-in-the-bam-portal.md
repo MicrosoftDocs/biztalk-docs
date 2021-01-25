@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Aggregations in the BAM Portal"
 title: "Aggregations in the BAM Portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

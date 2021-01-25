@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Readme and privacy in the WCF LOB Adapter SDK"
 title: "Readme and privacy in the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

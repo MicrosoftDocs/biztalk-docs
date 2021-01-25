@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Limitations of BizTalk Adapter for Siebel eBusiness Applications"
 title: "Limitations of BizTalk Adapter for Siebel eBusiness Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

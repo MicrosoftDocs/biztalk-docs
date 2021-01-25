@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Business Profile Properties"
 title: "Configuring Business Profile Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

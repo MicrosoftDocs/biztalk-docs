@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Application Deployment Tasks"
 title: "Application Deployment Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

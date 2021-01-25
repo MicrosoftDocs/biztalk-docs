@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM Command-Line Script for Notification Services Configuration Files"
 title: "BAM Command-Line Script for Notification Services Configuration Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

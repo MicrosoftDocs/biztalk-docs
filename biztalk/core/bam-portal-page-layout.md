@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM Portal Page Layout"
 title: "BAM Portal Page Layout | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

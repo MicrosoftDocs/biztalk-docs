@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct real-time scenario"
 title: "Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct real-time scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

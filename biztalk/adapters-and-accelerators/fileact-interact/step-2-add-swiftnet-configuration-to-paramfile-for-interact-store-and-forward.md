@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Add SWIFTNet Configuration to the Paramfile for the InterAct Store and Forward Scenario"
 title: "Step 2: Add SWIFTNet Configuration to the Paramfile for the InterAct Store and Forward Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

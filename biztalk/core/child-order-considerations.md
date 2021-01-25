@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Child Order Considerations"
 title: "Child Order Considerations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

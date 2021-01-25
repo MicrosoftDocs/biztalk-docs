@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FileAct Adapter Status Monitoring"
 title: "FileAct Adapter Status Monitoring | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

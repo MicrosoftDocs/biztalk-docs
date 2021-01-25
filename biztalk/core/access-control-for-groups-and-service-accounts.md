@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Access Control for Groups and Service Accounts"
 title: "Access Control for Groups and Service Accounts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

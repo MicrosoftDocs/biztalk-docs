@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Changes to BizTalk Project System in BizTalk Server 2013"
 title: "Changes to BizTalk Project System in BizTalk Server 2013 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

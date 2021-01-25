@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4B: Start the Send Ports and Receive Ports for the FileAct Real-Time Scenario"
 title: "Step 4B: Start the Send Ports and Receive Ports for the FileAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

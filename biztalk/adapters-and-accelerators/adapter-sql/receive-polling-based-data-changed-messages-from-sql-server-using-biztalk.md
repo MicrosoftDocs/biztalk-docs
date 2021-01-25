@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Polling-based Data-changed Messages from SQL Server using BizTalk Server"
 title: "Receive Polling-based Data-changed Messages from SQL Server using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

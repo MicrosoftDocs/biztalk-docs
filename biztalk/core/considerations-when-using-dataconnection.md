@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations When Using DataConnection"
 title: "Considerations When Using DataConnection | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

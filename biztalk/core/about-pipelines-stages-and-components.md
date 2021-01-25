@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: About Pipelines, Stages, and Components"
 title: "About Pipelines, Stages, and Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

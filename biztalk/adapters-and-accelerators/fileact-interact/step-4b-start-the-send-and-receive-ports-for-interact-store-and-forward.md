@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4B: Start the Send Ports and Receive Ports for the InterAct Store and Forward Scenario"
 title: "Step 4B: Start the Send Ports and Receive Ports for the InterAct Store and Forward Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

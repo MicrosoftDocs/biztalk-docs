@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BTSTask Command-Line Reference"
 title: "BTSTask Command-Line Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

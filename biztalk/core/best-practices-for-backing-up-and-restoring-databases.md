@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best Practices for Backing Up and Restoring Databases"
 title: "Best Practices for Backing Up and Restoring Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

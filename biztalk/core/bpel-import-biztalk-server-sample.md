@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BPEL Import (BizTalk Server Sample)"
 title: "BPEL Import (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

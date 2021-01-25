@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk FileAct and InterAct Adapters End-to-End Tutorial"
 title: "BizTalk FileAct and InterAct Adapters End-to-End Tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/10/2015"

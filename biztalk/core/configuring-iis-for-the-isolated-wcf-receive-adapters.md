@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring IIS for the Isolated WCF Receive Adapters"
 title: "Configuring IIS for the Isolated WCF Receive Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

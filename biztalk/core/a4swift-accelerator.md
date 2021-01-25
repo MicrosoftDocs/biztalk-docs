@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: A4SWIFT Accelerator"
 title: "A4SWIFT Accelerator | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

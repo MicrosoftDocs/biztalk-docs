@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use the Data Provider for SAP to Create a Report Server Project"
 title: "Use the Data Provider for SAP to Create a Report Server Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

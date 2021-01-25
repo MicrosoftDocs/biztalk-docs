@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshoot Installation Issues with the SAP adapter"
 title: "Troubleshoot Installation Issues with the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive strongly-typed polling-based data-changed messages from SQL Server using BizTalk Server"
 title: "Receive strongly-typed polling-based data-changed messages from SQL Server using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

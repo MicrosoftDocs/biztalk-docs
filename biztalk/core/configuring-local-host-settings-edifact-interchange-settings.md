@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Local Host Settings (EDIFACT-Interchange Settings)"
 title: "Configuring Local Host Settings (EDIFACT-Interchange Settings) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

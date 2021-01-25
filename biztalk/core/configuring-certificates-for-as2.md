@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Certificates for AS2"
 title: "Configuring Certificates for AS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Batching Messages for Receive Processing"
 title: "Batching Messages for Receive Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

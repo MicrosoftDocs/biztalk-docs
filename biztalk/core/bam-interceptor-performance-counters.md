@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM Interceptor Performance Counters"
 title: "BAM Interceptor Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

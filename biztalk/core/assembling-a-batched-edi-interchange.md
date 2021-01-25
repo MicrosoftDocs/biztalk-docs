@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Assembling a Batched EDI Interchange"
 title: "Assembling a Batched EDI Interchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Read how WCF is used by the WCF LOB Adapter SDK"
 title: "Read how WCF is used by the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

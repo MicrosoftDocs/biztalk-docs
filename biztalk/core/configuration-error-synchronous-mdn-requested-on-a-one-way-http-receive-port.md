@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration error. Synchronous MDN requested on a one way HTTP receive Port"
 title: "Configuration error. Synchronous MDN requested on a one way HTTP receive Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

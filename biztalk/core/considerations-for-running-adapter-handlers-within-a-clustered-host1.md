@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations for Running Adapter Handlers within a Clustered Host"
 title: "Considerations for Running Adapter Handlers within a Clustered Host1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/17/2016"

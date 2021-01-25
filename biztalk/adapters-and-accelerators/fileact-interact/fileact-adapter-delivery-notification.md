@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FileAct Adapter Delivery Notification"
 title: "FileAct Adapter Delivery Notification | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

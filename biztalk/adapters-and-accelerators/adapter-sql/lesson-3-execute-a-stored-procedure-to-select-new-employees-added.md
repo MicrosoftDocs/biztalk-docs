@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 3: Execute a Stored Procedure to Select New Employees Added"
 title: "Lesson 3: Execute a Stored Procedure to Select New Employees Added | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

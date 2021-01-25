@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Authenticating the Sender of a Message"
 title: "Authenticating the Sender of a Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

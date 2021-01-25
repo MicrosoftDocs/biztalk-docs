@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DbDataReader class in the Siebel adapter"
 title: "DbDataReader class in the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

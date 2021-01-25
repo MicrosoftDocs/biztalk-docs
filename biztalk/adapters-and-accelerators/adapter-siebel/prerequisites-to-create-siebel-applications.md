@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prerequisites to create Siebel applications"
 title: "Prerequisites to create Siebel applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

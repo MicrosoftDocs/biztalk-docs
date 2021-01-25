@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Publish the SAP Artifacts as a WCF Service"
 title: "Step 1: Publish the SAP Artifacts as a WCF Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

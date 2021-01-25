@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 4: Perform an Insert Operation on the Purchase Order Table"
 title: "Lesson 4: Perform an Insert Operation on the Purchase Order Table | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

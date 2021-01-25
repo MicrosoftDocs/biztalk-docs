@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Server core documentation"
 title: "BizTalk Server core documentation | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/10/2020"

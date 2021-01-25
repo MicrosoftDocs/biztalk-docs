@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Basic SQL Server Data Types"
 title: "Basic SQL Server Data Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

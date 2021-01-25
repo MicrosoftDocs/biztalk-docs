@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Business Rules Hello World1 (BizTalk Server Sample)"
 title: "Business Rules Hello World1 (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

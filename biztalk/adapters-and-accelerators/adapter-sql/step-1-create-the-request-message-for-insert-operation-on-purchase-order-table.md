@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Create the Request Message for Insert Operation on Purchase_Order Table"
 title: "Step 1: Create the Request Message for Insert Operation on Purchase_Order Table | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

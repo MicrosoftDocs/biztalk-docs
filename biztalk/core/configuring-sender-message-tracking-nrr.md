@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Sender Message Tracking (NRR)"
 title: "Configuring Sender Message Tracking (NRR) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run a SELECT Query on Business Components with Siebel"
 title: "Run a SELECT Query on Business Components with Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

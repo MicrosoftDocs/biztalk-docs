@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Read about the BizTalk Adapter for SQL Server adapter binding properties"
 title: "Read about the BizTalk Adapter for SQL Server adapter binding properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2019"

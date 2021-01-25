@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix A: Sample Files"
 title: "Appendix A: Sample Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

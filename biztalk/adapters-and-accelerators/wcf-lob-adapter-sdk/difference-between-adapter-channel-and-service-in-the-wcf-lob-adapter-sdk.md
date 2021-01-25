@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Difference between adapter channel and service in the WCF LOB Adapter SDK"
 title: "Difference between adapter channel and service in the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

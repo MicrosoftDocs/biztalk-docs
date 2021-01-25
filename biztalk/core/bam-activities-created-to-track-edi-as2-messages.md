@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM Activities Created to Track EDI-AS2 Messages"
 title: "BAM Activities Created to Track EDI-AS2 Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server"
 title: "Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

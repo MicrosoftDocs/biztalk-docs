@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is SWIFTNet?"
 title: "What Is SWIFTNet? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

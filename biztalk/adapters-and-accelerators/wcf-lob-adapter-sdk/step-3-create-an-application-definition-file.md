@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Create an Application Definition File"
 title: "Step 3: Create an Application Definition File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

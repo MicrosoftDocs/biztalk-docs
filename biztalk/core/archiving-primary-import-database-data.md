@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Archiving Primary Import Database Data"
 title: "Archiving Primary Import Database Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

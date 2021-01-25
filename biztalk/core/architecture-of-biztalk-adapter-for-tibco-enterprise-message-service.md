@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Architecture of BizTalk Adapter for TIBCO Enterprise Message Service"
 title: "Architecture of BizTalk Adapter for TIBCO Enterprise Message Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

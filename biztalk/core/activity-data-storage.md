@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Activity Data Storage"
 title: "Activity Data Storage | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

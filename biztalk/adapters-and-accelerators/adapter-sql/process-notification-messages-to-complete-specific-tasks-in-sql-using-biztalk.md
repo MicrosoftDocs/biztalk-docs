@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Process notification messages to complete specific tasks in SQL using BizTalk Server"
 title: "Process notification messages to complete specific tasks in SQL using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

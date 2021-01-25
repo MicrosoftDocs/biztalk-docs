@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations when using the Siebel adapter with SharePoint"
 title: "Considerations when using the Siebel adapter with SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations When Consuming Web Services"
 title: "Considerations When Consuming Web Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

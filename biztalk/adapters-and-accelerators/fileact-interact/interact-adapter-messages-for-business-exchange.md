@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InterAct Adapter Messages for Business Exchange"
 title: "InterAct Adapter Messages for Business Exchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

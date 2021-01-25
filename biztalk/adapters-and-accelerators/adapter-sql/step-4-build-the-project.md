@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4: Build the Project"
 title: "Step 4: Build the Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

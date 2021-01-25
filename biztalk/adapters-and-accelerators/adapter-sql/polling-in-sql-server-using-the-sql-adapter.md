@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Polling in SQL Server using the SQL adapter"
 title: "Polling in SQL Server using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2019"

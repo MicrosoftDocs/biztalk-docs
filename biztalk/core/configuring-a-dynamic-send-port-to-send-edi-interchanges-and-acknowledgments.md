@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring a Dynamic Send Port to Send EDI Interchanges and Acknowledgments"
 title: "Configuring a Dynamic Send Port to Send EDI Interchanges and Acknowledgments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

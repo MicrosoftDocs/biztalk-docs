@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Business Activity Monitoring"
 title: "Business Activity Monitoring | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

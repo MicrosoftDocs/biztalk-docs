@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Syntax for an EXEC Statement in SAP"
 title: "Syntax for an EXEC Statement in SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct Store and Forward"
 title: "Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct Store and Forward | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

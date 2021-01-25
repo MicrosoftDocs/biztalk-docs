@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run operations on tables and views with large data types using the SQL adapter"
 title: "Run operations on tables and views with large data types using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

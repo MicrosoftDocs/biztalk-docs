@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure Transaction Isolation Level and Transaction Timeout with SQL"
 title: "Configure Transaction Isolation Level and Transaction Timeout with SQL | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

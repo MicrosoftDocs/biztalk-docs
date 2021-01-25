@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FileAct Adapter Security Architecture"
 title: "FileAct Adapter Security Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

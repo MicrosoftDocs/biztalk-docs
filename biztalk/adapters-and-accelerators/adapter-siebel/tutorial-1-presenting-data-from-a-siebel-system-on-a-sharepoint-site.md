@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorial 1: Presenting Data From a Siebel System on a SharePoint Site"
 title: "Tutorial 1: Presenting Data From a Siebel System on a SharePoint Site | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

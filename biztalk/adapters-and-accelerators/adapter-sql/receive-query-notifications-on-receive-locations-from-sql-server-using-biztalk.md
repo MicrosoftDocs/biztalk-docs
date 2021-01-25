@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive query notifications On Multiple Receive Locations from SQL using BizTalk Server"
 title: "Receive query notifications On Multiple Receive Locations from SQL using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

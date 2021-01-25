@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Reuse SQL adapter bindings"
 title: "Reuse SQL adapter bindings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

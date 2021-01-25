@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Transaction Set List (EDIFACT)"
 title: "Configuring Transaction Set List (EDIFACT) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BTSWebSvcPub Command-Line Reference"
 title: "BTSWebSvcPub Command-Line Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: A BTS MIME error was encountered when attempting to decode an AS2 message"
 title: "A BTS MIME error was encountered when attempting to decode an AS2 message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

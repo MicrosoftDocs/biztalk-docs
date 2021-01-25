@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security between the Siebel system and the adapter"
 title: "Security between the Siebel system and the adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

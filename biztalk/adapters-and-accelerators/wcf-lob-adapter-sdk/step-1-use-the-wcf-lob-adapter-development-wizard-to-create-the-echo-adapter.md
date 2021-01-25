@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Use the WCF LOB Adapter Development Wizard to Create the Echo Adapter Project"
 title: "Step 1: Use the WCF LOB Adapter Development Wizard to Create the Echo Adapter Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

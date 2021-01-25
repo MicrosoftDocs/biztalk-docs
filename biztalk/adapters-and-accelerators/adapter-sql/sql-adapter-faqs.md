@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SQL adapter FAQs"
 title: "SQL adapter FAQs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

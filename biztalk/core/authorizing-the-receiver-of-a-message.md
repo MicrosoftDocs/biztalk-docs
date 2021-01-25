@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Authorizing the Receiver of a Message"
 title: "Authorizing the Receiver of a Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

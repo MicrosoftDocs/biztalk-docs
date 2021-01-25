@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring the XML File"
 title: "Configuring the XML File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

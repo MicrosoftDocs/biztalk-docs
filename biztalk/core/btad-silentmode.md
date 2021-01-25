@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BTAD_SilentMode"
 title: "BTAD_SilentMode | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

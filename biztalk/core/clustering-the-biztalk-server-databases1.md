@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Clustering the BizTalk Server Databases"
 title: "Clustering the BizTalk Server Databases1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

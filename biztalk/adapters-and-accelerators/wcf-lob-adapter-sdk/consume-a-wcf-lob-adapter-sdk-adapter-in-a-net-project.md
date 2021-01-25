@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Consume a WCF LOB Adapter SDK adapter in a .NET project"
 title: "Consume a WCF LOB Adapter SDK adapter in a .NET project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

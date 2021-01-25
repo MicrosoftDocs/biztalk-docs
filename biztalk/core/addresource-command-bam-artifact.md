@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AddResource Command: BAM Artifact"
 title: "AddResource Command: BAM Artifact | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

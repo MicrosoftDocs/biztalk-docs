@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Query Notifications Incrementally from SQL using BizTalk Server"
 title: "Receive Query Notifications Incrementally from SQL using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

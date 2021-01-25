@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Application Deployment and Management Features"
 title: "Application Deployment and Management Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

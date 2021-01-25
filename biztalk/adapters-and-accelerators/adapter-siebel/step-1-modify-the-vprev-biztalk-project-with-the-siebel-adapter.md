@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Modify the vPrev BizTalk Project with the Siebel adapter"
 title: "Step 1: Modify the vPrev BizTalk Project with the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

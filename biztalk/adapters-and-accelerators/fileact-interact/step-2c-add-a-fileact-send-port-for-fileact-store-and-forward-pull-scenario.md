@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2C: Add a FILEACT Send Port for the FileAct Store and Forward (Pull) Scenario"
 title: "Step 2C: Add a FILEACT Send Port for the FileAct Store and Forward (Pull) Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

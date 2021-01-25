@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Test Inbound Handler of the Echo Adapter"
 title: "Step 2: Test Inbound Handler of the Echo Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

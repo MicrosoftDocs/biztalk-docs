@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Arbitrary XPath Property Handler (BizTalk Server Sample)"
 title: "Arbitrary XPath Property Handler (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

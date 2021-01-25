@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring BizTalk Project Properties"
 title: "Configuring BizTalk Project Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

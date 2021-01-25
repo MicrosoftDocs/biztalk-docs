@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoke Scalar Functions in SQL Server by Using the WCF Service Model"
 title: "Invoke Scalar Functions in SQL Server by Using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

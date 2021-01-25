@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Configure the SWIFT Adapter for the FileAct Store and Forward Scenario"
 title: "Step 1: Configure the SWIFT Adapter for the FileAct Store and Forward Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

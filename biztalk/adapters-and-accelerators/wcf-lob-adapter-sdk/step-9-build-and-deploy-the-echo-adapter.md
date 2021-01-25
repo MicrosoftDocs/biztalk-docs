@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 9: Build and Deploy the Echo Adapter"
 title: "Step 9: Build and Deploy the Echo Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

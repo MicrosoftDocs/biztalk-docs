@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix B: Using the PeopleSoft Application"
 title: "Appendix B: Using the PeopleSoft Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

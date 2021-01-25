@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on tables and views with user-defined types using the SQL adapter"
 title: "Operations on tables and views with user-defined types using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

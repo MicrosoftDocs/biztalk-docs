@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Ports for an AS2 Solution"
 title: "Configuring Ports for an AS2 Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Develop BizTalk applications using the Siebel adapter"
 title: "Develop BizTalk applications using the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/02/2017"

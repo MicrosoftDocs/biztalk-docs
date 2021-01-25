@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Receiver MDN Settings"
 title: "Configuring Receiver MDN Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

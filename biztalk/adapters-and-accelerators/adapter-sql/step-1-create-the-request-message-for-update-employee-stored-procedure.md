@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Create the Request Message for UPDATE_EMPLOYEE Stored Procedure"
 title: "Step 1: Create the Request Message for UPDATE_EMPLOYEE Stored Procedure | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

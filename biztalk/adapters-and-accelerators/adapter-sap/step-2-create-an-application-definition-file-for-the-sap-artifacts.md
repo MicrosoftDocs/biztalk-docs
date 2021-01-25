@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Create an Application Definition File for the SAP Artifacts"
 title: "Step 2: Create an Application Definition File for the SAP Artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

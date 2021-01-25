@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3B: Add an INTERACT Receive Location for the InterAct Real-Time Scenario"
 title: "Step 3B: Add an INTERACT Receive Location for the InterAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

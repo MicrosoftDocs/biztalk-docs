@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM Event Bus Service Server Failover"
 title: "BAM Event Bus Service Server Failover | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

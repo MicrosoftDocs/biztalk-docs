@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Application Deployment (BizTalk Server Samples Folder)"
 title: "Application Deployment (BizTalk Server Samples Folder) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

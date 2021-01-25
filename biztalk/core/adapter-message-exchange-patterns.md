@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adapter Message Exchange Patterns"
 title: "Adapter Message Exchange Patterns | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

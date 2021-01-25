@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4: Create a Sharepoint Application to Access the Adapter"
 title: "Step 4: Create a Sharepoint Application to Access the Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

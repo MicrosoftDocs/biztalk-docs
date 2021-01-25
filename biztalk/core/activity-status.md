@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Activity Status"
 title: "Activity Status | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

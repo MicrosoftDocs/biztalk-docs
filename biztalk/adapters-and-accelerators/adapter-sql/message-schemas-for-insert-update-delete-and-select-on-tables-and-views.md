@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Insert, Update, Delete, and Select Operations on Tables and Views"
 title: "Message Schemas for Insert, Update, Delete, and Select Operations on Tables and Views | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

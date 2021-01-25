@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Administration Console Keyboard Shortcuts"
 title: "Administration Console Keyboard Shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

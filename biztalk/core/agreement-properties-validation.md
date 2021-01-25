@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Agreement Properties Validation"
 title: "Agreement Properties Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
