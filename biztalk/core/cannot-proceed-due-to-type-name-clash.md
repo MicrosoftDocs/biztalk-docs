@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cannot proceed due to type name clash"
 title: "Cannot proceed due to type name clash | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

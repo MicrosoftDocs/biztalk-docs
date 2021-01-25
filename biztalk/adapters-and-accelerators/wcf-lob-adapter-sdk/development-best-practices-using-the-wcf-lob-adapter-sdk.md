@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Development best practices using the WCF LOB Adapter SDK"
 title: "Development best practices using the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

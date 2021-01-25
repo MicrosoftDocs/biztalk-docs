@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations for Receiving Query Notifications Using the SQL adapter"
 title: "Considerations for Receiving Query Notifications Using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

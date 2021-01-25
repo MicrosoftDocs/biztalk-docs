@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Community Resources"
 title: "Community Resources5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/24/2016"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Insert, Update, Delete, and Select Operations on Tables and Views with the SQL adapter"
 title: "Insert, Update, Delete, and Select Operations on Tables and Views with the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

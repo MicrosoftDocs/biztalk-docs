@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring X12 Fallback Agreement Properties"
 title: "Configuring X12 Fallback Agreement Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

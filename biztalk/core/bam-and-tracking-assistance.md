@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM and Tracking Assistance"
 title: "BAM and Tracking Assistance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

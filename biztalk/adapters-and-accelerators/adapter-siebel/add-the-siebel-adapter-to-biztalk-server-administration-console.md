@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Add the Siebel Adapter to BizTalk Server Administration Console"
 title: "Add the Siebel Adapter to BizTalk Server Administration Console | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

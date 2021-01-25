@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Fallback Envelope Properties (EDIFACT-Interchange Settngs)"
 title: "Configuring Fallback Envelope Properties (EDIFACT-Interchange Settngs) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

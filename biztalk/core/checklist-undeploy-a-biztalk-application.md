@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Undeploy a BizTalk Application"
 title: "Checklist: Undeploy a BizTalk Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

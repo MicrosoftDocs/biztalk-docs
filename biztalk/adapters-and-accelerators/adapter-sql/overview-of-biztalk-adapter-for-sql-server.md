@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Overview of BizTalk Adapter for SQL Server"
 title: "Overview of BizTalk Adapter for SQL Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

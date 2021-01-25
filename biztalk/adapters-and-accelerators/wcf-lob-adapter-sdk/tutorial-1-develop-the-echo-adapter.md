@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorial 1: Develop the Echo Adapter"
 title: "Tutorial 1: Develop the Echo Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

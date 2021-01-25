@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Generate Schema for Operations"
 title: "Step 1: Generate Schema for Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Accessing SOAP Headers in WCF Messages with Pipeline Components"
 title: "Accessing SOAP Headers in WCF Messages with Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

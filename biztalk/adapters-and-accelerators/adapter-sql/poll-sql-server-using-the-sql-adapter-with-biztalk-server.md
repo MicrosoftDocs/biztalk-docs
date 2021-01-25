@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Poll SQL Server using the SQL Adapter with BizTalk Server"
 title: "Poll SQL Server using the SQL Adapter with BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

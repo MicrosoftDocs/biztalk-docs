@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: About BizTalk Namespace References Included in BizTalk Projects"
 title: "About BizTalk Namespace References Included in BizTalk Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Additional Flat File Properties"
 title: "Additional Flat File Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

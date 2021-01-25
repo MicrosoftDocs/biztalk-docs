@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AS2 Support in BizTalk Server"
 title: "AS2 Support in BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

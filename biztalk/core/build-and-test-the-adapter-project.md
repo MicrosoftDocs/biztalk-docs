@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Build and Test the Adapter Project"
 title: "Build and Test the Adapter Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run Operations on Business Components with MVG Fields Using BizTalk Server and the Siebel adapter"
 title: "Run Operations on Business Components with MVG Fields Using BizTalk Server and the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Basic and Complex Mapping Operations"
 title: "Basic and Complex Mapping Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

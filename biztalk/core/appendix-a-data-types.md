@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix A: Data Types"
 title: "Appendix A: Data Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

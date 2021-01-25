@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: An invalid quoted HTTP header encountered"
 title: "An invalid quoted HTTP header encountered | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

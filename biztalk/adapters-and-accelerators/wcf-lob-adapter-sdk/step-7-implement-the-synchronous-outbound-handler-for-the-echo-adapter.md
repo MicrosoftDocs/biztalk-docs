@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 7: Implement the Synchronous Outbound Handler for the Echo Adapter"
 title: "Step 7: Implement the Synchronous Outbound Handler for the Echo Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

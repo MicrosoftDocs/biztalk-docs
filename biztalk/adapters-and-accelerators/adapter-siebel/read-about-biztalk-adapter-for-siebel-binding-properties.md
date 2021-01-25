@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Read about BizTalk Adapter for Siebel Binding Properties"
 title: "Read about BizTalk Adapter for Siebel Binding Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

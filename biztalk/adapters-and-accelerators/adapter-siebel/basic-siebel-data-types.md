@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Basic Siebel Data Types"
 title: "Basic Siebel Data Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

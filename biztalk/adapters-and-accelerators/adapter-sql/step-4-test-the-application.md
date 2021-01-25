@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4: Test the Application"
 title: "Step 4: Test the Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

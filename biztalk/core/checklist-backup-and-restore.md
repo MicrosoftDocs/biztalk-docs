@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Backup and Restore"
 title: "Checklist: Backup and Restore | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/30/2018"

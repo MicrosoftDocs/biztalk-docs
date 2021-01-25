@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connecting Systems"
 title: "Connecting Systems | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

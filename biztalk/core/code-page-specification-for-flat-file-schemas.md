@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Code Page Specification for Flat File Schemas"
 title: "Code Page Specification for Flat File Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Reuse adapter bindings in the Siebel adapter"
 title: "Reuse adapter bindings in the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

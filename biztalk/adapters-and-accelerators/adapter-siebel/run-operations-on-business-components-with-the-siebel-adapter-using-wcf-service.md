@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run Operations on Business Components with the Siebel adapter using the WCF Service Model"
 title: "Run Operations on Business Components with the Siebel adapter using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Configure the Orchestration in BizTalk Server Administration Console"
 title: "Step 2: Configure the Orchestration in BizTalk Server Administration Console1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: About Business Data Catalog with the Siebel adapter"
 title: "About Business Data Catalog with the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

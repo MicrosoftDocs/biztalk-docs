@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: View the supported message exchange patterns in the WCF LOB Adapter SDK"
 title: "View the supported message exchange patterns in the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

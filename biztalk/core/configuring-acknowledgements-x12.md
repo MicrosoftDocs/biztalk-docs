@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Acknowledgements (X12)"
 title: "Configuring Acknowledgements (X12) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

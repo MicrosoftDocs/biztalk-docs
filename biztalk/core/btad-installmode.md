@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BTAD_InstallMode"
 title: "BTAD_InstallMode | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

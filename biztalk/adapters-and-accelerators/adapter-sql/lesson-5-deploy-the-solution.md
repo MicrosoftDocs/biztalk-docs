@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 5: Deploy the Solution"
 title: "Lesson 5: Deploy the Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

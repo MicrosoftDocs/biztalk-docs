@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Batching Outgoing EDI Messages"
 title: "Batching Outgoing EDI Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

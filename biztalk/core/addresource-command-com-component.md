@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AddResource Command: COM Component"
 title: "AddResource Command: COM Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

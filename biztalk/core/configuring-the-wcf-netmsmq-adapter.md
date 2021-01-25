@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring the WCF-NetMsmq Adapter"
 title: "Configuring the WCF-NetMsmq Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

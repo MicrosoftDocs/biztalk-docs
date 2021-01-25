@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AddResource Command: Postprocessing Script"
 title: "AddResource Command: Postprocessing Script | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

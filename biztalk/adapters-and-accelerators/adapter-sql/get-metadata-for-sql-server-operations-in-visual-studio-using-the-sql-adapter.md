@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get metadata for SQL Server operations in Visual Studio using the SQL adapter"
 title: "Get metadata for SQL Server operations in Visual Studio using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

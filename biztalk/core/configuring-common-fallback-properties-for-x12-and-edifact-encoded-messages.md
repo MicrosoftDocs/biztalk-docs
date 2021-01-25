@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Common Fallback Properties for X12 and EDIFACT Encoded Messages"
 title: "Configuring Common Fallback Properties for X12 and EDIFACT Encoded Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

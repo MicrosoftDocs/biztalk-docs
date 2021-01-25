@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cannot merge operations due to name collision"
 title: "Cannot merge operations due to name collision | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

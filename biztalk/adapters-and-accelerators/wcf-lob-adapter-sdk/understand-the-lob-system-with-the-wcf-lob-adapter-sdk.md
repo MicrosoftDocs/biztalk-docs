@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Understand the LOB system with the WCF LOB Adapter SDK"
 title: "Understand the LOB system with the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

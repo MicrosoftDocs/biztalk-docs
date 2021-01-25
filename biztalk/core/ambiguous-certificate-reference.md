@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ambiguous certificate reference"
 title: "Ambiguous certificate reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

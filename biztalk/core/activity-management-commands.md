@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Activity Management Commands"
 title: "Activity Management Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

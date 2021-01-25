@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Read the installation known issues"
 title: "Read the installation known issues | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

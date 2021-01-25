@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AS2 Messages"
 title: "AS2 Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

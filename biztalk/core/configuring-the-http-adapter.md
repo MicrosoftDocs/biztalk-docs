@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring the HTTP Adapter"
 title: "Configuring the HTTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

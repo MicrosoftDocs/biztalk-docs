@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM Tasks for Administrators"
 title: "BAM Tasks for Administrators | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

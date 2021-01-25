@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Compiler Directives and Links"
 title: "Compiler Directives and Links | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

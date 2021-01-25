@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: A BitwiseAnd comparison cannot be done for this XSD type"
 title: "A BitwiseAnd comparison cannot be done for this XSD type | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

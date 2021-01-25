@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoke Business Service Methods with the Siebel adapter using the WCF Service Model"
 title: "Invoke Business Service Methods with the Siebel adapter using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

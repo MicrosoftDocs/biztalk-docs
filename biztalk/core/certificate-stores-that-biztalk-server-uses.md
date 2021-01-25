@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Certificate Stores that BizTalk Server Uses"
 title: "Certificate Stores that BizTalk Server Uses | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

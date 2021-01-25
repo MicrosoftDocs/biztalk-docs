@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring AS2 Agreement Properties"
 title: "Configuring AS2 Agreement Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

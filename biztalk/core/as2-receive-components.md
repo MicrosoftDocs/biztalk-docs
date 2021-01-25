@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AS2 Receive Components"
 title: "AS2 Receive Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

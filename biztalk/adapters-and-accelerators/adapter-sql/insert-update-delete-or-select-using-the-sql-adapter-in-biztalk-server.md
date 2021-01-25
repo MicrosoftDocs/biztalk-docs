@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Insert, update, delete, or select operations using BizTalk Server with the SQL adapter"
 title: "Insert, update, delete, or select operations using BizTalk Server with the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring General Local Host Settings (AS2)"
 title: "Configuring General Local Host Settings (AS2) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Streaming and the SAP Adapter"
 title: "Streaming and the SAP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

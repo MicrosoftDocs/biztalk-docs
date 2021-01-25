@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InterAct Adapter Server Application"
 title: "InterAct Adapter Server Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

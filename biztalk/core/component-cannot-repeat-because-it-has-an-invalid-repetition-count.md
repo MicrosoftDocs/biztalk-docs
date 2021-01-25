@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Component cannot repeat because it has an invalid repetition count"
 title: "Component cannot repeat because it has an invalid repetition count | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

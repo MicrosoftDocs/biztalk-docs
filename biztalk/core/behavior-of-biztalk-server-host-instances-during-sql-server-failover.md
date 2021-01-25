@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Behavior of BizTalk Server Host Instances during SQL Server Failover"
 title: "Behavior of BizTalk Server Host Instances during SQL Server Failover | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3E: Add a FILE Send Port for the FileAct Store and Forward Scenario to capture Sw-ExchangeSnFResponse messages"
 title: "Step 3E: Add a FILE Send Port for the FileAct Store and Forward Scenario to capture Sw-ExchangeSnFResponse messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

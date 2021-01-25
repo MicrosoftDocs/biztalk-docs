@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: About metadata search and browse with your WCF LOB Adapter SDK adapter"
 title: "About metadata search and browse with your WCF LOB Adapter SDK adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

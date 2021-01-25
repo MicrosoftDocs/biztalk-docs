@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AddResource Command: BizTalk Assembly"
 title: "AddResource Command: BizTalk Assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

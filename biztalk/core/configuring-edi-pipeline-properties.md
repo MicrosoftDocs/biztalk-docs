@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring EDI Pipeline Properties"
 title: "Configuring EDI Pipeline Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

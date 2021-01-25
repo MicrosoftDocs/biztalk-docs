@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring EDIFACT-Specific Agreement Properties"
 title: "Configuring EDIFACT-Specific Agreement Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

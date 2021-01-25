@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations for Working with BAM APIs"
 title: "Considerations for Working with BAM APIs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

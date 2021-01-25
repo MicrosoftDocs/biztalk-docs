@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Test the Migrated Application with the Siebel adapter"
 title: "Step 3: Test the Migrated Application with the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

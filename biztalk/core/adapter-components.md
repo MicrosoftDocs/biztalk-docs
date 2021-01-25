@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adapter Components"
 title: "Adapter Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

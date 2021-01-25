@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: View the Reports for SAP"
 title: "View the Reports for SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

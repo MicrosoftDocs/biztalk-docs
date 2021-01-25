@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SWIFT Send Adapter Termination"
 title: "SWIFT Send Adapter Termination | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

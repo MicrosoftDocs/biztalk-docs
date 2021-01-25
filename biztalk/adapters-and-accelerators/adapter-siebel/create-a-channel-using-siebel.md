@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a channel using Siebel"
 title: "Create a channel using Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

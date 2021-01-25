@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Building blocks to develop BizTalk applications with the SQL adapter"
 title: "Building blocks to develop BizTalk applications with the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

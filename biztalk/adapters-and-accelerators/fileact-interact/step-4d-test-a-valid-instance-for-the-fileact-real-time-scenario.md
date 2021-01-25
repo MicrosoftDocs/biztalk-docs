@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4D: Test a Valid Instance for the FileAct Real-Time Scenario"
 title: "Step 4D: Test a Valid Instance for the FileAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

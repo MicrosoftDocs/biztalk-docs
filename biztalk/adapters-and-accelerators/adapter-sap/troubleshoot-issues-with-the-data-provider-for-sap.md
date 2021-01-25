@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshoot Issues with the Data Provider for SAP"
 title: "Troubleshoot Issues with the Data Provider for SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

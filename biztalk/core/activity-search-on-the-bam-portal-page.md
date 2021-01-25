@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Activity Search on the BAM Portal Page"
 title: "Activity Search on the BAM Portal Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

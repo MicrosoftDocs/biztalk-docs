@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Assembly Installation in the GAC"
 title: "Assembly Installation in the GAC | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

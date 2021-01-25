@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Develop BizTalk applications using the SQL adapter"
 title: "Develop BizTalk applications using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

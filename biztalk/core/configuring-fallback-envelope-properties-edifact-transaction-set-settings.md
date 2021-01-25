@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Fallback Envelope Properties (EDIFACT-Transaction Set Settings)"
 title: "Configuring Fallback Envelope Properties (EDIFACT-Transaction Set Settings) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

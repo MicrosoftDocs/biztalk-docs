@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adapter Samples - Development"
 title: "Adapter Samples - Development | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

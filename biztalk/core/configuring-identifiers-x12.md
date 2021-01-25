@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Identifiers (X12)"
 title: "Configuring Identifiers (X12) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use the Siebel Adapter with SharePoint"
 title: "Use the Siebel Adapter with SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive SQL Query Notifications using BizTalk Server"
 title: "Receive SQL Query Notifications using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connect to the Siebel System in Visual Studio Using Add Adapter Service Reference Plug-in"
 title: "Connect to the Siebel System in Visual Studio Using Add Adapter Service Reference Plug-in | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

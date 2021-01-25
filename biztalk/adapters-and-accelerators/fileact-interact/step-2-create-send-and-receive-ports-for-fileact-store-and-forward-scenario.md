@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Create Send Ports and Receive Ports for the FileAct Store and Forward (Pull) Scenario"
 title: "Step 2: Create Send Ports and Receive Ports for the FileAct Store and Forward (Pull) Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

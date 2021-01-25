@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring HTTP Settings for MDNs"
 title: "Configuring HTTP Settings for MDNs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

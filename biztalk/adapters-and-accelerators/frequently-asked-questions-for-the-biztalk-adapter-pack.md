@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Frequently Asked Questions"
 title: "Frequently asked questions for the BizTalk Adapter Pack | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

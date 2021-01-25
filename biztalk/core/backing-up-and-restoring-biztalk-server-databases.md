@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Backing Up and Restoring BizTalk Server Databases"
 title: "Backing Up and Restoring BizTalk Server Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

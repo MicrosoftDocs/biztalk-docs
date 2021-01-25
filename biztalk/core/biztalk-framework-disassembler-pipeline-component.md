@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Framework Disassembler Pipeline Component"
 title: "BizTalk Framework Disassembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

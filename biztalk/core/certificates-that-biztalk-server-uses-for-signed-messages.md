@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Certificates that BizTalk Server Uses for Signed Messages"
 title: "Certificates that BizTalk Server Uses for Signed Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

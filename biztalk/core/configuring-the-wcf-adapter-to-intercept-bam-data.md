@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring the WCF Adapter to Intercept BAM Data"
 title: "Configuring the WCF Adapter to Intercept BAM Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

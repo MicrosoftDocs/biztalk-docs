@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Syntax for a SELECT Statement in Siebel"
 title: "Syntax for a SELECT Statement in Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

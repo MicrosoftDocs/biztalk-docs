@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Install the SQL adapter"
 title: "Install the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

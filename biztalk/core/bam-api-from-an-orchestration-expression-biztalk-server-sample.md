@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM API from an Orchestration Expression (BizTalk Server Sample)"
 title: "BAM API from Orchestration Expression sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

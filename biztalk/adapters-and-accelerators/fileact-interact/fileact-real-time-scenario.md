@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FileAct Real-Time Scenario"
 title: "FileAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

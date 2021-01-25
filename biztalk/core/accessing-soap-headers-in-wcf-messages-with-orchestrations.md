@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Accessing SOAP Headers in WCF Messages with Orchestrations"
 title: "Accessing SOAP Headers in WCF Messages with Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

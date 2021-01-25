@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InterAct Adapter Security Architecture"
 title: "InterAct Adapter Security Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

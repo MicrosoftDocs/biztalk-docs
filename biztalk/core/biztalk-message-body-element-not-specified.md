@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk message body element not specified"
 title: "BizTalk message body element not specified | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

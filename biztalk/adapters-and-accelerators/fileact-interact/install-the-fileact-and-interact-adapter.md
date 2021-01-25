@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Install the FileAct and InterAct Adapter"
 title: "Install the FileAct and InterAct Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Framework Assembler Pipeline Component"
 title: "BizTalk Framework Assembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

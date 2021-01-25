@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Undeploy an adapter using the WCF LOB adapter SDK"
 title: "Undeploy an adapter using the WCF LOB adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

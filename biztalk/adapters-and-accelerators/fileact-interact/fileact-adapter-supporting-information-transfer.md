@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FileAct Adapter Supporting Information Transfer"
 title: "FileAct Adapter Supporting Information Transfer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

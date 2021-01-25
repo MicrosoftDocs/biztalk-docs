@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration Property Variable Types"
 title: "Configuration Property Variable Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

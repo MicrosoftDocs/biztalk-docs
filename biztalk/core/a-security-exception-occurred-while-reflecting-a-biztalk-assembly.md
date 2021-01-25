@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: A security exception occurred while reflecting a BizTalk assembly"
 title: "A security exception occurred while reflecting a BizTalk assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InterAct Adapter Status Monitoring"
 title: "InterAct Adapter Status Monitoring | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

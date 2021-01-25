@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4D: Test a Valid Instance for the InterAct Store and Forward (Pull) Scenario"
 title: "Step 4D: Test a Valid Instance for the InterAct Store and Forward (Pull) Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

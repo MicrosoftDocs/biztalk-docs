@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get started with the with the WCF LOB Adapter SDK"
 title: "Get started with the with the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

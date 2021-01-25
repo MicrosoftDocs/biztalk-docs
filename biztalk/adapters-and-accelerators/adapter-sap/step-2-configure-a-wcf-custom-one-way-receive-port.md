@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Configure a WCF-Custom One-way Receive Port"
 title: "Step 2: Configure a WCF-Custom One-way Receive Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

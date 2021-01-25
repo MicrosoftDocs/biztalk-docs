@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Authentication of Messages Between Processes"
 title: "Authentication of Messages Between Processes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

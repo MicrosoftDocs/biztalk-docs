@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Constructing Messages in User Code"
 title: "Constructing Messages in User Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

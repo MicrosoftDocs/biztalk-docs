@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Browse, search, and get metadata for SQL operations using the SQL adapter"
 title: "Browse, search, and get metadata for SQL operations using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

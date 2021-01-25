@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Poll SQL Server using the SQL Adapter with WCF Service Model"
 title: "Poll SQL Server using the SQL Adapter with WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
