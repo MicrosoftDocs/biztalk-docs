@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Known Issues in the BAM Portal"
 title: "Known Issues with BAM Portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

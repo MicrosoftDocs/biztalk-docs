@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ports for the Processing Servers"
 title: "Ports for the Processing Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/07/2016"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Manage the Properties Window"
 title: "How to Manage the Properties Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

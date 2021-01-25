@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Implementing Character Encoding in a Pipeline Component"
 title: "Implementing Character Encoding in a Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

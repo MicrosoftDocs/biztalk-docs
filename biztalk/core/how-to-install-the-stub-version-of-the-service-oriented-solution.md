@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Install the Stub Version of the Service Oriented Solution"
 title: "How to Install the Stub Version of the Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

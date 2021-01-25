@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Manage Password Synchronization"
 title: "How to Manage Password Synchronization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

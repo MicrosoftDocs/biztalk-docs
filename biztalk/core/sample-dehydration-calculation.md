@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Dehydration Calculation"
 title: "Sample Dehydration Calculation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

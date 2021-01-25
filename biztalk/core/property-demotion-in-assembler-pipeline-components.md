@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Property Demotion in Assembler Pipeline Components"
 title: "Property Demotion in Assembler Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

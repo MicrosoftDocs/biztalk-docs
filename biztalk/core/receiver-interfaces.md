@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receiver Interfaces"
 title: "Receiver Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Turn Off Global Tracking"
 title: "How to Turn Off Global Tracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

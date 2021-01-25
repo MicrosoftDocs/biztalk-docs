@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Modifying the BAM Configuration Schema"
 title: "Modifying the BAM Configuration Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Max limit of acceptable X12 interchange control number has reached for party"
 title: "Max limit of acceptable X12 interchange control number has reached for party | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

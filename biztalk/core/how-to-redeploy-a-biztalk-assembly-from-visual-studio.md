@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Redeploy a BizTalk Assembly from Visual Studio"
 title: "How to Redeploy a BizTalk Assembly from Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Known Issues with the BAM WCF and WF Interceptors"
 title: "Known Issues with the BAM WCF and WF Interceptors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

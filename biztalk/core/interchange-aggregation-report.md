@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interchange Aggregation Report"
 title: "Interchange Aggregation Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Providing High Availability for BizTalk Server Databases"
 title: "Providing High Availability for BizTalk Server Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

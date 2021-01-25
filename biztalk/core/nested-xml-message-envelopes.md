@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nested XML Message Envelopes"
 title: "Nested XML Message Envelopes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Metadata Errors"
 title: "Metadata Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

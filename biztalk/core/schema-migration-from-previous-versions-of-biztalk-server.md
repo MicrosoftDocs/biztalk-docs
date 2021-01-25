@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Schema Migration from Previous Versions of BizTalk Server"
 title: "Schema Migration from Previous Versions of BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

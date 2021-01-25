@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nodes That Control Instance Message Structure and Variations"
 title: "Nodes That Control Instance Message Structure and Variations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

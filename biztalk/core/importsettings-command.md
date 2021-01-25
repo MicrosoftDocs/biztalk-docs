@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ImportSettings Command"
 title: "ImportSettings Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Key Messages and Fields"
 title: "Key Messages and Fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

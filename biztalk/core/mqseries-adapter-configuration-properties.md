@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MQSeries Adapter Configuration Properties"
 title: "MQSeries Adapter Configuration Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

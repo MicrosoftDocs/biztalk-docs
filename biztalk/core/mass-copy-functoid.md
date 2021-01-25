@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mass Copy Functoid"
 title: "Mass Copy Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing BAM Security"
 title: "Managing BAM Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

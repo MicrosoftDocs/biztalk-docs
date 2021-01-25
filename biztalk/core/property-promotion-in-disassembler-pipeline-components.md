@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Property Promotion in Disassembler Pipeline Components"
 title: "Property Promotion in Disassembler Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

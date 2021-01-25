@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Update References to the BAM Archive Database Name"
 title: "How to Update References to the BAM Archive Database Name | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Reference Additional BAM Primary Import Databases"
 title: "How to Reference Additional BAM Primary Import Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

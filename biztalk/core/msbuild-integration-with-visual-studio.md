@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MSBUILD Integration with Visual Studio"
 title: "MSBUILD Integration with Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

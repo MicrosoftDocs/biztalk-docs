@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Manage Views"
 title: "How to Manage Views | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

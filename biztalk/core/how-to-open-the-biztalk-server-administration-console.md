@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Open the BizTalk Server Administration Console"
 title: "How to Open the BizTalk Server Administration Console | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set Schema File and Schema Item Properties"
 title: "Set Schema File and Schema Item Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

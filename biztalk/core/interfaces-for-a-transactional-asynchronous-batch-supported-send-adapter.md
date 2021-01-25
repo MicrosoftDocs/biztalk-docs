@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interfaces for a Transactional Asynchronous Batch-Supported Send Adapter"
 title: "Interfaces for a Transactional Asynchronous Batch-Supported Send Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

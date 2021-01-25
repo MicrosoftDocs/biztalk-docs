@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Implementation Phase Recommendations"
 title: "Implementation Phase Recommendations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

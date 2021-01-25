@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Move a Server from One Group to Another"
 title: "How to Move a Server from One Group to Another | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

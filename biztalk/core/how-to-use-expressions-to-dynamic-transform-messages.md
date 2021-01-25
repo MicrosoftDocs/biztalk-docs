@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Expressions to Dynamic Transform Messages"
 title: "How to Use Expressions to Dynamic Transform Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

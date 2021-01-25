@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Required property binding type not specified (R2)"
 title: "Required property binding type not specified (R2) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

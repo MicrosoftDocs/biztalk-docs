@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Password Sync Programming Architecture"
 title: "Password Sync Programming Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

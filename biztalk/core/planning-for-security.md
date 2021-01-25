@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for Security"
 title: "Planning for Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

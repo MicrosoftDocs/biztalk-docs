@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid outbound XML template"
 title: "Invalid outbound XML template | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

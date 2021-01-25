@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Positional Record Considerations"
 title: "Positional Record Considerations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

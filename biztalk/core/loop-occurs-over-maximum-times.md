@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Loop Occurs Over Maximum Times"
 title: "Loop Occurs Over Maximum Times | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

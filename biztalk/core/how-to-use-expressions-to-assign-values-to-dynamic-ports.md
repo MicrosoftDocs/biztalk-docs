@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use Expressions to Assign Values to Dynamic Ports"
 title: "How to Use Expressions to Assign Values to Dynamic Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

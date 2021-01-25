@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Migrate from the MSMQT Adapter to the MSMQ Adapter"
 title: "Migrate from the MSMQT Adapter to MSMQ Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/07/2017"

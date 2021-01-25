@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Known Issues with EDI Acknowledgments"
 title: "Known Issues with EDI Acknowledgments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

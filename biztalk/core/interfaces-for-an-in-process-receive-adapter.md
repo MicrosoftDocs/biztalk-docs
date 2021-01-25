@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interfaces for an In-Process Receive Adapter"
 title: "Interfaces for an In-Process Receive Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

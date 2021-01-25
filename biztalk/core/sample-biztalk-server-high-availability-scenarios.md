@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample BizTalk Server High Availability Scenarios"
 title: "Sample BizTalk Server High Availability Scenarios | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

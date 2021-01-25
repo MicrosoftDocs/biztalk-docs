@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Programming with Business Rules Framework"
 title: "Programming with Business Rules Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

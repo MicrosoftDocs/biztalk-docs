@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Known Issues with Schema Generation and Validation"
 title: "Known Issues with Schema Generation and Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

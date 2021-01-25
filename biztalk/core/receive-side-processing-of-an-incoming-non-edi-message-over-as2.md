@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive-Side Processing of an Incoming Non-EDI Message over AS2"
 title: "Receive-Side Processing of an Incoming Non-EDI Message over AS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

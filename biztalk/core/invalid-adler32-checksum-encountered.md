@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid Adler32 checksum encountered"
 title: "Invalid Adler32 checksum encountered | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

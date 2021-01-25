@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Remove Orphaned Tracking Profiles"
 title: "How to Remove Orphaned Tracking Profiles | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

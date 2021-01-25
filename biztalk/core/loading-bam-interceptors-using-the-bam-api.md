@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Loading BAM Interceptors Using the BAM API"
 title: "Loading BAM Interceptors Using the BAM API | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

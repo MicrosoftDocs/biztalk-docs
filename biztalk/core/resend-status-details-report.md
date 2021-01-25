@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Resend Status Details Report"
 title: "Resend Status Details Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

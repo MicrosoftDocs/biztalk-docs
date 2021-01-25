@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ReceivePortRef (Port Node)"
 title: "ReceivePortRef (Port Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

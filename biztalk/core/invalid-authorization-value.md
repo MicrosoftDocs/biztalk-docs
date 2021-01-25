@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid Authorization Value"
 title: "Invalid Authorization Value | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

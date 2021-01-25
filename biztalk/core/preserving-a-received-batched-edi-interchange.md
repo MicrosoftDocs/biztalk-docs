@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Preserving a Received Batched EDI Interchange"
 title: "Preserving a Received Batched EDI Interchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

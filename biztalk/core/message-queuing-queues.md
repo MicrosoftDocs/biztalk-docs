@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Queuing Queues"
 title: "Message Queuing Queues | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Reset for Control number failed"
 title: "Reset for Control number failed | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

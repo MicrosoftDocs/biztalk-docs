@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set Pipeline Component Properties"
 title: "How to Set Pipeline Component Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

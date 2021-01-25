@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Recover the BizTalk Group"
 title: "Recover the BizTalk Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/30/2018"

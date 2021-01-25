@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Optimize the Schema Tree View"
 title: "How to Optimize the Schema Tree View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

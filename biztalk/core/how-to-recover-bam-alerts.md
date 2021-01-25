@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Recover BAM Alerts"
 title: "How to Recover BAM Alerts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

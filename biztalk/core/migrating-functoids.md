@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Migrating Functoids"
 title: "Migrating Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

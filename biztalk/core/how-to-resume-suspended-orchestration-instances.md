@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Resume Suspended Orchestration Instances"
 title: "How to Resume Suspended Orchestration Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

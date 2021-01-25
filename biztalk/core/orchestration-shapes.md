@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Orchestration Shapes"
 title: "Orchestration Shapes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

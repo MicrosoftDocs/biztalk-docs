@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Processing in the OrderBroker Orchestration"
 title: "Processing in the OrderBroker Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

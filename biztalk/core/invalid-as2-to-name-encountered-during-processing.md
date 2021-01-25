@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid AS2-To name encountered during processing"
 title: "Invalid AS2-To name encountered during processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OutboundCustomHeaders does not have correct format"
 title: "OutboundCustomHeaders does not have correct format | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

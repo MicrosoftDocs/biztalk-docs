@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Remove a Schema from an Application"
 title: "How to Remove a Schema from an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

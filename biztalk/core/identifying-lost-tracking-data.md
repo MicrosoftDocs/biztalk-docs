@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Identifying Lost Tracking Data"
 title: "Identifying Lost Tracking Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

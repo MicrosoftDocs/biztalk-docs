@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Limitations When Querying and Retrieving Lists"
 title: "Limitations When Querying and Retrieving Lists | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

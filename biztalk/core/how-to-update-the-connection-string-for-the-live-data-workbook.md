@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Update the Connection String for the Live Data Workbook"
 title: "How to Update the Connection String for the Live Data Workbook | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

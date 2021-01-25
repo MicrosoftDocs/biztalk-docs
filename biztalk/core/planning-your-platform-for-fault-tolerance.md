@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning Your Platform for Fault Tolerance"
 title: "Planning Your Platform for Fault Tolerance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

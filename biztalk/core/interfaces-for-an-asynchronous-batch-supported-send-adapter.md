@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interfaces for an Asynchronous Batch-Supported Send Adapter"
 title: "Interfaces for an Asynchronous Batch-Supported Send Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

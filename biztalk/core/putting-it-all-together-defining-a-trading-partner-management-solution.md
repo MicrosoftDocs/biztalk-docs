@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Putting it all Together: Defining a Trading Partner Management Solution"
 title: "Putting it all Together: Defining a Trading Partner Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JD Edwards EnterpriseOne Transport Properties Dialog Box"
 title: "JD Edwards EnterpriseOne Transport Properties Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

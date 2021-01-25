@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set an Alert"
 title: "How to Set an Alert | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

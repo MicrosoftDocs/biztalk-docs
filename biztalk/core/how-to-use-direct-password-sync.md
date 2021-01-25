@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Direct Password Sync"
 title: "How to Use Direct Password Sync | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

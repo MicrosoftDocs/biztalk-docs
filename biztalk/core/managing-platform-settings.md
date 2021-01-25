@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing Platform Settings"
 title: "Managing Platform Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

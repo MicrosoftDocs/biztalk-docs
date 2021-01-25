@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Architectures for Small &amp; Medium-Sized Companies"
 title: "Sample Architectures for Small &amp; Medium-Sized Companies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

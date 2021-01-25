@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Order Flow through the Process Manager"
 title: "Order Flow through the Process Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

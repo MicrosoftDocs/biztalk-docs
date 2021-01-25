@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Work with Multiple Nodes Simultaneously"
 title: "How to Work with Multiple Nodes Simultaneously | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

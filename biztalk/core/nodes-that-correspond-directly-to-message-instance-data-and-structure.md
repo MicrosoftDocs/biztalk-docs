@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nodes That Correspond Directly to Message Instance Data and Structure"
 title: "Nodes That Correspond Directly to Message Instance Data and Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

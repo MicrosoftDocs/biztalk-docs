@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Restricted Character Ranges"
 title: "Restricted Character Ranges | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for Message and Instance Tracking"
 title: "Planning for Message and Instance Tracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

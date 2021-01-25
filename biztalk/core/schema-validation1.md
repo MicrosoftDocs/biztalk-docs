@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Schema Validation"
 title: "Schema Validation1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

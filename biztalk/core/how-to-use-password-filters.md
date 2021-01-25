@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Password Filters"
 title: "How to Use Password Filters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing the Nodes Within a Schema"
 title: "Managing the Nodes Within a Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

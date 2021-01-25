@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Modify Group Properties"
 title: "How to Modify Group Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

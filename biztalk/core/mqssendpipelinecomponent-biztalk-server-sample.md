@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MQSSendPipelineComponent (BizTalk Server Sample)"
 title: "MQSSendPipelineComponent (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

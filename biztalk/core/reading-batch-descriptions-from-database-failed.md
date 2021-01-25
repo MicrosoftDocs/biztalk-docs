@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Reading Batch Descriptions from database failed"
 title: "Reading Batch Descriptions from database failed | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rule Engine Configuration and Tuning Parameters"
 title: "Rule Engine Configuration and Tuning Parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

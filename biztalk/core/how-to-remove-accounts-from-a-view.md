@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Remove Accounts from a View"
 title: "How to Remove Accounts from a View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

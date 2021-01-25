@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use the BizTalk Web Services Publishing Wizard to Publish an Orchestration as a Web Service"
 title: "How to Use the BizTalk Web Services Publishing Wizard to Publish an Orchestration as a Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

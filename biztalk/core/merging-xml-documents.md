@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Merging XML Documents"
 title: "Merging XML Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

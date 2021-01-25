@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid Interchange Content"
 title: "Invalid Interchange Content | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

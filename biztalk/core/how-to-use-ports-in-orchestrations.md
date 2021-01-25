@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Ports in Orchestrations"
 title: "How to Use Ports in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

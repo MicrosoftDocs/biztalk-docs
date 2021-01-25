@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Keyboard Shortcuts General to the Design Surface"
 title: "Keyboard Shortcuts General to the Design Surface | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

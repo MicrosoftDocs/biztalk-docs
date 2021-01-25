@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MIME-SMIME Encoder Pipeline Component"
 title: "MIME-SMIME Encoder Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

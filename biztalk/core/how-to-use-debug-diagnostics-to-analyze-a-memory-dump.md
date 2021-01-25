@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Debug Diagnostics to Analyze a Memory Dump"
 title: "How to Use Debug Diagnostics to Analyze a Memory Dump | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

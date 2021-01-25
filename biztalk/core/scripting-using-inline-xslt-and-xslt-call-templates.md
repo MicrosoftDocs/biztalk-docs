@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scripting Using Inline XSLT and XSLT Call Templates"
 title: "Scripting Using Inline XSLT and XSLT Call Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

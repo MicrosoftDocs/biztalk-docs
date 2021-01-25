@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing BAM Alert Execution"
 title: "Managing BAM Alert Execution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

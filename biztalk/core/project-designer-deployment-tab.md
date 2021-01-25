@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Project Designer: Deployment Tab"
 title: "Project Designer: Deployment Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

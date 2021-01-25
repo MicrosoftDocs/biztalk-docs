@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Manage (BizTalk Server Sample)"
 title: "Manage (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

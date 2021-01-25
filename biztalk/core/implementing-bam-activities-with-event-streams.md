@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Implementing BAM Activities with Event Streams"
 title: "Implementing BAM Activities with Event Streams | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

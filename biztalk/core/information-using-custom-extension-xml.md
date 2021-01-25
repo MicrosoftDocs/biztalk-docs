@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Information - Using Custom Extension XML"
 title: "Information - Using Custom Extension XML | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

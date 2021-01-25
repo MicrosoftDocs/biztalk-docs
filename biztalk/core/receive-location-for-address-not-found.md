@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive location for address not found"
 title: "Receive location for address not found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

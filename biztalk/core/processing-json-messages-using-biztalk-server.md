@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Processing JSON messages using BizTalk Server"
 title: "Processing JSON messages using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

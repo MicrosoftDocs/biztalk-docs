@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Move and Copy Nodes"
 title: "How to Move and Copy Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

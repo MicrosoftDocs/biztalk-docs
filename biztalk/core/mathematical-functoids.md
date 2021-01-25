@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mathematical Functoids"
 title: "Mathematical Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

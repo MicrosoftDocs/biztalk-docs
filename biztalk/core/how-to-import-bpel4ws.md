@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Import BPEL4WS in BizTalk Server"
 title: "How to Import BPEL4WS | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

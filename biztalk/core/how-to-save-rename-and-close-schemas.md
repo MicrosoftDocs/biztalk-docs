@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Save, Rename, and Close Schemas"
 title: "How to Save, Rename, and Close Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

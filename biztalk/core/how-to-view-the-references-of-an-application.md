@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to View the References of an Application"
 title: "How to View the References of an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

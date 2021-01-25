@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use BizTalk Flat File Schema Wizard"
 title: "How to Use BizTalk Flat File Schema Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

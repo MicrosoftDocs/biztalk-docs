@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Party Resolution Pipeline Component"
 title: "Party Resolution Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

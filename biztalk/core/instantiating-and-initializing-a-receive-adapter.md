@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instantiating and Initializing a Receive Adapter"
 title: "Instantiating and Initializing a Receive Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

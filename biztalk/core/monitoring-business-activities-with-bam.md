@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Monitoring Business Activities with BAM"
 title: "Monitoring Business Activities with BAM | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

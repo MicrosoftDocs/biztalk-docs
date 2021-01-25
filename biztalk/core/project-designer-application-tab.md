@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Project Designer: Application Tab"
 title: "Project Designer: Application Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Querying Activity Relationships"
 title: "Querying Activity Relationships | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

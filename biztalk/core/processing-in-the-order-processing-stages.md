@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Processing in the Order Processing Stages"
 title: "Processing in the Order Processing Stages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

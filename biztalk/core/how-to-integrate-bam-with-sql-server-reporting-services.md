@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Integrate BAM with SQL Server Reporting Services"
 title: "How to Integrate BAM with SQL Server Reporting Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

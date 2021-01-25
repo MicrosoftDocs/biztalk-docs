@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use the Select Artifact Type Dialog Box"
 title: "How to Use the Select Artifact Type Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance Message Processing Using Property Promotion"
 title: "Instance Message Processing Using Property Promotion | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Medical Claims Processing and Testing Policies (BizTalk Server Sample)"
 title: "Medical Claims Processing and Testing Policies (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

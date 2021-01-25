@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PeopleSoft Transport Properties Dialog Box"
 title: "PeopleSoft Transport Properties Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

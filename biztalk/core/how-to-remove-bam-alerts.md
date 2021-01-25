@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Remove BAM Alerts"
 title: "How to Remove BAM Alerts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

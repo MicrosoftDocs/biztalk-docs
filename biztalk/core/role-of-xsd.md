@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Role of XSD"
 title: "Role of XSD | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

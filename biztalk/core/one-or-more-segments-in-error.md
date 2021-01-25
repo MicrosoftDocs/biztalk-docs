@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: One or more segments in error"
 title: "One or more segments in error | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

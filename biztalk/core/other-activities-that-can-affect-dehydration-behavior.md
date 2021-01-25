@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Other Activities That Can Affect Dehydration Behavior"
 title: "Other Activities That Can Affect Dehydration Behavior | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Remove a Certificate from a Receive Location"
 title: "How to Remove a Certificate from a Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

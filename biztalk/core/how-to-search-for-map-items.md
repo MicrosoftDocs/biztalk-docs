@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Search for Map Items"
 title: "How to Search for Map Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

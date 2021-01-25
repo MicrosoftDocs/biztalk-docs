@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid Segment Terminator"
 title: "Invalid Segment Terminator | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

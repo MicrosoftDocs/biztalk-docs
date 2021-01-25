@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Expressions to Execute Pipelines"
 title: "How to Use Expressions to Execute Pipelines | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

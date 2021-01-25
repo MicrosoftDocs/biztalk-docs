@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Remove a Policy from an Application and the BizTalk Group"
 title: "How to Remove a Policy from an Application and the BizTalk Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

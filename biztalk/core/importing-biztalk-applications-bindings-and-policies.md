@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Importing BizTalk Applications, Bindings, and Policies"
 title: "Importing BizTalk Applications, Bindings, and Policies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

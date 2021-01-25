@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing BAM Definitions"
 title: "Managing BAM Definitions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

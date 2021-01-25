@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Identifying Your Security Requirements"
 title: "Identifying Your Security Requirements | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

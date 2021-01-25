@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Loop repeats less than the minimum allowed number of times"
 title: "Loop repeats less than the minimum allowed number of times | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

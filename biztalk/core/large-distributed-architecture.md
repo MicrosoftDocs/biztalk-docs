@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Large Distributed Architecture"
 title: "Large Distributed Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

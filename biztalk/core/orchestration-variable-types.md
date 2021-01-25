@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Orchestration Variable Types"
 title: "Orchestration Variable Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

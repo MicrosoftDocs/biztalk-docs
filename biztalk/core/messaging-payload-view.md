@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Messaging Payload View"
 title: "Messaging Payload View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

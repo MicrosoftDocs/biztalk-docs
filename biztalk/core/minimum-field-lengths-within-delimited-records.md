@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Minimum Field Lengths Within Delimited Records"
 title: "Minimum Field Lengths Within Delimited Records | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

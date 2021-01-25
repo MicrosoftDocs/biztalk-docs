@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Identifying Potential Threats"
 title: "Identifying Potential Threats | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

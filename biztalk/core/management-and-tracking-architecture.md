@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Management and Tracking Architecture"
 title: "Management and Tracking Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

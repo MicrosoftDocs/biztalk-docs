@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Run the Business Process Management Solution"
 title: "How to Run the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

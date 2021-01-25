@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Regenerate the Live Data Workbook"
 title: "Regenerate the Live Data Workbook | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Namespace Management"
 title: "Namespace Management | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

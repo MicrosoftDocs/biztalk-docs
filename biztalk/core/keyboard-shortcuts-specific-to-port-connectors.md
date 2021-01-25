@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Keyboard Shortcuts Specific to Port Connectors"
 title: "Keyboard Shortcuts Specific to Port Connectors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

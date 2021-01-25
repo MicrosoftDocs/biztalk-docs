@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Keyboard Shortcuts Specific to the Port Surfaces"
 title: "Keyboard Shortcuts Specific to the Port Surfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
