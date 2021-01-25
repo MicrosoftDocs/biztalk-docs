@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitter.Terminate Method (COM)"
 title: IBTTransmitter.Terminate Method (COM)
 TOCTitle: IBTTransmitter.Terminate Method (COM)
 ms:assetid: 77b8eee7-3fd8-4083-a73f-c155f0df9255

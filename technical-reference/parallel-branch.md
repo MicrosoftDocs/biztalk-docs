@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Parallel Branch"
 title: Parallel Branch
 TOCTitle: Parallel Branch
 ms:assetid: cc306f57-d6a6-4830-93b1-a9e3a55df3fd

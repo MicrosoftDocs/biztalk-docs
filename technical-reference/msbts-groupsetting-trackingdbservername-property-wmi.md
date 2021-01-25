@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.TrackingDBServerName Property (WMI)"
 title: MSBTS_GroupSetting.TrackingDBServerName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.TrackingDBServerName Property (WMI)
 ms:assetid: 5d0d3a47-a454-4f50-9ba6-5d61b9c6016b

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOAdmin.PurgeCacheForApplication Method"
 title: ISSOAdmin.PurgeCacheForApplication Method
 TOCTitle: ISSOAdmin.PurgeCacheForApplication Method
 ms:assetid: 28e49ab8-3a67-452c-8263-58903e7709e9

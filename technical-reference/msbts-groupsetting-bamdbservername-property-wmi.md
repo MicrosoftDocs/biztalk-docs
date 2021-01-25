@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.BamDBServerName Property (WMI)"
 title: MSBTS_GroupSetting.BamDBServerName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.BamDBServerName Property (WMI)
 ms:assetid: 88bda811-1523-4d10-b3cb-1d8f4f9b2a89

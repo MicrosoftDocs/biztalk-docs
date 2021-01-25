@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTDTCCommitConfirm Interface (COM)"
 title: IBTDTCCommitConfirm Interface (COM)
 TOCTitle: IBTDTCCommitConfirm Interface (COM)
 ms:assetid: d8e8470f-8ce4-4dcb-b1e4-521f5a33c3fb

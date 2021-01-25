@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapping.WindowsUserName Property"
 title: ISSOMapping.WindowsUserName Property
 TOCTitle: ISSOMapping.WindowsUserName Property
 ms:assetid: af1ef5a6-0019-41c9-9a2d-bf1e6087667d

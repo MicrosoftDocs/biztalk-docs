@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.SendPipelineData (WMI)"
 title: MSBTS_ReceiveLocation.SendPipelineData (WMI)
 TOCTitle: MSBTS_ReceiveLocation.SendPipelineData (WMI)
 ms:assetid: 4ddc26fb-4f15-4ff3-a3fa-684fccdb2d03

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Modulo Functoid"
 title: Modulo Functoid
 TOCTitle: Modulo Functoid
 ms:assetid: b6b861fb-8d77-447f-a538-69a882f5c0a6

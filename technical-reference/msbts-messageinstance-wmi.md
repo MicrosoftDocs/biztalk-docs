@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance (WMI)"
 title: MSBTS_MessageInstance (WMI)
 TOCTitle: MSBTS_MessageInstance (WMI)
 ms:assetid: 1e85b0e3-5e92-403c-a8bf-c5d6b5f30f10

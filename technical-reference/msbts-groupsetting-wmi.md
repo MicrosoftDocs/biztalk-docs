@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting (WMI)"
 title: MSBTS_GroupSetting (WMI)
 TOCTitle: MSBTS_GroupSetting (WMI)
 ms:assetid: bb440da1-b650-4345-80d5-949bcc774b5f

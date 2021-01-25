@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Resources Node, Details Pane"
 title: Resources Node, Details Pane
 TOCTitle: Resources Node, Details Pane
 ms:assetid: 5513ea8d-4095-4b44-8226-05c67e0bfc01

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Host.GetClusterResourceGroupNames (WMI)"
 title: MSBTS_Host.GetClusterResourceGroupNames (WMI)
 TOCTitle: MSBTS_Host.GetClusterResourceGroupNames (WMI)
 ms:assetid: a6872748-cd0a-487a-acbe-69ae7e1a9d34

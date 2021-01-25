@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Import MSI Wizard: Application Target Environment Settings"
 title: 'Import MSI Wizard: Application Target Environment Settings'
 TOCTitle: 'Import MSI Wizard: Application Target Environment Settings'
 ms:assetid: b0f80f12-e530-4c53-86e6-fec8417fbdd2

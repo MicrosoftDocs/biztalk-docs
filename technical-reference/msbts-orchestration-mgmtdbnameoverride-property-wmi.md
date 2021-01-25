@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.MgmtDbNameOverride Property (WMI)"
 title: MSBTS_Orchestration.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_Orchestration.MgmtDbNameOverride Property (WMI)
 ms:assetid: b5d4d7d5-fc87-4308-b204-a61977791028

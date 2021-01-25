@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage.IsMutable Property (COM)"
 title: IBaseMessage.IsMutable Property (COM)
 TOCTitle: IBaseMessage.IsMutable Property (COM)
 ms:assetid: 718374be-970b-4111-b950-017342f75478

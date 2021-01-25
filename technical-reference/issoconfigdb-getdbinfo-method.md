@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigDB.GetDBInfo Method"
 title: ISSOConfigDB.GetDBInfo Method
 TOCTitle: ISSOConfigDB.GetDBInfo Method
 ms:assetid: be146a0d-a29b-495a-ad54-5b546ab69b9c

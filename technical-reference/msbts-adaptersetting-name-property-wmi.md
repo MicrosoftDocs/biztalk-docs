@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_AdapterSetting.Name Property (WMI)"
 title: MSBTS_AdapterSetting.Name Property (WMI)
 TOCTitle: MSBTS_AdapterSetting.Name Property (WMI)
 ms:assetid: 43264ec1-652f-4c2f-b4a8-70f9f42fba13

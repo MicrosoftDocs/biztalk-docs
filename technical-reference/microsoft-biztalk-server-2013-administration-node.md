@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Microsoft BizTalk Server 2013 Administration Node"
 title: Microsoft BizTalk Server 2013 Administration Node
 TOCTitle: Microsoft BizTalk Server 2013 Administration Node
 ms:assetid: af5f7220-9560-4cab-8740-761dd7447dfe

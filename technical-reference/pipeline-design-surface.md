@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Pipeline Design Surface"
 title: Pipeline Design Surface
 TOCTitle: Pipeline Design Surface
 ms:assetid: eedf81f3-3209-44c9-8ee5-1ca826e5cabb

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.Name Property (WMI)"
 title: MSBTS_GroupSetting.Name Property (WMI)
 TOCTitle: MSBTS_GroupSetting.Name Property (WMI)
 ms:assetid: acd97a5e-487e-443b-b0e9-e3e0c7b1ecf2

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDisassemblerComponent Methods (COM)"
 title: IDisassemblerComponent Methods (COM)
 TOCTitle: IDisassemblerComponent Methods (COM)
 ms:assetid: 9ce3921e-46f7-4065-be4a-376163803e25

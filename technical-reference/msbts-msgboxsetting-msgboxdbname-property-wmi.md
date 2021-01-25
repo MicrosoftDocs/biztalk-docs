@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MsgBoxSetting.MsgBoxDBName Property (WMI)"
 title: MSBTS_MsgBoxSetting.MsgBoxDBName Property (WMI)
 TOCTitle: MSBTS_MsgBoxSetting.MsgBoxDBName Property (WMI)
 ms:assetid: 61484743-9e16-465b-be0e-c085f82a3ce3

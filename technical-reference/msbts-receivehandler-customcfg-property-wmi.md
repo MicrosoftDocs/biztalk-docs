@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveHandler.CustomCfg Property (WMI)"
 title: MSBTS_ReceiveHandler.CustomCfg Property (WMI)
 TOCTitle: MSBTS_ReceiveHandler.CustomCfg Property (WMI)
 ms:assetid: 97607975-232b-4888-bedd-5d90d8a5dac6

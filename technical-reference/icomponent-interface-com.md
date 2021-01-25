@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IComponent Interface (COM)"
 title: IComponent Interface (COM)
 TOCTitle: IComponent Interface (COM)
 ms:assetid: eb2a691b-d4db-45b6-9596-fc461fd8870b

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.Enlist Method (WMI)"
 title: MSBTS_Orchestration.Enlist Method (WMI)
 TOCTitle: MSBTS_Orchestration.Enlist Method (WMI)
 ms:assetid: 6914664b-0017-41a2-a1c7-3732672c5620

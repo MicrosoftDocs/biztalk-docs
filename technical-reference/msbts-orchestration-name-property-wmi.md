@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.Name Property (WMI)"
 title: MSBTS_Orchestration.Name Property (WMI)
 TOCTitle: MSBTS_Orchestration.Name Property (WMI)
 ms:assetid: a9b0d106-24b6-4e5b-b9c9-55a678d05a4f

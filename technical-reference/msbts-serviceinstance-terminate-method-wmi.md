@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.Terminate Method (WMI)"
 title: MSBTS_ServiceInstance.Terminate Method (WMI)
 TOCTitle: MSBTS_ServiceInstance.Terminate Method (WMI)
 ms:assetid: 18b942ff-c031-46cd-8f3f-8f60d10974bb

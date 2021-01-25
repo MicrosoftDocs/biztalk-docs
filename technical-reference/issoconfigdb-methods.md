@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigDB Methods"
 title: ISSOConfigDB Methods
 TOCTitle: ISSOConfigDB Methods
 ms:assetid: 0a5e4cb3-7f1b-4c91-9ab6-436afb4bb50a

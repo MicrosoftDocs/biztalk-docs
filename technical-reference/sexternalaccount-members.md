@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SExternalAccount Members"
 title: SExternalAccount Members
 TOCTitle: SExternalAccount Members
 ms:assetid: a9491577-ae24-46ce-a225-9b5501401d03

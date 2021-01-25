@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Receive Locations Node, Details Pane"
 title: Receive Locations Node, Details Pane
 TOCTitle: Receive Locations Node, Details Pane
 ms:assetid: f5ff03ed-9000-4ef4-80cf-dc7545bae7af

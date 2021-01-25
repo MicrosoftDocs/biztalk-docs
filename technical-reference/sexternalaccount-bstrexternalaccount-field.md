@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SExternalAccount.bstrExternalAccount Field"
 title: SExternalAccount.bstrExternalAccount Field
 TOCTitle: SExternalAccount.bstrExternalAccount Field
 ms:assetid: 1928e29e-76e3-445f-b45d-38828128c335

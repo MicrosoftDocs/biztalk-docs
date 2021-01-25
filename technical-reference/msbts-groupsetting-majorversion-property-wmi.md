@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.MajorVersion Property (WMI)"
 title: MSBTS_GroupSetting.MajorVersion Property (WMI)
 TOCTitle: MSBTS_GroupSetting.MajorVersion Property (WMI)
 ms:assetid: 2b6850ee-8988-4722-a4d8-cafa6df292ff

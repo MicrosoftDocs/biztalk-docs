@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Servers Node"
 title: Servers Node
 TOCTitle: Servers Node
 ms:assetid: 5947ed4f-2fb3-48e6-88e5-85d084c10488

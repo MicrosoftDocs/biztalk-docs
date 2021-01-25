@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.MgmtDbName Property (WMI)"
 title: MSBTS_GroupSetting.MgmtDbName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.MgmtDbName Property (WMI)
 ms:assetid: c1e56ac5-5fc7-4c09-ad18-1498c7c41327

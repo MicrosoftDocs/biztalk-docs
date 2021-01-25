@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Not Equal Functoid"
 title: Not Equal Functoid
 TOCTitle: Not Equal Functoid
 ms:assetid: 6b1b8f53-2151-4854-877b-a5695de8e6dc

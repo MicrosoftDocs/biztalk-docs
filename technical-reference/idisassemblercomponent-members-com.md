@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDisassemblerComponent Members (COM)"
 title: IDisassemblerComponent Members (COM)
 TOCTitle: IDisassemblerComponent Members (COM)
 ms:assetid: 9b7807ec-92e9-48ce-a461-6331fa9a2f09

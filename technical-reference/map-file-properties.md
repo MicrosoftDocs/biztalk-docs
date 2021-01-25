@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Map File Properties"
 title: Map File Properties
 TOCTitle: Map File Properties
 ms:assetid: b933eda6-3b8e-4489-b9df-e6ff3765a5ee

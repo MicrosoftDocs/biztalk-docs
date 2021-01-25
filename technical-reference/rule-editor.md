@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Rule Editor"
 title: Rule Editor
 TOCTitle: Rule Editor
 ms:assetid: fc4e521b-e46c-4169-924b-c11afbf9eb5b

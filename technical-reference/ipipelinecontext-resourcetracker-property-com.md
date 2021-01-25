@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext.ResourceTracker Property (COM)"
 title: IPipelineContext.ResourceTracker Property (COM)
 TOCTitle: IPipelineContext.ResourceTracker Property (COM)
 ms:assetid: 494b8687-6238-4ae2-bd25-d9d6842a4599

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Natural Logarithm Functoid"
 title: Natural Logarithm Functoid
 TOCTitle: Natural Logarithm Functoid
 ms:assetid: a6a2a238-0a2e-4c69-aecc-a475fda1272e

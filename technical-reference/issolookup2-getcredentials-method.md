@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOLookup2.GetCredentials Method"
 title: ISSOLookup2.GetCredentials Method
 TOCTitle: ISSOLookup2.GetCredentials Method
 ms:assetid: 2e919858-90ba-4c72-98b6-cd37722aeae8

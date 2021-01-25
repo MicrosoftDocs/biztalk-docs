@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.TimeBasedMinThreshold Property (WMI)"
 title: MSBTS_HostSetting.TimeBasedMinThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.TimeBasedMinThreshold Property (WMI)
 ms:assetid: d8764573-046a-46b5-8db8-5a9d5b55a4bf

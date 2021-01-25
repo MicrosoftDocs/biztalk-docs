@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.AssemblyName Property (WMI)"
 title: MSBTS_Orchestration.AssemblyName Property (WMI)
 TOCTitle: MSBTS_Orchestration.AssemblyName Property (WMI)
 ms:assetid: 734ebf5a-207a-4e7c-b8c0-fd3f5d2cffa7

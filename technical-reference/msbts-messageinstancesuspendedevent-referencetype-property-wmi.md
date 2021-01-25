@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstanceSuspendedEvent.ReferenceType Property (WMI)"
 title: MSBTS_MessageInstanceSuspendedEvent.ReferenceType Property (WMI)
 TOCTitle: MSBTS_MessageInstanceSuspendedEvent.ReferenceType Property (WMI)
 ms:assetid: 619ea34b-9c30-4118-b2cd-2c4a6ad7928f

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Logical Numeric Functoid"
 title: Logical Numeric Functoid
 TOCTitle: Logical Numeric Functoid
 ms:assetid: 9ee5601b-6a86-483a-9df2-8378470521be

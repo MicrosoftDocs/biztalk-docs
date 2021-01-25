@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDocumentSpec.DocType Property (COM)"
 title: IDocumentSpec.DocType Property (COM)
 TOCTitle: IDocumentSpec.DocType Property (COM)
 ms:assetid: ec9331a5-1d05-4181-98e0-fe781cf74515

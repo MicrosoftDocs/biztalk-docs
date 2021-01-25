@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.InflightMessageThreshold Property (WMI)"
 title: MSBTS_HostSetting.InflightMessageThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.InflightMessageThreshold Property (WMI)
 ms:assetid: bace1a98-8c17-4613-bc42-1712e02fbf3d

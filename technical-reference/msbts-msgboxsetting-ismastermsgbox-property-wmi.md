@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MsgBoxSetting.IsMasterMsgBox Property (WMI)"
 title: MSBTS_MsgBoxSetting.IsMasterMsgBox Property (WMI)
 TOCTitle: MSBTS_MsgBoxSetting.IsMasterMsgBox Property (WMI)
 ms:assetid: 5dc9d843-f7dd-4f50-a13d-e1bca0969e77

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Party Resolution Pipeline Component Properties"
 title: Party Resolution Pipeline Component Properties
 TOCTitle: Party Resolution Pipeline Component Properties
 ms:assetid: 39f63895-f24d-4578-8031-689a05ebc94e

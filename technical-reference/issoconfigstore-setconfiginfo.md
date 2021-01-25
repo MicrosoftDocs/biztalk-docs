@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigStore::SetConfigInfo"
 title: ISSOConfigStore::SetConfigInfo
 TOCTitle: ISSOConfigStore::SetConfigInfo
 ms:assetid: 58b49e87-862d-4dbe-a382-d699494ab29a

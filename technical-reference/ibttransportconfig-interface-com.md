@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportConfig Interface (COM)"
 title: IBTTransportConfig Interface (COM)
 TOCTitle: IBTTransportConfig Interface (COM)
 ms:assetid: 5550a601-db81-45e8-ad81-c566c1b0376c

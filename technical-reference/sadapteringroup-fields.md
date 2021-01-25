@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SAdapterInGroup Fields"
 title: SAdapterInGroup Fields
 TOCTitle: SAdapterInGroup Fields
 ms:assetid: eed9b993-2519-4935-9726-d2cbc752db37

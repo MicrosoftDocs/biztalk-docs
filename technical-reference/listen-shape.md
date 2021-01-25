@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Listen Shape"
 title: Listen Shape
 TOCTitle: Listen Shape
 ms:assetid: 983a0ed0-b964-4736-afb7-5ba4aff4b75d

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.RuleEngineDBServerName Property (WMI)"
 title: MSBTS_GroupSetting.RuleEngineDBServerName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.RuleEngineDBServerName Property (WMI)
 ms:assetid: e4a20ee7-9b48-436d-a24e-ac2a97263566

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: New Dimension Dialog Box"
 title: New Dimension Dialog Box
 TOCTitle: New Dimension Dialog Box
 ms:assetid: f8fc8a9d-b52a-400f-9ef8-1925340ca21f

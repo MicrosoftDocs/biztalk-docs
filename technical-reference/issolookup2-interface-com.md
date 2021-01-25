@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOLookup2 Interface (COM)"
 title: ISSOLookup2 Interface (COM)
 TOCTitle: ISSOLookup2 Interface (COM)
 ms:assetid: 27e594b1-7ea5-43b0-b85d-6cd7c44e6483

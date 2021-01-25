@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Mass Copy Functoid Reference"
 title: Mass Copy Functoid Reference
 TOCTitle: Mass Copy Functoid Reference
 ms:assetid: 7172d6d3-41d5-425b-9c80-19b064a4dca2

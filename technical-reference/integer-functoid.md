@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Integer Functoid"
 title: Integer Functoid
 TOCTitle: Integer Functoid
 ms:assetid: 5ae6d0b3-3cf1-4089-909a-f675281dfeae

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstance.UniqueID Property (WMI)"
 title: MSBTS_HostInstance.UniqueID Property (WMI)
 TOCTitle: MSBTS_HostInstance.UniqueID Property (WMI)
 ms:assetid: ed850ef5-20c0-44ba-9f1c-81a1719c701c

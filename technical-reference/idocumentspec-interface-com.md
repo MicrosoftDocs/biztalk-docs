@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDocumentSpec Interface (COM)"
 title: IDocumentSpec Interface (COM)
 TOCTitle: IDocumentSpec Interface (COM)
 ms:assetid: 4660b0bb-d7c3-4863-bfba-2cc5321a9fc4

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Logical AND Functoid"
 title: Logical AND Functoid
 TOCTitle: Logical AND Functoid
 ms:assetid: 5fef25b1-8f1f-4056-80d0-02438362da1d

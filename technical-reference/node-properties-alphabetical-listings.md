@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Node Properties - Alphabetical Listings"
 title: Node Properties - Alphabetical Listings
 TOCTitle: Node Properties - Alphabetical Listings
 ms:assetid: 54f5f1c6-c672-4278-8df5-1c534eb5006d

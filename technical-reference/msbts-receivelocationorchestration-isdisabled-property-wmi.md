@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocationOrchestration.IsDisabled Property (WMI)"
 title: MSBTS_ReceiveLocationOrchestration.IsDisabled Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.IsDisabled Property (WMI)
 ms:assetid: fbf0e820-d4bc-414e-8bcd-6446ad2aa66c

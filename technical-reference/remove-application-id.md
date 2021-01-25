@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Remove Application ID"
 title: Remove Application ID
 TOCTitle: Remove Application ID Functoid
 ms:assetid: 4cdfef07-1b23-4844-ad86-28ddbf9bcf19

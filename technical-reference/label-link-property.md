@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Label (Link Property)"
 title: Label (Link Property)
 TOCTitle: Label (Link Property)
 ms:assetid: 1565c75f-fea9-48ec-b8f3-cb903929937a

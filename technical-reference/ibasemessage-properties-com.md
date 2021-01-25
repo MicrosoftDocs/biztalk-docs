@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage Properties (COM)"
 title: IBaseMessage Properties (COM)
 TOCTitle: IBaseMessage Properties (COM)
 ms:assetid: 37b52ee5-0ba7-4069-bdb0-10aaaf0b6319

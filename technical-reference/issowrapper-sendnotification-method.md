@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOWrapper.SendNotification Method"
 title: ISSOWrapper.SendNotification Method
 TOCTitle: ISSOWrapper.SendNotification Method
 ms:assetid: ac203b80-31eb-4dcf-9bc3-3f8221566502

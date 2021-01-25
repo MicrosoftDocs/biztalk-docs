@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.QueryInstanceInfo Method (WMI)"
 title: MSBTS_Orchestration.QueryInstanceInfo Method (WMI)
 TOCTitle: MSBTS_Orchestration.QueryInstanceInfo Method (WMI)
 ms:assetid: 3e9944ca-231e-44f7-a6c4-e39cb02bf9cd

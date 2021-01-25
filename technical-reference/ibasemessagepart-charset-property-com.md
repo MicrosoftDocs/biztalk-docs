@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessagePart.Charset Property (COM)"
 title: IBaseMessagePart.Charset Property (COM)
 TOCTitle: IBaseMessagePart.Charset Property (COM)
 ms:assetid: 205422d8-d396-4783-b849-a086946bf93e

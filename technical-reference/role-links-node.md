@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Role Links Node"
 title: Role Links Node
 TOCTitle: Role Links Node
 ms:assetid: f93e924f-7ea4-4193-a37d-dbb4649c969c

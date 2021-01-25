@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDocumentSpec Properties (COM)"
 title: IDocumentSpec Properties (COM)
 TOCTitle: IDocumentSpec Properties (COM)
 ms:assetid: 06b12e06-61e8-4262-96cc-f68f61d0eef1

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.PendingOperation Property (WMI)"
 title: MSBTS_ServiceInstance.PendingOperation Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.PendingOperation Property (WMI)
 ms:assetid: 9acee351-b855-49c0-9adc-d2eac20d3ef6

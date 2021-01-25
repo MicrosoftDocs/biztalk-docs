@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTBatchCallBack Interface (COM)"
 title: IBTBatchCallBack Interface (COM)
 TOCTitle: IBTBatchCallBack Interface (COM)
 ms:assetid: 3ae90023-c67b-44c0-9022-89b59720ea06

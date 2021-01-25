@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.StopDateEnabled (WMI)"
 title: MSBTS_ReceiveLocation.StopDateEnabled (WMI)
 TOCTitle: MSBTS_ReceiveLocation.StopDateEnabled (WMI)
 ms:assetid: ccf496bc-7095-4f43-806a-0e3d9a9d9918

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Resuming Suspended Service Instances of a Specific Orchestration Using WMI"
 title: Resuming Suspended Service Instances of a Specific Orchestration Using WMI
 TOCTitle: Resuming Suspended Service Instances of a Specific Orchestration Using WMI
 ms:assetid: 87d93c70-0443-4b4d-a44b-896a5b2556cb

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Schema Editor Extensions (Node Property of All Schemas)"
 title: Schema Editor Extensions (Node Property of All Schemas)
 TOCTitle: Schema Editor Extensions (Node Property of All Schemas)
 ms:assetid: 2fd636b1-903b-44c5-8808-3ca5e6b0de1f

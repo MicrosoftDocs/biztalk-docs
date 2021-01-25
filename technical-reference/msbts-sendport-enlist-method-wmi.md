@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.Enlist Method (WMI)"
 title: MSBTS_SendPort.Enlist Method (WMI)
 TOCTitle: MSBTS_SendPort.Enlist Method (WMI)
 ms:assetid: 9deec4c4-5e2b-4f9b-8568-b376a26fc41d

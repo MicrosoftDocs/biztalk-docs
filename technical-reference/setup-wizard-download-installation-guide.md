@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Setup Wizard, Download Installation Guide"
 title: Setup Wizard, Download Installation Guide
 TOCTitle: Setup Wizard, Download Installation Guide
 ms:assetid: 5534c1ed-13db-4080-95eb-75c5c072d8af

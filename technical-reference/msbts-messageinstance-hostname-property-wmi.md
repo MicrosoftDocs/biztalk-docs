@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.HostName Property (WMI)"
 title: MSBTS_MessageInstance.HostName Property (WMI)
 TOCTitle: MSBTS_MessageInstance.HostName Property (WMI)
 ms:assetid: dd336733-1f1b-4cc3-b531-0cb01bbea0cb

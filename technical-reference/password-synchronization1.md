@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Password Synchronization"
 title: Password Synchronization1
 TOCTitle: Password Synchronization
 ms:assetid: ff865d17-8527-47a9-be21-9ddcea2d6d66

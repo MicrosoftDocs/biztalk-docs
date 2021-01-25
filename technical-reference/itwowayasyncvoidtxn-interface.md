@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ITwoWayAsyncVoidTxn Interface"
 title: ITwoWayAsyncVoidTxn Interface
 TOCTitle: ITwoWayAsyncVoidTxn Interface
 ms:assetid: 8cd8f671-c322-4623-bd11-35f7b34b29e6

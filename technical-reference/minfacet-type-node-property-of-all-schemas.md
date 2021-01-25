@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MinFacet Type (Node Property of All Schemas)"
 title: MinFacet Type (Node Property of All Schemas)
 TOCTitle: MinFacet Type (Node Property of All Schemas)
 ms:assetid: 29a479f7-2b79-4c39-bbee-7e4293994c1b

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Receive Ports Node"
 title: Receive Ports Node
 TOCTitle: Receive Ports Node
 ms:assetid: 40d5e9f7-44a5-4877-bdb7-a44da28cb0ea

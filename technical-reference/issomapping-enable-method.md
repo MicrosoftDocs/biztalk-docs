@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapping.Enable Method"
 title: ISSOMapping.Enable Method
 TOCTitle: ISSOMapping.Enable Method
 ms:assetid: 38d7a0b4-7d61-4234-9dfa-d8d13e0cbe41

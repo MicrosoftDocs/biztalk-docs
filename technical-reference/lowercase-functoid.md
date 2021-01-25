@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Lowercase Functoid"
 title: Lowercase Functoid
 TOCTitle: Lowercase Functoid
 ms:assetid: e9131376-7e74-493a-a3d3-72d1de0bb25c

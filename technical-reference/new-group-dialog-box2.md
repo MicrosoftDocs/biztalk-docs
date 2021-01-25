@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: New Group Dialog Box"
 title: New Group Dialog Box2
 TOCTitle: New Group Dialog Box
 ms:assetid: 1a5202e9-4159-41fb-838b-ed3424244140

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_AdapterSetting.MgmtCLSID Property (WMI)"
 title: MSBTS_AdapterSetting.MgmtCLSID Property (WMI)
 TOCTitle: MSBTS_AdapterSetting.MgmtCLSID Property (WMI)
 ms:assetid: 9a48c1bf-7ad8-4f23-a7b3-fac1d1a6146e

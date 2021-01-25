@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostQueue.SuspendServiceInstancesByID Method (WMI)"
 title: MSBTS_HostQueue.SuspendServiceInstancesByID Method (WMI)
 TOCTitle: MSBTS_HostQueue.SuspendServiceInstancesByID Method (WMI)
 ms:assetid: c59e21d2-b63a-47ed-bc8d-5662e053af33

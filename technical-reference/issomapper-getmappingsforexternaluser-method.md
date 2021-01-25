@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapper.GetMappingsForExternalUser Method"
 title: ISSOMapper.GetMappingsForExternalUser Method
 TOCTitle: ISSOMapper.GetMappingsForExternalUser Method
 ms:assetid: fdc06da6-1806-4b18-95bf-76a7486132d0

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Maximum Input Parameters (Functoid Property)"
 title: Maximum Input Parameters (Functoid Property)
 TOCTitle: Maximum Input Parameters (Functoid Property)
 ms:assetid: 3ab70557-4650-4cc2-8267-854610cd3c61

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigSS.GetFilePasswordReminder Method"
 title: ISSOConfigSS.GetFilePasswordReminder Method
 TOCTitle: ISSOConfigSS.GetFilePasswordReminder Method
 ms:assetid: 71833ea3-a19f-431b-b8a1-96355113d171

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Map Property Reference"
 title: Map Property Reference
 TOCTitle: Map Property Reference
 ms:assetid: cdd5fbad-c4f0-4529-aa72-76a1f58a4a17

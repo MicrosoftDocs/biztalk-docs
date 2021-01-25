@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage.MessageID Property (COM)"
 title: IBaseMessage.MessageID Property (COM)
 TOCTitle: IBaseMessage.MessageID Property (COM)
 ms:assetid: a6fd85b4-3ad7-4884-8a80-025cdbd3630c

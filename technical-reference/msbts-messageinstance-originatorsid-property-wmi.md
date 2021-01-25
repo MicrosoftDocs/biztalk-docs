@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.OriginatorSID Property (WMI)"
 title: MSBTS_MessageInstance.OriginatorSID Property (WMI)
 TOCTitle: MSBTS_MessageInstance.OriginatorSID Property (WMI)
 ms:assetid: c85dc21c-a670-4b2f-891b-bd0dc6abaf0b

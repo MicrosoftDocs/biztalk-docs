@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigDB.CreateDatabase Method"
 title: ISSOConfigDB.CreateDatabase Method
 TOCTitle: ISSOConfigDB.CreateDatabase Method
 ms:assetid: aaf064ed-aeae-4337-bc9c-a527f3001685

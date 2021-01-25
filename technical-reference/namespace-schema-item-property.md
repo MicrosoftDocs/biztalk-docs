@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Namespace (Schema Item Property)"
 title: Namespace (Schema Item Property)
 TOCTitle: Namespace (Schema Item Property)
 ms:assetid: 750a8260-1cfb-4997-b8ed-b62359d40fc3

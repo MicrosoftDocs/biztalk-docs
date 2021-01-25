@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Scientific Functoids Reference"
 title: Scientific Functoids Reference
 TOCTitle: Scientific Functoids Reference
 ms:assetid: e60738d7-9df9-4c73-91cc-692a6d481d4f

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: New Duration Dialog Box"
 title: New Duration Dialog Box
 TOCTitle: New Duration Dialog Box
 ms:assetid: 807eb875-2cce-4e8d-b5c4-c1f04b98cdbd

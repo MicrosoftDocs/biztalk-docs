@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Pipelines Node, Details Pane"
 title: Pipelines Node, Details Pane
 TOCTitle: Pipelines Node, Details Pane
 ms:assetid: 8ff897fc-c8a4-4bf8-8d2f-dd03484f2996

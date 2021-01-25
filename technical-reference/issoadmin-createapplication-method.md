@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOAdmin.CreateApplication Method"
 title: ISSOAdmin.CreateApplication Method
 TOCTitle: ISSOAdmin.CreateApplication Method
 ms:assetid: e6de84e2-658b-4521-9db8-1897fb390b8e

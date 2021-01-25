@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MaxFacet Type (Node Property of All Schemas)"
 title: MaxFacet Type (Node Property of All Schemas)
 TOCTitle: MaxFacet Type (Node Property of All Schemas)
 ms:assetid: 03718aa0-e392-41fc-a389-405a2d092f73

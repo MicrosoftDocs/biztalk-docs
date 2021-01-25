@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstance.Stop Method (WMI)"
 title: MSBTS_HostInstance.Stop Method (WMI)
 TOCTitle: MSBTS_HostInstance.Stop Method (WMI)
 ms:assetid: d4b7c69d-460c-4ebb-869b-0dfe698494ba

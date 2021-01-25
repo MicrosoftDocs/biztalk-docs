@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstance.Install Method"
 title: MSBTS_HostInstance.Install Method
 TOCTitle: MSBTS_HostInstance.Install Method
 ms:assetid: 5859491c-44fb-4cee-945f-a0ef53be1866

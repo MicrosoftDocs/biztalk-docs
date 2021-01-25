@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IOneWayAsyncTxn.EndOneWayMethod Method"
 title: IOneWayAsyncTxn.EndOneWayMethod Method
 TOCTitle: IOneWayAsyncTxn.EndOneWayMethod Method
 ms:assetid: 64192219-7dda-487c-88bc-ca4be1881c15

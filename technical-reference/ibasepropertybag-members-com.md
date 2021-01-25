@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBasePropertyBag Members (COM)"
 title: IBasePropertyBag Members (COM)
 TOCTitle: IBasePropertyBag Members (COM)
 ms:assetid: 40e77309-03e8-47fd-a585-9d51e57fa728

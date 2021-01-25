@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Send Shape"
 title: Send Shape
 TOCTitle: Send Shape
 ms:assetid: f5561659-ae7a-423e-a254-60586ca32cef

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.QueryDependencyInfo Method (WMI)"
 title: MSBTS_Orchestration.QueryDependencyInfo Method (WMI)
 TOCTitle: MSBTS_Orchestration.QueryDependencyInfo Method (WMI)
 ms:assetid: 6da32e40-b5b1-43f2-891a-c81a5cc4402b

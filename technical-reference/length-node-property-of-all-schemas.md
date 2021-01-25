@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Length (Node Property of All Schemas)"
 title: Length (Node Property of All Schemas)
 TOCTitle: Length (Node Property of All Schemas)
 ms:assetid: 9494883a-c424-4dc6-bc71-9d2e2514a0e9

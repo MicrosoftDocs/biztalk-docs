@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOWrapper Methods"
 title: ISSOWrapper Methods
 TOCTitle: ISSOWrapper Methods
 ms:assetid: feca8f56-02ea-46cc-8dd8-3a43958e7329

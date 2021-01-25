@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTSTicket.ValidateAndRedeemTicket Method (COM)"
 title: IBTSTicket.ValidateAndRedeemTicket Method (COM)
 TOCTitle: IBTSTicket.ValidateAndRedeemTicket Method (COM)
 ms:assetid: c2df4b05-f484-434f-b785-b4ca3be26aa0

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceivePort.IsTwoWay Property (WMI)"
 title: MSBTS_ReceivePort.IsTwoWay Property (WMI)
 TOCTitle: MSBTS_ReceivePort.IsTwoWay Property (WMI)
 ms:assetid: 113cfa48-818a-4449-aaa1-410cf57f4963

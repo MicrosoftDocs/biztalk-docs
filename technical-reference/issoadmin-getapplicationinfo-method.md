@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOAdmin.GetApplicationInfo Method"
 title: ISSOAdmin.GetApplicationInfo Method
 TOCTitle: ISSOAdmin.GetApplicationInfo Method
 ms:assetid: 133c0ec4-8db2-436a-8d3b-b73787a3ee91

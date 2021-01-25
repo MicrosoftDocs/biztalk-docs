@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Iteration Functoid Reference"
 title: Iteration Functoid Reference
 TOCTitle: Iteration Functoid Reference
 ms:assetid: 3ccd959f-93e9-46bc-93a3-af366d845db1

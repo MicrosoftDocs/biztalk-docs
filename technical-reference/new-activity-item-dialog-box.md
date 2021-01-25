@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: New Activity Item Dialog Box"
 title: New Activity Item Dialog Box
 TOCTitle: New Activity Item Dialog Box
 ms:assetid: cc69d065-4bbe-41d5-8831-0023fabaaf7d

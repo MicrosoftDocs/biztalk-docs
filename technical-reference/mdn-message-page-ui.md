@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MDN Message Page UI"
 title: MDN Message Page UI
 TOCTitle: MDN Message Page UI
 ms:assetid: 51c991ed-0878-47c3-9a9b-d7f79d1180a7

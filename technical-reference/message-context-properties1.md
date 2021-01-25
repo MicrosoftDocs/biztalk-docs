@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Message Context Properties"
 title: Message Context Properties1
 TOCTitle: Message Context Properties
 ms:assetid: fce413a0-5b61-48b2-8a5d-c1cf496df616

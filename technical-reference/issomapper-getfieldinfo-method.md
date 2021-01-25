@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapper.GetFieldInfo Method"
 title: ISSOMapper.GetFieldInfo Method
 TOCTitle: ISSOMapper.GetFieldInfo Method
 ms:assetid: bc2a5698-f01c-44d0-b20d-6518d7b1090b

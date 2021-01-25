@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Output Window"
 title: Output Window
 TOCTitle: Output Window
 ms:assetid: 74892932-d4ec-48f7-8059-155890ccac08

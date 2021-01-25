@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.MgmtDbServerOverride Property (WMI)"
 title: MSBTS_Orchestration.MgmtDbServerOverride Property (WMI)
 TOCTitle: MSBTS_Orchestration.MgmtDbServerOverride Property (WMI)
 ms:assetid: d60b677e-643b-4505-8022-53c7fab32fc7

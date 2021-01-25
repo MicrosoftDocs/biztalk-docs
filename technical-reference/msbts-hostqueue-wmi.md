@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostQueue (WMI)"
 title: MSBTS_HostQueue (WMI)
 TOCTitle: MSBTS_HostQueue (WMI)
 ms:assetid: 25a01b53-4759-4914-a742-df065b90c3e6

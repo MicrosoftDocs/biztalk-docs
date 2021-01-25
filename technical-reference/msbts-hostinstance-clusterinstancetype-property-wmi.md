@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstance.ClusterInstanceType Property (WMI)"
 title: MSBTS_HostInstance.ClusterInstanceType Property (WMI)
 TOCTitle: MSBTS_HostInstance.ClusterInstanceType Property (WMI)
 ms:assetid: add87697-1a91-4f10-b278-2f71283444c7

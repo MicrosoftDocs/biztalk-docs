@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServerHost.Map Method (WMI)"
 title: MSBTS_ServerHost.Map Method (WMI)
 TOCTitle: MSBTS_ServerHost.Map Method (WMI)
 ms:assetid: a97cd07c-77bc-41f0-ab23-4328525f5e25

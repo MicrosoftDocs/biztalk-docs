@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.ActivationTime Property (WMI)"
 title: MSBTS_ServiceInstance.ActivationTime Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.ActivationTime Property (WMI)
 ms:assetid: f3a0ed24-a811-4103-9ea5-01596fc59398

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.STCustomCfg Property (WMI)"
 title: MSBTS_SendPort.STCustomCfg Property (WMI)
 TOCTitle: MSBTS_SendPort.STCustomCfg Property (WMI)
 ms:assetid: 73561c8a-7308-4859-bac7-1b21404ebf3d

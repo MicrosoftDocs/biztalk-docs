@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Message Wire Format Page UI"
 title: Message Wire Format Page UI
 TOCTitle: Message Wire Format Page UI
 ms:assetid: 2aead951-d001-4235-9b73-3c19bd5e6f78

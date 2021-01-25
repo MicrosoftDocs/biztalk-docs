@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Imports (Node Property of All Schemas)"
 title: Imports (Node Property of All Schemas)
 TOCTitle: Imports (Node Property of All Schemas)
 ms:assetid: d0ecbee6-ee9f-4cb6-b531-7c5eabb2083e

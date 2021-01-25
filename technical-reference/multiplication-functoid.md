@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Multiplication Functoid"
 title: Multiplication Functoid
 TOCTitle: Multiplication Functoid
 ms:assetid: 07d811cd-c6a4-474e-aea5-99b9ab1e7eb9

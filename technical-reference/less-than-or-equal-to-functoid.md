@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Less Than or Equal To Functoid"
 title: Less Than or Equal To Functoid
 TOCTitle: Less Than or Equal To Functoid
 ms:assetid: 122fde53-580b-4b1f-996b-4fece43f8187

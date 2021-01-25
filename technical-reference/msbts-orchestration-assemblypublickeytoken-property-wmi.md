@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.AssemblyPublicKeyToken Property (WMI)"
 title: MSBTS_Orchestration.AssemblyPublicKeyToken Property (WMI)
 TOCTitle: MSBTS_Orchestration.AssemblyPublicKeyToken Property (WMI)
 ms:assetid: c25be2dc-f213-4e79-8f0d-98c7be523070

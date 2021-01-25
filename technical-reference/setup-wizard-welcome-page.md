@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Setup Wizard, Welcome Page"
 title: Setup Wizard, Welcome Page
 TOCTitle: Setup Wizard, Welcome Page
 ms:assetid: 7d7f80b9-cdf7-488c-b021-f6d63f61cee1

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOLookup2.LogonExternalUser Method"
 title: ISSOLookup2.LogonExternalUser Method
 TOCTitle: ISSOLookup2.LogonExternalUser Method
 ms:assetid: 0faa99de-77b7-4583-8284-57f609e707d9

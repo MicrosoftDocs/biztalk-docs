@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportProxy.TerminateIsolatedReceive Method (COM)"
 title: IBTTransportProxy.TerminateIsolatedReceive Method (COM)
 TOCTitle: IBTTransportProxy.TerminateIsolatedReceive Method (COM)
 ms:assetid: 0a894785-8bb0-4a5f-afab-b85cc18ced67

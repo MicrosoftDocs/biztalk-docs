@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Orchestration Properties Dialog Box"
 title: Orchestration Properties Dialog Box
 TOCTitle: Orchestration Properties Dialog Box
 ms:assetid: eb5af3a9-a9bd-4c11-a961-6a203f2a9d24

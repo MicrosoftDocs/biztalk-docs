@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Import BAM Activity Definition Dialog Box"
 title: Import BAM Activity Definition Dialog Box
 TOCTitle: Import BAM Activity Definition Dialog Box
 ms:assetid: c583cc81-ade8-48b2-92ad-f13b9f9516c9

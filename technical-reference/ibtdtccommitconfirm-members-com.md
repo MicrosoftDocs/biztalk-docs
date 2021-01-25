@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTDTCCommitConfirm Members (COM)"
 title: IBTDTCCommitConfirm Members (COM)
 TOCTitle: IBTDTCCommitConfirm Members (COM)
 ms:assetid: db751658-709b-42b1-96bd-9339911252f2

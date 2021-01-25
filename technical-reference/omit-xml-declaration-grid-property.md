@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Omit XML Declaration (Grid Property)"
 title: Omit XML Declaration (Grid Property)
 TOCTitle: Omit XML Declaration (Grid Property)
 ms:assetid: a2203d8a-f518-4c5f-87b0-f10189a27233

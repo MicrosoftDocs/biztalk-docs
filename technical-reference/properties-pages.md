@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Properties Pages"
 title: Properties Pages
 TOCTitle: Properties Pages
 ms:assetid: 3743ffaa-df6e-4017-b0c5-e1fbdcfa13d7

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.Tracking Property (WMI)"
 title: MSBTS_SendPort.Tracking Property (WMI)
 TOCTitle: MSBTS_SendPort.Tracking Property (WMI)
 ms:assetid: 4c74d82d-2b5e-47c2-ac21-aa0d3b332ea2

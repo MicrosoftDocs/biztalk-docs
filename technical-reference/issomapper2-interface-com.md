@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapper2 Interface (COM)"
 title: ISSOMapper2 Interface (COM)
 TOCTitle: ISSOMapper2 Interface (COM)
 ms:assetid: 30a0d194-2fc4-4bfc-bc15-c78d4b937a33

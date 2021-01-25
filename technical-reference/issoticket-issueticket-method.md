@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOTicket.IssueTicket Method"
 title: ISSOTicket.IssueTicket Method
 TOCTitle: ISSOTicket.IssueTicket Method
 ms:assetid: e1fb6fee-1415-48c8-9527-3118e1cc9043

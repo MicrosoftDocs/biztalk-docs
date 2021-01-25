@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.SendPortName Property (WMI)"
 title: MSBTS_MessageInstance.SendPortName Property (WMI)
 TOCTitle: MSBTS_MessageInstance.SendPortName Property (WMI)
 ms:assetid: b3dc989c-88ab-4fc4-ad99-17ad8c52fd72

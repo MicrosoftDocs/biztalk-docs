@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: New Range Dialog Box"
 title: New Range Dialog Box
 TOCTitle: New Range Dialog Box
 ms:assetid: 787ee9d1-1a5a-4763-a8f0-f982b6943eff

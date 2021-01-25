@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Search"
 title: Search
 TOCTitle: Search
 ms:assetid: 34c39cf2-4684-4a76-833d-427dd9aead11

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Round Functoid"
 title: Round Functoid
 TOCTitle: Round Functoid
 ms:assetid: a0993b70-e388-470f-bbe7-b40f61595486

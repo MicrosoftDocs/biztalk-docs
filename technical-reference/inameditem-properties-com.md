@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: INamedItem Properties (COM)"
 title: INamedItem Properties (COM)
 TOCTitle: INamedItem Properties (COM)
 ms:assetid: 49c1ab8f-249c-4471-a23c-69056ed9c512

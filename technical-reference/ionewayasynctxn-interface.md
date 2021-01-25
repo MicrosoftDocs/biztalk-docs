@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IOneWayAsyncTxn Interface"
 title: IOneWayAsyncTxn Interface
 TOCTitle: IOneWayAsyncTxn Interface
 ms:assetid: 9df99847-61a4-4975-be48-8bbb72c8f00a

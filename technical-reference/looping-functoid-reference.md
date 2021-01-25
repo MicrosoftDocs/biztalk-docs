@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Looping Functoid Reference"
 title: Looping Functoid Reference
 TOCTitle: Looping Functoid Reference
 ms:assetid: 776041c2-1f1d-415d-ac86-89d40dedc103

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IOneWayAsync.BizTalkSubmit Method"
 title: IOneWayAsync.BizTalkSubmit Method
 TOCTitle: IOneWayAsync.BizTalkSubmit Method
 ms:assetid: f0b0f828-20ea-462b-bc6a-51b086c620d8

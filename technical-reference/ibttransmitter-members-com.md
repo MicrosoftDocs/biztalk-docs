@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitter Members (COM)"
 title: IBTTransmitter Members (COM)
 TOCTitle: IBTTransmitter Members (COM)
 ms:assetid: edfef603-74a9-4f90-8b75-b4329e2eed5e

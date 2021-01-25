@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Orchestrations Node, Details Pane"
 title: Orchestrations Node, Details Pane
 TOCTitle: Orchestrations Node, Details Pane
 ms:assetid: 83a5b192-66b6-4c54-a67b-85b949d449b3

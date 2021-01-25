@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.IsHost32BitOnly Property (WMI)"
 title: MSBTS_HostSetting.IsHost32BitOnly Property (WMI)
 TOCTitle: MSBTS_HostSetting.IsHost32BitOnly Property (WMI)
 ms:assetid: c8ca1896-33a7-47be-8867-3a25e338a86f

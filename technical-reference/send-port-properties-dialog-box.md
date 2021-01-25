@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Send Port Properties Dialog Box"
 title: Send Port Properties Dialog Box
 TOCTitle: Send Port Properties Dialog Box
 ms:assetid: 14261d44-dfbe-4074-8b57-6f34a624fd5f

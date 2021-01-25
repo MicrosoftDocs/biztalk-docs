@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ITwoWayAsyncVoidTxn.BizTalkSubmit Method"
 title: ITwoWayAsyncVoidTxn.BizTalkSubmit Method
 TOCTitle: ITwoWayAsyncVoidTxn.BizTalkSubmit Method
 ms:assetid: 3be75cd9-a235-478a-922c-dfcc287dc6b1

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Node Properties - By Node Type"
 title: Node Properties - By Node Type
 TOCTitle: Node Properties - By Node Type
 ms:assetid: 0884d2fb-2085-4a4c-bc38-ab08b8229326

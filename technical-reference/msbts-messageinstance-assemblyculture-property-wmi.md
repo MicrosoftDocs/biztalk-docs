@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.AssemblyCulture Property (WMI)"
 title: MSBTS_MessageInstance.AssemblyCulture Property (WMI)
 TOCTitle: MSBTS_MessageInstance.AssemblyCulture Property (WMI)
 ms:assetid: 62571a12-fbdb-416c-a979-8ed9b0d26399

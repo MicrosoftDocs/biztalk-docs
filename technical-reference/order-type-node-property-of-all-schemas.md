@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Order Type (Node Property of All Schemas)"
 title: Order Type (Node Property of All Schemas)
 TOCTitle: Order Type (Node Property of All Schemas)
 ms:assetid: c08082e1-4ee8-4b13-90d8-ec920b95eda5

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Positional Offset (Node Property of Flat File Schemas)"
 title: Positional Offset (Node Property of Flat File Schemas)
 TOCTitle: Positional Offset (Node Property of Flat File Schemas)
 ms:assetid: 1ad10153-01e4-411b-a54c-5c6decc3a6a3

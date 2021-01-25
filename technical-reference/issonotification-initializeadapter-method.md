@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSONotification.InitializeAdapter Method"
 title: ISSONotification.InitializeAdapter Method
 TOCTitle: ISSONotification.InitializeAdapter Method
 ms:assetid: e8f9635f-1c64-4340-964c-f485bf17f266

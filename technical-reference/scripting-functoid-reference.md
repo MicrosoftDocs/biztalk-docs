@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Scripting Functoid Reference"
 title: Scripting Functoid Reference
 TOCTitle: Scripting Functoid Reference
 ms:assetid: d2bd405b-d432-492b-8557-de843c1c8f2f

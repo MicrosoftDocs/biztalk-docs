@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigStore Members"
 title: ISSOConfigStore Members
 TOCTitle: ISSOConfigStore Members
 ms:assetid: e8d20258-2f72-412b-a738-a60fd10e820f

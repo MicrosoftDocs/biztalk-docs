@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Policy Configuration Dialog Box"
 title: Policy Configuration Dialog Box
 TOCTitle: Policy Configuration Dialog Box
 ms:assetid: bf4a79e2-7079-414f-a3b4-af0ea5efc8b4

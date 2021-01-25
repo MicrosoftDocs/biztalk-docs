@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MsgBoxSetting.DisableNewMessagePublication Property (WMI)"
 title: MSBTS_MsgBoxSetting.DisableNewMessagePublication Property (WMI)
 TOCTitle: MSBTS_MsgBoxSetting.DisableNewMessagePublication Property (WMI)
 ms:assetid: 88490869-a061-415d-9194-95a4fdd53f14

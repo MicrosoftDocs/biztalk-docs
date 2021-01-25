@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Server (WMI)"
 title: MSBTS_Server (WMI)
 TOCTitle: MSBTS_Server (WMI)
 ms:assetid: 849d3788-2edd-4fad-a230-afbe320353c1

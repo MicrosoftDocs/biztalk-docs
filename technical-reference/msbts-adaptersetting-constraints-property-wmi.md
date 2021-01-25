@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_AdapterSetting.Constraints Property (WMI)"
 title: MSBTS_AdapterSetting.Constraints Property (WMI)
 TOCTitle: MSBTS_AdapterSetting.Constraints Property (WMI)
 ms:assetid: 13dc7518-34d3-4e67-abfa-dd7151cc1537

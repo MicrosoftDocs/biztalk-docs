@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Mapping and Installing Host Instances Using WMI"
 title: Mapping and Installing Host Instances Using WMI
 TOCTitle: Mapping and Installing Host Instances Using WMI
 ms:assetid: 67c82dc7-719e-4e75-ab00-a908240b43fa

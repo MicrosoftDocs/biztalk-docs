@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Schema File Location (Node Property of All Schemas)"
 title: Schema File Location (Node Property of All Schemas)
 TOCTitle: Schema File Location (Node Property of All Schemas)
 ms:assetid: aa6dec35-456b-4370-b8ee-30a3b28eb36e

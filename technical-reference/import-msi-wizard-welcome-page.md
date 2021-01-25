@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Import MSI Wizard, Welcome Page"
 title: Import MSI Wizard, Welcome Page
 TOCTitle: Import MSI Wizard, Welcome Page
 ms:assetid: 659a2aa8-279a-479a-bf39-9f1c1be5fe1a

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ITwoWayAsyncVoidTxn.EndTwoWayMethod Method"
 title: ITwoWayAsyncVoidTxn.EndTwoWayMethod Method
 TOCTitle: ITwoWayAsyncVoidTxn.EndTwoWayMethod Method
 ms:assetid: 77481dcd-e655-4874-9139-54f8e83c4464

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Import MSI Wizard, Import Summary Page"
 title: Import MSI Wizard, Import Summary Page
 TOCTitle: Import MSI Wizard, Import Summary Page
 ms:assetid: 515361f2-a7b7-4a6d-9997-2e9e5fa97e99

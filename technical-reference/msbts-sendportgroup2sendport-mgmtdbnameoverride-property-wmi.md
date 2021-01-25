@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPortGroup2SendPort.MgmtDbNameOverride Property (WMI)"
 title: MSBTS_SendPortGroup2SendPort.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_SendPortGroup2SendPort.MgmtDbNameOverride Property (WMI)
 ms:assetid: 4df26909-3a20-41d4-afa5-56e7c7ac2106

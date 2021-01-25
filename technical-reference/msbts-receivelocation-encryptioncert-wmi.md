@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.EncryptionCert (WMI)"
 title: MSBTS_ReceiveLocation.EncryptionCert (WMI)
 TOCTitle: MSBTS_ReceiveLocation.EncryptionCert (WMI)
 ms:assetid: 6484cfd0-20c5-4650-bb42-61f4c797bafc

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.MessageInstanceID Property (WMI)"
 title: MSBTS_MessageInstance.MessageInstanceID Property (WMI)
 TOCTitle: MSBTS_MessageInstance.MessageInstanceID Property (WMI)
 ms:assetid: ed45b52b-a871-443e-a899-133f20ac0d2a

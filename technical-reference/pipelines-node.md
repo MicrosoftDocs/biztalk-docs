@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Pipelines Node"
 title: Pipelines Node
 TOCTitle: Pipelines Node
 ms:assetid: 950ea897-f9f3-4c37-80be-b2f38ca3bd95

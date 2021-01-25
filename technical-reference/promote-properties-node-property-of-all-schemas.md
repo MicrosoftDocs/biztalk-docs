@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Promote Properties (Node Property of All Schemas)"
 title: Promote Properties (Node Property of All Schemas)
 TOCTitle: Promote Properties (Node Property of All Schemas)
 ms:assetid: 85921875-6286-4abb-a3ca-838237ec46aa

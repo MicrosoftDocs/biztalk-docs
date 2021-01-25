@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ThrottlingTrackingDataMultiplier Property (WMI)"
 title: MSBTS_HostSetting.ThrottlingTrackingDataMultiplier Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingTrackingDataMultiplier Property (WMI)
 ms:assetid: 2362aaa6-7e9e-4587-bdeb-c1019563e0c3

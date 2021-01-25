@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.AllowMultipleResponses Property (WMI)"
 title: MSBTS_HostSetting.AllowMultipleResponses Property (WMI)
 TOCTitle: MSBTS_HostSetting.AllowMultipleResponses Property (WMI)
 ms:assetid: 36b76462-1149-444e-be0e-0b67ea357367

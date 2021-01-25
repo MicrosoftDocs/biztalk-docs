@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: New Progress Stage"
 title: New Progress Stage
 TOCTitle: New Progress Stage
 ms:assetid: 8825be09-b17e-45ac-a50d-e96a18c3d1a1

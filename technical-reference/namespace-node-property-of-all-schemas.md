@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Namespace (Node Property of All Schemas)"
 title: Namespace (Node Property of All Schemas)
 TOCTitle: Namespace (Node Property of All Schemas)
 ms:assetid: b4a430b0-aeab-463e-af8c-5e9d351a57bd

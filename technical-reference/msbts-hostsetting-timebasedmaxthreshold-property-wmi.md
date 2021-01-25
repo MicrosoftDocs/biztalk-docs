@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.TimeBasedMaxThreshold Property (WMI)"
 title: MSBTS_HostSetting.TimeBasedMaxThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.TimeBasedMaxThreshold Property (WMI)
 ms:assetid: d49968f4-81c9-4ef7-aa08-a58381d80d24

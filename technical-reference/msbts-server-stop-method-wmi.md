@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Server.Stop Method (WMI)"
 title: MSBTS_Server.Stop Method (WMI)
 TOCTitle: MSBTS_Server.Stop Method (WMI)
 ms:assetid: 2b3a74f9-593d-4059-b04e-bd93fefee4a2

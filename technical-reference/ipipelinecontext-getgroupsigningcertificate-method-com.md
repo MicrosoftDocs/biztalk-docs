@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext.GetGroupSigningCertificate Method (COM)"
 title: IPipelineContext.GetGroupSigningCertificate Method (COM)
 TOCTitle: IPipelineContext.GetGroupSigningCertificate Method (COM)
 ms:assetid: dee7be36-2968-44a5-a76a-5d565d7e71dd

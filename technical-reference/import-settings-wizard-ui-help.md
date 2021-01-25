@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Import Settings Wizard UI Help"
 title: Import Settings Wizard UI Help
 TOCTitle: Import Settings Wizard UI Help
 ms:assetid: e3a732e5-3f3d-47a7-a6ed-323189e56d11

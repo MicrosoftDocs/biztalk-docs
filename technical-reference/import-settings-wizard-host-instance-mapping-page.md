@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Import Settings Wizard, Host Instance Mapping Page"
 title: Import Settings Wizard, Host Instance Mapping Page
 TOCTitle: Import Settings Wizard, Host Instance Mapping Page
 ms:assetid: 30f67bea-5f55-4682-a43c-6e8afb1f2387

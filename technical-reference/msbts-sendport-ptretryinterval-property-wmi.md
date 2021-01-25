@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.PTRetryInterval Property (WMI)"
 title: MSBTS_SendPort.PTRetryInterval Property (WMI)
 TOCTitle: MSBTS_SendPort.PTRetryInterval Property (WMI)
 ms:assetid: 6900c089-25ed-47ab-82a6-7a8643de0b3c

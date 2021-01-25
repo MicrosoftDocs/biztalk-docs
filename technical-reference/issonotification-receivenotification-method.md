@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSONotification.ReceiveNotification Method"
 title: ISSONotification.ReceiveNotification Method
 TOCTitle: ISSONotification.ReceiveNotification Method
 ms:assetid: 3de270b8-6548-4c4b-9da7-de2043d77f98

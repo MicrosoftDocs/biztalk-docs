@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDisassemblerComponent Interface (COM)"
 title: IDisassemblerComponent Interface (COM)
 TOCTitle: IDisassemblerComponent Interface (COM)
 ms:assetid: ceceb3ec-5a25-4410-82b3-8b84e2d4709d

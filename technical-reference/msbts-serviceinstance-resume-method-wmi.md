@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.Resume Method (WMI)"
 title: MSBTS_ServiceInstance.Resume Method (WMI)
 TOCTitle: MSBTS_ServiceInstance.Resume Method (WMI)
 ms:assetid: 9a6376f2-a3bc-4031-894a-9f39c075f6b8

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.ActiveStopDT Property (WMI)"
 title: MSBTS_ReceiveLocation.ActiveStopDT Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.ActiveStopDT Property (WMI)
 ms:assetid: 25148198-265f-4010-ba8e-39739d9d66de

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.DeliveryQueueSize Property (WMI)"
 title: MSBTS_HostSetting.DeliveryQueueSize Property (WMI)
 TOCTitle: MSBTS_HostSetting.DeliveryQueueSize Property (WMI)
 ms:assetid: 9be7f63e-9521-4d39-8c74-810a9b157805

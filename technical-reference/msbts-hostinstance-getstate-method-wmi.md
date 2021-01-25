@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstance.GetState Method (WMI)"
 title: MSBTS_HostInstance.GetState Method (WMI)
 TOCTitle: MSBTS_HostInstance.GetState Method (WMI)
 ms:assetid: bc8502b8-50db-47fe-b403-57a258be45f5

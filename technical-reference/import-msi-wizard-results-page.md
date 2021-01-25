@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Import MSI Wizard, Results Page"
 title: Import MSI Wizard, Results Page
 TOCTitle: Import MSI Wizard, Results Page
 ms:assetid: c764fb8b-83f0-4727-a09c-a2fc9c0ba23a

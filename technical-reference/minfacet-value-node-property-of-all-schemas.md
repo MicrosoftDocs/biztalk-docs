@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MinFacet Value (Node Property of All Schemas)"
 title: MinFacet Value (Node Property of All Schemas)
 TOCTitle: MinFacet Value (Node Property of All Schemas)
 ms:assetid: 08d59136-21f5-464d-89e9-e93fab08d23b

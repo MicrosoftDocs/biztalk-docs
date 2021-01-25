@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Resend Status Details Page UI"
 title: Resend Status Details Page UI
 TOCTitle: Resend Status Details Page UI
 ms:assetid: 5265b0b5-a5db-4a3d-9574-286fe39a0b01

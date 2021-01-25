@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Logon Credentials Dialog Box"
 title: Logon Credentials Dialog Box
 TOCTitle: Logon Credentials Dialog Box
 ms:assetid: 3a96bd80-3959-456c-b3a3-aa3ffc1a9857

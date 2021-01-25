@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Importing Data for the Cross Referencing Functoids"
 title: Importing Data for the Cross Referencing Functoids
 TOCTitle: Importing Data for the Cross Referencing Functoids
 ms:assetid: 9eb847a6-bc9c-4459-8c8b-c7286c69c642

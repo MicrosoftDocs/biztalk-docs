@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitterBatch.Clear Method (COM)"
 title: IBTTransmitterBatch.Clear Method (COM)
 TOCTitle: IBTTransmitterBatch.Clear Method (COM)
 ms:assetid: 241f001a-46eb-4668-b652-ac2eed962501

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstance.ServiceState Property (WMI)"
 title: MSBTS_HostInstance.ServiceState Property (WMI)
 TOCTitle: MSBTS_HostInstance.ServiceState Property (WMI)
 ms:assetid: 982db257-a2b7-4a39-994e-46d7cf333ea5

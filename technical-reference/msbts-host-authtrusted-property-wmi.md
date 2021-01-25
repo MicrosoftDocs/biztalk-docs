@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Host.AuthTrusted Property (WMI)"
 title: MSBTS_Host.AuthTrusted Property (WMI)
 TOCTitle: MSBTS_Host.AuthTrusted Property (WMI)
 ms:assetid: a5cdb4fc-aa4d-4b27-845d-d93b4dc590c6

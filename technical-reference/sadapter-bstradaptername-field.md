@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SAdapter.bstrAdapterName Field"
 title: SAdapter.bstrAdapterName Field
 TOCTitle: SAdapter.bstrAdapterName Field
 ms:assetid: aa93d291-eb47-47cc-af08-171a765f14eb

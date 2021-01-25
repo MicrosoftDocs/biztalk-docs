@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTBatchTransmitter.GetBatch Method (COM)"
 title: IBTBatchTransmitter.GetBatch Method (COM)
 TOCTitle: IBTBatchTransmitter.GetBatch Method (COM)
 ms:assetid: 36be99fb-e7b0-442a-b487-e8e64dbb79d1

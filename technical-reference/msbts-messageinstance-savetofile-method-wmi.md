@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.SaveToFile Method (WMI)"
 title: MSBTS_MessageInstance.SaveToFile Method (WMI)
 TOCTitle: MSBTS_MessageInstance.SaveToFile Method (WMI)
 ms:assetid: 7758e76b-a0e6-4830-9974-b82365f03265

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitter.TransmitMessage Method (COM)"
 title: IBTTransmitter.TransmitMessage Method (COM)
 TOCTitle: IBTTransmitter.TransmitMessage Method (COM)
 ms:assetid: 58912bda-c466-4cb1-bfc9-20689be108af

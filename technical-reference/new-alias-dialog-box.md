@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: New Alias Dialog Box"
 title: New Alias Dialog Box
 TOCTitle: New Alias Dialog Box
 ms:assetid: 607f9b7f-35e8-45c0-8bcd-3e080458e06c

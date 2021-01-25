@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocationOrchestration (WMI)"
 title: MSBTS_ReceiveLocationOrchestration (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration (WMI)
 ms:assetid: 0835f43a-25ce-431d-b4ba-a1f7105d9047

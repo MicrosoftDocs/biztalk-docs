@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.Priority Property (WMI)"
 title: MSBTS_SendPort.Priority Property (WMI)
 TOCTitle: MSBTS_SendPort.Priority Property (WMI)
 ms:assetid: 6f9459d2-d351-4c0e-b215-260c52b28871

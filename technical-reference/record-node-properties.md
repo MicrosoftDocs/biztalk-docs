@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Record Node Properties"
 title: Record Node Properties
 TOCTitle: Record Node Properties
 ms:assetid: 61d5b2f6-b600-437a-8031-f66d05f131d4

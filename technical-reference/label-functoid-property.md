@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Label (Functoid Property)"
 title: Label (Functoid Property)
 TOCTitle: Label (Functoid Property)
 ms:assetid: 1677ba7d-56da-4ebb-9d0d-8cde865aad71

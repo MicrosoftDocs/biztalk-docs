@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Select Schema Dialog Box"
 title: Select Schema Dialog Box
 TOCTitle: Select Schema Dialog Box
 ms:assetid: ac55e958-520b-4fdb-ba48-e60108157aee

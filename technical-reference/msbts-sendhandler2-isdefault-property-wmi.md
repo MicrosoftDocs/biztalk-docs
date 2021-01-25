@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendHandler2.IsDefault Property (WMI)"
 title: MSBTS_SendHandler2.IsDefault Property (WMI)
 TOCTitle: MSBTS_SendHandler2.IsDefault Property (WMI)
 ms:assetid: fb3441a8-187d-4a4b-888a-387093c58c33

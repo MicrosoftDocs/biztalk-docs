@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Setting (WMI)"
 title: MSBTS_Setting (WMI)
 TOCTitle: MSBTS_Setting (WMI)
 ms:assetid: 1a3b6d20-ae8a-49ba-89a9-e927f5c4d34c

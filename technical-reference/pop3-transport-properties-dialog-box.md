@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: POP3 Transport Properties Dialog Box"
 title: POP3 Transport Properties Dialog Box
 TOCTitle: POP3 Transport Properties Dialog Box
 ms:assetid: 7a8f6bc5-2af2-4fd7-abbc-865f9995d60a

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IProbeMessage Methods (COM)"
 title: IProbeMessage Methods (COM)
 TOCTitle: IProbeMessage Methods (COM)
 ms:assetid: e96cc7cf-b172-40a0-818f-575734a4f743

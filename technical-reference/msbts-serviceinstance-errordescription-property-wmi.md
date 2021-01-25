@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.ErrorDescription Property (WMI)"
 title: MSBTS_ServiceInstance.ErrorDescription Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.ErrorDescription Property (WMI)
 ms:assetid: 7e0f8101-360b-4ee5-9269-9e8635acf2c5

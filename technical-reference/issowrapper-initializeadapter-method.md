@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOWrapper.InitializeAdapter Method"
 title: ISSOWrapper.InitializeAdapter Method
 TOCTitle: ISSOWrapper.InitializeAdapter Method
 ms:assetid: 70c6acf1-98a7-486c-bb97-3cb1200b7616

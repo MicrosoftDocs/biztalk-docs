@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.InboundAddressableURL Property (WMI)"
 title: MSBTS_ReceiveLocation.InboundAddressableURL Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.InboundAddressableURL Property (WMI)
 ms:assetid: 396a28bc-5f53-4e24-be7f-7dc12d77140f

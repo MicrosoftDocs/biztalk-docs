@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IProbeMessage.Probe Method (COM)"
 title: IProbeMessage.Probe Method (COM)
 TOCTitle: IProbeMessage.Probe Method (COM)
 ms:assetid: 1fefbfe0-0eb4-4544-88a5-96164bfdd25f

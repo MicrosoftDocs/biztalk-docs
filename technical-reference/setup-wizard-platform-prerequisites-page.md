@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Setup Wizard, Platform Prerequisites Page"
 title: Setup Wizard, Platform Prerequisites Page
 TOCTitle: Setup Wizard, Platform Prerequisites Page
 ms:assetid: 2ece0cbe-9be6-420c-974a-efe00b8be827

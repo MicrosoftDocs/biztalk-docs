@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Host.Name Property (WMI)"
 title: MSBTS_Host.Name Property (WMI)
 TOCTitle: MSBTS_Host.Name Property (WMI)
 ms:assetid: 296f8fea-fc9e-49e0-a46c-3403f7d7d038

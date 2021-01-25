@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOPSWrapper Interface (COM)"
 title: ISSOPSWrapper Interface (COM)
 TOCTitle: ISSOPSWrapper Interface (COM)
 ms:assetid: 05f46e79-a404-43e7-93e2-bccfc692aac6

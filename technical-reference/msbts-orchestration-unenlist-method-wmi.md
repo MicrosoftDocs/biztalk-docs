@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.Unenlist Method (WMI)"
 title: MSBTS_Orchestration.Unenlist Method (WMI)
 TOCTitle: MSBTS_Orchestration.Unenlist Method (WMI)
 ms:assetid: fe227bda-072e-486d-8ebd-eada8ea6390c

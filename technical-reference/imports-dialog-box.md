@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Imports Dialog Box"
 title: Imports Dialog Box
 TOCTitle: Imports Dialog Box
 ms:assetid: e4b631b1-de82-4ff2-aff9-9cc88e6ac652

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Sequence Group Node Properties"
 title: Sequence Group Node Properties
 TOCTitle: Sequence Group Node Properties
 ms:assetid: f9d6a1c2-d85b-416c-b77a-0acc48bc6049

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Node Name (Node Property of All Schemas)"
 title: Node Name (Node Property of All Schemas)
 TOCTitle: Node Name (Node Property of All Schemas)
 ms:assetid: 32930e41-ce2a-4161-9696-e5865099ac9a

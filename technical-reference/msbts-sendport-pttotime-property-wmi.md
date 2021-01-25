@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.PTToTime Property (WMI)"
 title: MSBTS_SendPort.PTToTime Property (WMI)
 TOCTitle: MSBTS_SendPort.PTToTime Property (WMI)
 ms:assetid: c8049fac-7aae-4f40-af14-95fe2b9a94aa

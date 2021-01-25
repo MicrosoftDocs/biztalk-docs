@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapping Properties"
 title: ISSOMapping Properties
 TOCTitle: ISSOMapping Properties
 ms:assetid: d5143619-34c9-4e0d-a7fd-f16ff2e61a09

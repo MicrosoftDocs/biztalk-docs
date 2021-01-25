@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigStore::DeleteConfigInfo"
 title: ISSOConfigStore::DeleteConfigInfo
 TOCTitle: ISSOConfigStore::DeleteConfigInfo
 ms:assetid: 8b6abd92-6108-4c16-a075-7306f9381f34

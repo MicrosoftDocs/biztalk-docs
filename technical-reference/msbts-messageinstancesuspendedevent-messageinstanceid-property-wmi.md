@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstanceSuspendedEvent.MessageInstanceID Property (WMI)"
 title: MSBTS_MessageInstanceSuspendedEvent.MessageInstanceID Property (WMI)
 TOCTitle: MSBTS_MessageInstanceSuspendedEvent.MessageInstanceID Property (WMI)
 ms:assetid: 49b2dab2-9b8f-441e-860d-af1d8bb43c23

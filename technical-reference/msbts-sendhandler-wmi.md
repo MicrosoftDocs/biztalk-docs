@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendHandler (WMI)"
 title: MSBTS_SendHandler (WMI)
 TOCTitle: MSBTS_SendHandler (WMI)
 ms:assetid: e7bdf055-500c-47ea-8392-0798e2e9a9e0

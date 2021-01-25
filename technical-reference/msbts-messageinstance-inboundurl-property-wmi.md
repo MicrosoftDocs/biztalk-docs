@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.InboundURL Property (WMI)"
 title: MSBTS_MessageInstance.InboundURL Property (WMI)
 TOCTitle: MSBTS_MessageInstance.InboundURL Property (WMI)
 ms:assetid: 48bc2195-dfc6-462c-a442-51d1e94404b4

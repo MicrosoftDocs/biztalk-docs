@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstanceSuspendedEvent.HostName Property (WMI)"
 title: MSBTS_ServiceInstanceSuspendedEvent.HostName Property (WMI)
 TOCTitle: MSBTS_ServiceInstanceSuspendedEvent.HostName Property (WMI)
 ms:assetid: 4b1ba4f8-408d-4170-a328-2a2e37ccc135

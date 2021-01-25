@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigStore Interface (COM)"
 title: ISSOConfigStore Interface (COM)
 TOCTitle: ISSOConfigStore Interface (COM)
 ms:assetid: 8be0fe6f-2a5d-4728-93d8-10283793f73c

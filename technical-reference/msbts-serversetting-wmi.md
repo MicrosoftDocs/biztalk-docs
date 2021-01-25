@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServerSetting (WMI)"
 title: MSBTS_ServerSetting (WMI)
 TOCTitle: MSBTS_ServerSetting (WMI)
 ms:assetid: 586cfcb0-3aff-429d-8b18-bad01c04c7ac

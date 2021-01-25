@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportBatch Members (COM)"
 title: IBTTransportBatch Members (COM)
 TOCTitle: IBTTransportBatch Members (COM)
 ms:assetid: 59bb0b1f-6599-426b-858b-ddf2bd733d26

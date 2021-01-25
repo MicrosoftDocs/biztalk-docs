@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Service (WMI)"
 title: MSBTS_Service (WMI)
 TOCTitle: MSBTS_Service (WMI)
 ms:assetid: 0a91ad1e-02b1-40ab-b7ba-ca415addd4fc

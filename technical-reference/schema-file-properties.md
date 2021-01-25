@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Schema File Properties"
 title: Schema File Properties
 TOCTitle: Schema File Properties
 ms:assetid: c4f2236e-d11c-4327-b54a-3190dbf5959f

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOAdmin Methods"
 title: ISSOAdmin Methods
 TOCTitle: ISSOAdmin Methods
 ms:assetid: 1cb93e3a-1c9a-4914-ac0e-d1e3b97a25f0

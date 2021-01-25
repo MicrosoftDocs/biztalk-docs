@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstanceSetting.RunningServer Property (WMI)"
 title: MSBTS_HostInstanceSetting.RunningServer Property (WMI)
 TOCTitle: MSBTS_HostInstanceSetting.RunningServer Property (WMI)
 ms:assetid: ac6d00eb-7e3e-4a99-8f51-7f6688ec0e4a

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyCulture Property (WMI)"
 title: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyCulture Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyCulture Property (WMI)
 ms:assetid: 8fee02af-71a5-4736-a7ee-dbe5894005fe

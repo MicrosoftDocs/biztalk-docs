@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportProxy.GetBatch Method (COM)"
 title: IBTTransportProxy.GetBatch Method (COM)
 TOCTitle: IBTTransportProxy.GetBatch Method (COM)
 ms:assetid: 484a32a6-be4c-4d6e-8457-2a6e94996daf

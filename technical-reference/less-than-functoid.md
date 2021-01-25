@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Less Than Functoid"
 title: Less Than Functoid
 TOCTitle: Less Than Functoid
 ms:assetid: aff55d95-e5d0-496a-9546-a7a7f6dfe13d

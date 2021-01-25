@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.OperatingWindowEnabled (WMI)"
 title: MSBTS_ReceiveLocation.OperatingWindowEnabled (WMI)
 TOCTitle: MSBTS_ReceiveLocation.OperatingWindowEnabled (WMI)
 ms:assetid: a4c5f567-be5a-4154-94c0-99e5b92ea778

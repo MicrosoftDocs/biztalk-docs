@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBasePropertyBag.ReadAt Method (COM)"
 title: IBasePropertyBag.ReadAt Method (COM)
 TOCTitle: IBasePropertyBag.ReadAt Method (COM)
 ms:assetid: 631c5fb0-1dd7-4e17-8b4e-1186c521c309

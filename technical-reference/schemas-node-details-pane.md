@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Schemas Node, Details Pane"
 title: Schemas Node, Details Pane
 TOCTitle: Schemas Node, Details Pane
 ms:assetid: 89410bc8-e2cb-4cbf-b512-72df5db8dbc2

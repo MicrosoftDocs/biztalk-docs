@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.HostTracking Property (WMI)"
 title: MSBTS_HostSetting.HostTracking Property (WMI)
 TOCTitle: MSBTS_HostSetting.HostTracking Property (WMI)
 ms:assetid: 79ed61fe-8cc3-44f6-aeb6-22cd460ebfcd

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDocumentSpec.DocSpecName Property (COM)"
 title: IDocumentSpec.DocSpecName Property (COM)
 TOCTitle: IDocumentSpec.DocSpecName Property (COM)
 ms:assetid: a21fdd1d-04ec-4a32-9d4f-2162c786cb66

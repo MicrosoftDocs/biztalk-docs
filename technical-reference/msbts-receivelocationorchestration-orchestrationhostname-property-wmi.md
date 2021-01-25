@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocationOrchestration.OrchestrationHostName Property (WMI)"
 title: MSBTS_ReceiveLocationOrchestration.OrchestrationHostName Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.OrchestrationHostName Property (WMI)
 ms:assetid: 24626405-43ee-4640-8045-edeb2319e606

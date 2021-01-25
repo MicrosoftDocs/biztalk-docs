@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Max Occurs (Node Property of All Schemas)"
 title: Max Occurs (Node Property of All Schemas)
 TOCTitle: Max Occurs (Node Property of All Schemas)
 ms:assetid: 0ecf0ff2-26c3-4420-951c-a09f763b7c3d

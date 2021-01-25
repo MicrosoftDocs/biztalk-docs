@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MQSeries Transport Properties Dialog Box, Send"
 title: MQSeries Transport Properties Dialog Box, Send
 TOCTitle: MQSeries Transport Properties Dialog Box, Send
 ms:assetid: 5a9ae8e2-9d5c-411e-b9b6-7f625c26a082

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.InboundAdapterName Property (WMI)"
 title: MSBTS_MessageInstance.InboundAdapterName Property (WMI)
 TOCTitle: MSBTS_MessageInstance.InboundAdapterName Property (WMI)
 ms:assetid: fd15d785-c49d-4e0e-86d5-8d204131b1c3

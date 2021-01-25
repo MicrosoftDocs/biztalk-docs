@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.MessageDeliveryMaximumDelay Property (WMI)"
 title: MSBTS_HostSetting.MessageDeliveryMaximumDelay Property (WMI)
 TOCTitle: MSBTS_HostSetting.MessageDeliveryMaximumDelay Property (WMI)
 ms:assetid: 4f793f5a-d71d-42f1-a047-0cd345446268

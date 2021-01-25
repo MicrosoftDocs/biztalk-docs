@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.ActiveStartDT Property (WMI)"
 title: MSBTS_ReceiveLocation.ActiveStartDT Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.ActiveStartDT Property (WMI)
 ms:assetid: fa70e779-7d3d-43b5-9dd9-3b7fba6d8358

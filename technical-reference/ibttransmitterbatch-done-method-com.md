@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitterBatch.Done Method (COM)"
 title: IBTTransmitterBatch.Done Method (COM)
 TOCTitle: IBTTransmitterBatch.Done Method (COM)
 ms:assetid: b3a11a9b-de6a-494a-9335-47678c20a510

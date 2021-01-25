@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapper.GetMappingsForWindowsUser Method"
 title: ISSOMapper.GetMappingsForWindowsUser Method
 TOCTitle: ISSOMapper.GetMappingsForWindowsUser Method
 ms:assetid: fde9d47f-7f64-4529-a687-3266fd57b8d6

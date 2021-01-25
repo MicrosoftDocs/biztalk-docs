@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Root Reference (Node Property of All Schemas)"
 title: Root Reference (Node Property of All Schemas)
 TOCTitle: Root Reference (Node Property of All Schemas)
 ms:assetid: 66ec55e0-e634-4ce0-8eb8-711b638f6272
