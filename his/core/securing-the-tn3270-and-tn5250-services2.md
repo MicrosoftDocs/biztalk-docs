@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Securing the TN3270 and TN5250 Services"
 title: "Securing the TN3270 and TN5250 Services2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

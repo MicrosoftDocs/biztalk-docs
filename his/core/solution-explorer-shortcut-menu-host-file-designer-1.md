@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Solution Explorer Shortcut Menu (Host File Designer)"
 title: "Solution Explorer Shortcut Menu (Host File Designer)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

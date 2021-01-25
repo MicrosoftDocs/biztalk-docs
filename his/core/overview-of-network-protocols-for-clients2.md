@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Overview of Network Protocols for Clients"
 title: "Overview of Network Protocols for Clients2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

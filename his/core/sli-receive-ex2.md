@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SLI_RECEIVE_EX"
 title: "SLI_RECEIVE_EX2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

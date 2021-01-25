@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Network Integration Programmer's Reference"
 title: "Network Integration Programmer's Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

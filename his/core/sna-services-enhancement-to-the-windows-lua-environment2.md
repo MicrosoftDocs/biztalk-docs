@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA Services Enhancement to the Windows LUA Environment"
 title: "SNA Services Enhancement to the Windows LUA Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

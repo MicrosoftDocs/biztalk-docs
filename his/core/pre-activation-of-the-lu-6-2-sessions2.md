@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Pre-Activation of the LU 6.2 Sessions"
 title: "Pre-Activation of the LU 6.2 Sessions2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

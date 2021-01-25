@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_Domain Class"
 title: "MsSna_Domain Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

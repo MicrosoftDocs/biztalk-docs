@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session Support"
 title: "Session Support1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_LinkService_IpDlc.GetAllNetworkAdapters Method"
 title: "MsSna_LinkService_IpDlc.GetAllNetworkAdapters Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

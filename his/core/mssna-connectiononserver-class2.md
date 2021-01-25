@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_ConnectionOnServer Class"
 title: "MsSna_ConnectionOnServer Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

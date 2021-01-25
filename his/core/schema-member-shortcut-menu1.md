@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Schema Member Shortcut Menu"
 title: "Schema Member Shortcut Menu1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Path Errors (Category X&#39;80&#39;)"
 title: "Path Errors (Category X&#39;80&#39;)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

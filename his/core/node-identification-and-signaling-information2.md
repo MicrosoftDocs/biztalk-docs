@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Node Identification and Signaling Information"
 title: "Node Identification and Signaling Information2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

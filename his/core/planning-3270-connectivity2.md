@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning 3270 Connectivity"
 title: "Planning 3270 Connectivity2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

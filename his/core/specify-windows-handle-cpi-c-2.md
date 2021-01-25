@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Specify_Windows_Handle (CPI-C)"
 title: "Specify_Windows_Handle (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA Concepts"
 title: "LUA Concepts2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

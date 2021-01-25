@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Paths and DMODs"
 title: "Paths and DMODs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

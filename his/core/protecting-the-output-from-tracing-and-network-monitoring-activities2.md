@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Protecting the Output from Tracing and Network Monitoring Activities"
 title: "Protect the Tracing and Network Monitoring output | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

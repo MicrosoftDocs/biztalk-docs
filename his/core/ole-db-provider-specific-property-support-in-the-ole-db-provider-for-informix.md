@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OLE DB Provider-Specific Property Support in the OLE DB Provider for Informix"
 title: "OLE DB Provider-Specific Property Support in the OLE DB Provider for Informix | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

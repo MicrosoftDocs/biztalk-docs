@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SLI_PURGE"
 title: "SLI_PURGE1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

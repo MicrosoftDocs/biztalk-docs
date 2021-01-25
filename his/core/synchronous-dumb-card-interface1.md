@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Synchronous Dumb Card Interface"
 title: "Synchronous Dumb Card Interface1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

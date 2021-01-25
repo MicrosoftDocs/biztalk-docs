@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Precedence of Accounts in Determining Default LUs"
 title: "Precedence of Accounts in Determining Default LUs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

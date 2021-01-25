@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA_EXT_ENTRY"
 title: "LUA_EXT_ENTRY2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

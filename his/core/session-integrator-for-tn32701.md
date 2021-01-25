@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session Integrator for TN3270"
 title: "Session Integrator for TN32701 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

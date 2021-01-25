@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Static SQL for DB2 Troubleshooting"
 title: "Static SQL for DB2 Troubleshooting | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

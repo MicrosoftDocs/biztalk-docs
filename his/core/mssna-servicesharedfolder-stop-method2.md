@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_ServiceSharedFolder.Stop Method"
 title: "MsSna_ServiceSharedFolder.Stop Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

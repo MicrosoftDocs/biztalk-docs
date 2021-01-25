@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA Print Server Data Filter Programmer&#39;s Security Guide"
 title: "SNA Print Server Data Filter Programmer&#39;s Security Guide1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

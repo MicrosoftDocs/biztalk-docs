@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Recordset Columns Wizard Page"
 title: "Recordset Columns Wizard Page2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

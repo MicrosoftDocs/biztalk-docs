@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_PoolDisplayAssignedToWorkstation Class"
 title: "MsSna_PoolDisplayAssignedToWorkstation Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

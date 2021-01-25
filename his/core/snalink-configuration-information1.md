@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNALink Configuration Information"
 title: "SNALink Configuration Information1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

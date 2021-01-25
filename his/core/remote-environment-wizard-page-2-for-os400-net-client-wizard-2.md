@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Remote Environment Wizard Page 2 (for OS400) (.NET Client Wizard)"
 title: "Remote Environment Wizard Page 2 (for OS400) (.NET Client Wizard)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

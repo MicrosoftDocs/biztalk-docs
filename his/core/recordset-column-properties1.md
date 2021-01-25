@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Recordset Column Properties"
 title: "Recordset Column Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

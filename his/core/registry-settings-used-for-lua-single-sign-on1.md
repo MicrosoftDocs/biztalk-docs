@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Registry Settings Used for LUA Single Sign-On"
 title: "Registry Settings Used for LUA Single Sign-On1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

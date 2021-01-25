@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Printer Definition Files"
 title: "Printer Definition Files2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

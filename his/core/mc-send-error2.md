@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MC_SEND_ERROR"
 title: "MC_SEND_ERROR2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

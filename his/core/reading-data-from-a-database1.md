@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Read Data from a Database"
 title: "Read Data from a Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

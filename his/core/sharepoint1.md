@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SharePoint as a data source - HIS"
 title: "SharePoint data source | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

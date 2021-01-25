@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sending or Receiving a File"
 title: "Sending or Receiving a File1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

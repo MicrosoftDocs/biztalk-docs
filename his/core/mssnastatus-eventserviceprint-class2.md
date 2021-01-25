@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_EventServicePrint Class"
 title: "MsSnaStatus_EventServicePrint Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

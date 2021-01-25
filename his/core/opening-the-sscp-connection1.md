@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Opening the SSCP Connection"
 title: "Opening the SSCP Connection1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

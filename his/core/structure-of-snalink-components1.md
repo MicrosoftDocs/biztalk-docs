@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Structure of SNALink Components"
 title: "Structure of SNALink Components1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

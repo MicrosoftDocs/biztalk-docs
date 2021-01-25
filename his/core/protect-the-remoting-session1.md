@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Protect the Remoting Session"
 title: "Protect the Remoting Session1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

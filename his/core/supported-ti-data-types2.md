@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Supported TI Data Types"
 title: "Supported TI Data Types2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

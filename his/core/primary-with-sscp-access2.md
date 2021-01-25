@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Primary with SSCP Access"
 title: "Primary with SSCP Access2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

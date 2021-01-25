@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Request Errors (Category X&#39;10&#39;)"
 title: "Request Errors (Category X&#39;10&#39;)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

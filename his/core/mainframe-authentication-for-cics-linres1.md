@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mainframe Authentication for CICS LINREs"
 title: "Mainframe Authentication for CICS LINREs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

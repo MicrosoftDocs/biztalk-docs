@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Descriptor Properties"
 title: "Message Descriptor Properties2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

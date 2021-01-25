@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_ConfiguredUser Class"
 title: "MsSna_ConfiguredUser Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

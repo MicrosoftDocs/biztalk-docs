@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receiving Messages with Transaction Integrator for LU0"
 title: "Receiving Messages with Transaction Integrator for LU01 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

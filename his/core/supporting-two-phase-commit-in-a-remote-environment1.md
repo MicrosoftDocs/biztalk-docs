@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Supporting Two-Phase Commit in a Remote Environment"
 title: "Supporting Two-Phase Commit in a Remote Environment1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

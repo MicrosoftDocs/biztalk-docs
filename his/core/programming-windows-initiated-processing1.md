@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Programming Windows-Initiated Processing"
 title: "Programming Windows-Initiated Processing1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

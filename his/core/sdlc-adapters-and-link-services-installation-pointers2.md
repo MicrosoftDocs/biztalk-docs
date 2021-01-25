@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SDLC Adapters and Link Services: Installation Pointers"
 title: "SDLC Adapters and Link Services: Installation Pointers2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

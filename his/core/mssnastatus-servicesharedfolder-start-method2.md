@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_ServiceSharedFolder.Start Method"
 title: "MsSnaStatus_ServiceSharedFolder.Start Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

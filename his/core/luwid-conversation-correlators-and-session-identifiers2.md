@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUWID, Conversation Correlators, and Session Identifiers"
 title: "LUWID, Conversation Correlators, and Session Identifiers2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

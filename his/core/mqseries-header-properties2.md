@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MQSeries Header Properties"
 title: "MQSeries Header Properties2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

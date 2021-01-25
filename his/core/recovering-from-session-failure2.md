@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Recovering from SESSION_FAILURE"
 title: "Recovering from SESSION_FAILURE2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

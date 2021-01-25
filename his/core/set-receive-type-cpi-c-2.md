@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Set_Receive_Type (CPI-C)"
 title: "Set_Receive_Type (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Presentation Header Support in Data Transfers"
 title: "Presentation Header Support in Data Transfers2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

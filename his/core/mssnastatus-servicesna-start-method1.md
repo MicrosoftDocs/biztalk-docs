@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_ServiceSna.Start Method"
 title: "MsSnaStatus_ServiceSna.Start Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

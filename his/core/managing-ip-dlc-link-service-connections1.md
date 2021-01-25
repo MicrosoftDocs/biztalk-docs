@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing IP-DLC Link Service Connections"
 title: "Managing IP-DLC Link Service Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

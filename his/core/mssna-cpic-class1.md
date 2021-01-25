@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_Cpic Class"
 title: "MsSna_Cpic Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

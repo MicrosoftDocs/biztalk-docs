@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_Lu3270ToActiveUser Class"
 title: "MsSnaStatus_Lu3270ToActiveUser Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

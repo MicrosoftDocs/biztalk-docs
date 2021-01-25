@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RUI_BID"
 title: "RUI_BID1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

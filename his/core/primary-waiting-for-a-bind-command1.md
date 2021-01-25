@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Primary Waiting for a BIND Command"
 title: "Primary Waiting for a BIND Command1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_ServiceTN5250 Class"
 title: "MsSnaStatus_ServiceTN5250 Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

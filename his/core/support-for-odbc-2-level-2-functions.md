@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for ODBC 2 Level 2 Functions"
 title: "Support for ODBC 2 Level 2 Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

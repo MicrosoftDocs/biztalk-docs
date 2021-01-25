@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sending Backout on Sync Point Conversations"
 title: "Sending Backout on Sync Point Conversations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

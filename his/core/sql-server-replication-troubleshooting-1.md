@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SQL Server Replication (Troubleshooting)"
 title: "SQL Server Replication (Troubleshooting)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

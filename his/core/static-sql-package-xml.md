@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Static SQL Package XML"
 title: "Static SQL Package XML | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

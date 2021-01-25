@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server Configuration Setup Problems"
 title: "Server Configuration Setup Problems2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

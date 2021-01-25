@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Opening the STATION LPI Connection"
 title: "Opening the STATION LPI Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

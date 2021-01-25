@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_AdapterOnMachine Class"
 title: "MsSna_AdapterOnMachine Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

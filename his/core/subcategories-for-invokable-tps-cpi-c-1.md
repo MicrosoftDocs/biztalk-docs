@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Subcategories for Invokable TPs (CPI-C)"
 title: "Subcategories for Invokable TPs (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

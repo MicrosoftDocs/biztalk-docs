@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server Properties: SSO Database"
 title: "Server Properties: SSO Database1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

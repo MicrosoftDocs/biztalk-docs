@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_LuPrint Class"
 title: "MsSna_LuPrint Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

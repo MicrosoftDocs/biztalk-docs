@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Parameters and the DB2 DataAdapter"
 title: "Parameters and the DB2 DataAdapter1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

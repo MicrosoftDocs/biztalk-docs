@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for APPC Automatic Logon"
 title: "Support for APPC Automatic Logon2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

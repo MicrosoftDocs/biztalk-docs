@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA Programmer's Guide"
 title: "LUA Programmer's Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

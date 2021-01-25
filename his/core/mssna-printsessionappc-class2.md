@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_PrintSessionAppc Class"
 title: "MsSna_PrintSessionAppc Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

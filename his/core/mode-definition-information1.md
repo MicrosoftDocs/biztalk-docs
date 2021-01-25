@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mode Definition Information"
 title: "Mode Definition Information1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

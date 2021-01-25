@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mainframe Authentication for CICS LINK"
 title: "Mainframe Authentication for CICS LINK1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

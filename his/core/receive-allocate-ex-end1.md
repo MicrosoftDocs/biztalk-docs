@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RECEIVE_ALLOCATE_EX_END"
 title: "RECEIVE_ALLOCATE_EX_END1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

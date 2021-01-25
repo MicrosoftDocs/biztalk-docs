@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Structure of 3270 Client Access Components"
 title: "Structure of 3270 Client Access Components2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

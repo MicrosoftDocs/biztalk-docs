@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNAGetPerfValues"
 title: "SNAGetPerfValues1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

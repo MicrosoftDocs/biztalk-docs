@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Non-transactional Data Flows That Support Bounded Recordsets"
 title: "Non-transactional Data Flows That Support Bounded Recordsets2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

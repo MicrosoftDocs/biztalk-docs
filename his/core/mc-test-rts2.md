@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MC_TEST_RTS"
 title: "MC_TEST_RTS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

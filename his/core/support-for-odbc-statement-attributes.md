@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for ODBC Statement Attributes"
 title: "Support for ODBC Statement Attributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

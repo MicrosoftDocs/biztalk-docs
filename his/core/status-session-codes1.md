@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Status-Session Codes"
 title: "Status-Session Codes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

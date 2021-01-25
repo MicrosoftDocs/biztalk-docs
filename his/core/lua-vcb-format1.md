@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA VCB Format"
 title: "LUA VCB Format1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsHisTrace_SNAMngAgent Class"
 title: "MsHisTrace_SNAMngAgent Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

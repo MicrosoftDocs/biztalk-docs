@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sync Point Functional Overview"
 title: "Sync Point Functional Overview2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

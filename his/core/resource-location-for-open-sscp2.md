@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Resource Location for Open SSCP"
 title: "Resource Location for Open SSCP2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

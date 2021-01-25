@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Method Properties"
 title: "Method Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Protect the Raw User Data"
 title: "Protect the Raw User Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

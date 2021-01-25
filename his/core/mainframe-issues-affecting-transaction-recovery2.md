@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mainframe Issues Affecting Transaction Recovery"
 title: "Mainframe Issues Affecting Transaction Recovery2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

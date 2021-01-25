@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Printing the Screen (3270)"
 title: "Printing the Screen (3270)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Print Service Properties"
 title: "Print Service Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

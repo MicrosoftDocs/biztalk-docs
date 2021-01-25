@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA_ExtendedStatus Class"
 title: "SNA_ExtendedStatus Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

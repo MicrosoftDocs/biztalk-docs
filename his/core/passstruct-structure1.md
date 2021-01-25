@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PASSSTRUCT structure"
 title: "PASSSTRUCT structure1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Code for SNALinkDispatchProc"
 title: "Sample Code for SNALinkDispatchProc2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

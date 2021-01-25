@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA Trace Utility Fundamentals"
 title: "SNA Trace Utility Fundamentals1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

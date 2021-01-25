@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sign-On Errors"
 title: "Sign-On Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

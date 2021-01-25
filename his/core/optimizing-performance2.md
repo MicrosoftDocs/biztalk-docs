@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optimizing Performance"
 title: "Optimizing Performance2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

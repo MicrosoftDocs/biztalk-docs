@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SQL Parsing in the Managed Data Provider for Host Files"
 title: "SQL Parsing in the Managed Data Provider for Host Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

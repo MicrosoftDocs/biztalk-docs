@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server Authentication"
 title: "Server Authentication1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

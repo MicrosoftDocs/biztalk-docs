@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Negotiable Link Roles"
 title: "Negotiable Link Roles1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

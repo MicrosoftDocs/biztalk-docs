@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample TPs Illustrating Fundamental Concepts"
 title: "Sample TPs Illustrating Fundamental Concepts2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

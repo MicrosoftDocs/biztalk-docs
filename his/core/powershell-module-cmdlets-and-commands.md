@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PowerShell Module Cmdlets and Commands"
 title: "PowerShell Module Cmdlets and Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

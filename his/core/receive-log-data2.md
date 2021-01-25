@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RECEIVE_LOG_DATA"
 title: "RECEIVE_LOG_DATA2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

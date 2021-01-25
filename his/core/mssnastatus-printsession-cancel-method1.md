@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_PrintSession.Cancel Method"
 title: "MsSnaStatus_PrintSession.Cancel Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

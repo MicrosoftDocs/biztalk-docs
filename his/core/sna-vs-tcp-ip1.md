@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA vs. TCP/IP"
 title: "SNA vs. TCP-IP1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

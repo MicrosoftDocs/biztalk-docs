@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Protect the Client Proxy"
 title: "Protect the Client Proxy1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

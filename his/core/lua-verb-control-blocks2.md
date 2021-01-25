@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA Verb Control Blocks"
 title: "LUA Verb Control Blocks2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

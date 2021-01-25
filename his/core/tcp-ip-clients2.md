@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TCP/IP Clients"
 title: "TCP-IP Clients2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

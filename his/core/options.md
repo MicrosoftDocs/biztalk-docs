@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: options"
 title: "options | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

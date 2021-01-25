@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for 3270 Single Sign-On"
 title: "Support for 3270 Single Sign-On2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

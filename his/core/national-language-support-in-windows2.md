@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: National Language Support in Windows"
 title: "National Language Support in Windows2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

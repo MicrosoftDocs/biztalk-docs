@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Snacfg LINK"
 title: "Snacfg LINK2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Obtaining Schema Information from the Managed Provider for DB2"
 title: "Obtaining Schema Information from the Managed Provider for DB22 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MC_RECEIVE_AND_WAIT"
 title: "MC_RECEIVE_AND_WAIT2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

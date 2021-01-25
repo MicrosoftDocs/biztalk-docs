@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Request Reject (Category X&#39;08&#39;)"
 title: "Request Reject (Category X&#39;08&#39;)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

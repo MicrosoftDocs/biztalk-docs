@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Protect Mainframe Security Credentials from Being Overridden"
 title: "Protect Mainframe Security Credentials from Being Overridden1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

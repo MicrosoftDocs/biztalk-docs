@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA Trace Provider WMI Programmer’s Reference"
 title: "SNA Trace Provider WMI Programmer’s Reference1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

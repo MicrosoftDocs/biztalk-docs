@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rejecting Remotely Initiated Conversations"
 title: "Rejecting Remotely Initiated Conversations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

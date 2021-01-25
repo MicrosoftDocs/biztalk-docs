@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SDLC Alert Local Logging"
 title: "SDLC Alert Local Logging1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

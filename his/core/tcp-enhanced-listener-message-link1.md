@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TCP Enhanced Listener Message Link"
 title: "TCP Enhanced Listener Message Link1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

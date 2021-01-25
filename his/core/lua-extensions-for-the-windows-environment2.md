@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA Extensions for the Windows Environment"
 title: "LUA Extensions for the Windows Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

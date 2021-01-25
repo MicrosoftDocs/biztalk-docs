@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PREPARE_TO_RECEIVE"
 title: "PREPARE_TO_RECEIVE2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

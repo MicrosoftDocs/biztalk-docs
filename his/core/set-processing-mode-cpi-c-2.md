@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Set_Processing_Mode (CPI-C)"
 title: "Set_Processing_Mode (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

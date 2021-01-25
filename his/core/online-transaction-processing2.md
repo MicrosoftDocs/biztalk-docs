@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Online Transaction Processing"
 title: "Online Transaction Processing2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

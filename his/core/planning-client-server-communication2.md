@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning Client/Server Communication"
 title: "Planning Client-Server Communication2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
