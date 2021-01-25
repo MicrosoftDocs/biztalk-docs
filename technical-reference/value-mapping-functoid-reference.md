@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Value Mapping Functoid Reference"
 title: Value Mapping Functoid Reference
 TOCTitle: Value Mapping Functoid Reference
 ms:assetid: e9c6e5ca-cedf-4e43-bbcc-fb8c2d880525

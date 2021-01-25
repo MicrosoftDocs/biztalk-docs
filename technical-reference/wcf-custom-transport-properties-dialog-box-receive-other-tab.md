@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-Custom Transport Properties Dialog Box, Receive, Other Tab"
 title: WCF-Custom Transport Properties Dialog Box, Receive, Other Tab
 TOCTitle: WCF-Custom Transport Properties Dialog Box, Receive, Other Tab
 ms:assetid: f28cf430-400a-4ce0-8378-f2c0f98b41f4

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Source Links (Link Property)"
 title: Source Links (Link Property)
 TOCTitle: Source Links (Link Property)
 ms:assetid: 9dc062d9-5de5-4e8f-a493-98ff4976c6b9

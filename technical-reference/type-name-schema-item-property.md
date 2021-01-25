@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Type Name (Schema Item Property)"
 title: Type Name (Schema Item Property)
 TOCTitle: Type Name (Schema Item Property)
 ms:assetid: f8a7d4d5-52c6-4df9-820b-b81358b412ab

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-NetTcp Transport Properties Dialog Box, Receive, Binding Tab"
 title: WCF-NetTcp Transport Properties Dialog Box, Receive, Binding Tab
 TOCTitle: WCF-NetTcp Transport Properties Dialog Box, Receive, Binding Tab
 ms:assetid: f7c2ca6b-ba68-47d4-88f9-847547aa22da

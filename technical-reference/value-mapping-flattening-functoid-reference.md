@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Value Mapping (Flattening) Functoid Reference"
 title: Value Mapping (Flattening) Functoid Reference
 TOCTitle: Value Mapping (Flattening) Functoid Reference
 ms:assetid: e03c96d0-9215-496b-ab53-a385f1cdcae0

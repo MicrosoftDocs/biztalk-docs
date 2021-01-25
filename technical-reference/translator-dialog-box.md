@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Translator Dialog Box"
 title: Translator Dialog Box
 TOCTitle: Translator Dialog Box
 ms:assetid: 2470adb5-b6b8-40b2-b6f4-dc72579ef389

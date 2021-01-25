@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Standard (Node Property of All Schemas)"
 title: Standard (Node Property of All Schemas)
 TOCTitle: Standard (Node Property of All Schemas)
 ms:assetid: 90378ade-fe27-42a2-bd25-0682ec51b65e

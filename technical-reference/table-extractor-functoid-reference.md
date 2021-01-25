@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Table Extractor Functoid Reference"
 title: Table Extractor Functoid Reference
 TOCTitle: Table Extractor Functoid Reference
 ms:assetid: edb1c912-bdaf-4989-b61f-7bd8806f9566

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Specification Name (Node Property of All Schemas)"
 title: Specification Name (Node Property of All Schemas)
 TOCTitle: Specification Name (Node Property of All Schemas)
 ms:assetid: 4260e1df-d6a4-49d0-a5ae-321f59e78f89

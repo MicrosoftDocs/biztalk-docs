@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Standard Version (Node Property of All Schemas)"
 title: Standard Version (Node Property of All Schemas)
 TOCTitle: Standard Version (Node Property of All Schemas)
 ms:assetid: bb9c08b2-8cf1-4263-acaf-861c58f33c22

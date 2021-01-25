@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SPasswordChange.ullTimeStamp Field"
 title: SPasswordChange.ullTimeStamp Field
 TOCTitle: SPasswordChange.ullTimeStamp Field
 ms:assetid: cc7be835-44ee-4413-be15-ccb4b3422653

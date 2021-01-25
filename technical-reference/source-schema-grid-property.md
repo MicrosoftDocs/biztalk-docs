@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Source Schema (Grid Property)"
 title: Source Schema (Grid Property)
 TOCTitle: Source Schema (Grid Property)
 ms:assetid: 8b813b34-2322-4dbb-b906-6a300999dcde

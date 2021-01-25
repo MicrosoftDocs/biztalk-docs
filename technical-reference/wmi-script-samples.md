@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WMI Script Samples"
 title: WMI Script Samples
 TOCTitle: WMI Script Samples
 ms:assetid: 8729f343-e424-4e84-86ae-bdffb534c4cc

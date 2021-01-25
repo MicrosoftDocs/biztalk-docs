@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Tag Offset (Node Property of Flat File Schemas)"
 title: Tag Offset (Node Property of Flat File Schemas)
 TOCTitle: Tag Offset (Node Property of Flat File Schemas)
 ms:assetid: 82d7f1a0-5fe4-41d4-958d-81a9d2560f12

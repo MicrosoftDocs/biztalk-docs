@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SPasswordChange Members"
 title: SPasswordChange Members
 TOCTitle: SPasswordChange Members
 ms:assetid: bdc5d1bd-300b-4020-809d-6fa24e465a76

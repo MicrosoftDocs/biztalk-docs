@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SMTP Transport Properties Dialog Box, Attachments Tab"
 title: SMTP Transport Properties Dialog Box, Attachments Tab
 TOCTitle: SMTP Transport Properties Dialog Box, Attachments Tab
 ms:assetid: d0bba641-1112-4770-8e85-6e0fe74c0d3f

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: XML Disassembler Pipeline Component Properties"
 title: XML Disassembler Pipeline Component Properties
 TOCTitle: XML Disassembler Pipeline Component Properties
 ms:assetid: bec76e08-3a06-43ff-b22f-3c71f00f7783

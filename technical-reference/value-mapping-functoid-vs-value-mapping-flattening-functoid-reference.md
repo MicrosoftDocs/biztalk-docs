@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Value Mapping Functoid vs Value Mapping (Flattening) Functoid Reference"
 title: Value Mapping Functoid vs Value Mapping (Flattening) Functoid Reference
 TOCTitle: Value Mapping Functoid vs Value Mapping (Flattening) Functoid Reference
 ms:assetid: c9f39814-8506-4319-860d-42c693206b34

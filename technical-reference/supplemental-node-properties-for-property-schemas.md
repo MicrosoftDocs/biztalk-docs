@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Supplemental Node Properties for Property Schemas"
 title: Supplemental Node Properties for Property Schemas
 TOCTitle: Supplemental Node Properties for Property Schemas
 ms:assetid: 08a7aa68-be69-4ac0-8bc0-910896debf22

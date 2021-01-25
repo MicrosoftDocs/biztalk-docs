@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Vocabulary Definition Wizard"
 title: Vocabulary Definition Wizard
 TOCTitle: Vocabulary Definition Wizard
 ms:assetid: 5ab6f835-cf7c-4155-8675-15c9edebae73

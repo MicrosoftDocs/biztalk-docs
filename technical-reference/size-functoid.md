@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Size Functoid"
 title: Size Functoid
 TOCTitle: Size Functoid
 ms:assetid: eaf6f008-0025-4110-a391-fc3c92745129

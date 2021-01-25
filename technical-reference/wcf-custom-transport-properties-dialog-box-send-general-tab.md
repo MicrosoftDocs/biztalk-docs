@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-Custom Transport Properties Dialog Box, Send, General Tab"
 title: WCF-Custom Transport Properties Dialog Box, Send, General Tab
 TOCTitle: WCF-Custom Transport Properties Dialog Box, Send, General Tab
 ms:assetid: dd6f0eae-eb8b-4e1c-ad92-e101942fc0b1

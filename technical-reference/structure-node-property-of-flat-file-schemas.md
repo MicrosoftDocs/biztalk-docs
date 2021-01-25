@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Structure (Node Property of Flat File Schemas)"
 title: Structure (Node Property of Flat File Schemas)
 TOCTitle: Structure (Node Property of Flat File Schemas)
 ms:assetid: db8bc83f-cb46-47b1-95ac-cebb57ae776c

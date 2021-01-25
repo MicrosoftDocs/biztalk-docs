@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: String Extract Functoid"
 title: String Extract Functoid
 TOCTitle: String Extract Functoid
 ms:assetid: ed1aa7b5-5261-4821-af9a-6f998d4360ee

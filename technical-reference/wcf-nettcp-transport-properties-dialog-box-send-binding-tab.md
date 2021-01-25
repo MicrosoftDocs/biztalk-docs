@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-NetTcp Transport Properties Dialog Box, Send, Binding Tab"
 title: WCF-NetTcp Transport Properties Dialog Box, Send, Binding Tab
 TOCTitle: WCF-NetTcp Transport Properties Dialog Box, Send, Binding Tab
 ms:assetid: ca2f3b64-d646-475e-a745-e767e39e6941

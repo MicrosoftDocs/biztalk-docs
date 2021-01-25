@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SMTP Transport Properties Dialog Box, Compose Tab"
 title: SMTP Transport Properties Dialog Box, Compose Tab
 TOCTitle: SMTP Transport Properties Dialog Box, Compose Tab
 ms:assetid: 2bfd6bf6-9cce-4c28-a53d-c93efef30c83

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: String Right Trim Functoid"
 title: String Right Trim Functoid
 TOCTitle: String Right Trim Functoid
 ms:assetid: 3caefebc-2399-4b0d-9c30-f6a1d645311e

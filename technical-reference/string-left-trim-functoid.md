@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: String Left Trim Functoid"
 title: String Left Trim Functoid
 TOCTitle: String Left Trim Functoid
 ms:assetid: 916f322c-886b-4aee-b8ac-178b1721e69c

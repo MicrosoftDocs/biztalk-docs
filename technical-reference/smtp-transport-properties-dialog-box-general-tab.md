@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SMTP Transport Properties Dialog Box, General Tab"
 title: SMTP Transport Properties Dialog Box, General Tab
 TOCTitle: SMTP Transport Properties Dialog Box, General Tab
 ms:assetid: 3c38713b-853b-4f35-bce1-795b73e07d43

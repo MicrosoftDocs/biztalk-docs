@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Start Orchestration Shape"
 title: Start Orchestration Shape
 TOCTitle: Start Orchestration Shape
 ms:assetid: 2c1e9b7f-8797-4225-8d7a-2a427a1ca66e

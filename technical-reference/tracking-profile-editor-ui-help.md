@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Tracking Profile Editor UI Help"
 title: Tracking Profile Editor UI Help
 TOCTitle: Tracking Profile Editor UI Help
 ms:assetid: bc2608cc-c1ca-4629-ba36-a0418f4c0076

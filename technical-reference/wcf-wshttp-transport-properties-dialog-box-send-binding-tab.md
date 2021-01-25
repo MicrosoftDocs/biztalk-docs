@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-WSHttp Transport Properties Dialog Box, Send, Binding Tab"
 title: WCF-WSHttp Transport Properties Dialog Box, Send, Binding Tab
 TOCTitle: WCF-WSHttp Transport Properties Dialog Box, Send, Binding Tab
 ms:assetid: 2093e122-91db-47e5-a970-46e03339e934

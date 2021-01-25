@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Supplemental Node Properties for Flat File Schemas"
 title: Supplemental Node Properties for Flat File Schemas
 TOCTitle: Supplemental Node Properties for Flat File Schemas
 ms:assetid: 02149f63-8031-4c09-bf64-220739e6e7b2

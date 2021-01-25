@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Type Name (Map Item Property)"
 title: Type Name (Map Item Property)
 TOCTitle: Type Name (Map Item Property)
 ms:assetid: 68881504-1571-4502-9c41-b3853985769e

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SSO_NOTIFICATION_TYPE Enumeration (COM)"
 title: SSO_NOTIFICATION_TYPE Enumeration (COM)
 TOCTitle: SSO_NOTIFICATION_TYPE Enumeration (COM)
 ms:assetid: d97a99e2-059a-4574-8962-a7797cf5e7dd

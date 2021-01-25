@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Tangent Functoid"
 title: Tangent Functoid
 TOCTitle: Tangent Functoid
 ms:assetid: 49435288-f3ba-426f-90a9-6658e30d74a4

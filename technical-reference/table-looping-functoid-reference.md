@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Table Looping Functoid Reference"
 title: Table Looping Functoid Reference
 TOCTitle: Table Looping Functoid Reference
 ms:assetid: 1f284a8a-3cfb-4397-b9a9-aa6315919716

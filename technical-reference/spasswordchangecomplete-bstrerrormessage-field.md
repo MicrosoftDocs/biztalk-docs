@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SPasswordChangeComplete.bstrErrorMessage Field"
 title: SPasswordChangeComplete.bstrErrorMessage Field
 TOCTitle: SPasswordChangeComplete.bstrErrorMessage Field
 ms:assetid: b70ee92b-f05b-4f53-acdf-7dbbd43b5c0a

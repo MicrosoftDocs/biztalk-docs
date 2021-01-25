@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Viewing the WMI Core Server Classes in CIM Studio"
 title: Viewing the WMI Core Server Classes in CIM Studio
 TOCTitle: Viewing the WMI Core Server Classes in CIM Studio
 ms:assetid: da9a0b3d-47c5-404a-b9a9-ed4298178001

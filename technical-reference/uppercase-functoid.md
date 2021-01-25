@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Uppercase Functoid"
 title: Uppercase Functoid
 TOCTitle: Uppercase Functoid
 ms:assetid: 13addbe9-70f6-4b23-a6d9-3c2b9b0fc3bc

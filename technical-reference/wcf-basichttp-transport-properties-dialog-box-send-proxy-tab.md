@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-BasicHttp Transport Properties Dialog Box, Send, Proxy Tab"
 title: WCF-BasicHttp Transport Properties Dialog Box, Send, Proxy Tab
 TOCTitle: WCF-BasicHttp Transport Properties Dialog Box, Send, Proxy Tab
 ms:assetid: ca3e9dde-982c-47cc-8ec0-1fbe11506641

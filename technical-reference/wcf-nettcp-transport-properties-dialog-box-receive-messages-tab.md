@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-NetTcp Transport Properties Dialog Box, Receive, Messages Tab"
 title: WCF-NetTcp Transport Properties Dialog Box, Receive, Messages Tab
 TOCTitle: WCF-NetTcp Transport Properties Dialog Box, Receive, Messages Tab
 ms:assetid: 5d672b29-151c-4539-9cfe-b50ab4565745
