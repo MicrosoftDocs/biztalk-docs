@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating and Configuring the Fabrikam Solution"
 title: "Creating and Configuring the Fabrikam Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

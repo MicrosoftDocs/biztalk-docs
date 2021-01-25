@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on IDOCs in SAP"
 title: "Operations on IDOCs in SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

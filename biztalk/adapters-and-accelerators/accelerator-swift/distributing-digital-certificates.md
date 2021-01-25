@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Distributing Digital Certificates"
 title: "Distributing Digital Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

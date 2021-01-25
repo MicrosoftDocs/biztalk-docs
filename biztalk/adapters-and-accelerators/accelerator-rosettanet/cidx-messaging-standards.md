@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CIDX Messaging Standards"
 title: "CIDX Messaging Standards | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

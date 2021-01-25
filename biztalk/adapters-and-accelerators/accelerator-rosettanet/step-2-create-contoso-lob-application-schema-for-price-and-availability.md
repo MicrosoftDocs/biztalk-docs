@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Creating the Contoso LOB Application Schemas for the Price and Availability Project Using BizTalk Editor"
 title: "Step 2: Creating the Contoso LOB Application Schemas for the Price and Availability Project Using BizTalk Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

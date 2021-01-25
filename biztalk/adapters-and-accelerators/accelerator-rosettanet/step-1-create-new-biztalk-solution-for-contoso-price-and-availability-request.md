@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Creating a New BizTalk Solution for the Contoso Price and Availability Request"
 title: "Step 1: Creating a New BizTalk Solution for the Contoso Price and Availability Request | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

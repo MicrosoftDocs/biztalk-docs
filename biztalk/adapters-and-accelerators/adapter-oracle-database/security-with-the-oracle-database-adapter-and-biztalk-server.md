@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security with the Oracle Database adapter and BizTalk Server"
 title: "Security with the Oracle Database adapter and BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Migration and Upgrade Troubleshooting"
 title: "Migration and Upgrade Troubleshooting | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

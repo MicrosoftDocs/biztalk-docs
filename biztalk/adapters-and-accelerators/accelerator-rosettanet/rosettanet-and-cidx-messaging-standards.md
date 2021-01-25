@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RosettaNet and CIDX Messaging Standards"
 title: "RosettaNet and CIDX Messaging Standards | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

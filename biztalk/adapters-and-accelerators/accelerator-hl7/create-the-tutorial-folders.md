@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create the Tutorial Folders"
 title: "Create the Tutorial Folders | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

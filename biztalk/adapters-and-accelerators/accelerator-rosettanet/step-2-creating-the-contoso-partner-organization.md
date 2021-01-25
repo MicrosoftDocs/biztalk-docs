@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Creating the Contoso Partner Organization"
 title: "Step 2: Creating the Contoso Partner Organization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

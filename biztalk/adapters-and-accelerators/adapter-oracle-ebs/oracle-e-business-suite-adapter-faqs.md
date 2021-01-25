@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Oracle E-Business Suite adapter FAQs"
 title: "Oracle E-Business Suite adapter FAQs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

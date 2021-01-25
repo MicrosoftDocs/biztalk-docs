@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating and Deploying Policies for New Message Types"
 title: "Creating and Deploying Policies for New Message Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

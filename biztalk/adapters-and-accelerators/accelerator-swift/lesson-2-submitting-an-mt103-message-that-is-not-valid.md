@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 2: Submitting an MT103 Message That Is Not Valid"
 title: "Lesson 2: Submitting an MT103 Message That Is Not Valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How BTAHL7 Routes Messages"
 title: "How BTAHL7 Routes Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

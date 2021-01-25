@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Request Sets"
 title: "Message Schemas for Request Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

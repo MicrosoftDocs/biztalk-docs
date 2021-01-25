@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding the SWIFT Disassembler or Assembler to a Pipeline"
 title: "Adding the SWIFT Disassembler or Assembler to a Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

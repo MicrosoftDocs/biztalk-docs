@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Creating the Organizations and Trading Partner Agreement"
 title: "Step 1: Creating the Organizations and Trading Partner Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

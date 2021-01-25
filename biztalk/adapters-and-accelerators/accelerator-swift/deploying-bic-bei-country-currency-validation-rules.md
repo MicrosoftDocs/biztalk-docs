@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deploying BIC/BEI/Country/Currency Validation Rules"
 title: "Deploying BIC-BEI-Country-Currency Validation Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

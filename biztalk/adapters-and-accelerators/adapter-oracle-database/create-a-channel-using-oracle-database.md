@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a channel using Oracle Database"
 title: "Create a channel using Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

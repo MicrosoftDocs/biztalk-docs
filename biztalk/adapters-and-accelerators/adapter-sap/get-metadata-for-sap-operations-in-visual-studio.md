@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get Metadata for SAP Operations in Visual Studio"
 title: "Get Metadata for SAP Operations in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

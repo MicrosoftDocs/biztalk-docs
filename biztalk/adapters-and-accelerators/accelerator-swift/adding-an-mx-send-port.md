@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding an MX Send Port"
 title: "Adding an MX Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

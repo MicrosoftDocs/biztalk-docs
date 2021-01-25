@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on Functions and Stored Procedures"
 title: "Operations on Functions and Stored Procedures1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

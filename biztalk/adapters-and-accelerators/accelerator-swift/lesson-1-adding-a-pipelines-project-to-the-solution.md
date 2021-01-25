@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 1: Adding a Pipelines Project to the Solution"
 title: "Lesson 1: Adding a Pipelines Project to the Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

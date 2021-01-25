@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating Custom Header Schemas for Dynamic Message Type Discovery"
 title: "Creating Custom Header Schemas for Dynamic Message Type Discovery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

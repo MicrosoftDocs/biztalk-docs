@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get Metadata Programmatically from the Oracle Database"
 title: "Get Metadata Programmatically from the Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

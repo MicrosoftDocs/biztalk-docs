@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Schema Project"
 title: "Creating a Schema Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

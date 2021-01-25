@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Repairing Unparsed Messages"
 title: "Repairing Unparsed Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

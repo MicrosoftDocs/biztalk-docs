@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Diagnostic tracing and message logging for the Oracle Database adapter"
 title: "Diagnostic tracing and message logging for the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

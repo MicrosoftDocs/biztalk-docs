@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring the SWIFT Disassembler"
 title: "Configuring the SWIFT Disassembler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Removing Usage Rule Validation"
 title: "Removing Usage Rule Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

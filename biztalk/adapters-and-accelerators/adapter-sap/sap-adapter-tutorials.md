@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SAP Adapter Tutorials"
 title: "SAP Adapter Tutorials | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

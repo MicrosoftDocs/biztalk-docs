@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extended Encoding Support"
 title: "Extended Encoding Support | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

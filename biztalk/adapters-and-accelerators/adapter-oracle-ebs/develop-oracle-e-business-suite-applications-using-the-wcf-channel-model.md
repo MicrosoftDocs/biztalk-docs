@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Develop Oracle E-Business Suite applications using the WCF Channel Model"
 title: "Develop Oracle E-Business Suite applications using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

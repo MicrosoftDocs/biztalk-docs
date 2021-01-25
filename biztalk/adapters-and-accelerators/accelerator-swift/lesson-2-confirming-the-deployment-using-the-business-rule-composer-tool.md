@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 2: Confirming the Deployment Using the Business Rule Composer Tool"
 title: "Lesson 2: Confirming the Deployment Using the Business Rule Composer Tool | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 8: Building and Deploying the Contoso Orchestration"
 title: "Step 8: Building and Deploying the Contoso Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

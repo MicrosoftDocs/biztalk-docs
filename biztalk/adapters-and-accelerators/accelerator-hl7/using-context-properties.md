@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Context Properties"
 title: "Using Context Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

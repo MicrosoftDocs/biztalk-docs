@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installation and Configuration Troubleshooting"
 title: "Installation and Configuration Troubleshooting | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

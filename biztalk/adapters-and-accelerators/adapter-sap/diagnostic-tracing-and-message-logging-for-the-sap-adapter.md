@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Diagnostic Tracing and Message Logging for the SAP adapter"
 title: "Diagnostic Tracing and Message Logging for the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

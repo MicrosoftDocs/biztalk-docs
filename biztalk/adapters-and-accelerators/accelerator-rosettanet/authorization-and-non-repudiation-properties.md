@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Authorization and Non-Repudiation Properties"
 title: "Authorization and Non-Repudiation Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Handling an Unparsed Message"
 title: "Handling an Unparsed Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

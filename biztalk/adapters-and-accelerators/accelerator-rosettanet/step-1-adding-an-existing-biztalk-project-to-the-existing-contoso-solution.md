@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Adding an Existing BizTalk Project to the Existing Contoso Solution"
 title: "Step 1: Adding an Existing BizTalk Project to the Existing Contoso Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

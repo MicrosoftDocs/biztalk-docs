@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MLLP Transport Properties Dialog Box UI Help"
 title: "MLLP Transport Properties Dialog Box UI Help | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

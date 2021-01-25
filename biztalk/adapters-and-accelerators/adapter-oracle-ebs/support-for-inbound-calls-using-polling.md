@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for Inbound Calls Using Polling"
 title: "Support for Inbound Calls Using Polling | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

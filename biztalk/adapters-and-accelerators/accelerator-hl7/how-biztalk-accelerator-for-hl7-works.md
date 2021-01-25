@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How BizTalk Accelerator for HL7 Works"
 title: "How BizTalk Accelerator for HL7 Works | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

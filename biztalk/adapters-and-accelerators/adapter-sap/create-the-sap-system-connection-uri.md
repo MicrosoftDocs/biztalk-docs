@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create the SAP system connection URI"
 title: "Create the SAP system connection URI | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Type Mapping for Custom RFCs"
 title: "Data Type Mapping for Custom RFCs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

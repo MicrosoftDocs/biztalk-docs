@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create or Edit a Process Configuration"
 title: "How to Create or Edit a Process Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Design Time Tools"
 title: "Design Time Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

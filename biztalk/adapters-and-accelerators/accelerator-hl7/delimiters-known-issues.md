@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Delimiters Known Issues"
 title: "Delimiters Known Issues | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

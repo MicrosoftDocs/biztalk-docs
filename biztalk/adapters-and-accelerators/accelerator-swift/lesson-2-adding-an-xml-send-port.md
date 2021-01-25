@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 2: Adding an XML Send Port"
 title: "Lesson 2: Adding an XML Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

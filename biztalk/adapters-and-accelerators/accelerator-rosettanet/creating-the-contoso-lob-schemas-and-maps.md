@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating the Contoso LOB Schemas and Maps"
 title: "Creating the Contoso LOB Schemas and Maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

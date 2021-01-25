@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a connection to the Oracle Database"
 title: "Create a connection to the Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

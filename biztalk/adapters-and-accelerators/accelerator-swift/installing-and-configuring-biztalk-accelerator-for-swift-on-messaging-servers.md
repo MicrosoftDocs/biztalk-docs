@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing and Configuring BizTalk Accelerator for SWIFT on Messaging Servers"
 title: "Installing and Configuring BizTalk Accelerator for SWIFT on Messaging Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

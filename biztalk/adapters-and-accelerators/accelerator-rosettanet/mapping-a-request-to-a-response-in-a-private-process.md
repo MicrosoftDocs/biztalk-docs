@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mapping a Request to a Response in a Private Process"
 title: "Mapping a Request to a Response in a Private Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

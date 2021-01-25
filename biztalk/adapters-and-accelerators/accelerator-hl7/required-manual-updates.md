@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Required Manual Updates"
 title: "Required Manual Updates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

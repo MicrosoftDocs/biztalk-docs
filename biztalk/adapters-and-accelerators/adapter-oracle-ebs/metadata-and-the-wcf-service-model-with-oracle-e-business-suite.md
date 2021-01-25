@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Metadata and the WCF Service Model with Oracle E-Business Suite"
 title: "Metadata and the WCF Service Model with Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

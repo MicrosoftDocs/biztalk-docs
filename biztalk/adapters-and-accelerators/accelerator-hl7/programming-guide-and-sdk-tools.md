@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Programming guide and SDK tools"
 title: "Programming guide and SDK tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

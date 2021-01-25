@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoke a Function in Oracle Database using the WCF Channel Model"
 title: "Invoke a Function in Oracle Database using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

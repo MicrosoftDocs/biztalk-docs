@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Use the Oracle E-Business Adapter to create and publish a WCF service"
 title: "Step 1: Use the Oracle E-Business Adapter to create and publish a WCF service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

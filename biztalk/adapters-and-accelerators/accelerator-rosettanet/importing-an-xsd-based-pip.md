@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Importing an XSD-based PIP"
 title: "Importing an XSD-based PIP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

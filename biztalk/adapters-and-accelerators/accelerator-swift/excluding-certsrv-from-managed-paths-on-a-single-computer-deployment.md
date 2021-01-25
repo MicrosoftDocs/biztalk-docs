@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Excluding CertSrv from Managed Paths on a Single-Computer Deployment"
 title: "Excluding CertSrv from Managed Paths on a Single-Computer Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

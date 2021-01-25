@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connect to the Oracle Database in Visual Studio using the Add Adapter Service Reference"
 title: "Connect to the Oracle Database in Visual Studio using the Add Adapter Service Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

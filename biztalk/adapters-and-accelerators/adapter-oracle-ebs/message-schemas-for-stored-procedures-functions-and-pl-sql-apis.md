@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Stored Procedures, Functions, and PL/SQL APIs"
 title: "Message Schemas for Stored Procedures, Functions, and PL-SQL APIs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

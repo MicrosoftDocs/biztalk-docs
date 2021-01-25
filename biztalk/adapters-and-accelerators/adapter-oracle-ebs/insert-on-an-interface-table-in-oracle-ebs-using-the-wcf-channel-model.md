@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run an insert operation on an interface table in Oracle E-Business Suite using the WCF channel model"
 title: "Run an insert operation on an interface table in Oracle E-Business Suite using the WCF channel model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

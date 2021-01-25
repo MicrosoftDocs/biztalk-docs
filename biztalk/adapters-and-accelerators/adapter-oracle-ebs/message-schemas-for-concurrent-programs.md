@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Concurrent Programs"
 title: "Message Schemas for Concurrent Programs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Create a SharePoint application to retrieve data from Oracle E-Business Suite"
 title: "Step 3: Create a SharePoint application to retrieve data from Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Customizing Messages through Z Objects"
 title: "Customizing Messages through Z Objects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

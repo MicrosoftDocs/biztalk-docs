@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Reuse adapter bindings with Oracle E-Business Suite"
 title: "Reuse adapter bindings with Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

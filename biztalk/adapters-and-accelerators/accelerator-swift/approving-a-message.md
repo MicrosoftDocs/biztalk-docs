@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Approving a Message"
 title: "Approving a Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoke request sets in Oracle E-Business Suite using the WCF service model"
 title: "Invoke request sets in Oracle E-Business Suite using the WCF service model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

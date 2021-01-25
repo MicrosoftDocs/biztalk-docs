@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How BizTalk Server Solves the Business Need"
 title: "How BizTalk Server Solves the Business Need2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

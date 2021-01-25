@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HL7 Message Structure"
 title: "HL7 Message Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

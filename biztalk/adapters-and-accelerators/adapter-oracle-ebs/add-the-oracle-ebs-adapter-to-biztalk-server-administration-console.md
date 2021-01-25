@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Add the Oracle E-Business Suite adapter to BizTalk Server Administration console"
 title: "Add the Oracle E-Business Suite adapter to BizTalk Server Administration console | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

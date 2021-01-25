@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Creating a Certification Authority"
 title: "Step 1: Creating a Certification Authority | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

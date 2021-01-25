@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Integrate Oracle E-Business Suite with the business data catalog and SharePoint"
 title: "Integrate Oracle E-Business Suite with the business data catalog and SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

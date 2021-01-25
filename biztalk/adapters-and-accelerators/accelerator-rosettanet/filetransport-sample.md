@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FileTransport Sample"
 title: "FileTransport Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

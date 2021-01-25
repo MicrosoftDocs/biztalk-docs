@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5: Create the Receive Port for Accepting HIS Messages"
 title: "Step 5: Create the Receive Port for Accepting HIS Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

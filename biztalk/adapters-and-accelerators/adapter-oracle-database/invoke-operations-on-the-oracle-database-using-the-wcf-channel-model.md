@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoke Operations on the Oracle Database Using the WCF Channel Model"
 title: "Invoke Operations on the Oracle Database Using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

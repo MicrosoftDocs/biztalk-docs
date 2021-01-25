@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting up MX End-to-End Tutorial"
 title: "Setting up MX End-to-End Tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

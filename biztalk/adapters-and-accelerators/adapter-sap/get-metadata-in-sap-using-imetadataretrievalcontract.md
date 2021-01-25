@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get Metadata in SAP using IMetadataRetrievalContract"
 title: "Get Metadata in SAP using IMetadataRetrievalContract | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

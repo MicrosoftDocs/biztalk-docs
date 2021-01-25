@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 8: Create a Map with BizTalk Mapper"
 title: "Step 8: Create a Map with BizTalk Mapper | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

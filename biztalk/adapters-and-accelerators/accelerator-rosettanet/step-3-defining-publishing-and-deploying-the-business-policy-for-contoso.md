@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Defining, Publishing, and Deploying the Business Policy for Contoso"
 title: "Step 3: Defining, Publishing, and Deploying the Business Policy for Contoso | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

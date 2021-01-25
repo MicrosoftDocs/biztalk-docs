@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Oracle Database Change Notifications Using the WCF Service Model1"
 title: "Receive Oracle Database Change Notifications Using the WCF Service Model1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

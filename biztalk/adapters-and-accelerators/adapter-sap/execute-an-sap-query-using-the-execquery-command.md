@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Execute an SAP Query Using the EXECQUERY Command"
 title: "Execute an SAP Query Using the EXECQUERY Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

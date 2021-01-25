@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Oracle E-Business Suite database change notifications using the WCF service model"
 title: "Receive Oracle E-Business Suite database change notifications using the WCF service model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

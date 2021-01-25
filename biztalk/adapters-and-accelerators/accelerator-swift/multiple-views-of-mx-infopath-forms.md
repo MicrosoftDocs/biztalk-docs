@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Multiple Views of MX InfoPath forms"
 title: "Multiple Views of MX InfoPath forms | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connect to the Oracle E-Business Suite in Visual Studio"
 title: "Connect to the Oracle E-Business Suite in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

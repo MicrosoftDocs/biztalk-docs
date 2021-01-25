@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data"
 title: "Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

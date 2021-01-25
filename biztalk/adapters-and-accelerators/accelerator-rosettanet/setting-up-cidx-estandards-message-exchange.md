@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting Up CIDX eStandards Message Exchange"
 title: "Setting Up CIDX eStandards Message Exchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

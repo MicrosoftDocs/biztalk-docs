@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Modify or Create the Send and Receive Ports"
 title: "Step 2: Modify or Create the Send and Receive Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

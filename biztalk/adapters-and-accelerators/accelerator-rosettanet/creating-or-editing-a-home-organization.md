@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating or Editing a Home Organization"
 title: "Creating or Editing a Home Organization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

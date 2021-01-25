@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Search for Oracle E-Business Suite operations"
 title: "Search for Oracle E-Business Suite operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

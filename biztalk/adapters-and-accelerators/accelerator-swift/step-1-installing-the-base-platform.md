@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Installing the Base Platform"
 title: "Step 1: Installing the Base Platform | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5: Create the Send Port for the Message Batch"
 title: "Step 5: Create the Send Port for the Message Batch | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

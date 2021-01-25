@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Accelerator for SWIFT Runtime"
 title: "BizTalk Accelerator for SWIFT Runtime | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

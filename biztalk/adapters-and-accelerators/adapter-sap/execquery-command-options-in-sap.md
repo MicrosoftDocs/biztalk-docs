@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EXECQUERY command options in SAP"
 title: "EXECQUERY command options in SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

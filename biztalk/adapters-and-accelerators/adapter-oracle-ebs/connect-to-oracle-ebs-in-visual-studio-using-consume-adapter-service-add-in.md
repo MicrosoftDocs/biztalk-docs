@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connect to Oracle E-Business Suite in Visual Studio using Consume Adapter Service Add-in"
 title: "Connect to Oracle E-Business Suite in Visual Studio using Consume Adapter Service Add-in | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Poll Oracle Database using the SELECT statement"
 title: "Poll Oracle Database using the SELECT statement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

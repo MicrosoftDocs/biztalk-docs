@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Read about Data Provider types for the SAP Connection String"
 title: "Read about Data Provider types for the SAP Connection String | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

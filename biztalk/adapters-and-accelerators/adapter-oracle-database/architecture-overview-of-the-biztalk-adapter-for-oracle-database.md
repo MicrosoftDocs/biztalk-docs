@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Architecture overview of the BizTalk Adapter for Oracle Database"
 title: "Architecture overview of the BizTalk Adapter for Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

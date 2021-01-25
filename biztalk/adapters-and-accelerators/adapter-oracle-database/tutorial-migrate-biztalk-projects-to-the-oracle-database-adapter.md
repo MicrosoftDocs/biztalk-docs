@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorial: Migrate BizTalk Projects to the Oracle Database adapter"
 title: "Tutorial: Migrate BizTalk Projects to the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

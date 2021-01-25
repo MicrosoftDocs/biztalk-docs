@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Part 1: Fragmented Inbound Batch Scenario"
 title: "Part 1: Fragmented Inbound Batch Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

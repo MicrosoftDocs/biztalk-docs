@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 7: Configuring the BizTalk HTTP Front-End Servers"
 title: "Step 7: Configuring the BizTalk HTTP Front-End Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

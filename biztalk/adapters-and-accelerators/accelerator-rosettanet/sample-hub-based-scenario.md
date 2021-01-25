@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Hub-Based Scenario"
 title: "Sample Hub-Based Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

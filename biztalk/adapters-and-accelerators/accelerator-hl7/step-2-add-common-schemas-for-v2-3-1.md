@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Add Common Schemas for v2.3.1"
 title: "Step 2: Add Common Schemas for v2.3.1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

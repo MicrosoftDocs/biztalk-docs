@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Preparing for Deployment"
 title: "Preparing for Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

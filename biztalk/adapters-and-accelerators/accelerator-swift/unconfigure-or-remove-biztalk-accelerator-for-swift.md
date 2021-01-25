@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unconfigure or remove BizTalk Accelerator for SWIFT"
 title: "Unconfigure or remove BizTalk Accelerator for SWIFT | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

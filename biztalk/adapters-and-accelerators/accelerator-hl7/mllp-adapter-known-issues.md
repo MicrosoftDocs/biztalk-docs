@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MLLP Adapter Known Issues"
 title: "MLLP Adapter Known Issues | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

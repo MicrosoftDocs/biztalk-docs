@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update2XMLSchema Tool"
 title: "Update2XMLSchema Tool | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

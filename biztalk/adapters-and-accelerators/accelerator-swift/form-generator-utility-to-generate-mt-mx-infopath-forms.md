@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Form Generator Utility to Generate MT/MX InfoPath Forms"
 title: "Form Generator Utility to Generate MT-MX InfoPath Forms | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Submitting Messages Through Receive Locations and InfoPath Forms"
 title: "Submitting Messages Through Receive Locations and InfoPath Forms | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

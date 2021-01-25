@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Submitting a 0C2 Request"
 title: "Step 1: Submitting a 0C2 Request | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Getting started with BizTalk Accelerator for SWIFT"
 title: "Getting started with BizTalk Accelerator for SWIFT | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

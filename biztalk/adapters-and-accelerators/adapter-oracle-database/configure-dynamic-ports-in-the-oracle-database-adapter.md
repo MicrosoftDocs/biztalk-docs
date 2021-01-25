@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure dynamic ports in the Oracle Database Adapter"
 title: "Configure dynamic ports in the Oracle Database Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Building blocks to create Oracle E-Business Suite applications"
 title: "Building blocks to create Oracle E-Business Suite applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

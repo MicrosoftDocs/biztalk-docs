@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Part 2: Batch In/Batch Out Scenario"
 title: "Part 2: Batch In-Batch Out Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

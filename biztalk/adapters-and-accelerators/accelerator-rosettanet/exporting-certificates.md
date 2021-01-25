@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Exporting Certificates"
 title: "Exporting Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

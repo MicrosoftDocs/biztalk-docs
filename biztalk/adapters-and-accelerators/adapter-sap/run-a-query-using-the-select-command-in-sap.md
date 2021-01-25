@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run a Query Using the SELECT Command in SAP"
 title: "Run a Query Using the SELECT Command in SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

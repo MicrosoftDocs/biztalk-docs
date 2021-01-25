@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Secure programming with the Oracle EBS adapter"
 title: "Secure programming with the Oracle EBS adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

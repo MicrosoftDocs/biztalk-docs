@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 14: Publish the Orchestration as a Web Service"
 title: "Step 14: Publish the Orchestration as a Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

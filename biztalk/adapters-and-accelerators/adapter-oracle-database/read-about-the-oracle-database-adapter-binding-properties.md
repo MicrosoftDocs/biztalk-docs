@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Read about the Oracle Database adapter binding properties"
 title: "Read about the Oracle Database adapter binding properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

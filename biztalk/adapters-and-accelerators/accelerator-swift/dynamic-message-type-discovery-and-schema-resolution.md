@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dynamic Message Type Discovery and Schema Resolution"
 title: "Dynamic Message Type Discovery and Schema Resolution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

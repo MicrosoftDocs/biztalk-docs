@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for Oracle User-Defined Types in Oracle Database"
 title: "Support for Oracle User-Defined Types in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

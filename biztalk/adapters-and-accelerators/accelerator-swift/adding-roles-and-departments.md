@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding Roles and Departments"
 title: "Adding Roles and Departments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

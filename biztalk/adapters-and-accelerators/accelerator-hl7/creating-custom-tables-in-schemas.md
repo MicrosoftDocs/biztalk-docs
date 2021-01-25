@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating Custom Tables in Schemas"
 title: "Creating Custom Tables in Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

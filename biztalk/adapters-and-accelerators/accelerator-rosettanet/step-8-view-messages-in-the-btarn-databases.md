@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 8: View Messages in the BTARN Databases"
 title: "Step 8: View Messages in the BTARN Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

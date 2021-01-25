@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SAPClientFactory class in the SAP adapter"
 title: "SAPClientFactory class in the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

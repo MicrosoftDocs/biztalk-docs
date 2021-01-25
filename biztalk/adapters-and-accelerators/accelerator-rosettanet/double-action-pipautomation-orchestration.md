@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Double Action PIPAutomation Orchestration"
 title: "Double Action PIPAutomation Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

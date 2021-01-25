@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Preparing to Use the Batching Tutorial"
 title: "Preparing to Use the Batching Tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

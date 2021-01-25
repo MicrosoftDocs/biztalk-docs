@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a connection to Oracle E-Business Suite"
 title: "Create a connection to Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

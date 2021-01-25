@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Oracle Database Change Notifications Using BizTalk Server"
 title: "Receive Oracle Database Change Notifications Using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

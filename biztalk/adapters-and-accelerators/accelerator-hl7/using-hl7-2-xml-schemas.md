@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using HL7 2.XML Schemas"
 title: "Using HL7 2.XML Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

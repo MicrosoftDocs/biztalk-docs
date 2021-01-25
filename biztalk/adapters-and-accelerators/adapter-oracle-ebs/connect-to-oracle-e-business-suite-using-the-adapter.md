@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connect to Oracle E-Business Suite using the adapter"
 title: "Connect to Oracle E-Business Suite using the adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

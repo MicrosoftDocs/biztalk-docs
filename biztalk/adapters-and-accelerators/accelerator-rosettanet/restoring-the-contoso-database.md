@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Restoring the Contoso Database"
 title: "Restoring the Contoso Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

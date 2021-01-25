@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FIN Response Reconciliation"
 title: "FIN Response Reconciliation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

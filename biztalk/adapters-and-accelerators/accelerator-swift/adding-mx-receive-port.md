@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding MX Receive Port"
 title: "Adding MX Receive Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

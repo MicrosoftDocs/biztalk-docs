@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Generating and Publishing MT/MX Forms on the SharePoint Site"
 title: "Generating and Publishing MT-MX Forms on the SharePoint Site | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

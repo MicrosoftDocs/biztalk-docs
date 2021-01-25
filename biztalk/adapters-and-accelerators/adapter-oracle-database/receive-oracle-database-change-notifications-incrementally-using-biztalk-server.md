@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Oracle Database change notifications incrementally using BizTalk Server"
 title: "Receive Oracle Database change notifications incrementally using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

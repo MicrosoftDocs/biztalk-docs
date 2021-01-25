@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive polling-based data-changed messages from Oracle E-Business Suite"
 title: "Receive polling-based data-changed messages from Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

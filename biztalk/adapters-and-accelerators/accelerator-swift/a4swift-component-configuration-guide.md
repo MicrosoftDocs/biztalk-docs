@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: A4SWIFT Component Configuration Guide"
 title: "A4SWIFT Component Configuration Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

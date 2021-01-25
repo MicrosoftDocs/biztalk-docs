@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations using the Oracle-Business Suite adapter with SharePoint"
 title: "Considerations using the Oracle-Business Suite adapter with SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

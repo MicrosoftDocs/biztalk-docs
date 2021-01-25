@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Generate a WCF client or a WCF service contract for SAP solution artifacts"
 title: "Generate a WCF client or a WCF service contract for SAP solution artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Functions and Procedures"
 title: "Message Schemas for Functions and Procedures | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connect to Oracle Database in Visual Studio using the Consume Adapter Service"
 title: "Connect to Oracle Database in Visual Studio using the Consume Adapter Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

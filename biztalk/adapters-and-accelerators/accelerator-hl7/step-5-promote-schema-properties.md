@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5: Promote Schema Properties"
 title: "Step 5: Promote Schema Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

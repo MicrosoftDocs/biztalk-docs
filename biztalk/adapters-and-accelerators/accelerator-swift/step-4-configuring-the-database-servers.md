@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4: Configuring the Database Servers"
 title: "Step 4: Configuring the Database Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting A4SWIFT Properties"
 title: "Setting A4SWIFT Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

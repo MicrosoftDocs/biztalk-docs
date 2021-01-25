@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5: Create a Send Port to Deliver Acknowledgments to the ADT System Using the File Adapter"
 title: "Step 5: Create a Send Port to Deliver Acknowledgments to the ADT System Using the File Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

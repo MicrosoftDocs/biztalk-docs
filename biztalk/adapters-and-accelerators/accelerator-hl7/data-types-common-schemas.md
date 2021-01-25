@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Types Common Schemas"
 title: "Data Types Common Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

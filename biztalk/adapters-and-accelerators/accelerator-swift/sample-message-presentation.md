@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Message Presentation"
 title: "Sample Message Presentation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

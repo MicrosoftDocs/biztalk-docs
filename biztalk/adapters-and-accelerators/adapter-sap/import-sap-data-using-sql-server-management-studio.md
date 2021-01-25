@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Import SAP Data Using SQL Server Management Studio"
 title: "Import SAP Data Using SQL Server Management Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

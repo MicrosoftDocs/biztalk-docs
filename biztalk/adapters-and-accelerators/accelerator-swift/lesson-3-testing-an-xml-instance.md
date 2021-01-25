@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 3: Testing an XML Instance"
 title: "Lesson 3: Testing an XML Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Preparing to Use the Tutorial_hl7_main"
 title: "Preparing to Use the Tutorial_hl7_main | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

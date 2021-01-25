@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for the Polling Operations"
 title: "Message Schemas for the Polling Operations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enabling or Disabling BAM Tracking"
 title: "Enabling or Disabling BAM Tracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

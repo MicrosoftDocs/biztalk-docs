@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure the binding properties for Oracle Database"
 title: "Configure the binding properties for Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

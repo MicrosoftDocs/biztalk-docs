@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SWIFT Text"
 title: "SWIFT Text | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
