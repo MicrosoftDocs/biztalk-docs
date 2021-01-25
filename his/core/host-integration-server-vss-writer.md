@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HIS VSS Writer"
 title: "VSS Writer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

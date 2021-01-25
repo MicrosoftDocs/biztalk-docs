@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Default Local APPC LU and the Default Remote APPC LU"
 title: "Default Local APPC LU and the Default Remote APPC LU1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating the Source Text File"
 title: "Creating the Source Text File1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

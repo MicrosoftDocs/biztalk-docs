@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Link Service and the LnkCfg Utility"
 title: "Link Service and the LnkCfg Utility1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Example of Registry Entries (CPI-C)"
 title: "Example of Registry Entries (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

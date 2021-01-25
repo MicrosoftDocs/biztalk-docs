@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GET_CP_CONVERT_TABLE"
 title: "GET_CP_CONVERT_TABLE1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

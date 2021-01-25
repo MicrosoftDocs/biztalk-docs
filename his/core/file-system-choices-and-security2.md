@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: File System Choices and Security"
 title: "File System Choices and Security2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

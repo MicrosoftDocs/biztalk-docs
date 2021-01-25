@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create New Password Sync Adapter Wizard"
 title: "Create New Password Sync Adapter Wizard1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

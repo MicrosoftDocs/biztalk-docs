@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Function 0x63: Receive Frame"
 title: "Function 0x63: Receive Frame2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

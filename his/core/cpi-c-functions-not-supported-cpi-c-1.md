@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CPI-C Functions Not Supported (CPI-C)"
 title: "CPI-C Functions Not Supported (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

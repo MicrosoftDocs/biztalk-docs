@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Type Conversion (Planning)"
 title: "Data Type Conversion (Planning)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

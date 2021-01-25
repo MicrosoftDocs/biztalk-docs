@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IBM DBCS Code Pages"
 title: "IBM DBCS Code Pages1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

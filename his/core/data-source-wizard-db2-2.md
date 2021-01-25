@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Source Wizard (DB2)"
 title: "Data Source Wizard (DB2)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

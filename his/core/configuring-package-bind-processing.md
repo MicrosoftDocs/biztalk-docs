@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Package Bind Processing"
 title: "Configuring Package Bind Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Choosing the Appropriate Programming Model"
 title: "Choosing the Appropriate Programming Model1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

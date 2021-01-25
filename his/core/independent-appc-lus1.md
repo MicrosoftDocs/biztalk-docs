@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Independent APPC LUs"
 title: "Independent APPC LUs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

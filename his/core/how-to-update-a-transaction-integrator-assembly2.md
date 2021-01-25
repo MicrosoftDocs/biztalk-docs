@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Update a Transaction Integrator Assembly"
 title: "How to Update a Transaction Integrator Assembly2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Confirmation Processing (CPI-C)"
 title: "Confirmation Processing (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

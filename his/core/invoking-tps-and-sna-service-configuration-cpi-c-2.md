@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoking TPs and SNA Service Configuration (CPI-C)"
 title: "Invoking TPs and SNA Service Configuration (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

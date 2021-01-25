@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DLC Flow Control"
 title: "DLC Flow Control1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

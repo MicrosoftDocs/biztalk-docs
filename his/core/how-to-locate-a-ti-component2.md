@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Locate a TI Component"
 title: "How to Locate a TI Component2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Resolve Transactions Manually"
 title: "How to Resolve Transactions Manually1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connecting to a Host Application"
 title: "Connecting to a Host Application1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

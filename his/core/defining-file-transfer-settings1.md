@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining File Transfer Settings"
 title: "Defining File Transfer Settings1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

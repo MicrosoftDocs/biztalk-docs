@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Provider for DB2 Common Errors"
 title: "Data Provider for DB2 Common Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

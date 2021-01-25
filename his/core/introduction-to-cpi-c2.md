@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Introduction to CPI-C"
 title: "Introduction to CPI-C2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

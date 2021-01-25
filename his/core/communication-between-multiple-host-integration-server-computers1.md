@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Communication Between Multiple Host Integration Server Computers"
 title: "Communication Between Multiple Host Integration Server Computers1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

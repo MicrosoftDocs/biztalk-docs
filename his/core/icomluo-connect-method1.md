@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IcomLUO.Connect Method"
 title: "IcomLUO.Connect Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

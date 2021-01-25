@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring LUs"
 title: "Configuring LUs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

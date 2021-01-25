@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Modify or Update an Instance"
 title: "How to Modify or Update an Instance1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

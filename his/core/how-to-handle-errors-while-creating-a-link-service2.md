@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Handle Errors While Creating a Link Service"
 title: "How to Handle Errors While Creating a Link Service2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

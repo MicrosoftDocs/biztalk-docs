@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use REDEFINES in COBOL"
 title: "How to Use REDEFINES in COBOL1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

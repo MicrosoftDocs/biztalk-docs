@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Retrieve Multiple Result Sets"
 title: "Retrieve Multiple Result Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

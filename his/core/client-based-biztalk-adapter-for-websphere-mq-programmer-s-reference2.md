@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Client-Based BizTalk Adapter for WebSphere MQ Programmer&#39;s Reference"
 title: "Client-Based BizTalk Adapter for WebSphere MQ Programmer&#39;s Reference2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

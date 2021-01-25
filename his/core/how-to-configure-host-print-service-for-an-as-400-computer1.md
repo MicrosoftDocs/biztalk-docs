@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Host Print Service for an AS/400 Computer"
 title: "How to Configure Host Print Service for an AS-400 Computer1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

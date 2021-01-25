@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Response Time Monitor (RTM)"
 title: "How to Configure Response Time Monitor (RTM)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

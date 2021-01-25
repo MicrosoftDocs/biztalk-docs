@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration Changes for Sync Point Support"
 title: "Configuration Changes for Sync Point Support2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

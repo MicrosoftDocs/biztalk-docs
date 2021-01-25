@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: I/O Request Packets"
 title: "I-O Request Packets1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

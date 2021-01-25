@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Command-Specific Structure of LUA VCBs"
 title: "Command-Specific Structure of LUA VCBs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

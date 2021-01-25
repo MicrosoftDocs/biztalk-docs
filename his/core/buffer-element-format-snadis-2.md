@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Buffer Element Format (SNADIS)"
 title: "Buffer Element Format (SNADIS)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

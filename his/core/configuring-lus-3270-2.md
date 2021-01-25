@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring LUs (3270)"
 title: "Configuring LUs (3270)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

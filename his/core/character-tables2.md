@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Character Tables"
 title: "Character Tables2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run TI Over TCP/IP"
 title: "Run TI Over TCP-IP2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GET_LU_STATUS"
 title: "GET_LU_STATUS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

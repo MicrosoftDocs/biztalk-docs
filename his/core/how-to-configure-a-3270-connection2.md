@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure a 3270 Connection"
 title: "How to Configure a 3270 Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Link Characteristics"
 title: "Link Characteristics2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

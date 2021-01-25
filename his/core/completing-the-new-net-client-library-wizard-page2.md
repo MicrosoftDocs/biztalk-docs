@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Completing the New .NET Client Library Wizard Page"
 title: "Completing the New .NET Client Library Wizard Page2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Local Logging of Network Management Data"
 title: "Local Logging of Network Management Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

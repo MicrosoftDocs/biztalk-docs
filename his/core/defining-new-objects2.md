@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining New Objects"
 title: "Defining New Objects2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

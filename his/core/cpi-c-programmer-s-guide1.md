@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CPI-C Programmer's Guide"
 title: "CPI-C Programmer's Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

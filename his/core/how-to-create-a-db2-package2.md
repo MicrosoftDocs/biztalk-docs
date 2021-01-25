@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a DB2 Package"
 title: "Create a DB2 Package | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Deploy a Host File Interface"
 title: "How to Deploy a Host File Interface1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

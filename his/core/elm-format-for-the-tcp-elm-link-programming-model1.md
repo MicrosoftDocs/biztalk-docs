@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ELM Format for the TCP ELM Link Programming Model"
 title: "ELM Format for the TCP ELM Link Programming Model1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

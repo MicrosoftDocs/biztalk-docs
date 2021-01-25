@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Changing Conversation States (CPI-C)"
 title: "Changing Conversation States (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

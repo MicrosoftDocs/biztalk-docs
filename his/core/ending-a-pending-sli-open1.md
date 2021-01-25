@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ending a Pending SLI_OPEN"
 title: "Ending a Pending SLI_OPEN1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

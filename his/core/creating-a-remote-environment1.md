@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Remote Environment"
 title: "Creating a Remote Environment1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

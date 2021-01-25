@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring DRDA AR Client Connections"
 title: "Configuring DRDA AR Client Connections | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

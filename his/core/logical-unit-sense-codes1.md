@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Logical Unit Sense Codes"
 title: "Logical Unit Sense Codes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Diagnose Problems with Trace"
 title: "Diagnose Problems with Trace1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

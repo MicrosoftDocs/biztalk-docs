@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Retrieve Connection Information"
 title: "How to Retrieve Connection Information2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

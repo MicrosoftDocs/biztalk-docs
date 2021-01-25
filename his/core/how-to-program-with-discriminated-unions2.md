@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Program with Discriminated Unions"
 title: "How to Program with Discriminated Unions2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

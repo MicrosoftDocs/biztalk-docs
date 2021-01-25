@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Duplicate LU Pools with Host Integration Server and WMI"
 title: "Duplicate LU Pools with Host Integration Server and WMI1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

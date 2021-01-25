@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a 3270 Connection Manually"
 title: "How to Create a 3270 Connection Manually1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

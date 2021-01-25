@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Local LU Properties: General"
 title: "Local LU Properties: General1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

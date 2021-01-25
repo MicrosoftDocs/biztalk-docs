@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Integration Server 5250 (AS/400) Connectivity"
 title: "Host Integration Server 5250 (AS-400) Connectivity1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

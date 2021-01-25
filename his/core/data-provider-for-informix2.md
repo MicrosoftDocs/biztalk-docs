@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Provider for Informix"
 title: "Data Provider for Informix | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

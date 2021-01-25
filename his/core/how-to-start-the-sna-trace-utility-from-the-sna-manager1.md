@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Start the SNA Trace Utility from the SNA Manager"
 title: "How to Start the SNA Trace Utility from the SNA Manager1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

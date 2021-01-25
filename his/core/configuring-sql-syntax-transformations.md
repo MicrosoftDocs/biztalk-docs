@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure SQL Syntax Transformations"
 title: "Configure SQL Syntax Transformations | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

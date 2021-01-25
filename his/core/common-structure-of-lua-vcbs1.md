@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Common Structure of LUA VCBs"
 title: "Common Structure of LUA VCBs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

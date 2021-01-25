@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Completing the MQ Channel Library Wizard"
 title: "Completing the MQ Channel Library Wizard2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

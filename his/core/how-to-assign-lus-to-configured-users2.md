@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Assign LUs to Configured Users"
 title: "How to Assign LUs to Configured Users2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

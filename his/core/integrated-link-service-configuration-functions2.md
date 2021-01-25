@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Integrated Link Service Configuration Functions"
 title: "Integrated Link Service Configuration Functions2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

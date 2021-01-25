@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Print Service (Configuration)"
 title: "Host Print Service (Configuration)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

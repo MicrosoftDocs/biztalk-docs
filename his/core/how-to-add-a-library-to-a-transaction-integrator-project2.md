@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add a Library to a Transaction Integrator Project"
 title: "How to Add a Library to a Transaction Integrator Project2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

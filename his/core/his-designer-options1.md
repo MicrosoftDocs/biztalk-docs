@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HIS Designer Options"
 title: "HIS Designer Options1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

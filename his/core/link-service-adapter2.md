@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Link Service Adapter"
 title: "Link Service Adapter2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

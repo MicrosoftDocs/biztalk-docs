@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: hostIntegration.drda.sqlErrorMappings"
 title: "hostIntegration.drda.sqlErrorMappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

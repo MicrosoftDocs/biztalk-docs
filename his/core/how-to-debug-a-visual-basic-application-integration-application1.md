@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Debug a Visual Basic Application Integration Application"
 title: "How to Debug a Visual Basic Application Integration Application1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

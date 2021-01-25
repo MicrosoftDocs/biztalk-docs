@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Associate 3270 Printer LUs with 3270 Display LUs"
 title: "How to Associate 3270 Printer LUs with 3270 Display LUs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

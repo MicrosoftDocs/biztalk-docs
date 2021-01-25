@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Functions Exported from a Link Service Configuration DLL"
 title: "Functions Exported from a Link Service Configuration DLL1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

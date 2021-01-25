@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Compiling and Linking an LUA Application"
 title: "Compiling and Linking an LUA Application1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

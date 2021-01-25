@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Examples of Syntax for the /print Option"
 title: "Examples of Syntax for the -print Option2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

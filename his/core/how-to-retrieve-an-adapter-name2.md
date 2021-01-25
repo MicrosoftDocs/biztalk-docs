@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Retrieve an Adapter Name"
 title: "How to Retrieve an Adapter Name2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

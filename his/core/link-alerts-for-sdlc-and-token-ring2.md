@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Link Alerts for SDLC and Token Ring"
 title: "Link Alerts for SDLC and Token Ring2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Half-Duplex Contention"
 title: "Half-Duplex Contention1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Identifying Alerts from Local Logs Only"
 title: "Identifying Alerts from Local Logs Only1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

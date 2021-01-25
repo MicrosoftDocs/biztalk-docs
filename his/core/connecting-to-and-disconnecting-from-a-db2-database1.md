@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connecting to and Disconnecting from a DB2 Database"
 title: "Connecting to and Disconnecting from a DB2 Database1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

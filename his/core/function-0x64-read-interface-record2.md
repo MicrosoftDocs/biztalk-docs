@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Function 0x64: Read Interface Record"
 title: "Function 0x64: Read Interface Record2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

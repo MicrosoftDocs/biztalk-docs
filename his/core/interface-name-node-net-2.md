@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interface Name Node (.NET)"
 title: "Interface Name Node (.NET)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

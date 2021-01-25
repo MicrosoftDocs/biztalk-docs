@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Start System Monitor"
 title: "How to Start System Monitor1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

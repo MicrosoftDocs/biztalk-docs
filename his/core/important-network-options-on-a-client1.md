@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Important Network Options on a Client"
 title: "Important Network Options on a Client1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

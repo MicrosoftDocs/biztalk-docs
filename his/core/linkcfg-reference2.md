@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Linkcfg Reference"
 title: "Linkcfg Reference2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

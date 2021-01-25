@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Providers for DB2"
 title: "Data Providers for DB23 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

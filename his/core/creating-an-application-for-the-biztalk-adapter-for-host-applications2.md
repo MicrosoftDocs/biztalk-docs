@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating an Application for the BizTalk Adapter for Host Applications"
 title: "Creating an Application for the BizTalk Adapter for Host Applications2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

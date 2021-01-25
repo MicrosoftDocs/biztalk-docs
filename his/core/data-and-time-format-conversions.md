@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data and Time Format Conversions"
 title: "Data and Time Format Conversions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

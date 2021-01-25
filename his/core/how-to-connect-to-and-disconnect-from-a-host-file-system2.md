@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Connect to and Disconnect from a Host File System"
 title: "How to Connect to and Disconnect from a Host File System2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

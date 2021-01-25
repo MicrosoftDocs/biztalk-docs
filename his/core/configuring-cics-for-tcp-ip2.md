@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring CICS for TCP/IP"
 title: "Configuring CICS for TCP-IP2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

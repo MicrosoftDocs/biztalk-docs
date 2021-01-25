@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How Host Integration Server Uses Active Directory"
 title: "How Host Integration Server Uses Active Directory2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connections Used for NetView and RTM"
 title: "Connections Used for NetView and RTM2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

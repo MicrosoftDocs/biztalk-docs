@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring VTAM for 3270 Access"
 title: "Configuring VTAM for 3270 Access1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

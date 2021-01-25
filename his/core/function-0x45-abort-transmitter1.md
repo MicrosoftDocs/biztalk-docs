@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Function 0x45: Abort Transmitter"
 title: "Function 0x45: Abort Transmitter1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to use a Client Context with the BizTalk Adapter for Host Applications"
 title: "How to use a Client Context with the BizTalk Adapter for Host Applications2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

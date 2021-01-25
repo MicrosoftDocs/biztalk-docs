@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Retrieve Schema Sets from the Host File System"
 title: "How to Retrieve Schema Sets from the Host File System2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

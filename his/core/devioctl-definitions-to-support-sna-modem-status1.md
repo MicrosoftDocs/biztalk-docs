@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DevIoctl Definitions to Support SNA Modem Status"
 title: "DevIoctl Definitions to Support SNA Modem Status1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

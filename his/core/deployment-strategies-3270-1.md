@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deployment Strategies (3270)"
 title: "Deployment Strategies (3270)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

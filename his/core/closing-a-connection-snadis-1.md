@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Closing a Connection (SNADIS)"
 title: "Closing a Connection (SNADIS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

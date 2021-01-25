@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dynamic Data Web"
 title: "Dynamic Data Web1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

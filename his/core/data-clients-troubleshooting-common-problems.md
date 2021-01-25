@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Clients Troubleshooting Common Problems"
 title: "Data Clients Troubleshooting Common Problems | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Code Page Mappings"
 title: "Code Page Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

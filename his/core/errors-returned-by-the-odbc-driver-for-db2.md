@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Errors Returned by the ODBC Driver for DB2"
 title: "Errors Returned by the ODBC Driver for DB2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

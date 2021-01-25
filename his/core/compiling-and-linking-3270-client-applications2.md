@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Compiling and Linking 3270 Client Applications"
 title: "Compiling and Linking 3270 Client Applications2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

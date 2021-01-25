@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Copying and Pasting Displayed Information"
 title: "Copying and Pasting Displayed Information1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

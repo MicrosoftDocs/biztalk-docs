@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set Audit Policy"
 title: "How to Set Audit Policy2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

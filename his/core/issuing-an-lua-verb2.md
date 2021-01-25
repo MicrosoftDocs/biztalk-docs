@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Issuing an LUA Verb"
 title: "Issuing an LUA Verb2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

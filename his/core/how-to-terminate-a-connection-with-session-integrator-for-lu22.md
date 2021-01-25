@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Terminate a Connection with Session Integrator for LU2"
 title: "Terminate a Connection with Session Integrator for LU22 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

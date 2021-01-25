@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining Session Settings (5250)"
 title: "Defining Session Settings (5250)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

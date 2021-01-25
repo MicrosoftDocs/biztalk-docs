@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CPI-C Common Return Codes"
 title: "CPI-C Common Return Codes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

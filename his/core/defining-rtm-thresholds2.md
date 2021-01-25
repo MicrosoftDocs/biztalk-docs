@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining RTM Thresholds"
 title: "Defining RTM Thresholds2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

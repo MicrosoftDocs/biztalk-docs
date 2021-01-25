@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: hostIntegration.staticSql"
 title: "hostIntegration.staticSql | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

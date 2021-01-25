@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Icom3270 Members"
 title: "Icom3270 Members1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

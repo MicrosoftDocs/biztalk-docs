@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Activate or Deactivate a Remote Environment"
 title: "How to Activate or Deactivate a Remote Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

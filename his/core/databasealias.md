@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: databaseAlias"
 title: "databaseAlias | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Link Definition Information"
 title: "Link Definition Information2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

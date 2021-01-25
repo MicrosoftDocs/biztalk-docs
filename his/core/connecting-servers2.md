@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connecting Servers"
 title: "Connecting Servers2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

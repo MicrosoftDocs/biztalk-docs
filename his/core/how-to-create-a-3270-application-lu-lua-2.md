@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a 3270 Application LU (LUA)"
 title: "How to Create a 3270 Application LU (LUA)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

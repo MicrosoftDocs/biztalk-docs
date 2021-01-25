@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Integer Data Type"
 title: "Integer Data Type1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

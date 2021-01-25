@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Config Lock and Out-of-Date Messages in the Status Bar"
 title: "Config Lock and Out-of-Date Messages in the Status Bar1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LU 3 Printing"
 title: "LU 3 Printing1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

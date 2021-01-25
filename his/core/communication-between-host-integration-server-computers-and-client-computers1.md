@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Communication Between Host Integration Server Computers and Client Computers"
 title: "Communication Between Host Integration Server Computers and Client Computers1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

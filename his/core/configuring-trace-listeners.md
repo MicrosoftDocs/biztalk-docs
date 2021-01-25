@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Trace Listeners"
 title: "Configuring Trace Listeners | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Link Services Folder"
 title: "Link Services Folder2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

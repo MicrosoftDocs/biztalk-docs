@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connect with an MsDb2Connection"
 title: "Connect with an MsDb2Connection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

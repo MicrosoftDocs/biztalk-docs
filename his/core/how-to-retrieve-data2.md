@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Retrieve Data"
 title: "Retrieve Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

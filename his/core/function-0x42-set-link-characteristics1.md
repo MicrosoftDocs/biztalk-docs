@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Function 0x42: Set Link Characteristics"
 title: "Function 0x42: Set Link Characteristics1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

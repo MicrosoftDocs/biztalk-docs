@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Default Outgoing Local APPC LU Pool"
 title: "Default Outgoing Local APPC LU Pool1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

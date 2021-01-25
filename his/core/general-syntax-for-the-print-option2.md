@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: General Syntax for the /print Option"
 title: "General Syntax for the -print Option2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

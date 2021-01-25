@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Controlling Services and Connections with WMI"
 title: "Controlling Services and Connections with WMI1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How To Connect a HIP Component to a Visual Basic Applications"
 title: "How To Connect a HIP Component to a Visual Basic Applications2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

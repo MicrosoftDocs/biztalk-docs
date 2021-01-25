@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Finding Further Information about LUA"
 title: "Finding Further Information about LUA2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
