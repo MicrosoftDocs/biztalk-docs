@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure a Fact Retriever for a Policy"
 title: "How to Configure a Fact Retriever for a Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDI Receive Components"
 title: "EDI Receive Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

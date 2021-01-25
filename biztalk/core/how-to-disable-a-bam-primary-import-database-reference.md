@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Disable a BAM Primary Import Database Reference"
 title: "How to Disable a BAM Primary Import Database Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

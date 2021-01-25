@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Execute a JD Edwards OneWorld Sample Query"
 title: "Execute a JD Edwards OneWorld Sample Query | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

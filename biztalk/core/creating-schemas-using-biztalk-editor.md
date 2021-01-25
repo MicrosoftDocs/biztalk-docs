@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create Schemas Using BizTalk Editor"
 title: "Creating Schemas Using BizTalk Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

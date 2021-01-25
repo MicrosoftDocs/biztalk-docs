@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error encountered after processing Transaction Set(s) because DocType was not set"
 title: "Error encountered after processing Transaction Set(s) because DocType was not set | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

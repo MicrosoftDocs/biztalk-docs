@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Examples of Custom Configuration Schemas for Adapters"
 title: "Examples of Custom Configuration Schemas for Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

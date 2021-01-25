@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: An exception has occurred during the batch submission in the batching orchestration"
 title: "An exception has occurred during the batch submission in the batching orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

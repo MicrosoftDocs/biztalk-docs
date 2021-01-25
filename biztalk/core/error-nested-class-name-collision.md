@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Nested Class Name Collision"
 title: "Error - Nested Class Name Collision | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

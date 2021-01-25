@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Developing a Send Adapter"
 title: "Developing a Send Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

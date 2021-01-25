@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Enrich BAM Data Using Lookups"
 title: "How to Enrich BAM Data Using Lookups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

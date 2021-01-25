@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Develop your BizTalk applications"
 title: "Develop your BizTalk applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

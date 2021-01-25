@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enumerate Receive Locations (BizTalk Server Sample)"
 title: "Enumerate Receive Locations (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

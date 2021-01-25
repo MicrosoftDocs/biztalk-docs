@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDI Structural Validation"
 title: "EDI Structural Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

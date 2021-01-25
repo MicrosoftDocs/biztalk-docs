@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Change the Frequency With Which Alerts Are Evaluated"
 title: "How to Change the Frequency With Which Alerts Are Evaluated | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

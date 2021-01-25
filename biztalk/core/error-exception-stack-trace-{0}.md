@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Exception Stack Trace: {0}"
 title: "Error - Exception Stack Trace: {0} | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

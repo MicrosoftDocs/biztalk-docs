@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Duplicate group control number found"
 title: "Duplicate group control number found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

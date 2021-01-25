@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Generating XML or Schema in PeopleSoft"
 title: "Generating XML or Schema in PeopleSoft | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

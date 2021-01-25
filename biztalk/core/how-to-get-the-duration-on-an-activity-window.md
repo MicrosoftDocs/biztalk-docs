@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Get the Duration on an Activity Window"
 title: "How to Get the Duration on an Activity Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

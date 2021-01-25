@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - External Assembly for Scripting Functoid Cannot Be Invoked"
 title: "Error - External Assembly for Scripting Functoid Cannot Be Invoked | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

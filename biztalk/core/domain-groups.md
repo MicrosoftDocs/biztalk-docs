@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Domain Groups in BizTalk"
 title: "Domain Groups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

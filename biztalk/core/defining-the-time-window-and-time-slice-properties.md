@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining the Time Window and Time Slice Properties"
 title: "Defining the Time Window and Time Slice Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create an Adapter Handler"
 title: "How to Create an Adapter Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

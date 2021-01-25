@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Schema Root Reference Nonexistent"
 title: "Error - Schema Root Reference Nonexistent | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

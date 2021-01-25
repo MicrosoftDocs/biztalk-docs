@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Root Node Duplicate Class Name"
 title: "Error - Root Node Duplicate Class Name | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

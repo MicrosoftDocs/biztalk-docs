@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Define a Business Activity"
 title: "How to Define a Business Activity | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

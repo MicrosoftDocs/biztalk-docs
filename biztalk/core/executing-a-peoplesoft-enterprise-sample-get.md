@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Execute a PeopleSoft Enterprise Sample Get"
 title: "Executing a PeopleSoft Enterprise Sample Get | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The agreement associated with BatchId is not enabled or has expired. Batching cannot continue"
 title: "The agreement associated with BatchId is not enabled or has expired. Batching cannot continue | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

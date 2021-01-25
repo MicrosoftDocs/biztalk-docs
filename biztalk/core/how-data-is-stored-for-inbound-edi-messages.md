@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How Data Is Stored for Inbound EDI Messages"
 title: "How Data Is Stored for Inbound EDI Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

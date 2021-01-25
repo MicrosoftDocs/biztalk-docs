@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: File adapter property schema and properties"
 title: "File adapter property schema and properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

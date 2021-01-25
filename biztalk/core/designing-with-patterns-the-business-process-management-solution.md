@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Designing with Patterns: the Business Process Management Solution"
 title: "Designing with Patterns: the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

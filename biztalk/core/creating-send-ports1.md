@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating Send Ports"
 title: "Creating Send Ports1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

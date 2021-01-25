@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error- The &quot;{0}&quot; functoid has place holders. Replace these with appropriate links or constants."
 title: "Error- The &quot;{0}&quot; functoid has place holders. Replace these with appropriate links or constants. | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

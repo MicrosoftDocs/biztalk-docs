@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Enable Automatic Archive Validation"
 title: "How to Enable Automatic Archive Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

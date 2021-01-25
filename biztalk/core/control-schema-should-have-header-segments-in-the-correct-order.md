@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Control schema should have header segments in the correct order"
 title: "Control schema should have header segments in the correct order | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

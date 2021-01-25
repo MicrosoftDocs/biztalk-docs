@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error encountered during serialization. The X12 interchange had the following errors"
 title: "Error encountered during serialization. The X12 interchange had the following errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

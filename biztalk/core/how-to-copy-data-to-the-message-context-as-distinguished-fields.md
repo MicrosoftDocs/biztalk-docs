@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Copy Data to the Message Context as Distinguished Fields"
 title: "How to Copy Data to the Message Context as Distinguished Fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

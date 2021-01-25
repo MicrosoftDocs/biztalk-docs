@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction set schema contains one or more of control segments ISA, IEA, GS, GE"
 title: "Transaction set schema contains one or more of control segments ISA, IEA, GS, GE | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

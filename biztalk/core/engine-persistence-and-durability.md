@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Engine Persistence and Durability"
 title: "Engine Persistence and Durability | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

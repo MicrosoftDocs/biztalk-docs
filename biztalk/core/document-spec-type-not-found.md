@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Document spec type not found"
 title: "Document spec type not found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

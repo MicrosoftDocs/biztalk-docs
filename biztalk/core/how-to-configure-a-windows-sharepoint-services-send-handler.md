@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure a Windows SharePoint Services Send Handler"
 title: "How to Configure a Windows SharePoint Services Send Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

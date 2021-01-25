@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Exception Handling"
 title: "Exception Handling | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

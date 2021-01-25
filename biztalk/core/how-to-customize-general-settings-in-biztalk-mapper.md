@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Customize General Settings in BizTalk Mapper"
 title: "How to Customize General Settings in BizTalk Mapper | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

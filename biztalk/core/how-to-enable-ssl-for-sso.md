@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Enable SSL for SSO"
 title: "How to Enable SSL for SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

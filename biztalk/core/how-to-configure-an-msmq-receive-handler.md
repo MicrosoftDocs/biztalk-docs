@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure an MSMQ Receive Handler"
 title: "How to Configure an MSMQ Receive Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

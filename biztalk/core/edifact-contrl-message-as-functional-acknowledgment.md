@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDIFACT CONTRL Message as Functional Acknowledgment"
 title: "EDIFACT CONTRL Message as Functional Acknowledgment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

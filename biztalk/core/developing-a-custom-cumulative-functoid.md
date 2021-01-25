@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Developing a Custom Cumulative Functoid"
 title: "Developing a Custom Cumulative Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

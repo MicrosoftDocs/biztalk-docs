@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Field Element Nodes vs. Field Attribute Nodes"
 title: "Field Element Nodes vs. Field Attribute Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

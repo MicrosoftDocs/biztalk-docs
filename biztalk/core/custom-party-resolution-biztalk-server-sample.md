@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Custom Party Resolution (BizTalk Server Sample)"
 title: "Custom Party Resolution (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

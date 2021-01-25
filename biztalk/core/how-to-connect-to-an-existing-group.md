@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Connect to an Existing Group"
 title: "How to Connect to an Existing Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

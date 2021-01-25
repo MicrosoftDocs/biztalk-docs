@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Detect Configuration Issues for a Functoid"
 title: "How to Detect Configuration Issues for a Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

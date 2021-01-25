@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDIFACT CONTRL Message as Technical Acknowledgment"
 title: "EDIFACT CONTRL Message as Technical Acknowledgment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

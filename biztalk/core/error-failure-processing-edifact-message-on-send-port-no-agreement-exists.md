@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: A failure occurred in processing Edifact message on send port: No agreement for receiver and sender identifier-qualifier pairs and no party with name"
 title: "A failure occurred in processing Edifact message on send port: No agreement for receiver and sender identifier-qualifier pairs and no party with name | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

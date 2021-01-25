@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Designing with Patterns: the Service Oriented Solution"
 title: "Designing with Patterns: the Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

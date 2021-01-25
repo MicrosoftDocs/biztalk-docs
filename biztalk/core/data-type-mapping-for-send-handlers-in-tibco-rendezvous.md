@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Type Mapping for Send Handlers in TIBCO Rendezvous"
 title: "Data Type Mapping for Send Handlers in TIBCO Rendezvous | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

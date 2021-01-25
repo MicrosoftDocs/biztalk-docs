@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Design Phase Recommendations"
 title: "Design Phase Recommendations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

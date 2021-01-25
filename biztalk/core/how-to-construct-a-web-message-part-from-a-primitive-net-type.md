@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Construct a Web Message Part from a Primitive .NET Type"
 title: "How to Construct a Web Message Part from a Primitive .NET Type | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

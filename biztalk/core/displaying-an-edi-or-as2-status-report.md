@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Displaying an EDI or AS2 Status Report"
 title: "Displaying an EDI or AS2 Status Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

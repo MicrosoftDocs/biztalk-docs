@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Assign a Certificate to a Receive Location"
 title: "How to Assign a Certificate to a Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fatal error encountered in EDI Disassembler"
 title: "Fatal error encountered in EDI Disassembler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

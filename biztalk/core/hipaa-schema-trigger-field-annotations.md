@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HIPAA Schema Trigger Field Annotations"
 title: "HIPAA Schema Trigger Field Annotations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

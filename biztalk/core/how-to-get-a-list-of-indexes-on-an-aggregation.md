@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Get a List of Indexes on an Aggregation"
 title: "How to Get a List of Indexes on an Aggregation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

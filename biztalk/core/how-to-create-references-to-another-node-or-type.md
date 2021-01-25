@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create References to Another Node or Type"
 title: "How to Create References to Another Node or Type | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

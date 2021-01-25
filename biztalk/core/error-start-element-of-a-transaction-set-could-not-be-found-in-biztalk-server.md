@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error encountered after processing Transaction Set(s) because the Start element of a Transaction set could not be found"
 title: "Error encountered after processing Transaction Set(s) because the Start element of a Transaction set could not be found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

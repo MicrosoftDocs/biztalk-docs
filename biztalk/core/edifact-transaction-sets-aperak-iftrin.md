@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDIFACT Transaction Sets APERAK-IFTRIN"
 title: "EDIFACT Transaction Sets APERAK-IFTRIN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

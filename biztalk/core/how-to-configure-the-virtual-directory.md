@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure the Virtual Directory"
 title: "How to Configure the Virtual Directory | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

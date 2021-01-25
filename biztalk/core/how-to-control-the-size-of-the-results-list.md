@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Control the Size of the Results List"
 title: "How to Control the Size of the Results List | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deploying Published Web Services on a Non-Visual Studio Computer"
 title: "Deploying Published Web Services on a Non-Visual Studio Computer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating Send and Receive Ports"
 title: "Creating Send and Receive Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

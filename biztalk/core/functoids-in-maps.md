@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Functoids in Maps"
 title: "Functoids in Maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

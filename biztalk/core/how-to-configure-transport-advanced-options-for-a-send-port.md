@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure Transport Advanced Options for a Send Port"
 title: "How to Configure Transport Advanced Options for a Send Port | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/13/2020"

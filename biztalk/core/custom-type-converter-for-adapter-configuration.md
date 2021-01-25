@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Custom Type Converter for Adapter Configuration"
 title: "Custom Type Converter for Adapter Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

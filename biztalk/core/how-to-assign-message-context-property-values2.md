@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Assign Message Context Property Values"
 title: "How to Assign Message Context Property Values2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

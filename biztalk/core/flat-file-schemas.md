@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Flat File Schemas"
 title: "Flat File Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

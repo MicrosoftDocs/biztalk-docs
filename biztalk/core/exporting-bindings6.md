@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Exporting Bindings"
 title: "Exporting Bindings6 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

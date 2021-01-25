@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Throttling Performance Counters"
 title: "Host Throttling Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

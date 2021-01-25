@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create Affiliate Applications for Host Initiated SSO"
 title: "How to Create Affiliate Applications for Host Initiated SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

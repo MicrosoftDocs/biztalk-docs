@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure BizTalk Server for Receiving Encrypted Messages"
 title: "How to Configure BizTalk Server for Receiving Encrypted Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

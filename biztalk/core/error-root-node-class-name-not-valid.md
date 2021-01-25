@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Root Node Class Name Not Valid"
 title: "Error - Root Node Class Name Not Valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

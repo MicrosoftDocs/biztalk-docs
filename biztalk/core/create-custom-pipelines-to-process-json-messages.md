@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create custom pipelines to process JSON messages"
 title: "Create custom pipelines to process JSON messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

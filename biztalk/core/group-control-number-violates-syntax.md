@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Group control number violates syntax"
 title: "Group control number violates syntax | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

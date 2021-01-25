@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Clear the Application Cache"
 title: "How to Clear the Application Cache | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

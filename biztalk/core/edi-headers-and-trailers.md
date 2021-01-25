@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDI Headers and Trailers"
 title: "EDI Headers and Trailers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

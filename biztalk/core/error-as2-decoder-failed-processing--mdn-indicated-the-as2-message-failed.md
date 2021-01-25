@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The AS2 Decoder failed processing because the MDN indicated the AS2 message failed processing"
 title: "The AS2 Decoder failed processing because the MDN indicated the AS2 message failed processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

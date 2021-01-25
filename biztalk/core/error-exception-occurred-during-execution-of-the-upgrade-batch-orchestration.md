@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: An exception has occurred during the execution of the upgrade batch orchestration"
 title: "An exception has occurred during the execution of the upgrade batch orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

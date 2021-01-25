@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a BizTalk Server Hosting Environment"
 title: "How to Create a BizTalk Server Hosting Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

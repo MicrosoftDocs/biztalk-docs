@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Construct a Web Message with No Message Parts"
 title: "How to Construct a Web Message with No Message Parts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

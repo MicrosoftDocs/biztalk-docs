@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Group control number sequence exhausted for Partner and TPA"
 title: "Group control number sequence exhausted for Partner and TPA | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

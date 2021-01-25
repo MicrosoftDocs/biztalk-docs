@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The AS2 Decoder failed processing when validating the MIC value returned in the MDN"
 title: "The AS2 Decoder failed processing when validating the MIC value returned in the MDN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

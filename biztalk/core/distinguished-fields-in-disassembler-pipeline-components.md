@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Distinguished Fields in Disassembler Pipeline Components"
 title: "Distinguished Fields in Disassembler Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

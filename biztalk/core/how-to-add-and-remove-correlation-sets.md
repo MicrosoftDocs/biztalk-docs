@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add and Remove Correlation Sets"
 title: "How to Add and Remove Correlation Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

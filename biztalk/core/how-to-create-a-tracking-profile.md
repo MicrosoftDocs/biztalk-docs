@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a Tracking Profile"
 title: "How to Create a Tracking Profile | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

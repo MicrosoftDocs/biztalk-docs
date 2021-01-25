@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create Schemas for XML Messages"
 title: "How to Create Schemas for XML Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

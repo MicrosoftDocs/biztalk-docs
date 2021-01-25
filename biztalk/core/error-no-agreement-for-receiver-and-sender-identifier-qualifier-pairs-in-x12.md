@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: A failure occurred in processing X12 message on send port: No agreement for receiver and sender identifier-qualifier pairs"
 title: "A failure occurred in processing X12 message on send port: No agreement for receiver and sender identifier-qualifier pairs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

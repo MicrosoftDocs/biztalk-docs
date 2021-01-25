@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Receive and Send Locations and Ports for BAM WCF Interception"
 title: "How to Configure Receive and Send Locations and Ports for BAM WCF Interception | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

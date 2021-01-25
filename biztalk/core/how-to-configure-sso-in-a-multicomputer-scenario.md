@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure SSO in a Multicomputer Scenario"
 title: "How to Configure SSO in a Multicomputer Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

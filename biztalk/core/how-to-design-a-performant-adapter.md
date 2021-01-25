@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Design a Performant Adapter"
 title: "How to Design a Performant Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

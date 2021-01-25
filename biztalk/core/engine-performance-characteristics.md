@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Engine Performance Characteristics"
 title: "Engine Performance Characteristics | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

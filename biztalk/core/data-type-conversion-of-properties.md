@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Type Conversion of Properties"
 title: "Data Type Conversion of Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

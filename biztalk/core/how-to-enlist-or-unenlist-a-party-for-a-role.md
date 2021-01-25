@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Enlist or Unenlist a Party for a Role"
 title: "How to Enlist or Unenlist a Party for a Role | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

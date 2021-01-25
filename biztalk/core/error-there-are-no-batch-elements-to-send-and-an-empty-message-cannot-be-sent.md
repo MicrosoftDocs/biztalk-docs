@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: There are no batch elements to send and an empty message cannot be sent as it is not configured for party"
 title: "There are no batch elements to send and an empty message cannot be sent as it is not configured for party | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

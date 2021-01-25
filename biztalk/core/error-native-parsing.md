@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Native Parsing"
 title: "Error - Native Parsing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

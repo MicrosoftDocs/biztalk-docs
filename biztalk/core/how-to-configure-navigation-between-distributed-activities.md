@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Navigation Between Distributed Activities"
 title: "How to Configure Navigation Between Distributed Activities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

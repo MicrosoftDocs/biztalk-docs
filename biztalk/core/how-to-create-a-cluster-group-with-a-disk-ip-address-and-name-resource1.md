@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a Cluster Group with a Disk, IP Address, and Name Resource"
 title: "How to Create a Cluster Group with a Disk, IP Address, and Name Resource1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

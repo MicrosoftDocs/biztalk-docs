@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Schema File Name Not Valid"
 title: "Error - Schema File Name Not Valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

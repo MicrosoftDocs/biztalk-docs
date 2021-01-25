@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Copy Tracked Messages into the BizTalk Tracking Database"
 title: "How to Copy Tracked Messages into the BizTalk Tracking Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

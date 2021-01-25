@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDI and AS2 Status Reporting"
 title: "EDI and AS2 Status Reporting | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

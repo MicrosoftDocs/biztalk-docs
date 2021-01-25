@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The batch settings for party have expired and the batching orchestration is being terminated"
 title: "The batch settings for party have expired and the batching orchestration is being terminated | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

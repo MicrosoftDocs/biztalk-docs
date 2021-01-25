@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data element too short"
 title: "Data element too short | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

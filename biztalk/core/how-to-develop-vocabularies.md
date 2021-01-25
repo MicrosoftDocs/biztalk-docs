@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Develop Vocabularies"
 title: "How to Develop Vocabularies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

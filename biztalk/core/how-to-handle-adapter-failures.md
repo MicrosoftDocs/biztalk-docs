@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Handle Adapter Failures"
 title: "How to Handle Adapter Failures | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How the EDI Disassembler Works"
 title: "How the EDI Disassembler Works | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

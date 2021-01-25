@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Cannot resolve schemaLocation attribute"
 title: "Error - Cannot resolve schemaLocation attribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

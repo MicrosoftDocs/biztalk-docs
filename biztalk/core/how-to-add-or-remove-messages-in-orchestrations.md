@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add or Remove Messages in Orchestrations"
 title: "How to Add or Remove Messages in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

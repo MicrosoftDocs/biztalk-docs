@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Node Hierarchy Matching"
 title: "How to Configure Node Hierarchy Matching | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

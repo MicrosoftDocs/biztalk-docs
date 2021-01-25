@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDIFACT Transaction Sets IFTSAI-WKGRRE"
 title: "EDIFACT Transaction Sets IFTSAI-WKGRRE | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

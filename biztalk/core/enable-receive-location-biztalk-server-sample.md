@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enable Receive Location (BizTalk Server Sample)"
 title: "Enable Receive Location (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

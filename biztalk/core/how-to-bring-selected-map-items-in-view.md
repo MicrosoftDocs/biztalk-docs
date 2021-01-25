@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Bring Selected Map Items in View"
 title: "How to Bring Selected Map Items in View | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

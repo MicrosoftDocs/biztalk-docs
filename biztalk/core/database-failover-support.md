@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Database Failover Support"
 title: "Database Failover Support | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

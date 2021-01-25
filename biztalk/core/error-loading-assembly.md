@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error loading assembly"
 title: "Error loading assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

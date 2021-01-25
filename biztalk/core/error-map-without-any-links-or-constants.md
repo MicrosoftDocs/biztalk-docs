@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Map Without Any Links or Constants"
 title: "Error - Map Without Any Links or Constants | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

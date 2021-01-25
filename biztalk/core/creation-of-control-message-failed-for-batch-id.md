@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creation of Control Message failed for Batch id"
 title: "Creation of Control Message failed for Batch id | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining Real-Time Aggregations"
 title: "Defining Real-Time Aggregations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

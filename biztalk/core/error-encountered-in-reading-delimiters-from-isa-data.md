@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error encountered in reading delimiters from ISA data"
 title: "Error encountered in reading delimiters from ISA data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

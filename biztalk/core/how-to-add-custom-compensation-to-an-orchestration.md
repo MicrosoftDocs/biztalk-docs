@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add Custom Compensation to an Orchestration"
 title: "How to Add Custom Compensation to an Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

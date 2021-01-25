@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Change the Destination Location of a Pre- or Post-processing Script"
 title: "How to Change the Destination Location of a Pre- or Post-processing Script | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

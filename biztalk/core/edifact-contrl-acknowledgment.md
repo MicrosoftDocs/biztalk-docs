@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDIFACT CONTRL Acknowledgment"
 title: "EDIFACT CONTRL Acknowledgment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
