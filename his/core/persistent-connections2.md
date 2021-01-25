@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Persistent Connections"
 title: "Persistent Connections2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Status-Control(...) ACKLUA"
 title: "Status-Control(...) ACKLUA1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

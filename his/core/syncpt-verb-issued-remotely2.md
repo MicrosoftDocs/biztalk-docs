@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SYNCPT Verb Issued Remotely"
 title: "SYNCPT Verb Issued Remotely2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

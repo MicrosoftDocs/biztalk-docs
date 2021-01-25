@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optional Metadata"
 title: "Optional Metadata2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

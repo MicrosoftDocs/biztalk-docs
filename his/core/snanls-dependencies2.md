@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNANLS Dependencies"
 title: "SNANLS Dependencies2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

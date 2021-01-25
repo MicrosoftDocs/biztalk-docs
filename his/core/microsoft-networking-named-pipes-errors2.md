@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Microsoft Networking (Named Pipes) Errors"
 title: "Microsoft Networking (Named Pipes) Errors2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

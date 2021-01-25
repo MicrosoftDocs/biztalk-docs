@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Network Integration User&#39;s Guide"
 title: "Network Integration User&#39;s Guide2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

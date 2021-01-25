@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning and Architecting Solutions Using Data Clients"
 title: "Planning and Architecting Solutions Using Data Clients | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Physical Unit (PU)"
 title: "Physical Unit (PU)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

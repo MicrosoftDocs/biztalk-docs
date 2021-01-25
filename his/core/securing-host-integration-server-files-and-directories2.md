@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Securing Host Integration Server Files and Directories"
 title: "Securing Host Integration Server Files and Directories2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

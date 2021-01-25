@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managed Provider for DB2 Goals"
 title: "Managed Provider for DB2 Goals1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

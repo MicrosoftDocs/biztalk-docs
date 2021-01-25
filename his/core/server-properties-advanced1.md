@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server Properties: Advanced"
 title: "Server Properties: Advanced1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

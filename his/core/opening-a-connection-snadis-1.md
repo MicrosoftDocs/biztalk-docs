@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Opening a Connection (SNADIS)"
 title: "Opening a Connection (SNADIS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Settings to Check on Channel Connections"
 title: "Settings to Check on Channel Connections2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

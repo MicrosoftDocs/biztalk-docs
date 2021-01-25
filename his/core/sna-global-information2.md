@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA Global Information"
 title: "SNA Global Information2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

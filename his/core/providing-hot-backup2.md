@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Providing Hot Backup"
 title: "Providing Hot Backup2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

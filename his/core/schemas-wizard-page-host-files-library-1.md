@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Schemas Wizard Page (Host Files Library)"
 title: "Schemas Wizard Page (Host Files Library)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

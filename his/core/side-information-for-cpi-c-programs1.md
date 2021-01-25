@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Side Information for CPI-C Programs"
 title: "Side Information for CPI-C Programs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

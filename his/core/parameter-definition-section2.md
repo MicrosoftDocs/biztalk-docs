@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Parameter Definition Section"
 title: "Parameter Definition Section2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Specify the Subdomain Configuration File"
 title: "Specify the Subdomain Configuration File2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

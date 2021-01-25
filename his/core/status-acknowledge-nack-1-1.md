@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Status-Acknowledge(Nack-1)"
 title: "Status-Acknowledge(Nack-1)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

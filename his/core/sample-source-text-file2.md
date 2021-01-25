@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Source Text File"
 title: "Sample Source Text File2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Relationships between the .NET Provider for DB2 Interfaces"
 title: "Relationships between the .NET Provider for DB2 Interfaces2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

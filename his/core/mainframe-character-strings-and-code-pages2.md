@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mainframe Character Strings and Code Pages"
 title: "Mainframe Character Strings and Code Pages2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

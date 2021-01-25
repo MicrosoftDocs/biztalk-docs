@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Network Analyzer"
 title: "Network Analyzer2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

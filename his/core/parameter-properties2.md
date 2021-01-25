@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Parameter Properties"
 title: "Parameter Properties2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

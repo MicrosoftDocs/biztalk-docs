@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RUI and SLI Definitions"
 title: "RUI and SLI Definitions1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

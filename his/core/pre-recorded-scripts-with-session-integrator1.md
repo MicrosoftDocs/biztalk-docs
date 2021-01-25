@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Pre-Recorded Scripts with Session Integrator"
 title: "Pre-Recorded Scripts with Session Integrator1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Remote APPC LUs Folder"
 title: "Remote APPC LUs Folder2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

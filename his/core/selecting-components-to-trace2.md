@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Selecting Components to Trace"
 title: "Selecting Components to Trace2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_ConnectionSdlc Class"
 title: "MsSna_ConnectionSdlc Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

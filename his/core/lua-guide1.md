@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA Guide"
 title: "LUA Guide1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

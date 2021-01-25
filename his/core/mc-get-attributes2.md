@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MC_GET_ATTRIBUTES"
 title: "MC_GET_ATTRIBUTES2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

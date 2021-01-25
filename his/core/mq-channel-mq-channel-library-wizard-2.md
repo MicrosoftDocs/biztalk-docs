@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MQ Channel (MQ Channel Library Wizard)"
 title: "MQ Channel (MQ Channel Library Wizard)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

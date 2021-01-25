@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RUI_WRITE"
 title: "RUI_WRITE2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

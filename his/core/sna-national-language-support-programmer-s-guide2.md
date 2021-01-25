@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA National Language Support Programmer&#39;s Guide"
 title: "SNA National Language Support Programmer&#39;s Guide2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

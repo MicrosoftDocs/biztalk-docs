@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sending a Message with Transaction Integrator for LU0"
 title: "Sending a Message with Transaction Integrator for LU01 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

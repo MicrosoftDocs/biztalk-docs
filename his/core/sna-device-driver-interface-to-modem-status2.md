@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA Device Driver Interface to Modem Status"
 title: "SNA Device Driver Interface to Modem Status2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

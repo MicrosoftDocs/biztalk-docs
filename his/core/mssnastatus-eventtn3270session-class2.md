@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_EventTN3270Session Class"
 title: "MsSnaStatus_EventTN3270Session Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

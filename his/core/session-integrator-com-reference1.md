@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session Integrator COM Reference"
 title: "Session Integrator COM Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

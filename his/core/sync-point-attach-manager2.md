@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sync Point Attach Manager"
 title: "Sync Point Attach Manager2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Maximizing Communications Performance"
 title: "Maximizing Communications Performance1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

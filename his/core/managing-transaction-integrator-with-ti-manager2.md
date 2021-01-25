@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing Transaction Integrator with TI Manager"
 title: "Managing Transaction Integrator with TI Manager2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

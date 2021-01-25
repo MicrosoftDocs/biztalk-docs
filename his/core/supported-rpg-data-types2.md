@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Supported RPG Data Types"
 title: "Supported RPG Data Types2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

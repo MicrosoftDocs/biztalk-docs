@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Set_Return_Control (CPI-C)"
 title: "Set_Return_Control (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

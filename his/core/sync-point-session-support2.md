@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sync Point Session Support"
 title: "Sync Point Session Support2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

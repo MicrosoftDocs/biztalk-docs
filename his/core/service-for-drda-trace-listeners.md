@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Service for DRDA Trace Listeners"
 title: "Service for DRDA Trace Listeners | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

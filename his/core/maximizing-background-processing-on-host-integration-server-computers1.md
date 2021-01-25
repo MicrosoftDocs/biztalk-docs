@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Maximizing Background Processing on Host Integration Server Computers"
 title: "Maximizing Background Processing on Host Integration Server Computers1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

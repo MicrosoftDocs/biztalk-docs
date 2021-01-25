@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Refreshing the TI Manager Display"
 title: "Refreshing the TI Manager Display1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

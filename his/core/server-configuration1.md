@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server Configuration"
 title: "Server Configuration1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sync Point Support Architecture"
 title: "Sync Point Support Architecture2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

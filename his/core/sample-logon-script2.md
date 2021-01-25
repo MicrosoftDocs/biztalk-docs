@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Logon Script"
 title: "Sample Logon Script2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

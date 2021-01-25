@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsHis_CodePage Class"
 title: "MsHis_CodePage Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Status-Session Message"
 title: "Status-Session Message1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

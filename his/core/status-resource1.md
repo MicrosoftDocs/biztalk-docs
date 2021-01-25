@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Status-Resource"
 title: "Status-Resource1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

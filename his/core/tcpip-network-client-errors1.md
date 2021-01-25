@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TCPIP Network Client Errors"
 title: "TCPIP Network Client Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

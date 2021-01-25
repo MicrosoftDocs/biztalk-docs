@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Recordsets and Datatables"
 title: "Recordsets and Datatables1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

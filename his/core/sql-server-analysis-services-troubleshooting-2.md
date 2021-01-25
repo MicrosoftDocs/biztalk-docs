@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SQL Server Analysis Services (Troubleshooting)"
 title: "SQL Server Analysis Services (Troubleshooting)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

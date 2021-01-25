@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SLI_OPEN VCB Structure"
 title: "SLI_OPEN VCB Structure2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

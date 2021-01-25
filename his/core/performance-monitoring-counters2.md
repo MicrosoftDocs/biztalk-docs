@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Performance Monitoring Counters"
 title: "Performance Monitoring Counters2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

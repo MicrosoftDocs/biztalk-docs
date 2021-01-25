@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Supported .NET Aggregate Data Types"
 title: "Supported .NET Aggregate Data Types1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

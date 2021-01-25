@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA APPC Errors"
 title: "SNA APPC Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

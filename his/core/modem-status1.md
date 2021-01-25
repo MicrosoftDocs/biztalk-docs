@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MODEM_STATUS"
 title: "MODEM_STATUS1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

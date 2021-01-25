@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MC_CONFIRM"
 title: "MC_CONFIRM2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

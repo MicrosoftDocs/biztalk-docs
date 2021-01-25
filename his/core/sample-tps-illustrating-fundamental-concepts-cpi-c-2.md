@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample TPs Illustrating Fundamental Concepts (CPI-C)"
 title: "Sample TPs Illustrating Fundamental Concepts (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

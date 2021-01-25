@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sync Point Level 2 Support in Host Integration Server"
 title: "Sync Point Level 2 Support in Host Integration Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

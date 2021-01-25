@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SDLC Outage Codes"
 title: "SDLC Outage Codes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

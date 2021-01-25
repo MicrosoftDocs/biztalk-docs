@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA Session Support"
 title: "SNA Session Support2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

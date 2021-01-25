@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OEM PC Code Page Support (SNANLS)"
 title: "OEM PC Code Page Support (SNANLS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

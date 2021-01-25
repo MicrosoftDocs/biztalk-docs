@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sync Point Level 2 Confirm Support"
 title: "Sync Point Level 2 Confirm Support1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

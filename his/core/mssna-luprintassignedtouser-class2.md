@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_LuPrintAssignedToUser Class"
 title: "MsSna_LuPrintAssignedToUser Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Protect the Local File System, Database, and Registry"
 title: "Protect the Local File System, Database, and Registry1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

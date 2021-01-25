@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session Integrator for LU0"
 title: "Session Integrator for LU0 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SSCP Session Characteristics"
 title: "SSCP Session Characteristics2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sync Point Conversation Activation"
 title: "Sync Point Conversation Activation2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Retrieving Information from the Host File System"
 title: "Retrieving Information from the Host File System2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

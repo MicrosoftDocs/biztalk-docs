@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA_SPECIFIC.SLI_OPEN"
 title: "LUA_SPECIFIC.SLI_OPEN1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

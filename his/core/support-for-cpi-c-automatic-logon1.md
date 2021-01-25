@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for CPI-C Automatic Logon"
 title: "Support for CPI-C Automatic Logon1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

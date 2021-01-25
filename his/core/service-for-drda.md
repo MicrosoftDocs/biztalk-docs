@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Service for DRDA"
 title: "Service for DRDA | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

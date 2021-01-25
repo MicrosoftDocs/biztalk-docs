@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_TN5250SessionIPFilter Class"
 title: "MsSna_TN5250SessionIPFilter Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

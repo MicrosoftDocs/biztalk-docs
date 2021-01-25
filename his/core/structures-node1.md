@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Structures Node"
 title: "Structures Node1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

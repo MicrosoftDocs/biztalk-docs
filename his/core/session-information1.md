@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session Information"
 title: "Session Information1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

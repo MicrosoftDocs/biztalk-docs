@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3 (LU) Creating and Configuring 3270 LUs"
 title: "Step 3 (LU) Creating and Configuring 3270 LUs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

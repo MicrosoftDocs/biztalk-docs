@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Snacfg Error Messages"
 title: "Snacfg Error Messages2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

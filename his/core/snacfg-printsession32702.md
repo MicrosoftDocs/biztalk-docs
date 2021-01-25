@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Snacfg PrintSession3270"
 title: "Snacfg PrintSession32702 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

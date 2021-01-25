@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Overview of Message Formats (SNADIS)"
 title: "Overview of Message Formats (SNADIS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

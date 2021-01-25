@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: sqlApplicationManager"
 title: "sqlApplicationManager | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

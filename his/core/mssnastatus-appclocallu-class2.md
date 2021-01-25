@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_AppcLocalLu Class"
 title: "MsSnaStatus_AppcLocalLu Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

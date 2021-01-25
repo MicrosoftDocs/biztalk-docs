@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SYNCPT Verb Issued Locally"
 title: "SYNCPT Verb Issued Locally2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

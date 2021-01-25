@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Snacfg TN3Session"
 title: "Snacfg TN3Session1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

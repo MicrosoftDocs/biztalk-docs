@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Status-Control(...) Acknowledge"
 title: "Status-Control(...) Acknowledge1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

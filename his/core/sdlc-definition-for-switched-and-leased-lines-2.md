@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SDLC Definition (for Switched and Leased Lines)"
 title: "SDLC Definition (for Switched and Leased Lines)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

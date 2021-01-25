@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_Connection8022Dlc Class"
 title: "MsSna_Connection8022Dlc Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

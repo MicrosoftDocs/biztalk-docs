@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Structure Member Name Node"
 title: "Structure Member Name Node2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

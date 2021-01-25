@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Open(PLU) OResponse"
 title: "Open(PLU) OResponse2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

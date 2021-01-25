@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Secure Deployment of the IP-DLC Link Service"
 title: "Secure Deployment of the IP-DLC Link Service2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MQSC Adapter Features"
 title: "MQSC Adapter Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

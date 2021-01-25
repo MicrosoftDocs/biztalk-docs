@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prerequisites for LUA Single Sign-On"
 title: "Prerequisites for LUA Single Sign-On2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Memory Leak in User-Defined Types"
 title: "Memory Leak in User-Defined Types1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

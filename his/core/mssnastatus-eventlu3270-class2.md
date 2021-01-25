@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_EventLu3270 Class"
 title: "MsSnaStatus_EventLu3270 Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

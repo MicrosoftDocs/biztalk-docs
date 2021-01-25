@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Static SQL Packages"
 title: "Static SQL Packages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

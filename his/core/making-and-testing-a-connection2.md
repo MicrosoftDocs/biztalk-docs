@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Making and Testing a Connection"
 title: "Make and Test a Connection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

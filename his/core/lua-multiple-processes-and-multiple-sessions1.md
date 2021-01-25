@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA Multiple Processes and Multiple Sessions"
 title: "LUA Multiple Processes and Multiple Sessions1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

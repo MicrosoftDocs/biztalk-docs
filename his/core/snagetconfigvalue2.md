@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNAGetConfigValue"
 title: "SNAGetConfigValue2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

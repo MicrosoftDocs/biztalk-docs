@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting Port Numbers (TN3270)"
 title: "Setting Port Numbers (TN3270)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

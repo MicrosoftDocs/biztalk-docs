@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for ODBC 3 Functions"
 title: "Support for ODBC 3 Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

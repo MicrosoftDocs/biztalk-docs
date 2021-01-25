@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OLE DB Provider-Specific Property Support in the OLE DB Provider for DB2"
 title: "OLE DB Provider-Specific Property Support in the OLE DB Provider for DB21 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

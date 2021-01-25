@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Obtaining Schema Information from the Host File System"
 title: "Obtaining Schema Information from the Host File System1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

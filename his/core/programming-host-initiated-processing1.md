@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Programming Host-Initiated Processing"
 title: "Programming Host-Initiated Processing1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

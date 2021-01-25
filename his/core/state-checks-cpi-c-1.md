@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: State Checks (CPI-C)"
 title: "State Checks (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

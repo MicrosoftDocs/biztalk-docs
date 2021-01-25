@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Protecting the TI .NET Assembly from Unauthorized Access"
 title: "Protect the TI .NET Assembly from Unauthorized Access | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

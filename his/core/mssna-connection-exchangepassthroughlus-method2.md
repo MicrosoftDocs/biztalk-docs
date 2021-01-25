@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_Connection.ExchangePassthroughLus Method"
 title: "MsSna_Connection.ExchangePassthroughLus Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Saving a Configuration (5250)"
 title: "Saving a Configuration (5250)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

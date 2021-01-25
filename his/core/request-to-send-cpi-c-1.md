@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Request_To_Send (CPI-C)"
 title: "Request_To_Send (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

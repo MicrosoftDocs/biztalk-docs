@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Protecting the TI Record or Playback Files from Unauthorized Access"
 title: "Protect the TI Record or Playback Files from Unauthorized Access | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_EventServiceSharedFolder Class"
 title: "MsSnaStatus_EventServiceSharedFolder Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

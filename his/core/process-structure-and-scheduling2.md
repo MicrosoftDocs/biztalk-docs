@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Process Structure and Scheduling"
 title: "Process Structure and Scheduling2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

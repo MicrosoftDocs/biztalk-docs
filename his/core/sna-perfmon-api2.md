@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA Perfmon API"
 title: "SNA Perfmon API2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

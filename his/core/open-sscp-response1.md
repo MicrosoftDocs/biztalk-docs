@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Open(SSCP) Response"
 title: "Open(SSCP) Response1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

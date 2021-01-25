@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: State Errors (Category X&#39;20&#39;)"
 title: "State Errors (Category X&#39;20&#39;)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

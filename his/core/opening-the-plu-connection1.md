@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Opening the PLU Connection"
 title: "Opening the PLU Connection1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

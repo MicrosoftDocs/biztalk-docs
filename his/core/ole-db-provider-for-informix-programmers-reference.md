@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OLE DB Provider for Informix Programmers Reference"
 title: "OLE DB Provider for Informix Programmers Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

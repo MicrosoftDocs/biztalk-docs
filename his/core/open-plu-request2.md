@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Open(PLU) Request"
 title: "Open(PLU) Request2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

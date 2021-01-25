@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Opening the LINLPI Connection"
 title: "Opening the LINLPI Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

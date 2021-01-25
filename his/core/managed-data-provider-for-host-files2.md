@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managed Data Provider for Host Files"
 title: "Managed Data Provider for Host Files2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

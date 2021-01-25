@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Secondary with INITSELF"
 title: "Secondary with INITSELF2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Set_Error_Direction (CPI-C)"
 title: "Set_Error_Direction (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

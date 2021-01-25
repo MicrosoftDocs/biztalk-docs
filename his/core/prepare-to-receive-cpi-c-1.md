@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prepare_To_Receive (CPI-C)"
 title: "Prepare_To_Receive (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

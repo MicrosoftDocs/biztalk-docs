@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNAGetSystemInfo"
 title: "SNAGetSystemInfo1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

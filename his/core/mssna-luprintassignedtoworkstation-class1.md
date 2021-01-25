@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_LuPrintAssignedToWorkstation Class"
 title: "MsSna_LuPrintAssignedToWorkstation Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

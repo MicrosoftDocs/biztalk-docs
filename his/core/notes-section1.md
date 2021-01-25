@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Notes Section"
 title: "Notes Section1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
