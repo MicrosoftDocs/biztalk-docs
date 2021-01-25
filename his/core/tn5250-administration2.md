@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TN5250 Administration"
 title: "TN5250 Administration2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

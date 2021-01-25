@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Construct Message Shape"
 title: Construct Message Shape
 TOCTitle: Construct Message Shape
 ms:assetid: bd57a22d-d6ee-41da-a0f8-f28c61af64f3

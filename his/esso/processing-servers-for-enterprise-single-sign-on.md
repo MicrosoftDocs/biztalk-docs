@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Processing Servers for Enterprise Single Sign-On"
 title: "Processing Servers for Enterprise Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

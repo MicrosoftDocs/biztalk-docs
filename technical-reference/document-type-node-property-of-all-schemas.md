@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Document Type (Node Property of All Schemas)"
 title: Document Type (Node Property of All Schemas)
 TOCTitle: Document Type (Node Property of All Schemas)
 ms:assetid: ea77bc01-72fe-4b68-9d77-a66ebe29d929

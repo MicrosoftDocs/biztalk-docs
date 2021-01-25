@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction Integrator Manager Console"
 title: "Transaction Integrator Manager Console1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

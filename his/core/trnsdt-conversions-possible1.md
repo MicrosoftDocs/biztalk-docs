@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TrnsDT Conversions Possible"
 title: "TrnsDT Conversions Possible1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

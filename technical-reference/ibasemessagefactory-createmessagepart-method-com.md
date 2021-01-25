@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageFactory.CreateMessagePart Method (COM)"
 title: IBaseMessageFactory.CreateMessagePart Method (COM)
 TOCTitle: IBaseMessageFactory.CreateMessagePart Method (COM)
 ms:assetid: 5e9e0d87-2800-4f2d-a907-171c9ac4afad

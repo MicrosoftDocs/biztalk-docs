@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Group Page"
 title: Configuration Wizard, Group Page
 TOCTitle: Configuration Wizard, Group Page
 ms:assetid: 9e3c8f7f-85ac-42f7-9ab2-12dc5ad7c5f9

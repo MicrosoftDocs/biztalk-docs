@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Web-to-Host Load Balancing"
 title: "Web-to-Host Load Balancing1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

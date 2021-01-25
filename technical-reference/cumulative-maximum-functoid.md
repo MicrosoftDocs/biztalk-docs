@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Cumulative Maximum Functoid"
 title: Cumulative Maximum Functoid
 TOCTitle: Cumulative Maximum Functoid
 ms:assetid: f24cf94a-10dd-4f8f-bcf7-d2b43f49a697

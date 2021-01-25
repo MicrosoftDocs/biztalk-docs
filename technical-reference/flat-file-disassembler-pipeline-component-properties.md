@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Flat File Disassembler Pipeline Component Properties"
 title: Flat File Disassembler Pipeline Component Properties
 TOCTitle: Flat File Disassembler Pipeline Component Properties
 ms:assetid: 579f9da1-fbdc-4733-846d-cdb6495b8d74

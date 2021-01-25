@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, Proxy Tab (WCF-WSHttp Adapter Send Handler)"
 title: <Host Name> Properties Dialog Box, Proxy Tab (WCF-WSHttp Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Proxy Tab (WCF-WSHttp Adapter Send Handler)
 ms:assetid: 8d4b87d6-82b7-4410-99db-7a5c0f6084f5

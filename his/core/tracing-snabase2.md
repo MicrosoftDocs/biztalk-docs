@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tracing SnaBase"
 title: "Tracing SnaBase2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

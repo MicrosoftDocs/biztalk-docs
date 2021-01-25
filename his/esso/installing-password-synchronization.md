@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing Password Synchronization"
 title: "Installing Password Synchronization | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

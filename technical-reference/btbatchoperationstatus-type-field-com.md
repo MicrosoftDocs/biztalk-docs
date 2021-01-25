@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: _BTBatchOperationStatus.Type Field (COM)"
 title: _BTBatchOperationStatus.Type Field (COM)
 TOCTitle: _BTBatchOperationStatus.Type Field (COM)
 ms:assetid: 8e1a6ddd-9460-41fb-854f-b6044f934b41

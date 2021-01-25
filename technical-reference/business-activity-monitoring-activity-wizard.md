@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Business Activity Monitoring Activity Wizard"
 title: Business Activity Monitoring Activity Wizard
 TOCTitle: Business Activity Monitoring Activity Wizard
 ms:assetid: d57f9e0b-b88e-4e12-816a-59f5ed2fd22a

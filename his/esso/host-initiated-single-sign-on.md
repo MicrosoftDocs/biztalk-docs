@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Initiated Single Sign-On"
 title: "Host Initiated Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

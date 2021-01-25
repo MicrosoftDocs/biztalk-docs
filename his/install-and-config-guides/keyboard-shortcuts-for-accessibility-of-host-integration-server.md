@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Keyboard Shortcuts for Accessibility of Host Integration Server"
 title: "Keyboard Shortcuts for Accessibility | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

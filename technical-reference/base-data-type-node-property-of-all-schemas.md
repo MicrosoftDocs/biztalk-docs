@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Base Data Type (Node Property of All Schemas)"
 title: Base Data Type (Node Property of All Schemas)
 TOCTitle: Base Data Type (Node Property of All Schemas)
 ms:assetid: 17972a21-fe2e-4968-ab94-89f87d6b93f6

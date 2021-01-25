@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unions Shortcut Menu (Host File Designer)"
 title: "Unions Shortcut Menu (Host File Designer)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

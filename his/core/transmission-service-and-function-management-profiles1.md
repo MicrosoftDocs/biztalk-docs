@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transmission Service and Function Management Profiles"
 title: "Transmission Service and Function Management Profiles1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

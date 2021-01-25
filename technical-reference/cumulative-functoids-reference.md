@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Cumulative Functoids Reference"
 title: Cumulative Functoids Reference
 TOCTitle: Cumulative Functoids Reference
 ms:assetid: ee3b72df-92f3-4516-973a-c439eae1c150

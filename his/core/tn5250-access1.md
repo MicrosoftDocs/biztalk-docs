@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TN5250 Access"
 title: "TN5250 Access1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

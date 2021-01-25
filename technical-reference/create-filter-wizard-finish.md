@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create Filter Wizard: Finish"
 title: 'Create Filter Wizard: Finish'
 TOCTitle: 'Create Filter Wizard: Finish'
 ms:assetid: a82dbfed-e9ee-431f-8834-6b4c5bbcf3c3

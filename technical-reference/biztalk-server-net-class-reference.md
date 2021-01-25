@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Server .NET Class Reference"
 title: BizTalk Server .NET Class Reference
 TOCTitle: BizTalk Server .NET Class Reference
 ms:assetid: 868b62a7-1907-4006-b8e9-6a917a0e3721

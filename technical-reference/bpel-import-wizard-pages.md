@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BPEL Import Wizard Pages"
 title: BPEL Import Wizard Pages
 TOCTitle: BPEL Import Wizard Pages
 ms:assetid: 7a72ddfd-13dd-4cb7-a0a9-8f979d4f61f1

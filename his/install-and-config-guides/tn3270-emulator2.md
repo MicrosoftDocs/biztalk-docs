@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TN3270 Emulator"
 title: "TN3270 Emulator shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

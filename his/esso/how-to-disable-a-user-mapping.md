@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Disable a User Mapping"
 title: "How to Disable a User Mapping | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

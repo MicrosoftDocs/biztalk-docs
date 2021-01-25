@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, General Tab (HTTP Adapter Receive Handler)"
 title: <Host Name> Properties Dialog Box, General Tab (HTTP Adapter Receive Handler)
 TOCTitle: <Host Name> Properties Dialog Box, General Tab (HTTP Adapter Receive Handler)
 ms:assetid: 42d56ec6-23f1-476d-b296-7ff420d7d311

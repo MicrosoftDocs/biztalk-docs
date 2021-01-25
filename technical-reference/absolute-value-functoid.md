@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Absolute Value Functoid"
 title: Absolute Value Functoid
 TOCTitle: Absolute Value Functoid
 ms:assetid: f29fb258-a84f-4af9-98ff-19c74af30d1d

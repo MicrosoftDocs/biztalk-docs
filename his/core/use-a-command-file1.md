@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use a Command File"
 title: "Use a Command File1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

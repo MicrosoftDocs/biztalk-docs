@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Field Type (Node Property of All Schemas)"
 title: Field Type (Node Property of All Schemas)
 TOCTitle: Field Type (Node Property of All Schemas)
 ms:assetid: 9615f4cb-c9ee-45f6-9587-89aa044485c0

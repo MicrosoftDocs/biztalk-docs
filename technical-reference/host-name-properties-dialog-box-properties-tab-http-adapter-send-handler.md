@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, Properties Tab (HTTP Adapter Send Handler)"
 title: <Host Name> Properties Dialog Box, Properties Tab (HTTP Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Properties Tab (HTTP Adapter Send Handler)
 ms:assetid: e1395497-2631-4c1a-b40c-7e1d66c115ea

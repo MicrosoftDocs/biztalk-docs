@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: File Transport Properties Dialog Box, Send, General Tab"
 title: File Transport Properties Dialog Box, Send, General Tab
 TOCTitle: File Transport Properties Dialog Box, Send, General Tab
 ms:assetid: d8f5d4f7-97c0-4ff9-b4b6-13ceb2fe6f83

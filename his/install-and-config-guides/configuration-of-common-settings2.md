@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure Common Settings"
 title: "Configure Common Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

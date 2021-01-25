@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EDI Interchange and Correlated ACK Status Page UI"
 title: EDI Interchange and Correlated ACK Status Page UI
 TOCTitle: EDI Interchange and Correlated ACK Status Page UI
 ms:assetid: 9edaf8b6-80ce-414b-967d-476e1930c342

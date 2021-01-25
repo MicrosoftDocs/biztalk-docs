@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, Proxy Tab (SOAP Adapter)"
 title: <Host Name> Properties Dialog Box, Proxy Tab (SOAP Adapter)
 TOCTitle: <Host Name> Properties Dialog Box, Proxy Tab (SOAP Adapter)
 ms:assetid: b0340493-5b77-4aef-b143-859cf770af26

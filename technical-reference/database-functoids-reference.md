@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Database Functoids Reference"
 title: Database Functoids Reference
 TOCTitle: Database Functoids Reference
 ms:assetid: fcd72f31-d451-43fb-aa2a-23e42b0a0985

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Progress Page"
 title: Configuration Wizard, Progress Page
 TOCTitle: Configuration Wizard, Progress Page
 ms:assetid: 1a28b473-5aeb-4cd2-aec2-b886e30b35c2

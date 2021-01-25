@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Export Bindings Page"
 title: Export Bindings Page
 TOCTitle: Export Bindings Page
 ms:assetid: ed067fa7-c80d-422a-8983-e89d2bdb5a25

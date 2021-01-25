@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Single Sign-On"
 title: "How to Configure Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

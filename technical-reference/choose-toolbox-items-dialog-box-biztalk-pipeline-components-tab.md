@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Choose Toolbox Items Dialog Box, BizTalk Pipeline Components Tab"
 title: Choose Toolbox Items Dialog Box, BizTalk Pipeline Components Tab
 TOCTitle: Choose Toolbox Items Dialog Box, BizTalk Pipeline Components Tab
 ms:assetid: 413fe923-df14-4ba0-932c-73c7163f9780

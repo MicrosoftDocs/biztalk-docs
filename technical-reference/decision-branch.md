@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Decision Branch"
 title: Decision Branch
 TOCTitle: Decision Branch
 ms:assetid: a18e7b9a-599b-47c6-9d16-4fec5bbdc97d

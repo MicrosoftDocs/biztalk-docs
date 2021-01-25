@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transactional Data Flows That Support Unbounded Recordsets"
 title: "Transactional Data Flows That Support Unbounded Recordsets1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Custom Date-Time Format (Node Property of Flat File Schemas)"
 title: Custom Date-Time Format (Node Property of Flat File Schemas)
 TOCTitle: Custom Date-Time Format (Node Property of Flat File Schemas)
 ms:assetid: 83d3e688-40bc-4547-9ef1-c0f0554201df

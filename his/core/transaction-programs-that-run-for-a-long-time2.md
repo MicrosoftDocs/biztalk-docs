@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction Programs that Run for a Long Time"
 title: "Transaction Programs that Run for a Long Time2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Activity Status Portal Help"
 title: Activity Status Portal Help
 TOCTitle: Activity Status Portal Help
 ms:assetid: a39fe5f4-16c8-45bf-a075-3169fe06b505

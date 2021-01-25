@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: _BTBatchOperationStatus.nMessageCount Field (COM)"
 title: _BTBatchOperationStatus.nMessageCount Field (COM)
 TOCTitle: _BTBatchOperationStatus.nMessageCount Field (COM)
 ms:assetid: 7d8cbf91-c9a0-4c66-8ea1-a70e4ae53511

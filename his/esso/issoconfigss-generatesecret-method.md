@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOConfigSS.GenerateSecret Method"
 title: "ISSOConfigSS.GenerateSecret Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

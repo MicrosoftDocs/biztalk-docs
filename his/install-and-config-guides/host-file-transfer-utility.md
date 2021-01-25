@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host File Transfer Utility"
 title: "Host File Transfer Utility shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

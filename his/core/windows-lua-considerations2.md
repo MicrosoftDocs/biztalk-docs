@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows LUA Considerations"
 title: "Windows LUA Considerations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

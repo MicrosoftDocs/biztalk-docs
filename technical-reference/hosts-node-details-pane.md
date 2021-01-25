@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Hosts Node, Details Pane"
 title: Hosts Node, Details Pane
 TOCTitle: Hosts Node, Details Pane
 ms:assetid: 059b11a2-2677-4a06-a833-eb4a79e67881

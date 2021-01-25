@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Greater Than Functoid"
 title: Greater Than Functoid
 TOCTitle: Greater Than Functoid
 ms:assetid: 3573241d-d7ef-4be4-beb5-7c49fe7815e2

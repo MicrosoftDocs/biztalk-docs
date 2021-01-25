@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Batch Schedule Page"
 title: Batch Schedule Page
 TOCTitle: Batch Schedule Page
 ms:assetid: 370b8792-3578-4df6-9f63-6d9defc3f850

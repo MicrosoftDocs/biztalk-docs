@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Flat File Schema Wizard, Schema Information Page"
 title: BizTalk Flat File Schema Wizard, Schema Information Page
 TOCTitle: BizTalk Flat File Schema Wizard, Schema Information Page
 ms:assetid: 72846e8d-9dc6-463f-87bb-c160c3160705

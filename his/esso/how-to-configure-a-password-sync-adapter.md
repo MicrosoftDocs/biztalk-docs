@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure a Password Sync Adapter"
 title: "How to Configure a Password Sync Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

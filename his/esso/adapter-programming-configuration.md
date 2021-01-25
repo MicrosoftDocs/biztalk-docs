@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adapter Programming Configuration"
 title: "Adapter Programming Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

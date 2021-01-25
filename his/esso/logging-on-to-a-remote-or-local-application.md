@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Logging on to a Remote or Local Application"
 title: "Logging on to a Remote or Local Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

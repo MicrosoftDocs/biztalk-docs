@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BAM Add-In for Excel"
 title: BAM Add-In for Excel
 TOCTitle: BAM Add-In for Excel
 ms:assetid: 9ff1f801-2037-48e4-a1b0-33932b1fc895

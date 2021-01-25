@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Assign an Application to an Adapter"
 title: "How to Assign an Application to an Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

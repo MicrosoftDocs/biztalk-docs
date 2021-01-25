@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Flat File Schema Wizard, Select Document Data Page"
 title: BizTalk Flat File Schema Wizard, Select Document Data Page
 TOCTitle: BizTalk Flat File Schema Wizard, Select Document Data Page
 ms:assetid: 102b7638-e8ad-46ee-b640-05c6e8beee8c

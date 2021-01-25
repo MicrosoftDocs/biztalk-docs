@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: CodeList Dialog Box"
 title: CodeList Dialog Box
 TOCTitle: CodeList Dialog Box
 ms:assetid: 1531ab63-8bd6-4f12-a64e-b72757131edb

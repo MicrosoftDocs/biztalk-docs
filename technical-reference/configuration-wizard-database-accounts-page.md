@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Database Accounts Page"
 title: Configuration Wizard, Database Accounts Page
 TOCTitle: Configuration Wizard, Database Accounts Page
 ms:assetid: 77e6a3e2-5b5a-44d7-acbc-b7d94838ddea

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: HTTP Transport Properties Dialog Box, General Tab"
 title: HTTP Transport Properties Dialog Box, General Tab
 TOCTitle: HTTP Transport Properties Dialog Box, General Tab
 ms:assetid: bfec6b41-c556-4f10-9d42-0815b655f686

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Aggregation Viewer"
 title: Aggregation Viewer
 TOCTitle: Aggregation Viewer
 ms:assetid: d39664b8-0d2a-4ad7-a718-b4cbbe35a21b

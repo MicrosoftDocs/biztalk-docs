@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Affiliate Application Wizard: Fields"
 title: 'Create New Affiliate Application Wizard: Fields'
 TOCTitle: 'Create New Affiliate Application Wizard: Fields'
 ms:assetid: 7f9a8675-dd4f-4718-90f1-9538661f7494

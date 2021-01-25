@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Settings Dashboard, Host Instances Page, .NET CLR Tab"
 title: BizTalk Settings Dashboard, Host Instances Page, .NET CLR Tab
 TOCTitle: BizTalk Settings Dashboard, Host Instances Page, .NET CLR Tab
 ms:assetid: 050dc059-31e2-4eb2-9367-4af55da81a58

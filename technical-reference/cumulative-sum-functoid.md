@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Cumulative Sum Functoid"
 title: Cumulative Sum Functoid
 TOCTitle: Cumulative Sum Functoid
 ms:assetid: fd284a70-5f29-4631-974a-3f97a154f9b9

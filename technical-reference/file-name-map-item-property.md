@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: File Name (Map Item Property)"
 title: File Name (Map Item Property)
 TOCTitle: File Name (Map Item Property)
 ms:assetid: 4dc855d5-c1ca-4ccd-a505-21eeca211c85

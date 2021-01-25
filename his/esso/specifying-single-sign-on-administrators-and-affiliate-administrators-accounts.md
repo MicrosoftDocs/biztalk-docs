@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Specifying Single Sign-On Administrators and Affiliate Administrators Accounts"
 title: "Specifying Single Sign-On Administrators and Affiliate Administrators Accounts | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

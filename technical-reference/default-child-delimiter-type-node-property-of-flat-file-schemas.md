@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Default Child Delimiter Type (Node Property of Flat File Schemas)"
 title: Default Child Delimiter Type (Node Property of Flat File Schemas)
 TOCTitle: Default Child Delimiter Type (Node Property of Flat File Schemas)
 ms:assetid: 9dac5ce2-c9af-4344-86b9-83ef40db3a6e

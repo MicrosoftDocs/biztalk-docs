@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Business Activity Monitoring - Portal Page"
 title: Configuration Wizard, Business Activity Monitoring - Portal Page
 TOCTitle: Configuration Wizard, Business Activity Monitoring - Portal Page
 ms:assetid: 4a0cbac7-726b-4619-8896-0910162f2915

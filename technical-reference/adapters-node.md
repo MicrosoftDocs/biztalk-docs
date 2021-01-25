@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Adapters Node"
 title: Adapters Node
 TOCTitle: Adapters Node
 ms:assetid: f43b26ed-d518-47e8-93e0-17de6b2aad5a

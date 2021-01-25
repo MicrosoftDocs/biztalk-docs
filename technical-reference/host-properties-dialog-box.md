@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Host Properties Dialog Box"
 title: Host Properties Dialog Box
 TOCTitle: Host Properties Dialog Box
 ms:assetid: 2241f922-3a90-429e-91cb-72f972dee70b

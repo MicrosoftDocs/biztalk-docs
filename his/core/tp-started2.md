@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TP_STARTED"
 title: "TP_STARTED2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

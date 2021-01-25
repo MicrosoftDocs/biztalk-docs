@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Field Attribute Node Properties"
 title: Field Attribute Node Properties
 TOCTitle: Field Attribute Node Properties
 ms:assetid: aea31ecf-ef0b-47a8-844f-2175b6ea1c90

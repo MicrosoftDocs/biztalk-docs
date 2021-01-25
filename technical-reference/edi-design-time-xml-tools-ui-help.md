@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EDI Design-Time XML Tools UI Help"
 title: EDI Design-Time XML Tools UI Help
 TOCTitle: EDI Design-Time XML Tools UI Help
 ms:assetid: 93ee3fb0-7be4-4d13-8923-3cdd2c2f4866

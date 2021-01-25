@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Database Definition Page"
 title: Database Definition Page
 TOCTitle: Database Definition Page
 ms:assetid: 23b8f76c-20e2-4ba8-8728-6dde4de6aa6f

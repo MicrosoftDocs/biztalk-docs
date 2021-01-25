@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Default Wrap Character Type (Node Property of Flat File Schemas)"
 title: Default Wrap Character Type (Node Property of Flat File Schemas)
 TOCTitle: Default Wrap Character Type (Node Property of Flat File Schemas)
 ms:assetid: ce329474-ac76-41c7-acb0-a9a6405d7578

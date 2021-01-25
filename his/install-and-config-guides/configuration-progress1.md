@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration Progress"
 title: "Configuration Progress | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

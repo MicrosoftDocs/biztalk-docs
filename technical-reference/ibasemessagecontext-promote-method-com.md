@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageContext.Promote Method (COM)"
 title: IBaseMessageContext.Promote Method (COM)
 TOCTitle: IBaseMessageContext.Promote Method (COM)
 ms:assetid: fd845a40-1de1-48b8-9d3e-e8ce7db91428

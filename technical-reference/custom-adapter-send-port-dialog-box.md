@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Custom Adapter Send Port Dialog Box"
 title: Custom Adapter Send Port Dialog Box
 TOCTitle: Custom Adapter Send Port Dialog Box
 ms:assetid: 40ed2f96-470f-40cb-be18-042814199378

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Cumulative Minimum Functoid"
 title: Cumulative Minimum Functoid
 TOCTitle: Cumulative Minimum Functoid
 ms:assetid: 0dc39b45-0928-4fe9-a56f-f2d58665f81b

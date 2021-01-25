@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Add Adapter Metadata Wizard Dialog Box"
 title: Add Adapter Metadata Wizard Dialog Box
 TOCTitle: Add Adapter Metadata Wizard Dialog Box
 ms:assetid: 0108026c-33cd-4b93-a086-24a6948c11bd

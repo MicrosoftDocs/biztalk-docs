@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: File Transport Properties Dialog Box, Send, Authentication Tab"
 title: File Transport Properties Dialog Box, Send, Authentication Tab
 TOCTitle: File Transport Properties Dialog Box, Send, Authentication Tab
 ms:assetid: f492b49b-13f5-480d-b497-451d69531e98

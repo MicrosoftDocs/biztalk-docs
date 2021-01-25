@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows Transactions vs. Mainframe Transactions"
 title: "Windows Transactions vs. Mainframe Transactions2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Group Min Occurs (Node Property of All Schemas)"
 title: Group Min Occurs (Node Property of All Schemas)
 TOCTitle: Group Min Occurs (Node Property of All Schemas)
 ms:assetid: 462d442d-2a16-4c57-9f4e-b6330f827acb

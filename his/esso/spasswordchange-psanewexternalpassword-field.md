@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SPasswordChange.psaNewExternalPassword Field"
 title: "SPasswordChange.psaNewExternalPassword Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

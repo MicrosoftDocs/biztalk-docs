@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Adapter Handlers Node, Details Pane"
 title: Adapter Handlers Node, Details Pane
 TOCTitle: Adapter Handlers Node, Details Pane
 ms:assetid: 2fb0de60-d3ee-4dec-82f8-32ea61897d0b

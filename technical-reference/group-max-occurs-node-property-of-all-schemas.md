@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Group Max Occurs (Node Property of All Schemas)"
 title: Group Max Occurs (Node Property of All Schemas)
 TOCTitle: Group Max Occurs (Node Property of All Schemas)
 ms:assetid: 17318b5b-29b9-42d7-88af-b2a742cf3f60

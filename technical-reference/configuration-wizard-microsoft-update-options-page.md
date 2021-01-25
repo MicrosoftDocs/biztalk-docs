@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Microsoft Update Options Page"
 title: Configuration Wizard, Microsoft Update Options Page
 TOCTitle: Configuration Wizard, Microsoft Update Options Page
 ms:assetid: 1f779014-98ce-42aa-8e1e-3fc38912bc92

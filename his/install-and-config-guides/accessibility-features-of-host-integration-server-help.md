@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Accessibility Features of HIS help"
 title: "Accessibility Features of Help | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Batches Properties Page"
 title: Batches Properties Page
 TOCTitle: Batches Properties Page
 ms:assetid: 881a356b-88f9-42c4-a52d-0348ea2638e8

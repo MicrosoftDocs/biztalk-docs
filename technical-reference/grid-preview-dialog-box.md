@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Grid Preview Dialog Box"
 title: Grid Preview Dialog Box
 TOCTitle: Grid Preview Dialog Box
 ms:assetid: 7f984d2c-0d91-472e-9d68-fce98f22da3f

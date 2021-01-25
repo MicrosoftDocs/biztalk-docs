@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set Credentials for a User Mapping"
 title: "How to Set Credentials for a User Mapping | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

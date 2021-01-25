@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TRMIN"
 title: "TRMIN1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

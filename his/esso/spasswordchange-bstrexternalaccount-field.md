@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SPasswordChange.bstrExternalAccount Field"
 title: "SPasswordChange.bstrExternalAccount Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

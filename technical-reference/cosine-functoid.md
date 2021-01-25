@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Cosine Functoid"
 title: Cosine Functoid
 TOCTitle: Cosine Functoid
 ms:assetid: 3bb3dc97-020a-41ff-854a-28924c21054d

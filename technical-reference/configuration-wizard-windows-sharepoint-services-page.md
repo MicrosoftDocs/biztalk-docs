@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Windows SharePoint Services Page"
 title: Configuration Wizard, Windows SharePoint Services Page
 TOCTitle: Configuration Wizard, Windows SharePoint Services Page
 ms:assetid: 03a6f28c-f66e-4193-b7a5-f7b1caac110e

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Call Rules Shape"
 title: Call Rules Shape
 TOCTitle: Call Rules Shape
 ms:assetid: c7d32b81-8169-495d-8b1d-a1c33e3cb898

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Custom Adapter Receive Handler Dialog Box"
 title: Custom Adapter Receive Handler Dialog Box
 TOCTitle: Custom Adapter Receive Handler Dialog Box
 ms:assetid: 18b2a05c-bd68-4a86-b2c7-006081646930

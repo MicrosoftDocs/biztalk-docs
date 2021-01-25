@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Content Type (Node Property of All Schemas)"
 title: Content Type (Node Property of All Schemas)
 TOCTitle: Content Type (Node Property of All Schemas)
 ms:assetid: db67f54d-cb33-4a25-9893-8ddbca7f3fe2

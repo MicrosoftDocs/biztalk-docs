@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Application Deployment UI Help"
 title: Application Deployment UI Help
 TOCTitle: Application Deployment UI Help
 ms:assetid: fdb1518f-7552-4533-89a2-151ead9e1f73

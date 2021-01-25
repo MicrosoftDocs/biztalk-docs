@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SStatus.ullErrorCode Field"
 title: "SStatus.ullErrorCode Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

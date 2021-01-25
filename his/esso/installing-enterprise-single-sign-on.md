@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing Enterprise Single Sign-On"
 title: "Installing Enterprise Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

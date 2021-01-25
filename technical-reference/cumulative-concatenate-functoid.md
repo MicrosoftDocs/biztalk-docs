@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Cumulative Concatenate Functoid"
 title: Cumulative Concatenate Functoid
 TOCTitle: Cumulative Concatenate Functoid
 ms:assetid: f04c493c-d150-4f80-aca9-9b77889b6b3f

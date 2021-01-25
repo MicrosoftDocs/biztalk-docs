@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOLookup2.LogonExternalUser Method"
 title: "ISSOLookup2.LogonExternalUser Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOMapping Interface (COM)"
 title: "ISSOMapping Interface (COM) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

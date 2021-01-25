@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Union Type Properties"
 title: "Union Type Properties2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

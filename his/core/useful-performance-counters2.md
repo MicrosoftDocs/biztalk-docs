@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Useful Performance Counters"
 title: "Useful Performance Counters2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

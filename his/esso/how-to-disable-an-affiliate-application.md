@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Disable an Affiliate Application"
 title: "How to Disable an Affiliate Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

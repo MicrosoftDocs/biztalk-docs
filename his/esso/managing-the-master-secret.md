@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing the Master Secret"
 title: "Managing the Master Secret | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

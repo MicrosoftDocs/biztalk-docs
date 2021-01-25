@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adapter Groups and Group Adapters"
 title: "Adapter Groups and Group Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Facts Explorer, Databases Tab"
 title: Facts Explorer, Databases Tab
 TOCTitle: Facts Explorer, Databases Tab
 ms:assetid: c6d73066-94c7-4ffe-a647-cd3c0bfd7351

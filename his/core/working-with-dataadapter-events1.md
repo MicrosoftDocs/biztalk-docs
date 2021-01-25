@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with DataAdapter Events"
 title: "Working with DataAdapter Events1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

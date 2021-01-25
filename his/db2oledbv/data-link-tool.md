@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Link Tool"
 title: "Data Link Tool | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

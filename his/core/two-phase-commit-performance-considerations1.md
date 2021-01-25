@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Two-Phase Commit Performance Considerations"
 title: "Two-Phase Commit Performance Considerations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

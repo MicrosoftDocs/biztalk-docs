@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOAdmin2 Interface (COM)"
 title: "ISSOAdmin2 Interface (COM) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

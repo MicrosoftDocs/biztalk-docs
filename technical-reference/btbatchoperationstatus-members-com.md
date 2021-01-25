@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: _BTBatchOperationStatus Members (COM)"
 title: _BTBatchOperationStatus Members (COM)
 TOCTitle: _BTBatchOperationStatus Members (COM)
 ms:assetid: 51a5529d-54f0-4411-92f5-5987abb0c26f

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configure Table Looping Functoid Dialog Box, Table Looping Grid Tab"
 title: Configure Table Looping Functoid Dialog Box, Table Looping Grid Tab
 TOCTitle: Configure Table Looping Functoid Dialog Box, Table Looping Grid Tab
 ms:assetid: 8739d80f-87c1-4854-9a95-4a383f200eba

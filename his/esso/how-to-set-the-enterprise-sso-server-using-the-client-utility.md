@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set the Enterprise SSO Server Using the Client Utility"
 title: "How to Set the Enterprise SSO Server Using the Client Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

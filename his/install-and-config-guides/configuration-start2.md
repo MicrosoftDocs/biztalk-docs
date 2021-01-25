@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration Start"
 title: "Start the Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

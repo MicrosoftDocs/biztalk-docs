@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOLookup1 Methods"
 title: "ISSOLookup1 Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

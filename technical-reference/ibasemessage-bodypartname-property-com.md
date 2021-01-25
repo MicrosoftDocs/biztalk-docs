@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage.BodyPartName Property (COM)"
 title: IBaseMessage.BodyPartName Property (COM)
 TOCTitle: IBaseMessage.BodyPartName Property (COM)
 ms:assetid: 2d4a3c71-8385-45f7-b214-c7108b95b67a

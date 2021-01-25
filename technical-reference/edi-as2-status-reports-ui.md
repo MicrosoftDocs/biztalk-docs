@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EDI-AS2 Status Reports UI"
 title: EDI-AS2 Status Reports UI
 TOCTitle: EDI-AS2 Status Reports UI
 ms:assetid: 4fb699ee-7eb1-4015-b5a7-6cfeb1c72ee5

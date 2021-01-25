@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COM Mapper Programmer's Reference"
 title: "COM Mapper Programmer's Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

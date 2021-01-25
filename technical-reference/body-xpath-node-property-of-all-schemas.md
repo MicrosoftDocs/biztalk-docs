@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Body XPath (Node Property of All Schemas)"
 title: Body XPath (Node Property of All Schemas)
 TOCTitle: Body XPath (Node Property of All Schemas)
 ms:assetid: 69ea9e35-fa36-4bbf-bc74-74d7938edd22

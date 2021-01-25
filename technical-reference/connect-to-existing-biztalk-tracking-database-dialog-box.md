@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Connect To Existing BizTalk Tracking Database Dialog Box"
 title: Connect To Existing BizTalk Tracking Database Dialog Box
 TOCTitle: Connect To Existing BizTalk Tracking Database Dialog Box
 ms:assetid: 4519f122-b183-414b-be72-df467f680d88

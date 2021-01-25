@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, Receive Handler Tab (WCF-NetTcp Adapter Receive Handler)"
 title: <Host Name> Properties Dialog Box, Receive Handler Tab (WCF-NetTcp Adapter Receive Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Receive Handler Tab (WCF-NetTcp Adapter Receive Handler)
 ms:assetid: 7726852d-c82c-4d2a-bdd1-be7df85cfd3d

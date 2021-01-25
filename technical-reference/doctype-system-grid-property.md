@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Doctype System (Grid Property)"
 title: Doctype System (Grid Property)
 TOCTitle: Doctype System (Grid Property)
 ms:assetid: 35217ea9-4bb6-41af-8671-8346db933c5a

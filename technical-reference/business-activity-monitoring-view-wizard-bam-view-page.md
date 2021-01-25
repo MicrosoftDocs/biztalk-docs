@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Business Activity Monitoring View Wizard, BAM View Page"
 title: Business Activity Monitoring View Wizard, BAM View Page
 TOCTitle: Business Activity Monitoring View Wizard, BAM View Page
 ms:assetid: 12680dbd-b8cc-46b0-be9f-06110accfd51

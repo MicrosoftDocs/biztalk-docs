@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageFactory.CreateMessageContext Method (COM)"
 title: IBaseMessageFactory.CreateMessageContext Method (COM)
 TOCTitle: IBaseMessageFactory.CreateMessageContext Method (COM)
 ms:assetid: 72683e61-af87-4059-80f5-9c429a5bba5a

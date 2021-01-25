@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SPasswordChange Fields"
 title: "SPasswordChange Fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

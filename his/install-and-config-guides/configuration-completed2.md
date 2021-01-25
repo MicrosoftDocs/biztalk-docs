@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration Completed"
 title: "Configuration Completed | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

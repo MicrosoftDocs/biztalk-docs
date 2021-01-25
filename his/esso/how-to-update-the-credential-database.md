@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Update the Credential Database"
 title: "How to Update the Credential Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

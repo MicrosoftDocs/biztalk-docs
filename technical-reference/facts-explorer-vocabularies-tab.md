@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Facts Explorer, Vocabularies Tab"
 title: Facts Explorer, Vocabularies Tab
 TOCTitle: Facts Explorer, Vocabularies Tab
 ms:assetid: 21babd6a-39c8-4b89-8033-3d05b632b6f9

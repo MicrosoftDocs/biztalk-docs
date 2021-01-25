@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Derived By (Node Property of All Schemas)"
 title: Derived By (Node Property of All Schemas)
 TOCTitle: Derived By (Node Property of All Schemas)
 ms:assetid: d9b89527-6611-4cc6-af58-e2e6334f8b0d

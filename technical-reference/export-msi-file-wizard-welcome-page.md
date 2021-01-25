@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Export MSI File Wizard, Welcome Page"
 title: Export MSI File Wizard, Welcome Page
 TOCTitle: Export MSI File Wizard, Welcome Page
 ms:assetid: 56e71b65-55f7-485d-987c-8e4049f9b74a

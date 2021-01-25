@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Arc Tangent Functoid"
 title: Arc Tangent Functoid
 TOCTitle: Arc Tangent Functoid
 ms:assetid: 4fb47c9d-9586-4469-8d54-404ac1157c87

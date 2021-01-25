@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Applications Node"
 title: Applications Node
 TOCTitle: Applications Node
 ms:assetid: f8a9f5d3-7745-45a6-af04-caa07e7ba157

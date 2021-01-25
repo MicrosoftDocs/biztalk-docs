@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Choose Toolbox Items Dialog Box, BizTalk Mapper Functoids Tab"
 title: Choose Toolbox Items Dialog Box, BizTalk Mapper Functoids Tab
 TOCTitle: Choose Toolbox Items Dialog Box, BizTalk Mapper Functoids Tab
 ms:assetid: 7acd1e5f-1113-489d-b716-483d213a8c5c

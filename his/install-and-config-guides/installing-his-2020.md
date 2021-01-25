@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Install and configure HIS 2020"
 title: "Install HIS 2020 | Microsoft Docs"
 ms.custom: ""
 ms.date: "5/4/2020"

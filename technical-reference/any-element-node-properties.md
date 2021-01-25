@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Any Element Node Properties"
 title: Any Element Node Properties
 TOCTitle: Any Element Node Properties
 ms:assetid: 9ab407dd-e8b2-4dd5-9c65-4cc8b85d0634

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Loopback Adapter Sample"
 title: "Loopback Adapter Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

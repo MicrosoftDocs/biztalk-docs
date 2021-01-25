@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Full Path (Map Item Property)"
 title: Full Path (Map Item Property)
 TOCTitle: Full Path (Map Item Property)
 ms:assetid: f15db3d3-7f96-4c7d-8715-082c714933d7

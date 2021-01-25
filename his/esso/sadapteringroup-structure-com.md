@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SAdapterInGroup Structure (COM)"
 title: "SAdapterInGroup Structure (COM) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

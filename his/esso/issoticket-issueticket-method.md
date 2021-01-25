@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOTicket.IssueTicket Method"
 title: "ISSOTicket.IssueTicket Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

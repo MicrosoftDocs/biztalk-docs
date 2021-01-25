@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Group Reference (Node Property of All Schemas)"
 title: Group Reference (Node Property of All Schemas)
 TOCTitle: Group Reference (Node Property of All Schemas)
 ms:assetid: 62919e8b-f312-4ff0-97ea-53bd0e6ece28

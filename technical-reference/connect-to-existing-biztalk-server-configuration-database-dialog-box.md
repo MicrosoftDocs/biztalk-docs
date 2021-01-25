@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Connect To Existing BizTalk Server Configuration Database Dialog Box"
 title: Connect To Existing BizTalk Server Configuration Database Dialog Box
 TOCTitle: Connect To Existing BizTalk Server Configuration Database Dialog Box
 ms:assetid: db4d5e42-9e7f-40a2-b507-ebfbc51b0d5e

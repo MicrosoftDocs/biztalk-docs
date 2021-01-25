@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TPs with Explicit SYNCPOINT Commands"
 title: "TPs with Explicit SYNCPOINT Commands2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOWrapper.InitializeAdapter Method"
 title: "ISSOWrapper.InitializeAdapter Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOMapper.GetFieldInfo Method"
 title: "ISSOMapper.GetFieldInfo Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

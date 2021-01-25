@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Division Functoid"
 title: Division Functoid
 TOCTitle: Division Functoid
 ms:assetid: bfb31acf-04b5-4716-92da-741a8f8793bc

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Default Escape Character Type (Node Property of Flat File Schemas)"
 title: Default Escape Character Type (Node Property of Flat File Schemas)
 TOCTitle: Default Escape Character Type (Node Property of Flat File Schemas)
 ms:assetid: 8c553aed-9a8f-4713-8add-b1413116213e

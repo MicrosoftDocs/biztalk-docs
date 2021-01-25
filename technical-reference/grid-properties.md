@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Grid Properties"
 title: Grid Properties
 TOCTitle: Grid Properties
 ms:assetid: 0478cd4a-3786-4b90-9e37-6dc64797e018

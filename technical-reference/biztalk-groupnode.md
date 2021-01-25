@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk GroupNode"
 title: BizTalk GroupNode
 TOCTitle: BizTalk GroupNode
 ms:assetid: 2d4c607f-af04-4c39-bbbf-ba364be2d3dd

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: User-Defined Type Member Properties"
 title: "User-Defined Type Member Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

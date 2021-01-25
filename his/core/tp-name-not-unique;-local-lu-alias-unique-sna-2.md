@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TP Name Not Unique; Local LU Alias Unique (SNA)"
 title: "TP Name Not Unique; Local LU Alias Unique (SNA)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

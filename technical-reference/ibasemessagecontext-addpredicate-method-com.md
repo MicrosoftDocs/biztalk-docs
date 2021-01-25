@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageContext.AddPredicate Method (COM)"
 title: IBaseMessageContext.AddPredicate Method (COM)
 TOCTitle: IBaseMessageContext.AddPredicate Method (COM)
 ms:assetid: b1bd4386-86ab-4b58-af17-ad837a763c59

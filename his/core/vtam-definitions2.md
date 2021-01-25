@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TI VTAM definitions & TP requirements - HIS"
 title: "VTAM definitions & TP requirements | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What's New in HIS 2020"
 title: "What's New in HIS 2020 | Microsoft Docs"
 ms.custom: ""
 ms.date: 5/4/2020

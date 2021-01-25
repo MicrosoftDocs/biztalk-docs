@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure ENTSSO for ILM Password Sync"
 title: "How to Configure ENTSSO for ILM Password Sync | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

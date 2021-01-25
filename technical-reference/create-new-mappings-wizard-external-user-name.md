@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Mappings Wizard: External User Name"
 title: 'Create New Mappings Wizard: External User Name'
 TOCTitle: 'Create New Mappings Wizard: External User Name'
 ms:assetid: 0af5add1-e129-4689-b59a-926f48d61525

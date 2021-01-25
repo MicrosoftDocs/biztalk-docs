@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Conversion Functoids Reference"
 title: Conversion Functoids Reference
 TOCTitle: Conversion Functoids Reference
 ms:assetid: b77f6dd9-9a0e-460c-8b17-a1d3bec7212d

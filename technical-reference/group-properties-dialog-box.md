@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Group Properties Dialog Box"
 title: Group Properties Dialog Box
 TOCTitle: Group Properties Dialog Box
 ms:assetid: 0e9524fe-5a9b-44c6-bfc6-e0656848483b

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: HTTP Transport Properties Dialog Box, Authentication Tab"
 title: HTTP Transport Properties Dialog Box, Authentication Tab
 TOCTitle: HTTP Transport Properties Dialog Box, Authentication Tab
 ms:assetid: d9d510e4-c34f-4ef3-817e-62e9ed199e24

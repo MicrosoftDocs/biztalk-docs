@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Mapper UI Help"
 title: BizTalk Mapper UI Help
 TOCTitle: BizTalk Mapper UI Help
 ms:assetid: abf1be6e-b844-4764-8c47-9c20dc7bd338

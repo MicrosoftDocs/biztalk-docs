@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Settings Dashboard, Host Page, Rate Based Throttling Tab"
 title: BizTalk Settings Dashboard, Host Page, Rate Based Throttling Tab
 TOCTitle: BizTalk Settings Dashboard, Host Page, Rate Based Throttling Tab
 ms:assetid: 1c75659d-246f-4666-a62e-5c7ee7d777e9

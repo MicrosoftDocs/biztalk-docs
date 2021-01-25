@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction Integrator Components"
 title: "Transaction Integrator Components1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Verb Control Block"
 title: "Verb Control Block2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

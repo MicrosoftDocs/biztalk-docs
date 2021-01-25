@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk WCF Service Publishing Wizard"
 title: BizTalk WCF Service Publishing Wizard
 TOCTitle: BizTalk WCF Service Publishing Wizard
 ms:assetid: d2cdd4d6-af92-447d-959a-6eff26c7db37
