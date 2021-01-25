@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Notes Dialog Box"
 title: Notes Dialog Box
 TOCTitle: Notes Dialog Box
 ms:assetid: ebeeb25e-c365-4098-a2f9-67fd8891818c

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Namespace (Map Item Property)"
 title: Namespace (Map Item Property)
 TOCTitle: Namespace (Map Item Property)
 ms:assetid: 177a6d92-4b6f-46f8-b7e6-605028234726

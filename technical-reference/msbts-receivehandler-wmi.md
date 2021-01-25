@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveHandler (WMI)"
 title: MSBTS_ReceiveHandler (WMI)
 TOCTitle: MSBTS_ReceiveHandler (WMI)
 ms:assetid: 1c04de0e-b85d-4e1a-ad18-bd625f05e025

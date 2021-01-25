@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Mathematical Functoids Reference"
 title: Mathematical Functoids Reference
 TOCTitle: Mathematical Functoids Reference
 ms:assetid: 4346ed03-172f-4182-9219-8e2e06f88867

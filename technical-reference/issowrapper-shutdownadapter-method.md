@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOWrapper.ShutdownAdapter Method"
 title: ISSOWrapper.ShutdownAdapter Method
 TOCTitle: ISSOWrapper.ShutdownAdapter Method
 ms:assetid: 3af07290-5a92-4fd3-82f5-b37165928b2f

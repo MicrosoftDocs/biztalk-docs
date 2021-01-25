@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSONotification Interface (COM)"
 title: ISSONotification Interface (COM)
 TOCTitle: ISSONotification Interface (COM)
 ms:assetid: 3294d633-fd1c-4ada-9bfa-5b169dca9433

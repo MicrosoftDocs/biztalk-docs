@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance (WMI)"
 title: MSBTS_ServiceInstance (WMI)
 TOCTitle: MSBTS_ServiceInstance (WMI)
 ms:assetid: b0b60759-d44b-4e2b-b8d3-3b4683564f94

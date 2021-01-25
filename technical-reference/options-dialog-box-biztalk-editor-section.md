@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Options Dialog Box, BizTalk Editor Section"
 title: Options Dialog Box, BizTalk Editor Section
 TOCTitle: Options Dialog Box, BizTalk Editor Section
 ms:assetid: 32bbe3ba-8c8c-407b-855a-31d89bea4f8b

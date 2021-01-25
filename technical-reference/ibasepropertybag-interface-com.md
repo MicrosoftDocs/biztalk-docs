@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBasePropertyBag Interface (COM)"
 title: IBasePropertyBag Interface (COM)
 TOCTitle: IBasePropertyBag Interface (COM)
 ms:assetid: d9cab7bd-1424-48f3-806f-0c7501ccc14a

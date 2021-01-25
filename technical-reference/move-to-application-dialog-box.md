@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Move to Application Dialog Box"
 title: Move to Application Dialog Box
 TOCTitle: Move to Application Dialog Box
 ms:assetid: a12e2b40-61df-4baf-b5e1-55db51828e89

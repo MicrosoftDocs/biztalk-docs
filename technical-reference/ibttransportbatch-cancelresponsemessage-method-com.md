@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportBatch.CancelResponseMessage Method (COM)"
 title: IBTTransportBatch.CancelResponseMessage Method (COM)
 TOCTitle: IBTTransportBatch.CancelResponseMessage Method (COM)
 ms:assetid: 97afd5ed-694a-4b96-804c-2f57ef81e355

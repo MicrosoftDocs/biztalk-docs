@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.SrvWinStartDT Property (WMI)"
 title: MSBTS_ReceiveLocation.SrvWinStartDT Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.SrvWinStartDT Property (WMI)
 ms:assetid: 3057540b-8c4f-4daa-802b-9357e56bbdda

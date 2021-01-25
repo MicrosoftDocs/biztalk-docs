@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.RetryCount Property (WMI)"
 title: MSBTS_MessageInstance.RetryCount Property (WMI)
 TOCTitle: MSBTS_MessageInstance.RetryCount Property (WMI)
 ms:assetid: f8b766f8-c280-45e5-a7b7-28050ee63180

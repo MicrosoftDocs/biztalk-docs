@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MQSeries Transport Properties Dialog Box, Receive"
 title: MQSeries Transport Properties Dialog Box, Receive
 TOCTitle: MQSeries Transport Properties Dialog Box, Receive
 ms:assetid: 9518d873-f0f7-41e3-adbe-75f6be97a23a

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Server.CheckIfCanInstallHostInstances Method (WMI)"
 title: MSBTS_Server.CheckIfCanInstallHostInstances Method (WMI)
 TOCTitle: MSBTS_Server.CheckIfCanInstallHostInstances Method (WMI)
 ms:assetid: ceae4612-a215-45b7-a210-be9d39d17be6

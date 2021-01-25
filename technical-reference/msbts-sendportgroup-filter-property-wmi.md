@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPortGroup.Filter Property (WMI)"
 title: MSBTS_SendPortGroup.Filter Property (WMI)
 TOCTitle: MSBTS_SendPortGroup.Filter Property (WMI)
 ms:assetid: 4ab6fe79-9337-45f4-92f4-b21dd2ff5e6b

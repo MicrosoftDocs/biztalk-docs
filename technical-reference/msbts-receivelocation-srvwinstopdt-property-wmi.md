@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.SrvWinStopDT Property (WMI)"
 title: MSBTS_ReceiveLocation.SrvWinStopDT Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.SrvWinStopDT Property (WMI)
 ms:assetid: 3961c0d9-7e16-4495-809a-49f37db649f8

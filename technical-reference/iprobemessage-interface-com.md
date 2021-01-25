@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IProbeMessage Interface (COM)"
 title: IProbeMessage Interface (COM)
 TOCTitle: IProbeMessage Interface (COM)
 ms:assetid: a3683382-1ac3-493e-8bf7-96fa7ec0722c

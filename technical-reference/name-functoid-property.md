@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: (Name) (Functoid Property)"
 title: (Name) (Functoid Property)
 TOCTitle: (Name) (Functoid Property)
 ms:assetid: 1dfbd26e-42bf-42a4-9dc5-baed13834e2a

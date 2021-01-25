@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSONotification.SendNotification Method"
 title: ISSONotification.SendNotification Method
 TOCTitle: ISSONotification.SendNotification Method
 ms:assetid: ab5c09e5-9017-4272-a53f-8db46a7a1971

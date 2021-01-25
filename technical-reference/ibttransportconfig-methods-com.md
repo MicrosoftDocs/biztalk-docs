@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportConfig Methods (COM)"
 title: IBTTransportConfig Methods (COM)
 TOCTitle: IBTTransportConfig Methods (COM)
 ms:assetid: 9df19c22-0a4d-439d-9d25-cc66879f69a7

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Link Target (Link Property)"
 title: Link Target (Link Property)
 TOCTitle: Link Target (Link Property)
 ms:assetid: b2938442-bde4-4bd3-aec6-69ffafc73134

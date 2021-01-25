@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceivePort.RouteFailedMessage Property (WMI)"
 title: MSBTS_ReceivePort.RouteFailedMessage Property (WMI)
 TOCTitle: MSBTS_ReceivePort.RouteFailedMessage Property (WMI)
 ms:assetid: 1e5194cb-78a4-4a28-b9d7-c610388b6529

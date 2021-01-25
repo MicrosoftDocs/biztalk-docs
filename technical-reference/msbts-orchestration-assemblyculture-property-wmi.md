@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.AssemblyCulture Property (WMI)"
 title: MSBTS_Orchestration.AssemblyCulture Property (WMI)
 TOCTitle: MSBTS_Orchestration.AssemblyCulture Property (WMI)
 ms:assetid: cbfd855d-fd2d-497b-870e-38693d8d232e

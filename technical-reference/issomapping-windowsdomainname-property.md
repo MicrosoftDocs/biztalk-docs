@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapping.WindowsDomainName Property"
 title: ISSOMapping.WindowsDomainName Property
 TOCTitle: ISSOMapping.WindowsDomainName Property
 ms:assetid: 7f79fec5-c57a-48eb-9722-ac9988a00059

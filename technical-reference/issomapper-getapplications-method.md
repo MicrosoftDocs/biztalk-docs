@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapper.GetApplications Method"
 title: ISSOMapper.GetApplications Method
 TOCTitle: ISSOMapper.GetApplications Method
 ms:assetid: 69099b5a-7844-4945-9af6-6267c14ce8e7

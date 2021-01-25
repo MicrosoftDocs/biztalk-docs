@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IComponentUI Interface (COM)"
 title: IComponentUI Interface (COM)
 TOCTitle: IComponentUI Interface (COM)
 ms:assetid: 01b48de6-b53c-4f60-807a-592af916e847

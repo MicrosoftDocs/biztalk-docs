@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstanceSuspendedEvent (WMI)"
 title: MSBTS_MessageInstanceSuspendedEvent (WMI)
 TOCTitle: MSBTS_MessageInstanceSuspendedEvent (WMI)
 ms:assetid: 9ec47256-6056-4564-9f77-bbea2c111083

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.CustomCfg Property (WMI)"
 title: MSBTS_ReceiveLocation.CustomCfg Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.CustomCfg Property (WMI)
 ms:assetid: 50db0788-b49c-484b-8fa6-e5f002a32e72

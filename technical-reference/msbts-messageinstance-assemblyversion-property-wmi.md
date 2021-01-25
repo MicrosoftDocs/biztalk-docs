@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.AssemblyVersion Property (WMI)"
 title: MSBTS_MessageInstance.AssemblyVersion Property (WMI)
 TOCTitle: MSBTS_MessageInstance.AssemblyVersion Property (WMI)
 ms:assetid: 523fdaf3-e00d-4ae5-93dc-2b124da293d5

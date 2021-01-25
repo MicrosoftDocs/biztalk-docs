@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessagePart Interface (COM)"
 title: IBaseMessagePart Interface (COM)
 TOCTitle: IBaseMessagePart Interface (COM)
 ms:assetid: 8b2ce970-a9aa-4285-8612-a8199b978836

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstanceSuspendedEvent.ErrorDescription Property (WMI)"
 title: MSBTS_ServiceInstanceSuspendedEvent.ErrorDescription Property (WMI)
 TOCTitle: MSBTS_ServiceInstanceSuspendedEvent.ErrorDescription Property (WMI)
 ms:assetid: 4cd04eff-f62b-46bd-858c-f927db8804c2

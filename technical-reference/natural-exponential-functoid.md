@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Natural Exponential Functoid"
 title: Natural Exponential Functoid
 TOCTitle: Natural Exponential Functoid
 ms:assetid: 3b26db64-4404-4d76-9c7c-2b24d3b32e88

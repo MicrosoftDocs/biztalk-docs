@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessagePart.PartProperties Property (COM)"
 title: IBaseMessagePart.PartProperties Property (COM)
 TOCTitle: IBaseMessagePart.PartProperties Property (COM)
 ms:assetid: 4cd4fe67-53ed-447e-85c9-af022809cb73

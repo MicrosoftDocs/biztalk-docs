@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransport.ClassID Property (COM)"
 title: IBTTransport.ClassID Property (COM)
 TOCTitle: IBTTransport.ClassID Property (COM)
 ms:assetid: 3de411ae-57e4-4af3-994d-0e8d26d735bf

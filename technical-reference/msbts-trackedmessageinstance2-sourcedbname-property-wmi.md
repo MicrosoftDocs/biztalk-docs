@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_TrackedMessageInstance2.SourceDBName Property (WMI)"
 title: MSBTS_TrackedMessageInstance2.SourceDBName Property (WMI)
 TOCTitle: MSBTS_TrackedMessageInstance2.SourceDBName Property (WMI)
 ms:assetid: f8098051-f686-4aa9-8f5e-fd7f803fa814

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Octal Functoid"
 title: Octal Functoid
 TOCTitle: Octal Functoid
 ms:assetid: c41f5c3a-1e5d-4270-867f-ec8863d10170

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Receive Locations Node"
 title: Receive Locations Node
 TOCTitle: Receive Locations Node
 ms:assetid: c6628738-5929-4220-ab04-cf01cae5a007

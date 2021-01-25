@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocationOrchestration.InboundTransportUrl Property (WMI)"
 title: MSBTS_ReceiveLocationOrchestration.InboundTransportUrl Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.InboundTransportUrl Property (WMI)
 ms:assetid: 0eaabdaf-751d-482f-ae05-704418ab5e5f

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapper2 Methods"
 title: ISSOMapper2 Methods
 TOCTitle: ISSOMapper2 Methods
 ms:assetid: a5c3c03a-e4f8-411d-8f5b-3bc28c4599da

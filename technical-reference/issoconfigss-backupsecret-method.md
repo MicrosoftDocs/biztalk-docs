@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigSS.BackupSecret Method"
 title: ISSOConfigSS.BackupSecret Method
 TOCTitle: ISSOConfigSS.BackupSecret Method
 ms:assetid: cf538003-412b-45e9-87d7-9d37f846533a

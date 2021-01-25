@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext Properties (COM)"
 title: IPipelineContext Properties (COM)
 TOCTitle: IPipelineContext Properties (COM)
 ms:assetid: 94af265e-b579-46f1-9ee7-b005896037c6

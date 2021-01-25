@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Import Settings Wizard, Specify File Location Page"
 title: Import Settings Wizard, Specify File Location Page
 TOCTitle: Import Settings Wizard, Specify File Location Page
 ms:assetid: 73c1b1e4-0485-46c0-90af-fc7a4e45e1be

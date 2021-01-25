@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportConfig.UpdateEndpointConfig Method (COM)"
 title: IBTTransportConfig.UpdateEndpointConfig Method (COM)
 TOCTitle: IBTTransportConfig.UpdateEndpointConfig Method (COM)
 ms:assetid: cdb73a17-f39f-425c-8fd2-6a496f9717f9

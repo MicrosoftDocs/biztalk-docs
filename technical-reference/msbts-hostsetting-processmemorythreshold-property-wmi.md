@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ProcessMemoryThreshold Property (WMI)"
 title: MSBTS_HostSetting.ProcessMemoryThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.ProcessMemoryThreshold Property (WMI)
 ms:assetid: 1e403eec-e59e-4603-84db-370c7ba8cb6b

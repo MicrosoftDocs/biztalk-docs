@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceivePort (WMI)"
 title: MSBTS_ReceivePort (WMI)
 TOCTitle: MSBTS_ReceivePort (WMI)
 ms:assetid: 8500b91b-60be-4a09-a711-b8c840016289

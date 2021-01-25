@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext.GetDocumentSpecByName Method (COM)"
 title: IPipelineContext.GetDocumentSpecByName Method (COM)
 TOCTitle: IPipelineContext.GetDocumentSpecByName Method (COM)
 ms:assetid: 5bdf0e8f-32bb-4bef-8245-3b9518cd182a

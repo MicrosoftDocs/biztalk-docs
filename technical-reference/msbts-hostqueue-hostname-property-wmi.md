@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostQueue.HostName Property (WMI)"
 title: MSBTS_HostQueue.HostName Property (WMI)
 TOCTitle: MSBTS_HostQueue.HostName Property (WMI)
 ms:assetid: 5e1d8796-ded8-405f-863a-510af0243c9b

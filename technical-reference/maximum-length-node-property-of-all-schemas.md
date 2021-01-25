@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Maximum Length (Node Property of All Schemas)"
 title: Maximum Length (Node Property of All Schemas)
 TOCTitle: Maximum Length (Node Property of All Schemas)
 ms:assetid: 44fb4f75-fdd9-463d-bba2-6a1e3836981e

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ThrottlingSpoolMultiplier Property (WMI)"
 title: MSBTS_HostSetting.ThrottlingSpoolMultiplier Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingSpoolMultiplier Property (WMI)
 ms:assetid: a5fb1531-f8cc-4270-ada8-3069ab37acf3

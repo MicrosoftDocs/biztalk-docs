@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Saving a Message to a File Using WMI"
 title: Saving a Message to a File Using WMI
 TOCTitle: Saving a Message to a File Using WMI
 ms:assetid: 4972da32-94f0-4478-ad24-fc2f552a447a

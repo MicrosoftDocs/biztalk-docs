@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.IsTwoWay Property (WMI)"
 title: MSBTS_SendPort.IsTwoWay Property (WMI)
 TOCTitle: MSBTS_SendPort.IsTwoWay Property (WMI)
 ms:assetid: 9e7b8ddc-30e6-46ed-91e8-a3a8cdfd8304

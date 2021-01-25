@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyPublicKeyToken Property (WMI)"
 title: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyPublicKeyToken Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyPublicKeyToken Property (WMI)
 ms:assetid: db1280e6-fe35-4ce4-8a1c-cc76dfc928cf

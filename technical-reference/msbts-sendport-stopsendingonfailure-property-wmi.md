@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.StopSendingOnFailure Property (WMI)"
 title: MSBTS_SendPort.StopSendingOnFailure Property (WMI)
 TOCTitle: MSBTS_SendPort.StopSendingOnFailure Property (WMI)
 ms:assetid: 7f8ebfdc-5032-43f5-9d71-366be9894e91

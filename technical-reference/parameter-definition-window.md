@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Parameter Definition Window"
 title: Parameter Definition Window
 TOCTitle: Parameter Definition Window
 ms:assetid: 48f278ea-517b-42a6-bba5-6ee6f805dfad

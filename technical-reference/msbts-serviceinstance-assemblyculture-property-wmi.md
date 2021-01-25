@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.AssemblyCulture Property (WMI)"
 title: MSBTS_ServiceInstance.AssemblyCulture Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.AssemblyCulture Property (WMI)
 ms:assetid: 19cc4e0a-cabf-478c-aa7e-98e7d113936c

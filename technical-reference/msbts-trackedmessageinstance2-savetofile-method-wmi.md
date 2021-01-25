@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_TrackedMessageInstance2.SaveToFile Method (WMI)"
 title: MSBTS_TrackedMessageInstance2.SaveToFile Method (WMI)
 TOCTitle: MSBTS_TrackedMessageInstance2.SaveToFile Method (WMI)
 ms:assetid: 53f35713-c618-463d-abe5-66ff315b706b

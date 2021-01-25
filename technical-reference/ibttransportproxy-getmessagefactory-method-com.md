@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportProxy.GetMessageFactory Method (COM)"
 title: IBTTransportProxy.GetMessageFactory Method (COM)
 TOCTitle: IBTTransportProxy.GetMessageFactory Method (COM)
 ms:assetid: ce8dff51-a7b6-459c-a770-e5c29430970f

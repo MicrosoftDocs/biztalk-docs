@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Logical String Functoid"
 title: Logical String Functoid
 TOCTitle: Logical String Functoid
 ms:assetid: 697aa026-ff2c-4a4a-8d07-73e3449d0ee3

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Parallel Actions Shape"
 title: Parallel Actions Shape
 TOCTitle: Parallel Actions Shape
 ms:assetid: 7b3d78a7-77fb-4a7c-9bab-8af5e2c5eb1d

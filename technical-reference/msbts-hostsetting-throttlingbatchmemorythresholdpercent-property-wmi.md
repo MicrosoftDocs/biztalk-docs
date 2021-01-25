@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ThrottlingBatchMemoryThresholdPercent Property (WMI)"
 title: MSBTS_HostSetting.ThrottlingBatchMemoryThresholdPercent Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingBatchMemoryThresholdPercent Property (WMI)
 ms:assetid: c2a4b690-bc44-4e67-9580-380186f6f78a

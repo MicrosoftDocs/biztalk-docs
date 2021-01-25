@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.Stop Method (WMI)"
 title: MSBTS_SendPort.Stop Method (WMI)
 TOCTitle: MSBTS_SendPort.Stop Method (WMI)
 ms:assetid: 93640a67-9436-4f96-b0a5-9314d5443e83

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTSTicket Members (COM)"
 title: IBTSTicket Members (COM)
 TOCTitle: IBTSTicket Members (COM)
 ms:assetid: 69f81536-7df6-4b8c-a800-a7ac9a56bced

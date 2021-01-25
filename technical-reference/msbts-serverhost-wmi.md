@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServerHost (WMI)"
 title: MSBTS_ServerHost (WMI)
 TOCTitle: MSBTS_ServerHost (WMI)
 ms:assetid: 81e42b3b-c75f-47ae-837a-a38ef2304f56

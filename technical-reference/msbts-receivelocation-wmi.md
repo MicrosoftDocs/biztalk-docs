@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation (WMI)"
 title: MSBTS_ReceiveLocation (WMI)
 TOCTitle: MSBTS_ReceiveLocation (WMI)
 ms:assetid: f75bd1ce-1bf5-4707-9b8e-55377c2538a1

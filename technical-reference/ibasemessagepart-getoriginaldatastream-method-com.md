@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessagePart.GetOriginalDataStream Method (COM)"
 title: IBaseMessagePart.GetOriginalDataStream Method (COM)
 TOCTitle: IBaseMessagePart.GetOriginalDataStream Method (COM)
 ms:assetid: 2359b2e5-e574-41a1-9f56-aaa117825a4a

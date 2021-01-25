@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MIME-SMIME Encoder Pipeline Component Properties"
 title: MIME-SMIME Encoder Pipeline Component Properties
 TOCTitle: MIME-SMIME Encoder Pipeline Component Properties
 ms:assetid: b5efd9df-c30c-46db-ab59-2dd1e9fe5224

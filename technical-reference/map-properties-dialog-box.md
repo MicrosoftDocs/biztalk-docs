@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Map Properties Dialog Box"
 title: Map Properties Dialog Box
 TOCTitle: Map Properties Dialog Box
 ms:assetid: a4e24d8a-4208-4150-899f-4e54b12aaeaa

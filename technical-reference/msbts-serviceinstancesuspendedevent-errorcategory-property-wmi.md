@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstanceSuspendedEvent.ErrorCategory Property (WMI)"
 title: MSBTS_ServiceInstanceSuspendedEvent.ErrorCategory Property (WMI)
 TOCTitle: MSBTS_ServiceInstanceSuspendedEvent.ErrorCategory Property (WMI)
 ms:assetid: 1b6898bf-a856-4112-9fdf-a3b2be84bfea

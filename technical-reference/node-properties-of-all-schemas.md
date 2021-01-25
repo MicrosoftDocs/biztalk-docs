@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Node Properties of All Schemas"
 title: Node Properties of All Schemas
 TOCTitle: Node Properties of All Schemas
 ms:assetid: 893c7352-7c18-4771-a9b6-e93239fe7d64

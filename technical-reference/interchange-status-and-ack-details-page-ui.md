@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Interchange Status and ACK Details Page UI"
 title: Interchange Status and ACK Details Page UI
 TOCTitle: Interchange Status and ACK Details Page UI
 ms:assetid: d4322d4d-683b-4fb3-a71e-1c6ccf82c2c8

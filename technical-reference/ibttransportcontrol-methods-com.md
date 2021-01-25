@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportControl Methods (COM)"
 title: IBTTransportControl Methods (COM)
 TOCTitle: IBTTransportControl Methods (COM)
 ms:assetid: 7c00b946-d8f1-4e7f-84fd-db30702ea3a0

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.DehydrationBehavior Property (WMI)"
 title: MSBTS_HostSetting.DehydrationBehavior Property (WMI)
 TOCTitle: MSBTS_HostSetting.DehydrationBehavior Property (WMI)
 ms:assetid: 1b672a19-0080-4025-8b6d-80e4a6056f40

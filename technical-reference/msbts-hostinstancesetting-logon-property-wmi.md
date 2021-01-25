@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstanceSetting.Logon Property (WMI)"
 title: MSBTS_HostInstanceSetting.Logon Property (WMI)
 TOCTitle: MSBTS_HostInstanceSetting.Logon Property (WMI)
 ms:assetid: 15df41a3-55b8-40a3-b355-fb131ad658c0

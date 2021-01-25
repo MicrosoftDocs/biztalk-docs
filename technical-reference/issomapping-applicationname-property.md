@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapping.ApplicationName Property"
 title: ISSOMapping.ApplicationName Property
 TOCTitle: ISSOMapping.ApplicationName Property
 ms:assetid: ef4c7235-0050-41ad-8fb3-70e7ffe28def

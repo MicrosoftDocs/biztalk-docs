@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_DeploymentService.Remove Method (WMI)"
 title: MSBTS_DeploymentService.Remove Method (WMI)
 TOCTitle: MSBTS_DeploymentService.Remove Method (WMI)
 ms:assetid: d9bccd96-e5b7-41ff-868e-95429bccd452

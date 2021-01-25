@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOAdmin2 Interface (COM)"
 title: ISSOAdmin2 Interface (COM)
 TOCTitle: ISSOAdmin2 Interface (COM)
 ms:assetid: 636c5e72-674a-411b-9693-13d10e07d66c

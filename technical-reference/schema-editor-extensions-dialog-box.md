@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Schema Editor Extensions Dialog Box"
 title: Schema Editor Extensions Dialog Box
 TOCTitle: Schema Editor Extensions Dialog Box
 ms:assetid: 18f15b2c-e613-482b-ba32-493a40e97cf0

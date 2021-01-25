@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOLookup2 Members"
 title: ISSOLookup2 Members
 TOCTitle: ISSOLookup2 Members
 ms:assetid: ed4da6c4-37a1-422c-ac31-7f980e4b5a5f

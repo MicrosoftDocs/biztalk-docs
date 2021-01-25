@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MsgBoxSetting (WMI)"
 title: MSBTS_MsgBoxSetting (WMI)
 TOCTitle: MSBTS_MsgBoxSetting (WMI)
 ms:assetid: f4e245bf-a643-4367-a165-fb34872fa19a

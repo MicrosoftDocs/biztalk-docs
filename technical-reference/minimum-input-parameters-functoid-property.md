@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Minimum Input Parameters (Functoid Property)"
 title: Minimum Input Parameters (Functoid Property)
 TOCTitle: Minimum Input Parameters (Functoid Property)
 ms:assetid: 45238013-9ffa-4e46-b559-fee1d0b5e2d6

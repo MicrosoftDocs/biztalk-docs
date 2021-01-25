@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportBatch Properties (COM)"
 title: IBTTransportBatch Properties (COM)
 TOCTitle: IBTTransportBatch Properties (COM)
 ms:assetid: ec412d66-f66e-4c8e-80a6-ef200365a4f2

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext.StageIndex Property (COM)"
 title: IPipelineContext.StageIndex Property (COM)
 TOCTitle: IPipelineContext.StageIndex Property (COM)
 ms:assetid: 7472420e-217b-4dca-a2a2-a2f78d3df186

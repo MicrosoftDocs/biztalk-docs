@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigDB Interface (COM)"
 title: ISSOConfigDB Interface (COM)
 TOCTitle: ISSOConfigDB Interface (COM)
 ms:assetid: 6c165361-4cdc-44b7-9279-3eb74d556b65

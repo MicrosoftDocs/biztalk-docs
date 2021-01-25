@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.SSOServerName Property (WMI)"
 title: MSBTS_GroupSetting.SSOServerName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.SSOServerName Property (WMI)
 ms:assetid: 41daf653-b4cc-4068-805c-a85f3f8445a1

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.RouteFailedMessage Property (WMI)"
 title: MSBTS_SendPort.RouteFailedMessage Property (WMI)
 TOCTitle: MSBTS_SendPort.RouteFailedMessage Property (WMI)
 ms:assetid: 49a42d5f-993d-4a86-bf54-a49835538cc4

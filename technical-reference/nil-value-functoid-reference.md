@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Nil Value Functoid Reference"
 title: Nil Value Functoid Reference
 TOCTitle: Nil Value Functoid Reference
 ms:assetid: 7ad97ac5-dc72-438e-a9fb-8c88d53284d5

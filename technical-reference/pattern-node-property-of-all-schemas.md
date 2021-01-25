@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Pattern (Node Property of All Schemas)"
 title: Pattern (Node Property of All Schemas)
 TOCTitle: Pattern (Node Property of All Schemas)
 ms:assetid: 86dec810-b972-48d9-8141-3f07e3a3035e

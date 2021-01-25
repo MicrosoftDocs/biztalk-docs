@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.SubscriptionDBServerName Property (WMI)"
 title: MSBTS_GroupSetting.SubscriptionDBServerName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.SubscriptionDBServerName Property (WMI)
 ms:assetid: 1ac5a718-ddb9-4307-a3e7-0d24b0dd7e98

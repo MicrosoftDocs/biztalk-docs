@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.MinorVersion Property (WMI)"
 title: MSBTS_GroupSetting.MinorVersion Property (WMI)
 TOCTitle: MSBTS_GroupSetting.MinorVersion Property (WMI)
 ms:assetid: 6d4b4bc7-2c2a-4f89-aa49-6c765536283d

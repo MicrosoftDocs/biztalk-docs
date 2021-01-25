@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.MessagingReqRespTTL Property (WMI)"
 title: MSBTS_HostSetting.MessagingReqRespTTL Property (WMI)
 TOCTitle: MSBTS_HostSetting.MessagingReqRespTTL Property (WMI)
 ms:assetid: 5ed09696-22f0-43a6-a6f5-c7cabbfde923

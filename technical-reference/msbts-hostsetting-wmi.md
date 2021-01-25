@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting (WMI)"
 title: MSBTS_HostSetting (WMI)
 TOCTitle: MSBTS_HostSetting (WMI)
 ms:assetid: 59e7065d-178d-4d74-8a3e-77cb0068e89f

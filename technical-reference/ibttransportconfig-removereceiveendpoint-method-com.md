@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportConfig.RemoveReceiveEndpoint Method (COM)"
 title: IBTTransportConfig.RemoveReceiveEndpoint Method (COM)
 TOCTitle: IBTTransportConfig.RemoveReceiveEndpoint Method (COM)
 ms:assetid: fdd25340-3319-4df2-8b3b-bda75280f346

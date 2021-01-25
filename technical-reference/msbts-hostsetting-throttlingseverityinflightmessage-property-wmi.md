@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ThrottlingSeverityInflightMessage Property (WMI)"
 title: MSBTS_HostSetting.ThrottlingSeverityInflightMessage Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingSeverityInflightMessage Property (WMI)
 ms:assetid: 258463ae-1225-476c-a6e5-bffd3272455c

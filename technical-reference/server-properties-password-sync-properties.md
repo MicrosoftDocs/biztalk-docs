@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server Properties: Password Sync Properties"
 title: 'Server Properties: Password Sync Properties'
 TOCTitle: 'Server Properties: Password Sync Properties'
 ms:assetid: 43ed1c8d-c06f-478e-8e3d-2a032f9d15fd

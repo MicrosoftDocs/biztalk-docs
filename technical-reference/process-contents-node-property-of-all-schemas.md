@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Process Contents (Node Property of All Schemas)"
 title: Process Contents (Node Property of All Schemas)
 TOCTitle: Process Contents (Node Property of All Schemas)
 ms:assetid: 0e1660e6-e2f5-402c-88ca-5fda990eb855

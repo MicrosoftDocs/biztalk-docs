@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendHandler.AdapterName Property (WMI)"
 title: MSBTS_SendHandler.AdapterName Property (WMI)
 TOCTitle: MSBTS_SendHandler.AdapterName Property (WMI)
 ms:assetid: b88536d5-9165-498c-8c04-60f79130a461

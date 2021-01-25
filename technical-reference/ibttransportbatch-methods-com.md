@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportBatch Methods (COM)"
 title: IBTTransportBatch Methods (COM)
 TOCTitle: IBTTransportBatch Methods (COM)
 ms:assetid: 4b2e4be0-b9b1-49d0-af6d-dd8f235ec0b4

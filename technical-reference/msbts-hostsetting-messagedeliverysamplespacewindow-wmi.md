@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.MessageDeliverySampleSpaceWindow (WMI)"
 title: MSBTS_HostSetting.MessageDeliverySampleSpaceWindow (WMI)
 TOCTitle: MSBTS_HostSetting.MessageDeliverySampleSpaceWindow (WMI)
 ms:assetid: 42ff0faa-3152-4aa8-b74f-3d8249057d69

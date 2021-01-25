@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Schema Node Properties in BizTalk Mapper"
 title: Schema Node Properties in BizTalk Mapper
 TOCTitle: Schema Node Properties in BizTalk Mapper
 ms:assetid: 15cd7271-c9cb-42b1-8f2b-62fe5efdd497

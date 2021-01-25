@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.CreationTime Property (WMI)"
 title: MSBTS_MessageInstance.CreationTime Property (WMI)
 TOCTitle: MSBTS_MessageInstance.CreationTime Property (WMI)
 ms:assetid: 99e41944-9cc4-4863-bd68-621297818582

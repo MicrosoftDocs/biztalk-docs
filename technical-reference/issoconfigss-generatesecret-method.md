@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigSS.GenerateSecret Method"
 title: ISSOConfigSS.GenerateSecret Method
 TOCTitle: ISSOConfigSS.GenerateSecret Method
 ms:assetid: 2d030cba-2a35-4dcc-919b-53ca0b344e50

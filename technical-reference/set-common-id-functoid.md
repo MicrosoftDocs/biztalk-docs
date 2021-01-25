@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Set Common ID Functoid"
 title: Set Common ID Functoid
 TOCTitle: Set Common ID Functoid
 ms:assetid: 180d7eda-421a-4ef4-9ed4-832fbc4643ea

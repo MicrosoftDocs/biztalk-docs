@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: listOfMessageDef Document"
 title: listOfMessageDef Document
 TOCTitle: listOfMessageDef Document
 ms:assetid: 0f2787cf-7294-4f13-9b72-fef76f91a335

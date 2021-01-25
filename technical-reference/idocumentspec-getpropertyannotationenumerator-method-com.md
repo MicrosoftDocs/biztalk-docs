@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM)"
 title: IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM)
 TOCTitle: IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM)
 ms:assetid: aaab489c-ce2d-4e07-90c6-c884f9316ed7

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Input Parameters (Functoid Property)"
 title: Input Parameters (Functoid Property)
 TOCTitle: Input Parameters (Functoid Property)
 ms:assetid: e7af7273-1d80-4c6e-bb3e-0091700d35db

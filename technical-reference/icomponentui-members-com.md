@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IComponentUI Members (COM)"
 title: IComponentUI Members (COM)
 TOCTitle: IComponentUI Members (COM)
 ms:assetid: 5acfd142-1023-452e-b25d-740ee8d8ea30

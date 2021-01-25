@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ITwoWayAsyncVoid.BeginTwoWayMethod Method"
 title: ITwoWayAsyncVoid.BeginTwoWayMethod Method
 TOCTitle: ITwoWayAsyncVoid.BeginTwoWayMethod Method
 ms:assetid: 3f5f4351-9e16-4b14-98df-53edb9aa89e3

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.ServiceTypeID Property (WMI)"
 title: MSBTS_MessageInstance.ServiceTypeID Property (WMI)
 TOCTitle: MSBTS_MessageInstance.ServiceTypeID Property (WMI)
 ms:assetid: 503d063c-c44d-46af-8f9e-583b88a463bc

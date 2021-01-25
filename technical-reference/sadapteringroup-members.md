@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SAdapterInGroup Members"
 title: SAdapterInGroup Members
 TOCTitle: SAdapterInGroup Members
 ms:assetid: 2966e0db-10a4-4c06-9495-18e40e73b2e9

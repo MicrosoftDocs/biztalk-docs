@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.ServiceName Property (WMI)"
 title: MSBTS_MessageInstance.ServiceName Property (WMI)
 TOCTitle: MSBTS_MessageInstance.ServiceName Property (WMI)
 ms:assetid: 2d2e0d53-e987-42c9-a688-c3dcfff4c77c

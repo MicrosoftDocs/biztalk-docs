@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IComponent.Execute Method (COM)"
 title: IComponent.Execute Method (COM)
 TOCTitle: IComponent.Execute Method (COM)
 ms:assetid: 9d9bf0db-d6e5-4f68-a78e-a8b25d3a33fc

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.Disable Method (WMI)"
 title: MSBTS_ReceiveLocation.Disable Method (WMI)
 TOCTitle: MSBTS_ReceiveLocation.Disable Method (WMI)
 ms:assetid: 3a9f6567-f830-4208-818e-33b3e61f5ee2

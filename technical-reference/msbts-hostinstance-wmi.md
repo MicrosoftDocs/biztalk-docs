@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstance (WMI)"
 title: MSBTS_HostInstance (WMI)
 TOCTitle: MSBTS_HostInstance (WMI)
 ms:assetid: 6bb4aa2b-84b4-4213-b711-eb2fb82e5748

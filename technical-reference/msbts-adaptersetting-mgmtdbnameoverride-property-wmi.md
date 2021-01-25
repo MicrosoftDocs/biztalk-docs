@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_AdapterSetting.MgmtDbNameOverride Property (WMI)"
 title: MSBTS_AdapterSetting.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_AdapterSetting.MgmtDbNameOverride Property (WMI)
 ms:assetid: 2e3c86de-42ba-47db-8eff-7e71133addf9

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigOM Members"
 title: ISSOConfigOM Members
 TOCTitle: ISSOConfigOM Members
 ms:assetid: d62534a0-7f56-4fd0-8f9f-5159ee6a76dc

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: New Send Port Dialog Box"
 title: New Send Port Dialog Box
 TOCTitle: New Send Port Dialog Box
 ms:assetid: 30d44a0e-01ce-460d-9667-ec200218bb37

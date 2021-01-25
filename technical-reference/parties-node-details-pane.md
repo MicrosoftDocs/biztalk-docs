@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Parties Node, Details Pane"
 title: Parties Node, Details Pane
 TOCTitle: Parties Node, Details Pane
 ms:assetid: 292e37bc-032d-44d1-905e-e9c1b2023a87

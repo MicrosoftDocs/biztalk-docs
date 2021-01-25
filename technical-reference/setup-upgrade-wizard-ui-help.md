@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Setup & Upgrade Wizard UI Help"
 title: Setup & Upgrade Wizard UI Help
 TOCTitle: Setup & Upgrade Wizard UI Help
 ms:assetid: 3624bf2d-ed9c-4a37-8837-03106073af77

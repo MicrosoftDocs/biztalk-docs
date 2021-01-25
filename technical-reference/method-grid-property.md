@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Method (Grid Property)"
 title: Method (Grid Property)
 TOCTitle: Method (Grid Property)
 ms:assetid: e2dfa3d6-bb40-45c7-ba81-526bec9304f7

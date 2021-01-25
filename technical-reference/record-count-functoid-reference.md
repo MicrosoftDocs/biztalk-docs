@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Record Count Functoid Reference"
 title: Record Count Functoid Reference
 TOCTitle: Record Count Functoid Reference
 ms:assetid: a380ed75-7726-4a74-9bc1-936369b1d886

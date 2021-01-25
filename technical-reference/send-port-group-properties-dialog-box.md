@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Send Port Group Properties Dialog Box"
 title: Send Port Group Properties Dialog Box
 TOCTitle: Send Port Group Properties Dialog Box
 ms:assetid: 6876e80c-f760-4bbc-be21-0d29cb6b9db3

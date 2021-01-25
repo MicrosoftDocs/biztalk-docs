@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.STServiceWindowEnabled Property (WMI)"
 title: MSBTS_SendPort.STServiceWindowEnabled Property (WMI)
 TOCTitle: MSBTS_SendPort.STServiceWindowEnabled Property (WMI)
 ms:assetid: 0ab6ff24-3b52-4251-8598-fde0eac6d325

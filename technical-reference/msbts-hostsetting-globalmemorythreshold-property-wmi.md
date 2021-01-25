@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.GlobalMemoryThreshold Property (WMI)"
 title: MSBTS_HostSetting.GlobalMemoryThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.GlobalMemoryThreshold Property (WMI)
 ms:assetid: abf112a6-66c8-487a-993f-b8cca086a8a4

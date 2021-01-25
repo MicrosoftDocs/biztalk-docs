@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Member Types (Node Property of All Schemas)"
 title: Member Types (Node Property of All Schemas)
 TOCTitle: Member Types (Node Property of All Schemas)
 ms:assetid: b5a657d2-0c01-47c2-81e0-ede74bf732d3

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstanceSuspendedEvent.ErrorId Property (WMI)"
 title: MSBTS_ServiceInstanceSuspendedEvent.ErrorId Property (WMI)
 TOCTitle: MSBTS_ServiceInstanceSuspendedEvent.ErrorId Property (WMI)
 ms:assetid: 7d331ac3-06ce-4d1d-98b4-d43d86cb3805

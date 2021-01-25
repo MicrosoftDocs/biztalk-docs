@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Removing Suspended Service Instances"
 title: Removing Suspended Service Instances
 TOCTitle: Removing Suspended Service Instances
 ms:assetid: 92a4378f-96fd-44b2-afe6-d3de6e129493

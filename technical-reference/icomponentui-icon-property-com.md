@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IComponentUI.Icon Property (COM)"
 title: IComponentUI.Icon Property (COM)
 TOCTitle: IComponentUI.Icon Property (COM)
 ms:assetid: 4ad8b610-4b75-451d-9452-c5fe69fdc1b1

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigDB.UpgradeDB Method"
 title: ISSOConfigDB.UpgradeDB Method
 TOCTitle: ISSOConfigDB.UpgradeDB Method
 ms:assetid: d8be3db9-ccfc-497e-b0c8-934609534e6e

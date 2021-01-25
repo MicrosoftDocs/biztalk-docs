@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage.PartCount Property (COM)"
 title: IBaseMessage.PartCount Property (COM)
 TOCTitle: IBaseMessage.PartCount Property (COM)
 ms:assetid: 1f643699-4ff7-46ab-8c15-2bdb2421a235

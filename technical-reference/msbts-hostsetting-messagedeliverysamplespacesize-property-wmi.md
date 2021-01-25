@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.MessageDeliverySampleSpaceSize Property (WMI)"
 title: MSBTS_HostSetting.MessageDeliverySampleSpaceSize Property (WMI)
 TOCTitle: MSBTS_HostSetting.MessageDeliverySampleSpaceSize Property (WMI)
 ms:assetid: 25cc2d51-b0b7-4a00-a8b0-ae6a7cf32153

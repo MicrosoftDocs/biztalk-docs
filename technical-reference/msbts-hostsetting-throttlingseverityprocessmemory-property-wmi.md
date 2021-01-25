@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ThrottlingSeverityProcessMemory Property (WMI)"
 title: MSBTS_HostSetting.ThrottlingSeverityProcessMemory Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingSeverityProcessMemory Property (WMI)
 ms:assetid: d3871300-a44f-49c3-91bf-f8e3a1cb0413

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.SubscriptionPauseAt Property (WMI)"
 title: MSBTS_HostSetting.SubscriptionPauseAt Property (WMI)
 TOCTitle: MSBTS_HostSetting.SubscriptionPauseAt Property (WMI)
 ms:assetid: caa006f1-e5ac-40b9-9558-c4eb2f87ea29

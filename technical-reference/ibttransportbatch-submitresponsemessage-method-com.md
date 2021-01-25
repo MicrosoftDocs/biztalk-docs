@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportBatch.SubmitResponseMessage Method (COM)"
 title: IBTTransportBatch.SubmitResponseMessage Method (COM)
 TOCTitle: IBTTransportBatch.SubmitResponseMessage Method (COM)
 ms:assetid: 1a15ef76-9015-4d9a-8089-773e7a2191cf

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Options Dialog Box, BizTalk Mapper Section"
 title: Options Dialog Box, BizTalk Mapper Section
 TOCTitle: Options Dialog Box, BizTalk Mapper Section
 ms:assetid: 80e18371-7869-4ecc-b685-c571d5e214fd

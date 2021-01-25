@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitterBatch Members (COM)"
 title: IBTTransmitterBatch Members (COM)
 TOCTitle: IBTTransmitterBatch Members (COM)
 ms:assetid: b539503d-a95f-4648-9c9b-4259aaad0a05

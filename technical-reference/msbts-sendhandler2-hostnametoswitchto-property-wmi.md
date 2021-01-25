@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendHandler2.HostNameToSwitchTo Property (WMI)"
 title: MSBTS_SendHandler2.HostNameToSwitchTo Property (WMI)
 TOCTitle: MSBTS_SendHandler2.HostNameToSwitchTo Property (WMI)
 ms:assetid: d4f9a5ad-ab84-4ad7-835c-c58365947473

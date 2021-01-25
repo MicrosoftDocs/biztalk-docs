@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Select a Receive Port Dialog Box"
 title: Select a Receive Port Dialog Box
 TOCTitle: Select a Receive Port Dialog Box
 ms:assetid: 9f958393-6499-4801-93d0-bae219d18177

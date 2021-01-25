@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IComponentUI.Validate Method (COM)"
 title: IComponentUI.Validate Method (COM)
 TOCTitle: IComponentUI.Validate Method (COM)
 ms:assetid: 99f52e7b-37cc-4c69-8f88-f92524577fbf

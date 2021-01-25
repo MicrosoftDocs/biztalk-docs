@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Preserve Delimiter For Empty Data (Node Property of Flat File Schemas)"
 title: Preserve Delimiter For Empty Data (Node Property of Flat File Schemas)
 TOCTitle: Preserve Delimiter For Empty Data (Node Property of Flat File Schemas)
 ms:assetid: 069d5a6d-1ff1-4028-889a-4e7dfc32425d

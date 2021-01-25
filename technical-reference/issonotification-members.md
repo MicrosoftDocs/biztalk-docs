@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSONotification Members"
 title: ISSONotification Members
 TOCTitle: ISSONotification Members
 ms:assetid: fa0b0854-8361-4140-a3c5-df7d5285cfe9

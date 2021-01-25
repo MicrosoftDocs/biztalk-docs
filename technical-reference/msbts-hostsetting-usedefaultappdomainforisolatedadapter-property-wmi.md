@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.UseDefaultAppDomainForIsolatedAdapter Property (WMI)"
 title: MSBTS_HostSetting.UseDefaultAppDomainForIsolatedAdapter Property (WMI)
 TOCTitle: MSBTS_HostSetting.UseDefaultAppDomainForIsolatedAdapter Property (WMI)
 ms:assetid: 2b54a1bb-5269-4bc6-9a94-3a5cc167ae4f

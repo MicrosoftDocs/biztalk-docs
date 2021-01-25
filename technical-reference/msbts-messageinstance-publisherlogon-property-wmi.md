@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.PublisherLogon Property (WMI)"
 title: MSBTS_MessageInstance.PublisherLogon Property (WMI)
 TOCTitle: MSBTS_MessageInstance.PublisherLogon Property (WMI)
 ms:assetid: a49192f3-4c0e-4bc8-bc03-d103dd83b58f

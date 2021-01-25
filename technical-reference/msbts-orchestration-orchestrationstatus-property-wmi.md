@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.OrchestrationStatus Property (WMI)"
 title: MSBTS_Orchestration.OrchestrationStatus Property (WMI)
 TOCTitle: MSBTS_Orchestration.OrchestrationStatus Property (WMI)
 ms:assetid: bbe48cdb-e3d6-479c-b908-fc25d8d85632

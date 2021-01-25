@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Host.MgmtDbServerOverride Property (WMI)"
 title: MSBTS_Host.MgmtDbServerOverride Property (WMI)
 TOCTitle: MSBTS_Host.MgmtDbServerOverride Property (WMI)
 ms:assetid: 4a1a5f4b-006e-4d76-9897-0e2a6b342b32

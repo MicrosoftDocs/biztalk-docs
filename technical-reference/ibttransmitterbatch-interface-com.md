@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitterBatch Interface (COM)"
 title: IBTTransmitterBatch Interface (COM)
 TOCTitle: IBTTransmitterBatch Interface (COM)
 ms:assetid: 2c57383d-4e6a-4abd-b31b-2674d898a30f

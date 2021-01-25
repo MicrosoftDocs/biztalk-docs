@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MessageBoxes Node, Details Pane"
 title: MessageBoxes Node, Details Pane
 TOCTitle: MessageBoxes Node, Details Pane
 ms:assetid: 97d52e27-b082-49e1-9cd5-e0589a9ca7c8

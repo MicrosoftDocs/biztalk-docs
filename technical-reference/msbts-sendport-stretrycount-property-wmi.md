@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.STRetryCount Property (WMI)"
 title: MSBTS_SendPort.STRetryCount Property (WMI)
 TOCTitle: MSBTS_SendPort.STRetryCount Property (WMI)
 ms:assetid: c7d97ff0-8e07-4740-83ca-e05d873cab3c

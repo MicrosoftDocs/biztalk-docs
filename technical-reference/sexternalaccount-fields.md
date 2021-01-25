@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SExternalAccount Fields"
 title: SExternalAccount Fields
 TOCTitle: SExternalAccount Fields
 ms:assetid: 6747a580-cbbe-4d33-850d-5a4a70035f2a

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Role Links Node, Details Pane"
 title: Role Links Node, Details Pane
 TOCTitle: Role Links Node, Details Pane
 ms:assetid: 67fa28d9-3c0f-4a81-a626-60803d105976

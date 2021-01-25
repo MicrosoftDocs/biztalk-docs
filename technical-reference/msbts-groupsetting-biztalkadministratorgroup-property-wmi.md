@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.BizTalkAdministratorGroup Property (WMI)"
 title: MSBTS_GroupSetting.BizTalkAdministratorGroup Property (WMI)
 TOCTitle: MSBTS_GroupSetting.BizTalkAdministratorGroup Property (WMI)
 ms:assetid: d848685e-5156-4647-aa60-c42a6a03d70f

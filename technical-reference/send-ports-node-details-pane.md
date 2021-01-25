@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Send Ports Node, Details Pane"
 title: Send Ports Node, Details Pane
 TOCTitle: Send Ports Node, Details Pane
 ms:assetid: d07776c2-d9ea-4b6f-bfc7-8ed0921efd20

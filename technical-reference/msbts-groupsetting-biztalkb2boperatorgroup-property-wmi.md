@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.BizTalkB2BOperatorGroup Property (WMI)"
 title: MSBTS_GroupSetting.BizTalkB2BOperatorGroup Property (WMI)
 TOCTitle: MSBTS_GroupSetting.BizTalkB2BOperatorGroup Property (WMI)
 ms:assetid: ac2be18f-e5d8-44b8-898f-7c89ecab5cfb

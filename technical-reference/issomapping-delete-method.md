@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapping.Delete Method"
 title: ISSOMapping.Delete Method
 TOCTitle: ISSOMapping.Delete Method
 ms:assetid: af2fb3e2-6185-4b6f-b0e2-305c8c320c5b

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server Properties"
 title: Server Properties
 TOCTitle: Server Properties
 ms:assetid: bd29c317-ff25-461d-8940-2993f6265011

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstanceSetting.IsDisabled Property (WMI)"
 title: MSBTS_HostInstanceSetting.IsDisabled Property (WMI)
 TOCTitle: MSBTS_HostInstanceSetting.IsDisabled Property (WMI)
 ms:assetid: 494a073c-0f23-465a-93bf-cf7d84cf9d94

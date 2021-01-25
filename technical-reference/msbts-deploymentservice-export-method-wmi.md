@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_DeploymentService.Export Method (WMI)"
 title: MSBTS_DeploymentService.Export Method (WMI)
 TOCTitle: MSBTS_DeploymentService.Export Method (WMI)
 ms:assetid: ca5d0029-e1f7-4103-86dc-2d1bf781e055

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveHandler.AdapterName Property (WMI)"
 title: MSBTS_ReceiveHandler.AdapterName Property (WMI)
 TOCTitle: MSBTS_ReceiveHandler.AdapterName Property (WMI)
 ms:assetid: 4e2c0948-1358-488e-a137-dcca96976eb8

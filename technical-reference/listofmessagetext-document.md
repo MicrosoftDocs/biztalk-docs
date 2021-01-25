@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: listOfMessageText Document"
 title: listOfMessageText Document
 TOCTitle: listOfMessageText Document
 ms:assetid: 4cd90d1f-aa32-4844-b7f9-206e5a001336

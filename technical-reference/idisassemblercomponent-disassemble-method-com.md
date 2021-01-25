@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDisassemblerComponent.Disassemble Method (COM)"
 title: IDisassemblerComponent.Disassemble Method (COM)
 TOCTitle: IDisassemblerComponent.Disassemble Method (COM)
 ms:assetid: 61ad5f2a-26d8-4f47-89f3-549a267db554

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SAdapter Members"
 title: SAdapter Members
 TOCTitle: SAdapter Members
 ms:assetid: 4500864e-01ec-4077-a721-11f6defdfe1e

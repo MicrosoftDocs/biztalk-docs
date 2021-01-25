@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstance.Start Method (WMI)"
 title: MSBTS_HostInstance.Start Method (WMI)
 TOCTitle: MSBTS_HostInstance.Start Method (WMI)
 ms:assetid: 1324a112-4b24-4449-94b3-dd236e8725c1

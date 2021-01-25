@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: INamedItemList.GetItem Method (COM)"
 title: INamedItemList.GetItem Method (COM)
 TOCTitle: INamedItemList.GetItem Method (COM)
 ms:assetid: d61bd524-0f71-4ad9-91b1-b14a6e2f3ce2

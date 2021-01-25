@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveHandler.MgmtDbServerOverride Property (WMI)"
 title: MSBTS_ReceiveHandler.MgmtDbServerOverride Property (WMI)
 TOCTitle: MSBTS_ReceiveHandler.MgmtDbServerOverride Property (WMI)
 ms:assetid: 6ea637b5-ecac-460b-9338-ea9fadb59842

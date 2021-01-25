@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IComponentUI Properties (COM)"
 title: IComponentUI Properties (COM)
 TOCTitle: IComponentUI Properties (COM)
 ms:assetid: 51ab5731-688e-4f1c-bc16-fb32f7de88f6

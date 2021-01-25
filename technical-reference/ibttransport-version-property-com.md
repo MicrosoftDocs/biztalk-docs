@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransport.Version Property (COM)"
 title: IBTTransport.Version Property (COM)
 TOCTitle: IBTTransport.Version Property (COM)
 ms:assetid: e7a624e4-61fd-4369-83e5-2cbaffc004e2

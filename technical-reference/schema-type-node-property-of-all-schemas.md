@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Schema Type (Node Property of All Schemas)"
 title: Schema Type (Node Property of All Schemas)
 TOCTitle: Schema Type (Node Property of All Schemas)
 ms:assetid: b56b7f04-2e28-40c0-8f47-60902b3a9173

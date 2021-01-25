@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.Start Method (WMI)"
 title: MSBTS_SendPort.Start Method (WMI)
 TOCTitle: MSBTS_SendPort.Start Method (WMI)
 ms:assetid: 1013d729-8e9f-4787-94f5-a01a21a9ef89

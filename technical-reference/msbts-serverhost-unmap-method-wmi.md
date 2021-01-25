@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServerHost.Unmap Method (WMI)"
 title: MSBTS_ServerHost.Unmap Method (WMI)
 TOCTitle: MSBTS_ServerHost.Unmap Method (WMI)
 ms:assetid: c0566f22-ce16-4205-a491-b7f9efe247ae

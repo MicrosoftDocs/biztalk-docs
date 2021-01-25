@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Message Details Properties Dialog Box"
 title: Message Details Properties Dialog Box
 TOCTitle: Message Details Properties Dialog Box
 ms:assetid: f01fa36d-cf58-4c0f-afba-3b9e1eceea96

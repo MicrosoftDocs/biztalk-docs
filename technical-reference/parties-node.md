@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Parties Node"
 title: Parties Node
 TOCTitle: Parties Node
 ms:assetid: e8bc2838-c30e-4ffc-90f7-a17d3ef61704

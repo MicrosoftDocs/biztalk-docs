@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage.RemovePart Method (COM)"
 title: IBaseMessage.RemovePart Method (COM)
 TOCTitle: IBaseMessage.RemovePart Method (COM)
 ms:assetid: e4dd1504-8101-4b3c-89e3-2b6e3b7fc3f4

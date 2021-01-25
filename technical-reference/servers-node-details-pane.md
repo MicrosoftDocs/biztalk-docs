@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Servers Node, Details Pane"
 title: Servers Node, Details Pane
 TOCTitle: Servers Node, Details Pane
 ms:assetid: 21059600-86b7-4b04-9db1-c680fc68f875

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.MessageDeliveryOverdriveFactor Property (WMI)"
 title: MSBTS_HostSetting.MessageDeliveryOverdriveFactor Property (WMI)
 TOCTitle: MSBTS_HostSetting.MessageDeliveryOverdriveFactor Property (WMI)
 ms:assetid: 6d72439e-865b-4972-a65c-0d0fd8fbba20

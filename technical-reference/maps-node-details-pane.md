@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Maps Node, Details Pane"
 title: Maps Node, Details Pane
 TOCTitle: Maps Node, Details Pane
 ms:assetid: e2cd894b-88c9-43d4-bde7-d02948fc4bb8

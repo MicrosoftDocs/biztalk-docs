@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapper2.GetApplications2 Method"
 title: ISSOMapper2.GetApplications2 Method
 TOCTitle: ISSOMapper2.GetApplications2 Method
 ms:assetid: 8eca0fe4-e178-4267-a510-6ed42a33f011

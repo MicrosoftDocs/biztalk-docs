@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext.ComponentIndex Property (COM)"
 title: IPipelineContext.ComponentIndex Property (COM)
 TOCTitle: IPipelineContext.ComponentIndex Property (COM)
 ms:assetid: f242b9c5-7b50-4139-8d16-cd7bc6ae7ea5

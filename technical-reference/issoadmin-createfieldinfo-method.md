@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOAdmin.CreateFieldInfo Method"
 title: ISSOAdmin.CreateFieldInfo Method
 TOCTitle: ISSOAdmin.CreateFieldInfo Method
 ms:assetid: cbf1cf28-bcf4-4529-ba8f-373bd9b074b9

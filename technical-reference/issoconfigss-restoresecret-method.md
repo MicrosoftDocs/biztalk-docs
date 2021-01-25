@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigSS.RestoreSecret Method"
 title: ISSOConfigSS.RestoreSecret Method
 TOCTitle: ISSOConfigSS.RestoreSecret Method
 ms:assetid: 6b5dabed-0b56-4aad-9e2c-228a0c044638

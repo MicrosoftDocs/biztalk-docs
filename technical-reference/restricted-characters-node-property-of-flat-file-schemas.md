@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Restricted Characters (Node Property of Flat File Schemas)"
 title: Restricted Characters (Node Property of Flat File Schemas)
 TOCTitle: Restricted Characters (Node Property of Flat File Schemas)
 ms:assetid: 854422a3-49c9-4a2e-81b2-f62e38886491

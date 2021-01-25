@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Setup Wizard, Redistributable Prerequisites Page"
 title: Setup Wizard, Redistributable Prerequisites Page
 TOCTitle: Setup Wizard, Redistributable Prerequisites Page
 ms:assetid: d6f31d9c-46eb-438d-9329-8f30e7ae8a99

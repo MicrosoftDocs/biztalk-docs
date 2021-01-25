@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigSS Interface (COM)"
 title: ISSOConfigSS Interface (COM)
 TOCTitle: ISSOConfigSS Interface (COM)
 ms:assetid: 5f24b0f7-c893-4b3f-821a-77c50785fa60

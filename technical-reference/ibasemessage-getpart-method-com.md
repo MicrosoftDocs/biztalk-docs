@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage.GetPart Method (COM)"
 title: IBaseMessage.GetPart Method (COM)
 TOCTitle: IBaseMessage.GetPart Method (COM)
 ms:assetid: 4797896e-dd93-482d-a786-959240fd9522

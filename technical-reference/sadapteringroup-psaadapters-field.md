@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SAdapterInGroup.psaAdapters Field"
 title: SAdapterInGroup.psaAdapters Field
 TOCTitle: SAdapterInGroup.psaAdapters Field
 ms:assetid: 9b843b84-8413-4e28-9838-22a8eb1c83a1

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportProxy Interface (COM)"
 title: IBTTransportProxy Interface (COM)
 TOCTitle: IBTTransportProxy Interface (COM)
 ms:assetid: c15e965c-a630-4eae-b9b4-e9f3b704ad4b

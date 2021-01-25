@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPortGroup2SendPort (WMI)"
 title: MSBTS_SendPortGroup2SendPort (WMI)
 TOCTitle: MSBTS_SendPortGroup2SendPort (WMI)
 ms:assetid: 9479d9be-7a24-4bed-a591-5ddf1e089b6a

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: .NET Class Definition Page"
 title: .NET Class Definition Page
 TOCTitle: .NET Class Definition Page
 ms:assetid: 35c55f36-f791-4602-b408-deac8026f2a3

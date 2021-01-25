@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage Methods (COM)"
 title: IBaseMessage Methods (COM)
 TOCTitle: IBaseMessage Methods (COM)
 ms:assetid: 5591b134-1be5-446d-9efc-b51dd00817f1

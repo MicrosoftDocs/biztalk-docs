@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.PTAddress Property (WMI)"
 title: MSBTS_SendPort.PTAddress Property (WMI)
 TOCTitle: MSBTS_SendPort.PTAddress Property (WMI)
 ms:assetid: 2b2c9371-d426-4c84-9341-03b36979e56d

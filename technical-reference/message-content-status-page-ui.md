@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Message Content Status Page UI"
 title: Message Content Status Page UI
 TOCTitle: Message Content Status Page UI
 ms:assetid: 795bf59c-5290-4c97-984e-0bf36676ca4e

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Scope Shape"
 title: Scope Shape
 TOCTitle: Scope Shape
 ms:assetid: ff3a3a49-526b-4e54-8071-ba82c801a281

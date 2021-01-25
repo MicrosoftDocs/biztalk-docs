@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IProbeMessage Members (COM)"
 title: IProbeMessage Members (COM)
 TOCTitle: IProbeMessage Members (COM)
 ms:assetid: 8c22546c-a68c-4f72-a1d9-683a3b916835

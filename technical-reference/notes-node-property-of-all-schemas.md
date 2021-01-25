@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Notes (Node Property of All Schemas)"
 title: Notes (Node Property of All Schemas)
 TOCTitle: Notes (Node Property of All Schemas)
 ms:assetid: f193c04e-81f8-4460-b3d7-a25e6dd35f48

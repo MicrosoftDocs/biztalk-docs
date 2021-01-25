@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBasePropertyBag.CountProperties Method (COM)"
 title: IBasePropertyBag.CountProperties Method (COM)
 TOCTitle: IBasePropertyBag.CountProperties Method (COM)
 ms:assetid: 3701a2a2-fdc5-4e50-bb25-7c6c6fdb5c9c

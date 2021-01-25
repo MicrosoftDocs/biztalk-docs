@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessagePart.Data Property (COM)"
 title: IBaseMessagePart.Data Property (COM)
 TOCTitle: IBaseMessagePart.Data Property (COM)
 ms:assetid: 463b8e0c-2fe5-4ac0-acc6-893f6ec0be98

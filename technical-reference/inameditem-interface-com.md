@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: INamedItem Interface (COM)"
 title: INamedItem Interface (COM)
 TOCTitle: INamedItem Interface (COM)
 ms:assetid: b09b1eaa-d8df-4846-a764-83a61b35c66e

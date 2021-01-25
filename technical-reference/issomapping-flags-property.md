@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapping.Flags Property"
 title: ISSOMapping.Flags Property
 TOCTitle: ISSOMapping.Flags Property
 ms:assetid: 86169c9e-24e4-4260-9f91-4980a08134af

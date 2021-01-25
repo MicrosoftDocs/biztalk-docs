@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransport Interface (COM)"
 title: IBTTransport Interface (COM)
 TOCTitle: IBTTransport Interface (COM)
 ms:assetid: 49191cef-e057-4fe8-bb10-1a75ee036344

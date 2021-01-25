@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MaxFacet Value (Node Property of All Schemas)"
 title: MaxFacet Value (Node Property of All Schemas)
 TOCTitle: MaxFacet Value (Node Property of All Schemas)
 ms:assetid: 5d3f9ab4-4f52-41f6-8ef0-baa3bf9ad97f

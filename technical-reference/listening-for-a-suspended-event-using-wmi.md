@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Listening for a Suspended Event Using WMI"
 title: Listening for a Suspended Event Using WMI
 TOCTitle: Listening for a Suspended Event Using WMI
 ms:assetid: 921444a0-16df-4c7a-8029-9377c367c018

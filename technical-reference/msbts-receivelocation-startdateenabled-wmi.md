@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.StartDateEnabled (WMI)"
 title: MSBTS_ReceiveLocation.StartDateEnabled (WMI)
 TOCTitle: MSBTS_ReceiveLocation.StartDateEnabled (WMI)
 ms:assetid: 2ca499e4-2ac8-4320-9d69-0208cfafc87d

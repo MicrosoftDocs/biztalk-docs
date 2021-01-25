@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_BTSObject (WMI)"
 title: MSBTS_BTSObject (WMI)
 TOCTitle: MSBTS_BTSObject (WMI)
 ms:assetid: 2ce4d9ad-6e18-4dbc-aa40-e476312bdfca

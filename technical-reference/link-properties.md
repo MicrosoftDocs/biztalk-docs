@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Link Properties"
 title: Link Properties
 TOCTitle: Link Properties
 ms:assetid: a3a16232-507c-4536-9584-de483a9bf220

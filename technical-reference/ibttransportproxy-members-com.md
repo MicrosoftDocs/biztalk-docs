@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportProxy Members (COM)"
 title: IBTTransportProxy Members (COM)
 TOCTitle: IBTTransportProxy Members (COM)
 ms:assetid: 38bece0f-bc57-494b-b31d-c8f5af90bd90

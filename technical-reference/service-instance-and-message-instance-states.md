@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Service Instance and Message Instance States"
 title: Service Instance and Message Instance States
 TOCTitle: Service Instance and Message Instance States
 ms:assetid: 2666a27c-e5f7-4ae6-8f12-afa06bba8876

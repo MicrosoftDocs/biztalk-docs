@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext Methods (COM)"
 title: IPipelineContext Methods (COM)
 TOCTitle: IPipelineContext Methods (COM)
 ms:assetid: 4712ed24-b788-4b04-8c57-6a61224b1f2c

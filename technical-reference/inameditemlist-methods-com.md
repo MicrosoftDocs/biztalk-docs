@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: INamedItemList Methods (COM)"
 title: INamedItemList Methods (COM)
 TOCTitle: INamedItemList Methods (COM)
 ms:assetid: fc2def5f-3c56-4cf7-9fc6-931ab14a9565

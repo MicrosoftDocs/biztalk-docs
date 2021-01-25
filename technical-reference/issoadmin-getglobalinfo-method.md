@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOAdmin.GetGlobalInfo Method"
 title: ISSOAdmin.GetGlobalInfo Method
 TOCTitle: ISSOAdmin.GetGlobalInfo Method
 ms:assetid: 5699dbac-1467-4739-a940-9572e1b0415e

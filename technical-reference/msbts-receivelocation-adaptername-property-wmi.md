@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.AdapterName Property (WMI)"
 title: MSBTS_ReceiveLocation.AdapterName Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.AdapterName Property (WMI)
 ms:assetid: f0571f9c-f8bd-4e3a-b4e2-ed60ca6119c9

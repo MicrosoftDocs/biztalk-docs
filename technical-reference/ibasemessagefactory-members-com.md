@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageFactory Members (COM)"
 title: IBaseMessageFactory Members (COM)
 TOCTitle: IBaseMessageFactory Members (COM)
 ms:assetid: bdef7678-39c6-486f-8334-ba770d6c0839

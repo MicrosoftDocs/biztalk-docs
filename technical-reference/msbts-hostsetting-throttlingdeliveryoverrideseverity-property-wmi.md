@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ThrottlingDeliveryOverrideSeverity Property (WMI)"
 title: MSBTS_HostSetting.ThrottlingDeliveryOverrideSeverity Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingDeliveryOverrideSeverity Property (WMI)
 ms:assetid: 8323da3b-e62c-4da7-bb94-ff16a03c9644

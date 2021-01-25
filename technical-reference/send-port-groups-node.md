@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Send Port Groups Node"
 title: Send Port Groups Node
 TOCTitle: Send Port Groups Node
 ms:assetid: 3bb977bc-7e97-4034-9ab2-09e4fb1898fd

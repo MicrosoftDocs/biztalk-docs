@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.ServiceInstanceStatus Property (WMI)"
 title: MSBTS_MessageInstance.ServiceInstanceStatus Property (WMI)
 TOCTitle: MSBTS_MessageInstance.ServiceInstanceStatus Property (WMI)
 ms:assetid: 31964346-5411-4f3c-955e-5535c13c56bc

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Host.Cluster Method (WMI)"
 title: MSBTS_Host.Cluster Method (WMI)
 TOCTitle: MSBTS_Host.Cluster Method (WMI)
 ms:assetid: caa455d2-33f8-4383-ab5b-7025d12dd662

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Send Ports Node"
 title: Send Ports Node
 TOCTitle: Send Ports Node
 ms:assetid: 8fd747c8-b69e-4a31-b201-03510f91c918

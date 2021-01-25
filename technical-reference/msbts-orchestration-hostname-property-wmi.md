@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.HostName Property (WMI)"
 title: MSBTS_Orchestration.HostName Property (WMI)
 TOCTitle: MSBTS_Orchestration.HostName Property (WMI)
 ms:assetid: a738aa3e-8c87-41bb-801b-1d68452dfc0a

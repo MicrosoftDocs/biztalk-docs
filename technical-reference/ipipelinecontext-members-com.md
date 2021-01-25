@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext Members (COM)"
 title: IPipelineContext Members (COM)
 TOCTitle: IPipelineContext Members (COM)
 ms:assetid: d6a57420-85e9-43fe-8fd2-4a2aabe54c0a

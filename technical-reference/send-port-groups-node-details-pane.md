@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Send Port Groups Node, Details Pane"
 title: Send Port Groups Node, Details Pane
 TOCTitle: Send Port Groups Node, Details Pane
 ms:assetid: d6025871-203c-4fab-8863-bd83117a9262

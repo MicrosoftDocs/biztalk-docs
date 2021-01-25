@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Schema Property Reference"
 title: Schema Property Reference
 TOCTitle: Schema Property Reference
 ms:assetid: 5e8c0622-0908-4a44-b6ce-76e7b0d74cbf

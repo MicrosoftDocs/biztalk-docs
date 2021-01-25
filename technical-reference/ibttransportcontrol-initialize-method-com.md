@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportControl.Initialize Method (COM)"
 title: IBTTransportControl.Initialize Method (COM)
 TOCTitle: IBTTransportControl.Initialize Method (COM)
 ms:assetid: 861280f6-75e9-4f7b-a5ad-4175a1bb51a9

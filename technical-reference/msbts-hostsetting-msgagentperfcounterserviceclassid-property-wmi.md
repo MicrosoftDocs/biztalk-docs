@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.MsgAgentPerfCounterServiceClassID Property (WMI)"
 title: MSBTS_HostSetting.MsgAgentPerfCounterServiceClassID Property (WMI)
 TOCTitle: MSBTS_HostSetting.MsgAgentPerfCounterServiceClassID Property (WMI)
 ms:assetid: afcdfa5b-2949-4e95-8a07-2ad783ef0a59

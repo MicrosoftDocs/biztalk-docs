@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceivePort.Name Property (WMI)"
 title: MSBTS_ReceivePort.Name Property (WMI)
 TOCTitle: MSBTS_ReceivePort.Name Property (WMI)
 ms:assetid: b7686057-0255-49a6-bc26-fdebf4a7d501

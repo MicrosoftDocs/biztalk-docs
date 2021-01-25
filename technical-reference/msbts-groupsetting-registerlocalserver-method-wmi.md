@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.RegisterLocalServer Method (WMI)"
 title: MSBTS_GroupSetting.RegisterLocalServer Method (WMI)
 TOCTitle: MSBTS_GroupSetting.RegisterLocalServer Method (WMI)
 ms:assetid: 17a26237-b546-45b3-b297-6758ecc4ea6a

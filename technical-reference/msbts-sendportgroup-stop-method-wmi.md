@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPortGroup.Stop Method (WMI)"
 title: MSBTS_SendPortGroup.Stop Method (WMI)
 TOCTitle: MSBTS_SendPortGroup.Stop Method (WMI)
 ms:assetid: fd4cede4-4eec-4045-be1e-c94465e97fd2

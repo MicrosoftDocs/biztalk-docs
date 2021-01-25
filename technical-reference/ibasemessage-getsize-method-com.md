@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage.GetSize Method (COM)"
 title: IBaseMessage.GetSize Method (COM)
 TOCTitle: IBaseMessage.GetSize Method (COM)
 ms:assetid: ed17043f-112c-40cc-951f-dbc663979822

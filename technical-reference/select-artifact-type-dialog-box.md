@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Select Artifact Type Dialog Box"
 title: Select Artifact Type Dialog Box
 TOCTitle: Select Artifact Type Dialog Box
 ms:assetid: 8533d14c-e56e-46ae-b083-bfe8e32bcad0

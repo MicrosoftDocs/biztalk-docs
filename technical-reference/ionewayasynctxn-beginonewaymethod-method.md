@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IOneWayAsyncTxn.BeginOneWayMethod Method"
 title: IOneWayAsyncTxn.BeginOneWayMethod Method
 TOCTitle: IOneWayAsyncTxn.BeginOneWayMethod Method
 ms:assetid: 673efbb7-cada-494c-946a-fd9306f35ea4

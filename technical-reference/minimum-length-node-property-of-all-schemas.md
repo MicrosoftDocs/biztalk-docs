@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Minimum Length (Node Property of All Schemas)"
 title: Minimum Length (Node Property of All Schemas)
 TOCTitle: Minimum Length (Node Property of All Schemas)
 ms:assetid: fe25af72-30c4-4f17-afd8-597b269f4935

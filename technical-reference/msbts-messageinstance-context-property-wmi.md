@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.Context Property (WMI)"
 title: MSBTS_MessageInstance.Context Property (WMI)
 TOCTitle: MSBTS_MessageInstance.Context Property (WMI)
 ms:assetid: f2421f40-2d87-43da-8968-9ad0a7ff8687

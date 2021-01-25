@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOLookup1 Methods"
 title: ISSOLookup1 Methods
 TOCTitle: ISSOLookup1 Methods
 ms:assetid: 5a09428d-967f-4e02-a801-37c0511bdabf

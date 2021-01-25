@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_AdapterSetting (WMI)"
 title: MSBTS_AdapterSetting (WMI)
 TOCTitle: MSBTS_AdapterSetting (WMI)
 ms:assetid: 4b775cb4-b8a8-40a4-9aa8-2363620d306d

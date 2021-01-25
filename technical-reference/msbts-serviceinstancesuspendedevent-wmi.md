@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstanceSuspendedEvent (WMI)"
 title: MSBTS_ServiceInstanceSuspendedEvent (WMI)
 TOCTitle: MSBTS_ServiceInstanceSuspendedEvent (WMI)
 ms:assetid: 0d07e5f2-0dae-4128-8f67-ade1a59d3fe4

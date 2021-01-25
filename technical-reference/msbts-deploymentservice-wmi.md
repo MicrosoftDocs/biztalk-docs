@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_DeploymentService (WMI)"
 title: MSBTS_DeploymentService (WMI)
 TOCTitle: MSBTS_DeploymentService (WMI)
 ms:assetid: b2ff0753-edef-494c-980a-b5071faf23b2

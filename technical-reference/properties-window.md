@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Properties Window"
 title: Properties Window
 TOCTitle: Properties Window
 ms:assetid: d0c2e99d-c7dd-47d9-98a5-b4f871be179e

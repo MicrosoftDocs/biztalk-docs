@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.PTTransportType Property (WMI)"
 title: MSBTS_SendPort.PTTransportType Property (WMI)
 TOCTitle: MSBTS_SendPort.PTTransportType Property (WMI)
 ms:assetid: 3b854195-a6cb-484f-aba7-5a26c9d17850

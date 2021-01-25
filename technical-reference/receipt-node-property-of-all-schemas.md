@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Receipt (Node Property of All Schemas)"
 title: Receipt (Node Property of All Schemas)
 TOCTitle: Receipt (Node Property of All Schemas)
 ms:assetid: 80f2054e-09a1-46b5-9695-b1fd6891c6e6

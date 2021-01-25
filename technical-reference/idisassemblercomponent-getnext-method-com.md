@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDisassemblerComponent.GetNext Method (COM)"
 title: IDisassemblerComponent.GetNext Method (COM)
 TOCTitle: IDisassemblerComponent.GetNext Method (COM)
 ms:assetid: d01f6e61-9490-4b52-9772-e16e9c5f5c0a

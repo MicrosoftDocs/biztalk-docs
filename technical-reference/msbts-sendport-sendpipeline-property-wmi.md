@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.SendPipeline Property (WMI)"
 title: MSBTS_SendPort.SendPipeline Property (WMI)
 TOCTitle: MSBTS_SendPort.SendPipeline Property (WMI)
 ms:assetid: 9c39d383-22f5-4519-b0f9-72dcc65ee75c

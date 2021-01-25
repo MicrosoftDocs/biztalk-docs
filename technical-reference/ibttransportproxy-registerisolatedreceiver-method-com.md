@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportProxy.RegisterIsolatedReceiver Method (COM)"
 title: IBTTransportProxy.RegisterIsolatedReceiver Method (COM)
 TOCTitle: IBTTransportProxy.RegisterIsolatedReceiver Method (COM)
 ms:assetid: 589f7158-8a05-4522-9bc2-07ba2f9b197c
