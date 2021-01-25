@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Choosing Client/Server Network Protocols"
 title: "Choosing Client-Server Network Protocols2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Linking 3270 Client Applications"
 title: "Linking 3270 Client Applications1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

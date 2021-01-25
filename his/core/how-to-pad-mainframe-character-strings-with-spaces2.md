@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Pad Mainframe Character Strings with Spaces"
 title: "How to Pad Mainframe Character Strings with Spaces2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

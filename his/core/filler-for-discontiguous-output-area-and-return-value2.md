@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FILLER for Discontiguous Output Area and Return Value"
 title: "FILLER for Discontiguous Output Area and Return Value2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

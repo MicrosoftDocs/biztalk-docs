@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bytes Received Per Second"
 title: "Bytes Received Per Second1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

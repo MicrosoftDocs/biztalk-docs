@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Format for Link Statistics"
 title: "Format for Link Statistics1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

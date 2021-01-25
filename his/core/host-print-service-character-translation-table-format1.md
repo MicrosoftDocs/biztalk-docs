@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Print Service Character Translation Table Format"
 title: "Host Print Service Character Translation Table Format1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

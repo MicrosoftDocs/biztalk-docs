@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating and Configuring Link Services"
 title: "Creating and Configuring Link Services2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

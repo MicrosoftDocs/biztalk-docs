@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: fDisconnectRegistry"
 title: "fDisconnectRegistry1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

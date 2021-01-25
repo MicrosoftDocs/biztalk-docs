@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connecting to DB2 using Demo Link Service"
 title: "Connect to DB2 using Demo Link Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

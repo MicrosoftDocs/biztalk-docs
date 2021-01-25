@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring an IP-DLC Connection"
 title: "Configuring an IP-DLC Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

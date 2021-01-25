@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration for HIP"
 title: "Configuration for HIP | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

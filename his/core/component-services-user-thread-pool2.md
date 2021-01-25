@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Component Services User Thread Pool"
 title: "Component Services User Thread Pool2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

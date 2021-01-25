@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HIS Designer Menus"
 title: "HIS Designer Menus1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: hostIntegration.drdaAs.drdaService"
 title: "hostIntegration.drdaAs.drdaService | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

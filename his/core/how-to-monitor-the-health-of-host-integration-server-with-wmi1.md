@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Monitor the Health of Host Integration Server with WMI"
 title: "How to Monitor the Health of Host Integration Server with WMI1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

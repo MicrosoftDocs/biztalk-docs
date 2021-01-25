@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Converting Data Types from RPG to Automation"
 title: "Converting Data Types from RPG to Automation1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

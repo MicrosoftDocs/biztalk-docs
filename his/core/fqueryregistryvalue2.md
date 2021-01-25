@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: fQueryRegistryValue"
 title: "fQueryRegistryValue2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

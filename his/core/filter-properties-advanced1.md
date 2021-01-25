@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Filter Properties: Advanced"
 title: "Filter Properties: Advanced1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

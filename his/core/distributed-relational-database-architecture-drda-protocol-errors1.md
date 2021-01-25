@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Distributed Relational Database Architecture (DRDA) Protocol Errors"
 title: "Distributed Relational Database Architecture (DRDA) Protocol Errors1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

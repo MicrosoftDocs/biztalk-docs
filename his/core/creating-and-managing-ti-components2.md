@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating and Managing TI Components"
 title: "Creating and Managing TI Components2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

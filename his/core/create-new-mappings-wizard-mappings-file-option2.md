@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create New Mappings Wizard: Mappings File Option"
 title: "Create New Mappings Wizard: Mappings File Option2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

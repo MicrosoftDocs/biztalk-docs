@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring for LUA"
 title: "Configuring for LUA1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

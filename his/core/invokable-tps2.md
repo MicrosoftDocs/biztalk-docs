@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invokable TPs"
 title: "Invokable TPs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

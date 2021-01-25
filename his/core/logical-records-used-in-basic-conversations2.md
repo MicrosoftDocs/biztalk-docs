@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Logical Records Used in Basic Conversations"
 title: "Logical Records Used in Basic Conversations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

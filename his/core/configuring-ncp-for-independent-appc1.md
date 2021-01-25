@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring NCP for Independent APPC"
 title: "Configuring NCP for Independent APPC1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Integration Server 2013 Folder"
 title: "Host Integration Server 2013 Folder | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

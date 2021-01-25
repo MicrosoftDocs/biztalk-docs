@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create TPs and Their Supporting Configuration (CPI-C)"
 title: "Create TPs and Supporting Configuration (CPI-C) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

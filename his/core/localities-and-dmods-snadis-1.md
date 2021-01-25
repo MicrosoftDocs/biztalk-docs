@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Localities and DMODs (SNADIS)"
 title: "Localities and DMODs (SNADIS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

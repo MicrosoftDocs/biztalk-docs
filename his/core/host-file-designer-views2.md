@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host File Designer Views"
 title: "Host File Designer Views2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

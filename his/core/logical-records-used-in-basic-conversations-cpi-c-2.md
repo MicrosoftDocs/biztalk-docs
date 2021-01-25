@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Logical Records Used in Basic Conversations (CPI-C)"
 title: "Logical Records Used in Basic Conversations (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

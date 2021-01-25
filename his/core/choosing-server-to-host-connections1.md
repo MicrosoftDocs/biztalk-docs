@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Choosing Server-to-Host Connections"
 title: "Choosing Server-to-Host Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

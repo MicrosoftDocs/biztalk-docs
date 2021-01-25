@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoking and Working with Invokable TPs (CPI-C)"
 title: "Invoking and Working with Invokable TPs (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

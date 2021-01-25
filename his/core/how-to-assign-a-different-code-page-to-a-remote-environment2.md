@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Assign a Different Code Page to a Remote Environment"
 title: "How to Assign a Different Code Page to a Remote Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

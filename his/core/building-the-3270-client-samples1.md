@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Building the 3270 Client Samples"
 title: "Building the 3270 Client Samples1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DEACTIVATE_SESSION"
 title: "DEACTIVATE_SESSION1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Client Application Does Not Start but No Error Given"
 title: "Client Application Does Not Start but No Error Given1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Inbound Data"
 title: "Inbound Data2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Integrated Link Service Setup on Host Integration Server"
 title: "Integrated Link Service Setup on Host Integration Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

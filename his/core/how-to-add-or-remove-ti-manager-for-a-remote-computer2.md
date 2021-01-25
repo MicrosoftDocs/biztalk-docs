@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add or Remove TI Manager for a Remote Computer"
 title: "How to Add or Remove TI Manager for a Remote Computer2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

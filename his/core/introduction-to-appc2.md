@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Introduction to APPC"
 title: "Introduction to APPC2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

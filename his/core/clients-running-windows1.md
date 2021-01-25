@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Clients Running Windows"
 title: "Clients Running Windows | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Getting Started with WMI"
 title: "Getting Started with WMI2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

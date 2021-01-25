@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CPI-C Considerations for Windows"
 title: "CPI-C Considerations for Windows2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

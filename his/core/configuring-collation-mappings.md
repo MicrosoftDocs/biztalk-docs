@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure Collation Mappings"
 title: "Configure Collation Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

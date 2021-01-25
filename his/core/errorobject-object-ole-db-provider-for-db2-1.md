@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ErrorObject Object (OLE DB Provider for DB2)"
 title: "ErrorObject Object (OLE DB Provider for DB2)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

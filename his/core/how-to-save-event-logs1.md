@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Save Event Logs"
 title: "How to Save Event Logs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

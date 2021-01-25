@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Goals for the Managed Data Provider for Host Files"
 title: "Goals for the Managed Data Provider for Host Files2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

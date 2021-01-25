@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Database Alias Mappings"
 title: "Configuring Database Alias Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

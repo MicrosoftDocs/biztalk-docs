@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration Entry Points"
 title: "Configuration Entry Points2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

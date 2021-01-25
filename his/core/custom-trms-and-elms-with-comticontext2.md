@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Custom TRMs and ELMs with COMTIContext"
 title: "Custom TRMs and ELMs with COMTIContext2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

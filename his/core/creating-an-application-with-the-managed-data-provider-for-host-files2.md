@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating an Application with the Managed Data Provider for Host Files"
 title: "Creating an Application with the Managed Data Provider for Host Files2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

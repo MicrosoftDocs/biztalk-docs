@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CICS and VTAM Sample Definitions for LU 6.2"
 title: "CICS and VTAM Sample Definitions for LU 6.21 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

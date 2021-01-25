@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DataTables Shortcut Menu"
 title: "DataTables Shortcut Menu1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

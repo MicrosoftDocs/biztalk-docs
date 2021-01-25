@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create TPs and Their Supporting Configuration"
 title: "Create TPs and Their Supporting Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

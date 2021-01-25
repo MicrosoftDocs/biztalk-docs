@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a Transaction Integrator Project and Interface Definition"
 title: "How to Create a Transaction Integrator Project and Interface Definition1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

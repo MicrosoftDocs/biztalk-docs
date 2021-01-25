@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connect to a DB2 Connection Pool"
 title: "Connect to a DB2 Connection Pool | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

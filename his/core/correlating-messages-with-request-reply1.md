@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Correlating Messages with Request-Reply"
 title: "Correlating Messages with Request-Reply1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Integration Server Concepts for 3270 Client Access"
 title: "Host Integration Server Concepts for 3270 Client Access2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

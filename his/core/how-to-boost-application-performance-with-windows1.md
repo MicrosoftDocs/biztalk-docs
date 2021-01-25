@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Boost Application Performance with Windows"
 title: "How to Boost Application Performance with Windows1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

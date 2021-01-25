@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create Multiple Views of a Single TI Manager Console"
 title: "How to Create Multiple Views of a Single TI Manager Console2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

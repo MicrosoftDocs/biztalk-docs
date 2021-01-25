@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Integration Server Support"
 title: "Host Integration Server Support2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

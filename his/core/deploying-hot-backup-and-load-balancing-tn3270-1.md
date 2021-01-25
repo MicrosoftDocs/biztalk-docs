@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deploying Hot Backup and Load Balancing (TN3270)"
 title: "Deploying Hot Backup and Load Balancing (TN3270)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Communication between TPs"
 title: "Communication between TPs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

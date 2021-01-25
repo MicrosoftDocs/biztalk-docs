@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extract_Conversation_Type (CPI-C)"
 title: "Extract_Conversation_Type (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

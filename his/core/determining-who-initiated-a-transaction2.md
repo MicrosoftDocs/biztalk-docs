@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Determining Who Initiated a Transaction"
 title: "Determining Who Initiated a Transaction2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

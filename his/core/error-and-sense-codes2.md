@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error and Sense Codes"
 title: "Error and Sense Codes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deploying Host Integration Server"
 title: "Deploying Host Integration Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

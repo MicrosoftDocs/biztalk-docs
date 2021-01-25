@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Start Event Viewer"
 title: "How to Start Event Viewer1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interpreting Traces"
 title: "Interpreting Traces2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

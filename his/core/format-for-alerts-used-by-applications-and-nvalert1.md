@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Format for Alerts Used by Applications and NVAlert"
 title: "Format for Alerts Used by Applications and NVAlert1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

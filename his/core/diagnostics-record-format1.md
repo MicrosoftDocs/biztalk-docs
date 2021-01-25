@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Diagnostics Record Format"
 title: "Diagnostics Record Format1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

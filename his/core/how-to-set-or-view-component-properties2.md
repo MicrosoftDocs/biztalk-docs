@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set or View Component Properties"
 title: "How to Set or View Component Properties2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

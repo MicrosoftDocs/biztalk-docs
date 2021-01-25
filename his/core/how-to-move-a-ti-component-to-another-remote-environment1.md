@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Move a TI Component to Another Remote Environment"
 title: "How to Move a TI Component to Another Remote Environment1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

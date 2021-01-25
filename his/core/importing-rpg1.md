@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Importing RPG"
 title: "Importing RPG1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

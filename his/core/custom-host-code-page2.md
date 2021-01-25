@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Custom Host Code Page"
 title: "Custom Host Code Page2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

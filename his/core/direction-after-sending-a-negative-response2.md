@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Direction after Sending a Negative Response"
 title: "Direction after Sending a Negative Response2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

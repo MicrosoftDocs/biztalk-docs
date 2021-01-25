@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Conversion Using the ODBC Driver for DB2"
 title: "Data Conversion using DB2 ODBC Driver | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

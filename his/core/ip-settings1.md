@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IP Settings"
 title: "IP Settings1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

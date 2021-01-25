@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Test and Modify a Transaction Integrator Application"
 title: "How to Test and Modify a Transaction Integrator Application2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Perform Transactions with a DB2 Database"
 title: "How to Perform Transactions with a DB2 Database1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

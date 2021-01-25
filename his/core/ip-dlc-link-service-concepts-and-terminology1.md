@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IP-DLC Link Service Concepts and Terminology"
 title: "IP-DLC Link Service Concepts and Terminology1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

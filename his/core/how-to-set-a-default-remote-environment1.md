@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set a Default Remote Environment"
 title: "How to Set a Default Remote Environment1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

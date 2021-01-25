@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DELETE Statement"
 title: "DELETE Statement1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

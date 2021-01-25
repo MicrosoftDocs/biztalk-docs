@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating and Configuring LUs"
 title: "Creating and Configuring LUs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

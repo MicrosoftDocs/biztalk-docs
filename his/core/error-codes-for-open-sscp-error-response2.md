@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error Codes for Open(SSCP) Error Response"
 title: "Error Codes for Open(SSCP) Error Response2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

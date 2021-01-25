@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Providers for DB2 Security and Protection"
 title: "Data Providers for DB2 Security and Protection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

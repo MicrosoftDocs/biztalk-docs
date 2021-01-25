@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enhanced Listener CICS Administration"
 title: "Enhanced Listener CICS Administration2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

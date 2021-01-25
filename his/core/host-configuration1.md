@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Configuration"
 title: "Host Configuration1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

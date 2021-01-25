@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Assign a TI Component to a Remote Environment"
 title: "Assign a TI Component to a Remote Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

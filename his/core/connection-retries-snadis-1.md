@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connection Retries (SNADIS)"
 title: "Connection Retries (SNADIS)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connections Folder"
 title: "Connections Folder2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure a Client Channel Definition File"
 title: "How to Configure a Client Channel Definition File2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

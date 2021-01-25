@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ErrorRecord Object (OLE DB Provider for Informix)"
 title: "ErrorRecord Object (OLE DB Provider for Informix) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

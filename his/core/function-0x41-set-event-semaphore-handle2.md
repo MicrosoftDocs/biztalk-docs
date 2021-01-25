@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Function 0x41: Set Event/Semaphore Handle"
 title: "Function 0x41: Set Event-Semaphore Handle2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

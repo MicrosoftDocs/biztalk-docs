@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Associate the Interface Definition with the Mainframe Environment"
 title: "Associate the Interface Definition with Mainframe | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

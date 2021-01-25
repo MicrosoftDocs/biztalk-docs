@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bytes Sent Per Second"
 title: "Bytes Sent Per Second2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

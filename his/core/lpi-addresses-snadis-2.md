@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LPI Addresses (SNADIS)"
 title: "LPI Addresses (SNADIS)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

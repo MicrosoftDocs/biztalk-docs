@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Column Collection Parsing"
 title: "Column Collection Parsing1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

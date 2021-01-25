@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Balance System Performance with Windows"
 title: "How to Balance System Performance with Windows2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

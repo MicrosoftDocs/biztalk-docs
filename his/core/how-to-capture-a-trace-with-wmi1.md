@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Capture a Trace with WMI"
 title: "How to Capture a Trace with WMI1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

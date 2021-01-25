@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connection Properties: Channel"
 title: "Connection Properties: Channel1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMS LU6.2 User Data"
 title: "IMS LU6.2 User Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

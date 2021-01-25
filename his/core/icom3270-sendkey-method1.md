@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Icom3270.sendKey Method"
 title: "Icom3270.sendKey Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

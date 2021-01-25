@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a New Application"
 title: "Creating a New Application1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

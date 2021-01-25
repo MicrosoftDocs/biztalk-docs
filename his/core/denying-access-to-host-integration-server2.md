@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Denying Access to Host Integration Server"
 title: "Denying Access to Host Integration Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

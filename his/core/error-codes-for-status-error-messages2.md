@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error Codes for Status-Error Messages"
 title: "Error Codes for Status-Error Messages2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

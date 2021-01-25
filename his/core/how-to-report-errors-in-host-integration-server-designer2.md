@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How To Report Errors in Host Integration Server Designer"
 title: "How To Report Errors in Host Integration Server Designer2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

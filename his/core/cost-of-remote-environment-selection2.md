@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cost of Remote Environment Selection"
 title: "Cost of Remote Environment Selection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

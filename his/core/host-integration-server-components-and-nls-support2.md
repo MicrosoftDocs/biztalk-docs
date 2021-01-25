@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Integration Server Components and NLS Support"
 title: "Host Integration Server Components and NLS Support2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fail-Safe Environment for ACID Transactions"
 title: "Fail-Safe Environment for ACID Transactions2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

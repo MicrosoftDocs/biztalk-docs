@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Type Mapping"
 title: "Data Type Mapping2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

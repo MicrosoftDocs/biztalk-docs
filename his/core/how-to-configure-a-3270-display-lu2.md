@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure a 3270 Display LU"
 title: "How to Configure a 3270 Display LU2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

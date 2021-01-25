@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deployment Strategies (Downstream Connections)"
 title: "Deployment Strategies (Downstream Connections)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

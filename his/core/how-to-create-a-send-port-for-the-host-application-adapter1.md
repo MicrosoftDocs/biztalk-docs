@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a Send Port for the Host Application Adapter"
 title: "How to Create a Send Port for the Host Application Adapter1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

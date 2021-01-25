@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Changing the Default Server Authentication Certificate Common Name (CN)"
 title: "Changing the Default Server Authentication Certificate Common Name (CN)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

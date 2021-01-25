@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to View All Remote Environments"
 title: "How to View All Remote Environments2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

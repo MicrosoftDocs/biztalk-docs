@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing Host Integration Server Clients"
 title: "Installing Host Integration Server Clients2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

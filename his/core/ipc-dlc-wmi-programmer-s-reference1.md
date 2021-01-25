@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IPC-DLC WMI Programmer&#39;s Reference"
 title: "IPC-DLC WMI Programmer&#39;s Reference1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

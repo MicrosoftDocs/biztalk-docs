@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Type Conversions"
 title: "Data Type Conversions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

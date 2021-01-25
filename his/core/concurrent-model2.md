@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Concurrent Model"
 title: "Concurrent Model2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

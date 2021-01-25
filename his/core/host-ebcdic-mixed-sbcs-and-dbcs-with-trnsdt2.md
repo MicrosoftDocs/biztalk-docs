@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host EBCDIC Mixed SBCS and DBCS with TrnsDT"
 title: "Host EBCDIC Mixed SBCS and DBCS with TrnsDT2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

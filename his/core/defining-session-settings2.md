@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining Session Settings"
 title: "Defining Session Settings2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

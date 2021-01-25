@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: fConnectRegistry"
 title: "fConnectRegistry1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

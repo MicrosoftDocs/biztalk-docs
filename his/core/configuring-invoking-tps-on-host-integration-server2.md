@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Invoking TPs on Host Integration Server"
 title: "Configuring Invoking TPs on Host Integration Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

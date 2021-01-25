@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Initial Conversation Characteristics"
 title: "Initial Conversation Characteristics1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

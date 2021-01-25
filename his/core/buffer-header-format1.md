@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Buffer Header Format"
 title: "Buffer Header Format1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

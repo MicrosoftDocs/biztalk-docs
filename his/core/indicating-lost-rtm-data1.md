@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Indicating Lost RTM Data"
 title: "Indicating Lost RTM Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

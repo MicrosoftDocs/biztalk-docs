@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IcomLUO.Receive Method"
 title: "IcomLUO.Receive Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

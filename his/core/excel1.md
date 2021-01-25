@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Excel as a data source - HIS"
 title: "Excel data sources | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

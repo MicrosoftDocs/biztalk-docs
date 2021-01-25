@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Load Balancing and Hot Backup"
 title: "Load Balancing and Hot Backup2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

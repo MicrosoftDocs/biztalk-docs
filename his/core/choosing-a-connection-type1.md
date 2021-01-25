@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Choosing a Connection Type"
 title: "Choosing a Connection Type1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

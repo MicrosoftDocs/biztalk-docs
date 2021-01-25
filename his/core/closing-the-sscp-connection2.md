@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Closing the SSCP Connection"
 title: "Closing the SSCP Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

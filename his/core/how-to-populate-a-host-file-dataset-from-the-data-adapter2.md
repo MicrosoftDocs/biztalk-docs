@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Populate a Host File Dataset from the Data Adapter"
 title: "How to Populate a Host File Dataset from the Data Adapter2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

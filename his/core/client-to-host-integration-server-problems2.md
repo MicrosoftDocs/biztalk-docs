@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Client to Host Integration Server Problems"
 title: "Client to Host Integration Server Problems2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Client Interface Files for 3270 Applications"
 title: "Client Interface Files for 3270 Applications2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

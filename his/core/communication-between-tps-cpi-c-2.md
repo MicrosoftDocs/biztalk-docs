@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Communication Between TPs (CPI-C)"
 title: "Communication Between TPs (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

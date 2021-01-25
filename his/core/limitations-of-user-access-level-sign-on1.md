@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Limitations of User Access Level Sign On"
 title: "Limitations of User Access Level Sign On1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

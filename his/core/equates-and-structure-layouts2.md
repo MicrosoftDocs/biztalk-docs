@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Equates and Structure Layouts"
 title: "Equates and Structure Layouts2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

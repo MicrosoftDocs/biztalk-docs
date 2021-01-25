@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMS Components"
 title: "IMS Components2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

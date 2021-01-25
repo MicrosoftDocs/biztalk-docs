@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration for CPI-C Programs"
 title: "Configuration for CPI-C Programs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

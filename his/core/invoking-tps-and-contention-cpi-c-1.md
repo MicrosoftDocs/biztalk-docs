@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoking TPs and Contention (CPI-C)"
 title: "Invoking TPs and Contention (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

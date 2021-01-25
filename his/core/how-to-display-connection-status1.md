@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Display Connection Status"
 title: "How to Display Connection Status1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

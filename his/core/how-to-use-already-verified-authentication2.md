@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Already Verified Authentication"
 title: "How to Use Already Verified Authentication2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

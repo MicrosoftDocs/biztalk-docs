@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IcomLUO.SendResponse Method"
 title: "IcomLUO.SendResponse Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

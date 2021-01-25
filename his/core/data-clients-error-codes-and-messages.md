@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Clients Error Codes and Messages"
 title: "Data Clients Error Codes and Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
