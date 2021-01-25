@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Adapters Property Schema and Properties"
 title: "WCF Adapters Property Schema and Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/09/2018"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Viewing Information in the Operations Manager Console"
 title: "Viewing Information in the Operations Manager Console | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

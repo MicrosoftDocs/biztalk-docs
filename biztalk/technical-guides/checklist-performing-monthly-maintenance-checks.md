@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Complete Monthly Maintenance Checks in BizTalk Server"
 title: "Checklist: Do Monthly Maintenance Checks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

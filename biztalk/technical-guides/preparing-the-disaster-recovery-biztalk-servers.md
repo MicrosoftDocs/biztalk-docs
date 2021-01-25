@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Preparing the Disaster Recovery BizTalk Servers"
 title: "Preparing the Disaster Recovery BizTalk Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

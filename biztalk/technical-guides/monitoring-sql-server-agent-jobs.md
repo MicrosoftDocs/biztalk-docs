@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Monitoring SQL Server Agent Jobs"
 title: "Monitoring SQL Server Agent Jobs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix A: Silent Installation"
 title: "Appendix A: Silent Installation | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/22/2020"

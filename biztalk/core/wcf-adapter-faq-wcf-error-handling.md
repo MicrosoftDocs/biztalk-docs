@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Adapter FAQ: WCF Error Handling"
 title: "WCF Adapter FAQ: WCF Error Handling | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

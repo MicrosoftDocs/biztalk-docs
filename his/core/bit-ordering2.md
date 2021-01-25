@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bit Ordering"
 title: "Bit Ordering2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

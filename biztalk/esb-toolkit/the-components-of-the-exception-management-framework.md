@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Components of the Exception Management Framework"
 title: "The Components of the Exception Management Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

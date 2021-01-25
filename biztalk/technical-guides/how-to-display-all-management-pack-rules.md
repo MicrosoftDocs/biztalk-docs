@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Display All Management Pack Rules"
 title: "How to Display All Management Pack Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Test Scenario Server Architecture"
 title: "Test Scenario Server Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/09/2015"

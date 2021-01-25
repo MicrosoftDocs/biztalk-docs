@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Hosts and Host Instances"
 title: "Configuring Hosts and Host Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

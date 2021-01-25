@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Executing the Policy Programmatically"
 title: "Walkthrough: Executing the Policy Programmatically | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2016"

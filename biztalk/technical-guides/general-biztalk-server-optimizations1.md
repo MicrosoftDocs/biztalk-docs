@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: General BizTalk Server Optimizations"
 title: "General BizTalk Server Optimizations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

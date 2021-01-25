@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The ESB Itinerary Selector Component"
 title: "The ESB Itinerary Selector Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Exception Handling Web Service"
 title: "The Exception Handling Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

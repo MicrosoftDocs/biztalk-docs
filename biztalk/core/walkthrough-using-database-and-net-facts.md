@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Using Database and .NET Facts"
 title: "Walkthrough: Using Database and .NET Facts | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2016"

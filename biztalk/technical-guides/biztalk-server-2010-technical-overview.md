@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Server 2010 Technical Overview"
 title: "BizTalk Server 2010 Technical Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ESB Management Portal Feature Reference"
 title: "ESB Management Portal Feature Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

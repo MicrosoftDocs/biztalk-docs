@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Running the Bulk Load Content-Based Routing Sample"
 title: "Running the Bulk Load Content-Based Routing Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

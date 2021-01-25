@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough (X12): Sending EDI Interchanges"
 title: "Walkthrough (X12): Sending EDI Interchanges | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

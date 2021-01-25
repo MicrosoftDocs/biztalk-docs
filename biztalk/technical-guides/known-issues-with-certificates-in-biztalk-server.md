@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Known Issues with Certificates in BizTalk Server"
 title: "Known Issues with Certificates in BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

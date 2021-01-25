@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best Practices for Updating Applications"
 title: "Best Practices for Updating Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

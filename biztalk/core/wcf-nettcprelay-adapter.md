@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF-NetTcpRelay Adapter"
 title: "WCF-NetTcpRelay Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ADO Recordsets vs. User-Defined Types in Structured Data Tests"
 title: "ADO Recordsets vs. User-Defined Types in Structured Data Tests2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

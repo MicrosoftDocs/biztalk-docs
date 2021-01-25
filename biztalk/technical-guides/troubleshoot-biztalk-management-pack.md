@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting"
 title: "Troubleshooting the BizTalk Server Management Pack | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

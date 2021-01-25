@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows Workflow Foundation Schema"
 title: "Windows Workflow Foundation Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

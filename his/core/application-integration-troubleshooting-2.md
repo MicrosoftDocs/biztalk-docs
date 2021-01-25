@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Application Integration (Troubleshooting)"
 title: "Application Integration (Troubleshooting)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

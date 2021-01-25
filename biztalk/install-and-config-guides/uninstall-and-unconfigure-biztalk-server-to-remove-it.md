@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Uninstall and unconfigure BizTalk Server to remove it"
 title: "Uninstall and unconfigure BizTalk Server to remove it | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

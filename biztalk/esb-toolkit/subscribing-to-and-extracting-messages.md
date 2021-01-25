@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Subscribing to and Extracting Messages"
 title: "Subscribing to and Extracting Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

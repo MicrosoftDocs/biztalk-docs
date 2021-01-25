@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Writing Information to the Event Log"
 title: "Writing Information to the Event Log | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

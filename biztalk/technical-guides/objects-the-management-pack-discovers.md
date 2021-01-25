@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Objects the Management Pack Discovers"
 title: "Objects the Management Pack Discovers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

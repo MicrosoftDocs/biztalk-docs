@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Transform a Message and Route the Resulting Message to a File Location Using an Itinerary Routing Slip"
 title: "How to: Transform a Message and Route the Resulting Message to a File Location Using an Itinerary Routing Slip | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

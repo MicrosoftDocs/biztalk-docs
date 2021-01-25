@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Configuring Internet Information Services"
 title: "Checklist: Configuring Internet Information Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

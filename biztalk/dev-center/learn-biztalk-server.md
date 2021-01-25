@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Training"
 title: Learn Biztalk Server
 ms.prod: biztalk-server
 ms.author: mandia

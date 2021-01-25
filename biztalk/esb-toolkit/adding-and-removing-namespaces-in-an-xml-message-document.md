@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding and Removing Namespaces in an XML Message Document"
 title: "Adding and Removing Namespaces in an XML Message Document | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

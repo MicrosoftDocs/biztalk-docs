@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Maintaining BizTalk Server Databases"
 title: "Maintaining BizTalk Server Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

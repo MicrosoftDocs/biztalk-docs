@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Average Method Call Time"
 title: "Average Method Call Time2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

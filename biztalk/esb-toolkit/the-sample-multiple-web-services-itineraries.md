@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Sample Multiple Web Services Itineraries"
 title: "The Sample Multiple Web Services Itineraries | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

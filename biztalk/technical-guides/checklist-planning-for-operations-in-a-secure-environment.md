@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Planning for Operations in a Secure Environment"
 title: "Checklist: Planning for Operations in a Secure Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"

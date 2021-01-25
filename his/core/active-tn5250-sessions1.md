@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Active TN5250 Sessions"
 title: "Active TN5250 Sessions1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

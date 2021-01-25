@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Modifying the Policy"
 title: "Walkthrough: Modifying the Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2016"

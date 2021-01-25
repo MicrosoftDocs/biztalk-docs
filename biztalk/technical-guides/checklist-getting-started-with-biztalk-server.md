@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Getting Started with BizTalk Server"
 title: "Checklist: Getting Started with BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/27/2017"

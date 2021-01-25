@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Administration and Management Programmer's Reference"
 title: "Administration and Management Programmer's Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

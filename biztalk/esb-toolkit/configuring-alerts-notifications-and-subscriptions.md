@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Alerts, Notifications, and Subscriptions"
 title: "Configuring Alerts, Notifications, and Subscriptions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

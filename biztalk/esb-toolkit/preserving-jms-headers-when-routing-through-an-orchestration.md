@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Preserving JMS Headers When Routing Through an Orchestration"
 title: "Preserving JMS Headers When Routing Through an Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

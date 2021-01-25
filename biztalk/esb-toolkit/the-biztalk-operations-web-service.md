@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The BizTalk Operations Web Service"
 title: "The BizTalk Operations Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

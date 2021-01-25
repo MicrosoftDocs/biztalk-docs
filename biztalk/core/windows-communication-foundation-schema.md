@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows Communication Foundation Schema"
 title: "Windows Communication Foundation Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ESB Pipeline Interop Components"
 title: "ESB Pipeline Interop Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

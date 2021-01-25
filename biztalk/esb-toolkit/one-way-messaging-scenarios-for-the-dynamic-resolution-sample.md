@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: One-Way Messaging Scenarios for the Dynamic Resolution Sample"
 title: "One-Way Messaging Scenarios for the Dynamic Resolution Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

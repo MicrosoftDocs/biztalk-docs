@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix C: Redistributable CAB Files"
 title: "Appendix C: Redistributable CAB Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

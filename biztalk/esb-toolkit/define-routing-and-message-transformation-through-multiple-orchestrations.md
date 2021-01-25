@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining Routing and Message Transformation Through Multiple Orchestrations Using Itineraries"
 title: "Defining Routing and Message Transformation Through Multiple Orchestrations Using Itineraries | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

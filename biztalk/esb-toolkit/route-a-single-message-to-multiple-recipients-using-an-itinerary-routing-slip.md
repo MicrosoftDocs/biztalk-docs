@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Route a Single Message to Multiple Recipients Using an Itinerary Routing Slip"
 title: "How to: Route a Single Message to Multiple Recipients Using an Itinerary Routing Slip | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

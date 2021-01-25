@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Test the JMS MQRFH2 Sample Installation"
 title: "Test the JMS MQRFH2 Sample Installation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

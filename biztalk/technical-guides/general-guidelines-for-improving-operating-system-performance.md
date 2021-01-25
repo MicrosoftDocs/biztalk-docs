@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: General Guidelines for Improving Operating System Performance"
 title: "General Guidelines for Improving Operating System Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

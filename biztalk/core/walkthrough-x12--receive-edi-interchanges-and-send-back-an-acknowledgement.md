@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough (X12): Receiving EDI Interchanges and Sending Back an Acknowledgement"
 title: "Walkthrough (X12): Receiving EDI Interchanges and Sending Back an Acknowledgement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

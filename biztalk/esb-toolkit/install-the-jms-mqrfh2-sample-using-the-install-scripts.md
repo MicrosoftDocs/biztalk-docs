@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Install the JMS MQRFH2 Sample Using the Install Scripts"
 title: "Install the JMS MQRFH2 Sample Using the Install Scripts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

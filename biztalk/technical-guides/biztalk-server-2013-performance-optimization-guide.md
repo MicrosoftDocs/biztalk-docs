@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Server 2013 Performance Optimization Guide"
 title: "BizTalk Server 2013 Performance Optimization Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Monitoring BizTalk Server Databases"
 title: "Monitoring BizTalk Server Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

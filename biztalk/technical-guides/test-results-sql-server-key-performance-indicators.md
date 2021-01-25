@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Test Results: SQL Server Key Performance Indicators"
 title: "Test Results: SQL Server Key Performance Indicators | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

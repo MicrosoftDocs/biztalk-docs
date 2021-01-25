@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Running the Resolver Service Sample"
 title: "Running the Resolver Service Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Configure Load Test Controller and Agent Computers"
 title: "Step 2: Configure Load Test Controller and Agent Computers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Restore Databases in the Backup BizTalk Server Job"
 title: "How to Restore Databases in the Backup BizTalk Server Job | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

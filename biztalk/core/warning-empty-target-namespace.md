@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Warning - Empty Target Namespace"
 title: "Warning - Empty Target Namespace | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

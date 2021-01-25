@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing and Running the Transformation Service Sample"
 title: "Installing and Running the Transformation Service Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

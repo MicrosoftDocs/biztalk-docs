@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Asynchronous Call Completion"
 title: "Asynchronous Call Completion1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

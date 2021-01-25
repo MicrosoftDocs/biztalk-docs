@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ways to Use Message Content to Control Message Processing"
 title: "Ways to Use Message Content to Control Message Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

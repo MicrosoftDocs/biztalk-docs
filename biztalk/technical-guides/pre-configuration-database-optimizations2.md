@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Pre-Configuration Database Optimizations"
 title: "Pre-Configuration Database Optimizations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

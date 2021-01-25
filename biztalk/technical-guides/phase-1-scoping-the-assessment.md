@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Phase 1: Scoping the Assessment"
 title: "Phase 1: Scoping the Assessment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

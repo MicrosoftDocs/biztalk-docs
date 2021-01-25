@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ESB Resolver and Adapter Provider Framework"
 title: "ESB Resolver and Adapter Provider Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

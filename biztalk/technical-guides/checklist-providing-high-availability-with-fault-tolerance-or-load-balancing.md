@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Providing High Availability with Fault Tolerance or Load Balancing"
 title: "Checklist: Providing High Availability with Fault Tolerance or Load Balancing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Routing Patterns"
 title: "Message Routing Patterns | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

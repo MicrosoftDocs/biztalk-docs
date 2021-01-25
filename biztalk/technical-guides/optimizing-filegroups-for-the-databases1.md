@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optimizing Filegroups for the Databases"
 title: "Optimize Database Filegroups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

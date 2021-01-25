@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Upgrade to BizTalk Server 2020"
 title: "Upgrade to BizTalk Server 2020 | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.prod: biztalk-server

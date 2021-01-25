@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding Constraints to a DB2 DataSet"
 title: "Adding Constraints to a DB2 DataSet2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

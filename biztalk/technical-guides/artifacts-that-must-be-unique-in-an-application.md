@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Artifacts That Must Be Unique in an Application"
 title: "Artifacts That Must Be Unique in an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

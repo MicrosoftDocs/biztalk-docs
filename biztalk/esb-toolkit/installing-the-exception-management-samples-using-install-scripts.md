@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing the Exception Management Samples Using Install Scripts"
 title: "Installing the Exception Management Samples Using Install Scripts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

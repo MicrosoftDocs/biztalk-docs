@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Introduction to the BizTalk Server 2013 Monitoring Management Pack"
 title: "Introduction to the BizTalk Server 2013 Monitoring Management Pack | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

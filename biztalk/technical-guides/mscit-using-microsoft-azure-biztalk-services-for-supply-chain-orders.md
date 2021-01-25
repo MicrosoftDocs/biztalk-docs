@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MSCIT: Using Microsoft Azure BizTalk Services for Supply Chain Orders"
 title: "MSCIT: Using Microsoft Azure BizTalk Services for Supply Chain Orders | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

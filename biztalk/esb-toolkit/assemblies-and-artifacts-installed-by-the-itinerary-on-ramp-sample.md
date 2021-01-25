@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Assemblies and Artifacts Installed by the Itinerary On-Ramp Sample"
 title: "Assemblies and Artifacts Installed by the Itinerary On-Ramp Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

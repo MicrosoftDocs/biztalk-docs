@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AS/400 5250 Terminal Connections"
 title: "AS-400 5250 Terminal Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

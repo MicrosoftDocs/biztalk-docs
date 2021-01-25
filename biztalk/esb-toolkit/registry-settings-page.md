@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Registry Settings Page"
 title: "Registry Settings Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

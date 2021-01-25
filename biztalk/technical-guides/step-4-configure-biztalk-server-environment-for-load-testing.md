@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4: Configure BizTalk Server Environment for Load Testing"
 title: "Step 4: Configure BizTalk Server Environment for Load Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"

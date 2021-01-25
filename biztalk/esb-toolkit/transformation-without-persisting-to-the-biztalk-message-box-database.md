@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transformation Without Persisting to the BizTalk Message Box Database"
 title: "Transformation Without Persisting to the BizTalk Message Box Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

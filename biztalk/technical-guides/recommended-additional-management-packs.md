@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Recommended Additional Management Packs"
 title: "Recommended Additional Management Packs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

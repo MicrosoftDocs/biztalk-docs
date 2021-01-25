@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Run-Time Errors"
 title: "WCF Run-Time Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

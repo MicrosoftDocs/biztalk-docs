@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing COM+ Hotfix Rollup Packages"
 title: "Installing COM+ Hotfix Rollup Packages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

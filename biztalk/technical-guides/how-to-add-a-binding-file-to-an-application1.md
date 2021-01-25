@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add a Binding File to an Application"
 title: "How to Add a Binding File to an Application1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF-WSHttp Adapter"
 title: "WCF-WSHttp Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

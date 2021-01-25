@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XLANG-s Variables and Operators"
 title: "XLANG-s Variables and Operators | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

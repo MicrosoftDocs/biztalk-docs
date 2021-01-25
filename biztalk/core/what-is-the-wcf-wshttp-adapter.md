@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is the WCF-WSHttp Adapter?"
 title: "What Is the WCF-WSHttp Adapter? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

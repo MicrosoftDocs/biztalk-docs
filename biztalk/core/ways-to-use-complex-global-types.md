@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ways to Use Complex Global Types"
 title: "Ways to Use Complex Global Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

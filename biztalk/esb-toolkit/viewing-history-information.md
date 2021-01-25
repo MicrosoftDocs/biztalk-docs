@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Viewing History Information"
 title: "Viewing History Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

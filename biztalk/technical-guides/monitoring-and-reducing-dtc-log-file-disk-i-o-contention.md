@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Monitoring and Reducing DTC Log File Disk I/O Contention"
 title: "Monitoring and Reducing DTC Log File Disk I/O Contention | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transforming and Routing a Message to Disk Folder, Queue, or FTP Folder"
 title: "Transforming and Routing a Message to Disk Folder, Queue, or FTP Folder | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

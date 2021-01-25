@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to View Management Pack Details"
 title: "How to View Management Pack Details | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

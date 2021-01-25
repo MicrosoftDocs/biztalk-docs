@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deploying an Assembly"
 title: "Deploying an Assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5: Perform Step Load Pattern Tests to Determine Maximum Sustainable Throughput"
 title: "Step 5: Perform Step Load Pattern Tests to Determine Maximum Sustainable Throughput | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

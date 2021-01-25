@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring and Viewing Audit Logs"
 title: "Configuring and Viewing Audit Logs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

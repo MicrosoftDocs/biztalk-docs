@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XML Configuration File for the MQSeries Adapter"
 title: "XML Configuration File for the MQSeries Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

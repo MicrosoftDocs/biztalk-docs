@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Choosing Between Messaging and Orchestration Itinerary Services"
 title: "Choosing Between Messaging and Orchestration Itinerary Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

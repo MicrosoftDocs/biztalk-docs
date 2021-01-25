@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough (AS2): Sending EDI over AS2 with a Synchronous MDN"
 title: "Walkthrough (AS2): Sending EDI over AS2 with a Synchronous MDN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

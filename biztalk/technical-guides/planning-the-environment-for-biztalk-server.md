@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning the Environment for BizTalk Server"
 title: "Planning the Environment for BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

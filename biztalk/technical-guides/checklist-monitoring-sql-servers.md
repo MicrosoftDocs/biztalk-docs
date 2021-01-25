@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Monitoring SQL Servers"
 title: "Checklist: Monitoring SQL Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

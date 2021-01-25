@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adapters and Link Service Problems"
 title: "Adapters and Link Service Problems1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

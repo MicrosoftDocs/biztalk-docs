@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: APPC Management Verbs"
 title: "APPC Management Verbs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

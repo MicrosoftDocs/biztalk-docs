@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BIND Checking"
 title: "BIND Checking2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

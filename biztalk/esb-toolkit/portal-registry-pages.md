@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Portal Registry Pages"
 title: "Portal Registry Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

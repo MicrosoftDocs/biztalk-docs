@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Network Optimizations"
 title: "Network Optimizations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

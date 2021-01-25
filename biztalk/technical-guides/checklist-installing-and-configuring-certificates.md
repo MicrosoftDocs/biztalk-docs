@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Installing and Configuring Certificates"
 title: "Checklist: Installing and Configuring Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"

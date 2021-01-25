@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: What is Event Tracking?"
 title: "What is Event Tracking? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix D: Tools for Measuring Performance"
 title: "Appendix D: Tools for Measuring Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

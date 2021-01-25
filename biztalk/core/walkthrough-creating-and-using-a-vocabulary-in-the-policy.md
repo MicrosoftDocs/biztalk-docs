@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Creating and Using a Vocabulary in the Policy"
 title: "Walkthrough: Creating and Using a Vocabulary in the Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2016"

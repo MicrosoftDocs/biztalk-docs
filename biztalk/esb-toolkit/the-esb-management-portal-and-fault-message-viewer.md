@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The ESB Management Portal and Fault Message Viewer"
 title: "The ESB Management Portal and Fault Message Viewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

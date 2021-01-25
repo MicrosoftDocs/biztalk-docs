@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ADO.NET DataSet for Host Integration Server"
 title: "ADO.NET DataSet for Host Integration Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

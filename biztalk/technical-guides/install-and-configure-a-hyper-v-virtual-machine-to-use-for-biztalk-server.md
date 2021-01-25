@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing and Configuring a Hyper-V Virtual Machine for use with BizTalk Server"
 title: "Installing and Configuring a Hyper-V Virtual Machine for use with BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using the Helper Classes"
 title: "Using the Helper Classes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Preparing Applications for Disaster Recovery"
 title: "Preparing Applications for Disaster Recovery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

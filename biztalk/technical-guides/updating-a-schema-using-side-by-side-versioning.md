@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Updating a Schema Using Side-by-Side Versioning"
 title: "Updating a Schema Using Side-by-Side Versioning | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operational Readiness Checklists"
 title: "Operational Readiness Checklists | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

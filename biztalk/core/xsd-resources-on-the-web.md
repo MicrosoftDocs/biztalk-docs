@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XSD Resources on the Web"
 title: "XSD Resources on the Web | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

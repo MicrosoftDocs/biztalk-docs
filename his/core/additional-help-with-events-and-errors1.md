@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Additional Help with Events and Errors"
 title: "Additional Help with Events and Errors1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prerequisites for the Development Activities"
 title: "Prerequisites for the Development Activities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

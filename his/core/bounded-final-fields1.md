@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bounded Final Fields"
 title: "Bounded Final Fields1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

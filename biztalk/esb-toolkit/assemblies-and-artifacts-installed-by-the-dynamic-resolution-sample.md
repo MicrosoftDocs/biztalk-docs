@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Assemblies and Artifacts Installed by the Dynamic Resolution Sample"
 title: "Assemblies and Artifacts Installed by the Dynamic Resolution Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

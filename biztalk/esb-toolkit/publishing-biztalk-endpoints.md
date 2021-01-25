@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Publishing BizTalk Endpoints"
 title: "Publishing BizTalk Endpoints | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: APPC Extensions for the Windows Environment"
 title: "APPC Extensions for the Windows Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

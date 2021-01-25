@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for Database Testing"
 title: "Planning for Database Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

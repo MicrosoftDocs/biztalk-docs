@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows Groups and User Accounts in BizTalk Server"
 title: "Windows Groups and User Accounts in BizTalk Server | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/14/2020"

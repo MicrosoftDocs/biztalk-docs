@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JMS MQRFH2 Sample Dependencies and Strong Key Name Definition"
 title: "JMS MQRFH2 Sample Dependencies and Strong Key Name Definition | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

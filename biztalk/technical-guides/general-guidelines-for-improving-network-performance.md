@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: General Guidelines for Improving Network Performance"
 title: "General Guidelines for Improving Network Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

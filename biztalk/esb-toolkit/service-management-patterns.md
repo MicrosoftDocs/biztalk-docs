@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Service Management Patterns"
 title: "Service Management Patterns | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

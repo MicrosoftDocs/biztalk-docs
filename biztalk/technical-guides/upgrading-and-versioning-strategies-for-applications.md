@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Upgrading and Versioning Strategies for Applications"
 title: "Upgrade and Version Strategies for Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

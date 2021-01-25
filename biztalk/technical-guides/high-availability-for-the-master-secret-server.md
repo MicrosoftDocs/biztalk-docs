@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: High Availability for the Master Secret Server"
 title: "High Availability for the Master Secret Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

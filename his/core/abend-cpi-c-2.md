@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ABEND (CPI-C)"
 title: "ABEND (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

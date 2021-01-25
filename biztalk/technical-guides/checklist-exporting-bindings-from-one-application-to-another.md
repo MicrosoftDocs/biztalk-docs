@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Exporting Bindings from One Application to Another"
 title: "Checklist: Exporting Bindings from One Application to Another | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

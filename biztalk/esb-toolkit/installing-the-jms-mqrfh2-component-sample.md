@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing the JMS MQRFH2 Component Sample"
 title: "Installing the JMS MQRFH2 Component Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

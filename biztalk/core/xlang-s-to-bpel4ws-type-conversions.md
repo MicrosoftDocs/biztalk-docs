@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XLANG-s to BPEL4WS Type Conversions"
 title: "XLANG-s to BPEL4WS Type Conversions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Certificates for MIME or SMIME Messages"
 title: "Configuring Certificates for MIME or SMIME Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"

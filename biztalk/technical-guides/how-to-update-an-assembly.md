@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Update an Assembly"
 title: "How to Update an Assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

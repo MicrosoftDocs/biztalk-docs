@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optimizing Pipeline Performance"
 title: "Optimizing Pipeline Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

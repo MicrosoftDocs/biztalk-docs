@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows of the Business Rule Composer"
 title: "Windows of the Business Rule Composer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The ESB Dispatcher Disassemble Component"
 title: "The ESB Dispatcher Disassemble Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

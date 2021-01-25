@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Basic and Mapped Conversations Compared (CPI-C)"
 title: "Basic and Mapped Conversations Compared (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

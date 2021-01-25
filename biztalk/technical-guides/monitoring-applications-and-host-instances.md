@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Monitoring Applications and Host Instances"
 title: "Monitoring Applications and Host Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

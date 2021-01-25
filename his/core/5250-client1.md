@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: 5250 Client"
 title: "5250 Client1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

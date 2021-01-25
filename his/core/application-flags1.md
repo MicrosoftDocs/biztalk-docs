@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Application Flags"
 title: "Application Flags1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optimizing Memory Usage with Streaming"
 title: "Optimizing Memory Usage with Streaming | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

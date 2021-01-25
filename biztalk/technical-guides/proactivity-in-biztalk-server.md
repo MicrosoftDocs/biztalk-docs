@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Proactivity in BizTalk Server"
 title: "Proactivity in BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

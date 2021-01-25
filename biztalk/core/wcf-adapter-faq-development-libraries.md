@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Adapter FAQ: Development Libraries"
 title: "WCF Adapter FAQ: Development Libraries | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

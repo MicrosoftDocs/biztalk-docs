@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Avoid Disk Contention"
 title: "How to Avoid Disk Contention2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

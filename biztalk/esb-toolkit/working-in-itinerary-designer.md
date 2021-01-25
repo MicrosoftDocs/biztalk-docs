@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working in Itinerary Designer"
 title: "Working in Itinerary Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Consuming WCF Services with the WCF-BasicHttp Adapter"
 title: "Walkthrough: Consuming WCF Services with the WCF-BasicHttp Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

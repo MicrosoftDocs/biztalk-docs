@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is the Windows SharePoint Services Adapter?"
 title: "What Is the Windows SharePoint Services Adapter? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

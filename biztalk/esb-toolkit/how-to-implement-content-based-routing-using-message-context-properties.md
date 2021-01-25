@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Implement Content-Based Routing Using Message Context Properties"
 title: "How to: Implement Content-Based Routing Using Message Context Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Collecting Exceptions and Routing Messages for Repair and Resubmit"
 title: "Collecting Exceptions and Routing Messages for Repair and Resubmit | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

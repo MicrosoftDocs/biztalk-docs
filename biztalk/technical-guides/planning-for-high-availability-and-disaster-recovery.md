@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for High Availability and Disaster Recovery"
 title: "Planning for High Availability and Disaster Recovery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

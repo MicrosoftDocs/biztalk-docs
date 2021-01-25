@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Designating a New Master Secret Server Manually"
 title: "Designating a New Master Secret Server Manually | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

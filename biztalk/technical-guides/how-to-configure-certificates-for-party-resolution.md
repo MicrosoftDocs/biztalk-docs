@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Certificates for Party Resolution"
 title: "How to Configure Certificates for Party Resolution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

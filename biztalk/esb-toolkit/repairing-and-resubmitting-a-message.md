@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Repairing and Resubmitting a Message"
 title: "Repairing and Resubmitting a Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

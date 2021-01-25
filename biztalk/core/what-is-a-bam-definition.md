@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is a BAM Definition?"
 title: "What Is a BAM Definition? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

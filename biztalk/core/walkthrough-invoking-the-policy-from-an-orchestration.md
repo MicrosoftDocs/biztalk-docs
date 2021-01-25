@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Invoking the Policy from an Orchestration"
 title: "Walkthrough: Invoking the Policy from an Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2016"
