@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 7: Create a Send Port to Deliver Response Messages"
 title: "Step 7: Create a Send Port to Deliver Response Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

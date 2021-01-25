@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Building blocks to create SAP applications"
 title: "Building blocks to create SAP applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

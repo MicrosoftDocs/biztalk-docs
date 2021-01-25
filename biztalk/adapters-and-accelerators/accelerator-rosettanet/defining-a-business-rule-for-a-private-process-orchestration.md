@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining a Business Rule for a Private Process Orchestration"
 title: "Defining a Business Rule for a Private Process Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

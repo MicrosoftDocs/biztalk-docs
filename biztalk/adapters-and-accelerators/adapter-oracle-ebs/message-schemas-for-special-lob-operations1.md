@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Special LOB Operations"
 title: "Message Schemas for Special LOB Operations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Test the Batch In/Batch Out Scenario"
 title: "Step 3: Test the Batch In-Batch Out Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

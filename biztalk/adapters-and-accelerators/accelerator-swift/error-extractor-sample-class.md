@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error Extractor Sample Class"
 title: "Error Extractor Sample Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

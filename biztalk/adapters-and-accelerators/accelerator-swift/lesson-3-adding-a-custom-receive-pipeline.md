@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 3: Adding a Custom Receive Pipeline"
 title: "Lesson 3: Adding a Custom Receive Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

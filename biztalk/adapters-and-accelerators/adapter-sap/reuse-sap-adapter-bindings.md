@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Reuse SAP adapter bindings"
 title: "Reuse SAP adapter bindings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

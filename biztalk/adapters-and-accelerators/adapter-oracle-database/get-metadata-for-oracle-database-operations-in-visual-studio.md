@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get metadata for Oracle Database operations in Visual Studio"
 title: "Get metadata for Oracle Database operations in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

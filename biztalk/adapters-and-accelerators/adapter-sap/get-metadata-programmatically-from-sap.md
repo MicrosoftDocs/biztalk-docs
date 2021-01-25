@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get Metadata Programmatically from SAP"
 title: "Get Metadata Programmatically from SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

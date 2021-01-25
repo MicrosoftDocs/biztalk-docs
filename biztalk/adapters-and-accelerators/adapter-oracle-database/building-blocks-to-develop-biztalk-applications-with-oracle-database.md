@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Building Blocks to develop BizTalk Applications with Oracle Database"
 title: "Building Blocks to develop BizTalk Applications with Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

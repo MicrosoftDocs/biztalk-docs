@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ACK Message Modes"
 title: "ACK Message Modes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

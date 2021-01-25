@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5: Create a Send Port to Deliver Messages"
 title: "Step 5: Create a Send Port to Deliver Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

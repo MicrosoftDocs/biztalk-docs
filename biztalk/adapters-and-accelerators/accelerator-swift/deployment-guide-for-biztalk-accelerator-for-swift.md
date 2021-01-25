@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deployment Guide for BizTalk Accelerator for SWIFT"
 title: "Deployment Guide for BizTalk Accelerator for SWIFT | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

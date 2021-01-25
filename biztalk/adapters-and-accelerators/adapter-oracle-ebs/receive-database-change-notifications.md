@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive database change notifications"
 title: "Receive database change notifications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

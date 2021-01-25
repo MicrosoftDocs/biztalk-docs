@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring the SWIFT Assembler"
 title: "Configuring the SWIFT Assembler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

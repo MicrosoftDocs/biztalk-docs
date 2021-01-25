@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding Certificates to the Certificates Store on the Client"
 title: "Adding Certificates to the Certificates Store on the Client | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

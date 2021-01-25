@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating the FRR Receive Pipeline"
 title: "Creating the FRR Receive Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

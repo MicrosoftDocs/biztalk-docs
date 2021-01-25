@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security between Oracle E-Business Suite and the adapter"
 title: "Security between Oracle E-Business Suite and the adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

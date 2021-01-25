@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run operations on Tables with BFILE Data Types in Oracle Database using BizTalk Server"
 title: "Run operations on Tables with BFILE Data Types in Oracle Database using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

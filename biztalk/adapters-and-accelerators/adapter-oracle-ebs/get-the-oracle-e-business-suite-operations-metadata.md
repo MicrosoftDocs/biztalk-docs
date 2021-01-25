@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get the Oracle E-Business Suite operations metadata"
 title: "Get the Oracle E-Business Suite operations metadata | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Limitations of the .NET Framework Data Provider for mySAP Business Suite"
 title: "Limitations of the .NET Framework Data Provider for mySAP Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

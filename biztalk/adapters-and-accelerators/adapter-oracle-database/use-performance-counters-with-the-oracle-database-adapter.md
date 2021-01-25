@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use performance counters with the Oracle Database adapter"
 title: "Use performance counters with the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

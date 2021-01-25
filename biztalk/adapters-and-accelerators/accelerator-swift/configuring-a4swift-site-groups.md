@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring A4SWIFT Site Groups"
 title: "Configuring A4SWIFT Site Groups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

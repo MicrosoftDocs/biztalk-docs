@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 11: Create Orchestration Variables"
 title: "Step 11: Create Orchestration Variables | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

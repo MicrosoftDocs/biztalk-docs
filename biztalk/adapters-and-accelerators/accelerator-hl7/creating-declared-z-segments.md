@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating Declared Z Segments"
 title: "Creating Declared Z Segments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

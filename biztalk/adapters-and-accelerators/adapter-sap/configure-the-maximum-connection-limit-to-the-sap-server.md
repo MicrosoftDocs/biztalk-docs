@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure the Maximum Connection Limit to the SAP Server"
 title: "Configure the Maximum Connection Limit to the SAP Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

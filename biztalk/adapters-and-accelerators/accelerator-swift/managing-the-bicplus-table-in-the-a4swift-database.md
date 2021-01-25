@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing the Bicplus Table in the A4SWIFT Database"
 title: "Managing the Bicplus Table in the A4SWIFT Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

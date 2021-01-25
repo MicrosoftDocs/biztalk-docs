@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How Messages Flow through BTAHL7"
 title: "How Messages Flow through BTAHL7 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

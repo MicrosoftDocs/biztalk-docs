@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Modify the vPrev BizTalk Project in Oracle Database"
 title: "Step 1: Modify the vPrev BizTalk Project in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

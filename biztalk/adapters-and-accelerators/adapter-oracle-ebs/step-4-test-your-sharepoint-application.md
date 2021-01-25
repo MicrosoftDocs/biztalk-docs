@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4: Test your SharePoint application"
 title: "Step 4: Test your SharePoint application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

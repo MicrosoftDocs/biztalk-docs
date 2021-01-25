@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4: Create the Receive Port for Accepting ADT^A03 Messages from ADT Systems Using the MLLP Adapter"
 title: "Step 4: Create the Receive Port for Accepting ADT^A03 Messages from ADT Systems Using the MLLP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/09/2015"

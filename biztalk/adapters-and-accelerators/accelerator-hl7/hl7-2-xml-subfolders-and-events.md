@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HL7 2.XML Subfolders and Events"
 title: "HL7 2.XML Subfolders and Events | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

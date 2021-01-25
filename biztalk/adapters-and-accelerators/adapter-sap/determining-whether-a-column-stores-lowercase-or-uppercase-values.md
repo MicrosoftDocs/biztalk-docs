@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Determining Whether a Column Stores Lowercase or Uppercase Values"
 title: "Determining Whether a Column Stores Lowercase or Uppercase Values | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

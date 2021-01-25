@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Streaming Oracle Database LOB Data Types Using the WCF Channel Model"
 title: "Streaming Oracle Database LOB Data Types Using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

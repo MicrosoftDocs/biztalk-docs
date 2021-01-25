@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Verifying a Message"
 title: "Verifying a Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

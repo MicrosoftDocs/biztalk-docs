@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a channel using SAP"
 title: "Create a channel using SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

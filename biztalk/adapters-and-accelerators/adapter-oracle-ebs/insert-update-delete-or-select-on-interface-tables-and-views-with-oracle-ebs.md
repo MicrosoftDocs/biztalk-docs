@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Insert, update, delete, or select on interface tables and interface views with Oracle E-Business Suite"
 title: "Insert, update, delete, or select on interface tables and interface views with Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

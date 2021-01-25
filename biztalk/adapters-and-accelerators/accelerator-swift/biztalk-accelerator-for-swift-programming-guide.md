@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Accelerator for SWIFT Programming Guide"
 title: "BizTalk Accelerator for SWIFT Programming Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

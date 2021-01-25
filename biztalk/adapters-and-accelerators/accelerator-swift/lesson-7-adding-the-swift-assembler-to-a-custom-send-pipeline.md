@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 7: Adding the SWIFT Assembler to a Custom Send Pipeline"
 title: "Lesson 7: Adding the SWIFT Assembler to a Custom Send Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

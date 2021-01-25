@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Flow in BTARN"
 title: "Message Flow in BTARN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

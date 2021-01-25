@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: A Role-Based Product"
 title: "A Role-Based Product2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

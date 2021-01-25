@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Module 7: Testing a Valid Flat File Instance"
 title: "Module 7: Testing a Valid Flat File Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

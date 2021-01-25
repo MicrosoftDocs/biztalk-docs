@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extending BTARN with a New PIP"
 title: "Extending BTARN with a New PIP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

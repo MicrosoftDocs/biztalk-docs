@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 10: Verify the End-to-End Scenario"
 title: "Step 10: Verify the End-to-End Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

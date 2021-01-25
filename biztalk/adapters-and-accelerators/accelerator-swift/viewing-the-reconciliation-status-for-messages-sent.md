@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Viewing the Reconciliation Status for Messages Sent"
 title: "Viewing the Reconciliation Status for Messages Sent | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

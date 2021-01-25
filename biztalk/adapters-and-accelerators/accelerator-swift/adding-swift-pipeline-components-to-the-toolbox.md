@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding SWIFT Pipeline Components to the Toolbox"
 title: "Adding SWIFT Pipeline Components to the Toolbox | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

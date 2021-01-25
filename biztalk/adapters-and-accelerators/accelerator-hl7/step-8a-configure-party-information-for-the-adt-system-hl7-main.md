@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 8A: Configure Party Information for the ADT System_hl7_main"
 title: "Step 8A: Configure Party Information for the ADT System_hl7_main | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

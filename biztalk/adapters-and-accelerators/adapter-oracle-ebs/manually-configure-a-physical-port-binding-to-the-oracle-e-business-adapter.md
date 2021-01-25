@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Manually configure a physical port binding to the Oracle E-Business adapter"
 title: "Manually configure a physical port binding to the Oracle E-Business adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

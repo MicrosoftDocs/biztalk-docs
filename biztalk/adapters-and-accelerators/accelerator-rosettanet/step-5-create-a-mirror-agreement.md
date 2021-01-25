@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5: Create a Mirror Agreement"
 title: "Step 5: Create a Mirror Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

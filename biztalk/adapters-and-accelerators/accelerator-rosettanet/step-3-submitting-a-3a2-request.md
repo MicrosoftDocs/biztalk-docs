@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Submitting a 3A2 Request"
 title: "Step 3: Submitting a 3A2 Request | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

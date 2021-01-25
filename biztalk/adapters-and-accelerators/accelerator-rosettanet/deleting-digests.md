@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deleting Digests"
 title: "Deleting Digests | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

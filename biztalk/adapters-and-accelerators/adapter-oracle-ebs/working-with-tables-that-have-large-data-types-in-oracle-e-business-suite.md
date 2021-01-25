@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with tables that have large data types in Oracle E-Business Suite"
 title: "Working with tables that have large data types in Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

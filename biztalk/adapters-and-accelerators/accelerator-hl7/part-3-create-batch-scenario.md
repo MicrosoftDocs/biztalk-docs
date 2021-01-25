@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Part 3: Create-Batch Scenario"
 title: "Part 3: Create-Batch Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

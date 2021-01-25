@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use the Oracle E-Business Suite adapter with SharePoint"
 title: "Use the Oracle E-Business Suite adapter with SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

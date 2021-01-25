@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing and Configuring BizTalk Server on the Messaging Server"
 title: "Installing and Configuring BizTalk Server on the Messaging Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

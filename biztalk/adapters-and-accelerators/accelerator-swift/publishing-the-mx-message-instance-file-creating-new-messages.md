@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Publishing the MX Message Instance File (Creating New Messages)"
 title: "Publishing the MX Message Instance File (Creating New Messages) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

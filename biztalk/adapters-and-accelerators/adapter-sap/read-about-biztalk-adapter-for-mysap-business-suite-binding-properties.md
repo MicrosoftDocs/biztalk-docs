@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Read about BizTalk Adapter for mySAP Business Suite binding properties"
 title: "Read about BizTalk Adapter for mySAP Business Suite binding properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

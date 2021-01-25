@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Hardware and Software Requirements for Deployment"
 title: "Hardware and Software Requirements for Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

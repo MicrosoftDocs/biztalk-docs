@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting the Connection Time-Out for an ASPX Page"
 title: "Setting the Connection Time-Out for an ASPX Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

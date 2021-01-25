@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoke Functions and Procedures with REF CURSORS in Oracle Database using BizTalk Server"
 title: "Invoke Functions and Procedures with REF CURSORS in Oracle Database using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

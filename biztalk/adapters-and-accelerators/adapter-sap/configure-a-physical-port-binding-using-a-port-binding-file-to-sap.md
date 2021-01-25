@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure a physical port binding using a port binding file to SAP"
 title: "Configure a physical port binding using a port binding file to SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

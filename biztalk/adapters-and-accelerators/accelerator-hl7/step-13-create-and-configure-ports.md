@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 13: Create and Configure Ports"
 title: "Step 13: Create and Configure Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to use a custom web part with Oracle E-Business Suite"
 title: "How to use a custom web part with Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

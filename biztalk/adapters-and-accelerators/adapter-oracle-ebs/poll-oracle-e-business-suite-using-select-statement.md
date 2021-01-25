@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Poll Oracle E-Business Suite using SELECT statement"
 title: "Poll Oracle E-Business Suite using SELECT statement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

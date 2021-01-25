@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Examples of MX Messages"
 title: "Examples of MX Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

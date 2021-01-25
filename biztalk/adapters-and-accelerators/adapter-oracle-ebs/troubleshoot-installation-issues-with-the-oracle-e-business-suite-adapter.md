@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshoot Installation Issues with the Oracle E-Business Suite adapter"
 title: "Troubleshoot Installation Issues with the Oracle E-Business Suite adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

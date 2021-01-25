@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Build and Deploy the vPrev BizTalk Project for Receiving an IDOC"
 title: "Step 1: Build and Deploy the vPrev BizTalk Project for Receiving an IDOC | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

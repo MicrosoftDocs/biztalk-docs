@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 8: Configure Party Information_hl7_main"
 title: "Step 8: Configure Party Information_hl7_main | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

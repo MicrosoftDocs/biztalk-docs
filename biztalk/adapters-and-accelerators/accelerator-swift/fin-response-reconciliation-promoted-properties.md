@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FIN Response Reconciliation Promoted Properties"
 title: "FIN Response Reconciliation Promoted Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

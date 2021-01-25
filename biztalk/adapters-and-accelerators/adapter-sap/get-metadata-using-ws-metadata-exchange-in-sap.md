@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get Metadata Using WS-Metadata Exchange in SAP"
 title: "Get Metadata Using WS-Metadata Exchange in SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

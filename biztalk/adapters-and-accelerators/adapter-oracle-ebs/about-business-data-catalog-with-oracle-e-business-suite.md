@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: About business data catalog with Oracle E-Business Suite"
 title: "About business data catalog with Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

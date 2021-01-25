@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Acknowledgment Error Conditions"
 title: "Acknowledgment Error Conditions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scenario 1: Display data using Business Data List web part"
 title: "Scenario 1: Display data using Business Data List web part | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

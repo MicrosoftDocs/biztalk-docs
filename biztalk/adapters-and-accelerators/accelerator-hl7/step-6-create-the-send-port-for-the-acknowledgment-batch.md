@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 6: Create the Send Port for the Acknowledgment Batch"
 title: "Step 6: Create the Send Port for the Acknowledgment Batch | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

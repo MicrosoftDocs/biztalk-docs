@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What operations are supported by the Oracle E-Business Suite adapter"
 title: "What operations are supported by the Oracle E-Business Suite adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

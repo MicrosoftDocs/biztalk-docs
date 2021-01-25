@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: &#39;X&#39; and &#39;Y&#39; Optionality"
 title: "&#39;X&#39; and &#39;Y&#39; Optionality | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

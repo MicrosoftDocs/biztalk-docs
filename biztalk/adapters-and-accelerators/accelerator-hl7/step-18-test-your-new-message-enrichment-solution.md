@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 18: Test Your New Message Enrichment Solution"
 title: "Step 18: Test Your New Message Enrichment Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

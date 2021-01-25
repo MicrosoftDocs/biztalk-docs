@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Configure and Enable the BatchControlPort Receive Port"
 title: "Step 1: Configure and Enable the BatchControlPort Receive Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

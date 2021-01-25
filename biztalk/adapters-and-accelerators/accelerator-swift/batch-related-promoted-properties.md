@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Batch-Related Promoted Properties"
 title: "Batch-Related Promoted Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

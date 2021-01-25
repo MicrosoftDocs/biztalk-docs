@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting BTARN Send and Receive Pipelines"
 title: "Setting BTARN Send and Receive Pipelines | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

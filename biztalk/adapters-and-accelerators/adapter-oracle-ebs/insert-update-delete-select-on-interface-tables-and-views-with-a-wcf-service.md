@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Insert, update, delete, or select operations on interface tables and views using the WCF service model"
 title: "Insert, update, delete, or select operations on interface tables and views using the WCF service model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

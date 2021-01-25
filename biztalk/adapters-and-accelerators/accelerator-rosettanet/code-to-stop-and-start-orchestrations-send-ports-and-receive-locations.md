@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Stopping and Starting Orchestrations, Send Ports, and Receive Locations Programmatically"
 title: "Stopping and Starting Orchestrations, Send Ports, and Receive Locations Programmatically | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

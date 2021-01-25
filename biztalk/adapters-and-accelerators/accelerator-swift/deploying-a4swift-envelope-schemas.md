@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deploying A4SWIFT Envelope Schemas"
 title: "Deploying A4SWIFT Envelope Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

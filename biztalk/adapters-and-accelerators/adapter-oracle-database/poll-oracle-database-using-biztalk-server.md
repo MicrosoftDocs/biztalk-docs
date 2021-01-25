@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Poll Oracle Database using BizTalk Server"
 title: "Poll Oracle Database using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

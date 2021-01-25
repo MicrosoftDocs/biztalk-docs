@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Upgrade BizTalk Accelerator for HL7"
 title: "Upgrade BizTalk Accelerator for HL7 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

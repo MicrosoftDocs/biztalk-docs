@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Complete operations on tables with large data types in Oracle E-Business Suite using the WCF service model"
 title: "Complete operations on tables with large data types in Oracle E-Business Suite using the WCF service model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

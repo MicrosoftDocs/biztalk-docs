@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on tables and views that contain LOB data in Oracle Database"
 title: "Operations on tables and views that contain LOB data in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

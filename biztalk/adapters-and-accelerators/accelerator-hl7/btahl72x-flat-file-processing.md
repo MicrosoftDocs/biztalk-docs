@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BTAHL72X Flat File Processing"
 title: "BTAHL72X Flat File Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

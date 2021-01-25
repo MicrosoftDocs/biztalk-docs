@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on Functions and Procedures with RECORD Types in Oracle Database"
 title: "Operations on Functions and Procedures with RECORD Types in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

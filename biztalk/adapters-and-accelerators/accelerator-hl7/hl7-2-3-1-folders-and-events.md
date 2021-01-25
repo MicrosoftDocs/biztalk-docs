@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HL7 2.3.1 Folders and Events"
 title: "HL7 2.3.1 Folders and Events | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

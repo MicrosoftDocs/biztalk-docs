@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: REF_I12 in V2.XML 2.3.1"
 title: "REF_I12 in V2.XML 2.3.1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

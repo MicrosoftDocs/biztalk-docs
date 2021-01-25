@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4: Create a Receive Port for Accepting the Batch Message"
 title: "Step 4: Create a Receive Port for Accepting the Batch Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

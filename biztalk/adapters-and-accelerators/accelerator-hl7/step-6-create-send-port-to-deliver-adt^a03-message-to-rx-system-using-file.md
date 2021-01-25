@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 6: Create a Send Port to Deliver the ADT^A03 Message to the RX System Using the File Adapter"
 title: "Step 6: Create a Send Port to Deliver the ADT^A03 Message to the RX System Using the File Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

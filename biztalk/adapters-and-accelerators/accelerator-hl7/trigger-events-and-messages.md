@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Trigger Events and Messages"
 title: "Trigger Events and Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

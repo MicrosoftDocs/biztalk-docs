@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Base and Common Schemas"
 title: "Base and Common Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best practices to secure the Oracle Database adapter"
 title: "Best practices to secure the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

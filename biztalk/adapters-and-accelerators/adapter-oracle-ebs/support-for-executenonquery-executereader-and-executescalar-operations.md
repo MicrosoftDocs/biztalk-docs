@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations"
 title: "Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

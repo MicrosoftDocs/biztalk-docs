@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Insert, Update, Delete, and Select operations on Oracle tables and views"
 title: "Insert, Update, Delete, and Select operations on Oracle tables and views | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

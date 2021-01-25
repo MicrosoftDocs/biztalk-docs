@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SWIFT Disassembler and Assembler Functionality"
 title: "SWIFT Disassembler and Assembler Functionality | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

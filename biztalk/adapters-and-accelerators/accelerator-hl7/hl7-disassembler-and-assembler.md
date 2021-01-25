@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HL7 Disassembler and Assembler"
 title: "HL7 Disassembler and Assembler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

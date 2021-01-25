@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Updating SWIFT Messaging Standards"
 title: "Updating SWIFT Messaging Standards | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

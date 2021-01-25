@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Create an application definition file for the Oracle E-Business Suite artifacts"
 title: "Step 2: Create an application definition file for the Oracle E-Business Suite artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

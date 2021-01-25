@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enable MS distributed transaction coordinator to allow transactions for Oracle E-Business Suite"
 title: "Enable MS distributed transaction coordinator to allow transactions for Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

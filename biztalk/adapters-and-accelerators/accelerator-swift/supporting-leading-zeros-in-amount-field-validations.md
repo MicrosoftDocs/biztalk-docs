@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Supporting Leading Zeros in Amount Field Validations"
 title: "Supporting Leading Zeros in Amount Field Validations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Process notification messages to complete specific tasks in Oracle E-Business Suite"
 title: "Process notification messages to complete specific tasks in Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

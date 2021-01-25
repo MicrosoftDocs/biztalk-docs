@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Module 4: Adding an XML Receive Location and Flat File Send Port"
 title: "Module 4: Adding an XML Receive Location and Flat File Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

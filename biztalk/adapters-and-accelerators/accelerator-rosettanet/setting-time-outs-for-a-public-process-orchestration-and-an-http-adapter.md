@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting Time-Outs for a Public-Process Orchestration and an HTTP Adapter"
 title: "Setting Time-Outs for a Public-Process Orchestration and an HTTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

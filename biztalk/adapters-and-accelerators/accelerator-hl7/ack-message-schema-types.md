@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ACK Message Schema Types"
 title: "ACK Message Schema Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

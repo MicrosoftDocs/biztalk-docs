@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations for receiving database change notifications using the Oracle E-Business Suite adapter"
 title: "Considerations for receiving database change notifications using the Oracle E-Business Suite adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

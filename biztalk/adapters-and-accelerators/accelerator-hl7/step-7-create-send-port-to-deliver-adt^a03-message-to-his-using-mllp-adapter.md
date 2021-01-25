@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 7: Create a Send Port to Deliver the ADT^A03 Message to HIS Using the MLLP Adapter"
 title: "Step 7: Create a Send Port to Deliver the ADT^A03 Message to HIS Using the MLLP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

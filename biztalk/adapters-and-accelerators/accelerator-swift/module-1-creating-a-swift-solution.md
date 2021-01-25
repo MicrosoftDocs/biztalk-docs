@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Module 1: Creating a SWIFT Solution"
 title: "Module 1: Creating a SWIFT Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

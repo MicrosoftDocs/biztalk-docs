@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get started with the Oracle Database adapter"
 title: "Get started with the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

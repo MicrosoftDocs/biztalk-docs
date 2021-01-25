@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 1: Adding Flat File Receive Port and Location"
 title: "Lesson 1: Adding Flat File Receive Port and Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

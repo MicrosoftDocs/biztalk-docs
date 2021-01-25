@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Processing in BTARN"
 title: "Message Processing in BTARN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

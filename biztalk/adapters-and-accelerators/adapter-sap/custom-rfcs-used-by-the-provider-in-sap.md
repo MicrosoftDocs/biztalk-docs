@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Custom RFCs Used by the Provider in SAP"
 title: "Custom RFCs Used by the Provider in SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

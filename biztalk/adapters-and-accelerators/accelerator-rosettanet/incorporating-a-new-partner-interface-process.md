@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Incorporating a New Partner Interface Process"
 title: "Incorporating a New Partner Interface Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

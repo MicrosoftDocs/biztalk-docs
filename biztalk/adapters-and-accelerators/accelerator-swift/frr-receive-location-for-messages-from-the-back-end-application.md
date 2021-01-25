@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FRR Receive Location for Messages from the Back-End Application"
 title: "FRR Receive Location for Messages from the Back-End Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

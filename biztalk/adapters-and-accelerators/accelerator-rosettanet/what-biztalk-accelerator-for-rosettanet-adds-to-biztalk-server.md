@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What BizTalk Accelerator for RosettaNet Adds to BizTalk Server"
 title: "What BizTalk Accelerator for RosettaNet Adds to BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting Filter Expressions on Send Ports"
 title: "Setting Filter Expressions on Send Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

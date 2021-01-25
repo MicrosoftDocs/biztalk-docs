@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 6: Configuring the BizTalk Orchestration Servers"
 title: "Step 6: Configuring the BizTalk Orchestration Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

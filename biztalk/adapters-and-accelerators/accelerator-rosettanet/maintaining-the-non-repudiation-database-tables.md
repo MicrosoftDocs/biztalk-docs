@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Maintaining the Non-Repudiation Database Tables"
 title: "Maintaining the Non-Repudiation Database Tables | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

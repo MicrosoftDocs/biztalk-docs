@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoke Functions and Procedures in Oracle Database using the WCF Service Model"
 title: "Invoke Functions and Procedures in Oracle Database using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

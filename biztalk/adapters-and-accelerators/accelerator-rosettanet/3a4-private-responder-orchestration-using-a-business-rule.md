@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: 3A4 Private Responder Orchestration Using a Business Rule"
 title: "3A4 Private Responder Orchestration Using a Business Rule | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
