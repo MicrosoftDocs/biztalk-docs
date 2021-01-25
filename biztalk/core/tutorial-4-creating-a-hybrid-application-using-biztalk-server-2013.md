@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorial 4: Creating a Hybrid Application Using BizTalk Server 2013"
 title: "Tutorial 4: Creating a Hybrid Application Using BizTalk Server 2013 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

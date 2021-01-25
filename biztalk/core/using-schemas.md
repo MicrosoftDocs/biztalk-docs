@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Schemas"
 title: "Using Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

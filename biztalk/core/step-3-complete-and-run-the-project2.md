@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Complete and Run the Project"
 title: "Step 3: Complete and Run the Project2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

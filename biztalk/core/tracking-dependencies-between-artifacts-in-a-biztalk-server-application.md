@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tracking Dependencies Between Artifacts in a BizTalk Server Application"
 title: "Tracking Dependencies Between Artifacts in a BizTalk Server Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

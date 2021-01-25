@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SOAP Adapter Configuration and Tuning Parameters"
 title: "SOAP Adapter Configuration and Tuning Parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

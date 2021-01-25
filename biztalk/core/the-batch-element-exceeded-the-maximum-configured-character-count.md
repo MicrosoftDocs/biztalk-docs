@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The batch element exceeded the maximum configured character count"
 title: "The batch element exceeded the maximum configured character count | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

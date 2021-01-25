@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 7 (On Premises): Create an Orchestration"
 title: "Step 7 (On Premises): Create an Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

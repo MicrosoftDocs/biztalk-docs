@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The element has an invalid structure"
 title: "The element has an invalid structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

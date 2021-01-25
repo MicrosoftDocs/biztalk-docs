@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 10: Configure the X12 and AS2 Trading Partner Agreement"
 title: "Step 10: Configure the X12 and AS2 Trading Partner Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

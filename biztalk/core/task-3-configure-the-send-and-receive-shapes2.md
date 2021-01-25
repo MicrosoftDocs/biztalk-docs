@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Task 3: Configure the Send and Receive Shapes"
 title: "Task 3: Configure the Send and Receive Shapes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

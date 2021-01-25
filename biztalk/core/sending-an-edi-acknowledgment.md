@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sending an EDI Acknowledgment"
 title: "Sending an EDI Acknowledgment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

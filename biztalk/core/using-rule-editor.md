@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Rule Editor"
 title: "Using Rule Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

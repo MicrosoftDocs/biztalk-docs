@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Comparison can only be Equals, NotEquals and Exists"
 title: "The Comparison can only be Equals, NotEquals and Exists | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

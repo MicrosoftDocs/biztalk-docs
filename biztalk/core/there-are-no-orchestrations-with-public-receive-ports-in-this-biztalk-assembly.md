@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: There are no orchestrations with public receive ports in this BizTalk assembly"
 title: "There are no orchestrations with public receive ports in this BizTalk assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

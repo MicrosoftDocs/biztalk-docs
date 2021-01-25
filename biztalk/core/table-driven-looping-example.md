@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table-Driven Looping Example"
 title: "Table-Driven Looping Example | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

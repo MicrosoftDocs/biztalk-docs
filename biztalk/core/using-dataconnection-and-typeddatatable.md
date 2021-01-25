@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using DataConnection and TypedDataTable"
 title: "Using DataConnection and TypedDataTable | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

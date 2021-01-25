@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The integer property value is not a valid integer"
 title: "The integer property value is not a valid integer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

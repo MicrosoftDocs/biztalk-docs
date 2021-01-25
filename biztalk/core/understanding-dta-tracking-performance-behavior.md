@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Understanding DTA Tracking Performance Behavior"
 title: "Understanding DTA Tracking Performance Behavior | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

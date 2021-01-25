@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sizing the Tracking Database to Track Message Bodies"
 title: "Sizing the Tracking Database to Track Message Bodies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

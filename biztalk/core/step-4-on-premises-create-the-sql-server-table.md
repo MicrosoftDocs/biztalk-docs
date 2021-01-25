@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4 (On Premises): Create the SQL Server Table"
 title: "Step 4 (On Premises): Create the SQL Server Table | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

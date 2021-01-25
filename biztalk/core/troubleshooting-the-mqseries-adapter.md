@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting the MQSeries Adapter"
 title: "Troubleshooting the MQSeries Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

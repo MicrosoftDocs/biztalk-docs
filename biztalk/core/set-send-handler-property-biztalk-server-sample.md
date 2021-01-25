@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Set Send Handler Property (BizTalk Server Sample)"
 title: "Set Send Handler Property (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

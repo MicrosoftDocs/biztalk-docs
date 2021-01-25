@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SSOM: SharePoint Services Adapter Web Service"
 title: "SSOM: SharePoint Services Adapter Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

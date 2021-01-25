@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 7: Configure a Send Port to Send the Acknowledgment to Your Trading Partner"
 title: "Step 7: Configure a Send Port to Send the Acknowledgment to Your Trading Partner | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

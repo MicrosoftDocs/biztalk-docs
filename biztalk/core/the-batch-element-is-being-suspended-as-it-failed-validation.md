@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The batch element is being suspended as it failed validation"
 title: "The batch element is being suspended as it failed validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

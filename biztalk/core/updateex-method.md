@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UpdateEx Method"
 title: "UpdateEx Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

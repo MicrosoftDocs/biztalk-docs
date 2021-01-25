@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Filters With the Receive Message Shape"
 title: "Using Filters With the Receive Message Shape | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

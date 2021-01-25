@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using a JD Edwards OneWorld System"
 title: "Using a JD Edwards OneWorld System | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

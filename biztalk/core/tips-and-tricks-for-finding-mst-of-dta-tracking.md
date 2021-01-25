@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tips and Tricks for Finding MST of DTA Tracking"
 title: "Tips and Tricks for Finding MST of DTA Tracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

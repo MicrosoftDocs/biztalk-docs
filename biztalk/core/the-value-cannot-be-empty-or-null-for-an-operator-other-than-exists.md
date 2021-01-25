@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The value cannot be empty or null for an operator other than Exists"
 title: "The value cannot be empty or null for an operator other than Exists | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

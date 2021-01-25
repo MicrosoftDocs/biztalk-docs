@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Single Sign-On: Event 11041"
 title: "Single Sign-On: Event 11041 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Validating an Instance (EDI)"
 title: "Validating an Instance (EDI) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unexpected root element"
 title: "Unexpected root element | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

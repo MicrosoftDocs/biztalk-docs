@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting the Polling Interval on the Batching SQL Adapter Receive Location"
 title: "Setting the Polling Interval on the Batching SQL Adapter Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

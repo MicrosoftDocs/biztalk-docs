@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unable to access agreement using receiver identity"
 title: "Unable to access agreement using receiver identity | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

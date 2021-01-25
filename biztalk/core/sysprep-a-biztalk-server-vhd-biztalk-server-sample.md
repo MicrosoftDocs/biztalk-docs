@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sysprep a BizTalk Server VHD (BizTalk Server Sample)"
 title: "Sysprep a BizTalk Server VHD (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

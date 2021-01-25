@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 8 (On Premises): Configure the BizTalk Server Application"
 title: "Step 8 (On Premises): Configure the BizTalk Server Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/08/2015"

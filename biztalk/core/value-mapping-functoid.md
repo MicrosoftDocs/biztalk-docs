@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Value Mapping Functoid"
 title: "Value Mapping Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

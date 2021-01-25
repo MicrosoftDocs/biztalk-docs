@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TrackedPropertyNames (Schema Node)"
 title: "TrackedPropertyNames (Schema Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

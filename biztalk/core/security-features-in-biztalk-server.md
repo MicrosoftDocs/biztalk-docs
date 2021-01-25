@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security Features in BizTalk Server"
 title: "Security Features in BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

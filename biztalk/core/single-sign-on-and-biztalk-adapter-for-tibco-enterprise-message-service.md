@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Single Sign-On and BizTalk Adapter for TIBCO Enterprise Message Service"
 title: "SSO and BizTalk Adapter for TIBCO Enterprise Message Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

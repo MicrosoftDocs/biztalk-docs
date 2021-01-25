@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5: Build the EAISchemas Project"
 title: "Step 5: Build the EAISchemas Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

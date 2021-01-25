@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Task 4: Configure the Construct Message Shape"
 title: "Task 4: Configure the Construct Message Shape1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

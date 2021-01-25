@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Types of Links"
 title: "Types of Links | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

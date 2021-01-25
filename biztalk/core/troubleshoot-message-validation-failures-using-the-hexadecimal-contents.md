@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting Message Validation Failures by Viewing the Hexadecimal Contents of Suspended Messages"
 title: "Troubleshooting Message Validation Failures by Viewing the Hexadecimal Contents of Suspended Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Valid BizTalk Mapper XSLT Encoding Types"
 title: "Valid BizTalk Mapper XSLT Encoding Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

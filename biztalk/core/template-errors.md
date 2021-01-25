@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Template Errors"
 title: "Template Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

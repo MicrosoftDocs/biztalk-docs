@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The hash algorithm specified in the AS2 message is unsupported"
 title: "The hash algorithm specified in the AS2 message is unsupported | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Upgrading from a Previous Version of SSO"
 title: "Upgrading from a Previous Version of SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

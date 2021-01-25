@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Enhanced Features in BizTalk Mapper"
 title: "Using Enhanced Features in BizTalk Mapper | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Trading partners and business profiles"
 title: "Trading partners and business profiles | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

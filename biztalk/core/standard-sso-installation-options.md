@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Standard SSO Installation Options"
 title: "Standard SSO Installation Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

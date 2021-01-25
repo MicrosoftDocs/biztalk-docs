@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction set control number sequence exhausted for Partner and TPA"
 title: "Transaction set control number sequence exhausted for Partner and TPA | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

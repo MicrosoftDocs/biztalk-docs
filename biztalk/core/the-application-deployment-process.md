@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Application Deployment Process"
 title: "The Application Deployment Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transform (InboundTransforms Node)"
 title: "Transform (InboundTransforms Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

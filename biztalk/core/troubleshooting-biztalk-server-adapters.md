@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting BizTalk Server Adapters"
 title: "Troubleshooting BizTalk Server Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

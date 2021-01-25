@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Updating an Existing Configuration with a Binding File"
 title: "Updating an Existing Configuration with a Binding File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

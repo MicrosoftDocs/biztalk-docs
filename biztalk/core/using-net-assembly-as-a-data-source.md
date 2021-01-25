@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using .NET Assembly as a Data Source"
 title: "Using .NET Assembly as a Data Source | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

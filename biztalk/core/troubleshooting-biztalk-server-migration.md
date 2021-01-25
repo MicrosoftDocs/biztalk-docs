@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting BizTalk Server Migration"
 title: "Troubleshooting BizTalk Server Migration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

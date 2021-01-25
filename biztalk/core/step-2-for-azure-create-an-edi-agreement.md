@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2 (For Azure): Create an EDI Agreement"
 title: "Step 2 (For Azure): Create an EDI Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

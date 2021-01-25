@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a .NET Application to Test a WCF Service Published with the BizTalk WCF Service Publishing Wizard"
 title: "How to Create a .NET Application to Test a WCF Service Published with the BizTalk WCF Service Publishing Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

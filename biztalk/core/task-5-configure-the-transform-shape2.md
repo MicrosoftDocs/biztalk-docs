@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Task 5: Configure the Transform Shape"
 title: "Task 5: Configure the Transform Shape2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

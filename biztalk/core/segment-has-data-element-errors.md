@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Segment has data element errors"
 title: "Segment has data element errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

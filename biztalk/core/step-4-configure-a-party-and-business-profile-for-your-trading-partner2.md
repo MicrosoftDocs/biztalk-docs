@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4: Configure a Party and Business Profile for Your Trading Partner"
 title: "Step 4: Configure a Party and Business Profile for Your Trading Partner2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

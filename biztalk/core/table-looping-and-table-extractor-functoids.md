@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table Looping and Table Extractor Functoids"
 title: "Table Looping and Table Extractor Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

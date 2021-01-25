@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unrecognized segment ID"
 title: "Unrecognized segment ID | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

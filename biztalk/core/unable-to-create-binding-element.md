@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unable to create binding element"
 title: "Unable to create binding element | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

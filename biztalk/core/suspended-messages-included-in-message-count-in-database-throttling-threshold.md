@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Suspended Messages are Included in the Message Count in Database Throttling Threshold"
 title: "Suspended Messages are Included in the Message Count in Database Throttling Threshold | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

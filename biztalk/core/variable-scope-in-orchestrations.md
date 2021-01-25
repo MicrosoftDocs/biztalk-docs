@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Variable Scope in Orchestrations"
 title: "Variable Scope in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

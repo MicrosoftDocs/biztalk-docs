@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Segment repeats less than the minimum allowed number of times"
 title: "Segment repeats less than the minimum allowed number of times | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

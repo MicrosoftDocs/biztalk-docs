@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TIBCO Enterprise Message Service Requirements and Limitations"
 title: "TIBCO Enterprise Message Service Requirements and Limitations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

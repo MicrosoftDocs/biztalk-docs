@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Structure of the MQSeries Adapter"
 title: "Structure of the MQSeries Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

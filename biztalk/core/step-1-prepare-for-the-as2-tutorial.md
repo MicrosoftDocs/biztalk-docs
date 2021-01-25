@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Prepare for the AS2 Tutorial"
 title: "Step 1: Prepare for the AS2 Tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

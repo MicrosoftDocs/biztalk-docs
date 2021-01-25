@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UI Reference for BizTalk Adapter for PeopleSoft Enterprise"
 title: "UI Reference for BizTalk Adapter for PeopleSoft Enterprise | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

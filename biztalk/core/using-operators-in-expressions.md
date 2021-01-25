@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Operators in Expressions"
 title: "Using Operators in Expressions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

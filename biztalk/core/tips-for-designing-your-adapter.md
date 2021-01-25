@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tips for Designing Your Adapter"
 title: "Tips for Designing Your Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

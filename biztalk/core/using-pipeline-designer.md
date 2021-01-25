@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Pipeline Designer"
 title: "Using Pipeline Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

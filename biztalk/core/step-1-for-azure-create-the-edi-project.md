@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1 (For Azure): Create the EDI Project"
 title: "Step 1 (For Azure): Create the EDI Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

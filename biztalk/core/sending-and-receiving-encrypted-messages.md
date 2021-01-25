@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sending and Receiving Encrypted Messages"
 title: "Sending and Receiving Encrypted Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

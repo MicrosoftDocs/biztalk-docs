@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The AS2 Decoder encountered an exception during processing"
 title: "The AS2 Decoder encountered an exception during processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

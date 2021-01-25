@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Trading Partner Agreement"
 title: "Trading Partner Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

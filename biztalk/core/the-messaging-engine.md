@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Messaging Engine"
 title: "The Messaging Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

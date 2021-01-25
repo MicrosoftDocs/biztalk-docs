@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Short-Term Facts vs. Long-Term Facts"
 title: "Short-Term Facts vs. Long-Term Facts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

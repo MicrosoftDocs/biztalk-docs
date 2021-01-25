@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using the MQSAgent COM+ Configuration Wizard"
 title: "Using the MQSAgent COM+ Configuration Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

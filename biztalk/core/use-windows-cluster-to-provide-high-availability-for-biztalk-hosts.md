@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Windows Server Cluster to Provide High Availability for BizTalk Server Hosts2"
 title: "Using Windows Server Cluster to Provide High Availability for BizTalk Server Hosts2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/04/2016"

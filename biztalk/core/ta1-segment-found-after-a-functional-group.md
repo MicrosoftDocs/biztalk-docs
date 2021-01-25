@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TA1 segment found after a functional group"
 title: "TA1 segment found after a functional group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

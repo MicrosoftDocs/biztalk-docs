@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction Handling with the MSMQ Adapter"
 title: "Transaction Handling with the MSMQ Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

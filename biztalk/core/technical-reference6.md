@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Technical Reference"
 title: "Sample files and Data Types for JD Edwards EnterpriseOne | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use binding files to import or export"
 title: "Use binding files to import or export | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

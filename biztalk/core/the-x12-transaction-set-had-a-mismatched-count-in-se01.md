@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The X12 Transaction set had a mismatched count in SE01"
 title: "The X12 Transaction set had a mismatched count in SE01 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

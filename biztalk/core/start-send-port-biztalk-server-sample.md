@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Start Send Port (BizTalk Server Sample)"
 title: "Start Send Port (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

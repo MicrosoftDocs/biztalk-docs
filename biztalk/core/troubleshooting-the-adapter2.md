@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting the Adapter"
 title: "Troubleshooting the Adapter2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

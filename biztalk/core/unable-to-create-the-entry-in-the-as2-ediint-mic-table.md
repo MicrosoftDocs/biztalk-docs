@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unable to create the entry in the AS2 EDIINT MIC table"
 title: "Unable to create the entry in the AS2 EDIINT MIC table | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

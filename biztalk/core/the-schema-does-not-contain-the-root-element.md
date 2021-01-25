@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The schema does not contain the root element"
 title: "The schema does not contain the root element | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

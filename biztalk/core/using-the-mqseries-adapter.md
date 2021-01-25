@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using the MQSeries Adapter"
 title: "Use the MQSeries adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Facts Explorer"
 title: "Using Facts Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

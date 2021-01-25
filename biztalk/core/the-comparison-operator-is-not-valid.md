@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The comparison operator is not valid"
 title: "The comparison operator is not valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

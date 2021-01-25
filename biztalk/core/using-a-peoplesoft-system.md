@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using a PeopleSoft System"
 title: "Using a PeopleSoft System | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

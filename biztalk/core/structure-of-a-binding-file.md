@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Structure of a Binding File"
 title: "Structure of a Binding File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

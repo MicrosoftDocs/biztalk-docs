@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Stop Orchestration (BizTalk Server Sample)"
 title: "Stop Orchestration (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

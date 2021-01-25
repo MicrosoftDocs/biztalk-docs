@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transacted Orchestrations"
 title: "Transacted Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

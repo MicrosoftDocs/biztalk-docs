@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sending an Outgoing MDN"
 title: "Sending an Outgoing MDN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

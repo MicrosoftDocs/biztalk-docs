@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using SOAP Headers"
 title: "Using SOAP Headers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

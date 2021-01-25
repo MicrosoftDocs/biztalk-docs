@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using LoadGen 2007 with MSMQ"
 title: "Using LoadGen 2007 with MSMQ | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
