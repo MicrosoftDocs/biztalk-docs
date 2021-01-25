@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Uninstall a BizTalk Application"
 title: "How to Uninstall a BizTalk Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

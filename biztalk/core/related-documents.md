@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Related Documents"
 title: "Related Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

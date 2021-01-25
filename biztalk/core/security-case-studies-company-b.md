@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security Case Studies: Company B"
 title: "Security Case Studies: Company B | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

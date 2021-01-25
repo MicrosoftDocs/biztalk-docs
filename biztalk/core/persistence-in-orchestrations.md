@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Persistence in Orchestrations"
 title: "Persistence in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

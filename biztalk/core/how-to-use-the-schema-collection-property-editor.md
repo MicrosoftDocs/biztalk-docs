@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use the Schema Collection Property Editor"
 title: "How to Use the Schema Collection Property Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

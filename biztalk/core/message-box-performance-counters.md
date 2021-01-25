@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Box Performance Counters"
 title: "Message Box Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

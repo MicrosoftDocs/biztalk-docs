@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Port Configuration Errors"
 title: "Port Configuration Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Resolving Data Loss of In-Progress Orchestrations"
 title: "Resolving Data Loss of In-Progress Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

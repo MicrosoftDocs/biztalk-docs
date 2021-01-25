@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Modify Rate Based Throttling Settings"
 title: "How to Modify Rate Based Throttling Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

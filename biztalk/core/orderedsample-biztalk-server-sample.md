@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OrderedSample (BizTalk Server Sample)"
 title: "OrderedSample (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

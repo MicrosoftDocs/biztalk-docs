@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISA segment needs to have a minimum length of 108"
 title: "ISA segment needs to have a minimum length of 108 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

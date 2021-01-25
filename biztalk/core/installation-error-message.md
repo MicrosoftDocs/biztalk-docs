@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installation Error Message"
 title: "Installation Error Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

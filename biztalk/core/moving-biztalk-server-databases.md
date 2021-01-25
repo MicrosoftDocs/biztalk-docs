@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Moving BizTalk Server Databases"
 title: "Moving BizTalk Server Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

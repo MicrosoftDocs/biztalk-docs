@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interfaces for Send Adapters"
 title: "Interfaces for Send Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

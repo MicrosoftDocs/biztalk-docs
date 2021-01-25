@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Registry Errors"
 title: "Registry Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

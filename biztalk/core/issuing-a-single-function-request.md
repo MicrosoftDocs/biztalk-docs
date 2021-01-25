@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Issuing a Single-Function Request"
 title: "Issuing a Single-Function Request | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

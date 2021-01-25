@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Required User Rights for Managing BAM Definition Files"
 title: "Required User Rights for Managing BAM Definition Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

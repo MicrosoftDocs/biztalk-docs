@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Node-Hierarchy Level Matching"
 title: "Node-Hierarchy Level Matching | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

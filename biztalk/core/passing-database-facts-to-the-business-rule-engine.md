@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Passing Database Facts to the Business Rule Engine"
 title: "Passing Database Facts to the Business Rule Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

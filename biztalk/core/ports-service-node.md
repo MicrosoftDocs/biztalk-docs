@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ports (Service Node)"
 title: "Ports (Service Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

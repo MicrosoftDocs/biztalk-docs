@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Open a Saved Tracking Query"
 title: "How to Open a Saved Tracking Query | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

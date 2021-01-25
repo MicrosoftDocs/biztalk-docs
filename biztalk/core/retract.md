@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Retract"
 title: "Retract | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

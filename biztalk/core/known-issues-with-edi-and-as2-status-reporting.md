@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Known Issues with EDI and AS2 Status Reporting"
 title: "Known Issues with EDI and AS2 Status Reporting | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

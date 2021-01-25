@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing Schemas Within Projects"
 title: "Managing Schemas Within Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

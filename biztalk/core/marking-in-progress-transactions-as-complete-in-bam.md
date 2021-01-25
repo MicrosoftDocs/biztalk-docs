@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Marking In-Progress Transactions as Complete in BAM"
 title: "Marking In-Progress Transactions as Complete in BAM | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

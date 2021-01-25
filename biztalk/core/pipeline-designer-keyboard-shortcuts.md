@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Pipeline Designer Keyboard Shortcuts"
 title: "Pipeline Designer Keyboard Shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

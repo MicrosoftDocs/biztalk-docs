@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 2: Define the Business Process"
 title: "Lesson 2: Define the Business Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

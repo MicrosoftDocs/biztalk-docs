@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Validate Schemas in Visual Studio"
 title: "How to Validate Schemas in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

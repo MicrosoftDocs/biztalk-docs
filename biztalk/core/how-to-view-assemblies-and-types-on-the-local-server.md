@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to View Assemblies and Types on the Local Server"
 title: "How to View Assemblies and Types on the Local Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

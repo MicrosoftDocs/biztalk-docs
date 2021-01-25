@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ops Adapter Implementation Details"
 title: "Ops Adapter Implementation Details | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Publish and Subscribe Architecture"
 title: "Publish and Subscribe Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

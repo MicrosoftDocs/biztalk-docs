@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid AS2-From name configured for Party"
 title: "Invalid AS2-From name configured for Party | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

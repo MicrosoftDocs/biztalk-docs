@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InboundTransforms (SendPort Node)"
 title: "InboundTransforms (SendPort Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

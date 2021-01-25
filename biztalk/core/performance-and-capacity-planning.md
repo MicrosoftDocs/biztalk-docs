@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Performance and Capacity Planning"
 title: "Performance and Capacity Planning | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

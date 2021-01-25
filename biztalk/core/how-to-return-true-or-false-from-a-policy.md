@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Return True or False from a Policy"
 title: "How to Return True or False from a Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

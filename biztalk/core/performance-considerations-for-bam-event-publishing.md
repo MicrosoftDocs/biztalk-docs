@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Performance Considerations for BAM Event Publishing"
 title: "Performance Considerations for BAM Event Publishing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Type is not allowed as part of the Agreement"
 title: "Message Type is not allowed as part of the Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

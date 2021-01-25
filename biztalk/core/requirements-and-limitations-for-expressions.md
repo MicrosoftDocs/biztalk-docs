@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Requirements and Limitations for Expressions"
 title: "Requirements and Limitations for Expressions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

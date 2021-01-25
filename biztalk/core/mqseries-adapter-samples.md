@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MQSeries Adapter Samples"
 title: "MQSeries Adapter Samples | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

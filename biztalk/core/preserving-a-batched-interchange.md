@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Preserving a Batched Interchange"
 title: "Preserving a Batched Interchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

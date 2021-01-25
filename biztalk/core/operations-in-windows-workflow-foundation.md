@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations in Windows Workflow Foundation"
 title: "Operations in Windows Workflow Foundation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

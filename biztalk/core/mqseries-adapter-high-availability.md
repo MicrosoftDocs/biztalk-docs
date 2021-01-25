@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MQSeries Adapter High Availability"
 title: "MQSeries Adapter High Availability | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

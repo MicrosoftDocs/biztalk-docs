@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Restrictions when configuring the File adapter"
 title: "Restrictions when configuring the File adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

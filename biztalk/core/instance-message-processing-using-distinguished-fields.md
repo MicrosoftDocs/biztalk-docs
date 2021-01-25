@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance Message Processing Using Distinguished Fields"
 title: "Instance Message Processing Using Distinguished Fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

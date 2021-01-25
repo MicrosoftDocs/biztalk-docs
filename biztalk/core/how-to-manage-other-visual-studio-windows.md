@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Manage Other Visual Studio Windows"
 title: "How to Manage Other Visual Studio Windows | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

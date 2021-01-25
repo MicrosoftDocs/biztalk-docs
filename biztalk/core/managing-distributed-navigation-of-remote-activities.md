@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing Distributed Navigation of Remote Activities"
 title: "Managing Distributed Navigation of Remote Activities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

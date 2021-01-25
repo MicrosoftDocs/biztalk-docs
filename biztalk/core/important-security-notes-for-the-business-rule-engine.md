@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Important Security Notes for the Business Rule Engine"
 title: "Important Security Notes for the Business Rule Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

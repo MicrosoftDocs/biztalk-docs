@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Required affiliate application name not specified"
 title: "Required affiliate application name not specified | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

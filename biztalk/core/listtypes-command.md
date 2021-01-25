@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ListTypes Command"
 title: "ListTypes Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

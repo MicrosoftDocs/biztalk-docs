@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ordered Delivery of Messages with the MQSeries Adapter"
 title: "Ordered Delivery of Messages with the MQSeries Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

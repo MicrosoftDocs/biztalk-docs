@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Inlining Back-end Invocation"
 title: "Inlining Back-end Invocation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Policy.Dispose Method"
 title: "Policy.Dispose Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

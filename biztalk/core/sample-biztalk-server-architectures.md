@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample BizTalk Server Architectures"
 title: "Sample BizTalk Server Architectures | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

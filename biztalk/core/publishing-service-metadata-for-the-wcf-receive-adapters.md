@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Publishing Service Metadata for the WCF Receive Adapters"
 title: "Publish Service Metadata for WCF Receive Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

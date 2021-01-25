@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Performance Tips and Tricks"
 title: "Performance Tips and Tricks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

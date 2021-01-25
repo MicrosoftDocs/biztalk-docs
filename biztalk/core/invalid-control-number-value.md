@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid Control Number Value"
 title: "Invalid Control Number Value | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

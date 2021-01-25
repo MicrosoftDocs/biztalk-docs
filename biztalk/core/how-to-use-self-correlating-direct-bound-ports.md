@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Self-Correlating Direct Bound Ports"
 title: "How to Use Self-Correlating Direct Bound Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Messages Represented as XSD Schemas"
 title: "Messages Represented as XSD Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

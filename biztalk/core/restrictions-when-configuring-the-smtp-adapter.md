@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Restrictions When Configuring the SMTP Adapter"
 title: "Restrictions When Configuring the SMTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for Sustained Performance"
 title: "Planning for Sustained Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

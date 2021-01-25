@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interfaces for a Batch-Supported Receive Adapter"
 title: "Interfaces for a Batch-Supported Receive Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

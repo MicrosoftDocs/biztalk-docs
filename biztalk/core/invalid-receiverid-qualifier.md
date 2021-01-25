@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid ReceiverId Qualifier"
 title: "Invalid ReceiverId Qualifier | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

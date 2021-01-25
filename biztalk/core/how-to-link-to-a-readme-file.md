@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Link to a Readme File"
 title: "How to Link to a Readme File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

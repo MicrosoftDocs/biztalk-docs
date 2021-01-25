@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Restrictions on the Destination URL Property"
 title: "Restrictions on the Destination URL Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

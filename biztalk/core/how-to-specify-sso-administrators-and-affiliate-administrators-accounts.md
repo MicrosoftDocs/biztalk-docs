@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Specify SSO Administrators and Affiliate Administrators Accounts"
 title: "How to Specify SSO Administrators and Affiliate Administrators Accounts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

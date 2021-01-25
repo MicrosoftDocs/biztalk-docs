@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interfaces for Receive Adapters"
 title: "Interfaces for Receive Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

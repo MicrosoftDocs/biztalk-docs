@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Plan and architect your BizTalk Server solution"
 title: "Plan and architect your BizTalk Server solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scenario: Updating Application Artifacts"
 title: "Scenario: Updating Application Artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

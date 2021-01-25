@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nodes That Provide Wildcard Capabilities"
 title: "Nodes That Provide Wildcard Capabilities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

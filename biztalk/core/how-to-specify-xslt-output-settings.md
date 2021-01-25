@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Set map compilation and output settings"
 title: "How to Specify XSLT Output Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

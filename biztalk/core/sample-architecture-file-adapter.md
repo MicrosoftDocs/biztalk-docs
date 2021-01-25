@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Architecture: File Adapter"
 title: "Sample Architecture: File Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

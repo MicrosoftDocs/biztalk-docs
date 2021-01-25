@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MQSeries Adapter Deployment Options"
 title: "MQSeries Adapter Deployment Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Record Count Functoid"
 title: "Record Count Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

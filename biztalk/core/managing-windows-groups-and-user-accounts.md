@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing Windows Groups and User Accounts"
 title: "Managing Windows Groups and User Accounts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

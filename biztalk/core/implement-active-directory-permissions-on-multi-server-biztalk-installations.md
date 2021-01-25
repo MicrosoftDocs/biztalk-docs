@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Guidelines for Implementing Active Directory Permissions on Multi Server BizTalk Installations"
 title: "Guidelines for Implementing Active Directory Permissions on Multi Server BizTalk Installations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for the BAM Portal"
 title: "Planning for the BAM Portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

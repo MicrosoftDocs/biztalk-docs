@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Architecture: FTP Adapter"
 title: "Sample Architecture: FTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

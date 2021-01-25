@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to View an Individual Activity"
 title: "How to View an Individual Activity | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

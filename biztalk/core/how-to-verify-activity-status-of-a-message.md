@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Verify Activity Status of a Message"
 title: "How to Verify Activity Status of a Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

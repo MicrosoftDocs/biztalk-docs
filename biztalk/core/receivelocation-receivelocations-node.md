@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ReceiveLocation (ReceiveLocations Node)"
 title: "ReceiveLocation (ReceiveLocations Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

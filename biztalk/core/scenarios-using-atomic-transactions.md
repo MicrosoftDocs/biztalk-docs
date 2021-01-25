@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scenarios Using Atomic Transactions"
 title: "Scenarios Using Atomic Transactions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

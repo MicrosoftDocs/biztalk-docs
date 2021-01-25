@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ModuleRefCollection Node"
 title: "ModuleRefCollection Node | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

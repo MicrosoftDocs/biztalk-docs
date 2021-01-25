@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set Node Properties"
 title: "How to Set Node Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scenario: Deploying a New Application"
 title: "Scenario: Deploying a New Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

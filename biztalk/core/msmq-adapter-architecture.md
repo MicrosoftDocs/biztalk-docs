@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MSMQ Adapter Architecture"
 title: "MSMQ Adapter Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

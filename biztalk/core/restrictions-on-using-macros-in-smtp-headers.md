@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Restrictions on Using Macros in SMTP Headers"
 title: "Restrictions on Using Macros in SMTP Headers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

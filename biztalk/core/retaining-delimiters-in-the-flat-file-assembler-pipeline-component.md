@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Retaining Delimiters in the Flat File Assembler Pipeline Component"
 title: "Retaining Delimiters in the Flat File Assembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

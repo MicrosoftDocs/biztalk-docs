@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Open, Save, Close, and Rename Maps"
 title: "How to Open, Save, Close, and Rename Maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

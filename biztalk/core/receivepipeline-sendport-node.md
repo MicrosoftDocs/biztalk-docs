@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ReceivePipeline (SendPort Node)"
 title: "ReceivePipeline (SendPort Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Enrichment Sample (BizTalk Server Sample)"
 title: "Message Enrichment Sample (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

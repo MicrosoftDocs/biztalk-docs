@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Test and Debug an Adapter"
 title: "How to Test and Debug an Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Related Activities"
 title: "Related Activities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

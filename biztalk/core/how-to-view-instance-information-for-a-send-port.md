@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to View Instance Information for a Send Port"
 title: "How to View Instance Information for a Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

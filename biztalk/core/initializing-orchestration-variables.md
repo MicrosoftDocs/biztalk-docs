@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Initializing Orchestration Variables"
 title: "Initializing Orchestration Variables | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

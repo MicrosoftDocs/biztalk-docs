@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nil Value Functoid"
 title: "Nil Value Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

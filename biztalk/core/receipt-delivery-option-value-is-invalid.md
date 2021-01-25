@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receipt-Delivery-Option value is invalid"
 title: "Receipt-Delivery-Option value is invalid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

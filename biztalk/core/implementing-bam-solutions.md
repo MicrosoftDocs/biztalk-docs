@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Implementing BAM Solutions"
 title: "Implementing BAM Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

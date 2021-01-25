@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid send timeout"
 title: "Invalid send timeout | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

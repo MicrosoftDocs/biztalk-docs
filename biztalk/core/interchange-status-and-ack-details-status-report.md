@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interchange Status and ACK Details Status Report"
 title: "Interchange Status and ACK Details Status Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

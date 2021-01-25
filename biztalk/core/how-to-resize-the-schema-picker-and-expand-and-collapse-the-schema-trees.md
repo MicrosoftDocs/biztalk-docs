@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to resize the schema picker, and expand and collapse the schema trees"
 title: "How to resize the schema picker, and expand and collapse the schema trees | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

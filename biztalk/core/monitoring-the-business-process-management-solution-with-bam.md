@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Monitoring the Business Process Management Solution with BAM"
 title: "Monitoring the Business Process Management Solution with BAM | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rule Action Side Effects"
 title: "Rule Action Side Effects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

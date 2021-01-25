@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interfaces for a Synchronous Send Adapter"
 title: "Interfaces for a Synchronous Send Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

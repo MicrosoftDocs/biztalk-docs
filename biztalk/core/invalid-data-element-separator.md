@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid Data Element Separator"
 title: "Invalid Data Element Separator | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

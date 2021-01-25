@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Search for Tracked Message Events"
 title: "How to Search for Tracked Message Events | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

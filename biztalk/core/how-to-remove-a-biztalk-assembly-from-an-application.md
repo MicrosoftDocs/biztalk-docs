@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Remove a BizTalk Assembly from an Application"
 title: "How to Remove a BizTalk Assembly from an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

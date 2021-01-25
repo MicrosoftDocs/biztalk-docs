@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Remove BAM Activities"
 title: "How to Remove BAM Activities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

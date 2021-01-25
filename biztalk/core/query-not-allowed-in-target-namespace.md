@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Query not allowed in target namespace"
 title: "Query not allowed in target namespace | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

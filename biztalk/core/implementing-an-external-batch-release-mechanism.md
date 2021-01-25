@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Implementing an External Batch Release Mechanism"
 title: "Implementing an External Batch Release Mechanism | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

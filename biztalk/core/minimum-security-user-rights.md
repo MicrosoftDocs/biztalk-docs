@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Minimum Security User Rights"
 title: "Minimum Security User Rights | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Optimize the Display of Links"
 title: "How to Optimize the Display of Links | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

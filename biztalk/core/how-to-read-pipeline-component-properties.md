@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Read Pipeline Component Properties"
 title: "How to Read Pipeline Component Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

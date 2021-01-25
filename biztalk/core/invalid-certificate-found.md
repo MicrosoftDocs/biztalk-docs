@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid certificate found"
 title: "Invalid certificate found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

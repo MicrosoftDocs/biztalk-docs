@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 1: Define Schemas and a Map"
 title: "Lesson 1: Define Schemas and a Map | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scaling Your Solutions"
 title: "Scaling Your Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

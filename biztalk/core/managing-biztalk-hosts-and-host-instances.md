@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing BizTalk Hosts and Host Instances"
 title: "Managing BizTalk Hosts and Host Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

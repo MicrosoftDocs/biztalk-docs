@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nested Positional and Delimited Records"
 title: "Nested Positional and Delimited Records | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

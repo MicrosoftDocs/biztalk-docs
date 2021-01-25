@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Remove a Send Port from a Send Port Group"
 title: "How to Remove a Send Port from a Send Port Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

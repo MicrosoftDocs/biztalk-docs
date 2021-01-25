@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Importing Schemas into BizTalk Server Projects"
 title: "Import JD Edwards EnterpriseOne schemas into Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

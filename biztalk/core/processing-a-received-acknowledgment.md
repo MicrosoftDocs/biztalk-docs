@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Processing a Received Acknowledgment"
 title: "Processing a Received Acknowledgment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

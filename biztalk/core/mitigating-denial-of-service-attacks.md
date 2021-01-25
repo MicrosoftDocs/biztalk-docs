@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mitigating Denial of Service Attacks"
 title: "Mitigating Denial of Service Attacks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Reporting Mode in Orchestration Debugger"
 title: "Reporting Mode in Orchestration Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

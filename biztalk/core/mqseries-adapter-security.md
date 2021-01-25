@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security with the MQSeries adapter"
 title: "MQSeries Adapter Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

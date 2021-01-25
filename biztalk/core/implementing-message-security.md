@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Implementing Message Security"
 title: "Implementing Message Security | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

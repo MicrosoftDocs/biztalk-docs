@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scaled Down Architecture"
 title: "Scaled Down Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

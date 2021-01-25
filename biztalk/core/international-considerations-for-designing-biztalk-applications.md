@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: International Considerations for Designing BizTalk Applications"
 title: "International Considerations for Designing BizTalk Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
