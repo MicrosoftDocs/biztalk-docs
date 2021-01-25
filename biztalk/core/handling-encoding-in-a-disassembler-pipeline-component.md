@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Handling Encoding in a Disassembler Pipeline Component"
 title: "Handling Encoding in a Disassembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

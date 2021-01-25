@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Developing Custom Functoids"
 title: "Developing Custom Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

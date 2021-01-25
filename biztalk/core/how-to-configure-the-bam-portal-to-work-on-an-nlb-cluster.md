@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure the BAM Portal to Work on an NLB Cluster"
 title: "How to Configure the BAM Portal to Work on an NLB Cluster | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

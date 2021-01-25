@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Developing a Probing Pipeline Component"
 title: "Developing a Probing Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

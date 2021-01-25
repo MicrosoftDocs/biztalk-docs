@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enlisted Party (Enlisted Parties Node)"
 title: "Enlisted Party (Enlisted Parties Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

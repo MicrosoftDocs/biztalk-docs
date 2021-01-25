@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Could Generate Multiple Equivalent Children"
 title: "Error - Could Generate Multiple Equivalent Children | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

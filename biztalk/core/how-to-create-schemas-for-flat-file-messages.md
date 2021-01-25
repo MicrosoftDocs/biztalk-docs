@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create Schemas for Flat File Messages"
 title: "How to Create Schemas for Flat File Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

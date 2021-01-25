@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Flat File Disassembler Pipeline Component"
 title: "Flat File Disassembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

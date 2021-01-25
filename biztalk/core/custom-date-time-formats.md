@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Custom Date-Time Formats"
 title: "Custom Date-Time Formats | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

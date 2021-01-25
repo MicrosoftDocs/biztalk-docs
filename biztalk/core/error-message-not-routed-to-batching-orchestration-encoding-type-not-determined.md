@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The message cannot be routed to the batching orchestration as the Encoding type could not be determined"
 title: "The message cannot be routed to the batching orchestration as the Encoding type could not be determined | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

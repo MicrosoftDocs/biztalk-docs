@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Determine Current Single Sign-On Access"
 title: "How to Determine Current Single Sign-On Access | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

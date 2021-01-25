@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a New Occurrence of an Existing Record, Field Element, or Field Attribute Node"
 title: "How to Create a New Occurrence of an Existing Record, Field Element, or Field Attribute Node | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

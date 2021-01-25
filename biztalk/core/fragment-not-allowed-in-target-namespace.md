@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fragment not allowed in target namespace"
 title: "Fragment not allowed in target namespace | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

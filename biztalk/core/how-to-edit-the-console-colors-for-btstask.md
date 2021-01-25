@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Edit the Console Colors for BTSTask"
 title: "How to Edit the Console Colors for BTSTask | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

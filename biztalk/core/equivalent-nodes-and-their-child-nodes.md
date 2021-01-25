@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Equivalent Nodes and Their Child Nodes"
 title: "Equivalent Nodes and Their Child Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

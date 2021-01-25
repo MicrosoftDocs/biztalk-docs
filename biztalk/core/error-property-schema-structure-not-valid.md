@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Property Schema Structure Not Valid"
 title: "Error - Property Schema Structure Not Valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Enable Alerts"
 title: "How to Enable Alerts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

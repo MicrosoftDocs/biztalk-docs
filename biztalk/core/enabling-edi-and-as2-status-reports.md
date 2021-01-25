@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enabling EDI and AS2 Status Reports"
 title: "Enabling EDI and AS2 Status Reports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

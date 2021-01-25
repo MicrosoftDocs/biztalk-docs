@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Cluster the Master Secret Server"
 title: "How to Cluster the Master Secret Server1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

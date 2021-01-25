@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure a POP3 Receive Location"
 title: "How to Configure a POP3 Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

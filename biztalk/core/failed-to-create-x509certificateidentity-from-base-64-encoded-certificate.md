@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Failed to create X509CertificateIdentity from base-64 encoded certificate"
 title: "Failed to create X509CertificateIdentity from base-64 encoded certificate | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

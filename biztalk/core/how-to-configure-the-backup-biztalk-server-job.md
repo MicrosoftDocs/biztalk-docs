@@ -1,6 +1,6 @@
 ---
 title: "Configure the Backup BizTalk Server Job | Microsoft Docs"
-description: 
+description: "Learn more about: Configure the Backup BizTalk Server Job"
 ms.custom: ""
 ms.date: "11/22/2017"
 ms.prod: "biztalk-server"

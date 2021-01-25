@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Designing a Distributed Architecture"
 title: "Designing a Distributed Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

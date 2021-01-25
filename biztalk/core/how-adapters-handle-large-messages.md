@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How Adapters Handle Large Messages"
 title: "How Adapters Handle Large Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

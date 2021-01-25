@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Developing and Configuring BizTalk Server EDI Solutions"
 title: "Developing and Configuring BizTalk Server EDI Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

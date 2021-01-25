@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Consume Web Service Arrays"
 title: "How to Consume Web Service Arrays | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

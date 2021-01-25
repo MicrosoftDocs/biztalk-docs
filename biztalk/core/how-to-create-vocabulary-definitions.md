@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create Vocabulary Definitions"
 title: "How to Create Vocabulary Definitions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

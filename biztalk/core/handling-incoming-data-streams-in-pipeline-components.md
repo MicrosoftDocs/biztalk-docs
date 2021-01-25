@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Handling Incoming Data Streams in Pipeline Components"
 title: "Handling Incoming Data Streams in Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Output Link For XSLT Scripting Functoid Not Valid"
 title: "Error - Output Link For XSLT Scripting Functoid Not Valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

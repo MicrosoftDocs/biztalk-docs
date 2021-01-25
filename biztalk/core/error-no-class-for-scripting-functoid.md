@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - No Class for Scripting Functoid"
 title: "Error - No Class for Scripting Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

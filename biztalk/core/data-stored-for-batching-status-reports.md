@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Stored for Batching Status Reports"
 title: "Data Stored for Batching Status Reports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

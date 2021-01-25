@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Outbound Maps for a Receive Port"
 title: "How to Configure Outbound Maps for a Receive Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a BizTalk Server orchestration"
 title: "Create a BizTalk Server orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDI Character Set Support"
 title: "EDI Character Set Support | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

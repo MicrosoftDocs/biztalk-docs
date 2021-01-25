@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Customizing the BAM Portal Configuration"
 title: "Customizing the BAM Portal Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

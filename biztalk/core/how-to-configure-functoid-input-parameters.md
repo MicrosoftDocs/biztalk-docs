@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Functoid Input Parameters"
 title: "How to Configure Functoid Input Parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

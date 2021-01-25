@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enabling Error Reporting"
 title: "Enabling Error Reporting | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add the BAM Interceptor Behavior to the Machine.config File"
 title: "How to Add the BAM Interceptor Behavior to the Machine.config File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

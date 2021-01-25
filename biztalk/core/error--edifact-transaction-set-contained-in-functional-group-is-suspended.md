@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error encountered during parsing. The Edifact transaction set contained in functional group is being suspended with following errors"
 title: "Error encountered during parsing. The Edifact transaction set contained in functional group is being suspended with following errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

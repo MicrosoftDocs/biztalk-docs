@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Determine a Web Message Part Type"
 title: "How to Determine a Web Message Part Type | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

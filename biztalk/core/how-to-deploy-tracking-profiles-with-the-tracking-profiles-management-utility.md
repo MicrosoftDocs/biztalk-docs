@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Deploy Tracking Profiles with the Tracking Profiles Management Utility"
 title: "How to Deploy Tracking Profiles with the Tracking Profiles Management Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

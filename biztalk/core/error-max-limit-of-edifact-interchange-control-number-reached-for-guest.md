@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Max limit of acceptable Edifact interchange control number has reached for Guest settings"
 title: "Max limit of acceptable Edifact interchange control number has reached for Guest settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

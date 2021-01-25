@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Analyze Multiple Objects of the Same Type in a Business Rule"
 title: "How to Analyze Multiple Objects of the Same Type in a Business Rule | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

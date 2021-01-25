@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How BizTalk Server Sends AS2 Messages"
 title: "How BizTalk Server Sends AS2 Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

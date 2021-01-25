@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a Web Setup for Your Published Web Service"
 title: "How to Create a Web Setup for Your Published Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

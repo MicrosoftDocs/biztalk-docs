@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Could not generate a unique file name"
 title: "Could not generate a unique file name | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

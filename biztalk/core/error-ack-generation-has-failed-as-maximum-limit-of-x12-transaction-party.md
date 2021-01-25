@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error-Ack generation has failed as maximum limit of X12 transaction-party"
 title: "Error-Ack generation has failed as maximum limit of X12 transaction-party | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

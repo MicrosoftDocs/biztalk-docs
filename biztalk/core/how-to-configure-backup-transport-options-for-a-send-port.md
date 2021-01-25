@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Backup Transport Options for a Send Port"
 title: "How to Configure Backup Transport Options for a Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

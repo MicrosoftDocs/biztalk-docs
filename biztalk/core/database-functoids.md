@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Database Functoids"
 title: "Database Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

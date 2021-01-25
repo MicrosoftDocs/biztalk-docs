@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How Data Is Stored for EDI and AS2 Status Reports"
 title: "How Data Is Stored for EDI and AS2 Status Reports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Functoid Categories"
 title: "Functoid Categories | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

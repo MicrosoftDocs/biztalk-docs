@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Functoid Has No Output"
 title: "Error - Functoid Has No Output | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

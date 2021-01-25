@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Failure writing XML Type Blob file (&lt;file:---{0}&gt;). Error: {1}"
 title: "Error - Failure writing XML Type Blob file (&lt;file:---{0}&gt;). Error: {1} | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cluster SSO and a BizTalk Host in the Same Cluster Group"
 title: "How to Cluster SSO and a BizTalk Host in the Same Cluster Group1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

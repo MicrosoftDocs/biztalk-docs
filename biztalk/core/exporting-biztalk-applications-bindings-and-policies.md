@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Exporting BizTalk Applications, Bindings, and Policies"
 title: "Exporting BizTalk Applications, Bindings, and Policies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

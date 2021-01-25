@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Developing a Receive Adapter"
 title: "Developing a Receive Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

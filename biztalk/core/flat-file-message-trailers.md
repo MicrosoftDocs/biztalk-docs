@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Flat File Message Trailers"
 title: "Flat File Message Trailers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Per-instance Pipeline Properties for a Receive Location"
 title: "How to Configure Per-instance Pipeline Properties for a Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

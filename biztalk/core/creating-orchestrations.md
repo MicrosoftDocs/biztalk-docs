@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating Orchestrations"
 title: "Creating Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

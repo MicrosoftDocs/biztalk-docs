@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Delimiters are not unique"
 title: "Delimiters are not unique | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

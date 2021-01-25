@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How Exceptions Are Handled"
 title: "How Exceptions Are Handled | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

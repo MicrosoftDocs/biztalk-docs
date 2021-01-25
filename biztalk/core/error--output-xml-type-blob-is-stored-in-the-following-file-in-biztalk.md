@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - The output XML Type Blob is stored in the following file (&lt;file:---{0}&gt;). Error: {1}"
 title: "Error - The output XML Type Blob is stored in the following file (&lt;file:---{0}&gt;). Error: {1} | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

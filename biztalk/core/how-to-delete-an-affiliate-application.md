@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Delete an Affiliate Application"
 title: "How to Delete an Affiliate Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

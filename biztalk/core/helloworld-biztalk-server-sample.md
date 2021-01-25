@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HelloWorld (BizTalk Server Sample)"
 title: "HelloWorld (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

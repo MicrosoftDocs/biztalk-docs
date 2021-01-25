@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure the Suspend Shape"
 title: "How to Configure the Suspend Shape | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

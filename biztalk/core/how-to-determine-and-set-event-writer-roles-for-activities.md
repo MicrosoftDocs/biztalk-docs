@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Determine and Set Event Writer Roles for Activities"
 title: "How to Determine and Set Event Writer Roles for Activities | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

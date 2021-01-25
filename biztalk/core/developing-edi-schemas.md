@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Developing EDI Schemas"
 title: "Developing EDI Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

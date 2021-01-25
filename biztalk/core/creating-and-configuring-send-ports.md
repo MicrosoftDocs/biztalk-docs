@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating and Configuring Send Ports"
 title: "Quick links to create and configure send ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

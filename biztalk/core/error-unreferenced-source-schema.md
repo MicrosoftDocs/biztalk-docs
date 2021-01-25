@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Unreferenced Source Schema"
 title: "Error - Unreferenced Source Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

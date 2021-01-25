@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Document Reference URL Nodes"
 title: "Document Reference URL Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Deploy BAM Definitions"
 title: "How to Deploy BAM Definitions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

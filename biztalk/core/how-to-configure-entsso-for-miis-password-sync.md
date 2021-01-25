@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure ENTSSO for MIIS Password Sync"
 title: "How to Configure ENTSSO for MIIS Password Sync | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

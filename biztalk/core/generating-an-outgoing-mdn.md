@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Generating an Outgoing MDN"
 title: "Generating an Outgoing MDN | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

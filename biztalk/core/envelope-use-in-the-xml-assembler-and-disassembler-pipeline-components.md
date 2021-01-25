@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Envelope Use in the XML Assembler and Disassembler Pipeline Components"
 title: "Envelope Use in the XML Assembler and Disassembler Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

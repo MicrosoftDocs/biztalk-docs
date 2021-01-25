@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure an SMTP Send Port"
 title: "How to Configure an SMTP Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

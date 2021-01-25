@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Map Validation and Test Parameters"
 title: "How to Configure Map Validation and Test Parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

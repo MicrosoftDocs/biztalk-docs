@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating Affiliate Applications"
 title: "Creating Affiliate Applications4 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

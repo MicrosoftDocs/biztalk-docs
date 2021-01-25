@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Handle Typed Fault Contracts in Orchestrations"
 title: "How to Handle Typed Fault Contracts in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

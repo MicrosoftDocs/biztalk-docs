@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Highly Available BizTalk Server Environment"
 title: "Creating a Highly Available BizTalk Server Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

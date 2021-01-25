@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Disaster Recovery for Computers Running BizTalk Server"
 title: "Disaster Recovery for Computers Running BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

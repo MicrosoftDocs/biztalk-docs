@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Multiple Equivalent Node Same Target"
 title: "Error - Multiple Equivalent Node Same Target | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

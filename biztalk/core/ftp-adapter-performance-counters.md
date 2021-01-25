@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FTP Adapter Performance Counters"
 title: "FTP Adapter Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

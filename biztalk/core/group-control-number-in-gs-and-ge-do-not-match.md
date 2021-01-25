@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Group control number in GS and GE do not match"
 title: "Group control number in GS and GE do not match | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

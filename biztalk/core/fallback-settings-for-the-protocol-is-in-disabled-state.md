@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fallback Settings for the Protocol is in Disabled state"
 title: "Fallback Settings for the Protocol is in Disabled state | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

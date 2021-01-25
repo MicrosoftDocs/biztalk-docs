@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a Password Sync Adapter"
 title: "How to Create a Password Sync Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Decompression failed while processing a compressed AS2 message."
 title: "Decompression failed while processing a compressed AS2 message. | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

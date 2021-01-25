@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDI Acknowledgment Error Codes"
 title: "EDI Acknowledgment Error Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

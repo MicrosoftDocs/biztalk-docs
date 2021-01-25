@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add Shapes to Orchestrations"
 title: "How to Add Shapes to Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

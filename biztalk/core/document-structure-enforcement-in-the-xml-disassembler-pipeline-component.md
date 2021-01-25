@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Document Structure Enforcement in the XML Disassembler Pipeline Component"
 title: "Document Structure Enforcement in the XML Disassembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

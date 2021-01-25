@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Guidelines for Resolving SQL Server Permissions Problems"
 title: "Guidelines for Resolving SQL Server Permissions Problems | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

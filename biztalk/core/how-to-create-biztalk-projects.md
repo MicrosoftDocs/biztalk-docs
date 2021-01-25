@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create BizTalk Projects"
 title: "How to Create BizTalk Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

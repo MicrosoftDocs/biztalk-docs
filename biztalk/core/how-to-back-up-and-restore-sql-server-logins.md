@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Back Up and Restore SQL Server Logins"
 title: "How to Back Up and Restore SQL Server Logins | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

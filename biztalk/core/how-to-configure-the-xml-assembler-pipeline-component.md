@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure the XML Assembler Pipeline Component in BizTalk Server"
 title: "How to Configure the XML Assembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/13/2020"

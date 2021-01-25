@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Diagnose Problems with the WCF Adapters"
 title: "How to Diagnose Problems with the WCF Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

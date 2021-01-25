@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Display the SSO Database Information"
 title: "How to Display the SSO Database Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: File Adapter Performance Counters"
 title: "File Adapter Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

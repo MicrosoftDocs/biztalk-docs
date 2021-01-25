@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Failed to create X509CertificateIdentity from certificate reference"
 title: "Failed to create X509CertificateIdentity from certificate reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

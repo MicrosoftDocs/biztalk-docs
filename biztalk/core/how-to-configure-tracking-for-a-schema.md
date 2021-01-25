@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Tracking for a Schema"
 title: "How to Configure Tracking for a Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

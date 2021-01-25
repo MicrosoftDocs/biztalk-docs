@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a .NET Application to Test a Published Web Service"
 title: "Creating a .NET Application to Test a Published Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

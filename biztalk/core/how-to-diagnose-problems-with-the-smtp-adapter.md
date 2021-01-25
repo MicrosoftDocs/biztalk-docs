@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Diagnose Problems with the SMTP Adapter"
 title: "How to Diagnose Problems with the SMTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

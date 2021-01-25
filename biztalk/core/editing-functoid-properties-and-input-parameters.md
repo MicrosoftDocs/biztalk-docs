@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Editing Functoid Properties and Input Parameters"
 title: "Editing Functoid Properties and Input Parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating and Configuring Send Port Groups"
 title: "Creating and Configuring Send Port Groups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

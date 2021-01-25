@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a Send Port Group"
 title: "How to Create a Send Port Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

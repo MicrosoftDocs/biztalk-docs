@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Single Sign-On Application"
 title: "Creating a Single Sign-On Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

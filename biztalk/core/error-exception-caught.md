@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Exception Caught"
 title: "Error - Exception Caught | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

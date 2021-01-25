@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Native Pipeline Components"
 title: "How to Configure Native Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure the XML Disassembler Pipeline Component in BizTalk Server"
 title: "Configure the XML Disassembler Pipeline Component | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/13/2020"

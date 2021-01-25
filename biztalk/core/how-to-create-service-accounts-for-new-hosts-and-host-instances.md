@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create Service Accounts for New Hosts and Host Instances"
 title: "How to Create Service Accounts for New Hosts and Host Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

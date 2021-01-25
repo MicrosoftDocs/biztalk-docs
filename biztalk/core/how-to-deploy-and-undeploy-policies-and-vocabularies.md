@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Deploy and Undeploy Policies and Vocabularies"
 title: "How to Deploy and Undeploy Policies and Vocabularies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid delimiter set because at least one of the delimiters is outside the allowed range"
 title: "Invalid delimiter set because at least one of the delimiters is outside the allowed range | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Consume Web Services in a Messaging Only Scenario"
 title: "How to Consume Web Services in a Messaging Only Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

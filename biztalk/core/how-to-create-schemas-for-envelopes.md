@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create Schemas for Envelopes"
 title: "How to Create Schemas for Envelopes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Consuming Web Services with SOAP Headers"
 title: "Consuming Web Services with SOAP Headers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Duplicate Property Field Promotion"
 title: "Error - Duplicate Property Field Promotion | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
