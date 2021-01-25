@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-NetMsmq Transport Properties Dialog Box, Receive, Security Tab"
 title: WCF-NetMsmq Transport Properties Dialog Box, Receive, Security Tab
 TOCTitle: WCF-NetMsmq Transport Properties Dialog Box, Receive, Security Tab
 ms:assetid: d1a533c0-5345-4949-aa14-5e20013df65b

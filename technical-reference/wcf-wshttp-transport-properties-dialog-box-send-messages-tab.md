@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-WSHttp Transport Properties Dialog Box, Send, Messages Tab"
 title: WCF-WSHttp Transport Properties Dialog Box, Send, Messages Tab
 TOCTitle: WCF-WSHttp Transport Properties Dialog Box, Send, Messages Tab
 ms:assetid: d19d620c-a5f0-4ca5-bf4e-a074dd206916

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Transaction Set Details Page UI"
 title: Transaction Set Details Page UI
 TOCTitle: Transaction Set Details Page UI
 ms:assetid: 1123586a-ecd8-439c-96f0-43c8965b9340

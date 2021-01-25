@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: XML Assembler Pipeline Component Properties"
 title: XML Assembler Pipeline Component Properties
 TOCTitle: XML Assembler Pipeline Component Properties
 ms:assetid: a5095838-bb3c-4da9-9f83-ff2f4f9e0465

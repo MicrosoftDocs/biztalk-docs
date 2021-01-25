@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Start Application Dialog Box"
 title: Start Application Dialog Box
 TOCTitle: Start Application Dialog Box
 ms:assetid: 4276b81e-5d2e-4e59-a5a9-1401f61d9ce3

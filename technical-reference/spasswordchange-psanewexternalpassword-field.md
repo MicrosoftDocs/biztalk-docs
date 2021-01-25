@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SPasswordChange.psaNewExternalPassword Field"
 title: SPasswordChange.psaNewExternalPassword Field
 TOCTitle: SPasswordChange.psaNewExternalPassword Field
 ms:assetid: 180c485a-5d41-4e7c-a032-cd9f5bc89672

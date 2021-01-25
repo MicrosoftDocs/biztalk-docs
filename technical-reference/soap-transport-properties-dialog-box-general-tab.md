@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SOAP Transport Properties Dialog Box, General Tab"
 title: SOAP Transport Properties Dialog Box, General Tab
 TOCTitle: SOAP Transport Properties Dialog Box, General Tab
 ms:assetid: 28abbac8-d51d-4094-a5fb-b62df2d350b8

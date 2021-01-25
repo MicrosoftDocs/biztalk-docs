@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Table Looping Grid (Functoid Property)"
 title: Table Looping Grid (Functoid Property)
 TOCTitle: Table Looping Grid (Functoid Property)
 ms:assetid: 2e5244a1-2a12-40ed-ad67-b8e7baa3f048

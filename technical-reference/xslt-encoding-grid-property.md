@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: XSLT Encoding (Grid Property)"
 title: XSLT Encoding (Grid Property)
 TOCTitle: XSLT Encoding (Grid Property)
 ms:assetid: 9e206d6d-55f4-41bf-a46a-29e33fe324fd

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SSO System Properties: Options"
 title: 'SSO System Properties: Options'
 TOCTitle: 'SSO System Properties: Options'
 ms:assetid: d8df3e47-49e4-4acc-9b8e-7b4a2e5de21b

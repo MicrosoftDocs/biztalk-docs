@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WMI Class Reference"
 title: WMI Class Reference
 TOCTitle: WMI Class Reference
 ms:assetid: 0a238032-71e6-4cdb-a94b-a55d871556f9

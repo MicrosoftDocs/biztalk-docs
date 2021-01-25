@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Transform Shape"
 title: Transform Shape
 TOCTitle: Transform Shape
 ms:assetid: 0bf78389-597f-437c-a893-88ec99147f55

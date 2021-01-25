@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: System Main Menu"
 title: System Main Menu
 TOCTitle: System Main Menu
 ms:assetid: 0297faca-c268-4ae7-a9e4-aabcd5a6b390

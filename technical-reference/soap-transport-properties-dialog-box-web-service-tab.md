@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SOAP Transport Properties Dialog Box, Web service Tab"
 title: SOAP Transport Properties Dialog Box, Web service Tab
 TOCTitle: SOAP Transport Properties Dialog Box, Web service Tab
 ms:assetid: ea43d93b-5f97-479c-a9af-193f3218adb0

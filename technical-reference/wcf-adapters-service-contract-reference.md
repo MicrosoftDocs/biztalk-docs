@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF Adapters Service Contract Reference"
 title: WCF Adapters Service Contract Reference
 TOCTitle: WCF Adapters Service Contract Reference
 ms:assetid: 079068f6-0448-4315-8f35-0ae1ae15a3eb

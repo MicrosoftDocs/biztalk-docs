@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-WSHttp Transport Properties Dialog Box, Receive, Security Tab"
 title: WCF-WSHttp Transport Properties Dialog Box, Receive, Security Tab
 TOCTitle: WCF-WSHttp Transport Properties Dialog Box, Receive, Security Tab
 ms:assetid: 9358f419-92c4-43f8-9eb4-97b6c69bd1c3

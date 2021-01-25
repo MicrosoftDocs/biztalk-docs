@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SStatus Structure (COM)"
 title: SStatus Structure (COM)
 TOCTitle: SStatus Structure (COM)
 ms:assetid: af4f8b8a-f781-4e2a-9503-a0780daad873

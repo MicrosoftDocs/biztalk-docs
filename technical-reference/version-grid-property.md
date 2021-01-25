@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Version (Grid Property)"
 title: Version (Grid Property)
 TOCTitle: Version (Grid Property)
 ms:assetid: c19cde4b-1483-4acd-9079-6417bdd48e18

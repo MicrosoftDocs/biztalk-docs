@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: String Right Functoid"
 title: String Right Functoid
 TOCTitle: String Right Functoid
 ms:assetid: 0952e7c2-afba-40dd-8ae3-5e40c0309bb0

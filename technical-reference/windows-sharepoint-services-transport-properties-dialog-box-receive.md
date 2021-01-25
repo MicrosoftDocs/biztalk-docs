@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows SharePoint Services Transport Properties Dialog Box, Receive"
 title: Windows SharePoint Services Transport Properties Dialog Box, Receive
 TOCTitle: Windows SharePoint Services Transport Properties Dialog Box, Receive
 ms:assetid: dc147c06-30fd-4346-a467-36635fbf70af

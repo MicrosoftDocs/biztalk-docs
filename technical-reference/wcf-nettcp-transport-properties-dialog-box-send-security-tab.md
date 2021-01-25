@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-NetTcp Transport Properties Dialog Box, Send, Security Tab"
 title: WCF-NetTcp Transport Properties Dialog Box, Send, Security Tab
 TOCTitle: WCF-NetTcp Transport Properties Dialog Box, Send, Security Tab
 ms:assetid: 810353fe-051b-4c2d-a31c-19e8ce7a7289

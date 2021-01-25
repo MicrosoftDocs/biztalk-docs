@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab"
 title: WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab
 TOCTitle: WCF-WSHttp Transport Properties Dialog Box, Send, Security Tab
 ms:assetid: 8ba2f499-8d83-4644-a084-bc4f43efe6d3

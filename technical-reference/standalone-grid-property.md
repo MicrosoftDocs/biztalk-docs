@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Standalone (Grid Property)"
 title: Standalone (Grid Property)
 TOCTitle: Standalone (Grid Property)
 ms:assetid: 9d3dc39f-2eb2-4712-bd51-d3d516f140d1

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Validate Instance Input Type (Schema File Property)"
 title: Validate Instance Input Type (Schema File Property)
 TOCTitle: Validate Instance Input Type (Schema File Property)
 ms:assetid: 1a348627-986c-4bfc-9bde-6754084d804d

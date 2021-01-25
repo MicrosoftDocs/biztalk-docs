@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-Custom Transport Properties Dialog Box, Receive, Binding Tab"
 title: WCF-Custom Transport Properties Dialog Box, Receive, Binding Tab
 TOCTitle: WCF-Custom Transport Properties Dialog Box, Receive, Binding Tab
 ms:assetid: 68c748ba-3bc5-4582-8284-1cb941ef0940

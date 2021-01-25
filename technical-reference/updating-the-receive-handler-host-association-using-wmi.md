@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Updating the Receive Handler Host Association Using WMI"
 title: Updating the Receive Handler Host Association Using WMI
 TOCTitle: Updating the Receive Handler Host Association Using WMI
 ms:assetid: 4de658e6-bbb4-4488-b80b-6ebdc0f72a21

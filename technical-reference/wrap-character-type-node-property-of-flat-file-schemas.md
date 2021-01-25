@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Wrap Character Type (Node Property of Flat File Schemas)"
 title: Wrap Character Type (Node Property of Flat File Schemas)
 TOCTitle: Wrap Character Type (Node Property of Flat File Schemas)
 ms:assetid: 650d45fd-3afd-44f0-a828-d212168b6d4b

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SSO System Properties: General"
 title: 'SSO System Properties: General'
 TOCTitle: 'SSO System Properties: General'
 ms:assetid: 5f61cfef-5afa-4a1a-b2ab-959c02d028f2

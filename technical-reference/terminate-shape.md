@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Terminate Shape"
 title: Terminate Shape
 TOCTitle: Terminate Shape
 ms:assetid: 5d3be1ec-47cb-46bc-9748-47dcd92d396c

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF Adapters Transport Properties Dialog Box, Send, Client Credentials"
 title: WCF Adapters Transport Properties Dialog Box, Send, Client Credentials
 TOCTitle: WCF Adapters Transport Properties Dialog Box, Send, Client Credentials
 ms:assetid: 37d87be9-3664-4bab-a781-21dd8ad13337

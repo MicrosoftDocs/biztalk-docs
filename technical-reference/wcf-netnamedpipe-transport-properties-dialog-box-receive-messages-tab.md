@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Messages Tab"
 title: WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Messages Tab
 TOCTitle: WCF-NetNamedPipe Transport Properties Dialog Box, Receive, Messages Tab
 ms:assetid: e64963d6-3205-4597-816e-9ec5af9df0ce

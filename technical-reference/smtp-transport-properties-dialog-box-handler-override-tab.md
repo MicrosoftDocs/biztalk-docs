@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SMTP Transport Properties Dialog Box, Handler Override Tab"
 title: SMTP Transport Properties Dialog Box, Handler Override Tab
 TOCTitle: SMTP Transport Properties Dialog Box, Handler Override Tab
 ms:assetid: bfacf52d-37af-418c-8deb-e43ccb5de825

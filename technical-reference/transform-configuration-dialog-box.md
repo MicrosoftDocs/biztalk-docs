@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Transform Configuration Dialog Box"
 title: Transform Configuration Dialog Box
 TOCTitle: Transform Configuration Dialog Box
 ms:assetid: 7956489d-94ac-4e7d-b3a2-4a2fc059fd3c

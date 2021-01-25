@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Technical Reference5"
 title: Technical Reference5
 TOCTitle: UI guidance and Developers reference
 ms:assetid: b8539fc6-35fb-4c9c-bdc6-c7aefb5efe0a

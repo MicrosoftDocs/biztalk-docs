@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SStatus Members"
 title: SStatus Members
 TOCTitle: SStatus Members
 ms:assetid: d4dd41ad-b083-4f6d-b3e8-a5d1c635ee55

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Use Requirement (Node Property of All Schemas)"
 title: Use Requirement (Node Property of All Schemas)
 TOCTitle: Use Requirement (Node Property of All Schemas)
 ms:assetid: 4719dab3-a493-4bef-a0e3-1f78de51de95

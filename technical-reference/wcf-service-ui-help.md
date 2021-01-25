@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF Service UI Help"
 title: WCF Service UI Help
 TOCTitle: WCF Service UI Help
 ms:assetid: b69f9d1c-75b2-479d-87bd-c13fc1ad6cbe

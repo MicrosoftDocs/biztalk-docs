@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF Adapters Transport Properties Dialog Box, General Tab, Identity Editor"
 title: WCF Adapters Transport Properties Dialog Box, General Tab, Identity Editor
 TOCTitle: WCF Adapters Transport Properties Dialog Box, General Tab, Identity Editor
 ms:assetid: 47a04277-71a9-4bc3-b2bb-67aa61007656

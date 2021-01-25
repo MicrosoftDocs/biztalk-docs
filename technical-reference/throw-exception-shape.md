@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Throw Exception Shape"
 title: Throw Exception Shape
 TOCTitle: Throw Exception Shape
 ms:assetid: b51b38c6-162e-4e38-9fc6-73ba639814ca

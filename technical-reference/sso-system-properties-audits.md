@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SSO System Properties: Audits"
 title: 'SSO System Properties: Audits'
 TOCTitle: 'SSO System Properties: Audits'
 ms:assetid: 2b8e04e3-72f1-4255-a46a-5dab4f904330

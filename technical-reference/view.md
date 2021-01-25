@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: View"
 title: View
 TOCTitle: View
 ms:assetid: 7c789f7f-f385-4c9a-9286-beb2c9d6aac4

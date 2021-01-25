@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Subscription Details Properties Dialog Box"
 title: Subscription Details Properties Dialog Box
 TOCTitle: Subscription Details Properties Dialog Box
 ms:assetid: 22ed4779-bb6c-473e-805c-18e82361bb98

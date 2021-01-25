@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SStatus Fields"
 title: SStatus Fields
 TOCTitle: SStatus Fields
 ms:assetid: 700e9052-7307-48da-8579-6a38c0d1af6e

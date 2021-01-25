@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: XML Definition Page"
 title: XML Definition Page
 TOCTitle: XML Definition Page
 ms:assetid: 36e41aca-e4e1-4d8c-bf35-13498f098023

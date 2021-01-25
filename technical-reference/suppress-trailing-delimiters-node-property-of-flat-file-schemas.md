@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Suppress Trailing Delimiters (Node Property of Flat File Schemas)"
 title: Suppress Trailing Delimiters (Node Property of Flat File Schemas)
 TOCTitle: Suppress Trailing Delimiters (Node Property of Flat File Schemas)
 ms:assetid: ec30cc12-a074-4077-9665-17825d7af738

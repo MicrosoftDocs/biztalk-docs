@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Stop Application Dialog Box"
 title: Stop Application Dialog Box
 TOCTitle: Stop Application Dialog Box
 ms:assetid: 2941db8a-24c6-4ebf-bf45-03827e9d9491
