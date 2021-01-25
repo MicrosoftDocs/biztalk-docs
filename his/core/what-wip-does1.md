@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What WIP Does"
 title: "What WIP Does1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

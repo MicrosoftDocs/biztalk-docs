@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, Properties Tab (SMTP Adapter)"
 title: <Host Name> Properties Dialog Box, Properties Tab (SMTP Adapter)
 TOCTitle: <Host Name> Properties Dialog Box, Properties Tab (SMTP Adapter)
 ms:assetid: a4e09d76-8304-4eb1-b23e-0dd2fe7b9388

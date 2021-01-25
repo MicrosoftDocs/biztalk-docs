@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Call Orchestration Shape"
 title: Call Orchestration Shape
 TOCTitle: Call Orchestration Shape
 ms:assetid: e12af37d-302a-4da5-a2c2-741fc1a4bdf5

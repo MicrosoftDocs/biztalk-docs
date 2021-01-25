@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction Size vs. Transaction Throughput"
 title: "Transaction Size vs. Transaction Throughput2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

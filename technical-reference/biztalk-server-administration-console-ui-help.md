@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Server Administration Console UI Help"
 title: BizTalk Server Administration Console UI Help
 TOCTitle: BizTalk Server Administration Console UI Help
 ms:assetid: 23f58f81-e0e8-4b38-8f29-e17533fed2fc

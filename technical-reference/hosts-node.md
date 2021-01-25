@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Hosts Node"
 title: Hosts Node
 TOCTitle: Hosts Node
 ms:assetid: 6a945c56-a0a8-4883-88c5-43c748917f06

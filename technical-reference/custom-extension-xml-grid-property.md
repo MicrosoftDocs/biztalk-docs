@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Custom Extension XML (Grid Property)"
 title: Custom Extension XML (Grid Property)
 TOCTitle: Custom Extension XML (Grid Property)
 ms:assetid: 0e00f1d4-f77c-4ce5-923c-ef9ca70802c2

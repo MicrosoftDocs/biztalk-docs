@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <All Artifacts> Node"
 title: <All Artifacts> Node
 TOCTitle: <All Artifacts> Node
 ms:assetid: 4a81a0b7-a73e-45c7-b393-402cb322f86b

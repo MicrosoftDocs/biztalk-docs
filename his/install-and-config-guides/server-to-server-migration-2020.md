@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server to Server migration"
 title: "Host Integration Server server-to-server Migration | Microsoft Docs"
 ms.custom: ""
 ms.date: "5/13/2020"

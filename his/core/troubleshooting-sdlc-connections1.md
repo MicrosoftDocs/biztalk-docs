@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting SDLC Connections"
 title: "Troubleshooting SDLC Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

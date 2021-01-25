@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Attribute FormDefault (Node Property of All Schemas)"
 title: Attribute FormDefault (Node Property of All Schemas)
 TOCTitle: Attribute FormDefault (Node Property of All Schemas)
 ms:assetid: 46cfd564-b2d0-4d9a-ba11-0ccef79cf81f

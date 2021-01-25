@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Batch Status Page UI"
 title: Batch Status Page UI
 TOCTitle: Batch Status Page UI
 ms:assetid: d0019eb4-15c5-439b-bb7a-4a1ef3a42428

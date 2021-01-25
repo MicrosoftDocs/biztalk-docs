@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction Integrator Performance Guide"
 title: "Transaction Integrator Performance Guide1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Business Rules Engine Page"
 title: Configuration Wizard, Business Rules Engine Page
 TOCTitle: Configuration Wizard, Business Rules Engine Page
 ms:assetid: 3abd5663-47cd-448c-b478-9ce45c36cbe2

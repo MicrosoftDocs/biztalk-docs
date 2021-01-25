@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Runtime Page"
 title: Configuration Wizard, Runtime Page
 TOCTitle: Configuration Wizard, Runtime Page
 ms:assetid: a72538d7-aa60-4374-86e5-951a052d0e00

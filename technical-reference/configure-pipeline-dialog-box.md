@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configure Pipeline Dialog Box"
 title: Configure Pipeline Dialog Box
 TOCTitle: Configure Pipeline Dialog Box
 ms:assetid: 1eff5976-417a-4ed2-8688-ad12d6f51eaf

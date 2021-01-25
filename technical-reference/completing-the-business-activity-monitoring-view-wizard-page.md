@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Completing the Business Activity Monitoring View Wizard Page"
 title: Completing the Business Activity Monitoring View Wizard Page
 TOCTitle: Completing the Business Activity Monitoring View Wizard Page
 ms:assetid: 3cf3cb07-1ee8-4048-9c3b-676c865192ed

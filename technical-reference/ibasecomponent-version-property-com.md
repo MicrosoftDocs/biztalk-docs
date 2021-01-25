@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseComponent.Version Property (COM)"
 title: IBaseComponent.Version Property (COM)
 TOCTitle: IBaseComponent.Version Property (COM)
 ms:assetid: 41d78d01-4fe8-4e76-8262-2c17330fd710

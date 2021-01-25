@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to List Affiliate Applications"
 title: "How to List Affiliate Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

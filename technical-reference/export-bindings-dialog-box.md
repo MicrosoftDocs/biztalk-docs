@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Export Bindings Dialog Box"
 title: Export Bindings Dialog Box
 TOCTitle: Export Bindings Dialog Box
 ms:assetid: 0d234df8-b377-434d-88a3-d2819c435976

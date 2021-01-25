@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Field Element Node Properties"
 title: Field Element Node Properties
 TOCTitle: Field Element Node Properties
 ms:assetid: b844d4ca-99f5-4a37-a9c4-b50b6b3c397f

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageContext.Write Method (COM)"
 title: IBaseMessageContext.Write Method (COM)
 TOCTitle: IBaseMessageContext.Write Method (COM)
 ms:assetid: dc0e9c2f-43e8-470e-a285-86c4e7000f9e

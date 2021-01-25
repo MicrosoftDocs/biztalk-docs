@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Equal Functoid"
 title: Equal Functoid
 TOCTitle: Equal Functoid
 ms:assetid: 1ab9776a-068c-4b5c-8d94-82aeddf3d145

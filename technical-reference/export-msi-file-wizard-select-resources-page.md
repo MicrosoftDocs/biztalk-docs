@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Export MSI File Wizard, Select Resources Page"
 title: Export MSI File Wizard, Select Resources Page
 TOCTitle: Export MSI File Wizard, Select Resources Page
 ms:assetid: 38742c36-4dac-4576-8107-9b1cc2843552

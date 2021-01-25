@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOAdmin.GetApplicationInfo Method"
 title: "ISSOAdmin.GetApplicationInfo Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

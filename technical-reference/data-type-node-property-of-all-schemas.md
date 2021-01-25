@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Data Type (Node Property of All Schemas)"
 title: Data Type (Node Property of All Schemas)
 TOCTitle: Data Type (Node Property of All Schemas)
 ms:assetid: 46ead128-6cd1-4021-adfe-0a7f3a8f7e51

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XID Retries"
 title: "XID Retries2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with Dependent APPC LUs"
 title: "Working with Dependent APPC LUs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

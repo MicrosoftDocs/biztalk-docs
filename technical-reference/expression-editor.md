@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Expression Editor"
 title: Expression Editor
 TOCTitle: Expression Editor
 ms:assetid: a2a7cc57-8021-42d4-b0ee-d2300e94e058

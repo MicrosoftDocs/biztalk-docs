@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Token Ring Link Statistics"
 title: "Token Ring Link Statistics2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Code Page Conversions"
 title: "Code Page Conversions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

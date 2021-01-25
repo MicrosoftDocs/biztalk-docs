@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure Network Integration"
 title: "Configure Network Integration | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

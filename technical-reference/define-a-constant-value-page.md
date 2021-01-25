@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Define a Constant Value Page"
 title: Define a Constant Value Page
 TOCTitle: Define a Constant Value Page
 ms:assetid: 771fd01a-0a6e-4085-9be8-837e45ac2e8c

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Fully Qualified Name (Map Item Property)"
 title: Fully Qualified Name (Map Item Property)
 TOCTitle: Fully Qualified Name (Map Item Property)
 ms:assetid: e1505231-f88a-4ff3-beba-2025964380d0

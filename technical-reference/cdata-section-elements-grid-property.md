@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: CDATA Section Elements (Grid Property)"
 title: CDATA Section Elements (Grid Property)
 TOCTitle: CDATA Section Elements (Grid Property)
 ms:assetid: fa4bf34f-8a0c-4569-a3d0-d632ff939a8c

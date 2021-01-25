@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: True User Response Time"
 title: "True User Response Time2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk WCF Service Consuming Wizard"
 title: BizTalk WCF Service Consuming Wizard
 TOCTitle: BizTalk WCF Service Consuming Wizard
 ms:assetid: 6f4fc7b6-5a85-4c90-ae89-2933c90f7325

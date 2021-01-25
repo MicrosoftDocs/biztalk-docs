@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configure Application Dialog Box"
 title: Configure Application Dialog Box
 TOCTitle: Configure Application Dialog Box
 ms:assetid: c4ec8bdf-fad6-4f55-bc2a-63418b322bd6

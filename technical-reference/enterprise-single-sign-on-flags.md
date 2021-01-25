@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Enterprise Single Sign-On Flags"
 title: Enterprise Single Sign-On Flags
 TOCTitle: Enterprise Single Sign-On Flags
 ms:assetid: 3fd3c97b-c3cf-43f8-b4af-2598b8241cde

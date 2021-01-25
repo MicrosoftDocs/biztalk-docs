@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use the Servers Snap-In"
 title: "How to Use the Servers Snap-In | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

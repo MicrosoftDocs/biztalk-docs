@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Common Logarithm Functoid"
 title: Common Logarithm Functoid
 TOCTitle: Common Logarithm Functoid
 ms:assetid: ef606a06-b666-4901-acd8-77fa99a4991a

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOLookup1.GetCredentials Method"
 title: "ISSOLookup1.GetCredentials Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Envelope (Node Property of All Schemas)"
 title: Envelope (Node Property of All Schemas)
 TOCTitle: Envelope (Node Property of All Schemas)
 ms:assetid: b6333ccc-f8df-4078-90fe-c9b5be25f16c

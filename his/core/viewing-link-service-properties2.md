@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Viewing Link Service Properties"
 title: "Viewing Link Service Properties2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

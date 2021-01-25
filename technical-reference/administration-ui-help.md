@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Administration UI Help"
 title: Administration UI Help
 TOCTitle: Administration UI Help
 ms:assetid: 19de7d08-b7b1-4a25-a1ca-fbbea86cc708

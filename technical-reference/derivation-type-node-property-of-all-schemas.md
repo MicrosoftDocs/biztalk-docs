@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Derivation Type (Node Property of All Schemas)"
 title: Derivation Type (Node Property of All Schemas)
 TOCTitle: Derivation Type (Node Property of All Schemas)
 ms:assetid: 3d6ac9be-781d-45cf-928c-916628f105bf

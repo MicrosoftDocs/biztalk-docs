@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOConfigSS.BackupSecret Method"
 title: "ISSOConfigSS.BackupSecret Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Flat File Assembler Pipeline Component Properties"
 title: Flat File Assembler Pipeline Component Properties
 TOCTitle: Flat File Assembler Pipeline Component Properties
 ms:assetid: ea54099a-c907-4f51-b020-747534a4b907

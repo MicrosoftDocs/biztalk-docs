@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Group Order Type (Node Property of All Schemas)"
 title: Group Order Type (Node Property of All Schemas)
 TOCTitle: Group Order Type (Node Property of All Schemas)
 ms:assetid: 9f495e5b-6552-48e3-8995-984d9757308d

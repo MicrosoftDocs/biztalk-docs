@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Delete User Mappings"
 title: "How to Delete User Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

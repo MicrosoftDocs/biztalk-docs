@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOConfigStore Methods"
 title: "ISSOConfigStore Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

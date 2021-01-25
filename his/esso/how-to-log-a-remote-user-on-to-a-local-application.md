@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Log a Remote User on to a Local Application"
 title: "Log a Remote User on to a Local Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

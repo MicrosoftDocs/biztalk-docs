@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseComponent Members (COM)"
 title: IBaseComponent Members (COM)
 TOCTitle: IBaseComponent Members (COM)
 ms:assetid: cd2f90aa-efcd-4f84-afd5-3c67dadfdcfe

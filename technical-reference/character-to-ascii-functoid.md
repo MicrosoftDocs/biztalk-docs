@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Character to ASCII Functoid"
 title: Character to ASCII Functoid
 TOCTitle: Character to ASCII Functoid
 ms:assetid: f22849d2-0f3e-46f5-8529-964d9bcd3f70

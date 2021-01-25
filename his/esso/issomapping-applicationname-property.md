@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOMapping.ApplicationName Property"
 title: "ISSOMapping.ApplicationName Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

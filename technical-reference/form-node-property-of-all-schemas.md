@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Form (Node Property of All Schemas)"
 title: Form (Node Property of All Schemas)
 TOCTitle: Form (Node Property of All Schemas)
 ms:assetid: f111b9cd-8343-457f-9c90-1dc96b2463eb

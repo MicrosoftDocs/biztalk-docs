@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Catch Exception Block"
 title: Catch Exception Block
 TOCTitle: Catch Exception Block
 ms:assetid: c3545960-9ea0-409e-8a36-c5c6c49dd435

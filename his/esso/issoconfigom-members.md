@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOConfigOM Members"
 title: "ISSOConfigOM Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

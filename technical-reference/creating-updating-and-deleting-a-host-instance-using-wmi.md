@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Creating, Updating, and Deleting a Host Instance Using WMI"
 title: Creating, Updating, and Deleting a Host Instance Using WMI
 TOCTitle: Creating, Updating, and Deleting a Host Instance Using WMI
 ms:assetid: 620433d5-936f-476a-9480-55568c20e23f

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Date Functoid"
 title: Date Functoid
 TOCTitle: Date Functoid
 ms:assetid: 1ff2a39c-741b-42e4-bdc7-85fb9378f7c7

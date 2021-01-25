@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Customer Feedback Options Page"
 title: Configuration Wizard, Customer Feedback Options Page
 TOCTitle: Configuration Wizard, Customer Feedback Options Page
 ms:assetid: 28671ef4-cc7c-4d7d-82b1-c21b9b4a2ade

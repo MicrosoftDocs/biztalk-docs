@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalkServiceInstance Class"
 title: BizTalkServiceInstance Class
 TOCTitle: BizTalkServiceInstance Class
 ms:assetid: 5771903f-6eda-4ebf-b68b-5c81800ec9e5

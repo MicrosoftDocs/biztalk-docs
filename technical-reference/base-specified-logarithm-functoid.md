@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Base-Specified Logarithm Functoid"
 title: Base-Specified Logarithm Functoid
 TOCTitle: Base-Specified Logarithm Functoid
 ms:assetid: a1b67a1f-939a-441c-97c4-7db0bc582296

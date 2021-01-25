@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TS Profile 4"
 title: "TS Profile 42 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

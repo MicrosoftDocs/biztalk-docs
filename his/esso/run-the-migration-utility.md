@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run the Migration Utility"
 title: "Run the Migration Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

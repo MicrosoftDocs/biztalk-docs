@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Application Name> Node"
 title: <Application Name> Node
 TOCTitle: <Application Name> Node
 ms:assetid: b5af7d8a-2bb7-40bb-9c72-e51ea70e2d7b

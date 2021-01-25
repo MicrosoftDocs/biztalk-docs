@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enterprise Single Sign-On Basics"
 title: "Enterprise Single Sign-On Basics | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

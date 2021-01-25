@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Constant Value, Range of Values, or Set of Values Page"
 title: Constant Value, Range of Values, or Set of Values Page
 TOCTitle: Constant Value, Range of Values, or Set of Values Page
 ms:assetid: 34b42a87-4f23-4197-8592-73b70612209a

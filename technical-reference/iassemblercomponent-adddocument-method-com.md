@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IAssemblerComponent.AddDocument Method (COM)"
 title: IAssemblerComponent.AddDocument Method (COM)
 TOCTitle: IAssemblerComponent.AddDocument Method (COM)
 ms:assetid: f97bcd79-a576-44be-ac05-c088fa3936c7

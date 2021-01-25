@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WIP Programming Model"
 title: "WIP Programming Model2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

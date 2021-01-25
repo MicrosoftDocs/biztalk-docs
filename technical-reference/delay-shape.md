@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Delay Shape"
 title: Delay Shape
 TOCTitle: Delay Shape
 ms:assetid: b29c5dbf-2f8b-4e26-bc1a-4f93a139846d

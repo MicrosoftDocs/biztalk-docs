@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOConfigDB.CreateDatabase Method"
 title: "ISSOConfigDB.CreateDatabase Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

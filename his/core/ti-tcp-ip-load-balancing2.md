@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TI TCP/IP Load Balancing"
 title: "TI TCP-IP Load Balancing2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

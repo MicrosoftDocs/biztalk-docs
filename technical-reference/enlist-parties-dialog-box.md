@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Enlist Parties Dialog Box"
 title: Enlist Parties Dialog Box
 TOCTitle: Enlist Parties Dialog Box
 ms:assetid: f5ed2cb4-9f22-4e21-aa32-a7a23a937a29

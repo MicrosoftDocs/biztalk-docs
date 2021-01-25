@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, Send Handler Tab (WCF-NetNamedPipe Adapter Send Handler)"
 title: <Host Name> Properties Dialog Box, Send Handler Tab (WCF-NetNamedPipe Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Send Handler Tab (WCF-NetNamedPipe Adapter Send Handler)
 ms:assetid: 0af57e28-4ec1-4ad8-9063-730132bda452

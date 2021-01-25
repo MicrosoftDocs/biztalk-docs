@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Framework Disassembler Pipeline Component Properties"
 title: BizTalk Framework Disassembler Pipeline Component Properties
 TOCTitle: BizTalk Framework Disassembler Pipeline Component Properties
 ms:assetid: c88cca43-21aa-41c1-87de-9b030510920c

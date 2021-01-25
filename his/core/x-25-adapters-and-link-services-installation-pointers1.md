@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: X.25 Adapters and Link Services: Installation Pointers"
 title: "X.25 Adapters and Link Services: Installation Pointers1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

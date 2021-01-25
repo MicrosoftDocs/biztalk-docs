@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adapter Programming Administration"
 title: "Adapter Programming Administration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

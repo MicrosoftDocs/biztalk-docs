@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Trace Viewer"
 title: "Trace Viewer shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

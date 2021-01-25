@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows PowerShell and WMI Provider for HIS"
 title: "Windows PowerShell and WMI Provider for HIS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

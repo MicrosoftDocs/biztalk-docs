@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Generate Instance Output Type (Schema File Property)"
 title: Generate Instance Output Type (Schema File Property)
 TOCTitle: Generate Instance Output Type (Schema File Property)
 ms:assetid: 8561460f-bb1d-4328-9f8f-11eaa567ae1b

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Add Resources Dialog Box"
 title: Add Resources Dialog Box
 TOCTitle: Add Resources Dialog Box
 ms:assetid: c3e28cea-aeb2-4d93-a45e-faaa5a6d6533

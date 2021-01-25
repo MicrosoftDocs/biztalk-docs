@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Base Type (Node Property of All Schemas)"
 title: Base Type (Node Property of All Schemas)
 TOCTitle: Base Type (Node Property of All Schemas)
 ms:assetid: 28ef508c-e486-4346-b5f0-f82cca6b5cd9

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Business Rule Composer UI Help"
 title: Business Rule Composer UI Help
 TOCTitle: Business Rule Composer UI Help
 ms:assetid: 9c28ac00-a369-4e62-87ce-a627e9817aa2

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with the Host File Adapter and Dataset"
 title: "Working with the Host File Adapter and Dataset2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

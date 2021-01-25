@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Summary Page"
 title: Configuration Wizard, Summary Page
 TOCTitle: Configuration Wizard, Summary Page
 ms:assetid: 2efadae1-0032-47f5-a615-54e21578bf54

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageContext.ReadAt Method (COM)"
 title: IBaseMessageContext.ReadAt Method (COM)
 TOCTitle: IBaseMessageContext.ReadAt Method (COM)
 ms:assetid: f4aaa5be-7d8e-4e84-8368-229b22410d45

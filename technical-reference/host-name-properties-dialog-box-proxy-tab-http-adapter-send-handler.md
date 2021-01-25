@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, Proxy Tab (HTTP Adapter Send Handler)"
 title: <Host Name> Properties Dialog Box, Proxy Tab (HTTP Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Proxy Tab (HTTP Adapter Send Handler)
 ms:assetid: 54aee60f-6cc6-4fd7-a6d5-59ac94a8fa83

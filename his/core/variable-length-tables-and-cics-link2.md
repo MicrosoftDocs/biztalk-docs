@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Variable-length Tables and CICS LINK"
 title: "Variable-length Tables and CICS LINK2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configure Correlation Properties Dialog Box"
 title: Configure Correlation Properties Dialog Box
 TOCTitle: Configure Correlation Properties Dialog Box
 ms:assetid: f306a6c8-9949-41d8-b218-db2ac95dbe4d

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Consolidated Service Accounts View Page"
 title: Configuration Wizard, Consolidated Service Accounts View Page
 TOCTitle: Configuration Wizard, Consolidated Service Accounts View Page
 ms:assetid: 6cf2915f-469e-4a60-bfb0-e59bdd8f60ba

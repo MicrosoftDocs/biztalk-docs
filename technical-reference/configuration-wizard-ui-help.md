@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard UI Help"
 title: Configuration Wizard UI Help
 TOCTitle: Configuration Wizard UI Help
 ms:assetid: 3c7fedb6-24bc-436c-9238-03b0b5693835

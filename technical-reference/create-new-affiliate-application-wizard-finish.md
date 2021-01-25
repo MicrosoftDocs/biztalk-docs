@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Affiliate Application Wizard: Finish"
 title: 'Create New Affiliate Application Wizard: Finish'
 TOCTitle: 'Create New Affiliate Application Wizard: Finish'
 ms:assetid: 5824e5c7-c1bb-46e5-b03d-28332bd29033

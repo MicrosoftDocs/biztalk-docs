@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Enterprise Single Sign-On"
 title: Enterprise Single Sign-On1
 TOCTitle: Enterprise Single Sign-On
 ms:assetid: d6fe7da0-ccb2-495a-93d6-63ddbf9a699b

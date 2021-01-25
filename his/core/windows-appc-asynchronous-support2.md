@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows APPC Asynchronous Support"
 title: "Windows APPC Asynchronous Support2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

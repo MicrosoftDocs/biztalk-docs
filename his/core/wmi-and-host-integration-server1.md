@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WMI and Host Integration Server"
 title: "WMI and Host Integration Server1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

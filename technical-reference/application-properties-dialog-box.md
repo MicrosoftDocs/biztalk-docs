@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Application Properties Dialog Box"
 title: Application Properties Dialog Box
 TOCTitle: Application Properties Dialog Box
 ms:assetid: 3b6b33e4-079c-4114-a152-cde2f9ae1cbc

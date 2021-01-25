@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOMapping.WindowsDomainName Property"
 title: "ISSOMapping.WindowsDomainName Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

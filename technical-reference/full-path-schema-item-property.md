@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Full Path (Schema Item Property)"
 title: Full Path (Schema Item Property)
 TOCTitle: Full Path (Schema Item Property)
 ms:assetid: 69d8be18-3ad6-4f54-a15a-eaeb1823adaa

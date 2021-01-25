@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TN5250 Properties"
 title: "TN5250 Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Issuing and Redeeming a Single Sign-On Ticket"
 title: "Issuing and Redeeming a Single Sign-On Ticket | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

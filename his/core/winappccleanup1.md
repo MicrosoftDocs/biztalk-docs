@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WinAPPCCleanup"
 title: "WinAPPCCleanup1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

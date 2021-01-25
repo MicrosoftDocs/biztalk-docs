@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Password Sync Adapter Wizard: Accounts"
 title: 'Create New Password Sync Adapter Wizard: Accounts'
 TOCTitle: 'Create New Password Sync Adapter Wizard: Accounts'
 ms:assetid: 2dec8b3a-1bbc-467d-b4f2-a4890d07f8ee

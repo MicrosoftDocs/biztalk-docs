@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Creating an FTP Receive Handler Using WMI"
 title: Creating an FTP Receive Handler Using WMI
 TOCTitle: Creating an FTP Receive Handler Using WMI
 ms:assetid: 54bbf495-866b-4d3f-a1b7-db256a9bcff7

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Flat File Schema Wizard, Select Record Format Page"
 title: BizTalk Flat File Schema Wizard, Select Record Format Page
 TOCTitle: BizTalk Flat File Schema Wizard, Select Record Format Page
 ms:assetid: 3d64a5a6-b99a-4095-b0a9-dbf7eef79074

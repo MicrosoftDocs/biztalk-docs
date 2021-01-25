@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Fact Retriever Dialog Box"
 title: Fact Retriever Dialog Box
 TOCTitle: Fact Retriever Dialog Box
 ms:assetid: 3efc715a-9a87-4bb7-9563-a4656d21eb24

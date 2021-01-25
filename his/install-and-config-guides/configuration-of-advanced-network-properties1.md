@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration of Advanced Network Properties"
 title: "Configure Advanced Network Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

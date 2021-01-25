@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Build Action (Schema Item Property)"
 title: Build Action (Schema Item Property)
 TOCTitle: Build Action (Schema Item Property)
 ms:assetid: d3e954e0-f261-4132-a1e5-e8a4ce4534ab

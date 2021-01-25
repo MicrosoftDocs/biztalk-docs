@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use the Mapping Wizard"
 title: "How to Use the Mapping Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

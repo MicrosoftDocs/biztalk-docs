@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Understanding Peer-to-Peer Networking"
 title: "Understanding Peer-to-Peer Networking2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

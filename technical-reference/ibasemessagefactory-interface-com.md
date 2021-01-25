@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageFactory Interface (COM)"
 title: IBaseMessageFactory Interface (COM)
 TOCTitle: IBaseMessageFactory Interface (COM)
 ms:assetid: 9f15aad7-4a1c-4788-8632-5effe938688f

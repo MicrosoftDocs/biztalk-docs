@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: AS2 Message and Correlated MDN Status Page UI"
 title: AS2 Message and Correlated MDN Status Page UI
 TOCTitle: AS2 Message and Correlated MDN Status Page UI
 ms:assetid: e61c36a2-d15e-4b81-9d8d-07614f5f1c9f

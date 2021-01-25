@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration of Transaction Integrator"
 title: "Configure Transaction Integrator | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

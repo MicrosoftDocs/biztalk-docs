@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: System Requirements"
 title: "Host Integration Server 2016 system requirements | Microsoft Docs"
 ms.custom: ""
 ms.date: 02/10/2020

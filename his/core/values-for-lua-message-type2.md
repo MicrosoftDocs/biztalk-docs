@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Values for lua_message_type"
 title: "Values for lua_message_type2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

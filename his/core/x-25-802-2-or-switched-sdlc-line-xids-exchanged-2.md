@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: X.25, 802.2, or Switched SDLC Line (XIDs Exchanged)"
 title: "X.25, 802.2, or Switched SDLC Line (XIDs Exchanged)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

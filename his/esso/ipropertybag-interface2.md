@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IPropertyBag Interface2"
 title: "IPropertyBag Interface2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

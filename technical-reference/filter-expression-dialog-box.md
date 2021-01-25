@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Filter Expression Dialog Box"
 title: Filter Expression Dialog Box
 TOCTitle: Filter Expression Dialog Box
 ms:assetid: c315c4bb-36d8-4fe2-bb55-e0b06363c0f4

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EDI and AS2 UI Help"
 title: EDI and AS2 UI Help
 TOCTitle: EDI and AS2 UI Help
 ms:assetid: c1b391e8-da12-4b47-8dde-e7bff3ecf815

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Framework Assembler Pipeline Component Properties"
 title: BizTalk Framework Assembler Pipeline Component Properties
 TOCTitle: BizTalk Framework Assembler Pipeline Component Properties
 ms:assetid: 00179f6d-75ba-4cac-9136-dd1c1b2c05bf

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Date and Time Functoids Reference"
 title: Date and Time Functoids Reference
 TOCTitle: Date and Time Functoids Reference
 ms:assetid: a33ec237-ff31-494b-acbf-26b3154e0a82

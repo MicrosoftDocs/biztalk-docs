@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Objects"
 title: "WIPObjects node | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

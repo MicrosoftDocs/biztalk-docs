@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: View Configuration of Databases"
 title: "View Databases Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

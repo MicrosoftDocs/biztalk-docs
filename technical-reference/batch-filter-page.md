@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Batch Filter Page"
 title: Batch Filter Page
 TOCTitle: Batch Filter Page
 ms:assetid: 6739943b-b5e1-412d-b8c3-a18e0f9fb586

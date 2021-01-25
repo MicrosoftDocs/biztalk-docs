@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Enterprise Single Sign-On in a Multicomputer Scenario"
 title: "How to Configure Enterprise Single Sign-On in a Multicomputer Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

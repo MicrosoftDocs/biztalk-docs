@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting Host Initiated SSO"
 title: "Troubleshooting Host Initiated SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

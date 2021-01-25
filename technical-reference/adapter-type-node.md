@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Adapter Type> Node"
 title: <Adapter Type> Node
 TOCTitle: <Adapter Type> Node
 ms:assetid: b7b70c85-49e3-4153-922e-ef4ac4b2c023

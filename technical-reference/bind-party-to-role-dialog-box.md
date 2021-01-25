@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Bind Party to Role Dialog Box"
 title: Bind Party to Role Dialog Box
 TOCTitle: Bind Party to Role Dialog Box
 ms:assetid: edeec610-77de-47b8-a5bf-25fe74d64714

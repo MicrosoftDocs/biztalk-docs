@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Default Value (Node Property of All Schemas)"
 title: Default Value (Node Property of All Schemas)
 TOCTitle: Default Value (Node Property of All Schemas)
 ms:assetid: 32fe94f4-7e71-456e-b55e-91a28e4a762c

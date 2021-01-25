@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Doctype Public (Grid Property)"
 title: Doctype Public (Grid Property)
 TOCTitle: Doctype Public (Grid Property)
 ms:assetid: 99fd3833-deef-4d7c-a1fd-8cf033426dd6

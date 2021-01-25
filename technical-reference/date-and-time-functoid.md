@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Date and Time Functoid"
 title: Date and Time Functoid
 TOCTitle: Date and Time Functoid
 ms:assetid: dc2597f1-3031-4934-b42e-eac70df80994

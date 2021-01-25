@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: View Configuration of Database Accounts"
 title: "View Configuration of Database Accounts | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

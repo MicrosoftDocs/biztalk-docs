@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOTicket.RedeemTicket Method"
 title: "ISSOTicket.RedeemTicket Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

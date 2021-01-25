@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration Wizard, Start Page"
 title: Configuration Wizard, Start Page
 TOCTitle: Configuration Wizard, Start Page
 ms:assetid: 60609799-07d5-4a05-9f09-2a7b7ac09cad

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Developers Reference"
 title: Developers Reference
 TOCTitle: Developers Reference
 ms:assetid: cd392f20-cbe1-4806-8739-1ed2c428b54e

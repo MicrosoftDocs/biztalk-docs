@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HIS 2020 - What's New, Release Notes, System Requirements, and Installation"
 title: "HIS 2020 - What's New, Release Notes, System Requirements, and Installation | Microsoft Docs"
 ms.custom: ""
 ms.date: "5/5/2020"

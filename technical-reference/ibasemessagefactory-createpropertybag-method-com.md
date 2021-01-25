@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageFactory.CreatePropertyBag Method (COM)"
 title: IBaseMessageFactory.CreatePropertyBag Method (COM)
 TOCTitle: IBaseMessageFactory.CreatePropertyBag Method (COM)
 ms:assetid: f8861750-ae0d-4076-9e24-92fd0ed8e732

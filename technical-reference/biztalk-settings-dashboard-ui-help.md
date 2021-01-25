@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Settings Dashboard UI Help"
 title: BizTalk Settings Dashboard UI Help
 TOCTitle: BizTalk Settings Dashboard UI Help
 ms:assetid: a02c65c7-11b2-42cd-95ab-c3deda052422

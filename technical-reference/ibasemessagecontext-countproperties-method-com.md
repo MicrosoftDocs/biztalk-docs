@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageContext.CountProperties Method (COM)"
 title: IBaseMessageContext.CountProperties Method (COM)
 TOCTitle: IBaseMessageContext.CountProperties Method (COM)
 ms:assetid: c6a0493b-a079-49a2-8f6b-c858ec3429f4

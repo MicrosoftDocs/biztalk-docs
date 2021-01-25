@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Equivalent Node Properties"
 title: Equivalent Node Properties
 TOCTitle: Equivalent Node Properties
 ms:assetid: b77dc843-fce6-4397-a133-eabd1b446256

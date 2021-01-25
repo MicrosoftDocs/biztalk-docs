@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageContext.IsPromoted Method (COM)"
 title: IBaseMessageContext.IsPromoted Method (COM)
 TOCTitle: IBaseMessageContext.IsPromoted Method (COM)
 ms:assetid: 48b76ff7-f945-4dfb-9e3d-58a1276e3d16

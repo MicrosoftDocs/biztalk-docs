@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Advanced Functoids Reference"
 title: Advanced Functoids Reference
 TOCTitle: Advanced Functoids Reference
 ms:assetid: 4b7a761f-510c-47ce-9506-4cb8e9ebba5c

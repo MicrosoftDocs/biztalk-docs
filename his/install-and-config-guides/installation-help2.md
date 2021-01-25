@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installation guidance"
 title: "Installation help | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Mappings Wizard: Accounts"
 title: 'Create New Mappings Wizard: Accounts'
 TOCTitle: 'Create New Mappings Wizard: Accounts'
 ms:assetid: c9f5c8cb-15fa-4908-9315-7e136556cbb2

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Document Version (Node Property of All Schemas)"
 title: Document Version (Node Property of All Schemas)
 TOCTitle: Document Version (Node Property of All Schemas)
 ms:assetid: ead7746a-5e7d-4cfd-b755-54327928d710

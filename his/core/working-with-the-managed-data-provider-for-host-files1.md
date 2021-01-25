@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with the Managed Data Provider For Host Files"
 title: "Working with the Managed Data Provider For Host Files1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows CPI-C Asynchronous Support"
 title: "Windows CPI-C Asynchronous Support1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

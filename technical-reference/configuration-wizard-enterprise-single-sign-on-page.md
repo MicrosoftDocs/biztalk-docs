@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Enterprise Single Sign-On Page"
 title: Configuration Wizard, Enterprise Single Sign-On Page
 TOCTitle: Configuration Wizard, Enterprise Single Sign-On Page
 ms:assetid: 15c013f1-a7ff-4c56-a6e6-babf3c3d38ae

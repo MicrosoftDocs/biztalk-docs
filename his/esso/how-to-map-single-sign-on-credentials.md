@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Map Single Sign-On Credentials"
 title: "How to Map Single Sign-On Credentials | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

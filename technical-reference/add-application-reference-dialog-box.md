@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Add Application Reference Dialog Box"
 title: Add Application Reference Dialog Box
 TOCTitle: Add Application Reference Dialog Box
 ms:assetid: c6a6990f-32e0-44b7-9ef4-76be3788e2f8

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Default Child Order (Node Property of Flat File Schemas)"
 title: Default Child Order (Node Property of Flat File Schemas)
 TOCTitle: Default Child Order (Node Property of Flat File Schemas)
 ms:assetid: 41c67f27-3511-4a63-ae68-7aa3589bea97

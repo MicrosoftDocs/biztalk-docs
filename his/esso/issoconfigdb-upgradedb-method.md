@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOConfigDB.UpgradeDB Method"
 title: "ISSOConfigDB.UpgradeDB Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

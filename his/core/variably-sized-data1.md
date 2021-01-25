@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Variably Sized Data"
 title: "Variably Sized Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

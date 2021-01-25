@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOAdmin2 Members"
 title: "ISSOAdmin2 Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Union Member Shortcut Menu"
 title: "Union Member Shortcut Menu2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

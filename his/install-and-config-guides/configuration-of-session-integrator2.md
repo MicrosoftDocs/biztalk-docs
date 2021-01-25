@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration of Session Integrator"
 title: "Configure Session Integrator | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Trace Items Tab"
 title: "Trace Items Tab1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

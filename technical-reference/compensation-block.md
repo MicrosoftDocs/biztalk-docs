@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Compensation Block"
 title: Compensation Block
 TOCTitle: Compensation Block
 ms:assetid: 8ab725f2-ff13-425c-a46a-28890bfbe18b

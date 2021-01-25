@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Provider Error Codes"
 title: "Data Provider Error Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

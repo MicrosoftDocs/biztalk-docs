@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Copy Processing Instructions (PIs) (Grid Property)"
 title: Copy Processing Instructions (PIs) (Grid Property)
 TOCTitle: Copy Processing Instructions (PIs) (Grid Property)
 ms:assetid: dadc1164-16c5-466c-9419-2395405d54aa

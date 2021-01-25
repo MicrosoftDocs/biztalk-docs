@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Error Return Functoid"
 title: Error Return Functoid
 TOCTitle: Error Return Functoid
 ms:assetid: 2bcd968b-fb40-419b-be16-09293f1f9f96

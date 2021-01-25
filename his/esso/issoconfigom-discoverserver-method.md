@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOConfigOM.DiscoverServer Method"
 title: "ISSOConfigOM.DiscoverServer Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

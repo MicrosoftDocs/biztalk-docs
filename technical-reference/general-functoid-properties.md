@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: General Functoid Properties"
 title: General Functoid Properties
 TOCTitle: General Functoid Properties
 ms:assetid: c0a7f15d-9573-4991-aa1f-a963b4730999

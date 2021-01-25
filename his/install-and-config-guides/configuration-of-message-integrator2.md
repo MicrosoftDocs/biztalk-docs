@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure Message Integrator"
 title: "Message Integrator Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

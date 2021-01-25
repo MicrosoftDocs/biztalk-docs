@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Child Order (Node Property of Flat File Schemas)"
 title: Child Order (Node Property of Flat File Schemas)
 TOCTitle: Child Order (Node Property of Flat File Schemas)
 ms:assetid: 6de9f681-9087-48fa-985c-e18449da0820

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Affiliate Applications Properties: General"
 title: 'Affiliate Applications Properties: General'
 TOCTitle: 'Affiliate Applications Properties: General'
 ms:assetid: d0026e4d-38a8-46dc-9788-40391be41c91

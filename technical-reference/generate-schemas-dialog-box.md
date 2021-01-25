@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Generate Schemas Dialog Box"
 title: Generate Schemas Dialog Box
 TOCTitle: Generate Schemas Dialog Box
 ms:assetid: 82747abd-2e73-40e3-9b49-9d8d09505ca1

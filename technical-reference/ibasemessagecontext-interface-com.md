@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageContext Interface (COM)"
 title: IBaseMessageContext Interface (COM)
 TOCTitle: IBaseMessageContext Interface (COM)
 ms:assetid: b67fc3aa-4326-4c45-af54-a8e24553fc66

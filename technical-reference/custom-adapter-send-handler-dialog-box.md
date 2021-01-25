@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Custom Adapter Send Handler Dialog Box"
 title: Custom Adapter Send Handler Dialog Box
 TOCTitle: Custom Adapter Send Handler Dialog Box
 ms:assetid: 7fb21c38-c873-4331-8a0e-9c458aff01bc

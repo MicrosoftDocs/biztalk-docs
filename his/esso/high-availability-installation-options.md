@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: High-Availability Installation Options"
 title: "High-Availability Installation Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

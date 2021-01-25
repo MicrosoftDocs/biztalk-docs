@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Custom Adapter Receive Location Dialog Box"
 title: Custom Adapter Receive Location Dialog Box
 TOCTitle: Custom Adapter Receive Location Dialog Box
 ms:assetid: 3d2b49fc-69ff-4ad0-a78d-eb605eda119e

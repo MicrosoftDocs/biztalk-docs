@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Actions Editor"
 title: Actions Editor
 TOCTitle: Actions Editor
 ms:assetid: 4f32d294-db77-443c-84fe-c54bc6c51f38

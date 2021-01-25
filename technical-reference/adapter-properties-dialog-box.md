@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Adapter Properties Dialog Box"
 title: Adapter Properties Dialog Box
 TOCTitle: Adapter Properties Dialog Box
 ms:assetid: 8ae16811-2905-4572-94fb-92a70278f6c1

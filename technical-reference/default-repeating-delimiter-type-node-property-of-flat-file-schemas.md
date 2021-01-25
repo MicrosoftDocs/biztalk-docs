@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Default Repeating Delimiter Type (Node Property of Flat File Schemas)"
 title: Default Repeating Delimiter Type (Node Property of Flat File Schemas)
 TOCTitle: Default Repeating Delimiter Type (Node Property of Flat File Schemas)
 ms:assetid: 187a13dc-e17b-4171-b2a4-8df13da5223e

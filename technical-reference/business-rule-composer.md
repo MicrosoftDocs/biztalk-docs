@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Business Rule Composer"
 title: Business Rule Composer
 TOCTitle: Business Rule Composer
 ms:assetid: 9f4f2d94-ad13-4ec7-a938-fd0ab4be4e0a

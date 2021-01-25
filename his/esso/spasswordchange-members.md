@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SPasswordChange Members"
 title: "SPasswordChange Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

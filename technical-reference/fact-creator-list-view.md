@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Fact Creator List View"
 title: Fact Creator List View
 TOCTitle: Fact Creator List View
 ms:assetid: 557499e7-6ccf-4e78-bf54-c90b9bd70a12

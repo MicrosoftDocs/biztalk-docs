@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Fully Qualified Name (Schema Item Property)"
 title: Fully Qualified Name (Schema Item Property)
 TOCTitle: Fully Qualified Name (Schema Item Property)
 ms:assetid: 193a0312-661d-4cef-bd23-4aab346542ef

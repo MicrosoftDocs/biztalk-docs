@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Standard Installation Options"
 title: "Standard Installation Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

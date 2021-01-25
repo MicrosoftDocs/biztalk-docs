@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SExternalAccount.bstrExternalAccount Field"
 title: "SExternalAccount.bstrExternalAccount Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows-Initiated Processing Console"
 title: "Windows-Initiated Processing Console1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

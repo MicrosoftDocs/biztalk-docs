@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: File Transport Properties Dialog Box, Receive, Authentication Tab"
 title: File Transport Properties Dialog Box, Receive, Authentication Tab
 TOCTitle: File Transport Properties Dialog Box, Receive, Authentication Tab
 ms:assetid: 0e8cb45b-43e7-4ff2-bbd0-c3328f79b629

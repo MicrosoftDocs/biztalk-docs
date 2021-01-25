@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Adapter UI Help"
 title: Adapter UI Help
 TOCTitle: Adapter UI Help
 ms:assetid: 272351df-6425-4bbe-b3e9-8a932fbee71d

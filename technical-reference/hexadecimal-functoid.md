@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Hexadecimal Functoid"
 title: Hexadecimal Functoid
 TOCTitle: Hexadecimal Functoid
 ms:assetid: bf53af11-b1a3-422f-8b91-9c9e2184824c

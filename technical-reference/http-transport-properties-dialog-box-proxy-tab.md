@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: HTTP Transport Properties Dialog Box, Proxy Tab"
 title: HTTP Transport Properties Dialog Box, Proxy Tab
 TOCTitle: HTTP Transport Properties Dialog Box, Proxy Tab
 ms:assetid: 9567b416-b440-46ff-bd9e-6960ea788b78

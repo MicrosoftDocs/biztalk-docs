@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: All Group Node Properties"
 title: All Group Node Properties
 TOCTitle: All Group Node Properties
 ms:assetid: b030e1b7-2bc5-4204-a541-0dd2cca0d202

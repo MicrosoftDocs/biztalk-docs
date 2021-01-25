@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IAssemblerComponent Members (COM)"
 title: IAssemblerComponent Members (COM)
 TOCTitle: IAssemblerComponent Members (COM)
 ms:assetid: 4e62c366-1590-44f0-9788-36e11237e098

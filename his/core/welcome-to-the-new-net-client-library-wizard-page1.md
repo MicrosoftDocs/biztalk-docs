@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Welcome to the New .NET Client Library Wizard Page"
 title: "Welcome to the New .NET Client Library Wizard Page1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

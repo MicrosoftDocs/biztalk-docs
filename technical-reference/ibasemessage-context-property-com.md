@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage.Context Property (COM)"
 title: IBaseMessage.Context Property (COM)
 TOCTitle: IBaseMessage.Context Property (COM)
 ms:assetid: a7aff1ff-04bc-440e-8dcd-925d25f3d4b4

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Block (Node Property of All Schemas)"
 title: Block (Node Property of All Schemas)
 TOCTitle: Block (Node Property of All Schemas)
 ms:assetid: 068c9913-183e-452d-a66f-9b0a12f259d9

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Define a Set of Values Page"
 title: Define a Set of Values Page
 TOCTitle: Define a Set of Values Page
 ms:assetid: ae50fe05-570b-48be-ae4a-7d3df25ec382

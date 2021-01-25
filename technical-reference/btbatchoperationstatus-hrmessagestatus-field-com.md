@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: _BTBatchOperationStatus.hrMessageStatus Field (COM)"
 title: _BTBatchOperationStatus.hrMessageStatus Field (COM)
 TOCTitle: _BTBatchOperationStatus.hrMessageStatus Field (COM)
 ms:assetid: 81d5bd11-8869-450f-80f7-51d4000612e2

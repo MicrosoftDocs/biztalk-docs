@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TN3270 Configuration"
 title: "TN3270 Configuration2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

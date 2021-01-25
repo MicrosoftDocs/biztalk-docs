@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What's New in HIS 2013"
 title: "What's New in HIS 2013 | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

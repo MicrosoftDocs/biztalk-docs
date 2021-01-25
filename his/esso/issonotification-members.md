@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSONotification Members"
 title: "ISSONotification Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create Filter Wizard: Advanced"
 title: 'Create Filter Wizard: Advanced'
 TOCTitle: 'Create Filter Wizard: Advanced'
 ms:assetid: 132336a2-16e0-4d8d-b6cf-0e29edc2f423

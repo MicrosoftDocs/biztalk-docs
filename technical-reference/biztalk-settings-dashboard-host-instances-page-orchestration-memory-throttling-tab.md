@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Settings Dashboard, Host Instances Page, Orchestration Memory Throttling Tab"
 title: BizTalk Settings Dashboard, Host Instances Page, Orchestration Memory Throttling Tab
 TOCTitle: BizTalk Settings Dashboard, Host Instances Page, Orchestration Memory Throttling Tab
 ms:assetid: d1686113-09b0-402b-876d-b8fd058bcdb0

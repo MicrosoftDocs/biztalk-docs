@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Facts Explorer, XML Schemas Tab"
 title: Facts Explorer, XML Schemas Tab
 TOCTitle: Facts Explorer, XML Schemas Tab
 ms:assetid: 3a906c8c-7476-4848-a566-6ba8a7909076

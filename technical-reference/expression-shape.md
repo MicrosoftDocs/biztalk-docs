@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Expression Shape"
 title: Expression Shape
 TOCTitle: Expression Shape
 ms:assetid: 6e4403da-8a96-40f3-984d-104276c4d3ef

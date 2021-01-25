@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Trouble Defining a Recordset for Web-Based Applications"
 title: "Trouble Defining a Recordset for Web-Based Applications2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

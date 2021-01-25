@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Choice Group Node Properties"
 title: Choice Group Node Properties
 TOCTitle: Choice Group Node Properties
 ms:assetid: a21c8808-d5d8-49da-bdf5-26893f4d5092
