@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transforms (ReceivePort Node)"
 title: "Transforms (ReceivePort Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

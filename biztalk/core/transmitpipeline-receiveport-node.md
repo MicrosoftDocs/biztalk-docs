@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TransmitPipeline (ReceivePort Node)"
 title: "TransmitPipeline (ReceivePort Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

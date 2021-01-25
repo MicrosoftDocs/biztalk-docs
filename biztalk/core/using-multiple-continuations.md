@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Multiple Continuations"
 title: "Using Multiple Continuations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

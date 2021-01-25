@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transactions option &quot;Transactional&quot; and the error handling option &quot;Suspend request message on failure&quot; should not both be set to false"
 title: "Transactions option &quot;Transactional&quot; and the error handling option &quot;Suspend request message on failure&quot; should not both be set to false | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

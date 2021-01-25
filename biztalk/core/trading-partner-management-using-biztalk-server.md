@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Trading Partner Management Using BizTalk Server"
 title: "Trading Partner Management Using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

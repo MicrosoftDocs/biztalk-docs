@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Status of File Artifacts During Deployment"
 title: "Status of File Artifacts During Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

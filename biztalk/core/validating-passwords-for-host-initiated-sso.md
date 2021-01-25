@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Validating Passwords for Host Initiated SSO"
 title: "Validating Passwords for Host Initiated SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

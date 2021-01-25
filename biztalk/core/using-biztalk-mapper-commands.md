@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using BizTalk Mapper Commands"
 title: "Using BizTalk Mapper Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

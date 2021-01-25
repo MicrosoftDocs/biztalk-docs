@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting a Windows Server Cluster"
 title: "Troubleshooting a Windows Server Cluster | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

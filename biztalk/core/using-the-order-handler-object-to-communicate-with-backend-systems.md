@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using the Order Handler Object to Communicate with Backend Systems"
 title: "Using the Order Handler Object to Communicate with Backend Systems | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

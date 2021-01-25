@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sending and Receiving Large Messages Using the MSMQ Adapter"
 title: "Sending and Receiving Large Messages Using the MSMQ Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

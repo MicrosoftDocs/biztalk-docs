@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unrecognised message type"
 title: "Unrecognised message type | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

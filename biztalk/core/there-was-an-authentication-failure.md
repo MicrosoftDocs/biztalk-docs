@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: There was an authentication failure"
 title: "There was an authentication failure | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

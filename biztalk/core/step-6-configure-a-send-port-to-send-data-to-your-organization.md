@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 6: Configure a Send Port to Send Data to Your Organization"
 title: "Step 6: Configure a Send Port to Send Data to Your Organization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

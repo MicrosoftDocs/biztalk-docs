@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Types of Pipeline Components"
 title: "Types of Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

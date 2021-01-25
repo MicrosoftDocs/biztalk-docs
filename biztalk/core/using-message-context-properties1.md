@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Message Context Properties"
 title: "Using Message Context Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

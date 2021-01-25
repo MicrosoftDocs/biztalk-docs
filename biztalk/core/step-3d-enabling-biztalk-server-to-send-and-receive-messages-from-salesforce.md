@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3d: Enabling BizTalk Server to Send and Receive Messages from Salesforce"
 title: "Step 3d: Enabling BizTalk Server to Send and Receive Messages from Salesforce | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

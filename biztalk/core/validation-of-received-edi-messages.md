@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Validation of Received EDI Messages"
 title: "Validation of Received EDI Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

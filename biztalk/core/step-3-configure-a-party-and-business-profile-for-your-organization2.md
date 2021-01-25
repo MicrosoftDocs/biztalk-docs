@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Configure a Party and Business Profile for Your Organization"
 title: "Step 3: Configure a Party and Business Profile for Your Organization2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

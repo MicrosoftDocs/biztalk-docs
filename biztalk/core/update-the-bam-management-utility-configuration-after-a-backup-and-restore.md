@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Update the BAM Management Utility Configuration After a Backup and Restore"
 title: "How to Update the BAM Management Utility Configuration After a Backup and Restore | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

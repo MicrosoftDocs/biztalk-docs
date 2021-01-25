@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Specification of Field Positions within Positional Records"
 title: "Specification of Field Positions within Positional Records | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

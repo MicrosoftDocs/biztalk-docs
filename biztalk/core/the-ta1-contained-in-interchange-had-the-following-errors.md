@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The TA1 contained in interchange had the following errors"
 title: "The TA1 contained in interchange had the following errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

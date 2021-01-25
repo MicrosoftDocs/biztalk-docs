@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using the Flat File Serializing Engine"
 title: "Using the Flat File Serializing Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

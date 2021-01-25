@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unable to load assembly"
 title: "Unable to load assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

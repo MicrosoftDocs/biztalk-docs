@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Specifying the Message Body for the WCF Adapters"
 title: "Specifying the Message Body for the WCF Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

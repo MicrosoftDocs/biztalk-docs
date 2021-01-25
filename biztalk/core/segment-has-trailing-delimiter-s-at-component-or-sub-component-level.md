@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Segment has trailing delimiter(s) at component or sub-component level"
 title: "Segment has trailing delimiter(s) at component or sub-component level | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Sample Operations Error Handler"
 title: "The Sample Operations Error Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

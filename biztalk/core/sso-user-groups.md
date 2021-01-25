@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SSO User Groups"
 title: "SSO User Groups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

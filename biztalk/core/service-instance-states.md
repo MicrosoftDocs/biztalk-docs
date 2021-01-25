@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Service Instance States"
 title: "Service Instance States | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

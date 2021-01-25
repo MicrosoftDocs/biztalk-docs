@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Undeploying BizTalk Applications"
 title: "Undeploying BizTalk Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

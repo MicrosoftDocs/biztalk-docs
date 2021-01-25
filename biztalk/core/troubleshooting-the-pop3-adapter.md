@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting the POP3 Adapter"
 title: "Troubleshooting the POP3 Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

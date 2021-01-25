@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Service (Services Node)"
 title: "Service (Services Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

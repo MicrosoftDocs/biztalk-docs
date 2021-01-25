@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Pipeline Interfaces"
 title: "Using Pipeline Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

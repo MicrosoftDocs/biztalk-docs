@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Validating a Schema (EDI)"
 title: "Validating a Schema (EDI) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

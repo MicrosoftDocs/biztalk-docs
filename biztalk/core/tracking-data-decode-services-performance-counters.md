@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tracking Data Decode Services Performance Counters"
 title: "Tracking Data Decode Services Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

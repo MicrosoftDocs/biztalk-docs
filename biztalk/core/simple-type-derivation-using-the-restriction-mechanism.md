@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Simple Type Derivation Using the Restriction Mechanism"
 title: "Simple Type Derivation Using the Restriction Mechanism | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

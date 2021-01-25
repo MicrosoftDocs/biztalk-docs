@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using the BizTalk Server Administration Console"
 title: "Using the BizTalk Server Administration Console | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

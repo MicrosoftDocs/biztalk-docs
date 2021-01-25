@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Splitting HIPAA Subdocuments"
 title: "Splitting HIPAA Subdocuments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

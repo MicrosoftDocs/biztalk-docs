@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TPE Activity View Nodes"
 title: "TPE Activity View Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

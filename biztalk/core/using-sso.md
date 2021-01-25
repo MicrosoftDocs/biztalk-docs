@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using SSO"
 title: "Using SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

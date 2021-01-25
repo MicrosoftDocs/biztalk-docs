@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Structure of a Flat File Message"
 title: "Structure of a Flat File Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Template (Application Deployment Sample)"
 title: "Template (Application Deployment Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

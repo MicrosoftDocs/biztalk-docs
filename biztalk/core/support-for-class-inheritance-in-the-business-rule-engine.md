@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for Class Inheritance in the Business Rule Engine"
 title: "Support for Class Inheritance in the Business Rule Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

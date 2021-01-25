@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TPE Menu Options"
 title: "TPE Menu Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

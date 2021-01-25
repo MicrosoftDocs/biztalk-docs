@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Supported Platforms for Single Sign-On"
 title: "Supported Platforms for Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

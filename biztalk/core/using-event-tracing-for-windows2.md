@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Event Tracing for Windows"
 title: "Using Event Tracing for Windows2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

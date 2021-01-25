@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Ops Adapter"
 title: "The Ops Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

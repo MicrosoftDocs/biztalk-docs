@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using IntelliSense to Create an Interceptor Configuration File"
 title: "Using IntelliSense to Create an Interceptor Configuration File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

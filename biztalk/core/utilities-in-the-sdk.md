@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Utilities in the SDK"
 title: "Utilities in the SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

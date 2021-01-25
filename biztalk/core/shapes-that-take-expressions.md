@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Shapes that Take Expressions"
 title: "Shapes that Take Expressions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TransportType (SecondaryTransport Node)"
 title: "TransportType (SecondaryTransport Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

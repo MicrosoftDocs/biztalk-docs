@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorials: Using the Microsoft BizTalk Adapter for TIBCO Enterprise Message Service"
 title: "Tutorials: Using the Microsoft BizTalk Adapter for TIBCO Enterprise Message Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

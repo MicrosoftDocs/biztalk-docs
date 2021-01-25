@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Viewing Variables"
 title: "Viewing Variables | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SendPortCollection Node"
 title: "SendPortCollection Node | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

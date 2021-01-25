@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Solution Build Configurations"
 title: "Solution Build Configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

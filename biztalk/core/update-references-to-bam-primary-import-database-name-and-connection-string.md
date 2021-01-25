@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update References to the BAM Primary Import Database Name and Connection String"
 title: "Update BAM Primary Import Database name and connection string | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/01/2018"

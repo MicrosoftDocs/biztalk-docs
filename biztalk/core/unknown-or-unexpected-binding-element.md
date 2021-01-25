@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unknown or unexpected binding element"
 title: "Unknown or unexpected binding element | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

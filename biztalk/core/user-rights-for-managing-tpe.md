@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: User Rights for Managing TPE"
 title: "User Rights for Managing TPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

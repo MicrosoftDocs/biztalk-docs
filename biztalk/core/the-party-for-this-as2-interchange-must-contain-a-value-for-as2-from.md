@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The party for this AS2 interchange must contain a value for AS2-From"
 title: "The party for this AS2 interchange must contain a value for AS2-From | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

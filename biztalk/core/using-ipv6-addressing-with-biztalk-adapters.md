@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using IPv6 Addressing with BizTalk Adapters"
 title: "Using IPv6 Addressing with BizTalk Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

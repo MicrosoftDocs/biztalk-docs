@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using BizTalk Adapter Tracing"
 title: "Using BizTalk Adapter Tracing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

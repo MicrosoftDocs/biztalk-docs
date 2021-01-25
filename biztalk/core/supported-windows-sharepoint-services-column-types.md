@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Supported Windows SharePoint Services Column Types"
 title: "Supported Windows SharePoint Services Column Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

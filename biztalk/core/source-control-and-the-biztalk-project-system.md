@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Source Control and the BizTalk Project System"
 title: "Source Control and the BizTalk Project System | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

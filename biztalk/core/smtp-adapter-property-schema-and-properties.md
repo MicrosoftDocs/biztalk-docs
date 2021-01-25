@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SMTP Adapter Property Schema and Properties"
 title: "SMTP Adapter Property Schema and Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

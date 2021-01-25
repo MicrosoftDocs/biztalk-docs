@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Success - Validate Instance"
 title: "Success - Validate Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

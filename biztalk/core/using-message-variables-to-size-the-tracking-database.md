@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Message Variables to Size the Tracking Database"
 title: "Using Message Variables to Size the Tracking Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transactional request-response receive location is not supported"
 title: "Transactional request-response receive location is not supported | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

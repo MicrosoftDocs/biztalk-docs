@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction Set duplicate control number found"
 title: "Transaction Set duplicate control number found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

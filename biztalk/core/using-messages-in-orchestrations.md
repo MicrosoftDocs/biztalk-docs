@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Messages in Orchestrations"
 title: "Using Messages in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

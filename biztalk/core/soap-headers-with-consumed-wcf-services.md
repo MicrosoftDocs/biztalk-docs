@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SOAP Headers with Consumed WCF Services"
 title: "SOAP Headers with Consumed WCF Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Correlations in Orchestrations"
 title: "Using Correlations in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

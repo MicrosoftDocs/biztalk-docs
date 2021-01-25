@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Variables in Orchestrations"
 title: "Using Variables in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 9: Configure the EDI Payload Send Port"
 title: "Step 9: Configure the EDI Payload Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

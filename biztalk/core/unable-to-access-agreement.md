@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unable to access agreement"
 title: "Unable to access agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

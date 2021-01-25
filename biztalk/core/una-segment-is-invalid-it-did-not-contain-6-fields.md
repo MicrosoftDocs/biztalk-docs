@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UNA segment is invalid. It did not contain 6 fields"
 title: "UNA segment is invalid. It did not contain 6 fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

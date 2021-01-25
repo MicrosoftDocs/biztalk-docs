@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TPE Keyboard Shortcuts"
 title: "TPE Keyboard Shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

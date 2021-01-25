@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SQL Server database mirroring, Volume Shadow Copy service and AlwaysOn"
 title: "SQL Server database mirroring, Volume Shadow Copy service and AlwaysOn | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

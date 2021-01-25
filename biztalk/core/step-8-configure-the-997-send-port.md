@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 8: Configure the 997 Send Port"
 title: "Step 8: Configure the 997 Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

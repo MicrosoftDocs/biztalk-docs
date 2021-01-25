@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using the XML Tool Extensions"
 title: "Using the XML Tool Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

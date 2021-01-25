@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorial: Using the BizTalk Adapter for PeopleSoft Enterprise to Write Data to PeopleSoft Enterprise"
 title: "Tutorial: Using the BizTalk Adapter for PeopleSoft Enterprise to Write Data to PeopleSoft Enterprise | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

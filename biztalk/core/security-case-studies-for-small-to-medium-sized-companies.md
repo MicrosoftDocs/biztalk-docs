@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security Case Studies for Small to Medium-Sized Companies"
 title: "Security Case Studies for Small to Medium-Sized Companies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

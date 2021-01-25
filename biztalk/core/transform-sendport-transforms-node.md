@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transform (SendPort-Transforms Node)"
 title: "Transform (SendPort-Transforms Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

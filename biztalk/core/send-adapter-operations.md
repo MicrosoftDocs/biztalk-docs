@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Send Adapter Operations"
 title: "Send Adapter Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

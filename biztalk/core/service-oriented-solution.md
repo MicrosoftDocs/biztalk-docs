@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Service Oriented Solution"
 title: "Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

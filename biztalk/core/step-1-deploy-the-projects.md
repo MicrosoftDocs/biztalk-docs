@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Deploy the Projects"
 title: "Step 1: Deploy the Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
