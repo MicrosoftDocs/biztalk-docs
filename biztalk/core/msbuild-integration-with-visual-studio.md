@@ -18,7 +18,7 @@ manager: "anneta"
 # MSBUILD Integration with Visual Studio
 Visual Studio uses the MSBUILD project file format to store build information about managed projects including BizTalk projects. Project settings added and changed through Visual Studio are reflected in the .btproj file that is generated for each project. Visual Studio uses a hosted instance of MSBUILD to build BizTalk projects, meaning that a BizTalk project can be built in Visual Studio or from the command line, with identical results.
 
- For more information on MSBUILD, see [http://go.microsoft.com/fwlink/?LinkId=193567](https://go.microsoft.com/fwlink/?LinkId=193567).
+ For more information on MSBUILD, see [https://go.microsoft.com/fwlink/?LinkId=193567](https://go.microsoft.com/fwlink/?LinkId=193567).
 
  The following procedure shows you how to use MSBUILD to build a sample BizTalk project from command line.
 

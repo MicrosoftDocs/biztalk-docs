@@ -43,7 +43,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 - **Collecting debugging information**: To obtain detailed debugging information, follow the steps outlined in the topic [Debugging Published Web Services](../core/debugging-published-web-services.md) if following the steps above does not resolve the issue.
 
 ## Known Issues
- For additional information on known issues with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] related to Web services permissions, see "You cannot call an orchestration that is exposed as a Web service on a server that is running BizTalk Server" at [http://go.microsoft.com/fwlink/?LinkId=196379](https://go.microsoft.com/fwlink/?LinkId=196379).
+ For additional information on known issues with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] related to Web services permissions, see "You cannot call an orchestration that is exposed as a Web service on a server that is running BizTalk Server" at [https://go.microsoft.com/fwlink/?LinkId=196379](https://go.microsoft.com/fwlink/?LinkId=196379).
 
 ## See Also
  [Troubleshooting BizTalk Server Permissions](../core/troubleshooting-biztalk-server-permissions.md)

@@ -31,7 +31,7 @@ The following recommendations can be used to increase [!INCLUDE[btsBizTalkServer
 > [!NOTE]
 >  While there are benefits to creating additional host instances, there are also potential drawbacks if too many host instances are created. Each host instance is a Windows service (BTSNTSvc.exe), which generates additional load against the MessageBox database and consumes computer resources (such as CPU, memory, threads).
 
- For more information about modifying BizTalk Server Host properties, see "How to Modify Host Properties" in the BizTalk Server help at [http://go.microsoft.com/fwlink/?LinkId=101588](https://go.microsoft.com/fwlink/?LinkId=101588).
+ For more information about modifying BizTalk Server Host properties, see "How to Modify Host Properties" in the BizTalk Server help at [https://go.microsoft.com/fwlink/?LinkId=101588](https://go.microsoft.com/fwlink/?LinkId=101588).
 
 ## Configure a dedicated tracking host
  BizTalk Server is optimized for throughput, so the main orchestration and messaging engines do not actually move messages directly to the BizTalk Tracking or BAM databases, as this would divert these engines from their primary job of executing business processes. Instead, BizTalk Server leaves the messages in the MessageBox database and marks them as requiring a move to the BizTalk Tracking database. A background process (the tracking host) then moves the messages to the BizTalk Tracking and BAM databases. Because tracking is a resource intensive operation, a separate host should be created that is dedicated to tracking, thereby minimizing the impact that tracking has on hosts dedicated to message processing.
@@ -44,7 +44,7 @@ The following recommendations can be used to increase [!INCLUDE[btsBizTalkServer
 
 - Because data is not moved, it cannot be deleted from the Messagebox database.
 
-- When the Tracking Data Decode service is stopped, tracking interceptors will still fire and write tracking data to the Messagebox database. If the data is not moved, this will cause the Messagebox database to become bloated, which will impact performance over time. Even if custom properties are not tracked or BAM profiles are not set up, by default some data is tracked (such as pipeline receive / send events and orchestration events). If you do not want to run the Tracking Data Decode service, turn off all tracking so that no interceptors save data to the database. To disable global tracking, see "How to Turn Off Global Tracking" in the BizTalk Server help at [http://go.microsoft.com/fwlink/?LinkId=101589](https://go.microsoft.com/fwlink/?LinkId=101589). Use the BizTalk Server Administration console to selectively disable tracking events.
+- When the Tracking Data Decode service is stopped, tracking interceptors will still fire and write tracking data to the Messagebox database. If the data is not moved, this will cause the Messagebox database to become bloated, which will impact performance over time. Even if custom properties are not tracked or BAM profiles are not set up, by default some data is tracked (such as pipeline receive / send events and orchestration events). If you do not want to run the Tracking Data Decode service, turn off all tracking so that no interceptors save data to the database. To disable global tracking, see "How to Turn Off Global Tracking" in the BizTalk Server help at [https://go.microsoft.com/fwlink/?LinkId=101589](https://go.microsoft.com/fwlink/?LinkId=101589). Use the BizTalk Server Administration console to selectively disable tracking events.
 
   The tracking host should be run on at least two computers running BizTalk Server (for redundancy in case one fails). For optimal performance, you should have at least one tracking host instance per Messagebox database. The actual number of tracking host instances should be (N + 1), where N = the number of Messagebox databases. The "+ 1" is for redundancy, in case one of the computers hosting tracking fails.
 
@@ -52,9 +52,9 @@ The following recommendations can be used to increase [!INCLUDE[btsBizTalkServer
 
   For more information about the BAM Event Bus service, see the following topics in the BizTalk Server help:
 
-- "Managing the BAM Event Bus Service" at [http://go.microsoft.com/fwlink/?LinkId=101590](https://go.microsoft.com/fwlink/?LinkId=101590).
+- "Managing the BAM Event Bus Service" at [https://go.microsoft.com/fwlink/?LinkId=101590](https://go.microsoft.com/fwlink/?LinkId=101590).
 
-- "Creating Instances of the BAM Event Bus Service" at [http://go.microsoft.com/fwlink/?LinkId=101591](https://go.microsoft.com/fwlink/?LinkId=101591).
+- "Creating Instances of the BAM Event Bus Service" at [https://go.microsoft.com/fwlink/?LinkId=101591](https://go.microsoft.com/fwlink/?LinkId=101591).
 
 ## Manage ASP.NET thread usage or concurrently executing requests for Web applications that host orchestrations published as a Web or WCF Service
  The number of worker and I/O threads (IIS 6.0 and IIS 7.0 in classic mode) or the number of concurrently executing requests (IIS 7.0 integrated mode) for an ASP.NET Web application that hosts an orchestration published as a Web service should be modified under the following conditions:
@@ -101,7 +101,7 @@ The following recommendations can be used to increase [!INCLUDE[btsBizTalkServer
  **To set the maxConcurrentThreadsPerCPU value in the registry**
 
 > [!WARNING]
->  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article "Description of the Microsoft Windows registry" at [http://go.microsoft.com/fwlink/?LinkId=62729](https://go.microsoft.com/fwlink/?LinkId=62729).
+>  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article "Description of the Microsoft Windows registry" at [https://go.microsoft.com/fwlink/?LinkId=62729](https://go.microsoft.com/fwlink/?LinkId=62729).
 
 > [!NOTE]
 >  This setting is global and cannot be changed for individual application pools or applications.
@@ -123,7 +123,7 @@ The following recommendations can be used to increase [!INCLUDE[btsBizTalkServer
    **To set the maxConcurrentThreadsPerCPU value for an application pool in the config section of an aspnet.config file**
 
 > [!NOTE]
->  Microsoft .NET Framework 3.5 Service Pack 1 must be installed to accommodate setting the values below via configuration file. You can download Microsoft .NET Framework 3.5 Service Pack 1 from [http://go.microsoft.com/fwlink/?LinkID=136345](https://go.microsoft.com/fwlink/?LinkID=136345).
+>  Microsoft .NET Framework 3.5 Service Pack 1 must be installed to accommodate setting the values below via configuration file. You can download Microsoft .NET Framework 3.5 Service Pack 1 from [https://go.microsoft.com/fwlink/?LinkID=136345](https://go.microsoft.com/fwlink/?LinkID=136345).
 
 -   Open the aspnet.config file for the application pool, and then enter new values for the **maxConcurrentRequestsPerCPU** and **requestQueueLimit** parameters:
 
@@ -142,7 +142,7 @@ The following recommendations can be used to increase [!INCLUDE[btsBizTalkServer
  Modify the number of Windows threads available in the .NET thread pool associated with an instance of a BizTalk host by creating the appropriate CLR Hosting values in the registry of the BizTalk Server.
 
 > [!WARNING]
->  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article "Description of the Microsoft Windows registry" at [http://go.microsoft.com/fwlink/?LinkId=62729](https://go.microsoft.com/fwlink/?LinkId=62729).
+>  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article "Description of the Microsoft Windows registry" at [https://go.microsoft.com/fwlink/?LinkId=62729](https://go.microsoft.com/fwlink/?LinkId=62729).
 
 > [!NOTE]
 >  **Worker threads** are used to handle queued work items and **I/O threads** are dedicated callback threads associated with an I/O completion port to handle a completed asynchronous I/O request.
@@ -183,12 +183,12 @@ The following recommendations can be used to increase [!INCLUDE[btsBizTalkServer
 6. Restart the BizTalk host instance.
 
 ## Disable tracking for orchestrations, send ports, receive ports, and pipelines when tracking is not required
- Tracking incurs performance overhead within BizTalk Server as data has to be written to the MessageBox database and then asynchronously moved to the BizTalk Tracking database. If tracking is not a business requirement, then disable tracking to reduce overhead and increase performance. For more information about configuring tracking, see “Configuring Tracking Using the BizTalk Server Administration Console” in the BizTalk Server help at [http://go.microsoft.com/fwlink/?LinkID=106742](https://go.microsoft.com/fwlink/?LinkID=106742).
+ Tracking incurs performance overhead within BizTalk Server as data has to be written to the MessageBox database and then asynchronously moved to the BizTalk Tracking database. If tracking is not a business requirement, then disable tracking to reduce overhead and increase performance. For more information about configuring tracking, see “Configuring Tracking Using the BizTalk Server Administration Console” in the BizTalk Server help at [https://go.microsoft.com/fwlink/?LinkID=106742](https://go.microsoft.com/fwlink/?LinkID=106742).
 
 ## Decrease the purging period for the DTA Purge and Archive job from 7 days to 2 days in high throughput scenarios
  By default, the purging interval for tracking data in BizTalk Server is set to 7 days. In a high throughput scenario, this can result in an excessive build up of data in the Tracking database, which will eventually impact the performance of the MessageBox and in turn negatively impact message processing throughput.
 
- In high throughput scenarios, reduce the hard and soft purging interval from the default of 7 days to 2 days. For more information about configuring the purging interval, see “How to Configure the DTA Purge and Archive Job” in the BizTalk Server help at [http://go.microsoft.com/fwlink/?LinkID=104908](https://go.microsoft.com/fwlink/?LinkID=104908).
+ In high throughput scenarios, reduce the hard and soft purging interval from the default of 7 days to 2 days. For more information about configuring the purging interval, see “How to Configure the DTA Purge and Archive Job” in the BizTalk Server help at [https://go.microsoft.com/fwlink/?LinkID=104908](https://go.microsoft.com/fwlink/?LinkID=104908).
 
 ## Install the latest service packs
  The latest service packs for both BizTalk Server and the .NET Framework should be installed, as these contain fixes that can correct performance issues you may encounter.
@@ -199,12 +199,12 @@ The following recommendations can be used to increase [!INCLUDE[btsBizTalkServer
 ## Performance optimizations in the BizTalk Server documentation
  Apply the following recommendations from the BizTalk Server documentation as appropriate:
 
--   “Troubleshooting MessageBox Latency Issues” at [http://go.microsoft.com/fwlink/?LinkId=114747](https://go.microsoft.com/fwlink/?LinkId=114747)
+-   “Troubleshooting MessageBox Latency Issues” at [https://go.microsoft.com/fwlink/?LinkId=114747](https://go.microsoft.com/fwlink/?LinkId=114747)
 
--   “Identifying Performance Bottlenecks” at [http://go.microsoft.com/fwlink/?LinkID=104418](https://go.microsoft.com/fwlink/?LinkID=104418)
+-   “Identifying Performance Bottlenecks” at [https://go.microsoft.com/fwlink/?LinkID=104418](https://go.microsoft.com/fwlink/?LinkID=104418)
 
--   “Avoiding DBNETLIB Exceptions” at [http://go.microsoft.com/fwlink/?LinkID=108787](https://go.microsoft.com/fwlink/?LinkID=108787)
+-   “Avoiding DBNETLIB Exceptions” at [https://go.microsoft.com/fwlink/?LinkID=108787](https://go.microsoft.com/fwlink/?LinkID=108787)
 
--   “Avoiding TCP/IP Port Exhaustion” at [http://go.microsoft.com/fwlink/?LinkID=101610](https://go.microsoft.com/fwlink/?LinkID=101610)
+-   “Avoiding TCP/IP Port Exhaustion” at [https://go.microsoft.com/fwlink/?LinkID=101610](https://go.microsoft.com/fwlink/?LinkID=101610)
 
--   “Setting the EPM Threadpool Size” at [http://go.microsoft.com/fwlink/?LinkId=114748](https://go.microsoft.com/fwlink/?LinkId=114748)
+-   “Setting the EPM Threadpool Size” at [https://go.microsoft.com/fwlink/?LinkId=114748](https://go.microsoft.com/fwlink/?LinkId=114748)

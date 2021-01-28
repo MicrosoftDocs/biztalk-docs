@@ -27,7 +27,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 
  The Web services support in BizTalk Server falls into two categories: consuming or calling Web services and publishing or creating Web services.
 
- Before you consume or publish a Web service, you should have an understanding of XML Web services in ASP.NET. For information about the basics of XML Web services, see the article "XML Web Services Basics" at [http://go.microsoft.com/fwlink/?LinkId=193057](https://go.microsoft.com/fwlink/?LinkId=193057).
+ Before you consume or publish a Web service, you should have an understanding of XML Web services in ASP.NET. For information about the basics of XML Web services, see the article "XML Web Services Basics" at [https://go.microsoft.com/fwlink/?LinkId=193057](https://go.microsoft.com/fwlink/?LinkId=193057).
 
  **Consuming Web services**
 

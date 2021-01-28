@@ -29,7 +29,7 @@ For complete information about the system architecture for BizTalk Server deploy
  If you want to minimize the latency in the communication between the processing servers and the SQL Servers in the data domain, and security issues such as network sniffing, tampering of packets, and host spoofing in the internal network are not a concern, you can remove the firewall between the processing and data domain, and merge these domains. It is recommended you then use Internet Protocol security (IPSec) or Secure Sockets Layer (SSL) to protect the data as it goes from one server to another.
 
 ## SQL Server clustering
- Although not described in detail in this section, we strongly recommend clustering your databases for failover protection. For more information about SQL Server 2008 failover clustering, see the Microsoft MSDN Web site at [http://go.microsoft.com/fwlink/?LinkId=131016](https://go.microsoft.com/fwlink/?LinkId=131016).
+ Although not described in detail in this section, we strongly recommend clustering your databases for failover protection. For more information about SQL Server 2008 failover clustering, see the Microsoft MSDN Web site at [https://go.microsoft.com/fwlink/?LinkId=131016](https://go.microsoft.com/fwlink/?LinkId=131016).
 
 ## MessageBox database
  Depending on the message throughput requirements for your company, you may need to add (or remove) MessageBox databases. For more information about multiple messagebox, see [Scaled-Out Databases](../core/scaled-out-databases.md).

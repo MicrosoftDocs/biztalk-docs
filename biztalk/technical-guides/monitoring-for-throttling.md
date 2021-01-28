@@ -25,7 +25,7 @@ The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
 
 - No throttling mechanism exists between hosts other than total messages in the database.
 
-  For additional background information, refer to the topic [How BizTalk Server Implements Host Throttling](https://go.microsoft.com/fwlink/?LinkID=155286) (<http://go.microsoft.com/fwlink/?LinkID=155286>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+  For additional background information, refer to the topic [How BizTalk Server Implements Host Throttling](https://go.microsoft.com/fwlink/?LinkID=155286) (<https://go.microsoft.com/fwlink/?LinkID=155286>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] incorporates self-throttling, which helps to prevent overloading of the server based on various parameters. A temporary overload that causes throttling to occur is not an operationally significant event. Persistent throttling, however, is not expected in a stable environment and could indicate underlying problems at the infrastructure level. The management pack provides proactive monitoring of such persistent throttling conditions with performance threshold rules.
 
@@ -38,7 +38,7 @@ The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
 | Number of threads in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] process |      Warning: BizTalk Throttled on High Thread Count for a significant period       |
 |  Size of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] database queues   |      Warning: BizTalk Throttled on High Database Size for a significant period      |
 
- These threshold rules use data providers based on throttling state indicator performance counters. For more information about these performance counters, refer to the section [Performance Counters](https://go.microsoft.com/fwlink/?LinkId=157269) (<http://go.microsoft.com/fwlink/?LinkId=157269>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+ These threshold rules use data providers based on throttling state indicator performance counters. For more information about these performance counters, refer to the section [Performance Counters](https://go.microsoft.com/fwlink/?LinkId=157269) (<https://go.microsoft.com/fwlink/?LinkId=157269>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
  These rules are configured to raise an alert if the average of over a certain number of samples crosses a particular threshold (default is 30). For example, “Warning: BizTalk Throttled on High Database Size for a significant period” is a rule monitoring the throttling state of all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes in a given computer. This rule uses a data provider based on the throttling state indicator performance counter “BizTalk:Message Agent-High database size.” If this performance counter value is 1, then the associated process is throttling because of high database size.
 

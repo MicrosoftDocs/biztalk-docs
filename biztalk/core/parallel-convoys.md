@@ -32,7 +32,7 @@ A parallel convoy enables multiple single messages to join together to achieve a
 ## Implementing Parallel Convoys
  You can implement parallel convoys by using the "parallel correlated receives" messaging design pattern in BizTalk Server. Parallel correlated receives are correlated receive statements in two or more branches of a **Parallel Actions** shape. If a correlation is initialized in more than one parallel task, each correlated receive must initialize exactly the same set of correlations. The first such task that receives a correlated message performs the actual initialization, and validation is performed on the other tasks in the **Parallel Actions** shape in orchestration.
 
- For an example of parallel convoy implementation, see the SDK sample "Parallel Convoy" at [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+ For an example of parallel convoy implementation, see the SDK sample "Parallel Convoy" at [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
 ## See Also
  [Working with Convoy Scenarios](../core/working-with-convoy-scenarios.md)

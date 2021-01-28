@@ -57,7 +57,7 @@ Although Enterprise SSO and host initiated SSO have certain aspects in common, c
 
 ### To create an SPN
 
-1. Download the **setspn** utility from the following location: [http://go.microsoft.com/fwlink/?LinkId=33178](https://go.microsoft.com/fwlink/?LinkId=33178).
+1. Download the **setspn** utility from the following location: [https://go.microsoft.com/fwlink/?LinkId=33178](https://go.microsoft.com/fwlink/?LinkId=33178).
 
 2. On the **Start** menu, click **Run**.
 
@@ -75,7 +75,7 @@ Although Enterprise SSO and host initiated SSO have certain aspects in common, c
 
 -   Under your **Domain Security Policy - Local Policies - User Rights Assignment**, add the SSO Service account to the **Act as part of operating system** policy.
 
-     For more information about Kerberos Protocol Transition and Constrained Delegation, go to [http://go.microsoft.com/fwlink/?LinkId=195484](https://go.microsoft.com/fwlink/?LinkId=195484).
+     For more information about Kerberos Protocol Transition and Constrained Delegation, go to [https://go.microsoft.com/fwlink/?LinkId=195484](https://go.microsoft.com/fwlink/?LinkId=195484).
 
 ## See Also
  [Host Initiated SSO](../core/host-initiated-sso.md)

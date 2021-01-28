@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Instrumentation Best Practices for High Performance BizTalk Solutions
-To download a copy of this paper, go to [http://go.microsoft.com/fwlink/?LinkId=205874](https://go.microsoft.com/fwlink/?LinkId=205874).
+To download a copy of this paper, go to [https://go.microsoft.com/fwlink/?LinkId=205874](https://go.microsoft.com/fwlink/?LinkId=205874).
 
  **Published:** November 2010
 

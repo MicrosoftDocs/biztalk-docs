@@ -19,7 +19,7 @@ manager: "anneta"
 The Load Generation tool, Loadgen, enables you to simulate heavy loads on a BizTalk Server system.
 
 > [!NOTE]
->  The LoadGen 2007 tool is available for download at [http://go.microsoft.com/fwlink/?LinkId=59841](https://go.microsoft.com/fwlink/?LinkId=59841).
+>  The LoadGen 2007 tool is available for download at [https://go.microsoft.com/fwlink/?LinkId=59841](https://go.microsoft.com/fwlink/?LinkId=59841).
 
  Using LoadGen with MSMQ is supported, but we do not auto-register the MSMQ COM components during installation since the MSMQ runtime service may not be installed on your computer.
 

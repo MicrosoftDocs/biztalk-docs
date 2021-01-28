@@ -19,7 +19,7 @@ manager: "anneta"
 This topic describes an AS2 message, including its structure, its context properties, and its headers.
 
 ## Structure of an AS2 Message
- In BizTalk Server, AS2 messages are structured according to [RFC 4130, "MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP, Applicability Statement 2 (AS2)](https://go.microsoft.com/fwlink/?LinkID=184212) ([http://go.microsoft.com/fwlink/?LinkID=184212](https://go.microsoft.com/fwlink/?LinkID=184212)).
+ In BizTalk Server, AS2 messages are structured according to [RFC 4130, "MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP, Applicability Statement 2 (AS2)](https://go.microsoft.com/fwlink/?LinkID=184212) ([https://go.microsoft.com/fwlink/?LinkID=184212](https://go.microsoft.com/fwlink/?LinkID=184212)).
 
  The basic structure of an AS2 message consists of MIME format inside an HTTP message with additional AS2-specific headers. The nature of the message beneath the HTTP, AS2, and MIME headers depends upon the type of message:
 

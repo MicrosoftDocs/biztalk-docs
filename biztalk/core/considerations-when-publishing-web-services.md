@@ -30,13 +30,13 @@ This topic provides information that you should consider before you publish your
 
 - An unresolved **schemaLocation** attribute will cause an error
 
-  For more information about the limitation of include element, see "Include Element Binding Support" at [http://go.microsoft.com/fwlink/?LinkId=62312](https://go.microsoft.com/fwlink/?LinkId=62312).
+  For more information about the limitation of include element, see "Include Element Binding Support" at [https://go.microsoft.com/fwlink/?LinkId=62312](https://go.microsoft.com/fwlink/?LinkId=62312).
 
 ## Publishing schemas and the import element
- BizTalk Web Services Publishing Wizard has the same limitation as XSD.exe included in .NET Framework. For more information, see "Import Element Binding Support" at [http://go.microsoft.com/fwlink/?LinkId=62311](https://go.microsoft.com/fwlink/?LinkId=62311).
+ BizTalk Web Services Publishing Wizard has the same limitation as XSD.exe included in .NET Framework. For more information, see "Import Element Binding Support" at [https://go.microsoft.com/fwlink/?LinkId=62311](https://go.microsoft.com/fwlink/?LinkId=62311).
 
 ## Publishing schemas and the redefine element
- BizTalk Web Services Publishing Wizard has the same limitation as XSD.exe included in .NET Framework. For more information, see "Redefine Element Binding Support" at [http://go.microsoft.com/fwlink/?LinkId=62313](https://go.microsoft.com/fwlink/?LinkId=62313).
+ BizTalk Web Services Publishing Wizard has the same limitation as XSD.exe included in .NET Framework. For more information, see "Redefine Element Binding Support" at [https://go.microsoft.com/fwlink/?LinkId=62313](https://go.microsoft.com/fwlink/?LinkId=62313).
 
 ## Publishing schemas that specify values for minOccurs or maxOccurs attributes
  If you publish a schema that contains **minOccurs** or **maxOccurs** attributes with specific values, these values may be different in schema exposed by the published Web service. As a general rule of thumb, all minOccurs attributes are converted to 0 (minOccurs=0) and maxOccurs attributes are converted to either 1 or unbounded (maxOccurs=1 or maxOccurs=unbounded).

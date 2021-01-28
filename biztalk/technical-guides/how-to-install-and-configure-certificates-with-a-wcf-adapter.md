@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Install and Configure Certificates with a WCF Adapter
-For information about installing and configuring certificates with WCF adapters, see [Installing Certificates for the WCF Adapters](https://go.microsoft.com/fwlink/?LinkId=155204) (<http://go.microsoft.com/fwlink/?LinkId=155204>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+For information about installing and configuring certificates with WCF adapters, see [Installing Certificates for the WCF Adapters](https://go.microsoft.com/fwlink/?LinkId=155204) (<https://go.microsoft.com/fwlink/?LinkId=155204>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
 ## See Also
  [How to Configure a WCF-BasicHttp Send Port](https://go.microsoft.com/fwlink/?LinkId=155206)

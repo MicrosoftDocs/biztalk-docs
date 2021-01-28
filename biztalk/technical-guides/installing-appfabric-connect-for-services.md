@@ -27,7 +27,7 @@ This guide provides instructions on how to install BizTalk Server 2010 Feature P
 
 #### To install the feature pack
 
-1.  Download the AppFabric Connect for Services installable from [http://go.microsoft.com/fwlink/?LinkId=204701](https://go.microsoft.com/fwlink/?LinkId=204701). Run the self-extracting BizTalkServer2010_FeaturePack.exe file to launch the feature pack installer.
+1.  Download the AppFabric Connect for Services installable from [https://go.microsoft.com/fwlink/?LinkId=204701](https://go.microsoft.com/fwlink/?LinkId=204701). Run the self-extracting BizTalkServer2010_FeaturePack.exe file to launch the feature pack installer.
 
 2.  On the **Welcome** page, click **Next**.
 
@@ -38,9 +38,9 @@ This guide provides instructions on how to install BizTalk Server 2010 Feature P
 ##  <a name="BKMK_Using"></a> Using AppFabric Connect for Services
  After installing AppFabric Connect for Services, you can do the following:
 
--   Use the **BizTalk WCF Service Publishing Wizard** to expose BizTalk artifacts (orchestration, schema, etc.) as WCF services with a relay endpoint on the Azure AppFabric Service Bus. For more information, see [http://go.microsoft.com/fwlink/?LinkId=204700](https://go.microsoft.com/fwlink/?LinkId=204700).
+-   Use the **BizTalk WCF Service Publishing Wizard** to expose BizTalk artifacts (orchestration, schema, etc.) as WCF services with a relay endpoint on the Azure AppFabric Service Bus. For more information, see [https://go.microsoft.com/fwlink/?LinkId=204700](https://go.microsoft.com/fwlink/?LinkId=204700).
 
--   Use the **WCF Adapter Service Development Wizard** to expose operations on LOB applications as WCF services with a relay endpoint on the Azure AppFabric Service Bus. For more information, see [http://go.microsoft.com/fwlink/?LinkId=204699](https://go.microsoft.com/fwlink/?LinkId=204699).
+-   Use the **WCF Adapter Service Development Wizard** to expose operations on LOB applications as WCF services with a relay endpoint on the Azure AppFabric Service Bus. For more information, see [https://go.microsoft.com/fwlink/?LinkId=204699](https://go.microsoft.com/fwlink/?LinkId=204699).
 
 ## Uninstalling BizTalk Server 2010 Feature Pack
  This section provides instructions on uninstalling AppFabric Connect for Services.

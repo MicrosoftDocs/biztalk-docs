@@ -30,11 +30,10 @@ Date part of the property is not used.
 
 This property is read-write.
 
-For more information about the format of the datetime value, see the Platform SDK: Windows Management Instrumentation documentation at [http://go.microsoft.com/fwlink/?LinkID=24855](https://go.microsoft.com/fwlink/?linkid=24855).
+For more information about the format of the datetime value, see the Platform SDK: Windows Management Instrumentation documentation at [https://go.microsoft.com/fwlink/?LinkID=24855](https://go.microsoft.com/fwlink/?linkid=24855).
 
 ## Requirements
 
 **Header:** Declared in BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

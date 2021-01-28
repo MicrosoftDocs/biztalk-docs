@@ -37,7 +37,7 @@ This section discusses how transactions work in receiving and sending.
 
   If you are running an MSMQ adapter send handler in a clustered BizTalk Host instance, you should cluster the MSMQ service in the same cluster group to ensure transactional consistency.
 
-  If "Network DTC Access" is disabled in the DCOMCNFG utility, a MSMQ transactional remote receive operation will fail with a cryptic error message.  To do a transactional remote receive with the MSMQ adapter, "Network DTC Access" must be enabled. More information can be found at [http://go.microsoft.com/fwlink/?LinkId=124623](https://go.microsoft.com/fwlink/?LinkId=124623).
+  If "Network DTC Access" is disabled in the DCOMCNFG utility, a MSMQ transactional remote receive operation will fail with a cryptic error message.  To do a transactional remote receive with the MSMQ adapter, "Network DTC Access" must be enabled. More information can be found at [https://go.microsoft.com/fwlink/?LinkId=124623](https://go.microsoft.com/fwlink/?LinkId=124623).
 
   If you are running an MSMQ adapter receive handler in a clustered BizTalk Host instance, you should cluster the MSMQ service in the same cluster group to support local transacted reads because MSMQ does not support remote transactional reads. For more information about running MSMQ adapter handlers in a clustered instance of a BizTalk Host, see [Considerations for Running Adapter Handlers within a Clustered Host](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md).
 

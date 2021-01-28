@@ -26,7 +26,7 @@ The BizTalk Windows Communication Foundation (WCF) adapters allow [!INCLUDE[btsC
  The WCF receive adapters are provided in two types of adapters: isolated WCF adapters and in-process WCF adapters. While in-process adapters are managed by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], isolated adapters are not instantiated by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. Rather, they are instantiated and hosted in another process. The isolated WCF adapters are hosted in Web applications running in Internet Information Services (IIS).
 
 > [!NOTE]
->  Before you publish a WCF service with the isolated WCF adapters, you should have an understanding of how to host WCF services in Internet Information Services (IIS). For more information about the WCF services that are hosted in IIS, see "Hosting in IIS" at [http://go.microsoft.com/fwlink/?LinkID=75700](https://go.microsoft.com/fwlink/?LinkID=75700).
+>  Before you publish a WCF service with the isolated WCF adapters, you should have an understanding of how to host WCF services in Internet Information Services (IIS). For more information about the WCF services that are hosted in IIS, see "Hosting in IIS" at [https://go.microsoft.com/fwlink/?LinkID=75700](https://go.microsoft.com/fwlink/?LinkID=75700).
 
  **Versions of IIS**
 

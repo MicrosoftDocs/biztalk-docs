@@ -63,10 +63,10 @@ Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentv
  To apply a PIP to a CIDX implementation, set the **Standard** property in the process configuration profile to **CIDX**. After you have finished, you will be able to enter values for the **Message standard**, **Standard version**, and **Payload binding ID**. You can find these values in the CIDX Chem eStandards specification.
 
 ## Importing an XSD-based PIP for CIDX
- To import an XSD-based PIP for CIDX, you need to download the PIP's ZIP file from CIDX.org at [http://go.microsoft.com/FWLink/?LinkID=33859](https://go.microsoft.com/FWLink/?LinkID=62361). Follow the import procedure described in [Importing an XSD-based PIP](../../adapters-and-accelerators/accelerator-rosettanet/importing-an-xsd-based-pip.md).
+ To import an XSD-based PIP for CIDX, you need to download the PIP's ZIP file from CIDX.org at [https://go.microsoft.com/FWLink/?LinkID=33859](https://go.microsoft.com/FWLink/?LinkID=62361). Follow the import procedure described in [Importing an XSD-based PIP](../../adapters-and-accelerators/accelerator-rosettanet/importing-an-xsd-based-pip.md).
 
 ## Connecting to the Elemica Network
- You can customize [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] to connect to Elemica using project files in the Elemica Connectivity Pack. You can download the Connectivity Pack from [http://go.microsoft.com/fwlink/?LinkId=46195](https://go.microsoft.com/fwlink/?LinkId=46195). For more information, see the “Connecting to the Elemica Network with BizTalk Accelerator for RosettaNet 3.0” white paper on MSDN at [http://go.microsoft.com/fwlink/?linkid=46539](https://go.microsoft.com/fwlink/?linkid=46539).
+ You can customize [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] to connect to Elemica using project files in the Elemica Connectivity Pack. You can download the Connectivity Pack from [https://go.microsoft.com/fwlink/?LinkId=46195](https://go.microsoft.com/fwlink/?LinkId=46195). For more information, see the “Connecting to the Elemica Network with BizTalk Accelerator for RosettaNet 3.0” white paper on MSDN at [https://go.microsoft.com/fwlink/?linkid=46539](https://go.microsoft.com/fwlink/?linkid=46539).
 
 > [!NOTE]
 >  The information in the "Connecting to the Elemica Network with BizTalk Accelerator for RosettaNet 3.0" white paper is valid for [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)].

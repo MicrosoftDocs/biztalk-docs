@@ -30,7 +30,7 @@ This section contains high-level, feature-agnostic recommendations to secure you
 ## Topology-level recommendations
  **Use channel level encryption.** By default, network data flows between various components within BizTalk Server are in clear text. When sniffing or tampering of data as messages travel from one computer to another is a concern, we recommend using channel-level encryption, such as Internet Protocol security (IPSec) or Secure Sockets Layer (SSL). While BizTalk Server does not configure channel-level encryption by default, BizTalk Server does not put critical data such as encryption keys and passwords on the wire in clear text. The SSO database manages sensitive information by storing it in encrypted form by using the master secret (encryption key) provided by the master secret server. By default, the SSO database receives, stores, and sends sensitive information in encrypted form.
 
- For more information about SSL, see [http://go.microsoft.com/fwlink/p/?LinkId=189708](https://go.microsoft.com/fwlink/p/?LinkId=189708).
+ For more information about SSL, see [https://go.microsoft.com/fwlink/p/?LinkId=189708](https://go.microsoft.com/fwlink/p/?LinkId=189708).
 
  **Help ensure the physical security of the servers.** You must also take into consideration the physical security of the servers, devices, networks, cables, power supply, and other components. You should place your computers in a safe environment, and limit access to the computers that contain business-critical information, such as the databases.
 

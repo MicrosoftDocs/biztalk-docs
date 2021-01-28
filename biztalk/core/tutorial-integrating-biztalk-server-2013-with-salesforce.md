@@ -61,9 +61,9 @@ Reviewers: [Nick Hauenstein](https://social.msdn.microsoft.com/profile/nick.haue
 ## More Resources
  In addition to this tutorial, you can also look at the following resources to understand more about integrating [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] with Salesforce using the new adapters introduced in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
 
-- A virtual lab demonstrating [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and Salesforce integration is available at [http://go.microsoft.com/fwlink/?LinkId=290930](https://go.microsoft.com/fwlink/?LinkId=290930).
+- A virtual lab demonstrating [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and Salesforce integration is available at [https://go.microsoft.com/fwlink/?LinkId=290930](https://go.microsoft.com/fwlink/?LinkId=290930).
 
-- A sample based on this tutorial is available for download at [http://go.microsoft.com/fwlink/?LinkId=290932](https://go.microsoft.com/fwlink/?LinkId=290932).
+- A sample based on this tutorial is available for download at [https://go.microsoft.com/fwlink/?LinkId=290932](https://go.microsoft.com/fwlink/?LinkId=290932).
 
 ## Next steps
 

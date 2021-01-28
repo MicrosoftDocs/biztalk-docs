@@ -48,7 +48,7 @@ The following steps describe how to prepare the computer for installing the inli
      >  If you are using a 64-bit computer, use %ProgramFiles(x86)% instead of %ProgramFiles%.
 
      > [!NOTE]
-     >  For more information about the SETX command, see the Microsoft TechNet Web site at [http://go.microsoft.com/fwlink/?LinkId=67831](https://go.microsoft.com/fwlink/?LinkId=67831).
+     >  For more information about the SETX command, see the Microsoft TechNet Web site at [https://go.microsoft.com/fwlink/?LinkId=67831](https://go.microsoft.com/fwlink/?LinkId=67831).
 
 ##  <a name="step3"></a> Remove the stub version of the Service Oriented Solution
 
@@ -92,7 +92,7 @@ The following steps describe how to prepare the computer for installing the inli
 
     -   `ssomanage -deleteapp WoodgroveBank.CustomerService`
 
-10. At the command prompt, run the following commands to delete the Web sites used by the stub version. For more information about iisvdir.vbs, see the Microsoft TechNet Web site at [http://go.microsoft.com/fwlink/?LinkId=67830](https://go.microsoft.com/fwlink/?LinkId=67830).
+10. At the command prompt, run the following commands to delete the Web sites used by the stub version. For more information about iisvdir.vbs, see the Microsoft TechNet Web site at [https://go.microsoft.com/fwlink/?LinkId=67830](https://go.microsoft.com/fwlink/?LinkId=67830).
 
     -   `iisvdir /delete W3SVC/1/ROOT/Microsoft.Samples.BizTalk.WoodgroveBank.OrchProxy.Stub`
 

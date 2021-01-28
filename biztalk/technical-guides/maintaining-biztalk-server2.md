@@ -21,7 +21,7 @@ Maintenance activities are part of the Service Monitoring and Control (SMC) syst
 
  The sections pertaining to resolving reliability, administration, security, and performance issues contain information about identifying and resolving many common problems encountered during [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] operations.
 
- For more information about the Microsoft Operations Framework, see [http://go.microsoft.com/fwlink/?linkid=88047](https://go.microsoft.com/fwlink/?linkid=88047). For more information about the Service Monitoring and Control function, see [http://go.microsoft.com/fwlink/?LinkId=155341](https://go.microsoft.com/fwlink/?LinkId=155341).
+ For more information about the Microsoft Operations Framework, see [https://go.microsoft.com/fwlink/?linkid=88047](https://go.microsoft.com/fwlink/?linkid=88047). For more information about the Service Monitoring and Control function, see [https://go.microsoft.com/fwlink/?LinkId=155341](https://go.microsoft.com/fwlink/?LinkId=155341).
 
 ## In This Section
 

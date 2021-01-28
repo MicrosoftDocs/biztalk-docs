@@ -36,7 +36,7 @@ This section contains steps that you can follow to help diagnose problems with t
 
 ### Use WCF message logging for fault monitoring and diagnosis of problems from the WCF adapters
 
-1. WCF provides the capability to log incoming and outgoing messages for offline consumption. You can use message logging to see what the messages incoming and outgoing through the WCF adapters look like. WCF does not log messages by default. To activate message logging, you have to modify the configuration files that the WCF adapters use. For more information about WCF message logging, see "Message Logging" at [http://go.microsoft.com/fwlink/?LinkId=89003](https://go.microsoft.com/fwlink/?LinkId=89003).
+1. WCF provides the capability to log incoming and outgoing messages for offline consumption. You can use message logging to see what the messages incoming and outgoing through the WCF adapters look like. WCF does not log messages by default. To activate message logging, you have to modify the configuration files that the WCF adapters use. For more information about WCF message logging, see "Message Logging" at [https://go.microsoft.com/fwlink/?LinkId=89003](https://go.microsoft.com/fwlink/?LinkId=89003).
 
 2. For the in-process WCF adapters, you can enable WCF message logging by modifying the application configuration file, **BTSNtSvc.exe.config**, for **BTSNtSvc.exe**. The configuration file can be found in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation path. If you installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the default location, BtsNtSvc.exe will be in the directory [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].
 
@@ -73,7 +73,7 @@ This section contains steps that you can follow to help diagnose problems with t
    </configuration>
    ```
 
-5. You can use the Windows Communication Foundation (WCF) Service Trace Viewer Tool to analyze messages logged by WCF. Service Trace Viewer is included in the Microsoft Windows Software Development Kit (SDK) for Windows Vista and [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] Runtime Components. You can download the Windows SDK from the Microsoft Download Center at [http://go.microsoft.com/fwlink/?LinkID=75636](https://go.microsoft.com/fwlink/?LinkID=75636). For more information about using this tool, see "Service Trace Viewer Tool (SvcTraceViewer.exe)"at [http://go.microsoft.com/fwlink/?LinkId=88991](https://go.microsoft.com/fwlink/?LinkId=88991).
+5. You can use the Windows Communication Foundation (WCF) Service Trace Viewer Tool to analyze messages logged by WCF. Service Trace Viewer is included in the Microsoft Windows Software Development Kit (SDK) for Windows Vista and [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] Runtime Components. You can download the Windows SDK from the Microsoft Download Center at [https://go.microsoft.com/fwlink/?LinkID=75636](https://go.microsoft.com/fwlink/?LinkID=75636). For more information about using this tool, see "Service Trace Viewer Tool (SvcTraceViewer.exe)"at [https://go.microsoft.com/fwlink/?LinkId=88991](https://go.microsoft.com/fwlink/?LinkId=88991).
 
 ### Return managed exception information to the client in a SOAP fault to ease debugging
 

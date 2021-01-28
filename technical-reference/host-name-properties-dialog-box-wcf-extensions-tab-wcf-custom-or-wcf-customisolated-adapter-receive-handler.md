@@ -33,7 +33,7 @@ Use the **WCF Extensions** tab to configure the receive handler for the WCF-Cust
 <tbody>
 <tr class="odd">
 <td><strong>Import</strong></td>
-<td>Imports a WCF configuration file with WCF custom behavior extensions. Clicking this button opens the <strong>Import WCF configuration</strong> dialog box to browse and locate a WCF configuration file. Note that the file should be a valid WCF configuration file. For more information about WCF configuration schema, see “Windows Communication Foundation Configuration Schema” at <a href="http://go.microsoft.com/fwlink/?linkid=163953">http://go.microsoft.com/fwlink/?LinkId=163953</a>.</td>
+<td>Imports a WCF configuration file with WCF custom behavior extensions. Clicking this button opens the <strong>Import WCF configuration</strong> dialog box to browse and locate a WCF configuration file. Note that the file should be a valid WCF configuration file. For more information about WCF configuration schema, see “Windows Communication Foundation Configuration Schema” at <a href="https://go.microsoft.com/fwlink/?linkid=163953">https://go.microsoft.com/fwlink/?LinkId=163953</a>.</td>
 </tr>
 <tr class="even">
 <td><strong>Export</strong></td>
@@ -51,4 +51,3 @@ Use the **WCF Extensions** tab to configure the receive handler for the WCF-Cust
 
 [How to Configure a WCF-Custom Receive Handler](https://msdn.microsoft.com/library/ff629675\(v=bts.80\))  
 [How to Configure a WCF-CustomIsolated Receive Handler](https://msdn.microsoft.com/library/ff629709\(v=bts.80\))
-

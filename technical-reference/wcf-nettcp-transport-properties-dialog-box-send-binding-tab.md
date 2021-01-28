@@ -59,7 +59,7 @@ Maximum value: 23:59:59</td>
 <td><strong>Maximum received message size (bytes)</strong></td>
 <td>Specify the maximum size, in bytes, for a message including headers, which can be received on the wire. The size of the messages is bounded by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks.<br />
 <br />
-The WCF-NetTcp adapter leverages the <a href="http://go.microsoft.com/fwlink/?linkid=81087">NetTcpBinding</a> class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the <a href="http://go.microsoft.com/fwlink/?linkid=81088">NetTcpBinding.MaxBufferSize</a> property is always equal to the value of this property.<br />
+The WCF-NetTcp adapter leverages the <a href="https://go.microsoft.com/fwlink/?linkid=81087">NetTcpBinding</a> class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the <a href="https://go.microsoft.com/fwlink/?linkid=81088">NetTcpBinding.MaxBufferSize</a> property is always equal to the value of this property.<br />
 <br />
 Default value: 65536<br />
 <br />
@@ -87,4 +87,3 @@ The default is <strong>OleTransaction</strong>.</td>
 ## See Also
 
 [How to Configure a WCF-NetTcp Send Port](https://msdn.microsoft.com/library/bb226460\(v=bts.80\))
-

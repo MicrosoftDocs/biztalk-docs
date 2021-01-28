@@ -129,7 +129,7 @@ The following general guidelines should be followed to improve operating system 
 
 - [Required Ports for BizTalk Server](https://go.microsoft.com/fwlink/?LinkID=153238) (https://go.microsoft.com/fwlink/?LinkID=153238).
 
-- To configure RPC dynamic port allocation to work with firewalls, see Knowledge Base article 929851, ["The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008"](https://go.microsoft.com/fwlink/?LinkID=204568) ( HYPERLINK "<http://go.microsoft.com/fwlink/?LinkID=204568>" <http://go.microsoft.com/fwlink/?LinkID=204568>). For information about how to configure Windows Firewall to accommodate the necessary ports, see [Windows Firewall and IPsec Policy Deployment Step-by-Step Guide](https://go.microsoft.com/fwlink/?LinkID=204569) (<http://go.microsoft.com/fwlink/?LinkID=204569>).
+- To configure RPC dynamic port allocation to work with firewalls, see Knowledge Base article 929851, ["The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008"](https://go.microsoft.com/fwlink/?LinkID=204568) ( HYPERLINK "<https://go.microsoft.com/fwlink/?LinkID=204568>" <https://go.microsoft.com/fwlink/?LinkID=204568>). For information about how to configure Windows Firewall to accommodate the necessary ports, see [Windows Firewall and IPsec Policy Deployment Step-by-Step Guide](https://go.microsoft.com/fwlink/?LinkID=204569) (<https://go.microsoft.com/fwlink/?LinkID=204569>).
 
 ## Install appropriate COM+ and MSDTC hotfix rollup packages
  Review the following information to install the appropriate COM+ and MS DTC hotfix rollup packages:

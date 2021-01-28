@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Integrate BAM with SQL Server Reporting Services
-Creating a report based on data in the BAM infrastructure use the typical tasks associated with creating a report for any other SQL Server data source. For more information about creating a report with Report Designer, see [http://go.microsoft.com/fwlink/?LinkId=82437](https://go.microsoft.com/fwlink/?LinkId=82437).
+Creating a report based on data in the BAM infrastructure use the typical tasks associated with creating a report for any other SQL Server data source. For more information about creating a report with Report Designer, see [https://go.microsoft.com/fwlink/?LinkId=82437](https://go.microsoft.com/fwlink/?LinkId=82437).
 
 ## Prerequisites
  You must have permissions to access the data necessary to create the report.

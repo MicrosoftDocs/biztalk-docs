@@ -213,7 +213,7 @@ ERROR       max no of 100 conversations exceeded
 
 - **Variable value**: any positive numeric value. For example, to enable 200 connections into the SAP system, specify the value as 200.
 
-  For instructions on creating an environment variable, see "How To Create System Variables in Windows 2000" at [http://go.microsoft.com/fwlink/?LinkId=95020](https://go.microsoft.com/fwlink/?LinkId=95020).
+  For instructions on creating an environment variable, see "How To Create System Variables in Windows 2000" at [https://go.microsoft.com/fwlink/?LinkId=95020](https://go.microsoft.com/fwlink/?LinkId=95020).
 
 ##  <a name="BKMK_SAPIDOCMetadata"></a> Error generating or retrieving metadata for IDOCs
  **Problem**

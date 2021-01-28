@@ -25,7 +25,7 @@ This topic lists some best practices for maintaining [!INCLUDE[btsBizTalkServerN
 
 - Typically, smaller transaction logs cause better performance. To keep the transaction logs smaller, configure the **Backup BizTalk Server** SQL Server Agent job to run more frequently. For more information, see the [BizTalk Server Database Optimization white paper](https://go.microsoft.com/fwlink/?LinkId=153594) (https://go.microsoft.com/fwlink/?LinkId=153594).
 
-- Use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Best Practices Analyzer (BPA) to evaluate an existing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment. The BPA performs numerous database-related checks. You can download the BizTalk Server Best Practices Analyzer tool from [BizTalk Server Best Practices Analyzer tool](https://go.microsoft.com/fwlink/?LinkId=83317) (<http://go.microsoft.com/fwlink/?LinkId=83317>).
+- Use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Best Practices Analyzer (BPA) to evaluate an existing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment. The BPA performs numerous database-related checks. You can download the BizTalk Server Best Practices Analyzer tool from [BizTalk Server Best Practices Analyzer tool](https://go.microsoft.com/fwlink/?LinkId=83317) (<https://go.microsoft.com/fwlink/?LinkId=83317>).
 
 ## See Also
  [Checklist: Maintaining and Troubleshooting BizTalk Server Databases](~/technical-guides/checklist-maintaining-and-troubleshooting-biztalk-server-databases.md)

@@ -25,7 +25,7 @@ Performance counters enable you to monitor specific aspects of work performed on
 > [!NOTE]
 >  The WCF performance counters are not available for WCF send ports.
 
- For the in-process WCF adapters, you can enable the performance counters through the BTSNTSvc.exe.config file. For the isolated WCF adapters, you can modify the Web.config file to enable the performance counters. For more information about the WCF performance counters, see "WCF Performance Counters" at [http://go.microsoft.com/fwlink/?LinkID=87245](https://go.microsoft.com/fwlink/?LinkID=87245).
+ For the in-process WCF adapters, you can enable the performance counters through the BTSNTSvc.exe.config file. For the isolated WCF adapters, you can modify the Web.config file to enable the performance counters. For more information about the WCF performance counters, see "WCF Performance Counters" at [https://go.microsoft.com/fwlink/?LinkID=87245](https://go.microsoft.com/fwlink/?LinkID=87245).
 
 ## Enabling the WCF Performance Counters for the WCF Receive Locations
  For the in-process WCF adapters, you can enable the performance counters through the BTSNTSvc.exe.config file.

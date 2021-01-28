@@ -34,7 +34,7 @@ If a message is suspended due to validation failures, it may be helpful to view 
 
 5.  Check the hexadecimal representation of characters in message parts for the following:
 
-    -   Missing or invalid byte order mark. For more information about byte order marks see [http://go.microsoft.com/fwlink/?LinkId=196380](https://go.microsoft.com/fwlink/?LinkId=196380).
+    -   Missing or invalid byte order mark. For more information about byte order marks see [https://go.microsoft.com/fwlink/?LinkId=196380](https://go.microsoft.com/fwlink/?LinkId=196380).
 
     -   Differences between the encoding of linebreaks in Unix and Windows. Unix uses hex linefeed (0A) to indicate a line break where Windows uses both hex carriage return (0D) and linefeed (0A) to indicate a line break.
 

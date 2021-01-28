@@ -22,7 +22,7 @@ This topic contains the following sections relating to troubleshooting issues be
   
  [Failure to replicate DATETIME2 columns to DB2 TIMESTAMP columns](../core/sql-server-replication-troubleshooting-1.md#datetime2)  
   
- For more information about SQL Server Replication, see [Developer’s Guide (Replication)](http://go.microsoft.com/fwlink/?LinkId=193231) (http://go.microsoft.com/fwlink/?LinkId=193231) in SQL Server Books Online.  
+ For more information about SQL Server Replication, see [Developer’s Guide (Replication)](https://go.microsoft.com/fwlink/?LinkId=193231) (https://go.microsoft.com/fwlink/?LinkId=193231) in SQL Server Books Online.  
   
 ##  <a name="datatype"></a> Incorrect Data Type Mappings  
  SQL Server Replication may convert data incorrectly, based on the default mappings from SQL Server to DB2 data types. We recommend that the administrator and developer review and revise the Replication data type mappings using the following SQL Server system stored procedures.  
@@ -33,7 +33,7 @@ This topic contains the following sections relating to troubleshooting issues be
   
  **sp_setdefaultdatatypemapping**  
   
- For more information, see the [System Stored Procedures (Transact-SQL)](http://go.microsoft.com/fwlink/?LinkID=180765\)) topic in SQL Server Books Online (<http://go.microsoft.com/fwlink/?LinkID=180765>).  
+ For more information, see the [System Stored Procedures (Transact-SQL)](https://go.microsoft.com/fwlink/?LinkID=180765\)) topic in SQL Server Books Online (<https://go.microsoft.com/fwlink/?LinkID=180765>).  
   
 ##  <a name="datetime2"></a> Failure to replicate DATETIME2 columns to DB2 TIMESTAMP columns  
  **Problem**  
@@ -146,7 +146,7 @@ EXEC sp_changearticle @publication, @article, 'status' , 'parameters' , 0 , 0;
   
 ```  
   
- For more information, see [Replication System Stored Procedures Concepts](http://go.microsoft.com/fwlink/?LinkId=193232) (http://go.microsoft.com/fwlink/?LinkId=193232) in SQL Server Books Online.
+ For more information, see [Replication System Stored Procedures Concepts](https://go.microsoft.com/fwlink/?LinkId=193232) (https://go.microsoft.com/fwlink/?LinkId=193232) in SQL Server Books Online.
  
  ##  <a name="truncation"></a> Replication INSERT operation fails with Error 8152: String or binary data would be truncated  
  **Problem**  

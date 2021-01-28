@@ -37,7 +37,7 @@ We provide troubleshooting information about specific product event and error me
   
 4.  Double-click the event of interest.  
   
-5.  Under **Description**, look for **For more information, see Help and Support Center at http://go.microsoft.com/fwlink/events.asp**, and then click the link.  
+5.  Under **Description**, look for **For more information, see Help and Support Center at https://go.microsoft.com/fwlink/events.asp**, and then click the link.  
   
 6.  In the **Event Viewer** dialog box, click **Yes**.  
   
@@ -53,7 +53,7 @@ We provide troubleshooting information about specific product event and error me
   
 4.  Double-click an event.  
   
-5.  Under the Description text box, click http://go.microsoft.com/fwlink/events.asp.  
+5.  Under the Description text box, click https://go.microsoft.com/fwlink/events.asp.  
   
 6.  In the **Event Viewer** dialog box, click **Yes**.  
   

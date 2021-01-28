@@ -66,4 +66,4 @@ Using the adapter with [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbi
 **See [SWIFT](../adapters-and-accelerators/accelerator-swift/microsoft-biztalk-accelerator-for-swift-documentation.md) to install and configure the adapter, step through some tutorials, and use the message repair, FIN response and FRR artifacts, and more.**
 
 ## Get some help
-Get some help, and help others in the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] forums at [http://go.microsoft.com/fwlink/p/?LinkId=87695](https://go.microsoft.com/fwlink/p/?LinkId=87695).
+Get some help, and help others in the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] forums at [https://go.microsoft.com/fwlink/p/?LinkId=87695](https://go.microsoft.com/fwlink/p/?LinkId=87695).

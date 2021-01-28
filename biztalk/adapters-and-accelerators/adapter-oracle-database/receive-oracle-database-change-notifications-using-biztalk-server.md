@@ -41,7 +41,7 @@ You can configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracl
     grant change notification to <user name>
     ```
 
--   Decide on a TCP port you want ODP.NET to use for receiving database change notifications from Oracle database. Add that port to Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [http://go.microsoft.com/fwlink/?LinkID=196959](https://go.microsoft.com/fwlink/?LinkID=196959). You must provide the same port number for the **NotificationPort** binding property. For more information about the binding property, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx).
+-   Decide on a TCP port you want ODP.NET to use for receiving database change notifications from Oracle database. Add that port to Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](https://go.microsoft.com/fwlink/?LinkID=196959). You must provide the same port number for the **NotificationPort** binding property. For more information about the binding property, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx).
 
 ## In This Section
 

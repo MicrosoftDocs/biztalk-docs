@@ -27,7 +27,7 @@ The primary method of troubleshooting host initiated Single Sign-On (SSO) is tra
 >
 >  You can download this file from the following location:
 >
->  [http://go.microsoft.com/fwlink/?LinkId=33023](https://go.microsoft.com/fwlink/?LinkId=33023)
+>  [https://go.microsoft.com/fwlink/?LinkId=33023](https://go.microsoft.com/fwlink/?LinkId=33023)
 
 #### To use the trace utility
 

@@ -128,7 +128,7 @@ No valid adapters are installed on this machine
 - Install both the 32-bit and 64-bit versions of the Oracle Data Access Components for Oracle Client 11.1.0.6 with Patch Set 11.1.0.7.
 
   > [!NOTE]
-  >  To make sure your application works with the most recent version of ODP.NET, you must have the "policy DLLs" installed on the computer and registered in the GAC. For more information, see "Oracle Data Provider for .NET FAQ" at [http://go.microsoft.com/fwlink/p/?LinkId=92834](https://go.microsoft.com/fwlink/p/?LinkId=92834).
+  >  To make sure your application works with the most recent version of ODP.NET, you must have the "policy DLLs" installed on the computer and registered in the GAC. For more information, see "Oracle Data Provider for .NET FAQ" at [https://go.microsoft.com/fwlink/p/?LinkId=92834](https://go.microsoft.com/fwlink/p/?LinkId=92834).
 
 ###  <a name="BKMK_OraAppInvalidBinding"></a> Invalid binding error while configuring Oracle E-Business Suite adapter ports in BizTalk Server Administration Console on a 64-bit installation
  **Problem**
@@ -155,7 +155,7 @@ Verify the binding extension is registered in machine.config."
 - Install both the 32-bit and 64-bit versions of the Oracle Data Access Components for Oracle Client 11.1.0.6 with Patch Set 11.1.0.7.
 
   > [!NOTE]
-  >  To make sure your application works with the most recent version of ODP.NET, you must have the "policy DLLs" installed on the computer and registered in the GAC. For more information, see "Oracle Data Provider for .NET FAQ" at [http://go.microsoft.com/fwlink/p/?LinkId=92834](https://go.microsoft.com/fwlink/p/?LinkId=92834).
+  >  To make sure your application works with the most recent version of ODP.NET, you must have the "policy DLLs" installed on the computer and registered in the GAC. For more information, see "Oracle Data Provider for .NET FAQ" at [https://go.microsoft.com/fwlink/p/?LinkId=92834](https://go.microsoft.com/fwlink/p/?LinkId=92834).
 
 ## See Also
 [Troubleshooting the Oracle EBS adapter](../../adapters-and-accelerators/adapter-oracle-ebs/troubleshooting-the-oracle-ebs-adapter.md)

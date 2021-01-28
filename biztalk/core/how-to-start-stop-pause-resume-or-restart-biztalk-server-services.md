@@ -85,9 +85,9 @@ The following table lists the BizTalk Server services that you can start, stop, 
 
     For a list of application pools and virtual applications (Web sites and Web services) used by BizTalk Server, see [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md).
 
-   For information about starting and stopping application pools in IIS, see [http://go.microsoft.com/fwlink/?LinkID=140513](https://go.microsoft.com/fwlink/?LinkID=140513).
+   For information about starting and stopping application pools in IIS, see [https://go.microsoft.com/fwlink/?LinkID=140513](https://go.microsoft.com/fwlink/?LinkID=140513).
 
-   For information about starting and stopping the Web Server in IIS, see [http://go.microsoft.com/fwlink/?LinkId=140695](https://go.microsoft.com/fwlink/?LinkId=140695).
+   For information about starting and stopping the Web Server in IIS, see [https://go.microsoft.com/fwlink/?LinkId=140695](https://go.microsoft.com/fwlink/?LinkId=140695).
 
 ## See Also
  [How to Start and Stop a BizTalk Application](../core/how-to-start-and-stop-a-biztalk-application.md)

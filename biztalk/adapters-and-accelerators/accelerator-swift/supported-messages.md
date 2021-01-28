@@ -437,7 +437,7 @@ Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-curr
 |**MT 998**|Proprietary Message|
 |**MT 999**|Free Format Message|
 
- All messages follow the *SWIFT Standards Release Guide 2008* specifications. For more information about the *SWIFT Standards Release Guide*, see the SWIFT Web site at [http://go.microsoft.com/fwlink/?LinkId=27885](https://go.microsoft.com/fwlink/?LinkId=27885).
+ All messages follow the *SWIFT Standards Release Guide 2008* specifications. For more information about the *SWIFT Standards Release Guide*, see the SWIFT Web site at [https://go.microsoft.com/fwlink/?LinkId=27885](https://go.microsoft.com/fwlink/?LinkId=27885).
 
 ## See Also
  [SWIFT Messages](../../adapters-and-accelerators/accelerator-swift/swift-messages.md)

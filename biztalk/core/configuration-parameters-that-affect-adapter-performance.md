@@ -51,7 +51,7 @@ This section describes configuration settings that can affect the performance of
 > [!NOTE]
 >  The **processModel** section can be set only within the Machine.config file and affects all ASP.NET applications that are running on the server.
 
- For more information about the **processModel** element of the machine.config file see the Microsoft MSDN Web site at [http://go.microsoft.com/fwlink/p/?LinkId=62307](https://go.microsoft.com/fwlink/p/?LinkId=62307).
+ For more information about the **processModel** element of the machine.config file see the Microsoft MSDN Web site at [https://go.microsoft.com/fwlink/p/?LinkId=62307](https://go.microsoft.com/fwlink/p/?LinkId=62307).
 
 ## Registry setting that governs the TCP window size
  The following registry setting governs the TCP window size, which is the amount of receive data (in bytes) that can be buffered during a connection. If this parameter is not set to an optimal value then adapter performance can be impacted negatively. Implement this registry setting to increase the TCP window size.

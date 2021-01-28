@@ -32,7 +32,7 @@ Project properties configure global settings for projects that you create in [!I
 
 3. Click the desired property tab to access project properties.
 
-   Documentation for properties common to all [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects can be found by referencing the respective Project Designer property tab information from the following link: [http://go.microsoft.com/fwlink/?LinkId=124727](https://go.microsoft.com/fwlink/?LinkId=124727).
+   Documentation for properties common to all [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects can be found by referencing the respective Project Designer property tab information from the following link: [https://go.microsoft.com/fwlink/?LinkId=124727](https://go.microsoft.com/fwlink/?LinkId=124727).
 
 ## In This Section
 
