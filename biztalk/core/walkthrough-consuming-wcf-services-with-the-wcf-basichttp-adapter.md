@@ -125,7 +125,7 @@ manager: "anneta"
 
    - Two schema files are generated. The first schema file (**OrderProcessServiceType_biztalk_WCF_basichttpsendadapter_basichttpWCFserviceconsuming.xsd**) defines the message types that the sample [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service uses. It uses the **OrderID** field in both **OrderRequest** and **OrderResponse** calls.
 
-   - The second schema file (**OrderProcessServiceType_schemas_microsoft_com_2003_10_Serialization.xsd**) is exported by [DataContractSerializer](https://go.microsoft.com/fwlink/?LinkId=81722) for the types, elements, and attributes from the namespace, http://schemas.microsoft.com/2003/10/Serialization/.
+   - The second schema file (**OrderProcessServiceType_schemas_microsoft_com_2003_10_Serialization.xsd**) is exported by [DataContractSerializer](https://go.microsoft.com/fwlink/?LinkId=81722) for the types, elements, and attributes from the namespace, `http://schemas.microsoft.com/2003/10/Serialization/`.
 
    - Two binding files are generated, which will be used later to create the BizTalk application: **OrderProcessServiceType.BindingInfo.xml** and **OrderProcessServiceType_Custom.BindingInfo.xml**. In the general case you will typically use the non-custom binding file. But in some rare situations where you have a custom binding element use the custom binding file. The custom binding element creates send ports for the applications. Double-click the **OrderProcessServiceType.BindingInfo.xml** file and search for the **SendPort** definition line, and review the send port that will be created when you import this binding file into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:
 

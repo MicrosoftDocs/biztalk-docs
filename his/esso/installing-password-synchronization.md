@@ -29,7 +29,7 @@ As with the other Single Sign-On (SSO) features, Password Synchronization is not
 
    Finally, to capture password changes made in Active Directory, in addition to installing the ENTSSO Password Sync feature, you must install components on the domain controllers to capture password changes. Both the Windows Password Capture component and Password Change Notification Service (PCNS) must be installed on all domain controllers from which you will be capturing passwords. You can find these components in the following location:
 
-   http://www.microsoft.com/downloads/details.aspx?FamilyID=C0964F2E-FA9F-4FC7-AC13-C43928EFEE9D&displaylang=en
+   https://www.microsoft.com/downloads/details.aspx?FamilyID=C0964F2E-FA9F-4FC7-AC13-C43928EFEE9D&displaylang=en
 
    Read the accompanying documentation before you proceed with the installation on the domain controller.
 

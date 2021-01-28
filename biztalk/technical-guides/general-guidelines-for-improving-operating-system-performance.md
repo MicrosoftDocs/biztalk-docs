@@ -136,14 +136,14 @@ The following general guidelines should be followed to improve operating system 
 
 -   The MS DTC hotfix can be found in Microsoft Knowledge Base article978476 ["The MS DTC issue that is fixed in Windows Server 2008 R2 MS DTC Hotfix Rollup Package 1"](https://go.microsoft.com/fwlink/?LinkID=204109) (https://go.microsoft.com/fwlink/?LinkID=204109).
 
--   The latest DTC hotfix rollup package KB article can be found by searching [http://support.microsoft.com](https://go.microsoft.com/fwlink/?LinkID=96185) (https://go.microsoft.com/fwlink/?LinkID=96185) for the phrase (including the quotes):
+-   The latest DTC hotfix rollup package KB article can be found by searching [https://support.microsoft.com](https://go.microsoft.com/fwlink/?LinkID=96185) (https://go.microsoft.com/fwlink/?LinkID=96185) for the phrase (including the quotes):
 
     ```
     "MS DTC Hotfix Rollup Package"
     ```
 
      The following query does this search for you. Choose the latest one:
-    [http://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package"](https://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package")
+    [https://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package"](https://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package")
 
 ## Use the Interrupt-Affinity Policy Tool to bind network adapter interrupts to specific processors on multiprocessor computers
  The Interrupt-Affinity Policy (IntPolicy) is a tool that allows you to “bind” or change the CPU affinity of the interrupts for a given device (such as a network adapter) to a specific processor or processors on a multiprocessor computer. This binding is also referred to as partitioning. The binding of interrupts from a specific network adapter to specific processors on a multiprocessor computer enforces running deferred procedure calls (DPCs) and interrupt service routines (ISRs) for the network adapter on the designated processors. Note that interrupt affinity cannot be configured on single processor computers.

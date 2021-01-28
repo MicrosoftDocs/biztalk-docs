@@ -91,7 +91,7 @@ manager: "anneta"
 
      C:\inetpub\logs\LogFiles\W3SVC1\
 
-    -   If the IIS log file for an IIS 7.0 computer contains HTTP 401 errors, follow the steps in Microsoft Knowledge Base article 943891, "The HTTP status codes in IIS 7.0" available at [http://support.microsoft.com/kb/943891](https://support.microsoft.com/kb/943891) to determine the substatus code and to troubleshoot the permissions problem based on the status code.
+    -   If the IIS log file for an IIS 7.0 computer contains HTTP 401 errors, follow the steps in Microsoft Knowledge Base article 943891, "The HTTP status codes in IIS 7.0" available at [https://support.microsoft.com/kb/943891](https://support.microsoft.com/kb/943891) to determine the substatus code and to troubleshoot the permissions problem based on the status code.
 
     -   Check the value of the **cs-username** field associated with the HTTP 401 error. This field contains the name of the authenticated user who accessed the IIS server. The anonymous user account is represented by a hyphen (-) in this field. Ensure that this account has permissions on the appropriate resources.
 

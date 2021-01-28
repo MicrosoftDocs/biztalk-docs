@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # SOAP Headers with Published WCF Services
-The WCF receive adapters can copy all the SOAP header values in the inbound messages to the **InboundHeaders** property, or they can write or promote specified values to the BizTalk message context. The adapters can work with both custom SOAP headers and standard SOAP headers that the WCF infrastructure uses, such as WS-Addressing, WS-Security, and WS-AtomicTransaction. The **InboundHeaders** context property is in the target namespace **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**, and contains string representations of the SOAP header values in inbound messages.
+The WCF receive adapters can copy all the SOAP header values in the inbound messages to the **InboundHeaders** property, or they can write or promote specified values to the BizTalk message context. The adapters can work with both custom SOAP headers and standard SOAP headers that the WCF infrastructure uses, such as WS-Addressing, WS-Security, and WS-AtomicTransaction. The **InboundHeaders** context property is in the target namespace `http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties`, and contains string representations of the SOAP header values in inbound messages.
 
 > [!NOTE]
 >  If you are going to promote the SOAP header values you specified, there must be a deployed property schema in your BizTalk project that corresponds to the values you are promoting.

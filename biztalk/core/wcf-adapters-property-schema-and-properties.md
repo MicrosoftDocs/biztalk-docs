@@ -19,10 +19,10 @@ manager: "anneta"
 Read about the promoted properties in the WCF adapter property schema. The WCF adapters assign values to the properties that you can use in your application. WCF adapter also provides a mechanism to write but not promote the custom properties to the BizTalk message context, and a mechanism to promote the custom properties to the BizTalk message context. For more details, see [SOAP Headers with Published WCF Services](../core/soap-headers-with-published-wcf-services.md).
 
 ## Promoted properties
-**Namespace:** http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties
+**Namespace:** `http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties`
 
 #### Action
-Specify the **SOAPAction** header field for outgoing messages. You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format—for example, http://contoso.com/Svc/Op1 — the **SOAPAction** header for outgoing messages is always set to the value specified in this property.
+Specify the **SOAPAction** header field for outgoing messages. You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format—for example, `http://contoso.com/Svc/Op1` — the **SOAPAction** header for outgoing messages is always set to the value specified in this property.
 
 If you set this property in the action mapping format, the outgoing **SOAPAction** header is determined by the **BTS.Operation** context property. For example, if this property is set to the following XML format and the **BTS.Operation** property is set to Op1, the WCF send adapter uses `http://contoso.com/Svc/Op1` for the outgoing **SOAPAction** header.
 

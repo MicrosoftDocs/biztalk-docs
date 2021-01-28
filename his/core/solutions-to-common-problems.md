@@ -191,7 +191,7 @@ Error Text: EXECUTION FAILED DUE TO UNAVAILABLE RESOURCES THAT WILL AFFECT THE S
  The solution is for the DRDA AS to process the BGNBND BNDSQLSTT using a hexadecimal representation of the 8-byte Consistency Token.
 
 ## Problem with connection timeout when connecting to SQL Server mirroring partner
- See KB article [http://support.microsoft.com/kb/2555235](https://support.microsoft.com/kb/2555235).
+ See KB article [https://support.microsoft.com/kb/2555235](https://support.microsoft.com/kb/2555235).
 
 ## Problem loading custom bind listener at service startup
  DRDA Service will return a warning if it cannot load a custom bind listener at service startup. The warning does not prevent the DRDA Service from starting.

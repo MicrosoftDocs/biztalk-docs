@@ -170,7 +170,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 ### AutoCommit
  The AutoCommit property instructs the Data Provider to implicitly commit all SQL statements. This optional property accepts a Boolean value. The default value is false.
 
- Note: AutoCommit mode can reduce the network flow and may improve overall performance. AutoCommit mode is appropriate for most common transactions that consist of a single SQL statement. However, this mode does not allow for unit of work rollback. For more information, see [http://support.microsoft.com/kb/218590](https://support.microsoft.com/kb/218590).
+ Note: AutoCommit mode can reduce the network flow and may improve overall performance. AutoCommit mode is appropriate for most common transactions that consist of a single SQL statement. However, this mode does not allow for unit of work rollback. For more information, see [https://support.microsoft.com/kb/218590](https://support.microsoft.com/kb/218590).
 
 ### Cache Authentication
  The Cache Authentication property instructs the Data Consumer to save sensitive authentication information, such as password, in an internal store. This optional property accepts a Boolean value. The default value is false. Service components, such as OLE DB resource pooling, require this property value set to true.
