@@ -33,7 +33,7 @@ manager: "anneta"
 
 -   Microsoft PowerShell 3.0 (Windows Management Framework 3.0)
 
-    -   [http://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595)
+    -   [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595)
 
 #### Start PowerShell
  Start PowerShell with Administrator permissions by running one of these commands.

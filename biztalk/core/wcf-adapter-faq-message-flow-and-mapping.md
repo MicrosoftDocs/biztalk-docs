@@ -83,9 +83,9 @@ manager: "anneta"
 
  A WCF adapter expects the following message properties in the WCF messages for writing or promoting SOAP header values to the BizTalk message context:
 
--   To promote the SOAP header values to the BizTalk message context, WCF adapters are looking for the pair of key **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote** and value **List<KeyValuePair\<XmlQualifiedName, object\>>**. Using this pair, WCF adapters take the namespace, name, and value from the **XmlQualifiedName** object and use them for promoting the header values.
+-   To promote the SOAP header values to the BizTalk message context, WCF adapters are looking for the pair of key **`http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote`** and value **List<KeyValuePair\<XmlQualifiedName, object\>>**. Using this pair, WCF adapters take the namespace, name, and value from the **XmlQualifiedName** object and use them for promoting the header values.
 
--   To write, but not promote, the SOAP header values into the BizTalk message context, WCF adapters are looking for the pair of key **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext** and value **List<KeyValuePair\<XmlQualifiedName, object\>>.** Using this pair, WCF adapters write the values to the message context.
+-   To write, but not promote, the SOAP header values into the BizTalk message context, WCF adapters are looking for the pair of key **`http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext`** and value **List<KeyValuePair\<XmlQualifiedName, object\>>.** Using this pair, WCF adapters write the values to the message context.
 
 > [!NOTE]
 >  Promoted properties must also be specified in a BizTalk property schema in order to be accepted by the BizTalk runtime.

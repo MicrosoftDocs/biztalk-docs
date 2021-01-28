@@ -88,7 +88,7 @@ Minimum length: 0<br />
 <br />
 Maximum length: 32767<br />
 <br />
-The default is <strong>&lt;bts-msg-body xmlns=&quot;http://www.microsoft.com/schemas/bts2007&quot; encoding=&quot;xml&quot;/&gt;</strong>.</td>
+The default is <strong>`bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"`</strong>.</td>
 </tr>
 <tr class="odd">
 <td><strong>Suspend request message on failure</strong></td>
@@ -110,4 +110,3 @@ The default value is cleared.</td>
 
 [How to Configure a WCF-NetNamedPipe Receive Location](https://msdn.microsoft.com/library/bb259943\(v=bts.80\))  
 [Specifying the Message Body for the WCF Adapters](https://msdn.microsoft.com/library/bb226478\(v=bts.80\))
-

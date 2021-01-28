@@ -89,7 +89,7 @@ This topic describes how to extend Microsoft [!INCLUDE[BTARN_CurrentVersion_Firs
 
 27. In the Properties window, scroll down to **Root Reference**. Click **Root Reference**, and from the drop-down list, select the root node of the schema, for example, select **Pip3C5BillingStatementNotification**.  
 
-28. In the Properties window, scroll up to **Target Namespace**. For **Target Namespace**, type <strong>http://schemas.microsoft.com/biztalk/btarn/2004/\<DTD file name\>.dtd</strong>, where the DTD file name is, for example, **3C5_MS_R01_00_BillingStatementNotification.dtd**.  
+28. In the Properties window, scroll up to **Target Namespace**. For **Target Namespace**, type <strong>`http://schemas.microsoft.com/biztalk/btarn/2004/{DTD file name}.dtd`</strong>, where the DTD file name is, for example, **3C5_MS_R01_00_BillingStatementNotification.dtd**.  
 
     > [!NOTE]
     >  This naming convention for the target namespace is required for BTARN. If you use another namespace convention, [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] will not process PIP documents for schema validation.  

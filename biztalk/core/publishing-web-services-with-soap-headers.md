@@ -26,7 +26,7 @@ manager: "anneta"
 You add SOAP headers to your Web services when you run the BizTalk Web Services Publishing Wizard. When you publish a Web service that supports SOAP headers, the headers become available to orchestrations and pipeline components as context properties that contain string representations of the SOAP headers.  
   
 ## Defined SOAP headers  
- When you add a defined SOAP header using the wizard, the wizard creates a context property with a name that corresponds to the root element of the SOAP header. All defined SOAP header context properties have the namespace **http://schemas.microsoft.com/BizTalk/2003/SOAPHeader**. When the SOAP adapter converts the SOAP request to a BizTalk message, it creates one SOAP header context property.  
+ When you add a defined SOAP header using the wizard, the wizard creates a context property with a name that corresponds to the root element of the SOAP header. All defined SOAP header context properties have the namespace `http://schemas.microsoft.com/BizTalk/2003/SOAPHeader`. When the SOAP adapter converts the SOAP request to a BizTalk message, it creates one SOAP header context property.  
   
  The following example shows a simple SOAP request:  
   

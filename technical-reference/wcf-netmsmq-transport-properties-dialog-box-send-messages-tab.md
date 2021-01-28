@@ -49,7 +49,7 @@ Maximum length: 32767<br />
 <br />
 The default is &lt;bts-msg-body<br />
 <br />
-xmlns=&quot;http://www.microsoft.com/schemas/bts2007&quot; encoding=&quot;xml&quot;/&gt;</td>
+`xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"`</td>
 </tr>
 </tbody>
 </table>
@@ -59,4 +59,3 @@ xmlns=&quot;http://www.microsoft.com/schemas/bts2007&quot; encoding=&quot;xml&qu
 
 [How to Configure a WCF-NetMsmq Send Port](https://msdn.microsoft.com/library/bb245965\(v=bts.80\))  
 [Specifying the Message Body for the WCF Adapters](https://msdn.microsoft.com/library/bb226478\(v=bts.80\))
-
