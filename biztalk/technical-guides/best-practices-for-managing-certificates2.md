@@ -37,7 +37,7 @@ This section provides best practices for managing certificates in your Microsoft
 
   **Verify signing certificates**
 
-- Make sure you verify the signing certificates against the certificate revocation list. For more information about how to verify the signing certificates, see [How to Configure the MIME/SMIME Decoder Pipeline Component](https://go.microsoft.com/fwlink/?LinkId=155145) (<http://go.microsoft.com/fwlink/?LinkId=155145>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+- Make sure you verify the signing certificates against the certificate revocation list. For more information about how to verify the signing certificates, see [How to Configure the MIME/SMIME Decoder Pipeline Component](https://go.microsoft.com/fwlink/?LinkId=155145) (<https://go.microsoft.com/fwlink/?LinkId=155145>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
   **Manage certificates with partners**
 
@@ -53,7 +53,7 @@ This section provides best practices for managing certificates in your Microsoft
 - Determine what you want to do with messages when BizTalk Server cannot validate the digital signature. Setting the Authentication property on the receive port will help prevent denial of service attacks.
 
   > [!NOTE]
-  >  The Authentication - Drop messages and Authentication - Keep messages flags on the receive port require that the Party Resolution pipeline component be configured correctly, and that the parties are defined in BizTalk Server. For more information, see [Party Resolution Pipeline Component](https://go.microsoft.com/fwlink/?LinkId=155146) (<http://go.microsoft.com/fwlink/?LinkId=155146>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+  >  The Authentication - Drop messages and Authentication - Keep messages flags on the receive port require that the Party Resolution pipeline component be configured correctly, and that the parties are defined in BizTalk Server. For more information, see [Party Resolution Pipeline Component](https://go.microsoft.com/fwlink/?LinkId=155146) (<https://go.microsoft.com/fwlink/?LinkId=155146>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
   **Create separate receive locations for encrypted and unencrypted messages**
 

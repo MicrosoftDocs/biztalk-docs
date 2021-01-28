@@ -29,7 +29,7 @@ To use this sample with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]
 
 2. Add the schema assembly Microsoft.Practices.ESB.JMS.Schemas.Property.dll to the global assembly cache using the .NET Framework Configuration Tool located in the Administrative Tools section of the **Start** menu.
 
-   This section describes the process for installing the JMS MQRFH2 sample into the GlobalBank.JMS BizTalk application. Before you install this sample, you must install the ESB Toolkit Core as described in [Installing the BizTalk ESB Toolkit Core](https://go.microsoft.com/fwlink/?LinkId=187612) ([http://go.microsoft.com/fwlink/?LinkId=187612](https://go.microsoft.com/fwlink/?LinkId=187612)).
+   This section describes the process for installing the JMS MQRFH2 sample into the GlobalBank.JMS BizTalk application. Before you install this sample, you must install the ESB Toolkit Core as described in [Installing the BizTalk ESB Toolkit Core](https://go.microsoft.com/fwlink/?LinkId=187612) ([https://go.microsoft.com/fwlink/?LinkId=187612](https://go.microsoft.com/fwlink/?LinkId=187612)).
 
    You can install the JMS MQRFH2 Component sample from the solution project or use the Windows Installer file included with the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]. This section contains the following topics:
 

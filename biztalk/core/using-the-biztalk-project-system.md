@@ -25,7 +25,7 @@ You can use the BizTalk project system to create, organize, and configure BizTal
 
  The BizTalk Server project system uses the same project management principles and procedures that you use with other Microsoft Build Engine (MSBuild) projects in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. This section details common procedures that you might use when creating an application that runs on Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
 
- For more information about MSBuild, see the MSBuild reference section in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection at [http://go.microsoft.com/fwlink/?LinkId=193567](https://go.microsoft.com/fwlink/?LinkId=193567).
+ For more information about MSBuild, see the MSBuild reference section in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection at [https://go.microsoft.com/fwlink/?LinkId=193567](https://go.microsoft.com/fwlink/?LinkId=193567).
 
  For more information about using the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment, see "Managing Solutions, Projects, and Files" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection at [https://msdn.microsoft.com/library/wbzbtw81.aspx](https://msdn.microsoft.com/library/wbzbtw81.aspx).
 

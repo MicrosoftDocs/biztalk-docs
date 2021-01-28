@@ -18,7 +18,7 @@ manager: "anneta"
 Message routing patterns define proven guidelines for routing a message to its target endpoint(s). Routing can be the result of static configuration, or it can be dynamically configured based on a number of criteria and using a number of methods.
 
 ## Message Router
- The Message Router pattern determines the recipient of the message based on a set of conditions. For a detailed description of this pattern, see [Message Router](https://go.microsoft.com/fwlink/?LinkId=186844) ([http://go.microsoft.com/fwlink/?LinkId=186844](https://go.microsoft.com/fwlink/?LinkId=186844)) on the Enterprise Integration Patterns site.
+ The Message Router pattern determines the recipient of the message based on a set of conditions. For a detailed description of this pattern, see [Message Router](https://go.microsoft.com/fwlink/?LinkId=186844) ([https://go.microsoft.com/fwlink/?LinkId=186844](https://go.microsoft.com/fwlink/?LinkId=186844)) on the Enterprise Integration Patterns site.
 
  The implementation of this pattern in the Itinerary Designer is a combination of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] itinerary routing service and a single content-based resolver. The itinerary routing service is responsible for promoting message routing properties in Microsoft BizTalk message context or for explicit routing of a message.
 
@@ -37,7 +37,7 @@ Message routing patterns define proven guidelines for routing a message to its t
 - [How to: Resolve a Service Endpoint Using a UDDI Category Search](../esb-toolkit/how-to-resolve-a-service-endpoint-using-a-uddi-category-search.md)
 
 ## Content-Based Router
- The Content-Based Router pattern determines the recipient of a message based on message content. For a detailed description of this pattern, see [Content-Based Router](https://go.microsoft.com/fwlink/?LinkId=186839) ([http://go.microsoft.com/fwlink/?LinkId=186839](https://go.microsoft.com/fwlink/?LinkId=186839)) on the Enterprise Integration Patterns site.
+ The Content-Based Router pattern determines the recipient of a message based on message content. For a detailed description of this pattern, see [Content-Based Router](https://go.microsoft.com/fwlink/?LinkId=186839) ([https://go.microsoft.com/fwlink/?LinkId=186839](https://go.microsoft.com/fwlink/?LinkId=186839)) on the Enterprise Integration Patterns site.
 
  The implementation of this pattern in Itinerary Designer is a combination of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] itinerary routing service and a single content-based resolver. The itinerary routing service is responsible for promoting message routing properties in the BizTalk message context or for explicitly routing a message.
 
@@ -69,7 +69,7 @@ Message routing patterns define proven guidelines for routing a message to its t
 - [How to: Dynamically Route a Message Based on Message Context Using a Business Rules Policy](../esb-toolkit/dynamically-route-messages-based-on-message-context-using-business-rules-policy.md)
 
 ## Routing Slip
- The Routing Slip pattern describes a scenario in which a message must be routed through a series of components in a pre-defined order, which may not be known at the design time. For a detailed description of this pattern, see [Routing Slip](https://go.microsoft.com/fwlink/?LinkId=186840) ([http://go.microsoft.com/fwlink/?LinkId=186840](https://go.microsoft.com/fwlink/?LinkId=186840)) on the Enterprise Integration Patterns site.
+ The Routing Slip pattern describes a scenario in which a message must be routed through a series of components in a pre-defined order, which may not be known at the design time. For a detailed description of this pattern, see [Routing Slip](https://go.microsoft.com/fwlink/?LinkId=186840) ([https://go.microsoft.com/fwlink/?LinkId=186840](https://go.microsoft.com/fwlink/?LinkId=186840)) on the Enterprise Integration Patterns site.
 
  The implementation of this pattern is provided by the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]; its implementation depends on the type of client application that submits a message for itinerary-based processing:
 
@@ -89,12 +89,12 @@ Message routing patterns define proven guidelines for routing a message to its t
   >  In addition to the preceding scenarios, you can develop a custom itinerary resolver and itinerary routing services. You may consider creating designer extenders for custom itinerary services for use in the Itinerary Designer.
 
 ## Scatter-Gather
- The Scatter-Gather pattern enables messages to be sent to multiple recipients and to aggregate their responses; this results in a single message. For a detailed description of this pattern, see [Scatter-Gather](https://go.microsoft.com/fwlink/?LinkId=186841) ([http://go.microsoft.com/fwlink/?LinkId=186841](https://go.microsoft.com/fwlink/?LinkId=186841)) on the Enterprise Integration Patterns site.
+ The Scatter-Gather pattern enables messages to be sent to multiple recipients and to aggregate their responses; this results in a single message. For a detailed description of this pattern, see [Scatter-Gather](https://go.microsoft.com/fwlink/?LinkId=186841) ([https://go.microsoft.com/fwlink/?LinkId=186841](https://go.microsoft.com/fwlink/?LinkId=186841)) on the Enterprise Integration Patterns site.
 
  For an example of implementing this pattern, see the [Installing and Running the Scatter-Gather Sample](../esb-toolkit/installing-and-running-the-scatter-gather-sample.md) sample.
 
 ## Recipient List
- The Recipient List pattern addresses the scenario solution in which a message is routed to one or more recipients. The recipient list can be defined either statically (meaning it has a fixed list of recipients) or dynamically. For a detailed description of this pattern, see [Recipient List](https://go.microsoft.com/fwlink/?LinkId=186842) ([http://go.microsoft.com/fwlink/?LinkId=186842](https://go.microsoft.com/fwlink/?LinkId=186842)) on the Enterprise Integration Patterns site.
+ The Recipient List pattern addresses the scenario solution in which a message is routed to one or more recipients. The recipient list can be defined either statically (meaning it has a fixed list of recipients) or dynamically. For a detailed description of this pattern, see [Recipient List](https://go.microsoft.com/fwlink/?LinkId=186842) ([https://go.microsoft.com/fwlink/?LinkId=186842](https://go.microsoft.com/fwlink/?LinkId=186842)) on the Enterprise Integration Patterns site.
 
  The implementation of this pattern in Itinerary Designer is a combination of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] itinerary routing service and multiple resolvers. The itinerary routing service is responsible for cloning a message and then using its BizTalk message context properties to explicitly route a message.
 
@@ -109,6 +109,6 @@ Message routing patterns define proven guidelines for routing a message to its t
 - [How to: Route a Single Message to Multiple Recipients Using an Itinerary Routing Slip](../esb-toolkit/route-a-single-message-to-multiple-recipients-using-an-itinerary-routing-slip.md)
 
 ## Splitter
- The Splitter pattern addresses the problem when a single message needs to be split into multiple messages. For a detailed description of this pattern, see [Splitter](https://go.microsoft.com/fwlink/?LinkId=186843) ([http://go.microsoft.com/fwlink/?LinkId=186843](https://go.microsoft.com/fwlink/?LinkId=186843)) on the Enterprise Integration Patterns site. For more information about implementing this pattern, see the following resource:
+ The Splitter pattern addresses the problem when a single message needs to be split into multiple messages. For a detailed description of this pattern, see [Splitter](https://go.microsoft.com/fwlink/?LinkId=186843) ([https://go.microsoft.com/fwlink/?LinkId=186843](https://go.microsoft.com/fwlink/?LinkId=186843)) on the Enterprise Integration Patterns site. For more information about implementing this pattern, see the following resource:
 
 -   [How to: Split an Interchange and Route the Resulting Messages to Multiple File Locations Using Distinct Itineraries](../esb-toolkit/split-an-interchange-and-route-messages-to-multiple-locations-using-itineraries.md)

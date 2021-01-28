@@ -19,9 +19,9 @@ The topics listed here describe the backup and restore processes in more detail 
 
 - For information about marked transaction, full backups, and logs, see [Marked Transactions, Full Backups, and Log Backups](https://go.microsoft.com/fwlink/?LinkId=151565) (https://go.microsoft.com/fwlink/?LinkId=151565).
 
-- For information about [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping, see [BizTalk Server Log Shipping](https://go.microsoft.com/fwlink/?LinkId=151566) (<http://go.microsoft.com/fwlink/?LinkId=151566>).
+- For information about [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping, see [BizTalk Server Log Shipping](https://go.microsoft.com/fwlink/?LinkId=151566) (<https://go.microsoft.com/fwlink/?LinkId=151566>).
 
-- For information about scheduling backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job, see [How to Schedule the Backup BizTalk Server Job](https://go.microsoft.com/fwlink/?LinkId=151568) (<http://go.microsoft.com/fwlink/?LinkId=151568>).
+- For information about scheduling backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job, see [How to Schedule the Backup BizTalk Server Job](https://go.microsoft.com/fwlink/?LinkId=151568) (<https://go.microsoft.com/fwlink/?LinkId=151568>).
 
 - For information about backing up custom databases, see [How to Back Up Custom Databases](https://go.microsoft.com/fwlink/?LinkId=151569) (https://go.microsoft.com/fwlink/?LinkId=151569).
 

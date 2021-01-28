@@ -69,7 +69,7 @@ In a BizTalk Server environment where the BizTalk Server computer(s) are separat
 
     2.  Click the radio button next to **Use the following IP address**.
 
-2.  Enter a value for the **IP address** field from the range of private IP addresses identified in “RFC 1918, Address Allocation for Private IP Addresses” at [http://go.microsoft.com/fwlink/?LinkID=31904](https://go.microsoft.com/fwlink/?LinkID=31904).
+2.  Enter a value for the **IP address** field from the range of private IP addresses identified in “RFC 1918, Address Allocation for Private IP Addresses” at [https://go.microsoft.com/fwlink/?LinkID=31904](https://go.microsoft.com/fwlink/?LinkID=31904).
 
 3.  Make a note of the IP address that you specified; you will need to associate this value with the NetBIOS name of this computer in a HOSTS file entry later.
 
@@ -86,10 +86,10 @@ In a BizTalk Server environment where the BizTalk Server computer(s) are separat
     >  Because by default Windows checks the local HOSTS file first to resolve NetBIOS names, by updating the HOSTS file on each virtual machine with the unique private IP addresses of the other virtual machines, network traffic between these machine will now be routed over the private virtual network.
 
 ### Disable TCP Offloading for the Virtual Machine Network Cards
- Edit the registry as described in the MSDN topic “Using Registry Values to Enable and Disable Task Offloading (NDIS 5.1)” at [http://go.microsoft.com/fwlink/?LinkId=147619](https://go.microsoft.com/fwlink/?LinkId=147619) to disable TCP offloading for the network cards on each virtual machine.
+ Edit the registry as described in the MSDN topic “Using Registry Values to Enable and Disable Task Offloading (NDIS 5.1)” at [https://go.microsoft.com/fwlink/?LinkId=147619](https://go.microsoft.com/fwlink/?LinkId=147619) to disable TCP offloading for the network cards on each virtual machine.
 
 > [!IMPORTANT]
->  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article "Description of the Microsoft Windows registry" at [http://go.microsoft.com/fwlink/?LinkId=62729](https://go.microsoft.com/fwlink/?LinkId=62729).
+>  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article "Description of the Microsoft Windows registry" at [https://go.microsoft.com/fwlink/?LinkId=62729](https://go.microsoft.com/fwlink/?LinkId=62729).
 
 ## General guidelines for improving network performance
  The following recommendations can be used to increase network performance:
@@ -98,7 +98,7 @@ In a BizTalk Server environment where the BizTalk Server computer(s) are separat
  Just as adding additional hard drives can improve disk performance, adding additional network cards can improve network performance. If the network cards on the computers in your BizTalk Server environment are saturated and the card is a bottleneck, consider adding one or more additional network cards to improve performance.
 
 ### Implement network segmentation
- Follow the recommendations in the **Subnets** section of the "BizTalk Server Database Optimization" whitepaper at [http://go.microsoft.com/fwlink/?LinkID=101578](https://go.microsoft.com/fwlink/?LinkID=101578).
+ Follow the recommendations in the **Subnets** section of the "BizTalk Server Database Optimization" whitepaper at [https://go.microsoft.com/fwlink/?LinkID=101578](https://go.microsoft.com/fwlink/?LinkID=101578).
 
 ### Where possible, replace hubs with switches
  Switches contain logic to directly route traffic between the source and destination whereas hubs use a broadcast model to route traffic. Therefore switches are more efficient and offer improved performance.
@@ -177,4 +177,4 @@ In a BizTalk Server environment where the BizTalk Server computer(s) are separat
 
 - **Wake On LAN disabled (unless being used)** – Configure the network adapter driver to disable wake-on lan functionality. This functionality may be useful for client computers but should seldom if ever be used on a BizTalk Server or SQL Server computer.
 
-  For more information about tuning network adapters for performance, see the **Network Device Settings** section of the "BizTalk Server Database Optimization" whitepaper at [http://go.microsoft.com/fwlink/?LinkID=101578](https://go.microsoft.com/fwlink/?LinkID=101578).
+  For more information about tuning network adapters for performance, see the **Network Device Settings** section of the "BizTalk Server Database Optimization" whitepaper at [https://go.microsoft.com/fwlink/?LinkID=101578](https://go.microsoft.com/fwlink/?LinkID=101578).

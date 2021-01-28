@@ -22,7 +22,7 @@ This topic provides an overview of the test application; a description of the te
 
  The figure below illustrates the high-level architecture used. Visual Studio Team System (VSTS) 2008 Test Load Agent invoked a custom test class, which used the WCF transport to generate load against [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application in this scenario was exposed via a WCF-BasicHttp request-response receive location. VSTS 2008 Test Load Agent was used as the test client because of the great flexibility that it provides, including the capability to configure the number of messages sent in total, number of simultaneous threads, and the sleep interval between requests sent.
 
- Several VSTS 2008 Test Load Agent computers can be run in tandem to simulate real world load patterns. For these tests, the VSTS 2008 Test Load Agent computers were driven by a single VSTS 2008 Test Load Agent Controller computer that was also running BizUnit 3.0. As a result, a consistent load was sent to both the physical and virtual [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers. For more information about using VSTS 2008 Test Edition to generate simulated load for testing, see [http://go.microsoft.com/fwlink/?LinkID=132311](https://go.microsoft.com/fwlink/?LinkID=132311).
+ Several VSTS 2008 Test Load Agent computers can be run in tandem to simulate real world load patterns. For these tests, the VSTS 2008 Test Load Agent computers were driven by a single VSTS 2008 Test Load Agent Controller computer that was also running BizUnit 3.0. As a result, a consistent load was sent to both the physical and virtual [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers. For more information about using VSTS 2008 Test Edition to generate simulated load for testing, see [https://go.microsoft.com/fwlink/?LinkID=132311](https://go.microsoft.com/fwlink/?LinkID=132311).
 
  ![Application Architecture](../technical-guides/media/testapplicationarchitecture.gif "TestApplicationArchitecture")
 Test Application Architecture
@@ -60,7 +60,7 @@ Test Application Architecture
 Test Application Orchestration
 
 ## Testing Methodology
- Performance testing involves many tasks, which if performed manually are repetitive, monotonous, and error prone. In order to improve test efficiency and provide consistency between test runs, [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)] Team System (VSTS) Test Edition with BizUnit 3.0 was used to automate the tasks required during the testing process. VSTS 2008 Test Load Agent computers were used as the test client to generate the message load against the system and the same message types were used on each test run to improve consistency. Following this process provides a consistent set of data for every test run. For more information about BizUnit 3.0, see [http://go.microsoft.com/fwlink/?LinkID=85168](https://go.microsoft.com/fwlink/?LinkID=85168). For more information about [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)] Team System Test Edition, see [http://go.microsoft.com/fwlink/?LinkID=141387](https://go.microsoft.com/fwlink/?LinkID=141387).
+ Performance testing involves many tasks, which if performed manually are repetitive, monotonous, and error prone. In order to improve test efficiency and provide consistency between test runs, [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)] Team System (VSTS) Test Edition with BizUnit 3.0 was used to automate the tasks required during the testing process. VSTS 2008 Test Load Agent computers were used as the test client to generate the message load against the system and the same message types were used on each test run to improve consistency. Following this process provides a consistent set of data for every test run. For more information about BizUnit 3.0, see [https://go.microsoft.com/fwlink/?LinkID=85168](https://go.microsoft.com/fwlink/?LinkID=85168). For more information about [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)] Team System Test Edition, see [https://go.microsoft.com/fwlink/?LinkID=141387](https://go.microsoft.com/fwlink/?LinkID=141387).
 
  The following steps were automated:
 
@@ -164,7 +164,7 @@ Test Application Orchestration
      ![Test Pattern Settings](../technical-guides/media/wcfloadtestpatternsettings.gif "WCFLoadTestPatternSettings")
      Test Pattern Settings
 
-  For more information about working with load tests in [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)], see the topic **Working with Load Tests** in the [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)] Team System documentation at [http://go.microsoft.com/fwlink/?LinkId=141486](https://go.microsoft.com/fwlink/?LinkId=141486).
+  For more information about working with load tests in [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)], see the topic **Working with Load Tests** in the [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)] Team System documentation at [https://go.microsoft.com/fwlink/?LinkId=141486](https://go.microsoft.com/fwlink/?LinkId=141486).
 
 ## Key Performance Indicators Measured During Testing
  The following Performance Monitor counters were captured as key performance indicators (KPI) for all test runs:
@@ -211,7 +211,7 @@ Test Application Orchestration
 
   **For SQL Server:**
 
-- SQL Server was installed as per the installation guide available at [http://go.microsoft.com/fwlink/?LinkId=141021](https://go.microsoft.com/fwlink/?LinkId=141021).
+- SQL Server was installed as per the installation guide available at [https://go.microsoft.com/fwlink/?LinkId=141021](https://go.microsoft.com/fwlink/?LinkId=141021).
 
 - [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] used had the SAN LUNs configured as per the table below. The database and log files were separated to across the LUNs as follows to reduce possible disk I/O contention:
 
@@ -243,9 +243,9 @@ Test Application Orchestration
   |          N/A          |          MSDTC log file           |      5      |           5            |     N/A      |
 
 
-- BizTalk Server was installed as per the installation guides available at [http://go.microsoft.com/fwlink/?LinkId=128383](https://go.microsoft.com/fwlink/?LinkId=128383).
+- BizTalk Server was installed as per the installation guides available at [https://go.microsoft.com/fwlink/?LinkId=128383](https://go.microsoft.com/fwlink/?LinkId=128383).
 
-- The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Best Practices Analyzer (BPA) tool was used to perform platform validation once the system had been configured. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] BPA is available at [http://go.microsoft.com/fwlink/?LinkId=67150](https://go.microsoft.com/fwlink/?LinkId=67150).
+- The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Best Practices Analyzer (BPA) tool was used to perform platform validation once the system had been configured. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] BPA is available at [https://go.microsoft.com/fwlink/?LinkId=67150](https://go.microsoft.com/fwlink/?LinkId=67150).
 
 ## Virtualization Specifics
  A single 50 GB fixed VHD was used to host the operating system for each Hyper-V virtual machine.
@@ -259,7 +259,7 @@ Test Application Orchestration
 > [!NOTE]
 >  Running Sysprep after BizTalk Server has been installed and configured on the server can be accomplished through the use of a Sysprep answer file and scripts provided with BizTalk Server. These sample scripts are designed for use with BizTalk Server installed on 32-bit and 64-bit versions of [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] only. For more information see the BizTalk Server online documentation.
 
- The Unattended Windows Setup Reference is available at [http://go.microsoft.com/fwlink/?LinkId=142364](https://go.microsoft.com/fwlink/?LinkId=142364).
+ The Unattended Windows Setup Reference is available at [https://go.microsoft.com/fwlink/?LinkId=142364](https://go.microsoft.com/fwlink/?LinkId=142364).
 
 ## See Also
  [Appendix C: BizTalk Server and SQL Server Hyper-V Supportability](../technical-guides/appendix-c-biztalk-server-and-sql-server-hyper-v-supportability.md)

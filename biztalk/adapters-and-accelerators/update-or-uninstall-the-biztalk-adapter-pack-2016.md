@@ -85,7 +85,7 @@ Before you run the setup wizard to modify the [!INCLUDE[adapterpacknoversion](..
    msiexec /i AdaptersSetup.msi /qn /f
    ```
 
-    You can use various different combinations with the /f option. For more information about the msiexec command type `msiexec` on the command line, and press `ENTER`. Or go to [http://go.microsoft.com/fwlink/p/?LinkId=103199](https://go.microsoft.com/fwlink/p/?LinkId=103199).
+    You can use various different combinations with the /f option. For more information about the msiexec command type `msiexec` on the command line, and press `ENTER`. Or go to [https://go.microsoft.com/fwlink/p/?LinkId=103199](https://go.microsoft.com/fwlink/p/?LinkId=103199).
 
    > [!IMPORTANT]
    >  While modifying the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation in the silent mode, you cannot change your preferences for opting in or out of CEIP. The preferences you chose during the installation remains, even if you explicitly set the CEIP_OPTIN to true or false.
@@ -128,7 +128,7 @@ Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../in
    msiexec /x AdaptersSetup.msi /qn
    ```
 
-    For more information about the msiexec command type `msiexec` on the command line, and press `ENTER`. Or go to [http://go.microsoft.com/fwlink/p/?LinkId=103199](https://go.microsoft.com/fwlink/p/?LinkId=103199).
+    For more information about the msiexec command type `msiexec` on the command line, and press `ENTER`. Or go to [https://go.microsoft.com/fwlink/p/?LinkId=103199](https://go.microsoft.com/fwlink/p/?LinkId=103199).
 
 ## Remove the bindings
  Complete these steps *only* if the setup wizard fails to remove the adapter bindings or .NET Framework Data Provider registration from the machine.config file.
@@ -245,4 +245,3 @@ Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../in
 
 ## Remove the custom RFCs
 Complete this step to remove the custom RFCs that you installed in the SAP system. See [Install or remove custom RFCs](../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md).
-

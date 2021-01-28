@@ -42,7 +42,7 @@ While performing inbound operations (Polling and Notification) using the [!INCLU
 
 12. In the left pane of the **WCF-Custom Transport Properties**, select the **oracleEBSAdapterInboundTransactionBehavior** service under **ServiceBehavior**.
 
-13. In the right pane of the **WCF-Custom Transport Properties**, specify appropriate values for the **transactionIsolationLevel** and **transactionTimeout** parameters. You can select any of the following transaction isolation levels: **Serializable**, **RepeatableRead**, **ReadCommitted**, **ReadUncommitted**, **Snapshot**, **Chaos**, and **Unspecified**. For information about these transaction isolation levels, see the **Members** section at [http://go.microsoft.com/fwlink/?LinkId=126983](https://go.microsoft.com/fwlink/?LinkId=126983).
+13. In the right pane of the **WCF-Custom Transport Properties**, specify appropriate values for the **transactionIsolationLevel** and **transactionTimeout** parameters. You can select any of the following transaction isolation levels: **Serializable**, **RepeatableRead**, **ReadCommitted**, **ReadUncommitted**, **Snapshot**, **Chaos**, and **Unspecified**. For information about these transaction isolation levels, see the **Members** section at [https://go.microsoft.com/fwlink/?LinkId=126983](https://go.microsoft.com/fwlink/?LinkId=126983).
 
     > [!IMPORTANT]
     >  Oracle E-Business Suite supports only the following two transaction isolation levels: ReadCommitted and Serializable.

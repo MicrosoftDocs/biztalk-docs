@@ -20,23 +20,23 @@ manager: "anneta"
 # Additional Resources
 In addition to Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] and MicrosoftBizTalk Server Help, there are additional resources that discuss programming on this platform. For more information about these resources, go to the following Web sites:
 
-- MSDN at [http://go.microsoft.com/fwlink/?LinkId=25353](https://go.microsoft.com/fwlink/?LinkId=25353)
+- MSDN at [https://go.microsoft.com/fwlink/?LinkId=25353](https://go.microsoft.com/fwlink/?LinkId=25353)
 
-- GotDotNet: The Microsoft [!INCLUDE[btsDotNetFramework](../../includes/btsdotnetframework-md.md)] Community at [http://go.microsoft.com/fwlink/?LinkId=25354](https://go.microsoft.com/fwlink/?LinkId=25354)
+- GotDotNet: The Microsoft [!INCLUDE[btsDotNetFramework](../../includes/btsdotnetframework-md.md)] Community at [https://go.microsoft.com/fwlink/?LinkId=25354](https://go.microsoft.com/fwlink/?LinkId=25354)
 
-- Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] at [http://go.microsoft.com/fwlink/?LinkId=25355](https://go.microsoft.com/fwlink/?LinkId=25355)
+- Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] at [https://go.microsoft.com/fwlink/?LinkId=25355](https://go.microsoft.com/fwlink/?LinkId=25355)
 
-- Microsoft Web Services Developer Center at [http://go.microsoft.com/fwlink/?LinkId=25356](https://go.microsoft.com/fwlink/?LinkId=25356)
+- Microsoft Web Services Developer Center at [https://go.microsoft.com/fwlink/?LinkId=25356](https://go.microsoft.com/fwlink/?LinkId=25356)
 
-- Microsoft Business and Technology Center/Integrate and Automate Business Processes at [http://go.microsoft.com/fwlink/?LinkId=25357](https://go.microsoft.com/fwlink/?LinkId=25357)
+- Microsoft Business and Technology Center/Integrate and Automate Business Processes at [https://go.microsoft.com/fwlink/?LinkId=25357](https://go.microsoft.com/fwlink/?LinkId=25357)
 
-- Microsoft BizTalk Accelerator for HIPAA at [http://go.microsoft.com/fwlink/?LinkID=116712](https://go.microsoft.com/fwlink/?LinkID=116712)
+- Microsoft BizTalk Accelerator for HIPAA at [https://go.microsoft.com/fwlink/?LinkID=116712](https://go.microsoft.com/fwlink/?LinkID=116712)
 
-- Microsoft BizTalk Accelerator for Financial Services at [http://go.microsoft.com/fwlink/?LinkId=116713](https://go.microsoft.com/fwlink/?LinkId=116713)
+- Microsoft BizTalk Accelerator for Financial Services at [https://go.microsoft.com/fwlink/?LinkId=116713](https://go.microsoft.com/fwlink/?LinkId=116713)
 
-- Microsoft BizTalk Accelerator for RosettaNet at [http://go.microsoft.com/fwlink/?LinkId=116714](https://go.microsoft.com/fwlink/?LinkId=116714)
+- Microsoft BizTalk Accelerator for RosettaNet at [https://go.microsoft.com/fwlink/?LinkId=116714](https://go.microsoft.com/fwlink/?LinkId=116714)
 
-- Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Developer Center on MSDN at [http://go.microsoft.com/fwlink/?LinkId=25362](https://go.microsoft.com/fwlink/?LinkId=25362)
+- Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Developer Center on MSDN at [https://go.microsoft.com/fwlink/?LinkId=25362](https://go.microsoft.com/fwlink/?LinkId=25362)
 
 ## See Also
  [Programming Guide](../../adapters-and-accelerators/accelerator-hl7/programming-guide1.md)

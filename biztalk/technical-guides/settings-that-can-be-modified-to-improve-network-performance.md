@@ -38,7 +38,7 @@ This topic provides a description of recommended values   that impact network pe
   
 - netsh int ipv6 show dynamicport udp  
   
-  The **TcpTimedWaitDelay** value determines the length of time that a connection stays in the TIME_WAIT state when being closed. While a connection is in the TIME_WAIT state, the socket pair cannot be reused. This is also known as the 2MSL state because the value should be twice the maximum segment lifetime on the network. For more information, see [Internet RFC 793](http://go.microsoft.com/fwlink/?LinkId=113719) ( HYPERLINK "<http://go.microsoft.com/fwlink/?LinkId=113719>" <http://go.microsoft.com/fwlink/?LinkId=113719>). To adjust the TcpTimedWaitDelay settings, you have to modify the registry settings as listed below:  
+  The **TcpTimedWaitDelay** value determines the length of time that a connection stays in the TIME_WAIT state when being closed. While a connection is in the TIME_WAIT state, the socket pair cannot be reused. This is also known as the 2MSL state because the value should be twice the maximum segment lifetime on the network. For more information, see [Internet RFC 793](https://go.microsoft.com/fwlink/?LinkId=113719) ( HYPERLINK "<https://go.microsoft.com/fwlink/?LinkId=113719>" <https://go.microsoft.com/fwlink/?LinkId=113719>). To adjust the TcpTimedWaitDelay settings, you have to modify the registry settings as listed below:  
   
 ###  
   

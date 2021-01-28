@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Accessibility for People with Disabilities
-Microsoft is committed to making its products and services easier for everyone to use. For general information about accessibility features and services from Microsoft, see the Microsoft Accessibility Web site at [http://go.microsoft.com/fwlink/p/?LinkId=56272](https://go.microsoft.com/fwlink/p/?LinkId=56272).
+Microsoft is committed to making its products and services easier for everyone to use. For general information about accessibility features and services from Microsoft, see the Microsoft Accessibility Web site at [https://go.microsoft.com/fwlink/p/?LinkId=56272](https://go.microsoft.com/fwlink/p/?LinkId=56272).
 
 \<!--- Previous text
 

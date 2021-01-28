@@ -37,7 +37,7 @@ The ​Microsoft BizTalk ESB Toolkit includes several sample applications that y
    ```
 
    > [!NOTE]
-   >  For more information about PowerShell, see the [Windows PowerShell Blog](https://go.microsoft.com/fwlink/?LinkId=187593) ([http://go.microsoft.com/fwlink/?LinkId=187593](https://go.microsoft.com/fwlink/?LinkId=187593)) and [Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=187594) ([http://go.microsoft.com/fwlink/?LinkId=187594](https://go.microsoft.com/fwlink/?LinkId=187594)) on MSDN.
+   >  For more information about PowerShell, see the [Windows PowerShell Blog](https://go.microsoft.com/fwlink/?LinkId=187593) ([https://go.microsoft.com/fwlink/?LinkId=187593](https://go.microsoft.com/fwlink/?LinkId=187593)) and [Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=187594) ([https://go.microsoft.com/fwlink/?LinkId=187594](https://go.microsoft.com/fwlink/?LinkId=187594)) on MSDN.
 
 5. Open a command prompt as an administrator and run the following command to ensure WCF script maps are registered:
 

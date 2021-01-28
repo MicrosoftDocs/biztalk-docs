@@ -20,7 +20,7 @@ This section contains information that is relevant to users who are new to the [
 
 ## Prerequisites
 
-The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is intended for developers who need to integrate dynamic and complex line-of-business systems as part of an enterprise application integration effort. You can download the latest version of the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] at [http://go.microsoft.com/fwlink/?LinkID=189401](https://go.microsoft.com/fwlink/?LinkID=189401).
+The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is intended for developers who need to integrate dynamic and complex line-of-business systems as part of an enterprise application integration effort. You can download the latest version of the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] at [https://go.microsoft.com/fwlink/?LinkID=189401](https://go.microsoft.com/fwlink/?LinkID=189401).
 
  To create an adapter using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], we suggest being experienced with the following technologies:
 

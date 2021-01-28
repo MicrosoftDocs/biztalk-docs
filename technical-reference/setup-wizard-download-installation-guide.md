@@ -16,6 +16,4 @@ mtps_version: v=BTS.80
 
 
 > [!IMPORTANT]
-> <P>We recommend that you refer to the latest version of the BizTalk Server installation at <A href="http://go.microsoft.com/fwlink/?linkid=269585">http://go.microsoft.com/fwlink/?LinkId=269585</A>.</P>
-
-
+> <P>We recommend that you refer to the latest version of the BizTalk Server installation at <A href="https://go.microsoft.com/fwlink/?linkid=269585">https://go.microsoft.com/fwlink/?LinkId=269585</A>.</P>

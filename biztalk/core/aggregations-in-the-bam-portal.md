@@ -45,7 +45,7 @@ Aggregations are tables of precalculated data you can use for analytical process
 
 - The Office Web Components display data in the content frame of the BAM portal. Because of the space limitations of this frame, adding dimensions from the field list to the columns area can cause the display of the PivotTable to move dimension names partly or wholly out of view.
 
-  For more information about PivotTables, see "PivotTable terminology demystified" at [http://go.microsoft.com/fwlink/?LinkId=55416](https://go.microsoft.com/fwlink/?LinkId=55416).
+  For more information about PivotTables, see "PivotTable terminology demystified" at [https://go.microsoft.com/fwlink/?LinkId=55416](https://go.microsoft.com/fwlink/?LinkId=55416).
 
 ## Chart View
  The Chart View area displays the aggregation in a graphical manner. The Office Web Components allow you to manipulate the details of the aggregation through the chart view to adjust the reported data as needed. When you adjust the aggregation by dragging and dropping data items from the Chart Field list, the PivotTable report for the aggregation is automatically updated to reflect your changes. You can drill through the PivotTable to create an alert on the new aggregation view.

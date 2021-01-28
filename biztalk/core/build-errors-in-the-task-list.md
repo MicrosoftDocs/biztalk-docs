@@ -142,7 +142,7 @@ Failed to add resource(s). Change requests failed for some resources. BizTalkAss
  This error can occur if the orchestration contains any objects that use C# keywords.
 
 ### Resolution
- Remove any C# keywords from the orchestration. For a list of C# keywords, see [http://go.microsoft.com/fwlink/?LinkId=74346](https://go.microsoft.com/fwlink/?LinkId=74346).
+ Remove any C# keywords from the orchestration. For a list of C# keywords, see [https://go.microsoft.com/fwlink/?LinkId=74346](https://go.microsoft.com/fwlink/?LinkId=74346).
 
 ## You receive an "invalid property value" error when compiling your orchestration
 

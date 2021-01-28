@@ -29,7 +29,7 @@ This topic describes the failover processes for the BAM WF interceptor and the B
 
  However, if there are existing ambient transactions when the **CommitWorkBatch** method is called, the workflow instance is terminated immediately when a SQL Server connection is not available.
 
- For more information about the behavior of the **WorkflowCommitBatchService** class in a high availability environment, see the "Reliability and High Availability" section in "Introduction to Hosting Windows Workflow Foundation" at [http://go.microsoft.com/fwlink/?LinkId=88068](https://go.microsoft.com/fwlink/?LinkId=88068).
+ For more information about the behavior of the **WorkflowCommitBatchService** class in a high availability environment, see the "Reliability and High Availability" section in "Introduction to Hosting Windows Workflow Foundation" at [https://go.microsoft.com/fwlink/?LinkId=88068](https://go.microsoft.com/fwlink/?LinkId=88068).
 
 ## BAM WCF Interceptor
  In a high availability environment, the BAM WCF interceptor does not retry retrieval of the interceptor configuration file when there is a SQL Server connection problem during a SQL Server failover. You should therefore customize the WCF code to compensate for failure or use reliable messaging to resubmit messages.

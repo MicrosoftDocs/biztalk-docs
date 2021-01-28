@@ -40,7 +40,7 @@ BAM Alert execution can be modified through three avenues, The BAM Portal, the B
 -   [How to Remove BAM Alerts](../core/how-to-remove-bam-alerts.md)
 
 ### Modifying Notification Services Configuration Files
- Administrators can use the ProcessBamNSFiles.vbs script to change the manner in which the Notification Services delivers alerts. For more information the Application Definition File (ADF) for Notification Services, see [http://go.microsoft.com/fwlink/?LinkId=127016](https://go.microsoft.com/fwlink/?LinkId=127016).
+ Administrators can use the ProcessBamNSFiles.vbs script to change the manner in which the Notification Services delivers alerts. For more information the Application Definition File (ADF) for Notification Services, see [https://go.microsoft.com/fwlink/?LinkId=127016](https://go.microsoft.com/fwlink/?LinkId=127016).
 
  To modify the ADF associated with BAM you can follow these general steps:
 

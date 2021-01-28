@@ -168,7 +168,7 @@ There are a number of configurable options on the BAM portal. The following proc
 
  HTTP Error 401.1 - Unauthorized: Access is denied due to invalid credentials.
 
- For additional information about modifying the IIS security settings, see the Knowledge Base article at [http://go.microsoft.com/fwlink/?LinkId=57922](https://go.microsoft.com/fwlink/?LinkId=57922).
+ For additional information about modifying the IIS security settings, see the Knowledge Base article at [https://go.microsoft.com/fwlink/?LinkId=57922](https://go.microsoft.com/fwlink/?LinkId=57922).
 
 ## Viewing Aggregate BAM Data in the BAM Portal in SQL Server 2008  Deployments
  To view aggregate data in the BAM portal from a client computer connecting to the BAM portal when the deployment environment uses SQL Server 2008, you must install Microsoft SQL Server 2008 Analysis Services 10.0 OLE DB Provider on the client computer. If the analysis services are not installed users will receive the following error message:

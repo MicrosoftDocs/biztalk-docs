@@ -110,7 +110,7 @@ You must install the BAM interceptor software and configure your application to 
 
 - The interceptor stops the IC polling thread when last BamTrackingService in application domain is stopped
 
-  For more information on WorkflowRuntime and loading configuration information, see [http://go.microsoft.com/fwlink/?LinkId=83314](https://go.microsoft.com/fwlink/?LinkId=83314).
+  For more information on WorkflowRuntime and loading configuration information, see [https://go.microsoft.com/fwlink/?LinkId=83314](https://go.microsoft.com/fwlink/?LinkId=83314).
 
 ##### To configure the App.config file for the BAM tracking service
 

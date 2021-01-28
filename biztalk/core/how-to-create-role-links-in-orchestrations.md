@@ -62,7 +62,7 @@ The following are the basic tasks you will need to complete to use role links in
 
 -   [PartyResolution (BizTalk Server Sample)](../core/partyresolution-biztalk-server-sample.md)
 
--   Download the SDK sample "Using Role Links" from the BizTalk Server code samples available at [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Using Role Links" from the BizTalk Server code samples available at [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
 ## See Also
  [Using Role Links in Orchestrations](../core/using-role-links-in-orchestrations.md)

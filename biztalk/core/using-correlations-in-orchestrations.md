@@ -58,9 +58,9 @@ Correlation is the process of matching an incoming message with the appropriate 
 
 -   [PartyResolution (BizTalk Server Sample)](../core/partyresolution-biztalk-server-sample.md)
 
--   Download the SDK sample "Correlating Messages with Orchestration Instances" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Correlating Messages with Orchestration Instances" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
--   Download the SDK sample "Parallel Convoy" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Parallel Convoy" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
 ## In This Section
 

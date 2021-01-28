@@ -198,5 +198,4 @@ You can use the Data Source Wizard to guide you through the steps to configure a
  The Completing the Data Source Wizard screen displays a summary and status of your configuration. Click **Finish** to implement your actions.  
   
 ## Data Access Library  
- You can use the .NET Framework classes in the **Microsoft.HostIntegration.DataAccessLibrary** Namespace to automate defining packages and data sources. For the reference documentation, see [Microsoft.HostIntegration.DataAccessLibrary Namespace](http://go.microsoft.com/fwlink/?LinkID=180763) (http://go.microsoft.com/fwlink/?LinkID=180763).
-
+ You can use the .NET Framework classes in the **Microsoft.HostIntegration.DataAccessLibrary** Namespace to automate defining packages and data sources. For the reference documentation, see [Microsoft.HostIntegration.DataAccessLibrary Namespace](https://go.microsoft.com/fwlink/?LinkID=180763) (https://go.microsoft.com/fwlink/?LinkID=180763).

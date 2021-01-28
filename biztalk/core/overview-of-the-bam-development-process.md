@@ -45,7 +45,7 @@ This topic describes the development process and the database and tables that st
 1.  Create an observation model with the BAM Add-in for Excel.
 
     > [!NOTE]
-    >  Examples of the steps noted in this procedure can be found in the BAM API (BizTalk Server sample) at [http://go.microsoft.com/fwlink/?LinkId=69968](https://go.microsoft.com/fwlink/?LinkId=69968).
+    >  Examples of the steps noted in this procedure can be found in the BAM API (BizTalk Server sample) at [https://go.microsoft.com/fwlink/?LinkId=69968](https://go.microsoft.com/fwlink/?LinkId=69968).
 
 2.  Use the BAM Management utility to deploy the activity to the PID.
 

@@ -109,7 +109,7 @@ maxConcurrentInstances="200" />
 -   Profile
 
 ## Use the WCF Module/Handler Registration tool to configure WCF modules/handlers and improve scalability of IIS 7.5/7.0 hosted WCF services
- The WCF Module/Handler Registration Tool is available for download at [http://go.microsoft.com/fwlink/?LinkId=157593](https://go.microsoft.com/fwlink/?LinkId=157593) (https://go.microsoft.com/fwlink/?LinkId=157593). This utility can be used to install, list, or configure the following WCF modules:
+ The WCF Module/Handler Registration Tool is available for download at [https://go.microsoft.com/fwlink/?LinkId=157593](https://go.microsoft.com/fwlink/?LinkId=157593) (https://go.microsoft.com/fwlink/?LinkId=157593). This utility can be used to install, list, or configure the following WCF modules:
 
 - WCF Synchronous HTTP module and handler
 

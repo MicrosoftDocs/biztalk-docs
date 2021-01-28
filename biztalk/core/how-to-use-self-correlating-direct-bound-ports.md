@@ -28,7 +28,7 @@ Self-correlating direct bound ports are self referential. This means that a self
 
    Although the preceding sequence of events can also be done with a **Call Orchestration** shape, it only makes sense when using a **Start Orchestration** shape. This is because when using a **Call Orchestration** shape, ports are passed by reference. The polarity of the port must be same in both of the orchestrations. Therefore, the communication direction of the port you pass in from one orchestration must be the same as the direction of the port reference in the called orchestration. However, when using the **Start Orchestration** shape, an asynchronous instantiation of an orchestration is generated and it cannot have **Out** or **Ref** parameters; therefore, the self-correlating direct bound port provides a way for an orchestration to respond back to the orchestration instance that instantiated it.
 
-   For an example of how to use self-correlating direct bound ports, see the SDK sample "Implementing Scatter and Gather Pattern" at [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+   For an example of how to use self-correlating direct bound ports, see the SDK sample "Implementing Scatter and Gather Pattern" at [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
 ## See Also
  [How to Use MessageBox Direct Bound Ports](../core/how-to-use-messagebox-direct-bound-ports.md)

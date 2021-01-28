@@ -96,7 +96,7 @@ ASHOST=ADAPSAP47
 SYSNR=00
 ```
 
- For more information about the saprfc.ini file, see [http://go.microsoft.com/fwlink/?LinkId=91457](https://go.microsoft.com/fwlink/?LinkId=91457).
+ For more information about the saprfc.ini file, see [https://go.microsoft.com/fwlink/?LinkId=91457](https://go.microsoft.com/fwlink/?LinkId=91457).
 
  The password for all three connection types must not contain double quotation marks. However, if the password contains any other special characters, the password must be enclosed within double quotation marks. For example:
 

@@ -22,7 +22,7 @@ The Society for Worldwide Interbank Financial Telecommunication (SWIFT) updates 
 
  SWIFT typically announces preliminary updates 12 months before you are required by the SWIFT network to have the changes implemented. The updates are typically finalized nine months prior to SWIFT's "go live" date. You should consider this timeline when you plan any [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] implementation.
 
- For more information about the latest [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] updates and releases, go to the BizTalk Accelerator for SWIFT Web site at [http://go.microsoft.com/fwlink/?LinkId=28272](https://go.microsoft.com/fwlink/?LinkId=28272).
+ For more information about the latest [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] updates and releases, go to the BizTalk Accelerator for SWIFT Web site at [https://go.microsoft.com/fwlink/?LinkId=28272](https://go.microsoft.com/fwlink/?LinkId=28272).
 
 ## See Also
  [SWIFT Messages](../../adapters-and-accelerators/accelerator-swift/swift-messages.md)

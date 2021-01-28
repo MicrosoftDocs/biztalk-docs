@@ -73,9 +73,9 @@ UDDI:\\serverUrl=http://localhost/uddi;serviceName=OrderPurchaseToOrderPost;serv
 
 - **securityUriSuffix**
 
-- **securityMode**. For valid values, see the enumeration [System.ServiceModel.BasicHttpSecurityMode](https://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409) ([http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409)). The default value is **TransportCredentialOnly**.
+- **securityMode**. For valid values, see the enumeration [System.ServiceModel.BasicHttpSecurityMode](https://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409) ([https://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409)). The default value is **TransportCredentialOnly**.
 
-- **credentialType**. For valid values, see the enumeration [System.ServiceModel.HttpClientCredentialType](https://go.microsoft.com/fwlink/?LinkId=188285) ([http://go.microsoft.com/fwlink/?LinkId=188285](https://go.microsoft.com/fwlink/?LinkId=188285)). The default value is **Windows**.
+- **credentialType**. For valid values, see the enumeration [System.ServiceModel.HttpClientCredentialType](https://go.microsoft.com/fwlink/?LinkId=188285) ([https://go.microsoft.com/fwlink/?LinkId=188285](https://go.microsoft.com/fwlink/?LinkId=188285)). The default value is **Windows**.
 
 - **username**
 

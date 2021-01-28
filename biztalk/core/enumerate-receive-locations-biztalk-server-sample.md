@@ -97,7 +97,7 @@ The Enumerate Receive Locations sample demonstrates how to retrieve details abou
 ## Comments
  All tasks that you can perform in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console can also be performed by using script that accesses the Windows WMI object model and by using Visual C# that accesses the **System.Management** objects provided by the .NET Framework.
 
- The script file EnumRecLocs.vbs and the Visual C# source file EnumRLs.cs contain detailed comments with further explanation about the operations that they perform. For more information, see Windows Management Instrumentation at [http://go.microsoft.com/fwlink/?LinkId=21102](https://go.microsoft.com/fwlink/?LinkId=21102).
+ The script file EnumRecLocs.vbs and the Visual C# source file EnumRLs.cs contain detailed comments with further explanation about the operations that they perform. For more information, see Windows Management Instrumentation at [https://go.microsoft.com/fwlink/?LinkId=21102](https://go.microsoft.com/fwlink/?LinkId=21102).
 
 ## See Also
  [Admin-WMI (BizTalk Server Samples Folder)](../core/admin-wmi-biztalk-server-samples-folder.md)

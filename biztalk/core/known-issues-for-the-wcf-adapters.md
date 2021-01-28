@@ -102,7 +102,7 @@ The request operation at net.tcp://localhost:8088/MyService/tcp did not receive 
 ## A memory leak may occur when sending messages to non-transactional MSMQ queues using WCF-NetMsmq binding
  A memory leak may occur in the BizTalk NT service when sending messages to non-transactional MSMQ queues using WCF-NetMsmq binding. This may occur when you send messages to a non-transactional MSMQ queue using WCF-NetMsmq transport or when you send messages to a non-transactional MSMQ queue using netMsmqBinding with WCF-Custom transport.
 
- To resolve the issue, you must install .NET Framework 3.0 hotfix described in the KB article 936512 at [http://go.microsoft.com/fwlink/?LinkId=92962](https://go.microsoft.com/fwlink/?LinkId=92962). The hotfix does not require a system reboot but it is necessary to restart the BizTalk NT service which hosts the send ports that using WCF-NetMsmq binding.
+ To resolve the issue, you must install .NET Framework 3.0 hotfix described in the KB article 936512 at [https://go.microsoft.com/fwlink/?LinkId=92962](https://go.microsoft.com/fwlink/?LinkId=92962). The hotfix does not require a system reboot but it is necessary to restart the BizTalk NT service which hosts the send ports that using WCF-NetMsmq binding.
 
 ## You may receive exception when communicating with Apache Web servers using WCF-BasicHttp adapter
  When you use WCF-BasicHttp adapter with transport security to communicate with an Apache Web server, you may receive the exception similar to the followings:

@@ -17,7 +17,7 @@ manager: "anneta"
 # Securing Your BizTalk Server Deployment
 The topics in this section provide the links about configuring firewall ports, Internet protocol security (IPSec), and secure sockets layer (SSL) security after you have installed and configured BizTalk.
 
-- For more information about how to implement SSL in a Web server, see [http://go.microsoft.com/fwlink/p/?LinkId=193059](https://go.microsoft.com/fwlink/p/?LinkId=193059).
+- For more information about how to implement SSL in a Web server, see [https://go.microsoft.com/fwlink/p/?LinkId=193059](https://go.microsoft.com/fwlink/p/?LinkId=193059).
 
 - For more information about how to enable encryption between SQL Server and its clients such as processing servers and administration clients, see [Transparent Data Encryption (TDE)](https://msdn.microsoft.com/library/bb934049.aspx).
 

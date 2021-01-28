@@ -30,7 +30,7 @@ The primary method of troubleshooting is tracing.
 >  \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On
 
 > [!NOTE]
->  You can download this file from the following location: [http://go.microsoft.com/fwlink/?LinkId=59534](https://go.microsoft.com/fwlink/?LinkId=59534)
+>  You can download this file from the following location: [https://go.microsoft.com/fwlink/?LinkId=59534](https://go.microsoft.com/fwlink/?LinkId=59534)
 
 #### To use the trace utility
 

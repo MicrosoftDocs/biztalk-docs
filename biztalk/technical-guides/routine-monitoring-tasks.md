@@ -29,7 +29,7 @@ Performing the following monitoring tasks on a regularly scheduled basis will as
 
   - Suspend, terminate, and resume service instances.
 
-    For more information about using the **Group Hub** page, see [http://go.microsoft.com/fwlink/?LinkId=155281](https://go.microsoft.com/fwlink/?LinkId=155281).
+    For more information about using the **Group Hub** page, see [https://go.microsoft.com/fwlink/?LinkId=155281](https://go.microsoft.com/fwlink/?LinkId=155281).
 
 - Review warnings (optional).
 
@@ -49,7 +49,7 @@ Performing the following monitoring tasks on a regularly scheduled basis will as
 
 - Run Perfmon every few months, to once a quarter or even every six months depending on the number of changes occur in your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment.
 
-- Run BizTalk Server Best Practices Analyzer when the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment changes (for example, the addition of new applications or creation of new hosts). You can download the BizTalk Server Best Practices Analyzer at [http://go.microsoft.com/fwlink/?LinkId=83317](https://go.microsoft.com/fwlink/?LinkId=83317).
+- Run BizTalk Server Best Practices Analyzer when the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment changes (for example, the addition of new applications or creation of new hosts). You can download the BizTalk Server Best Practices Analyzer at [https://go.microsoft.com/fwlink/?LinkId=83317](https://go.microsoft.com/fwlink/?LinkId=83317).
 
 - Run the [BizTalk MsgBoxViewer tool](https://go.microsoft.com/fwlink/?LinkId=151930) (https://go.microsoft.com/fwlink/?LinkId=151930). This tool analyzes the BizTalk MessageBox and other databases and generates an HTML report containing warnings, if any, and other information related to the databases.
 

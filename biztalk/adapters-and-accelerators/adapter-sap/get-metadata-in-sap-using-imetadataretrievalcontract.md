@@ -37,7 +37,7 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] exposes an **IMetada
 |**MetadataRetrievalNode** class<br /><br /> (Microsoft.ServiceModel.Channels)|Represents a metadata node on the adapter. The **Browse** and **Search** methods return nodes of this type, and the **GetMetadata** method takes nodes of this type as a parameter.|
 |**ServiceDescription** class<br /><br /> (System.Web.Services.Description)|Provides a means of creating and formatting a valid WSDL document file. The **GetMetadata** method returns a **ServiceDescription** object.|
 
- For more information about the **IMetadataRetrievalContract** interface, the **MetadataRetrievalClient** class, and the **MetadataRetrievalNode** class; see the **Microsoft.ServiceModel.Channels** managed reference at [http://go.microsoft.com/fwlink/?LinkId=105566](https://go.microsoft.com/fwlink/?LinkId=105566).
+ For more information about the **IMetadataRetrievalContract** interface, the **MetadataRetrievalClient** class, and the **MetadataRetrievalNode** class; see the **Microsoft.ServiceModel.Channels** managed reference at [https://go.microsoft.com/fwlink/?LinkId=105566](https://go.microsoft.com/fwlink/?LinkId=105566).
 
 ### Metadata Node IDs
  The adapter organizes its metadata as a hierarchical tree of nodes. Within this tree structure there are two types of metadata nodes:

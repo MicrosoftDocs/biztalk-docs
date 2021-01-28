@@ -126,7 +126,7 @@ This section provides information about how to use SQL Server Management Studio 
 
 4. In the **Execute Package Utility** dialog box, click **Close**.
 
-   For more information about running packages, see "Running Packages" at [http://go.microsoft.com/fwlink/?LinkId=94972](https://go.microsoft.com/fwlink/?LinkId=94972). For any other information related to SSIS packages, see "Package How-to Topics (SSIS)" at [http://go.microsoft.com/fwlink/?LinkId=94973](https://go.microsoft.com/fwlink/?LinkId=94973).
+   For more information about running packages, see "Running Packages" at [https://go.microsoft.com/fwlink/?LinkId=94972](https://go.microsoft.com/fwlink/?LinkId=94972). For any other information related to SSIS packages, see "Package How-to Topics (SSIS)" at [https://go.microsoft.com/fwlink/?LinkId=94973](https://go.microsoft.com/fwlink/?LinkId=94973).
 
 ## Verifying the Results
  After executing the package, you must verify the results by going to the SQL Server database to which the Siebel data is imported. Executing the package should have created a table in the destination database. This table should be populated with the values from the Siebel table.

@@ -23,7 +23,7 @@ You can use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkserve
  Adding a host instance maps the instance of a given host to an instance of BizTalk Server. If you have an existing host instance that you must repair, you can update the host instance properties. You must stop an existing host instance before you can add it again. For information about stopping a host instance, see [How to Stop a Host Instance](../core/how-to-stop-a-host-instance.md).
 
 > [!NOTE]
->  If you want to create more that 26 host instances, you must follow the instructions in Knowledge Base article 184802, "User32.dll or Kernel32.dll Fails to Initialize," which is available at [http://go.microsoft.com/fwlink/?LinkId=26176](https://go.microsoft.com/fwlink/?LinkId=26176). If you require additional host instances after you apply the recommendations in this Knowledge Base article, you can try reducing the amount of memory available for each instance of the BTSNTSvc service. This will provide additional memory necessary to create more instances.
+>  If you want to create more that 26 host instances, you must follow the instructions in Knowledge Base article 184802, "User32.dll or Kernel32.dll Fails to Initialize," which is available at [https://go.microsoft.com/fwlink/?LinkId=26176](https://go.microsoft.com/fwlink/?LinkId=26176). If you require additional host instances after you apply the recommendations in this Knowledge Base article, you can try reducing the amount of memory available for each instance of the BTSNTSvc service. This will provide additional memory necessary to create more instances.
 
 > [!NOTE]
 >  The service account will automatically be granted log on as service permissions on the server where the host instance is installed.

@@ -45,8 +45,8 @@ The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md
 
 |Resource|Location|
 |--------------|--------------|
-|Host Integration Server Home|[http://go.microsoft.com/fwlink/?LinkId=187949](https://go.microsoft.com/fwlink/?LinkId=187949)|
-|Host Integration Server Blog|[http://go.microsoft.com/fwlink/?LinkId=142377](https://go.microsoft.com/fwlink/?LinkId=142377)|
-|Host Integration Server Forum|[http://go.microsoft.com/fwlink/?LinkId=191382](https://go.microsoft.com/fwlink/?LinkId=191382)|
-|Host Integration Server on Microsoft Connect|[http://go.microsoft.com/fwlink/?LinkId=187946](https://go.microsoft.com/fwlink/?LinkId=187946)|
-|TechNet Wiki|[http://go.microsoft.com/fwlink/?LinkId=198099](https://go.microsoft.com/fwlink/?LinkId=198099)|
+|Host Integration Server Home|[https://go.microsoft.com/fwlink/?LinkId=187949](https://go.microsoft.com/fwlink/?LinkId=187949)|
+|Host Integration Server Blog|[https://go.microsoft.com/fwlink/?LinkId=142377](https://go.microsoft.com/fwlink/?LinkId=142377)|
+|Host Integration Server Forum|[https://go.microsoft.com/fwlink/?LinkId=191382](https://go.microsoft.com/fwlink/?LinkId=191382)|
+|Host Integration Server on Microsoft Connect|[https://go.microsoft.com/fwlink/?LinkId=187946](https://go.microsoft.com/fwlink/?LinkId=187946)|
+|TechNet Wiki|[https://go.microsoft.com/fwlink/?LinkId=198099](https://go.microsoft.com/fwlink/?LinkId=198099)|
