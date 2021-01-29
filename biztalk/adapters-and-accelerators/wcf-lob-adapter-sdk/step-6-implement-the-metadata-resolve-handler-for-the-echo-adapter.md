@@ -374,7 +374,7 @@ public interface IMetadataResolverHandler : IConnectionHandler, IDisposable
   
      with the following code that begins the definition of the CustomGreeting schema:  
   
-    ```csharp  
+    ```xml
     <?xml version="1.0" encoding="utf-16"?>  
     <xsd:schema xmlns:b="http://schemas.microsoft.com/BizTalk/2003" xmlns="echov2://microsoft.adapters.samples.echov2/PreDefinedTypes" elementFormDefault="qualified" targetNamespace="echov2://microsoft.adapters.samples.echov2/PreDefinedTypes" xmlns:xsd ="http://www.w3.org/2001/XMLSchema">  
     ```  

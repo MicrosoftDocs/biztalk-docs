@@ -53,7 +53,7 @@ In this step, you create the send port to deliver the query responses back to th
    |--------------|------------------------------------------------------------------------------------------|
    | **Property** |                               Select **BTS.MessageType**.                                |
    | **Operator** |                          Select **==** from the drop-down list.                          |
-   |  **Value**   |          Type **<http://microsoft.com/HealthCare/HL7/2X#DSR_Q01_24_GLO_DEF>**.           |
+   |  **Value**   |          Type ``http://microsoft.com/HealthCare/HL7/2X`#DSR_Q01_24_GLO_DEF`.           |
    | **Group By** |                         Select **AND** from the drop-down list.                          |
    | **Property** | Under the first property, click the blank box, and then select **BTAHL7Schemas.MSH5_1**. |
    | **Operator** |                          Select **==** from the drop-down list.                          |

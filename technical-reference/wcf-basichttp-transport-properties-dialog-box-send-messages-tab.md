@@ -47,9 +47,7 @@ Minimum length: 0<br />
 <br />
 Maximum length: 32767<br />
 <br />
-The default is &lt;bts-msg-body<br />
-<br />
-`xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"`.</td>
+The default is `bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"`.</td>
 </tr>
 <tr class="even">
 <td><strong>Envelope -- entire &lt;soap:Envelope&gt;</strong></td>

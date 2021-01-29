@@ -33,7 +33,7 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   
  Entity descriptions:  
   
- [Version] = http://schemas.microsoft.com/OracleEBS/2008/05.  
+ [Version] = `http://schemas.microsoft.com/OracleEBS/2008/05`.  
   
  [CustomPollingOperation] = Name of the custom polling operation.  
   

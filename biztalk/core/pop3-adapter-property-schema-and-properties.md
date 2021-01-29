@@ -31,7 +31,7 @@ manager: "anneta"
 # POP3 Adapter Property Schema and Properties
 The following table lists the properties in the POP3 adapter property schema.  
   
- **Namespace:** http://schemas.microsoft.com/BizTalk/2003/pop3-properties  
+ **Namespace:** `http://schemas.microsoft.com/BizTalk/2003/pop3-properties`  
   
 |**Name**|**Type**|**Description**|  
 |--------------|--------------|---------------------|  

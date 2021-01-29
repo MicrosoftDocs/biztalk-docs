@@ -35,7 +35,7 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   
  Entity descriptions:  
   
- [VERSION] = http://schemas.microsoft.com/OracleEBS/2008/05.  
+ [VERSION] = `http://schemas.microsoft.com/OracleEBS/2008/05`.  
   
  [SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.  
   

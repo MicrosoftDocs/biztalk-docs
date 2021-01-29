@@ -30,4 +30,4 @@ manager: "anneta"
   
 6.  In the Upload Document window, click **OK**.  
   
-7.  In the New SWIFT MT Messages: MTXXX window, in the Namespace box, type **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**, and then click **OK**.
+7.  In the New SWIFT MT Messages: MTXXX window, in the Namespace box, type `http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx`, and then click **OK**.

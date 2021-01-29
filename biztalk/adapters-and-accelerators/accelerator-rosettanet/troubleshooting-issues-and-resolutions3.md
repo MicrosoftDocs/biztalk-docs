@@ -120,7 +120,9 @@ This topic addresses issues related to running Microsoft® [!INCLUDE[BTARN_Curre
   
  For example:  
   
- \<schemaInfo document_type="4A1" version="V02_00" xmlns="<http://schemas.microsoft.com/BizTalk/2003>" *displayroot_reference="Pip4A1StrategicForecastNotification"* root_reference="Pip4A1StrategicForecastNotification" \>  
+```xml
+<schemaInfo document_type="4A1" version="V02_00" xmlns="<http://schemas.microsoft.com/BizTalk/2003>" *displayroot_reference="Pip4A1StrategicForecastNotification"* root_reference="Pip4A1StrategicForecastNotification" \>  
+```
   
 ## 404 Not found error when sending a HTTP request  
   

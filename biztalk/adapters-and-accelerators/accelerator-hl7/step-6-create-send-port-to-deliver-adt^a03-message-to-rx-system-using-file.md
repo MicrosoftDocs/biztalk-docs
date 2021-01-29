@@ -54,11 +54,11 @@ In this step, you create the send port for the Pharmacy System (RX) using the Fi
    |----------------------------|--------------------------------------------------------------------------------------------------|
    | **Property** (first line)  |                       Select **BTS.MessageType** from the drop-down list.                        |
    |        **Operator**        |                              Select **!=** from the drop-down list.                              |
-   |         **Value**          |                Type **<http://microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF>**.                 |
+   |         **Value**          |                Type `http://Microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF`.                 |
    |        **Group By**        |                              Select **OR** from the drop-down list.                              |
    | **Property** (second line) | Click the field under **Property**, and then select **BTS.MessageType** from the drop-down list. |
    |        **Operator**        |                              Select **!=** from the drop-down list.                              |
-   |         **Value**          |                Type **<http://microsoft.com/HealthCare/HL7/2X#ACK_25_GLO_DEF>.**                 |
+   |         **Value**          |                Type <`http://microsoft.com/HealthCare/HL7/2X`#ACK_25_GLO_DEF>`                 |
    |        **Group By**        |                             Select **AND** from the drop-down list.                              |
    | **Property** (third line)  |                                 Select **BTAHL7Schemas.MSH3_1**.                                 |
    |        **Operator**        |                              Select **==** from the drop-down list.                              |

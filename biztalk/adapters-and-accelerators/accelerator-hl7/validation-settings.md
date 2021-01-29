@@ -53,7 +53,7 @@ Using [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)], you
    |         **Validate body segments**         |             Select this option to perform syntax, structure, and schema validation.              |
    |       **Validate custom data type**        |  Select this option to perform HL7 standard validation on DT, TS, TM, and TN custom data types.  |
    | **Allow trailing delimiters (separators)** |           Select this option to enable trailing field delimiters in message instances.           |
-   |            **Schema Namespace**            | Type the schema namespace location. The default value is http://microsoft.com/HealthCare/HL7/2X. |
+   |            **Schema Namespace**            | Type the schema namespace location. The default value is `http://microsoft.com/HealthCare/HL7/2X`. |
 
 
 2. Click **Save**.  

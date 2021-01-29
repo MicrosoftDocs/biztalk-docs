@@ -40,7 +40,7 @@ manager: "anneta"
 # HTTP Adapter Property Schema and Properties
 The following table lists the properties in the HTTP adapter property schema.  
   
- **Namespace:** http://schemas.microsoft.com/BizTalk/2003/http-properties  
+ **Namespace:** `http://schemas.microsoft.com/BizTalk/2003/http-properties`  
   
 |Name|Type|Description|  
 |----------|----------|-----------------|  

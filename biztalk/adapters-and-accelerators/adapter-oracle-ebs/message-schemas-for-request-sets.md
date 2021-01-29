@@ -31,7 +31,7 @@ Each request set in an Oracle application in Oracle E-Business Suite is surfaced
   
  Entity descriptions:  
   
- [VERSION] = http://schemas.microsoft.com/OracleEBS/2008/05  
+ [VERSION] = `http://schemas.microsoft.com/OracleEBS/2008/05`  
   
  .  
   

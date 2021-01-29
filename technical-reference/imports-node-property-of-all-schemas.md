@@ -33,7 +33,7 @@ When a schema is first created, there are three default entries associated with 
 
   - The default namespace, without a prefix, is set to the value of the [Target Namespace](target-namespace-node-property-of-all-schemas.md) property.
 
-  - The BizTalk namespace, which defines the structure of annotations and so on and has the prefix "b", is set to the URI "http://schemas.microsoft.com/BizTalk/2003".
+  - The BizTalk namespace, which defines the structure of annotations and so on and has the prefix "b", is set to the URI `http://schemas.microsoft.com/BizTalk/2003`.
 
   - The XSD namespace, which defines the overall structure of XSD schema definitions and has the prefix "xs", is set to the URI "http://www.w3c.org/2001/XMLSchema".
 
@@ -64,4 +64,3 @@ For additional information about importing, including, and redefining one schema
 ## See Also
 
 [Node Properties of All Schemas](node-properties-of-all-schemas.md)
-

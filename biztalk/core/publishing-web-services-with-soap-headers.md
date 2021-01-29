@@ -54,7 +54,7 @@ You add SOAP headers to your Web services when you run the BizTalk Web Services 
 ```  
   
 ## Unknown SOAP headers  
- If you choose to support unknown SOAP headers in the wizard, the wizard creates a context property with the name **UnknownHeaders** and the namespace **http://schemas.microsoft.com/BizTalk/2003/soap-properties**. The **UnknownHeaders** context property contains all of the received unknown SOAP headers.  
+ If you choose to support unknown SOAP headers in the wizard, the wizard creates a context property with the name **UnknownHeaders** and the namespace `http://schemas.microsoft.com/BizTalk/2003/soap-properties`. The **UnknownHeaders** context property contains all of the received unknown SOAP headers.  
   
  For example, if you receive an unknown SOAP header with the root element name, **CustomerGroup**, the **UnknownHeaders** context property contains the string:  
   
