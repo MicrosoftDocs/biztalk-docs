@@ -61,7 +61,7 @@ manager: "anneta"
    |--------------|----------------------------------------------------------------|
    | **Property** |                  Select **BTS.MessageType**.                   |
    | **Operator** |                         Select **==**.                         |
-   |  **Value**   | Enter **<http://schemas.microsoft.com/Edi/X12#X12_997_Root>**. |
+   |  **Value**   | Enter `http://schemas.microsoft.com/Edi/X12#X12_997_Root`. |
 
    > [!NOTE]
    >  The filter ensures that the send port will pick up messages with the 997 message type.  

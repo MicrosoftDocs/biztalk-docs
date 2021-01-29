@@ -53,7 +53,7 @@ The WCF receive adapter enables you to receive WCF service requests.
 >  When the XML encoding is selected, the outer content of the element is located by the XPath expression and placed into the body part.  
   
 ## Handling Web Services Headers  
- The receive adapter promotes a subset of the standard Web services headers onto the BizTalk message context to enable easy access and routing based on values of those headers. The following table lists the properties that will be saved onto the message context by the receive adapter. The properties are defined under the following namespaces: http://www.w3.org/2005/addressing and http://schemas.microsoft.com/BizTalk/2006/Adapters/WCF-properties.  
+ The receive adapter promotes a subset of the standard Web services headers onto the BizTalk message context to enable easy access and routing based on values of those headers. The following table lists the properties that will be saved onto the message context by the receive adapter. The properties are defined under the following namespaces: `http://www.w3.org/2005/addressing` and `http://schemas.microsoft.com/BizTalk/2006/Adapters/WCF-properties`.  
   
 |Header|BizTalk property name|Is promoted?|  
 |------------|---------------------------|------------------|  
