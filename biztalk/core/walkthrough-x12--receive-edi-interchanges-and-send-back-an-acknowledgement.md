@@ -153,7 +153,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 
 7. In **Send pipeline**, select **EdiSend**.  
 
-8. In the console tree, select **Filters**. Enter a filter to subscribe to the EDI interchange. For example, for **Property**, enter **BTS.MessageType**; for **Operator**, enter **==**; and for **Value** enter the schema for the interchange, for example, http://schemas.microsoft.com/BizTalk/Edi/X12/2006#X12_00401_850.  
+8. In the console tree, select **Filters**. Enter a filter to subscribe to the EDI interchange. For example, for **Property**, enter **BTS.MessageType**; for **Operator**, enter **==**; and for **Value** enter the schema for the interchange, for example, `http://schemas.microsoft.com/BizTalk/Edi/X12/2006#X12_00401_850`.  
 
    > [!NOTE]
    >  The above filter setting ensures that interchanges, not acknowledgments, will be sent to the folder associated with this send port.  

@@ -17,43 +17,11 @@ f1_keywords:
 
 Use the **Messages** tab to specify the data selection for the SOAP **Body** element.
 
-<table>
-<thead>
-<tr class="header">
-<th>Use this</th>
-<th>To do this</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Body -- BizTalk request message body</strong></td>
-<td>Use the BizTalk message body part to create the content of the SOAP <strong>Body</strong> element for an outgoing message.<br />
-<br />
-This is the default setting.</td>
-</tr>
-<tr class="even">
-<td><strong>Template -- content specified by template</strong></td>
-<td>Use the template supplied in the <strong>XML</strong> text box to create the content of the SOAP <strong>Body</strong> element for an outgoing message.<br />
-<br />
-The default value is cleared.</td>
-</tr>
-<tr class="odd">
-<td><strong>XML</strong></td>
-<td>Type the XML-formatted template for the content of the SOAP <strong>Body</strong> element of an outgoing message. This property is required if the <strong>Template -- content specified by template</strong> option is selected.<br />
-<br />
-Type: String<br />
-<br />
-Minimum length: 0<br />
-<br />
-Maximum length: 32767<br />
-<br />
-The default is &lt;bts-msg-body<br />
-<br />
-`xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"`</td>
-</tr>
-</tbody>
-</table>
-
+| Use this | To do this |
+|------------|-------------|
+| Body -- BizTalk request message body      | Use the BizTalk message body part to create the content of the SOAP Body element for an outgoing message.<br />This is the default setting. |
+| Template -- content specified by template | Use the template supplied in the XML text box to create the content of the SOAP Body element for an outgoing message.<br />The default value is cleared. |
+| XML                                       | Type the XML-formatted template for the content of the SOAP Body element of an outgoing message. This property is required if the Template -- content specified by template option is selected.<br />Type: String<br />Minimum length: 0<br />Maximum length: 32767<br />The default is `bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"` |
 
 ## See Also
 
