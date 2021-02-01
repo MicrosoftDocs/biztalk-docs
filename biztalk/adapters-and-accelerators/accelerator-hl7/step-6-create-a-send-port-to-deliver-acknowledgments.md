@@ -63,11 +63,11 @@ In this step, you create a port to send acknowledgments back to the source of th
    |----------------------------|--------------------------------------------------------------------------------------------------|
    | **Property** (first line)  |   Click the field under **Property**, then select **BTS.MessageType** from the drop-down list.   |
    |        **Operator**        |                              Select **==** from the drop-down list.                              |
-   |         **Value**          |                Type `http://Microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF`.                 |
+   |         **Value**          |                Type `<http://microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF>`.                 |
    |        **Group By**        |                              Select **OR** from the drop-down list.                              |
    | **Property** (second line) | Click the field under **Property**, and then select **BTS.MessageType** from the drop-down list. |
    |        **Operator**        |                              Select **==** from the drop-down list.                              |
-   |         **Value**          |                Type `http://microsoft.com/HealthCare/HL7/2X#ACK_25_GLO_DEF`                 |
+   |         **Value**          |                Type `<http://microsoft.com/HealthCare/HL7/2X#ACK_25_GLO_DEF>`                 |
    |        **Group By**        |                             Select **And** from the drop-down list.                              |
    | **Property** (third line)  |   Click the field on the second line under **Property**, then select **BTAHL7Schemas.MSH5_1**.   |
    |        **Operator**        |                              Select **==** from the drop-down list.                              |

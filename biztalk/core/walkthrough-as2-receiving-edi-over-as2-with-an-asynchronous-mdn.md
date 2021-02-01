@@ -363,7 +363,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
       |Use this|To do this|  
       |--------------|----------------|  
       |**Default**|Select the checkbox in the column|  
-      |**Target Namespace**|Select `http://schemas.microsoft.com/BizTalk/EDI/X12/2006`.|  
+      |**Target Namespace**|Select `<http://schemas.microsoft.com/BizTalk/EDI/X12/2006`.|  
 
       > [!NOTE]
       >  Setting the properties enables [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to determine the schema to be used in processing the incoming 850 interchange. If an interchange has the values of GS02 and ST01 that are entered on a line of the grid, then the target namespace for the same line will be used to determine the schema to be used.  
@@ -376,7 +376,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
       |     **Default**      |              Select **Default**. **Note:**  When you select this row as the default, the values for **GS1**, **GS2**, **GS3**, **GS7**, and **GS8** are used even if the values for **Transaction Type**, **Version/Release**, and **Target namespace** are not a match for the message.              |
       | **Transaction Type** |                                                                                                          Select the message type of your test message, for example, **864 – Text Message**.                                                                                                           |
       | **Version/Release**  |                                                                                                                                           Enter **00401**.                                                                                                                                            |
-      | **Target namespace** |                                                                                                                    Select `http://schemas.microsoft.com/BizTalk/EDI/X12/2006`.                                                                                                                    |
+      | **Target namespace** |                                                                                                                    Select `<http://schemas.microsoft.com/BizTalk/EDI/X12/2006`.                                                                                                                    |
       |       **GS1**        |                                                                                                Verify that the message type of the test message is selected, for example, **TX - Text Message (864)**.                                                                                                |
       |       **GS2**        |                                                                                                                                             Enter **01**.                                                                                                                                             |
       |       **GS3**        |                                                                                                                                          Enter **7654321**.                                                                                                                                           |

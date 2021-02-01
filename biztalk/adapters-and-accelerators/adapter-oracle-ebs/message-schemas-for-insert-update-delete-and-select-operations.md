@@ -37,7 +37,7 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   
  Attribute descriptions:  
   
- [VERSION] = The message version string; for example, `http://schemas.microsoft.com/OracleEBS/2008/05`.  
+ [VERSION] = The message version string; for example, `<http://schemas.microsoft.com/OracleEBS/2008/05>`.  
   
  [SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.  
   
