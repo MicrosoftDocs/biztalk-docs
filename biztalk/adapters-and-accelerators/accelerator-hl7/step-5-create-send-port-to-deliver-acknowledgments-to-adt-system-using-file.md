@@ -63,7 +63,7 @@ In this step, you create the send port to generate acknowledgments using the Fil
    |----------------------------|--------------------------------------------------------------------------------------------------|
    |        **Property**        | Click the field under **Property**, and then select **BTS.MessageType** from the drop-down list. |
    |        **Operator**        |                              Select **==** from the drop-down list.                              |
-   |         **Value**          |                Type ``http://microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF`.                 |
+   |         **Value**          |                Type `http://microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF`.                 |
    |        **Group By**        |                              Select **OR** from the drop-down list.                              |
    | **Property (second line)** | Click the field under **Property**, and then select **BTS.MessageType** from the drop-down list. |
    |        **Operator**        |                              Select **==** from the drop-down list.                              |
