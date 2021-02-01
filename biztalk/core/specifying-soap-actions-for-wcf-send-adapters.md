@@ -41,11 +41,11 @@ BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd
   
  Specifying action mapping for **WCF.Action** in an **Expression** shape is not supported. You need to specify the action mapping in the WCF transport properties dialog box. Then the WCF adapter will look up the SOAP action by using the **BTS.Operation** context property, which the orchestration sets to the name of the operation on the port where the message is sent.  
   
- If outgoing messages are routed with content-based routing (CBR) where the **http://schemas.microsoft.com/BizTalk/2003/system-properties#Operation** property is not set, WCF send adapters will set the whole action mapping string to the action of the outgoing WCF messages. To work around this, you can do one of the following:  
+ If outgoing messages are routed with content-based routing (CBR) where the `http://schemas.microsoft.com/BizTalk/2003/system-properties#Operation` property is not set, WCF send adapters will set the whole action mapping string to the action of the outgoing WCF messages. To work around this, you can do one of the following:  
   
-- Set the action field on the send port to http://MyService/IMyContract/MyAction1.  
+- Set the action field on the send port to `http://MyService/IMyContract/MyAction1`.  
   
-- Set the **BTS.Operation** context property in a pipeline. For example, set the value of **http://schemas.microsoft.com/BizTalk/2003/system-properties#Operation** to Operation1.  
+- Set the **BTS.Operation** context property in a pipeline. For example, set the value of `http://schemas.microsoft.com/BizTalk/2003/system-properties#Operation` to Operation1.  
   
 - Leave the action field blank and use the action from the incoming message instead.  
   

@@ -32,7 +32,7 @@ Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-curr
   
 - Within each message schema, the name of the root is **SWIFT_CATEGORY*z*_MT*zxx*_Interchange**, where *z* is the message category (first digit of the message type) and *zxx* is the message type.  
   
-- The target namespace for each message schema is **<http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category*z*/MT*zxx>**<em>, where *z</em> is the message category (first digit of the message type) and *zxx* is the message type.  
+- The target namespace for each message schema is `http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/Category*z*/MT*zxx`, where *z</em> is the message category (first digit of the message type) and *zxx* is the message type.  
   
 - The document type is **MT*zxx**<em>, where *zxx</em> is the message type.  
   
@@ -50,7 +50,7 @@ Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-curr
   
 - xmlns:xs="<http://www.w3.org/2001/XMLSchema>". This is the default W3C XML Schema namespace.  
   
-- xmlns:b="<http://schemas.microsoft.com/BizTalk/2003>". This is the default BizTalk namespace.  
+- `xmlns:b="<http://schemas.microsoft.com/BizTalk/2003>"`. This is the default BizTalk namespace.  
   
   Each message schema directly references the base type and common data type schemas.  
   

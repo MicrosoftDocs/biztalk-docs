@@ -15,84 +15,86 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Link Tool
+
 To access information in DB2 servers using the Data Provider, you must first configure connection information in the form of a data source definition. The Data Link Tool can save a data source definition as an OLE DB universal data link (UDL) file. The data source definition is used by SQL Server data consumer programs, such as SQL Server Integration Services, to connect to a target DB2 server at runtime.
 
 ## Creating a Data Link
- You can use the Microsoft Data Link tool to create and modify a data source definition, which can then be saved in the form of a universal data link (UDL) file. You can run the Data Links tool by clicking on a UDL file from Windows Explorer
+
+You can use the Microsoft Data Link tool to create and modify a data source definition, which can then be saved in the form of a universal data link (UDL) file. You can run the Data Links tool by clicking on a UDL file from Windows Explorer
 
 ## Provider
- Use the **Provider** tab to select the **Microsoft OLE DB Provider for DB2** (the provider name string) from a list of possible OLE DB providers.
+
+Use the **Provider** tab to select the **Microsoft OLE DB Provider for DB2** (the provider name string) from a list of possible OLE DB providers.
 
 ## Connection
- Use the Connection tab to configure the basic properties required to connect to a data source. This section describes the properties that are specific to Microsoft OLE DB Provider for DB2 v5.0 connections.
+
+Use the Connection tab to configure the basic properties required to connect to a data source. This section describes the properties that are specific to Microsoft OLE DB Provider for DB2 v5.0 connections.
 
 ### Data Source
- Specify a string to describe the data source.
+
+Specify a string to describe the data source.
 
 ## Network
- Specify TCP/IP network settings.
+
+Specify TCP/IP network settings.
 
 ### IP address
- Data Provider requires an **IP address** or IP alias in either IPv4 or IPv6 format, when you connect to the IBM DB2 database server by using a TCP/IP network connection.
+
+Data Provider requires an **IP address** or IP alias in either IPv4 or IPv6 format, when you connect to the IBM DB2 database server by using a TCP/IP network connection.
 
 ### Network port
- Data Provider requires an IP **network port** number, when you connect to the IBM DB2 database server by using a TCP/IP network connection. For DB2/400, the default value is TCP/IP port 446. Other IBM DB2 platforms support multiple concurrent database instances, each with a unique TCP/IP port number.
+
+Data Provider requires an IP **network port** number, when you connect to the IBM DB2 database server by using a TCP/IP network connection. For DB2/400, the default value is TCP/IP port 446. Other IBM DB2 platforms support multiple concurrent database instances, each with a unique TCP/IP port number.
 
 ## Security
- Specify values for use with basic authentication (username and password).
 
-     > **NOTE:** To utilize Kerberos, Enterprise Single Sign-On, or encrypted crdentials, specify values on the Data Links **All** tab.
+Specify values for use with basic authentication (username and password).
+
+> [!NOTE]
+> To utilize Kerberos, Enterprise Single Sign-On, or encrypted crdentials, specify values on the Data Links **All** tab.
 
 ### User name
 
--   DB2 for z/OS accepts an 8 byte string.
-
--   DB2 for i5/OS accepts a 128 byte string.
-
--   DB2 for Linux or UNIX accepts an 8 byte string.
-
--   DB2 for Windows accepts a 30 byte string.
+- DB2 for z/OS accepts an 8 byte string.
+- DB2 for i5/OS accepts a 128 byte string.
+- DB2 for Linux or UNIX accepts an 8 byte string.
+- DB2 for Windows accepts a 30 byte string.
 
 ### Password
 
--   DB2 for z/OS accepts an 8 byte string.
-
--   DB2 for i5/OS accepts a 128 byte string.
-
--   DB2 for Linux or UNIX accepts an 8 byte string.
-
--   DB2 for Windows accepts a 32 byte string.
+- DB2 for z/OS accepts an 8 byte string.
+- DB2 for i5/OS accepts a 128 byte string.
+- DB2 for Linux or UNIX accepts an 8 byte string.
+- DB2 for Windows accepts a 32 byte string.
 
 ### Allow saving password
- You can save the password in a UDL or text file by clicking the Allow saving password check box.
+
+You can save the password in a UDL or text file by clicking the Allow saving password check box.
 
 > [!WARNING]
->  Authentication information, such as user names and passwords, is saved in plain text in a UDL or text file. Encryption of UDL or text files is not supported.
+> Authentication information, such as user names and passwords, is saved in plain text in a UDL or text file. Encryption of UDL or text files is not supported.
 
 ## Database
 
 ### Initial catalog
- The Data Provider uses this value to connect to an initial catalog on the DB2 database server.
 
--   DB2 for z/OS accepts a 16 byte string (catalog is also known as a location).
+The Data Provider uses this value to connect to an initial catalog on the DB2 database server.
 
--   DB2 for i5/OS accepts an 18 byte string (catalog is also known as a relational database).
-
--   DB2 for LUW accepts an 8 byte string (catalog is also known as a database).
+- DB2 for z/OS accepts a 16 byte string (catalog is also known as a location).
+- DB2 for i5/OS accepts an 18 byte string (catalog is also known as a relational database).
+- DB2 for LUW accepts an 8 byte string (catalog is also known as a database).
 
 ### Package collection
- The Data Provider requires this value to create packages with static SQL statements (example: CREATE CURSOR), that are used to retrieve data when querying the database.
+
+The Data Provider requires this value to create packages with static SQL statements (example: CREATE CURSOR), that are used to retrieve data when querying the database.
 
 - DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).
-
 - DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).
-
 - DB2 for LUW accepts a 30 byte string.
 
-  The Data Provider creates packages using one of the following options.
+The Data Provider creates packages using one of the following options.
 
 - Automatic for single-user environment. At runtime, the Data Provider creates and binds a single package for the current isolation level (the default is cursor stability). The Data Provider grants execute permissions to the current user.
-
 - Manual for multi-user environment. At design-time when you use the Data Access Tool menu option, Data Source Wizard, Data Access Library or Data Links, the Data Provider creates and binds a set of 4 packages (5 packages for DB2 for i5/OS). The Data Provider grants execute permissions to the PUBLIC group.
 
   The Data Provider creates 4-5 packages, depending on database server platform and environment. The following table describes the packages and isolation levels.
@@ -106,49 +108,50 @@ To access information in DB2 servers using the Data Provider, you must first con
 |MSRR001|REPEATABLE READ|ISOLATIONLEVEL_SERIALIZABLE|
 
 ### Default schema
- DB2 database objects are organized into logical groups called schemas. The schema name is used to catalog SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. At design time, to construct SQL such as SELECT statements, SQL Server consumers can present to the user a list of all objects in the database catalog. Optionally, you can specify a string to instruct the Data Provider to restrict schema queries to a single database schema, which improves efficiency and performance. The default is an empty string.
 
--   DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).
+DB2 database objects are organized into logical groups called schemas. The schema name is used to catalog SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. At design time, to construct SQL such as SELECT statements, SQL Server consumers can present to the user a list of all objects in the database catalog. Optionally, you can specify a string to instruct the Data Provider to restrict schema queries to a single database schema, which improves efficiency and performance. The default is an empty string.
 
--   DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).
-
--   DB2 for LUW accepts a 30 byte string.
+- DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).
+- DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).
+- DB2 for LUW accepts a 30 byte string.
 
 ## Connection Actions
- The Connection tab includes three buttons:
 
--   The **Browse** button opens an existing UDL file.
+The Connection tab includes three buttons:
 
--   The **Packages** button instructs the Data Provider to create packages on the DB2 database server.
-
--   The **Test** connection button instructs the Data Provider to connect to the remote IBM DB2 database server by using the defined network connection.
+- The **Browse** button opens an existing UDL file.
+- The **Packages** button instructs the Data Provider to create packages on the DB2 database server.
+- The **Test** connection button instructs the Data Provider to connect to the remote IBM DB2 database server by using the defined network connection.
 
 ## Advanced Options
- This section describes the properties that you can configure in the Advanced tab.
+
+This section describes the properties that you can configure in the Advanced tab.
 
 ### DBMS Platform
- Optionally, to increase performance and reduce impact to the remote database, select the data source platform on which the remote DB2 database is deployed. The Data Provider uses this value to convert data types to a format supported by this platform.
+
+Optionally, to increase performance and reduce impact to the remote database, select the data source platform on which the remote DB2 database is deployed. The Data Provider uses this value to convert data types to a format supported by this platform.
 
 ### Host CCSID
- The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS utilize EBCDIC (Extended Binary Coded Decimal Interchange Code).For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
+
+The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS utilize EBCDIC (Extended Binary Coded Decimal Interchange Code).For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
 ### PC Code Page
- The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode. For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
- The default value is DB2/MVS (which refers to DB2 for z/OS). Other values include DB2/400 (which refers to DB2 for i5/OS), DB2/NT (which refers to DB2 for Windows), and DB2/6000 (which refers to DB2 for Linux or UNIX).
+The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode. For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
+
+The default value is DB2/MVS (which refers to DB2 for z/OS). Other values include DB2/400 (which refers to DB2 for i5/OS), DB2/NT (which refers to DB2 for Windows), and DB2/6000 (which refers to DB2 for Linux or UNIX).
 
 ### Default Qualifier
- DB2 database objects are organized into logical groups called schemas. The schema name is used to identify SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. SQL Server consumers may issue SQL statements with one-part or unqualified object names. Optionally, you can specify a string to instruct the Data Provider to set an environment option for a default qualifier, with which to inform the DB2 server in which schema to locate database objects. The default is an empty string.
 
--   DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).
+DB2 database objects are organized into logical groups called schemas. The schema name is used to identify SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. SQL Server consumers may issue SQL statements with one-part or unqualified object names. Optionally, you can specify a string to instruct the Data Provider to set an environment option for a default qualifier, with which to inform the DB2 server in which schema to locate database objects. The default is an empty string.
 
--   DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).
-
--   DB2 for LUW accepts a 30 byte string.
-
+- DB2 for z/OS accepts a 128 byte string (schema is also known as a collection).
+- DB2 for i5/OS accepts a 10 byte string (schema is also known as a collection or library).
+- DB2 for LUW accepts a 30 byte string.
 
 ## All Properties
- The All Properties dialog lets you configure more detailed and optional properties. These properties may be edited by selecting a property from the list, and then selecting or editing the value in the right column. You can edit the following properties from this dialog.
+
+The All Properties dialog lets you configure more detailed and optional properties. These properties may be edited by selecting a property from the list, and then selecting or editing the value in the right column. You can edit the following properties from this dialog.
 
 |Data Source Wizard property name|Data Source Wizard dialog(s)|Data Links dialog(s)|Description|
 |--------------------------------------|------------------------------------|----------------------------|-----------------|
@@ -159,7 +162,7 @@ To access information in DB2 servers using the Data Provider, you must first con
 |APPC Remote LU Alias|All|APPC Network Settings|This property is disabled in the Data Provider. It is enabled with the version of the provider that is used with Host Integration Server.|
 |APPC Security Type|All|APPC Network Settings|This property is disabled in the Data Provider. It is enabled with the version of the provider that is used with Host Integration Server.|
 |Authentication|Security|All|Sets the authentication method for the connection. The default value is Server, which is authentication based on a username and password with no encryption. Server_Encrypt_Pwd instructs the Data Provider to encrypt the password only. Server_Encrypt_UsrPwd instructs the Data Provider to encrypt both the username and password.|
-|Auto Commit|All|All (AutoCommit)|Optionally, you can instruct the Data Provider to execute an implicit COMMIT on all SQL statements by specifying TRUE. By default, this Boolean property is set to FALSE. The AutoCommit mode can reduce the network flow and may improve overall performance. AutoCommit mode is appropriate for most common transactions that consist of a single SQL statement. However, this mode does not allow for unit of work rollback. For more information, see [http://support.microsoft.com/kb/218590](https://support.microsoft.com/kb/218590).|
+|Auto Commit|All|All (AutoCommit)|Optionally, you can instruct the Data Provider to execute an implicit COMMIT on all SQL statements by specifying TRUE. By default, this Boolean property is set to FALSE. The AutoCommit mode can reduce the network flow and may improve overall performance. AutoCommit mode is appropriate for most common transactions that consist of a single SQL statement. However, this mode does not allow for unit of work rollback. For more information, see [https://support.microsoft.com/kb/218590](https://support.microsoft.com/kb/218590).|
 |Binary Code Page|All|All (Binary Codepage)|Optionally, you can instruct the Data Provider to convert DB2 binary and varbinary columns into character and varying character columns, by specifying a HOST CCSID value.|
 |Cache Authentication|All|All|Optionally, you can specify TRUE to instruct the data consumer or service component to cache sensitive authentication information, such as password, in an internal cache. By default, this Boolean value is set to FALSE. Service components, such as OLE DB resource pooling, require this property to set to TRUE.|
 |Certificate Common Name|TCP/IP Network Connection|TCP/IP Network Settings|Optionally, you can specify a server certificate common name to instruct the Data Provider to use Secure Sockets Layer (SSL) V3.0 or Transport Layer Security (TLS) V1.0 or V1.2 encryption. Using SSL or TLS will improve security by encrypting authentication credentials and data. By default, this value is set to empty string (no SSL or TLS).|

@@ -60,7 +60,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
    >  If you are using the Consume Adapter Service Add-in to generate metadata for operations on Oracle artifacts, by default the files are created with a specific naming convention: The generated XSD file name has the following three parts:  
    > 
    > - "OracleEBSBinding” or the prefix provided in the **Filename prefix** box.  
-   >   - The name included in the **fileNameHint** annotation tag in the generated WSDL. For operations, the file name hint is same as the operation group. For the complex types, the file name hint is the namespace without the “<http://schemas.microsoft.com/OracleEBS/2008/05/”> prefix. For example, the file name hint for an interface table operation follows the convention \<InterfaceTables\>+<app_short_name>+<interface_table_name>.  
+   >   - The name included in the **fileNameHint** annotation tag in the generated WSDL. For operations, the file name hint is same as the operation group. For the complex types, the file name hint is the namespace without the `http://schemas.microsoft.com/OracleEBS/2008/05` prefix. For example, the file name hint for an interface table operation follows the convention \<InterfaceTables\>+<app_short_name>+<interface_table_name>.  
    >   - (Optional) An integer to ensure that the file name is unique.  
    > 
    >   Finally, the name of an XSD file is arrived upon as <file_name_prefix>+\<fileNameHint\>+n, where “n” is an unique integer.  

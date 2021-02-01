@@ -49,7 +49,7 @@ A message that arrives in a receive pipeline can contain metadata in its SOAP he
     |                              Properties                              |
     |----------------------------------------------------------------------|
     |                         **Name = Itinerary**                         |
-    | **Namespace = http://schemas.microsoft.com/BizTalk/2003/SOAPHeader** |
+    | Namespace = `http://schemas.microsoft.com/BizTalk/2003/SOAPHeader`|
 
     > [!NOTE]
     >  By default, the SOAP Adapter uses the root name of the schema named Itinerary.xsd (this schema is used to generate the ESB Itinerary SOAP header) as the BizTalk context **Name** argument, and it uses the namespace of the SOAP header as the BizTalk context **Namespace** argument.  

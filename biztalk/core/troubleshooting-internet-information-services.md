@@ -56,7 +56,7 @@ Microsoft Internet Information Services (IIS) is used extensively by Microsoft [
 -   A virtual directory is mapped to the root of a drive on another server.
 
 ##### Resolution
- Follow the steps in the RESOLUTION section of Microsoft Knowledge Base article 248033, "Common reasons IIS Server returns "HTTP 404 - File not found" error" available at [http://support.microsoft.com/kb/248033](https://support.microsoft.com/kb/248033).
+ Follow the steps in the RESOLUTION section of Microsoft Knowledge Base article 248033, "Common reasons IIS Server returns "HTTP 404 - File not found" error" available at [https://support.microsoft.com/kb/248033](https://support.microsoft.com/kb/248033).
 
 #### "Cannot find server or DNS Error error" occurs when accessing a Web page on an IIS server
 
@@ -81,7 +81,7 @@ Microsoft Internet Information Services (IIS) is used extensively by Microsoft [
 -   Your network adapter is not functioning correctly or you have incompatible network adapter drivers installed.
 
 ##### Resolution
- Follow the steps in the RESOLUTION section of Microsoft Knowledge Base article 326155, "Error message when you try to access a Web site in Internet Explorer: "Page Cannot Be Displayed"" available at [http://support.microsoft.com/kb/326155](https://support.microsoft.com/kb/326155).
+ Follow the steps in the RESOLUTION section of Microsoft Knowledge Base article 326155, "Error message when you try to access a Web site in Internet Explorer: "Page Cannot Be Displayed"" available at [https://support.microsoft.com/kb/326155](https://support.microsoft.com/kb/326155).
 
 #### "401 - Access denied" error occurs when accessing a Web page on an IIS server
 
@@ -105,7 +105,7 @@ Microsoft Internet Information Services (IIS) is used extensively by Microsoft [
 
 - 401.7 – Access denied by URL authorization policy on the Web server. This error code is specific to IIS 6.0.
 
-  For a complete list of the IIS 7.0 status codes, see Microsoft Knowledge Base article 943891, "The HTTP status codes in IIS 7.0" available at [http://support.microsoft.com/kb/943891](https://support.microsoft.com/kb/943891).
+  For a complete list of the IIS 7.0 status codes, see Microsoft Knowledge Base article 943891, "The HTTP status codes in IIS 7.0" available at [https://support.microsoft.com/kb/943891](https://support.microsoft.com/kb/943891).
 
 ##### Resolution
  Follow the steps in [Guidelines for Resolving IIS Permissions Problems](../core/guidelines-for-resolving-iis-permissions-problems.md) to resolve IIS permissions problems.

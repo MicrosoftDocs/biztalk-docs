@@ -40,7 +40,7 @@ manager: "anneta"
 # SMTP Adapter Property Schema and Properties
 The following table lists the properties in the SMTP adapter property schema.  
   
- **Namespace:** http://schemas.microsoft.com/BizTalk/2003/smtp-properties  
+ **Namespace:** `http://schemas.microsoft.com/BizTalk/2003/smtp-properties`  
   
 |Name|Type|Description|  
 |----------|----------|-----------------|  

@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Framework Schema and Properties
-The **http://schemas.microsoft.com/BizTalk/2003/btf2-properties** namespace contains properties you can use to set message and part context properties for the BizTalk Framework Disassembler pipeline component. The BizTalk Framework Disassembler pipeline component uses these properties to generate the appropriate headers in the message that is created. The following table describes the BizTalk Framework properties.  
+The `http://schemas.microsoft.com/BizTalk/2003/btf2-properties` namespace contains properties you can use to set message and part context properties for the BizTalk Framework Disassembler pipeline component. The BizTalk Framework Disassembler pipeline component uses these properties to generate the appropriate headers in the message that is created. The following table describes the BizTalk Framework properties.  
 
 ## Properties list  
 

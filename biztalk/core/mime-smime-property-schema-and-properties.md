@@ -18,7 +18,7 @@ manager: "anneta"
 # MIME-SMIME Property Schema and Properties
 
 ## Namespace properties
-The **http://schemas.microsoft.com/BizTalk/2003/mime-properties** namespace contains properties you can use to set message and part context properties for the MIME/SMIME Encoder pipeline component. The MIME/SMIME Encoder uses these properties to generate the appropriate MIME/SMIME headers in the message that is created. The following table describes the MIME/SMIME properties.  
+The `http://schemas.microsoft.com/BizTalk/2003/mime-properties` namespace contains properties you can use to set message and part context properties for the MIME/SMIME Encoder pipeline component. The MIME/SMIME Encoder uses these properties to generate the appropriate MIME/SMIME headers in the message that is created. The following table describes the MIME/SMIME properties.  
   
 |Property|Scope|Type|Description|  
 |--------------|-----------|----------|-----------------|  

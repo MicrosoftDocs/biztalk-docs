@@ -231,21 +231,21 @@ Also consider the following:
 
     **Microsoft SQL Server Native Client**
 
-   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/sqlncli.msi>" X86 Package (sqlncli.msi)
+   - HYPERLINK "<https://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/sqlncli.msi>" X86 Package (sqlncli.msi)
 
-   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/sqlncli_x64.msi>" X64 Package (sqlncli_x64.msi)
+   - HYPERLINK "<https://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/sqlncli_x64.msi>" X64 Package (sqlncli_x64.msi)
 
      **Microsoft SQL Server 2005 Management Objects Collection**
 
-   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_XMO.msi>" X86 Package (SQLServer2005_XMO.msi)
+   - HYPERLINK "<https://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_XMO.msi>" X86 Package (SQLServer2005_XMO.msi)
 
-   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_XMO_x64.msi>" X64 Package (SQLServer2005_XMO_x64.msi)
+   - HYPERLINK "<https://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_XMO_x64.msi>" X64 Package (SQLServer2005_XMO_x64.msi)
 
      **Microsoft SQL Server 2005 Notification Services Client Components**
 
-   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_NS.msi>" X86 Package (SQLServer2005_NS.msi)
+   - HYPERLINK "<https://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_NS.msi>" X86 Package (SQLServer2005_NS.msi)
 
-   - HYPERLINK "<http://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_NS_x64.msi>" X64 Package (SQLServer2005_NS_x64.msi)
+   - HYPERLINK "<https://download.microsoft.com/download/3/1/6/316FADB2-E703-4351-8E9C-E0B36D9D697E/SQLServer2005_NS_x64.msi>" X64 Package (SQLServer2005_NS_x64.msi)
 
    **Additional**
 
@@ -256,7 +256,7 @@ Also consider the following:
 |                                                              |                                                                                                                                                                                      |
 |--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 |                                Windows Identity Foundation is included with the operating system as a Feature in **Turn Windows features on or off**.                                |
-|                      Windows Vista SP1                       | Download available at [Windows Identity Foundation](https://www.microsoft.com/download/details.aspx?id=17331) HYPERLINK "<http://www.microsoft.com/download/details.aspx?id=17331>" . |
+|                      Windows Vista SP1                       | Download available at [Windows Identity Foundation](https://www.microsoft.com/download/details.aspx?id=17331) HYPERLINK "<https://www.microsoft.com/download/details.aspx?id=17331>" . |
 
  **Additional**
 

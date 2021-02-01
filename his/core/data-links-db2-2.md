@@ -289,7 +289,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  Optionally, you can instruct the Data Provider to execute an implicit **COMMIT** on all SQL statements by specifying TRUE. By default, this Boolean property is set to FALSE.
 
- The AutoCommit mode is appropriate for most common transactions that consist of a single SQL statement. However, this mode does not allow for unit of work rollback. For more information, see http://support.microsoft.com/kb/218590.
+ The AutoCommit mode is appropriate for most common transactions that consist of a single SQL statement. However, this mode does not allow for unit of work rollback. For more information, see https://support.microsoft.com/kb/218590.
 
  **Cache Authentication**
 

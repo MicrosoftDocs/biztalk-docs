@@ -42,7 +42,7 @@ manager: "anneta"
 # SOAP Adapter Property Schema and Properties
 The following table lists the properties in the SOAP adapter property schema.  
   
- **Namespace:** http://schemas.microsoft.com/BizTalk/2003/soap-properties  
+ **Namespace:** `http://schemas.microsoft.com/BizTalk/2003/soap-properties`  
   
 |Name|Type|Description|  
 |----------|----------|-----------------|  

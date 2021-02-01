@@ -59,11 +59,11 @@ In this step, you create and configure a port for sending the individual message
    |----------------------------|---------------------------------------------------------------------------------------------------------------------|
    | **Property** (first line)  |          Click the field under **Property**, and then select **BTS.MessageType** from the drop-down list.           |
    |        **Operator**        |                                       Select **!=** from the drop-down list.                                        |
-   |         **Value**          |                          Type **<http://microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF>**.                          |
+   |         **Value**          |                          Type `http://microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF`.                          |
    |        **Group By**        |                                       Select **AND** from the drop-down list.                                       |
    | **Property** (second line) |          Click the field under **Property**, and then select **BTS.MessageType** from the drop-down list.           |
    |        **Operator**        |                                       Select **!=** from the drop-down list.                                        |
-   |         **Value**          |                          Type **<http://microsoft.com/HealthCare/HL7/2X#ACK_25_GLO_DEF>.**                          |
+   |         **Value**          |                          Type `http://microsoft.com/HealthCare/HL7/2X#ACK_25_GLO_DEF`.                          |
    |        **Group By**        |                                       Select **And** from the drop-down list.                                       |
    | **Property** (third line)  | Click the field on the second line under **Property**, and then select **BTS.MessageType** from the drop-down list. |
    |        **Operator**        |                                       Select **!=** from the drop-down list.                                        |

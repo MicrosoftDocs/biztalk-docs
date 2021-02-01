@@ -59,9 +59,9 @@ manager: "anneta"
 
 18. In the Templates:\< MessageType\> window, in the Namespace box:  
 
-    - If you are generating MT InfoPath forms, type: **http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx**  
+    - If you are generating MT InfoPath forms, type: `http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx`  
 
-    - If you are generating MX InfoPath forms, type: <strong>http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageName\></strong>  
+    - If you are generating MX InfoPath forms, type: `http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_<MessageName>`
 
        This will help in identifying the message instance with the corresponding template.  
 

@@ -27,10 +27,10 @@ manager: "anneta"
 Orchestrations use property schemas to define SOAP header context properties. You use the BizTalk Editor to set SOAP header context properties.  
   
 ## Defining SOAP header context properties with property schemas  
- You need a property schema to use defined SOAP header context properties in orchestrations. The property schema must have the target namespace of **http://schemas.microsoft.com/BizTalk/2003/SOAPHeader**, and the **Property Schema Base** property set to **MessageContextPropertyBase**. Each root element name in the property schema must match the root element name in the defined SOAP header. You can then set values for the context properties using the namespace of the property schema and the property name.  
+ You need a property schema to use defined SOAP header context properties in orchestrations. The property schema must have the target namespace of `http://schemas.microsoft.com/BizTalk/2003/SOAPHeader`, and the **Property Schema Base** property set to **MessageContextPropertyBase**. Each root element name in the property schema must match the root element name in the defined SOAP header. You can then set values for the context properties using the namespace of the property schema and the property name.  
   
 > [!NOTE]
->  The namespace of the property schema is different from the namespace of the target schema (**http://schemas.microsoft.com/BizTalk/2003/SOAPHeader**). Your namespace can be any string; however, it usually defaults to the name of the project.  
+>  The namespace of the property schema is different from the namespace of the target schema (`http://schemas.microsoft.com/BizTalk/2003/SOAPHeader`). Your namespace can be any string; however, it usually defaults to the name of the project.  
   
  The following code shows assigning a SOAP header context property where the property schema namespace is **SOAPHeader** with a property name of **OrigDest**:  
   
