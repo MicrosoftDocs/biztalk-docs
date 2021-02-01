@@ -61,7 +61,7 @@ manager: "anneta"
 
     - If you are generating MT InfoPath forms, type: `http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMTxxx`  
 
-    - If you are generating MX InfoPath forms, type: `http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_`
+    - If you are generating MX InfoPath forms, type: `http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_<MessageName>`
 
        This will help in identifying the message instance with the corresponding template.  
 
