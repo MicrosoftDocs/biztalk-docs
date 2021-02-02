@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix: Monitors and Overrides for Management Packs"
 title: "Appendix: Monitors and Overrides for Management Packs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

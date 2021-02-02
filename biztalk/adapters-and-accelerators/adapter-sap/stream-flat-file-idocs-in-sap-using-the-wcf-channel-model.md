@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Stream Flat-File IDOCs in SAP using the WCF Channel Model"
 title: "Stream Flat-File IDOCs in SAP using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

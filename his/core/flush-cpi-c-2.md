@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Flush (CPI-C)"
 title: "Flush (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

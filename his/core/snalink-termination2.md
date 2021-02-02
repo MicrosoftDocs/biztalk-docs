@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNALink Termination"
 title: "SNALink Termination2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

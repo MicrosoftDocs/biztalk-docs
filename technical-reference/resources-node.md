@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Resources Node"
 title: Resources Node
 TOCTitle: Resources Node
 ms:assetid: 29583596-e342-4548-8023-5d2e5506deaf

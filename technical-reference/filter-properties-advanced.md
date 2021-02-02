@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Filter Properties: Advanced"
 title: 'Filter Properties: Advanced'
 TOCTitle: 'Filter Properties: Advanced'
 ms:assetid: 9f4fde39-6e6b-4a9b-bd3b-5c1610fb6906

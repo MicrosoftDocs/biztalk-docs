@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Designing a Secure Architecture"
 title: "Designing a Secure Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

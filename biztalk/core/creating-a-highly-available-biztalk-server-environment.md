@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Highly Available BizTalk Server Environment"
 title: "Creating a Highly Available BizTalk Server Environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -48,23 +49,23 @@ This section describes how to provide high availability for the data and communi
 
  Because [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is built on Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], and Microsoft SQL Server 2008, make sure that you deploy these products with high availability before configuring hosts for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The following links include information about providing high availability for these underlying products:
 
-- **High Availability – Always On Technologies**, available at [http://go.microsoft.com/fwlink/?LinkId=130376](https://go.microsoft.com/fwlink/?LinkId=130376).
+- **High Availability – Always On Technologies**, available at [https://go.microsoft.com/fwlink/?LinkId=130376](https://go.microsoft.com/fwlink/?LinkId=130376).
 
    This whitepaper describes high availability features that are available with SQL Server 2008.
 
-- **High Availability Solutions Overview**, available at [http://go.microsoft.com/fwlink/?LinkId=130377](https://go.microsoft.com/fwlink/?LinkId=130377).
+- **High Availability Solutions Overview**, available at [https://go.microsoft.com/fwlink/?LinkId=130377](https://go.microsoft.com/fwlink/?LinkId=130377).
 
    Introduces several high-availability solutions for SQL Server 2008 that improve the availability of servers or databases.
 
-- **Windows Deployment Services Step-by-Step Guide**, available at [http://go.microsoft.com/fwlink/?LinkId=130379](https://go.microsoft.com/fwlink/?LinkId=130379).
+- **Windows Deployment Services Step-by-Step Guide**, available at [https://go.microsoft.com/fwlink/?LinkId=130379](https://go.microsoft.com/fwlink/?LinkId=130379).
 
    Contains step-by-step guidance for how to use the Windows Deployment Services role in Windows Server 2008.
 
-- **Windows Server 2003 Deployment Kit: Planning Server Deployments**, available at [http://go.microsoft.com/fwlink/?LinkId=24433](https://go.microsoft.com/fwlink/?LinkId=24433).
+- **Windows Server 2003 Deployment Kit: Planning Server Deployments**, available at [https://go.microsoft.com/fwlink/?LinkId=24433](https://go.microsoft.com/fwlink/?LinkId=24433).
 
    This book provides information about planning server storage, and information about designing and deploying file servers, print servers, and terminal servers in medium and large organizations.
 
-- **Increasing Availability for BizTalk Server**, available at [http://go.microsoft.com/fwlink/?LinkId=130457](https://go.microsoft.com/fwlink/?LinkId=130457).
+- **Increasing Availability for BizTalk Server**, available at [https://go.microsoft.com/fwlink/?LinkId=130457](https://go.microsoft.com/fwlink/?LinkId=130457).
 
    Section of the [BizTalk Server Operations Guide](https://go.microsoft.com/fwlink/?LinkId=130458) that describes ways you can increase the availability of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Running SSO Projects"
 title: "Run SSO Projects with TIBCO EMS | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

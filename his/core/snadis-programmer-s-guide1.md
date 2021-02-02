@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNADIS Programmer&#39;s Guide"
 title: "SNADIS Programmer&#39;s Guide1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

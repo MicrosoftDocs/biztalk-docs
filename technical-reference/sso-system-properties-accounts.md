@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SSO System Properties: Accounts"
 title: 'SSO System Properties: Accounts'
 TOCTitle: 'SSO System Properties: Accounts'
 ms:assetid: 038db969-5e89-4be4-aadb-6e860ad56137

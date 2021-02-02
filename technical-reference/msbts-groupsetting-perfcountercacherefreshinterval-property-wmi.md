@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.PerfCounterCacheRefreshInterval Property (WMI)"
 title: MSBTS_GroupSetting.PerfCounterCacheRefreshInterval Property (WMI)
 TOCTitle: MSBTS_GroupSetting.PerfCounterCacheRefreshInterval Property (WMI)
 ms:assetid: d984a408-d4a8-498e-ab8c-71a08be87e1b

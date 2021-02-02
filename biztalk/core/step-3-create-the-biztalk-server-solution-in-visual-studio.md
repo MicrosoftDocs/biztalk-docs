@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Create the BizTalk Server Solution in Visual Studio"
 title: "Step 3: Create the BizTalk Server Solution in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

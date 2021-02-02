@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Flat File Schema Wizard, Positional Record Page"
 title: BizTalk Flat File Schema Wizard, Positional Record Page
 TOCTitle: BizTalk Flat File Schema Wizard, Positional Record Page
 ms:assetid: 56aa5658-04e8-4dee-82e2-5471746a919e

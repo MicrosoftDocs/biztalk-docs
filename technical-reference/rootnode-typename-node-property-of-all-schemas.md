@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: RootNode TypeName (Node Property of All Schemas)"
 title: RootNode TypeName (Node Property of All Schemas)
 TOCTitle: RootNode TypeName (Node Property of All Schemas)
 ms:assetid: fa10f0bf-da9c-4709-b308-6466213e4bf2

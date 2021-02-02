@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Display Performance Collection Rules"
 title: "How to Display Performance Collection Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

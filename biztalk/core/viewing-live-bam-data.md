@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Viewing Live BAM Data"
 title: "Viewing Live BAM Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

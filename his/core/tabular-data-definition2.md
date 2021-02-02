@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tabular Data Definition"
 title: "Tabular Data Definition2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

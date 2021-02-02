@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How To Use a Persistent Connection"
 title: "How To Use a Persistent Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

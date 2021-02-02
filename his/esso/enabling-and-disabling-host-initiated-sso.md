@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enabling and Disabling Host Initiated SSO"
 title: "Enabling and Disabling Host Initiated SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

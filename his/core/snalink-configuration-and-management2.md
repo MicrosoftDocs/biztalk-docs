@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNALink Configuration and Management"
 title: "SNALink Configuration and Management2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

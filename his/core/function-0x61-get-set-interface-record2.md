@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Function 0x61: Get/Set Interface Record"
 title: "Function 0x61: Get-Set Interface Record2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

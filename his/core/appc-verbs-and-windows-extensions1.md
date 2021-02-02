@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: APPC Verbs and Windows Extensions"
 title: "APPC Verbs and Windows Extensions1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

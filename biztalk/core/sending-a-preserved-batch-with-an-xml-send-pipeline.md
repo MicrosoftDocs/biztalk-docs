@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sending a Preserved Batch with an XML Send Pipeline"
 title: "Sending a Preserved Batch with an XML Send Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

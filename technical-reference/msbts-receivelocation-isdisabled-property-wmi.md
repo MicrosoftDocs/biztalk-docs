@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.IsDisabled Property (WMI)"
 title: MSBTS_ReceiveLocation.IsDisabled Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.IsDisabled Property (WMI)
 ms:assetid: f9de515d-285f-434c-b2f1-23e5f26148f1

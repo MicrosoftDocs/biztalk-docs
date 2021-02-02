@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SQL Server"
 title: "SQL Server resources | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

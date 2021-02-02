@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM API (BizTalk Server Sample)"
 title: "BAM API sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

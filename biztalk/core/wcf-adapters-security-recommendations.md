@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Adapters Security Recommendations"
 title: "WCF Adapters Security Recommendations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -26,14 +27,14 @@ manager: "anneta"
 
 -   You can use Enterprise Single Sign-On (SSO) in scenarios where you need to map the content of the front-end user to credentials in a back-end system.
 
--   Not all services must publish metadata. Leaving metadata publishing disabled reduces the attack surface for your service and lowers the risk of unintentional information disclosure. For more information about security issues related to metadata, see "Security Considerations with Metadata" at [http://go.microsoft.com/fwlink/?LinkId=196671](https://go.microsoft.com/fwlink/?LinkId=196671).
+-   Not all services must publish metadata. Leaving metadata publishing disabled reduces the attack surface for your service and lowers the risk of unintentional information disclosure. For more information about security issues related to metadata, see "Security Considerations with Metadata" at [https://go.microsoft.com/fwlink/?LinkId=196671](https://go.microsoft.com/fwlink/?LinkId=196671).
 
 -   Not all combinations of metadata endpoint bindings and service endpoint bindings are valid. In some cases, the binding configurations for a metadata endpoint must be in agreement with the binding configurations of its service endpoint. For example, when metadata is served from the same location as the receive location, the metadata endpoint cannot be configured with a security mode requiring the HTTP transport if the receive location uses a security mode that relies on HTTPS.
 
     > [!NOTE]
     >  When publishing metadata through the HTTP transport for a service endpoint with the same location but requiring a security mode that relies on the HTTPS transport, in the Web.config file that the BizTalk WCF Publishing Wizard generates, you must set both of the **httpsGetEnabled** and **httpGetEnabled** attributes to **true**.
 
--   The WCF adapters leverage the security features of Windows Communication Foundation (WCF) to communicate. It is important to understand the capabilities and limitations of WCF in terms of security. For more information about the security features of WCF, see "Windows Communication Foundation Security" at [http://go.microsoft.com/fwlink/?LinkId=87806](https://go.microsoft.com/fwlink/?LinkId=87806).
+-   The WCF adapters leverage the security features of Windows Communication Foundation (WCF) to communicate. It is important to understand the capabilities and limitations of WCF in terms of security. For more information about the security features of WCF, see "Windows Communication Foundation Security" at [https://go.microsoft.com/fwlink/?LinkId=87806](https://go.microsoft.com/fwlink/?LinkId=87806).
 
 ## Security Recommendations for the Isolated WCF Adapters
 
@@ -45,11 +46,11 @@ manager: "anneta"
 
 ## Security Recommendations for the WCF-Custom Adapter
 
--   If a WCF-Custom receive location happens to use the HTTP kernel-mode driver (HTTP.sys) such as the **httpsTransport** binding element for Secure Sockets Layer (SSL) communications, the receive location must have a certificate registered for each socket (IP address/port combination). Use the HttpCfg.exe tool to bind an SSL certificate to a port on the computer. For more information, see "How To: Configure a Port with An SSL Certificate" at [http://go.microsoft.com/fwlink/?LinkId=86384](https://go.microsoft.com/fwlink/?LinkId=86384).
+-   If a WCF-Custom receive location happens to use the HTTP kernel-mode driver (HTTP.sys) such as the **httpsTransport** binding element for Secure Sockets Layer (SSL) communications, the receive location must have a certificate registered for each socket (IP address/port combination). Use the HttpCfg.exe tool to bind an SSL certificate to a port on the computer. For more information, see "How To: Configure a Port with An SSL Certificate" at [https://go.microsoft.com/fwlink/?LinkId=86384](https://go.microsoft.com/fwlink/?LinkId=86384).
 
 ## Security Recommendations for the WCF-NetMsmq Adapter
 
--   To use the WCF-NetMsmq adapter, you have to configure MSMQ security settings for the WCF-NetMsmq adapter in the same way as for the [netMsmqBinding](https://go.microsoft.com/fwlink/?LinkId=87813). For more information about how to configure MSMQ security settings for the **netMsmqBinding**, see "Troubleshooting Queued Messaging" at [http://go.microsoft.com/fwlink/?LinkId=87816](https://go.microsoft.com/fwlink/?LinkId=87816).
+-   To use the WCF-NetMsmq adapter, you have to configure MSMQ security settings for the WCF-NetMsmq adapter in the same way as for the [netMsmqBinding](https://go.microsoft.com/fwlink/?LinkId=87813). For more information about how to configure MSMQ security settings for the **netMsmqBinding**, see "Troubleshooting Queued Messaging" at [https://go.microsoft.com/fwlink/?LinkId=87816](https://go.microsoft.com/fwlink/?LinkId=87816).
 
 ## WCF Adapters Use the ChainTrust Mode to Validate Certificates.
 
@@ -57,7 +58,7 @@ manager: "anneta"
 
 ## Security Auditing for the WCF Adapters
 
-- The WCF adapters do not use the WCF security auditing features by default. There are several ways to enable the WCF security auditing features for the WCF adapters. For more information about the WCF security auditing features, see "Auditing Security Events" at [http://go.microsoft.com/fwlink/?LinkId=88975](https://go.microsoft.com/fwlink/?LinkId=88975).
+- The WCF adapters do not use the WCF security auditing features by default. There are several ways to enable the WCF security auditing features for the WCF adapters. For more information about the WCF security auditing features, see "Auditing Security Events" at [https://go.microsoft.com/fwlink/?LinkId=88975](https://go.microsoft.com/fwlink/?LinkId=88975).
 
 - To use the WCF security auditing features with the WCF-Custom receive adapter, you can configure the **ServiceSecurityAuditBehavior** for the receive locations.
 

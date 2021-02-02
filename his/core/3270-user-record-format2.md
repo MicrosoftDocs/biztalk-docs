@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: 3270 User Record Format"
 title: "3270 User Record Format2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

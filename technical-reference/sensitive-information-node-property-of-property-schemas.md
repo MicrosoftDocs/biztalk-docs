@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Sensitive Information (Node Property of Property Schemas)"
 title: Sensitive Information (Node Property of Property Schemas)
 TOCTitle: Sensitive Information (Node Property of Property Schemas)
 ms:assetid: 8155e60f-2d47-4b07-81c3-fc99935a9123

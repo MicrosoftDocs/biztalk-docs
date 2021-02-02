@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Modify the vPrev BizTalk Project using the SQL adapter"
 title: "Step 1: Modify the vPrev BizTalk Project using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -95,7 +96,7 @@ manager: "anneta"
         ![Map the response schemas](../../adapters-and-accelerators/adapter-sql/media/c4a347ae-8d2d-4357-b18d-37f36bef17c7.gif "c4a347ae-8d2d-4357-b18d-37f36bef17c7")
 
       > [!NOTE]
-      >  For more information about the Mass Copy functoid, see [http://go.microsoft.com/fwlink/?LinkId=119749](https://go.microsoft.com/fwlink/?LinkId=119749).
+      >  For more information about the Mass Copy functoid, see [https://go.microsoft.com/fwlink/?LinkId=119749](https://go.microsoft.com/fwlink/?LinkId=119749).
 
    9. Save the map.
 

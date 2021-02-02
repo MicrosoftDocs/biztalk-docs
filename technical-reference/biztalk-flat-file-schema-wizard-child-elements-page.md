@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Flat File Schema Wizard, Child Elements Page"
 title: BizTalk Flat File Schema Wizard, Child Elements Page
 TOCTitle: BizTalk Flat File Schema Wizard, Child Elements Page
 ms:assetid: aeb6e75f-3792-4703-9938-340cbc3c4fda

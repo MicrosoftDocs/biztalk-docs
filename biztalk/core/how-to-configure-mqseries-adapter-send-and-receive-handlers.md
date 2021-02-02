@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure MQSeries Adapter Send and Receive Handlers"
 title: "How to Configure MQSeries Adapter Send and Receive Handlers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

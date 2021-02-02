@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendHandler.CustomCfg Property (WMI)"
 title: MSBTS_SendHandler.CustomCfg Property (WMI)
 TOCTitle: MSBTS_SendHandler.CustomCfg Property (WMI)
 ms:assetid: 91688ee0-8715-41be-b02a-adf386e5e090

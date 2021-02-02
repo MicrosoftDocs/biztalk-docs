@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AS400 Definition Properties: General"
 title: "AS400 Definition Properties: General2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

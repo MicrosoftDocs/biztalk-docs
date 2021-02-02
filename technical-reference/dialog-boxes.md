@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Dialog Boxes"
 title: Dialog Boxes
 TOCTitle: Dialog Boxes
 ms:assetid: c7c286ef-8a40-44b5-95d1-9ff0189ddfae

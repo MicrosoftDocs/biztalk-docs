@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Oracle Database Change Notifications Using the WCF Service Model1"
 title: "Receive Oracle Database Change Notifications Using the WCF Service Model1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -257,7 +258,7 @@ namespace OracleDBBindingNamespace {
    ```
 
    > [!IMPORTANT]
-   >  The value for the **NotificationPort** binding property must be set to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [http://go.microsoft.com/fwlink/?LinkId=196959](https://go.microsoft.com/fwlink/?LinkId=196959).
+   >  The value for the **NotificationPort** binding property must be set to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkId=196959](https://go.microsoft.com/fwlink/?LinkId=196959).
 
    > [!IMPORTANT]
    >  If you do not set the **NotificationPort** binding property, the adapter will assume the default value of -1 for this binding property. In such a case, you will have to completely disable Windows Firewall to receive notification messages.

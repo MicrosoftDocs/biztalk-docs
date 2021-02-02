@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Repair Process"
 title: "Message Repair Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

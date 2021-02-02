@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Run the Port Configuration Wizard"
 title: "How to Run the Port Configuration Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

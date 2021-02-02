@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Nodes That Simplify Schema Creation"
 title: "Nodes That Simplify Schema Creation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

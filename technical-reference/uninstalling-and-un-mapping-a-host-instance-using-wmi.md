@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Uninstalling and Un-Mapping a Host Instance Using WMI"
 title: Uninstalling and Un-Mapping a Host Instance Using WMI
 TOCTitle: Uninstalling and Un-Mapping a Host Instance Using WMI
 ms:assetid: ef76bcba-7faa-4d40-b243-0d8d08120632

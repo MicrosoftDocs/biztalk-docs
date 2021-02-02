@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Types of Message Failures"
 title: "Types of Message Failures | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

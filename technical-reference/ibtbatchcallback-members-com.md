@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTBatchCallBack Members (COM)"
 title: IBTBatchCallBack Members (COM)
 TOCTitle: IBTBatchCallBack Members (COM)
 ms:assetid: ce61f6f4-533c-48fa-8116-00fd7e6e2166

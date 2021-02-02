@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Avoid Disk Contention"
 title: "How to Avoid Disk Contention2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -37,7 +38,7 @@ BizTalk Server is designed as a persistent system. For high throughput scenarios
 
  For more information about disk performance analysis, see the following resources:
 
-- [Ruling Out Disk-Bound Problems](https://go.microsoft.com/fwlink/?LinkId=120947) (HYPERLINK "<http://go.microsoft.com/fwlink/?LinkId=120947>" \t "_blank"<http://go.microsoft.com/fwlink/?LinkId=120947>).
+- [Ruling Out Disk-Bound Problems](https://go.microsoft.com/fwlink/?LinkId=120947) (HYPERLINK "<https://go.microsoft.com/fwlink/?LinkId=120947>" \t "_blank"<https://go.microsoft.com/fwlink/?LinkId=120947>).
 
 - [SQL Server Predeployment I/O Best Practices](https://go.microsoft.com/fwlink/?LinkId=120948) (https://go.microsoft.com/fwlink/?LinkId=120948).
 

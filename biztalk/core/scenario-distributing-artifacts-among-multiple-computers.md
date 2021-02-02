@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scenario: Distributing Artifacts Among Multiple Computers"
 title: "Scenario: Distributing Artifacts Among Multiple Computers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

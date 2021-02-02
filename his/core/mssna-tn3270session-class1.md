@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_TN3270Session Class"
 title: "MsSna_TN3270Session Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SWIFT Send Adapter Architecture"
 title: "SWIFT Send Adapter Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

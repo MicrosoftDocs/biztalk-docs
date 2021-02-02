@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prequisities for the WCF LOB Adapter SDK tutorials"
 title: "Prequisities for the WCF LOB Adapter SDK tutorials | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: X^Y Functoid"
 title: X^Y Functoid
 TOCTitle: X^Y Functoid
 ms:assetid: 639f7d29-7610-4992-969e-25d027185f0c

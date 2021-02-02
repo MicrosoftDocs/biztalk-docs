@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SELECT Statement"
 title: "SELECT Statement1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

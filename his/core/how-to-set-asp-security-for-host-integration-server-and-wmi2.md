@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set ASP Security for Host Integration Server and WMI"
 title: "How to Set ASP Security for Host Integration Server and WMI2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

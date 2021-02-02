@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.PipelineName Property (WMI)"
 title: MSBTS_ReceiveLocation.PipelineName Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.PipelineName Property (WMI)
 ms:assetid: 45637645-b64e-465f-bc06-3b6a8455cb0c

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Delete Schemas"
 title: "How to Delete Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

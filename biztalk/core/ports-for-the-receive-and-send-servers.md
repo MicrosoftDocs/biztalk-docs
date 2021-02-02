@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ports for the Receive and Send Servers"
 title: "Ports for the Receive and Send Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/07/2016"

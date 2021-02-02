@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TI 2PC Thread Pool"
 title: "TI 2PC Thread Pool1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

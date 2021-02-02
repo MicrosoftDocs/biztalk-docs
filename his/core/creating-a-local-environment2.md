@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Local Environment"
 title: "Creating a Local Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: 3270 Client"
 title: "3270 Client2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

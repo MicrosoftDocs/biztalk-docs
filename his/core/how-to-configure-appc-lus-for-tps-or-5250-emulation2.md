@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure APPC LUs for TPs or 5250 Emulation"
 title: "How to Configure APPC LUs for TPs or 5250 Emulation2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

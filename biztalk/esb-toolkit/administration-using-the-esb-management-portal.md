@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Administration Using the ESB Management Portal"
 title: "Administration Using the ESB Management Portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -40,7 +41,7 @@ The ESB Management Portal, included as part of the [!INCLUDE[esbToolkit](../incl
 
 - ASP.NET
 
-- [Enterprise Library](https://go.microsoft.com/fwlink/?LinkId=188292) ([http://go.microsoft.com/fwlink/?LinkId=188292](https://go.microsoft.com/fwlink/?LinkId=188292)). The ESB Management Portal uses the following Enterprise Library assemblies:
+- [Enterprise Library](https://go.microsoft.com/fwlink/?LinkId=188292) ([https://go.microsoft.com/fwlink/?LinkId=188292](https://go.microsoft.com/fwlink/?LinkId=188292)). The ESB Management Portal uses the following Enterprise Library assemblies:
 
   -   **Microsoft.Practices.EnterpriseLibrary.Caching**
 

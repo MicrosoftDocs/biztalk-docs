@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstanceSetting.ConfigurationState Property (WMI)"
 title: MSBTS_HostInstanceSetting.ConfigurationState Property (WMI)
 TOCTitle: MSBTS_HostInstanceSetting.ConfigurationState Property (WMI)
 ms:assetid: e8b0ab09-a8b4-43cb-9cc4-f56f5deafe48

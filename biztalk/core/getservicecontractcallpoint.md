@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetServiceContractCallPoint"
 title: "GetServiceContractCallPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

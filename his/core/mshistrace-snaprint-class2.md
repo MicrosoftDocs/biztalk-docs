@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsHisTrace_SNAPrint Class"
 title: "MsHisTrace_SNAPrint Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

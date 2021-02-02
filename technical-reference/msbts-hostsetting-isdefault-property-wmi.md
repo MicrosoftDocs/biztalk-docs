@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.IsDefault Property (WMI)"
 title: MSBTS_HostSetting.IsDefault Property (WMI)
 TOCTitle: MSBTS_HostSetting.IsDefault Property (WMI)
 ms:assetid: b26efcdb-95aa-4ba8-9ca4-9360b32d3a16

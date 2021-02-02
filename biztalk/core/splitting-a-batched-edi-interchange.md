@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Splitting a Batched EDI Interchange"
 title: "Splitting a Batched EDI Interchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

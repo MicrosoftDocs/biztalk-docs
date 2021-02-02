@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Correlation Sets"
 title: "Correlation Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

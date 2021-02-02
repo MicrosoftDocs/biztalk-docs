@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure the Start Orchestration Shape"
 title: "How to Configure the Start Orchestration Shape | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -34,7 +35,7 @@ The **Start Orchestration** shape is similar to the **Call Orchestration** shape
 
  The **Start Orchestration** shape can also be used to call an orchestration that is referenced in another project. This allows for reuse of common orchestration workflow patterns across BizTalk projects. For the referenced orchestration to be callable, ensure that the **Type Modifier** property for the called orchestration is set to **Public**. To set the **Type Modifier** property for an orchestration to **Public**, open the orchestration in Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], click the green start shape at the top of the orchestration to display the **Orchestration Properties** dialog and set the **Type Modifier** property to **Public**. The default value for **Type Modifier** is **Private**.
 
- For an example of how to use **Start Orchestration** shape, download the SDK sample "Implementing Scatter and Gather Pattern" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+ For an example of how to use **Start Orchestration** shape, download the SDK sample "Implementing Scatter and Gather Pattern" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
 ### To configure a Start Orchestration shape
 

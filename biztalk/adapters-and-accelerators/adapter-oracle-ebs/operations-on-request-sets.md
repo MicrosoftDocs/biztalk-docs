@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on Request Sets"
 title: "Operations on Request Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Operations on Request Sets
-A request set in Oracle E-Business Suite is a set of reports and concurrent programs that are organized into various stages. You can use a single request set to run a set of reports and concurrent programs. Request sets are divided into one or more stages, and each stage contains a set of reports and concurrent programs. These stages are linked with each other, and the order of the execution of each stage is defined. For more Oracle-specific information about request sets, go to [http://go.microsoft.com/fwlink/p/?LinkId=129539](https://go.microsoft.com/fwlink/p/?LinkId=129539).
+A request set in Oracle E-Business Suite is a set of reports and concurrent programs that are organized into various stages. You can use a single request set to run a set of reports and concurrent programs. Request sets are divided into one or more stages, and each stage contains a set of reports and concurrent programs. These stages are linked with each other, and the order of the execution of each stage is defined. For more Oracle-specific information about request sets, go to [https://go.microsoft.com/fwlink/p/?LinkId=129539](https://go.microsoft.com/fwlink/p/?LinkId=129539).
 
  [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] enables you to execute request sets in Oracle E-Business Suite. The request sets are exposed as operations in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. Since a request set contains a set of concurrent programs, those concurrent programs are the input parameters for a request set operation. Along with the concurrent programs, the request set operation takes four complex type parameters and a simple type parameter as input.
 

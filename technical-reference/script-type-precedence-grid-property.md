@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Script Type Precedence (Grid Property)"
 title: Script Type Precedence (Grid Property)
 TOCTitle: Script Type Precedence (Grid Property)
 ms:assetid: 463c89fc-c389-436c-afc5-e6e31269141c

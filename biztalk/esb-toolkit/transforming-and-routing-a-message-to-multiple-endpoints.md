@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transforming and Routing a Message to Multiple Endpoints"
 title: "Transforming and Routing a Message to Multiple Endpoints | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

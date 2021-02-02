@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Status Report Data Stores"
 title: "Status Report Data Stores | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

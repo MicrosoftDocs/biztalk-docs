@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Server Log Shipping Using a Windows Cluster Name and IP Address"
 title: "BizTalk Server Log Shipping Using a Windows Cluster Name and IP Address | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

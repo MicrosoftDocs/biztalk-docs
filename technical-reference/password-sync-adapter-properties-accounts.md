@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Password Sync Adapter Properties: Accounts"
 title: 'Password Sync Adapter Properties: Accounts'
 TOCTitle: 'Password Sync Adapter Properties: Accounts'
 ms:assetid: 9d42e2ff-39c2-4322-a9cc-cd6d2a8e181a

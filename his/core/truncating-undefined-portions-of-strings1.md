@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Truncating Undefined Portions of Strings"
 title: "Truncating Undefined Portions of Strings1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

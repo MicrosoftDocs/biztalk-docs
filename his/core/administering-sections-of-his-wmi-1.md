@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Administering Sections of HIS (WMI)"
 title: "Administering Sections of HIS (WMI)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How Environment Variables Indicate Deployment State"
 title: "How Environment Variables Indicate Deployment State | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

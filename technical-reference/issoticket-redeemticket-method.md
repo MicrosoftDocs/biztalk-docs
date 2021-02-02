@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOTicket.RedeemTicket Method"
 title: ISSOTicket.RedeemTicket Method
 TOCTitle: ISSOTicket.RedeemTicket Method
 ms:assetid: ad89b448-0064-4158-bcc0-73ef93be9993

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Inverse Direct Partner Binding"
 title: "Inverse Direct Partner Binding | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

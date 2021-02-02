@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Export BPEL4WS"
 title: "How to Export BPEL4WS | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

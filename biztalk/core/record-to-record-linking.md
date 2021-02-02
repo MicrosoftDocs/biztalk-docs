@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Record-to-Record Linking"
 title: "Record-to-Record Linking | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

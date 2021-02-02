@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOTicket Methods"
 title: ISSOTicket Methods
 TOCTitle: ISSOTicket Methods
 ms:assetid: 6eafa151-83f2-4871-93f4-78b8b4aa94ea

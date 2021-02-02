@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InterAct Adapter End-to-End Reliable Delivery"
 title: "InterAct Adapter End-to-End Reliable Delivery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

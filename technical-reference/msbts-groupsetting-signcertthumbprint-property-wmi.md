@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.SignCertThumbprint Property (WMI)"
 title: MSBTS_GroupSetting.SignCertThumbprint Property (WMI)
 TOCTitle: MSBTS_GroupSetting.SignCertThumbprint Property (WMI)
 ms:assetid: 6e545297-da6d-4e57-9d26-4ebce88b9a72

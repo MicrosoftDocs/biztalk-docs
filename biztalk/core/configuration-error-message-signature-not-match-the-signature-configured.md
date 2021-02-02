@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration error. The message signature doesn&#39;t match the signature configured for this party"
 title: "Configuration error. The message signature doesn&#39;t match the signature configured for this party | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

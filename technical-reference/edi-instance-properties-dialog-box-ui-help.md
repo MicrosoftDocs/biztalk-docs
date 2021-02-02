@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EDI Instance Properties Dialog Box UI Help"
 title: EDI Instance Properties Dialog Box UI Help
 TOCTitle: EDI Instance Properties Dialog Box UI Help
 ms:assetid: a0d3c0eb-72c8-4142-ad24-6c75371fac76

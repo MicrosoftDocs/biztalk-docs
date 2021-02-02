@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Alert Subscription Management Commands"
 title: "Alert Subscription Management Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

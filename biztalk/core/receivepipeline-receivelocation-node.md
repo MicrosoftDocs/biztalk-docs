@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ReceivePipeline (ReceiveLocation Node)"
 title: "ReceivePipeline (ReceiveLocation Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

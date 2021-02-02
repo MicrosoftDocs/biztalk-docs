@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Business Activity Monitoring (BizTalk Server Samples Folder)"
 title: "Business Activity Monitoring (BizTalk Server Samples Folder) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

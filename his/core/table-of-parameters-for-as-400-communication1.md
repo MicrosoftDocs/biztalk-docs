@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table of Parameters for AS/400 Communication"
 title: "Table of Parameters for AS-400 Communication1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

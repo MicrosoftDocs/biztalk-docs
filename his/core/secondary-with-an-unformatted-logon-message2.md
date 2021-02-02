@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Secondary with an Unformatted LOGON Message"
 title: "Secondary with an Unformatted LOGON Message2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

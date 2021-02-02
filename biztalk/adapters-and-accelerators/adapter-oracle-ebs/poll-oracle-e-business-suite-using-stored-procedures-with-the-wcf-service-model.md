@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Poll Oracle E-Business Suite using stored procedures with the WCF service model"
 title: "Poll Oracle E-Business Suite using stored procedures with the WCF service model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

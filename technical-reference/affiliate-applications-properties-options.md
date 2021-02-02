@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Affiliate Applications Properties: Options"
 title: 'Affiliate Applications Properties: Options'
 TOCTitle: 'Affiliate Applications Properties: Options'
 ms:assetid: c0f62ae8-6504-4f24-89b3-7337a64d9d8b

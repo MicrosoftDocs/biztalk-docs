@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocationOrchestration.ReceivePortName Property (WMI)"
 title: MSBTS_ReceiveLocationOrchestration.ReceivePortName Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.ReceivePortName Property (WMI)
 ms:assetid: 50bd0cee-3f60-4736-be00-3a8b8541e47f

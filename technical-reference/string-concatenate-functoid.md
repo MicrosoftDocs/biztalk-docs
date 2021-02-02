@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: String Concatenate Functoid"
 title: String Concatenate Functoid
 TOCTitle: String Concatenate Functoid
 ms:assetid: 7c121b17-cee8-480b-9822-e9e67d1bdd76

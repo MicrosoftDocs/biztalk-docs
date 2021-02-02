@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Publish the SAP Artifacts as a WCF Service"
 title: "Step 1: Publish the SAP Artifacts as a WCF Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -107,7 +108,7 @@ manager: "anneta"
        |X509FindType|The type of X.509 search to be executed.<br /><br /> **Note:** Specify a value for this property only if **UseServiceCertificate** is set to **True**.|
 
        > [!NOTE]
-       >  For more information about the certificates and the associated properties, see "X509ClientCertificateCredentialsElement Properties" at [http://go.microsoft.com/fwlink/?LinkId=103771](https://go.microsoft.com/fwlink/?LinkId=103771).
+       >  For more information about the certificates and the associated properties, see "X509ClientCertificateCredentialsElement Properties" at [https://go.microsoft.com/fwlink/?LinkId=103771](https://go.microsoft.com/fwlink/?LinkId=103771).
 
     2. In the **Endpoint Behavior Configuration** box, specify values for the following:
 
@@ -115,8 +116,8 @@ manager: "anneta"
        |----------------------|-----------------------|
        |Authentication Type|- Set this to **ClientCredentialUserNamePassword** to enable the clients to specify the user name and password when consuming the WCF service.<br /><br /> - Set this to **HTTPUserNamePassword** to enable clients to specify user name and password as part of the HTTP header.<br /><br /> - Set this to **Auto** to first enable clients to specify credentials through the **ClientCredential** interface. If this fails, clients can pass credentials as part of the HTTP header.<br /><br /> Default is **Auto**. For Microsoft Office SharePoint Server to consume the WCF service, you should set this as **HTTPUserNamePassword**.|
        |Name|Specify a name for the endpoint behavior configuration.|
-       |UsernameHeader|Name for the user name header. For this example, specify **MyUserHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [http://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692).<br /><br /> **Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
-       |PasswordHeader|Name for the password header. For this example, specify **MyPassHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [http://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692).<br /><br /> **Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
+       |UsernameHeader|Name for the user name header. For this example, specify **MyUserHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [https://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692).<br /><br /> **Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
+       |PasswordHeader|Name for the password header. For this example, specify **MyPassHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [https://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692).<br /><br /> **Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
 
        The following figure shows the Configure Service and Endpoint Behaviors page with the specified values.
 
@@ -134,7 +135,7 @@ manager: "anneta"
 
     |For the property|Specify the value|
     |----------------------|-----------------------|
-    |Binding Configuration|The wizard only supports basic HTTP binding. So, the binding configuration field is automatically populated to *System.ServiceModel.Configuration.BasicHttpBindingElement*.<br /><br /> Click the ellipsis button **(…)** to change the properties for HTTP binding. To use a secure communication channel, you must always set the **Mode** property to **Transport**. The wizard sets the default value for the **Mode** property as **Transport**.<br /><br /> For more information about the other bindings exposed, see "BasicHttpBindingElement Members" at [http://go.microsoft.com/fwlink/?LinkId=103773](https://go.microsoft.com/fwlink/?LinkId=103773).|
+    |Binding Configuration|The wizard only supports basic HTTP binding. So, the binding configuration field is automatically populated to *System.ServiceModel.Configuration.BasicHttpBindingElement*.<br /><br /> Click the ellipsis button **(…)** to change the properties for HTTP binding. To use a secure communication channel, you must always set the **Mode** property to **Transport**. The wizard sets the default value for the **Mode** property as **Transport**.<br /><br /> For more information about the other bindings exposed, see "BasicHttpBindingElement Members" at [https://go.microsoft.com/fwlink/?LinkId=103773](https://go.microsoft.com/fwlink/?LinkId=103773).|
     |Endpoint Name|Specify an endpoint name for the contract.|
 
      The other fields on this page are automatically populated based on the values you specified in the earlier pages.
@@ -162,7 +163,7 @@ manager: "anneta"
 
 18. Publish the WCF service.
 
-    1.  Make sure SSL is enabled for Internet Information Services (IIS). For instructions on how to enable SSL for IIS, see [http://go.microsoft.com/fwlink/?LinkId=197170](https://go.microsoft.com/fwlink/?LinkId=197170).
+    1.  Make sure SSL is enabled for Internet Information Services (IIS). For instructions on how to enable SSL for IIS, see [https://go.microsoft.com/fwlink/?LinkId=197170](https://go.microsoft.com/fwlink/?LinkId=197170).
 
     2.  Right-click the project in Solution Explorer, and then click **Publish**.
 

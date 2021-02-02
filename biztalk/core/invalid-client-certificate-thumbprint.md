@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid client certificate thumbprint"
 title: "Invalid client certificate thumbprint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on Functions and Procedures with REF CURSOR Parameters in Oracle Database"
 title: "Operations on Functions and Procedures with REF CURSOR Parameters in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

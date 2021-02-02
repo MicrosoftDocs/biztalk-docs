@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data for Host Files"
 title: "Data for Host Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

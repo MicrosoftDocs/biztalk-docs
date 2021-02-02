@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Generating an Outgoing AS2 Message"
 title: "Generating an Outgoing AS2 Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

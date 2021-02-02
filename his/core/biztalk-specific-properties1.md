@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk-Specific Properties"
 title: "BizTalk-Specific Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

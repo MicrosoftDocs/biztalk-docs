@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Cluster the Master Secret Server"
 title: "How to Cluster the Master Secret Server1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -142,7 +143,7 @@ We recommended that you follow the instructions in this section to cluster the E
 
 ### To create the clustered Enterprise SSO resource
 
-1.  If the cluster is not configured with a clustered Distributed Transaction Coordinator (MSDTC) resource then follow the steps in the "Improving Fault Tolerance in BizTalk Server by Using a Windows Server Cluster" white paper at [http://go.microsoft.com/fwlink/?LinkId=69207](https://go.microsoft.com/fwlink/?LinkId=69207) to create a clustered MSDTC resource.
+1.  If the cluster is not configured with a clustered Distributed Transaction Coordinator (MSDTC) resource then follow the steps in the "Improving Fault Tolerance in BizTalk Server by Using a Windows Server Cluster" white paper at [https://go.microsoft.com/fwlink/?LinkId=69207](https://go.microsoft.com/fwlink/?LinkId=69207) to create a clustered MSDTC resource.
 
 2.  Click **Start**, **Programs**, **Administrative Tools**, and then **Failover Cluster Management** to start the Failover Cluster Management program.
 

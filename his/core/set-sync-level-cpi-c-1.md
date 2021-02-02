@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Set_Sync_Level (CPI-C)"
 title: "Set_Sync_Level (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

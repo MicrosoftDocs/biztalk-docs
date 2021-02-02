@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Affiliate Application Wizard: Welcome"
 title: 'Create New Affiliate Application Wizard: Welcome'
 TOCTitle: 'Create New Affiliate Application Wizard: Welcome'
 ms:assetid: ebdfabe2-8191-4d12-9293-3f631d79259e

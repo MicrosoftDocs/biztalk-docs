@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: FTP Transport Properties Dialog Box, Receive"
 title: FTP Transport Properties Dialog Box, Receive
 TOCTitle: FTP Transport Properties Dialog Box, Receive
 ms:assetid: c1eb4f71-3fe9-4c49-9a42-6d7a9858f244

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Link Source (Link Property)"
 title: Link Source (Link Property)
 TOCTitle: Link Source (Link Property)
 ms:assetid: 0b1a4d5e-d19c-4ef6-8250-07ed2638fa57

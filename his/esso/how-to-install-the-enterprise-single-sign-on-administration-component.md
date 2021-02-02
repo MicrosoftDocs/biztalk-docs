@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Install the Enterprise Single Sign-On Administration Component"
 title: "How to Install the Enterprise Single Sign-On Administration Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

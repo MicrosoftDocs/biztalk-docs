@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Record-Level Input/Output (RLIO) Protocol Errors"
 title: "Record-Level Input-Output (RLIO) Protocol Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

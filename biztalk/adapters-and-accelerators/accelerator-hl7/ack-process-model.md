@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ACK Process Model"
 title: "ACK Process Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting up DataTable and DataColumn Mappings for a DB2 Database"
 title: "Setting up DataTable and DataColumn Mappings for a DB2 Database1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

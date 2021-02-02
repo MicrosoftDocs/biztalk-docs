@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing Password Synchronization"
 title: "Installing Password Synchronization | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -24,11 +25,11 @@ As with the other Single Sign-On (SSO) features, Password Synchronization is not
 
 3. Complete the installation.
 
-   You also need Password Synchronization adapters to send and receive password changes to the external system. Other topics in this section describe how to configure your own adapters. For more information, see [Administering Password Synchronization](../esso/administering-password-synchronization.md). You can also view a list of currently available adapters at the following location: [http://go.microsoft.com/fwlink/?LinkId=68145](https://go.microsoft.com/fwlink/?LinkId=68145). You can contact support aliases to obtain information about these Password Synchronization adapters.
+   You also need Password Synchronization adapters to send and receive password changes to the external system. Other topics in this section describe how to configure your own adapters. For more information, see [Administering Password Synchronization](../esso/administering-password-synchronization.md). You can also view a list of currently available adapters at the following location: [https://go.microsoft.com/fwlink/?LinkId=68145](https://go.microsoft.com/fwlink/?LinkId=68145). You can contact support aliases to obtain information about these Password Synchronization adapters.
 
    Finally, to capture password changes made in Active Directory, in addition to installing the ENTSSO Password Sync feature, you must install components on the domain controllers to capture password changes. Both the Windows Password Capture component and Password Change Notification Service (PCNS) must be installed on all domain controllers from which you will be capturing passwords. You can find these components in the following location:
 
-   http://www.microsoft.com/downloads/details.aspx?FamilyID=C0964F2E-FA9F-4FC7-AC13-C43928EFEE9D&displaylang=en
+   https://www.microsoft.com/downloads/details.aspx?FamilyID=C0964F2E-FA9F-4FC7-AC13-C43928EFEE9D&displaylang=en
 
    Read the accompanying documentation before you proceed with the installation on the domain controller.
 

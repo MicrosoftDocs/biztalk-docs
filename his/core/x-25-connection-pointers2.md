@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: X.25 Connection Pointers"
 title: "X.25 Connection Pointers2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

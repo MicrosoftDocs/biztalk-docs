@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Global Settings Tab"
 title: "Global Settings Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

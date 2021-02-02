@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Sine Functoid"
 title: Sine Functoid
 TOCTitle: Sine Functoid
 ms:assetid: 97b6d20a-ad0f-4c34-9aca-61d5d420fef0

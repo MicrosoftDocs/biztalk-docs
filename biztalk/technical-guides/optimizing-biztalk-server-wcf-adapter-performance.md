@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optimizing BizTalk Server WCF Adapter Performance"
 title: "Optimizing BizTalk Server WCF Adapter Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

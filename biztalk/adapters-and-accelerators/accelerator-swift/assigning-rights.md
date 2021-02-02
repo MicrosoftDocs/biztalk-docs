@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Assigning Rights"
 title: "Assigning Rights | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

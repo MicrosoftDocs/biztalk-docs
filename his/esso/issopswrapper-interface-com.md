@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOPSWrapper Interface (COM)"
 title: "ISSOPSWrapper Interface (COM) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

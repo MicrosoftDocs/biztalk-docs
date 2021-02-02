@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adapter Design Issues"
 title: "Adapter Design Issues | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

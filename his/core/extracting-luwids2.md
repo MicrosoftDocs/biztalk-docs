@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extracting LUWIDs"
 title: "Extracting LUWIDs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

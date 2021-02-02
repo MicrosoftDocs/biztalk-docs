@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding Artifacts to an Application"
 title: "Adding Artifacts to an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: FinalDefault (Node Property of All Schemas)"
 title: FinalDefault (Node Property of All Schemas)
 TOCTitle: FinalDefault (Node Property of All Schemas)
 ms:assetid: 6e5a6169-043c-4e6f-bf58-b5983f3f7650

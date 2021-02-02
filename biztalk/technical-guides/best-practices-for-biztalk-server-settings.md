@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best Practices for BizTalk Server Settings"
 title: "Best Practices for BizTalk Server Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -43,7 +44,7 @@ This topic lists best practices that you should follow as you perform operationa
 
   **Adjust throttling based on resource utilization**
 
-- Throttling in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is configured by default to provide good protection for the system. Monitor the performance counters for throttling states to see if throttling is taking place. Then gauge for yourself if the resource on which throttling is based (for example, database size or memory usage) is under or over utilized. Next, adjust the throttling thresholds up or down accordingly. For more information, see [Adjusting Throttling Thresholds: When and Why](https://go.microsoft.com/fwlink/p/?LinkId=154188) (<http://go.microsoft.com/fwlink/p/?LinkId=154188>).
+- Throttling in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is configured by default to provide good protection for the system. Monitor the performance counters for throttling states to see if throttling is taking place. Then gauge for yourself if the resource on which throttling is based (for example, database size or memory usage) is under or over utilized. Next, adjust the throttling thresholds up or down accordingly. For more information, see [Adjusting Throttling Thresholds: When and Why](https://go.microsoft.com/fwlink/p/?LinkId=154188) (<https://go.microsoft.com/fwlink/p/?LinkId=154188>).
 
   **Use the PassThruTransmit pipeline if possible**
 

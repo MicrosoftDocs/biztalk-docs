@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InterAct Adapter Components"
 title: "InterAct Adapter Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session Integrator Programming Interfaces"
 title: "Session Integrator Programming Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Automating the Build Process"
 title: "Automating the Build Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -51,7 +52,7 @@ An automated build process compiles, deploys and then runs build verification te
 
  For more information about automating testing using Microsoft Test manager, see the topic [Running Automated Tests](https://go.microsoft.com/fwlink/?LinkID=208368) (https://go.microsoft.com/fwlink/?LinkID=208368)  in the Visual Studio 2010 online documentation
 
- For more information about automating the build process using Visual Studio 2010, see [Building the Application](https://go.microsoft.com/fwlink/?LinkID=208369) ( HYPERLINK "<http://go.microsoft.com/fwlink/?LinkID=208369>" <http://go.microsoft.com/fwlink/?LinkID=208369>)  in the Visual Studio 2010 documentation.
+ For more information about automating the build process using Visual Studio 2010, see [Building the Application](https://go.microsoft.com/fwlink/?LinkID=208369) ( HYPERLINK "<https://go.microsoft.com/fwlink/?LinkID=208369>" <https://go.microsoft.com/fwlink/?LinkID=208369>)  in the Visual Studio 2010 documentation.
 
 ## Build verification testing
  Build verification testing usually comprises the following elements:
@@ -71,7 +72,7 @@ An automated build process compiles, deploys and then runs build verification te
 
  It is critical that functional testing is designed to cover all the possible paths through your solution. This should include not only those scenarios you expect in production, but also the failure paths and exception handling paths you have implemented but hope never to use – one phrase commonly used to describe this is testing for the “bad day scenario.” You should ensure all orchestrations, all permissible message types, and all code branches are exercised by your functional test suite. The following sections describe developing positive and negative functional test cases to cover all code paths.
 
- For more information about functional testing and the other testing categories that should be implemented before placing a BizTalk Server solution into production, see the topic [Checklist: Testing Operational Readiness](https://go.microsoft.com/fwlink/?LinkId=160138) in the BizTalk Server 2010 Operations Guide at [http://go.microsoft.com/fwlink/?LinkId=160138](https://go.microsoft.com/fwlink/?LinkId=160138).
+ For more information about functional testing and the other testing categories that should be implemented before placing a BizTalk Server solution into production, see the topic [Checklist: Testing Operational Readiness](https://go.microsoft.com/fwlink/?LinkId=160138) in the BizTalk Server 2010 Operations Guide at [https://go.microsoft.com/fwlink/?LinkId=160138](https://go.microsoft.com/fwlink/?LinkId=160138).
 
 ### Positive tests
 

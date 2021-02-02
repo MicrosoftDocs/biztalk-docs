@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create Expressions"
 title: "How to Create Expressions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

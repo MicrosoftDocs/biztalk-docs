@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Requirements Phase Recommendations"
 title: "Requirements Phase Recommendations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -48,7 +49,7 @@ The primary deliverable associated with the requirements phase is a requirements
  For example, each transport adapter type has its own performance and scale characteristics. If the desired throughput exceeds the ability of one or more of the adapter types (either receive or send), then alternatives for scaling the adapter may need to be investigated.
 
 ## Estimate Sizing
- Based on the established goals and criteria, it is never too early to begin the process of estimating the hardware sizing that will be required to meet the goals. As with any sizing estimation efforts, one must base the estimates on actual test results. During the early phases of a project, those results must come from external sources. You can read case studies at BizTalk Server Developer Center, at [http://go.microsoft.com/fwlink/?LinkId=49339](https://go.microsoft.com/fwlink/?LinkId=49339). The case studies provide details about the scenarios tested, the hardware on which testing was done, and the configuration for the tests. You can extrapolate from the performance achieved for these test cases to get an initial sizing estimate for your system.
+ Based on the established goals and criteria, it is never too early to begin the process of estimating the hardware sizing that will be required to meet the goals. As with any sizing estimation efforts, one must base the estimates on actual test results. During the early phases of a project, those results must come from external sources. You can read case studies at BizTalk Server Developer Center, at [https://go.microsoft.com/fwlink/?LinkId=49339](https://go.microsoft.com/fwlink/?LinkId=49339). The case studies provide details about the scenarios tested, the hardware on which testing was done, and the configuration for the tests. You can extrapolate from the performance achieved for these test cases to get an initial sizing estimate for your system.
 
  Keep in mind that there is no predictive model or simulation that accurately predicts system size for any arbitrary application running on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is a platform on which a large variety of application solutions can be deployed, each with its own performance behavior. So, while an estimate derived using existing case study results will provide a good starting point for planning purposes, the final size of the system will most certainly need to be adjusted for all but the simplest application architectures.
 

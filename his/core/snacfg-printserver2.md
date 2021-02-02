@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Snacfg PrintServer"
 title: "Snacfg PrintServer2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

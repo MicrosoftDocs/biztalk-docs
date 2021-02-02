@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Add New Item Dialog Box (Visual Studio)"
 title: "Add New Item Dialog Box (Visual Studio)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

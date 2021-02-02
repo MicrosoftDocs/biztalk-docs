@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What&#39;s New"
 title: "What&#39;s New1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Messages Represented as XLANGMessage"
 title: "Messages Represented as XLANGMessage | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

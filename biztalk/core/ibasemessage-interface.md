@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IBaseMessage Interface"
 title: "IBaseMessage Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

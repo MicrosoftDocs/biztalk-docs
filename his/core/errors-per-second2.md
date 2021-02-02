@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Errors Per Second"
 title: "Errors Per Second2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

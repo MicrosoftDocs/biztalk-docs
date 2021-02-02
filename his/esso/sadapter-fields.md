@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SAdapter Fields"
 title: "SAdapter Fields | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

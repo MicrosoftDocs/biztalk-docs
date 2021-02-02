@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Fault Handling"
 title: "Using Fault Handling | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Using Fault Handling
-During [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] fault handling an exception message is not returned to the client unless a **FaultException** (or a subtype) is thrown or a **FaultContract** is implemented. So you can only track data from the fault message itself in these scenarios. An exception in callback implementations automatically comes back as a fault message for both **ServerFault** and **ClientFault** track points. However, it will always return a generic fault with a generic message. For more information about WCF fault contracts, see [http://go.microsoft.com/fwlink/?LinkId=83132](https://go.microsoft.com/fwlink/?LinkId=83132).
+During [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] fault handling an exception message is not returned to the client unless a **FaultException** (or a subtype) is thrown or a **FaultContract** is implemented. So you can only track data from the fault message itself in these scenarios. An exception in callback implementations automatically comes back as a fault message for both **ServerFault** and **ClientFault** track points. However, it will always return a generic fault with a generic message. For more information about WCF fault contracts, see [https://go.microsoft.com/fwlink/?LinkId=83132](https://go.microsoft.com/fwlink/?LinkId=83132).
 
  You can also track constants and context properties through the fault track points.
 

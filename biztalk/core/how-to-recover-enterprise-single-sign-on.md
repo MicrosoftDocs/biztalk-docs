@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Recover Enterprise Single Sign-On"
 title: "How to Recover Enterprise Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

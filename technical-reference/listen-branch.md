@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Listen Branch"
 title: Listen Branch
 TOCTitle: Listen Branch
 ms:assetid: 76f40f18-8df3-4992-9030-8084ae700683

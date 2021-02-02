@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Are the WCF Adapters?"
 title: "What Are the WCF Adapters? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -21,7 +22,7 @@ There are two Windows Communication Foundation (WCF) adapters—a receive adapte
 >  The WCF adapters do not support consuming Remote Procedure Call (RPC)-style Web services because the message parts in RPC-style Web services are referring to the message types rather than the message elements where WCF adapters are using elements for the message parts. We recommend that you add the RPC-style Web services through Add Web Reference wizard for consuming the Web services in BizTalk projects.
 
 ## Web Services Standards Support
- WCF adapters provide the support for WS-* standards such as WS-Addressing, WS-Security, and WS-AtomicTransaction. WS-ReliableMessaging is not supported in this release of the WCF adapters. For a list of specifications supported by WCF, see [http://go.microsoft.com/fwlink/?LinkId=88314](https://go.microsoft.com/fwlink/?LinkId=88314).
+ WCF adapters provide the support for WS-* standards such as WS-Addressing, WS-Security, and WS-AtomicTransaction. WS-ReliableMessaging is not supported in this release of the WCF adapters. For a list of specifications supported by WCF, see [https://go.microsoft.com/fwlink/?LinkId=88314](https://go.microsoft.com/fwlink/?LinkId=88314).
 
 ### WS-Addressing
  WCF adapters rely on the WS-Addressing standard support that is provided by WCF. The following features are available in WCF adapters:

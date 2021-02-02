@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Validate Schema Failure"
 title: "Error - Validate Schema Failure | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

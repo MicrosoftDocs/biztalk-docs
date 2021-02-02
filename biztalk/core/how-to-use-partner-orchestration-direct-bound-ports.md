@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Partner Orchestration Direct Bound Ports"
 title: "How to Use Partner Orchestration Direct Bound Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -25,7 +26,7 @@ Partner orchestration direct bound ports provide the capability of having inter-
 
   To configure a partner orchestration direct bound port, in the Port Configuration Wizard, specify **Direct** for **Port binding** and select **To receive messages from other orchestrations, select this port here and in those orchestration** or **To send messages to other orchestrations, select this port here and in those orchestration** depending on whether you are receiving or sending messages on this port. Then select the port from the **Port on partner orchestration** drop-down list. The port type for both ports must be the same, which implies that the message type must also be the same. Moreover, to be able to direct bind to a partner orchestration port, the **Type Modifier** of the port type must be either **Internal** for orchestrations within the same assembly or **Public** to allow an orchestration from another assembly to bind to it. The polarities of the ports must be opposite. For example, if one side is a send port then the other side must be a receive port.
 
-  For an example of how to use partner orchestration direct bound ports, see the SDK sample "Direct Binding to an Orchestration" at [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+  For an example of how to use partner orchestration direct bound ports, see the SDK sample "Direct Binding to an Orchestration" at [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
 ## Forward Partner Orchestration Direct Binding
  This is the typical communication pattern that is used for partner orchestration direct binding. This type of forward partner orchestration binding allows you to have multiple senders bound to the same recipient.

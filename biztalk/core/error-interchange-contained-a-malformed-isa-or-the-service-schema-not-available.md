@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The interchange contained a malformed ISA or the Service schema was not available"
 title: "The interchange contained a malformed ISA or the Service schema was not available | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

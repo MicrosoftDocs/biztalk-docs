@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Providing Hot Backup and Load Balancing (3270)"
 title: "Providing Hot Backup and Load Balancing (3270)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

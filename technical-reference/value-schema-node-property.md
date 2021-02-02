@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Value (Schema Node Property)"
 title: Value (Schema Node Property)
 TOCTitle: Value (Schema Node Property)
 ms:assetid: 77fed485-dcd7-437b-b0e3-807b75b2df9f

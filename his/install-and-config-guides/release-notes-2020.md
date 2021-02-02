@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Release Notes"
 title: "Release Notes | Microsoft Docs"
 ms.custom: ""
 ms.date: "5/13/2020"

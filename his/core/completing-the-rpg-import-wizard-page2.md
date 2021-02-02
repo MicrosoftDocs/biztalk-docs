@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Completing the RPG Import Wizard Page"
 title: "Completing the RPG Import Wizard Page2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTSTicket Interface (COM)"
 title: IBTSTicket Interface (COM)
 TOCTitle: IBTSTicket Interface (COM)
 ms:assetid: 6117f93d-d596-40e2-9880-7cfd74b00ec8

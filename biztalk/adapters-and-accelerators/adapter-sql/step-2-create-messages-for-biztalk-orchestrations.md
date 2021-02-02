@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Create Messages for BizTalk Orchestrations"
 title: "Step 2: Create Messages for BizTalk Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

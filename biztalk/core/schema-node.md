@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Schema Node"
 title: "Schema Node | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

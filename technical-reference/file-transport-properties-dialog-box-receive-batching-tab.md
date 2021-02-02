@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: File Transport Properties Dialog Box, Receive, Batching Tab"
 title: File Transport Properties Dialog Box, Receive, Batching Tab
 TOCTitle: File Transport Properties Dialog Box, Receive, Batching Tab
 ms:assetid: d510de47-ad5b-4499-8ec8-c99d372078a3

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Structure Shortcut Menu"
 title: "Structure Shortcut Menu2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

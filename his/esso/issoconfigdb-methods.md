@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOConfigDB Methods"
 title: "ISSOConfigDB Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

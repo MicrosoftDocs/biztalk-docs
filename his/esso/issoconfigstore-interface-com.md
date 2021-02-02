@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOConfigStore Interface (COM)"
 title: "ISSOConfigStore Interface (COM) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

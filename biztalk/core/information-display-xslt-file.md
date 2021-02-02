@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Information - Display XSLT File"
 title: "Information - Display XSLT File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

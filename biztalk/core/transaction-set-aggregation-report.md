@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction Set Aggregation Report"
 title: "Transaction Set Aggregation Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

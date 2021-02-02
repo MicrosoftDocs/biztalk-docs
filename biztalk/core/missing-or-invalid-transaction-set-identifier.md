@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Missing or invalid Transaction set identifier"
 title: "Missing or invalid Transaction set identifier | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create the LU3 Print Demonstration"
 title: "How to Create the LU3 Print Demonstration2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

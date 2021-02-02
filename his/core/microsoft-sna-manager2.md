@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Microsoft SNA Manager"
 title: "Microsoft SNA Manager2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

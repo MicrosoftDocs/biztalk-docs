@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.ReferenceType Property (WMI)"
 title: MSBTS_MessageInstance.ReferenceType Property (WMI)
 TOCTitle: MSBTS_MessageInstance.ReferenceType Property (WMI)
 ms:assetid: 7d204971-e7f8-42e4-9e9f-4d33a72fcf0d

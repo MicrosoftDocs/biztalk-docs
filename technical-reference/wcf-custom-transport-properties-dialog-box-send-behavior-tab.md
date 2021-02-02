@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-Custom Transport Properties Dialog Box, Send, Behavior Tab"
 title: WCF-Custom Transport Properties Dialog Box, Send, Behavior Tab
 TOCTitle: WCF-Custom Transport Properties Dialog Box, Send, Behavior Tab
 ms:assetid: 4e860c1a-d283-48d8-9a7f-c322dfaa374b

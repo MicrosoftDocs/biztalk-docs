@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Select Ports Dialog Box"
 title: Select Ports Dialog Box
 TOCTitle: Select Ports Dialog Box
 ms:assetid: e7ecb632-14e9-4346-8183-a91b77643caa

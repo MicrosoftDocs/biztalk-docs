@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set the Duration on an RTA Window"
 title: "How to Set the Duration on an RTA Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

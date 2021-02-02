@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ways to Interpret Special Characters as Part of a Field Value"
 title: "Ways to Interpret Special Characters as Part of a Field Value | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

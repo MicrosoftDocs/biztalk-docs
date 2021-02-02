@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-Custom Transport Properties Dialog Box, Send, Credentials Tab"
 title: WCF-Custom Transport Properties Dialog Box, Send, Credentials Tab
 TOCTitle: WCF-Custom Transport Properties Dialog Box, Send, Credentials Tab
 ms:assetid: 8bde7371-7635-407f-ac56-74631e15c811

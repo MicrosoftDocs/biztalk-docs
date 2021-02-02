@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Price and Availability Request with the Fabrikam Sample"
 title: "Creating a Price and Availability Request with the Fabrikam Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

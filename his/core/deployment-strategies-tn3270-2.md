@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deployment Strategies (TN3270)"
 title: "Deployment Strategies (TN3270)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

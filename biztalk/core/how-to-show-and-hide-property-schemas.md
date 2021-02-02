@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Show and Hide Property Schemas"
 title: "How to Show and Hide Property Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

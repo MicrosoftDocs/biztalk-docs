@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOMapper.GetMappingsForWindowsUser Method"
 title: "ISSOMapper.GetMappingsForWindowsUser Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

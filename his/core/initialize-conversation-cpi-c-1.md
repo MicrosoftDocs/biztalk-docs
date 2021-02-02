@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Initialize_Conversation (CPI-C)"
 title: "Initialize_Conversation (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

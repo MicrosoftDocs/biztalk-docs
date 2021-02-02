@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting the ODBC Driver for DB2"
 title: "Troubleshooting the ODBC Driver for DB2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

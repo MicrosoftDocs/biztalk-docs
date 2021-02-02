@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensions for the Windows Environment"
 title: "Extensions for the Windows Environment1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

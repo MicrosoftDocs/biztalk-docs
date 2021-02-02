@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Supported Configurations (SNADIS)"
 title: "Supported Configurations (SNADIS)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

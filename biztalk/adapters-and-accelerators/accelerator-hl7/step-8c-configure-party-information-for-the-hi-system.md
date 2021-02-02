@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 8C: Configure Party Information for the HI System"
 title: "Step 8C: Configure Party Information for the HI System | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

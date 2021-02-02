@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sense Codes for SDI Messages"
 title: "Sense Codes for SDI Messages1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

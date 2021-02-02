@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scenario Overview"
 title: "Scenario Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

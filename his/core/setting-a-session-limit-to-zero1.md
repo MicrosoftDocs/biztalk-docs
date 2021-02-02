@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting a Session Limit to Zero"
 title: "Setting a Session Limit to Zero1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

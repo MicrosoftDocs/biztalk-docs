@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing COM+ Hotfix Rollup Packages"
 title: "Installing COM+ Hotfix Rollup Packages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -43,7 +44,7 @@ manager: "anneta"
 
 -   As of this writing, the latest DTC hotfix rollup is “Package 16”. More information about this hotfix can be found in Microsoft Knowledge Base article 958013, ["List of the MS DTC issues that are fixed in Windows Server 2003 MS DTC Hotfix Rollup Package 16"](https://support.microsoft.com/kb/979919) (https://support.microsoft.com/kb/979919).
 
-     The KB article about the latest DTC hotfix rollup package can be found by searching [http://support.microsoft.com](https://support.microsoft.com/) for the phrase (including the quotes):
+     The KB article about the latest DTC hotfix rollup package can be found by searching [https://support.microsoft.com](https://support.microsoft.com/) for the phrase (including the quotes):
 
     ```
     "MS DTC Hotfix Rollup Package"
@@ -51,4 +52,4 @@ manager: "anneta"
 
      The following query does this search for you. Choose the latest one:
 
-     [http://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package"](https://support.microsoft.com/search/default.aspx?query=%22MS+DTC+Hotfix+Rollup+Package%22)
+     [https://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package"](https://support.microsoft.com/search/default.aspx?query=%22MS+DTC+Hotfix+Rollup+Package%22)

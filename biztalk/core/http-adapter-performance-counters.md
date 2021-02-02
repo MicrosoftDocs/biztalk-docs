@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HTTP Adapter Performance Counters"
 title: "HTTP Adapter Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

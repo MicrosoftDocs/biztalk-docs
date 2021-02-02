@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Examine the Core Interface for a Managed Provider"
 title: "Examine the Managed Provider Core Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

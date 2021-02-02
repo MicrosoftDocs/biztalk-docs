@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Single Sign-On Support for the WCF Adapters"
 title: "Single Sign-On Support for the WCF Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -35,7 +36,7 @@ You can configure Enterprise Single Sign-On (SSO) for use with a WCF receive loc
  The WCF-BasicHttp receive adapter can issue an SSO ticket from the SSO server only in the security configurations shown in the following table.
 
 > [!NOTE]
->  For more information about mapping a certificate to a [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)] user account, see "Mapping certificates to user accounts" at [http://go.microsoft.com/fwlink/?LinkId=87478](https://go.microsoft.com/fwlink/?LinkId=87478).
+>  For more information about mapping a certificate to a [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)] user account, see "Mapping certificates to user accounts" at [https://go.microsoft.com/fwlink/?LinkId=87478](https://go.microsoft.com/fwlink/?LinkId=87478).
 
 |Security mode|Transport client credential type|Message client credential type|
 |-------------------|--------------------------------------|------------------------------------|
@@ -97,7 +98,7 @@ You can configure Enterprise Single Sign-On (SSO) for use with a WCF receive loc
 
  **Single Sign-On Support for the WCF-Custom and the WCF-CustomIsolated Receive Location**
 
- For the WCF-Custom and WCF-CustomIsolated receive locations to issue SSO tickets, the security settings used in the receive locations require the WCF clients to send credentials that can be impersonated by Windows Communication Foundation. WCF supports impersonation for various types of client credentials. For more information about the credential types that WCF supports for impersonation, see "Delegation and Impersonation with WCF" at [http://go.microsoft.com/fwlink/?LinkId=87476](https://go.microsoft.com/fwlink/?LinkId=87476).
+ For the WCF-Custom and WCF-CustomIsolated receive locations to issue SSO tickets, the security settings used in the receive locations require the WCF clients to send credentials that can be impersonated by Windows Communication Foundation. WCF supports impersonation for various types of client credentials. For more information about the credential types that WCF supports for impersonation, see "Delegation and Impersonation with WCF" at [https://go.microsoft.com/fwlink/?LinkId=87476](https://go.microsoft.com/fwlink/?LinkId=87476).
 
 ## Single Sign-On Support for the WCF Send Ports
  For the WCF send ports, you can specify an affiliate application name to use for SSO only in the security configurations shown in the following table.

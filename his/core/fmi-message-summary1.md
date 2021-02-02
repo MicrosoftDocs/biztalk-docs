@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FMI Message Summary"
 title: "FMI Message Summary1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

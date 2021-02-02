@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Service Encodings"
 title: "Configuring Service Encodings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

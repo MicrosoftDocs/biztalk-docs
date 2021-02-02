@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Duplicate Control Number"
 title: "Duplicate Control Number | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

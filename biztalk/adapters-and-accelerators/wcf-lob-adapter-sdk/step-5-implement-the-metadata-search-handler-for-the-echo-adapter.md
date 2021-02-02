@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5: Implement the Metadata Search Handler for the Echo Adapter"
 title: "Step 5: Implement the Metadata Search Handler for the Echo Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

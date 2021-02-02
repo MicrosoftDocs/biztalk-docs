@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Party Properties Dialog Box"
 title: Party Properties Dialog Box
 TOCTitle: Party Properties Dialog Box
 ms:assetid: 22940958-c011-4760-9365-0d742c731117

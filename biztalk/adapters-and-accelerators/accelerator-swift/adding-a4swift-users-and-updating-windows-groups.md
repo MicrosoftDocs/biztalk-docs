@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding A4SWIFT Users and Updating Windows Groups"
 title: "Adding A4SWIFT Users and Updating Windows Groups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

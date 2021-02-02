@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Writing LUA Applications"
 title: "Writing LUA Applications2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

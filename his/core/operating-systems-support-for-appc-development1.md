@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operating Systems Support for APPC Development"
 title: "Operating Systems Support for APPC Development1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

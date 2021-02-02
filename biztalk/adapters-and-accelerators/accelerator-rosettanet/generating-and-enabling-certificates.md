@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Generating and Enabling Certificates"
 title: "Generating and Enabling Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

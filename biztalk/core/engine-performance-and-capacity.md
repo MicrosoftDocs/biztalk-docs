@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Engine Performance and Capacity"
 title: "Engine Performance and Capacity | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

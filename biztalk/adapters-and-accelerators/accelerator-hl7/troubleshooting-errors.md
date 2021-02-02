@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting Errors"
 title: "Troubleshooting Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

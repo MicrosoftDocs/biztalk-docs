@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveHandler (WMI)"
 title: MSBTS_ReceiveHandler (WMI)
 TOCTitle: MSBTS_ReceiveHandler (WMI)
 ms:assetid: 1c04de0e-b85d-4e1a-ad18-bd625f05e025
@@ -38,7 +39,7 @@ class MSBTS_ReceiveHandler : MSBTS_Setting
 </tr>
 <tr class="even">
 <td>Caption (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20246">http://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-receivehandler-customcfg-property-wmi.md">CustomCfg</a></td>
@@ -46,7 +47,7 @@ class MSBTS_ReceiveHandler : MSBTS_Setting
 </tr>
 <tr class="even">
 <td>Description (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20246">http://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-receivehandler-hostname-property-wmi.md">HostName</a></td>
@@ -66,7 +67,7 @@ class MSBTS_ReceiveHandler : MSBTS_Setting
 </tr>
 <tr class="odd">
 <td>SettingID (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20246">http://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -83,4 +84,3 @@ For samples illustrating the **MSBTS\_ReceiveHandler** class, see [WMI Script Sa
 **Header:** Declared in BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

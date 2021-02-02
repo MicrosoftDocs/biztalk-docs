@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SAdapter Fields"
 title: SAdapter Fields
 TOCTitle: SAdapter Fields
 ms:assetid: 563613ab-11c7-4795-89ee-f34111282766

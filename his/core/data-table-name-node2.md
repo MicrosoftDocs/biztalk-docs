@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Table Name Node"
 title: "Data Table Name Node2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Flat File Schema Wizard, Delimited Record Page"
 title: BizTalk Flat File Schema Wizard, Delimited Record Page
 TOCTitle: BizTalk Flat File Schema Wizard, Delimited Record Page
 ms:assetid: f5152b53-aba5-4102-992d-f1a374218176

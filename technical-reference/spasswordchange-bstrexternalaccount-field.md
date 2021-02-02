@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SPasswordChange.bstrExternalAccount Field"
 title: SPasswordChange.bstrExternalAccount Field
 TOCTitle: SPasswordChange.bstrExternalAccount Field
 ms:assetid: db85f14d-3b40-4464-b3b4-56ff2bdf1b9b

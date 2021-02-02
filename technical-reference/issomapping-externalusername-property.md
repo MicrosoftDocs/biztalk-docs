@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapping.ExternalUserName Property"
 title: ISSOMapping.ExternalUserName Property
 TOCTitle: ISSOMapping.ExternalUserName Property
 ms:assetid: a09a045e-197d-4abc-a87c-ce5cb2361725

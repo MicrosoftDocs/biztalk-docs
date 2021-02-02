@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UI Reference for BizTalk Adapter for JDE OneWorld"
 title: "UI Reference for BizTalk Adapter for JDE OneWorld | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

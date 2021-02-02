@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Insert, Update, Delete, and Select Operations"
 title: "Message Schemas for Insert, Update, Delete, and Select Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -36,7 +37,7 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   
  Attribute descriptions:  
   
- [VERSION] = The message version string; for example, http://schemas.microsoft.com/OracleEBS/2008/05.  
+ [VERSION] = The message version string; for example, `http://schemas.microsoft.com/OracleEBS/2008/05`.  
   
  [SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.  
   

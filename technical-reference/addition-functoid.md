@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Addition Functoid"
 title: Addition Functoid
 TOCTitle: Addition Functoid
 ms:assetid: 5d78afdb-99e4-4ec3-826a-9bfbc0b5b358

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Populating a Managed Provider Dataset from a Data Adapter"
 title: "Populate a Managed Provider Dataset from a Data Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

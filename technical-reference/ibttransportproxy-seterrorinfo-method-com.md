@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportProxy.SetErrorInfo Method (COM)"
 title: IBTTransportProxy.SetErrorInfo Method (COM)
 TOCTitle: IBTTransportProxy.SetErrorInfo Method (COM)
 ms:assetid: f05983ae-1c10-4724-9aa0-17de892730a6

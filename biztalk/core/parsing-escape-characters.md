@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Parsing Escape Characters"
 title: "Parsing Escape Characters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

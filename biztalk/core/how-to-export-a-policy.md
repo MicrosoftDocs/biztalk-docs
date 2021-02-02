@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Export a Policy"
 title: "How to Export a Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

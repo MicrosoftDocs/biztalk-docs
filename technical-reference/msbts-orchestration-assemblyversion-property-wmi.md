@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.AssemblyVersion Property (WMI)"
 title: MSBTS_Orchestration.AssemblyVersion Property (WMI)
 TOCTitle: MSBTS_Orchestration.AssemblyVersion Property (WMI)
 ms:assetid: d2e007a1-78a3-4020-9f15-47a947b4a275

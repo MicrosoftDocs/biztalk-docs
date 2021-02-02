@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Running SSO Projects"
 title: "Running SSO Projects1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

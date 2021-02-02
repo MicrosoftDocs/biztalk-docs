@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Schedule SQL Server Integration Services Packages in BizTalk Server"
 title: "Scheduling SQL Server Integration Services Packages | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/14/2020"
@@ -34,7 +35,7 @@ Users create BAM views based on data stored in an online analytical processing (
 
   A scheduled package is executed by [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] as a job.
 
-  For information about running [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] packages, see [http://go.microsoft.com/fwlink/?LinkId=125738](https://go.microsoft.com/fwlink/?LinkId=125738).
+  For information about running [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] packages, see [https://go.microsoft.com/fwlink/?LinkId=125738](https://go.microsoft.com/fwlink/?LinkId=125738).
 
 > [!NOTE]
 >  By default, logging for archiving and cubing BAM SSIS packages is turned on and is stored in the msdb database. Overtime, this may result in a significant volume of SSIS event log data caused by large number of BAM activities or frequent execution of BAM owned SSIS packages. To resolve this, you can delete the old log entries because these entries are used primarily for debugging.
@@ -164,7 +165,7 @@ You must be logged on as a member of the BizTalk Server Administrators group to 
 19. Click **OK** to save the job.
 
     > [!NOTE]
-    >  If BAM is configured with a non-default instance of SQL Server, then the BAM_AN_POCube DTSPackage does not get scheduled/executed accurately. You need to modify the configuration file to allow packages to continue running. For more information, refer to the "Modifying the Contents of the Configuration File" section at [http://go.microsoft.com/fwlink/?LinkId=196768](https://go.microsoft.com/fwlink/?LinkId=196768).
+    >  If BAM is configured with a non-default instance of SQL Server, then the BAM_AN_POCube DTSPackage does not get scheduled/executed accurately. You need to modify the configuration file to allow packages to continue running. For more information, refer to the "Modifying the Contents of the Configuration File" section at [https://go.microsoft.com/fwlink/?LinkId=196768](https://go.microsoft.com/fwlink/?LinkId=196768).
 
 ## See Also
 

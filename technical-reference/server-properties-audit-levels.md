@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server Properties: Audit Levels"
 title: 'Server Properties: Audit Levels'
 TOCTitle: 'Server Properties: Audit Levels'
 ms:assetid: 106c3703-5085-41e6-b921-36bd700908b1

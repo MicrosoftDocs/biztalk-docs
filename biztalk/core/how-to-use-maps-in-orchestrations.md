@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Maps in Orchestrations"
 title: "How to Use Maps in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -24,15 +25,15 @@ BizTalk Mapper is a tool that runs within the Microsoft [!INCLUDE[btsVStudioNoVe
 
 -   [PartyResolution (BizTalk Server Sample)](../core/partyresolution-biztalk-server-sample.md)
 
--   Download the SDK sample "Using the Mass Copy Functoid" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Using the Mass Copy Functoid" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
--   Download the SDK sample "Using the Looping Functoid" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Using the Looping Functoid" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
--   Download the SDK sample "Mapping to a Repeating Structure" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Mapping to a Repeating Structure" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
--   Download the SDK sample "Using the Table Looping Functoid" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Using the Table Looping Functoid" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
--   Download the SDK sample "Using the Value Mapping and Value Mapping (Flattening) Functoids" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Using the Value Mapping and Value Mapping (Flattening) Functoids" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
 ## See Also
  [Creating Maps Using BizTalk Mapper](../core/creating-maps-using-biztalk-mapper.md)

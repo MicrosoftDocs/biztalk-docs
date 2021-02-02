@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Protect the HIP Listener"
 title: "Protect the HIP Listener2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

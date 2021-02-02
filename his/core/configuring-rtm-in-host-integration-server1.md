@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring RTM in Host Integration Server"
 title: "Configuring RTM in Host Integration Server1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

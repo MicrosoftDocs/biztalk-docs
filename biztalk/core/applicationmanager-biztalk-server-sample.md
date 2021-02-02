@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ApplicationManager (BizTalk Server Sample)"
 title: "ApplicationManager (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

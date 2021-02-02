@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Enumeration (Node Property of All Schemas)"
 title: Enumeration (Node Property of All Schemas)
 TOCTitle: Enumeration (Node Property of All Schemas)
 ms:assetid: 7c99c5fe-cfd9-4669-af24-e4825d8e91ae

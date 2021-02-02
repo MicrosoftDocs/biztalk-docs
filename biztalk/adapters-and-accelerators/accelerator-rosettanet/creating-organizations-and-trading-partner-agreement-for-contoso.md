@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating Organizations and Trading Partner Agreement for Contoso"
 title: "Creating Organizations and Trading Partner Agreement for Contoso | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

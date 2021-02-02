@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SWIFT Receive Adapter Synchronous and Deferred Modes"
 title: "SWIFT Receive Adapter Synchronous and Deferred Modes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

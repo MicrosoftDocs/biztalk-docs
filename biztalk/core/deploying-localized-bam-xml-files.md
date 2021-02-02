@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deploying Localized BAM XML Files"
 title: "Deploying Localized BAM XML Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

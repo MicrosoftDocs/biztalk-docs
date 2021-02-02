@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Settings Dashboard, Host Page, General Tab"
 title: BizTalk Settings Dashboard, Host Page, General Tab
 TOCTitle: BizTalk Settings Dashboard, Host Page, General Tab
 ms:assetid: 84de6f06-1074-4dc6-9873-5b4ec4a7f11c

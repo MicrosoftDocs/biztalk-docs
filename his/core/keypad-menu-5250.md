@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Keypad Menu (5250)"
 title: "Keypad Menu (5250) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

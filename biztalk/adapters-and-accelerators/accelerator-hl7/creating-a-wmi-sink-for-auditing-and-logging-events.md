@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a WMI Sink for Auditing and Logging Events"
 title: "Creating a WMI Sink for Auditing and Logging Events | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

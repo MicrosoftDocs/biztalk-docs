@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid close timeout"
 title: "Invalid close timeout | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

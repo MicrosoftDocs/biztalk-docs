@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOMapping.ExternalUserName Property"
 title: "ISSOMapping.ExternalUserName Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

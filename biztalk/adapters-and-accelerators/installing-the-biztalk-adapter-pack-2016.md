@@ -226,7 +226,7 @@ Steps to install the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknove
      > [!IMPORTANT]
      >  While installing the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Evaluation version in silent mode, the default option for CEIP is true.
 
-     For more information about the **msiexec** command, type `msiexec` on the command line, and press `ENTER`. Or go to [http://go.microsoft.com/fwlink/p/?LinkId=103199](https://go.microsoft.com/fwlink/p/?LinkId=103199).
+     For more information about the **msiexec** command, type `msiexec` on the command line, and press `ENTER`. Or go to [https://go.microsoft.com/fwlink/p/?LinkId=103199](https://go.microsoft.com/fwlink/p/?LinkId=103199).
 
 ## Known install issue
 For a comprehensive list of installation-related issues, refer to **Troubleshooting** topics for each adapter.

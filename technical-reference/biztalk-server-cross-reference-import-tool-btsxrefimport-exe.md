@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Server Cross Reference Import Tool (BTSXRefImport.exe)"
 title: BizTalk Server Cross Reference Import Tool (BTSXRefImport.exe)
 TOCTitle: BizTalk Server Cross Reference Import Tool (BTSXRefImport.exe)
 ms:assetid: d87a26b7-753b-4605-939a-0dd99c2a50d8

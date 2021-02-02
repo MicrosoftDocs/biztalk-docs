@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Best Practices for Installing and Configuring BizTalk Server on Hyper-V"
 title: "Checklist: Best Practices to install and configure on Hyper-V | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

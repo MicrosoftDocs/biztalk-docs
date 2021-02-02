@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2 (For Azure): Create an EDI Agreement"
 title: "Step 2 (For Azure): Create an EDI Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -19,7 +20,7 @@ In this topic, you will create partners using the Azure BizTalk portal available
 
 ### To create partners
 
-1.  Using your Microsoft account, log into the portal at [http://go.microsoft.com/fwlink/p/?LinkId=235056](https://go.microsoft.com/fwlink/p/?LinkId=235056).
+1.  Using your Microsoft account, log into the portal at [https://go.microsoft.com/fwlink/p/?LinkId=235056](https://go.microsoft.com/fwlink/p/?LinkId=235056).
 
 2.  Create a partner for Northwind. Follow the steps at [Partners and Profiles](https://msdn.microsoft.com/library/windowsazure/hh689791) to create a partner.
 
@@ -76,7 +77,7 @@ In this topic, you will create partners using the Azure BizTalk portal available
 
         2.  Under **Acknowledgements**, select **TA1 expected** and **997 expected** if you want to generate technical and functional acknowledgements in response for receiving the message.
 
-        3.  Under **Schemas**, click the **Upload** button and upload the **X12 840 schema** (you downloaded from [http://go.microsoft.com/fwlink/p/?LinkId=235057](https://go.microsoft.com/fwlink/p/?LinkId=235057)) and the **SalesOrder** schema (you created in [To create a schema within the EDI project](../core/step-1-for-azure-create-the-edi-project.md#BKMK_CreateSchema)).
+        3.  Under **Schemas**, click the **Upload** button and upload the **X12 840 schema** (you downloaded from [https://go.microsoft.com/fwlink/p/?LinkId=235057](https://go.microsoft.com/fwlink/p/?LinkId=235057)) and the **SalesOrder** schema (you created in [To create a schema within the EDI project](../core/step-1-for-azure-create-the-edi-project.md#BKMK_CreateSchema)).
 
              Set the following properties under the **Schemas** section.
 

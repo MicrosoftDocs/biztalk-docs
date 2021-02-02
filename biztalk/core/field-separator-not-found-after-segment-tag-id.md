@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Field separator not found after segment tag id"
 title: "Field separator not found after segment tag id | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

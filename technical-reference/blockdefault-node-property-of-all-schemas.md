@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BlockDefault (Node Property of All Schemas)"
 title: BlockDefault (Node Property of All Schemas)
 TOCTitle: BlockDefault (Node Property of All Schemas)
 ms:assetid: 86e41518-e11b-4d56-8894-c33ae8f4f9f2

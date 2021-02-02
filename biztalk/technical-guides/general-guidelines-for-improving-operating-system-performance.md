@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: General Guidelines for Improving Operating System Performance"
 title: "General Guidelines for Improving Operating System Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -128,21 +129,21 @@ The following general guidelines should be followed to improve operating system 
 
 - [Required Ports for BizTalk Server](https://go.microsoft.com/fwlink/?LinkID=153238) (https://go.microsoft.com/fwlink/?LinkID=153238).
 
-- To configure RPC dynamic port allocation to work with firewalls, see Knowledge Base article 929851, ["The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008"](https://go.microsoft.com/fwlink/?LinkID=204568) ( HYPERLINK "<http://go.microsoft.com/fwlink/?LinkID=204568>" <http://go.microsoft.com/fwlink/?LinkID=204568>). For information about how to configure Windows Firewall to accommodate the necessary ports, see [Windows Firewall and IPsec Policy Deployment Step-by-Step Guide](https://go.microsoft.com/fwlink/?LinkID=204569) (<http://go.microsoft.com/fwlink/?LinkID=204569>).
+- To configure RPC dynamic port allocation to work with firewalls, see Knowledge Base article 929851, ["The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008"](https://go.microsoft.com/fwlink/?LinkID=204568) ( HYPERLINK "<https://go.microsoft.com/fwlink/?LinkID=204568>" <https://go.microsoft.com/fwlink/?LinkID=204568>). For information about how to configure Windows Firewall to accommodate the necessary ports, see [Windows Firewall and IPsec Policy Deployment Step-by-Step Guide](https://go.microsoft.com/fwlink/?LinkID=204569) (<https://go.microsoft.com/fwlink/?LinkID=204569>).
 
 ## Install appropriate COM+ and MSDTC hotfix rollup packages
  Review the following information to install the appropriate COM+ and MS DTC hotfix rollup packages:
 
 -   The MS DTC hotfix can be found in Microsoft Knowledge Base article978476 ["The MS DTC issue that is fixed in Windows Server 2008 R2 MS DTC Hotfix Rollup Package 1"](https://go.microsoft.com/fwlink/?LinkID=204109) (https://go.microsoft.com/fwlink/?LinkID=204109).
 
--   The latest DTC hotfix rollup package KB article can be found by searching [http://support.microsoft.com](https://go.microsoft.com/fwlink/?LinkID=96185) (https://go.microsoft.com/fwlink/?LinkID=96185) for the phrase (including the quotes):
+-   The latest DTC hotfix rollup package KB article can be found by searching [https://support.microsoft.com](https://go.microsoft.com/fwlink/?LinkID=96185) (https://go.microsoft.com/fwlink/?LinkID=96185) for the phrase (including the quotes):
 
     ```
     "MS DTC Hotfix Rollup Package"
     ```
 
      The following query does this search for you. Choose the latest one:
-    [http://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package"](https://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package")
+    [https://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package"](https://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package")
 
 ## Use the Interrupt-Affinity Policy Tool to bind network adapter interrupts to specific processors on multiprocessor computers
  The Interrupt-Affinity Policy (IntPolicy) is a tool that allows you to “bind” or change the CPU affinity of the interrupts for a given device (such as a network adapter) to a specific processor or processors on a multiprocessor computer. This binding is also referred to as partitioning. The binding of interrupts from a specific network adapter to specific processors on a multiprocessor computer enforces running deferred procedure calls (DPCs) and interrupt service routines (ISRs) for the network adapter on the designated processors. Note that interrupt affinity cannot be configured on single processor computers.

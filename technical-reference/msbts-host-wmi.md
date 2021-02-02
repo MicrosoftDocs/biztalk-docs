@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Host (WMI)"
 title: MSBTS_Host (WMI)
 TOCTitle: MSBTS_Host (WMI)
 ms:assetid: dd0a6c58-236b-4673-8960-c654aef6a894
@@ -38,7 +39,7 @@ class MSBTS_Host : MSBTS_Service
 </tr>
 <tr class="even">
 <td>Caption (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-host-decryptcertcomment-property-wmi.md">DecryptCertComment</a></td>
@@ -50,7 +51,7 @@ class MSBTS_Host : MSBTS_Service
 </tr>
 <tr class="odd">
 <td>Description (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="msbts-host-hosttracking-property-wmi.md">HostTracking</a></td>
@@ -62,7 +63,7 @@ class MSBTS_Host : MSBTS_Service
 </tr>
 <tr class="even">
 <td>InstallDate (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-host-isdefault-property-wmi.md">IsDefault</a></td>
@@ -90,7 +91,7 @@ class MSBTS_Host : MSBTS_Service
 </tr>
 <tr class="odd">
 <td>Status (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -139,4 +140,3 @@ For more information about the minimum security user rights required to administ
 **Header:** Declared in BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

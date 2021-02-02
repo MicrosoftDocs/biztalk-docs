@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Required service certificate thumbprint not specified"
 title: "Required service certificate thumbprint not specified | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Server (WMI)"
 title: MSBTS_Server (WMI)
 TOCTitle: MSBTS_Server (WMI)
 ms:assetid: 849d3788-2edd-4fad-a230-afbe320353c1
@@ -35,15 +36,15 @@ class MSBTS_Server : MSBTS_Service
 <tbody>
 <tr class="odd">
 <td>Caption (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="even">
 <td>Description (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td>InstallDate (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="msbts-server-mgmtdbnameoverride-property-wmi.md">MgmtDbNameOverride</a></td>
@@ -59,7 +60,7 @@ class MSBTS_Server : MSBTS_Service
 </tr>
 <tr class="odd">
 <td>Status (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -111,4 +112,3 @@ For more information about the minimum security user rights required to administ
 [MSBTS\_Server.Name Property (WMI)](msbts-server-name-property-wmi.md)  
 [MSBTS\_Server.Start Method (WMI)](msbts-server-start-method-wmi.md)  
 [MSBTS\_Server.Stop Method (WMI)](msbts-server-stop-method-wmi.md)
-

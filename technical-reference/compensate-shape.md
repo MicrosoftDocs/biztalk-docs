@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Compensate Shape"
 title: Compensate Shape
 TOCTitle: Compensate Shape
 ms:assetid: cc75193c-0193-4891-86e9-f887e5008f4e

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.PTRetryCount Property (WMI)"
 title: MSBTS_SendPort.PTRetryCount Property (WMI)
 TOCTitle: MSBTS_SendPort.PTRetryCount Property (WMI)
 ms:assetid: cbd10391-0649-4357-9fd9-9b6190ff8f56

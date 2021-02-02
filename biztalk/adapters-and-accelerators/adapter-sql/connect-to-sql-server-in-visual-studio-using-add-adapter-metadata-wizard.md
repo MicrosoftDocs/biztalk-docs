@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connect to SQL Server in Visual Studio Using Add Adapter Metadata Wizard"
 title: "Connect to SQL Server in Visual Studio Using Add Adapter Metadata Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

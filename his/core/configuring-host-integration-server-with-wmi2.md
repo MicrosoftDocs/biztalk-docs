@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Host Integration Server with WMI"
 title: "Configuring Host Integration Server with WMI2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

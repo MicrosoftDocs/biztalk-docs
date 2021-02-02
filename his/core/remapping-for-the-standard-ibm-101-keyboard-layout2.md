@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Remapping for the Standard IBM 101 Keyboard Layout"
 title: "Remapping for the Standard IBM 101 Keyboard Layout2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create New Affiliate Application Wizard: Finish"
 title: "Create New Affiliate Application Wizard: Finish2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

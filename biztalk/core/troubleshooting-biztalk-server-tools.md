@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting BizTalk Server Tools"
 title: "Troubleshooting BizTalk Server Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -32,7 +33,7 @@ This topic provides a centralized location for information about common problems
 
  To resolve this problem, run all BizTalk Server tools with Administrative privileges. To run a tool with Administrative privileges, right-click the application and then select **Run as administrator**.
 
- For more information about the User Account Control, see [http://go.microsoft.com/fwlink/?LinkId=99167](https://go.microsoft.com/fwlink/?LinkId=99167).
+ For more information about the User Account Control, see [https://go.microsoft.com/fwlink/?LinkId=99167](https://go.microsoft.com/fwlink/?LinkId=99167).
 
 ### Sometimes BizTalk Mapper Toolbox May Appear Empty
  **Problem**

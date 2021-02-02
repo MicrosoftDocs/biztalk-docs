@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scenario 3: Sizing the Tracking Database  for Messages Sent Out to Distribution Lists"
 title: "Scenario 3: Sizing the Tracking Database  for Messages Sent Out to Distribution Lists | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

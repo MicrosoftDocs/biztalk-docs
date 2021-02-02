@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyName Property (WMI)"
 title: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyName Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.OrchestrationAssemblyName Property (WMI)
 ms:assetid: 6faa19c4-1e0b-4077-a710-b78accf04fab

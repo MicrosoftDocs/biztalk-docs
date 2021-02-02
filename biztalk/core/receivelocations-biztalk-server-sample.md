@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ReceiveLocations (BizTalk Server Sample)"
 title: "ReceiveLocations (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

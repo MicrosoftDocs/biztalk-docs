@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: db2ToSql"
 title: "db2ToSql1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

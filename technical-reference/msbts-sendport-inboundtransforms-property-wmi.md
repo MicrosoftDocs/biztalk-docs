@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.InboundTransforms Property (WMI)"
 title: MSBTS_SendPort.InboundTransforms Property (WMI)
 TOCTitle: MSBTS_SendPort.InboundTransforms Property (WMI)
 ms:assetid: 03d7b925-a839-4a7c-a4e3-6c0e64783529

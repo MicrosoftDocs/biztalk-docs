@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Segment should have a name with at least two characters"
 title: "Segment should have a name with at least two characters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

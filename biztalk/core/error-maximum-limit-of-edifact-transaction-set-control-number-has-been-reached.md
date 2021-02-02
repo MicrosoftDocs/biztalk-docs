@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for party settings"
 title: "Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for party settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

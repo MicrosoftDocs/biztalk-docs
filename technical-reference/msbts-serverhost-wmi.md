@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServerHost (WMI)"
 title: MSBTS_ServerHost (WMI)
 TOCTitle: MSBTS_ServerHost (WMI)
 ms:assetid: 81e42b3b-c75f-47ae-837a-a38ef2304f56
@@ -35,11 +36,11 @@ class MSBTS_ServerHost : MSBTS_BTSObject
 <tbody>
 <tr class="odd">
 <td>Caption (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="even">
 <td>Description (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-serverhost-hostname-property-wmi.md">HostName</a></td>
@@ -47,7 +48,7 @@ class MSBTS_ServerHost : MSBTS_BTSObject
 </tr>
 <tr class="even">
 <td>InstallDate (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-serverhost-ismapped-property-wmi.md">IsMapped</a></td>
@@ -63,7 +64,7 @@ class MSBTS_ServerHost : MSBTS_BTSObject
 </tr>
 <tr class="even">
 <td>Name (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-serverhost-servername-property-wmi.md">ServerName</a></td>
@@ -71,7 +72,7 @@ class MSBTS_ServerHost : MSBTS_BTSObject
 </tr>
 <tr class="even">
 <td>Status (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -114,4 +115,3 @@ For samples illustrating the **MSBTS\_ServerHost** class, see [WMI Script Sample
 **Header:** Declared in BTSWMISchema2K.mof or BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration error. The message signing doesn&#39;t match the expected value."
 title: "Configuration error. The message signing doesn&#39;t match the expected value. | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

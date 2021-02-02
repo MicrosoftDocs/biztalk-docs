@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Unconfigure Features Page"
 title: Configuration Wizard, Unconfigure Features Page
 TOCTitle: Configuration Wizard, Unconfigure Features Page
 ms:assetid: 4fc97c6d-de7f-41e5-8c13-e98d9acca487

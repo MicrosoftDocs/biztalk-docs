@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.IsPrimary Property (WMI)"
 title: MSBTS_ReceiveLocation.IsPrimary Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.IsPrimary Property (WMI)
 ms:assetid: 67a726b0-dcc9-43c7-89c6-acb234e526b2

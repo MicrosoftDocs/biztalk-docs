@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - The output CSharp is stored in the following file: &lt;file:---{0}&gt;"
 title: "Error - The output CSharp is stored in the following file: &lt;file:---{0}&gt; | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

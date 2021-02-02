@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security tips and guidance - HIS"
 title: "Security tips | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Snacfg TN5Server"
 title: "Snacfg TN5Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

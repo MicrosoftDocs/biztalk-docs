@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Validation (EDIFACT-Interchange Settings)"
 title: "Configuring Validation (EDIFACT-Interchange Settings) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

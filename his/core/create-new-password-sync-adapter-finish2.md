@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create New Password Sync Adapter: Finish"
 title: "Create New Password Sync Adapter: Finish2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

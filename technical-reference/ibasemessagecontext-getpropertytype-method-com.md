@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageContext.GetPropertyType Method (COM)"
 title: IBaseMessageContext.GetPropertyType Method (COM)
 TOCTitle: IBaseMessageContext.GetPropertyType Method (COM)
 ms:assetid: 49c3cb8b-0ab3-478f-9422-fcc2d09b74f3

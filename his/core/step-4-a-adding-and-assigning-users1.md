@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4 (A) Adding and Assigning Users"
 title: "Step 4 (A) Adding and Assigning Users1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

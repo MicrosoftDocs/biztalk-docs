@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optional Second Element (Only Used by X.25 SVC)"
 title: "Optional Second Element (Only Used by X.25 SVC)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

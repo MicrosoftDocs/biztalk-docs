@@ -1,4 +1,4 @@
-﻿---
+---
 # required metadata
 
 title: Use XSL Transform (Grid Property)

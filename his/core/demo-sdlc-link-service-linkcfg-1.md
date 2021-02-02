@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Demo SDLC Link Service (Linkcfg )"
 title: "Demo SDLC Link Service (Linkcfg )1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

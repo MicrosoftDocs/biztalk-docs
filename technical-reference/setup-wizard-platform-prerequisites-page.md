@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Setup Wizard, Platform Prerequisites Page"
 title: Setup Wizard, Platform Prerequisites Page
 TOCTitle: Setup Wizard, Platform Prerequisites Page
 ms:assetid: 2ece0cbe-9be6-420c-974a-efe00b8be827
@@ -17,6 +18,4 @@ You have reached this page because you are missing one or more of the software p
 
 
 > [!IMPORTANT]
-> <P>For a current list of prerequisites, we recommend that you refer to the latest version of the BizTalk Server Installation at <A href="http://go.microsoft.com/fwlink/p/?linkid=269585">http://go.microsoft.com/fwlink/p/?LinkId=269585</A>.</P>
-
-
+> <P>For a current list of prerequisites, we recommend that you refer to the latest version of the BizTalk Server Installation at <A href="https://go.microsoft.com/fwlink/p/?linkid=269585">https://go.microsoft.com/fwlink/p/?LinkId=269585</A>.</P>

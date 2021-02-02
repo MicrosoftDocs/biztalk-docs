@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Server.Name Property (WMI)"
 title: MSBTS_Server.Name Property (WMI)
 TOCTitle: MSBTS_Server.Name Property (WMI)
 ms:assetid: cd033a53-02f1-4be9-9e41-205bd749b973

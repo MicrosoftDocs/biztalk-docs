@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Integration Server and WMI on a Backup Server"
 title: "Host Integration Server and WMI on a Backup Server1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

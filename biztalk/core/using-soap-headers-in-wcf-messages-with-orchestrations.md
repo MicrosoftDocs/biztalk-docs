@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using SOAP Headers in WCF Messages with Orchestrations"
 title: "Using SOAP Headers in WCF Messages with Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -21,7 +22,7 @@ manager: "anneta"
 # Using SOAP Headers in WCF Messages with Orchestrations
 To send the custom SOAP headers with outgoing WCF messages in orchestrations, you use the context property, **WCF.OutboundCustomHeaders**. The WCF adapters send the custom SOAP headers combined with the standard SOAP headers that the WCF infrastructure uses for Web services standards such as WS-Addressing, WS-Security, and WS-AtomicTransaction. When you use the **OutboundCustomHeaders** property, the property must have the \<**headers**\> element as the root element. All of the custom SOAP headers must be placed inside the \<**headers**\> element. If the custom SOAP header value is an empty string, you must assign \<**headers**\>\</**headers**\> or \<**headers**/\> to the **OutboundCustomHeaders** property.
 
- For orchestrations, the SOAP header context properties are set to strings that contain XML data. You set these strings by using BizTalk Expression Editor in a **Message Assignment** or **Expression** shape. For more information about how to use SOAP headers with the WCF adapters, see the SDK sample, Using Custom SOAP Headers with the WCF Adapters, from [http://go.microsoft.com/fwlink/?LinkId=79960](https://go.microsoft.com/fwlink/?LinkId=79960).
+ For orchestrations, the SOAP header context properties are set to strings that contain XML data. You set these strings by using BizTalk Expression Editor in a **Message Assignment** or **Expression** shape. For more information about how to use SOAP headers with the WCF adapters, see the SDK sample, Using Custom SOAP Headers with the WCF Adapters, from [https://go.microsoft.com/fwlink/?LinkId=79960](https://go.microsoft.com/fwlink/?LinkId=79960).
 
  The following example (from a Message Assignment or an Expression shape) shows the string setting the context property:
 

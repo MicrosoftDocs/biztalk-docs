@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security Considerations for IIS Impersonation"
 title: "Security Considerations for IIS Impersonation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

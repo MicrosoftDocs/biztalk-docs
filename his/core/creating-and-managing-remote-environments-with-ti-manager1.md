@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating and Managing Remote Environments with TI Manager"
 title: "Creating and Managing Remote Environments with TI Manager1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

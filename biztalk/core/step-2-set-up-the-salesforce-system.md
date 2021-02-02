@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Set up the Salesforce System"
 title: "Step 2: Set up the Salesforce System | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -26,7 +27,7 @@ In this step, you configure Salesforce to send notifications when an opportunity
 -   Create a Salesforce connected application definition.
 
 > [!NOTE]
->  The steps in this topic assume that you already have a Salesforce developer account. To create a new developer account in Salesforce, go to [http://go.microsoft.com/fwlink/?LinkId=296424](https://go.microsoft.com/fwlink/?LinkId=296424).
+>  The steps in this topic assume that you already have a Salesforce developer account. To create a new developer account in Salesforce, go to [https://go.microsoft.com/fwlink/?LinkId=296424](https://go.microsoft.com/fwlink/?LinkId=296424).
 
 ### To create an Account in Salesforce
 

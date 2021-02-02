@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Subscriptions over Time by Application or Service"
 title: "Subscriptions over Time by Application or Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

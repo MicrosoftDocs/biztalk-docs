@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Attribute Group Nodes"
 title: "Attribute Group Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

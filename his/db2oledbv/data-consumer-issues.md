@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Consumer Issues"
 title: "Data Consumer Issues | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -286,7 +287,7 @@ C:\Program Files (x86)\Microsoft SQL Server\100\DTS\MappingFiles
     EXEC sp_changearticle @publication, @article, 'status', 'parameters', 0, 0;
     ```
 
-    For more information, see [Replication System Stored Procedures Concepts](http://go.microsoft.com/fwlink/?LinkId=241525) (http://go.microsoft.com/fwlink/?LinkId=241525) in SQL Server Books Online.  
+    For more information, see [Replication System Stored Procedures Concepts](https://go.microsoft.com/fwlink/?LinkId=241525) (https://go.microsoft.com/fwlink/?LinkId=241525) in SQL Server Books Online.  
     
 ### Replication INSERT operation fails with Error 8152: String or binary data would be truncated  
  SQL Server Replication INSERT operation may fail with SQL Server Error 8152 (String or binary data would be truncated.). This may occur when (1)  Data Provider is not configured to use early metadata, and (2) Replication is not configured to use parameterized INSERT statements.

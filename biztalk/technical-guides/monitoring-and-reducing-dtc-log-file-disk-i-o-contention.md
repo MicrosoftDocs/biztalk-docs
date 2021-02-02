@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Monitoring and Reducing DTC Log File Disk I/O Contention"
 title: "Monitoring and Reducing DTC Log File Disk I/O Contention | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -22,7 +23,7 @@ The Distributed Transaction Coordinator (DTC) log file can become a disk I/O bot
  In an environment where SQL Server is clustered, this is not as much of a concern because the log file will already be on a shared drive, which will likely be a fast SAN drive with multiple spindles. You should nevertheless still monitor the disk I/O usage since it can become a bottleneck in non-clustered environments or when the DTC log file is on a shared disk with other disk-intensive files.
 
 ## Troubleshooting DTC
- For information about troubleshooting DTC, see "Troubleshooting Problems with MSDTC" in BizTalk Server Help at [http://go.microsoft.com/fwlink/?LinkId=153237](https://go.microsoft.com/fwlink/?LinkId=153237).
+ For information about troubleshooting DTC, see "Troubleshooting Problems with MSDTC" in BizTalk Server Help at [https://go.microsoft.com/fwlink/?LinkId=153237](https://go.microsoft.com/fwlink/?LinkId=153237).
 
 ## See Also
  [Checklist: Configuring Windows Server](../technical-guides/checklist-configuring-windows-server.md)

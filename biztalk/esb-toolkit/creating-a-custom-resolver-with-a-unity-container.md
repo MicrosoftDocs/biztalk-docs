@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Custom Resolver with a Unity Container"
 title: "Creating a Custom Resolver with a Unity Container | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -14,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Creating a Custom Resolver with a Unity Container
-You can create a custom resolver using the [Unity Application Block](https://go.microsoft.com/fwlink/?LinkId=188286) (Unity) ([http://go.microsoft.com/fwlink/?LinkId=188286](https://go.microsoft.com/fwlink/?LinkId=188286)) for run-time dependency injection of resolution logic and metadata sources.
+You can create a custom resolver using the [Unity Application Block](https://go.microsoft.com/fwlink/?LinkId=188286) (Unity) ([https://go.microsoft.com/fwlink/?LinkId=188286](https://go.microsoft.com/fwlink/?LinkId=188286)) for run-time dependency injection of resolution logic and metadata sources.
 
  **Fact Providers**
 
@@ -288,7 +289,7 @@ private Dictionary\<string, string\> ResolveStatic(string config, string resolve
 </containers>
 ```
 
- For detailed information about the configuration that is necessary in the **esb.resolvers** node, see [Source Schema for the Unity Application Block](https://go.microsoft.com/fwlink/?LinkId=188288) ([http://go.microsoft.com/fwlink/?LinkId=188288](https://go.microsoft.com/fwlink/?LinkId=188288)) on MSDN.
+ For detailed information about the configuration that is necessary in the **esb.resolvers** node, see [Source Schema for the Unity Application Block](https://go.microsoft.com/fwlink/?LinkId=188288) ([https://go.microsoft.com/fwlink/?LinkId=188288](https://go.microsoft.com/fwlink/?LinkId=188288)) on MSDN.
 
  **Creating a Custom Unity Resolver**
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Define Measures"
 title: "How to Define Measures | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

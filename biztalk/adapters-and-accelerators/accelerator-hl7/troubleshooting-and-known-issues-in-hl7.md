@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting and known issues in HL7"
 title: "Troubleshooting and known issues in HL7 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

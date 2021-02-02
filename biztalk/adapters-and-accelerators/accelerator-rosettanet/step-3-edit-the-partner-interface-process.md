@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Edit the Partner Interface Process"
 title: "Step 3: Edit the Partner Interface Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

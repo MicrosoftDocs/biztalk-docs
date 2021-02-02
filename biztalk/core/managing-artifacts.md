@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing Artifacts"
 title: "Managing Artifacts | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "01/10/2020"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-NetTcp Transport Properties Dialog Box, Receive, Binding Tab"
 title: WCF-NetTcp Transport Properties Dialog Box, Receive, Binding Tab
 TOCTitle: WCF-NetTcp Transport Properties Dialog Box, Receive, Binding Tab
 ms:assetid: f7c2ca6b-ba68-47d4-88f9-847547aa22da
@@ -58,7 +59,7 @@ Maximum value: 23:59:59</td>
 <td><strong>Maximum received message size (bytes)</strong></td>
 <td>Specify the maximum size, in bytes, for a message including headers, which can be received on the wire. The size of the messages is bounded by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks.<br />
 <br />
-The WCF-NetTcp adapter leverages the <a href="http://go.microsoft.com/fwlink/?linkid=81087">NetTcpBinding</a> class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the <a href="http://go.microsoft.com/fwlink/?linkid=81088">NetTcpBinding.MaxBufferSize</a> property is always equal to the value of this property.<br />
+The WCF-NetTcp adapter leverages the <a href="https://go.microsoft.com/fwlink/?linkid=81087">NetTcpBinding</a> class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the <a href="https://go.microsoft.com/fwlink/?linkid=81088">NetTcpBinding.MaxBufferSize</a> property is always equal to the value of this property.<br />
 <br />
 Default value: 65536<br />
 <br />
@@ -85,7 +86,7 @@ The default is <strong>OleTransaction</strong>.</td>
 <td><strong>Lease timeout (hh:mm:ss)</strong></td>
 <td>Specify maximum lifetime of an active pooled connection. After the specified time elapses, the connection closes once the current request is serviced.<br />
 <br />
-The WCF-NetTcp adapter leverages the <a href="http://go.microsoft.com/fwlink/?linkid=81087">NetTcpBinding</a> class to communicate with an endpoint. When using the <a href="http://go.microsoft.com/fwlink/?linkid=81087">NetTcpBinding</a> in load-balanced scenarios, consider reducing the default lease timeout. For more information about the load balancing when using the <a href="http://go.microsoft.com/fwlink/?linkid=81087">NetTcpBinding</a>, see the appropriate topic in See Also.<br />
+The WCF-NetTcp adapter leverages the <a href="https://go.microsoft.com/fwlink/?linkid=81087">NetTcpBinding</a> class to communicate with an endpoint. When using the <a href="https://go.microsoft.com/fwlink/?linkid=81087">NetTcpBinding</a> in load-balanced scenarios, consider reducing the default lease timeout. For more information about the load balancing when using the <a href="https://go.microsoft.com/fwlink/?linkid=81087">NetTcpBinding</a>, see the appropriate topic in See Also.<br />
 <br />
 Default value: 00:05:00<br />
 <br />
@@ -147,4 +148,3 @@ The following table describes the semantics of transactional message submission 
 
 [How to Configure a WCF-NetTcp Receive Location](https://msdn.microsoft.com/library/bb226412\(v=bts.80\))
 [Load Balancing](https://go.microsoft.com/fwlink/?linkid=81089)
-

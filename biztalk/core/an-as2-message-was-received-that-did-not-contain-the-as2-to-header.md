@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: An AS2 message was received that did not contain the AS2-To header"
 title: "An AS2 message was received that did not contain the AS2-To header | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

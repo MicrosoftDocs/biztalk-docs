@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What's New in HIS 2013"
 title: "What's New in HIS 2013 | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016
@@ -252,10 +253,10 @@ The following sections in this topic contain information about new features and 
 
 |Resource|Location|
 |--------------|--------------|
-|Host Integration Server Home|[http://go.microsoft.com/fwlink/?LinkId=187949](https://go.microsoft.com/fwlink/?LinkId=187949)|
-|Host Integration Server Blog|[http://go.microsoft.com/fwlink/?LinkId=142377](https://go.microsoft.com/fwlink/?LinkId=142377)|
-|Host Integration Server Forum|[http://go.microsoft.com/fwlink/?LinkId=191382](https://go.microsoft.com/fwlink/?LinkId=191382)|
-|TechNet Wiki|[http://go.microsoft.com/fwlink/?LinkId=198099](https://go.microsoft.com/fwlink/?LinkId=198099)|
+|Host Integration Server Home|[https://go.microsoft.com/fwlink/?LinkId=187949](https://go.microsoft.com/fwlink/?LinkId=187949)|
+|Host Integration Server Blog|[https://go.microsoft.com/fwlink/?LinkId=142377](https://go.microsoft.com/fwlink/?LinkId=142377)|
+|Host Integration Server Forum|[https://go.microsoft.com/fwlink/?LinkId=191382](https://go.microsoft.com/fwlink/?LinkId=191382)|
+|TechNet Wiki|[https://go.microsoft.com/fwlink/?LinkId=198099](https://go.microsoft.com/fwlink/?LinkId=198099)|
 
 ## Contacting Microsoft About Documentation Issues
  The Host Integration Server documentation team solicits your feedback about the documentation. Are you finding the information that you need quickly? Are there any gaps in content coverage? Please send your comments and suggestions to us by using the feedback link in the online Help or by contacting us through the Host Integration Server on Microsoft Connect link.

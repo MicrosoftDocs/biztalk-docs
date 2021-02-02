@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitter Methods (COM)"
 title: IBTTransmitter Methods (COM)
 TOCTitle: IBTTransmitter Methods (COM)
 ms:assetid: 5215d8e6-1232-4a0e-8974-8bd172b498af

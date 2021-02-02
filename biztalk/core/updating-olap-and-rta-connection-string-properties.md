@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Updating OLAP and RTA Connection String Properties"
 title: "Updating OLAP and RTA Connection String Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

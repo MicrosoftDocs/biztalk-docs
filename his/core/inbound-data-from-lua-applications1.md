@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Inbound Data from LUA Applications"
 title: "Inbound Data from LUA Applications1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure the HTTP Receive Adapter"
 title: "How to Configure the HTTP Receive Adapter2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

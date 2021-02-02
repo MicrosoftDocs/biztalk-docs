@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SPasswordChange Structure (COM)"
 title: SPasswordChange Structure (COM)
 TOCTitle: SPasswordChange Structure (COM)
 ms:assetid: b3bd157d-3b83-4f7b-8590-88620b2551dc

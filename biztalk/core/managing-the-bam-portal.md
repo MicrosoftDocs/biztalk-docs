@@ -1,6 +1,6 @@
 ---
 title: "Manage the BAM Portal in BizTalk Server| Microsoft Docs"
-Description: Overview of installing and configuring the BAM portal in BizTalk Server
+description: Overview of installing and configuring the BAM portal in BizTalk Server
 ms.custom: ""
 ms.date: "08/15/2017"
 ms.prod: "biztalk-server"

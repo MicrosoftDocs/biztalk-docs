@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Polling-based Data-changed Messages in Oracle Database using the WCF Service Model"
 title: "Receive Polling-based Data-changed Messages in Oracle Database using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

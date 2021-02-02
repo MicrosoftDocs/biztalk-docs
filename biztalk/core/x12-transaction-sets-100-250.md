@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: X12 Transaction Sets 100-250"
 title: "X12 Transaction Sets 100-250 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

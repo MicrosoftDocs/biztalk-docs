@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Outbound Message Protection"
 title: "Outbound Message Protection | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting for Invokable TPs (CPI-C)"
 title: "Troubleshooting for Invokable TPs (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

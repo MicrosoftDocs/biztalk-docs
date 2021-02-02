@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Suspend Shape"
 title: Suspend Shape
 TOCTitle: Suspend Shape
 ms:assetid: 76e9ea47-1e32-450a-9532-fa311181567d

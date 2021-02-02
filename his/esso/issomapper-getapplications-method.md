@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOMapper.GetApplications Method"
 title: "ISSOMapper.GetApplications Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

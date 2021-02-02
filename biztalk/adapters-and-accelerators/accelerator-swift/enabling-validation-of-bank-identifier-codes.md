@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enabling Validation of Bank Identifier Codes"
 title: "Enabling Validation of Bank Identifier Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Corrupt Backup Files"
 title: "Corrupt Backup Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

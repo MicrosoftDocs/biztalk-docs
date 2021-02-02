@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ReceivePorts (BizTalk Server Sample)"
 title: "ReceivePorts (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

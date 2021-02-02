@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set the Enterprise Single Sign-On Server"
 title: "How to Set the Enterprise Single Sign-On Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

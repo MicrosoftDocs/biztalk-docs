@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations in SQL using BizTalk Server"
 title: "ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations in SQL using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

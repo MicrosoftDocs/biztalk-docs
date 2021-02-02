@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Delete a Remote Environment"
 title: "How to Delete a Remote Environment1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

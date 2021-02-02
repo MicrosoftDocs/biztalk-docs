@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Install Host Integration Server Designer"
 title: "How to Install Host Integration Server Designer2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

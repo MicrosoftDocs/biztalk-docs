@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Minimum Value Functoid"
 title: Minimum Value Functoid
 TOCTitle: Minimum Value Functoid
 ms:assetid: e9ea1d87-dd6d-4814-87f4-ffd933d6f0c3

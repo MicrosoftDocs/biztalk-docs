@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Suspend, Resume, and Terminate Orchestration Instances"
 title: "How to Suspend, Resume, and Terminate Orchestration Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

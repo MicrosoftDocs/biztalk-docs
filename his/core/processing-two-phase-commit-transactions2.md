@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Processing Two-Phase Commit Transactions"
 title: "Processing Two-Phase Commit Transactions2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

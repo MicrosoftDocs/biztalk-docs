@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use MessageBox Direct Bound Ports"
 title: "How to Use MessageBox Direct Bound Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -42,7 +43,7 @@ http://schemas.microsoft.com/BizTalk/2003/system-properties.MessageType == http:
 
  To configure a MessageBox direct bound port, select **Routing between ports will be defined by filter expressions on incoming messages in the Message Box database** in the Port Configuration Wizard.
 
- For an example of how to use MessageBox direct bound ports, see the SDK sample "Direct Binding to the MessageBox Database in Orchestrations" at [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+ For an example of how to use MessageBox direct bound ports, see the SDK sample "Direct Binding to the MessageBox Database in Orchestrations" at [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
 ## See Also
  [How to Use Self-Correlating Direct Bound Ports](../core/how-to-use-self-correlating-direct-bound-ports.md)

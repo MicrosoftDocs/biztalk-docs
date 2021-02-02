@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Develop SQL applications using the WCF Channel Model"
 title: "Develop SQL applications using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Important Host Integration Server Network Options"
 title: "Important Host Integration Server Network Options1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

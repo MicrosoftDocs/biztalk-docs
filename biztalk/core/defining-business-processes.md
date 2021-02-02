@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining Business Processes"
 title: "Defining Business Processes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

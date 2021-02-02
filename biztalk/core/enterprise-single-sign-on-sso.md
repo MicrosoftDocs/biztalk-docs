@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enterprise Single Sign-On (SSO)"
 title: "Enterprise Single Sign-On (SSO) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: An error occurred when validating an AS2 message"
 title: "An error occurred when validating an AS2 message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

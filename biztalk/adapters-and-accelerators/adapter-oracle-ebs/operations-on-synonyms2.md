@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on Synonyms"
 title: "Operations on Synonyms2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Operations on Synonyms
-The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] allows you to perform operations on synonyms. A synonym is an alias or friendly name for the database objects (such as tables, views, stored procedures, functions, and packages). For more information about synonyms in Oracle, see [http://go.microsoft.com/fwlink/?LinkId=138058](https://go.microsoft.com/fwlink/?LinkId=138058).
+The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] allows you to perform operations on synonyms. A synonym is an alias or friendly name for the database objects (such as tables, views, stored procedures, functions, and packages). For more information about synonyms in Oracle, see [https://go.microsoft.com/fwlink/?LinkId=138058](https://go.microsoft.com/fwlink/?LinkId=138058).
 
 ## Advantages of Using Synonyms
  Synonyms are helpful in the following scenarios:

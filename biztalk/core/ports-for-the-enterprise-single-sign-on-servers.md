@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ports for the Enterprise Single Sign-On Servers"
 title: "Ports for the Enterprise Single Sign-On Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/07/2016"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a Fact Retriever"
 title: "How to Create a Fact Retriever | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -39,7 +40,7 @@ rsCfg.FactRetriever = factRetriever;
 ```
 
 > [!NOTE]
->  If you specify simple assembly name such as MyAssembly as the first parameter for RuleEngineComponentConfiguration constructor, the BizTalk rule engine assumes that it is a private assembly and looks for the assembly in your application folder. If you specify fully qualified assembly name such as **MyAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a310908b42c024fe**, the rule engine assumes that it is a shared assembly and looks for the assembly in the global assembly cache (GAC). You can find the definitions of simple and fully qualified assembly names at [http://go.microsoft.com/fwlink/?LinkId=64535](https://go.microsoft.com/fwlink/?LinkId=64535).
+>  If you specify simple assembly name such as MyAssembly as the first parameter for RuleEngineComponentConfiguration constructor, the BizTalk rule engine assumes that it is a private assembly and looks for the assembly in your application folder. If you specify fully qualified assembly name such as **MyAssembly, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a310908b42c024fe**, the rule engine assumes that it is a shared assembly and looks for the assembly in the global assembly cache (GAC). You can find the definitions of simple and fully qualified assembly names at [https://go.microsoft.com/fwlink/?LinkId=64535](https://go.microsoft.com/fwlink/?LinkId=64535).
 
  You can design the fact retriever with the required application-specific logic to connect to the required data sources, assert the data as long-term facts into the engine, and specify the logic for refreshing or asserting new instances of the long-term facts into the engine. Until updated, the values that are initially asserted into the engine and consequently cached will be used on subsequent execution cycles. The fact retriever implementation returns an object that is analogous to a token and can be used along with the **factsHandleIn** object to determine whether to update existing facts or assert new facts. When a policy version calls its fact retriever for the first time, the **factsHandleIn** object is always null and then takes the value of the return object after the fact retriever's execution.
 

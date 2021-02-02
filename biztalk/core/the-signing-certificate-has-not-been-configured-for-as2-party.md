@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Signing Certificate has not been configured for AS2 party"
 title: "The Signing Certificate has not been configured for AS2 party | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

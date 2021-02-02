@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportConfig.AddReceiveEndpoint Method (COM)"
 title: IBTTransportConfig.AddReceiveEndpoint Method (COM)
 TOCTitle: IBTTransportConfig.AddReceiveEndpoint Method (COM)
 ms:assetid: d215daf8-c25b-4601-af3d-ded7cddde612

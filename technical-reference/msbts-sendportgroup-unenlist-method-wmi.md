@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPortGroup.UnEnlist Method (WMI)"
 title: MSBTS_SendPortGroup.UnEnlist Method (WMI)
 TOCTitle: MSBTS_SendPortGroup.UnEnlist Method (WMI)
 ms:assetid: d9753e09-f953-4b5d-b635-ac2e67e6dcf3

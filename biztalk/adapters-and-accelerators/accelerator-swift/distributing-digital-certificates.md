@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Distributing Digital Certificates"
 title: "Distributing Digital Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -29,4 +30,4 @@ Digital certificates used for digital signing are typically issued and distribut
 > [!NOTE]
 >  The certificate used in the Message Repair and New Submission workflow and user configuration message repair must be issued by a trusted certification authority such as VeriSign or e-Trust.
 
- For specific information on how to set up internal CAs, see the "Setting Up a Certificate Authority" on the MSDN Web site at [http://go.microsoft.com/fwlink/?LinkId=48688](https://go.microsoft.com/fwlink/?LinkId=48688).
+ For specific information on how to set up internal CAs, see the "Setting Up a Certificate Authority" on the MSDN Web site at [https://go.microsoft.com/fwlink/?LinkId=48688](https://go.microsoft.com/fwlink/?LinkId=48688).

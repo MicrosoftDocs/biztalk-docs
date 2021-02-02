@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Delete a Host Instance"
 title: "Delete a Host Instance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

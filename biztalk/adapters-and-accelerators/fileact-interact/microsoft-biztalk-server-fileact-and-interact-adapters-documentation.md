@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Microsoft BizTalk Server FileAct and InterAct Adapters documentation"
 title: "Microsoft BizTalk Server FileAct and InterAct Adapters documentation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

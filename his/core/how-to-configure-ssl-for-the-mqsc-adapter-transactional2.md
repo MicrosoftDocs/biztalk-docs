@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure SSL for the MQSC Adapter: Transactional"
 title: "How to Configure SSL for the MQSC Adapter: Transactional2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

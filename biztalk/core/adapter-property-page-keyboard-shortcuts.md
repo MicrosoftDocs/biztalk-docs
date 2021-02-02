@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adapter Property Page Keyboard Shortcuts"
 title: "Adapter Property Page Keyboard Shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

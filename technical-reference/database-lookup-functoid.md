@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Database Lookup Functoid"
 title: Database Lookup Functoid
 TOCTitle: Database Lookup Functoid
 ms:assetid: 0f370a59-ec4d-4d93-9c8e-79716d86f297

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SStatus.ullErrorCode Field"
 title: SStatus.ullErrorCode Field
 TOCTitle: SStatus.ullErrorCode Field
 ms:assetid: 23866d24-58b6-4033-860e-8cfeee17b65f

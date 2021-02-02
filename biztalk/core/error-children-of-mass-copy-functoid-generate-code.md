@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Children of Mass Copy Functoid Generate Code"
 title: "Error - Children of Mass Copy Functoid Generate Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

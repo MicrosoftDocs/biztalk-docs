@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for Oracle User-Defined Types in Oracle Database"
 title: "Support for Oracle User-Defined Types in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -36,7 +37,7 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports perfo
  The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses the ODP.NET to specify a custom type mapping to map a .NET custom type to an Oracle UDT in the database. To specify a custom type mapping, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses a custom type factory. Therefore, in order to use an Oracle UDT, an assembly (.dll file) is required that defines the custom type factory. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] enables you to generate an assembly for the custom type factory while generating the metadata for an artifact/operation that contains an Oracle UDT.
 
 > [!NOTE]
->  The adapter generates the assembly for the Oracle UDTs based on the classes used by the ODP.NET to support Oracle UDTs. For detailed information about how Oracle UDTs are supported in ODP.NET, see [http://go.microsoft.com/fwlink/?LinkId=140697](https://go.microsoft.com/fwlink/?LinkId=140697).
+>  The adapter generates the assembly for the Oracle UDTs based on the classes used by the ODP.NET to support Oracle UDTs. For detailed information about how Oracle UDTs are supported in ODP.NET, see [https://go.microsoft.com/fwlink/?LinkId=140697](https://go.microsoft.com/fwlink/?LinkId=140697).
 
  To generate the assembly file for using the Oracle UDTs at design time and then use it later at the run time, the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] exposes the following binding properties:
 

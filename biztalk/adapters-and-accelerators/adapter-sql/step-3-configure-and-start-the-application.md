@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Configure and Start the Application"
 title: "Step 3: Configure and Start the Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

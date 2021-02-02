@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to View the Dependencies for a BizTalk Assembly"
 title: "How to View the Dependencies for a BizTalk Assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

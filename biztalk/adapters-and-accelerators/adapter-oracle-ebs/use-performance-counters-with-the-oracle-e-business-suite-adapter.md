@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use Performance Counters with the Oracle E-Business Suite adapter"
 title: "Use Performance Counters with the Oracle E-Business Suite adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

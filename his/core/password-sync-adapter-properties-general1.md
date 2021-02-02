@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Password Sync Adapter Properties: General"
 title: "Password Sync Adapter Properties: General1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

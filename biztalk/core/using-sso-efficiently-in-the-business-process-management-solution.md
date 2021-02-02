@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using SSO Efficiently in the Business Process Management Solution"
 title: "Using SSO Efficiently in the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -31,7 +32,7 @@ Like the Service Oriented solution, the Business Process Management solution use
  The business process management solution uses properties on a singleton object to provide access to the SSO values.
 
 > [!NOTE]
->  Recall that a singleton object is an object that can have only one instance. For more information about singleton objects and creating them in C#, see [http://go.microsoft.com/fwlink/?LinkId=58806](https://go.microsoft.com/fwlink/?LinkId=58806).
+>  Recall that a singleton object is an object that can have only one instance. For more information about singleton objects and creating them in C#, see [https://go.microsoft.com/fwlink/?LinkId=58806](https://go.microsoft.com/fwlink/?LinkId=58806).
 
  In the solution, an orchestration first retrieves the singleton object and then references the values through the object's properties. Here is code from the **OrderManager** orchestration:
 
@@ -46,7 +47,7 @@ numStages = configData.TotalStages;
  The solution follows a common method of creating a singleton: make the constructor private, have the object create an instance of itself and assign that to a private variable, and, through a method or property, provide access to the value of that variable. The **SsoConfigHelper** object uses a property, **Singleton**, to provide access to the single copy of itself.
 
 > [!NOTE]
->  The **SsoConfigHelper** object uses a static constructor to get the initial values from the SSO cache and to set up the refresh mechanism. Because a static constructor cannot be called, it preserves the singleton design. For more information about static constructors, see [http://go.microsoft.com/fwlink/?LinkId=59142](https://go.microsoft.com/fwlink/?LinkId=59142).
+>  The **SsoConfigHelper** object uses a static constructor to get the initial values from the SSO cache and to set up the refresh mechanism. Because a static constructor cannot be called, it preserves the singleton design. For more information about static constructors, see [https://go.microsoft.com/fwlink/?LinkId=59142](https://go.microsoft.com/fwlink/?LinkId=59142).
 
  All objects that an orchestration references, whether directly or indirectly, must be serializable. For more information, see "Serialization" in [Persistence and the Orchestration Engine](../core/persistence-and-the-orchestration-engine.md). Although the **SsoConfigHelper** object is necessarily serializable, if the engine dehydrates the orchestration, when the orchestration rehydrates it will still use the single, current instance of the object. For more information about serialization and BizTalk Server variables, see [Orchestration Variable Types](../core/orchestration-variable-types.md).
 

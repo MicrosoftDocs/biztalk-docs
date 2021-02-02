@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Instance Service Properties in Services"
 title: "Host Instance Service Properties in Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

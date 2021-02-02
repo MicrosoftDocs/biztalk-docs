@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 7: Create a Sample LOB Message"
 title: "Step 7: Create a Sample LOB Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

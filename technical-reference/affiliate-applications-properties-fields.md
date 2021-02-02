@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Affiliate Applications Properties: Fields"
 title: 'Affiliate Applications Properties: Fields'
 TOCTitle: 'Affiliate Applications Properties: Fields'
 ms:assetid: 8ab6d3ac-b973-427d-a68f-a40ce8212130

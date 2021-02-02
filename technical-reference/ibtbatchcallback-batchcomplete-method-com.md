@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTBatchCallBack.BatchComplete Method (COM)"
 title: IBTBatchCallBack.BatchComplete Method (COM)
 TOCTitle: IBTBatchCallBack.BatchComplete Method (COM)
 ms:assetid: 75fa8e05-38f8-460b-bd1f-2213f1672bff

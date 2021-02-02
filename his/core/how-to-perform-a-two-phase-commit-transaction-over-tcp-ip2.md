@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Perform a Two-Phase Commit Transaction over TCP/IP"
 title: "How to Perform a Two-Phase Commit Transaction over TCP-IP2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

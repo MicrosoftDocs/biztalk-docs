@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.ActiveStartDT Property (WMI)"
 title: MSBTS_ReceiveLocation.ActiveStartDT Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.ActiveStartDT Property (WMI)
 ms:assetid: fa70e779-7d3d-43b5-9dd9-3b7fba6d8358
@@ -27,11 +28,10 @@ datetime ActiveStartDT;
 
 This property is read-write.
 
-For more information about the format of the datetime value, see the Platform SDK: Windows Management Instrumentation documentation at [http://go.microsoft.com/fwlink/?LinkID=24855](https://go.microsoft.com/fwlink/?linkid=24855).
+For more information about the format of the datetime value, see the Platform SDK: Windows Management Instrumentation documentation at [https://go.microsoft.com/fwlink/?LinkID=24855](https://go.microsoft.com/fwlink/?linkid=24855).
 
 ## Requirements
 
 **Header:** Declared in BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

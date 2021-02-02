@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOAdmin.DeleteApplication Method"
 title: ISSOAdmin.DeleteApplication Method
 TOCTitle: ISSOAdmin.DeleteApplication Method
 ms:assetid: d6accf27-285f-4059-8df4-cbed39e71f01

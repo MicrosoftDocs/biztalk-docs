@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Subscribing to Alerts"
 title: "Subscribing to Alerts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Justification (Node Property of Flat File Schemas)"
 title: Justification (Node Property of Flat File Schemas)
 TOCTitle: Justification (Node Property of Flat File Schemas)
 ms:assetid: d26646dc-71d1-45b9-a162-82d36eeb4008

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Configuring SQL Server"
 title: "Checklist: Configuring SQL Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"

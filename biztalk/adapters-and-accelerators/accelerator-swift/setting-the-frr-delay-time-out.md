@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setting the FRR Delay Time-Out"
 title: "Setting the FRR Delay Time-Out | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

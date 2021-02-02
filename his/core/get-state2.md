@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GET_STATE"
 title: "GET_STATE2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

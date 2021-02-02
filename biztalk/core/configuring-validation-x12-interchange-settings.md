@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Validation (X12-Interchange Settings)"
 title: "Configuring Validation (X12-Interchange Settings) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

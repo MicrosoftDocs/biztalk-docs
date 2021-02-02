@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adjusting Throttling Thresholds: When and Why"
 title: "Adjusting Throttling Thresholds: When and Why | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

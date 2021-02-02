@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Flat File Schema Wizard UI Help"
 title: BizTalk Flat File Schema Wizard UI Help
 TOCTitle: BizTalk Flat File Schema Wizard UI Help
 ms:assetid: 944c8cc6-3488-4498-9533-c764b63d85ca

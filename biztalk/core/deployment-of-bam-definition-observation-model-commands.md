@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Deployment of BAM Definition (Observation Model) Commands"
 title: "Deployment of BAM Definition (Observation Model) Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Importing an XSD-based PIP"
 title: "Importing an XSD-based PIP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -22,7 +23,7 @@ While the majority of PIPS provided by RosettaNet.org are DTD-based, newer PIPS 
 
 ### To import an XSD-based PIP
 
-1.  Download the XSD-based PIP .zip file from RosettaNet.org at [http://go.microsoft.com/FWLink/?LinkID=33859](https://go.microsoft.com/FWLink/?LinkID=33859) or from CIDX.org at [http://go.microsoft.com/FWLink/?LinkID=33859](https://go.microsoft.com/FWLink/?LinkID=62361). Extract the files from the .zip file. The files that you need will be in the subfolders of the XML folder.
+1.  Download the XSD-based PIP .zip file from RosettaNet.org at [https://go.microsoft.com/FWLink/?LinkID=33859](https://go.microsoft.com/FWLink/?LinkID=33859) or from CIDX.org at [https://go.microsoft.com/FWLink/?LinkID=33859](https://go.microsoft.com/FWLink/?LinkID=62361). Extract the files from the .zip file. The files that you need will be in the subfolders of the XML folder.
 
 2.  Open Visual Studio. Create a new BizTalk project.
 

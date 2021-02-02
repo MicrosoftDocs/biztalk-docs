@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration (WMI)"
 title: MSBTS_Orchestration (WMI)
 TOCTitle: MSBTS_Orchestration (WMI)
 ms:assetid: 7811deb6-775f-4b9d-9587-d61c5b65a5ce
@@ -50,11 +51,11 @@ class MSBTS_Orchestration : MSBTS_Service
 </tr>
 <tr class="odd">
 <td>Caption (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="even">
 <td>Description (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-orchestration-hostname-property-wmi.md">HostName</a></td>
@@ -66,7 +67,7 @@ class MSBTS_Orchestration : MSBTS_Service
 </tr>
 <tr class="odd">
 <td>InstallDate (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="msbts-orchestration-mgmtdbserveroverride-property-wmi.md">MgmtDbServerOverride</a></td>
@@ -82,7 +83,7 @@ class MSBTS_Orchestration : MSBTS_Service
 </tr>
 <tr class="odd">
 <td>Status (Inherited from <strong>CIM_ManagedSystemElement</strong>)</td>
-<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <strong>CIM_ManagedSystemElement</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -131,4 +132,3 @@ class MSBTS_Orchestration : MSBTS_Service
 **Header:** Declared in BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

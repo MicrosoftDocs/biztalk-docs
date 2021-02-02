@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AddResource Command: Policy"
 title: "AddResource Command: Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

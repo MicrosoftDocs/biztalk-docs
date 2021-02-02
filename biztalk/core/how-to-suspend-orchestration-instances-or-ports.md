@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Suspend Orchestration Instances or Ports"
 title: "How to Suspend Orchestration Instances or Ports | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

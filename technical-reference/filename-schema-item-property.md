@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Filename (Schema Item Property)"
 title: Filename (Schema Item Property)
 TOCTitle: Filename (Schema Item Property)
 ms:assetid: f2185094-4476-4b4e-8ba5-7d5f4e9a797e

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XLANG-s Language"
 title: "XLANG-s Language | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

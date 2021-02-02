@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a WCF Adapter for BizTalk Server"
 title: "How to Create a WCF Adapter for BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

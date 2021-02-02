@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorial 1: Enterprise Application Integration"
 title: "Tutorial 1: Enterprise Application Integration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

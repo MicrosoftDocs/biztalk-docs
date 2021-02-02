@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Data Service"
 title: "WCF Data Service1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

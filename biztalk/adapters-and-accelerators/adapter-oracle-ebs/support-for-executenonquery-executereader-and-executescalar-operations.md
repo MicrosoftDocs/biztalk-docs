@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations"
 title: "Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -17,7 +18,7 @@ manager: "anneta"
 # Support for ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] exposes the following outbound operations at the root level:
 
--   **ExecuteNonQuery**: Use this operation to execute any arbitrary SQL statements or PL/SQL blocks in Oracle E-Business Suite if you want to return multiple result sets. The input parameters of this function include a string parameter (the entire PL/SQL block to be executed) and an array of strings (OutRefCursorNames). Each string value specified in OutRefCursorNames is assumed to be the parameter name of an output REF CURSOR with the PL/SQL block returning REF CURSORS with the same names. This function also takes an OUT parameter (OutRefCursors), which is an array of DataSets. For information about DataSet, consult the Oracle documentation at [http://go.microsoft.com/fwlink/?LinkId=124538](https://go.microsoft.com/fwlink/?LinkId=124538). The return value of this operation is of integer data type, and indicates the number of affected rows.
+-   **ExecuteNonQuery**: Use this operation to execute any arbitrary SQL statements or PL/SQL blocks in Oracle E-Business Suite if you want to return multiple result sets. The input parameters of this function include a string parameter (the entire PL/SQL block to be executed) and an array of strings (OutRefCursorNames). Each string value specified in OutRefCursorNames is assumed to be the parameter name of an output REF CURSOR with the PL/SQL block returning REF CURSORS with the same names. This function also takes an OUT parameter (OutRefCursors), which is an array of DataSets. For information about DataSet, consult the Oracle documentation at [https://go.microsoft.com/fwlink/?LinkId=124538](https://go.microsoft.com/fwlink/?LinkId=124538). The return value of this operation is of integer data type, and indicates the number of affected rows.
 
 -   **ExecuteReader**: Use this operation to execute any arbitrary SQL statements or PL/SQL blocks in Oracle E-Business Suite if you want the result set to be returned as DataSet. This operation takes a string parameter as input, and returns a DataSet.
 

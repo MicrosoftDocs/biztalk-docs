@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Static Adapter IStaticAdapterConfig Interface"
 title: "Static Adapter IStaticAdapterConfig Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Server 2010 Operations Guide"
 title: "BizTalk Server 2010 Operations Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"
@@ -22,7 +23,7 @@ Welcome to the Microsoft® BizTalk® Server 2010 Operations Guide. We created th
  This guide caters to BizTalk Server and provides operational readiness information to help you jumpstart with your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] setup.
 
 > [!NOTE]
->  To see the Operations Guide for [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] or [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)], see [http://go.microsoft.com/fwlink/?LinkID=130458](https://go.microsoft.com/fwlink/?LinkID=130458).
+>  To see the Operations Guide for [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] or [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)], see [https://go.microsoft.com/fwlink/?LinkID=130458](https://go.microsoft.com/fwlink/?LinkID=130458).
 
 ## Where Do I Start?
  We organized the guide according to the functional aspects of planning, deploying, and managing a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation. You can therefore read it according to these functional aspects. However, realizing that the checklists would be the most sought after information in the BizTalk Server Operations Guide, we have categorized all the checklists in the document in the following table for ease of accessibility.

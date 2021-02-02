@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Permissions Required for Deploying and Managing a BizTalk Application"
 title: "Permissions Required for Deploying and Managing a BizTalk Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

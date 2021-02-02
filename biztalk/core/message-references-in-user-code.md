@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message References in User Code"
 title: "Message References in User Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

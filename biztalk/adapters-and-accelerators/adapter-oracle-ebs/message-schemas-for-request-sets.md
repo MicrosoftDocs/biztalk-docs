@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Request Sets"
 title: "Message Schemas for Request Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -30,7 +31,7 @@ Each request set in an Oracle application in Oracle E-Business Suite is surfaced
   
  Entity descriptions:  
   
- [VERSION] = http://schemas.microsoft.com/OracleEBS/2008/05  
+ [VERSION] = `http://schemas.microsoft.com/OracleEBS/2008/05`  
   
  .  
   

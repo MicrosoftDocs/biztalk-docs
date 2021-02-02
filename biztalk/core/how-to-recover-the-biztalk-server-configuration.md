@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Recover the BizTalk Server Configuration"
 title: "How to Recover the BizTalk Server Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitter Interface (COM)"
 title: IBTTransmitter Interface (COM)
 TOCTitle: IBTTransmitter Interface (COM)
 ms:assetid: e8900c8b-3ddc-4a68-94ed-4b3ef24eb2a6

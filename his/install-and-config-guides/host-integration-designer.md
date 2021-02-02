@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Integration Designer"
 title: "Host Integration Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/24/2017"

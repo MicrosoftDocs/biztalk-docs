@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Updating Applications and Artifacts"
 title: "Updating Applications and Artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

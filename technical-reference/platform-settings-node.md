@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Platform Settings Node"
 title: Platform Settings Node
 TOCTitle: Platform Settings Node
 ms:assetid: 277ea779-3fff-4d28-96fc-d8d860a3c93c

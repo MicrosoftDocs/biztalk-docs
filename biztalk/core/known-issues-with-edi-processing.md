@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Known Issues with EDI Processing"
 title: "Known Issues with EDI Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

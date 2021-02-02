@@ -1,6 +1,6 @@
 ---
 title: "Adapters list | Microsoft Docs"
-description: 
+description: "Learn more about: Available adapters in BizTalk Server"
 ms.custom: ""
 ms.date: "11/16/2017"
 ms.prod: "biztalk-server"

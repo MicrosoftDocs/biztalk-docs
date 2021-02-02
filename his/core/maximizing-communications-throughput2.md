@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Maximizing Communications Throughput"
 title: "Maximizing Communications Throughput2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

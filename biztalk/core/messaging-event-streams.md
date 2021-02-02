@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Messaging Event Streams"
 title: "Messaging Event Streams | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

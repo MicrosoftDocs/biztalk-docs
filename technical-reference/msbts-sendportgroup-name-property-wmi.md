@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPortGroup.Name Property (WMI)"
 title: MSBTS_SendPortGroup.Name Property (WMI)
 TOCTitle: MSBTS_SendPortGroup.Name Property (WMI)
 ms:assetid: 9a2b2e31-c75b-4f29-b0d2-ca927b449cd8

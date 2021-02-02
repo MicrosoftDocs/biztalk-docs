@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Implementing the Scatter-Gather Pattern for Multiple Web Service Invocations"
 title: "Implementing the Scatter-Gather Pattern for Multiple Web Service Invocations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

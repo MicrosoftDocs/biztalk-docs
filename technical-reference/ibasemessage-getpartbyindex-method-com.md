@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage.GetPartByIndex Method (COM)"
 title: IBaseMessage.GetPartByIndex Method (COM)
 TOCTitle: IBaseMessage.GetPartByIndex Method (COM)
 ms:assetid: 5d49630b-6d5c-481c-aff5-91385cac232c

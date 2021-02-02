@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Install the Business Process Management Solution"
 title: "How to Install the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -72,7 +73,7 @@ The following steps describe how to prepare the computer for installing the Busi
         >  If you are using a 64-bit computer, use %ProgramFiles(x86)% instead of %ProgramFiles%.
 
         > [!NOTE]
-        >  For more information about the SETX command, see the Microsoft TechNet Web site at [http://go.microsoft.com/fwlink/?LinkId=67831](https://go.microsoft.com/fwlink/?LinkId=67831).
+        >  For more information about the SETX command, see the Microsoft TechNet Web site at [https://go.microsoft.com/fwlink/?LinkId=67831](https://go.microsoft.com/fwlink/?LinkId=67831).
 
 3.  Open a command prompt, change the current directory to %BTSSolutionsPath%\BPM\HistoryDB folder, type `CreateDatabase.cmd`, and press ENTER to create the history database.
 
@@ -88,14 +89,14 @@ The following steps describe how to prepare the computer for installing the Busi
     -   `iisvdir /create "Default Web Site" CSRWebApp "%BTSSolutionsPath%\BPM\CSRWebApp"`
 
         > [!NOTE]
-        >  For more information about iisvdir.vbs, see the Microsoft TechNet Web site at [http://go.microsoft.com/fwlink/?LinkId=67830](https://go.microsoft.com/fwlink/?LinkId=67830).
+        >  For more information about iisvdir.vbs, see the Microsoft TechNet Web site at [https://go.microsoft.com/fwlink/?LinkId=67830](https://go.microsoft.com/fwlink/?LinkId=67830).
 
 6.  At a command prompt, run the following command to create a new IIS virtual directory for OrderBroker_Proxy.
 
     -   `iisvdir /create "Default Web Site" BTSScn.BPM.OrderBroker_Proxy "%BTSSolutionsPath%\BPM\OrderBroker_Proxy"`
 
     > [!NOTE]
-    >  You can use Internet Information Services (IIS) Manager to create the Web Application. For more information about how to create applications in IIS 7.0, see the IIS 7.0 Documentation at [http://go.microsoft.com/fwlink/?LinkId=59263](https://go.microsoft.com/fwlink/?LinkId=59263).
+    >  You can use Internet Information Services (IIS) Manager to create the Web Application. For more information about how to create applications in IIS 7.0, see the IIS 7.0 Documentation at [https://go.microsoft.com/fwlink/?LinkId=59263](https://go.microsoft.com/fwlink/?LinkId=59263).
 
 7.  Create a new IIS application pool and set its identity as a user that is a member of the BizTalk Isolated Host Users group and the IIS_WPG group, as follows:
 
@@ -129,7 +130,7 @@ The following steps describe how to prepare the computer for installing the Busi
     |ToVendorSystemQ|No|HTTP|
 
     > [!NOTE]
-    >  You can use **Computer Management** snap-in to create the queues. For more information about how to create a private queue, see the Message Queuing documentation at [http://go.microsoft.com/fwlink/?LinkId=59264](https://go.microsoft.com/fwlink/?LinkId=59264). For more information about how to install MSMQ 3.0, see the Message Queuing documentation at [http://go.microsoft.com/fwlink/?LinkId=59265](https://go.microsoft.com/fwlink/?LinkId=59265).
+    >  You can use **Computer Management** snap-in to create the queues. For more information about how to create a private queue, see the Message Queuing documentation at [https://go.microsoft.com/fwlink/?LinkId=59264](https://go.microsoft.com/fwlink/?LinkId=59264). For more information about how to install MSMQ 3.0, see the Message Queuing documentation at [https://go.microsoft.com/fwlink/?LinkId=59265](https://go.microsoft.com/fwlink/?LinkId=59265).
 
 13. At a command prompt, change the current folder to the %BTSSolutionsPath%\BPM\Scripts, type `CreateTestDirectories.cmd`, and then press ENTER.
 

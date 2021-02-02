@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use the BizTalk Web Services Publishing Wizard to Publish an Orchestration as a Web Service"
 title: "How to Use the BizTalk Web Services Publishing Wizard to Publish an Orchestration as a Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -62,11 +63,11 @@ You use the BizTalk Web Services Publishing Wizard to publish an orchestration a
 
     |Option|Value|Description|
     |------------|-----------|-----------------|
-    |SOAP Parameter Style|Default|This option specifies how parameters are formatted in a SOAP message. For more information, see SoapParameterStyle Enumeration at [http://go.microsoft.com/fwlink/?LinkId=62259](https://go.microsoft.com/fwlink/?LinkId=62259).|
-    |SOAP Parameter Style|Bare|This option specifies how parameters are formatted in a SOAP message. For more information, see SoapParameterStyle Enumeration at [http://go.microsoft.com/fwlink/?LinkId=62259](https://go.microsoft.com/fwlink/?LinkId=62259).|
-    |SOAP Parameter Style|Wrapped|This option specifies how parameters are formatted in a SOAP message. For more information, see SoapParameterStyle Enumeration at [http://go.microsoft.com/fwlink/?LinkId=62259](https://go.microsoft.com/fwlink/?LinkId=62259).|
-    |Conformance Claims|None|This option specifies the Web Services Interoperability (WSI) specification to which the binding claims to conform. For more information, see WebServiceBindingAttribute.ConformsTo Property at [http://go.microsoft.com/fwlink/?LinkId=193064](https://go.microsoft.com/fwlink/?LinkId=193064).|
-    |Conformance Claims|WS-I Basic Profile 1.1|This option specifies the Web Services Interoperability (WSI) specification to which the binding claims to conform. For more information, see WebServiceBindingAttribute.ConformsTo Property at [http://go.microsoft.com/fwlink/?LinkId=193064](https://go.microsoft.com/fwlink/?LinkId=193064).|
+    |SOAP Parameter Style|Default|This option specifies how parameters are formatted in a SOAP message. For more information, see SoapParameterStyle Enumeration at [https://go.microsoft.com/fwlink/?LinkId=62259](https://go.microsoft.com/fwlink/?LinkId=62259).|
+    |SOAP Parameter Style|Bare|This option specifies how parameters are formatted in a SOAP message. For more information, see SoapParameterStyle Enumeration at [https://go.microsoft.com/fwlink/?LinkId=62259](https://go.microsoft.com/fwlink/?LinkId=62259).|
+    |SOAP Parameter Style|Wrapped|This option specifies how parameters are formatted in a SOAP message. For more information, see SoapParameterStyle Enumeration at [https://go.microsoft.com/fwlink/?LinkId=62259](https://go.microsoft.com/fwlink/?LinkId=62259).|
+    |Conformance Claims|None|This option specifies the Web Services Interoperability (WSI) specification to which the binding claims to conform. For more information, see WebServiceBindingAttribute.ConformsTo Property at [https://go.microsoft.com/fwlink/?LinkId=193064](https://go.microsoft.com/fwlink/?LinkId=193064).|
+    |Conformance Claims|WS-I Basic Profile 1.1|This option specifies the Web Services Interoperability (WSI) specification to which the binding claims to conform. For more information, see WebServiceBindingAttribute.ConformsTo Property at [https://go.microsoft.com/fwlink/?LinkId=193064](https://go.microsoft.com/fwlink/?LinkId=193064).|
     |Force Request Response|[Default]|This option specifies whether one-way BizTalk operations should be exposed as request-response web methods. Default is not force the on-way flag.|
     |Force Request Response|No|This option specifies whether one-way BizTalk operations should be exposed as request-response web methods. Default is not force the on-way flag.|
     |Force Request Response|Yes|This option specifies whether one-way BizTalk operations should be exposed as request-response web methods. Default is not force the on-way flag.|

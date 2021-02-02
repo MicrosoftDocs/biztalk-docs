@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing the Bicplus Table in the A4SWIFT Database"
 title: "Managing the Bicplus Table in the A4SWIFT Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -24,7 +25,7 @@ manager: "anneta"
  To manage this table, you must populate it with BIC values from SWIFT. If you use a custom database, you must also export SQL views in the [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] database into the custom database.
 
 ## Importing BIC data from the SWIFT Bicplus database
- You must populate the table of BIC entries (either the default or the custom table) with BIC values from SWIFT. The SWIFT BIC data is available in an [!INCLUDE[btsExcel](../../includes/btsexcel-md.md)] spreadsheet or in an Oracle database that is updated monthly. For more information about SWIFT BIC data, go to [http://go.microsoft.com/fwlink/?LinkId=27885](https://go.microsoft.com/fwlink/?LinkId=27885).
+ You must populate the table of BIC entries (either the default or the custom table) with BIC values from SWIFT. The SWIFT BIC data is available in an [!INCLUDE[btsExcel](../../includes/btsexcel-md.md)] spreadsheet or in an Oracle database that is updated monthly. For more information about SWIFT BIC data, go to [https://go.microsoft.com/fwlink/?LinkId=27885](https://go.microsoft.com/fwlink/?LinkId=27885).
 
  If you use a custom database, you must export BIC data from the SWIFT Bicplus database into the custom database. You must
 

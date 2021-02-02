@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Export the Encryption Key"
 title: "Export the Encryption Key | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

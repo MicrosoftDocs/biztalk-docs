@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Import SAP Data Using SQL Server Management Studio"
 title: "Import SAP Data Using SQL Server Management Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -140,7 +141,7 @@ This section provides information on how to use the SQL Server Management Studio
 
 5. On the **Execute Package Utility** dialog box, click **Close**.
 
-   For more information about running packages, see [http://go.microsoft.com/fwlink/?LinkId=94972](https://go.microsoft.com/fwlink/?LinkId=94972). For any other information related to SSIS packages, see [http://go.microsoft.com/fwlink/?LinkId=94973](https://go.microsoft.com/fwlink/?LinkId=94973).
+   For more information about running packages, see [https://go.microsoft.com/fwlink/?LinkId=94972](https://go.microsoft.com/fwlink/?LinkId=94972). For any other information related to SSIS packages, see [https://go.microsoft.com/fwlink/?LinkId=94973](https://go.microsoft.com/fwlink/?LinkId=94973).
 
 ## Verifying the Results
  After executing the package, you must verify the results by going to the SQL Server database to which the SAP data is imported. Executing the package should have created a table in destination database and populated with the values from the SAP table.

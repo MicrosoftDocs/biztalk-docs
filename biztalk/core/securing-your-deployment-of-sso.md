@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Securing Your Deployment of SSO"
 title: "Securing Your Deployment of SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

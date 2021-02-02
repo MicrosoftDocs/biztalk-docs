@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CIDX Support"
 title: "CIDX Support | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -43,7 +44,7 @@ Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentv
 ## Connecting to the Elemica Network
  You can enable an installation of Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] to connect to the Elemica [!INCLUDE[btsExchangeSvrNoVersion](../../includes/btsexchangesvrnoversion-md.md)] Provider (ESP). You can use the Elemica network for chemical-industry buying, selling, and supply-chain management using CIDX message exchange.
 
- You customize [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] to connect to Elemica using project files in the Elemica Connectivity Pack. You can download the Connectivity Pack from [http://go.microsoft.com/fwlink/?LinkId=46195](https://go.microsoft.com/fwlink/?LinkId=46195). For more information, see the “Connecting to the Elemica Network with BizTalk Accelerator for RosettaNet 3.0” white paper on MSDN at [http://go.microsoft.com/fwlink/?linkid=46539](https://go.microsoft.com/fwlink/?linkid=46539).
+ You customize [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] to connect to Elemica using project files in the Elemica Connectivity Pack. You can download the Connectivity Pack from [https://go.microsoft.com/fwlink/?LinkId=46195](https://go.microsoft.com/fwlink/?LinkId=46195). For more information, see the “Connecting to the Elemica Network with BizTalk Accelerator for RosettaNet 3.0” white paper on MSDN at [https://go.microsoft.com/fwlink/?linkid=46539](https://go.microsoft.com/fwlink/?linkid=46539).
 
 > [!NOTE]
 >  The information in the "Connecting to the Elemica Network with BizTalk Accelerator for RosettaNet 3.0" white paper is valid for [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)].

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server Properties: SSO Database"
 title: 'Server Properties: SSO Database'
 TOCTitle: 'Server Properties: SSO Database'
 ms:assetid: 1d6c5c93-457a-4de1-b60d-9a938106e006

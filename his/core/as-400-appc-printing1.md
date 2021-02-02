@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AS/400 (APPC) Printing"
 title: "AS-400 (APPC) Printing | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

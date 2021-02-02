@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample CICS Configuration Screens for Use with APPC"
 title: "Sample CICS Configuration Screens for Use with APPC2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

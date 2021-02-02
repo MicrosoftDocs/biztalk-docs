@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The ESB Failed Orchestration Exception Routing Mechanism"
 title: "The ESB Failed Orchestration Exception Routing Mechanism | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

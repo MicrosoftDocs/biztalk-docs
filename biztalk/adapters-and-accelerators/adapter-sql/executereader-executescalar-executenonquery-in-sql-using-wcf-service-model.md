@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ExecuteReader, ExecuteScalar, or ExecuteNonQuery operations in SQL using WCF Service Model"
 title: "ExecuteReader, ExecuteScalar, or ExecuteNonQuery operations in SQL using WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

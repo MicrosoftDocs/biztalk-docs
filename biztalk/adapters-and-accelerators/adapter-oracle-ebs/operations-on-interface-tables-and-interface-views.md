@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on Interface Tables and Interface Views"
 title: "Operations on Interface Tables and Interface Views | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

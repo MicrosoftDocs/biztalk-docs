@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The first element of the batch exceeded the character count release criteria set"
 title: "The first element of the batch exceeded the character count release criteria set | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

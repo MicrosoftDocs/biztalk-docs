@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Host.UnCluster Method (WMI)"
 title: MSBTS_Host.UnCluster Method (WMI)
 TOCTitle: MSBTS_Host.UnCluster Method (WMI)
 ms:assetid: 383c7346-4458-448b-9011-71736fd0cfc8

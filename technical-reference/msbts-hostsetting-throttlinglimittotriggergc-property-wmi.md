@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ThrottlingLimitToTriggerGC Property (WMI)"
 title: MSBTS_HostSetting.ThrottlingLimitToTriggerGC Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingLimitToTriggerGC Property (WMI)
 ms:assetid: d677733d-a88b-4acf-a325-b099e0224de5

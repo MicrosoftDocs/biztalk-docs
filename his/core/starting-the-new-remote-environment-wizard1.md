@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Starting the New Remote Environment Wizard"
 title: "Starting the New Remote Environment Wizard1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -61,7 +61,7 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
 > [!NOTE]
 >  You can set any of the binding properties of the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] in the binding configuration.
 
- For more information about configuring a non-default binding for svcutil.exe, see the "Custom Secure Metadata Endpoint" topic in the WCF documentation at [http://go.microsoft.com/fwlink/?LinkId=96077](https://go.microsoft.com/fwlink/?LinkId=96077).
+ For more information about configuring a non-default binding for svcutil.exe, see the "Custom Secure Metadata Endpoint" topic in the WCF documentation at [https://go.microsoft.com/fwlink/?LinkId=96077](https://go.microsoft.com/fwlink/?LinkId=96077).
 
 ## Creating a WCF Client Class with svcutil.exe
  To use svcutil.exe to generate WCF client code for the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], you must supply a connection URI that specifies an **IMetadataExchange** (mex) endpoint and the operation or operations for which you want svcutil.exe to generate code. You must also specify connection credentials for the Siebel system in the connection URI.
@@ -93,4 +93,3 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
  Svcutil.exe does not provide the capability to search for operations (for example, by using wildcard characters). You must explicitly specify node IDs for the specific operations you want to target. You cannot specify node IDs that refer only to categories. For more information about the node IDs that the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces, see [Metadata Node IDs](../../adapters-and-accelerators/adapter-siebel/metadata-node-ids1.md).
 
  The [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] provides advanced browse and search capabilities that can greatly simplify generating a WCF client class. For more information about the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], see [Generate a WCF client or a WCF service contract for Siebel solution artifacts](../../adapters-and-accelerators/adapter-siebel/generate-a-wcf-client-or-a-wcf-service-contract-for-siebel-solution-artifacts.md).
-

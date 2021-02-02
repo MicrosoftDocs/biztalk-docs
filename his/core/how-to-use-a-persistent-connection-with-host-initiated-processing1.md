@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use a Persistent Connection with Host-Initiated Processing"
 title: "Use a Persistent Connection with Host-Initiated Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

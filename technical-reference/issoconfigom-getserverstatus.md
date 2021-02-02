@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigOM.GetServerStatus"
 title: ISSOConfigOM.GetServerStatus
 TOCTitle: ISSOConfigOM.GetServerStatus
 ms:assetid: 9cbc817c-108c-4a5e-a3cf-c7f1354d80e6

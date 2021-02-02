@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Inbound tRFC Calls in SAP using the WCF Service Model"
 title: "Receive Inbound tRFC Calls in SAP using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

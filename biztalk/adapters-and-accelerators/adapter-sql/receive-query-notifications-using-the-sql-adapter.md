@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive query notifications using the SQL adapter"
 title: "Receive query notifications using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -18,7 +19,7 @@ manager: "anneta"
 The adapter clients can subscribe to receive query notifications about the data changes in the SQL Server database. A SQL SELECT statement or a stored procedure specifies the data-change criteria in a table for triggering of the query notifications, and the SQL Server sends query notifications as and when the result set for the SELECT statement or the stored procedure changes.
 
 > [!IMPORTANT]
->  To support query notifications, the adapter clients and the SQL Server database have to fulfill certain requirements. For detailed information about these requirements, see “Enabling Query Notifications” at [http://go.microsoft.com/fwlink/?LinkID=122323](https://go.microsoft.com/fwlink/?LinkID=122323).
+>  To support query notifications, the adapter clients and the SQL Server database have to fulfill certain requirements. For detailed information about these requirements, see “Enabling Query Notifications” at [https://go.microsoft.com/fwlink/?LinkID=122323](https://go.microsoft.com/fwlink/?LinkID=122323).
 
  A typical query notification involves the following:
 
@@ -27,7 +28,7 @@ The adapter clients can subscribe to receive query notifications about the data 
 - The adapter clients must specify a SQL statement to register for query notifications in the **NotificationStatement** binding property. The adapter client gets a notification from SQL Server as soon as the result set for the specified SQL statement changes.
 
   > [!IMPORTANT]
-  >  To receive notifications, the SQL statement for the notification subscription *must* meet certain criteria. For information about SQL statements that can be used for query notifications, see [http://go.microsoft.com/fwlink/?LinkId=122160](https://go.microsoft.com/fwlink/?LinkId=122160).
+  >  To receive notifications, the SQL statement for the notification subscription *must* meet certain criteria. For information about SQL statements that can be used for query notifications, see [https://go.microsoft.com/fwlink/?LinkId=122160](https://go.microsoft.com/fwlink/?LinkId=122160).
 
 - The adapter clients must specify whether the adapter sends a notification to the adapter clients as soon as the listener is started in the **NotifyOnListenerStart** binding property.
 
@@ -36,7 +37,7 @@ The adapter clients can subscribe to receive query notifications about the data 
   For more information about these binding properties, see [Read about the BizTalk Adapter for SQL Server adapter binding properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).
 
 > [!NOTE]
->  The notification subscription is always committed, regardless of whether the transaction in which the statement ran was committed or rolled back. Therefore, the notification operation might not guarantee that the result of the query subscribed for notification has changed. For example, suppose data is inserted in a table row (subscribed for notification) in a transaction, and immediately a notification is sent to the adapter informing about the change (insert). Due to some reason, the transaction rolls back, and effectively no data is inserted into the table row. However, the SQL Server does not send a notification to the adapter about the transaction roll back. For information about query notifications in SQL Server, see [http://go.microsoft.com/fwlink/?LinkId=145367](https://go.microsoft.com/fwlink/?LinkId=145367).
+>  The notification subscription is always committed, regardless of whether the transaction in which the statement ran was committed or rolled back. Therefore, the notification operation might not guarantee that the result of the query subscribed for notification has changed. For example, suppose data is inserted in a table row (subscribed for notification) in a transaction, and immediately a notification is sent to the adapter informing about the change (insert). Due to some reason, the transaction rolls back, and effectively no data is inserted into the table row. However, the SQL Server does not send a notification to the adapter about the transaction roll back. For information about query notifications in SQL Server, see [https://go.microsoft.com/fwlink/?LinkId=145367](https://go.microsoft.com/fwlink/?LinkId=145367).
 
 ## Differences between Query Notification and Polling
  Though query notification and polling are both inbound operations, and inform the adapter clients about the data changes in the SQL Server database, the following table lists some differences between the two. The following differences will help you decide on an operation depending on your requirements:

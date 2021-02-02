@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RNIF Standard"
 title: "RNIF Standard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure the BAM Portal to Work on an NLB Cluster"
 title: "How to Configure the BAM Portal to Work on an NLB Cluster | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -33,7 +34,7 @@ The BAM portal can be configured to work in a network load balancing (NLB) clust
 
 3.  Select the BizTalk Management database configured for the computer on which the portal is installed.
 
-4.  Create the NLB cluster. For more information about how to create and manage network load balancing clusters, see "Create and Manage Network Load Balancing Clusters" at [http://go.microsoft.com/fwlink/?LinkId=56206](https://go.microsoft.com/fwlink/?LinkId=56206).
+4.  Create the NLB cluster. For more information about how to create and manage network load balancing clusters, see "Create and Manage Network Load Balancing Clusters" at [https://go.microsoft.com/fwlink/?LinkId=56206](https://go.microsoft.com/fwlink/?LinkId=56206).
 
     > [!NOTE]
     >  You should confirm that your NLB cluster is working properly outside of the BizTalk Server context before continuing.
@@ -132,7 +133,7 @@ The BAM portal can be configured to work in a network load balancing (NLB) clust
 
 12. Set the read ACLs for the AppPool user on WebServices by running SubInACL, a command-line tool that enables administrators to obtain security information about files, registry keys, and services, and to transfer this information from user to user, from local or global group to group, and from domain to domain.
 
-13. Download SubInAcl from [http://go.microsoft.com/fwlink/?LinkId=61990](https://go.microsoft.com/fwlink/?LinkId=61990).
+13. Download SubInAcl from [https://go.microsoft.com/fwlink/?LinkId=61990](https://go.microsoft.com/fwlink/?LinkId=61990).
 
 14. Open a command prompt. To do this, click **Start**, click **Run**, type **cmd**, and then click **OK**.
 

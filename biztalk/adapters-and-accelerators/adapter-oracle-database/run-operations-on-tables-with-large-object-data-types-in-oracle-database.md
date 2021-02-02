@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run operations on tables with large object data types in Oracle Database"
 title: "Run operations on tables with large object data types in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

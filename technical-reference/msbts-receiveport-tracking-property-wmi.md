@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceivePort.Tracking Property (WMI)"
 title: MSBTS_ReceivePort.Tracking Property (WMI)
 TOCTitle: MSBTS_ReceivePort.Tracking Property (WMI)
 ms:assetid: b96f44e5-f1fc-4cca-b467-fc1119079639

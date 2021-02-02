@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Large-growing BizTalk Server Database Tables"
 title: "Large-growing database Tables | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

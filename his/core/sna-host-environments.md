@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA Host Environments"
 title: "SNA Host Environments | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

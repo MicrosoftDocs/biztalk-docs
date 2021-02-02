@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 7: Configure the MDN Send Port"
 title: "Step 7: Configure the MDN Send Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

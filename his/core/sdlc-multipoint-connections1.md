@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SDLC Multipoint Connections"
 title: "SDLC Multipoint Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

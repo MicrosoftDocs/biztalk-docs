@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstanceSetting.MgmtDbServerOverride Property (WMI)"
 title: MSBTS_HostInstanceSetting.MgmtDbServerOverride Property (WMI)
 TOCTitle: MSBTS_HostInstanceSetting.MgmtDbServerOverride Property (WMI)
 ms:assetid: e8976a17-0368-483d-a2b5-902336812ca3

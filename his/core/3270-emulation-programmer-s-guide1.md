@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: 3270 Emulation Programmer's Guide"
 title: "3270 Emulation Programmer's Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

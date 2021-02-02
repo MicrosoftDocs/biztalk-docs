@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.IsDynamic Property (WMI)"
 title: MSBTS_SendPort.IsDynamic Property (WMI)
 TOCTitle: MSBTS_SendPort.IsDynamic Property (WMI)
 ms:assetid: dd0db3b4-b87e-4be4-8a48-25e0096237b1

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 7: Configure a Send Port to Send the Acknowledgment to Your Trading Partner"
 title: "Step 7: Configure a Send Port to Send the Acknowledgment to Your Trading Partner | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -60,7 +61,7 @@ manager: "anneta"
    |--------------|----------------------------------------------------------------|
    | **Property** |                  Select **BTS.MessageType**.                   |
    | **Operator** |                         Select **==**.                         |
-   |  **Value**   | Enter **<http://schemas.microsoft.com/Edi/X12#X12_997_Root>**. |
+   |  **Value**   | Enter `http://schemas.microsoft.com/Edi/X12#X12_997_Root`. |
 
    > [!NOTE]
    >  The filter ensures that the send port will pick up messages with the 997 message type.  

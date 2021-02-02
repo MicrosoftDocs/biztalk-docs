@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Browse for Oracle E-Business Suite operations under the application-based view"
 title: "Browse for Oracle E-Business Suite operations under the application-based view | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

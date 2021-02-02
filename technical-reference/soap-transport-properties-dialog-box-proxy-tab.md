@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SOAP Transport Properties Dialog Box, Proxy Tab"
 title: SOAP Transport Properties Dialog Box, Proxy Tab
 TOCTitle: SOAP Transport Properties Dialog Box, Proxy Tab
 ms:assetid: 070aaab8-0b67-419d-816c-15fb2594c7f1

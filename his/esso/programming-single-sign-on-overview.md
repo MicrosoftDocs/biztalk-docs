@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Programming Single Sign-On Overview"
 title: "Programming Single Sign-On Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

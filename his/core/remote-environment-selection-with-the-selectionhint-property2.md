@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Remote Environment Selection with the SelectionHint Property"
 title: "Remote Environment Selection with the SelectionHint Property2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

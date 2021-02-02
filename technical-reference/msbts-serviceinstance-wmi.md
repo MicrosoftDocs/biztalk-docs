@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance (WMI)"
 title: MSBTS_ServiceInstance (WMI)
 TOCTitle: MSBTS_ServiceInstance (WMI)
 ms:assetid: b0b60759-d44b-4e2b-b8d3-3b4683564f94
@@ -57,11 +58,11 @@ class MSBTS_ServiceInstance : MSBTS_BTSObject
 <td>Caption (Inherited from <code>CIM_ManagedSystemElement</code><br />
 <br />
 )</td>
-<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td>Description (Inherited from <code>CIM_ManagedSystemElement</code>)</td>
-<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="msbts-serviceinstance-errorcategory-property-wmi.md">ErrorCategory</a></td>
@@ -81,7 +82,7 @@ class MSBTS_ServiceInstance : MSBTS_BTSObject
 </tr>
 <tr class="even">
 <td>InstallDate (Inherited from <code>CIM_ManagedSystemElement</code>)</td>
-<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-serviceinstance-instanceid-property-wmi.md">InstanceID</a></td>
@@ -105,7 +106,7 @@ class MSBTS_ServiceInstance : MSBTS_BTSObject
 </tr>
 <tr class="even">
 <td>Name (Inherited from <code>CIM_ManagedSystemElement</code>)</td>
-<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-serviceinstance-pendingoperation-property-wmi.md">PendingOperation</a></td>
@@ -137,7 +138,7 @@ class MSBTS_ServiceInstance : MSBTS_BTSObject
 </tr>
 <tr class="even">
 <td>Status (Inherited from <code>CIM_ManagedSystemElement</code>)</td>
-<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20245">http://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-serviceinstance-suspendtime-property-wmi.md">SuspendTime</a></td>
@@ -240,4 +241,3 @@ This class may have many instances, and enumerating all of these classes may be 
 Header: Declared in BTSWMISchema2K.mof or BTSWMISchemaXP.mof.
 
 Namespace: Included in \\root\\MicrosoftBizTalkServer.
-

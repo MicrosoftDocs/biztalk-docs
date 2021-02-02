@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Consuming WCF Services with the WCF-BasicHttp Adapter"
 title: "Walkthrough: Consuming WCF Services with the WCF-BasicHttp Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -48,11 +49,11 @@ manager: "anneta"
 
 - On the computers that you use to perform administrative tasks, you must run as a user account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group to configure the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application settings within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. This user account must also be a member of the local Administrators group for application deployment, managing host instances, and other tasks that may be required.
 
-- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [http://go.microsoft.com/fwlink/?LinkId=135510](https://go.microsoft.com/fwlink/?LinkId=135510).
+- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [https://go.microsoft.com/fwlink/?LinkId=135510](https://go.microsoft.com/fwlink/?LinkId=135510).
 
 - On the computer that runs the sample and imports a binding or an .msi file into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ensure the host is not a trusted host or the import will fail.
 
-- You must download the walkthrough code and extract it to your computer.  This walkthrough is a part of the entire [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapter Walkthrough package. You can download the file **WCFAdapterWalkthroughs.exe** from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Developer Center at[http://go.microsoft.com/fwlink/?LinkId=194140](https://go.microsoft.com/fwlink/?LinkId=194140).
+- You must download the walkthrough code and extract it to your computer.  This walkthrough is a part of the entire [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapter Walkthrough package. You can download the file **WCFAdapterWalkthroughs.exe** from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Developer Center at[https://go.microsoft.com/fwlink/?LinkId=194140](https://go.microsoft.com/fwlink/?LinkId=194140).
 
 ## Deploy the sample WCF service
 
@@ -124,7 +125,7 @@ manager: "anneta"
 
    - Two schema files are generated. The first schema file (**OrderProcessServiceType_biztalk_WCF_basichttpsendadapter_basichttpWCFserviceconsuming.xsd**) defines the message types that the sample [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service uses. It uses the **OrderID** field in both **OrderRequest** and **OrderResponse** calls.
 
-   - The second schema file (**OrderProcessServiceType_schemas_microsoft_com_2003_10_Serialization.xsd**) is exported by [DataContractSerializer](https://go.microsoft.com/fwlink/?LinkId=81722) for the types, elements, and attributes from the namespace, http://schemas.microsoft.com/2003/10/Serialization/.
+   - The second schema file (**OrderProcessServiceType_schemas_microsoft_com_2003_10_Serialization.xsd**) is exported by [DataContractSerializer](https://go.microsoft.com/fwlink/?LinkId=81722) for the types, elements, and attributes from the namespace, `http://schemas.microsoft.com/2003/10/Serialization/`.
 
    - Two binding files are generated, which will be used later to create the BizTalk application: **OrderProcessServiceType.BindingInfo.xml** and **OrderProcessServiceType_Custom.BindingInfo.xml**. In the general case you will typically use the non-custom binding file. But in some rare situations where you have a custom binding element use the custom binding file. The custom binding element creates send ports for the applications. Double-click the **OrderProcessServiceType.BindingInfo.xml** file and search for the **SendPort** definition line, and review the send port that will be created when you import this binding file into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Import-Copy failed as there are active-pending batches"
 title: "Import-Copy failed as there are active-pending batches | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

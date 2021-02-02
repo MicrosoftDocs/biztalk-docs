@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WMISNA WMI Provider Classes"
 title: "WMISNA WMI Provider Classes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

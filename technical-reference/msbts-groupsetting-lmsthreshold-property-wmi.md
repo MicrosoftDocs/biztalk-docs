@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.LMSThreshold Property (WMI)"
 title: MSBTS_GroupSetting.LMSThreshold Property (WMI)
 TOCTitle: MSBTS_GroupSetting.LMSThreshold Property (WMI)
 ms:assetid: 2f12dc3d-b6a9-4c2e-8d94-0d379ddf01fc

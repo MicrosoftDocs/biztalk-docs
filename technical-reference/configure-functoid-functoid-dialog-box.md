@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configure <Functoid> Functoid Dialog Box"
 title: Configure <Functoid> Functoid Dialog Box
 TOCTitle: Configure <Functoid> Functoid Dialog Box
 ms:assetid: 1fd1d80f-c5c2-4ae7-8f29-c510c2927ef4

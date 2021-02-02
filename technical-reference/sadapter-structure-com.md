@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SAdapter Structure (COM)"
 title: SAdapter Structure (COM)
 TOCTitle: SAdapter Structure (COM)
 ms:assetid: 36073d1a-af5c-4e20-b882-549713879da2

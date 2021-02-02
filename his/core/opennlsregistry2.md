@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OpenNlsRegistry"
 title: "OpenNlsRegistry2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

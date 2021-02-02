@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Time Functoid"
 title: Time Functoid
 TOCTitle: Time Functoid
 ms:assetid: 9ce8cddb-6de7-4c2c-b2cb-dc92e763ec60

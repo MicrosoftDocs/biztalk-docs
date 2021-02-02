@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connection String Keywords"
 title: "Connection String Keywords2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

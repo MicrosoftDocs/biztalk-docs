@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Polling-based Data-changed Messages from SQL Server by Using the WCF Channel Model"
 title: "Receive Polling-based Data-changed Messages from SQL Server by Using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

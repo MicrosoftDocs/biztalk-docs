@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security and Windows Installer"
 title: "Security and Windows Installer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error- The Scripting functoid, that connects to target node &#39;{0}&#39;, has an error in its &#39;Xslt Call-Template&#39; definition: &#39;{1}&#39;"
 title: "Error- The Scripting functoid, that connects to target node &#39;{0}&#39;, has an error in its &#39;Xslt Call-Template&#39; definition: &#39;{1}&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

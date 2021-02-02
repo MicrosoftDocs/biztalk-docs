@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Business Activity Monitoring Portal UI Help"
 title: Business Activity Monitoring Portal UI Help
 TOCTitle: Business Activity Monitoring Portal UI Help
 ms:assetid: bb3ca648-8df9-4440-9902-c77227447cf9

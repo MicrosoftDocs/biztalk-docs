@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IAssemblerComponent.Assemble Method (COM)"
 title: IAssemblerComponent.Assemble Method (COM)
 TOCTitle: IAssemblerComponent.Assemble Method (COM)
 ms:assetid: fe93cd74-5ddc-45b4-9427-f6380134453a

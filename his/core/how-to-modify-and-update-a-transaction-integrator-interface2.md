@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Modify and Update a Transaction Integrator Interface"
 title: "How to Modify and Update a Transaction Integrator Interface2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

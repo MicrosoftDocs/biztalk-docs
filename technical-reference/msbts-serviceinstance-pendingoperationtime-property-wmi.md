@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.PendingOperationTime Property (WMI)"
 title: MSBTS_ServiceInstance.PendingOperationTime Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.PendingOperationTime Property (WMI)
 ms:assetid: 2182b87a-13ec-4693-a709-d7f08df7a216

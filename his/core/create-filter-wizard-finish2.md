@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create Filter Wizard: Finish"
 title: "Create Filter Wizard: Finish2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

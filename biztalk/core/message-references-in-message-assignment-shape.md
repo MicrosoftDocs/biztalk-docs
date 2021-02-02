@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message References in Message Assignment Shape"
 title: "Message References in Message Assignment Shape | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

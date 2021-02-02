@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Namespace Management"
 title: "Namespace Management | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -33,9 +34,9 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema"
   
  The following two namespaces are automatically added as namespace declarations to the schema element in the XML Schema definition (XSD) language representation of the schema:  
   
-- xmlns:b="<http://schemas.microsoft.com/BizTalk/2003>"  
+- `xmlns:b="<http://schemas.microsoft.com/BizTalk/2003>"`  
   
-- xmlns:xs="<http://www.w3.org/2001/XMLSchema>"  
+- `xmlns:xs="<http://www.w3.org/2001/XMLSchema>"`  
   
   In the course of using other schemas within the schema you are creating, other namespaces will be declared. You can examine these namespaces, as well as the automatically included namespaces, in the **Imports** dialog box that you can access by using the **Imports** property of the **Schema** node. For more information about using other data types declared in other schemas within the schema you are creating, see [Schemas That Use Other Schemas](../core/schemas-that-use-other-schemas.md) and [Creating Schemas That Use Other Schemas](../core/how-to-create-schemas-that-use-other-schemas.md).  
   

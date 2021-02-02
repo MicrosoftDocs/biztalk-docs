@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransport.Description Property (COM)"
 title: IBTTransport.Description Property (COM)
 TOCTitle: IBTTransport.Description Property (COM)
 ms:assetid: 33d68ae9-e67c-4f0f-8b5b-26dea7e8f46e

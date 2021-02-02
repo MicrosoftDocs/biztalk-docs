@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive query notifications After a Receive Location Breakdown in SQL using BizTalk Server"
 title: "Receive query notifications After a Receive Location Breakdown in SQL using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

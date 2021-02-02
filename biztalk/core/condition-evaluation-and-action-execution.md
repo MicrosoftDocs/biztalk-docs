@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Condition Evaluation and Action Execution"
 title: "Condition Evaluation and Action Execution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

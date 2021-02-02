@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Name Conflict Dialog Box"
 title: "Name Conflict Dialog Box2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

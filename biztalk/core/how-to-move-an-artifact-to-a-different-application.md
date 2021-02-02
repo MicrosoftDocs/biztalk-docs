@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Move an Artifact to a Different Application"
 title: "How to Move an Artifact to a Different Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

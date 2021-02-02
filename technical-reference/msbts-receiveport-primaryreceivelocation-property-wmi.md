@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceivePort.PrimaryReceiveLocation Property (WMI)"
 title: MSBTS_ReceivePort.PrimaryReceiveLocation Property (WMI)
 TOCTitle: MSBTS_ReceivePort.PrimaryReceiveLocation Property (WMI)
 ms:assetid: 2205327d-7cbc-4885-9ac7-491e6aed7611

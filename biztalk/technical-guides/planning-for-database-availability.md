@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for Database Availability"
 title: "Planning for Database Availability | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

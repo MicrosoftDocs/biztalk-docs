@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting Host Initiated SSO"
 title: "Troubleshooting Host Initiated SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -26,7 +27,7 @@ The primary method of troubleshooting host initiated Single Sign-On (SSO) is tra
 >
 >  You can download this file from the following location:
 >
->  [http://go.microsoft.com/fwlink/?LinkId=33023](https://go.microsoft.com/fwlink/?LinkId=33023)
+>  [https://go.microsoft.com/fwlink/?LinkId=33023](https://go.microsoft.com/fwlink/?LinkId=33023)
 
 #### To use the trace utility
 

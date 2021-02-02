@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: HTTP Transport Properties Dialog Box"
 title: HTTP Transport Properties Dialog Box
 TOCTitle: HTTP Transport Properties Dialog Box
 ms:assetid: aa3a9d4d-56d6-4db8-8636-347bd0293653

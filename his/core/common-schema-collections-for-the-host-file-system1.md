@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Common Schema Collections for the Host File System"
 title: "Common Schema Collections for the Host File System1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

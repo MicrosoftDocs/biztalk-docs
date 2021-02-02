@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Technical Guides"
 title: "Technical Guides"
 ms.custom: ""
 ms.prod: biztalk-server

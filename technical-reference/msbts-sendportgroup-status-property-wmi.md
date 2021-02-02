@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPortGroup.Status Property (WMI)"
 title: MSBTS_SendPortGroup.Status Property (WMI)
 TOCTitle: MSBTS_SendPortGroup.Status Property (WMI)
 ms:assetid: 9929a112-a6b8-4399-8d32-5a45b14ba4ad

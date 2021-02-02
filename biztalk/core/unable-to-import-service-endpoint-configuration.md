@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unable to import service endpoint configuration."
 title: "Unable to import service endpoint configuration. | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

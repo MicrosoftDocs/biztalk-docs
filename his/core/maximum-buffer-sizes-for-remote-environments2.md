@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Maximum Buffer Sizes for Remote Environments"
 title: "Maximum Buffer Sizes for Remote Environments2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

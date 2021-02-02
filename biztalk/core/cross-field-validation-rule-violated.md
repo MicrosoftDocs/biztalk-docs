@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cross field validation rule violated"
 title: "Cross field validation rule violated | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

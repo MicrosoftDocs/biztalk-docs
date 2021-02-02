@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Handling Externally Submitted Exceptions Using a Custom Handler"
 title: "Handling Externally Submitted Exceptions Using a Custom Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

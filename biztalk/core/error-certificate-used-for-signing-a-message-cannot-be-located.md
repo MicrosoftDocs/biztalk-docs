@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The certificate used for signing a message cannot be located in the local certificate store"
 title: "The certificate used for signing a message cannot be located in the local certificate store | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

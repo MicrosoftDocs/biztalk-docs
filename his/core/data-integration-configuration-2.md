@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Integration (Configuration)"
 title: "Data Integration (Configuration) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

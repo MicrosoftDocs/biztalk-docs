@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Service for DRDA Security and Protection"
 title: "Service for DRDA Security and Protection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

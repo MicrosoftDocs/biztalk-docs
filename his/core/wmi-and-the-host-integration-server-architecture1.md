@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WMI and the Host Integration Server Architecture"
 title: "WMI and the Host Integration Server Architecture1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

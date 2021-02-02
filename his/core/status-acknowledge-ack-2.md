@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Status-Acknowledge(Ack)"
 title: "Status-Acknowledge(Ack)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

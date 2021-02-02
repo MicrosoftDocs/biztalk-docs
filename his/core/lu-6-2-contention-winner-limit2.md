@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LU 6.2 Contention Winner Limit"
 title: "LU 6.2 Contention Winner Limit2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

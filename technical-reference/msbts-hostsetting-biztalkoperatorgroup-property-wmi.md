@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.BizTalkOperatorGroup Property (WMI)"
 title: MSBTS_HostSetting.BizTalkOperatorGroup Property (WMI)
 TOCTitle: MSBTS_HostSetting.BizTalkOperatorGroup Property (WMI)
 ms:assetid: 8d55bc4f-efa2-45c8-89da-59fa85a604df

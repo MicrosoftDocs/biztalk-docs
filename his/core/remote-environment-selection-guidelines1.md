@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Remote Environment Selection Guidelines"
 title: "Remote Environment Selection Guidelines1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

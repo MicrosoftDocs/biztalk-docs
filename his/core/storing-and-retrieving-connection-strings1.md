@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Storing and Retrieving Connection Strings"
 title: "Storing and Retrieving Connection Strings1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

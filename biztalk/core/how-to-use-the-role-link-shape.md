@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use the Role Link Shape"
 title: "How to Use the Role Link Shape | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Map the UPDATE_EMPLOYEE Response Message to Insert Operation Request Message"
 title: "Step 2: Map the UPDATE_EMPLOYEE Response Message to Insert Operation Request Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

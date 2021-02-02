@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Distribute the Web Setup Package"
 title: "How to Distribute the Web Setup Package | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Compiling and Linking a SNALink"
 title: "Compiling and Linking a SNALink2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

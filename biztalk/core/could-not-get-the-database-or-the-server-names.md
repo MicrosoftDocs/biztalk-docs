@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Could not get the database or the server names"
 title: "Could not get the database or the server names | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

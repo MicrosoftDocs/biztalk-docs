@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring EDI Batches"
 title: "Configuring EDI Batches | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

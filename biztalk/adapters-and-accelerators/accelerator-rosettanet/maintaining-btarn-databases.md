@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Maintaining BTARN Databases"
 title: "Maintaining BTARN Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

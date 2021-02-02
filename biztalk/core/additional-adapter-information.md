@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Additional Adapter Information"
 title: "Additional Adapter Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

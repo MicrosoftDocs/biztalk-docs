@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Initialize a Session Integrator Session for LU0"
 title: "Initialize a Session Integrator Session for LU01 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

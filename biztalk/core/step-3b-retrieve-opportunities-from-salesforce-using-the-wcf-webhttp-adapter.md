@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3b: Retrieve Opportunity Details from Salesforce using the WCF-WebHttp Adapter"
 title: "Step 3b: Retrieve Opportunity Details from Salesforce using the WCF-WebHttp Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

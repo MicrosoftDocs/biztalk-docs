@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Server 2010 Technical Overview"
 title: "BizTalk Server 2010 Technical Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -14,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Server 2010 Technical Overview
-To download a copy of this paper, go to [http://go.microsoft.com/fwlink/?LinkId=197294](https://go.microsoft.com/fwlink/?LinkId=197294).
+To download a copy of this paper, go to [https://go.microsoft.com/fwlink/?LinkId=197294](https://go.microsoft.com/fwlink/?LinkId=197294).
 
  **Published:** July 2010
 

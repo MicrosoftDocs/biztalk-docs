@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adding Leading SO and Trailing SI Characters"
 title: "Adding Leading SO and Trailing SI Characters1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: listOfAppType Document"
 title: listOfAppType Document
 TOCTitle: listOfAppType Document
 ms:assetid: 6ac0e2e8-5656-4a0b-87c7-a0dac590fc80

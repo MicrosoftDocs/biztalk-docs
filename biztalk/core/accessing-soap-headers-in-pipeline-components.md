@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Accessing SOAP Headers in Pipeline Components"
 title: "Accessing SOAP Headers in Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -19,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Accessing SOAP Headers in Pipeline Components
-You can access SOAP header context properties in pipeline components. You use a combination of the context property name and the target namespace **http://schemas.microsoft.com/BizTalk/2003/SOAPHeader**.  
+You can access SOAP header context properties in pipeline components. You use a combination of the context property name and the target namespace `http://schemas.microsoft.com/BizTalk/2003/SOAPHeader`.  
   
  The following code example gets the request SOAP header in a receive pipeline component for the property **OrigDest**:  
   

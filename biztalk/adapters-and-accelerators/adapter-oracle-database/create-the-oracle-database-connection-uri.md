@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create the Oracle Database connection URI"
 title: "Create the Oracle Database connection URI | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

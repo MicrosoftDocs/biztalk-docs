@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Analyzing MQSeries Adapter Errors with the Trace Tools"
 title: "Analyzing MQSeries Adapter Errors with the Trace Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -32,7 +33,7 @@ You use the trace tools to analyze messaging failures when you run your applicat
 ## Install the Trace Utility
  To install the BizTalk Adapter Trace Utility, follow these steps:
 
-1.  To download the Tracelog.exe file, visit the Microsoft Platform SDK download Web site at [http://go.microsoft.com/fwlink/?LinkId=21975](https://go.microsoft.com/fwlink/?LinkId=21975).
+1.  To download the Tracelog.exe file, visit the Microsoft Platform SDK download Web site at [https://go.microsoft.com/fwlink/?LinkId=21975](https://go.microsoft.com/fwlink/?LinkId=21975).
 
 2.  Start the Platform SDK Web installation program by clicking the link for the **PSDK-x86.exe** file at the bottom of the Web page.
 
@@ -72,7 +73,7 @@ You use the trace tools to analyze messaging failures when you run your applicat
 
 3. At the command prompt, type **trace.cmd -stop**, and then press ENTER.
 
-4. The bts2006.bin file contains the output of the trace tool. Contact Microsoft Product Support Services for analysis. For more information, see [http://go.microsoft.com/fwlink/?LinkId=41645](https://go.microsoft.com/fwlink/?LinkId=41645).
+4. The bts2006.bin file contains the output of the trace tool. Contact Microsoft Product Support Services for analysis. For more information, see [https://go.microsoft.com/fwlink/?LinkId=41645](https://go.microsoft.com/fwlink/?LinkId=41645).
 
    To run the MQSAgent Trace Utility, follow these steps:
 
@@ -82,4 +83,4 @@ You use the trace tools to analyze messaging failures when you run your applicat
 
 7. At the command prompt, type **MQSTrace.cmd -stop**.
 
-8. The MQSAdapterTrace.bin file contains the output of the trace tool. Contact Microsoft Product Support Services for analysis. For more information see [http://go.microsoft.com/fwlink/?LinkId=41645](https://go.microsoft.com/fwlink/?LinkId=41645).
+8. The MQSAdapterTrace.bin file contains the output of the trace tool. Contact Microsoft Product Support Services for analysis. For more information see [https://go.microsoft.com/fwlink/?LinkId=41645](https://go.microsoft.com/fwlink/?LinkId=41645).

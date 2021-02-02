@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Messaging Performance Counters"
 title: "Messaging Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

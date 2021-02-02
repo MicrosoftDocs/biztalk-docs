@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InterAct Adapter Non-Repudiation"
 title: "InterAct Adapter Non-Repudiation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

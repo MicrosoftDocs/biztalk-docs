@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ThrottlingSeverityDatabaseSize Property (WMI)"
 title: MSBTS_HostSetting.ThrottlingSeverityDatabaseSize Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingSeverityDatabaseSize Property (WMI)
 ms:assetid: ff74a03c-fd19-4148-9f65-e65ef7f80213

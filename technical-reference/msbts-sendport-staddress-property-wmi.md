@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.STAddress Property (WMI)"
 title: MSBTS_SendPort.STAddress Property (WMI)
 TOCTitle: MSBTS_SendPort.STAddress Property (WMI)
 ms:assetid: d3950981-973e-4689-a9ac-cd2a446a6974

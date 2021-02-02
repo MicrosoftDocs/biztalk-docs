@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Develop SAP applications using the WCF Service Model"
 title: "Develop SAP applications using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

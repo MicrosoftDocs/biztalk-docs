@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Segment and Field"
 title: "Segment and Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

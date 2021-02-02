@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is the POP3 Adapter?"
 title: "What Is the POP3 Adapter? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -50,15 +51,15 @@ This section describes the POP3 receive adapter.
 ## POP3 Adapter Supported Platforms
  The POP3 adapter is designed to work with any POP3 servers that conform to the following RFCs:
 
-- **RFC 1939.** Post Office Protocol Version 3 (see [http://go.microsoft.com/fwlink/?LinkId=58808](https://go.microsoft.com/fwlink/?LinkId=58808))
+- **RFC 1939.** Post Office Protocol Version 3 (see [https://go.microsoft.com/fwlink/?LinkId=58808](https://go.microsoft.com/fwlink/?LinkId=58808))
 
-- **RFC 1734.** POP3 AUTHentication command (see [http://go.microsoft.com/fwlink/?LinkId=58809](https://go.microsoft.com/fwlink/?LinkId=58809))
+- **RFC 1734.** POP3 AUTHentication command (see [https://go.microsoft.com/fwlink/?LinkId=58809](https://go.microsoft.com/fwlink/?LinkId=58809))
 
-- **RFC 2045.** Multipurpose Internet Mail Extensions (MIME) Part One: Format of Internet Message Bodies (see [http://go.microsoft.com/fwlink/?LinkId=58810](https://go.microsoft.com/fwlink/?LinkId=58810))
+- **RFC 2045.** Multipurpose Internet Mail Extensions (MIME) Part One: Format of Internet Message Bodies (see [https://go.microsoft.com/fwlink/?LinkId=58810](https://go.microsoft.com/fwlink/?LinkId=58810))
 
-- **RFC 2046.** Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types (see [http://go.microsoft.com/fwlink/?LinkId=58811](https://go.microsoft.com/fwlink/?LinkId=58811))
+- **RFC 2046.** Multipurpose Internet Mail Extensions (MIME) Part Two: Media Types (see [https://go.microsoft.com/fwlink/?LinkId=58811](https://go.microsoft.com/fwlink/?LinkId=58811))
 
-- **RFC 2047.** MIME (Multipurpose Internet Mail Extensions) Part Three: Message Header Extensions for Non-ASCII Text (see [http://go.microsoft.com/fwlink/?LinkId=58812](https://go.microsoft.com/fwlink/?LinkId=58812))
+- **RFC 2047.** MIME (Multipurpose Internet Mail Extensions) Part Three: Message Header Extensions for Non-ASCII Text (see [https://go.microsoft.com/fwlink/?LinkId=58812](https://go.microsoft.com/fwlink/?LinkId=58812))
 
   The POP3 adapter was tested extensively against Microsoft Exchange Server 2003.
 

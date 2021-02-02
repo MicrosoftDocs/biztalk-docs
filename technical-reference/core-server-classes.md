@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Core Server Classes"
 title: Core Server Classes
 TOCTitle: Core Server Classes
 ms:assetid: 4e1f87e1-6c20-459b-89d9-b478c7353a8d

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid proxy address (for send handler and send port)"
 title: "Invalid proxy address (for send handler and send port) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

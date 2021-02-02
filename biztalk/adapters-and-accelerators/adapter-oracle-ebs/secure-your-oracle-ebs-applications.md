@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Secure your Oracle EBS applications"
 title: "Secure your Oracle EBS applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

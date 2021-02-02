@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Additional Sync Point Return Codes"
 title: "Sync Point Return Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

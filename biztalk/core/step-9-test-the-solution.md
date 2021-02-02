@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 9: Test the Solution"
 title: "Step 9: Test the Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -36,7 +37,7 @@ IEA*1*000000025~
 
  In this message, the highlighted segment (the line starting with **PO1**) contains the order quantity. The order quantity in this message is *121*. So, if you send this message, it must be inserted into the **SalesOrder** table. You can update the quantity to less than 100 and resend the message, it must then be sent to the file location you specified in the FILE send port.
 
- To send this message to the EDI agreement, you can use the **MessageSender** tool shipped with the samples for [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)]. You can download the samples from [http://go.microsoft.com/fwlink/p/?LinkId=235057](https://go.microsoft.com/fwlink/p/?LinkId=235057).
+ To send this message to the EDI agreement, you can use the **MessageSender** tool shipped with the samples for [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)]. You can download the samples from [https://go.microsoft.com/fwlink/p/?LinkId=235057](https://go.microsoft.com/fwlink/p/?LinkId=235057).
 
 ### To send a message
 

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Receive Port Properties Dialog Box"
 title: Receive Port Properties Dialog Box
 TOCTitle: Receive Port Properties Dialog Box
 ms:assetid: ad315dc4-2894-4bcf-84d9-e2827b328f7c

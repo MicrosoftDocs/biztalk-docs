@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Type Mapping for Receive Handlers in TIBCO Rendezvous"
 title: "Data Type Mapping to receive from TIBCO Rendezvous | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

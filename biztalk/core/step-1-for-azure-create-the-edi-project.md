@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1 (For Azure): Create the EDI Project"
 title: "Step 1 (For Azure): Create the EDI Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -86,7 +87,7 @@ In this section, Contoso creates an EDI project using the [!INCLUDE[appfabricint
 
 2.  In the **Add New Item** dialog box, from the **Installed Templates**, select **Map**, specify the name of the schema as **Edi840ToSalesOrder.trfm**, and then click **Add**.
 
-3.  In the map, for the source schema select **X12_00401_840.xsd**. This is the standard X12 schema for an EDI sales order. You must have already added this schema to the EDI project you created. You can download this, and other X12 schemas from [http://go.microsoft.com/fwlink/p/?LinkId=235057](https://go.microsoft.com/fwlink/p/?LinkId=235057). The X12 schemas are part of the **MicrosoftEdiXSDTemplates.zip** package available from the download location.
+3.  In the map, for the source schema select **X12_00401_840.xsd**. This is the standard X12 schema for an EDI sales order. You must have already added this schema to the EDI project you created. You can download this, and other X12 schemas from [https://go.microsoft.com/fwlink/p/?LinkId=235057](https://go.microsoft.com/fwlink/p/?LinkId=235057). The X12 schemas are part of the **MicrosoftEdiXSDTemplates.zip** package available from the download location.
 
 4.  For the destination schema, select **ECommerceSalesOrder.xsd**. You created this schema earlier in this topic.
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring DB2 for z-OS"
 title: "Configuring DB2 for z-OS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

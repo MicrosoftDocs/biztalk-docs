@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SWIFT Header and Trailer Schemas"
 title: "SWIFT Header and Trailer Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

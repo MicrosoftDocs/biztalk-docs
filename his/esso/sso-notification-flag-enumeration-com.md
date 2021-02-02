@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SSO_NOTIFICATION_FLAG Enumeration (COM)"
 title: "SSO_NOTIFICATION_FLAG Enumeration (COM) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

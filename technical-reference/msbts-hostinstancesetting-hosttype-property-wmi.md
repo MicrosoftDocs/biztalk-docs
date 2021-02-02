@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstanceSetting.HostType Property (WMI)"
 title: MSBTS_HostInstanceSetting.HostType Property (WMI)
 TOCTitle: MSBTS_HostInstanceSetting.HostType Property (WMI)
 ms:assetid: 4d412cdc-458c-493a-a85e-31c6b1596034

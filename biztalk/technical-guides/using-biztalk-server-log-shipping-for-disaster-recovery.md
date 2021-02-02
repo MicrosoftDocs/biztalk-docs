@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using BizTalk Server Log Shipping for Disaster Recovery"
 title: "Using BizTalk Server Log Shipping for Disaster Recovery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough (X12): Sending Batched EDI Interchanges"
 title: "Walkthrough (X12): Sending Batched EDI Interchanges | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -239,7 +240,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
       |     **Default**      |   Select **Default**. **Note:**  When you select this row as the default, the values for **GS1**, **GS2**, **GS3**, **GS7**, and **GS8** are used even if the values for **Transaction Type**, **Version/Release**, and **Target namespace** are not a match for the message.    |
       | **Transaction Type** |                                                                                                     Select the message type of your test message, **850 - Purchase Order**.                                                                                                      |
       | **Version/Release**  |                                                                                                                        Enter the EDI version, **00401**.                                                                                                                         |
-      | **Target namespace** |                                                                                                         Select **<http://schemas.microsoft.com/BizTalk/Edi/X12/2006>**.                                                                                                          |
+      | **Target namespace** |                                                                                                         Select `http://schemas.microsoft.com/BizTalk/EDI/X12/2006`.                                                                                                          |
       |       **GS1**        |                                                                                           Verify that the message type of the test message is selected, **PO - Purchase Order (850)**.                                                                                           |
       |       **GS2**        |                                                                                                      Enter a value for the Application sender, for example, **Purchasing**.                                                                                                      |
       |       **GS3**        |                                                                                                    Enter a value for the Application receiver, for example, **OrderControl**.                                                                                                    |

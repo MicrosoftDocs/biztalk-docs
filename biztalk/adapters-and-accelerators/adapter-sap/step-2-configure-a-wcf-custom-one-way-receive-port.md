@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Configure a WCF-Custom One-way Receive Port"
 title: "Step 2: Configure a WCF-Custom One-way Receive Port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -111,7 +112,7 @@ manager: "anneta"
 
    3. Click **OK**.
 
-      For more information about configuring an application, see [http://go.microsoft.com/fwlink/?LinkId=102360](https://go.microsoft.com/fwlink/?LinkId=102360).
+      For more information about configuring an application, see [https://go.microsoft.com/fwlink/?LinkId=102360](https://go.microsoft.com/fwlink/?LinkId=102360).
 
 ## Next Steps
  You have now completed migration of your vPrev BizTalk project to a BizTalk project that receives IDOCs from an SAP system using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. You must now test the migrated BizTalk application by receiving a flat-file IDOC, as described in [Step 3: Test the Migrated Application](../../adapters-and-accelerators/adapter-sap/step-3-test-the-migrated-application5.md).

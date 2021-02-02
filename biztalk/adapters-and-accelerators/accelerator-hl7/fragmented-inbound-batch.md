@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fragmented Inbound Batch"
 title: "Fragmented Inbound Batch | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

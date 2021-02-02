@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOMapping.Enable Method"
 title: "ISSOMapping.Enable Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

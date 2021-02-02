@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Failed Messages and ErrorCollection Objects"
 title: "Failed Messages and ErrorCollection Objects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

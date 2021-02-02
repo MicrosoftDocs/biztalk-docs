@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: A4SWIFT Security Features for Message Repair and New Submission"
 title: "A4SWIFT Security Features for Message Repair and New Submission | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

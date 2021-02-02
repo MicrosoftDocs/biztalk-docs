@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample VTAM Parameters for Independent APPC"
 title: "Sample VTAM Parameters for Independent APPC1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

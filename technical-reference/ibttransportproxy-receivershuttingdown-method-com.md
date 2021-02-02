@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportProxy.ReceiverShuttingdown Method (COM)"
 title: IBTTransportProxy.ReceiverShuttingdown Method (COM)
 TOCTitle: IBTTransportProxy.ReceiverShuttingdown Method (COM)
 ms:assetid: 767e6a3a-bbd2-4c02-81bb-3b3ff5faa0be

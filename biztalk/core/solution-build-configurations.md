@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Solution Build Configurations"
 title: "Solution Build Configurations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -27,7 +28,7 @@ As with other projects that you build in [!INCLUDE[btsVStudioNoVersion](../inclu
 
  A solution build configuration with a check mark in the **Build** column enables you to build a solution and to generate an assembly when you are finished. If a check mark is also present in the **Deploy** column, then the application will be deployed based on deployment settings in the Project Designer.
 
- A complete reference to Configuration Manager and the configuration options provided by the dialog box can be found at the following reference link: [http://go.microsoft.com/fwlink/?LinkId=125365](https://go.microsoft.com/fwlink/?LinkId=125365).
+ A complete reference to Configuration Manager and the configuration options provided by the dialog box can be found at the following reference link: [https://go.microsoft.com/fwlink/?LinkId=125365](https://go.microsoft.com/fwlink/?LinkId=125365).
 
 ### To configure build properties in Configuration Manager
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Application Encodings"
 title: "Configuring Application Encodings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

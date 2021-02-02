@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server Naming Conventions"
 title: "Server Naming Conventions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

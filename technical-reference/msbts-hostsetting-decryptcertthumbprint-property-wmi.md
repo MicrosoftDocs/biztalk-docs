@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.DecryptCertThumbprint Property (WMI)"
 title: MSBTS_HostSetting.DecryptCertThumbprint Property (WMI)
 TOCTitle: MSBTS_HostSetting.DecryptCertThumbprint Property (WMI)
 ms:assetid: c9f22e37-8d2b-4182-9e56-2017baf3e75f

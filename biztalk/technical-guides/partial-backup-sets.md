@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Partial Backup Sets"
 title: "Partial Backup Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

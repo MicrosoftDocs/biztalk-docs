@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SSO System Properties: Accounts"
 title: "SSO System Properties: Accounts2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

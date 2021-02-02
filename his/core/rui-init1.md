@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RUI_INIT"
 title: "RUI_INIT1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Date Time Conversions"
 title: "Configuring Date Time Conversions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

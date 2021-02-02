@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TI Configuration for WIP and HIP"
 title: "TI Configuration for WIP and HIP | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

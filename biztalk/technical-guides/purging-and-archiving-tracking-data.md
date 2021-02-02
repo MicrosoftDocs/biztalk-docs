@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Purging and Archiving Tracking Data"
 title: "Purging and Archiving Tracking Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

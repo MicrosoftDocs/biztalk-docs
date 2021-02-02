@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting Windows SharePoint Services"
 title: "Troubleshooting Windows SharePoint Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

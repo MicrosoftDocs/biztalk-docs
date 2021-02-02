@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Transactions and Handling Exceptions"
 title: "Using Transactions and Handling Exceptions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -51,13 +52,13 @@ When you design an orchestration, you should consider carefully where problems m
 
 -   [Compensation (BizTalk Server Sample)](../core/compensation-biztalk-server-sample.md)
 
--   Download the SDK sample "Atomic Transactions with COM+ Serviced Components in Orchestrations" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Atomic Transactions with COM+ Serviced Components in Orchestrations" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
--   Download the SDK sample "Using the SQL Adapter with Atomic Transactions in Orchestrations" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Using the SQL Adapter with Atomic Transactions in Orchestrations" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
--   Download the SDK sample "Using Long-Running Transactions in Orchestrations" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Using Long-Running Transactions in Orchestrations" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
--   Download the SDK sample "Exception Handling in Orchestrations" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Exception Handling in Orchestrations" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
 ## In This Section
 

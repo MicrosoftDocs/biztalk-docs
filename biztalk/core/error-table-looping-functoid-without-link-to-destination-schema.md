@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Table Looping Functoid Without Link to Destination Schema"
 title: "Error - Table Looping Functoid Without Link to Destination Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoke Weakly-typed Stored Procedures in SQL using the WCF Service Model"
 title: "Invoke Weakly-typed Stored Procedures in SQL using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

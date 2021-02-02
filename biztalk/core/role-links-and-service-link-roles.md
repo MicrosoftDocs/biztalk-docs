@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Role Links and Service Link Roles"
 title: "Role Links and Service Link Roles | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

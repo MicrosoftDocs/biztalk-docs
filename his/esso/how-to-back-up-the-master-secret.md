@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Back Up the Master Secret"
 title: "How to Back Up the Master Secret | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

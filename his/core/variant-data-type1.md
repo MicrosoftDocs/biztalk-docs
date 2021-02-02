@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Variant Data Type"
 title: "Variant Data Type1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4A: Start the SWIFTNet Service for the FileAct Real-Time Scenario"
 title: "Step 4A: Start the SWIFTNet Service for the FileAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

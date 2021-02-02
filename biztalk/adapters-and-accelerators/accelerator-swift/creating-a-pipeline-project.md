@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Pipeline Project"
 title: "Creating a Pipeline Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

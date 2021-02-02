@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Mixed (Node Property of All Schemas)"
 title: Mixed (Node Property of All Schemas)
 TOCTitle: Mixed (Node Property of All Schemas)
 ms:assetid: a7823467-992e-40cf-9f82-2fba22a157c9

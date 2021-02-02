@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapping Interface (COM)"
 title: ISSOMapping Interface (COM)
 TOCTitle: ISSOMapping Interface (COM)
 ms:assetid: a09f2c78-4100-47d7-bb9e-888b5a274075

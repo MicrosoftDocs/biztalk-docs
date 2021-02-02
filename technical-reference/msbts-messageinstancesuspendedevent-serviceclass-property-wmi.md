@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstanceSuspendedEvent.ServiceClass Property (WMI)"
 title: MSBTS_MessageInstanceSuspendedEvent.ServiceClass Property (WMI)
 TOCTitle: MSBTS_MessageInstanceSuspendedEvent.ServiceClass Property (WMI)
 ms:assetid: 8464a83d-d1cc-4f14-9c75-900166ebe2bd

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FTP Adapter Property Schema and Properties"
 title: "FTP Adapter Property Schema and Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -35,7 +36,7 @@ manager: "anneta"
 # FTP Adapter Property Schema and Properties
 The following table contains the properties in the FTP adapter property schema.  
   
- **Namespace:** http://schemas.microsoft.com/BizTalk/2003/ftp-properties  
+ **Namespace:** `http://schemas.microsoft.com/BizTalk/2003/ftp-properties`
   
 |Name|Type|Description|  
 |----------|----------|-----------------|  

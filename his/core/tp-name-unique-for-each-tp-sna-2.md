@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TP Name Unique for Each TP (SNA)"
 title: "TP Name Unique for Each TP (SNA)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

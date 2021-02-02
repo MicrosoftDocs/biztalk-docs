@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Insert, Update, Delete, and Select Operations on Tables and Views"
 title: "Message Schemas for Insert, Update, Delete, and Select Operations on Tables and Views | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -31,7 +32,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces Insert, Upd
 |Delete|`<Delete xmlns="[VERSION]/TableOp/[SCHEMA]/[TABLE_NAME]">   <Rows>     <[TABLE_NAME]>       <[FIELD1_NAME]>value1</[FIELD1_NAME]>       <[FIELD2_NAME]>value2</[FIELD2_NAME]>       …     </[TABLE_NAME]>   </Rows> </Delete>`|--|`DELETE FROM [TABLE_NAME] WHERE [FIELD1_NAME] = value1, [FIELD2_NAME] = value2, …;`|  
 |Delete Response|`<DeleteResponse xmlns="[VERSION]/TableOp/[SCHEMA]/[TABLE_NAME]">   <DeleteResult>[rows deleted]</DeleteResult> </DeleteResponse>`|The number of rows deleted is returned in the **DeleteResult** element.|--|  
   
- [VERSION] = The message version string; for example, http://schemas.microsoft.com/Sql/2008/05.  
+ [VERSION] = The message version string; for example, `http://schemas.microsoft.com/Sql/2008/05`.  
   
  [SCHEMA] = Collection of SQL Server artifacts; for example, dbo.  
   

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 10: Configure the X12 and AS2 Trading Partner Agreement"
 title: "Step 10: Configure the X12 and AS2 Trading Partner Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -121,7 +122,7 @@ manager: "anneta"
       |     **Default**      |              Select **Default**. **Note:**  When you select this row as the default, the values for **GS1**, **GS2**, **GS3**, **GS7**, and **GS8** are used even if the values for **Transaction Type**, **Version/Release**, and **Target namespace** are not a match for the message.              |
       | **Transaction Type** |                                                                                                          Select the message type of your test message, for example, **864 – Text Message**.                                                                                                           |
       | **Version/Release**  |                                                                                                                                           Enter **00401**.                                                                                                                                            |
-      | **Target namespace** |                                                                                                                    Select **<http://schemas.microsoft.com/BizTalk/EDI/X12/2006>**.                                                                                                                    |
+      | **Target namespace** |                                                                                                                    Select `http://schemas.microsoft.com/BizTalk/EDI/X12/2006`.                                                                                                                    |
       |       **GS1**        |                                                                                                Verify that the message type of the test message is selected, for example, **TX - Text Message (864)**.                                                                                                |
       |       **GS2**        |                                                                                                                                             Enter **01**.                                                                                                                                             |
       |       **GS3**        |                                                                                                                                          Enter **7654321**.                                                                                                                                           |

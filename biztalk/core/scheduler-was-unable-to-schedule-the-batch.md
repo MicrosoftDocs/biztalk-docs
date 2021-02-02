@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scheduler was unable to schedule the batch"
 title: "Scheduler was unable to schedule the batch | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Filter Properties: Basic"
 title: 'Filter Properties: Basic'
 TOCTitle: 'Filter Properties: Basic'
 ms:assetid: e709b713-5be2-4e05-b243-d71fa31a93d6

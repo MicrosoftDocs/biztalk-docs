@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Client Logons and the Storing of Passwords"
 title: "Client Logons and the Storing of Passwords1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

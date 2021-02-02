@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Building blocks to create BizTalk applications with the Siebel adapter"
 title: "Building blocks to create BizTalk applications with the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

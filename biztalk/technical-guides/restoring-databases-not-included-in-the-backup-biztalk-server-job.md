@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Restoring Databases Not Included in the Backup BizTalk Server Job"
 title: "Restoring Databases Not Included in the Backup BizTalk Server Job | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

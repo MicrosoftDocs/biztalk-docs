@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using ESB Exception Management"
 title: "Using ESB Exception Management | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

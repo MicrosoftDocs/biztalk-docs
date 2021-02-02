@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive IDOCs from SAP using BizTalk Server"
 title: "Receive IDOCs from SAP using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

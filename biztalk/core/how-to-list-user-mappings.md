@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to List User Mappings"
 title: "How to List User Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

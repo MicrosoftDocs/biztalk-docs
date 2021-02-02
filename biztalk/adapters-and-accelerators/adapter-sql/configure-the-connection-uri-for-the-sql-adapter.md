@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure the connection URI for the SQL adapter"
 title: "Configure the connection URI for the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

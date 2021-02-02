@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.DBQueueSizeThreshold Property (WMI)"
 title: MSBTS_HostSetting.DBQueueSizeThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.DBQueueSizeThreshold Property (WMI)
 ms:assetid: a99999b4-b673-400e-892d-971079d6b370

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Consolidate the BizTalk Server Databases2"
 title: "Consolidate the BizTalk Server Databases2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

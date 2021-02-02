@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with the Tracking Activity Definition File"
 title: "Working with the Tracking Activity Definition File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

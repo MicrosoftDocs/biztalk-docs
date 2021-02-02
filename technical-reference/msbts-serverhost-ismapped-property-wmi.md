@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServerHost.IsMapped Property (WMI)"
 title: MSBTS_ServerHost.IsMapped Property (WMI)
 TOCTitle: MSBTS_ServerHost.IsMapped Property (WMI)
 ms:assetid: 0c967535-3cea-42b2-a852-4a0013557c64

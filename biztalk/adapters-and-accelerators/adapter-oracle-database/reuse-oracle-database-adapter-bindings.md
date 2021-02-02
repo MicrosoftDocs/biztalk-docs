@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Reuse Oracle Database Adapter bindings"
 title: "Reuse Oracle Database Adapter bindings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

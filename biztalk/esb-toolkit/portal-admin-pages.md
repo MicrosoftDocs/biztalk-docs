@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Portal Admin Pages"
 title: "Portal Admin Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

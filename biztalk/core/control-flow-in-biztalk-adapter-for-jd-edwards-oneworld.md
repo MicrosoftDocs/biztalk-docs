@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Control Flow in BizTalk Adapter for JD Edwards OneWorld"
 title: "Control Flow in BizTalk Adapter for JD Edwards OneWorld | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

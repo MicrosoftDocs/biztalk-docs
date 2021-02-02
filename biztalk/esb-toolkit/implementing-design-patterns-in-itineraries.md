@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Implementing Design Patterns in Itineraries"
 title: "Implementing Design Patterns in Itineraries | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

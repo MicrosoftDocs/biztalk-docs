@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Implicit Incoming Remote LU and Implicit Incoming Mode"
 title: "Implicit Incoming Remote LU and Implicit Incoming Mode1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

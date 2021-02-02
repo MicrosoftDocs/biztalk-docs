@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning and Architecting Solutions Using Microsoft Service for DRDA"
 title: "Planning and Architecting Solutions Using Microsoft Service for DRDA | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -52,7 +53,7 @@ The following sections provide help for planning and architecting solutions usin
 
 - DRDA, Version 5, Volume 3: Distributed Data Management (DDM) Architecture
 
-  You can download DRDA V5 Vol. 3: Distributed Data Management Architecture, publication number C114, from the Open Group bookstore ([http://go.microsoft.com/fwlink/?LinkID=219127&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=219127&clcid=0x409)).
+  You can download DRDA V5 Vol. 3: Distributed Data Management Architecture, publication number C114, from the Open Group bookstore ([https://go.microsoft.com/fwlink/?LinkID=219127&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=219127&clcid=0x409)).
 
 ### IBM DB2 Servers and Clients
  Microsoft, IBM, and third-party vendors implement DRDA protocols and formats in various DRDA Application Requester (AR) client technologies. The DRDA Service supports in-bound connections from DRDA AR clients that conform to the DRDA Version 5 standard, including DRDA ARs packaged in these IBM and Microsoft products.

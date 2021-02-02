@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Loans Processing Using Business Rules (BizTalk Server Sample)"
 title: "Loans Processing Using Business Rules (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

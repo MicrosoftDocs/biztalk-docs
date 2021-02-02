@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a channel using the SQL adapter"
 title: "Create a channel using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

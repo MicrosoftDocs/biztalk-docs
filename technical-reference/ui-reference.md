@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: UI Reference"
 title: UI Reference
 TOCTitle: UI Reference
 ms:assetid: b5bd5906-222c-4130-b13a-579713c8ff27

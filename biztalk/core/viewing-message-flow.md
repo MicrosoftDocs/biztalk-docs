@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Viewing Message Flow"
 title: "Viewing Message Flow | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Logging Configuration"
 title: "Logging Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportBatch.DeleteMessage Method (COM)"
 title: IBTTransportBatch.DeleteMessage Method (COM)
 TOCTitle: IBTTransportBatch.DeleteMessage Method (COM)
 ms:assetid: c556ef11-2db1-4d2e-ae84-e0300ab6ec86

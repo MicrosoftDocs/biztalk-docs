@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Modify the vPrev BizTalk Project for Invoking an RFC"
 title: "Step 1: Modify the vPrev BizTalk Project for Invoking an RFC | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -67,7 +68,7 @@ manager: "anneta"
        ![Map the request messages between adapter versions](../../adapters-and-accelerators/adapter-sap/media/f12f280d-766f-4647-bced-435354206fb9.gif "f12f280d-766f-4647-bced-435354206fb9")
 
       > [!NOTE]
-      >  For more information about the String Left Trim functoid, see "String Left Trim Functoid" at [http://go.microsoft.com/fwlink/?LinkId=105774](https://go.microsoft.com/fwlink/?LinkId=105774).
+      >  For more information about the String Left Trim functoid, see "String Left Trim Functoid" at [https://go.microsoft.com/fwlink/?LinkId=105774](https://go.microsoft.com/fwlink/?LinkId=105774).
 
    8. Save the map.
 

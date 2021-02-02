@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: String Left Functoid"
 title: String Left Functoid
 TOCTitle: String Left Functoid
 ms:assetid: 54ee2a92-7ba1-4214-ae3c-457c14bb1588

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Modify BTSWebSvcWiz.exe.config"
 title: "How to Modify BTSWebSvcWiz.exe.config | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -40,9 +41,9 @@ You can enable tracing to debug the BizTalk Web Services Publishing Wizard by un
 </system.diagnostics>
 ```
 
- This tracing feature uses the Trace class in the .NET Framework. For more information about the Trace class, see the Microsoft MSDN Web site at [http://go.microsoft.com/fwlink/?LinkId=67886](https://go.microsoft.com/fwlink/?LinkId=67886).
+ This tracing feature uses the Trace class in the .NET Framework. For more information about the Trace class, see the Microsoft MSDN Web site at [https://go.microsoft.com/fwlink/?LinkId=67886](https://go.microsoft.com/fwlink/?LinkId=67886).
 
- For information about **TextWriterTraceListener**, see "TextWriterTraceListener" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [http://go.microsoft.com/fwlink/?LinkId=62267](https://go.microsoft.com/fwlink/?LinkId=62267).
+ For information about **TextWriterTraceListener**, see "TextWriterTraceListener" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [https://go.microsoft.com/fwlink/?LinkId=62267](https://go.microsoft.com/fwlink/?LinkId=62267).
 
 ## See Also
  [Debugging Published Web Services](../core/debugging-published-web-services.md)

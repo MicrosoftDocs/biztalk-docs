@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough (X12): Receiving EDI Interchanges and Sending Back an Acknowledgement"
 title: "Walkthrough (X12): Receiving EDI Interchanges and Sending Back an Acknowledgement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -152,7 +153,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 
 7. In **Send pipeline**, select **EdiSend**.  
 
-8. In the console tree, select **Filters**. Enter a filter to subscribe to the EDI interchange. For example, for **Property**, enter **BTS.MessageType**; for **Operator**, enter **==**; and for **Value** enter the schema for the interchange, for example, http://schemas.microsoft.com/BizTalk/Edi/X12/2006#X12_00401_850.  
+8. In the console tree, select **Filters**. Enter a filter to subscribe to the EDI interchange. For example, for **Property**, enter **BTS.MessageType**; for **Operator**, enter **==**; and for **Value** enter the schema for the interchange, for example, `http://schemas.microsoft.com/BizTalk/Edi/X12/2006#X12_00401_850`.  
 
    > [!NOTE]
    >  The above filter setting ensures that interchanges, not acknowledgments, will be sent to the folder associated with this send port.  
@@ -199,7 +200,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 
 7. In **Send pipeline**, select **EdiSend**.  
 
-8. In the console tree, select **Filters**. Enter a filter to subscribe to the TA1 acknowledgment. For example, for **Property**, enter **BTS.MessageType**; for **Operator**, enter **==**; and for **Value** enter the schema for the acknowledgment, for example, http://schemas.microsoft.com/Edi/X12#X12_TA1_Root.  
+8. In the console tree, select **Filters**. Enter a filter to subscribe to the TA1 acknowledgment. For example, for **Property**, enter **BTS.MessageType**; for **Operator**, enter **==**; and for **Value** enter the schema for the acknowledgment, for example, `http://schemas.microsoft.com/Edi/X12#X12_TA1_Root`.  
 
 9. Click **OK**.  
 
@@ -291,7 +292,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
       |     **Default**      |   Select **Default**. **Note:**  When you select this row as the default, the values for **GS1**, **GS2**, **GS3**, **GS7**, and **GS8** are used even if the values for **Transaction Type**, **Version/Release**, and  **Target namespace** are not a match for the message.   |
       | **Transaction Type** |                                                                                                     Select the message type of your test message, **850 - Purchase Order**.                                                                                                      |
       | **Version/Release**  |                                                                                                                        Enter the EDI version, **00401**.                                                                                                                         |
-      | **Target namespace** |                                                                                                                Select **<http://schemas.microsoft.com/Edi/X12>**.                                                                                                                |
+      | **Target namespace** |                                                                                                                Select `http://schemas.microsoft.com/Edi/X12>`.                                                                                                                |
       |       **GS1**        |                                                                                           Verify that the message type of the test message is selected, **PO - Purchase Order (850)**.                                                                                           |
       |       **GS2**        |                                                                                                                    Enter a value for the Application sender.                                                                                                                     |
       |       **GS3**        |                                                                                                                   Enter a value for the Application receiver.                                                                                                                    |

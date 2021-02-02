@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Script (Functoid Property)"
 title: Script (Functoid Property)
 TOCTitle: Script (Functoid Property)
 ms:assetid: 083334f8-2aa2-4054-9d11-6174b546156c

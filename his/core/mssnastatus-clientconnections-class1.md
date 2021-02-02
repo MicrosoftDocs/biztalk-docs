@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_ClientConnections Class"
 title: "MsSnaStatus_ClientConnections Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TCP Transaction Request Message User Data"
 title: "TCP Transaction Request Message User Data2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

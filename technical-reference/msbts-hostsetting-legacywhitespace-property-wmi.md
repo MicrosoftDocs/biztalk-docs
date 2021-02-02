@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.LegacyWhitespace Property (WMI)"
 title: MSBTS_HostSetting.LegacyWhitespace Property (WMI)
 TOCTitle: MSBTS_HostSetting.LegacyWhitespace Property (WMI)
 ms:assetid: d579248c-7abe-4217-9edd-c9c8f01f69c5

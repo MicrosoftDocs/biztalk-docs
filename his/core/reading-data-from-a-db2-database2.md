@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Reading Data from a DB2 Database"
 title: "Reading Data from a DB2 Database2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

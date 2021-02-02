@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations using the SQL adapter"
 title: "Run ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -23,7 +24,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the followin
 
   -   For all other types of statements, the return value is **-1**.
 
-- **ExecuteReader**: Use this operation to execute any arbitrary SQL statements in SQL Server if you want the result set to be returned, if any, as an array of DataSet. For information about DataSet, see “DataSet Class” at [http://go.microsoft.com/fwlink/?LinkID=196853](https://go.microsoft.com/fwlink/?LinkID=196853).
+- **ExecuteReader**: Use this operation to execute any arbitrary SQL statements in SQL Server if you want the result set to be returned, if any, as an array of DataSet. For information about DataSet, see “DataSet Class” at [https://go.microsoft.com/fwlink/?LinkID=196853](https://go.microsoft.com/fwlink/?LinkID=196853).
 
 - **ExecuteScalar**: Use this operation to execute any arbitrary SQL statements in SQL Server to return a single value. This operation returns the value only in the first column of the first row in the result set returned by the SQL statement.
 

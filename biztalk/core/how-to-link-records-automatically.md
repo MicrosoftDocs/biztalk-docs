@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Link Records Automatically"
 title: "How to Link Records Automatically | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTDTCCommitConfirm.DTCCommitConfirm Method (COM)"
 title: IBTDTCCommitConfirm.DTCCommitConfirm Method (COM)
 TOCTitle: IBTDTCCommitConfirm.DTCCommitConfirm Method (COM)
 ms:assetid: 6e4edc24-f3e0-4c31-aec7-abb8ab929f53

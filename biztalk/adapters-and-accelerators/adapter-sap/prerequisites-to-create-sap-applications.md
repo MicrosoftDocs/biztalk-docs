@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prerequisites to create SAP applications"
 title: "Prerequisites to create SAP applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning the Environment for BizTalk Server"
 title: "Planning the Environment for BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -27,7 +28,7 @@ The planning section of the operations guide describes roles and responsibilitie
 
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] also includes several other features that facilitate business integration including a message workflow engine, a Business Rule Engine (BRE), and technologies for information workers such as Business Activity Monitoring (BAM).
 
- For more information about using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business process management functionality, see [White Paper: Microsoft and BPM—Technical Overview](https://go.microsoft.com/fwlink/?LinkId=106015) (<http://go.microsoft.com/fwlink/?LinkId=106015>). To know more about the different integration technologies offered by Microsoft and the advantages one has over the other, see [Understanding Microsoft Integration Technologies](https://go.microsoft.com/fwlink/?LinkId=158452) (<http://go.microsoft.com/fwlink/?LinkId=158452>).
+ For more information about using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business process management functionality, see [White Paper: Microsoft and BPM—Technical Overview](https://go.microsoft.com/fwlink/?LinkId=106015) (<https://go.microsoft.com/fwlink/?LinkId=106015>). To know more about the different integration technologies offered by Microsoft and the advantages one has over the other, see [Understanding Microsoft Integration Technologies](https://go.microsoft.com/fwlink/?LinkId=158452) (<https://go.microsoft.com/fwlink/?LinkId=158452>).
 
  Certain integration scenarios are better suited to other Microsoft products. If your primary focus is upon any of the following scenarios, consider using these Microsoft products instead of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:
 

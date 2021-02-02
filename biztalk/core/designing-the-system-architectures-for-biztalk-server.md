@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Designing the System Architectures for BizTalk Server"
 title: "Designing the System Architectures for BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

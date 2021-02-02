@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA Secondary Return Codes"
 title: "LUA Secondary Return Codes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

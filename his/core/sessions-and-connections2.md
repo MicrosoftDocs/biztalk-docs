@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sessions and Connections"
 title: "Sessions and Connections2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

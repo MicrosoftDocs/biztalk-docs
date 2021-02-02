@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Logging on to Host Integration Server Through a WMI Provider"
 title: "Logging on to Host Integration Server Through a WMI Provider2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run SQLEXECUTE operation in Oracle Database using BizTalk Server"
 title: "Run SQLEXECUTE operation in Oracle Database using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

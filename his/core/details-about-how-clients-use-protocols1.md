@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Details about How Clients Use Protocols"
 title: "Details about How Clients Use Protocols1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

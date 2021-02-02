@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing Security in a Windows-Initiated Application"
 title: "Managing Security in a Windows-Initiated Application1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

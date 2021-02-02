@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Expression Shape"
 title: "How to Use Expression Shape | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

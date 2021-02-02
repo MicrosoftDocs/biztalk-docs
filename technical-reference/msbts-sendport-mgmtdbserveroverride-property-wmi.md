@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.MgmtDbServerOverride Property (WMI)"
 title: MSBTS_SendPort.MgmtDbServerOverride Property (WMI)
 TOCTitle: MSBTS_SendPort.MgmtDbServerOverride Property (WMI)
 ms:assetid: 091575b1-273f-4c54-bf03-2a040fce9879

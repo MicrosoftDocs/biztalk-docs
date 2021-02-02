@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Modify an Aggregation"
 title: "How to Modify an Aggregation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

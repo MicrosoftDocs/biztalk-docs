@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MDN Messages"
 title: "MDN Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

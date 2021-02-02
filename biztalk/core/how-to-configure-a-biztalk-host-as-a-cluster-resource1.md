@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure a BizTalk Host as a Cluster Resource"
 title: "How to Configure a BizTalk Host as a Cluster Resource1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

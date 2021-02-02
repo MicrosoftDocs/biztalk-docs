@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Help (Functoid Property)"
 title: Help (Functoid Property)
 TOCTitle: Help (Functoid Property)
 ms:assetid: d785bb75-60f9-4477-963c-227893b4722d

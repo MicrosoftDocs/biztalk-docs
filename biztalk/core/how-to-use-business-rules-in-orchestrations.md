@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Business Rules in Orchestrations"
 title: "How to Use Business Rules in Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -32,7 +33,7 @@ You can create an instance of a Business Rules policy and execute it in your orc
 
 -   [Medical Claims Processing and Testing Policies (BizTalk Server Sample)](../core/medical-claims-processing-and-testing-policies-biztalk-server-sample.md)
 
--   Download the SDK sample "Policy Chaining" from [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+-   Download the SDK sample "Policy Chaining" from [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
 ## See Also
  [Creating and Using Business Rules](../core/creating-and-using-business-rules.md)

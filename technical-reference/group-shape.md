@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Group Shape"
 title: Group Shape
 TOCTitle: Group Shape
 ms:assetid: fb0e335b-44cf-4da9-aac7-5991abd85c2b

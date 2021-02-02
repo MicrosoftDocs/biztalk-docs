@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Configure the Orchestration in BizTalk Server Administration Console to use the Oracle Database adapter"
 title: "Step 2: Configure the Orchestration in BizTalk Server Administration Console to use the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -71,7 +72,7 @@ manager: "anneta"
 
    4. Click **OK**.
 
-      For more information about configuring an application, see "How to Configure an Application" at [http://go.microsoft.com/fwlink/?LinkID=196961](https://go.microsoft.com/fwlink/?LinkID=196961).
+      For more information about configuring an application, see "How to Configure an Application" at [https://go.microsoft.com/fwlink/?LinkID=196961](https://go.microsoft.com/fwlink/?LinkID=196961).
 
 ## Next Steps
  You have now completed migration of your vPrev BizTalk project to a BizTalk project that sends messages to the Oracle database using the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. You must now test the migrated BizTalk application by sending a request message to perform an Insert operation on the Oracle database, as described in [Step 3: Test the migrated application to Oracle Database adapter](../../adapters-and-accelerators/adapter-oracle-database/step-3-test-the-migrated-application-to-oracle-database-adapter.md).

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.STRetryInterval Property (WMI)"
 title: MSBTS_SendPort.STRetryInterval Property (WMI)
 TOCTitle: MSBTS_SendPort.STRetryInterval Property (WMI)
 ms:assetid: bfb840ca-466e-40ab-912e-d69d91cc1292

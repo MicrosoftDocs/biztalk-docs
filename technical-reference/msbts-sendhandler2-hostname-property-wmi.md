@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendHandler2.HostName Property (WMI)"
 title: MSBTS_SendHandler2.HostName Property (WMI)
 TOCTitle: MSBTS_SendHandler2.HostName Property (WMI)
 ms:assetid: c5070bfb-c5ec-4296-b3ea-59514b45d5d3

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: File Transport Properties Dialog Box, Receive, Advanced Settings Dialog Box"
 title: File Transport Properties Dialog Box, Receive, Advanced Settings Dialog Box
 TOCTitle: File Transport Properties Dialog Box, Receive, Advanced Settings Dialog Box
 ms:assetid: 2f67a63c-57f2-4ba9-af7c-151817c32c97

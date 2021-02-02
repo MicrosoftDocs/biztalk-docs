@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix B: Install the Microsoft SharePoint Adapter"
 title: "Appendix B: Install the SharePoint Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

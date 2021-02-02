@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Single Sign-On: Event 10514"
 title: "Single Sign-On: Event 10514 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -35,7 +36,7 @@ manager: "anneta"
 
 - Verify that the SQL Server (MSSQLSERVER) service is running.
 
-- Check the SQL Server error code using the Events and Errors Message Center at [http://go.microsoft.com/fwlink/?LinkID=20869](https://go.microsoft.com/fwlink/?LinkID=20869).
+- Check the SQL Server error code using the Events and Errors Message Center at [https://go.microsoft.com/fwlink/?LinkID=20869](https://go.microsoft.com/fwlink/?LinkID=20869).
 
   For more information, see the following resources in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help:
 

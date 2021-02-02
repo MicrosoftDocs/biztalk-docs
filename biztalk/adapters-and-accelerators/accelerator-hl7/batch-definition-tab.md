@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Batch Definition Tab"
 title: "Batch Definition Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Exporting Agreement Properties to an XML FIle"
 title: "Exporting Agreement Properties to an XML FIle | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

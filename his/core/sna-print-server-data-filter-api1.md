@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA Print Server Data Filter API"
 title: "SNA Print Server Data Filter API1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

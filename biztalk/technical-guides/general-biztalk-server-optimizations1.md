@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: General BizTalk Server Optimizations"
 title: "General BizTalk Server Optimizations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -95,7 +96,7 @@ The following recommendations can be used to increase BizTalk Server performance
 
  **\<add address="<https://www.contoso.com>" maxconnection="24" /\>**
 **\<add address="<http://www.contoso.com:8080>" maxconnection="24" /\>**
-**\<add address="http://*IPAddress*" maxconnection="24" /\>**  For more information about tuning IIS and ASP.NET settings for Web services, see the "ASP.NET settings that can impact HTTP  Adapter performance" section of [Configuration Parameters that Affect Adapter Performance](https://go.microsoft.com/fwlink/?LinkID=154200) (<http://go.microsoft.com/fwlink/?LinkID=154200>) in BizTalk Server 2010 Help.
+**\<add address="http://*IPAddress*" maxconnection="24" /\>**  For more information about tuning IIS and ASP.NET settings for Web services, see the "ASP.NET settings that can impact HTTP  Adapter performance" section of [Configuration Parameters that Affect Adapter Performance](https://go.microsoft.com/fwlink/?LinkID=154200) (<https://go.microsoft.com/fwlink/?LinkID=154200>) in BizTalk Server 2010 Help.
 
 ## Manage ASP.NET thread usage or concurrently executing requests for Web applications that can host  isolated received locations, back-end Web services and WCF services
  The number of worker and I/O threads (IIS 7.5 and IIS 7.0 in classic mode) or the number of concurrently executing requests (IIS 7.5 and 7.0 integrated mode) for an ASP.NET Web application that hosts isolated received locations, back-end Web services and WCF services should be modified under the following conditions:

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Rules"
 title: "Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

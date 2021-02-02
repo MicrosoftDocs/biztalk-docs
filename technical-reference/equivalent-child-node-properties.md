@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Equivalent Child Node Properties"
 title: Equivalent Child Node Properties
 TOCTitle: Equivalent Child Node Properties
 ms:assetid: b0c313db-da7e-4436-bcca-61be09785bd5

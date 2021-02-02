@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDI Interchange and Correlated ACK Status Report"
 title: "EDI Interchange and Correlated ACK Status Report | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run BAPI Transactions in SAP using BizTalk Server"
 title: "Run BAPI Transactions in SAP using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

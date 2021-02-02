@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Alert Manager"
 title: Alert Manager
 TOCTitle: Alert Manager
 ms:assetid: 9a032bd2-ea99-4bc7-8ea2-b253d007c571
@@ -112,7 +113,7 @@ The **Alert Details** area of the Alert Management content frame provides detail
 </tr>
 <tr class="even">
 <td>Advanced Query Button</td>
-<td>Open the Advanced Query Editor dialog box. The Advance Query Editor uses multidimensional expressions to define the query. This is an advanced feature and should only be used by experienced users. For more information about the multidimensional expressions query language, see the OLE DB Programmer's Reference on MSDN at <a href="http://go.microsoft.com/fwlink/?linkid=58869">http://go.microsoft.com/fwlink/?LinkId=58869</a>.</td>
+<td>Open the Advanced Query Editor dialog box. The Advance Query Editor uses multidimensional expressions to define the query. This is an advanced feature and should only be used by experienced users. For more information about the multidimensional expressions query language, see the OLE DB Programmer's Reference on MSDN at <a href="https://go.microsoft.com/fwlink/?linkid=58869">https://go.microsoft.com/fwlink/?LinkId=58869</a>.</td>
 </tr>
 <tr class="odd">
 <td>Restrict search to the last area</td>
@@ -175,4 +176,3 @@ The Subscriptions area of the Alert Management content frame allows you to subsc
 ## See Also
 
 [Search](search.md)
-

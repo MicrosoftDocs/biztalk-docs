@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Accessing SOAP Headers in WCF Messages with Orchestrations"
 title: "Accessing SOAP Headers in WCF Messages with Orchestrations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -38,7 +39,7 @@ outboundMessageInstance(WCF.OutbounCustomHeaders) = "<headers><Origination xmlns
 
  You can also set the context property by creating an **XmlDocument** and writing the string value of the **XmlDocument** to the context property.
 
- For more information about how to access SOAP headers with the WCF adapters, see the SDK sample "Using Custom SOAP Headers with the WCF Adapters" at [http://go.microsoft.com/fwlink/?LinkId=79960](https://go.microsoft.com/fwlink/?LinkId=79960).
+ For more information about how to access SOAP headers with the WCF adapters, see the SDK sample "Using Custom SOAP Headers with the WCF Adapters" at [https://go.microsoft.com/fwlink/?LinkId=79960](https://go.microsoft.com/fwlink/?LinkId=79960).
 
 ## See Also
  [Accessing SOAP Headers in WCF Messages with Pipeline Components](../core/accessing-soap-headers-in-wcf-messages-with-pipeline-components.md)

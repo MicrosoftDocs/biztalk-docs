@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitter.Initialize Method (COM)"
 title: IBTTransmitter.Initialize Method (COM)
 TOCTitle: IBTTransmitter.Initialize Method (COM)
 ms:assetid: bd9ebee4-1e45-4cf2-a14d-f2e8d7e708c2

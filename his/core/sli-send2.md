@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SLI_SEND"
 title: "SLI_SEND2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

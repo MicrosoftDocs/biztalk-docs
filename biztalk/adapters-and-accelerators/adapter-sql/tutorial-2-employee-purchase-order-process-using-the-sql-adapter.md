@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorial 2: Employee - Purchase Order Process using the SQL adapter"
 title: "Tutorial 2: Employee - Purchase Order Process using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

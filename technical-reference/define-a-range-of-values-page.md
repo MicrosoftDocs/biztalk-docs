@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Define a Range of Values Page"
 title: Define a Range of Values Page
 TOCTitle: Define a Range of Values Page
 ms:assetid: 62cf0024-9c1f-4bad-9a4a-2370653bb55d

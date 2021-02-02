@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 8: Configure the Trading Partner Agreement between the Parties"
 title: "Step 8: Configure the Trading Partner Agreement between the Parties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -74,7 +75,7 @@ manager: "anneta"
       |     **Default**      |                Select the checkbox in the column                |
       |     **For ST1**      |                Select **850 - Purchase Order**.                 |
       |       **GS2**        |                         Enter **THEM**.                         |
-      | **Target Namespace** | Select **<http://schemas.microsoft.com/BizTalk/EDI/X12/2006>**. |
+      | **Target Namespace** | Select `http://schemas.microsoft.com/BizTalk/EDI/X12/2006`. |
 
       > [!NOTE]
       >  Setting the properties enables [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to determine the schema to be used in processing the incoming 850 interchange. If an interchange has the values of GS02 and ST01 that are entered on a line of the grid, then the target namespace for the same line will be used to determine the schema to be used.  
@@ -104,7 +105,7 @@ manager: "anneta"
       |     **Default**      | Select the checkbox in the **Default** column. **Note:**  When you select this row as the default, the values for **GS1**, **GS2**, **GS3**, **GS7**, and **GS8** are used even if the values for **Transaction Type**, **Version/Release**, and **Target namespace** are not a match for the message. |
       | **Transaction Type** |                                                                                                                Select the message type of your test message, **850 - Purchase Order**.                                                                                                                 |
       | **Version/Release**  |                                                                                                                                   Enter the EDI version, **00401**.                                                                                                                                    |
-      | **Target namespace** |                                                                                                                           Select **<http://schemas.microsoft.com/Edi/X12>**.                                                                                                                           |
+      | **Target namespace** |   Select `http://schemas.microsoft.com/Edi/X12`.   |
       |       **GS1**        |                                                                                                                         Verify that **PO - Purchase Order (850)** is selected.                                                                                                                         |
       |       **GS2**        |                                                                                                                       Enter **1234567**.<br /><br /> **Sender Application ID.**                                                                                                                        |
       |       **GS3**        |                                                                                                                      Enter **0000000**.<br /><br /> **Receiver Application ID.**                                                                                                                       |

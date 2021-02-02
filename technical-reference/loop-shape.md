@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Loop Shape"
 title: Loop Shape
 TOCTitle: Loop Shape
 ms:assetid: 64c78fb6-44b0-4a48-ad8a-c4e7775328f5

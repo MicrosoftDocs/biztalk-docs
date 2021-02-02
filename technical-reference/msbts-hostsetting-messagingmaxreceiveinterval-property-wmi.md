@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.MessagingMaxReceiveInterval Property (WMI)"
 title: MSBTS_HostSetting.MessagingMaxReceiveInterval Property (WMI)
 TOCTitle: MSBTS_HostSetting.MessagingMaxReceiveInterval Property (WMI)
 ms:assetid: 06784349-d6e8-471c-8c12-3aa63dcaea7b

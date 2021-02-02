@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appending Nodes to Messages in User Code"
 title: "Appending Nodes to Messages in User Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

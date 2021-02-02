@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Components of the BAM Portal"
 title: "Components of the BAM Portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

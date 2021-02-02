@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 5: Adding the SWIFT Disassembler to a Custom Receive Pipeline"
 title: "Lesson 5: Adding the SWIFT Disassembler to a Custom Receive Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

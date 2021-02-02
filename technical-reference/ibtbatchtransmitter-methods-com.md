@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTBatchTransmitter Methods (COM)"
 title: IBTBatchTransmitter Methods (COM)
 TOCTitle: IBTBatchTransmitter Methods (COM)
 ms:assetid: b61131ec-6e93-4c24-bab6-0738713e8768

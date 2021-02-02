@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Enrichment Tutorial"
 title: "Message Enrichment Tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Move the BAM Analysis Database"
 title: "How to Move the BAM Analysis Database1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -30,7 +31,7 @@ You can use this procedure to move the BAM Analysis database to another server. 
 
 1. Stop any BAM cube update and data maintenance SSIS packages, or prevent them from running until you have restored the BAM Analysis database.
 
-2. Stop all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](https://go.microsoft.com/fwlink/?LinkId=154394) (<http://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+2. Stop all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](https://go.microsoft.com/fwlink/?LinkId=154394) (<https://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
 3. Stop the IIS service.
 
@@ -42,11 +43,11 @@ You can use this procedure to move the BAM Analysis database to another server. 
 
         **Net stop NS$BamAlerts**
 
-5. Back up the BAM Analysis database on the old server. For instructions on backing up a database, follow the instructions at [How to: Back Up a Database (SQL Server Management Studio)](https://go.microsoft.com/fwlink/?LinkId=156510) (<http://go.microsoft.com/fwlink/?LinkId=156510>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to back up a database.
+5. Back up the BAM Analysis database on the old server. For instructions on backing up a database, follow the instructions at [How to: Back Up a Database (SQL Server Management Studio)](https://go.microsoft.com/fwlink/?LinkId=156510) (<https://go.microsoft.com/fwlink/?LinkId=156510>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to back up a database.
 
 6. Copy the BAM Analysis database to the new [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer.
 
-7. Restore the BAM Analysis database on the new server. For instructions on restoring the database, follow the instructions at [How to: Restore a Database Backup (SQL Server Management Studio)](https://go.microsoft.com/fwlink/?LinkId=156511) (<http://go.microsoft.com/fwlink/?LinkId=156511>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to restore a database.
+7. Restore the BAM Analysis database on the new server. For instructions on restoring the database, follow the instructions at [How to: Restore a Database Backup (SQL Server Management Studio)](https://go.microsoft.com/fwlink/?LinkId=156511) (<https://go.microsoft.com/fwlink/?LinkId=156511>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to restore a database.
 
 ##  <a name="BKMK_AnalyUpdate"></a> Updating References to the New BAM Analysis Database
  After you have moved the database, you must update all the references to the new BAM Analysis Database. The following references must be updated:
@@ -76,7 +77,7 @@ You can use this procedure to move the BAM Analysis database to another server. 
        **Bm.exe get-config –filename:BAMConfiguration.xml -server:\<servername\> -database:\<database\>**
 
       > [!NOTE]
-      >  When running this command, substitute the actual name of the server from which to get the configuration information for \<servername\> and substitute the actual name of the database from which to get the configuration information for \<database\>. For more information about using the BAM Management (BM) utility, see [Infrastructure Management Commands](https://go.microsoft.com/fwlink/?LinkId=156516) (<http://go.microsoft.com/fwlink/?LinkId=156516>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+      >  When running this command, substitute the actual name of the server from which to get the configuration information for \<servername\> and substitute the actual name of the database from which to get the configuration information for \<database\>. For more information about using the BAM Management (BM) utility, see [Infrastructure Management Commands](https://go.microsoft.com/fwlink/?LinkId=156516) (<https://go.microsoft.com/fwlink/?LinkId=156516>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
 2. Edit the BAMConfiguration.xml file and change the **ServerName** in the `<DeploymentUnit Name="AnalysisDatabase">` section to the new server name.
 
@@ -155,7 +156,7 @@ You can use this procedure to move the BAM Analysis database to another server. 
 
 22. Click **OK**, and then click **Yes** to overwrite.
 
-23. Start all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](https://go.microsoft.com/fwlink/?LinkId=154394) (<http://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+23. Start all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](https://go.microsoft.com/fwlink/?LinkId=154394) (<https://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
 24. Start the IIS service.
 

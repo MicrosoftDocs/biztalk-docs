@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Constructing Web Messages"
 title: "Constructing Web Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

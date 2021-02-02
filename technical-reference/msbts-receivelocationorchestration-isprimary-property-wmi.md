@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocationOrchestration.IsPrimary Property (WMI)"
 title: MSBTS_ReceiveLocationOrchestration.IsPrimary Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.IsPrimary Property (WMI)
 ms:assetid: a37b31b0-9ba3-43e9-aa78-f1c62695c6a4

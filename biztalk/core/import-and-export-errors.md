@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Import and Export Errors"
 title: "Import and Export Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

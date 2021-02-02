@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting (WMI)"
 title: MSBTS_GroupSetting (WMI)
 TOCTitle: MSBTS_GroupSetting (WMI)
 ms:assetid: bb440da1-b650-4345-80d5-949bcc774b5f
@@ -44,7 +45,7 @@ class MSBTS\_GroupSetting : MSBTS\_Setting
 </tr>
 <tr class="even">
 <td>Caption (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=83193">http://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=83193">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-groupsetting-biztalkoperatorgroup-property-wmi.md">MSBTS_GroupSetting.BizTalkOperatorGroup Property (WMI)</a></td>
@@ -56,7 +57,7 @@ class MSBTS\_GroupSetting : MSBTS\_Setting
 </tr>
 <tr class="odd">
 <td>Description (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=83193">http://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=83193">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="msbts-groupsetting-globaltrackingoption-property-wmi.md">GlobalTrackingOption</a></td>
@@ -100,7 +101,7 @@ class MSBTS\_GroupSetting : MSBTS\_Setting
 </tr>
 <tr class="even">
 <td>SettingID (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=83193">http://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=83193">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-groupsetting-signcertcomment-property-wmi.md">SignCertComment</a></td>
@@ -177,4 +178,3 @@ Contains the name of the tracking SQL analysis server.</td>
 **Header:** Declared in BTSWMISchema2K.mof or BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

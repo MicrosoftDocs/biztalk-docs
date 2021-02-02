@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run an Insert Operation in Oracle Database using the WCF Channel Model"
 title: "Run an Insert Operation in Oracle Database using the WCF Channel Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

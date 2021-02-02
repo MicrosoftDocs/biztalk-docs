@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use the Trace Utility in Host Initiated SSO"
 title: "How to Use the Trace Utility in Host Initiated SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -29,7 +30,7 @@ The primary method of troubleshooting is tracing.
 >  \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On
 
 > [!NOTE]
->  You can download this file from the following location: [http://go.microsoft.com/fwlink/?LinkId=59534](https://go.microsoft.com/fwlink/?LinkId=59534)
+>  You can download this file from the following location: [https://go.microsoft.com/fwlink/?LinkId=59534](https://go.microsoft.com/fwlink/?LinkId=59534)
 
 #### To use the trace utility
 

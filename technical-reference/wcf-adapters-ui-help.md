@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF Adapters UI Help"
 title: WCF Adapters UI Help
 TOCTitle: WCF Adapters UI Help
 ms:assetid: 2249b5c1-0f7c-4d23-b91c-b2e44c4b5941

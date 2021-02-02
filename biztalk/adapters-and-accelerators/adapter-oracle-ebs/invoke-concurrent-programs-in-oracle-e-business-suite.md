@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoke concurrent programs in Oracle E-Business Suite"
 title: "Invoke concurrent programs in Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

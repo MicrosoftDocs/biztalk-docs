@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Same Server Migration"
 title: "Same Server Migration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DEFINE_TRACE"
 title: "DEFINE_TRACE1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

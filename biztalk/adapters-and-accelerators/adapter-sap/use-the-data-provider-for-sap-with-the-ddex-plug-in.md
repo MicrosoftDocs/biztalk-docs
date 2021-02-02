@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use the Data Provider for SAP with the DDEX Plug-in"
 title: "Use the Data Provider for SAP with the DDEX Plug-in | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LOG_MESSAGE"
 title: "LOG_MESSAGE2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

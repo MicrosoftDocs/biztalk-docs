@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoking the Flat File Parsing Engine"
 title: "Invoking the Flat File Parsing Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

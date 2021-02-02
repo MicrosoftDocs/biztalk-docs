@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Running the Exception Handling Service Sample"
 title: "Running the Exception Handling Service Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

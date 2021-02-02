@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Add Days Functoid"
 title: Add Days Functoid
 TOCTitle: Add Days Functoid
 ms:assetid: e59aaf65-864f-49ac-a8d4-b67ac4c00d3d

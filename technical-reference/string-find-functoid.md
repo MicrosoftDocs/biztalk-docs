@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: String Find Functoid"
 title: String Find Functoid
 TOCTitle: String Find Functoid
 ms:assetid: 46904cff-5580-4269-9688-37efe0ffec02

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Ignore Namespaces for Links (Grid Property)"
 title: Ignore Namespaces for Links (Grid Property)
 TOCTitle: Ignore Namespaces for Links (Grid Property)
 ms:assetid: a139416b-da76-4aa8-9058-0c3979a39bb9

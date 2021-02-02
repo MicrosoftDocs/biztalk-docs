@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: APPC or LUA Application Failures"
 title: "APPC or LUA Application Failures2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

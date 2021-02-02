@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get Metadata Using WS-Metadata Exchange in SAP"
 title: "Get Metadata Using WS-Metadata Exchange in SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -23,7 +24,7 @@ As a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincomm
 
  WCF provides a rich infrastructure for exporting, publishing, retrieving and importing metadata about a service. WCF services, like the adapter, use metadata to describe how to interact with the service endpoints so that tools, like svcutil.exe, can automatically generate client code for consuming the service. WCF represents the metadata for a service as an instance of the **MetadataSet** type, which is strongly tied to the metadata serialization format defined in WS-Metadata Exchange (MEX). You can create a **MetadataSet** for targeted operations on the adapter by using a **MetadataExchangeClient**.
 
- WCF support for metadata exchange is an expansive topic and beyond the scope of this documentation. For more information about support for metadata in WCF, see "Metadata" in the WCF documentation at [http://go.microsoft.com/fwlink/?LinkId=105634](https://go.microsoft.com/fwlink/?LinkId=105634). For a particularly good description of the architecture, classes, and namespaces that WCF exposes for metadata, see "Metadata Architecture Overview" at [http://go.microsoft.com/fwlink/?LinkId=105635](https://go.microsoft.com/fwlink/?LinkId=105635). You should familiarize yourself with the content related to retrieving metadata from a WCF service in these WCF topics before proceeding.
+ WCF support for metadata exchange is an expansive topic and beyond the scope of this documentation. For more information about support for metadata in WCF, see "Metadata" in the WCF documentation at [https://go.microsoft.com/fwlink/?LinkId=105634](https://go.microsoft.com/fwlink/?LinkId=105634). For a particularly good description of the architecture, classes, and namespaces that WCF exposes for metadata, see "Metadata Architecture Overview" at [https://go.microsoft.com/fwlink/?LinkId=105635](https://go.microsoft.com/fwlink/?LinkId=105635). You should familiarize yourself with the content related to retrieving metadata from a WCF service in these WCF topics before proceeding.
 
  The following topics contain information about how to use a **MetadataExchangeClient** to retrieve metadata from the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].
 

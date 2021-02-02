@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Import Bindings from a Binding File"
 title: "How to Import Bindings from a Binding File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

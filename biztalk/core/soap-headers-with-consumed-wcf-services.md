@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SOAP Headers with Consumed WCF Services"
 title: "SOAP Headers with Consumed WCF Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -21,7 +22,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # SOAP Headers with Consumed WCF Services
-To send a message to a WCF service with the custom SOAP headers, these headers must be set in your orchestrations (in the Expression shape, for example) and pipeline components (in code) as the context property **OutboundCustomHeaders**. This context property is in the target namespace **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**, and contains string representations of the custom SOAP headers.  
+To send a message to a WCF service with the custom SOAP headers, these headers must be set in your orchestrations (in the Expression shape, for example) and pipeline components (in code) as the context property **OutboundCustomHeaders**. This context property is in the target namespace `http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties`, and contains string representations of the custom SOAP headers.  
   
  The data in the following XML outgoing message shows an example of the string representation of custom SOAP headers for the **OutboundCustomHeaders** property:  
   

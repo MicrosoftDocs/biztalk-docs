@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SOAP Transport Properties Dialog Box"
 title: SOAP Transport Properties Dialog Box
 TOCTitle: SOAP Transport Properties Dialog Box
 ms:assetid: 818c592d-eedf-4665-b40b-aba1cec5a9f5

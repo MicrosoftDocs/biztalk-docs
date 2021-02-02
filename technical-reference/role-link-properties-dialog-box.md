@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Role Link Properties Dialog Box"
 title: Role Link Properties Dialog Box
 TOCTitle: Role Link Properties Dialog Box
 ms:assetid: ad535297-7174-4a14-9281-612c91e345a3

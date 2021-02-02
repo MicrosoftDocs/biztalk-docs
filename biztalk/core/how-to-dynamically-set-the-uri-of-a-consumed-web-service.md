@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Dynamically Set the URI of a Consumed Web Service"
 title: "How to Dynamically Set the URI of a Consumed Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Call Orchestration Configuration Dialog Box"
 title: Call Orchestration Configuration Dialog Box
 TOCTitle: Call Orchestration Configuration Dialog Box
 ms:assetid: fdbac3e5-383c-4d6e-bdb9-ef1d4de25fc5

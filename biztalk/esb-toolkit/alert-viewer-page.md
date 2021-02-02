@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Alert Viewer Page"
 title: "Alert Viewer Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

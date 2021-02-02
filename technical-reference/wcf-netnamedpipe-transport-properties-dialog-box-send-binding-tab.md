@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-NetNamedPipe Transport Properties Dialog Box, Send, Binding Tab"
 title: WCF-NetNamedPipe Transport Properties Dialog Box, Send, Binding Tab
 TOCTitle: WCF-NetNamedPipe Transport Properties Dialog Box, Send, Binding Tab
 ms:assetid: 000627b0-68be-4ca9-9a07-ab8603ddd960

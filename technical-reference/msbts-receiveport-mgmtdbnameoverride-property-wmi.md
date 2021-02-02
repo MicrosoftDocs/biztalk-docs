@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceivePort.MgmtDbNameOverride Property (WMI)"
 title: MSBTS_ReceivePort.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_ReceivePort.MgmtDbNameOverride Property (WMI)
 ms:assetid: eb1235e3-b657-4618-a7cb-6361450f067d

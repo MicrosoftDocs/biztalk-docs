@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Terminate an Adapter"
 title: "How to Terminate an Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

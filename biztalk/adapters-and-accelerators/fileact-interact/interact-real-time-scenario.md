@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InterAct Real-Time Scenario"
 title: "InterAct Real-Time Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # InterAct Real-Time Scenario
-In this scenario, you will configure the InterAct adapter to process messages in real time. You can use in SWIFT solutions scenarios such as cash reporting. For more information, see the SWIFT Web site at [http://go.microsoft.com/fwlink/?LinkId=100479](https://go.microsoft.com/fwlink/?LinkId=100479).
+In this scenario, you will configure the InterAct adapter to process messages in real time. You can use in SWIFT solutions scenarios such as cash reporting. For more information, see the SWIFT Web site at [https://go.microsoft.com/fwlink/?LinkId=100479](https://go.microsoft.com/fwlink/?LinkId=100479).
 
  Before you begin the steps in this section, you must complete the steps in [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md).
 

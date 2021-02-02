@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Snacfg CPIC"
 title: "Snacfg CPIC1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

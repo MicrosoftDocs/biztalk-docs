@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MSMQ Adapter Performance Counters"
 title: "MSMQ Adapter Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

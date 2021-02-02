@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Undo or Redo User Operations"
 title: "How to Undo or Redo User Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

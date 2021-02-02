@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Welcome to the MQ Channel Library Wizard"
 title: "Welcome to the MQ Channel Library Wizard2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

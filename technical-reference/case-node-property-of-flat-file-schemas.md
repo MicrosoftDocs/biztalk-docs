@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Case (Node Property of Flat File Schemas)"
 title: Case (Node Property of Flat File Schemas)
 TOCTitle: Case (Node Property of Flat File Schemas)
 ms:assetid: ea52fb87-d08d-4265-984b-d71123f51724

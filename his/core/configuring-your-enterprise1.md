@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Your Enterprise"
 title: "Configuring Your Enterprise1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

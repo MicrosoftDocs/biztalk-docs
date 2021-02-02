@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Service Connection Point"
 title: "Service Connection Point2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

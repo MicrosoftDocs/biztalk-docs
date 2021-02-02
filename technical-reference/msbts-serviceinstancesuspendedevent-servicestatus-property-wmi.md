@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstanceSuspendedEvent.ServiceStatus Property (WMI)"
 title: MSBTS_ServiceInstanceSuspendedEvent.ServiceStatus Property (WMI)
 TOCTitle: MSBTS_ServiceInstanceSuspendedEvent.ServiceStatus Property (WMI)
 ms:assetid: e3f562d8-c254-4244-bc9e-992a223651dd

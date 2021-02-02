@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_DeploymentService.Deploy Method (WMI)"
 title: MSBTS_DeploymentService.Deploy Method (WMI)
 TOCTitle: MSBTS_DeploymentService.Deploy Method (WMI)
 ms:assetid: 1a7fd9b2-0375-47ef-8c35-7bf37c114968

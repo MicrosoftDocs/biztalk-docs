@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure a Local APPC LU"
 title: "How to Configure a Local APPC LU1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating and Submitting a New Message"
 title: "Creating and Submitting a New Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

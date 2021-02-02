@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: listOfAppInstance Document"
 title: listOfAppInstance Document
 TOCTitle: listOfAppInstance Document
 ms:assetid: 831eaa54-facf-4528-921f-3af6a5e7fd6f

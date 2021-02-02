@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration Properties for Integrated BizTalk Adapters"
 title: "Configuration Properties for Integrated BizTalk Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

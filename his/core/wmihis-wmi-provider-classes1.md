@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: wmiHIS WMI Provider Classes"
 title: "wmiHIS WMI Provider Classes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

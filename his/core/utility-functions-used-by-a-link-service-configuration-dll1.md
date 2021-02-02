@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Utility Functions Used by a Link Service Configuration DLL"
 title: "Utility Functions Used by a Link Service Configuration DLL1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

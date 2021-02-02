@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step2: Create Send Ports and Receive Ports for the InterAct Store and Forward (Pull) Scenario"
 title: "Step2: Create Send Ports and Receive Ports for the InterAct Store and Forward (Pull) Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

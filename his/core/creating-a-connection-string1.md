@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a Connection String"
 title: "Create a Connection String | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

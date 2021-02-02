@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SStatus.bstrErrorMessage Field"
 title: SStatus.bstrErrorMessage Field
 TOCTitle: SStatus.bstrErrorMessage Field
 ms:assetid: 65b4d7b7-6482-428e-ad40-e33bcb29d61c

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server Properties: SSO Service"
 title: 'Server Properties: SSO Service'
 TOCTitle: 'Server Properties: SSO Service'
 ms:assetid: c87d8522-e9fa-4468-8451-58a3e057f003

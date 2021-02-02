@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Specifying the Message Body for the WCF Adapters"
 title: "Specifying the Message Body for the WCF Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -43,7 +44,7 @@ You can use the **Messages** tab in the WCF adapters to specify how the BizTalk 
   When the **Path -- content located by body path** option is selected, the **Node encoding** property can be configured to specify the expected encoding type for the node specified by the body path expression in the **Body path expression** text box. If the body path expression matches more than one element, only the first matched element is used.
 
 > [!NOTE]
->  For the **body path expression** property, only the XPath expressions suitable for forward-only processing of XML are supported. For more information about the XPath expressions available for this property, see "The Best of Both Worlds: Combining XPath with the XmlReader" at [http://go.microsoft.com/fwlink/?LinkID=75701](https://go.microsoft.com/fwlink/?LinkID=75701).
+>  For the **body path expression** property, only the XPath expressions suitable for forward-only processing of XML are supported. For more information about the XPath expressions available for this property, see "The Best of Both Worlds: Combining XPath with the XmlReader" at [https://go.microsoft.com/fwlink/?LinkID=75701](https://go.microsoft.com/fwlink/?LinkID=75701).
 
  If the **Path -- content located by body path** option is selected and the **Node encoding** property is set to **String**, the WCF adapters expect that the matched node has UTF-8 encoded character data. If the incoming messages include escaped character data for the XML special characters such as \< and \>, the WCF adapters restore the escaped character data when creating the BizTalk message body part. For example, if the matched node has escaped character data such as **&lt;FirstName&gt;CONTOSO&lt;/FirstName&gt;** the WCF adapters create **\<FirstName\>CONTOSO\</FirstName\>** in the inbound BizTalk message body.
 
@@ -179,7 +180,7 @@ You can use the **Messages** tab in the WCF adapters to specify how the BizTalk 
 
 |         Outbound WCF message body         |                                                                    XML                                                                    |
 |-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| **Body -- BizTalk response message body** | \<Book\><br /><br /> \<**bts-msg-body** xmlns="<http://www.microsoft.com/schemas/bts2010>" encoding="**string**"/\><br /><br /> \</Book\> |
+| **Body -- BizTalk response message body** | `<Book><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2010" encoding="string"/></Book>` |
 
 ```
 <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
@@ -203,7 +204,7 @@ You can use the **Messages** tab in the WCF adapters to specify how the BizTalk 
 
 |         Outbound WCF message body         |                                                                    XML                                                                    |
 |-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| **Body -- BizTalk response message body** | \<Book\><br /><br /> \<**bts-msg-body** xmlns="<http://www.microsoft.com/schemas/bts2010>" encoding="**base64**"/\><br /><br /> \</Book\> |
+| **Body -- BizTalk response message body** | `<Book><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2010" encoding="base64"/></Book>` |
 
 ```
 <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://ww
@@ -233,7 +234,7 @@ FBMmM8L25zMDpPcmRlcklEPg0KICA8L25zMDpPcmRlckRldGFpbD4NCjwvbnMwOk9yZGVyPg==</Book
 
 |         Outbound WCF message body         |                                                                  XML                                                                   |
 |-------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **Body -- BizTalk response message body** | \<Book\><br /><br /> \<**bts-msg-body** xmlns="<http://www.microsoft.com/schemas/bts2010>" encoding="**xml**"/\><br /><br /> \</Book\> |
+| **Body -- BizTalk response message body** | `<Book><bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2010" encoding="xml"/></Book>` |
 
 ```
 <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">

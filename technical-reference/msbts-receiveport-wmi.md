@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceivePort (WMI)"
 title: MSBTS_ReceivePort (WMI)
 TOCTitle: MSBTS_ReceivePort (WMI)
 ms:assetid: 8500b91b-60be-4a09-a711-b8c840016289
@@ -34,11 +35,11 @@ class MSBTS_ReceivePort : MSBTS_Setting
 <tbody>
 <tr class="odd">
 <td>Caption (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/p/?linkid=20246">http://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/p/?linkid=20246">https://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
 </tr>
 <tr class="even">
 <td>Description (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/p/?linkid=20246">http://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/p/?linkid=20246">https://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-receiveport-inboundtransforms-property-wmi.md">InboundTransforms</a></td>
@@ -74,7 +75,7 @@ class MSBTS_ReceivePort : MSBTS_Setting
 </tr>
 <tr class="odd">
 <td>SettingID (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/p/?linkid=20246">http://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/p/?linkid=20246">https://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="msbts-receiveport-tracking-property-wmi.md">Tracking</a></td>
@@ -97,4 +98,3 @@ This class wraps the managed **Microsoft.BizTalk.ExplorerOM.ReceivePort** class.
 **Header:** Declared in BTSWMISchema2K.mof or BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

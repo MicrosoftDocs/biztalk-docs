@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Reconnect to a Group"
 title: "How to Reconnect to a Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

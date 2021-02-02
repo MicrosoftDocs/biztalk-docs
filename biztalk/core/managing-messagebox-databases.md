@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing MessageBox Databases"
 title: "Managing MessageBox Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

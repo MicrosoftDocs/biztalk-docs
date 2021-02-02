@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to View Related Activities and Related Documents"
 title: "How to View Related Activities and Related Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

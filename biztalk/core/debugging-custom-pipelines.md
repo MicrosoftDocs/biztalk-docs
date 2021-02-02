@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Debugging Custom Pipelines"
 title: "Debugging Custom Pipelines | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

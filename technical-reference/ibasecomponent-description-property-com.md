@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseComponent.Description Property (COM)"
 title: IBaseComponent.Description Property (COM)
 TOCTitle: IBaseComponent.Description Property (COM)
 ms:assetid: e4387905-2f54-48cc-a0d0-681f0f85ca4c

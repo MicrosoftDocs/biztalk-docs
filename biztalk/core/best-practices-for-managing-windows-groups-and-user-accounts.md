@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best Practices for Managing Windows Groups and User Accounts"
 title: "Best Practices for Managing Windows Groups and User Accounts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

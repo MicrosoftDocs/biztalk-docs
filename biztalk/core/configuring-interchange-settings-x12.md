@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Interchange Settings (X12)"
 title: "Configuring Interchange Settings (X12) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

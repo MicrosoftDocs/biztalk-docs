@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Start and Stop DTC or SNA LU 6.2 Resync TP"
 title: "How to Start and Stop DTC or SNA LU 6.2 Resync TP1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

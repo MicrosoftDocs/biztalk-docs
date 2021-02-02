@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: INamedItem.Value Property (COM)"
 title: INamedItem.Value Property (COM)
 TOCTitle: INamedItem.Value Property (COM)
 ms:assetid: 78e8c20f-8caa-43ff-a882-f6b03edcc2a3

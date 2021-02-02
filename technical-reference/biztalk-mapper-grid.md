@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Mapper Grid"
 title: BizTalk Mapper Grid
 TOCTitle: BizTalk Mapper Grid
 ms:assetid: 3ac092c0-a58b-4b8b-ac06-b7d8e729a489

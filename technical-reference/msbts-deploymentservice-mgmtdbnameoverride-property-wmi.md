@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_DeploymentService.MgmtDbNameOverride Property (WMI)"
 title: MSBTS_DeploymentService.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_DeploymentService.MgmtDbNameOverride Property (WMI)
 ms:assetid: 8b59bd12-41dd-4491-be3d-7507adee1082

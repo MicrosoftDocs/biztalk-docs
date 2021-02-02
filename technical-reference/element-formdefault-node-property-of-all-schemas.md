@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Element FormDefault (Node Property of All Schemas)"
 title: Element FormDefault (Node Property of All Schemas)
 TOCTitle: Element FormDefault (Node Property of All Schemas)
 ms:assetid: 80e0ff7d-38cb-49dc-9044-1a2547752f63

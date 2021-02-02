@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Low-Latency Scenario Optimizations"
 title: "Low-Latency Scenario Optimizations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,7 +21,7 @@ By default, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernov
 >  These optimizations will improve latency but may do so at some cost to overall throughput.
 
 ## Increase the BizTalk Server host internal message queue size
- Each BizTalk host has its own internal in-memory queue. Increase the size of this queue from the default value of 100 to 1000 to improve performance for a low-latency scenario. For more information about modifying the value of the internal message queue size, see “How to Modify the Default Host Throttling Settings” in the BizTalk Server help at [http://go.microsoft.com/fwlink/?LinkID=120225](https://go.microsoft.com/fwlink/?LinkID=120225).
+ Each BizTalk host has its own internal in-memory queue. Increase the size of this queue from the default value of 100 to 1000 to improve performance for a low-latency scenario. For more information about modifying the value of the internal message queue size, see “How to Modify the Default Host Throttling Settings” in the BizTalk Server help at [https://go.microsoft.com/fwlink/?LinkID=120225](https://go.microsoft.com/fwlink/?LinkID=120225).
 
 ## Reduce the MaxReceiveInterval value in the adm_ServiceClass table of the BizTalk Server management database
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses a polling mechanism to receive messages from its host queues in the Messagebox. The **MaxReceiveInterval** value in the adm_ServiceClass table of the BizTalk Management (BizTalkMgmtDb) database is the maximum value in milliseconds that each BizTalk host instance will wait until it polls the MessageBox. The adm_ServiceClass table contains a record for the following service types:

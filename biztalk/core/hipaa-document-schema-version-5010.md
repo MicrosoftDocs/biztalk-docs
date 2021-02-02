@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HIPAA Document Schema Version 5010"
 title: "HIPAA Document Schema Version 5010 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

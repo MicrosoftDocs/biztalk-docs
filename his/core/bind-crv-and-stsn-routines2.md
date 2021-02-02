@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BIND, CRV, and STSN Routines"
 title: "BIND, CRV, and STSN Routines2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

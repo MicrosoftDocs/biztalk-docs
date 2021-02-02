@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RosettaNet and CIDX Messaging Standards"
 title: "RosettaNet and CIDX Messaging Standards | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -36,7 +37,7 @@ The primary purpose of Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../.
 
   The CIDX Chem eStandards are a widely accepted set of standards for implementing automated message exchange in chemical-industry scenarios.
 
-  For more information about standards, see the RosettaNet Web site at [http://go.microsoft.com/FWLink/?LinkID=33859](https://go.microsoft.com/FWLink/?LinkID=33859) and the CIDX Web site at [http://go.microsoft.com/FWLink/?LinkID=34540](https://go.microsoft.com/FWLink/?LinkID=34540).
+  For more information about standards, see the RosettaNet Web site at [https://go.microsoft.com/FWLink/?LinkID=33859](https://go.microsoft.com/FWLink/?LinkID=33859) and the CIDX Web site at [https://go.microsoft.com/FWLink/?LinkID=34540](https://go.microsoft.com/FWLink/?LinkID=34540).
 
 ## In This Section
 

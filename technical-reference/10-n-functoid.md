@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: 10^n Functoid"
 title: 10^n Functoid
 TOCTitle: 10^n Functoid
 ms:assetid: c389a60a-fef3-4821-8469-e15432554656

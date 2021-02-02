@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The loop contains a leaf node. It can only contain other Loops or Segments"
 title: "The loop contains a leaf node. It can only contain other Loops or Segments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

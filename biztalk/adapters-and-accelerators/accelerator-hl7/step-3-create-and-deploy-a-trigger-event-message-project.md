@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Create and Deploy a Trigger Event (Message) Project"
 title: "Step 3: Create and Deploy a Trigger Event (Message) Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

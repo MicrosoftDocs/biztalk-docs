@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Are Measures and Dimensions?"
 title: "What Are Measures and Dimensions? | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

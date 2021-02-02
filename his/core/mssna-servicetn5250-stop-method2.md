@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_ServiceTN5250.Stop Method"
 title: "MsSna_ServiceTN5250.Stop Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

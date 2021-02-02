@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best Practices for Maintaining Performance"
 title: "Best Practices for Maintaining Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

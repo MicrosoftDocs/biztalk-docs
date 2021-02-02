@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Receive Data"
 title: "Tutorial: Using the BizTalk Adapter for TIBCO Enterprise Message Service to Receive Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

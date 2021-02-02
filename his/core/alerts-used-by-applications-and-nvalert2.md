@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Alerts Used by Applications and NVAlert"
 title: "Alerts Used by Applications and NVAlert2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

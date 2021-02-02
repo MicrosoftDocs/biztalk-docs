@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Indent (Grid Property)"
 title: Indent (Grid Property)
 TOCTitle: Indent (Grid Property)
 ms:assetid: acc8c9a7-64af-42bf-873e-a05169c7ca5e

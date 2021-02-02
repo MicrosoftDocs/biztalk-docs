@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetMessages Sample"
 title: "GetMessages Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

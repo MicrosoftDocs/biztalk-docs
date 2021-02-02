@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with Large Schemas"
 title: "Working with Large Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

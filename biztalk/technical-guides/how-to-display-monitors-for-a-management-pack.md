@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Display Monitors for a Management Pack"
 title: "How to Display Monitors for a Management Pack | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

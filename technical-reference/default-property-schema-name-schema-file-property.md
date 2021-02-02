@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Default Property Schema Name (Schema File Property)"
 title: Default Property Schema Name (Schema File Property)
 TOCTitle: Default Property Schema Name (Schema File Property)
 ms:assetid: e53b023e-c5de-450b-9b60-bda0ec5cf16b

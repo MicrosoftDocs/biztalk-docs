@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting MessageBox Latency Issues"
 title: "Troubleshooting MessageBox Latency Issues | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

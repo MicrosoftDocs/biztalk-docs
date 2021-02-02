@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PowerShell Module Cmdlets and Commands"
 title: "PowerShell Module Cmdlets and Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -32,7 +33,7 @@ manager: "anneta"
 
 -   Microsoft PowerShell 3.0 (Windows Management Framework 3.0)
 
-    -   [http://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595)
+    -   [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595)
 
 #### Start PowerShell
  Start PowerShell with Administrator permissions by running one of these commands.

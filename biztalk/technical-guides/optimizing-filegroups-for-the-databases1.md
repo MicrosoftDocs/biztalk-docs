@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Optimizing Filegroups for the Databases"
 title: "Optimize Database Filegroups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -33,7 +34,7 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
 
   Making optimal use of the files and filegroups feature in SQL Server has been shown to effectively address File IO bottlenecks and improve overall performance in BizTalk Server solutions. This optimization should only be done by an experienced SQL Server database administrator and only after all BizTalk Server databases have been properly backed up. This optimization should be performed on all SQL Server computers in the BizTalk Server environment.
 
-  SQL Server files and filegroups can be utilized to improve database performance because this functionality allows a database be created across multiple disks, multiple disk controllers, or RAID (redundant array of independent disks) systems. For example, if your computer has four disks, you can create a database that is made up of three data files and one log file, with one file on each disk. As data is accessed, four read/write heads can concurrently access the data in parallel. This speeds up database operations significantly. For more information about implementing hardware solutions for SQL Server disks, see “Database Performance” in the SQL Server Books online at [http://go.microsoft.com/fwlink/?LinkID=71419](https://go.microsoft.com/fwlink/?LinkID=71419).
+  SQL Server files and filegroups can be utilized to improve database performance because this functionality allows a database be created across multiple disks, multiple disk controllers, or RAID (redundant array of independent disks) systems. For example, if your computer has four disks, you can create a database that is made up of three data files and one log file, with one file on each disk. As data is accessed, four read/write heads can concurrently access the data in parallel. This speeds up database operations significantly. For more information about implementing hardware solutions for SQL Server disks, see “Database Performance” in the SQL Server Books online at [https://go.microsoft.com/fwlink/?LinkID=71419](https://go.microsoft.com/fwlink/?LinkID=71419).
 
   Additionally, files and filegroups enable data placement, because tables can be created in specific filegroups. This improves performance, because all file I/O for a given table can be directed at a specific disk. For example, a heavily used table can be placed on a file in a filegroup, located on one disk, and the other less heavily accessed tables in the database can be located on different files in another filegroup, located on a second disk.
 

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOAdmin2.UpdateApplication2 Method"
 title: ISSOAdmin2.UpdateApplication2 Method
 TOCTitle: ISSOAdmin2.UpdateApplication2 Method
 ms:assetid: 5ee29a8c-9f49-47ca-b299-4307c47b23cb

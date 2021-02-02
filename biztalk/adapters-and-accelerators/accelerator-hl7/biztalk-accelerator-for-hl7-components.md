@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Accelerator for HL7 Components"
 title: "BizTalk Accelerator for HL7 Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

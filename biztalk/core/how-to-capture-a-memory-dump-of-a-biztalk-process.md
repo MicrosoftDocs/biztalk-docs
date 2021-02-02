@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Capture a Memory Dump of a BizTalk Process"
 title: "How to Capture a Memory Dump of a BizTalk Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

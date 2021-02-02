@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connect to the Oracle Database Using Windows Authentication"
 title: "Connect to the Oracle Database Using Windows Authentication | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

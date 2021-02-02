@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Structural error encountered during serialization of an interchange XML message"
 title: "Structural error encountered during serialization of an interchange XML message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

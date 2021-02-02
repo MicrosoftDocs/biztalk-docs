@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MMC 3.0 Console Tree Nodes"
 title: MMC 3.0 Console Tree Nodes
 TOCTitle: MMC 3.0 Console Tree Nodes
 ms:assetid: 081d101d-9bac-4a76-a45e-cf35f37b3a4c

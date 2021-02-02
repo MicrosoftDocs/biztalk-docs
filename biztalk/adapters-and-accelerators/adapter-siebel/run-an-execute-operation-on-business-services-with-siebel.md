@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run an EXECUTE Operation on Business Services with Siebel"
 title: "Run an EXECUTE Operation on Business Services with Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

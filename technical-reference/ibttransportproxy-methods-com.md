@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportProxy Methods (COM)"
 title: IBTTransportProxy Methods (COM)
 TOCTitle: IBTTransportProxy Methods (COM)
 ms:assetid: 2d9f000c-6f70-4b93-a42f-9e3003e823ff

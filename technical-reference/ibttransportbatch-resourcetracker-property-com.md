@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportBatch.ResourceTracker Property (COM)"
 title: IBTTransportBatch.ResourceTracker Property (COM)
 TOCTitle: IBTTransportBatch.ResourceTracker Property (COM)
 ms:assetid: 1d175ff6-7582-48fe-8707-6eb59a2d61eb

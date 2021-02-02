@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Remove SSO"
 title: "How to Remove SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

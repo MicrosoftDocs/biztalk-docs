@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_AdapterSetting.Comment Property (WMI)"
 title: MSBTS_AdapterSetting.Comment Property (WMI)
 TOCTitle: MSBTS_AdapterSetting.Comment Property (WMI)
 ms:assetid: b2ffb111-cbff-4d13-8eb1-e11735dd89b8

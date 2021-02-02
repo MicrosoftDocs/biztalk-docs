@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Browse, search, and get metadata for RFC operations in SAP"
 title: "Browse, search, and get metadata for RFC operations in SAP | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

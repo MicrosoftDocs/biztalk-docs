@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OrchestrationEventStream"
 title: "OrchestrationEventStream | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Request-Response Messaging"
 title: "Request-Response Messaging | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

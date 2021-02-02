@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Use the Adapter Service Development Wizard to Create the Web Project"
 title: "Step 1: Use the Adapter Service Development Wizard to Create the Web Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

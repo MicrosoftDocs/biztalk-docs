@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Schema Categories in the Add Adapter Metadata Wizard"
 title: "Schema Categories in the Add Adapter Metadata Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

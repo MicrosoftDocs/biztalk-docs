@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Adapter FAQ: Message Flow and Mapping"
 title: "WCF Adapter FAQ: Message Flow and Mapping | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -57,7 +58,7 @@ manager: "anneta"
 
   Because the communication can sometimes be two-way, the WCF adapter allows the particular translation or mapping to be configured for both inbound and outbound directions of message exchange. This can be done for both the receive locations and send ports within BizTalk Server.
 
-  The BizTalk WCF adapters support a number of permutations of translating at run time between these two message structures. Mapping is controlled through the **Messages** tab in the **Transport Properties** dialog box for a WCF adapter. For example, the most obvious translation, and the default, is when the body of an inbound WCF message becomes the body of the BizTalk message. For more information about mapping modes, see [http://go.microsoft.com/fwlink/?LinkID=119792](https://go.microsoft.com/fwlink/?LinkID=119792).
+  The BizTalk WCF adapters support a number of permutations of translating at run time between these two message structures. Mapping is controlled through the **Messages** tab in the **Transport Properties** dialog box for a WCF adapter. For example, the most obvious translation, and the default, is when the body of an inbound WCF message becomes the body of the BizTalk message. For more information about mapping modes, see [https://go.microsoft.com/fwlink/?LinkID=119792](https://go.microsoft.com/fwlink/?LinkID=119792).
 
 ## How can you preserve the complete incoming WCF message inside the BizTalk message?
  One of the inbound BizTalk message body options is the **Envelope** option. Choosing this option takes the entire SOAP message contained within the soap:Envelope element into the incoming BizTalk message body. The resulting BizTalk message contains the Envelope tags, all the headers, and the body.
@@ -82,9 +83,9 @@ manager: "anneta"
 
  A WCF adapter expects the following message properties in the WCF messages for writing or promoting SOAP header values to the BizTalk message context:
 
--   To promote the SOAP header values to the BizTalk message context, WCF adapters are looking for the pair of key **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote** and value **List<KeyValuePair\<XmlQualifiedName, object\>>**. Using this pair, WCF adapters take the namespace, name, and value from the **XmlQualifiedName** object and use them for promoting the header values.
+-   To promote the SOAP header values to the BizTalk message context, WCF adapters are looking for the pair of key **`http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote`** and value **List<KeyValuePair\<XmlQualifiedName, object\>>**. Using this pair, WCF adapters take the namespace, name, and value from the **XmlQualifiedName** object and use them for promoting the header values.
 
--   To write, but not promote, the SOAP header values into the BizTalk message context, WCF adapters are looking for the pair of key **http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext** and value **List<KeyValuePair\<XmlQualifiedName, object\>>.** Using this pair, WCF adapters write the values to the message context.
+-   To write, but not promote, the SOAP header values into the BizTalk message context, WCF adapters are looking for the pair of key **`http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext`** and value **List<KeyValuePair\<XmlQualifiedName, object\>>.** Using this pair, WCF adapters write the values to the message context.
 
 > [!NOTE]
 >  Promoted properties must also be specified in a BizTalk property schema in order to be accepted by the BizTalk runtime.

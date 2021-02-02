@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Application Deployment and Management Scenarios"
 title: "Application Deployment and Management Scenarios | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

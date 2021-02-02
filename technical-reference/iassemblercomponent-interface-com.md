@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IAssemblerComponent Interface (COM)"
 title: IAssemblerComponent Interface (COM)
 TOCTitle: IAssemblerComponent Interface (COM)
 ms:assetid: ba134ae8-98f2-49e8-8098-277b7ddbabdd

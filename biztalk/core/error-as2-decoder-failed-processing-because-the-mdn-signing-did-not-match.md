@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The AS2 Decoder failed processing because the MDN signing did not match our request"
 title: "The AS2 Decoder failed processing because the MDN signing did not match our request | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

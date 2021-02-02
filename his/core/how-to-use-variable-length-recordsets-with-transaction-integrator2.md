@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Variable Length Recordsets with Transaction Integrator"
 title: "How to Use Variable Length Recordsets with Transaction Integrator2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Receive Shape"
 title: Receive Shape
 TOCTitle: Receive Shape
 ms:assetid: 60625f7e-6a95-4822-b302-aae2adae7252

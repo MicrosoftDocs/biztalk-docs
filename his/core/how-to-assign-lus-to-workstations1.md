@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Assign LUs to Workstations"
 title: "How to Assign LUs to Workstations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Monitoring BizTalk Server with System Center Operations Manager 2007"
 title: "Monitoring BizTalk Server with System Center Operations Manager 2007 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

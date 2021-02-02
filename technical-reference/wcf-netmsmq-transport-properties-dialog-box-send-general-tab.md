@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-NetMsmq Transport Properties Dialog Box, Send, General Tab"
 title: WCF-NetMsmq Transport Properties Dialog Box, Send, General Tab
 TOCTitle: WCF-NetMsmq Transport Properties Dialog Box, Send, General Tab
 ms:assetid: 94a307bf-9eeb-44ba-badf-6f450dde6f89

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Community Resources"
 title: "Community Resources5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/24/2016"
@@ -24,6 +25,5 @@ Plug into the BizTalk Server community to connect with other developers and admi
 |BizTalk support team blog|[https://blogs.msdn.microsoft.com/biztalkcpr/](https://blogs.msdn.microsoft.com/biztalkcpr/)|
 |BizTalk integration platform|[https://www.microsoft.com/en-us/server-cloud/products/biztalk](https://www.microsoft.com/en-us/server-cloud/products/biztalk)|
 |BizTalk forums|[https://social.msdn.microsoft.com/Forums/en-US/home?forum=biztalkgeneral](https://social.msdn.microsoft.com/Forums/en-US/home?forum=biztalkgeneral)|
-|Search the Microsoft community|Search                for BizTalk questions and discussions at [http://go.microsoft.com/fwlink/p/?LinkId=49361](https://go.microsoft.com/fwlink/p/?LinkId=49361) .|
+|Search the Microsoft community|Search                for BizTalk questions and discussions at [https://go.microsoft.com/fwlink/p/?LinkId=49361](https://go.microsoft.com/fwlink/p/?LinkId=49361) .|
 |Get started with Azure|[https://azure.microsoft.com/documentation/articles/app-service-logic-what-are-logic-apps](https://azure.microsoft.com/documentation/articles/app-service-logic-what-are-logic-apps)|
-

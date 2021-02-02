@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Copy the Migration Utility to the Master Secret Server"
 title: "Copy the Migration Utility to the Master Secret Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

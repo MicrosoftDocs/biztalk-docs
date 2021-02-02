@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDocumentSpec.GetBodyPath Method (COM)"
 title: IDocumentSpec.GetBodyPath Method (COM)
 TOCTitle: IDocumentSpec.GetBodyPath Method (COM)
 ms:assetid: 31bb56aa-2f8e-44fe-a046-8d572d32198c

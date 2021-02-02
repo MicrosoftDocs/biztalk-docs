@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Maximum Value Functoid"
 title: Maximum Value Functoid
 TOCTitle: Maximum Value Functoid
 ms:assetid: bd2e2124-0983-4021-af6e-25e8c0e6c7f0

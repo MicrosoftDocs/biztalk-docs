@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstance.Uninstall Method (WMI)"
 title: MSBTS_HostInstance.Uninstall Method (WMI)
 TOCTitle: MSBTS_HostInstance.Uninstall Method (WMI)
 ms:assetid: 0010f00a-252d-4ced-8a4c-bc315bf84e7e

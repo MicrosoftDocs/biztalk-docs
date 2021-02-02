@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Request-Open-Station"
 title: "Request-Open-Station2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

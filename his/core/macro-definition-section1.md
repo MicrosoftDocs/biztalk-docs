@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Macro Definition Section"
 title: "Macro Definition Section1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

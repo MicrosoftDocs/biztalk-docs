@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing and Running the Designer Extensibility Sample"
 title: "Installing and Running the Designer Extensibility Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

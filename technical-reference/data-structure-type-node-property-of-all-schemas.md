@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Data Structure Type (Node Property of All Schemas)"
 title: Data Structure Type (Node Property of All Schemas)
 TOCTitle: Data Structure Type (Node Property of All Schemas)
 ms:assetid: 2a581300-66c3-4bc6-906b-fd1c58dc5ab9

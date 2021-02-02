@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session Integrator Programmer&#39;s Reference"
 title: "Session Integrator Programmer&#39;s Reference2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

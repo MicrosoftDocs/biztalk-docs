@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Making a Connection"
 title: "Make a connection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

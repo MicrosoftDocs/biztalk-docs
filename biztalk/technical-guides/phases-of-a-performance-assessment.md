@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Phases of a Performance Assessment"
 title: "Phases of a Performance Assessment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

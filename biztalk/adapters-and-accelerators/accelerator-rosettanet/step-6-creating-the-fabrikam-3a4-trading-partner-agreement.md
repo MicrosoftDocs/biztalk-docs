@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 6: Creating the Fabrikam 3A4 Trading Partner Agreement"
 title: "Step 6: Creating the Fabrikam 3A4 Trading Partner Agreement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure an SMTP Send Handler"
 title: "How to Configure an SMTP Send Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/22/2015"

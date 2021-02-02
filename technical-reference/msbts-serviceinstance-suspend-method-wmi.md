@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.Suspend Method (WMI)"
 title: MSBTS_ServiceInstance.Suspend Method (WMI)
 TOCTitle: MSBTS_ServiceInstance.Suspend Method (WMI)
 ms:assetid: 1bc6894a-ac2b-47c5-8ab4-67974d46a0d4

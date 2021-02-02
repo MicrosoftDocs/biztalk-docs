@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklist: Back Up and Restore BizTalk Server Databases"
 title: "Checklist: Back Up and Restore BizTalk Server Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

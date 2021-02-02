@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Prerequisites to create Oracle Database applications"
 title: "Prerequisites to create Oracle Database applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

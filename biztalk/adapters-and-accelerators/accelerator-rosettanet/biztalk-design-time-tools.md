@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Design-Time Tools"
 title: "BizTalk Design-Time Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -59,7 +60,7 @@ Developers working on Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../i
 
   These schemas are available at \<*drive*\>:\Program Files\\Microsoft  BizTalk \<version\> Accelerator for RosettaNet\SDK\Schemas.
 
-  You can add more schemas by downloading PIPs from the RosettaNet Web site at [http://go.microsoft.com/fwlink/?linkid=33859](https://go.microsoft.com/fwlink/?linkid=33859). For more information, see [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md).
+  You can add more schemas by downloading PIPs from the RosettaNet Web site at [https://go.microsoft.com/fwlink/?linkid=33859](https://go.microsoft.com/fwlink/?linkid=33859). For more information, see [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md).
 
 ## BizTalk Mapper
  You use BizTalk Mapper to create and customize maps that define data transformations. You use BizTalk Mapper to map transformations for both inbound and outbound RosettaNet message types.

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add a Transaction"
 title: "How to Add a Transaction | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

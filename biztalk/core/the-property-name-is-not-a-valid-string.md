@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The property name is not a valid string"
 title: "The property name is not a valid string | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

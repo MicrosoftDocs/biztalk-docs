@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Schema Resolver Component (BizTalk Server Sample)"
 title: "Schema Resolver Component (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

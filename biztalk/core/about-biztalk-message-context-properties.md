@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: About BizTalk Message Context Properties"
 title: "About BizTalk Message Context Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

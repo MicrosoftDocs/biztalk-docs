@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Databases in BizTalk Server"
 title: "Databases in BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

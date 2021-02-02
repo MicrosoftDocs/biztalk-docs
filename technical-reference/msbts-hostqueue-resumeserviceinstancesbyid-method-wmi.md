@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostQueue.ResumeServiceInstancesByID Method (WMI)"
 title: MSBTS_HostQueue.ResumeServiceInstancesByID Method (WMI)
 TOCTitle: MSBTS_HostQueue.ResumeServiceInstancesByID Method (WMI)
 ms:assetid: 48cc4259-c211-4423-94b0-6bc88edd952b

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Basic Oracle Data Types"
 title: "Basic Oracle Data Types1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

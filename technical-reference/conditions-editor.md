@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Conditions Editor"
 title: Conditions Editor
 TOCTitle: Conditions Editor
 ms:assetid: 4bc3780f-7a5b-401d-93a2-38fd82aeab4d

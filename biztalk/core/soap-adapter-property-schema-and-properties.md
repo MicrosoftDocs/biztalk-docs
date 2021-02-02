@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SOAP Adapter Property Schema and Properties"
 title: "SOAP Adapter Property Schema and Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -41,7 +42,7 @@ manager: "anneta"
 # SOAP Adapter Property Schema and Properties
 The following table lists the properties in the SOAP adapter property schema.  
   
- **Namespace:** http://schemas.microsoft.com/BizTalk/2003/soap-properties  
+ **Namespace:** `http://schemas.microsoft.com/BizTalk/2003/soap-properties`  
   
 |Name|Type|Description|  
 |----------|----------|-----------------|  

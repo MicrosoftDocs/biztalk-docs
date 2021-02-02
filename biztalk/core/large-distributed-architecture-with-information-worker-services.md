@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Large Distributed Architecture with Information Worker Services"
 title: "Large Distributed Architecture with Information Worker Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

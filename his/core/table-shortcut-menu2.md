@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table Shortcut Menu"
 title: "Table Shortcut Menu2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

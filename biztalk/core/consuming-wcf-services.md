@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Consuming WCF Services"
 title: "Consuming WCF Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

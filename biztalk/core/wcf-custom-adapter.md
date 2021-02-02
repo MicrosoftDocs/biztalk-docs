@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF-Custom Adapter"
 title: "WCF-Custom Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

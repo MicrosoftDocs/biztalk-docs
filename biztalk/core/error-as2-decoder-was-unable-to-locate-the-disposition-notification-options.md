@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The AS2 Decoder was unable to locate the Disposition-Notification-Options HTTP header"
 title: "The AS2 Decoder was unable to locate the Disposition-Notification-Options HTTP header | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

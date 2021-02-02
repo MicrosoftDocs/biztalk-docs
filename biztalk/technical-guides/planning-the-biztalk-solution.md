@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Plan for your BizTalk Solution"
 title: "Planning the BizTalk Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

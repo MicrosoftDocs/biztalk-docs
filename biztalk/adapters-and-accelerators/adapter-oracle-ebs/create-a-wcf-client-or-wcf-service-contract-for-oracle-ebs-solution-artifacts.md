@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Generate a WCF client or a WCF service contract for Oracle E-Business Suite solution artifacts"
 title: "Generate a WCF client or a WCF service contract for Oracle E-Business Suite solution artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -68,4 +69,4 @@ You can use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservre
 ## Using svcutil.exe to Generate a WCF Client Class or a WCF Service Contract
  You can use svcutil.exe to generate a WCF client class or a WCF service interface for your application. You must configure svcutil.exe to use it with the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].
 
- Svcutil.exe generates the WCF client class or WCF service contract in an output file. The default file name is output.cs. You must manually include this file in your [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] project. For more information about svcutil.exe, see [http://go.microsoft.com/fwlink/?LinkId=139432](https://go.microsoft.com/fwlink/?LinkId=139432).
+ Svcutil.exe generates the WCF client class or WCF service contract in an output file. The default file name is output.cs. You must manually include this file in your [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] project. For more information about svcutil.exe, see [https://go.microsoft.com/fwlink/?LinkId=139432](https://go.microsoft.com/fwlink/?LinkId=139432).

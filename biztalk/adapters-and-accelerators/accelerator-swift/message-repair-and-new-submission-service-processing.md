@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Repair and New Submission Service Processing"
 title: "Message Repair and New Submission Service Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

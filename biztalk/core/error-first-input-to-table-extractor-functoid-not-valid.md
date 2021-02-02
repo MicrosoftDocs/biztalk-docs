@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - First Input to Table Extractor Functoid Not Valid"
 title: "Error - First Input to Table Extractor Functoid Not Valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

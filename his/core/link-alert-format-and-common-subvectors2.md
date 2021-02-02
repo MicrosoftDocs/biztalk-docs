@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Link Alert Format and Common Subvectors"
 title: "Link Alert Format and Common Subvectors2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

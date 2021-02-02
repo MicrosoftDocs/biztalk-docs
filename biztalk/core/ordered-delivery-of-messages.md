@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Ordered Delivery of Messages in BizTalk Server"
 title: "Ordered Delivery of Messages | Microsoft Docs"
 ms.custom: "biztalk-2020"
 ms.date: "12/23/2019"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TP Name Not Unique; Local LU Alias Unspecified (CPI-C)"
 title: "TP Name Not Unique; Local LU Alias Unspecified (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

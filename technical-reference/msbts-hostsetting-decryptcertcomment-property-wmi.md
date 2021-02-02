@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.DecryptCertComment Property (WMI)"
 title: MSBTS_HostSetting.DecryptCertComment Property (WMI)
 TOCTitle: MSBTS_HostSetting.DecryptCertComment Property (WMI)
 ms:assetid: 777a90ee-808b-4438-8c1c-28c5be9c1f08

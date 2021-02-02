@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.ErrorID Property (WMI)"
 title: MSBTS_ServiceInstance.ErrorID Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.ErrorID Property (WMI)
 ms:assetid: 229297d6-5486-47b5-a2d7-2f2b9c9d67ec

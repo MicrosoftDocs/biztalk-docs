@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Reporting Errors from Pipeline Components"
 title: "Reporting Errors from Pipeline Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

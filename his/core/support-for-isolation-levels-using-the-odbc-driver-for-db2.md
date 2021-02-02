@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for Isolation Levels Using the ODBC Driver for DB2"
 title: "Support for Isolation Levels Using the ODBC Driver for DB2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

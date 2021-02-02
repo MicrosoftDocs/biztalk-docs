@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FMI Status, Error, and Sense Codes"
 title: "FMI Status, Error, and Sense Codes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

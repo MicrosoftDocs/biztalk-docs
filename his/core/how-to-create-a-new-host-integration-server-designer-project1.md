@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a New Host Integration Server Designer Project"
 title: "How to Create a New Host Integration Server Designer Project1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

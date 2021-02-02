@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a 3270 Connection with a Wizard"
 title: "Creating a 3270 Connection with a Wizard1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

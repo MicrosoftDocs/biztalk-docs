@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DynamicReceive Sample (BizTalk Server Sample)"
 title: "DynamicReceive Sample (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -31,7 +32,7 @@ The DynamicReceive sample demonstrates how to receive [!INCLUDE[btsBizTalkServer
 
    -   Specify the wait interval before getting the messages by using the **MQSeries.WaitInterval** property on the message.
 
-   -   Specify match criteria for receiving messages. The match criteria options are **Message ID**, **CorrelationID**, **GroupID**, and **MessageSequenceNumber**. See "Properties Related to BizTalk Server" at [http://go.microsoft.com/fwlink/?LinkId=89396](https://go.microsoft.com/fwlink/?LinkId=89396) for more details.
+   -   Specify match criteria for receiving messages. The match criteria options are **Message ID**, **CorrelationID**, **GroupID**, and **MessageSequenceNumber**. See "Properties Related to BizTalk Server" at [https://go.microsoft.com/fwlink/?LinkId=89396](https://go.microsoft.com/fwlink/?LinkId=89396) for more details.
 
    After the message is created with these properties it is sent to the MQSeries queue by using a solicit-response send port. The port specifies the adapter to receive messages from the specified URI with the indicated match options. The following actions result:
 
@@ -106,4 +107,4 @@ The DynamicReceive sample demonstrates how to receive [!INCLUDE[btsBizTalkServer
 
 -   Because this sample uses dynamic send ports, other options may need to be specified, such as retry and transactions. Use the context properties exposed by the adapter to set these options before sending the message out to the dynamic solicit-response port.
 
--   MQSeries queues can be created and deleted dynamically by using the **MQSAdapterAdmin2** interface. For an example of how to dynamically create MQSeries queues, see "Support for Queue Management" at [http://go.microsoft.com/fwlink/?LinkId=89400](https://go.microsoft.com/fwlink/?LinkId=89400).
+-   MQSeries queues can be created and deleted dynamically by using the **MQSAdapterAdmin2** interface. For an example of how to dynamically create MQSeries queues, see "Support for Queue Management" at [https://go.microsoft.com/fwlink/?LinkId=89400](https://go.microsoft.com/fwlink/?LinkId=89400).

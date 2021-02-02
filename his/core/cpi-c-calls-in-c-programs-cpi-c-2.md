@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CPI-C Calls in C Programs (CPI-C)"
 title: "CPI-C Calls in C Programs (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XML Information Set Elements in the XML Assembler Pipeline Component"
 title: "XML Information Set Elements in the XML Assembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

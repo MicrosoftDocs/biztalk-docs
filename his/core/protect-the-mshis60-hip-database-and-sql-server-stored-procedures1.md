@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Protect the MSHIS60_HIP Database and SQL Server Stored Procedures"
 title: "Protect the MSHIS60_HIP Database and SQL Server Stored Procedures1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

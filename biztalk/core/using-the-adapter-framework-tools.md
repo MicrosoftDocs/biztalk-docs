@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using the Adapter Framework Tools"
 title: "Using the Adapter Framework Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

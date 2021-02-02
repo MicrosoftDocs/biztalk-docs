@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create BizTalk Projects"
 title: "How to Create BizTalk Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -22,7 +23,7 @@ manager: "anneta"
 # How to Create BizTalk Projects
 To create an application that runs on BizTalk Server, you start by adding one or more BizTalk projects to a solution. This section describes some of the tasks that you might perform when you work with BizTalk projects.
 
- For more information about creating solutions and projects, see "Introduction to Solutions, Projects, and Items" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection at [http://go.microsoft.com/fwlink/?LinkId=124069](https://go.microsoft.com/fwlink/?LinkId=124069).
+ For more information about creating solutions and projects, see "Introduction to Solutions, Projects, and Items" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Combined Collection at [https://go.microsoft.com/fwlink/?LinkId=124069](https://go.microsoft.com/fwlink/?LinkId=124069).
 
 ### To create a BizTalk project
 

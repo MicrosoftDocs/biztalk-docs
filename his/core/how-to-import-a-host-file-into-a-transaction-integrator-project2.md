@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Import a Host File into a Transaction Integrator Project"
 title: "How to Import a Host File into a Transaction Integrator Project2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

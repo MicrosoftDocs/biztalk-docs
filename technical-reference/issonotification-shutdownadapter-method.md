@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSONotification.ShutdownAdapter Method"
 title: ISSONotification.ShutdownAdapter Method
 TOCTitle: ISSONotification.ShutdownAdapter Method
 ms:assetid: e1326ddc-476e-421c-a06e-fb8a557f2f09

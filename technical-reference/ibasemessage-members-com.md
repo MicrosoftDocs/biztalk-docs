@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage Members (COM)"
 title: IBaseMessage Members (COM)
 TOCTitle: IBaseMessage Members (COM)
 ms:assetid: 0bf31a14-56e0-4ba1-ba55-033e34735ad5

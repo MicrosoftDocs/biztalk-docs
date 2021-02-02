@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Service Details Properties Dialog Box"
 title: Service Details Properties Dialog Box
 TOCTitle: Service Details Properties Dialog Box
 ms:assetid: 94d63299-fed9-4ae1-aae5-d830d761c00f

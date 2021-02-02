@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Affiliate Applications"
 title: Affiliate Applications
 TOCTitle: Affiliate Applications
 ms:assetid: b25dd2e9-bdce-44f4-bd82-13560265f115

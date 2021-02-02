@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SDLC Link Statistics"
 title: "SDLC Link Statistics1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Active Directory During Host Integration Server Installation"
 title: "How to Configure Active Directory During Host Integration Server Installation1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: APPC Mode Definition"
 title: "APPC Mode Definition2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

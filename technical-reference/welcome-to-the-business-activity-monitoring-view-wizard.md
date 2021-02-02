@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Welcome to the Business Activity Monitoring View Wizard"
 title: Welcome to the Business Activity Monitoring View Wizard
 TOCTitle: Welcome to the Business Activity Monitoring View Wizard
 ms:assetid: 52cc02f6-2d64-48fa-9053-4e8db1dc3148

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring a Dynamic Send Port for Messages over AS2"
 title: "Configuring a Dynamic Send Port for Messages over AS2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

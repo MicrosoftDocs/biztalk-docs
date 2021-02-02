@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting X.25 Connections"
 title: "Troubleshooting X.25 Connections2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

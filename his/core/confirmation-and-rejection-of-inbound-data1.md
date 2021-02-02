@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Confirmation and Rejection of Inbound Data"
 title: "Confirmation and Rejection of Inbound Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Response Time Monitor Data"
 title: "Response Time Monitor Data1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Install and configure HIS 2016"
 title: "Install HIS 2016 | Microsoft Docs"
 ms.custom: ""
 ms.date: 6/13/2018

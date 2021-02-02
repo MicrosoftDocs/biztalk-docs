@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for Transactions and Two-Phase Commit"
 title: "Support for Transactions and Two-Phase Commit2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Encrypt the Connection to the BRE Database"
 title: "Encrypt the BRE DB connection | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

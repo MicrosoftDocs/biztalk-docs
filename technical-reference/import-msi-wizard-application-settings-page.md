@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Import MSI Wizard, Application Settings Page"
 title: Import MSI Wizard, Application Settings Page
 TOCTitle: Import MSI Wizard, Application Settings Page
 ms:assetid: 4555894a-95d7-4d65-97a6-953c95f441dc

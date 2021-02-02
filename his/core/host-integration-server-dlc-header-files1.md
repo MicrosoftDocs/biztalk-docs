@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Integration Server DLC Header Files"
 title: "Host Integration Server DLC Header Files1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

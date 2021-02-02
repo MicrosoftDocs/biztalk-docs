@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Send the Request Message to SQL Server and Receive Response"
 title: "Step 2: Send the Request Message to SQL Server and Receive Response | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

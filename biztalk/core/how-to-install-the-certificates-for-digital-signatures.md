@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to install the Certificates for Digital Signatures"
 title: "How to install the Certificates for Digital Signatures | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

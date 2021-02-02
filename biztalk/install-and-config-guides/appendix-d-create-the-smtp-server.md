@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix D: Create the SMTP Server"
 title: "Appendix D: Create the SMTP Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -146,7 +147,7 @@ These steps apply to:
 
 
 ## Test the SMTP Server
- Telnet can be used to test the SMTP Server configuration. The following steps send a message using your configured SMTP Server to an e-mail address. [http://support.microsoft.com/kb/153119](https://support.microsoft.com/kb/153119) provides descriptions of the telnet commands.
+ Telnet can be used to test the SMTP Server configuration. The following steps send a message using your configured SMTP Server to an e-mail address. [https://support.microsoft.com/kb/153119](https://support.microsoft.com/kb/153119) provides descriptions of the telnet commands.
 
 1. Open a command window as Administrator.
 

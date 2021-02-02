@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add Iteration Functoids to a Map"
 title: "How to Add Iteration Functoids to a Map | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

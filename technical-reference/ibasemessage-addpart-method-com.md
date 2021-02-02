@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage.AddPart Method (COM)"
 title: IBaseMessage.AddPart Method (COM)
 TOCTitle: IBaseMessage.AddPart Method (COM)
 ms:assetid: a29f9147-d283-4928-9a75-297f854346ed

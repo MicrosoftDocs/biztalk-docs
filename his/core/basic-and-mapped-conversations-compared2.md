@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Basic and Mapped Conversations Compared"
 title: "Basic and Mapped Conversations Compared2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

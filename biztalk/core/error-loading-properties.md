@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error loading properties"
 title: "Error loading properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

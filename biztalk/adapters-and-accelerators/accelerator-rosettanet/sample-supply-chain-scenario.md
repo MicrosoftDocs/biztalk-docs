@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Supply Chain Scenario"
 title: "Sample Supply Chain Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

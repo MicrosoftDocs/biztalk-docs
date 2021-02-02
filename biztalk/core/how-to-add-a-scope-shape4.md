@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add a Scope Shape"
 title: "How to Add a Scope Shape4 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

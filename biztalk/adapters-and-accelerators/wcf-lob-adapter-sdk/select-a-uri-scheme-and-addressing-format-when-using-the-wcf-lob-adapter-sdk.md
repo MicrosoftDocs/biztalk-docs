@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Select a URI scheme and addressing format when using the WCF LOB Adapter SDK"
 title: "Select a URI scheme and addressing format when using the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -22,7 +23,7 @@ A Uniform Resource Identifier (URI) uniquely identifies resources like a Web ser
   
 - **Scheme name** is the lead part of the URI string and is the first level of the naming structure; examples include http, urn, and contoso.  
   
-- **Hierarchical part** consists of information that is usually hierarchical and can contain optional authority, hostname, and port information. Examples include www.microsoft.com and UserName=User@microsoft.com:4099.  
+- **Hierarchical part** consists of information that is usually hierarchical and can contain optional authority, hostname, and port information. Examples include `www.microsoft.com` and `UserName=User@microsoft.com:4099`.  
   
 - **Query** contains optional information marked with a question mark (?) and typically grouped as key/value pairs separated by an ampersand (&). For example, contoso://microsoft.com/functions?name=Find.  
   

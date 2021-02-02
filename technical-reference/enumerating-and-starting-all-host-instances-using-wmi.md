@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Enumerating and Starting All Host Instances Using WMI"
 title: Enumerating and Starting All Host Instances Using WMI
 TOCTitle: Enumerating and Starting All Host Instances Using WMI
 ms:assetid: d580d161-b282-40bc-af51-8f6d2c10a471

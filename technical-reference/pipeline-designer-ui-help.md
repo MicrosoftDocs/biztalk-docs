@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Pipeline Designer UI Help"
 title: Pipeline Designer UI Help
 TOCTitle: Pipeline Designer UI Help
 ms:assetid: aae6d7e0-5c5f-47d5-99d8-7b09c77a315a

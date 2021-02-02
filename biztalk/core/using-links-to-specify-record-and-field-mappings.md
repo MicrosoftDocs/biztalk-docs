@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Links to Specify Record and Field Mappings"
 title: "Using Links to Specify Record and Field Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

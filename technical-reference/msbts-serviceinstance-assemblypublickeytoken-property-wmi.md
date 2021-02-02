@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.AssemblyPublicKeyToken Property (WMI)"
 title: MSBTS_ServiceInstance.AssemblyPublicKeyToken Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.AssemblyPublicKeyToken Property (WMI)
 ms:assetid: e00cb2a2-d47b-480e-a290-a3717ebd4b95

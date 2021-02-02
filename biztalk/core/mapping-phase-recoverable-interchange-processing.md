@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mapping Phase (Recoverable Interchange Processing)"
 title: "Mapping Phase (Recoverable Interchange Processing) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

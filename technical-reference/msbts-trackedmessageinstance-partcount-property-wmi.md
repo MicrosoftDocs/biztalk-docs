@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_TrackedMessageInstance.PartCount Property (WMI)"
 title: MSBTS_TrackedMessageInstance.PartCount Property (WMI)
 TOCTitle: MSBTS_TrackedMessageInstance.PartCount Property (WMI)
 ms:assetid: 6dc5b591-3e28-49f2-b123-a50b79ac8cb1

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Getting Started with TI"
 title: "Getting Started with TI | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

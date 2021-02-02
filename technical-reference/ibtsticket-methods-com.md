@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTSTicket Methods (COM)"
 title: IBTSTicket Methods (COM)
 TOCTitle: IBTSTicket Methods (COM)
 ms:assetid: 861e4bb1-5f37-4223-952a-b2db961f26bd

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Edifact interchange Xml serialization failed due to invalid structure, no transactionSet or UNE"
 title: "Edifact interchange Xml serialization failed due to invalid structure, no transactionSet or UNE | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

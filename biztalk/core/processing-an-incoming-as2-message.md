@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Processing an Incoming AS2 Message"
 title: "Processing an Incoming AS2 Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ADAPTERCOUNTER"
 title: "ADAPTERCOUNTER2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

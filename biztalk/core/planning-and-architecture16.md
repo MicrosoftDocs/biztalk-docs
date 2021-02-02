@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Architecture and limitations"
 title: "Architecture and requirements for TIBCO Enterprise Message Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2017"

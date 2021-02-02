@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: File Inventory for the Service Oriented Solution"
 title: "File Inventory for the Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

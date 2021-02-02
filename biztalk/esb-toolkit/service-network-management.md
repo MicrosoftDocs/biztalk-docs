@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Service Network Management"
 title: "Service Network Management | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

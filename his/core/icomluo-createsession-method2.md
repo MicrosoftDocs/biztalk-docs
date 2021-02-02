@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IcomLUO.CreateSession Method"
 title: "IcomLUO.CreateSession Method2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

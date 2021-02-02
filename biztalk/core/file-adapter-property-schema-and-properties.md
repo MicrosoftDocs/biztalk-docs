@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: File adapter property schema and properties"
 title: "File adapter property schema and properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -30,7 +31,7 @@ manager: "anneta"
 # File adapter property schema and properties
 The following table contains the properties in the File adapter property schema.  
   
- **Namespace:** http://schemas.microsoft.com/BizTalk/2003/file-properties  
+ **Namespace:** `http://schemas.microsoft.com/BizTalk/2003/file-properties`
   
 |Name|Type|Description|  
 |----------|----------|-----------------|  

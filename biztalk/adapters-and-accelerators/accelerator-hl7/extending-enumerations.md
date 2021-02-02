@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extending Enumerations"
 title: "Extending Enumerations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

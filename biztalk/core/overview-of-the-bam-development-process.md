@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Overview of the BAM Development Process"
 title: "Overview of the BAM Development Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -44,7 +45,7 @@ This topic describes the development process and the database and tables that st
 1.  Create an observation model with the BAM Add-in for Excel.
 
     > [!NOTE]
-    >  Examples of the steps noted in this procedure can be found in the BAM API (BizTalk Server sample) at [http://go.microsoft.com/fwlink/?LinkId=69968](https://go.microsoft.com/fwlink/?LinkId=69968).
+    >  Examples of the steps noted in this procedure can be found in the BAM API (BizTalk Server sample) at [https://go.microsoft.com/fwlink/?LinkId=69968](https://go.microsoft.com/fwlink/?LinkId=69968).
 
 2.  Use the BAM Management utility to deploy the activity to the PID.
 

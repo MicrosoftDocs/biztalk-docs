@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Background Information for Sample Scenarios"
 title: "Background Information for Sample Scenarios | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

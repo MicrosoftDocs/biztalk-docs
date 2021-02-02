@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Siebel Adapter Tutorials"
 title: "Siebel Adapter Tutorials | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

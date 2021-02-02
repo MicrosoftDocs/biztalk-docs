@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining a Variable-length Table with the OCCURS DEPENDING Clause"
 title: "Defining a Variable-length Table with the OCCURS DEPENDING Clause | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

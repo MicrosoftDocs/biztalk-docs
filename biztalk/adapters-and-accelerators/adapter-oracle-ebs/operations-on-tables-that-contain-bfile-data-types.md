@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on Tables That Contain BFILE Data Types"
 title: "Operations on Tables That Contain BFILE Data Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

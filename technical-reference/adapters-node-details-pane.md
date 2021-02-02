@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Adapters Node, Details Pane"
 title: Adapters Node, Details Pane
 TOCTitle: Adapters Node, Details Pane
 ms:assetid: 5b0e48bc-b205-4a36-9dea-0285062fdce2

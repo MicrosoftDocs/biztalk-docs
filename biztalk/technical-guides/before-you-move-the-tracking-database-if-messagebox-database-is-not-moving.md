@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations When Moving the Tracking Database if the MessageBox Database Is Not Being Moved"
 title: "Considerations When Moving the Tracking Database if the MessageBox Database Is Not Being Moved | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

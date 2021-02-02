@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extract_Partner_LU_Name (CPI-C)"
 title: "Extract_Partner_LU_Name (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

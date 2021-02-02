@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Cleanup Global DataTypes Dialog Box"
 title: Cleanup Global DataTypes Dialog Box
 TOCTitle: Cleanup Global DataTypes Dialog Box
 ms:assetid: a26940dd-007a-4569-9aa0-54b9f070cf7e

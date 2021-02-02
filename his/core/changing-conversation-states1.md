@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Changing Conversation States"
 title: "Changing Conversation States1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

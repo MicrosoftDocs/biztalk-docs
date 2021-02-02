@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Run TI over SNA (APPC/LU 6.2)"
 title: "How to Run TI over SNA (APPC-LU 6.2)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

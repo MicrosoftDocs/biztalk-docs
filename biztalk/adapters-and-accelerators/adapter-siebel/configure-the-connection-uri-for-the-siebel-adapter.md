@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure the connection URI for the Siebel adapter"
 title: "Configure the connection URI for the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unconfiguration of Features"
 title: "Unconfigure Features | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

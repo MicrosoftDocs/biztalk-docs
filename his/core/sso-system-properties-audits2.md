@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SSO System Properties: Audits"
 title: "SSO System Properties: Audits2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

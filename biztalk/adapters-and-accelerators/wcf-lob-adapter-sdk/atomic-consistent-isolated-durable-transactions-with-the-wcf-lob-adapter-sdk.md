@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure atomic, consistent, isolated, and durable transactions using the WCF LOB Adapter SDK"
 title: "Configure atomic, consistent, isolated, and durable transactions using the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

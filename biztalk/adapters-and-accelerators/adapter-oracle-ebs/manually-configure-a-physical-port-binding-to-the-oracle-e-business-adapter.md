@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Manually configure a physical port binding to the Oracle E-Business adapter"
 title: "Manually configure a physical port binding to the Oracle E-Business adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -26,7 +27,7 @@ This section provides information about configuring the [!INCLUDE[adapteroraclee
   |Send-receive|Request-response|I will be sending a request and receiving a response.|
   |Receive-send|Solicit-response|I will be receiving a request and sending a response.|
 
-   For more information, see the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Help documentation at [http://go.microsoft.com/fwlink/?LinkID=101130](https://go.microsoft.com/fwlink/?LinkID=101130).
+   For more information, see the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Help documentation at [https://go.microsoft.com/fwlink/?LinkID=101130](https://go.microsoft.com/fwlink/?LinkID=101130).
 
 - Whether the adapter sends messages to or receives messages from Oracle E-Business Suite. Depending on whether you want to send or receive messages, you will create a send or receive port, respectively.
 

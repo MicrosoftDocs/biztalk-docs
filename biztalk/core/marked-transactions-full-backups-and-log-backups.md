@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Marked Transactions, Full Backups, and Log Backups"
 title: "Marked Transactions, Full Backups, and Log Backups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

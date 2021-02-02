@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Index Functoid Reference"
 title: Index Functoid Reference
 TOCTitle: Index Functoid Reference
 ms:assetid: 06cf4c6b-c5d9-4524-ab7b-3a5c47360095

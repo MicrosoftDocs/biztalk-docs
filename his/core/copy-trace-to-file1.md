@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COPY_TRACE_TO_FILE"
 title: "COPY_TRACE_TO_FILE1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

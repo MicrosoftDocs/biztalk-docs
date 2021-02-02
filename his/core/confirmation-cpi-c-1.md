@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Confirmation (CPI-C)"
 title: "Confirmation (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Architecture: Base BizTalk Server"
 title: "Sample Architecture: Base BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -51,7 +52,7 @@ This topic discusses the base sample architecture. It describes the components i
 -   **SQL Server.** This server contains the BizTalk databases.
 
     > [!IMPORTANT]
-    >  For failover protection, we recommend that you cluster each BizTalk database. For more information about Microsoft SQL Server failover clustering, see the Microsoft MSDN Web site at [http://go.microsoft.com/fwlink/?LinkID=190216](https://go.microsoft.com/fwlink/?LinkID=190216).
+    >  For failover protection, we recommend that you cluster each BizTalk database. For more information about Microsoft SQL Server failover clustering, see the Microsoft MSDN Web site at [https://go.microsoft.com/fwlink/?LinkID=190216](https://go.microsoft.com/fwlink/?LinkID=190216).
 
     > [!NOTE]
     >  Depending on your performance needs, you might have to separate the BizTalk databases into multiple computers that run SQL Server.
@@ -61,7 +62,7 @@ This topic discusses the base sample architecture. It describes the components i
 -   **Administration tools.** One of the servers in this domain hosts the administration tools: BizTalk Administration console and Enterprise Single Sign-On (SSO) administration utility.
 
 ## Firewalls and Domains
- In Figure 1, Forefront Threat Management Gateway (TMG) 2010 server acts as a software firewall to help protect and contain each of these domains. Additionally, the E-Business domain has its own domain controller, and this domain does not trust any other domain. For more information about how to configure a firewall for domains and trusts, see the Microsoft Help and Support Web site at [http://go.microsoft.com/fwlink/?LinkId=25230](https://go.microsoft.com/fwlink/?LinkId=25230).
+ In Figure 1, Forefront Threat Management Gateway (TMG) 2010 server acts as a software firewall to help protect and contain each of these domains. Additionally, the E-Business domain has its own domain controller, and this domain does not trust any other domain. For more information about how to configure a firewall for domains and trusts, see the Microsoft Help and Support Web site at [https://go.microsoft.com/fwlink/?LinkId=25230](https://go.microsoft.com/fwlink/?LinkId=25230).
 
  The sample architecture has two firewalls:
 

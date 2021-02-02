@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Considerations for BAM Code Maintenance"
 title: "Considerations for BAM Code Maintenance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

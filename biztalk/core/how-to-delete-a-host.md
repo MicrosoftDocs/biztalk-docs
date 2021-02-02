@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Delete a Host"
 title: "Delete a Host | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tag Handling in Positional Records"
 title: "Tag Handling in Positional Records | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

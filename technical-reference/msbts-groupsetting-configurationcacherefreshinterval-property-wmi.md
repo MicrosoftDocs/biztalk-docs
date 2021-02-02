@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.ConfigurationCacheRefreshInterval Property (WMI)"
 title: MSBTS_GroupSetting.ConfigurationCacheRefreshInterval Property (WMI)
 TOCTitle: MSBTS_GroupSetting.ConfigurationCacheRefreshInterval Property (WMI)
 ms:assetid: e51e7730-3fa6-4d9c-b268-d54372fda962

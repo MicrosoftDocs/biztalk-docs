@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a New Pipeline"
 title: "How to Create a New Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

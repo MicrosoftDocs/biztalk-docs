@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Resolver Manager (ResolverMgr) Class"
 title: "The Resolver Manager (ResolverMgr) Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

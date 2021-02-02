@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Positional Length (Node Property of Flat File Schemas)"
 title: Positional Length (Node Property of Flat File Schemas)
 TOCTitle: Positional Length (Node Property of Flat File Schemas)
 ms:assetid: 8b3131d4-b8b1-4501-ae94-52de93561bac

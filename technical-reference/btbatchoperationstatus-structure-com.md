@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: _BTBatchOperationStatus Structure (COM)"
 title: _BTBatchOperationStatus Structure (COM)
 TOCTitle: _BTBatchOperationStatus Structure (COM)
 ms:assetid: b06050cb-11a2-43f3-8f98-227a85ab12cd

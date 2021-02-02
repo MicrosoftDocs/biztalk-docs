@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TCP Transaction Request Message Link"
 title: "TCP Transaction Request Message Link2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

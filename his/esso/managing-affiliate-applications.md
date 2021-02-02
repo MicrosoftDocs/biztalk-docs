@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Managing Affiliate Applications"
 title: "Managing Affiliate Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

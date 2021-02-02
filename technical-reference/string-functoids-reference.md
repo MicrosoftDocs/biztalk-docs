@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: String Functoids Reference"
 title: String Functoids Reference
 TOCTitle: String Functoids Reference
 ms:assetid: dfaf1813-21bf-4000-9010-845788c9cb45

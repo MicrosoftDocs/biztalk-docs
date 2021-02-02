@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOWrapper.ReceiveNotification Method"
 title: ISSOWrapper.ReceiveNotification Method
 TOCTitle: ISSOWrapper.ReceiveNotification Method
 ms:assetid: e21e9fba-7114-49ff-a127-cac04991c8ef

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: File Transport Properties Dialog Box, Receive, General Tab"
 title: File Transport Properties Dialog Box, Receive, General Tab
 TOCTitle: File Transport Properties Dialog Box, Receive, General Tab
 ms:assetid: cd3061d7-9ef7-4a26-8809-fe394f97f064

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create and Modify an Adapter Group"
 title: "How to Create and Modify an Adapter Group | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigOM Methods"
 title: ISSOConfigOM Methods
 TOCTitle: ISSOConfigOM Methods
 ms:assetid: db009ede-cb0c-4992-9911-6f3da4f6a2da

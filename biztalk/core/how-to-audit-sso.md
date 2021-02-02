@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Audit SSO"
 title: "How to Audit SSO | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

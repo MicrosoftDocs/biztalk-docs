@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using a Pipeline Component to Cache an Itinerary for Solicit-Response"
 title: "Using a Pipeline Component to Cache an Itinerary for Solicit-Response | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

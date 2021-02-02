@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Promote Properties Dialog Box"
 title: Promote Properties Dialog Box
 TOCTitle: Promote Properties Dialog Box
 ms:assetid: 569f7acf-2c96-4f1e-a7a1-ccf1c893084c

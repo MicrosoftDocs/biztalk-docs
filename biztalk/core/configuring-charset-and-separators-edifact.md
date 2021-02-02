@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Charset and Separators (EDIFACT)"
 title: "Configuring Charset and Separators (EDIFACT) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

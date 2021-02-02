@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.SignCertComment Property (WMI)"
 title: MSBTS_GroupSetting.SignCertComment Property (WMI)
 TOCTitle: MSBTS_GroupSetting.SignCertComment Property (WMI)
 ms:assetid: decc4f66-c954-4687-8c34-6b81d00e4c84

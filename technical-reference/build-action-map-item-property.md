@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Build Action (Map Item Property)"
 title: Build Action (Map Item Property)
 TOCTitle: Build Action (Map Item Property)
 ms:assetid: 1769ec8e-b7b8-40e3-902f-e78f9ea89f42

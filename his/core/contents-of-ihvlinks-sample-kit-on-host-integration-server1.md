@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Contents of IHVLinks Sample Kit on Host Integration Server"
 title: "Contents of IHVLinks Sample Kit on Host Integration Server1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

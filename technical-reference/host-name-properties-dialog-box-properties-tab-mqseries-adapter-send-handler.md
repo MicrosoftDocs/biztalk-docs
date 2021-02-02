@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, Properties Tab (MQSeries Adapter Send Handler)"
 title: <Host Name> Properties Dialog Box, Properties Tab (MQSeries Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Properties Tab (MQSeries Adapter Send Handler)
 ms:assetid: 426d2b81-40d5-4029-8ba3-56d9816d25f8

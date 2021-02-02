@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA Common Return Codes"
 title: "LUA Common Return Codes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

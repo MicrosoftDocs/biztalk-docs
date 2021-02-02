@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Method Calls per Second"
 title: "Method Calls per Second2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using the Exception Management Framework"
 title: "Using the Exception Management Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

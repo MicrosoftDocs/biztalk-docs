@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Number of included transaction sets do not match"
 title: "Number of included transaction sets do not match | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

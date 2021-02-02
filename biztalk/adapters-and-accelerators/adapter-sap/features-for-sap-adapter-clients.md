@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Features for SAP adapter clients"
 title: "Features for SAP adapter clients | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

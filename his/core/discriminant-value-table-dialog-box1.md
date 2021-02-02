@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Discriminant Value Table Dialog Box"
 title: "Discriminant Value Table Dialog Box1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

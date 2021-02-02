@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Secure your SQL applications"
 title: "Secure your SQL applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

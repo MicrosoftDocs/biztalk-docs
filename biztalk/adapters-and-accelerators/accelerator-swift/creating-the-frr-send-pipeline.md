@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating the FRR Send Pipeline"
 title: "Creating the FRR Send Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

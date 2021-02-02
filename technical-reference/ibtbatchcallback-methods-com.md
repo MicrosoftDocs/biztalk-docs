@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTBatchCallBack Methods (COM)"
 title: IBTBatchCallBack Methods (COM)
 TOCTitle: IBTBatchCallBack Methods (COM)
 ms:assetid: e191e25d-93ec-4286-9440-9f03e76dfc65

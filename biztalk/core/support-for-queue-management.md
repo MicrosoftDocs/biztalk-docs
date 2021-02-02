@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for Queue Management"
 title: "Support for Queue Management | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

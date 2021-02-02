@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Buffer Header Format (SNADIS)"
 title: "Buffer Header Format (SNADIS)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

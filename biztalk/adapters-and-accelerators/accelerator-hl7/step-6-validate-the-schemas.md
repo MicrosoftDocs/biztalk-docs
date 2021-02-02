@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 6: Validate the Schemas"
 title: "Step 6: Validate the Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

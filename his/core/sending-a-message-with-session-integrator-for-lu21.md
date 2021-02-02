@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sending a Message with Session Integrator for LU2"
 title: "Sending a Message with Session Integrator for LU2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Develop Siebel Applications Using the WCF Channel Model3"
 title: "Develop Siebel Applications Using the WCF Channel Model3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

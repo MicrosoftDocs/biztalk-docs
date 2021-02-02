@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Happens When You Deploy an Assembly from Visual Studio"
 title: "What Happens When You Deploy an Assembly from Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

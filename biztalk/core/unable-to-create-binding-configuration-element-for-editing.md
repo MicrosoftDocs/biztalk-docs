@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unable to create binding configuration element for editing"
 title: "Unable to create binding configuration element for editing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

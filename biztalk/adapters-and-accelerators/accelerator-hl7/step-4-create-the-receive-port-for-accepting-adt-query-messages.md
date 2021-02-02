@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 4: Create the Receive Port for Accepting ADT Query Messages"
 title: "Step 4: Create the Receive Port for Accepting ADT Query Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

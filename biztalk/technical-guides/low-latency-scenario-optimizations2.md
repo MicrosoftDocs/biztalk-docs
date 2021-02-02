@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Low-Latency Scenario Optimizations"
 title: "Low-Latency Scenario Optimizations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

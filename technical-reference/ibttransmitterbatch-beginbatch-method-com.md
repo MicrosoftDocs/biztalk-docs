@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitterBatch.BeginBatch Method (COM)"
 title: IBTTransmitterBatch.BeginBatch Method (COM)
 TOCTitle: IBTTransmitterBatch.BeginBatch Method (COM)
 ms:assetid: 84cdad96-142d-40ea-b640-b310dd31dab8

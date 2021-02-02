@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 2: Adding Project References"
 title: "Lesson 2: Adding Project References | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

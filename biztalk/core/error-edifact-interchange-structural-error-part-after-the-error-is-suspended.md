@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The interchange had structural error. The part after the error is being suspended"
 title: "The interchange had structural error. The part after the error is being suspended | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

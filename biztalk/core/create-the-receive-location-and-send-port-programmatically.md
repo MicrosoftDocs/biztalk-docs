@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create the receive location and send port programmatically"
 title: "Create the receive location and send port programmatically | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

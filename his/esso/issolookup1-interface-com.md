@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOLookup1 Interface (COM)"
 title: "ISSOLookup1 Interface (COM) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorials and walkthroughs for EDI, AS2, and EDIFACT"
 title: "Tutorials and walkthroughs for EDI, AS2, and EDIFACT | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

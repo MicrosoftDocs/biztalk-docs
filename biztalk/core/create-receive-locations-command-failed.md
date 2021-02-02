@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create receive locations command failed"
 title: "Create receive locations command failed | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

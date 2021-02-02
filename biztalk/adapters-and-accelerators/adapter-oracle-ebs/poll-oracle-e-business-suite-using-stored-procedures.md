@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Poll Oracle E-Business Suite using stored procedures"
 title: "Poll Oracle E-Business Suite using stored procedures | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

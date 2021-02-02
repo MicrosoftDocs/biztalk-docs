@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Error"
 title: Error
 TOCTitle: Error
 ms:assetid: f1807ac8-cfb2-49eb-bf9d-876066294071

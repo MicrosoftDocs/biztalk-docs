@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSnaStatus_PrintSession.PA1Key Method"
 title: "MsSnaStatus_PrintSession.PA1Key Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

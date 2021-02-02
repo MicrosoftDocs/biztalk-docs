@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating an Object"
 title: "Creating an Object2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

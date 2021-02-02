@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host Integration Server Enhancements to the Windows Environment"
 title: "Host Integration Server Enhancements to the Windows Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

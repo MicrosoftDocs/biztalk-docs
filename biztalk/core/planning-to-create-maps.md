@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning to Create Maps"
 title: "Planning to Create Maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

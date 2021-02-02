@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Status-Control(...) Negative-Acknowledge-1"
 title: "Status-Control(...) Negative-Acknowledge-11 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

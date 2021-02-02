@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Programming Considerations"
 title: "Programming Considerations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

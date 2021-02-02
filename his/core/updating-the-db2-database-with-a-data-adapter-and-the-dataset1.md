@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Updating the DB2 Database with a Data Adapter and the Dataset"
 title: "Updating the DB2 Database with a Data Adapter and the Dataset1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

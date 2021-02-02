@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MSH Map Tab"
 title: "MSH Map Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

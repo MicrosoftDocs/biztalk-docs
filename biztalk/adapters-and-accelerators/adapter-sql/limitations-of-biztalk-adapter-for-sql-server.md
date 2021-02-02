@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Limitations of BizTalk Adapter for SQL Server"
 title: "Limitations of BizTalk Adapter for SQL Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -17,7 +18,7 @@ manager: "anneta"
 # Limitations of BizTalk Adapter for SQL Server
 The following are known limitations for [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]:
 
-- The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] does not support synonyms created in the SQL Server database. For information about synonyms in SQL Server, see [http://go.microsoft.com/fwlink/?LinkId=120111](https://go.microsoft.com/fwlink/?LinkId=120111).
+- The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] does not support synonyms created in the SQL Server database. For information about synonyms in SQL Server, see [https://go.microsoft.com/fwlink/?LinkId=120111](https://go.microsoft.com/fwlink/?LinkId=120111).
 
 - If you change the system time of the computer running the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] host, the time is not updated automatically in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] host. This could lead to incorrect behavior of the inbound operations that use the receive port of [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. As a workaround, you must restart the host instance that has a receive port after you have changed the system time of the computer running it.
 

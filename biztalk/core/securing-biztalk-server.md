@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Securing BizTalk Server"
 title: "Securing BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

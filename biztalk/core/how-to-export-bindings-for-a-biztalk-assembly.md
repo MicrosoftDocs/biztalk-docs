@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Export Bindings for a BizTalk Assembly"
 title: "How to Export Bindings for a BizTalk Assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

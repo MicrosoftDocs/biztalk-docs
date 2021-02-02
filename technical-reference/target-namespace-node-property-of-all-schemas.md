@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Target Namespace (Node Property of All Schemas)"
 title: Target Namespace (Node Property of All Schemas)
 TOCTitle: Target Namespace (Node Property of All Schemas)
 ms:assetid: 6067d3a3-f8f4-4ba4-b6c3-175755b90d67

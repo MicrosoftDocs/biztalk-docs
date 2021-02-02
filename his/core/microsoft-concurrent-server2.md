@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Microsoft Concurrent Server"
 title: "Microsoft Concurrent Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext.GetMessageFactory Method (COM)"
 title: IPipelineContext.GetMessageFactory Method (COM)
 TOCTitle: IPipelineContext.GetMessageFactory Method (COM)
 ms:assetid: 80eb1e7d-6f3e-475d-8d68-d3cbec03cd21

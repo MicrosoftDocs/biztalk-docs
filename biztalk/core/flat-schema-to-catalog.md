@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Flat Schema to Catalog"
 title: "Flat Schema to Catalog | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

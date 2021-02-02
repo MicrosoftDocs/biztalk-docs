@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Execute stored procedures in SQL Server using BizTalk Server"
 title: "Execute stored procedures in SQL Server using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

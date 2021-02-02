@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Pipeline Properties Dialog Box"
 title: Pipeline Properties Dialog Box
 TOCTitle: Pipeline Properties Dialog Box
 ms:assetid: 595e8ade-ce12-4bbb-b9b0-ebeea7bb14a6

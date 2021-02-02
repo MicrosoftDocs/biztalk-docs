@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Designing and Coding TPs (CPI-C)"
 title: "Designing and Coding TPs (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Value Extractor Functoid"
 title: Value Extractor Functoid
 TOCTitle: Value Extractor Functoid
 ms:assetid: 45a9a968-b100-4812-884a-f18879afc9c7

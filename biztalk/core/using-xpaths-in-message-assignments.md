@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using XPaths in Message Assignments"
 title: "Using XPaths in Message Assignments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

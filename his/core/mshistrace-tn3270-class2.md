@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsHisTrace_TN3270 Class"
 title: "MsHisTrace_TN3270 Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

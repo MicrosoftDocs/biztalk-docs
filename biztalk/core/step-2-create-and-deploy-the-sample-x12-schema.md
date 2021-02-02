@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Create and Deploy the Sample X12 Schema"
 title: "Step 2: Create and Deploy the Sample X12 Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

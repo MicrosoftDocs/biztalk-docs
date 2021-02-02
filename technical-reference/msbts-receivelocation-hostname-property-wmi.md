@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.HostName Property (WMI)"
 title: MSBTS_ReceiveLocation.HostName Property (WMI)
 TOCTitle: MSBTS_ReceiveLocation.HostName Property (WMI)
 ms:assetid: ab183931-c3d0-4e43-ad51-a2b6db56510e

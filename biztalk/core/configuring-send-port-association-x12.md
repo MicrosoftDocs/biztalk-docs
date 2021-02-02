@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Send Port Association (X12)"
 title: "Configuring Send Port Association (X12) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

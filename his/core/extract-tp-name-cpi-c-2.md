@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extract_TP_Name (CPI-C)"
 title: "Extract_TP_Name (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

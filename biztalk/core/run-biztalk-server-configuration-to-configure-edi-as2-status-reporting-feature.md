@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: To enable status reporting, run &#39;BizTalk Server Configuration&#39; and configure EDI-AS2 status reporting feature"
 title: "To enable status reporting, run &#39;BizTalk Server Configuration&#39; and configure EDI-AS2 status reporting feature | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

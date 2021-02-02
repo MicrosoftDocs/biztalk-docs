@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Log a Local User on to a Non-Windows Application"
 title: "How to Log a Local User on to a Non-Windows Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

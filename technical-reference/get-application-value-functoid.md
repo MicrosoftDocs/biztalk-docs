@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Get Application Value Functoid"
 title: Get Application Value Functoid
 TOCTitle: Get Application Value Functoid
 ms:assetid: af38c0b4-113e-49ee-9795-bf3f18a8aa96

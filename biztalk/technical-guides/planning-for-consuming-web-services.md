@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for Consuming Web Services"
 title: "Planning for Consuming Web Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

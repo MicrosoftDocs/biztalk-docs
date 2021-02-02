@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AS2 Receive Components"
 title: "AS2 Receive Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -116,7 +117,7 @@ manager: "anneta"
 -   Archives marked records.
 
 > [!IMPORTANT]
->  To ensure authentication and integrity of messages stored in the non-repudiation receipt database, digital signatures should be used on all messages that will be stored in the database, both original AS2 messages and MDNs. For more information, see section 9.1 of [RFC 1430, "MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP, Applicability Statement 2 (AS2)"](https://go.microsoft.com/fwlink/?LinkID=184212) ([http://go.microsoft.com/fwlink/?LinkID=184212](https://go.microsoft.com/fwlink/?LinkID=184212)).
+>  To ensure authentication and integrity of messages stored in the non-repudiation receipt database, digital signatures should be used on all messages that will be stored in the database, both original AS2 messages and MDNs. For more information, see section 9.1 of [RFC 1430, "MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP, Applicability Statement 2 (AS2)"](https://go.microsoft.com/fwlink/?LinkID=184212) ([https://go.microsoft.com/fwlink/?LinkID=184212](https://go.microsoft.com/fwlink/?LinkID=184212)).
 
 ## See Also
  [How BizTalk Server Receives AS2 Messages](../core/how-biztalk-server-receives-as2-messages.md)

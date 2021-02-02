@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOPSWrapper Members"
 title: ISSOPSWrapper Members
 TOCTitle: ISSOPSWrapper Members
 ms:assetid: 39214490-7930-4754-a1bc-8c63cc26a32b

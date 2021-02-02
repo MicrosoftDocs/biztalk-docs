@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Label a Link"
 title: "How to Label a Link | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

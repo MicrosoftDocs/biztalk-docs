@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Secure and protect your BizTalk messages"
 title: "Secure and protect your BizTalk messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

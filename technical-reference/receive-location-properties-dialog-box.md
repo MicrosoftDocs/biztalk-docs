@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Receive Location Properties Dialog Box"
 title: Receive Location Properties Dialog Box
 TOCTitle: Receive Location Properties Dialog Box
 ms:assetid: a51afe52-a9a5-40c0-b3ca-51abdf6d7a3f

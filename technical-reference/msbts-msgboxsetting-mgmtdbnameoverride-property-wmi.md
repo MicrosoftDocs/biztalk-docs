@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MsgBoxSetting.MgmtDbNameOverride Property (WMI)"
 title: MSBTS_MsgBoxSetting.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_MsgBoxSetting.MgmtDbNameOverride Property (WMI)
 ms:assetid: 0fa086a5-f85d-4acc-98d9-2bbd7723fac7

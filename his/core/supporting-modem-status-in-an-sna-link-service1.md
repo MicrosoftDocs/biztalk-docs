@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Supporting Modem Status in an SNA Link Service"
 title: "Supporting Modem Status in an SNA Link Service1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

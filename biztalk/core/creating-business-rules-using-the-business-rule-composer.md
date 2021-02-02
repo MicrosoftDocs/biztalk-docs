@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create Business Rules Using the Business Rule Composer"
 title: "Create Rules Using the Business Rule Composer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/01/2018"

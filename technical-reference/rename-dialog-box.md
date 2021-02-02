@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Rename Dialog Box"
 title: Rename Dialog Box
 TOCTitle: Rename Dialog Box
 ms:assetid: 23ab2152-1826-424d-8076-9a332e568e02

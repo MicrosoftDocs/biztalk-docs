@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: fAddRegistryEntry"
 title: "fAddRegistryEntry2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

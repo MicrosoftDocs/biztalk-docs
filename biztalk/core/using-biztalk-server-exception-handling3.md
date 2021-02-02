@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use BizTalk Server Exception Handling"
 title: "Using BizTalk Server Exception Handling3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

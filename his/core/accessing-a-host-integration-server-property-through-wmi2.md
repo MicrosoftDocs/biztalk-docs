@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Accessing a Host Integration Server Property through WMI"
 title: "Accessing a Host Integration Server Property through WMI2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

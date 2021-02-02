@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: HIS Migration Tool"
 title: "HIS Migration Tool | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

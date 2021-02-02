@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Backing Up and Restoring BAM"
 title: "Backing Up and Restoring BAM | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

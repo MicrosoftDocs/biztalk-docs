@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-WSHttp Transport Properties Dialog Box, Send, Proxy Tab"
 title: WCF-WSHttp Transport Properties Dialog Box, Send, Proxy Tab
 TOCTitle: WCF-WSHttp Transport Properties Dialog Box, Send, Proxy Tab
 ms:assetid: 40f2ae93-add8-4963-8aa1-f798b829d026

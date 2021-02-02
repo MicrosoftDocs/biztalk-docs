@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Open(PLU) Error Response"
 title: "Open(PLU) Error Response2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

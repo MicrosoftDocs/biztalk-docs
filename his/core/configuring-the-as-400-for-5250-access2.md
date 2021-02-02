@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring the AS/400 for 5250 Access"
 title: "Configuring the AS-400 for 5250 Access2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

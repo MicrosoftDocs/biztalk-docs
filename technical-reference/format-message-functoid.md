@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Format Message Functoid"
 title: Format Message Functoid
 TOCTitle: Format Message Functoid
 ms:assetid: 477cc8b5-fe76-4b82-baee-fbc5fda1f1d5

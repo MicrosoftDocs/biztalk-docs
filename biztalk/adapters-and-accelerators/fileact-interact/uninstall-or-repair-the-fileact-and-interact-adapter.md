@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Uninstall or repair the FileAct and InterAct adapter"
 title: "Uninstall or repair the FileAct and InterAct adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

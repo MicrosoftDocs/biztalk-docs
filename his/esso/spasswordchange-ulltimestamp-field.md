@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SPasswordChange.ullTimeStamp Field"
 title: "SPasswordChange.ullTimeStamp Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

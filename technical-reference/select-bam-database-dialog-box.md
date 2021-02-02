@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Select BAM Database Dialog Box"
 title: Select BAM Database Dialog Box
 TOCTitle: Select BAM Database Dialog Box
 ms:assetid: 15fb0ace-3890-49dd-a8ef-889b0a6f160a

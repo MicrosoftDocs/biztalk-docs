@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unsupported binding type"
 title: "Unsupported binding type | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

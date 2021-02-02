@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext.GetDocumentSpecByType Method (COM)"
 title: IPipelineContext.GetDocumentSpecByType Method (COM)
 TOCTitle: IPipelineContext.GetDocumentSpecByType Method (COM)
 ms:assetid: 34d689c9-6dd7-48c0-a41d-a63730fc0e1c

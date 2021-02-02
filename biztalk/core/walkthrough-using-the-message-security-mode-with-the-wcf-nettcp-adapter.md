@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Using the Message Security Mode with the WCF-NetTcp Adapter"
 title: "Walkthrough: Using the Message Security Mode with the WCF-NetTcp Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -44,13 +45,13 @@ manager: "anneta"
 
 - On the computers that you use to perform administrative tasks, you must run as a user account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group to configure the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application settings within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. This user account must also be a member of the local Administrators group for application deployment, managing host instances, and other tasks that may be required.
 
-- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [http://go.microsoft.com/fwlink/?LinkId=135510](https://go.microsoft.com/fwlink/?LinkId=135510).
+- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [https://go.microsoft.com/fwlink/?LinkId=135510](https://go.microsoft.com/fwlink/?LinkId=135510).
 
 - On the computer that runs the sample and imports a binding or an .msi file into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ensure the host is not a trusted host or the import will fail.
 
 - On the computer that runs the sample ensure that Active Directory Certificate Services is installed.
 
-- You must download the walkthrough code and extract it to your computer.  This walkthrough is a part of the entire [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapter Walkthrough package. You can download the file **WCFAdapterWalkthroughs.exe** from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Developer Center at [http://go.microsoft.com/fwlink/?LinkId=194140](https://go.microsoft.com/fwlink/?LinkId=194140).
+- You must download the walkthrough code and extract it to your computer.  This walkthrough is a part of the entire [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapter Walkthrough package. You can download the file **WCFAdapterWalkthroughs.exe** from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Developer Center at [https://go.microsoft.com/fwlink/?LinkId=194140](https://go.microsoft.com/fwlink/?LinkId=194140).
 
 ## Create the certificates for this walkthrough
 

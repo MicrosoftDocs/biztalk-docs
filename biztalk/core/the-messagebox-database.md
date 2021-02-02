@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The MessageBox Database"
 title: "The MessageBox Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

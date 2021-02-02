@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigStore Methods"
 title: ISSOConfigStore Methods
 TOCTitle: ISSOConfigStore Methods
 ms:assetid: 4a4a0e00-1dcc-4308-964b-458dc9c9a847

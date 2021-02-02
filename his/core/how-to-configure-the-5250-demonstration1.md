@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure the 5250 Demonstration"
 title: "How to Configure the 5250 Demonstration1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

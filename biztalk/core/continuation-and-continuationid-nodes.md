@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Continuation and ContinuationID Nodes"
 title: "Continuation and ContinuationID Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

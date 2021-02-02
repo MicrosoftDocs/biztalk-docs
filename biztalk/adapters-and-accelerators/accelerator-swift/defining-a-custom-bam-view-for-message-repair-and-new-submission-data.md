@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining a Custom BAM View for Message Repair and New Submission Data"
 title: "Defining a Custom BAM View for Message Repair and New Submission Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

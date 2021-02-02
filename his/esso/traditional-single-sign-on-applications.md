@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Traditional Single Sign-On Applications"
 title: "Traditional Single Sign-On Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

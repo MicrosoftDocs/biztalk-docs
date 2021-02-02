@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating Affiliate Applications"
 title: "Create affiliate applications for PeopleSoft Enterprise | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

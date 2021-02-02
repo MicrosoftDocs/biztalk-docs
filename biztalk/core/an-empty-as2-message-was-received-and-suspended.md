@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: An empty AS2 message was received and suspended"
 title: "An empty AS2 message was received and suspended | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

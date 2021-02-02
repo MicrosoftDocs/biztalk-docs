@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBasePropertyBag.Write Method (COM)"
 title: IBasePropertyBag.Write Method (COM)
 TOCTitle: IBasePropertyBag.Write Method (COM)
 ms:assetid: a7a1e8bf-a3dd-49a0-bad1-9bc05f383aab

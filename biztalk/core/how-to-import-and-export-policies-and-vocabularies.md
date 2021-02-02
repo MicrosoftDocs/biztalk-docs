@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Import and Export Policies and Vocabularies"
 title: "How to Import and Export Policies and Vocabularies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

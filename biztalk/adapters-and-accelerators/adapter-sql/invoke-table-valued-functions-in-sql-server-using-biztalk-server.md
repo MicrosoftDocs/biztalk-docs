@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoke Table-Valued Functions in SQL Server using BizTalk Server"
 title: "Invoke Table-Valued Functions in SQL Server using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

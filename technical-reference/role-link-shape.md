@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Role Link Shape"
 title: Role Link Shape
 TOCTitle: Role Link Shape
 ms:assetid: 6d36cffd-70db-4ed5-a773-1bc33d8c400f

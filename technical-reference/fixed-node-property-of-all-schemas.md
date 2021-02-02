@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Fixed (Node Property of All Schemas)"
 title: Fixed (Node Property of All Schemas)
 TOCTitle: Fixed (Node Property of All Schemas)
 ms:assetid: 4edfb40c-6401-4f78-9851-119904d4b4c9

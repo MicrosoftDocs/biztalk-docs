@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Concurrent Programs"
 title: "Message Schemas for Concurrent Programs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -36,7 +37,7 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   
  Entity descriptions:  
   
- [VERSION] = http://schemas.microsoft.com/OracleEBS/2008/05  
+ [VERSION] = `http://schemas.microsoft.com/OracleEBS/2008/05`
   
  [APP_SHORT_NAME] = Application short name  
   
@@ -46,7 +47,7 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
  The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] uses the following message actions for concurrent programs.  
   
 > [!NOTE]
->  See entity descriptions after the table.  
+> See entity descriptions after the table.  
   
 |Message|Action|Example|  
 |-------------|------------|-------------|  

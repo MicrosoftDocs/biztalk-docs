@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Testing Connections with the 5250 Client"
 title: "Testing Connections with the 5250 Client2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-BasicHttp Transport Properties Dialog Box, Send, Security Tab"
 title: WCF-BasicHttp Transport Properties Dialog Box, Send, Security Tab
 TOCTitle: WCF-BasicHttp Transport Properties Dialog Box, Send, Security Tab
 ms:assetid: c3f47362-fb58-4d56-82e4-a79f6e3bdc26

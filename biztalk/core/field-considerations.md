@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Field Considerations"
 title: "Field Considerations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

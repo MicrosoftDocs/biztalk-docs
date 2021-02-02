@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Constructing an Integrated Link Service DLL on Host Integration Server"
 title: "Constructing an Integrated Link Service DLL on Host Integration Server2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBasePropertyBag Methods (COM)"
 title: IBasePropertyBag Methods (COM)
 TOCTitle: IBasePropertyBag Methods (COM)
 ms:assetid: fa0cdf31-8630-4fd4-a6f2-14ccb2f8559f

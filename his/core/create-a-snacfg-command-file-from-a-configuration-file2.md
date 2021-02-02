@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a Snacfg Command File from a Configuration File"
 title: "Create a Snacfg Command File from a Configuration File2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

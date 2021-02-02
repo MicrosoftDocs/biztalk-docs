@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Close a Connection with the Host File Adapter"
 title: "How to Close a Connection with the Host File Adapter2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Orchestration.Stop Method (WMI)"
 title: MSBTS_Orchestration.Stop Method (WMI)
 TOCTitle: MSBTS_Orchestration.Stop Method (WMI)
 ms:assetid: 613b10af-c86e-432b-b6cd-ede1add9d57f

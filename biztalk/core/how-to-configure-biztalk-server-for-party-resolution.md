@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure BizTalk Server for Party Resolution"
 title: "How to Configure BizTalk Server for Party Resolution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

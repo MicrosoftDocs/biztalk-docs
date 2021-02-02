@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Change Event Viewer Settings"
 title: "How to Change Event Viewer Settings1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Close(LINK)"
 title: "Close(LINK)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

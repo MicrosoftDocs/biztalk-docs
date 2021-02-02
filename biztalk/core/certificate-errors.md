@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Certificate Errors"
 title: "Certificate Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

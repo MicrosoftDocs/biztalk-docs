@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuration of Enterprise Single Sign-On Backup Secret"
 title: "Configure Single Sign-On Backup Secret | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016

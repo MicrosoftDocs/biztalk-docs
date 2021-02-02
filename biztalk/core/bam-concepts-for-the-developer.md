@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM Concepts for the Developer"
 title: "BAM Concepts for the Developer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

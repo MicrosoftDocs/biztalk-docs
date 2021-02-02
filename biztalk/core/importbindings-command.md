@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ImportBindings Command"
 title: "ImportBindings Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

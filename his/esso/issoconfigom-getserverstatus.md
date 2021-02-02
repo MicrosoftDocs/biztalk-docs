@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOConfigOM.GetServerStatus"
 title: "ISSOConfigOM.GetServerStatus | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

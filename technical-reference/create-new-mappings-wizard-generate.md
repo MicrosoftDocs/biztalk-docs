@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Mappings Wizard: Generate"
 title: 'Create New Mappings Wizard: Generate'
 TOCTitle: 'Create New Mappings Wizard: Generate'
 ms:assetid: bef3970d-8c0a-4efe-9193-ca110d49479f

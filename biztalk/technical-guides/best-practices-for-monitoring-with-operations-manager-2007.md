@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best Practices for Monitoring with Operations Manager 2007"
 title: "Best Practices for Monitoring with Operations Manager 2007 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

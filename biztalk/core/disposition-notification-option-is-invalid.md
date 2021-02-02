@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Disposition-Notification-Option is invalid"
 title: "Disposition-Notification-Option is invalid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

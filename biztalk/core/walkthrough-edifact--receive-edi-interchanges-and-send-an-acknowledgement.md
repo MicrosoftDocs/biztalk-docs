@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough (EDIFACT): Receiving EDI Interchanges and Sending Back an Acknowledgement"
 title: "Walkthrough (EDIFACT): Receiving EDI Interchanges and Sending Back an Acknowledgement | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -296,7 +297,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
        |         **UNH2.2**          |                       Enter the EDI version, **D**.                       |
        |         **UNH2.3**          |                    Enter the release number, **98A**.                     |
        |         **UNH2.5**          |                         You can leave this blank.                         |
-       |    **Target namespace**     |          Select **<http://schemas.microsoft.com/Edi/Edifact>**.           |
+       |    **Target namespace**     |          Select `http://schemas.microsoft.com/Edi/Edifact`.           |
        |          **UNG1**           |               Specify the functional group ID, **INVOIC**.                |
        |         **UNG2.1**          |         Enter a value for the application sender identification.          |
        |         **UNG2.1**          | Enter a value for the application sender code qualifier, such as **ZZZ**. |

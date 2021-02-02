@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Package XML Schema V85"
 title: "Package XML Schema V85 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

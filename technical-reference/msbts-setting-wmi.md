@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_Setting (WMI)"
 title: MSBTS_Setting (WMI)
 TOCTitle: MSBTS_Setting (WMI)
 ms:assetid: 1a3b6d20-ae8a-49ba-89a9-e927f5c4d34c
@@ -35,15 +36,15 @@ class MSBTS_Setting : CIM_Setting
 <tbody>
 <tr class="odd">
 <td>Caption (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20246">http://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 <tr class="even">
 <td>Description (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20246">http://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 <tr class="odd">
 <td>SettingID (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20246">http://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -54,4 +55,3 @@ class MSBTS_Setting : CIM_Setting
 **Header:** Declared in BTSWMISchema2K.mof or BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

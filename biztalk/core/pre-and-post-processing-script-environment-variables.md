@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Pre- and Post-processing Script Environment Variables"
 title: "Pre- and Post-processing Script Environment Variables | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

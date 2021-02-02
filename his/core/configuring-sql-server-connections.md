@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring SQL Server Connections"
 title: "Configuring SQL Server Connections | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

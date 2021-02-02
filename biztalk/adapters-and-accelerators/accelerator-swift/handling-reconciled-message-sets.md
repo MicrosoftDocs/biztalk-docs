@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Handling Reconciled Message Sets"
 title: "Handling Reconciled Message Sets | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Module 6: Deploying the Business Rules"
 title: "Module 6: Deploying the Business Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

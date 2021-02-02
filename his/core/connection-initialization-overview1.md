@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connection Initialization Overview"
 title: "Connection Initialization Overview1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

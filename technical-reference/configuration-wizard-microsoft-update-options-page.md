@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Microsoft Update Options Page"
 title: Configuration Wizard, Microsoft Update Options Page
 TOCTitle: Configuration Wizard, Microsoft Update Options Page
 ms:assetid: 1f779014-98ce-42aa-8e1e-3fc38912bc92
@@ -14,7 +15,7 @@ f1_keywords:
 
  
 
-Use the **Microsoft Update Options** page in Custom Configuration to configure your server to automatically update BizTalk Server. Microsoft Update is a service from Microsoft that delivers updates for Microsoft Windows and other Microsoft programs including BizTalk Server. For more information, see the Microsoft Update Web site at [http://go.microsoft.com/fwlink/?LinkId=37601](https://go.microsoft.com/fwlink/?linkid=37601).
+Use the **Microsoft Update Options** page in Custom Configuration to configure your server to automatically update BizTalk Server. Microsoft Update is a service from Microsoft that delivers updates for Microsoft Windows and other Microsoft programs including BizTalk Server. For more information, see the Microsoft Update Web site at [https://go.microsoft.com/fwlink/?LinkId=37601](https://go.microsoft.com/fwlink/?linkid=37601).
 
 <table>
 <thead>
@@ -40,4 +41,3 @@ Use the **Microsoft Update Options** page in Custom Configuration to configure y
 
 [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/jj248688\(v=bts.80\))
 [Getting Started](https://msdn.microsoft.com/library/aa560946\(v=bts.80\))
-

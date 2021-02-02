@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessagePart.ContentType Property (COM)"
 title: IBaseMessagePart.ContentType Property (COM)
 TOCTitle: IBaseMessagePart.ContentType Property (COM)
 ms:assetid: e02744b5-713e-47bb-9b6f-ac074527a338

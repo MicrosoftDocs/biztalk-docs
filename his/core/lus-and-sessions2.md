@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUs and Sessions"
 title: "LUs and Sessions2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Leased SDLC Line (No XIDs Exchanged), Channel Adapter"
 title: "Leased SDLC Line (No XIDs Exchanged), Channel Adapter2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

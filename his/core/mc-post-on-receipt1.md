@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MC_POST_ON_RECEIPT"
 title: "MC_POST_ON_RECEIPT1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

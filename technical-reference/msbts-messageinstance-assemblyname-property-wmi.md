@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MessageInstance.AssemblyName Property (WMI)"
 title: MSBTS_MessageInstance.AssemblyName Property (WMI)
 TOCTitle: MSBTS_MessageInstance.AssemblyName Property (WMI)
 ms:assetid: 6e7c5569-c7bb-4fa4-90be-2b8f8b779383

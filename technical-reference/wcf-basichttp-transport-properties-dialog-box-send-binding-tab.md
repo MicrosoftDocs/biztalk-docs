@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: WCF-BasicHttp Transport Properties Dialog Box, Send, Binding Tab"
 title: WCF-BasicHttp Transport Properties Dialog Box, Send, Binding Tab
 TOCTitle: WCF-BasicHttp Transport Properties Dialog Box, Send, Binding Tab
 ms:assetid: faf38378-34b5-4282-ba86-3c72ba610451
@@ -52,7 +53,7 @@ Maximum value: 23:59:59</td>
 <td><strong>Maximum received message size (bytes)</strong></td>
 <td>Specify the maximum size, in bytes, for a message including headers, which can be received on the wire. The size of the messages is bounded by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks.<br />
 <br />
-The WCF-BasicHttp adapter leverages the <a href="http://go.microsoft.com/fwlink/?linkid=81086">BasicHttpBinding</a> class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the <a href="http://go.microsoft.com/fwlink/?linkid=80659">BasicHttpBinding.MaxBufferSize</a> property is always equal to the value of this property.<br />
+The WCF-BasicHttp adapter leverages the <a href="https://go.microsoft.com/fwlink/?linkid=81086">BasicHttpBinding</a> class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the <a href="https://go.microsoft.com/fwlink/?linkid=80659">BasicHttpBinding.MaxBufferSize</a> property is always equal to the value of this property.<br />
 <br />
 Default value: 65536<br />
 <br />
@@ -84,4 +85,3 @@ Default value: <strong>utf-8</strong></td>
 ## See Also
 
 [How to Configure a WCF-BasicHttp Send Port](https://msdn.microsoft.com/library/bb226467\(v=bts.80\))
-

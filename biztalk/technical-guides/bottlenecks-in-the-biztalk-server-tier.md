@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Bottlenecks in the BizTalk Server Tier"
 title: "Bottlenecks in the BizTalk Server Tier | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -32,15 +33,15 @@ The BizTalk tier can be divided into the following functional areas:
 ## Bottlenecks in the receive location  
  If messages build up at the receive location (for example, file receive folder grows large), this indicates that the system is unable to absorb data fast enough to keep up with the incoming load. This is due to internal throttling. That is, BizTalk Server reduces the receiving rate if the subscribers are unable to process data fast enough causing backlog buildup in the database tables. If the bottleneck is caused by hardware limitations, try scaling up. For more information about scaling up, see the following topics in the BizTalk Server 2010 documentation:  
   
-- [Scaling Up the BizTalk Server Tier](http://go.microsoft.com/fwlink/?LinkId=158073) (http://go.microsoft.com/fwlink/?LinkId=158073).  
+- [Scaling Up the BizTalk Server Tier](https://go.microsoft.com/fwlink/?LinkId=158073) (https://go.microsoft.com/fwlink/?LinkId=158073).  
   
-- [Scaling Up the SQL Server Tier](http://go.microsoft.com/fwlink/?LinkId=158077) (http://go.microsoft.com/fwlink/?LinkId=158077).  
+- [Scaling Up the SQL Server Tier](https://go.microsoft.com/fwlink/?LinkId=158077) (https://go.microsoft.com/fwlink/?LinkId=158077).  
   
   It is also possible to scale out by adding a host instance (server) to the host mapped to the receive handler. For more information about scaling out, see the following topics in the BizTalk Server 2010 documentation:  
   
-- [Scaling Out the BizTalk Server Tier](http://go.microsoft.com/fwlink/?LinkId=158076) (http://go.microsoft.com/fwlink/?LinkId=158076).  
+- [Scaling Out the BizTalk Server Tier](https://go.microsoft.com/fwlink/?LinkId=158076) (https://go.microsoft.com/fwlink/?LinkId=158076).  
   
-- [Scaling Out the SQL Server Tier](http://go.microsoft.com/fwlink/?LinkId=158075) (http://go.microsoft.com/fwlink/?LinkId=158075).  
+- [Scaling Out the SQL Server Tier](https://go.microsoft.com/fwlink/?LinkId=158075) (https://go.microsoft.com/fwlink/?LinkId=158075).  
   
   Use Perfmon to monitor the resource use on the system. It is important to confirm that the external receive location is not the cause of the bottleneck. For example, confirm whether the remote file share is saturated due to high disk I/O, the server hosting the remote outgoing queue is not saturated, or the client used to generate HTTP load is not starved on threads.  
   
@@ -68,11 +69,11 @@ The BizTalk tier can be divided into the following functional areas:
 ## Tracking bottlenecks  
  The Tracking host instance is responsible for moving the Business Activity Monitoring (BAM) and Health and Activity Tracking (HAT) data from the MessageBox database (TrackingData table) to the BizTalk Tracking and/or BAM Primary Import database tables. If multiple MessageBox databases are configured, the tracking host instance uses four threads per MessageBox database.  
   
- It is possible that the Tracking host instance is CPU bound. If it is, consider scaling-up the server or scale-out by configuring an additional server with Host Tracking enabled. The multiple host instances will automatically load balance for the multiple MessageBox databases configured. For more information about scaling, see the topic [Scaling Your Solutions](http://go.microsoft.com/fwlink/?LinkId=158078) (http://go.microsoft.com/fwlink/?LinkId=158078).  
+ It is possible that the Tracking host instance is CPU bound. If it is, consider scaling-up the server or scale-out by configuring an additional server with Host Tracking enabled. The multiple host instances will automatically load balance for the multiple MessageBox databases configured. For more information about scaling, see the topic [Scaling Your Solutions](https://go.microsoft.com/fwlink/?LinkId=158078) (https://go.microsoft.com/fwlink/?LinkId=158078).  
   
  If the TrackingData table in the MessageBox database grows large, it is usually because the data maintenance jobs on the BizTalk Tracking and/or BAM Primary Import database are not running as configured, causing growth of the BizTalk Tracking and/or BAM Primary Import databases. After these databases grow too large it can have a negative impact on the ability of the Tracking host to insert data into the TrackingData table. This causes tracked data to back up in the MessageBox database tables. The growth of the TrackingData table cause throttling to start.  
   
- You should only enable the minimum tracking required for your application, as this will reduce the amount of data logged and lower the risk of tracking bottlenecks. For information about disabling tracking settings for individual items such as orchestrations and send/receive ports, see [How to Disable Tracking](http://go.microsoft.com/fwlink/?LinkId=160064) (http://go.microsoft.com/fwlink/?LinkId=160064).  
+ You should only enable the minimum tracking required for your application, as this will reduce the amount of data logged and lower the risk of tracking bottlenecks. For information about disabling tracking settings for individual items such as orchestrations and send/receive ports, see [How to Disable Tracking](https://go.microsoft.com/fwlink/?LinkId=160064) (https://go.microsoft.com/fwlink/?LinkId=160064).  
   
 ## Other  
  Configure the deployment topology such that different functionality runs in dedicated isolated host instances. This way each host instance gets its own set of resources (for example, on a 32-bit system, 2GB virtual memory address space, handles, threads). If the server is has sufficient CPU headroom and memory to host multiple host instances, they can be configured to run on the same physical computer. If not, consider scaling out by moving the functionality to dedicated servers. Running the same functionality on multiple servers also serves to provide a highly available configuration.  
@@ -129,11 +130,11 @@ The BizTalk tier can be divided into the following functional areas:
   
 - maxConnection attribute of the \<connectionManagement\> Element (Network Settings) element  
   
-  For more information about configuring parameters that affect adapter performance, see [ASP.NET Configuration Settings for the processModel Element](http://go.microsoft.com/fwlink/?LinkId=158080) (http://go.microsoft.com/fwlink/?LinkId=158080).  
+  For more information about configuring parameters that affect adapter performance, see [ASP.NET Configuration Settings for the processModel Element](https://go.microsoft.com/fwlink/?LinkId=158080) (https://go.microsoft.com/fwlink/?LinkId=158080).  
   
-  For more information about configuration settings that can affect BizTalk Server adapters, see [Configuration Parameters that Affect Adapter Performance](http://go.microsoft.com/fwlink/?LinkID=154200) (http://go.microsoft.com/fwlink/?LinkID=154200).  
+  For more information about configuration settings that can affect BizTalk Server adapters, see [Configuration Parameters that Affect Adapter Performance](https://go.microsoft.com/fwlink/?LinkID=154200) (https://go.microsoft.com/fwlink/?LinkID=154200).  
   
-  In addition to optimizing your BizTalk Server applications, other ASP.NET applications running on the same server can have an affect on overall performance. It is important to optimize all of your ASP.NET applications to reduce demand on system resources. For more information, see [ASP.NET Performance](http://go.microsoft.com/fwlink/?LinkId=158081) (http://go.microsoft.com/fwlink/?LinkId=158081).  
+  In addition to optimizing your BizTalk Server applications, other ASP.NET applications running on the same server can have an affect on overall performance. It is important to optimize all of your ASP.NET applications to reduce demand on system resources. For more information, see [ASP.NET Performance](https://go.microsoft.com/fwlink/?LinkId=158081) (https://go.microsoft.com/fwlink/?LinkId=158081).  
   
   When configuring for maximum performance, consider optimizing other external systems such as messaging engines (Message Queuing, MQSeries), applications, databases, Active Directory, etc. that are part of your overall BizTalk solution. Performance bottlenecks in any of these other external systems can have a negative effect on your BizTalk solution.  
   
@@ -141,9 +142,9 @@ The BizTalk tier can be divided into the following functional areas:
  If the downstream system is unable to receive data fast enough from BizTalk, this output data will back up in the BizTalk databases. This results in bloat, causes throttling to start, shrinks the receive pipe, and impacts the overall throughput of the BizTalk system. A direct indication of this is Spool table growth. For more information about bottlenecks and the Spool table, see [How to Identify Bottlenecks in the MessageBox Database1](../technical-guides/how-to-identify-bottlenecks-in-the-messagebox-database1.md).  
   
 ### Throttling impact  
- Throttling will eventually start to protect the system from reaching an unrecoverable state. Thus, you can use throttling to verify whether the system is functioning normally and discover the source of the problem. After you identify the cause of the bottleneck from the throttling state, analyze the other performance counters to determine the source of the problem. For example, high contention on the MessageBox database could be due to high CPU use, caused by excessively paging to disk that is caused by low memory conditions. High contention on the MessageBox database could also be caused by high lock contention due to saturated disk drives. While occasional throttling is not a significant threat to performance, persistent throttling can indicate a more significant underlying problem. For more information about those conditions where BizTalk Server will use throttling, see [How BizTalk Server Implements Host Throttling](http://go.microsoft.com/fwlink/?LinkID=155286) (http://go.microsoft.com/fwlink/?LinkID=155286).  
+ Throttling will eventually start to protect the system from reaching an unrecoverable state. Thus, you can use throttling to verify whether the system is functioning normally and discover the source of the problem. After you identify the cause of the bottleneck from the throttling state, analyze the other performance counters to determine the source of the problem. For example, high contention on the MessageBox database could be due to high CPU use, caused by excessively paging to disk that is caused by low memory conditions. High contention on the MessageBox database could also be caused by high lock contention due to saturated disk drives. While occasional throttling is not a significant threat to performance, persistent throttling can indicate a more significant underlying problem. For more information about those conditions where BizTalk Server will use throttling, see [How BizTalk Server Implements Host Throttling](https://go.microsoft.com/fwlink/?LinkID=155286) (https://go.microsoft.com/fwlink/?LinkID=155286).  
   
- For more information about how BizTalk Server throttling can help manage the use of available resources and minimize resource contention, see [Optimizing Resource Usage Through Host Throttling](http://go.microsoft.com/fwlink/?LinkID=155770) (http://go.microsoft.com/fwlink/?LinkID=155770).  
+ For more information about how BizTalk Server throttling can help manage the use of available resources and minimize resource contention, see [Optimizing Resource Usage Through Host Throttling](https://go.microsoft.com/fwlink/?LinkID=155770) (https://go.microsoft.com/fwlink/?LinkID=155770).  
   
 ## BizTalk application counters  
   

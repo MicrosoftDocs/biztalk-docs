@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Map Remote Environment Class Dialog Box"
 title: "Map Remote Environment Class Dialog Box1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

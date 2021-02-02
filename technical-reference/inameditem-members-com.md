@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: INamedItem Members (COM)"
 title: INamedItem Members (COM)
 TOCTitle: INamedItem Members (COM)
 ms:assetid: feb82edb-e473-4f49-9977-66ba94dac5d0

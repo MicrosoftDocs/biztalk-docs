@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Create a New Project"
 title: "Step 2: Create a New Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

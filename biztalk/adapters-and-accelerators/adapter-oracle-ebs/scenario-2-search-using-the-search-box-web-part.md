@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Scenario 2:  Search using the search box web part"
 title: "Scenario 2:  Search using the search box web part | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

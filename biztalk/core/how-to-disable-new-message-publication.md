@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Disable New Message Publication"
 title: "Disable New Message Publication | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

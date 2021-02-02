@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Create an Application Definition File for Siebel Business Component Operations"
 title: "Step 2: Create an Application Definition File for Siebel Business Component Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -27,7 +28,7 @@ manager: "anneta"
 
 ## Prerequisites
 
--   You must have the Business Data Catalog Definition Editor installed as part of the Microsoft Office SharePoint Server 2007 SDK. You can download the SDK from [http://go.microsoft.com/fwlink/?LinkId=104130](https://go.microsoft.com/fwlink/?LinkId=104130).
+-   You must have the Business Data Catalog Definition Editor installed as part of the Microsoft Office SharePoint Server 2007 SDK. You can download the SDK from [https://go.microsoft.com/fwlink/?LinkId=104130](https://go.microsoft.com/fwlink/?LinkId=104130).
 
 -   You should have published the WCF service, as described in [Step 1: Publish the Siebel Business Component Operations as a WCF Service](../../adapters-and-accelerators/adapter-siebel/step-1-publish-the-siebel-business-component-operations-as-a-wcf-service.md).
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive IDOCs from SAP in a Transactional Context using BizTalk Server"
 title: "Receive IDOCs from SAP in a Transactional Context using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

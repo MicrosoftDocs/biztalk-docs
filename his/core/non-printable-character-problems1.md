@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Non-printable Character Problems"
 title: "Non-printable Character Problems1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

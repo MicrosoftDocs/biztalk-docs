@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Schema should have segments in the following order ST .... SE"
 title: "Schema should have segments in the following order ST .... SE | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

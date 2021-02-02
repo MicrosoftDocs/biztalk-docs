@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure a Client Binding for the SQL Adapter"
 title: "Configure a Client Binding for the SQL Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Known Issues in Installation, Configuration, and Deployment"
 title: "Known Issues in Installation, Configuration, and Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -70,7 +71,7 @@ Service could not be started. : System.Net.Sockets.SocketException (10061): No c
  The HOSTS file is located in the %systemroot%\drivers\etc\ directory.
 
 > [!NOTE]
->  For more information about the Microsoft Malware Protection Center signature update that addresses a possible threat from SettingsModifier:Win32/PossibleHostsFileHijack, go to [http://go.microsoft.com/fwlink/?LinkId=146221](https://go.microsoft.com/fwlink/?LinkId=146221).
+>  For more information about the Microsoft Malware Protection Center signature update that addresses a possible threat from SettingsModifier:Win32/PossibleHostsFileHijack, go to [https://go.microsoft.com/fwlink/?LinkId=146221](https://go.microsoft.com/fwlink/?LinkId=146221).
 
 ## Enlistment of an Orchestration Fails if Referenced Assemblies are Missing from the GAC/Mgmt DB
 

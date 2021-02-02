@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Dynamic Send Ports Using WCF Adapters Context Properties"
 title: "Configuring Dynamic Send Ports Using WCF Adapters Context Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

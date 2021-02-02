@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Select Multiple Links and Functoids"
 title: "How to Select Multiple Links and Functoids | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

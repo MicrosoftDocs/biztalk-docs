@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Consume Web Service Arrays"
 title: "How to Consume Web Service Arrays | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -64,7 +65,7 @@ manager: "anneta"
 
  The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Orchestration Engine provides support for consuming both one dimensional and jagged arrays that are exposed by Web services. If you add a Web reference to a Web service that exposes arrays, the Orchestration Designer will generate a Web message type that describes the array. You can then send and receive messages of this type like any other message. BizTalk Server does not limit the sending of Web messages containing arrays to only Web ports.
 
- For an example of consuming Web service arrays, see the SDK sample "Consume Web Services" and "Consuming Web Services with Array Parameters" at [http://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
+ For an example of consuming Web service arrays, see the SDK sample "Consume Web Services" and "Consuming Web Services with Array Parameters" at [https://go.microsoft.com/fwlink/?LinkId=73703](https://go.microsoft.com/fwlink/?LinkId=73703).
 
 ## See Also
  [Using Messages in Orchestrations](../core/using-messages-in-orchestrations.md)

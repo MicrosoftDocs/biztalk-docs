@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting BizTalk Server Permissions"
 title: "Troubleshooting BizTalk Server Permissions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

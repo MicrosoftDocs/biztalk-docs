@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Gaps in the Restore Process"
 title: "Gaps in the Restore Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

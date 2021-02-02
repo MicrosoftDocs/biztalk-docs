@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Publishing the MX Message Instance File (Creating New Messages)"
 title: "Publishing the MX Message Instance File (Creating New Messages) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -29,4 +30,4 @@ manager: "anneta"
 
 6. In the Upload Document window, click **OK**.  
 
-7. In the New SWIFT MX Messages: \<MessageType\> window, in the Namespace box, type <strong>http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_\<MessageType\></strong>, and then click **OK**.
+7. In the New SWIFT MX Messages: \<MessageType\> window, in the Namespace box, type `http://schemas.microsoft.com/BizTalk/Solutions/FinancialServices/SWIFT/EnvelopeMX_<MessageType>`, and then click **OK**.

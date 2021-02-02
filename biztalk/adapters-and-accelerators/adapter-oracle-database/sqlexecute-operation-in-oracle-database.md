@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SQLEXECUTE Operation in Oracle Database"
 title: "SQLEXECUTE Operation in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

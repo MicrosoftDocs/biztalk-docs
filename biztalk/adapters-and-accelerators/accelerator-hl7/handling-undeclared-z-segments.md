@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Handling Undeclared Z Segments"
 title: "Handling Undeclared Z Segments | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

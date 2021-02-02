@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SWIFTNet Client and Server"
 title: "SWIFTNet Client and Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

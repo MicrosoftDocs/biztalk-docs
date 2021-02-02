@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Business Scenario"
 title: "Sample Business Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

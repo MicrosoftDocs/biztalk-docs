@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext Interface (COM)"
 title: IPipelineContext Interface (COM)
 TOCTitle: IPipelineContext Interface (COM)
 ms:assetid: 719eba49-a7da-4bd2-a9bf-2a811ce1048a

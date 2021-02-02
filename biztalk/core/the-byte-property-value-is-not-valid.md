@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The byte property value is not valid"
 title: "The byte property value is not valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

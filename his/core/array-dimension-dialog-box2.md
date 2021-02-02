@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Array Dimension Dialog Box"
 title: "Array Dimension Dialog Box2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

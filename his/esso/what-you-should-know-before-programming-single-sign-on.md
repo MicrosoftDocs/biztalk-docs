@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What You Should Know Before Programming Single Sign-On"
 title: "What You Should Know Before Programming Single Sign-On | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

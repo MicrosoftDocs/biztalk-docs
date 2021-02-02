@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Stored Procedures, Functions, and PL/SQL APIs"
 title: "Message Schemas for Stored Procedures, Functions, and PL-SQL APIs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -34,7 +35,7 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   
  Entity descriptions:  
   
- [VERSION] = http://schemas.microsoft.com/OracleEBS/2008/05.  
+ [VERSION] = `http://schemas.microsoft.com/OracleEBS/2008/05`.  
   
  [SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.  
   

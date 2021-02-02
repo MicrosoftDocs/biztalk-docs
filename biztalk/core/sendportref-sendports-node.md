@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SendPortRef (SendPorts Node)"
 title: "SendPortRef (SendPorts Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

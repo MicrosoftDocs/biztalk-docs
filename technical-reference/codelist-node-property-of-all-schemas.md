@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: CodeList (Node Property of All Schemas)"
 title: CodeList (Node Property of All Schemas)
 TOCTitle: CodeList (Node Property of All Schemas)
 ms:assetid: cdc08af6-04d9-40a0-bdbf-65598ad8b677

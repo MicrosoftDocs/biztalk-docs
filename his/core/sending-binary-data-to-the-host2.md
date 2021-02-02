@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sending Binary Data to the Host"
 title: "Sending Binary Data to the Host2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

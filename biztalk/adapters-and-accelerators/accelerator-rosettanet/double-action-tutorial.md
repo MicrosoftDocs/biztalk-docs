@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Double Action Tutorial"
 title: "Double Action Tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

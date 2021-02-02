@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocation.Enable Method (WMI)"
 title: MSBTS_ReceiveLocation.Enable Method (WMI)
 TOCTitle: MSBTS_ReceiveLocation.Enable Method (WMI)
 ms:assetid: c16f0f8f-d835-4320-99bd-a9a2e3d0902f

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorial 3: Hosting the Echo Adapter in IIS"
 title: "Tutorial 3: Hosting the Echo Adapter in IIS | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

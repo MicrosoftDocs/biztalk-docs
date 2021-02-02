@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Input File Does Not Exist"
 title: "Error - Input File Does Not Exist | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

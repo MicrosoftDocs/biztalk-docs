@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Concatenate"
 title: "Concatenate | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA and Asynchronous Verb Completion"
 title: "LUA and Asynchronous Verb Completion2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

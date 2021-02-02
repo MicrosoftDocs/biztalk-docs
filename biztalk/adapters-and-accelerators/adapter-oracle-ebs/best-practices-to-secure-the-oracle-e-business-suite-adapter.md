@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best practices to secure the Oracle E-Business Suite adapter"
 title: "Best practices to secure the Oracle E-Business Suite adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -68,7 +69,7 @@ This section provides best practices that you should follow to more completely p
 
  You can either use the **BasicHttpBinding** over an HTTPS connection, or use the **WSHttpBinding** to help protect your data. The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] includes the [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)] to generate WCF service for LOB artifacts. This wizard only supports use of **BasicHttpBinding**.
 
- You can also develop a custom HTTP binding to leverage additional security mechanisms that your environment provides. For more information about the security features that [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] provides, see "Securing Services and Clients" at [http://go.microsoft.com/fwlink/?LinkId=89725](https://go.microsoft.com/fwlink/?LinkId=89725).
+ You can also develop a custom HTTP binding to leverage additional security mechanisms that your environment provides. For more information about the security features that [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] provides, see "Securing Services and Clients" at [https://go.microsoft.com/fwlink/?LinkId=89725](https://go.microsoft.com/fwlink/?LinkId=89725).
 
 ## Security Best Practices for WCF Diagnostic Tracing and Message Logging
  [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] supports diagnostic tracing and message logging. You configure diagnostic tracing and message logging either through configuration files or by using Windows Management Instrumentation (WMI). Depending on the configuration options you set, [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] diagnostic tracing or message logging can emit sensitive information to log files, where it could potentially be exposed to observation by unauthorized users.
@@ -85,7 +86,7 @@ This section provides best practices that you should follow to more completely p
 
 - If [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] message logging is enabled and `logMessagesAtServiceLevel` is `true`, the message header (but not the message body) of messages exchanged between the adapter client and the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] are logged. Because the message action is in the message header, this reveals the operations that the client invoked on the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. If `logEntireMessage` is also `true`, the message body will be logged. This can reveal sensitive database information.
 
-  For more information about improving security when you enable diagnostic tracing, see "Security Concerns and Useful Tips for Tracing" at [http://go.microsoft.com/fwlink/?LinkId=89796](https://go.microsoft.com/fwlink/?LinkId=89796). For more information about improving security when you enable message logging, see "Security Concerns for Message Logging" at [http://go.microsoft.com/fwlink/?LinkId=89797](https://go.microsoft.com/fwlink/?LinkId=89797).
+  For more information about improving security when you enable diagnostic tracing, see "Security Concerns and Useful Tips for Tracing" at [https://go.microsoft.com/fwlink/?LinkId=89796](https://go.microsoft.com/fwlink/?LinkId=89796). For more information about improving security when you enable message logging, see "Security Concerns for Message Logging" at [https://go.microsoft.com/fwlink/?LinkId=89797](https://go.microsoft.com/fwlink/?LinkId=89797).
 
 ## See Also
  [Secure your Oracle EBS applications](secure-your-oracle-ebs-applications.md)

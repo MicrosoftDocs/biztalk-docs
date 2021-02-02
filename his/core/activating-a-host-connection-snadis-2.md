@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Activating a Host Connection (SNADIS)"
 title: "Activating a Host Connection (SNADIS)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

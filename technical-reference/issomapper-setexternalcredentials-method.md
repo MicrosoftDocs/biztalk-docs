@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapper.SetExternalCredentials Method"
 title: ISSOMapper.SetExternalCredentials Method
 TOCTitle: ISSOMapper.SetExternalCredentials Method
 ms:assetid: 139abc00-7276-4148-a116-5042809b32f3

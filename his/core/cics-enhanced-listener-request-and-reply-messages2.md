@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CICS Enhanced Listener Request and Reply Messages"
 title: "CICS Enhanced Listener Request and Reply Messages2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

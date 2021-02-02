@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Providing High Availability"
 title: "Providing High Availability | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

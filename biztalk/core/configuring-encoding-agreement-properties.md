@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Encoding Agreement Properties"
 title: "Configuring Encoding Agreement Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

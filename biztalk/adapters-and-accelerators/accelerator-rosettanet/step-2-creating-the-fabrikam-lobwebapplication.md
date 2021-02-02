@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Creating the Fabrikam LOBWebApplication"
 title: "Step 2: Creating the Fabrikam LOBWebApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

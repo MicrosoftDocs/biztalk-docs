@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server Properties: Password Sync Properties"
 title: "Server Properties: Password Sync Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

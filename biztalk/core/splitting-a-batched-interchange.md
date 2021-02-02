@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Splitting a Batched Interchange"
 title: "Splitting a Batched Interchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

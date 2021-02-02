@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a Web Setup for Your Published Web Service"
 title: "How to Create a Web Setup for Your Published Web Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -46,7 +47,7 @@ You can create an installation package to facilitate setting up your Web service
 10. Build your Web setup project.
 
     > [!NOTE]
-    >  For more information about creating Web setup projects, see "How to Create or Add a Web Setup Project" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [http://go.microsoft.com/fwlink/?LinkId=62268](https://go.microsoft.com/fwlink/?LinkId=62268).
+    >  For more information about creating Web setup projects, see "How to Create or Add a Web Setup Project" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [https://go.microsoft.com/fwlink/?LinkId=62268](https://go.microsoft.com/fwlink/?LinkId=62268).
 
 ## See Also
  [Deploying Published Web Services on a Non-Visual Studio Computer](../core/deploying-published-web-services-on-a-non-visual-studio-computer.md)

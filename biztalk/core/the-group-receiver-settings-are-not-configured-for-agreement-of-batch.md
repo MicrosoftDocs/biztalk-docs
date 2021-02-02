@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The group receiver settings are not configured for agreement of batch"
 title: "The group receiver settings are not configured for agreement of batch | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TN3270 and Single Sign-On"
 title: "TN3270 and Single Sign-On1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

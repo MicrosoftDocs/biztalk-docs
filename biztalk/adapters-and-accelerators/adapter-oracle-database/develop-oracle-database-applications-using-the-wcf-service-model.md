@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Develop Oracle Database applications using the WCF Service Model"
 title: "Develop Oracle Database applications using the WCF Service Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -23,7 +24,7 @@ At the lowest level, the [!INCLUDE[firstref_btsWinCommFoundation](../../includes
 
  For this reason, [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] provides another programming model called the WCF service model. The WCF service model involves the use of proxy classes to invoke operations on a target service or to receive operations from a client.
 
-- The proxy class used to invoke operations on a target service is called a WCF client class. This class models the operations exposed by a service as .NET methods with strongly-typed parameters. By using the WCF service model, you can invoke the operations exposed by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] as .NET methods on the WCF client. For more information about WCF clients, see "WCF Client Overview" at [http://go.microsoft.com/fwlink/?LinkId=91458](https://go.microsoft.com/fwlink/?LinkId=91458).
+- The proxy class used to invoke operations on a target service is called a WCF client class. This class models the operations exposed by a service as .NET methods with strongly-typed parameters. By using the WCF service model, you can invoke the operations exposed by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] as .NET methods on the WCF client. For more information about WCF clients, see "WCF Client Overview" at [https://go.microsoft.com/fwlink/?LinkId=91458](https://go.microsoft.com/fwlink/?LinkId=91458).
 
 - In the WCF service model, the service contract exposed by a service is represented by an interface. This managed code representation of the service contract is called a WCF service contract. The WCF service contract models operations as methods with strongly-typed parameters. To receive an operation from a client you implement a class, the WCF service, from this interface. You can then host an instance of this class in a **System.ServiceModel.ServiceHost** to enable a client to invoke the operation on your code. By using the WCF service model and a WCF service contract targeted to the POLLINGSTMT operation, you can receive the results of a polling operation on the Oracle database using [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].
 

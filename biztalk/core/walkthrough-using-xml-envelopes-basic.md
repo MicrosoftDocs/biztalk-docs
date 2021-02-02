@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Walkthrough: Using XML Envelopes (Basic)"
 title: "Walkthrough: Using XML Envelopes (Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Differences by Information Type"
 title: "Differences by Information Type1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

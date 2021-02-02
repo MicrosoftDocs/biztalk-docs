@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Configure Party Information for Batch In/Batch Out"
 title: "Step 1: Configure Party Information for Batch In-Batch Out | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

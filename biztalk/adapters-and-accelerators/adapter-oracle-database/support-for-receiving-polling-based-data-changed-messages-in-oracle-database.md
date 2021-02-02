@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for Receiving Polling-based Data-changed Messages in Oracle Database"
 title: "Support for Receiving Polling-based Data-changed Messages in Oracle Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

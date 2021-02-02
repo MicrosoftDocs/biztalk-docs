@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDocumentSpec Methods (COM)"
 title: IDocumentSpec Methods (COM)
 TOCTitle: IDocumentSpec Methods (COM)
 ms:assetid: 7f9334a4-20a7-4f7c-aa96-5f2ca95b1041

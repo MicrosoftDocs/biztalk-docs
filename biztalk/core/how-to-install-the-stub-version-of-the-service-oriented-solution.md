@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Install the Stub Version of the Service Oriented Solution"
 title: "How to Install the Stub Version of the Service Oriented Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -87,7 +88,7 @@ The following steps describe how to prepare your computer before you install the
      >  If you are using a 64-bit computer, use %ProgramFiles(x86)% instead of %ProgramFiles%.
 
      > [!NOTE]
-     >  For more information about the SETX command, see the Microsoft TechNet Web site at [http://go.microsoft.com/fwlink/?LinkId=67831](https://go.microsoft.com/fwlink/?LinkId=67831).
+     >  For more information about the SETX command, see the Microsoft TechNet Web site at [https://go.microsoft.com/fwlink/?LinkId=67831](https://go.microsoft.com/fwlink/?LinkId=67831).
 
 ##  <a name="step3"></a> Install the IBM WebSphere MQ Client for Windows
 

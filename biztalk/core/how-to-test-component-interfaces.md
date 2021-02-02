@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Test Component Interfaces"
 title: "How to Test Component Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

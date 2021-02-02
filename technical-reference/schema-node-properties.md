@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Schema Node Properties"
 title: Schema Node Properties
 TOCTitle: Schema Node Properties
 ms:assetid: 2a51bf02-c636-4edd-ad43-cc0dcebc28f5

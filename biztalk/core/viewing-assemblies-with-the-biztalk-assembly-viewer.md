@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Viewing Assemblies with the BizTalk Assembly Viewer"
 title: "Viewing Assemblies with the BizTalk Assembly Viewer | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

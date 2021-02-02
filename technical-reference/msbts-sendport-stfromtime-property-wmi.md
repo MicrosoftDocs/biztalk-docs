@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.STFromTime Property (WMI)"
 title: MSBTS_SendPort.STFromTime Property (WMI)
 TOCTitle: MSBTS_SendPort.STFromTime Property (WMI)
 ms:assetid: d3cbe6a3-2556-4aa4-87a6-fb02e8ab5b29
@@ -27,11 +28,10 @@ datetime STFromTime;
 
 This property is read-write.
 
-For more information about the format of the datetime value, see the Platform SDK: Windows Management Instrumentation documentation at [http://go.microsoft.com/fwlink/?LinkID=24855](https://go.microsoft.com/fwlink/?linkid=24855).
+For more information about the format of the datetime value, see the Platform SDK: Windows Management Instrumentation documentation at [https://go.microsoft.com/fwlink/?LinkID=24855](https://go.microsoft.com/fwlink/?linkid=24855).
 
 ## Requirements
 
 **Header:** Declared in BTSWMISchema2K.mof or BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

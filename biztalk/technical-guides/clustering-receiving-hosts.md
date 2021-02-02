@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Clustering Receiving Hosts"
 title: "Clustering Receiving Hosts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,11 +21,11 @@ BizTalk Server provides functionality that allows you to configure a BizTalk Hos
 >  Host clustering is available only with BizTalk Server Enterprise Edition.
 >
 > [!NOTE]
->  Before you can cluster a BizTalk Host you must have configured at least two [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers in a BizTalk group as members of a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] cluster. For more information about configuring a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] cluster, see [Windows Server 2008 Clustering Documents, Whitepapers, Webcasts, Groups](https://go.microsoft.com/fwlink/?LinkId=156818) (<http://go.microsoft.com/fwlink/?LinkId=156818>).
+>  Before you can cluster a BizTalk Host you must have configured at least two [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers in a BizTalk group as members of a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] cluster. For more information about configuring a [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] cluster, see [Windows Server 2008 Clustering Documents, Whitepapers, Webcasts, Groups](https://go.microsoft.com/fwlink/?LinkId=156818) (<https://go.microsoft.com/fwlink/?LinkId=156818>).
 
  BizTalk Host cluster support is available to provide high availability for five of the integrated BizTalk adapters: the FTP adapter, the MSMQ adapter, the POP3 adapter, the SQL adapter, and the SAP adapter. Host cluster support is also provided so that there is high availability for running a single instance of an adapter for purposes of ordered delivery.
 
- All of the BizTalk adapter handlers can be run in a clustered host, but there is no benefit from running adapter handlers in a clustered host except as described below. If your processing requirements include any of the scenarios described in the section below, then you should run adapter handlers in a clustered host. For detailed steps of setting up [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] clusters, see [Improving Fault Tolerance in BizTalk Server by Using a Windows Server 2008 Failover Cluster or Windows Server 2003 Server Cluster](https://go.microsoft.com/fwlink/?LinkId=156819) (<http://go.microsoft.com/fwlink/?LinkId=156819>).
+ All of the BizTalk adapter handlers can be run in a clustered host, but there is no benefit from running adapter handlers in a clustered host except as described below. If your processing requirements include any of the scenarios described in the section below, then you should run adapter handlers in a clustered host. For detailed steps of setting up [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] clusters, see [Improving Fault Tolerance in BizTalk Server by Using a Windows Server 2008 Failover Cluster or Windows Server 2003 Server Cluster](https://go.microsoft.com/fwlink/?LinkId=156819) (<https://go.microsoft.com/fwlink/?LinkId=156819>).
 
 ## Scenarios for Running Adapter Handlers in Clustered Hosts
  If your processing requirements include any of the scenarios listed below, then you should run adapter handlers in a clustered host.

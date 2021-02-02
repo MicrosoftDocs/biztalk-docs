@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportControl.Terminate Method (COM)"
 title: IBTTransportControl.Terminate Method (COM)
 TOCTitle: IBTTransportControl.Terminate Method (COM)
 ms:assetid: 0022ba49-0c5e-49af-8558-b5b032788687

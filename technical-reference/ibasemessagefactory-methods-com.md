@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageFactory Methods (COM)"
 title: IBaseMessageFactory Methods (COM)
 TOCTitle: IBaseMessageFactory Methods (COM)
 ms:assetid: a3c50e3b-1ab4-40f3-b945-34c0ca8b3833

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tracing for TN5250"
 title: "Tracing for TN52501 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

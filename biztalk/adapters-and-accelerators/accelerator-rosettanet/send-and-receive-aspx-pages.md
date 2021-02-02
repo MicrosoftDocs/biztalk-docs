@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Send and Receive ASPX Pages"
 title: "Send and Receive ASPX Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Defining Testing Using an XML Configuration File"
 title: "Defining Testing Using an XML Configuration File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

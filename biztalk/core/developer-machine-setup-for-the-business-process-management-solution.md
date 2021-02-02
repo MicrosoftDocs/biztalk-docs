@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Developer Machine Setup for the Business Process Management Solution"
 title: "Developer Machine Setup for the Business Process Management Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

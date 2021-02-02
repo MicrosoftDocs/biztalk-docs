@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOLookup1 Members"
 title: "ISSOLookup1 Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

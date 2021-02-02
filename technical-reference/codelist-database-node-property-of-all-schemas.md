@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: CodeList Database (Node Property of All Schemas)"
 title: CodeList Database (Node Property of All Schemas)
 TOCTitle: CodeList Database (Node Property of All Schemas)
 ms:assetid: 424ee8f0-a870-4d7a-95fb-0432089ad9a8

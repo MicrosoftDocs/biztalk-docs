@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Accessing Nested Members of a Class"
 title: "Accessing Nested Members of a Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

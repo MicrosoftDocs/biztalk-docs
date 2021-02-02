@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Manage Pre- and Post-processing Scripts"
 title: "Manage pre- and post-processing Scripts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

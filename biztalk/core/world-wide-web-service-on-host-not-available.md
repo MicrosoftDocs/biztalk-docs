@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: World Wide Web service on host not available"
 title: "World Wide Web service on host not available | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

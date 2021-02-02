@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstance.NTGroupName Property (WMI)"
 title: MSBTS_HostInstance.NTGroupName Property (WMI)
 TOCTitle: MSBTS_HostInstance.NTGroupName Property (WMI)
 ms:assetid: 7e54d0e9-ced7-4884-89ec-bbc96b8a77d9

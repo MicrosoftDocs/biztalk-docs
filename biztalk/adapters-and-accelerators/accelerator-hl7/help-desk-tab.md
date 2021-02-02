@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Help Desk Tab"
 title: "Help Desk Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

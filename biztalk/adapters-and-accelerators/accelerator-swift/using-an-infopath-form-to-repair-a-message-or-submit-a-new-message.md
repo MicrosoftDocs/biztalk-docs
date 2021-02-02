@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using an InfoPath Form to Repair a Message or Submit a New Message"
 title: "Using an InfoPath Form to Repair a Message or Submit a New Message | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

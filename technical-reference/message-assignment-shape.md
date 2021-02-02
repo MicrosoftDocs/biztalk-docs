@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Message Assignment Shape"
 title: Message Assignment Shape
 TOCTitle: Message Assignment Shape
 ms:assetid: ea3adb29-810b-4602-aca4-d480a1a06964

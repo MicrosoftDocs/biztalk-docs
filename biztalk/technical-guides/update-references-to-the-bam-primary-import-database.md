@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update References to the BAM Primary Import Database"
 title: "Update References to the BAM Primary Import Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

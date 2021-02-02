@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessagePart Methods (COM)"
 title: IBaseMessagePart Methods (COM)
 TOCTitle: IBaseMessagePart Methods (COM)
 ms:assetid: 92ff50af-57f3-4a76-b4a8-414ff4b511d6

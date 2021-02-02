@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Index Functoid Has Negative Index"
 title: "Error - Index Functoid Has Negative Index | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

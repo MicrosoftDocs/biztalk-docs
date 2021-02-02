@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.LastUsedLogon Property (WMI)"
 title: MSBTS_HostSetting.LastUsedLogon Property (WMI)
 TOCTitle: MSBTS_HostSetting.LastUsedLogon Property (WMI)
 ms:assetid: 477ef419-da67-4b49-b6bb-c3eb89bbea0e

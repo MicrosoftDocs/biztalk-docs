@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 6: Create a Send Port to Deliver Query Messages"
 title: "Step 6: Create a Send Port to Deliver Query Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -52,7 +53,7 @@ In this step, you create the send port to deliver the incoming queries (QRY^Q01 
    |--------------|-----------------------------------------------------------------------|
    | **Property** |             For **Property**, select **BTS.MessageType**.             |
    | **Operator** |                Select **==** from the drop-down list.                 |
-   |  **Value**   | Type **<http://microsoft.com/HealthCare/HL7/2X#QRY_Q01_24_GLO_DEF>**. |
+   |  **Value**   | Type `http://microsoft.com/HealthCare/HL7/2X#QRY_Q01_24_GLO_DEF`. |
    | **Group By** |                Select **AND** from the drop-down list.                |
    | **Property** | For **Property** on the second line, select **BTAHL7Schemas.MSH5_1**. |
    | **Operator** |                Select **==** from the drop-down list.                 |

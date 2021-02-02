@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Known Issues with AS2 Processing"
 title: "Known Issues with AS2 Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

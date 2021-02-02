@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix C: BizTalk Server and SQL Server Hyper-V Supportability"
 title: "Appendix C: BizTalk Server and SQL Server Hyper-V Supportability | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/29/2017"

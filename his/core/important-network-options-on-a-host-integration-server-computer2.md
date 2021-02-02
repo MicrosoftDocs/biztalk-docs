@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Important Network Options on a Host Integration Server Computer"
 title: "Important Network Options on a Host Integration Server Computer2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

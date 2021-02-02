@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Mappings Wizard: Mappings File Option"
 title: 'Create New Mappings Wizard: Mappings File Option'
 TOCTitle: 'Create New Mappings Wizard: Mappings File Option'
 ms:assetid: 688e3e7e-9926-4ce3-a1ce-d95a086bb9a6

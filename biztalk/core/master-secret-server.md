@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Master Secret Server"
 title: "Master Secret Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

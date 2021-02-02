@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FRR Send Port for Messages to SWIFT"
 title: "FRR Send Port for Messages to SWIFT | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

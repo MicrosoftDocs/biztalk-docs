@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Microsoft.BizTalk.DefaultPipelines Reference"
 title: "Microsoft.BizTalk.DefaultPipelines Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

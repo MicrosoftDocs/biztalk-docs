@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample TMA: BizTalk Message Queuing Adapter"
 title: "Sample TMA: BizTalk Message Queuing Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

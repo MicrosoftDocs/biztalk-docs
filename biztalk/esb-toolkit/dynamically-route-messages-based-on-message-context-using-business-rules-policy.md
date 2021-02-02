@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to: Dynamically Route a Message Based on Message Context Using a Business Rules Policy"
 title: "How to: Dynamically Route a Message Based on Message Context Using a Business Rules Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

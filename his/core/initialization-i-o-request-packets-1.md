@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Initialization (I/O Request Packets)"
 title: "Initialization (I-O Request Packets)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

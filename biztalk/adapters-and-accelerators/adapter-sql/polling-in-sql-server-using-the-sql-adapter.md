@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Polling in SQL Server using the SQL adapter"
 title: "Polling in SQL Server using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2019"
@@ -25,7 +26,7 @@ manager: "anneta"
 
 - **XmlPolling**. Enables you to use SELECT statements or stored procedures that use a FOR XML clause and return data as XML messages. This operation returns the polling message as an XML message.
 
-   For more information about FOR XML clause, see [http://go.microsoft.com/fwlink/?LinkId=131402](https://go.microsoft.com/fwlink/?LinkId=131402).
+   For more information about FOR XML clause, see [https://go.microsoft.com/fwlink/?LinkId=131402](https://go.microsoft.com/fwlink/?LinkId=131402).
 
   For more information about polling in the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see [Receive Polling-based Data-changed Messages from SQL Server by Using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-polling-based-data-changed-messages-from-sql-server-using-biztalk.md).
 

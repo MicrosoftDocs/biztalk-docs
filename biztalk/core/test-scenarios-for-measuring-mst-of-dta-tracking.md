@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Test Scenarios for Measuring MST of DTA Tracking"
 title: "Test Scenarios for Measuring MST of DTA Tracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -103,7 +104,7 @@ To show how all of this works in practice and to introduce a simple technique fo
 
    For example, we have provided all of the hardware, configuration, and solution architecture for the sample scenario in this topic. Using that, and the type of tracking we had turned on (default + 10 properties + 10KB message bodies) and the MST we achieved (20 msgs/sec) with a 24 hour DTA data retention window, compare that to your setup and requirements.
 
-   You should at least be able to estimate if the MST for your solution will be higher or lower than what we achieved. Various technical case studies may also be available to which you can compare your system. For examples, see the case studies available on the BizTalk Server Developer Center, at [http://go.microsoft.com/fwlink/?LinkId=49339](https://go.microsoft.com/fwlink/?LinkId=49339).
+   You should at least be able to estimate if the MST for your solution will be higher or lower than what we achieved. Various technical case studies may also be available to which you can compare your system. For examples, see the case studies available on the BizTalk Server Developer Center, at [https://go.microsoft.com/fwlink/?LinkId=49339](https://go.microsoft.com/fwlink/?LinkId=49339).
 
 - **Run the system under the estimated MST load and monitor the KPI**. Typically, starting out on the high side of your expected MST can shorten the time it takes to find MST. By starting high, you will drive the KPI to saturation (especially disk I/O) in less time than it will take to discover that you are below MST (that is, at least one full data retention window).
 

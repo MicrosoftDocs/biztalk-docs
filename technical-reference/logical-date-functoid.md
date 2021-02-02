@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Logical Date Functoid"
 title: Logical Date Functoid
 TOCTitle: Logical Date Functoid
 ms:assetid: 9cff7543-f240-4ff4-aba1-64f963b4eb42

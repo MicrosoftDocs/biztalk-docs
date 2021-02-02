@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating and Deploying A4SWIFT Pipelines"
 title: "Creating and Deploying A4SWIFT Pipelines | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Oracle Database change notifications after a receive location breakdown"
 title: "Receive Oracle Database change notifications after a receive location breakdown | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

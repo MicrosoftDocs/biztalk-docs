@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Active Link Information"
 title: "Active Link Information2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

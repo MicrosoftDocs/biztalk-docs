@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Search for Running Service Instances"
 title: "How to Search for Running Service Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransmitterBatch.TransmitMessage Method (COM)"
 title: IBTTransmitterBatch.TransmitMessage Method (COM)
 TOCTitle: IBTTransmitterBatch.TransmitMessage Method (COM)
 ms:assetid: 22dd77c3-f3f5-4f01-b945-54110f5d2596

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: About Instance Messages"
 title: "About Instance Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

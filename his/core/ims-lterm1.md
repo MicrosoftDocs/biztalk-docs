@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IMS_LTERM"
 title: "IMS_LTERM1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

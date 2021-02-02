@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Resolve Incomplete BAM Activity Instances"
 title: "How to Resolve Incomplete BAM Activity Instances | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

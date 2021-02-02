@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Handle Transactions with the Oracle Database adapter"
 title: "Handle Transactions with the Oracle Database adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

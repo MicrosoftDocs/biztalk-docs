@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IPropertyBag.RemoteRead Method"
 title: "IPropertyBag.RemoteRead Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

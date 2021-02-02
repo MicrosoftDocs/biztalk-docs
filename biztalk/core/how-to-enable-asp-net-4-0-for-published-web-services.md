@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Enable ASP.NET 4.0 for Published Web Services"
 title: "How to Enable ASP.NET 4.0 for Published Web Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

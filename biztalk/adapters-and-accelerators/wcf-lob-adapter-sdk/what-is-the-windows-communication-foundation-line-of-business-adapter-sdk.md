@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Is the Windows Communication Foundation Line of Business Adapter SDK"
 title: "What Is the Windows Communication Foundation Line of Business Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

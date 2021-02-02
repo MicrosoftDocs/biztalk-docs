@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WmiSnaTrace WMI Provider Classes"
 title: "WmiSnaTrace WMI Provider Classes2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

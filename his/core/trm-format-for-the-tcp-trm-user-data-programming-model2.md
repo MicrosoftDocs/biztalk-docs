@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TRM Format for the TCP TRM User Data Programming Model"
 title: "TRM Format for the TCP TRM User Data Programming Model2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

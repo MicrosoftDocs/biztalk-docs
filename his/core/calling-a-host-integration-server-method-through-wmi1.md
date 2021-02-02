@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Calling a Host Integration Server Method through WMI"
 title: "Calling a Host Integration Server Method through WMI1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

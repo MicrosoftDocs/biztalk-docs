@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Host File Designer Main Menu"
 title: "Host File Designer Main Menu1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

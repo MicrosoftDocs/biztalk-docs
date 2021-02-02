@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseComponent Interface (COM)"
 title: IBaseComponent Interface (COM)
 TOCTitle: IBaseComponent Interface (COM)
 ms:assetid: 119e24bd-af2f-429b-b591-8d9a4996f714

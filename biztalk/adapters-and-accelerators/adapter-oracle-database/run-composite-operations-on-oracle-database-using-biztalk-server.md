@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run Composite Operations on Oracle Database using BizTalk Server"
 title: "Run Composite Operations on Oracle Database using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

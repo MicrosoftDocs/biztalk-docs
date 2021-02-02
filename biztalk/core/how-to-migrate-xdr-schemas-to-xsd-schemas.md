@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Migrate XDR Schemas to XSD Schemas"
 title: "How to Migrate XDR Schemas to XSD Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

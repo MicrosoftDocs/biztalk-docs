@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Linking"
 title: "Linking1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

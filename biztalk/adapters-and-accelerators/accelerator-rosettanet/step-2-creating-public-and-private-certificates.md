@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Creating Public and Private Certificates"
 title: "Step 2: Creating Public and Private Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

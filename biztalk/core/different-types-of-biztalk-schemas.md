@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Different Types of BizTalk Schemas"
 title: "Different Types of BizTalk Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

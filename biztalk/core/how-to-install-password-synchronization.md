@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Install Password Synchronization"
 title: "How to Install Password Synchronization | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -36,7 +37,7 @@ As with the other Single Sign-On features, Password Synchronization is not insta
 
    Both the Windows Password Capture component and Password Change Notification Service (PCNS) must be installed on all domain controllers from which you will be capturing passwords. You can install these components from the following location:
 
-   [http://go.microsoft.com/fwlink/?LinkId=68145](https://go.microsoft.com/fwlink/?LinkId=68145)
+   [https://go.microsoft.com/fwlink/?LinkId=68145](https://go.microsoft.com/fwlink/?LinkId=68145)
 
    Read the accompanying documentation (also located in this folder) before you proceed with the installation on the domain controller.
 

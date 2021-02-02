@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tutorial 2: Migrating an SAP RFC BizTalk Project"
 title: "Tutorial 2: Migrating an SAP RFC BizTalk Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

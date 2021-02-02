@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WinSLIStartup"
 title: "WinSLIStartup2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

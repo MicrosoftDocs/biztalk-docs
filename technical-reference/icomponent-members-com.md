@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IComponent Members (COM)"
 title: IComponent Members (COM)
 TOCTitle: IComponent Members (COM)
 ms:assetid: a2322fab-4307-4ef2-a1ab-28568ee5c8e2

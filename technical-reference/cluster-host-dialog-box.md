@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Cluster Host Dialog Box"
 title: Cluster Host Dialog Box
 TOCTitle: Cluster Host Dialog Box
 ms:assetid: 85d8cd77-d2fb-4257-a878-a85b0e6dde46

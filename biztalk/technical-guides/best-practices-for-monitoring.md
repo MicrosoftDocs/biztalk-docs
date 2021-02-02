@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Best Practices for Monitoring"
 title: "Best Practices for Monitoring | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -48,7 +49,7 @@ This topic provides best practices for monitoring your Microsoft BizTalk Server 
 
 - The BizTalk Server Best Practices Analyzer examines a BizTalk Server deployment and generates a list of issues pertaining to best practices standards. The tool performs configuration-level verification by gathering data from different information sources, such as Windows Management Instrumentation (WMI) classes, SQL Server databases, and registry entries. The data is then used to evaluate the deployment configuration. The tool reads and reports only and does not modify any system settings, and is not a self-tuning tool.
 
-   You can download the BizTalk Server Best Practices Analyzer at [http://go.microsoft.com/fwlink/?LinkId=83317](https://go.microsoft.com/fwlink/?LinkId=83317) (https://go.microsoft.com/fwlink/?LinkId=83317).
+   You can download the BizTalk Server Best Practices Analyzer at [https://go.microsoft.com/fwlink/?LinkId=83317](https://go.microsoft.com/fwlink/?LinkId=83317) (https://go.microsoft.com/fwlink/?LinkId=83317).
 
   **Run the Performance Analysis of Logs tool (PAL)**
 
@@ -56,13 +57,13 @@ This topic provides best practices for monitoring your Microsoft BizTalk Server 
 
   **Run Log Parser**
 
-- Log Parser is a powerful, versatile tool that provides universal query access to text-based data such as log files, XML files and CSV files, as well as key data sources on the Windows® operating system such as the Event Log, the Registry, the file system, and Active Directory®. You may want to use this tool to query a significant amount of logging information. You can download the Log Parser tool at [http://go.microsoft.com/fwlink/?LinkID=85574](https://go.microsoft.com/fwlink/?LinkID=85574)
+- Log Parser is a powerful, versatile tool that provides universal query access to text-based data such as log files, XML files and CSV files, as well as key data sources on the Windows® operating system such as the Event Log, the Registry, the file system, and Active Directory®. You may want to use this tool to query a significant amount of logging information. You can download the Log Parser tool at [https://go.microsoft.com/fwlink/?LinkID=85574](https://go.microsoft.com/fwlink/?LinkID=85574)
 
   **Run the BizTalk MsgBoxViewer Tool**
 
-  Run the [BizTalk MsgBoxViewer tool](https://go.microsoft.com/fwlink/?LinkId=151930) available from [http://go.microsoft.com/fwlink/?LinkId=151930](https://go.microsoft.com/fwlink/?LinkId=151930). This tool analyzes the BizTalk MessageBox and other databases and generates an HTML report containing warnings, if any, and other information related to the databases. You can also save the reports for later use. These reports might be useful when troubleshooting issues with the BizTalk application.
+  Run the [BizTalk MsgBoxViewer tool](https://go.microsoft.com/fwlink/?LinkId=151930) available from [https://go.microsoft.com/fwlink/?LinkId=151930](https://go.microsoft.com/fwlink/?LinkId=151930). This tool analyzes the BizTalk MessageBox and other databases and generates an HTML report containing warnings, if any, and other information related to the databases. You can also save the reports for later use. These reports might be useful when troubleshooting issues with the BizTalk application.
 
-  If the BizTalk MsgBoxViewer tool identifies any issues, run the [Terminator tool](https://go.microsoft.com/fwlink/?LinkId=151931) available at [http://go.microsoft.com/fwlink/?LinkId=151931](https://go.microsoft.com/fwlink/?LinkId=151931). This tool enables users to easily resolve any issues identified by the BizTalk MsgBoxViewer tool. For more information about how the Terminator tool integrates with the BizTalk MsgBoxViewer tool, see [Using BizTalk Terminator to resolve issues identified by BizTalk MsgBoxViewer](https://go.microsoft.com/fwlink/?LinkId=151932) (https://go.microsoft.com/fwlink/?LinkId=151932).
+  If the BizTalk MsgBoxViewer tool identifies any issues, run the [Terminator tool](https://go.microsoft.com/fwlink/?LinkId=151931) available at [https://go.microsoft.com/fwlink/?LinkId=151931](https://go.microsoft.com/fwlink/?LinkId=151931). This tool enables users to easily resolve any issues identified by the BizTalk MsgBoxViewer tool. For more information about how the Terminator tool integrates with the BizTalk MsgBoxViewer tool, see [Using BizTalk Terminator to resolve issues identified by BizTalk MsgBoxViewer](https://go.microsoft.com/fwlink/?LinkId=151932) (https://go.microsoft.com/fwlink/?LinkId=151932).
 
 > [!NOTE]
 >  Use of these tools is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of these programs. Use of these programs is entirely at your own risk.

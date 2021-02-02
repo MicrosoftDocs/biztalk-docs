@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendHandler2.MgmtDbNameOverride Property (WMI)"
 title: MSBTS_SendHandler2.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_SendHandler2.MgmtDbNameOverride Property (WMI)
 ms:assetid: 303efd7c-d33b-4253-8b36-398587494ec2

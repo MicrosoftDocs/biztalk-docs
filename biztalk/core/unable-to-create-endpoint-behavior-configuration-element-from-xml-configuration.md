@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Unable to create endpoint behavior configuration element from XML configuration"
 title: "Unable to create endpoint behavior configuration element from XML configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

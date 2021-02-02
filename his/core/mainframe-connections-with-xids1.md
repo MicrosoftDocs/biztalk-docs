@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mainframe Connections with XIDs"
 title: "Mainframe Connections with XIDs1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

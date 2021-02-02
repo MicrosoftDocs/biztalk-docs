@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OS/400 Distributed Program Calls"
 title: "OS-400 Distributed Program Calls1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

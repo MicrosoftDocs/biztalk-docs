@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BAM Interceptor Error Messages"
 title: "BAM Interceptor Error Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

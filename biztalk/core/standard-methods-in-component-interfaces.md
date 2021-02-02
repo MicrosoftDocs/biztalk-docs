@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Standard Methods in Component Interfaces"
 title: "Standard Methods in Component Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

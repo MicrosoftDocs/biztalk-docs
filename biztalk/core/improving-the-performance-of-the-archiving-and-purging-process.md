@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Improving the Performance of the Archiving and Purging Process"
 title: "Improving the Performance of the Archiving and Purging Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Based on the specified delimiter set, no valid Digit could be found"
 title: "Based on the specified delimiter set, no valid Digit could be found | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

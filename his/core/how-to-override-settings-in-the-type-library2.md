@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How To Override Settings in the Type Library"
 title: "How To Override Settings in the Type Library2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

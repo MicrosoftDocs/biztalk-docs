@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enterprise Single Sign-on  Programmer's Reference"
 title: "Enterprise Single Sign-on Programmer's Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

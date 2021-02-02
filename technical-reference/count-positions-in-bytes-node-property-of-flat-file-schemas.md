@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Count Positions In Bytes (Node Property of Flat File Schemas)"
 title: Count Positions In Bytes (Node Property of Flat File Schemas)
 TOCTitle: Count Positions In Bytes (Node Property of Flat File Schemas)
 ms:assetid: 56eccdab-d4fb-4f8b-b39d-b269929b30c2

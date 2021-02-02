@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive database change notifications"
 title: "Receive database change notifications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Receive database change notifications
-The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] supports the ODP.NET Database Change Notification feature. Using this feature, the adapter clients can register a SELECT statement as the notification query on the database, and the database sends a notification to the adapter client as and when the result set of the SELECT statement changes. The database change notification is implemented in the adapter using the OracleDependency class. For more Oracle-specific information about the Database Change Support feature in ODP.NET and the OracleDependency class, go to [http://go.microsoft.com/fwlink/p/?LinkId=124801](https://go.microsoft.com/fwlink/p/?LinkId=124801).
+The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] supports the ODP.NET Database Change Notification feature. Using this feature, the adapter clients can register a SELECT statement as the notification query on the database, and the database sends a notification to the adapter client as and when the result set of the SELECT statement changes. The database change notification is implemented in the adapter using the OracleDependency class. For more Oracle-specific information about the Database Change Support feature in ODP.NET and the OracleDependency class, go to [https://go.microsoft.com/fwlink/p/?LinkId=124801](https://go.microsoft.com/fwlink/p/?LinkId=124801).
 
 ## Prerequisites
  The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] exposes an inbound operation, Notification, to support database change notification. However, for the database change notification to work with [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], you must ensure the following:
@@ -28,7 +29,7 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   grant change notification to <user name>
   ```
 
-- Decide on a TCP port that can be used by ODP.NET to receive database change notifications from Oracle database. Add the TCP port to Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [http://go.microsoft.com/fwlink/?LinkID=196959](https://go.microsoft.com/fwlink/?LinkID=196959). You must provide the same TCP port number for the **NotificationPort** binding property. For more information about the binding property, see [Read about the  BizTalk Adapter for Oracle E-Business Suite Binding Properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).
+- Decide on a TCP port that can be used by ODP.NET to receive database change notifications from Oracle database. Add the TCP port to Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](https://go.microsoft.com/fwlink/?LinkID=196959). You must provide the same TCP port number for the **NotificationPort** binding property. For more information about the binding property, see [Read about the  BizTalk Adapter for Oracle E-Business Suite Binding Properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).
 
   A typical database change notification using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] involves the following:
 

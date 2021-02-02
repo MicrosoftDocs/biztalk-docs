@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.SuspendTime Property (WMI)"
 title: MSBTS_ServiceInstance.SuspendTime Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.SuspendTime Property (WMI)
 ms:assetid: f13ec5aa-ad8a-4b7a-9785-acc3a9fb9ce4

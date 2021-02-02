@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOAdmin.CreateApplication Method"
 title: "ISSOAdmin.CreateApplication Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Monitoring SQL Server Agent Jobs"
 title: "Monitoring SQL Server Agent Jobs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -43,4 +44,4 @@ manager: "anneta"
 
 - For more information about monitoring the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SQL Agent jobs, see [Monitoring SQL Server Agent Jobs and Databases](../technical-guides/monitoring-sql-server-agent-jobs-and-databases.md).
 
-- For more information about the SQL Server Agent jobs that are included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] see ["Database Structure and Jobs"](https://go.microsoft.com/fwlink/?LinkID=153451) (<http://go.microsoft.com/fwlink/?LinkID=153451>).
+- For more information about the SQL Server Agent jobs that are included with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] see ["Database Structure and Jobs"](https://go.microsoft.com/fwlink/?LinkID=153451) (<https://go.microsoft.com/fwlink/?LinkID=153451>).

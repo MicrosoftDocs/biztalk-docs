@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOConfigOM.DiscoverServer Method"
 title: ISSOConfigOM.DiscoverServer Method
 TOCTitle: ISSOConfigOM.DiscoverServer Method
 ms:assetid: 076f04db-1bdf-4e0a-83c2-fc224141a630

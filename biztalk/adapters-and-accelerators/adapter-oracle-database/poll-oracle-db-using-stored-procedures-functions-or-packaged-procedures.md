@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Poll Oracle Database Using Stored Procedures, Functions, or Packaged Procedures and Functions"
 title: "Poll Oracle Database Using Stored Procedures, Functions, or Packaged Procedures and Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransportBatch.MoveToSuspendQ Method (COM)"
 title: IBTTransportBatch.MoveToSuspendQ Method (COM)
 TOCTitle: IBTTransportBatch.MoveToSuspendQ Method (COM)
 ms:assetid: d20040f1-9194-4d51-98eb-55229a1e9d01

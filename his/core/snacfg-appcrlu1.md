@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Snacfg APPCRLU"
 title: "Snacfg APPCRLU1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

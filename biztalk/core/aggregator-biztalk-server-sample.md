@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Aggregator (BizTalk Server Sample)"
 title: "Aggregator (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

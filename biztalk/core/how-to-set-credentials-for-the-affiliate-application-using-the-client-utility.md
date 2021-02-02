@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Set Credentials for the Affiliate Application Using the Client Utility"
 title: "How to Set Credentials for the Affiliate Application Using the Client Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

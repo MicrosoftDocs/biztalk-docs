@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 8B: Configure Party Information for the RX System"
 title: "Step 8B: Configure Party Information for the RX System | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

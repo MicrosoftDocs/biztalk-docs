@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Performance Counters on Transaction Integrator"
 title: "Performance Counters on Transaction Integrator2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

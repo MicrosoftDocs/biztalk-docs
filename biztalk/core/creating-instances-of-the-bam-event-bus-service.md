@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating Instances of the BAM Event Bus Service"
 title: "Creating Instances of the BAM Event Bus Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

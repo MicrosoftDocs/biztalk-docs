@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SPasswordChangeComplete.ullErrorCode Field"
 title: SPasswordChangeComplete.ullErrorCode Field
 TOCTitle: SPasswordChangeComplete.ullErrorCode Field
 ms:assetid: 963d850d-cebd-4d12-8b6a-76062b6dde53

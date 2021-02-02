@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Status-Acknowledge(ACKLUA)"
 title: "Status-Acknowledge(ACKLUA)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

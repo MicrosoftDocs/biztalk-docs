@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServerHost.ForceUnmap Method (WMI)"
 title: MSBTS_ServerHost.ForceUnmap Method (WMI)
 TOCTitle: MSBTS_ServerHost.ForceUnmap Method (WMI)
 ms:assetid: 32ebde10-54e1-462d-bbff-321ed4b827f6

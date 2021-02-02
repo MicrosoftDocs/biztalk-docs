@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Snacfg PrintSessionAPPC"
 title: "Snacfg PrintSessionAPPC2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

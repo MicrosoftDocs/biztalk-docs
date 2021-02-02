@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Which Node Name Characters Get Encoded"
 title: "Which Node Name Characters Get Encoded | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

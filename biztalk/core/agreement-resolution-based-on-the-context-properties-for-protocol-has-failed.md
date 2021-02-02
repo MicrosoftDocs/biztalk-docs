@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Agreement Resolution based on the context properties for Protocol has failed"
 title: "Agreement Resolution based on the context properties for Protocol has failed | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

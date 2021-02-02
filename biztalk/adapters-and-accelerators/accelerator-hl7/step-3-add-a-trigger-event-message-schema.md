@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Add a Trigger Event (Message) Schema"
 title: "Step 3: Add a Trigger Event (Message) Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

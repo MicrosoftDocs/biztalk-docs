@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: New Measure Dialog Box"
 title: New Measure Dialog Box
 TOCTitle: New Measure Dialog Box
 ms:assetid: 4ab69324-5f5a-49a3-9025-4a6dc80c0e45

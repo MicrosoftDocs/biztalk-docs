@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Create a Remote APPC LU"
 title: "How to Create a Remote APPC LU2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

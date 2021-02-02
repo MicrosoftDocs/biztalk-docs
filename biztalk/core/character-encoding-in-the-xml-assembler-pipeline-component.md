@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Character Encoding in the XML Assembler Pipeline Component"
 title: "Character Encoding in the XML Assembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

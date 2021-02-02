@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Move a Relationship Between Grid Pages"
 title: "How to Move a Relationship Between Grid Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

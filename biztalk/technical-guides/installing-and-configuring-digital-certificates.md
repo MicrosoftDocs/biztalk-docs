@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing and Configuring Digital Certificates"
 title: "Installing and Configuring Digital Certificates | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/29/2017"

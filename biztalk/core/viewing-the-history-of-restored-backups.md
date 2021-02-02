@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Viewing the History of Restored Backups"
 title: "Viewing the History of Restored Backups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

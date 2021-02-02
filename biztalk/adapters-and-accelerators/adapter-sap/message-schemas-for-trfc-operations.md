@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for tRFC Operations"
 title: "Message Schemas for tRFC Operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

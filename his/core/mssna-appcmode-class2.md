@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_AppcMode Class"
 title: "MsSna_AppcMode Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

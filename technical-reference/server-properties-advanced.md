@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server Properties: Advanced"
 title: 'Server Properties: Advanced'
 TOCTitle: 'Server Properties: Advanced'
 ms:assetid: a361adb7-3215-4e0b-ad0d-a6ced527eaa9

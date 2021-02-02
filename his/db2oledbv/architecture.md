@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Architecture"
 title: "Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

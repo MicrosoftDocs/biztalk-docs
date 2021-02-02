@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_TrackedMessageInstance2.MgmtDbNameOverride Property (WMI)"
 title: MSBTS_TrackedMessageInstance2.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_TrackedMessageInstance2.MgmtDbNameOverride Property (WMI)
 ms:assetid: 400c9b09-ce2a-4a52-b129-450d7984ef12

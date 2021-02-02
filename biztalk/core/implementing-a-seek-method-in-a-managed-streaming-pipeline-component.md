@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Implementing a Seek Method in a Managed Streaming Pipeline Component"
 title: "Implementing a Seek Method in a Managed Streaming Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

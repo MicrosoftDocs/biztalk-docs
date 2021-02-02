@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Custom Drop-Down Editor for Adapter Configuration"
 title: "Custom Drop-Down Editor for Adapter Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

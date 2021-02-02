@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Manage Existing Links"
 title: "How to Manage Existing Links | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

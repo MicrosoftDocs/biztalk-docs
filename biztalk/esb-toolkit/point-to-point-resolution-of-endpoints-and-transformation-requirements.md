@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Point-to-Point Resolution of Endpoints and Transformation Requirements"
 title: "Point-to-Point Resolution of Endpoints and Transformation Requirements | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

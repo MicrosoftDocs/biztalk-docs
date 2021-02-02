@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use namespaces with the WSDL-Proxy in the WCF LOB Adapter SDK"
 title: "Use namespaces with the WSDL-Proxy in the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

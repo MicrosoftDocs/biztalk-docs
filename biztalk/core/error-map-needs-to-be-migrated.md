@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Map Needs to be Migrated"
 title: "Error - Map Needs to be Migrated | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

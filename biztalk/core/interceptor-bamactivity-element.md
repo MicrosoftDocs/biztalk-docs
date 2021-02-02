@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Interceptor BamActivity Element"
 title: "Interceptor BamActivity Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

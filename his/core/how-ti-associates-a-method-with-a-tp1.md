@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How TI Associates a Method with a TP"
 title: "How TI Associates a Method with a TP1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

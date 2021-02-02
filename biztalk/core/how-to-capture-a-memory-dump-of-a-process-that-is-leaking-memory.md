@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Capture a Memory Dump of a Process that is Leaking Memory"
 title: "How to Capture a Memory Dump of a Process that is Leaking Memory | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

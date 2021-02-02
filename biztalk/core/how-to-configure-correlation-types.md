@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure Correlation Types"
 title: "How to Configure Correlation Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

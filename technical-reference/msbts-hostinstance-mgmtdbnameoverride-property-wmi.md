@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostInstance.MgmtDbNameOverride Property (WMI)"
 title: MSBTS_HostInstance.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_HostInstance.MgmtDbNameOverride Property (WMI)
 ms:assetid: 496f7e8c-f623-4c77-ac7d-cf54bfcca922

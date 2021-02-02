@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Start Send Port (BizTalk Server Sample)"
 title: "Start Send Port (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -75,7 +76,7 @@ The Start Send Port sample demonstrates how to start a send port and optionally 
 ## Comments
  All tasks that you can perform in the BizTalk Server Administration console can also be performed by using script that accesses the Windows WMI object model.
 
- The script file StartSendPort.vbs contains detailed comments with further explanation about the operations that it performs. For more information, see Windows Management Instrumentation at [http://go.microsoft.com/fwlink/?LinkId=21102](https://go.microsoft.com/fwlink/?LinkId=21102).
+ The script file StartSendPort.vbs contains detailed comments with further explanation about the operations that it performs. For more information, see Windows Management Instrumentation at [https://go.microsoft.com/fwlink/?LinkId=21102](https://go.microsoft.com/fwlink/?LinkId=21102).
 
 ## See Also
  [Admin-WMI (BizTalk Server Samples Folder)](../core/admin-wmi-biztalk-server-samples-folder.md)

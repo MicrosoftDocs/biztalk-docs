@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5: Configure a Receive Port and Receive Location"
 title: "Step 5: Configure a Receive Port and Receive Location | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

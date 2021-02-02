@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Copy, Cut, and Paste a Functoid"
 title: "How to Copy, Cut, and Paste a Functoid | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

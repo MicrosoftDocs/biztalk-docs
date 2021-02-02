@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Dynamic Send Port Handler is Configurable"
 title: "Dynamic Send Port Handler is Configurable | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

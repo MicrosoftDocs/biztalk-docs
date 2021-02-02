@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Key Scenarios and Development Tasks"
 title: "Key Scenarios and Development Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

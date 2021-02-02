@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AddResource Command: .NET Assembly"
 title: "AddResource Command: .NET Assembly | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

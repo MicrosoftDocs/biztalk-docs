@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to List All Referenced Databases"
 title: "How to List All Referenced Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

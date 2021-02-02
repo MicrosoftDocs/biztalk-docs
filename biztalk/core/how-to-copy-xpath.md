@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Copy XPath"
 title: "How to Copy XPath | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

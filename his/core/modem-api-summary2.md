@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Modem API Summary"
 title: "Modem API Summary2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

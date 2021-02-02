@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Upgrade to BizTalk Server 2016"
 title: "Upgrade to BizTalk Server 2016 | Microsoft Docs"
 ms.custom: ""
 ms.prod: biztalk-server

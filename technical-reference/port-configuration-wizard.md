@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Port Configuration Wizard"
 title: Port Configuration Wizard
 TOCTitle: Port Configuration Wizard
 ms:assetid: 73a30b25-5983-4254-a561-bca03783a9ec

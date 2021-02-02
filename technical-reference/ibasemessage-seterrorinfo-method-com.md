@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage.SetErrorInfo Method (COM)"
 title: IBaseMessage.SetErrorInfo Method (COM)
 TOCTitle: IBaseMessage.SetErrorInfo Method (COM)
 ms:assetid: f84ec341-bff7-4f00-af8e-a9100ab986c5

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AS2 Send Components"
 title: "AS2 Send Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -99,7 +100,7 @@ manager: "anneta"
 -   Archive marked records
 
 > [!IMPORTANT]
->  To ensure authentication and integrity of messages stored in the non-repudiation database, digital signatures should be used on all messages that will be stored in the database, both original AS2 messages and MDNs. For more information, see section 9.1 of [RFC 1430, "MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP, Applicability Statement 2 (AS2)"](https://go.microsoft.com/fwlink/?LinkID=184212) ([http://go.microsoft.com/fwlink/?LinkID=184212](https://go.microsoft.com/fwlink/?LinkID=184212)).
+>  To ensure authentication and integrity of messages stored in the non-repudiation database, digital signatures should be used on all messages that will be stored in the database, both original AS2 messages and MDNs. For more information, see section 9.1 of [RFC 1430, "MIME-Based Secure Peer-to-Peer Business Data Interchange Using HTTP, Applicability Statement 2 (AS2)"](https://go.microsoft.com/fwlink/?LinkID=184212) ([https://go.microsoft.com/fwlink/?LinkID=184212](https://go.microsoft.com/fwlink/?LinkID=184212)).
 
 ## See Also
  [How BizTalk Server Sends AS2 Messages](../core/how-biztalk-server-sends-as2-messages.md)

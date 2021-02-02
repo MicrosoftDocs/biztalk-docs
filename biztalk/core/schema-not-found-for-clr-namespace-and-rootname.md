@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Schema not found for CLR Namespace and rootName"
 title: "Schema not found for CLR Namespace and rootName | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

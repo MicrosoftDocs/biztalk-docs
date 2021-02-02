@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Converting Data Types from Automation to OS/390 COBOL]"
 title: "Converting Data Types from Automation to OS-390 COBOL]2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

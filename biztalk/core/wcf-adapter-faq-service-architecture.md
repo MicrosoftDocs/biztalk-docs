@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCF Adapter FAQ: Service Architecture"
 title: "WCF Adapter FAQ: Service Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

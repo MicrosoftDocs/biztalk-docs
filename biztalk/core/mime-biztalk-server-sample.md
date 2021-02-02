@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MIME (BizTalk Server Sample)"
 title: "MIME (BizTalk Server Sample) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Export COBOL from a TI Component"
 title: "How to Export COBOL from a TI Component1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

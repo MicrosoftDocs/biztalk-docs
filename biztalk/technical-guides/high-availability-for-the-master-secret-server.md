@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: High Availability for the Master Secret Server"
 title: "High Availability for the Master Secret Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -21,7 +22,7 @@ Even if you do not use the Enterprise Single Sign-On (SSO) functionality for map
  If the master secret server fails, and the SSO service detects the failure in one of its refresh intervals, the SSO service and all run-time operations that were running before the server failed, including decryption of credentials, continue successfully. However, you cannot encrypt new credentials or port configuration data. Therefore, the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment has a dependency on the availability of the master secret server.
 
 ## Making the Master Secret Server Available
- For availability of the SSO system, and therefore of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, it is critical that you back up the master secret as soon as it is generated. If you lose it, you lose the data that the SSO system encrypted by using that master secret. For more information about backing up the master secret, see [How to Back Up the Master Secret](https://go.microsoft.com/fwlink/?LinkID=151934) (<http://go.microsoft.com/fwlink/?LinkID=151934>) in BizTalk Server Help.
+ For availability of the SSO system, and therefore of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, it is critical that you back up the master secret as soon as it is generated. If you lose it, you lose the data that the SSO system encrypted by using that master secret. For more information about backing up the master secret, see [How to Back Up the Master Secret](https://go.microsoft.com/fwlink/?LinkID=151934) (<https://go.microsoft.com/fwlink/?LinkID=151934>) in BizTalk Server Help.
 
  You can make the master secret server available in two ways:
 

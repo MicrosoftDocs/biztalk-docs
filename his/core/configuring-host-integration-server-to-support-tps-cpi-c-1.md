@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Host Integration Server to Support TPs (CPI-C)"
 title: "Configuring Host Integration Server to Support TPs (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

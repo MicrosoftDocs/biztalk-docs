@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SSO_NOTIFICATION_FLAG Enumeration (COM)"
 title: SSO_NOTIFICATION_FLAG Enumeration (COM)
 TOCTitle: SSO_NOTIFICATION_FLAG Enumeration (COM)
 ms:assetid: 616829c9-25cd-4c5c-8f4e-47edcfe2bfc7

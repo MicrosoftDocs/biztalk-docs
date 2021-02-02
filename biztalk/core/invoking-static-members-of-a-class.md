@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invoking Static Members of a Class"
 title: "Invoking Static Members of a Class | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IPipelineContext.PipelineID Property (COM)"
 title: IPipelineContext.PipelineID Property (COM)
 TOCTitle: IPipelineContext.PipelineID Property (COM)
 ms:assetid: 64f2aeab-f362-407a-b549-206f8760d76a

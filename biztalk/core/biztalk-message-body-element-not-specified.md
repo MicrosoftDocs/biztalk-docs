@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk message body element not specified"
 title: "BizTalk message body element not specified | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -31,4 +32,4 @@ manager: "anneta"
  This error indicates the use of the template option for the outbound WCF message. However, the template expression doesn’t contain the BizTalk message body element.  
   
 ## User Action  
- Ensure that the template expression contains the following element: \<**bts-msg-body xmlns="<http://www.microsoft.com/schemas/bts2007>" encoding="[xml&#124;base64&#124;hex&#124;string]"/**\>.
+ Ensure that the template expression contains the following element: `<bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="[xml|base64|hex|string]"/>`.

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message did not contain UNA and pipeline property for delimiters was incorrect format"
 title: "Message did not contain UNA and pipeline property for delimiters was incorrect format | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

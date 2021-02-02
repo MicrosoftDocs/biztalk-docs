@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure a SOAP Receive Handler"
 title: "How to Configure a SOAP Receive Handler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

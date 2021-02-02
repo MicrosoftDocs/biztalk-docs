@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Supported Platforms for Session Integrator"
 title: "Supported Platforms for Session Integrator2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

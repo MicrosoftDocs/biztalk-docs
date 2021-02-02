@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Remove Deployed Artifacts"
 title: "How to Remove Deployed Artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

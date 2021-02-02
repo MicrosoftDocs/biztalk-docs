@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Checklists for Other Important Tasks"
 title: "Checklists for Other Important Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

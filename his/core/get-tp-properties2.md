@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GET_TP_PROPERTIES"
 title: "GET_TP_PROPERTIES2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

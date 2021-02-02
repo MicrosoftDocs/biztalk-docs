@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Message Decoded Page UI"
 title: Message Decoded Page UI
 TOCTitle: Message Decoded Page UI
 ms:assetid: 79f14504-9a09-42c1-ae6a-0f65e2c19cbd

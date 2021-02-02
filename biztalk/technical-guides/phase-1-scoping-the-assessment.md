@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Phase 1: Scoping the Assessment"
 title: "Phase 1: Scoping the Assessment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -167,7 +168,7 @@ This topic describes the aspects of the scope phase of a BizTalk Server performa
   - Ability to identify performance problems using SQL Server 2008 R2 Performance Dashboard Reports.
 
     > [!NOTE]
-    >  SQL Server 2008 R2 Performance Dashboard Reports is available for download at [http://go.microsoft.com/fwlink/?LinkId=118673](https://go.microsoft.com/fwlink/?LinkId=118673).
+    >  SQL Server 2008 R2 Performance Dashboard Reports is available for download at [https://go.microsoft.com/fwlink/?LinkId=118673](https://go.microsoft.com/fwlink/?LinkId=118673).
 
     For each specialist technology involved in the performance assessment, a list of requirements should be defined as is done above for SQL Server. This ensures the resource obtained has clear expectations of what will be required of them. Another technology that frequently requires specialized knowledge during the performance assessment is IBM Websphere MQ. The list below illustrates the requirements specification for an IBM WebSphere MQ product specialist:
 
@@ -302,7 +303,7 @@ This topic describes the aspects of the scope phase of a BizTalk Server performa
   > [!NOTE]
   >  For more information about implementing an automated build process, see[Automating the Build Process](../technical-guides/automating-the-build-process.md)
 
-   MSBuild was introduced with the .NET framework 2.0 to enable developers to automate tasks such as those described earlier. Several BizTalk Server–specific MSBuild tasks are included with the SDC Tasks library, which is available for download from  [http://go.microsoft.com/fwlink/?LinkId=119288](https://go.microsoft.com/fwlink/?LinkId=119288).
+   MSBuild was introduced with the .NET framework 2.0 to enable developers to automate tasks such as those described earlier. Several BizTalk Server–specific MSBuild tasks are included with the SDC Tasks library, which is available for download from  [https://go.microsoft.com/fwlink/?LinkId=119288](https://go.microsoft.com/fwlink/?LinkId=119288).
 
 - **Test data to be used during the performance assessment** – The test data that is used has a considerable influence on the overall effectiveness and success of a performance assessment.  Consider the scenario where a BizTalk Server application utilizes messaging, orchestration and the Rules Engine. The Rules Engine is called from within a pipeline component on the receive side to determine which orchestration will be used to process the message; and it is also called from within the orchestration at various points to determine flow. The Rules Engine implements caching so that rules policy execution is optimized. Therefore, if a single message is used as test data during the performance assessment, test results may be skewed (due to caching) and you may obtain results that can’t be replicated in production.
 

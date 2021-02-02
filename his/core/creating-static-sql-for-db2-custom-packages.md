@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating Static SQL for DB2 Custom Packages"
 title: "Creating Static SQL for DB2 Custom Packages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

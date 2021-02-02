@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Execute a Custom Itinerary Scenario"
 title: "Execute a Custom Itinerary Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure the BTS_BACKUP_USERS Role for Archiving and Purging Data from the BizTalk Tracking Database"
 title: "How to Configure the BTS_BACKUP_USERS Role for Archiving and Purging Data from the BizTalk Tracking Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

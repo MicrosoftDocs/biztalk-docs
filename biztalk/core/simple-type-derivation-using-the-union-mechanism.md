@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Simple Type Derivation Using the Union Mechanism"
 title: "Simple Type Derivation Using the Union Mechanism | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add a Reference to an Application"
 title: "How to Add a Reference to an Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,4 +21,4 @@ This topic provides information about using the BizTalk Server Administration co
 
 - Adding a reference to another application, see [How to Add a Reference to Another Application](https://go.microsoft.com/fwlink/?LinkID=155011) (https://go.microsoft.com/fwlink/?LinkID=155011).
 
-- Adding a reference to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI application, see [How to Add a Reference to the BizTalk Server EDI Application](https://go.microsoft.com/fwlink/?LinkId=155026) (<http://go.microsoft.com/fwlink/?LinkId=155026>).
+- Adding a reference to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI application, see [How to Add a Reference to the BizTalk Server EDI Application](https://go.microsoft.com/fwlink/?LinkId=155026) (<https://go.microsoft.com/fwlink/?LinkId=155026>).

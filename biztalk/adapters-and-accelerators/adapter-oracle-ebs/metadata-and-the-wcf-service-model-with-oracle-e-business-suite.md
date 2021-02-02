@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Metadata and the WCF Service Model with Oracle E-Business Suite"
 title: "Metadata and the WCF Service Model with Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -23,7 +24,7 @@ In the WCF service model, you use the [!INCLUDE[addadapterservreflong](../../inc
 
 - Annotated classes that represent the supporting message contracts, operation contracts, and data contracts for the service contract.
 
-  For help in understanding the structure of this generated code, see "Understanding Generated Client Code" at [http://go.microsoft.com/fwlink/?LinkId=98365](https://go.microsoft.com/fwlink/?LinkId=98365). This topic specifically describes code that svcutil.exe generates, but its content is also applicable to the code that the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] generates.
+  For help in understanding the structure of this generated code, see "Understanding Generated Client Code" at [https://go.microsoft.com/fwlink/?LinkId=98365](https://go.microsoft.com/fwlink/?LinkId=98365). This topic specifically describes code that svcutil.exe generates, but its content is also applicable to the code that the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] generates.
 
   For information about how to generate a WCF client class or WCF service contract for target operations and about the differences between svcutil.exe and the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], see [Generate a WCF Client or a WCF Service Contract for Oracle E-Business Suite Solution Artifacts](../../adapters-and-accelerators/adapter-oracle-ebs/create-a-wcf-client-or-wcf-service-contract-for-oracle-ebs-solution-artifacts.md).
 

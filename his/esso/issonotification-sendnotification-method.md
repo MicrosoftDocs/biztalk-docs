@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSONotification.SendNotification Method"
 title: "ISSONotification.SendNotification Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.DBSessionThreshold Property (WMI)"
 title: MSBTS_HostSetting.DBSessionThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.DBSessionThreshold Property (WMI)
 ms:assetid: 32725bbb-b78b-42f7-bde1-fb06a668481a

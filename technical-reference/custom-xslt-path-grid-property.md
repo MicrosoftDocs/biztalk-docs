@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Custom XSLT Path (Grid Property)"
 title: Custom XSLT Path (Grid Property)
 TOCTitle: Custom XSLT Path (Grid Property)
 ms:assetid: 8a10ef52-75cd-4443-833c-a7bb74e31dc4

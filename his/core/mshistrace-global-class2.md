@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsHisTrace_Global Class"
 title: "MsHisTrace_Global Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

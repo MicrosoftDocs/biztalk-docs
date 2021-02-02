@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3a: Receive Salesforce Opportunity Notification into BizTalk Server"
 title: "Step 3a: Receive Salesforce Opportunity Notification into BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

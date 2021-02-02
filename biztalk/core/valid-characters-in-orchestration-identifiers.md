@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Valid Characters in Orchestration Identifiers"
 title: "Valid Characters in Orchestration Identifiers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

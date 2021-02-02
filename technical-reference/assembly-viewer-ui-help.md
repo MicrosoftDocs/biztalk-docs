@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Assembly Viewer UI Help"
 title: Assembly Viewer UI Help
 TOCTitle: Assembly Viewer UI Help
 ms:assetid: 97c02869-1d1b-4559-ab85-92e58953389d

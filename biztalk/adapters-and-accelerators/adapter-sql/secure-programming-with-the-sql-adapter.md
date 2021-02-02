@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Secure programming with the SQL adapter"
 title: "Secure programming with the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

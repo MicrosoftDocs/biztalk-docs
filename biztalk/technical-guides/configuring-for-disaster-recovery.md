@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring for Disaster Recovery"
 title: "Configuring for Disaster Recovery | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

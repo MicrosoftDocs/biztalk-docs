@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Function Management Interface"
 title: "Function Management Interface2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

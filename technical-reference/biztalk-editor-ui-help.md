@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Editor UI Help"
 title: BizTalk Editor UI Help
 TOCTitle: BizTalk Editor UI Help
 ms:assetid: 7ea2b812-8b81-4705-8370-2b4aa6b7cbb8

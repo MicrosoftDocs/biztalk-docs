@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Enterprise Single Sign-On UI Help"
 title: Enterprise Single Sign-On UI Help
 TOCTitle: Enterprise Single Sign-On UI Help
 ms:assetid: 637108fd-956c-4581-8051-cce03ba9dfde

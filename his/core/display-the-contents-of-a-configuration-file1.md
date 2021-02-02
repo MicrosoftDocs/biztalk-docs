@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Display the Contents of a Configuration File"
 title: "Display the Contents of a Configuration File1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mainframe Connections without XIDs"
 title: "Mainframe Connections without XIDs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

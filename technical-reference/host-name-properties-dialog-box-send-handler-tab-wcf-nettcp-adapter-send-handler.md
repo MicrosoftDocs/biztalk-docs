@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, Send Handler Tab (WCF-NetTcp Adapter Send Handler)"
 title: <Host Name> Properties Dialog Box, Send Handler Tab (WCF-NetTcp Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Send Handler Tab (WCF-NetTcp Adapter Send Handler)
 ms:assetid: 7213db21-28be-4420-9f61-358e8620e3be

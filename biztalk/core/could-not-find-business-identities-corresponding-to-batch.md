@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Could not find Business Identities corresponding to batch"
 title: "Could not find Business Identities corresponding to batch | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

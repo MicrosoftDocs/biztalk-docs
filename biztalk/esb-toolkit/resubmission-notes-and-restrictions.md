@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Resubmission Notes and Restrictions"
 title: "Resubmission Notes and Restrictions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

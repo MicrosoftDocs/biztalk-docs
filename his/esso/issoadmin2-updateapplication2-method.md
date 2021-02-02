@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOAdmin2.UpdateApplication2 Method"
 title: "ISSOAdmin2.UpdateApplication2 Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

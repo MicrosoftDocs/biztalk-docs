@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Specifying a Remote Environment Programmatically"
 title: "Specifying a Remote Environment Programmatically1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Running the Transformation Service Sample"
 title: "Running the Transformation Service Sample | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -14,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Running the Transformation Service Sample
-You can execute the Transformation Service sample using any tool or utility that can execute Web service methods. For example, you can use Storm, available from [CodePlex](https://go.microsoft.com/fwlink/?LinkId=187762) ([http://go.microsoft.com/fwlink/?LinkId=187762](https://go.microsoft.com/fwlink/?LinkId=187762)), or you can create your own test client that invokes the Transformation Web service.
+You can execute the Transformation Service sample using any tool or utility that can execute Web service methods. For example, you can use Storm, available from [CodePlex](https://go.microsoft.com/fwlink/?LinkId=187762) ([https://go.microsoft.com/fwlink/?LinkId=187762](https://go.microsoft.com/fwlink/?LinkId=187762)), or you can create your own test client that invokes the Transformation Web service.
 
  To use the .NET Web Service Studio to test for correct installation of the Transformation Service sample, enter the URL for the ASMX-based Transformation Web service into the **WSDL EndPoint** text box, and then click the **Get** button. This generates a client front-end interface that you can use to call the ESB Transformation Web Service, as shown in Figure 1.
 

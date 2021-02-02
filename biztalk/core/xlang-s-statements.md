@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XLANG-s Statements"
 title: "XLANG-s Statements | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

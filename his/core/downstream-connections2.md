@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Downstream Connections"
 title: "Downstream Connections2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

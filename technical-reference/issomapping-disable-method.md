@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapping.Disable Method"
 title: ISSOMapping.Disable Method
 TOCTitle: ISSOMapping.Disable Method
 ms:assetid: 261e9716-fced-40b8-a63b-f4b1b75adbeb

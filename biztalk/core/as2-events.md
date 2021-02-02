@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: AS2 Events"
 title: "AS2 Events | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

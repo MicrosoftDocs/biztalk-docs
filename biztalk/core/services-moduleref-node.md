@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Services (ModuleRef Node)"
 title: "Services (ModuleRef Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

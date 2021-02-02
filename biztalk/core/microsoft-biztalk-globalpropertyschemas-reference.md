@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Microsoft.BizTalk.GlobalPropertySchemas Reference"
 title: "Microsoft.BizTalk.GlobalPropertySchemas Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

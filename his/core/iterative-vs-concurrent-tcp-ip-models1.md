@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Iterative vs. Concurrent TCP/IP Models"
 title: "Iterative vs. Concurrent TCP-IP Models1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

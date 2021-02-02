@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SMTP Adapter"
 title: "SMTP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

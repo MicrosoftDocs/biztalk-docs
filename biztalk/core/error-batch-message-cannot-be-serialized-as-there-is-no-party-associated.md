@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Batch message cannot be serialized as there is no party associated with send port"
 title: "Batch message cannot be serialized as there is no party associated with send port | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

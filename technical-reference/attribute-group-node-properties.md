@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Attribute Group Node Properties"
 title: Attribute Group Node Properties
 TOCTitle: Attribute Group Node Properties
 ms:assetid: f7384d51-9a79-4e69-b436-67bb74db8aac

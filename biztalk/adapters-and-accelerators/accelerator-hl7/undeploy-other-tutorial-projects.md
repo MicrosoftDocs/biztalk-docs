@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Undeploy Other Tutorial Projects"
 title: "Undeploy Other Tutorial Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

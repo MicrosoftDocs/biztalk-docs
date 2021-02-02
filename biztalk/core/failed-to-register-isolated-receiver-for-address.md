@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Failed to register isolated receiver for address"
 title: "Failed to register isolated receiver for address | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

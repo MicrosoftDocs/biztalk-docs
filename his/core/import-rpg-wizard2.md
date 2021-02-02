@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Import RPG Wizard"
 title: "Import RPG Wizard2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

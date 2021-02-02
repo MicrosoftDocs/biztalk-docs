@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Cumulative Average Functoid"
 title: Cumulative Average Functoid
 TOCTitle: Cumulative Average Functoid
 ms:assetid: b8ed38e8-6674-40c1-af26-26ab79bc3a81

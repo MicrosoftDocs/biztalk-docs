@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cannot determine scheme"
 title: "Cannot determine scheme | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

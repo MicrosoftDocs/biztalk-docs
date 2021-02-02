@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sync Point Knows Transaction Names"
 title: "Sync Point Knows Transaction Names2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

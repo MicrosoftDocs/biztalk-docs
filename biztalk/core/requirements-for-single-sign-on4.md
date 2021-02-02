@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Requirements for Single Sign-On"
 title: "SSO requirements for TIBCO EMS adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

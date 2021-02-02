@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message cannot be serialized as the schema could not be located"
 title: "Message cannot be serialized as the schema could not be located | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

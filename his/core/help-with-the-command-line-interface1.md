@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Help with the Command-Line Interface"
 title: "Help with the Command-Line Interface1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

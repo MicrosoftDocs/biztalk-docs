@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Edifact interchange should have contained TransactionSetGroup or FunctionalGroup Xml tags"
 title: "Edifact interchange should have contained TransactionSetGroup or FunctionalGroup Xml tags | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

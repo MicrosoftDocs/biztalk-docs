@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Batch Schedule Tab"
 title: "Batch Schedule Tab | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

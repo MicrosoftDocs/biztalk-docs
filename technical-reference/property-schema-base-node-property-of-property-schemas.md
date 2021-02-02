@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Property Schema Base (Node Property of Property Schemas)"
 title: Property Schema Base (Node Property of Property Schemas)
 TOCTitle: Property Schema Base (Node Property of Property Schemas)
 ms:assetid: 5cd7da90-1a6b-4a2b-8e29-ee2a9b60d1d9

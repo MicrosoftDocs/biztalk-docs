@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Password Sync Adapter Wizard: Advanced Filter"
 title: 'Create New Password Sync Adapter Wizard: Advanced Filter'
 TOCTitle: 'Create New Password Sync Adapter Wizard: Advanced Filter'
 ms:assetid: 0389500a-7613-4d15-8c1a-cd98ea5f2aec

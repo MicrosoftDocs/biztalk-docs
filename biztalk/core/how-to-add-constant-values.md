@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add Constant Values"
 title: "How to Add Constant Values | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

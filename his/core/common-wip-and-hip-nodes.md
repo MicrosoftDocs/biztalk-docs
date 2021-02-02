@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Common WIP and HIP Nodes"
 title: "Common WIP and HIP Nodes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

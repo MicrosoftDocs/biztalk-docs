@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Pre- and Post-processing Scripts to Customize Application Deployment"
 title: "Using Pre- and Post-processing Scripts to Customize Application Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

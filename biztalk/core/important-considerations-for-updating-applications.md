@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Important Considerations for Updating Applications"
 title: "Important Considerations for Updating Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Obtain a Single Value from a Host File System"
 title: "How to Obtain a Single Value from a Host File System1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

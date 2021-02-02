@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for Tracking"
 title: "Planning for Tracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -39,7 +40,7 @@ Message tracking is the process by which parts of a message instance, such as th
  When the option to **Allow Host Tracking** is enabled for a host in the BizTalk Server Administration console, instances of that host will run the Tracking Data Decode Service (TDDS) to move tracked data from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] MessageBox database to the BizTalk Tracking database. Since TDDS may be resource intensive, consider creating a "dedicated" tracking host for which the **Allow Host Tracking** option is enabled and which does not run any other [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes (such as adapters or orchestrations). If your BizTalk group contains more than one BizTalk server, it is also considered a best practice to create an instance of this host on each server in the group to provide high availability for TDDS.
 
 ## Testing to Measure Maximum Sustainable Tracking Throughput
- Extensive message tracking is a very resource intensive activity and if not properly managed can have an extremely adverse effect on the performance of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment. Therefore, you should measure maximum sustainable tracking throughput for your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment to ensure that the system is sustainable and will run indefinitely at a given message flow rate. For more information about measuring maximum sustainable tracking throughput, see [Measuring Maximum Sustainable Tracking Throughput](https://go.microsoft.com/fwlink/?LinkID=153815) (<http://go.microsoft.com/fwlink/?LinkID=153815>).
+ Extensive message tracking is a very resource intensive activity and if not properly managed can have an extremely adverse effect on the performance of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment. Therefore, you should measure maximum sustainable tracking throughput for your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment to ensure that the system is sustainable and will run indefinitely at a given message flow rate. For more information about measuring maximum sustainable tracking throughput, see [Measuring Maximum Sustainable Tracking Throughput](https://go.microsoft.com/fwlink/?LinkID=153815) (<https://go.microsoft.com/fwlink/?LinkID=153815>).
 
 ##  <a name="BKMK_TrackingBP"></a> Best Practices for Tracking
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Correlating an Incoming Transaction Set with an Outgoing Batch"
 title: "Correlating an Incoming Transaction Set with an Outgoing Batch | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server"
 title: "Receive polling messages using SELECT statements with FOR XML Clause from SQL using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -72,7 +73,7 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
 
    1.  Add a node to the schema and move the existing root node under this newly added node. Give a name to the root node. For this topic, rename the root node to **Root**.
 
-   2.  The response schema generated for the SELECT statement references a sqltypes.xsd. You can get the sqltypes.xsd schema from [http://go.microsoft.com/fwlink/p/?LinkId=131087](https://go.microsoft.com/fwlink/p/?LinkId=131087). Add the sqltypes.xsd schema to the BizTalk project.
+   2.  The response schema generated for the SELECT statement references a sqltypes.xsd. You can get the sqltypes.xsd schema from [https://go.microsoft.com/fwlink/p/?LinkId=131087](https://go.microsoft.com/fwlink/p/?LinkId=131087). Add the sqltypes.xsd schema to the BizTalk project.
 
    3.  In the schema generated for the SELECT statement, change the value of `import schemaLocation` to the following.
 

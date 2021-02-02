@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Supported RPG Keywords"
 title: "Supported RPG Keywords2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

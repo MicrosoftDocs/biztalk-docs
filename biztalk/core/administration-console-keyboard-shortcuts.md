@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Administration Console Keyboard Shortcuts"
 title: "Administration Console Keyboard Shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -21,7 +22,7 @@ manager: "anneta"
 By using the following keyboard shortcuts you can quickly accomplish many common tasks in the BizTalk Administration console.
 
 > [!NOTE]
->  Functionality that is not included in this list can be obtained by using the numeric keypad to move the mouse pointer with MouseKeys. For more information about MouseKeys, see Using the keyboard to move the mouse pointer at [http://go.microsoft.com/fwlink/?LinkId=48848](https://go.microsoft.com/fwlink/?LinkId=48848).
+>  Functionality that is not included in this list can be obtained by using the numeric keypad to move the mouse pointer with MouseKeys. For more information about MouseKeys, see Using the keyboard to move the mouse pointer at [https://go.microsoft.com/fwlink/?LinkId=48848](https://go.microsoft.com/fwlink/?LinkId=48848).
 
 |Action|Keyboard shortcut|
 |------------|-----------------------|

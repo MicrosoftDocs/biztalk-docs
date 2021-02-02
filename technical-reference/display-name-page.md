@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Display Name Page"
 title: Display Name Page
 TOCTitle: Display Name Page
 ms:assetid: 736bff8b-57f1-4bc9-a681-bf3c20f1d4f7

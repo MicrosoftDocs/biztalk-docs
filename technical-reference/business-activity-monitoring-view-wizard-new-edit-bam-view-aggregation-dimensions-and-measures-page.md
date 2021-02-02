@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Business Activity Monitoring View Wizard, New-Edit BAM View: Aggregation Dimensions and Measures Page"
 title: 'Business Activity Monitoring View Wizard, New-Edit BAM View: Aggregation Dimensions and Measures Page'
 TOCTitle: 'Business Activity Monitoring View Wizard, New-Edit BAM View: Aggregation Dimensions and Measures Page'
 ms:assetid: 04444c3e-39d6-444e-898a-81f71929e224

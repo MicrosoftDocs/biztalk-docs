@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Subtraction Functoid"
 title: Subtraction Functoid
 TOCTitle: Subtraction Functoid
 ms:assetid: 188efc20-0c07-4d32-86af-ec0854d641a5

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Edifact interchange should have contained UNA or UNB as the first segment"
 title: "Edifact interchange should have contained UNA or UNB as the first segment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

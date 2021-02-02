@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessage Interface (COM)"
 title: IBaseMessage Interface (COM)
 TOCTitle: IBaseMessage Interface (COM)
 ms:assetid: 8c4ef1bc-a131-41c6-8a7d-3884c2a9c4b4

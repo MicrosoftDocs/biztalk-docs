@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Server Project Versioning"
 title: "BizTalk Server Project Versioning | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

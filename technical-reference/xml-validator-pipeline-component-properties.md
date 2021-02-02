@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: XML Validator Pipeline Component Properties"
 title: XML Validator Pipeline Component Properties
 TOCTitle: XML Validator Pipeline Component Properties
 ms:assetid: fc10c053-9878-4a66-aa89-b21a81068adc

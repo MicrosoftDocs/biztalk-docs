@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Consuming Web Services with SOAP Headers"
 title: "Consuming Web Services with SOAP Headers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,7 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Consuming Web Services with SOAP Headers
-After you consume a Web service with defined SOAP headers, these headers become available to your orchestrations and pipeline components as context properties. These context properties contain string representations of the SOAP headers. For each defined SOAP header in the Web service, you can create a context property by using the name that corresponds to the root element of the SOAP header. All defined SOAP header context properties are in the **http://schemas.microsoft.com/BizTalk/2003/SOAPHeader** namespace.  
+After you consume a Web service with defined SOAP headers, these headers become available to your orchestrations and pipeline components as context properties. These context properties contain string representations of the SOAP headers. For each defined SOAP header in the Web service, you can create a context property by using the name that corresponds to the root element of the SOAP header. All defined SOAP header context properties are in the `http://schemas.microsoft.com/BizTalk/2003/SOAPHeader` namespace.  
   
  The following example shows how to create a SOAP header context property **OrigDest** using the SOAP header example in [SOAP Headers with Consumed Web Services](../core/soap-headers-with-consumed-web-services.md):  
   

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Update References to the BAM Analysis Server and Star Schema Database Names"
 title: "How to Update References to the BAM Analysis Server and Star Schema Database Names | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

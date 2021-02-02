@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OPEN Call"
 title: "OPEN Call2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

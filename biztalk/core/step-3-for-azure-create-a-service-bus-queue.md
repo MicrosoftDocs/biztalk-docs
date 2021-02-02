@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3 (For Azure): Create a Service Bus Queue"
 title: "Step 3 (For Azure): Create a Service Bus Queue | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

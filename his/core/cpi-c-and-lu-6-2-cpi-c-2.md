@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CPI-C and LU 6.2 (CPI-C)"
 title: "CPI-C and LU 6.2 (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

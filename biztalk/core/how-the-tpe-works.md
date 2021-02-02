@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How the TPE Works"
 title: "How the TPE Works | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

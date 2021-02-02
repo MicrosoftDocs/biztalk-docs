@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3e: Build and Deploy the BizTalk Server Solution"
 title: "Step 3e: Build and Deploy the BizTalk Server Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

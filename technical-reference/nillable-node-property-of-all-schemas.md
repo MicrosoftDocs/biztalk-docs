@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Nillable (Node Property of All Schemas)"
 title: Nillable (Node Property of All Schemas)
 TOCTitle: Nillable (Node Property of All Schemas)
 ms:assetid: ca6f2282-de14-45cf-8672-191df723fd97

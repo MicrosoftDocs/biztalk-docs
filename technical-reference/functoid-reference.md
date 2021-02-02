@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Functoid Reference"
 title: Functoid Reference
 TOCTitle: Functoid Reference
 ms:assetid: ed56b236-3663-4a20-a2ea-14e4a4492bf8

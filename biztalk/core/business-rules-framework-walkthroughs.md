@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Business Rules Framework Walkthroughs"
 title: "Business Rules Framework Walkthroughs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

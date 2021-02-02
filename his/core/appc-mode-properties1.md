@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: APPC Mode Properties"
 title: "APPC Mode Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

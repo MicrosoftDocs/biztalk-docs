@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TIBCO Enterprise Message Service Message Descriptor Properties"
 title: "TIBCO EMS Message Descriptor Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

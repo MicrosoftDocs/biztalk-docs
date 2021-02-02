@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.ErrorCategory Property (WMI)"
 title: MSBTS_ServiceInstance.ErrorCategory Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.ErrorCategory Property (WMI)
 ms:assetid: 737f859e-d0a7-480f-a7eb-80963d0e41cb

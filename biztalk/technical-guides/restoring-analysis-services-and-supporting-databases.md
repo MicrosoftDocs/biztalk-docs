@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Restoring Analysis Services and Supporting Databases"
 title: "Restoring Analysis Services and Supporting Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

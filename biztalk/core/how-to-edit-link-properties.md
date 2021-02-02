@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Edit Link Properties"
 title: "How to Edit Link Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

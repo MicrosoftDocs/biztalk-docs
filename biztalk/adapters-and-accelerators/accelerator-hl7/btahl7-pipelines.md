@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BTAHL7 Pipelines"
 title: "BTAHL7 Pipelines | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

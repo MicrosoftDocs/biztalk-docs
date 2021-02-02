@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows PowerShell Scripts"
 title: "Windows PowerShell Scripts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

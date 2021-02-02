@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Retrieving Schema Information"
 title: "Retrieve Schema Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

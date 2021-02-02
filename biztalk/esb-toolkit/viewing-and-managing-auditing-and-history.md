@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Viewing and Managing Auditing and History"
 title: "Viewing and Managing Auditing and History | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

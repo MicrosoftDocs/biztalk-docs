@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Upgrading from Host Integration Server 2000 or SNA Server 4.0"
 title: "Upgrading from Host Integration Server 2000 or SNA Server 4.0 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

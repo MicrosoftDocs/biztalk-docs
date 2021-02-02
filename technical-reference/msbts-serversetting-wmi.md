@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServerSetting (WMI)"
 title: MSBTS_ServerSetting (WMI)
 TOCTitle: MSBTS_ServerSetting (WMI)
 ms:assetid: 586cfcb0-3aff-429d-8b18-bad01c04c7ac
@@ -34,11 +35,11 @@ class MSBTS_ServerSetting : MSBTS_Setting
 <tbody>
 <tr class="odd">
 <td>Caption (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20246">http://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 <tr class="even">
 <td>Description (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20246">http://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-serversetting-name-property-wmi.md">Name</a></td>
@@ -54,7 +55,7 @@ class MSBTS_ServerSetting : MSBTS_Setting
 </tr>
 <tr class="even">
 <td>SettingID (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="http://go.microsoft.com/fwlink/?linkid=20246">http://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -65,4 +66,3 @@ class MSBTS_ServerSetting : MSBTS_Setting
 **Header:** Declared in BTSWMISchema2K.mof or BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

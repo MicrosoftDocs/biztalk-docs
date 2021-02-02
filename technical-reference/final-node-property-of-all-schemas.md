@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Final (Node Property of All Schemas)"
 title: Final (Node Property of All Schemas)
 TOCTitle: Final (Node Property of All Schemas)
 ms:assetid: dfbfd5b8-a9dc-404d-aa9a-6fad259bd319

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Validate Instance Messages"
 title: "How to Validate Instance Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

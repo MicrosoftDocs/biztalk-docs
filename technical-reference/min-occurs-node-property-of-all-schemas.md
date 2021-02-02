@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Min Occurs (Node Property of All Schemas)"
 title: Min Occurs (Node Property of All Schemas)
 TOCTitle: Min Occurs (Node Property of All Schemas)
 ms:assetid: f9676bf6-3a90-4d7f-822e-47c28cf31717

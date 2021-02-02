@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Transaction Set Aggregation Report Page UI"
 title: Transaction Set Aggregation Report Page UI
 TOCTitle: Transaction Set Aggregation Report Page UI
 ms:assetid: 7e9a693b-17af-4f57-92d9-ab8278eed2ae

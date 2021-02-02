@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WmiSnaStatus WMI Provider Classes"
 title: "WmiSnaStatus WMI Provider Classes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

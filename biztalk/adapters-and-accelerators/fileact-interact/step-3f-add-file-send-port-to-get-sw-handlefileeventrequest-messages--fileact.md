@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3F: Add a FILE Send Port for the FileAct Real-Time Scenario to Capture Sw-HandleFileEventRequest Messages"
 title: "Step 3F: Add a FILE Send Port for the FileAct Real-Time Scenario to Capture Sw-HandleFileEventRequest Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

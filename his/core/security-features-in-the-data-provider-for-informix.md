@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Security Features in the Data Provider for Informix"
 title: "Security Features in the Data Provider for Informix | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

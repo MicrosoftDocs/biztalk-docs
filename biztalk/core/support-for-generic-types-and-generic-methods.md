@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Support for Generic Types and Generic Methods"
 title: "Support for Generic Types and Generic Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

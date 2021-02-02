@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Architecture: BizTalk Message Queuing"
 title: "Sample Architecture: BizTalk Message Queuing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

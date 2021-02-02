@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring the BizTalkApplicationServer and BizTalkServerIsolatedHost Hosts"
 title: "Configuring the BizTalkApplicationServer and BizTalkServerIsolatedHost Hosts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

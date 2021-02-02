@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Change the Tracking QueryTimeout Value"
 title: "How to Change the Tracking QueryTimeout Value | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

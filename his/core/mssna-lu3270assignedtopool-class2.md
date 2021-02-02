@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_Lu3270AssignedToPool Class"
 title: "MsSna_Lu3270AssignedToPool Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

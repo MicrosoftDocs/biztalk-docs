@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Affiliate Application Wizard"
 title: Create New Affiliate Application Wizard
 TOCTitle: Create New Affiliate Application Wizard
 ms:assetid: d4c3d744-a800-4266-8d03-097d1a39a60b

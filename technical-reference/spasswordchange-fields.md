@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SPasswordChange Fields"
 title: SPasswordChange Fields
 TOCTitle: SPasswordChange Fields
 ms:assetid: c2343389-ef2f-45a3-954d-7173c3a6b3ff

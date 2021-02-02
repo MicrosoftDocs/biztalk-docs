@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Create a New Host"
 title: "Create a New Host | Microsoft Docs"
 descriptions: Use BizTalk Administration to create a new host in BizTalk Server
 ms.custom: ""

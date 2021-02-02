@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Testing BizTalk Server Virtualization Performance"
 title: "Testing BizTalk Server Virtualization Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

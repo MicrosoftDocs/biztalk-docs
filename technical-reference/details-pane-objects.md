@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Details Pane Objects"
 title: Details Pane Objects
 TOCTitle: Details Pane Objects
 ms:assetid: 2ab8b592-2671-476f-ad0d-4093ab8fdc59

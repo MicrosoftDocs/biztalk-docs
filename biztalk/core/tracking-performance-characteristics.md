@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Tracking Performance Characteristics"
 title: "Tracking Performance Characteristics | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

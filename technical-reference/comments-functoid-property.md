@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Comments (Functoid Property)"
 title: Comments (Functoid Property)
 TOCTitle: Comments (Functoid Property)
 ms:assetid: b9ce230c-c496-487f-8d93-e863c2a5fdbd

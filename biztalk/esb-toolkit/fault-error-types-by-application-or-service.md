@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Fault Error Types by Application or Service"
 title: "Fault Error Types by Application or Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

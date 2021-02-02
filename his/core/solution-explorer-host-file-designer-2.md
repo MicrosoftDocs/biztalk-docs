@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Solution Explorer (Host File Designer)"
 title: "Solution Explorer (Host File Designer)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

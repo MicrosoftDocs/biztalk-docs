@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Auto-Enlist and Approval Process"
 title: "The Auto-Enlist and Approval Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

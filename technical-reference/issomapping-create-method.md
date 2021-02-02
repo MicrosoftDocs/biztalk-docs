@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOMapping.Create Method"
 title: ISSOMapping.Create Method
 TOCTitle: ISSOMapping.Create Method
 ms:assetid: 3133f03a-0474-4e55-a8be-ca53f69144ef

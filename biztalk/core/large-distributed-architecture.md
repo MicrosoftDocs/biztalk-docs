@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Large Distributed Architecture"
 title: "Large Distributed Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -41,7 +42,7 @@ Distributed BizTalk Server secure architecture
 
  This architecture contains the following five domains:
 
- **Perimeter network.** The perimeter network (also known as DMZ, demilitarized zone, and screened subnet), contains servers that provide Internet-related services for an enterprise. This domain can contain servers that are home to the physical locations where Internet-facing transports send and receive messages to and from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. There are no BizTalk Servers, BizTalk receive locations, or Enterprise Single Sign-On servers in this domain. If you use the SOAP or HTTP adapter, you can use reverse proxy rules (Forefront Threat Management Gateway (TMG) 2010 server implementation is called Web Publishing) to relay the message from the Internet-facing firewall (FW4) to the firewall protecting the service interfaces domain (FW3). For more information about Web Publishing rules, see the Microsoft Web site at [http://go.microsoft.com/fwlink/?LinkID=205340](https://go.microsoft.com/fwlink/?LinkID=205340) (<http://go.microsoft.com/fwlink/?LinkID=205340>).
+ **Perimeter network.** The perimeter network (also known as DMZ, demilitarized zone, and screened subnet), contains servers that provide Internet-related services for an enterprise. This domain can contain servers that are home to the physical locations where Internet-facing transports send and receive messages to and from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. There are no BizTalk Servers, BizTalk receive locations, or Enterprise Single Sign-On servers in this domain. If you use the SOAP or HTTP adapter, you can use reverse proxy rules (Forefront Threat Management Gateway (TMG) 2010 server implementation is called Web Publishing) to relay the message from the Internet-facing firewall (FW4) to the firewall protecting the service interfaces domain (FW3). For more information about Web Publishing rules, see the Microsoft Web site at [https://go.microsoft.com/fwlink/?LinkID=205340](https://go.microsoft.com/fwlink/?LinkID=205340) (<https://go.microsoft.com/fwlink/?LinkID=205340>).
 
  In the preceding figure, the servers in the perimeter network represent servers that are in a domain outside of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment. Therefore, some of these servers may alternatively be on remote locations. For example, the File Transfer Protocol (FTP) server could be on a remote location; the Simple Mail Transfer Protocol (SMTP) server could be the corporate e-mail server, an Internet service provider’s (ISP) server, or a remote SMTP server.
 
@@ -69,7 +70,7 @@ Distributed BizTalk Server secure architecture
 - A SQL Server for the destination system for log shipping
 
 > [!IMPORTANT]
->  For failover protection, we recommend you cluster each BizTalk database. For more information about SQL Server failover clustering, see the Microsoft MSDN Web Site at [http://go.microsoft.com/fwlink/?LinkId=131016](https://go.microsoft.com/fwlink/?LinkId=131016).
+>  For failover protection, we recommend you cluster each BizTalk database. For more information about SQL Server failover clustering, see the Microsoft MSDN Web Site at [https://go.microsoft.com/fwlink/?LinkId=131016](https://go.microsoft.com/fwlink/?LinkId=131016).
 
 > [!NOTE]
 >  For more information about the destination system for log shipping, see [Backing Up and Restoring the BizTalk Server Databases](../core/backing-up-and-restoring-the-biztalk-server-databases.md).
@@ -96,7 +97,7 @@ Distributed BizTalk Server secure architecture
 
 - The corporate domain trusts the services domains.
 
-  For more information about configuring a firewall for domains and trusts, see the Microsoft Help and Support Web site at [http://go.microsoft.com/fwlink/?LinkId=25230](https://go.microsoft.com/fwlink/?LinkId=25230).
+  For more information about configuring a firewall for domains and trusts, see the Microsoft Help and Support Web site at [https://go.microsoft.com/fwlink/?LinkId=25230](https://go.microsoft.com/fwlink/?LinkId=25230).
 
   While the preceding figure focuses on security, you can also extend the architecture with Network Load Balancing (NLB) and Clustering Services for availability and performance.
 

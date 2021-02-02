@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data provider properties for the Siebel connection string"
 title: "Data provider properties for the Siebel connection string | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

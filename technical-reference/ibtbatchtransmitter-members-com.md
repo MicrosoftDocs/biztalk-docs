@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTBatchTransmitter Members (COM)"
 title: IBTBatchTransmitter Members (COM)
 TOCTitle: IBTBatchTransmitter Members (COM)
 ms:assetid: c1901a70-bc7a-4644-8ae2-2813a6252e3b

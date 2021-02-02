@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Message Schemas for Special LOB Operations"
 title: "Message Schemas for Special LOB Operations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -34,7 +35,7 @@ The Read_\<LOBColName\> and Update_\<LOBColName\> operations are surfaced for ta
   
  Entity descriptions:  
   
- [VERSION] = The message version string; for example, "<http://schemas.microsoft.com/OracleEBS/2008/05>".  
+ [VERSION] = The message version string; for example, `http://schemas.microsoft.com/OracleEBS/2008/05`.  
   
  [SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.  
   

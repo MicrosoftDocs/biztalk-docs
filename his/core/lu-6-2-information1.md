@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LU 6.2 Information"
 title: "LU 6.2 Information1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

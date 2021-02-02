@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Viewing Connections"
 title: "Viewing Connections1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

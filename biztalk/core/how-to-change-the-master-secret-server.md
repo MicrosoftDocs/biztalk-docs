@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Change the Master Secret Server"
 title: "How to Change the Master Secret Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

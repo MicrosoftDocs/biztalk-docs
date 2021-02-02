@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, WCF Extensions Tab (WCF-Custom Adapter Send Handler)"
 title: <Host Name> Properties Dialog Box, WCF Extensions Tab (WCF-Custom Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, WCF Extensions Tab (WCF-Custom Adapter Send Handler)
 ms:assetid: 70fa616b-e6a8-42a6-a2bd-6bc0802d7f6a
@@ -32,7 +33,7 @@ Use the **WCF Extensions** tab to configure the send handler for the WCF-Custom 
 <tbody>
 <tr class="odd">
 <td><strong>Import</strong></td>
-<td>Imports a WCF configuration file with WCF custom behavior extensions. Clicking this button opens the <strong>Import WCF configuration</strong> dialog box to browse and locate a WCF configuration file. Note that the file should be a valid WCF configuration file. For more information about WCF configuration schema, see “Windows Communication Foundation Configuration Schema” at <a href="http://go.microsoft.com/fwlink/?linkid=163953">http://go.microsoft.com/fwlink/?LinkId=163953</a>.</td>
+<td>Imports a WCF configuration file with WCF custom behavior extensions. Clicking this button opens the <strong>Import WCF configuration</strong> dialog box to browse and locate a WCF configuration file. Note that the file should be a valid WCF configuration file. For more information about WCF configuration schema, see “Windows Communication Foundation Configuration Schema” at <a href="https://go.microsoft.com/fwlink/?linkid=163953">https://go.microsoft.com/fwlink/?LinkId=163953</a>.</td>
 </tr>
 <tr class="even">
 <td><strong>Export</strong></td>
@@ -49,4 +50,3 @@ Use the **WCF Extensions** tab to configure the send handler for the WCF-Custom 
 ## See Also
 
 [How to Configure a WCF-Custom Send Handler](https://msdn.microsoft.com/library/ff629673\(v=bts.80\))
-

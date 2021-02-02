@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sync Point Session Deactivation"
 title: "Sync Point Session Deactivation1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

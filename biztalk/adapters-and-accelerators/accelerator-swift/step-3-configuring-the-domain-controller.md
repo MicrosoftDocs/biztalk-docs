@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Configuring the Domain Controller"
 title: "Step 3: Configuring the Domain Controller | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

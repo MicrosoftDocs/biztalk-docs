@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Providers for Host Files"
 title: "Data Providers for Host Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

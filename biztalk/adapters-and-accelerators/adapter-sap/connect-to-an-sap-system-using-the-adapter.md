@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connect to an SAP system using the adapter"
 title: "Connect to an SAP system using the adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

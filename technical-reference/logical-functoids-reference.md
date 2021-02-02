@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Logical Functoids Reference"
 title: Logical Functoids Reference
 TOCTitle: Logical Functoids Reference
 ms:assetid: e64b6106-4ac1-460e-b214-f655820428bd

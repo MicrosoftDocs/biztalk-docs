@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Schema Properties Dialog Box"
 title: Schema Properties Dialog Box
 TOCTitle: Schema Properties Dialog Box
 ms:assetid: d81bff33-aa23-48bc-b77e-67993de1ae3c

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Create a SharePoint application to retrieve data from Oracle E-Business Suite"
 title: "Step 3: Create a SharePoint application to retrieve data from Oracle E-Business Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -32,7 +33,7 @@ manager: "anneta"
 ##  <a name="SSO"></a> Creating an SSO Application in SharePoint
  To access the data in Oracle E-Business Suite from a SharePoint application, you must set up an SSO application that maps a SharePoint user to an Oracle E-Business Suite user. Creating an SSO application in SharePoint involves the following steps:
 
-1.  **Manage server settings for single sign-on**. In this step, you specify a user account that can manage and set up the single sign-on service. You can do so on the Manage Server Settings page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Configure Single Sign-On for Office SharePoint Server 2007” section at [http://go.microsoft.com/fwlink/?LinkId=105291](https://go.microsoft.com/fwlink/?LinkId=105291).
+1.  **Manage server settings for single sign-on**. In this step, you specify a user account that can manage and set up the single sign-on service. You can do so on the Manage Server Settings page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Configure Single Sign-On for Office SharePoint Server 2007” section at [https://go.microsoft.com/fwlink/?LinkId=105291](https://go.microsoft.com/fwlink/?LinkId=105291).
 
 2.  **Manage settings for enterprise application definitions**. In this step, you configure the settings for the enterprise application definition. You can do so from the Manage Settings for Enterprise Application Definitions page. This option is available from the SharePoint Central Administration console.
 
@@ -49,14 +50,14 @@ manager: "anneta"
 
     5.  Leave the other fields as default, and click **OK**.
 
-3.  **Manage account information for enterprise application definitions**. In this step, you enable individual users or groups to connect to an enterprise application from SharePoint. Essentially, in this step you map an individual user or group to a user in the LOB system. You also specify the credentials to connect to the LOB system. You can do so from the Manage Account Information for Enterprise Application Definitions page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Manage account information for an enterprise application definition” section at [http://go.microsoft.com/fwlink/?LinkId=105291](https://go.microsoft.com/fwlink/?LinkId=105291).
+3.  **Manage account information for enterprise application definitions**. In this step, you enable individual users or groups to connect to an enterprise application from SharePoint. Essentially, in this step you map an individual user or group to a user in the LOB system. You also specify the credentials to connect to the LOB system. You can do so from the Manage Account Information for Enterprise Application Definitions page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Manage account information for an enterprise application definition” section at [https://go.microsoft.com/fwlink/?LinkId=105291](https://go.microsoft.com/fwlink/?LinkId=105291).
 
 ##  <a name="SSP"></a> Creating a Shared Services Provider
  A Shared Service Provider is a logical grouping of shared services and their supporting resources. You can create an SSP by using the SharePoint Central Administration console.
 
  You must define a Web site when creating an SSP. Remember the port number and the site address that you create. You will import the Business Data Catalog application definition to this site.
 
- For more information about creating an SSP, see "Chapter overview: Create and configure Shared Services Providers" at [http://go.microsoft.com/fwlink/?LinkId=105119](https://go.microsoft.com/fwlink/?LinkId=105119).
+ For more information about creating an SSP, see "Chapter overview: Create and configure Shared Services Providers" at [https://go.microsoft.com/fwlink/?LinkId=105119](https://go.microsoft.com/fwlink/?LinkId=105119).
 
 ##  <a name="Import"></a> Importing the Application Definition File
  You must now import the application definition file into the SSP.

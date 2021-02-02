@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Adapter Framework Configuration Schema Extensions"
 title: "Adapter Framework Configuration Schema Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

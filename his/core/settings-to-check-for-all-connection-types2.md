@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Settings to Check for All Connection Types"
 title: "Settings to Check for All Connection Types2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

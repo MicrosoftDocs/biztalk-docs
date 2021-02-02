@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using a Send Port as an Itinerary Service Subscriber"
 title: "Using a Send Port as an Itinerary Service Subscriber | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

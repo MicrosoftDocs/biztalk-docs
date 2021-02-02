@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample VTAM Parameters for a Token Ring Connection"
 title: "Sample VTAM Parameters for a Token Ring Connection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

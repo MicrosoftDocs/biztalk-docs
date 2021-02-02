@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Specifying When RTM Data is Sent"
 title: "Specifying When RTM Data is Sent1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

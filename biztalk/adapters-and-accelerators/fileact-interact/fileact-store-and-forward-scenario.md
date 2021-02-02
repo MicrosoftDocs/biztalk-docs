@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FileAct Store and Forward Scenario"
 title: "FileAct Store and Forward Scenario | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SAPConnection class in the SAP adapter"
 title: "SAPConnection class in the SAP adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

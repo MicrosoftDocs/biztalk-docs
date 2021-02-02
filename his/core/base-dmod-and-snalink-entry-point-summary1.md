@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Base/DMOD and SNALink Entry Point Summary"
 title: "Base-DMOD and SNALink Entry Point Summary1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

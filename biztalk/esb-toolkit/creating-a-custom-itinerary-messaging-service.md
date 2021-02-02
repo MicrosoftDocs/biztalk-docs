@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Creating a Custom Itinerary Messaging Service"
 title: "Creating a Custom Itinerary Messaging Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

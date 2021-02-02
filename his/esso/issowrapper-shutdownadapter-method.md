@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSOWrapper.ShutdownAdapter Method"
 title: "ISSOWrapper.ShutdownAdapter Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

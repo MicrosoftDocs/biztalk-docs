@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ClusterResourceGroupName Property (WMI)"
 title: MSBTS_HostSetting.ClusterResourceGroupName Property (WMI)
 TOCTitle: MSBTS_HostSetting.ClusterResourceGroupName Property (WMI)
 ms:assetid: 06284e74-875b-467c-8911-8517f814228f

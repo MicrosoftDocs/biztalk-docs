@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Close(STATION) Request"
 title: "Close(STATION) Request2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Send Pipeline"
 title: "Send Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

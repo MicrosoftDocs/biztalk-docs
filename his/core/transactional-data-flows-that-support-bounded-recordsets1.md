@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transactional Data Flows That Support Bounded Recordsets"
 title: "Transactional Data Flows That Support Bounded Recordsets1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

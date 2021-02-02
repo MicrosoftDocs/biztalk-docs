@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Policies Node, Details Pane"
 title: Policies Node, Details Pane
 TOCTitle: Policies Node, Details Pane
 ms:assetid: fe4dfc1d-299e-4af1-a7fc-29045f3b9b6c

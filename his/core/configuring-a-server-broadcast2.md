@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring a Server Broadcast"
 title: "Configuring a Server Broadcast2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

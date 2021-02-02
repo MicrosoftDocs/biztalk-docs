@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5 (On Premises): Generate the Schema for Inserting a Message inito SalesOrder Table"
 title: "Step 5 (On Premises): Generate the Schema for Inserting a Message inito SalesOrder Table | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

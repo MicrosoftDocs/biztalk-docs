@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Set_Log_Data (CPI-C)"
 title: "Set_Log_Data (CPI-C)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

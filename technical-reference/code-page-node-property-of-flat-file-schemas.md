@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Code Page (Node Property of Flat File Schemas)"
 title: Code Page (Node Property of Flat File Schemas)
 TOCTitle: Code Page (Node Property of Flat File Schemas)
 ms:assetid: 3ea69942-7642-4cd8-befe-63d170eafd4f

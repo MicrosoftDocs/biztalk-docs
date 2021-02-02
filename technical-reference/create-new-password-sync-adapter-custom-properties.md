@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Password Sync Adapter: Custom Properties"
 title: 'Create New Password Sync Adapter: Custom Properties'
 TOCTitle: 'Create New Password Sync Adapter: Custom Properties'
 ms:assetid: a9b937f8-9476-4d08-9e48-509a3350cd2a

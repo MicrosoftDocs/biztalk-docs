@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Architectures for Small &amp; Medium-Sized Companies"
 title: "Sample Architectures for Small &amp; Medium-Sized Companies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -31,7 +32,7 @@ This section provides a sample architecture to deploy Microsoft BizTalk Server w
 >  This section assumes that you are not using Business Activity Monitoring (BAM). This feature requires additional security considerations. This is discussed in [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).
 
 > [!NOTE]
->  For more information about adapters not described in this document, see the BizTalk Server Developer Center ([http://go.microsoft.com/fwlink/?LinkId=46420](https://go.microsoft.com/fwlink/?LinkId=46420).)
+>  For more information about adapters not described in this document, see the BizTalk Server Developer Center ([https://go.microsoft.com/fwlink/?LinkId=46420](https://go.microsoft.com/fwlink/?LinkId=46420).)
 
 ## In This Section
 

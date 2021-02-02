@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CPI-C Symbolic Name: General"
 title: "CPI-C Symbolic Name: General1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

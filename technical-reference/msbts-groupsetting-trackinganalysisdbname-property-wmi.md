@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.TrackingAnalysisDBName Property (WMI)"
 title: MSBTS_GroupSetting.TrackingAnalysisDBName Property (WMI)
 TOCTitle: MSBTS_GroupSetting.TrackingAnalysisDBName Property (WMI)
 ms:assetid: f8eb8b79-81d4-4c69-9c5d-e49641edc6e3

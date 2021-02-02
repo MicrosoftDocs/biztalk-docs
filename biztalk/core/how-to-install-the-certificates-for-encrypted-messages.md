@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Install the Certificates for Encrypted Messages"
 title: "How to Install the Certificates for Encrypted Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

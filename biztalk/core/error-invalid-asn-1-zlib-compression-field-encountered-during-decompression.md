@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid ASN.1 ZLib compression field encountered during decompression processing"
 title: "Invalid ASN.1 ZLib compression field encountered during decompression processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

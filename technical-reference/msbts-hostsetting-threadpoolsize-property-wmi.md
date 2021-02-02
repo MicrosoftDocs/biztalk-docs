@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ThreadPoolSize Property (WMI)"
 title: MSBTS_HostSetting.ThreadPoolSize Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThreadPoolSize Property (WMI)
 ms:assetid: 96299c40-e720-49e8-add8-6d4ae17d0fcd

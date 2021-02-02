@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error Codes for Open Messages"
 title: "Error Codes for Open Messages1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

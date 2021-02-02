@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: XML Disassembler Pipeline Component"
 title: "XML Disassembler Pipeline Component | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

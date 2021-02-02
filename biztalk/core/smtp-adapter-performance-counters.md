@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SMTP Adapter Performance Counters"
 title: "SMTP Adapter Performance Counters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

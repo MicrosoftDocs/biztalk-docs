@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Test_Request_To_Send_Received (CPI-C)"
 title: "Test_Request_To_Send_Received (CPI-C)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

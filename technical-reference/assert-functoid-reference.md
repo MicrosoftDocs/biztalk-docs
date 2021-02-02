@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Assert Functoid Reference"
 title: Assert Functoid Reference
 TOCTitle: Assert Functoid Reference
 ms:assetid: 6fa11fc8-1fd2-403e-a961-f67714781aa6

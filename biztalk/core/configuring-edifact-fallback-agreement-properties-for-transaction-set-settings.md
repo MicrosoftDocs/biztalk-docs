@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring EDIFACT Fallback Agreement Properties for Transaction Set Settings"
 title: "Configuring EDIFACT Fallback Agreement Properties for Transaction Set Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

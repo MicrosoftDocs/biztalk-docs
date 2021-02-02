@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Run operations on tables and views with large data types using the SQL adapter"
 title: "Run operations on tables and views with large data types using the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -30,11 +31,11 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
 
 - **On the computer running SQL Server**
 
-  -   You must enable FILESTREAM on the SQL Server instance. For more information, see [http://go.microsoft.com/fwlink/?LinkId=122486](https://go.microsoft.com/fwlink/?LinkId=122486).
+  -   You must enable FILESTREAM on the SQL Server instance. For more information, see [https://go.microsoft.com/fwlink/?LinkId=122486](https://go.microsoft.com/fwlink/?LinkId=122486).
 
-  -   You must create a FILESTREAM-enabled database. For more information, see [http://go.microsoft.com/fwlink/?LinkId=122487](https://go.microsoft.com/fwlink/?LinkId=122487).
+  -   You must create a FILESTREAM-enabled database. For more information, see [https://go.microsoft.com/fwlink/?LinkId=122487](https://go.microsoft.com/fwlink/?LinkId=122487).
 
-  -   You must have a table for storing FILESTREAM data. For more information, see [http://go.microsoft.com/fwlink/?LinkId=122488](https://go.microsoft.com/fwlink/?LinkId=122488).
+  -   You must have a table for storing FILESTREAM data. For more information, see [https://go.microsoft.com/fwlink/?LinkId=122488](https://go.microsoft.com/fwlink/?LinkId=122488).
 
   -   You must configure MSDTC on the computer hosting the SQL Server database. For instruction on how to configure MSDTC, see [Configure MSDTC on SQL Server and adapter client](../../adapters-and-accelerators/adapter-sql/configure-msdtc-on-sql-server-and-adapter-client.md).
 

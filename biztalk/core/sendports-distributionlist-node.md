@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SendPorts (DistributionList Node)"
 title: "SendPorts (DistributionList Node) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

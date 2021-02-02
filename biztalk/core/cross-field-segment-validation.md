@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Cross Field-Segment Validation"
 title: "Cross Field-Segment Validation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

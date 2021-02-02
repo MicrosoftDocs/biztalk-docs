@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Appendix C: Redistributable CAB Files"
 title: "Appendix C: Redistributable CAB Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,7 +21,7 @@ These CAB files are used by the BizTalk Server setup.
 
 |Language|Download Link|
 |--------------|-------------------|
-|EN|<ul><li>**X64**<br /><br /> <ul><li>Windows Server 2016: [http://go.microsoft.com/fwlink/p/?LinkId=746413](https://go.microsoft.com/fwlink/p/?LinkId=746413)</li><li>Windows Server 2012 R2: [http://go.microsoft.com/fwlink/p/?LinkId=746412](https://go.microsoft.com/fwlink/p/?LinkId=746412)</li><li>Windows 10: [http://go.microsoft.com/fwlink/p/?LinkId=746408](https://go.microsoft.com/fwlink/p/?LinkId=746408)</li><li>Windows 8.1: [http://go.microsoft.com/fwlink/p/?LinkId=746411](https://go.microsoft.com/fwlink/p/?LinkId=746411)</li></ul></li><li>**X32**<br /><br /><ul><li>Windows 10: [http://go.microsoft.com/fwlink/p/?LinkId=746409](https://go.microsoft.com/fwlink/p/?LinkId=746409)</li><li>Windows 8.1: [http://go.microsoft.com/fwlink/p/?LinkId=746410](https://go.microsoft.com/fwlink/p/?LinkId=746410)</li></ul></li></ul>|
+|EN|<ul><li>**X64**<br /><br /> <ul><li>Windows Server 2016: [https://go.microsoft.com/fwlink/p/?LinkId=746413](https://go.microsoft.com/fwlink/p/?LinkId=746413)</li><li>Windows Server 2012 R2: [https://go.microsoft.com/fwlink/p/?LinkId=746412](https://go.microsoft.com/fwlink/p/?LinkId=746412)</li><li>Windows 10: [https://go.microsoft.com/fwlink/p/?LinkId=746408](https://go.microsoft.com/fwlink/p/?LinkId=746408)</li><li>Windows 8.1: [https://go.microsoft.com/fwlink/p/?LinkId=746411](https://go.microsoft.com/fwlink/p/?LinkId=746411)</li></ul></li><li>**X32**<br /><br /><ul><li>Windows 10: [https://go.microsoft.com/fwlink/p/?LinkId=746409](https://go.microsoft.com/fwlink/p/?LinkId=746409)</li><li>Windows 8.1: [https://go.microsoft.com/fwlink/p/?LinkId=746410](https://go.microsoft.com/fwlink/p/?LinkId=746410)</li></ul></li></ul>|
 
 > [!NOTE]
 > Windows 10 and Windows Server 2016 use the same CAB files as Windows 8.1 and Windows Server 2012 R2. As a result, they have the same file name.
@@ -29,7 +30,7 @@ These CAB files are used by the BizTalk Server setup.
 
 |Language|Download Link|
 |--------------|-------------------|
-|EN|<ul><li>**X64**<br /><br /> <ul><li>Windows Server 2012: [http://go.microsoft.com/fwlink/p/?LinkId=269616](https://go.microsoft.com/fwlink/p/?LinkId=269616)</li><li>Windows Server 2008: [http://go.microsoft.com/fwlink/p/?LinkId=269613](https://go.microsoft.com/fwlink/p/?LinkId=269613)</li><li>Windows 8: [http://go.microsoft.com/fwlink/p/?LinkId=269615](https://go.microsoft.com/fwlink/p/?LinkId=269615)</li><li>Windows 7: [http://go.microsoft.com/fwlink/p/?LinkId=269614](https://go.microsoft.com/fwlink/p/?LinkId=269614)</li></ul></li><li>**X32**<br /><br /> <ul><li>Windows 8: [http://go.microsoft.com/fwlink/p/?LinkId=269612](https://go.microsoft.com/fwlink/p/?LinkId=269612)</li><li>Windows 7: [http://go.microsoft.com/fwlink/p/?LinkId=269611](https://go.microsoft.com/fwlink/p/?LinkId=269611)</li></ul></li></ul>|
+|EN|<ul><li>**X64**<br /><br /> <ul><li>Windows Server 2012: [https://go.microsoft.com/fwlink/p/?LinkId=269616](https://go.microsoft.com/fwlink/p/?LinkId=269616)</li><li>Windows Server 2008: [https://go.microsoft.com/fwlink/p/?LinkId=269613](https://go.microsoft.com/fwlink/p/?LinkId=269613)</li><li>Windows 8: [https://go.microsoft.com/fwlink/p/?LinkId=269615](https://go.microsoft.com/fwlink/p/?LinkId=269615)</li><li>Windows 7: [https://go.microsoft.com/fwlink/p/?LinkId=269614](https://go.microsoft.com/fwlink/p/?LinkId=269614)</li></ul></li><li>**X32**<br /><br /> <ul><li>Windows 8: [https://go.microsoft.com/fwlink/p/?LinkId=269612](https://go.microsoft.com/fwlink/p/?LinkId=269612)</li><li>Windows 7: [https://go.microsoft.com/fwlink/p/?LinkId=269611](https://go.microsoft.com/fwlink/p/?LinkId=269611)</li></ul></li></ul>|
 
 ## Important info
 

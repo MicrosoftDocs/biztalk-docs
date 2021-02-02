@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Acknowledgments Processing"
 title: "Acknowledgments Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

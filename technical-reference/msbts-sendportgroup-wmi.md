@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPortGroup (WMI)"
 title: MSBTS_SendPortGroup (WMI)
 TOCTitle: MSBTS_SendPortGroup (WMI)
 ms:assetid: 38ba51dd-d332-4300-9bc4-2eb1bbbc57a7
@@ -34,11 +35,11 @@ class MSBTS_SendPortGroup : MSBTS_Setting
 <tbody>
 <tr class="odd">
 <td>Caption (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at http://go.microsoft.com/fwlink/p/?LinkID=20246.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at https://go.microsoft.com/fwlink/p/?LinkID=20246.</td>
 </tr>
 <tr class="even">
 <td>Description (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at http://go.microsoft.com/fwlink/p/?LinkID=20246.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at https://go.microsoft.com/fwlink/p/?LinkID=20246.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-sendportgroup-filter-property-wmi.md">Filter</a></td>
@@ -58,7 +59,7 @@ class MSBTS_SendPortGroup : MSBTS_Setting
 </tr>
 <tr class="odd">
 <td>SettingID (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at http://go.microsoft.com/fwlink/p/?LinkID=20246.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at https://go.microsoft.com/fwlink/p/?LinkID=20246.</td>
 </tr>
 <tr class="even">
 <td><a href="msbts-sendportgroup-status-property-wmi.md">Status</a></td>
@@ -115,4 +116,3 @@ This property wraps the managed **Microsoft.BizTalk.ExplorerOM.SendPortGroup** c
 **Header:** Declared in BTSWMISchema2K.mof or BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

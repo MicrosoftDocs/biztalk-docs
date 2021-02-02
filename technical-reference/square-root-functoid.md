@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Square Root Functoid"
 title: Square Root Functoid
 TOCTitle: Square Root Functoid
 ms:assetid: 1a4bb642-3295-4733-8457-efe1a5f8b3d6

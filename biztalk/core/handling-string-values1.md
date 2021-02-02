@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Handling String Values"
 title: "Handling String Values1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

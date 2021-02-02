@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Get metadata for Oracle E-Business Suite operations in Visual Studio"
 title: "Get metadata for Oracle E-Business Suite operations in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

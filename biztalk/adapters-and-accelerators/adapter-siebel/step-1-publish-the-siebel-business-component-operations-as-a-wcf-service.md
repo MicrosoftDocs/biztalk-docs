@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 1: Publish the Siebel Business Component Operations as a WCF Service"
 title: "Step 1: Publish the Siebel Business Component Operations as a WCF Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -102,8 +103,8 @@ manager: "anneta"
       |----------------------|-----------------------|
       |Authentication Type|- Set this to **ClientCredentialUserNamePassword** to enable the clients to specify the user name and password while consuming the WCF service.<br /><br /> - Set this to **HTTPUserNamePassword** to enable clients to specify user name and password as part of the HTTP header.<br /><br /> - Set this to **Auto** to first enable clients to specify credentials through the **ClientCredential** interface. If this fails, clients can pass credentials as part of the HTTP header.<br /><br /> Default is **Auto**. For Microsoft Office SharePoint Server to consume the WCF service, you should set this as **HTTPUserNamePassword**.|
       |Name|Specify a name for the endpoint behavior configuration.|
-      |UsernameHeader|Name for the user name header. For this example, specify **MyUserHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [http://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692).<br /><br /> **Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
-      |PasswordHeader|Name for the password header. For this example, specify **MyPassHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [http://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692).<br /><br /> **Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
+      |UsernameHeader|Name for the user name header. For this example, specify **MyUserHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [https://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692).<br /><br /> **Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
+      |PasswordHeader|Name for the password header. For this example, specify **MyPassHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [https://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692).<br /><br /> **Note:** You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
 
       The following figure shows the Configure Service and Endpoint Behaviors page with the specified values.
 

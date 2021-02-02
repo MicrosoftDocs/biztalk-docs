@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Scenarios for Threat Model Analysis"
 title: "Sample Scenarios for Threat Model Analysis | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

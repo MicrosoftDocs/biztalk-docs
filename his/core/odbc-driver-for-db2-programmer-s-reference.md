@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ODBC Driver for DB2 Programmer's Reference"
 title: "ODBC Driver for DB2 Programmer's Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

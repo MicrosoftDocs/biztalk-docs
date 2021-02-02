@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Run the 3270 Client"
 title: "How to Run the 3270 Client2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Host Instances Node"
 title: Host Instances Node
 TOCTitle: Host Instances Node
 ms:assetid: 564901c2-5e3a-4f82-a73a-b79fea4a95bf

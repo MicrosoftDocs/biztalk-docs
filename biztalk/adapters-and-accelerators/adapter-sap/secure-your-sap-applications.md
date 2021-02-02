@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Secure your SAP applications"
 title: "Secure your SAP applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

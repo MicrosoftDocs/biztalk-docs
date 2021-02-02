@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_ConnectionX25 Class"
 title: "MsSna_ConnectionX25 Class1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

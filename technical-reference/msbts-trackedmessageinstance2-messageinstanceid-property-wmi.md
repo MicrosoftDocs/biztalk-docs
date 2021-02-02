@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_TrackedMessageInstance2.MessageInstanceID Property (WMI)"
 title: MSBTS_TrackedMessageInstance2.MessageInstanceID Property (WMI)
 TOCTitle: MSBTS_TrackedMessageInstance2.MessageInstanceID Property (WMI)
 ms:assetid: 892f5c8a-6eb3-46d0-b9d3-e3652881b932

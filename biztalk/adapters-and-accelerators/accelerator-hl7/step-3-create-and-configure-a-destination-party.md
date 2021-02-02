@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Create and Configure a Destination Party"
 title: "Step 3: Create and Configure a Destination Party | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

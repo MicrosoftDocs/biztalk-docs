@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The interchange had a structural error in-before the first functional group"
 title: "The interchange had a structural error in-before the first functional group | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_DeploymentService.Import Method (WMI)"
 title: MSBTS_DeploymentService.Import Method (WMI)
 TOCTitle: MSBTS_DeploymentService.Import Method (WMI)
 ms:assetid: 4a523573-66e8-451c-9f94-4bf0b864cb64

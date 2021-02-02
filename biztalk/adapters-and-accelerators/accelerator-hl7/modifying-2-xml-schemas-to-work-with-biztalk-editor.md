@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Modifying 2.XML Schemas to Work with BizTalk Editor"
 title: "Modifying 2.XML Schemas to Work with BizTalk Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

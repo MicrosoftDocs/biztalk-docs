@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with the DataAdapter and the DataSet for a DB2 Database"
 title: "Working with the DataAdapter and the DataSet for a DB2 Database1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

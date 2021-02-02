@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The Role of Agreements in EDI Processing"
 title: "The Role of Agreements in EDI Processing | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

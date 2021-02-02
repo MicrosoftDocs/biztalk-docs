@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Diagnostic Tracing and Message Logging in the SQL adapter"
 title: "Diagnostic Tracing and Message Logging in the SQL adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

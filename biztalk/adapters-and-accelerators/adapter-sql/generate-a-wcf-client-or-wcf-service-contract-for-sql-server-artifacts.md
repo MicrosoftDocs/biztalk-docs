@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Generate a WCF Client or WCF Service Contract for SQL Server Artifacts"
 title: "Generate a WCF Client or WCF Service Contract for SQL Server Artifacts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

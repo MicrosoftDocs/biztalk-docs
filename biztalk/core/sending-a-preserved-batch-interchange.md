@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sending a Preserved Batch Interchange"
 title: "Sending a Preserved Batch Interchange | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

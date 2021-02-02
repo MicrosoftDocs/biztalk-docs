@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Application Deployment and Management Checklists"
 title: "BizTalk Application Deployment and Management Checklists | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Open(LINK) Response"
 title: "Open(LINK) Response2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

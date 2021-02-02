@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Source and Destination Schemas"
 title: "Source and Destination Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

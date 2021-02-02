@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Setup Registry Architecture"
 title: "Setup Registry Architecture2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

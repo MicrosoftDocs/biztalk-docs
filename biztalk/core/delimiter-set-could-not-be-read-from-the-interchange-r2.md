@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Delimiter set could not be read from the interchange (R2)"
 title: "Delimiter set could not be read from the interchange (R2) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

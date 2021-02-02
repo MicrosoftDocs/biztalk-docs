@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Consolidated Databases View Page"
 title: Configuration Wizard, Consolidated Databases View Page
 TOCTitle: Configuration Wizard, Consolidated Databases View Page
 ms:assetid: 54e145db-5770-4c82-8823-c6c5f1d20b32

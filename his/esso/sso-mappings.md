@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SSO Mappings"
 title: "SSO Mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

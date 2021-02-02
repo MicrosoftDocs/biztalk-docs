@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Backing Up Databases"
 title: "Backing Up Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -14,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Backing Up Databases
-Because[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses distributed transactions across multiple databases, the Backup BizTalk Server job creates synchronized backups of all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases. This is accomplished by using marked transactions with the “Full” database recovery model. This is required for the backups to be transactionally consistent across databases. For more information, see ["Marked Transactions, Full Backups, and Log Backups"](https://go.microsoft.com/fwlink/?LinkId=151565) (<http://go.microsoft.com/fwlink/?LinkId=151565>) in the BizTalk Server documentation.
+Because[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses distributed transactions across multiple databases, the Backup BizTalk Server job creates synchronized backups of all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases. This is accomplished by using marked transactions with the “Full” database recovery model. This is required for the backups to be transactionally consistent across databases. For more information, see ["Marked Transactions, Full Backups, and Log Backups"](https://go.microsoft.com/fwlink/?LinkId=151565) (<https://go.microsoft.com/fwlink/?LinkId=151565>) in the BizTalk Server documentation.
 
 ## Advantages of the Backup BizTalk Server Job
  The Backup BizTalk Server job is the only supported method for backing up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases. Use of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] jobs to back up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases in a production environment is not supported.
@@ -33,9 +34,9 @@ Because[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversio
 ## Additional Resources
  See the following topics in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentation:
 
-- For more information about specific [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] backup and restore tasks, see ["Checklist: Backup and Restore"](https://go.microsoft.com/fwlink/?LinkId=154070) (<http://go.microsoft.com/fwlink/?LinkId=154070>).
+- For more information about specific [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] backup and restore tasks, see ["Checklist: Backup and Restore"](https://go.microsoft.com/fwlink/?LinkId=154070) (<https://go.microsoft.com/fwlink/?LinkId=154070>).
 
-- For an overview of Backing up and restoring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], see ["Backing Up and Restoring BizTalk Server"](https://go.microsoft.com/fwlink/?LinkId=154071) (<http://go.microsoft.com/fwlink/?LinkId=154071>).
+- For an overview of Backing up and restoring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], see ["Backing Up and Restoring BizTalk Server"](https://go.microsoft.com/fwlink/?LinkId=154071) (<https://go.microsoft.com/fwlink/?LinkId=154071>).
 
 - For more information about configuring the Backup BizTalk Server job, see ["How to Configure the Backup BizTalk Server Job"](https://go.microsoft.com/fwlink/?LinkId=154072) (https://go.microsoft.com/fwlink/?LinkId=154072).
 

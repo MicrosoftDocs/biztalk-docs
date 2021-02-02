@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Database Structure and Jobs"
 title: "Database Structure and Jobs | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

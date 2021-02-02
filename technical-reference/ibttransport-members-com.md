@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBTTransport Members (COM)"
 title: IBTTransport Members (COM)
 TOCTitle: IBTTransport Members (COM)
 ms:assetid: 86d90144-449d-4dc1-a56b-8d3d9bb3032e

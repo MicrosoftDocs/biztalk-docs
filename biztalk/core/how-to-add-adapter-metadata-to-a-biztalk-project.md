@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Add Adapter Metadata to a BizTalk Project"
 title: "How to Add Adapter Metadata to a BizTalk Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

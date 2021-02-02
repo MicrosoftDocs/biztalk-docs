@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Open the Functoid Toolbox"
 title: "How to Open the Functoid Toolbox | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

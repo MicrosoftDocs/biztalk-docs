@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Define Auto-Growth Settings for Databases"
 title: "Define Auto-Growth Settings for Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

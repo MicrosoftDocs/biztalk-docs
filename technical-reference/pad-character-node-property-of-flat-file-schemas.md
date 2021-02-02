@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Pad Character (Node Property of Flat File Schemas)"
 title: Pad Character (Node Property of Flat File Schemas)
 TOCTitle: Pad Character (Node Property of Flat File Schemas)
 ms:assetid: 2b0ec639-08f7-4db7-b8b7-ddb495182d57

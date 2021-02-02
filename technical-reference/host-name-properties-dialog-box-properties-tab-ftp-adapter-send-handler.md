@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: <Host Name> Properties Dialog Box, Properties Tab (FTP Adapter Send Handler)"
 title: <Host Name> Properties Dialog Box, Properties Tab (FTP Adapter Send Handler)
 TOCTitle: <Host Name> Properties Dialog Box, Properties Tab (FTP Adapter Send Handler)
 ms:assetid: c289993c-3bb8-4755-b4d7-5504c5e10a7c

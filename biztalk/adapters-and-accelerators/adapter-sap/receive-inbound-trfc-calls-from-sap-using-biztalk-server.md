@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Inbound tRFC Calls from SAP using BizTalk Server"
 title: "Receive Inbound tRFC Calls from SAP using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

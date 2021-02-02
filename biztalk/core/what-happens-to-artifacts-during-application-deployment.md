@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: What Happens to Artifacts During Application Deployment"
 title: "What Happens to Artifacts During Application Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

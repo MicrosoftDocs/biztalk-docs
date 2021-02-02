@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Localities and DMODs"
 title: "Localities and DMODs2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

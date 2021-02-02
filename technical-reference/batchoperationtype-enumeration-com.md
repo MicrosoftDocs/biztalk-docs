@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: _BatchOperationType Enumeration (COM)"
 title: _BatchOperationType Enumeration (COM)
 TOCTitle: _BatchOperationType Enumeration (COM)
 ms:assetid: b12c20fd-9f2b-4ba3-92b5-3e57d7eaaa07

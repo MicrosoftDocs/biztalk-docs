@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Schema Determination in the HL7 2.X Disassembler"
 title: "Schema Determination in the HL7 2.X Disassembler | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

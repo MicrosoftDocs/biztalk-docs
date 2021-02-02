@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: LUA Verb Summary"
 title: "LUA Verb Summary1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

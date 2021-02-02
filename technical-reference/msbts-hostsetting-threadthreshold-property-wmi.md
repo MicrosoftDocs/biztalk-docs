@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ThreadThreshold Property (WMI)"
 title: MSBTS_HostSetting.ThreadThreshold Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThreadThreshold Property (WMI)
 ms:assetid: 37b07342-3d3b-4abb-adae-7b4ccb6309f4

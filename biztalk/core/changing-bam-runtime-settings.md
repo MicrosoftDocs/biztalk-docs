@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Changing BAM Runtime Settings"
 title: "Changing BAM Runtime Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

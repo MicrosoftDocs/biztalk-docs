@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Functional Group Version Not Supported"
 title: "Functional Group Version Not Supported | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

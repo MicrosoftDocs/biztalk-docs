@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Use Expressions to Create Objects and Call Object Methods"
 title: "How to Use Expressions to Create Objects and Call Object Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

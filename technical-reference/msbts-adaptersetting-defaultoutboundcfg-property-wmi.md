@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_AdapterSetting.DefaultOutboundCfg Property (WMI)"
 title: MSBTS_AdapterSetting.DefaultOutboundCfg Property (WMI)
 TOCTitle: MSBTS_AdapterSetting.DefaultOutboundCfg Property (WMI)
 ms:assetid: 63ccfec4-2e9e-4ed0-b041-677ac8425da5

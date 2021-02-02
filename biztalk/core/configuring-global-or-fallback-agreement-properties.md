@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Global or Fallback Agreement Properties"
 title: "Configuring Global or Fallback Agreement Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

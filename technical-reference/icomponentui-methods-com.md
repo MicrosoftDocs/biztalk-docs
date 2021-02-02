@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IComponentUI Methods (COM)"
 title: IComponentUI Methods (COM)
 TOCTitle: IComponentUI Methods (COM)
 ms:assetid: 2a7803a3-2929-4ba0-90b9-e296a70d7a24

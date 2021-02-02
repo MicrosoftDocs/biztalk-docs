@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Aggregation Viewer"
 title: Aggregation Viewer
 TOCTitle: Aggregation Viewer
 ms:assetid: d39664b8-0d2a-4ad7-a718-b4cbbe35a21b
@@ -20,7 +21,7 @@ Aggregations can be either scheduled or real-time. Scheduled aggregations are OL
 
 ## PivotTable view
 
-The PivotTable View area displays the PivotTable report you design using the BAM Add-In for Excel. The Office Web Components allow you to manipulate the PivotTable report to present the view of the data that best fits your needs. For more information about using PivotTable reports, see "Layout and Format" in Office Online Help at [http://go.microsoft.com/fwlink/?LinkId=194314](https://go.microsoft.com/fwlink/?linkid=194314).
+The PivotTable View area displays the PivotTable report you design using the BAM Add-In for Excel. The Office Web Components allow you to manipulate the PivotTable report to present the view of the data that best fits your needs. For more information about using PivotTable reports, see "Layout and Format" in Office Online Help at [https://go.microsoft.com/fwlink/?LinkId=194314](https://go.microsoft.com/fwlink/?linkid=194314).
 
 When viewing the PivotTable report it is possible that some rows could contain null data in both real-time aggregations (RTAs) and precalculated aggregations (an OLAP implementation) if the milestones in the activity have been reached but are not used in the progress dimension. It is also possible to encounter rows with null data if the time dimension is used in the context of a progress dimension and is anchored to a milestone such as "acknowledged" instead of "received." In this case an activity instance is received and triggers the received milestone, but the activity has not yet triggered the acknowledge milestone and a zero will appear in the time dimension row. To avoid this situation, link the time dimension to the received milestone.
 
@@ -30,7 +31,7 @@ There are several points to keep in mind when using the Office Web Components in
 
   - The Office Web Components display data in the content frame of the BAM portal. Because of the space limitations of this frame, adding dimensions from the field list to the columns area can cause the display of the PivotTable report to move dimension names partly or wholly out of view.
 
-For more information about PivotTable reports, see "PivotTable terminology demystified" at [http://go.microsoft.com/fwlink/?LinkId=194317](https://go.microsoft.com/fwlink/?linkid=194317).
+For more information about PivotTable reports, see "PivotTable terminology demystified" at [https://go.microsoft.com/fwlink/?LinkId=194317](https://go.microsoft.com/fwlink/?linkid=194317).
 
 ## Chart view
 
@@ -51,4 +52,3 @@ The Chart View area displays the aggregation in a graphical manner. The Office W
 ## See Also
 
 [Alert Manager](alert-manager.md)
-

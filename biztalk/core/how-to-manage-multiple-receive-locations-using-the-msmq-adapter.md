@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Manage Multiple Receive Locations Using the MSMQ Adapter"
 title: "How to Manage Multiple Receive Locations Using the MSMQ Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning for Database Performance"
 title: "Plan for Database Performance | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/29/2017"

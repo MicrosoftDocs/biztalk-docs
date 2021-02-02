@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Get Common Value Functoid"
 title: Get Common Value Functoid
 TOCTitle: Get Common Value Functoid
 ms:assetid: 14a33cfa-e27a-41f1-82d1-d074117d8990

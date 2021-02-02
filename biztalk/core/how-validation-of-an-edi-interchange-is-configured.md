@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How Validation of an EDI Interchange Is Configured"
 title: "How Validation of an EDI Interchange Is Configured | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Throw Fault Exceptions from Orchestrations Published as WCF Services"
 title: "How to Throw Fault Exceptions from Orchestrations Published as WCF Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

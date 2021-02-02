@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instrumenting a Solution: Step-by-Step API Usage"
 title: "Instrumenting a Solution: Step-by-Step API Usage | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ITwoWayAsync Interface"
 title: ITwoWayAsync Interface
 TOCTitle: ITwoWayAsync Interface
 ms:assetid: 49978f17-67b7-4d95-be55-8ffc558a4efa

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNA Modem Status Interface"
 title: "SNA Modem Status Interface1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

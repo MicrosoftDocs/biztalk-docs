@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Adjust the Configuration Cache Refresh Interval"
 title: "How to Adjust the Configuration Cache Refresh Interval | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

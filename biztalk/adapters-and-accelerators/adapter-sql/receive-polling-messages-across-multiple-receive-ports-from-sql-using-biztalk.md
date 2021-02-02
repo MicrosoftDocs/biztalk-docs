@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receive Polling Messages Across Multiple Receive Ports from SQL using BizTalk Server"
 title: "Receive Polling Messages Across Multiple Receive Ports from SQL using BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

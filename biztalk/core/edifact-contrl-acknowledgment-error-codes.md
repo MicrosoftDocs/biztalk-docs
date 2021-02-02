@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EDIFACT CONTRL Acknowledgment Error Codes"
 title: "EDIFACT CONTRL Acknowledgment Error Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

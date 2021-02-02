@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Restrictions on the SMTP Host Property"
 title: "Restrictions on the SMTP Host Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Trace and Diagnostic File Location"
 title: "Trace and Diagnostic File Location2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

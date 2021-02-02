@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Delimiter Preservation and Suppression"
 title: "Delimiter Preservation and Suppression | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

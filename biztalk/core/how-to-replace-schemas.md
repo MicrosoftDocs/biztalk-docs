@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Replace Schemas"
 title: "How to Replace Schemas | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

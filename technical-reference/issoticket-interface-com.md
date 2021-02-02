@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ISSOTicket Interface (COM)"
 title: ISSOTicket Interface (COM)
 TOCTitle: ISSOTicket Interface (COM)
 ms:assetid: 3bb446f3-8602-4176-9285-19b7bdb1a3e6

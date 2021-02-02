@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocationOrchestration.MgmtDbNameOverride Property (WMI)"
 title: MSBTS_ReceiveLocationOrchestration.MgmtDbNameOverride Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.MgmtDbNameOverride Property (WMI)
 ms:assetid: f7a3cd00-9366-4e9a-96d8-e5a906eaa1bf

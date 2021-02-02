@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 5: Configuring the BizTalk Messaging Servers"
 title: "Step 5: Configuring the BizTalk Messaging Servers | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -24,11 +25,11 @@ This section provides guidelines on configuring the BizTalk Messaging servers.
 
 1. Enable Network Distributed Transaction Coordinator (DTC) access by selecting it from the Add/Remove [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Components under the Application Server category. Network DTC client access was enabled on the [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] computer in an earlier step. See the following Knowledge Base articles on the Microsoft Help and Support Web site for information about troubleshooting DTC issues:
 
-   - How To Troubleshoot MS DTC Firewall Issues, located at [http://go.microsoft.com/fwlink/?linkid=48870](https://go.microsoft.com/fwlink/?linkid=48870).
+   - How To Troubleshoot MS DTC Firewall Issues, located at [https://go.microsoft.com/fwlink/?linkid=48870](https://go.microsoft.com/fwlink/?linkid=48870).
 
-   - How To Use DTCTester Tool, located at [http://go.microsoft.com/fwlink/?linkid=48871](https://go.microsoft.com/fwlink/?linkid=48871).
+   - How To Use DTCTester Tool, located at [https://go.microsoft.com/fwlink/?linkid=48871](https://go.microsoft.com/fwlink/?linkid=48871).
 
-   - If DTC is behind a firewall, see "Configuring Microsoft Distributed Transaction Coordinator (DTC) to Work Through a Firewall", located at [http://go.microsoft.com/fwlink/?linkid=48872](https://go.microsoft.com/fwlink/?linkid=48872).
+   - If DTC is behind a firewall, see "Configuring Microsoft Distributed Transaction Coordinator (DTC) to Work Through a Firewall", located at [https://go.microsoft.com/fwlink/?linkid=48872](https://go.microsoft.com/fwlink/?linkid=48872).
 
 2. Configure and verify Network Load Balancing on the BizTalk receive servers as described in [Step 2: Configuring NLB on the Servers](../../adapters-and-accelerators/accelerator-swift/step-2-configuring-nlb-on-the-servers.md).
 

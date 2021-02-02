@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SExternalAccount Structure (COM)"
 title: SExternalAccount Structure (COM)
 TOCTitle: SExternalAccount Structure (COM)
 ms:assetid: 2c11e1d2-eb9f-415f-82e3-2195057d40a5

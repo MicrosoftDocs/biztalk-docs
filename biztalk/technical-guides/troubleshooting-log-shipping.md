@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Troubleshooting Log Shipping"
 title: "Troubleshooting Log Shipping | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

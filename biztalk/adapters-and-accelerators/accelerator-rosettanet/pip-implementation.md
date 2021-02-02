@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PIP Implementation"
 title: "PIP Implementation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -39,7 +40,7 @@ RosettaNet Partner Interface Processes (PIPs) define business processes between 
 > [!NOTE]
 >  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] also supports next-generation PIPs, recently published by the RosettaNet organization, that use XSD specifications.
 
- To implement a new PIP, you must convert the PIP's DTD into an XSD. You download the DTD associated with the PIP from the RosettaNet Web site at [http://go.microsoft.com/fwlink/?linkid=33859](https://go.microsoft.com/fwlink/?linkid=33859). You then create a [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] process configuration profile based on the PIP. For more information, see [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md).
+ To implement a new PIP, you must convert the PIP's DTD into an XSD. You download the DTD associated with the PIP from the RosettaNet Web site at [https://go.microsoft.com/fwlink/?linkid=33859](https://go.microsoft.com/fwlink/?linkid=33859). You then create a [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] process configuration profile based on the PIP. For more information, see [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md).
 
  You can create a new process configuration profile based on an existing profile. For more information, see [How to Create or Edit a Process Configuration](../../adapters-and-accelerators/accelerator-rosettanet/how-to-create-or-edit-a-process-configuration.md). You can create multiple agreements based on the same process configuration profile between the same partners. However, you can only activate one of them at a time. To create and activate an agreement, see [Creating or Editing an Agreement](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-an-agreement.md).
 

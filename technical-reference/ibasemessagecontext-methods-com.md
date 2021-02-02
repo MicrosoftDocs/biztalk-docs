@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IBaseMessageContext Methods (COM)"
 title: IBaseMessageContext Methods (COM)
 TOCTitle: IBaseMessageContext Methods (COM)
 ms:assetid: 10873016-4f9d-4230-a857-4612ad273705

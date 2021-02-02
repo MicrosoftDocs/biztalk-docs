@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveLocationOrchestration.PipelineName Property (WMI)"
 title: MSBTS_ReceiveLocationOrchestration.PipelineName Property (WMI)
 TOCTitle: MSBTS_ReceiveLocationOrchestration.PipelineName Property (WMI)
 ms:assetid: e66da1bb-90bb-453e-be1e-af89ac2dd10a

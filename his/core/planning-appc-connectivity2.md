@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Planning APPC Connectivity"
 title: "Planning APPC Connectivity2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

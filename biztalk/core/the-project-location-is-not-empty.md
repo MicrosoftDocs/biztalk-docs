@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: The project location is not empty"
 title: "The project location is not empty | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

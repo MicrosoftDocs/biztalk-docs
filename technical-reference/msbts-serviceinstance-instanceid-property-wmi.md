@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ServiceInstance.InstanceID Property (WMI)"
 title: MSBTS_ServiceInstance.InstanceID Property (WMI)
 TOCTitle: MSBTS_ServiceInstance.InstanceID Property (WMI)
 ms:assetid: 587ae471-50ef-4f43-9f88-f2c434c29e40

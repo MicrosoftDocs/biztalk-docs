@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use Performance Counters with the Siebel adapter"
 title: "Use Performance Counters with the Siebel adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

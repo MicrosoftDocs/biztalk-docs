@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Back up the Existing Security Data"
 title: "Back up the Existing Security Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

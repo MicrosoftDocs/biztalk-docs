@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Before You Import the Management Pack"
 title: "Before You Import the Management Pack | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

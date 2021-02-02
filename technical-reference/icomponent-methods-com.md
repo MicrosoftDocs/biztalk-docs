@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IComponent Methods (COM)"
 title: IComponent Methods (COM)
 TOCTitle: IComponent Methods (COM)
 ms:assetid: 724f1463-157b-42ed-8627-2b7fe91ebaa1

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Key Components of the WCF LOB Adapter SDK"
 title: "Key Components of the WCF LOB Adapter SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -103,7 +104,7 @@ The metadata components provide support for handling metadata requests, and for 
 |    `Microsoft.ServiceModel.Channels.Common.Adapter`     | Required  |                                                      The base class of an adapter written using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. It is responsible for interacting with the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel architecture                                                      |
 | `Microsoft.ServiceModel.Channels.Common.AdapterBinding` | Required  | Class that contains settings that control various settings for the adapter including the connection pool (`Microsoft.ServiceModel.Channels.Common.ConnectionPoolSettings`), cache (`Microsoft.ServiceModel.Channels.Common.CacheSettings`), metadata (`Microsoft.ServiceModel.Channels.Common.MetadataSettings`), and messaging (`Microsoft.ServiceModel.Channels.Common.MessagingSettings`). |
 
- Custom adapters are exposed through WCF bindings. For more information, see the WCF documentation at [http://go.microsoft.com/fwlink/?LinkId=100308](https://go.microsoft.com/fwlink/?LinkId=100308).
+ Custom adapters are exposed through WCF bindings. For more information, see the WCF documentation at [https://go.microsoft.com/fwlink/?LinkId=100308](https://go.microsoft.com/fwlink/?LinkId=100308).
 
  The [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] create implementations of `Microsoft.ServiceModel.Channels.Common.Adapter`, `Microsoft.ServiceModel.Channels.Common.AdapterBinding`, `System.ServiceModel.Configuration.StandardBindingElement`, and `System.ServiceModel.Configuration.StandardBindingCollectionElement` to expose the adapter binding to the WCF configuration system. The [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] will also generate an implementation of `System.ServiceModel.Configuration.BindingElementExtensionElement` to enable `Microsoft.ServiceModel.Channels.Common.Adapter` to be used within a WCF custom binding from a computer or application configuration file.
 

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.EncryptionCert Property (WMI)"
 title: MSBTS_SendPort.EncryptionCert Property (WMI)
 TOCTitle: MSBTS_SendPort.EncryptionCert Property (WMI)
 ms:assetid: 5917c349-4c6a-43c2-9e6e-9d206bdbc17b

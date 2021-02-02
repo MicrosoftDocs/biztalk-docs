@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations on Business Components in Siebel"
 title: "Operations on Business Components in Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

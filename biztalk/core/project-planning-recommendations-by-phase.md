@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Project Planning Recommendations by Phase"
 title: "Project Planning Recommendations by Phase | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

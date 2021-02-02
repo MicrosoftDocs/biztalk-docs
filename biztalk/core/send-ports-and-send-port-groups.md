@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Send Ports and Send Port Groups"
 title: "Send Ports and Send Port Groups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

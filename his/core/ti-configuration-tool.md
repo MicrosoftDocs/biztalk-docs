@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TI Configuration Tool"
 title: "TI Configuration Tool | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

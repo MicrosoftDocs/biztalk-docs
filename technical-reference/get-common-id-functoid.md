@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Get Common ID Functoid"
 title: Get Common ID Functoid
 TOCTitle: Get Common ID Functoid
 ms:assetid: d5d30c54-8b77-4623-8171-903b98edb9a1

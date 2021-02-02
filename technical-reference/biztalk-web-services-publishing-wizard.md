@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BizTalk Web Services Publishing Wizard"
 title: BizTalk Web Services Publishing Wizard
 TOCTitle: BizTalk Web Services Publishing Wizard
 ms:assetid: 44e7419f-a39f-4d15-867a-60bcedf4d2fb

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 2: Create the Inventory Request Schema"
 title: "Step 2: Create the Inventory Request Schema | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

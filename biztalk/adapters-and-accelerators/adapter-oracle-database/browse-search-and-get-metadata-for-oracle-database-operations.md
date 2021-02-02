@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Browse, search, and get metadata for Oracle Database operations"
 title: "Browse, search, and get metadata for Oracle Database operations | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Select Event Source Parent Assembly Dialog Box"
 title: Select Event Source Parent Assembly Dialog Box
 TOCTitle: Select Event Source Parent Assembly Dialog Box
 ms:assetid: e27df5a7-3770-44a6-bf8e-0a5f5618c9e5

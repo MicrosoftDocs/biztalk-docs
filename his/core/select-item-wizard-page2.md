@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Select Item Wizard Page"
 title: "Select Item Wizard Page2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

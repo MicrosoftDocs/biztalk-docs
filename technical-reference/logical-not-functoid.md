@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Logical NOT Functoid"
 title: Logical NOT Functoid
 TOCTitle: Logical NOT Functoid
 ms:assetid: 0a097a6c-88d2-4b5d-8fda-7d4560b4a05a

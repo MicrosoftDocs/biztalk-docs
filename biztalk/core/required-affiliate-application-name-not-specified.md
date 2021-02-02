@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Required affiliate application name not specified"
 title: "Required affiliate application name not specified | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -53,4 +54,4 @@ manager: "anneta"
 
 9. In the **User name credentials** section, specify a value for **Affiliate application**.
 
-   For more information about creating an SSO affiliate application, see [http://go.microsoft.com/fwlink/?LinkId=94347](https://go.microsoft.com/fwlink/?LinkId=94347)
+   For more information about creating an SSO affiliate application, see [https://go.microsoft.com/fwlink/?LinkId=94347](https://go.microsoft.com/fwlink/?LinkId=94347)

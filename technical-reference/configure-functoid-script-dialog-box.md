@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configure Functoid Script Dialog Box"
 title: Configure Functoid Script Dialog Box
 TOCTitle: Configure Functoid Script Dialog Box
 ms:assetid: 696dc165-0452-4b5b-83f4-2cbe814f175b

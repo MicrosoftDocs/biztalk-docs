@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Script Type Precedence Dialog Box"
 title: Script Type Precedence Dialog Box
 TOCTitle: Script Type Precedence Dialog Box
 ms:assetid: 3369245f-d8af-4046-80db-757d8fb4916b

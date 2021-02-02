@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Screening Routers and Internet Firewalls"
 title: "Screening Routers and Internet Firewalls1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

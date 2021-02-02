@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Working with the Managed Provider for DB2"
 title: "Working with the Managed Provider for DB21 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

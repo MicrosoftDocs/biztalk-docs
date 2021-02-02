@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ISSONotification.ReceiveNotification Method"
 title: "ISSONotification.ReceiveNotification Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

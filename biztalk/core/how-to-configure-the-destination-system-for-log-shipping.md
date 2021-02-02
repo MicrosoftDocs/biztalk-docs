@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure the Destination System for Log Shipping"
 title: "How to Configure the Destination System for Log Shipping | Microsoft Docs"
 ms.custom: ""
 ms.date: "12/03/2015"

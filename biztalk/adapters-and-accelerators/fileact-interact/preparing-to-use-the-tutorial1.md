@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Preparing to Use the Tutorial"
 title: "Preparing to Use the Tutorial1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -29,7 +30,7 @@ You must do the following before using the A4SWIFT adapter end-to-end tutorial.
 
 2.  You must configure SAG: create the MessagePartners, End Points, and Routing Rules in SAG, and test SAG connectivity on the computer where you install the adapters. For information, see the SAG documentation.
 
-3.  Follow the instructions listed in the topic “How to Create a New Host” in Microsoft BizTalk Server Help ([http://go.microsoft.com/fwlink/?LinkId=100422](https://go.microsoft.com/fwlink/?LinkId=100422)) to create one in-process Host for the InterAct adapter, named *interacthost*, and one in-process Host for the FileAct adapter, named *fileacthost*. You will use these hosts while creating handlers for the adapters.
+3.  Follow the instructions listed in the topic “How to Create a New Host” in Microsoft BizTalk Server Help ([https://go.microsoft.com/fwlink/?LinkId=100422](https://go.microsoft.com/fwlink/?LinkId=100422)) to create one in-process Host for the InterAct adapter, named *interacthost*, and one in-process Host for the FileAct adapter, named *fileacthost*. You will use these hosts while creating handlers for the adapters.
 
 4.  Create the following folders for the tutorial:
 

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: INamedItemList.Count Property (COM)"
 title: INamedItemList.Count Property (COM)
 TOCTitle: INamedItemList.Count Property (COM)
 ms:assetid: 9f23a437-d215-438c-9d89-8d8caeea35f5

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Receiving Data Asynchronously"
 title: "Receiving Data Asynchronously1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

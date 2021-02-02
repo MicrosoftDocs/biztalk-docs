@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Service Accounts Page"
 title: Configuration Wizard, Service Accounts Page
 TOCTitle: Configuration Wizard, Service Accounts Page
 ms:assetid: fabdbd15-69fb-4b70-8cbd-ffc20bb47f31

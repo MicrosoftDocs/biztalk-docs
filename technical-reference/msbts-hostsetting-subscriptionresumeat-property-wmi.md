@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.SubscriptionResumeAt Property (WMI)"
 title: MSBTS_HostSetting.SubscriptionResumeAt Property (WMI)
 TOCTitle: MSBTS_HostSetting.SubscriptionResumeAt Property (WMI)
 ms:assetid: ca4c24c3-4a9c-436b-96a2-2cfb5f4e311a

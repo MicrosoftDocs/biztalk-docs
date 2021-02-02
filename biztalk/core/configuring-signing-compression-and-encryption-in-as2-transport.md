@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Signing, Compression, and Encryption in AS2 Transport"
 title: "Configuring Signing, Compression, and Encryption in AS2 Transport | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

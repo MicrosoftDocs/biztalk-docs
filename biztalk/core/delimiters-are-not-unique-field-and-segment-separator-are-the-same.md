@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Delimiters are not unique, field and segment separator are the same"
 title: "Delimiters are not unique, field and segment separator are the same | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

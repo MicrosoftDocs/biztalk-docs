@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Start the SNA Trace Utility from a Command Prompt"
 title: "How to Start the SNA Trace Utility from a Command Prompt1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

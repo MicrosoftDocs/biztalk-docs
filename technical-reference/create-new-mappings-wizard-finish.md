@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Create New Mappings Wizard: Finish"
 title: 'Create New Mappings Wizard: Finish'
 TOCTitle: 'Create New Mappings Wizard: Finish'
 ms:assetid: 8407b533-934f-45ee-875d-57669cb49dca

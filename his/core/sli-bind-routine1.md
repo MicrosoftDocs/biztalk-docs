@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SLI_BIND_ROUTINE"
 title: "SLI_BIND_ROUTINE1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

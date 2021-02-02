@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_ReceiveHandler.HostNameToSwitchTo Property (WMI)"
 title: MSBTS_ReceiveHandler.HostNameToSwitchTo Property (WMI)
 TOCTitle: MSBTS_ReceiveHandler.HostNameToSwitchTo Property (WMI)
 ms:assetid: 7b274a30-bfbe-4d6b-a7db-0c7567db70d6

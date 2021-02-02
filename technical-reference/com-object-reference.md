@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: COM Object Reference"
 title: COM Object Reference
 TOCTitle: COM Object Reference
 ms:assetid: 4ea1e9b7-ed89-4095-8773-37718e93660a

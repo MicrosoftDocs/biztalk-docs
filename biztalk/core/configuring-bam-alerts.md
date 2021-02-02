@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring BAM Alerts"
 title: "Configuring BAM Alerts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -52,7 +53,7 @@ Administrators can modify certain elements of the BAM alert framework. This topi
 7.  Press **ENTER**.
 
 ### Notification Service configuration tips
- If you configure BAM Alerts in such a way as to place the Alerts databases on a remote computer running [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], then the Notification Services Database Components must be installed on the SQL Server instance. If these components are not present on the SQL instance, then configuration of BAM Alerts will fail with an error indicating that permissions could not be granted to the Notification Services Extended Stored Procedures. For more information on installing the Notification Services component, see [http://go.microsoft.com/fwlink/?LinkId=61999](https://go.microsoft.com/fwlink/?LinkId=61999).
+ If you configure BAM Alerts in such a way as to place the Alerts databases on a remote computer running [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], then the Notification Services Database Components must be installed on the SQL Server instance. If these components are not present on the SQL instance, then configuration of BAM Alerts will fail with an error indicating that permissions could not be granted to the Notification Services Extended Stored Procedures. For more information on installing the Notification Services component, see [https://go.microsoft.com/fwlink/?LinkId=61999](https://go.microsoft.com/fwlink/?LinkId=61999).
 
  BAM allows you to change the account that BAM uses to access the Notification Services. If you change this account in any way other than running NSControl, you will receive an error informing you to use the NSControl to change the account.
 
@@ -69,9 +70,9 @@ Administrators can modify certain elements of the BAM alert framework. This topi
 
 3. Add the NS user as a member of NSRunService role in both the BAMAlerts instance and application databases.
 
-4. Grant the NS User rights on the local machine using the documentation at [http://go.microsoft.com/fwlink/?LinkId=62005](https://go.microsoft.com/fwlink/?LinkId=62005).
+4. Grant the NS User rights on the local machine using the documentation at [https://go.microsoft.com/fwlink/?LinkId=62005](https://go.microsoft.com/fwlink/?LinkId=62005).
 
-5. Grant the NS rights to the NS database according to [http://go.microsoft.com/fwlink/?LinkId=62008](https://go.microsoft.com/fwlink/?LinkId=62008).
+5. Grant the NS rights to the NS database according to [https://go.microsoft.com/fwlink/?LinkId=62008](https://go.microsoft.com/fwlink/?LinkId=62008).
 
 6. Grant the NS user login rights to SQL server and database access to the Primary Import database.
 

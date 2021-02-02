@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure the Siebel Adapter to Integrate the Siebel System with the Business Data Catalog and SharePoint"
 title: "Configure the Siebel Adapter to Integrate the Siebel System with the Business Data Catalog and SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

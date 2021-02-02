@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Service for DRDA (Operations)"
 title: "Service for DRDA (Operations) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -371,7 +372,7 @@ C:\Program Files\Microsoft Service for DRDA\system\ MSSQLToDB2.xml
  To measure performance, the DRDA Service offers performance counters. The DRDA Service performance counters capture information about open connections, open statements, packets and bytes sent/received, average processing time, command executions, data fetches, and transaction commits/rollbacks.
 
 #### Configuration
- To measure performance, the DRDA Service offers performance counters for use with Windows Performance Monitor. The peformanceCountersOn attribute instructs the DRDA Service to collect information into performance counters. This optional attribute accepts a Boolean value. The default value is false. For more information, see section on Performance. Also, for more information on Windows Performance Monitor, see Performance Counters ([http://go.microsoft.com/fwlink/?LinkID=119211](https://go.microsoft.com/fwlink/?LinkID=119211)).
+ To measure performance, the DRDA Service offers performance counters for use with Windows Performance Monitor. The peformanceCountersOn attribute instructs the DRDA Service to collect information into performance counters. This optional attribute accepts a Boolean value. The default value is false. For more information, see section on Performance. Also, for more information on Windows Performance Monitor, see Performance Counters ([https://go.microsoft.com/fwlink/?LinkID=119211](https://go.microsoft.com/fwlink/?LinkID=119211)).
 
 #### Counters
  The DRDA Service outputs data to these Performance Monitor Counters.

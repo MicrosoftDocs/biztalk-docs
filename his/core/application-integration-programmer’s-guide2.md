@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Application Integration Programmer’s Guide"
 title: "Application Integration Programmer’s Guide2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

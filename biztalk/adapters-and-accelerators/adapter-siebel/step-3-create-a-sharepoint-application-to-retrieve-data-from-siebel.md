@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Create a SharePoint Application to Retrieve Data from Siebel"
 title: "Step 3: Create a SharePoint Application to Retrieve Data from Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -41,7 +42,7 @@ manager: "anneta"
 ## Creating an SSO Application in SharePoint
  To access the data in a Siebel system from a SharePoint application, you must set up an SSO application that maps a SharePoint user to a Siebel user. Creating an SSO application in SharePoint involves the following steps:
 
-1.  **Manage server settings for single sign-on**. In this step, you specify a user account that can manage and set up the single sign-on service. You can do so from the Manage Server Settings page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Configure Single Sign-On for Office SharePoint Server 2007” section at [http://go.microsoft.com/fwlink/?LinkId=105291](https://go.microsoft.com/fwlink/?LinkId=105291).
+1.  **Manage server settings for single sign-on**. In this step, you specify a user account that can manage and set up the single sign-on service. You can do so from the Manage Server Settings page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Configure Single Sign-On for Office SharePoint Server 2007” section at [https://go.microsoft.com/fwlink/?LinkId=105291](https://go.microsoft.com/fwlink/?LinkId=105291).
 
 2.  **Manage settings for enterprise application definitions**. In this step, you configure the settings for the enterprise application definition. You can do so from the Manage Settings for Enterprise Application Definitions page. This option is available from the SharePoint Central Administration console.
 
@@ -58,14 +59,14 @@ manager: "anneta"
 
     5.  Leave the other fields as default, and click **OK**.
 
-3.  **Manage account information for enterprise application definitions**. In this step, you enable individual users or groups to connect to an enterprise application from SharePoint. Essentially, in this step you map an individual user or group to a user in the LOB system. You also specify the credentials to connect to the LOB system. You can do so from Manage Account Information for Enterprise Application Definitions page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Manage account information for an enterprise application definition” section at [http://go.microsoft.com/fwlink/?LinkId=105291](https://go.microsoft.com/fwlink/?LinkId=105291).
+3.  **Manage account information for enterprise application definitions**. In this step, you enable individual users or groups to connect to an enterprise application from SharePoint. Essentially, in this step you map an individual user or group to a user in the LOB system. You also specify the credentials to connect to the LOB system. You can do so from Manage Account Information for Enterprise Application Definitions page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Manage account information for an enterprise application definition” section at [https://go.microsoft.com/fwlink/?LinkId=105291](https://go.microsoft.com/fwlink/?LinkId=105291).
 
 ## Creating a Shared Services Provider
  An SSP is a logical grouping of shared services and their supporting resources. You can create an SSP using the SharePoint Central Administration console.
 
  You must define a Web site while creating an SSP. Remember the port number and the site address you create. You will import the Business Data Catalog application definition to this site.
 
- For more information about creating an SSP, see "Chapter overview: Create and configure Shared Services Providers" at [http://go.microsoft.com/fwlink/?LinkId=105119](https://go.microsoft.com/fwlink/?LinkId=105119).
+ For more information about creating an SSP, see "Chapter overview: Create and configure Shared Services Providers" at [https://go.microsoft.com/fwlink/?LinkId=105119](https://go.microsoft.com/fwlink/?LinkId=105119).
 
 ## Importing the Application Definition File
  You must now import the application definition file into the SSP.
@@ -91,7 +92,7 @@ manager: "anneta"
 
  In this tutorial, Web Parts are created for the method instances that were created in Business Data Catalog Definition Editor. Office SharePoint Server provides different kinds of Web Parts for specific use. For the Finder method instance, we will use the **Business Data List** Web Part. This Web Part enables you to specify a search expression to perform a query on the Account business component. For this tutorial, we call this the **Query Accounts** Web Part.
 
- This section provides instructions to create these Web Parts. For more information about creating Web Parts, see the Microsoft Office SharePoint Server 2007 document ("Customize business data lists, Web Parts, and sites") at [http://go.microsoft.com/fwlink/?LinkId=104131](https://go.microsoft.com/fwlink/?LinkId=104131).
+ This section provides instructions to create these Web Parts. For more information about creating Web Parts, see the Microsoft Office SharePoint Server 2007 document ("Customize business data lists, Web Parts, and sites") at [https://go.microsoft.com/fwlink/?LinkId=104131](https://go.microsoft.com/fwlink/?LinkId=104131).
 
  The Web Parts will be added to a single Web Part page. You must create a Web Part page before adding the Web Parts. For this tutorial, the Web Part page is called **Siebel Account**.
 

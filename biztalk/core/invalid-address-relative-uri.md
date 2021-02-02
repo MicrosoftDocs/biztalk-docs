@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Invalid address (relative uri)"
 title: "Invalid address (relative uri) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

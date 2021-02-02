@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DL-BASE/DMOD"
 title: "DL-BASE-DMOD2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

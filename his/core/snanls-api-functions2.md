@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SNANLS API Functions"
 title: "SNANLS API Functions2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

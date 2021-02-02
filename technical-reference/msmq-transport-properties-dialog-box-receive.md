@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSMQ Transport Properties Dialog Box, Receive"
 title: MSMQ Transport Properties Dialog Box, Receive
 TOCTitle: MSMQ Transport Properties Dialog Box, Receive
 ms:assetid: 890a00b2-deca-412f-853e-85816c3f0c0d

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Step 3: Add Ports to the Orchestration"
 title: "Step 3: Add Ports to the Orchestration | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

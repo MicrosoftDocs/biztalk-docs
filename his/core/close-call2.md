@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CLOSE Call"
 title: "CLOSE Call2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

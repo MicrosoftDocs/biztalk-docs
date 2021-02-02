@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Operations in Windows Workflow Foundation"
 title: "Operations in Windows Workflow Foundation | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -26,7 +27,7 @@ This section contains the custom operations supported by the BAM WF interceptor.
 
 - User
 
-  The BAM WF interceptor uses the categories to assign a track point type to each **OnEvent**. It bases this assignment on the types of operations it sees in the **OnEvent** filter and the data extraction and manipulation sections. For example, if the **OnEvent** contains an **Update** element that uses the **GetUserData** operation, it is a user track point type because the activity and workflow events do not support this operation. For more information about track points, see System.Workflow.Runtime.Tracking at [http://go.microsoft.com/fwlink/?LinkId=80242](https://go.microsoft.com/fwlink/?LinkId=80242).
+  The BAM WF interceptor uses the categories to assign a track point type to each **OnEvent**. It bases this assignment on the types of operations it sees in the **OnEvent** filter and the data extraction and manipulation sections. For example, if the **OnEvent** contains an **Update** element that uses the **GetUserData** operation, it is a user track point type because the activity and workflow events do not support this operation. For more information about track points, see System.Workflow.Runtime.Tracking at [https://go.microsoft.com/fwlink/?LinkId=80242](https://go.microsoft.com/fwlink/?LinkId=80242).
 
 > [!NOTE]
 >  Workflow track points cannot extract data from the workflow.

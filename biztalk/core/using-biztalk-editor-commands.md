@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use BizTalk Editor Commands"
 title: "Using BizTalk Editor Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

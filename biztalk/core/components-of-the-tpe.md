@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Components of the TPE"
 title: "Components of the TPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using IPv6 Addressing with BizTalk Adapters"
 title: "Using IPv6 Addressing with BizTalk Adapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -33,7 +34,7 @@ BizTalk Server adapters support the use of IPv6 addressing. This topic describes
  Where \<*sharename*\> is the name of the file share on the target computer.
 
 > [!NOTE]
->  Ensure that the user accounts for the host instances that the File send and receive handlers are running in have appropriate permissions to the file share. For more information about the folder permissions required to receive files with the File adapter see [Configure a File Receive Handler](../core/configure-the-file-adapter.md). For more information about the folder permissions required when sending files with the File adapter see [Known Issues with the File Adapter](../core/known-issues-with-the-file-adapter.md). For information about the file systems that are supported for use with the File adapter, see [http://support.microsoft.com/kb/815070](https://support.microsoft.com/kb/815070).
+>  Ensure that the user accounts for the host instances that the File send and receive handlers are running in have appropriate permissions to the file share. For more information about the folder permissions required to receive files with the File adapter see [Configure a File Receive Handler](../core/configure-the-file-adapter.md). For more information about the folder permissions required when sending files with the File adapter see [Known Issues with the File Adapter](../core/known-issues-with-the-file-adapter.md). For information about the file systems that are supported for use with the File adapter, see [https://support.microsoft.com/kb/815070](https://support.microsoft.com/kb/815070).
 
 ## Using IPv6 Scope Identifiers with the HTTP Adapter and the SOAP Send Adapter
  The HTTP send and receive adapter and the SOAP send adapter require that if a scope identifier is used in an IPv6 address, the scope identifier must be escaped with the escape code **%25**. For example, **fe80::550c:489f:e65e:aef3%8** is a valid IPv6 address containing a scope identifier (%8). To use this IPv6 address with the HTTP send and receive adapters or the SOAP send adapter, the scope identifier must be escaped as follows:

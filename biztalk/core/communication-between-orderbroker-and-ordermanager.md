@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Communication between OrderBroker and OrderManager"
 title: "Communication between OrderBroker and OrderManager | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

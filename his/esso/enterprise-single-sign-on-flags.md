@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Enterprise Single Sign-On Flags"
 title: "Enterprise Single Sign-On Flags | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error - Unspecified Fatal Error"
 title: "Error - Unspecified Fatal Error | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

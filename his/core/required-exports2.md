@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Required Exports"
 title: "Required Exports2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

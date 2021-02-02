@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Installing Data Provider Version 6.0"
 title: "Installing Data Provider Version 6.0 | Microsoft Docs"
 ms.custom: ""
 ms.date: "2/5/2020"

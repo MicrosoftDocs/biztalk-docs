@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: An End Element was found while looking for Start Element"
 title: "An End Element was found while looking for Start Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

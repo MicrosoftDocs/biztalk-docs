@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How To Use REOverride to Specify a Remote Environment"
 title: "How To Use REOverride to Specify a Remote Environment2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

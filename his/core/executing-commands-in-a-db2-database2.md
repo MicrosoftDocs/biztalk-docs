@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Execute Commands in a DB2 Database"
 title: "Execute Commands in a DB2 Database | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Handle Null and DBNull"
 title: "How to Handle Null and DBNull | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

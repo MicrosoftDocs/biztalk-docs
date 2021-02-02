@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetAppcConfig"
 title: "GetAppcConfig1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Validating a Map (EDI)"
 title: "Validating a Map (EDI) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

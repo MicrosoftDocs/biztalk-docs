@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Sample Host Definitions"
 title: "Sample Host Definitions2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

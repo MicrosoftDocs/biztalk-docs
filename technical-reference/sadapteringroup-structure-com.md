@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: SAdapterInGroup Structure (COM)"
 title: SAdapterInGroup Structure (COM)
 TOCTitle: SAdapterInGroup Structure (COM)
 ms:assetid: ed99d11a-6dfd-44c8-ad3b-4ae54ae84811

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 2: Creating a Strong-Named BizTalk Assembly for the SWIFTSchemas Project"
 title: "Lesson 2: Creating a Strong-Named BizTalk Assembly for the SWIFTSchemas Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

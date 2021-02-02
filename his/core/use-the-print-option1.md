@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Use the /print Option"
 title: "Use the -print Option1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

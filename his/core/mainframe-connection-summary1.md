@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Mainframe Connection Summary"
 title: "Mainframe Connection Summary1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

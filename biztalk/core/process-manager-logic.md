@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Process Manager Logic"
 title: "Process Manager Logic | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.MessagePublishSampleSpaceWindow Property (WMI)"
 title: MSBTS_HostSetting.MessagePublishSampleSpaceWindow Property (WMI)
 TOCTitle: MSBTS_HostSetting.MessagePublishSampleSpaceWindow Property (WMI)
 ms:assetid: b0770173-ddf0-4a74-a6dc-22c9e794e5eb

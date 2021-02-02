@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: 3270 Printing Problems"
 title: "3270 Printing Problems2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

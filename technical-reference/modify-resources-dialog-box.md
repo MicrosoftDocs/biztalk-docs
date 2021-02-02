@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Modify Resources Dialog Box"
 title: Modify Resources Dialog Box
 TOCTitle: Modify Resources Dialog Box
 ms:assetid: 6974c4d6-55b1-479c-bdc0-fe1a917c1d36

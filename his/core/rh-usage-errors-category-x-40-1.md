@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RH Usage Errors (Category X&#39;40&#39;)"
 title: "RH Usage Errors (Category X&#39;40&#39;)1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Logical OR Functoid"
 title: Logical OR Functoid
 TOCTitle: Logical OR Functoid
 ms:assetid: 58398fbf-0445-4b49-826c-0339dde69c50

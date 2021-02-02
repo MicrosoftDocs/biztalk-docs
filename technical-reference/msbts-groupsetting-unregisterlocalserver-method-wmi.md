@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.UnRegisterLocalServer Method (WMI)"
 title: MSBTS_GroupSetting.UnRegisterLocalServer Method (WMI)
 TOCTitle: MSBTS_GroupSetting.UnRegisterLocalServer Method (WMI)
 ms:assetid: f20282a5-d710-4dbf-b01e-f9ed5d08c967

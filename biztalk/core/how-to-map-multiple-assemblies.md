@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Map Multiple Assemblies"
 title: "How to Map Multiple Assemblies | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

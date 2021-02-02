@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsHis_Locale"
 title: "MsHis_Locale2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

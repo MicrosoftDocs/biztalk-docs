@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Policy Properties Dialog Box"
 title: Policy Properties Dialog Box
 TOCTitle: Policy Properties Dialog Box
 ms:assetid: b44d2456-7079-4a08-89f5-a79029178ee6

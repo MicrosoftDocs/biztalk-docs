@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configure a physical port binding using a port binding file to Siebel"
 title: "Configure a physical port binding using a port binding file to Siebel | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

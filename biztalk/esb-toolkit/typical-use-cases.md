@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Typical Use Cases"
 title: "Typical Use Cases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_MsgBoxSetting.ForceDelete Method (WMI)"
 title: MSBTS_MsgBoxSetting.ForceDelete Method (WMI)
 TOCTitle: MSBTS_MsgBoxSetting.ForceDelete Method (WMI)
 ms:assetid: 7399c9ff-ef94-44b7-973d-a183d63109d2

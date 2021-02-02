@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Remotely Administering Transaction Integrator"
 title: "Remotely Administering Transaction Integrator1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

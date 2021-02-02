@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Structure of an Interceptor Configuration File"
 title: "Structure of an Interceptor Configuration File | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

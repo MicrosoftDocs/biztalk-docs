@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_AccountAssigned3270 Class"
 title: "MsSna_AccountAssigned3270 Class2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_GroupSetting.GlobalTrackingOption Property (WMI)"
 title: MSBTS_GroupSetting.GlobalTrackingOption Property (WMI)
 TOCTitle: MSBTS_GroupSetting.GlobalTrackingOption Property (WMI)
 ms:assetid: 9f2bcaa2-346b-4e19-8a22-796d9994d40c

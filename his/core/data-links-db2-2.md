@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Data Links (DB2)"
 title: "Data Links (DB2) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -288,7 +289,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  Optionally, you can instruct the Data Provider to execute an implicit **COMMIT** on all SQL statements by specifying TRUE. By default, this Boolean property is set to FALSE.
 
- The AutoCommit mode is appropriate for most common transactions that consist of a single SQL statement. However, this mode does not allow for unit of work rollback. For more information, see http://support.microsoft.com/kb/218590.
+ The AutoCommit mode is appropriate for most common transactions that consist of a single SQL statement. However, this mode does not allow for unit of work rollback. For more information, see https://support.microsoft.com/kb/218590.
 
  **Cache Authentication**
 
@@ -401,7 +402,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
   **Host CCSID**  
   
-  The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS use EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](http://go.microsoft.com/fwlink/?LinkID=181017) (http://go.microsoft.com/fwlink/?LinkID=181017).  
+  The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS use EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).  
   
   **Initial Catalog**  
   
@@ -485,7 +486,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  **PC Code Page**  
   
- The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode. For more information, see [SNA Internationalization Programmer's Reference](http://go.microsoft.com/fwlink/?LinkID=181017) (http://go.microsoft.com/fwlink/?LinkID=181017).  
+ The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode. For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).  
   
  **Persist Security Info**  
   

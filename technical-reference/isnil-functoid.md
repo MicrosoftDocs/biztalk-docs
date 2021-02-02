@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IsNil Functoid"
 title: IsNil Functoid
 TOCTitle: IsNil Functoid
 ms:assetid: ee7472ce-eb94-40fb-b242-bd63f8a4c359

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SOAP Headers with Consumed Web Services"
 title: "SOAP Headers with Consumed Web Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -66,7 +67,7 @@ After you add Web services to your orchestration using the **Add Web Reference**
 </definitions>
 ```
 
- For more information about using SOAP headers, see "Using SOAP Headers" in .NET Framework documentation at [http://go.microsoft.com/fwlink/?LinkId=62266](https://go.microsoft.com/fwlink/?LinkId=62266).
+ For more information about using SOAP headers, see "Using SOAP Headers" in .NET Framework documentation at [https://go.microsoft.com/fwlink/?LinkId=62266](https://go.microsoft.com/fwlink/?LinkId=62266).
 
 ## In This Section
 

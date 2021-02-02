@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Application Integration (Security)"
 title: "Application Integration (Security)2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

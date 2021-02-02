@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Configure SSO Using the Configuration Wizard"
 title: "How to Configure SSO Using the Configuration Wizard | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

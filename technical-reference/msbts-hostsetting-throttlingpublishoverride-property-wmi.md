@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_HostSetting.ThrottlingPublishOverride Property (WMI)"
 title: MSBTS_HostSetting.ThrottlingPublishOverride Property (WMI)
 TOCTitle: MSBTS_HostSetting.ThrottlingPublishOverride Property (WMI)
 ms:assetid: 14341b68-52f5-4fcf-9341-7ec9d88efddb

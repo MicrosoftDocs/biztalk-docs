@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Configuring Batching (EDIFACT)"
 title: "Configuring Batching (EDIFACT) | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

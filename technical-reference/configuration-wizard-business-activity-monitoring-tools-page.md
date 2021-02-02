@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Configuration Wizard, Business Activity Monitoring - Tools Page"
 title: Configuration Wizard, Business Activity Monitoring - Tools Page
 TOCTitle: Configuration Wizard, Business Activity Monitoring - Tools Page
 ms:assetid: 6e84dfe8-6ea6-42a0-9f71-02da594aead3

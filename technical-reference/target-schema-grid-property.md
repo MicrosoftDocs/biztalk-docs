@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Target Schema (Grid Property)"
 title: Target Schema (Grid Property)
 TOCTitle: Target Schema (Grid Property)
 ms:assetid: cb07dd68-e0cb-4b69-94ba-e90d6437cda8

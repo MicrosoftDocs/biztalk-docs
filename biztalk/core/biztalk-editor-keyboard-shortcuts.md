@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BizTalk Editor Keyboard Shortcuts"
 title: "BizTalk Editor Keyboard Shortcuts | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

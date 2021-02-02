@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.STOrderedDelivery Property (WMI)"
 title: MSBTS_SendPort.STOrderedDelivery Property (WMI)
 TOCTitle: MSBTS_SendPort.STOrderedDelivery Property (WMI)
 ms:assetid: 06831cd2-6282-4031-8c79-b71fe72d8f4b

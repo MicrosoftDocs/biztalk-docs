@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Instance XPath (Node Property of All Schemas)"
 title: Instance XPath (Node Property of All Schemas)
 TOCTitle: Instance XPath (Node Property of All Schemas)
 ms:assetid: 46464980-8e70-4c8e-bf71-5b9fa3094807

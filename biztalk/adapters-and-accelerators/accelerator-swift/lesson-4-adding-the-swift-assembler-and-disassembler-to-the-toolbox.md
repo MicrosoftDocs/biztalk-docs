@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Lesson 4: Adding the SWIFT Assembler and Disassembler to the Toolbox"
 title: "Lesson 4: Adding the SWIFT Assembler and Disassembler to the Toolbox | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

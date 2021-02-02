@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Function 0x44: Transmit Frame"
 title: "Function 0x44: Transmit Frame1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

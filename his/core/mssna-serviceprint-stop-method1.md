@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MsSna_ServicePrint.Stop Method"
 title: "MsSna_ServicePrint.Stop Method1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

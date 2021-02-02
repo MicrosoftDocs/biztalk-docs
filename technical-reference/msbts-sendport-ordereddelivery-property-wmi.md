@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: MSBTS_SendPort.OrderedDelivery Property (WMI)"
 title: MSBTS_SendPort.OrderedDelivery Property (WMI)
 TOCTitle: MSBTS_SendPort.OrderedDelivery Property (WMI)
 ms:assetid: 8fa6e533-a6b6-4917-bccf-8c81610d078b

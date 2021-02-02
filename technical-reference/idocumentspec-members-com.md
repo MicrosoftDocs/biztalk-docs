@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDocumentSpec Members (COM)"
 title: IDocumentSpec Members (COM)
 TOCTitle: IDocumentSpec Members (COM)
 ms:assetid: dff95ebb-a36f-4aae-8eb5-0d1ed9b7ab53

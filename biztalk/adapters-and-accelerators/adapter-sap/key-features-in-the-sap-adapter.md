@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Key features in the SAP Adapter"
 title: "Key features in the SAP Adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Define Milestone Groups"
 title: "How to Define Milestone Groups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

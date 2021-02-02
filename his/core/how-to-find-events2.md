@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How to Find Events"
 title: "How to Find Events2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
