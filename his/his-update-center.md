@@ -34,12 +34,13 @@ These adapters are updated by the cumulative updates for HIS.
 
 | Product Version | Latest Service Pack | Latest Cumulative Update |
 | --- | --- | --- |
+| HIS 2020 | n/a | n/a |
 | HIS 2016 | n/a | CU 4 ([KB 4565668](https://support.microsoft.com/topic/cumulative-update-package-4-for-host-integration-server-2016-0ee9c076-09fb-d890-791e-5f388a55b658)) |
 | HIS 2013 | n/a | CU 5 ([KB 4089507](https://support.microsoft.com/help/4089507)) |
-|  HIS 2010 | n/a | CU 10 ([KB 2917398](https://support.microsoft.com/kb/2917398)) |
-|  HIS 2009 | n/a | CU 7 ([KB 2975320](https://support.microsoft.com/kb/2975320)) |
-|  HIS 2006 | SP1 ([KB 979238](https://support.microsoft.com/kb/979238))  | n/a |
-|  HIS 2004 |  SP1 ([KB 940312](https://support.microsoft.com/kb/940312)) | n/a |
+| HIS 2010 | n/a | CU 10 ([KB 2917398](https://support.microsoft.com/kb/2917398)) |
+| HIS 2009 | n/a | CU 7 ([KB 2975320](https://support.microsoft.com/kb/2975320)) |
+| HIS 2006 | SP1 ([KB 979238](https://support.microsoft.com/kb/979238)) | n/a |
+| HIS 2004 | SP1 ([KB 940312](https://support.microsoft.com/kb/940312)) | n/a |
 
 ## OLE DB Provider for DB2 latest updates
 
@@ -47,7 +48,7 @@ These adapters are updated by the cumulative updates for HIS.
 | --- | --- | --- |
 | [Microsoft OLEDB Provider for DB2 v6.0 for SQL Server 2017](https://www.microsoft.com/download/details.aspx?id=55992) | 10.0.2469.0 |[KB 4470651](https://support.microsoft.com/kb/4470651) (10.0.2469.0) <br/><br/>See Note |
 | [Microsoft OLEDB Provider for DB2 v5.0 for SQL Server 2014](https://www.microsoft.com/download/details.aspx?id=42295) | 9.0.2148.0 |[KB 3104962](https://support.microsoft.com/kb/3104962) (9.0.2343.0) <br/><br/>See Note |
-| [Microsoft OLEDB Provider for DB2 v4.0 Refresh for SQL Server 2012 SP1](https://www.microsoft.com/download/details.aspx?id=35580) | 9.0.1390.0  | [KB 2913611](https://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
+| [Microsoft OLEDB Provider for DB2 v4.0 Refresh for SQL Server 2012 SP1](https://www.microsoft.com/download/details.aspx?id=35580) | 9.0.1390.0 | [KB 2913611](https://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
 | [Microsoft OLEDB Provider for DB2 v4.0 for SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=29065) | 9.0.1356.0 | [KB 2913611](https://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
 | [Microsoft OLE DB Provider for DB2 v3.0 for SQL Server 2008 R2](https://www.microsoft.com/download/details.aspx?id=26728) | 8.0.4294.0 | [KB 2827515](https://support.microsoft.com/kb/2827515) (8.0.4329.2) |
 
@@ -57,7 +58,7 @@ These adapters are updated by the cumulative updates for HIS.
 ## Cumulative update list
 
 #### HIS 2016
-
+-   [Cumulative Update 4](https://support.microsoft.com/topic/cumulative-update-package-4-for-host-integration-server-2016-0ee9c076-09fb-d890-791e-5f388a55b658)
 -   [Cumulative Update 3](https://support.microsoft.com/help/4470651)
 -   [Cumulative Update 2](https://support.microsoft.com/help/4043569)
 -   [Cumulative Update 1](https://support.microsoft.com/help/3216544) 
