@@ -1,5 +1,5 @@
 ---
-title: "HIS Migration Tool | Microsoft Docs"
+title: "HIS 2020 Migration Tool | Microsoft Docs"
 description: Move to Host Integration Server 2020 from an older or previous version. Or, move an existing HIS 2020 configuration to another server.
 ms.custom: ""
 ms.date: "5/13/2020"

@@ -1,6 +1,6 @@
 ---
 description: "Learn more about: Release Notes"
-title: "Release Notes | Microsoft Docs"
+title: "Release Notes for Host Integration Server (HIS) 2020| Microsoft Docs"
 ms.custom: ""
 ms.date: "5/13/2020"
 ms.prod: host-integration-server

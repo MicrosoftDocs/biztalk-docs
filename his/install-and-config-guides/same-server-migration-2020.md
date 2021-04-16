@@ -1,6 +1,6 @@
 ---
 description: "Learn more about: Same Server Migration"
-title: "Same Server Migration | Microsoft Docs"
+title: "Same Server Migration with the HIS Migration tool | Microsoft Docs"
 ms.custom: ""
 ms.date: "5/13/2020"
 ms.prod: host-integration-server
