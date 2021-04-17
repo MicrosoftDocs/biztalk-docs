@@ -2,7 +2,7 @@
 description: "Learn more about: The Resolver and Adapter Provider Framework"
 title: "ESB Resolver and Adapter Provider Framework overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "04/16/2021"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
