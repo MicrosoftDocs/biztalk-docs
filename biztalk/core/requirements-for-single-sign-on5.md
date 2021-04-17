@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Requirements for Single Sign-On
+# Single Sign-On requirements
 To use Single Sign-On (SSO), you must have:  
   
 - Microsoft BizTalk Server 

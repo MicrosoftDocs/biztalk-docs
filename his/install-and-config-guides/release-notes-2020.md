@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "dougeby"
 ---
 
-# Release Notes
+# Release Notes for Host Integration Server (HIS) 2020
 
 These release notes summarize the most important issues in Host Integration Server 2020.  
   

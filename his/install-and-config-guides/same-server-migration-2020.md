@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 
-# Same Server Migration
+# Same Server Migration with the HIS Migration tool
 
 The HIS Migration tool allows you to migrate from an earlier edition of Host Integration Server to Host Integration Server 2020 or 2016 on the same server. The migration tool gets the configuration information before uninstalling the older version of Host Integration Server. This configuration information can be applied to the new install of Host Integration Server.
 
