@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Creating Send Ports
+# Create a Send Port
 
 ## Overview
 When you create a send port that uses Single Sign-On (SSO) and the affiliate application, you do not fill in the User name and Password parameters. You select **Yes** for **Use SSO** and select the SSO affiliate applications that you created to represent the TIBCO Enterprise Message Service system from the list.  

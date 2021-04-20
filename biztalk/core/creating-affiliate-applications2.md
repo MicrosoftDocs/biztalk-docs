@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Creating Affiliate Applications"
+description: "Create enterprise SSO Affiliate Applications for the PeopleSoft Enterprise adapter in BizTalk Server"
 title: "Create affiliate applications for PeopleSoft Enterprise | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Creating Affiliate Applications
+# Creating Affiliate Applications for PeopleSoft Enterprise
 The following steps show how to start using affiliate applications and Single Sign-On (SSO).  
   
 > [!NOTE]
@@ -33,7 +33,7 @@ The following steps show how to start using affiliate applications and Single Si
   
 3. Use the Enterprise Single Sign-On commands. For a list of commands, use the **-help** switch.  
   
-    ![](../core/media/siebeladapter-23-sso-commands.gif "SiebelAdapter_23_SSO_Commands")  
+    ![Use the -help switch to get the single sign-on commands in BizTalk Server](../core/media/siebeladapter-23-sso-commands.gif "SiebelAdapter_23_SSO_Commands")  
   
 4. To create the affiliate application by using *.XML as a start, type the following command:  
   

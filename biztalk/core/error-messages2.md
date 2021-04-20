@@ -19,7 +19,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Error Messages
+# Error Messages for the JD Edwards OneWorld System
 The following table describes error messages in the JD Edwards OneWorld system, and provides possible corrections for them.  
   
 |Error ID|Possible Cause / Error Description|Possible Correction|  

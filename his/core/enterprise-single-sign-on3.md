@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Enterprise Single Sign-On
+# Enterprise Single Sign-On (SSO)
 Use these menu commands to configure and run Enterprise Single Sign-On.  
   
 ## See Also  

@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Data Type Mapping
+# Data Type Mapping to OLE DB Data Types
 This topic describes all data type mappings to OLE DB data types.
 
 ## DB2 to OLE DB Data Type Mapping
