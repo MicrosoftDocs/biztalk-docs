@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Basic Oracle Data Types
+# About Basic Oracle Data Types
 This topic describes how the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces basic Oracle data types.  
 
 ## Supported Oracle Data Types  

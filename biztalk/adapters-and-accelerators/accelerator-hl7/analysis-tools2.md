@@ -22,7 +22,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Analysis Tools
+# About Analysis Tools
 Microsoft BizTalk Server provides a set of analysis tools for business analysts and information workers. For more information about these tools, see MicrosoftBizTalk Server Help.  
   
 ## Business Activity Monitoring  
