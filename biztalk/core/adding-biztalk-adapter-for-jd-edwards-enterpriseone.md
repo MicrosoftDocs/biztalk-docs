@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Configure JD Edwards EnterpriseOne artifacts in BizTalk Administration
+# Add JD Edwards EnterpriseOne artifacts in BizTalk Administration
 Microsoft BizTalk Adapter for J.D.Edwards EnterpriseOne contains both the Receive Handler and Send Handler folders. The folders contain BizTalkServerApplication. BizTalk Adapter for J.D.Edwards EnterpriseOne is creatable; it runs in-process with BizTalk Server and does not run in an isolated host process.  
 
 ## Add the adapter to BizTalk Administration 

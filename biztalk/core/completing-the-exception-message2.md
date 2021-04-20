@@ -17,7 +17,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Completing the Exception Message
+# Complete the Exception Message Flow
 To complete the flow of the exception, create a **Send** message and redirect the fault Message_3 to a monitored folder.  
   
  ![](../core/media/jdeoneworld-02.gif "JdeOneWorld_02")  

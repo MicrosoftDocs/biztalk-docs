@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Completing the Exception Message
+# How to Complete the Exception Message
 To complete the flow of the exception, add a Send shape to add the fault Message_3 to a monitored folder.  
   
  ![](../core/media/siebeladapter-15-exceptionhandling-start.gif "SiebelAdapter_15_ExceptionHandling_Start")  
