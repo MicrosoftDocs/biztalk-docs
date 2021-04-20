@@ -1,8 +1,8 @@
 ---
 description: "Learn more about: Release Notes"
-title: "Release Notes | Microsoft Docs"
+title: "Release Notes for Host Integration Server (HIS) 2020| Microsoft Docs"
 ms.custom: ""
-ms.date: "5/13/2020"
+ms.date: "04/16/2021"
 ms.prod: host-integration-server
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "dougeby"
 ---
 
-# Release Notes
+# Release Notes for Host Integration Server (HIS) 2020
 
 These release notes summarize the most important issues in Host Integration Server 2020.  
   

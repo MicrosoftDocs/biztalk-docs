@@ -1,8 +1,8 @@
 ---
 description: "Learn more about: Requirements for Single Sign-On"
-title: "Requirements for Single Sign-On | Microsoft Docs"
+title: "Single Sign-on requirements | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "04/16/2021"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Requirements for Single Sign-On
+# Single Sign-On requirements
 To use Single Sign-On (SSO), you must have:  
   
 - Microsoft BizTalk Server 
