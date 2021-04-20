@@ -1,6 +1,6 @@
 ---
-description: "Learn more about: End-to-End Tutorial"
-title: "End-to-End Tutorial1 | Microsoft Docs"
+description: "End-to-End Tutorial to use and configure the BizTalk Accelerator for HL7 - BTAHL7"
+title: "BizTalk Accelerator for HL7 tutorial | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
@@ -30,8 +30,7 @@ This tutorial contains detailed steps that describe how you use Microsoft [!INCL
 ## Declarative Scenario  
  This tutorial uses the publish/subscribe or declarative scenario. In the declarative scenario, the flow of business is similar to that shown in the following figure. The numbered list following the figure describes the workflow.  
   
- ![](../../adapters-and-accelerators/accelerator-hl7/media/hl7-e2e-wkflw.gif "hl7_e2e_wkflw")  
-Figure showing the flow of business for the declarative scenario  
+ ![Image showing the flow of business for the declarative scenario in BizTalk Server](../../adapters-and-accelerators/accelerator-hl7/media/hl7-e2e-wkflw.gif "hl7_e2e_wkflw")  
   
 1.  The workflow begins when the publisher, for example, an Admissions Discharge and Transfer system, sends a message to specific subscribers. The publisher in the workflow is "Tutorial_ADTSystem", and the message is called "**ADT^A103**."  
   
