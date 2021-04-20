@@ -22,7 +22,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Best Practices for Managing Certificates
+# Learn About Best Practices for Managing Certificates
 This section provides best practices for managing certificates in your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.  
   
 - **Do a Threat Model Analysis of your environment**  

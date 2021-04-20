@@ -2,7 +2,7 @@
 description: "Learn more about: About Session Management"
 title: "About Session Management1 | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "04/16/2021"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# About Session Management
+# About Connection Session Management
 The Microsoft BizTalk Adapter for JD Edwards OneWorld creates a connection session to send a call to the JD Edwards OneWorld server. When the call terminates, the session is put in a pool to be re-used by a subsequent call. The adapter creates multiple connection sessions to handle concurrent calls to the JD Edwards OneWorld server. The pool is periodically cleaned to remove sessions that are no longer necessary.  
   
  The Microsoft BizTalk Adapter for JD Edwards OneWorld provides two message context properties to control when calls must occur within the same session.  

@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Create your application
+# Create application artifacts
 This section contains information for developers who want to create BizTalk Server applications and work with BizTalk Adapter for JD Edwards OneWorld. Once these applications are created, then you [update the jdearglist file and add exception handling](using-biztalk-server-exception-handling1.md) to your orchestrations.
   
 > [!NOTE]

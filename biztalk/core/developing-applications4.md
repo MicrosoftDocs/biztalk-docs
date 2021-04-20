@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 
-# Create your application
+# Create your application artifacts for PeopleSoft Enterprise
 This section contains information for developers who want to create BizTalk Server applications and work with BizTalk Adapter for PeopleSoft Enterprise. Once these applications are created, then you can [add exception handling](../core/using-biztalk-server-exception-handling2.md) to your orchestration. 
 
 

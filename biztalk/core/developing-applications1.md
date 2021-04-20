@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Create your application
+# Create your TIBCO Rendezvous application artifacts
 This section contains information for developers who want to create BizTalk Server applications and work with BizTalk Adapter for TIBCO Rendezvous. Once these applications are created, then you can [add exception handling](../core/using-biztalk-server-exception-handling4.md) to your orchestration. 
   
 ## Next steps

@@ -17,7 +17,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Basic Orchestration Design
+# Design Basic Orchestrations
 When you create a basic orchestration, you receive XML in the receive port of your orchestration. The XML is then sent to the back-end system to be processed. In the back-end system, an exception might occur that could stop the orchestration. The exception that is produced provides information that the orchestration was not completed.  
   
  When a fault occurs, the call is suspended. In the Event Viewer log, you can view the fault and the reason for the failure.  

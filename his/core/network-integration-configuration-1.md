@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Configure Network Integration
+# Configure Network Integration Overview
 
 Configuration includes creating a successful connection to your Host Integration Server and using SNA Server, configuring your enterprise for link services and LU, and using SNA Manager: 
 

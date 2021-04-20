@@ -11,7 +11,7 @@ f1_keywords:
 - bts06.bam.workbook.viewwizard.viewitems
 ---
 
-# Business Activity Monitoring View Wizard, New-Edit BAM View: View Items Page
+# New-Edit BAM View: View Items Page in the Business Activity Monitoring View Wizard
 
  
 

@@ -23,7 +23,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Basic Types
+# Basic Data Types
 Microsoft BizTalk Adapter for JD Edwards OneWorld provides access only to JD Edwards OneWorld business functions. Business function metadata is read using a business function interface and used to find a list of business functions and associated data structures. Metadata is strongly typed in all cases for all business function methods.  
   
  All business function methods have the same calling convention: three parameters that are system derived, and a pointer to a data structure. The following table shows how the business function data types are represented.  
