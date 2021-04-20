@@ -1,8 +1,8 @@
 ---
 description: "Learn more about: Install the BizTalk Adapter Pack 2016"
-title: "Install the BizTalk Adapter Pack 2016 | Microsoft Docs"
+title: "How to install the BizTalk Adapter Pack 2016 | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/08/2017"
+ms.date: "04/16/2021"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Install the BizTalk Adapter Pack 2016
+# How to install the BizTalk Adapter Pack 2016
 ## Overview
 
 The [!INCLUDE[adapterpacknoversion_md](../includes/adapterpacknoversion-md.md)] (BAP) is included with [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]. So when you download [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], you are also downloading the adapters in the [!INCLUDE[adapterpacknoversion_md](../includes/adapterpacknoversion-md.md)]. 
