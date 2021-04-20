@@ -21,7 +21,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# End-to-End Tutorial
+# End-to-End Tutorial for BizTalk Accelerator for HL7
 This tutorial contains detailed steps that describe how you use Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to facilitate business processes in a subscriber and publisher scenario.  
   
 > [!IMPORTANT]

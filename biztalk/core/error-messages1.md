@@ -17,7 +17,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Error Messages
+# Error Messages in the JD Edwards EnterpriseOne System
 The following table describes error messages in the JD Edwards EnterpriseOne system and provides possible corrections for them.  
   
 |Error ID|Possible Cause / Error Description|Possible Correction|  

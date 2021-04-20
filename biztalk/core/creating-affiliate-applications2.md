@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Creating Affiliate Applications
+# Creating Affiliate Applications for PeopleSoft Enterprise
 The following steps show how to start using affiliate applications and Single Sign-On (SSO).  
   
 > [!NOTE]

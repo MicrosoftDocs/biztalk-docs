@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Creating Affiliate Applications
+# Creating Affiliate Applications for TIBCO Rendezvous
 The following steps describe how to start working with affiliate applications and Single Sign-On (SSO). For complete information about how to use Enterprise Single Sign-On, see the Microsoft documentation.  
   
 > [!NOTE]

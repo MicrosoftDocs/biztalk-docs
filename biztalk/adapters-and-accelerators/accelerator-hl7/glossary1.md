@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Glossary
+# Glossary - Microsoft BizTalk Accelerator for HL7
 Microsoft BizTalk Accelerator for HL7 uses the following terms and definitions.
 
 ## A    

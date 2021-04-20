@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# GetContextProperty
+# GetContextProperty Overview
 Pushes the requested context property onto the stack.  
   
 ## Syntax  

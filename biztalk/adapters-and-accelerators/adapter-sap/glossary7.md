@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Glossary
+# Glossary - Microsoft BizTalk Adapter for mySAP Business Suite
 The following terms and definitions are used in [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].  
   
 ## A  

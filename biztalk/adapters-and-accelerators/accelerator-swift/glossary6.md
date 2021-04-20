@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Glossary
+# Glossary - Microsoft BizTalk Accelerator for SWIFT
 Microsoft BizTalk Accelerator for SWIFT uses the following glossary terms and definitions.  
   
 ## A  
