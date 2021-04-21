@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Create a Send Port
+# Create Send Ports
 Use the following procedure to create BizTalk Server send ports for JD Edwards EnterpriseOne.  
   
 ### To create a send port  
