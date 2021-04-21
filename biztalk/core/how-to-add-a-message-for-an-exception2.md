@@ -20,7 +20,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Add a Message for an Exception
+# How to Add a Fault Message
 When you first create a port to the back-end system, it contains a request and a response. You must add a message so that you can assign it to the fault.  
   
 ### To add a fault message  

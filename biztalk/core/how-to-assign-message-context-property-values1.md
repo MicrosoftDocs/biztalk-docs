@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Assign Message Context Property Values
+# Assign Message Context Property Values
 To manage the JD Edwards EnterpriseOne Adapter connection session from a BizTalk orchestration, you must add the reference to Microsoft.BizTalk.Adapters.JDEProperties.dll in your project. This assembly is located in %SystemDrive%\Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin.  
   
  After you reference this property schema, additional context properties are accessible to various BizTalk development tools, for example, the Message Assignment shape within the Orchestration Designer.  

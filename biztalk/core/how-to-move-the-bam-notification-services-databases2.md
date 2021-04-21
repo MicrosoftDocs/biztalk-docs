@@ -19,7 +19,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Move the BAM Notification Services Databases
+# Move the BAM Notification Services Databases
 You can use this procedure to move the BAM Notification Services databases to another server.  
   
 > [!NOTE]

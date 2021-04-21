@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Move the BAM Star Schema Database
+# Move the BAM Star Schema Database
 You can use this procedure to move the BAM Star Schema database to another server.  
   
 ## Prerequisites  

@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Add a Scope Shape
+# How to Add Scope Shapes
 Use the following procedure to add a **Scope** shape.  
   
 ### To add a scope shape  

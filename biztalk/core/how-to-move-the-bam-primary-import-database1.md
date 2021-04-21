@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Move the BAM Primary Import Database
+# Move the BAM Primary Import Database
 You can use this procedure to move the BAM Primary Import database to another server.  
   
 ## Prerequisites  
