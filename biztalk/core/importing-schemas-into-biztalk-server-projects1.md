@@ -20,7 +20,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Importing Schemas into BizTalk Server Projects
+# Import Schemas into BizTalk Server Projects
 The following information describes how to import schemas into a BizTalk Server project.  
   
 ## Importing Schemas  

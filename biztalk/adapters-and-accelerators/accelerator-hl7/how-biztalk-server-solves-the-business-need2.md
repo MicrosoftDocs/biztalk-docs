@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How BizTalk Server Solves the Business Need
+# How Microsoft BizTalk Server Solves the Business Need
 In order to solve your health care system integration needs, BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) enhances the functionality of MicrosoftBizTalk Server for health care systems.  
   
  Since [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] setup installs the accelerator on top of BizTalk Server, this section describes the technology by providing an overview of the functionality of [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], a description of the functionality that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] adds, and a discussion of how you can deploy the two technologies.  

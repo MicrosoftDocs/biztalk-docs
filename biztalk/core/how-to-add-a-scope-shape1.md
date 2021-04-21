@@ -20,14 +20,14 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Add a Scope Shape
+# Add a Scope Shape
 Follow these steps to add a Scope shape.  
   
 ### To add a Scope Shape  
   
 1.  Right-click the arrow below the **ReceiveFromIn** port, point to **Insert Shape**, and then click **Scope**.  
   
-     ![](../core/media/siebeladapter-18-exceptionhandling-insertscope.gif "SiebelAdapter_18_ExceptionHandling_InsertScope")  
+     ![Image that shows where to select Scope.](../core/media/siebeladapter-18-exceptionhandling-insertscope.gif "SiebelAdapter_18_ExceptionHandling_InsertScope")  
   
      In the Scope shape, you set operations that might have a fault.  
   
@@ -37,7 +37,7 @@ Follow these steps to add a Scope shape.
   
 3.  Right-click inside the Scope shape, and select **New Exception Handler**.  
   
-     ![](../core/media/siebeladapter-19-exceptionhandling-newexception.gif "SiebelAdapter_19_ExceptionHandling_NewException")  
+     ![Image that shows where to select New Exception Handler.](../core/media/siebeladapter-19-exceptionhandling-newexception.gif "SiebelAdapter_19_ExceptionHandling_NewException")  
   
      This creates the Catch Exception block. If an exception occurs from the back-end, it is caught inside the Catch Exception block.  
   

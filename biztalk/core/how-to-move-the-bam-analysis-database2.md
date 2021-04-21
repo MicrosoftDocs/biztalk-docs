@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Move the BAM Analysis Database
+# Move the BAM Analysis Database
 You can use this procedure to move the BAM Analysis database to another server.  
   
 ## Prerequisites  

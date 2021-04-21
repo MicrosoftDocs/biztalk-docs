@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Move the BAM Archive Database
+# Move the BAM Archive Database
 You can use this procedure to move the BAM Archive database to another server.  
   
 ## Prerequisites  

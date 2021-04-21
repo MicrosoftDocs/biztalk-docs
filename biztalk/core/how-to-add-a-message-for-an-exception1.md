@@ -19,7 +19,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Add a Message for an Exception
+# Add a Message for an Exception
 The following topic describes how to add a message for an exception.  
   
 ### To add a message for an exception  

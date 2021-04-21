@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Identify Bottlenecks in the MessageBox Database
+# Identify Bottlenecks in the MessageBox Database
 To identify bottlenecks in the MessageBox database, first ensure that the SQL-Server-Agent Service is started. Change the Service startup state from Manual to Auto so that even if the server is restarted, the service will automatically restart.  
   
  By default the BizTalk service will throttle if the Spool, TrackingData or ApplicationQ tables grow. These tables are pruned by SQL-Agent jobs, which, if not running will cause the Spool to grow causing throttling to kick in protecting the database from additional pressure. Check the status of the following performance counters:  
