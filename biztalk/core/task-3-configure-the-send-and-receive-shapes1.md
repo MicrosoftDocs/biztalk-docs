@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Task 3: Configure the Send and Receive Shapes
+# Task 3: How to Configure the Send and Receive Shapes
 Use the following procedure to configure the Send and Receive shapes.  
   
 ### To configure the Send and Receive shapes  

@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Task 5: Configure the Transform Shape
+# Task 5: How to Configure the Transform Shape
 Use the following procedure to configure the Transform shape.  
   
 ### To configure the Transform shape  

@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# sqlToDb2
+# sqlToDb2 Overview
 The sqlToDb2 defines the direction from SQL Server to DB2.  
   
  \<hostIntegration.drdaAs.drdaService>  

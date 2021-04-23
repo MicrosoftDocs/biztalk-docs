@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 
-# System Requirements
+# System Requirements for Host Integration Server 2016
 
 These system requirements list the installation, configuration, and feature usage prerequisites for Host Integration Server 2016.
 

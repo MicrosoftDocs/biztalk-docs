@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# TN3270 Emulator
+# Microsoft Host Integration Server TN3270 Emulator
 Microsoft Host Integration Server TN3270 is graphical user interface to work within a 3270 terminal emulation session, when connected to a remote IBM mainframe computer across a TCP/IP.  
   
 ## Run TN3270 Emulator  

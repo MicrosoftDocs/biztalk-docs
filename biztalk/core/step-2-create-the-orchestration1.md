@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Step 2: Create the Orchestration
+# Step 2: How to Create the Orchestration
 The orchestration setup is as follows using a project called BeginDocTest:  
   
 - Ports  
