@@ -28,7 +28,7 @@ Use the following procedure to configure the Transform shape.
   
      Right-click in the middle, select **Insert Shape**, and then select **Transform**.  
   
-     ![](../core/media/jde-insert-shape-transform.gif "JDE_insert_shape_transform")  
+     ![Shows where to select Transform.](../core/media/jde-insert-shape-transform.gif "JDE_insert_shape_transform")  
   
      Using Transform, map data from the data you are sending to the data that is sent.  
   
@@ -38,11 +38,11 @@ Use the following procedure to configure the Transform shape.
   
    1.  Select Source and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
   
-        ![](../core/media/jde-transform-source.gif "JDE_transform_source")  
+        ![Shows where to select BeginDocResponseMsg.](../core/media/jde-transform-source.gif "JDE_transform_source")  
   
    2.  Select **Destination** and click in the Add row under **Variable Name**, select **EditLineMsg**, and click **OK**.  
   
-        ![](../core/media/jde-transform-destination.gif "JDE_transform_destination")  
+        ![Shows where to select EditLineMsg.](../core/media/jde-transform-destination.gif "JDE_transform_destination")  
   
 3. In the Solution Explorer, double-click **Transform_1.btm** to open the mapping tool. Link the following four items:  
   
@@ -54,11 +54,11 @@ Use the following procedure to configure the Transform shape.
   
    - mnTransactionID  
   
-     ![](../core/media/jde-example-transformmapping.gif "JDE_example_transformmapping")  
+     ![Shows were to double-click Transform_1.btm.](../core/media/jde-example-transformmapping.gif "JDE_example_transformmapping")  
   
      For ease of use, this example has hardcoded values. Click the item in the Destination Schema and set the following Value.  
   
-     ![](../core/media/jde-hardcoded-mapping-example.gif "JDE_hardcoded_mapping_example")  
+     ![Shows a hardcoded mapping example.](../core/media/jde-hardcoded-mapping-example.gif "JDE_hardcoded_mapping_example")  
   
    ```  
    <?xml version="1.0" encoding="utf-8"?>  
