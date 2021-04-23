@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Performance
+# Maximize Performance
 This topic contains the following sections that will help you maximize performance when you are using the Data Providers for DB2.  
   
 -   [Configuring for Performance](../core/performance2.md#conf)  

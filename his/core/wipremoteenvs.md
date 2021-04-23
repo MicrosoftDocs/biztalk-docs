@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Remote Environments
+# Remote Environment Types
 
 There are 14 different Remote Environment types that can be configured. A remote environment defines the characteristics of the non-Windows host environment that receives requests from Windows-initiated processing (WIP) components. The Remote Environment that is defined must match the Remote Environment type the for the TI Meta data object.
 

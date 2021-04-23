@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
+# ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations Message Schemas
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] exposes the ExecuteNonQuery, ExecuteReader, and ExecuteScalar outbound operations at the root level to execute any arbitrary SQL statements or PL/SQL blocks in Oracle E-Business Suite.  
   
  For more information about:  

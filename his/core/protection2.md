@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Protection
+# DRDA Service Protection
 ## DRDA Service Authentication Methods
  DRDA Service supports multiple authentication methods, using DRDA in combination with Kerberos and Windows Active Directory using Enterprise Single-Sign-On.
 

@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Message Schemas for Special LOB Operations
+# Special LOB Operations Message Schemas
 The ReadLOB and UpdateLOB operations are surfaced for tables and views that contain LOB columns; that is columns that are used to store Oracle large object (LOB) data. These operations enable you to read or write the LOB data as a stream of base64Binary-encoded data. They operate on a single column of LOB data in a single row.  
 
  For an overview of the ReadLOB and UpdateLOB operations and of the Oracle LOB data types supported, see [Operations on tables and views that contain LOB data in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/operations-on-tables-and-views-that-contain-lob-data-in-oracle-database.md).  

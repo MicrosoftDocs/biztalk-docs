@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Objects
+# Objects Metadata Definitions
 The Objects folder contains the metadata definitions for the Client Proxy objects that were created through the Application Integrator Designer. These metadata definitions contain the following:  
   
 - The .NET Framework qualified namespace of the callable .NET Framework class (in the form of a .NET Framework assembly).  

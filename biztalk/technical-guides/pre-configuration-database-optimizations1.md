@@ -14,7 +14,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Pre-Configuration Database Optimizations
+# Pre-Configuration for BizTalk Server Database Optimizations
 BizTalk Server is an extremely database-intensive application that may require the creation of up to 13 separate databases in Microsoft SQL Server. Because of the critical role that SQL Server plays in any BizTalk Server environment, it is of paramount importance that SQL Server is configured/tuned for optimal performance. If SQL Server is not tuned to perform well, then the databases used by BizTalk Server will become a bottleneck and the overall performance of the BizTalk Server environment will suffer. This topic describes several SQL Server performance optimizations that should be followed before installing BizTalk Server and configuring the BizTalk Server databases.
 
 ## Set NTFS File Allocation Unit

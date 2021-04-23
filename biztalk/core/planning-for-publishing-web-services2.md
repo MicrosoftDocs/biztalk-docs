@@ -19,7 +19,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Planning for Publishing Web Services
+# Plan for Publishing Web Services
 You can access Web services from your orchestrations. You can also use the BizTalk Web Services Publishing Wizard to publish your Web service.  
   
  The following table lists some of the questions that you need to answer in planning for Web services.  
