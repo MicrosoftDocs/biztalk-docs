@@ -16,7 +16,7 @@ ms.assetid: 7da1689a-8226-4aa8-9f7b-6d85420c682d
 ms.author: "mandia"
 ---
 
-# Troubleshooting and known issues
+# Troubleshooting and known issues in BizTalk Accelerator for RosettaNet (BTARN)
 This section is made up of troubleshooting issues, resolutions, and known issues in Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].  
   
 ## In This Section  

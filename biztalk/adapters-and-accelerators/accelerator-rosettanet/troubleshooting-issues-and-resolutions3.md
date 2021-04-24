@@ -16,7 +16,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Troubleshooting: Issues and Resolutions
+# Troubleshooting BizTalk Accelerator for RosettaNet (BTARN): Issues and Resolutions
 This topic addresses issues related to running Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The individual issues detail a specific symptom, a possible cause, and a solution.  
   
 ## Error publishing a batch of "n" messages  
