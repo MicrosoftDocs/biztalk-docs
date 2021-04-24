@@ -51,8 +51,8 @@ A4SWIFT_SwiftBound==true
  The following table lists the valid [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] forms:  
 
 
-| [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] Forms |       |       |              |              |       |
-|-------------------------------------------------------------------------------|-------|-------|--------------|--------------|-------|
+| [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] Forms | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+|--|--|--|--|--|--|
 |                                     MT010                                     | MT011 | MT012 |    MT015     |    MT019     | MT020 |
 |                                     MT021                                     | MT022 | MT023 |    MT028     |    MT029     | MT030 |
 |                                     MT031                                     | MT032 | MT035 |    MT036     |    MT037     | MT039 |

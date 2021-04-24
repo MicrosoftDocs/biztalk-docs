@@ -36,7 +36,7 @@ manager: "anneta"
   
 9. In the left pane, click **Filters**, and then specify the following:  
   
-    |||  
+    |Field|Value|  
     |-|-|  
     |Property|Microsoft.Solutions.MX_A4SWIFT.Property.MX_A4SWIFT_Failed|  
     |Operator|Select ==|  

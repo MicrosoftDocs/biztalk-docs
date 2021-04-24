@@ -41,7 +41,7 @@ This Software Development Kit (SDK) provides information for developers who are 
 ### Linking between BTAHL7 Help and Microsoft Visual Studio Help  
  When a member is inherited from the [!INCLUDE[btsDotNetFramework](../../includes/btsdotnetframework-md.md)] Base Class Library, two links are provided, as shown in the following example:  
   
-|||  
+|Inherited Object|Description|  
 |-|-|  
 |![](../../adapters-and-accelerators/accelerator-hl7/media/protmethod.gif "protmethod") Finalize (inherited from **System.Object**)|For additional information about the System namespace, see [System Namespace class](https://msdn.microsoft.com/library/system(v=vs.110).aspx).|  
   
