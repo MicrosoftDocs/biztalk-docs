@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Message Schemas for the Polling Operations
+# Polling Operations Message Schemas
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces various inbound operations related to polling depending on the target object on the Oracle database. To poll tables and views, a single POLLINGSTMT operation is surfaced whereas each stored procedure, functions, and packaged procedures and functions are exposed as inbound operations for polling.  
   
  You can specify a **PollingId** parameter in the query string of the connection URI to qualify the namespace of the POLLINGSTMT operation. Setting this parameter only qualifies the namespace of the POLLINGSTMT operation; it does not change the message action. For more information about the Oracle Database adapter connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).  

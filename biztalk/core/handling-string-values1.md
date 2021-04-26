@@ -20,7 +20,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Handling String Values
+# Handle String Values
 This topic describes how to configure certain string arguments as right-justified (and left padded).  
   
 ## Types of String Values  

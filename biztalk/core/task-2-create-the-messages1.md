@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Task 2: Create the Messages
+# Task 2: How to Create the Messages
 Create the following Messages, they will be used in the orchestration.  
   
 ### To create the messages  

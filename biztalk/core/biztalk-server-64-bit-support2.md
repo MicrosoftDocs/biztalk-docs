@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# BizTalk Server 64-Bit Support
+# BizTalk Server 64-Bit Support overview
 This topic answers some frequently asked questions about 64-bit support for Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
 
 ## Which versions of 64-bit Windows are supported?

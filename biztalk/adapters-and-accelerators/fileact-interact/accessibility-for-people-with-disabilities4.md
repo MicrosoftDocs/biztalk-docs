@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Accessibility for People with Disabilities
+# About accessibility features for people with disabilities
 Microsoft is committed to making its products easier for everyone to use. For information about accessibility options, in Windows 2000 Server online Help, in the Getting Started with Windows 2000 book, see "Accessibility for People with Disabilities." In Windows 2000 Professional online Help, see "Accessibility for Special Needs."  
   
 ## See Also  

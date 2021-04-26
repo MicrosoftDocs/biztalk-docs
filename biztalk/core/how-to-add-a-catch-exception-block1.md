@@ -19,7 +19,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Add a Catch Exception Block
+# Add a Catch Exception Block
 The **Catch Exception** block represents an exception handler. **Catch Exception** blocks are attached to the end of a **Scope** shape in Orchestration Designer. You can attach as many **Catch Exception** blocks as you need.  
   
  You can set up exception handlers to handle different kinds of exceptions. On each exception handler, you specify an exception type, which must be either an exception or an object derived from the class `System`. If an exception is thrown that matches the specified type in an exception handler, that exception handler will be called.  

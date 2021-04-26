@@ -14,7 +14,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Glossary
+# Glossary Terms
 This topic defines key terms used throughout this guide.
 
 ## Glossary

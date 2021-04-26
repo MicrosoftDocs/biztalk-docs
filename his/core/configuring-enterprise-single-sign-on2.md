@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Configuring Enterprise Single Sign-On
+# Configure Enterprise Single Sign-On
 The DRDA Service can utilize Enterprise Single Sign-On (ESSO) to better secure the authentication and configuration information.  
   
 ### Define an ESSO Host-Initiated Affiliate Application  

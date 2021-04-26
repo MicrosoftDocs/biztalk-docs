@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Use BizTalk Server Exception Handling
+# BizTalk Server Exception Handling Overview
 
 ## Overview
 Within your orchestration, add shapes to handle errors and exceptions from your back-end servers. 

@@ -17,7 +17,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Preparing to Use the Tutorial
+# Prepare to Use the Tutorial
 Before you use the tutorial, you need to create an ADT^A03.txt file.  
   
 ### To create the ADT^A03.txt file  

@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Monitoring BizTalk Server
+# Monitoring BizTalk Server Health and Performance
 Monitoring your BizTalk Server applications and infrastructure on a regular basis and resolving any issues that you find helps to keep your BizTalk Server applications accessible to your users. The goal of monitoring is to minimize the amount of time that an exception goes undetected and, therefore, unresolved. Additionally, you can use monitoring to help detect situations that might cause an exception.  
   
  When monitoring BizTalk Server, you should look for any unexpected or anomalous behavior. Monitoring can be either a manual or automatic process. You can monitor use the health of your BizTalk Server infrastructure using the BizTalk Server Administration Console. You can use the BizTalk Server Administration Console to monitor the health of your BizTalk Server applications and perform root-cause analysis to identify the underlying cause of any problems. . When monitoring BizTalk Server, keep these points in mind:  

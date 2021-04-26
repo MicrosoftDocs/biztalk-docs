@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Glossary
+# Glossary - Microsoft BizTalk Adapter for Oracle Database
 The following terms and definitions are used in [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].    
   
 ## A  

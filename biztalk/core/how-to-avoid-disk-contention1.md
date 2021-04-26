@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Avoid Disk Contention
+# Avoid Disk Contention
 BizTalk Server is designed as a persistent system whereby, for high throughput scenarios, the MessageBox can experience severe contention. This contention can be aggravated by slow disks. If the disks are slow (low % Disk Idle Time), this can cause SQL to hold onto locks longer (high Lock Wait Time and high Lock Timeouts) which can cause the MessageBox tables (Spool and Application Queues) to grow, causing database bloat and throttling ultimately resulting in lower overall sustainable throughput.  
   
  To avoid disk contention, it is recommended that you do the following:  

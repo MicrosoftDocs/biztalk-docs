@@ -21,7 +21,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Creating Affiliate Applications
+# Create Affiliate Applications
 The following steps describe how to get started with affiliate applications using SSO.  
   
 > [!NOTE]

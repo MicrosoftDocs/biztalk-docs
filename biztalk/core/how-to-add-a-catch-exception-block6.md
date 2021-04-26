@@ -19,7 +19,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Add a Catch Exception Block
+# Catch Exception Blocks
 The **Catch Exception** block represents an exception handler. **Catch Exception** blocks are attached to the end of a **Scope** shape in Orchestration Designer. In BizTalk Server, you can attach as many **Catch Exception** blocks as you need.  
   
  You can set up exception handlers to handle different kinds of exceptions. On each exception handler, you specify an exception type, which must be either a fault message or an object derived from the class `System.Exception`. If you do not specify an exception type, the exception block is treated as a general exception handler, and can catch exceptions that do not derive from `System.Exception`.  
@@ -54,7 +54,7 @@ The **Catch Exception** block represents an exception handler. **Catch Exception
   
     1.  Right-click below the **Catch Exception**, point to **Insert Shape**, and select **Construct Message**.  
   
-         ![](../core/media/siebeladapter-20-exceptionhandling-constructmessage.gif "SiebelAdapter_20_ExceptionHandling_ConstructMessage")  
+         ![Screenshot that shows the Construct Message menu option.](../core/media/siebeladapter-20-exceptionhandling-constructmessage.gif "SiebelAdapter_20_ExceptionHandling_ConstructMessage")  
   
     2.  Double-click inside **MessageAssignment** to open the Text Editor and enter the Message assignment.  
   
@@ -62,7 +62,7 @@ The **Catch Exception** block represents an exception handler. **Catch Exception
   
          For example, type `Message_3 = Test`.  
   
-         ![](../core/media/siebeladapter-21-exceptionhandling-message3test.gif "SiebelAdapter_21_ExceptionHandling_Message3Test")  
+         ![Screenshot that shows where to select MessageAssignment.](../core/media/siebeladapter-21-exceptionhandling-message3test.gif "SiebelAdapter_21_ExceptionHandling_Message3Test")  
   
 ## See Also  
  [How to Add a Scope Shape](../core/how-to-add-a-scope-shape1.md)   

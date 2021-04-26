@@ -20,7 +20,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Add a Fault Message
+# Add a Fault Message
 When you first created the port to the back-end system, it contained a request and a response. You must add a fault to capture the exception.  
   
 ### To add a fault message  
@@ -59,7 +59,7 @@ When you first created the port to the back-end system, it contained a request a
   
     4.  Click **OK** to accept the selection and close the window.  
   
-         ![](../core/media/siebeladapter-17-exceptionhandling-addscope.gif "SiebelAdapter_17_ExceptionHandling_AddScope")  
+         ![Image that shows how to select the artifact type.](../core/media/siebeladapter-17-exceptionhandling-addscope.gif "SiebelAdapter_17_ExceptionHandling_AddScope")  
   
 5.  After the fault is named, you will set this name to the CatchException's exception object type.  
   

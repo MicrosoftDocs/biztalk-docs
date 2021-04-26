@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Running SSO Projects
+# How to Run Single Sign-On (SSO) Projects
 You can run a sample Single Sign-On (SSO) project from Internet Explorer.  
   
 ## Run a sample from a web browser

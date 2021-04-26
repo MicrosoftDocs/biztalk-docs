@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Completing the Exception Message
+# Complete the Exception Message
 ### To complete the exception message  
   
 -   To complete the exception flow, add a Send shape to put the fault Message_3 into a monitored folder.  

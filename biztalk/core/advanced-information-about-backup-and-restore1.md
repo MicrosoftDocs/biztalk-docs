@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Advanced Information About Backup and Restore
+# Advanced Information About Backup and Restore Processes
 The topics in this section describe the backup and restore processes in more detail and are intended to be used by advanced users with a thorough understanding of BizTalk Server.  
   
 ## In This Section  

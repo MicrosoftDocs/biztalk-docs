@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Task 4: Configure the Construct Message Shape
+# Task 4: How to Configure the Construct Message Shape
 The Construct Messages hold messages assignments with the instructions for the Begin, Edit, and End Doc code.  
   
  Use the following procedure to configure the Construct Message shape.  

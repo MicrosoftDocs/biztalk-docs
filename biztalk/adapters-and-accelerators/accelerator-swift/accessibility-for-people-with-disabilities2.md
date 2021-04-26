@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Accessibility for People with Disabilities
+# About accessibility for people with disabilities
 Microsoft is committed to making its products and services easier for everyone to use. For general information about accessibility features and services from Microsoft, see the Microsoft Accessibility Web site at [https://go.microsoft.com/fwlink/?LinkId=56272](https://go.microsoft.com/fwlink/?LinkId=56272).
 
  Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] Help can also be made more accessible for people with disabilities. For example, you can customize the font size and color of dialog boxes and browser settings. The following procedure explains how to find this accessibility information in Microsoft Document Explorer, the user interface in which Help is displayed.

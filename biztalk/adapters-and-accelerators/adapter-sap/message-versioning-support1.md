@@ -17,7 +17,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Message Versioning Support
+# Support for Message Versioning
 The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports versioning by including a version string component in the message actions, namespaces, and node IDs surfaced for operations. The current version is http://Microsoft.LobServices.Sap/2007/03. This means that for an RFC named "RFC_SAMPLE", the RFC operation surfaced by the adapter has the following:  
   
 -   Node ID: http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_SAMPLE  

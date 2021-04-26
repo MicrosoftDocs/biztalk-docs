@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Troubleshooting the Adapter
+# Troubleshoot the Adapter
 This topic contains information to help you identify and resolve issues that you might experience while using Microsoft BizTalk Adapter for JD Edwards EnterpriseOne.  
   
 ## Cannot use wildcards in send port properties  

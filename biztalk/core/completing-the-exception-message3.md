@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Completing the Exception Message"
+description: "Add a send shape to the fault message when using exception handling in BizTalk Server."
 title: "Completing the Exception Message3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -18,10 +18,10 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Completing the Exception Message
+# How to Complete the Exception Message
 To complete the flow of the exception, add a Send shape to add the fault Message_3 to a monitored folder.  
   
- ![](../core/media/siebeladapter-15-exceptionhandling-start.gif "SiebelAdapter_15_ExceptionHandling_Start")  
+ ![Add a send shape to add a fault message in exception handling in BizTalk Server](../core/media/siebeladapter-15-exceptionhandling-start.gif "SiebelAdapter_15_ExceptionHandling_Start")  
   
 ## See Also  
  [Using BizTalk Server Exception Handling](../core/using-biztalk-server-exception-handling2.md)

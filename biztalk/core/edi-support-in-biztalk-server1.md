@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# EDI Support in BizTalk Server
+# Overview of EDI Support in BizTalk Server
 This topic provides a brief general overview of EDI and how BizTalk Server supports EDI.  
   
 ## Introduction to EDI  

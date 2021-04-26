@@ -20,7 +20,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# How to Add a Message for an Exception
+# Add a Fault Message
 When you first create a port to the back-end system, it contains a request and a response. You must add a message so that you can assign it to the fault.  
   
 ### To add a fault message  
@@ -33,7 +33,7 @@ When you first create a port to the back-end system, it contains a request and a
   
 3. Set the **Message Type** as follows: select **.NET Classes**, and then select **System,String**  
   
-   ![](../core/media/jdeoneworld-03-addscope.gif "JdeOneWorld_03_addscope")  
+   ![Image that shows where to select System,String.](../core/media/jdeoneworld-03-addscope.gif "JdeOneWorld_03_addscope")  
   
 ## See Also  
  [Using BizTalk Server Exception Handling](../core/using-biztalk-server-exception-handling1.md)
