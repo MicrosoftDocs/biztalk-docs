@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Objects
+# Objects Node
 
 ## Overview
 The **Objects** node is used to identify the TI Meta Data Assembly for the WIP call.  This assembly is created in the TI Designer and specifies the various input and output data definitions for methods that can be called by WIP Client programs.

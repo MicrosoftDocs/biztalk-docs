@@ -14,7 +14,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Post-Configuration Database Optimizations
+# Post-Configuration for BizTalk Server Database Optimizations
 In addition to following the recommendations in [Pre-Configuration Database Optimizations](../technical-guides/post-configuration-database-optimizations1.md), several steps should be followed to optimize BizTalk Server database performance on SQL Server *after* BizTalk Server has been installed and the BizTalk Server databases have been configured. This topic provides a list of these optimizations.
 
 ## Pre-allocate space for BizTalk Server databases and define auto-growth settings for BizTalk Server databases to a fixed value instead of a percentage value

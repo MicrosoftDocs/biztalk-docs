@@ -16,7 +16,7 @@ ms.assetid: 335eb3c9-b565-470f-b69c-2a771ef8b476
 ms.author: "mandia"
 ---
 
-# Known Issues
+# Known Issues for Microsoft BizTalk Accelerator for RosettaNet (BTARN)
 This section contains useful information that may help you avoid errors with Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The known issues are grouped into the following areas:  
   
 -   0A1 Notification of Failure  

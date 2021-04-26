@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# OLE DB Provider for DB2
+# Microsoft OLE DB Provider for DB2
 - [Getting Started](../db2oledbv/getting-started.md)  
   
 - [Planning and Architecture](../db2oledbv/planning-and-architecture2.md)   

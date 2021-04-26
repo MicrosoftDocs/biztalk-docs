@@ -14,7 +14,7 @@ author: "gplarsen"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
-# Password Synchronization
+# Password Synchronization Commands
 Use these menu commands to configure and run Password Synchronization.  
   
 ## See Also  

@@ -19,7 +19,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Known Issues
+# Known Issues for Microsoft BizTalk Accelerator for SWIFT (A4SWIFT)
 This section contains useful information that may help you avoid errors with Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. The known issues are grouped into the following areas:  
   
 ## Message Repair and New Submission
