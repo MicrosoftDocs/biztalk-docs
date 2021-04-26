@@ -20,7 +20,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Troubleshooting the Microsoft BizTalk Adapter
+# Troubleshooting the Microsoft BizTalk Adapter for PeopleSoft Enterprise
 This topic contains information to help you identify and resolve issues that you might experience while you are using Microsoft BizTalk Adapter for PeopleSoft Enterprise.  
   
 ## Cannot use wildcard characters in send port properties  
