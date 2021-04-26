@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Step 4: Create a Sample XML BeginDoc
+# Step 4: How to Create a Sample XML BeginDoc
 Save the following into an XML file. If your test uses the steps in this example, and uses the example's J.D. Edwards OneWorld object selection, [JDE://CSALES/B4200310], you can drop this into the Input folder and what it come out the designated Out folder (the folder bound to the EndDocOut port).  
   
 > [!NOTE]

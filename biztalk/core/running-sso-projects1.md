@@ -19,7 +19,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Running SSO Projects
+# How to Run SSO Projects
 You can run the sample  from Internet Explorer.  
   
 ## Running a Sample from Internet Explorer  

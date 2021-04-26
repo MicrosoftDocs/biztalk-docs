@@ -26,7 +26,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Running Orchestrations
+# How to Run Orchestrations
 The following procedures describe how to build, deploy, bind, and start an orchestration.  
   
 ## Creating a Strong Name Key  

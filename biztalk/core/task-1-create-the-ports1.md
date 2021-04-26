@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Task 1: Create the Ports
+# Task 1: How to Create the Ports
 Create the following ports, BeginDoc and EndDocOut on the left and JDEPort with 3 operations on the right.  
   
 |Name and Settings|Operation|Message Type > Schema|  

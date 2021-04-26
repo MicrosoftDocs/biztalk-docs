@@ -18,7 +18,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Step 3: Test the Migrated Application
+# Step 3: How to Test the Migrated Application
 ![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")  
   
  **Time to complete:** 5 minutes  

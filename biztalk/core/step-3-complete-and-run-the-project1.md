@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Step 3: Complete and Run the Project
+# Step 3: How to Complete and Run the Project
 After adding the assembly key and binding the ports, it is time to test the orchestration.  
   
  For the testing you can use the sample Sample XML BeginDoc if you used the identical object. If not, you can [Step 4: Create a Sample XML BeginDoc](../core/step-4-create-a-sample-xml-begindoc2.md) as this is just a trigger to start the whole process.  
