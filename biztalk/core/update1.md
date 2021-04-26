@@ -22,7 +22,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Update
+# Update Function
 When **Update** function is invoked an object, the object is reasserted into the engine to be re-evaluated, based on the new data and state. The object can be of type **TypedXmlDocument** or .NET class or **DataConnection** or **TypedDataTable**.  
   
  You can also use **Update** function to improve engine performance and prevent endless loop scenarios as described in this topic.  

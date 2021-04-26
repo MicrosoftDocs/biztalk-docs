@@ -15,7 +15,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Using Message Context Properties
+# Use Message Context Properties
 This section explains how you can control the connection session through BizTalk message context properties.  
   
 ## In This Section  

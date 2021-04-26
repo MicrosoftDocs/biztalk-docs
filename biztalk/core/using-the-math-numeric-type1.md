@@ -23,7 +23,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Using the MATH_NUMERIC Type
+# Use the MATH_NUMERIC Type
 This topic describes the MATH_NUMERIC type and details how exponents are handled, the maximum number of digits, and the maximum number of decimal digits. It also includes a discussion on:  
   
 - Exponents  
