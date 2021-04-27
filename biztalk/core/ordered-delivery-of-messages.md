@@ -111,7 +111,7 @@ To achieve ordered delivery, BizTalk Server must serialize processing of ordered
 
 When Ordered Delivery is enabled, the default **Retry Interval** is 5 minutes. To improve performance, set the Retry Interval to the lowest value, which is 1 minute. The **Retry Interval** property may accept a value of zero (0) but zero (0) is not valid. The **Retry Count** can also be tuned to the number of retries needed. For example, if you know the request should process in <1 minute and the send port destination is always accessible, set both values to 1.
 
-To change the Retry values, go to [How to Configure Transport Advanced Options for a Send Port](https://go.microsoft.com/fwlink/p/?LinkID=267697).
+To change the Retry values, go to [How to Configure Transport Advanced Options for a Send Port](how-to-configure-transport-advanced-options-for-a-send-port.md).
 
 For additional information on Ordered Delivery, refer to the following:
 

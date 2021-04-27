@@ -47,20 +47,20 @@ When creating a Dynamic Send Port, an adapter Send Handler is configurable for *
 
    Additional Send Port configuration options include:
 
-- [How to Configure Transport Advanced Options for a Send Port](https://go.microsoft.com/fwlink/p/?LinkId=267697)
+- [How to Configure Transport Advanced Options for a Send Port](how-to-configure-transport-advanced-options-for-a-send-port.md)
 
-- [How to Configure Backup Transport Options for a Send Port](https://go.microsoft.com/fwlink/p/?LinkId=267698)
+- [How to Configure Backup Transport Options for a Send Port](how-to-configure-backup-transport-options-for-a-send-port.md)
 
-- [How to Configure Outbound Maps for a Send Port](https://go.microsoft.com/fwlink/p/?LinkId=267699)
+- [How to Configure Outbound Maps for a Send Port](how-to-configure-outbound-maps-for-a-send-port.md)
 
-- [How to Configure Filters for a Send Port](https://go.microsoft.com/fwlink/p/?LinkId=267700)
+- [How to Configure Filters for a Send Port](how-to-configure-filters-for-a-send-port.md)
 
-- [How to Assign a Certificate to a Send Port](https://go.microsoft.com/fwlink/p/?LinkId=267701)
+- [How to Assign a Certificate to a Send Port](how-to-assign-a-certificate-to-a-send-port.md)
 
-- [How to Configure Tracking for a Send Port](https://go.microsoft.com/fwlink/p/?LinkId=267702)
+- [How to Configure Tracking for a Send Port](how-to-configure-tracking-for-a-send-port.md)
 
   The different hosts can be fine-tuned. The following links discuss performance optimization:
 
-  [General BizTalk Server Optimizations](https://go.microsoft.com/fwlink/p/?LinkId=267703)
+  [General BizTalk Server Optimizations](../technical-guides/general-biztalk-server-optimizations1.md)
 
-  [Managing BizTalk Server Performance Settings](https://go.microsoft.com/fwlink/p/?LinkId=267704)
+  [Managing BizTalk Server Performance Settings](managing-biztalk-server-performance-settings.md)

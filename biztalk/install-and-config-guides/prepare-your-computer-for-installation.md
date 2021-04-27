@@ -225,7 +225,7 @@ Also consider the following:
 
 ###  <a name="BKMK_SSNS"></a> BAM Alerts using SQL Server 2008 R2 – Install SQL Server 2005 Notification Services
 
-1. Go to [Feature Pack for Microsoft SQL Server 2005 SP4](https://go.microsoft.com/fwlink/p/?LinkId=286285).
+1. Go to the Feature Pack for Microsoft SQL Server 2005 SP4.
 
 2. Download and install the appropriate platform package for the following components:
 
@@ -253,10 +253,10 @@ Also consider the following:
 
 ##  <a name="BKMK_WIF"></a> Windows Identity Foundation
 
-|                                                              |                                                                                                                                                                                      |
-|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 |                                Windows Identity Foundation is included with the operating system as a Feature in **Turn Windows features on or off**.                                |
-|                      Windows Vista SP1                       | Download available at [Windows Identity Foundation](https://www.microsoft.com/download/details.aspx?id=17331) HYPERLINK "<https://www.microsoft.com/download/details.aspx?id=17331>" . |
+| OS | How to get it   |
+|---|---|
+| Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 |  Windows Identity Foundation is included with the operating system as a Feature in **Turn Windows features on or off**.  |
+|  Windows Vista SP1  | Download available at [Windows Identity Foundation](https://www.microsoft.com/download/details.aspx?id=17331). |
 
  **Additional**
 
