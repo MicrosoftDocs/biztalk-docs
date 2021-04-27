@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Accessibility for People with Disabilities"
+description: "Accessibility for People with Disabilities with HL7 accelerator in BizTalk Server."
 title: "Accessibility for People with Disabilities5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/16/2021"
@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Accessibility features for people with disabilities
-Microsoft is committed to making its products and services easier for everyone to use. For general information about accessibility features and services from Microsoft, see the Microsoft Accessibility Web site at [https://go.microsoft.com/fwlink/p/?LinkId=56272](https://go.microsoft.com/fwlink/p/?LinkId=56272).
+Microsoft is committed to making its products and services easier for everyone to use. For general information about accessibility features and services from Microsoft, see [Microsoft is committed to accessibility](https://www.microsoft.com/accessibility).
 
 \<!--- Previous text
 
