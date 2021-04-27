@@ -18,7 +18,7 @@ manager: "anneta"
 # BizTalk message body element not specified
 ## Details  
   
-| Parameter       |                                  Value                                             |
+| Field       |                                  Error Details                                             |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
