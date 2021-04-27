@@ -869,11 +869,11 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 
     The five providers enable you to log different kinds of messages:
 
-        -   **Receiver Logging Provider**: The <Trace element\> switch is - **receiver**.
-        -   **Receiver CastDetails Provider**: The <Trace element\> switch is - **castDetailsReceive**.
-        -   **Transmitter Logging Provider**: The <Trace element\> switch is - **transmitter**.
-        -   **Transmitter CastDetails Provider**: The <Trace element\> switch is - **castDetailsTransmit**.
-        -   **Management Logging Provider**: The <Trace element\> switch is - **management**.
+    -   **Receiver Logging Provider**: The <Trace element\> switch is - **receiver**.
+    -   **Receiver CastDetails Provider**: The <Trace element\> switch is - **castDetailsReceive**.
+    -   **Transmitter Logging Provider**: The <Trace element\> switch is - **transmitter**.
+    -   **Transmitter CastDetails Provider**: The <Trace element\> switch is - **castDetailsTransmit**.
+    -   **Management Logging Provider**: The <Trace element\> switch is - **management**.
 
 To use ETW, run the command for the specific adapter: `BTA<Adapter Name\>Trace.cmd`. You use this command as follows:
 
