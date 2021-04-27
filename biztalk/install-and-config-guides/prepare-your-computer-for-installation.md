@@ -225,7 +225,7 @@ Also consider the following:
 
 ###  <a name="BKMK_SSNS"></a> BAM Alerts using SQL Server 2008 R2 – Install SQL Server 2005 Notification Services
 
-1. Go to [Feature Pack for Microsoft SQL Server 2005 SP4](https://go.microsoft.com/fwlink/p/?LinkId=286285).
+1. Go to the Feature Pack for Microsoft SQL Server 2005 SP4.
 
 2. Download and install the appropriate platform package for the following components:
 

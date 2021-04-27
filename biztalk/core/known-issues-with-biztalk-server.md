@@ -29,7 +29,7 @@ This topic lists some known issues with [!INCLUDE[btsBizTalkServerNoVersion](../
 
  The following links provide more information:
 
- [Ports for the Administration Server](https://go.microsoft.com/fwlink/p/?LinkID=275568)
+ [Ports for the Administration Server](ports-for-the-administration-server.md)
 
  [Post-installation Steps for BizTalk Server 2013 and 2013 R2](../install-and-config-guides/post-installation-steps-for-biztalk-server-2013-and-2013-r2.md)
 

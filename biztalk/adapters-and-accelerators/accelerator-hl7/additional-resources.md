@@ -20,23 +20,15 @@ manager: "anneta"
 # Additional Resources
 In addition to Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] and MicrosoftBizTalk Server Help, there are additional resources that discuss programming on this platform. For more information about these resources, go to the following Web sites:
 
-- MSDN at [https://go.microsoft.com/fwlink/?LinkId=25353](https://go.microsoft.com/fwlink/?LinkId=25353)
+- [Microsoft BizTalk Server documentation](/biztalk)
 
-- GotDotNet: The Microsoft [!INCLUDE[btsDotNetFramework](../../includes/btsdotnetframework-md.md)] Community at [https://go.microsoft.com/fwlink/?LinkId=25354](https://go.microsoft.com/fwlink/?LinkId=25354)
+- [Microsoft .NET](https://dotnet.microsoft.com/)
 
-- Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] at [https://go.microsoft.com/fwlink/?LinkId=25355](https://go.microsoft.com/fwlink/?LinkId=25355)
+- [Microsoft BizTalk Accelerator for HIPAA](../../hipaa-support-in-biztalk-server.md)
 
-- Microsoft Web Services Developer Center at [https://go.microsoft.com/fwlink/?LinkId=25356](https://go.microsoft.com/fwlink/?LinkId=25356)
+- [Microsoft BizTalk Accelerator for Financial Services](../accelerator-swift/microsoft-biztalk-accelerator-for-swift-documentation.md)
 
-- Microsoft Business and Technology Center/Integrate and Automate Business Processes at [https://go.microsoft.com/fwlink/?LinkId=25357](https://go.microsoft.com/fwlink/?LinkId=25357)
-
-- Microsoft BizTalk Accelerator for HIPAA at [https://go.microsoft.com/fwlink/?LinkID=116712](https://go.microsoft.com/fwlink/?LinkID=116712)
-
-- Microsoft BizTalk Accelerator for Financial Services at [https://go.microsoft.com/fwlink/?LinkId=116713](https://go.microsoft.com/fwlink/?LinkId=116713)
-
-- Microsoft BizTalk Accelerator for RosettaNet at [https://go.microsoft.com/fwlink/?LinkId=116714](https://go.microsoft.com/fwlink/?LinkId=116714)
-
-- Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] Developer Center on MSDN at [https://go.microsoft.com/fwlink/?LinkId=25362](https://go.microsoft.com/fwlink/?LinkId=25362)
+- [Microsoft BizTalk Accelerator for RosettaNet](../accelerator-rosettanet/microsoft-biztalk-accelerator-for-rosettanet-documentation.md)
 
 ## See Also
- [Programming Guide](../../adapters-and-accelerators/accelerator-hl7/programming-guide1.md)
+ [Programming Guide](programming-guide1.md)
