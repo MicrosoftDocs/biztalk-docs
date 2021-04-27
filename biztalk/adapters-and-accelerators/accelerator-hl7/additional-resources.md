@@ -24,7 +24,7 @@ In addition to Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/h
 
 - [Microsoft .NET](https://dotnet.microsoft.com/)
 
-- [Microsoft BizTalk Accelerator for HIPAA](../../hipaa-support-in-biztalk-server.md)
+- [Microsoft BizTalk Accelerator for HIPAA](../../core/hipaa-support-in-biztalk-server.md)
 
 - [Microsoft BizTalk Accelerator for Financial Services](../accelerator-swift/microsoft-biztalk-accelerator-for-swift-documentation.md)
 

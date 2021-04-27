@@ -349,7 +349,7 @@ The PAL (Performance Analysis of Logs) tool reads in a performance monitor count
 ## BizTalk Message Delivery Throttling State Analysis
  The BizTalk message delivery throttling state is one of the primary indicators of throttling. It is a flag indicating whether the system is throttling message delivery (affecting XLANG message processing and outbound transports). The throttling condition is indicated by the numeric value of the counter. Here is a list of the values and their respective meaning:
 
-|||
+| Throttling condition | Description |
 |-|-|
 |0|Not throttling|
 |1|Throttling due to imbalanced message delivery rate (input rate exceeds output rate)|
@@ -390,7 +390,7 @@ The PAL (Performance Analysis of Logs) tool reads in a performance monitor count
 ## BizTalk Messaging Publishing Throttling State Analysis
  The BizTalk message publishing throttling state is one of the primary indicators of throttling. It is a flag indicating whether the system is throttling message publishing (affecting XLANG message processing and inbound transports).The throttling condition is indicated by the numeric value of the counter. Here is a list of the values and their respective meaning:
 
-|||
+| Throttling condition | Description |
 |-|-|
 |0|Not throttling|
 |2|Throttling due to imbalanced message publishing rate (input rate exceeds output rate)|
