@@ -18,7 +18,7 @@ manager: "anneta"
 # Agreement Resolution based on the context properties for Protocol has failed
 ## Details  
   
-|                 |                                                                                        |
+|     Parameter         |             Value                                                                           |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

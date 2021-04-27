@@ -18,7 +18,7 @@ manager: "anneta"
 # An empty AS2 message was received and suspended
 ## Details  
   
-|                 |                                                                                        |
+|     Parameter   |         Value                                                                          |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

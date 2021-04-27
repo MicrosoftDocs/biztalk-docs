@@ -18,7 +18,7 @@ manager: "anneta"
 # An AS2 message was received that did not contain the AS2-To header
 ## Details  
   
-|                 |                                                                                        |
+|   Parameter     |        Value                                                                           |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
