@@ -18,7 +18,7 @@ manager: "anneta"
 # Based on the specified delimiter set, no valid ID could be generated
 ## Details  
   
-|   Parameter     |                                      Value                                                              |
+|   Field     |                                      Error Details                                                              |
 |-----------------|---------------------------------------------------------------------------------------------------------|
 |  Product Name   |           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]            |
 | Product Version |                       [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                        |
