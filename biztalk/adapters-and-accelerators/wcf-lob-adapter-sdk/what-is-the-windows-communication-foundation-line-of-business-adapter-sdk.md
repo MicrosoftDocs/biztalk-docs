@@ -76,8 +76,8 @@ Overview of the features and components in the [!INCLUDE[afproductnameshort](../
 
 ## Important terms  
 
-|           |                                                                                                                                                                                                                                                         |
-|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Term      | Description |
+|--|--|
 |  binding  | Defines how an adapter communicates. Bindings are created by the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] and define the transport, encoding, and other details. There may be one or more binding elements in a binding. |
 |  channel  |                                                          The implementation of a binding element. Collections of channels for a binding stack on top of each other to create a channel stack.                                                           |
 |  message  |                                                                              A self-contained unit of data that may consist of several parts including a body and headers.                                                                              |

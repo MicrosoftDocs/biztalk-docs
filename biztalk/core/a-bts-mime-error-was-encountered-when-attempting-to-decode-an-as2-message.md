@@ -18,7 +18,7 @@ manager: "anneta"
 # A BTS MIME error was encountered when attempting to decode an AS2 message
 ## Details  
   
-|                 |                                                                                                                                    |
+|   Parameter     |            Value                                                                                                               |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                         |
 | Product Version |                                     [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                     |

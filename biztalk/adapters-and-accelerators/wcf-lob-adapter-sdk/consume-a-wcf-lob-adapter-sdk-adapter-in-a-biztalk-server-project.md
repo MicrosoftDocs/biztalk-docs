@@ -42,8 +42,8 @@ This topic describes how to consume an adapter built using the [!INCLUDE[afprodu
 8. Click **OK** to generate the proxy artifacts. The number of artifacts varies based on the contract type:  
 
 
-   | Contract Type |  Artifact   |                         Description                         |                                                             |
-   |---------------|-------------|-------------------------------------------------------------|-------------------------------------------------------------|
+   | Contract Type |  Artifact   | Description |
+   |---------------|-------------|-------------|
    |   Outbound    | XML Schemas | Contains the schemas for the selected types and operations. |                                                             |
    |   Outbound    |             |        WCF-Custom send port binding information XML         |  Contains configuration XML for the WCF-Custom send port.   |
    |    Inbound    | XML Schemas | Contains the schemas for the selected types and operations. |                                                             |
