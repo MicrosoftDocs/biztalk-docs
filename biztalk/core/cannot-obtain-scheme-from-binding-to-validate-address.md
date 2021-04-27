@@ -18,7 +18,7 @@ manager: "anneta"
 # Cannot obtain scheme from binding to validate address
 ## Details  
   
-|    Parameter    |                                Value                                               |
+|    Field    |                                Error Details                                               |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
