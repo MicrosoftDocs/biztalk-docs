@@ -18,7 +18,7 @@ manager: "anneta"
 # An exception has occurred during the execution of the routing orchestration
 ## Details  
   
-|  Parameter      |                               Value                                                            |
+|  Field      |                               Error Details                                                            |
 |-----------------|------------------------------------------------------------------------------------------------|
 |  Product Name   |       [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]       |
 | Product Version |                   [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                   |
