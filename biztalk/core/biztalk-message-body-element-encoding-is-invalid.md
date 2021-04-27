@@ -18,7 +18,7 @@ manager: "anneta"
 # BizTalk message body element encoding is invalid
 ## Details  
   
-|                 |                                                                                                                |
+|       Parameter |                         Value                                                                         |
 |-----------------|----------------------------------------------------------------------------------------------------------------|
 |  Product Name   |               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]               |
 | Product Version |                           [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                           |

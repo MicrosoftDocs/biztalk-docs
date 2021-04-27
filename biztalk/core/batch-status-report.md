@@ -56,10 +56,9 @@ This report shows the activity of instances of the batching orchestration. Each 
   
 ## Fields in the Query Expression for the Status Report  
  You can customize the Batch Status Report by changing the fields in the query expression that determines the data displayed. The following fields are available:  
-  
-|||||  
-|-|-|-|-|  
+
 |Query Expression Field|Potential Operators|Potential Values|Included By Default?|  
+|-|-|-|-|  
 |Search for|Equals|Batch Status|Yes (required)|  
 |Batch Status|Equals<br /><br /> Not Equals|Defined: The batch instance is configured but the start date time is later than the current date time.<br /><br /> Active (default): The batch instance is configured and is collecting transaction sets for a batch. The start date time is earlier than the current date time.<br /><br /> Released: The release criteria has been met, and the batch has been sent, or that the batch orchestration was stopped before any messages were processed.<br /><br /> Completed: The release criteria has been met, but the batch has not been sent.<br /><br /> All: Display any batch instance that is in one of the above states.|Yes|  
 |Maximum Matches|Equals|Integer (default of 50)|Yes|  
