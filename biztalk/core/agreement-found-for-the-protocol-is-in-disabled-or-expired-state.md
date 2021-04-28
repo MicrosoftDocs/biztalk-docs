@@ -18,7 +18,7 @@ manager: "anneta"
 # Agreement found for the Protocol is in Disabled or Expired state
 ## Details  
   
-|                 |                                                                                        |
+|  Parameter          |      Value                                                                                  |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

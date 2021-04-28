@@ -64,13 +64,13 @@ To consume an adapter built using the [!INCLUDE[afproductnameshort](../../includ
 9. To generate the proxy artifacts, click **OK**. The number of artifacts varies based on the contract type.  
 
 
-   | Contract Type |         Artifact          |                    Description                    |                                                                                                            |
-   |---------------|---------------------------|---------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-   |   Outbound    |       CLR WCF Proxy       | Contains the contract and service implementation. |                                                                                                            |
-   |   Outbound    |                           |                    App.config                     |         Contains the \<endpoint\> and \<bindings\> elements for \<system.ServiceModel\>\<client\>.         |
-   |    Inbound    | CLR WCF service interface |              Contains the contract.               |                                                                                                            |
-   |    Inbound    |                           |          CLR WCF service implementation           |                            Stub implementation that derives from the contract.                             |
-   |    Inbound    |                           |                    App.config                     | Contains the \<endpoint\>, \<bindings\> and \<behaviors\> elements for \<system.ServiceModel\>\<service\>. |
+   | Contract Type | Artifact | Description  |
+   |---------------|----------|--------------|
+   | Outbound | CLR WCF Proxy | Contains the contract and service implementation. |
+   | Outbound | App.config | Contains the \<endpoint\> and \<bindings\> elements for \<system.ServiceModel\>\<client\>. |
+   | Inbound | CLR WCF service interface | Contains the contract. |
+   | Inbound | CLR WCF service implementation | Stub implementation that derives from the contract. |
+   | Inbound | App.config | Contains the \<endpoint\>, \<bindings\> and \<behaviors\> elements for \<system.ServiceModel\>\<service\>. |
 
 
 10. You can now use the proxy in your application.  

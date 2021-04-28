@@ -92,7 +92,7 @@ You use the BAM Excel Add-in to define the data you want BAM to collect, and def
   
  The following figure displays an example of pre-calculated aggregation data.  
   
- ![](../core/media/bam-olap-cube.gif "bam_olap_cube")  
+ ![Figure that displays an example of pre-calculated aggregation data.](../core/media/bam-olap-cube.gif "bam_olap_cube")  
   
  The figure summarizes the numbers of each product shipped to specific locations over a two-month time period. Excel typically defines this data as measure. The data used for filtering and categorization, Excel defines as dimension.  
   
@@ -147,7 +147,7 @@ You use the BAM Excel Add-in to define the data you want BAM to collect, and def
   
  You can then open the Received process to view further details about the progress of the activities, such as:  
   
-|||Count|  
+|&nbsp;|&nbsp;|Count|  
 |------|------|-----------|  
 |Received|Evaluating|300|  
 ||Approved|500|  
@@ -159,7 +159,7 @@ You use the BAM Excel Add-in to define the data you want BAM to collect, and def
   
  You can use progress dimensions in combination with any other dimensions. For example, by using the progress dimension Order Progress on rows and the data dimension Product on columns, the following results occur:  
   
-|||Tennis Racquets|Soccer Balls|  
+|&nbsp;|&nbsp;|Tennis Racquets|Soccer Balls|  
 |------|------|---------------------|------------------|  
 |Received|Evaluating|250|50|  
 ||Approved|200|300|  

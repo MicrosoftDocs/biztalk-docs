@@ -18,7 +18,7 @@ manager: "anneta"
 # Could not find Business Identities corresponding to batch
 ## Details  
   
-|                 |                                                                                        |
+|    Field        |                            Error Details                                               |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

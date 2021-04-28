@@ -37,9 +37,8 @@ BatchTerminator /<switch>
   
  You can run the BatchTerminator utility with the following switches. If no switch is provided, the /terminate option is used. As indicate below, you can enter the full name of the switch, such as /terminate, or the shortened form, in this case, /t.  
   
-|||  
-|-|-|  
 |Switch|Function|  
+|-|-|
 |/?|Displays help|  
 |/terminate -log:\<*log file*\><br /><br /> or /t -log:\<*log file*\>|Sends terminate control messages to all active X12 or EDIFACT batching orchestration instances. It displays the results of the operation, including a list of all active batch orchestration instances that it terminated, the number of active batch orchestrations that it found, and the number of terminate control messages that it sent. It logs the results into the batchterminator.log file in the \<*drive*\>:\Documents and Settings\\<*user name*\>\Application Data folder.<br /><br /> The optional -log: parameter enables you to specify the name of the log file and/or the path of the folder that you want the log file to be saved to. An example of using the parameter to specify the path and file name is the following: `BatchTerminator.exe /terminate -log:"C:\logs\log.txt"`. An example of using the parameter to specify the file name only is the following: `BatchTerminator.exe /terminate -log:log.txt`. If the path specified is invalid, the utility will use the default path: \<*drive*\>:\Documents and Settings\\<*user name*\>\Application Data. The -log: parameter can be used either with or without the /terminate switch.|  
 |/print<br /><br /> or /p|Displays a listing of the current active batching orchestration instances without sending terminate control messages|  

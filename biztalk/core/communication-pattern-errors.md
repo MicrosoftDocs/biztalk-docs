@@ -20,7 +20,7 @@ Information for diagnosing and resolving WCF Communication Pattern errors.
 
 ## Fault messages are not supported on one-way ports
   
-|                 |                                                       Error details                                                       |
+|      Field      |                                                       Error details                                                       |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                     |
 | Product Version |                                [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                 |

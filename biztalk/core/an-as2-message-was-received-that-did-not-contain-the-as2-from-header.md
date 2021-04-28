@@ -18,7 +18,7 @@ manager: "anneta"
 # An AS2 message was received that did not contain the AS2-From header
 ## Details  
   
-|                 |                                                                                        |
+|   Field     |                                    Error Details                                               |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

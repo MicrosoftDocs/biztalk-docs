@@ -92,9 +92,8 @@ The EDI receive pipeline and EDI send pipeline perform EDI validation on transac
   
   If EDI Type validation is disabled, the EDI receive pipeline or send pipeline will handle errors as follows:  
   
-|||  
-|-|-|  
 |Unexpected Data|Action|  
+|-|-|  
 |Unexpected/undefined transaction set|The EDI receive or send pipeline will accept a transaction set even if a schema for it has not been deployed|  
 |Unexpected segment/record|The receive pipeline will generate a tag with the appropriate prefix: \<UnexpectedSegment_%SegmentID%\>.<br /><br /> The send pipeline will use the first one to three characters of the XML Tag name as the segment name.|  
 |Unexpected simple data element|The receive pipeline will generate an XML tag with a prefix, segment identifier, and index representing the position of the data element in the segment: <UnexpectedDataElement_%FieldName%.|  
@@ -110,9 +109,8 @@ The EDI receive pipeline and EDI send pipeline perform EDI validation on transac
   
  If the receive or send pipeline encounters unexpected data, it will report the error at the parent level and ignore child level errors, as follows:  
   
-|||  
-|-|-|  
 |Unexpected Data|Action|  
+|-|-|  
 |Unexpected transaction set|The acknowledgment reports this error and ignores subsequent errors at the segment/loop and data element level|  
 |Unexpected segment/loop|The acknowledgment reports this error and ignores errors at the data element level.|  
 |Unexpected data element|The acknowledgment reports this error and ignores compound errors relating to properties like ID, length, occours, etc) and errors relating to composite data element fields (if applicable).|  

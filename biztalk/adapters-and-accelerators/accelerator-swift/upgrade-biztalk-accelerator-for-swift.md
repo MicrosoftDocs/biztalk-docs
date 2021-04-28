@@ -33,8 +33,8 @@ Upgrade [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-cur
  The following table lists the supported [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] versions that can be upgraded. “Yes” means that version can be upgraded. “No” means that version cannot be upgraded. If the [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] version is not listed, that version cannot be upgraded.  
 
 
-|                                                                                                       | [!INCLUDE[bts2016_md](../../includes/bts2016-md.md)] | [!INCLUDE[bts2013r2](../../includes/bts2013r2-md.md)] | BizTalk Server 2013 |
-|-------------------------------------------------------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------|---------------------|
+| Version | [!INCLUDE[bts2016_md](../../includes/bts2016-md.md)] | [!INCLUDE[bts2013r2](../../includes/bts2013r2-md.md)] | BizTalk Server 2013 |
+|--|--|--|--|
 | [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] 2013 |                         Yes                          |                          Yes                          |         No          |
 | [!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)] 2010 |                          No                          |                          Yes                          |         Yes         |
 
