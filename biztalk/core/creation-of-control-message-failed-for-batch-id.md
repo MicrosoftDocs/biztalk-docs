@@ -18,7 +18,7 @@ manager: "anneta"
 # Creation of Control Message failed for Batch id
 ## Details  
   
-|                 |                                                                                        |
+|       Field     |                               Error Details                                            |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

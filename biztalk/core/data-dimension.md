@@ -28,7 +28,7 @@ Defining a data dimension allows the value of some text items in the BAM activit
   
  Also, more than one data dimension can be defined in the BAM view wizard. For example, defining a data dimension named **Location** with levels for **State** and **City** can be used to create the following table:  
   
-|||||  
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|  
 |-|-|-|-|  
 ||California||Washington|  
 ||Los Angeles|San Francisco|Seattle|  

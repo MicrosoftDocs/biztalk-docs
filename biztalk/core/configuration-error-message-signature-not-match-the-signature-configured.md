@@ -18,7 +18,7 @@ manager: "anneta"
 # Configuration error. The message signature doesn&#39;t match the signature configured for this party
 ## Details  
   
-|                 |                                                                                                                                                                                                            |
+|      Field           |         Error Details                                                                                                                                                                                                   |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                             |
 | Product Version |                                                                         [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                         |
