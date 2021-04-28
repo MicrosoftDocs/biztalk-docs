@@ -18,7 +18,7 @@ manager: "anneta"
 # The AS2 Decoder was unable to locate the Disposition-Notification-Options HTTP header
 ## Details  
   
-|                 |                                                                                                                             |
+|   Field         |                                      Error Details                                                                          |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                      |
 | Product Version |                                 [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                  |

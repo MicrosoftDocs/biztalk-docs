@@ -18,7 +18,7 @@ manager: "anneta"
 # The AS2 Decoder failed processing because the MDN signing did not match our request
 ## Details  
   
-|                 |                                                                                                                                                                                                        |
+|     Field            |     Error Details                                                                                                                                                                                                   |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                           |
 | Product Version |                                                                       [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                       |

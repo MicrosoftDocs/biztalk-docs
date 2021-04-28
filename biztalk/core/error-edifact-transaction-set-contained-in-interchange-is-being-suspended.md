@@ -18,7 +18,7 @@ manager: "anneta"
 # Error encountered during parsing. The Edifact transaction set contained in interchange (without group) is being suspended with following errors
 ## Details  
   
-|                 |                                                                                                                                                                                                                       |
+|   Field              |   Error Details                                                                                                                                                                                                                    |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                                  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                   |
 | Product Version |                                                                              [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                               |

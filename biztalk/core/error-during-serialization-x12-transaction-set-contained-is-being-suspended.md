@@ -18,7 +18,7 @@ manager: "anneta"
 # Error encountered during serialization. The X12 transaction set contained in functional group is being suspended with following errors
 ## Details  
   
-|                 |                                                                                                                                                                                                                                            |
+|     Field            |     Error Details                                                                                                                                                                                                                                       |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                             |
 | Product Version |                                                                                         [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                                         |
