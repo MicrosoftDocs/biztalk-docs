@@ -18,7 +18,7 @@ manager: "anneta"
 # Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for global settings
 ## Details  
   
-|                 |                                                                                                                                                                                                                                                           |
+|    Field             |     Error Details                                                                                                                                                                                                                                                      |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                                                    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                                     |
 | Product Version |                                                                                                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                                                 |

@@ -47,9 +47,8 @@ The DynamicReceive sample demonstrates how to receive [!INCLUDE[btsBizTalkServer
 
  The following table shows the files in this sample and describes their purpose.
 
-|||
-|-|-|
 |File|Description|
+|-|-|
 |DynamicReceive.btproj,<br /><br /> DynamicReceive.sln|Project and solution files for the application.|
 |DynamicReceive e.odx|The BizTalk orchestration file for the application.|
 |Setup.bat|Batch file to create the key file, compile the project, and deploy it.|

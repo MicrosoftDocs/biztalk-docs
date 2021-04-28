@@ -18,7 +18,7 @@ manager: "anneta"
 # Error encountered during parsing. The Edifact interchange which did not contain a group had the following errors
 ## Details  
   
-|                 |                                                                                                                                                                                       |
+|       Field          |      Error Details                                                                                                                                                                           |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                   |
 | Product Version |                                                              [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                               |

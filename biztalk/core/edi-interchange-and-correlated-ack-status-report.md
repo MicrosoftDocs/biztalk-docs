@@ -60,9 +60,8 @@ This report shows all EDI interchanges that are processed by the EDI send and re
 ## Fields in the Query Expression for the Status Report  
  You can customize the EDI Interchange and Correlated ACK Status Report by changing the fields in the query expression that determines the data displayed. The following fields are available:  
   
-|||||  
-|-|-|-|-|  
 |Query Expression Field|Potential Operators|Potential Values|Included By Default?|  
+|-|-|-|-|  
 |Search for|Equals|Interchange/ACK Status|Yes (required)|  
 |Status|Equals<br /><br /> Not Equals|Accepted<br /><br /> Accepted with Errors<br /><br /> Sent<br /><br /> All<br /><br /> Ack Expected<br /><br /> Ack Not Expected<br /><br /> Rejected<br /><br /> (These values are defined below.)|Yes|  
 |Interchange Date Time|Less Than or Equals<br /><br /> Greater Than or Equals|Specific Date Time<br /><br /> Today<br /><br /> Today - 1|Yes<br /><br /> Note: Can be included more than once in the query expression.|  

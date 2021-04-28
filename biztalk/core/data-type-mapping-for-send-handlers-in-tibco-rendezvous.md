@@ -69,7 +69,7 @@ xmlns:ns="some namespace for this message [value not important, unless the schem
   
 ```  
   
-|||  
+|&nbsp;|&nbsp;|  
 |-|-|  
 |`<ns:DayHigh`|`id=4 xsi:type="xsd:double">28.40</ns:DayHigh>`|  
 |`<ns:MarketCap`|`id=10>262575234981</ns:MarketCap>`|  
