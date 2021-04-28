@@ -31,26 +31,29 @@ Install the [!INCLUDE[adaptersql_md](../../includes/adaptersql-md.md)] included 
 ## Prerequisites when using the adapter with a .NET Application  
 Install the following software on the computer where you are writing .NET applications that consume the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. Install the software in the order as listed.  
 
-||
-|---|
-|- Windows Server 2016 <br />- Windows Server 2012 R2 <br />- Windows 10 <br />- Windows 8.1    |
-|.NET Framework 4.6.*x*|
-|Visual Studio 2015|
-|[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]|
-|SQL Server client libraries. See the [supported versions](#BKMK_SuppLOB) (in this topic).|
+- Windows Server 2016 
+- Windows Server 2012 R2 
+- Windows 10 
+- Windows 8.1
+- .NET Framework 4.6.*x*
+- Visual Studio 2015
+- [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]
+- SQL Server client libraries. See the [supported versions](#BKMK_SuppLOB) (in this topic).
 
 <a name="BKMK_prereq_BTS"></a>     
 ## Prerequisites when using the adapter with BizTalk Server  
 Install the following software on the computer where you are using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. Install the software in the order listed.  
 
-||
-|---|
-|- Windows Server 2016 <br />- Windows Server 2012 R2 <br />- Windows 10 <br />- Windows 8.1    |
-|.NET Framework 4.6.*x*|
-|Visual Studio 2015|
-|[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]<br /><br /> Install the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] for [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] included with the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. To install, do a **Custom** (select **BizTalk Server Addin**) or **Complete** installation of the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].|
-|[!INCLUDE[bts2016_md](../../includes/bts2016-md.md)]|
-|SQL Server client libraries. See the [supported versions](#BKMK_SuppLOB) (in this topic).|
+- Windows Server 2016 
+- Windows Server 2012 R2 
+- Windows 10 
+- Windows 8.1
+- .NET Framework 4.6.*x*
+- Visual Studio 2015
+- [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]
+- Install the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] for [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] included with the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. To install, do a **Custom** (select **BizTalk Server Addin**) or **Complete** installation of the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].
+- [!INCLUDE[bts2016_md](../../includes/bts2016-md.md)]|
+- SQL Server client libraries. See the [supported versions](#BKMK_SuppLOB) (in this topic).
 
 <a name="BKMK_SuppLOB"></a>   
 ## Supported SQL Server versions and client libraries  

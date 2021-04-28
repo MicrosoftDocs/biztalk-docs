@@ -193,7 +193,7 @@ Verifying Custom RFC Installation
   
 1.  In the SAP GUI authorization administration tools, execute SE37, function module Z_EXTRACT_DATA_OO, and then run the RFC in test mode by pressing `F8`. Populate the parameters as follows.  
   
-    |||  
+    |Parameter|Value|  
     |-|-|  
     |IN_METADATA_ONLY||  
     |IN_METADATA_LANGUAGE|EN|  
@@ -212,7 +212,7 @@ Verifying Custom RFC Installation
   
 3.  In the results pane, check the following.  
   
-    |||  
+    |Parameter|Value|  
     |-|-|  
     |OUT_TABLEHEADER|\<T000 general metadata\>|  
     |OUT_TECHNICALSETTINGS|\<T000 technical database level metadata\>|  
