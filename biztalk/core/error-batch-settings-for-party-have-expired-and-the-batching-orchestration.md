@@ -18,7 +18,7 @@ manager: "anneta"
 # The batch settings for party have expired and the batching orchestration is being terminated
 ## Details  
   
-|                 |                                                                                                                                                                                       |
+|     Field            |      Error Details                                                                                                                                                                            |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                   |
 | Product Version |                                                              [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                               |

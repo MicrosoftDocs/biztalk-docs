@@ -18,7 +18,7 @@ manager: "anneta"
 # Edifact interchange Xml serialization failed due to invalid structure, no transactionSet or UNE
 ## Details  
   
-|                 |                                                                                                                         |
+|      Field      |                                      Error Description                                                                  |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                    |
 | Product Version |                               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                |

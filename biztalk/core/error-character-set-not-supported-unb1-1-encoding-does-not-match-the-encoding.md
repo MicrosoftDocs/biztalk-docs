@@ -18,7 +18,7 @@ manager: "anneta"
 # Character set not supported because the encoding information in UNB1.1 does not match the actual encoding
 ## Details  
   
-|                 |                                                                                                                                                     |
+|    Field             |    Error Details                                                                                                                                                 |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                  |
 | Product Version |                                             [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                              |

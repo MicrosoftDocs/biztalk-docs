@@ -18,7 +18,7 @@ manager: "anneta"
 # Edifact interchange Xml serialization failed due to invalid structure, no FunctionalGroup or ServiceSchema
 ## Details  
   
-|                 |                                                                                                                                              |
+|      Field           |      Error Details                                                                                                                                        |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                              |
 | Product Version |                                          [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                          |

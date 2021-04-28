@@ -18,7 +18,7 @@ manager: "anneta"
 # Batch message cannot be serialized as there is no party associated with send port
 ## Details  
   
-|                 |                                                                                                                                            |
+|      Field      |                                                       Error Details                                                                        |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                             |
 | Product Version |                                         [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                         |
