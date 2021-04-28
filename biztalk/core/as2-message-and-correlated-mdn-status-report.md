@@ -55,10 +55,9 @@ This report shows all AS2 messages that are processed by the AS2 send and receiv
   
 ## Fields in the Query Expression for the Status Report  
  You can customize the AS2 Message and Correlated ACK Status Report by changing the fields in the query expression that determines the data displayed. The following fields are available:  
-  
-|||||  
-|-|-|-|-|  
+    
 |Query Expression Field|Potential Operators|Potential Values|Included By Default?|  
+|-|-|-|-|
 |Search for|Equals|AS2/MDN Status|Yes (required)|  
 |Message Status|Equals<br /><br /> Not Equals|All<br /><br /> Acknowledged - Processed<br /><br /> Acknowledged - Failed<br /><br /> Processed - MDN pending<br /><br /> Processed - MDN not expected<br /><br /> Not acknowledged – Resend attempts exceeded<br /><br /> Not acknowledged – Resend duration exceeded|Yes|  
 |AS2 Message Date Time|Less Than or Equals<br /><br /> Greater Than or Equals|Specific Date Time<br /><br /> Today<br /><br /> Today - 1|Yes<br /><br /> Note: Can be included more than once in the query expression.|  

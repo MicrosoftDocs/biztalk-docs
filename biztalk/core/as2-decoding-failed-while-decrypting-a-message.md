@@ -18,7 +18,7 @@ manager: "anneta"
 # AS2 decoding failed while decrypting a message
 ## Details  
 
-|                 |                                                                                        |
+|     Field   |                                 Error Details                                                  |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
