@@ -59,7 +59,7 @@ Two levels of reporting are available in EDI status reporting: the first if the 
   
 -   More detailed information about a transaction set, including the following:  
   
-|||  
+|Transaction Set| Content|  
 |-|-|  
 |Information|Field or Value|  
 |ApplicationSender|(GS02 or \<UNG2.1(UNG2.2)\>|  

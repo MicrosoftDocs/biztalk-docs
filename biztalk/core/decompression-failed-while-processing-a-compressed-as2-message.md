@@ -18,7 +18,7 @@ manager: "anneta"
 # Decompression failed while processing a compressed AS2 message.
 ## Details  
   
-|                 |                                                                                        |
+|       Field     |                               Error Details                                            |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
