@@ -92,7 +92,7 @@ You use the BAM Excel Add-in to define the data you want BAM to collect, and def
   
  The following figure displays an example of pre-calculated aggregation data.  
   
- ![](../core/media/bam-olap-cube.gif "bam_olap_cube")  
+ ![Figure that displays an example of pre-calculated aggregation data.](../core/media/bam-olap-cube.gif "bam_olap_cube")  
   
  The figure summarizes the numbers of each product shipped to specific locations over a two-month time period. Excel typically defines this data as measure. The data used for filtering and categorization, Excel defines as dimension.  
   
