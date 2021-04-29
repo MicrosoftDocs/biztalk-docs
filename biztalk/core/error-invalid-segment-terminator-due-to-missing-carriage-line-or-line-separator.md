@@ -18,7 +18,7 @@ manager: "anneta"
 # The interchange had structural error. A likely cause is invalid segment terminator due to missing Carriage Line and-or Line Feed seperators
 ## Details  
   
-|                 |                                                                                                                                                                                                                                                                                       |
+| Field | Error Details |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                                                                  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                                                   |
 | Product Version |                                                                                                              [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                                                               |
