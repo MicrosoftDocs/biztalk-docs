@@ -53,7 +53,7 @@ When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
 
    In this step, you map the local account you created to the remote server login. Your options: 
     
-   | | | 
+   | Option | Description | 
    |---|---|
    | **Be made using the login’s current security context** | In domain environments, users typically connect with their domain logins. This option may be best since the security context of the signed-in domain account is mapped to the local account you created.|
    | **Be made using this security context** | When users connect to the local SQL Server using a SQL Server login, then this option may be best. Then enter the login and password for the account on the linked server. |
