@@ -20,7 +20,7 @@ Information for diagnosing and resolving WCF Registry errors.
 
 ## Failed to access the registry
   
-|                 |                                   Error details                                    |
+| Field | Error Details |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
@@ -38,7 +38,7 @@ Information for diagnosing and resolving WCF Registry errors.
  
 ## Failed to obtain BizTalk install path
   
-|                 |                                   Error Details                                    |
+| Field | Error Details |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |

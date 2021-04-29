@@ -18,7 +18,7 @@ manager: "anneta"
 # Message Type is not allowed as part of the Agreement
 ## Details  
   
-|                 |                                                                                        |
+| Field | Error Details|
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

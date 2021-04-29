@@ -20,7 +20,7 @@ Information for diagnosing and resolving WCF Metadata errors.
   
 ## Error consuming WCF service metadata
 
-|                 |                                   Error details                                    |
+| Field | Error Details|
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
@@ -38,7 +38,7 @@ Information for diagnosing and resolving WCF Metadata errors.
 
 ## Failed to get metadata
 
-|                 |                                   Error details                                    |
+| Field | Error Details|
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
