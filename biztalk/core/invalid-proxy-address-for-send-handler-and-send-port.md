@@ -18,7 +18,7 @@ manager: "anneta"
 # Invalid proxy address (for send handler and send port)
 ## Details  
   
-|                 |                                                                                    |
+| Field | Error Details |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
