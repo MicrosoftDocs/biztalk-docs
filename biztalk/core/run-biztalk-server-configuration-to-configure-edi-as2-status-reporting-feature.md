@@ -18,7 +18,7 @@ manager: "anneta"
 # To enable status reporting, run &#39;BizTalk Server Configuration&#39; and configure EDI-AS2 status reporting feature
 ## Details  
   
-|                 |                                                                                                                |
+| Field | Error Details |
 |-----------------|----------------------------------------------------------------------------------------------------------------|
 |  Product Name   |               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]               |
 | Product Version |                           [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                           |
