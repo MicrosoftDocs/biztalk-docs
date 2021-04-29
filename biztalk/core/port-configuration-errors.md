@@ -20,7 +20,7 @@ Information for diagnosing and resolving WCF Port Configuration errors.
 
 ## Cannot merge operation due to communication pattern conflict
   
-|                 |                                                         Details                                                         |
+| Field | Error Details |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                    |
 | Product Version |                               [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                |
@@ -40,7 +40,7 @@ Information for diagnosing and resolving WCF Port Configuration errors.
  
 ## Port types that have a combination of one-way and request-response operations are not allowed 
   
-|                 |                                                                                Details                                                                                |
+| Field | Error Details |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                          [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                           |
 | Product Version |                                                      [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                                       |
