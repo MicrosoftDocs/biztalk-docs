@@ -18,7 +18,7 @@ manager: "anneta"
 # Invalid delimiter set because at least one of the delimiters is outside the allowed range
 ## Details  
   
-|                 |                                                                                                        |
+| Field | Error Details |
 |-----------------|--------------------------------------------------------------------------------------------------------|
 |  Product Name   |           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]           |
 | Product Version |                       [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                       |

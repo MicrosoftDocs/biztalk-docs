@@ -18,7 +18,7 @@ manager: "anneta"
 # The interchange contained a malformed ISA or the Service schema was not available
 ## Details  
   
-|                 |                                                                                                                    |
+| Field | Error Details |
 |-----------------|--------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                 |
 | Product Version |                             [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                             |

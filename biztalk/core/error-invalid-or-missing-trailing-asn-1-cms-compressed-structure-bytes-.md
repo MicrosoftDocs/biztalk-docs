@@ -18,7 +18,7 @@ manager: "anneta"
 # Invalid or missing trailing ASN.1 CMS compressed structure bytes during decompression processing
 ## Details  
   
-|                 |                                                                                                  |
+| Field | Error Details |
 |-----------------|--------------------------------------------------------------------------------------------------|
 |  Product Name   |        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]        |
 | Product Version |                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                    |
