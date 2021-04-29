@@ -48,9 +48,8 @@ On the **Group Hub** page of the [!INCLUDE[btsBizTalkServerNoVersion](../include
  The following table shows a complete list of the items that appear in the results list.  
 
 
-|                              |                                                                                                                                           |
+| Service or Message field |                                                              Description                                                              |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| **Service or Message field** |                                                              **Description**                                                              |
 |         Service Name         |                                                       Name of the service instance.                                                       |
 |          Event Type          |                    Type of service (for example, messaging (reported as Pipeline), orchestration, transport adapter).                     |
 |      Error Description       |                                                 Description of the error if one occurred.                                                 |
