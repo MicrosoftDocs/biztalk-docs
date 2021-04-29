@@ -18,7 +18,7 @@ manager: "anneta"
 # Number of included segments do not match
 ## Details  
   
-|                 |                                                                                        |
+| Field | Error Details|
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
