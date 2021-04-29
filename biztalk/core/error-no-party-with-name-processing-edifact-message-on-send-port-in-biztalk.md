@@ -18,7 +18,7 @@ manager: "anneta"
 # A failure occurred in processing Edifact message on send port: No Party with name
 ## Details  
   
-|                 |                                                                                                   |
+| Field | Error Details |
 |-----------------|---------------------------------------------------------------------------------------------------|
 |  Product Name   |        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]         |
 | Product Version |                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                     |

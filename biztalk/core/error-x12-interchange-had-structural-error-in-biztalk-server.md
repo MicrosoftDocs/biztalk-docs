@@ -18,7 +18,7 @@ manager: "anneta"
 # The interchange had structural error. Last structurally valid functional group ID was:
 ## Details  
   
-|                 |                                                                                                                                                    |
+| Field | Error Details | 
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                 |
 | Product Version |                                             [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                             |

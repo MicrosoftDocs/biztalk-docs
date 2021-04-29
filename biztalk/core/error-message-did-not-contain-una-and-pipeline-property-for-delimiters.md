@@ -18,7 +18,7 @@ manager: "anneta"
 # Message did not contain UNA and pipeline property for delimiters was incorrect format
 ## Details  
   
-|                 |                                                                                             |
+| Field | Error Details |
 |-----------------|---------------------------------------------------------------------------------------------|
 |  Product Name   |     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]      |
 | Product Version |                 [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                  |
