@@ -87,7 +87,7 @@ As a message is processed, the following actions take place:
 > [!NOTE]
 >  Starting and ending states show as bold in the left column and top row. The operation shows in the body of the table.  
   
-|Starting state|New state after operation is applied|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;||  
+|Starting state|New state after operation is applied|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|  
 |--------------------|------------------------------------------|------|------|------|------|------|------|  
 ||**In Breakpoint**|**Active**|**Dehydrated**|**Suspended**|**Terminated**|**Pending terminate**|**Pending suspend**|  
 |**In Breakpoint**|Attach from debugger|Continue from debugger|Stop Windows Service|||Terminate|Suspend|  
