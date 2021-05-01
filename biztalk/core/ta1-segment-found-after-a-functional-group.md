@@ -18,7 +18,7 @@ manager: "anneta"
 # TA1 segment found after a functional group
 ## Details  
   
-|                 |                                                                                        |
+| Field | Error Details|
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

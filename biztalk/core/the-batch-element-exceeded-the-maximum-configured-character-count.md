@@ -18,7 +18,7 @@ manager: "anneta"
 # The batch element exceeded the maximum configured character count
 ## Details  
   
-|                 |                                                                                        |
+| Field | Error Details|
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
