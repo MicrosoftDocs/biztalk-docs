@@ -37,9 +37,8 @@ In this topic, you will create partners using the Azure BizTalk portal available
 
 3.  In the **New Agreement** page, enter the following details:
 
-    |||
+    | Field | Description |
     |-|-|
-    |**Field**|**Description**|
     |Name|Enter a name for the agreement. For this tutorial, specify the name as `DemoAgreement`.<br /><br /> **Note:** This is a mandatory field. The name for the agreement must be unique.|
     |Description|Enter notes or a description for the agreement.|
     |Partner 1 Profile (managed)|Select the managed partner for the agreement. A managed partner is a partner managed by the service provider and the pipelines are deployed for that partner during agreement deployment. Typically partners managed by service provider are configured as a managed partner while the enterprise partners are not marked as managed partners.<br /><br /> **Note:** For this tutorial, the managed partner is **Northwind**.<br /><br /> **Note:** The default profile is displayed in the Profile field. Choose the desired profile which has been configured for the partner.|
@@ -81,7 +80,7 @@ In this topic, you will create partners using the Azure BizTalk portal available
 
              Set the following properties under the **Schemas** section.
 
-            |||
+            | Property | Value |
             |-|-|
             |Version|00401|
             |Transaction Type (ST1)|840|

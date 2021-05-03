@@ -50,7 +50,7 @@ According to the business scenario, after [!INCLUDE[btsBizTalkServerNoVersion](.
   
 5.  Repeat the steps to create the messages with following details:  
   
-    |Message name||  
+    |Message name|Perform Action|  
     |------------------|-|  
     |Message2_SO_Inbound|-   Set **Identifier** to `Message2_SO_Inbound`<br />-   Set **Message Type** to *OrderProcessingDemo.ECommerceSalesOrder*|  
     |Message1_SO_Outbound|-   Set **Identifier** to `Message1_SO_Outound`<br />-   Set **Message Type** to *OrderProcessingDemo.TableOperation_dbo_SalesOrder.Insert*|  

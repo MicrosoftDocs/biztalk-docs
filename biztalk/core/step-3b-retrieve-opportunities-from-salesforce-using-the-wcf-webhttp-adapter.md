@@ -58,7 +58,7 @@ SELECT Amount, Id, Name,(SELECT Quantity, ListPrice, PricebookEntry.UnitPrice, P
 
 3. Add a **String Concatenate** functoid to the mapping surface. Open the **Configure String Concatenate Functoid** dialog box and specify the input values as follows:
 
-   |||
+   | Input | Value |
    |-|-|
    |Input[0]|SELECT Amount, Id, Name,(SELECT Quantity, ListPrice, PricebookEntry.UnitPrice, PricebookEntry.Name FROM OpportunityLineItems) FROM Opportunity Where Name = '|
    |Input[1]|Connect the Name element in the source schema to the functoid to use the value of the Name element as the second input.|
