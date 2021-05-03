@@ -18,7 +18,7 @@ manager: "anneta"
 # Single Sign-On: Event 11037
 ## Details  
   
-|                 |                                                                                                                                                                                                                                                       |
+| Field | Error Details | 
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                                                                               Enterprise Single Sign-On                                                                                                               |
 | Product Version |                                                                                              [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                                               |
