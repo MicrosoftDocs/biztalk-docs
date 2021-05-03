@@ -20,7 +20,7 @@ Information for diagnosing and resolving WCF Send errors.
   
 ## Failed to generate ODX file
 
-|                 |                                   Error details                                    |
+| Field | Error Details |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
@@ -40,7 +40,7 @@ Information for diagnosing and resolving WCF Send errors.
  
 ## Response message body was not read
   
-|                 |                                        Error details                                        |
+| Field | Error Details |
 |-----------------|---------------------------------------------------------------------------------------------|
 |  Product Name   |     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]      |
 | Product Version |                 [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                  |
