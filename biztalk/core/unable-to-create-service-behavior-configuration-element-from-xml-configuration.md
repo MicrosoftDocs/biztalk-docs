@@ -18,7 +18,7 @@ manager: "anneta"
 # Unable to create service behavior configuration element from XML configuration
 ## Details  
 
-|                 |                                                                                    |
+|      Field      |                                  Error Details                                     |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |

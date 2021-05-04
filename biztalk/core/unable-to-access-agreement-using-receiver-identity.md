@@ -18,7 +18,7 @@ manager: "anneta"
 # Unable to access agreement using receiver identity
 ## Details  
   
-|                 |                                                                                        |
+| Field | Error Details |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
