@@ -18,7 +18,7 @@ manager: "anneta"
 # The Signing Certificate has not been configured for AS2 party
 ## Details  
   
-|                 |                                                                                           |
+| Field | Error Details |
 |-----------------|-------------------------------------------------------------------------------------------|
 |  Product Name   |    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]     |
 | Product Version |                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                 |

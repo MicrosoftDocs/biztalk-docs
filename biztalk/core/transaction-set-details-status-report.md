@@ -59,7 +59,7 @@ This report shows the details for transaction sets in a specific EDI interchange
 ## Fields in the Query Expression for the Status Report  
  You can customize the EDI Interchange and Correlated ACK Status Report by changing the fields in the query expression that determines the data displayed. The following fields are available:  
   
-|||||  
+|Query Expression Field|Potential Operators|Potential Values|Included By Default?|  
 |-|-|-|-|  
 |Query Expression Field|Potential Operators|Potential Values|Included By Default?|  
 |Search for|Equals|Transaction Set Details|Yes (required)|  

@@ -18,7 +18,7 @@ manager: "anneta"
 # This instance is outside the Batching Service window for the partner
 ## Details  
   
-|                 |                                                                                        |
+| Field | Error Details |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

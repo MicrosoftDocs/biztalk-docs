@@ -18,7 +18,7 @@ manager: "anneta"
 # The party for this AS2 interchange must contain a value for AS2-To
 ## Details  
   
-|                 |                                                                                        |
+| Field | Error Details |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

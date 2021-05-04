@@ -30,12 +30,12 @@ The time dimension allows aggregations to be created with respect to time. For e
   
  The time dimension can be combined with any other dimension. For example, you can use the time dimension on rows and the data dimension on columns to create the following table:  
   
-|||Tennis racquets|Soccer balls|  
-|------|------|---------------------|------------------|  
-||January|50|70|  
-||February|120|110|  
-||March|300|50|  
-||April|220|60|  
+|Month|Tennis racquets|Soccer balls|  
+|------|---------------------|------------------|  
+|January|50|70|  
+|February|120|110|  
+|March|300|50|  
+|April|220|60|  
   
 ## See Also  
  [Numeric Range Dimension](../core/numeric-range-dimension.md)   

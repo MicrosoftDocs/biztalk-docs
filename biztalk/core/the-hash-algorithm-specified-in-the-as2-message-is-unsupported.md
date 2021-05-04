@@ -18,7 +18,7 @@ manager: "anneta"
 # The hash algorithm specified in the AS2 message is unsupported
 ## Details  
   
-|                 |                                                                                        |
+| Field | Error Details |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

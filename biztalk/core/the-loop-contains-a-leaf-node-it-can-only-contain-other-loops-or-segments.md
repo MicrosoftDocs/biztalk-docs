@@ -18,7 +18,7 @@ manager: "anneta"
 # The loop contains a leaf node. It can only contain other Loops or Segments
 ## Details  
   
-|                 |                                                                                        |
+| Field | Error Details |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
