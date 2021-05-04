@@ -21,7 +21,7 @@ These system requirements list the installation, configuration, and feature usag
 
 ## Requirements
 
-|  |  Minimum requirement  |
+| Category |  Minimum requirement  |
 |---|---|
 | Hardware |-   Computer or virtual machine (VM) with 64-bit X64 architecture processor<br />-   6GB of available drive space<br />-   800 x 600 screen resolution for administration tools<br />-   1024 x 768 resolution for visual design tools |
 | Operating Systems | -   Windows Server 2019<br />-   Windows Server 2016<br />-   Windows 10<br />-   Virtualization with Azure and Hyper-V  |

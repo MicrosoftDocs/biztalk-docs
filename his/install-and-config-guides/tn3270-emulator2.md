@@ -19,9 +19,7 @@ As in any standard Microsoft Windows application, you can use keyboard shortcuts
   
 ## File menu keyboard shortcuts  
   
-|||  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Create a new TN3270 Emulator windows|ALT+F,N|  
 |Open an existing TN3270 Emulator window|ALT+F,O|  
 |Save settings in a TN3270 Emulator configuration file|ALT+F,S|  
@@ -30,26 +28,23 @@ As in any standard Microsoft Windows application, you can use keyboard shortcuts
   
 ## Edit menu keyboard shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Copy window contents to Windows Clipboard|ALT+E,C|  
 |Paste Windows Clipboard content to cursor position|ALT+E,P|  
 |Select all windows content to Windows Clipboard|ALT+E,S|  
   
 ## View menu keyboard shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Show or hide Toolbar|ALT+V,T|  
 |Show or hide Status bar|ALT+V,S|  
   
 ## Session menu keyboard shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Session host settings|ALT+S,H|  
 |Session connect to host|ALT+S,C|  
 |Session disconnect from host|ALT+S,D|  
@@ -72,17 +67,15 @@ As in any standard Microsoft Windows application, you can use keyboard shortcuts
   
 ## Keyboard menu shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Keyboard quick pad|ALT+K,Q|  
 |Keyboard mapper|ALT+K,K|  
   
 ## Tools menu keyboard shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Tools macro record|ALT+T,M,R|  
 |Tools macro stop|ALT+T,M,S|  
 |Tools macro play|ALT+T,M,P|  
@@ -92,8 +85,7 @@ As in any standard Microsoft Windows application, you can use keyboard shortcuts
   
 ## Help menu keyboard shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Help view help documentation content|ALT+H,W|  
 |Help about|ALT+H,A|

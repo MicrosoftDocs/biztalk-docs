@@ -19,9 +19,8 @@ As in any standard Microsoft Windows application, you can use keyboard shortcuts
   
 ## File Menu Keyboard Shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Display open file dialog box|ALT+F,O|  
 |Close trace file|CTRL+F4|  
 |Display save file as text dialog box|ALT+F,S,T|  
@@ -30,9 +29,8 @@ As in any standard Microsoft Windows application, you can use keyboard shortcuts
   
 ## Edit Menu Keyboard Shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Copy trace data line|CTRL+C|  
 |Find trace data value|CTRL+F|  
 |Find next trace data value|F3|  
@@ -45,9 +43,8 @@ As in any standard Microsoft Windows application, you can use keyboard shortcuts
   
 ## Tools Menu Keyboard Shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Display filter dialog|ALT+T,F|  
 |Display tracing font options dialog|ALT+T,O,T|  
 |Display editor font options dialog|ALT+T,O,E|  

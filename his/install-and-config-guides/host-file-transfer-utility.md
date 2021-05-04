@@ -19,9 +19,8 @@ As in any standard Microsoft Windows application, you can use keyboard shortcuts
   
 ## File menu keyboard shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Create a new Host FTP Utility windows|ALT+F,N|  
 |Open an existing Host FTP Utility window|ALT+F,O|  
 |Save settings in a Host FTP Utility configuration file|ALT+F,S|  
@@ -30,9 +29,8 @@ As in any standard Microsoft Windows application, you can use keyboard shortcuts
   
 ## Host menu keyboard shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Host settings dialog|ALT+O,H|  
 |Host address|ALT+O,H,H|  
 |Host port|ALT+O,H,P|  
@@ -41,16 +39,14 @@ As in any standard Microsoft Windows application, you can use keyboard shortcuts
   
 ## Transfer menu keyboard shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Transfer to upload file|ALT+R,U|  
 |Transfer to download fie|ALT+R,D|  
   
 ## Tools menu keyboard shortcuts  
   
-|||  
+|Menu Action|Shortcut|  
 |-|-|  
-|**Menu Action**|**Shortcut**|  
 |Tools delete file|ALT+T,D|  
 |Tools file transfer options|ALT+T,O|

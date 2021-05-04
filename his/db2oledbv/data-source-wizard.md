@@ -119,9 +119,8 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 ## All Properties
  The All Properties dialog lets you configure more detailed and optional properties. These properties may be edited by selecting a property from the list, and then selecting or editing the value in the right column. You can edit the following properties from this dialog.
 
-|||||
+|Data Source Wizard property name|Data Source Wizard dialog(s)|Data Links dialog(s)|Description|
 |-|-|-|-|
-|**Data Source Wizard property name**|**Data Source Wizard dialog(s)**|**Data Links dialog(s)**|**Description**|
 |Affiliate Application|Security|Connection|This property instructs the Data Provider to retrieve credentials from an Enterprise Single Sign-On database.|
 |Alternate TP Name|All|All|This property is disabled in the Microsoft OLE DB Provider for DB2 v5.0. It is enabled with the version of the provider that is used with Host Integration Server.|
 |APPC Local LU Alias|All|APPC Network Settings|This property is disabled in the Data Provider. It is enabled with the version of the provider that is used with Host Integration Server.|
