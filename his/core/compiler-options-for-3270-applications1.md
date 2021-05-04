@@ -23,7 +23,7 @@ When compiling the 3270 client application, the compiler options listed in the f
 |**/D NOTRC**|The NOTRC macro specifies that internal tracing should not be compiled into the application.<br /><br /> The **/D NOTRC** option should be used for building a final system (internal tracing should not be included because it will degrade performance and require more memory and resources). For a development system, you may want to compile with internal tracing; if so, remove the **/D NOTRC** option.|  
 |**/D WIN32_SUPPORT**<br />**/D MSWIN_SUPPORT,**<br />**/D OS2_SUPPORT,**<br />**/D DOS_SUPPORT**|These macros are used in the header files FMI.H and TRACE.H supplied with SNA services to support variants of the client interface for the different operating systems supported. One of these options must be defined, depending on the operating system for which the application is intended.|  
   
-||||  
+|Option|&nbsp;|Description|  
 |-|-|-|  
 |**/Gzs**|c:|Use **stdcall** calling conventions on i386/i486 and Pentium class processors.|  
 ||S:|Remove stack check calls.|  

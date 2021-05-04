@@ -42,7 +42,7 @@ This topic provides a description of recommended values   that impact network pe
   
 ###  
   
-|||  
+|Field|Value|  
 |-|-|  
 |Key:|HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters|  
 |Value:|TcpTimedWaitDelay|  

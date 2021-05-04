@@ -51,7 +51,7 @@ In BizTalk Server 2013 R2 and BizTalk Server 2013, there are two options for the
 ## CSOM and SSOM supported versions
 SharePoint support is listed in the following table:
 
-||Supports CSOM|Supports SSOM|
+|Version|Supports CSOM|Supports SSOM|
 |---|---|---|
 |SharePoint 2016|Yes|No|
 |SharePoint 2013|Yes|No|
@@ -63,7 +63,7 @@ SharePoint support is listed in the following table:
 
 1.  Use a SharePoint computer based on the following requirements:
 
-    ||CSOM Support|
+    |Version|CSOM Support|
     |---|---|
     |SharePoint 2016<br /><br /> [Install SharePoint 2016](https://technet.microsoft.com/library/cc262957(v=office.16).aspx)|Yes|
     |SharePoint 2013<br /><br /> [Install SharePoint 2013](https://technet.microsoft.com/library/cc262957.aspx)|Yes|
@@ -80,7 +80,7 @@ SharePoint support is listed in the following table:
 
 3.  Install BizTalk Server:
 
-    | |  |
+    | Version | Action |
     |---|---|
      | BizTalk Server 2016 | Run BizTalk setup. |
     | BizTalk Server 2013 R2 | Run BizTalk setup, and do **not** check **Windows SharePoint Services Adapter**. |
@@ -90,7 +90,7 @@ SharePoint support is listed in the following table:
 
 1.  Use a SharePoint computer based on the following SSOM requirements:
 
-    ||SSOM Support|
+    |Version|SSOM Support|
     |---|---|
     |SharePoint 2016<br /><br /> [Install SharePoint 2016](https://technet.microsoft.com/library/cc262957(v=office.16).aspx)|No|
     |SharePoint 2013<br /><br /> [Install SharePoint 2013](https://technet.microsoft.com/library/cc303424.aspx)|No|

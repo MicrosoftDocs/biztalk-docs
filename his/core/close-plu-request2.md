@@ -85,7 +85,7 @@ struct Close (PLU) Request {
  *clhdr.clsctl*  
  Close control  
   
-||||  
+|&nbsp;|&nbsp;|&nbsp;|  
 |-|-|-|  
 |CLNORMAL|(0x01)|normal|  
 |CLBIND|(0x02)|bind forthcoming|  

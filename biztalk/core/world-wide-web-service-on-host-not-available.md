@@ -18,7 +18,7 @@ manager: "anneta"
 # World Wide Web service on host not available
 ## Details  
   
-|                 |                                                                                    |
+|     Field       |                                    Error Details                                   |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |

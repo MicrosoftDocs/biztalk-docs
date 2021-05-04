@@ -19,9 +19,8 @@ SnaCfg is a useful command-line utility for deploying and managing SNA Server co
   
  The following table describes the command-line parameters.  
   
-||||  
+|Property|Description|Validation|  
 |-|-|-|  
-|**Property**|**Description**|**Validation**|  
 |/conntype:type|Connection type.|IP-DLC.|  
 |/RemoteAddress:adr|Address of the remote DLUS service. This property is not accessible through the user interface. It provides a way of establishing a direct connection with DLUS rather than routing the connection through the NNS.|Valid IP address or DNS name.|  
 |/PrimNetworkName:name|Network name of the primary DLUS server.|1–8 characters, SNA Type A string.|  

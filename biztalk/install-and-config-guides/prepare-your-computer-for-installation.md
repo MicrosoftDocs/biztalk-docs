@@ -253,7 +253,7 @@ Also consider the following:
 
 ##  <a name="BKMK_WIF"></a> Windows Identity Foundation
 
-| OS | How to get it   |
+| OS | How to get it |
 |---|---|
 | Windows 8.1, Windows Server 2012, and Windows Server 2012 R2 |  Windows Identity Foundation is included with the operating system as a Feature in **Turn Windows features on or off**.  |
 |  Windows Vista SP1  | Download available at [Windows Identity Foundation](https://www.microsoft.com/download/details.aspx?id=17331). |

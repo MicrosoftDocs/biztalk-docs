@@ -28,7 +28,7 @@ Welcome to the Microsoft® BizTalk® Server 2010 Operations Guide. We created th
 ## Where Do I Start?
  We organized the guide according to the functional aspects of planning, deploying, and managing a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation. You can therefore read it according to these functional aspects. However, realizing that the checklists would be the most sought after information in the BizTalk Server Operations Guide, we have categorized all the checklists in the document in the following table for ease of accessibility.
 
-|||
+|&nbsp;|&nbsp;|
 |-|-|
 |**Setting Up Your BizTalk Environment**|**Setting Up a High Availability and Disaster Recovery Environment**|
 |-   [Checklist: Getting Started with BizTalk Server](https://msdn.microsoft.com/library/37d265cd-c393-46ac-ac21-129a1511359b)<br />-   [Checklist: Configuring Windows Server](~/technical-guides/checklist-configuring-windows-server.md)<br />-   [Checklist: Configuring Internet Information Services](~/technical-guides/checklist-configuring-internet-information-services.md)<br />-   [Checklist: Configuring SQL Server](../technical-guides/checklist-configuring-sql-server.md)<br />-   [Checklist: Configuring BizTalk Server](~/technical-guides/checklist-configuring-biztalk-server.md)|-   [Checklist: Providing High Availability with Fault Tolerance or Load Balancing](~/technical-guides/checklist-providing-high-availability-with-fault-tolerance-or-load-balancing.md)<br />-   [Checklist: Increasing Availability with Disaster Recovery](~/technical-guides/checklist-increasing-availability-with-disaster-recovery.md)|

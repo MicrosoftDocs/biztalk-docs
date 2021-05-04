@@ -48,7 +48,7 @@ manager: "anneta"
 
 ### Physical_SQL01
 
-|||
+|Parameter|Value|
 |-|-|
 |**Model**|HP DL580|
 |**Processor**|Quad processor, Quad-core Intel Xeon 2.4Ghz|
@@ -70,7 +70,7 @@ manager: "anneta"
 
 ### Hyper-V_Host_SQL01
 
-|||
+|Parameter|Value|
 |-|-|
 |**Model**|HP DL580|
 |**Processor**|Quad processor, Quad-core Intel Xeon 2.4Ghz|
@@ -79,7 +79,7 @@ manager: "anneta"
 
 ### Virtual_SQL01 - Virtual Machine Configuration
 
-|||
+|Parameter|Value|
 |-|-|
 |**Virtual processors**|4 allocated|
 |**Memory**|8 GB|
@@ -103,7 +103,7 @@ manager: "anneta"
 
 ### IOMeter – Passthrough Disk Comparison Test Configuration
 
-|                             |                     |
+|         Parameter           |        Value        |
 |-----------------------------|---------------------|
 |       **Test length**       |     10 minutes      |
 |      **Ramp up time**       |     30 seconds      |

@@ -17,7 +17,7 @@ manager: "anneta"
 # Best Practices for Maintaining Performance
 This topic points you to the best practices that you should follow when resolving performance issues with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system.  
   
-|||  
+|Category|Link|  
 |-|-|  
 |For weekly performance checks|[Checklist: Performing Weekly Performance Checks](../technical-guides/checklist-performing-weekly-performance-checks.md)|  
 |For monthly performance checks|[Checklist: Performing Monthly Performance Checks](../technical-guides/checklist-performing-monthly-performance-checks.md)|  
