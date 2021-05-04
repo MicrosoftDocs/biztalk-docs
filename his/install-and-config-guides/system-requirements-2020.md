@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: System Requirements"
+description: "Learn more about: System Requirements for Host Integration Server 2020"
 title: "Host Integration Server 2020 system requirements | Microsoft Docs"
 ms.custom: ""
 ms.date: "5/5/2020"
