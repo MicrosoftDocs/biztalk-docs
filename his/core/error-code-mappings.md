@@ -37,26 +37,23 @@ drdaActionText="Verify the number and type of parameters."
   
  The following table shows Microsoft SQL Server error messages.  
   
-||||  
-|-|-|-|  
 |Item|Type|Description|  
+|-|-|-|  
 |sqlErrorMappings|element|The sqlErrorMappings element contains sqlErrorMapping definition elements.|  
 |sqlErrorMapping|element|The sqlErrorMapping element contains the definition of a SQL Server error message mapped to a DRDA reply message.|  
   
  The following table shows Microsoft SQL Server error messages.  
   
-||||  
-|-|-|-|  
 |Item|Type|Description|  
+|-|-|-|  
 |msSqlMessageId|integer|The msSqlMessageId attribute represents the identifier (ID) of the message and is a unique value across the server. This required attribute accepts an integer value.|  
 |msSqlMessageSeverityLevel|integer|The msSqlMessageSeverityLevel attribute represents the severity level of the message, between 1 and 25. This required attribute accepts an integer value.|  
 |msSqlMessageText|string(1024)|The msSqlMessageText attribute represents the message text. This required attribute accepts a string value.|  
   
  The following table shows IBM DB2 error messages.  
   
-||||  
-|-|-|-|  
 |Item|Type|Description|  
+|-|-|-|  
 |drdaSqlCode|integer|The drdaSqlCode attribute denotes the IBM DB2 SQLCODE. This required attribute accepts an integer value.|  
 |drdaSqlState|integer|The drdaSqlState attribute denotes the IBM DB2 SQLSTATE. This required attribute accepts an integer value.|  
 |drdaReasonCode|hex binary|The drdaReasonCode attribute denotes the IBM DB2 reason code. This optional attribute accepts a hex binary value. The default value is 0.|  

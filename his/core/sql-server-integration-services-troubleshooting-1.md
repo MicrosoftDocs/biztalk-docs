@@ -63,9 +63,8 @@ You can customize the default data conversions by using the SQL Server Integrati
 ### Mapping Files
  The following table describes the three mapping files that you can edit when you use the Data Provider.
 
-|||||
+|DB2 Data Type Name|DB2ToMSSql|DB2ToMSSql10|DB2ToSSIS10|
 |-|-|-|-|
-|**DB2 Data Type Name**|**DB2ToMSSql**|**DB2ToMSSql10**|**DB2ToSSIS10**|
 |TIME|DATETIME|time|DT_DBTIME|
 |TIMESTAMP|datetime|datetime2|DT_DBTIMESTAMP2|
 |DATE|DATETIME|DATE|DT_DBDATE|

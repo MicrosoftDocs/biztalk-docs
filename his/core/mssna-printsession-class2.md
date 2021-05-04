@@ -244,7 +244,7 @@ class MsSna_PrintSession : MsSna_Config
 ## Remarks  
  The following table describes the possible values for **CodePageLanguage**.  
   
-|||  
+|Code|Language|  
 |-|-|  
 |0|Afrikaans[500]|  
 |1|Albanian[870]|  

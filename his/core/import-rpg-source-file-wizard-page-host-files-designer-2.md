@@ -19,9 +19,8 @@ manager: "anneta"
 # Import RPG Source File Wizard Page (Host Files Designer)
 Use the **Import RPG Source File** wizard page to identify the RPG source file.  
   
-|||  
+|Use this|To do this|  
 |-|-|  
-|**Use this**|**To do this**|  
 |**RPG source file**|Select the full path to the RPG file to import.|  
 |**RPG source**|View the RPG source code contained in the file identified in **RPG source file**.|  
   

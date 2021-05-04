@@ -267,7 +267,7 @@ manager: "anneta"
   
  **Additional values, supported by Windows**  
   
-||||  
+|Value|Constant Name|Description|  
 |-|-|-|  
 |42|DMPAPER_ISO_B4|B4 (ISO) 250 x 353mm|  
 |43|DMPAPER_JAPANESE_POSTCARD|Japanese Postcard 100 x 148mm|  

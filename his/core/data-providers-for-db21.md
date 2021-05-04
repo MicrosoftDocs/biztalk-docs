@@ -35,9 +35,8 @@ manager: "anneta"
 #### DB2 to ADO.NET Data Type Mapping
  The following table describes DB2 data type mappings to ADO.NET Provider for DB2 (MsDb2Client) data types (MsDb2Type).
 
-||||
-|-|-|-|
 |MsDb2Type|DB2 data type|Description|
+|-|-|-|
 |BigInt|Bigint|A big integer is an 8-byte binary integer.|
 |Binary|Binary|A binary is a fixed-length binary string.|
 |Bit|Smallint|A small integer is a two-byte binary integer.|
@@ -67,9 +66,8 @@ manager: "anneta"
 #### DB2 to OLE DB Data Type Mapping
  The following table describes DB2 data type mappings to OLE DB data types.
 
-||||
-|-|-|-|
 |OLE DB data type|DB2 data type|Description|
+|-|-|-|
 |DBTYPE_I8|Bigint|A big integer is an 8-byte binary integer.|
 |DBTYPE_Bytes|BINARY|A binary is a fixed-length binary string|
 |DBTYPE_Bytes|BLOB|A binary large object is a varying-length string used to store non-textual or binary data.|
@@ -100,9 +98,8 @@ manager: "anneta"
 #### DB2 for z/OS V9R1
  The Data Provider supports accessing these data types when connected to DB2 for z/OS (based on V9R1).
 
-||||||
-|-|-|-|-|-|
 |DB2 Type_name|OLE DB data_type|Column_size|Minimum_scale|Maximum_scale|
+|-|-|-|-|-|
 |Smallint|DBType_12|5|||
 |Integer|DBType_14|10|||
 |Bigint|DBType_18|19|||
@@ -131,9 +128,8 @@ manager: "anneta"
 #### DB2 for i5/OS V6R1
  The Data Provider supports accessing these data types when connected to DB2 for i5/OS (based on V6R1).
 
-||||||
-|-|-|-|-|-|
 |DB2 Type_name|OLE DB data_type|Column_size|Minimum_scale|Maximum_scale|
+|-|-|-|-|-|
 |Binary|DBType_Bytes|32765|||
 |Smallint|DBType_12|5|||
 |Integer|DBType_14|10|||
@@ -159,9 +155,8 @@ manager: "anneta"
 #### DB2 for LUW V9.7
  The Data Provider supports accessing these data types when connected to DB2 for LUW (based on V9.7).
 
-||||||
-|-|-|-|-|-|
 |DB2 Type_name|OLE DB data_type|Column_size|Minimum_scale|Maximum_scale|
+|-|-|-|-|-|
 |Binary|DBType_Bytes|254|||
 |Smallint|DBType_12|5|||
 |Integer|DBType_14|10|||

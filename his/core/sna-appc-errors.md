@@ -17,9 +17,8 @@ manager: "anneta"
 # SNA APPC Errors
 The following table lists SNA network error constants, values, SqlState, SqlCode and a description of the error. An asterisk (*) indicates not in use.  
   
-|||||  
+|Value|SqlState|SqlCode|Description|  
 |-|-|-|-|  
-|**Value**|**SqlState**|**SqlCode**|**Description**|  
 |-512|08S01|-512|**Message**: Parameter check (APPC).|  
 |-513|08S01|-513|**Message**: Host does not recognize the transaction program specified.<br /><br /> **Reason**: The client failed to connect to the server using an SNA APPC network connection with an invalid user-specified value for APPC Transaction Program Name.<br /><br /> **Action**: Verify connection information to ensure the APPC Transaction Program Name value matches the server. For more information, see APPC Transaction Program Name.|  
 |-514|08S01|-514|**Message**: Invalid conversation ID.|  

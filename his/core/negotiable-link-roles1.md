@@ -19,11 +19,9 @@ The following figure shows the sequence of messages for a peer connection where 
   
  ![](../core/media/dev3e.gif "dev3e")  
 Sequence of messages for a peer connection where both ends are configured as negotiable  
-  
-|||  
-|-|-|  
-|local node identifier|= 0x05D11111|  
-|remote node identifier|= 0x05D22222|  
+
+- local node identifier = 0x05D11111  
+- remote node identifier = 0x05D22222
   
  The following summaries the rules that the SNALink must follow when supporting exchange identification (XID) exchange, and in particular XID role negotiation:  
   
@@ -49,7 +47,7 @@ Sequence of messages for a peer connection where both ends are configured as neg
   
   The following table is a matrix of the possible combinations of station link roles and shows the eventual role of the local station.  
   
-|                              | Local Station  |
+|           &nbsp;             | Local Station  |
 |------------------------------|----------------|
 | **Remote** <br />**Station** |                |
 |                              |  **Primary**   |

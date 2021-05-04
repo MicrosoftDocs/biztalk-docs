@@ -343,9 +343,8 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
 ### Package Default Character Subtype  
  The **packageCharacterSubtype** attribute informs the DRDA Server which character subtype to use when executing a SQL CREATE or ALTER table statement. This optional attribute accepts a string value. The default value is Default.  
   
-|||  
-|-|-|  
 |Value|Description|  
+|-|-|  
 |Bit|CHAR FOR BIT DATA|  
 |Default|System default|  
 |MBCS|Mixed-Byte Character Set|  
@@ -360,9 +359,8 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
 ### Package Authorization Rules  
  The **packageExecuteAuthorization** attribute informs the DRDA Server which authorization identifier to use when executing dynamic SQL statements. This optional element attribute a string value. The default value is **Requester**.  
   
-|||  
-|-|-|  
 |Value|Description|  
+|-|-|  
 |Requester|Instructs the DRDA Server to use the DRDA requester authorization|  
 |Owner|Instructs the DRDA Server to use the package owner authorization|  
 |InvokerRevertToRequester|Instructs the DRDA Server to use the authorization of the invoker of a function or stored procedure, otherwise use the DRDA requester authorization|  
@@ -387,9 +385,8 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
 ### Package Isolation Level  
  The **packageIsolationLevel** attribute instructs the DRDA Server to bind the package with the requested DRDA PKGISOLVL (Package Isolation Level). This required attribute accepts a string value. The default value is **ReadCommitted**.  
   
-|||  
-|-|-|  
 |Value|Description|  
+|-|-|  
 |ReadCommitted|ANSI READ COMMITTED<br /><br /> DRDA ISOLVLCS (Isolation Level Cursor Stability)<br /><br /> IBM DB2 CURSOR STABILITY (CS)<br /><br /> IBM DB2 for i5/OS COMMIT(*CS)<br /><br /> Microsoft .NET Framework ReadCommitted|  
 |Serializable|ANSI SERIALIZABLE<br /><br /> DRDA ISOLVLRR (Isolation Level Repeatable Read)<br /><br /> IBM DB2 REPEATABLE READ (RR)<br /><br /> IBM DB2 for i5/OS COMMIT(*RR)<br /><br /> Microsoft .NET Framework Serializable|  
 |RepeatableRead|ANSI REPEATABLE READ<br /><br /> DRDA ISOLVLALL (Isolation Level All)<br /><br /> IBM DB2 READ STABILITY (RS)<br /><br /> IBM DB2 for i5/OS COMMIT(*RS)<br /><br /> Microsoft .NET Framework RepeatableRead|  
@@ -402,9 +399,8 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
 ### Statement Date Format  
  The **statementDateFormat** element informs the DRDA Server which statement date format to use in SQL statements. This optional element accepts a string value. The default value is **Default**.  
   
-||||  
-|-|-|-|  
 |Value|Format|Description|  
+|-|-|-|  
 |Iso|yyyy-mm-dd|ISO date format|  
 |Usa|mm/dd/yyyy|USA date format|  
 |Eur|dd.mm.yyyy|EUR date format|  
@@ -435,9 +431,8 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
 ### Statement Decimal Delimiter  
  The **statementDecimalDelimiter** attribute informs the DRDA Server which statement decimal delimiter to use in SQL statements. This optional attribute accepts a string value. The default value is System.  
   
-|||  
-|-|-|  
 |Value|Description|  
+|-|-|  
 |Period|Indicates a period|  
 |Comma|Indicates a comma|  
 |Package|Indicates package default, when rebinding package|  
@@ -455,9 +450,8 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
 ### Keep Prepared Statement  
  The **keepPreparedStatement** attribute instructs the DRDA Server to keep prepared dynamic SQL statements until released. This optional attribute accepts a string value. The default value is **None**.  
   
-|||  
-|-|-|  
 |Value|Description|  
+|-|-|  
 |None|Indicates statements are released during commit and rollback|  
 |Commit|Indicates statements are kept during commit, but released during rollback|  
 |Rollback|Indicates statements are released during commit, but kept during rollback|  
@@ -466,9 +460,8 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
 ### Query Block Protocol Control  
  The **statementQueryProtocol** attribute instructs the DRDA Server what type of query block protocol to use when returning results on a query. This optional attribute accepts a string value. The default value is **FixedRow**.  
   
-|||  
-|-|-|  
 |Value|Description|  
+|-|-|  
 |FixedRow|Indicates fixed row query protocol|  
 |LimitedBlock|Indicates limited block query protocol|  
 |ForceFixedRow|Indicates force fixed row query protocol|  
@@ -476,9 +469,8 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
 ### Statement String Delimiter  
  The **statementStringDelimiter** attribute informs the DRDA Server which statement string delimiter to use in SQL statements. This optional attribute accepts a string value. The default value is System.  
   
-|||  
-|-|-|  
 |Value|Description|  
+|-|-|  
 |Apostrophe|Indicates an apostrophe|  
 |DoubleQuote|Indicates a double quote|  
 |Package|Indicates package default, when rebinding package|  
@@ -487,9 +479,8 @@ Microsoft HIS 2013(V9) supports both the old and new format, which includes an a
 ### Statement Time Format  
  The **statementTimeFormat** attribute informs the DRDA Server which statement time format to use in SQL statements. This optional attribute accepts a string value. The default value is **Iso**.  
   
-||||  
-|-|-|-|  
 |Value|Format|Description|  
+|-|-|-|  
 |Iso|hh.mm.ss|ISO time format|  
 |Usa|hh:mm:ss AM|USA time format AM &#124; PM|  
 |Eur|hh.mm.ss|EUR time format|  
@@ -642,9 +633,8 @@ RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN
 ### Data Types  
  The following table lists data types and lengths for use in defining parameter and columns in the static SQL for DB2 XML file format V85.  
   
-||||  
-|-|-|-|  
 |Type|Length|Description|  
+|-|-|-|  
 |bigint|8|A 64-bit signed integer.|  
 |char||A character string.|  
 |charForBit||A binary string.|  
@@ -665,9 +655,8 @@ RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN
 ### Coded Character Set Identifiers  
  The following table lists data types and lengths for use in defining options, parameter and columns in the static SQL for DB2 XML file format V85.  
   
-||||||  
-|-|-|-|-|-|  
 |Type|Group|CCSID|NLS|Description|  
+|-|-|-|-|-|  
 |SBCS|ANSI|1250|1250|Central Europe|  
 |SBCS|ANSI|1251|1251|Cyrillic|  
 |SBCS|ANSI|1252|1252|Latin I|  

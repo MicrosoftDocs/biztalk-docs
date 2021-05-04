@@ -55,7 +55,7 @@ Function management (FM) Profile 19 is supported on primary logical unit-seconda
   
 - The following combinations of RQE, RQD, CEB, and CD are allowed on end-chain Russ  
   
-  ||||  
+  |&nbsp;|&nbsp;|&nbsp;|  
   |-|-|-|  
   |RQE|CD|CEB|  
   |RQD2|CD|CEB|  

@@ -57,9 +57,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  The following table describes security level settings.
 
-|||
+|Security Level|Description|
 |-|-|
-|**Security Level**|**Description**|
 |Program|Data Provider sends both a username and a password.|
 |Same|Data Provider sends a username only.|
 |None|Data Provider sends no security information (username or password).|
@@ -80,9 +79,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  You can select one of the following authentication options for the **Security method** property.
 
-|||
+|Security Method|Description|
 |-|-|
-|**Security Method**|**Description**|
 |Interactive sign-on security|Relies on a username and password stored in a configuration file or data consumer configuration store.|
 |Single sign-on|Uses a username and password stored in an encrypted enterprise single sign-on database. Single sign-on allows the Data Provider to obtain the username and password from an encrypted Enterprise Single Sign-On database.|
 |Kerberos|Relies on a ticket that contains encrypted credentials.|
@@ -93,9 +91,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  The following table describes the DB2 database version and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|An 8-byte string.|
 |DB2 for i5/OS|A 10-byte string.|
 |DB2 for Linux or UNIX|An 8-byte string.|
@@ -105,9 +102,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  The following table describes the DB2 database version and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|An 8-byte string.|
 |DB2 for i5/OS|A 128-byte string.|
 |DB2 for Linux or UNIX|An 8-byte string.|
@@ -134,9 +130,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  The following table describes the DB2 database version and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|A 16-byte string (catalog is also known as a location).|
 |DB2 for i5/OS|An 18-byte string (catalog is also known as a relational database).|
 |DB2 for LUW|An 8-byte string (catalog is also known as a database).|
@@ -147,26 +142,23 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  The following table describes the DB2 database version and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
 |DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A 30-byte string.|
 
  The Data Provider creates packages using one of the following options.
 
-|||
+|Option|Description|
 |-|-|
-|**Option**|**Description**|
 |Automatic|For single-user environment. At runtime, the Data Provider creates and binds a single package for the current isolation level (the default is cursor stability). The Data Provider grants execute privileges to the current user.|
 |Manual|For multi-user environment. At design time when you use the Data Access Tool menu option, the Data Source Wizard, or Data Links, the Data Provider creates and binds 4-5 packages for DB2 for i5/OS using MSNC001. The Data Provider then grants execute permissions to the PUBLIC group.|
 
  The Data Provider creates 1 to 5 packages, depending on the database server platform and environment. The following table describes the packages and isolation levels.
 
-||||
+|Microsoft Package Name|DB2 Isolation Level Name|OLE DB Isolation Level Name|
 |-|-|-|
-|**Microsoft Package Name**|**DB2 Isolation Level Name**|**OLE DB Isolation Level Name**|
 |MSNC001|NO COMMIT|N/A (no corresponding transaction)|
 |MSUR001|UNCOMMITTED READ|ISOLATIONLEVEL_READUNCOMMITTED|
 |MSCS001|CURSOR STABILITY|ISOLATIONLEVEL_READCOMMITTED|
@@ -181,9 +173,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  The following table describes the DB2 database version and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
 |DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A-30 byte string.|
@@ -219,9 +210,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  The following table describes the DB2 database version and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
 |DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A 30-byte string.|
@@ -275,9 +265,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
   The following table describes the default values for Server using interactive sign-on, security relying on a username and password with no encryption.
 
-|||
+|Option|Description|
 |-|-|
-|**Option**|**Description**|
 |Server_Encrypt_Pwd|Instructs the Data Provider to encrypt the password only.|
 |Server_Encrypt_UsrPwd|Instructs the Data Provider to encrypt both the username and password.|
 |Data_Encrypt|Instructs the Data Provider to encrypt the username, password, and user data.|
@@ -361,9 +350,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  The following table describes the DB2 database version and accepted string types.  
   
-|||  
+|DB2 Database|String Type|  
 |-|-|  
-|**DB2 Database**|**String Type**|  
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|  
 |DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|  
 |DB2 for LUW|A 30-byte string.|  
@@ -376,9 +364,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  The following table describes the DB2 database version and accepted string types.  
   
-|||  
+|DB2 Database|String Type|  
 |-|-|  
-|**DB2 Database**|**String Type**|  
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|  
 |DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library)|  
 |DB2 for LUW|A 30-byte string.|  
@@ -408,9 +395,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
   The Data Provider requires this value to connect to an initial catalog on the DB2 database server. The following table describes the DB2 database version and accepted string types.  
   
-|||  
+|DB2 Database|String Type|  
 |-|-|  
-|**DB2 Database**|**String Type**|  
 |DB2 for z/OS|A 16-byte string (catalog is also known as a location).|  
 |DB2 for i5/OS|An 18-byte string (catalog is also known as a relational database).|  
 |DB2 for LUW|An 8-byte string (catalog is also known as a database).|  
@@ -449,9 +435,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
   Optionally, you can specify a string value to instruct the Data Provider to use PCM (Password Change Management) to replace an existing password with a new password. The following table describes the DB2 database version and accepted string types.  
   
-|||  
+|DB2 Database|String Type|  
 |-|-|  
-|**DB2 Database**|**String Type**|  
 |DB2 for z/OS|An 8-byte string.|  
 |DB2 for i5/OS|A 128-byte string.|  
 |DB2 for Linux or UNIX|An 8-byte string.|  
@@ -463,9 +448,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  The following table describes the DB2 database version and accepted string types.  
   
-|||  
+|DB2 Database|String Type|  
 |-|-|  
-|**DB2 Database**|**String Type**|  
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|  
 |DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library)|  
 |DB2 for Linux or UNIX|A 30-byte string.|  
@@ -476,9 +460,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  The following table describes the DB2 database version and accepted string types.  
   
-|||  
+|DB2 Database|String Type|  
 |-|-|  
-|**DB2 Database**|**String Type**|  
 |DB2 for z/OS|An 8-byte string.|  
 |DB2 for i5/OS|A 128-byte string.|  
 |DB2 for Linux or UNIX|An 8-byte string.|  
@@ -516,9 +499,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
   
  The following table describes the DB2 database version and accepted string types.  
   
-|||  
+|DB2 Database|String Type|  
 |-|-|  
-|**DB2 Database**|**String Type**|  
 |DB2 for z/OS|An 8-byte string.|  
 |DB2 for i5/OS|A 10-byte string.|  
 |DB2 for Linux or UNIX|An 8-byte string.|  

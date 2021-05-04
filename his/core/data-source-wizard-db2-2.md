@@ -117,9 +117,8 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  The Data Provider requires this value to connect to an initial catalog on the DB2 database server. The following table describes the DB2 versions and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|A 16-byte string (catalog is also known as a location).|
 |DB2 for i5/OS|An 18-byte string (catalog is also known as a relational database).|
 |DB2 for LUW|An 8-byte string (catalog is also known as a database).|
@@ -128,9 +127,8 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  The package collection is required to instruct the Data Provider into which DB2 schema to create a set of packages. Each package is divided into sections with static SQL statements, such as **CREATE CURSOR**, used to retrieve data when querying the database. The following table describes the DB2 versions and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
 |DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A 30-byte string.|
@@ -141,9 +139,8 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  DB2 database objects are organized into logical groups called schemas. The schema name is used to catalog SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. At design time, to construct SQL such as SELECT statements, Data consumers can present to the user a list of all objects in the database catalog. The following table describes the DB2 versions and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
 |DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A 30-byte string.|
@@ -154,9 +151,8 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  DB2 database objects are organized into logical groups called schemas. The schema name is used to identify SQL objects such as tables and views, using a two-part naming convention \<SCHEMA>.\<OBJECTNAME>. Data consumers may issue SQL statements with one-part or unqualified object names. The following table describes the DB2 versions and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|A 128-byte string (schema is also known as a collection).|
 |DB2 for i5/OS|A 10-byte string (schema is also known as a collection or library).|
 |DB2 for LUW|A 30-byte string.|
@@ -191,9 +187,8 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  The following table describes the DB2 database version and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|An 8-byte string.|
 |DB2 for i5/OS|A 10-byte string.|
 |DB2 for Linux or UNIX|An 8-byte string.|
@@ -203,9 +198,8 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  The following table describes the DB2 database version and accepted string types.
 
-|||
+|DB2 Database|String Type|
 |-|-|
-|**DB2 Database**|**String Type**|
 |DB2 for z/OS|An 8-byte string.|
 |DB2 for i5/OS|A 128-byte string.|
 |DB2 for Linux or UNIX|An 8-byte string.|
@@ -221,9 +215,8 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  The following table describes authentication options.
 
-|||
+|Option|Description|
 |-|-|
-|**Option**|**Description**|
 |Server_Encrypt_Pwd|Instructs the Data Provider to encrypt the password only.|
 |Server_Encrypt_UsrPwd|Instructs the Data Provider to encrypt both the user name and password.|
 |Data_Encrypt|Instructs the Data Provider to encrypt the user name, password, and user data.|

@@ -17,9 +17,8 @@ manager: "anneta"
 # Record-Level Input/Output (RLIO) Protocol Errors
 The following table lists RLIO protocol error constants, values, SqlState, SqlCode and a description of the error. An asterisk (*) indicates not in use.  
   
-|||  
+|DDM Reply Message|Description|  
 |-|-|  
-|**DDM Reply Message**|**Description**|  
 |ACCATHRM|**Message** : User does not have the authority to access the host resource.<br /><br /> **Reason** : The access authority reply message indicates that the server cannot process a command, when the client is not authorized to use the specified access method (e.g. relative, random, and combined) with the credentials presented at connection.<br /><br /> **Action** : Verify connection information to ensure the User Name (User Identifier), Password and Security Method specified (Interactive sign-on security or Single sign-on) match the server requirements defined for the current user, and then re-attempt the connection and command request. Review a client network trace to determine if the server returned an optional severity code or diagnostic information. For more information, see User Name, Password and Security Method.|  
 |ACCINTRM|**Message** : Invalid access intent.<br /><br /> **Reason** : The access intent reply message indicates that the server cannot process a command, when the file does not support the access intent (e.g. delete capable).<br /><br /> **Action** : Verify the command parameters, and then re-attempt the command request. Review a client network trace to determine if the server returned an optional severity code or diagnostic information.|  
 |ACCMTHRM|**Message** : Base file name is either incorrect or not found.<br /><br /> **Reason** : The access method reply message indicates that the server cannot process a command, when the server does not support the access method.<br /><br /> **Action** : Verify the command parameters, and then re-attempt the command request. Review a client network trace to determine if the server returned an optional severity code or diagnostic information.|  
