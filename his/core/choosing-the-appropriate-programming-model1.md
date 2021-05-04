@@ -39,7 +39,7 @@ A TI programming model determines the method used to access and integrate host a
   
   The following table summarizes the similarities and differences among the programming models.  
   
-|Programming Model|Network Protocol|Maximum Message or Data Size|Supports Two-phase Commit?|Write Own Communi-cations Protocol?|Supports Persistent Connect-ions?|Other Requirements|  
+|Programming Model|Network Protocol|Maximum Message or Data Size|Supports Two-phase Commit?|Write Own Communications Protocol?|Supports Persistent Connect-ions?|Other Requirements|  
 |-----------------------|----------------------|----------------------------------|---------------------------------|------------------------------------------|----------------------------------------|------------------------|  
 |[TCP Transaction Request Message Link](../core/tcp-transaction-request-message-link2.md)|TCP/IP|32 KB|No|No (see sample code)|Yes|-   See mscmtics.cbl sample application.<br />-   1:many relationship between server application and port.|  
 |[TCP Enhanced Listener Message Link](../core/tcp-enhanced-listener-message-link1.md)|TCP/IP|32 KB|No|No (see sample code)|Yes|-   See mscmtics.cbl sample application.<br />-   1:1 relationship between server application and port.|  

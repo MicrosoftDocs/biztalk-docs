@@ -26,7 +26,7 @@ When compiling the SNALink DLL, the following compiler options are required:
   
  The following compiler flags are required, but any of the valid options for each flag may be used, as appropriate to your application:  
   
-|||  
+|Flag|Name|  
 |-|-|  
 |/O|Optimization|  
 |/W|Warning level|

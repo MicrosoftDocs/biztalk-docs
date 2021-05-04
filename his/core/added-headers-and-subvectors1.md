@@ -17,16 +17,16 @@ manager: "anneta"
 # Added Headers and Subvectors
 The following table lists Added Headers and Subvectors.  
   
-|NMVT header||  
+|NMVT header|&nbsp;|  
 |-----------------|------|  
 |41 03 8D 00 00 00 00 00|NMVT Header|  
   
-|Major vector header||  
+|Major vector header|&nbsp;|  
 |-------------------------|------|  
 |LL LL|Length of Major Vector|  
 |00 00 or 00 25|Alert major vector (for the data type ALERT_SUBVECTORS), or Problem Determination Statistics major vector (for the data type PSTATS_SUBVECTORS)|  
   
-|              Product set ID subvector              |                                                                                                        |
+|              Product set ID subvector              |    &nbsp;     |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 |                       4D 10                        |                                        Product set ID subvector                                        |
 |                         00                         |                                              Unused field                                              |
@@ -47,7 +47,7 @@ The following table lists Added Headers and Subvectors.
 |                         00                         |                                         Format type: undefined                                         |
 |                    *hh*...*hh*                     |                                  Server: Windows-based computer name                                   |
   
-|Date/time subvector||  
+|Date/time subvector|&nbsp;|  
 |--------------------------|------|  
 |0A 01|Date/Time Subvector|  
 |08 10|Local Date/Time subfield|  

@@ -27,9 +27,8 @@ The Active Directory schema contains formal definitions of every object class th
 ##  <a name="bkmk_ADClasses"></a> Active Directory Classes  
  The following table describes the Active Directory classes.  
   
-|||  
+|Class Name|Description|  
 |-|-|  
-|**Class Name**|**Description**|  
 |MS-HostIntegrationServer-Global-Params|Container class for the SNA Sub-domain name.|  
 |MS-HostIntegrationServer-WMI-Provider|Container class for instances of Host Integration Server WMI providers that can be used for resource location.|  
 |MS-HostIntegrationServer-MQBridgeConfiguration|Deprecated|  
@@ -38,9 +37,8 @@ The Active Directory schema contains formal definitions of every object class th
 ##  <a name="bkmk_ADAttributes"></a> Active Directory Attributes  
  The following table describes Active Directory attributes.  
   
-|||  
+|Attribute Name|Description|  
 |-|-|  
-|**Attribute Name**|**Description**|  
 |MS-HostIntegrationServer-Config-Path|Indicates the location of the shared configuration for an instance of the MS-HostIntegrationServer-Service class.|  
 |MS-HostIntegrationServer-Server-Role|Indicates whether an instance of the MS-HostIntegrationServer-Service class has primary responsibility for the configuration or is a backup.|  
 |MS-HostIntegrationServer-Service-State|Indicates the state of the Window service represented by an instance of the MS-HostIntegrationServer-Service class.|  

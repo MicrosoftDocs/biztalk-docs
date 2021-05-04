@@ -20,7 +20,7 @@ Information for diagnosing and resolving WCF run-time events.
   
 ## WCF service host restarted
   
-|                 |                                   Error details                                    |
+|     Field       |                                    Error Details                                   |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
