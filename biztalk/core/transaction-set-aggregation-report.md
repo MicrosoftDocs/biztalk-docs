@@ -43,9 +43,8 @@ This report provides a single record that shows the number of EDI transaction se
 ## Fields in the Query Expression for the Status Report  
  You can customize the Interchange Aggregation Report by changing the fields in the query expression that determines the data displayed. The following fields are available:  
   
-|||||  
-|-|-|-|-|  
 |Query Expression Field|Potential Operators|Potential Values|Included By Default?|  
+|-|-|-|-|  
 |Search for|Equals|Transaction Set Aggregation Report|Yes (required)|  
 |Interchange Date Time|Less Than or Equals<br /><br /> Greater Than or Equals|Specific Date Time<br /><br /> Today<br /><br /> Today - 1|Yes<br /><br /> Note: Can be included twice in the query expression, once with a less-than operator and once with  a greater-than operator, to provide a range|  
 |Maximum Matches|Equals|Integer (default of 50)|Yes|  

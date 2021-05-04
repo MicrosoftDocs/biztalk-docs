@@ -18,7 +18,7 @@ manager: "anneta"
 # The group receiver settings are not configured for agreement of batch
 ## Details  
   
-|                 |                                                                                                                                     |
+| Field | Error Details |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                          |
 | Product Version |                                     [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                      |
