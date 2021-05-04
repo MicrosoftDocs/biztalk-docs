@@ -18,7 +18,7 @@ manager: "anneta"
 # The interchange had a structural error in-before the first functional group
 ## Details  
   
-|                 |                                                                                                                                  |
+| Field | Error Details |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                        [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                        |
 | Product Version |                                    [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                    |

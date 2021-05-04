@@ -18,7 +18,7 @@ manager: "anneta"
 # BizTalk Business Activity Monitoring has not been configured for EDI-AS2 status reporting
 ## Details  
   
-|                 |                                                                                                                                             |
+|     Field       |                                           Error Details                                                                                     |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                              |
 | Product Version |                                         [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                          |

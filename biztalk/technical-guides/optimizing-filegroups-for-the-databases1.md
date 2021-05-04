@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Optimizing Filegroups for the Databases"
+description: "Learn more about: Optimizing Database Filegroups"
 title: "Optimize Database Filegroups | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -50,9 +50,8 @@ File input/output (I/O) contention is frequently a limiting factor, or bottlenec
 
 ### BizTalk Server Databases
 
-||||
+|Database|Default Database Name|Description|
 |-|-|-|
-|**Database**|**Default Database Name**|**Description**|
 |Configuration database|BizTalkMgmtDb|The central meta-information store for all instances of BizTalk Server in the BizTalk Server group.|
 |BizTalk MessageBox database|BizTalkMsgBoxDb|Stores subscriptions predicates. It is a host platform, and keeps queues and state tables for each BizTalk Server host. The MessageBox database also stores the messages and message properties.|
 |BizTalk Tracking database|BizTalkDTADb|Stores business and health monitoring data tracked by the BizTalk Server tracking engine.|

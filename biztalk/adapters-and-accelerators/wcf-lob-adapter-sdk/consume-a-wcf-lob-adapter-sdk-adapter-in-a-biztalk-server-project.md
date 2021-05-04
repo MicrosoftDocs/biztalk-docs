@@ -42,12 +42,12 @@ This topic describes how to consume an adapter built using the [!INCLUDE[afprodu
 8. Click **OK** to generate the proxy artifacts. The number of artifacts varies based on the contract type:  
 
 
-   | Contract Type |  Artifact   |                         Description                         |                                                             |
-   |---------------|-------------|-------------------------------------------------------------|-------------------------------------------------------------|
-   |   Outbound    | XML Schemas | Contains the schemas for the selected types and operations. |                                                             |
-   |   Outbound    |             |        WCF-Custom send port binding information XML         |  Contains configuration XML for the WCF-Custom send port.   |
-   |    Inbound    | XML Schemas | Contains the schemas for the selected types and operations. |                                                             |
-   |    Inbound    |             |       WCF-Custom receive port binding information XML       | Contains configuration XML for the WCF-Custom receive port. |
+   | Contract Type |  Artifact   | Description |
+   |---------------|-------------|-------------|
+   |   Outbound    | XML Schemas | Contains the schemas for the selected types and operations. |             
+   |   Outbound    | WCF-Custom send port binding information XML |  Contains configuration XML for the WCF-Custom send port.   |
+   |    Inbound    | XML Schemas | Contains the schemas for the selected types and operations. |           
+   |    Inbound    | WCF-Custom receive port binding information XML | Contains configuration XML for the WCF-Custom receive port. |
 
 
 9. You can now use the XML Schema files in your [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] application.  

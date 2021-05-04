@@ -18,7 +18,7 @@ manager: "anneta"
 # An End Element could not be found at depth
 ## Details  
   
-|                 |                                                                                        |
+|    Field             |       Error Details                                                                                 |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

@@ -31,9 +31,8 @@ As with other link services, configuration requires setting parameters on the **
   
    The **General** page includes specified key configuration options that are required so that the IP-DLC link service is able to communicate with the NNS and the APPN network.  
   
-|||  
+|Property|Comments|  
 |-|-|  
-|**Property**|**Comments**|  
 |Service name|Displays the name of the link service being configured. For a new link service, the name is predefined as SNAIP#, where # is the ordinal number of the link service.|  
 |Service title|Enter a user-friendly text description of up to 128 characters. This name appears in the Service Control Manager. The default value is IP-DLC Link Service #N, where N is the ordinal number of the link service.|  
 |Primary NNS|Enter the IP address, host name, or fully qualified name of the primary network node server. There is no default value.|  

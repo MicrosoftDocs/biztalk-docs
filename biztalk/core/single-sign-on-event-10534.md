@@ -18,7 +18,7 @@ manager: "anneta"
 # Single Sign-On: Event 10534
 ## Details  
 
-|||  
+| Field | Error Details |
 |-|-|  
 |Product Name|Enterprise Single Sign-On|  
 |Product Version|6.0|  

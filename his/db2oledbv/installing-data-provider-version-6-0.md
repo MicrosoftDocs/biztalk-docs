@@ -109,7 +109,7 @@ This topic provides instructions to install the Data Provider Version 6.0.
  
 ### Previous Version Platform Support Matrix
 
-||**DB2OLEDB 6.0**|**DB2OLEDB 5.0**|**DB2OLEDB 4.0**|  
+|Version|DB2OLEDB 6.0|DB2OLEDB 5.0|DB2OLEDB 4.0|  
 |-|-|-|-|
 |SQL Server 2019|Yes|No|No|
 |SQL Server 2017|Yes|No|No|

@@ -18,7 +18,7 @@ manager: "anneta"
 # Unable to export client endpoint configuration
 ## Details  
   
-|                 |                                                                                    |
+|      Field      |                                  Error Details                                     |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |

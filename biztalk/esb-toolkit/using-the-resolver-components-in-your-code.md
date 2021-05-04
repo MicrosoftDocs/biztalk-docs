@@ -42,7 +42,7 @@ transformType = resolverDictionary.Item("Resolver.TransformType");
   
  **Properties**:  
   
-||||  
+|&nbsp;|&nbsp;|&nbsp;|  
 |-|-|-|  
 |**Resolver.Action**|**Resolver.ActionField**|**Resolver.DocumentSpecName**|  
 |**Resolver.Success**|**Resolver.EndpointConfig**|**Resolver.DocumentSpecStrongName**|  

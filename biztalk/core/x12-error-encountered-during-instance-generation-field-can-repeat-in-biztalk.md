@@ -18,7 +18,7 @@ manager: "anneta"
 # Error encountered during instance generation--field can repeat but repetition delimiter has not been defined
 ## Details  
   
-|                 |                                                                                                                       |
+|     Field       |                                    Error Details                                   |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                   |
 | Product Version |                              [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                               |

@@ -163,10 +163,32 @@ The MQSCorrelationSetOrchestrationWithSolicitResponse sample demonstrates how to
 ## Modifying the Orchestration Used by the Application  
  This procedure modifies the orchestration used by the application.  
   
-||  
-|-|  
-|To modify the Orchestration used by the application|  
-|- In Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], double-click the solution file, **MQSCorrelationSolicitResponse.sln**, to open the solution.<br /><br /> - From the Solution Explorer pane, double-click the orchestration **MQSCorrelationSolicitResponse.odx** to view the orchestration.<br /><br /> - Double-click the message assignment shape **MessageAssignment_1** to launch the BizTalk Expression Editor.<br /><br /> - Enter the appropriate MQSeries queue manager name for the following expression:<br /><br /> `MQSeriesRequestSendMessage(MQSeries.MQMD_ReplyToQMgr) = "QM_<machine_name>";`<br /><br /> - If you would like for the response message sent from BizTalk to contain the entire contents of the original message instead of only the first 100 bytes, modify the following line in the BizTalk Expression Editor.<br /><br /> - Original line:<br /><br /> `MQSeriesRequestSendMessage(MQSeries.MQMD_Report) = 768;`<br /><br /> Change to:<br /><br /> `MQSeriesRequestSendMessage(MQSeries.MQMD_Report) = 1792;`<br /><br /> - In the BizTalk Expression Editor, click **OK** to save the modified expression.<br /><br /> - In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], select **File**, and then select **Save All**.|  
+  
+To modify the Orchestration used by the application: 
+
+1. In Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], double-click the solution file, **MQSCorrelationSolicitResponse.sln**, to open the solution.
+
+1. From the Solution Explorer pane, double-click the orchestration **MQSCorrelationSolicitResponse.odx** to view the orchestration.
+
+1. Double-click the message assignment shape **MessageAssignment_1** to launch the BizTalk Expression Editor. 
+
+1. Enter the appropriate MQSeries queue manager name for the following expression:
+
+   `MQSeriesRequestSendMessage(MQSeries.MQMD_ReplyToQMgr) = "QM_<machine_name>";`
+
+1. If you would like for the response message sent from BizTalk to contain the entire contents of the original message instead of only the first 100 bytes, modify the following line in the BizTalk Expression Editor.
+
+   - Original line:
+   
+     `MQSeriesRequestSendMessage(MQSeries.MQMD_Report) = 768;`
+   
+   - Change to:
+   
+     `MQSeriesRequestSendMessage(MQSeries.MQMD_Report) = 1792;`
+
+1. In the BizTalk Expression Editor, click **OK** to save the modified expression.
+
+1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], select **File**, and then select **Save All**.  
   
 ## Building and Deploying the Sample  
  This procedure builds and deploys the solution that contains the orchestration used in this application.  

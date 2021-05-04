@@ -34,7 +34,7 @@ In the previous step, you created and deployed a [!INCLUDE[btsBizTalkServerNoVer
   
 3. In the Receive Location Properties dialog box, specify the following values:  
   
-   |||  
+   | Parameter | Value |  
    |-|-|  
    |Name|Enter `ReceiveOppNotification`.|  
    |Type|Select **WCF-BasicHttpRelay**|  
@@ -64,7 +64,7 @@ In the previous step, you created and deployed a [!INCLUDE[btsBizTalkServerNoVer
   
 2. In the Send Port Properties dialog box, specify the following values:  
   
-   |||  
+   | Parameter | Value |  
    |-|-|  
    |Name|Enter `SalesforceREST`.|  
    |Type|Select **WCF-WebHttp**|  
@@ -114,7 +114,7 @@ In the previous step, you created and deployed a [!INCLUDE[btsBizTalkServerNoVer
   
       -   Select the newly added behavior and then specify the following values:  
   
-          |||  
+          | Parameter | Value |  
           |-|-|  
           |consumerKey (Required)|Specify the consumer key for your Salesforce account. You can retrieve the consumer key by going to the Salesforce connected application you created in [Step 2: Set up the Salesforce System](../core/step-2-set-up-the-salesforce-system.md).|  
           |consumerSecret (Required)|Retrieve the consumer secret from the Salesforce connected application you created in [Step 2: Set up the Salesforce System](../core/step-2-set-up-the-salesforce-system.md).|  
@@ -134,7 +134,7 @@ In the previous step, you created and deployed a [!INCLUDE[btsBizTalkServerNoVer
   
 2.  In the Send Port Properties dialog box, specify the following values:  
   
-    |||  
+    | Parameter | Value |  
     |-|-|  
     |Name|Enter `SendToSQL`.|  
     |Type|Select **WCF-SQL**|  

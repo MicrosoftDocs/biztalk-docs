@@ -65,9 +65,8 @@ where destination_dbms = 'DB2' and source_type = 'datetime2'
   
  The results should indicate the mapping_id to modify. The following table shows the results pane for this example where the mapping_id is 189.  
   
-|||||||  
-|-|-|-|-|-|-|  
 |mapping_id|source_dbms|source_type|destination_dbms|destination_type|destination_length|  
+|-|-|-|-|-|-|  
 |189|MSSQLSERVER|datetime2|DB2|VARCHAR|27|  
   
  **Step 2**. Drop the data type mapping.  
@@ -110,9 +109,8 @@ where destination_dbms = 'DB2' and source_type = 'datetime2'
   
  The results should display the new data type mapping. In this example, the mapping_id shown in the following table is 189.  
   
-|||||||  
-|-|-|-|-|-|-|  
 |mapping_id|source_dbms|source_type|destination_dbms|destination_type|destination_length|  
+|-|-|-|-|-|-|  
 |494|MSSQLSERVER|datetime2|DB2|TIMESTAMP|NULL|  
   
  **Step 5.** Identify the replication subscription article to re-configure. Use the Transact-SQL `USE` statement to switch from the master database to the database from which you are replicating.  
@@ -124,9 +122,8 @@ select name, status from sysarticles
   
  The results should display the name of the article to modify. In this example, the following table shows the results where the name is DB2TS01.  
   
-|||  
-|-|-|  
 |name|status|  
+|-|-|  
 |DB2TS01|25|  
   
  If the status value is 1 or 9, then the article is configured for string literal formatting.  

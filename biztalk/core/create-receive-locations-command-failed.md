@@ -18,7 +18,7 @@ manager: "anneta"
 # Create receive locations command failed
 ## Details  
   
-|                 |                                                                                    |
+|     Field       |                   Eror Details                                                     |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |

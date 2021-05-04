@@ -17,7 +17,7 @@ manager: "anneta"
 ---
 # Single Sign-On: Event 10855
 
-|                 |                                                                        |
+| Field | Error Details|
 |-----------------|------------------------------------------------------------------------|
 |  Product Name   |                       Enterprise Single Sign-On                        |
 | Product Version |       [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]       |

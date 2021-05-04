@@ -20,13 +20,17 @@ manager: "anneta"
 # Orchestration Variable Types
 You can declare variables of the following predefined types:  
 
-|||||  
-|-|-|-|-|  
-|boolean|byte|char|datetime|  
-|decimal|double|int16|int32|  
-|int64|long|sbyte|single|  
-|string|timespan|uint16|uint32|  
-|uint64||||  
+|Variables|&nbsp;| 
+|-|-|
+|boolean|byte|
+|char|datetime|  
+|decimal|double|
+|int16|int32|  
+|int64|long|
+|sbyte|single|  
+|string|timespan|
+|uint16|uint32|  
+|uint64||
 
  You can also declare variables of any .NET-based types that are referenced in your project.  
 

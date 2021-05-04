@@ -18,7 +18,7 @@ manager: "anneta"
 # Unable to create the entry in the AS2 EDIINT MIC table
 ## Details  
   
-|                 |                                                                                                                                                                               |
+|      Field      |                                  Error Details                                     |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                               |
 | Product Version |                                                          [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                           |

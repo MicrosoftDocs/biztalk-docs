@@ -18,7 +18,7 @@ manager: "anneta"
 # Transactional request-response receive location is not supported
 ## Details  
 
-|                 |                                                                                    |
+| Field | Error Details |
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |

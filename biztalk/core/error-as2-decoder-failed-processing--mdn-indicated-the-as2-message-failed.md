@@ -18,7 +18,7 @@ manager: "anneta"
 # The AS2 Decoder failed processing because the MDN indicated the AS2 message failed processing
 ## Details  
   
-|                 |                                                                                                                                                                                                                  |
+|    Field             |    Error Details                                                                                                                                                                                                              |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                                [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                                |
 | Product Version |                                                                            [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                            |

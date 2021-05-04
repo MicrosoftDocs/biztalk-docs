@@ -75,7 +75,7 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
 
     6.  Click **OK** until you are back on the Send Port Properties dialog box. From the left pane, click **Filters**, and specify the filter to consume all messages that are received through the receive port you created in [Step 1: Configure a FILE Receive Location](../core/step-1-configure-a-file-receive-location.md).
 
-        |||
+        | Parameter | Value |
         |-|-|
         |**Property**|Set to **BTS.ReceivePortName**|
         |**Operator**|Set to **==**|

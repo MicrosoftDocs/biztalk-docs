@@ -24,7 +24,7 @@ XLANG/s reserves various keywords, type names, and identifier names for its own 
   
 ## Reserved keywords  
   
-||||  
+|&nbsp;|&nbsp;|&nbsp;|  
 |-|-|-|  
 |activate|atomic|body|  
 |call|catch|checked|  

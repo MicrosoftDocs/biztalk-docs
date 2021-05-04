@@ -18,7 +18,7 @@ manager: "anneta"
 # Transaction set schema contains one or more of control segments ISA, IEA, GS, GE
 ## Details  
   
-|                 |                                                                                        |
+| Field | Error Details | 
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

@@ -17,9 +17,8 @@ manager: "anneta"
 # Distributed Relational Database Architecture (DRDA) Protocol Errors
 The following table lists DRDA protocol error constants, values, SqlState, SqlCode and a description of the error. An asterisk (*) indicates not in use.  
   
-|||||  
+|Value|SqlState|SqlCode|Description|  
 |-|-|-|-|  
-|**Value**|**SqlState**|**SqlCode**|**Description**|  
 |-259|08S01|-256|**Message**: Abnormal unit of work.<br /><br /> **Reason**: The abnormal unit of work reply message indicates that the server encountered an issue on the server, causing the server to end the unit of work abnormally.<br /><br /> **Action**: Determine whether a deadlock, operator intervention, or other issue caused the server to roll back the unit of work. Review a client network trace to determine if the server returned a SQL communications area reply data (SQLCARD) with an optional reason code or other optional diagnostic information.|  
 |-260|08S01|-260|**Message**: Access RDB command is processed.<br /><br /> **Reason**: The access relational database reply message indicates that the server could not complete a database connection request.<br /><br /> **Action**: Verify the connection parameters and re-attempt the connection request. Review a client network trace to determine if the server returned a SQL communications area reply data (SQLCARD) with an optional reason code or other optional diagnostic information.|  
 |-261|08S01|-261|**Message**: A permanent error condition has been detected on the target system. Contact your server administrator.<br /><br /> **Reason**: The permanent agent error reply message indicates that the server encountered an issue on the server, causing the server to not complete the requested command.<br /><br /> **Action**: Review a client network trace to determine if the server returned an optional reason code or other optional diagnostic information.|  

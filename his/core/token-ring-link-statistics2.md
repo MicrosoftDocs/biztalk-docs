@@ -19,22 +19,22 @@ Link statistics are generated when a link is closed or when one of the following
   
  The NMVT generated has the following format:  
   
-|NMVT header||  
+|NMVT header|Description|  
 |-----------------|------|  
 |41 03 8D 00 00 00 00 00|NMVT Header|  
   
-|Major vector header||  
+|Major vector header|Description|  
 |-------------------------|------|  
 |00 32|Length of major vector|  
 |00 25|Link Statistics major vector|  
   
-|Data link traffic counters subvector||  
+|Data link traffic counters subvector|Description|  
 |------------------------------------------|------|  
 |2E9A|Data Link Traffic Counters subvector|  
 |04|DLC type: Token Ring|  
 |01 or 02|Statistics type: link counter overflow or adapter counter overflow|  
   
-|Token ring adapter log information and counters||  
+|Token ring adapter log information and counters|Description|  
 |-----------------------------------------------------|------|  
 |*hh*|Adapter number (01+04)|  
 |00|Reserved|  
@@ -51,7 +51,7 @@ Link statistics are generated when a link is closed or when one of the following
 |*hh*|Token error|  
 |00 00 00|Reserved|  
   
-|DLC SAP station information||  
+|DLC SAP station information|Description|  
 |---------------------------------|------|  
 |*hh hh hh hh*|Count of frames transmitted OK|  
 |*hh hh hh hh*|Count of frames received OK|  
@@ -59,7 +59,7 @@ Link statistics are generated when a link is closed or when one of the following
 |*hh hh hh hh*|Lost data|  
 |*hh hh*|Buffer available in SAP|  
   
-|DLC link station information||  
+|DLC link station information|Description|  
 |----------------------------------|------|  
 |*hh hh*|Count of I-frames transmitted|  
 |*hh hh*|Count of I-frames received|  

@@ -18,7 +18,7 @@ manager: "anneta"
 # Configuration error. The message encryption doesn&#39;t match the expected value
 ## Details  
   
-|                 |                                                                                                                                                                                  |
+|    Field             |     Error Details                                                                                                                                                                             |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                |
 | Product Version |                                                            [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                            |

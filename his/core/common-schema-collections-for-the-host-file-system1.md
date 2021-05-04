@@ -45,7 +45,7 @@ The common schema collection is the schema collection that is implemented by the
  **DataSourceInformation**  
 
 
-|                                     |                        |                                                                                                                                                                                                                                                        |
+|   Name                                  |    Type                    |  Description                                                                                                                                                                                                                                                      |
 |-------------------------------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CompositeIdentifierSeparatorPattern |         string         |                                                 The regular expression to match the composite separators in a composite identifier. For example, “\\.” (for SQL Server) or “@&#124;\\.” (for Oracle).                                                  |
 |                                     |                        |                                                            A composite identifier is typically what is used for a database object name, for example: pubs.dbo.authors or pubs@dbo.authors.                                                             |

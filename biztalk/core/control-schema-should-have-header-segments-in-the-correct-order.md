@@ -18,7 +18,7 @@ manager: "anneta"
 # Control schema should have header segments in the correct order
 ## Details  
   
-|                 |                                                                                        |
+|    Field        |                          Error Details                                                 |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

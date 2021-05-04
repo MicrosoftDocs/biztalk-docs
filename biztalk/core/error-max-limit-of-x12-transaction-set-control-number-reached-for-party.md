@@ -18,7 +18,7 @@ manager: "anneta"
 # Max limit of acceptable X12 transaction set control number has reached for party
 ## Details  
   
-|                 |                                                                                                                                                                                             |
+| Field | Error Details |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                      |
 | Product Version |                                                                 [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                  |

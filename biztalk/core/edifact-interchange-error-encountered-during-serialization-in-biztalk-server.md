@@ -18,7 +18,7 @@ manager: "anneta"
 # Error encountered during serialization. The Edifact interchange had the following errors
 ## Details  
   
-|                 |                                                                                                                                                  |
+|       Field          |        Error Details                                                                                                                                          |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                |
 | Product Version |                                            [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                            |

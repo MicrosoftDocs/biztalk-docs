@@ -18,7 +18,7 @@ manager: "anneta"
 # The interchange had structural error. The part after the error is being suspended
 ## Details  
   
-|                 |                                                                                                                                                                                |
+|    Field             |    Error Details                                                                                                                                                                            |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                               |
 | Product Version |                                                           [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                           |

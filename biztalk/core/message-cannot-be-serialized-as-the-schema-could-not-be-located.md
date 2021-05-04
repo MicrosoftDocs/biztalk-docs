@@ -18,7 +18,7 @@ manager: "anneta"
 # Message cannot be serialized as the schema could not be located
 ## Details  
   
-|                 |                                                                                                                                          |
+| Field | Error Details |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                            [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                            |
 | Product Version |                                        [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                        |

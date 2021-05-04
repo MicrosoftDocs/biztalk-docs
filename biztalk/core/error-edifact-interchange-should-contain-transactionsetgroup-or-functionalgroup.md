@@ -18,7 +18,7 @@ manager: "anneta"
 # Edifact interchange should have contained TransactionSetGroup or FunctionalGroup Xml tags
 ## Details  
   
-|                 |                                                                                           |
+|    Field        |                          Error Details                                                    |
 |-----------------|-------------------------------------------------------------------------------------------|
 |  Product Name   |    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]     |
 | Product Version |                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                 |

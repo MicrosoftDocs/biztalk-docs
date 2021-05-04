@@ -18,7 +18,7 @@ manager: "anneta"
 # Invalid or missing ASN.1 Compressed Data OID encountered during decompression processing
 ## Details  
   
-|                 |                                                                                          |
+| Field | Error Details |
 |-----------------|------------------------------------------------------------------------------------------|
 |  Product Name   |    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]    |
 | Product Version |                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                |

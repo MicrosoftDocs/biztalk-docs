@@ -18,7 +18,7 @@ manager: "anneta"
 # The message cannot be routed to the batching orchestration as the Encoding type could not be determined
 ## Details  
   
-|                 |                                                                                                                                                                                             |
+| Field | Error Details |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                     [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                      |
 | Product Version |                                                                 [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                  |

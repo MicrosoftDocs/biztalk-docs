@@ -20,7 +20,7 @@ Information for diagnosing and resolving WCF Error Handling errors.
 
 ## Error handling options "Disable location on failure" and "Suspend request message on failure" should not both be set to false    
 
-|                 |                                                                                                Details                                                                                                 |
+| Field | Error Description |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                                           [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                           |
 | Product Version |                                                                       [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                                                       |

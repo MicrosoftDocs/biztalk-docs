@@ -26,9 +26,8 @@ You use the CertWizard utility to import a certificate from a .pfx or .cer file 
   
  The following table describes each part of the syntax that the CertWizard utility uses.  
   
-|||  
+|Syntax|Description| 
 |-|-|  
-|Syntax|Description|  
 |Privatekey|Used to import a private key.|  
 |Publickey|Used to import a public key.|  
 |Rootkey|Used to import a root key—from a certification authority.|  

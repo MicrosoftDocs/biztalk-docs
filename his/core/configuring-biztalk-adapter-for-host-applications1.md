@@ -100,7 +100,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
  **SNA User Data**  
 
 
-|                        |                         |
+|         Property       |          Value          |
 |------------------------|-------------------------|
 |      **Property**      |        **Value**        |
 |      **CodePage**      |           37            |
@@ -119,7 +119,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
  **SNA Link**  
 
 
-|                         |                     |
+|         Property        |        Value        |
 |-------------------------|---------------------|
 |      **Property**       |      **Value**      |
 | **AdministrationFlags** |          0          |
@@ -140,7 +140,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
  **HTTP User Data**  
 
 
-|                        |                          |
+|         Property       |          Value           |
 |------------------------|--------------------------|
 |      **Property**      |        **Value**         |
 | **AliasTransactionId** |                          |
@@ -161,7 +161,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
  **HTTP Link**  
 
 
-|                        |                      |
+|         Property       |       Value          |
 |------------------------|----------------------|
 |      **Property**      |      **Value**       |
 | **AliasTransactionId** |                      |
@@ -185,7 +185,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
  **IMS LU6.2**  
 
 
-|                      |                     |
+|      Property        |        Value        |
 |----------------------|---------------------|
 |     **Property**     |      **Value**      |
 |     **CodePage**     |         37          |
@@ -203,7 +203,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
  **IMS Connect**  
 
 
-|                      |                        |
+|         Property     |         Value          |
 |----------------------|------------------------|
 |     **Property**     |       **Value**        |
 |     **CodePage**     |           37           |
@@ -223,7 +223,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
  **TRM User Data/Link**  
 
 
-|                                   |                         |
+|            Property               |          Value          |
 |-----------------------------------|-------------------------|
 |           **Property**            |        **Value**        |
 |           **CodePage**            |           37            |
@@ -241,7 +241,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
  **ELM User Data/Link**  
 
 
-|                    |                         |
+|       Property     |          Value          |
 |--------------------|-------------------------|
 |    **Property**    |        **Value**        |
 |    **CodePage**    |           37            |
@@ -258,7 +258,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
  **Distributed Program Call**  
 
 
-|                    |                                    |
+|       Property     |              Value                 |
 |--------------------|------------------------------------|
 |    **Property**    |             **Value**              |
 |    **CodePage**    |                 37                 |
@@ -275,7 +275,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
  **System Z Sockets User Data/Link**  
 
 
-|                    |                                    |
+|     Property       |               Value                |
 |--------------------|------------------------------------|
 |    **Property**    |             **Value**              |
 |    **CodePage**    |                 37                 |
@@ -292,7 +292,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
  **System I Sockets User Data**  
 
 
-|    **Property**    |            **Value**             |
+|      Property      |             Value                |
 |--------------------|----------------------------------|
 |    **CodePage**    |                37                |
 | *\*\*IPAddress*\*  |                                  |
@@ -346,7 +346,7 @@ The **BizTalk Adapter for Host Application Configuration** dialog box allows you
 
  The following table describes the toolbar menus and actions.  
 
-|**Tool Bar/Menu**|**Actions**|  
+|Tool Bar/Menu|Actions|  
 |------------------------|-----------------|  
 |**Add Assemblies to create connection string**|Add a TI .NET assembly either from the GAC or using the local file path to add an assembly to the mapping. All the columns will be populated with the default values reflected from the assembly. The default connection string won’t be usable if some required values are not entered.|  
 |**Delete a Connection string**|Deletes the selected mappings. A dialog box will be shown to confirm the deletion.|  

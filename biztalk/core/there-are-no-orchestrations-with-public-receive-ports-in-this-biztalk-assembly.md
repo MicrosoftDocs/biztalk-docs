@@ -18,7 +18,7 @@ manager: "anneta"
 # There are no orchestrations with public receive ports in this BizTalk assembly
 ## Details  
   
-|                 |                                                                                                                                                                               |
+| Field | Error Details |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                                              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                               |
 | Product Version |                                                          [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]                                                           |

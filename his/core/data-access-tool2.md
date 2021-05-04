@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Data Access Tool"
+description: "Learn more about the Data Access Tool and how to test connections to remote IBM DB2 relational database servers and IBM host file systems."
 title: "Data Access Tool2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -163,9 +163,8 @@ The Data Access Tool enables you to define and test connections to remote IBM DB
   
     In addition to the tasks described in the previous topics, you can also use the **Edit**, **View** and **Help** menus to perform the actions described in the following table.  
   
-|||  
+|Menu|Action|  
 |-|-|  
-|**Menu**|**Action**|  
 |**Edit**|**Undo**, **Cut**, **Copy**, or **Paste** strings, and to **Delete** or **Rename** data sources.|  
 |**View**|**Refresh** the browser or view the **Options** dialog box.|  
 |**Help**|Access context-sensitive dynamic help, HIS DevCenter (MSDN), HIS TechCenter (TechNet), HIS Forum, HIS Feedback (Connect), and About (version and license).|  

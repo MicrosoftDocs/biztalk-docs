@@ -45,7 +45,7 @@ In this step you configure a one-way FILE send port that consumes the response m
 4. On the **Filters** tab, specify the filter to consume all messages that are written to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Message Box database by the receive port you created in [Step 2: Configure a Two-way WCF-WebHttp Send Port](../core/step-2-configure-a-two-way-wcf-webhttp-send-port.md).  
 
 
-   |              |                                       |
+   | Parameter             |  Value                             |
    |--------------|---------------------------------------|
    | **Property** |         Set to **BTS.SPName**         |
    | **Operator** |             Set to **==**             |

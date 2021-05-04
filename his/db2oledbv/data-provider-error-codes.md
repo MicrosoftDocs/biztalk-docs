@@ -20,9 +20,8 @@ The Data Provider returns errors in the form of SQLSTATE, SQLCODE, Reason Code, 
 ## DRDA Protocol Errors
  The following table lists DRDA protocol error constants, values, SqlState, SqlCode and a description of the error. An asterisk (*) indicates not in use.
 
-||||
-|-|-|-|
 |SQLSTATE|SQLCODE|Description|
+|-|-|-|
 |08S01|-256|Message: Abnormal unit of work.<br /><br /> Reason: The abnormal unit of work reply message indicates that the server encountered an issue on the server, causing the server to end the unit of work abnormally.<br /><br /> Action: Determine whether a deadlock, operator intervention, or other issue caused the server to roll back the unit of work. Review a client network trace to determine if the server returned a SQL communications area reply data (SQLCARD) with an optional reason code or other optional diagnostic information.|
 |08S01|-260|Message: Access RDB command is processed.<br /><br /> Reason: The access relational database reply message indicates that the server could not complete a database connection request.<br /><br /> Action: Verify the connection parameters and re-attempt the connection request. Review a client network trace to determine if the server returned a SQL communications area reply data (SQLCARD) with an optional reason code or other optional diagnostic information.|
 |08S01|-261|Message: A permanent error condition has been detected on the target system. Contact your server administrator.<br /><br /> Reason: The permanent agent error reply message indicates that the server encountered an issue on the server, causing the server to not complete the requested command.<br /><br /> Action: Review a client network trace to determine if the server returned an optional reason code or other optional diagnostic information.|
@@ -65,9 +64,8 @@ The Data Provider returns errors in the form of SQLSTATE, SQLCODE, Reason Code, 
 ## TCPIP Network Errors
  The following table lists TCPIP Network Client error constants, values, SqlState, SqlCode and a description of the error.
 
-||||
-|-|-|-|
 |SQLSTATE|SQLCODE|Description|
+|-|-|-|
 |08S01|-602|Message: Could not resolve the specified host name.<br /><br /> Reason: The client could not connect to the DB2 server with an incorrect user-specified Network Address or Network Port value.<br /><br /> Action: Verify connection information to ensure the Network Address and Network Port specified matches the server. For more information, see topics on Network Address and Network Port.|
 |08S01|-603|Message: Could not connect to specified host.<br /><br /> Reason: The client could not connect to the DB2 server with an incorrect user-specified Network Address or Network Port value, or the server is unavailable.<br /><br /> Action: Verify connection information to ensure the Network Address and Network Port specified matches the server. Contact the network administrator or server administrator. For more information, see topics on Network Address and Network Port.|
 |08S01|-604|Message: Socket allocation failed.<br /><br /> Reason: The client failed to connect to the DB2 server via a TCP/IP network, when all of the local client socket resources were in use.<br /><br /> Action: Close unused client connections. Utilize client connection pooling. For more information, see topic on Connection Pooling.|
@@ -96,9 +94,8 @@ The Data Provider returns errors in the form of SQLSTATE, SQLCODE, Reason Code, 
 ## Common Errors
  The following table describes DB2 server errors that may occur along with the actions you must take to correct them.
 
-|||||
-|-|-|-|-|
 |SQLSTATE|SQLCODE|Message|Description|
+|-|-|-|-|
 |42601|-104|Illegal symbol.<br /><br /> Token was not valid Unexpected token.<br /><br /> An unexpected token \<token> was found following \<text>. Expected tokens may include: \<token-list>.|Reason: The server cannot execute a SQL statement that contains illegal, invalid, or unexpected symbols or tokens.<br /><br /> Action: Verify the SQL syntax using the IBM DB2 SQL Reference for the specific IBM DB2 platform and version. Check if data consumer application is using unsupported delimited object identifiers (e.g. square brackets ([\<object-name>]) as opposed to using supported delimiters (double quotes).|
 |42602|-113|INVALID CHARACTER FOUND IN: \<string>, REASON CODE \<reason-code>.<br /><br /> A character that is invalid in a name has been detected.<br /><br /> \<identifier> contains a character that is not allowed or does not contain any characters.|Reason: The server cannot process a SQL SET CURRENT SQLID statement, when the client connects to the DB2 server.<br /><br /> Action: Verify connection information to ensure the Default Qualifier value matches the DB2 collection in which object is cataloged. For more information, see topic on Default Qualifier.|
 |42802|-117|THE NUMBER OF VALUES ASSIGNED IS NOT THE SAME AS THE NUMBER OF SPECIFIED OR IMPLIED COLUMNS.<br /><br /> Statement contains wrong number of values.<br /><br /> The number of values assigned is not the same as the number of specified or implied columns or variables.|Reason: The server cannot execute a SQL INSERT statement when the number of values specified is not the same as the number of columns in the table(s).<br /><br /> Action: Verify that the number of columns match the objects in the SQL statement, by querying the system catalog (e.g. SYSIBM.SYSCOLUMNS) or executing a client schema query (e.g. OLE DB IDBSchemaRowsets::GetSchemas(DBSCHEMA_COLUMNS) or ADO.NET MsDb2Connection.GetSchema(Columns).|

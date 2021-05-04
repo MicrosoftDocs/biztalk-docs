@@ -18,7 +18,7 @@ manager: "anneta"
 # The certificate used for signing a message cannot be located in the local certificate store
 ## Details  
   
-|                 |                                                                                                                          |
+|     Field       |                                         Error Details                                                                    |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                    |
 | Product Version |                                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                |

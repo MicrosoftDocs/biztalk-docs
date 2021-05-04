@@ -34,7 +34,7 @@ manager: "dougeby"
 
 ## Supported versions & requirements
 
-||Requirements|
+|Component|Requirements|
 |---|---|
 |Operating System|The adapter supports the same OS as BizTalk Server:<ul><li>[BizTalk Server 2020 requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md)</li><li>[BizTalk Server 2016 requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)</li><li>[BizTalk Server 2013 R2 / 2013 requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2013-and-2013-r2.md)</li></ul>|
 |Supported enterprise system|<ul><li>[BizTalk Server 2020](../adapters-and-accelerators/lob-and-enterprise-2020-support.md)</li><li>[Previous versions](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx)</li></ul> |
@@ -869,11 +869,11 @@ C:\TIBCO\TIBRV\BIN > gacutil /i TIBCO.Rendezvous.dll
 
     The five providers enable you to log different kinds of messages:
 
-        -   **Receiver Logging Provider**: The <Trace element\> switch is - **receiver**.
-        -   **Receiver CastDetails Provider**: The <Trace element\> switch is - **castDetailsReceive**.
-        -   **Transmitter Logging Provider**: The <Trace element\> switch is - **transmitter**.
-        -   **Transmitter CastDetails Provider**: The <Trace element\> switch is - **castDetailsTransmit**.
-        -   **Management Logging Provider**: The <Trace element\> switch is - **management**.
+    -   **Receiver Logging Provider**: The <Trace element\> switch is - **receiver**.
+    -   **Receiver CastDetails Provider**: The <Trace element\> switch is - **castDetailsReceive**.
+    -   **Transmitter Logging Provider**: The <Trace element\> switch is - **transmitter**.
+    -   **Transmitter CastDetails Provider**: The <Trace element\> switch is - **castDetailsTransmit**.
+    -   **Management Logging Provider**: The <Trace element\> switch is - **management**.
 
 To use ETW, run the command for the specific adapter: `BTA<Adapter Name\>Trace.cmd`. You use this command as follows:
 

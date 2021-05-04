@@ -39,7 +39,7 @@ A TI programming model determines the method used to access and integrate host a
   
   The following table summarizes the similarities and differences among the programming models.  
   
-|Programming Model|Network Protocol|Maximum Message or Data Size|Supports Two-phase Commit?|Write Own Communi-cations Protocol?|Supports Persistent Connect-ions?|Other Requirements|  
+|Programming Model|Network Protocol|Maximum Message or Data Size|Supports Two-phase Commit?|Write Own Communications Protocol?|Supports Persistent Connect-ions?|Other Requirements|  
 |-----------------------|----------------------|----------------------------------|---------------------------------|------------------------------------------|----------------------------------------|------------------------|  
 |[TCP Transaction Request Message Link](../core/tcp-transaction-request-message-link2.md)|TCP/IP|32 KB|No|No (see sample code)|Yes|-   See mscmtics.cbl sample application.<br />-   1:many relationship between server application and port.|  
 |[TCP Enhanced Listener Message Link](../core/tcp-enhanced-listener-message-link1.md)|TCP/IP|32 KB|No|No (see sample code)|Yes|-   See mscmtics.cbl sample application.<br />-   1:1 relationship between server application and port.|  
@@ -52,9 +52,6 @@ A TI programming model determines the method used to access and integrate host a
 |[IMS LU6.2 User Data](../core/ims-lu6-2-user-data1.md)|LU6.2|unlimited|Yes|No|No|-   Each server TP must have the embedded code necessary to handle all data communications using the LU6.2 protocol.|  
 |**HTTP Link**|HTTP|32 KB|No|No|No (see sample code)|-   See MSHMIRS sample Programs<br /><br /> -   1:many relationship between server application and port.|  
 |**HTTP User Data**|HTTP|unlimited|No|No|Yes (based on sample code in HTTPGetBalanceUserData.cbl)|-   See GETBALUD sample Program<br /><br /> -   1:many relationship between server application and port.|  
-  
-||||||||  
-|-|-|-|-|-|-|-|  
 |**HTTP Link**|HTTP|32 KB|No|No|No (see sample code)|-   See MSHMIRS sample Programs<br /><br /> -   1:many relationship between server application and port.|  
 |**HTTP User Data**|HTTP|unlimited|No|No|Yes (based on sample code in HTTPGetBalanceUserData.cbl)|-   See GETBALUD sample Program<br /><br /> -   1:many relationship between server application and port.|  
   

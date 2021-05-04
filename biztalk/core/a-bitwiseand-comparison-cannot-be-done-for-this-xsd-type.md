@@ -18,8 +18,8 @@ manager: "anneta"
 # A BitwiseAnd comparison cannot be done for this XSD type
 ## Details  
   
-|                 |                                                                                        |
-|-----------------|----------------------------------------------------------------------------------------|
+|  Parameter  | Value |
+|--|--|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
 |    Event ID     |                                           -                                            |

@@ -35,9 +35,8 @@ manager: "anneta"
 #### ADO.NET Data Type Mapping  
  The following table defines the supported Data Provider (MsHostFileClient.HostFileType) to Host File Designer (System.Type) to IBM COBOL and RPG data types.  
   
-||||||  
+|HostFileType|HostFileMetaType|Restrictions|Host File Designer Type|COBOL|  
 |-|-|-|-|-|  
-|**HostFileType**|**HostFileMetaType**|**Restrictions**|**Host File Designer Type**|**COBOL**|  
 |HostFileType.BigInt|System.Int64||Integer|PIC S9(n) COMP-4|  
 |HostFileType.Char|System.String|Max Length: 32765; 255|String|PIC X(n)|  
 |HostFileType.CharForBit|System.Byte|Max Length: 32765|Short|PIC S9(n) COMP-4|  
@@ -58,9 +57,8 @@ manager: "anneta"
   
  The following table defines the supported ADO.NET (System.Data.DbType) to Data Provider (MsHostFileClient.HostFileType) to Host File Designer (System.Type) to IBM COBOL and RPG data types.  
   
-|||||||  
+|DbType|HostFileMetaType|HostFileType|Restrictions|Host File Designer Type|COBOL|    
 |-|-|-|-|-|-|  
-|**DbType**|**HostFileMetaType**|**HostFileType**|**Restrictions**|**Host File Designer Type**|**COBOL**|  
 |DbType.AnsiString|System.String|HostFileType.VarChar|Max Length: 32739; 4045|String|PIC X(n)|  
 |DbType.AnsiStringFixedLength|System.String|HostFileType.Char|Max Length: 32765; 255|String|PIC X(n)|  
 |DbType.Binary|System.Byte|HostFileType.VarCharForBit|Max Length: 32739|Byte|PIC X untranslated|  

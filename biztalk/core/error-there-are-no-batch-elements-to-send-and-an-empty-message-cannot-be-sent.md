@@ -18,7 +18,7 @@ manager: "anneta"
 # There are no batch elements to send and an empty message cannot be sent as it is not configured for party
 ## Details  
   
-|                 |                                                                                                               |
+| Field | Error Details | 
 |-----------------|---------------------------------------------------------------------------------------------------------------|
 |  Product Name   |              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]               |
 | Product Version |                          [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                           |

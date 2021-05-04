@@ -18,7 +18,7 @@ manager: "anneta"
 # Fatal error encountered in EDI Disassembler
 ## Details  
   
-|                 |                                                                                    |
+| Field | Error Details | 
 |-----------------|------------------------------------------------------------------------------------|
 |  Product Name   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
 | Product Version |             [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]             |

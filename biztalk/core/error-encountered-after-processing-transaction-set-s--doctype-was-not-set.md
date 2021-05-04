@@ -18,7 +18,7 @@ manager: "anneta"
 # Error encountered after processing Transaction Set(s) because DocType was not set
 ## Details  
   
-|                 |                                                                                        |
+|     Field       |                         Error Details                                                  |
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

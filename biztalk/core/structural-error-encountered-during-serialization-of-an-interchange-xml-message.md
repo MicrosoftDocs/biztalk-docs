@@ -18,7 +18,7 @@ manager: "anneta"
 # Structural error encountered during serialization of an interchange XML message
 ## Details  
 
-|                 |                                                                                        |
+| Field | Error Details|
 |-----------------|----------------------------------------------------------------------------------------|
 |  Product Name   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
 | Product Version |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |

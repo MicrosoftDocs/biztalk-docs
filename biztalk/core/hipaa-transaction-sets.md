@@ -20,7 +20,7 @@ This topic describes the HIPAA transaction sets and versions that are supported 
   
 ## HIPAA Transaction Sets and Versions  
   
-|4010A1|5010|Description||  
+|&nbsp;|4010A1|5010|Description|  
 |------------|----------|-----------------|-|  
 |270|![Checkmark](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![Checkmark](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|Eligibility, Coverage or Benefit Inquiry - Request|  
 |271|![Checkmark](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|![Checkmark](../core/media/11ee8508-206f-40ef-be8a-15e90f5faf68.gif "11ee8508-206f-40ef-be8a-15e90f5faf68")|Eligibility, Coverage or Benefit Information - Response|  

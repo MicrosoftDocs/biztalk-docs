@@ -18,7 +18,7 @@ manager: "anneta"
 # X12 interchange Xml serialization failed due to invalid structure. Looking for TransactionSet or GE, but not found
 ## Details  
   
-|                 |                                                                                                                    |
+| Field | Error Details | 
 |-----------------|--------------------------------------------------------------------------------------------------------------------|
 |  Product Name   |                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                 |
 | Product Version |                             [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                             |

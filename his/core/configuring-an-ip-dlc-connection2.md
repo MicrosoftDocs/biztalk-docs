@@ -29,9 +29,8 @@ As with other connections, configuration requires setting parameters on the **Co
 
    The **General** page is similar to that used for other connections in Microsoft® Host Integration Server.
 
-|||
+|Property|Comments|
 |-|-|
-|**Property**|**Comments**|
 |Name|Name of the connection.|
 |Link service|This list displays all currently configured IP-DLC link services.|
 |Comment|Descriptive comment (optional).|
@@ -53,9 +52,8 @@ As with other connections, configuration requires setting parameters on the **Co
 
  If you selected the Remote end as Peer system on the **General** page, all controls on this page will be disabled.
 
-|||
+|Property|Comments|
 |-|-|
-|**Property**|**Comments**|
 |Primary DLUS|Fill in these required fields for the primary server with the appropriate names.|
 |Network name|Represents the APPN network in which to locate the primary DLUS. The network name corresponds to the NETID parameter in VTAM. The network name can contain a maximum of eight characters and can consist of alphanumeric characters and the special characters $, #, and @.  The name must not begin with a digit.|
 |Control point name|Represents the control point name of the primary DLUS. The control point name corresponds to the SSCPNAME parameter in VTAM. The control point name can contain a maximum of eight characters and can consist of alphanumeric characters and the special characters $, #, and @.  The name must not begin with a digit.|
@@ -68,9 +66,8 @@ As with other connections, configuration requires setting parameters on the **Co
 
  If you selected the Remote end as Peer system on the **General** page, all controls on this page will be disabled.
 
-|||
+|Property|Comments|
 |-|-|
-|**Property**|**Comments**|
 |Network name|Represents the APPN network where the PU (Physical Unit) is defined.|
 |Control Point Name|Represents the control point name for the PU that the connection represents.|
 |Node ID|Required. Enter a hexadecimal value to uniquely identify the PU for the host connection. This value must match an existing remote LEN-style PU definition. Default value is 05D FFFFF. The node ID value must match the value configured on the host DLUS computer.|
@@ -82,9 +79,8 @@ As with other connections, configuration requires setting parameters on the **Co
 
  If you selected the Remote end as Peer system on the **General** page, all controls on this page will be disabled.
 
-|||
+|Property|Comments|
 |-|-|
-|**Property**|**Comments**|
 |Connection retry limits|These settings are used for setting the retry limits when initially activating the connection to the DLUS. In this case, the DLUR (Dependent LU Requester) is the IP-DLC link service.|
 |Unlimited|The IP-DLC link service retries activation of the connection until it is successful.|
 |Limited|Specifies the number of retries, from 1 through 65534. Default value is 8.|
