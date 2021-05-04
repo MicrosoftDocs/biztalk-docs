@@ -17,7 +17,7 @@ manager: "anneta"
 # Negotiable Link Roles
 The following figure shows the sequence of messages for a peer connection where both the local and remote ends are configured as negotiable. Because the remote node identifier is larger (numerically) than the local node identifier, the remote station will become primary.  
   
- ![](../core/media/dev3e.gif "dev3e")  
+ ![Diagram that shows the sequence of messages for a peer connection.](../core/media/dev3e.gif "dev3e")  
 Sequence of messages for a peer connection where both ends are configured as negotiable  
 
 - local node identifier = 0x05D11111  

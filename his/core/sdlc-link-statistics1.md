@@ -28,7 +28,7 @@ Link statistics are generated when a link is closed or when one of the wrap coun
 |00 69|Length of major vector|  
 |00 25|Link statistics major vector|  
   
-|Data link traffic counters subvector||  Description
+|Data link traffic counters subvector|Description|  
 |------------------------------------------|------|  
 |65 9A|Data Link Traffic Counters subvector|  
 |03|DLC type: SDLC|  

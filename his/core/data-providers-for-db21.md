@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Data Providers for DB2"
+description: "Learn more about: DB2 Data Providers"
 title: "Data Providers for DB21 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

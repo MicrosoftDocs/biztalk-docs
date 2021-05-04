@@ -99,9 +99,8 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  Optionally you can specify the APPC conversation security to identify the PC user to the DB2 database server. The following table describes security level settings.
 
-|||
+|Security Level|Description|
 |-|-|
-|**Security Level**|**Description**|
 |Program|The Data Provider sends both a user name and a password.|
 |Same|The Data Provider sends a user name only.|
 |None|The Data Provider sends no security information (user name or password).|
