@@ -45,9 +45,7 @@ This topic discusses the database structure and database jobs for [!INCLUDE[btsB
 ## Database Write Diagram  
  The following figure shows the processes and entities that write to the BizTalk Server databases.  
   
- ![Processes that write to BizTalk Server databases](../core/media/ebiz-ops-backup.gif "ebiz_ops_backup")  
-  
-        Database write diagram showing the processes and entities that write to the BizTalk Server databases  
+ ![Database write diagram showing the processes and entities that write to the BizTalk Server databases](../core/media/ebiz-ops-backup.gif "ebiz_ops_backup")  
   
 ## BizTalk Server Database Jobs  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes the following SQL Server Agent jobs to assist you in managing the BizTalk Server databases:  
