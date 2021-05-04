@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Data Access Tool"
+description: "Learn more about the Data Access Tool and how to test connections to remote IBM DB2 relational database servers and IBM host file systems."
 title: "Data Access Tool2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
