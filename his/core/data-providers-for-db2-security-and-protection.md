@@ -53,9 +53,8 @@ Documents\Host Integration Server\Data Sources
 ### Encryption standards for DB2  
  The following table describes supported encryption standards for DB2.  
   
-||||  
+|Encryption|Authentication|Data|  
 |-|-|-|  
-|**Encryption**|**Authentication**|**Data**|  
 |Kerberos|Yes|No|  
 |SSL V3|Yes|Yes|  
 |TLS V1|Yes|Yes|  

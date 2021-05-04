@@ -19,22 +19,22 @@ Link statistics are generated when a link is closed or when one of the wrap coun
   
  The NMVT generated has the following format:  
   
-|NMVT header||  
+|NMVT header|Description|  
 |-----------------|------|  
 |41 03 8D 00 00 00 00 00|NMVT Header|  
   
-|Major vector header||  
+|Major vector header|Description|  
 |-------------------------|------|  
 |00 69|Length of major vector|  
 |00 25|Link statistics major vector|  
   
-|Data link traffic counters subvector||  
+|Data link traffic counters subvector|Description|  
 |------------------------------------------|------|  
 |65 9A|Data Link Traffic Counters subvector|  
 |03|DLC type: SDLC|  
 |*hh*|Adapter number (01+04)|  
   
-|Date/time link established||  
+|Date/time link established|Description|  
 |---------------------------------|------|  
 |*hh*|Date|  
 |*hh*|Month|  
@@ -45,7 +45,7 @@ Link statistics are generated when a link is closed or when one of the wrap coun
 |*hh*|Hundredths of a second|  
 |*hh*|Counter|  
   
-|Wrap counters||  
+|Wrap counters|Description|  
 |-------------------|------|  
 |*hh*|Transmit I-frames OK|  
 |*hh*|Transmit I-frames not OK|  

@@ -22,7 +22,7 @@ You can specify the times that RTM should send data and the trigger that causes 
 
 ### RTM Settings  
 
-|Setting||Definition|  
+|Setting|&nbsp;|Definition|  
 |-------------|------|----------------|  
 |RTM Data Sent At||Specifies when RTM data is sent to the host. You can send the data during one or both of the following situations:|  
 ||Counter Overflow|Sends the RTM data to the host when the number of host responses in a given time period overflows the size of the available counter.|  

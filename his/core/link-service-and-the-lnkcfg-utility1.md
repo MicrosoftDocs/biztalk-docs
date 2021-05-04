@@ -71,9 +71,8 @@ LnkCfg is a useful command-line utility for deploying and managing link services
   
  The following table describes the command-line parameters.  
   
-||||  
+|Property|Description|Content|  
 |-|-|-|  
-|**Property**|**Description**|**Content**|  
 |"Title"|Title of the link service.|1-128 characters.|  
 |/SERVER:servername|Name of the server.|Valid server name.|  
 |/PRIMARYNNS:NNSServer|Primary network node server.|DNS name or IP address.|  

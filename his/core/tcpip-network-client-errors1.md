@@ -17,9 +17,8 @@ manager: "anneta"
 # TCPIP Network Client Errors
 The following table lists TCPIP Network Client error constants, values, SqlState, SqlCode and a description of the error.  
   
-||||  
+|SqlState|SqlCode|Description|  
 |-|-|-|  
-|**SqlState**|**SqlCode**|**Description**|  
 |08S01|-602|**Message** : Could not resolve the specified host name.<br /><br /> **Reason** : The client could not connect to the DB2 server with an incorrect user-specified Network Address or Network Port value.<br /><br /> **Action** : Verify connection information to ensure the Network Address and Network Port specified matches the server. For more information, see [Network Address and Network Port](data-source-wizard-db2-2.md).|  
 |08S01|-603|**Message** : Could not connect to specified host.<br /><br /> **Reason** : The client could not connect to the DB2 server with an incorrect user-specified Network Address or Network Port value, or the server is unavailable.<br /><br /> **Action** : Verify connection information to ensure the Network Address and Network Port specified matches the server. Contact the network administrator or server administrator. For more information, see [Network Address and Network Port](data-source-wizard-db2-2.md).|  
 |08S01|-604|**Message** : Socket allocation failed.<br /><br /> **Reason** : The client failed to connect to the DB2 server via a TCP/IP network, when all of the local client socket resources were in use.<br /><br /> **Action** : Close unused client connections. Utilize client connection pooling. For more information, see Connection Pooling.|  

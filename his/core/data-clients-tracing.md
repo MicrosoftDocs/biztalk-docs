@@ -144,9 +144,8 @@ There are multiple options for tracing, which can help to capture problems in th
 
  The **name** attribute defines the name of the trace source point. This **required** attribute is accepts a **string**. The **default** value is an **empty string**.
 
-|||
+|Value|Description|
 |-|-|
-|**Value**|**Description**|
 |HostFiles|ADO.NET Provider for Host Files|
 |Transport|Host File Client for DDM RLIO|
 |Aggregate Converter|Host Integration Server Encoder Aggregate Converter|
@@ -158,9 +157,8 @@ There are multiple options for tracing, which can help to capture problems in th
 
  The **traceLevel** attribute instructs the Host File Client to trace defined collections of information, from a minimum to a maximum level of tracing. This **optional** attribute accepts a **string** value. The **default** value is an **empty string**.
 
-|||
+|Value|Description|
 |-|-|
-|**Value**|**Description**|
 |Fatal|Output fatal messages.|
 |Error|Output error messages.|
 |Warning|Output warning messages, error messages, and fatal messages.|

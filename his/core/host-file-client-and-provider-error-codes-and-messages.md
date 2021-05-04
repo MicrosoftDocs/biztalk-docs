@@ -17,9 +17,8 @@ manager: "anneta"
 # Host File Client and Provider Error Codes and Messages
 The following table lists the Host File client and provider error codes, error message text, description and recommend action.  
   
-|||||  
+|Error Code and Message|Item Type|Item Description|Recommended Actions|  
 |-|-|-|-|  
-|**Error Code and Message**|**Item Type**|**Item Description**|**Recommended Actions**|  
 |HISEHFC0020: Metadata schema '{0}' cannot be accessed.|Error|The provider cannot locate the metadata schema Host Integration Definition XML file.|Verify the metadata schema Host Integration Definition XML file is located in the folder specified by the Metadata property in the connection string.|  
 |HISTHFC0012: Received {0} bytes of data.|Trace|The provider received data from the host server.|No action required.|  
 |HISTHFC0011: Sent {0} bytes of data.|Trace|The provider sent data to the host server.|No action required.|  

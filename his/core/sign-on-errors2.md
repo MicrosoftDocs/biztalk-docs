@@ -17,9 +17,8 @@ manager: "anneta"
 # Sign-On Errors
 The following table lists sign-on error constants, values, SqlState, SqlCode and a description of the error.  
   
-||||  
+|SqlState|SqlCode|Description|  
 |-|-|-|  
-|**SqlState**|**SqlCode**|**Description**|  
 |HY000|-702|**Message** : Enterprise single sign-on is not supported on this configuration.<br /><br /> **Reason** : The client does not support the Enterprise Single Sign-On feature.<br /><br /> **Action** : Contact your client administrator. Use an alternative method of authentication. For more information, see Security Method.|  
 |HY000|-703|**Message** : Enterprise single sign-on could not load: 0x80040154.<br /><br /> **Reason** : The client could not contact the Enterprise Single Sign-On Lookup Service to obtain the foreign credentials.<br /><br /> **Action** : Verify connection information to ensure the ESSO Affiliate Application name matches the value for the server and current user defined by the Enterprise Single Sign-On administrator. For more information, see Security Method.|  
 |HY000|-1000|**Message** : The user does not have the authority to access the host resource. Check your authentication credentials or contact your system administrator.<br /><br /> **Reason** : The server cannot authenticate the user with the credentials presented at connection.<br /><br /> **Action** : Verify connection information to ensure the User Name (User Identifier), Password and Security Method specified (Interactive sign-on security, Single sign-on, or Kerberos) match the server requirements defined for the current user. For more information, see User Name, Password and Security Method.|  

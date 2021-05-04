@@ -25,9 +25,8 @@ manager: "anneta"
 ## Data Sources
  The following table describes the supported platforms and versions.
 
-|||
+|Data Source|Platform and Version|
 |-|-|
-|**Data Source**|**Platform and Version**|
 |DB2|IBM DB2 for z/OS, 9.1 and 10<br /><br /> IBM DB2 for i5/OS V5R4, V6R1 and V7R1<br /><br /> IBM DB2 UDB for Windows, AIX, HP-UX, Solaris, Linux V9.7 and V10|
 |Informix|IBM Informix IDS V11|
 |Host Files|IBM DFSMS DFM z/OS V1.11, V1.12 and V1.13<br /><br /> IBM i5/OS V5R4, V6R1 and V7R1|
@@ -60,9 +59,8 @@ manager: "anneta"
 ## Tools
  When you want to define and manage connections, configure or develop applications, Microsoft offers the set of technologies described in the following table.
 
-|||||
+|Product|Tool|Data Source|Description|
 |-|-|-|-|
-|**Product**|**Tool**|**Data Source**|**Description**|
 |HIS|Data Access Tool with Data Source Wizard|Informix Host, files|HIS Data Access Tool with Data Source Wizard guides the knowledge worker, IT professional or enterprise developer to define and manage connections to DB2, Informix and host files.|
 |HIS|Data Access Library|DB2, Informix, Host Files|HIS Data Access Library offers a set of .NET Framework 4 components to automate common data administration tasks, such as defining connections and creating static SQL packages for DB2.|
 |HIS|VS Designer plug-in|Host Files|The HIS client for host files relies on an HIS Host Files Designer for Visual Studio plug-in, allowing enterprise developers to import COBOL and RGP with which to define local metadata maps that are required for encoding/decoding record layouts.|
@@ -122,9 +120,8 @@ manager: "anneta"
 ## Host File Access Methods
  Microsoft data providers for host files support multiple access methods, data set types, and record types, depending on the back end data source platform.
 
-||||
+|Platform|Access Method|Data Set Type|
 |-|-|-|
-|**Platform**|**Access Method**|**Data Set Type**|
 |Mainframe (z/OS)|Sequential Access Method (SAM)|Basic Sequential Access Method (BSAM) data sets|
 |||Queued Sequential Access Method (QSAM) data sets|
 ||Virtual Storage Access Method (VSAM)|Entry-Sequenced Data Sets (ESDSs)|

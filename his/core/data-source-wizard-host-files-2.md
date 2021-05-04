@@ -158,9 +158,8 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  The following table lists the host file system platform and accepted string types.
 
-|||
+|Host File System|String Type|
 |-|-|
-|**Host File System**|**String Type**|
 |Host file system for z/OS|An 8-byte string.|
 |Host file system for i5/OS|A 10-byte string.|
 
@@ -168,9 +167,8 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  The following table describes the host file system platform and accepted string types.
 
-|||
+|Host File System|String Type|
 |-|-|
-|**Host File System**|**String Type**|
 |Host file system for z/OS|An 8-byte string.|
 |Host file system for i5/OS|A 128-byte string.|
 

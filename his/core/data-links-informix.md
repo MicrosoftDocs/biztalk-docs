@@ -107,9 +107,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 ### DBMS Platform
  The DBMS platform property defines the operating system of the Informix server. The Data Provider uses this value to convert data types to a format supported by this platform. This required property accepts a string value. The default value is NT.
 
-|||
-|-|-|
 |Item|Description|
+|-|-|
 |LINUX|Linux operating system|
 |MAC/OS|Apple operating system|
 |UNIX|UNIX operating system|
@@ -159,9 +158,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 
  Note: The Data Provider can encrypt authentication using either strong 256-bit Advanced Encryption Standard (AES) or weak 56-bit Data Encryption Standard (DES). Microsoft recommends strong authentication encryption, such as AES, Kerberos, SSL V3.0 or TLS V1.0.
 
-|||
-|-|-|
 |Item|Description|
+|-|-|
 |Server|Instructs the Data Provider to connect to the Data Source by presenting a user name with password.|
 |Server_Encrypt_Pwd|Instructs the Data Provider to connect to the Data Source by presenting a user name with encrypted password.|
 |Server_Encrypt_UsrPwd|Instructs the Data Provider to connect to the Data Source by presenting an encrypted user name with encrypted password.|
@@ -202,9 +200,8 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
 ### DBMS Platform
  The DBMS platform property defines the operating system of the Informix server. The Data Provider uses this value to convert data types to a format supported by this platform. This required property accepts a string value. The default value is NT. The following table lists the DBMS Platform values.
 
-|||
-|-|-|
 |Item|Description|
+|-|-|
 |LINUX|Linux operating system|
 |MAC/OS|Apple operating system|
 |UNIX|UNIX operating system|

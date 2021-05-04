@@ -35,9 +35,8 @@ manager: "anneta"
 #### Informix to OLE DB Data Type Mapping  
  The following table describes Informix data type mappings to OLE DB data types.  
   
-||||  
-|-|-|-|  
 |OLE DB data type|Informix data type|Description|  
+|-|-|-|  
 |DBTYPE_I8|bigint|A big integer is an 8-byte binary integer.|  
 |DBTYPE_UI8|bigserial|An unsigned 8-byte binary integer.|  
 |DBTYPE_Bytes|blob|A binary large object is a varying-length string used to store non-textual or binary data.|  
@@ -68,9 +67,8 @@ manager: "anneta"
 #### Informix V11  
  The Data Provider supports accessing these data types when connected to Informix V11.  
   
-||||||  
-|-|-|-|-|-|  
 |Informix Type_name|OLE DB data_type|Column_size|Minimum_scale|Maximum_scale|  
+|-|-|-|-|-|  
 |BIGINT|DBTYPE_I8|20|||  
 |INT8|DBTYPE_I8|20|||  
 |SERIAL8|DBTYPE_UI8|20|||  
