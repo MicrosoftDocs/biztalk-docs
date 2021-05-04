@@ -18,7 +18,8 @@ manager: "anneta"
 As in any standard Microsoft Windows application, you can use keyboard shortcuts in TN3270 Emulator to access commands that are otherwise available by using menus. The following table describes the available keyboard shortcuts.  
   
 ## File menu keyboard shortcuts  
-  
+
+|Menu Action|Shortcut|  
 |-|-|  
 |Create a new TN3270 Emulator windows|ALT+F,N|  
 |Open an existing TN3270 Emulator window|ALT+F,O|  
