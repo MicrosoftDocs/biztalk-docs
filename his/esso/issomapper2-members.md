@@ -19,7 +19,7 @@ The following table shows the ISSOMapper2 methods.
   
 ## Public Methods  
   
-|||  
+|Link|Description|  
 |-|-|  
 |[ISSOMapper2.GetApplications2 Method](../esso/issomapper2-getapplications2-method.md)|Retrieves the available applications for a Microsoft® Windows® user.|  
 |[ISSOMapper.GetFieldInfo Method](../esso/issomapper-getfieldinfo-method.md)|Retrieves the field information for an application.|  

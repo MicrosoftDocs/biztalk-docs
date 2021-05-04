@@ -17,9 +17,8 @@ manager: "anneta"
 # Host Integration Designer
 As in any standard Microsoft Windows application, you can navigate through the design surface by using your keyboard instead of your mouse. The following table describes the available keyboard shortcuts.  
   
-|||  
+|Keyboard shortcut|Effect|  
 |-|-|  
-|**Keyboard shortcut**|**Effect**|  
 |DOWN ARROW|Moves the cursor focus to the next item down in the current active pane.|  
 |UP ARROW|Moves the cursor focus to the next item up in the current active pane.|  
 |PAGE UP|Moves the cursor focus to the first item in the active pane.|  
