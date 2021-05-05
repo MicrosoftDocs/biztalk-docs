@@ -166,7 +166,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
 8. Expand the **Functions** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Click the **Current Schema (\<schema name\>)** node to see all the functions defined for that schema in the **Available categories and operations** box. Each of the listed functions can be used to poll the Oracle database.  
   
-    ![Browse functions in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf.gif "64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf")  
+    ![Browse functions in Oracle database for polling.](../../adapters-and-accelerators/adapter-oracle-ebs/media/64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf.gif "64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf")  
   
     Similarly, expand the **All Schemas** node to see a list of all the schemas defined in the Oracle database. Click a schema node to see a list of functions defined for that schema in the **Available categories and operations** box.  Each of the listed functions can be used to poll the Oracle database.  
   

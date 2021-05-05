@@ -22,7 +22,7 @@ manager: "anneta"
 # Part 1: Fragmented Inbound Batch Scenario
 In this part of the tutorial, you receive an HL7-encoded batch, fragment it into individual messages, and send the individual messages to a destination. The following figure shows the flow of this process.  
   
- ![](../../adapters-and-accelerators/accelerator-hl7/media/hl7-fragmented-inbound-batching-scenario.gif "hl7_fragmented_inbound_batching_scenario")  
+ ![Image that shows the flow of the Fragmented Inbound Batch scenario.](../../adapters-and-accelerators/accelerator-hl7/media/hl7-fragmented-inbound-batching-scenario.gif "hl7_fragmented_inbound_batching_scenario")  
   
  This scenario includes the following workflow:  
   

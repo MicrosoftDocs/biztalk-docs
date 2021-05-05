@@ -21,7 +21,7 @@ manager: "anneta"
 # Sample Schema Presentation
 The following figure shows a sample XSD schema for a SWIFT Interchange.  
   
- ![](../../adapters-and-accelerators/accelerator-swift/media/intro-sampleschema.gif "Intro_SampleSchema")  
+ ![Image that shows a sample XSD schema for a SWIFT Interchange.](../../adapters-and-accelerators/accelerator-swift/media/intro-sampleschema.gif "Intro_SampleSchema")  
   
 ## See Also  
  [SWIFT Schemas](../../adapters-and-accelerators/accelerator-swift/swift-schemas.md)
