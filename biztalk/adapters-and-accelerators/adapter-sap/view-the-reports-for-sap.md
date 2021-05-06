@@ -46,7 +46,7 @@ After you have created the report, you can view it either using Visual Studio or
   
     Specify the value of the parameter, if required, and click **View Report**.  
   
-    ![Specify parameters to generate a report](../../adapters-and-accelerators/adapter-sap/media/5deec152-771b-46b4-84da-dd176193d7f3.gif "5deec152-771b-46b4-84da-dd176193d7f3")  
+    ![Screenshot that shows where to select View Report.](../../adapters-and-accelerators/adapter-sap/media/5deec152-771b-46b4-84da-dd176193d7f3.gif "5deec152-771b-46b4-84da-dd176193d7f3")  
   
 ### To host the reports on Report Server  
   
@@ -80,7 +80,7 @@ After you have created the report, you can view it either using Visual Studio or
   
      Specify the value of the parameter, if required, and click **View Report**.  
   
-     ![Specify parameters to generate a report](../../adapters-and-accelerators/adapter-sap/media/221c8c12-4e4f-47f5-9289-9e9212cf6e25.gif "221c8c12-4e4f-47f5-9289-9e9212cf6e25")  
+     ![Screenshot that shows where to specify the parameter value.](../../adapters-and-accelerators/adapter-sap/media/221c8c12-4e4f-47f5-9289-9e9212cf6e25.gif "221c8c12-4e4f-47f5-9289-9e9212cf6e25")  
   
     > [!TIP]
     >  You can also view directly from the web browser by giving the URL for the report. A typical URL for the report `is http://localhohost/reportserver/<report_name>`.  

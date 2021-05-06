@@ -18,7 +18,7 @@ manager: "anneta"
 # Architecture overview of the WCF LOB Adapter SDK
 The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is built on top of the WCF Channel Model and provides design-time and run-time extensions for adapter developers to create adapters to line-of-business systems that have large and dynamic metadata. An adapter created using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is surfaced to the consumer as a custom WCF binding. The following figure shows the internal architecture and main components of WCF LOB Adapter SDK.  
   
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/7183bded-465e-45b9-af78-fbb87cf2df92.gif "7183bded-465e-45b9-af78-fbb87cf2df92")  
+ ![Image that shows the internal architecture and main components of WCF LOB Adapter SDK.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/7183bded-465e-45b9-af78-fbb87cf2df92.gif "7183bded-465e-45b9-af78-fbb87cf2df92")  
   
 ## Handlers  
  *Handler* defines the message exchange patterns supported by the adapter.  

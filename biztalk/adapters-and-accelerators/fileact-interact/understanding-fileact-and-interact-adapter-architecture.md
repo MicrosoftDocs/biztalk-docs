@@ -30,7 +30,7 @@ The SWIFT Adapter is based on the BizTalk Adapter Framework. Using the classific
   
   The following figure shows a high-level view of the FileAct and InterAct architecture.  
   
-  ![](../../adapters-and-accelerators/fileact-interact/media/035ebb05-ce11-447c-b56b-ba8b41e07e50.gif "035ebb05-ce11-447c-b56b-ba8b41e07e50")  
+  ![Image that shows a high-level view of the FileAct and InterAct architecture.](../../adapters-and-accelerators/fileact-interact/media/035ebb05-ce11-447c-b56b-ba8b41e07e50.gif "035ebb05-ce11-447c-b56b-ba8b41e07e50")  
   
 > [!NOTE]
 >  Microsoft [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] supports only strict mode SWIFTNet Link (SNL) API.  

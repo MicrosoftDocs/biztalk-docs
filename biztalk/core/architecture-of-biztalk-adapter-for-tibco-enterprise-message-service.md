@@ -33,12 +33,12 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) provides a 
 ## One-Way Send Operation  
  The following figure shows the architecture of a one-way send operation using BizTalk Adapter for TIBCO EMS.  
   
- ![](../core/media/tibcoems-architecture-send.gif "TIBCOEMS_architecture_send")  
+ ![Image that shows the architecture of a one-way send operation using BizTalk Adapter for TIBCO EMS.](../core/media/tibcoems-architecture-send.gif "TIBCOEMS_architecture_send")  
   
 ## One-Way Receive Operation  
  The following figure shows the architecture for a one-way receive operation using BizTalk Adapter for TIBCO EMS.  
   
- ![](../core/media/tibcoems-architecture-receive.gif "TIBCOEMS_architecture_receive")  
+ ![Image that shows the architecture for a one-way receive operation using BizTalk Adapter for TIBCO EMS.](../core/media/tibcoems-architecture-receive.gif "TIBCOEMS_architecture_receive")  
   
 ## See Also  
  [Adapter Features](../core/adapter-features.md)   

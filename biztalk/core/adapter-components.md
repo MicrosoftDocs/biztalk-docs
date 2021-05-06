@@ -20,7 +20,7 @@ A custom adapter shares the standardized configuration, management, and setup me
   
  The following figure shows the main components of a custom adapter: the adapter registry file, the adapter design-time component, and the adapter run-time component.  
   
- ![](../core/media/elementsofanadapter.gif "ElementsOfAnAdapter")  
+ ![Image that shows the main components of a custom adapter.](../core/media/elementsofanadapter.gif "ElementsOfAnAdapter")  
   
 ## Adapter Registry File  
  Certain information about adapters must be registered in the registry and the BizTalk Management database. Information such as an adapter's alias, receive hander, receive location, and transport type is called metadata. These metadata entries are created during manual adapter registration using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. Alternatively, you can run the Adapter Registry Wizard (AdapterRegistryWizard.exe) SDK utility to generate a registry file for your custom adapter. Double-clicking this registry file or clicking **Import** on the **File** menu using the registry editor (regedit32.exe) writes the metadata into the registry.  

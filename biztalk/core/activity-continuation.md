@@ -24,7 +24,7 @@ manager: "anneta"
 # Activity Continuation
 The BAM activity (also called the business activity) can span multiple heterogeneous applications (for example, a pipeline, two orchestrations, a line-of-business application, and then another pipeline). The BAM infrastructure can correlate the events from multiple applications with a little help from the developer – a concept called "*Continuation*," which is shown in the following figure.  
   
- ![](../core/media/ebiz-prog-bam-fig4-app-scopes-cont-tokens.gif "ebiz_prog_bam_fig4_app_scopes_cont_tokens")  
+ ![Screenshot that shows the BAM infrastructure.](../core/media/ebiz-prog-bam-fig4-app-scopes-cont-tokens.gif "ebiz_prog_bam_fig4_app_scopes_cont_tokens")  
 
 ## Applications  
  The first part of the activity happens in the Sales application, the second part of the activity happens in the Packaging & Assembly application, and finally, the delivery progress is available in the Shipping application. Each application uses different IDs for the current work unit: purchase order number (PO), sales order number (SO), and shipping order number (UPS). To correlate the events between two different applications, you must:  

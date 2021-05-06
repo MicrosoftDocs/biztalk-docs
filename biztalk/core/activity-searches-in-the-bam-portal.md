@@ -32,25 +32,25 @@ An activity search allows you to perform searches against BAM data to find activ
 ## Parts of the Query Builder  
  You build queries for your activity search by selecting items of business data against which you will create Boolean comparisons to extract data of interest. You start by selecting a BAM view from the **My Views** frame of the portal. From the selected view you select an activity on which to build the query.  
   
- ![](../core/media/bamportalviewschooser.gif "BAMPortalViewsChooser")  
+ ![Image that shows where to select an activity on which to build the query.](../core/media/bamportalviewschooser.gif "BAMPortalViewsChooser")  
   
  When you have selected the activity, the content frame of the portal displays the Query builder, Column Chooser, and Results boxes. You can open an existing query or you can build a new one.  
   
- ![](../core/media/activitysearchquerybuilder.gif "ActivitySearchQueryBuilder")  
+ ![Image that shows where to open an exiting query or build a new one.](../core/media/activitysearchquerybuilder.gif "ActivitySearchQueryBuilder")  
   
  To build a new query you start by selecting a business data item from the **Business Data** drop-down list.  
   
- ![](../core/media/activitysearchquerybuilderbusinessdatadropdown.gif "ActivitySearchQueryBuilderBusinessDataDropdown")  
+ ![Image that shows how to build a new query by selecting a business data item from the Business Data list.](../core/media/activitysearchquerybuilderbusinessdatadropdown.gif "ActivitySearchQueryBuilderBusinessDataDropdown")  
   
  Next, you select your comparison operator in the Operator drop-down list. The comparison operator allows you to refine the results of the query.  
   
- ![](../core/media/activitysearchcomparisonoperatordropdown.gif "ActivitySearchComparisonOperatorDropDown")  
+ ![Image that shows where to select your comparison operator in the Operator list.](../core/media/activitysearchcomparisonoperatordropdown.gif "ActivitySearchComparisonOperatorDropDown")  
   
  The Value drop-down list is context-sensitive based on the type of data represented by the business data item. The user interface (UI) changes as the type of permitted data changes.  
   
  You can join clauses of the query with AND or OR operators to form more complex queries by clicking the **Add** button.  
   
- ![](../core/media/activitysearchjoiningclauses.gif "ActivitySearchJoiningClauses")  
+ ![Image that shows where to join clauses of the query with AND or OR operators to form more complex queries.](../core/media/activitysearchjoiningclauses.gif "ActivitySearchJoiningClauses")  
   
 > [!NOTE]
 >  You cannot group clauses. A query is a simple string of individual clauses joined by AND/OR operators.  

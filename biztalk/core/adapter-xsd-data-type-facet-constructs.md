@@ -24,10 +24,10 @@ The following tables list XSD data type-facet constructs supported by the Adapte
 > [!NOTE]
 >  The fixed attribute with Enumeration facet is not supported.  
   
- ![](../core/media/ebiz-prog-custadapt-datatype1.gif "ebiz_prog_custadapt_datatype1")  
+ ![Image that shows a list of XSD data type-facet constructs supported by the Adapter Framework.](../core/media/ebiz-prog-custadapt-datatype1.gif "ebiz_prog_custadapt_datatype1")  
 Supported XSD data type-facet constructs  
   
- ![](../core/media/ebiz-prog-custadapt-datatype2.gif "ebiz_prog_custadapt_datatype2")  
+ ![Image that shows supported XSD data type-facet constructs.](../core/media/ebiz-prog-custadapt-datatype2.gif "ebiz_prog_custadapt_datatype2")  
 Supported XSD data type-facet constructs  
   
 ## See Also  

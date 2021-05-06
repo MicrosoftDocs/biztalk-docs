@@ -20,7 +20,7 @@ You can use the tags described in this topic within the configuration schema fil
   
  The following figure shows how the FTP receive location property page implements some of these tags.  
   
- ![](../core/media/ebiz-prog-custad-tags.gif "ebiz_prog_custad_tags")  
+ ![Image that shows how the FTP receive location property page implements some of these tags.](../core/media/ebiz-prog-custad-tags.gif "ebiz_prog_custad_tags")  
 The \<description\>, \<displayname\>, and \<category\> tags in the FTP adapter property page  
   
 ## \<designer\>  

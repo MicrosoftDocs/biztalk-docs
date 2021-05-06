@@ -37,7 +37,7 @@ In general BizTalk adapters are hosted in the BizTalk service, Btsntsvc.exe. Thi
   
   Because of the rich hosting model, it is important when developing adapters to remember that the send and receive adapters may never be configured in the same host. They may even be configured to run on different computers.  
   
-  ![](../core/media/regularadapterhostingmodel.gif "RegularAdapterHostingModel")  
+  ![Image that shows the regular adapter hosting model.](../core/media/regularadapterhostingmodel.gif "RegularAdapterHostingModel")  
   The in-process adapter hosting model  
   
 ## Isolated Adapters  
@@ -49,7 +49,7 @@ In general BizTalk adapters are hosted in the BizTalk service, Btsntsvc.exe. Thi
   
  The following figure illustrates the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] hosting architecture. For the sake of performance, the isolated host architecture tries to eliminate any unnecessary interprocess communication. Because the isolated adapter and the BizTalk Messaging Engine stack are in the same process, there is no interprocess communication when the adapter is calling the Messaging Engine. In that scenario the only interprocess communication is between the Messaging Engine and the database, which is unavoidable.  
   
- ![](../core/media/isolatedadapters.gif "IsolatedAdapters")  
+ ![Image that shows the BizTalk Server hosting architecture.](../core/media/isolatedadapters.gif "IsolatedAdapters")  
 The isolated adapter hosting model  
   
 ## See Also  

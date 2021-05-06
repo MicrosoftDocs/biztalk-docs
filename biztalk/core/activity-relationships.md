@@ -24,7 +24,7 @@ An activity relationship exists when an activity relates to one or more other ac
   
  In the following figure, the highlighted lines of code show how you make a relationship between Purchase Order activity instance #123, and Shipment activities #1549, 1550, and 1551.  
   
- ![](../core/media/activity-relationships-example.gif "activity_relationships_example")  
+ ![Image that shows how you make a relationship between Purchase Order activity instance #123, and Shipment activities #1549, 1550, and 1551.](../core/media/activity-relationships-example.gif "activity_relationships_example")  
   
  The business end user looks at one Web page that shows the history of a purchase order. It may indicate that at 10 A.M. it arrives, two days later it receives approval, and the page provides a link to the actual documents. Because of the code in the previous figure, the page will also provide hyperlinks that take the business end user to the corresponding shipment Web pages.  
   

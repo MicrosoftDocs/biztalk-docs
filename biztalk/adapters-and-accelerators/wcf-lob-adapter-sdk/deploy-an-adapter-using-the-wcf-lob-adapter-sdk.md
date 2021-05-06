@@ -140,13 +140,13 @@ To deploy an adapter, you must install the adapter assembly into the global asse
   
 6.  Click your adapter assembly.  
   
-     ![Building extension type browser.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/7528e218-8930-4b01-b29d-8ec125a9b818.gif "7528e218-8930-4b01-b29d-8ec125a9b818")  
+     ![Screenshot that shows the Binding Extension Type Browser.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/7528e218-8930-4b01-b29d-8ec125a9b818.gif "7528e218-8930-4b01-b29d-8ec125a9b818")  
   
 7.  Click the **Open** button to select the assembly.  
   
 8.  In the **Binding Extension Type Browser** dialog box, click the type name that implements the binding collection element.  
   
-     ![Building extension type browser.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce.gif "a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce")  
+     ![Screenshot that shows where to select the type name that implements the binding collection element.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce.gif "a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce")  
   
 9. Click the **Open** button to select the type.  
   
