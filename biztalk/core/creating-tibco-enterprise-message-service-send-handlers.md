@@ -57,7 +57,7 @@ This section explains how to set the send port to connect to TIBCO Enterprise Me
 ## Set send port transport properties
 The TIBCO Enterprise Message Service transport properties are configured in design time and used in run time. In the **Transport Properties**, you set the connection and credential parameters specific to the server system and the objects you are trying to access.  
   
- ![](../core/media/tib-tibcoemssendtransportpropertiess.gif "TIB_TIBCOEMSSendTransportPropertiess")  
+ ![Screenshot that shows the TIBCO EMS Transport Properties dialog box.](../core/media/tib-tibcoemssendtransportpropertiess.gif "TIB_TIBCOEMSSendTransportPropertiess")  
   
   
 1.  In the **Transport Properties**, expand **System Definition**, and enter all required information for connection to the TIBCO EMS server.  

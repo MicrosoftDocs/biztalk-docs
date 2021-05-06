@@ -56,7 +56,7 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise accesses PeopleSoft and expl
 ## Set the transport properties
 The PeopleSoft transport properties are used for design and run time. In the **Transport Properties** dialog box, you set the connection and credential parameters specific to the server system and the objects you are trying to access.  
   
- ![](../core/media/peop-peoplesofttransportpropertiess.gif "Peop_PeopleSoftTransportPropertiess")  
+ ![Image that shows the Transport Properties dialog box.](../core/media/peop-peoplesofttransportpropertiess.gif "Peop_PeopleSoftTransportPropertiess")  
   
 1.  Expand the Adapter Required Properties and fill in all required information for connection to the PeopleSoft server.  
   

@@ -22,7 +22,7 @@ The End-to-End sample demonstrates how to correlate events from multiple compone
 
  The following diagram illustrates the workflow used in the sample.  
 
- ![](../core/media/ebiz-sdk-samples-bam-endtoendwkflw.gif "ebiz_sdk_samples_bam_endtoendwkflw")  
+ ![Image that shows how to correlate events from multiple components.](../core/media/ebiz-sdk-samples-bam-endtoendwkflw.gif "ebiz_sdk_samples_bam_endtoendwkflw")  
 
 
 ## What This Sample Does  

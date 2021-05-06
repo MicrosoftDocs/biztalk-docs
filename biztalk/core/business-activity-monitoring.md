@@ -32,7 +32,7 @@ Information workers need flexibility in looking at and evaluating business proce
   
   For information workers accessing BAM through Excel, BAM activities and BAM views can be created using an Excel add-in. The BAM Activity Wizard for this add-in allows the defining activities, while the BAM View Wizard allows the defining of views based on those activities. In fact, the BAM View Wizard really just helps an information worker build a standard Excel PivotTable using the information in one or more BAM activities. The information that this view provides can then be shown directly in Excel, as the figure below illustrates.  
   
-  ![](../core/media/understandingbts-12-bam2.gif "UnderstandingBTS_12_BAM2")  
+  ![Image that shows the information in the BAM View Wizard.](../core/media/understandingbts-12-bam2.gif "UnderstandingBTS_12_BAM2")  
   
   In this simple example, two Excel charts display information about order progress and sales. A BAM view can be more complex, and its creator can specify which users are allowed to see the data it exposes. Maybe a purchasing manager can access certain things in a view into the purchase order process, for instance, that are hidden from purchasing clerks.  
   

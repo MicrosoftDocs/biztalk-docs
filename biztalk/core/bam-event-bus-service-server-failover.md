@@ -22,7 +22,7 @@ The BAM Event Bus service includes fault tolerance logic that enables it to reco
   
  The following figure displays how the BAM Event Bus handles computer or network failures by performing simple load balancing. Two sources and one destination were configured before the BAM Event Bus service starts.  
   
- ![](../core/media/ebiz-bam-admin-evntbuspoolfail.gif "ebiz_bam_admin_evntbuspoolfail")  
+ ![Image that shows how the BAM Event Bus handles computer or network failures by performing simple load balancing.](../core/media/ebiz-bam-admin-evntbuspoolfail.gif "ebiz_bam_admin_evntbuspoolfail")  
 How the BAM Event Bus service load balances  
   
  The BAM Event Bus service load balances by performing the following:  

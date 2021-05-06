@@ -29,7 +29,7 @@ manager: "anneta"
 # BAM Workflow
 The following figure shows the four user roles who work with Business Activity Monitoring, and the tools that they use.  
   
- ![](../core/media/ebiz-tut-bamworkflow.gif "ebiz_tut_bamworkflow")  
+ ![Image that shows the four user roles who work with Business Activity Monitoring, and the tools that they use.](../core/media/ebiz-tut-bamworkflow.gif "ebiz_tut_bamworkflow")  
 BAM Roles  
   
  The following steps provide a high-level overview of the workflow for using Business Activity Monitoring.  

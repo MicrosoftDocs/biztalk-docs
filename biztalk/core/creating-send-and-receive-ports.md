@@ -73,7 +73,7 @@ Use the following procedures to create [!INCLUDE[btsBizTalkServerNoVersion](../i
   
 5.  Click the ellipsis (…) button in the address (URI).  
   
-     ![](../core/media/siebeladapter-32-ssodemo-httptransport.gif "SiebelAdapter_32_SSODemo_HTTPTransport")  
+     ![Image that shows the HTTP Transport Properties dialog box.](../core/media/siebeladapter-32-ssodemo-httptransport.gif "SiebelAdapter_32_SSODemo_HTTPTransport")  
   
     1.  Set the Virtual directory plus ISAPI extension, /mySSODemo/BTSHTTPReceive.dll.  
   
@@ -83,7 +83,7 @@ Use the following procedures to create [!INCLUDE[btsBizTalkServerNoVersion](../i
   
 6.  In the **Receive Handler** drop-down list, select **BizTalkServerIsolatedHost**.  
   
-     ![](../core/media/siebeladapter-33-ssodemo-receivelocationproperty.gif "SiebelAdapter_33_SSODemo_ReceiveLocationProperty")  
+     ![Image that shows where to select BizTalkServerIsolatedHost.](../core/media/siebeladapter-33-ssodemo-receivelocationproperty.gif "SiebelAdapter_33_SSODemo_ReceiveLocationProperty")  
   
 7.  For the **Receive Pipeline**, select **Microsoft.BizTalk.DefaultPiplelines.XMLReceive**, and then click **OK**.  
   
