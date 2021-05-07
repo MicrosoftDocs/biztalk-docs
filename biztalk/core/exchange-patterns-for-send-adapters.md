@@ -27,7 +27,7 @@ Send adapters are delivered messages from the BizTalk Messaging Engine to be tra
 
  The following diagram shows the adapter's thread pool which can tend to be bound by I/O operations. The BizTalk Server Messaging Engine's thread pool is more bound by the CPU processing. By keeping two different thread pools and not mixing the same type of threads the system can operate more efficiently.  
 
- ![](../core/media/io-cpu-bound-threadpools.gif "Io_cpu_bound_threadpools")  
+ ![Diagram that shows the adapter's thread pool which can tend to be bound by I/O operations.](../core/media/io-cpu-bound-threadpools.gif "Io_cpu_bound_threadpools")  
 
  **Performance Tip:** For the best performance, send adapters should be nonblocking and batch aware. When the BizTalk File adapter was changed from blocking and non-batch aware to nonblocking and batch aware, a threefold performance gain was realized.  
 
@@ -52,7 +52,7 @@ Send adapters are delivered messages from the BizTalk Messaging Engine to be tra
 
 8. The engine calls back the adapter to notify it of the outcome of the **DeleteMessage** operation.  
 
-   ![](../core/media/deleting-from-message-queue.gif "Deleting_from_message_queue")  
+   ![Image that shows the adapter deleting a single message from the application queue.](../core/media/deleting-from-message-queue.gif "Deleting_from_message_queue")  
 
    The preceding object interaction diagram shows the adapter deleting a single message from the application queue. Ideally the adapter batches up message operations as opposed to operating on a single message at a time.  
 
@@ -61,14 +61,14 @@ Send adapters are delivered messages from the BizTalk Messaging Engine to be tra
 
  The following object interaction diagram illustrates the transmission of two messages by a batched send adapter.  
 
- ![](../core/media/batchedsends.gif "BatchedSends")  
+ ![Diagram that shows the transmission of two messages by a batched send adapter.](../core/media/batchedsends.gif "BatchedSends")  
 
 ## Handling Transmission Failures  
  The recommended semantics for transmission failures are illustrated in the figure below. These are only recommendations and are not enforced by the Messaging Engine. You can develop an adapter that deviates from these guidelines if there are valid reasons for doing so but you should be careful in this case. For example, in general an adapter should always move messages to the backup transport after all retries have been exhausted.  
 
  More commonly a transport may need to use more retries than are configured. While this is slightly different it is considered acceptable because the resilience of the transport layer is being increased. In general the APIs exposed by the Messaging Engine are designed to give the adapter maximum control where possible. With this control comes a greater level of responsibility.  
 
- ![](../core/media/handlingerrors.gif "HandlingErrors")  
+ ![Diagram that shows the process for handling transmission failures.](../core/media/handlingerrors.gif "HandlingErrors")  
 
  The adapter determines the number of retries available on a message by checking the system context property **RetryCount**. The adapter calls the **Resubmit** API once for each retry attempt and passes in the message to be resubmitted. Along with the message it passes the time stamp indicating when the engine should deliver the message back to the adapter. This value should typically be the current time plus the value of **RetryInterval**. **RetryInterval** is a system context property whose units are minutes. Both the **RetryCount** and **RetryInterval** in the message context are the values that are configured on the send port. Consider a scaled-out deployment with instances of the same BizTalk Host deployed on multiple computers. If the message is delivered after the retry interval has expired, the message may be delivered to the any one of the host instances on any of the computers where they are configured to run. For this reason the adapter should not hold any state associated with a message to be used on the retry attempt because there is no guarantee that same instance of the adapter will be responsible for the transmission at a later time.  
 
