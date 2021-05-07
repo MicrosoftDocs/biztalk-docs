@@ -98,7 +98,7 @@ Range of values with formatted string
   
 10. When you have completed your set, click **Finish**.  
   
-     ![Vocabulary Definitions](../core/media/461d0d70-52ed-4f43-927d-3efb1fbfb934.gif "461d0d70-52ed-4f43-927d-3efb1fbfb934")  
+     ![Image that shows where to select Finish.](../core/media/461d0d70-52ed-4f43-927d-3efb1fbfb934.gif "461d0d70-52ed-4f43-927d-3efb1fbfb934")  
 Set of values  
   
 ### To define a vocabulary definition as a .NET class or class member  
@@ -126,7 +126,7 @@ Set of values
   
 9. Click **Finish**.  
   
-     ![Vocabulary Definitions](../core/media/4259101f-26dd-488f-81c0-f8d225e4016e.gif "4259101f-26dd-488f-81c0-f8d225e4016e")  
+     ![Image that shows the .NET Class or Class Member Definition screen.](../core/media/4259101f-26dd-488f-81c0-f8d225e4016e.gif "4259101f-26dd-488f-81c0-f8d225e4016e")  
 Net object vocabulary definition  
   
 ### To define a vocabulary definition as an XML document element or attribute  
@@ -150,7 +150,7 @@ Net object vocabulary definition
   
 8.  Click **Finish**.  
   
-     ![Vocabulary Definitions](../core/media/fd81b534-ec41-4147-b716-1e10ffc01d6f.gif "fd81b534-ec41-4147-b716-1e10ffc01d6f")  
+     ![Image that shows XML Document or Element screen.](../core/media/fd81b534-ec41-4147-b716-1e10ffc01d6f.gif "fd81b534-ec41-4147-b716-1e10ffc01d6f")  
 XML vocabulary definition  
   
 > [!NOTE]
@@ -183,7 +183,7 @@ XML vocabulary definition
     > [!NOTE]
     >  By default, **DataConnection** binding is used  
   
-     ![Vocabulary Definitions](../core/media/f8121306-cd73-4997-adc4-71a055dfd824.gif "f8121306-cd73-4997-adc4-71a055dfd824")  
+     ![Image that shows the Database Table or Database Table Column Definition screen.](../core/media/f8121306-cd73-4997-adc4-71a055dfd824.gif "f8121306-cd73-4997-adc4-71a055dfd824")  
 Database vocabulary definition  
   
 #### To specify the display format of a vocabulary definition by using parameters  
@@ -197,5 +197,5 @@ Database vocabulary definition
     > [!NOTE]
     >  Your format string should include parameter indexes in curly braces—for example, "{0}" and "{1}"—to serve as placeholders for the parameters.  
   
-     ![Vocabulary Definitions](../core/media/822f78f4-278a-4211-83ad-44032fa81f13.gif "822f78f4-278a-4211-83ad-44032fa81f13")  
+     ![Image that shows the Specify the Display Name screen.](../core/media/822f78f4-278a-4211-83ad-44032fa81f13.gif "822f78f4-278a-4211-83ad-44032fa81f13")  
 Vocabulary definition with parameters

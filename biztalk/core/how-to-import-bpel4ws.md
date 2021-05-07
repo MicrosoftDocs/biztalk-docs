@@ -65,7 +65,7 @@ You can import from existing BPEL4WS to create an orchestration.
   
     |Canonical XPath|Non-Canonical XPath|  
     |---------------------|--------------------------|  
-    |BizTalk Editor displays a special icon (![](../core/media/ebiz-orch-promotedprop.gif "ebiz_orch_promotedprop")) to denote that the field has been promoted. Usage of canonical XPath expressions to promote fields improves performance through more efficient traversal of the XML|BizTalk Editor does not display a special icon. Both the compiler and the promotion dialog give warnings. There is a linear but nontrivial effect on performance as the message size increases.|  
+    |BizTalk Editor displays a special icon (![Icon that represents the BizTalk Editor.](../core/media/ebiz-orch-promotedprop.gif "ebiz_orch_promotedprop")) to denote that the field has been promoted. Usage of canonical XPath expressions to promote fields improves performance through more efficient traversal of the XML|BizTalk Editor does not display a special icon. Both the compiler and the promotion dialog give warnings. There is a linear but nontrivial effect on performance as the message size increases.|  
   
 ## See Also  
  [How to Export BPEL4WS](../core/how-to-export-bpel4ws.md)   

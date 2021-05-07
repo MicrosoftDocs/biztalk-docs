@@ -29,7 +29,7 @@ When you create a Web port for a consumed Web service, you can select a dynamic 
   
 1.  Add a Web port as outlined in [How to Add a Web Port](../core/how-to-add-a-web-port.md). However, instead of selecting the **Specify now** port binding, select **Dynamic** port binding, as shown in the following figure.  
   
-     ![](../core/media/ebiz-prog-wsc-dynamic.gif "ebiz_prog_wsc_dynamic")  
+     ![Image that shows the Port Binding screen.](../core/media/ebiz-prog-wsc-dynamic.gif "ebiz_prog_wsc_dynamic")  
   
 2.  In the orchestration that calls the consumed Web service, add an **Expression** shape at some point prior to the **Send** shape that you have connected to the Web port.  
   

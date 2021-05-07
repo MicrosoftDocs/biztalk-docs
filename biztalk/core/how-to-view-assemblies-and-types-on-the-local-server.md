@@ -24,7 +24,7 @@ You can use the BizTalk Assembly Viewer to examine all BizTalk assemblies and ty
   
      All BizTalk assemblies installed in the global assembly cache (GAC) on the computer appear.  
   
-     ![](../core/media/ebiz-deply-asblyvieweropenpage.gif "ebiz_deply_asblyvieweropenpage")  
+     ![Image that shows the BizTalk Viewer Assemblies directory.](../core/media/ebiz-deply-asblyvieweropenpage.gif "ebiz_deply_asblyvieweropenpage")  
 Assembly Viewer open page  
   
 ### To view types, attributes, and references for a BizTalk assembly  
@@ -83,7 +83,7 @@ Assembly Viewer open page
   
          The specified types appear in the search results.  
   
-         ![](../core/media/ebiz-depl-asblyviewtypes.gif "ebiz_depl_asblyviewtypes")  
+         ![Image that shows the returned search results.](../core/media/ebiz-depl-asblyviewtypes.gif "ebiz_depl_asblyviewtypes")  
 BizTalk Assembly Types  
   
 ## See Also  

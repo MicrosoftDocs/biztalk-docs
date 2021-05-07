@@ -27,7 +27,7 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise uses PeopleSoft metadata and
   
 1.  In Application Designer, on the **Tools** menu, click **Test Component Interface**.  
   
-     ![](../core/media/psadapter-54-ps-testcompinterface1.gif "PSAdapter_54_PS_TestCompInterface1")  
+     ![Image that shows the Test Component Interface dialog box.](../core/media/psadapter-54-ps-testcompinterface1.gif "PSAdapter_54_PS_TestCompInterface1")  
   
 2.  In the **Component Interface Tester** dialog box, test the component interface by using one the following methods. After you finish making changes, right-click the top item in the pane.  
   
@@ -44,13 +44,13 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise uses PeopleSoft metadata and
   
          The following screen appears.  
   
-         ![](../core/media/psadapter-55-ps-testcompinterface2.gif "PSAdapter_55_PS_TestCompInterface2")  
+         ![Image that shows the Component Interface Tester screen.](../core/media/psadapter-55-ps-testcompinterface2.gif "PSAdapter_55_PS_TestCompInterface2")  
   
          If the security settings allow, you can change the values in the individual fields.  
   
          The following dialog box opens.  
   
-         ![](../core/media/psadapter-56-ps-testcompinterface3.gif "PSAdapter_56_PS_TestCompInterface3")  
+         ![Image that shows the Component Interface Tester - Enter key values, choose functions screen.](../core/media/psadapter-56-ps-testcompinterface3.gif "PSAdapter_56_PS_TestCompInterface3")  
   
     -   To test the component interface using the `Get` method:  
   
@@ -64,7 +64,7 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise uses PeopleSoft metadata and
   
          Alternatively, you can test using the `Create` method.  
   
-         ![](../core/media/psadapter-57-ps-testcompinterface4.gif "PSAdapter_57_PS_TestCompInterface4")  
+         ![Image that shows where you can test using the Create method.](../core/media/psadapter-57-ps-testcompinterface4.gif "PSAdapter_57_PS_TestCompInterface4")  
   
     -   To test the component interface using the `Create` method:  
   
@@ -76,7 +76,7 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise uses PeopleSoft metadata and
   
          You can change fields now.  
   
-         ![](../core/media/psadapter-58-ps-testcompinterface5.gif "PSAdapter_58_PS_TestCompInterface5")  
+         ![Image that shows where you can change fields.](../core/media/psadapter-58-ps-testcompinterface5.gif "PSAdapter_58_PS_TestCompInterface5")  
   
          Changes are validated against the component's underlying business logic.  
   
@@ -84,7 +84,7 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise uses PeopleSoft metadata and
   
      The keys used to create the record can be used with the Get method for viewing data. The data that was added can be viewed in the PeopleSoft Component as shown in the following example.  
   
-     ![](../core/media/psadapter-59-ps-testcompinterface6.gif "PSAdapter_59_PS_TestCompInterface6")  
+     ![Image that shows data in the PeopleSoft Component.](../core/media/psadapter-59-ps-testcompinterface6.gif "PSAdapter_59_PS_TestCompInterface6")  
   
      **Effective Date** is one of the default values.  
   
