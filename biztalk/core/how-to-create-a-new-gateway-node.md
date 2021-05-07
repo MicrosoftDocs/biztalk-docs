@@ -36,7 +36,7 @@ Follow these steps to create and configure a new Gateway node in PeopleSoft Ente
   
    3. **Routing Type:** Select **Implicit**.  
   
-      ![](../core/media/psadapter-34-task-gatewaynodeconnector.gif "PSAdapter_34_Task_GatewayNodeConnector")  
+      ![Image that shows the Node Info tab.](../core/media/psadapter-34-task-gatewaynodeconnector.gif "PSAdapter_34_Task_GatewayNodeConnector")  
   
 5. Click the **Connectors** tab, and enter the following information:  
   
@@ -44,13 +44,13 @@ Follow these steps to create and configure a new Gateway node in PeopleSoft Ente
   
    2. **Connector ID:** Enter `HTTPTARGET`.  
   
-      ![](../core/media/psadapter-35-task-gatewayhttptarget.gif "PSAdapter_35_Task_GatewayHTTPTarget")  
+      ![Image that shows the Connectors tab.](../core/media/psadapter-35-task-gatewayhttptarget.gif "PSAdapter_35_Task_GatewayHTTPTarget")  
   
 6. Click the **Lookup** icon.  
   
 7. Under **Connector ID**, click the **HTTPTARGET** link.  
   
-    ![](../core/media/psadapter-36-task-gatewayconnectorid.gif "PSAdapter_36_Task_GatewayConnectorID")  
+    ![Image that shows the HTTPTARGET link.](../core/media/psadapter-36-task-gatewayconnectorid.gif "PSAdapter_36_Task_GatewayConnectorID")  
   
 8. On the **Properties** tab, enter the following information:  
   
@@ -63,7 +63,7 @@ Follow these steps to create and configure a new Gateway node in PeopleSoft Ente
    > [!NOTE]
    >  The **Receive Port** was previously set.  
   
-    ![](../core/media/psadapter-37-task-gatewaynodereceiveport.gif "PSAdapter_37_Task_GatewayNodeReceivePort")  
+    ![Image that shows where to enter the IP address and port.](../core/media/psadapter-37-task-gatewaynodereceiveport.gif "PSAdapter_37_Task_GatewayNodeReceivePort")  
   
 ## See Also  
  [Creating a PeopleSoft HTTP Host and Port](../core/creating-a-peoplesoft-http-host-and-port.md)

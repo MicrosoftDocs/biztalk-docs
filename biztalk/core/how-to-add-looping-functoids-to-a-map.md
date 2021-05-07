@@ -38,7 +38,7 @@ The **Looping** functoid combines multiple records or fields in the source schem
 
 2. Drag the **Looping** functoid from the Toolbox to the appropriate location on a grid page.  
 
-    ![](../core/media/bts-tls-looping.gif "bts_tls_looping")  
+    ![Image that represents the Looping functoid.](../core/media/bts-tls-looping.gif "bts_tls_looping")  
    Looping functoid  
 
    > [!NOTE]

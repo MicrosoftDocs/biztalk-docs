@@ -27,7 +27,7 @@ The BizTalk Messaging Engine can process very large messages and imposes no rest
   
   The following figure shows stream-based processing on the receive side of the Messaging Engine.  
   
-  ![](../core/media/streambasedprocessing.gif "Streambasedprocessing")  
+  ![Image that shows stream-based processing on the receive side of the Messaging Engine.](../core/media/streambasedprocessing.gif "Streambasedprocessing")  
   
   When an adapter submits a message to the engine it should attach its data stream to the BizTalk message. For some adapters this may mean implementing a network stream. When the message is submitted, the engine executes the receive pipeline. During pipeline execution, the pipeline components that want to change the data clone the message, wiring up the stream from the new message to the stream on the previous message. After the pipeline has been executed, the Messaging Engine takes a message out of the pipeline and executes a loop reading the stream on that message. This reading of the stream invokes a read on the previous stream, which in turn invokes a read on the previous stream, and so on back to the network stream. The engine periodically flushes the data to the MessageBox to maintain a flat memory model.  
   

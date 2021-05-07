@@ -35,7 +35,7 @@ You add a Web port on the port surface in Orchestration Designer. Unlike other c
   
      The following figure shows the **Select a Port Type** dialog box.  
   
-     ![](../core/media/ebiz-prog-ws-addwebport.gif "ebiz_prog_ws_addwebport")  
+     ![Image that shows the Select a Port Type dialog box.](../core/media/ebiz-prog-ws-addwebport.gif "ebiz_prog_ws_addwebport")  
   
 6.  In the **Port Binding** page, in the **Port binding** drop down box, select **Specify now**. BizTalk automatically places the values from the referenced Web service in the URI, transport, and receive and send pipelines. BizTalk uses these values to create the send port when you deploy your BizTalk project.  
   

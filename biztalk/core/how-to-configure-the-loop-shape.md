@@ -21,7 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Loop Shape
-![](../core/media/ebiz-orch-loop.gif "ebiz_orch_loop")  
+![Image that represents the Loop shape.](../core/media/ebiz-orch-loop.gif "ebiz_orch_loop")  
 Loop shape  
   
 ### To configure a Loop shape  

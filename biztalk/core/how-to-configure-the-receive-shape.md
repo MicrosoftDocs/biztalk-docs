@@ -22,7 +22,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Receive Shape
-![](../core/media/ebiz-orch-receive.gif "ebiz_orch_receive")  
+![Image that represents the Receive shape.](../core/media/ebiz-orch-receive.gif "ebiz_orch_receive")  
 Receive shape  
 
  A **Receive** shape can be used to start an orchestration. If you set the **Activate** property to **True**, the runtime engine will test an incoming message to see whether it is of the right type and, if a filter has been applied, whether the filter expression is satisfied. If the criteria for receipt of the message are met, the runtime engine creates and runs a new orchestration instance, and the **Receive** shape receives the message.  

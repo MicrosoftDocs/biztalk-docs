@@ -24,7 +24,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Suspend Shape
-![](../core/media/ebiz-orch-suspend.gif "ebiz_orch_suspend")  
+![Image that represents the Suspend shape.](../core/media/ebiz-orch-suspend.gif "ebiz_orch_suspend")  
 Suspend shape  
   
  When an orchestration instance is suspended, an error is logged. You can specify a message string to accompany the error to help the administrator diagnose the situation.  

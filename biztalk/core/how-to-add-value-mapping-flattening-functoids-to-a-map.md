@@ -26,7 +26,7 @@ The **Value Mapping (Flattening)** functoid enables you to flatten a portion of 
   
     The list of advanced functoids in the chosen category appears.  
   
-2. Drag the **Value Mapping (Flattening)** functoid (![](../core/media/bts-tls-valmapflat.gif "bts_tls_valmapflat")) from the Toolbox to the appropriate location on a grid page.  
+2. Drag the **Value Mapping (Flattening)** functoid (![Image that represents the Value Mapping (Flattening) functoid.](../core/media/bts-tls-valmapflat.gif "bts_tls_valmapflat")) from the Toolbox to the appropriate location on a grid page.  
   
    > [!NOTE]
    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that other grid page first.  
