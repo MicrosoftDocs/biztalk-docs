@@ -51,13 +51,13 @@ By default, send adapters are not instantiated until the first message is delive
   
    The following diagram illustrates this sequence of API calls; the interfaces in blue are implemented by the adapter.  
   
-   ![](../core/media/transmit-adapter-init.gif "Transmit_adapter_init")  
+   ![Image that shows what happens when the initialization fails.](../core/media/transmit-adapter-init.gif "Transmit_adapter_init")  
   
    The adapter can send messages as soon as it is initialized and configured.  
   
    The following figure shows the object interactions involved in initializing a send adapter.  
   
-   ![](../core/media/ebiz-sdk-devadapter10.gif "ebiz_sdk_devadapter10")  
+   ![Image that shows the object interactions involved in initializing a send adapter.](../core/media/ebiz-sdk-devadapter10.gif "ebiz_sdk_devadapter10")  
    Workflow for initializing a send adapter  
   
 > [!NOTE]

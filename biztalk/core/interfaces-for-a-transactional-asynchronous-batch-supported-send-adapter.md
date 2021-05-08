@@ -36,7 +36,7 @@ A send adapter can create and control transactions when transactional transmissi
   
   The following figure shows the interaction between the transport proxy and the send adapter when performing a transactional send operation.  
   
-  ![](../core/media/ebiz-sdk-devadapter8.gif "ebiz_sdk_devadapter8")  
+  ![Image that shows the interaction between the transport proxy and the send adapter when performing a transactional send operation.](../core/media/ebiz-sdk-devadapter8.gif "ebiz_sdk_devadapter8")  
   Workflow for sending a transactional message asynchronously  
   
 ## See Also  

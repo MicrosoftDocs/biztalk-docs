@@ -22,7 +22,7 @@ As discussed earlier, isolated adapters are not instantiated by BizTalk Server. 
   
  The following figure illustrates this sequence of API calls. The interfaces in blue are implemented by the adapter.  
   
- ![](../core/media/isolated-adapter-init.gif "Isolated_adapter_init")  
+ ![Image that shows the process for instantiating isolated adapters.](../core/media/isolated-adapter-init.gif "Isolated_adapter_init")  
   
  The following code fragment illustrates the registration API calls:  
   

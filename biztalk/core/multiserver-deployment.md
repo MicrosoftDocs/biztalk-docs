@@ -101,7 +101,7 @@ This topic discusses multiserver setup and deployment considerations for the [!I
 5. Click **Apply Configuration**.  
   
 ## Considerations for a multiserver deployment  
- ![](../core/media/adapters-wss-multiserver-screenshot01.gif "Adapters_WSS_Multiserver_Screenshot01")  
+ ![Image that shows an example of a multiserver deployment.](../core/media/adapters-wss-multiserver-screenshot01.gif "Adapters_WSS_Multiserver_Screenshot01")  
   
 ### General considerations  
  When you set up and deploy the Windows SharePoint Services adapter in a multiserver environment, consider the following:  

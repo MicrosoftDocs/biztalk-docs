@@ -35,7 +35,7 @@ The Messaging Engine instantiates and configures in-process adapters, passing in
   
  The following figure shows the object interactions involved in creating an in-process receive adapter.  
   
- ![](../core/media/ebiz-sdk-devadapter11.gif "ebiz_sdk_devadapter11")  
+ ![Image that shows the object interactions involved in creating an in-process receive adapter.](../core/media/ebiz-sdk-devadapter11.gif "ebiz_sdk_devadapter11")  
 Workflow for an in-process receive adapter  
   
 ## See Also  

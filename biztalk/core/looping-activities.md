@@ -23,7 +23,7 @@ manager: "anneta"
 # Looping Activities
 Looping activities refers to actions that loop within an orchestration. It is possible to capture the events from actions that loop within an orchestration. To do this, you create another activity and map all of the new activity milestones and data inside the loop. This is necessary because the data processing in the loop will occur more than once per scheduled execution. The following figure shows an example of this situation.  
   
- ![](../core/media/handlingloops2.gif "handlingloops2")  
+ ![Image that shows an example of a looping activity.](../core/media/handlingloops2.gif "handlingloops2")  
   
  As shown in the figure, if you have a Purchase Order with multiple Line Items that process in a loop, questions like "Which purchase orders have item prices of $100?" are ambiguous. Unambiguous questions are:  
   

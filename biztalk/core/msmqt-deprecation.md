@@ -20,7 +20,7 @@ The MSMQT feature has been removed from BizTalk Server. In Orchestration Designe
   
  **Port Configuration Wizard showing MSMQT transport**  
   
- ![](../core/media/portconfigurationwizard-msmqt-transport.gif "PortConfigurationWizard_MSMQT_Transport")  
+ ![Image that shows the Port Binding dialog box.](../core/media/portconfigurationwizard-msmqt-transport.gif "PortConfigurationWizard_MSMQT_Transport")  
   
 ## BizTalk Server Projects  
  New [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] projects should not use the MSMQT transport option. Application deployment to BizTalk Server will fail with the error **Protocol type “MSMQT” not found**.  
