@@ -26,7 +26,7 @@ The **Iteration** functoid outputs the index of the current record in a looping 
   
     The list of advanced functoids in the chosen category appears.  
   
-2. Drag the **Index** functoid (![](../core/media/bts-tls-iteration.gif "bts_tls_iteration")) from the Toolbox to the appropriate location on a grid page.  
+2. Drag the **Index** functoid (![Image that represents the Index functoid.](../core/media/bts-tls-iteration.gif "bts_tls_iteration")) from the Toolbox to the appropriate location on a grid page.  
   
    > [!NOTE]
    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that other grid page first.  

@@ -37,7 +37,7 @@ Follow these steps to add a transaction.
   
    4. **Request Message Version:** Enter `VERSION_1`.  
   
-      ![](../core/media/psadapter-38-task-gatewayaddtransaction.gif "PSAdapter_38_Task_GatewayAddTransaction")  
+      ![Image that shows the Add a Value tab.](../core/media/psadapter-38-task-gatewayaddtransaction.gif "PSAdapter_38_Task_GatewayAddTransaction")  
   
 4. On the **Transaction Detail** tab, verify the following settings:  
   
@@ -45,7 +45,7 @@ Follow these steps to add a transaction.
   
    2. **Routing:** Implicit.  
   
-      ![](../core/media/psadapter-39-task-gatewaytransdetail.gif "PSAdapter_39_Task_GatewayTransDetail")  
+      ![Image that shows the Transaction Detail tab.](../core/media/psadapter-39-task-gatewaytransdetail.gif "PSAdapter_39_Task_GatewayTransDetail")  
   
 5. Click **Save**.  
   

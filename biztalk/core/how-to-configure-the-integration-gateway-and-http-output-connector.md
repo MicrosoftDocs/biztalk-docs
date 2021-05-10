@@ -30,11 +30,11 @@ Follow these steps to configure the Integration Gateway and HTTP Output Connecto
   
 3.  In the **Search By** field, type `LOCAL`, and then click **Search**.  
   
-     ![](../core/media/psadapter-31-task-gatewaysearch.gif "PSAdapter_31_Task_GatewaySearch")  
+     ![Image that shows where to type LOCAL in the Search By field.](../core/media/psadapter-31-task-gatewaysearch.gif "PSAdapter_31_Task_GatewaySearch")  
   
 4.  Enter `machine-name/PSIGW/PeopleSoftListeningConnector` into the **Gateway URL** entry.  
   
-     ![](../core/media/psadapter-32-task-gatewayurl.gif "PSAdapter_32_Task_GatewayURL")  
+     ![Image that shows where to find the Gateway URL field.](../core/media/psadapter-32-task-gatewayurl.gif "PSAdapter_32_Task_GatewayURL")  
   
 5.  Click **Refresh**, and then click **Save**.  
   
@@ -42,7 +42,7 @@ Follow these steps to configure the Integration Gateway and HTTP Output Connecto
   
      You can set the URL here, or at the Node Definition. For this discussion, set the URL at the Node level.  
   
-     ![](../core/media/psadapter-33-task-gatewaynodelevel.gif "PSAdapter_33_Task_GatewayNodeLevel")  
+     ![Image that shows where to view the properties/value combination](../core/media/psadapter-33-task-gatewaynodelevel.gif "PSAdapter_33_Task_GatewayNodeLevel")  
   
 ## See Also  
  [Creating a PeopleSoft HTTP Host and Port](../core/creating-a-peoplesoft-http-host-and-port.md)

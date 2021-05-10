@@ -26,7 +26,7 @@ The **Table Looping** and **Table Extractor** functoids are used together. The *
   
     The list of advanced functoids in the chosen category appears.  
   
-2. Drag the **Table Looping** functoid (![](../core/media/advtablelooping.gif "advtablelooping")) from the Toolbox to the appropriate location on a grid page.  
+2. Drag the **Table Looping** functoid (![Image that represents the Table Looping functoid.](../core/media/advtablelooping.gif "advtablelooping")) from the Toolbox to the appropriate location on a grid page.  
   
    > [!NOTE]
    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that grid page first.  
@@ -83,7 +83,7 @@ The **Table Looping** and **Table Extractor** functoids are used together. The *
     > [!NOTE]
     >  The order of filling out the table grid is not important.  
   
-12. Drag as many **Table Extractor** functoids (![](../core/media/advtableextractor.gif "advtableextractor")) from the Toolbox to the displayed grid page as needed.  
+12. Drag as many **Table Extractor** functoids (![Image that represents the Table Extractor functoid.](../core/media/advtableextractor.gif "advtableextractor")) from the Toolbox to the displayed grid page as needed.  
   
     > [!NOTE]
     >  Because the input of these **Table Extractor** functoids comes from the **Table Looping** functoid added in a previous step, make sure that you place the **Table Extractor** functoids to the right of the **Table Looping** functoid in the displayed grid page.  

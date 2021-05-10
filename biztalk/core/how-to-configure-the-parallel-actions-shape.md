@@ -25,7 +25,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Parallel Actions Shape
-![](../core/media/ebiz-orch-paralactions.gif "ebiz_orch_paralactions")  
+![Image that represents the Parallel Actions shape.](../core/media/ebiz-orch-paralactions.gif "ebiz_orch_paralactions")  
 Parallel Actions shape  
   
 > [!CAUTION]

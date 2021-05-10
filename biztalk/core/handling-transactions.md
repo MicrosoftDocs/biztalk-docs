@@ -37,7 +37,7 @@ manager: "anneta"
   
 7. If the batch was successful the adapter commits the transaction and calls the **IBTDTCCommitConfirm.DTCCommitConfirm** API with a `true` value signifying commit.  
   
-   ![](../core/media/transactedreceiver.gif "TransactedReceiver")  
+   ![Image that shows the interaction between the adapter and the Messaging Engine during a transactional submission of incoming messages.](../core/media/transactedreceiver.gif "TransactedReceiver")  
   
 ## Transacted Transmitters  
  Transacted adapters are for the most part very similar to nontransacted adapters. The main difference is that the transacted adapter sends the data in the message to a resource that it has enlisted in an MSDTC transaction.  
@@ -70,7 +70,7 @@ manager: "anneta"
   
 12. The adapter calls **IBTDTCCommitConfirm.DTCCommitConfirm** to inform the engine that the transaction was successfully committed.  
   
-    ![](../core/media/transactedtransmitter.gif "Transactedtransmitter")  
+    ![Image that shows the interactions between the adapter and the engine.](../core/media/transactedtransmitter.gif "Transactedtransmitter")  
   
 ### Transacted Solicit-Response Adapters  
  Unlike two-way receives, two-way sends may be performed by using the same DTC transaction. Transacted solicit-response adapters should use the same **IBTTransportBatch** for the **SubmitResponseMessage** and **DeleteMessage** operations. This batch should use the same MSDTC transaction that is used to send and receive the solicit-response message pair. This ensures atomicity for the solicit-response message exchange.  

@@ -34,7 +34,7 @@ When the BizTalk service starts, all receive adapters are instantiated, as long 
   
  The following figure shows the logic for creating adapters, depending on the configuration specified:  
   
- ![](../core/media/initializingtheadapter.gif "InitializingTheAdapter")  
+ ![Image that shows the logic for creating adapters, depending on the configuration specified.](../core/media/initializingtheadapter.gif "InitializingTheAdapter")  
   
  The following table gives an example of how a receive adapter may be configured, and the ways the run-time assembly may be configured.  
   

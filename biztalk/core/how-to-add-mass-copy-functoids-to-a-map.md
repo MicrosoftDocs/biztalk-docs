@@ -26,7 +26,7 @@ The **Mass Copy** functoid enables your maps to use schemas that include **any**
   
     The list of advanced functoids in the chosen category appears.  
   
-2. Drag the **Mass Copy** functoid (![](../core/media/advmasscopy.gif "advmasscopy")) from the Toolbox to the appropriate location on a grid page.  
+2. Drag the **Mass Copy** functoid (![Image that represents the Mass Copy functoid.](../core/media/advmasscopy.gif "advmasscopy")) from the Toolbox to the appropriate location on a grid page.  
   
    > [!NOTE]
    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that other grid page first.  

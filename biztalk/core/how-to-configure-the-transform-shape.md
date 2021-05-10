@@ -19,7 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Transform Shape
-![](../core/media/ebiz-orch-transform.gif "ebiz_orch_transform")  
+![Image that represents the Transform shape.](../core/media/ebiz-orch-transform.gif "ebiz_orch_transform")  
 Transform shape  
   
  Transforms are only used when you construct messages, so your **Transform** shape always appears inside a **Construct Message** shape. You can drop the **Construct Message** shape on the design surface and then drop the **Transform** shape inside it, or you can simply drop the **Transform** shape on the design surface, and Orchestration Designer will create the enclosing **Construct Message** shape for you.  
