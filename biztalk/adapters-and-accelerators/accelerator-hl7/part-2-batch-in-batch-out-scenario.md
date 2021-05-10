@@ -24,7 +24,7 @@ In this part of the tutorial, you receive an HL7-encoded batch file, pass it thr
 > [!NOTE]
 >  Before starting this part of the tutorial, turn off the MllpReceive and MllpSend tools that you used in Part 1, by closing the command prompts.  
   
- ![](../../adapters-and-accelerators/accelerator-hl7/media/hl7-batch-in-batch-out-scenario.gif "hl7_batch_in_batch_out_scenario")  
+ ![Image that shows the flow of the Batch Out/Batch In scenario.](../../adapters-and-accelerators/accelerator-hl7/media/hl7-batch-in-batch-out-scenario.gif "hl7_batch_in_batch_out_scenario")  
   
  **How messages flow in the Batch In/Batch Out scenario**  
   

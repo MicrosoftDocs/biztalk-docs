@@ -42,13 +42,13 @@ manager: "anneta"
 
      The following figure shows the **New Project** dialog box.  
 
-     ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/3a349be4-1a7d-480a-8e9d-cfcba63cd14a.gif "3a349be4-1a7d-480a-8e9d-cfcba63cd14a")  
+     ![Screenshot that shows the New Project dialog box.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/3a349be4-1a7d-480a-8e9d-cfcba63cd14a.gif "3a349be4-1a7d-480a-8e9d-cfcba63cd14a")  
 
 3.  Click **OK**.  
 
 4.  On the **Welcome** page, click **Next**. The following figure shows the **Welcome** page.  
 
-     ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/0b8ef97f-044d-481f-8c7c-0d034fdba37d.gif "0b8ef97f-044d-481f-8c7c-0d034fdba37d")  
+     ![Screenshot that shows the Welcome page.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/0b8ef97f-044d-481f-8c7c-0d034fdba37d.gif "0b8ef97f-044d-481f-8c7c-0d034fdba37d")  
 
 5.  Click **Next**.  
 
@@ -63,7 +63,7 @@ manager: "anneta"
 
      The following figure shows the **Scheme, Namespace, and URI Information** page.  
 
-     ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/0d72dab2-7992-47e4-bc4e-3e720b1cde38.gif "0d72dab2-7992-47e4-bc4e-3e720b1cde38")  
+     ![Screenshot that shows the Scheme, Namespace, and URI Information page.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/0d72dab2-7992-47e4-bc4e-3e720b1cde38.gif "0d72dab2-7992-47e4-bc4e-3e720b1cde38")  
 
 2.  Click **Next**.  
 
@@ -91,7 +91,7 @@ manager: "anneta"
 
      The following figure shows the **Data Flows** and **Metadata Features** page.  
 
-     ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/4fa6f67d-4703-41db-b5f3-28cf9d6a40d2.gif "4fa6f67d-4703-41db-b5f3-28cf9d6a40d2")  
+     ![Screenshot that shows the Data Flows and Metadata Features page.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/4fa6f67d-4703-41db-b5f3-28cf9d6a40d2.gif "4fa6f67d-4703-41db-b5f3-28cf9d6a40d2")  
 
 2.  Click **Next**.  
 
@@ -143,7 +143,7 @@ manager: "anneta"
 
     The following figure shows the **Adapter Properties** page.  
 
-    ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/84de11a5-a737-4aa5-96c8-61922e704f2b.gif "84de11a5-a737-4aa5-96c8-61922e704f2b")  
+    ![Screenshot that shows the Adapter Properties page.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/84de11a5-a737-4aa5-96c8-61922e704f2b.gif "84de11a5-a737-4aa5-96c8-61922e704f2b")  
 
 6. Click **Next**.  
 
@@ -193,7 +193,7 @@ manager: "anneta"
 
 1.  On the **Summary** page, click **Finish**. The following figure shows **Solution Explorer** with the **EchoAdapter** project.  
 
-     ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/06b45c3e-d056-48f4-a246-642d9ac5e23e.gif "06b45c3e-d056-48f4-a246-642d9ac5e23e")  
+     ![Screenshot that shows the Solution Explorer with the EchoAdapter project.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/06b45c3e-d056-48f4-a246-642d9ac5e23e.gif "06b45c3e-d056-48f4-a246-642d9ac5e23e")  
 
      Your project should contain the same files. If it does not, exit Visual Studio, delete the **EchoAdapterSampleV2** folder, and then restart this step of the tutorial.  
 

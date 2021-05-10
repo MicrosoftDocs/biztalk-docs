@@ -40,7 +40,7 @@ An inbound receive pipeline processes all messages submitted to an [!INCLUDE[A4S
   
   The following figure shows the SWIFT disassembler data flow.  
   
-  ![](../../adapters-and-accelerators/accelerator-swift/media/fsa-intro2.gif "FSA_Intro2")  
+  ![Image that shows the SWIFT disassembler data flow.](../../adapters-and-accelerators/accelerator-swift/media/fsa-intro2.gif "FSA_Intro2")  
   
   For more information about the SWIFT disassembler, see [Working with the SWIFT Disassembler and Assembler](../../adapters-and-accelerators/accelerator-swift/working-with-the-swift-disassembler-and-assembler.md).  
   

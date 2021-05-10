@@ -157,13 +157,13 @@ manager: "anneta"
 
 2.  Expand the **Query** node, right-click **Instances**, and then click **Add Method Instance** to open the Create Method Instance window.
 
-     ![Add a Finder method instance](../../adapters-and-accelerators/adapter-siebel/media/c90e7784-4fb7-4eb5-baf5-efbefba4bb1f.gif "c90e7784-4fb7-4eb5-baf5-efbefba4bb1f")
+     ![Screenshot that shows how to add a Finder method instance.](../../adapters-and-accelerators/adapter-siebel/media/c90e7784-4fb7-4eb5-baf5-efbefba4bb1f.gif "c90e7784-4fb7-4eb5-baf5-efbefba4bb1f")
 
 3.  In the Create Method Instance window, click **Finder** for the **Method Instance Type**.
 
 4.  Click **Return** from **Return TypeDescriptor** section.
 
-     ![Add a Finder method instance](../../adapters-and-accelerators/adapter-siebel/media/e8343988-d7c1-4b04-85b0-ca7d07097490.gif "e8343988-d7c1-4b04-85b0-ca7d07097490")
+     ![Screenshot that shows where to view the Return TypeDescriptor section.](../../adapters-and-accelerators/adapter-siebel/media/e8343988-d7c1-4b04-85b0-ca7d07097490.gif "e8343988-d7c1-4b04-85b0-ca7d07097490")
 
 5.  Click **OK**.
 

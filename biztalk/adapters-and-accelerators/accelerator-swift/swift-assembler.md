@@ -32,7 +32,7 @@ An outbound send pipeline processes all messages transmitted by an [!INCLUDE[A4S
   
   The following figure shows the SWIFT assembler data flow.  
   
-  ![](../../adapters-and-accelerators/accelerator-swift/media/fsa-intro3.gif "FSA_Intro3")  
+  ![Image that shows the SWIFT assembler data flow.](../../adapters-and-accelerators/accelerator-swift/media/fsa-intro3.gif "FSA_Intro3")  
   
   For more information about the SWIFT assembler, see [Working with the SWIFT Disassembler and Assembler](../../adapters-and-accelerators/accelerator-swift/working-with-the-swift-disassembler-and-assembler.md).  
   

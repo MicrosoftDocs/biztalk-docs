@@ -23,7 +23,7 @@ manager: "anneta"
 # Creating and Deploying A4SWIFT Pipelines
 Perform the following steps to create and deploy SWIFT pipelines for message repair and new submission, as shown in the following figure.  
 
- ![](../../adapters-and-accelerators/accelerator-swift/media/a4swift-pipeline-configuration.gif "A4SWIFT_Pipeline_Configuration")  
+ ![Image that shows how to create and deploy SWIFT pipelines for message repair and new submission](../../adapters-and-accelerators/accelerator-swift/media/a4swift-pipeline-configuration.gif "A4SWIFT_Pipeline_Configuration")  
 
  **Summary**  
 

@@ -24,17 +24,17 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] exte
   
  The relationship between the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] and [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] is shown in the following high-level architectural figure.  
   
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/asdk-wcf.gif "ASDK_WCF")  
+ ![Image that shows the relationship between the WCF LOB Adapter SDK and WCF.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/asdk-wcf.gif "ASDK_WCF")  
   
  The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is built on top of [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] as an extension to the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel model. It provides a domain-specific and simplified object model and tool set for building adapters as custom [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channels. Adapters built using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] are surfaced as custom [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] bindings.  
   
  The following figure shows the outbound message exchange using a given adapter binding.  
   
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/58609452-d09e-4dbd-b470-c92a29977858.gif "58609452-d09e-4dbd-b470-c92a29977858")  
+ ![Image that shows the outbound message exchange using a given adapter binding.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/58609452-d09e-4dbd-b470-c92a29977858.gif "58609452-d09e-4dbd-b470-c92a29977858")  
   
  The following figure shows the inbound message exchange using a given adapter binding.  
   
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/b62d5040-7e40-4edd-ac7b-69768131c51b.gif "b62d5040-7e40-4edd-ac7b-69768131c51b")  
+ ![Image that shows the inbound message exchange using a given adapter binding.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/b62d5040-7e40-4edd-ac7b-69768131c51b.gif "b62d5040-7e40-4edd-ac7b-69768131c51b")  
   
  For more information about the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel model, see [Channel Model Overview](https://msdn.microsoft.com/library/ms729840.aspx).  
   
@@ -43,7 +43,7 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] exte
   
  Once this contract is exposed as a service, the [Service Model Metadata Utility Tool (Svcutil.exe)](https://msdn.microsoft.com/library/aa347733.aspx) can be used to create a [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] client to consume it. The contract provides information about a static set of operations and messages that must not change. 
   
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/a410af83-ee3b-46d0-9afd-d32970f5ba0a.gif "a410af83-ee3b-46d0-9afd-d32970f5ba0a")  
+ ![Image that shows a typical WCF service.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/a410af83-ee3b-46d0-9afd-d32970f5ba0a.gif "a410af83-ee3b-46d0-9afd-d32970f5ba0a")  
   
  In contrast, adapters built using the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] provide a dynamic set of metadata about the collection of operations and data that are available within a line-of-business system. The line-of-business system often has too many operations to be described in one contract and may have new operations added to respond to emerging business needs.  
   
@@ -51,7 +51,7 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] exte
   
  At design time, the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]-based adapter generates contracts dynamically to meet the needs of the line-of-business system.  
   
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/2f4d896a-14d9-43f4-8cdc-f816c5eab46d.gif "2f4d896a-14d9-43f4-8cdc-f816c5eab46d")  
+ ![Image that shows the dynamically-generated contracts that meet the needs of the line-of-business system.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/2f4d896a-14d9-43f4-8cdc-f816c5eab46d.gif "2f4d896a-14d9-43f4-8cdc-f816c5eab46d")  
   
  The ASDK provides [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] and [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] tools for the adapter consumer to generate dynamic contracts at design time.  
   

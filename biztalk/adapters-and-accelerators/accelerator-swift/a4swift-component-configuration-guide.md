@@ -28,7 +28,7 @@ This guide provides information about configuring Microsoft [!INCLUDE[A4SWIFT_Cu
 
   The following figure shows the A4SWIFT components that you will configure.  
 
-  ![](../../adapters-and-accelerators/accelerator-swift/media/a4swift-component-configuration.gif "A4SWIFT_Component_Configuration")  
+  ![Image that shows the A4SWIFT components that you'll configure.](../../adapters-and-accelerators/accelerator-swift/media/a4swift-component-configuration.gif "A4SWIFT_Component_Configuration")  
 
   This section contains:  
 

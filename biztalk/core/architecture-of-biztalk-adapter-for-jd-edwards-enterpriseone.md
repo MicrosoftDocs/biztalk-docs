@@ -20,7 +20,7 @@ Microsoft BizTalk Adapter for JD Edwards EnterpriseOne provides access to JD Edw
   
  The following figure shows the architecture for BizTalk Adapter for JD Edwards EnterpriseOne.  
   
- ![](../core/media/jd-enterpriseone-arch.gif "JD_EnterpriseOne_arch")  
+ ![Image that shows the architecture for BizTalk Adapter for JD Edwards EnterpriseOne.](../core/media/jd-enterpriseone-arch.gif "JD_EnterpriseOne_arch")  
   
 ## Inbound Services at Design Time  
   

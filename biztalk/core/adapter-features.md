@@ -45,14 +45,14 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) enables you
   
  The following image shows the adapter's one-way send operation.  
   
- ![](../core/media/tibcoems-architecture-send.gif "TIBCOEMS_architecture_send")  
+ ![Image that shows the adapter's one-way send operation.](../core/media/tibcoems-architecture-send.gif "TIBCOEMS_architecture_send")  
   
 ### Receive Adapter Architecture: Receive – Static One-Way  
  In the one-way receive scenario, the receive location is configured to receive messages on an EMS queue/topic. BizTalk Adapter for TIBCO EMS listens for messages on a specified queue/topic and submits the received messages to BizTalk Server.  
   
  The following image shows the adapter's one-way receive operation.  
   
- ![](../core/media/tibcoems-architecture-receive.gif "TIBCOEMS_architecture_receive")  
+ ![Image that shows the adapter's one-way receive operation.](../core/media/tibcoems-architecture-receive.gif "TIBCOEMS_architecture_receive")  
   
 ## See Also  
  [Developing Applications](../core/developing-applications5.md)   
