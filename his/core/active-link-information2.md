@@ -220,7 +220,7 @@ typedef struct link_overlay {
   
 ## Returned by Host Integration Server  
   
-## Members  
+### Members  
  link_entry_len  
  Size of this link entry.  
   
