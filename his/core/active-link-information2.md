@@ -17,7 +17,7 @@ manager: "anneta"
 # Active Link Information
 Active link information is provided in the **link_info_sect** structure as defined below.  
   
-## Syntax  
+## link_info_sect Syntax  
   
 ```  
 typedef struct link_info_sect {  
@@ -39,7 +39,7 @@ typedef struct link_info_sect {
   
  For each active link, a **link_overlay** structure for the active link is provided as defined below.  
   
-## Syntax  
+## link_overlay Syntax  
   
 ```  
 typedef struct link_overlay {  
@@ -78,7 +78,7 @@ typedef struct link_overlay {
   
 ## Defined by IBM ES for OS/2 version 1.0  
   
-## Members  
+### Members  
  link_entry_len  
  Size of this link entry.  
   
