@@ -23,7 +23,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Use the Group Shape
-![](../core/media/ebiz-orch-group.gif "ebiz_orch_group")  
+![Image that represents the Group shape.](../core/media/ebiz-orch-group.gif "ebiz_orch_group")  
 Group shape  
   
 ## Annotations and placeholders  

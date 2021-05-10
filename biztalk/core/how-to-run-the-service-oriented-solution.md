@@ -116,7 +116,7 @@ The following steps describe how to run and validate the service oriented soluti
   
     11. The response is displayed in the **Response** text box: **SUCCESS** appears if the request is handled successfully; an error message appears if the request fails.  
   
-         ![Run the client application for the adapter version](../core/media/mqseries-transport-adapter.gif "MQSeries_Transport_adapter")  
+         ![Image that shows the SUCCESS response.](../core/media/mqseries-transport-adapter.gif "MQSeries_Transport_adapter")  
   
 ##  <a name="step5"></a> Send requests using the client application (inline version)  
   
@@ -161,7 +161,7 @@ The following steps describe how to run and validate the service oriented soluti
   
     8.  The response is displayed in the **Response** text box: **SUCCESS** appears if the request is handled successfully; an error message appears if the request fails.  
   
-         ![Run the client application for the inline version](../core/media/soap-transport-inline.gif "SOAP_Transport_inline")  
+         ![Screenshot that shows the SUCCESS response.](../core/media/soap-transport-inline.gif "SOAP_Transport_inline")  
   
 5.  In the BTSScnSOSimpleClient.exe, send requests by MQSeries transport as follows:  
   
@@ -187,7 +187,7 @@ The following steps describe how to run and validate the service oriented soluti
   
     11. The response is displayed in the **Response** text box: **SUCCESS** appears if the request is handled successfully; an error message appears if the request fails.  
   
-         ![Run the client application for the inline version](../core/media/mqseries-transport-inline.gif "MQSeries_Transport_inline")  
+         ![Image that shows the SUCCESS response if the request is handled successfully.](../core/media/mqseries-transport-inline.gif "MQSeries_Transport_inline")  
   
 ## See Also  
  [Before Installing the Service Oriented Solution](../core/before-installing-the-service-oriented-solution.md)   

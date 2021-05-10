@@ -31,15 +31,15 @@ You create component interfaces using the PeopleSoft Application Designer. (For 
   
 2.  On the **File** menu, click **New**.  
   
-     ![](../core/media/psadapter-42-ps-new-compinterface.gif "PSAdapter_42_PS_New_CompInterface")  
+     ![Image that shows the New dialog box.](../core/media/psadapter-42-ps-new-compinterface.gif "PSAdapter_42_PS_New_CompInterface")  
   
 3.  In the **New** dialog box, select **Component Interface**, and then click **OK**.  
   
-     ![](../core/media/psadapter-43-ps-selectsourcecomp.gif "PSAdapter_43_PS_SelectSourceComp")  
+     ![Image that shows where to select Component Interface.](../core/media/psadapter-43-ps-selectsourcecomp.gif "PSAdapter_43_PS_SelectSourceComp")  
   
 4.  In the **Select Source Component for Component Interface** window, select the component to use as a basis for the component interface, and then click **Select**.  
   
-     ![](../core/media/psadapter-44-ps-appdesigner1.gif "PSAdapter_44_PS_AppDesigner1")  
+     ![Image that shows the Select Source Component for Component Interface window.](../core/media/psadapter-44-ps-appdesigner1.gif "PSAdapter_44_PS_AppDesigner1")  
   
     > [!NOTE]
     >  If the component interface is large, expose the component properties manually.  
@@ -56,7 +56,7 @@ You create component interfaces using the PeopleSoft Application Designer. (For 
   
     -   Click **Yes** to create the component interface and display the properties of the underlying component interface.  
   
-         ![](../core/media/psadapter-45-ps-appdesigner2.gif "PSAdapter_45_PS_AppDesigner2")  
+         ![Image that shows how to create the component interface.](../core/media/psadapter-45-ps-appdesigner2.gif "PSAdapter_45_PS_AppDesigner2")  
   
 ## See Also  
  [Standard Methods in Component Interfaces](../core/standard-methods-in-component-interfaces.md)   
