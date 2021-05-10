@@ -21,7 +21,7 @@ To repair and resubmit a failed message, use the Faults page of the ESB Manageme
   
 1.  Locate the desired fault message on the [Portal Faults Page](../esb-toolkit/portal-faults-page.md) page of the ESB Management Portal. Use the filtering capabilities on the Faults page to search for a specific message. Leave any of the controls empty to retrieve all messages. Note that filtering on a very large fault database may take several seconds to display the appropriate results. Figure 1 illustrates the Faults page.  
   
-     ![FaultsPage](../esb-toolkit/media/faultspage.gif "FaultsPage")  
+     ![Screenshot showing the Faults page of the ESB Management Portal.](../esb-toolkit/media/faultspage.gif "Faults page")  
   
      **Figure 1**  
   

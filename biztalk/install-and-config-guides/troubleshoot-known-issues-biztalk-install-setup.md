@@ -240,11 +240,11 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
 
 -   Pipelines references Schemas.
 
-![bcd_ExistingBizTalkServerSolutionc](../install-and-config-guides/media/bcd_ExistingBizTalkServerSolutionc.gif)
+![Diagram showing the state of a sample BizTalk Server solution before a user redeploys the Maps project.](../install-and-config-guides/media/bcd_ExistingBizTalkServerSolutionc.gif)
 
 If the user redeploys the Maps project using the default Visual Studio project settings, the Orch1, Orch2, and Pipeline artifacts vanish, as shown in the following figure.
 
-![bcd_BizTalkSolutionWLostArtifactsc](../install-and-config-guides/media/bcd_BizTalkSolutionWLostArtifactsc.gif)
+![Diagram showing the state of a sample BizTalk Server solution after a user redeploys the Maps project by using the default Visual Studio project settings.](../install-and-config-guides/media/bcd_BizTalkSolutionWLostArtifactsc.gif)
 
  Redeploying Maps is a two-step process of undeploying the currently deployed Maps.dll assembly, and then deploying the new Maps.dll file. Visual Studio performs these steps automatically as part of the redeployment process.
 

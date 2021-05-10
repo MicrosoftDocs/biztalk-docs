@@ -34,7 +34,7 @@ This topic provides test results that the BizTalk Server product group observed 
   
  **Percentage of BizTalk Server and SQL Server CPU utilization**  
   
- ![M&#45;SingleMsgBox](../technical-guides/media/m-singlemsgbox.gif "M-SingleMsgBox")  
+ ![Diagram showing the percentage of BizTalk Server and SQL Server CPU utilization. The scenario is messaging only, with a single message box.](../technical-guides/media/m-singlemsgbox.gif "M-SingleMsgBox")  
   
 ### Messaging scenario, BizTalk Server and SQL Server scale-out – BizTalk and SQL KPI  
  This test was performed to determine the effectiveness of scaling out the SQL Server tier by adding four MessageBox databases. In this scenario, adding up to two computers running BizTalk Server enabled a maximum sustainable throughput of 2,790 messages per second. This was 118% higher than the maximum obtainable throughput when using only a single MessageBox. Beyond this point, adding more processing power to the BizTalk Server tier degraded performance in a similar fashion to the single MessageBox scenario.  
@@ -43,21 +43,21 @@ This topic provides test results that the BizTalk Server product group observed 
   
  **Percentage of BizTalk Server and SQL Server CPU utilization**  
   
- ![M&#45;MultipleMsgBox](../technical-guides/media/m-multiplemsgbox.gif "M-MultipleMsgBox")  
+ ![Diagram showing the percentage of BizTalk Server and SQL Server CPU utilization. The scenario is messaging only, with multiple message boxes.](../technical-guides/media/m-multiplemsgbox.gif "M-MultipleMsgBox")  
   
 ### Orchestration scenario, BizTalk Server scale-out – SQL Server and BizTalk Server KPI  
  Adding a second computer running BizTalk Server does not show a significant impact on the  overall throughput. The load on the BizTalk Server CPU decreases by 23 percent. The CPU for SQL Server increases from 66.5 percent to 68.5 percent when an additional computer running BizTalk Server is added.  
   
  **Percentage of BizTalk Server and SQL Server CPU utilization**  
   
- ![O&#45;SingleMsgBox](../technical-guides/media/o-singlemsgbox.gif "O-SingleMsgBox")  
+ ![Diagram showing the percentage of BizTalk Server and SQL Server CPU utilization. The scenario is orchestration only, with a single message box.](../technical-guides/media/o-singlemsgbox.gif "O-SingleMsgBox")  
   
 ### Orchestration scenario, BizTalk Server and SQL Server scale-out – SQL Server and BizTalk Server KPI  
  This test was performed to determine the effectiveness of scaling out both the BizTalk Server and SQL Server tier by adding more computers running BizTalk Server and more MessageBox databases for the Orchestration scenario. In this scenario, adding up to two computers running BizTalk Server enabled a maximum sustainable throughput of 1,487 orchestrations per second. This was 116% higher than the maximum obtainable result against a single MessageBox. Scaling out to four MessageBox databases on separate SQL Server computers accommodates increased throughput due to additional processing power and the ability to distribute database load across multiple MessageBox databases. This tactic also relieves contention on shared tables, which was a bottleneck in the single MessageBox environment. As with the Messaging scenario, increasing the number of MessageBox databases and distributing these across dedicated SQL instances enables the addition of several BizTalk Server computers to the BizTalk Server group.  
   
  **Percentage of BizTalk Server and SQL Server CPU utilization**  
   
- ![O&#45;MultipleMsgBox](../technical-guides/media/o-multiplemsgbox.gif "O-MultipleMsgBox")  
+ ![Diagram showing the percentage of BizTalk Server and SQL Server CPU utilization. The scenario is orchestration only, with multiple message boxes.](../technical-guides/media/o-multiplemsgbox.gif "O-MultipleMsgBox")  
   
 ## See Also  
  [Scaling a Production BizTalk Server Environment](../technical-guides/scaling-a-production-biztalk-server-environment.md)
