@@ -76,7 +76,7 @@ The exchange of messages between different systems is a necessary part of solvin
   
   The figure below shows an orchestration created in the Orchestration Designer using a few of these shapes. In this simple example, a message is received, a decision is made based on the content of that message, and one of two paths is executed as a result of that decision. Orchestrations that solve real problems can be significantly more complex than this; to make these more complex diagrams easier to work with, the Orchestration Designer includes the ability to zoom in and out. Developers can view only those parts of an orchestration that they are currently interested in.  
   
-  ![](../core/media/understandingbts-08-orchestration.gif "UnderstandingBTS_08_Orchestration")  
+  ![Image that shows an orchestration created in the Orchestration Designer using a few of these shapes.](../core/media/understandingbts-08-orchestration.gif "UnderstandingBTS_08_Orchestration")  
   
   After a developer has defined an orchestration, the group of shapes and relations between them is converted into the Microsoft Intermediate Language (MSIL) used by the .NET Framework’s Common Language Runtime (CLR). Ultimately, the group of shapes defined by a BizTalk Server developer becomes just a standard .NET-enabled assembly. You can also add explicit code to an orchestration when necessary by calling a COM or .NET object from inside a shape.  
   

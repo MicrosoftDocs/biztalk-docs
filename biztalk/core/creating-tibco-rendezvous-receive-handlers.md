@@ -83,7 +83,7 @@ When you configure Microsoft BizTalk Adapter for TIBCO Rendezvous to listen for 
   
      This is the subject name (Rendezvous wildcard characters allowed) that the adapter listens for. In the simplest deployment scenario, this is the only property that is required.  
   
-     ![](../core/media/sadp-tibcorecvtranspropertiess.gif "SAdp_TIBCORecvTransPropertiess")  
+     ![Image that shows Adapter Required Properties dialog box.](../core/media/sadp-tibcorecvtranspropertiess.gif "SAdp_TIBCORecvTransPropertiess")  
   
 2.  In the **Certified Listener Settings**, provide the reusable name and ledger file name if you want certified messaging.  
   

@@ -25,7 +25,7 @@ A business process that relies on several different applications may have to cro
   
  Enterprise Single Sign-On stores an encrypted mapping between a user’s Windows user ID and his credentials for one or more affiliate applications in an SSO database. When this user needs to access an affiliate application, the credentials for that application can be looked up in the SSO database by a Single Sign-On (SSO) Server. The diagram below shows how this works.  
   
- ![](../core/media/understandingbts-11-esso.gif "UnderstandingBTS_11_ESSO")  
+ ![Diagram that shows how the credentials for an application can be looked up in the SSO database by a Single Sign-On (SSO) Server.](../core/media/understandingbts-11-esso.gif "UnderstandingBTS_11_ESSO")  
   
  In this example, a message sent by some application to BizTalk Server is processed by an orchestration, then sent to an affiliate application running on an IBM mainframe. The job of Enterprise Single Sign-On is to make sure that the correct credentials (that is., the right username and password) are sent with the message when it is passed to the affiliate application.  
   

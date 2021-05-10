@@ -23,7 +23,7 @@ In some cases, specific slices of the multi-dimensional aggregations are so time
   
 -   Using the **PivotTable** toolbar, mark the selected PivotTable as a real-time aggregation (RTA), if applicable. The type of data contained in the PivotTable should determine whether it needs to be viewed in real time. For example, a report that tracks hourly Web orders might need to viewed in real time, whereas a report that tracks daily sales totals would not be viewed in real time.  
   
-     ![](../core/media/ebiz-sdk-sample-bam12.gif "ebiz_sdk_sample_bam12")  
+     ![Image that shows a PivotTable with real-time aggregated data.](../core/media/ebiz-sdk-sample-bam12.gif "ebiz_sdk_sample_bam12")  
 RTA button  
   
 > [!IMPORTANT]

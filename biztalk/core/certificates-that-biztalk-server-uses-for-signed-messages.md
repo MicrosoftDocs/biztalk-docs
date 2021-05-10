@@ -49,7 +49,7 @@ BizTalk Server supports signing outbound messages and signature verification for
   
    The following figure shows the message flow when BizTalk Server sends a digitally signed message.  
   
-   ![](../core/media/bts-bpi-sp-msgsec-outboundsigning-r2c.gif "bts_BPI_SP_MSGSEC_OutboundSigning_R2c")  
+   ![Image that shows the message flow when BizTalk Server sends a digitally signed message.](../core/media/bts-bpi-sp-msgsec-outboundsigning-r2c.gif "bts_BPI_SP_MSGSEC_OutboundSigning_R2c")  
   
    The message flow when BizTalk Server sends a digitally signed message to a partner is as follows:  
   
