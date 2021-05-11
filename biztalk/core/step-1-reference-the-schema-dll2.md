@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Step 1: Reference the Schema DLL"
+description: "Learn more how to  reference the schema DLL."
 title: "Step 1: Reference the Schema DLL2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
