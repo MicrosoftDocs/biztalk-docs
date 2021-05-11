@@ -69,17 +69,17 @@ The local node sends chains of data from the host to the application with their 
   
   In the first figure, the host sends a definite response chain to get the application to confirm receipt of the RQD request and all previously sent RQE chains.  
   
-  ![](../core/media/32703q.gif "32703q")  
+  ![Image that shows how a host sends a definite response chain.](../core/media/32703q.gif "32703q")  
   Host sends a definite response chain  
   
   In the following figure, a **Status-Acknowledge(Nack-1)** from the application rejects the last chain and confirms receipt of all previously sent data chains.  
   
-  ![](../core/media/32703qa.gif "32703qa")  
+  ![Image that shows how Status-Acknowledge(Nack-1) rejects the last chain and confirms receipt.](../core/media/32703qa.gif "32703qa")  
   Status-Acknowledge(Nack-1) rejects the last chain and confirms receipt  
   
   In the following figure, the host sends a **CHASE** request to get the application to confirm receipt of the **CHASE** and all previously sent chains.  
   
-  ![](../core/media/32703qb.gif "32703qb")  
+  ![Image that shows how a host sends a CHASE request.](../core/media/32703qb.gif "32703qb")  
   Host sends a CHASE request  
   
 ## See Also  

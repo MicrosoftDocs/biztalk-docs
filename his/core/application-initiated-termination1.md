@@ -31,12 +31,12 @@ An application on a session with function management (FM) profile 3 or 4 can req
   
   In the first figure, the application requests termination of the PLU session, and the host sends **UNBIND**. The local node closes the PLU connection.  
   
-  ![](../core/media/32703u.gif "32703u")  
+  ![Image that shows the application requests termination of the PLU session, and the host sends UNBIND.](../core/media/32703u.gif "32703u")  
   Application requests termination of the PLU session, and the host sends UNBIND  
   
   In the following figure, the application requests termination of the PLU session, but the session is not in an appropriate state. The host sends a negative response to the **RSHUTD** request, which the local node presents as **Status-Control(RSHUTD) Negative-Acknowledge-1**. Communication continues on the PLU session.  
   
-  ![](../core/media/32703ua.gif "32703ua")  
+  ![Image that shows the application requests termination of the PLU session, but the session is not in an appropriate state.](../core/media/32703ua.gif "32703ua")  
   Application requests termination of the PLU session, but the session is not in an appropriate state  
   
 ## See Also  

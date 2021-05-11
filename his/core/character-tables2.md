@@ -17,16 +17,16 @@ manager: "anneta"
 # Character Tables
 This section provides tables that show the ASCII, ANSI, and IBM extended character sets.  
   
- ![](../core/media/ref03.gif "ref03")  
+ ![Image that shows an ASCII character set.](../core/media/ref03.gif "ref03")  
 ASCII Character Set  
   
- ![](../core/media/ref04.gif "ref04")  
+ ![Image that shows the continued ASCII character set.](../core/media/ref04.gif "ref04")  
 ASCII Character Set (continued)  
   
- ![](../core/media/ref02.gif "ref02")  
+ ![Image that shows the ANSI character set.](../core/media/ref02.gif "ref02")  
 ANSI Character Set  
   
- ![](../core/media/ref05.gif "ref05")  
+ ![Image that shows the IBM extended character set.](../core/media/ref05.gif "ref05")  
 IBM Extended Character Set  
   
 ## See Also  

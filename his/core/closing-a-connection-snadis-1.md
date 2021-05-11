@@ -27,7 +27,7 @@ The local node closes a connection to a remote station:
   
   The case of multipoint connections is slightly different and is considered in [SDLC Multipoint Connections](../core/sdlc-multipoint-connections1.md). The following topics discuss point-to-point connections.  
   
-  ![](../core/media/dev3o.gif "dev3o")  
+  ![Image that shows a local node receiving a Close(LINK) and replying with a Close(LINK) OK Response.](../core/media/dev3o.gif "dev3o")  
   Local node receiving a Close(LINK) and replying with a Close(LINK) OK Response  
   
 ## In This Section  

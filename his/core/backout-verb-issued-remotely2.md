@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # BACKOUT Verb Issued Remotely
-![](../core/media/appc2dc.gif "appc2dc")  
+![Image that shows how the BACKOUT verb is issued remotely.](../core/media/appc2dc.gif "appc2dc")  
 BACKOUT verb issued remotely.  
   
 1.  The transaction program issues a [SEND_DATA](./send-data1.md) or [MC_SEND_DATA](./mc-send-data1.md)verb depending on whether a basic or mapped conversation is being used.  

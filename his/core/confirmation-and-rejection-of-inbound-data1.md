@@ -57,17 +57,17 @@ For every SNA chain of data sent or received for which responses are outstanding
   
   In the first figure, an application sets the **ACKRQD** field in an inbound data chain to get the host to confirm receipt of the chain and all previously sent chains.  
   
-  ![](../core/media/his-32703p.gif "his_32703p")  
+  ![Image that shows how an application sets ACKRQD field.](../core/media/his-32703p.gif "his_32703p")  
   Application sets ACKRQD field  
   
   In the following figure, the **Status-Acknowledge(Nack-1)** rejects the last chain, but confirms receipt by the host of all previously sent data chains.  
   
-  ![](../core/media/32703pa.gif "32703pa")  
+  ![Image that shows how Status-Acknowledge(Nack-1) rejects the last chain, but confirms receipt.](../core/media/32703pa.gif "32703pa")  
   Status-Acknowledge(Nack-1) rejects the last chain, but confirms receipt  
   
   In the following figure, the application uses a **Status-Control(CHASE)** to get the host to confirm receipt of the corresponding **CHASE** request and all previously sent chains.  
   
-  ![](../core/media/32703pb.gif "32703pb")  
+  ![Image that illustrates using a Status-Control(CHASE) to get the host to confirm receipt of the corresponding CHASE request.](../core/media/32703pb.gif "32703pb")  
   Using a Status-Control(CHASE) to get the host to confirm receipt of the corresponding CHASE request  
   
 ## See Also  

@@ -19,7 +19,7 @@ Within the context of [!INCLUDE[hisHostIntServNoVersion](../includes/hishostints
   
  The following figure shows a Host Integration Server network connected to an IBM mainframe.  
   
- ![](../core/media/snas01.gif "snas01")  
+ ![Image that shows a Host Integration Server network connected to IBM mainframe.](../core/media/snas01.gif "snas01")  
 Host Integration Server network connected to IBM mainframe  
   
  For each physical adapter or connection, an appropriate link service is installed and configured within Host Integration Server. The link service is a Windows server service or device driver that is used to control server-to-host communication adapters supported by Host Integration Server. The link service provides the HPR protocol used by the Host Integration Server computer to communicate with the host.  
