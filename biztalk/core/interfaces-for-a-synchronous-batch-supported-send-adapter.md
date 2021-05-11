@@ -34,7 +34,7 @@ Batch-aware adapters may send messages synchronously or asynchronously, and may 
   
   The following figure shows the object interactions involved in creating a synchronous batch-supported send adapter.  
   
-  ![](../core/media/ebiz-sdk-devadapter6.gif "ebiz_sdk_devadapter6")  
+  ![Image that shows the object interactions involved in creating a synchronous batch-supported send adapter.](../core/media/ebiz-sdk-devadapter6.gif "ebiz_sdk_devadapter6")  
   Workflow for submitting a message synchronously  
   
 ## See Also  

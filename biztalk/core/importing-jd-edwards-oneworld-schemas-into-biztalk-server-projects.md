@@ -43,7 +43,7 @@ This topic discusses browsing a JD Edwards OneWorld server and importing the sch
   
     The JD. Edwards OneWorld XE system appears in the browser.  
   
-    ![](../core/media/jdedadapter-04-jdebrowse.gif "JDEdAdapter_04_JDEBrowse")  
+    ![Image that shows iWay JDE Adapter Wizard.](../core/media/jdedadapter-04-jdebrowse.gif "JDEdAdapter_04_JDEBrowse")  
   
     The Adapter Wizard displays a tree of all of the defined systems. JD Edwards OneWorld has too many modules to show in one long list. The modules are grouped together according to the first three characters of their name.  
   

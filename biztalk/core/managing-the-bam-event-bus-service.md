@@ -54,7 +54,7 @@ The BAM Event Bus Service, also known as the Tracking Data Decode Service (TDDS)
   
   The following figure shows a group of BAM Event Bus servers, which make up a BAM Event Bus server pool.  
   
-  ![](../core/media/ebiz-bam-admin-evntbuspool.gif "ebiz_bam_admin_evntbuspool")  
+  ![Image that shows a group of BAM Event Bus servers, which make up a BAM Event Bus server pool.](../core/media/ebiz-bam-admin-evntbuspool.gif "ebiz_bam_admin_evntbuspool")  
   Diagram of a BAM Event Bus server pool  
   
 ## In This Section  

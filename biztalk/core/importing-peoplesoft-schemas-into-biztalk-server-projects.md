@@ -30,7 +30,7 @@ When you have created the PeopleSoft Enterprise system, you can browse the serve
   
      The PeopleSoft Enterprise system appears in the browser.  
   
-     ![](../core/media/psad-psnewadapter-14-browsing-cominterfacess.gif "PSAd_PSNewAdapter_14_Browsing_ComInterfacess")  
+     ![Image that shows the Add Adapter Wizard.](../core/media/psad-psnewadapter-14-browsing-cominterfacess.gif "PSAd_PSNewAdapter_14_Browsing_ComInterfacess")  
   
 ### Component Interfaces  
  In the **Component Interfaces** (CI) folder, you can view all the available component interfaces in the system. A component interface declares the set of methods and properties that it supports. A component interface does not implement behavior or properties. Microsoft BizTalk Adapter for PeopleSoft Enterprise exposes standard methods, for example, CreateEx, DeleteOnly, Find, Get, and UpdateEx. For a description of these methods, see [Appendix A: Component Interface Methods](../core/appendix-a-component-interface-methods.md).  

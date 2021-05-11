@@ -34,7 +34,7 @@ Isolated receive adapters are hosted in a process space other than the [!INCLUDE
   
   The following illustration shows the object interactions involved in creating an isolated receive adapter.  
   
-  ![](../core/media/ebiz-sdk-devadapter9.gif "ebiz_sdk_devadapter9")  
+  ![Image that shows the object interactions involved in creating an isolated receive adapter.](../core/media/ebiz-sdk-devadapter9.gif "ebiz_sdk_devadapter9")  
   Workflow for initializing an isolated receive adapter.  
   
 > [!NOTE]

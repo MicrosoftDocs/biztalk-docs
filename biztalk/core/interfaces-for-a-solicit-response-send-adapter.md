@@ -49,7 +49,7 @@ Send adapters use the same batch mechanism as receive adapters to submit respons
   
    The following figure shows the object interactions involved in creating a solicit-response send adapter.  
   
-   ![](../core/media/ebiz-sdk-devadapter13.gif "ebiz_sdk_devadapter13")  
+   ![Image that shows the object interactions involved in creating a solicit-response send adapter.](../core/media/ebiz-sdk-devadapter13.gif "ebiz_sdk_devadapter13")  
    Interaction diagram for a solicit-response send adapter  
   
 ## See Also  

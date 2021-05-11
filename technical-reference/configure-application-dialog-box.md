@@ -21,9 +21,7 @@ Use the **Configure Application** dialog box to bind logical ports and role link
 
 The Orchestrations tab contains a node for each orchestration in the project. Click each orchestration name to view and configure related properties. Applications that are CBR or Messaging applications only do not display an **Orchestrations** tab because no orchestrations are included in the application. The information displayed for each orchestration is identical to the information on the **Bindings** tab in the **Orchestration Properties** window.
 
-### \<Orchestration Name\>
-
-## UIElement List
+### \<Orchestration Name\> UIElement List
 
 <table>
 <thead>
@@ -59,9 +57,7 @@ The Orchestrations tab contains a node for each orchestration in the project. Cl
 
 ## Messaging Tab
 
-### Send Ports and Send Port Groups
-
-## UIElement List
+### Send Ports and Send Port Groups UIElement List
 
 <table>
 <thead>
@@ -95,9 +91,7 @@ The Orchestrations tab contains a node for each orchestration in the project. Cl
 </table>
 
 
-## Receive Ports and Locations
-
-## UIElement List
+## Receive Ports and Locations UIElement List
 
 <table>
 <thead>
@@ -129,9 +123,7 @@ The Orchestrations tab contains a node for each orchestration in the project. Cl
 
 ## Role Links Tab
 
-### \<Role Link Name\>
-
-## UIElement List
+### \<Role Link Name\> UIElement List
 
 <table>
 <thead>

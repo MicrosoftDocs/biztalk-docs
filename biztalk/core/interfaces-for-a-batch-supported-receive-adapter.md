@@ -56,7 +56,7 @@ A receive adapter always submits messages in a batch. A batch is a unit of datab
   
    The following figure shows the object interactions involved in creating a batch-supported receive adapter.  
   
-   ![](../core/media/ebiz-sdk-devadapter1.gif "ebiz_sdk_devadapter1")  
+   ![Image that shows the object interactions involved in creating a batch-supported receive adapter.](../core/media/ebiz-sdk-devadapter1.gif "ebiz_sdk_devadapter1")  
    Workflow for a receive adapter submitting a batch of messages  
   
 ## See Also  

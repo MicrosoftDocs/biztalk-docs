@@ -20,7 +20,7 @@ Immediately after a receive adapter is instantiated it is initialized by the Mes
   
  The following figure illustrates this sequence of API calls. The adapter implements the interfaces shown in blue.  
   
- ![](../core/media/sequence-of-init-calls.gif "Sequence_of_init_calls")  
+ ![Image that shows the sequence of API calls.](../core/media/sequence-of-init-calls.gif "Sequence_of_init_calls")  
   
  **Implementation Tip:** In general, adapters should not block the Messaging Engine in calls such as **IBTTransportControl.Initialize**, **IPersistPropertyBag.Load**, and **IBTTransportConfig.AddReceiveEndpoint**. Performing excessive processing in these calls can have a negative impact on service startup time.  
   
