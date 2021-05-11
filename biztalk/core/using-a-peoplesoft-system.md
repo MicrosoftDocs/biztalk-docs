@@ -34,29 +34,29 @@ The PeopleSoft system is accessible from a [!INCLUDE[btsBizTalkServerNoVersion](
   
 -   Log on to the PeopleSoft system by browsing to a PeopleSoft logon page. Enter your **User ID** and **Password** and then click **Sign In**.  
   
-     ![](../core/media/1e3e5c0f-316b-4aa3-946e-3bb3665b0ddb.gif "1e3e5c0f-316b-4aa3-946e-3bb3665b0ddb")  
+     ![Image that shows the PeopleSoft sign in page.](../core/media/1e3e5c0f-316b-4aa3-946e-3bb3665b0ddb.gif "1e3e5c0f-316b-4aa3-946e-3bb3665b0ddb")  
   
 #### To locate and modify PeopleSoft data  
   
 1.  A successful logon places you at the page to personalize the content you see by choosing its layout. Scroll down and expand **Set Up Financials/Supply Chain**, click **Common Definitions**, click **Location**, and then click **Location** again. This brings you to the **Location** search interface.  
   
-     ![](../core/media/62a89cd4-464c-42fd-91cd-60ceeab5b006.gif "62a89cd4-464c-42fd-91cd-60ceeab5b006")  
+     ![Image that shows the Location search interface.](../core/media/62a89cd4-464c-42fd-91cd-60ceeab5b006.gif "62a89cd4-464c-42fd-91cd-60ceeab5b006")  
   
 2.  To begin the search, set **SetID** to **=**, set **Location Code** to **begins with**, enter **A**, and then click **Search**. This displays cities whose names start with A in the **Search Results** section of the interface.  
   
-     ![](../core/media/86661144-c666-4d72-9227-9f17df715ba4.gif "86661144-c666-4d72-9227-9f17df715ba4")  
+     ![Image that shows search results for the cities whose names start with A.](../core/media/86661144-c666-4d72-9227-9f17df715ba4.gif "86661144-c666-4d72-9227-9f17df715ba4")  
   
 3.  Click one of the locations to get its detail information. For example, in the figure below, the user clicked the **AUS01** link in the **Location Code** column.  
   
 4.  Enter some new data into one of the fields (such as the **Address 2** field) and click **Save** in the lower-left corner. This saves the newly entered data into the record.  
   
-     ![](../core/media/b6eb137c-c0b0-4906-8fbd-1bc036069fb0.gif "b6eb137c-c0b0-4906-8fbd-1bc036069fb0")  
+     ![Image that shows how to save the newly added data.](../core/media/b6eb137c-c0b0-4906-8fbd-1bc036069fb0.gif "b6eb137c-c0b0-4906-8fbd-1bc036069fb0")  
   
 5.  To verify the success of this change, repeat the process from step 2, find this same record again, and observe the changes made to the record.  
   
 6.  In the upper-right portion of the window, click **Sign out** to end your PeopleSoft session.  
   
-     ![](../core/media/7760b541-5155-453e-a682-4780412f3c13.gif "7760b541-5155-453e-a682-4780412f3c13")  
+     ![Image that shows how to sign out of your session.](../core/media/7760b541-5155-453e-a682-4780412f3c13.gif "7760b541-5155-453e-a682-4780412f3c13")  
   
     > [!NOTE]
     >  In the next lab there are instructions for using the PeopleSoft adapter to retrieve the information for the location record (AUS01) that you modified.  

@@ -44,7 +44,7 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
 
 9. In the **Create Unit Tests** dialog box, expand the types and select the **POSchema()** constructor under the **Microsoft.Samples.BizTalk.HelloWorld.POSchema** node. Also select **POToInvoice()** constructor under the **Microsoft.Samples.BizTalk.HelloWorld.POToInvoice** node. The figure below shows the selections that should be made. After making the selections shown below, press **OK**.
 
-     ![](../core/media/schemaandmapsunittestwizardselection.gif "SchemaAndMapsUnitTestWizardSelection")
+     ![Image that shows the Create Unit Tests dialog box.](../core/media/schemaandmapsunittestwizardselection.gif "SchemaAndMapsUnitTestWizardSelection")
 
 ### Adding Test Code to Test the Schemas and Map
 

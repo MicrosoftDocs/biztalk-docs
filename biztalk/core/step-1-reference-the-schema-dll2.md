@@ -26,7 +26,7 @@ In BizTalk, messages are immutable. Therefore, to change a property value you mu
   
 2. Create a Static Solicit-Response Send Port to send the request to J.D. Edwards OneWorld.  
   
-    ![](../core/media/jde-example-2waysendport-ow.gif "JDE_example_2waysendport_OW")  
+    ![Image that shows where to create a static solicit-response send port.](../core/media/jde-example-2waysendport-ow.gif "JDE_example_2waysendport_OW")  
   
 3. In the Solution Editor, right-click your project.  
   
@@ -38,7 +38,7 @@ In BizTalk, messages are immutable. Therefore, to change a property value you mu
   
    4. Click **Finish** to generate the schema containing the format for the Message.  
   
-      ![](../core/media/jde-add-adapter-wizard.gif "JDE_add_adapter_wizard")  
+      ![Image that shows where to select Finish.](../core/media/jde-add-adapter-wizard.gif "JDE_add_adapter_wizard")  
   
 4. In Visual Studio, open the Solution Explorer.  
   
@@ -46,7 +46,7 @@ In BizTalk, messages are immutable. Therefore, to change a property value you mu
   
 6. On the **Add Reference** screen, click the **Browse** button.  
   
-    ![](../core/media/jde-add-reference-dll.gif "JDE_add_reference_dll")  
+    ![Image that shows where to select Browse on the Add Reference screen.](../core/media/jde-add-reference-dll.gif "JDE_add_reference_dll")  
   
 7. On the **Select Component** screen, navigate to %SystemDrive%\Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin.  
   
@@ -54,7 +54,7 @@ In BizTalk, messages are immutable. Therefore, to change a property value you mu
   
 9. On the **Add Reference** screen, the DLL appears in the **Selected Components** section.  
   
-     ![](../core/media/jde-properties-selection.gif "JDE_properties_selection")  
+     ![Image that shows the Selected Components section on the Add Reference screen.](../core/media/jde-properties-selection.gif "JDE_properties_selection")  
   
 10. Click **OK**.  
   

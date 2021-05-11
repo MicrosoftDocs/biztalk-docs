@@ -26,4 +26,4 @@ In addition to the standard adapter interfaces, receive adapters need to impleme
 > [!NOTE]
 >  The **IBTBatchTransmitter** interface is not supported for Request-Response adapters.  
   
- ![](../core/media/requestresponseadapters.gif "RequestResponseAdapters")
+ ![Image that shows the interfaces implemented by receive adapters.](../core/media/requestresponseadapters.gif "RequestResponseAdapters")

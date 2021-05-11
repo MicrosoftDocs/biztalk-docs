@@ -25,7 +25,7 @@ manager: "anneta"
 
 The BAM Interceptor is an object that lets you instrument your application to capture data of interest. The following diagram shows the role of the BAM interceptor and its interaction with the other BAM components:  
   
- ![](../core/media/bam-config-api.gif "bam_config_api")  
+ ![Image that shows the role of the BAM interceptor and its interaction with the other BAM components.](../core/media/bam-config-api.gif "bam_config_api")  
 BAM Interceptor  
   
  In each step of your application where you could have data of interest, you call Interceptor OnStep, provide an identifier for the step, and provide some data or arbitrary object that you are using in your application.  

@@ -44,7 +44,7 @@ The Construct Messages hold messages assignments with the instructions for the B
   
     This tells the adapter you want to start a session. The SessionID is initialized as 0 but when the response comes back the ID will be assigned by the J.D. Edwards OneWorld Server.  
   
-    ![](../core/media/jde-message-expression-editor.gif "JDE_message_expression_editor")  
+    ![Image that shows the BizTalk Expression Editor.](../core/media/jde-message-expression-editor.gif "JDE_message_expression_editor")  
   
 2. Drag a Construct Message before SendEditLine.  
   
@@ -52,7 +52,7 @@ The Construct Messages hold messages assignments with the instructions for the B
   
    - **Name:** ConstructEditLineMessageWithSession  
   
-     ![](../core/media/jde-constructoreditlinemessagewithsession.gif "JDE_constructoreditlinemessagewithsession")  
+     ![Image that shows the message properties.](../core/media/jde-constructoreditlinemessagewithsession.gif "JDE_constructoreditlinemessagewithsession")  
   
    1.  Drag a Message Assignment shape into your orchestration where you want to create a new message.  
   
@@ -69,7 +69,7 @@ The Construct Messages hold messages assignments with the instructions for the B
       BeginDocResponseMsg(JDE.SessionID);  
    ```  
   
-    ![](../core/media/jde-editline-editor.gif "JDE_editline_editor")  
+    ![Image that shows an example of an expression.](../core/media/jde-editline-editor.gif "JDE_editline_editor")  
   
 3. Drag a Construct Message before SendEndDoc.  
   
