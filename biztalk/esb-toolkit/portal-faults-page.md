@@ -17,7 +17,7 @@ manager: "anneta"
 # Portal Faults Page
 Figure 1 shows the Faults page. This page displays the main properties of each fault, and it provides sorting and filtering capabilities that support detailed analysis of faults over a range of criteria, such as error type and time. A link for each fault allows you to view more details in the Fault Message Viewer.  
   
- ![FaultsPage](../esb-toolkit/media/faultspage.gif "FaultsPage")  
+ ![Screenshot showing the Faults page of the ESB Management Portal.](../esb-toolkit/media/faultspage.gif "Faults page")  
   
  **Figure 1**  
   
