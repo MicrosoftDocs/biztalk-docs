@@ -39,7 +39,7 @@ The standard methods for the component interface are as follows:
   
 1.  Open the component interface **Properties** dialog box.  
   
-     ![](../core/media/psadapter-46-ps-properties.gif "PSAdapter_46_PS_Properties")  
+     ![Image that shows the properties dialog box.](../core/media/psadapter-46-ps-properties.gif "PSAdapter_46_PS_Properties")  
   
 2.  Click the **Standard Methods** tab.  
   

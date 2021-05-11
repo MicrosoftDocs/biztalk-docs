@@ -34,33 +34,33 @@ The JD Edwards OneWorld system is accessible from a [!INCLUDE[btsBizTalkServerNo
   
 -   Log on to the JD Edwards OneWorld system by clicking the JD Edwards OneWorld icon. Enter your **User ID**, **Password**, and **Environment**, and then click **OK**.  
   
-     ![](../core/media/f04db2ef-d587-4357-b9e8-c96319886e97.gif "f04db2ef-d587-4357-b9e8-c96319886e97")  
+     ![Image that shows the OneWorld Sign On dialog box.](../core/media/f04db2ef-d587-4357-b9e8-c96319886e97.gif "f04db2ef-d587-4357-b9e8-c96319886e97")  
   
 #### To locate and view JD Edwards OneWorld data  
   
 1.  A successful logon places you at the **JD Edwards OneWorld Explorer**.  
   
-     ![](../core/media/14e8c206-7e38-48f8-9108-e32a7ac9a740.gif "14e8c206-7e38-48f8-9108-e32a7ac9a740")  
+     ![Image that shows the JD Edwards OneWorld Explorer window.](../core/media/14e8c206-7e38-48f8-9108-e32a7ac9a740.gif "14e8c206-7e38-48f8-9108-e32a7ac9a740")  
   
 2.  Expand **Master Directory**, then **Foundation Systems**, then **Address Book**, and then **Daily Processing**.  
   
-     ![](../core/media/1f742221-00e5-4697-95ff-64aa63ed567a.gif "1f742221-00e5-4697-95ff-64aa63ed567a")  
+     ![Image that highlights Daily Processing.](../core/media/1f742221-00e5-4697-95ff-64aa63ed567a.gif "1f742221-00e5-4697-95ff-64aa63ed567a")  
   
 3.  In the right-hand window, double-click **Address Book Revisions**.  
   
-     ![](../core/media/a6d4e871-9c9c-4bc0-9c4f-4bdfd7cc5031.gif "a6d4e871-9c9c-4bc0-9c4f-4bdfd7cc5031")  
+     ![Image that shows the Address Book Revisions window.](../core/media/a6d4e871-9c9c-4bc0-9c4f-4bdfd7cc5031.gif "a6d4e871-9c9c-4bc0-9c4f-4bdfd7cc5031")  
   
 4.  For **Alpha Name**, enter `Ga`, select the **Display Address** check box, and then click **Find** on the toolbar.  
   
-     ![](../core/media/2f58413f-41a9-4ed9-ba5c-1d6d59eafb01.gif "2f58413f-41a9-4ed9-ba5c-1d6d59eafb01")  
+     ![Image that shows where to search for an address.](../core/media/2f58413f-41a9-4ed9-ba5c-1d6d59eafb01.gif "2f58413f-41a9-4ed9-ba5c-1d6d59eafb01")  
   
      In the **Address Book Revisions - [Work With Addresses]** dialog box, two records are displayed as a result of the search.  
   
-     ![](../core/media/9284df4e-ca9b-48ab-b2bf-a90d765d4a05.gif "9284df4e-ca9b-48ab-b2bf-a90d765d4a05")  
+     ![Image that shows the Address Book Revisions dialog box, with two records displayed as a result of the search.](../core/media/9284df4e-ca9b-48ab-b2bf-a90d765d4a05.gif "9284df4e-ca9b-48ab-b2bf-a90d765d4a05")  
   
      An alternative method of locating data is to clear the **Alpha Name** field, click in the text box above the **Address Number** column, and enter `500`. Click **Find** on the toolbar to display the search results.  
   
-     ![](../core/media/a88bd867-9a16-416a-a43e-cdfcc65fc670.gif "a88bd867-9a16-416a-a43e-cdfcc65fc670")  
+     ![Image that shows an alternative method to locate the data.](../core/media/a88bd867-9a16-416a-a43e-cdfcc65fc670.gif "a88bd867-9a16-416a-a43e-cdfcc65fc670")  
   
      In Lab 2, there will be instructions for using the JD Edwards OneWorld adapter to retrieve the information for an **Address Number** of `500`.  
   

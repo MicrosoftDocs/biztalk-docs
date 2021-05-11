@@ -27,7 +27,7 @@ manager: "anneta"
 # Using the BizTalk Messaging Engine
 The following diagram illustrates the architecture of the Messaging Engine. It shows a scenario in which a message is received by an adapter and submitted into BizTalk Server.  
   
- ![](../core/media/ebiz-prog-messaging1.gif "ebiz_prog_messaging1")  
+ ![Image that shows a scenario in which a message is received by an adapter and submitted into BizTalk Server.](../core/media/ebiz-prog-messaging1.gif "ebiz_prog_messaging1")  
 Architecture of the Messaging Engine  
   
  Each adapter has its own instance of a **TransportProxy** object that it uses to interact with the Messaging Engine. Adapters perform work against the Messaging Engine in batches, which are processed atomically. A batch is a collection of operations such as SubmitMessage, SuspendMessage, or DeleteMessage.  

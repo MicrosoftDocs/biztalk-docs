@@ -27,7 +27,7 @@ Excel defines aggregations as pre-calculated summaries of data that improve quer
   
  The following figure displays an example of pre-calculated aggregation data.  
   
- ![](../core/media/bam-olap-cube.gif "bam_olap_cube")  
+ ![Image that shows an example of pre-calculated aggregation data.](../core/media/bam-olap-cube.gif "bam_olap_cube")  
 BAM OLAP Cube  
   
  The above figure summarizes the numbers of each product, shipped to specific locations over a two-month time period. Excel typically defines this data as measure. The data used for filtering and categorization, Excel defines as dimension.  

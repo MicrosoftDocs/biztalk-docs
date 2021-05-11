@@ -135,7 +135,7 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Confirm this is electric,ITEM926-AA|Baby Mon
 
 3.  After you complete the steps in this procedure, the first level of the schema is generated as shown in the following screenshot. Three unique elements are defined, and you will continue to further define the child records for the elements in the purchase order record. Click **Next**.  
 
-     ![Sample Schema screen](../core/media/flatfileschemawizard-schema1.gif "FlatFileSchemaWizard_Schema1")  
+     ![Image that shows the first level of the schema.](../core/media/flatfileschemawizard-schema1.gif "FlatFileSchemaWizard_Schema1")  
 
 ## Define the customer record  
 
@@ -170,11 +170,11 @@ ITEMS,ITEM872-AA|Lawnmower|1|148.95|Confirm this is electric,ITEM926-AA|Baby Mon
 
      Click **Next** to continue.  
 
-     ![Child Elements screen](../core/media/flatfileschemawizard-childelements2.gif "FlatFileSchemaWizard_ChildElements2")  
+     ![Image that shows the Child Elements screen.](../core/media/flatfileschemawizard-childelements2.gif "FlatFileSchemaWizard_ChildElements2")  
 
 6.  The child elements of the customer record are created as shown in the following screenshot. Click **Next** to define the child elements for the items record.  
 
-     ![Sample Schema screen](../core/media/flatfileschemawizard-schema2.gif "FlatFileSchemaWizard_Schema2")  
+     ![Image that shows the child elements of the customer record.](../core/media/flatfileschemawizard-schema2.gif "FlatFileSchemaWizard_Schema2")  
 
 #### Define the items record  
 
