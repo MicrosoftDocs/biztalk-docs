@@ -17,7 +17,7 @@ manager: "anneta"
 # AS/400 (APPC) Printing
 APPC printing, like LU 1 printing, uses SCS control codes in the data stream. The set of SCS control codes available for use in APPC printing is more extensive, and allows more formatting options than the set described for LU 1 printing. The IBM AS/400 also provides an additional method for formatting print jobs called Host Print Transform (HPT). With HPT enabled, the AS/400 takes responsibility for rendering the print job into data the printer can understand.  
   
- ![](../core/media/prn04.gif "prn04")  
+ ![Image that shows the APPC connection between AS/400 and Host Integration Server to send print job to local printer.](../core/media/prn04.gif "prn04")  
 APPC connection between AS/400 and Host Integration Server to send print job to local printer  
   
 ## Host Print Transform (HPT)  

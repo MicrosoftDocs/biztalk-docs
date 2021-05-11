@@ -19,7 +19,7 @@ The CICS LU6.2 User Data programming model provides direct invocations and data 
   
  The following figure summarizes the workflow occurring between the client, the default CICS Mirror Transaction, and the mainframe transaction program. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
   
- ![](../core/media/his-ti14.gif "his_ti14")  
+ ![Image that shows a Transaction Integrator sending and receiving LU 6.2 or TCP/IP from the mainframe transaction program.](../core/media/his-ti14.gif "his_ti14")  
 Transaction Integrator sending and receiving LU 6.2 or TCP/IP from the mainframe transaction program  
   
 ## Summary workflow diagram for the CICS LU6.2 User Data programming model  

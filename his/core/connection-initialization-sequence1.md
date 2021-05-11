@@ -19,7 +19,7 @@ When troubleshooting pending DLC Connections, it is helpful to review the connec
   
  The following diagram applies to both AS/400 and mainframe connections:  
   
- ![](../core/media/trb-handshake.gif "trb_handshake")  
+ ![Image that shows the connection initialization sequence.](../core/media/trb-handshake.gif "trb_handshake")  
 Connection initialization sequence  
   
  In this section are the following topics:  

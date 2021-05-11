@@ -90,7 +90,7 @@ The [Open(PLU) OK Response](./open-plu-oresponse2.md) contains the connection in
 
  The opening PLU sequence can fail if the application rejects the [Open(PLU) Request](./open-plu-request2.md) (for example, if the **BIND** parameters are unacceptable on a nonnegotiable **BIND**) by sending [Open(PLU) Error Response](./open-plu-error-response2.md) and appropriate sense codes. The local node sends to the host a negative response to the **BIND** request containing the supplied sense codes. The PLU connection is considered to be closed after an **Open(PLU) Error Response**, and the local node does not generate an **Open(PLU) Confirm**. The following figure shows a failure to open the PLU connection (for a nonnegotiable **BIND**), due to the application rejecting the **Open(PLU) Request**.  
 
- ![](../core/media/his-32703g.gif "his_32703g")  
+ ![Image that shows the failure to open the PLU connection process.](../core/media/his-32703g.gif "his_32703g")  
 Failure to open the PLU connection  
 
 - The opening PLU sequence can also fail if the **BIND** verification against the **BIND** check table entry specified by the application fails. In this case, the local node does the following: Sends to the host a negative response to the **BIND** request with appropriate sense codes.  
@@ -99,5 +99,5 @@ Failure to open the PLU connection
 
   The PLU connection is considered to be closed after the **Open(PLU) Error Confirm**. The following figure shows failure to open the PLU connection due to **BIND** verification failure. Note that error code 2 gives the index in the RU of the **BIND** parameter in error.  
 
-  ![](../core/media/his-32703ga.gif "his_32703ga")  
+  ![Image that shows the failure to open the PLU connection due to BIND verification failure process.](../core/media/his-32703ga.gif "his_32703ga")  
   Failure to open the PLU connection due to BIND verification failure

@@ -39,17 +39,17 @@ Either the application or the local node can terminate the primary logical unit 
   
   If the host generates an **UNBIND** automatically on receipt of a **TERM-SELF**, the application can view **Close(PLU)** as equivalent to the termination of the PLU-SLU session.  
   
-  ![](../core/media/his-32703h.gif "his_32703h")  
+  ![Image that shows a message sequence for an application-initiated Close.](../core/media/his-32703h.gif "his_32703h")  
   Message sequence for an application-initiated Close  
   
   The message flow for a local node-initiated **Close** after receiving an **UNBIND** request from the host is shown in the following figure.  
   
-  ![](../core/media/his-32703ha.gif "his_32703ha")  
+  ![Image that shows a message flow for a local node-initiated Close after receiving an UNBIND request.](../core/media/his-32703ha.gif "his_32703ha")  
   Message flow for a local node-initiated Close after receiving an UNBIND request  
   
   When an application is using the logical unit application (LUA) variant of the FMI, issuing a [Close(PLU) Request](./close-plu-request2.md) causes the node to immediately unbind the PLU session by sending an **UNBIND** request to the PLU. The **Close(PLU) Response** is returned to the application on receipt of the **UNBIND** response, as shown in the following figure.  
   
-  ![](../core/media/his-32703hb.gif "his_32703hb")  
+  ![Image that shows a message flow for the Close(PLU) Response.](../core/media/his-32703hb.gif "his_32703hb")  
   Message flow for the Close(PLU) Response  
   
 ## See Also  
