@@ -36,7 +36,7 @@ Application issues Status-Control(LUSTAT) when it has direction
   
  In the following figure, the application sends **Status-Control(LUSTAT)** request when receiving data between chain. Next, outbound data is delivered with **SDI** set, which gets converted to negative **RSP**.  
   
- ![Image that shows application issues Status-Control(LUSTAT) when it has direction.](../core/media/32703va.gif "32703va")  
+ ![Image that shows application issues Status-Control(LUSTAT) request when receiving data between chain.](../core/media/32703va.gif "32703va")  
 Application issues Status-Control(LUSTAT) request when receiving data between chain  
   
  In the following figure, the application sends several **Status-Control(LUSTAT)** requests when receiving data in chain. Next, outbound data is delivered with **SDI** set which gets converted to negative response. Subsequent **LUSTATs** are sent to host.  
