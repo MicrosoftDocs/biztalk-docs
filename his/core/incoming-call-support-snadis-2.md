@@ -29,5 +29,5 @@ The local node allows an SNALink to be set up to support incoming calls. In this
   
  The following figure shows incoming call support with an SNALink that supports two connections. A remote station calls in and uses connection A. The node sets up connection B for incoming calls but then needs to open connection C. Because the SNALink only supports two connections, connection B is closed.  
   
- ![](../core/media/dev3q.gif "dev3q")  
+ ![Image that shows call support with an SNALink that supports two connections.](../core/media/dev3q.gif "dev3q")  
 Call support with an SNALink that supports two connections

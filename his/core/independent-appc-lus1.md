@@ -21,7 +21,7 @@ In APPC, an independent LU can communicate directly with a peer system and does 
   
  The following figure illustrates how an independent local APPC LU can communicate directly with a peer system.  
   
- ![](../core/media/srvc06.gif "srvc06")  
+ ![Image that shows independent APPC LU communications with a peer system.](../core/media/srvc06.gif "srvc06")  
 Independent APPC LU communications with a peer system  
   
  Modes determine the interactions between TPs on an APPC-APPC connection. Modes can be assigned to an LU or supplied when the session is first established. For more information about modes, see [APPC Mode Definition](../core/appc-mode-definition2.md) later in this section.  

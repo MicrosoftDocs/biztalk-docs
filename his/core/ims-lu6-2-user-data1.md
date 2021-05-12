@@ -19,7 +19,7 @@ The IMS LU6.2 programming model provides access to IMS transactions using LU6.2.
   
  The following figure summarizes the workflow occurring between the client, the default IMS Listener, and the mainframe transaction program. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
   
- ![](../core/media/his-ti15.gif "his_ti15")  
+ ![Image that shows the Transaction Integrator sending and receiving LU 6.2 from MVS/APPC, which then sends and receives from the IMS message queue.](../core/media/his-ti15.gif "his_ti15")  
 Transaction Integrator sending and receiving LU 6.2 from MVS/APPC, which then sends and receives from the IMS message queue  
   
  **Summary workflow diagram for the IMS LU6.2 User Data programming model**  

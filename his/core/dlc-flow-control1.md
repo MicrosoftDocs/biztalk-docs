@@ -27,7 +27,7 @@ The flow of data messages at the data link control (DLC) interface for each link
   
  If the SNALink runs out of credit to send to the local node, it should either queue the data or discard it and send no acknowledgment. It should also start sending receive not ready (RNR), for example, when polled by a primary station. An example message flow with an Synchronous Data Link Control (SDLC) SNALink is shown in the following figure with an initial credit of 3. When the SNALink runs out of credit, it does not acknowledge any further frames and starts sending RNR.  
   
- ![](../core/media/dev3g.gif "dev3g")  
+ ![Image that shows the message flow with an SDLC SNALink with an initial credit of 3.](../core/media/dev3g.gif "dev3g")  
 Message flow with an SDLC SNALink with an initial credit of 3  
   
  For flow control from the local node to the SNALink, when the node runs out of credit, it queues the data and applies back pressure on sessions using that station. There is thus end-to-end flow control in this direction, independent of any SNA pacing that may be in force.  
@@ -36,5 +36,5 @@ Message flow with an SDLC SNALink with an initial credit of 3
   
  Flow control for the flow of data from the local node to the SNALink is shown in the following figure, where the initial credit is assumed to be 2.  
   
- ![](../core/media/dev3ga.gif "dev3ga")  
+ ![Image that shows the flow control for the flow of data from the local node to the SNALink.](../core/media/dev3ga.gif "dev3ga")  
 Flow control for the flow of data from the local node to the SNALink

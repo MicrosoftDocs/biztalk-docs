@@ -25,5 +25,5 @@ For a connection to a host computer using a leased synchronous data link control
   
  The message flow for a leased line is shown in the following figure.  
   
- ![](../core/media/dev3b.gif "dev3b")  
+ ![Image that shows the message flow for a leased line.](../core/media/dev3b.gif "dev3b")  
 Message flow for a leased line

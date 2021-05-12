@@ -35,17 +35,17 @@ The local node performs certain checks on data supplied by a client application 
   
  In the first figure, the application sends a **Data** message that passes the local node's send checks.  
   
- ![](../core/media/32703y.gif "32703y")  
+ ![Image that shows how an application sends a Data message that passes the local node's send checks.](../core/media/32703y.gif "32703y")  
 Application sends a Data message that passes the local node's send checks  
   
  In the following figure, the application sends a **Status-Acknowledge(Ack)** message that passes the local node's send checks.  
   
- ![](../core/media/32703ya.gif "32703ya")  
+ ![Image that shows how an application sends a Status-Acknowledge(Ack) message that passes the local node's send checks.](../core/media/32703ya.gif "32703ya")  
 Application sends a Status-Acknowledge(Ack) message that passes the local node's send checks  
   
  In the following figure, the application sends a **Status-Acknowledge(Nack-1)** message that passes the local node's send checks.  
   
- ![](../core/media/32703yb.gif "32703yb")  
+ ![Image that shows how an application sends a Status-Acknowledge(Nack-1) message that passes the local node's send checks.](../core/media/32703yb.gif "32703yb")  
 Application sends a Status-Acknowledge(Nack-1) message that passes the local node's send checks  
   
 ## See Also  
