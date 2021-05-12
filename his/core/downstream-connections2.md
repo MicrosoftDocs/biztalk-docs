@@ -17,7 +17,7 @@ manager: "anneta"
 # Downstream Connections
 In a hierarchical SNA environment, you configure 3270 communications between SNA nodes using SNA protocols. Usually those nodes are Host Integration Server computers and mainframes. A downstream system, however, is an SNA node that uses Host Integration Server as a physical unit (PU) gateway. To the downstream system, the Host Integration Server computer appears to be the actual mainframe providing the PUs and 3270 LUs. The following figure illustrates a downstream system.  
   
- ![](../core/media/pln04.gif "pln04")  
+ ![Image that shows a downstream system.](../core/media/pln04.gif "pln04")  
 Diagram of a downstream system  
   
  A downstream system in this type of environment must be a PU 2 device, for instance, a cluster controller like an IBM 3745, or a client personal computer running a terminal emulator that emulates a PU 2 and acquires LU sessions from the Host Integration Server computer.  

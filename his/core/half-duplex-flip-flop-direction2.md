@@ -41,17 +41,17 @@ The **BIND** used to establish the session carries information about the initial
   
   In the first figure, the application issues and receives the CD without error.  
   
-  ![](../core/media/his-32703m.gif "his_32703m")  
+  ![Image that shows application issues and receives the CD without error.](../core/media/his-32703m.gif "his_32703m")  
   Application issues and receives the CD without error  
   
   In the following figure, the host sends a negative response to inbound data. The application assumes receive state, and then the host sends CD to give the application direction.  
   
-  ![](../core/media/his-32703ma.gif "his_32703ma")  
+  ![Image that shows a host send a negative response to inbound data.](../core/media/his-32703ma.gif "his_32703ma")  
   Host sends negative response to inbound data  
   
   In the following figure, a complete outbound chain is received without error, but is rejected by the application. Note that even though the chain carried CD, the application does not have direction.  
   
-  ![](../core/media/his-32703mb.gif "his_32703mb")  
+  ![Image that shows a complete outbound chain received without error, but is rejected by application.](../core/media/his-32703mb.gif "his_32703mb")  
   Complete outbound chain received without error, but is rejected by application  
   
 ## See Also  

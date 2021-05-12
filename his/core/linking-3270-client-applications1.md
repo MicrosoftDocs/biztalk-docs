@@ -23,5 +23,5 @@ This topic describes how to link 3270 client applications using different platfo
   
  It is possible to create a DLL that is dynamically loaded when the user starts a session for an LU. In this case, to make the log and trace macros available, the application structure needs to be as shown in the following figure.  
   
- ![](../core/media/32708a.gif "32708a")  
+ ![Image that shows the application structure.](../core/media/32708a.gif "32708a")  
 Application Structure

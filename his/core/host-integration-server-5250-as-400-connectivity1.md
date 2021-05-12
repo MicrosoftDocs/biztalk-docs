@@ -19,7 +19,7 @@ In the peer-oriented SNA network model, all computers on the network can communi
   
  IBM AS/400 computers use the 52xx series of devices. In particular, 5250 describes the terminal display data stream. The Advanced Program-to-Program Communications (APPC) protocol is used to support 5250 terminals and other APPN network computers, devices, and programs to communicate with each other. Each device in an APPN network is known as a type 2.1 physical unit (PU 2.1). In addition, the APPC protocol defines associated logical units as APPC LUs (also called LU 6.2).  
   
- ![](../core/media/srvc05.gif "srvc05")  
+ ![Image that shows communications in a peer-oriented network.](../core/media/srvc05.gif "srvc05")  
 Communications in a peer-oriented network  
   
  In an APPN network, Host Integration Server computers emulate PU 2.1 devices and can connect to an AS/400 using several connection methods:  

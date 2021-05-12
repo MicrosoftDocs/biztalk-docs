@@ -17,5 +17,5 @@ manager: "anneta"
 # Fixed Link Roles
 The following figure shows the sequence of messages for a peer connection where the local end is configured as the primary station and the remote end is configured as the secondary.  
   
- ![](../core/media/dev3d.gif "dev3d")  
+ ![Image that shows the sequence of messages from a peer connection where the local end is configured as the primary station.](../core/media/dev3d.gif "dev3d")  
 Sequence of messages from a peer connection where the local end is configured as the primary station

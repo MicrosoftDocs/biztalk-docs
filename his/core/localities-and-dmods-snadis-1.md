@@ -21,7 +21,7 @@ A Base and its components (that is, a Host Integration Server executable program
   
  Dynamic localities communicate using the Dynamic Access Module (DMOD) component, which provides the communications facilities needed to pass messages between the Bases. This is illustrated in the following figure.  
   
- ![](../core/media/his-32701a.gif "his_32701a")  
+ ![Image that shows dynamic localities communicating using the DMOD component.](../core/media/his-32701a.gif "his_32701a")  
 Dynamic localities communicating using the DMOD component  
   
  This figure shows a system consisting of three dynamic localities. Dynamic localities can enter or leave this system at any time.

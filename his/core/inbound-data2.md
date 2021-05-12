@@ -97,27 +97,27 @@ This section describes inbound data flows from the application to the local node
   
   In the following figure, the application successfully sends a **Data** message.  
   
-  ![](../core/media/32703x.gif "32703x")  
+  ![Image that shows how an application successfully sends a Data message.](../core/media/32703x.gif "32703x")  
   Application successfully sends a Data message  
   
   In the following figure, the application successfully sends a chain of **Data** messages.  
   
-  ![](../core/media/32703xa.gif "32703xa")  
+  ![Image that shows how an application successfully sends a chain of Data messages.](../core/media/32703xa.gif "32703xa")  
   Application successfully sends a chain of Data messages  
   
   In the following figure, the host rejects a chain of **Data** messages.  
   
-  ![](../core/media/32703xb.gif "32703xb")  
+  ![Image that shows how a host rejects a chain of Data messages.](../core/media/32703xb.gif "32703xb")  
   Host rejects a chain of Data messages  
   
   In the following figure, the host rejects the first definite-response chain and rejects the third exception-response chain on a delayed request session. Note that the negative response to the third chain implies a positive response to the second chain.  
   
-  ![](../core/media/32703xc.gif "32703xc")  
+  ![Image that shows how a host rejects the first definite-response chain.](../core/media/32703xc.gif "32703xc")  
   Host rejects the first definite-response chain  
   
   In the following figure, the local node detects the application's invalid use of **ACKRQD** without the ECI application flag on a **Data** message. Note that no data is sent to the host. However, because the error is critical, the local node will send a **TERM-SELF** message to the SSCP.  
   
-  ![](../core/media/32703xd.gif "32703xd")  
+  ![Image that shows how a local node detects the application's invalid use of ACKRDQ without the ECI application flag on a Data message.](../core/media/32703xd.gif "32703xd")  
   Local node detects the application's invalid use of ACKRDQ without the ECI application flag on a Data message  
   
 ## See Also  
