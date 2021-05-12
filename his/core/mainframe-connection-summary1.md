@@ -19,7 +19,7 @@ The hierarchical SNA network model provides access to a centralized processing r
   
  Devices in a hierarchical SNA network, such as terminals or cluster controllers, are called physical units (PUs). A number designates each class of device. For example, the mainframe is known as a PU 5 device.  
   
- ![](../core/media/dep06.gif "dep06")  
+ ![Image that shows a network model of a Host Integration Server connecting to a mainframe and to a front-end processor.](../core/media/dep06.gif "dep06")  
 Diagram of network model showing Host Integration Server connecting to a mainframe and to a front-end processor. Also shows supported protocols.  
   
  Host Integration Server can directly connect to the mainframe if a high-performance connection is required. These physical connection methods are available:  

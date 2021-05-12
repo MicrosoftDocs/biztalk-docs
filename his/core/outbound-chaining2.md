@@ -49,22 +49,22 @@ The local node checks that outbound chains of requests conform to the correct SN
   
   In the first figure, a complete outbound chain is received without error and accepted by the application. Note that after sending **Status-Acknowledge(Ack)**, the application has direction.  
   
-  ![](../core/media/his-32703i.gif "his_32703i")  
+  ![Image that shows an outbound chain received without error and accepted by the application.](../core/media/his-32703i.gif "his_32703i")  
   Outbound chain received without error and accepted by the application  
   
   In the following figure, a complete outbound chain is received without error, but is rejected by the application. Note that even though the chain carried CD, the application does not have direction.  
   
-  ![](../core/media/his-32703ia.gif "his_32703ia")  
+  ![Image that shows an outbound chain received without error, but is rejected by the application.](../core/media/his-32703ia.gif "his_32703ia")  
   Outbound chain received without error, but is rejected by the application  
   
   In the following figure, the local node detects the invalid use of RQD without EC and converts the request to a **Data** message with the SDI application flag set, plus ACKRQD and appropriate sense codes. The application's **Status-Acknowledge(Ack)** drives the negative response to the host. This example assumes that the receive check 4007 has been specified in the CICB on the **Open (SSCP)**.  
   
-  ![](../core/media/his-32703ib.gif "his_32703ib")  
+  ![Image that shows a local node detects invalid use and converts request.](../core/media/his-32703ib.gif "his_32703ib")  
   Local node detects invalid use and converts request  
   
   In the following figure, the host cancels the outbound chain.  
   
-  ![](../core/media/his-32703ic.gif "his_32703ic")  
+  ![Image that shows a host canceling the outbound chain.](../core/media/his-32703ic.gif "his_32703ic")  
   Host canceling the outbound chain  
   
 ## See Also  

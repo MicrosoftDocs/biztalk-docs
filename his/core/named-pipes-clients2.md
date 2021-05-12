@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Named Pipes Clients
-![](../core/media/ref11.gif "ref11")  
+![Image that shows how a Microsoft Networking client can connect to the mainframe.](../core/media/ref11.gif "ref11")  
 Diagram showing how a Microsoft Networking client can connect to the mainframe  
   
  A Microsoft Networking (Named Pipes) client uses the following procedure for connecting to the mainframe:  
