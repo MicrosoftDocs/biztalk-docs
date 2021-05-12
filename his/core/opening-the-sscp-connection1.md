@@ -19,7 +19,7 @@ An application gains access to the system services control point (SSCP) session 
   
  The following figure shows the message flow. For a figure showing a more detailed message flow, including locality, partner, index (LPI) values used during initialization of both the SSCP and primary logical unit (PLU) sessions, see [Opening the PLU Connection](../core/opening-the-plu-connection1.md).  
   
- ![](../core/media/his-32703c.gif "his_32703c")  
+ ![Image that shows the message flow between a local node and an application.](../core/media/his-32703c.gif "his_32703c")  
 Message flow between a local node and an application  
   
 ## In This Section  

@@ -45,12 +45,12 @@ If the application has enough resources to handle outbound data as fast as the n
   
   The following figure shows the local node handling outbound pacing when the application is not involved (APPLPAC = 0x00). The pacing window is assumed to be two.  
   
-  ![](../core/media/his-32703o.gif "his_32703o")  
+  ![Image that shows a local node handling outbound pacing.](../core/media/his-32703o.gif "his_32703o")  
   Local node handling outbound pacing  
   
   The following figure shows the local node and the application handling outbound pacing with the outbound pacing window assumed to be two and the initial credit from the local node to the application assumed to be four. Note that the local node can send an isolated pacing response (IPR) to the host to get another window full of data as soon as the application has sufficient credit for the rest of the present window and the next window.  
   
-  ![](../core/media/his-32703oa.gif "his_32703oa")  
+  ![Image that shows a local node and application handling outbound pacing.](../core/media/his-32703oa.gif "his_32703oa")  
   Local node and application handling outbound pacing  
   
 ## See Also  

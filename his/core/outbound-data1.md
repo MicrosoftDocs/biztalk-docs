@@ -89,32 +89,32 @@ This section describes the outbound data flows from the local node to the applic
   
   In the following figure, the application accepts a **Data** message corresponding to a definite-response RU.  
   
-  ![](../core/media/32703w.gif "32703w")  
+  ![Image that shows how an application sends a Data message corresponding to a definite-response RU.](../core/media/32703w.gif "32703w")  
   Application sends a Data message corresponding to a definite-response RU  
   
   In the following figure, the application accepts a **Data** message corresponding to a multi-RU definite-response chain.  
   
-  ![](../core/media/32703wa.gif "32703wa")  
+  ![Image that shows how an application accepts a Data message corresponding to a multi-RU definite-response chain.](../core/media/32703wa.gif "32703wa")  
   Application accepts a Data message corresponding to a multi-RU definite-response chain  
   
   In the following figure, the application rejects a **Data** message corresponding to a definite-response chain.  
   
-  ![](../core/media/32703wb.gif "32703wb")  
+  ![Image that shows how an application rejects a Data message corresponding to a definite-response chain.](../core/media/32703wb.gif "32703wb")  
   Application rejects a Data message corresponding to a definite-response chain  
   
   In the following figure, the application rejects a **Data** message corresponding to a multi-RU definite-response chain.  
   
-  ![](../core/media/32703wc.gif "32703wc")  
+  ![Image that shows how an application rejects a Data message corresponding to a multi-RU definite-response chain.](../core/media/32703wc.gif "32703wc")  
   Application rejects a Data message corresponding to a multi-RU definite-response chain  
   
   In the following figure, the local node enforces immediate response mode. Responses must be sent in sequence. The application rejects the second exception-response chain and accepts the definite-response chain, which implies acceptance of the third exception-response chain.  
   
-  ![](../core/media/32703wd.gif "32703wd")  
+  ![Image that shows a local node enforces immediate response mode.](../core/media/32703wd.gif "32703wd")  
   Local node enforces immediate response mode  
   
   In the following figure, the local node detects a chaining error (RQD but not EC) in data destined for the application. (This example requires the receive check 0x4007 to be in force. For more information, see [Opening the SSCP Connection](../core/opening-the-sscp-connection1.md).)  
   
-  ![](../core/media/32703we.gif "32703we")  
+  ![Image that shows how a local node detects a chaining error in data destined for the application.](../core/media/32703we.gif "32703we")  
   Local node detects a chaining error in data destined for the application  
   
 ## See Also  

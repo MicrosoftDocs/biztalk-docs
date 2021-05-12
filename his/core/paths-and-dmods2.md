@@ -23,5 +23,5 @@ Dynamic Access Modules (DMODs) are responsible for the communication between loc
   
  The following figure illustrates the paths and connections between an SNA services local node and two 3270 emulation programs. Program A has two connections to the local node (one for each of two sessions). Program B has one connection to the local node.  
   
- ![](../core/media/his-32701c.gif "his_32701c")  
+ ![Image that shows paths and connections between an SNA server local node and two 3270 emulation programs.](../core/media/his-32701c.gif "his_32701c")  
 Paths and connections between an SNA server local node and two 3270 emulation programs

@@ -22,7 +22,7 @@ The OS/400 Remote Command and Distributed Program Calls (DPC) programming model 
   
  The following figure summarizes the workflow occurring between the client, the default DPC Server, and the AS/400 transaction program. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
   
- ![](../core/media/his-ti12.gif "his_ti12")  
+ ![Image that shows the AS/400 model flow.](../core/media/his-ti12.gif "his_ti12")  
 AS/400 model flow  
   
 ## Summary Workflow Diagram for the OS/400 DPC Programming Model  
