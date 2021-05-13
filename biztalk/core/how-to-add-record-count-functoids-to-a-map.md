@@ -26,7 +26,7 @@ The **Record Count** functoid enables you to generate a count of the number of t
   
     The list of advanced functoids in the chosen category appears.  
   
-2. Drag the **Record Count** functoid (![](../core/media/bts-tls-recordcount.gif "bts_tls_recordcount")) from the Toolbox to the appropriate location on a grid page.  
+2. Drag the **Record Count** functoid (![Image that represents the Record Count functoid.](../core/media/bts-tls-recordcount.gif "bts_tls_recordcount")) from the Toolbox to the appropriate location on a grid page.  
   
    > [!NOTE]
    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display the other grid page first.  

@@ -59,7 +59,7 @@ The TIBCO Rendezvous Transport property is used for run time. In the **Transport
  
 1.  On the **TIBCO Rendezvous Transport Properties** screen, expand **Certified Sender Properties** and enter the following information.  
   
-     ![](../core/media/sadp-tibcoren-transs.gif "SAdp_TibcoRen_Transs")  
+     ![Image that shows where to expand Certified Sender Properties.](../core/media/sadp-tibcoren-transs.gif "SAdp_TibcoRen_Transs")  
   
     |Use this|To do this|  
     |--------------|----------------|  

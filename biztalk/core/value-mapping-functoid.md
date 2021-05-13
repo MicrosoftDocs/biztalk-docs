@@ -24,7 +24,7 @@ The **Value Mapping** functoid returns the value of its second parameter if its 
   
  The following figure shows a map with the **Value Mapping** functoid used to change the attributes of a field into the attributes of a record.  
   
- ![](../core/media/valuemappingfunctoid.gif "valuemappingfunctoid")  
+ ![Image that shows a map with the Value Mapping functoid used to change the attributes of a field into the attributes of a record.](../core/media/valuemappingfunctoid.gif "valuemappingfunctoid")  
 Value Mapping Functoid Map  
   
  The following code shows an input instance message in which pairs of names and values are assigned to **Name** and **Value** attributes.  

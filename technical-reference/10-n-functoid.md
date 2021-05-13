@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **10^n** functoid ( ![](images/Aa547865.34aadbe8-9246-43d9-a8f9-a412570c60af(BTS.80).jpeg)) to return the number 10 raised to a specified power.
+Use the **10^n** functoid ( ![Icon used to return the number 10 raised to a specified power.](images/Aa547865.34aadbe8-9246-43d9-a8f9-a412570c60af(BTS.80).jpeg)) to return the number 10 raised to a specified power.
 
 ## Input
 

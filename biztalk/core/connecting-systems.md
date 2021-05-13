@@ -64,7 +64,7 @@ The effective exchange of messages across different software on different machin
   
  For example, even though more applications are being designed to understand XML documents, many—probably the majority today—cannot. Because BizTalk Server works only with XML documents internally, it must provide a way to convert other formats to and from XML. Other services may also be required, such as authenticating the sender of a message. To handle these and other tasks in a modular, yet customizable way, a pipeline is constructed from some number of stages, each of which contains one or more .NET-enabled or Component Object Model (COM) components. Each component handles a particular part of message processing. BizTalk Server provides several standard components that address the most common cases. If these aren’t sufficient, developers can also create custom components for both receive and send pipelines.  
   
- ![](../core/media/understandingbts-05-pipelinereceive.gif "UnderstandingBTS_05_PipelineReceive")  
+ ![Image that shows the receive pipeline.](../core/media/understandingbts-05-pipelinereceive.gif "UnderstandingBTS_05_PipelineReceive")  
   
  The figure above illustrates the stages in a receive pipeline, along with the standard components provided for each one. Those stages and their associated components are:  
   
@@ -76,7 +76,7 @@ The effective exchange of messages across different software on different machin
   
 - Resolve Party: the only standard component for this stage, Party Resolution, attempts to determine an identity for this message’s sender. If the message was digitally signed, the signature is used to look up a Windows identity in the Management database in BizTalk Server. (As described later, this database is also used by BizTalk Server’s management tools.) If the message carries the authenticated security identifier (SID) of a Windows user, this identity is used. If neither mechanism succeeds, the message’s sender is assigned a default anonymous identity.  
   
-  ![](../core/media/understandingbts-06-pipelinesend.gif "UnderstandingBTS_06_PipelineSend")  
+  ![Image that shows the send pipeline.](../core/media/understandingbts-06-pipelinesend.gif "UnderstandingBTS_06_PipelineSend")  
   
   Outgoing messages can also go through multiple stages, as defined by the send pipeline in use. The figure above shows the stages and standard components for a send pipeline. They are:  
   

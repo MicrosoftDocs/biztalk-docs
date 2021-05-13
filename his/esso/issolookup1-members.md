@@ -21,7 +21,7 @@ The following table shows the ISSOLookup1 member.
   
 |Member|Description|  
 |------------|-----------------|  
-|![](../esso/media/pubmethod.gif "pubmethod") [GetCredentials](../esso/issolookup1-getcredentials-method.md)|Retrieves the user credentials for an application.|  
+|![Icon used to retrieve the user credentials for an application.](../esso/media/pubmethod.gif "pubmethod") [GetCredentials](../esso/issolookup1-getcredentials-method.md)|Retrieves the user credentials for an application.|  
   
 ## See Also  
  [ISSOLookup1 Interface (COM)](../esso/issolookup1-interface-com.md)   

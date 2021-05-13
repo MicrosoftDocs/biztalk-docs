@@ -19,7 +19,7 @@ Common Programming Interface for Communications (CPI-C) is an application progra
   
  CPI-C programming provides a mechanism called client-side information that associates a set of parameters with a specified CPI-C symbolic destination name. The CPI-C program uses the symbolic destination name to initialize a conversation using APPC LUs that are associated with the CPI-C symbolic name.  
   
- ![](../core/media/pln08.gif "pln08")  
+ ![Image that shows CPI-C symbolic names.](../core/media/pln08.gif "pln08")  
 Diagram showing CPI-C symbolic names  
   
  Host Integration Server supports the CPI-C API and provides for configuration of CPI-C parameters. These parameters allow applications on the Host Integration Server systems to communicate with applications on any platform that supports APPC communications and CPI-C including mainframes, AS/400s, Windows systems, and UNIX systems.  

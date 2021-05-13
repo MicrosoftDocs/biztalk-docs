@@ -29,7 +29,7 @@ The TCP transaction request message (TRM) Link model allows data and parameters 
   
   The following figure summarizes the workflow occurring between the client, the standard CICS Listener, the Concurrent Server, and the mainframe transaction program. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
   
-  ![](../core/media/his-ti05.gif "his_ti05")  
+  ![Image that shows the process by which the client starts the default Listener.](../core/media/his-ti05.gif "his_ti05")  
   Process by which the client starts the default Listener, which passes the call to the concurrent server, which then sends and receives data from the client, which the server then passes to the CICS DPL program for processing by the business logic  
   
 ## Summary Workflow for the TCP TRM Link Programming Model  

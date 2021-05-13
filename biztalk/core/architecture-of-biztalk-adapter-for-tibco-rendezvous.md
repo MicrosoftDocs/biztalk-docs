@@ -31,7 +31,7 @@ Microsoft BizTalk Adapter for TIBCO Rendezvous provides bi-directional connectiv
   
   The following figure shows the architecture for BizTalk Adapter for TIBCO Rendezvous.  
   
-  ![](../core/media/tibcorend-arch.gif "TibcoRend_Arch")  
+  ![Image that shows the architecture for BizTalk Adapter for TIBCO Rendezvous.](../core/media/tibcorend-arch.gif "TibcoRend_Arch")  
   
 ## See Also  
  [Getting Started](../core/getting-started-with-biztalk-adapter-for-tibco-rendezvous.md)  

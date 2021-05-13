@@ -19,7 +19,7 @@ A dependent local APPC LU requires the support of a mainframe to communicate wit
   
  The next figure illustrates how a dependent APPC LU can communicate with the host.  
   
- ![](../core/media/srvc07.gif "srvc07")  
+ ![Image that shows dependent APPC LU communications with the host.](../core/media/srvc07.gif "srvc07")  
 Dependent APPC LU communications with the host  
   
  Dependent local LUs have the following characteristics:  

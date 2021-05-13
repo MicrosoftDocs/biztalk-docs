@@ -20,7 +20,7 @@ When a receive adapter accepts an incoming data packet through its protocol, it 
   
  A message has one or more message parts represented by the **IBaseMessagePart** interface. Each message part has a reference to its data through an **IStream** interface pointer. The context of a message is represented by its **IBaseMessageContext** interface. The following figure illustrates the BizTalk message object model.  
   
- ![](../core/media/ibasemessagestructure.gif "IBaseMessageStructure")  
+ ![Image that shows the BizTalk message object model.](../core/media/ibasemessagestructure.gif "IBaseMessageStructure")  
   
  The message context is a dictionary that is keyed on a combination of the property name and the property namespace. This prevents collisions between similarly named properties from different sources, for example, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] system properties and custom adapter properties. The values for these properties are of the .NET type **object**, but in fact these properties are VARIANTs.  
   

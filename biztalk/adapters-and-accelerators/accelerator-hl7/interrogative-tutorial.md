@@ -28,7 +28,7 @@ This tutorial contains detailed steps that describe how you use Microsoft [!INCL
 ## Interrogative Scenario  
  This tutorial uses the Query/Response or Interrogative scenario. In this scenario, the flow of business is similar to that shown in the following figure. The numbered list following the figure describes the workflow.  
   
- ![](../../adapters-and-accelerators/accelerator-hl7/media/hl7-intertutorial.gif "hl7_intertutorial")  
+ ![Diagram that shows the BTAHL7 Interrogative Tutorial workflow.](../../adapters-and-accelerators/accelerator-hl7/media/hl7-intertutorial.gif "hl7_intertutorial")  
   
 1.  The workflow begins when an Admissions Discharge and Transfer (ADT) system sends a query to the Hospital Information System. The HL7 message uses the "**QRY^Q01**" schema. In the tutorial, the MllpSend utility simulates the ADT system sending the query message to the Hospital Information System through the ADT receive port in the BTAHL7 Integration Engine.  
   

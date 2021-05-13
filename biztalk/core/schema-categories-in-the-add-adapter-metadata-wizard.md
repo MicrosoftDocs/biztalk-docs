@@ -29,7 +29,7 @@ manager: "anneta"
   
  The following figure shows the **Select Services to Import** page in the Add Adapter Metadata Wizard.  
   
- ![](../core/media/ebiz-prog-custad-tree.gif "ebiz_prog_custad_tree")  
+ ![Image that shows the Select Services to Import page in the Add Adapter Metadata Wizard.](../core/media/ebiz-prog-custad-tree.gif "ebiz_prog_custad_tree")  
 Tree view of the schema categories in the Add Adapter Metadata Wizard  
 
 

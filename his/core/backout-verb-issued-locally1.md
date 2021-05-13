@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # BACKOUT Verb Issued Locally
-![](../core/media/appc2db.gif "appc2db")  
+![Image that shows how the BACKOUT verb is issued locally.](../core/media/appc2db.gif "appc2db")  
 BACKOUT verb issued locally.  
   
 1.  The local transaction program issues a [RECEIVE_AND_WAIT](./receive-and-wait2.md) or [MC_RECEIVE_AND_WAIT](./mc-receive-and-wait2.md) verb (depending on whether a basic or mapped conversation is being used) to receive data from the remote transaction program. The vendor API passes the verb transparently to Host Integration Server.  

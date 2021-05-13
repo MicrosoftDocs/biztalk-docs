@@ -19,12 +19,12 @@ After you determine the server-to-host connection, you must choose the protocols
   
  Deploying a single protocol across your wide area network (WAN) is the easiest way to manage your communications. The following figure shows a network in which TCP/IP is used for all types of communication involving Host Integration Server computers and clients.  
   
- ![](../core/media/dep08.gif "dep08")  
+ ![Image that shows a network using TCP/IP for both server-to-server and server-to-client communication.](../core/media/dep08.gif "dep08")  
 Diagram of network using TCP/IP for both server-to-server and server-to-client communication  
   
  You may decide to gradually implement Host Integration Server throughout your enterprise, in which case you may need to use existing protocols for certain connections.  
   
- ![](../core/media/dep09.gif "dep09")  
+ ![Image that shows a network using NetBEUI for server-to-server communication and for server-to-client communication.](../core/media/dep09.gif "dep09")  
 Diagram of network using NetBEUI for server-to-server communication and for server-to-client communication  
   
 ## In This Section  

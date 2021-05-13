@@ -25,12 +25,12 @@ For half-duplex contention, the initial direction state is contention. Half-dupl
   
  In the following figure, the application issues and receives data using half-duplex contention protocol without error.  
   
- ![](../core/media/his-32703n.gif "his_32703n")  
+ ![Image that shows application issues and receives data using half-duplex contention protocol without error.](../core/media/his-32703n.gif "his_32703n")  
 Application issues and receives data using half-duplex contention protocol without error  
   
  In the following figure, the half-duplex contention race is resolved in favor of the application.  
   
- ![](../core/media/his-32703na.gif "his_32703na")  
+ ![Image that shows how to resolve half-duplex contention race in favor of the application.](../core/media/his-32703na.gif "his_32703na")  
 Resolving half-duplex contention race in favor of the application  
   
 ## See Also  

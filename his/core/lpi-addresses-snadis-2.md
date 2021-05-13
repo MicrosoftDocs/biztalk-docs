@@ -33,17 +33,17 @@ A locality, partner, index (LPI) address is used to identify each end of a conne
   
   The following three figures show an example of the L values that could be used between the components shown in [Paths and DMODs (SNADIS)](../core/paths-and-dmods-snadis-1.md), and examples of the LPI values that would be used by the local node on messages flowing between the components.  
   
-  ![](../core/media/his-32701d.gif "his_32701d")  
+  ![Image that shows example L values.](../core/media/his-32701d.gif "his_32701d")  
   Sample L values  
   
   The following figure shows L values specified on messages between the local node and SNALink A.  
   
-  ![](../core/media/dev1g.gif "dev1g")  
+  ![Image that shows L values specified on messages between the local node and SNALink A.](../core/media/dev1g.gif "dev1g")  
   L values specified on messages between the local node and SNALink A  
   
   The following figure shows LPI values specified on messages flowing on two different connections between the local node and SNALink A.  
   
-  ![](../core/media/dev1h.gif "dev1h")  
+  ![Image that shows LPI values specified on messages flowing on two different connections.](../core/media/dev1h.gif "dev1h")  
   LPI values specified on messages flowing on two different connections  
   
   The Base is called by any piece of code that wants to send a message. It uses the destination L value on the message to determine where to send it. When the message gets to the remote locality, the Base in that locality routes it to the appropriate service if the locality contains more than one service.

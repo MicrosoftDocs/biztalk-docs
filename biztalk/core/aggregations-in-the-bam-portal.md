@@ -37,7 +37,7 @@ Aggregations are tables of precalculated data you can use for analytical process
 > [!NOTE]
 >  When viewing a PivotTable report it is possible that some rows could contain null data in both real-time aggregations (RTAs) and precalculated aggregations (an OLAP implementation) if the milestones in the activity have been reached but are not used in the progress dimension. It is also possible to encounter rows with null data if the time dimension is used in the context of a progress dimension and is anchored to a milestone such as "acknowledged" instead of "received." In this case an activity instance is received and triggers the received milestone, but the activity has not yet triggered the acknowledge milestone and a zero will appear in the time dimension row.  To avoid this situation, link the time dimension up to the received milestone.
 
- ![](../core/media/aggregationpivottabletotal.gif "AggregationPivotTableTotal")
+ ![Image that shows the pivot table view.](../core/media/aggregationpivottabletotal.gif "AggregationPivotTableTotal")
 
  Keep these points in mind when using the Office Web Components in the BAM portal to modify your PivotTable report:
 
@@ -50,7 +50,7 @@ Aggregations are tables of precalculated data you can use for analytical process
 ## Chart View
  The Chart View area displays the aggregation in a graphical manner. The Office Web Components allow you to manipulate the details of the aggregation through the chart view to adjust the reported data as needed. When you adjust the aggregation by dragging and dropping data items from the Chart Field list, the PivotTable report for the aggregation is automatically updated to reflect your changes. You can drill through the PivotTable to create an alert on the new aggregation view.
 
- ![](../core/media/aggregationchartview.gif "AggregationChartView")
+ ![Image that shows the aggregation chart view.](../core/media/aggregationchartview.gif "AggregationChartView")
 
 ## More
 

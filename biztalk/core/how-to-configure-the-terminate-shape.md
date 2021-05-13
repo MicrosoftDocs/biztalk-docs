@@ -22,7 +22,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Terminate Shape
-![](../core/media/ebiz-orch-terminate.gif "ebiz_orch_terminate")  
+![Image that represents the Terminate shape.](../core/media/ebiz-orch-terminate.gif "ebiz_orch_terminate")  
 Terminate shape  
   
  The Terminate shape is used to end an orchestration instance. You can specify a message string to accompany the shape when viewed in the output from the Group Hub page.  

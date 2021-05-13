@@ -23,7 +23,7 @@ In some cases, specific slices of the multidimensional aggregations are so time-
   
  BAM implements real-time aggregation (RTA) as a table maintained by triggers from the activity storage tables. In the case when your business deals with purchase orders (PO), the RTA view may look like the example in the following figure.  
   
- ![](../core/media/bam-realtime-aggregations.gif "bam_realtime_aggregations")  
+ ![Image that shows an example of the RTA view.](../core/media/bam-realtime-aggregations.gif "bam_realtime_aggregations")  
 BAM Real-time Aggregations  
   
  In this figure, if a new PO of $100 from Redmond is received, BAM adds a contribution to the cells in the corresponding row for {Redmond, InProcess} by performing an operation like `Count=Count+1` and `Amount=Amount+$100`.  

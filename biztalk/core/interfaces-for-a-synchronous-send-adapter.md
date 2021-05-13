@@ -32,7 +32,7 @@ An adapter sends messages synchronously when it blocks the incoming Messaging En
   
   The following figure shows the object interactions involved in creating a synchronous send adapter.  
   
-  ![](../core/media/ebiz-sdk-devadapter4.gif "ebiz_sdk_devadapter4")  
+  ![Image that shows the object interactions involved in creating a synchronous send adapter.](../core/media/ebiz-sdk-devadapter4.gif "ebiz_sdk_devadapter4")  
   Workflow for sending a message synchronously  
   
 ## See Also  

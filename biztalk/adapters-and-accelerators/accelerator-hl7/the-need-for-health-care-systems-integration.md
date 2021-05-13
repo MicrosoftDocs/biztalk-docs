@@ -26,7 +26,7 @@ Health care organizations are complex business entities with many distinct, but 
   
  The following figure shows how many departments may communicate with each other, creating a complex system.  
   
- ![](../../adapters-and-accelerators/accelerator-hl7/media/hl7-no-btahl7.gif "hl7_no_btahl7")  
+ ![Image that shows how many departments may communicate with each other.](../../adapters-and-accelerators/accelerator-hl7/media/hl7-no-btahl7.gif "hl7_no_btahl7")  
   
  Many of these departments also have distinct business processes. The personnel in a department may have created, implemented, and maintained their own processes. These processes may affect other departments, but the personnel may not have designed them with the other departments in mind.  
   
@@ -39,7 +39,7 @@ Technology can help solve the business challenges related to business process an
 ### Integration  
  Even if the processes of separate parts of a health care organization are not inherently compatible, you can integrate them. You can tie them together with technology that transforms a system characterized by point-to-point connections (as shown in the Health Care Business Challenge figure (in this topic) to one based on a hub-and-spoke arrangement, as shown in the following figure.  
   
- ![](../../adapters-and-accelerators/accelerator-hl7/media/hl7-yes-btahl7.gif "hl7_yes_btahl7")  
+ ![Image that shows the integration with BizTalk Accelerator.](../../adapters-and-accelerators/accelerator-hl7/media/hl7-yes-btahl7.gif "hl7_yes_btahl7")  
   
 [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)] achieves this integration by connecting to each separate department or entity, and providing the mechanisms that bind the processes together, resolving their differences. It also automates data exchange, so that business processes can run with a minimum of human intervention.  
   

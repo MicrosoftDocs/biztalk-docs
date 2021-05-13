@@ -21,7 +21,7 @@ The method of the **ISSOLookup1** interface is listed in the following table. Fo
   
 |Method|Description|  
 |------------|-----------------|  
-|![](../esso/media/pubmethod.gif "pubmethod") [GetCredentials](../esso/issolookup1-getcredentials-method.md)|Retrieves the user credentials for an application.|  
+|![Icon used to retrieve the user credentials for an application.](../esso/media/pubmethod.gif "pubmethod") [GetCredentials](../esso/issolookup1-getcredentials-method.md)|Retrieves the user credentials for an application.|  
   
 ## See Also  
  [ISSOLookup1 Interface (COM)](../esso/issolookup1-interface-com.md)   

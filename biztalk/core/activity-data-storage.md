@@ -47,7 +47,7 @@ This topic describes activity data storage, the performance problems caused by t
   
  The performance of this simplistic implementation quickly degrades over time. In the beginning, the performance is limited by the number of the transactions the SQL server can perform (essentially CPU bound), but after some time, it drops drastically. At the same time, the average queue length for disk IO increases beyond the acceptable limits:  
   
- ![](../core/media/ebiz-prog-bam-data-maint-fig4.gif "ebiz_prog_bam_data_maint_fig4")  
+ ![Screenshot that shows how the average queue length for disk IO increases beyond the acceptable limits.](../core/media/ebiz-prog-bam-data-maint-fig4.gif "ebiz_prog_bam_data_maint_fig4")  
 BAM Write Performance versus Disk Queue Length  
   
  The reason for this is that the size of the table grows as more instances of the business process complete. For example, the first time, the UPDATE statement of the stored procedure causes a search on the clustered index for purchase order number and reads some pages in memory. Since the instances of the purchase order process are independent (some take a long time, but some are short), the next call to the stored procedure may be for some other purchase order instance and therefore will require reading of different data pages in memory. As long as the total number of purchase order records is small, SQL Server will cache all data pages in memory. When the number of the records grows large enough, the cache-hit ratio decreases and each operation requires a physical disk read. Apparently, in this situation no query activity against the table is possible.  
@@ -55,7 +55,7 @@ BAM Write Performance versus Disk Queue Length
 ## BAM tables  
  To avoid this problem BAM uses two separate tables – one for the activities still in progress, and another for the completed ones in the following figure:  
   
- ![](../core/media/ebiz-prog-bam-data-maint-fig5.gif "ebiz_prog_bam_data_maint_fig5")  
+ ![Image that shows how BAM uses two separate tables.](../core/media/ebiz-prog-bam-data-maint-fig5.gif "ebiz_prog_bam_data_maint_fig5")  
 BAM Tables  
   
  In this figure, the idea is to keep a relatively small table that updates occur in and another that grows large, but is incrementally accessed (INSERTs only). In the example, only the orders being processed at the moment will be in the active table, while all orders that were already delivered will go to the completed table.  
@@ -68,7 +68,7 @@ BAM Tables
 ## BAM partitioning  
  To allow for higher performance and avoid downtime, activity storage uses partitioning based on the time stamp when the activity was completed. BAM achieves this by regular swapping of the completed table with another empty table of exactly the same format. Once BAM does this, the further completed activities go into the new table, while BAM keeps the old one only for queries, as in the following figure:  
   
- ![](../core/media/ebiz-prog-bam-data-maint-fig8.gif "ebiz_prog_bam_data_maint_fig8")  
+ ![Image that shows how the further completed activities go into the new table, while BAM keeps the old one only for queries.](../core/media/ebiz-prog-bam-data-maint-fig8.gif "ebiz_prog_bam_data_maint_fig8")  
 BAM Partition Swapping  
   
  Once a partition is completely outside the online window, BAM archives and then drops it. To minimize this complexity from the user, BAM also maintains a partitioned view of the form:  

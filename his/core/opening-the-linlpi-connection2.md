@@ -75,5 +75,5 @@ The local node attempts to activate a connection:
   
   The following figure shows the **Open(LINK) Request** and **Open(LINK) Response**, followed by an exchange of XIDs.  
   
-  ![](../core/media/dev3a.gif "dev3a")  
+  ![Image that shows an Open(LINK) Request and Open(LINK) Response, followed by an exchange of XIDs.](../core/media/dev3a.gif "dev3a")  
   Open(LINK) Request and Open(LINK) Response, followed by an exchange of XIDs

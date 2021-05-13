@@ -25,7 +25,7 @@ Follow these steps to test the HTTP node.
   
 1.  In PeopleSoft Enterprise, navigate to **PeopleTools**, **Integration Broker**, **Monitor**, **Monitor Message**.  
   
-     ![](../core/media/psadapter-40-task-gatewaytestnode.gif "PSAdapter_40_Task_GatewayTestNode")  
+     ![Image that shows the Monitor Message screen.](../core/media/psadapter-40-task-gatewaytestnode.gif "PSAdapter_40_Task_GatewayTestNode")  
   
 2.  Click the **Node Status** tab.  
   
@@ -35,7 +35,7 @@ Follow these steps to test the HTTP node.
   
      A message appears and indicates that PeopleSoft is communicating through HTTP.  
   
-     ![](../core/media/psadapter-41-task-gatewaytestsuccess.gif "PSAdapter_41_Task_GatewayTestSuccess")  
+     ![Image that shows where to select MSEXTERNAL.](../core/media/psadapter-41-task-gatewaytestsuccess.gif "PSAdapter_41_Task_GatewayTestSuccess")  
   
      If you do not receive the message, verify the following:  
   

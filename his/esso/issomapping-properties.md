@@ -21,11 +21,11 @@ The properties of the **ISSOMapping** interface are listed in the following tabl
   
 |Property|Description|  
 |--------------|-----------------|  
-|![](../esso/media/pubproperty.gif "pubproperty") [ApplicationName](../esso/issomapping-applicationname-property.md)|Specifies the name of the application.|  
-|![](../esso/media/pubproperty.gif "pubproperty") [ExternalUserName](../esso/issomapping-externalusername-property.md)|Specifies the external (non-Microsoft® Windows®) user name.|  
-|![](../esso/media/pubproperty.gif "pubproperty") [Flags](../esso/issomapping-flags-property.md)|Reserved for internal use only.|  
-|![](../esso/media/pubproperty.gif "pubproperty") [WindowsDomainName](../esso/issomapping-windowsdomainname-property.md)|Specifies the Microsoft Windows domain name.|  
-|![](../esso/media/pubproperty.gif "pubproperty") [WindowsUserName](../esso/issomapping-windowsusername-property.md)|Specifies the Microsoft Windows user name.|  
+|![Icon used to specify the name of the application.](../esso/media/pubproperty.gif "pubproperty") [ApplicationName](../esso/issomapping-applicationname-property.md)|Specifies the name of the application.|  
+|![Icon used to specify the external (non-Microsoft® Windows®) user name.](../esso/media/pubproperty.gif "pubproperty") [ExternalUserName](../esso/issomapping-externalusername-property.md)|Specifies the external (non-Microsoft® Windows®) user name.|  
+|![Icon that is reserved for internal use only.](../esso/media/pubproperty.gif "pubproperty") [Flags](../esso/issomapping-flags-property.md)|Reserved for internal use only.|  
+|![Icon used to specify the Microsoft Windows domain name.](../esso/media/pubproperty.gif "pubproperty") [WindowsDomainName](../esso/issomapping-windowsdomainname-property.md)|Specifies the Microsoft Windows domain name.|  
+|![Icon used to specify the Microsoft Windows user name.](../esso/media/pubproperty.gif "pubproperty") [WindowsUserName](../esso/issomapping-windowsusername-property.md)|Specifies the Microsoft Windows user name.|  
   
 ## See Also  
  [ISSOMapping Interface (COM)](../esso/issomapping-interface-com.md)   

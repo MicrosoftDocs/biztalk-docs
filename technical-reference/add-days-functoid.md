@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Add Days** functoid ( ![](images/Aa561626.03aafb6a-0b02-4076-a1c4-4ab438f08007(BTS.80).jpeg)) to add a specified number of days to a specified date.
+Use the **Add Days** functoid ( ![Icon used to add a specified number of days to a specified date.](images/Aa561626.03aafb6a-0b02-4076-a1c4-4ab438f08007(BTS.80).jpeg)) to add a specified number of days to a specified date.
 
 ## Input
 

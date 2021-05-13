@@ -40,7 +40,7 @@ Adapters sending messages one at a time may send messages either synchronously o
   
      The following figure shows the object interactions involved in creating an asynchronous send adapter.  
   
-     ![](../core/media/ebiz-sdk-devadapter5.gif "ebiz_sdk_devadapter5")  
+     ![Image that shows the object interactions involved in creating an asynchronous send adapter.](../core/media/ebiz-sdk-devadapter5.gif "ebiz_sdk_devadapter5")  
 Workflow for sending a message asynchronously  
   
 > [!NOTE]

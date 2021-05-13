@@ -21,7 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Construct Message Shape
-![](../core/media/ebiz-orch-constructmsg.gif "ebiz_orch_constructmsg")  
+![Image that represents the Construct Message shape.](../core/media/ebiz-orch-constructmsg.gif "ebiz_orch_constructmsg")  
 Construct Message shape  
   
  You specify the message variable that you want to construct, and make assignments to the message or its parts. All assignments to any given message must take place within the same Construct Message shape.  

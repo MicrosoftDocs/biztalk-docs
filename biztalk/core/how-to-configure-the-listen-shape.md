@@ -24,7 +24,7 @@ manager: "anneta"
 # How to Configure the Listen Shape
 Listen actions enable applications to wait for one of several messages on one or more ports, or to stop waiting after a specified time-out interval, and branch based upon the results.  
   
- ![](../core/media/ebiz-orch-listen.gif "ebiz_orch_listen")  
+ ![Image that represents the Listen shape.](../core/media/ebiz-orch-listen.gif "ebiz_orch_listen")  
 Listen shape  
   
  You can add as many branches as you like. You can place any other shape below the initial **Receive** or **Delay** shape.  

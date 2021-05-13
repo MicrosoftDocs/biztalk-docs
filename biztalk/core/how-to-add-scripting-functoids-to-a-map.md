@@ -28,7 +28,7 @@ The **Scripting** functoid enables you to use custom script or code at run time 
   
     The list of advanced functoids in the chosen category appears.  
   
-2. Drag the **Scripting** functoid ![](../core/media/bts-tls-scripting.gif "bts_tls_scripting") from the Toolbox to the appropriate location on a grid page.  
+2. Drag the **Scripting** functoid ![Image that represents the Scripting functoid.](../core/media/bts-tls-scripting.gif "bts_tls_scripting") from the Toolbox to the appropriate location on a grid page.  
   
    > [!NOTE]
    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that other grid page first.  

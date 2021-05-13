@@ -77,7 +77,7 @@ The following instructions show how to set up tracing where the trace files will
 
    * Look in the C:\Tracing folder to see one or more HITF (Host Integration Trace File) files.  The name of the file will be TI_Tracing_\<process id number\>_\<date and time\>.hitf.  For example:
 
-         TI_TRACING_6076_AUG_29_2017_13_00_52_421.HITF
+      `TI_TRACING_6076_AUG_29_2017_13_00_52_421.HITF`
 
    * Double-click the HITF file to open it in the Trace Viewer and examine what has been traced. If the TI process is still running some of the trace information may be in the buffer, quitting the application or running another TI call within the application will flush the buffer to see the entire trace of the first TI call.
      ```

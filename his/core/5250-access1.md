@@ -19,7 +19,7 @@ If your enterprise contains AS/400 systems, display sessions are provided throug
   
  For 5250 services, the local APPC LU acts as an identifier for local Host Integration Server clients; the remote APPC LU identifies the AS/400 system. The following figure shows the local and remote LUs used for this configuration.  
   
- ![](../core/media/pln09.gif "pln09")  
+ ![Image that shows the local and remote LUs used for this configuration.](../core/media/pln09.gif "pln09")  
 Diagram showing 5250 access configuration  
   
 ## See Also  

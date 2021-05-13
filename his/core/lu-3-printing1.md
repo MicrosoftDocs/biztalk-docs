@@ -105,7 +105,7 @@ E6E7E8E9 19
 |E6E7E8E9|EBCDIC hex values for WXYZ|  
 |19|End Medium|  
   
- ![](../core/media/prn02.gif "prn02")  
+ ![Image that shows print output from the sample data in the preceding table. ABCD on top print line and WXYZ indented on lower line.](../core/media/prn02.gif "prn02")  
 Print output from the sample data in the preceding table. ABCD on top print line and WXYZ indented on lower line.  
   
 ## See Also  

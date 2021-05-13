@@ -27,7 +27,7 @@ When you build your project, or solution, the results will appear in the Output 
 >  When you build, the compiler does not validate XPaths. Take care to use valid XPath syntax.
 
 ## Insufficient configuration Action
- ![](../core/media/ebiz-orch-insufficconfig.gif "ebiz_orch_insufficconfig")
+ ![Image that shows the icon that represents an insufficient configuration action.](../core/media/ebiz-orch-insufficconfig.gif "ebiz_orch_insufficconfig")
 
 > [!CAUTION]
 >  While Orchestration Designer will provide insufficient configuration warnings where it can, there is no guarantee that your orchestration will compile correctly in the absence of such warnings.

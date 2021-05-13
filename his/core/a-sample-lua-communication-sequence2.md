@@ -18,7 +18,7 @@ manager: "anneta"
 This section illustrates how Request Unit Interface (RUI) and Session Level Interface (SLI) verbs are used for a logical unit application (LUA) communication sequence. The two figures illustrate the LUA verbs used to start a session, to exchange data, and to end the session, as well as the SNA messages sent and received. The arrows indicate the direction in which SNA messages flow.  
   
 ## Communication Sequence Using RUI Verbs  
- ![](../core/media/lua1b.gif "lua1b")  
+ ![Image that shows the SNA components required for LUA communications.](../core/media/lua1b.gif "lua1b")  
 SNA components required for LUA communications  
   
  In this example, the application performs the following tasks:  
@@ -40,7 +40,7 @@ SNA components required for LUA communications
 -   Issues [RUI_TERM](rui-term2.md) to terminate the SSCP session. (Host Integration Server sends a NOTIFY message to the host and waits for a positive response. However, these messages are handled by Host Integration Server and are not exposed to the LUA application.)  
   
 ## Communication Sequence Using SLI Verbs  
- ![](../core/media/lua1c.gif "lua1c")  
+ ![Image that shows the communication sequence using SLI verbs.](../core/media/lua1c.gif "lua1c")  
 Communication sequence using SLI verbs  
   
  In the example shown here, the application performs the following tasks:  

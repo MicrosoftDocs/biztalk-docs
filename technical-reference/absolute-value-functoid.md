@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Absolute Value** functoid ( ![](images/Aa561898.f16947e6-6c6e-4a38-bc1f-446d8e0d2e17(BTS.80).jpeg)) to calculate the absolute value of the specified value.
+Use the **Absolute Value** functoid ( ![Icon used to calculate the absolute value of a specified number.](images/Aa561898.f16947e6-6c6e-4a38-bc1f-446d8e0d2e17(BTS.80).jpeg)) to calculate the absolute value of the specified value.
 
 ## Input
 

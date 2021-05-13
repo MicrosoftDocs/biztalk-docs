@@ -23,7 +23,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Send Shape
-![](../core/media/ebiz-orch-send.gif "ebiz_orch_send")  
+![Image that represents the Send shape.](../core/media/ebiz-orch-send.gif "ebiz_orch_send")  
 Send shape  
   
  If you expect to receive an indirect or asynchronous response (not using a request-response port) to the message that you have sent, you need to correlate the message with the currently running instance of the orchestration, so that the respondent can get the response to the correct instance. You can apply a following correlation set to the **Send** shape for a previously initialized correlation, or you can apply an initializing correlation set. For more information, see [Using Correlations in Orchestrations](../core/using-correlations-in-orchestrations.md).  

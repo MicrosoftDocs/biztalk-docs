@@ -25,7 +25,7 @@ A downstream connection enables a remote computer without a direct connection to
   
  The following figure illustrates downstream connections.  
   
- ![](../core/media/srvc04.gif "srvc04")  
+ ![Image that shows communication with a downstream system.](../core/media/srvc04.gif "srvc04")  
 Communication with a downstream system  
   
  The information that Host Integration Server passes from the downstream system to the host includes LU information. Therefore, Host Integration Server does not store detailed LU configuration information for downstream LUs. However, Host Integration Server does require all the usual connection information for the host and downstream connections.  

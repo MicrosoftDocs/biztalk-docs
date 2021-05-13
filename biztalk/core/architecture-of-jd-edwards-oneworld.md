@@ -20,7 +20,7 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld provides access to JD Edwards 
   
  **Architecture for BizTalk Adapter for JD Edwards OneWorld**  
   
- ![](../core/media/jdedadapter-01-architecture.gif "JDEdAdapter_01_Architecture")  
+ ![Image that shows the JD Edwards adapter architecture.](../core/media/jdedadapter-01-architecture.gif "JDEdAdapter_01_Architecture")  
   
  Calls to JD Edwards OneWorld business functions require two messages:  
   

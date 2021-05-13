@@ -28,7 +28,7 @@ BAM bases scheduled aggregations on dynamically generated OLAP cubes and Data Tr
   
   BAM achieves this by taking an exclusive lock on the Activity Storage for a very short time, thus preventing any data writing at the same time. Once BAM takes the snapshot, the DTS package might take a long time to run, but BAM will ignore any new data that arrives during the processing. The following figure illustrates this activity:  
   
-  ![](../core/media/ebiz-prog-bam-data-maint-fig9.gif "ebiz_prog_bam_data_maint_fig9")  
+  ![Image that shows BAM moving data about the completed activity instances to the Completed Instances OLAP cube.](../core/media/ebiz-prog-bam-data-maint-fig9.gif "ebiz_prog_bam_data_maint_fig9")  
   BAM Scheduled Aggregations  
   
   In the figure, BAM moves data about the completed activity instances to the Completed Instances OLAP cube. BAM incrementally processes this cube.  

@@ -21,7 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Message Assignment Shape
-![](../core/media/ebiz-orch-assign.gif "ebiz_orch_assign")  
+![Image that represents the Message Assignment shape.](../core/media/ebiz-orch-assign.gif "ebiz_orch_assign")  
 Message Assignment shape  
   
 > [!NOTE]

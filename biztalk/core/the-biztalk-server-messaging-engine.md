@@ -24,7 +24,7 @@ The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
   
   The figure below illustrates the main components of the engine that address these two problems.  
   
-  ![](../core/media/understandingbts-04-engine4.gif "UnderstandingBTS_04_Engine4")  
+  ![Image that shows the main components of the engine that address these two problems.](../core/media/understandingbts-04-engine4.gif "UnderstandingBTS_04_Engine4")  
   
   As the diagram shows, a message is received through a **receive adapter**. Different adapters provide different communication mechanisms, so a message might be acquired by accessing a Web service, reading from a file, or in some other way. The message is then processed through a **receive pipeline**. This pipeline can contain various components that do things such as converting the message from its native format into an XML document, validating a message’s digital signature, and more. The message is then delivered into a database called the **MessageBox**, which is implemented using Microsoft SQL Server.  
   

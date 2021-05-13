@@ -27,10 +27,10 @@ The following tables list XSD element-attribute constructs supported by the Adap
 > [!NOTE]
 >  The configuration XSD should have an element called **uri** of type xsd:string.  
   
- ![](../core/media/ebiz-prog-custadapt-element1.gif "ebiz_prog_custadapt_element1")  
+ ![Image that shows the XSD element-attribute constructs supported by the Adapter Framework.](../core/media/ebiz-prog-custadapt-element1.gif "ebiz_prog_custadapt_element1")  
 Supported Adapter XSD Element-Attribute constructs  
   
- ![](../core/media/ebiz-prog-custadapt-element2.gif "ebiz_prog_custadapt_element2")  
+ ![Image that shows the supported Adapter XSD Element-Attribute constructs.](../core/media/ebiz-prog-custadapt-element2.gif "ebiz_prog_custadapt_element2")  
 Supported Adapter XSD Element-Attribute constructs  
   
 ## See Also  

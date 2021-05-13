@@ -23,5 +23,5 @@ Dynamic Access Modules (DMODs) are responsible for the communication between loc
   
  The following figure illustrates the paths and connections between a Host Integration Server local node and two SNALinks. X.25 service A has two connections to the local node (one for each of two virtual circuits); SDLC service B has one connection to the local node.  
   
- ![](../core/media/his-32701c.gif "his_32701c")  
+ ![Image that shows paths and connections between a Host Integration Server local node and two SNALinks.](../core/media/his-32701c.gif "his_32701c")  
 Paths and connections between a Host Integration Server local node and two SNALinks

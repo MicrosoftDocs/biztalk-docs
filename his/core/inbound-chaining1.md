@@ -41,32 +41,32 @@ The division of application data into [Data](./data1.md) messages and the contro
   
   In the first figure, a complete inbound chain is sent without error and accepted by the host. Note that after receiving **Status-Acknowledge(Ack)** the application relinquishes direction to the host.  
   
-  ![](../core/media/his-32703j.gif "his_32703j")  
+  ![Image that shows an inbound chain is sent without error and accepted by the host.](../core/media/his-32703j.gif "his_32703j")  
   Inbound chain is sent without error and accepted by the host  
   
   In the following figure, the local node detects a critical error in the format of the second **Data** message in the chain (**ACKRQD** without the ECI application flag), sends a **Status-Acknowledge(Nack-2)** to the application with the appropriate error code, and closes the PLU connection. Note that the local node only generates the **CANCEL** if the session's function management (FM) profile supports **CANCEL**.  
   
-  ![](../core/media/his-32703ja.gif "his_32703ja")  
+  ![Image that shows how a local node detects error, sends a Status message, and closes the PLU connection.](../core/media/his-32703ja.gif "his_32703ja")  
   Local node detects error, sends a Status message, and closes the PLU connection  
   
   In the following figure, a complete inbound chain is sent without error, but is rejected by the host. After the negative response, the application must enter receive state, pending error recovery. (For more information, see [Recovery](../core/recovery1.md).)  
   
-  ![](../core/media/his-32703jb.gif "his_32703jb")  
+  ![Image that shows how an inbound chain is sent without error but is rejected by host.](../core/media/his-32703jb.gif "his_32703jb")  
   Inbound chain is sent without error but is rejected by host  
   
   In the following figure, the application cancels the chain by sending **Status-Control(CANCEL)**. Note that the application still has direction and can start a new chain.  
   
-  ![](../core/media/his-32703jc.gif "his_32703jc")  
+  ![Image that shows how an application cancels the chain with a Status-Control(CANCEL).](../core/media/his-32703jc.gif "his_32703jc")  
   Application cancels the chain with a Status-Control(CANCEL)  
   
   In the following figure, the application closes the PLU session while sending the chain. The local node only generates the **CANCEL** if the session's FM profile supports **CANCEL**.  
   
-  ![](../core/media/his-32703jd.gif "his_32703jd")  
+  ![Image that shows how an application closes the PLU connection while sending the chain.](../core/media/his-32703jd.gif "his_32703jd")  
   Application closes the PLU connection while sending the chain  
   
   In the following figure, the local node detects a noncritical error in the format of the second **Data** message in the chain and sends a **Status-Acknowledge(Nack-2)** to the application with the appropriate error code.  
   
-  ![](../core/media/his-32703je.gif "his_32703je")  
+  ![Image that shows how a local node detects a noncritical error and sends a Status-Acknowledge(Nack-2).](../core/media/his-32703je.gif "his_32703je")  
   Local node detects a noncritical error and sends a Status-Acknowledge(Nack-2)  
   
 ## See Also  

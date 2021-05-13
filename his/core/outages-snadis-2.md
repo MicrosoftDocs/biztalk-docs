@@ -27,7 +27,7 @@ If the SNALink detects a link or station failure, it reports the failure by send
   
   On receipt of the **Close(LINK) Request**, the SNALink should clear up its internal resources for the connection and send back a [Close(LINK) Response](./close-link-response2.md).  
   
-  ![](../core/media/dev3p.gif "dev3p")  
+  ![Image that shows a local node receiving an Outage message and sending a Close(LINK) Request and a Close(LINK) response.](../core/media/dev3p.gif "dev3p")  
   Local node receiving an Outage message and sending a Close(LINK) Request and a Close(LINK) response  
   
   There is a special case when the node loses contact with the SNALink software. In this case, the node is notified of this event (a lost locality) and performs outage processing apart from sending messages to the SNALink.  

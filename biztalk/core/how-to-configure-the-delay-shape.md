@@ -22,7 +22,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Delay Shape
-![](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")  
+![Image that represents the Delay shape.](../core/media/ebiz-orch-delay.gif "ebiz_orch_delay")  
 Delay shape  
   
  There are two ways to specify the timeout for a **Delay**:  

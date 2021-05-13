@@ -42,5 +42,5 @@ BAM aggregations are defined by the business analyst in Excel using the Excel ad
   
  The following figure shows pre-calculated BAM aggregations.  
   
- ![](../core/media/bam-olap-cube.gif "bam_olap_cube")  
+ ![Image that shows pre-calculated BAM aggregations.](../core/media/bam-olap-cube.gif "bam_olap_cube")  
 Pre-calculated BAM aggregations

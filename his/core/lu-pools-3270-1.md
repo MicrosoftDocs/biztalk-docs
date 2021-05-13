@@ -17,7 +17,7 @@ manager: "anneta"
 # LU Pools (3270)
 Although you can create individual LUs and assign them to users and groups, using LU pools to manage and deploy a large number of LUs is a more efficient method of administering these resources. LU pools are groupings of LUs that allow you to maximize access to these LUs. As shown in the following illustration, a user, an application, or a downstream system can access the LUs as long as any LU assigned to the pool is free. If any one of the pooled LUs ceases to function, another free LU in the pool is automatically used.  
   
- ![](../core/media/pln02.gif "pln02")  
+ ![Image that shows creating and assigning LU pools.](../core/media/pln02.gif "pln02")  
 Diagram of creating and assigning LU pools  
   
 ## Creating and assigning LU pools  

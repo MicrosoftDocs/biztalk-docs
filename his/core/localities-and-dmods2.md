@@ -21,12 +21,12 @@ A Base and the components within it are called a locality. The Host Integration 
   
  Dynamic localities communicate using the Dynamic Access Module (DMOD) component, which provides the communications facilities needed to pass messages between the Bases. The following figure shows a system consisting of three dynamic localities.  
   
- ![](../core/media/his-32701a.gif "his_32701a")  
+ ![Image that shows the DMOD component providing communications.](../core/media/his-32701a.gif "his_32701a")  
 DMOD component providing communications  
   
  This figure shows a system consisting of three dynamic localities. Dynamic localities can enter or leave this system at any time.  
   
  The DMOD is implemented as a dynamic-link library (DLL). The preceding figure can therefore be represented as follows.  
   
- ![](../core/media/his-32701b.gif "his_32701b")  
+ ![Image that shows the DMOD implemented as a .DLL.](../core/media/his-32701b.gif "his_32701b")  
 DMOD implemented as a .DLL

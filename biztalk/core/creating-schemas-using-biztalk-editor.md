@@ -22,7 +22,7 @@ BizTalk Editor is a tool that runs within the Microsoft [!INCLUDE[btsVStudioNoVe
   
  The schemas you create using BizTalk Editor can be used within an orchestrated business process, as shown in the following figure.  
   
- ![](../core/media/ebiz-dev-busprcsh.gif "ebiz_dev_busprcsh")  
+ ![Image shows that the schemas you create using BizTalk Editor can be used within an orchestrated business process.](../core/media/ebiz-dev-busprcsh.gif "ebiz_dev_busprcsh")  
   
  Schemas are also used by assemblers and disassemblers for translating instance messages from one format to another, such as between a flat file format and XML. Schemas also play an important role in instance message transformation, wherein the data in an instance message is used to construct an instance message with a different structure. The new instance message might be semantically equivalent, such as different representations of a purchase order, or it might be a different but related type of instance message that requires some or all of the data from the original instance message in its content.  
   

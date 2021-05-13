@@ -36,17 +36,17 @@ The following procedure describes how to use PeopleSoft Enterprise to create an 
   
    - **Location Code:** Enter a code that starts with `WKLOC`.  
   
-     ![](../core/media/psadapter-18-task-sharesearch.gif "PSAdapter_18_Task_ShareSearch")  
+     ![Image that shows the Location screen.](../core/media/psadapter-18-task-sharesearch.gif "PSAdapter_18_Task_ShareSearch")  
   
 3. Click **Search**, and then click **Correct History** to put the screen in **Edit** mode.  
   
-    ![](../core/media/psadapter-19-task-correcthistory.gif "PSAdapter_19_Task_CorrectHistory")  
+    ![Image that shows where to select Correct History.](../core/media/psadapter-19-task-correcthistory.gif "PSAdapter_19_Task_CorrectHistory")  
   
 4. Make a change to a field on the screen, and then click **Save**.  
   
 5. Point to **PeopleTools**, point to **Integration Broker**, point to **Monitor**, and then select **Monitor Message**.  
   
-    ![](../core/media/psadapter-20-task-monitormessage.gif "PSAdapter_20_Task_MonitorMessage")  
+    ![Image that shows where to select Monitor Message.](../core/media/psadapter-20-task-monitormessage.gif "PSAdapter_20_Task_MonitorMessage")  
   
 6. Make sure that **Channel Type** is **Message Instance**, and then click **Refresh**.  
   
@@ -54,15 +54,15 @@ The following procedure describes how to use PeopleSoft Enterprise to create an 
   
 8. Scroll to the bottom of the list and click the **Details** link on a **LOCATION_SYNC** message.  
   
-    ![](../core/media/psadapter-21-task-detailslink.gif "PSAdapter_21_Task_DetailsLink")  
+    ![Image that shows where to find the LOCATION_SYNC message.](../core/media/psadapter-21-task-detailslink.gif "PSAdapter_21_Task_DetailsLink")  
   
 9. Click **View XML** on a **MSEXTERNAL** Node.  
   
-     ![](../core/media/psadapter-22-task-viewxml.gif "PSAdapter_22_Task_ViewXML")  
+     ![Image that shows where to select View XML.](../core/media/psadapter-22-task-viewxml.gif "PSAdapter_22_Task_ViewXML")  
   
      Copy and paste the contents of the XML into a file that can be accessed by your BizTalk Server project.  
   
-     ![](../core/media/psadapter-23-task-xmlresult.gif "PSAdapter_23_Task_XMLResult")  
+     ![Image that shows the the copiedv XML content.](../core/media/psadapter-23-task-xmlresult.gif "PSAdapter_23_Task_XMLResult")  
   
 10. Remember the location of the file;  you reference it in BizTalk Server.  
   

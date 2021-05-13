@@ -33,17 +33,17 @@ An LPI address is used to identify each end of a connection. It has three compon
   
   The following figures show an example of the L values that could be used between the components shown in [Paths and DMODs](../core/paths-and-dmods2.md), and examples of the LPI values that would be used by the local node on messages flowing between the components. (For more information about how the LPI values are assigned and used, see [Opening the PLU Connection](../core/opening-the-plu-connection1.md).)  
   
-  ![](../core/media/his-32701d.gif "his_32701d")  
+  ![Image that shows example L values.](../core/media/his-32701d.gif "his_32701d")  
   Example L values  
   
   **Example L values**  
   
-  ![](../core/media/his-32701e.gif "his_32701e")  
+  ![Image that shows L values specified on messages between the local node and 3270 B.](../core/media/his-32701e.gif "his_32701e")  
   L values specified on messages between the local node and 3270 B  
   
   **L values specified on messages between the local node and 3270 B**  
   
-  ![](../core/media/his-32701f.gif "his_32701f")  
+  ![Image that shows LPI values specified on messages flowing on two different connections between the local node and 3270 A.](../core/media/his-32701f.gif "his_32701f")  
   LPI values specified on messages flowing on two different connections between the local node and 3270 A  
   
   **LPI values specified on messages flowing on two different connections between the local node and 3270 A**  

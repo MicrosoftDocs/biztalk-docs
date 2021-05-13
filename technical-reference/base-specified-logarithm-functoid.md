@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Base-Specified Logarithm** functoid ( ![](images/Aa577698.d6097cf2-19c9-47e6-bf1a-a111e1f43d6d(BTS.80).jpeg)) to return the base-specified logarithm of a value.
+Use the **Base-Specified Logarithm** functoid ( ![Icon used to return the base-specified logarithm of a value.](images/Aa577698.d6097cf2-19c9-47e6-bf1a-a111e1f43d6d(BTS.80).jpeg)) to return the base-specified logarithm of a value.
 
 ## Input
 

@@ -38,7 +38,7 @@ The **Index** functoid enables you to select information from a specific record 
   
  The following figure shows **Index** functoids used in this way.  
   
- ![](../core/media/ebiz-prog-map-index.gif "ebiz_prog_map_index")  
+ ![Image that shows Index functoids connected to the appropriate fields of the destination schema.](../core/media/ebiz-prog-map-index.gif "ebiz_prog_map_index")  
 Index Functoid Example  
   
  To get the daily summary information for the first day, the upper set of three **Index** functoids have their index values set to 1. To get the daily summary information for the second day, the lower set of three **Index** functoids have their index values set to 2.  

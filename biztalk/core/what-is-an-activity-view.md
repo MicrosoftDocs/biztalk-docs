@@ -66,7 +66,7 @@ An activity view contains the imported BAM activity definition that you create w
   
  **Activity Definition Tree root node**  
   
- ![](../core/media/activityviewcontextmenu.gif "activityviewcontextmenu")  
+ ![Image that shows the Activity Definition Tree root node.](../core/media/activityviewcontextmenu.gif "activityviewcontextmenu")  
   
 |Menu Item|Usage|  
 |---------------|-----------|  

@@ -111,7 +111,7 @@ You can use a simple File receive port and location to create an event on your O
 
     When finished, your properties look similar to the following:
 
-    ![Endpoint properties](../core/media/office365-calendar-receive-properties.png)
+    ![Image that shows the Office 365 Outlook Calendar Transport properties.](../core/media/office365-calendar-receive-properties.png)
 
 8. Select **Ok** to save your changes.
 

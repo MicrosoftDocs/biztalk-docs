@@ -21,7 +21,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] is a [!INCLUDE[first
 
  The following figure shows the end-to-end architecture for solutions that are developed by using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].
 
- ![](../../adapters-and-accelerators/adapter-sql/media/05e2a88c-a3cc-42a7-9c06-cfdb7c071e70.gif "05e2a88c-a3cc-42a7-9c06-cfdb7c071e70")
+ ![Image that shows the end-to-end architecture for solutions that are developed by using the SQL adapter.](../../adapters-and-accelerators/adapter-sql/media/05e2a88c-a3cc-42a7-9c06-cfdb7c071e70.gif "05e2a88c-a3cc-42a7-9c06-cfdb7c071e70")
 
 
 ## Consuming the Adapter
@@ -59,7 +59,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] implements a set of 
 
  The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] serves as the software layer through which the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] interfaces with the [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]; ADO.NET serves as the layer through which the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] interfaces with the SQL Server database. The following figure shows the relationships between the internal components of the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] and between these components and ADO.NET.
 
- ![](../../adapters-and-accelerators/adapter-sql/media/0b15e33b-7f59-4228-bb50-0455f7ed3d85.gif "0b15e33b-7f59-4228-bb50-0455f7ed3d85")
+ ![Image that shows the relationships between the internal components of the SQL adapter and between these components and ADO.NET.](../../adapters-and-accelerators/adapter-sql/media/0b15e33b-7f59-4228-bb50-0455f7ed3d85.gif "0b15e33b-7f59-4228-bb50-0455f7ed3d85")
 
 
 ## ADO.NET

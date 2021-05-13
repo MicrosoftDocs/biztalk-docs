@@ -48,7 +48,7 @@ All receive adapters need to implement the following interfaces to work in reque
   
    The following figure shows the object interactions involved in creating a synchronous request-response receive adapter.  
   
-   ![](../core/media/ebiz-sdk-devadapter3.gif "ebiz_sdk_devadapter3")  
+   ![Image that shows the object interactions involved in creating a synchronous request-response receive adapter.](../core/media/ebiz-sdk-devadapter3.gif "ebiz_sdk_devadapter3")  
    Workflow for a receive adapter submitting a synchronous message  
   
 ## See Also  

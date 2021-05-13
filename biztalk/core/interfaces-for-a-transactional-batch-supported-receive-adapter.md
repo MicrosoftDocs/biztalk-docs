@@ -22,7 +22,7 @@ A receive adapter creates and controls transactions when the transactional submi
   
  The following figure shows the object interactions involved in creating a transactional batch-supported receive adapter.  
   
- ![](../core/media/ebiz-sdk-devadapter2.gif "ebiz_sdk_devadapter2")  
+ ![Image that shows the object interactions involved in creating a transactional batch-supported receive adapter.](../core/media/ebiz-sdk-devadapter2.gif "ebiz_sdk_devadapter2")  
 Workflow for a receive adapter submitting a batch of messages using DTC transactions  
   
 ## See Also  

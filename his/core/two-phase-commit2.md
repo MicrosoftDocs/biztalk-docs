@@ -30,7 +30,7 @@ A given business logic operation can involve multiple programs running on multip
   
  The following figure shows how a Windows-based client application implicitly uses the Microsoft Distributed Transaction Coordinator (DTC) to coordinate the two-phase commit of a distributed transaction involving SQL Server and a CICS TP. DTC coordinates 2PC transactions.  
   
- ![](../core/media/his-ti02.gif "his_ti02")  
+ ![Image that shows a client application using Transaction Integrator and DTC to coordinate a two-phase commit between SQL Server and a CICS application.](../core/media/his-ti02.gif "his_ti02")  
 Client application using Transaction Integrator and DTC to coordinate a two-phase commit between SQL Server and a CICS application  
 
 > [!NOTE]

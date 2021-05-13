@@ -21,7 +21,7 @@ The initial sequence for a host connection over X.25, 802.2, or a switched synch
   
  The sequence is shown in the following figure.  
   
- ![](../core/media/dev3c.gif "dev3c")  
+ ![Image that shows the sequence for passing an XID.](../core/media/dev3c.gif "dev3c")  
 Sequence for passing an XID  
   
  For switched connections using SDLC modems, the [Open(LINK) Request](./open-link-request1.md) contains dial digits for manual or auto-dial modems. It is the responsibility of the SNALink to handle the management of these devices. For X.25 and 802.2 connections, the **Open(LINK) Request** contains the address of the remote station.  

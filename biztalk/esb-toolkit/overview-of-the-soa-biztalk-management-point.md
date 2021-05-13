@@ -19,7 +19,7 @@ The BizTalk Management Point natively integrates with SOA Service Manager and Wo
   
  Figure 1 shows the SOA Service Manager Web application displaying the Workbench page for an example application. The left-side tree view allows users to navigate through the applications and services installed within BizTalk Server, and the right-side pane allows users to view application details, operations, access ports, categories, rules, and monitoring information.  
   
- ![Ch9&#45;SOAServiceManager](../esb-toolkit/media/ch9-soaservicemanager.jpg "Ch9-SOAServiceManager")  
+ ![Screenshot of the Workbench page of the SOA Service Manager, which shows the available monitoring features.](../esb-toolkit/media/ch9-soaservicemanager.jpg "Ch9-SOAServiceManager")  
   
  **Figure 1**  
   

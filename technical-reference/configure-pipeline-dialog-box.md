@@ -19,7 +19,7 @@ Use the **Configure Pipeline** dialog box to edit configurable pipeline properti
 
 ## Receive Pipeline
 
-## UIElement List
+### UIElement List for the Receive Pipeline
 
 <table>
 <thead>
@@ -83,7 +83,7 @@ Default value: <strong>True</strong></td>
 
 ## Send Pipeline
 
-## UIElement List
+### UIElement List for the Send Pipeline
 
 <table>
 <thead>

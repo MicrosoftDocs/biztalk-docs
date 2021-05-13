@@ -25,5 +25,5 @@ A typical deployment has clustered BizTalk Server computers for messaging (sendi
   
  You can scale this deployment up or down, out or back, depending on the usage profile and your growing business needs. Typical scalability scenarios include adding one or more servers in each cluster to ensure higher availability or better throughput. Smaller enterprises might prefer scaling back their deployment to have the same servers perform multiple functions, such as having one [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] computer handle both orchestration and messaging. Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] supports deployment on a single server. The following figure shows an example of the recommended distributed deployment environment for a full A4SWIFT deployment.  
   
- ![](../../adapters-and-accelerators/accelerator-swift/media/fsa-deploy-full.gif "FSA_Deploy_Full")  
+ ![Image that shows an example of the recommended distributed deployment environment for a full A4SWIFT deployment.](../../adapters-and-accelerators/accelerator-swift/media/fsa-deploy-full.gif "FSA_Deploy_Full")  
 Example of a full A4SWIFT deployment

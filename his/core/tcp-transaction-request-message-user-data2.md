@@ -27,7 +27,7 @@ The TCP transaction request message (TRM) User Data programming model allows dat
   
   The following figure summarizes the workflow occurring between the client, the standard CICS Listener, and the Concurrent Server. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
   
-  ![](../core/media/his-ti07.gif "his_ti07")  
+  ![Image that shows the process by which the client starts the default Listener and then sends and receives data from the client.](../core/media/his-ti07.gif "his_ti07")  
   Process by which the client starts the default Listener, which passes the call to the concurrent server, which then sends and receives data from the client  
   
 ## Summary Workflow Diagram for the TCP TRM User Data Programming Model  

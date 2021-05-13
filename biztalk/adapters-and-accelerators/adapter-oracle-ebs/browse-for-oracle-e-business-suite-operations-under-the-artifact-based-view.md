@@ -166,7 +166,7 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
 8. Expand the **Functions** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Click the **Current Schema (\<schema name\>)** node to see all the functions defined for that schema in the **Available categories and operations** box. Each of the listed functions can be used to poll the Oracle database.  
   
-    ![Browse functions in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf.gif "64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf")  
+    ![Browse functions in Oracle database for polling.](../../adapters-and-accelerators/adapter-oracle-ebs/media/64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf.gif "64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf")  
   
     Similarly, expand the **All Schemas** node to see a list of all the schemas defined in the Oracle database. Click a schema node to see a list of functions defined for that schema in the **Available categories and operations** box.  Each of the listed functions can be used to poll the Oracle database.  
   
@@ -178,15 +178,15 @@ You can use the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapter
   
      Similarly, expand the **All Schemas** node to see a list of all the schemas defined in the Oracle database. Expand a schema node to see a list of tables defined for that schema. Click a table name to see the **Poll** inbound operation supported on that table in the **Available categories and operations** box.  
   
-     ![Browse tables in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/c5fbaf59-2e79-4141-8a85-1e1b8eedcea7.gif "c5fbaf59-2e79-4141-8a85-1e1b8eedcea7")  
+     ![Screenshot that highlights the A_TABLE schema.](../../adapters-and-accelerators/adapter-oracle-ebs/media/c5fbaf59-2e79-4141-8a85-1e1b8eedcea7.gif "c5fbaf59-2e79-4141-8a85-1e1b8eedcea7")  
   
 10. Expand the **Views** node to see category nodes for the current user schema (with which you login) and all other schemas defined in the underlying Oracle database. Expand the **Current Schema (\<schema name\>)** node to see all the views defined for that. Click a view name to see the **Poll** inbound operation supported on that view in the **Available categories and operations** box.  
   
-     ![Browse views in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/2299de79-9f50-433d-9e71-164f6d02bd78.gif "2299de79-9f50-433d-9e71-164f6d02bd78")  
+     ![Screenshot that highlights the AD_TIMESTAMPS_DFV schema.](../../adapters-and-accelerators/adapter-oracle-ebs/media/2299de79-9f50-433d-9e71-164f6d02bd78.gif "2299de79-9f50-433d-9e71-164f6d02bd78")  
   
      Similarly, expand the **All Schemas** node to see a list of all the schemas defined in the Oracle database. Expand a schema node to see a list of views defined for that schema. Click a view name to see the **Poll** inbound operation supported on that view in the **Available categories and operations** box.  
   
-     ![Browse views in Oracle database for polling](../../adapters-and-accelerators/adapter-oracle-ebs/media/860e6636-1ef6-42ad-a0e2-d661e632b624.gif "860e6636-1ef6-42ad-a0e2-d661e632b624")  
+     ![Screenshot that highlights the EUL5_NAMED_ELEMS schema.](../../adapters-and-accelerators/adapter-oracle-ebs/media/860e6636-1ef6-42ad-a0e2-d661e632b624.gif "860e6636-1ef6-42ad-a0e2-d661e632b624")  
   
 ## See Also  
  [Browse, search, and get metadata for Oracle E-Business Suite operations](../../adapters-and-accelerators/adapter-oracle-ebs/browse-search-and-get-metadata-for-oracle-e-business-suite-operations.md)

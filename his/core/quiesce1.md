@@ -31,17 +31,17 @@ The quiesce protocol is only supported on sessions using function management (FM
   
  In the first figure, the application quiesces the host and then releases the quiesce.  
   
- ![](../core/media/32703s.gif "32703s")  
+ ![Image that shows how an application quiesces the host and releases the quiesce.](../core/media/32703s.gif "32703s")  
 Application quiesces the host and releases the quiesce  
   
  In the following figure, the application attempts to quiesce the host, but the host rejects the quiesce and continues with the next chain.  
   
- ![](../core/media/32703sa.gif "32703sa")  
+ ![Image that shows how an application attempts to quiesce the host, but the host rejects and continues with the next chain.](../core/media/32703sa.gif "32703sa")  
 Application attempts to quiesce the host, but the host rejects and continues with the next chain  
   
  In the following figure, the host sends **QEC** while the application is sending a chain. The application completes the chain and sends a **Status-Control(QC) Request**. The host releases the quiesce by sending **RELQ**, and the local node sends a **Status-Control(RELQ) Request** to the application, which then initiates a new chain.  
   
- ![](../core/media/32703sb.gif "32703sb")  
+ ![Image that shows how a host sends QEC while the application is sending a chain.](../core/media/32703sb.gif "32703sb")  
 Host sends QEC while the application is sending a chain  
   
 ## See Also  

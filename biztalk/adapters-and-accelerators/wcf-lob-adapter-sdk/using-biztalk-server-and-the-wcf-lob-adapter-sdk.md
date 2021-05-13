@@ -27,9 +27,9 @@ This section contains information about the relationship of [!INCLUDE[btsBizTalk
 
  The following figures provides a high-level overview of how the BizTalk WCF adapter and WCF LOB adapters are used within [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to communicate with target LOB systems.  
 
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/8dd622c6-ab5e-4cd9-aa86-5176f5c62203.gif "8dd622c6-ab5e-4cd9-aa86-5176f5c62203")  
+ ![Image that shows a high-level overview of how the BizTalk WCF adapter and WCF LOB adapters are used within BizTalk Server.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/8dd622c6-ab5e-4cd9-aa86-5176f5c62203.gif "8dd622c6-ab5e-4cd9-aa86-5176f5c62203")  
 
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/4f503084-da4f-41cb-92b9-eaea25d1b456.gif "4f503084-da4f-41cb-92b9-eaea25d1b456")  
+ ![Image that shows how the BizTalk WCF adapter and WCF LOB adapters are used within BizTalk Server.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/4f503084-da4f-41cb-92b9-eaea25d1b456.gif "4f503084-da4f-41cb-92b9-eaea25d1b456")  
 
 ## Differences between the SDK and the BizTalk Server Adapter Framework
 

@@ -19,7 +19,7 @@ manager: "anneta"
   
  Windows operating systems support multiple protocols simultaneously, but there is no need to send the same Host Integration Server broadcasts over all available protocols. Using the SNA Manager Console, you can specify the network protocol for server broadcasts. You must make sure that one protocol is available on all Host Integration Server computers in the SNA subdomain, and use that protocol for server broadcasts. For more information, see [Configuring a Server Broadcast](../core/configuring-a-server-broadcast2.md). The following figure shows a network in which TCP/IP is used for server-to-server communications and TCP/IP is used for client-to-server communications.  
   
- ![](../core/media/snas02.gif "snas02")  
+ ![Image that shows how to use different protocols for server-to-server and client-to-server communications.](../core/media/snas02.gif "snas02")  
 Using different protocols for server-to-server and client-to-server communications  
   
 ## Separate protocol used for server-to-server and client-to-server communications  

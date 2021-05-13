@@ -48,7 +48,7 @@ Message flow on a responder computer starts with receiving a message over the In
 ## Message Flow on the Responder Computer  
  The message flow of a received message through the responder [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] computer is as follows:  
   
- ![](../../adapters-and-accelerators/accelerator-rosettanet/media/rn3-responder-receive-message-flow.gif "RN3_Responder_Receive_Message_Flow")  
+ ![Image that shows the message flow of a received message through the responder.](../../adapters-and-accelerators/accelerator-rosettanet/media/rn3-responder-receive-message-flow.gif "RN3_Responder_Receive_Message_Flow")  
   
 1. The RNIFReceive aspx page receives the incoming message from the initiator.  
   

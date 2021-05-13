@@ -21,7 +21,7 @@ The local node provides the SNA layers of path control, transmission control, an
   
  The FMI is used by LU types 0, 1, 2, and 3, but not by LU type 6.2. It provides access to the system services control point (SSCP)-LU session as well as the main primary logical unit (PLU)-SLU session. (For more information about these sessions, see [Sessions and Connections](../core/sessions-and-connections2.md).) An application can use the FMI to access multiple sessions and hence multiple LUs, simultaneously.  
   
- ![](../core/media/his-32703a.gif "his_32703a")  
+ ![Image that shows an emulator communicating with the local node, which communicates with the link service.](../core/media/his-32703a.gif "his_32703a")  
 Emulator communicating with the local node, which communicates with the link service  
   
  In this example, the 3270 emulator on the client communicates over the local area network (LAN) with the local node on the server by exchanging messages. The content and format of the messages are defined by the FMI. The DMOD is used to transport the messages, but does not interpret them. The local node provides the SNA service for formatting the message. The link service and the data link control (DLC) driver are responsible for transferring data between the local node and the DLC adapter.  

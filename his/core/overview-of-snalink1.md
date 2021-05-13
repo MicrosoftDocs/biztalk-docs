@@ -19,7 +19,7 @@ A Host Integration Server SNALink must implement an SNA-compatible data transpor
   
  The local node provides the SNA layers of path control, transmission control, data flow control, and logical unit (LU) services. The following figure shows an example of a Host Integration Server system.  
   
- ![](../core/media/his-32703b.gif "his_32703b")  
+ ![Image that shows the sending and receiving of messages.](../core/media/his-32703b.gif "his_32703b")  
 Sending and receiving messages  
   
  The local node uses the data link control (DLC) interface to communicate with a SNALink. This interface is defined in [The Data Link Control Interface](../core/data-link-control-interface1.md). The SNALink and the DLC driver are responsible for transferring data between the path control layer of the node and the DLC adapter.  

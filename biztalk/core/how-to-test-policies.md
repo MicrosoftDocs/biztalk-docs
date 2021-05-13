@@ -44,5 +44,5 @@ To test a policy, you need facts on which the rules can be executed. You can add
   
 7.  Right-click in the output window to save, clear, select, or copy the output text.  
   
-     ![](../core/media/ebiz-testpolicy.gif "ebiz_testpolicy")  
+     ![Image that shows the Select Facts dialog box.](../core/media/ebiz-testpolicy.gif "ebiz_testpolicy")  
 Selecting fact to test a policy

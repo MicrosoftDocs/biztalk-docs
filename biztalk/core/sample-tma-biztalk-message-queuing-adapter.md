@@ -38,7 +38,7 @@ This topic presents the threat model analysis (TMA) for the BizTalk Message Queu
   
  **Figure 2 DFD for the sample architecture of the BizTalk Message Queuing adapter scenario**  
   
- ![Sample architecture for BizTalk Message Queuing](../core/media/tdi-sec-refarch-dfd-msmq.gif "TDI_Sec_RefArch_DFD_MSMQ")  
+ ![Image that shows the data flow diagram for the sample architecture of the BizTalk Message Queuing adapter scenario.](../core/media/tdi-sec-refarch-dfd-msmq.gif "TDI_Sec_RefArch_DFD_MSMQ")  
   
  The data flow is as follows:  
   

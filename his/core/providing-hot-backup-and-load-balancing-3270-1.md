@@ -17,7 +17,7 @@ manager: "anneta"
 # Providing Hot Backup and Load Balancing (3270)
 The following diagram shows hot backup across host connections on the same server and across servers.  
   
- ![](../core/media/pln03.gif "pln03")  
+ ![Image that shows hot backup across host connections on the same server and across servers.](../core/media/pln03.gif "pln03")  
 Diagram showing hot backup across host connections on the same server and across servers  
   
  To recover from situations where a particular host connection has failed, the Host Integration Server hot backup feature can be configured to allow for similarly configured resources to automatically fill in and support functions dependent on the failed connection. When a failure occurs, a user can simply reconnect to a given resource using an alternate connection or server without reconfiguring client software. Hot backup can be implemented across host connections on the same server, or across several servers in a domain using LU pools as shown in the preceding figure. Implementing fault-tolerant connections is a recommended strategy for enterprises of any size, and helps to provide reliable host access to your users.  

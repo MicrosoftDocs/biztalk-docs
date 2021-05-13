@@ -21,7 +21,7 @@ To close the system services control point (SSCP) connection, an application sen
   
  Closing the connection invalidates the locality, partner, index (LPI) pair for the connection, but does not alter the state of the SSCP session. The following figure shows the message flow.  
   
- ![](../core/media/his-32703e.gif "his_32703e")  
+ ![Image that shows the message flow for closing a connection.](../core/media/his-32703e.gif "his_32703e")  
 Message flow for closing a connection  
   
 ## See Also  

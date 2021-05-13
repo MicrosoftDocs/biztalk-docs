@@ -31,14 +31,14 @@ The opening of the primary logical unit (PLU) connection is closely associated w
   
   The message flow for a successful opening of the PLU connection (on receipt of a nonnegotiable **BIND**) is shown in the following figure. Note that the **BIND** parameters are verified (at [1]) only when the application has supplied the **BIND** check table index as part of the connection information control block (CICB).  
   
-  ![](../core/media/his-32703f.gif "his_32703f")  
+  ![Image that shows the message flow for opening a PLU connection.](../core/media/his-32703f.gif "his_32703f")  
   Message flow for opening a PLU connection  
   
   The following figure shows the message sequence for the initiation of both the SSCP and PLU sessions, including details of where the Locality Partner Index (LPI) values are assigned. (The application's source P value of 0x12 indicates that it is a 3270 emulator. For more information about how the source LPI values are set, see [Open(SSCP) Request](./open-sscp-request2.md).) The message flow shown assumes that the connection to the host is already established and that both the configuration and the **BIND** are valid.  
   
   After this message sequence, there are two valid sets of LPI values, one for the SSCP session and one for the PLU session. The application can access either session at any time until **UNBIND** and can use the LPI values to distinguish between received data on the two sessions.  
   
-  ![](../core/media/his-32703fa.gif "his_32703fa")  
+  ![Image that shows a message sequence for the initiation of both the SSCP and PLU sessions.](../core/media/his-32703fa.gif "his_32703fa")  
   Message sequence for the initiation of both the SSCP and PLU sessions  
   
 ## In This Section  

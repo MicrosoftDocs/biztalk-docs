@@ -35,7 +35,7 @@ manager: "anneta"
 # Business Activity Monitoring (BAM)
 The following diagram illustrates the architecture for the Business Activity Monitoring (BAM) feature.  
   
- ![](../core/media/architecture-bam-01.gif "architecture_bam_01")  
+ ![Image that shows the architecture for the Business Activity Monitoring (BAM) feature.](../core/media/architecture-bam-01.gif "architecture_bam_01")  
   
 ## Tools  
  You can use the following tools to design, develop, and deploy BizTalk solutions that integrate with BAM.  
@@ -68,12 +68,12 @@ The following diagram illustrates the architecture for the Business Activity Mon
   
   The following diagram illustrates the underlying physical processes for the BAM architecture.  
   
-  ![](../core/media/architecture-bam-02.gif "architecture_bam_02")  
+  ![Image that shows the underlying physical processes for the BAM architecture.](../core/media/architecture-bam-02.gif "architecture_bam_02")  
   
 ## Design time experience  
  The following diagram illustrates the design time experience.  
   
- ![](../core/media/architecture-bam-03.gif "architecture_bam_03")  
+ ![Image that shows the design time experience.](../core/media/architecture-bam-03.gif "architecture_bam_03")  
   
  The following steps describe the sequence depicted in the illustration above.  
   
@@ -96,7 +96,7 @@ The following diagram illustrates the architecture for the Business Activity Mon
   
   The following diagram illustrates BAM deployment.  
   
-  ![](../core/media/architecture-bam-04.gif "architecture_bam_04")  
+  ![Image that shows the BAM deployment.](../core/media/architecture-bam-04.gif "architecture_bam_04")  
   
   The following steps describe the sequence depicted in the illustration above.  
   
@@ -121,7 +121,7 @@ The following diagram illustrates the architecture for the Business Activity Mon
   
  The following diagram illustrates the process of data consumption.  
   
- ![](../core/media/architecture-bam-05.gif "architecture_bam_05")  
+ ![Image that shows the process of data consumption.](../core/media/architecture-bam-05.gif "architecture_bam_05")  
   
  The following steps describe the sequence depicted in the illustration above.  
   
@@ -151,7 +151,7 @@ The following diagram illustrates the architecture for the Business Activity Mon
   
  The following diagram illustrates this process.  
   
- ![](../core/media/architecture-bam-06.gif "architecture_bam_06")  
+ ![Image that shows the data insertion flow into the BAM system.](../core/media/architecture-bam-06.gif "architecture_bam_06")  
   
  The following steps describe the sequence depicted in the illustration above.  
   
@@ -164,7 +164,7 @@ The following diagram illustrates the architecture for the Business Activity Mon
   
  The following diagram illustrates this process.  
   
- ![](../core/media/architecture-bam-07.gif "architecture_bam_07")  
+ ![Image that shows how the subsystem loads metadata that is necessary for the subsystems to operate.](../core/media/architecture-bam-07.gif "architecture_bam_07")  
   
  The following steps describe the sequence depicted in the illustration above.  
   
@@ -177,7 +177,7 @@ The following diagram illustrates the architecture for the Business Activity Mon
   
  The following diagram illustrates this process.  
   
- ![](../core/media/architecture-bam-08.gif "architecture_bam_08")  
+ ![Image that shows how data is captured from the BizTalk Service.](../core/media/architecture-bam-08.gif "architecture_bam_08")  
   
  The following steps describe the sequence depicted in the illustration above.  
   
@@ -192,7 +192,7 @@ The following diagram illustrates the architecture for the Business Activity Mon
   
  The following diagram illustrates this process.  
   
- ![](../core/media/architecture-bam-09.gif "architecture_bam_09")  
+ ![Image that shows the process for custom data insertion.](../core/media/architecture-bam-09.gif "architecture_bam_09")  
   
  The following steps describe the sequence depicted in the illustration above.  
   

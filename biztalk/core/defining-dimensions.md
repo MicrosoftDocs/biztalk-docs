@@ -32,7 +32,7 @@ Microsoft Excel defines dimensions as categories used to organize data in a tabl
   
 - [Numeric Range Dimension](../core/numeric-range-dimension.md)  
   
-  ![](../core/media/bam-olap-cube.gif "bam_olap_cube")  
+  ![Image that shows pre-calculation aggregation data.](../core/media/bam-olap-cube.gif "bam_olap_cube")  
   Pre-calculated Aggregation Data  
   
   You add new dimensions in the BAM View wizard. Before you can add dimensions, you need to use the wizard to create business activity views. For more information about using the wizard, see [Define Business Activities and Views in Excel](../core/defining-business-activities-and-views-in-excel.md).  

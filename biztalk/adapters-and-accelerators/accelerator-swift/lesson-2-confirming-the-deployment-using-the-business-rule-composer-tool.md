@@ -32,7 +32,7 @@ In this lesson, you confirm that the Business Rule Composer tool created your vo
   
 3.  In the Facts Explorer pane of the Business Rule Composer tool, confirm that the vocabularies you want appear in the Facts Explorer, as shown in the following figure.  
   
-     ![](../../adapters-and-accelerators/accelerator-swift/media/tut2-scrn2.gif "Tut2_scrn2")  
+     ![Image that shows the Vocabularies tab.](../../adapters-and-accelerators/accelerator-swift/media/tut2-scrn2.gif "Tut2_scrn2")  
   
 4.  In the Policy Explorer, confirm that the Business Rule Composer tool deployed the following policies:  
   

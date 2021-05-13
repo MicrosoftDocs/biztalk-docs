@@ -108,7 +108,7 @@ Next, verify that the JD Edwards OneWorld adapter is installed, and create the s
   
    7. **User Name:** \<enter your JD Edwards User Name\>  
   
-      ![](../core/media/jdeow-transportproperties-configurebutton.gif "JDEOW_TransportProperties_ConfigureButton")  
+      ![Image that shows where to type your JD Edwards user name.](../core/media/jdeow-transportproperties-configurebutton.gif "JDEOW_TransportProperties_ConfigureButton")  
   
 5. Select **OK** to close the **Send Port Properties**.  
   
@@ -122,17 +122,17 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 3. In the Add Adapter Wizard, select the **JD Edwards OneWorld** adapter, select the **JDE_OneWorldPort** send port that you created in the preceding procedure, and then click **Next**.  
   
-    ![](../core/media/jdeow-addadapterwizardselectadapter.gif "JDEOW_AddAdapterWizardSelectAdapter")  
+    ![Image that shows where to select Next.](../core/media/jdeow-addadapterwizardselectadapter.gif "JDEOW_AddAdapterWizardSelectAdapter")  
   
 4. On the **Select Services to Import** page, open **JD Edwards OneWorld**. The JDEOW system is contacted through the adapter by using the BrowsingAgent program. The BrowsingAgent returns the following services.  
   
-    ![](../core/media/jdeow-callbsfn.gif "JDEOW_CALLBSFN")  
+    ![Image that highlights the CALLBSFN service.](../core/media/jdeow-callbsfn.gif "JDEOW_CALLBSFN")  
   
 5. Expand **CALLBSFN** and scroll down to **N0100041 - Address Book MBF**. Select N0100041 and then click **Finish**.  
   
 6. In Solution Explorer, there is a new BizTalk orchestration with two new associated schema files. These files are created by the Add Adapter Wizard. Double-click the **BizTalk Orchestration.odx** file to open the orchestration.  
   
-    ![](../core/media/jdeow-solution-explorer-jde-ow-test-schemas.gif "JDEOW_Solution_Explorer_JDE_OW_TEST_Schemas")  
+    ![Image that shows the Solution Explorer dialog box.](../core/media/jdeow-solution-explorer-jde-ow-test-schemas.gif "JDEOW_Solution_Explorer_JDE_OW_TEST_Schemas")  
   
    This orchestration accepts as input from the File adapter an XML file formatted for the JD Edwards OneWorld system. The orchestration uses the JD Edwards OneWorld adapter to send the XML file to the JD Edwards OneWorld system. JD Edwards OneWorld processes the query and generates an output XML file containing the results. This XML file returns to the orchestration through the JD Edwards OneWorld adapter, and the File adapter writes the XML file to the output location on disk.  
   
@@ -170,7 +170,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 2. On the **Select a Port Type** page, select **Use an existing Port Type**. Under **Available Port Types**, select **JD_OW_Test.N0100041**,and then click **Next**.  
   
-    ![](../core/media/a421358c-6e90-4fe0-b243-6beb1b51955a.gif "a421358c-6e90-4fe0-b243-6beb1b51955a")  
+    ![Image that shows where to select a port type.](../core/media/a421358c-6e90-4fe0-b243-6beb1b51955a.gif "a421358c-6e90-4fe0-b243-6beb1b51955a")  
   
 3. Select the following property values:  
   
@@ -226,7 +226,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 4.  Drag a **Send** component from the Toolbox and drop it immediately below the **JDEOW_RespReceive** shape. Click the new **Send** shape, and in the Properties window, enter `FileToDisk` for the **Name**.  
   
-     ![](../core/media/jdeow-orchestration-multipartmessages.gif "JDEOW_Orchestration_MultiPartMessages")  
+     ![Image that shows where to enter FiletoDisk.](../core/media/jdeow-orchestration-multipartmessages.gif "JDEOW_Orchestration_MultiPartMessages")  
   
 5.  Connect the **JDE_FileIn** port to the **GetFileReceive** component.  
   
@@ -242,7 +242,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 11. Connect **JDEOW_Resp** to the **Response** portion of the **JDE_OW_Port** port.  
   
-     ![](../core/media/jdeow-portsurface-connectcomponentstoports.gif "JDEOW_PortSurface_ConnectComponentsToPorts")  
+     ![Image that shows the JDEOW_Resp object connected to the Response portion of the JDE_OW_Port.](../core/media/jdeow-portsurface-connectcomponentstoports.gif "JDEOW_PortSurface_ConnectComponentsToPorts")  
   
 ## Step 4: Build and deploy the project  
  Now the BizTalk project is complete and you can build and deploy it in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].  
@@ -267,11 +267,11 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 9. In Solution Explorer, right-click the **JDE_OW_Test** project, and then click **Build.**  
   
-     ![](../core/media/jdeow-buildcompleteoutput.gif "JDEOW_BuildCompleteOutput")  
+     ![Image that shows where to right-click JDE_OW_Test.](../core/media/jdeow-buildcompleteoutput.gif "JDEOW_BuildCompleteOutput")  
   
 10. After the build completes successfully, right-click the **XX_JD Edwards OneWorldQuery** project, and then click **Deploy**. In the output window the following output will be displayed:  
   
-     ![](../core/media/jdeow-deployoutput.gif "JDEOW_DeployOutput")  
+     ![Image that shows the output displayed in the output window.](../core/media/jdeow-deployoutput.gif "JDEOW_DeployOutput")  
   
 ## Step 5: Test the Application and Viewing the XML Output  
  Now you will test the application that you have created and deployed. You will create the XML file that starts the orchestration process, and then you will configure folders to receive and send XML files within the application. After you have configured the application, you will run it and view the XML files that the orchestration returns.  
@@ -286,7 +286,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 3.  Click **OK.** In the Properties window, select **\<Schema\>** and set **Root Reference:** to `AddressBookMasterMBF`. This will cause the generated XML to include only the **Query** xml.  
   
-     ![](../core/media/jdeow-jde-ow-test-msvisualstudio-schemas.gif "JDEOW_JDE_OW_Test_MSVISUALSTUDIO_SCHEMAS")  
+     ![Image that shows where to set Root Reference to AddressBookMasterMBF.](../core/media/jdeow-jde-ow-test-msvisualstudio-schemas.gif "JDEOW_JDE_OW_Test_MSVISUALSTUDIO_SCHEMAS")  
   
 4.  Right-click **N0100041Service_N0100041.xsd** and then click **Generate Instance**. This generates the **Sample.xml** file. This file will be dropped in the receive location as input to the adapter to start the orchestration process.  
   
@@ -298,7 +298,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 3. Right-click **JDE_OW_Test**, and then click **Configure**.  
   
-    ![](../core/media/jdeow-configureapplicationjde-ow-test.gif "JDEOW_ConfigureApplicationJDE_OW_Test")  
+    ![Image that shows where to select Configure.](../core/media/jdeow-configureapplicationjde-ow-test.gif "JDEOW_ConfigureApplicationJDE_OW_Test")  
   
 4. Select **Orchestration_1** and click the **Host** drop-down box. Select **BizTalkServerApplication**.  
   
@@ -306,7 +306,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 6. For **Name**, type `JDE_FileIn_Port`, and then click **OK**. A message box appears stating that you need to designate a receive location. Click **OK**, and then click **New**.  
   
-    ![](../core/media/jdeow-filein-port-receiveportproperties.gif "JDEOW_FileIn_Port_ReceivePortProperties")  
+    ![Image that shows where to designate a receive location.](../core/media/jdeow-filein-port-receiveportproperties.gif "JDEOW_FileIn_Port_ReceivePortProperties")  
   
 7. Type or select the following values for the properties:  
   
@@ -318,11 +318,11 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
     **Receive Pipeline**: **XMLReceive**  
   
-    ![](../core/media/jdeow-filein-loc-receivelocationproperties.gif "JDEOW_FileIn_Loc_ReceiveLocationProperties")  
+    ![Image that shows where to select the receive location properties.](../core/media/jdeow-filein-loc-receivelocationproperties.gif "JDEOW_FileIn_Loc_ReceiveLocationProperties")  
   
 8. Click **Configure**, type `C:\LABS\JDE_OW_Test\FileIn` for **Receive Folder**, and then click **OK** three times.  
   
-    ![](../core/media/jdeow-file-transport-properties-filein.gif "JDEOW_File_Transport_Properties_FileIn")  
+    ![Image that shows File Transport Properties dialog box.](../core/media/jdeow-file-transport-properties-filein.gif "JDEOW_File_Transport_Properties_FileIn")  
   
 9. Click **\<None\>** for **JDE_OW_Port** in the drop-down list.  
   
@@ -354,7 +354,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
      **User Name:** <enter your JD Edwards User Name>  
   
-     ![](../core/media/jdeow-transportproperties-configurebutton2.gif "JDEOW_TransportProperties_ConfigureButton2")  
+     ![Image that shows where to enter your user name.](../core/media/jdeow-transportproperties-configurebutton2.gif "JDEOW_TransportProperties_ConfigureButton2")  
   
 12. Click **OK** twice to close the dialog boxes.  
   
@@ -372,7 +372,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 15. Click **Configure** and type`C:\Labs\JDE_OW_Test\FileOut` for **Destination Folder.** Keep **%MessageID%.xml** for **File Name** because this results in a unique file for each message.  
   
-     ![](../core/media/jdeow-file-transport-properties-fileout.gif "JDEOW_File_Transport_Properties_FileOut")  
+     ![Image that shows where to configure the documented properties.](../core/media/jdeow-file-transport-properties-fileout.gif "JDEOW_File_Transport_Properties_FileOut")  
   
 16. Click **OK** three times to close the dialog boxes.  
   
@@ -382,11 +382,11 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 1.  In the **C:\Labs\JDE_OW_Test** directory the **Sample.xml** file will appear as:  
   
-     ![](../core/media/jdeow-samplexml-notepad-addressbookmastermbf.gif "JDEOW_SampleXML_Notepad_AddressBookMasterMBF")  
+     ![Image that shows the contents of the Sample.xml file.](../core/media/jdeow-samplexml-notepad-addressbookmastermbf.gif "JDEOW_SampleXML_Notepad_AddressBookMasterMBF")  
   
 2.  Edit the **Sample.xml** file to remove everything except the **cActionCode** and **mnAddressBookNumber** elements.  
   
-     ![](../core/media/jdeow-samplexml-notepad-cactioncode.gif "JDEOW_SampleXML_Notepad_cActionCode")  
+     ![Image that shows where to edit the Sample.xml file.](../core/media/jdeow-samplexml-notepad-cactioncode.gif "JDEOW_SampleXML_Notepad_cActionCode")  
   
 3.  For the **cActionCode** element insert the letter `i`.  
   
@@ -396,7 +396,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
 6.  In a few seconds, an XML file should appear in the **C:\Labs\JDE_OW_Test\FileOut** folder. This should contain the all the records where the address is 500.  
   
-     ![](../core/media/jdeow-xml-output-jde-callbsfn.gif "JDEOW_XML_Output_JDE_CALLBSFN")  
+     ![Image that shows what the updated XML file should look like.](../core/media/jdeow-xml-output-jde-callbsfn.gif "JDEOW_XML_Output_JDE_CALLBSFN")  
   
      This returned record data should match the data returned by the query against the JD Edwards OneWorld system in Lab 1. By comparing the records you obtained in Lab 1, you can verify that the **Get** method worked properly.  
   

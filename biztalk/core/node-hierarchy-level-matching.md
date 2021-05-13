@@ -42,28 +42,28 @@ BizTalk Mapper enables you to configure a link property to control how the compi
 ## Flatten Links  
  In this mode, all the source hierarchies are flattened to the parent record of the destination node. In the first case, the source schema is more complex than the destination schema. In the second case, the destination schema is more complex.  
   
- ![](../core/media/bts-tls-flatten.gif "bts_tls_flatten")  
+ ![Image that shows how the source schema is more complex than the destination schema.](../core/media/bts-tls-flatten.gif "bts_tls_flatten")  
 Flatten Links  
   
- ![](../core/media/bts-tls-flatten-2.gif "bts_tls_flatten_2")  
+ ![Image that shows how the destination schema is more complex.](../core/media/bts-tls-flatten-2.gif "bts_tls_flatten_2")  
 Flatten Links, Second Case  
   
 ## Match Links Top-Down  
  This mode matches level to level from the top down. In the first case, the source schema is more complex than the destination schema. In the second case, the destination schema is more complex.  
   
- ![](../core/media/bts-tls-topdown.gif "bts_tls_topdown")  
+ ![Image that shows an example of top-down matching.](../core/media/bts-tls-topdown.gif "bts_tls_topdown")  
 Top-Down Matching  
   
- ![](../core/media/bts-tls-topdown-2.gif "bts_tls_topdown_2")  
+ ![Image that shows a second example of top-down matching.](../core/media/bts-tls-topdown-2.gif "bts_tls_topdown_2")  
 Top-Down Matching, Second Case  
   
 ## Match Links Bottom-Up  
  This mode matches level to level from the bottom up. In the first case, the source schema is more complex than the destination schema. In the second case, the destination schema is more complex.  
   
- ![](../core/media/bts-tls-bottomup.gif "bts_tls_bottomup")  
+ ![Image that shows an example of bottom-up matching.](../core/media/bts-tls-bottomup.gif "bts_tls_bottomup")  
 Bottom-Up Matching  
   
- ![](../core/media/bts-tls-bottomup-2.gif "bts_tls_bottomup_2")  
+ ![Image that shows a second example of bottom-up matching.](../core/media/bts-tls-bottomup-2.gif "bts_tls_bottomup_2")  
 Bottom-Up Matching, Second Case  
   
 ## How BizTalk Mapper Processes Link Types  

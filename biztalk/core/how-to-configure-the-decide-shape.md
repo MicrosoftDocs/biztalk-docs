@@ -21,7 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Decide Shape
-![](../core/media/ebiz-orch-decide.gif "ebiz_orch_decide")  
+![Image that represents the Decide shape.](../core/media/ebiz-orch-decide.gif "ebiz_orch_decide")  
 Decide shape  
   
  Each branch of a **Decide** shape, except the **else** branch, has a rule associated with it. You can use BizTalk Expression Editor to create a Boolean expression in the rule that is evaluated for the execution of that branch. Because the **else** branch implies the negation of the Boolean expression in the previous branch, it does not have an expression associated with it.  

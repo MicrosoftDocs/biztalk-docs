@@ -31,5 +31,5 @@ For information about the role an SNALink plays in node identification, see [Inc
   
   If the remote station is identified correctly, XID exchange proceeds as detailed in [Activating a Peer Connection](../core/activating-a-peer-connection-snadis-1.md). However, if there is a mismatch, the local node sends an XID (in the [Send-XID](./send-xid1.md) message) containing an error vector followed by a [Close(LINK) Request](./close-link-request1.md), as shown in the following figure.  
   
-  ![](../core/media/dev3f.gif "dev3f")  
+  ![Image that shows a local node sending an XID containing an error vector, followed by a Close(LINK) Request.](../core/media/dev3f.gif "dev3f")  
   Local node sending an XID containing an error vector, followed by a Close(LINK) Request

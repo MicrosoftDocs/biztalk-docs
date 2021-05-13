@@ -26,7 +26,7 @@ The **Value Mapping** functoid returns the value of its second parameter if its 
   
     The list of advanced functoids in the chosen category appears.  
   
-2. Drag the **Value Mapping** functoid (![](../core/media/bts-tls-valmap.gif "bts_tls_valmap")) from the Toolbox to the appropriate location on a grid page.  
+2. Drag the **Value Mapping** functoid (![Image that represents the Value Mapping functoid.](../core/media/bts-tls-valmap.gif "bts_tls_valmap")) from the Toolbox to the appropriate location on a grid page.  
   
    > [!NOTE]
    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display that other grid page first.  
