@@ -27,5 +27,5 @@ A Host Integration Server SNALink consists of the following:
   
   The following figure shows the executable structure of a SNALink.  
   
-  ![](../core/media/dev1c.gif "dev1c")  
+  ![Image that shows an executable structure of an SNALink.](../core/media/dev1c.gif "dev1c")  
   Executable structure of an SNALink

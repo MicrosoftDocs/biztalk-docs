@@ -17,7 +17,7 @@ manager: "anneta"
 # TCP/IP Clients
 The following figure shows how a TCP/IP client computer can connect to the mainframe.  
   
- ![](../core/media/ref09.gif "ref09")  
+ ![Image that shows how a TCP/IP client computer can connect to the mainframe.](../core/media/ref09.gif "ref09")  
   
  A TCP/IP client computer uses the following procedure to connect to the mainframe:  
   

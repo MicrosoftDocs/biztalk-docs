@@ -23,7 +23,7 @@ When attempting to find a free logical unit (LU) across more than one local node
   
  The sample message flows in the following figure show this process for two local nodes. The DL-BASE tries each in turn, using nonforced Opens. The error code from node #2 indicates that it is more likely to be able to activate the SSCP session than node #1, so the DL-BASE sends a forced Open to node #2. The application is aware only of the first request and its response.  
   
- ![](../core/media/his-32703d.gif "his_32703d")  
+ ![Image that shows a sample message flow for two local nodes.](../core/media/his-32703d.gif "his_32703d")  
 Sample message flow for two local nodes  
   
  To enable applications to restart after a disastrous failure (such as terminating the 3270 emulation program), the local node also accepts an [Open(SSCP) Request](./open-sscp-request2.md) from an application that has failed and has been restarted, providing the same source locality, partner, index (LPI) fields are used. In this case, a **TERM-SELF** message is sent to the host if the LU is bound.  

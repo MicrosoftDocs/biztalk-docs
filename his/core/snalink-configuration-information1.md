@@ -40,7 +40,7 @@ The configuration information for all SNALinks on a computer is stored hierarchi
   
   The following figure shows a sample configuration for a computer with two SNALinks—SDLC1 and X25HOST.  
   
-  ![](../core/media/dev3a.gif "dev3a")  
+  ![Image that shows a sample configuration for a computer with two SNALinks.](../core/media/dev3a.gif "dev3a")  
   Sample configuration for a computer with two SNALinks  
   
   The configuration information is accessed using API calls that Host Integration Server provides.  

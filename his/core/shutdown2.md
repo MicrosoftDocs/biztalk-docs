@@ -31,12 +31,12 @@ The shutdown protocol provides a means for the host application to stop the appl
   
   In the following figure, the host sends **SHUTD** while the application is sending in the in-bracket state. The application completes the bracket, sends **Status-Control(SHUTC) Request**, and the host terminates the PLU session by sending **UNBIND**. The local node closes the PLU connection.  
   
-  ![](../core/media/32703r.gif "32703r")  
+  ![Image that shows how a host sends SHUTD while the application is sending in the in-bracket state.](../core/media/32703r.gif "32703r")  
   Host sends SHUTD while the application is sending in the in-bracket state  
   
   In the following figure, the host sends **SHUTD** while the application is sending in the in-bracket state. The application completes the bracket, sends **Status-Control(SHUTC) Request**, and then the host releases the application from the quiesced state by sending **RELQ**. The local node sends a **Status-Control(RELQ) Request** to the application, which initiates a new bracket.  
   
-  ![](../core/media/32703ra.gif "32703ra")  
+  ![Image that shows a host that sends SHUTD while the application is sending in the in-bracket state.](../core/media/32703ra.gif "32703ra")  
   Host sends SHUTD while the application is sending in the in-bracket state  
   
 ## See Also  
