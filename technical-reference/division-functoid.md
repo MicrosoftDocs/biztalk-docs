@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Division** functoid ( ![](images/Aa578425.9a73420a-40d6-4dc4-8b06-4cb1c2b2afd4(BTS.80).jpeg)) to calculate the quotient of the specified dividend and divisor.
+Use the **Division** functoid ( ![Icon that represents the Division functoid.](images/Aa578425.9a73420a-40d6-4dc4-8b06-4cb1c2b2afd4(BTS.80).jpeg)) to calculate the quotient of the specified dividend and divisor.
 
 ## Input
 

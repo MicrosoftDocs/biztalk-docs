@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Format Message** functoid ( ![](images/Aa562112.70a6fb56-e342-4bd0-87ce-7cc77984928d(BTS.80).jpeg)) to return a formatted and localized string.
+Use the **Format Message** functoid ( ![Icon that represents the Format Message functoid.](images/Aa562112.70a6fb56-e342-4bd0-87ce-7cc77984928d(BTS.80).jpeg)) to return a formatted and localized string.
 
 ## Input
 

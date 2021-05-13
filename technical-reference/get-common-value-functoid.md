@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Get Common Value** functoid ( ![](images/Aa562112.e457cba1-6b35-4ef1-a872-19df042ea1cc(BTS.80).jpeg)) to retrieve a common value.
+Use the **Get Common Value** functoid ( ![Icon that represents the Get Common Value functoid.](images/Aa562112.e457cba1-6b35-4ef1-a872-19df042ea1cc(BTS.80).jpeg)) to retrieve a common value.
 
 ## Input
 

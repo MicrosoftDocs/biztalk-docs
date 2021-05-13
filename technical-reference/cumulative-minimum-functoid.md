@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Cumulative Minimum** functoid ( ![](images/Aa561799.066f13a5-aa0c-4e9d-87ee-6667d9a3a39e(BTS.80).jpeg)) to determine the minimum value of a numeric value that recurs within corresponding instance messages.
+Use the **Cumulative Minimum** functoid ( ![Icon that represents the Cumulative Minimum functoid.](images/Aa561799.066f13a5-aa0c-4e9d-87ee-6667d9a3a39e(BTS.80).jpeg)) to determine the minimum value of a numeric value that recurs within corresponding instance messages.
 
 ## Input
 

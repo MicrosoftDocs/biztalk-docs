@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Database Lookup** functoid ( ![](images/Aa562112.46f7eca0-1dba-456f-8720-24db8c35fae6(BTS.80).jpeg)) to extract a row from a database table as a Microsoft ActiveX Data Objects (ADO) recordset.
+Use the **Database Lookup** functoid ( ![Icon that represents the Database Lookup functoid.](images/Aa562112.46f7eca0-1dba-456f-8720-24db8c35fae6(BTS.80).jpeg)) to extract a row from a database table as a Microsoft ActiveX Data Objects (ADO) recordset.
 
 ## Input
 

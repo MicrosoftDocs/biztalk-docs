@@ -34,19 +34,19 @@ The following table shows the functoids in the **Conversion** category.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa578043.f5666aab-3a0e-4b89-b99c-2290a736373d(BTS.80).jpeg" /> <a href="ascii-to-character-functoid.md">ASCII to Character</a></td>
+<td><img src="images/Aa578043.f5666aab-3a0e-4b89-b99c-2290a736373d(BTS.80).jpeg" alt="Icon that represents the ASCII to Character functoid."/> <a href="ascii-to-character-functoid.md">ASCII to Character</a></td>
 <td>Determines the character equivalent of a value interpreted as ASCII.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa561886.39dfce53-76e8-47ed-a858-fb7b9d626dcf(BTS.80).jpeg" /> <a href="character-to-ascii-functoid.md">Character to ASCII</a></td>
+<td><img src="images/Aa561886.39dfce53-76e8-47ed-a858-fb7b9d626dcf(BTS.80).jpeg" alt="Icon that represents the Character to ASCII functoid."/> <a href="character-to-ascii-functoid.md">Character to ASCII</a></td>
 <td>Determines the ASCII equivalent of the specified character.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa578422.898fb4dd-8e16-480c-8ada-aabfe1f196d9(BTS.80).jpeg" /> <a href="hexadecimal-functoid.md">Hexadecimal</a></td>
+<td><img src="images/Aa578422.898fb4dd-8e16-480c-8ada-aabfe1f196d9(BTS.80).jpeg" alt="Icon that represents the Hexadecimal functoid."/> <a href="hexadecimal-functoid.md">Hexadecimal</a></td>
 <td>Converts a decimal number to its hexadecimal equivalent.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa547877.67ce9c32-e259-4a34-88f3-34869443b869(BTS.80).jpeg" /> <a href="octal-functoid.md">Octal</a></td>
+<td><img src="images/Aa547877.67ce9c32-e259-4a34-88f3-34869443b869(BTS.80).jpeg" alt="Icon that represents the Octal functoid."/> <a href="octal-functoid.md">Octal</a></td>
 <td>Converts a decimal number to its octal equivalent.</td>
 </tr>
 </tbody>
