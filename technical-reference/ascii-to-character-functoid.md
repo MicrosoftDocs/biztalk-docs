@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **ASCII to Character** functoid ( ![](images/Aa578043.f5666aab-3a0e-4b89-b99c-2290a736373d(BTS.80).jpeg)) to determine the character equivalent of a value interpreted as ASCII.
+Use the **ASCII to Character** functoid ( ![Icon used to determine the character equivalent of a value interpreted as ASCII.](images/Aa578043.f5666aab-3a0e-4b89-b99c-2290a736373d(BTS.80).jpeg)) to determine the character equivalent of a value interpreted as ASCII.
 
 ## Input
 

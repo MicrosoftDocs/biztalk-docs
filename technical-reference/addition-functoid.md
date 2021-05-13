@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Addition** functoid ( ![](images/Aa560388.f6095b67-496f-4c2d-bf90-0480f18d4b5a(BTS.80).jpeg)) to calculate the sum of the numeric input parameters.
+Use the **Addition** functoid ( ![Icon used to calculate the sum of the numeric input parameters.](images/Aa560388.f6095b67-496f-4c2d-bf90-0480f18d4b5a(BTS.80).jpeg)) to calculate the sum of the numeric input parameters.
 
 ## Input
 
