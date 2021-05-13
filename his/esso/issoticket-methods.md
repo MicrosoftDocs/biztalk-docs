@@ -21,8 +21,8 @@ The methods of the **ISSOTicket** interface are listed in the following table. F
   
 |Method|Description|  
 |------------|-----------------|  
-|![](../esso/media/pubmethod.gif "pubmethod") [IssueTicket](../esso/issoticket-issueticket-method.md)|Issues an Enterprise Single Sign-On (SSO) server ticket for authenticating a user on an application.|  
-|![](../esso/media/pubmethod.gif "pubmethod") [RedeemTicket](../esso/issoticket-redeemticket-method.md)|Redeems an SSO server ticket that was previously issued with the **IssueTicket** method.|  
+|![Icon used to issue an Enterprise Single Sign-On (SSO) server ticket for authenticating a user on an application.](../esso/media/pubmethod.gif "pubmethod") [IssueTicket](../esso/issoticket-issueticket-method.md)|Issues an Enterprise Single Sign-On (SSO) server ticket for authenticating a user on an application.|  
+|![Icon used to redeem an SSO server ticket that was previously issued with the IssueTicket method.](../esso/media/pubmethod.gif "pubmethod") [RedeemTicket](../esso/issoticket-redeemticket-method.md)|Redeems an SSO server ticket that was previously issued with the **IssueTicket** method.|  
   
 ## See Also  
  [ISSOTicket Interface (COM)](../esso/issoticket-interface-com.md)   

@@ -21,10 +21,10 @@ The methods of the **ISSOMapping** interface are listed in the following table. 
   
 |Method|Description|  
 |------------|-----------------|  
-|![](../esso/media/pubmethod.gif "pubmethod") [Create](../esso/issomapping-create-method.md)|Creates the mapping.|  
-|![](../esso/media/pubmethod.gif "pubmethod") [Delete](../esso/issomapping-delete-method.md)|Deletes the mapping.|  
-|![](../esso/media/pubmethod.gif "pubmethod") [Disable](../esso/issomapping-disable-method.md)|Disables the mapping.|  
-|![](../esso/media/pubmethod.gif "pubmethod") [Enable](../esso/issomapping-enable-method.md)|Enables the mapping.|  
+|![Icon used to create the mapping.](../esso/media/pubmethod.gif "pubmethod") [Create](../esso/issomapping-create-method.md)|Creates the mapping.|  
+|![Icon used to delete the mapping.](../esso/media/pubmethod.gif "pubmethod") [Delete](../esso/issomapping-delete-method.md)|Deletes the mapping.|  
+|![Icon used to disable the mapping.](../esso/media/pubmethod.gif "pubmethod") [Disable](../esso/issomapping-disable-method.md)|Disables the mapping.|  
+|![Icon used to enable the mapping.](../esso/media/pubmethod.gif "pubmethod") [Enable](../esso/issomapping-enable-method.md)|Enables the mapping.|  
   
 ## See Also  
  [ISSOMapping Interface (COM)](../esso/issomapping-interface-com.md)   

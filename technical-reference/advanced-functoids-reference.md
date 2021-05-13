@@ -32,7 +32,7 @@ The following table shows the functoids in the **Advanced** category.
 <td>Enables you to test your assumptions about conditions in a map. Assertions are tested in Development builds only.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa547061.0f578133-d730-4d60-bc4a-2832c31294b5(BTS.80).jpeg" /> <a href="index-functoid-reference.md">Index</a></td>
+<td><img src="images/Aa547061.0f578133-d730-4d60-bc4a-2832c31294b5(BTS.80).jpeg" alt="Icon that represents the Index functoid."/> <a href="index-functoid-reference.md">Index</a></td>
 <td>Provides a way to extract a particular value from a sequence of repeating values by specifying the appropriate index. Indices can also have varying degrees of scope depending on hierarchy depth and levels indicated by the index.</td>
 </tr>
 <tr class="odd">
