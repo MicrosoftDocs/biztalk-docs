@@ -72,7 +72,7 @@ The following table shows the functoids in the **Advanced** category.
 <td>Allows a Boolean value to control whether an entire structure or another single value in an input instance message gets copied to an output instance message.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa561516.0b7c29fa-4dbc-4497-9411-86c7d1b81387(BTS.80).jpeg" alt="Icon that represents the Value Mapping functoid."/> <a href="value-mapping-flattening-functoid-reference.md">Value Mapping (Flattening)</a></td>
+<td><img src="images/Aa561516.0b7c29fa-4dbc-4497-9411-86c7d1b81387(BTS.80).jpeg" alt="Icon that represents the Value Mapping (Flattening) functoid."/> <a href="value-mapping-flattening-functoid-reference.md">Value Mapping (Flattening)</a></td>
 <td>Allows a Boolean value to control whether an entire structure in an input instance message gets copied to an output instance message, flattening the input hierarchy in the process.</td>
 </tr>
 </tbody>
