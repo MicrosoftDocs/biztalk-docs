@@ -27,7 +27,7 @@ An application using the function management interface (FMI) can communicate wit
   
   The following figure shows the three sessions.  
   
-  ![](../core/media/his-32703b.gif "his_32703b")  
+  ![Image that shows three sessions.](../core/media/his-32703b.gif "his_32703b")  
   Three sessions  
   
   The application can communicate with the local node by means of two locality, partner, index (LPI) sessions. Rather than specifying the session on which a message is to flow, the application sends the message to the local node on one of these connections. The local node then routes it to the appropriate SNA session.  
@@ -40,7 +40,7 @@ An application using the function management interface (FMI) can communicate wit
   
   The following figure shows these sessions.  
   
-  ![](../core/media/his-32703ba.gif "his_32703ba")  
+  ![Image that shows connections between an Application and a local node.](../core/media/his-32703ba.gif "his_32703ba")  
   Connections between an Application and a local node  
   
   These sessions are specific to the local node and the application. Data and status messages passed across a connection result in SNA data and SNA control requests being sent on the appropriate SNA session. Similarly, SNA data and SNA control responses received on an SNA session result in data and control messages being passed to the application on the appropriate connection.  

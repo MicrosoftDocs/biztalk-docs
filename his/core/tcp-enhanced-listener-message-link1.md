@@ -23,7 +23,7 @@ The TCP enhanced listener message (ELM) Link model allows data and parameters to
   
   The following figure summarizes the workflow occurring between the client, the enhanced CICS Listener, the Concurrent Server, and the mainframe transaction program. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
   
-  ![](../core/media/his-ti06.gif "his_ti06")  
+  ![Image that shows the workflow occurring between the client, the enhanced CICS Listener, the Concurrent Server, and the mainframe transaction program.](../core/media/his-ti06.gif "his_ti06")  
   
 ## Summary workflow diagram for the TCP ELM Link programming model  
  The TCP ELM Link programming model works as follows:  

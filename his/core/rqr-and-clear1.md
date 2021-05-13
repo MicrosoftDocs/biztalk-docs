@@ -23,7 +23,7 @@ An application using Transmission Service profile (TS profile) 4 can request the
   
  In the following figure, the application requests recovery by issuing **Status-Control(RQR)**. The host sends **CLEAR**, and the application must reset its session to state that it was following the **BIND (Open(PLU)**). In this case, the application is now between brackets and awaiting start data traffic (SDT).  
   
- ![](../core/media/32703t.gif "32703t")  
+ ![Image that shows application requests recovery by issuing Status-Control(RQR).](../core/media/32703t.gif "32703t")  
 Application requests recovery by issuing Status-Control(RQR)  
   
 ## See Also  

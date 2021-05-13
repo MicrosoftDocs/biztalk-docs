@@ -19,7 +19,7 @@ The TCP enhanced listener message (ELM) User Data model allows data and paramete
   
  The following figure summarizes the workflow occurring between the client, the enhanced CICS Listener, the Concurrent Server, and the mainframe transaction program. The numbers in parentheses indicate the approximate order in which events occur. A more detailed description of the events follows the figure.  
   
- ![](../core/media/his-ti08.gif "his_ti08")  
+ ![Image that shows the workflow occurring between the client, the enhanced CICS Listener, the Concurrent Server, and the mainframe transaction program.](../core/media/his-ti08.gif "his_ti08")  
 Summary workflow for the TCP ELM User Data programming model  
   
 ## TCP ELM User Data Programming Model  

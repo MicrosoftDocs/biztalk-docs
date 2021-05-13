@@ -25,17 +25,17 @@ When a logical unit application (LUA) application sends a **Status-Control** mes
   
  In the first figure, the application sends a **Status-Control(...) Request** message that passes the send checks of the local node.  
   
- ![](../core/media/32703zz.gif "32703zz")  
+ ![Image that shows how an application sends a Status-Control() Request message.](../core/media/32703zz.gif "32703zz")  
 Application sends a Status-Control() Request message  
   
  In the following figure, the application sends a **Status-Control(...) Acknowledge** message that passes the send checks of the local node.  
   
- ![](../core/media/32703zza.gif "32703zza")  
+ ![Image that shows how an application sends a Status-Control(...) Acknowledge message.](../core/media/32703zza.gif "32703zza")  
 Application sends a Status-Control(...) Acknowledge message  
   
  In the following figure, the application sends a **Status-Control(...) Negative-Acknowledge-1** message that passes the send checks of the local node.  
   
- ![](../core/media/32703zzb.gif "32703zzb")  
+ ![Image that shows how an application sends a Status-Control() Negative Acknowledge-1 message.](../core/media/32703zzb.gif "32703zzb")  
 Application sends a Status-Control() Negative Acknowledge-1 message  
   
 ## See Also  

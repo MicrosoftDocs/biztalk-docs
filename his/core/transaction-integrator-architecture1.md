@@ -23,7 +23,7 @@ Transaction Integrator (TI) integrates the IBM Customer Information Control Syst
   
   The primary function of TI is to manage the process and data conversions necessary to allow input data to be provided to the host TPs from a .NET Framework application and to send any output data generated from the TP to the Windows-based application. TI provides data type conversion, tabular data definition, and code page translation. The following figure shows an overview of the role that TI plays in the communications between the application and the host.  
   
-  ![](../core/media/his-ti01.gif "his_ti01")  
+  ![Image that shows how TI provides the data conversions between a Windows-based application and a host.](../core/media/his-ti01.gif "his_ti01")  
   TI provides the data conversions between a Windows-based application and a host  
   
   An example of this type of distributed application is reading a DB2 database on the mainframe to update data in a SQL Server database on Microsoft Windows Server.  

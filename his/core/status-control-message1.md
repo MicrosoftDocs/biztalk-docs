@@ -45,32 +45,32 @@ manager: "anneta"
   
   In the first figure, the application sends **Status-Control(CHASE)**.  
   
-  ![](../core/media/32703z.gif "32703z")  
+  ![Image that shows how an application sends Status-Control(CHASE).](../core/media/32703z.gif "32703z")  
   Application sends Status-Control(CHASE)  
   
   In the following figure, the host sends **BID** request.  
   
-  ![](../core/media/32703za.gif "32703za")  
+  ![Image that shows how a host sends BID request.](../core/media/32703za.gif "32703za")  
   Host sends BID request  
   
   In the following figure, the application sends **Status-Control(SHUTC)**.  
   
-  ![](../core/media/32703zb.gif "32703zb")  
+  ![Image that shows how an application sends Status-Control(SHUTC).](../core/media/32703zb.gif "32703zb")  
   Application sends Status-Control(SHUTC)  
   
   In the following figure, the host sends SNA **SIGNAL** request.  
   
-  ![](../core/media/32703zc.gif "32703zc")  
+  ![Image that shows how a host sends SNA SIGNAL request.](../core/media/32703zc.gif "32703zc")  
   Host sends SNA SIGNAL request  
   
   In the following figure, the host sends multiple **RQE LUSTAT** requests, and the application rejects the first one.  
   
-  ![](../core/media/32703zd.gif "32703zd")  
+  ![Image that shows how an application rejects the first RQE LUSTAT request.](../core/media/32703zd.gif "32703zd")  
   Application rejects the first RQE LUSTAT request  
   
   In the following figure, the application sends **Status-Control(LUSTAT) NOACKRQD**.  
   
-  ![](../core/media/32703ze.gif "32703ze")  
+  ![Image that shows how an application sends Status-Control(LUSTAT) NOACKRQD.](../core/media/32703ze.gif "32703ze")  
   Application sends Status-Control(LUSTAT) NOACKRQD  
   
   The following table summarizes the **Status-Control** requests supported by the local node and SNA session control (SC) and data flow control (DFC) requests. For each **Status-Control** request, the table gives:  

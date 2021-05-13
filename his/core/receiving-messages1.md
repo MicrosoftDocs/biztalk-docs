@@ -17,7 +17,7 @@ manager: "anneta"
 # Receiving Messages
 The following figure shows the method for receiving messages from the Dynamic Access Module (DMOD).  
   
- ![](../core/media/32702a.gif "32702a")  
+ ![Image that shows how to receive messages using a routing procedure.](../core/media/32702a.gif "32702a")  
 Receiving messages using a routing procedure  
   
  After DMOD initialization, the 3270 emulator registers the routing procedure by calling [sepdrout](./sepdrout2.md). When the DMOD receives a message, it calls the 3270 emulator routing procedure, which can then process the message.  
