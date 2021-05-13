@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Get Application Value** functoid ( ![](images/Aa562112.90056a7f-8635-49bd-bb2c-c0646a9aff1f(BTS.80).jpeg)) to retrieve an application value.
+Use the **Get Application Value** functoid ( ![Icon that represents the Get Application functoid.](images/Aa562112.90056a7f-8635-49bd-bb2c-c0646a9aff1f(BTS.80).jpeg)) to retrieve an application value.
 
 ## Input
 
