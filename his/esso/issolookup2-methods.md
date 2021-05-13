@@ -21,8 +21,8 @@ The methods of the **ISSOLookup2** interface are listed in the following table. 
   
 |Method|Description|  
 |------------|-----------------|  
-|![](../esso/media/pubmethod.gif "pubmethod") [GetCredentials](../esso/issolookup2-getcredentials-method.md)|Retrieves the user credentials for an application.|  
-|![](../esso/media/pubmethod.gif "pubmethod") [LogonExternalUser](../esso/issolookup2-logonexternaluser-method.md)|Logs on an external user.|  
+|![Icon used to retrieves user credentials for the application.](../esso/media/pubmethod.gif "pubmethod") [GetCredentials](../esso/issolookup2-getcredentials-method.md)|Retrieves the user credentials for an application.|  
+|![Icon that is used to log on to an external server.](../esso/media/pubmethod.gif "pubmethod") [LogonExternalUser](../esso/issolookup2-logonexternaluser-method.md)|Logs on an external user.|  
   
 ## See Also  
  [ISSOLookup2 Interface (COM)](../esso/issolookup2-interface-com.md)   
