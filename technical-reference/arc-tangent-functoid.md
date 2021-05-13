@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Arc Tangent** functoid ( ![](images/Aa560104.736b531e-2637-4003-a6d7-969685908433(BTS.80).jpeg)) to return the arc tangent of a number.
+Use the **Arc Tangent** functoid ( ![Icon used to return the arc tangent of a number.](images/Aa560104.736b531e-2637-4003-a6d7-969685908433(BTS.80).jpeg)) to return the arc tangent of a number.
 
 ## Input
 
