@@ -20,15 +20,15 @@ The methods of the **IBTBatchTransmitter** interface are listed here. For a comp
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibtbatchtransmitter-getbatch-method-com.md">GetBatch</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetBatch method."/> <a href="ibtbatchtransmitter-getbatch-method-com.md">GetBatch</a></td>
 <td>Returns a new batch that will be used by the BizTalk Server Messaging Engine, which will push messages to be transmitted into the batch.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportcontrol-initialize-method-com.md">Initialize</a> (Inherited from <strong>IBTTransportContro</strong>l)</td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Initialize method."/> <a href="ibttransportcontrol-initialize-method-com.md">Initialize</a> (Inherited from <strong>IBTTransportContro</strong>l)</td>
 <td>Initializes the adapter.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportcontrol-terminate-method-com.md">Terminate</a> (Inherited from <strong>IBTTransportContro</strong>l)</td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Terminate method."/> <a href="ibttransportcontrol-terminate-method-com.md">Terminate</a> (Inherited from <strong>IBTTransportContro</strong>l)</td>
 <td>Finishes processing any messages the adapter is currently processing and prepares for termination.</td>
 </tr>
 </tbody>

@@ -20,11 +20,11 @@ The methods of the **IAssemblerComponent** interface are listed here. For a comp
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="iassemblercomponent-adddocument-method-com.md">AddDocument</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the AddDocument method."/> <a href="iassemblercomponent-adddocument-method-com.md">AddDocument</a></td>
 <td>Adds the document to the list of messages that are included in an interchange.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="iassemblercomponent-assemble-method-com.md">Assemble</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Assemble method."/> <a href="iassemblercomponent-assemble-method-com.md">Assemble</a></td>
 <td>Builds an interchange from the messages that were added by the <a href="iassemblercomponent-adddocument-method-com.md">AddDocument</a> method.</td>
 </tr>
 </tbody>
