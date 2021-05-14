@@ -20,7 +20,7 @@ The properties of the **IComponentUI** interface are listed here. For a complete
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="icomponentui-icon-property-com.md">Icon</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Icon property."/> <a href="icomponentui-icon-property-com.md">Icon</a></td>
 <td>Provides the icon that is associated with this component.</td>
 </tr>
 </tbody>

@@ -20,7 +20,7 @@ The methods of the **IComponent** interface are listed here. For a complete list
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="icomponent-execute-method-com.md">Execute</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Execute method."/> <a href="icomponent-execute-method-com.md">Execute</a></td>
 <td>Executes a pipeline component to process the input message and get the resulting message.</td>
 </tr>
 </tbody>

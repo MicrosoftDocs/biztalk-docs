@@ -20,7 +20,7 @@ The methods of the **IBTSTicket** interface are listed here. For a complete list
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibtsticket-validateandredeemticket-method-com.md">IBTSTicket.ValidateAndRedeemTicket Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IBTSTicket.ValidateAndRedeemTicket Method (COM) method."/> <a href="ibtsticket-validateandredeemticket-method-com.md">IBTSTicket.ValidateAndRedeemTicket Method (COM)</a></td>
 <td>Retrieves the credentials associated with a BizTalk message.</td>
 </tr>
 </tbody>

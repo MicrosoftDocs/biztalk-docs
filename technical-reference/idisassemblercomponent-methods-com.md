@@ -20,11 +20,11 @@ The methods of the **IDisassemblerComponent** interface are listed here. For a c
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="idisassemblercomponent-disassemble-method-com.md">Disassemble</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Disassemble method."/> <a href="idisassemblercomponent-disassemble-method-com.md">Disassemble</a></td>
 <td>Performs the disassembling of an incoming document.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="idisassemblercomponent-getnext-method-com.md">GetNext</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetNext method."/> <a href="idisassemblercomponent-getnext-method-com.md">GetNext</a></td>
 <td>Gets the next message from the message set resulting from the disassembler execution.</td>
 </tr>
 </tbody>
