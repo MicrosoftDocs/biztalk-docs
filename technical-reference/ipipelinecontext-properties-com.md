@@ -20,15 +20,15 @@ The properties of the **IPipelineContext** interface are listed here. For a comp
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ipipelinecontext-componentindex-property-com.md">ComponentIndex</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the ComponentIndex property."/> <a href="ipipelinecontext-componentindex-property-com.md">ComponentIndex</a></td>
 <td>Gets the index of the current component in the stage.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ipipelinecontext-pipelineid-property-com.md">PipelineID</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the PipelineID property."/> <a href="ipipelinecontext-pipelineid-property-com.md">PipelineID</a></td>
 <td>Gets the ID of the pipeline to which this component belongs.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ipipelinecontext-pipelinename-property-com.md">PipelineName</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the PipelineName property."/> <a href="ipipelinecontext-pipelinename-property-com.md">PipelineName</a></td>
 <td>Gets the name of the pipeline.</td>
 </tr>
 <tr class="even">
@@ -36,11 +36,11 @@ The properties of the **IPipelineContext** interface are listed here. For a comp
 <td>Reports the objects used during execution.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ipipelinecontext-stageid-property-com.md">StageID</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the StageID property."/> <a href="ipipelinecontext-stageid-property-com.md">StageID</a></td>
 <td>Gets the ID of the stage in the pipeline.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ipipelinecontext-stageindex-property-com.md">StageIndex</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the StageIndex property."/> <a href="ipipelinecontext-stageindex-property-com.md">StageIndex</a></td>
 <td>Gets the index of the pipeline stage where the current component is located.</td>
 </tr>
 </tbody>

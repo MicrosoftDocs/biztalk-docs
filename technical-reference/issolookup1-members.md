@@ -26,7 +26,7 @@ The following table shows the ISSOLookup1 member.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issolookup1-getcredentials-method.md">GetCredentials</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetCredentials method."/> <a href="issolookup1-getcredentials-method.md">GetCredentials</a></td>
 <td>Retrieves the user credentials for an application.</td>
 </tr>
 </tbody>

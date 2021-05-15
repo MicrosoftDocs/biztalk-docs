@@ -20,7 +20,7 @@ The methods of the **IProbeMessage** interface are listed here. For a complete l
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="iprobemessage-probe-method-com.md">Probe</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Probe method."/> <a href="iprobemessage-probe-method-com.md">Probe</a></td>
 <td>Checks if the incoming message is in a recognizable format.</td>
 </tr>
 </tbody>
