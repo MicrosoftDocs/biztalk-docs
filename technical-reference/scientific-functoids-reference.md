@@ -38,43 +38,43 @@ The following table shows the functoids in the **Scientific** category.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa547865.34aadbe8-9246-43d9-a8f9-a412570c60af(BTS.80).jpeg" /> <a href="10-n-functoid.md">10^n</a></td>
+<td><img src="images/Aa547865.34aadbe8-9246-43d9-a8f9-a412570c60af(BTS.80).jpeg" alt="Icon that represents the 10^n functoid."/> <a href="10-n-functoid.md">10^n</a></td>
 <td>Returns the number 10 raised to a specified power.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa560104.736b531e-2637-4003-a6d7-969685908433(BTS.80).jpeg" /> <a href="arc-tangent-functoid.md">Arc Tangent Functoid</a></td>
+<td><img src="images/Aa560104.736b531e-2637-4003-a6d7-969685908433(BTS.80).jpeg" alt="Icon that represents the Arc Tangent Functoid functoid."/> <a href="arc-tangent-functoid.md">Arc Tangent Functoid</a></td>
 <td>Returns the arc tangent of a number.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa577698.d6097cf2-19c9-47e6-bf1a-a111e1f43d6d(BTS.80).jpeg" /> <a href="base-specified-logarithm-functoid.md">Base-Specified Logarithm</a></td>
+<td><img src="images/Aa577698.d6097cf2-19c9-47e6-bf1a-a111e1f43d6d(BTS.80).jpeg" alt="Icon that represents the Base-Specified Logarithm functoid."/> <a href="base-specified-logarithm-functoid.md">Base-Specified Logarithm</a></td>
 <td>Returns the base-specified logarithm of a value.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa561818.f7605010-54a7-476d-865e-711454b32e47(BTS.80).jpeg" /> <a href="common-logarithm-functoid.md">Common Logarithm</a></td>
+<td><img src="images/Aa561818.f7605010-54a7-476d-865e-711454b32e47(BTS.80).jpeg" alt="Icon that represents the Common Logarithm functoid."/> <a href="common-logarithm-functoid.md">Common Logarithm</a></td>
 <td>Returns the base 10 logarithm of a value.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559678.3ec59432-420e-42e9-816f-45ef26487f54(BTS.80).jpeg" /> <a href="cosine-functoid.md">Cosine</a></td>
+<td><img src="images/Aa559678.3ec59432-420e-42e9-816f-45ef26487f54(BTS.80).jpeg" alt="Icon that represents the Cosine functoid."/> <a href="cosine-functoid.md">Cosine</a></td>
 <td>Returns the cosine of an angle.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559669.10eb4753-35d8-4cce-a311-909a98157f9e(BTS.80).jpeg" /> <a href="natural-exponential-functoid.md">Natural Exponential Function</a></td>
+<td><img src="images/Aa559669.10eb4753-35d8-4cce-a311-909a98157f9e(BTS.80).jpeg" alt="Icon that represents the Natural Exponential Function functoid."/> <a href="natural-exponential-functoid.md">Natural Exponential Function</a></td>
 <td>Returns <strong>e</strong> raised to a specified power.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa561631.77f2b922-d1ce-44ab-8c30-4d899698f93e(BTS.80).jpeg" /> <a href="natural-logarithm-functoid.md">Natural Logarithm</a></td>
+<td><img src="images/Aa561631.77f2b922-d1ce-44ab-8c30-4d899698f93e(BTS.80).jpeg" alt="Icon that represents thev Natural Logarithm functoid."/> <a href="natural-logarithm-functoid.md">Natural Logarithm</a></td>
 <td>Returns the base <strong>e</strong> logarithm of a value.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa561631.858e7775-ff7e-4c62-9f1c-a24c7d7cb488(BTS.80).jpeg" /> <a href="sine-functoid.md">Sine</a></td>
+<td><img src="images/Aa561631.858e7775-ff7e-4c62-9f1c-a24c7d7cb488(BTS.80).jpeg" alt="Icon that represents the Sine functoid."/> <a href="sine-functoid.md">Sine</a></td>
 <td>Returns the sine of an angle.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559950.3923b2f3-4edd-4d67-b7db-bac28447c7ad(BTS.80).jpeg" /> <a href="tangent-functoid.md">Tangent</a></td>
+<td><img src="images/Aa559950.3923b2f3-4edd-4d67-b7db-bac28447c7ad(BTS.80).jpeg" alt="Icon that represents the Tangent functoid."/> <a href="tangent-functoid.md">Tangent</a></td>
 <td>Returns the tangent of an angle.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa561631.d9f9d238-b44d-498f-bf7f-cbd8b56bef77(BTS.80).jpeg" /> <a href="x-y-functoid.md">X^Y</a></td>
+<td><img src="images/Aa561631.d9f9d238-b44d-498f-bf7f-cbd8b56bef77(BTS.80).jpeg" alt="Icon that represents the X^Y functoid."/> <a href="x-y-functoid.md">X^Y</a></td>
 <td>Raises a specified value to the power of another specified value.</td>
 </tr>
 </tbody>

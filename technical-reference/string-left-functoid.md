@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **String Left** functoid ( ![](images/Aa560209.ff628f0e-ece2-425c-8538-1863eb56cc46(BTS.80).jpeg)) to retrieve a specified number of characters from the start of a string.
+Use the **String Left** functoid ( ![Icon that represents the String Left functoid.](images/Aa560209.ff628f0e-ece2-425c-8538-1863eb56cc46(BTS.80).jpeg)) to retrieve a specified number of characters from the start of a string.
 
 ## Input
 

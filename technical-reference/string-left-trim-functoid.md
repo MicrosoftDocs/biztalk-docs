@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **String Left Trim** functoid ( ![](images/Aa561391.2474def6-b3d8-43f9-8fe0-a83821467bd9(BTS.80).jpeg)) to remove leading white space characters from a specified string.
+Use the **String Left Trim** functoid ( ![Icon that represents the String Left Trim functoid.](images/Aa561391.2474def6-b3d8-43f9-8fe0-a83821467bd9(BTS.80).jpeg)) to remove leading white space characters from a specified string.
 
 ## Input
 

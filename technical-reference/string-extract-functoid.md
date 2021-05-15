@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **String Extract** functoid ( ![](images/Aa561774.05f857b9-4210-44aa-844b-e08b5aeef95b(BTS.80).jpeg)) to extract a substring from the specified string.
+Use the **String Extract** functoid ( ![Icon that represents the String Extract functoid.](images/Aa561774.05f857b9-4210-44aa-844b-e08b5aeef95b(BTS.80).jpeg)) to extract a substring from the specified string.
 
 ## Input
 

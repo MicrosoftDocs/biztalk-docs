@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Table Extractor** functoid ( ![](images/Aa560018.4260373f-6d17-4b60-9fc5-661d0b829824(BTS.80).jpeg)) to output the data associated with a specified column for each row of the table looping grid of the specified **Table Looping** functoid.
+Use the **Table Extractor** functoid ( ![Icon that represents the Table Extractor functoid.](images/Aa560018.4260373f-6d17-4b60-9fc5-661d0b829824(BTS.80).jpeg)) to output the data associated with a specified column for each row of the table looping grid of the specified **Table Looping** functoid.
 
 ## Input
 

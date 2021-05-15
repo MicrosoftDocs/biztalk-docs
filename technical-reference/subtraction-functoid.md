@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Subtraction** functoid ( ![](images/Aa558800.3ff3db5e-b89d-46fa-aadb-3966ac9eea56(BTS.80).jpeg)) to calculate the result of subtracting up to 99 numeric values from another numeric value.
+Use the **Subtraction** functoid ( ![Icon that represents the Subtraction functoid.](images/Aa558800.3ff3db5e-b89d-46fa-aadb-3966ac9eea56(BTS.80).jpeg)) to calculate the result of subtracting up to 99 numeric values from another numeric value.
 
 ## Input
 

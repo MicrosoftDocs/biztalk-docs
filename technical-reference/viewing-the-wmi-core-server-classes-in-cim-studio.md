@@ -15,7 +15,7 @@ mtps_version: v=BTS.80
 
 The following figure shows the class hierarchy of the WMI Core classes, as displayed in CIM Studio.
 
-![](images/Aa561401.2443b144-083c-413e-8878-4d1fe1cf8aee(BTS.80).jpeg)
+![Image that depicts the class hierarchy for WMI Core classes.](images/Aa561401.2443b144-083c-413e-8878-4d1fe1cf8aee(BTS.80).jpeg)
 Depicts the class hierarchy for WMI Core classes.
 
 #### To view documentation for WMI Classes using CIM Studio

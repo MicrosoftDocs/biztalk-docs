@@ -52,13 +52,13 @@ Use the **Script Type Precedence** dialog box to configure the relative preceden
 <tr class="odd">
 <td><strong>Move selected script type up button</strong><br />
 <br />
- <img src="images/Aa559520.d5832d06-555e-40a8-a959-ac49a9624ca8(BTS.80).jpeg" /></td>
+ <img src="images/Aa559520.d5832d06-555e-40a8-a959-ac49a9624ca8(BTS.80).jpeg" alt="Icon that represents the Move selected script type up button."/></td>
 <td>Exchange the selected script type with the script type immediately above it in the ordered list, increasing the relative precedence of the selected script type.</td>
 </tr>
 <tr class="even">
 <td><strong>Move selected script type down button</strong><br />
 <br />
- <img src="images/Aa559520.f5fb2199-f92e-40d6-be71-ee465fcc20d7(BTS.80).jpeg" /></td>
+ <img src="images/Aa559520.f5fb2199-f92e-40d6-be71-ee465fcc20d7(BTS.80).jpeg" alt="Icon that represents the Move selected script type down button."/></td>
 <td>Exchange the selected script type with the script type immediately below it in the ordered list, decreasing the relative precedence of the selected script type.</td>
 </tr>
 </tbody>

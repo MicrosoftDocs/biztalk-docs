@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Square Root** functoid ( ![](images/Aa559035.ee5224d4-3eaa-45d7-81ae-9909f2a21126(BTS.80).jpeg)) to calculate the square root of a specified numeric value.
+Use the **Square Root** functoid ( ![Icon that represents the Square Root functoid.](images/Aa559035.ee5224d4-3eaa-45d7-81ae-9909f2a21126(BTS.80).jpeg)) to calculate the square root of a specified numeric value.
 
 ## Input
 
