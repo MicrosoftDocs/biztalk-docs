@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Natural Logarithm** functoid ( ![](images/Aa561631.77f2b922-d1ce-44ab-8c30-4d899698f93e(BTS.80).jpeg)) to return the base **e** logarithm of a value.
+Use the **Natural Logarithm** functoid ( ![Icon that represents the Natural Logarithm functoid.](images/Aa561631.77f2b922-d1ce-44ab-8c30-4d899698f93e(BTS.80).jpeg)) to return the base **e** logarithm of a value.
 
 ## Input
 

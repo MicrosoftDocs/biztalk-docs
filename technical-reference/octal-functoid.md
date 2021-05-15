@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Octal** functoid ( ![](images/Aa547877.67ce9c32-e259-4a34-88f3-34869443b869(BTS.80).jpeg)) to convert a decimal number to its octal equivalent.
+Use the **Octal** functoid ( ![Icon that represents the Octal functoid.](images/Aa547877.67ce9c32-e259-4a34-88f3-34869443b869(BTS.80).jpeg)) to convert a decimal number to its octal equivalent.
 
 ## Input
 

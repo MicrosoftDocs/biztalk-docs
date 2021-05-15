@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Minimum Value** functoid ( ![](images/Aa561708.6635d089-292f-447f-b612-984e0b969c46(BTS.80).jpeg)) to determine the smallest value among the numeric input parameters.
+Use the **Minimum Value** functoid ( ![Icon that represents the Minimum Value functoid.](images/Aa561708.6635d089-292f-447f-b612-984e0b969c46(BTS.80).jpeg)) to determine the smallest value among the numeric input parameters.
 
 ## Input
 

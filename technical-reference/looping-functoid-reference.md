@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Looping** functoid ( ![](images/Aa560018.1f70c94a-151c-4b07-9165-88873a0c33ff(BTS.80).jpeg)) to combine multiple repeating structures in an input instance message into a single repeating structure in the output instance message.
+Use the **Looping** functoid ( ![Icon that represents the Looping functoid.](images/Aa560018.1f70c94a-151c-4b07-9165-88873a0c33ff(BTS.80).jpeg)) to combine multiple repeating structures in an input instance message into a single repeating structure in the output instance message.
 
 ## Input
 

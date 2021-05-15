@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Less Than** functoid ( ![](images/Aa578105.691e9794-9b7c-4981-acdd-2c309afbdb2d(BTS.80).jpeg)) to test whether the first input parameter is less than the second input parameter.
+Use the **Less Than** functoid ( ![Icon that represents the Less Than functoid.](images/Aa578105.691e9794-9b7c-4981-acdd-2c309afbdb2d(BTS.80).jpeg)) to test whether the first input parameter is less than the second input parameter.
 
 ## Input
 

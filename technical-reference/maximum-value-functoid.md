@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Maximum Value** functoid ( ![](images/Aa559820.ae1a9133-f2fe-4b48-b33f-ee2ed97737de(BTS.80).jpeg)) to determine the largest value among the numeric input parameters.
+Use the **Maximum Value** functoid ( ![Icon that represents the Maximum Value functoid.](images/Aa559820.ae1a9133-f2fe-4b48-b33f-ee2ed97737de(BTS.80).jpeg)) to determine the largest value among the numeric input parameters.
 
 ## Input
 
