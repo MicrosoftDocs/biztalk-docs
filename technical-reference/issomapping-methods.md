@@ -26,19 +26,19 @@ The methods of the **ISSOMapping** interface are listed in the following table. 
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issomapping-create-method.md">Create</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Create method."/> <a href="issomapping-create-method.md">Create</a></td>
 <td>Creates the mapping.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issomapping-delete-method.md">Delete</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Delete method."/> <a href="issomapping-delete-method.md">Delete</a></td>
 <td>Deletes the mapping.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issomapping-disable-method.md">Disable</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Disable method."/> <a href="issomapping-disable-method.md">Disable</a></td>
 <td>Disables the mapping.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issomapping-enable-method.md">Enable</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Enable method."/> <a href="issomapping-enable-method.md">Enable</a></td>
 <td>Enables the mapping.</td>
 </tr>
 </tbody>

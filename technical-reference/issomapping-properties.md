@@ -26,23 +26,23 @@ The properties of the **ISSOMapping** interface are listed in the following tabl
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="issomapping-applicationname-property.md">ApplicationName</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the ApplicationName property."/> <a href="issomapping-applicationname-property.md">ApplicationName</a></td>
 <td>Specifies the name of the application.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="issomapping-externalusername-property.md">ExternalUserName</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the ExternalUserName property."/> <a href="issomapping-externalusername-property.md">ExternalUserName</a></td>
 <td>Specifies the external (non-Microsoft® Windows®) user name.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="issomapping-flags-property.md">Flags</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Flags property."/> <a href="issomapping-flags-property.md">Flags</a></td>
 <td>Reserved for internal use only.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="issomapping-windowsdomainname-property.md">WindowsDomainName</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the WindowsDomainName property."/> <a href="issomapping-windowsdomainname-property.md">WindowsDomainName</a></td>
 <td>Specifies the Microsoft Windows domain name.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="issomapping-windowsusername-property.md">WindowsUserName</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the WindowsUserName property."/> <a href="issomapping-windowsusername-property.md">WindowsUserName</a></td>
 <td>Specifies the Microsoft Windows user name.</td>
 </tr>
 </tbody>

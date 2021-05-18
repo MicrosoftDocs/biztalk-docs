@@ -26,27 +26,27 @@ The following table shows the ISSOMapper members.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issomapper-getapplications-method.md">GetApplications</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetApplications method."/> <a href="issomapper-getapplications-method.md">GetApplications</a></td>
 <td>Retrieves the available applications for a Microsoft® Windows® user.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issomapper-getfieldinfo-method.md">GetFieldInfo</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetInfoField method."/> <a href="issomapper-getfieldinfo-method.md">GetFieldInfo</a></td>
 <td>Retrieves the field information for an application.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issomapper-getmappingsforexternaluser-method.md">GetMappingsForExternalUser</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetMappingForExternalUser method."/> <a href="issomapper-getmappingsforexternaluser-method.md">GetMappingsForExternalUser</a></td>
 <td>Retrieves the mappings for an external user.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issomapper-getmappingsforwindowsuser-method.md">GetMappingsForWindowsUser</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetMappingsForWindowsUser method."/> <a href="issomapper-getmappingsforwindowsuser-method.md">GetMappingsForWindowsUser</a></td>
 <td>Retrieves the mappings for a Microsoft Windows user.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issomapper-setexternalcredentials-method.md">SetExternalCredentials</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the SetExternalCredentials method."/> <a href="issomapper-setexternalcredentials-method.md">SetExternalCredentials</a></td>
 <td>Stores a set of external credentials in the Single Sign-On (SSO) server database.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issomapper-setwindowspassword-method.md">SetWindowsPassword</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the SetWindowsPassword method."/> <a href="issomapper-setwindowspassword-method.md">SetWindowsPassword</a></td>
 <td>Sets the Microsoft Windows password. This method is not currently implemented.</td>
 </tr>
 </tbody>

@@ -36,7 +36,7 @@ Use the **Imports** dialog box to add XSD **import**, **include**, or **redefine
 <tr class="odd">
 <td><strong>Delete schema button</strong><br />
 <br />
- <img src="images/Aa561606.4bd6c6e7-93bf-4cdd-b1b2-8bd460a48dd9(BTS.80).jpeg" /></td>
+ <img src="images/Aa561606.4bd6c6e7-93bf-4cdd-b1b2-8bd460a48dd9(BTS.80).jpeg" alt="Icon that represents the Delete schema button."/></td>
 <td>Remove a previously imported, included, or redefined schema.<br />
 <br />
 This button is unavailable for any automatically imported schemas, such as XMLSchema from w3.org.</td>
@@ -44,14 +44,14 @@ This button is unavailable for any automatically imported schemas, such as XMLSc
 <tr class="even">
 <td><strong>Edit namespace prefix button</strong><br />
 <br />
- <img src="images/Aa561606.b88dbfbf-1547-4bdf-9d0b-3d9d55ae4fe2(BTS.80).jpeg" /></td>
+ <img src="images/Aa561606.b88dbfbf-1547-4bdf-9d0b-3d9d55ae4fe2(BTS.80).jpeg" alt="Icon that represents the Edit namespace prefix button."/></td>
 <td>Edit (in place) the automatically generated namespace prefix associated with any schema that you have imported, included, or redefined.<br />
 <br />
 You can also edit the prefix by double-clicking the prefix entry.</td>
 </tr>
 <tr class="odd">
 <td><strong>Prefix</strong> column</td>
-<td>Show the prefix associated with the corresponding namespace. For schemas that you import, include, or redefine, you can edit this prefix as described for <img src="images/Aa561606.b88dbfbf-1547-4bdf-9d0b-3d9d55ae4fe2(BTS.80).jpeg" />.</td>
+<td>Show the prefix associated with the corresponding namespace. For schemas that you import, include, or redefine, you can edit this prefix as described for <img src="images/Aa561606.b88dbfbf-1547-4bdf-9d0b-3d9d55ae4fe2(BTS.80).jpeg" alt="Icon used to edit the namespace prefix."/>.</td>
 </tr>
 <tr class="even">
 <td><strong>Namespace</strong> column</td>
