@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Greater Than or Equal To** functoid ( ![](images/Aa562017.841a6c54-e118-4ece-ad14-9901823ed172(BTS.80).jpeg)) to test whether the first input parameter is greater than or equal to the second input parameter.
+Use the **Greater Than or Equal To** functoid ( ![Icon that represents the Greater Than or Equal To functoid.](images/Aa562017.841a6c54-e118-4ece-ad14-9901823ed172(BTS.80).jpeg)) to test whether the first input parameter is greater than or equal to the second input parameter.
 
 ## Input
 

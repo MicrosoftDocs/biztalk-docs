@@ -20,7 +20,7 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibtdtccommitconfirm-dtccommitconfirm-method-com.md">DTCCommitConfirm</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the DTCCommitConfirm method."/> <a href="ibtdtccommitconfirm-dtccommitconfirm-method-com.md">DTCCommitConfirm</a></td>
 <td>Notifies the BizTalk Server Messaging Engine of the outcome of a DTC transaction that the adapter committed.</td>
 </tr>
 </tbody>

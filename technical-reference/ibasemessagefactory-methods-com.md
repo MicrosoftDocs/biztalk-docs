@@ -20,19 +20,19 @@ The methods of the **IBaseMessageFactory** interface are listed here. For a comp
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessagefactory-createmessage-method-com.md">CreateMessage</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the CreateMessage method."/> <a href="ibasemessagefactory-createmessage-method-com.md">CreateMessage</a></td>
 <td>Creates a BizTalk message.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessagefactory-createmessagecontext-method-com.md">CreateMessageContext</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the CreateMessageContext method."/> <a href="ibasemessagefactory-createmessagecontext-method-com.md">CreateMessageContext</a></td>
 <td>Creates a BizTalk message context.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessagefactory-createmessagepart-method-com.md">CreateMessagePart</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the CreateMessagePart method."/> <a href="ibasemessagefactory-createmessagepart-method-com.md">CreateMessagePart</a></td>
 <td>Creates a BizTalk message part.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessagefactory-createpropertybag-method-com.md">CreatePropertyBag</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the CreatePropertyBag method."/> <a href="ibasemessagefactory-createpropertybag-method-com.md">CreatePropertyBag</a></td>
 <td>Creates a property bag for BizTalk message part.</td>
 </tr>
 </tbody>

@@ -28,13 +28,13 @@ Use the **Grid Preview** dialog box as an aid to navigating the displayed map gr
 <tr class="odd">
 <td><strong>Green cross-hatched grid preview scroll tool</strong><br />
 <br />
- <img src="images/Aa561049.5957caf4-0bf0-4ff7-a9a8-8bef1386a7b0(BTS.80).jpeg" /></td>
+ <img src="images/Aa561049.5957caf4-0bf0-4ff7-a9a8-8bef1386a7b0(BTS.80).jpeg" alt="Icon that represents the Green cross-hatched grid preview scroll tool."/></td>
 <td>Drag this rectangle to a new location on the small-scale version of the displayed map grid page shown in this dialog box to make a portion of the displayed map grid page visible in the BizTalk Mapper grid.</td>
 </tr>
 <tr class="even">
 <td><strong>Standard Windows close icon</strong><br />
 <br />
- <img src="images/Aa561049.656aa309-8aff-48b5-94a6-294bdea02b67(BTS.80).jpeg" /></td>
+ <img src="images/Aa561049.656aa309-8aff-48b5-94a6-294bdea02b67(BTS.80).jpeg" alt="This is the Standard Windows close icon."/></td>
 <td>Close the <strong>Grid Preview</strong> dialog box, returning to the indicated view of the current grid page.</td>
 </tr>
 </tbody>

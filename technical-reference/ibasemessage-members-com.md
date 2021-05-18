@@ -20,27 +20,27 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ibasemessage-bodypart-property-com.md">BodyPart</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the BodyPart property."/> <a href="ibasemessage-bodypart-property-com.md">BodyPart</a></td>
 <td>Gets the body part, or main part, of the message.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ibasemessage-bodypartname-property-com.md">BodyPartName</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the BodyPartName property."/> <a href="ibasemessage-bodypartname-property-com.md">BodyPartName</a></td>
 <td>Gets the name of the body part, or main part, of the message.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ibasemessage-context-property-com.md">Context</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Context property."/> <a href="ibasemessage-context-property-com.md">Context</a></td>
 <td>Represents the message context.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ibasemessage-ismutable-property-com.md">IsMutable</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the IsMutable property."/> <a href="ibasemessage-ismutable-property-com.md">IsMutable</a></td>
 <td>Gets a value indicating whether the message context can be changed by components during processing.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ibasemessage-messageid-property-com.md">MessageID</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the MessageID property."/> <a href="ibasemessage-messageid-property-com.md">MessageID</a></td>
 <td>Gets the unique message ID for the message and binds all the message parts together.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ibasemessage-partcount-property-com.md">PartCount</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the PartCount property."/> <a href="ibasemessage-partcount-property-com.md">PartCount</a></td>
 <td>Gets the total number of parts in the message.</td>
 </tr>
 </tbody>
@@ -52,31 +52,31 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-addpart-method-com.md">AddPart</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the AddPart method."/> <a href="ibasemessage-addpart-method-com.md">AddPart</a></td>
 <td>Adds a part to the message.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-geterrorinfo-method-com.md">GetErrorInfo</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetErrorInfo method."/> <a href="ibasemessage-geterrorinfo-method-com.md">GetErrorInfo</a></td>
 <td>Gets the exception that caused the error.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-getpart-method-com.md">GetPart</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetPart method."/> <a href="ibasemessage-getpart-method-com.md">GetPart</a></td>
 <td>Accesses the message parts.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-getpartbyindex-method-com.md">GetPartByIndex</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GeetPartByIndex method."/> <a href="ibasemessage-getpartbyindex-method-com.md">GetPartByIndex</a></td>
 <td>Retrieves a part and its name by supplying the part index.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-getsize-method-com.md">GetSize</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetSize method."/> <a href="ibasemessage-getsize-method-com.md">GetSize</a></td>
 <td>Gets the size of the message.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-removepart-method-com.md">RemovePart</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the RemovePart method."/> <a href="ibasemessage-removepart-method-com.md">RemovePart</a></td>
 <td>Removes a part from the message.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-seterrorinfo-method-com.md">SetErrorInfo</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the SetErrorInfo method."/> <a href="ibasemessage-seterrorinfo-method-com.md">SetErrorInfo</a></td>
 <td>Sets the error information.</td>
 </tr>
 </tbody>

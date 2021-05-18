@@ -20,31 +20,31 @@ The methods of the **IBaseMessage** interface are listed here. For a complete li
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-addpart-method-com.md">AddPart</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the AddPart method."/> <a href="ibasemessage-addpart-method-com.md">AddPart</a></td>
 <td>Adds a part to the message.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-geterrorinfo-method-com.md">GetErrorInfo</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetErrorInfo method."/> <a href="ibasemessage-geterrorinfo-method-com.md">GetErrorInfo</a></td>
 <td>Gets the exception that caused the error.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-getpart-method-com.md">GetPart</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetPart method."/> <a href="ibasemessage-getpart-method-com.md">GetPart</a></td>
 <td>Accesses the message parts.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-getpartbyindex-method-com.md">GetPartByIndex</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetPartByIndex method."/> <a href="ibasemessage-getpartbyindex-method-com.md">GetPartByIndex</a></td>
 <td>Retrieves a part and its name by supplying the part index.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-getsize-method-com.md">GetSize</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetSize method."/> <a href="ibasemessage-getsize-method-com.md">GetSize</a></td>
 <td>Gets the size of the message.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-removepart-method-com.md">RemovePart</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the RemovePart method."/> <a href="ibasemessage-removepart-method-com.md">RemovePart</a></td>
 <td>Removes a part from the message.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessage-seterrorinfo-method-com.md">SetErrorInfo</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the SetErrorInfo method."/> <a href="ibasemessage-seterrorinfo-method-com.md">SetErrorInfo</a></td>
 <td>Sets the error information.</td>
 </tr>
 </tbody>
