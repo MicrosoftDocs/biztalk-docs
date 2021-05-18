@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Size** functoid ( ![](images/Aa561736.a3a598ef-7c99-4233-bb27-837654716336(BTS.80).jpeg)) to retrieve the length of the specified string.
+Use the **Size** functoid ( ![Icon that represents the Size functoid.](images/Aa561736.a3a598ef-7c99-4233-bb27-837654716336(BTS.80).jpeg)) to retrieve the length of the specified string.
 
 ## Input
 

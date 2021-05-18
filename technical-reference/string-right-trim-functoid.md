@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **String Right Trim** functoid ( ![](images/Aa559699.9798a96d-dfee-47aa-a09c-913eba37743e(BTS.80).jpeg)) to remove trailing white space characters from a specified string.
+Use the **String Right Trim** functoid ( ![Icon that represents the String Right Trim functoid.](images/Aa559699.9798a96d-dfee-47aa-a09c-913eba37743e(BTS.80).jpeg)) to remove trailing white space characters from a specified string.
 
 ## Input
 

@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Value Mapping (Flattening)** functoid ( ![](images/Aa561516.0b7c29fa-4dbc-4497-9411-86c7d1b81387(BTS.80).jpeg)) to allow a Boolean value to control whether another value gets mapped, flattening it in the process.
+Use the **Value Mapping (Flattening)** functoid ( ![Icon that represents the Value Mapping (Flattening) functoid.](images/Aa561516.0b7c29fa-4dbc-4497-9411-86c7d1b81387(BTS.80).jpeg)) to allow a Boolean value to control whether another value gets mapped, flattening it in the process.
 
 ## Input
 

@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Time** functoid ( ![](images/Aa577839.e5b20c9f-987a-4897-99c4-13d4674ab7ba(BTS.80).jpeg)) to retrieve the current time in the format hh:mm:ss.
+Use the **Time** functoid ( ![Icon that represents the Time functoid.](images/Aa577839.e5b20c9f-987a-4897-99c4-13d4674ab7ba(BTS.80).jpeg)) to retrieve the current time in the format hh:mm:ss.
 
 ## Input
 

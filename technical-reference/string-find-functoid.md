@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **String Find** functoid ( ![](images/Aa561496.0b987a7f-bbd1-4f37-b36a-381ea77dd4f3(BTS.80).jpeg)) to retrieve the starting position of a specified substring within a specified string.
+Use the **String Find** functoid ( ![Icon that represents the String Find functoid.](images/Aa561496.0b987a7f-bbd1-4f37-b36a-381ea77dd4f3(BTS.80).jpeg)) to retrieve the starting position of a specified substring within a specified string.
 
 ## Input
 

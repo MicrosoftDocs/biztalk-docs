@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Round** functoid ( ![](images/Aa577673.ff25c636-ba90-404f-a911-eee519eade0c(BTS.80).jpeg)) to round the specified numeric input parameter to the nearest specified number of decimal places.
+Use the **Round** functoid ( ![Icon that represents the Round functoid.](images/Aa577673.ff25c636-ba90-404f-a911-eee519eade0c(BTS.80).jpeg)) to round the specified numeric input parameter to the nearest specified number of decimal places.
 
 ## Input
 

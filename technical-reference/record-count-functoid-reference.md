@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Record Count** functoid ( ![](images/Aa577847.8a6ab6c8-4e8b-4a53-8d3c-98303756f851(BTS.80).jpeg)) to generate a count of the number of times a particular repeating structure occurs in an input instance message.
+Use the **Record Count** functoid ( ![Icon that represents the Record Count functoid.](images/Aa577847.8a6ab6c8-4e8b-4a53-8d3c-98303756f851(BTS.80).jpeg)) to generate a count of the number of times a particular repeating structure occurs in an input instance message.
 
 ## Input
 

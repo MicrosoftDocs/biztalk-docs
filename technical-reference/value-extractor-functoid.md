@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Value Extractor** functoid ( ![](images/Aa562112.8a16abc4-981d-49cb-87e5-6bb7b57b8cf0(BTS.80).jpeg)) to extract the value from a specified column in a Microsoft ActiveX Data Objects (ADO) recordset, which is returned by the **Database Lookup** functoid.
+Use the **Value Extractor** functoid ( ![Icon that represents the Value Extractor functoid.](images/Aa562112.8a16abc4-981d-49cb-87e5-6bb7b57b8cf0(BTS.80).jpeg)) to extract the value from a specified column in a Microsoft ActiveX Data Objects (ADO) recordset, which is returned by the **Database Lookup** functoid.
 
 ## Input
 

@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Value Mapping** functoid ( ![](images/Aa560018.7853c31e-dc26-4ffa-9608-29352508e725(BTS.80).jpeg)) to allow a Boolean value to control whether another value gets mapped.
+Use the **Value Mapping** functoid ( ![Icon that represents the Value Mapping functoid.](images/Aa560018.7853c31e-dc26-4ffa-9608-29352508e725(BTS.80).jpeg)) to allow a Boolean value to control whether another value gets mapped.
 
 ## Input
 

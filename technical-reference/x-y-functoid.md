@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **X^Y** functoid ( ![](images/Aa561631.d9f9d238-b44d-498f-bf7f-cbd8b56bef77(BTS.80).jpeg)) to raise a specified value to the power of another specified value.
+Use the **X^Y** functoid ( ![Icon that represents the X^Y functoid.](images/Aa561631.d9f9d238-b44d-498f-bf7f-cbd8b56bef77(BTS.80).jpeg)) to raise a specified value to the power of another specified value.
 
 ## Input
 
