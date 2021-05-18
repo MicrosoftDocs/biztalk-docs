@@ -36,11 +36,11 @@ Examples:<br />
 <br />
  <strong>Grid scrolling arrow - northeast</strong><br />
 <br />
- <img src="images/Aa559658.f0b985cd-c66d-44b9-8c91-9292b1449284(BTS.80).jpeg" /><br />
+ <img src="images/Aa559658.f0b985cd-c66d-44b9-8c91-9292b1449284(BTS.80).jpeg" alt="Icon that represents the Grid scrolling arrow - northeast."/><br />
 <br />
  <strong>Grid scrolling arrow - west</strong><br />
 <br />
- <img src="images/Aa559658.9d582372-2061-4fa1-a6b6-992759d997f7(BTS.80).jpeg" /></td>
+ <img src="images/Aa559658.9d582372-2061-4fa1-a6b6-992759d997f7(BTS.80).jpeg" alt="Icon that represents the Grid scrolling arrow - west."/></td>
 <td>Scroll the grid in the direction of the arrow to show a portion of the grid that was not previously viewable.</td>
 </tr>
 <tr class="even">
@@ -50,25 +50,25 @@ Examples:<br />
 <tr class="odd">
 <td><strong>First grid page button</strong><br />
 <br />
- <img src="images/Aa559658.dc05ce6f-d98d-41c8-82f3-38e128ebfaa3(BTS.80).jpeg" /></td>
+ <img src="images/Aa559658.dc05ce6f-d98d-41c8-82f3-38e128ebfaa3(BTS.80).jpeg" alt="Icon that represents the First grid page button."/></td>
 <td>Scrolls the page tab to view the first grid page.</td>
 </tr>
 <tr class="even">
 <td><strong>Previous grid page button</strong><br />
 <br />
- <img src="images/Aa559658.0b36db3b-07bc-420b-94a5-d11a395cd5bf(BTS.80).jpeg" /></td>
+ <img src="images/Aa559658.0b36db3b-07bc-420b-94a5-d11a395cd5bf(BTS.80).jpeg" alt="Icon that represents the Previous grid page button."/></td>
 <td>Scrolls the next grid page to the left of the currently visible grid page so you can view it.</td>
 </tr>
 <tr class="odd">
 <td><strong>Next grid page button</strong><br />
 <br />
- <img src="images/Aa559658.627081ac-dea2-433d-b8b2-e4beb0fadf65(BTS.80).jpeg" /></td>
+ <img src="images/Aa559658.627081ac-dea2-433d-b8b2-e4beb0fadf65(BTS.80).jpeg" alt="Icon that represents the Next grid page button."/></td>
 <td>Scrolls the next grid page to the right of the currently visible grid page so you can view it.</td>
 </tr>
 <tr class="even">
 <td><strong>Last grid page button</strong><br />
 <br />
- <img src="images/Aa559658.54a3fbed-3ac0-4d5a-9dc5-a22fb9660141(BTS.80).jpeg" /></td>
+ <img src="images/Aa559658.54a3fbed-3ac0-4d5a-9dc5-a22fb9660141(BTS.80).jpeg" alt="Icon that represents the Last grid page button."/></td>
 <td>Scrolls the page tab to view the last grid page.</td>
 </tr>
 <tr class="odd">

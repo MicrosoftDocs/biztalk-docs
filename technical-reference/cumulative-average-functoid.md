@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Cumulative Average** functoid ( ![](images/Aa578299.ab36f1e7-3341-464c-a171-f93bce223bbe(BTS.80).jpeg)) to calculate the accumulated average of a numeric value that recurs within corresponding instance messages.
+Use the **Cumulative Average** functoid ( ![Icon that represents the Cumulative Average functoid.](images/Aa578299.ab36f1e7-3341-464c-a171-f93bce223bbe(BTS.80).jpeg)) to calculate the accumulated average of a numeric value that recurs within corresponding instance messages.
 
 ## Input
 

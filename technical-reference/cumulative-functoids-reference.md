@@ -52,23 +52,23 @@ The following table shows the functoids in the **Cumulative** category.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa578299.ab36f1e7-3341-464c-a171-f93bce223bbe(BTS.80).jpeg" /> <a href="cumulative-average-functoid.md">Cumulative Average</a></td>
+<td><img src="images/Aa578299.ab36f1e7-3341-464c-a171-f93bce223bbe(BTS.80).jpeg" alt="Icon that represents the Cumulative Average functoid."/> <a href="cumulative-average-functoid.md">Cumulative Average</a></td>
 <td>Calculates the accumulated average of a numeric value that recurs within corresponding instance messages.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa561799.96cb173a-f7b9-4042-a525-1e1f7475d54e(BTS.80).jpeg" /> <a href="cumulative-concatenate-functoid.md">Cumulative Concatenate</a></td>
+<td><img src="images/Aa561799.96cb173a-f7b9-4042-a525-1e1f7475d54e(BTS.80).jpeg" alt="Icon that represents the Cumulative Concatenate functoid."/> <a href="cumulative-concatenate-functoid.md">Cumulative Concatenate</a></td>
 <td>Concatenates multiple instances of a string value that recurs within corresponding instance messages.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa561894.eafb0c35-4d1c-4454-a475-0a605a839e2f(BTS.80).jpeg" /> <a href="cumulative-maximum-functoid.md">Cumulative Maximum</a></td>
+<td><img src="images/Aa561894.eafb0c35-4d1c-4454-a475-0a605a839e2f(BTS.80).jpeg" alt="Icon that represents the Cumulative Maximum functoid."/> <a href="cumulative-maximum-functoid.md">Cumulative Maximum</a></td>
 <td>Determines the maximum value of a numeric value that recurs within corresponding instance messages.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa561799.066f13a5-aa0c-4e9d-87ee-6667d9a3a39e(BTS.80).jpeg" /> <a href="cumulative-minimum-functoid.md">Cumulative Minimum</a></td>
+<td><img src="images/Aa561799.066f13a5-aa0c-4e9d-87ee-6667d9a3a39e(BTS.80).jpeg" alt="Icon that represents the Cumulative Minimum functoid."/> <a href="cumulative-minimum-functoid.md">Cumulative Minimum</a></td>
 <td>Determines the minimum value of a numeric value that recurs within corresponding instance messages.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa561799.a1343591-0bdc-48dd-929d-c9ddae9c5e86(BTS.80).jpeg" /> <a href="cumulative-sum-functoid.md">Cumulative Sum</a></td>
+<td><img src="images/Aa561799.a1343591-0bdc-48dd-929d-c9ddae9c5e86(BTS.80).jpeg" alt="Icon that represents the Cumulative Sum functoid."/> <a href="cumulative-sum-functoid.md">Cumulative Sum</a></td>
 <td>Calculates the accumulated sum of a numeric value that recurs within corresponding instance messages.</td>
 </tr>
 </tbody>

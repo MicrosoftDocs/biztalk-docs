@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Common Logarithm** functoid ( ![](images/Aa561818.f7605010-54a7-476d-865e-711454b32e47(BTS.80).jpeg)) to return the base 10 logarithm of a value.
+Use the **Common Logarithm** functoid ( ![Icon that represents the Common Logarithm functoid.](images/Aa561818.f7605010-54a7-476d-865e-711454b32e47(BTS.80).jpeg)) to return the base 10 logarithm of a value.
 
 ## Input
 

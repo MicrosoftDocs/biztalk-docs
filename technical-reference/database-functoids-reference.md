@@ -38,43 +38,43 @@ The following table shows the functoids in the **Database** category.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562112.46f7eca0-1dba-456f-8720-24db8c35fae6(BTS.80).jpeg" /> <a href="database-lookup-functoid.md">Database Lookup</a></td>
+<td><img src="images/Aa562112.46f7eca0-1dba-456f-8720-24db8c35fae6(BTS.80).jpeg" alt="Icon that represents the Database Lookup functoid."/> <a href="database-lookup-functoid.md">Database Lookup</a></td>
 <td>Retrieves a row from a database table as an ADO recordset.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559365.7a3b89f4-0550-47f4-8cfa-6ff1b295005e(BTS.80).jpeg" /> <a href="error-return-functoid.md">Error Return</a></td>
+<td><img src="images/Aa559365.7a3b89f4-0550-47f4-8cfa-6ff1b295005e(BTS.80).jpeg" alt="Icon that represents the Error Return functoid."/> <a href="error-return-functoid.md">Error Return</a></td>
 <td>Captures error information, such as database connection failures, that occur during run time.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562112.70a6fb56-e342-4bd0-87ce-7cc77984928d(BTS.80).jpeg" /> <a href="format-message-functoid.md">Format Message</a></td>
+<td><img src="images/Aa562112.70a6fb56-e342-4bd0-87ce-7cc77984928d(BTS.80).jpeg" alt="Icon that represents the Format Message functoid."/> <a href="format-message-functoid.md">Format Message</a></td>
 <td>Returns a formatted and localized string using argument substitution and, potentially, ID and value cross referencing.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562112.96ae57bf-a9fd-4756-b802-0ccc2fbedfc3(BTS.80).jpeg" /> <a href="get-application-id-functoid.md">Get Application ID</a></td>
+<td><img src="images/Aa562112.96ae57bf-a9fd-4756-b802-0ccc2fbedfc3(BTS.80).jpeg" alt="Icon that represents the Get Application ID functoid."/> <a href="get-application-id-functoid.md">Get Application ID</a></td>
 <td>Retrieves an identifier for an application object.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562112.90056a7f-8635-49bd-bb2c-c0646a9aff1f(BTS.80).jpeg" /> <a href="get-application-value-functoid.md">Get Application Value</a></td>
+<td><img src="images/Aa562112.90056a7f-8635-49bd-bb2c-c0646a9aff1f(BTS.80).jpeg" alt="Icon that represents the Get Application Value functoid."/> <a href="get-application-value-functoid.md">Get Application Value</a></td>
 <td>Retrieves an application value.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562112.26f78937-34c9-4149-9603-519109276d7c(BTS.80).jpeg" /> <a href="get-common-id-functoid.md">Get Common ID</a></td>
+<td><img src="images/Aa562112.26f78937-34c9-4149-9603-519109276d7c(BTS.80).jpeg" alt="Icon that represents the Get Common ID functoid."/> <a href="get-common-id-functoid.md">Get Common ID</a></td>
 <td>Retrieves an identifier for a common object.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562112.e457cba1-6b35-4ef1-a872-19df042ea1cc(BTS.80).jpeg" /> <a href="get-common-value-functoid.md">Get Common Value</a></td>
+<td><img src="images/Aa562112.e457cba1-6b35-4ef1-a872-19df042ea1cc(BTS.80).jpeg" alt="Icon that represents the Get Common Value functoid."/> <a href="get-common-value-functoid.md">Get Common Value</a></td>
 <td>Retrieves a common value.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562112.96ae57bf-a9fd-4756-b802-0ccc2fbedfc3(BTS.80).jpeg" /> <a href="remove-application-id.md">Remove Application ID</a></td>
+<td><img src="images/Aa562112.96ae57bf-a9fd-4756-b802-0ccc2fbedfc3(BTS.80).jpeg" alt="Icon that represents the Remove Application ID functoid."/> <a href="remove-application-id.md">Remove Application ID</a></td>
 <td>Removes the identifier for an application object.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562112.6c2faac4-f20d-4d8c-8553-578c41c04eb9(BTS.80).jpeg" /> <a href="set-common-id-functoid.md">Set Common ID</a></td>
+<td><img src="images/Aa562112.6c2faac4-f20d-4d8c-8553-578c41c04eb9(BTS.80).jpeg" alt="Icon that represents the Set Common ID functoid."/> <a href="set-common-id-functoid.md">Set Common ID</a></td>
 <td>Sets and returns an identifier for a common object.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562112.8a16abc4-981d-49cb-87e5-6bb7b57b8cf0(BTS.80).jpeg" /> <a href="value-extractor-functoid.md">Value Extractor</a></td>
+<td><img src="images/Aa562112.8a16abc4-981d-49cb-87e5-6bb7b57b8cf0(BTS.80).jpeg" alt="Icon that represents the Value Extractor functoid."/> <a href="value-extractor-functoid.md">Value Extractor</a></td>
 <td>Extracts the value from a specified column in an ADO recordset returned by the <strong>Database Lookup</strong> functoid.</td>
 </tr>
 </tbody>
