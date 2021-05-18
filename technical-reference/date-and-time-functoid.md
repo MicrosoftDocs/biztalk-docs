@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Date and Time** functoid ( ![](images/Aa577839.0034ab3d-3317-4927-82fe-7d1d90d3044b(BTS.80).jpeg)) to retrieve the current date and time in the format YYYY-MM-DDThh:mm:ss.
+Use the **Date and Time** functoid ( ![Icon that represents the Date and Time functoid.](images/Aa577839.0034ab3d-3317-4927-82fe-7d1d90d3044b(BTS.80).jpeg)) to retrieve the current date and time in the format YYYY-MM-DDThh:mm:ss.
 
 ## Input
 

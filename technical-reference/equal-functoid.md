@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Equal** functoid ( ![](images/Aa559045.63f9f006-01a4-405d-a197-e9e945144158(BTS.80).jpeg)) to test whether the two input parameters are equal.
+Use the **Equal** functoid ( ![Icon that represents the Equal functoid.](images/Aa559045.63f9f006-01a4-405d-a197-e9e945144158(BTS.80).jpeg)) to test whether the two input parameters are equal.
 
 ## Input
 

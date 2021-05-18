@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Error Return** functoid ( ![](images/Aa559365.7a3b89f4-0550-47f4-8cfa-6ff1b295005e(BTS.80).jpeg)) to capture error information, such as database connection failures, that occur during run time.
+Use the **Error Return** functoid ( ![Icon that represents the Error Return functoid.](images/Aa559365.7a3b89f4-0550-47f4-8cfa-6ff1b295005e(BTS.80).jpeg)) to capture error information, such as database connection failures, that occur during run time.
 
 ## Input
 

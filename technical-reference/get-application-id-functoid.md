@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Get Application ID** functoid ( ![](images/Aa562112.96ae57bf-a9fd-4756-b802-0ccc2fbedfc3(BTS.80).jpeg)) to retrieve an identifier for an application object.
+Use the **Get Application ID** functoid ( ![Icon that represents the Get Application ID functoid.](images/Aa562112.96ae57bf-a9fd-4756-b802-0ccc2fbedfc3(BTS.80).jpeg)) to retrieve an identifier for an application object.
 
 ## Input
 
