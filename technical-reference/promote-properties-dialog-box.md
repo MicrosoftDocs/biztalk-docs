@@ -72,13 +72,13 @@ This is the same as individually removing all property promotions of the relevan
 <tr class="even">
 <td><strong>Add property schema button</strong><br />
 <br />
- <img src="images/Aa560248.3d7b1a5e-7f43-4687-b01a-b2216b4b5ac2(BTS.80).jpeg" /></td>
+ <img src="images/Aa560248.3d7b1a5e-7f43-4687-b01a-b2216b4b5ac2(BTS.80).jpeg" alt="Icon that represents the Add property schema button."/></td>
 <td>When the <strong>Property Fields</strong> tab is displayed, open the <strong>BizTalk Type Picker</strong> dialog box so that you can select a property schema to be added to the <strong>Property Schemas List</strong>.</td>
 </tr>
 <tr class="odd">
 <td><strong>Remove property schema button</strong><br />
 <br />
- <img src="images/Aa561606.4bd6c6e7-93bf-4cdd-b1b2-8bd460a48dd9(BTS.80).jpeg" /></td>
+ <img src="images/Aa561606.4bd6c6e7-93bf-4cdd-b1b2-8bd460a48dd9(BTS.80).jpeg" alt="Icon that represents the Remove property schema button."/></td>
 <td>When the <strong>Property Fields</strong> tab is displayed, remove the property schema currently selected in the <strong>Property****Schemas List</strong>, if any.</td>
 </tr>
 <tr class="even">

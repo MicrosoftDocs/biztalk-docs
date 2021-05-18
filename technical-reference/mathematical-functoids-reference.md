@@ -38,47 +38,47 @@ The following table shows the functoids in the **Mathematical** category.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa561898.f16947e6-6c6e-4a38-bc1f-446d8e0d2e17(BTS.80).jpeg" /> <a href="absolute-value-functoid.md">Absolute Value</a></td>
+<td><img src="images/Aa561898.f16947e6-6c6e-4a38-bc1f-446d8e0d2e17(BTS.80).jpeg" alt="Icon that represents the Absolute Value functoid."/> <a href="absolute-value-functoid.md">Absolute Value</a></td>
 <td>Calculates the absolute value of the specified value.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa560388.f6095b67-496f-4c2d-bf90-0480f18d4b5a(BTS.80).jpeg" /> <a href="addition-functoid.md">Addition</a></td>
+<td><img src="images/Aa560388.f6095b67-496f-4c2d-bf90-0480f18d4b5a(BTS.80).jpeg" alt="Icon that represents the Addition functoid."/> <a href="addition-functoid.md">Addition</a></td>
 <td>Calculates the sum of the numeric input parameters.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa578425.9a73420a-40d6-4dc4-8b06-4cb1c2b2afd4(BTS.80).jpeg" /> <a href="division-functoid.md">Division</a></td>
+<td><img src="images/Aa578425.9a73420a-40d6-4dc4-8b06-4cb1c2b2afd4(BTS.80).jpeg" alt="Icon that represents the Division functoid."/> <a href="division-functoid.md">Division</a></td>
 <td>Calculates the quotient of the specified dividend and divisor.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa560329.93d37f07-a527-4d12-8872-d7856e652c34(BTS.80).jpeg" /> <a href="integer-functoid.md">Integer</a></td>
+<td><img src="images/Aa560329.93d37f07-a527-4d12-8872-d7856e652c34(BTS.80).jpeg" alt="Icon that represents the Integer functoid."/> <a href="integer-functoid.md">Integer</a></td>
 <td>Returns the integer portion of a numeric input parameter.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559820.ae1a9133-f2fe-4b48-b33f-ee2ed97737de(BTS.80).jpeg" /> <a href="maximum-value-functoid.md">Maximum Value</a></td>
+<td><img src="images/Aa559820.ae1a9133-f2fe-4b48-b33f-ee2ed97737de(BTS.80).jpeg" alt="Icon that represents the Maximum Value functoid."/> <a href="maximum-value-functoid.md">Maximum Value</a></td>
 <td>Determines the largest value among the numeric input parameters.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa561708.6635d089-292f-447f-b612-984e0b969c46(BTS.80).jpeg" /> <a href="minimum-value-functoid.md">Minimum Value</a></td>
+<td><img src="images/Aa561708.6635d089-292f-447f-b612-984e0b969c46(BTS.80).jpeg" alt="Icon that represents the Minimum Value functoid."/> <a href="minimum-value-functoid.md">Minimum Value</a></td>
 <td>Determines the smallest value among the numeric input parameters.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa578260.03bb8442-536b-466d-b7ee-dac5a21f28f5(BTS.80).jpeg" /> <a href="modulo-functoid.md">Modulo</a></td>
+<td><img src="images/Aa578260.03bb8442-536b-466d-b7ee-dac5a21f28f5(BTS.80).jpeg" alt="Icon that represents the Modulo functoid."/> <a href="modulo-functoid.md">Modulo</a></td>
 <td>Calculates the remainder of the specified integer division.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa547077.9a5b9d47-f92f-4aa9-a893-4fe748de4ea5(BTS.80).jpeg" /> <a href="multiplication-functoid.md">Multiplication</a></td>
+<td><img src="images/Aa547077.9a5b9d47-f92f-4aa9-a893-4fe748de4ea5(BTS.80).jpeg" alt="Icon that represents the Multiplication functoid."/> <a href="multiplication-functoid.md">Multiplication</a></td>
 <td>Calculates the product of the numeric input parameters.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa577673.ff25c636-ba90-404f-a911-eee519eade0c(BTS.80).jpeg" /> <a href="round-functoid.md">Round</a></td>
+<td><img src="images/Aa577673.ff25c636-ba90-404f-a911-eee519eade0c(BTS.80).jpeg" alt="Icon that represents the Round functoid."/> <a href="round-functoid.md">Round</a></td>
 <td>Rounds the specified numeric input parameter to the nearest specified number of decimal places.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559035.ee5224d4-3eaa-45d7-81ae-9909f2a21126(BTS.80).jpeg" /> <a href="square-root-functoid.md">Square Root</a></td>
+<td><img src="images/Aa559035.ee5224d4-3eaa-45d7-81ae-9909f2a21126(BTS.80).jpeg" alt="Icon that represents the Square Root functoid."/> <a href="square-root-functoid.md">Square Root</a></td>
 <td>Calculates the square root of a specified numeric value.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa558800.3ff3db5e-b89d-46fa-aadb-3966ac9eea56(BTS.80).jpeg" /> <a href="subtraction-functoid.md">Subtraction</a></td>
+<td><img src="images/Aa558800.3ff3db5e-b89d-46fa-aadb-3966ac9eea56(BTS.80).jpeg" alt="Icon that represents the Subtraction functoid."/> <a href="subtraction-functoid.md">Subtraction</a></td>
 <td>Calculates the result of subtracting up to 99 numeric values from another numeric value.</td>
 </tr>
 </tbody>

@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Iteration** functoid ( ![](images/Aa560018.1c8ae190-aed0-49fc-b235-5c8b871b6b76(BTS.80).jpeg)) to output the number of passes through a repeating structure in an input instance message as that structure is being processed.
+Use the **Iteration** functoid ( ![Icon that represents the Iteration functoid.](images/Aa560018.1c8ae190-aed0-49fc-b235-5c8b871b6b76(BTS.80).jpeg)) to output the number of passes through a repeating structure in an input instance message as that structure is being processed.
 
 ## Input
 

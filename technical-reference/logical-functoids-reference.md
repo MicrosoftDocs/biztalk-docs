@@ -58,59 +58,59 @@ The following table shows the functoids in the **Logical** category.
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa559045.63f9f006-01a4-405d-a197-e9e945144158(BTS.80).jpeg" /> <a href="equal-functoid.md">Equal</a></td>
+<td><img src="images/Aa559045.63f9f006-01a4-405d-a197-e9e945144158(BTS.80).jpeg" alt="Icon that represents the Equal functoid."/> <a href="equal-functoid.md">Equal</a></td>
 <td>Tests whether the two input parameters are equal.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa561635.6d9c0016-6926-4409-916b-d753b419ad06(BTS.80).jpeg" /> <a href="greater-than-functoid.md">Greater Than</a></td>
+<td><img src="images/Aa561635.6d9c0016-6926-4409-916b-d753b419ad06(BTS.80).jpeg" alt="Icon that represents the Greater Than functoid."/> <a href="greater-than-functoid.md">Greater Than</a></td>
 <td>Tests whether the first input parameter is greater than the second input parameter.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562017.841a6c54-e118-4ece-ad14-9901823ed172(BTS.80).jpeg" /> <a href="greater-than-or-equal-to-functoid.md">Greater Than or Equal To</a></td>
+<td><img src="images/Aa562017.841a6c54-e118-4ece-ad14-9901823ed172(BTS.80).jpeg" alt="Icon that represents the Greater Than or Equal To functoid."/> <a href="greater-than-or-equal-to-functoid.md">Greater Than or Equal To</a></td>
 <td>Tests whether the first input parameter is greater than or equal to the second input parameter.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa561802.427a7da4-80ee-4005-9c42-10b25e143ed6(BTS.80).jpeg" title="Logical IsNil functoid" alt="Logical IsNil functoid" /> <a href="isnil-functoid.md">IsNil</a></td>
+<td><img src="images/Aa561802.427a7da4-80ee-4005-9c42-10b25e143ed6(BTS.80).jpeg" title="Logical IsNil functoid" alt="Logical IsNil functoid"/> <a href="isnil-functoid.md">IsNil</a></td>
 <td>Test whether the input parameter is Nil.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa578105.691e9794-9b7c-4981-acdd-2c309afbdb2d(BTS.80).jpeg" /> <a href="less-than-functoid.md">Less Than</a></td>
+<td><img src="images/Aa578105.691e9794-9b7c-4981-acdd-2c309afbdb2d(BTS.80).jpeg" alt="Icon that represents the Less Than functoid."/> <a href="less-than-functoid.md">Less Than</a></td>
 <td>Tests whether the first input parameter is less than the second input parameter.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa547601.75d94c98-468e-41dd-8a31-b9c566a0bd84(BTS.80).jpeg" /> <a href="less-than-or-equal-to-functoid.md">Less Than or Equal To</a></td>
+<td><img src="images/Aa547601.75d94c98-468e-41dd-8a31-b9c566a0bd84(BTS.80).jpeg" alt="Icon that represents the Less Than or Equal To functoid."/> <a href="less-than-or-equal-to-functoid.md">Less Than or Equal To</a></td>
 <td>Tests whether the first input parameter is less than or equal to the second input parameter.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa560432.41ec41a2-63f0-407e-b3ee-9fa613cfd516(BTS.80).jpeg" /> <a href="logical-and-functoid.md">Logical AND</a></td>
+<td><img src="images/Aa560432.41ec41a2-63f0-407e-b3ee-9fa613cfd516(BTS.80).jpeg" alt="Icon that represents the Logical AND functoid."/> <a href="logical-and-functoid.md">Logical AND</a></td>
 <td>Determines whether all of the specified input parameters are true.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa577573.d77fb1a1-4472-4830-8e02-43cf3b396d9e(BTS.80).jpeg" /> <a href="logical-date-functoid.md">Logical Date</a></td>
+<td><img src="images/Aa577573.d77fb1a1-4472-4830-8e02-43cf3b396d9e(BTS.80).jpeg" alt="Icon that represents the Logical Date functoid."/> <a href="logical-date-functoid.md">Logical Date</a></td>
 <td>Determines whether the input parameter is a date.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559386.484702af-934c-4017-9b5a-c2d9fc94be51(BTS.80).jpeg" /> <a href="logical-existence-functoid.md">Logical Existence</a></td>
+<td><img src="images/Aa559386.484702af-934c-4017-9b5a-c2d9fc94be51(BTS.80).jpeg" alt="Icon that represents the Logical Existance functoid."/> <a href="logical-existence-functoid.md">Logical Existence</a></td>
 <td>Determines whether the record or field that is linked to it exists in a particular source instance message.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa561635.b4090252-3b23-45c4-ae46-1599420440a4(BTS.80).jpeg" title="Logical NOT functoid" alt="Logical NOT functoid" /> <a href="logical-not-functoid.md">Logical NOT</a></td>
+<td><img src="images/Aa561635.b4090252-3b23-45c4-ae46-1599420440a4(BTS.80).jpeg" title="Logical NOT functoid" alt="Logical NOT functoid"/> <a href="logical-not-functoid.md">Logical NOT</a></td>
 <td>Returns the logical inverse of the input parameter.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa577628.d53b1a3c-b6cc-49a7-b62b-3be74432ea44(BTS.80).jpeg" /> <a href="logical-numeric-functoid.md">Logical Numeric</a></td>
+<td><img src="images/Aa577628.d53b1a3c-b6cc-49a7-b62b-3be74432ea44(BTS.80).jpeg" alt="Icon that represents the Logical Numeric functoid."/> <a href="logical-numeric-functoid.md">Logical Numeric</a></td>
 <td>Determines whether the input parameter is a numeric value.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa560272.82f62b4d-fa44-4ce1-98cb-75030ae40a59(BTS.80).jpeg" /> <a href="logical-or-functoid.md">Logical OR</a></td>
+<td><img src="images/Aa560272.82f62b4d-fa44-4ce1-98cb-75030ae40a59(BTS.80).jpeg" alt="Icon that represents the Logical OR functoid."/> <a href="logical-or-functoid.md">Logical OR</a></td>
 <td>Determines whether any of the specified input parameters are true.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa560607.62d28c15-1e58-4bf5-9568-c636d468d77d(BTS.80).jpeg" /> <a href="logical-string-functoid.md">Logical String</a></td>
+<td><img src="images/Aa560607.62d28c15-1e58-4bf5-9568-c636d468d77d(BTS.80).jpeg" alt="Icon that represents the Logical String functoid."/> <a href="logical-string-functoid.md">Logical String</a></td>
 <td>Determines whether the input parameter is a string.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa560651.6faf9c11-7753-4b84-aaa4-60ad731bf6f4(BTS.80).jpeg" /> <a href="not-equal-functoid.md">Not Equal</a></td>
+<td><img src="images/Aa560651.6faf9c11-7753-4b84-aaa4-60ad731bf6f4(BTS.80).jpeg" alt="Icon that represents the Not Equal functoid."/> <a href="not-equal-functoid.md">Not Equal</a></td>
 <td>Tests whether the two input parameters are not equal.</td>
 </tr>
 </tbody>

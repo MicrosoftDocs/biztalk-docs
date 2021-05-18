@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Logical OR** functoid ( ![](images/Aa560272.82f62b4d-fa44-4ce1-98cb-75030ae40a59(BTS.80).jpeg)) to determine whether any of the specified input parameters evaluate to **True**.
+Use the **Logical OR** functoid ( ![Icon that represents the Logical OR functoid.](images/Aa560272.82f62b4d-fa44-4ce1-98cb-75030ae40a59(BTS.80).jpeg)) to determine whether any of the specified input parameters evaluate to **True**.
 
 ## Input
 

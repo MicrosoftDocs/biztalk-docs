@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Logical Date** functoid ( ![](images/Aa577573.d77fb1a1-4472-4830-8e02-43cf3b396d9e(BTS.80).jpeg)) to determine whether the input parameter is a date.
+Use the **Logical Date** functoid ( ![Icon that represents the Logical Date functoid.](images/Aa577573.d77fb1a1-4472-4830-8e02-43cf3b396d9e(BTS.80).jpeg)) to determine whether the input parameter is a date.
 
 ## Input
 

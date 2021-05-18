@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Natural Exponential** functoid ( ![](images/Aa559669.10eb4753-35d8-4cce-a311-909a98157f9e(BTS.80).jpeg)) to return **e** raised to a specified power.
+Use the **Natural Exponential** functoid ( ![Icon that represents the Natural Exponential functoid.](images/Aa559669.10eb4753-35d8-4cce-a311-909a98157f9e(BTS.80).jpeg)) to return **e** raised to a specified power.
 
 ## Input
 

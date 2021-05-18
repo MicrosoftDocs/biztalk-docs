@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Multiplication** functoid ( ![](images/Aa547077.9a5b9d47-f92f-4aa9-a893-4fe748de4ea5(BTS.80).jpeg)) to determine the product of the numeric input parameters.
+Use the **Multiplication** functoid ( ![Icon that represents the Multiplication functoid.](images/Aa547077.9a5b9d47-f92f-4aa9-a893-4fe748de4ea5(BTS.80).jpeg)) to determine the product of the numeric input parameters.
 
 ## Input
 

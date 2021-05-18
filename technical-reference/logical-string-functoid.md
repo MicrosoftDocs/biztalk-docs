@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Logical String** functoid ( ![](images/Aa560607.62d28c15-1e58-4bf5-9568-c636d468d77d(BTS.80).jpeg)) to determine whether the input parameter is a string.
+Use the **Logical String** functoid ( ![Icon that represents the Logical String functoid.](images/Aa560607.62d28c15-1e58-4bf5-9568-c636d468d77d(BTS.80).jpeg)) to determine whether the input parameter is a string.
 
 ## Input
 
