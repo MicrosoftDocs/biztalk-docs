@@ -20,15 +20,15 @@ The methods of the **IBTTransportConfig** interface are listed here. For a compl
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportconfig-addreceiveendpoint-method-com.md">AddReceiveEndpoint</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the AddReceiveEndpoint method."/> <a href="ibttransportconfig-addreceiveendpoint-method-com.md">AddReceiveEndpoint</a></td>
 <td>Adds a new URL address that the adapter should listen on for incoming messages.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportconfig-removereceiveendpoint-method-com.md">RemoveReceiveEndpoint</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the RemoveReceiveEndpoint method."/> <a href="ibttransportconfig-removereceiveendpoint-method-com.md">RemoveReceiveEndpoint</a></td>
 <td>Removes the URL from the list of URL addresses that the adapters listen to.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportconfig-updateendpointconfig-method-com.md">UpdateEndpointConfig</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the UpdateEndpointConfig method."/> <a href="ibttransportconfig-updateendpointconfig-method-com.md">UpdateEndpointConfig</a></td>
 <td>Updates the configuration of the URL.</td>
 </tr>
 </tbody>

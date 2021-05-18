@@ -20,7 +20,7 @@ The methods of the **IComponentUI** interface are listed here. For a complete li
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="icomponentui-validate-method-com.md">Validate</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Validate method."/> <a href="icomponentui-validate-method-com.md">Validate</a></td>
 <td>Verifies that all of the configuration properties are set correctly.</td>
 </tr>
 </tbody>
