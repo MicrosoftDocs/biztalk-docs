@@ -64,7 +64,7 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 ## Install the Build Agent
 
 > [!NOTE]
-> You can build BizTalk projects using the Azure Pipelines agent pool, instead of the Build Agent. To use the Azure Pipelines agent pool, skip this section, and go to [Step 3: Create the build and release definition](feature-pack-add-build-release-definitions.md).
+> Steps below are needed to add Biztalk deployment machine on which deployment needs to be carried out. Also, same steps can be used to add a build machine. Optionally, You can build BizTalk projects using the Azure Pipelines agent pool, instead of the Build Agent. To use the Azure Pipelines agent pool, skip this section, and go to [Step 3: Create the build and release definition](feature-pack-add-build-release-definitions.md).
 
 The build agent is installed on the BizTalk development computer. If using deployment groups, the build agent is installed on all the BizTalk servers you want to deploy to. The following steps show you how to install the build agent on a single computer. For details on using deployment groups, see [Deployment groups](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index).
 
