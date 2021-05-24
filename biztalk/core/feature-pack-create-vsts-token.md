@@ -2,7 +2,7 @@
 title: Step 2 - Create VSTS token and install agent | Microsoft Docs
 description: Create the VSTS security access token, clone your VSTS project into Visual Studio, and install the build agent to automate deployment of your BizTalk Server projects
 ms.custom: ""
-ms.date: "12/15/2020"
+ms.date: "05/24/2021"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -16,9 +16,9 @@ manager: "dougeby"
 
 # Step 2: Create the token & install the agent
 
-A personal access token (PAT) is created in Visual Studio Team Services. This token is your password, and is used by the VSTS build agent to authenticate. The token is only displayed when you create it. After that, it isn't displayed anymore. So once you create it, save it to another file in a remember-able location. 
+A personal access token (PAT) is created in Visual Studio Team Services. This token is your password, and is used by the VSTS build agent to authenticate. The token is only shown when you create it. After that, it isn't shown anymore. So once you create it, save it to another file in a remember-able location. 
 
-More info on PAT at [Authenticate access with personal access tokens for VSTS and TFS](https://docs.microsoft.com/vsts/accounts/use-personal-access-tokens-to-authenticate). 
+More info on PAT at [Authenticate access with personal access tokens for VSTS and TFS](/vsts/accounts/use-personal-access-tokens-to-authenticate). 
 
 After you create the token, you install the build agent, and configure it to use this token. 
 
@@ -32,7 +32,7 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 
     :::image type="content" source="./media/feature-pack-create-vsts-token/team-services-accounts.png" alt-text="Sign in to the Azure DevOps account, and see your account in the list.":::
 
-    If you don’t have an account, select **Create new account**, and enter a name. To manage your code, choose your personal preference between **Git or Team Foundation Version Control**. When finished, your new account is created, and a site similar to `https://dev.azure.com/v-vabi/BizTalkVSTS` opens:  
+    If you don’t have an account, select **Create new account**, and enter a name. To manage your code, choose your personal preference between **Git** or **Team Foundation Version Control**. When finished, your new account is created, and a site similar to `https://dev.azure.com/v-vabi/BizTalkVSTS` opens:  
 
     :::image type="content" source="./media/feature-pack-create-vsts-token/git-or-team-foundation.png" alt-text="Select Git or Team Foundation Version Control to host your Azure DevOps projects.":::
 
@@ -64,9 +64,11 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 ## Install the Build Agent
 
 > [!NOTE]
-> You can build BizTalk projects using the Azure Pipelines agent pool, instead of the Build Agent. To use the Azure Pipelines agent pool, skip this section, and go to [Step 3: Create the build and release definition](feature-pack-add-build-release-definitions.md).
+> The build agent is installed on the BizTalk development computer. If using deployment groups, the build agent is installed on all the BizTalk servers you want to deploy to. Also, use these same steps to add a build computer, which might be different than the BizTalk development computer.
+> 
+> Optionally, you can build BizTalk projects using the Azure Pipelines agent pool, instead of the Build Agent. To use the Azure Pipelines agent pool, skip this section, and go to [Step 3: Create the build and release definition](feature-pack-add-build-release-definitions.md).
 
-The build agent is installed on the BizTalk development computer. If using deployment groups, the build agent is installed on all the BizTalk servers you want to deploy to. The following steps show you how to install the build agent on a single computer. For details on using deployment groups, see [Deployment groups](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index).
+The following steps show you how to install the build agent on a single computer. For details on using deployment groups, see [Deployment groups](/vsts/build-release/concepts/definitions/release/deployment-groups/index).
 
 1. Open your Azure DevOps account and project, which is something like `https://dev.azure.com/v-vabi/BizTalkVSTS`. Select the project settings icon, and select **Agent Pools**:
 
@@ -113,11 +115,11 @@ The build agent is installed on the BizTalk development computer. If using deplo
 
     :::image type="content" source="./media/feature-pack-create-vsts-token/vsts-service.png" alt-text="Services.msc shows the Azure DevOps service agent running.":::
 
-    If the service fails to start, [remove and re-configure an agent](https://docs.microsoft.com/vsts/build-release/actions/agents/v2-windows) using an account with more privileges.
+    If the service fails to start, [remove and re-configure an agent](/vsts/build-release/actions/agents/v2-windows) using an account with more privileges.
 
 ## What you did
 
-You signed into your Azure DevOps account, and created a security token. This security token is like a password, and gives you access to your Azure DevOps project. It's only displayed once, so be sure you saved it. You also cloned your Azure DevOps project into Visual Studio, and created an agent that runs as a service on your BizTalk development computer. This agent uses the security token.
+You signed into your Azure DevOps account, and created a security token. This security token is like a password, and gives you access to your Azure DevOps project. It's only shown once, so be sure you saved it. You also cloned your Azure DevOps project into Visual Studio, and created an agent that runs as a service on your BizTalk development computer. This agent uses the security token.
 
 ## Next steps
 

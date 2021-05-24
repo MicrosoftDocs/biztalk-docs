@@ -27,7 +27,7 @@ You use the BizTalk WCF Service Publishing Wizard to publish schemas as WCF serv
 > [!NOTE]
 >  You must build your BizTalk projects before running the BizTalk WCF Service Publishing Wizard. The BizTalk projects must include schemas to publish as WCF services.  
   
-### To publish schemas as WCF servicees  
+### To publish schemas as WCF services  
   
 1. Click **Start**, point to **All Programs**, point to [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk WCF Service Publishing Wizard**.  
   
