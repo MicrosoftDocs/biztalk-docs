@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Mass Copy** functoid ( ![](images/Aa560018.8d9b71f3-8e19-4b2b-a393-3592b01e07f3(BTS.80).jpeg)) to recursively copy all data in an input instance message, to arbitrary depth, that corresponds to a specified node in the source schema to the position in an output instance message that is specified by the output link.
+Use the **Mass Copy** functoid ( ![Icon that represents the Mass Copy functoid.](images/Aa560018.8d9b71f3-8e19-4b2b-a393-3592b01e07f3(BTS.80).jpeg)) to recursively copy all data in an input instance message, to arbitrary depth, that corresponds to a specified node in the source schema to the position in an output instance message that is specified by the output link.
 
 ## Input
 

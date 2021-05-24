@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Cumulative Sum** functoid ( ![](images/Aa561799.a1343591-0bdc-48dd-929d-c9ddae9c5e86(BTS.80).jpeg)) to calculate the accumulated sum of a numeric value that recurs within corresponding instance messages.
+Use the **Cumulative Sum** functoid ( ![Icon that represents the Cumulative Sum functoid.](images/Aa561799.a1343591-0bdc-48dd-929d-c9ddae9c5e86(BTS.80).jpeg)) to calculate the accumulated sum of a numeric value that recurs within corresponding instance messages.
 
 ## Input
 

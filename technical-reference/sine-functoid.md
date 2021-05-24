@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Sine** functoid ( ![](images/Aa561631.858e7775-ff7e-4c62-9f1c-a24c7d7cb488(BTS.80).jpeg)) to return the sine of an angle.
+Use the **Sine** functoid ( ![Icon that represents the Sine functoid.](images/Aa561631.858e7775-ff7e-4c62-9f1c-a24c7d7cb488(BTS.80).jpeg)) to return the sine of an angle.
 
 ## Input
 

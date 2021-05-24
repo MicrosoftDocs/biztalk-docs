@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Modulo** functoid ( ![](images/Aa578260.03bb8442-536b-466d-b7ee-dac5a21f28f5(BTS.80).jpeg)) to calculate the remainder of the specified integer division.
+Use the **Modulo** functoid ( ![Icon that represents the Modolo functoid.](images/Aa578260.03bb8442-536b-466d-b7ee-dac5a21f28f5(BTS.80).jpeg)) to calculate the remainder of the specified integer division.
 
 ## Input
 

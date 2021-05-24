@@ -20,11 +20,11 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="inameditem-name-property-com.md">INamedItem.Name Property (COM)</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the INamedItem.Name Property (COM) property."/> <a href="inameditem-name-property-com.md">INamedItem.Name Property (COM)</a></td>
 <td>Gets the name of the item.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="inameditem-value-property-com.md">INamedItem.Value Property (COM)</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the INamedItem.Value Property (COM) property."/> <a href="inameditem-value-property-com.md">INamedItem.Value Property (COM)</a></td>
 <td>Gets the value of the item.</td>
 </tr>
 </tbody>

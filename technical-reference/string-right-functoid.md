@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **String Right** functoid ( ![](images/Aa561496.f66f1dd4-7c59-453e-9080-c4fcc921f26d(BTS.80).jpeg)) to retrieve a specified number of characters from the end of a string.
+Use the **String Right** functoid ( ![Icon that represents the String Right functoid.](images/Aa561496.f66f1dd4-7c59-453e-9080-c4fcc921f26d(BTS.80).jpeg)) to retrieve a specified number of characters from the end of a string.
 
 ## Input
 

@@ -20,27 +20,27 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportproxy-getbatch-method-com.md">GetBatch</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetBatch method."/> <a href="ibttransportproxy-getbatch-method-com.md">GetBatch</a></td>
 <td>Gets a new transport proxy batch.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportproxy-getmessagefactory-method-com.md">GetMessageFactory</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetMessageFactory method."/> <a href="ibttransportproxy-getmessagefactory-method-com.md">GetMessageFactory</a></td>
 <td>Gets the base message factory.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportproxy-receivershuttingdown-method-com.md">ReceiverShuttingdown</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the ReceiverShuttingdown method."/> <a href="ibttransportproxy-receivershuttingdown-method-com.md">ReceiverShuttingdown</a></td>
 <td>Notifies the BizTalk Server Messaging Engine that the receiver adapter is shutting down one of its receive locations.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportproxy-registerisolatedreceiver-method-com.md">RegisterIsolatedReceiver</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the RegisterIsolatedReceiver method."/> <a href="ibttransportproxy-registerisolatedreceiver-method-com.md">RegisterIsolatedReceiver</a></td>
 <td>Registers an isolated receiver.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportproxy-seterrorinfo-method-com.md">SetErrorInfo</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the SetErrorInfo method."/> <a href="ibttransportproxy-seterrorinfo-method-com.md">SetErrorInfo</a></td>
 <td>Sets the error information.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportproxy-terminateisolatedreceive-method-com.md">TerminateIsolatedReceive</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the TerminateIsolatedReceive method."/> <a href="ibttransportproxy-terminateisolatedreceive-method-com.md">TerminateIsolatedReceive</a></td>
 <td>Notifies the Messaging Engine that it is shutting down. This method is called by a non-creatable receiver.</td>
 </tr>
 </tbody>

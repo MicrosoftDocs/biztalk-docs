@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Cumulative Concatenate** functoid ( ![](images/Aa561799.96cb173a-f7b9-4042-a525-1e1f7475d54e(BTS.80).jpeg)) to concatenate multiple instances of a string value that recurs within corresponding instance messages.
+Use the **Cumulative Concatenate** functoid ( ![Icon that represents the Cumulative Concatenate functoid.](images/Aa561799.96cb173a-f7b9-4042-a525-1e1f7475d54e(BTS.80).jpeg)) to concatenate multiple instances of a string value that recurs within corresponding instance messages.
 
 ## Input
 

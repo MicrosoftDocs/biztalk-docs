@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Index** functoid ( ![](images/Aa547061.0f578133-d730-4d60-bc4a-2832c31294b5(BTS.80).jpeg)) to retrieve and output a specific value or set of values from a (potentially nested) repeating structure in an input instance message.
+Use the **Index** functoid ( ![Icon that represents the Index functoid.](images/Aa547061.0f578133-d730-4d60-bc4a-2832c31294b5(BTS.80).jpeg)) to retrieve and output a specific value or set of values from a (potentially nested) repeating structure in an input instance message.
 
 ## Input
 

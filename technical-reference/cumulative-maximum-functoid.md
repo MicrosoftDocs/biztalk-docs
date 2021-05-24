@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Cumulative Maximum** functoid ( ![](images/Aa561894.eafb0c35-4d1c-4454-a475-0a605a839e2f(BTS.80).jpeg)) to determine the maximum value of a numeric value that recurs within corresponding instance messages.
+Use the **Cumulative Maximum** functoid ( ![Icon that represents the Cumulative Maximum functoid.](images/Aa561894.eafb0c35-4d1c-4454-a475-0a605a839e2f(BTS.80).jpeg)) to determine the maximum value of a numeric value that recurs within corresponding instance messages.
 
 ## Input
 

@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Date** functoid ( ![](images/Aa559140.e33d64db-66ed-41b0-8f48-262a32307784(BTS.80).jpeg)) to retrieve the current date in the format YYYY-MM-DD.
+Use the **Date** functoid ( ![Icon that represents the Date functoid.](images/Aa559140.e33d64db-66ed-41b0-8f48-262a32307784(BTS.80).jpeg)) to retrieve the current date in the format YYYY-MM-DD.
 
 ## Input
 

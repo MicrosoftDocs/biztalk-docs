@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Hexadecimal** functoid ( ![](images/Aa578422.898fb4dd-8e16-480c-8ada-aabfe1f196d9(BTS.80).jpeg)) to convert a decimal number to its hexadecimal equivalent.
+Use the **Hexadecimal** functoid ( ![Icon that represents the Hexadecimal functoid.](images/Aa578422.898fb4dd-8e16-480c-8ada-aabfe1f196d9(BTS.80).jpeg)) to convert a decimal number to its hexadecimal equivalent.
 
 ## Input
 

@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Get Common ID** functoid ( ![](images/Aa562112.26f78937-34c9-4149-9603-519109276d7c(BTS.80).jpeg)) to retrieve an identifier for a common object.
+Use the **Get Common ID** functoid ( ![Icon that shows the Get Common ID functoid.](images/Aa562112.26f78937-34c9-4149-9603-519109276d7c(BTS.80).jpeg)) to retrieve an identifier for a common object.
 
 ## Input
 

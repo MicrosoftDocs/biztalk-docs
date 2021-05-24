@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Lowercase** functoid ( ![](images/Aa561496.ea061045-90f5-43e4-8570-536fb9c209a5(BTS.80).jpeg)) to convert any uppercase characters in a string to lowercase.
+Use the **Lowercase** functoid ( ![Icon that represents the Lowercase functoid.](images/Aa561496.ea061045-90f5-43e4-8570-536fb9c209a5(BTS.80).jpeg)) to convert any uppercase characters in a string to lowercase.
 
 ## Input
 

@@ -20,23 +20,23 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ibttransport-classid-property-com.md">ClassID</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the ClassID property."/> <a href="ibttransport-classid-property-com.md">ClassID</a></td>
 <td>Gets the class ID of the adapter, a globally unique identifier (GUID) that identifies the adapter.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ibttransport-description-property-com.md">Description</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Description property."/> <a href="ibttransport-description-property-com.md">Description</a></td>
 <td>Gets the description of the component.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ibttransport-name-property-com.md">Name</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the Name property."/> <a href="ibttransport-name-property-com.md">Name</a></td>
 <td>Gets the name of the component.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ibttransport-transporttype-property-com.md">TransportType</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the TransportType property."/> <a href="ibttransport-transporttype-property-com.md">TransportType</a></td>
 <td>Gets the transport type of an adapter, such as FILE, HTTP, SMTP, or SOAP.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" /> <a href="ibttransport-version-property-com.md">IBTTransport.Version Property (COM)</a></td>
+<td><img src="images/Aa559521.43dc4f45-81a9-4bc9-ac9f-c6f88d5f9a89(BTS.80).jpeg" alt="Icon that represents the IBTTransport.Version Property (COM) property."/> <a href="ibttransport-version-property-com.md">IBTTransport.Version Property (COM)</a></td>
 <td>Gets the version of the component.</td>
 </tr>
 </tbody>

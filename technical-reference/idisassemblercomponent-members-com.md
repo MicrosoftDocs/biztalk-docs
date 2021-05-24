@@ -20,11 +20,11 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="idisassemblercomponent-disassemble-method-com.md">IDisassemblerComponent.Disassemble Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDisassemblerComponent.Disassemble Method (COM) method."/> <a href="idisassemblercomponent-disassemble-method-com.md">IDisassemblerComponent.Disassemble Method (COM)</a></td>
 <td>Performs the disassembling of incoming document.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="idisassemblercomponent-getnext-method-com.md">IDisassemblerComponent.GetNext Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDisassemblerComponent.GetNext Method (COM) method."/> <a href="idisassemblercomponent-getnext-method-com.md">IDisassemblerComponent.GetNext Method (COM)</a></td>
 <td>Gets the next message from the message set resulting from the disassembler execution.</td>
 </tr>
 </tbody>

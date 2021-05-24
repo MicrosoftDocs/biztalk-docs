@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Tangent** functoid ( ![](images/Aa559950.3923b2f3-4edd-4d67-b7db-bac28447c7ad(BTS.80).jpeg)) to return the tangent of an angle.
+Use the **Tangent** functoid ( ![Icon that represents the Tangent functoid.](images/Aa559950.3923b2f3-4edd-4d67-b7db-bac28447c7ad(BTS.80).jpeg)) to return the tangent of an angle.
 
 ## Input
 

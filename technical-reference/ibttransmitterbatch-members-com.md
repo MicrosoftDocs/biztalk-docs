@@ -20,19 +20,19 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransmitterbatch-beginbatch-method-com.md">BeginBatch</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the BeginBatch method."/> <a href="ibttransmitterbatch-beginbatch-method-com.md">BeginBatch</a></td>
 <td>Initializes the batch.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransmitterbatch-clear-method-com.md">Clear</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Clear method."/> <a href="ibttransmitterbatch-clear-method-com.md">Clear</a></td>
 <td>Clears the batch if one or more calls to the <a href="ibttransmitterbatch-transmitmessage-method-com.md">TransmitMessage</a> method failed.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransmitterbatch-done-method-com.md">Done</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the Done method."/> <a href="ibttransmitterbatch-done-method-com.md">Done</a></td>
 <td>Indicates that either the batch is full or the BizTalk Server Messaging Engine does not have any more messages for this batch.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransmitterbatch-transmitmessage-method-com.md">TransmitMessage</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the TransmitMessage method."/> <a href="ibttransmitterbatch-transmitmessage-method-com.md">TransmitMessage</a></td>
 <td>Adds messages to the adapter batch that are ready to be transmitted.</td>
 </tr>
 </tbody>

@@ -26,11 +26,11 @@ The methods of the **ISSOTicket** interface are listed in the following table. F
 </thead>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issoticket-issueticket-method.md">IssueTicket</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IssueTicket method."/> <a href="issoticket-issueticket-method.md">IssueTicket</a></td>
 <td>Issues an Enterprise Single Sign-On (SSO) server ticket for authenticating a user on an application.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="issoticket-redeemticket-method.md">RedeemTicket</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the RedeemTicket method."/> <a href="issoticket-redeemticket-method.md">RedeemTicket</a></td>
 <td>Redeems an SSO server ticket that was previously issued with the <strong>IssueTicket</strong> method.</td>
 </tr>
 </tbody>

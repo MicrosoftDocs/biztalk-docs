@@ -20,7 +20,7 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="iprobemessage-probe-method-com.md">IProbeMessage.Probe Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IProbeMessage.Probe Method (COM) method."/> <a href="iprobemessage-probe-method-com.md">IProbeMessage.Probe Method (COM)</a></td>
 <td>Checks if the incoming message is in a recognizable format.</td>
 </tr>
 </tbody>

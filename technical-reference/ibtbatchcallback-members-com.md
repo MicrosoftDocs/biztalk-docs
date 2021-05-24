@@ -20,7 +20,7 @@ mtps_version: v=BTS.80
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibtbatchcallback-batchcomplete-method-com.md">BatchComplete</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the BatchComplete method."/> <a href="ibtbatchcallback-batchcomplete-method-com.md">BatchComplete</a></td>
 <td>Notifies the adapter the outcome of the batch of work.</td>
 </tr>
 </tbody>

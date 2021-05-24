@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Scripting** functoid ( ![](images/Aa560018.bd458694-6168-4c8c-90d2-da4407485122(BTS.80).jpeg)) to create content for an output instance message or input to another functoid.
+Use the **Scripting** functoid ( ![Icon that represents the Scripting functoid.](images/Aa560018.bd458694-6168-4c8c-90d2-da4407485122(BTS.80).jpeg)) to create content for an output instance message or input to another functoid.
 
 ## Input
 

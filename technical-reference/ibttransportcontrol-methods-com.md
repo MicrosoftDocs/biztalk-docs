@@ -20,11 +20,11 @@ The methods of the **IBTTransportControl** interface are listed here. For a comp
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportcontrol-initialize-method-com.md">IBTTransportControl.Initialize Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IBTTransportControl.Initialize Method (COM) method."/> <a href="ibttransportcontrol-initialize-method-com.md">IBTTransportControl.Initialize Method (COM)</a></td>
 <td>Initializes the adapter.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibttransportcontrol-terminate-method-com.md">IBTTransportControl.Terminate Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IBTTransportControl.Terminate Method (COM) method."/> <a href="ibttransportcontrol-terminate-method-com.md">IBTTransportControl.Terminate Method (COM)</a></td>
 <td>Finishes processing any messages the adapter is currently processing and prepares for termination.</td>
 </tr>
 </tbody>

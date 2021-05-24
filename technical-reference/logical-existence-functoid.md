@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Logical Existence** functoid ( ![](images/Aa559386.484702af-934c-4017-9b5a-c2d9fc94be51(BTS.80).jpeg)) to determine whether the **Record**, **Field Element**, or **Field Attribute** node that is linked to it exists in a particular input instance message.
+Use the **Logical Existence** functoid ( ![Icon that represents the Logical Existence functoid.](images/Aa559386.484702af-934c-4017-9b5a-c2d9fc94be51(BTS.80).jpeg)) to determine whether the **Record**, **Field Element**, or **Field Attribute** node that is linked to it exists in a particular input instance message.
 
 ## Input
 

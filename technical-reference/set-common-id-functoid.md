@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Set Common ID** functoid ( ![](images/Aa562112.6c2faac4-f20d-4d8c-8553-578c41c04eb9(BTS.80).jpeg)) to set and return an identifier for a common object.
+Use the **Set Common ID** functoid ( ![Icon that represents the Set Common ID functoid.](images/Aa562112.6c2faac4-f20d-4d8c-8553-578c41c04eb9(BTS.80).jpeg)) to set and return an identifier for a common object.
 
 ## Input
 

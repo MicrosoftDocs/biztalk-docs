@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Cosine** functoid ( ![](images/Aa559678.3ec59432-420e-42e9-816f-45ef26487f54(BTS.80).jpeg)) to return the cosine of an angle.
+Use the **Cosine** functoid ( ![Icon that represents the Cosine functioid.](images/Aa559678.3ec59432-420e-42e9-816f-45ef26487f54(BTS.80).jpeg)) to return the cosine of an angle.
 
 ## Input
 

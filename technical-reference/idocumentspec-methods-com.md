@@ -20,15 +20,15 @@ The methods of the **IDocumentSpec** interface are listed here. For a complete l
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="idocumentspec-getbodypath-method-com.md">IDocumentSpec.GetBodyPath Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDocumentSpec.GetBodyPath Method (COM) method."/> <a href="idocumentspec-getbodypath-method-com.md">IDocumentSpec.GetBodyPath Method (COM)</a></td>
 <td>Returns the XML Path (XPath) to the node in the document where the body part begins.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="idocumentspec-getpropertyannotationenumerator-method-com.md">IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM) method."/> <a href="idocumentspec-getpropertyannotationenumerator-method-com.md">IDocumentSpec.GetPropertyAnnotationEnumerator Method (COM)</a></td>
 <td>Gets the property annotation.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="idocumentspec-getschemacollection-method-com.md">IDocumentSpec.GetSchemaCollection Method (COM)</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the IDocumentSpec.GetSchemaCollection Method (COM) method."/> <a href="idocumentspec-getschemacollection-method-com.md">IDocumentSpec.GetSchemaCollection Method (COM)</a></td>
 <td>Do not use; this method has been deprecated.</td>
 </tr>
 </tbody>

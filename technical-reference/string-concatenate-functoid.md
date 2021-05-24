@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **String Concatenate** functoid ( ![](images/Aa560973.07a7260b-f81d-4e69-950c-77a5415914c1(BTS.80).jpeg)) to concatenate the specified strings, in the order given.
+Use the **String Concatenate** functoid ( ![Icon that represents the String Concatenate functoid.](images/Aa560973.07a7260b-f81d-4e69-950c-77a5415914c1(BTS.80).jpeg)) to concatenate the specified strings, in the order given.
 
 ## Input
 

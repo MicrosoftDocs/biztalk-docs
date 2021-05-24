@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
  
 
-Use the **Logical Numeric** functoid ( ![](images/Aa577628.d53b1a3c-b6cc-49a7-b62b-3be74432ea44(BTS.80).jpeg)) to determine whether the input parameter is a numeric value.
+Use the **Logical Numeric** functoid ( ![Icon that represents the Logical Numeric functoid.](images/Aa577628.d53b1a3c-b6cc-49a7-b62b-3be74432ea44(BTS.80).jpeg)) to determine whether the input parameter is a numeric value.
 
 ## Input
 
