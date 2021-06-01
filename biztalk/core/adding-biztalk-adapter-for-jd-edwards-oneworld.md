@@ -95,7 +95,7 @@ The JD Edwards OneWorld Transport Property System Definition is used for design 
   
 4.  Expand the **JD Edwards OneWorld system** node and enter all required information for connection to the JD Edwards OneWorld server.  
   
-     ![](../core/media/jdedadapter-02-jdesystem.gif "JDEdAdapter_02_JDESystem")  
+     ![Screenshot of the JDEOneWorld Transport Properties pane showing the connection parameters and values for the JD Edwards OneWorld system.](../core/media/jdedadapter-02-jdesystem.gif)  
   
      After you set the connection parameters, you can browse a JD Edwards OneWorld system. For more information, see [Importing JD Edwards OneWorld Schemas into BizTalk Server Projects](../core/importing-jd-edwards-oneworld-schemas-into-biztalk-server-projects.md).  
   
