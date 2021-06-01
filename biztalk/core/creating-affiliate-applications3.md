@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Creating Affiliate Applications"
+description: "Learn more about creating affiliate applications using Enterprise Single Sign-On commands."
 title: "Creating Affiliate Applications3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
