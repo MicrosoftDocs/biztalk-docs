@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Basic Orchestration Design"
+description: "Learn more about basic orchestration design, including how to create a CatchExpression to redirect an exception in the back-end system."
 title: "Basic Orchestration Design5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
