@@ -199,7 +199,7 @@ manager: "anneta"
 
 5.  In the Properties pane, type **GetCustomerByName_Instance** in the **Name** box.
 
-     ![Specify a name for the method instance](../../adapters-and-accelerators/adapter-sap/media/e44e02e8-b9fb-40ca-a55d-8bdc7ace02b5.gif "e44e02e8-b9fb-40ca-a55d-8bdc7ace02b5")
+     ![Screenshot of the Properties pane showing the Name field highlighted and the value GetCustomerByName_Instance specified.](../../adapters-and-accelerators/adapter-sap/media/e44e02e8-b9fb-40ca-a55d-8bdc7ace02b5.gif)
 
 ### Requirement 2: Retrieve Details for a Specific Customer from the List of Customers
  To create an application definition file that can be used to search for customers based on customer name, you must perform the following set of tasks.
@@ -262,7 +262,7 @@ manager: "anneta"
 
 5.  In the Properties pane, type **GetCustomerByNumber_Instance** for the **Name** box.
 
-     ![Specify a name for the method instance](../../adapters-and-accelerators/adapter-sap/media/970f543c-cd06-4921-86c9-c110abdc7994.gif "970f543c-cd06-4921-86c9-c110abdc7994")
+     ![Screenshot of the Properties pane showing the Name field highlighted and the value GetCustomerByNumber_Instance specified.](../../adapters-and-accelerators/adapter-sap/media/970f543c-cd06-4921-86c9-c110abdc7994.gif "970f543c-cd06-4921-86c9-c110abdc7994")
 
 ### Requirement 3: Retrieve Sales Order Details for a Specific Customer from the List of Customers
  To create an application definition file that can be used to retrieve sales order details for a specific customer, you must perform the following set of tasks.

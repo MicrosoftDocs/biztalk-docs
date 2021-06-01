@@ -20,4 +20,4 @@ In addition to the mandatory adapter interfaces, transmit (send) adapters, need 
   
  The following figure shows the interfaces that batched and non-batched send adapters need to implement.  
   
- ![](../core/media/transmitterinterfaces.gif "TransmitterInterfaces")
+ ![Diagram showing the mandatory, optional, and choice interfaces that batched and non-batched send adapters need to implement.](../core/media/transmitterinterfaces.gif)
