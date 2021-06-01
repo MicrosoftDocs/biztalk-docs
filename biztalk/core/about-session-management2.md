@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: About Session Management"
+description: "Learn how to manage the pool of connection sessions for calls to the JD Edwards EnterpriseOne server using message context properties in the Microsoft BizTalk Adapter for JD Edwards EnterpriseOne."
 title: "About Session Management2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
