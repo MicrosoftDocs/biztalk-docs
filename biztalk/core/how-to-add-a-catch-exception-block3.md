@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Add a Catch Exception Block"
+description: "Learn how to add and populate a Catch Exception block and attach it to the end of a Scope shape in the BizTalk ServerOrchestration Designer."
 title: "How to Add a Catch Exception Block3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -23,6 +23,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Add and Populate a Catch Exception Block
+
 The **Catch Exception** block represents an exception handler. **Catch Exception** blocks are attached to the end of a **Scope** shape in Orchestration Designer. You can attach as many **Catch Exception** blocks as you need.  
   
  You can set up exception handlers to handle different kinds of exceptions. On each exception handler, you specify an exception type, which must be either a fault message or an object derived from the class **System.Exception**. If you do not specify an exception type, the exception block will be treated as a general exception handler, and can catch exceptions that do not derive from **System.Exception**.  
@@ -30,7 +31,7 @@ The **Catch Exception** block represents an exception handler. **Catch Exception
  If an exception is thrown that matches the specified type in an exception handler, that exception handler will be called. If some other exception is thrown, it will be handled by the default exception handler.  
   
 > [!NOTE]
->  To add a **Catch Exception** block to a **Scope** shape, the **Transaction Type** property of the **Scope** shape must be set to **None** or **Long Running**.  
+> To add a **Catch Exception** block to a **Scope** shape, the **Transaction Type** property of the **Scope** shape must be set to **None** or **Long Running**.  
   
 ### To add a Catch Exception block  
   
@@ -48,7 +49,7 @@ The **Catch Exception** block represents an exception handler. **Catch Exception
 3.  Inside the **Catch Exception** block, add shapes to create the process for handling the exception.  
   
 > [!NOTE]
->  If you specify General Exception as the **Exception** object type, the **Catch Exception** block will intercept any exception, including those that are not derived from **System.Exception**. In such a case, you will not have access to an exception object. Within this block, if you use a **Throw Exception** shape with the General Exception type, you will be effectively rethrowing the caught exception.  
+> If you specify General Exception as the **Exception** object type, the **Catch Exception** block will intercept any exception, including those that are not derived from **System.Exception**. In such a case, you will not have access to an exception object. Within this block, if you use a **Throw Exception** shape with the General Exception type, you will be effectively rethrowing the caught exception.  
   
 ## See Also  
  [Exceptions](../core/exceptions.md)

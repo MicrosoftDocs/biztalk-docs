@@ -21,6 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Add a Fault Message
+
 When you first created the port to the back-end system, it contained a request and a response. You must add a fault to capture the exception.  
   
 ### To add a fault message  
