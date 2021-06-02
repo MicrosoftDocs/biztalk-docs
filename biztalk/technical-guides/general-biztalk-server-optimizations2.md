@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: General BizTalk Server Optimizations"
+description: "Learn about general optimizations that can be used to increase BizTalk Server performance after it has been installed and configured."
 title: "General BizTalk Server Optimizations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # General BizTalk Server Optimizations
+
 The following recommendations can be used to increase [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performance. The optimizations listed in this topic are applied after [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has been installed and configured.
 
 ## Create multiple BizTalk Server hosts and separate host instances by functionality

@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Clustering the BizTalk Server Databases"
+description: "Learn how to create and configure a Microsoft SQL Server cluster for the BizTalk Server databases."
 title: "Cluster the Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Clustering the BizTalk Server Databases
+
 If the BizTalk Server databases become unavailable, the BizTalk Server environment will not function correctly. To provide high availability, you can create a Microsoft SQL Server cluster for the BizTalk Server databases, as shown in the following figure.  
   
  ![BizTalk Server Database Tier](../core/media/tdi-highava-sqlcluster.gif "TDI_HighAva_SQLCluster")  

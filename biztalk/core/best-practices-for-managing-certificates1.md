@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Best Practices for Managing Certificates"
+description: "Learn about best practices for managing certificates in the Microsoft BizTalk Server environment."
 title: "Best Practices for Managing Certificates1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

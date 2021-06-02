@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Best Practices for Managing Certificates"
+description: "Learn about best practices for managing certificates in the Microsoft BizTalk Server environment, including how to configure a BizTalk Adapter to use certificates."
 title: "Best Practices for Managing Certificates2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Best Practices for Managing Certificates
+
 This section provides best practices for managing certificates in your Microsoft BizTalk Server environment.
 
 ## Assess and Plan Your Use of Certificates

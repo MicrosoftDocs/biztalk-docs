@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Enterprise Single Sign-On"
+description: "Learn about the menu commands that are used to configure and run Enterprise Single Sign-On (SSO)."
 title: "Enterprise Single Sign-On3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,7 +15,9 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Enterprise Single Sign-On (SSO)
+
 Use these menu commands to configure and run Enterprise Single Sign-On.  
   
-## See Also  
- [Enterprise Single Sign-On System](../core/enterprise-single-sign-on-system2.md)
+## See Also
+  
+- [Enterprise Single Sign-On System](../core/enterprise-single-sign-on-system2.md)

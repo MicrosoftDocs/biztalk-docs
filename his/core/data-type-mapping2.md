@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Data Type Mapping"
+description: "Learn about customizing the default data conversions by modifying the data type mapping XML files."
 title: "Data Type Mapping2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,4 +15,5 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Data Type Mapping
+
 You can customize the default data conversions by modifying the data type mapping XML files.

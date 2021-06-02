@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Error Messages"
+description: "Learn about the error messages in the JD Edwards EnterpriseOne system and the possible corrections for the errors that they indicate."
 title: "Error Messages1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -18,6 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Error Messages in the JD Edwards EnterpriseOne System
+
 The following table describes error messages in the JD Edwards EnterpriseOne system and provides possible corrections for them.  
   
 |Error ID|Possible Cause / Error Description|Possible Correction|  
