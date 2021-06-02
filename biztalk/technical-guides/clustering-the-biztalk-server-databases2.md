@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Clustering the BizTalk Server Databases"
+description: "Learn how to create and configure a Microsoft SQL Server cluster for the BizTalk Server databases."
 title: "Cluster the Databases | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Clustering the BizTalk Server Databases
+
 If the BizTalk Server databases become unavailable, the BizTalk Server environment will not function correctly. To provide high availability, you can create a Microsoft SQL Server cluster for the BizTalk Server databases, as shown in the following figure.  
   
  ![BizTalk Server Database Tier](../core/media/tdi-highava-sqlcluster.gif "TDI_HighAva_SQLCluster")  
@@ -42,7 +43,7 @@ If the BizTalk Server databases become unavailable, the BizTalk Server environme
   
 -   When you create the domain groups for your BizTalk Server environment, you must create global domain accounts.  
   
--   Configure the SQL Server cluster before you install and configure BizTalk Server. See [Windows Server Failover Clustering (WSFC) with SQL Server](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/windows-server-failover-clustering-wsfc-with-sql-server) or [Always On Failover Cluster Instances (SQL Server)](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server).  
+-   Configure the SQL Server cluster before you install and configure BizTalk Server. See [Windows Server Failover Clustering (WSFC) with SQL Server](/sql/sql-server/failover-clusters/windows/windows-server-failover-clustering-wsfc-with-sql-server) or [Always On Failover Cluster Instances (SQL Server)](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server).  
   
 -   If you are also clustering the master secret server, configure that server first. See [High Availability for the Master Secret Server](../technical-guides/high-availability-for-the-master-secret-server.md).  
   

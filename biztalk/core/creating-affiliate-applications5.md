@@ -15,7 +15,8 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Create Affiliate Applications
+# Create Affiliate Applications for TIBCO EMS
+
 The following steps describe how to start using affiliate applications and Single Sign-On (SSO).  
   
 > [!NOTE]

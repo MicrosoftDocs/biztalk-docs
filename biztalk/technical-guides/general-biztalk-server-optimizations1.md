@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: General BizTalk Server Optimizations"
+description: "Learn how to increase BizTalk Server performance after it has been installed and configured."
 title: "General BizTalk Server Optimizations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -14,11 +14,13 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# BizTalk Server Optimizations
+# Optimizations for BizTalk Server
+
 The following recommendations can be used to increase BizTalk Server performance. The optimizations listed in this topic are applied after BizTalk Server has been installed and configured.
 
 ## Configure MSDTC
- To facilitate transactions between SQL Server and BizTalk Server, you must enable Microsoft Distributed Transaction Coordinator (MS DTC). To configure MSDTC on BizTalk Server, see the topic [General Guidelines for Improving Operating System Performance](../technical-guides/general-guidelines-for-improving-operating-system-performance.md).
+
+To facilitate transactions between SQL Server and BizTalk Server, you must enable Microsoft Distributed Transaction Coordinator (MS DTC). To configure MSDTC on BizTalk Server, see the topic [General Guidelines for Improving Operating System Performance](../technical-guides/general-guidelines-for-improving-operating-system-performance.md).
 
 ## Recommendations for configuring BizTalk Server hosts
  This section provides recommendations for configuring BizTalk Server hosts.

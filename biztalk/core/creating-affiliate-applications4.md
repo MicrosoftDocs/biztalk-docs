@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Creating Affiliate Applications"
+description: "Learn how to create and enable an affiliate application and create Single Sign-On (SSO) tickets."
 title: "Creating Affiliate Applications4 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -22,10 +22,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Create Affiliate Applications
+
 The following steps describe how to get started with affiliate applications using SSO.  
   
 > [!NOTE]
->  If you get SSO errors, verify that you used a domain account when you configured BizTalk Server, as this affects the function of the Enterprise SSO service. SSO only functions under a domain account.  
+> If you get SSO errors, verify that you used a domain account when you configured BizTalk Server, as this affects the function of the Enterprise SSO service. SSO only functions under a domain account.  
   
 ### To create an affiliate application  
   

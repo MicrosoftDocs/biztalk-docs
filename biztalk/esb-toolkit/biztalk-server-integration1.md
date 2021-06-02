@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: BizTalk Server Integration"
+description: "Learn how to install and configure the BizTalk Integration Point that links send ports and receive locations in the Microsoft BizTalk Server to the SOA Service Manager."
 title: "BizTalk Server Integration1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Server Integration Overview
+
 The SOA Service Manager provides wizards that help you set up the SOA Service Manager for use with Microsoft BizTalk Server. For example, Figure 1 shows the wizard that helps you install and configure the BizTalk Integration Point that links BizTalk Server send ports and receive locations to the SOA Service Manager.  
   
  ![SOA BizTalk Integration Point](../esb-toolkit/media/ch9-soabiztalkintegrationpoint.jpg "Ch9-SOABizTalkIntegrationPoint")  

@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Business Activity Monitoring View Wizard, New-Edit BAM View: View Items Page"
+description: "Learn how to use the New/Edit BAM View: View Items page to select the business milestones and data items to add to the Business Activity Monitoring (BAM) view."
 title: 'Business Activity Monitoring View Wizard, New-Edit BAM View: View Items Page2'
 TOCTitle: 'Business Activity Monitoring View Wizard, New-Edit BAM View: View Items Page'
 ms:assetid: 11a0775f-75de-430b-8c96-551fe6f61545
@@ -12,8 +12,6 @@ f1_keywords:
 ---
 
 # New-Edit BAM View: View Items Page in the Business Activity Monitoring View Wizard
-
- 
 
 Use the **New/Edit BAM View: View Items** page in the Business Activity Monitoring View Wizard to select the business milestones and data items to add to the Business Activity Monitoring (BAM) view.
 

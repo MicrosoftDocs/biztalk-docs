@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: EDI Support in BizTalk Server"
+description: "Learn about the Electronic Data Interchange (EDI) and how it is supported in BizTalk Server."
 title: "EDI Support in BizTalk Server1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,9 +16,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Overview of EDI Support in BizTalk Server
+
 This topic provides a brief general overview of EDI and how BizTalk Server supports EDI.  
   
-## Introduction to EDI  
+## Introduction to EDI
+  
  Electronic Data Interchange (EDI) is the single most commonly used means by which business trading partners exchange data electronically. EDI is largely messaging-oriented. Documents are implemented as flat files that can include batched transaction sets. Batched interchanges can contain multiple groups, each of which can contain multiple transaction sets or messages.  
   
  EDI consists of specific data interchange methods agreed upon by standards bodies. The primary EDI standards are X12 (standardized by ANSI and used primarily in North America) and EDIFACT (standardized by the United Nations and used primarily outside the U.S.). Other standards are derived from these, for example, HIPAA from X12 and KEDIFACT in Korea from EDIFACT. The standards are closely parallel in message structure and acknowledgment schemes, but have distinct differences.  
