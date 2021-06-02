@@ -14,7 +14,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# General BizTalk Server Optimizations
+# BizTalk Server Optimizations
 
 This section provides guidelines for improving BizTalk Server performance. The optimizations in this section are applied after BizTalk Server has been installed and configured.  
   

@@ -14,7 +14,7 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# General BizTalk Server Optimizations
+# General Optimizations for BizTalk Server
 
 The following recommendations can be used to increase [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performance. The optimizations listed in this topic are applied after [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has been installed and configured.
 
