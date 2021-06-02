@@ -14,11 +14,12 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# BizTalk Server Optimizations
+# General BizTalk Server Optimizations
+
 This section provides guidelines for improving BizTalk Server performance. The optimizations in this section are applied after BizTalk Server has been installed and configured.  
   
 ## In This Section  
   
--   [General BizTalk Server Optimizations2](../technical-guides/general-biztalk-server-optimizations2.md)  
+- [General BizTalk Server Optimizations2](../technical-guides/general-biztalk-server-optimizations2.md)  
   
--   [Low-Latency Scenario Optimizations1](../technical-guides/low-latency-scenario-optimizations1.md)
+- [Low-Latency Scenario Optimizations1](../technical-guides/low-latency-scenario-optimizations1.md)

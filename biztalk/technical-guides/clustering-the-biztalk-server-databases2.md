@@ -43,7 +43,7 @@ If the BizTalk Server databases become unavailable, the BizTalk Server environme
   
 -   When you create the domain groups for your BizTalk Server environment, you must create global domain accounts.  
   
--   Configure the SQL Server cluster before you install and configure BizTalk Server. See [Windows Server Failover Clustering (WSFC) with SQL Server](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/windows-server-failover-clustering-wsfc-with-sql-server) or [Always On Failover Cluster Instances (SQL Server)](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server).  
+-   Configure the SQL Server cluster before you install and configure BizTalk Server. See [Windows Server Failover Clustering (WSFC) with SQL Server](/sql/sql-server/failover-clusters/windows/windows-server-failover-clustering-wsfc-with-sql-server) or [Always On Failover Cluster Instances (SQL Server)](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server).  
   
 -   If you are also clustering the master secret server, configure that server first. See [High Availability for the Master Secret Server](../technical-guides/high-availability-for-the-master-secret-server.md).  
   
