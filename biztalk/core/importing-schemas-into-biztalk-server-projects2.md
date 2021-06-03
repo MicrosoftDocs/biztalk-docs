@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Importing Schemas into BizTalk Server Projects"
+description: "Learn how to import JD Edwards EnterpriseOne schemas into a BizTalk Server project."
 title: "Import JD Edwards EnterpriseOne schemas into Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,15 +16,16 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Importing Schemas into BizTalk Server Projects
+
 This section discusses browsing a JD Edwards EnterpriseOne server and importing the schemas into a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project.  
   
 > [!NOTE]
->  You must ensure that you set the arglist. You must update jdearglist.txt before you generate the schemas in the orchestration. For more information, see [Handling String Values](../core/handling-string-values2.md).  
+> You must ensure that you set the arglist. You must update jdearglist.txt before you generate the schemas in the orchestration. For more information, see [Handling String Values](../core/handling-string-values2.md).  
   
 > [!NOTE]
->  Each time that you change the jdearglist, you must regenerate the schemas for that business object.  
+> Each time that you change the jdearglist, you must regenerate the schemas for that business object.  
   
- After creating the JD Edwards EnterpriseOne port, you can browse JD Edwards EnterpriseOne by launching the Microsoft Adapter Wizard from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project.  
+After creating the JD Edwards EnterpriseOne port, you can browse JD Edwards EnterpriseOne by launching the Microsoft Adapter Wizard from a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project.  
   
 ## Import schemas into Visual Studio
   
@@ -59,10 +60,10 @@ This section discusses browsing a JD Edwards EnterpriseOne server and importing 
   Expanding an operation displays the input/output arguments. You can expand the input/output arguments to view the data types of the arguments.  
   
 > [!NOTE]
->  If the server object definitions change, you must regenerate the schema to refresh the data it contains.  
+> If the server object definitions change, you must regenerate the schema to refresh the data it contains.  
   
 > [!NOTE]
->  If you change jdearglist.txt after generating your schema, you must regenerate the schema to refresh the data it contains. For more information on jdearglist.txt, see [Handling String Values](../core/handling-string-values2.md).  
+> If you change jdearglist.txt after generating your schema, you must regenerate the schema to refresh the data it contains. For more information on jdearglist.txt, see [Handling String Values](../core/handling-string-values2.md).  
   
 ## Select the schemas  
   
@@ -73,15 +74,16 @@ This section discusses browsing a JD Edwards EnterpriseOne server and importing 
 3. Schemas generated for the selected JD Edwards EnterpriseOne items are imported into your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] project.  
   
 > [!NOTE]
->  When using AddressBook (N0100041) the field name is **cActionCode**. The action is part of the XML file itself. The codes are:  
+> When using AddressBook (N0100041) the field name is **cActionCode**. The action is part of the XML file itself. The codes are:  
   
--   A for Add  
+- A for Add  
   
--   C for Change  
+- C for Change  
   
--   D for Delete  
+- D for Delete  
   
--   I for Inquiry  
+- I for Inquiry  
   
 ## Next step
+
 [Use Message Context Properties](../core/using-message-context-properties1.md)

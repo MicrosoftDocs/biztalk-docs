@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Known Issues"
+description: "Learn about known issues with the Microsoft BizTalk Server that may help you avoid errors."
 title: "Known Issues2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Known Issues for BizTalk Server
+
 The following table lists all the known issues with the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack for Operations Manager 2007 R2/2012.  
   
 |Issue|Description|Resolution|  

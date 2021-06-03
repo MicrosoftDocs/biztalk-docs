@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Known Issues"
+description: "Learn about known issues with the Microsoft BizTalk Accelerator for SWIFT (A4SWIFT) that may help you avoid errors."
 title: "Known Issues5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,6 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Known Issues for Microsoft BizTalk Accelerator for SWIFT (A4SWIFT)
+
 This section contains useful information that may help you avoid errors with Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]. The known issues are grouped into the following areas:  
   
 ## Message Repair and New Submission

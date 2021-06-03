@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Avoid Disk Contention"
+description: "View a list of steps and suggestions for how to avoid disk contention between the MessageBox and BizTalk Tracking databases in a BizTalk Server system."
 title: "How to Avoid Disk Contention2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,10 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Avoid Disk Contention
+
 BizTalk Server is designed as a persistent system. For high throughput scenarios, the MessageBox and BizTalk Tracking databases can experience severe contention. This contention can be aggravated by slow disks. If the disks are slow (greater than 15ms on average for Avg. Disk sec/Read or Avg. Disk sec/Write), it may cause SQL Server to hold onto locks longer (high Lock Wait Time and high Lock Timeouts). This, in turn, can cause the MessageBox tables (Spool and Application Queues) to grow, causing database bloat and throttling. This situation ultimately results in lower overall sustainable throughput.
 
 > [!NOTE]
->  For information about identifying if a server has a disk bottleneck, see [Windows Performance Monitor](https://go.microsoft.com/fwlink/?LinkID=204007) (https://go.microsoft.com/fwlink/?LinkID=204007). Windows Performance Monitor is a Microsoft Management Console (MMC) snap-in that provides tools for analyzing system performance.
+> For information about identifying if a server has a disk bottleneck, see [Windows Performance Monitor](https://go.microsoft.com/fwlink/?LinkID=204007) (https://go.microsoft.com/fwlink/?LinkID=204007). Windows Performance Monitor is a Microsoft Management Console (MMC) snap-in that provides tools for analyzing system performance.
 
  To avoid disk contention, do the following:
 

@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Add a Fault Message"
+description: "Learn how to add a fault message in the Orchestration View of BizTalk Server."
 title: "How to Add a Fault Message2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -19,6 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Add a Fault Message
+
 When you create a port to the back-end system, it contains a request and a response. You must add a message so that you can assign it to the fault.  
   
 ### To add a fault message  
