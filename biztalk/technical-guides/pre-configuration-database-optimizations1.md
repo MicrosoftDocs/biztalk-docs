@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Pre-Configuration Database Optimizations"
+description: "Learn about the performance optimizations that should be made to Microsoft SQL Server before installing BizTalk Server and configuring the BizTalk Server databases."
 title: "Pre-Configuration Database Optimizations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,9 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Pre-Configuration for BizTalk Server Database Optimizations
+
 BizTalk Server is an extremely database-intensive application that may require the creation of up to 13 separate databases in Microsoft SQL Server. Because of the critical role that SQL Server plays in any BizTalk Server environment, it is of paramount importance that SQL Server is configured/tuned for optimal performance. If SQL Server is not tuned to perform well, then the databases used by BizTalk Server will become a bottleneck and the overall performance of the BizTalk Server environment will suffer. This topic describes several SQL Server performance optimizations that should be followed before installing BizTalk Server and configuring the BizTalk Server databases.
 
 ## Set NTFS File Allocation Unit
+
  SQL Server stores its data in **Extents**, which are groups of eight 8K pages. Therefore, to optimize disk performance, set the NTFS Allocation Unit size to 64KB as described in the “Disk Configuration Best Practices” section of the SQL Server best practices article “Predeployment I/O Best Practices” available at [https://go.microsoft.com/fwlink/?LinkId=140818](https://go.microsoft.com/fwlink/?LinkId=140818). For more information about SQL Server pages and extents see the SQL Server Books Online topic [Understanding Pages and Extents](https://go.microsoft.com/fwlink/?LinkId=148939) ( HYPERLINK "<https://go.microsoft.com/fwlink/?LinkId=148939>" <https://go.microsoft.com/fwlink/?LinkId=148939>).
 
 ## Database planning considerations

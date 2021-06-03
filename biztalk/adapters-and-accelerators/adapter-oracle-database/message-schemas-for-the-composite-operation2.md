@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Message Schemas for the Composite Operation"
+description: "Learn about the message schemas for composite operations used by the Microsoft BizTalk Adapter for Oracle Database."
 title: "Message Schemas for the Composite Operation2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,14 +16,16 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Composite Operation Message Schemas
+
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] enables you to execute composite operations on the Oracle database. A composite operation can contain multiple operations, and in any order. For information about which operations can be included in a composite operation, see [Run Composite Operations in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/run-composite-operations-in-oracle-database.md).  
   
  For information about how to perform composite operations using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Run Composite Operations on Oracle Database using BizTalk Server](../../adapters-and-accelerators/adapter-oracle-database/run-composite-operations-on-oracle-database-using-biztalk-server.md).  
   
-## Message Structure for the Composite Operation  
- Because a composite operation contains multiple individual operations; the message structure of a composite operation contains message structures of the individual operations. The composite operation message follows a request-response message exchange pattern.  
+## Message Structure for the Composite Operation
   
- The following table shows the structure of the request and response messages of a composite operation that contains an Insert operation, a packaged stored procedure that does not take any input parameters, and a Delete operation.  
+Because a composite operation contains multiple individual operations; the message structure of a composite operation contains message structures of the individual operations. The composite operation message follows a request-response message exchange pattern.  
+  
+The following table shows the structure of the request and response messages of a composite operation that contains an Insert operation, a packaged stored procedure that does not take any input parameters, and a Delete operation.  
   
 |Operation|XML Message|  
 |---------------|-----------------|  
@@ -46,8 +48,10 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] enables you to
   
  [PRM1_NAME] = The name of the Oracle parameter in the stored procedure.  
   
-## Message Action for the Composite Operation  
- The message action for the composite operation is “<http://Microsoft.LobServices.OracleDB/2007/03/CompositeOperation.”>  
+## Message Action for the Composite Operation
+
+The message action for the composite operation is “<http://Microsoft.LobServices.OracleDB/2007/03/CompositeOperation.”>  
   
-## See Also  
- [Messages and Message Schemas for BizTalk Adapter for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)
+## See Also
+  
+[Messages and Message Schemas for BizTalk Adapter for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Preparing to Use the Tutorial"
+description: "Learn how to create an ADT^A03.txt file as a prerequisite to using the A4SWIFT adapter end-to-end tutorial."
 title: "Preparing to Use the Tutorial2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -18,6 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Prepare to Use the Tutorial
+
 Before you use the tutorial, you need to create an ADT^A03.txt file.  
   
 ### To create the ADT^A03.txt file  
@@ -38,7 +39,7 @@ Before you use the tutorial, you need to create an ADT^A03.txt file.
    ```  
   
    > [!NOTE]
-   >  There should be five lines in the .txt file, one each starting with "MSH", "EVN", "PID", "PD1", and "PV1". You will need to remove the spaces within the "PID" line and the "PD1" line. If necessary, turn off word wrap in Notepad.  
+   > There should be five lines in the .txt file, one each starting with "MSH", "EVN", "PID", "PD1", and "PV1". You will need to remove the spaces within the "PID" line and the "PD1" line. If necessary, turn off word wrap in Notepad.  
   
 2. Save the file as **ADT^A03.txt** in the \<*drive*\>:\Program Files\\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial folder, and then close Notepad.  
   

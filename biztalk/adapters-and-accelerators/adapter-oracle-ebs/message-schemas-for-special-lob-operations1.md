@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Message Schemas for Special LOB Operations"
+description: "Learn about the message schemas for the special LOB operations Read_<LOBColName> and Update_<LOBColName>."
 title: "Message Schemas for Special LOB Operations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,15 +16,17 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Message Schemas for Special LOB Operations
+
 The Read_\<LOBColName\> and Update_\<LOBColName\> operations are surfaced for tables and views that contain LOB columns, where \<LOBColName\> is the LOB column in the table or view. These operations enable you to read or write the LOB data as a stream of base64Binary-encoded data. They operate on a single column of LOB data in a single row.  
   
  For an overview of the Read_\<LOBColName\> and Update_\<LOBColName\> operations and of the Oracle LOB data types supported, see [Operations on Interface Tables, Interface Views, Tables, and Views That Contain LOB Data](../../adapters-and-accelerators/adapter-oracle-ebs/read-and-update-on-interface-tables-and-views-with-large-object-data-types.md).  
   
-## Message Structure of LOB Data-Type Operations  
- The following table shows the structure of the request and response messages for the Read_\<LOBColName\> and Update_\<LOBColName\> operations. The target table for the operation is specified in the message action and also appears in the target namespace.  
+## Message Structure of LOB Data-Type Operations
+  
+The following table shows the structure of the request and response messages for the Read_\<LOBColName\> and Update_\<LOBColName\> operations. The target table for the operation is specified in the message action and also appears in the target namespace.  
   
 > [!NOTE]
->  See entity descriptions after the table.  
+> See entity descriptions after the table.  
   
 |           Operation            |                                                                                  XML Message                                                                                  |                                                                                                                                                                                                                                                              Description                                                                                                                                                                                                                                                              |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

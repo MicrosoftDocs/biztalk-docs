@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Message Schemas for Special LOB Operations"
+description: "Learn about the message schemas for the ReadLOB and UpdateLOB operations that enable you to read or write the LOB data as a stream of base64Binary-encoded data."
 title: "Message Schemas for Special LOB Operations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -19,12 +19,14 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Special LOB Operations Message Schemas
+
 The ReadLOB and UpdateLOB operations are surfaced for tables and views that contain LOB columns; that is columns that are used to store Oracle large object (LOB) data. These operations enable you to read or write the LOB data as a stream of base64Binary-encoded data. They operate on a single column of LOB data in a single row.  
 
  For an overview of the ReadLOB and UpdateLOB operations and of the Oracle LOB data types supported, see [Operations on tables and views that contain LOB data in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/operations-on-tables-and-views-that-contain-lob-data-in-oracle-database.md).  
 
-## Message Structure of LOB Data-Type Operations  
- The following table shows the structure of the request and response messages for the ReadLOB and UpdateLOB operations. The target table for the operation is specified in the message action and also appears in the target namespace.  
+## Message Structure of LOB Data-Type Operations
+  
+The following table shows the structure of the request and response messages for the ReadLOB and UpdateLOB operations. The target table for the operation is specified in the message action and also appears in the target namespace.  
 
 
 |     Operation      |                                                                                    XML Message                                                                                     |                                                                                                                                                                                                                                                                                                                                Description                                                                                                                                                                                                                                                                                                                                 |

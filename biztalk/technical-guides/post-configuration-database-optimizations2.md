@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Post-Configuration Database Optimizations"
+description: "Learn more about optimizing BizTalk Server database performance on SQL Server after BizTalk Server has been installed and the BizTalk Server databases have been configured."
 title: "Post-Configuration Database Optimizations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,9 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Post-Configuration Database Optimizations
+
 In addition to following the recommendations in [Pre-Configuration Database Optimizations2](../technical-guides/pre-configuration-database-optimizations2.md), several steps should be followed to optimize BizTalk Server database performance on SQL Server *after* BizTalk Server has been installed and the BizTalk Server databases have been configured. This topic provides a list of these optimizations.
 
 ## Consider setting the 'text in row' table option on specific MessageBox database tables
+
  SQL Server provides a table option called **text in row** to declare that the contents of the fields of type **text**, **ntext**, or **image** data whose dimensions are smaller than those of a data page (8Kb) must be stored in a data row. By setting this option on BizTalkMsgBoxDb tables (Parts table, Spool table and DynamicStateInfo Tables) , you can increase message throughput when working with small messages which have a small context and orchestrations that have a small persistence size.
 
 - **Parts Table**: When the message size is smaller than the dimensions of a data page that are of 8kb, applying the **text in row** table option on the Parts table can lead to BizTalk Server performance improvement. The Parts table contains the following fields:

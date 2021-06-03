@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations"
+description: "Learn about the message schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar operations used by the Microsoft BizTalk Adapter for SQL Server."
 title: "Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,6 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
+
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the ExecuteNonQuery, ExecuteReader, and ExecuteScalar outbound operations at the root level to execute any arbitrary SQL statements in SQL Server.
 
  For more information about:
@@ -25,7 +26,8 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the ExecuteN
 - Performing these operations using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see [ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations in SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/executereader-executescalar-or-executenonquery-in-sql-server-using-biztalk.md).
 
 ## Message Structure for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
- The messages in these operations follow a request-response message exchange pattern, and the following table shows the structure of these request and response messages.
+
+The messages in these operations follow a request-response message exchange pattern, and the following table shows the structure of these request and response messages.
 
 |Operation|XML Message|Description|
 |---------------|-----------------|-----------------|
@@ -39,7 +41,8 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the ExecuteN
  [PL/SQL STATEMENT] = The entire PL/SQL statement to be executed.
 
 ## Message Action for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
- The following table shows the message actions that are used by the ExecuteNonQuery, ExecuteReader, and ExecuteScalar operations.
+
+The following table shows the message actions that are used by the ExecuteNonQuery, ExecuteReader, and ExecuteScalar operations.
 
 |Operation|Action|
 |---------------|------------|
@@ -51,4 +54,5 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the ExecuteN
 |ExecuteScalar Response|GenericOp/ExecuteScalar/response|
 
 ## See Also
- [Messages and Message Schemas for BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md)
+
+[Messages and Message Schemas for BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md)

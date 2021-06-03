@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Pre-Configuration Database Optimizations"
+description: "Learn more about the performance optimizations that should be made to Microsoft SQL Server before installing BizTalk Server and configuring the BizTalk Server databases."
 title: "Pre-Configuration Database Optimizations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,10 +15,12 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Pre-Configuration Database Optimizations
+
 Because of the critical role that SQL Server plays in any BizTalk Server environment, it is of paramount importance that SQL Server be configured/tuned for optimal performance. If SQL Server is not tuned to perform well, then the databases used by BizTalk Server will become a bottleneck and the overall performance of the BizTalk Server environment will suffer. This topic describes several SQL Server performance optimizations that should be followed before installing BizTalk Server and configuring the BizTalk Server databases.  
   
-## Set NTFS File Allocation Unit  
- SQL Server stores its data in **Extents**, which are collections of eight physically contiguous 8K pages, or 64 KB. Therefore, to optimize disk performance, set the NTFS Allocation Unit size to 64KB as described in the “Disk Configuration Best Practices” at  [Predeployment I/O Best Practices](https://msdn.microsoft.com/library/cc966412.aspx).  
+## Set NTFS File Allocation Unit
+  
+SQL Server stores its data in **Extents**, which are collections of eight physically contiguous 8K pages, or 64 KB. Therefore, to optimize disk performance, set the NTFS Allocation Unit size to 64KB as described in the “Disk Configuration Best Practices” at  [Predeployment I/O Best Practices](https://msdn.microsoft.com/library/cc966412.aspx).  
   
 ## Considerations for the version and edition of SQL Server  
  Various versions and editions of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] provide different features that can affect the performance of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment. For example, under high-load conditions, the number of database locks that are available for the 32-bit version of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] might be exceeded, which is detrimental to the performance of the BizTalk solution. Consider housing your MessageBox database on a 64-bit version of SQL Server if you are experiencing "out of lock" errors in your test environment. The number of available locks is significantly higher on the 64-bit version of SQL Server.  

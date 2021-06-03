@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Planning for High Availability"
+description: "Learn how to plan for high availability by recovering functional components that might disrupt availability in a BizTalk Server deployment."
 title: "Planning for High Availability2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Planning for High Availability
+
 High availability for BizTalk Server focuses on recovering functional components that might disrupt availability in a BizTalk Server deployment.  
   
  To demonstrate high availability in BizTalk Server, you have to cause a failure and measure the product's effectiveness in recovery. A highly available BizTalk Server deployment makes errors and failures transparent to external applications and systems, and ensures that all services continue functioning correctly with minimal disruption.  
@@ -36,7 +37,8 @@ High availability for BizTalk Server focuses on recovering functional components
   
 - **[Failover Clustering in Windows Server](https://docs.microsoft.com/windows-server/failover-clustering/failover-clustering-overview)**
   
-## Understanding the Impact of a Component Failure  
+## Understanding the Impact of a Component Failure
+  
  The following table lists the components and dependencies of a BizTalk Server environment and the impact on the BizTalk Server environment if the component or dependency fails. You should consider the scope of a potential failure when deciding whether to cluster a component or dependency.  
   
 |Component or dependency|Scope of failure|  
@@ -50,10 +52,12 @@ High availability for BizTalk Server focuses on recovering functional components
   
  To be able to better manage a highly available BizTalk Server system, you must have a good understanding of the BizTalk stack: Windows Server, DC (DNS, DHCP), BizTalk Server, SQL Server, IIS server, File server, MSMQ server, external applications. This section focuses on the high availability of BizTalk Server and the dependent SQL Server computer.  
   
-## BizTalk Server High-Availability Examples  
+## BizTalk Server High-Availability Examples
+  
  For sample scenarios in Microsoft BizTalk Server that provide high availability through scaled-out tiers of hosts, see [Sample BizTalk Server High Availability Scenarios](../core/sample-biztalk-server-high-availability-scenarios.md).
   
-## See Also  
+## See Also
+ 
  [High Availability for BizTalk Hosts](../technical-guides/high-availability-for-biztalk-hosts.md)   
  [High Availability for Databases](../technical-guides/high-availability-for-databases.md)   
  [High Availability for the Master Secret Server](../technical-guides/high-availability-for-the-master-secret-server.md)   

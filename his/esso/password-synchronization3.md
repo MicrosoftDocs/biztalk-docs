@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Password Synchronization"
+description: "Learn about Password Synchronization, that is used to simplify the administration of the Single Sign-On (SSO) credential database."
 title: "Password Synchronization3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,6 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Password Synchronization
+
 The purpose of Password Synchronization is to simplify administration of the Single Sign-On (SSO) credential database, and to keep passwords in sync across user directories. You can accomplish these two tasks by using password synchronization adapters. The topics in this section describe the command-line utility for creating and managing those adapters.  
   
  There are three types of password synchronization sub-features.  
@@ -27,10 +28,10 @@ The purpose of Password Synchronization is to simplify administration of the Sin
   
 ## In This Section  
   
--   [Installing Password Synchronization](../esso/installing-password-synchronization.md)  
+- [Installing Password Synchronization](../esso/installing-password-synchronization.md)  
   
--   [Administering Password Synchronization](../esso/administering-password-synchronization.md)  
+- [Administering Password Synchronization](../esso/administering-password-synchronization.md)  
   
--   [Configuring Password Synchronization](../esso/configuring-password-synchronization.md)  
+- [Configuring Password Synchronization](../esso/configuring-password-synchronization.md)  
   
--   [Managing Password Synchronization](../esso/managing-password-synchronization.md)
+- [Managing Password Synchronization](../esso/managing-password-synchronization.md)
