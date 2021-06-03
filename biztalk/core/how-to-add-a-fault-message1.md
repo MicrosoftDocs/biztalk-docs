@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Add a Fault Message"
+description: "Learn how to add a fault message to a port in the back-end system of a BizTalk Server to capture exceptions."
 title: "How to Add a Fault Message1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

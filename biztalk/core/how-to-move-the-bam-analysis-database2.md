@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Move the BAM Analysis Database"
+description: "Learn how to move the Business Activity Monitoring (BAM) Analysis database to another server."
 title: "How to Move the BAM Analysis Database2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -19,6 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Move the BAM Analysis Database
+
 You can use this procedure to move the BAM Analysis database to another server.  
   
 ## Prerequisites  

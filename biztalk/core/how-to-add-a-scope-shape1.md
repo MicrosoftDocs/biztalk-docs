@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Add a Scope Shape"
+description: "Learn how to add a Scope shape for exception handling in BizTalk Server."
 title: "How to Add a Scope Shape1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -21,6 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Add a Scope Shape
+
 Follow these steps to add a Scope shape.  
   
 ### To add a Scope Shape  

@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Add a Scope Shape"
+description: "Learn how to add a Scope shape that contains an exception handler to the ReceiveFromIn port in BizTalk Server."
 title: "How to Add a Scope Shape4 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

@@ -1,5 +1,5 @@
 ---
-description: "Learn how to setup an exception handler by attaching a Catch Exception block to the end of a Scope shape in the BizTalk ServerOrchestration Designer."
+description: "Learn how to setup an exception handler by attaching a Catch Exception block to the end of a Scope shape in the BizTalk Server Orchestration Designer."
 title: "How to Add a Catch Exception Block4 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"

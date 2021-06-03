@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Move the BAM Star Schema Database"
+description: "Learn how to move the Business Activity Monitoring (BAM) Star Schema database to another server and update the references to the new BAM Star Schema database."
 title: "How to Move the BAM Star Schema Database2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,14 +15,16 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Move the BAM Star Schema Database
+
 You can use this procedure to move the BAM Star Schema database to another server.  From an end-to-end scenario perspective, moving the BAM Star Schema database involves two major steps:
 
--   [Moving the BAM Star Schema Database](../technical-guides/how-to-move-the-bam-star-schema-database2.md#BKMK_StarMoveDB)
+- [Moving the BAM Star Schema Database](../technical-guides/how-to-move-the-bam-star-schema-database2.md#BKMK_StarMoveDB)
 
--   [Updating References to the New BAM Star Schema Database](../technical-guides/how-to-move-the-bam-star-schema-database2.md#BKMK_StarUpdate)
+- [Updating References to the New BAM Star Schema Database](../technical-guides/how-to-move-the-bam-star-schema-database2.md#BKMK_StarUpdate)
 
 ## Prerequisites
- You must be logged on with an account that is a member of the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] sysadmin fixed server role to perform this procedure.
+
+You must be logged on with an account that is a member of the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] sysadmin fixed server role to perform this procedure.
 
 ##  <a name="BKMK_StarMoveDB"></a> Moving the BAM Star Schema Database
  Perform the steps in the following procedure to move the BAM Star Schema database.

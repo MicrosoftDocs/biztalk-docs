@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Move the BAM Analysis Database"
+description: "Learn how to move the Business Activity Monitoring (BAM) Analysis database to another server and update the references to the new BAM Analysis database."
 title: "How to Move the BAM Analysis Database1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Move the BAM Analysis Database
+
 You can use this procedure to move the BAM Analysis database to another server.  From an end-to-end scenario perspective, moving the BAM Analysis database involves two major steps:
 
 -   [Moving the BAM Analysis Database](../technical-guides/how-to-move-the-bam-analysis-database1.md#BKMK_AnalyMoveDB)

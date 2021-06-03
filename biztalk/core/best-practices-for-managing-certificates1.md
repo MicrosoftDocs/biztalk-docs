@@ -65,6 +65,7 @@ This section provides best practices for managing certificates in your [!INCLUDE
   
    Before removing a host instance from a BizTalk server, remove the certificates in the personal store of the account under which the host instance is running.  
   
-## See Also  
- [Managing BizTalk Server Security](../core/managing-biztalk-server-security.md)   
- [Best Practices for Managing Windows Groups and User Accounts](../core/best-practices-for-managing-windows-groups-and-user-accounts.md)
+## See Also
+
+- [Managing BizTalk Server Security](../core/managing-biztalk-server-security.md)   
+- [Best Practices for Managing Windows Groups and User Accounts](../core/best-practices-for-managing-windows-groups-and-user-accounts.md)

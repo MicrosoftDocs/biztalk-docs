@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Create a Send Port"
+description: "Learn how to create BizTalk Server send ports for JD Edwards EnterpriseOne."
 title: "How to Create a Send Port1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -19,6 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Create Send Ports
+
 Use the following procedure to create BizTalk Server send ports for JD Edwards EnterpriseOne.  
   
 ### To create a send port  
@@ -49,6 +50,7 @@ Use the following procedure to create BizTalk Server send ports for JD Edwards E
   
      Click **OK** to confirm the information you entered.  
   
-## See Also  
- [Creating Affiliate Applications](../core/creating-affiliate-applications4.md)   
- [Security in BizTalk Adapter for JD Edwards EnterpriseOne](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)
+## See Also
+  
+- [Creating Affiliate Applications](../core/creating-affiliate-applications4.md)   
+- [Security in BizTalk Adapter for JD Edwards EnterpriseOne](../core/security-in-biztalk-adapter-for-jd-edwards-enterpriseone.md)

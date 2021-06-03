@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Move the BAM Notification Services Databases"
+description: "Learn how to move the Business Activity Monitoring (BAM) Notification Services database to another server."
 title: "How to Move the BAM Notification Services Databases2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,10 +20,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Move the BAM Notification Services Databases
+
 You can use this procedure to move the BAM Notification Services databases to another server.  
   
 > [!NOTE]
->  You must move the BAM Notification Services Application (BAMAlertsApplication) database and BAM Notification Services Instance (BAMAlertsNSMain) database together.  
+> You must move the BAM Notification Services Application (BAMAlertsApplication) database and BAM Notification Services Instance (BAMAlertsNSMain) database together.  
   
 ## Prerequisites  
  You must be logged on with an account that is a member of the SQL Server sysadmin fixed server role to perform this procedure.  

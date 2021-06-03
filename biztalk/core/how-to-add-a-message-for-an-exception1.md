@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Add a Message for an Exception"
+description: "Learn how to add a message for exception handling in BizTalk Server."
 title: "How to Add a Message for an Exception1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,6 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Add a Message for an Exception
+
 The following topic describes how to add a message for an exception.  
   
 ### To add a message for an exception  

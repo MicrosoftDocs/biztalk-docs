@@ -1,5 +1,5 @@
 ---
-description: "Learn how to add a Catch Exception block to a Scope shape in the BizTalk ServerOrchestration Designer."
+description: "Learn how to add a Catch Exception block to a Scope shape in the BizTalk Server Orchestration Designer."
 title: "How to Add a Catch Exception Block5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
