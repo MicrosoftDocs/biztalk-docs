@@ -33,9 +33,9 @@ High availability for BizTalk Server focuses on recovering functional components
   
   This section provides information about how to address high availability in each of these categories. Because a BizTalk Server high availability solution is built on Windows and SQL Server, make sure that you deploy these products with high availability before configuring hosts for BizTalk Server. The following links include information about providing high availability for these underlying products:  
   
-- **High Availability Solutions (SQL Server)](https://docs.microsoft.com/sql/sql-server/failover-clusters/high-availability-solutions-sql-server)**  
+- **High Availability Solutions (SQL Server)](/sql/sql-server/failover-clusters/high-availability-solutions-sql-server)**  
   
-- **[Failover Clustering in Windows Server](https://docs.microsoft.com/windows-server/failover-clustering/failover-clustering-overview)**
+- **[Failover Clustering in Windows Server](/windows-server/failover-clustering/failover-clustering-overview)**
   
 ## Understanding the Impact of a Component Failure
   

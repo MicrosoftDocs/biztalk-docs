@@ -27,7 +27,7 @@ SQL Server stores its data in **Extents**, which are collections of eight physic
   
  Consider the following table when deciding on the database engine features that you will need for your BizTalk environment. For large scale, enterprise-level solutions that require clustering support, BizTalk Server log shipping support, or Analysis Services support, then you need SQL Server Enterprise Edition to host the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] databases.   
 
- For a complete list of the features supported by the SQL Server editions, see [SQL Server Editions and supported features](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016).
+ For a complete list of the features supported by the SQL Server editions, see [SQL Server Editions and supported features](/sql/sql-server/editions-and-components-of-sql-server-2016).
   
 ## Database planning considerations  
  We recommend that you host your SQL Server databases on fast storage (for example, fast SAN disks or fast SCSI disks). We recommend RAID 10 (1+0) instead of RAID 5 since raid 5 is slower at writing. Newer SAN disks have very large memory caches, so in these cases the raid selection is not as important. To increase performance, databases and their log files can reside on different physical disks.  
@@ -49,13 +49,13 @@ SQL Server stores its data in **Extents**, which are collections of eight physic
 ## Grant the account which is used for SQL Server the Windows Lock Pages In Memory privilege  
  Grant the Windows Lock Pages in Memory privilege to the SQL Server service account. This should be done to prevent the Windows operating system from paging out the buffer pool memory of the SQL Server process by locking memory that is allocated for the buffer pool in physical memory.  
   
- In our lab environment, the Windows policy **Lock Pages in Memory** option was enabled by default. See [Enable the Lock Pages in Memory Option](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows).  
+ In our lab environment, the Windows policy **Lock Pages in Memory** option was enabled by default. See [Enable the Lock Pages in Memory Option](/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows).  
   
 > [!IMPORTANT]  
 >  Certain limitations apply when granting the SQL Server service account the Windows Lock Pages in Memory privilege. See the following: 
 >   
-> - [Buffer Pool Extension](https://docs.microsoft.com/sql/database-engine/configure-windows/buffer-pool-extension)  
-> - [Enable the Lock Pages in Memory Option](https://docs.microsoft.com/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows)  
+> - [Buffer Pool Extension](/sql/database-engine/configure-windows/buffer-pool-extension)  
+> - [Enable the Lock Pages in Memory Option](/sql/database-engine/configure-windows/enable-the-lock-pages-in-memory-option-windows)  
   
 ## Grant the SE_MANAGE_VOLUME_NAME right to the SQL Server Service Account  
  Ensure the account running the SQL Server service has the ‘Perform Volume Maintenance Tasks’ Windows privilege or ensure it belongs to a group that does. This will allow instant file Initialization ensuring optimum performance if a database has to Auto-grow.  
@@ -163,7 +163,7 @@ ALTER SERVER CONFIGURATION
 SET PROCESS AFFINITY CPU = 0 to 15  
 ```  
   
- For more information, see [ALTER SERVER CONFIGURATION (Transact-SQL)](https://docs.microsoft.com/sql/t-sql/statements/alter-server-configuration-transact-sql).
+ For more information, see [ALTER SERVER CONFIGURATION (Transact-SQL)](/sql/t-sql/statements/alter-server-configuration-transact-sql).
   
 ## Configure MSDTC  
  To facilitate transactions between SQL Server and BizTalk Server, you must enable Microsoft Distributed Transaction Coordinator (MS DTC). To configure MSDTC on SQL Server, see the topic [General Guidelines for Improving Operating System Performance](../technical-guides/general-guidelines-for-improving-operating-system-performance.md).  
