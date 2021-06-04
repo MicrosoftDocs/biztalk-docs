@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Release Notes"
+description: "Learn about the most important issues in Microsoft Host Integration Server (HIS) 2020."
 title: "Release Notes for Host Integration Server (HIS) 2020| Microsoft Docs"
 ms.custom: ""
 ms.date: "04/16/2021"

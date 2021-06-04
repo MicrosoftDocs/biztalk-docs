@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Running SSO Projects"
+description: "Learn how to run Single Sign-On (SSO) projects from Internet Explorer."
 title: "Run SSO Projects with TIBCO EMS | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,6 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Run Single Sign-On (SSO) Projects
+
 You can run a sample Single Sign-On (SSO) project from Internet Explorer.  
   
 ## Run a sample from a web browser
@@ -28,5 +29,6 @@ You can run a sample Single Sign-On (SSO) project from Internet Explorer.
   
     In this case, you do not need to provide the credentials.  
   
-## See Also  
- [Using Single Sign-On](../core/using-single-sign-on4.md)
+## See Also
+  
+[Using Single Sign-On](../core/using-single-sign-on4.md)

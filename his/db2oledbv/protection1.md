@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Protection"
+description: "Learn about the supported standards for IBM DB2 protection, including encryption standards and configuring for protection."
 title: "Protection1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,10 +15,12 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Protection
+
 This topic describes supported standards for DB2 protection.  
   
-## Encryption standards for DB2  
- The following table describes supported encryption standards for DB2.  
+## Encryption standards for DB2
+  
+The following table describes supported encryption standards for DB2.  
   
 |Encryption|Authentication|Data|  
 |----------------|--------------------|----------|  

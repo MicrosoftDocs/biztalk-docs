@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Requirements for Single Sign-On"
+description: "Learn about the prerequisites for Single Sign-On (SSO) and how to enable it."
 title: "SSO Requirements for TIBCO Rendevous adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -18,17 +18,18 @@ manager: "anneta"
 # Single Sign-On Requirements
 
 ## Prerequisites
+
 To use Single Sign-On (SSO), you must have the following:  
   
--   Microsoft BizTalk Server
+- Microsoft BizTalk Server
   
--   Visual Studio  
+- Visual Studio  
   
--   Enterprise Single Sign-On  
+- Enterprise Single Sign-On  
   
--   A server system that supports SSO  
+- A server system that supports SSO  
   
--   The isolated host should be configured as Authentication Trusted.  
+- The isolated host should be configured as Authentication Trusted.  
   
 ## Enable SSO  
   
@@ -39,7 +40,8 @@ To use Single Sign-On (SSO), you must have the following:
    For more information, see [Creating Affiliate Applications](../core/creating-affiliate-applications1.md).  
   
 > [!NOTE]
->  After performing work using SSO, remember to reset any Web-Sharing folder to **Do not share**. Applications that use that folder will not update or uninstall correctly if the folder is shared because it is considered to be in use.  
+> After performing work using SSO, remember to reset any Web-Sharing folder to **Do not share**. Applications that use that folder will not update or uninstall correctly if the folder is shared because it is considered to be in use.  
   
-## See Also  
+## See Also
+  
 [Security](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)

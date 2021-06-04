@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Requirements for Single Sign-On"
+description: "Learn about the requirements for using Single Sign-On (SSO) in the Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS)."
 title: "SSO requirements for TIBCO EMS adapter | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -18,9 +18,10 @@ manager: "anneta"
 # Requirements for Single Sign-On
 
 ## Overview
+
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) provides Single Sign-On (SSO) support. An affiliate application created by Enterprise Single Sign-On tools represents a server system such as TIBCO EMS.  
   
- To use Single Sign-On, you must have:  
+To use Single Sign-On, you must have:  
   
 - Microsoft BizTalk Server
   
@@ -34,14 +35,15 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) provides Si
   
 ## Enable SSO  
   
-1.  In the **Transport Properties** window, select **Yes** for **Use SSO**.  
+1. In the **Transport Properties** window, select **Yes** for **Use SSO**.  
   
-2.  Select an appropriate affiliate application when specifying transport properties.  
+2. Select an appropriate affiliate application when specifying transport properties.  
   
-     For information about how to create an affiliate application, see [Creating Affiliate Applications](../core/creating-affiliate-applications5.md).  
+    For information about how to create an affiliate application, see [Creating Affiliate Applications](../core/creating-affiliate-applications5.md).  
   
     > [!NOTE]
-    >  After performing work using SSO, remember to reset any Web-Sharing folder to **Do not share**. Applications that use that folder will not update or uninstall correctly if the folder is shared because it is considered to be in use.  
+    > After performing work using SSO, remember to reset any Web-Sharing folder to **Do not share**. Applications that use that folder will not update or uninstall correctly if the folder is shared because it is considered to be in use.  
   
-## See Also  
+## See Also
+  
 [Secure the adapter](../core/security-in-biztalk-adapter-for-tibco-ems.md)

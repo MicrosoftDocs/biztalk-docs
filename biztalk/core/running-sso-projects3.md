@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Running SSO Projects"
+description: "Learn how to run a Single Sign-On (SSO) project from Internet Explorer using a sample."
 title: "Running SSO Projects3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -21,6 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Running SSO Projects
+
 You can run a sample Single Sign-On (SSO) project from Internet Explorer.  
   
 ## Running a Sample from Internet Explorer  
@@ -35,5 +36,6 @@ You can run a sample Single Sign-On (SSO) project from Internet Explorer.
   
     In this case, you do not need to provide the credentials.  
   
-## See Also  
- [Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)
+## See Also
+  
+[Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Running Orchestrations"
+description: "Learn how to build, deploy, bind, start and stop orchestrations in BizTalk Server."
 title: "Running Orchestrations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -27,6 +27,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Run Orchestrations
+
 The following procedures describe how to build, deploy, bind, and start an orchestration.  
   
 ## Creating a Strong Name Key  
@@ -90,5 +91,6 @@ The following procedures describe how to build, deploy, bind, and start an orche
   
     To change the status to **Running** and click **Refresh**, or right-click the host instance and then click **Refresh**.  
   
-## See Also  
+## See Also
+  
  [Secure the adapter](../core/security-in-biztalk-adapter-for-peoplesoft-enterprise.md)
