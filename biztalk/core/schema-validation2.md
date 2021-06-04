@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Schema Validation"
+description: "Learn how the Electronic Data Interchange (EDI) send and receive pipelines use schemas to validate a message in BizTalk Server."
 title: "Schema Validation2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,6 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Schema Validation
+
 The EDI receive pipeline and EDI send pipeline validate a message using the following schemas:  
   
 - **Envelope validation**: Service schema in `Microsoft.BizTalk.Edi.BaseArtifacts.dll` in [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]  
@@ -34,5 +35,6 @@ The EDI receive pipeline and EDI send pipeline validate a message using the foll
   
   When the EDI send pipeline creates a message to send, it uses agreement properties to populate the envelope, and then performs schema validation of the information in the transaction set. After loading the schema, the send pipeline validates the schema against agreement properties (or fallback agreement if no agreement has been designated). If the schema validates, the pipeline validates the transaction set against the schema.  
   
-## See Also  
+## See Also
+  
  [EDI Message Validation](../core/edi-message-validation.md)

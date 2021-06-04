@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Step 2: Create the Orchestration"
+description: "Learn how to setup and create a BizTalk orchestration for the J.D. Edwards EnterpriseOne system."
 title: "Step 2: Create the Orchestration2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,6 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 2: Create the Orchestration
+
 The orchestration setup is as follows using a project called BeginDocTest:  
   
  • Ports  
@@ -32,12 +33,12 @@ The orchestration setup is as follows using a project called BeginDocTest:
   
 ## In This Section  
   
--   [Task 1: Create the Ports](../core/task-1-create-the-ports1.md)  
+- [Task 1: Create the Ports](../core/task-1-create-the-ports1.md)  
   
--   [Task 2: Create the Messages](../core/task-2-create-the-messages2.md)  
+- [Task 2: Create the Messages](../core/task-2-create-the-messages2.md)  
   
--   [Task 3: Configure the Send and Receive Shapes](../core/task-3-configure-the-send-and-receive-shapes2.md)  
+- [Task 3: Configure the Send and Receive Shapes](../core/task-3-configure-the-send-and-receive-shapes2.md)  
   
--   [Task 4: Configure the Construct Message Shape](../core/task-4-configure-the-construct-message-shape1.md)  
+- [Task 4: Configure the Construct Message Shape](../core/task-4-configure-the-construct-message-shape1.md)  
   
--   [Task 5: Configure the Transform Shape](../core/task-5-configure-the-transform-shape2.md)
+- [Task 5: Configure the Transform Shape](../core/task-5-configure-the-transform-shape2.md)

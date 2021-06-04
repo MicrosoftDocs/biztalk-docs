@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Task 5: Configure the Transform Shape"
+description: "Learn how to configure a Transform shape for BizTalk Server."
 title: "Task 5: Configure the Transform Shape1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,6 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Task 5: How to Configure the Transform Shape
+
 Use the following procedure to configure the Transform shape.  
   
 ### To configure the Transform shape  
@@ -36,11 +37,11 @@ Use the following procedure to configure the Transform shape.
   
 2. Double-click **Transform_1** to open.  
   
-   1.  Select Source and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
+   1. Select Source and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
   
         ![Shows where to select BeginDocResponseMsg.](../core/media/jde-transform-source.gif "JDE_transform_source")  
   
-   2.  Select **Destination** and click in the Add row under **Variable Name**, select **EditLineMsg**, and click **OK**.  
+   2. Select **Destination** and click in the Add row under **Variable Name**, select **EditLineMsg**, and click **OK**.  
   
         ![Shows where to select EditLineMsg.](../core/media/jde-transform-destination.gif "JDE_transform_destination")  
   
@@ -60,7 +61,7 @@ Use the following procedure to configure the Transform shape.
   
      ![Shows a hardcoded mapping example.](../core/media/jde-hardcoded-mapping-example.gif "JDE_hardcoded_mapping_example")  
   
-   ```  
+   ```xml  
    <?xml version="1.0" encoding="utf-8"?>  
    <ns0:F4211FSEditLine xmlns:ns0="http://schemas.microsoft.com/  
          [JDE://CSALES/B4200310]">  
@@ -86,9 +87,9 @@ Use the following procedure to configure the Transform shape.
   
 5. Double-click **Transform_2** to open.  
   
-   1.  Select **Source** and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
+   1. Select **Source** and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
   
-   2.  Select **Destination** and click in the Add row under **Variable Name**, select **EndDocMsg**, and click **OK**.  
+   2. Select **Destination** and click in the Add row under **Variable Name**, select **EndDocMsg**, and click **OK**.  
   
 6. In the Solution Explorer, double-click **Transform_2.btm** to open the mapping tool. Link the following four items:  
   
@@ -102,7 +103,7 @@ Use the following procedure to configure the Transform shape.
   
      For ease of use, this example has hardcoded values. Click the item in the Destination Schema and set the following Value.  
   
-   ```  
+   ```xml  
    <?xml version="1.0" encoding="utf-8"?>  
    <ns0:F4211FSEndDoc xmlns:ns0="http://schemas.microsoft.com/  
        [JDE://CSALES/B4200310]">  

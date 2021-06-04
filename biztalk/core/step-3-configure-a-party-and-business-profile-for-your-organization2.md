@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Step 3: Configure a Party and Business Profile for Your Organization"
+description: "Learn how to configure a party and business profile for your organization in BizTalk Server."
 title: "Step 3: Configure a Party and Business Profile for Your Organization2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,6 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 3: Configure a Party and Business Profile for Your Organization
+
 ![Step 3 of 11](../core/media/tut-step3-of-11.gif "Tut_Step3_of_11")  
   
  In this step, you configure a party and a business profile for your organization to receive an 864 message from your trading partner and return a 997 acknowledgment message and an asynchronous MDN.  

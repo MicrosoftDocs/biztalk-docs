@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Task 3: Configure the Send and Receive Shapes"
+description: "Learn how to configure Send and Receive shapes that will be used in a BizTalk orchestration."
 title: "Task 3: Configure the Send and Receive Shapes1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,13 +16,14 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Task 3: How to Configure the Send and Receive Shapes
+
 Use the following procedure to configure the Send and Receive shapes.  
   
 ### To configure the Send and Receive shapes  
   
-1.  Drag Send and Receive shapes from the tool box into the center of the orchestration in the following order.  
+1. Drag Send and Receive shapes from the tool box into the center of the orchestration in the following order.  
   
-2.  Set the following parameters:  
+2. Set the following parameters:  
   
     |Shape|Name|Setting|  
     |-----------|----------|-------------|  
@@ -55,7 +56,8 @@ Use the following procedure to configure the Send and Receive shapes.
     ||Name|SendEndDocResponse|  
     ||Operation|EndDocOut.Operation_1.Request|  
   
-## See Also  
+## See Also
+  
  [Task 1: Create the Ports](../core/task-1-create-the-ports2.md)   
  [Task 2: Create the Messages](../core/task-2-create-the-messages1.md)   
  [Task 4: Configure the Construct Message Shape](../core/task-4-configure-the-construct-message-shape2.md)   

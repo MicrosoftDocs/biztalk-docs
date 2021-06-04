@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Step 4: Configure a Party and Business Profile for Your Trading Partner"
+description: "Learn how to configure a party and business profile for a trading partner by using the BizTalk Server Administration Console."
 title: "Step 4: Configure a Party and Business Profile for Your Trading Partner1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,12 +16,14 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 4: How to Configure a Party and Business Profile for Your Trading Partner
+
 ![Step 4 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-4of9.gif "Step_4of9")  
   
  In this step, you configure a party and business profile for your trading partner Fabrikam to send an 850 message to your organization and receive a 997 acknowledgment message in return.  
   
-## Prerequisites  
- You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
+## Prerequisites 
+
+You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
   
 ### To configure a party and business profile for your trading partner  
   
@@ -40,12 +42,14 @@ manager: "anneta"
 7. In the **Profile Properties** dialog box, on the **General** page, enter `Fabrikam_Profile` in the **Name** text box.  
   
    > [!NOTE]
-   >  When you create a party, a profile named *PartyName*_Profile is automatically created. You can use this profile instead of creating a new one. To rename a profile, right-click the profile and select **Properties**. In the **General** page, specify a name for the profile.  
+   > When you create a party, a profile named *PartyName*_Profile is automatically created. You can use this profile instead of creating a new one. To rename a profile, right-click the profile and select **Properties**. In the **General** page, specify a name for the profile.  
   
 8. Click **OK**.  
   
-## Next Steps  
- You configure the receive location (**fromTHEM_4010_850**) to receive the 850 message from Fabrikam, as described in [Step 5: Configure a Receive Port and Receive Location](../core/step-5-configure-a-receive-port-and-receive-location.md).  
+## Next Steps
   
-## See Also  
- [Configuring EDI Properties](../core/configuring-edi-properties.md)
+You configure the receive location (**fromTHEM_4010_850**) to receive the 850 message from Fabrikam, as described in [Step 5: Configure a Receive Port and Receive Location](../core/step-5-configure-a-receive-port-and-receive-location.md).  
+  
+## See Also
+  
+[Configuring EDI Properties](../core/configuring-edi-properties.md)

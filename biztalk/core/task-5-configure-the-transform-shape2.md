@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Task 5: Configure the Transform Shape"
+description: "Learn how to configure a Transform shape for BizTalk Server using the Transform Configuration dialog and mapping tool in Solution Explorer."
 title: "Task 5: Configure the Transform Shape2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,15 +16,16 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Task 5: Configure the Transform Shape
+
 Use the following procedure to configure the Transform shape.  
   
 ### To configure the Transform shape  
   
 1. Drag a Construct Message shape after ReceiveBeginDocResponse.  
   
-   -   **Messages Constructed:** EditLineMsg  
+   - **Messages Constructed:** EditLineMsg  
   
-   -   **Name:** ConstructEditLineMessageWithData  
+   - **Name:** ConstructEditLineMessageWithData  
   
    1. Right-click in the middle, select **Insert Shape**, and then select **Transform**.  
   
@@ -36,11 +37,11 @@ Use the following procedure to configure the Transform shape.
   
 2. Double-click Transform_1 to open.  
   
-   1.  Select Source and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
+   1. Select Source and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
   
         ![Transform Source](../core/media/transform-source.gif "transform_source")  
   
-   2.  Select **Destination** and click in the Add row under **Variable Name**, select **EditLineMsg**, and click **OK**.  
+   2. Select **Destination** and click in the Add row under **Variable Name**, select **EditLineMsg**, and click **OK**.  
   
         ![Transform Destination](../core/media/transform-destination.gif "transform_destination")  
   
@@ -60,7 +61,7 @@ Use the following procedure to configure the Transform shape.
   
      ![Hard Coded Mapping](../core/media/hardcoded-mapping-example.gif "hardcoded_mapping_example")  
   
-   ```  
+   ```xml  
    <?xml version="1.0" encoding="utf-8"?>  
    <ns0:F4211FSEditLine xmlns:ns0="http://schemas.microsoft.com/  
          [JDE://CSALES/B4200310]">  
@@ -78,17 +79,17 @@ Use the following procedure to configure the Transform shape.
   
 4. Drag a Construct Message after ReceiveEditLine.  
   
-   -   **Messages Constructed:** EndDocMsg  
+   - **Messages Constructed:** EndDocMsg  
   
-   -   **Name:** ConstructEndDocMessageWithData  
+   - **Name:** ConstructEndDocMessageWithData  
   
         Right-click in the middle and select **Insert Shape**, and then select **Transform**.  
   
 5. Double-click Transform_2 to open.  
   
-   1.  Select **Source** and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
+   1. Select **Source** and click in the Add row under **Variable Name** and select **BeginDocResponseMsg**.  
   
-   2.  Select **Destination** and click in the Add row under **Variable Name**, select **EndDocMsg**, and click **OK**.  
+   2. Select **Destination** and click in the Add row under **Variable Name**, select **EndDocMsg**, and click **OK**.  
   
 6. In the Solution Explorer, double-click **Transform_2.btm** to open the mapping tool. Link the following four items:  
   
@@ -102,7 +103,7 @@ Use the following procedure to configure the Transform shape.
   
      For ease of use, this example has hardcoded values. Click the item in the Destination Schema and set the following Value.  
   
-   ```  
+   ```xml  
    <?xml version="1.0" encoding="utf-8"?>  
    <ns0:F4211FSEndDoc xmlns:ns0="http://schemas.microsoft.com/  
        [JDE://CSALES/B4200310]">  
@@ -112,7 +113,8 @@ Use the following procedure to configure the Transform shape.
    </ns0:F4211FSEndDoc>  
    ```  
   
-## See Also  
+## See Also
+  
  [Task 1: Create the Ports](../core/task-1-create-the-ports1.md)   
  [Task 2: Create the Messages](../core/task-2-create-the-messages2.md)   
  [Task 3: Configure the Send and Receive Shapes](../core/task-3-configure-the-send-and-receive-shapes2.md)   

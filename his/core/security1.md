@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Security"
+description: "Learn about security in the DRDA Service that connects IBM DB2 DRDA Application Requester client programs to Microsoft SQL Server databases."
 title: "Security1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,6 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Security
+
 The DRDA Service provides cross-platform database access and interoperability through distributed unit of work (DUW) transactions for on-line and batch processing. The DRDA Service connects IBM DB2 DRDA Application Requester client programs to Microsoft SQL Server databases. The DRDA Service functions as an application server supporting the Distributed Relational Database Architecture (DRDA) protocols and formats that are compatible with IBM products functioning as DB2 application requester clients.  
   
  The DRDA Service responds to in-bound DB2 client application requests across Transmission Control Protocol over Internet Protocol (TCP/IP) network connections that use optional security features described in this topic. The DRDA Service initiates out-bound SQL managed client requests using Tabular Data Stream (TDS) using in-memory or TCP/IP network connections.  
