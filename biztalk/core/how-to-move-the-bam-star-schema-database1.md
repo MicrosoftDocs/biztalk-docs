@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Move the BAM Star Schema Database"
+description: "Learn how to move the Business Activity Monitoring (BAM) Star Schema database to another server."
 title: "How to Move the BAM Star Schema Database1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -19,10 +19,12 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Move the BAM Star Schema Database
+
 You can use this procedure to move the BAM Star Schema database to another server.  
   
-## Prerequisites  
- You must be logged on with an account that is a member of the SQL Server sysadmin fixed server role to perform this procedure.  
+## Prerequisites
+  
+You must be logged on with an account that is a member of the SQL Server sysadmin fixed server role to perform this procedure.  
   
 ### To move the BAM Star Schema database  
   

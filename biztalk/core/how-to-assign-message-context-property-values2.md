@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Assign Message Context Property Values"
+description: "Learn how to read the context property of a message received from a port bound to the Microsoft BizTalk Adapter for JD Edwards OneWorld and assign property values to it."
 title: "How to Assign Message Context Property Values2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,6 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Assign Message Context Property Values
+
 To manage the JD Edwards OneWorld connection session from a BizTalk orchestration, you must add the reference to Microsoft.BizTalk.Adapters.JDEProperties.dll in your project. This assembly is located in %SystemDrive%\Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin.  
   
  After you reference this property schema, additional context properties are accessible to various BizTalk development tools, for example, the Message Assignment shape within the Orchestration Designer.  

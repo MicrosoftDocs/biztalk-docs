@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Add a Catch Exception Block"
+description: "Learn how to add a Catch Exception block to set up an exception handler in the BizTalk Server Orchestration Designer."
 title: "How to Add a Catch Exception Block1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,12 +20,13 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Add a Catch Exception Block
+
 The **Catch Exception** block represents an exception handler. **Catch Exception** blocks are attached to the end of a **Scope** shape in Orchestration Designer. You can attach as many **Catch Exception** blocks as you need.  
   
  You can set up exception handlers to handle different kinds of exceptions. On each exception handler, you specify an exception type, which must be either an exception or an object derived from the class `System`. If an exception is thrown that matches the specified type in an exception handler, that exception handler will be called.  
   
 > [!NOTE]
->  To add a **Catch Exception** block to a **Scope** shape, the Transaction Type property of the **Scope** shape must be set to **None** or **Long Running**.  
+> To add a **Catch Exception** block to a **Scope** shape, the Transaction Type property of the **Scope** shape must be set to **None** or **Long Running**.  
   
 ### To add and populate a Catch Exception block  
   

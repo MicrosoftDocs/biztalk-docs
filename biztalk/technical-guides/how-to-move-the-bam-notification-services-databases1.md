@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Move the BAM Notification Services Databases"
+description: "Learn how to move the Business Activity Monitoring (BAM) Notification Services database to another server and update the references to the new BAM Notification Services database."
 title: "How to Move the BAM Notification Services Databases1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Move the BAM Notification Services Databases
+
 You can use this procedure to move the BAM Notification Services database to another server.  From an end-to-end scenario perspective, moving the BAM Notification Services database involves two major steps:
 
 -   [Moving the BAM Notification Services Database](../technical-guides/how-to-move-the-bam-notification-services-databases1.md#BKMK_NotiMoveDB)

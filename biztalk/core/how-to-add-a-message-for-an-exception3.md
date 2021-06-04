@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Add a Message for an Exception"
+description: "Learn how to add a fault with a message for exception handling in the Orchestration View of BizTalk Server."
 title: "How to Add a Message for an Exception3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -19,6 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Add a Message for an Exception
+
 Follow these steps to add a fault with a message.  
   
 ### To add a message for an exception  

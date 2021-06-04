@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Add a Catch Exception Block"
+description: "Learn how to add and populate Catch Exception blocks in BizTalk Server."
 title: "How to Add a Catch Exception Block6 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,6 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Catch Exception Blocks
+
 The **Catch Exception** block represents an exception handler. **Catch Exception** blocks are attached to the end of a **Scope** shape in Orchestration Designer. In BizTalk Server, you can attach as many **Catch Exception** blocks as you need.  
   
  You can set up exception handlers to handle different kinds of exceptions. On each exception handler, you specify an exception type, which must be either a fault message or an object derived from the class `System.Exception`. If you do not specify an exception type, the exception block is treated as a general exception handler, and can catch exceptions that do not derive from `System.Exception`.  
@@ -27,7 +28,7 @@ The **Catch Exception** block represents an exception handler. **Catch Exception
  If an exception is thrown that matches the specified type in an exception handler, that exception handler is called. If some other exception is thrown, it is handled by the default exception handler.  
   
 > [!NOTE]
->  To add a **Catch Exception** block to a **Scope** shape, the **Transaction Type** property of the **Scope** shape must be set to None or Long Running.  
+> To add a **Catch Exception** block to a **Scope** shape, the **Transaction Type** property of the **Scope** shape must be set to None or Long Running.  
   
 ## Adding and Populating a Catch Exception Block  
   
@@ -64,7 +65,8 @@ The **Catch Exception** block represents an exception handler. **Catch Exception
   
          ![Screenshot that shows where to select MessageAssignment.](../core/media/siebeladapter-21-exceptionhandling-message3test.gif "SiebelAdapter_21_ExceptionHandling_Message3Test")  
   
-## See Also  
- [How to Add a Scope Shape](../core/how-to-add-a-scope-shape1.md)   
- [Completing the Exception Message](../core/completing-the-exception-message3.md)   
- [Using BizTalk Server Exception Handling](../core/using-biztalk-server-exception-handling2.md)
+## See Also
+  
+- [How to Add a Scope Shape](../core/how-to-add-a-scope-shape1.md)   
+- [Completing the Exception Message](../core/completing-the-exception-message3.md)   
+- [Using BizTalk Server Exception Handling](../core/using-biztalk-server-exception-handling2.md)

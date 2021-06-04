@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Add a Message for an Exception"
+description: "Learn how to add a message for exception handling to a port in the back-end system of a BizTalk Server."
 title: "How to Add a Message for an Exception2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,7 +20,8 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Add a Fault Message
+# Add a Message for Exception Handling
+
 When you first create a port to the back-end system, it contains a request and a response. You must add a message so that you can assign it to the fault.  
   
 ### To add a fault message  
