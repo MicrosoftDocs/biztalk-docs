@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Using Event Tracing for Windows"
+description: "Learn how to use the Event Tracing for Windows (ETW) tool to view tracing messages for the Microsoft BizTalk Adapter for PeopleSoft Enterprise."
 title: "Using Event Tracing for Windows5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -26,9 +26,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Using Event Tracing for Windows
+
 Microsoft BizTalk Adapter for PeopleSoft Enterprise logs error, warning, and information messages to the Windows Event Viewer. You can see additional tracing messages by using the Event Tracing for Windows (ETW) tool. When ETW is enabled, it creates an \*.etl file to receive the messages. The file is in binary format and must be converted to be read. To do this you must have a consumer application available to interpret the \*.etl file; for example, tracerpt.exe or tracedmp.exe.  
   
-## ETW Components  
+## ETW Components
+  
  Event Tracing for Windows has three components:  
   
 - **Controller application**: Activates and deactivates a provider (for example, tracelog.exe or logman.exe).  
@@ -36,7 +38,7 @@ Microsoft BizTalk Adapter for PeopleSoft Enterprise logs error, warning, and inf
    You set your PATH environment variable to point to the location of tracelog.exe. This makes sure that `BTAPeopleSoftTrace` calls can locate tracelog.exe in the system. By default, BTAPeopleSoftTrace searches the current path.  
   
   > [!NOTE]
-  >  tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by BizTalk Adapter for PeopleSoft Enterprise. To use logman.exe, see the logman documentation.  
+  > tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by BizTalk Adapter for PeopleSoft Enterprise. To use logman.exe, see the logman documentation.  
   
 - **Consumer application**: Reads logged events.  
   

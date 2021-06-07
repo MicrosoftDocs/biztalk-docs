@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Update"
+description: "Learn how to use the Update element to extract data from an event and import it into the related Business Activity Monitoring (BAM) activity."
 title: "Update2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,10 +16,12 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Update
+
 The `Update` element is used to extract data from an event and import it into the related BAM activity.  
   
-## Format  
- To use the `Update` element, you must provide both a column name and type and an **Expression** element containing one or more **Operation** elements that evaluate to a single string value.  
+## Format
+  
+To use the `Update` element, you must provide both a column name and type and an **Expression** element containing one or more **Operation** elements that evaluate to a single string value.  
   
 ```  
 <ic:Update DataItemName="Name" Type="Type">  
@@ -39,12 +41,13 @@ The `Update` element is used to extract data from an event and import it into th
 ## Remarks  
  The following operations are not supported in the `Update` expression:  
   
--   And  
+- And  
   
--   Equals  
+- Equals  
   
-## Example  
- In the following example, the **GetContextProperty** WF operation is used to retrieve the **EventTime** property. This value will be stored as a **DATETIME** type for the "StartOrderProcessing" data item for the BAM activity.  
+## Example
+  
+In the following example, the **GetContextProperty** WF operation is used to retrieve the **EventTime** property. This value will be stored as a **DATETIME** type for the "StartOrderProcessing" data item for the BAM activity.  
   
 ```  
 <ic:Update DataItemName="StartOrderProcessing" Type="DATETIME">  
@@ -56,5 +59,6 @@ The `Update` element is used to extract data from an event and import it into th
 </ic:Update>  
 ```  
   
-## See Also  
+## See Also
+  
  [Interceptor OnEvent Element](../core/interceptor-onevent-element.md)

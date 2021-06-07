@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Using Message Context Properties"
+description: "Learn how you can use Microsoft BizTalk message context properties to control a JD Edwards EnterpriseOne Adapter connection session."
 title: "Using Message Context Properties1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,10 +16,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Use Message Context Properties
+
 This section explains how you can control the connection session through BizTalk message context properties.  
   
 ## In This Section  
   
--   [How to Assign Message Context Property Values](../core/how-to-assign-message-context-property-values1.md)  
+- [How to Assign Message Context Property Values](../core/how-to-assign-message-context-property-values1.md)  
   
--   [About Session Management](../core/about-session-management2.md)
+- [About Session Management](../core/about-session-management2.md)
