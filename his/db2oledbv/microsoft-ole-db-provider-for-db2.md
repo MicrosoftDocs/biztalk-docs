@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: OLE DB Provider for DB2"
+description: "Learn about the Microsoft OLE DB Provider for DB2."
 title: "Microsoft OLE DB Provider for DB2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,6 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Microsoft OLE DB Provider for DB2
+
 - [Getting Started](../db2oledbv/getting-started.md)  
   
 - [Planning and Architecture](../db2oledbv/planning-and-architecture2.md)   

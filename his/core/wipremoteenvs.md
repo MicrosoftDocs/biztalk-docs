@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Remote Environments"
+description: "Learn about the different types of Remote Environment that can be configured to define the characteristics of a non-Windows host environment that receives requests from Windows-initiated processing (WIP) components."
 title: "WIPRemoteEnvs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"

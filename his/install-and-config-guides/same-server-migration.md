@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Same Server Migration"
+description: "Learn how to use the HIS Migration tool to migrate from an earlier edition of Host Integration Server to Host Integration Server 2016 on the same server."
 title: "Same Server Migration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -17,6 +17,7 @@ manager: "anneta"
 # Same Server Migration
 
 ## Overview
+
 The HIS Migration tool allows you to migrate from an earlier edition of Host Integration Server to Host Integration Server 2016 on the same server. The migration tool harvests the configuration information prior to uninstalling the older version of Host Integration Server. That configuration information can be applied to the new install of Host Integration Server 2016.
 
 ## Steps for Same Server Migration

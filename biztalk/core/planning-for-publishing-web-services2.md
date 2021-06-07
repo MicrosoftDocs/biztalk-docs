@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Planning for Publishing Web Services"
+description: "Learn about publishing Web services in BizTalk Server by using the BizTalk Web Services Publishing Wizard or by exposing orchestrations as Web services."
 title: "Planning for Publishing Web Services2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,9 +20,10 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Plan for Publishing Web Services
+
 You can access Web services from your orchestrations. You can also use the BizTalk Web Services Publishing Wizard to publish your Web service.  
   
- The following table lists some of the questions that you need to answer in planning for Web services.  
+The following table lists some of the questions that you need to answer in planning for Web services.  
   
 |Planning question|Recommendation|  
 |-----------------------|--------------------|  
@@ -32,5 +33,6 @@ You can access Web services from your orchestrations. You can also use the BizTa
 |Do any of the message types in your BizTalk Server project use user-defined .NET classes?|You must install assemblies containing user-defined .NET classes that message types reference in the global assembly cache (GAC).|  
 |Do your Web clients use the supplied credentials for the **WindowsUser** context property?|The credentials supplied by the Web clients consuming a published Web service use the **WindowsUser** context property. Party Resolution uses this property. If you set up a Party using the **WindowsUser** context property and the Web client consumes the Web service with credentials that match the Party, BizTalk Server identifies the message as coming from the corresponding predefined party. For more information about party resolution with pipeline components, see [Party Resolution Pipeline Component](../core/party-resolution-pipeline-component.md).|  
   
-## See Also  
- [Publishing Web Services](../core/publishing-web-services.md)
+## See Also
+  
+[Publishing Web Services](../core/publishing-web-services.md)
