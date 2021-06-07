@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Step 3: Test the Migrated Application"
+description: "Learn how to test a migrated application in BizTalk by receiving a flat-file IDOC using the WCF-based SAP adapter."
 title: "Step 3: Test the Migrated Application2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -19,6 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 3: How to Test the Migrated Application
+
 ![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")  
   
  **Time to complete:** 5 minutes  
@@ -33,11 +34,12 @@ manager: "anneta"
   
 ### To test the migrated application  
   
-1.  From the SendIDOC_Migration folder, copy the BOMDOC.txt file. This is the flat-file IDOC to be sent to the SAP system.  
+1. From the SendIDOC_Migration folder, copy the BOMDOC.txt file. This is the flat-file IDOC to be sent to the SAP system.  
   
-2.  Paste the flat-file IDOC to the folder that is mapped to the file receive location.  
+2. Paste the flat-file IDOC to the folder that is mapped to the file receive location.  
   
-3.  The orchestration consumes the file and sends the IDOC to the SAP system. Verify if there are any errors in the event viewer.  
+3. The orchestration consumes the file and sends the IDOC to the SAP system. Verify if there are any errors in the event viewer.  
   
-## See Also  
- [Tutorial 3: Migrating an SAP Send IDOC BizTalk Project](../../adapters-and-accelerators/adapter-sap/tutorial-3-migrating-an-sap-send-idoc-biztalk-project.md)
+## See Also
+  
+[Tutorial 3: Migrating an SAP Send IDOC BizTalk Project](../../adapters-and-accelerators/adapter-sap/tutorial-3-migrating-an-sap-send-idoc-biztalk-project.md)

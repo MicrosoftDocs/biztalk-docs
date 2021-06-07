@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Troubleshooting: Issues and Resolutions"
+description: "Learn about symptoms, possible causes, and solutions for issues related to running BizTalk Accelerator for RosettaNet (BTARN)."
 title: "Troubleshooting: Issues and Resolutions3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,7 +16,8 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
-# Troubleshooting BizTalk Accelerator for RosettaNet (BTARN): Issues and Resolutions
+# Troubleshooting BizTalk Accelerator for RosettaNet (BTARN): Issues and Resolution
+
 This topic addresses issues related to running Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. The individual issues detail a specific symptom, a possible cause, and a solution.  
   
 ## Error publishing a batch of "n" messages  

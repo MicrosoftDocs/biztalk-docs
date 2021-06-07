@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Step 4: Create a Sample XML BeginDoc"
+description: "Learn how to create a sample XML BeginDoc for a J.D. Edwards OneWorld server."
 title: "Step 4: Create a Sample XML BeginDoc1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,12 +16,13 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 4: How to Create a Sample XML BeginDoc
+
 Save the following into an XML file. If your test uses the steps in this example, and uses the example's J.D. Edwards OneWorld object selection, [JDE://CSALES/B4200310], you can drop this into the Input folder and what it come out the designated Out folder (the folder bound to the EndDocOut port).  
   
 > [!NOTE]
->  You will have to modify some of the values to point to your J.D. Edwards OneWorld server, for example, the value set in szCMComputerID.  
+> You will have to modify some of the values to point to your J.D. Edwards OneWorld server, for example, the value set in szCMComputerID.  
   
-```  
+```xml  
 <ns0:F4211FSBeginDoc xmlns:ns0="http://schemas.microsoft.com/  
    [JDE://CSALES/B4200310]">  
    <ns0:mnCMJobNumber></ns0:mnCMJobNumber>  
@@ -49,7 +50,8 @@ Save the following into an XML file. If your test uses the steps in this example
 </ns0:F4211FSBeginDoc>  
 ```  
   
-## See Also  
+## See Also
+  
  [Step 1: Reference the Schema DLL](../core/step-1-reference-the-schema-dll2.md)   
  [Step 2: Create the Orchestration](../core/step-2-create-the-orchestration1.md)   
  [Step 3: Complete and Run the Project](../core/step-3-complete-and-run-the-project2.md)
