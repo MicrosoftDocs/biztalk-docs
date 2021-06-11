@@ -38,8 +38,6 @@ struct get_cp_convert_table {
 };  
 ```  
   
-## Remarks  
-  
 ## Members  
  *opcode*  
  Supplied parameter. The verb identifying the operation code, SV_GET_CP_CONVERT_TABLE.  

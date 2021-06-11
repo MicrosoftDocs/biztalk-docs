@@ -27,7 +27,8 @@ typedef struct link_def_info_sect {
 } LINK_DEF_INFO_SECT;  
 ```  
   
-## Members  
+## Members
+  
  link_def_init_sect_len  
  The length of the initial link definition information section, including this parameter, up to the first link definition overlay group. The length does not include any previous information sections.  
   

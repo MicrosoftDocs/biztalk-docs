@@ -27,8 +27,6 @@ struct LUA_COMMON FAR *vpb,
     unsigned char FAR *buffer_addr );  
 ```  
   
-## Remarks  
-  
 #### Parameters  
  *vpb*  
  Supplied parameter. Specifies the address of the verb control block.  

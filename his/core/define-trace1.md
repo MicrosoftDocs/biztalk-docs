@@ -57,9 +57,7 @@ struct define_trace {
     unsigned char        reserv9[56];  
 };   
 ```  
-  
-## Remarks  
-  
+
 ## Members  
  *opcode*  
  Supplied parameter. The verb identifying the operation code, SV_DEFINE_TRACE.  

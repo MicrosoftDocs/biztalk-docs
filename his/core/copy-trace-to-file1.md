@@ -35,9 +35,7 @@ struct copy_trace_to_file {
     unsigned char        reserv4[12];  
 };   
 ```  
-  
-## Remarks  
-  
+
 ## Members  
  *opcode*  
  Supplied parameter. The verb identifying the operation code, SV_COPY_TRACE_TO_FILE.  
