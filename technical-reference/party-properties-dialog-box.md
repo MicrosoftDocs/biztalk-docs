@@ -11,13 +11,11 @@ mtps_version: v=BTS.80
 
 # Party Properties Dialog Box
 
- 
-
 Use the **Party Properties** window to set up and edit trading partners or backend applications to interact with a business process.
 
 ## General Tab
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -50,10 +48,9 @@ Use the **Party Properties** window to set up and edit trading partners or backe
 </tbody>
 </table>
 
-
 ## Send Ports Tab
 
-## UIElement List
+The following table lists the UIElements in the **Send Ports** tab and what they are used for.
 
 <table>
 <thead>
@@ -82,10 +79,9 @@ Use the **Party Properties** window to set up and edit trading partners or backe
 </tbody>
 </table>
 
-
 ## Certificate Tab
 
-## UIElement List
+The following table lists the UIElements in the **Certificate** tab and what they are used for.
 
 <table>
 <thead>
@@ -113,4 +109,3 @@ Use the **Party Properties** window to set up and edit trading partners or backe
 </tr>
 </tbody>
 </table>
-

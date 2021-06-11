@@ -13,13 +13,11 @@ f1_keywords:
 
 # Service Instance and Message Instance States
 
- 
-
 Service instance states and message instance states are displayed on the Group Hub page. They convey information about successfully processed messages and instances, failures, and suspensions during a specified time interval. Following is an explanation of each message instance and service instance state.
 
 ## Service Instance States
 
-## UIElement List
+The following table describes the service instance states on the Group Hub page.
 
 <table>
 <colgroup>
@@ -87,7 +85,7 @@ Note that when you suspend a scheduled instance and then resume it, the instance
 
 ## Message Instance States
 
-## UIElement List
+The following table describes the message instance states on the Group Hub page.
 
 <table>
 <colgroup>
@@ -137,8 +135,6 @@ Note that when you suspend a scheduled instance and then resume it, the instance
 </tbody>
 </table>
 
-
 ## See Also
 
 [Viewing Tracked Message and Instance Data](https://msdn.microsoft.com/library/aa561587\(v=bts.80\))
-

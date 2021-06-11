@@ -13,15 +13,13 @@ f1_keywords:
 
 # Receive Port Properties Dialog Box
 
- 
-
 Use the **Receive Port Properties** window to view the properties of an existing receive port and to create and configure a new receive port.
 
 ## General Tab
 
 Specific properties that are applicable only to two-way ports are hidden for one-way ports.
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -62,10 +60,9 @@ Specific properties that are applicable only to two-way ports are hidden for one
 </tbody>
 </table>
 
-
 ## Receive Locations Tab
 
-## UIElement List
+The following table lists the UIElements in the **Receive Locations** tab and what they are used for.
 
 <table>
 <thead>
@@ -98,12 +95,11 @@ Specific properties that are applicable only to two-way ports are hidden for one
 </tbody>
 </table>
 
-
 ## Inbound Maps Tab
 
 You can use a map to apply an XSL transformation of an inbound message at the receive port without processing the message through an orchestration. You can add more than one map to a receive port, but each map must have a unique source schema.
 
-## UIElement List
+The following table lists the UIElements in the **Inbound Maps** tab and what they are used for.
 
 <table>
 <thead>
@@ -131,13 +127,12 @@ You can use a map to apply an XSL transformation of an inbound message at the re
 </tr>
 </tbody>
 </table>
-
 
 ## Outbound Maps Tab
 
 You can use a map to apply an XSL transformation of a response message sent by the receive port without processing the message through an orchestration. You can add more than one map to a receive port, but each map must have a unique source schema.
 
-## UIElement List
+The following table lists the UIElements in the **Outbound Maps** tab and what they are used for.
 
 <table>
 <thead>
@@ -166,18 +161,14 @@ You can use a map to apply an XSL transformation of a response message sent by t
 </tbody>
 </table>
 
-
 ## Tracking Tab
 
 Message body tracking saves messages after service instances processing is complete. Message property tracking provides a record of promoted properties for each message in the Results list, and enables you to locate a specific message.
 
-
 > [!NOTE]
-> <P>Specific properties that are applicable only to two-way ports are hidden for one-way ports.</P>
+> Specific properties that are applicable only to two-way ports are hidden for one-way ports.
 
-
-
-## UIElement List
+The following table lists the UIElements in the **Tracking** tab and what they are used for.
 
 <table>
 <thead>
@@ -222,8 +213,6 @@ Message body tracking saves messages after service instances processing is compl
 </tbody>
 </table>
 
-
 ## See Also
 
 [How to Create a Receive Port](https://msdn.microsoft.com/library/aa559206\(v=bts.80\))
-
