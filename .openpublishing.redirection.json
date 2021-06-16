@@ -103,7 +103,7 @@
     {
       "source_path": "biztalk/core/configure-the-json-template-for-automatic-deployment.md",
       "redirect_url": "/biztalk/core/feature-pack-add-application-project",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/configure-visual-studio-team-services-to-deploy-biztalk-solutions-or-projects.md",
@@ -118,7 +118,7 @@
     {
       "source_path": "biztalk/core/creating-jd-edwards-oneworld-send-handlers.md",
       "redirect_url": "/biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/deploying-ports-and-assemblies1.md",
@@ -148,22 +148,22 @@
     {
       "source_path": "biztalk/core/deployment-limitations1.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-tibco-enterprise-message-service",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/deployment-limitations2.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-jd-edwards-oneworld",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/deployment-limitations3.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-peoplesoft-enterprise",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/deployment-limitations4.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/get-more-samples.md",
@@ -173,12 +173,12 @@
     {
       "source_path": "biztalk/core/how-to-clean-the-target-computer1.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-tibco-rendezvous",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-clean-the-target-computer2.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-tibco-enterprise-message-service",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-create-receive-ports-in-tibco-enterprise-message-service.md",
@@ -193,12 +193,12 @@
     {
       "source_path": "biztalk/core/how-to-create-send-ports-for-jd-edwards-enterpriseone.md",
       "redirect_url": "/biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-create-send-ports-for-jd-edwards-oneworld.md",
       "redirect_url": "/biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-create-send-ports-for-peoplesoft-enterprise.md",
@@ -218,62 +218,62 @@
     {
       "source_path": "biztalk/core/how-to-set-jd-edwards-oneworld-pipelines.md",
       "redirect_url": "/biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-set-jd-edwards-oneworld-transport-properties.md",
       "redirect_url": "/biztalk/core/adding-biztalk-adapter-for-jd-edwards-oneworld",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-set-pipelines-for-peoplesoft-enterprise.md",
       "redirect_url": "/biztalk/core/creating-peoplesoft-send-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-set-receive-pipelines-for-tibco-enterprise-message-service.md",
       "redirect_url": "/biztalk/core/creating-tibco-enterprise-message-service-receive-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-set-receive-pipelines-for-tibco-rendezvous.md",
       "redirect_url": "/biztalk/core/creating-tibco-rendezvous-receive-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-set-send-pipelines-for-jd-edwards-enterpriseone.md",
       "redirect_url": "/biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-set-send-pipelines-for-tibco-enterprise-message-service.md",
       "redirect_url": "/biztalk/core/creating-tibco-enterprise-message-service-send-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-set-send-pipelines-for-tibco-rendezvous.md",
       "redirect_url": "/biztalk/core/creating-tibco-rendezvous-send-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/how-to-set-tibco-rendezvous-transport-properties.md",
       "redirect_url": "/biztalk/core/creating-tibco-rendezvous-send-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/importing-binding-files1.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-peoplesoft-enterprise",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/importing-binding-files2.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/importing-binding-files3.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-jd-edwards-oneworld",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/management.md",
@@ -288,7 +288,7 @@
     {
       "source_path": "biztalk/core/optimizing-configuration.md",
       "redirect_url": "/biztalk/core/creating-peoplesoft-send-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/oracle-database-odbc-adapter.md",
@@ -308,7 +308,7 @@
     {
       "source_path": "biztalk/core/planning-and-architecture13.md",
       "redirect_url": "/biztalk/core/architecture-of-biztalk-adapter-for-peoplesoft-enterprise",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/planning-and-architecture15.md",
@@ -353,32 +353,32 @@
     {
       "source_path": "biztalk/core/schema-generation-in-the-adapter.md",
       "redirect_url": "/biztalk/core/installing-biztalk-adapter-for-tibco-rendezvous",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/set-tibco-enterprise-message-service-transport-properties-for-the-receive-port.md",
       "redirect_url": "/biztalk/core/creating-tibco-enterprise-message-service-receive-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/setting-jd-edwards-enterpriseone-transport-properties.md",
       "redirect_url": "/biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/setting-peoplesoft-transport-properties.md",
       "redirect_url": "/biztalk/core/creating-peoplesoft-send-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/setting-tibco-enterprise-message-service-transport-properties-for-the-send-port.md",
       "redirect_url": "/biztalk/core/creating-tibco-enterprise-message-service-send-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/setting-tibco-rendezvous-receive-transport-properties.md",
       "redirect_url": "/biztalk/core/creating-tibco-rendezvous-receive-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/siebel-ebusiness-applications-adapter.md",
@@ -398,12 +398,12 @@
     {
       "source_path": "biztalk/core/tibco-rendezvous-events-and-receive-locations.md",
       "redirect_url": "/biztalk/core/creating-tibco-rendezvous-receive-handlers",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/tibco-rendezvous-limitations.md",
       "redirect_url": "/biztalk/core/installing-biztalk-adapter-for-tibco-rendezvous",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/using-biztalk-server-from-tibco-rendezvous-to-receive-messages.md",
@@ -453,17 +453,17 @@
     {
       "source_path": "biztalk/core/verifying-the-deployment-setup1.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-jd-edwards-enterpriseone",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/verifying-the-deployment-setup2.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-tibco-enterprise-message-service",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/core/verifying-the-deployment-setup3.md",
       "redirect_url": "/biztalk/core/deploying-biztalk-adapter-for-tibco-rendezvous",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "biztalk/technical-guides/biztalk-technical-guides.md",
