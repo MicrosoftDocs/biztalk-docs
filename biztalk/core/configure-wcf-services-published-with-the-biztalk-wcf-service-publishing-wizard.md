@@ -48,7 +48,7 @@ After publishing WCF services with the BizTalk WCF Service Publishing Wizard, yo
     ![The Security tab of the WCF&#45;BasicHttp adapter](../core/media/585ecdad-bdee-40c0-b2f1-7ace74d503e5.gif "585ecdad-bdee-40c0-b2f1-7ace74d503e5")
 
    > [!NOTE]
-   >  The transport client credential type property for the isolated WCF adapter must match the authentication scheme of the Internet Information Services (IIS) virtual directory hosting this receive location. For example, if the property is set to **Windows**, you also need to enable **Integrated Windows authentication** for the virtual directory that hosts this receive location. Similarly if the property is set to **None**, you must allow anonymous access to the virtual directory that hosts this receive location. For more information about how to configure the security properties for the WCF-BasicHttp and WCF-WSHttp adapters, see [How to Configure a WCF-BasicHttp Receive Location](https://msdn.microsoft.com/library/43f18e5d-ba28-453c-b8ce-5bcdc6f27fdd), and [How to Configure a WCF-WSHttp Receive Location](../core/how-to-configure-a-wcf-wshttp-receive-location.md). For more information about how to configure the binding information, see [How to Configure a WCF-CustomIsolated Receive Location](../core/how-to-configure-a-wcf-customisolated-receive-location.md).
+   >  The transport client credential type property for the isolated WCF adapter must match the authentication scheme of the Internet Information Services (IIS) virtual directory hosting this receive location. For example, if the property is set to **Windows**, you also need to enable **Integrated Windows authentication** for the virtual directory that hosts this receive location. Similarly if the property is set to **None**, you must allow anonymous access to the virtual directory that hosts this receive location. For more information about how to configure the security properties for the WCF-BasicHttp and WCF-WSHttp adapters, see [How to Configure a WCF-BasicHttp Receive Location](/previous-versions/), and [How to Configure a WCF-WSHttp Receive Location](../core/how-to-configure-a-wcf-wshttp-receive-location.md). For more information about how to configure the binding information, see [How to Configure a WCF-CustomIsolated Receive Location](../core/how-to-configure-a-wcf-customisolated-receive-location.md).
 
 7. If you did not select the **Create BizTalk receive locations** option when creating the WCF services, in the **Transport Properties** dialog box, click the **General** tab. On the **General** tab, type the URI for this receive location in the **Address** text box. Specify the virtual directory plus the .svc file name that the BizTalk WCF Service Publishing Wizard generated in the previous procedure—for example, /path/service.svc.
 
@@ -100,7 +100,7 @@ After publishing WCF services with the BizTalk WCF Service Publishing Wizard, yo
         ```
 
 ## See Also
- [Configuring the WCF-BasicHttp Adapter](https://msdn.microsoft.com/library/5929a338-46e0-4fc4-8837-792d7f7ae0fe)
+ [Configuring the WCF-BasicHttp Adapter](/previous-versions/)
  [Configuring the WCF-WSHttp Adapter](../core/configuring-the-wcf-wshttp-adapter.md)
  [Configuring the WCF-CustomIsolated Adapter](../core/configuring-the-wcf-customisolated-adapter.md)
- [How To Configure IIS Web Site Authentication in Windows Server 2003](https://go.microsoft.com/fwlink/?LinkID=75699)
+ [How To Configure IIS Web Site Authentication in Windows Server 2003](/iis/configuration/system.webserver/security/authentication/)

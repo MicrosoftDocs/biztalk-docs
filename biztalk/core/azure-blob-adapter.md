@@ -24,11 +24,11 @@ ms.custom: "biztalk-2020"
 
 **Starting with BizTalk Server 2020 and newer**, you can send and receive messages between BizTalk Server and Azure Blob storage.
 
-Azure Blob storage is Microsoft's object storage solution for the cloud, which is optimized for storing massive amounts of unstructured data. For more information, see [What is Azure Blob storage?](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-overview).
+Azure Blob storage is Microsoft's object storage solution for the cloud, which is optimized for storing massive amounts of unstructured data. For more information, see [What is Azure Blob storage?](/azure/storage/blobs/storage-blobs-overview).
 
 ## Prerequisites
 
-Create an [Azure blob storage account](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account) with a container.
+Create an [Azure blob storage account](/azure/storage/common/storage-create-storage-account) with a container.
 
 ## Send messages to Azure Blob storage
 
@@ -56,8 +56,8 @@ Create an [Azure blob storage account](https://docs.microsoft.com/azure/storage/
 
         The following links are good resources to help you decide which authentication method is right for your scenario:
 
-        - [Authorizing access to data in Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-auth)
-        - [Using shared access signatures (SAS)](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1)
+        - [Authorizing access to data in Azure Storage](/azure/storage/common/storage-auth)
+        - [Using shared access signatures (SAS)](/azure/storage/common/storage-dotnet-shared-access-signature-part-1)
 
     - **Blob container name**: Select the name of your Blob container from the drop-down list. The list is auto-populated after the **Connection string** is entered.
     - **Blob name**: Enter the name of the blob to be used by the adapter. Macros can be used in the blob name. For available macros, see [Using macros in file names](restrictions-when-configuring-the-file-adapter.md#using-macros-in-file-names).
@@ -70,7 +70,7 @@ Create an [Azure blob storage account](https://docs.microsoft.com/azure/storage/
 
 5. Configure the **Advanced** properties:
 
-    - **Blob type**: Enter the **Blob type** to be used. For more information, see [blob types](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction).
+    - **Blob type**: Enter the **Blob type** to be used. For more information, see [blob types](/azure/storage/blobs/storage-blobs-introduction).
     - **Write mode**: Use this setting to specify adapter behavior when given **Blob name** already exists.
         - **Create new**: The adapter always tries to create a new blob. If a blob with the same name already exists, the BizTalk message is suspended.
         - **Overwrite**: The adapter overwrites if the blob name already exists. The metadata is also overwritten.
@@ -122,8 +122,8 @@ You can use a simple File receive port and location to send messages to your Azu
         - If you use **Access keys**, a collection of storage accounts is populated in the **Account** drop-down list. Once you select the storage account, the **Connection string** field is automatically populated with the primary access key, also known as **key1**.
 
         The following links are good resources to help you decide which is right for your scenario:
-        - [Authorizing access to data in Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-auth)
-        - [Using shared access signatures (SAS)](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1)
+        - [Authorizing access to data in Azure Storage](/azure/storage/common/storage-auth)
+        - [Using shared access signatures (SAS)](/azure/storage/common/storage-dotnet-shared-access-signature-part-1)
     - **Blob container name**: Select the name of your blob container from the drop-down list. The list is auto-populated after the **Connection string** is entered.
     - **Blob name prefix**: Enter a prefix where applicable. For example, if "order/" is used for **Blob name prefix**, then the receive location only picks up the files in the "order" folder.
     - **Namespace for blob metadata**: Enter a namespace for the adapter to create context properties from custom blob metadata.
@@ -165,7 +165,7 @@ The Azure Blob storage receive adapter supports high-availability. You can add m
 - Blobs leased by other processes won't be received by Azure Blob storage adapter.
 - Blobs being received by the Azure Blob storage adapter can't be updated while in a leased state.
 
-For more information on Azure blob leasing, see [pessimistic concurrency for blobs](https://docs.microsoft.com/azure/storage/common/storage-concurrency#pessimistic-concurrency-for-blobs).
+For more information on Azure blob leasing, see [pessimistic concurrency for blobs](/azure/storage/common/storage-concurrency#pessimistic-concurrency-for-blobs).
 
 The Azure Blob storage send adapter, like most send adapters, provides high availability for the sending host by having multiple host instances in the same send host.
 

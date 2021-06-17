@@ -35,7 +35,7 @@ Solution developers design and develop BizTalk Server solutions using BizTalk Se
 **Tutorials and Walkthroughs**
 
 -   [BizTalk Server Tutorials](../core/biztalk-server-tutorials.md)
--   [BizTalk Application Deployment and Management Walkthroughs](https://msdn.microsoft.com/library/5321f8e0-1e2a-4ac4-a4a2-fc244071bc5b)
+-   [BizTalk Application Deployment and Management Walkthroughs](/previous-versions/)
 
 **End to End Scenarios**
 
@@ -44,7 +44,7 @@ Solution developers design and develop BizTalk Server solutions using BizTalk Se
 
 **Installing BizTalk Server**
 
--   [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)
+-   [Installation Overview for BizTalk Server 2013 and 2013 R2](/previous-versions/)
 
 **BizTalk Server Security**
 
@@ -55,4 +55,3 @@ Solution developers design and develop BizTalk Server solutions using BizTalk Se
 -   [Getting BizTalk Server Assistance](../core/getting-biztalk-server-assistance.md)
 -   [Community Resources](../core/community-resources5.md)
 -   [Accessibility for People with Disabilities](../core/accessibility-for-people-with-disabilities1.md)
-

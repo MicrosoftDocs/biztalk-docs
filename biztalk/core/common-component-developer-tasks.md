@@ -40,7 +40,7 @@ Component developers design and develop advanced BizTalk Server components that 
 **Tutorials and Walkthroughs**
 
 -   [BizTalk Server Tutorials](../core/biztalk-server-tutorials.md)
--   [BizTalk Application Deployment and Management Walkthroughs](https://msdn.microsoft.com/library/5321f8e0-1e2a-4ac4-a4a2-fc244071bc5b)
+-   [BizTalk Application Deployment and Management Walkthroughs](/previous-versions/)
 
 **End to End Scenarios**
 

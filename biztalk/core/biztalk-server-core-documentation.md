@@ -24,7 +24,7 @@ The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-m
 ## Get started
 **[Getting started](../core/getting-started-with-biztalk-server.md)** includes information about common tasks, the message engine, trading partner management using EDI and AS2, BizTalk Server tutorials, and topics for new  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] users.
   
-[Common Tasks and walkthroughs](https://msdn.microsoft.com/library/cd02757d-48c6-4ba4-b72d-02acd0b1eff1) and [Tutorials](https://msdn.microsoft.com/library/1e404aca-6e25-4189-a0cc-5e9b95194b81) are also a great way to get started.
+[Common Tasks and walkthroughs](/previous-versions/) and [Tutorials](/previous-versions/) are also a great way to get started.
 
 ## Plan and architect your applications
 **[Planning and architecture](../core/plan-and-architect-your-biztalk-server-solution.md)** covers architecture, performance and capacity, high availability, and security. Also read about designing, building, and running two complete model [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solutions: a service-oriented solution, and a business process management solution.

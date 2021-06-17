@@ -54,7 +54,7 @@ This topic provides a brief general overview of AS2 processing and how BizTalk S
 - The BizTalk EDI Application that contains artifacts (including pipelines and schemas) that are needed to process AS2 documents.  
   
   > [!NOTE]
-  >  When you configure the AS2 feature in BizTalk Server, the configuration program creates this application. Whenever you create an application that will process AS2 messages, you must add a reference to the BizTalk EDI Application from your application. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](https://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
+  >  When you configure the AS2 feature in BizTalk Server, the configuration program creates this application. Whenever you create an application that will process AS2 messages, you must add a reference to the BizTalk EDI Application from your application. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](/previous-versions/).  
   
 - The AS2EdiReceive pipeline that performs AS2 processing, and then EDI processing, of an EDI message received over AS2. For more information, see [AS2 Receive Components](../core/as2-receive-components.md).  
   
@@ -68,7 +68,7 @@ This topic provides a brief general overview of AS2 processing and how BizTalk S
   
 - Status reporting user interface that provides comprehensive status of AS2 interchanges and correlated acknowledgments. For more information, see [EDI and AS2 Status Reporting](../core/edi-and-as2-status-reporting.md).  
   
-- A migration tool (Party Migration Tool) enables you to migrate party data containing AS2 properties from BizTalk Server 2006 R2 or BizTalk Server 2009 to BizTalk Server. For more information, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](https://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
+- A migration tool (Party Migration Tool) enables you to migrate party data containing AS2 properties from BizTalk Server 2006 R2 or BizTalk Server 2009 to BizTalk Server. For more information, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](/previous-versions/).  
   
 ## See Also  
  [AS2 Solution Architecture](../core/as2-solution-architecture.md)   

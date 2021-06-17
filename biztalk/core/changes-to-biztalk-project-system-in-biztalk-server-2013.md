@@ -19,7 +19,7 @@ manager: "anneta"
 This topic gives you a high-level overview of changes to the BizTalk Project System in BizTalk Server.
 
 ## Project properties are displayed in project designer window
- Properties for a BizTalk Server project are now displayed in the Project Designer of Visual Studio instead of in a Properties dialog. The Project Designer provides a centralized location for managing project properties, settings, and resources. The Project Designer appears as a single window in the Visual Studio IDE, much the same as other designers such as the Form or Class designers and contains a number of pages that are accessed through tabs on the left-hand side. For more information, see [https://go.microsoft.com/fwlink/?LinkId=190417](https://go.microsoft.com/fwlink/?LinkId=190417).
+ Properties for a BizTalk Server project are now displayed in the Project Designer of Visual Studio instead of in a Properties dialog. The Project Designer provides a centralized location for managing project properties, settings, and resources. The Project Designer appears as a single window in the Visual Studio IDE, much the same as other designers such as the Form or Class designers and contains a number of pages that are accessed through tabs on the left-hand side. For more information, see [https://go.microsoft.com/fwlink/?LinkId=190417](/previous-versions/bb1aa8f1(v=vs.140)).
 
 ## Properties for schema and map files are displayed in Properties window
  Properties for schema and map files such as **Input Instance Filename** and **Test Map Input Instance** are displayed in the Properties window with instead of in a separate **Properties** dialog box.
@@ -40,7 +40,7 @@ This topic gives you a high-level overview of changes to the BizTalk Project Sys
    > [!TIP]
    >  After you add a Web reference to a BizTalk project, the **Add Web Reference** menu option is available on the References, Web References and project nodes.
 
-   For more information about adding service and Web references, see [https://go.microsoft.com/fwlink/?LinkId=131577](https://go.microsoft.com/fwlink/?LinkId=131577).
+   For more information about adding service and Web references, see [https://go.microsoft.com/fwlink/?LinkId=131577](/previous-versions/bb628649(v=vs.140)).
 
 ## MSBUILD Integration
  Visual Studio uses the MSBUILD project file format to store build information about managed projects including BizTalk projects. For more information, see [MSBUILD Integration with Visual Studio](../core/msbuild-integration-with-visual-studio.md).
