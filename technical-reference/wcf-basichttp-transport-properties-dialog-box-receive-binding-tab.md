@@ -53,7 +53,7 @@ Maximum value: 23:59:59</td>
 <td><strong>Maximum received message size (bytes)</strong></td>
 <td>Specify the maximum size, in bytes, for a message including headers, which can be received on the wire. The size of the messages is bounded by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks.<br />
 <br />
-The WCF-BasicHttp adapter leverages the <a href="https://go.microsoft.com/fwlink/?linkid=81086">BasicHttpBinding</a> class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the <a href="https://go.microsoft.com/fwlink/?linkid=80659">BasicHttpBinding.MaxBufferSize</a> property is always equal to the value of this property.<br />
+The WCF-BasicHttp adapter leverages the <a href="/dotnet/api/system.servicemodel.basichttpbinding">BasicHttpBinding</a> class in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the <a href="/dotnet/api/system.servicemodel.basichttpbinding.maxbuffersize">BasicHttpBinding.MaxBufferSize</a> property is always equal to the value of this property.<br />
 <br />
 Default value: 65536<br />
 <br />

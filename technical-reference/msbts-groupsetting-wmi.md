@@ -45,7 +45,7 @@ class MSBTS\_GroupSetting : MSBTS\_Setting
 </tr>
 <tr class="even">
 <td>Caption (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=83193">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-setting">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-groupsetting-biztalkoperatorgroup-property-wmi.md">MSBTS_GroupSetting.BizTalkOperatorGroup Property (WMI)</a></td>
@@ -57,7 +57,7 @@ class MSBTS\_GroupSetting : MSBTS\_Setting
 </tr>
 <tr class="odd">
 <td>Description (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=83193">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-setting">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="msbts-groupsetting-globaltrackingoption-property-wmi.md">GlobalTrackingOption</a></td>
@@ -101,7 +101,7 @@ class MSBTS\_GroupSetting : MSBTS\_Setting
 </tr>
 <tr class="even">
 <td>SettingID (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=83193">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-setting">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-groupsetting-signcertcomment-property-wmi.md">SignCertComment</a></td>
