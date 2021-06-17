@@ -16,9 +16,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Process notification messages to complete specific tasks in Oracle Database using BizTalk Server
+
 You can use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive notifications for changes to the Oracle database tables. However, the adapter only sends you a notification that some records were inserted, updated, or deleted in a certain database table. Any post-processing on those records must be handled by the client applications themselves. This topic presents a scenario-based description on how to process the records in the table based on the kind of notification received from the Oracle database.
 
 ## Scenarios for Performing Subsequent Actions After Receiving Notification
+
  Following are a couple of scenarios in which the adapter clients must perform certain post-notification tasks.
 
 -   **Scenario 1.** Consider a scenario where the adapter client must perform certain tasks based on the kind of notification you receive from the Oracle database. For example, the client application must update the records in table “A” if records are inserted in table “B”. Similarly, the client application must delete records from table “A” if records are deleted from table “B”.
@@ -225,7 +227,8 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
  You must now build the BizTalk solution and deploy it to a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. For more information, see [Building and Running Orchestrations](../../core/building-and-running-orchestrations.md).
 
 ## Configuring the BizTalk Application
- After you have deployed the BizTalk project, the orchestration you created earlier is listed under the **Orchestrations** pane in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. You must use the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to configure the application. For a walkthrough, see [Walkthrough: Deploying a Basic BizTalk Application](Walkthrough:%20Deploying%20a%20Basic%20BizTalk%20Application.md).
+
+ After you have deployed the BizTalk project, the orchestration you created earlier is listed under the **Orchestrations** pane in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. You must use the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to configure the application. For a walkthrough, see [Walkthrough: Deploying a Basic BizTalk Application](/biztalk/core/walkthrough-deploying-a-basic-biztalk-application).
 
  Configuring an application involves:
 

@@ -33,7 +33,7 @@ This section provides information about managing BizTalk applications, including
   
 -   [BizTalk Application Deployment and Management Checklists](../core/biztalk-application-deployment-and-management-checklists.md)  
   
--   [Walkthrough: Deploying a Basic BizTalk Application](Walkthrough:%20Deploying%20a%20Basic%20BizTalk%20Application.md) 
+-   [Walkthrough: Deploying a Basic BizTalk Application](/biztalk/core/walkthrough-deploying-a-basic-biztalk-application) 
   
 -   [Understanding BizTalk Application Deployment and Management](../core/understanding-biztalk-application-deployment-and-management.md)  
   
