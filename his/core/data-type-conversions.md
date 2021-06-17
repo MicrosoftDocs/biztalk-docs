@@ -123,4 +123,4 @@ RETURN @@ROWCOUNT;
   
   Fixed and variable-length data types for storing large non-Unicode and Unicode character and binary data. Unicode data uses the UNICODE UCS-2 character set.  
   
-  See [ntext, text, and image (Transact-SQL)](https://docs.microsoft.com/sql/t-sql/data-types/ntext-text-and-image-transact-sql).
+  See [ntext, text, and image (Transact-SQL)](/sql/t-sql/data-types/ntext-text-and-image-transact-sql).

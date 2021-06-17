@@ -36,7 +36,7 @@ GO
   
  *SQL Server stored procedure to enable CLR integration.*  
   
- For more information, see [CLR Integration - Enabling](https://docs.microsoft.com/sql/relational-databases/clr-integration/clr-integration-enabling).  
+ For more information, see [CLR Integration - Enabling](/sql/relational-databases/clr-integration/clr-integration-enabling).  
   
 ## SQL Transformer Unicode Output  
  The SQL Transformer will output NCHAR and NVARCHAR for all string values. The `sqlTransformsUnicodeOutput` attribute instructs the DRDA Service to encode output from the CLR-based SQL transformer in Unicode or ANSI. This `optional` attribute accepts a `Boolean` value. The default value is `false`, which instructs the DRDA Service to output `ANSI CHAR` and `VARCHAR` strings.

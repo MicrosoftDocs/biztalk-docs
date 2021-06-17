@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Dynamic Data Web
-This walkthrough demonstrates how you can create a basic Web site that uses ASP.NET Dynamic Data and a WCF Data Service. Dynamic Data enables you to create a data-driven Web site with little or no coding. WCF Data Services enables you to create and consume Open Data Protocol (OData) services in your application. You can use the Entity Provider for DB2 to generate Dynamic Data and WCF Data Services to access information stored in an IBM DB2 relational database. For more information, see [ASP.NET Dynamic Data Content Map](https://go.microsoft.com/fwlink/?LinkId=199029) (https://go.microsoft.com/fwlink/?LinkId=199029) and [WCF Data Services](https://go.microsoft.com/fwlink/?LinkId=199030) (https://go.microsoft.com/fwlink/?LinkId=199030).
+This walkthrough demonstrates how you can create a basic Web site that uses ASP.NET Dynamic Data and a WCF Data Service. Dynamic Data enables you to create a data-driven Web site with little or no coding. WCF Data Services enables you to create and consume Open Data Protocol (OData) services in your application. You can use the Entity Provider for DB2 to generate Dynamic Data and WCF Data Services to access information stored in an IBM DB2 relational database. For more information, see [ASP.NET Dynamic Data Content Map](/previous-versions/aspnet/cc488545(v=vs.100)) (https://go.microsoft.com/fwlink/?LinkId=199029) and [WCF Data Services](/dotnet/framework/data/wcf/) (https://go.microsoft.com/fwlink/?LinkId=199030).
 
  This topic contains the following sections:
 
@@ -126,7 +126,7 @@ This walkthrough demonstrates how you can create a basic Web site that uses ASP.
      This registers the data context for use by Dynamic Data and enables scaffolding for the data model.
 
     > [!IMPORTANT]
-    >  Enabling scaffolding by setting the variable **ScaffoldAllTables** to true can pose a security risk because you are exposing all the tables in the data model for display and edit operations. For more information, see [ASP.NET Dynamic Data Scaffolding](https://go.microsoft.com/fwlink/?LinkId=199054) (https://go.microsoft.com/fwlink/?LinkId=199054).
+    >  Enabling scaffolding by setting the variable **ScaffoldAllTables** to true can pose a security risk because you are exposing all the tables in the data model for display and edit operations. For more information, see [ASP.NET Dynamic Data Scaffolding](/previous-versions/ee377606(v=vs.140)) (https://go.microsoft.com/fwlink/?LinkId=199054).
 
 4.  In the File menu, click **Save Global.asax**.
 

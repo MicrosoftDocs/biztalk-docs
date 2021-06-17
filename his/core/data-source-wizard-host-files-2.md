@@ -133,15 +133,15 @@ You can use the Data Source Wizard to guide you through the steps to configure a
  You must specify a string to instruct the Data Provider to load a Host Integration Designer XML (HIDX) metadata file for encoding and decoding records in mainframe z/OS, midrange i5/OS and offline host files.
 
 ##  <a name="locale"></a> Locale
- Optionally, to increase performance and reduce the impact on the remote database, you can select the coded character set identifier (CCSID) for the remote IBM host file system server (host) and local data consumer (PC). The Data Provider uses these values to convert character strings to a code page supported by these databases. The Data Provider supports a combination of single byte character sets (SBCS), mixed-byte character sets (MBCS) double-byte character sets (DBCS), and Unicode - UTF8 [1208], which is an 8-bit Unicode transformation format. For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ Optionally, to increase performance and reduce the impact on the remote database, you can select the coded character set identifier (CCSID) for the remote IBM host file system server (host) and local data consumer (PC). The Data Provider uses these values to convert character strings to a code page supported by these databases. The Data Provider supports a combination of single byte character sets (SBCS), mixed-byte character sets (MBCS) double-byte character sets (DBCS), and Unicode - UTF8 [1208], which is an 8-bit Unicode transformation format. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
  **Host CCSID**
 
- The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM host file system servers for z/OS and i5/OS utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM host file system servers for z/OS and i5/OS utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
  **PC Code page**
 
- The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode. For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
 ##  <a name="sec"></a> Security
  The Security screen enables you to configure one of two security methods: interactive sign-on, single sign-on.

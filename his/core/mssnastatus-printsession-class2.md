@@ -115,7 +115,7 @@ class MsSnaStatus_PrintSession : MsSnaStatus_Config
 |[PA2Key](../core/mssnastatus-printsession-pa2key-method2.md)|Simulates pressing the PA2Key.|  
 |[Cancel](../core/mssnastatus-printsession-cancel-method1.md)|Cancels the print session.|  
   
- For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see [IWbemServices interface](https://msdn.microsoft.com/library/gg196568(v=vs.85).aspx). 
+ For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see [IWbemServices interface](/windows/win32/wmisdk/iwbemservices-methods). 
   
 ## Requirements  
  **Platforms**: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2012  

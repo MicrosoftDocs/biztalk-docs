@@ -22,7 +22,7 @@ This topic provides an overview of the test application; a description of the te
 
  The figure below illustrates the high-level architecture used. Visual Studio Team System (VSTS) 2008 Test Load Agent invoked a custom test class, which used the WCF transport to generate load against [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application in this scenario was exposed via a WCF-BasicHttp request-response receive location. VSTS 2008 Test Load Agent was used as the test client because of the great flexibility that it provides, including the capability to configure the number of messages sent in total, number of simultaneous threads, and the sleep interval between requests sent.
 
- Several VSTS 2008 Test Load Agent computers can be run in tandem to simulate real world load patterns. For these tests, the VSTS 2008 Test Load Agent computers were driven by a single VSTS 2008 Test Load Agent Controller computer that was also running BizUnit 3.0. As a result, a consistent load was sent to both the physical and virtual [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers. For more information about using VSTS 2008 Test Edition to generate simulated load for testing, see [https://go.microsoft.com/fwlink/?LinkID=132311](https://go.microsoft.com/fwlink/?LinkID=132311).
+ Several VSTS 2008 Test Load Agent computers can be run in tandem to simulate real world load patterns. For these tests, the VSTS 2008 Test Load Agent computers were driven by a single VSTS 2008 Test Load Agent Controller computer that was also running BizUnit 3.0. As a result, a consistent load was sent to both the physical and virtual [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers. For more information about using VSTS 2008 Test Edition to generate simulated load for testing, see [https://go.microsoft.com/fwlink/?LinkID=132311](/previous-versions/visualstudio/visual-studio-2008/ms182634(v=vs.90)).
 
  ![Application Architecture](../technical-guides/media/testapplicationarchitecture.gif "TestApplicationArchitecture")
 Test Application Architecture
@@ -164,7 +164,7 @@ Test Application Orchestration
      ![Test Pattern Settings](../technical-guides/media/wcfloadtestpatternsettings.gif "WCFLoadTestPatternSettings")
      Test Pattern Settings
 
-  For more information about working with load tests in [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)], see the topic **Working with Load Tests** in the [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)] Team System documentation at [https://go.microsoft.com/fwlink/?LinkId=141486](https://go.microsoft.com/fwlink/?LinkId=141486).
+  For more information about working with load tests in [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)], see the topic **Working with Load Tests** in the [!INCLUDE[btsVStudio2008](../includes/btsvstudio2008-md.md)] Team System documentation at [https://go.microsoft.com/fwlink/?LinkId=141486](/previous-versions/visualstudio/visual-studio-2008/ms182561(v=vs.90)).
 
 ## Key Performance Indicators Measured During Testing
  The following Performance Monitor counters were captured as key performance indicators (KPI) for all test runs:
@@ -211,7 +211,7 @@ Test Application Orchestration
 
   **For SQL Server:**
 
-- SQL Server was installed as per the installation guide available at [https://go.microsoft.com/fwlink/?LinkId=141021](https://go.microsoft.com/fwlink/?LinkId=141021).
+- SQL Server was installed as per the installation guide available at [https://go.microsoft.com/fwlink/?LinkId=141021](/sql/database-engine/install-windows/install-sql-server).
 
 - [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] used had the SAN LUNs configured as per the table below. The database and log files were separated to across the LUNs as follows to reduce possible disk I/O contention:
 
@@ -259,7 +259,7 @@ Test Application Orchestration
 > [!NOTE]
 >  Running Sysprep after BizTalk Server has been installed and configured on the server can be accomplished through the use of a Sysprep answer file and scripts provided with BizTalk Server. These sample scripts are designed for use with BizTalk Server installed on 32-bit and 64-bit versions of [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] only. For more information see the BizTalk Server online documentation.
 
- The Unattended Windows Setup Reference is available at [https://go.microsoft.com/fwlink/?LinkId=142364](https://go.microsoft.com/fwlink/?LinkId=142364).
+ The Unattended Windows Setup Reference is available at [https://go.microsoft.com/fwlink/?LinkId=142364](/previous-versions/windows/it-pro/windows-vista/cc722187(v=ws.10)).
 
 ## See Also
  [Appendix C: BizTalk Server and SQL Server Hyper-V Supportability](../technical-guides/appendix-c-biztalk-server-and-sql-server-hyper-v-supportability.md)
