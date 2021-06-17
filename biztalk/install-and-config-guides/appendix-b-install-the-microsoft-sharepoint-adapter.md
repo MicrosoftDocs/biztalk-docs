@@ -65,10 +65,10 @@ SharePoint support is listed in the following table:
 
     |Version|CSOM Support|
     |---|---|
-    |SharePoint 2016<br /><br /> [Install SharePoint 2016](https://technet.microsoft.com/library/cc262957(v=office.16).aspx)|Yes|
-    |SharePoint 2013<br /><br /> [Install SharePoint 2013](https://technet.microsoft.com/library/cc262957.aspx)|Yes|
-    |SharePoint Online<br /><br /> [SharePoint Online administration](https://technet.microsoft.com/library/gg132908.aspx)|Yes|
-    |SharePoint 2010<br /><br /> [Installation and Deployment for SharePoint Server 2010](https://technet.microsoft.com/library/cc262957(v=office.14).aspx)|Yes|
+    |SharePoint 2016<br /><br /> [Install SharePoint 2016](/SharePoint/install/install)|Yes|
+    |SharePoint 2013<br /><br /> [Install SharePoint 2013](/SharePoint/install/install)|Yes|
+    |SharePoint Online<br /><br /> [SharePoint Online administration](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)|Yes|
+    |SharePoint 2010<br /><br /> [Installation and Deployment for SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc262957(v=office.14))|Yes|
     |SharePoint 2007 |No|
 
 2.  On the BizTalk Server, install Windows Identity Foundation:
@@ -92,15 +92,15 @@ SharePoint support is listed in the following table:
 
     |Version|SSOM Support|
     |---|---|
-    |SharePoint 2016<br /><br /> [Install SharePoint 2016](https://technet.microsoft.com/library/cc262957(v=office.16).aspx)|No|
-    |SharePoint 2013<br /><br /> [Install SharePoint 2013](https://technet.microsoft.com/library/cc303424.aspx)|No|
-    |SharePoint Online<br /><br /> [SharePoint Online administration](https://technet.microsoft.com/library/gg132908.aspx)|No|
-    |SharePoint 2010<br /><br /> [Installation and Deployment for SharePoint Server 2010](https://technet.microsoft.com/library/cc262957(v=office.14).aspx)|Yes|
-    |SharePoint 2007<br /><br /> [Installation for SharePoint Server 2007](https://technet.microsoft.com/library/cc262957(v=office.12).aspx) |Yes|
+    |SharePoint 2016<br /><br /> [Install SharePoint 2016](/SharePoint/install/install)|No|
+    |SharePoint 2013<br /><br /> [Install SharePoint 2013](/SharePoint/install/install-for-sharepoint-server-2016)|No|
+    |SharePoint Online<br /><br /> [SharePoint Online administration](/powershell/sharepoint/sharepoint-online/introduction-sharepoint-online-management-shell)|No|
+    |SharePoint 2010<br /><br /> [Installation and Deployment for SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc262957(v=office.14))|Yes|
+    |SharePoint 2007<br /><br /> [Installation for SharePoint Server 2007](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262957(v=office.12)) |Yes|
 
 2.  On the SharePoint computer, configure SharePoint, and extend the Default Web Site. When you extend the web site, a separate IIS web site is created that contains the same content but also provides a unique URL and authentication type.
 
-     See [SharePoint 2010: Extend a Web Application](https://go.microsoft.com/fwlink/p/?LinkId=259124).
+     See [SharePoint 2010: Extend a Web Application](/previous-versions/office/sharepoint-server-2010/cc261698(v=office.14)).
 
 3.  On the SharePoint computer, run the BizTalk Server installation and **only** check **Windows SharePoint Services Adapter**. This installs the web service. **Do not run the BizTalk configuration**.
 
@@ -111,4 +111,3 @@ SharePoint support is listed in the following table:
     -   **ASP.NET**: Open IIS Manager, click the web site, and then double-click **Handler Mappings**. In the **Enabled** list, confirm **PageHandlerFactory-ISAPI-2.0-64** is listed.
 
     -   **Application Pool**: Open IIS Manager, click **Application Pools**, select the application pool, and then click **Advanced Settings**. In **Enable 32-bit applications**, select **False**.
-

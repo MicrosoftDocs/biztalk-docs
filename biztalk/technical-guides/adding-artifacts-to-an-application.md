@@ -19,7 +19,7 @@ You can add and configure artifacts, such as send and receive ports, receive loc
 
  You can add additional (typically non-BizTalk Server) artifacts, such as scripts, certificates, and Readme files, to the application under the Resources node. To do so, use the Administration console or BTSTask.
 
- For more information about artifacts, see [How to Create or Add an Artifact](https://go.microsoft.com/fwlink/?LinkID=154724) (https://go.microsoft.com/fwlink/?LinkID=154724), [Managing Artifacts](https://go.microsoft.com/fwlink/?LinkID=154725) (https://go.microsoft.com/fwlink/?LinkID=154725) and [Binding Files and Application Deployment](https://go.microsoft.com/fwlink/?LinkID=154726) (https://go.microsoft.com/fwlink/?LinkID=154726).
+ For more information about artifacts, see [How to Create or Add an Artifact](../core/how-to-create-or-add-an-artifact.md) (https://go.microsoft.com/fwlink/?LinkID=154724), [Managing Artifacts](../core/managing-artifacts.md) (https://go.microsoft.com/fwlink/?LinkID=154725) and [Binding Files and Application Deployment](https://go.microsoft.com/fwlink/?LinkID=154726) (https://go.microsoft.com/fwlink/?LinkID=154726).
 
 ## Factoring Artifacts into Multiple BizTalk Applications
  During the development process, you may have deployed your assemblies into a single application for convenience. For various reasons, you may want to factor the artifacts into multiple applications before they are deployed into production.

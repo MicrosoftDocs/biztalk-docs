@@ -76,4 +76,4 @@ A message is an electronic instance of data, as typically exchanged between two 
     >  A promoted property can contain sensitive data. If tracking queries from the Group Hub page track a property which includes sensitive data, any user with permissions to run the tracking queries can view this data.  
   
 ## See Also  
- [Configuring Tracking Using the BizTalk Server Administration Console](https://msdn.microsoft.com/49b7f9d3-60b5-41bd-ba8b-029253926bef)
+ [Configuring Tracking Using the BizTalk Server Administration Console](/previous-versions/)

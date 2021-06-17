@@ -19,7 +19,7 @@ This topic provides an overview of Hyper-V architecture, describes advantages an
   
 ## Hyper-V Architecture  
   
- Hyper-V is a hypervisor-based virtualization platform and an enabling technology for one of Windows Server’s marquee features, Live Migration. With Hyper-V, Windows Server is capable of Quick Migration, which could move VMs between physical hosts with only a few seconds of down-time. With Live Migration, moves between physical targets happen in millisecond, which means migration operations become invisible to connected users. See [What's new in Hyper-V on Windows Server](https://docs.microsoft.com/windows-server/virtualization/hyper-v/what-s-new-in-hyper-v-on-windows).
+ Hyper-V is a hypervisor-based virtualization platform and an enabling technology for one of Windows Server’s marquee features, Live Migration. With Hyper-V, Windows Server is capable of Quick Migration, which could move VMs between physical hosts with only a few seconds of down-time. With Live Migration, moves between physical targets happen in millisecond, which means migration operations become invisible to connected users. See [What's new in Hyper-V on Windows Server](/windows-server/virtualization/hyper-v/what-s-new-in-hyper-v-on-windows).
   
  The hypervisor is the processor-specific virtualization platform that can host multiple virtual machines (VMs) that are isolated from each other but share the underlying hardware resources by virtualizing the processors, memory, and I/O devices.  
   
@@ -75,7 +75,7 @@ This topic provides an overview of Hyper-V architecture, describes advantages an
   Most of these terms are defined in the [Glossary](../technical-guides/glossary8.md).  
   
 > [!NOTE]  
->  [Hyper-V Technology Overview](https://docs.microsoft.com/windows-server/virtualization/hyper-v/hyper-v-technology-overview) is a good resource. 
+>  [Hyper-V Technology Overview](/windows-server/virtualization/hyper-v/hyper-v-technology-overview) is a good resource. 
   
 ## Advantages
  The advantages of running enterprise-level solutions in a Hyper-V virtualized environment include the following:  
@@ -102,7 +102,7 @@ This topic provides an overview of Hyper-V architecture, describes advantages an
   
    -   Consolidation of existing servers into fewer physical servers simplifies deployment.  
   
-   -   A comprehensive Hyper-V management solution is available with System Center Virtual Machine Manager. [What's new in VMM in System Center](https://docs.microsoft.com/system-center/vmm/whats-new?view=sc-vmm-2016) provides some guidance.
+   -   A comprehensive Hyper-V management solution is available with System Center Virtual Machine Manager. [What's new in VMM in System Center](/system-center/vmm/whats-new?view=sc-vmm-2016) provides some guidance.
   
 6. **Key Hyper-V performance characteristics**:  
   
@@ -120,7 +120,7 @@ This topic provides an overview of Hyper-V architecture, describes advantages an
   
 8. **Scalability** – Additional processing power, network bandwidth, and storage capacity can be accomplished quickly and easily by apportioning additional available resources from the host computer to the guest virtual machine(s). This may require that the host computer is upgraded or that the guest virtual machines are moved to a more capable host computer.  
   
-   For more in depth information about the benefits of leveraging virtualization technology provided with Hyper-V, see the [Hyper-V Technology Overview](https://docs.microsoft.com/windows-server/virtualization/hyper-v/hyper-v-technology-overview). 
+   For more in depth information about the benefits of leveraging virtualization technology provided with Hyper-V, see the [Hyper-V Technology Overview](/windows-server/virtualization/hyper-v/hyper-v-technology-overview). 
   
 ## Disadvantages
  Some disadvantages of running enterprise-level solutions in a Hyper-V virtualized environment may include:  

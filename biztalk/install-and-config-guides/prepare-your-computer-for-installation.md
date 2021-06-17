@@ -50,9 +50,9 @@ This topic lists the steps to prepare your computer by installing and configurin
 
 For the specific install steps, see:
 
-[Install IIS (Windows 8 and Windows Server 2012)](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012)
+[Install IIS (Windows 8 and Windows Server 2012)](/iis/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012)
 
-[Install IIS (Windows 7 and Windows Vista)](https://docs.microsoft.com/iis/install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7)
+[Install IIS (Windows 7 and Windows Vista)](/iis/install/installing-iis-7/installing-iis-on-windows-vista-and-windows-7)
 
 
 When you install IIS, in addition to the default checked options, also check the following:
@@ -272,9 +272,9 @@ Also consider the following:
 -   [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md) provides specific information on the SharePoint installation options.
 
 ##  <a name="BKMK_WSS"></a> Install and Configure Microsoft SharePoint
- Install [SharePoint 2013](https://technet.microsoft.com/library/cc303424.aspx)
+ Install [SharePoint 2013](/SharePoint/install/install-for-sharepoint-server-2016)
 
- Install [SharePoint Online Service](https://technet.microsoft.com/library/jj819267.aspx)
+ Install [SharePoint Online Service](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description)
 
  Install [SharePoint Server 2010](https://technet.microsoft.com/library/cc303424\(v=office.14\).aspx)
 
@@ -352,10 +352,10 @@ Also consider the following:
 -   BizTalk Server setup keeps a record of events in the Application Event Log. Depending on the BizTalk Server features installed, the amount of space required in the log may exceed its limit. If the application event log runs out of space during BizTalk Server setup, the installation fails. Changing the Application Event Log settings prevents this failure.
 
 ## Next
- [Choose BizTalk Server Features and Components](https://msdn.microsoft.com/library/b8c43fcf-9e5c-48ba-830b-13a5177e30f0)
+ [Choose BizTalk Server Features and Components](/previous-versions/)
 
 ## See Also
- [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](/previous-versions/)
  [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md)
  [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)
  [Appendix C: Redistributable CAB Files](../install-and-config-guides/appendix-c-redistributable-cab-files.md)

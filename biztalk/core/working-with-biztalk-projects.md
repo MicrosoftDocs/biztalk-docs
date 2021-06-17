@@ -40,4 +40,4 @@ While many of the principles of creating an application with the BizTalk project
  [Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)   
  [Understanding BizTalk Application Deployment and Management](../core/understanding-biztalk-application-deployment-and-management.md)   
  [BizTalk Application Deployment and Management Checklists](../core/biztalk-application-deployment-and-management-checklists.md)   
- [BizTalk Application Deployment and Management Walkthroughs](https://msdn.microsoft.com/library/5321f8e0-1e2a-4ac4-a4a2-fc244071bc5b)
+ [BizTalk Application Deployment and Management Walkthroughs](/previous-versions/)

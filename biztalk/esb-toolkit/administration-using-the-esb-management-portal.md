@@ -41,7 +41,7 @@ The ESB Management Portal, included as part of the [!INCLUDE[esbToolkit](../incl
 
 - ASP.NET
 
-- [Enterprise Library](https://go.microsoft.com/fwlink/?LinkId=188292) ([https://go.microsoft.com/fwlink/?LinkId=188292](https://go.microsoft.com/fwlink/?LinkId=188292)). The ESB Management Portal uses the following Enterprise Library assemblies:
+- [Enterprise Library](/previous-versions/msp-n-p/ff632023(v=pandp.10)) ([https://go.microsoft.com/fwlink/?LinkId=188292](/previous-versions/msp-n-p/ff632023(v=pandp.10))). The ESB Management Portal uses the following Enterprise Library assemblies:
 
   -   **Microsoft.Practices.EnterpriseLibrary.Caching**
 

@@ -37,7 +37,7 @@ If your computer name is longer than 15 characters, then BizTalk Server configur
 2. In **Properties**, select the Computer name property to change it.
 3. Restart the computer. 
 
-**SEE ALSO** : Windows PowerShell [Rename-Computer](https://technet.microsoft.com/library/hh849792.aspx)
+**SEE ALSO** : Windows PowerShell [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer)
 
 ## Enable Network DTC Access
 
@@ -92,7 +92,7 @@ The [Visual C++ downloads](https://support.microsoft.com/help/2977003/the-latest
 
 ## Install Microsoft OLE DB Driver for SQL Server
 
-Download and install the [Microsoft OLE DB Driver for SQL Server](https://docs.microsoft.com/sql/connect/oledb/oledb-driver-for-sql-server).
+Download and install the [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/oledb-driver-for-sql-server).
 
 ## Enable IIS
 
@@ -202,7 +202,7 @@ Visual Studio Enterprise (recommended) and Professional editions are supported. 
 2. Select a **Default** installation. BizTalk Server does not require any of the optional features.
 3. Continue with the installation, and restart your computer if prompted.
 
-**SEE ALSO** : [Installing Visual Studio 2019](https://docs.microsoft.com/visualstudio/install/install-visual-studio?view=vs-2019)
+**SEE ALSO** : [Installing Visual Studio 2019](/visualstudio/install/install-visual-studio?view=vs-2019)
 
 > [!IMPORTANT]
 > - The BizTalk Server development tools are based on Visual Studio. At a minimum, install the .NET desktop development workload before you install the BizTalk Server Developer Tools/SDK and BizTalk Server extension.
@@ -217,7 +217,7 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
 > - BizTalk Server supports SQL Standard Edition. However, to use Business Activity Monitoring real-time aggregation (BAM RTA), install SQL Server Enterprise Edition. BAM real-time aggregation (RTA) is not supported in the Standard Edition of SQL Server.
 > - BizTalk Server supports all case-sensitive and case-insensitive SQL Server collations except for binary collations. Binary collations are not supported.
 
-**For specific install steps, see** [Install SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup).
+**For specific install steps, see** [Install SQL Server](/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup).
 
 1. Start the SQL Server installation. 
 2. During the Feature setup, select the following:
@@ -247,13 +247,13 @@ Typically, the Shared Memory protocol only impacts clients (BizTalk Server) that
 
 If you use BAM Alerts, BizTalk Server requires SQL Server Database Mail. If you don't use BAM Alerts, then skip this section. 
 
-**SEE ALSO** : More on [Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/database-mail).
+**SEE ALSO** : More on [Database Mail](/sql/relational-databases/database-mail/database-mail).
 
 > [!IMPORTANT]
 > - You need to know the server name and TCP port number for the SMTP Server. If you installed IIS and SMTP Server on this same computer, then you use the local SMTP Server. If the SMTP server requires authentication, then have the user name and password ready.
 > - The BAM portal and BAM Alerts are separate features. If you are using BAM Alerts, then SQL Server Database Mail is required. If you are not using BAM Alerts, then SQL Server Database Mail is not required.
 
-**For specific configuration steps, see**: Configure [SQL Server Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail).
+**For specific configuration steps, see**: Configure [SQL Server Database Mail](/sql/relational-databases/database-mail/configure-database-mail).
    
 To send a test email: 
 1. Right-click **Database Mail**, and select **Send Test E-Mail**. 
@@ -264,9 +264,9 @@ If the **To:** recipient receives the email, then Database Mail is configured.
 ## Create the SSIS Catalog (optional)
 If you use BAM, BizTalk Server requires SSIS Catalog to be created. If you don't use BAM, then skip this section.
 
-**SEE ALSO** : More on [SSIS Catalog](https://docs.microsoft.com/sql/integration-services/catalog/ssis-catalog).
+**SEE ALSO** : More on [SSIS Catalog](/sql/integration-services/catalog/ssis-catalog).
 
-**For specific steps to create the SSIS Catalog, see**: [Create the SSIS Catalog](https://docs.microsoft.com/sql/integration-services/catalog/ssis-catalog#create-the-ssis-catalog).
+**For specific steps to create the SSIS Catalog, see**: [Create the SSIS Catalog](/sql/integration-services/catalog/ssis-catalog#create-the-ssis-catalog).
 
 ## Install WinSCP (optional)
 

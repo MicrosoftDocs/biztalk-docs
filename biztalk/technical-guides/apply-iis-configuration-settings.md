@@ -32,7 +32,7 @@ By default the SOAP, HTTP, and HTTP-based WCF adapters (and .NET in general) ope
 
  In IIS 7.0 Integrated Mode, the maxWorkerThreads and the maxIoThreads parameters in the “processModel” section of the machine.config file are not used to govern the number of running requests, per se, but they are still used to govern the size of the CLR thread pool used by ASP.NET. When the “processModel” section of the machine.config has “autoConfig=true” (which is the default setting), this will give the application pool up to 100 worker threads (MaxWorkerThreads) per logical CPU. So a common commodity server with 2 dual-core CPUs would have 400 MaxWorkerThreads. This should be sufficient for all but the most demanding applications.
 
- For more information about configuring ASP.NET Thread Usage on IIS 7.0 and 6.0, see [Thomas Marquardt's Blog on ASP.NET Thread Usage on IIS 7.0 and 6.0](https://go.microsoft.com/fwlink/?LinkId=157518) (https://go.microsoft.com/fwlink/?LinkId=157518).
+ For more information about configuring ASP.NET Thread Usage on IIS 7.0 and 6.0, see [Thomas Marquardt's Blog on ASP.NET Thread Usage on IIS 7.0 and 6.0](/archive/blogs/tmarq/) (https://go.microsoft.com/fwlink/?LinkId=157518).
 
 ## Log only essential information or completely disable IIS logging
  IIS logging should be minimized or even disabled in a production environment. To disable logging follow these steps:
@@ -67,13 +67,13 @@ By default the SOAP, HTTP, and HTTP-based WCF adapters (and .NET in general) ope
 
 3. Click to expand **Limits Properties** under **Behavior**, click **Threads Per Processor Limit**, enter the desired value for **Threads Per Processor Limit** and click **Apply** in the **Actions** pane.
 
-   For more information about how to modify the properties in the \<limits\> element of the IIS 7.0 \<asp\> element, see [ASP Limits \<limits\>](https://go.microsoft.com/fwlink/?LinkId=157483) (https://go.microsoft.com/fwlink/?LinkId=157483).
+   For more information about how to modify the properties in the \<limits\> element of the IIS 7.0 \<asp\> element, see [ASP Limits \<limits\>](/iis/configuration/system.webServer/asp/limits) (https://go.microsoft.com/fwlink/?LinkId=157483).
 
 > [!NOTE]
 >  Because this property can only be applied at the server level, modification of this property affects all Web sites that run on the server.
 
 > [!NOTE]
->  The ASP **Threads Per Processor Limit** property for IIS 7.0 replaces the IIS 6.0 **ASPProcessorThreadMax** ASP Metabase setting. For information about the IIS 6.0 ASPProcessorThreadMax ASP Metabase setting, see [Tuning ASP Metabase Settings](https://go.microsoft.com/fwlink/?LinkId=158834) (https://go.microsoft.com/fwlink/?LinkId=158834) on MSDN.
+>  The ASP **Threads Per Processor Limit** property for IIS 7.0 replaces the IIS 6.0 **ASPProcessorThreadMax** ASP Metabase setting. For information about the IIS 6.0 ASPProcessorThreadMax ASP Metabase setting, see [Tuning ASP Metabase Settings](/previous-versions/windows/it-pro/windows-server-2003/cc757982(v=ws.10)) (https://go.microsoft.com/fwlink/?LinkId=158834) on MSDN.
 
 ## Tune the value of the ASP Queue Length property
  The goal of tuning this property is to ensure good response time while minimizing how often the server sends the HTTP 503 (Server Too Busy) error to clients when the ASP request queue is full. If the value of ASP Queue Length property is too low, the server will send the HTTP 503 error with greater frequency. If the value of ASP Queue Length property is too high, users might perceive that the server is not responding when in fact their request is waiting in the queue. By watching the queue during periods of high traffic, you should discern a pattern of web request peaks and valleys. Make note of the peak value, and set the value of the ASP Queue Length property just above the peak value. Use the queue to handle short-term spikes, ensure response time, and throttle the system to avoid overload when sustained, unexpected spikes occur. If you do not have data for adjusting the ASP Queue Length property, a good starting point will be to set a one-to-one ratio of queues to total threads. For example, if the ASP Threads Per Processor Limit property is set to 25 and you have four processors (4 * 25 = 100 threads), set the ASP Queue Length property to 100 and tune from there.
@@ -86,19 +86,19 @@ By default the SOAP, HTTP, and HTTP-based WCF adapters (and .NET in general) ope
 
 3. Click to expand **Limits Properties** under **Behavior**, click **Queue Length**, enter the desired value for **Queue Length** and then click **Apply** in the **Actions** pane.
 
-   For more information about how to modify the properties in the \<limits\> element of the IIS 7.0 \<asp\> element, see [ASP Limits \<limits\>](https://go.microsoft.com/fwlink/?LinkId=157483) (https://go.microsoft.com/fwlink/?LinkId=157483).
+   For more information about how to modify the properties in the \<limits\> element of the IIS 7.0 \<asp\> element, see [ASP Limits \<limits\>](/iis/configuration/system.webServer/asp/limits) (https://go.microsoft.com/fwlink/?LinkId=157483).
 
 > [!NOTE]
 >  Because this property can only be applied at the server level, modification of this property affects all Web sites that run on the server.
 
 > [!NOTE]
->  The ASP **Queue Length** property for IIS 7.0 replaces the IIS 6.0 **AspRequestQueueMax** ASP Metabase setting. For information about the IIS 6.0 AspRequestQueueMax ASP Metabase setting, see [Tuning ASP Metabase Settings](https://go.microsoft.com/fwlink/?LinkId=158834) (https://go.microsoft.com/fwlink/?LinkId=158834) on MSDN.
+>  The ASP **Queue Length** property for IIS 7.0 replaces the IIS 6.0 **AspRequestQueueMax** ASP Metabase setting. For information about the IIS 6.0 AspRequestQueueMax ASP Metabase setting, see [Tuning ASP Metabase Settings](/previous-versions/windows/it-pro/windows-server-2003/cc757982(v=ws.10)) (https://go.microsoft.com/fwlink/?LinkId=158834) on MSDN.
 
 ## Tune the MaxPoolThreads registry entry
  This setting specifies the number of pool threads to create per processor. Pool threads watch the network for requests and process incoming requests. The MaxPoolThreads count does not include threads that are consumed by ISAPI applications. Generally, you should not create more than 20 threads per processor. MaxPoolThreads is a REG_DWORD registry entry located at HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\InetInfo\Parameters\ with a default value of 4.
 
 ## Disable WCF services tracing
- Use the Configuration Editor Tool (SvcConfigEditor.exe) to disable WCF services tracing in a production environment. For more information about the Configuration Editor Tool, see [Configuration Editor Tool (SvcConfigEditor.exe)](https://go.microsoft.com/fwlink/?LinkID=127070) (https://go.microsoft.com/fwlink/?LinkID=127070).
+ Use the Configuration Editor Tool (SvcConfigEditor.exe) to disable WCF services tracing in a production environment. For more information about the Configuration Editor Tool, see [Configuration Editor Tool (SvcConfigEditor.exe)](/dotnet/framework/wcf/configuration-editor-tool-svcconfigeditor-exe) (https://go.microsoft.com/fwlink/?LinkID=127070).
 
 ## See Also
  [Checklist: Configuring BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)
