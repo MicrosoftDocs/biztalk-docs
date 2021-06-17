@@ -38,7 +38,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 
 -   Review the [Failover Cluster Validation and Troubleshooting with Windows Server 2008](https://go.microsoft.com/fwlink/?LinkId=129729) TechNet Webcast on the Microsoft TechNet Web site. This web cast describes how to troubleshoot failover cluster validation and troubleshooting with Windows Server 2008.
 
--   For more information about analyzing problems with Windows Server 2008 failover clustering, review the topic [View Events and Logs for a Failover Cluster](https://go.microsoft.com/fwlink/?LinkId=129730) on the Microsoft TechNet Web site.
+-   For more information about analyzing problems with Windows Server 2008 failover clustering, review the topic [View Events and Logs for a Failover Cluster](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772342(v=ws.11)) on the Microsoft TechNet Web site.
 
 ## Known Issues
 
@@ -57,7 +57,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 ##### Resolution
  **Complete the following steps on a Windows Server 2008 cluster:**
 
--   Follow the steps in [Checklist: Creating an MS DTC Resource in a Windows Server 2008 Failover Cluster](https://go.microsoft.com/fwlink/?LinkId=129677) for creating one or more clustered MSDTC resources on a Windows Server 2008 failover cluster.
+-   Follow the steps in [Checklist: Creating an MS DTC Resource in a Windows Server 2008 Failover Cluster](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725955(v=ws.10)) for creating one or more clustered MSDTC resources on a Windows Server 2008 failover cluster.
 
 ## See Also
  [Using Windows Server Cluster to Provide High Availability for BizTalk Server Hosts2](../core/use-windows-cluster-to-provide-high-availability-for-biztalk-hosts.md)

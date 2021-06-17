@@ -18,7 +18,7 @@ manager: "anneta"
 # Step 1: Prepare for the EDI Interface Developer Tutorial
 ![Step 1 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-1of9.gif "Step_1of9")  
   
- The EDI Interface Development tutorial is run on a single computer. To prepare for the tutorial, you must install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] as described in [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5). You must also add reference to the BizTalk EDI Application  
+ The EDI Interface Development tutorial is run on a single computer. To prepare for the tutorial, you must install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] as described in [Installation Overview for BizTalk Server 2013 and 2013 R2](/previous-versions/). You must also add reference to the BizTalk EDI Application  
   
 > [!NOTE]
 >  For this tutorial to work, it must be run on a platform using IIS 7.5 or IIS 8.  

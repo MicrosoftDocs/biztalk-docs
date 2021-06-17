@@ -25,7 +25,7 @@ This section provides information about managing security, configuring user righ
   
  Fore more information about secure deployment of BizTalk Server, see [Securing Your BizTalk Server Deployment](../install-and-config-guides/securing-your-biztalk-server-deployment.md).  
   
- Fore more information about security features of BizTalk Server, see [Security and Protection1](https://msdn.microsoft.com/library/dn149557.aspx).  
+ Fore more information about security features of BizTalk Server, see [Security and Protection1](/host-integration-server/core/security-and-protection1).  
   
 ## In This Section  
   

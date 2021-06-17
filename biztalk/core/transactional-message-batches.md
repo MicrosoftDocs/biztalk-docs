@@ -25,7 +25,7 @@ Some adapters must coordinate an external transaction with an internal [!INCLUDE
  One of the reasons an adapter provides [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] with a transaction is to ensure that either [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] or the external system has a record of the data. This record ensures the message is delivered once and only once.
 
 > [!NOTE]
->  For more information about MSDTC, see the documentation for the Distributed Transaction Coordinator at: [https://go.microsoft.com/fwlink/?LinkId=44297](https://go.microsoft.com/fwlink/?LinkId=44297).
+>  For more information about MSDTC, see the documentation for the Distributed Transaction Coordinator at: [https://go.microsoft.com/fwlink/?LinkId=44297](/documentation/).
 
  The File adapter is an example of an adapter that does not require access to the transaction because the external file operations it manages are not transactional. In this case, the adapter does not provide a transaction object to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The SQL adapter, on the other hand, interacts with an SQL database and may have additional operations outside of its [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] message interactions. An external MSDTC transaction in this case may make sense for the adapter to pass to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
 

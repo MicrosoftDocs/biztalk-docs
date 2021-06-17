@@ -24,7 +24,7 @@ This section offers advice on how to identify and resolve common Web service iss
  You can enable tracing to debug the BizTalk Web Services Publishing Wizard by uncommenting the \<add\> node in the BTSWebSvcWiz.exe.config file. For more information about obtaining trace information from the Web Services Publishing Wizard, see [How to Modify BTSWebSvcWiz.exe.config](../core/how-to-modify-btswebsvcwiz-exe-config.md).
 
 ### Enabling SOAP message tracing
- You can enable SOAP message tracing to help you debug the Web services publishing application by using a SOAP extension. For more information about SOAP extensions, see [How to: Implement a SOAP Extension](https://go.microsoft.com/fwlink/?LinkId=62314).
+ You can enable SOAP message tracing to help you debug the Web services publishing application by using a SOAP extension. For more information about SOAP extensions, see [How to: Implement a SOAP Extension](/previous-versions/dotnet/netframework-4.0/7w06t139(v=vs.100)).
 
 ### Using the ThrowDetailedError switch
  If an error occurs, the Web client receives a generic **SoapException**.
@@ -160,7 +160,7 @@ This section offers advice on how to identify and resolve common Web service iss
 ### Why am I getting errors publishing my schema that uses the \<include\> element?
  Schemas cannot be published if they include circular references (the included schema has an **include** element to the including schema) or have an unresolved **schemaLocation** attribute.
 
- For more information about the limitation of the **include** element, see [Include Element Binding Support](https://go.microsoft.com/fwlink/?LinkId=62312). The Web Services Publishing Wizard has the same limitations as XSD.exe in .NET Framework 2.0; for more information, see [Import Element Binding Support](https://go.microsoft.com/fwlink/?LinkId=119606).
+ For more information about the limitation of the **include** element, see [Include Element Binding Support](/previous-versions/dotnet/netframework-2.0/2x3c3hhs(v=vs.80)). The Web Services Publishing Wizard has the same limitations as XSD.exe in .NET Framework 2.0; for more information, see [Import Element Binding Support](/previous-versions/dotnet/netframework-4.0/ew6ts9yw(v=vs.100)).
 
 ### Why do I receive errors when publishing my envelope schema?
  If you have an envelope schema that you are publishing as a Web service, you need to manually modify the generated Web project.

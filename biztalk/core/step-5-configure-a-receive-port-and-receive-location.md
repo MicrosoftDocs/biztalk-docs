@@ -51,7 +51,7 @@ manager: "anneta"
    >  The receive pipeline used to receive EDI interchanges, except for those delivered over the AS2 transport, is the EdiReceive pipeline. (The AS2EdiReceive receive pipeline is used to receive EDI interchanges delivered over the AS2 transport.)  
   
    > [!NOTE]
-   >  If EdiReceive is not listed in the drop-down list for receive pipeline, your application may not have a reference to the BizTalk EDI Application. To add the reference, see [How to Add a Reference to the BizTalk Server EDI Application](https://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
+   >  If EdiReceive is not listed in the drop-down list for receive pipeline, your application may not have a reference to the BizTalk EDI Application. To add the reference, see [How to Add a Reference to the BizTalk Server EDI Application](/previous-versions/).  
   
 9. Click **OK**, and then click **OK** again.  
   
