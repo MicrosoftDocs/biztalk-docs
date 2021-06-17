@@ -30,5 +30,5 @@ Stream stm = docspec.Serialize(new MyXmlReader(originalXmlReader), Encoding.Unic
 ```  
   
 ## See Also  
- [Microsoft.BizTalk.Component.Interop.IFFDocumentSpec](https://msdn.microsoft.com/library/microsoft.biztalk.component.interop.iffdocumentspec.aspx)   
+ [Microsoft.BizTalk.Component.Interop.IFFDocumentSpec](/previous-versions/)   
  [Using the Flat File Parsing Engine](../core/using-the-flat-file-parsing-engine.md)

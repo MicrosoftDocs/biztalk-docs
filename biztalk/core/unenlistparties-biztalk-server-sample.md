@@ -31,7 +31,7 @@ The UnenlistParties sample demonstrates how to unenlist all of the parties assoc
 
 - You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.
 
-- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information see: [Examining the Execution Policy](https://go.microsoft.com/fwlink/?LinkId=128930).
+- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information see: [Examining the Execution Policy](/previous-versions//bb648601(v=vs.85)).
 
 ## How This Sample is Designed and Why
  This sample, written in Visual C# using objects from the BizTalk Explorer object model, performs the following operations:

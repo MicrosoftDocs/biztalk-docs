@@ -51,7 +51,7 @@ manager: "anneta"
 
 - On the computers that you use to perform administrative tasks, you must run as a user account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group to configure the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application settings within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. This user account must also be a member of the local Administrators group for application deployment, managing host instances, and other tasks that may be required.
 
-- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [https://go.microsoft.com/fwlink/?LinkId=135510](https://go.microsoft.com/fwlink/?LinkId=135510).
+- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [https://go.microsoft.com/fwlink/?LinkId=135510](/dotnet/framework/wcf/samples/one-time-setup-procedure-for-the-wcf-samples).
 
 - On the computer that runs the sample and imports a binding or an .msi file into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ensure the host is not a trusted host or the import will fail.
 
@@ -82,7 +82,7 @@ manager: "anneta"
 
    2.  Make sure that the **Application Name** property is set to **WCFBasicHttpReceiveAdapter**. This is name of the BizTalk application where the BizTalk solution will be deployed.
 
-   3.  In Solution Explorer, right-click **BizTalkApp**, and then click **Deploy**. If not deploying locally you may need to configure SQL Server to allow remote connections. For more information, see [https://go.microsoft.com/fwlink/?LinkId=194141](https://go.microsoft.com/fwlink/?LinkId=194141).
+   3.  In Solution Explorer, right-click **BizTalkApp**, and then click **Deploy**. If not deploying locally you may need to configure SQL Server to allow remote connections. For more information, see [https://go.microsoft.com/fwlink/?LinkId=194141](/previous-versions//dd857537(v=vs.85)).
 
 ### To publish the sample orchestration by using the BizTalk WCF Service Publishing Wizard
 

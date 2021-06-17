@@ -22,7 +22,7 @@ The simplest way to use BAM is to send explicit milestones or data using the BAM
   
 -   Call `EndActivity` when the work is complete and you expect no more events in the context of this unit of work.  
   
--   Call [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](https://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.eventstream.updateactivity.aspx) in critical places of the implementation, to send data and milestones that will be useful to the information worker.  
+-   Call [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](/previous-versions/) in critical places of the implementation, to send data and milestones that will be useful to the information worker.  
   
 > [!IMPORTANT]
 >  The Event Stream must be flushed before disposing. The EventStream object does not perform an automatic flush of the data when disposed. This means that code you would typically write in which you flush the stream only after you have finished processing your activities can result in data loss if an exception occurs before a call to flush.  

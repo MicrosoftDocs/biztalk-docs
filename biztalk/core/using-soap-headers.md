@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Using SOAP Headers
-Microsoft BizTalk Server provides support for defined and unknown SOAP headers. Defined SOAP headers are headers in the Web Service Description Language (WSDL) that are explicity stated in the Web service. Unknown SOAP headers are headers that in the WSDL that are not explicity stated in the Web service. For more information about using SOAP headers, see "Using SOAP Headers" in the Microsoft .NET Framework documentation at [https://go.microsoft.com/fwlink/?LinkId=25363](https://go.microsoft.com/fwlink/?LinkId=25363).
+Microsoft BizTalk Server provides support for defined and unknown SOAP headers. Defined SOAP headers are headers in the Web Service Description Language (WSDL) that are explicity stated in the Web service. Unknown SOAP headers are headers that in the WSDL that are not explicity stated in the Web service. For more information about using SOAP headers, see "Using SOAP Headers" in the Microsoft .NET Framework documentation at [https://go.microsoft.com/fwlink/?LinkId=25363](/documentation/).
 
  BizTalk Server creates a context property for each defined SOAP header in the Web service.
 

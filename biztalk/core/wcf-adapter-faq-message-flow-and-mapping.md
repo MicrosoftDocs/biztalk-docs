@@ -58,7 +58,7 @@ manager: "anneta"
 
   Because the communication can sometimes be two-way, the WCF adapter allows the particular translation or mapping to be configured for both inbound and outbound directions of message exchange. This can be done for both the receive locations and send ports within BizTalk Server.
 
-  The BizTalk WCF adapters support a number of permutations of translating at run time between these two message structures. Mapping is controlled through the **Messages** tab in the **Transport Properties** dialog box for a WCF adapter. For example, the most obvious translation, and the default, is when the body of an inbound WCF message becomes the body of the BizTalk message. For more information about mapping modes, see [https://go.microsoft.com/fwlink/?LinkID=119792](https://go.microsoft.com/fwlink/?LinkID=119792).
+  The BizTalk WCF adapters support a number of permutations of translating at run time between these two message structures. Mapping is controlled through the **Messages** tab in the **Transport Properties** dialog box for a WCF adapter. For example, the most obvious translation, and the default, is when the body of an inbound WCF message becomes the body of the BizTalk message. For more information about mapping modes, see [https://go.microsoft.com/fwlink/?LinkID=119792](/previous-versions/).
 
 ## How can you preserve the complete incoming WCF message inside the BizTalk message?
  One of the inbound BizTalk message body options is the **Envelope** option. Choosing this option takes the entire SOAP message contained within the soap:Envelope element into the incoming BizTalk message body. The resulting BizTalk message contains the Envelope tags, all the headers, and the body.

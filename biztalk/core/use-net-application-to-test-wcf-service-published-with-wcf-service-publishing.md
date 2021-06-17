@@ -24,7 +24,7 @@ manager: "anneta"
 To test your published WCF service, you can create a .NET application that consumes your published WCF service. This topic describes how to create a .NET application to test a published WCF service.
 
 > [!NOTE]
->  The Visual Studio Help Collection contains a valuable walkthrough for creating a .NET application that consumes WCF services. You can use the walkthrough to test your published WCF service. For information and procedures about creating a WCF client project, see "Walkthrough: Accessing an XML Web Service Using Visual Basic or Visual C#" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [https://go.microsoft.com/fwlink/?LinkId=62263](https://go.microsoft.com/fwlink/?LinkId=62263).
+>  The Visual Studio Help Collection contains a valuable walkthrough for creating a .NET application that consumes WCF services. You can use the walkthrough to test your published WCF service. For information and procedures about creating a WCF client project, see "Walkthrough: Accessing an XML Web Service Using Visual Basic or Visual C#" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [https://go.microsoft.com/fwlink/?LinkId=62263](/previous-versions/xb5th1ba(v=vs.90)).
 >
 > [!NOTE]
 >  This topic uses the Service Model Metadata Utility tool (SvcUtil.exe) to create the WCF proxy classes and application configuration file. SvcUtil.exe is included in the Microsoft Windows Software Development Kit (SDK) of Windows Vista and .NET Framework Runtime Components.

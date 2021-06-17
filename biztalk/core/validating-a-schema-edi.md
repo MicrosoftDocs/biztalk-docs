@@ -26,7 +26,7 @@ You can validate an EDI schema at design time. To do so, you use the XML Tool ex
 1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open a project. To the project in Solution Explorer, add the message schema that you want to validate.  
   
    > [!NOTE]
-   >  The message schemas are located in the appropriate subfolder under the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI folder. For information on installing the schema files, see [How to Install EDI Schema Files](https://msdn.microsoft.com/library/787f45d9-d95d-40f4-a4ac-0a0e711f7550).  
+   >  The message schemas are located in the appropriate subfolder under the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]XSD_Schema\EDI folder. For information on installing the schema files, see [How to Install EDI Schema Files](/previous-versions/).  
    > 
    > [!NOTE]
    >  You do not have to build the project to validate a schema.  

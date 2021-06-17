@@ -63,7 +63,7 @@ Reviewers: [Nick Hauenstein](https://social.msdn.microsoft.com/profile/nick.haue
 
 - A virtual lab demonstrating [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and Salesforce integration is available at [https://go.microsoft.com/fwlink/?LinkId=290930](https://go.microsoft.com/fwlink/?LinkId=290930).
 
-- A sample based on this tutorial is available for download at [https://go.microsoft.com/fwlink/?LinkId=290932](https://go.microsoft.com/fwlink/?LinkId=290932).
+- A sample based on this tutorial is available for download at [https://go.microsoft.com/fwlink/?LinkId=290932](/samples/browse/).
 
 ## Next steps
 
