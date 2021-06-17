@@ -25,7 +25,7 @@ Use the BizTalk WCF Service Publishing Wizard to create and publish BizTalk orch
 
 
 > [!NOTE]
-> <P>You may need to register the .svc extension with Internet Information Server (IIS) before you are able to browse to the service using the <STRONG>WCF Service Location Page</STRONG>. You can find information on this topic at either <A href="https://msdn.microsoft.com/library/aa751792.aspx">Deploying an Internet Information Services-Hosted WCF Service</A> or <A href="https://msdn.microsoft.com/library/aa751792(vs.85).aspx">Deploying an IIS-Hosted WCF Service</A>.</P>
+> <P>You may need to register the .svc extension with Internet Information Server (IIS) before you are able to browse to the service using the <STRONG>WCF Service Location Page</STRONG>. You can find information on this topic at either <A href="/dotnet/framework/wcf/feature-details/deploying-an-internet-information-services-hosted-wcf-service">Deploying an Internet Information Services-Hosted WCF Service</A> or <A href="/previous-versions/dotnet/netframework-3.0/aa751792(v=vs.85)">Deploying an IIS-Hosted WCF Service</A>.</P>
 
 
 
@@ -326,4 +326,3 @@ Use this page to determine if you have successfully published your WCF service.
 [How to Use the BizTalk WCF Service Publishing Wizard to Publish Schemas as WCF Services](https://msdn.microsoft.com/library/bb246047\(v=bts.80\))  
 [Walkthrough: Publishing WCF Services with the WCF-BasicHttp Adapter](https://msdn.microsoft.com/library/bb246063\(v=bts.80\))  
 [Walkthrough: Publishing WCF Services with the WCF-NetMsmq Adapter](https://msdn.microsoft.com/library/bb259950\(v=bts.80\))
-

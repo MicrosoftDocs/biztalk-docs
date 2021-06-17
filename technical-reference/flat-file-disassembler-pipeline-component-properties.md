@@ -63,7 +63,7 @@ Default Value: False <strong>Note:</strong> You must specify a document schema (
 </tr>
 <tr class="even">
 <td><strong>Recoverable interchange processing</strong></td>
-<td>Indicate whether to process messages within an interchange individually. For more information, see <a href="https://msdn.microsoft.com/library/aa578714(v=bts.80)">Recoverable Interchange Processing</a><br />
+<td>Indicate whether to process messages within an interchange individually. For more information, see <a href="/biztalk/core/recoverable-interchange-processing">Recoverable Interchange Processing</a><br />
 <br />
 Default Value: False</td>
 </tr>
@@ -80,4 +80,3 @@ Default Value: False</td>
 [Character Encoding in the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa547361\(v=bts.80\))  
 [Extending the Flat File Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa560024\(v=bts.80\))  
 [Distinguished Fields in Disassembler Pipeline Components](https://msdn.microsoft.com/library/aa561024\(v=bts.80\))
-

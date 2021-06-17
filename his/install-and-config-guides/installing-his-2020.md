@@ -90,7 +90,7 @@ A setup log is written to the `%temp% folder`.
 
 To confirm the uninstallation, go to `\Program Files\Microsoft Host Integration Server`, and confirm the HIS files are removed.
 
-For a list of MSIEXEC command line options, see the [Installer documentation](https://go.microsoft.com/fwlink/p/?LinkId=799793) (https://go.microsoft.com/fwlink/p/?LinkId=799793).
+For a list of MSIEXEC command line options, see the [Installer documentation](/windows/win32/msi/command-line-options) (https://go.microsoft.com/fwlink/p/?LinkId=799793).
 
 ## Unattended Configuration
 

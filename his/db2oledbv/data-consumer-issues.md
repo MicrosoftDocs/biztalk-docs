@@ -146,12 +146,12 @@ C:\Program Files (x86)\Microsoft SQL Server\100\DTS\MappingFiles
 
  After you edit a mapping file, you must close and reopen the SQL Server Import and Export Wizard or the Business Intelligence Development Studio, depending on the environment in which you are working.
 
- For more information about configuring SQL Server 2008 Integration Services, see the Importing and Exporting Data by Using the SQL Server Import and Export Wizard) topic in [SQL Server Books Online](https://go.microsoft.com/fwlink/?LinkId=193204) (https://go.microsoft.com/fwlink/?LinkId=193204).
+ For more information about configuring SQL Server 2008 Integration Services, see the Importing and Exporting Data by Using the SQL Server Import and Export Wizard) topic in [SQL Server Books Online](/previous-versions/sql/sql-server-2008-r2/ms141209(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkId=193204).
 
 ### Customizing Data Flow Components
  You can use SQL Server Integration Services Data Flow Components to perform default and customized transformations. The customized transformations are based on developer-provided custom code.
 
- The SQL Server Integration Services mapping files in XML format are for use with the Import and Export Wizard. These files are not for use with the Data Flow. SQL Server Integration Services offers a Pipeline Buffer class to allow enterprise developers to customize data mapping within the Data Flow. For more information about customizing data flow components using SQL Server 2008 Integration Services, see the Working with Data Types in the Data Flow topic in [SQL Server Books Online](https://go.microsoft.com/fwlink/?LinkId=241523) (https://go.microsoft.com/fwlink/?LinkId=241523).
+ The SQL Server Integration Services mapping files in XML format are for use with the Import and Export Wizard. These files are not for use with the Data Flow. SQL Server Integration Services offers a Pipeline Buffer class to allow enterprise developers to customize data mapping within the Data Flow. For more information about customizing data flow components using SQL Server 2008 Integration Services, see the Working with Data Types in the Data Flow topic in [SQL Server Books Online](/previous-versions/sql/sql-server-2008-r2/ms345165(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkId=241523).
 
 ## SQL Server Replication
 
@@ -287,7 +287,7 @@ C:\Program Files (x86)\Microsoft SQL Server\100\DTS\MappingFiles
     EXEC sp_changearticle @publication, @article, 'status', 'parameters', 0, 0;
     ```
 
-    For more information, see [Replication System Stored Procedures Concepts](https://go.microsoft.com/fwlink/?LinkId=241525) (https://go.microsoft.com/fwlink/?LinkId=241525) in SQL Server Books Online.  
+    For more information, see [Replication System Stored Procedures Concepts](/sql/relational-databases/replication/concepts/replication-system-stored-procedures-concepts) (https://go.microsoft.com/fwlink/?LinkId=241525) in SQL Server Books Online.  
     
 ### Replication INSERT operation fails with Error 8152: String or binary data would be truncated  
  SQL Server Replication INSERT operation may fail with SQL Server Error 8152 (String or binary data would be truncated.). This may occur when (1)  Data Provider is not configured to use early metadata, and (2) Replication is not configured to use parameterized INSERT statements.
@@ -298,7 +298,7 @@ C:\Program Files (x86)\Microsoft SQL Server\100\DTS\MappingFiles
  
  Re-configure SQL Server Replication subscription article to include option "24" ("Includes the column name in INSERT statements and uses parameterized statements."). 
 
- For more information, see [SQL Server Replication sp_addarticle (Transact-SQL)](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) (https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) in SQL Server documentation.
+ For more information, see [SQL Server Replication sp_addarticle (Transact-SQL)](/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) (https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) in SQL Server documentation.
  
 ### SQL Server Analysis Services  
  When you design cubes for use with SQL Server Analysis Services, the tools generate SQL commands that contain long alias names that may exceed the maximum length supported by the DB2 server. Depending on the DB2 platform and version that you use, you may not be able to use queries with alias names exceeding 18 characters. For example, many objects deployed in DB2 for z/OS use names of 18 characters. Refer to the DB2 SQL Reference for your DB2 platform and version and check with your DB2 database administrator. We recommend that the administrator or developer update the two SQL Server Analysis Service configuration cartridge files that contain the data type mapping support for DB2 by changing the identifier-length (limit-table-identifier-length) from 29 to 18. The following are the names and location of the two cartridge files that must be updated.

@@ -141,7 +141,7 @@ Schemas specified in this property should have unique target namespaces. If any 
 </tr>
 <tr class="odd">
 <td><strong>ProcessingInstructionOption</strong></td>
-<td>Specifies how processing instructions are added to outgoing documents. For more information about the ProcessingInstructionOption, see <a href="https://msdn.microsoft.com/library/aa578687(v=bts.80)">Processing Instructions in the XML Assembler Pipeline Component</a>.</td>
+<td>Specifies how processing instructions are added to outgoing documents. For more information about the ProcessingInstructionOption, see <a href="/biztalk/core/processing-instructions-in-the-xml-assembler-pipeline-component">Processing Instructions in the XML Assembler Pipeline Component</a>.</td>
 </tr>
 <tr class="even">
 <td><strong>ProcessingInstructionsScope</strong></td>
@@ -169,4 +169,3 @@ Schemas specified in this property should have unique target namespaces. If any 
 [Send Pipelines](https://msdn.microsoft.com/library/aa547976\(v=bts.80\))  
 [How to Configure the XML Assembler Pipeline Component](https://msdn.microsoft.com/library/aa560698\(v=bts.80\))  
 [How to Configure the XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa577393\(v=bts.80\))
-

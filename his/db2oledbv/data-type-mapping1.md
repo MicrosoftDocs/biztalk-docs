@@ -153,4 +153,4 @@ The following table describes DB2 data type mappings to OLE DB data types.
 
 - sp_setdefaultdatatypemapping
 
-  For more information, see the [System Stored Procedures (Transact-SQL)](https://go.microsoft.com/fwlink/?LinkId=241519) (https://go.microsoft.com/fwlink/?LinkId=241519) topic in SQL Server Books Online.
+  For more information, see the [System Stored Procedures (Transact-SQL)](/previous-versions/sql/sql-server-data-tools/hh272686(v=vs.103)) (https://go.microsoft.com/fwlink/?LinkId=241519) topic in SQL Server Books Online.
