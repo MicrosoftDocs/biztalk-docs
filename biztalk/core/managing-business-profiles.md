@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Managing Business Profiles
-A business profile represents the business divisions within of an organization. Just like an organization can have various divisions, a party can have various [business profiles](https://msdn.microsoft.com/library/f8286130-57fe-40ed-9fd8-81da2c8baaaf). 
+A business profile represents the business divisions within of an organization. Just like an organization can have various divisions, a party can have various [business profiles](/previous-versions/). 
   
 A business profile represents a business division in an organization. Just like an organization can have many divisions (accounting, purchase, shipping, etc.), a party can have many business profiles, each representing a business division in an organization. Business profile properties contain the following information:  
   

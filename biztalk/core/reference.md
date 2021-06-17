@@ -26,7 +26,7 @@ The **Reference** element can be used to add one or more relationships to a BAM 
 |Attribute name|Description|
 |--------------------|-----------------|
 |Name|Name of the relationship that will be attached to the BAM activity.|
-|Type|Arbitrary string specifying the type of relationship that will be attached to the BAM activity. Both arbitrary strings and the following predefined BAM types are supported:<br /><br /> -   BizTalkService<br />-   MessageID<br />-   Activity<br />-   DocumentUrl<br />-   InstanceID<br /><br /> For more information on predefined BAM reference types, see [Reference Properties](https://go.microsoft.com/fwlink/?LinkId=119601).|
+|Type|Arbitrary string specifying the type of relationship that will be attached to the BAM activity. Both arbitrary strings and the following predefined BAM types are supported:<br /><br /> -   BizTalkService<br />-   MessageID<br />-   Activity<br />-   DocumentUrl<br />-   InstanceID<br /><br /> For more information on predefined BAM reference types, see [Reference Properties](/previous-versions/).|
 
 ### Child Elements
 
@@ -89,4 +89,4 @@ The **Reference** element can be used to add one or more relationships to a BAM 
 
 ## See Also
  [Interceptor OnEvent Element](../core/interceptor-onevent-element.md)
- [EventStream.AddRelatedActivity Method](https://go.microsoft.com/fwlink/?LinkId=119602)
+ [EventStream.AddRelatedActivity Method](/previous-versions/)

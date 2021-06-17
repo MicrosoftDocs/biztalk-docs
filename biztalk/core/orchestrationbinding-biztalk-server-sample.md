@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # OrchestrationBinding (BizTalk Server Sample)
-The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.ExplorerOM](https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.aspx) administrative objects to configure and manage orchestrations.
+The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.ExplorerOM](/previous-versions/) administrative objects to configure and manage orchestrations.
 
 ## Prerequisites
 
@@ -24,18 +24,18 @@ The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.Explo
 
 - You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.
 
-- The Windows PowerShell script example requires the Windows PowerShell execution policy to allow script execution. For more information see [Examining the Execution Policy](https://go.microsoft.com/fwlink/?LinkId=128930).
+- The Windows PowerShell script example requires the Windows PowerShell execution policy to allow script execution. For more information see [Examining the Execution Policy](/previous-versions//bb648601(v=vs.85)).
 
 ## What This Sample Does
  This sample demonstrates using the administrative objects in the **Microsoft.BizTalk.ExplorerOM** namespace to manage orchestrations. The sample demonstrates the following operations using the **ExplorerOM** objects:
 
--   Connecting to the BizTalk Management database by using the[Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer](https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.btscatalogexplorer.aspx) class.
+-   Connecting to the BizTalk Management database by using the[Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer](/previous-versions/) class.
 
--   Stopping and starting orchestrations by changing the **Status** property of the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](https://msdn.microsoft.com/library/Microsoft.BizTalk.ExplorerOM.BtsOrchestration.aspx) class.
+-   Stopping and starting orchestrations by changing the **Status** property of the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](/previous-versions/) class.
 
--   Enlisting and unenlisting orchestrations by changing the **Status** property of the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](https://msdn.microsoft.com/library/Microsoft.BizTalk.ExplorerOM.BtsOrchestration.aspx) class.
+-   Enlisting and unenlisting orchestrations by changing the **Status** property of the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](/previous-versions/) class.
 
--   Binding and unbinding orchestrations by using the **Ports** collection on the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](https://msdn.microsoft.com/library/Microsoft.BizTalk.ExplorerOM.BtsOrchestration.aspx) class.
+-   Binding and unbinding orchestrations by using the **Ports** collection on the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](/previous-versions/) class.
 
 ## Where To Find This Sample
  The sample is located in the following SDK location:

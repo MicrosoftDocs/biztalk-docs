@@ -23,7 +23,7 @@ You use the OrchestrationEventStream (OES) API when your application runs on a c
  The OES API is found in the Microsoft.BizTalk.Bam.EventObservation namespace. To use the API you must add the Microsoft.Biztalk.BAM.Xlangs.dll to your project.  
   
 ## OES Members  
- The OES API is derived from the [Microsoft.BizTalk.Bam.EventObservation.EventStream](https://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.eventstream.aspx) class.  
+ The OES API is derived from the [Microsoft.BizTalk.Bam.EventObservation.EventStream](/previous-versions/) class.  
   
  OES implements all of the methods within the EventStream class, but has the  following exception in behaviors:  
   
