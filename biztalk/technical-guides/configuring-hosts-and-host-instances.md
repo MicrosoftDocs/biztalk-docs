@@ -15,9 +15,9 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configuring Hosts and Host Instances
-A BizTalk Host represents a logical set of zero or more run-time processes in which you can deploy [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services and artifacts (such as adapter handlers, receive locations, and orchestrations). A host instance is the physical instance of a host on a computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information about BizTalk Hosts and host instances, see [Hosts](https://go.microsoft.com/fwlink/?LinkId=154189) (<https://go.microsoft.com/fwlink/?LinkId=154189>) and [Host Instances](https://go.microsoft.com/fwlink/?LinkId=154190) (<https://go.microsoft.com/fwlink/?LinkId=154190>).
+A BizTalk Host represents a logical set of zero or more run-time processes in which you can deploy [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services and artifacts (such as adapter handlers, receive locations, and orchestrations). A host instance is the physical instance of a host on a computer running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information about BizTalk Hosts and host instances, see [Hosts](../core/hosts.md) (<https://go.microsoft.com/fwlink/?LinkId=154189>) and [Host Instances](../core/host-instances.md) (<https://go.microsoft.com/fwlink/?LinkId=154190>).
 
- For more information about managing BizTalk Hosts and host instances, see [Managing BizTalk Hosts and Host Instances](https://go.microsoft.com/fwlink/?LinkId=154191) (https://go.microsoft.com/fwlink/?LinkId=154191).
+ For more information about managing BizTalk Hosts and host instances, see [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md) (https://go.microsoft.com/fwlink/?LinkId=154191).
 
  For information about how to configure a dedicated tracking host, see [Configuring a Dedicated Tracking Host](../technical-guides/configuring-a-dedicated-tracking-host.md).
 
@@ -37,7 +37,7 @@ A BizTalk Host represents a logical set of zero or more run-time processes in wh
   > [!NOTE]
   >  While there are benefits to creating additional host instances, there are also potential drawbacks if too many host instances are created. Each host instance is a Windows service (BTSNTSvc.exe or BTSNTSvc64.exe), which generates additional load against the MessageBox database and consumes computer resources (such as CPU, memory, threads).
 
-  For more information about modifying [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Host properties, see [How to Modify Host Properties](https://go.microsoft.com/fwlink/?LinkId=154192) (<https://go.microsoft.com/fwlink/?LinkId=154192>).
+  For more information about modifying [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Host properties, see [How to Modify Host Properties](../core/how-to-modify-host-properties.md) (<https://go.microsoft.com/fwlink/?LinkId=154192>).
 
 ##  <a name="BKMK_MemLimit"></a> Maximum Practical Limits of Memory Usage of a 32-bit BizTalk Host Instance
  32-bit processes on 32-bit Windows operating system with /3GB set have 3 gigabytes (GB) of addressable memory if the process is "large address aware" (that is, the executable has the IMAGE_FILE_LARGE_ADDRESS_AWARE flag set in the image header).  The BizTalk host process, being "large address aware", can address 3 GB of memory on Windows operating system with /3GB set.  Similarly, 32-bit processes on 64-bit Windows operating system (AMD64) have 4 GB of addressable memory, if the process is "large address aware".  Again, the BizTalk host process, being "large address aware", can address 4 GB of memory when running as a 32-bit process on 64-bit Windows operating system. 64-bit processes on 64-bit Windows operating system (AMD64) have 8 terabytes of addressable memory.
@@ -53,9 +53,9 @@ A BizTalk Host represents a logical set of zero or more run-time processes in wh
 
  For more information, see:
 
--   [ASP.NET Performance Monitoring, and When to Alert Administrators](https://go.microsoft.com/fwlink/?LinkId=151856) (https://go.microsoft.com/fwlink/?LinkId=151856)
+-   [ASP.NET Performance Monitoring, and When to Alert Administrators](/previous-versions/dotnet/articles/ms972959(v=msdn.10)) (https://go.microsoft.com/fwlink/?LinkId=151856)
 
--   [Memory Limits for Windows Releases](https://go.microsoft.com/fwlink/?LinkId=151857) (https://go.microsoft.com/fwlink/?LinkId=151857)
+-   [Memory Limits for Windows Releases](/windows/win32/memory/memory-limits-for-windows-releases) (https://go.microsoft.com/fwlink/?LinkId=151857)
 
 ## See Also
  [Checklist: Configuring BizTalk Server](../technical-guides/checklist-configuring-biztalk-server.md)

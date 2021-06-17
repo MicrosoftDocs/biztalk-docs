@@ -40,7 +40,7 @@ BizTalk Server provides great flexibility in addressing high availability becaus
 |In-process|-   Orchestrations<br />-   Adapter send handlers<br />-   In-process adapter receive handlers|
 |Isolated|-   HTTP, SOAP receive handlers<br />-   Any other isolated adapter receive handlers|
 
- For more information about managing BizTalk Hosts and host instances, see [Managing BizTalk Hosts and Host Instances](https://go.microsoft.com/fwlink/?LinkID=154191) (https://go.microsoft.com/fwlink/?LinkID=154191) in BizTalk Server Help.
+ For more information about managing BizTalk Hosts and host instances, see [Managing BizTalk Hosts and Host Instances](../core/managing-biztalk-hosts-and-host-instances.md) (https://go.microsoft.com/fwlink/?LinkID=154191) in BizTalk Server Help.
 
  To provide high availability for BizTalk Hosts, you must have two or more host instances for each host (on two or more computers) in your environment. By having more than one host instance for each host you make sure that if one host instance becomes unavailable, the host instances on other computers that are running instances of the same host can resume the functions of the problematic or failed host instance, and that the overall system can continue performing with minimal disruption.
 

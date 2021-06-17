@@ -30,17 +30,17 @@ Deploying an assembly builds the assembly and imports it, along with the orchest
 
 - Move BizTalk Server assemblies from other applications from within the BizTalk Server Administration console
 
-  For more information about adding assemblies to applications, see [Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application](https://go.microsoft.com/fwlink/?LinkID=154719) (https://go.microsoft.com/fwlink/?LinkID=154719).
+  For more information about adding assemblies to applications, see [Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md) (https://go.microsoft.com/fwlink/?LinkID=154719).
 
 ## Redeploying Assemblies
  In the process of developing and debugging your BizTalk assemblies, you may need to redeploy them multiple times. BizTalk Server provides a simple mechanism for redeployment. If you are redeploying an assembly without changing the version number, you can use the Redeploy property. BizTalk Server will automatically perform all of the steps to redeploy the assembly for you.
 
- For more information about redeploying assemblies, see [How to Redeploy a BizTalk Assembly from Visual Studio](https://go.microsoft.com/fwlink/?LinkID=154720) (https://go.microsoft.com/fwlink/?LinkID=154720).
+ For more information about redeploying assemblies, see [How to Redeploy a BizTalk Assembly from Visual Studio](../core/how-to-redeploy-a-biztalk-assembly-from-visual-studio.md) (https://go.microsoft.com/fwlink/?LinkID=154720).
 
 ### Best Practices for Redeploying an Assembly
  **You must install the new assembly in the GAC**
 
-- When you redeploy an assembly, you must always install the new version of the assembly in the global assembly cache (GAC). You can do this after you redeploy it. For more information, see [How to Install an Assembly in the GAC](https://go.microsoft.com/fwlink/?LinkID=154828) (https://go.microsoft.com/fwlink/?LinkID=154828).
+- When you redeploy an assembly, you must always install the new version of the assembly in the global assembly cache (GAC). You can do this after you redeploy it. For more information, see [How to Install an Assembly in the GAC](../core/how-to-install-an-assembly-in-the-gac.md) (https://go.microsoft.com/fwlink/?LinkID=154828).
 
   **You should always redeploy at the solution level when there are dependencies**
 
@@ -58,6 +58,6 @@ Deploying an assembly builds the assembly and imports it, along with the orchest
 
 - When you redeploy an assembly that contains an orchestration without changing the assembly version number, the existing assembly is overwritten in the BizTalk Management database. Before the change will take effect, however, you must restart each host instance of the host to which the orchestration is bound. You can specify the option that all host instances on the local computer restart automatically when you redeploy an assembly.
 
-   When you redeploy an assembly that contains an orchestration without changing the assembly version number, the existing assembly is overwritten in the BizTalk Management database. Before the change will take effect, however, you must restart each host instance of the host to which the orchestration is bound. You can specify the option that all host instances on the local computer restart automatically when you redeploy an assembly. For more information about deployment properties, see [How to Set Deployment Properties in Visual Studio](https://go.microsoft.com/fwlink/?LinkID=154718) (https://go.microsoft.com/fwlink/?LinkID=154718).
+   When you redeploy an assembly that contains an orchestration without changing the assembly version number, the existing assembly is overwritten in the BizTalk Management database. Before the change will take effect, however, you must restart each host instance of the host to which the orchestration is bound. You can specify the option that all host instances on the local computer restart automatically when you redeploy an assembly. For more information about deployment properties, see [How to Set Deployment Properties in Visual Studio](../core/how-to-set-deployment-properties-in-visual-studio.md) (https://go.microsoft.com/fwlink/?LinkID=154718).
 
-   You can also manually stop and start each host instance. For more information about stopping and starting a host instance, see [How to Stop a Host Instance](https://go.microsoft.com/fwlink/?LinkID=154829) (https://go.microsoft.com/fwlink/?LinkID=154829) and [How to Start a Host Instance](https://go.microsoft.com/fwlink/?LinkID=154830) (https://go.microsoft.com/fwlink/?LinkID=154830).
+   You can also manually stop and start each host instance. For more information about stopping and starting a host instance, see [How to Stop a Host Instance](../core/how-to-stop-a-host-instance.md) (https://go.microsoft.com/fwlink/?LinkID=154829) and [How to Start a Host Instance](../core/how-to-start-a-host-instance.md) (https://go.microsoft.com/fwlink/?LinkID=154830).
