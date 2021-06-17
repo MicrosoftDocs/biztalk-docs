@@ -336,7 +336,7 @@ This topic describes guidelines for creating Active Directory Organizational Uni
 > [!NOTE]
 >  If corporate password policy includes generated passwords, be advised that some symbols and symbol combinations are special-use characters to XML. Inappropriate use of these characters will prevent configuration XML files from being opened during the configuration process. These symbols include "&", "\<", "\>", single- and double-quote, and may include others. Test the configuration XML file prior to executing file-based configuration. You can test this reliably for proper XML formatting by opening the document in Internet Explorer (or an XML editor) with the generated passwords embedded therein.  
   
- For more information about deployment of secure passwords in up-line environments (including the method to test a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration file), see [Configuration Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/aa58c43f-8f0e-4a5c-89b9-db7b8a852a72).  
+ For more information about deployment of secure passwords in up-line environments (including the method to test a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] configuration file), see [Configuration Overview for BizTalk Server 2013 and 2013 R2](/previous-versions/).  
   
 ## See Also  
  [Troubleshooting BizTalk Server Permissions](../core/troubleshooting-biztalk-server-permissions.md)

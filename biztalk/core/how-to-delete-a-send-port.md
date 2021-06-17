@@ -31,7 +31,7 @@ This topic describes how to use the BizTalk Server Administration console to del
   
 -   The send port is both stopped and unenlisted. For instructions on stopping and unenlisting a send port, see [How to Unenlist a Send Port or Send Port Group](../core/how-to-unenlist-a-send-port-or-send-port-group.md) and [How to Stop a Send Port or Send Port Group](../core/how-to-stop-a-send-port-or-send-port-group.md).  
   
--   The send port is not referenced by a party. For instructions on removing a reference to a send port from a party, see [How to View or Edit a Party](https://msdn.microsoft.com/library/42e6f3a0-8f7d-4f6c-ab05-a1fab7bf46ca).  
+-   The send port is not referenced by a party. For instructions on removing a reference to a send port from a party, see [How to View or Edit a Party](/previous-versions/).  
   
 -   The send port is not included in a send port group. For instructions on removing a send port from a send port group, see [How to Remove a Send Port from a Send Port Group](../core/how-to-remove-a-send-port-from-a-send-port-group.md).  
   

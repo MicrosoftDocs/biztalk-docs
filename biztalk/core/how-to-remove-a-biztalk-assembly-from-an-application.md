@@ -26,7 +26,7 @@ This topic describes how use the BizTalk Server Administration console or the co
   
  Before removing a BizTalk assembly, bear in mind the following important points:  
   
--   When you remove a BizTalk assembly, the assembly file is not automatically removed from the global assembly cache (GAC) or the local file system, if it exists there. You must manually remove it. For instructions, see [How to Uninstall an Assembly from the GAC](https://msdn.microsoft.com/library/464706a8-f902-4d05-a724-19169facd2b4) and [How to Remove Other Files and Settings for a BizTalk Application](../core/how-to-remove-other-files-and-settings-for-a-biztalk-application.md).  
+-   When you remove a BizTalk assembly, the assembly file is not automatically removed from the global assembly cache (GAC) or the local file system, if it exists there. You must manually remove it. For instructions, see [How to Uninstall an Assembly from the GAC](/previous-versions/) and [How to Remove Other Files and Settings for a BizTalk Application](../core/how-to-remove-other-files-and-settings-for-a-biztalk-application.md).  
   
 -   If you remove a BizTalk assembly that includes a pipeline, any send ports in the same application that use the pipeline will be reset to use the default, PassThruTransmit pipeline.  
   

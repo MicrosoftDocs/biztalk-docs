@@ -121,7 +121,7 @@ The BizTalk tier can be divided into the following functional areas:
 |BizTalk:Message Agent|HostName|Message Publishing Throttling State|Affects XLANG and Inbound transports|  
   
 ### Where do I start?  
- Monitoring the **Message Delivery Throttling State** and the **Message Publishing Throttling State** for each host instance is usually a good place to start. If the value of these counters is not zero it is indicative that throttling is happening within the BizTalk system and it is possible to further analyze the cause of the bottleneck. For descriptions on the other performance counters, see [Identifying Bottlenecks in the Database Tier](https://msdn.microsoft.com/library/f1dc58b5-73b0-41b5-9a1e-c0698485c732).  
+ Monitoring the **Message Delivery Throttling State** and the **Message Publishing Throttling State** for each host instance is usually a good place to start. If the value of these counters is not zero it is indicative that throttling is happening within the BizTalk system and it is possible to further analyze the cause of the bottleneck. For descriptions on the other performance counters, see [Identifying Bottlenecks in the Database Tier](/previous-versions/).  
   
 ## Backlog Buildup  
  For a 1-1 deployment scenario where 1 message received results in 1 message processed and transmitted, if the Outgoing Rate does not equal the Incoming Rate, a backlog is building up somewhere in the system. For such a situation it is possible to monitor the Spool Size.  

@@ -18,7 +18,7 @@ manager: "anneta"
 # How to Enable the WCF Extensibility Points with the WCF Adapters
 Enable three WCF extensibility points—behavior extension, binding element extension, and binding extension—with the WCF-Custom and WCF-CustomIsolated adapters. To do so, you first install the assemblies implementing the WCF extensibility points in the global assembly cache (GAC), then modify the machine.config file on your computers, and then configure the WCF-Custom or the WCF-CustomIsolated adapter by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
   
-See [Extending WCF](https://docs.microsoft.com/dotnet/framework/wcf/extending/extending-wcf) for more info on WCF extensibility points.
+See [Extending WCF](/dotnet/framework/wcf/extending/extending-wcf) for more info on WCF extensibility points.
   
  
 ## Prerequisites  
@@ -63,7 +63,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
    > [!NOTE]
    >  - You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
-   >  - See [bindingExtensions](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/bindingextensions) on this element.
+   >  - See [bindingExtensions](/dotnet/framework/configure-apps/file-schema/wcf/bindingextensions) on this element.
   
 3. In Notepad, save the machine.config file.  
   
@@ -113,7 +113,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
    > [!NOTE]
    > - You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
-   > - See [bindingElementExtensions](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/bindingelementextensions) on this element.
+   > - See [bindingElementExtensions](/dotnet/framework/configure-apps/file-schema/wcf/bindingelementextensions) on this element.
   
 3. In Notepad, save the machine.config file.  
   
@@ -152,7 +152,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
     -   In the **Binding** list, right-click a binding element extension, and then click **Move extension up** or **Move extension down**. The lowest binding element extension in the **Binding** list corresponds to the bottom component of the channel stack. The highest binding element in the **Binding** list corresponds to the top component of the communication stack.  
   
         > [!NOTE]
-        >  See [Custom Bindings](https://docs.microsoft.com/dotnet/framework/wcf/extending/custom-bindings) for details about the specific order of the binding elements for the custom binding.
+        >  See [Custom Bindings](/dotnet/framework/wcf/extending/custom-bindings) for details about the specific order of the binding elements for the custom binding.
   
 10. In the transport properties dialog box, configure the rest of the settings for the transport.  
   
@@ -176,7 +176,7 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
    > [!NOTE]
    >  - You can find the information for the assemblies to register by using the command, **gacutil /lr** *<assembly_name>*.  
-   >  - See [behaviorExtensions](https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/wcf/behaviorextensions) on this element.
+   >  - See [behaviorExtensions](/dotnet/framework/configure-apps/file-schema/wcf/behaviorextensions) on this element.
   
 3. In Notepad, save the machine.config file.  
   
@@ -212,4 +212,4 @@ Sign in with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVers
   
 ## Configure a WCF-Custom receive location with an SSL certificate  
   
--   If a WCF-Custom receive location happens to use the HTTP kernel-mode driver (HTTP.sys) such as the **httpsTransport** binding element, for Secure Sockets Layer (SSL) communications, the receive location must have a certificate registered for each socket (IP address/port combination). Use the HttpCfg.exe tool to bind an SSL certificate to a port on the computer. For more information, see [How To: Configure a Port with An SSL Certificate](https://docs.microsoft.com/dotnet/framework/wcf/feature-details/how-to-configure-a-port-with-an-ssl-certificate).
+-   If a WCF-Custom receive location happens to use the HTTP kernel-mode driver (HTTP.sys) such as the **httpsTransport** binding element, for Secure Sockets Layer (SSL) communications, the receive location must have a certificate registered for each socket (IP address/port combination). Use the HttpCfg.exe tool to bind an SSL certificate to a port on the computer. For more information, see [How To: Configure a Port with An SSL Certificate](/dotnet/framework/wcf/feature-details/how-to-configure-a-port-with-an-ssl-certificate).

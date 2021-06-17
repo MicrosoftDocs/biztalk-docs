@@ -22,7 +22,7 @@ Management data APIs are endpoints that let you remotely update, add, and query 
 
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] [!INCLUDE[featurepack1](../includes/featurepack1.md)]**, there's a Windows PowerShell script that installs these REST APIs, and their swagger definitions. These APIs make REST calls to remotely manage ports, orchestrations, partners, agreements, pipelines, and more. 
 
-To see the available APIs, please refer to the [REST API reference](https://docs.microsoft.com/rest/api/overview/biztalk/?view=rest-biztalk-2016).
+To see the available APIs, please refer to the [REST API reference](/rest/api/overview/biztalk/?view=rest-biztalk-2016).
 
 ## Prerequisites
 * Install [Feature Pack 2](https://aka.ms/bts2016fp2) or newer feature pack on your BizTalk Server.
@@ -59,7 +59,7 @@ To see the available APIs, please refer to the [REST API reference](https://docs
 > 
 > ![Computer name is in all CAPS](../core/media/groups-case.png)
 
-Now that the REST APIs are exposed through IIS, they can be accessed and executed by other applications. The [REST API reference](https://docs.microsoft.com/rest/api/overview/biztalk/?view=rest-biztalk-2016) lists the APIs.
+Now that the REST APIs are exposed through IIS, they can be accessed and executed by other applications. The [REST API reference](/rest/api/overview/biztalk/?view=rest-biztalk-2016) lists the APIs.
 
 You can change who has access by manually updating the **web.config** file, which is in the root folder of the management application. For example, use the following to allow anyone access to the swagger output: 
 
@@ -88,6 +88,6 @@ You can change who has access by manually updating the **web.config** file, whic
 
 ## See also
 
-[REST API reference](https://docs.microsoft.com/rest/api/overview/biztalk/?view=rest-biztalk-2016)
+[REST API reference](/rest/api/overview/biztalk/?view=rest-biztalk-2016)
 
 [What's new in Feature Pack](../core/configure-the-feature-pack.md)
