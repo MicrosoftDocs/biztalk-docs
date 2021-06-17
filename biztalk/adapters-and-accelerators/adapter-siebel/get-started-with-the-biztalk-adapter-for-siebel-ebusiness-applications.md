@@ -51,6 +51,6 @@ This section provides an overview of the adapter, prerequisites, and topics for 
   
 -   [Siebel Adapter Tutorials](../../adapters-and-accelerators/adapter-siebel/siebel-adapter-tutorials.md)  
   
--   [Community Resources](https://msdn.microsoft.com/library/ff5ec978-8cdd-418a-a25e-fd3746b64d8b)  
+-   [Community Resources](/previous-versions/)  
   
--   [Frequently Asked Questions](https://msdn.microsoft.com/library/66953c15-08c5-48ac-a4ff-a72a82174f15)
+-   [Frequently Asked Questions](/previous-versions/)

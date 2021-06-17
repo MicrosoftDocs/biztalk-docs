@@ -36,7 +36,7 @@ manager: "anneta"
 
 ### To create a WCF-Custom port
 
-1. When you generate schema for an RFC using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], a binding file is also added to the BizTalk project. You can import this binding file into your BizTalk application to create a WCF-Custom send-receive port. For instructions on importing a binding file, see [Importing Bindings](https://msdn.microsoft.com/library/c927efde-29bd-4efe-9da5-942e7da65dbf).
+1. When you generate schema for an RFC using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], a binding file is also added to the BizTalk project. You can import this binding file into your BizTalk application to create a WCF-Custom send-receive port. For instructions on importing a binding file, see [Importing Bindings](/previous-versions/).
 
 2. After you import the binding file, a send port is created under the **Send Ports** folder in the BizTalk Server Administration console.
 
@@ -76,7 +76,7 @@ manager: "anneta"
 
    4. Click **OK**.
 
-      For more information about configuring an application, see "How to Configure an Application" at [https://go.microsoft.com/fwlink/?LinkId=102360](https://go.microsoft.com/fwlink/?LinkId=102360).
+      For more information about configuring an application, see "How to Configure an Application" at [https://go.microsoft.com/fwlink/?LinkId=102360](/previous-versions/).
 
 ## Next Steps
  You have now completed migration of your vPrev BizTalk project to a BizTalk project that sends messages to the SAP system using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. You must now test the migrated BizTalk application by sending a request message to invoke the SD_RFC_CUSTOMER_GET RFC, as described in [Step 3: Test the Migrated Application](../../adapters-and-accelerators/adapter-sap/step-3-test-the-migrated-application6.md).

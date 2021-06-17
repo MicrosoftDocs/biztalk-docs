@@ -38,7 +38,7 @@ This section lists the new features in [!INCLUDE[adaptersiebel](../../includes/a
   
 |                                                                    Feature                                                                     |                                                                                                               Comment                                                                                                               |
 |------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Support for using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with Microsoft Office SharePoint Server (MOSS) | You can use the adapters to present data from the Siebel system onto a MOSS portal. For more information, see [Using the Siebel Adapter with Microsoft Office SharePoint Server](https://msdn.microsoft.com/library/dd788017.aspx). |
+| Support for using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] with Microsoft Office SharePoint Server (MOSS) | You can use the adapters to present data from the Siebel system onto a MOSS portal. For more information, see [Using the Siebel Adapter with Microsoft Office SharePoint Server](./use-the-siebel-adapter-with-sharepoint.md). |
   
 ### Operations-Related Features  
   

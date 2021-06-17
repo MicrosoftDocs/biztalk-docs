@@ -27,7 +27,7 @@ manager: "anneta"
   
  The WCF service model, however, involves the use of proxy classes to invoke operations on a target service or to receive operations from a client. The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] exposes the Siebel system as a WCF service on which you can invoke operations.  
   
-- The proxy class used to invoke operations on a target service is called a WCF client class. This class models the operations exposed by a service as .NET methods with strongly-typed parameters. By using the WCF service model, you can invoke the operations exposed by the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] as .NET methods on the WCF client. For more information about WCF clients, see [WCF Client Overview](https://msdn.microsoft.com/library/ms735103.aspx).   
+- The proxy class used to invoke operations on a target service is called a WCF client class. This class models the operations exposed by a service as .NET methods with strongly-typed parameters. By using the WCF service model, you can invoke the operations exposed by the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] as .NET methods on the WCF client. For more information about WCF clients, see [WCF Client Overview](/dotnet/framework/wcf/wcf-client-overview).   
   
   You use tools to generate a WCF client class and associated helper code from the service metadata that the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] exposes. You can use either of the following tools:  
   

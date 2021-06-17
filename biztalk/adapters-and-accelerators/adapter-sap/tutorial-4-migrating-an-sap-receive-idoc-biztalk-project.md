@@ -34,7 +34,7 @@ The previous version of the SAP adapter that shipped with Microsoft BizTalk Serv
   
 - Physical port configuration in the BizTalk Server Administration console.  
   
-  These differences are explained in the topics within [Migrating BizTalk Projects Created Using the Previous Version of the SAP Adapter](https://msdn.microsoft.com/library/a486bac9-8952-43fd-8099-413f1491de37).  
+  These differences are explained in the topics within [Migrating BizTalk Projects Created Using the Previous Version of the SAP Adapter](/previous-versions/).  
   
   However, you can make changes to the BizTalk project created using the previous version of the adapter and make it work with the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].  
   

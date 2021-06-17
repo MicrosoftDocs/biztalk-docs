@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Execute stored procedures having a FOR XML clause in SQL Server using BizTalk Server
-An SQL SELECT statement can have a FOR XML clause that returns the query result as XML instead of a rowset. You can also have a stored procedure that has a SELECT statement with a FOR XML clause. [FOR XML (SQL Server)](https://msdn.microsoft.com/library/ms178107.aspx) has more information.
+An SQL SELECT statement can have a FOR XML clause that returns the query result as XML instead of a rowset. You can also have a stored procedure that has a SELECT statement with a FOR XML clause. [FOR XML (SQL Server)](/sql/relational-databases/xml/for-xml-sql-server) has more information.
 
  You can use the WCF-based [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to execute such stored procedures.
 

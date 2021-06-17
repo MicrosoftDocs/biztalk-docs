@@ -32,7 +32,7 @@ manager: "anneta"
 
 ### To create a WCF-Custom port
 
-1. When you generate schema for an operation on the Siebel system using [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], a binding file is also added to the BizTalk project. You can import this binding file into your BizTalk application to create a WCF-Custom send-receive port. For instructions on importing a binding file, see [Importing Bindings](https://msdn.microsoft.com/library/908ab90c-2ba2-4c65-9f74-10579f06e372).
+1. When you generate schema for an operation on the Siebel system using [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], a binding file is also added to the BizTalk project. You can import this binding file into your BizTalk application to create a WCF-Custom send-receive port. For instructions on importing a binding file, see [Importing Bindings](/previous-versions/).
 
 2. After you import the binding file, a send port is created under the **Send Ports** folder in the BizTalk Server Administration console.
 
@@ -72,7 +72,7 @@ manager: "anneta"
 
    4. Click **OK**.
 
-      For more information about configuring an application, see "How to Configure an Application" at [https://go.microsoft.com/fwlink/?LinkId=102360](https://go.microsoft.com/fwlink/?LinkId=102360).
+      For more information about configuring an application, see "How to Configure an Application" at [https://go.microsoft.com/fwlink/?LinkId=102360](/previous-versions/).
 
 ## Next Steps
  You have now completed migration of your vPrev BizTalk project to a BizTalk project that sends messages to the Siebel system using the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]. You must now test the migrated BizTalk application by sending a request message to invoke the Insert operation on the Account business component, as described in [Step 3: Test the Migrated Application with the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/step-3-test-the-migrated-application-with-the-siebel-adapter.md).
