@@ -32,7 +32,7 @@ This section provides information about how you can resolve reliability issues w
 
 #### To test a group failover policy
 
-1.  Make sure you have installed the **Failover Clustering** feature on at least two computer running Windows Server 2008 so as to create a two node Windows Failover Cluster. For instructions on how to install this feature, see [Install the Failover Clustering Feature](https://go.microsoft.com/fwlink/?LinkId=157259) (https://go.microsoft.com/fwlink/?LinkId=157259).
+1.  Make sure you have installed the **Failover Clustering** feature on at least two computer running Windows Server 2008 so as to create a two node Windows Failover Cluster. For instructions on how to install this feature, see [Install the Failover Clustering Feature](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770506(v=ws.11)) (https://go.microsoft.com/fwlink/?LinkId=157259).
 
 2.  Open Failover Cluster Management by clicking **Start**, clicking **Administrative Tools**, and then clicking **Failover Cluster Management**.
 
@@ -56,7 +56,7 @@ This section provides information about how you can resolve reliability issues w
 
 #### To test whether group resources can fail over
 
-1.  Make sure you have installed the **Failover Clustering** feature on the computer running Windows Server 2008. For instructions on how to install this feature, see [Install the Failover Clustering Feature](https://go.microsoft.com/fwlink/?LinkId=157259) (https://go.microsoft.com/fwlink/?LinkId=157259).
+1.  Make sure you have installed the **Failover Clustering** feature on the computer running Windows Server 2008. For instructions on how to install this feature, see [Install the Failover Clustering Feature](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770506(v=ws.11)) (https://go.microsoft.com/fwlink/?LinkId=157259).
 
 2.  Open Failover Cluster Management by clicking **Start**, clicking **Administrative Tools**, and then clicking **Failover Cluster Management**.
 
@@ -71,7 +71,7 @@ This section provides information about how you can resolve reliability issues w
 ##  <a name="BKMK_BTSGrp"></a> Ensuring Multiple Servers Are Part of a BizTalk Group
  To ensure the reliability of a system, at least two physical BizTalk servers should be part of the BizTalk group.  If you need to add a server to a BizTalk group, keep the following in mind:
 
-- A server can only be associated with one BizTalk group. If a server already belongs to another group, you must first remove that server from its current group before you can add it to a new group. For more information about removing a server from a BizTalk group, see "How to Remove a Server from a Group" in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [https://go.microsoft.com/fwlink/?LinkId=155577](https://go.microsoft.com/fwlink/?LinkId=155577).
+- A server can only be associated with one BizTalk group. If a server already belongs to another group, you must first remove that server from its current group before you can add it to a new group. For more information about removing a server from a BizTalk group, see "How to Remove a Server from a Group" in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [https://go.microsoft.com/fwlink/?LinkId=155577](../core/how-to-remove-a-server-from-a-group.md).
 
 - BizTalk groups associated with different servers in a BizTalk Server environment do not interact except to exchange messages.
 
@@ -119,9 +119,9 @@ This section provides information about how you can resolve reliability issues w
 
 ##  <a name="BKMK_Related"></a> Related Sections
 
-- For information about checking for failed disks in the hardware RAID, see "View Disk Properties" in the Windows Server 2003 product Help at [https://go.microsoft.com/fwlink/?linkid=104161](https://go.microsoft.com/fwlink/?linkid=104161).
+- For information about checking for failed disks in the hardware RAID, see "View Disk Properties" in the Windows Server 2003 product Help at [https://go.microsoft.com/fwlink/?linkid=104161](/previous-versions/windows/it-pro/windows-server-2003/cc775949(v=ws.10)).
 
-- For information about manually checking for suspended messages, see "Investigating Orchestration, Port, and Message Failures" in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [https://go.microsoft.com/fwlink/?LinkID=154512](https://go.microsoft.com/fwlink/?LinkID=154512).
+- For information about manually checking for suspended messages, see "Investigating Orchestration, Port, and Message Failures" in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help at [https://go.microsoft.com/fwlink/?LinkID=154512](../core/investigating-orchestration-port-and-message-failures.md).
 
 - For information about ensuring that each host has an instance running on at least two physical BizTalk servers, see [High Availability for BizTalk Hosts](../technical-guides/high-availability-for-biztalk-hosts.md).
 
