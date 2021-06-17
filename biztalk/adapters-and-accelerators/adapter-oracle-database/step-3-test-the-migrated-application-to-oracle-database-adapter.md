@@ -59,4 +59,4 @@ manager: "anneta"
    ```  
   
 ## See Also  
- [Tutorial: Migrating BizTalk Projects](https://msdn.microsoft.com/library/dd788186(v=bts.80).aspx)
+ [Tutorial: Migrating BizTalk Projects](./tutorial-migrate-biztalk-projects-to-the-oracle-database-adapter.md)

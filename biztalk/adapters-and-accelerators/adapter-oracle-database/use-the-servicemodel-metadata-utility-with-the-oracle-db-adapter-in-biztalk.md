@@ -59,7 +59,7 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
 > [!NOTE]
 >  You can set any of the binding properties of the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] in the binding configuration.
 
- For more information about configuring a non-default binding for svcutil.exe, see the "Custom Secure Metadata Endpoint" topic in the WCF documentation at [https://go.microsoft.com/fwlink/?LinkId=96077](https://go.microsoft.com/fwlink/?LinkId=96077).
+ For more information about configuring a non-default binding for svcutil.exe, see the "Custom Secure Metadata Endpoint" topic in the WCF documentation at [https://go.microsoft.com/fwlink/?LinkId=96077](/dotnet/framework/wcf/samples/custom-secure-metadata-endpoint).
 
 ### Configure a Non-Default Binding for the POLLINGSTMT Operation
  To use svcutil.exe to create a WCF service contract for the POLLINGSTMT operation, you must configure the non-default binding to include the **pollingStatement** property, in addition to **acceptCredentialsInUri**. The **pollingStatement** must contain the SELECT statement that targets the table. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses this property to generate the class that represents the strongly-typed result set that the POLLINGSTMT operation returns. The following example shows a binding configuration that is used to generate a WCF service contract for a POLLINGSTMT operation that targets the /SCOTT/EMP table.
@@ -102,7 +102,7 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
 > [!IMPORTANT]
 >  You must place the connection URI in quotation marks on the command line. Otherwise, svcutil.exe attempts to retrieve metadata for operations that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] does not support. The results of such an attempt are undefined.
 
- By default, svcutil.exe places the generated code in the output.cs file; however, you can change the name of the output file and many other options that svcutil.exe uses by setting command-line switches. For more information about the options that svcutil.exe supports, see the "ServiceModel Metadata Utility Tool (Svcutil.exe)" topic in the WCF documentation at [https://go.microsoft.com/fwlink/?LinkId=72777](https://go.microsoft.com/fwlink/?LinkId=72777).
+ By default, svcutil.exe places the generated code in the output.cs file; however, you can change the name of the output file and many other options that svcutil.exe uses by setting command-line switches. For more information about the options that svcutil.exe supports, see the "ServiceModel Metadata Utility Tool (Svcutil.exe)" topic in the WCF documentation at [https://go.microsoft.com/fwlink/?LinkId=72777](/dotnet/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe).
 
  Svcutil.exe does not provide the capability to search for operations (for example, by using wildcard characters). You must explicitly specify node IDs for the specific operations you want to target. You cannot specify node IDs that refer only to categories. For more information about the node IDs that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] surfaces, see [Metadata Node IDs](../../adapters-and-accelerators/adapter-oracle-database/metadata-node-ids3.md).
 

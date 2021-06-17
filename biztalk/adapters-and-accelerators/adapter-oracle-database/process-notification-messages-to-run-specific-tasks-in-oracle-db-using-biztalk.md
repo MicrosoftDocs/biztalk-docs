@@ -62,7 +62,7 @@ You can use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-shor
 |**NotificationStatement**|Specifies the SELECT statement used to register for query notifications. The adapter gets a notification message only when the result set for the specified SELECT statement changes.|
 |**NotifyOnListenerStart**|Specifies whether the adapter sends a notification to the adapter clients when the listener is started.|
 
- For a more complete description of these properties, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx). For a complete description of how to use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive notifications from the Oracle database, read further.
+ For a more complete description of these properties, see [Working with binding properties](./read-about-the-oracle-database-adapter-binding-properties.md). For a complete description of how to use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to receive notifications from the Oracle database, read further.
 
 ## How to Receive Notification Messages from Oracle Database
  Performing an operation on the Oracle database using [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] involves the procedural tasks described in [Building blocks to develop BizTalk Applications with Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/building-blocks-to-develop-biztalk-applications-with-oracle-database.md). To configure the adapter to receive notification messages, these tasks are:
@@ -87,7 +87,7 @@ You can use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-shor
 ## Generating Schema
  You must generate the schema for the **Notification** inbound operation. See [Retrieve metadata for Oracle Database operations in Visual Studio](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md) for more information about how to generate the schema. Perform the following tasks when generating the schema. Skip the first step if you do not want to specify the binding properties at design-time.
 
-1.  Specify a value for **InboundOperationType**, **NotificationPort**, and **NotificationStatement** binding properties while generating the schema. For more information about this binding property, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx). For instructions on how to specify binding properties, see [Configure the binding properties for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md).
+1.  Specify a value for **InboundOperationType**, **NotificationPort**, and **NotificationStatement** binding properties while generating the schema. For more information about this binding property, see [Working with binding properties](./read-about-the-oracle-database-adapter-binding-properties.md). For instructions on how to specify binding properties, see [Configure the binding properties for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md).
 
 2.  Select the contract type as **Service (Inbound operations)**.
 
@@ -241,11 +241,11 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
     |Binding Property|Value|
     |----------------------|-----------|
     |**InboundOperationType**|Set this to **Notification**.|
-    |**NotificationPort**|Specifies the port number that ODP.NET must open to listen for database change notification from Oracle database. Set this to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](https://go.microsoft.com/fwlink/?LinkID=196959).<br /><br /> **Important:** If you set this to the default value of -1, you will have to completely disable Windows Firewall to receive notification messages.|
+    |**NotificationPort**|Specifies the port number that ODP.NET must open to listen for database change notification from Oracle database. Set this to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](/previous-versions/orphan-topics/ws.11/cc753558(v=ws.11)).<br /><br /> **Important:** If you set this to the default value of -1, you will have to completely disable Windows Firewall to receive notification messages.|
     |**NotificationStatement**|Set this to:<br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`<br /><br /> **Note:** You must specify the table name along with the schema name. For example, `SCOTT.ACCOUNTACTIVITY`.|
     |**NotifyOnListenerStart**|Set this to **True**.|
 
-     For more information about the different binding properties, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx).
+     For more information about the different binding properties, see [Working with binding properties](./read-about-the-oracle-database-adapter-binding-properties.md).
 
     > [!NOTE]
     >  We recommend configuring the transaction isolation level and the transaction timeout while performing inbound operations using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]. You can do so by adding the service behavior while configuring the WCF-Custom or WCF-OracleDB receive port. For instruction on how to add the service behavior, see [Configure Transaction Isolation Level and Transaction Timeout with Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/configure-transaction-isolation-level-and-transaction-timeout-with-oracle-db.md).

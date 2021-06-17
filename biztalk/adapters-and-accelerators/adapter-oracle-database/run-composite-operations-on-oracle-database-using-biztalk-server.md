@@ -341,7 +341,7 @@ The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] en
 > - Stored procedures containing BFILE, BLOB, CLOB, NCLOB, and REF CURSOR as OUT or IN OUT parameters.  
 >   -   Select operation.  
 > 
->   To resolve this issue, you must ensure that if there are “n” number of such operations in a composite operation, the value specified for the **MinPoolSize** binding property is “n+1” or greater. For more information about the **MinPoolSize** binding property, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx).  
+>   To resolve this issue, you must ensure that if there are “n” number of such operations in a composite operation, the value specified for the **MinPoolSize** binding property is “n+1” or greater. For more information about the **MinPoolSize** binding property, see [Working with binding properties](./read-about-the-oracle-database-adapter-binding-properties.md).  
 
 ## Best Practices  
  After you have deployed and configured the BizTalk project, you can export configuration settings to an XML file called the binding file. Once you generate a binding file, you can import the configuration settings from the file, so that you do not need to create items such as send ports and receive ports for the same orchestration. For more information about binding files, see 

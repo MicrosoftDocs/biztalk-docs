@@ -43,7 +43,7 @@ This Software Development Kit (SDK) provides information for developers who are 
   
 |Method|Description|  
 |-|-|  
-|![Icon for the method.](../../adapters-and-accelerators/accelerator-hl7/media/protmethod.gif "protmethod") Finalize (inherited from **System.Object**)|For additional information about the System namespace, see [System Namespace class](https://msdn.microsoft.com/library/system(v=vs.110).aspx).|  
+|![Icon for the method.](../../adapters-and-accelerators/accelerator-hl7/media/protmethod.gif "protmethod") Finalize (inherited from **System.Object**)|For additional information about the System namespace, see [System Namespace class](/dotnet/api/system).|  
   
  If you are viewing BTAHL7 in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] or in the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] documentation, the link in the left column goes to the exact member page. If you are viewing BTAHL7 Help outside of [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)], use the link in the right column to go to the System namespace page in the MSDN Library. Note that the link will not go to the specific member page.  
   
