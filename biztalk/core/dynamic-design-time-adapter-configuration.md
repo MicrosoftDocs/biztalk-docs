@@ -27,7 +27,7 @@ There are situations where static design-time adapter configuration and the stan
   
 2. Modify the adapter property pages to account for any new configuration parameters. For information about this step, see [Adapter Configuration Schemas](../core/adapter-configuration-schemas.md).  
   
-3. Create a custom user interface (UI) for the Add Adapter Metadata Wizard to select the schema to add to the project. Of all the recommendations listed here only this differentiates a dynamic from a static adapter. For more information about this step, see [Dynamic Adapter DisplayUI Method](../core/dynamic-adapter-displayui-method.md) and the class [Microsoft.BizTalk.Adapter.Framework.IDynamicAdapterConfig.DisplayUI](https://msdn.microsoft.com/library/microsoft.biztalk.adapter.framework.idynamicadapterconfig.displayui.aspx).  
+3. Create a custom user interface (UI) for the Add Adapter Metadata Wizard to select the schema to add to the project. Of all the recommendations listed here only this differentiates a dynamic from a static adapter. For more information about this step, see [Dynamic Adapter DisplayUI Method](../core/dynamic-adapter-displayui-method.md) and the class [Microsoft.BizTalk.Adapter.Framework.IDynamicAdapterConfig.DisplayUI](/previous-versions/).  
   
 4. Modify the sample code to return schemas as Web Services Description Language (WSDL) files. For more information about this step, see [Static Adapter IStaticAdapterConfig Interface](../core/static-adapter-istaticadapterconfig-interface.md).  
   

@@ -88,7 +88,7 @@ The Enlist Orchestration sample demonstrates how to enlist a BizTalk Server orch
 ## Comments
  All tasks that you can perform in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console can also be performed by using script that accesses the Windows WMI object model and by using Visual C# that accesses the **System.Management** objects provided by the .NET Framework.
 
- The script file EnlistOrch.vbs and the Visual C# source file EnlistOrc.cs contain detailed comments with further explanation about the operations that they perform. For more information, see Windows Management Instrumentation at [https://go.microsoft.com/fwlink/?LinkId=21102](https://go.microsoft.com/fwlink/?LinkId=21102).
+ The script file EnlistOrch.vbs and the Visual C# source file EnlistOrc.cs contain detailed comments with further explanation about the operations that they perform. For more information, see Windows Management Instrumentation at [https://go.microsoft.com/fwlink/?LinkId=21102](/documentation/).
 
 ## See Also
  [Admin-WMI (BizTalk Server Samples Folder)](../core/admin-wmi-biztalk-server-samples-folder.md)

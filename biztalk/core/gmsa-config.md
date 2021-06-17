@@ -21,7 +21,7 @@ ms.custom: "biztalk-2020"
 
 # Using Group Managed Service Account for BizTalk Server Features
 
-BizTalk Server 2020 and newer supports [Group Managed Service Accounts (gMSA)](https://docs.microsoft.com/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview).
+BizTalk Server 2020 and newer supports [Group Managed Service Accounts (gMSA)](/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview).
 
 When using gMSA, users continue to run BizTalk services without changing the service passwords. The following table shows the BizTalk Server features that support gMSA:
 
@@ -62,7 +62,7 @@ Users can update logon information using the BizTalk Server Administration conso
 
 ## Business Rules Engine, BAM Alerts, and BizTalk TMS
 
-Users can update the **Rule Engine Update Service**, **BAMAlerts**, and **BizTalk TMS** services to use gMSA. To change the logon, use **[SC config](https://docs.microsoft.com/windows-server/administration/windows-commands/sc-config)** or the **Services** app.
+Users can update the **Rule Engine Update Service**, **BAMAlerts**, and **BizTalk TMS** services to use gMSA. To change the logon, use **[SC config](/windows-server/administration/windows-commands/sc-config)** or the **Services** app.
 
 ## BAM Portal and Rest API
 

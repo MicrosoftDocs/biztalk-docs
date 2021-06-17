@@ -34,7 +34,7 @@ The BAM portal can be configured to work in a network load balancing (NLB) clust
 
 3.  Select the BizTalk Management database configured for the computer on which the portal is installed.
 
-4.  Create the NLB cluster. For more information about how to create and manage network load balancing clusters, see "Create and Manage Network Load Balancing Clusters" at [https://go.microsoft.com/fwlink/?LinkId=56206](https://go.microsoft.com/fwlink/?LinkId=56206).
+4.  Create the NLB cluster. For more information about how to create and manage network load balancing clusters, see "Create and Manage Network Load Balancing Clusters" at [https://go.microsoft.com/fwlink/?LinkId=56206](/previous-versions/windows/it-pro/windows-server-2003/cc775749(v=ws.10)).
 
     > [!NOTE]
     >  You should confirm that your NLB cluster is working properly outside of the BizTalk Server context before continuing.

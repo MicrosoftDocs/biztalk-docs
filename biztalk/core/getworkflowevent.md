@@ -70,4 +70,4 @@ Pushes the name of the current workflow event onto the stack.
  This operation is useful for tracking the lifetime of a workflow and for detecting exceptions or other problems with the workflow.
 
 ## See Also
- [System.Workflow.Runtime.Tracking.TrackingWorkflowEvent enumeration](https://go.microsoft.com/fwlink/?LinkId=119568)
+ [System.Workflow.Runtime.Tracking.TrackingWorkflowEvent enumeration](/dotnet/api/system.workflow.runtime.tracking.trackingworkflowevent)

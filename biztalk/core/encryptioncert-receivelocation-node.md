@@ -27,5 +27,5 @@ The EncryptionCert node of the ReceiveLocation node of a binding file contains i
 |--------------|-------------------|-------------------|---------------------|----------------------|------------------|  
 |LongName|Attribute|xs:string|Specifies the long name of the certificate.|Not required|Default value: empty|  
 |ShortName|Attribute|xs:string|Specifies the short name of the certificate.|Not required|Default value: empty|  
-|UsageType|Attribute|CertUsageType (SimpleType)|Specifies the intended usage of this certificate|Required|Default value: none<br /><br /> Possible values include those available in the [Microsoft.BizTalk.ExplorerOM.CertUsageType](https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.certusagetype.aspx) enumeration.|  
+|UsageType|Attribute|CertUsageType (SimpleType)|Specifies the intended usage of this certificate|Required|Default value: none<br /><br /> Possible values include those available in the [Microsoft.BizTalk.ExplorerOM.CertUsageType](/previous-versions/) enumeration.|  
 |ThumbPrint|Attribute|xs:string|Specifies the thumbprint, or unique ID, of the certificate.|Not required|Default value: empty|

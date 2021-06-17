@@ -19,12 +19,12 @@ manager: "anneta"
 ## Overview
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**, you can send and receive messages between BizTalk Server and Azure Event Hubs. 
 
-Azure Event Hubs is a highly scalable data streaming platform, and can receive and process millions of events per second. [What is Event Hubs?](https://docs.microsoft.com/azure/event-hubs/event-hubs-what-is-event-hubs) provides more details.
+Azure Event Hubs is a highly scalable data streaming platform, and can receive and process millions of events per second. [What is Event Hubs?](/azure/event-hubs/event-hubs-what-is-event-hubs) provides more details.
 
 ## Prerequisites
 
-* Create an [Azure event hubs namespace and event hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)
-* Create an [Azure blob storage account with a container](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)
+* Create an [Azure event hubs namespace and event hub](/azure/event-hubs/event-hubs-create)
+* Create an [Azure blob storage account with a container](/azure/storage/common/storage-create-storage-account)
 * Install [Feature Pack 2](https://aka.ms/bts2016fp2) on your BizTalk Server
 
 Your event hub is now created, and you have the connection strings you need to send and receive events.
@@ -51,8 +51,8 @@ Your event hub is now created, and you have the connection strings you need to s
     |---|---|  
     | **Namespace** | Select your Event Hubs namespace, which is something like sb://*youreventhubnamespace*.servicebus.windows.net/ |
     | **Name** | Select the name of your Event Hub (which was created within your Event Hubs namespace) |
-    | **Default Partition Key** | Optional. [Event Hubs programming guide](https://docs.microsoft.com/azure/event-hubs/event-hubs-programming-guide) provides more details on this key. |
-    | **Authentication** | **Namespace Access Signature** is the default, and automatically uses the RootManageSharedAccessKey that's created when you create an Event Hubs namespace.<br/><br/>**Entity Access Signature** is the SAS policy you can create at the Event Hub-level (not the Event Hubs namespace-level). <br/><br/>[Event Hubs features overview](https://docs.microsoft.com/azure/event-hubs/event-hubs-features) explains more. |
+    | **Default Partition Key** | Optional. [Event Hubs programming guide](/azure/event-hubs/event-hubs-programming-guide) provides more details on this key. |
+    | **Authentication** | **Namespace Access Signature** is the default, and automatically uses the RootManageSharedAccessKey that's created when you create an Event Hubs namespace.<br/><br/>**Entity Access Signature** is the SAS policy you can create at the Event Hub-level (not the Event Hubs namespace-level). <br/><br/>[Event Hubs features overview](/azure/event-hubs/event-hubs-features) explains more. |
 
     When finished, your properties look similar to the following: 
 
@@ -106,8 +106,8 @@ You can use a simple File receive port and location to send messages to your Azu
     |---|---|  
     | **Namespace** | Select your Event Hubs namespace, which is something like sb://*youreventhubnamespace*.servicebus.windows.net/ |
     | **Name** | Select the name of your Event Hub (which was created within your Event Hubs namespace) |
-    | **Consumer Group** | Select the Consumer group within your Event Hub. A default group is created automatically. <br/><br/>[Event Hubs features overview](https://docs.microsoft.com/azure/event-hubs/event-hubs-features) provides more details. |
-    | **Authentication** | **Namespace Access Signature** is the default, and automatically uses the RootManageSharedAccessKey that's created when you create an Event Hubs namespace.<br/><br/>**Entity Access Signature** is the SAS policy you can create at the Event Hub-level (not the Event Hubs namespace-level). <br/><br/>[Event Hubs features overview](https://docs.microsoft.com/azure/event-hubs/event-hubs-features) explains more. |
+    | **Consumer Group** | Select the Consumer group within your Event Hub. A default group is created automatically. <br/><br/>[Event Hubs features overview](/azure/event-hubs/event-hubs-features) provides more details. |
+    | **Authentication** | **Namespace Access Signature** is the default, and automatically uses the RootManageSharedAccessKey that's created when you create an Event Hubs namespace.<br/><br/>**Entity Access Signature** is the SAS policy you can create at the Event Hub-level (not the Event Hubs namespace-level). <br/><br/>[Event Hubs features overview](/azure/event-hubs/event-hubs-features) explains more. |
 
     When finished, your properties look similar to the following: 
 
@@ -116,7 +116,7 @@ You can use a simple File receive port and location to send messages to your Azu
 5. Configure the **Checkpoint** properties. This adapter uses an Azure blob storage account to reliably read events using a checkpoint, and resume from a restart. 
 
     **Storage Authentication**   
-    Select an authentication method. Typically, it's recommended to use a Shared Access Signature. The following links are good resources to help you decide which is right for your scenario:<br/><br/>[About Azure storage accounts](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)<br/>[Using shared access signatures (SAS)](https://docs.microsoft.com/azure/storage/common/storage-dotnet-shared-access-signature-part-1)
+    Select an authentication method. Typically, it's recommended to use a Shared Access Signature. The following links are good resources to help you decide which is right for your scenario:<br/><br/>[About Azure storage accounts](/azure/storage/common/storage-create-storage-account)<br/>[Using shared access signatures (SAS)](/azure/storage/common/storage-dotnet-shared-access-signature-part-1)
 
     When finished, your properties look similar to the following: 
 
@@ -143,5 +143,5 @@ You can use a simple File send port to receive messages from your Azure Event Hu
 ## Do more
 Event Hubs is considered the "front door" to a lot of other Azure services, including Azure Data Lake, HD Insight, and more. It's designed to process a lot of messages, and process them fast. Read more about Event Hubs, and its features: 
 
-[Event Hubs features overview](https://docs.microsoft.com/azure/event-hubs/event-hubs-features)  
-[What is Event Hubs?](https://docs.microsoft.com/azure/event-hubs/event-hubs-what-is-event-hubs)
+[Event Hubs features overview](/azure/event-hubs/event-hubs-features)  
+[What is Event Hubs?](/azure/event-hubs/event-hubs-what-is-event-hubs)

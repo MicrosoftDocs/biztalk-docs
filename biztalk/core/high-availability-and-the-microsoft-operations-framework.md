@@ -21,7 +21,7 @@ Applying the Microsoft Operations Framework (MOF) process model to the planning 
  This section contains information about the MOF processes where you have to consider high-availability tasks.  
   
 ## Microsoft Operations Framework Process Model  
- The [Microsoft Operations Framework (MOF)](https://technet.microsoft.com/solutionaccelerators/dd320379.aspx) provides guidance that enables organizations to achieve mission-critical system reliability, availability, supportability, and manageability of Microsoft products and technologies. MOF provides operational guidance in the form of white papers, operations guides, assessment tools, best practices, case studies, templates, support tools, and services. This guidance addresses the people, process, technology, and management issues pertaining to complex, distributed, and heterogeneous IT environments. 
+ The [Microsoft Operations Framework (MOF)](/previous-versions/tn-archive/cc936627(v=technet.10)) provides guidance that enables organizations to achieve mission-critical system reliability, availability, supportability, and manageability of Microsoft products and technologies. MOF provides operational guidance in the form of white papers, operations guides, assessment tools, best practices, case studies, templates, support tools, and services. This guidance addresses the people, process, technology, and management issues pertaining to complex, distributed, and heterogeneous IT environments. 
   
  The MOF process model enables companies to:  
   

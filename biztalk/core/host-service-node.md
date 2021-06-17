@@ -27,5 +27,5 @@ The Host node of the Service node of a binding file describes the host associate
 |--------------|-------------------|-------------------|---------------------|----------------------|------------------|  
 |Name|Attribute|xs:string|Specifies the name of the host.|Not required|Default value: empty|  
 |NTGroupName|Attribute|xs:string|Specifies the Windows NT Group name associated with the host.|Not required|Default value: empty|  
-|Type|Attribute|xs:int|Specifies the host type as in process or isolated.|Required|Default value: none<br /><br /> Possible values are described in the [Microsoft.BizTalk.ExplorerOM.HostType](https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.hosttype.aspx) enumeration.|  
+|Type|Attribute|xs:int|Specifies the host type as in process or isolated.|Required|Default value: none<br /><br /> Possible values are described in the [Microsoft.BizTalk.ExplorerOM.HostType](/previous-versions/) enumeration.|  
 |Trusted|Attribute|xs:boolean|Specifies whether the BizTalk host can be trusted to collect authentication information.|Required|Default value: none<br /><br /> Set to **true** if the host is trusted, otherwise set to **false**.|

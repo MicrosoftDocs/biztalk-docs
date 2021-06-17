@@ -77,7 +77,7 @@ This topic provides a brief general overview of EDI and how BizTalk Server suppo
 - The BizTalk EDI Application contains artifacts (including pipelines, orchestrations, and schemas) that are needed to process EDI documents.  
   
   > [!NOTE]
-  >  When you configure the EDI feature in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the configuration program creates this application. Whenever you create an application that will process EDI interchanges, you must add a reference to the BizTalk EDI Application from your application. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](https://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
+  >  When you configure the EDI feature in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the configuration program creates this application. Whenever you create an application that will process EDI interchanges, you must add a reference to the BizTalk EDI Application from your application. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](/previous-versions/).  
   
 - The BizTalk EDI Receive Pipeline (EdiReceive pipeline) parses EDI-encoded documents, splits EDI batches, converts the EDI-encoded documents into XML encoding, performs EDI and XSD validation, and performs HIPAA X12 sub-document splitting. For more information, see [EDI Receive Components](../core/edi-receive-components.md).  
   
@@ -93,7 +93,7 @@ This topic provides a brief general overview of EDI and how BizTalk Server suppo
   
 - A schema repository includes X12, EDIFACT, HIPAA X12N 4010A XSD, EANCOM, and control schemas. For more information, see [EDI Document Schema Support](../core/edi-document-schema-support.md).  
   
-- A migration tool (Party Migration Tool) enables you to migrate EDI party data from BizTalk Server 2006 R2 or BizTalk Server 2009 to BizTalk Server. For more information, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](https://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
+- A migration tool (Party Migration Tool) enables you to migrate EDI party data from BizTalk Server 2006 R2 or BizTalk Server 2009 to BizTalk Server. For more information, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](/previous-versions/).  
   
 ## See Also  
  [EDI Processing in BizTalk Server](../core/edi-processing-in-biztalk-server.md)   
