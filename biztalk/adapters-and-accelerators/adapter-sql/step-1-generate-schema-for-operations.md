@@ -31,7 +31,7 @@ manager: "anneta"
 ## Prerequisites  
  Before you proceed with the tutorial, make sure:  
   
--   You must have completed the steps in [Before You Develop BizTalk Applications](https://msdn.microsoft.com/library/3539741d-5266-43d4-9b7b-73e82f0ed4f6).  
+-   You must have completed the steps in [Before You Develop BizTalk Applications](/previous-versions/).  
   
 -   You must log on as a member of the BizTalk Server Administrators group.  
   

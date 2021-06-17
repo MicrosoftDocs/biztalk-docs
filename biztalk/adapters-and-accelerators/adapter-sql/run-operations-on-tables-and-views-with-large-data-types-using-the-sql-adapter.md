@@ -18,7 +18,7 @@ manager: "anneta"
 # Run operations on tables and views with large data types using the SQL adapter
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to read and update data in columns of large data types, that is, varchar(max), nvarchar(max), or varbinary(max). To read data from such columns, adapter clients can use the Select operation. To insert or update data into such columns, the adapter exposes a Set<column_name> operation, where <column_name> is the name of the column of type varchar(max), nvarchar(max), or varbinary(max).
 
- Additionally, in SQL Server 2008, you can have the varbinay(max) column store unstructured data such as text documents and images. Such unstructured data is called FILESTREAM data. FILESTREAM data can be stored as files on the file system. The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables the client to enter FILESTREAM data into columns of type varbinary(max). For more information about FILESTREAM storage, see [FILESTREAM Overview](https://msdn.microsoft.com/library/bb933993(SQL.100).aspx).
+ Additionally, in SQL Server 2008, you can have the varbinay(max) column store unstructured data such as text documents and images. Such unstructured data is called FILESTREAM data. FILESTREAM data can be stored as files on the file system. The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables the client to enter FILESTREAM data into columns of type varbinary(max). For more information about FILESTREAM storage, see [FILESTREAM Overview](/previous-versions/sql/sql-server-2008/bb933993(v=sql.100)).
 
  This topic provides information about certain tasks you must perform on the computer running SQL Server and the computer running the adapter client to be able to insert or update FILESTREAM data. This topic also provides instructions on performing Set<column_name> operations to insert FILESTREAM data.
 
@@ -31,11 +31,11 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
 
 - **On the computer running SQL Server**
 
-  -   You must enable FILESTREAM on the SQL Server instance. For more information, see [https://go.microsoft.com/fwlink/?LinkId=122486](https://go.microsoft.com/fwlink/?LinkId=122486).
+  -   You must enable FILESTREAM on the SQL Server instance. For more information, see [https://go.microsoft.com/fwlink/?LinkId=122486](/previous-versions/sql/sql-server-2008/cc645923(v=sql.100)).
 
-  -   You must create a FILESTREAM-enabled database. For more information, see [https://go.microsoft.com/fwlink/?LinkId=122487](https://go.microsoft.com/fwlink/?LinkId=122487).
+  -   You must create a FILESTREAM-enabled database. For more information, see [https://go.microsoft.com/fwlink/?LinkId=122487](/previous-versions/sql/sql-server-2008/cc645585(v=sql.100)).
 
-  -   You must have a table for storing FILESTREAM data. For more information, see [https://go.microsoft.com/fwlink/?LinkId=122488](https://go.microsoft.com/fwlink/?LinkId=122488).
+  -   You must have a table for storing FILESTREAM data. For more information, see [https://go.microsoft.com/fwlink/?LinkId=122488](/previous-versions/sql/sql-server-2008/cc645583(v=sql.100)).
 
   -   You must configure MSDTC on the computer hosting the SQL Server database. For instruction on how to configure MSDTC, see [Configure MSDTC on SQL Server and adapter client](../../adapters-and-accelerators/adapter-sql/configure-msdtc-on-sql-server-and-adapter-client.md).
 
