@@ -32,13 +32,13 @@ The properties of the XML validator pipeline component can be set in the Propert
 <tbody>
 <tr class="odd">
 <td><strong>Document schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>. If no schemas are specified, the runtime schema discovery will use the message's target namespace and root element name information.<br />
+<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="/biztalk/core/how-to-use-the-schema-collection-property-editor">How to Use the Schema Collection Property Editor</a>. If no schemas are specified, the runtime schema discovery will use the message's target namespace and root element name information.<br />
 <br />
 Default value: Empty collection (Collection)</td>
 </tr>
 <tr class="even">
 <td><strong>Recoverable interchange processing</strong></td>
-<td>Indicate whether to process messages within an interchange individually. For more information, see <a href="https://msdn.microsoft.com/library/aa578714(v=bts.80)">Recoverable Interchange Processing</a><br />
+<td>Indicate whether to process messages within an interchange individually. For more information, see <a href="/biztalk/core/recoverable-interchange-processing">Recoverable Interchange Processing</a><br />
 <br />
 Default Value: False</td>
 </tr>
@@ -51,4 +51,3 @@ Default Value: False</td>
 [Using Pipeline Designer](https://msdn.microsoft.com/library/aa578392\(v=bts.80\))  
 [How to Configure the XML Validator Pipeline Component](https://msdn.microsoft.com/library/aa559670\(v=bts.80\))  
 [XML Validator Pipeline Component](https://msdn.microsoft.com/library/aa578187\(v=bts.80\))
-
