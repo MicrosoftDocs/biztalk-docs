@@ -45,7 +45,7 @@ This section provides information about using a custom Web Part with Microsoft O
   
 6.  Build the project. On successful build of the project, a .dll file, CustomWebPart.dll, will be generated in the \<project folder\>/bin/Debug folder.  
   
-7.  **Only for 64-bit computer**: Sign the CustomWebPart.dll file with a strong name before performing the following steps. Otherwise, you will not be able to import, and hence use the CustomWebPart.dll in the SharePoint portal in “Step 3: Configure the SharePoint Portal to use the custom Web Part.” For information about how to sign an assembly with a strong name, see [How to: Sign an Assembly with a Strong Name](https://msdn.microsoft.com/library/xc31ft41.aspx).
+7.  **Only for 64-bit computer**: Sign the CustomWebPart.dll file with a strong name before performing the following steps. Otherwise, you will not be able to import, and hence use the CustomWebPart.dll in the SharePoint portal in “Step 3: Configure the SharePoint Portal to use the custom Web Part.” For information about how to sign an assembly with a strong name, see [How to: Sign an Assembly with a Strong Name](/dotnet/standard/assembly/sign-strong-name).
   
 ## Step 2: Deploy the custom Web Part to a SharePoint Portal  
  You must do the following to make the CustomWebPart.dll file (custom Web Part) that is created in “Step 1: Create a custom Web Part” of this topic usable on the SharePoint portal:  

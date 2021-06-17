@@ -101,7 +101,7 @@ manager: "anneta"
        |UseServiceCertificate|Specifies whether you want to use the message level security mode of WCF. Default is **True**. For this tutorial, you must set this to **False**.|
 
        > [!NOTE]
-       >  Because we are not using service certificates for this tutorial, you do not need to provide values for the **FindValue**, **StoreLocation**, **StoreName**, and **X509FindType** properties. For more information about the certificates and the associated properties, see "X509ClientCertificateCredentialsElement Properties" at [https://go.microsoft.com/fwlink/?LinkId=103771](https://go.microsoft.com/fwlink/?LinkId=103771).
+       >  Because we are not using service certificates for this tutorial, you do not need to provide values for the **FindValue**, **StoreLocation**, **StoreName**, and **X509FindType** properties. For more information about the certificates and the associated properties, see "X509ClientCertificateCredentialsElement Properties" at [https://go.microsoft.com/fwlink/?LinkId=103771](/dotnet/api/system.servicemodel.configuration.x509clientcertificatecredentialselement).
 
     2. In the **Endpoint Behavior Configuration** box, specify values for the following:
 
@@ -109,8 +109,8 @@ manager: "anneta"
        |----------------------|-----------------------|
        |Authentication Type|For Microsoft Office SharePoint Server to consume the WCF service, you should set this as **HTTPUserNamePassword**. This enables clients to specify user name and password as part of the HTTP header.|
        |Name|Specify a name for the endpoint behavior configuration. For this tutorial, type **customEndpointBehavior**.|
-       |UsernameHeader|Name for the user name header. For this example, specify **MyUserHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [https://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692). **Note:**  You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
-       |PasswordHeader|Name for the password header. For this example, specify **MyPassHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [https://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692). **Note:**  You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
+       |UsernameHeader|Name for the user name header. For this example, specify **MyUserHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [https://go.microsoft.com/fwlink/?LinkId=106692](/previous-versions/office/developer/sharepoint-2010/bb802855(v=office.14)). **Note:**  You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
+       |PasswordHeader|Name for the password header. For this example, specify **MyPassHeader**. For more information about HTTP headers, see "Support for Custom HTTP and SOAP Headers" at [https://go.microsoft.com/fwlink/?LinkId=106692](/previous-versions/office/developer/sharepoint-2010/bb802855(v=office.14)). **Note:**  You must specify a value for this property if the **Authentication Type** is set to **HTTPUserNamePassword**. If **Authentication Type** is set to **Auto**, this property is optional.|
 
        The following figure shows the Configure Service and Endpoint Behaviors page with the specified values.
 
@@ -124,7 +124,7 @@ manager: "anneta"
 
     |For the property|Specify the value|
     |----------------------|-----------------------|
-    |Binding Configuration|The wizard only supports basic HTTP binding. So, the binding configuration field is automatically populated to *System.ServiceModel.Configuration.BasicHttpBindingElement*.<br /><br /> Click the ellipsis button **(…)** to change the properties for HTTP binding. To use a secure communication channel, you must always set the **Mode** property to **Transport**. The wizard sets the default value for the **Mode** property as **Transport**.<br /><br /> For more information about the other bindings exposed, see "BasicHttpBindingElement Members" at [https://go.microsoft.com/fwlink/?LinkId=103773](https://go.microsoft.com/fwlink/?LinkId=103773).|
+    |Binding Configuration|The wizard only supports basic HTTP binding. So, the binding configuration field is automatically populated to *System.ServiceModel.Configuration.BasicHttpBindingElement*.<br /><br /> Click the ellipsis button **(…)** to change the properties for HTTP binding. To use a secure communication channel, you must always set the **Mode** property to **Transport**. The wizard sets the default value for the **Mode** property as **Transport**.<br /><br /> For more information about the other bindings exposed, see "BasicHttpBindingElement Members" at [https://go.microsoft.com/fwlink/?LinkId=103773](/dotnet/api/system.servicemodel.configuration.basichttpbindingelement).|
     |Endpoint Name|Specify an endpoint name for the contract.|
 
      The other fields on this page are automatically populated based on the values you specified in the earlier pages.
@@ -170,7 +170,7 @@ SelectResponse InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.Select(SelectRequest 
 ```
 
 ##  <a name="Publish"></a> Publish the WCF Service
- Make sure that SSL is enabled for IIS. For instructions on how to enable SSL for IIS, see [https://go.microsoft.com/fwlink/?LinkId=197170](https://go.microsoft.com/fwlink/?LinkId=197170).
+ Make sure that SSL is enabled for IIS. For instructions on how to enable SSL for IIS, see [https://go.microsoft.com/fwlink/?LinkId=197170](/iis/manage/configuring-security/how-to-set-up-ssl-on-iis).
 
  To publish the WCF service:
 

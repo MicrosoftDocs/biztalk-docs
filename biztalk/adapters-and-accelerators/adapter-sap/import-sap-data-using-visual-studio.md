@@ -112,7 +112,7 @@ This section provides information on how to use Microsoft [!INCLUDE[btsVStudioNo
 
 2. Right-click the package name and select **Execute Package**.
 
-   For more information about running packages, see [https://go.microsoft.com/fwlink/?LinkId=94972](https://go.microsoft.com/fwlink/?LinkId=94972). For any other information related to SSIS packages, see [https://go.microsoft.com/fwlink/?LinkId=94973](https://go.microsoft.com/fwlink/?LinkId=94973).
+   For more information about running packages, see [https://go.microsoft.com/fwlink/?LinkId=94972](/sql/integration-services/packages/run-integration-services-ssis-packages). For any other information related to SSIS packages, see [https://go.microsoft.com/fwlink/?LinkId=94973](/previous-versions/sql/sql-server-2008-r2/ms137712(v=sql.105)).
 
 ## Verifying the Results
  After executing the package, you must verify the results by logging on to the SQL Server and navigating to the database to which the SAP data is imported. Executing the package should have created a table in destination database and populated with the values from the SAP table.
