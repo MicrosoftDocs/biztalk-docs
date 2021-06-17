@@ -39,4 +39,4 @@ Microsoft BizTalk Server is an extremely database intensive application that may
 > [!NOTE]  
 >  BAM RTA requires SQL Server Enterprise Edition.  
   
- For a complete list of the features supported by the editions, see [Features Supported by the Editions of SQL Server](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016).
+ For a complete list of the features supported by the editions, see [Features Supported by the Editions of SQL Server](/sql/sql-server/editions-and-components-of-sql-server-2016).

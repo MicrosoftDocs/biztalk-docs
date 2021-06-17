@@ -28,18 +28,18 @@ You can use multiple approaches for publishing [!INCLUDE[btsBizTalkServerNoVersi
 
  For more information about using a reverse proxy, see the following topics in BizTalk Server Help:
 
--   ["Sample Architecture: HTTP and SOAP Adapters"](https://go.microsoft.com/fwlink/?LinkId=153339) (https://go.microsoft.com/fwlink/?LinkId=153339).
+-   ["Sample Architecture: HTTP and SOAP Adapters"](../core/sample-architecture-http-and-soap-adapters.md) (https://go.microsoft.com/fwlink/?LinkId=153339).
 
--   ["Sample TMA: HTTP and SOAP Adapters"](https://go.microsoft.com/fwlink/?LinkId=153340) (https://go.microsoft.com/fwlink/?LinkId=153340).
+-   ["Sample TMA: HTTP and SOAP Adapters"](../core/sample-tma-http-and-soap-adapters.md) (https://go.microsoft.com/fwlink/?LinkId=153340).
 
--   ["Large Distributed Architecture"](https://go.microsoft.com/fwlink/?LinkId=153341) (https://go.microsoft.com/fwlink/?LinkId=153341).
+-   ["Large Distributed Architecture"](../core/large-distributed-architecture.md) (https://go.microsoft.com/fwlink/?LinkId=153341).
 
 ## Using Computers Running BizTalk Server in the Perimeter Network
  This is not the preferred approach for publishing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services or WCF services to the Internet because it requires computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to be located in the perimeter network. However, when a reverse proxy is not available in the perimeter network, you can use this approach.
 
  This approach requires the perimeter network domain to enlist in a one-way trust with the intranet domain (but the intranet domain does not trust the perimeter network domain). The IIS application pools that host the Web services or WCF services in the perimeter network domain must be running under an intranet domain account that is in the "BizTalk Isolated Host Users" domain group. This gives the application pool the required rights to publish messages to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] MessageBox database.
 
- You must open specific ports in the firewall to accommodate this. For more information about the required ports, see ["Ports for the Receive and Send Servers"](https://go.microsoft.com/fwlink/?LinkId=153342) (<https://go.microsoft.com/fwlink/?LinkId=153342>) in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentation.
+ You must open specific ports in the firewall to accommodate this. For more information about the required ports, see ["Ports for the Receive and Send Servers"](../core/ports-for-the-receive-and-send-servers.md) (<https://go.microsoft.com/fwlink/?LinkId=153342>) in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] documentation.
 
 ## Exposing BizTalk Applications on the Cloud using AppFabric Connect for Services
  See the article [Exposing BizTalk Applications on the Cloud using AppFabric Connect for Services](https://go.microsoft.com/fwlink/?LinkID=204700) (https://go.microsoft.com/fwlink/?LinkID=204700) for more information about expose BizTalk Applications as WCF Services on the cloud.

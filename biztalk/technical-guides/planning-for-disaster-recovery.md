@@ -27,7 +27,7 @@ This topic provides guidance to application teams for disaster recovery requirem
 ## Scope
  This section focuses on disaster recovery procedures for BizTalk Server and related procedures for [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. This guide builds on related documentation about how to back up and restore BizTalk Server.
 
- For more information about backup and restore, see this documentation and see [Backing Up and Restoring BizTalk Server](https://go.microsoft.com/fwlink/?LinkID=154071) (https://go.microsoft.com/fwlink/?LinkID=154071) in BizTalk Server Help. Each application team must augment the information in this topic with additional procedures specific to their environment, such as document computer names, drive letters, and cluster configuration, as well as disaster recovery procedures for related non-BizTalk applications that are part of the solution.
+ For more information about backup and restore, see this documentation and see [Backing Up and Restoring BizTalk Server](../core/backing-up-and-restoring-biztalk-server.md) (https://go.microsoft.com/fwlink/?LinkID=154071) in BizTalk Server Help. Each application team must augment the information in this topic with additional procedures specific to their environment, such as document computer names, drive letters, and cluster configuration, as well as disaster recovery procedures for related non-BizTalk applications that are part of the solution.
 
  This topic does not provide detailed disaster recovery procedures for the following areas:
 
