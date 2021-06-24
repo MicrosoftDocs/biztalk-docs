@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Oracle E-Business Suite adapter FAQs
-The following are some frequently asked questions (FAQs) related to [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]. Also see [Frequently asked questions for the BizTalk Adapter Pack](../../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.md).
+The following are some frequently asked questions (FAQs) related to [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]. Also see [Frequently asked questions for the BizTalk Adapter Pack](../../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.yml).
   
 
 ## How can I use the Oracle E-Business adapter to communicate with Oracle E-Business Suite?  
@@ -64,4 +64,4 @@ The following are some frequently asked questions (FAQs) related to [!INCLUDE[ad
  For information about the approach you can use to perform various operations using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], see [Develop your Oracle EBS applications](../../adapters-and-accelerators/adapter-oracle-ebs/develop-your-oracle-e-business-suite-applications.md).  
   
 ## See Also  
-[Frequently asked questions for the BizTalk Adapter Pack](../../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.md)
+[Frequently asked questions for the BizTalk Adapter Pack](../../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.yml)
