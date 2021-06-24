@@ -50,7 +50,7 @@ sections:
           
           3. Select the binding element you specified in the machine.config file and configure the binding as required. It is now ready to use for message transmission or receipt.
           
-          BizTalk does very limited validation for a custom binding when it has been added in this manner. Therefore, it is important to ensure the binding elements are listed in the correct order. The binding element you want invoked first at runtime must be on the bottom of the CustomBindingElement binding tree in the dialog box. The list of BindingElements must contain a Transport and that Transport must be at the bottom of the list. The set of BindingElements may also contain an Encoder. For more information, see the WCF documentation on binding elements at [https://go.microsoft.com/fwlink/?LinkId=142449](https://go.microsoft.com/fwlink/?LinkId=142449).
+             BizTalk does very limited validation for a custom binding when it has been added in this manner. Therefore, it is important to ensure the binding elements are listed in the correct order. The binding element you want invoked first at runtime must be on the bottom of the CustomBindingElement binding tree in the dialog box. The list of BindingElements must contain a Transport and that Transport must be at the bottom of the list. The set of BindingElements may also contain an Encoder. For more information, see the WCF documentation on binding elements at [https://go.microsoft.com/fwlink/?LinkId=142449](https://go.microsoft.com/fwlink/?LinkId=142449).
           
       - question: |
           What is a WCF custom behavior and how do I use one with BizTalk Server?

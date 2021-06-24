@@ -41,17 +41,17 @@ sections:
             
            - **Standard bindings:** Microsoft’s goal is to develop adapters focused on the most common communication scenarios. Using standard bindings simplifies the developer’s experience by hiding many details of the communication protocols. The set of WCF adapters in BizTalk Server reflects the set of bindings available in the .NET Framework 4.0 WCF libraries. Standard bindings were introduced to the .NET WCF libraries to make typical binding patterns easier to use. They cover the most commonly used communication scenarios and include:  
             
-            -   WCF-WsHttp  
+             -   WCF-WsHttp  
             
-            -   WCF-BasicHttp  
+             -   WCF-BasicHttp  
             
-            -   WCF-NetTcp  
+             -   WCF-NetTcp  
             
-            -   WCF-NetMsmg  
+             -   WCF-NetMsmg  
             
-            -   WCF-NetNamedPipe  
+             -   WCF-NetNamedPipe  
             
-            BizTalk Server R2 ships with the following WCF adapters:  
+              BizTalk Server R2 ships with the following WCF adapters:  
             
             1.  **WCF-WSHttp adapter:**  Provides the WS-* standards support over the HTTP transport. The WCF-WSHttp adapter implements the following specifications: WS-Transaction for the transactional interactions between external applications and the MessageBox database, and WS-Security for message security and authentication. The transport is HTTP or HTTPS, and message encoding is a text or Message Transmission Optimization Mechanism (MTOM) encoding.  
             
@@ -82,7 +82,7 @@ sections:
             
            - Any number of other protocol binding elements.  
             
-            The process that builds a runtime environment out of this description allows each binding element to contribute code to that environment. It is generally required for a client to match the same binding types and adapter that the called WCF Service supports. At the WCF level, a binding can be defined declaratively in a configuration file or explicitly through code. A WCF adapter facilitates communication using a specific WCF binding, and thus the terms “adapter” and “binding” tend to become almost identical in their usage.  
+             The process that builds a runtime environment out of this description allows each binding element to contribute code to that environment. It is generally required for a client to match the same binding types and adapter that the called WCF Service supports. At the WCF level, a binding can be defined declaratively in a configuration file or explicitly through code. A WCF adapter facilitates communication using a specific WCF binding, and thus the terms “adapter” and “binding” tend to become almost identical in their usage.  
             
       - question: |
           When using the WCF adapters, how do you decide which WCF binding to use?  
@@ -91,21 +91,21 @@ sections:
             
            1.  **Messaging pattern:** The pattern of communication is how the communication occurs based on the flow of the message. For example, the message may be one-way (request) or two-way (request-response), it may be transacted, it may be queued, and so on.  
             
-              -   If it is queued, you need to use the WCF-NetMsmq adapter, which supports one-way queued transacted communication.  
+               -   If it is queued, you need to use the WCF-NetMsmq adapter, which supports one-way queued transacted communication.  
             
-              -   If the pattern is a two-way request-response and flows between two computers, you would use HTTP (if you are concerned about being as flexible as possible), or WCF-NetTcp (if you are concerned about performance).  
+               -   If the pattern is a two-way request-response and flows between two computers, you would use HTTP (if you are concerned about being as flexible as possible), or WCF-NetTcp (if you are concerned about performance).  
             
-              -   If the message remains on a single computer and flows simply between processes, you can use the WCF-NetNamedPipe binding.  
+               -   If the message remains on a single computer and flows simply between processes, you can use the WCF-NetNamedPipe binding.  
             
            2.  **External constraints:** There may be issues that dictate you use a specific binding. For instance, suppose the external system requires SOAP Web Services version 1.2 and Addressing 1.0. In this case, the best binding choice is WSHttpBinding using the WCF-WsHttp adapter. In all likelihood, the external system would also have requirements around the particular security mode to configure. If the external system required Soap Web Services 1.1 you would use the WCF-BasicHttp adapter for the HTTP binding.  
             
            3.  **Performance:** How fast the call is made may be a deciding factor in which binding you choose to use in your application:  
             
-              -   If the WCF service is on the same computer as BizTalk Server, using the WCF-NetNamedPipe adapter is the best performance choice.  
+               -   If the WCF service is on the same computer as BizTalk Server, using the WCF-NetNamedPipe adapter is the best performance choice.  
             
-              -   If the WCF service is on your local network, WCF-NetTcp yields the best performance.  
+               -   If the WCF service is on your local network, WCF-NetTcp yields the best performance.  
             
-              -   If performance is not a major concern and the call is going across the Internet, either of the HTTP-based adapters (WCF-WsHttp or WCF-BasicHttp) is the right adapter.  
+               -   If performance is not a major concern and the call is going across the Internet, either of the HTTP-based adapters (WCF-WsHttp or WCF-BasicHttp) is the right adapter.  
             
                    Whether you are using any advanced HTTP functionality (WCF-WsHttp) or just basic functionality (WCF-BasicHttp) will dictate which HTTP-based adapter is the best choice to use.  
             
