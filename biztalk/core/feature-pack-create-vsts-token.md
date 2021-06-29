@@ -16,7 +16,7 @@ manager: "dougeby"
 
 # Step 2: Create the token & install the agent
 
-A personal access token (PAT) is created in Visual Studio Team Services. This token is your password, and is used by the VSTS build agent to authenticate. The token is only shown when you create it. After that, it isn't shown anymore. So once you create it, save it to another file in a remember-able location. 
+A personal access token (PAT) is created in Azure DevOps (previus called Visual Studio Team Services). This token is your password, and is used by the DevOps build agent to authenticate. The token is only shown when you create it. After that, it isn't shown anymore. So once you create it, save it to another file in a remember-able location. 
 
 More info on PAT at [Authenticate access with personal access tokens for VSTS and TFS](/vsts/accounts/use-personal-access-tokens-to-authenticate). 
 
@@ -28,7 +28,7 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 
 ## Sign into Azure DevOps, and create the token
 
-1. Go to [https://app.vsaex.visualstudio.com/go/profile](https://app.vsaex.visualstudio.com/go/profile), and sign-in with your work or school account. After you sign in, your VSTS account is listed. In the following example, the account is `dev.azure.com/v-vabi`:
+1. Go to [https://app.vsaex.visualstudio.com/](https://app.vsaex.visualstudio.com/), and sign-in with your work or school account. After you sign in, your Azure DevOps account is listed. In the following example, the account is `https://app.vsaex.visualstudio.com/me`:
 
     :::image type="content" source="./media/feature-pack-create-vsts-token/team-services-accounts.png" alt-text="Sign in to the Azure DevOps account, and see your account in the list.":::
 
@@ -36,22 +36,22 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 
     :::image type="content" source="./media/feature-pack-create-vsts-token/git-or-team-foundation.png" alt-text="Select Git or Team Foundation Version Control to host your Azure DevOps projects.":::
 
-2. Open your DevOps account (`https://dev.azure.com/v-vabi/`). Select your icon in the top second right-side corner, and select **User settings** > **Personal access tokens**:
+2. Select your DevOps organization (`https://dev.azure.com/v-vabi/`). Select your icon in the top second right-side corner, and select **User settings** > **Personal access tokens**:
 
     :::image type="content" source="./media/feature-pack-create-vsts-token/azure-devops-personal-access-token.png" alt-text="Open your account personal access token security in Azure DevOps.":::
 
-3. All the personal access tokens are shown.
+3. On the Personal Access Tokens page, it will be presented a list of all existing personal access tokens.
 
     :::image type="content" source="./media/feature-pack-create-vsts-token/agent-pools-read-manage.png" alt-text="See all the personal access tokens in your account in Azure DevOps.":::
 
     > [!IMPORTANT]
-    > You must know the access token. If you don’t, and didn’t note it anywhere, it cannot be retrieved. In this situation, create a new agent.
+    > You must know the access token. If you don’t, and didn’t note it anywhere, it cannot be retrieved. In this situation, create a new PAT.
 
-    If you don’t have an existing agent, select **Add**, enter a description, set the expiration date, and select your account. In **Selected scopes**, select **Agent Pools (read, manage)**: 
+    If you don’t have an existing PAT for your agent, select **Add**. On the **Create a new personal access token** page, enter a **Name**, set the expiration date on **Expiration (UTC)** set the **Organization**, and select your account. In the **Scopes**, select **Custom defined** and then select **Agent Pools (Read & manage)** and **Connected server (Connected server)**: 
 
     :::image type="content" source="./media/feature-pack-create-vsts-token/vsts-new-build-agent.png" alt-text="Create a new read and manage agent in your Azure DevOps account":::
 
-    Select **Create Token**. **Note the token value; you need in future steps.**
+    Select **Create** to finish the PAT creation. **Note save the token value, you need in future steps.**
 
 4. Select **Repos** > **Clone in Visual Studio**:  
 
@@ -70,13 +70,15 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 
 The following steps show you how to install the build agent on a single computer. For details on using deployment groups, see [Deployment groups](/vsts/build-release/concepts/definitions/release/deployment-groups/index).
 
-1. Open your Azure DevOps account and project, which is something like `https://dev.azure.com/v-vabi/BizTalkVSTS`. Select the project settings icon, and select **Agent Pools**:
+1. Open your Azure DevOps Organization and/or project, which is something like `https://dev.azure.com/v-vabi/BizTalkVSTS`. Select the **Organization settings** or **Project settings** icon, and select **Agent Pools**:
 
     :::image type="content" source="./media/feature-pack-create-vsts-token/azure-devops-settings-agent-queues.png" alt-text="In Azure DevOps, go to settings, agent queues to select agent pools.":::
 
-2. Select the **Default** agent > **New Agent** **Download**. Save the file to your **Downloads** folders.
+2. On the Agent pools page, select the **Default** agent > **New Agent** 
 
-3. The install steps automatically open. Follow those steps for the most up-to-date details. Here is some guidance:
+3. On the Get the agent pop-up window, select your SO and then select **Download**. Save the file to your **Downloads** folders.
+
+4. The install steps automatically open. Follow those steps for the most up-to-date details. Here is some guidance:
 
     1. Open Windows PowerShell as Administrator.
     2. To create the agent, enter:
@@ -111,7 +113,7 @@ The following steps show you how to install the build agent on a single computer
 
         :::image type="content" source="./media/feature-pack-create-vsts-token/azure-devops-agent-powershell-install.png" alt-text="Agent install completes using PowerShell in Azure DevOps.":::
 
-4. Open services.msc to see the new service. It should be running:  
+5. Open services.msc to see the new service. It should be running:  
 
     :::image type="content" source="./media/feature-pack-create-vsts-token/vsts-service.png" alt-text="Services.msc shows the Azure DevOps service agent running.":::
 
