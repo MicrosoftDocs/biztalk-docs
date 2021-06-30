@@ -18,10 +18,12 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
+
 # Configuring BizTalk Project Properties
+
 Project properties configure global settings for projects that you create in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. BizTalk projects share many of the project properties of other [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects. You configure most of these properties in the Project Designer.
 
-### To access properties with the Project Designer
+## Access properties with the Project Designer
 
 1. In Solution Explorer, select the project.
 
@@ -31,8 +33,6 @@ Project properties configure global settings for projects that you create in [!I
    >  Alternatively, you can right-click the project, and then click **Properties**.
 
 3. Click the desired property tab to access project properties.
-
-   Documentation for properties common to all [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects can be found by referencing the respective Project Designer property tab information from the following link: [https://go.microsoft.com/fwlink/?LinkId=124727](/previous-versions/bb1aa8f1(v=vs.140)).
 
 ## In This Section
 
