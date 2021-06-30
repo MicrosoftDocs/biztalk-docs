@@ -191,7 +191,8 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] is shipped with [!INCLU
   
    Assign the keyword (**TestKeyword**) back to the version 1 of the service (with the **WSHttpBinding** endpoint).  
   
-## Using the Sentinet BizTalk Server Extensions  
+## Use the Sentinet BizTalk Server Extensions
+  
  In this section, we will look at how the Sentinet BizTalk Extension, together with ESB Resolver, can be used to uniquely identify a service and route the message to that service, with minimal or no changes to the service or the client sending the message. We will test two scenarios:  
   
 - Send a sample message to a service registered in the Sentinet repository (with the keyword attached). Then, change the policy binding for the service using the Sentinet Administrative Console and send another sample message. This scenario demonstrates how changing the service’s security policy neither affects the client application nor the ESB itinerary.  

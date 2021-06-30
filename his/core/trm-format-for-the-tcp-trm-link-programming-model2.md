@@ -15,28 +15,29 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # TRM Format for the TCP TRM Link Programming Model
+
 This topic describes the format and content of the transaction request message (TRM) used by the TCP TRM Link programming model.  
   
-## TRM Request Message  
- The following table shows the contents of the request message.  
+## TRM Request Message
+  
+The following table shows the contents of the request message.  
   
 |TranID|Comma|Client in data|  
 |------------|-----------|--------------------|  
 |4|1|35|  
   
- TranID  
- Transaction ID of the Concurrent Server to be started by the Listener.  
+TranID  
+Transaction ID of the Concurrent Server to be started by the Listener.  
   
- Comma  
- A comma (,) separates the transaction ID from the Client in data.  
+Comma  
+A comma (,) separates the transaction ID from the Client in data.  
   
- Client in data  
- 35 bytes of data used by the CICS TCP/IP security exit and passed to the Concurrent Server in the transaction initiation message (TIM).  
+Client in data  
+35 bytes of data used by the CICS TCP/IP security exit and passed to the Concurrent Server in the transaction initiation message (TIM).  
   
-## Client in data for Microsoft Security Exit format  
- The following code block describes the format of the client in data for the Microsoft security exit.  
+## Client in data for Microsoft Security Exit format
   
-## Syntax  
+The following code block describes the format of the client in data for the Microsoft security exit.  
   
 ```  
 struct CLIENT_IN_DATA {  
@@ -48,10 +49,9 @@ struct CLIENT_IN_DATA {
 } UNALIGNED;  
 ```  
   
-## Client in data for IBM Security Exit format  
- The following code block describes the format of the client in data for the IBM security exit.  
+## Client in data for IBM Security Exit format
   
-## Syntax  
+The following code block describes the format of the client in data for the IBM security exit.  
   
 ```  
 struct CLIENT_IN_DATA2 {  
@@ -64,40 +64,42 @@ struct CLIENT_IN_DATA2 {
 } UNALIGNED;  
 ```  
   
-## TRM Reply Message  
- The following table shows the contents of the reply message.  
+## TRM Reply Message
+  
+The following table shows the contents of the reply message.  
   
 |TRM reply msg length|Formatted field length|Formatted field code|*Data*|  
 |--------------------------|----------------------------|--------------------------|------------|  
 |4|4|1|*0-n*|  
   
 > [!NOTE]
->  The formatted field length, formatted field code, and data can be repeated multiple times in a single message.  
+> The formatted field length, formatted field code, and data can be repeated multiple times in a single message.  
   
- TRM reply msg length  
- The total length of the TRM reply message. This length is the sum of all the lengths of the formatted fields that follow in the message and does not include the length of the TRM reply msg length field itself.  
+TRM reply msg length  
+The total length of the TRM reply message. This length is the sum of all the lengths of the formatted fields that follow in the message and does not include the length of the TRM reply msg length field itself.  
   
- Formatted field length  
- The length of the formatted field.  
+Formatted field length  
+The length of the formatted field.  
   
- The formatted field length is the sum of the combination of the Formatted field code length and the Data length.  
+The formatted field length is the sum of the combination of the Formatted field code length and the Data length.  
   
- Formatted field code  
- A 1-byte code that describes the information passed from the Concurrent Server back to the client.  
+Formatted field code  
+A 1-byte code that describes the information passed from the Concurrent Server back to the client.  
   
- You cannot change the Formatted field code.  
+You cannot change the Formatted field code.  
   
- The field codes are specific to the communication handling between the WIP and HIP TCP Transports and the MSCMTICS, MSHIPLNK and TCP Concurrent Server programs.  
+The field codes are specific to the communication handling between the WIP and HIP TCP Transports and the MSCMTICS, MSHIPLNK and TCP Concurrent Server programs.  
   
- *Data*  
- 0 or more bytes of information that is associated with a specific formatted field.  
+*Data*  
+0 or more bytes of information that is associated with a specific formatted field.  
   
- You may change the information stored in Data. If you change Data, be sure that you also change the TRM Reply and the Formatted Field Length to the new values.  
+You may change the information stored in Data. If you change Data, be sure that you also change the TRM Reply and the Formatted Field Length to the new values.  
   
- The length of Data is equal to the formatted field length minus the size of the formatted field code.  
+The length of Data is equal to the formatted field length minus the size of the formatted field code.  
   
-## Normal codes  
- The following table shows the meaning of the normal codes.  
+## Normal codes
+  
+The following table shows the meaning of the normal codes.  
   
 |Code|Type|Meaning|  
 |----------|----------|-------------|  
@@ -105,8 +107,9 @@ struct CLIENT_IN_DATA2 {
 |0x02|Info|User Data|  
 |0x07|Info|Execution OK|  
   
-## Error codes  
- The following table shows the meaning of the error codes.  
+## Error codes
+  
+The following table shows the meaning of the error codes.  
   
 |Code|Type|Meaning|  
 |----------|----------|-------------|  
@@ -118,7 +121,8 @@ struct CLIENT_IN_DATA2 {
 |0x09|Error|Execution Failed|  
 |0x0A|Error|Invalid TRM|  
   
- For more information about the format of the TRM, see the TRM definition file at \<drive>:\Program Files\Microsoft Host Integration Server\System\TIM\MicrosoftTRMDefs.tim. Use Visual Studio to view the file.  
+For more information about the format of the TRM, see the TRM definition file at \<drive>:\Program Files\Microsoft Host Integration Server\System\TIM\MicrosoftTRMDefs.tim. Use Visual Studio to view the file.  
   
-## See Also  
- [TRM Format for the TCP TRM User Data Programming Model](../core/trm-format-for-the-tcp-trm-user-data-programming-model2.md)
+## See Also
+
+- [TRM Format for the TCP TRM User Data Programming Model](../core/trm-format-for-the-tcp-trm-user-data-programming-model2.md)
