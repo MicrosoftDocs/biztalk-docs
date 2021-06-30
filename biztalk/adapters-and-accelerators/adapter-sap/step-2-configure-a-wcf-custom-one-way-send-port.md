@@ -96,7 +96,7 @@ manager: "anneta"
 
    3. Click **OK**.
 
-      For more information about configuring an application, see "How to Configure an Application" at [https://go.microsoft.com/fwlink/?LinkId=102360](/previous-versions/).
+      For more information on configuring apps in BizTalk Server, see [How to Configure an Application](../../core/how-to-configure-an-application.md).
 
 ## Next Steps
  You have now completed migration of your vPrev BizTalk project to a BizTalk project that sends IDOCs to an SAP system using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. You must now test the migrated BizTalk application by sending a flat-file IDOC, as described in [Step 3: Test the Migrated Application](../../adapters-and-accelerators/adapter-sap/step-3-test-the-migrated-application2.md).
