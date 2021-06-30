@@ -19,12 +19,13 @@ manager: "anneta"
 The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] core documentation includes a variety of resources that can help you learn to develop, deploy, administer, and use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  
 
 > [!NOTE]
-> The core documentation  applies to  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013, and newer versions, but many topics still apply to previous BizTalk versions. For these previous BizTalk versions, it may be best to use that documentation set. Use the links at [Microsoft BizTalk Server](https://msdn.microsoft.com/library/dd547397\(BTS.10\).aspx) for previous versions.  
+> The core documentation  applies to  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013, and newer versions, but many topics still apply to previous BizTalk versions.
 
 ## Get started
+
 **[Getting started](../core/getting-started-with-biztalk-server.md)** includes information about common tasks, the message engine, trading partner management using EDI and AS2, BizTalk Server tutorials, and topics for new  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] users.
   
-[Common Tasks and walkthroughs](/previous-versions/) and [Tutorials](/previous-versions/) are also a great way to get started.
+[Common Administrative Tasks](common-administrative-tasks4.md) and [Tutorials](biztalk-server-tutorials.md) are also a great way to get started.
 
 ## Plan and architect your applications
 **[Planning and architecture](../core/plan-and-architect-your-biztalk-server-solution.md)** covers architecture, performance and capacity, high availability, and security. Also read about designing, building, and running two complete model [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solutions: a service-oriented solution, and a business process management solution.
