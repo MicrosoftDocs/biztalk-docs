@@ -20,7 +20,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Configuring IIS for the Isolated WCF Receive Adapters
-To publish WCF services by using the BizTalk WCF Service Publishing Wizard, you must configure Internet Information Services (IIS), BizTalk isolated hosts, and Windows user group accounts. This section discusses issues related to configuring IIS for publishing WCF services with isolated WCF receive adapters such as the WCF-BasicHttp receive adapter, WCF-WSHttp receive adapter, and WCF-CustomIsolated adapter. For general information about hosting WCF services in IIS, see "Hosting in IIS" at [https://go.microsoft.com/fwlink/?LinkId=75700](https://go.microsoft.com/fwlink/?LinkId=75700).
+To publish WCF services by using the BizTalk WCF Service Publishing Wizard, you must configure Internet Information Services (IIS), BizTalk isolated hosts, and Windows user group accounts. This section discusses issues related to configuring IIS for publishing WCF services with isolated WCF receive adapters such as the WCF-BasicHttp receive adapter, WCF-WSHttp receive adapter, and WCF-CustomIsolated adapter. For general information about hosting WCF services in IIS, see "Hosting in IIS" at [https://go.microsoft.com/fwlink/?LinkId=75700](/dotnet/framework/wcf/feature-details/hosting-in-internet-information-services).
 
 ## Considerations When Configuring IIS
  **Internet Information Services 7.0 and 7.5**

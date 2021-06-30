@@ -13,13 +13,11 @@ f1_keywords:
 
 # Subscription Details Properties Dialog Box
 
- 
-
 The Subscription Details window enables you to examine subscriptions in the BizTalk Server engine.
 
 ## General Tab
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -80,10 +78,9 @@ The Subscription Details window enables you to examine subscriptions in the BizT
 </tbody>
 </table>
 
-
 ## Expression Tab
 
-## UIElement List
+The following table lists the UIElements in the **Expression** tab and what they are used for.
 
 <table>
 <thead>
@@ -112,8 +109,6 @@ The Subscription Details window enables you to examine subscriptions in the BizT
 </tbody>
 </table>
 
-
 ## See Also
 
 [Service Instance and Message Instance States](service-instance-and-message-instance-states.md)
-

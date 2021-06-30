@@ -20,7 +20,7 @@ The following are some frequently asked questions (FAQs) related to [!INCLUDE[ad
   
 
 ## How can I use the Oracle E-Business adapter to communicate with Oracle E-Business Suite?  
- You can use the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to communicate with Oracle E-Business Suite either by developing BizTalk applications, using the WCF service model or using the WCF channel model. For more information, see [Overview of BizTalk Adapter for Oracle E-Business Suite](https://msdn.microsoft.com/library/4f18fa2e-4e97-4c28-b38d-fc39ac53789e).  
+ You can use the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to communicate with Oracle E-Business Suite either by developing BizTalk applications, using the WCF service model or using the WCF channel model. For more information, see [Overview of BizTalk Adapter for Oracle E-Business Suite](understand-biztalk-adapter-for-oracle-e-business-suite.md).  
   
 ## What interfaces are supported by the Oracle E-Business adapter for retrieving metadata?  
  The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] supports two interfaces for retrieving metadata:  

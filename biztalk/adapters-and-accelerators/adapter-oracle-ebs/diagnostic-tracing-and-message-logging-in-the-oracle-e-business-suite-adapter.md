@@ -80,7 +80,7 @@ Diagnostic tracing helps to effectively diagnose problems that you might encount
   </system.serviceModel>
 ```
 
- This saves the WCF traces to C:\log\WCFTrace.svclog. [WCF tracing](https://msdn.microsoft.com/library/ms730342.aspx) provides more information.
+ This saves the WCF traces to C:\log\WCFTrace.svclog. [WCF tracing](/dotnet/framework/wcf/diagnostics/tracing/) provides more information.
 
 > [!IMPORTANT]
 >  Make sure you mitigate potential security threats of exposing sensitive business data that can be caused when enabling tracing. For recommendations, see the [Best Practices for Message and Instance Data Tracking](../../core/best-practices-for-message-and-instance-data-tracking.md).
@@ -124,7 +124,7 @@ Diagnostic tracing helps to effectively diagnose problems that you might encount
  This saves the WCF traces to C:\log\AdapterTrace.svclog.
 
 ## Viewing the traces
- You can use the Windows Communication Foundation (WCF) Service Trace Viewer tool to view the traces. [Using Service Trace Viewer for Viewing Correlated Traces and Troubleshooting](https://msdn.microsoft.com/library/aa751795.aspx) provides more details on this tool.
+ You can use the Windows Communication Foundation (WCF) Service Trace Viewer tool to view the traces. [Using Service Trace Viewer for Viewing Correlated Traces and Troubleshooting](/dotnet/framework/wcf/diagnostics/tracing/using-service-trace-viewer-for-viewing-correlated-traces-and-troubleshooting) provides more details on this tool.
 
 ## Configuring tracking for BizTalk applications
  The BizTalk Server Administration console lets you configure various tracking options for items such as send ports and receive ports. The tracking configuration settings enable you to track inbound and outbound event data, message properties, message bodies, and orchestrations. For more information about configuring tracking for BizTalk applications, see [Managing and tracking your artifacts](../../core/managing-artifacts.md).

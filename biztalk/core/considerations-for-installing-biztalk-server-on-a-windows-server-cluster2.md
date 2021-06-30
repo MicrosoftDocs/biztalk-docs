@@ -35,7 +35,7 @@ Special considerations must be made when installing [!INCLUDE[btsBizTalkServerNo
 ## Configure the Microsoft Distributed Transaction Coordinator (MSDTC) as a clustered resource before installing BizTalk Server on a cluster
  If you plan to install BizTalk Server on a Windows Server cluster, you must cluster the Microsoft Distributed Transaction Coordinator first.
 
- To cluster MSDTC on a Windows Server 2008 failover cluster, follow the steps outlined in [Checklist: Creating an MS DTC Resource in a Windows Server 2008 Failover Cluster](https://go.microsoft.com/fwlink/?LinkID=129677)
+ To cluster MSDTC on a Windows Server 2008 failover cluster, follow the steps outlined in [Checklist: Creating an MS DTC Resource in a Windows Server 2008 Failover Cluster](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725955(v=ws.10))
 
 ## Network DTC access must be enabled on all BizTalk Servers and on the SQL Server before installing or configuring BizTalk Server
  To enable network DTC access on each cluster node as well as on the SQL Server that will host the BizTalk Server databases, follow the steps outlined in [How to Enable MSDTC on a Web Server](https://go.microsoft.com/fwlink/?LinkId=189701) (<https://go.microsoft.com/fwlink/?LinkId=189701>). Network DTC access must be enabled to accommodate transactional support for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. We recommend that you restart each server after completing the steps in this Knowledge Base article.

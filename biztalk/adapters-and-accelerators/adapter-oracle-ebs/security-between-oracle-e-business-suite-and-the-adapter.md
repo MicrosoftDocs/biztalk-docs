@@ -18,7 +18,7 @@ manager: "anneta"
 # Security between Oracle E-Business Suite and the adapter
 The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] provides no support for helping to secure communication between it and the Oracle database. You must provide a security mechanism to help ensure appropriate levels of authorization, authentication, data privacy, and data integrity for data exchanges between the adapter and the Oracle database.
 
- One possible mechanism for helping to provide more security across the network is Internet Protocol Security (IPsec). IPsec is a framework of open standards for protecting communications over Internet Protocol (IP) networks. For more information about IPsec and about using IPsec with Microsoft products, see the Microsoft TechNet article "IPsec" at [https://go.microsoft.com/fwlink/?LinkID=196851](https://go.microsoft.com/fwlink/?LinkID=196851).
+ One possible mechanism for helping to provide more security across the network is Internet Protocol Security (IPsec). IPsec is a framework of open standards for protecting communications over Internet Protocol (IP) networks. For more information about IPsec and about using IPsec with Microsoft products, see the Microsoft TechNet article "IPsec" at [https://go.microsoft.com/fwlink/?LinkID=196851](/previous-versions/windows/it-pro/windows-server-2003/cc776369(v=ws.10)).
 
  However, in the absence of security mechanisms like IPsec, the administrator must configure native Oracle data encryption and integrity to ensure secure data exchanges between the adapter client and Oracle E-Business Suite.
 

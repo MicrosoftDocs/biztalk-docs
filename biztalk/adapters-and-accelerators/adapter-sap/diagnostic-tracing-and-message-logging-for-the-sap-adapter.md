@@ -82,7 +82,7 @@ Diagnostic tracing helps to effectively diagnose problems that you might encount
   </system.serviceModel>  
 ```  
   
- This saves the WCF traces to C:\log\WCFTrace.svclog. For more information about WCF tracing, see [Tracing](https://msdn.microsoft.com/library/ms730342.aspx). 
+ This saves the WCF traces to C:\log\WCFTrace.svclog. For more information about WCF tracing, see [Tracing](/dotnet/framework/wcf/diagnostics/tracing/). 
   
 > [!IMPORTANT]
 >  Make sure you mitigate potential security threats of exposing sensitive business data by enabling tracing. For recommendations see [Best practices to secure the SAP adapter](../../adapters-and-accelerators/adapter-sap/best-practices-to-secure-the-sap-adapter.md).  
@@ -134,7 +134,7 @@ Diagnostic tracing helps to effectively diagnose problems that you might encount
 >  Irrespective of whether the RFC_TRACE environment variable is set, the RFC SDK tracing is enabled *only* if the "RfcSdkTrace" parameter is set to true in the connection URI. The value of this environment variable solely governs the level of RFC SDK tracing. If RfcSdkTrace is set to true, the message traces between the adapter and the SAP system are copied to the “system32” folder on your computer. To save the RFC SDK traces to some other location, you can set the RFC_TRACE_DIR environment variable. For more information about these environment variables refer to the SAP documentation.  
   
 ## Viewing the Traces  
- You can use the Windows Communication Foundation (WCF) Service Trace Viewer tool to view the traces. For more information about the tool, see [Using Service Trace Viewer for Viewing Correlated Traces and Troubles](https://msdn.microsoft.com/library/aa751795.aspx).
+ You can use the Windows Communication Foundation (WCF) Service Trace Viewer tool to view the traces. For more information about the tool, see [Using Service Trace Viewer for Viewing Correlated Traces and Troubles](/dotnet/framework/wcf/diagnostics/tracing/using-service-trace-viewer-for-viewing-correlated-traces-and-troubleshooting).
   
 ## Configuring Tracking for BizTalk Applications  
  The BizTalk Server Administration console lets you configure various tracking options for items such as send ports and receive ports. The tracking configuration settings enable you to track inbound and outbound event data, message properties, message bodies, and orchestrations. For more information about configuring tracking for BizTalk applications, see the [Managing Artifacts](../../core/managing-artifacts.md).

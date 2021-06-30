@@ -13,11 +13,9 @@ f1_keywords:
 
 # Stop Application Dialog Box
 
- 
-
 Use the **Stop Application** dialog box to suspend all activation messages, unenlist orchestrations and send ports, disable receive locations, and control running artifact instances.
 
-## UIElement List
+The following table describes the UIElements in the collapsed form of the **Stop Application** dialog box.
 
 <table>
 <thead>
@@ -41,7 +39,7 @@ Use the **Stop Application** dialog box to suspend all activation messages, unen
 
 ## Options Tab
 
-## UIElement List
+The following table describes the UIElements in the **Options** tab.
 
 <table>
 <thead>
@@ -66,12 +64,11 @@ Use the **Stop Application** dialog box to suspend all activation messages, unen
 </tbody>
 </table>
 
-
 ## Referenced Applications Tab
 
 Each check box represents an application that is referenced by the current one. If the check box next to an application name is selected, that application will stop when the current application stops.
 
-## UIElement List
+The following table describes the UIElements in the **Referenced Applications** tab.
 
 <table>
 <thead>
@@ -88,9 +85,7 @@ Each check box represents an application that is referenced by the current one. 
 </tbody>
 </table>
 
-
 ## See Also
 
 [Undeploying BizTalk Applications](https://msdn.microsoft.com/library/aa559800\(v=bts.80\))  
 [How to Delete a BizTalk Application from the BizTalk Group](https://msdn.microsoft.com/library/aa577446\(v=bts.80\))
-

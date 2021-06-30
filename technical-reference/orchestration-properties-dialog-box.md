@@ -13,15 +13,13 @@ f1_keywords:
 
 # Orchestration Properties Dialog Box
 
- 
-
 Use the **Orchestration Properties** window to view and configure information about the orchestration you have selected in the details pane.
 
 ## General Tab
 
 The name and assembly information on the **General** tab are created when you create the orchestration in Microsoft Visual Studio. You can add information to the **Description** box at any time.
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -46,10 +44,9 @@ The name and assembly information on the **General** tab are created when you cr
 </tbody>
 </table>
 
-
 ## Bindings Tab
 
-## UIElement List
+The following table lists the UIElements in the **Bindings** tab and what they are used for.
 
 <table>
 <thead>
@@ -70,10 +67,9 @@ The name and assembly information on the **General** tab are created when you cr
 </tbody>
 </table>
 
-
 ## Tracking Tab
 
-## UIElement List
+The following table lists the UIElements in the **Tracking** tab and what they are used for.
 
 <table>
 <thead>
@@ -114,10 +110,8 @@ The name and assembly information on the **General** tab are created when you cr
 </tbody>
 </table>
 
-
 ## See Also
 
 [Creating Orchestrations](https://msdn.microsoft.com/library/aa577489\(v=bts.80\))  
 [About Orchestrations](https://msdn.microsoft.com/library/aa578451\(v=bts.80\))  
 [How to Enlist an Orchestration](https://msdn.microsoft.com/library/aa578153\(v=bts.80\))
-

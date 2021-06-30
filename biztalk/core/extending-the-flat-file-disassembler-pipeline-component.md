@@ -20,11 +20,10 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Extending the Flat File Disassembler Pipeline Component
+
 The following sample illustrates how to create a custom disassembler to parse flat file documents that are UTF-7 encoded. To process UTF-7 documents, the component inherits from the **FFDasmComp** class and then overrides its **GetDataReader** method.  
-  
-## Example  
-  
-```  
+
+```csharp  
 using System;  
 using System.Text;  
 using System.IO;  
@@ -103,13 +102,14 @@ namespace Microsoft.BizTalk.Test
 }  
 ```  
   
-## Example  
- The following example illustrates how to create a custom disassembler for transactional processing of flat file interchanges. It differs from the standard Flat File Disassembler in that it does not produce any disassembled documents until the entire input interchange is completely processed. This component implementation inherits from the **FFDasmComp** class and overrides the **GetNext** method. On the first call to the **GetNext** method, it processes all messages in the interchange, stores them in an **ArrayList**, and returns the first message from the **ArrayList**. On subsequent calls, it returns the next message from the **ArrayList**.  
+## Example
+  
+The following example illustrates how to create a custom disassembler for transactional processing of flat file interchanges. It differs from the standard Flat File Disassembler in that it does not produce any disassembled documents until the entire input interchange is completely processed. This component implementation inherits from the **FFDasmComp** class and overrides the **GetNext** method. On the first call to the **GetNext** method, it processes all messages in the interchange, stores them in an **ArrayList**, and returns the first message from the **ArrayList**. On subsequent calls, it returns the next message from the **ArrayList**.  
   
 > [!NOTE]
->  The implementation of the GetNext() method in the code sample below would not be suitable for the processing of large documents because it retains the entire interchange in memory.  Using this technique for large documents could exhaust memory resources and cause degraded performance or unstable behavior.  
+> The implementation of the GetNext() method in the code sample below would not be suitable for the processing of large documents because it retains the entire interchange in memory.  Using this technique for large documents could exhaust memory resources and cause degraded performance or unstable behavior.  
   
-```  
+```csharp  
 using System;  
 using System.Collections;  
 using System.Runtime.InteropServices;  
@@ -228,5 +228,6 @@ namespace Microsoft.BizTalk.Component
   
 ```  
   
-## See Also  
- [Developing a Disassembling Pipeline Component](../core/developing-a-disassembling-pipeline-component.md)
+## See Also
+  
+[Developing a Disassembling Pipeline Component](../core/developing-a-disassembling-pipeline-component.md)
