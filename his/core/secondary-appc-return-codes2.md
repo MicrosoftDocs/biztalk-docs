@@ -34,7 +34,7 @@ The following table lists each return code by numeric value, along with the asso
 | 00000012          | AP_BAD_SYNC_LEVEL   | TThe value specified for **sync_level** was invalid. |
 | 00000013          | AP_BAD_SECURITY   | The value specified for **security** was invalid. |
 | 00000014          | AP_BAD_RETURN_CONTROL   | The value specified for **rtn_ctl** was invalid. |
-| 00000016          | AP_PIP_LEN_INCORRECT   | The value specified for **rtn_ctl** was invalid. |
+| 00000016          | AP_PIP_LEN_INCORRECT   | The value of **pip_dlen** was greater than 32767. |
 | 00000017          | AP_NO_USE_OF_SNASVCMG (for a mapped conversation)   | SNASVCMG is not a valid value for **mode_name**. |
 | 00000018          | AP_UNKNOWN_PARTNER_MODE   | The value specified for **mode_name** was invalid. |
 | 00000031          | AP_CONFIRM_ON_SYNC_LEVEL_NONE   | The local TP attempted to use [CONFIRM](../core/confirm2.md) or [MC_CONFIRM](../core/mc-confirm2.md) in a conversation with a synchronization level of AP_NONE. The synchronization level, established by [ALLOCATE](../core/allocate2.md) or [MC_ALLOCATE](../core/mc-allocate2.md), must be AP_CONFIRM_SYNC_LEVEL. |
@@ -52,6 +52,7 @@ The following table lists each return code by numeric value, along with the asso
 | 000000B1          | AP_RCV_AND_WAIT_BAD_STATE   | The conversation was not in RECEIVE or SEND state when the TP issued this verb. |
 | 000000B2          | AP_RCV_AND_WAIT_NOT_LL_BDY (for a basic conversation)   | The conversation was in SEND state; the TP began but did not finish sending a logical record. |
 | 000000B5          | AP_RCV_AND_WAIT_BAD_FILL (for a basic conversation)    | The **fill** parameter was set to an invalid value. |
+| 000000C1          | AP_RCV_IMMD_BAD_STATE    | The conversation was not in RECEIVE state. |
 | 000000D1          | AP_RCV_AND_POST_BAD_STATE   | The conversation was not in RECEIVE or SEND state when the TP issued this verb.  |
 | 000000D2          | AP_RCV_AND_POST_NOT_LL_BDY   | The conversation was in SEND state; the TP began but did not finish sending a logical record. |
 | 000000D5          | AP_RCV_AND_POST_BAD_FILL   | The **fill** parameter was set to an invalid value. |
@@ -72,6 +73,7 @@ The following table lists each return code by numeric value, along with the asso
 | 00000154          | AP_BAD_SNASVCMG_LIMITS | Your program specified invalid settings for the **partner_lu_mode_session_limit**, **min_conwinners_source**, or **min_conwinners_target** parameters when **mode_name** was supplied. |
 | 00000155          | AP_MIN_GT_TOTAL | The sum of **min_conwinners_source** and **min_conwinners_target** specifies a number greater than **partner_lu_mode_session_limit**. |
 | 00000156          | AP_MODE_CLOSED | The local LU cannot negotiate a nonzero session limit because the local maximum session limit at the partner LU is zero. |
+| 00000156          | AP_CNOS_MODE_CLOSED | The local LU cannot negotiate a nonzero session limit because the local maximum session limit at the partner LU is zero. |
 | 00000157          | AP_CNOS_MODE_NAME_REJECT | The partner LU does not recognize the specified mode name. |
 | 00000159          | AP_RESET_SNA_DRAINS | The SNASVCMG mode does not support the **drain** parameter values. |
 | 0000015A          | AP_SINGLE_NOT_SRC_RESP | For a single-session [CNOS](../core/cnos2.md) verb, APPC permits only the local (source) LU to be responsible for deactivating sessions. |
