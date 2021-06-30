@@ -48,9 +48,9 @@ After publishing WCF services with the BizTalk WCF Service Publishing Wizard, yo
     ![The Security tab of the WCF&#45;BasicHttp adapter](../core/media/585ecdad-bdee-40c0-b2f1-7ace74d503e5.gif "585ecdad-bdee-40c0-b2f1-7ace74d503e5")
 
    > [!NOTE]
-   >  The transport client credential type property for the isolated WCF adapter must match the authentication scheme of the Internet Information Services (IIS) virtual directory hosting this receive location. For example, if the property is set to **Windows**, you also need to enable **Integrated Windows authentication** for the virtual directory that hosts this receive location. Similarly if the property is set to **None**, you must allow anonymous access to the virtual directory that hosts this receive location. For more information about how to configure the security properties for the WCF-BasicHttp and WCF-WSHttp adapters, see [How to Configure a WCF-BasicHttp Receive Location](/previous-versions/), and [How to Configure a WCF-WSHttp Receive Location](../core/how-to-configure-a-wcf-wshttp-receive-location.md). For more information about how to configure the binding information, see [How to Configure a WCF-CustomIsolated Receive Location](../core/how-to-configure-a-wcf-customisolated-receive-location.md).
+   >  The transport client credential type property for the isolated WCF adapter must match the authentication scheme of the Internet Information Services (IIS) virtual directory hosting this receive location. For example, if the property is set to **Windows**, you also need to enable **Integrated Windows authentication** for the virtual directory that hosts this receive location. Similarly if the property is set to **None**, you must allow anonymous access to the virtual directory that hosts this receive location. For more information about how to configure the security properties for the WCF-BasicHttp and WCF-WSHttp adapters, see [WCF-BasicHttp Adapter](wcf-basichttp-adapter.md), and [How to Configure a WCF-WSHttp Receive Location](../core/how-to-configure-a-wcf-wshttp-receive-location.md). For more information about how to configure the binding information, see [How to Configure a WCF-CustomIsolated Receive Location](../core/how-to-configure-a-wcf-customisolated-receive-location.md).
 
-7. If you did not select the **Create BizTalk receive locations** option when creating the WCF services, in the **Transport Properties** dialog box, click the **General** tab. On the **General** tab, type the URI for this receive location in the **Address** text box. Specify the virtual directory plus the .svc file name that the BizTalk WCF Service Publishing Wizard generated in the previous procedure—for example, /path/service.svc.
+7. If you did not select the **Create BizTalk receive locations** option when creating the WCF services, in the **Transport Properties** dialog box, click the **General** tab. On the **General** tab, type the URI for this receive location in the **Address** text box. Specify the virtual directory plus the .svc file name that the BizTalk WCF Service Publishing Wizard generated in the previous procedure. For example, enter `/path/service.svc`.
 
    > [!NOTE]
    >  The **Address** property should start with a forward slash ("/") and end in ".svc". The **Address** property must not contain a protocol scheme, computer name, or port number such as http://host:port. Only the virtual directory path can be used for the property. The WCF service markup file must have an .svc extension.
@@ -100,7 +100,7 @@ After publishing WCF services with the BizTalk WCF Service Publishing Wizard, yo
         ```
 
 ## See Also
- [Configuring the WCF-BasicHttp Adapter](/previous-versions/)
+ [Configuring the WCF-BasicHttp Adapter](wcf-basichttp-adapter.md)
  [Configuring the WCF-WSHttp Adapter](../core/configuring-the-wcf-wshttp-adapter.md)
  [Configuring the WCF-CustomIsolated Adapter](../core/configuring-the-wcf-customisolated-adapter.md)
  [How To Configure IIS Web Site Authentication in Windows Server 2003](/iis/configuration/system.webserver/security/authentication/)
