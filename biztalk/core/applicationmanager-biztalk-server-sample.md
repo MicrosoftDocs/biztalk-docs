@@ -22,7 +22,7 @@ The ApplicationManager sample demonstrates how to start or stop a  BizTalk appli
 
 - You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.
 
-- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information see: [Examining the Execution Policy](/previous-versions//bb648601(v=vs.85)).
+- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information, see [about_Execution_Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 
 ## What This Sample Does
  This sample demonstrates using the **BtsCatalogExplorer** and **Application** classes from the **Microsoft.BizTalk.ExplorerOM** namespace to start and stop a deployed  BizTalk application. The sample is written in Microsoft [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)]. A Windows PowerShell example script is also included in this topic. The sample demonstrates the following operations:
@@ -41,20 +41,20 @@ The ApplicationManager sample demonstrates how to start or stop a  BizTalk appli
  The following table shows the files in this sample and describes their purpose.
 
 
-|                                 File(s)                                 |                                                 Description                                                  |
-|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-|                               Program.cs                                | [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] source file for operations demonstrated in this sample. |
-| ApplicationManager.sln,ApplicationManager.csproj,ApplicationManager.suo |                                  Solution and project files for the sample.                                  |
+| File(s) | Description |
+|---|---|
+| Program.cs | [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] source file for operations demonstrated in this sample. |
+| ApplicationManager.sln,ApplicationManager.csproj,ApplicationManager.suo |  Solution and project files for the sample.  |
 
 ## Building and Running This Sample
 
-#### To build this sample
+### Build this sample
 
 1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file ApplicationManager.sln.
 
 2. On the **Build** menu, click **Build Solution**.
 
-#### To run this sample
+### Run this sample
 
 1. Open a command window and navigate to the following folder:
 
@@ -68,25 +68,26 @@ The ApplicationManager sample demonstrates how to start or stop a  BizTalk appli
 
      For example:
 
-   ```
-   ApplicationManager.exe stop MyBizTalkApp
-   ```
+     ```
+     ApplicationManager.exe stop MyBizTalkApp
+     ```
 
     Running the sample with insufficient command-line parameters displays the usage syntax. For example:
 
-   ```
-   Usage:
+    ```
+    Usage:
 
-   ApplicationManager <start|stop> <Application Name>
+    ApplicationManager <start|stop> <Application Name>
 
     Where:
-     <Application Name> = The name of the application that needs to be changed
+      <Application Name> = The name of the application that needs to be changed
 
-   Example: ApplicationManager start Application1
-   ```
+    Example: ApplicationManager start Application1
+    ```
 
 ## Windows PowerShell Script Example
- The following Windows PowerShell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:
+
+The following Windows PowerShell script fragment can be used to demonstrate the same features of the **ExplorerOM** classes:
 
 ```
 #=== Make sure the ExplorerOM assembly is loaded ===#
