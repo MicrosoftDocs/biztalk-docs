@@ -13,13 +13,11 @@ f1_keywords:
 
 # Group Properties Dialog Box
 
- 
-
 Use the **Group Properties** window to view or modify BizTalk Group properties.
 
 ## General Tab
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -68,10 +66,9 @@ Use the **Group Properties** window to view or modify BizTalk Group properties.
 </tbody>
 </table>
 
-
 ## Databases Tab
 
-## UIElement List
+The following table lists the UIElements in the **Databases** tab and what they are used for.
 
 <table>
 <thead>
@@ -88,10 +85,9 @@ Use the **Group Properties** window to view or modify BizTalk Group properties.
 </tbody>
 </table>
 
-
 ## Certificate Tab
 
-## UIElement List
+The following table lists the UIElements in the **Certificate** tab and what they are used for.
 
 <table>
 <thead>
@@ -120,7 +116,6 @@ Use the **Group Properties** window to view or modify BizTalk Group properties.
 </tbody>
 </table>
 
-
 ## See Also
 
 [BizTalk Groups](https://msdn.microsoft.com/library/aa559010\(v=bts.80\))  
@@ -130,4 +125,3 @@ Use the **Group Properties** window to view or modify BizTalk Group properties.
 [How to Modify Group Properties](https://msdn.microsoft.com/library/aa560305\(v=bts.80\))  
 [How to Export Bindings for a BizTalk Group](https://msdn.microsoft.com/library/aa560143\(v=bts.80\))  
 [How to Move a Server from One Group to Another](https://msdn.microsoft.com/library/aa559752\(v=bts.80\))
-
