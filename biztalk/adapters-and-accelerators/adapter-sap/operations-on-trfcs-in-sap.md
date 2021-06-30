@@ -111,7 +111,7 @@ Transactional RFCs (tRFCs) are RFCs that are invoked as part of a logical unit o
   
 - The adapter must register with an RFC destination on an SAP gateway. The registration is based on a logical name called a program ID. You supply parameters in the connection URI to specify the program ID, SAP gateway, and SAP server for this registration.  
   
-- The TID database must be created in SQL Server. To do this, you must run a SQL script that is installed by the setup. The SQL script is typically installed at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information see, [Installing the BizTalk Adapter Pack](/previous-versions/).  
+- The TID database must be created in SQL Server. To do this, you must run a SQL script that is installed by the setup. The SQL script is typically installed at \<installation drive\>:\Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. For more information see, [Installing the BizTalk Adapter Pack](../install-biztalk-adapter-pack-2013-r2-and-2013.md).  
   
 - The **TidDatabaseConnectionString** binding property must be set to the SQL database connection string for the TID database. For more information about the **TidDatabaseConnectionString** binding property, see [Read about BizTalk Adapter for mySAP Business Suite binding properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).  
   
