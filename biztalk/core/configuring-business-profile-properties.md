@@ -17,7 +17,9 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
+
 # Configuring Business Profile Properties
+
 A business profile represents a business division in an organization. Just like an organization can have many divisions (accounting, purchase, shipping, etc.), a party can have many business profiles, each representing a business division in an organization. Business profile properties contain the following information:  
 
 - General information such as business profile name  
@@ -26,24 +28,24 @@ A business profile represents a business division in an organization. Just like 
 
 - Encoding settings (for X12 and EDIFACT messages) and protocol settings (AS2) that defines how the business profile can send or receive messages from another party.  
 
-  For more information about business profiles, see [Business Profiles](/previous-versions/). For more information about encoding and transport protocol settings, see [Protocol Settings](../core/protocol-settings.md).  
+  For more information about business profiles, see [Business Profiles](managing-business-profiles.md). For more information about encoding and transport protocol settings, see [Protocol Settings](../core/protocol-settings.md).  
 
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B Operators group.  
 
-### To configure business profile properties  
+## Configure business profile properties  
 
 1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, click the **Parties** node. In the **Parties and Business Profiles** pane, right-click a party, point to New, and then click **Business Profile**.  
 
 2. In the **General** tab, on the **General** page, do the following:  
 
 
-   |                 Use this                 |                                                                                                                       To do this                                                                                                                       |
-   |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |                 **Name**                 |                                                                                                             Enter a business profile name.                                                                                                             |
-   |             **Description**              |                                                                                                     Enter a description for the business profile.                                                                                                      |
+   | Use this  |  To do this |
+   |---|---|
+   |  **Name** |  Enter a business profile name.  |
+   |  **Description**  |  Enter a description for the business profile.   |
    | **Additional Properties – Name / Value** | Enter a name-value pair to store any information about the party. You can add as many name-value pairs as you want. **Note:**  The name-value pairs are not used by the BizTalk Server for any processing; this data is for information purposes only. |
-   |                **Delete**                |                                                                                                     Click to delete the selected name-value pair.                                                                                                      |
+   |  **Delete**  |  Click to delete the selected name-value pair. |
 
 
 3. If required, add business identities for the business profiles. In the **General** tab, on the **Identities** page, do the following:  
@@ -51,13 +53,12 @@ A business profile represents a business division in an organization. Just like 
    > [!NOTE]
    >  Adding business identities at this stage is not mandatory. You can add the business identities later as well, as part of an agreement for the business profile. If you chose to add the business identifies now, they will be available while creating an agreement for this business profile.  
 
-   |   Use this    |                                                                                                                                                                                                                                                                      To do this                                                                                                                                                                                                                                                                       |
-   |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |   **Name**    |                                                                                        Click the empty cell, and from the drop-down grid, select an authenticating body that provides unique business identities to organizations. For example, **D-U-N-S (Dun & Bradstreet)**. Two business partners can opt for a mutually agreed business identity. For such scenarios, select **Mutually Defined** (for EDIFACT) or **Mutually Defined (X12)** (for X12).                                                                                         |
-   | **Qualifier** |                                                                                                                                                                                                                                       Displays a predefined value based on the value you selected for **Name**.                                                                                                                                                                                                                                       |
+   |   Use this    | To do this  |
+   |---|---|
+   |   **Name**    |  Click the empty cell, and from the drop-down grid, select an authenticating body that provides unique business identities to organizations. For example, **D-U-N-S (Dun & Bradstreet)**. Two business partners can opt for a mutually agreed business identity. For such scenarios, select **Mutually Defined** (for EDIFACT) or **Mutually Defined (X12)** (for X12).  |
+   | **Qualifier** |  Displays a predefined value based on the value you selected for **Name**.  |
    |   **Value**   | Enter a value for the business identity. You must make the following considerations while providing a value for business identities.<br /><br /> -   For a given party, you can have more than one business profile using the same combination of identity name and identity value. For example, you can have two business profiles for a party with **Name** as **Mutually Defined (X12)** and **Value** as **THEM**.<br />-   Across parties, you cannot have two business profiles using the same combination of identity name and identity value. |
-   |  **Delete**   |                                                                                                                                                                                                                                                        Click to delete the selected identity.                                                                                                                                                                                                                                                         |
-
+   |  **Delete**   |   Click to delete the selected identity.   |
 
 4. If required, add the protocol settings for X12-encoded messages.  
 
