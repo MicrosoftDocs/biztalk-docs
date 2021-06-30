@@ -13,13 +13,11 @@ f1_keywords:
 
 # Send Port Group Properties Dialog Box
 
- 
-
 You can bind Send Port Groups (SPG) to orchestration ports or use them for Content-based Routing (CBR) just as you can for a single send port.
 
 ## General Tab
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -56,10 +54,9 @@ You can bind Send Port Groups (SPG) to orchestration ports or use them for Conte
 </tbody>
 </table>
 
-
 ## Filters Tab
 
-## UIElement List
+The following table lists the UIElements in the **Filters** tab and what they are used for.
 
 <table>
 <thead>
@@ -100,7 +97,6 @@ You can bind Send Port Groups (SPG) to orchestration ports or use them for Conte
 </tbody>
 </table>
 
-
 ## See Also
 
 [How to Enlist a Send Port or Send Port Group](https://msdn.microsoft.com/library/aa578592\(v=bts.80\))  
@@ -109,4 +105,3 @@ You can bind Send Port Groups (SPG) to orchestration ports or use them for Conte
 [How to Stop a Send Port or Send Port Group](https://msdn.microsoft.com/library/aa577932\(v=bts.80\))  
 [How to Unenlist a Send Port or Send Port Group](https://msdn.microsoft.com/library/aa559480\(v=bts.80\))  
 [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\))
-

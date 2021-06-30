@@ -25,7 +25,7 @@ This topic provides a brief general overview of AS2 processing and how BizTalk S
   
  AS2 uses the HTTP POST operation to send EDI, XML, or other business data. AS2 is not restricted to sending EDI data. Request-URI identifies a process to be used to unpack and handle message data. A message disposition notification (MDN) is returned as an acknowledgment either in the HTTP response message body or by a new HTTP POST operation to a URL for the original sender.  
   
- For more information about EDI messaging, see [AS2 Messaging](../core/as2-messaging.md).  
+ For more information about EDI messaging, see [AS2 Messaging](as2-messaging.md).  
   
 ## How AS2 Is Implemented in BizTalk Server  
  BizTalk Server includes native functionality providing support for AS2. It is not an add-in to the product, such as an adapter or an accelerator. It is built into the product, and provides the following functionality:  
@@ -46,7 +46,7 @@ This topic provides a brief general overview of AS2 processing and how BizTalk S
   
 - AS2 requires that the HTTP adapter is used on both the receive-side and the send-side.  
   
-- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to override the default signing certificate for AS2 messages by defining a certificate per agreement. For instructions on how to specify a different certificate for a party, see [Configuring AS2 Properties](../core/configuring-as2-properties.md).  
+- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to override the default signing certificate for AS2 messages by defining a certificate per agreement. For instructions on how to specify a different certificate for a party, see [Configuring AS2 Properties](configuring-as2-properties.md).  
   
 ## AS2 Components in BizTalk Server  
  BizTalk Server components used for AS2 transport include the following:  
@@ -54,23 +54,21 @@ This topic provides a brief general overview of AS2 processing and how BizTalk S
 - The BizTalk EDI Application that contains artifacts (including pipelines and schemas) that are needed to process AS2 documents.  
   
   > [!NOTE]
-  >  When you configure the AS2 feature in BizTalk Server, the configuration program creates this application. Whenever you create an application that will process AS2 messages, you must add a reference to the BizTalk EDI Application from your application. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](https://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
+  >  When you configure the AS2 feature in BizTalk Server, the configuration program creates this application. Whenever you create an application that will process AS2 messages, you must add a reference to the BizTalk EDI Application from your application. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](step-1-prepare-for-the-edi-interface-developer-tutorial.md#to-add-reference-to-the-biztalk-edi-application).  
   
-- The AS2EdiReceive pipeline that performs AS2 processing, and then EDI processing, of an EDI message received over AS2. For more information, see [AS2 Receive Components](../core/as2-receive-components.md).  
+- The AS2EdiReceive pipeline that performs AS2 processing, and then EDI processing, of an EDI message received over AS2. For more information, see [AS2 Receive Components](as2-receive-components.md).  
   
-- The AS2Receive pipeline that performs AS2 processing of a non-EDI message received over AS2. For more information, see [AS2 Receive Components](../core/as2-receive-components.md).  
+- The AS2Receive pipeline that performs AS2 processing of a non-EDI message received over AS2. For more information, see [AS2 Receive Components](as2-receive-components.md).  
   
-- The AS2EdiSend pipeline that performs EDI processing, and then AS2 processing, of an EDI message being sent over AS2. For more information, see [AS2 Send Components](../core/as2-send-components.md).  
+- The AS2EdiSend pipeline that performs EDI processing, and then AS2 processing, of an EDI message being sent over AS2. For more information, see [AS2 Send Components](as2-send-components.md).  
   
-- The AS2Send pipeline that performs AS2 processing of a non-EDI message being sent over AS2. For more information, see [AS2 Send Components](../core/as2-send-components.md).  
+- The AS2Send pipeline that performs AS2 processing of a non-EDI message being sent over AS2. For more information, see [AS2 Send Components](as2-send-components.md).  
   
-- The Trading Partner Management (TPM) user interface that enables you to set processing properties for trading partners engaging in AS2 document transport. For more information, see [The Role of Agreements in AS2 Processing](../core/the-role-of-agreements-in-as2-processing.md) and the **EDI and AS2 UI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
+- The Trading Partner Management (TPM) user interface that enables you to set processing properties for trading partners engaging in AS2 document transport. For more information, see [The Role of Agreements in AS2 Processing](the-role-of-agreements-in-as2-processing.md) and the **EDI and AS2 UI** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)].
   
-- Status reporting user interface that provides comprehensive status of AS2 interchanges and correlated acknowledgments. For more information, see [EDI and AS2 Status Reporting](../core/edi-and-as2-status-reporting.md).  
-  
-- A migration tool (Party Migration Tool) enables you to migrate party data containing AS2 properties from BizTalk Server 2006 R2 or BizTalk Server 2009 to BizTalk Server. For more information, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](https://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
+- Status reporting user interface that provides comprehensive status of AS2 interchanges and correlated acknowledgments. For more information, see [EDI and AS2 Status Reporting](edi-and-as2-status-reporting.md).  
   
 ## See Also  
- [AS2 Solution Architecture](../core/as2-solution-architecture.md)   
- [EDI and AS2 Status Reporting](../core/edi-and-as2-status-reporting.md)   
- [Developing and Configuring BizTalk Server AS2 Solutions](../core/developing-and-configuring-biztalk-server-as2-solutions.md)
+ [AS2 Solution Architecture](as2-solution-architecture.md)   
+ [EDI and AS2 Status Reporting](edi-and-as2-status-reporting.md)   
+ [Developing and Configuring BizTalk Server AS2 Solutions](developing-and-configuring-biztalk-server-as2-solutions.md)

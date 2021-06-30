@@ -13,13 +13,11 @@ f1_keywords:
 
 # Application Properties Dialog Box
 
- 
-
 Use the **Application Properties** window to set one application as the default and to reference other applications.
 
 ## General Tab
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -47,7 +45,7 @@ Use the **Application Properties** window to set one application as the default 
 
 ## References Tab
 
-## UIElement List
+The following table lists the UIElements in the **References** tab and what they are used for.
 
 <table>
 <thead>
@@ -76,7 +74,6 @@ Use the **Application Properties** window to set one application as the default 
 </tbody>
 </table>
 
-
 ## See Also
 
 [How to Install a BizTalk Application](https://msdn.microsoft.com/library/aa577503\(v=bts.80\))  
@@ -84,4 +81,3 @@ Use the **Application Properties** window to set one application as the default 
 [Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/library/aa560565\(v=bts.80\))  
 [How to Import a BizTalk Application](https://msdn.microsoft.com/library/aa560132\(v=bts.80\))  
 [How to Export a BizTalk Application](https://msdn.microsoft.com/library/aa577804\(v=bts.80\))
-

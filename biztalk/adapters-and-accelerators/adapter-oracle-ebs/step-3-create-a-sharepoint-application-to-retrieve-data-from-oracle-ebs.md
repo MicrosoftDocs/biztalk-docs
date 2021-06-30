@@ -88,4 +88,6 @@ manager: "anneta"
 -   Search Box Web Part to perform a full-text search on the MS_SAMPLE_EMPLOYEE interface table. See [Scenario 2: Search Using the Search Box Web Part](../../adapters-and-accelerators/adapter-oracle-ebs/scenario-2-search-using-the-search-box-web-part.md).
 
 ## See Also
- [Tutorial: Present Data from Oracle E-Business Suite on a SharePoint Site](tutorial-present-data-from-oracle-e-business-suite-on-a-sharepoint-site.md)
+
+[Tutorial: Present Data from Oracle E-Business Suite on a SharePoint Site](tutorial-present-data-from-oracle-e-business-suite-on-a-sharepoint-site.md)
+

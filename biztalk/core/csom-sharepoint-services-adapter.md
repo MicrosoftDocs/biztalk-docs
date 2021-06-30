@@ -34,4 +34,4 @@ Using the [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnov
   
 ## See Also  
  [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)   
- [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)
+ [Installation Overview for BizTalk Server 2013 and 2013 R2](../install-and-config-guides/install-biztalk-server-2013-and-2013-r2.md)

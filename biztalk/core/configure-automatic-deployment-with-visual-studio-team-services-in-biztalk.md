@@ -28,7 +28,7 @@ Typically, there are two roles involved:
 
 If you’ve never used Azure DevOps, this walkthrough may be challenging. It does require some understanding of git, including cloning, and pushing changes. 
 
-We show you how to setup Azure DevOps with [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], and add your first application to deploy. We recommend you refer to the [VSTS guidance](https://docs.microsoft.com/vsts/user-guide/), as the Azure DevOps UI changes. 
+We show you how to setup Azure DevOps with [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)], and add your first application to deploy. We recommend you refer to the [VSTS guidance](/vsts/user-guide/), as the Azure DevOps UI changes. 
 
 ## Before you begin
 

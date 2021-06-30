@@ -34,4 +34,4 @@ In this section, we look at creating the [!INCLUDE[btsBizTalkServerNoVersion](..
 -   [Step 3e: Build and Deploy the BizTalk Server Solution](../core/step-3e-build-and-deploy-the-biztalk-server-solution.md)  
   
 ## See Also  
- [Tutorial 6: Integrating BizTalk Server 2013 with Salesforce](Tutorial:%20Integrating%20BizTalk%20Server%202013%20with%20Salesforce.md)
+ [Tutorial 6: Integrating BizTalk Server 2013 with Salesforce](tutorial-integrating-biztalk-server-2013-with-salesforce.md)

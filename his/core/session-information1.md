@@ -15,6 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Session Information
+
 Information on session information is provided in the **sess_info_sect** structure as defined below.  
   
 ## Syntax  
@@ -27,19 +28,18 @@ typedef struct sess_info_sect {
 } SESS_INFO_SECT;  
 ```  
   
-## Members  
- sess_sect_len  
- The length of the initial session information section, including this parameter, up to the first session group. The length does not include any previous information sections.  
+## Members
   
- num_sessions  
- The number of session groups returned by the **DISPLAY** verb into your program's buffer. This is the number of times the session group is repeated.  
+*sess_sect_len*  
+The length of the initial session information section, including this parameter, up to the first session group. The length does not include any previous information sections.  
   
- total_sessions  
- The total number of session groups. This number is the same as the number returned in the **num_sessions** member except when APPC has more information about session groups than it can place in the supplied buffer, in which case this number is larger.  
+*num_sessions*  
+The number of session groups returned by the **DISPLAY** verb into your program's buffer. This is the number of times the session group is repeated.  
   
- For each session group, a **sess_overlay** structure for the session is provided as defined below.  
+*total_sessions*  
+The total number of session groups. This number is the same as the number returned in the **num_sessions** member except when APPC has more information about session groups than it can place in the supplied buffer, in which case this number is larger.  
   
-## Syntax  
+For each session group, a **sess_overlay** structure for the session is provided as defined below.  
   
 ```  
 typedef struct sess_overlay {  
@@ -71,175 +71,174 @@ typedef struct sess_overlay {
 ```  
   
 ## Defined by IBM ES for OS/2 version 1.0  
+
+The **sess_overlay** structure as defined by IBM ES for OS/2 version 1.0 contains the following members:
   
-## Members  
- sess_entry_len  
- Size of this session group entry.  
+*sess_entry_len*  
+Size of this session group entry.  
   
- sess_id  
- The internal identifier of the session for which this information is displayed.  
+*sess_id*  
+The internal identifier of the session for which this information is displayed.  
   
- conv_id  
- The unique four-byte ID of the conversation currently using this session.  
+*conv_id*  
+The unique four-byte ID of the conversation currently using this session.  
   
- lu_alias  
- LU alias (ASCII).  
+*lu_alias*  
+LU alias (ASCII).  
   
- plu_alias  
- Partner LU alias (ASCII).  
+*plu_alias*  
+Partner LU alias (ASCII).  
   
- mode_name  
- The name of the mode (EBCDIC).  
+*mode_name*  
+The name of the mode (EBCDIC).  
   
- send_ru_size  
- The maximum RU size used on this session and this **mode_name** for sending RUs.  
+*send_ru_size* 
+The maximum RU size used on this session and this **mode_name** for sending RUs.  
   
- rcv_ru_size  
- The maximum RU size used on this session and this **mode_name** for receiving RUs.  
+*rcv_ru_size*  
+The maximum RU size used on this session and this **mode_name** for receiving RUs.  
   
- send_pacing_size  
- The size of the send pacing window on this session.  
+*send_pacing_size*  
+The size of the send pacing window on this session.  
   
- rcv_pacing_size  
- The size of the receive pacing window on this session.  
+*rcv_pacing_size*  
+The size of the receive pacing window on this session.  
   
- link_id  
- Name of local logical link station.  
+*link_id*  
+Name of local logical link station.  
   
- daf  
- The destination address field for this session.  
+*daf*  
+The destination address field for this session.  
   
- oaf  
- The origin address field for this session.  
+*oaf*  
+The origin address field for this session.  
   
- odai  
- The origin destination address indicator field for this session.  
+*odai*  
+The origin destination address indicator field for this session.  
   
- sess_type  
- The type of the session. The session type can be one of the following:  
+*sess_type*  
+The type of the session. The session type can be one of the following:  
   
- SSCP_PU_SESSION  
- This session is between a workstation physical unit and a host system services control point. This type of session exists if the local node contains a dependent LU, or if the session has been solicited in order to send alerts to the host.  
+- SSCP_PU_SESSION  
+  This session is between a workstation physical unit and a host system services control point. This type of session exists if the local node contains a dependent LU, or if the session has been solicited in order to send alerts to the host.  
   
- SSCP_LU_SESSION  
- This session is between a dependent LU and a host system services control point.  
+- SSCP_LU_SESSION  
+  This session is between a dependent LU and a host system services control point.  
   
- LU_LU _SESSION  
- This session is between two LUs.  
+- LU_LU _SESSION  
+  This session is between two LUs.  
   
- conn_type  
- Indicates whether the session activation protocol follows the rules for an independent LU or a dependent LU. The connection type can be one of the following:  
+*conn_type*  
+Indicates whether the session activation protocol follows the rules for an independent LU or a dependent LU. The connection type can be one of the following:  
   
- AP_HOST_SESSION  
- For dependent LU protocols, the workstation LU is defined as dependent at the host, the host LU sends the session activation request (BIND), and each workstation LU can support only one session at a time.  
+- AP_HOST_SESSION  
+  For dependent LU protocols, the workstation LU is defined as dependent at the host, the host LU sends the session activation request (BIND), and each workstation LU can support only one session at a time.  
   
- AP_PEER_SESSION  
- For independent LU protocols, an LU can send a BIND, and can have multiple sessions to different partners, or parallel sessions to the same partner LU.  
+- AP_PEER_SESSION  
+  For independent LU protocols, an LU can send a BIND, and can have multiple sessions to different partners, or parallel sessions to the same partner LU.  
   
- fq_pc_id  
- Fully qualified procedure correlation identifier of the session.  
+*fq_pc_id*  
+Fully qualified procedure correlation identifier of the session.  
   
- cgid  
- Unique identifier for the conversation group of the session.  
+*cgid*  
+Unique identifier for the conversation group of the session.  
   
- fqlu_name  
- The fully-qualified LU name in EBCDIC (type A).  
+*fqlu_name*  
+The fully-qualified LU name in EBCDIC (type A).  
   
- fqplu_name  
- The fully-qualified partner LU name in EBCDIC (type A).  
+*fqplu_name*  
+The fully-qualified partner LU name in EBCDIC (type A).  
   
- pacing_type  
- The pacing type can be one of the following:  
+*pacing_type*  
+The pacing type can be one of the following:  
   
- AP_FIXED  
- Fixed pacing.  
+- AP_FIXED  
+  Fixed pacing.  
   
- AP_ADAPTIVE  
- Adaptive pacing.  
+- AP_ADAPTIVE  
+  Adaptive pacing.  
   
 ## Returned by Host Integration Server  
   
-## Members  
- sess_entry_len  
- Size of this session group entry.  
+The **sess_overlay** structure returned by Host Integration Server contains the following members:
   
- sess_id  
- The internal identifier of the session for which this information is displayed.  
+*sess_entry_len*  
+Size of this session group entry.  
   
- conv_id  
- The unique four-byte ID of the conversation currently using this session.  
+*sess_id*  
+The internal identifier of the session for which this information is displayed.  
   
- lu_alias  
- LU alias (ASCII).  
+*conv_id*  
+The unique four-byte ID of the conversation currently using this session.  
   
- plu_alias  
- Partner LU alias (ASCII).  
+*lu_alias*  
+LU alias (ASCII).  
   
- mode_name  
- The name of the mode (EBCDIC).  
+*plu_alias*  
+Partner LU alias (ASCII).  
   
- mode_name  
- The name of the mode (EBCDIC).  
+*mode_name*  
+The name of the mode (EBCDIC).  
+
+*send_ru_size*  
+The maximum RU size used on this session and this **mode_name** for sending RUs.  
   
- send_ru_size  
- The maximum RU size used on this session and this **mode_name** for sending RUs.  
+*rcv_ru_size*  
+The maximum RU size used on this session and this **mode_name** for receiving RUs.  
   
- rcv_ru_size  
- The maximum RU size used on this session and this **mode_name** for receiving RUs.  
+*send_pacing_size*  
+The size of the send pacing window on this session.  
   
- send_pacing_size  
- The size of the send pacing window on this session.  
+*rcv_pacing_size*  
+The size of the receive pacing window on this session.  
   
- rcv_pacing_size  
- The size of the receive pacing window on this session.  
+*link_id*  
+Connection name.  
   
- link_id  
- Connection name.  
+*daf*  
+The destination address field for this session.  
   
- daf  
- The destination address field for this session.  
+*oaf*  
+The origin address field for this session.  
   
- oaf  
- The origin address field for this session.  
+*odai*  
+The origin destination address indicator field for this session.  
   
- odai  
- The origin destination address indicator field for this session.  
+*sess_type*  
+The type of the session. The session type can be one of the following:  
   
- sess_type  
- The type of the session. The session type can be one of the following:  
+- SSCP_PU_SESSION  
+  This session is between a workstation physical unit and a host system services control point. This value is never returned by Host Integration Server.  
   
- SSCP_PU_SESSION  
- This session is between a workstation physical unit and a host system services control point. This value is never returned by Host Integration Server.  
+- SSCP_LU_SESSION  
+  This session is between a dependent LU and a host system services control point.  
+
+- LU_LU _SESSION  
+  This session is between two LUs.  
   
- SSCP_LU_SESSION  
- This session is between a dependent LU and a host system services control point.  
+*conn_type*  
+Indicates whether the session activation protocol follows the rules for an independent LU or a dependent LU. The connection type can be one of the following:  
   
- LU_LU _SESSION  
- This session is between two LUs.  
+- AP_HOST_SESSION  
+  For dependent LU protocols, the workstation LU is defined as dependent at the host, the host LU sends the session activation request (BIND), and each workstation LU can support only one session at a time.  
   
- conn_type  
- Indicates whether the session activation protocol follows the rules for an independent LU or a dependent LU. The connection type can be one of the following:  
+- AP_PEER_SESSION  
+  For independent LU protocols, an LU can send a BIND, and can have multiple sessions to different partners, or parallel sessions to the same partner LU.  
   
- AP_HOST_SESSION  
- For dependent LU protocols, the workstation LU is defined as dependent at the host, the host LU sends the session activation request (BIND), and each workstation LU can support only one session at a time.  
+- AP_BOTH_SESSION  
+  Connections can support both Dependent and Independent LUs.  
   
- AP_PEER_SESSION  
- For independent LU protocols, an LU can send a BIND, and can have multiple sessions to different partners, or parallel sessions to the same partner LU.  
+*fq_pc_id*  
+Set to zero.  
   
- AP_BOTH_SESSION  
- Connections can support both Dependent and Independent LUs.  
+*cgid*  
+Set to zero.  
   
- fq_pc_id  
- Set to zero.  
+*type_of_pacing*  
+The pacing type can be one of the following:  
   
- cgid  
- Set to zero.  
+- AP_FIXED  
+  Fixed pacing.  
   
- type_of_pacing  
- The pacing type can be one of the following:  
-  
- AP_FIXED  
- Fixed pacing.  
-  
- AP_ADAPTIVE  
- Adaptive pacing. This value is never returned by Host Integration Server.
+- AP_ADAPTIVE  
+  Adaptive pacing. This value is never returned by Host Integration Server.

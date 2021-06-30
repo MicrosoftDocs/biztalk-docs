@@ -155,9 +155,8 @@ The following sections provide help for planning and architecting solutions usin
 #### Configuration
  Post-installation, IT professionals can customize the DRDA Service configuration by editing the MsDrdaService.exe.config file and updating other XML files. The following is a listing of DRDA Service components, configurable items, and configuration stores.
 
-||||
-|-|-|-|
 |Component|Items|Configuration Store|
+|---------|-----|-------------------|
 |DRDA Service|Service Credentials<br /><br /> Security Policy Rights<br /><br /> Connection Manager<br /><br /> Security Manager<br /><br /> SQL Access Manager<br /><br /> Database Manager|Windows Registry<br /><br /> MsDrdaService.exe.config<br /><br /> MSDRDAErrorMappings.xml|
 |Data Conversion|Data Type Mappings<br /><br /> Date, Time, DateTime Formats|DB2ToMSSql.xml MSSQLToDB2.xml<br /><br /> MsDrdaService.exe.config|
 |Code Page Conversion|Custom Code Pages<br /><br /> Code Point Mappings|Windows Registry<br /><br /> MsDrdaService.exe.config|

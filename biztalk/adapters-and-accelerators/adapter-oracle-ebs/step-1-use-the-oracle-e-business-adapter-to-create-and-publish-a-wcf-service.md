@@ -208,4 +208,6 @@ SelectResponse InterfaceTables_FND_APPS_MS_SAMPLE_EMPLOYEE.Select(SelectRequest 
  To create an application definition file for the Oracle E-Business Suite artifact, use the Business Data Catalog Definition Editor. For instructions, see [Step 2: Create an Application Definition File for the Oracle E-Business Suite Artifacts](../../adapters-and-accelerators/adapter-oracle-ebs/step-2-create-an-application-definition-file-for-the-oracle-ebs-artifacts.md). The application definition file identifies where the LOB data is stored and the format in which it is stored.
 
 ## See Also
- [Tutorial: Present Data from Oracle E-Business Suite on a SharePoint Site](tutorial-present-data-from-oracle-e-business-suite-on-a-sharepoint-site.md)
+
+[Tutorial: Present Data from Oracle E-Business Suite on a SharePoint Site](tutorial-present-data-from-oracle-e-business-suite-on-a-sharepoint-site.md)
+
