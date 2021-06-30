@@ -20,12 +20,12 @@ manager: "anneta"
 Expose your BizTalk WCF-BasicHTTP receive locations as endpoints within Azure API Management using the BizTalk Administration Console. You can also expose your SOAP endpoints through API Management from BizTalk using API Management in the Azure portal.
 
 > [!TIP]
-> [What is API Management?](https://docs.microsoft.com/azure/api-management/api-management-key-concepts) is a great resource to understand and learn more about this Azure service.
+> [What is API Management?](/azure/api-management/api-management-key-concepts) is a great resource to understand and learn more about this Azure service.
 
 ## Prerequisites
 
-* Configure and set up [Azure API Management](https://docs.microsoft.com/azure/api-management/api-management-get-started)
-* Create a [virtual network](https://docs.microsoft.com/azure/api-management/api-management-using-with-vnet) between your BizTalk computer and the API Management instance
+* Configure and set up [Azure API Management](/azure/api-management/api-management-get-started)
+* Create a [virtual network](/azure/api-management/api-management-using-with-vnet) between your BizTalk computer and the API Management instance
 
 ## Create using API Management in Azure portal 
 
@@ -85,4 +85,4 @@ Expose your BizTalk WCF-BasicHTTP receive locations as endpoints within Azure AP
 
 ## Do more
 
-Azure API Management is a powerful service that is used by a lot of Azure services, including Logic Apps. API Management includes many features, including rate limits and quotas, who has access to your APIs, caching, and more. See [What is API Management?](https://docs.microsoft.com/azure/api-management/api-management-key-concepts) to get started.
+Azure API Management is a powerful service that is used by a lot of Azure services, including Logic Apps. API Management includes many features, including rate limits and quotas, who has access to your APIs, caching, and more. See [What is API Management?](/azure/api-management/api-management-key-concepts) to get started.
