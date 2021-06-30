@@ -196,7 +196,7 @@ The following diagram illustrates the architecture for the Business Activity Mon
   
  The following steps describe the sequence depicted in the illustration above.  
   
-1.  The custom application must be able to load the [Microsoft.BizTalk.Bam.EventObservation](/previous-versions/) assembly to access the BAM methods of inserting data into a BAM Activity. There are two primary classes that are exposed, DirectEventStream and BufferedEventStream. In the illustration above, the DirectEventStream class is highlighted. This class writes directly to the Primary Import database. This is the most common method of writing data into a BAM activity.  
+1.  The custom application must be able to load the [Microsoft.BizTalk.Bam.EventObservation](/dotnet/api/microsoft.biztalk.bam.eventobservation) assembly to access the BAM methods of inserting data into a BAM Activity. There are two primary classes that are exposed, DirectEventStream and BufferedEventStream. In the illustration above, the DirectEventStream class is highlighted. This class writes directly to the Primary Import database. This is the most common method of writing data into a BAM activity.  
   
 2.  Similar to the method in which BizTalk stores data, the BufferedEventStream class writes binary blobs into an indirect database. In this case, the BizTalk MessageBox is used as the intermediate store. Which class you choose depends on several things; however performance is a primary concern. The BufferedEventStream class will batch data and sustain higher throughput. The drawback is that the data is not written immediately.  
   
