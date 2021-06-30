@@ -35,7 +35,7 @@ Solution developers design and develop BizTalk Server solutions using BizTalk Se
 **Tutorials and Walkthroughs**
 
 -   [BizTalk Server Tutorials](../core/biztalk-server-tutorials.md)
--   [BizTalk Application Deployment and Management Walkthroughs](/previous-versions/)
+-   [BizTalk Server Tutorials](biztalk-server-tutorials.md)
 
 **End to End Scenarios**
 
@@ -44,7 +44,8 @@ Solution developers design and develop BizTalk Server solutions using BizTalk Se
 
 **Installing BizTalk Server**
 
--   [Installation Overview for BizTalk Server 2013 and 2013 R2](/previous-versions/)
+-   [Install BizTalk Server 2020](../install-and-config-guides/install-biztalk-server-2020.md)
+-   [Install BizTalk Server 2016](../install-and-config-guides/install-biztalk-server-2016.md)
 
 **BizTalk Server Security**
 
