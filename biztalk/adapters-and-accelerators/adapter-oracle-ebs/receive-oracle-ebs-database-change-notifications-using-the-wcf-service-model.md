@@ -260,7 +260,7 @@ namespace OracleEBSBindingNamespace {
    ```
 
    > [!IMPORTANT]
-   >  The value for the **NotificationPort** binding property must be set to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](https://go.microsoft.com/fwlink/?LinkID=196959).
+   >  The value for the **NotificationPort** binding property must be set to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](/previous-versions/orphan-topics/ws.11/cc753558(v=ws.11)).
 
    > [!IMPORTANT]
    >  If you do not set the **NotificationPort** binding property, the adapter will assume the default value of -1 for this binding property. In such a case, you will have to completely disable Windows Firewall to receive notification messages.
