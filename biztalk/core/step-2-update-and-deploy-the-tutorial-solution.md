@@ -23,7 +23,7 @@ manager: "anneta"
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
   
-### To enable the EDI Inbound Processing solution to be built in Visual Studio  
+## Enable the EDI Inbound Processing solution to be built in Visual Studio  
   
 1. Start **Microsoft Visual Studio** as an administrator.  
   
@@ -33,7 +33,7 @@ manager: "anneta"
 2. In Visual Studio, click **File**, point to **Open**, and then click **Project/Solution**. Move to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\EDI Interface Developer Tutorial, select **EDI Inbound Processing.sln**, and then click **Open**.  
   
    > [!NOTE]
-   >  This topic assumes that you have already added a reference from your application to the BizTalk EDI Application, which contains EDI schemas, pipelines, and orchestrations. If not, see [How to Add a Reference to the BizTalk Server EDI Application](https://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
+   >  This topic assumes that you have already added a reference from your application to the BizTalk EDI Application, which contains EDI schemas, pipelines, and orchestrations. If not, see [Add a Reference to the BizTalk Server EDI Application](step-1-prepare-for-the-edi-interface-developer-tutorial.md#to-add-reference-to-the-biztalk-edi-application).
   
 3. Right-click the **Inbound_EDI** project in the Solution Explorer, and then select **Properties**.  
   
@@ -43,7 +43,7 @@ manager: "anneta"
   
 6. Close the **Inbound_EDI Property Pages** dialog box.  
   
-### To deploy the project  
+## Deploy the project  
   
 1. In Solution Explorer, double-click the **X12_00401_850.xsd** schema. Confirm that it opens.  
   
