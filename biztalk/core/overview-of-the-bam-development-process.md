@@ -29,7 +29,7 @@ This topic describes the development process and the database and tables that st
 
 -   You must have the Microsoft.BizTalk.BAM.EventObservation.dll installed on your computer. You can obtain the DLL in two ways:
 
-    -   Use the BizTalk Server Configuration Manager to install the BAM tools. We recommend that you use the Configuration Manager because it places appropriate entries in the registry that facilitate upgrades. For more information about configuring BAM, see [Configuring BAM Tools Using the Configuration Manager](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkId=70561).
+    -   Use the BizTalk Server Configuration Manager to install the BAM tools. We recommend that you use the Configuration Manager because it places appropriate entries in the registry that facilitate upgrades. For more information about configuring BAM, see [Configuring BAM Tools Using the Configuration Manager](../install-and-config-guides/configure-biztalk-server.md).
 
     -   Copy the DLL from a computer on which they have already been installed. The DLL resides in the Microsoft BizTalk Server \<version\>\Tracking folder.
 
