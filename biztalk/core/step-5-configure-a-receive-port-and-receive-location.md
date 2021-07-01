@@ -23,7 +23,7 @@ manager: "anneta"
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
   
-### To configure a receive port and receive location for receiving the 850 message  
+## Configure a receive port and receive location for receiving the 850 message  
   
 1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, expand **BizTalk Server Administration**, **BizTalk Group**, **Applications**, and then **BizTalk Application 1**. Right-click **Receive Ports**, point to **New**, and then click **One-way Receive Port**.  
   
@@ -51,7 +51,7 @@ manager: "anneta"
    >  The receive pipeline used to receive EDI interchanges, except for those delivered over the AS2 transport, is the EdiReceive pipeline. (The AS2EdiReceive receive pipeline is used to receive EDI interchanges delivered over the AS2 transport.)  
   
    > [!NOTE]
-   >  If EdiReceive is not listed in the drop-down list for receive pipeline, your application may not have a reference to the BizTalk EDI Application. To add the reference, see [How to Add a Reference to the BizTalk Server EDI Application](/previous-versions/).  
+   >  If EdiReceive is not listed in the drop-down list for receive pipeline, your application may not have a reference to the BizTalk EDI Application. To add the reference, see [Add a Reference to the BizTalk Server EDI Application](step-1-prepare-for-the-edi-interface-developer-tutorial.md#to-add-reference-to-the-biztalk-edi-application).  
   
 9. Click **OK**, and then click **OK** again.  
   
