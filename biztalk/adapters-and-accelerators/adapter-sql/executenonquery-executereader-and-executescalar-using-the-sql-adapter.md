@@ -36,4 +36,4 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the followin
   For more information about performing these operations using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations by Using BizTalk Server](../../adapters-and-accelerators/adapter-sql/executereader-executescalar-or-executenonquery-in-sql-server-using-biztalk.md).
 
 ## See Also
- [What Operations Can be Performed Using the Adapter?](https://msdn.microsoft.com/library/cc185435(v=bts.10).aspx)
+ [What Operations Can be Performed Using the Adapter?](what-operations-are-supported-by-the-sql-adapter.md)
