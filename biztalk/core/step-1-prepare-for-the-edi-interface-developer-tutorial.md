@@ -39,8 +39,8 @@ manager: "anneta"
   
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
-  
-## Add reference to the BizTalk EDI Application  
+
+## To add reference to the BizTalk EDI Application  
   
 1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, under the **Applications** node, right-click the application that you want to use for EDI, such as BizTalk Application 1. 
 2. Select **Add** > **References**.
