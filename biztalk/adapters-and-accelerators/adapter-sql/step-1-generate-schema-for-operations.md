@@ -29,13 +29,11 @@ manager: "anneta"
 -   **Insert** operation on the **Purchase_Order** table (outbound operation).  
   
 ## Prerequisites  
- Before you proceed with the tutorial, make sure:  
+
+- Be familiar with the creating BizTalk projects in Visual Studio. For more information, see [Using the BizTalk Project System](../../core/using-the-biztalk-project-system.md).
+- Sign in as a member of the BizTalk Server Administrators group.  
   
--   You must have completed the steps in [Before You Develop BizTalk Applications](/previous-versions/).  
-  
--   You must log on as a member of the BizTalk Server Administrators group.  
-  
-### To generate schema for operations  
+## Generate schema for operations  
   
 1. Create a new BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]. For this tutorial, name the project as `Employee_PurchaseOrder`.  
   
