@@ -69,7 +69,7 @@ For more detailed information about permissions, see [Permissions Required for D
   
 10. When all of its active, dehydrated, and suspended instances are complete, undeploy the original orchestration from the application, as described in [How to Remove an Orchestration from an Application](../core/how-to-remove-an-orchestration-from-an-application.md).  
   
-11. Optionally uninstall the original assembly version from the GAC on each computer running the application, as described in [How to Uninstall an Assembly from the GAC](/previous-versions/).  
+11. Optionally uninstall the original assembly version from the GAC on each computer running the application, as described in [How to Uninstall an Assembly from the GAC](/dotnet/framework/app-domains/how-to-remove-an-assembly-from-the-gac).  
   
 ## See Also  
  [Updating BizTalk Applications](../core/updating-biztalk-applications.md)   
