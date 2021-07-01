@@ -23,5 +23,5 @@ The Configuration Manager creates the necessary Windows group and user accounts 
   
 ## See Also  
  [Domain Groups](../core/domain-groups.md)   
- [Installation Overview for BizTalk Server 2013 and 2013 R2](/previous-versions/)   
+ [BizTalk Server What's New, Install, Configuration, and Upgrade](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md)   
  [Windows Groups and User Accounts in BizTalk Server](../core/windows-groups-and-user-accounts-in-biztalk-server.md)
