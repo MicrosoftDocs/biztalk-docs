@@ -67,6 +67,6 @@ This topic describes known issues with deployment and management of [!INCLUDE[bt
   
 ## See Also  
  [Troubleshooting EDI and AS2 Solutions](../core/troubleshooting-edi-and-as2-solutions.md)   
- [BizTalk Server What's New, Install, Configuration, and Upgrade](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade)   
+ [BizTalk Server What's New, Install, Configuration, and Upgrade](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md)   
  [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)   
  [Post-configuration steps to optimize your environment](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)
