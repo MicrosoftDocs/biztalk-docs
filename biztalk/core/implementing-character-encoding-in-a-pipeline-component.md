@@ -74,7 +74,7 @@ XmlReader xr = docspec.Parser(new DataReader(new MyEncoding()));
   
 ## Using a private DataReader class  
 
- You can create your own [DataReader](/previous-versions/) class that implements the `IDataReader` interface and performs reading without creating any encoding classes.  
+ You can create your own [DataReader](/dotnet/api/microsoft.solutions.btahl7.pipelines.datareader) class that implements the `IDataReader` interface and performs reading without creating any encoding classes.  
   
 ```  
 class MyDataReader : IDataReader  
