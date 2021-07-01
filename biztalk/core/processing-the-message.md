@@ -63,9 +63,9 @@ All of the components described so far play a part in the processing of messages
   
  Custom pipeline components can also be written to handle getting properties into the context for arbitrary data in a received or sent message. In order to promote a property into the context and have it be useful for routing, which is presumably why the value is being promoted, a property schema with a definition for the property should be created and deployed to BizTalk Server. Before you define a property schema to be used by custom components, you should understand the different types of promoted properties. Promoted properties defined in a property schema can have one of two base types:  
   
-- [Microsoft.XLANGs.BaseTypes.MessageContextPropertyBase](/previous-versions/) or  
+- [Microsoft.XLANGs.BaseTypes.MessageContextPropertyBase](/dotnet/api/microsoft.xlangs.basetypes.messagecontextpropertybase) or  
   
-- [Microsoft.XLANGs.BaseTypes.MessageDataPropertyBase](/previous-versions/)  
+- [Microsoft.XLANGs.BaseTypes.MessageDataPropertyBase](/dotnet/api/microsoft.xlangs.basetypes.messagedatapropertybase)  
   
   A property with a base type of MessageDataPropertyBase indicates that the value for this property comes from the content of the message. This is the default value for properties defined in a property schema and is the most common usage. MessageContextPropertyBase indicates a property that is intended to be part of the message context but does not necessarily come from the message data directly. Properties with MessageContextPropertyBase as their base type are often promoted by adapters and disassemblers and include common properties such as message type and adapter type.  
   
