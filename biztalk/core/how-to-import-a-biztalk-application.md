@@ -38,7 +38,7 @@ This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../incl
 ## Considerations for importing applications  
  When importing an application, the following considerations may apply:  
   
-- **Importing applications from previous versions of BizTalk Server**. If you are importing applications from BizTalk Server 2006 R2 or BizTalk Server 2009, and the applications contain EDI/AS2 party data, the application import might fail because the trading partner management model has changed considerably in BizTalk Server. You must instead use the Party Migration Tool to migrate the party data from previous BizTalk Server versions. For more information about the tool, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](/previous-versions/).  
+- **Importing applications from previous versions of BizTalk Server**. If you are importing applications from BizTalk Server 2006 R2 or BizTalk Server 2009, and the applications contain EDI/AS2 party data, the application import might fail because the trading partner management model has changed considerably in BizTalk Server. You must instead use the Party Migration Tool to migrate the party data from previous BizTalk Server versions. For more information about the tool, see [EDI Migration Utilities](edi-migration-utilities.md).
   
 - **Existing bindings are always overwritten by imported bindings.** When you import an .msi file that contains bindings into an existing application, the existing bindings are overwritten by imported bindings that have the same name. This is the case even when you have not selected the option to overwrite existing artifacts when importing the .msi file. If you do not want the bindings in the application you are exporting to overwrite the bindings in an application into which you are importing the .msi file, then you should not select the binding file as a resource to export during the export operation. For more information, see [How to Export a BizTalk Application](../core/how-to-export-a-biztalk-application.md).  
   
@@ -65,9 +65,7 @@ This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../incl
 > [!NOTE]
 >  If you create a filter for a send port in one application that uses a property schema in another application, and then import the first application into a new BizTalk group, you will not receive a warning that the schema is missing, and filtering will not function when the application is installed and started. You can correct the problem by importing the application that contains the schema before you install the application that does not contain the schema.  
   
-## To import a BizTalk application  
-  
-#### Using the BizTalk Server Administration Console  
+## Import a BizTalk app using BizTalk Server Administration  
   
 1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
@@ -108,7 +106,7 @@ This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../incl
 > [!NOTE]
 >  If the installation fails, for example because you do not have Write permissions on the local file system, the installation is rolled back, but not the import operation.  
   
-#### Using the command line  
+## Import a BizTalk app using the command line  
   
 1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
