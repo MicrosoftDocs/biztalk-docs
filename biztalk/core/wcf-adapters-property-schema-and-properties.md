@@ -531,7 +531,7 @@ Applies to: WCF-BasicHttp send adapter, WCF-WSHttp send adapter
 
 Specify the user name to use for the proxy server specified in the **ProxyAddress** property. The property is required if the **ProxyToUse** property is set to **UserSpecified**.
 
-For more information about this property, see [How to Configure a WCF-WSHttp Send Port](../core/how-to-configure-a-wcf-wshttp-send-port.md) and [How to Configure a WCF-BasicHttp Send Port](/previous-versions/).
+For more information about this property, see [How to Configure a WCF-WSHttp Send Port](../core/how-to-configure-a-wcf-wshttp-send-port.md) and [Configure a WCF-BasicHttp Send Port](wcf-basichttp-adapter.md).
 
 Type: String
 Applies to: WCF-BasicHttp send adapter, WCF-WSHttp send adapter
