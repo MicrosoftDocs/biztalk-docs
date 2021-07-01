@@ -42,7 +42,7 @@ This topic describes the scenarios in Microsoft [!INCLUDE[btsBizTalkServerNoVers
 
  The following figure shows a highly available medium-sized BizTalk Server deployment with two BizTalk Servers dedicated to receiving operations.
 
- ![Medium&#45;Sized BizTalk Server Deployment](../core/media/tdi-highava-meddepl.gif "TDI_HighAva_MedDepl")
+ ![Medium Sized BizTalk Server Deployment](../core/media/tdi-highava-meddepl.gif "TDI_HighAva_MedDepl")
 
  For more information about high availability for Enterprise Single Sign-On, see [High Availability for Enterprise Single Sign-On](../core/high-availability-for-enterprise-single-sign-on.md).
 
@@ -55,12 +55,12 @@ This topic describes the scenarios in Microsoft [!INCLUDE[btsBizTalkServerNoVers
 
  The following figure shows a large-scale [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment.
 
- ![Large&#45;Scale BizTalk Server Deployment](../core/media/tdi-highava-largedepl.gif "TDI_HighAva_LargeDepl")
+ ![Large Scale BizTalk Server Deployment](../core/media/tdi-highava-largedepl.gif "TDI_HighAva_LargeDepl")
 
  For more information about high availability for Enterprise Single Sign-On, see [High Availability for Enterprise Single Sign-On](../core/high-availability-for-enterprise-single-sign-on.md).
 
 ## Providing High Availability using Hyper-V and Failover Clustering
- The Windows® Server 2008 Hyper-V role and the Windows Server 2008 Failover Clustering feature can be used together to provide high availability for a virtualized server computing environment. The BizTalk Server computers and the SQL Server computers used in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment can be installed in a Hyper-V virtualized environment and then made highly available through failover clustering. Because there is a system resource cost associated with running a guest operating system on Hyper-V, we recommend that thorough performance testing is performed before deploying such a solution into production. For more information about using Hyper-V and Failover clustering together to provide high availability for virtual machines, see “Hyper-V Step-by-Step Guide: Hyper-V and Failover Clustering” at [https://go.microsoft.com/fwlink/?LinkID=129113](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732181(v=ws.10)). For more information about deploying a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] into a Hyper-V virtualized environment, see the BizTalk Server Hyper-V Guide available for download at [https://go.microsoft.com/fwlink/?LinkId=189706](https://go.microsoft.com/fwlink/?LinkId=189706).
+ The Windows® Server 2008 Hyper-V role and the Windows Server 2008 Failover Clustering feature can be used together to provide high availability for a virtualized server computing environment. The BizTalk Server computers and the SQL Server computers used in a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment can be installed in a Hyper-V virtualized environment and then made highly available through failover clustering. Because there is a system resource cost associated with running a guest operating system on Hyper-V, we recommend that thorough performance testing is performed before deploying such a solution into production. For more information about using Hyper-V and Failover clustering together to provide high availability for virtual machines, see [Hyper-V Step-by-Step Guide: Hyper-V and Failover Clustering](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732181(v=ws.10)). For more information about deploying a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] into a Hyper-V virtualized environment, see the [BizTalk Server Hyper-V Guide](../technical-guides/biztalk-server-2010-hyper-v-guide.md).
 
 ## See Also
  [Providing High Availability for BizTalk Hosts](../core/providing-high-availability-for-biztalk-hosts.md)
