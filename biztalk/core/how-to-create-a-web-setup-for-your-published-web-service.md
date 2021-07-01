@@ -47,7 +47,7 @@ You can create an installation package to facilitate setting up your Web service
 10. Build your Web setup project.
 
     > [!NOTE]
-    >  For more information about creating Web setup projects, see "How to Create or Add a Web Setup Project" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [https://go.microsoft.com/fwlink/?LinkId=62268](https://go.microsoft.com/fwlink/?LinkId=62268).
+    >  For more information about creating Web setup projects, see "How to Create or Add a Web Setup Project" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [https://go.microsoft.com/fwlink/?LinkId=62268](/previous-versions/visualstudio/visual-studio-2010/19x10e5c(v=vs.100)).
 
 ## See Also
  [Deploying Published Web Services on a Non-Visual Studio Computer](../core/deploying-published-web-services-on-a-non-visual-studio-computer.md)

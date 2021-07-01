@@ -45,15 +45,13 @@ This topic describes how to use the BizTalk Server Administration console to imp
   
 -   You must be logged on with an account that is a member of the BizTalk Server Administrators group. For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
--   The Business Rule Engine must be installed. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
+-   The Business Rule Engine must be installed. For more information, see [Install BizTalk Server](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).  
   
 -   If you want to use the BizTalk Server Administration console to import a policy, you must have available an .xml file containing the policy that you want to import. You can generate such an .xml file by exporting a policy from another BizTalk group or application, as described in [How to Export a Policy](../core/how-to-export-a-policy.md), or by using the Business Rule Composer, as described in [How to Import and Export Policies and Vocabularies](../core/how-to-import-and-export-policies-and-vocabularies.md).  
   
 -   If you want to use BTSTask to import a policy, you must have an .msi file containing the policy to import. For instructions, see [How to Export a Policy](../core/how-to-export-a-policy.md).  
   
-## To import a policy  
-  
-#### Using the BizTalk Server Administration console  
+## Import a policy using BizTalk Server Administration  
   
 1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
@@ -65,7 +63,7 @@ This topic describes how to use the BizTalk Server Administration console to imp
   
     The policy is imported into the group and displays in the **Policies** folder of **\<All Artifacts\>**.  
   
-#### Using the command line  
+## Import a policy using the command line  
   
 1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
