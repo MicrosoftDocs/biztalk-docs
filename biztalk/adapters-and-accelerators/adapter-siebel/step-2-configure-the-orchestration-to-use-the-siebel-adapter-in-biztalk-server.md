@@ -15,7 +15,9 @@ author: "MandiOhlinger"
 ms.author: "mandia"
 manager: "anneta"
 ---
+
 # Step 2: Configure the Orchestration in BizTalk Server Administration Console with the Siebel adapter
+
 ![Step 2 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")
 
  **Time to complete:** 10 minutes
@@ -30,9 +32,9 @@ manager: "anneta"
 
 -   You must have deployed the BizTalk orchestration for which you want to configure the WCF-Custom port.
 
-### To create a WCF-Custom port
+## Create a WCF-Custom port
 
-1. When you generate schema for an operation on the Siebel system using [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], a binding file is also added to the BizTalk project. You can import this binding file into your BizTalk application to create a WCF-Custom send-receive port. For instructions on importing a binding file, see [Importing Bindings](/previous-versions/).
+1. When you generate schema for an operation on the Siebel system using [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], a binding file is also added to the BizTalk project. You can import this binding file into your BizTalk application to create a WCF-Custom send-receive port. For instructions on importing a binding file, see [Import Bindings](../../core/importing-bindings2.md).
 
 2. After you import the binding file, a send port is created under the **Send Ports** folder in the BizTalk Server Administration console.
 
@@ -54,7 +56,7 @@ manager: "anneta"
 
 9. Click **OK**.
 
-### To configure the BizTalk application
+## Configure the BizTalk application
 
 1. In the BizTalk Server Administration console, expand **BizTalk Group**, expand **Applications**, and expand the BizTalk Application where the orchestration is deployed.
 
