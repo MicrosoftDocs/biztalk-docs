@@ -38,7 +38,7 @@ manager: "anneta"
   
 -   [Publishing WCF Services](../core/publishing-wcf-services.md)  
   
--   [How to Configure a WCF-BasicHttp Receive Location](/previous-versions/)  
+-   [How to Configure a WCF-BasicHttp Receive Location](wcf-basichttp-adapter.md)  
   
 -   [How to Configure a WCF-WSHttp Receive Location](../core/how-to-configure-a-wcf-wshttp-receive-location.md)  
   
