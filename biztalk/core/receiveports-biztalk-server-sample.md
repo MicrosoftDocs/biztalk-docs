@@ -22,7 +22,7 @@ The ReceivePorts sample demonstrates how to create a new receive port by using t
 
 - You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.
 
-- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information see [Examining the Execution Policy](/previous-versions//bb648601(v=vs.85)).
+- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information, see [about_Execution_Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 
 ## What This Sample Does
  This sample demonstrates using the **BtsCatalogExplorer** and **ReceivePort** classes from the **Microsoft.BizTalk.ExplorerOM** namespace to add a new receive port to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. The sample is written in Microsoft [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)]. A Windows PowerShell example script is also included in this topic. The sample demonstrates the following operations:
@@ -48,15 +48,13 @@ The ReceivePorts sample demonstrates how to create a new receive port by using t
 |             ReceivePorts.cs              | [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] source file for operations demonstrated in this sample. |
 | ReceivePorts.sln and ReceivePorts.csproj |                                  Solution and project file for the sample.                                   |
 
-## Building and Running This Sample
-
-#### To build this sample
+## Build this sample
 
 1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file ReceivePorts.sln.
 
 2. On the **Build** menu, click **Build Solution**.
 
-#### To run this sample
+## Run this sample
 
 1.  Open a command window and navigate to the following folder:
 
