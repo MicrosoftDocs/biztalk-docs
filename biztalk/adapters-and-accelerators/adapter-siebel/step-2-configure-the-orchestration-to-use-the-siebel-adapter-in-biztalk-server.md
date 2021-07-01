@@ -74,7 +74,7 @@ manager: "anneta"
 
    4. Click **OK**.
 
-      For more information about configuring an application, see "How to Configure an Application" at [https://go.microsoft.com/fwlink/?LinkId=102360](/previous-versions/).
+      For more information on configuring apps in BizTalk Server, see [How to Configure an Application](../../core/how-to-configure-an-application.md).
 
 ## Next Steps
  You have now completed migration of your vPrev BizTalk project to a BizTalk project that sends messages to the Siebel system using the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]. You must now test the migrated BizTalk application by sending a request message to invoke the Insert operation on the Account business component, as described in [Step 3: Test the Migrated Application with the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/step-3-test-the-migrated-application-with-the-siebel-adapter.md).
