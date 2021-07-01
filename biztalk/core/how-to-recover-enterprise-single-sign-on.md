@@ -28,7 +28,7 @@ Before you can recover BizTalk Server, you must first recover Enterprise Single 
   
 -   The backup master secret file is intact and stored in a safe place.  
   
-### To recover Enterprise Single Sign-On  
+## Recover Enterprise Single Sign-On  
   
 1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Configuration**.  
   
@@ -67,4 +67,4 @@ Before you can recover BizTalk Server, you must first recover Enterprise Single 
   
 ## See Also  
  [Recovering a Computer Running BizTalk Server](../core/recovering-a-computer-running-biztalk-server.md)   
- [Configuring Enterprise SSO Using the BizTalk Server Configuration](/previous-versions/)
+ [Configuring Enterprise SSO Using the BizTalk Server Configuration](../install-and-config-guides/configure-biztalk-server.md)
