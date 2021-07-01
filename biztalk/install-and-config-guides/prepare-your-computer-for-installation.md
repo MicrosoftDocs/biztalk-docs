@@ -127,11 +127,11 @@ Also consider the following:
 -   The BizTalk Server runtime requires .NET Framework 4.5. The .NET Framework 3.0 is required if the Windows Communication Foundation (WCF) adapter or WCF Interceptor is installed.
 
 ##  <a name="BKMK_SQL"></a> Install SQL Server
- Install [SQL Server 2008 R2](https://msdn.microsoft.com/library/bb500395\(v=sql.105\).aspx)
+ Install [SQL Server 2008 R2](/sql/sql-server/sql-server-2008-r2-sp2-release-notes)
 
- Install [SQL Server 2012](https://msdn.microsoft.com/library/bb500469\(v=sql.110\).aspx)
+ Install [SQL Server 2012](/sql/sql-server/sql-server-2012-release-notes)
 
- Install [SQL Server 2014](https://msdn.microsoft.com/library/bb500469\(v=sql.120\).aspx)
+ Install [SQL Server 2014](/sql/sql-server/sql-server-2014-release-notes)
 
  When you install SQL Server, select the following features:
 
@@ -163,7 +163,7 @@ Also consider the following:
 
 - BizTalk Server supports all case-sensitive and case-insensitive SQL Server collations except for binary collations. Binary collations are not supported.
 
-- For optimal performance, Microsoft recommends using the Enterprise Edition of SQL Server. See [SQL Server 2008 R2 Editions](https://msdn.microsoft.com/library/cc645993\(v=sql.105\).aspx), [SQL Server 2012 Editions](https://msdn.microsoft.com/library/cc645993\(v=sql.110\).aspx), or [SQL Server 2014 Editions](https://msdn.microsoft.com/library/cc645993\(v=sql.120\).aspx).
+- For optimal performance, Microsoft recommends using the Enterprise Edition of SQL Server. 
 
 - Service packs and Windows Updates are supported and should be installed.
 
@@ -215,9 +215,7 @@ Also consider the following:
  BAM Alerts with SQL Server 2012 and newer versions use Database Mail in SQL Server. BAM Alerts with SQL Server 2008 R2 and older versions use SQL Notification Services. Before installing or configuring BAM Alerts, you must configure the Notification Services or Database Mail in SQL Server.
 
 ###  <a name="BKMK_DBMail"></a> BAM Alerts using SQL Server 2012/2014
- Configure [SQL Server 2012 Database Mail](https://msdn.microsoft.com/library/hh245116\(v=sql.110\).aspx).
-
- Configure [SQL Server 2014 Database Mail](https://msdn.microsoft.com/library/hh245116\(v=sql.120\).aspx).
+ Configure [SQL Server Database Mail](/sql/relational-databases/database-mail/database-mail).
 
  **Additional**
 
@@ -352,10 +350,11 @@ Also consider the following:
 -   BizTalk Server setup keeps a record of events in the Application Event Log. Depending on the BizTalk Server features installed, the amount of space required in the log may exceed its limit. If the application event log runs out of space during BizTalk Server setup, the installation fails. Changing the Application Event Log settings prevents this failure.
 
 ## Next
- [Choose BizTalk Server Features and Components](/previous-versions/)
+
+[Install BizTalk Server 2013 and 2013 R2](install-biztalk-server-2013-and-2013-r2.md)
 
 ## See Also
- [Installation Overview for BizTalk Server 2013 and 2013 R2](/previous-versions/)
+ 
  [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md)
  [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)
  [Appendix C: Redistributable CAB Files](../install-and-config-guides/appendix-c-redistributable-cab-files.md)
