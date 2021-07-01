@@ -120,11 +120,11 @@ To deploy an adapter, you must install the adapter assembly into the global asse
   
 3. Close and save the machine.config file.  
   
-   You can also use the [Service Configuration Editor](https://msdn.microsoft.com/library/ms732009.aspx) to modify the machine.config file.
+   You can also use the [Service Configuration Editor](/dotnet/framework/wcf/configuration-editor-tool-svcconfigeditor-exe) to modify the machine.config file.
   
 #### Edit the machine.config file using the Service Configuration Editor  
   
-1.  Open the **Service Configuration Editor**. See [Service Configuration Editor](https://msdn.microsoft.com/library/ms732009.aspx) for  more information.
+1.  Open the **Service Configuration Editor**. See [Service Configuration Editor](/dotnet/framework/wcf/configuration-editor-tool-svcconfigeditor-exe) for  more information.
   
 2.  In the tree view pane (labeled **Configuration**), expand the node tree. Click the **Advanced** folder, click the **Extensions** folder, and then select the binding extensions element.  
   

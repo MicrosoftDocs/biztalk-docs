@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Receive SQL Query Notifications using BizTalk Server
-You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive notification messages for SQL Server tables or views. You can specify a SQL statement that the adapter uses to register for notifications with SQL Server. The notification statement can be a SELECT statement or a stored procedure that returns a result set. For more information about query notifications, see “Using Query Notifications” at  [https://go.microsoft.com/fwlink/?LinkId=122159](https://go.microsoft.com/fwlink/?LinkId=122159). For information about queries that can be used for query notifications, see “Creating a Query for Notification” at [https://go.microsoft.com/fwlink/?LinkId=122160](https://go.microsoft.com/fwlink/?LinkId=122160).
+You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive notification messages for SQL Server tables or views. You can specify a SQL statement that the adapter uses to register for notifications with SQL Server. The notification statement can be a SELECT statement or a stored procedure that returns a result set. For more information about query notifications, see “Using Query Notifications” at  [https://go.microsoft.com/fwlink/?LinkId=122159](/previous-versions/sql/sql-server-2008-r2/ms175110(v=sql.105)). For information about queries that can be used for query notifications, see “Creating a Query for Notification” at [https://go.microsoft.com/fwlink/?LinkId=122160](/previous-versions/sql/sql-server-2008-r2/ms181122(v=sql.105)).
 
  Receiving query notifications from SQL Server is similar to polling SQL Server, with a few key differences. For the list of differences, see [Considerations Receiving Query Notifications Using the SQL adapter](../../adapters-and-accelerators/adapter-sql/considerations-for-receiving-query-notifications-using-the-sql-adapter.md).
 
@@ -38,7 +38,7 @@ You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-
 
 - You must ensure that the adapter client has the necessary permissions to execute commands to request notification.
 
-  For more information about these tasks, see “Enabling Query Notifications” at [https://go.microsoft.com/fwlink/?LinkID=122323](https://go.microsoft.com/fwlink/?LinkID=122323).
+  For more information about these tasks, see “Enabling Query Notifications” at [https://go.microsoft.com/fwlink/?LinkID=122323](/dotnet/framework/data/adonet/sql/enabling-query-notifications).
 
 ## In This Section
 

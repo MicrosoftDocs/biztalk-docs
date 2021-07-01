@@ -136,7 +136,7 @@ Salary = 500000
   
     -   Copy the request message, InsertRequest.xml, at the same location as your project executable. Typically, this location is \bin\Debug\ under your project directory.  
   
-    -   The "Employee" table used in this example has a column of Point user-defined type (UDT). So, before running the project, you must create the assembly for the Point UDT as described at [Creating User-Defined Types](https://docs.microsoft.com/sql/relational-databases/clr-integration-database-objects-user-defined-types/creating-user-defined-types). You must also copy the assembly DLL at the same location as the project executable. Typically, this location is \bin\Debug\ under your project directory.  
+    -   The "Employee" table used in this example has a column of Point user-defined type (UDT). So, before running the project, you must create the assembly for the Point UDT as described at [Creating User-Defined Types](/sql/relational-databases/clr-integration-database-objects-user-defined-types/creating-user-defined-types). You must also copy the assembly DLL at the same location as the project executable. Typically, this location is \bin\Debug\ under your project directory.  
   
 11. Run the application. The response message, Response.xml, is saved at the location you specified in the application. The response message contains the ID of the newly added employee and resembles the following:  
   

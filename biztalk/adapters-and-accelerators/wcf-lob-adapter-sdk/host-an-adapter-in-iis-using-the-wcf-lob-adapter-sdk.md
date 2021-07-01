@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Host an adapter in IIS using the WCF LOB Adapter SDK
-This section contains information about hosting an adapter built by using the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] in Internet Information Services (IIS). For more information about other hosting options, see [Hosting Services](https://msdn.microsoft.com/library/ms730158.aspx).
+This section contains information about hosting an adapter built by using the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] in Internet Information Services (IIS). For more information about other hosting options, see [Hosting Services](/dotnet/framework/wcf/hosting-services).
 
 ## Use IIS and ASP.NET
  You can use IIS with ASP.NET enabled to publish adapters created with the WCF LOB Adapter SDK. To host an adapter created by the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], you configure Internet Information Services (IIS) for publishing WCF services. Next, consider how to use your WCF adapterwith ASP.NET.
@@ -25,11 +25,11 @@ This section contains information about hosting an adapter built by using the [!
 
  ASP.NET compatibility mode allows the WCF service to use all the features of ASP.NET, and to behave the same as an ASPX page; however, you must take additional steps when creating your WCF adapter to enable this functionality. For more information, see:
 
- [WCF Services and ASP.NET](https://msdn.microsoft.com/library/aa702682.aspx)
+ [WCF Services and ASP.NET](/dotnet/framework/wcf/feature-details/wcf-services-and-aspnet)
 
-[Hosting in Internet Information Services](https://msdn.microsoft.com/library/ms734710.aspx)
+[Hosting in Internet Information Services](/dotnet/framework/wcf/feature-details/hosting-in-internet-information-services)
 
-[WCF Hosting Services](https://msdn.microsoft.com/library/ms730158.aspx)
+[WCF Hosting Services](/dotnet/framework/wcf/hosting-services)
 
 ## Use the WCF Adapter Service Development Wizard
 
@@ -92,8 +92,8 @@ Use the [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)] to aut
        |--------------|-----------------|
        |**Name**|The name of the endpoint behavior|
        |**AuthenticationType**|This value instructs the adapter where to obtain the client credentials of the incoming document. To enable clients to specify a client certificate to authenticate to the service, set this to **ClientCredentialUsernamePassword**. To enable clients to specify the user name and password as part of the HTTP header, set this to **HTTPUsernamePassword**. To enable clients to specify credentials through the ClientCredential interface, set this to **Auto**. If this fails, clients can pass credentials as part of the HTTP header.<br /><br /> This value can also be set by modifying \<**endpointBehavior adapterSecurityBridgeType**\> in web.config. Default is **Auto**.|
-       |**UsernameHeader**|This specifies the name of the header that will be used to pass the user name to the service. For more information about HTTP headers, see “Support for Custom HTTP and SOAP headers” at [https://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> This value can also be set by modifying \<**endpointBehavior usernameHttpHeader**\> in web.config. **Note:**  You must specify a value for this property if the **AuthenticationType** is set to **HTTPUserNamePassword**.  If set to **Auto**, this property is optional.|
-       |**PasswordHeader**|This specifies the name of the header that will be used to pass the user password to the service. For more information about HTTP headers, see “Support for Custom HTTP and SOAP Headers” at [https://go.microsoft.com/fwlink/?LinkId=106692](https://go.microsoft.com/fwlink/?LinkId=106692)<br /><br /> This value can also be set by modifying <**endpointBehavior passwordHttpHeader**< in web.config. **Note:**  You must specify a value for this property if the **AuthenticationType** is set to **HTTPUserNamePassword**. If set to **Auto**, this property is optional.|
+       |**UsernameHeader**|This specifies the name of the header that will be used to pass the user name to the service. For more information about HTTP headers, see “Support for Custom HTTP and SOAP headers” at [https://go.microsoft.com/fwlink/?LinkId=106692](/previous-versions/office/developer/sharepoint-2010/bb802855(v=office.14))<br /><br /> This value can also be set by modifying \<**endpointBehavior usernameHttpHeader**\> in web.config. **Note:**  You must specify a value for this property if the **AuthenticationType** is set to **HTTPUserNamePassword**.  If set to **Auto**, this property is optional.|
+       |**PasswordHeader**|This specifies the name of the header that will be used to pass the user password to the service. For more information about HTTP headers, see “Support for Custom HTTP and SOAP Headers” at [https://go.microsoft.com/fwlink/?LinkId=106692](/previous-versions/office/developer/sharepoint-2010/bb802855(v=office.14))<br /><br /> This value can also be set by modifying <**endpointBehavior passwordHttpHeader**< in web.config. **Note:**  You must specify a value for this property if the **AuthenticationType** is set to **HTTPUserNamePassword**. If set to **Auto**, this property is optional.|
 
    3.  After setting the desired behavior, click **Next** to continue.
 

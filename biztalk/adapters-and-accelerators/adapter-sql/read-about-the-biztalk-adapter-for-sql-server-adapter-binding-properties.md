@@ -107,7 +107,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces several bin
 
 #### WorkstationId
 **Category**: Connection  
-**Description**: Specifies a unique ID for the workstation (client computer) that connects to the SQL Server database using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. The value for this binding property, if specified, is used for the **Workstation ID** keyword of SqlConnection.ConnectionString property. For more information, see [SqlConnection.ConnectionString Property](https://docs.microsoft.com/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?redirectedfrom=MSDN&view=netframework-4.7.2#System_Data_SqlClient_SqlConnection_ConnectionString).  
+**Description**: Specifies a unique ID for the workstation (client computer) that connects to the SQL Server database using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. The value for this binding property, if specified, is used for the **Workstation ID** keyword of SqlConnection.ConnectionString property. For more information, see [SqlConnection.ConnectionString Property](/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=netframework-4.7.2#System_Data_SqlClient_SqlConnection_ConnectionString).  
 **.NET Type**: string
 
 #### EnablePerformanceCounters
@@ -141,7 +141,7 @@ Notice that the database name is included in the namespace when the binding prop
 **Description**: Specifies whether the adapter can insert values for identity columns during Insert and Update operations. Set this property to **True** to insert or update values for identity columns. Otherwise set this to **False** (default).
 
 > [!NOTE]
-> Setting this property to **True** translates to the adapter using `SET IDENTITY_INSERT <table_name> ON`. For more information, see [SET IDENTITY_INSERT (Transact-SQL)](https://docs.microsoft.com/sql/t-sql/statements/set-identity-insert-transact-sql?view=sql-server-2017). 
+> Setting this property to **True** translates to the adapter using `SET IDENTITY_INSERT <table_name> ON`. For more information, see [SET IDENTITY_INSERT (Transact-SQL)](/sql/t-sql/statements/set-identity-insert-transact-sql?view=sql-server-2017). 
 
 While using this binding property, you must consider the following points:
 

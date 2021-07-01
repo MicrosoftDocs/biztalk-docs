@@ -89,7 +89,7 @@ ErrorCode:5
   
  **Cause**  
   
- You might have specified database credentials to connect to the SQL Server database. To perform FILESTREAM operations, you must always use Windows Authentication. The error code “5” denotes that access is denied because of incorrect credentials. For more information about the different error codes, see [System Error Codes (0-499)](https://msdn.microsoft.com/library/ms681382(VS.85).aspx).
+ You might have specified database credentials to connect to the SQL Server database. To perform FILESTREAM operations, you must always use Windows Authentication. The error code “5” denotes that access is denied because of incorrect credentials. For more information about the different error codes, see [System Error Codes (0-499)](/windows/win32/debug/system-error-codes--0-499-).
   
  **Resolution**  
   
@@ -106,7 +106,7 @@ ErrorCode:5
   
  **Resolution**  
   
- If you want to poll a table that is being updated as part of another transaction, you can consider using “with (nolock)” parameter as part of the query specified for PolledDataAvailableStatement binding property to ensure that data is returned even if a lock is imposed by the other transaction. For more information, see [SQL Locking in the Database Engine](https://msdn.microsoft.com/library/ms190615.aspx).
+ If you want to poll a table that is being updated as part of another transaction, you can consider using “with (nolock)” parameter as part of the query specified for PolledDataAvailableStatement binding property to ensure that data is returned even if a lock is imposed by the other transaction. For more information, see [SQL Locking in the Database Engine](/previous-versions/sql/sql-server-2008-r2/ms190615(v=sql.105)).
   
 ###  <a name="BKMK_SQLSingleOp"></a> The adapter fails to insert, update, or delete large volumes of data in a single operation using BizTalk Server  
  **Problem**  
