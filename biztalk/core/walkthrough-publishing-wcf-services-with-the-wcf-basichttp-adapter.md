@@ -82,7 +82,7 @@ manager: "anneta"
 
    2.  Make sure that the **Application Name** property is set to **WCFBasicHttpReceiveAdapter**. This is name of the BizTalk application where the BizTalk solution will be deployed.
 
-   3.  In Solution Explorer, right-click **BizTalkApp**, and then click **Deploy**. If not deploying locally you may need to configure SQL Server to allow remote connections. For more information, see [https://go.microsoft.com/fwlink/?LinkId=194141](/previous-versions//dd857537(v=vs.85)).
+   3.  In Solution Explorer, right-click **BizTalkApp**, and then click **Deploy**. If not deploying locally you may need to configure SQL Server to allow remote connections. For more information, see [https://go.microsoft.com/fwlink/?LinkId=194141](/previous-versions/dd857537(v=vs.85)).
 
 ### To publish the sample orchestration by using the BizTalk WCF Service Publishing Wizard
 
