@@ -21,7 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Designing with Patterns: the Service Oriented Solution
-The service-oriented solution shows how to expose a BizTalk application as a service for use by other applications. Presenting an application as a service enables other applications to easily consume the information and use it in the services that they provide. For more information about service interfaces see "Service Interface" at [https://go.microsoft.com/fwlink/?LinkId=46185](/documentation/). For more information about service-oriented integration see "Service-Oriented Integration" at [https://go.microsoft.com/fwlink/?LinkId=46186](/documentation/).
+The service-oriented solution shows how to expose a BizTalk application as a service for use by other applications. Presenting an application as a service enables other applications to easily consume the information and use it in the services that they provide.
 
  The solution is a credit information application that provides the information as a Web service response, after aggregating relevant information from three other applications. The application consolidates the results and returns a single message containing the summarized credit information. The three back-end systems are as follows:
 
