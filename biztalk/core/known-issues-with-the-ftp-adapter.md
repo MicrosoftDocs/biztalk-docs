@@ -68,5 +68,5 @@ This section contains information that may help you avoid errors.
  No action is required; this behavior is by design.  
   
 ## See Also  
- [Configure an FTP Receive Location](configuring-the-ftp-adapter.md/)   
+ [Configure an FTP Receive Location](configuring-the-ftp-adapter.md)   
  [Troubleshooting the FTP Adapter](../core/troubleshooting-the-ftp-adapter.md)
