@@ -57,7 +57,7 @@ When you use the Business Rule Composer tool to test a policy that requires a Da
   
 1.  Create a fact retriever component that creates and asserts a DataConnection object into the rule engine's working memory. For more information about how to create a fact retriever component, see [How to Create a Fact Retriever](../core/how-to-create-a-fact-retriever.md).  
   
-2.  Implement the [IFactRemover](/previous-versions/) interface on fact retriever component, and commit the database changes from the [UpdateFactsAfterExecution](/previous-versions/) method. This method is called by the rule engine after it is done with executing the policy.  
+2.  Implement the [IFactRemover](/dotnet/api/microsoft.ruleengine.ifactremover) interface on fact retriever component, and commit the database changes from the [UpdateFactsAfterExecution](/dotnet/api/microsoft.ruleengine.ifactremover.updatefactsafterexecution) method. This method is called by the rule engine after it is done with executing the policy.  
   
 3.  Configure the policy to use the fact retriever component by using the Business Rule Composer tool. For more information, see [How to Configure a Fact Retriever for a Policy](../core/how-to-configure-a-fact-retriever-for-a-policy.md).  
   
