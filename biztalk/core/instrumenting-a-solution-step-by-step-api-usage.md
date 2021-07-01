@@ -18,7 +18,7 @@ manager: "anneta"
 # Instrumenting a Solution: Step-by-Step API Usage
 This topic describes how to instrument an application using the key BAM API class. In the following code snippets we have simplified the sample code by using constants and by using the minimum code necessary to instrument an application.  
   
- The following code snippet demonstrates how you create a new [Microsoft.BizTalk.Bam.EventObservation.EventStream](/previous-versions/) object, specifically a [Microsoft.BizTalk.Bam.EventObservation.DirectEventStream](/previous-versions/). In this snippet, the first parameter specifies the connection string to the data store of the BAM Primary Import database and the second parameter specifies the frequency with which the events are written to the data store.  
+ The following code snippet demonstrates how you create a new [Microsoft.BizTalk.Bam.EventObservation.EventStream](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream) object, specifically a [Microsoft.BizTalk.Bam.EventObservation.DirectEventStream](/dotnet/api/microsoft.biztalk.bam.eventobservation.directeventstream). In this snippet, the first parameter specifies the connection string to the data store of the BAM Primary Import database and the second parameter specifies the frequency with which the events are written to the data store.  
   
 > [!NOTE]
 >  BAM supports connections only to [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] data stores. The sample connection string represents the minimal connection string required to establish a connection. Your configuration may require additional parameters to be specified in the connection string.  
@@ -36,11 +36,11 @@ EventStream es =
    new DirectEventStream(connBAMPIT, flushThreshold);  
 ```  
   
- Once the [Microsoft.BizTalk.Bam.EventObservation.EventStream](/previous-versions/) object has been created, you can begin the activity and start updating the activity table with the collected milestones and data. When the BAM activity was deployed, five tables were created in the BAM Primary Import database. For more information about the development process, see [Overview of the BAM Development Process](../core/overview-of-the-bam-development-process.md).  
+ Once the [Microsoft.BizTalk.Bam.EventObservation.EventStream]/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream) object has been created, you can begin the activity and start updating the activity table with the collected milestones and data. When the BAM activity was deployed, five tables were created in the BAM Primary Import database. For more information about the development process, see [Overview of the BAM Development Process](../core/overview-of-the-bam-development-process.md).  
   
- Calling the [Microsoft.BizTalk.Bam.EventObservation.EventStream.BeginActivity](/previous-versions/) method adds a record to the bam_ PurchaseOrder_Activity table. The first parameter contains the name of the activity being updated and the second parameter contains an identifier for this instance of the activity. The identifier can be any string, but it must be unique in the record set for the activity.  
+ Calling the [Microsoft.BizTalk.Bam.EventObservation.EventStream.BeginActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.beginactivity) method adds a record to the bam_ PurchaseOrder_Activity table. The first parameter contains the name of the activity being updated and the second parameter contains an identifier for this instance of the activity. The identifier can be any string, but it must be unique in the record set for the activity.  
   
- At this point the record does not contain any data. The [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](/previous-versions/) method updates the record with the captured event data. Once again you specify an activity and the activity instance identifier. You pass the [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](/previous-versions/) method name value pairs of data items and milestones you defined in the activity. For example, our activity defined a milestone MS_Received. When the activity was deployed, a column in the bam_ PurchaseOrder_Activity table was created for the milestone. The call to the [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](/previous-versions/) method specifies the name value pair of MS_Received and DateTime.UtcNow to update the activity with received date for the purchase order.  
+ At this point the record does not contain any data. The [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.updateactivity) method updates the record with the captured event data. Once again you specify an activity and the activity instance identifier. You pass the [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.updateactivity) method name value pairs of data items and milestones you defined in the activity. For example, our activity defined a milestone MS_Received. When the activity was deployed, a column in the bam_ PurchaseOrder_Activity table was created for the milestone. The call to the [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.updateactivity) method specifies the name value pair of MS_Received and DateTime.UtcNow to update the activity with received date for the purchase order.  
   
 ```  
 // When a purchase order is received, you call the  
@@ -55,17 +55,17 @@ es.UpdateActivity ("PurchaseOrder", "PO123",
   
  In this sample we continue to a second activity. For more information about continuations, see [Activity Continuation](../core/activity-continuation.md).  
   
- To enable other instrumented applications to update the PurchaseOrder activity, you include a call to the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EnableContinuation](/previous-versions/) method. The call specifies the activity to which other applications can contribute, the identifier for the instance of the activity being tracked, and the continuation token that other applications will use to update the activity. A record is written to the bam_ PurchaseOrder_continuations table to track the status of the continuation. If the activity continues to other processes, a record is written for each call to the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EnableContinuation](/previous-versions/) method with a unique continuation token.  
+ To enable other instrumented applications to update the PurchaseOrder activity, you include a call to the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EnableContinuation](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.enablecontinuation) method. The call specifies the activity to which other applications can contribute, the identifier for the instance of the activity being tracked, and the continuation token that other applications will use to update the activity. A record is written to the bam_ PurchaseOrder_continuations table to track the status of the continuation. If the activity continues to other processes, a record is written for each call to the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EnableContinuation](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.enablecontinuation) method with a unique continuation token.  
   
 > [!IMPORTANT]
->  Every code segment in a continuation scenario must have its own [Microsoft.BizTalk.Bam.EventObservation.EventStream.EndActivity](/previous-versions/) method call. Failing to do so will result in a dangling/orphaned activity record.  
+>  Every code segment in a continuation scenario must have its own [Microsoft.BizTalk.Bam.EventObservation.EventStream.EndActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.endactivity) method call. Failing to do so will result in a dangling/orphaned activity record.  
 >   
->  However, only the first segment (that uses the actual activity ID) has the [Microsoft.BizTalk.Bam.EventObservation.EventStream.BeginActivity](/previous-versions/) method; all the other segments (that use their own unique token ID) must not call the [Microsoft.BizTalk.Bam.EventObservation.EventStream.BeginActivity](/previous-versions/) method.  
+>  However, only the first segment (that uses the actual activity ID) has the [Microsoft.BizTalk.Bam.EventObservation.EventStream.BeginActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.beginactivity) method; all the other segments (that use their own unique token ID) must not call the [Microsoft.BizTalk.Bam.EventObservation.EventStream.BeginActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.beginactivity) method.  
   
- After the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EnableContinuation](/previous-versions/) method is called, other components can update the purchase order activity using [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](/previous-versions/) specifying the continuation token instead of the activity ID. When the other components have completed their tasks, each of the components must call [Microsoft.BizTalk.Bam.EventObservation.EventStream.EndActivity](/previous-versions/) with the continuation token to inform the BAM infrastructure that no more events are expected.  
+ After the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EnableContinuation](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.enablecontinuation) method is called, other components can update the purchase order activity using [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.updateactivity) specifying the continuation token instead of the activity ID. When the other components have completed their tasks, each of the components must call [Microsoft.BizTalk.Bam.EventObservation.EventStream.EndActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.endactivity) with the continuation token to inform the BAM infrastructure that no more events are expected.  
   
 > [!IMPORTANT]
->  Once the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EnableContinuation](/previous-versions/) method is called, it is possible for an activity to become orphaned if the process in which the activity is continued never calls an [Microsoft.BizTalk.Bam.EventObservation.EventStream.EndActivity](/previous-versions/) method with the continuation token.  
+>  Once the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EnableContinuation](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.enablecontinuation) method is called, it is possible for an activity to become orphaned if the process in which the activity is continued never calls an [Microsoft.BizTalk.Bam.EventObservation.EventStream.EndActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.endactivity) method with the continuation token.  
   
 ```  
 // Continue the activity to the next process that has been  
@@ -73,17 +73,17 @@ es.UpdateActivity ("PurchaseOrder", "PO123",
 es.EnableContinuation("PurchaseOrder", “PO123”, “AP123”);  
 ```  
   
- Finally, the activity is finalized by calling the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EndActivity](/previous-versions/) method specifying the activity name and the activity identifier. If there are no unfinished continuations, the activity is moved to the bam_ PurchaseOrder _completed table. It is possible for activities to become orphaned if continuation activities fail to complete.  
+ Finally, the activity is finalized by calling the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EndActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.endactivity) method specifying the activity name and the activity identifier. If there are no unfinished continuations, the activity is moved to the bam_ PurchaseOrder _completed table. It is possible for activities to become orphaned if continuation activities fail to complete.  
   
 ```  
 // Activity from this segment (PO submission) is completed  
 es.EndActivity("PurchaseOrder", “PO123”);  
 ```  
   
- When the activity continues to separate process, the application is instrumented to update the activity table by calling [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](/previous-versions/) specifying the activity name and the continuation token declared in the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EnableContinuation](/previous-versions/) method call.  
+ When the activity continues to separate process, the application is instrumented to update the activity table by calling [Microsoft.BizTalk.Bam.EventObservation.EventStream.UpdateActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.updateactivity) specifying the activity name and the continuation token declared in the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EnableContinuation](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.enablecontinuation) method call.  
   
 > [!NOTE]
->  The process handling the continued activity does not call the [Microsoft.BizTalk.Bam.EventObservation.EventStream.BeginActivity](/previous-versions/) method. The [Microsoft.BizTalk.Bam.EventObservation.EventStream.BeginActivity](/previous-versions/) method creates an instance of the activity by creating the tables in the BAM Primary Import database. The process to which the activity is continued is updating the instance of the already existing activity.  
+>  The process handling the continued activity does not call the [Microsoft.BizTalk.Bam.EventObservation.EventStream.BeginActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.beginactivity) method. The [Microsoft.BizTalk.Bam.EventObservation.EventStream.BeginActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.beginactivity) method creates an instance of the activity by creating the tables in the BAM Primary Import database. The process to which the activity is continued is updating the instance of the already existing activity.  
   
 ```  
 // update when the order is approved  
@@ -97,7 +97,7 @@ es.UpdateActivity ("PurchaseOrder", “AP123”,
   
  Part of the workflow for this sample the code specifies a reference, in this case a specific type of reference - a related activity. By specifying a related activity you create a link from your primary activity to other activities that are of interest to a user viewing the activity in the BAM portal.  
   
- The call to the [Microsoft.BizTalk.Bam.EventObservation.EventStream.AddRelatedActivity](/previous-versions/) method writes a record to the bam_ PurchaseOrder_ActiveRelationships linking the activities.  
+ The call to the [Microsoft.BizTalk.Bam.EventObservation.EventStream.AddRelatedActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.addrelatedactivity) method writes a record to the bam_ PurchaseOrder_ActiveRelationships linking the activities.  
   
 ```  
 // These are shipped in two shipments.  
@@ -110,7 +110,7 @@ es.AddRelatedActivity ("PurchaseOrder", “AP123”,
                        "Shipping", “UPS102”);  
 ```  
   
- To end the continued activity you call the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EndActivity](/previous-versions/) method specifying the continuation token for the continuation that is ending. If there are no other unfinished continuations, the purchase order activity is moved to the completed table.  
+ To end the continued activity you call the [Microsoft.BizTalk.Bam.EventObservation.EventStream.EndActivity](/dotnet/api/microsoft.biztalk.bam.eventobservation.eventstream.endactivity) method specifying the continuation token for the continuation that is ending. If there are no other unfinished continuations, the purchase order activity is moved to the completed table.  
   
 ```  
 // Activity from this segment (ApprovalProcess) is completed  
