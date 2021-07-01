@@ -86,4 +86,4 @@ manager: "anneta"
  For more information about query notification in [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)], see [Receive SQL Query Notifications by Using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-sql-query-notifications-using-biztalk-server.md).
 
 ## See Also
- [What Operations Can be Performed Using the Adapter?](https://msdn.microsoft.com/library/cc185435(v=bts.10).aspx)
+ [What Operations Can be Performed Using the Adapter?](what-operations-are-supported-by-the-sql-adapter.md)
