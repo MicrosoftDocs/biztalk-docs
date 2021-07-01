@@ -22,7 +22,7 @@ If you are using Business Activity Monitoring (BAM), you must back up the BAM po
 
  IIS 7.0 saves configuration settings for both the application pool and web site to a single file, applicationHost.config. The applicationHost.config file is not encrypted, but account passwords, if any, are encrypted in the file. Encryption is performed using the certificate from the computer you are backing up. This configuration cannot be restored to a computer other than the one from which it originated.
 
- You cannot back up the BAM portal configuration using the IIS 7.0 Manager; you must use the **Appcmd.exe** command-line tool. For more information about Appcmd, see [https://go.microsoft.com/fwlink/?LinkId=147497](https://go.microsoft.com/fwlink/?LinkId=147497).
+ You cannot back up the BAM portal configuration using the IIS 7.0 Manager; you must use the **Appcmd.exe** command-line tool. For more information about Appcmd, see [https://go.microsoft.com/fwlink/?LinkId=147497](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772200(v=ws.10)).
 
 ## Prerequisites
  You must be logged on as a member of the Administrators group to perform this procedure.

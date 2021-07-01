@@ -55,7 +55,7 @@ The file mask is a string that specifies the type of file that the File receive 
   Based on the above two settings, 8dot3 name creation is enabled on c:
   ```
     
-  The File adapter uses the [FindFirstFile function](https://msdn.microsoft.com/library/windows/desktop/aa364418(v=vs.85).aspx). This function includes search results that have the short and long file names. To see the short and long file names in a folder, open a command prompt, go to your folder, and type `dir /x`. In a command prompt, you can also type `dir c:\foldername /x`.
+  The File adapter uses the [FindFirstFile function](/windows/win32/api/fileapi/nf-fileapi-findfirstfilea). This function includes search results that have the short and long file names. To see the short and long file names in a folder, open a command prompt, go to your folder, and type `dir /x`. In a command prompt, you can also type `dir c:\foldername /x`.
     
   If you change the 8dot3name setting on a volume, then new files use the new setting. Any existing files keep their names until they are moved. 
     
@@ -142,4 +142,3 @@ The file receive location is a string that contains a path to a folder on a file
 - The file adapter may not have enough operating system resources to process all of the messages in a batch concurrently when running on a non-server operating system like Microsoft Windows Vista.  
   
   The File adapter validates the file path at design time by using the previously mentioned rules. In addition, the File adapter validates the message at run time if the adapter sends the message through a dynamic port with a File adapter.  
-  

@@ -42,7 +42,7 @@ To intercept data in BAM, you must add the BAM interceptor behavior to the Micro
 
 #### To edit the machine.config file using the Service Configuration Editor
 
-1.  Open the Service Configuration Editor. For information about using the Service Configuration Editor, see [https://go.microsoft.com/fwlink/?LinkId=83557](https://go.microsoft.com/fwlink/?LinkId=83557).
+1.  Open the Service Configuration Editor. For information about using the Service Configuration Editor, see [https://go.microsoft.com/fwlink/?LinkId=83557](/dotnet/framework/wcf/configuration-editor-tool-svcconfigeditor-exe).
 
 2.  In the tree view pane (labeled **Configuration**), expand the node tree. Click the **Advanced** folder, click the **Extensions** folder, and then select the **behavior element extensions** element.
 

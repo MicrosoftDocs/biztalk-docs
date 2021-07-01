@@ -52,7 +52,7 @@ manager: "anneta"
 ## Creating an SSO Application in SharePoint
  To access the data in an SAP system from a SharePoint application, you must set up an SSO application that maps a SharePoint user to an SAP user. Creating an SSO application in SharePoint involves the following steps:
 
-1.  **Manage server settings for single sign-on**. In this step, you specify a user account that can manage and set up the single sign-on service. You can do so on the Manage Server Settings page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Configure Single Sign-On for Office SharePoint Server 2007” section at [https://go.microsoft.com/fwlink/?LinkId=105291](https://go.microsoft.com/fwlink/?LinkId=105291).
+1.  **Manage server settings for single sign-on**. In this step, you specify a user account that can manage and set up the single sign-on service. You can do so on the Manage Server Settings page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Configure Single Sign-On for Office SharePoint Server 2007” section at [https://go.microsoft.com/fwlink/?LinkId=105291](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262932(v=office.12)).
 
 2.  **Manage settings for enterprise application definitions**. In this step, you configure the settings for the enterprise application definition. You can do so from the Manage Settings for Enterprise Application Definitions page. This option is available from the SharePoint Central Administration console.
 
@@ -69,14 +69,14 @@ manager: "anneta"
 
     5.  Leave the other fields as default, and click **OK**.
 
-3.  **Manage account information for enterprise application definitions**. In this step, you enable individual users or groups to connect to an enterprise application from SharePoint. Essentially, in this step you map an individual user or group to a user in the LOB system. You also specify the credentials to connect to the LOB system. You can do so from the Manage Account Information for Enterprise Application Definitions page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Manage account information for an enterprise application definition” section at [https://go.microsoft.com/fwlink/?LinkId=105291](https://go.microsoft.com/fwlink/?LinkId=105291).
+3.  **Manage account information for enterprise application definitions**. In this step, you enable individual users or groups to connect to an enterprise application from SharePoint. Essentially, in this step you map an individual user or group to a user in the LOB system. You also specify the credentials to connect to the LOB system. You can do so from the Manage Account Information for Enterprise Application Definitions page. This option is available from the SharePoint Central Administration console. For more information about this step, refer to the “Manage account information for an enterprise application definition” section at [https://go.microsoft.com/fwlink/?LinkId=105291](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262932(v=office.12)).
 
 ## Creating a Shared Services Provider
  A Shared Service Provider is a logical grouping of shared services and their supporting resources. You can create an SSP by using the SharePoint Central Administration console.
 
  You must define a Web site when creating an SSP. Remember the port number and the site address that you create. You will import the Business Data Catalog application definition to this site.
 
- For more information about creating an SSP, see "Chapter overview: Create and configure Shared Services Providers" at [https://go.microsoft.com/fwlink/?LinkId=105119](https://go.microsoft.com/fwlink/?LinkId=105119).
+ For more information about creating an SSP, see "Chapter overview: Create and configure Shared Services Providers" at [https://go.microsoft.com/fwlink/?LinkId=105119](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262914(v=office.12)).
 
 ## Importing the Application Definition File
  You must now import the application definition file into the SSP.
@@ -108,7 +108,7 @@ manager: "anneta"
 
 - **Business Data Related List** Web Part for the **Association** method instance. This Web Part lists the sales orders for a specific customer that you select from the Search Customers Web Part. This Web Part is associated with the Search Customer Web Part.  For this tutorial, this is called the Sales Order Details Web Part.
 
-  This section provides instructions to create these Web Parts and to create associations between them. For more information about creating Web Parts, see "Customize business data lists, Web Parts, and sites" at [https://go.microsoft.com/fwlink/?LinkId=104131](https://go.microsoft.com/fwlink/?LinkId=104131).
+  This section provides instructions to create these Web Parts and to create associations between them. For more information about creating Web Parts, see "Customize business data lists, Web Parts, and sites" at [https://go.microsoft.com/fwlink/?LinkId=104131](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263201(v=office.12)).
 
   The Web Parts will be added to a single Web Part page. You must create a Web Part page before adding the Web Parts. For this tutorial, this Web Part page is called Customer_SalesOrders.
 

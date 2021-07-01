@@ -24,7 +24,7 @@ The CBR sample demonstrates using the **ExplorerOM** administrative objects to a
 
 - You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.
 
-- The Windows PowerShell script example requires the Windows PowerShell execution policy to allow script execution. For more information see: [Examining the Execution Policy](https://go.microsoft.com/fwlink/?LinkId=128930).
+- The Windows PowerShell script example requires the Windows PowerShell execution policy to allow script execution. For more information, see [about_Execution_Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 
 ## What This Sample Does
  This sample demonstrates using the administrative objects in the **Microsoft.BizTalk.ExplorerOM** namespace to add two new ports to the CBRApplication sample. These new ports are example ports for CBRApplication. The ports are configured to route messages to a hypothetical HTTP Web service address by using the HTTP adapter. The sample demonstrates the following operations using the **ExplorerOM** objects:

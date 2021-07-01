@@ -28,7 +28,7 @@ Log shipping provides standby server capabilities to reduce downtime in the even
   
  Log shipping works in both single server and distributed server environments. The server or group of servers that contain live data is known as the source (or primary) system. The server or group of servers that are used to restore the database backups produced by the source (or primary) system is known as the destination (or secondary) system.  
   
- [About Log Shipping](https://docs.microsoft.com/sql/database-engine/log-shipping/about-log-shipping-sql-server) in the SQL documentation provides specific details.  
+ [About Log Shipping](/sql/database-engine/log-shipping/about-log-shipping-sql-server) in the SQL documentation provides specific details.  
   
  You can use the following steps to create a destination system that consists of one server for a single source system. If the destination system contains multiple servers, repeat the steps on each destination server.  
   
@@ -78,7 +78,7 @@ Log shipping provides standby server capabilities to reduce downtime in the even
   
     Then:  
   
-   1.  On the destination system, enable **[Ad Hoc Distributed Queries](https://docs.microsoft.com/sql/database-engine/configure-windows/server-configuration-options-sql-server)**.  
+   1.  On the destination system, enable **[Ad Hoc Distributed Queries](/sql/database-engine/configure-windows/server-configuration-options-sql-server)**.  
   
    2.  In the query window, replace *\<MyLogShippingSolution\>* with a meaningful description, surrounded by single quotes.  
   

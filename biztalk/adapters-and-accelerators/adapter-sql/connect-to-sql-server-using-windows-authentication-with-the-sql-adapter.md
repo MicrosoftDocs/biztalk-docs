@@ -23,7 +23,7 @@ To connect to SQL Server using Windows Authentication within Visual Studio, see 
  To enable adapter clients to use Windows Authentication to connect to SQL Server, enable Windows Authentication for the user on the computer running SQL Server.  
 
 > [!TIP]
-> If SQL Server Management Studio is not installed on your SQL Server, you can [Download SQL Server Management Studio (SSMS)](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms), and install it. 
+> If SQL Server Management Studio is not installed on your SQL Server, you can [Download SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms), and install it. 
  
 ## Add the user in SQL Server  
   
@@ -51,7 +51,7 @@ To connect to SQL Server using Windows Authentication within Visual Studio, see 
 5. In the **Database role membership for** box, select **db_owner** for all the BizTalk databases.  
 
     > [!NOTE]
-    > [Server and Database Roles in SQL Server](https://msdn.microsoft.com/library/bb669065.aspx) provides good info on the roles. 
+    > [Server and Database Roles in SQL Server](/dotnet/framework/data/adonet/sql/server-and-database-roles-in-sql-server) provides good info on the roles. 
   
 6. Select **OK** to save your changes.
   

@@ -84,7 +84,7 @@ Adapter clients can enable diagnostic tracing to effectively diagnose problems e
   </system.serviceModel>  
 ```  
   
- This saves the WCF traces to C:\log\WCFTrace.svclog. [WCF tracing](https://msdn.microsoft.com/library/ms730342.aspx) provides more info.
+ This saves the WCF traces to C:\log\WCFTrace.svclog. [WCF tracing](/dotnet/framework/wcf/diagnostics/tracing/) provides more info.
   
 > [!IMPORTANT]
 >  Make sure you mitigate potential security threats of exposing sensitive business data by enabling tracing. See [Best practices to secure the Siebel adapter](../../adapters-and-accelerators/adapter-siebel/best-practices-to-secure-the-siebel-adapter.md) 
@@ -135,7 +135,7 @@ Adapter clients can enable diagnostic tracing to effectively diagnose problems e
  For more information about this binding property, see [Read about BizTalk Adapter for Siebel Binding Properties](../../adapters-and-accelerators/adapter-siebel/read-about-biztalk-adapter-for-siebel-binding-properties.md).  
   
 ## Viewing the Traces  
- You can use the Windows Communication Foundation (WCF) Service Trace Viewer tool to view the traces. For more information about the tool, see [Using Service Trace Viewer for Viewing Correlated Traces and Troubleshooting](https://msdn.microsoft.com/library/aa751795.aspx).  
+ You can use the Windows Communication Foundation (WCF) Service Trace Viewer tool to view the traces. For more information about the tool, see [Using Service Trace Viewer for Viewing Correlated Traces and Troubleshooting](/dotnet/framework/wcf/diagnostics/tracing/using-service-trace-viewer-for-viewing-correlated-traces-and-troubleshooting).  
   
 ## Configuring Tracking for BizTalk Applications  
  The BizTalk Administration Console enables you to configure various tracking options for things such as send ports, receive ports. The tracking configuration settings enable you to track inbound/outbound event data, message properties, message bodies, and orchestrations. For more information about configuring tracking for BizTalk applications, see [Managing Artifacts](../../core/managing-artifacts.md).

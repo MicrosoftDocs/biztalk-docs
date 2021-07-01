@@ -22,7 +22,7 @@ You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-
   
 - **TypedPolling**. This operation returns a strongly-typed polling message.  
   
-- **XmlPolling**. This operation returns the polling message as an XML message. You must use this operation if you want to use SELECT statements or stored procedures that use the FOR XML clause to return data as XML messages. [FOR XML clause](https://docs.microsoft.com/sql/relational-databases/xml/for-xml-sql-server) provides more info. 
+- **XmlPolling**. This operation returns the polling message as an XML message. You must use this operation if you want to use SELECT statements or stored procedures that use the FOR XML clause to return data as XML messages. [FOR XML clause](/sql/relational-databases/xml/for-xml-sql-server) provides more info. 
   
   For more information about these polling operations, see [Polling in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/polling-in-sql-server-using-the-sql-adapter.md).  
   

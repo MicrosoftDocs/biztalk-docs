@@ -13,15 +13,13 @@ f1_keywords:
 
 # Schema Properties Dialog Box
 
- 
-
 Use the **Schema Properties** window to view detailed properties about the schemas in the project. You can also select properties for tracking and locating messages.
 
 ## General Tab
 
 Schema properties on the **General** tab—typically properties that schemas share with items such as maps and orchestrations—are configured in Microsoft® Visual Studio. The **Description** box is an exception; you can edit it in the **Schema Properties** window.
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -58,10 +56,9 @@ Schema properties on the **General** tab—typically properties that schemas sha
 </tbody>
 </table>
 
-
 ## Schema View Tab
 
-## UIElement List
+The following table lists the UIElements in the **Schema View** tab and what they are used for.
 
 <table>
 <thead>
@@ -78,10 +75,9 @@ Schema properties on the **General** tab—typically properties that schemas sha
 </tbody>
 </table>
 
-
 ## Tracking Tab
 
-## UIElement List
+The following table lists the UIElements in the **Tracking** tab and what they are used for.
 
 <table>
 <thead>
@@ -106,10 +102,8 @@ Schema properties on the **General** tab—typically properties that schemas sha
 </tbody>
 </table>
 
-
 ## See Also
 
 [XML Schemas](https://msdn.microsoft.com/library/aa559121\(v=bts.80\))  
 [Different Types of BizTalk Schemas](https://msdn.microsoft.com/library/aa578053\(v=bts.80\))  
 [Property Schemas](https://msdn.microsoft.com/library/aa561059\(v=bts.80\))
-

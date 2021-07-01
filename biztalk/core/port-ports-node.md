@@ -29,8 +29,8 @@ The port node of a binding file contains specific information about a port or di
 |**Name**|**Node Type**|**Data Type**|**Description**|**Restrictions**|**Comments**|  
 |--------------|-------------------|-------------------|---------------------|----------------------|------------------|  
 |Name|Attribute|xs:string|Specifies the name of the port.|Not required|Default value: empty|  
-|Modifier|Attribute|xs:int|Specifies the type modifier for the port.|Required|Default value: none<br /><br /> Possible values include those available in the [Microsoft.BizTalk.ExplorerOM.PortModifier](https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.portmodifier.aspx) enumeration.|  
-|BindingOption|Attribute|xs:int|Defines the type of binding for the port.|Required|Default value: none<br /><br /> Possible values include those available in the [Microsoft.BizTalk.ExplorerOM.BindingType](https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.bindingtype.aspx) enumeration.|  
+|Modifier|Attribute|xs:int|Specifies the type modifier for the port.|Required|Default value: none<br /><br /> Possible values include those available in the [Microsoft.BizTalk.ExplorerOM.PortModifier](/dotnet/api/microsoft.biztalk.explorerom.portmodifier/) enumeration.|  
+|BindingOption|Attribute|xs:int|Defines the type of binding for the port.|Required|Default value: none<br /><br /> Possible values include those available in the [Microsoft.BizTalk.ExplorerOM.BindingType](/dotnet/api/microsoft.biztalk.explorerom.bindingtype) enumeration.|  
 |[SendPortRef](../core/sendportref-port-node.md)|Record|SendPortRef (ComplexType)|Container node for send ports that is referenced by a service.|Not required|Default value: empty|  
 |[DistributionListRef](../core/distributionlistref-port-node.md)|Record|DistributionListRef (ComplexType)|Container node for distribution lists referenced by a service.|Not required|Default value: empty|  
 |[ReceivePortRef](../core/receiveportref-port-node.md)|Record|ReceivePortRef (ComplexType)|Container node for receive ports referenced by a service.|Not required|Default value: empty|

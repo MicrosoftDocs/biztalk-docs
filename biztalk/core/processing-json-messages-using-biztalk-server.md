@@ -33,7 +33,7 @@ manager: "anneta"
    ![Processing JSON messages in BizTalk Server](../core/media/btsjson-flow.png "BTSJSON_Flow")
 
 ## How to use this tutorial?
- This tutorial is built around a sample (**BTSJSON**) that can be downloaded from the [MSDN Code Gallery](https://go.microsoft.com/fwlink/?LinkId=403197). You could use the sample and go through this tutorial to understand how the sample was built. Or, you could use this tutorial to create your own solution ground-up. This tutorial is targeted towards the second approach so that you understand how this solution was built. Also, as much as possible, the tutorial is consistent with the sample and uses the same names for artifacts (for example, schemas, transforms) as used in the sample.
+ This tutorial is built around a sample (**BTSJSON**) that can be downloaded from the [MSDN Code Gallery](/samples/browse/). You could use the sample and go through this tutorial to understand how the sample was built. Or, you could use this tutorial to create your own solution ground-up. This tutorial is targeted towards the second approach so that you understand how this solution was built. Also, as much as possible, the tutorial is consistent with the sample and uses the same names for artifacts (for example, schemas, transforms) as used in the sample.
 
 ## In This Section
 

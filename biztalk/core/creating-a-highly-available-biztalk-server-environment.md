@@ -53,15 +53,15 @@ This section describes how to provide high availability for the data and communi
 
    This whitepaper describes high availability features that are available with SQL Server 2008.
 
-- **High Availability Solutions Overview**, available at [https://go.microsoft.com/fwlink/?LinkId=130377](https://go.microsoft.com/fwlink/?LinkId=130377).
+- **High Availability Solutions Overview**, available at [https://go.microsoft.com/fwlink/?LinkId=130377](/sql/database-engine/sql-server-business-continuity-dr).
 
    Introduces several high-availability solutions for SQL Server 2008 that improve the availability of servers or databases.
 
-- **Windows Deployment Services Step-by-Step Guide**, available at [https://go.microsoft.com/fwlink/?LinkId=130379](https://go.microsoft.com/fwlink/?LinkId=130379).
+- **Windows Deployment Services Step-by-Step Guide**, available at [https://go.microsoft.com/fwlink/?LinkId=130379](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771670(v=ws.10)).
 
    Contains step-by-step guidance for how to use the Windows Deployment Services role in Windows Server 2008.
 
-- **Windows Server 2003 Deployment Kit: Planning Server Deployments**, available at [https://go.microsoft.com/fwlink/?LinkId=24433](https://go.microsoft.com/fwlink/?LinkId=24433).
+- **Windows Server 2003 Deployment Kit: Planning Server Deployments**, available at [https://go.microsoft.com/fwlink/?LinkId=24433](/previous-versions/windows/it-pro/windows-server-2003/cc783586(v=ws.10)).
 
    This book provides information about planning server storage, and information about designing and deploying file servers, print servers, and terminal servers in medium and large organizations.
 

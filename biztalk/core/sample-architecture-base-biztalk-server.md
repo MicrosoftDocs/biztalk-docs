@@ -52,7 +52,7 @@ This topic discusses the base sample architecture. It describes the components i
 -   **SQL Server.** This server contains the BizTalk databases.
 
     > [!IMPORTANT]
-    >  For failover protection, we recommend that you cluster each BizTalk database. For more information about Microsoft SQL Server failover clustering, see the Microsoft MSDN Web site at [https://go.microsoft.com/fwlink/?LinkID=190216](https://go.microsoft.com/fwlink/?LinkID=190216).
+    >  For failover protection, we recommend that you cluster each BizTalk database. For more information about Microsoft SQL Server failover clustering, see the Microsoft MSDN Web site at [https://go.microsoft.com/fwlink/?LinkID=190216](/previous-versions/sql/sql-server-2008-r2/ms178094(v=sql.105)).
 
     > [!NOTE]
     >  Depending on your performance needs, you might have to separate the BizTalk databases into multiple computers that run SQL Server.

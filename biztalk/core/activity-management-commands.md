@@ -201,7 +201,7 @@ bm.exe delete-index -IndexName:Idx1 -Activity:PO
 bm.exe delete-index -IndexName:Idx2 -Activity:PO -Server:S1 -Database:BamPI1  
 ```  
   
-## set-archive Command  
+## get-archive Command  
  **Usage**  
   
  **bm.exe get-archive -Activity:\<activity\> [-Server:\<server\>] [-Database:\<database\>]**  

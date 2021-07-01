@@ -26,7 +26,7 @@ This topic describes how use the BizTalk Server Administration console or the co
   
  Before removing a BizTalk assembly, bear in mind the following important points:  
   
--   When you remove a BizTalk assembly, the assembly file is not automatically removed from the global assembly cache (GAC) or the local file system, if it exists there. You must manually remove it. For instructions, see [How to Uninstall an Assembly from the GAC](https://msdn.microsoft.com/library/464706a8-f902-4d05-a724-19169facd2b4) and [How to Remove Other Files and Settings for a BizTalk Application](../core/how-to-remove-other-files-and-settings-for-a-biztalk-application.md).  
+-   When you remove a BizTalk assembly, the assembly file is not automatically removed from the global assembly cache (GAC) or the local file system, if it exists there. You must manually remove it. For instructions, see [How to Uninstall an Assembly from the GAC](/dotnet/framework/app-domains/how-to-remove-an-assembly-from-the-gac) and [How to Remove Other Files and Settings for a BizTalk Application](../core/how-to-remove-other-files-and-settings-for-a-biztalk-application.md).  
   
 -   If you remove a BizTalk assembly that includes a pipeline, any send ports in the same application that use the pipeline will be reset to use the default, PassThruTransmit pipeline.  
   
@@ -35,9 +35,7 @@ This topic describes how use the BizTalk Server Administration console or the co
 ## Prerequisites  
  To perform the procedures in this topic, you must be logged on with an account that is a member of the BizTalk Server Administrators group. For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
-## To remove a BizTalk assembly from an application  
-  
-#### Using the BizTalk Server Administration console  
+## Remove a BizTalk assembly from an app using BizTalk Server Administration  
   
 1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
@@ -45,7 +43,7 @@ This topic describes how use the BizTalk Server Administration console or the co
   
 3. Click the **Resources** folder, right-click the BizTalk assembly, and then click **Remove**.  
   
-#### Using the command line  
+## Remove a BizTalk assembly from an app using the command line  
   
 1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   

@@ -227,7 +227,8 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
  You must now build the BizTalk solution and deploy it to a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. For more information, see [Building and Running Orchestrations](../../core/building-and-running-orchestrations.md).
 
 ## Configuring the BizTalk Application
- After you have deployed the BizTalk project, the orchestration you created earlier is listed under the **Orchestrations** pane in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. You must use the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to configure the application. For a walkthrough, see [Walkthrough: Deploying a Basic BizTalk Application](Walkthrough:%20Deploying%20a%20Basic%20BizTalk%20Application.md).
+
+After you have deployed the BizTalk project, the orchestration you created earlier is listed under the **Orchestrations** pane in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. You must use the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to configure the application. For a walkthrough, see [Walkthrough: Deploying a Basic BizTalk Application](../../core/walkthrough-deploying-a-basic-biztalk-application.md).
 
  Configuring an application involves:
 
@@ -243,7 +244,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
     |Binding Property|Value|
     |----------------------|-----------|
     |**InboundOperationType**|Set this to **Notification**.|
-    |**NotificationPort**|Specifies the port number that ODP.NET must open to listen for database change notification from Oracle database. Set this to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](https://go.microsoft.com/fwlink/?LinkID=196959).<br /><br /> **Important** If you set this to the default value of -1, you will have to completely disable Windows Firewall to receive notification messages.|
+    |**NotificationPort**|Specifies the port number that ODP.NET must open to listen for database change notification from Oracle database. Set this to the same port number that you must have added to the Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](/previous-versions/orphan-topics/ws.11/cc753558(v=ws.11)).<br /><br /> **Important** If you set this to the default value of -1, you will have to completely disable Windows Firewall to receive notification messages.|
     |**NotificationStatement**|Set this to:<br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`<br /><br /> **Note** You must specify the table name along with the schema name. For example, `SCOTT.ACCOUNTACTIVITY`.|
     |**NotifyOnListenerStart**|Set this to **True**.|
 

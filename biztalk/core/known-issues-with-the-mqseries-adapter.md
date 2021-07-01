@@ -68,7 +68,7 @@ The adapter "MQSeries" raised an error message. Details "The adapter has encount
 
  On a Windows [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]-based server, examine the group memberships of the host account for the MQSeries adapter. Make sure that the account is a member of the **Distributed COM Users** group on the MQSeries server where the MQSAgent COM+ application is installed.
 
- For more information about DCOM security enhancements in Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], see [DCOM Security Enhancements](https://go.microsoft.com/fwlink/?LinkId=67077).
+ For more information about DCOM security enhancements in Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], see [DCOM Security Enhancements](/previous-versions/windows/it-pro/windows-server-2003/cc738214(v=ws.10)).
 
 ## See Also
  [Troubleshooting the MQSeries Adapter](../core/troubleshooting-the-mqseries-adapter.md)

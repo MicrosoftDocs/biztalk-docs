@@ -32,9 +32,9 @@ Most line-of-business (LOB) applications have proprietary interfaces that are ac
   
 -   [Using the SAP Adapter to Integrate the SAP System with the Business Data Catalog and Microsoft Office SharePoint Server](https://msdn.microsoft.com/library/dd450991(v=bts.10).aspx)  
   
--   [Considerations While Using the SAP Adapter with Microsoft Office SharePoint Server](https://msdn.microsoft.com/library/dd787912.aspx)  
+-   [Considerations While Using the SAP Adapter with Microsoft Office SharePoint Server](/biztalk/adapters-and-accelerators/adapter-sap/considerations-when-using-the-sap-adapter-with-sharepoint)  
   
--   [How Do I Use a Custom Web Part?](https://msdn.microsoft.com/library/dd788451.aspx)  
+-   [How Do I Use a Custom Web Part?](../adapter-oracle-ebs/how-to-use-a-custom-web-part-with-oracle-e-business-suite.md)  
   
 ## See Also  
 [Develop your SAP applications](../../adapters-and-accelerators/adapter-sap/develop-your-sap-applications.md)

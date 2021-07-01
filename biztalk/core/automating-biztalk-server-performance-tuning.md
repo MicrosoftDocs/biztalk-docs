@@ -18,7 +18,7 @@ manager: "anneta"
 # Automate BizTalk Server Performance Tuning
 
 ## Overview
-You can automate the tuning of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performance settings either by importing or exporting the BizTalk settings or by manipulating the settings using [WMI](https://go.microsoft.com/fwlink/?LinkId=200464).
+You can automate the tuning of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performance settings either by importing or exporting the BizTalk settings or by manipulating the settings using [WMI](/windows/win32/wmisdk/wmi-start-page).
 
  After the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment is set up for optimum performance, you can export or import the BizTalk Server settings to an XML file. You can import/export the BizTalk Server settings either using the Settings Dashboard or the BTSTask command-line utility. **BTSTask.exe** with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] allows BizTalk administrators to use BTSTask commands when creating new scripts.
 

@@ -13,13 +13,11 @@ f1_keywords:
 
 # Message Details Properties Dialog Box
 
- 
-
 Use the **Message Details Properties** window to view details of messages in the message box. You cannot edit messages or message properties, but you can turn on message tracking and save the message to another location. The maximum message part size that the **Message Details Properties** window can display is one megabyte (MB); the complete message may be larger than 1 MB, but no single part may be. If a message part is too large to be displayed in the message viewer, you must open the message part using a third-party program. The same window is used for message routing failure reports, in which case, the window title will be "Routing failure report for Message \<Message GUID\>."
 
 ## General Tab
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -83,7 +81,6 @@ Use the **Message Details Properties** window to view details of messages in the
 </tr>
 </tbody>
 </table>
-
 
 ## Context Tab
 
@@ -153,7 +150,7 @@ The BizTalk Server engine uses Message tracking properties internally to preserv
 
 ## Message Parts Tab
 
-## UIElement List
+The following table lists the UIElements in the **Message Parts** tab and what they are used for.
 
 <table>
 <thead>
@@ -186,7 +183,6 @@ The BizTalk Server engine uses Message tracking properties internally to preserv
 </tbody>
 </table>
 
-
 ## Body Tab
 
 You use the **Body** tab to view messages in either text or binary format. Ability to view the message body is controlled by role-based access; if you do not have the required privileges to view the message, you will see a message to that effect. The **Body** tab has two subordinate tabs, which you select on the right-hand side of the window; these are the **Text** tab and the **Binary** tab.
@@ -203,13 +199,12 @@ Click the **Binary** tab to view the message in binary form.
 
 Use the **File** menu to track or save messages, or to exit from the **Message Details** window. The **File** menu displays the following options:
 
-  - **Save Message**. Click to display the **Save Message** dialog box.
+- **Save Message**. Click to display the **Save Message** dialog box.
 
-  - **Track Message**. Click to turn on message tracking for the displayed message. A confirmation window appears that requires you to confirm the tracking request. If the message is no longer in the Message Box (terminated or completed), an error message informs you that the message is no longer available.
+- **Track Message**. Click to turn on message tracking for the displayed message. A confirmation window appears that requires you to confirm the tracking request. If the message is no longer in the Message Box (terminated or completed), an error message informs you that the message is no longer available.
 
-  - **Exit**. Click to close the **Message Details Properties** window.
+- **Exit**. Click to close the **Message Details Properties** window.
 
 ## See Also
 
 [Viewing Tracked Message and Instance Data](https://msdn.microsoft.com/library/aa561587\(v=bts.80\))
-

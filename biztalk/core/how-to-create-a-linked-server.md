@@ -26,7 +26,7 @@ When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
  Linked servers can also be created using the *sp_addlinkedserver* stored procedure. There are security considerations associated with this operation. When a linked server is created using sp_addlinkedserver, all local logins will be mapped to the new linked server by default. To control access to the linked server, the *sp_droplinkedsvrlogin* procedure should be used to drop the global login mapping, followed by *sp_addlinkedsvrlogin* to map the desired login account(s) to the new linked server. When using sp_addlinkedsvrlogin, it is recommended that you set the @useself parameter = TRUE. This avoids the need to embed a user name and password into your SQL script.  
 
 > [!TIP]
-> These steps may change over time. We recommend referring to the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] documentation at [Create Linked Servers](https://docs.microsoft.com/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine).
+> These steps may change over time. We recommend referring to the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] documentation at [Create Linked Servers](/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine).
   
 ## Prerequisites  
   
@@ -66,12 +66,12 @@ When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
    3. Alternatively, if the local login will be mapped to a remote [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] login you, enter the **Remote User** name and **Remote Password** for the remote server login.  
   
       > [!NOTE]
-      >  To use impersonation, your [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] configuration and login accounts must meet the requirements for delegation. See [Configuring Linked Servers for Delegation](https://msdn.microsoft.com/library/ms189580.aspx) for more details.  
+      >  To use impersonation, your [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] configuration and login accounts must meet the requirements for delegation. See [Configuring Linked Servers for Delegation](/previous-versions/sql/sql-server-2008-r2/ms189580(v=sql.105)) for more details.  
 
 7. In the left pane, choose **Server Options**. Set the **RPC** and **RPC Out** parameters to **True**, and then select **OK**. 
  
 > [!TIP]
-> For more details and recommendations when creating linked servers, includig using the `sp_addlinkedserver` stored procedcure, see [Create Linked Servers](https://docs.microsoft.com/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine).
+> For more details and recommendations when creating linked servers, includig using the `sp_addlinkedserver` stored procedcure, see [Create Linked Servers](/sql/relational-databases/linked-servers/create-linked-servers-sql-server-database-engine).
 
   
 ## See Also  

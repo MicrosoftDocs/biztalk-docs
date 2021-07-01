@@ -35,7 +35,7 @@ This section provides instructions on how to browse, search, and retrieve metada
 ## Browsing BAPIs in an SAP System  
  While browsing metadata using [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], or [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces BAPIs as business objects and as RFCs. Browsing BAPIs as RFCs is similar to browsing an RFC in an SAP system. In such a case, the BAPIs are available as RFCs under the **RFC**. For more information on browsing RFCs, see [Browse, search, and get metadata for RFC operations in SAP](../../adapters-and-accelerators/adapter-sap/browse-search-and-get-metadata-for-rfc-operations-in-sap.md).  
   
- This section provides information on browsing BAPIs as business objects. Fore more information about browsing SAP metadata, see [How Does the Adapter Surface SAP Metadata?](https://msdn.microsoft.com/library/dd788039.aspx)  
+ This section provides information on browsing BAPIs as business objects. Fore more information about browsing SAP metadata, see [How Does the Adapter Surface SAP Metadata?](./browse-search-and-get-sap-metadata.md)  
   
  Perform the following steps to browse BAPIs in an SAP system using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], or [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
  
@@ -75,7 +75,7 @@ This section provides instructions on how to browse, search, and retrieve metada
 |+ (plus)|Matches exactly one character.<br /><br /> For example, A+ matches AB, AC, AD|  
 |* (asterisk)|Matches zero or more characters.<br /><br /> For example, A* matches A, AB, ABC.|  
   
- For more information about the special characters supported by the adapter, see [How Does the Adapter Surface SAP Metadata?](https://msdn.microsoft.com/library/dd788039.aspx)  
+ For more information about the special characters supported by the adapter, see [How Does the Adapter Surface SAP Metadata?](./browse-search-and-get-sap-metadata.md)  
   
  Perform the following steps to search BAPIs in an SAP system using the [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], or [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].  
   
@@ -160,7 +160,7 @@ This section provides instructions on how to browse, search, and retrieve metada
   
       ![The Advanced Options box default settings](../../adapters-and-accelerators/adapter-oracle-database/media/r2-net-adapters-oracle-msb-advanced-options.gif "R2_NET_Adapters_Oracle_MSB_Advanced_Options")  
   
-      The options that you can configure in the **Advanced Options** box are equivalent to some of the options available when you use the ServiceModel Metadata Utility Tool (svcutil.exe). For more information about these options, see [ServiceModel Metadata Utility Tool (Svcutil.exe)](https://msdn.microsoft.com/library/aa347733.aspx). 
+      The options that you can configure in the **Advanced Options** box are equivalent to some of the options available when you use the ServiceModel Metadata Utility Tool (svcutil.exe). For more information about these options, see [ServiceModel Metadata Utility Tool (Svcutil.exe)](/dotnet/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe). 
   
 5. Click **OK**. The [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] saves the WCF client class and helper code in your project directory for the selected operations and categories. By default, a configuration file is also saved. For more information, see [Generate a WCF client or a WCF service contract for SAP solution artifacts](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md).  
   
