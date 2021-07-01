@@ -53,11 +53,9 @@ This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../incl
 >  If an export operation fails, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deletes all temporary files along with the .msi file, if one was created.  
   
 ## Prerequisites  
- To perform the procedures in this topic, you must be logged on with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md). In addition, the Business Rules Engine must be installed. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](/previous-versions/).  
+ To perform the procedures in this topic, you must be logged on with an account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group. For more detailed information about permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md). In addition, the Business Rules Engine must be installed. For more information, see [Install BizTalk Server](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).
   
-## To export an application  
-  
-#### Using the BizTalk Server Administration console  
+## Export an app using BizTalk Server Administration  
   
 1. Click **Start**, click **All Programs**, [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)].  
   
@@ -82,7 +80,7 @@ This topic describes how to use the [!INCLUDE[btsBizTalkServerNoVersion](../incl
   
 10. On the Summary page, make a note of the location of the log file for this operation, and then click **Finish**.  
   
-#### Using the command line  
+## Export an app using the command line  
   
 1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
