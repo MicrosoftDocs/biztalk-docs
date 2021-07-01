@@ -47,12 +47,9 @@ The Stop Orchestration sample demonstrates how to stop a BizTalk Server orchestr
 |---------------|-----------------|
 |In the \VBScript folder:<br /><br /> StopOrch.vbs|VBScript file that takes parameters to specify an orchestration to be stopped and, optionally, unenlisted.|
 
-## Building and Initializing This Sample
+## Run this sample
+
  The Stop Orchestration sample consists of a single VBScript file that you do not need to build or initialize.
-
-## Running This Sample
-
-#### To run this sample
 
 1.  In a command window, navigate to the following folder:
 
@@ -83,7 +80,7 @@ The Stop Orchestration sample demonstrates how to stop a BizTalk Server orchestr
 ## Comments
  All tasks that you can perform in the BizTalk Server Administration console can also be performed by using scripts that access the Windows WMI object model.
 
- The script file StopOrch.vbs contains detailed comments with further explanation about the operations that it performs. For more information, see Windows Management Instrumentation at [https://go.microsoft.com/fwlink/?LinkId=21102](/documentation/).
+ The script file StopOrch.vbs contains detailed comments with further explanation about the operations that it performs. For more information, see [Windows Management Instrumentation](/windows/win32/wmisdk/wmi-start-page).
 
 ## See Also
  [Admin-WMI (BizTalk Server Samples Folder)](../core/admin-wmi-biztalk-server-samples-folder.md)
