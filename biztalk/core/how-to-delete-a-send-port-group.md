@@ -28,12 +28,12 @@ This topic describes how use the BizTalk Server Administration console to delete
   
 -   The send port group is both stopped and unenlisted. For instructions on stopping and unenlisting a send port, see [How to Unenlist a Send Port or Send Port Group](../core/how-to-unenlist-a-send-port-or-send-port-group.md) and [How to Stop a Send Port or Send Port Group](../core/how-to-stop-a-send-port-or-send-port-group.md).  
   
--   The send port group is not referenced by a party. For instructions on removing a reference to a send port group from a party, see [How to View or Edit a Party](/previous-versions/).  
+-   The send port group is not referenced by a party. For instructions on removing a reference to a send port group from a party, see [View or Edit a Party](managing-parties.md).  
   
 ## Prerequisites  
  To perform the procedure in this topic, you must be logged on as a member of the BizTalk Server Administrators group. For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
-### To delete a send port group  
+## Delete a send port group  
   
 1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
