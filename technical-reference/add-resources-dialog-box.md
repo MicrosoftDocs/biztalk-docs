@@ -13,11 +13,9 @@ f1_keywords:
 
 # Add Resources Dialog Box
 
- 
-
 Use the **Add Resources** dialog box to add assemblies, scripts, bindings, COM objects, and other resources to an application.
 
-## UIElement List
+The following table describes the UIElements in the **Add Resources** dialog box.
 
 <table>
 <thead>
@@ -59,7 +57,7 @@ Use the **Add Resources** dialog box to add assemblies, scripts, bindings, COM o
 
 The **Options** tab displays special configuration for the resource you have selected in **Selected files to add**.
 
-## UIElement List
+The following table lists the UIElements in the **Options** tab and what they are used for.
 
 <table>
 <thead>
@@ -88,12 +86,11 @@ The **Options** tab displays special configuration for the resource you have sel
 </tbody>
 </table>
 
-
 ## Dependencies Tab
 
 The **Dependencies** tab appears only when **Assembly** or **BizTalk Assembly** is selected in the **File type** list on the **Options** tab. It displays information about other files on which the selected resource has a dependency.
 
-## UIElement List
+The following table lists the UIElements in the **Dependencies** tab and what they are used for.
 
 <table>
 <thead>
@@ -118,8 +115,6 @@ The **Dependencies** tab appears only when **Assembly** or **BizTalk Assembly** 
 </tbody>
 </table>
 
-
 ## See Also
 
 [Understanding BizTalk Application Deployment and Management](https://msdn.microsoft.com/library/aa560022\(v=bts.80\))
-

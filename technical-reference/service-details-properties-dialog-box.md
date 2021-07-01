@@ -13,13 +13,11 @@ f1_keywords:
 
 # Service Details Properties Dialog Box
 
- 
-
 Use the **Service Details** window to view details relating to properties, error information (if any), and messages of individual service instances selected on a Query page. You can use the \[up arrow\] and \[down arrow\] buttons on each tab to scroll through individual instances in the query and see service instance properties for each.
 
 ## General Tab
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -89,7 +87,6 @@ Use the **Service Details** window to view details relating to properties, error
 </tbody>
 </table>
 
-
 <table>
 <tbody>
 <tr class="odd">
@@ -98,12 +95,11 @@ Use the **Service Details** window to view details relating to properties, error
 </tbody>
 </table>
 
-
 ## Error Information
 
 If a service instance has failed, the reasons for the failure appear on the **Error Information** tab.
 
-## UIElement List
+The following table lists the UIElements in the **Error Information** tab and what they are used for.
 
 <table>
 <thead>
@@ -140,10 +136,9 @@ If a service instance has failed, the reasons for the failure appear on the **Er
 </tbody>
 </table>
 
-
 ## Messages
 
-## UIElement List
+The following table lists the UIElements in the **Messages** tab and what they are used for.
 
 <table>
 <thead>
@@ -168,10 +163,9 @@ If a service instance has failed, the reasons for the failure appear on the **Er
 </tbody>
 </table>
 
-
 ## Messages Context Menu
 
-## UIElement List
+The following table describes the UIElements in the **Messages** context menu.
 
 <table>
 <thead>
@@ -199,4 +193,3 @@ If a service instance has failed, the reasons for the failure appear on the **Er
 </tr>
 </tbody>
 </table>
-

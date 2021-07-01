@@ -25,7 +25,7 @@ Before you begin the tutorial, you must install BizTalk Server on a single compu
 
 - [BizTalk Server 2013 and 2013 R2: What's New, Install, and Upgrade](../install-and-config-guides/biztalk-server-2013-and-2013-r2-what-s-new-install-and-upgrade.md)
   
--   [Basic Configuration](https://msdn.microsoft.com/library/abdf3eb5-9779-47ff-bc97-2209eb4b12f5)  
+-   [Basic Configuration](../install-and-config-guides/configure-biztalk-server.md)  
   
 
 ## Next steps 

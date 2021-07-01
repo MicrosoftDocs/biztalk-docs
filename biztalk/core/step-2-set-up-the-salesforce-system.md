@@ -160,4 +160,4 @@ In this step, you configure Salesforce to send notifications when an opportunity
    3.  You should receive the security token at the e-mail address you specified while creating your Salesforce account.
 
 ## See Also
- [Tutorial 6: Integrating BizTalk Server 2013 with Salesforce](Tutorial:%20Integrating%20BizTalk%20Server%202013%20with%20Salesforce.md)
+ [Tutorial 6: Integrating BizTalk Server 2013 with Salesforce](tutorial-integrating-biztalk-server-2013-with-salesforce.md)

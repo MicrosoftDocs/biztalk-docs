@@ -35,7 +35,7 @@ Review the following best practices for using historical and tracked data.
   
 -   **Configure tracking as appropriate for your business needs**  
   
-    -   Before you can view historical and tracked data, you must first configure tracking using the BizTalk Server Administration Console. There are multiple considerations to keep in mind when enabling or disabling tracking options. The more data you track, the faster your BizTalk Tracking (BizTalkDTADb) database will grow in size, which can adversely affect your runtime performance. For more information, see [Configuring Tracking Using the BizTalk Server Administration Console](https://msdn.microsoft.com/49b7f9d3-60b5-41bd-ba8b-029253926bef).  
+    -   Before you can view historical and tracked data, you must first configure tracking using the BizTalk Server Administration Console. There are multiple considerations to keep in mind when enabling or disabling tracking options. The more data you track, the faster your BizTalk Tracking (BizTalkDTADb) database will grow in size, which can adversely affect your runtime performance. For more information, see [Configuring Tracking Using the BizTalk Server Administration Console](managing-artifacts.md).  
   
 -   **Select the appropriate type of tracking for troubleshooting or auditing**  
   

@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Scenario Overview
+
 This topic provides an overview of load testing completed by the BizTalk Server product group to assess scalability of BizTalk Server when running on modern enterprise class hardware.
 
  All testing was performed in an isolated environment using dedicated hardware. Over 200 test runs were performed and all results were validated by the BizTalk Server product group.
@@ -24,6 +25,7 @@ This topic provides an overview of load testing completed by the BizTalk Server 
  To evaluate the maximum possible performance of the BizTalk Server engine, no custom pipeline components were used; and only a single, very simple orchestration was used for the Orchestration scenario. Performance optimizations described in [Optimizing Performance](../technical-guides/optimizing-performance.md) were applied to the environment, and are fully documented in [Observations and Recommendations](../technical-guides/observations-and-recommendations.md).
 
 ## Test Goals
+
  The goals of the load testing performed included the following:
 
 1.  Provide general sizing and scaling guidance for BizTalk Server:
@@ -42,6 +44,7 @@ This topic provides an overview of load testing completed by the BizTalk Server 
     2.  WCF-NetTcp one-way Orchestration scenario
 
 ## Test Measurements Used
+
 BizTalk Server performance was measured using the following criteria:
 
 1.  **Overall throughput** –Measured with the **BizTalk:Messaging(*hostname*)\Documents received/Sec** and **BizTalk:Messaging(*hostname*)\Documents processed/Sec** performance counters for the BizTalk Server receive and processing hosts.
@@ -49,14 +52,17 @@ BizTalk Server performance was measured using the following criteria:
 2.  **CPU utilization** – measured with the **\Processor(_Total)\\%Processor Time** performance counters on the BizTalk Server] and SQL Server computers. All test results were comprehensively reviewed and any performance bottlenecks are described in [Observations and Recommendations](../technical-guides/observations-and-recommendations.md).
 
 ## Scaling out the processing tier and the database tier
+
 BizTalk Server easily accommodates increased processing tier capabilities by adding one or more BizTalk Server computers to an existing BizTalk Server group. BizTalk Server accommodates increased database tier capabilities through the addition of MessageBox databases.
 
 To provide scale out metrics for BizTalk Server, tests were performed with one, two, three, and fourBizTalk Server computers. To demonstrate the impact of scaling out the database tier, these tests were performed against both single and multi-MessageBox systems.
 
 ## Testing scenarios
+
  The flow of messages through the BizTalk Server environment for these scenarios is described in detail below.
 
 ### Messaging test scenario
+
  ![Messaging Scenario](../technical-guides/media/messagingscenario.gif "MessagingScenario")
 
 1.  The Visual Studio 2010 Ultimate edition load testing functionality generates an XML message and sends it to the computer running BizTalk Server with the NetTcp transport.
@@ -75,6 +81,7 @@ To provide scale out metrics for BizTalk Server, tests were performed with one, 
 5.  The message is delivered to the back end WCF service by the WCF-NetTcp send adapter.
 
 ### Orchestration test scenario
+
  ![Orchestration Scenario Flow](../technical-guides/media/orchestrationscenarioflow.gif "OrchestrationScenarioFlow")
 
 1.  The Visual Studio 2010 Ultimate edition load testing functionality generates an XML message and sends it to the computer running BizTalk Server using the NetTcp transport.
@@ -90,6 +97,7 @@ To provide scale out metrics for BizTalk Server, tests were performed with one, 
 ## Hardware configuration
 
 ### Lab hardware diagram and specifications
+
  The hardware configuration used for the lab is illustrated below. To easily accommodate scale out of the processing and database tiers, the following lab hardware was used:
 
 - Two Enterprise class Hewlett Packard DL-380 computers and two Enterprise class Dell R710 computers for the BizTalk Server processing tier.
@@ -120,6 +128,7 @@ To provide scale out metrics for BizTalk Server, tests were performed with one, 
 |R900-06|Dell PowerEdge R900|Intel Xeon E7330|4 x 2.4 GHz|4|x64|64 GB|Windows Server 2008 R2 Enterprise Edition|SQL Server 2008 R2 with Cumulative Update 4|
 
 ### Storage area network configuration
+
  The following diagram depicts the storage area network (SAN) configuration used for the lab environment.
 
  ![SAN information](../technical-guides/media/saninformation.gif "SANinformation")
@@ -152,11 +161,12 @@ To provide scale out metrics for BizTalk Server, tests were performed with one, 
 |O|Logs_Spare|Not used for SQL files. Used to store DTCLog file, as MSDTC cause frequent disk I/O, especially in a multi-MessageBox environment.|20|
 
 ### SQLIO test results
- We used the SQLIO tool to benchmark and measure the Input/Output capacity of the storage area network (SAN) configuration used in our lab environment. As the name of the tool implies, SQLIO is a valuable tool for measuring the impact of file system I/O on SQL Server performance.
+
+We used the SQLIO tool to benchmark and measure the Input/Output capacity of the storage area network (SAN) configuration used in our lab environment. As the name of the tool implies, SQLIO is a valuable tool for measuring the impact of file system I/O on SQL Server performance.
 
 To measure Input/Output capacity of the storage area network (SAN) configuration for SQL Server database applications, see [Analyzing I/O Characteristics and Sizing Storage Systems for SQL Server Database Applications](https://msdn.microsoft.com/library/ee410782(SQL.100).aspx).
 
- For our SQLIO test, the sqlio.exe utility issues 8K read requests from 8 threads and maintain an I/O queue depth of 8. We used the following parameters:
+For our SQLIO test, the sqlio.exe utility issues 8K read requests from 8 threads and maintain an I/O queue depth of 8. We used the following parameters:
 
 - All tests used 8 processing threads, each running for 60 seconds.
 
@@ -168,44 +178,40 @@ To measure Input/Output capacity of the storage area network (SAN) configuration
 
 - The disk drives to be benchmarked are H:, I:, J:, and  K drive.
 
-  The SQLIO command lines used are follows:
+The SQLIO command lines used are follows:
 
 - **For reads**: sqlio -kR -s60 -frandom -o8 -t8 -b8 -LS -FParam.txt
 
 - **For writes**: sqlio -kW -s60 -frandom -o8 -t8 -b8 -LS -FParam.txt
 
-  The Param.txt file contains the following:
+The Param.txt file contains the following:
 
 - **Number of drives:** H:,I:,J:, and K
 
 - **Physical location of the testing files**:
 
-  -   H:\testfile.dat 2 0x0 25000
+  - H:\testfile.dat 2 0x0 25000
 
-  -   I:\testfile.dat 2 0x0 25000
+  - I:\testfile.dat 2 0x0 25000
 
-  -   J:\testfile.dat 2 0x0 25000
+  - J:\testfile.dat 2 0x0 25000
 
-  -   K:\testfile.dat 2 0x0 25000
+  - K:\testfile.dat 2 0x0 25000
 
-  The following table lists the test results:
+The following table lists the test results:
 
 - 8 KB random reads from 25 GB test files simultaneously on LUNs H:, I:, J:, K: (the LUNs used for all of our database files)
-
-  ###
 
   | Input/Output operations per second (IOs/sec) | Megabytes per second (MBs/Sec) | Average Latency |
   |----------------------------------------------|--------------------------------|-----------------|
   |                   10662.67                   |             83.30              |      5 ms       |
 
-
 - 8 KB random writes to 25 GB test files simultaneously on LUNs H:, I:, J:, K: (the LUNs used for all of our database files)
-
-  ###
 
   |Input/Output operations per second (IOs/sec)|Megabytes per second (MBs/Sec)|Average Latency|
   |------------------------------------------------------|---------------------------------------|---------------------|
   |31527.95|246.31|1 ms|
 
 ## See Also
+
  [Scaling a Production BizTalk Server Environment](../technical-guides/scaling-a-production-biztalk-server-environment.md)

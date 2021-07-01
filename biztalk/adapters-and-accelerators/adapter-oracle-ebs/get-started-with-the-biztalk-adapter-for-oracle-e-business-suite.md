@@ -47,8 +47,8 @@ Overview of the adapter, prerequisites, and topics for users who are new to Micr
   
 ## In this section  
   
--   [Understand BizTalk Adapter for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/understand-biztalk-adapter-for-oracle-e-business-suite.md)  
+- [Understand BizTalk Adapter for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/understand-biztalk-adapter-for-oracle-e-business-suite.md)  
   
--   [Tutorial: Presenting data from Oracle E-Business Suite on a SharePoint Site](Tutorial:%20Presenting%20Data%20from%20Oracle%20E-Business%20Suite%20on%20a%20SharePoint%20Site.md)
+- [Tutorial: Present data from Oracle E-Business Suite on a SharePoint Site](tutorial-present-data-from-oracle-e-business-suite-on-a-sharepoint-site.md)
   
 - [Troubleshooting the Oracle EBS adapter](../../adapters-and-accelerators/adapter-oracle-ebs/troubleshooting-the-oracle-ebs-adapter.md)

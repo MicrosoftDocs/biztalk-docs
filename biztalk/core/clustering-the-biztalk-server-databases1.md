@@ -38,7 +38,7 @@ This section provides guidelines for deploying a Microsoft [!INCLUDE[btsBizTalkS
   
 1. When you create the domain groups for your BizTalk Server environment, you must create Active Directory domain global groups.  
   
-2. Configure the SQL Server cluster before you install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information about clustering SQL Server, see [Always On Failover Cluster Instances](https://technet.microsoft.com/library/ms189134.aspx).  
+2. Configure the SQL Server cluster before you install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information about clustering SQL Server, see [Always On Failover Cluster Instances](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server).  
   
 3. If you are also clustering the master secret server, configure that server first. For more information about high availability for Enterprise Single Sign-On, see [High Availability for Enterprise Single Sign-On](../core/high-availability-for-enterprise-single-sign-on.md).  
   

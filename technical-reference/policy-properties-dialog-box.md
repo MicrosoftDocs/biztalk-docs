@@ -13,13 +13,11 @@ f1_keywords:
 
 # Policy Properties Dialog Box
 
- 
-
 Use the **Policy Properties** window to view the rule sets that have been added to the application and to configure tracking options. Policy properties are defined in the Microsoft Business Rules Composer.
 
 ## General Tab
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -48,10 +46,9 @@ Use the **Policy Properties** window to view the rule sets that have been added 
 </tbody>
 </table>
 
-
 ## Tracking Tab
 
-## UIElement List
+The following table lists the UIElements in the **Tracking** tab and what they are used for.
 
 <table>
 <thead>
@@ -80,14 +77,9 @@ Use the **Policy Properties** window to view the rule sets that have been added 
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > <P>You can view tracked rules and policies during runtime using the queries on the Group Hub page.</P>
-
-
 
 ## See Also
 
 [Importing BizTalk Applications, Bindings, and Policies](https://msdn.microsoft.com/library/aa560565\(v=bts.80\))
-

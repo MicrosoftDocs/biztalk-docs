@@ -34,7 +34,7 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] supp
 ## Planning for Sessions  
  A messaging pattern may use a session when it wants to ensure that all messages exchanged between the adapter and the line-of-business system must be part of the same conversation. Typically sessions are used when delivery guarantee is needed, but they can also be used to support other requirements that an adapter developer may have for message exchange.  
   
- The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] relies on the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] for session support. For more information about sessions, see [Sessions, Instancing, and Concurrency](https://msdn.microsoft.com/library/ms731193.aspx). 
+ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] relies on the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] for session support. For more information about sessions, see [Sessions, Instancing, and Concurrency](/dotnet/framework/wcf/feature-details/sessions-instancing-and-concurrency). 
   
 ## See Also  
  [Plan and design an adapter using the WCF LOB Adapter SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/plan-and-design-an-adapter-using-the-wcf-lob-adapter-sdk.md)

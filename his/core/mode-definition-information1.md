@@ -15,16 +15,19 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Mode Definition Information
+
 Mode definition information is defined or returned as described here.  
   
-## Defined by IBM ES for OS/2 version 1.0  
+## Defined by IBM ES for OS/2 version 1.0
+
+The following members are defined:
   
-## Members  
- cos_name  
- Name of class of service.  
+*cos_name*  
+Name of class of service.  
   
-## Returned by Host Integration Server  
+## Returned by Host Integration Server
+
+The following members are returned:
   
-## Members  
- cos_name  
- Set to EBCDIC spaces.
+*cos_name*  
+Set to EBCDIC spaces.

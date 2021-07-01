@@ -45,12 +45,12 @@ This section provides an overview of the adapter, prerequisites, and topics for 
   
   If you do not already know how you want to use the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] at your company, it is recommended that you start by exploring the features and functionality of the adapter described in [Overview of BizTalk Adapter for Siebel eBusiness Applications](../../adapters-and-accelerators/adapter-siebel/overview-of-biztalk-adapter-for-siebel-ebusiness-applications.md).  
   
-## In This Section  
+## Next steps
   
 -   [Understand BizTalk Adapter for Siebel eBusiness Applications](../../adapters-and-accelerators/adapter-siebel/understand-biztalk-adapter-for-siebel-ebusiness-applications.md) 
   
 -   [Siebel Adapter Tutorials](../../adapters-and-accelerators/adapter-siebel/siebel-adapter-tutorials.md)  
   
--   [Community Resources](https://msdn.microsoft.com/library/ff5ec978-8cdd-418a-a25e-fd3746b64d8b)  
+-   [Community Resources](../../core/community-resources5.md)  
   
--   [Frequently Asked Questions](https://msdn.microsoft.com/library/66953c15-08c5-48ac-a4ff-a72a82174f15)
+-   [Frequently Asked Questions](../frequently-asked-questions-for-the-biztalk-adapter-pack.md)

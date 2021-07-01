@@ -21,7 +21,7 @@ Installation of the Microsoft [!INCLUDE[adapterpacknoversion](../../includes/ada
 ## Logging Messages for Setup Actions
  The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup program performs the standard task of installing the [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]. Additionally, the setup also performs certain custom actions such as registering the adapter bindings. You can log messages for both the standard as well as custom actions that the setup performs.
 
-- The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup installs the adapter-specific files using an MSI. Therefore, the logging for the setup is the standard MSI logging. [Windows Installer Logging](https://msdn.microsoft.com/library/windows/desktop/aa372847.aspx) provides more details.
+- The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] setup installs the adapter-specific files using an MSI. Therefore, the logging for the setup is the standard MSI logging. [Windows Installer Logging](/windows/win32/msi/windows-installer-logging) provides more details.
 
 - All logs for the custom actions that the setup program performs are available at %TEMP%\adaptersetup.log. If the tracing to the log file fails, the traces are also available in the event log.
 

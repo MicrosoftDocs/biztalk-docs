@@ -15,9 +15,10 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # DEFINE_TRACE
+
 The **DEFINE_TRACE** verb enables or disables tracing for specified APIs and controls the amount of tracing.  
   
- The following structure describes the verb control block (VCB) used by the **DEFINE_TRACE** verb.  
+The following structure describes the verb control block (VCB) used by the **DEFINE_TRACE** verb.  
   
 ## Syntax  
   
@@ -57,167 +58,158 @@ struct define_trace {
     unsigned char        reserv9[56];  
 };   
 ```  
+
+## Members
   
-## Remarks  
+*opcode*  
+Supplied parameter. The verb identifying the operation code, SV_DEFINE_TRACE.  
   
-## Members  
- *opcode*  
- Supplied parameter. The verb identifying the operation code, SV_DEFINE_TRACE.  
+*opext*  
+A reserved field.  
   
- *opext*  
- A reserved field.  
+*reserv2*  
+A reserved field.  
   
- *reserv2*  
- A reserved field.  
+*primary_rc*  
+Returned parameter. Specifies the primary return code set by APPC at the completion of the verb. The valid return codes vary depending on the APPC verb issued. See Return Codes for valid error codes for this verb.  
   
- *primary_rc*  
- Returned parameter. Specifies the primary return code set by APPC at the completion of the verb. The valid return codes vary depending on the APPC verb issued. See Return Codes for valid error codes for this verb.  
+*secondary_rc*  
+Returned parameter. Specifies the secondary return code set by APPC at the completion of the verb. The valid return codes vary depending on the APPC verb issued. See Return Codes for valid error codes for this verb.  
   
- *secondary_rc*  
- Returned parameter. Specifies the secondary return code set by APPC at the completion of the verb. The valid return codes vary depending on the APPC verb issued. See Return Codes for valid error codes for this verb.  
+*reserv3*  
+A reserved field.  
   
- *reserv3*  
- A reserved field.  
+*dt_set*  
+Supplied parameter. Sets the trace state.  
   
- *dt_set*  
- Supplied parameter. Sets the trace state.  
-  
-- Use SV_ON to enable tracing for a particular API if the parameter pertaining to the API (such as **appc** or **comm_serv**) is set to SV_CHANGE.  
-  
+- Use SV_ON to enable tracing for a particular API if the parameter pertaining to the API (such as **appc** or **comm_serv**) is set to SV_CHANGE.    
 - Use SV_OFF to disable tracing for a particular API if the parameter pertaining to the API is set to SV_CHANGE.  
   
-  *appc*  
-  Supplied parameter. Indicates whether tracing of APPC is desired.  
+*appc*  
+Supplied parameter. Indicates whether tracing of APPC is desired.  
   
-- Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.  
-  
+- Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.    
 - Use SV_IGNORE to leave tracing in its current state for APPC.  
   
-  The allowed values turn bit 0 on or off; bits 1 through 7 are reserved.  
+The allowed values turn bit 0 on or off; bits 1 through 7 are reserved.  
   
-  *reserv4*  
-  A reserved field.  
+*reserv4*  
+A reserved field.  
   
-  *srpi*  
-  Supplied parameter. Indicates whether tracing of SRPI is desired.  
+*srpi*  
+Supplied parameter. Indicates whether tracing of SRPI is desired.  
   
-- Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.  
-  
+- Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.    
 - Use SV_IGNORE to leave tracing in its current state for APPC.  
   
-  *sdlc*  
-  A reserved field.  
+*sdlc*  
+A reserved field.  
   
-  *tkn_rng_dlc*  
-  A reserved field.  
+*tkn_rng_dlc*  
+A reserved field.  
   
-  *pcnet_dlc*  
-  A reserved field.  
+*pcnet_dlc*  
+ A reserved field.  
   
-  *dft*  
-  A reserved field.  
+*dft*  
+A reserved field.  
   
-  *acdi*  
-  A reserved field.  
+*acdi*  
+A reserved field.  
   
-  *reserv5*  
-  A reserved field.  
+*reserv5*  
+A reserved field.  
   
-  *comm_serv*  
-  Supplied parameter. Indicates whether tracing of COMM_SERV_API is desired.  
+*comm_serv*  
+Supplied parameter. Indicates whether tracing of COMM_SERV_API is desired.  
   
-- Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.  
-  
+- Use SV_CHANGE to enable or disable tracing for APPC, depending on the **dt_set** parameter.    
 - Use SV_IGNORE to leave tracing in its current state for APPC.  
   
-  *ehllapi*  
-  A reserved field.  
+*ehllapi*  
+A reserved field.  
   
-  *x25_api*  
-  A reserved field.  
+*x25_api*  
+A reserved field.  
   
-  *x25_dlc*  
-  A reserved field.  
+*x25_dlc*  
+A reserved field.  
   
-  *twinax*  
-  A reserved field.  
+*twinax*  
+A reserved field.  
   
-  reserv6  
-  A reserved field.  
+*reserv6*  
+A reserved field.  
   
-  *lua_api*  
-  A reserved field.  
+*lua_api*  
+A reserved field.  
   
-  *etherand*  
-  A reserved field.  
+*etherand*  
+A reserved field.  
   
-  *subsym*  
-  A reserved field.  
+*subsym*  
+A reserved field.  
   
-  *reserv7*  
-  A reserved field.  
+*reserv7*  
+A reserved field.  
   
-  *reset_trc*  
-  Supplied parameter. Indicates whether the trace file pointer should be reset.  
+*reset_trc*  
+Supplied parameter. Indicates whether the trace file pointer should be reset.  
   
-- Use SV_NO to not reset the trace file pointer to the start of the trace file. Previous trace records are not overwritten.  
-  
+- Use SV_NO to not reset the trace file pointer to the start of the trace file. Previous trace records are not overwritten.    
 - Use SV_YES to reset the trace file pointer to the start of the trace file. Previous trace records are overwritten.  
   
-  *trunc*  
-  Supplied parameter. Specifies the maximum number of bytes for each trace record. Excess bytes are truncated. Set this value to zero if you do not want truncation.  
+*trunc*  
+Supplied parameter. Specifies the maximum number of bytes for each trace record. Excess bytes are truncated. Set this value to zero if you do not want truncation.  
   
-  *strg_size*  
-  A reserved field.  
+*strg_size*  
+A reserved field.  
   
-  *reserv8*  
-  A reserved field.  
+*reserv8*  
+A reserved field.  
   
-  *phys_link*  
-  A reserved field.  
+*phys_link*  
+A reserved field.  
   
-  *reserv9*  
-  A reserved field.  
+*reserv9*  
+A reserved field.  
   
-## Return Codes  
- SV_OK  
- Primary return code; the verb executed successfully.  
+## Return Codes
   
- SV_PARAMETER_CHECK  
- Primary return code; the verb did not execute because of a parameter error.  
+SV_OK  
+Primary return code; the verb executed successfully.  
   
- SV_INVALID_RESET_TRACE  
+SV_PARAMETER_CHECK  
+Primary return code; the verb did not execute because of a parameter error.  
   
- Secondary return code; the **reset_trc** parameter contained an invalid value.  
+SV_INVALID_RESET_TRACE  
+Secondary return code; the **reset_trc** parameter contained an invalid value.  
   
- SV_INVALID_SET  
+SV_INVALID_SET  
+Secondary return code; the **dt_set** parameter contained an invalid value.  
   
- Secondary return code; the **dt_set** parameter contained an invalid value.  
+SV_STATE_CHECK  
+Primary return code; the verb did not execute because it was issued in an invalid state.  
   
- SV_STATE_CHECK  
- Primary return code; the verb did not execute because it was issued in an invalid state.  
+SV_COPY_TRACE_IN_PROGRESS  
+Secondary return code; a previously issued [COPY_TRACE_TO_FILE](../core/copy-trace-to-file1.md) is still in progress. Traces cannot be active while using **DEFINE_TRACE**.  
   
- SV_COPY_TRACE_IN_PROGRESS  
+SV_COMM_SUBSYSTEM_NOT_LOADED  
+Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
   
- Secondary return code; a previously issued [COPY_TRACE_TO_FILE](../core/copy-trace-to-file1.md) is still in progress. Traces cannot be active while using **DEFINE_TRACE**.  
+SV_INVALID_VERB  
+Primary return code; the **opcode** parameter did not match the operation code of any verb. No verb executed.  
   
- SV_COMM_SUBSYSTEM_NOT_LOADED  
- Primary return code; a required component could not be loaded or terminated while processing the verb. Thus, communication could not take place. Contact the system administrator for corrective action.  
+SV_INVALID_VERB_SEGMENT  
+Primary return code; the VCB extended beyond the end of the data segment.  
   
- SV_INVALID_VERB  
- Primary return code; the **opcode** parameter did not match the operation code of any verb. No verb executed.  
+SV_UNEXPECTED_DOS_ERROR  
+Primary return code; one of the following conditions occurred:  
   
- SV_INVALID_VERB_SEGMENT  
- Primary return code; the VCB extended beyond the end of the data segment.  
+- The Microsoft® Windows® system encountered an error while processing the verb. The operating system return code was returned through the secondary return code. If the problem persists, contact the system administrator for corrective action.    
+- A CSV was issued from a message loop that was invoked by another application issuing a Windows **SendMessage** function call, rather than the more common Windows **PostMessage** function call. Verb processing cannot take place.    
+- A CSV was issued when **SendMessage** invoked your application. You can determine whether your application has been invoked with **SendMessage** by using the **InSendMessage** Windows API function call.  
   
- SV_UNEXPECTED_DOS_ERROR  
- Primary return code; one of the following conditions occurred:  
+## Remarks
   
--   The Microsoft® Windows® system encountered an error while processing the verb. The operating system return code was returned through the secondary return code. If the problem persists, contact the system administrator for corrective action.  
-  
--   A CSV was issued from a message loop that was invoked by another application issuing a Windows **SendMessage** function call, rather than the more common Windows **PostMessage** function call. Verb processing cannot take place.  
-  
--   A CSV was issued when **SendMessage** invoked your application. You can determine whether your application has been invoked with **SendMessage** by using the **InSendMessage** Windows API function call.  
-  
-## Remarks  
- For information on how to run and use traces, see the appropriate manual for your product.
+For information on how to run and use traces, see the appropriate manual for your product.
