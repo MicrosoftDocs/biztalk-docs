@@ -20,7 +20,7 @@ manager: "dougeby"
 
 BizTalk Server uses the Logic Apps adapter to receive messages from an Azure logic app, or send messages to an Azure logic app. 
 
-In Azure, we create a logic app. This logic app uses the BizTalk Connector to connect to a receive location that you create on your BizTalk Server. This topic assumes you have some familiarity with Azure Logic Apps. If you're new to logic apps, we suggest [learning more about them](https://azure.microsoft.com/documentation/articles/app-service-logic-what-are-logic-apps/), and even [creating your own logic app](https://azure.microsoft.com/documentation/articles/app-service-logic-create-a-logic-app/).
+In Azure, we create a logic app. This logic app uses the BizTalk Connector to connect to a receive location that you create on your BizTalk Server. This topic assumes you have some familiarity with Azure Logic Apps. If you're new to logic apps, we suggest [learning more about them](/azure/logic-apps/logic-apps-overview), and even [creating your own logic app](/azure/logic-apps/quickstart-create-first-logic-app-workflow).
 
 In this topic, we list the steps to receive a message in BizTalk Server from a logic app. Put another way, the logic app sends messages to a BizTalk Server. The receive-side uses applications in IIS to handle the communication with the Azure service. If BizTalk Server is on-premises, you also install a data gateway on the BizTalk Server, and create a gateway in Azure. 
 
@@ -66,8 +66,8 @@ There are a few steps involved for BizTalk Server to receive messages from a log
 
 ### Prerequisites
 
-- If BizTalk Server is on-premises, install and configure the [on-premises data gateway](https://azure.microsoft.com/documentation/articles/app-service-logic-gateway-install/) for Logic Apps. Then, in Azure, [create the data gateway resource](https://azure.microsoft.com/documentation/articles/app-service-logic-gateway-connection/) to connect to your BizTalk Server.
-- If BizTalk Server is installed on an Azure VM, and the VM is not exposed as an HTTP endpoint, then install and configure the [on-premises data gateway](https://azure.microsoft.com/documentation/articles/app-service-logic-gateway-install/) for Logic Apps. Then, in Azure, [create the data gateway resource](https://azure.microsoft.com/documentation/articles/app-service-logic-gateway-connection/) to connect to your BizTalk Server.
+- If BizTalk Server is on-premises, install and configure the [on-premises data gateway](/azure/logic-apps/logic-apps-gateway-install) for Logic Apps. Then, in Azure, [create the data gateway resource](/azure/logic-apps/logic-apps-gateway-connection) to connect to your BizTalk Server.
+- If BizTalk Server is installed on an Azure VM, and the VM is not exposed as an HTTP endpoint, then install and configure the [on-premises data gateway](/azure/logic-apps/logic-apps-gateway-install) for Logic Apps. Then, in Azure, [create the data gateway resource](/azure/logic-apps/logic-apps-gateway-connection) to connect to your BizTalk Server.
 - If BizTalk Server is installed on an Azure VM, and the VM is exposed as an HTTP endpoint, then the gateway is not needed or used. 
 
 ### Using the NullAdapter and Logic App Adapter together - BizTalk Server 2016 only
@@ -98,7 +98,7 @@ The URL of this IIS application is used by the BizTalk Connector (in your logic 
 
 ##### BizTalk Server 2020 and newer
 
-1. Configure the REST APIs using the BizTalk Configuration Wizard. For help with configuration, please refer to the [Configuration Guide](../install-and-config-guides/configure-biztalk-server.md). For more details about the REST APIs, please refer to the [BizTalk REST API Reference](https://docs.microsoft.com/rest/api/biztalk)
+1. Configure the REST APIs using the BizTalk Configuration Wizard. For help with configuration, please refer to the [Configuration Guide](../install-and-config-guides/configure-biztalk-server.md). For more details about the REST APIs, please refer to the [BizTalk REST API Reference](/rest/api/biztalk)
 2. Open a web browser, and go to `http://localhost/BizTalkManagementService/Schemas`. Either a list of schemas display, or you are prompted to open/save `schemas.json`. The actual result depends on your web browser. If neither of these happens, then please check your REST API configuration.
 
 ##### BizTalk Server 2016
@@ -278,7 +278,7 @@ For BizTalk Server to send messages to a logic app, the logic app must have a **
     | Open timeout | Enter the time interval it should take for the channel open operation to complete. This value should be greater than or equal to System.TimeSpan.Zero. <br/><br/>Default value: 00:01:00<br/>Maximum value: 23:59:59 |
     | Send timeout |Enter the time interval it should take for the send operation to complete. This value should be greater than or equal to System.TimeSpan.Zero. If you use a request-response receive port, this value specifies a time span for the entire interaction to complete, even if the client returns a large message. <br/><br/>Default value: 00:01:00<br/>Maximum value: 23:59:59|
     | Close timeout | Enter the time interval it should take for the channel close operation to complete. This value should be greater than or equal to System.TimeSpan.Zero. <br/><br/>Default value: 00:01:00<br/>Maximum value: 23:59:59 |
-    | Maximum received message size (bytes) | Enter the maximum size, in bytes, for a message including headers, to be received on the wire. The size of the messages is bound by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks. <br/><br/>The logic appa adapter leverages the [WebHttpBinding class](https://msdn.microsoft.com/library/system.servicemodel.webhttpbinding.aspx) in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the [WebHttpBinding.MaxBufferSize](https://msdn.microsoft.com/library/system.servicemodel.webhttpbinding.maxbuffersize.aspx) property is always equal to the value of this property.  <br/><br/>Default value: 65536<br/>Maximum value: 2147483647 |
+    | Maximum received message size (bytes) | Enter the maximum size, in bytes, for a message including headers, to be received on the wire. The size of the messages is bound by the amount of memory allocated for each message. You can use this property to limit exposure to denial of service (DoS) attacks. <br/><br/>The logic appa adapter leverages the [WebHttpBinding class](/dotnet/api/system.servicemodel.webhttpbinding) in the buffered transfer mode to communicate with an endpoint. For the buffered transport mode, the [WebHttpBinding.MaxBufferSize](/dotnet/api/system.servicemodel.webhttpbinding.maxbuffersize) property is always equal to the value of this property.  <br/><br/>Default value: 65536<br/>Maximum value: 2147483647 |
 
 7. **Optional**. In the **Messages** tab, use the **Outbound HTTP Headers** property to add any custom headers on the outgoing message. 
 8. Select **OK** to save your configuration. 
@@ -317,8 +317,8 @@ You can create a receive port and receive location using the File adapter. Be su
 
 ## Next
 
-[What are Logic Apps](https://azure.microsoft.com/documentation/articles/app-service-logic-what-are-logic-apps/)  
+[What are Logic Apps](/azure/logic-apps/logic-apps-overview)  
 
-[Create a logic app](https://azure.microsoft.com/documentation/articles/app-service-logic-create-a-logic-app/)
+[Create a logic app](/azure/logic-apps/quickstart-create-first-logic-app-workflow)
 
 [Using adapters in BizTalk Server](../core/using-adapters.md)

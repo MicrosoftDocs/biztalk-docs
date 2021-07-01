@@ -40,7 +40,7 @@ Many companies use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkse
 
 ## Reference
 
-- [Getting Started with SQL Server 2008 Failover Clustering](https://go.microsoft.com/fwlink/?LinkId=130375) (https://go.microsoft.com/fwlink/?LinkId=130375)
+- [Getting Started with SQL Server 2008 Failover Clustering](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server) (https://go.microsoft.com/fwlink/?LinkId=130375)
 
 - [White Paper: SQL Server 2008 Failover Clustering](https://go.microsoft.com/fwlink/?LinkId=189522) (https://go.microsoft.com/fwlink/?LinkId=189522)
 
