@@ -44,7 +44,7 @@ BAM supports two types of data aggregation:
   
 3.  A solutions developer uses the **DirectEventStream** class to import events into the BAM Primary Import database.  
   
-    -   For information about the **DirectEventStream** class, see [DirectEventStream Class](/previous-versions/).  
+    -   For information about the **DirectEventStream** class, see [DirectEventStream Class](/dotnet/api/microsoft.biztalk.bam.eventobservation.directeventstream).  
   
 4.  Run the update cube Data Transformation Services (DTS) package.  
   
