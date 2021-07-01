@@ -27,7 +27,7 @@ There are cases in which the SQL Notifications services generator may not keep u
 
 2.  Get the Notification Services configuration file. At the command prompt, type: **cscript ProcessBamNSFiles.vbs -Get config.xml adf.xml \<PimaryImport database server\> \< PimaryImport database name\>**.
 
-3.  Modify or add the \<QuantumDuration\> element under the \<ApplicationExecutionSettings\> node in the in the adf.xml file. For more information on the QuantumDuration element, see [https://go.microsoft.com/fwlink/?LinkId=78803](https://go.microsoft.com/fwlink/?LinkId=78803).
+3.  Modify or add the \<QuantumDuration\> element under the \<ApplicationExecutionSettings\> node in the in the adf.xml file. For more information on the QuantumDuration element, see [https://go.microsoft.com/fwlink/?LinkId=78803](/previous-versions/sql/sql-server-2005/ms145837(v=sql.90)).
 
 4.  At the command prompt, type: **cscript ProcessBamNSFiles.vbs -Update  config.xml adf.xml  \<PimaryImport database server\> \< PimaryImport database name\>.**
 

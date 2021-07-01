@@ -63,7 +63,7 @@ Use the File receive adapter to read messages from files, and submit them to the
   
  Any change to the last write-time of files in the watched directory or subtree causes a change notification wait operation to return. The operating system detects a change to the last write-time only when the file is written to the disk. For operating systems that use extensive caching, detection occurs only when the cache is sufficiently flushed.  
   
- For more information about the **FindFirstChangeNotification** function see [https://msdn.microsoft.com/library/windows/desktop/aa364417(v=vs.85).aspx](https://msdn.microsoft.com/library/windows/desktop/aa364417(v=vs.85).aspx).  
+ For more information about the **FindFirstChangeNotification** function see [https://msdn.microsoft.com/library/windows/desktop/aa364417(v=vs.85).aspx](/windows/win32/api/fileapi/nf-fileapi-findfirstchangenotificationa).  
   
 ### File Receive Adapter Batching Support
   
@@ -86,4 +86,4 @@ Use the File receive adapter to read messages from files, and submit them to the
   
 -   [Configure the File adapter](../core/configure-the-file-adapter.md) 
   
--   [Restrictions when configuring the File adapter](../core/restrictions-when-configuring-the-file-adapter.md)  
+-   [Restrictions when configuring the File adapter](../core/restrictions-when-configuring-the-file-adapter.md)

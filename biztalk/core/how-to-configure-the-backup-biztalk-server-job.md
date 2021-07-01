@@ -57,10 +57,10 @@ To configure this job, you'll need to:
   
 * Configure the SQL Server Agent service to run under a domain account (recommended, although local accounts can be used), with a mapped user login on each instance of SQL Server.  
 
-* To use an Azure blob storage account, you need a [general purpose storage account](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account#create-a-storage-account), a container within your blob storage account, a [shared access signature](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url#SAS) (SAS), and a [SQL credential using the SAS](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url#credential). Once created, have your blob service endpoint URL ready, which is something like https://<em>yourstorageaccount</em>.blob.core.windows.net/*containername*. 
+* To use an Azure blob storage account, you need a [general purpose storage account](/azure/storage/common/storage-create-storage-account#create-a-storage-account), a container within your blob storage account, a [shared access signature](/sql/relational-databases/backup-restore/sql-server-backup-to-url#SAS) (SAS), and a [SQL credential using the SAS](/sql/relational-databases/backup-restore/sql-server-backup-to-url#credential). Once created, have your blob service endpoint URL ready, which is something like https://<em>yourstorageaccount</em>.blob.core.windows.net/*containername*. 
 
     > [!TIP]
-    > If you don't have an existing blob storage account configured with a SAS, then the [SAS PowerShell script](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url#SAS) can create it, and the container. [SQL Server Backup to URL](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url) provides an overview, and the specific steps.
+    > If you don't have an existing blob storage account configured with a SAS, then the [SAS PowerShell script](/sql/relational-databases/backup-restore/sql-server-backup-to-url#SAS) can create it, and the container. [SQL Server Backup to URL](/sql/relational-databases/backup-restore/sql-server-backup-to-url) provides an overview, and the specific steps.
   
 ## Configure the job  
   
@@ -182,5 +182,5 @@ The **sp_ForceFullBackup** stored procedure in the **BizTalkMgmtDb** database ca
 ## Next Steps  
  [Configure the Destination System for Log Shipping](../core/how-to-configure-the-destination-system-for-log-shipping.md)   
  [Schedule the Backup BizTalk Server Job](../core/how-to-schedule-the-backup-biztalk-server-job.md)  
- [Azure storage accounts](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)  
- [SQL Server Backup to URL](https://docs.microsoft.com/sql/relational-databases/backup-restore/sql-server-backup-to-url)
+ [Azure storage accounts](/azure/storage/common/storage-create-storage-account)  
+ [SQL Server Backup to URL](/sql/relational-databases/backup-restore/sql-server-backup-to-url)

@@ -46,11 +46,11 @@ With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
 
 ## Cluster a BizTalk host and the SSO master secret server on the same Windows Server cluster
 
-1. If the cluster is not configured with a clustered Distributed Transaction Coordinator (MSDTC) resource, cluster MSDTC on a Windows Server failover cluster by following the steps in [Checklist: Creating an MS DTC Resource in a Windows Server 2008 Failover Cluster](https://go.microsoft.com/fwlink/p/?LinkID=129677) (https://go.microsoft.com/fwlink/p/?LinkID=129677).
+1. If the cluster is not configured with a clustered Distributed Transaction Coordinator (MSDTC) resource, cluster MSDTC on a Windows Server failover cluster by following the steps in [Checklist: Creating an MS DTC Resource in a Windows Server 2008 Failover Cluster](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725955(v=ws.10)) (https://go.microsoft.com/fwlink/p/?LinkID=129677).
 
 2. Install and configure the SSO service on the Windows Server cluster by following the steps in [Cluster the Master Secret Server](how-to-cluster-the-master-secret-server1.md). Since you will be running BizTalk Server on the Windows Server cluster, install all required BizTalk Server components even though you will only be configuring the SSO components at this time.
 
-3. Cluster IIS on the BizTalk Server computer by following the steps documented in [Microsoft Knowledge Base article 970759 "Configuring IIS 7.0 in a Microsoft Windows Server 2008 failover cluster"](https://go.microsoft.com/fwlink/p/?LinkId=152793) (<https://go.microsoft.com/fwlink/p/?LinkId=152793>). Create the clustered IIS Web service in the same cluster group as the clustered SSO service.
+3. Cluster IIS on the BizTalk Server computer by following the steps documented in [Microsoft Knowledge Base article 970759 "Configuring IIS 7.0 in a Microsoft Windows Server 2008 failover cluster"](/troubleshoot/iis/configure-w3svc-wsfc) (<https://go.microsoft.com/fwlink/p/?LinkId=152793>). Create the clustered IIS Web service in the same cluster group as the clustered SSO service.
 
 4. Move the cluster group that contains the clustered SSO service to one of the cluster nodes, and log on to this cluster node.
 
@@ -67,7 +67,7 @@ With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
 
 ## Cluster a BizTalk host and SSO (non master secret server) on the same Windows Server cluster when the SSO master secret server is remote
 
-1. If the cluster is not configured with a clustered Distributed Transaction Coordinator (MSDTC) resource, cluster MSDTC on a Windows Server failover cluster by following the steps in [Checklist: Creating an MS DTC Resource in a Windows Server 2008 Failover Cluster](https://go.microsoft.com/fwlink/p/?LinkID=129677) (https://go.microsoft.com/fwlink/p/?LinkID=129677).
+1. If the cluster is not configured with a clustered Distributed Transaction Coordinator (MSDTC) resource, cluster MSDTC on a Windows Server failover cluster by following the steps in [Checklist: Creating an MS DTC Resource in a Windows Server 2008 Failover Cluster](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725955(v=ws.10)) (https://go.microsoft.com/fwlink/p/?LinkID=129677).
 
 2. Create domain groups with the names **SSO Administrators** and **SSO Affiliate Administrators**. To create a clustered instance of the SSO service, you must create the **SSO Administrators** and **SSO Affiliate Administrators** groups as domain groups.
 
@@ -150,7 +150,7 @@ With [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-
         >
         >  Verify that the master secret server name is correct and that it is available. Secret Server Name: ENTSSO Error Code: 0x800706D9, there are no more endpoints available from the endpoint mapper.
 
-16. Cluster IIS on the BizTalk Server computer by following the steps documented in [Microsoft Knowledge Base article 970759 "Configuring IIS 7.0 in a Microsoft Windows Server 2008 failover cluster"](https://go.microsoft.com/fwlink/p/?LinkId=152793) (<https://go.microsoft.com/fwlink/p/?LinkId=152793>). Create the clustered IIS web service in the same cluster group as the clustered SSO service.
+16. Cluster IIS on the BizTalk Server computer by following the steps documented in [Microsoft Knowledge Base article 970759 "Configuring IIS 7.0 in a Microsoft Windows Server 2008 failover cluster"](/troubleshoot/iis/configure-w3svc-wsfc) (<https://go.microsoft.com/fwlink/p/?LinkId=152793>). Create the clustered IIS web service in the same cluster group as the clustered SSO service.
 
 17. In Failover Cluster Management, right click the clustered service or application that contains the clustered Enterprise Single Sign-On service and then click **Bring this service or application online** to start all of the resources in the clustered service or application.
 

@@ -26,7 +26,7 @@ A general pipeline component is a .NET or COM component that implements the foll
   
 - IComponentUI Interface (COM) [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
   
-- [IPersistPropertyBag](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.ole.interop.ipersistpropertybag)
+- [IPersistPropertyBag](/dotnet/api/microsoft.visualstudio.ole.interop.ipersistpropertybag)
   
   A general pipeline component gets one message from the BizTalk Messaging Engine, processes it, and returns it to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] engine. General components can also be implemented so that they do not return messages to the server. Such components are called consuming components because the component receives messages but does not produce any result messages.  
   

@@ -32,12 +32,12 @@ This topic describes how to use the BizTalk Server Administration console to con
   
 - **Keep messages if authentication fails.** If this option is selected, the receive port will check message credentials using Party resolution and keep the message in the suspended queue if authentication fails.  
   
-  For instructions on creating and configuring a party, see [How to Create a Party](https://msdn.microsoft.com/library/f6feca1d-bc83-4fb6-981d-26c9e0d53044). For more information about party resolution authentication, see [Authenticating the Sender of a Message](../core/authenticating-the-sender-of-a-message.md) and [Inbound Message Authentication](../core/inbound-message-authentication.md).  
+  For instructions on creating and configuring a party, see [Create a Party](managing-parties.md). For more information about party resolution authentication, see [Authenticating the Sender of a Message](../core/authenticating-the-sender-of-a-message.md) and [Inbound Message Authentication](../core/inbound-message-authentication.md).  
   
 ## Prerequisites  
  To perform the procedure in this topic, you must be logged on with an account that is a member of the BizTalk Server Administrators group. For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
-### To configure authentication options for a receive port  
+## Configure authentication options for a receive port  
   
 1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   

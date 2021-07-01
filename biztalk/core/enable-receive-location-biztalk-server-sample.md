@@ -86,7 +86,7 @@ The Enable Receive Location sample demonstrates how to enable a receive location
 
  The script file EnableRecLoc.vbs contains detailed comments with further explanation about the operations that it performs.
 
- For more information, see Windows Management Instrumentation at [https://go.microsoft.com/fwlink/?LinkId=21102](https://go.microsoft.com/fwlink/?LinkId=21102).
+ For more information, see Windows Management Instrumentation at [/windows/win32/wmisdk/wmi-start-page).
 
 ## See Also
  [Admin-WMI (BizTalk Server Samples Folder)](../core/admin-wmi-biztalk-server-samples-folder.md)
