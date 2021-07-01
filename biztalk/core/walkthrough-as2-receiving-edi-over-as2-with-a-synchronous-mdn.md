@@ -91,7 +91,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 ### Configuring the Walkthrough  
  This section describes the procedures to configure the walkthrough.  
 
-##### To deploy the message schema  
+#### Deploy the message schema  
 
 1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the project [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Schemas\Schemas.btproj.  
 
@@ -99,13 +99,13 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
    >  This project, which is shipped for the AS2 tutorial, includes an 864 schema for use with the test message.  
 
    > [!NOTE]
-   >  This topic assumes that you have already added a reference from your application to the BizTalk EDI Application, which contains EDI schemas, pipelines, and orchestrations. If not, see [How to Add a Reference to the BizTalk Server EDI Application](/previous-versions/).  
+   >  This topic assumes that you have already added a reference from your application to the BizTalk EDI Application, which contains EDI schemas, pipelines, and orchestrations. If not, see [Add a Reference to the BizTalk Server EDI Application](step-1-prepare-for-the-edi-interface-developer-tutorial.md#to-add-reference-to-the-biztalk-edi-application).
 
 2. Right-click the **Schemas** project in the Solution Explorer, and then click **Properties**. Click the **Signing** tab in the project designer, check the **Sign the Assembly** checkbox, and from the drop-down, select **New** and provide the necessary values to create a strong name key file. Save the changes and close the project properties window.  
 
 3. Build and deploy Schemas.btproj.  
 
-##### To enable the BTS ISAPI Filter  
+#### Enable the BTS ISAPI Filter  
 
 1. Click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.  
 
@@ -129,7 +129,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 
 8. Click **OK** and when prompted to allow the ISAPI extension, click **Yes**.  
 
-##### To configure the Contoso Web page  
+#### Configure the Contoso Web page  
 
 1. In IIS Manager, right-click **Application Pools** and select **Add Application Pool**.  
 
@@ -160,7 +160,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 
 13. In the **Authentication** page, select **Anonymous Authentication** and verify that the **Status** is **Enabled**. If the **Status** is **Disabled**, click **Enable** in the **Actions** pane.  
 
-##### To specify that your virtual directory is not managed by Windows SharePoint Services  
+#### Specify that your virtual directory is not managed by Windows SharePoint Services  
 
 1.  If Windows SharePoint Services is installed on your computer, click **Start**, point to **All Programs**, point to **Administrative Tools**, and then click **SharePoint 3.0 Central Administration**.  
 
@@ -173,7 +173,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 
 4.  In the **Define Managed Paths** page, under **Add a New Path**, and in the **Path** text box, enter **Contoso**. Under **Type**, click **Excluded Path**, and then click **OK**.  
 
-##### To create a receive port to receive the EDI over AS2 message and return an MDN  
+#### Create a receive port to receive the EDI over AS2 message and return an MDN  
 
 1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the **Receive Ports** node under the **BizTalk Application 1** node, point to **New**, and then click **Request-Response Receive Port**.  
 
@@ -195,7 +195,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 
 10. In the **Receive Locations** pane of the BizTalk Server Administration Console, right-click the receive location, and then click **Enable**.  
 
-##### To create a send port to send the EDI payload to a local folder  
+#### Create a send port to send the EDI payload to a local folder  
 
 1. In Windows Explorer, create a local folder named **EDI_to_Contoso** to send the EDI payload to.  
 
@@ -213,7 +213,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 
 8. In the **Send Ports** pane of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, right-click the send port, and then click **Start**.  
 
-##### To create a party and a business profile for Fabrikam  
+#### Create a party and a business profile for Fabrikam  
 
 1. Right-click the **Parties** node in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, point to **New**, and then click **Party**.  
 
@@ -229,7 +229,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
    > [!NOTE]
    >  When you create a party, a profile is also created. You can rename and use that profile instead of creating a new one. To rename a profile, right-click the profile and select **Properties**. In the **General** page, specify a name for the profile.  
 
-##### To create a party and a business profile for Contoso  
+#### Create a party and a business profile for Contoso  
 
 1. Right-click the **Parties** node in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, point to **New**, and then click **Party**.  
 
@@ -245,7 +245,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
    > [!NOTE]
    >  When you create a party, a profile is also created. You can rename and use that profile instead of creating a new one. To rename a profile, right-click the profile and select **Properties**. In the **General** page, specify a name for the profile.  
 
-##### To create an AS2 agreement between the two business profiles  
+#### Create an AS2 agreement between the two business profiles  
 
 1.  Right-click **Fabrikam_Profile**, point to **New**, and then click **Agreement**.  
 
@@ -276,7 +276,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 
 10. Click **OK**. The newly added agreement is listed in the **Agreements** section of the **Parties and Business Profiles** pane. The newly added agreement is enabled by default.  
 
-##### To create an X12 agreement between the two business profiles  
+#### Create an X12 agreement between the two business profiles  
 
 1. Right-click **Fabrikam_Profile**, point to **New**, and then click **Agreement**.  
 
@@ -335,7 +335,7 @@ This walkthrough provides a set of step-by-step procedures that creates a soluti
 ### Testing the Walkthrough  
  This section provides information on how to test the walkthrough.  
 
-##### To test the solution  
+#### Test the solution  
 
 1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the Sender.csproj project in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Sender folder.  
 
