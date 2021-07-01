@@ -28,9 +28,7 @@ The previous version of the Siebel adapter that shipped with Microsoft BizTalk S
   
 - The operations that can be performed using the adapter.  
   
-- Physical port configuration in the BizTalk Server Administration console  
-  
-  These differences are explained in the topics within [Migrating BizTalk Projects Created Using the Previous Version of the Siebel Adapter](/previous-versions/).  
+- Physical port configuration in the BizTalk Server Administration console 
   
   However, you can make changes to the BizTalk project created using the previous version of the adapter and make it work with the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  
   
@@ -58,7 +56,7 @@ The previous version of the Siebel adapter that shipped with Microsoft BizTalk S
 - **Schema for the operation you wish to perform on the Siebel business component**. This tutorial involves a BizTalk project that performs an Insert operation on the Account business component. The schema generated for the Account business component is AccountService_Account_x5d.xsd. This schema is generated using the vPrev Siebel adapter.  
   
   > [!NOTE]
-  >  Unlike the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], the vPrev Siebel adapter does not support generating metadata for specific operations on a business component. By default, the adapter generates schema for all the operations supported on the business component. For more such differences between the vPrev Siebel adapter and the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], see [Migrating BizTalk Projects Created Using the Previous Version of the Siebel Adapter](/previous-versions/).  
+  >  Unlike the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], the vPrev Siebel adapter does not support generating metadata for specific operations on a business component. By default, the adapter generates schema for all the operations supported on the business component.
   
 - **Request message**. The request message to perform an Insert operation on the Account business component. The schema of the request message conforms to the schema of the Insert operation as surfaced by the vPrev Siebel adapter.  
   
