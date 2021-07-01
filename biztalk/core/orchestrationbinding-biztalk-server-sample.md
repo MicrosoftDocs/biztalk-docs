@@ -24,7 +24,7 @@ The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.Explo
 
 - You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.
 
-- The Windows PowerShell script example requires the Windows PowerShell execution policy to allow script execution. For more information see [Examining the Execution Policy](/previous-versions//bb648601(v=vs.85)).
+- The Windows PowerShell script example requires the Windows PowerShell execution policy to allow script execution. For more information see [Examining the Execution Policy](/previous-versions/bb648601(v=vs.85)).
 
 ## What This Sample Does
  This sample demonstrates using the administrative objects in the **Microsoft.BizTalk.ExplorerOM** namespace to manage orchestrations. The sample demonstrates the following operations using the **ExplorerOM** objects:
