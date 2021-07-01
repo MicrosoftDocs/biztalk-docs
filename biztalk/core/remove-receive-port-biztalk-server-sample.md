@@ -74,7 +74,7 @@ The Remove Receive Port sample demonstrates how to remove one or more receive po
 ## Comments
  All tasks that you can perform in the BizTalk Server Administration console can also be performed by using script that accesses the Windows WMI object model.
 
- The script file RemoveReceivePort.vbs contains detailed comments with further explanation about the operations that it performs. For more information, see Windows Management Instrumentation at [https://go.microsoft.com/fwlink/?LinkId=21102](/documentation/).
+ The script file RemoveReceivePort.vbs contains detailed comments with further explanation about the operations that it performs. For more information, see [Windows Management Instrumentation](/windows/win32/wmisdk/wmi-start-page).
 
 ## See Also
  [Admin-WMI (BizTalk Server Samples Folder)](../core/admin-wmi-biztalk-server-samples-folder.md)
