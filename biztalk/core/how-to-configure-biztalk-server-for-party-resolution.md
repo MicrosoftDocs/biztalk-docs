@@ -43,7 +43,7 @@ The following procedure lists the steps that you have to follow to configure [!I
   
 ### To create a party to represent your partner  
   
-1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, create a party for the Partner A. For more information about how to create a Party, see [How to Create a Party](/previous-versions/).  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, create a party for the Partner A. For more information about how to create a Party, see [Create a Party](managing-parties.md).  
   
 2. In the **Certificates** properties, select the public key signing certificate to use to identify this party, Partner A.  
   
