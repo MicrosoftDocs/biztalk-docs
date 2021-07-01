@@ -10,7 +10,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "MandiOhlinger"
-ms.author: "valthom"
+ms.author: "mandia"
 manager: "anneta"
 ---
 
