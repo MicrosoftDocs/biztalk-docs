@@ -26,15 +26,15 @@ manager: "anneta"
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
   
-### To create and deploy the sample X12 schema  
+## Create and deploy the sample X12 schema  
   
 1. Start **Microsoft Visual Studio** as an administrator.  
   
 2. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\Schemas\Schemas.sln.  
   
    > [!NOTE]
-   >  This topic assumes that you have already added a reference from your application to the BizTalk EDI Application, which contains EDI schemas, pipelines, and orchestrations. If not, see [How to Add a Reference to the BizTalk Server EDI Application](/previous-versions/).  
-  
+   >  This topic assumes that you have already added a reference from your application to the BizTalk EDI Application, which contains EDI schemas, pipelines, and orchestrations. If not, see [Add a Reference to the BizTalk Server EDI Application](step-1-prepare-for-the-edi-interface-developer-tutorial.md#to-add-reference-to-the-biztalk-edi-application). 
+
 3. Right-click the Schemas project, and then click **Properties**. Click the **Signing** tab in project designer. Check the **Sign the Assembly** checkbox, for **Choose a strong key name file**, select **\<New…\>** and enter `Schemas.snk`. Clear **Protect my key file with a password** and then click **OK**. Close the project properties dialog and save the changes.  
   
 4. Build and deploy Schemas.btproj.  
