@@ -56,7 +56,7 @@ To show how all of this works in practice and to introduce a simple technique fo
 
 - **Message Properties**. The track point associated with the dis-assembler (DA) component in the inbound pipeline represents the tracking of 10 properties from the inbound message. For more information about how to promote properties for tracking, see [Promoting Properties](../core/promoting-properties.md).
 
-- **Message Body**. The two message body (MB) points from the figure represent the points at which message bodies are tracked. For more information on how to set up message body tracking, see [Configuring Tracking Using the BizTalk Server Administration Console](/previous-versions/).
+- **Message Body**. The two message body (MB) points from the figure represent the points at which message bodies are tracked. For more information on how to set up message body tracking, see [Manage and Track BizTalk artifacts](managing-artifacts.md).
 
   **Test Scenario Architecture**
 
