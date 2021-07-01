@@ -104,7 +104,7 @@ foreach (BizTalkMessage msg in messages)
 > [!NOTE]
 >  Before installing and running this sample, you must verify that BAM has been installed and is functioning. If BAM has not been installed, this sample will not work.  
   
-#### To compile and install the support files for this sample  
+### Compile and install the support files for this sample  
   
 1.  In a command window, navigate to the following folder:  
   
@@ -130,7 +130,7 @@ foreach (BizTalkMessage msg in messages)
 ## Running This Sample  
  Use the following procedure to run the OperationsOM sample.  
   
-#### To compile and run the sample  
+### Compile and run the sample  
   
 1.  Click **Start**, select **All Programs**, select **Microsoft BizTalk Server**, and then select **BizTalk Server Administration**.  
   
@@ -154,7 +154,14 @@ foreach (BizTalkMessage msg in messages)
      On the **Build** menu, click **Rebuild Solution**. When the build is complete, use Windows Explorer to navigate to `<Samples Path>\Admin\OperationsOM\OperationSamples\bin\Debug,` and then double-click **OperationsSamples.exe**.  
   
 ## Classes or Methods Used in This Sample  
- [Microsoft.BizTalk.Operations.BizTalkOperations](/previous-versions/)&#124; [Microsoft.BizTalk.Operations.MessageFlow](/previous-versions/)&#124; [Microsoft.BizTalk.Operations.SendPortInstance](/previous-versions/)&#124; [Microsoft.BizTalk.Operations.RoutingFailureInstance](/previous-versions/)&#124; [Microsoft.BizTalk.Operations.OrchestrationInstance](/previous-versions/)&#124; [Microsoft.BizTalk.Operations.MSMQtInstance](/previous-versions/)&#124; [Microsoft.BizTalk.Operations.TrackedServiceInstance](/previous-versions/)  
+
+- [Microsoft.BizTalk.Operations.BizTalkOperations](/dotnet/api/microsoft.biztalk.operations.biztalkoperations)
+- [Microsoft.BizTalk.Operations.MessageFlow](/dotnet/api/microsoft.biztalk.operations.messageflow)
+- [Microsoft.BizTalk.Operations.SendPortInstance](/dotnet/api/microsoft.biztalk.operations.sendportinstance)
+- [Microsoft.BizTalk.Operations.RoutingFailureInstance](/dotnet/api/microsoft.biztalk.operations.routingfailureinstance)
+- [Microsoft.BizTalk.Operations.OrchestrationInstance](/dotnet/api/microsoft.biztalk.operations.orchestrationinstance)
+- [Microsoft.BizTalk.Operations.MSMQtInstance](/dotnet/api/microsoft.biztalk.operations.msmqtinstance)
+- [Microsoft.BizTalk.Operations.TrackedServiceInstance](/dotnet/api/microsoft.biztalk.operations.trackedserviceinstance)  
   
 ## See Also  
  [Admin-OperationsOM (BizTalk Server Samples Folder)](../core/admin-operationsom-biztalk-server-samples-folder.md)
