@@ -78,7 +78,7 @@ This topic describes items that you should consider when planning your Business 
 
  A member of the securityadmin or sysadmin group can grant permissions by running sp_grantdbaccess and sp_grantlogin.
 
- For more information about roles in SQL Server, see "Roles in the SQL Server Architecture" at [https://go.microsoft.com/fwlink/?LinkId=56205](/documentation/).
+ For more information about roles in SQL Server, see [SQL Server Level Roles](/sql/relational-databases/security/authentication-access/server-level-roles).
 
 ## Development planning
  **Connection strings for PivotTables**. The BAM Manager utility does not always change the connection strings for real-time aggregation (RTA) PivotTable definitions during deployment. This occurs when the RTA PivotTable has preexisting OLAP connection strings that have been manually edited and the casing of the value key is incorrect. For example, in this line from the BAM definition XML file the key is RTARef rather than the expected RtaRef:
