@@ -36,7 +36,7 @@ You can delete an application from the BizTalk group. This removes all of its da
   
 -   You cannot delete an application if it contains a send port group of which a send port in another application is a member. You must unenlist the member send port before you can delete the application. For instructions, see [How to Unenlist a Send Port or Send Port Group](../core/how-to-unenlist-a-send-port-or-send-port-group.md).  
   
--   You cannot delete an application if it contains a send port that is referenced by a party. You can delete the reference from the party, delete the send port, or move the send port to a different application. For instructions on performing these tasks, see [How to View or Edit a Party](/previous-versions/), [How to Delete a Send Port](../core/how-to-delete-a-send-port.md), or [How to Move an Artifact to a Different Application](../core/how-to-move-an-artifact-to-a-different-application.md).  
+-   You cannot delete an application if it contains a send port that is referenced by a party. You can delete the reference from the party, delete the send port, or move the send port to a different application. For instructions on performing these tasks, see [View or Edit a Party](managing-parties.md), [How to Delete a Send Port](../core/how-to-delete-a-send-port.md), or [How to Move an Artifact to a Different Application](../core/how-to-move-an-artifact-to-a-different-application.md).  
   
 -   You cannot delete the default application. If you want to delete it, you must first make another application the default. For instructions, see [How to Change the Default Application](../core/how-to-change-the-default-application.md).  
   
@@ -47,9 +47,7 @@ You can delete an application from the BizTalk group. This removes all of its da
 ## Prerequisites  
  To perform the procedures in this topic, you must be logged on with an account that is a member of the BizTalk Server Administrators group. For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
-## To delete a BizTalk application  
-  
-#### Using the BizTalk Server Administration console  
+## Delete a BizTalk app using BizTalk Server Administration  
   
 1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   
@@ -63,7 +61,7 @@ You can delete an application from the BizTalk group. This removes all of its da
   
     If BizTalk Server cannot delete any of the application artifacts, the delete operation fails. In this case, BizTalk Server attempts to roll back the delete operation.  
   
-#### Using the command line  
+## Delete a BizTalk app using the command line  
   
 1. Open a command prompt as follows: Click **Start**, click **Run**, type `cmd`, and then click **OK**.  
   
