@@ -36,7 +36,7 @@ manager: "anneta"
 
 ### To create a WCF-Custom port
 
-1. When you generate schema for an RFC using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], a binding file is also added to the BizTalk project. You can import this binding file into your BizTalk application to create a WCF-Custom send-receive port. For instructions on importing a binding file, see [Import Bindings](../../core/how-to-import-bindings-into-a-biztalk-application.md).
+1. When you generate schema for an RFC using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], a binding file is also added to the BizTalk project. You can import this binding file into your BizTalk application to create a WCF-Custom send-receive port. For instructions on importing a binding file, see [Import Bindings](../../core/importing-bindings2.md).
 
 2. After you import the binding file, a send port is created under the **Send Ports** folder in the BizTalk Server Administration console.
 
