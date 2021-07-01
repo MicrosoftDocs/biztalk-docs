@@ -38,7 +38,7 @@ This topic describes how to remove files and settings for a BizTalk application 
 
 - **Remove COM components from the Windows Registry.** To remove COM components from the Windows Registry, use regsvr32. For reference information, see "Regsvr32" in Help for your operating system. This tool is included in both Windows Server 2008 and Windows Vista Professional.
 
-- **Uninstall assemblies from the global assembly cache (GAC).** Assemblies are not automatically uninstalled from the GAC. You can uninstall an assembly from the GAC manually or by using a script. For more information, see [How to Uninstall an Assembly from the GAC](/previous-versions/).
+- **Uninstall assemblies from the global assembly cache (GAC).** Assemblies are not automatically uninstalled from the GAC. You can uninstall an assembly from the GAC manually or by using a script. For more information, see [How to Uninstall an Assembly from the GAC](/dotnet/framework/app-domains/how-to-remove-an-assembly-from-the-gac).
 
 ## Prerequisites
  To remove the files and settings described in this topic, you must be logged on with Write permissions on the Windows Registry, the GAC, or the certificate store, depending on what you want to remove. For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).
