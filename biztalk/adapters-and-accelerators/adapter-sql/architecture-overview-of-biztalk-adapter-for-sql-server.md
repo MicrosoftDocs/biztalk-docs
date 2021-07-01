@@ -46,7 +46,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] is a [!INCLUDE[first
 
   A binding consists of one or more binding elements that stack on top of each other to define how messages are exchanged with the endpoint. At a minimum, a binding must specify the transport and encoding that are used to exchange messages with the endpoint. Message exchange between endpoints occurs over a channel stack that is composed of one or more channels. Each channel is a concrete implementation of one of the binding elements in the binding configured for the endpoint.
 
-The [WCF documentation](https://go.microsoft.com/fwlink/?LinkID=196850) includes more details about [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)], and the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] programming model.
+The [WCF documentation](/dotnet/framework/wcf/) includes more details about [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)], and the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] programming model.
 
  The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes a [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] custom binding, the SQL DB Binding (**Microsoft.Adapters.SQLDB.SQLDBBinding**). By default, this binding contains a single custom transport binding element, the SQL DB Adapter Binding Element (**Microsoft.Adapters.SQLDB.SQLDBAdapter**), which enables operations on a SQL Server database.
 
@@ -63,7 +63,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] implements a set of 
 
 
 ## ADO.NET
- The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] connects with the SQL Server database through ADO.NET. ADO.NET provides consistent access to data sources such as SQL Server, and facilitates retrieval, handling, and modification of the data in the data sources. Read more about [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx.aspx).
+ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] connects with the SQL Server database through ADO.NET. ADO.NET provides consistent access to data sources such as SQL Server, and facilitates retrieval, handling, and modification of the data in the data sources. Read more about [ADO.NET](/dotnet/framework/data/adonet/).
 
  The SQL client provides connectivity to the SQL Server database. You establish a connection to a SQL Server database by providing a connection URI to the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. This connection URI contains the name of the computer on which the SQL Server is installed and the name of the database. For more information about the connection URI, see [Create a connection to SQL Server](../../adapters-and-accelerators/adapter-sql/create-a-connection-to-sql-server.md).
 

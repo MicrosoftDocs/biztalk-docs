@@ -90,7 +90,7 @@ This section provides information about how to use Microsoft [!INCLUDE[btsVStudi
   
 2.  Right-click the package name, and then select **Execute Package**.  
   
-[Run Integration Services (SSIS) Packages](https://docs.microsoft.com/sql/integration-services/packages/run-integration-services-ssis-packages) provides more info. 
+[Run Integration Services (SSIS) Packages](/sql/integration-services/packages/run-integration-services-ssis-packages) provides more info. 
   
 ## Verify the Results  
  After executing the package, you must verify the results by logging on to the SQL Server and navigating to the database to which the Siebel data is imported. Executing the package should have created a table in the destination database. This table should be populated with the values from the Siebel table.  
