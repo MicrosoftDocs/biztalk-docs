@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # OrchestrationBinding (BizTalk Server Sample)
-The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.ExplorerOM](https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.aspx) administrative objects to configure and manage orchestrations.
+The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.ExplorerOM](/dotnet/api/microsoft.biztalk.explorerom) administrative objects to configure and manage orchestrations.
 
 ## Prerequisites
 
@@ -24,18 +24,18 @@ The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.Explo
 
 - You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.
 
-- The Windows PowerShell script example requires the Windows PowerShell execution policy to allow script execution. For more information see [Examining the Execution Policy](https://go.microsoft.com/fwlink/?LinkId=128930).
+- The Windows PowerShell script example requires the Windows PowerShell execution policy to allow script execution. For more information see [Examining the Execution Policy](/previous-versions/bb648601(v=vs.85)).
 
 ## What This Sample Does
  This sample demonstrates using the administrative objects in the **Microsoft.BizTalk.ExplorerOM** namespace to manage orchestrations. The sample demonstrates the following operations using the **ExplorerOM** objects:
 
--   Connecting to the BizTalk Management database by using the[Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer](https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.btscatalogexplorer.aspx) class.
+-   Connecting to the BizTalk Management database by using the[Microsoft.BizTalk.ExplorerOM.BtsCatalogExplorer](/dotnet/api/microsoft.biztalk.explorerom.btscatalogexplorer) class.
 
--   Stopping and starting orchestrations by changing the **Status** property of the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](https://msdn.microsoft.com/library/Microsoft.BizTalk.ExplorerOM.BtsOrchestration.aspx) class.
+-   Stopping and starting orchestrations by changing the **Status** property of the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](/dotnet/api/microsoft.biztalk.explorerom.btsorchestration) class.
 
--   Enlisting and unenlisting orchestrations by changing the **Status** property of the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](https://msdn.microsoft.com/library/Microsoft.BizTalk.ExplorerOM.BtsOrchestration.aspx) class.
+-   Enlisting and unenlisting orchestrations by changing the **Status** property of the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](/dotnet/api/microsoft.biztalk.explorerom.btsorchestration) class.
 
--   Binding and unbinding orchestrations by using the **Ports** collection on the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](https://msdn.microsoft.com/library/Microsoft.BizTalk.ExplorerOM.BtsOrchestration.aspx) class.
+-   Binding and unbinding orchestrations by using the **Ports** collection on the [Microsoft.BizTalk.ExplorerOM.BtsOrchestration](/dotnet/api/microsoft.biztalk.explorerom.btsorchestration) class.
 
 ## Where To Find This Sample
  The sample is located in the following SDK location:
@@ -45,14 +45,12 @@ The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.Explo
  The following table shows the files in this sample and describes their purpose.
 
 
-|                                     File(s)                                     |                                                 Description                                                  |
-|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-|                             OrchestrationBinding.cs                             | [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] source file for operations demonstrated in this sample. |
-| OrchestrationBinding.sln, OrchestrationBinding.csproj, OrchestrationBinding.suo |                                  Solution and project files for the sample.                                  |
+|  File(s) |  Description |
+|---|---|
+|  OrchestrationBinding.cs  | [!INCLUDE[btsVCSharp](../includes/btsvcsharp-md.md)] source file for operations demonstrated in this sample. |
+| OrchestrationBinding.sln, OrchestrationBinding.csproj, OrchestrationBinding.suo | Solution and project files for the sample.|
 
-## Building and Running This Sample
-
-#### To build this sample
+## Build this sample
 
 1. Make sure you have completed the steps for building and initializing the HelloWorld sample. Those steps are provided in [HelloWorld (BizTalk Server Sample)](../core/helloworld-biztalk-server-sample.md).
 
@@ -60,7 +58,7 @@ The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.Explo
 
 3. On the **Build** menu, click **Build Solution**.
 
-#### To run this sample
+## Run this sample
 
 1.  Open a command window and navigate to the following folder:
 
@@ -71,7 +69,7 @@ The Orchestration Binding sample demonstrates using the [Microsoft.BizTalk.Explo
 ## Windows PowerShell Script Example
  The following Windows PowerShell script can be used to demonstrate the same features of the **ExplorerOM** classes.
 
-```
+```powershell
 
 Function RefreshPrompt($oldstatus,$newstatus)
 {

@@ -24,7 +24,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the followin
 
   -   For all other types of statements, the return value is **-1**.
 
-- **ExecuteReader**: Use this operation to execute any arbitrary SQL statements in SQL Server if you want the result set to be returned, if any, as an array of DataSet. For information about DataSet, see “DataSet Class” at [https://go.microsoft.com/fwlink/?LinkID=196853](https://go.microsoft.com/fwlink/?LinkID=196853).
+- **ExecuteReader**: Use this operation to execute any arbitrary SQL statements in SQL Server if you want the result set to be returned, if any, as an array of DataSet. For information about DataSet, see “DataSet Class” at [https://go.microsoft.com/fwlink/?LinkID=196853](/dotnet/api/system.data.dataset).
 
 - **ExecuteScalar**: Use this operation to execute any arbitrary SQL statements in SQL Server to return a single value. This operation returns the value only in the first column of the first row in the result set returned by the SQL statement.
 
@@ -36,4 +36,4 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the followin
   For more information about performing these operations using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], see [ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations by Using BizTalk Server](../../adapters-and-accelerators/adapter-sql/executereader-executescalar-or-executenonquery-in-sql-server-using-biztalk.md).
 
 ## See Also
- [What Operations Can be Performed Using the Adapter?](https://msdn.microsoft.com/library/cc185435(v=bts.10).aspx)
+ [What Operations Can be Performed Using the Adapter?](what-operations-are-supported-by-the-sql-adapter.md)

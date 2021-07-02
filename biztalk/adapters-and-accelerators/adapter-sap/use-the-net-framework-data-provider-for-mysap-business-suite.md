@@ -45,7 +45,7 @@ This section provides instructions on using the [!INCLUDE[adoprovidersaplong](..
   
 -   [Syntax for an EXEC Statement in SAP](../../adapters-and-accelerators/adapter-sap/syntax-for-an-exec-statement-in-sap.md)  
   
--   [Support for Executing SAP Queries](https://msdn.microsoft.com/library/dd788118.aspx)  
+-   [Support for Executing SAP Queries](./execquery-command-options-in-sap.md)  
   
 -   [Invoking RFCs and BAPIs by using the EXEC Command in SAP](../../adapters-and-accelerators/adapter-sap/invoke-rfcs-and-bapis-using-the-exec-command-in-sap.md)  
   

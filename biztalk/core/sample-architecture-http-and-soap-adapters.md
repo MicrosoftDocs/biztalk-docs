@@ -41,7 +41,7 @@ This topic describes the sample architecture when you use the HTTP and SOAP adap
  This sample architecture contains the components as discussed in the following sections.
 
 ## Perimeter network―Internet
- When you use the SOAP and HTTP adapters, we recommend that you use reverse proxy rules (the TMG Server implementation is called Web Publishing) to relay the message from the Internet-facing firewall (Firewall 1) to the firewall that helps protect the E-Business domain (Firewall 2), and from this firewall to the BizTalk Server that runs the isolated host. For more information about Web Publishing rules, see the Microsoft Web site at [https://go.microsoft.com/fwlink/?LinkID=205340](https://go.microsoft.com/fwlink/?LinkID=205340) (https://go.microsoft.com/fwlink/?LinkID=205340).
+ When you use the SOAP and HTTP adapters, we recommend that you use reverse proxy rules (the TMG Server implementation is called Web Publishing) to relay the message from the Internet-facing firewall (Firewall 1) to the firewall that helps protect the E-Business domain (Firewall 2), and from this firewall to the BizTalk Server that runs the isolated host. For more information about Web Publishing rules, see the Microsoft Web site at [https://go.microsoft.com/fwlink/?LinkID=205340](/previous-versions/tn-archive/cc984490(v=technet.10)) (https://go.microsoft.com/fwlink/?LinkID=205340).
 
 > [!NOTE]
 >  When you use reverse proxy, you do not need Web servers in the perimeter network.

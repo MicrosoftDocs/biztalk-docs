@@ -23,7 +23,7 @@ To test your published Web service, you can create an ASP.NET Web client applica
 
  The walkthrough creates an ASP.NET Web client application, adds a Web reference, and provides sample code to show you how to access your published Web service. The walkthrough takes you through running the application in debug mode.
 
- For information and procedures about creating an XML Web service client project, see "Walkthrough: Accessing an XML Web Service Using Visual Basic or Visual C#" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [https://go.microsoft.com/fwlink/?LinkId=62263](https://go.microsoft.com/fwlink/?LinkId=62263). You can replace the Web service used in this example, TempConvert1, with a BizTalk published Web service.
+ For information and procedures about creating an XML Web service client project, see "Walkthrough: Accessing an XML Web Service Using Visual Basic or Visual C#" in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Help Collection at [https://go.microsoft.com/fwlink/?LinkId=62263](/previous-versions/xb5th1ba(v=vs.90)). You can replace the Web service used in this example, TempConvert1, with a BizTalk published Web service.
 
 ## See Also
  [Testing Published Web Services](../core/testing-published-web-services.md)

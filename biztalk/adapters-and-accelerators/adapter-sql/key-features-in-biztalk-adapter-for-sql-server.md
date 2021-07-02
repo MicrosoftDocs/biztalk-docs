@@ -77,11 +77,11 @@ x
 - **Enhanced polling**: The SQL adapter supports two additional types of polling: **TypedPolling** and **XmlPolling**. For information about these polling types, see [Support for Inbound Calls Using Polling](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-inbound-calls-using-polling.md).
 - **Run operations on artifacts in multiple schemas**: Apart from the default schema (dbo), adapter clients can execute operations on artifacts in other schemas in the SQL Server database. The user credentials used to connect using the SQL adapter must have access to those schemas in the SQL Server database.
 
-  For more information, see [SQL Server database schemas](https://go.microsoft.com/fwlink/?LinkId=130148).
+  For more information, see [SQL Server database schemas](/previous-versions/sql/sql-server-2008-r2/ms365789(v=sql.105)).
 
-- **[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine)**: The SQL Adapter can query SQL Server Always Encrypted columns. The **ColumnEncryptionSetting** binding property enables or disables the functionality to get decrypted/encrypted column values from an Always Encrypted database.
+- **[Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine)**: The SQL Adapter can query SQL Server Always Encrypted columns. The **ColumnEncryptionSetting** binding property enables or disables the functionality to get decrypted/encrypted column values from an Always Encrypted database.
 
-  When the ColumnEncryptionSetting binding is set to **Disabled** (default), the SQL adapter disables Always Encrypted for the query. When set to **Enabled**, the SQL adapter [enables Always Encrypted for the query](https://docs.microsoft.com/dotnet/api/system.data.sqlclient.sqlcommandcolumnencryptionsetting).
+  When the ColumnEncryptionSetting binding is set to **Disabled** (default), the SQL adapter disables Always Encrypted for the query. When set to **Enabled**, the SQL adapter [enables Always Encrypted for the query](/dotnet/api/system.data.sqlclient.sqlcommandcolumnencryptionsetting).
 
   This feature applies to:
 

@@ -31,4 +31,4 @@ You can run a sample Single Sign-On (SSO) project from Internet Explorer.
   
 ## See Also
   
-[Using Single Sign-On](../core/using-single-sign-on4.md)
+[Using Single Sign-On](./security-in-biztalk-adapter-for-tibco-ems.md)

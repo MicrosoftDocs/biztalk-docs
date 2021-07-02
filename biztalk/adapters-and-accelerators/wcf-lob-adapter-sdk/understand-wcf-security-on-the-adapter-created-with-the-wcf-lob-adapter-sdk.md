@@ -22,7 +22,7 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] exte
   
  Security plays a major part in any enterprise architecture solution. You can leverage the confidentiality, integrity, authentication, and authorization features provided in the WCF security model to help secure the adapter from security threats. You must also consider the transport and message-level security between the adapter and the target system to protect the communication between these two entities. Even though WCF provides a rich set of WS-* specifications, implementation of these advanced security standards in your adapter will depend on the capabilities provided by the line-of-business system.  
   
- For more information about [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] security including an overview, concepts, common scenarios, and best practices, see [Windows Communication Foundation Security](https://msdn.microsoft.com/library/ms732362.aspx).
+ For more information about [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] security including an overview, concepts, common scenarios, and best practices, see [Windows Communication Foundation Security](/dotnet/framework/wcf/feature-details/security).
   
 ## See Also  
  [Plan and design an adapter using the WCF LOB Adapter SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/plan-and-design-an-adapter-using-the-wcf-lob-adapter-sdk.md)

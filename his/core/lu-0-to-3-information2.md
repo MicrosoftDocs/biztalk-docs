@@ -15,6 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # LU 0 to 3 Information
+
 LU 0 to 3 information is provided in the **lu_0_3_info_sect** structure as defined below.  
   
 ## Syntax  
@@ -26,16 +27,15 @@ typedef struct lu_0_3_info_sect {
 } LU_0_3_ INFO_SECT;  
 ```  
   
-## Members  
- lu_0_3_init_sect_len  
- The length of the initial LU 0 to 3 information section, including this parameter, up to the first link overlay group. The length does not include any previous information sections.  
+## Members
+
+*lu_0_3_init_sect_len*  
+The length of the initial LU 0 to 3 information section, including this parameter, up to the first link overlay group. The length does not include any previous information sections.  
   
- num_lu_0_3s  
- The number of LU groups. This is the number of times the lu_0_3 overlay group is repeated.  
+*num_lu_0_3s*  
+The number of LU groups. This is the number of times the lu_0_3 overlay group is repeated.  
   
- For each configured LU, an **lu_0_3_overlay** structure for the LU is provided as defined below.  
-  
-## Syntax  
+For each configured LU, an **lu_0_3_overlay** structure for the LU is provided as defined below.  
   
 ```  
 typedef struct lu_0_3_overlay {  
@@ -58,124 +58,128 @@ typedef struct lu_0_3_overlay {
   
 ## Defined by IBM ES for OS/2 version 1.0  
   
-## Members  
- lu_0_3_entry_len  
- Size of this LU entry.  
+The **lu_0_3_overlay** structure as defined by IBM ES for OS/2 version 1.0 contains the following members:
   
- access_type  
- The access type (AP_3270 or AP_LUA).  
+*lu_0_3_entry_len*  
+Size of this LU entry.  
   
- lu_type  
- The LU type (AP_LU0, AP_LU1, AP_LU2, or AP_LU3).  
+*access_type*  
+The access type (AP_3270 or AP_LUA).  
   
- lu_daf  
- The network addressable unit of the LU for which the information is displayed.  
+*lu_type*  
+The LU type (AP_LU0, AP_LU1, AP_LU2, or AP_LU3).  
   
- lu_short_name  
- The 1-byte LU short name (ASCII).  
+*lu_daf*  
+The network addressable unit of the LU for which the information is displayed.  
   
- lu_long_name  
- The 8-byte ASCII LU long name.  
+*lu_short_name*  
+The 1-byte LU short name (ASCII).  
   
- session_id  
- The LU-LU session ID.  
+*lu_long_name*  
+The 8-byte ASCII LU long name.  
   
- dlc_name  
- DLC name set to one of the following:  
+*session_id*  
+The LU-LU session ID.  
   
- ETHERAND  
-  IBMTRNET  
-  IBMPCNET  
-  SDLC  
-  TWINAX (Not supported by Host Integration Server)  
-  X25DLC  
-  adapter_num  
- The DLC adapter number for host link.  
+*dlc_name*  
+DLC name set to one of the following:  
   
- dest_addr_len  
- Length of the destination adapter address.  
+- ETHERAND  
+- IBMTRNET  
+- IBMPCNET  
+- SDLC  
+- TWINAX (Not supported by Host Integration Server)  
+- X25DLC 
+
+*adapter_num*  
+The DLC adapter number for host link.  
   
- dest_addr  
- The destination adapter address.  
+*dest_addr_len*  
+Length of the destination adapter address.  
   
- sscp_lu_sess_state  
- Specifies the state of the SSCP-LU session.  
+*dest_addr*  
+The destination adapter address.  
   
- lu_lu_sess_state  
- Specifies the state of the LU-LU session. The state can be one of the following:  
+*sscp_lu_sess_state*  
+Specifies the state of the SSCP-LU session.  
   
- AP_NOT_BOUND  
- The LU-LU session is not bound.  
+*lu_lu_sess_state*  
+Specifies the state of the LU-LU session. The state can be one of the following:  
   
- AP_BOUND  
- The LU-LU session is bound.  
+- AP_NOT_BOUND  
+  The LU-LU session is not bound.  
   
- AP_BINDING  
- The LU-LU session is in the process of binding.  
+- AP_BOUND  
+  The LU-LU session is bound.  
   
- AP_UNBINDING  
- The LU-LU session is in the process of unbinding.  
+- AP_BINDING  
+  The LU-LU session is in the process of binding.  
   
- link_id  
- Name of local logical link station being used.  
+- AP_UNBINDING  
+  The LU-LU session is in the process of unbinding.  
+  
+*link_id*  
+Name of local logical link station being used.  
   
 ## Returned by Host Integration Server  
   
-## Members  
- lu_0_3_entry_len  
- Size of this LU entry.  
+The **lu_0_3_overlay** structure returned by Host Integration Server contains the following members:
   
- access_type  
- The access type (AP_3270 or AP_LUA).  
+*lu_0_3_entry_len*  
+Size of this LU entry.  
   
- lu_type  
- The LU type (AP_LU0, AP_LU1, AP_LU2, or AP_LU3).  
+*access_type*  
+The access type (AP_3270 or AP_LUA).  
   
- lu_daf  
- The network addressable unit of the LU for which the information is displayed.  
+*lu_type*  
+The LU type (AP_LU0, AP_LU1, AP_LU2, or AP_LU3).  
   
- lu_short_name  
- The 1 byte ASCII LU short name.  
+*lu_daf*  
+The network addressable unit of the LU for which the information is displayed.  
   
- lu_long_name  
- The 8 byte ASCII LU long name.  
+*lu_short_name*  
+The 1 byte ASCII LU short name.  
   
- session_id  
- The LU-LU session ID.  
+*lu_long_name*  
+The 8 byte ASCII LU long name.  
   
- dlc_name  
- DLC name set to one of the following:  
+session_id  
+The LU-LU session ID.  
   
- IBMTRNET  
-  SDLC  
-  TWINAX (Not supported by Host Integration Server)  
-  X25DLC  
-  adapter_num  
- The DLC adapter number for host link. Always set to zero.  
+*dlc_name*  
+DLC name set to one of the following:  
   
- dest_addr_len  
- Length of the destination adapter address.  
+- IBMTRNET  
+- SDLC  
+- TWINAX (Not supported by Host Integration Server)  
+- X25DLC  
+
+*adapter_num*  
+The DLC adapter number for host link. Always set to zero.  
   
- dest_addr  
- The destination adapter address.  
+*dest_addr_len*  
+Length of the destination adapter address.  
   
- sscp_lu_sess_state  
- Specifies the state of the SSCP-LU session.  
+*dest_addr*  
+The destination adapter address.  
   
- lu_lu_sess_state  
- Specifies the state of the LU-LU session. The state can be one of the following:  
+*sscp_lu_sess_state*  
+Specifies the state of the SSCP-LU session.  
   
- AP_NOT_BOUND  
- The LU-LU session is not bound.  
+*lu_lu_sess_state*  
+Specifies the state of the LU-LU session. The state can be one of the following:  
   
- AP_BOUND  
- The LU-LU session is bound.  
+- AP_NOT_BOUND  
+  The LU-LU session is not bound.  
   
- AP_BINDING  
- The LU-LU session is in the process of binding.  
+- AP_BOUND  
+  The LU-LU session is bound.  
   
- AP_UNBINDING  
- The LU-LU session is in the process of unbinding.  
+- AP_BINDING  
+  The LU-LU session is in the process of binding.  
   
- link_id  
- Name of connection.
+- AP_UNBINDING  
+  The LU-LU session is in the process of unbinding.  
+  
+*link_id*  
+Name of connection.

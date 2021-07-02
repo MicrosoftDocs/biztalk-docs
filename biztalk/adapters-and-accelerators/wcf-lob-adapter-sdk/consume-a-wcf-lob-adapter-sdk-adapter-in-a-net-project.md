@@ -76,7 +76,7 @@ To consume an adapter built using the [!INCLUDE[afproductnameshort](../../includ
 10. You can now use the proxy in your application.  
 
 ## Adding a Service Reference by Using svcutil.exe  
- Svcutil.exe is a command-line utility that can be used to retrieve metadata and generate .NET CLR proxy classes, which can then be added to a [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] project. For more information about svcutil.exe, see [ServiceModel Metadata Utility Tool (Svcutil.exe)](https://msdn.microsoft.com/library/aa347733.aspx). 
+ Svcutil.exe is a command-line utility that can be used to retrieve metadata and generate .NET CLR proxy classes, which can then be added to a [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] project. For more information about svcutil.exe, see [ServiceModel Metadata Utility Tool (Svcutil.exe)](/dotnet/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe). 
 
  To generate a proxy class from an adapter hosted in IIS  
 

@@ -89,7 +89,7 @@ The following steps describe how to prepare the computer for installing the Busi
     -   `iisvdir /create "Default Web Site" CSRWebApp "%BTSSolutionsPath%\BPM\CSRWebApp"`
 
         > [!NOTE]
-        >  For more information about iisvdir.vbs, see the Microsoft TechNet Web site at [https://go.microsoft.com/fwlink/?LinkId=67830](https://go.microsoft.com/fwlink/?LinkId=67830).
+        >  For more information about iisvdir.vbs, see the Microsoft TechNet Web site at [https://go.microsoft.com/fwlink/?LinkId=67830](/previous-versions/orphan-topics/ws.10/cc773119(v=ws.10)).
 
 6.  At a command prompt, run the following command to create a new IIS virtual directory for OrderBroker_Proxy.
 

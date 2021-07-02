@@ -30,7 +30,7 @@ Custom inline functoids provide functionality by copying implementation code dir
 ### Providing Inline Code with SetScriptBuffer  
  To configure your custom functoid to use inline script:  
   
-1. Call **AddScriptTypeSupport** with [Microsoft.BizTalk.BaseFunctoids.ScriptType](https://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx) to enable inline code and set the supported script type.  
+1. Call **AddScriptTypeSupport** with [Microsoft.BizTalk.BaseFunctoids.ScriptType](using-basefunctoid.md) to enable inline code and set the supported script type.  
   
 2. Invoke **SetScriptBuffer** to set the code to use for the custom functoid. You will call this function three times with the `functionNumber` parameter for custom cumulative functoids and once for custom noncumulative functoids.  
   
@@ -45,7 +45,7 @@ Custom inline functoids provide functionality by copying implementation code dir
   
 1. In the constructor, declare that your custom functoid has variable inputs by setting **HasVariableInputs** to `true`.  
   
-2. In the constructor, call **AddScriptTypeSupport** with [Microsoft.BizTalk.BaseFunctoids.ScriptType](https://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx) to enable inline code and set the supported script type.  
+2. In the constructor, call **AddScriptTypeSupport** with [Microsoft.BizTalk.BaseFunctoids.ScriptType](using-basefunctoid.md) to enable inline code and set the supported script type.  
   
 3. Override **GetInlineScriptBuffer** to construct and return the code to use in the map for your custom functoid. Use the parameters to build the correct code by checking the `scriptType` and `numParams`. The final parameter, `functionNumber`, should be 0. This is because cumulative functions have a fixed number of inputs and do not use this mechanism.  
   

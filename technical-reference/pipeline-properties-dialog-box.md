@@ -13,13 +13,11 @@ f1_keywords:
 
 # Pipeline Properties Dialog Box
 
- 
-
 You can use the **Pipeline Properties** window to view information on all the pipelines that are deployed in the application, as well as default pipelines that are deployed in every BizTalk installation. You can also configure message tracking options for pipelines. Pipeline properties are configured in Microsoft Visual Studio. The **Description** box is an exception; you can edit it in the **Pipeline Properties** window.
 
 ## General Tab
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -48,12 +46,11 @@ You can use the **Pipeline Properties** window to view information on all the pi
 </tbody>
 </table>
 
-
 ## Tracking Tab
 
 Pipelines and orchestrations use virtually the same tracking options. You can track promoted message properties from pipelines just as you can from orchestrations.
 
-## UIElement List
+The following table lists the UIElements in the **Tracking** tab and what they are used for.
 
 <table>
 <thead>
@@ -86,7 +83,6 @@ This check box is available only if <strong>Message send and receive events</str
 </tbody>
 </table>
 
-
 ## See Also
 
 [About Pipelines, Stages, and Components](https://msdn.microsoft.com/library/aa577959\(v=bts.80\))  
@@ -94,4 +90,3 @@ This check box is available only if <strong>Message send and receive events</str
 [Investigating Orchestration, Port, and Message Failures](https://msdn.microsoft.com/library/aa560126\(v=bts.80\))  
 [Receive Pipelines](https://msdn.microsoft.com/library/aa561803\(v=bts.80\))  
 [Send Pipelines](https://msdn.microsoft.com/library/aa547976\(v=bts.80\))
-

@@ -41,7 +41,7 @@ You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapt
     grant change notification to <user name>
     ```
 
--   Decide on a TCP port you want ODP.NET to use for receiving database change notifications from Oracle database. Add that port to Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](https://go.microsoft.com/fwlink/?LinkID=196959). You must provide the same port number for the **NotificationPort** binding property. For more information about the binding property, see [Read about the BizTalk Adapter for Oracle E-Business Suite Binding Properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).
+-   Decide on a TCP port you want ODP.NET to use for receiving database change notifications from Oracle database. Add that port to Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](/previous-versions/orphan-topics/ws.11/cc753558(v=ws.11)). You must provide the same port number for the **NotificationPort** binding property. For more information about the binding property, see [Read about the BizTalk Adapter for Oracle E-Business Suite Binding Properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md).
 
 ## In This Section
 

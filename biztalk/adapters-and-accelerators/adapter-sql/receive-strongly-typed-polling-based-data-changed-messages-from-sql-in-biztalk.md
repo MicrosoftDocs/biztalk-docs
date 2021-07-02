@@ -23,7 +23,7 @@ You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-
 > [!IMPORTANT]
 >  If you want to have more than one polling operation in a single BizTalk application, you must specify an **InboundID** connection property as part of the connection URI to make it unique. With a unique connection URI, you can create multiple receive ports that poll the same database, or even the same table in a database. For more information, see [Receive Polling Messages Across Multiple Receive Ports from SQL using Biztalk Server](../../adapters-and-accelerators/adapter-sql/receive-polling-messages-across-multiple-receive-ports-from-sql-using-biztalk.md).  
   
- For more information about how the adapter supports strongly-typed polling, see [Support for Polling](https://msdn.microsoft.com/library/dd788416.aspx). For more information about the message schema for strongly-typed polling, see [Message Schemas for the Polling and TypedPolling Operations](../../adapters-and-accelerators/adapter-sql/message-schemas-for-the-polling-and-typedpolling-operations.md).  
+ For more information about how the adapter supports strongly-typed polling, see [Support for Polling](./polling-in-sql-server-using-the-sql-adapter.md). For more information about the message schema for strongly-typed polling, see [Message Schemas for the Polling and TypedPolling Operations](../../adapters-and-accelerators/adapter-sql/message-schemas-for-the-polling-and-typedpolling-operations.md).  
   
 ## How this Topic Demonstrates Strongly-typed Polling  
  This topic demonstrates how to use strongly-typed polling to map the polling message to another schema. This topic shows how to create a BizTalk project and generate schema for **TypedPolling** operation. Before generating schema for **TypedPolling** operation, you must do the following:  
@@ -242,7 +242,8 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
    The orchestration is complete after you create the Mapper. You must now build the BizTalk solution and deploy it to a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. For more information, see [Building and Running Orchestrations](../../core/building-and-running-orchestrations.md).
   
 ## Configure the BizTalk Application  
- After you have deployed the BizTalk project, the orchestration you created earlier is listed under the **Orchestrations** pane in the BizTalk Server Administration console. You must use the BizTalk Server Administration console to configure the application. For a walkthrough, see [Walkthrough: Deploying a Basic BizTalk Application](Walkthrough:%20Deploying%20a%20Basic%20BizTalk%20Application.md).
+
+After you have deployed the BizTalk project, the orchestration you created earlier is listed under the **Orchestrations** pane in the BizTalk Server Administration console. You must use the BizTalk Server Administration console to configure the application. For a walkthrough, see [Walkthrough: Deploying a Basic BizTalk Application](../../core/walkthrough-deploying-a-basic-biztalk-application.md).
   
  Configuring an application involves:  
   

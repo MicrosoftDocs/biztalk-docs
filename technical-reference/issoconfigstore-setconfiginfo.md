@@ -14,13 +14,11 @@ dev_langs:
 
 # ISSOConfigStore::SetConfigInfo
 
- 
-
-The **SetConfigInf**o method sets the configuration information in the config store.
+The **SetConfigInfo** method sets the configuration information in the config store.
 
 ## Syntax
 
-``` c++
+```cpp
   
 HRESULT SetConfigInfo(  
 BSTR bstrApplication,  
@@ -29,7 +27,7 @@ IPropertyBag* ppbConfigInfo
 );  
 ```
 
-``` vb
+```vb
   
 SetConfigInfo(  
 bstrApplication As BSTR,  
@@ -38,7 +36,7 @@ ppbConfigInfo As IPropertyBag
 )  
 ```
 
-## Remarks
+## Parameters
 
 `bstrApplication`  
 \[in\] String containing the external application name.
@@ -87,7 +85,6 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 </tbody>
 </table>
 
-
 ## Remarks
 
 This method can be used for originally creating the config info or for updating the config info.
@@ -102,7 +99,7 @@ If the ***bstrSSOServer*** parameter is NULL, the SSO server location is obtaine
 
 ## Example
 
-```C#
+```csharp
   
 ConfigStore  
 bstrApplication  
@@ -116,4 +113,3 @@ ppbConfigInfo
 [ISSOConfigStore::GetConfigInfo](issoconfigstore-getconfiginfo.md)  
 [ISSOConfigStore Interface (COM)](issoconfigstore-interface-com.md)  
 [Programming with Enterprise Single Sign-On](https://msdn.microsoft.com/library/aa704508\(v=bts.80\))
-

@@ -25,7 +25,7 @@ You can use Enterprise Single Sign-On (SSO) Administration MMC or the command li
   
 ## Before you begin
 
-- If SSO Administration is installed on a remote computer, you can run a remote [IssueTicket](https://docs.microsoft.com/biztalk/core/technical-reference/issoticket-issueticket-method) operation. All traffic between the SSO Administration module and the Runtime module (ENTSSO service) is encrypted.  
+- If SSO Administration is installed on a remote computer, you can run a remote [IssueTicket](/biztalk/core/technical-reference/issoticket-issueticket-method) operation. All traffic between the SSO Administration module and the Runtime module (ENTSSO service) is encrypted.  
   
 - Using the ssomanage.exe command line utility, you can enter the ticket timeout at the Affiliate Application level. You can do this only when an update of the application is made, not when the application is created.
   

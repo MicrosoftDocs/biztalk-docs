@@ -80,7 +80,7 @@ manager: "anneta"
 
 ### To create an SMTP send port
 
-1. Follow the instructions under the “How to Configure an SMTP Send Port with the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration Console” section at [https://go.microsoft.com/fwlink/?LinkId=141549](https://go.microsoft.com/fwlink/?LinkId=141549). Name the port as **EmailResponse**.
+1. Follow the [How to Configure an SMTP Send Port](../../core/how-to-configure-an-smtp-send-port.md) steps. Name the port as **EmailResponse**.
 
 2. As part of the port configuration, specify the e-mail address for the Purchases department for the **To** property.
 

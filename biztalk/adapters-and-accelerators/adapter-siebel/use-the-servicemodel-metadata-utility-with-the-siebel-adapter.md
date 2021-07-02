@@ -61,7 +61,7 @@ You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a W
 > [!NOTE]
 >  You can set any of the binding properties of the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] in the binding configuration.
 
- For more information about configuring a non-default binding for svcutil.exe, see the "Custom Secure Metadata Endpoint" topic in the WCF documentation at [https://go.microsoft.com/fwlink/?LinkId=96077](https://go.microsoft.com/fwlink/?LinkId=96077).
+ For more information about configuring a non-default binding for svcutil.exe, see the "Custom Secure Metadata Endpoint" topic in the WCF documentation at [https://go.microsoft.com/fwlink/?LinkId=96077](/dotnet/framework/wcf/samples/custom-secure-metadata-endpoint).
 
 ## Creating a WCF Client Class with svcutil.exe
  To use svcutil.exe to generate WCF client code for the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], you must supply a connection URI that specifies an **IMetadataExchange** (mex) endpoint and the operation or operations for which you want svcutil.exe to generate code. You must also specify connection credentials for the Siebel system in the connection URI.

@@ -34,13 +34,13 @@ The MSMQ adapter lets you take advantage of Microsoft Message Queuing (also know
 
  For more information about Message Queuing, see the following topics available in the Microsoft TechNet Library:
 
--   **Message Queuing Design Guide** at [https://go.microsoft.com/fwlink/?LinkId=137080](https://go.microsoft.com/fwlink/?LinkId=137080).
+-   **Message Queuing Design Guide** at [https://go.microsoft.com/fwlink/?LinkId=137080](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731344(v=ws.10)).
 
--   **Message Queuing Operations Guide** at [https://go.microsoft.com/fwlink/?LinkId=137079](https://go.microsoft.com/fwlink/?LinkId=137079).
+-   **Message Queuing Operations Guide** at [https://go.microsoft.com/fwlink/?LinkId=137079](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731022(v=ws.10)).
 
--   **Message Queuing Troubleshooting Guide** at [https://go.microsoft.com/fwlink/?LinkId=137081](https://go.microsoft.com/fwlink/?LinkId=137081).
+-   **Message Queuing Troubleshooting Guide** at [https://go.microsoft.com/fwlink/?LinkId=137081](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730982(v=ws.10)).
 
--   **Message Queuing Technical Reference** at [https://go.microsoft.com/fwlink/?LinkId=137082](https://go.microsoft.com/fwlink/?LinkId=137082).
+-   **Message Queuing Technical Reference** at [https://go.microsoft.com/fwlink/?LinkId=137082](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753070(v=ws.10)).
 
 ## See Also
  [What Is the MSMQ Adapter?](../core/what-is-the-msmq-adapter.md)

@@ -33,4 +33,4 @@ Tracked message event data is based upon events (for example, when a service beg
  You can track the contents of a message as well as the promoted properties of a message. Tracking message events defines these actions as **Message Body** tracking and **Message Property** tracking. Although envelopes appear in the message event tracking output, you cannot track message properties from them.  
   
 ## See Also  
- [Configuring Tracking Using the BizTalk Server Administration Console](/previous-versions/)
+ [Manage and Track BizTalk Server artifacts](managing-artifacts.md)

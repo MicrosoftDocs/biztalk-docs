@@ -26,7 +26,7 @@ manager: "anneta"
 
 - **XmlPolling**. Enables you to use SELECT statements or stored procedures that use a FOR XML clause and return data as XML messages. This operation returns the polling message as an XML message.
 
-   For more information about FOR XML clause, see [https://go.microsoft.com/fwlink/?LinkId=131402](https://go.microsoft.com/fwlink/?LinkId=131402).
+   For more information about FOR XML clause, see [https://go.microsoft.com/fwlink/?LinkId=131402](/sql/relational-databases/xml/for-xml-sql-server).
 
   For more information about polling in the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see [Receive Polling-based Data-changed Messages from SQL Server by Using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-polling-based-data-changed-messages-from-sql-server-using-biztalk.md).
 
@@ -86,4 +86,4 @@ manager: "anneta"
  For more information about query notification in [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)], see [Receive SQL Query Notifications by Using BizTalk Server](../../adapters-and-accelerators/adapter-sql/receive-sql-query-notifications-using-biztalk-server.md).
 
 ## See Also
- [What Operations Can be Performed Using the Adapter?](https://msdn.microsoft.com/library/cc185435(v=bts.10).aspx)
+ [What Operations Can be Performed Using the Adapter?](what-operations-are-supported-by-the-sql-adapter.md)

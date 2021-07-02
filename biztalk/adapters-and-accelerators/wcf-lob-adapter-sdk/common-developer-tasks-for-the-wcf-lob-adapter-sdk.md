@@ -33,24 +33,24 @@ Adapter developers design and develop WCF-based adapters to line-of-business sys
  
 -   [Key Components of the WCF LOB Adapter SDK](key-components-of-the-wcf-lob-adapter-sdk.md) 
   
--   [Extending the Channel Layer](https://docs.microsoft.com/dotnet/framework/wcf/extending/extending-the-channel-layer)  
+-   [Extending the Channel Layer](/dotnet/framework/wcf/extending/extending-the-channel-layer)  
   
 
 **Tutorials**  
   
 -   [Tutorials to learn the WCF LOB Adapter SDK](tutorials-to-learn-the-wcf-lob-adapter-sdk.md) 
   
-    To the adapter consumer, consuming an adapter is the same as consuming a WCF service. Get started learning about WCF at [Developing Service-Oriented Applications with WCF)](https://docs.microsoft.com/dotnet/framework/wcf).
+    To the adapter consumer, consuming an adapter is the same as consuming a WCF service. Get started learning about WCF at [Developing Service-Oriented Applications with WCF)](/dotnet/framework/wcf).
   
     The following topics may be useful for adapter consumers:  
   
--   [What Is Windows Communication Foundation](https://docs.microsoft.com/dotnet/framework/wcf/whats-wcf)  
+-   [What Is Windows Communication Foundation](/dotnet/framework/wcf/whats-wcf)  
   
--   [Fundamental Windows Communication Foundation Concepts](https://docs.microsoft.com/dotnet/framework/wcf/fundamental-concepts)  
+-   [Fundamental Windows Communication Foundation Concepts](/dotnet/framework/wcf/fundamental-concepts)  
   
--   [Hosting Services](https://docs.microsoft.com/dotnet/framework/wcf/hosting-services)  
+-   [Hosting Services](/dotnet/framework/wcf/hosting-services)  
   
--   [Building Clients](https://docs.microsoft.com/dotnet/framework/wcf/building-clients)  
+-   [Building Clients](/dotnet/framework/wcf/building-clients)  
   
 ## See Also  
  [Get started with the with the WCF LOB Adapter SDK](get-started-with-the-with-the-wcf-lob-adapter-sdk.md)

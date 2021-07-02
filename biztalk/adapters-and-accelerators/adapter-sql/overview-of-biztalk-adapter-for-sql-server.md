@@ -30,9 +30,9 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the SQL Serv
   
 ## In This Section  
   
--   [How Does the Adapter Connect to SQL Server?](https://msdn.microsoft.com/library/dd788114.aspx) 
+-   [How Does the Adapter Connect to SQL Server?](./connect-to-sql-server-using-the-adapter.md) 
   
--   [How Does the Adapter Surface SQL Server Metadata?](https://msdn.microsoft.com/library/dd787941.aspx)  
+-   [How Does the Adapter Surface SQL Server Metadata?](./browse-search-and-get-sql-server-metadata.md)  
   
 -  [What Operations Can be Performed Using the Adapter?](https://msdn.microsoft.com/library/cc185219(v=bts.10).aspx)  
   

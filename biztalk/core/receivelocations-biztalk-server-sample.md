@@ -22,7 +22,7 @@ The ReceiveLocations sample demonstrates how to create receive locations in the 
 
 - You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.
 
-- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information see [Examining the Execution Policy](https://go.microsoft.com/fwlink/?LinkId=128930).
+- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information see [Examining the Execution Policy](/previous-versions//bb648601(v=vs.85)).
 
 ## What This Sample Does
  This sample demonstrates using the **ExplorerOM** administrative classes to create and configure receive ports and receive locations. A Windows PowerShell example script is also included in this topic. The sample performs the following operations:

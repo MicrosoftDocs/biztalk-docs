@@ -180,7 +180,7 @@ You can enable tracing in BAM to help troubleshoot problems within the following
 ## BAM Alerting
  Enabling tracing for BAM alerting helps you troubleshoot alert delivery failures.
 
- BAM alerting is built on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Notification Services infrastructure. To enable tracing on BAM alerting, see the Notification Services troubleshooting topics at [https://go.microsoft.com/fwlink/?LinkId=79416](https://go.microsoft.com/fwlink/?LinkId=79416).
+ BAM alerting is built on the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Notification Services infrastructure. To enable tracing on BAM alerting, see the Notification Services troubleshooting topics at [https://go.microsoft.com/fwlink/?LinkId=79416](/previous-versions/sql/sql-server-2005/ms166477(v=sql.90)).
 
 ## BAM Interceptors
  To enable end-to-end tracing of the BAM interceptors, you modify the application’s configuration file—either Web.config for Web-hosted applications, or Appname.config for self-hosted applications. The following is an example of how you can modify the file:
