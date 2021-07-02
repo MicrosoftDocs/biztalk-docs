@@ -16,9 +16,11 @@ manager: "anneta"
 ---
 
 # Hardware and Software Requirements for BizTalk Server 2013 and 2013 R2
+
 This topic lists the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2013 and [!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)] requirements.
 
 ##  <a name="BKMK_HardRequirements"></a> Hardware Requirements
+
  The following table shows the minimum hardware requirements for your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer. In a production environment, the volume of traffic may dictate greater hardware requirements for your servers.
 
 
@@ -32,6 +34,7 @@ This topic lists the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalk
  **Community Addition**: [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](https://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx)
 
 ##  <a name="BKMK_SoftRequirements"></a> Software requirements & supported versions
+
  This table lists the minimum software required for running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. You’ll be guided through installation steps for all of these prerequisites in a later section.
 
 
@@ -51,12 +54,15 @@ This topic lists the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalk
 |                      **LOB and enterprise systems**                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  [Supported Line-of-Business (LOB) and Enterprise systems](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx) lists the supported versions.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       [Supported Line-of-Business (LOB) and Enterprise systems](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-and-enterprise-systems.aspx) lists the supported versions.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                     Required when using the adapters in the BizTalk Adapter Pack. <br/><br/> [BizTalk Adapter Pack](../adapters-and-accelerators/biztalk-adapter-pack.md) lists the available system adapters.                                                                                                                                                                                                                                                                                                                                                      |
 
 ##  <a name="BKMK_SPCUSupport"></a> Service Pack and Cumulative Update Support
+
  All service packs, cumulative updates, security updates, and hot fixes are supported on a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. It is strongly encouraged to install the latest update for [!INCLUDE[btsWinNoVersion](../includes/btswinnoversion-md.md)], [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], Visual Studio, and any program installed. Service Packs for Microsoft products are supported based on the baseline support for that product. Refer to [Support Lifecycle Index](/lifecycle/) for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)], Visual Studio, and other Microsoft programs.
 
 ## Next
+
  [Considerations Before Installing BizTalk Server 2013 and 2013 R2](/previous-versions/)
 
 ## See Also
+
  [Installation Overview for BizTalk Server 2013 and 2013 R2](/previous-versions/)
  [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md)
  [Appendix B: Install the Microsoft SharePoint Adapter](../install-and-config-guides/appendix-b-install-the-microsoft-sharepoint-adapter.md)
