@@ -39,7 +39,7 @@ BizTalk Server provides a high availability solution that uses network load bala
 
 * [Improving Fault Tolerance in BizTalk Server by Using a Windows Server failover cluster or Windows Server cluster](https://go.microsoft.com/fwlink/p/?LinkId=154499)
 
-**SQL Server Always On AG** can be used with on-premises environments, and with Azure virtual machines. AG support starts with BizTalk Server 2016, and is supported in any newer versions of BizTalk Server. AG includes primary database replicas, and secondary database replicas. BizTalk Server connects to the primary database replicas, while the secondary database replicas provide redundancy and fail over. [Always On Availability Groups (SQL Server)](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server) provides details on AG works.
+**SQL Server Always On AG** can be used with on-premises environments, and with Azure virtual machines. AG support starts with BizTalk Server 2016, and is supported in any newer versions of BizTalk Server. AG includes primary database replicas, and secondary database replicas. BizTalk Server connects to the primary database replicas, while the secondary database replicas provide redundancy and fail over. [Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server) provides details on AG works.
 
 [BizTalk HA using SQL Server Always On AG](../core/high-availability-using-sql-server-always-on-availability-groups.md) provides more details from a BizTalk-perspective.
 
@@ -66,7 +66,7 @@ Before installing and configuring BizTalk Server in a multicomputer environment,
 
 Additional:
 
-- All BizTalk servers and SQL Servers in a group must have the same remote procedure call (RPC) authentication level applied. The DTC proxy may not correctly authenticate DTC when the computers use different operating systems, are joined to workgroups, or are in different domains that do not trust each other. See [MSDTC Fails to Mutually Authenticate](https://docs.microsoft.com/previous-versions/windows/desktop/ms686976(v=vs.85)).
+- All BizTalk servers and SQL Servers in a group must have the same remote procedure call (RPC) authentication level applied. The DTC proxy may not correctly authenticate DTC when the computers use different operating systems, are joined to workgroups, or are in different domains that do not trust each other. See [MSDTC Fails to Mutually Authenticate](/previous-versions/windows/desktop/ms686976(v=vs.85)).
 
 - If using a firewall, open the required DTC and RPC ports. See [Service overview and network port requirements for Windows](https://support.microsoft.com/kb/832017).
 
@@ -76,7 +76,7 @@ Additional:
 
 When SQL Server is installed on a remote computer:
 
-- [SQL Server Management Tools](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) (newer SQL versions) or SQL Server Client Tools Connectivity (older SQL versions) must be installed on the local BizTalk Server computer when SQL Server is remote. The SQL Server Tools installs the client libraries required to communicate with the remote instance of SQL Server. The version of the SQL Server tools on the local BizTalk Server computer must be the same version that is installed on the remote SQL Server.
+- [SQL Server Management Tools](/sql/ssms/download-sql-server-management-studio-ssms) (newer SQL versions) or SQL Server Client Tools Connectivity (older SQL versions) must be installed on the local BizTalk Server computer when SQL Server is remote. The SQL Server Tools installs the client libraries required to communicate with the remote instance of SQL Server. The version of the SQL Server tools on the local BizTalk Server computer must be the same version that is installed on the remote SQL Server.
 
 - SQL Server OLAP client must be installed on the local computer if you plan to use Analysis Services remotely. The OLAP client may be included with [SQL Server 2016 Feature Pack](https://www.microsoft.com/download/details.aspx?id=52676).
 
@@ -183,7 +183,7 @@ Open BizTalk Server Configuration and choose [Custom Configuration](configure-bi
 In [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md), you can:
 
 - See the supported software requirements for BizTalk Server, including the supported SQL Server versions
-- Install the prerequisite software, including SQL Server. For SQL Server-specific installation steps, see [Install SQL Server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup) or [Install SQL Server 2014](https://docs.microsoft.com/sql/database-engine/install-windows/installation-for-sql-server?view=sql-server-2014).
+- Install the prerequisite software, including SQL Server. For SQL Server-specific installation steps, see [Install SQL Server 2016](/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup) or [Install SQL Server 2014](/sql/database-engine/install-windows/installation-for-sql-server?view=sql-server-2014).
 
 In addition to Database Services that required by the BizTalk Server core functions, BAM also requires the following:
 
@@ -359,7 +359,7 @@ In a multicomputer environment, BizTalk Server supports only domain groups and d
 
 - BizTalk Server supports only Active Directory domain groups and user accounts in multicomputer configurations. Domain groups include Domain Local groups, Global groups, and Universal groups, which are supported in both single computer and multicomputer environments.
 
-- In general, Domain Local Groups are not recommended because their use requires that all of the servers, including SQL Servers, in the BizTalk Server infrastructure belong to the same domain. This consideration does not apply to small networks where all of the servers and user accounts reside in a single domain. [Active Directory groups](https://technet.microsoft.com/library/cc733001.aspx) provides more information.
+- In general, Domain Local Groups are not recommended because their use requires that all of the servers, including SQL Servers, in the BizTalk Server infrastructure belong to the same domain. This consideration does not apply to small networks where all of the servers and user accounts reside in a single domain. [Active Directory groups](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733001(v=ws.11)) provides more information.
 
 - Built-in accounts such as NT AUTHORITY\LOCAL SERVICE, NT AUTHORITY\NETWORK SERVICE, NT AUTHORITY\SERVICE, NT AUTHORITY\SYSTEM, and Everyone are not supported when you install and configure BizTalk Server in a multicomputer environment.
 
@@ -745,8 +745,8 @@ This database contains instance information that specifies how the notification 
 
 1. **Install Active Directory Domain Services**: The first step to install BizTalk Server into a multiple server environment is to install Active Directory domain services for the different BizTalk Server groups and accounts. To create the Active Directory domain, see the following:
 
-   - Windows Server 2012 and newer: [Install Active Directory Domain Services](https://docs.microsoft.com/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
-   - Windows Server 2008 R2: [AD DS Installation and Removal Step-by-Step Guide](https://technet.microsoft.com/library/cc755258(WS.10).aspx)
+   - Windows Server 2012 and newer: [Install Active Directory Domain Services](/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-)
+   - Windows Server 2008 R2: [AD DS Installation and Removal Step-by-Step Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755258(v=ws.10))
 
      > [!IMPORTANT]
      > The BizTalk Server groups described in the **User and Service Accounts Used In BizTalk Server** table (in this topic) must be created before installing BizTalk Server into a multiple server environment.
@@ -768,8 +768,8 @@ This database contains instance information that specifies how the notification 
 
 - **Install SQL Server Failover Clustering**: To provide high availability/fault tolerance for the BizTalk Server databases, it is recommended that the BizTalk Server databases are installed on a SQL Server failover cluster. For information on installing SQL Server failover cluster, see:
 
-  * SQL Server 2016: [Always On Failover Cluster Instances (SQL Server)](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server)
-  * SQL Server 2014: [Windows Server Failover Clustering (WSFC) with SQL Server](https://docs.microsoft.com/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server?view=sql-server-2014)
+  * SQL Server 2016: [Always On Failover Cluster Instances (SQL Server)](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server)
+  * SQL Server 2014: [Windows Server Failover Clustering (WSFC) with SQL Server](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server?view=sql-server-2014)
 
     Once SQL Server is configured for high availability/fault tolerance, then the SQL Server clustered instance can be referenced just as any other SQL Server instance by the BizTalk Server configuration.
 
@@ -777,7 +777,7 @@ This database contains instance information that specifies how the notification 
 
 - **Configure a BizTalk host as a cluster resource**: Running multiple instances of a BizTalk Server host provides high availability/fault tolerance. As a result, configuring a BizTalk host as a cluster resource is not recommended except in particular circumstances. For example, you can confgure a BizTalk host as a cluster resource when accommodating high availability/fault tolerance or for providing ordered delivery for certain BizTalk Server adapters. For more information about when it is appropriate to configure a BizTalk host as a cluster resource, see [Considerations for Running Adapter Handlers within a Clustered Host](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md). Also see [How to Configure a BizTalk Host as a Cluster Resource](../core/how-to-configure-a-biztalk-host-as-a-cluster-resource1.md).
 
-- **Cluster Message Queuing**: See [install and cluster MSMQ](https://docs.microsoft.com/archive/blogs/biztalknotes/how-to-install-and-cluster-msmq-on-windows-server-2012).
+- **Cluster Message Queuing**: See [install and cluster MSMQ](/archive/blogs/biztalknotes/how-to-install-and-cluster-msmq-on-windows-server-2012).
 
 - **Cluster the File System**: See [How to Cluster the File System](https://go.microsoft.com/fwlink/p/?LinkId=189517).
 

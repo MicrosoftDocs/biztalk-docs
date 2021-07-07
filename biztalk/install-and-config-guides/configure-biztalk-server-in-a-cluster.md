@@ -24,8 +24,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
  [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)  
   
- [Configuring BizTalk Server on an Azure VM](https://msdn.microsoft.com/library/azure/jj248689.aspx)  
+ [Configuring BizTalk Server on an Azure VM](/previous-versions/azure/jj248689(v=azure.100))  
   
  [Securing Your BizTalk Server Deployment](../install-and-config-guides/securing-your-biztalk-server-deployment.md)  
   
- 

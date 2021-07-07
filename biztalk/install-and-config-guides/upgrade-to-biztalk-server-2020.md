@@ -49,7 +49,7 @@ The following table lists the supported operating systems that can be upgraded t
 The following table lists the supported SQL Server versions that can be upgraded to BizTalk Server 2020. The SQL Server hosts the databases used by BizTalk Server. “Yes” means BizTalk Server using that SQL Server version can be upgraded. “No” means BizTalk Server using that SQL Server version cannot be upgraded. When “No”, the BizTalk environment must be recreated on a supported SQL Server version. [Hardware and Software Requirements for BizTalk Server 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md) lists the supported SQL Server versions.
 
 > [!TIP]
-> If your SQL Server version isn't supported, or isn't in the following list, then review the SQL Server upgrade documentation. The SQL upgrade covers more versions than what BizTalk supports. For example, if you're using SQL Server 2014, you may be able to upgrade to SQL Server 2016/2017/2019. Then, you can upgrade to BizTalk Server 2020. [Upgrade SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/upgrade-sql-server) lists the SQL Server versions that can be upgraded.
+> If your SQL Server version isn't supported, or isn't in the following list, then review the SQL Server upgrade documentation. The SQL upgrade covers more versions than what BizTalk supports. For example, if you're using SQL Server 2014, you may be able to upgrade to SQL Server 2016/2017/2019. Then, you can upgrade to BizTalk Server 2020. [Upgrade SQL Server](/sql/database-engine/install-windows/upgrade-sql-server) lists the SQL Server versions that can be upgraded.
 
 | SQL Server | BizTalk Server 2016 |
 | --- | --- |
@@ -196,11 +196,11 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 1. Install critical Windows Updates. When the installation completes, it's recommended to restart your computer.
 2. Install Microsoft OLEDB Driver for SQL Server on all BizTalk Server computers.
 3. Install the x86 and x64 versions of Visual C++ 2015-2019 redistributable packages on all BizTalk Server computers.
-4. Upgrade SQL Server to a supported version. For the supported versions, see [Hardware and Software Requirements for BizTalk Server 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md). For more information on upgrading SQL Server, see [Upgrade SQL Server](https://docs.microsoft.com/sql/database-engine/install-windows/upgrade-sql-server).
+4. Upgrade SQL Server to a supported version. For the supported versions, see [Hardware and Software Requirements for BizTalk Server 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md). For more information on upgrading SQL Server, see [Upgrade SQL Server](/sql/database-engine/install-windows/upgrade-sql-server).
 5. Upgrade SQL Server Client Tools. In a multicomputer environment, the Administration tools may be installed on a separate computer. Upgrade the SQL Server Administration Client Tools, including the Management Tools.
 6. Install SQL Server Integration Services. In a multicomputer environment, the BAM Tools may be installed and configured on a separate computer. Install version of SQL Server Integration Services compatible with your target SQL Server.
 7. Create the SSIS Catalog (SSISDB) on SQL Server.
-8. Install Visual Studio. [Hardware and Software Requirements for BizTalk Server 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md) lists the supported versions. Different Visual Studio versions can be installed side-by-side. For more information, see [Visual Studio](https://docs.microsoft.com/visualstudio/install/install-visual-studio-versions-side-by-side).
+8. Install Visual Studio. [Hardware and Software Requirements for BizTalk Server 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md) lists the supported versions. Different Visual Studio versions can be installed side-by-side. For more information, see [Visual Studio](/visualstudio/install/install-visual-studio-versions-side-by-side).
 9. Install Office. [Hardware and Software Requirements for BizTalk Server 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md) lists the supported Office versions. See [Install and use different versions of Office](https://support.office.com/article/Install-and-use-different-versions-of-Office-on-the-same-PC-6EBB44CE-18A3-43F9-A187-B78C513788BF) on the same computer.
 10. Stop the BizTalk Server services and Windows services:
 
@@ -223,7 +223,7 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
     - BizTalkRuleEngineDb
     - BAMAnalysis
 
-    [SQL Server: Backup Overview](https://docs.microsoft.com/sql/relational-databases/backup-restore/backup-overview-sql-server)
+    [SQL Server: Backup Overview](/sql/relational-databases/backup-restore/backup-overview-sql-server)
 
 ## Do the upgrade
 

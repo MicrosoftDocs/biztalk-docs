@@ -19,54 +19,54 @@ highlightedContent:
     # Card 
     - title: Install, config & upgrade
       itemType: how-to-guide
-      url: /biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade
+      url: ./install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md
     # Card
     - title: Technical Guides
       itemType: tutorial
-      url: /biztalk/technical-guides/
+      url: ./technical-guides/index.md
     # Card
     - title: Host Integration Server
       itemType: overview
-      url: https://docs.microsoft.com/host-integration-server
+      url: /host-integration-server
 
 conceptualContent:
   items:
     - title: Get Started
       links:
         - text: What's New
-          url: /biztalk/install-and-config-guides/whats-new-in-biztalk-server-2020
+          url: ./install-and-config-guides/whats-new-in-biztalk-server-2020.md
           itemType: whats-new
         - text: get-started
-          url: /biztalk/core/getting-started-with-biztalk-server
+          url: ./core/getting-started-with-biztalk-server.md
           itemType: how-to-guide
         - text: Scenarios for business solutions
-          url: /biztalk/core/scenarios-for-business-solutions
+          url: ./core/scenarios-for-business-solutions.md
           itemType: overview
         - text: B2B
-          url: /biztalk/core/trading-partner-management-using-biztalk-server
+          url: ./core/trading-partner-management-using-biztalk-server.md
           itemType: overview
     - title: Adapters & Accelerators
       links:
         - text: Adapters & Accelerators
-          url: /biztalk/adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server
+          url: ./adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server.md
           itemType: overview
         - text: Built-in adapters
-          url: /biztalk/core/using-adapters
+          url: ./core/using-adapters.md
           itemType: overview
         - text: BizTalk Adapter Pack
-          url: /biztalk/adapters-and-accelerators/biztalk-adapter-pack
+          url: ./adapters-and-accelerators/biztalk-adapter-pack.md
           itemType: overview
         - text: HL7
-          url: /biztalk/adapters-and-accelerators/fileact-interact/microsoft-biztalk-server-fileact-and-interact-adapters-documentation
+          url: ./adapters-and-accelerators/fileact-interact/microsoft-biztalk-server-fileact-and-interact-adapters-documentation.md
           itemType: overview
         - text: RosettaNet
-          url: /biztalk/adapters-and-accelerators/accelerator-rosettanet/microsoft-biztalk-accelerator-for-rosettanet-documentation
+          url: ./adapters-and-accelerators/accelerator-rosettanet/microsoft-biztalk-accelerator-for-rosettanet-documentation.md
           itemType: overview
         - text: SWIFT
-          url: /biztalk/adapters-and-accelerators/accelerator-swift/microsoft-biztalk-accelerator-for-swift-documentation
+          url: ./adapters-and-accelerators/accelerator-swift/microsoft-biztalk-accelerator-for-swift-documentation.md
           itemType: overview
         - text: BizTalk adapters for host system
-          url: /biztalk/dev-center/his-biztalk-adapters
+          url: ./dev-center/his-biztalk-adapters.md
           itemType: overview
     - title: Announcements
       links:
@@ -122,7 +122,7 @@ additionalContent:
         # Card
         - title: Documentation for developers
           summary: Guidance on creating maps, orchestrations, and pipelines. View the SDK samples and tools.
-          url: /biztalk/core/develop-your-biztalk-applications
+          url: ./core/develop-your-biztalk-applications.md
         # Card
         - title: CodePlex tools and adapters
           summary: Check out some of the great tools and adapters your peers are creating.

@@ -250,7 +250,7 @@ Key links:
 
 [Download BHM](https://www.microsoft.com/download/details.aspx?id=43716)
 [Install BHM](https://social.technet.microsoft.com/wiki/contents/articles/26466.biztalk-server-how-to-install-the-new-biztalk-health-monitor-snap-in.aspx)
-[BHM Official Blog](https://blogs.msdn.microsoft.com/biztalkhealthmonitor/)
+[BHM Official Blog](/archive/blogs/biztalkhealthmonitor/)
 
 ## Create your hosts and host instances
 It is recommended to separate some key tasks into separate hosts. For example, always create a separate host that is dedicated to only tracking. Create another host/host instance that focuses on receiving messages, another host/host instance for sending messages, and another host/host instance for orchestration.
