@@ -53,7 +53,7 @@ sections:
       - question: |
           Does the Microsoft BizTalk Adapter Pack support tracing?  
         answer: |
-          The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] enables adapter clients to enable Windows Communication Foundation (WCF) tracing and adapter-specific tracing. When you enable tracing, you also choose the folder path and file name. So, the traces are stored where you prefer. To view the traces, use the WCF Service Trace Viewer tool. See [Using Service Trace Viewer for Viewing Correlated Traces and Troubleshooting](https://msdn.microsoft.com/library/aa751795.aspx).
+          The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] enables adapter clients to enable Windows Communication Foundation (WCF) tracing and adapter-specific tracing. When you enable tracing, you also choose the folder path and file name. So, the traces are stored where you prefer. To view the traces, use the WCF Service Trace Viewer tool. See [Using Service Trace Viewer for Viewing Correlated Traces and Troubleshooting](/dotnet/framework/wcf/diagnostics/tracing/using-service-trace-viewer-for-viewing-correlated-traces-and-troubleshooting).
           
           For more information about tracing, and other troubleshooting ideas, see: 
           
@@ -78,7 +78,7 @@ sections:
           
           |                                  Tool                                  |                                                                                                                                                                                           Topics in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] core documentation                                                                                                                                                                                            |
           |------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-          | [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] | -   [Using Visual Studio](../core/using-visual-studio.md) <br />-   [Working with BizTalk Projects](../core/working-with-biztalk-projects.md)<br />-   [Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)<br /><br /> Learn more about Visual Studio solutions, projects, and items at [Solutions and Projects in Visual Studio](https://msdn.microsoft.com/library/b142f8e7.aspx). |
+          | [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] | -   [Using Visual Studio](../core/using-visual-studio.md) <br />-   [Working with BizTalk Projects](../core/working-with-biztalk-projects.md)<br />-   [Deploying BizTalk Assemblies from Visual Studio into a BizTalk Application](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)<br /><br /> Learn more about Visual Studio solutions, projects, and items at [Solutions and Projects in Visual Studio](/previous-versions/visualstudio/visual-studio-2015/ide/solutions-and-projects-in-visual-studio). |
           |                         Orchestration Designer                         |                                                                                                                                                                                       [Creating orchestrations using orchestration designer](../core/creating-orchestrations-using-orchestration-designer.md)                                                                                                                                                                                        |
           |                           Pipeline Designer                            |                                                                                                                                                                                                 [Creating pipelines using pipeline designer](../core/creating-pipelines-using-pipeline-designer.md)                                                                                                                                                                                                  |
           |                             BizTalk Mapper                             |                                                                                                                                                                                                         [Creating maps using BizTalk mapper](../core/creating-maps-using-biztalk-mapper.md)                                                                                                                                                                                                          |
@@ -106,7 +106,7 @@ sections:
            [Oracle E-Business Suite: Configure transaction isolation level and transaction timeout](../adapters-and-accelerators/adapter-oracle-ebs/configure-transaction-isolation-level-and-transaction-timeout-with-oracle-ebs.md)  
            [SQL: Configure Transaction Isolation Level and Transaction Timeout](../adapters-and-accelerators/adapter-sql/configure-transaction-isolation-level-and-transaction-timeout-with-sql.md)
           
-           [Isolation Levels in the SQL Database Engine](https://technet.microsoft.com/library/ms189122.aspx) describes the different levels in SQL. 
+           [Isolation Levels in the SQL Database Engine](/previous-versions/sql/sql-server-2008-r2/ms189122(v=sql.105)) describes the different levels in SQL. 
           
   - name: WCF-based adapter FAQs
     questions:
@@ -115,7 +115,7 @@ sections:
         answer: |
            WCF stands for Windows Communication Foundation. WCF is a programming framework developed by Microsoft for building service-oriented applications. WCF is a part of .NET framework, and enables developers to build secure, reliable, and transacted solutions that integrate across platforms and interoperate with existing investments.  
           
-           Related link: [What Is Windows Communication Foundation](https://msdn.microsoft.com/library/ms731082.aspx)  
+           Related link: [What Is Windows Communication Foundation](/dotnet/framework/wcf/whats-wcf)  
           
       - question: |
           What is WCF LOB Adapter SDK?  
