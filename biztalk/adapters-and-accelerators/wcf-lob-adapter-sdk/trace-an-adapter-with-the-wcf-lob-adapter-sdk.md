@@ -20,9 +20,9 @@ manager: "anneta"
   
  The adapter developer can provide a trace source name for the adapter using Microsoft.ServiceModel.Channels.Common.AdapterTrace class. The [!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)] generates a trace wrapper class that can be used by the adapter developer to provide instrumentation in the adapter code.  
   
- For information about WCF tracing, see [Tracing](https://msdn.microsoft.com/library/ms730342.aspx).
+ For information about WCF tracing, see [Tracing](/dotnet/framework/wcf/diagnostics/tracing/).
   
- For information about analyzing traces in WCF, see [Service Trace Viewer Tool (SvcTraceViewer.exe)](https://msdn.microsoft.com/library/ms732023.aspx). 
+ For information about analyzing traces in WCF, see [Service Trace Viewer Tool (SvcTraceViewer.exe)](/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe). 
   
 ## Sample Trace Wrapper Utility Class  
   

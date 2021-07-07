@@ -32,7 +32,7 @@ This topic lists best practices that you should follow as you perform operationa
 - You should decide during the planning stages which information you need to track. This way, after you deploy the project, you can set the tracking options and limit the amount of tracked data to give you only the information you need.
 
   > [!NOTE]
-  >  For more information about best practices related to tracking, see [Planning for Tracking](../technical-guides/planning-for-tracking.md) in this guide and [Health and Activity Tracking](https://go.microsoft.com/fwlink/p/?LinkId=154187) (https://go.microsoft.com/fwlink/p/?LinkId=154187).
+  >  For more information about best practices related to tracking, see [Planning for Tracking](../technical-guides/planning-for-tracking.md) in this guide and [Health and Activity Tracking](../core/health-and-activity-tracking.md) (https://go.microsoft.com/fwlink/p/?LinkId=154187).
 
   **Do not track all messages**
 
@@ -44,7 +44,7 @@ This topic lists best practices that you should follow as you perform operationa
 
   **Adjust throttling based on resource utilization**
 
-- Throttling in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is configured by default to provide good protection for the system. Monitor the performance counters for throttling states to see if throttling is taking place. Then gauge for yourself if the resource on which throttling is based (for example, database size or memory usage) is under or over utilized. Next, adjust the throttling thresholds up or down accordingly. For more information, see [Adjusting Throttling Thresholds: When and Why](https://go.microsoft.com/fwlink/p/?LinkId=154188) (<https://go.microsoft.com/fwlink/p/?LinkId=154188>).
+- Throttling in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is configured by default to provide good protection for the system. Monitor the performance counters for throttling states to see if throttling is taking place. Then gauge for yourself if the resource on which throttling is based (for example, database size or memory usage) is under or over utilized. Next, adjust the throttling thresholds up or down accordingly. For more information, see [Adjusting Throttling Thresholds: When and Why](../core/adjusting-throttling-thresholds-when-and-why.md) (<https://go.microsoft.com/fwlink/p/?LinkId=154188>).
 
   **Use the PassThruTransmit pipeline if possible**
 

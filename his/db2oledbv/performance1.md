@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Performance"
+description: "Learn how to configure the Data Provider to maximize performance."
 title: "Performance1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,10 +15,12 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Performance
+
 This topic will help you maximize performance when using Data Provider.
 
 ## Configuring for Performance
- To improve performance, configure the providers in the following ways.
+
+To improve performance, configure the providers in the following ways.
 
 ### Pool OLE DB resources to reduce connection startup time
  OLE DB Resource Pooling and Provider Connection Pooling may increase performance by reducing connection startup time. Resource Pooling is enabled through OLE DB Service Components that are part of the Windows operating system. You can enable OLE DB Resource Pooling by setting OLE DB initialization properties and registry settings. For more information, see [OLE DB Resource Pooling](https://go.microsoft.com/fwlink/?LinkID=180446) (https://go.microsoft.com/fwlink/?LinkID=180446).

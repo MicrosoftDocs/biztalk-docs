@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Add a Scope Shape"
+description: "Learn how to add a Scope shape that contains a CatchException block to the ReceiveFromIn port in BizTalk Server."
 title: "How to Add a Scope Shape5 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -19,6 +19,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Add a Scope Shape
+
 Follow these steps to add a **Scope**shape.  
   
 ### To add a Scope shape  

@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations"
+description: "Learn about the message schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar operations used by the Microsoft BizTalk Adapter for SQL Server."
 title: "Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,6 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
+
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the ExecuteNonQuery, ExecuteReader, and ExecuteScalar outbound operations at the root level to execute any arbitrary SQL statements in SQL Server.
 
  For more information about:
@@ -25,21 +26,23 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the ExecuteN
 - Performing these operations using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)], see [ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations in SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/executereader-executescalar-or-executenonquery-in-sql-server-using-biztalk.md).
 
 ## Message Structure for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
- The messages in these operations follow a request-response message exchange pattern, and the following table shows the structure of these request and response messages.
+
+The messages in these operations follow a request-response message exchange pattern, and the following table shows the structure of these request and response messages.
 
 |Operation|XML Message|Description|
 |---------------|-----------------|-----------------|
 |ExecuteNonQuery Request|`<ExecuteNonQuery xmlns="http://schemas.microsoft.com/Sql/2008/05/GenericTableOp/">    <Query>[PL/SQL STATEMENT1];[PL/SQL STATEMENT2];…</Query>  </ExecuteNonQuery>`|Within the `<Query>` tag, you can specify multiple PL/SQL statements separated by a semi-colon.|
 |ExecuteNonQuery Response|`<?xml version="1.0" encoding="utf-8" ?> <ExecuteNonQueryResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/GenericTableOp/">   <ExecuteNonQueryResult>[value]</ExecuteNonQueryResult> </ExecuteNonQueryResponse>`|For the UPDATE, INSERT, and DELETE statements, `[value]` represents the number of rows affected by the PL/SQL statements in the *ExecuteNonQuery Request* message. For all other types of statements, `[value]` is -1.|
 |ExecuteReader Request|`<ExecuteReader xmlns="http://schemas.microsoft.com/Sql/2008/05/GenericTableOp/">   <Query>[PL/SQL STATEMENT1];[PL/SQL STATEMENT2];…</Query> </ExecuteReader>`|Within the `<Query>` tag, you can specify multiple PL/SQL statements separated by a semi-colon.|
-|ExecuteReader Response|`<?xml version="1.0" encoding="utf-8" ?>  <ExecuteReaderResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/GenericTableOp/">   <ExecuteReaderResult>     <DataSet>       <Any>[value]</Any>       <Any>[value]</Any>       …     </DataSet>   </ExecuteReaderResult> </ExecuteReaderResponse>`|The result set is the response message of the PL/SQL statements executed in the *ExecuteReader Request* message, and is returned as an array of DataSet. For information about DataSet, see “DataSet Class” at [https://go.microsoft.com/fwlink/?LinkID=196853](https://go.microsoft.com/fwlink/?LinkID=196853).|
+|ExecuteReader Response|`<?xml version="1.0" encoding="utf-8" ?>  <ExecuteReaderResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/GenericTableOp/">   <ExecuteReaderResult>     <DataSet>       <Any>[value]</Any>       <Any>[value]</Any>       …     </DataSet>   </ExecuteReaderResult> </ExecuteReaderResponse>`|The result set is the response message of the PL/SQL statements executed in the *ExecuteReader Request* message, and is returned as an array of DataSet. For information about DataSet, see “DataSet Class” at [https://go.microsoft.com/fwlink/?LinkID=196853](/dotnet/api/system.data.dataset).|
 |ExecuteScalar Request|`<ExecuteScalar xmlns="http://schemas.microsoft.com/Sql/2008/05/GenericTableOp/">   <Query>[PL/SQL STATEMENT1];[PL/SQL STATEMENT2];…</Query> </ExecuteScalar>`|Within the `<Query>` tag, you can specify multiple PL/SQL statements separated by a semi-colon.|
 |ExecuteScalar Response|`<?xml version="1.0" encoding="utf-8" ?> <ExecuteScalarResponse xmlns="http://schemas.microsoft.com/Sql/2008/05/GenericTableOp/">   <ExecuteScalarResult>[value]</ExecuteScalarResult> </ExecuteScalarResponse>`|The `[value]` represents the value in the first column of the first row in the result set returned by the PL/SQL statements in the *ExecuteScalar Request* message.|
 
  [PL/SQL STATEMENT] = The entire PL/SQL statement to be executed.
 
 ## Message Action for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
- The following table shows the message actions that are used by the ExecuteNonQuery, ExecuteReader, and ExecuteScalar operations.
+
+The following table shows the message actions that are used by the ExecuteNonQuery, ExecuteReader, and ExecuteScalar operations.
 
 |Operation|Action|
 |---------------|------------|
@@ -51,4 +54,5 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the ExecuteN
 |ExecuteScalar Response|GenericOp/ExecuteScalar/response|
 
 ## See Also
- [Messages and Message Schemas for BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md)
+
+[Messages and Message Schemas for BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md)

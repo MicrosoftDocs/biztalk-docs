@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: GetContextProperty"
+description: "Learn how to use the GetContextProperty to push the requested context property onto the stack."
 title: "GetContextProperty2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,12 +16,12 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # GetContextProperty Overview
+
 Pushes the requested context property onto the stack.  
   
 ## Syntax  
   
-```  
-  
+```xml  
 <wf:Operation Name="GetContextProperty">  
   <wf:Argument>ContextPropertyName</wf:Argument>  
 </wf:Operation>  
@@ -36,7 +36,7 @@ Pushes the requested context property onto the stack.
 |InstanceId|Workflow instance ID.|  
   
 > [!NOTE]
->  The context property names are case-sensitive.  
+> The context property names are case-sensitive.  
   
 ## Pushed Value  
  String containing the requested context property.  
@@ -47,7 +47,7 @@ Pushes the requested context property onto the stack.
 ## Example  
  In the following sample, an expression for pulling the **InstanceId** is used inside of a correlationID block to set the correlation ID.  
   
-```  
+```xml  
 <ic:CorrelationID>  
   <ic:Expression>  
     <wf:Operation Name="GetContextProperty">  

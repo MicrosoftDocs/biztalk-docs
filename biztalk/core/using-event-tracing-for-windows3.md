@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Using Event Tracing for Windows"
+description: "Learn how to use the Event Tracing for Windows (ETW) tool to view tracing messages for the Microsoft BizTalk Adapter for TIBCO Enterprise Message Service."
 title: "Using Event Tracing for Windows3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -25,9 +25,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Use Event Tracing for Windows
+
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service logs error, warning, and information messages to the Windows Event Viewer. You can see additional tracing messages by using the Event Tracing for Windows (ETW) tool. When ETW is activated, it creates an \*.etl file to receive the messages. This file is in binary format and must be converted to be read. To do this, you must have a consumer application available to interpret the \*.etl file, for example, tracerpt.exe or tracedmp.exe. For example, the tracerpt.exe application converts the \*.etl file into two text files: summary.txt and dumpfile.csv.  
   
-## ETW Components  
+## ETW Components
+  
  Event Tracing for Windows has three components:  
   
 - **Controller application**: Activates and deactivates a provider (for example, tracelog.exe or logman.exe).  
@@ -35,7 +37,7 @@ Microsoft BizTalk Adapter for TIBCO Enterprise Message Service logs error, warni
    You set your PATH environment variable to point to the location of tracelog.exe. This makes sure that BTATIBCO EMSTrace calls can locate tracelog.exe in the system. By default, BTATIBCO EMSTrace searches the current path.  
   
   > [!NOTE]
-  >  tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by Microsoft BizTalk Adapter for TIBCO Enterprise Message Service. To use logman.exe, see the logman documentation.  
+  > tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by Microsoft BizTalk Adapter for TIBCO Enterprise Message Service. To use logman.exe, see the logman documentation.  
   
 - **Consumer application**: Reads logged events.  
   

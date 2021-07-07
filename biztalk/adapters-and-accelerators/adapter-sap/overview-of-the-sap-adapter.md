@@ -34,11 +34,11 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] exposes the SAP syst
   
 -   [How Does the Adapter Connect to an SAP System?](https://msdn.microsoft.com/library/cc185540.aspx)  
   
--   [How Does the Adapter Surface SAP Metadata?](https://msdn.microsoft.com/library/dd788039.aspx)  
+-   [How Does the Adapter Surface SAP Metadata?](./browse-search-and-get-sap-metadata.md)  
   
--   [What Operations Can be Performed Using the Adapter?](https://msdn.microsoft.com/library/dd788159.aspx)  
+-   [What Operations Can be Performed Using the Adapter?](../adapter-sql/what-operations-are-supported-by-the-sql-adapter.md)  
   
--   [Other Features Supported by the Adapter](https://msdn.microsoft.com/library/dd788022.aspx)  
+-   [Other Features Supported by the Adapter](../adapter-oracle-database/features-for-oracle-database-adapter-clients.md)  
   
 ## See Also  
  [Understand BizTalk Adapter for mySAP Business Suite](../../adapters-and-accelerators/adapter-sap/understand-biztalk-adapter-for-mysap-business-suite.md)

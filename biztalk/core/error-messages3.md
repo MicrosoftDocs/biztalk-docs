@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Error Messages"
+description: "Learn about the error messages in the PeopleSoft Enterprise system's component interfaces and the possible corrections for the errors that they indicate."
 title: "Error Messages3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -18,6 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Error Messages
+
 The following table lists error messages in the PeopleSoft Enterprise system's component interfaces, their descriptions, and possible corrections.  
   
  **Error messages**  

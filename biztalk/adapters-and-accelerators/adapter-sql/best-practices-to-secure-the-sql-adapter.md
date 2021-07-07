@@ -65,7 +65,7 @@ Best practices that you should follow to more completely protect sensitive data 
   
  You can either use the **BasicHttpBinding** over an HTTPS connection, or use the **WSHttpBinding** to help protect your data. The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] includes the [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)] to generate WCF service for LOB artifacts. This wizard only supports use of **BasicHttpBinding**.  
   
- You can also develop a custom HTTP binding to leverage additional security mechanisms that your environment provides. For more information about the security features that [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] provides, see [Securing Services and Clients](https://msdn.microsoft.com/library/ms734736.aspx). 
+ You can also develop a custom HTTP binding to leverage additional security mechanisms that your environment provides. For more information about the security features that [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] provides, see [Securing Services and Clients](/dotnet/framework/wcf/feature-details/securing-services-and-clients). 
   
  When hosting the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] as a Web service, Web developers should take measures to prevent strings typed in by users from being passed directly to the SQL Server database. For example, if a Web site lets the user enter a value that will be part of a WHERE clause in a SELECT statement, the input string should be scanned to prevent adding other commands to the statement.  
   
@@ -84,7 +84,7 @@ Best practices that you should follow to more completely protect sensitive data 
   
 - If [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] message logging is enabled and `logMessagesAtServiceLevel` is `true`, the message header (but not the message body) of messages exchanged between the adapter client and the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] are logged. Because the message action is in the message header, this reveals the operations that the client invoked on the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. If `logEntireMessage` is also `true`, the message body will be logged. This can reveal sensitive database information.  
   
-  For more information about improving security when you enable diagnostic tracing, see [Security Concerns and Useful Tips for Tracing](https://msdn.microsoft.com/library/ms733053.aspx). For more information about improving security when you enable message logging, see [Security Concerns for Message Logging](https://msdn.microsoft.com/library/ms730318.aspx).
+  For more information about improving security when you enable diagnostic tracing, see [Security Concerns and Useful Tips for Tracing](/dotnet/framework/wcf/diagnostics/tracing/security-concerns-and-useful-tips-for-tracing). For more information about improving security when you enable message logging, see [Security Concerns for Message Logging](/dotnet/framework/wcf/diagnostics/security-concerns-for-message-logging).
   
 ## See Also  
 [Secure your SQL applications](../../adapters-and-accelerators/adapter-sql/secure-your-sql-applications.md)

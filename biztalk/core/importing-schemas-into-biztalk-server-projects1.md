@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Importing Schemas into BizTalk Server Projects"
+description: "Learn how to import JD Edwards OneWorld schemas into a BizTalk Server project."
 title: "Importing Schemas into BizTalk Server Projects1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -21,6 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Import Schemas into BizTalk Server Projects
+
 The following information describes how to import schemas into a BizTalk Server project.  
   
 ## Importing Schemas  
@@ -51,19 +52,19 @@ The following information describes how to import schemas into a BizTalk Server 
   
 ## Orchestration Types - Port Types  
   
--   **PortTypeIn/In/Request:** SSOSchedule.myJ.D. Edwards OneWorld XEsso_transmitService_3.method  
+- **PortTypeIn/In/Request:** SSOSchedule.myJ.D. Edwards OneWorld XEsso_transmitService_3.method  
   
--   **PortTypeOut/Out/response:** SSOSchedule.myJ.D. Edwards OneWorld XE sso_transmitService_3.methodResponse  
+- **PortTypeOut/Out/response:** SSOSchedule.myJ.D. Edwards OneWorld XE sso_transmitService_3.methodResponse  
   
--   **PortTypeInOut/InOut/Request:** SSOSchedule.myJ.D. Edwards OneWorld XEsso_transmitService_3.method  
+- **PortTypeInOut/InOut/Request:** SSOSchedule.myJ.D. Edwards OneWorld XEsso_transmitService_3.method  
   
--   **PortTypeInOut/InOut/Response:** SSOSchedule.myJ.D. Edwards OneWorld XE sso_transmitService_3.methodResponse  
+- **PortTypeInOut/InOut/Response:** SSOSchedule.myJ.D. Edwards OneWorld XE sso_transmitService_3.methodResponse  
   
 ## Orchestration Variables - Messages  
   
--   **MessageIn:** SSOSchedule.myJ.D. Edwards OneWorld XEsso_transmitService_3.method  
+- **MessageIn:** SSOSchedule.myJ.D. Edwards OneWorld XEsso_transmitService_3.method  
   
--   **MessageOut:** SSOSchedule.myJ.D. Edwards OneWorld XE sso_transmitService_3.methodResponse  
+- **MessageOut:** SSOSchedule.myJ.D. Edwards OneWorld XE sso_transmitService_3.methodResponse  
   
 ## See Also  
  [Security in the adapter](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

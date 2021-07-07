@@ -23,7 +23,7 @@ manager: "anneta"
 
 - For security recommendations for publishing Web services, see [Enabling Web Services](../core/enabling-web-services.md).
 
-- The SOAP adapter leverages the Hypertext Transfer Protocol (HTTP) to send and receive messages to and from BizTalk Server. Therefore, you must follow the security recommendations for securing Internet Information Services (IIS). If you use IIS 7.0, ensure you follow the IIS 7.0 recommendations for configuring application isolation. For more information, see [Create an Application Pool (IIS 7)](https://go.microsoft.com/fwlink/?LinkId=196674).
+- The SOAP adapter leverages the Hypertext Transfer Protocol (HTTP) to send and receive messages to and from BizTalk Server. Therefore, you must follow the security recommendations for securing Internet Information Services (IIS). If you use IIS 7.0, ensure you follow the IIS 7.0 recommendations for configuring application isolation. For more information, see [Create an Application Pool (IIS 7)](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731784(v=ws.10)).
 
 - When you create an application pool for a SOAP receive location, you must configure it to run under an account that is a member of the Windows group for the isolated host running the SOAP receive adapter and the Internet Information Services Worker Process group (IIS_WPG group). You must then configure the host instance for the SOAP receive adapter to use this account. If you change the account for the IIS_WPG group, you must ensure you also update the host instance to run under the new account.
 

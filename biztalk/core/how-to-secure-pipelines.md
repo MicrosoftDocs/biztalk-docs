@@ -25,9 +25,9 @@ Hosts can be marked in the administration console as **Authentication Trusted**.
 > [!IMPORTANT]
 >  The MIME/SMIME Decoder pipeline component does not check the expiration date of decryption certificates. However, it does check the expiration date of signing certificates.  
   
- For information about encoding and decoding messages sent over SMTP or HTTP, see [MIME-SMIME Encoder Pipeline Component](../core/mime-smime-encoder-pipeline-component.md). Also see [MIME-SMIME Decoder Pipeline Component](../core/mime-smime-decoder-pipeline-component.md).  
+ For information about encoding and decoding messages sent over SMTP or HTTP, see [MIME-SMIME Encoder Pipeline Component](../core/mime-smime-encoder-pipeline-component.md). Also, see [MIME-SMIME Decoder Pipeline Component](../core/mime-smime-decoder-pipeline-component.md).  
   
- For information about signature verification when dealing with third parties, see [Party Resolution Pipeline Component](../core/party-resolution-pipeline-component.md). Also see [How to Create an Agreement](https://msdn.microsoft.com/library/f8608cf7-8ac5-4f02-805e-5a0bdf19ca8c).  
+ For information about signature verification when dealing with third parties, see [Party Resolution Pipeline Component](../core/party-resolution-pipeline-component.md). Also, see [Create an Agreement](managing-agreements.md).  
   
 ## See Also  
  [Creating Pipelines Using Pipeline Designer](../core/creating-pipelines-using-pipeline-designer.md)   

@@ -14,13 +14,11 @@ f1_keywords:
 
 # Send Port Properties Dialog Box
 
- 
-
 Use the **Send Port Properties** window to create new send ports and to configure and view information about the send port you have selected in the details pane.
 
 ## General Tab
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -74,9 +72,7 @@ This property is visible only for Solicit-Response ports. <strong>Note:</strong>
 
 ## Transport Advanced Options Tab
 
-Only some of the following properties are available for dynamic send ports.
-
-## UIElement List
+Only some of the following properties in the **Transport Advanced Options** tab are available for dynamic send ports.
 
 <table>
 <thead>
@@ -135,7 +131,7 @@ This check box is available when you select the <strong>Ordered delivery</strong
 
 ## Backup Transport Tab
 
-## UIElement List
+The following table lists the UIElements in the **Backup Transport** tab and what they are used for.
 
 <table>
 <thead>
@@ -189,7 +185,7 @@ This check box is available when you select the <strong>Ordered delivery</strong
 
 The **Inbound Maps** tab is visible only for solicit-response pipelines.
 
-## UIElement List
+The following table lists the UIElements in the **Inbound Maps** tab and what they are used for.
 
 <table>
 <thead>
@@ -218,10 +214,9 @@ The **Inbound Maps** tab is visible only for solicit-response pipelines.
 </tbody>
 </table>
 
-
 ## Outbound Maps Tab
 
-## UIElement List
+The following table lists the UIElements in the **Outbound Maps** tab and what they are used for.
 
 <table>
 <thead>
@@ -250,10 +245,9 @@ The **Inbound Maps** tab is visible only for solicit-response pipelines.
 </tbody>
 </table>
 
-
 ## Filters Tab
 
-## UIElement List
+The following table lists the UIElements in the **Filters** tab and what they are used for.
 
 <table>
 <thead>
@@ -294,10 +288,9 @@ The **Inbound Maps** tab is visible only for solicit-response pipelines.
 </tbody>
 </table>
 
-
 ## Certificate Tab
 
-## UIElement List
+The following table lists the UIElements in the **Certificate** tab and what they are used for.
 
 <table>
 <thead>
@@ -326,10 +319,9 @@ The **Inbound Maps** tab is visible only for solicit-response pipelines.
 </tbody>
 </table>
 
-
 ## Tracking Tab
 
-## UIElement List
+The following table lists the UIElements in the **Tracking** tab and what they are used for.
 
 <table>
 <thead>
@@ -374,7 +366,6 @@ The **Inbound Maps** tab is visible only for solicit-response pipelines.
 </tbody>
 </table>
 
-
 ## See Also
 
 [How to Enlist a Send Port or Send Port Group](https://msdn.microsoft.com/library/aa578592\(v=bts.80\))  
@@ -383,4 +374,3 @@ The **Inbound Maps** tab is visible only for solicit-response pipelines.
 [How to Stop a Send Port or Send Port Group](https://msdn.microsoft.com/library/aa577932\(v=bts.80\))  
 [How to Unenlist a Send Port or Send Port Group](https://msdn.microsoft.com/library/aa559480\(v=bts.80\))  
 [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\))
-

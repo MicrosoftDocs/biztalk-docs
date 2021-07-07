@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Planning for Publishing Web Services"
+description: "View a list of questions designed to help you plan how to publish Web services in BizTalk Server."
 title: "Publish web Services planning | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,9 +15,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Planning for Publishing Web Services
+
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides built-in support for Web services. It enables you to reuse and aggregate your existing Web services within your orchestrations.  
 
 ## Overview
+
  You can also publish (expose) your orchestrations as Web services to separate the Web service logic from the business process logic, which allows you to update or replace the business logic as needed without touching the code used for the Web service logic. This functionality is referred to as implementing "modular code." In general it is considered a best practice to implement modular code where possible. Publishing Web services requires that you enable Web services and that you publish an orchestration or schema as a Web service using the BizTalk Web Services Publishing Wizard.  
   
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implements support for native adapters in Web services through the use of the SOAP adapter. Native adapter support provides scalability, fault tolerance, and tracking capabilities for Web services without writing a single line of code. For more information about the SOAP adapter, see [SOAP Adapter](../core/soap-adapter.md).  

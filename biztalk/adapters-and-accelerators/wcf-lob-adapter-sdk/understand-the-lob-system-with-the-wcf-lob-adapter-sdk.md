@@ -36,4 +36,4 @@ Before developing your adapter using the [!INCLUDE[afproductnameshort](../../inc
 ## See Also  
  [Plan and design your adapter using the WCF LOB Adapter SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/plan-and-design-your-adapter-using-the-wcf-lob-adapter-sdk.md)   
  [Get started with the with the WCF LOB Adapter SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/get-started-with-the-with-the-wcf-lob-adapter-sdk.md)   
- [Selecting the Appropriate Framework](https://msdn.microsoft.com/library/bb798089.aspx)
+ [Selecting the Appropriate Framework](./difference-between-adapter-channel-and-service-in-the-wcf-lob-adapter-sdk.md)

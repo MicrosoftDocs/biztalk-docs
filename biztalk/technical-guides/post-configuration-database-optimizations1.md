@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Post-Configuration Database Optimizations"
+description: "Learn how to optimize BizTalk Server database performance on SQL Server after BizTalk Server has been installed and the BizTalk Server databases have been configured."
 title: "Post-Configuration Database Optimizations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,15 +15,16 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Post-Configuration for BizTalk Server Database Optimizations
+
 In addition to following the recommendations in [Pre-Configuration Database Optimizations](../technical-guides/post-configuration-database-optimizations1.md), several steps should be followed to optimize BizTalk Server database performance on SQL Server *after* BizTalk Server has been installed and the BizTalk Server databases have been configured. This topic provides a list of these optimizations.
 
 ## Pre-allocate space for BizTalk Server databases and define auto-growth settings for BizTalk Server databases to a fixed value instead of a percentage value
 
--   SQL Server database auto-growth is a blocking operation that hinders BizTalk Server database performance. Therefore it is important to allocate sufficient space for the BizTalk Server databases in advance to minimize the occurrence of database auto-growth.
+- SQL Server database auto-growth is a blocking operation that hinders BizTalk Server database performance. Therefore it is important to allocate sufficient space for the BizTalk Server databases in advance to minimize the occurrence of database auto-growth.
 
--   Database auto-growth should be set to a fixed number of megabytes instead of to a percentage (specify file growth **In Megabytes**). This should be done so if auto-growth occurs, it does so in a measured fashion which reduces the likelihood of excessive database growth. The growth increment should generally be no larger than 100 MB (for large files), 10 MB (for medium-sized files), or 1 MB (for small files).
+- Database auto-growth should be set to a fixed number of megabytes instead of to a percentage (specify file growth **In Megabytes**). This should be done so if auto-growth occurs, it does so in a measured fashion which reduces the likelihood of excessive database growth. The growth increment should generally be no larger than 100 MB (for large files), 10 MB (for medium-sized files), or 1 MB (for small files).
 
--   When SQL Server increases the size of a file, the new space must first be initialized before it can be used. This is a blocking operation that involves filling the new space with empty pages. SQL Server 2005 running on Windows Server 2003 or later supports “instant file initialization.” This can greatly reduce the performance impact of a file growth operation. For more information, see "Database File Initialization" in the SQL Server 2008 documentation at [https://go.microsoft.com/fwlink/?LinkId=132063](https://go.microsoft.com/fwlink/?LinkId=132063). This topic provides steps for enabling instant file initialization.
+- When SQL Server increases the size of a file, the new space must first be initialized before it can be used. This is a blocking operation that involves filling the new space with empty pages. SQL Server 2005 running on Windows Server 2003 or later supports “instant file initialization.” This can greatly reduce the performance impact of a file growth operation. For more information, see "Database File Initialization" in the SQL Server 2008 documentation at [https://go.microsoft.com/fwlink/?LinkId=132063](https://go.microsoft.com/fwlink/?LinkId=132063). This topic provides steps for enabling instant file initialization.
 
 ## Move the Backup BizTalk Server output directory to a dedicated LUN
  Move the Backup BizTalk Server (Full and Log backup) output directory to dedicated LUN, Edit steps 1 and 2 (insert new output path) of the Backup BizTalk Server [BizTalkMgmtDb] job. Moving the Backup BizTalk Server output directory to a dedicated LUN will reduce disk I/O contention when the job is running by writing to a different disk than the job is reading from.

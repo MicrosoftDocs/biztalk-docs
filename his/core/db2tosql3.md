@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: db2ToSql"
+description: "Learn about the attributes, child elements, parent elements, and syntax of the db2ToSql element."
 title: "db2ToSql3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,6 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # db2ToSql
+
 The db2ToSql defines the direction from DB2 to SQL Server.  
   
  \<hostIntegration.drdaAs.drdaService>  
@@ -26,12 +27,26 @@ The db2ToSql defines the direction from DB2 to SQL Server.
   
 ## Syntax  
   
-```  
-<hostIntegration.drdaAs.drdaService>        <services>                <service>                        <conversionFormats>                                <dateMasks>                                        <dateMask>                                                <db2ToSql>                                                </db2ToSql>                                        </dateMask>                                </dateMasks>                        </conversionFormats>                </service>        </services></hostIntegration.drdaAs.drdaService>  
-```  
+```xml  
+<hostIntegration.drdaAs.drdaService>
+    <services>
+         <service>
+              <conversionFormats>
+                   <timeMasks> 
+                        <timeMask> 
+                             <db2ToSql>  
+                             </db2ToSql>  
+                        </timeMask>    
+                   </timeMasks>       
+              </conversionFormats>    
+         </service>   
+    </services>
+</hostIntegration.drdaAs.drdaService>  
+```
   
-## Attributes and Elements  
- The following sections describe attributes, child elements, and parent elements.  
+## Attributes and Elements
+  
+The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
   
@@ -39,8 +54,9 @@ The db2ToSql defines the direction from DB2 to SQL Server.
 |---------------|----------|-----------------|--------------|-------------------|  
 |sourceFormat|drdaas:DateFormats||true|n/a|  
   
-### Child Elements  
- None  
+### Child Elements
+
+None  
   
 ### Parent Elements  
   

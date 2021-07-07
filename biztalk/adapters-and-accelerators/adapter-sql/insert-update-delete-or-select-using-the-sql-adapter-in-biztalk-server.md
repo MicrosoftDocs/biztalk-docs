@@ -49,7 +49,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces a set of st
 > [!IMPORTANT]
 >  If you are generating metadata for operations on a table that has columns of user-defined types (UDTs), make sure the respective assemblies of the UDTs are available at the same location as the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] executable, devenv.exe. The executable is typically available at `<installation drive>:\Program Files\Microsoft Visual Studio <version>\Common7\IDE`. In this example, the EMPLOYEE table has a UDT (Point) column. Make sure you copy the respective assembly at the same location as the [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] executable.  
 > 
->  For information about how to create a UDT, see [Create a User-Defined Type](https://msdn.microsoft.com/library/ms131106.aspx). For information about how to register a UDT in SQL Server, see [Registering User-Defined Types in SQL Server](https://msdn.microsoft.com/library/eybzcxe6(v=vs.85).aspx).  
+>  For information about how to create a UDT, see [Create a User-Defined Type](/sql/relational-databases/clr-integration-database-objects-user-defined-types/creating-user-defined-types). For information about how to register a UDT in SQL Server, see [Registering User-Defined Types in SQL Server](/previous-versions/eybzcxe6(v=vs.85)).  
   
 ## Defining Messages and Message Types  
  The schema that you generated earlier describes the “types” required for the messages in the orchestration. A message is typically a variable, the type for which defined by the corresponding schema. You must now create messages for the orchestration and link them to schemas you generated in the previous step.  
@@ -115,7 +115,8 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces a set of st
  You must now build the BizTalk solution and deploy it to BizTalk Server. For more information, see [Building and Running Orchestrations](../../core/building-and-running-orchestrations.md).  
   
 ## Configuring the BizTalk Application  
- After you have deployed the BizTalk project, the orchestration you created earlier is listed under the Orchestrations pane in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. You must use the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to configure the application. For a walkthrough, see [Walkthrough: Deploying a Basic BizTalk Application](Walkthrough:%20Deploying%20a%20Basic%20BizTalk%20Application.md).
+
+ After you have deployed the BizTalk project, the orchestration you created earlier is listed under the Orchestrations pane in the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console. You must use the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console to configure the application. For a walkthrough, see [Walkthrough: Deploying a Basic BizTalk Application](../../core/walkthrough-deploying-a-basic-biztalk-application.md).
   
  Configuring an application involves:  
   
@@ -148,7 +149,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces a set of st
 > [!IMPORTANT]
 >  If you are performing operations on a table that has columns of user-defined types (UDTs), make sure the respective assemblies of the UDTs are available at the same location as the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] executable, btsntsvc.exe. The executable is typically available at `<installation drive>:\Program Files\Microsoft BizTalk Server <version>`. In this example, the EMPLOYEE table has a UDT (Point) column. Make sure you copy the respective assembly at the same location as the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] executable.  
 > 
->  For information about how to create a UDT, see [Create a User-Defined Type](https://msdn.microsoft.com/library/ms131106.aspx). For information about how to register a UDT in SQL Server, see [Register User-Defined Types in SQL Server](https://msdn.microsoft.com/library/ms131079.aspx).  
+>  For information about how to create a UDT, see [Create a User-Defined Type](/sql/relational-databases/clr-integration-database-objects-user-defined-types/creating-user-defined-types). For information about how to register a UDT in SQL Server, see [Register User-Defined Types in SQL Server](/sql/relational-databases/clr-integration-database-objects-user-defined-types/registering-user-defined-types-in-sql-server).  
   
 ## Executing the Operation  
  After you run the application, you must drop a request message to the FILE receive location. The schema for the request message must conform to the schema for the Select operation that you generated earlier. For example, the request message to select all records from the EMPLOYEE table is:  

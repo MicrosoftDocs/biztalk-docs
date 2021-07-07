@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Task 2: Create the Messages"
+description: "Learn how to create Messages by filling in the Identifier and MessageType>Schema."
 title: "Task 2: Create the Messages2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,13 +16,14 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Task 2: Create the Messages
+
 Create the following Messages, which will be used in the orchestration.  
   
 ### To create the messages  
   
-1.  Right-click **Message**, and then select **New Message**.  
+1. Right-click **Message**, and then select **New Message**.  
   
-2.  Fill in the following for the Identifier and the Message Type>Schema and select the type from the displayed list for each message.  
+2. Fill in the following for the Identifier and the Message Type>Schema and select the type from the displayed list for each message.  
   
     |Identifier|Message Type > Schema|  
     |----------------|----------------------------|  
@@ -36,7 +37,8 @@ Create the following Messages, which will be used in the orchestration.
     |EndDocResponseMsg|BeginDocTest.B4200310Service_1.F4211FSEndDocResponse|  
     |EndDocSessionMsg|BeginDocTest.B4200310Service_1.F4211FSEndDoc|  
   
-## See Also  
+## See Also
+  
  [Task 1: Create the Ports](../core/task-1-create-the-ports1.md)   
  [Task 3: Configure the Send and Receive Shapes](../core/task-3-configure-the-send-and-receive-shapes2.md)   
  [Task 4: Configure the Construct Message Shape](../core/task-4-configure-the-construct-message-shape1.md)   

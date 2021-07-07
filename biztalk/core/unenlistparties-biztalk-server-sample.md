@@ -31,7 +31,7 @@ The UnenlistParties sample demonstrates how to unenlist all of the parties assoc
 
 - You must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] administrative privileges to use the administrative objects in this sample.
 
-- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information see: [Examining the Execution Policy](https://go.microsoft.com/fwlink/?LinkId=128930).
+- The Windows PowerShell script requires the Windows PowerShell execution policy to allow script execution. For more information, see [about_Execution_Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 
 ## How This Sample is Designed and Why
  This sample, written in Visual C# using objects from the BizTalk Explorer object model, performs the following operations:
@@ -55,13 +55,13 @@ The UnenlistParties sample demonstrates how to unenlist all of the parties assoc
 |---------------|-----------------|
 |App.ico, AssemblyInfo.cs, UnenlistParties.csproj, UnenlistParties.sln, UnenlistParties.cs|Project, solution, and source files for building a Visual C# command-line application that unenlists all of the parties for a particular assembly.|
 
-### To build and initialize this sample
+## Build and initialize this sample
 
 1. In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the solution file UnenlistParties.sln.
 
 2. In the **Build** menu, select **Build Solution**.
 
-### To run this sample
+## Run this sample
 
 1. In a command window, navigate to the following folder:
 

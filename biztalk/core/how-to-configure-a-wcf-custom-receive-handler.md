@@ -49,7 +49,7 @@ You must configure the receive handler properties if you want the [!INCLUDE[wcfa
 
    |Use this|To do this|
    |--------------|----------------|
-   |**Import**|Imports a WCF configuration file with WCF custom behavior extensions. Clicking this button opens the **Import WCF configuration** dialog box to browse and locate a WCF configuration file. Note that the file should be a valid WCF configuration file. For more information about WCF configuration schema, see “Windows Communication Foundation Configuration Schema” at [https://go.microsoft.com/fwlink/?LinkId=163953](https://go.microsoft.com/fwlink/?LinkId=163953).|
+   |**Import**|Imports a WCF configuration file with WCF custom behavior extensions. Clicking this button opens the **Import WCF configuration** dialog box to browse and locate a WCF configuration file. Note that the file should be a valid WCF configuration file. For more information about WCF configuration schema, see “Windows Communication Foundation Configuration Schema” at [https://go.microsoft.com/fwlink/?LinkId=163953](/dotnet/framework/configure-apps/file-schema/wcf/).|
    |**Export**|Exports the WCF custom behavior extension to a WCF configuration file. Clicking this button opens the **Export WCF configuration** dialog box to browse and save the WCF configuration file.|
    |**Clear**|Clears the existing WCF custom behavior extension from the adapter handler properties.|
 

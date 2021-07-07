@@ -15,10 +15,12 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # SNA Global Information
+
 SNA global information is defined or returned as described here.  
   
-## Defined by IBM ES for OS/2 version 1.0  
- Information on SNA global information is provided in the **sna_global_info_sect** structure as defined below.  
+## Defined by IBM ES for OS/2 version 1.0
+  
+Information on SNA global information is provided in the **sna_global_info_sect** structure as defined below.  
   
 ```  
 typedef struct sna_global_info_sect {  
@@ -39,51 +41,53 @@ typedef struct sna_global_info_sect {
 } SNA_GLOBAL_INFO_SECT;  
 ```  
   
-## Members  
- version  
- Communications Manager Extended Edition version number.  
+The **sna_global_info_sect** structure as defined by IBM ES for OS/2 version 1.0 contains the following members:
   
- release  
- Communications Manager Extended Edition release number.  
+*version*  
+Communications Manager Extended Edition version number.  
   
- net_name  
- Network name, first part of fully qualified control program (CP) name, in EBCDIC (type A).  
+*release*  
+Communications Manager Extended Edition release number.  
   
- pu_name  
- PU name, second part of fully qualified CP name, in EBCDIC (type A).  
+*net_name*  
+Network name, first part of fully qualified control program (CP) name, in EBCDIC (type A).  
   
- node_id  
- 4-byte hexadecimal exchange identifier.  
+*pu_name*  
+PU name, second part of fully qualified CP name, in EBCDIC (type A).  
   
- product_set_id  
- Computer product data.  
+*node_id*  
+4-byte hexadecimal exchange identifier.  
   
- alias_cp_name  
- Node name (local name for CP) in ASCII.  
+*product_set_id*  
+Computer product data.  
   
- node_type  
- AP_NN, AP_EN, or AP_LEN.  
+*alias_cp_name*  
+Node name (local name for CP) in ASCII.  
   
- cp_nau_addr  
- CP NAU address where 0 means not used (an independent LU). Other legal values are 1 to 254.  
+*node_type*  
+AP_NN, AP_EN, or AP_LEN.  
   
- corr_serv_disk  
- Last four digits of corrective service disk number.  
+*cp_nau_addr*  
+CP NAU address where 0 means not used (an independent LU). Other legal values are 1 to 254.  
   
- reserved  
- Reserved field.  
+*corr_serv_disk*  
+Last four digits of corrective service disk number.  
   
- appc_version  
- APPC version number.  
+*reserved*  
+Reserved field.  
   
- appc_release  
- APPC release number.  
+*appc_version*  
+APPC version number.  
   
- appc_fixlevel  
- APPC patch number.  
+*appc_release*  
+APPC release number.  
   
-## Returned by Host Integration Server  
- Information on SNA global information is provided in the **sna_global_info_sect** structure defined below.  
+*appc_fixlevel*  
+APPC patch number.  
+  
+## Returned by Host Integration Server
+  
+Information on SNA global information is provided in the **sna_global_info_sect** structure defined below.  
   
 ```  
 typedef struct sna_global_info_sect {  
@@ -104,50 +108,52 @@ typedef struct sna_global_info_sect {
 } SNA_GLOBAL_INFO_SECT;  
 ```  
   
-## Members  
- version  
- Major operating system version number.  
+The **sna_global_info_sect** structure returned by Host Integration Server contains the following members:
   
- release  
- Minor operating system version number.  
+*version*  
+Major operating system version number.  
   
- net_name  
- Node network name in EBCDIC (type A).  
+*release* 
+Minor operating system version number.  
   
- pu_name  
- PU name in EBCDIC (type A) associated with connection.  
+*net_name*  
+Node network name in EBCDIC (type A).  
   
- node_id  
- Node identifier to send.  
+*pu_name*  
+PU name in EBCDIC (type A) associated with connection.  
   
- product_set_id  
- Set to EBCDIC zeros.  
+*node_id*  
+Node identifier to send.  
   
- alias_cp_name  
- Node name, local name for the control program (CP), in ASCII.  
+*product_set_id*  
+Set to EBCDIC zeros.  
   
- node_type  
- Set to AP_LEN.  
+*alias_cp_name*  
+Node name, local name for the control program (CP), in ASCII.  
   
- cp_nau_addr  
- CP NAU address where 0 means not used (an independent LU). Other legal values are 1 to 254.  
+*node_type*  
+Set to AP_LEN.  
   
- corr_serv_disk  
- Reserved field set to zero.  
+*cp_nau_addr*  
+CP NAU address where 0 means not used (an independent LU). Other legal values are 1 to 254.  
   
- reserved  
- Reserved field set to zero.  
+*corr_serv_disk*  
+Reserved field set to zero.  
   
- appc_version  
- Host Integration Server major version number.  
+*reserved*  
+Reserved field set to zero.  
   
- appc_release  
- Host Integration Server minor version number.  
+*appc_version*  
+Host Integration Server major version number.  
   
- appc_fixlevel  
- Host Integration Server patch number.  
+*appc_release*  
+Host Integration Server minor version number.  
   
-## Remarks  
- Host Integration Server returns **version** and **release** as the major and minor operating system version numbers from **GetVersion**. Because Host Integration Server has no information on the computer type, serial number, and manufacturer, **product_set_id** is set to EBCDIC zeros.  
+*appc_fixlevel*  
+Host Integration Server patch number.  
   
- Host Integration Server does not support APPN node types, so the node type is returned as 1 (an AP_LEN node), and not 2 or 3 (AP_NN or AP_EN nodes), as defined by IBM ES for OS/2 version 1.0.
+## Remarks
+  
+Host Integration Server returns **version** and **release** as the major and minor operating system version numbers from **GetVersion**. Because Host Integration Server has no information on the computer type, serial number, and manufacturer, **product_set_id** is set to EBCDIC zeros.  
+  
+Host Integration Server does not support APPN node types, so the node type is returned as 1 (an AP_LEN node), and not 2 or 3 (AP_NN or AP_EN nodes), as defined by IBM ES for OS/2 version 1.0.

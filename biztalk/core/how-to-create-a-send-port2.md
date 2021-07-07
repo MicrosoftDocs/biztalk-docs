@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Create a Send Port"
+description: "Learn how to use the BizTalk Server Administration console to create a send port."
 title: "How to Create a Send Port2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -22,6 +22,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Create a Send Port
+
 This topic describes how to use the BizTalk Server Administration console to create a send port. When creating a send port, you must select the type of send port to create, as follows:  
 
 - Static one-way — a send-only port.  
@@ -44,8 +45,9 @@ This topic describes how to use the BizTalk Server Administration console to cre
 
 - Configure tracking options for messages handled by the send port, as described in [How to Configure Tracking for a Send Port](../core/how-to-configure-tracking-for-a-send-port.md).  
 
-## Prerequisites  
- To perform the procedure in this topic, you must be logged on with an account that is a member of the BizTalk Server Administrators group. For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md). In addition, you need to have SSO affiliate administrator permissions on the Enterprise Single Sign-On (SSO) database. For more information, see [SSO User Groups](../core/sso-user-groups.md).  
+## Prerequisites
+  
+To perform the procedure in this topic, you must be logged on with an account that is a member of the BizTalk Server Administrators group. For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md). In addition, you need to have SSO affiliate administrator permissions on the Enterprise Single Sign-On (SSO) database. For more information, see [SSO User Groups](../core/sso-user-groups.md).  
 
 ### To create a send port  
 
@@ -90,7 +92,8 @@ This topic describes how to use the BizTalk Server Administration console to cre
 
 7. When finished configuring the send port, click **OK**.  
 
-## See Also  
- [Creating and Configuring Send Ports](../core/creating-and-configuring-send-ports.md)   
- [Managing Pipelines](../core/managing-pipelines.md)   
- [Managing Maps](../core/managing-maps.md)
+## See Also
+  
+- [Creating and Configuring Send Ports](../core/creating-and-configuring-send-ports.md)   
+- [Managing Pipelines](../core/managing-pipelines.md)   
+- [Managing Maps](../core/managing-maps.md)

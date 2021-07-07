@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Using the MATH_NUMERIC Type"
+description: "Learn about the MATH_NUMERIC type, exponents, invalid values, precision for operations, and currency values in JD Edwards EnterpriseOne business functions."
 title: "Using the MATH_NUMERIC Type1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -24,6 +24,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Use the MATH_NUMERIC Type
+
 This topic describes the MATH_NUMERIC type and details how exponents are handled, the maximum number of digits, and the maximum number of decimal digits. It also includes a discussion on:  
   
 - Exponents  
@@ -59,26 +60,28 @@ This topic describes the MATH_NUMERIC type and details how exponents are handled
   
  `<ExponentDigits>` are at most two digits. You are permitted values between 63 and -63 excluding zero.  
   
-## Valid Values  
- Examples of **valid** MATH_NUMERIC values:  
+## Valid Values
   
--   123.045  
+Examples of **valid** MATH_NUMERIC values:  
   
--   4089 (note there is no comma for thousands)  
+- 123.045  
   
--   -9084  
+- 4089 (note there is no comma for thousands)  
   
--   -230.75  
+- -9084  
   
--   0.010503  
+- -230.75  
   
--   1.023e-10, which is equivalent to 0.0000000001023  
+- 0.010503  
   
--   0.097e5 or 0.097e+5, which is equivalent to 9700  
+- 1.023e-10, which is equivalent to 0.0000000001023  
   
--   1.0e-32, which is equivalent to 0.00000000000000000000000000000001 (This is valid because in this case, the integral '0' is ignored, 32 significant fractional digits.)  
+- 0.097e5 or 0.097e+5, which is equivalent to 9700  
   
-## Invalid Values  
+- 1.0e-32, which is equivalent to 0.00000000000000000000000000000001 (This is valid because in this case, the integral '0' is ignored, 32 significant fractional digits.)  
+  
+## Invalid Values
+  
  Invalid values depend on the kind of value. A decimal fraction that is too small is interpreted as zero (all significant digits are lost). An integer that has too many significant digits causes unexpected results. JD Edwards EnterpriseOne does not always raise an error condition in this case. An exponent that is too large or too small also returns as an invalid value.  
   
  Examples of **invalid** MATH_NUMERIC values:  
@@ -91,10 +94,12 @@ This topic describes the MATH_NUMERIC type and details how exponents are handled
   
   Any non-numeric characters other than those appropriate for signs and decimal symbols result in an invalid value.  
   
-## Exponents  
+## Exponents
+  
  Exponents are provided by the JD Edwards EnterpriseOne MATH_NUMERIC as a convenience for entering values. However, most values return without exponents (with all 32 significant digits visible).  
   
-## Precision for Operations  
+## Precision for Operations
+  
  If an operation results in loss of precision, rounding occurs. For example:  
   
  1.9e-31 / 10.0 = 0.00000000000000000000000000000002.  
@@ -103,8 +108,10 @@ This topic describes the MATH_NUMERIC type and details how exponents are handled
   
  In other cases, unpredictable results occur, as when a very large positive value is multiplied by another. 1.01e32 * 2.053e32 does not yield reliable results and does not raise an error. For most business scenarios, these ranges are not exceeded.  
   
-## Currency  
+## Currency
+  
  When a JD Edwards EnterpriseOne business function expects a currency value, the business function always has a separate parameter for a four-character currency code. It is not necessary to pass in this code unless you are using a currency other than the default configured for the JD Edwards EnterpriseOne system.  
   
-## See Also  
+## See Also
+  
  [Appendix B: Data Types](../core/appendix-b-data-types.md)

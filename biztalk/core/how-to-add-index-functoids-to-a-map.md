@@ -26,7 +26,7 @@ The **Index** functoid enables you to select information from a specific record 
   
     The list of advanced functoids in the chosen category appears.  
   
-2. Drag the **Index** functoid (![](../core/media/bts-tls-index.gif "bts_tls_index")) from the Toolbox to the appropriate location on a grid page.  
+2. Drag the **Index** functoid (![Small image showing the icon for the Index functoid.](../core/media/bts-tls-index.gif)) from the Toolbox to the appropriate location on a grid page.  
   
    > [!NOTE]
    >  The functoid will be placed on the displayed grid page. If you want to put the functoid onto a different grid page, you need to display the other grid page first.  

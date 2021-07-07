@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Creating Affiliate Applications"
+description: "Learn how to start working with affiliate applications for TIBCO Rendezvous and Single Sign-On (SSO)."
 title: "Creating Affiliate Applications for TIBCO Rendezvous | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,10 +16,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Creating Affiliate Applications for TIBCO Rendezvous
+
 The following steps describe how to start working with affiliate applications and Single Sign-On (SSO). For complete information about how to use Enterprise Single Sign-On, see the Microsoft documentation.  
   
 > [!NOTE]
->  If you receive SSO errors, verify that you used a domain account when you configured BizTalk Server, as this affects the function of the Enterprise SSO service. SSO only functions under a domain account.  
+> If you receive SSO errors, verify that you used a domain account when you configured BizTalk Server, as this affects the function of the Enterprise SSO service. SSO only functions under a domain account.  
   
 ## Create an affiliate application  
   

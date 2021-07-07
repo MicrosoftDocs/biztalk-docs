@@ -187,7 +187,7 @@ The Business Activity Monitoring Tools include:
 #### Before you begin
 
 - Configuring BAM tools requires certain SQL Server administrative functionality and must be performed from a machine that has Integration Services installed. The version of Integration Services must be equivalent version as your target SQL Server.
-- Starting with BizTalk Server 2020, BAM uses SSIS Catalog for deploying and managing [BAM DTS packages](https://docs.microsoft.com/biztalk/core/bam-dts-packages). [Create SSIS Catalog](https://docs.microsoft.com/sql/integration-services/catalog/ssis-catalog?view=sql-server-ver15#create-the-ssis-catalog) on the target SQL Server (Primary Import and Star Schema database) before configuration. 
+- Starting with BizTalk Server 2020, BAM uses SSIS Catalog for deploying and managing [BAM DTS packages](../core/bam-dts-packages.md). [Create SSIS Catalog](/sql/integration-services/catalog/ssis-catalog?view=sql-server-ver15#create-the-ssis-catalog) on the target SQL Server (Primary Import and Star Schema database) before configuration. 
 - The BAM tools may be used by multiple BizTalk groups. When you unconfigure the BAM tools, the connection to the BizTalk group is removed. However, the BAM SQL Server infrastructure continues to work for other BizTalk groups pointing to the BAM Primary Import tables.
 - You use the Business Activity Monitoring Tools page to reconfigure the BAM database on-the-fly. For example, configure the BAM database again without removing the existing configuration. Reconfiguring these BAM databases breaks any already-deployed OLAP views and any alerts. If you have existing views and alerts that you want to keep in the newly-configured databases, then do one of the following:  
     - Undeploy the alerts and views before reconfiguring, and then redeploy them after reconfiguring. Any data that has been archived is not present in the views.
@@ -357,10 +357,10 @@ After you configure BizTalk Server, the following Internet Information Services 
 
 ## More configuration topics  
 
-[Configuring BizTalk Server on an Azure VM](https://msdn.microsoft.com/library/azure/jj248689.aspx)  
+[Configuring BizTalk Server on an Azure VM](/previous-versions/azure/jj248689(v=azure.100))  
 
 [Configuring BizTalk Server in a Cluster](../install-and-config-guides/configure-biztalk-server-in-a-cluster.md)
 
 [Post-configuration steps to optimize your environment](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)
 
-[Securing Your BizTalk Server Deployment](../install-and-config-guides/securing-your-biztalk-server-deployment.md)  
+[Securing Your BizTalk Server Deployment](../install-and-config-guides/securing-your-biztalk-server-deployment.md)

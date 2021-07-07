@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: EDI Support in BizTalk Server"
+description: "Learn about the Electronic Data Interchange (EDI) feature set that is supported in BizTalk Server."
 title: "EDI Support | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,10 +16,12 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # EDI Support in BizTalk Server
+
 EDI is built-in to BizTalk Server, and is an optional component when you install and configure BizTalk Server. 
   
-## Feature Set Comparison Chart  
- The following table shows the EDI support included with BizTalk Server.
+## Feature Set Comparison Chart
+  
+The following table shows the EDI support included with BizTalk Server.
   
 |Feature|Comment|  
 |---|---|

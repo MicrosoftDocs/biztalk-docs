@@ -126,4 +126,4 @@ This topic demonstrates how to use the unit testing feature to add a unit test f
 
 ## See Also
  [Using the Unit Testing Feature with Pipelines](../core/using-the-unit-testing-feature-with-pipelines.md)
- [Working with Unit Tests (Visual Studio)](https://go.microsoft.com/fwlink/?LinkId=128890)
+ [Working with Unit Tests (Visual Studio)](/previous-versions/visualstudio/visual-studio-2008/ms182515(v=vs.90))

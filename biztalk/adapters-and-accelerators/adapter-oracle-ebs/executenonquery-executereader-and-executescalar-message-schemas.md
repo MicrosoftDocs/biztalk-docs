@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations"
+description: "Learn about the message schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar operations used by the Microsoft BizTalk Adapter for Oracle E-Business Suite."
 title: "Message Schemas for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,6 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations Message Schemas
+
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] exposes the ExecuteNonQuery, ExecuteReader, and ExecuteScalar outbound operations at the root level to execute any arbitrary SQL statements or PL/SQL blocks in Oracle E-Business Suite.  
   
  For more information about:  
@@ -24,11 +25,12 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   
 - Performing these operations using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], see [ExecuteReader, ExecuteScalar, or ExecuteNonQuery Operations in SQL using BizTalk Server](../../adapters-and-accelerators/adapter-sql/executereader-executescalar-or-executenonquery-in-sql-server-using-biztalk.md).  
   
-## Message Structure for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations  
- The messages in these operations follow a request-response message exchange pattern, and the following table shows the structure of these request and response messages.  
+## Message Structure for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
+  
+The messages in these operations follow a request-response message exchange pattern, and the following table shows the structure of these request and response messages.  
   
 > [!NOTE]
->  See entity descriptions after the table.  
+> See entity descriptions after the table.  
   
 |Operation|XML Message|  
 |---------------|-----------------|  
@@ -45,8 +47,9 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   
  [stringvalue1] = A value in the array of strings.  
   
-## Message Action for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations  
- The following table shows the message actions that are used by the ExecuteNonQuery, ExecuteReader, and ExecuteScalar operations.  
+## Message Action for the ExecuteNonQuery, ExecuteReader, and ExecuteScalar Operations
+  
+The following table shows the message actions that are used by the ExecuteNonQuery, ExecuteReader, and ExecuteScalar operations.  
   
 |Operation|Action|  
 |---------------|------------|  

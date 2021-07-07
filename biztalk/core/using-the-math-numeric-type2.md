@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Using the MATH_NUMERIC Type"
+description: "Learn about the MATH_NUMERIC type, exponents, invalid values, precision for operations, and currency values in JD Edwards OneWorld business functions."
 title: "Using the MATH_NUMERIC Type2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -21,6 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Using the MATH_NUMERIC Type
+
 This topic describes the MATH_NUMERIC type and details how exponents are handled, the maximum number of digits, and the maximum number of decimal digits. It also includes a discussion on the following:  
   
 - Exponents  
@@ -58,25 +59,26 @@ This topic describes the MATH_NUMERIC type and details how exponents are handled
 ## Valid Values  
  Examples of valid MATH_NUMERIC values:  
   
--   123.045  
+- 123.045  
   
--   4089 (note there is no comma for thousands)  
+- 4089 (note there is no comma for thousands)  
   
--   -9084  
+- -9084  
   
--   -230.75  
+- -230.75  
   
--   0.010503  
+- 0.010503  
   
--   1.023e-10, which is equivalent to 0.0000000001023  
+- 1.023e-10, which is equivalent to 0.0000000001023  
   
--   0.097e5 or 0.097e+5, which is equivalent to 9700  
+- 0.097e5 or 0.097e+5, which is equivalent to 9700  
   
--   1.0e-32, which is equivalent to 0.00000000000000000000000000000001  
+- 1.0e-32, which is equivalent to 0.00000000000000000000000000000001  
   
      (This is valid because in this case the integral '0' is ignored, 32 significant fractional digits.)  
   
-## Invalid Values  
+## Invalid Values
+  
  Invalid values depend on the kind of value. A decimal fraction that is too small is interpreted as zero (all significant digits are lost). An integer that has too many significant digits causes unexpected results. JD Edwards OneWorld does not always raise an error condition in this case.  
   
  An exponent that is too large or small returns as an invalid value.  
@@ -91,10 +93,12 @@ This topic describes the MATH_NUMERIC type and details how exponents are handled
   
   Any non-numeric characters other than those appropriate for signs and decimal symbols result in an invalid value.  
   
-## Exponents  
+## Exponents
+  
  Exponents are provided by the JD Edwards OneWorld MATH_NUMERIC as a convenience for entering values. However, most values return without exponents (with all 32 significant digits visible).  
   
-## Precision for Operations  
+## Precision for Operations
+  
  If an operation results in loss of precision, rounding occurs. For example:  
   
  1.9e-31 / 10.0 = 0.00000000000000000000000000000002  
@@ -107,8 +111,10 @@ This topic describes the MATH_NUMERIC type and details how exponents are handled
   
  For most business scenarios, these ranges are not exceeded.  
   
-## Currency  
+## Currency
+  
  When a JD Edwards OneWorld business function expects a currency value, the business function always has a separate parameter for a four-character currency code. It is not necessary to pass in this code unless you are using a currency other than the default configured for the JD Edwards OneWorld system.  
   
-## See Also  
+## See Also
+  
  [Appendix A: Data Types](../core/appendix-a-data-types.md)

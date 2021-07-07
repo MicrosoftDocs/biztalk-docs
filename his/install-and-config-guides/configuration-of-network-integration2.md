@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Configure Network Integration"
+description: "Learn how to configure Network Integration including Client Protocol and Active Directory support."
 title: "Configure Network Integration | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016
@@ -15,9 +15,11 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configure Network Integration
+
 Use this page to configure Network Integration.  
   
-## UIElement List  
+## UIElement List
+
  **Enable the Network Integration for this HIS Group**  
  You must select this to make any changes on this page.  
   
@@ -35,5 +37,6 @@ Use this page to configure Network Integration.
  **Windows Service**  
  View or change the current Windows Service accounts.  
   
-## See Also  
- [Configuration Wizard Help](../install-and-config-guides/configuration-wizard-help2.md)
+## See Also
+
+- [Configuration Wizard Help](../install-and-config-guides/configuration-wizard-help2.md)

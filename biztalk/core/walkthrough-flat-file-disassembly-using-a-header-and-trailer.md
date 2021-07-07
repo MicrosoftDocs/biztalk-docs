@@ -42,7 +42,7 @@ This walkthrough demonstrates the use of schemas created by the Flat File Schema
 
 1. Use [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] to create a new BizTalk project. Call the project **FFDisassemblerWalkthrough**.
 
-2. Generate a key file and assign it to the project. For more information about this task, see [Signing Page, Project Designer](https://go.microsoft.com/fwlink/?LinkId=125876).
+2. Generate a key file and assign it to the project. For more information about this task, see [Signing Page, Project Designer](/previous-versions/visualstudio/visual-studio-2015/ide/reference/signing-page-project-designer).
 
 3. In the deployment properties for the project, set **Application Name** to “FlatFileExample” and set **Restart Host Instances** to `True`. Setting this flag tells the host to clear any cached instances of the assembly.
 
@@ -295,4 +295,3 @@ Before generating schemas, you need to create a test file.
 1.  In the BizTalk Server Administration console, right-click the **FlatFileExample** application, and then click **Start**. This enlists and starts the send and receive ports.
 
 2.  Drop the copy of the sample Errorfile.txt into the receive directory. Two output files should be written to the send directory.
-

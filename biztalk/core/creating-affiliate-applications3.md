@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Creating Affiliate Applications"
+description: "Learn how to create Enterprise Single Sign-On (SSO) tickets and enable affiliate application XML."
 title: "Creating Affiliate Applications3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -22,10 +22,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Creating Affiliate Applications
+
 The following steps describe how to get started with affiliate applications using Single Sign-On (SSO).  
   
 > [!NOTE]
->  If you get SSO errors, verify that you used a domain account when you configured BizTalk Server, because this affects the function of the ESSO service. SSO only functions under a domain account.  
+> If you get SSO errors, verify that you used a domain account when you configured BizTalk Server, because this affects the function of the ESSO service. SSO only functions under a domain account.  
   
 ## Creating an Affiliate Application  
   
@@ -41,7 +42,7 @@ The following steps describe how to get started with affiliate applications usin
   
 3.  Use the Enterprise Single Sign-On commands. For a list of commands, use the -help switch.  
   
-     ![](../core/media/siebeladapter-23-sso-commands.gif "SiebelAdapter_23_SSO_Commands")  
+     ![Screenshot of a Windows system command window showing a list of Enterprise Single Sign-On commands with syntax and descriptions.](../core/media/siebeladapter-23-sso-commands.gif)  
   
 4.  To create the affiliate application using the *.XML as a beginning, type in the following command:  
   

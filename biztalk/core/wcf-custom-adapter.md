@@ -27,4 +27,4 @@ The WCF-Custom adapter is an in-process adapter to allow configuring receive loc
 -   [Configuring the WCF-Custom Adapter](../core/configuring-the-wcf-custom-adapter.md)
 
 ## See Also
- [Introduction to Extensibility](https://go.microsoft.com/fwlink/?LinkId=82590)
+ [Introduction to Extensibility](/dotnet/framework/wcf/introduction-to-extensibility)

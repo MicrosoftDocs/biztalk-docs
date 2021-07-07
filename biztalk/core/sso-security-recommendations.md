@@ -79,13 +79,13 @@ With the Enterprise Single Sign-On (SSO) system, users can connect to different 
 
 ## Security Recommendations for an SSO Deployment
 
-- If your network supports Kerberos authentication, you should register all SSO servers. When you use Kerberos authentication between the master secret server and the SSO database, you must configure Service Principal Names (SPN) on the SQL server where the SSO database is located. For more information about configuring Service Principal Names, see Microsoft Download Web site at [https://go.microsoft.com/fwlink/?LinkId=195797](https://go.microsoft.com/fwlink/?LinkId=195797).
+- If your network supports Kerberos authentication, you should register all SSO servers. When you use Kerberos authentication between the master secret server and the SSO database, you must configure Service Principal Names (SPN) on the SQL server where the SSO database is located. For more information about configuring Service Principal Names, see Microsoft Download Web site at [https://go.microsoft.com/fwlink/?LinkId=195797](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731241(v=ws.10)).
 
 - When running [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], if the master secret server is on a different domain from the other SSO servers and from the SSO database, you must disable RPC security (as used for Data Transaction Coordinator (DTC) authentication between computers) on the master secret server, on the SSO servers (processing computers in the processing domain), and on the SSO database. RPC security is a DTC feature in [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] and [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. When you disable RPC security, the DTC authentication security level for RPC calls goes back to one available in Microsoft Windows Server 2003.
 
 - SSO administrators should regularly monitor the event log in the master secret server and the SSO server for SSO auditing events.
 
-- In addition to firewalls, it is recommended to use Internet Protocol security (IPSec) or Secure Sockets Layer (SSL) between all the SSO servers and the SSO database. For more information about SSL, see Microsoft Help and Support Web site at [https://go.microsoft.com/fwlink/?LinkId=195798](https://go.microsoft.com/fwlink/?LinkId=195798). For more information about using SSL between all the SSO servers and the SSO database, see [How to Enable SSL for SSO](../core/how-to-enable-ssl-for-sso.md).
+- In addition to firewalls, it is recommended to use Internet Protocol security (IPSec) or Secure Sockets Layer (SSL) between all the SSO servers and the SSO database. For more information about SSL, see Microsoft Help and Support Web site at [https://go.microsoft.com/fwlink/?LinkId=195798](/previous-versions/sql/sql-server-2008/cc278098(v=sql.100)). For more information about using SSL between all the SSO servers and the SSO database, see [How to Enable SSL for SSO](../core/how-to-enable-ssl-for-sso.md).
 
 ## Perimeter Network
  When running Internet Information Services (IIS) and Enterprise Single Sign-On, follow these recommendations:
@@ -97,7 +97,7 @@ With the Enterprise Single Sign-On (SSO) system, users can connect to different 
 ## SQL Server Access
  All SSO servers access the SQL Server SSO database. For more information about how to secure SQL Server databases, see [https://go.microsoft.com/fwlink/?LinkId=33175](https://go.microsoft.com/fwlink/?LinkId=33175).
 
- It is recommended that you use Secure Sockets Layer (SSL) and/or Internet Protocol security (IPSec) to secure the transmission of data between the SSO servers and the SSO database. For more information about using SSL, see [https://go.microsoft.com/fwlink/?LinkId=195798](https://go.microsoft.com/fwlink/?LinkId=195798).
+ It is recommended that you use Secure Sockets Layer (SSL) and/or Internet Protocol security (IPSec) to secure the transmission of data between the SSO servers and the SSO database. For more information about using SSL, see [https://go.microsoft.com/fwlink/?LinkId=195798](/previous-versions/sql/sql-server-2008/cc278098(v=sql.100)).
 
  To enable SSL for only the connection between the SSO server and the SSO database, you can set SSL support on every SSO server using the ssoconfig utility. This option enables SSO to always use SSL when accessing the SSO database. For more information, see [How to Enable SSL for SSO](../core/how-to-enable-ssl-for-sso.md).
 

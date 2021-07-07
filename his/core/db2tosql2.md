@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: db2ToSql"
+description: "Learn about the db2ToSql element that defines the direction from DB2 to SQL Server."
 title: "db2ToSql2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,6 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # db2ToSql Overview
+
 The db2ToSql defines the direction from DB2 to SQL Server.  
   
  \<hostIntegration.drdaAs.drdaService>  
@@ -26,8 +27,21 @@ The db2ToSql defines the direction from DB2 to SQL Server.
   
 ## Syntax  
   
-```  
-<hostIntegration.drdaAs.drdaService>        <services>                <service>                        <conversionFormats>                                <dateTimeMasks>                                        <dateTimeMask>                                                <db2ToSql>                                                </db2ToSql>                                        </dateTimeMask>                                </dateTimeMasks>                        </conversionFormats>                </service>        </services></hostIntegration.drdaAs.drdaService>  
+```xml  
+<hostIntegration.drdaAs.drdaService>
+    <services>
+         <service>
+              <conversionFormats>
+                   <timeMasks> 
+                        <timeMask> 
+                             <db2ToSql>  
+                             </db2ToSql>  
+                        </timeMask>    
+                   </timeMasks>       
+              </conversionFormats>    
+         </service>   
+    </services>
+</hostIntegration.drdaAs.drdaService>  
 ```  
   
 ## Attributes and Elements  

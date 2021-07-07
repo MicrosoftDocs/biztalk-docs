@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: BizTalk Server Integration"
+description: "Learn how to add custom Microsoft BizTalk pipeline components from AmberPoint to your existing BizTalk Server custom pipelines, using Visual Studio."
 title: "BizTalk Server Integration2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # BizTalk Server Integration
+
 AmberPoint packages its Microsoft BizTalk Server integration product as a custom BizTalk pipeline component. You can add this component to your existing custom pipelines using Visual Studio, as shown in Figure 1.
 
  ![VisualStudio Pipeline](../esb-toolkit/media/ch9-visualstudiopipeline.jpg "Ch9-VisualStudioPipeline")

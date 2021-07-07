@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: How to Move the BAM Archive Database"
+description: "Learn how to move the Business Activity Monitoring (BAM) Archive database to another server and update the references to the new BAM Archive database."
 title: "How to Move the BAM Archive Database1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -15,11 +15,12 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Move the BAM Archive Database
+
 You can use this procedure to move the BAM Archive database to another server.  From an end-to-end scenario perspective, moving the BAM Archive database involves two major steps:
 
--   [Moving the BAM Archive Database](../technical-guides/how-to-move-the-bam-archive-database1.md#BKMK_MovingArch)
+- [Moving the BAM Archive Database](../technical-guides/how-to-move-the-bam-archive-database1.md#BKMK_MovingArch)
 
--   [Updating References to the New BAM Archive Database](../technical-guides/how-to-move-the-bam-archive-database1.md#BKMK_UpdateArch)
+- [Updating References to the New BAM Archive Database](../technical-guides/how-to-move-the-bam-archive-database1.md#BKMK_UpdateArch)
 
 ## Prerequisites
  You must be logged on with an account that is a member of the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] sysadmin fixed server role to perform this procedure.

@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Protection"
+description: "Learn about service protection for the Distributed Relational Database Architecture (DRDA) service, including authentication methods and encryption options."
 title: "Protection2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,19 +15,22 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # DRDA Service Protection
+
 ## DRDA Service Authentication Methods
- DRDA Service supports multiple authentication methods, using DRDA in combination with Kerberos and Windows Active Directory using Enterprise Single-Sign-On.
+
+DRDA Service supports multiple authentication methods, using DRDA in combination with Kerberos and Windows Active Directory using Enterprise Single-Sign-On.
 
 ### Server Authentication
- IT professionals can configure the DRDA Service to use DRDA client-provided authentication credentials that are validated on the server.
 
--   User name and password.
+IT professionals can configure the DRDA Service to use DRDA client-provided authentication credentials that are validated on the server.
 
--   User name only.
+- User name and password.
 
--   Unencrypted User name with encrypted password using 256-bit Advanced Encryption Standard (AES) to secure the authentication credentials.
+- User name only.
 
--   Encrypted user name and password using 256-bit Advanced Encryption Standard (AES) to secure the authentication credentials.
+- Unencrypted User name with encrypted password using 256-bit Advanced Encryption Standard (AES) to secure the authentication credentials.
+
+- Encrypted user name and password using 256-bit Advanced Encryption Standard (AES) to secure the authentication credentials.
 
 ### Kerberos Authentication
  IT professionals can configure the DRDA Service to authenticate in-bound user with a Kerberos ticket, which the DRDA Service uses to connect to SQL Server using Kerberos authentication.

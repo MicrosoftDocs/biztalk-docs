@@ -32,7 +32,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 - **Hard disk**: 10 GB of available hard disk space for a complete installation, including the operating system and all prerequisite software. The hard disk must be NTFS formatted.
 
 > [!TIP]
-> The hardware requirements listed are the minimum. Every environment is different and there's a very good chance that your environment may need more depending on your throughput requirement and load. See [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](https://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx). Also refer to Windows System requirements for [Windows Server 2016](https://docs.microsoft.com/windows-server/get-started/system-requirements) and [Windows Server 2019](https://docs.microsoft.com/windows-server/get-started-19/sys-reqs-19).
+> The hardware requirements listed are the minimum. Every environment is different and there's a very good chance that your environment may need more depending on your throughput requirement and load. See [Recommendations for Installing, Sizing, Deploying, and Maintaining a BizTalk Server Solution](https://social.technet.microsoft.com/wiki/contents/articles/666.recommendations-for-installing-sizing-deploying-and-maintaining-a-biztalk-server-solution.aspx). Also refer to Windows System requirements for [Windows Server 2016](/windows-server/get-started/system-requirements) and [Windows Server 2019](/windows-server/get-started-19/sys-reqs-19).
 
 ## Software requirements & supported versions
 
@@ -90,7 +90,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 
   Supported minimum versions:
 
-  - Microsoft OLE DB Driver 18.3.0 for SQL Server. Download at [Microsoft OLE DB Driver for SQL Server](https://docs.microsoft.com/sql/connect/oledb/download-oledb-driver-for-sql-server?view=sql-server-ver15).
+  - Microsoft OLE DB Driver 18.3.0 for SQL Server. Download at [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/download-oledb-driver-for-sql-server?view=sql-server-ver15).
 
 - **Microsoft SQL Server**: Required for BizTalk Server Runtime, EDI, and BAM. For optimal performance, Microsoft recommends the Enterprise Edition of SQL Server. Other considerations:
 
@@ -105,7 +105,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
   - Microsoft SQL Server 2017
   - Microsoft SQL Server 2016 SP2 CU7
 
-- **SSIS Catalog** (SSIDB): Optional. Required to use BAM. [Create the SSIS Catalog](https://docs.microsoft.com/sql/integration-services/catalog/ssis-catalog#create-the-ssis-catalog).
+- **SSIS Catalog** (SSIDB): Optional. Required to use BAM. [Create the SSIS Catalog](/sql/integration-services/catalog/ssis-catalog#create-the-ssis-catalog).
 
 - **SQL Server Database Mail**: Optional. Required to use BAM Alerts.
 
@@ -136,7 +136,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 
 ## Service Pack and Cumulative Update Support
 
-All service packs, cumulative updates, security updates, and hotfixes are supported on a BizTalk Server. It is strongly encouraged to install the latest update for Windows, SQL Server, Visual Studio, and any program installed. Service Packs for Microsoft products are supported based on the baseline support for that product. Refer to [Support Lifecycle Index](https://go.microsoft.com/fwlink/p/?LinkID=151890) for BizTalk Server, SQL Server, Visual Studio, and other Microsoft programs.
+All service packs, cumulative updates, security updates, and hotfixes are supported on a BizTalk Server. It is strongly encouraged to install the latest update for Windows, SQL Server, Visual Studio, and any program installed. Service Packs for Microsoft products are supported based on the baseline support for that product. Refer to [Support Lifecycle Index](/lifecycle/) for BizTalk Server, SQL Server, Visual Studio, and other Microsoft programs.
 
 [Service Pack and cumulative update list for BizTalk Server](https://support.microsoft.com/help/2555976)
 

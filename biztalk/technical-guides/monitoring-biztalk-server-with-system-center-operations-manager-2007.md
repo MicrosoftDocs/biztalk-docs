@@ -19,7 +19,7 @@ Monitoring your BizTalk applications and infrastructure with Microsoft System Ce
   
  The following BizTalk Server management pack is available for use with Operations Manager:  
   
-- [BizTalk Server 2010 Monitoring Management Pack](ttp://go.microsoft.com/fwlink/?LinkId=210666) (ttp://go.microsoft.com/fwlink/?LinkId=210666).  
+- [BizTalk Server 2010 Monitoring Management Pack](https://go.microsoft.com/fwlink/?LinkId=210666).  
   
   This section of the operations guide includes background information, best practices, checklists, and procedures that you can use to assist in implementing a monitoring strategy based on Operations Manager.  
   

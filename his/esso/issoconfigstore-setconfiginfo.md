@@ -15,11 +15,12 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # ISSOConfigStore::SetConfigInfo
-The **SetConfigInf**o method sets the configuration information in the config store.  
+
+The **SetConfigInfo** method sets the configuration information in the config store.  
   
 ## Syntax  
   
-```cpp#  
+```cpp  
   
 HRESULT SetConfigInfo(  
 BSTR bstrApplication,  
@@ -37,7 +38,8 @@ ppbConfigInfo As IPropertyBag
 )  
 ```  
   
-## Remarks  
+## Parameters
+  
  `bstrApplication`  
  [in]  String containing the external application name.  
   
@@ -56,10 +58,11 @@ ppbConfigInfo As IPropertyBag
  `ppbConfigInfo`  
  [in]  Contains a pointer to a property bag containing the config info as name/value pairs.  
   
-## Return Values  
- This method does not return a value.  
+## Return Values
   
- The method returns an **HRESULT**. Possible values include, but are not limited to, those in the following table.  
+This method does not return a value.  
+  
+The method returns an **HRESULT**. Possible values include, but are not limited to, those in the following table.  
   
 |Return code|Description|  
 |-----------------|-----------------|  
@@ -67,20 +70,21 @@ ppbConfigInfo As IPropertyBag
 |E_ACCESSDENIED|Access denied.|  
 |E_INVALIDARG|Invalid argument.|  
   
-## Remarks  
- This method can be used for originally creating the config info or for updating the config info.  
+## Remarks
   
- If the config info does not already exist, all properties of the config info, as defined by the field info for the specified application, must be provided.  
+This method can be used for originally creating the config info or for updating the config info.  
   
- If the config info does already exist, a property within the config info can be missing. Only properties that are provided will be updated. At least one property must be provided.  
+If the config info does not already exist, all properties of the config info, as defined by the field info for the specified application, must be provided.  
   
- Note that due to the use of the Single Sign-On (SSO) store, the first property cannot be masked.  
+If the config info does already exist, a property within the config info can be missing. Only properties that are provided will be updated. At least one property must be provided.  
   
- If the ***bstrSSOServer*** parameter is NULL, the SSO server location is obtained from the registry. If not available in the registry, the local computer will be used.  
+Note that due to the use of the Single Sign-On (SSO) store, the first property cannot be masked.  
+  
+If the ***bstrSSOServer*** parameter is NULL, the SSO server location is obtained from the registry. If not available in the registry, the local computer will be used.  
   
 ## Example  
   
-```  
+```csharp
   
 ConfigStore  
 bstrApplication  
@@ -89,7 +93,8 @@ ppbConfigInfo
   
 ```  
   
-## See Also  
- [ISSOConfigStore::GetConfigInfo](../esso/issoconfigstore-getconfiginfo.md)   
- [ISSOConfigStore Interface (COM)](../esso/issoconfigstore-interface-com.md)   
- [Programming with Enterprise Single Sign-On](../esso/programming-with-enterprise-single-sign-on.md)
+## See Also
+
+[ISSOConfigStore::GetConfigInfo](../esso/issoconfigstore-getconfiginfo.md)   
+[ISSOConfigStore Interface (COM)](../esso/issoconfigstore-interface-com.md)   
+[Programming with Enterprise Single Sign-On](../esso/programming-with-enterprise-single-sign-on.md)

@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Configuring Enterprise Single Sign-On"
+description: "Learn how to configure Enterprise Single Sign-On (SSO) using command-line utilities, user interface (UI) tools, or COM or Microsoft .NET Framework interfaces."
 title: "Configuring Enterprise Single Sign-On1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,9 +15,11 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring Enterprise Single Sign-On
+
 You can configure Enterprise Single Sign-On (SSO) using command-line utilities, user interface (UI) tools, or COM or Microsoft .NET Framework interfaces.  
   
-## SSO Command-line Utilities  
+## SSO Command-line Utilities 
+
  You use three different command-line utilities to perform Enterprise Single Sign-On tasks:  
   
  **SSOConfig.** Enables an SSO administrator to configure the Credential database and to manage the master secret.  

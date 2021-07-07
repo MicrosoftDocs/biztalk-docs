@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Message Schemas for the Polling Operations"
+description: "Learn about the message schemas for polling operations used by the Microsoft BizTalk Adapter for Oracle E-Business Suite."
 title: "Message Schemas for the Polling Operations1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,15 +16,17 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Message Schemas for the Polling Operations
+
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]surfaces various inbound operations related to polling depending on the target object in Oracle E-Business Suite. For interface tables, interface views, tables, and views, a single Poll operation is surfaced whereas you can have multiple custom polling operations for PL/SQL APIs, functions, and stored procedures.  
   
  You configure the polling operations by setting binding properties in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]. For more information about these binding properties, see [Read about the BizTalk Adapter for Oracle E-Business Suite binding properties](../../adapters-and-accelerators/adapter-oracle-ebs/read-about-the-biztalk-adapter-for-oracle-e-business-suite-binding-properties.md). You set the **PollingStatement** binding property to specify a SQL statement, stored procedure, function or a procedure within a package for the polling query. The result set of this query is returned as data to your code in the polling operation.  
   
-## Message Structure for the Polling Operations  
- The following table shows the XML message structure for the various polling operations.  
+## Message Structure for the Polling Operations
+  
+The following table shows the XML message structure for the various polling operations.  
   
 > [!NOTE]
->  See entity descriptions after the table.  
+> See entity descriptions after the table.  
   
 |Operation|Target Object|XML Message|Description|  
 |---------------|-------------------|-----------------|-----------------|  
@@ -41,5 +43,6 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
   
  [PL/SQL API] = Name of the PL/SQL API on which a custom polling operation is performed.  
   
-## See Also  
- [Messages and Message Schemas for BizTalk Adapter for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md)
+## See Also
+  
+[Messages and Message Schemas for BizTalk Adapter for Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/messages-and-message-schemas-for-biztalk-adapter-for-oracle-e-business-suite.md)

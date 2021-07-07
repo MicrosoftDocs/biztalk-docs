@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Best Practices for Managing Certificates"
+description: "Learn about best practices for managing certificates in the Microsoft BizTalk Server environment."
 title: "Best Practices for Managing Certificates1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -23,6 +23,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Learn About Best Practices for Managing Certificates
+
 This section provides best practices for managing certificates in your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.  
   
 - **Do a Threat Model Analysis of your environment**  
@@ -64,6 +65,7 @@ This section provides best practices for managing certificates in your [!INCLUDE
   
    Before removing a host instance from a BizTalk server, remove the certificates in the personal store of the account under which the host instance is running.  
   
-## See Also  
- [Managing BizTalk Server Security](../core/managing-biztalk-server-security.md)   
- [Best Practices for Managing Windows Groups and User Accounts](../core/best-practices-for-managing-windows-groups-and-user-accounts.md)
+## See Also
+
+- [Managing BizTalk Server Security](../core/managing-biztalk-server-security.md)   
+- [Best Practices for Managing Windows Groups and User Accounts](../core/best-practices-for-managing-windows-groups-and-user-accounts.md)

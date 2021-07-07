@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: About Session Management"
+description: "Learn how to manage the pool of connection sessions for calls to the JD Edwards OneWorld server using message context properties in the Microsoft BizTalk Adapter for JD Edwards OneWorld."
 title: "About Session Management1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/16/2021"

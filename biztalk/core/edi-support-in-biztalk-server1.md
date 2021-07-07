@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: EDI Support in BizTalk Server"
+description: "Learn about the Electronic Data Interchange (EDI) and how it is supported in BizTalk Server."
 title: "EDI Support in BizTalk Server1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,9 +16,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Overview of EDI Support in BizTalk Server
+
 This topic provides a brief general overview of EDI and how BizTalk Server supports EDI.  
   
-## Introduction to EDI  
+## Introduction to EDI
+  
  Electronic Data Interchange (EDI) is the single most commonly used means by which business trading partners exchange data electronically. EDI is largely messaging-oriented. Documents are implemented as flat files that can include batched transaction sets. Batched interchanges can contain multiple groups, each of which can contain multiple transaction sets or messages.  
   
  EDI consists of specific data interchange methods agreed upon by standards bodies. The primary EDI standards are X12 (standardized by ANSI and used primarily in North America) and EDIFACT (standardized by the United Nations and used primarily outside the U.S.). Other standards are derived from these, for example, HIPAA from X12 and KEDIFACT in Korea from EDIFACT. The standards are closely parallel in message structure and acknowledgment schemes, but have distinct differences.  
@@ -75,7 +77,7 @@ This topic provides a brief general overview of EDI and how BizTalk Server suppo
 - The BizTalk EDI Application contains artifacts (including pipelines, orchestrations, and schemas) that are needed to process EDI documents.  
   
   > [!NOTE]
-  >  When you configure the EDI feature in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the configuration program creates this application. Whenever you create an application that will process EDI interchanges, you must add a reference to the BizTalk EDI Application from your application. For more information, see [How to Add a Reference to the BizTalk Server EDI Application](https://msdn.microsoft.com/library/7af066fb-372f-4709-b566-c8d6b4a9d782).  
+  >  When you configure the EDI feature in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the configuration program creates this application. Whenever you create an application that will process EDI interchanges, you must add a reference to the BizTalk EDI Application from your application. For more information, see [Add a Reference to the BizTalk Server EDI Application](step-1-prepare-for-the-edi-interface-developer-tutorial.md#to-add-reference-to-the-biztalk-edi-application).  
   
 - The BizTalk EDI Receive Pipeline (EdiReceive pipeline) parses EDI-encoded documents, splits EDI batches, converts the EDI-encoded documents into XML encoding, performs EDI and XSD validation, and performs HIPAA X12 sub-document splitting. For more information, see [EDI Receive Components](../core/edi-receive-components.md).  
   
@@ -91,7 +93,7 @@ This topic provides a brief general overview of EDI and how BizTalk Server suppo
   
 - A schema repository includes X12, EDIFACT, HIPAA X12N 4010A XSD, EANCOM, and control schemas. For more information, see [EDI Document Schema Support](../core/edi-document-schema-support.md).  
   
-- A migration tool (Party Migration Tool) enables you to migrate EDI party data from BizTalk Server 2006 R2 or BizTalk Server 2009 to BizTalk Server. For more information, see [Migrating EDI Artifacts from a Previous Version of BizTalk Server](https://msdn.microsoft.com/library/b956a97e-03d0-47ea-a2ce-c07a339c0f2c).  
+- A migration tool (Party Migration Tool) enables you to migrate EDI party data from BizTalk Server 2006 R2 or BizTalk Server 2009 to BizTalk Server. For more information, see [EDI Migration Utilities](edi-migration-utilities.md).
   
 ## See Also  
  [EDI Processing in BizTalk Server](../core/edi-processing-in-biztalk-server.md)   

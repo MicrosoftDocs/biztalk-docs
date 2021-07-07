@@ -22,9 +22,9 @@ You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-
   
 - **TypedPolling**. This operation returns a strongly-typed polling message. At design time, the schema of the database object is also available. You must use this operation for polling if you want to map certain elements from the polling message to another schema, which could be for another operation.  
   
-- **XmlPolling**. This operation returns the polling message as an XML message. You must use this operation if you want to use SELECT statements or stored procedures that use the FOR XML clause to return data as XML messages. For more information about the FOR XML clause, see [FOR XML (SQL Server)](https://msdn.microsoft.com/library/ms178107.aspx). 
+- **XmlPolling**. This operation returns the polling message as an XML message. You must use this operation if you want to use SELECT statements or stored procedures that use the FOR XML clause to return data as XML messages. For more information about the FOR XML clause, see [FOR XML (SQL Server)](/sql/relational-databases/xml/for-xml-sql-server). 
   
-  For more information about these polling operations, see [Support for Polling](https://msdn.microsoft.com/library/dd788416.aspx).  
+  For more information about these polling operations, see [Support for Polling](./polling-in-sql-server-using-the-sql-adapter.md).  
   
 > [!NOTE]
 >  The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to have a single BizTalk application with more than one Polling or TypedPolling operations for the same database or table. To support such a scenario, the adapter includes a unique ID— **InboundID**—in the connection URI. This ID, when added to the connection URI, makes it unique, thereby enabling multiple polling operations in a single BizTalk application.  

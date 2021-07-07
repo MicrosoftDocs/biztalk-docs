@@ -30,7 +30,7 @@ Have permissions to use **Active Directory Users and Computers**, and create dom
 ## Create groups and user accounts
 
 1. Open **Active Directory Users and Computers**.
-2. Create the groups. For the specific steps to create on-premises groups, see [Create a Group Account in Active Directory](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-account-in-active-directory).
+2. Create the groups. For the specific steps to create on-premises groups, see [Create a Group Account in Active Directory](/windows/security/threat-protection/windows-firewall/create-a-group-account-in-active-directory).
 
 ## Group list and descriptions
 

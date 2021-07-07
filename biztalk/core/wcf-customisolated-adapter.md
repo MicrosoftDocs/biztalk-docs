@@ -29,4 +29,4 @@ The WCF-CustomIsolated adapter is an isolated adapter to allow configuring recei
 -   [Configuring the WCF-CustomIsolated Adapter](../core/configuring-the-wcf-customisolated-adapter.md)
 
 ## See Also
- [Introduction to Extensibility](https://go.microsoft.com/fwlink/?LinkId=82590)
+ [Introduction to Extensibility](/dotnet/framework/wcf/introduction-to-extensibility)

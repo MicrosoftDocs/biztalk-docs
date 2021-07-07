@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Configuring Enterprise Single Sign-On"
+description: "Learn now to configure Enterprise Single Sign-On (SSO) and define an ESSO Host-Initiated affiliate application."
 title: "Configuring Enterprise Single Sign-On2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,10 +15,12 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configure Enterprise Single Sign-On
+
 The DRDA Service can utilize Enterprise Single Sign-On (ESSO) to better secure the authentication and configuration information.  
   
-### Define an ESSO Host-Initiated Affiliate Application  
- You must define an ESSO Affiliate Application, in order to use Windows-initiated SSO for use by multiple client programs and users.  
+### Define an ESSO Host-Initiated Affiliate Application
+  
+You must define an ESSO Affiliate Application, in order to use Windows-initiated SSO for use by multiple client programs and users.  
   
 1.  On the **Start** menu, point to **All Programs**, point to **Microsoft Enterprise Single Sign-On**, and click **SSO Administration**. When prompted by **User Access Control**, click **Yes**.  
   

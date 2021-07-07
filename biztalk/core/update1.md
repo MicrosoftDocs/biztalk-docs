@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Update"
+description: "Learn how to use the Update function in BizTalk Server to reassert a .NET class or TypedXMLDocument object into the rule engine to be re-evaluated, based on the new data and state."
 title: "Update1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -23,13 +23,15 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Update Function
+
 When **Update** function is invoked an object, the object is reasserted into the engine to be re-evaluated, based on the new data and state. The object can be of type **TypedXmlDocument** or .NET class or **DataConnection** or **TypedDataTable**.  
   
  You can also use **Update** function to improve engine performance and prevent endless loop scenarios as described in this topic.  
   
  Typically, you use **Assert** to place a new object in the working memory of the rule engine, and use **Update** to update an already existing object in the working memory. When you assert a new object, conditions in all the rules are evaluated. When you update an existing object, only conditions that use the updated fact are reevaluated, and actions are added to the agenda if these conditions are evaluated to true.  
   
-## Using Update function on .NET facts  
+## Using Update function on .NET facts
+  
  Take the two rules that follow as an example. Suppose that objects **ItemA** and **ItemB** already exist in working memory. Rule 1 evaluates the **Id** property on **ItemA**, sets the **Id** property on **ItemB**, and then reasserts **ItemB** after the change. When **ItemB** is reasserted, it is treated as a new object and the engine re-evaluates all rules that use object **ItemB** in the predicates or actions. This ensures that Rule 2 is re-evaluated against the new value of **ItemB.Id**, as set in Rule 1. Rule 2 may have failed the first time it was evaluated, but evaluates to **true** the second time it is evaluated.  
   
 ### Rule 1  
@@ -50,7 +52,7 @@ THEN ItemB.Value = 100
  This ability to reassert objects into working memory allows the user explicit control over the behavior in forward-chaining scenarios. A side effect of the reassertion in this example, however, is that Rule 1 is also re-evaluated. Because **ItemA.Id** was not changed, Rule 1 again evaluates to **true** and the **Assert(ItemB)** action fires again. As a result, the rule creates an endless loop situation.  
   
 > [!NOTE]
->  The default maximum loop count of re-evaluation of rules is 2^32. For certain rules, the policy execution could last for a long time. You can reduce the count by adjusting the **Maximum Execution Loop Depth** property of the policy version.  
+> The default maximum loop count of re-evaluation of rules is 2^32. For certain rules, the policy execution could last for a long time. You can reduce the count by adjusting the **Maximum Execution Loop Depth** property of the policy version.  
   
  You need to be able to reassert objects without creating endless loops, and the **Update** function provides this capability. Like a reassert, the **Update** function performs **Retract** and **Assert** of the associated object instances, which have been changed from rule actions, but there are two key differences:  
   

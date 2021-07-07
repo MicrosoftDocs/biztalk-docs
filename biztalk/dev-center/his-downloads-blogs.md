@@ -18,8 +18,8 @@ ms.author: "mandia"
 ## Product team and community blogs
 -   [HIS team blog](https://blogs.msdn.microsoft.com/hostintegrationserver)
 -   [Steve Melan, MVP blog](http://stevemelan.wordpress.com)
--   [https://blogs.msdn.microsoft.com/sjackson/](https://blogs.msdn.microsoft.com/sjackson/)
--   [https://blogs.msdn.microsoft.com/charliee/](https://blogs.msdn.microsoft.com/charliee/)
+-   [https://blogs.msdn.microsoft.com/sjackson/](/archive/blogs/sjackson/)
+-   [https://blogs.msdn.microsoft.com/charliee/](/archive/blogs/charliee/)
 
 
 ## Popular downloads
@@ -51,4 +51,3 @@ ms.author: "mandia"
 -   [Configuring IP-DLC Link Service for IBM Enterprise Extender](https://www.microsoft.com/download/details.aspx?id=17441)
 -   [Leveraging the Value of Host Systems with Real World SOA](https://www.microsoft.com/download/details.aspx?id=20799)
 -   [Understanding the Host Integration Server Client](https://www.microsoft.com/download/details.aspx?id=15069)
-

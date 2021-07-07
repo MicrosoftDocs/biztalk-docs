@@ -53,7 +53,7 @@ https://api.datamarket.azure.com/oakleaf/US_Air_Carrier_Flight_Delays_Incr/On_Ti
 4. In the **My Account** tab, retrieve the credentials to access the data service. The credentials are listed against the **Customer ID** (user name) and **Primary Account Key** (password) labels. You will need these credentials while configuring the **WCF-WebHttp** send port.
 
 ## Set up Your Computer
- To configure the scenario used in this tutorial you must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installed and configured on your computer. If you want to provision a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer on a Windows Azure VM, follow the instructions at [Configuring BizTalk Server on an Azure VM](https://msdn.microsoft.com/library/azure/jj248689.aspx).
+ To configure the scenario used in this tutorial you must have [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installed and configured on your computer. If you want to provision a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computer on a Windows Azure VM, follow the instructions at [Configuring BizTalk Server on an Azure VM](/previous-versions/azure/jj248689(v=azure.100)).
 
 ## In This Section
 

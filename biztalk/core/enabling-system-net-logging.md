@@ -51,4 +51,4 @@ You can enable logging for the `System.Net` and `System.Net.Sockets`[!INCLUDE[bt
  The log file will be written to the same directory that contains BTSNtSvc.exe. If you installed to the default location, it will be written to [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].
 
 ## See Also
- [Interpreting Network Tracing](https://go.microsoft.com/fwlink/?LinkId=78679)
+ [Interpreting Network Tracing](/dotnet/framework/network-programming/interpreting-network-tracing)

@@ -139,4 +139,4 @@
 ### [Troubleshoot Operational Issues](troubleshoot-operational-issues-with-the-sql-adapter.md)
 ### [Use performance counters](use-performance-counters-with-the-sql-adapter.md)
 ## [Terms and definitions](glossary4.md)
-## [API namespace reference](https://docs.microsoft.com/dotnet/api/?view=bts-sql-adapter)
+## [API namespace reference](/dotnet/api/?view=bts-sql-adapter)

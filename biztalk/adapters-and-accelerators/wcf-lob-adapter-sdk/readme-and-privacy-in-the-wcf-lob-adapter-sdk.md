@@ -33,7 +33,7 @@ The Windows Communication Foundation (WCF) Line of Business (LOB) Adapter Softwa
 Microsoft is committed to protecting end-users' privacy. When you build an adapter using [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)], it may impact your end-users' privacy. For example, your adapter may explicitly collect and send user credentials, or it may send and receive sensitive information from a line-of-business system. The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] does not send any information to Microsoft from your application unless you or the user chooses to send it to us.  
   
 ### Windows Communication Foundation Privacy  
- The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is an extension to the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] and as such relies on many of the services it provides. For more information about [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] privacy, see [Windows Communication Foundation Privacy Information](https://msdn.microsoft.com/library/ms733927.aspx).  
+ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is an extension to the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] and as such relies on many of the services it provides. For more information about [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] privacy, see [Windows Communication Foundation Privacy Information](/dotnet/framework/wcf/privacy-information).  
   
 ### Microsoft WCF LOB Adapter SDK Privacy  
  The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] is an API. As a developer, you can provide custom logging and tracing capabilities to facilitate debugging, tuning, and auditing in the adapters you create. If you do provide such capabilities, you must consider the type of information you will record and how information will be restricted so that only authorized individuals have access. This can involve the following:  
@@ -42,4 +42,4 @@ Microsoft is committed to protecting end-users' privacy. When you build an adapt
   
 -   Filtering sensitive data before it is written to a file.  
   
--   Encrypting sensitive data before it is written to a file.  
+-   Encrypting sensitive data before it is written to a file.

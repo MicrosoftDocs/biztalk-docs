@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: sqlToDb2"
+description: "Learn about the syntax and attributes of the sqlToDb2 element."
 title: "sqlToDb22 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,6 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # sqlToDb2 Overview
+
 The sqlToDb2 defines the direction from SQL Server to DB2.  
   
  \<hostIntegration.drdaAs.drdaService>  
@@ -30,8 +31,9 @@ The sqlToDb2 defines the direction from SQL Server to DB2.
 <hostIntegration.drdaAs.drdaService>        <services>                <service>                        <conversionFormats>                                <timeMasks>                                        <timeMask>                                                <sqlToDb2>                                                </sqlToDb2>                                        </timeMask>                                </timeMasks>                        </conversionFormats>                </service>        </services></hostIntegration.drdaAs.drdaService>  
 ```  
   
-## Attributes and Elements  
- The following sections describe attributes, child elements, and parent elements.  
+## Attributes and Elements
+  
+The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
   

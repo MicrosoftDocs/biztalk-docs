@@ -13,15 +13,13 @@ f1_keywords:
 
 # Receive Location Properties Dialog Box
 
- 
-
 Use the **Receive Location Properties** window to configure receive locations and associate them with receive ports and pipelines.
 
 ## General Tab
 
 Use the **General** tab to associate the receive location with the receive handler of the selected host.
 
-## UIElement List
+The following table lists the UIElements in the **General** tab and what they are used for.
 
 <table>
 <thead>
@@ -74,10 +72,9 @@ Use the **General** tab to associate the receive location with the receive handl
 </tbody>
 </table>
 
-
 ## Schedule Tab
 
-## UIElement List
+The following table lists the UIElements in the **Schedule** tab and what they are used for.
 
 <table>
 <thead>
@@ -110,12 +107,11 @@ Use the **General** tab to associate the receive location with the receive handl
 </tbody>
 </table>
 
-
 ## Certificate Tab
 
 The **Certificate** tab appears only for request-response receive locations.
 
-## UIElement List
+The following table lists the UIElements in the **Certificate** tab and what they are used for.
 
 <table>
 <thead>
@@ -144,7 +140,6 @@ The **Certificate** tab appears only for request-response receive locations.
 </tbody>
 </table>
 
-
 ## See Also
 
 [Receive Locations](https://msdn.microsoft.com/library/aa578407\(v=bts.80\))  
@@ -152,4 +147,3 @@ The **Certificate** tab appears only for request-response receive locations.
 [How to Configure Scheduling for a Receive Location](https://msdn.microsoft.com/library/aa559260\(v=bts.80\))  
 [How to Enable a Receive Location](https://msdn.microsoft.com/library/aa561716\(v=bts.80\))  
 [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\))
-

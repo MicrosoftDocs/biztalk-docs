@@ -36,12 +36,12 @@ The [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] exte
   
  ![Image that shows the inbound message exchange using a given adapter binding.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/b62d5040-7e40-4edd-ac7b-69768131c51b.gif "b62d5040-7e40-4edd-ac7b-69768131c51b")  
   
- For more information about the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel model, see [Channel Model Overview](https://msdn.microsoft.com/library/ms729840.aspx).  
+ For more information about the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel model, see [Channel Model Overview](/dotnet/framework/wcf/extending/channel-model-overview).  
   
 ## WCF Services and the WCF LOB Adapter SDK  
  When developing a typical [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] service, the first step is to create the contract for the service that is shared with the outside world that describes how to communicate with the service. This contract essentially specifies the collection and structure of messages required to access the operations offered by the service.  
   
- Once this contract is exposed as a service, the [Service Model Metadata Utility Tool (Svcutil.exe)](https://msdn.microsoft.com/library/aa347733.aspx) can be used to create a [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] client to consume it. The contract provides information about a static set of operations and messages that must not change. 
+ Once this contract is exposed as a service, the [Service Model Metadata Utility Tool (Svcutil.exe)](/dotnet/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe) can be used to create a [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] client to consume it. The contract provides information about a static set of operations and messages that must not change. 
   
  ![Image that shows a typical WCF service.](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/a410af83-ee3b-46d0-9afd-d32970f5ba0a.gif "a410af83-ee3b-46d0-9afd-d32970f5ba0a")  
   

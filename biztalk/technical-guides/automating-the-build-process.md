@@ -50,7 +50,7 @@ An automated build process compiles, deploys and then runs build verification te
 > [!NOTE]
 >  Use of this tool is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this programs. Use of this program is entirely at your own risk.
 
- For more information about automating testing using Microsoft Test manager, see the topic [Running Automated Tests](https://go.microsoft.com/fwlink/?LinkID=208368) (https://go.microsoft.com/fwlink/?LinkID=208368)  in the Visual Studio 2010 online documentation
+ For more information about automating testing using Microsoft Test manager, see the topic [Running Automated Tests](/previous-versions/visualstudio/visual-studio-2012/dd286580(v=vs.110)) (https://go.microsoft.com/fwlink/?LinkID=208368)  in the Visual Studio 2010 online documentation
 
  For more information about automating the build process using Visual Studio 2010, see [Building the Application](https://go.microsoft.com/fwlink/?LinkID=208369) ( HYPERLINK "<https://go.microsoft.com/fwlink/?LinkID=208369>" <https://go.microsoft.com/fwlink/?LinkID=208369>)  in the Visual Studio 2010 documentation.
 
@@ -104,7 +104,7 @@ An automated build process compiles, deploys and then runs build verification te
  It is important to minimize the development effort required to write each functional test. Usually the more expensive it is to produce something (in terms of development time), the fewer test cases you are likely to end up with. This means you will have a lower level of test coverage over your code. By using a test framework, you can develop test cases quicker and easier and, hence, make it easier to get full code coverage. Most good test frameworks use a declarative approach to defining tests. (That is, the configuration for a test is stored in a configuration file, which is typically an XML file.) Using a good test framework enables you to develop a full functional test suite in an agile and reliable manner and avoids having to “reinvent the wheel” over and over, so to speak.
 
 ## MSBUILD support for BizTalk Server projects
- BizTalk Server provides support for the Microsoft Build Engine (MSBUILD) platform, which accommodates the building of managed projects in build lab environments where Visual Studio is not installed. MSBUILD accommodates building projects from a command line and advanced functionality including MSBUILD logging and batching. For more information about MSBUILD, see [MSBuild Overview](https://go.microsoft.com/fwlink/?LinkId=131739) (https://go.microsoft.com/fwlink/?LinkId=131739).
+ BizTalk Server provides support for the Microsoft Build Engine (MSBUILD) platform, which accommodates the building of managed projects in build lab environments where Visual Studio is not installed. MSBUILD accommodates building projects from a command line and advanced functionality including MSBUILD logging and batching. For more information about MSBUILD, see [MSBuild Overview](/previous-versions/visualstudio/visual-studio-2008/ms171452(v=vs.90)) (https://go.microsoft.com/fwlink/?LinkId=131739).
 
 ## See Also
  [Implementing Automated Testing](../technical-guides/implementing-automated-testing.md)

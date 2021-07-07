@@ -23,7 +23,7 @@ You can use the performance tool to automatically collect performance data from 
   
  When selecting counters from the ServiceModel Adapters performance object, you can choose to only monitor information specific adapter instances by selecting the instance from the Select Instances list. Each adapter instance will be listed in the format of \<ProcessId\>@\<ConnectionString\>. For example, 115@echo:&#124;&#124;host&#124;temp?echoprefix=pre indicates the echo adapter instance running in process 115.  
   
- For information about performance counters in WCF, see [WCF Performance Counters](https://msdn.microsoft.com/library/ms735098.aspx).
+ For information about performance counters in WCF, see [WCF Performance Counters](/dotnet/framework/wcf/diagnostics/performance-counters/).
   
 ### ServiceModel Adapters Metadata Cache Performance Counters  
  The following table summarizes the cache performance counters that can be used to monitor the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].  

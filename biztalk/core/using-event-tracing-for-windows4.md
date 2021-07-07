@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Using Event Tracing for Windows"
+description: "Learn how to use the Event Tracing for Windows (ETW) tool to view tracing messages for the Microsoft BizTalk Adapter for JD Edwards EnterpriseOne."
 title: "Using Event Tracing for Windows4 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -20,9 +20,11 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Event Tracing for Windows
+
 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne logs error, warning, and information messages to the Windows Event Viewer. You can view additional tracing messages by using the Event Tracing for Windows (ETW) tool. When ETW is activated, it creates an \*.etl file to receive the messages. This file is in binary format and must be converted to be read. To do this, you must have a consumer application available to interpret the \*.etl file; for example, tracerpt.exe or tracedmp.ex. The tracept.exe application converts the \*.etl into two text files: summary.txt and dumpfile.csv.  
   
-## ETW Components  
+## ETW Components
+  
  Event Tracing for Windows has three components:  
   
 -   **Controller application**. Activates and deactivates a provider (for example, tracelog.exe or logman.exe).  
@@ -30,7 +32,7 @@ Microsoft BizTalk Adapter for JD Edwards EnterpriseOne logs error, warning, and 
      You set your PATH environment variable to point to the location of tracelog.exe. This ensures that BTAJDEEnterpriseOneTrace calls can locate tracelog.exe in your system. By default, BTAJDEEnterpriseOneTrace searches the current path.  
   
 > [!NOTE]
->  tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by  BizTalk Adapter  for JD Edwards EnterpriseOne. To use logman.exe, refer to the logman documentation.  
+> tracelog.exe is available from the Microsoft SDK and is compatible with the commands provided by  BizTalk Adapter  for JD Edwards EnterpriseOne. To use logman.exe, refer to the logman documentation.  
   
 - **Consumer application**. Reads logged events. For the consumer application to be able to read the event in the etl file, Event Tracing for Windows must dump them into that file. Normally this is done when the controller deactivates the tracing.  
   

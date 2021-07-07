@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Performance"
+description: "Learn how to configure the Data Providers for DB2 to improve performance."
 title: "Performance2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,14 +15,16 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Maximize Performance
+
 This topic contains the following sections that will help you maximize performance when you are using the Data Providers for DB2.  
   
--   [Configuring for Performance](../core/performance2.md#conf)  
+- [Configuring for Performance](../core/performance2.md#conf)  
   
--   [Measuring Performance](../core/performance2.md#meas)  
+- [Measuring Performance](../core/performance2.md#meas)  
   
-##  <a name="conf"></a> Configuring for Performance  
- To improve performance, configure the providers in the following ways.  
+##  <a name="conf"></a> Configuring for Performance
+  
+To improve performance, configure the providers in the following ways.  
   
  **Pool provider resources to reduce connection startup time**  
   

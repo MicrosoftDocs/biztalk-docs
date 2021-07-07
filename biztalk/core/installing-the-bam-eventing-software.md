@@ -58,4 +58,4 @@ To implement BAM solutions using the BAM eventing APIs or configure your Windows
   
 ## See Also  
  [Implementing BAM Solutions](../core/implementing-bam-solutions.md)   
- [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5)
+ [BizTalk Server What's New, Install, Configuration, and Upgrade](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md)

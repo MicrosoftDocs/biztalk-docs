@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Handling String Values"
+description: "Learn how to configure certain string arguments as right-justified (and left padded) in JD Edwards OneWorld."
 title: "Handling String Values1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -21,6 +21,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Handle String Values
+
 This topic describes how to configure certain string arguments as right-justified (and left padded).  
   
 ## Types of String Values  

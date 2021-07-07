@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Step 4: Configure a Party and Business Profile for Your Trading Partner"
+description: "Learn how to configure a party and business profile using the BizTalk Server Administration Console."
 title: "Step 4: Configure a Party and Business Profile for Your Trading Partner2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
@@ -16,12 +16,14 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 4: Configure a Party and Business Profile for Your Trading Partner
+
 ![Step 4 of 11](../core/media/tut-step4-of-11.gif "Tut_Step4_of_11")  
   
  In this step, you configure a party and business profile for your trading partner Fabrikam to send an 864 message to your organization and receive a 997 acknowledgment message and an asynchronous MDN in return.  
   
-## Prerequisites  
- You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
+## Prerequisites
+  
+You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
   
 ### To configure a party and business profile for your trading partner  
   
@@ -44,8 +46,10 @@ manager: "anneta"
   
 8. Click **OK**.  
   
-## Next Steps  
- You configure the BTS ISAPI filter and the Fabrikam and Contoso Web pages in [Step 5: Configure the Trading Partner Web Pages](../core/step-5-configure-the-trading-partner-web-pages.md).  
+## Next Steps
   
-## See Also  
- [Configuring EDI Properties](../core/configuring-edi-properties.md)
+You configure the BTS ISAPI filter and the Fabrikam and Contoso Web pages in [Step 5: Configure the Trading Partner Web Pages](../core/step-5-configure-the-trading-partner-web-pages.md).  
+  
+## See Also
+  
+[Configuring EDI Properties](../core/configuring-edi-properties.md)

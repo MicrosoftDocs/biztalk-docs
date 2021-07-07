@@ -13,13 +13,11 @@ f1_keywords:
 
 # Start Application Dialog Box
 
- 
-
 Use the **Start Application** dialog box to start all dependent artifacts and applications in one transaction.
 
-When you open this dialog box, it is displayed in a collapsed form (without the **Options** or **Referenced Applications** tab visible) if all applications that the current application references are already running. If any of the referenced applications has not already been started when you open this dialog box to start the current application, the dialog box will open with the **Details** portion of the dialog box expanded so that you can see the referenced applications that will also be started.
+When you open this dialog box, it is displayed in a collapsed form (without the **Options** or **Referenced Applications** tab visible) if all applications that the current application references are already running. If any of the referenced applications have not already been started when you open this dialog box to start the current application, the dialog box will open with the **Details** portion of the dialog box expanded so that you can see the referenced applications that will also be started.
 
-## UIElement List
+The following table describes the UIElements in the collapsed form of the **Start Application** dialog box.
 
 <table>
 <thead>
@@ -40,12 +38,11 @@ When you open this dialog box, it is displayed in a collapsed form (without the 
 </tbody>
 </table>
 
-
 ## Options Tab
 
 Each check box represents an application artifact that will start automatically when you start the application unless you specify otherwise. All check boxes are selected by default.
 
-## UIElement List
+The following table describes the UIElements in the **Options** tab.
 
 <table>
 <thead>
@@ -91,7 +88,7 @@ Each check box represents an application artifact that will start automatically 
 
 Each check box represents an application that is referenced by the current one. If the check box next to an application name is selected, that application will start when the current application starts.
 
-## UIElement List
+The following table describes the UIElements in the **Referenced Applications** tab.
 
 <table>
 <thead>
@@ -108,10 +105,8 @@ Each check box represents an application that is referenced by the current one. 
 </tbody>
 </table>
 
-
 ## See Also
 
 [How to Import a BizTalk Application](https://msdn.microsoft.com/library/aa560132\(v=bts.80\))  
 [How to Delete a BizTalk Application from the BizTalk Group](https://msdn.microsoft.com/library/aa577446\(v=bts.80\))  
 [Deploying and Managing BizTalk Applications](https://msdn.microsoft.com/library/aa578693\(v=bts.80\))
-

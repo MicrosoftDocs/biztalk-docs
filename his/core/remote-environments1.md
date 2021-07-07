@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Remote Environments"
+description: "Learn about the Remote Environments that contain definitions for the non-Windows host computers that receive requests from the Windows-initiated processing (WIP) components."
 title: "Remote Environments1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/30/2017"
@@ -15,20 +15,22 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Remote Environments
+
 The Remote Environments folder contains definitions for the non-Windows host computers that will receive requests from the Windows-initiated processing (WIP) components. These host definitions are referred to as remote environments or REs.  
   
- The RE is used by the WIP Runtime for the following primary purposes:  
+The RE is used by the WIP Runtime for the following primary purposes:  
   
 - Define the code page used by the host.  
   
 - Define the data conversion object that will be used by the WIP Runtime.  
   
-  Properties on each RE define the characteristics of the host that will be receiving requests.  
+Properties on each RE define the characteristics of the host that will be receiving requests.  
   
-## REs Supported by WIP  
- WIP supports multiple types of REs (for backward compatibility reasons, there are not just two, as in host-initiated processing).  
+## REs Supported by WIP
   
- The following is a minimum set of REs that is supported:  
+WIP supports multiple types of REs (for backward compatibility reasons, there are not just two, as in host-initiated processing).  
+  
+The following is a minimum set of REs that is supported:  
   
 - CICS and IMS using TCP/IP  
   
@@ -40,35 +42,38 @@ The Remote Environments folder contains definitions for the non-Windows host com
   
 - IMS using LU6.2  
   
-  Each of the previous RE types has a (possibly) unique collection of properties, some of which are in conjunction with the Host Security functionality.  
+Each of the previous RE types has a (possibly) unique collection of properties, some of which are in conjunction with the Host Security functionality.  
   
-### TCP/IP RE Properties  
- The basic TCP/IP RE properties contain the following:  
+### TCP/IP RE Properties
   
--   IP Address or Host Name  
+The basic TCP/IP RE properties contain the following:  
   
--   Port List  
+- IP Address or Host Name  
   
--   Receive timeout value  
+- Port List  
   
--   Locale and Code Page  
+- Receive timeout value  
   
--   Windows Security Context to be used (User or Package)  
+- Locale and Code Page  
   
-## SNA RE Properties  
- The basic SNA RE properties contain the following:  
+- Windows Security Context to be used (User or Package)  
   
--   Local and Remote LU Aliases, Mode Name  
+## SNA RE Properties
   
--   Receive timeout value  
+The basic SNA RE properties contain the following:  
   
--   Support for Sync Level 2  
+- Local and Remote LU Aliases, Mode Name  
   
--   Locale and Code Page  
+- Receive timeout value  
   
--   Windows Security Context to be used (User or Package)  
+- Support for Sync Level 2  
   
-## See Also  
+- Locale and Code Page  
+  
+- Windows Security Context to be used (User or Package)  
+  
+## See Also
+  
  [Windows-Initiated Processing Console](../core/windows-initiated-processing-console1.md)   
  [How to View All Remote Environments](../core/how-to-view-all-remote-environments2.md)   
  [Creating a Remote Environment](../core/creating-a-remote-environment1.md)

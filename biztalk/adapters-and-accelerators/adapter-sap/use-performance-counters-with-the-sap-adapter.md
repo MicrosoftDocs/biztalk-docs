@@ -50,7 +50,7 @@ Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md
   
 - T,\<RFC name\> (for a tRFC call)  
   
-  The performance counter is initialized only after the adapter makes the first call to the SAP system. Also, the [InstanceLifetime](https://msdn.microsoft.com/library/system.diagnostics.performancecounter.instancelifetime.aspx) property of the performance counter is set to 'Process', which means that the performance counter ceases to exist as soon as the program that creates the counter terminates.
+  The performance counter is initialized only after the adapter makes the first call to the SAP system. Also, the [InstanceLifetime](/dotnet/api/system.diagnostics.performancecounter.instancelifetime) property of the performance counter is set to 'Process', which means that the performance counter ceases to exist as soon as the program that creates the counter terminates.
   
 > [!NOTE]
 >  The precision of the LOB Time (Cumulative) performance counter is 16 milliseconds.  

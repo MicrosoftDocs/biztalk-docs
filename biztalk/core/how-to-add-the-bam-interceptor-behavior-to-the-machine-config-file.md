@@ -42,7 +42,7 @@ To intercept data in BAM, you must add the BAM interceptor behavior to the Micro
 
 #### To edit the machine.config file using the Service Configuration Editor
 
-1.  Open the Service Configuration Editor. For information about using the Service Configuration Editor, see [https://go.microsoft.com/fwlink/?LinkId=83557](https://go.microsoft.com/fwlink/?LinkId=83557).
+1.  Open the Service Configuration Editor. For information about using the Service Configuration Editor, see [https://go.microsoft.com/fwlink/?LinkId=83557](/dotnet/framework/wcf/configuration-editor-tool-svcconfigeditor-exe).
 
 2.  In the tree view pane (labeled **Configuration**), expand the node tree. Click the **Advanced** folder, click the **Extensions** folder, and then select the **behavior element extensions** element.
 
@@ -58,11 +58,11 @@ To intercept data in BAM, you must add the BAM interceptor behavior to the Micro
 
 7.  Click the **Open** button to select the assembly, and then close the dialog box.
 
-     ![Bejavopr Extension Type Browser](../core/media/0d525d4c-927c-42d6-96b7-0ebaf2691c6c.gif "0d525d4c-927c-42d6-96b7-0ebaf2691c6c")
+     ![Screenshot of the Extension Configuration Element Editor dialog box showing BAMEndPointBehaviorExtension entered for the Configuration Name property.](../core/media/0d525d4c-927c-42d6-96b7-0ebaf2691c6c.gif)
 
 8.  In the Type Name pane of the Behavior Extension Type Browser dialog box, double-click the Microsoft.BizTalk.Bam.Interceptors.Wcf.BamEndpointBehavior type (as highlighted in the following screen).
 
-     ![Bejavopr Extension Type Browser](../core/media/67186ad6-8802-4214-be46-11e50e4ff15d.gif "67186ad6-8802-4214-be46-11e50e4ff15d")
+     ![Screenshot of the Behavior Extension Type Browser dialog box showing Microsoft.BizTalk.Bam.Interceptors selected in the list of global assembly cache (GAC) DLLs.](../core/media/67186ad6-8802-4214-be46-11e50e4ff15d.gif)
 
      This opens the Extension Configuration Element Editor.
 

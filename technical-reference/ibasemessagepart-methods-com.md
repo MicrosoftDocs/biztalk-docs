@@ -20,11 +20,11 @@ The methods of the **IBaseMessagePart** interface are listed here. For a complet
 <table>
 <tbody>
 <tr class="odd">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessagepart-getoriginaldatastream-method-com.md">GetOriginalDataStream</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetOriginalDataStream method in the IBaseMessagePart interface." /> <a href="ibasemessagepart-getoriginaldatastream-method-com.md">GetOriginalDataStream</a></td>
 <td>Retrieves the original uncloned version of the part data stream.</td>
 </tr>
 <tr class="even">
-<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" /> <a href="ibasemessagepart-getsize-method-com.md">GetSize</a></td>
+<td><img src="images/Aa562050.7398304a-180c-45ff-98a9-894581a54aa5(BTS.80).jpeg" alt="Icon that represents the GetSize method in the IBaseMessagePart interface." /> <a href="ibasemessagepart-getsize-method-com.md">GetSize</a></td>
 <td>Retrieves the size of the part.</td>
 </tr>
 </tbody>

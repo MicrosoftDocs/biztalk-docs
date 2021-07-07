@@ -1,5 +1,5 @@
 ---
-description: "Learn more about: Release Notes"
+description: "Learn about the most important issues in Microsoft Host Integration Server (HIS) 2016."
 title: "Release Notes | Microsoft Docs"
 ms.custom: ""
 ms.date: 10/24/2016
@@ -15,6 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Release Notes
+
 These release notes summarize the most important issues in [!INCLUDE[his2016](../includes/his2016-md.md)].  
   
 ## Software  

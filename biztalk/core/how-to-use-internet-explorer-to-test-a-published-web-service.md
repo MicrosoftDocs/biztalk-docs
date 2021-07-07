@@ -64,7 +64,7 @@ You can test your published Web service without writing a Web client application
   
 3. For testing HTTP-GET, HTTP-POST, or HTTP-POST from the local computer, remove the corresponding line from the \<protocols\> section.  
   
-   For more information about the configuration options, see [Configuration Options for XML Web Services Created Using ASP.NET](https://msdn.microsoft.com/library/b2c0ew36.aspx). 
+   For more information about the configuration options, see [Configuration Options for XML Web Services Created Using ASP.NET](/previous-versions/dotnet/netframework-4.0/b2c0ew36(v=vs.100)). 
   
 #### Access a Web service with Internet Explorer  
   
@@ -109,7 +109,7 @@ You can test your published Web service without writing a Web client application
 2.  Press Enter. The Web browser displays an XML response from the server.  
   
     > [!NOTE]
-    >  You can also use HTTP-POST to call the Web service. For information and samples about calling XML Web services from a Web browser, see [Access XML Web Services from a Browser](https://msdn.microsoft.com/library/45fez2a8.aspx).  
+    >  You can also use HTTP-POST to call the Web service. For information and samples about calling XML Web services from a Web browser, see [Access XML Web Services from a Browser](/previous-versions/dotnet/netframework-4.0/45fez2a8(v=vs.100)).  
   
 ## See Also  
  [Testing Published Web Services](../core/testing-published-web-services.md)

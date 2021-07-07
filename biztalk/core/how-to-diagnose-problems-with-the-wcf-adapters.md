@@ -36,7 +36,7 @@ This section contains steps that you can follow to help diagnose problems with t
 
 ### Use WCF message logging for fault monitoring and diagnosis of problems from the WCF adapters
 
-1. WCF provides the capability to log incoming and outgoing messages for offline consumption. You can use message logging to see what the messages incoming and outgoing through the WCF adapters look like. WCF does not log messages by default. To activate message logging, you have to modify the configuration files that the WCF adapters use. For more information about WCF message logging, see "Message Logging" at [https://go.microsoft.com/fwlink/?LinkId=89003](https://go.microsoft.com/fwlink/?LinkId=89003).
+1. WCF provides the capability to log incoming and outgoing messages for offline consumption. You can use message logging to see what the messages incoming and outgoing through the WCF adapters look like. WCF does not log messages by default. To activate message logging, you have to modify the configuration files that the WCF adapters use. For more information about WCF message logging, see "Message Logging" at [https://go.microsoft.com/fwlink/?LinkId=89003](/dotnet/framework/wcf/diagnostics/message-logging).
 
 2. For the in-process WCF adapters, you can enable WCF message logging by modifying the application configuration file, **BTSNtSvc.exe.config**, for **BTSNtSvc.exe**. The configuration file can be found in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation path. If you installed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to the default location, BtsNtSvc.exe will be in the directory [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)].
 
@@ -73,7 +73,7 @@ This section contains steps that you can follow to help diagnose problems with t
    </configuration>
    ```
 
-5. You can use the Windows Communication Foundation (WCF) Service Trace Viewer Tool to analyze messages logged by WCF. Service Trace Viewer is included in the Microsoft Windows Software Development Kit (SDK) for Windows Vista and [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] Runtime Components. You can download the Windows SDK from the Microsoft Download Center at [https://go.microsoft.com/fwlink/?LinkID=75636](https://go.microsoft.com/fwlink/?LinkID=75636). For more information about using this tool, see "Service Trace Viewer Tool (SvcTraceViewer.exe)"at [https://go.microsoft.com/fwlink/?LinkId=88991](https://go.microsoft.com/fwlink/?LinkId=88991).
+5. You can use the Windows Communication Foundation (WCF) Service Trace Viewer Tool to analyze messages logged by WCF. Service Trace Viewer is included in the Microsoft Windows Software Development Kit (SDK) for Windows Vista and [!INCLUDE[btsDotNetFramework](../includes/btsdotnetframework-md.md)] Runtime Components. You can download the Windows SDK from the Microsoft Download Center at [https://go.microsoft.com/fwlink/?LinkID=75636](https://go.microsoft.com/fwlink/?LinkID=75636). For more information about using this tool, see "Service Trace Viewer Tool (SvcTraceViewer.exe)"at [https://go.microsoft.com/fwlink/?LinkId=88991](/dotnet/framework/wcf/service-trace-viewer-tool-svctraceviewer-exe).
 
 ### Return managed exception information to the client in a SOAP fault to ease debugging
 
@@ -85,7 +85,7 @@ This section contains steps that you can follow to help diagnose problems with t
 
    3. In the transport dialog box, on the **Messages** tab, select the **Include exception in faults** option.
 
-2. If you use the WCF-Custom or the WCF-CustomIsolated adapter, you can set the **IncludeExceptionDetailInFaults** property of the [ServiceDebugElement](https://go.microsoft.com/fwlink/?LinkId=89004) to return managed exception information to the client. To do so, use the following steps:
+2. If you use the WCF-Custom or the WCF-CustomIsolated adapter, you can set the **IncludeExceptionDetailInFaults** property of the [ServiceDebugElement](/dotnet/api/system.servicemodel.configuration.servicedebugelement) to return managed exception information to the client. To do so, use the following steps:
 
    1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console, expand [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**, expand **BizTalk Group**, expand **Applications**, expand **Receive Locations**, right-click a receive location using the WCF-Custom or the WCF-CustomIsolated adapter, and then click **Properties**.
 
