@@ -45,7 +45,7 @@ manager: "anneta"
 
 - On the computers that you use to perform administrative tasks, you must run as a user account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group to configure the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application settings within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. This user account must also be a member of the local Administrators group for application deployment, managing host instances, and other tasks that may be required.
 
-- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [https://go.microsoft.com/fwlink/?LinkId=135510](https://go.microsoft.com/fwlink/?LinkId=135510).
+- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [https://go.microsoft.com/fwlink/?LinkId=135510](/dotnet/framework/wcf/samples/one-time-setup-procedure-for-the-wcf-samples).
 
 - On the computer that runs the sample and imports a binding or an .msi file into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ensure the host is not a trusted host or the import will fail.
 
@@ -72,9 +72,9 @@ manager: "anneta"
       > [!NOTE]
       >  When using [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] as the certificate authority and requesting a certificate request from a [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] computer, you may get the error **“In order to complete certificate enrollment, the Web site for the CA must be configured to use HTTPS authentication”**. If this error occurs, the enrollment website needs to be configured with a Web Certificate (SSL). Refer to these links for details in accomplishing this task:
       >
-      >  [AD CS: Web Enrollment](https://technet.microsoft.com/library/cc732517.aspx)
+      >  [AD CS: Web Enrollment](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732517(v=ws.10))
       >
-      >  [IIS Server Certificate Installation Instructions](https://msdn.microsoft.com/library/ms751408.aspx)
+      >  [IIS Server Certificate Installation Instructions](/dotnet/framework/wcf/samples/iis-server-certificate-installation-instructions)
 
    2. On the **Advanced Certificate Request** page, click **Create and submit a request to this CA**.
 

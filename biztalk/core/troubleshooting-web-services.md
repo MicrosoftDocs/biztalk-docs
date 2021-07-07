@@ -133,7 +133,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 -   There are compilation errors in the code that XmlSerializer generated.
 
 ##### Resolution
- This error is documented in Microsoft Knowledge Base article 823196, [PRB: You Receive a "System.IO.FileNotFoundException" Error When the Client Application Calls a Web Service](https://go.microsoft.com/fwlink/?LinkID=84694)". Follow the steps in the Resolution section of this Knowledge Base article to resolve this error.
+ This error is documented in Microsoft Knowledge Base article 823196, [PRB: You Receive a "System.IO.FileNotFoundException" Error When the Client Application Calls a Web Service](/troubleshoot/aspnet/filenotfindexception-call-web-service)". Follow the steps in the Resolution section of this Knowledge Base article to resolve this error.
 
 #### Date fields are removed from documents processed by a web service generated with the BizTalk Server Web Services Publishing Wizard
 
