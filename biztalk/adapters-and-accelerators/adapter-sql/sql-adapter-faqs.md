@@ -62,5 +62,5 @@ The following are some frequently asked questions (FAQs) related to [!INCLUDE[ad
   
  
 ## See Also  
- [Frequently Asked Questions](../../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.md)
+ [Frequently Asked Questions](../../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.yml)
  

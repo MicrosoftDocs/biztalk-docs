@@ -53,4 +53,4 @@ This section provides an overview of the adapter, prerequisites, and topics for 
   
 -   [Community Resources](../../core/community-resources5.md)  
   
--   [Frequently Asked Questions](../frequently-asked-questions-for-the-biztalk-adapter-pack.md)
+-   [Frequently Asked Questions](../frequently-asked-questions-for-the-biztalk-adapter-pack.yml)

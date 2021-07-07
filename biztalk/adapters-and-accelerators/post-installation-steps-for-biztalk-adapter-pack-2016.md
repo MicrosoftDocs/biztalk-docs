@@ -234,4 +234,4 @@ For the steps and guidance to install the different enterprise LOB systems, we r
 
 ## More good info
 [Change or remove the BizTalk Adapter Pack](../adapters-and-accelerators/update-or-uninstall-the-biztalk-adapter-pack-2016.md)
-[BizTalk Adapter Pack FAQ](../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.md)
+[BizTalk Adapter Pack FAQ](../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.yml)
