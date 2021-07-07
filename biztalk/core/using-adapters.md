@@ -52,13 +52,13 @@ This section contains comprehensive information about adapters. It describes how
   
 -   [POP3 adapter](../core/pop3-adapter.md)  
   
--   [SAP adapter](../core/sap-adapter.md)  
+-   [SAP adapter](../adapters-and-accelerators/adapter-sap/microsoft-biztalk-adapter-for-mysap-business-suite-documentation.md)  
   
 -   [SMTP adapter](../core/smtp-adapter.md)  
   
 -   [SOAP adapter](../core/soap-adapter.md)  
   
--   [SQL adapter](../core/sql-adapter.md)  
+-   [SQL adapter](../adapters-and-accelerators/adapter-sql/microsoft-biztalk-adapter-for-sql-server-documentation.md)  
   
 -   [SharePoint Services adapter](../core/windows-sharepoint-services-adapter.md)  
   

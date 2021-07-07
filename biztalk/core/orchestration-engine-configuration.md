@@ -223,7 +223,7 @@ A pattern assignment rule specifies a regular expression and an app domain name.
 ## Modifying other sections of the BTSNTSvc.exe.config file
  For information about modifying the dehydration values in BTSNTSvc.exe.config, see [Dehydration Default Properties](../core/dehydration-default-properties.md).
 
- The BTSNTSvc.exe configuration file contains several other sections documented in the .NET Framework General Reference. For more information about the modification of these sections see the **Configuration File Schema** of the .NET Framework General Reference at [https://go.microsoft.com/FWLink/?LinkID=52964](https://go.microsoft.com/FWLink/?LinkID=52964).
+ The BTSNTSvc.exe configuration file contains several other sections documented in the .NET Framework General Reference. For more information about the modification of these sections see the **Configuration File Schema** of the .NET Framework General Reference at [https://go.microsoft.com/FWLink/?LinkID=52964](/previous-versions/dotnet/netframework-1.1/1fk1t1t0(v=vs.71)).
 
  In addition to BizTalk-specific configuration information, the BTSNTSvc.exe.config file is also where .NET application components which run in the context of an orchestration, adapter or pipeline obtain their configuration information at run time using the standard .NET **\<appSettings\>** tag under the **\<configuration\>** tag. Because BizTalk already provides a mechanism for custom adapters and pipeline components to obtain configuration information, the **\<appSettings\>** tag in the BTSNTSvc.exe.config file would typically be used by custom .NET components called from within an orchestration. For example:
 

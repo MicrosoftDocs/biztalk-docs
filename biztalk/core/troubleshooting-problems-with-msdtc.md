@@ -110,10 +110,10 @@ Most BizTalk Server runtime operations require Microsoft Distributed Transaction
    If NetBIOS name resolution is not successful in either direction or if reverse name lookup fails then make the appropriate entries in the DNS server, NetBIOS name server, HOSTS file, or LMHOSTS file to correct the problem.
 
 > [!NOTE]
->  The method of name resolution used by the computer varies depending on the NetBIOS node type of the computer. For more information about NetBIOS node types, see [NetBIOS Name Resolution](https://go.microsoft.com/fwlink/?LinkId=201638).
+>  The method of name resolution used by the computer varies depending on the NetBIOS node type of the computer. For more information about NetBIOS node types, see [NetBIOS Name Resolution](/previous-versions/windows/it-pro/windows-server-2003/cc738412(v=ws.10)).
 
 ## Ensure that a firewall between the BizTalk Server and remote servers is not blocking ports required for RPC dynamic port allocation
- MSDTC functionality over the network depends upon RPC functionality over the network. RPC functionality through a firewall requires that specific ports are open to accommodate RPC dynamic port allocation. If a firewall is in place between the BizTalk Server and remote servers, follow the steps in [How to configure RPC dynamic port allocation to work with firewalls](https://go.microsoft.com/fwlink/?LinkId=66831) to accommodate RPC dynamic port allocation.
+ MSDTC functionality over the network depends upon RPC functionality over the network. RPC functionality through a firewall requires that specific ports are open to accommodate RPC dynamic port allocation. If a firewall is in place between the BizTalk Server and remote servers, follow the steps in [How to configure RPC dynamic port allocation to work with firewalls](/troubleshoot/windows-server/networking/configure-rpc-dynamic-port-allocation-with-firewalls) to accommodate RPC dynamic port allocation.
 
 ## Set the appropriate MSDTC Security Configuration options
  Windows provides security enhancements that govern how MSDTC is accessed over a network. By modifying the MSDTC security settings, you control how MSDTC communicates with remote computers over the network. This table lists the recommended values for the options that are available when configuring MSDTC security settings:
@@ -200,7 +200,7 @@ Most BizTalk Server runtime operations require Microsoft Distributed Transaction
  Windows enhances security by requiring authenticated calls to the RPC interface. This functionality is configurable through the **EnableAuthEpResolution** and **RestrictRemoteClients** registry keys. To ensure that remote computers are able to access the RPC interface, follow these steps:
 
 > [!WARNING]
->  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article "Description of the Microsoft Windows registry" at [Description of the Microsoft Windows registry](https://go.microsoft.com/fwlink/?LinkId=62729).
+>  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article "Description of the Microsoft Windows registry" at [Description of the Microsoft Windows registry](/troubleshoot/windows-server/performance/windows-registry-advanced-users).
 
 1.  Click **Start**, click **Run**, type **regedit.exe**, and then click **OK** to start Registry Editor.
 

@@ -40,7 +40,7 @@ Set up an end-to-end application that uses EDI to generate acknowledgements, Ser
 Uses the WCF-WebHttp adapter to use a REST URL, and then send a response message. 
 
 ## Integrate BizTalk with Salesforce
-[Tutorial: Integrating BizTalk Server with Salesforce](Tutorial:%20Integrating%20BizTalk%20Server%202013%20with%20Salesforce.md)  
+[Tutorial: Integrating BizTalk Server with Salesforce](tutorial-integrating-biztalk-server-2013-with-salesforce.md)  
 
 Every time a sales opportunity is created in the Salesforce system, Northwind wants its on-premise systems, such as BizTalk Server, to be notified so that other downstream systems can pick up that data and start other relevant processes. 
 

@@ -83,7 +83,7 @@ manager: "anneta"
 
 1.  Check the application log of the IIS Server computer for errors.
 
-2.  Follow the steps in [IIS 7.0: Configuring Tracing for Failed Requests in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=130600) to troubleshoot permissions problems on IIS 7.0 computers.
+2.  Follow the steps in [IIS 7.0: Configuring Tracing for Failed Requests in IIS 7.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731798(v=ws.10)) to troubleshoot permissions problems on IIS 7.0 computers.
 
 3.  Check the IIS log files of the IIS server for HTTP 401 errors.
 
@@ -101,4 +101,4 @@ manager: "anneta"
 
 ## See Also
  [Troubleshooting BizTalk Server Permissions](../core/troubleshooting-biztalk-server-permissions.md)
- [IIS 7.0: Configuring Authentication in IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=129909)
+ [IIS 7.0: Configuring Authentication in IIS 7.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733010(v=ws.10))

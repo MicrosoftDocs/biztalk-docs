@@ -72,7 +72,7 @@ To undeploy an adapter from a computer, the user needs to perform the following 
   
 #### Use the Service Configuration Editor do change the machine.config file  
   
-1.  Open Service Configuration Editor. See [Service Configuration Editor](https://msdn.microsoft.com/library/ms732009.aspx) for more information.
+1.  Open Service Configuration Editor. See [Service Configuration Editor](/dotnet/framework/wcf/configuration-editor-tool-svcconfigeditor-exe) for more information.
   
 2.  In the tree view pane (labeled **Configuration**), expand the node tree. Click the **Advanced** folder, click the **Extensions** folder, and then select the binding extensions element.  
   

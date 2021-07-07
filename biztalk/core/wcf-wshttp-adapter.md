@@ -18,7 +18,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # WCF-WSHttp Adapter
-[!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the WCF-WSHttp adapter when receiving and sending WCF service requests through the [WSHttpBinding](https://go.microsoft.com/fwlink/?LinkID=81206). The WCF-WSHttp adapter enables you to publish orchestrations and schemas as WCF services and to consume external WCF services with the **WSHttpBinding**.
+[!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the WCF-WSHttp adapter when receiving and sending WCF service requests through the [WSHttpBinding](/dotnet/api/system.servicemodel.wshttpbinding). The WCF-WSHttp adapter enables you to publish orchestrations and schemas as WCF services and to consume external WCF services with the **WSHttpBinding**.
 
 ## In This Section
 

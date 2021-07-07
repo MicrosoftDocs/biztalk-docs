@@ -279,7 +279,7 @@ Applies to: All WCF adapters *except* the WCF-NetMsmq send adapter
 
 Specify the maximum lifetime of an active pooled connection. After the specified time elapses, the connection closes after the current request is serviced.
 
-The WCF-NetTcp adapter leverages the [NetTcpBinding](https://go.microsoft.com/fwlink/?LinkId=81087) class to communicate with an endpoint. When using the [NetTcpBinding](https://go.microsoft.com/fwlink/?LinkId=81087) in load-balanced scenarios, consider reducing the default lease time-out. For more information about load balancing when using the [NetTcpBinding](https://go.microsoft.com/fwlink/?LinkId=81087), see the appropriate topic in See Also.
+The WCF-NetTcp adapter leverages the [NetTcpBinding](/dotnet/api/system.servicemodel.nettcpbinding) class to communicate with an endpoint. When using the [NetTcpBinding](/dotnet/api/system.servicemodel.nettcpbinding) in load-balanced scenarios, consider reducing the default lease time-out. For more information about load balancing when using the [NetTcpBinding](/dotnet/api/system.servicemodel.nettcpbinding), see the appropriate topic in See Also.
 
 Type: String
 Default value: 00:05:00
@@ -531,7 +531,7 @@ Applies to: WCF-BasicHttp send adapter, WCF-WSHttp send adapter
 
 Specify the user name to use for the proxy server specified in the **ProxyAddress** property. The property is required if the **ProxyToUse** property is set to **UserSpecified**.
 
-For more information about this property, see [How to Configure a WCF-WSHttp Send Port](../core/how-to-configure-a-wcf-wshttp-send-port.md) and [How to Configure a WCF-BasicHttp Send Port](https://msdn.microsoft.com/library/acdb50fa-57fe-4657-9561-b6b2f4919c7f).
+For more information about this property, see [How to Configure a WCF-WSHttp Send Port](../core/how-to-configure-a-wcf-wshttp-send-port.md) and [Configure a WCF-BasicHttp Send Port](wcf-basichttp-adapter.md).
 
 Type: String
 Applies to: WCF-BasicHttp send adapter, WCF-WSHttp send adapter
@@ -701,9 +701,9 @@ Applies to: All WCF send adapters *except* the WCF-NetNamedPipe adapter
 
 #### ReferencedBindings
 
-Specify the binding configurations referenced by the **bindingConfiguration** attribute of the **\<issuer\>** element for the **wsFederationHttpBinding** and **customBinding**, which indicates the Security Token Service (STS) that issues security tokens. For more information about the **\<issuer\>** element, see the topic, "\<issuer\>" at [https://go.microsoft.com/fwlink/?LinkId=83476](https://go.microsoft.com/fwlink/?LinkId=83476).
+Specify the binding configurations referenced by the **bindingConfiguration** attribute of the **\<issuer\>** element for the **wsFederationHttpBinding** and **customBinding**, which indicates the Security Token Service (STS) that issues security tokens. For more information about the **\<issuer\>** element, see the topic, "\<issuer\>" at [https://go.microsoft.com/fwlink/?LinkId=83476](/dotnet/framework/configure-apps/file-schema/wcf/issuer).
 
-The binding information including the **\<issuer\>** element for the **wsFederationHttpBinding** and **customBinding** can be configured through the **BindingConfiguration** property of the WCF-Custom and WCF-CustomIsolated adapters. All of the referenced binding configurations for this property must be placed in the form of the [\<bindings\>](https://go.microsoft.com/fwlink/?LinkID=80878) element.
+The binding information including the **\<issuer\>** element for the **wsFederationHttpBinding** and **customBinding** can be configured through the **BindingConfiguration** property of the WCF-Custom and WCF-CustomIsolated adapters. All of the referenced binding configurations for this property must be placed in the form of the [\<bindings\>](/dotnet/framework/configure-apps/file-schema/wcf/bindings) element.
 
 > [!NOTE]
 > The **bindingConfiguration** attribute of the **\<issuer\>** element must refer to a valid binding name in this property.
@@ -754,8 +754,8 @@ Applies to: WCF-Custom adapter, WCF-CustomIsolated adapter
 ## See Also
 
  [WCF Adapters](../core/wcf-adapters.md)
- [\<behavior\> of \<endpointBehaviors\>](https://go.microsoft.com/fwlink/?LinkId=80879)
- [\<bindings\>](https://go.microsoft.com/fwlink/?LinkId=80878)
- [\<behavior\> of \<serviceBehaviors\>](https://go.microsoft.com/fwlink/?LinkId=81095)
+ [\<behavior\> of \<endpointBehaviors\>](/dotnet/framework/configure-apps/file-schema/wcf/behavior-of-endpointbehaviors)
+ [\<bindings\>](/dotnet/framework/configure-apps/file-schema/wcf/bindings)
+ [\<behavior\> of \<serviceBehaviors\>](/dotnet/framework/configure-apps/file-schema/wcf/behavior-of-servicebehaviors)
  [Ordered Delivery of Messages](../core/ordered-delivery-of-messages.md)
- [Load Balancing](https://go.microsoft.com/fwlink/?LinkId=81089)
+ [Load Balancing](/dotnet/framework/wcf/load-balancing)

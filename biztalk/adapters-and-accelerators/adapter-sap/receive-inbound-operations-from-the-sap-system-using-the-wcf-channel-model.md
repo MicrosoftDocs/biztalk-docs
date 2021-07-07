@@ -26,7 +26,7 @@ To act as an RFC server and receive operations invoked by the SAP system (such a
   
  The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports the **IReplyChannel** channel shape. **IReplyChannel** channels support an inbound request-response message exchange pattern. That is, a pattern in which an external program sends a request message over the channel and your program returns a response.  
   
- For an overview of how to receive operations using an **IReplyChannel** in WCF, see [Service Channel-Level Programming](https://msdn.microsoft.com/library/ms789029.aspx).
+ For an overview of how to receive operations using an **IReplyChannel** in WCF, see [Service Channel-Level Programming](/dotnet/framework/wcf/extending/service-channel-level-programming).
   
  This section covers the following topics that are specific to receiving operations from a SAP system:  
   

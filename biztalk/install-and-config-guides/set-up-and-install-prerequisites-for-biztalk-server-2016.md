@@ -41,7 +41,7 @@ If your computer name is longer than 15 characters, then BizTalk Server configur
 2. In **Properties**, select the Computer name property to change it.
 3. Restart the computer. 
 
-**SEE ALSO** : Windows PowerShell [Rename-Computer](https://technet.microsoft.com/library/hh849792.aspx)
+**SEE ALSO** : Windows PowerShell [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer)
 
 ## Enable Network DTC Access
 
@@ -237,7 +237,7 @@ Office 2016 is installed using "Click-to-Run" or "C2R Installer". The C2R instal
  
 6. Select Excel, and continue with the installation. 
  
-**SEE ALSO** : [Configuration options for the Office Deployment Tool](https://technet.microsoft.com/library/jj219426.aspx) and [Install Office 2016 or 2013](https://support.office.com/article/Install-Office-on-your-PC-or-Mac-4414eaaf-0478-48be-9c42-23adc4716658)
+**SEE ALSO** : [Configuration options for the Office Deployment Tool](/deployoffice/office-deployment-tool-configuration-options) and [Install Office 2016 or 2013](https://support.office.com/article/Install-Office-on-your-PC-or-Mac-4414eaaf-0478-48be-9c42-23adc4716658)
 
 #### Install Excel 2013
 
@@ -265,7 +265,7 @@ Visual Studio Enterprise Edition is recommended, but Professional and Community 
  
 3. Continue with the installation, and restart your computer if prompted.
 
-**SEE ALSO** : [Installing Visual Studio](https://msdn.microsoft.com/library/e2h7fzkw.aspx)
+**SEE ALSO** : [Installing Visual Studio](/previous-versions/visualstudio/visual-studio-2015/install/install-visual-studio-2015)
 
 > [!IMPORTANT]
 > - If you install Visual Studio before installing BizTalk Server, and then upgrade to Visual Studio Team Explorer, you may need to repair your BizTalk Server installation.
@@ -293,13 +293,13 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
 > - To fully use the BizTalk Server SDK or deploy BizTalk Server applications from a Visual Studio, install the SQL Server Development Tools.
 > - BizTalk Server supports all case-sensitive and case-insensitive SQL Server collations except for binary collations. Binary collations are not supported.
 
-**For specific install steps, see** [Install SQL Server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup) or [Install SQL Server 2014](https://msdn.microsoft.com/library/bb500469(v=sql.120).aspx).
+**For specific install steps, see** [Install SQL Server 2016](/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup) or [Install SQL Server 2014](/sql/database-engine/install-windows/install-sql-server?viewFallbackFrom=sql-server-2014).
 
 1. Start the SQL Server installation. 
 2. During the Feature setup, select the following:
    - Database Engine Services
        - SQL Server Replication
-       - R Services (in-Database) (**optional**; info at [SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services))
+       - R Services (in-Database) (**optional**; info at [SQL Server R Services](/sql/advanced-analytics/r/sql-server-r-services))
        - Full-Text and Semantic Extractions for Search
    - Analysis Services
    - Reporting Services - Native
@@ -308,7 +308,7 @@ BizTalk Server requires SQL Server. SQL Server can be installed on the same comp
        - Integration Services
 
      > [!NOTE]
-     > **SQL Server Data Tools** is not included in the default installation of SQL Server. It isn't required, but can be downloaded at [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt). Download [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) that works with all supported versions of SQL Server, including Azure SQL Database. However, to connect to remote SSIS when using BAM, you need to install the same version of SSMS as the destination SSIS server. For example, [install SSMS 16.*x*](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases) to install the related drivers to connect to SQL 2016 SSIS. SSMS 17.*x* cannot connect to SQL 2016 SSIS. You can have multiple versions of SSMS installed. 
+     > **SQL Server Data Tools** is not included in the default installation of SQL Server. It isn't required, but can be downloaded at [SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt). Download [**SQL Server Management Studio (SSMS)**](/sql/ssms/download-sql-server-management-studio-ssms) that works with all supported versions of SQL Server, including Azure SQL Database. However, to connect to remote SSIS when using BAM, you need to install the same version of SSMS as the destination SSIS server. For example, [install SSMS 16.*x*](/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases) to install the related drivers to connect to SQL 2016 SSIS. SSMS 17.*x* cannot connect to SQL 2016 SSIS. You can have multiple versions of SSMS installed. 
 
 3. Continue with the installation, and restart the computer if prompted.
 
@@ -334,13 +334,13 @@ Download and install [SqlXml 4.0](https://www.microsoft.com/download/details.asp
 ## Configure SQL Database Mail (optional)
 If you use BAM Alerts, BizTalk Server requires SQL Server Database Mail. If you don't use BAM Alerts, then skip this section. 
 
-**SEE ALSO** : More on [Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/database-mail).
+**SEE ALSO** : More on [Database Mail](/sql/relational-databases/database-mail/database-mail).
 
 > [!IMPORTANT]
 > - You need to know the server name and TCP port number for the SMTP Server. If you installed IIS and SMTP Server on this same computer, then you use the local SMTP Server. If the SMTP server requires authentication, then have the user name and password ready.
 > - The BAM portal and BAM Alerts are separate features. If you are using BAM Alerts, then SQL Server Database Mail is required. If you are not using BAM Alerts, then SQL Server Database Mail is not required.
 
-**For specific configuration steps, see**: Configure [SQL Server 2016 Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail) or [SQL Server 2014 Database Mail](https://msdn.microsoft.com/library/hh245116(v=sql.120).aspx).
+**For specific configuration steps, see**: Configure [SQL Server 2016 Database Mail](/sql/relational-databases/database-mail/configure-database-mail) or [SQL Server 2014 Database Mail](/sql/relational-databases/database-mail/configure-database-mail?viewFallbackFrom=sql-server-2014).
 
    
 To send a test email: 

@@ -68,7 +68,7 @@ Sign in with an account that is a member of the SQL Server sysadmin fixed server
 12. Update the schedule if desired, and then select **OK**.  
   
     > [!NOTE]
-    >  [Scheduling Jobs](https://docs.microsoft.com/sql/ssms/agent/schedule-a-job) provides more details.
+    >  [Scheduling Jobs](/sql/ssms/agent/schedule-a-job) provides more details.
   
 13. In the **Job Properties - Backup BizTalk Server (BizTalkMgmtDb)**, click **OK**.  
   

@@ -52,7 +52,7 @@ manager: "anneta"
 
 4.  On the Manage Settings for Single Sign-On page, in the **Server Settings** section, click **Manage Server Settings**.
 
-5.  Ensure that the information on this page is correct for your Single Sign-On installation. For more information about these operations, see “Configure single sign-on (Office SharePoint Server)” at [https://go.microsoft.com/fwlink/?LinkId=105291](https://go.microsoft.com/fwlink/?LinkId=105291).
+5.  Ensure that the information on this page is correct for your Single Sign-On installation. For more information about these operations, see “Configure single sign-on (Office SharePoint Server)” at [https://go.microsoft.com/fwlink/?LinkId=105291](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262932(v=office.12)).
 
 #### Manage settings for enterprise application definitions
 
@@ -87,7 +87,7 @@ manager: "anneta"
 8.  Click **OK**, and then click **Done**.
 
 ## Creating a Shared Services Provider and importing the application definition file
- A Shared Services Provider (SSP) is a logical grouping of shared services and their supporting resources. You can create an SSP by using the SharePoint Central Administration Console. This example will work in any SSP. For more information about creating an SSP, see “Chapter overview: Create and Configure Shared Services Providers” at [https://go.microsoft.com/fwlink/?LinkId=105119](https://go.microsoft.com/fwlink/?LinkId=105119).
+ A Shared Services Provider (SSP) is a logical grouping of shared services and their supporting resources. You can create an SSP by using the SharePoint Central Administration Console. This example will work in any SSP. For more information about creating an SSP, see “Chapter overview: Create and Configure Shared Services Providers” at [https://go.microsoft.com/fwlink/?LinkId=105119](/previous-versions/office/sharepoint-2007-products-and-technologies/cc262914(v=office.12)).
 
 ### To import the application definition file
 
@@ -151,7 +151,7 @@ manager: "anneta"
  You have used the SharePoint 3.0 Central Administration to import an application definition, and create Web Parts that use this definition to invoke the EchoGreetings operation of the Echo adapter.
 
 ## Next Steps
- This tutorial is complete. For more information using the Business Data Catalog, see “Business Data Catalog” at [https://go.microsoft.com/fwlink/?LinkId=119921](https://go.microsoft.com/fwlink/?LinkId=119921).
+ This tutorial is complete. For more information using the Business Data Catalog, see “Business Data Catalog” at [https://go.microsoft.com/fwlink/?LinkId=119921](/previous-versions/office/developer/sharepoint-2007/ms563661(v=office.12)).
 
 ## See Also
  [Tutorial 3: Hosting the Echo Adapter in IIS](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-3-hosting-the-echo-adapter-in-iis.md)

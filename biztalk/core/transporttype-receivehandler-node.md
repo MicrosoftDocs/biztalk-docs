@@ -26,5 +26,5 @@ The TransportType node of the ReceiveHandler node of a binding file contains spe
 |**Name**|**Node Type**|**Data Type**|**Description**|**Restrictions**|**Comments**|  
 |--------------|-------------------|-------------------|---------------------|----------------------|------------------|  
 |Name|Attribute|xs:string|Specifies the name of the adapter associated with the receive handler.|Not Required|Default value: empty|  
-|Capabilities|Attribute|xs:int|Specifies the capabilities of the adapter associated with the receive handler.|Required|Default value: none<br /><br /> Possible values include those available in the [Microsoft.BizTalk.ExplorerOM.Capabilities](https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.capabilities.aspx) enumeration.|  
+|Capabilities|Attribute|xs:int|Specifies the capabilities of the adapter associated with the receive handler.|Required|Default value: none<br /><br /> Possible values include those available in the [Microsoft.BizTalk.ExplorerOM.Capabilities](/dotnet/api/microsoft.biztalk.explorerom.capabilities) enumeration.|  
 |ConfigurationClsid|Attribute|xs:string|Specifies the configuration GUID of the adapter associated with the receive handler.|Not Required|Default value: empty|

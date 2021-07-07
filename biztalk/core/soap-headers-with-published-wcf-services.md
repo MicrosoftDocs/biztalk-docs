@@ -71,7 +71,7 @@ writeProps.Add(new KeyValuePair<XmlQualifiedName, object>(PropName2, "Property v
 wcfMessage.Properties[PropertiesToWriteKey]=writeProps;
 ```
 
- The BizTalk WCF Service Publishing Wizard does not include custom SOAP header definitions in the generated metadata. To publish metadata for WCF services using custom SOAP headers, you should manually create a Web Services Description Language (WSDL) file. You can use the **externalMetadataLocation** attribute of the [\<serviceMetadata\>](https://go.microsoft.com/fwlink/?LinkId=89121) element in the Web.config file that the wizard generates to specify the location of the WSDL file. The WSDL file is returned to the user in response to WSDL and metadata exchange (MEX) requests instead of the auto-generated WSDL.
+ The BizTalk WCF Service Publishing Wizard does not include custom SOAP header definitions in the generated metadata. To publish metadata for WCF services using custom SOAP headers, you should manually create a Web Services Description Language (WSDL) file. You can use the **externalMetadataLocation** attribute of the [\<serviceMetadata\>](/dotnet/framework/configure-apps/file-schema/wcf/servicemetadata) element in the Web.config file that the wizard generates to specify the location of the WSDL file. The WSDL file is returned to the user in response to WSDL and metadata exchange (MEX) requests instead of the auto-generated WSDL.
 
  The following XML data shows an example of a part of the WSDL file defining custom SOAP headers:
 

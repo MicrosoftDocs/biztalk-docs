@@ -18,7 +18,7 @@ manager: "anneta"
 # Run Operations on Tables and Views with Large Data Types in SQL using the WCF Service Model
 The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables adapter clients to read and update data in columns of large data types, that is, varchar(max), nvarchar(max), or varbinary(max). To read data from such columns, adapter clients can use the Select operation. To insert or update data into such columns, the adapter exposes a Set\<*column_name*\> operation, where \<*column_name*\> is the name of the column of type varchar(max), nvarchar(max), or varbinary(max).  
   
- Additionally, in SQL Server, you can have the varbinay(max) column store unstructured data such as text documents and images. Such unstructured data is called FILESTREAM data. FILESTREAM data can be stored as files on the file system. The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables the client to enter FILESTREAM data into columns of type varbinary(max). [FILESTREAM storage](https://docs.microsoft.com/sql/relational-databases/blob/filestream-sql-server) has more information. 
+ Additionally, in SQL Server, you can have the varbinay(max) column store unstructured data such as text documents and images. Such unstructured data is called FILESTREAM data. FILESTREAM data can be stored as files on the file system. The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables the client to enter FILESTREAM data into columns of type varbinary(max). [FILESTREAM storage](/sql/relational-databases/blob/filestream-sql-server) has more information. 
   
  This topic provides information about certain tasks you must perform on the computer running SQL Server and the computer running the adapter client to be able to insert or update FILESTREAM data. This topic also provides instructions on performing Set\<*column_name*\> operations to insert FILESTREAM data.  
   
@@ -30,11 +30,11 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] enables ad
   
 - **On the computer running SQL Server**  
   
-  -   You must enable FILESTREAM on the SQL Server instance. See [Enable and Configure FILESTREAM](https://docs.microsoft.com/sql/relational-databases/blob/enable-and-configure-filestream).
+  -   You must enable FILESTREAM on the SQL Server instance. See [Enable and Configure FILESTREAM](/sql/relational-databases/blob/enable-and-configure-filestream).
   
-  -   You must create a FILESTREAM-enabled database. See [Create a FILESTREAM-Enabled Database](https://docs.microsoft.com/sql/relational-databases/blob/create-a-filestream-enabled-database).
+  -   You must create a FILESTREAM-enabled database. See [Create a FILESTREAM-Enabled Database](/sql/relational-databases/blob/create-a-filestream-enabled-database).
   
-  -   You must have a table for storing FILESTREAM data. See [Create a Table for Storing FILESTREAM Data](https://docs.microsoft.com/sql/relational-databases/blob/create-a-table-for-storing-filestream-data),
+  -   You must have a table for storing FILESTREAM data. See [Create a Table for Storing FILESTREAM Data](/sql/relational-databases/blob/create-a-table-for-storing-filestream-data),
   
 - **On the computer running the adapter client**  
   

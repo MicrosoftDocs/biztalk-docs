@@ -45,7 +45,7 @@ While performing inbound operations (Polling and Notification) using the [!INCLU
 13. In the right pane of the **WCF-Custom Transport Properties**, specify appropriate values for the **transactionIsolationLevel** and **transactionTimeout** parameters. You can select any of the following transaction isolation levels: **Serializable**, **RepeatableRead**, **ReadCommitted**, **ReadUncommitted**, **Snapshot**, **Chaos**, and **Unspecified**.
 
     > [!NOTE]
-    >  The default value of Transaction Isolation Level is **Serializable** for the WCF-SQL adapter for both inbound and outbound operations. For information about these transaction isolation levels, see the **Members** section at [Isolation Level Enumeration](https://go.microsoft.com/fwlink/?LinkId=126983) (https://go.microsoft.com/fwlink/?LinkId=126983).
+    >  The default value of Transaction Isolation Level is **Serializable** for the WCF-SQL adapter for both inbound and outbound operations. For information about these transaction isolation levels, see the **Members** section at [Isolation Level Enumeration](/dotnet/api/system.transactions.isolationlevel) (https://go.microsoft.com/fwlink/?LinkId=126983).
 
      ![Setting Transaction Isolation Level](../../adapters-and-accelerators/adapter-sql/media/b39c180e-ca9f-48ca-9550-f4837826d00e.gif "b39c180e-ca9f-48ca-9550-f4837826d00e")
 

@@ -70,7 +70,7 @@ You can use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservre
 ## Generating a WCF Client Class by Using svcutil.exe  
  You can use svcutil.exe to generate a WCF client class for your application. You must configure svcutil.exe to use it with the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].  
   
- Svcutil.exe generates the WCF client class in an output file with a default file name of **output.cs**. You must manually include this file in your [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] project. For more information about svcutil.exe, see [ServiceModel Metadata Utility Tool (Svcutil.exe)](https://msdn.microsoft.com/library/aa347733.aspx).
+ Svcutil.exe generates the WCF client class in an output file with a default file name of **output.cs**. You must manually include this file in your [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] project. For more information about svcutil.exe, see [ServiceModel Metadata Utility Tool (Svcutil.exe)](/dotnet/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe).
   
 ## See Also  
 [Develop SQL applications using the WCF Service model](../../adapters-and-accelerators/adapter-sql/develop-sql-applications-using-the-wcf-service-model.md)

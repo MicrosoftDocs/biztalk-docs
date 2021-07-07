@@ -27,9 +27,9 @@ This section provides information about using a custom Web Part with Microsoft O
 ## Before You Begin  
  Before you create a custom Web Part:  
   
--   Publish the Oracle E-Business Suite artifacts as a  WCF service. For more information, see [Step 1: Use the Oracle E-Business Adapter to create and publish a WCF service](../../adapters-and-accelerators/adapter-oracle-ebs/step-1-use-the-oracle-e-business-adapter-to-create-and-publish-a-wcf-service.md) in [Tutorial: Present data from Oracle E-Business Suite on a SharePoint Site](Tutorial:%20Present%20data%20from%20Oracle%20E-Business%20Suite%20on%20a%20SharePoint%20Site.md).  
+-   Publish the Oracle E-Business Suite artifacts as a  WCF service. For more information, see [Step 1: Use the Oracle E-Business Adapter to create and publish a WCF service](../../adapters-and-accelerators/adapter-oracle-ebs/step-1-use-the-oracle-e-business-adapter-to-create-and-publish-a-wcf-service.md) in [Tutorial: Present data from Oracle E-Business Suite on a SharePoint Site](tutorial-present-data-from-oracle-e-business-suite-on-a-sharepoint-site.md).  
   
--   Create an application definition file for the Oracle E-Business Suite artifacts using the Business Data Catalog in Microsoft Office SharePoint Server. For more information, see [Step 2: Create an application definition file for the Oracle E-Business Suite artifacts](../../adapters-and-accelerators/adapter-oracle-ebs/step-2-create-an-application-definition-file-for-the-oracle-ebs-artifacts.md) in [Tutorial: Present data from Oracle E-Business Suite on a SharePoint Site](Tutorial:%20Present%20data%20from%20Oracle%20E-Business%20Suite%20on%20a%20SharePoint%20Site.md).  
+-   Create an application definition file for the Oracle E-Business Suite artifacts using the Business Data Catalog in Microsoft Office SharePoint Server. For more information, see [Step 2: Create an application definition file for the Oracle E-Business Suite artifacts](../../adapters-and-accelerators/adapter-oracle-ebs/step-2-create-an-application-definition-file-for-the-oracle-ebs-artifacts.md) in [Tutorial: Present data from Oracle E-Business Suite on a SharePoint Site](tutorial-present-data-from-oracle-e-business-suite-on-a-sharepoint-site.md).  
   
 ##  <a name="Create_a_Custom_Web_Part"></a> Step 1: Create a custom Web Part  
   
@@ -45,7 +45,7 @@ This section provides information about using a custom Web Part with Microsoft O
   
 6.  Build the project. On successful build of the project, a .dll file, CustomWebPart.dll, will be generated in the \<project folder\>/bin/Debug folder.  
   
-7.  **Only for 64-bit computer**: Sign the CustomWebPart.dll file with a strong name before performing the following steps. Otherwise, you will not be able to import, and hence use the CustomWebPart.dll in the SharePoint portal in “Step 3: Configure the SharePoint Portal to use the custom Web Part.” For information about how to sign an assembly with a strong name, see [How to: Sign an Assembly with a Strong Name](https://msdn.microsoft.com/library/xc31ft41.aspx).
+7.  **Only for 64-bit computer**: Sign the CustomWebPart.dll file with a strong name before performing the following steps. Otherwise, you will not be able to import, and hence use the CustomWebPart.dll in the SharePoint portal in “Step 3: Configure the SharePoint Portal to use the custom Web Part.” For information about how to sign an assembly with a strong name, see [How to: Sign an Assembly with a Strong Name](/dotnet/standard/assembly/sign-strong-name).
   
 ## Step 2: Deploy the custom Web Part to a SharePoint Portal  
  You must do the following to make the CustomWebPart.dll file (custom Web Part) that is created in “Step 1: Create a custom Web Part” of this topic usable on the SharePoint portal:  

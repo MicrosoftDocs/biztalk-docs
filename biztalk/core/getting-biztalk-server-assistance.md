@@ -23,7 +23,7 @@ manager: "anneta"
 
 When you install BizTalk Server, you can install the SDK, and sample applications. These resources cover the concepts and procedures required to use BizTalk Server effectively. BizTalk Server help also includes reference material for the languages and programming interfaces for building applications using BizTalk Server.
 
-- See the [documentation](https://docs.microsoft.com/biztalk/), [technical guides](https://docs.microsoft.com/biztalk/technical-guides/), and [tutorials](biztalk-server-tutorials.md).
+- See the [documentation](../index.yml), [technical guides](../technical-guides/index.md), and [tutorials](biztalk-server-tutorials.md).
 - See the [SDK samples](samples-in-the-sdk.md) installed with BizTalk Server.
 - See the [troubelshooting guides](troubleshooting.md). 
 

@@ -26,7 +26,7 @@ Configure high availability using SQL Server AlwaysOn availability groups.
 > - BizTalk Server support Always On Availability Groups starting with SQL Server 2016 and newer. If you're using a previous SQL Server version, this article doesn't apply to you. 
 > - BizTalk Server supports synchronous-commit mode; asynchronous-commit mode isn't supported. For disaster recovery, it's recommended to configure the Backup BizTalk Server job, and use log shipping. See [Backing Up and Restoring BizTalk Server Databases](../core/backing-up-and-restoring-biztalk-server-databases.md) for specific details.
 >
-> [Availability Modes](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/availability-modes-always-on-availability-groups) details the commit options with Always On Availability Groups.
+> [Availability Modes](/sql/database-engine/availability-groups/windows/availability-modes-always-on-availability-groups) details the commit options with Always On Availability Groups.
 
 ## Background and history
 
@@ -137,7 +137,7 @@ Replace `‘dbname’` with the corresponding database name against which the jo
 9. Script Logins and SQL Agent Jobs to replicate them on corresponding replica. 
 10. Replicate SQL DBMail Profile and Account for BAM Alerts on corresponding SQL instances hosting the secondary replica. 
 11. If you are adding an additional message box database or deploying a new BAM activity/view later, then new SQL jobs are created for new message box databases or BAM Alerts database on the current primary replica. Make sure to edit it on primary replica, and then create them manually on the corresponding secondary replicas. 
-12. **Starting with BizTalk Server 2020 and newer**, BAM DTS packages are deployed to SSIS Catalog. Add the SSISDB database to the same availability group as the BizTalk databases. For more information, see [AlwaysON for SSIS Catalog](https://docs.microsoft.com/sql/integration-services/catalog/ssis-catalog?view=sql-server-ver15#always-on-for-ssis-catalog-ssisdb).
+12. **Starting with BizTalk Server 2020 and newer**, BAM DTS packages are deployed to SSIS Catalog. Add the SSISDB database to the same availability group as the BizTalk databases. For more information, see [AlwaysON for SSIS Catalog](/sql/integration-services/catalog/ssis-catalog?view=sql-server-ver15#always-on-for-ssis-catalog-ssisdb).
 
 This configuration can also be done using the SQL Instances hosting the primary replica. In this case, after the BizTalk configuration, run the `UpdateDatabase.vbs` and `UpdateRegistry.vbs` scripts on the BizTalk machines after the above steps. This is discussed in more detail in the next section.  
 
@@ -257,13 +257,13 @@ If you are adding other BizTalk databases to the BizTalk Databases Backup job, b
 * [Providing High Availability for BizTalk Server Databases](../core/providing-high-availability-for-biztalk-server-databases.md)  
 * [Microsoft server software support for Microsoft Azure virtual machines](https://support.microsoft.com/kb/2721672)  
 * [SQL Server database mirroring, Volume Shadow Copy service and AlwaysOn](../core/sql-server-database-mirroring-volume-shadow-copy-service-and-alwayson.md)  
-* [Overview of AlwaysOn Availability Groups (SQL Server)](https://msdn.microsoft.com/library/ff877884.aspx)
-* [Cross-Database Transactions Support For Database Mirroring or AlwaysOn Availability Groups (SQL Server)](https://msdn.microsoft.com/library/ms366279.aspx)  
+* [Overview of AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server)
+* [Cross-Database Transactions Support For Database Mirroring or AlwaysOn Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/transactions-always-on-availability-and-database-mirroring)  
 * [Reenlist can't be called when SQL Server receives transaction outcome from MSDTC in Windows Server 2012 R2](https://support.microsoft.com/kb/3090973)  
 * [Backing Up and Restoring BizTalk Server Databases](../core/backing-up-and-restoring-biztalk-server-databases.md)  
 * [How to Move the BizTalk Server Databases](../core/how-to-move-the-biztalk-server-databases.md)  
 * [How to Restore Your Databases](../core/how-to-restore-your-databases.md)   
-* [Connection Timeouts in Multi-subnet Availability Group](https://blogs.msdn.microsoft.com/alwaysonpro/2014/06/03/connection-timeouts-in-multi-subnet-availability-group/)  
+* [Connection Timeouts in Multi-subnet Availability Group](/archive/blogs/alwaysonpro/connection-timeouts-in-multi-subnet-availability-group)  
 
 ## Known limitations
 
@@ -280,7 +280,7 @@ These limitations are for BizTalk Server, SQL Server AlwaysOn Availability Group
 * BizTalk Server does not set the `MultiSubnetFailover` connection property. 
 * BizTalk Backup Jobs using Log Shipping will always target the primary replica irrespective of the backup preference set on the Availability Group. 
 * SQL Server 2016 Standard supports only one single database in each SQL AlwaysOn AG. Since BizTalk uses many databases, SQL Server Enterprise edition is typically recommended.
-* If using Azure VMs, it's recommended to use a dedicated fixed TCP/IP port for MSDTC. When using a fixed TCP/IP port, you aren't limiting your RPC port range typically used with older operating systems; and it helps simplify your firewall and load balancer rules. To avoid conflicts with known lower ports, consider using a higher fixed port (such as >20000). [Configuring DTC Single Port Support](https://msdn.microsoft.com/library/windows/desktop/dd573191(v=vs.85).aspx) describes the `ServerTcpPort` registry key. In addition to the fixed port for MSDTC, the main RPC port 135 is also used. 
+* If using Azure VMs, it's recommended to use a dedicated fixed TCP/IP port for MSDTC. When using a fixed TCP/IP port, you aren't limiting your RPC port range typically used with older operating systems; and it helps simplify your firewall and load balancer rules. To avoid conflicts with known lower ports, consider using a higher fixed port (such as >20000). [Configuring DTC Single Port Support](/previous-versions/windows/desktop/dd573191(v=vs.85)) describes the `ServerTcpPort` registry key. In addition to the fixed port for MSDTC, the main RPC port 135 is also used. 
 
 ## Next steps
 

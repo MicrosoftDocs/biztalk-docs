@@ -22,7 +22,7 @@ manager: "anneta"
 By using the following keyboard shortcuts you can quickly accomplish many common tasks in the BizTalk Administration console.
 
 > [!NOTE]
->  Functionality that is not included in this list can be obtained by using the numeric keypad to move the mouse pointer with MouseKeys. For more information about MouseKeys, see Using the keyboard to move the mouse pointer at [https://go.microsoft.com/fwlink/?LinkId=48848](https://go.microsoft.com/fwlink/?LinkId=48848).
+>  Functionality that is not included in this list can be obtained by using the numeric keypad to move the mouse pointer with MouseKeys. For more information about MouseKeys, see Using the keyboard to move the mouse pointer at [https://go.microsoft.com/fwlink/?LinkId=48848](/previous-versions/windows/it-pro/windows-server-2003/cc775624(v=ws.10)).
 
 |Action|Keyboard shortcut|
 |------------|-----------------------|

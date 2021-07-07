@@ -26,7 +26,7 @@ This topic describes how to use the BizTalk Server Administration console to enl
   
  When enlisting or unenlisting a party for a role, bear in mind the following points:  
   
--   You must create a party before you can enlist it. For instructions, see [How to Create a Party](https://msdn.microsoft.com/library/f6feca1d-bc83-4fb6-981d-26c9e0d53044).  
+-   You must create a party before you can enlist it. For instructions, see [Create a Party](managing-parties.md).  
   
 -   You can enlist or unenlist a party for a role without needing to restart the application.  
   
@@ -36,7 +36,7 @@ This topic describes how to use the BizTalk Server Administration console to enl
 ## Prerequisites  
  To perform the procedure in this topic, you must be logged on with an account that is a member of the BizTalk Server Administrators group. For more detailed information on permissions, see [Permissions Required for Deploying and Managing a BizTalk Application](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md).  
   
-### To enlist or unenlist a party for a role  
+## Enlist or unenlist a party for a role  
   
 1. Click **Start**, click **All Programs**, click [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)], and then click **BizTalk Server Administration**.  
   

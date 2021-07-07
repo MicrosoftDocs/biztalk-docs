@@ -18,36 +18,32 @@ manager: "anneta"
 # Step 1: Prepare for the AS2 Tutorial
 ![Step 1 of 11](../core/media/tut-step1-of-11.gif "Tut_Step1_of_11")  
   
- The AS2 tutorial is run on a single computer. To prepare for the tutorial, you must install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] as described in [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5) section. You must also add a reference to the BizTalk Server EDI Application as described in this topic. The files required for the AS2 tutorial are located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial folder.  
+ The AS2 tutorial is run on a single computer. To prepare for the tutorial, you must install and configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], as described in [BizTalk Server What's New, Install, Configuration, and Upgrade](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md). You must also add a reference to the BizTalk Server EDI Application as described in this topic. The files required for the AS2 tutorial are located in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial folder.  
+
+## Before you begin
+
+For this tutorial to work, be sure to do the following:
+
+- Use the same logon account for both the in-process host instance and the isolated host instance.  
+- The BizTalk Server host that is used for this tutorial must be marked as 32-bit.  
+- Run on a platform using IIS 7.0 or IIS 7.5, and the Enable 32-Bit Application Setting for the Application Pools must be set to True.  
+- The AS2 tutorial folders include three folders that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will write test output files to (the EDI payload, 997, and MDN). These folder have already been created, but you must set the security permissions for two of the 997 and MDN folders (see the procedure below).  
   
-> [!NOTE]
->  For this tutorial to work, you need to use the same logon account for both the in-process host instance and the isolated host instance.  
+  The folders and files required for the tutorial are as follows:
   
-> [!NOTE]
->  For this tutorial to work, the BizTalk Server host that is used for this tutorial must be marked as 32-bit.  
-  
-> [!NOTE]
->  For this tutorial to work, it must be run on a platform using IIS 7.0 or IIS 7.5, and the Enable 32-Bit Application Setting for the Application Pools must be set to True.  
-  
- The AS2 tutorial folders include three folders that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will write test output files to (the EDI payload, 997, and MDN). These folder have already been created, but you must set the security permissions for two of the 997 and MDN folders (see the procedure below).  
-  
- The folders and files required for the tutorial are as follows:  
-  
-|Folder\File|Purpose|  
-|------------------|-------------|  
-|\\_997ToFabrikam|This empty folder will receive the 997 acknowledgment message returned after EDI processing. The folder simulates the application originating the EDI message at the Fabrikam party.|  
-|\\_EDIXMLToContoso|This empty folder will receive the XML payload file after BizTalk Server has processed the EDI message. This folder simulates the line-of-business application that is the final destination of the EDI payload.|  
-|\\_MDNToFabrikam|This empty folder will receive the MDN message returned from BizTalk Server after AS2 processing. The folder simulates an application at the Fabrikam party.|  
-|\Fabrikam|This folder contains the Default.aspx file that saves the 997 into the _997ToFabrikam folder and saves the MDN into the _MDNToFabrikam folder.|  
-|\Schemas|This folder contains the X12_00401_864.xsd schema and other schemas that BizTalk uses to process the EDI message. The folder also contains the Schemas.btproj project that you will build and deploy in order to deploy the schemas.|  
-|\Sender|This folder contains the Sender.csproj project that you will build and compile to create Sender.exe, which you use to send the X12_00401_864.edi test message (in the \AS2 Tutorial folder) and to return the MDN.|  
+  |Folder\File|Purpose|  
+  |------------------|-------------|  
+  |\\_997ToFabrikam|This empty folder will receive the 997 acknowledgment message returned after EDI processing. The folder simulates the application originating the EDI message at the Fabrikam party.|  
+  |\\_EDIXMLToContoso|This empty folder will receive the XML payload file after BizTalk Server has processed the EDI message. This folder simulates the line-of-business application that is the final destination of the EDI payload.|  
+  |\\_MDNToFabrikam | This empty folder will receive the MDN message returned from BizTalk Server after AS2 processing. The folder simulates an application at the Fabrikam party.|
+  |\Fabrikam|This folder contains the Default.aspx file that saves the 997 into the _997ToFabrikam folder and saves the MDN into the _MDNToFabrikam folder.|  
+  |\Schemas|This folder contains the X12_00401_864.xsd schema and other schemas that BizTalk uses to process the EDI message. The folder also contains the Schemas.btproj project that you will build and deploy in order to deploy the schemas.|  
+  |\Sender|This folder contains the Sender.csproj project that you will build and compile to create Sender.exe, which you use to send the X12_00401_864.edi test message (in the \AS2 Tutorial folder) and to return the MDN.|  
   
 ## Prerequisites  
  You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group.  
   
-## Procedures  
-  
-#### To set the security permission for the 997 and MDN folders  
+## Set the security permission for the 997 and MDN folders  
   
 1. In Windows Explorer, move to the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\AS2 Tutorial\\_997ToFabrikam folder. Right-click the \\_997ToFabrikam folder, and then click **Properties**.  
   
@@ -61,7 +57,7 @@ manager: "anneta"
   
 6. Repeat these steps for the \\_MDNToFabrikam folder.  
   
-#### To mark the BizTalk Server Host as 32-Bit  
+## Mark the BizTalk Server Host as 32-Bit  
   
 1. > [!NOTE]
    >  The AS2 pipelines can only be used in a 32-bit process. If [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed on a 64-bit operating system, the following steps must be performed to mark the host processes as 32-bit only.  
@@ -78,11 +74,11 @@ manager: "anneta"
   
    If BizTalk Server is installed on a 64-bit operating system, you must also set IIS to run in 32-bit mode when using a 32-bit BizTalk host process. The instructions for setting IIS are presented within [Step 5: Configure the Trading Partner Web Pages](../core/step-5-configure-the-trading-partner-web-pages.md), as IIS allows you to set the 32-bit worker process on a per application pool basis.  
   
-#### To add reference to the BizTalk EDI Application  
+## Add reference to the BizTalk EDI Application  
   
-1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, under the **Applications** node, right-click the application that you want to use for EDI, such as BizTalk Application 1. Point to **Add**, and then click References.  
-  
-2. In the **Add Application Reference** dialog box, select **BizTalk EDI Application**, and then click **OK**.  
+1. In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, under the **Applications** node, right-click the application that you want to use for EDI, such as BizTalk Application 1. 
+2. Select **Add** > **References**.
+3. In the **Add Application Reference** dialog box, select **BizTalk EDI Application**, and then click **OK**.  
   
 ## Next Steps  
  You deploy the sample X12 schema as described in [Step 2: Create and Deploy the Sample X12 Schema](../core/step-2-create-and-deploy-the-sample-x12-schema.md)  

@@ -43,7 +43,7 @@ The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinessl
 7. The adapter clients can specify a post-poll statement, an Oracle PL/SQL block, for the **PostPollStatement** binding property. The statement specified in this binding property is executed after the statement specified in the **PollingInput** binding property is executed.  
 
    > [!NOTE]
-   >  The adapter executes the statement specified in the **PollingInput** and **PostPollStatement** binding properties in a transaction. For more information about transactions in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], see [How does the Adapter Handle Transactions?](https://msdn.microsoft.com/library/dd788428.aspx).  
+   >  The adapter executes the statement specified in the **PollingInput** and **PostPollStatement** binding properties in a transaction. For more information about transactions in the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], see [How does the Adapter Handle Transactions?](./handle-transactions-with-the-oracle-e-business-suite-adapter.md).  
 
    The adapter suppresses any empty polling responses coming from Oracle E-Business Suite.  
 

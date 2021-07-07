@@ -38,7 +38,7 @@ manager: "anneta"
 >  Any customizations to auto-generated items such XSD and ODX files will be lost during conversion. This applies to XSD files generated when a web reference is added to a BizTalk project as well.
 
 ## Project Migration and Delay Signing
- [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] projects that use [Delay Signing](https://go.microsoft.com/fwlink/p/?LinkId=140992) may fail during the build process after being converted for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This can happen if **Generate serialization assembly** build setting for the migrated project configuration is not set to **Off**.
+ [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] projects that use [Delay Signing](/dotnet/standard/assembly/delay-sign) may fail during the build process after being converted for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This can happen if **Generate serialization assembly** build setting for the migrated project configuration is not set to **Off**.
 
 ## Project Migration and MSMQT
  MSMQT is no longer part of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information on how this can affect project migration, see the topic [MSMQT Deprecation](../core/msmqt-deprecation.md).

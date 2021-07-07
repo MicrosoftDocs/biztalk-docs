@@ -40,7 +40,7 @@ Lists the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
 
    [Create an IIS 7 web site](https://technet.microsoft.com/library/cc772350\(WS.10\).aspx)
 
-   [Create an IIS 8 web site](https://technet.microsoft.com/library/hh831515.aspx)
+   [Create an IIS 8 web site](/previous-versions/orphan-topics/ws.11/hh831515(v=ws.11))
 
    After creating the new website:
 
@@ -122,7 +122,7 @@ Lists the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
 
 - After you download the self-extracting EXE for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], the installation guide is opened. The Setup.exe for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is at the same location as the installation guide.
 
-- Instead of installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a physical computer, you can o configure a [!INCLUDE[winazure](../includes/winazure-md.md)] virtual machine with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] image. See [Configuring BizTalk Server on an Azure VM](https://msdn.microsoft.com/library/azure/jj248689.aspx).
+- Instead of installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a physical computer, you can o configure a [!INCLUDE[winazure](../includes/winazure-md.md)] virtual machine with a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] image. See [Configuring BizTalk Server on an Azure VM](/previous-versions/azure/jj248689(v=azure.100)).
 
 - For the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] using a command prompt, see [Appendix A: Silent Installation](../install-and-config-guides/appendix-a-silent-installation.md).
 

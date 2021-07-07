@@ -51,7 +51,7 @@ A setup log is created in `C:\ProgramData\Microsoft\E-Business Servers Updates\U
 
 ### FIPS Compliance
 
-After installing Feature Pack, BizTalk Server can be configured and deployed on machines where [FIPS security policy](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing) is enabled.
+After installing Feature Pack, BizTalk Server can be configured and deployed on machines where [FIPS security policy](/windows/security/threat-protection/security-policy-settings/system-cryptography-use-fips-compliant-algorithms-for-encryption-hashing-and-signing) is enabled.
 
 ### [Office 365 Adapters](../core/install-and-configure-biztalk-tms-for-fp.md)
 
@@ -89,11 +89,11 @@ The Backup BizTalk Server job backs up the BizTalk databases and log files. When
 
 Using deployment groups, you can deploy your applications to multiple BizTalk Servers. You can also set the application name within the application project, and install your application by entering your management server.
 
-[Deployment groups](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index) provides more details on how this is done in VSTS.  
+[Deployment groups](/vsts/build-release/concepts/definitions/release/deployment-groups/index) provides more details on how this is done in VSTS.  
 
 #### [Use Service Bus Premium](../core/sb-messaging-adapter.md)
 
-The Service Bus adapter supports Service Bus Premium, including sending messages to partitioned queues and topics. [Service Bus Premium and Standard messaging tiers](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-premium-messaging) details more about Service Bus Premium.
+The Service Bus adapter supports Service Bus Premium, including sending messages to partitioned queues and topics. [Service Bus Premium and Standard messaging tiers](/azure/service-bus-messaging/service-bus-premium-messaging) details more about Service Bus Premium.
 
 #### [Send tracking data to Azure Event Hubs](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)
 

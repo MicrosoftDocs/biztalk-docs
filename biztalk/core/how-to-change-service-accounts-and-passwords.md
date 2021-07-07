@@ -16,7 +16,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Change Service Accounts and Passwords
-After you configure BizTalk Server, it is common for organizations to require changing service accounts or passwords by Account policies, such as Password Policy and Account Lockout Policy. For more information about Account policies, see the Microsoft TechNet Web site at [https://go.microsoft.com/fwlink/?LinkId=62172](https://go.microsoft.com/fwlink/?LinkId=62172).
+After you configure BizTalk Server, it is common for organizations to require changing service accounts or passwords by Account policies, such as Password Policy and Account Lockout Policy. For more information about Account policies, see the Microsoft TechNet Web site at [https://go.microsoft.com/fwlink/?LinkId=62172](/previous-versions/windows/it-pro/windows-server-2003/cc757692(v=ws.10)).
 
  When changing service accounts or passwords, you must do the following:
 

@@ -59,7 +59,7 @@ This section describes several tools and utilities that can be useful for diagno
 
  DebugView enables administrators to test an application and monitor debug output on your local system, or any computer on the network that you can reach via TCP/IP.
 
- For more information about these utilities, see [Windows Sysinternals](https://docs.microsoft.com/sysinternals/).
+ For more information about these utilities, see [Windows Sysinternals](/sysinternals/).
 
 ## Debug Diagnostics Tool of the IIS Diagnostics Toolkit
  The Debug Diagnostic Tool of the IIS Diagnostics toolkit can generate a memory dump of a failing process and perform a basic analysis of the generated dump file. For more information about using the Debug Diagnostics Tool of the IIS Diagnostic Toolkit to capture a memory dump see [How to Capture a Memory Dump of a BizTalk Process](../core/how-to-capture-a-memory-dump-of-a-biztalk-process.md).

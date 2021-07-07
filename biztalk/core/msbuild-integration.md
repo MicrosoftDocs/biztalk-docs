@@ -25,4 +25,4 @@ Visual Studio uses the MSBUILD project file format to store build information ab
 -   [Standalone MSBUILD](../core/standalone-msbuild.md)
 
 ## See Also
- [MSBUILD Overview](https://go.microsoft.com/fwlink/?LinkId=131739)
+ [MSBUILD Overview](/previous-versions/visualstudio/visual-studio-2008/ms171452(v=vs.90))

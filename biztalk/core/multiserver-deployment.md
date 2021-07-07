@@ -45,9 +45,9 @@ This topic discusses multiserver setup and deployment considerations for the [!I
 > [!NOTE]
 >  The Windows SharePoint Services adapter Web service component will be automatically selected if you choose to install BAS.  
   
-#### To install the Windows SharePoint Services adapter  
+#### Install the Windows SharePoint Services adapter  
   
-1. Install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information, see [Installation Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/8041926c-cfc9-4eaf-9c28-a2c6e8015bc5).  
+1. Install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information, see [BizTalk Server What's New, Install, Configuration, and Upgrade](../install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade.md).  
   
 2. On the **Component Installation** screen, under **Available Components**, under **Additional Software**, select **Windows SharePoint Services Adapter Web service**.  
   
@@ -55,7 +55,7 @@ This topic discusses multiserver setup and deployment considerations for the [!I
 >  You must run setup and configuration on the computer that hosts the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] runtime and the computer running Windows SharePoint Services.  
   
 ## Configuring the Windows SharePoint Services adapter Web service in a multiserver deployment  
- You configure the Windows SharePoint Services adapter using the BizTalk Server Configuration. For more information about these tools, see [Configuration Overview for BizTalk Server 2013 and 2013 R2](https://msdn.microsoft.com/library/aa58c43f-8f0e-4a5c-89b9-db7b8a852a72).  
+ You configure the Windows SharePoint Services adapter using the BizTalk Server Configuration. For more information about these tools, see [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md).  
   
 ### Using a custom configuration  
  The BizTalk Server Configuration provides a high-level analysis of the configuration state of the features you have installed on the local computer. The tool allows you to configure and unconfigure features, configure security settings, and import and export configurations from other computers.  
@@ -64,7 +64,7 @@ This topic discusses multiserver setup and deployment considerations for the [!I
   
 |Use this|To do this|  
 |--------------|----------------|  
-|**Enable Windows SharePoint Services Adapter on this computer**|Select **Enable Windows SharePoint Services Adapter on this computer** to enable the adapter on this computer.|  
+|**Enable Windows SharePoint Services Adapter on this computer**|Select **Enable Windows SharePoint Services Adapter on this computer** to enable the adapter on this computer.| 
 |**Windows group**|The **Windows group** list provides a view that you can edit of the BizTalk SharePoint Adapter Enabled Hosts Windows group.|  
 |**Windows SharePoint Services Adapter Web site**|Select the Web site that will host the Windows SharePoint Services adapter Web service.|  
   
@@ -85,7 +85,7 @@ This topic discusses multiserver setup and deployment considerations for the [!I
   
   For more information about the BizTalk Server Configuration, see [Import and Export BizTalk Server Configuration](../install-and-config-guides/import-and-export-biztalk-server-configuration.md).  
   
-##### To configure the Windows SharePoint Services adapter by using custom configuration  
+##### Configure the Windows SharePoint Services adapter by using custom configuration  
   
 1. In the **BizTalk Server Configuration**, select the **SharePoint adapter** node.  
   

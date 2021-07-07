@@ -33,8 +33,6 @@ The service oriented solution presents a credit balance reporting application de
 
   Although the literature often treats service oriented approaches as synonymous with web services, they are not necessarily synonyms. Web services present an attractive way to implement service oriented solutions, but you can use other technologies, such as .NET remoting, to create services.
 
-  For more information about service oriented architectures, see "Service Interface" at [https://go.microsoft.com/fwlink/?LinkId=46185](https://go.microsoft.com/fwlink/?LinkId=46185) and "Service-Oriented Integration" at [https://go.microsoft.com/fwlink/?LinkId=46186](https://go.microsoft.com/fwlink/?LinkId=46186).
-
 ## Reader Guidance
  The documentation for this solution assumes that you are familiar with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]. It also assumes that you understand basic concepts about enterprise application integration and web services.
 

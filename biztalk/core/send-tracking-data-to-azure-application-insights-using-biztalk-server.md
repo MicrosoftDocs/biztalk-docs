@@ -22,8 +22,8 @@ Leverage the power of Azure (Application Insights and Azure Event Hubs) to monit
 
 ## Prerequisites
 
-* To send your tracking data to Application Insights, create a new instance of [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-create-new-resource). BizTalk Server uses the **Instrumentation Key** to authenticate.
-* To send your tracking data to Azure Event Hubs, create an [Azure Event Hubs namespace and event hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-create). BizTalk Server uses the SAS (namespace-level) or event hub-level policy to authenticate.
+* To send your tracking data to Application Insights, create a new instance of [Application Insights](/azure/application-insights/app-insights-create-new-resource). BizTalk Server uses the **Instrumentation Key** to authenticate.
+* To send your tracking data to Azure Event Hubs, create an [Azure Event Hubs namespace and event hub](/azure/event-hubs/event-hubs-create). BizTalk Server uses the SAS (namespace-level) or event hub-level policy to authenticate.
 
 ## Enable analytics for your environment
 
@@ -82,11 +82,11 @@ Once the data is sent to Application Insights, you can use the analytics tools w
 4. Go back to your Application Insights resource, and select **Analytics**. In **Usage**, select **Run**. A sample query is executed, and the results are displayed in a chart.  
 
 > [!TIP]
-> Azure Application Insights is a powerful tool. There are resources to help you write queries in Application Insights at [Analytics in Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-analytics), and even to get started at [What is Application Insights?](https://docs.microsoft.com/azure/application-insights/app-insights-overview).
+> Azure Application Insights is a powerful tool. There are resources to help you write queries in Application Insights at [Analytics in Application Insights](/azure/application-insights/app-insights-analytics), and even to get started at [What is Application Insights?](/azure/application-insights/app-insights-overview).
 
 #### Use Event Hubs
 
-Once the data is sent to Event Hubs, there are a couple of ways to see the data. Many Event Hubs users are using Event Hubs Capture to load streaming data into Azure. The intent is for you to focus on data processing, rather than on data capture. [Event Hubs Capture](https://docs.microsoft.com/azure/event-hubs/event-hubs-capture-overview) explains how it works, and how to set it up.
+Once the data is sent to Event Hubs, there are a couple of ways to see the data. Many Event Hubs users are using Event Hubs Capture to load streaming data into Azure. The intent is for you to focus on data processing, rather than on data capture. [Event Hubs Capture](/azure/event-hubs/event-hubs-capture-overview) explains how it works, and how to set it up.
 
 Another option is to create a receive port and receive location using the Event Hub Adapter. Then, you can output the data to a folder. This idea may be best if you want to test the scenario. [Event Hubs adapter](event-hubs-adapter.md) lists the steps to receive messages into BizTalk Server from Event Hubs.
 
@@ -109,6 +109,6 @@ Now, query the BizTalkMsgBoxDb TrackingData_2_x tables again. If the tables are 
 
  [Configure the Power BI operational data feed in BizTalk Server](../core/configure-the-operational-data-feed-for-power-bi-with-biztalk-server.md)
  
- [Application Insights](https://docs.microsoft.com/azure/azure-monitor/app/app-insights-overview)
+ [Application Insights](/azure/azure-monitor/app/app-insights-overview)
  
- [Azure Event Hubs](https://docs.microsoft.com/azure/event-hubs/event-hubs-about)
+ [Azure Event Hubs](/azure/event-hubs/event-hubs-about)

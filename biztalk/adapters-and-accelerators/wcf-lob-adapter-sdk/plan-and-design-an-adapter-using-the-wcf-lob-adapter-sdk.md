@@ -20,7 +20,7 @@ This section contains information to help you plan your adapter and understand t
   
 ## In This Section  
   
--   [Selecting the Appropriate Framework](https://msdn.microsoft.com/library/bb798089.aspx)  
+-   [Selecting the Appropriate Framework](./difference-between-adapter-channel-and-service-in-the-wcf-lob-adapter-sdk.md)  
   
 -   [Plan and design your Adapter using the WCF LOB Adapter SDK](../../adapters-and-accelerators/wcf-lob-adapter-sdk/plan-and-design-your-adapter-using-the-wcf-lob-adapter-sdk.md)  
   

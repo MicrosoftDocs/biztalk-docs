@@ -67,7 +67,7 @@ echoAdapterProxy.Open();
   
  **Resolution**: Eventually the requests will time out and processing will continue, however the recommended resolution is to either decrease the number of messages to be processed or increase the number of threads in the threadpool.  
   
- To increase the number of threads, modify the value of [ProcessModelSection.MaxWorkerThreads property](https://msdn.microsoft.com/library/system.web.configuration.processmodelsection.maxworkerthreads.aspx).  
+ To increase the number of threads, modify the value of [ProcessModelSection.MaxWorkerThreads property](/dotnet/api/system.web.configuration.processmodelsection.maxworkerthreads).  
   
 ## Design-Time Proxy and Schema Generation Tools  
   
