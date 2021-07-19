@@ -58,7 +58,7 @@ The [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] is 
 
 ## FAQ
 
-Get some answers to [Frequently asked questions](../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.md) about the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].
+Get some answers to [Frequently asked questions](../adapters-and-accelerators/frequently-asked-questions-for-the-biztalk-adapter-pack.yml) about the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].
 
 ## Oracle Database adapter
 
