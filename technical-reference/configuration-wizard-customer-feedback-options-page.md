@@ -39,7 +39,7 @@ Use the **Customer Feedback Options** page to configure your server to collect i
 </tr>
 <tr class="even">
 <td><strong>Yes, send feature usage reports to Microsoft</strong></td>
-<td>Select <strong>Yes, send feature usage reports to Microsoft</strong> to send feature usage data through the Customer Experience Improvement Program (CEIP)</td>
+<td>Select <strong>Yes, send feature usage reports to Microsoft</strong> to send feature usage data through the Customer Experience Improvement Program (CEIP).</td>
 </tr>
 </tbody>
 </table>
