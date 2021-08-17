@@ -18,16 +18,16 @@ manager: "anneta"
 There are multiple options for tracing, which can help to capture problems in the data consumer application, OLE DB service components, Data Provider, DB2 network client, and DB2 database server.
 
 ## SQL consumer tracing using SQL Server Profiler
- SQL Server Profiler is a graphical user interface to SQL Trace for monitoring an instance of the Database Engine or Analysis Services. You can capture and save data about each event to a file or table to analyze later. For more information, see [Introducing SQL Server Profiler](https://go.microsoft.com/fwlink/?LinkID=241520) (https://go.microsoft.com/fwlink/?LinkID=241520).
+ SQL Server Profiler is a graphical user interface to SQL Trace for monitoring an instance of the Database Engine or Analysis Services. You can capture and save data about each event to a file or table to analyze later. For more information, see [Introducing SQL Server Profiler](/previous-versions/sql/sql-server-2012/ms181091(v=sql.110)) (https://go.microsoft.com/fwlink/?LinkID=241520).
 
 ## Network tracing using Network Monitor
- The Network Monitor captures network traffic for display and analysis. It enables you to perform tasks such as analyzing previously captured data in user-defined methods, extracting data from defined protocol parsers. It includes a Distributed Data Management (DDM) parser for use with the Data Provider. Contact Microsoft Customer Support Services for a copy of the DDM parser. For more information, see [Network Monitor](https://go.microsoft.com/fwlink/?LinkID=180448) (https://go.microsoft.com/fwlink/?LinkID=180448).
+ The Network Monitor captures network traffic for display and analysis. It enables you to perform tasks such as analyzing previously captured data in user-defined methods, extracting data from defined protocol parsers. It includes a Distributed Data Management (DDM) parser for use with the Data Provider. Contact Microsoft Customer Support Services for a copy of the DDM parser. For more information, see [Network Monitor](/windows/win32/netmon2/network-monitor) (https://go.microsoft.com/fwlink/?LinkID=180448).
 
 ## DB2 server tracing using IBM tools
  For more information, see the IBM DB2 Administration Guide for the applicable DB2 platform and version.
 
 ## Windows Server events using Event Viewer
- The Event Viewer is a Microsoft Management Console (MMC) snap-in that enables you to browse and manage event logs. For more information, see [Event Viewer](https://go.microsoft.com/fwlink/?LinkID=131274) (https://go.microsoft.com/fwlink/?LinkID=131274).
+ The Event Viewer is a Microsoft Management Console (MMC) snap-in that enables you to browse and manage event logs. For more information, see [Event Viewer](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc766042(v=ws.11)) (https://go.microsoft.com/fwlink/?LinkID=131274).
 
 ## DB2 provider tracing using Provider Trace Utility
  The Provider Trace Utility captures and saves information from the Microsoft client for DB2 network connections, OLE DB interfaces and data messages. The Trace Utility allows the IT Professional to trace information related to a single trace component, which is the Data Provider’s underlying DRDA Application Requester client (DB2 Network Library).

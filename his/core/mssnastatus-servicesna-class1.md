@@ -89,7 +89,7 @@ class MsSnaStatus_ServiceSna : MsSnaStatus_Config
 |[Pause](../core/mssnastatus-servicesna-pause-method1.md)|Pauses the service.|  
 |[Resume](../core/mssnastatus-servicesna-resume-method2.md)|Resumes the service.|  
   
- For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see [IWbemServices interface](https://msdn.microsoft.com/library/gg196568(v=vs.85).aspx). 
+ For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see [IWbemServices interface](/windows/win32/wmisdk/iwbemservices-methods). 
   
 ## Remarks  
  There may be more than one service running on a computer.  

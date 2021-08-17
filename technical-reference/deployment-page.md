@@ -59,7 +59,7 @@ Type: Boolean</td>
 </tr>
 <tr class="odd">
 <td><strong>Enable Unit Testing</strong></td>
-<td>Specifies whether to enable unit testing for the project. For more information see: <a href="https://msdn.microsoft.com/library/dd257907(v=bts.80)">Unit Testing with BizTalk Server Projects</a>.</td>
+<td>Specifies whether to enable unit testing for the project. For more information see: <a href="/biztalk/core/unit-testing-with-biztalk-server-projects">Unit Testing with BizTalk Server Projects</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -68,4 +68,3 @@ Type: Boolean</td>
 ## See Also
 
 [Project Designer: Deployment Tab](https://msdn.microsoft.com/library/aa560343\(v=bts.80\))
-

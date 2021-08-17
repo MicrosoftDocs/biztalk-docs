@@ -75,5 +75,5 @@ These settings apply to: BizTalk Server 2016 Feature Pack 1 and newer
 
 ## See Also
 
-[How to Modify Host Settings](https://docs.microsoft.com/biztalk/core/how-to-modify-host-settings)  
-[How to Modify Host Instance Settings](https://docs.microsoft.com/biztalk/core/how-to-modify-host-instance-settings)
+[How to Modify Host Settings](/biztalk/core/how-to-modify-host-settings)  
+[How to Modify Host Instance Settings](/biztalk/core/how-to-modify-host-instance-settings)
