@@ -17,7 +17,7 @@ Represents an individual send port defined by BizTalk Server.
 
 
 > [!WARNING]
-> <P>Certificates must be installed on the box for the MSBTS_SendPort class to work. The only way to create send ports without certificates is to use the <A href="https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.aspx">Microsoft.BizTalk.ExplorerOM</A> APIs.</P>
+> <P>Certificates must be installed on the box for the MSBTS_SendPort class to work. The only way to create send ports without certificates is to use the <A href="/previous-versions/">Microsoft.BizTalk.ExplorerOM</A> APIs.</P>
 
 
 
@@ -41,11 +41,11 @@ class MSBTS_SendPort : MSBTS_Setting
 <tbody>
 <tr class="odd">
 <td>Caption (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-setting">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 <tr class="even">
 <td>Description (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-setting">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-sendport-encryptioncert-property-wmi.md">EncryptionCert</a></td>
@@ -133,7 +133,7 @@ class MSBTS_SendPort : MSBTS_Setting
 </tr>
 <tr class="even">
 <td>SettingID (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20246">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-setting">https://go.microsoft.com/fwlink/?LinkID=20246</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-sendport-status-property-wmi.md">Status</a></td>

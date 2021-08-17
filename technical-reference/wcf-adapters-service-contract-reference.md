@@ -76,14 +76,13 @@ The WCF adapters use untyped message contracts when receiving messages. By using
 
 ## See Also
 
-[ServiceHost Class](https://go.microsoft.com/fwlink/?linkid=88630)
-[Binding.CanBuildChannelListener](https://go.microsoft.com/fwlink/?linkid=88633)
-[IReplyChannel Interface](https://go.microsoft.com/fwlink/?linkid=88636)
-[IReplySessionChannel Interface](https://go.microsoft.com/fwlink/?linkid=88638)
-[IDuplexSessionChannel Interface](https://go.microsoft.com/fwlink/?linkid=88639)
-[TransactionFlowBindingElement Class](https://go.microsoft.com/fwlink/?linkid=88641)
-[MsmqTransportBindingElement](https://go.microsoft.com/fwlink/?linkid=88642)
-[ITransactedBindingElement Interface](https://go.microsoft.com/fwlink/?linkid=88643)
-[ITransactedBindingElement.TransactedReceiveEnabled Property](https://go.microsoft.com/fwlink/?linkid=88645)
-[OneWayBindingElement Class](https://go.microsoft.com/fwlink/?linkid=88644)
-
+[ServiceHost Class](/dotnet/api/system.servicemodel.servicehost)
+[Binding.CanBuildChannelListener](/dotnet/api/system.servicemodel.channels.binding.canbuildchannellistener)
+[IReplyChannel Interface](/dotnet/api/system.servicemodel.channels.ireplychannel)
+[IReplySessionChannel Interface](/dotnet/api/system.servicemodel.channels.ireplysessionchannel)
+[IDuplexSessionChannel Interface](/dotnet/api/system.servicemodel.channels.iduplexsessionchannel)
+[TransactionFlowBindingElement Class](/dotnet/api/system.servicemodel.channels.transactionflowbindingelement)
+[MsmqTransportBindingElement](/dotnet/framework/wcf/diagnostics/wmi/msmqtransportbindingelement)
+[ITransactedBindingElement Interface](/dotnet/api/system.servicemodel.channels.itransactedbindingelement)
+[ITransactedBindingElement.TransactedReceiveEnabled Property](/dotnet/api/system.servicemodel.channels.itransactedbindingelement.transactedreceiveenabled)
+[OneWayBindingElement Class](/dotnet/api/system.servicemodel.channels.onewaybindingelement)

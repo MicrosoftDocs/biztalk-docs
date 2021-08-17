@@ -65,11 +65,10 @@ When a field corresponding to a **Field Element** or **Field Attribute** node is
 
 
 > [!NOTE]
-> <P>When a Record follows a missing optional Field, delimiters will not be preserved. For more information missing flat file delimiters, see <A href="https://msdn.microsoft.com/library/aa559464(v=bts.80)">Delimiter Preservation and Suppression</A>.</P>
+> <P>When a Record follows a missing optional Field, delimiters will not be preserved. For more information missing flat file delimiters, see <A href="/biztalk/core/delimiter-preservation-and-suppression">Delimiter Preservation and Suppression</A>.</P>
 
 
 
 ## See Also
 
 [Supplemental Node Properties for Flat File Schemas](supplemental-node-properties-for-flat-file-schemas.md)
-

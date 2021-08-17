@@ -20,7 +20,7 @@ Depicts the class hierarchy for WMI Core classes.
 
 #### To view documentation for WMI Classes using CIM Studio
 
-1.  Install CIM Studio, part of the Windows Management Instrumentation (WMI) SDK 1.5. The WMI SDK is available for download at [https://go.microsoft.com/fwlink/?LinkId=93373](https://go.microsoft.com/fwlink/?linkid=93373).
+1.  Install CIM Studio, part of the Windows Management Instrumentation (WMI) SDK 1.5. The WMI SDK is available for download at [https://go.microsoft.com/fwlink/?LinkId=93373](/windows/win32/wmisdk/wmi-start-page).
 
 2.  To download the minimal requirements for CIM Studio, in the WMI SDK Installation Wizard, on the Components screen, select **Applications** only, uncheck the other options.
 

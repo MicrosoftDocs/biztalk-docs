@@ -15,7 +15,7 @@ mtps_version: v=BTS.80
 
 
 > [!IMPORTANT]
-> <P>We recommend that you refer to the latest version of the BizTalk Server 2013 R2 Installation Guide at <A href="https://go.microsoft.com/fwlink/?linkid=269585">https://go.microsoft.com/fwlink/?LinkId=269585</A>.</P>
+> <P>We recommend that you refer to the latest version of the BizTalk Server 2013 R2 Installation Guide at <A href="/previous-versions/">https://go.microsoft.com/fwlink/?LinkId=269585</A>.</P>
 
 
 

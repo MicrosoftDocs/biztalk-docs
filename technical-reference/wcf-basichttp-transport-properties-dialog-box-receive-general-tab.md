@@ -60,5 +60,4 @@ Maximum length: 32767</td>
 [How to Configure a WCF-BasicHttp Receive Location](https://msdn.microsoft.com/library/bb246064\(v=bts.80\))
 [Publishing WCF Services with the Isolated WCF Receive Adapters](https://msdn.microsoft.com/library/bb226318\(v=bts.80\))
 [Configuring IIS for the Isolated WCF Receive Adapters](https://msdn.microsoft.com/library/bb245982\(v=bts.80\))
-[The \<identity\> element](https://go.microsoft.com/fwlink/?linkid=75747)
-
+[The \<identity\> element](/dotnet/framework/configure-apps/file-schema/wcf/identity)

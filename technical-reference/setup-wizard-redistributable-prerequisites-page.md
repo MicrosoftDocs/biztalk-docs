@@ -15,7 +15,7 @@ mtps_version: v=BTS.80
 
 
 > [!IMPORTANT]
-> <P>We recommend that you refer to the latest version of the BizTalk Server 2013 R2 Installation Guide at <A href="https://go.microsoft.com/fwlink/?linkid=269585">https://go.microsoft.com/fwlink/?LinkId=269585</A>.</P>
+> <P>We recommend that you refer to the latest version of the BizTalk Server 2013 R2 Installation Guide at <A href="/previous-versions/">https://go.microsoft.com/fwlink/?LinkId=269585</A>.</P>
 
 
 
@@ -49,4 +49,4 @@ Select this option to automatically install the redistributable prerequisites fr
 
 If your computer is missing a prerequisite component, Setup is able to install redistributable prerequisites automatically from the Web or from a pre-downloaded CAB file. Automatically installing from the Web or downloading the required CAB file requires internet access.
 
-For a list of all CAB files and the software they include, refer to the latest version of the BizTalk Server 2013 R2 Installation Guide at [https://go.microsoft.com/fwlink/?LinkId=269585](https://go.microsoft.com/fwlink/?linkid=269585).
+For a list of all CAB files and the software they include, refer to the latest version of the BizTalk Server 2013 R2 Installation Guide at [https://go.microsoft.com/fwlink/?LinkId=269585](/previous-versions/).
