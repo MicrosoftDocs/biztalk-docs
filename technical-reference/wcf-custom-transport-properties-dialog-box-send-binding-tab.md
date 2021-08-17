@@ -119,5 +119,4 @@ The default is an empty string.</td>
 ## See Also
 
 [How to Configure a WCF-Custom Send Port](https://msdn.microsoft.com/library/bb226446\(v=bts.80\))
-[The \<binding\> element](https://go.microsoft.com/fwlink/?linkid=75753)
-
+[The \<binding\> element](/dotnet/framework/configure-apps/file-schema/wcf/bindings)
