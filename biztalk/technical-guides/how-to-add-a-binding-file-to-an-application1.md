@@ -15,4 +15,4 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Add a Binding File to an Application
-For information about adding a binding file to an application, see [How to Add a Binding File to an Application](https://go.microsoft.com/fwlink/?LinkId=155010) (https://go.microsoft.com/fwlink/?LinkId=155010).
+For information about adding a binding file to an application, see [How to Add a Binding File to an Application](../core/how-to-add-a-binding-file-to-an-application2.md) (https://go.microsoft.com/fwlink/?LinkId=155010).

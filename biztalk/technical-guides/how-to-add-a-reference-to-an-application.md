@@ -19,6 +19,6 @@ This topic provides information about using the BizTalk Server Administration co
 
  For information about:
 
-- Adding a reference to another application, see [How to Add a Reference to Another Application](https://go.microsoft.com/fwlink/?LinkID=155011) (https://go.microsoft.com/fwlink/?LinkID=155011).
+- Adding a reference to another application, see [How to Add a Reference to Another Application](../core/how-to-add-a-reference-to-another-application.md) (https://go.microsoft.com/fwlink/?LinkID=155011).
 
-- Adding a reference to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI application, see [How to Add a Reference to the BizTalk Server EDI Application](https://go.microsoft.com/fwlink/?LinkId=155026) (<https://go.microsoft.com/fwlink/?LinkId=155026>).
+- Adding a reference to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI application, see [How to Add a Reference to the BizTalk Server EDI Application](/previous-versions/) (<https://go.microsoft.com/fwlink/?LinkId=155026>).

@@ -82,7 +82,7 @@ at Microsoft.BizTalk.EdiInt.Reporting.AS2MessageActivity.Create()"
 ### Use the same logon for the in-process host instance and the isolated host instance to ensure that personal store is recognized
  The Personal certificate store will be available for message processing only if the user profile is loaded for the user whose logon credentials are associated with the host instance. The Personal store is used for signing and decryption certificates (the user's own private key). The user profile is loaded by default for the in-process host instance; however, the user profile is not loaded by default for the isolated host instance. You can have an application load the user profile for the isolated host. Alternatively, you can work around this issue by using the same logon for the in-process host instance and the isolated host instance.
 
- Instead of having an application load the user profile, you can create an empty service to load the profile. For more information about creating an empty service, see [How to: Create Windows Services](https://go.microsoft.com/fwlink/?LinkId=155149) (https://go.microsoft.com/fwlink/?LinkId=155149) in Visual Studio Help.
+ Instead of having an application load the user profile, you can create an empty service to load the profile. For more information about creating an empty service, see [How to: Create Windows Services](/dotnet/framework/windows-services/how-to-create-windows-services) (https://go.microsoft.com/fwlink/?LinkId=155149) in Visual Studio Help.
 
  After creating the empty service to load the profile, proceed as follows:
 

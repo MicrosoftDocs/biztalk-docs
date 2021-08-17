@@ -58,7 +58,7 @@ BizTalk Server relies heavily on SQL Server for data store and data persistence.
 > [!NOTE]  
 >  Microsoft SQL Server provides a software solution known as database mirroring for increasing the probability that a database is available. The use of SQL Server database mirroring is not currently a supported solution for ensuring high availability of the Microsoft BizTalk Server databases because of potential problems maintaining transactional consistency in the BizTalk Server databases.  
 >   
->  For more information about database mirroring and cross-database transactions in SQL Server, see [Transactions - availability groups and database mirroring](https://docs.microsoft.com/sql/database-engine/availability-groups/windows/transactions-always-on-availability-and-database-mirroring). BizTalk Server databases should be installed on a SQL Server cluster to ensure high availability and log shipping should be utilized for purposes of disaster recovery.  
+>  For more information about database mirroring and cross-database transactions in SQL Server, see [Transactions - availability groups and database mirroring](/sql/database-engine/availability-groups/windows/transactions-always-on-availability-and-database-mirroring). BizTalk Server databases should be installed on a SQL Server cluster to ensure high availability and log shipping should be utilized for purposes of disaster recovery.  
 >   
 >  For more information about log shipping, see [What Is BizTalk Server Log Shipping?](../technical-guides/what-is-biztalk-server-log-shipping.md)  
   

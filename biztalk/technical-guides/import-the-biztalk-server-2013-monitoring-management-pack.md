@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Import the BizTalk Server 2013 Monitoring Management Pack
-For instructions about how to import a management pack, see How to Import a Management Pack in [Operations Manager 2007 R2/2012](https://go.microsoft.com/fwlink/?LinkId=142351) (<https://go.microsoft.com/fwlink/?LinkId=142351>). After the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack is imported, follow these procedures to finish your initial configuration:
+For instructions about how to import a management pack, see How to Import a Management Pack in [Operations Manager 2007 R2/2012](/previous-versions/system-center/operations-manager-2007-r2/cc974494(v=technet.10)) (<https://go.microsoft.com/fwlink/?LinkId=142351>). After the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management Pack is imported, follow these procedures to finish your initial configuration:
 
 ### To configure the management pack
 

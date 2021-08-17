@@ -23,7 +23,7 @@ By default, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernov
 
 ## Increase the BizTalk Server host internal message queue size
 
-Each BizTalk host has its own internal in-memory queue. Increase the size of this queue from the default value of 100 to 1000 to improve performance for a low-latency scenario. For more information about modifying the value of the internal message queue size, see “How to Modify the Default Host Throttling Settings” in the BizTalk Server help at [https://go.microsoft.com/fwlink/?LinkID=120225](https://go.microsoft.com/fwlink/?LinkID=120225).
+Each BizTalk host has its own internal in-memory queue. Increase the size of this queue from the default value of 100 to 1000 to improve performance for a low-latency scenario. For more information about modifying the value of the internal message queue size, see “How to Modify the Default Host Throttling Settings” in the BizTalk Server help at [https://go.microsoft.com/fwlink/?LinkID=120225](/previous-versions/).
 
 ## Reduce the MaxReceiveInterval value in the adm_ServiceClass table of the BizTalk Server management database
 
