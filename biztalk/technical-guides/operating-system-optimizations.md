@@ -77,9 +77,9 @@ This topic provides recommendations for optimizing performance of the [!INCLUDE[
 
  Review the following information to configure firewall(s) for BizTalk Server:
 
--   "Required Ports for BizTalk Server" at [https://go.microsoft.com/fwlink/?LinkId=101607](https://go.microsoft.com/fwlink/?LinkId=101607).
+-   "Required Ports for BizTalk Server" at [https://go.microsoft.com/fwlink/?LinkId=101607](/previous-versions/).
 
--   ”How to configure RPC dynamic port allocation to work with firewalls” at [https://go.microsoft.com/fwlink/?LinkID=76145](https://go.microsoft.com/fwlink/?LinkID=76145).
+-   ”How to configure RPC dynamic port allocation to work with firewalls” at [https://go.microsoft.com/fwlink/?LinkID=76145](/troubleshoot/windows-server/networking/configure-rpc-dynamic-port-allocation-with-firewalls).
 
 ### Use the NTFS file system on all volumes
  [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] offers multiple file system types for formatting drives, including NTFS, FAT, and FAT32. NTFS should always be the file system of choice for servers.[!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)]
@@ -148,7 +148,7 @@ This topic provides recommendations for optimizing performance of the [!INCLUDE[
 ### Synchronize time on all servers
  Many operations involving tickets, receipts and logging rely on the local system clock being accurate. This is especially true in a distributed environment, where time discrepancies between systems may cause logs to be out of sync or tickets issued by one system to be rejected by another as expired or not yet valid.
 
- For more information on configuring a server to automatically synchronize time, see [https://go.microsoft.com/fwlink/?LinkId=99420](https://go.microsoft.com/fwlink/?LinkId=99420).
+ For more information on configuring a server to automatically synchronize time, see [https://go.microsoft.com/fwlink/?LinkId=99420](/previous-versions/windows/it-pro/windows-server-2003/cc758905(v=ws.10)).
 
 ### Configure the Windows PAGEFILE for optimal performance
  Follow these guidelines to configure the Windows PAGEFILE (paging file) for optimal performance:

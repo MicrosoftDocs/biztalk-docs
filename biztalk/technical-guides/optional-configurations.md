@@ -35,4 +35,4 @@ After you import the BizTalk Server Management Pack, the navigation pane of the 
 
    After you change the override setting, the object type will be automatically discovered and will appear in the Monitoring pane under [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
 
-   For information about setting overrides, see [Overrides in Operations Manager 2007 R2/2012](https://go.microsoft.com/fwlink/?LinkId=86870) (https://go.microsoft.com/fwlink/?LinkId=86870).
+   For information about setting overrides, see [Overrides in Operations Manager 2007 R2/2012](/previous-versions//bb381198(v=technet.10)) (https://go.microsoft.com/fwlink/?LinkId=86870).

@@ -55,21 +55,21 @@ This topic provides information on tools you can use to evaluate the performance
  The Relog utility is used to extract performance counters from logs created by Performance Monitor and convert the data into other formats, such as tab-delimited text files (text-TSV), comma-delimited text files (text-CSV), binary files, and SQL databases. This data can then be analyzed and queried using other tools, such as Log Parser, to generate statistics for key performance indicators (KPIs).
 
 ## Visual Studio - Testing the Application
- Both Microsoft Visual Studio Ultimate and Professional includes testing to help you define and manage your testing effort by using test plans. See [Testing the Application](https://docs.microsoft.com/vsts/manual-test/overview).
+ Both Microsoft Visual Studio Ultimate and Professional includes testing to help you define and manage your testing effort by using test plans. See [Testing the Application](/vsts/manual-test/overview).
 
 ## Visual Studio Profiling Tools
- The Visual Studio Profiling Tools allows you to profile custom .NET components (custom pipeline components, helper components invoked by pipelines and\or orchestrations, custom functoids). See, [Analyzing Application Performance by Using Profiling Tools](https://docs.microsoft.com/visualstudio/profiling/performance-explorer).
+ The Visual Studio Profiling Tools allows you to profile custom .NET components (custom pipeline components, helper components invoked by pipelines and\or orchestrations, custom functoids). See, [Analyzing Application Performance by Using Profiling Tools](/visualstudio/profiling/performance-explorer).
 
 ## Windows Performance Analysis Tools
 Windows Performance Tools are designed for analysis of a wide range of performance problems including application start times, boot issues, deferred procedure calls and interrupt activity (DPCs and ISRs), system responsiveness issues, application resource usage, and interrupt storms.
 
-See [Windows Performance Analysis](https://docs.microsoft.com/windows-hardware/test/weg/performance-tools).
+See [Windows Performance Analysis](/windows-hardware/test/weg/performance-tools).
 
 ## SQL Server Tools for Performance Monitoring and Tuning
- SQL Server provides several tools for monitoring events in SQL Server and for tuning the physical database design. See [Performance Monitoring and Tuning Tools](https://docs.microsoft.com/sql/relational-databases/performance/performance-monitoring-and-tuning-tools).
+ SQL Server provides several tools for monitoring events in SQL Server and for tuning the physical database design. See [Performance Monitoring and Tuning Tools](/sql/relational-databases/performance/performance-monitoring-and-tuning-tools).
 
 ### SQL Profiler
- Microsoft SQL Server Profiler can be used to capture Transact-SQL statements that are sent to SQL Server and the SQL Server result sets from these statements. Because SQL Server is tightly integrated with SQL Server, the analysis of a SQL Server Profile trace can be a useful tool for analyzing problems that may occur in BizTalk Server when reading from and writing to SQL Server databases. See [Using SQL Server Profiler](https://docs.microsoft.com/sql/tools/sql-server-profiler/sql-server-profiler-templates-and-permissions).
+ Microsoft SQL Server Profiler can be used to capture Transact-SQL statements that are sent to SQL Server and the SQL Server result sets from these statements. Because SQL Server is tightly integrated with SQL Server, the analysis of a SQL Server Profile trace can be a useful tool for analyzing problems that may occur in BizTalk Server when reading from and writing to SQL Server databases. See [Using SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler-templates-and-permissions).
 
 > [!IMPORTANT]
 >  There is considerable overhead associated with running SQL Profiler. Therefore SQL Profiler is best suited for use in test or development environments. If using SQL Profiler to troubleshoot a production environment, be aware of the associated overhead costs and limit the use of SQL Profiler accordingly.
@@ -77,16 +77,16 @@ See [Windows Performance Analysis](https://docs.microsoft.com/windows-hardware/t
 >  When using SQL Profiler to capture Transact-SQL statements, configure SQL Profiler to generate output to a local drive rather than a drive located on a remote network share or other slow device, for example, a local USB memory stick.
 
 ### SQL Trace
- SQL Server provides Transact-SQL system stored procedures to create traces on an instance of the SQL Server Database Engine. These system stored procedures can be used from within your own applications to create traces manually, instead of using SQL Server Profiler. This allows you to write custom applications specific to the needs of your enterprise. See [SQL Trace](https://docs.microsoft.com/sql/relational-databases/sql-trace/sql-trace).
+ SQL Server provides Transact-SQL system stored procedures to create traces on an instance of the SQL Server Database Engine. These system stored procedures can be used from within your own applications to create traces manually, instead of using SQL Server Profiler. This allows you to write custom applications specific to the needs of your enterprise. See [SQL Trace](/sql/relational-databases/sql-trace/sql-trace).
 
 > [!NOTE]
 >  When using SQL Trace to capture Transact-SQL statements, configure SQL Trace to generate output to a local drive rather than a drive located on a remote network share or other slow device, such as a USB flash drive.
 
 ### SQL Activity Monitor
-SQL Server Activity Monitor provides information about SQL Server processes and how these processes affect the current instance of SQL Server. See [Activity Monitor](https://docs.microsoft.com/sql/relational-databases/performance-monitor/activity-monitor), and [How to: Open Activity Monitor (SQL Server Management Studio](https://docs.microsoft.com/sql/relational-databases/performance-monitor/open-activity-monitor-sql-server-management-studio).
+SQL Server Activity Monitor provides information about SQL Server processes and how these processes affect the current instance of SQL Server. See [Activity Monitor](/sql/relational-databases/performance-monitor/activity-monitor), and [How to: Open Activity Monitor (SQL Server Management Studio](/sql/relational-databases/performance-monitor/open-activity-monitor-sql-server-management-studio).
 
 ### SQL Server Data Collection
-SQL Server provides a data collector that you can use to obtain and save data that is gathered from several sources. The data collector enables you to use data collection containers, which enable you to determine the scope and frequency of data collection on a computer that is running SQL Server. See [Data Collection](https://docs.microsoft.com/sql/relational-databases/data-collection/data-collection).
+SQL Server provides a data collector that you can use to obtain and save data that is gathered from several sources. The data collector enables you to use data collection containers, which enable you to determine the scope and frequency of data collection on a computer that is running SQL Server. See [Data Collection](/sql/relational-databases/data-collection/data-collection).
 
 ### SQLIO
  The SQLIO tool was developed by Microsoft to evaluate the I/O capacity of a given configuration. As the name of the tool implies, SQLIO is a valuable tool for measuring the impact of file system I/O on SQL Server performance. Download [SQLIO](https://www.microsoft.com/download/details.aspx?id=20163).

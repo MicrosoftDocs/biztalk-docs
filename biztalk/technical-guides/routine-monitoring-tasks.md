@@ -29,7 +29,7 @@ Performing the following monitoring tasks on a regularly scheduled basis will as
 
   - Suspend, terminate, and resume service instances.
 
-    For more information about using the **Group Hub** page, see [https://go.microsoft.com/fwlink/?LinkId=155281](https://go.microsoft.com/fwlink/?LinkId=155281).
+    For more information about using the **Group Hub** page, see [https://go.microsoft.com/fwlink/?LinkId=155281](../core/using-the-group-hub-page.md).
 
 - Review warnings (optional).
 

@@ -18,9 +18,9 @@ manager: "anneta"
 Unit testing is focused at the component level and is basically a pass/fail test that verifies if individual components of the BizTalk solution perform as expected. You have several options for unit testing your BizTalk solution.
 
 ## Using Visual Studio
- Unit testing functionality is available with Visual Studio 2008 and later. For more information about the testing functionality that is available with Visual Studio, see [Testing the Application](https://go.microsoft.com/fwlink/?LinkId=159595) (https://go.microsoft.com/fwlink/?LinkId=159595).
+ Unit testing functionality is available with Visual Studio 2008 and later. For more information about the testing functionality that is available with Visual Studio, see [Testing the Application](/azure/devops/test/overview) (https://go.microsoft.com/fwlink/?LinkId=159595).
 
- BizTalk Server also provides a unit testing feature to enable users to create unit tests for schemas, maps, and pipelines. For more information about this feature, see [Unit Testing with BizTalk Server Projects](https://go.microsoft.com/fwlink/?LinkId=158270) (https://go.microsoft.com/fwlink/?LinkId=158270).
+ BizTalk Server also provides a unit testing feature to enable users to create unit tests for schemas, maps, and pipelines. For more information about this feature, see [Unit Testing with BizTalk Server Projects](../core/unit-testing-with-biztalk-server-projects.md) (https://go.microsoft.com/fwlink/?LinkId=158270).
 
 > [!NOTE]
 >  Visual Studio is very useful for unit testing BizTalk artifacts such as orchestrations, schemas, pipelines, and pipeline components. BizTalk Server provides test classes that you can use with Visual Studio Team System to test BizTalk artifacts.
@@ -45,7 +45,7 @@ Unit testing is focused at the component level and is basically a pass/fail test
 |     XMLAsm.exe     |                                                                                                                                                                    Runs the XML assembler component, directly invoking it by emulating a send pipeline to enable you to see how it serializes, assembles, or envelopes a user's XML document(s) into an output XML document.                                                                                                                                                                    |
 |    XMLDasm.exe     |                                                                                                                                                                Runs the XML disassembler component, directly invoking it by emulating a receive pipeline to enable you to see how it parses, disassembles, or un-envelopes a user's XML document into one or more XML documents.                                                                                                                                                                |
 
- For more information about the utilities available in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK, see [Utilities in the SDK](https://go.microsoft.com/fwlink/?LinkId=154387) (<https://go.microsoft.com/fwlink/?LinkId=154387>).
+ For more information about the utilities available in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] SDK, see [Utilities in the SDK](../core/utilities-in-the-sdk.md) (<https://go.microsoft.com/fwlink/?LinkId=154387>).
 
 ## See Also
  [Tools for Testing](~/technical-guides/tools-for-testing.md)
