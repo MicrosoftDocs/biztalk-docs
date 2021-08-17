@@ -40,7 +40,7 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] exposes the Or
   
 -   [What Operations Can be Performed Using the Adapter?](https://msdn.microsoft.com/library/cc185259(v=bts.10).aspx)  
   
--   [How does the Adapter Handle Transactions?](https://msdn.microsoft.com/library/dd788428.aspx)  
+-   [How does the Adapter Handle Transactions?](../adapter-oracle-ebs/handle-transactions-with-the-oracle-e-business-suite-adapter.md)  
   
 -   [Streaming Support for LOB Data Types in Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/streaming-support-for-lob-data-types-in-oracle-database.md)  
   

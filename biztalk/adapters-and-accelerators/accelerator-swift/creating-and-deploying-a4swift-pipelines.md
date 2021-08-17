@@ -93,6 +93,6 @@ Perform the following steps to create and deploy SWIFT pipelines for message rep
 8. Right click the pipelines project, and then click **Build**.  
 
    > [!NOTE]
-   >  During the compilation process, you should not see any failures. If you do, check the source of the error, correct it and then re-build the project. You may, however, see warnings. You can correct the condition leading to the warnings. For more information, see "Building a pipeline project may result in warnings" in [Miscellaneous Known Issues](https://msdn.microsoft.com/library/bc94c781-2a56-4f80-8ecb-e654de2f6ed6).  
+   >  During the compilation process, you should not see any failures. If you do, check the source of the error, correct it and then re-build the project. You may, however, see warnings. You can correct the condition leading to the warnings. For more information, see "Building a pipeline project may result in warnings" in [Miscellaneous Known Issues](/previous-versions/).  
 
 9. Right click the pipelines project, and then click **Deploy**.

@@ -29,7 +29,7 @@ This section provides guidelines on configuring the BizTalk Messaging servers.
 
    - How To Use DTCTester Tool, located at [https://go.microsoft.com/fwlink/?linkid=48871](https://go.microsoft.com/fwlink/?linkid=48871).
 
-   - If DTC is behind a firewall, see "Configuring Microsoft Distributed Transaction Coordinator (DTC) to Work Through a Firewall", located at [https://go.microsoft.com/fwlink/?linkid=48872](https://go.microsoft.com/fwlink/?linkid=48872).
+   - If DTC is behind a firewall, see "Configuring Microsoft Distributed Transaction Coordinator (DTC) to Work Through a Firewall", located at [https://go.microsoft.com/fwlink/?linkid=48872](/troubleshoot/windows-server/application-management/configure-dtc-to-work-through-firewalls).
 
 2. Configure and verify Network Load Balancing on the BizTalk receive servers as described in [Step 2: Configuring NLB on the Servers](../../adapters-and-accelerators/accelerator-swift/step-2-configuring-nlb-on-the-servers.md).
 

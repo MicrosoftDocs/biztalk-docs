@@ -28,7 +28,7 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports the O
   grant change notification to <user name>
   ```
 
-- Decide on a TCP port that can be used by ODP.NET to receive database change notifications from Oracle database. Add the TCP port to Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](https://go.microsoft.com/fwlink/?LinkID=196959). You must provide the same TCP port number for the **NotificationPort** binding property. For more information about the binding property, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx).
+- Decide on a TCP port that can be used by ODP.NET to receive database change notifications from Oracle database. Add the TCP port to Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](/previous-versions/orphan-topics/ws.11/cc753558(v=ws.11)). You must provide the same TCP port number for the **NotificationPort** binding property. For more information about the binding property, see [Working with binding properties](./read-about-the-oracle-database-adapter-binding-properties.md).
 
   A typical database change notification using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] involves the following:
 
@@ -57,7 +57,7 @@ The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] supports the O
 
  For more information about:
 
-- The binding properties related to the Notification operation, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx).
+- The binding properties related to the Notification operation, see [Working with binding properties](./read-about-the-oracle-database-adapter-binding-properties.md).
 
 - How to use the Notification operation in [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Receiving Oracle Database Change Notifications Using BizTalk Server](../../adapters-and-accelerators/adapter-oracle-database/receive-oracle-database-change-notifications-using-biztalk-server.md).
 
