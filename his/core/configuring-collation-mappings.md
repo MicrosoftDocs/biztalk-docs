@@ -63,4 +63,4 @@ SELECT * FROM [CONTOSO].[DSN8910].[DEPT] ORDER BY DEPTNAME COLLATE SQL_EBCDIC037
 ## Mapping to Collation Name  
  The **to** attribute instructs the DRDA Service SQL Transformer to convert to the specified collation_name string within a SQL Server SELECT ORDER BY COLLATE clause. This **required** attribute accepts a **string** value. There is no default value.  
   
- For more information, see [SQL Server COLLATE](https://docs.microsoft.com/sql/t-sql/statements/collations).
+ For more information, see [SQL Server COLLATE](/sql/t-sql/statements/collations).

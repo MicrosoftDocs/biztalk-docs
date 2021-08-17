@@ -17,7 +17,7 @@ manager: "anneta"
 # Supported Configurations
 Generally, the supported configurations for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Monitoring Management Pack are outlined in the following locations:
 
-- [Operations Manager 2007 R2/2012 Supported Configurations](https://go.microsoft.com/fwlink/?LinkId=90676)
+- [Operations Manager 2007 R2/2012 Supported Configurations](/previous-versions/system-center/operations-manager-2007-r2/bb309428(v=technet.10))
 
 - [Microsoft Support Life-Cycle policy](https://go.microsoft.com/fwlink/?LinkId=123820)
 
