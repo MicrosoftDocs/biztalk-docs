@@ -5,7 +5,7 @@ TOCTitle: MSBTS_GroupSetting (WMI)
 ms:assetid: bb440da1-b650-4345-80d5-949bcc774b5f
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa578341(v=BTS.80)
 ms:contentKeyID: 51530817
-ms.date: 08/30/2017
+ms.date: 09/13/2021
 mtps_version: v=BTS.80
 ---
 
@@ -30,50 +30,82 @@ class MSBTS\_GroupSetting : MSBTS\_Setting
 <th>Description</th>
 </tr>
 </thead>
-<tbody>
+<tbody>  
 <tr class="odd">
+<td><a href="msbts-groupsetting-allowtrackingsettingsimport-property-wmi.md">AllowTrackingSettingsImport</a></td>
+<td>Gets or sets whether tracking settings will be imported while importing binding files. Available BizTalk Server 2016 onwards.</td>
+</tr>
+<tr class="even">
+<td>AnalyticsEnabled</td>
+<td>Enables or disables analytics for the BizTalk group. Please see <a href="../../how-to-modify-group-settings.md">how to modify group settings</a> for more details.</td>
+</tr>
+<tr class="odd">
+<td>AnalyticsTargetProviderConfig</td>
+<td>This property is used to configure the analytics target when analytics is enabled. Please see <a href="../../how-to-modify-group-settings.md">how to modify group settings</a> for more details.</td>
+</tr>
+<tr class="even">
+<td>AnalyticsTargetProviderId</td>
+<td>This property is used to configure the analytics target when analytics is enabled. Please see <a href="../../how-to-modify-group-settings.md">how to modify group settings</a> for more details.</td>
+</tr>
+<tr class="odd">
+<td><a href="msbts-groupsetting-auditingenabled-property-wmi.md">AuditingEnabled</a></td>
+<td>Enables or disables auditing for the BizTalk group. Available BizTalk Server 2020 onwards.</td>
+</tr>
+<tr class="even">
 <td><a href="msbts-groupsetting-bamdbname-property-wmi.md">BamDBName</a></td>
 <td>Gets or sets the name of the BAM SQL database.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="msbts-groupsetting-bamdbservername-property-wmi.md">BamDBServerName</a></td>
 <td>Gets or sets the name of the SQL server where BAM database is located.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="msbts-groupsetting-biztalkadministratorgroup-property-wmi.md">BizTalkAdministratorGroup</a></td>
-<td>Gets the name of the BizTalk Administrator Microsoft® Windows NT® Group.</td>
+<td>Gets the name of the BizTalk Administrator Windows Group.</td>
+</tr>
+<tr class="odd">
+<td><a href="msbts-groupsetting-biztalkb2boperatorgroup-property-wmi.md">BizTalkB2BOperatorGroup</a></td>
+<td>Gets the name of the BizTalk B2B Operators Windows Group.</td>
+</tr>
+<tr class="even">
+<td><a href="msbts-groupsetting-biztalkoperatorgroup-property-wmi.md">BizTalkOperatorGroup</a></td>
+<td>Gets the name of the BizTalk Operators Windows Group.</td>
+</tr>
+<tr class="odd">
+<td><a href="msbts-groupsetting-biztalkreadonlyusergroup-property-wmi.md">BizTalkReadOnlyUserGroup</a></td>
+<td>Gets the name of the BizTalk ReadOnly User Windows Group.</td>
 </tr>
 <tr class="even">
 <td>Caption (Inherited from <strong>CIM_Setting</strong>)</td>
 <td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=83193">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
 </tr>
 <tr class="odd">
-<td><a href="msbts-groupsetting-biztalkoperatorgroup-property-wmi.md">MSBTS_GroupSetting.BizTalkOperatorGroup Property (WMI)</a></td>
-<td>This property is the name of the BizTalk Operators Windows Group.</td>
-</tr>
-<tr class="even">
 <td><a href="msbts-groupsetting-configurationcacherefreshinterval-property-wmi.md">ConfigurationCacheRefreshInterval</a></td>
 <td>Gets or sets how often BizTalk Server refreshes the cache of the messaging configuration objects, in seconds.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Description (Inherited from <strong>CIM_Setting</strong>)</td>
 <td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=83193">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="msbts-groupsetting-globaltrackingoption-property-wmi.md">GlobalTrackingOption</a></td>
 <td>Gets the level of tracking that the BizTalk server should perform.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="msbts-groupsetting-lmsfragmentsize-property-wmi.md">LMSFragmentSize</a></td>
 <td>Gets or sets the fragment size, in bytes, for large message support.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="msbts-groupsetting-lmsthreshold-property-wmi.md">LMSThreshold</a></td>
 <td>Gets the threshold size, in bytes, for large message support.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="msbts-groupsetting-majorversion-property-wmi.md">MajorVersion</a></td>
 <td>Gets the major version number of the BizTalk Server installed. For internal use only.</td>
+</tr>
+<tr class="odd">
+<td><a href="msbts-groupsetting-maxauditentries-property-wmi.md">MaxAuditEntries</a></td>
+<td>Gets or sets the maximum number of entries in  audit log table when <strong>AuditingEnabled</strong> is set to TRUE. Available BizTalk Server 2020 onwards.</td>
 </tr>
 <tr class="even">
 <td><a href="msbts-groupsetting-mgmtdbname-property-wmi.md">MgmtDbName</a></td>
@@ -92,54 +124,66 @@ class MSBTS\_GroupSetting : MSBTS\_Setting
 <td>Gets the name of the group.</td>
 </tr>
 <tr class="even">
+<td><a href="msbts-groupsetting-perfcountercacherefreshinterval-property-wmi.md">PerfCounterCacheRefreshInterval</a></td>
+<td>Gets or sets the interval at which performance counters are refreshed, in seconds.</td>
+</tr>
+<tr class="odd">
+<td><a href="msbts-groupsetting-receiverfaulttoleranceenabled-property-wmi.md">ReceiverFaultToleranceEnabled</a></td>
+<td>Enables or disables receive location fault tolerance. Available BizTalk Server 2020 onwards.</td>
+</tr>
+<tr class="even">
+<td><a href="msbts-groupsetting-receiverfaulttoleranceretryinterval-property-wmi.md">ReceiverFaultToleranceRetryInterval</a></td>
+<td>Gets or sets how often the server attempts to recover receive location from failures when <strong>ReceiverFaultToleranceEnabled</strong> is set to TRUE. Available BizTalk Server 2020 onwards.</td>
+</tr>
+<tr class="odd">
 <td><a href="msbts-groupsetting-ruleenginedbname-property-wmi.md">RuleEngineDBName</a></td>
 <td>Gets or sets the name of the RuleEngine SQL Server database.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="msbts-groupsetting-ruleenginedbservername-property-wmi.md">RuleEngineDBServerName</a></td>
 <td>Gets or sets the name of the SQL server where RuleEngine database is located.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>SettingID (Inherited from <strong>CIM_Setting</strong>)</td>
 <td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=83193">https://go.microsoft.com/fwlink/?LinkID=83193</a>.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="msbts-groupsetting-signcertcomment-property-wmi.md">SignCertComment</a></td>
 <td>Gets or sets a comment field that can be use to associate some friendly name with a signing certificate.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="msbts-groupsetting-signcertthumbprint-property-wmi.md">SignCertThumbprint</a></td>
 <td>Gets or sets the thumbprint of the signing certificate used to sign outbound documents sent by any host in the group.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="msbts-groupsetting-ssoservername-property-wmi.md">SSOServerName</a></td>
 <td>Gets the name of the machine where Single Sign On (SSO) server resides on.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="msbts-groupsetting-subscriptiondbname-property-wmi.md">SubscriptionDBName</a></td>
 <td>Gets the name of the master subscription SQL database.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="msbts-groupsetting-subscriptiondbservername-property-wmi.md">SubscriptionDBServerName</a></td>
 <td>Gets the name of the server running Microsoft® SQL Server™ where the master subscription database is located.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="msbts-groupsetting-trackinganalysisdbname-property-wmi.md">TrackingAnalysisDBName</a></td>
 <td><strong>Warning:</strong> This property has been deprecated in BizTalk Server.<br />
 <br />
 Gets or sets the name of the tracking SQL analysis database.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="msbts-groupsetting-trackinganalysisdbservername-property-wmi.md">TrackingAnalysisDBServerName</a></td>
 <td><strong>Warning:</strong> This property has been deprecated in BizTalk Server.<br />
 <br />
 Contains the name of the tracking SQL analysis server.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="msbts-groupsetting-trackingdbname-property-wmi.md">TrackingDBName</a></td>
 <td>Gets the name of the tracking SQL database.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="msbts-groupsetting-trackingdbservername-property-wmi.md">TrackingDBServerName</a></td>
 <td>Gets the name of the server running SQL Server where the tracking database is located.</td>
 </tr>
