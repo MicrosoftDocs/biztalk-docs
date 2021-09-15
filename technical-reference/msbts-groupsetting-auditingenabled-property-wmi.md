@@ -11,7 +11,7 @@ ms.date: 09/13/2021
 
 Enables or disables auditing for the BizTalk group. 
 
-Available starting with BizTalk Server 2020. For more information, see [enable and view audit logs of common management operations in BizTalk Server](../biztalk/core/audit-management-operations.md).
+Available starting with BizTalk Server 2020. For more information, see [enable and view audit logs of common management operations in BizTalk Server](/biztalk/core/audit-management-operations).
 
 The syntax shown is language neutral.
 
