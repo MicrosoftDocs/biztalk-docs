@@ -32,4 +32,4 @@ The default value for this property is TRUE.
 
 **Header:** Declared in BTSWMISchema2K.mof or BTSWMISchemaXP.mof.
 
-**Namespace:** Included in \\root\\MicrosoftBizTalkServer.
+**Namespace:** Included in `root\MicrosoftBizTalkServer`.
