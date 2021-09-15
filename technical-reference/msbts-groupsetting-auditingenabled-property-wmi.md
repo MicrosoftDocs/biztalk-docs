@@ -11,7 +11,7 @@ ms.date: 09/13/2021
 
 Enables or disables auditing for the BizTalk group. 
 
-Available BizTalk Server 2020 onwards. Please see how to [enable and view audit logs of common management operations in BizTalk Server](../audit-management-operations.md) for further details.
+Available starting with BizTalk Server 2020. For more information, see [enable and view audit logs of common management operations in BizTalk Server](../biztalk/core/audit-management-operations.md).
 
 The syntax shown is language neutral.
 
@@ -32,4 +32,4 @@ The default value for this property is FALSE.
 
 **Header:** Declared in BTSWMISchema2K.mof or BTSWMISchemaXP.mof.
 
-**Namespace:** Included in \\root\\MicrosoftBizTalkServer.
+**Namespace:** Included in `\\root\\MicrosoftBizTalkServer`.
