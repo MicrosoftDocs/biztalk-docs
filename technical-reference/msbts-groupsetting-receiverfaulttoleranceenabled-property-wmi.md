@@ -11,7 +11,7 @@ ms.date: 09/13/2021
 
 Enables or disables receive location fault tolerance.
 
-Available BizTalk Server 2020 onwards. Please see how to [enable receive location fault tolerance](../how-to-enable-receive-location-fault-tolerance.md) for further details.
+Available starting with BizTalk Server 2020. For more information, see [how to enable receive location fault tolerance](../biztalk/core/how-to-enable-receive-location-fault-tolerance.md).
 
 The syntax shown is language neutral.
 
