@@ -122,6 +122,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
   Supported versions:
 
   - WinSCP version 5.15.4. Download at [WinSCP](http://winscp.net).
+  - BizTalk Server 2020 with CU1 or CU2 - WinSCP version 5.17.6
 
 - **MQSeries adapter**: Optional. Required only when using IBM WebSphere MQ.
 
