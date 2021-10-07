@@ -24,7 +24,7 @@ To identify bottlenecks in the MessageBox database, first ensure that the SQL-Se
 
 - BizTalk:Message Agent (Host Name) Message Publishing Throttling State
 
-  A value of “0” indicates no throttling is occurring. A value of “6” indicates the system is throttling due to database growth. For information about how to interpret the values of these counters, see [What is Host Throttling?](https://go.microsoft.com/fwlink/?LinkID=154694) (https://go.microsoft.com/fwlink/?LinkID=154694) and [Host Throttling Performance Counters](https://go.microsoft.com/fwlink/?LinkID=155285) (https://go.microsoft.com/fwlink/?LinkID=155285) in the BizTalk Server 2010 documentation.
+  A value of “0” indicates no throttling is occurring. A value of “6” indicates the system is throttling due to database growth. For information about how to interpret the values of these counters, see [What is Host Throttling?](../core/what-is-host-throttling.md) (https://go.microsoft.com/fwlink/?LinkID=154694) and [Host Throttling Performance Counters](../core/host-throttling-performance-counters.md) (https://go.microsoft.com/fwlink/?LinkID=155285) in the BizTalk Server 2010 documentation.
 
 ## Spool table growth
  The Spool can start growing for multiple reasons. One reason for Spool growth is if the Application Queues are growing. They could grow due to reasons such as downstream bottlenecks and/or resource contention.
@@ -64,7 +64,7 @@ To identify bottlenecks in the MessageBox database, first ensure that the SQL-Se
  If the data still builds up, ensure the BizTalk Tracking database is not growing out of control. Also, ensure the archiving and purging job is running and is able to keep up with the rate at which data is arriving.
 
 > [!NOTE]
->  By default, the purge job is unable to delete data from the BizTalk Tracking database tables until this data has been archived. If you do not need to archive the tracking data, you can modify the job to purge the BizTalk Tracking database without archiving by following the steps at [How to Purge Data from the BizTalk Tracking Database](https://go.microsoft.com/fwlink/?LinkID=153817) (https://go.microsoft.com/fwlink/?LinkID=153817).
+>  By default, the purge job is unable to delete data from the BizTalk Tracking database tables until this data has been archived. If you do not need to archive the tracking data, you can modify the job to purge the BizTalk Tracking database without archiving by following the steps at [How to Purge Data from the BizTalk Tracking Database](../core/how-to-purge-data-from-the-biztalk-tracking-database.md) (https://go.microsoft.com/fwlink/?LinkID=153817).
 
 ## See Also
  [Bottlenecks in the Database Tier](../technical-guides/bottlenecks-in-the-database-tier.md)

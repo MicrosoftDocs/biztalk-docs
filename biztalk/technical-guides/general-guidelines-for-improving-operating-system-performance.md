@@ -31,7 +31,7 @@ The following general guidelines should be followed to improve operating system 
 ## Enable the “High performance” Power Plan on all BizTalk Server and SQL Server computers.
  By default, Windows Server 2008/2008 R2 sets the Balanced (recommended) power plan, which enables energy conservation, but can cause increased latency (slower response time for some tasks) and cause performance issues with CPU-intensive applications.
 
- In order to reduce latency, you must ensure that all the servers that are running BizTalk Server and SQL Server have the Windows **Power plan** set to **High performance**. For more information about how to switch to the **High Performance**  power plan, see KB article: 2207548 [Degraded overall performance on Windows Server 2008 R2](https://go.microsoft.com/fwlink/?LinkID=219677) (https://go.microsoft.com/fwlink/?LinkID=219677).
+ In order to reduce latency, you must ensure that all the servers that are running BizTalk Server and SQL Server have the Windows **Power plan** set to **High performance**. For more information about how to switch to the **High Performance**  power plan, see KB article: 2207548 [Degraded overall performance on Windows Server 2008 R2](/troubleshoot/windows-server/performance/slow-performance-when-using-power-plan) (https://go.microsoft.com/fwlink/?LinkID=219677).
 
 ## Evaluate the usage of Intel Hyper-Threading on BizTalk Server and SQL Server computers
 
@@ -48,7 +48,7 @@ The following general guidelines should be followed to improve operating system 
 ## Assign the MSDTC log file directory to a separate dedicated drive
  In a BizTalk Server environment with multiple MessageBox databases on separate SQL Server computers, additional overhead associated with Microsoft Distributed Transaction Coordinator (MSDTC) is incurred. By default the MSDTC log files are located in the %systemdrive%\windows\system32\msdtc directory of the computers running the DTC service. To mitigate the possibility that DTC logging could become a performance bottleneck, consider moving the MSDTC log file directory to a fast disk drive.
 
- To change the MSDTC log file directory, see [Configure DTC Logging](https://go.microsoft.com/fwlink/?LinkID=204107) (https://go.microsoft.com/fwlink/?LinkID=204107).
+ To change the MSDTC log file directory, see [Configure DTC Logging](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731659(v=ws.11)) (https://go.microsoft.com/fwlink/?LinkID=204107).
 
 ## Configure antivirus software to avoid real-time scanning of BizTalk Server executables and file drops
  Antivirus software real-time scanning of BizTalk Server executable files and any folders or file shares monitored by BizTalk Server receive locations can negatively affect BizTalk Server performance. If antivirus software is installed on the BizTalk Server computer, disable real-time scanning of non-executable file types referenced by any BizTalk Server receive locations (usually .XML, but can also be .csv, .txt, etc.) and configure antivirus software to exclude scanning of BizTalk Server executable files
@@ -127,9 +127,9 @@ The following general guidelines should be followed to improve operating system 
 
  Review the following information to configure firewall(s) for BizTalk Server:
 
-- [Required Ports for BizTalk Server](https://go.microsoft.com/fwlink/?LinkID=153238) (https://go.microsoft.com/fwlink/?LinkID=153238).
+- [Required Ports for BizTalk Server](../core/required-ports-for-biztalk-server.md) (https://go.microsoft.com/fwlink/?LinkID=153238).
 
-- To configure RPC dynamic port allocation to work with firewalls, see Knowledge Base article 929851, ["The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008"](https://go.microsoft.com/fwlink/?LinkID=204568) ( HYPERLINK "<https://go.microsoft.com/fwlink/?LinkID=204568>" <https://go.microsoft.com/fwlink/?LinkID=204568>). For information about how to configure Windows Firewall to accommodate the necessary ports, see [Windows Firewall and IPsec Policy Deployment Step-by-Step Guide](https://go.microsoft.com/fwlink/?LinkID=204569) (<https://go.microsoft.com/fwlink/?LinkID=204569>).
+- To configure RPC dynamic port allocation to work with firewalls, see Knowledge Base article 929851, ["The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008"](/troubleshoot/windows-server/networking/default-dynamic-port-range-tcpip-chang) ( HYPERLINK "<https://go.microsoft.com/fwlink/?LinkID=204568>" <https://go.microsoft.com/fwlink/?LinkID=204568>). For information about how to configure Windows Firewall to accommodate the necessary ports, see [Windows Firewall and IPsec Policy Deployment Step-by-Step Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732400(v=ws.10)) (<https://go.microsoft.com/fwlink/?LinkID=204569>).
 
 ## Install appropriate COM+ and MSDTC hotfix rollup packages
  Review the following information to install the appropriate COM+ and MS DTC hotfix rollup packages:
@@ -156,7 +156,7 @@ Interrupt-Affinity Policy Tool
 
  On Windows Server 2008 based multiprocessor computers, the default behavior of the interrupt controller is to assign device interrupts to any available processor. When network connections and file server sessions for a given network adapter are bound/partitioned to run on a specific set of processors, rather than any available processor, the performance and scalability of the associated network processing is improved. Large BizTalk Server solutions often employ the use of multi-processor SQL Server computers with multiple network adapters for which interrupt-binding may be particularly beneficial.
 Interrupt-binding using IntPolicy should always be evaluated in a test environment before employing in a production environment. The hardware, operating system and application configuration of the test environment should approximate the production environment as closely as possible. This will allow you to test various permutations of interrupt-binding and determine the extent that interrupt-binding will increase performance.
- We recommend that you disable hyper-threading before configuring IntPolicy on a computer with CPUs that supports hyper-threading. This will ensure that interrupts are assigned to physical processors rather than logical processors. Assigning interrupt affinity to logical processors that refer to the same physical processor will not increase performance and could even degrade system performance.    HYPERLINK "The" The [Interrupt-Affinity Policy Tool](https://go.microsoft.com/fwlink/?LinkID=204111) (https://go.microsoft.com/fwlink/?LinkID=204111) is available for download from the WHDC website.
+ We recommend that you disable hyper-threading before configuring IntPolicy on a computer with CPUs that supports hyper-threading. This will ensure that interrupts are assigned to physical processors rather than logical processors. Assigning interrupt affinity to logical processors that refer to the same physical processor will not increase performance and could even degrade system performance.    HYPERLINK "The" The [Interrupt-Affinity Policy Tool](/windows-hardware/drivers/kernel/pnp-driver-design-guidelines) (https://go.microsoft.com/fwlink/?LinkID=204111) is available for download from the WHDC website.
 
 ## Use the NTFS file system on all volumes
  Windows Server offers multiple file system types for formatting drives, including NTFS, FAT, and FAT32. NTFS should always be the file system of choice for servers.
@@ -284,7 +284,7 @@ To disable Windows Server 2008 services that are not required for a dedicated Bi
 ## Synchronize time on all servers
  Many operations involving tickets, receipts and logging rely on the local system clock being accurate. This is especially true in a distributed environment, where time discrepancies between systems may cause logs to be out of sync or tickets issued by one system to be rejected by another as expired or not yet valid.
 
- For more information on configuring a server to automatically synchronize time, see [Configure a client computer for automatic domain time synchronization](https://go.microsoft.com/fwlink/?LinkId=99420) (https://go.microsoft.com/fwlink/?LinkId=99420).
+ For more information on configuring a server to automatically synchronize time, see [Configure a client computer for automatic domain time synchronization](/previous-versions/windows/it-pro/windows-server-2003/cc758905(v=ws.10)) (https://go.microsoft.com/fwlink/?LinkId=99420).
 
 ## Configure the Windows PAGEFILE for optimal performance
  Follow these guidelines to configure the Windows PAGEFILE (paging file) for optimal performance:

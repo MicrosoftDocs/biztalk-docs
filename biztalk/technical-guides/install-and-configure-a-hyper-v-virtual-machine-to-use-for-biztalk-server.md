@@ -18,9 +18,9 @@ manager: "anneta"
 This topic provides recommendations for installing and configuring BizTalk Server in a Hyper-V environment, including recommendations for installation and configuration of the Hyper-V virtual machine and recommendations for installing BizTalk Server on a Hyper-V virtual machine.
 
 ## Installing and Configuring Hyper-V
- Before installing Hyper-V, see [What's New in Hyper-V in Windows Server 2008 R2](https://go.microsoft.com/fwlink/?LinkID=202427). The “Microsoft Hyper-V Server 2008 R2 Getting Started” guide provides details about how to install and configure [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V. The guide is available at [https://go.microsoft.com/fwlink/?LinkID=202431](https://go.microsoft.com/fwlink/?LinkID=202431).
+ Before installing Hyper-V, see [What's New in Hyper-V in Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd446676(v=ws.10)). The “Microsoft Hyper-V Server 2008 R2 Getting Started” guide provides details about how to install and configure [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V. The guide is available at [https://go.microsoft.com/fwlink/?LinkID=202431](https://go.microsoft.com/fwlink/?LinkID=202431).
 
- “The Performance Tuning Guidelines for Windows Server 2008 R2” document provides details on tuning [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] and includes a section specifically focused on Hyper-V. The document is available at [https://go.microsoft.com/fwlink/?LinkID=202087](https://go.microsoft.com/fwlink/?LinkID=202087).
+ “The Performance Tuning Guidelines for Windows Server 2008 R2” document provides details on tuning [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] and includes a section specifically focused on Hyper-V. The document is available at [https://go.microsoft.com/fwlink/?LinkID=202087](/windows-server/administration/performance-tuning/).
 
 ### Hyper-V Platform Prerequisites
  Hyper-V is a server role available for 64-bit and all editions of  [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] are 64-bit only. Additionally, the physical hardware must support hardware assisted virtualization. This means the processor must be compatible with Intel Virtualization Technology (Intel VT) or AMD Virtualization (AMD-V) technology, the system BIOS must support Data Execution Prevention (DEP), and DEP must be enabled. Specifically, you must enable the Intel XD bit (execute disable bit) or AMD NX bit (no execute bit).
@@ -57,7 +57,7 @@ This topic provides recommendations for installing and configuring BizTalk Serve
 |     **Differencing disks**      | This a parent-child configuration where the differencing disk stores all changes relative to a base VHD and the base VHD remains static. Therefore only the blocks which are different from the parent need to be stored in the child differencing VHD.  |  Performance can degrade because read/writes need to access the fixed/dynamic parent VHD as well as the differencing disk. This increases CPU utilization and disk I/O overhead.  |  A large amount of machine specific configuration is required for BizTalk Server installations and child VHD files may grow substantially which would minimize the benefits of using this disk configuration. Reading from multiple VHD’s in this scenario incurs additional CPU and disk I/O overhead.  |
 |      **Passthrough disks**      | These are physical disks which are set to *offline* in the root partition and enable Hyper-V to have exclusive read-write access to the physical disk.  |  Requires a fully dedicated disk or LUN in order for it to be allocated to a virtual machine.<br /><br /> A physical disk is more difficult to move between machines than VHD files.  | If your [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance is running on a Hyper-V, you may obtain incremental performance improvements by using passthrough disks over using fixed virtual hard disks (VHD) for the BizTalk Server data volumes.<br /><br /> If you are hosting local file receive locations on BizTalk Server or streaming large messages to disk during processing, you may obtain incremental performance improvements using passthrough disks over using fixed virtual hard disks (VHD). |
 
- For more information about implementing disks and storage with Hyper-V see [Implementing Disks and Storage](https://go.microsoft.com/fwlink/?LinkID=142362) (https://go.microsoft.com/fwlink/?LinkID=142362).
+ For more information about implementing disks and storage with Hyper-V see [Implementing Disks and Storage](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd183729(v=ws.10)) (https://go.microsoft.com/fwlink/?LinkID=142362).
 
 ##### Networking
  BizTalk Server tends to exhibit high network utilization. Therefore, when network performance is an issue, consider allocating a separate physical network card for each virtual machine.
@@ -117,7 +117,7 @@ This topic provides recommendations for installing and configuring BizTalk Serve
 - Less than 5% of free memory available = Critical, performance will be adversely affected
 
 #### Choosing Root Operating System Version
- Hyper-V is supported on a Server Core as well as a full installation of [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. To minimize the overhead of the root partition, install Hyper-V on a Server Core installation of [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. The Hyper-V role can be managed remotely from the Hyper-V Manager on a different system. Server Core provides a smaller disk and memory profile, therefore, leaving more resources available for virtual machines. For more information about the Server Core installation option available for [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], see [https://go.microsoft.com/fwlink/?LinkID=202439](https://go.microsoft.com/fwlink/?LinkID=202439).
+ Hyper-V is supported on a Server Core as well as a full installation of [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. To minimize the overhead of the root partition, install Hyper-V on a Server Core installation of [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. The Hyper-V role can be managed remotely from the Hyper-V Manager on a different system. Server Core provides a smaller disk and memory profile, therefore, leaving more resources available for virtual machines. For more information about the Server Core installation option available for [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], see [https://go.microsoft.com/fwlink/?LinkID=202439](/previous-versions/windows/desktop/legacy/ee391631(v=vs.85)).
 
  If you choose to use a full installation of [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], ensure that the root partition is dedicated only to the Hyper-V server role. Running additional server roles will consume memory, disk, processor, and network resources and will degrade performance.
 
@@ -134,7 +134,7 @@ This topic provides recommendations for installing and configuring BizTalk Serve
 
 - How will I install the operating system onto the machine?
 
-  For more information about how to create and configure virtual machines, see [Create Virtual Machines](https://go.microsoft.com/fwlink/?LinkID=202440).
+  For more information about how to create and configure virtual machines, see [Create Virtual Machines](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772480(v=ws.11)).
 
 ##### Installing the Base Operating System
  All the options available for a physical server installation are available in Hyper-V. A bootable CD/DVD-ROM media or an ISO image can be used to perform a manual installation. A network installation can be performed if the virtual machine has been configured with a network adapter connected to the same network as a server that hosts the ISO images.
@@ -154,7 +154,7 @@ This topic provides recommendations for installing and configuring BizTalk Serve
   > [!NOTE]
   >  With BizTalk Server, it is possible to run Sysprep against a base image *after*BizTalk Server has been installed and configured on the server. This can be accomplished through the use of a Sysprep answer file and scripts provided with BizTalk Server. These sample scripts are designed for use with BizTalk Server installed on   [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] . For more information see the BizTalk Server online documentation.
   >
-  >  The Unattended Windows Setup Reference is available at [https://go.microsoft.com/fwlink/?LinkId=142364](https://go.microsoft.com/fwlink/?LinkId=142364).
+  >  The Unattended Windows Setup Reference is available at [https://go.microsoft.com/fwlink/?LinkId=142364](/previous-versions/windows/it-pro/windows-vista/cc722187(v=ws.10)).
 
 - Follow the recommendations in the “When Installing and Configuring BizTalk Server…” section of the topic [Checklist: Best Practices for Installing and Configuring BizTalk Server on Hyper-V](../technical-guides/checklist-best-practices-to-install-and-configure-biztalk-server-on-hyper-v.md).
 

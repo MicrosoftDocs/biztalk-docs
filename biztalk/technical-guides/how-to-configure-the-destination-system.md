@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Configure the Destination System
-For information about configuring the destination system for log shipping, see [How to Configure the Destination System for Log Shipping](https://go.microsoft.com/fwlink/?LinkId=151402) (https://go.microsoft.com/fwlink/?LinkId=151402) in BizTalk Server Help.
+For information about configuring the destination system for log shipping, see [How to Configure the Destination System for Log Shipping](../core/how-to-configure-the-destination-system-for-log-shipping.md) (https://go.microsoft.com/fwlink/?LinkId=151402) in BizTalk Server Help.
 
 ## See Also
  [What Is BizTalk Server Log Shipping?](../technical-guides/what-is-biztalk-server-log-shipping.md)

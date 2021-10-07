@@ -19,7 +19,7 @@ manager: "anneta"
 BizTalk Server is designed as a persistent system. For high throughput scenarios, the MessageBox and BizTalk Tracking databases can experience severe contention. This contention can be aggravated by slow disks. If the disks are slow (greater than 15ms on average for Avg. Disk sec/Read or Avg. Disk sec/Write), it may cause SQL Server to hold onto locks longer (high Lock Wait Time and high Lock Timeouts). This, in turn, can cause the MessageBox tables (Spool and Application Queues) to grow, causing database bloat and throttling. This situation ultimately results in lower overall sustainable throughput.
 
 > [!NOTE]
-> For information about identifying if a server has a disk bottleneck, see [Windows Performance Monitor](https://go.microsoft.com/fwlink/?LinkID=204007) (https://go.microsoft.com/fwlink/?LinkID=204007). Windows Performance Monitor is a Microsoft Management Console (MMC) snap-in that provides tools for analyzing system performance.
+> For information about identifying if a server has a disk bottleneck, see [Windows Performance Monitor](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749154(v=ws.11)) (https://go.microsoft.com/fwlink/?LinkID=204007). Windows Performance Monitor is a Microsoft Management Console (MMC) snap-in that provides tools for analyzing system performance.
 
  To avoid disk contention, do the following:
 
@@ -35,15 +35,15 @@ BizTalk Server is designed as a persistent system. For high throughput scenarios
 |Optimize the MessageBox database for read and write operations.|[How to Identify Bottlenecks in the MessageBox Database1](../technical-guides/how-to-identify-bottlenecks-in-the-messagebox-database1.md)|
 |If a BizTalk host instance is saturating the CPU, consider separating sending, receiving, processing, and tracking functionality into multiple hosts. This configures the system so that the orchestration functionality runs on a separate dedicated server to improve overall system throughput.|[Optimizing BizTalk Server Performance](../technical-guides/optimizing-biztalk-server-performance.md)|
 |If multiple orchestrations are deployed, consider enlisting them in different dedicated orchestration hosts. This isolates the different orchestrations and prevents contention for shared resources either in the same physical address space or on the same server.|[Optimizing BizTalk Server Performance](../technical-guides/optimizing-biztalk-server-performance.md)|
-|Consider using Windows Performance Monitor to diagnose disk contention issues..|[Windows Performance Monitor](https://go.microsoft.com/fwlink/?LinkID=204007)|
+|Consider using Windows Performance Monitor to diagnose disk contention issues..|[Windows Performance Monitor](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc749154(v=ws.11))|
 
  For more information about disk performance analysis, see the following resources:
 
-- [Ruling Out Disk-Bound Problems](https://go.microsoft.com/fwlink/?LinkId=120947) (HYPERLINK "<https://go.microsoft.com/fwlink/?LinkId=120947>" \t "_blank"<https://go.microsoft.com/fwlink/?LinkId=120947>).
+- [Ruling Out Disk-Bound Problems](/previous-versions/tn-archive/aa997558(v=exchg.65)) (HYPERLINK "<https://go.microsoft.com/fwlink/?LinkId=120947>" \t "_blank"<https://go.microsoft.com/fwlink/?LinkId=120947>).
 
 - [SQL Server Predeployment I/O Best Practices](https://go.microsoft.com/fwlink/?LinkId=120948) (https://go.microsoft.com/fwlink/?LinkId=120948).
 
-- “I/O Bottlenecks” section of [Troubleshooting Performance Problems in SQL Server 2008](https://go.microsoft.com/fwlink/?LinkID=153586) (https://go.microsoft.com/fwlink/?LinkID=153586).
+- “I/O Bottlenecks” section of [Troubleshooting Performance Problems in SQL Server 2008](/previous-versions/sql/sql-server-2008/dd672789(v=sql.100)) (https://go.microsoft.com/fwlink/?LinkID=153586).
 
 ## See Also
  [Bottlenecks in the Database Tier](../technical-guides/bottlenecks-in-the-database-tier.md)

@@ -28,7 +28,7 @@ To identify bottlenecks in the Business Activity Monitoring (BAM) database, perf
    > [!NOTE]
    >  In high usage scenarios BAM database activity can impact the performance of other BizTalk Server databases, which will affect overall BizTalk Server performance. In this case consider taking the following actions:
    >
-   > - Consider decreasing the duration of all BAM activities from the default value (6 months) to 1 month or less. This will reduce the time period for which BAM data is maintained in the BAMPrimaryImport database before being archived. Use the BAM Management Utility `set-activitywindow` command to modify the duration of BAM activities. For more information about the BAM Management Utility activity management commands see [Activity Management Commands](https://go.microsoft.com/fwlink/?LinkId=210417) (https://go.microsoft.com/fwlink/?LinkId=210417).
+   > - Consider decreasing the duration of all BAM activities from the default value (6 months) to 1 month or less. This will reduce the time period for which BAM data is maintained in the BAMPrimaryImport database before being archived. Use the BAM Management Utility `set-activitywindow` command to modify the duration of BAM activities. For more information about the BAM Management Utility activity management commands see [Activity Management Commands](../core/activity-management-commands.md) (https://go.microsoft.com/fwlink/?LinkId=210417).
    >   -   Move the BAM Archive database to an instance of SQL Server that does not host any BizTalk MessageBox databases. This will prevent these databases from competing for resources and improve overall performance.
 
 5. Use a dedicated host for tracking and measure the Host Queue Length performance counter when under load.
