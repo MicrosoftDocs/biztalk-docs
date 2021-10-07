@@ -127,7 +127,7 @@ Provides a value for the <strong>standalone</strong> attribute of the XSL <stron
 <tr class="odd">
 <td><a href="use-xsl-transform-grid-property.md">Use XSL Transform</a></td>
 <td>Compiler</td>
-<td>Indicates whether to use legacy .Net <a href="https://docs.microsoft.com/dotnet/api/system.xml.xsl.xsltransform">XslTransform</a> to achieve XSLT transformation, otherwise <a href="https://docs.microsoft.com/dotnet/api/system.xml.xsl.xslcompiledtransform">XslCompiledTransform</a> will be used if "False" is selected.<br />
+<td>Indicates whether to use legacy .Net <a href="/dotnet/api/system.xml.xsl.xsltransform">XslTransform</a> to achieve XSLT transformation, otherwise <a href="/dotnet/api/system.xml.xsl.xslcompiledtransform">XslCompiledTransform</a> will be used if "False" is selected.<br />
 <br />
 This option will only be used when ".Net Framework" is selected as "XSLT transform engine".</td>
 </tr>

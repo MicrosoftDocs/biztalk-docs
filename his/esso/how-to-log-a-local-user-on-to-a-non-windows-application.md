@@ -28,7 +28,7 @@ After you set up your user with an affiliate application, you can use Single Sig
 
 2.  Confirm that the relevant security settings, such as those on virtual directories, application pools, and web.config files, are set to provide your application with those credentials.
 
-     For more information about how to set security credentials, see [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](https://go.microsoft.com/fwlink/?LinkId=119600).
+     For more information about how to set security credentials, see [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](/previous-versions/msp-n-p/ff649266(v=pandp.10)).
 
      For more information about passing credentials for an ASP.NET Web service, see [HOW TO: Pass Current Credentials to an ASP.NET Web Service](https://support.microsoft.com/default.aspx?scid=kb;en-us;813834).
 

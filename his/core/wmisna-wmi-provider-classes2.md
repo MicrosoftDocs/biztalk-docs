@@ -29,7 +29,7 @@ The Microsoft Host Integration Server SNA configuration provider supplies inform
   
 - **PutInstanceAsync**  
   
-  For more information on **IWbemProviderInit** and **IWbemServices**, see [COM API for WMI](https://msdn.microsoft.com/library/aa389276(v=vs.85).aspx).  
+  For more information on **IWbemProviderInit** and **IWbemServices**, see [COM API for WMI](/windows/win32/wmisdk/com-api-for-wmi).  
   
   The WmiSna.mof and WmiSna_XP.mof files contain the WMISNA provider, and association and registration classes. You can access the WMISNA provider classes in the \root\MicrosoftHIS namespace.  
   

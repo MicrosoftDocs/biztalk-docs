@@ -25,7 +25,7 @@ Microsoft® Host Integration Server provider supplies information regarding the 
   
 - **PutInstanceAsync**  
   
-  For more information on **IWbemProviderInit** and **IWbemServices**, see [COM API for WMI](https://msdn.microsoft.com/library/aa389276(v=vs.85).aspx).  
+  For more information on **IWbemProviderInit** and **IWbemServices**, see [COM API for WMI](/windows/win32/wmisdk/com-api-for-wmi).  
   
   You can access the WmiHIS provider classes in the \root\MicrosoftHIS namespace.  
   

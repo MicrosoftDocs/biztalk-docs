@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # WCF Data Service
-WCF Data Services enables you to create and consume Open Data Protocol (OData) services in your application. OData exposes your data as resources that are addressable by URIs, allowing you to access and change data by using the semantics of representational state transfer (REST), specifically the standard HTTP verbs of GET, PUT, POST, and DELETE. For more information, see [ASP.NET Dynamic Data Content Map](https://go.microsoft.com/fwlink/?LinkId=199029) (https://go.microsoft.com/fwlink/?LinkId=199029), [WCF Data Services](https://go.microsoft.com/fwlink/?LinkId=199030) (https://go.microsoft.com/fwlink/?LinkId=199030), and [A Developer's Guide to the WCF REST Starter Kit](https://go.microsoft.com/fwlink/?LinkId=199031) (https://go.microsoft.com/fwlink/?LinkId=199031).
+WCF Data Services enables you to create and consume Open Data Protocol (OData) services in your application. OData exposes your data as resources that are addressable by URIs, allowing you to access and change data by using the semantics of representational state transfer (REST), specifically the standard HTTP verbs of GET, PUT, POST, and DELETE. For more information, see [ASP.NET Dynamic Data Content Map](/previous-versions/aspnet/cc488545(v=vs.100)) (https://go.microsoft.com/fwlink/?LinkId=199029), [WCF Data Services](/previous-versions/dotnet/framework/data/wcf/) (https://go.microsoft.com/fwlink/?LinkId=199030), and [A Developer's Guide to the WCF REST Starter Kit](/previous-versions/dotnet/articles/ee391967(v=msdn.10)) (https://go.microsoft.com/fwlink/?LinkId=199031).
 
  This topic contains the following sections:
 

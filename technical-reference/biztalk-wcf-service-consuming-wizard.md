@@ -65,7 +65,7 @@ The default is an empty string.</td>
 </tr>
 <tr class="even">
 <td><strong>Edit</strong></td>
-<td>Edit the user credential to use when downloading metadata documents from the service specified in the <strong>Metadata Address (URL)</strong> drop-down list. If the service requires user credentials with the basic authentication scheme, you must supply an appropriate user name and password to the service. This open the <strong>BizTalk WCF Service Consuming Wizard</strong> dialog box in which you can specify user name and password. <strong>Note:</strong> BizTalk WCF Service Consuming Wizard does not allow you to set certificate credentials in the wizard. To workaround this limitation, see <a href="https://msdn.microsoft.com/library/bb246060(v=bts.80)">Known Issues for the WCF Adapters</a>.</td>
+<td>Edit the user credential to use when downloading metadata documents from the service specified in the <strong>Metadata Address (URL)</strong> drop-down list. If the service requires user credentials with the basic authentication scheme, you must supply an appropriate user name and password to the service. This open the <strong>BizTalk WCF Service Consuming Wizard</strong> dialog box in which you can specify user name and password. <strong>Note:</strong> BizTalk WCF Service Consuming Wizard does not allow you to set certificate credentials in the wizard. To workaround this limitation, see <a href="/biztalk/core/known-issues-for-the-wcf-adapters">Known Issues for the WCF Adapters</a>.</td>
 </tr>
 <tr class="odd">
 <td><strong>Get</strong></td>
@@ -151,4 +151,3 @@ Use this page to determine if you have successfully generated the BizTalk artifa
 
 [How to Use the BizTalk WCF Service Consuming Wizard to Consume a WCF Service](https://msdn.microsoft.com/library/bb226552\(v=bts.80\))  
 [Considerations When Consuming WCF Services with the WCF Send Adapters](https://msdn.microsoft.com/library/bb226398\(v=bts.80\))
-

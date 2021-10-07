@@ -21,11 +21,11 @@ SharePoint provides self-service access to information by providing a powerful s
 
 The combination of Office and SharePoint empower end users by providing both read and write access to line-of-business (LOB) applications and external data sources. You can now access back-end data and business processes through familiar Office applications with no additional training, facilitating the reach of LOB data across the organization.
 
- For more information, see [SharePoint Server 2010](https://go.microsoft.com/fwlink/?LinkId=189041) (https://go.microsoft.com/fwlink/?LinkId=189041) and [SharePoint Server Developer Portal](https://go.microsoft.com/fwlink/?LinkId=159918) (https://go.microsoft.com/fwlink/?LinkId=159918).
+ For more information, see [SharePoint Server 2010](/previous-versions/office/sharepoint-server-2010/cc303422(v=office.14)) (https://go.microsoft.com/fwlink/?LinkId=189041) and [SharePoint Server Developer Portal](/sharepoint/dev/) (https://go.microsoft.com/fwlink/?LinkId=159918).
 
  **Business Connectivity Services (BCS)**
 
- Business Connectivity Services (BCS) in Office provides a platform that allows you to connect to a variety of different data sources. It is the successorr to the Business Data Catalog in Office 2007, providing a standard interface that makes it easy to tap into diverse targets. BCS provides a rich set of features that enable you to rapidly build solutions by using familiar tools such as Visual Studio and SharePoint Designer. For more information, see [Microsoft Business Connectivity Services](https://go.microsoft.com/fwlink/?LinkId=198251) (https://go.microsoft.com/fwlink/?LinkId=198251).
+ Business Connectivity Services (BCS) in Office provides a platform that allows you to connect to a variety of different data sources. It is the successorr to the Business Data Catalog in Office 2007, providing a standard interface that makes it easy to tap into diverse targets. BCS provides a rich set of features that enable you to rapidly build solutions by using familiar tools such as Visual Studio and SharePoint Designer. For more information, see [Microsoft Business Connectivity Services](/previous-versions/office/developer/sharepoint-2010/ee556826(v=office.14)) (https://go.microsoft.com/fwlink/?LinkId=198251).
 
 ## Designer
 The SharePoint Designer provides a graphical user interface that you can use for designing SharePoint sites and end-user workflows. SharePoint Designer also allows you to manipulate data from SharePoint as well as external data sources without coding directly against the .NET Framework.
@@ -39,7 +39,7 @@ PowerPivot for SharePoint provides a new type of document library that allows ri
 
  When you create a PowerPivot for Excel workbook, you can share it with others in all of the normal ways that you share files. You can also gain many additional benefits by publishing the file to a SharePoint server that has PowerPivot for SharePoint and Excel Services installed. PowerPivot services on SharePoint add collaboration and document management support for the PowerPivot workbooks that you publish to SharePoint. On the SharePoint server, the Excel and SharePoint services work together to process the workbook. PowerPivot for SharePoint components process the data, and Excel Services renders it in a browser window where other users can analyze the data.
 
- For more information about PowerPivot and Excel integration with SharePoint, see [What's New: Excel Services](https://go.microsoft.com/fwlink/?LinkId=198248) (https://go.microsoft.com/fwlink/?LinkId=198248) and [PowerPivot for SharePoint](https://go.microsoft.com/fwlink/?LinkId=164411) (https://go.microsoft.com/fwlink/?LinkId=164411).
+ For more information about PowerPivot and Excel integration with SharePoint, see [What's New: Excel Services](/previous-versions/office/developer/sharepoint-2010/ee558289(v=office.14)) (https://go.microsoft.com/fwlink/?LinkId=198248) and [PowerPivot for SharePoint](/previous-versions/sql/sql-server-2008-r2/ee210682(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkId=164411).
 
 ## See Also
  [Office](../core/office2.md)

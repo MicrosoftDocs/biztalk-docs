@@ -516,4 +516,4 @@ RDBNAME.RDBCOLID.PKGID.PKGCNSTKN.PKGSN
  <em>**Table 7.</em>* Coded Character Set Identifier values.*
 
 > [!NOTE]
->  The Microsoft ADO.NET Data Provider for DB2 supports a set of Coded Character Set Identifiers. IBM DB2 database servers for z/OS and i5/OS typically use EBCDIC. For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
+>  The Microsoft ADO.NET Data Provider for DB2 supports a set of Coded Character Set Identifiers. IBM DB2 database servers for z/OS and i5/OS typically use EBCDIC. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).

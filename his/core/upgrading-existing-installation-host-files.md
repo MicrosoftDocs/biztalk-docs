@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Upgrading Existing Installation (Host Files)
-For the most recent version of Microsoft Host Integration Server documentation, see [https://msdn.microsoft.com/library/gg241192.aspx](https://msdn.microsoft.com/library/gg241192.aspx).  
+For the most recent version of Microsoft Host Integration Server documentation, see [https://msdn.microsoft.com/library/gg241192.aspx](../index.yml).  
   
 ## Microsoft OLE DB Provider for AS/400 and VSAM  
  HIS 2013 does not include or support the Microsoft OLE DB Provider for AS/400 and VSAM (SNAOLEDB Provider). You should use the HIS 2013 ADO.NET Framework Data Provider for Host Files (MsHostFileClient) or BizTalk Adapter for Host Files (BAHF).  

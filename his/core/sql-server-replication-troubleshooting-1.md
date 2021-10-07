@@ -22,7 +22,7 @@ This topic contains the following sections relating to troubleshooting issues be
   
  [Failure to replicate DATETIME2 columns to DB2 TIMESTAMP columns](../core/sql-server-replication-troubleshooting-1.md#datetime2)  
   
- For more information about SQL Server Replication, see [Developer’s Guide (Replication)](https://go.microsoft.com/fwlink/?LinkId=193231) (https://go.microsoft.com/fwlink/?LinkId=193231) in SQL Server Books Online.  
+ For more information about SQL Server Replication, see [Developer’s Guide (Replication)](/sql/relational-databases/replication/concepts/replication-developer-documentation) (https://go.microsoft.com/fwlink/?LinkId=193231) in SQL Server Books Online.  
   
 ##  <a name="datatype"></a> Incorrect Data Type Mappings  
  SQL Server Replication may convert data incorrectly, based on the default mappings from SQL Server to DB2 data types. We recommend that the administrator and developer review and revise the Replication data type mappings using the following SQL Server system stored procedures.  
@@ -143,7 +143,7 @@ EXEC sp_changearticle @publication, @article, 'status' , 'parameters' , 0 , 0;
   
 ```  
   
- For more information, see [Replication System Stored Procedures Concepts](https://go.microsoft.com/fwlink/?LinkId=193232) (https://go.microsoft.com/fwlink/?LinkId=193232) in SQL Server Books Online.
+ For more information, see [Replication System Stored Procedures Concepts](/sql/relational-databases/replication/concepts/replication-system-stored-procedures-concepts) (https://go.microsoft.com/fwlink/?LinkId=193232) in SQL Server Books Online.
  
  ##  <a name="truncation"></a> Replication INSERT operation fails with Error 8152: String or binary data would be truncated  
  **Problem**  
@@ -158,4 +158,4 @@ EXEC sp_changearticle @publication, @article, 'status' , 'parameters' , 0 , 0;
  
  **Step 2** Re-configure SQL Server Replication subscription article to include option "24" ("Includes the column name in INSERT statements and uses parameterized statements."). 
 
- For more information, see [SQL Server Replication sp_addarticle (Transact-SQL)](https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) (https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) in SQL Server documentation.
+ For more information, see [SQL Server Replication sp_addarticle (Transact-SQL)](/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) (https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) in SQL Server documentation.
