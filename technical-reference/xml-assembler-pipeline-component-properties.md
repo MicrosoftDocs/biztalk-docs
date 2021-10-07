@@ -57,13 +57,13 @@ Default Value: True</td>
 </tr>
 <tr class="even">
 <td><strong>Document schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
+<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="/biztalk/core/how-to-use-the-schema-collection-property-editor">How to Use the Schema Collection Property Editor</a>.<br />
 <br />
 Default value: Empty collection (Collection)</td>
 </tr>
 <tr class="odd">
 <td><strong>Envelope schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas that will be applied to the envelope. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
+<td>Indicate the namespace and typename of the schema or schemas that will be applied to the envelope. For more information, see <a href="/biztalk/core/how-to-use-the-schema-collection-property-editor">How to Use the Schema Collection Property Editor</a>.<br />
 <br />
 Default value: Empty collection (Collection)</td>
 </tr>
@@ -98,4 +98,3 @@ Default value: (None)</td>
 [Unrecognized Messages in the XML Assembler Pipeline Component](https://msdn.microsoft.com/library/aa561454\(v=bts.80\))  
 [Document Structure Enforcement in the XML Assembler Pipeline Component](https://msdn.microsoft.com/library/aa578455\(v=bts.80\))  
 [Processing Instructions in the XML Assembler Pipeline Component](https://msdn.microsoft.com/library/aa578687\(v=bts.80\))
-

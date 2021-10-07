@@ -42,7 +42,7 @@ Default Value: False</td>
 </tr>
 <tr class="even">
 <td><strong>Document schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
+<td>Indicate the namespace and typename of the schema or schemas to be applied to the document. For more information, see <a href="/biztalk/core/how-to-use-the-schema-collection-property-editor">How to Use the Schema Collection Property Editor</a>.<br />
 <br />
 Default value: Empty collection (Collection)</td>
 </tr>
@@ -54,13 +54,13 @@ Default value: empty</td>
 </tr>
 <tr class="even">
 <td><strong>Envelope schemas</strong></td>
-<td>Indicate the namespace and typename of the schema or schemas to be applied to the envelope. For more information, see <a href="https://msdn.microsoft.com/library/aa559127(v=bts.80)">How to Use the Schema Collection Property Editor</a>.<br />
+<td>Indicate the namespace and typename of the schema or schemas to be applied to the envelope. For more information, see <a href="/biztalk/core/how-to-use-the-schema-collection-property-editor">How to Use the Schema Collection Property Editor</a>.<br />
 <br />
 Default value: Empty collection (Collection)</td>
 </tr>
 <tr class="odd">
 <td><strong>Recoverable interchange processing</strong></td>
-<td>Indicate whether to process messages within an interchange individually. For more information, see <a href="https://msdn.microsoft.com/library/aa578714(v=bts.80)">Recoverable Interchange Processing</a>.<br />
+<td>Indicate whether to process messages within an interchange individually. For more information, see <a href="/biztalk/core/recoverable-interchange-processing">Recoverable Interchange Processing</a>.<br />
 <br />
 Default Value: False</td>
 </tr>
@@ -86,4 +86,3 @@ Default Value: False</td>
 [Document Validation in the XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa562154\(v=bts.80\))  
 [Document Structure Enforcement in the XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa578016\(v=bts.80\))  
 [Character Encoding in XML Disassembler Pipeline Component](https://msdn.microsoft.com/library/aa559602\(v=bts.80\))
-

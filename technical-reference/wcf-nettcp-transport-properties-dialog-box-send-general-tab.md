@@ -67,8 +67,7 @@ The default is an empty string.</td>
 
 ## See Also
 
-[The \<identity\> element](https://go.microsoft.com/fwlink/?linkid=75747)
+[The \<identity\> element](/dotnet/framework/configure-apps/file-schema/wcf/identity)
 [How to Configure a WCF-NetTcp Send Port](https://msdn.microsoft.com/library/bb226460\(v=bts.80\))
 [WCF Adapters Property Schema and Properties](https://msdn.microsoft.com/library/bb245991\(v=bts.80\))
 [Configuring Dynamic Send Ports Using WCF Adapters Context Properties](https://msdn.microsoft.com/library/bb727706\(v=bts.80\))
-
