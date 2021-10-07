@@ -27,7 +27,7 @@ Use the Receive Locations node details pane to manage and control receive locati
     
 
     > [!NOTE]
-    > <P>You cannot delete the primary receive location for a receive port. If you attempt this, you will receive an error message. To delete the receive location, you can either delete the receive port, which also deletes the receive location, or you can make a different receive location primary and then delete the original receive location. For instructions on making a receive location the primary receive location, see <A href="https://msdn.microsoft.com/library/aa559359(v=bts.80)">How to Edit the Properties of a Receive Location</A>.</P>
+    > <P>You cannot delete the primary receive location for a receive port. If you attempt this, you will receive an error message. To delete the receive location, you can either delete the receive port, which also deletes the receive location, or you can make a different receive location primary and then delete the original receive location. For instructions on making a receive location the primary receive location, see <A href="/biztalk/core/how-to-edit-the-properties-of-a-receive-location">How to Edit the Properties of a Receive Location</A>.</P>
 
 
 
@@ -40,4 +40,3 @@ Use the Receive Locations node details pane to manage and control receive locati
 [How to Configure Scheduling for a Receive Location](https://msdn.microsoft.com/library/aa559260\(v=bts.80\))  
 [How to Enable a Receive Location](https://msdn.microsoft.com/library/aa561716\(v=bts.80\))  
 [Minimum Security User Rights](https://msdn.microsoft.com/library/aa559845\(v=bts.80\))
-

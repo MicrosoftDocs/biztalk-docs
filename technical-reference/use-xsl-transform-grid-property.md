@@ -22,7 +22,7 @@ ms.custom: biztalk-2020
 
 # Use XSL Transform (Grid Property)
 
-**Starting with BizTalk Server 2020**, use the **Use XSL Transform** property to specify whether [XslTransform](https://docs.microsoft.com/dotnet/api/system.xml.xsl.xsltransform) or [XslCompiledTransform](https://docs.microsoft.com/dotnet/api/system.xml.xsl.xslcompiledtransform)) is used for XSLT transform. This property is only used when **.Net Framework** is selected for [XSLT transform engine](xslt-transform-engine-grid-property.md) property.
+**Starting with BizTalk Server 2020**, use the **Use XSL Transform** property to specify whether [XslTransform](/dotnet/api/system.xml.xsl.xsltransform) or [XslCompiledTransform](/dotnet/api/system.xml.xsl.xslcompiledtransform)) is used for XSLT transform. This property is only used when **.Net Framework** is selected for [XSLT transform engine](xslt-transform-engine-grid-property.md) property.
 
 ## Category
 
@@ -33,8 +33,8 @@ Compiler
 | Value | Description |
 | --- | --- |
 |Undefined | If **Undefined** is selected, **Use XSL Transform** is used at the global level. |
-| Yes | [XslTransform](https://docs.microsoft.com/dotnet/api/system.xml.xsl.xsltransform) is used for XSLT transform. |
-| No | [XslCompiledTransform](https://docs.microsoft.com/dotnet/api/system.xml.xsl.xslcompiledtransform) is used for XSLT transform. |
+| Yes | [XslTransform](/dotnet/api/system.xml.xsl.xsltransform) is used for XSLT transform. |
+| No | [XslCompiledTransform](/dotnet/api/system.xml.xsl.xslcompiledtransform) is used for XSLT transform. |
 
 ## Default Value
 

@@ -52,7 +52,7 @@ This parameter is ignored. Whether **true** or **false**, the assembly will not 
 
 
 > [!NOTE]
-> <P>To properly uninstall an assembly from the GAC, refer to <A href="https://msdn.microsoft.com/library/aa559881(v=bts.80)">How to Uninstall an Assembly from the GAC</A>.</P>
+> <P>To properly uninstall an assembly from the GAC, refer to <A href="/previous-versions/">How to Uninstall an Assembly from the GAC</A>.</P>
 
 
 
@@ -68,4 +68,3 @@ This method returns an HRESULT indicating whether the method completed successfu
 **Header:** Declared in BTSWMISchema2K.mof or BTSWMISchemaXP.mof.
 
 **Namespace:** Included in \\root\\MicrosoftBizTalkServer.
-

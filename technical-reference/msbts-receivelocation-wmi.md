@@ -17,7 +17,7 @@ Represents an individual receive location defined by Microsoft BizTalk Server.
 
 
 > [!WARNING]
-> <P>Certificates must be installed on the box for the MSBTS_ReceiveLocation class to work. The only way to create receive locations without certificates is to use the <A href="https://msdn.microsoft.com/library/microsoft.biztalk.explorerom.aspx">Microsoft.BizTalk.ExplorerOM</A>APIs.</P>
+> <P>Certificates must be installed on the box for the MSBTS_ReceiveLocation class to work. The only way to create receive locations without certificates is to use the <A href="/previous-versions/">Microsoft.BizTalk.ExplorerOM</A>APIs.</P>
 
 
 
@@ -53,7 +53,7 @@ class MSBTS_ReceiveLocation : MSBTS_Setting
 </tr>
 <tr class="even">
 <td>Caption (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/p/?linkid=20246">https://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-setting">https://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-receivelocation-customcfg-property-wmi.md">MSBTS_ReceiveLocation.CustomCfg Property (WMI)</a></td>
@@ -61,7 +61,7 @@ class MSBTS_ReceiveLocation : MSBTS_Setting
 </tr>
 <tr class="even">
 <td>Description (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/p/?linkid=20246">https://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-setting">https://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-receivelocation-encryptioncert-wmi.md">MSBTS_ReceiveLocation.EncryptionCert (WMI)</a></td>
@@ -121,7 +121,7 @@ class MSBTS_ReceiveLocation : MSBTS_Setting
 </tr>
 <tr class="odd">
 <td>SettingID (Inherited from <strong>CIM_Setting</strong>)</td>
-<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/p/?linkid=20246">https://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
+<td>For more information about the <strong>CIM_Setting</strong> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-setting">https://go.microsoft.com/fwlink/p/?LinkID=20246</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="msbts-receivelocation-srvwinstartdt-property-wmi.md">MSBTS_ReceiveLocation.SrvWinStartDT Property (WMI)</a></td>

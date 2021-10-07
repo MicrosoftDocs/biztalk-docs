@@ -18,4 +18,4 @@ You have reached this page because you are missing one or more of the software p
 
 
 > [!IMPORTANT]
-> <P>For a current list of prerequisites, we recommend that you refer to the latest version of the BizTalk Server Installation at <A href="https://go.microsoft.com/fwlink/p/?linkid=269585">https://go.microsoft.com/fwlink/p/?LinkId=269585</A>.</P>
+> <P>For a current list of prerequisites, we recommend that you refer to the latest version of the BizTalk Server Installation at <A href="/previous-versions/">https://go.microsoft.com/fwlink/p/?LinkId=269585</A>.</P>
