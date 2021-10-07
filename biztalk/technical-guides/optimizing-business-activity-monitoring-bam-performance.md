@@ -51,10 +51,10 @@ This topic describes Business Activity Monitoring (BAM) performance factors.
 
   All the asynchronous EventStreams (BES, MES, and OES) persist data first to the BizTalk MessageBox database. Periodically the data is processed and persisted to the BAM Primary Import database by the Tracking Data Decode Service (TDDS).
 
-  For more information about the BAM EventStream APIs, see [EventStream Classes](https://go.microsoft.com/fwlink/?LinkId=158046) (https://go.microsoft.com/fwlink/?LinkId=158046) in the BizTalk Server documentation.
+  For more information about the BAM EventStream APIs, see [EventStream Classes](../core/eventstream-classes.md) (https://go.microsoft.com/fwlink/?LinkId=158046) in the BizTalk Server documentation.
 
 ## BAM performance counters
- For a detailed list of the performance counters for BAM, see [BAM Performance Counters](https://go.microsoft.com/fwlink/?LinkId=158048) (https://go.microsoft.com/fwlink/?LinkId=158048) in the BizTalk Server documentation.
+ For a detailed list of the performance counters for BAM, see [BAM Performance Counters](../core/bam-performance-counters.md) (https://go.microsoft.com/fwlink/?LinkId=158048) in the BizTalk Server documentation.
 
 ## See Also
  [Optimizing BizTalk Server Performance](../technical-guides/optimizing-biztalk-server-performance.md)

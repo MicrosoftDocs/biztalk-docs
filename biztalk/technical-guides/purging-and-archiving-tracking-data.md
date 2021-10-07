@@ -25,7 +25,7 @@ It is important to configure and enable the DTA Purge and Archive SQL Agent job.
 
 -   **If you only need to purge the old data and do not need to archive it first, then change the SQL Agent job to call the stored procedure “dtasp_PurgeTrackingDatabase”.**
 
-     This skips the archive step, and just does the purge. For more information about this stored procedure and changing the SQL Agent job to use it, see ["How to Purge Data from the BizTalk Tracking Database"](https://go.microsoft.com/fwlink/?LinkId=153817) (https://go.microsoft.com/fwlink/?LinkId=153817).
+     This skips the archive step, and just does the purge. For more information about this stored procedure and changing the SQL Agent job to use it, see ["How to Purge Data from the BizTalk Tracking Database"](../core/how-to-purge-data-from-the-biztalk-tracking-database.md) (https://go.microsoft.com/fwlink/?LinkId=153817).
 
 -   **Ensure that the job is able to purge the tracking data as fast as the incoming tracking data is generated.**
 
@@ -33,7 +33,7 @@ It is important to configure and enable the DTA Purge and Archive SQL Agent job.
 
 -   **Review the soft purge and hard purge parameters to ensure that you are keeping data for the optimal length of time.**
 
-     For more information about these parameters see ["Archiving and Purging the BizTalk Tracking Database"](https://go.microsoft.com/fwlink/?LinkId=153816) (https://go.microsoft.com/fwlink/?LinkId=153816).
+     For more information about these parameters see ["Archiving and Purging the BizTalk Tracking Database"](../core/archiving-and-purging-the-biztalk-tracking-database.md) (https://go.microsoft.com/fwlink/?LinkId=153816).
 
 -   **If you need to keep the tracking archive files, ensure that you have a process in place to successfully restore and use them.**
 

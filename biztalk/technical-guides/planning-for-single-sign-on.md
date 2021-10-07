@@ -20,10 +20,10 @@ Enterprise Single Sign-On (SSO) is a critical component of the [!INCLUDE[btsBizT
  Your SSO implementation should include the following plans.
 
 ## Backing Up the Master Secret
- If the SSO master secret server fails and you lose the key, or if the key becomes corrupted, you will not be able to retrieve data stored in the SSO database. You must back up the master secret, or you risk losing data from the SSO database. Therefore it is absolutely critical that the SSO master secret is backed up and stored in a secure location. For information about backing up the SSO master secret, see [How to Back Up the Master Secret](https://go.microsoft.com/fwlink/?LinkId=151395) (https://go.microsoft.com/fwlink/?LinkId=151395).
+ If the SSO master secret server fails and you lose the key, or if the key becomes corrupted, you will not be able to retrieve data stored in the SSO database. You must back up the master secret, or you risk losing data from the SSO database. Therefore it is absolutely critical that the SSO master secret is backed up and stored in a secure location. For information about backing up the SSO master secret, see [How to Back Up the Master Secret](../core/how-to-back-up-the-master-secret.md) (https://go.microsoft.com/fwlink/?LinkId=151395).
 
 ## Configuring SSO for High Availability
  Because SSO is such a critical component of a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, the SSO master secret server should be configured for high availability. If at all possible, the Enterprise Single Sign-On service on the master secret server should be clustered by following the steps in [Clustering the Master Secret Server](../technical-guides/clustering-the-master-secret-server.md). In the event that you do not have access to a Windows Server cluster, you can still provide high availability for the Enterprise Single Sign-On service on the master secret server by following the steps documented in the topic [Designating a New Master Secret Server Manually](../technical-guides/designating-a-new-master-secret-server-manually.md).
 
 ## Following Established SSO Security Recommendations
- Follow SSO security recommendations described in the topic [SSO Security Recommendations](https://go.microsoft.com/fwlink/?LinkId=155753) (https://go.microsoft.com/fwlink/?LinkId=155753).
+ Follow SSO security recommendations described in the topic [SSO Security Recommendations](../core/sso-security-recommendations.md) (https://go.microsoft.com/fwlink/?LinkId=155753).

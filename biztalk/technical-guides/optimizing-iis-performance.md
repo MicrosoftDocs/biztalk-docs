@@ -51,7 +51,7 @@ manager: "anneta"
 
 3. Click to expand **Limits Properties** under **Behavior**, click **Threads Per Processor Limit**, enter the desired value for **Threads Per Processor Limit** and click **Apply** in the **Actions** pane.
 
-   For more information about how to modify the properties in the \<limits\> element of the IIS 7.5/7.0 \<asp\> element, see [ASP Limits \<limits\>](https://go.microsoft.com/fwlink/?LinkId=157483) (https://go.microsoft.com/fwlink/?LinkId=157483).
+   For more information about how to modify the properties in the \<limits\> element of the IIS 7.5/7.0 \<asp\> element, see [ASP Limits \<limits\>](/iis/configuration/system.webServer/asp/limits) (https://go.microsoft.com/fwlink/?LinkId=157483).
 
 > [!NOTE]
 >  Because this property can only be applied at the server level, modification of this property affects all Web sites that run on the server.
@@ -67,7 +67,7 @@ manager: "anneta"
 
 3. Click to expand **Limits Properties** under **Behavior**, click **Queue Length**, enter the desired value for **Queue Length** and then click **Apply** in the **Actions** pane.
 
-   For more information about how to modify the properties in the \<limits\> element of the IIS 7.5/7.0 \<asp\> element, see [ASP Limits \<limits\>](https://go.microsoft.com/fwlink/?LinkId=157483) (https://go.microsoft.com/fwlink/?LinkId=157483).
+   For more information about how to modify the properties in the \<limits\> element of the IIS 7.5/7.0 \<asp\> element, see [ASP Limits \<limits\>](/iis/configuration/system.webServer/asp/limits) (https://go.microsoft.com/fwlink/?LinkId=157483).
 
 > [!NOTE]
 >  Because this property can only be applied at the server level, modification of this property affects all Web sites that run on the server.
@@ -76,7 +76,7 @@ manager: "anneta"
  This setting specifies the number of pool threads to create per processor. Pool threads watch the network for requests and process incoming requests. The MaxPoolThreads count does not include threads that are consumed by ISAPI applications. Generally, you should not create more than 20 threads per processor. MaxPoolThreads is a REG_DWORD registry entry located at HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\InetInfo\Parameters\ with a default value of 4.
 
 ### Disable WCF services tracing
- Use the Configuration Editor Tool (SvcConfigEditor.exe) to disable WCF services tracing in a production environment. For more information about the Configuration Editor Tool, see [Configuration Editor Tool (SvcConfigEditor.exe)](https://go.microsoft.com/fwlink/?LinkID=127070) (https://go.microsoft.com/fwlink/?LinkID=127070).
+ Use the Configuration Editor Tool (SvcConfigEditor.exe) to disable WCF services tracing in a production environment. For more information about the Configuration Editor Tool, see [Configuration Editor Tool (SvcConfigEditor.exe)](/dotnet/framework/wcf/configuration-editor-tool-svcconfigeditor-exe) (https://go.microsoft.com/fwlink/?LinkID=127070).
 
 ### Configure ASP.NET 2.0 MaxConcurrentRequests for IIS 7.5/7.0 Integrated mode
  When ASP.NET 2.0 is hosted on IIS 7.5/7.0 in Integrated Mode, the use of threads is handled differently than on IIS 7.5/7.0 in Classic Mode. When ASP.NET 2.0 is hosted on IIS 7.5 in Integrated mode, ASP.NET 2.0 restricts the number of concurrently executing requests instead of the number of threads concurrently executing requests. For synchronous scenarios, this will indirectly limit the number of threads because the number of requests will be the same as the number of threads. But for asynchronous scenarios, the number of requests and threads will likely be very different because you could have far more requests than threads. When you run ASP.NET 2.0 on IIS 7.5 in integrated mode, the minFreeThreads and minLocalRequestFreeThreads of the “httpRuntime” element in the machine.config are ignored. For IIS 7.5 Integrated mode, a DWORD named MaxConcurrentRequestsPerCPU within HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\2.0.50727.0 determines the number of concurrent requests per CPU. By default, the registry key does not exist and the number of requests per CPU is limited to 12. .NET Framework 3.5 SP1 includes an update to the v2.0 binaries that supports configuring IIS application pools via the aspnet.config file. This configuration applies to integrated mode only (Classic/ISAPI mode ignores these settings).The new aspnet.config config section with default values is listed below:
@@ -89,10 +89,10 @@ manager: "anneta"
 
  In IIS 7.5 Integrated Mode, the maxWorkerThreads and the maxIoThreads parameters in the “processModel” section of the machine.config file are not used to govern the number of running requests, per se, but they are still used to govern the size of the CLR thread pool used by ASP.NET. When the “processModel” section of the machine.config has “autoConfig=true” (which is the default setting), this will give the application pool up to 100 worker threads (MaxWorkerThreads) per logical CPU. So a common commodity server with 2 dual-core CPUs would have 400 MaxWorkerThreads. This should be sufficient for all but the most demanding applications.
 
- For more information about configuring ASP.NET Thread Usage on IIS 7.5, see [Thomas Marquardt's Blog on ASP.NET Thread Usage on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=157518) (https://go.microsoft.com/fwlink/?LinkId=157518).
+ For more information about configuring ASP.NET Thread Usage on IIS 7.5, see [Thomas Marquardt's Blog on ASP.NET Thread Usage on IIS 7.0](/archive/blogs/tmarq/) (https://go.microsoft.com/fwlink/?LinkId=157518).
 
 ### Configure ASP.NET 4 MaxConcurrentRequests for IIS 7.5/7.0 Integrated mode
- With .NET Framework 4, the default setting for maxConcurrentRequestsPerCPU is 5000 which is a very large number and therefore will allow plenty of asynchronous requests to execute concurrently. For more information, see [\<applicationPool\> Element (Web Settings)](https://go.microsoft.com/fwlink/?LinkID=205339) (https://go.microsoft.com/fwlink/?LinkID=205339).
+ With .NET Framework 4, the default setting for maxConcurrentRequestsPerCPU is 5000 which is a very large number and therefore will allow plenty of asynchronous requests to execute concurrently. For more information, see [\<applicationPool\> Element (Web Settings)](/dotnet/framework/configure-apps/file-schema/web/applicationpool-element-web-settings) (https://go.microsoft.com/fwlink/?LinkID=205339).
 
  For IIS 7.5/7.0 Integrated mode, a DWORD named MaxConcurrentRequestsPerCPU within HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0 determines the number of concurrent requests per CPU. By default, the registry key does not exist and the number of requests per CPU is limited to 5000.
 

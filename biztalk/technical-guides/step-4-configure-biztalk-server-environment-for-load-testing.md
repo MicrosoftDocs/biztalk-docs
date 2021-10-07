@@ -28,7 +28,7 @@ This topic provides information for creating the BizTalk Server Receive Location
  For purposes of this example, two BizTalk Server computers were used and the BizTalk Server Message Box database was on a remote SQL Server computer.
 
 ### Create BizTalk Server Send and Receive Hosts
- Follow the steps in the BizTalk Server Documentation topic [How to Create a New Host](https://go.microsoft.com/fwlink/?LinkId=208595) (https://go.microsoft.com/fwlink/?LinkId=208595) to create a BizTalk Server “Send” host for Send Ports and Send adapter handlers. Configure the host with the following properties:
+ Follow the steps in the BizTalk Server Documentation topic [How to Create a New Host](../core/how-to-create-a-new-host.md) (https://go.microsoft.com/fwlink/?LinkId=208595) to create a BizTalk Server “Send” host for Send Ports and Send adapter handlers. Configure the host with the following properties:
 
 |Property|Value|
 |--------------|-----------|
@@ -38,7 +38,7 @@ This topic provides information for creating the BizTalk Server Receive Location
 |Authentication Trusted|Ensure that this box is un-checked.|
 |32-bit only|Ensure that this box is un-checked.|
 |Make this the default host in the group|Ensure that this box is un-checked.|
-|Windows group|The Windows group used to control access to this host and associated host instances. The Window group created for the default in-process host is named either *\<Computer Name\>*\BizTalk Application Users (for a single server BizTalk Server installation) or *\<Domain Name\>*\BizTalk Application Users (for a multiple server BizTalk Server installation, which requires the use of domain groups). **Note:**  *\<Computer Name\>* and *\<Domain Name\>* are placeholders for the actual computer name or domain name used when the group was created. <br /><br /> If a new group is created for this host then it must have the privileges described in the topic [Host Groups](https://go.microsoft.com/fwlink/?LinkId=208803) (https://go.microsoft.com/fwlink/?LinkId=208803) in the BizTalk Server documentation.|
+|Windows group|The Windows group used to control access to this host and associated host instances. The Window group created for the default in-process host is named either *\<Computer Name\>*\BizTalk Application Users (for a single server BizTalk Server installation) or *\<Domain Name\>*\BizTalk Application Users (for a multiple server BizTalk Server installation, which requires the use of domain groups). **Note:**  *\<Computer Name\>* and *\<Domain Name\>* are placeholders for the actual computer name or domain name used when the group was created. <br /><br /> If a new group is created for this host then it must have the privileges described in the topic [Host Groups](../core/host-groups.md) (https://go.microsoft.com/fwlink/?LinkId=208803) in the BizTalk Server documentation.|
 
  Repeat the steps that you followed when creating the “Send” host to create a “Receive” host. Configure the “Receive” host with the following property values:
 
@@ -50,10 +50,10 @@ This topic provides information for creating the BizTalk Server Receive Location
 |Authentication Trusted|Ensure that this box is un-checked.|
 |32-bit only|Ensure that this box is un-checked.|
 |Make this the default host in the group|Ensure that this box is un-checked.|
-|Windows group|The Windows group used to control access to this host and associated host instances. The Window group created for the default in-process host is named either *\<Computer Name\>*\BizTalk Application Users (for a single server BizTalk Server installation) or *\<Domain Name\>*\BizTalk Application Users (for a multiple server BizTalk Server installation, which requires the use of domain groups). **Note:**  *\<Computer Name\>* and *\<Domain Name\>* are placeholders for the actual computer name or domain name used when the group was created. <br /><br /> If a new group is created for this host then it must have the privileges described in the topic [Host Groups](https://go.microsoft.com/fwlink/?LinkId=208803) (https://go.microsoft.com/fwlink/?LinkId=208803) in the BizTalk Server documentation.|
+|Windows group|The Windows group used to control access to this host and associated host instances. The Window group created for the default in-process host is named either *\<Computer Name\>*\BizTalk Application Users (for a single server BizTalk Server installation) or *\<Domain Name\>*\BizTalk Application Users (for a multiple server BizTalk Server installation, which requires the use of domain groups). **Note:**  *\<Computer Name\>* and *\<Domain Name\>* are placeholders for the actual computer name or domain name used when the group was created. <br /><br /> If a new group is created for this host then it must have the privileges described in the topic [Host Groups](../core/host-groups.md) (https://go.microsoft.com/fwlink/?LinkId=208803) in the BizTalk Server documentation.|
 
 ### Create Instances of the BizTalk Server Send and Receive Hosts
- Follow the steps in the BizTalk Server Documentation topic [How to Add a Host Instance](https://go.microsoft.com/fwlink/?LinkId=208596) (https://go.microsoft.com/fwlink/?LinkId=208596) to create and start instances of the BizTalk Server “Send” host. Configure an instance of the “Send” host to run on each BizTalk Server in the BizTalk Server group and configure each host instance with the following property values:
+ Follow the steps in the BizTalk Server Documentation topic [How to Add a Host Instance](../core/how-to-add-a-host-instance.md) (https://go.microsoft.com/fwlink/?LinkId=208596) to create and start instances of the BizTalk Server “Send” host. Configure an instance of the “Send” host to run on each BizTalk Server in the BizTalk Server group and configure each host instance with the following property values:
 
 |Property|Value|
 |--------------|-----------|
@@ -76,7 +76,7 @@ This topic provides information for creating the BizTalk Server Receive Location
  After creating the host instance, right-click on the host instance and select **Start** from the context menu.
 
 ### Create a BizTalk Server Receive Port
- Follow the steps in the topic [How to Create a Receive Port](https://go.microsoft.com/fwlink/?LinkID=154843) (https://go.microsoft.com/fwlink/?LinkID=154843) in the BizTalk Server documentation to create a One-Way Receive Port. When creating the Receive port, leave all properties at default values except as noted in the table below:
+ Follow the steps in the topic [How to Create a Receive Port](../core/how-to-create-a-receive-port.md) (https://go.microsoft.com/fwlink/?LinkID=154843) in the BizTalk Server documentation to create a One-Way Receive Port. When creating the Receive port, leave all properties at default values except as noted in the table below:
 
 |Property|Value|
 |--------------|-----------|
@@ -116,7 +116,7 @@ This topic provides information for creating the BizTalk Server Receive Location
  Click **OK** to close the WCF-Custom Transport Properties dialog box and then click **OK** again to close the Receive Location Properties dialog box.
 
 ### Create a BizTalk Server Send Port
- Follow the steps in the topic [How to Create a Send Port](https://go.microsoft.com/fwlink/?LinkID=154845) (https://go.microsoft.com/fwlink/?LinkID=154845) in the BizTalk Server documentation to create a **Static One-Way** Send Port. When creating the Send port, leave all properties at default values except as noted in the table below:
+ Follow the steps in the topic [How to Create a Send Port](../core/how-to-create-a-send-port2.md) (https://go.microsoft.com/fwlink/?LinkID=154845) in the BizTalk Server documentation to create a **Static One-Way** Send Port. When creating the Send port, leave all properties at default values except as noted in the table below:
 
 |Property|Value|
 |--------------|-----------|

@@ -20,7 +20,7 @@ Because of the critical role that SQL Server plays in any BizTalk Server environ
   
 ## Set NTFS File Allocation Unit
   
-SQL Server stores its data in **Extents**, which are collections of eight physically contiguous 8K pages, or 64 KB. Therefore, to optimize disk performance, set the NTFS Allocation Unit size to 64KB as described in the “Disk Configuration Best Practices” at  [Predeployment I/O Best Practices](https://msdn.microsoft.com/library/cc966412.aspx).  
+SQL Server stores its data in **Extents**, which are collections of eight physically contiguous 8K pages, or 64 KB. Therefore, to optimize disk performance, set the NTFS Allocation Unit size to 64KB as described in the “Disk Configuration Best Practices” at  [Predeployment I/O Best Practices](/previous-versions/sql/sql-server-2005/administrator/cc966412(v=technet.10)).  
   
 ## Considerations for the version and edition of SQL Server  
  Various versions and editions of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] provide different features that can affect the performance of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment. For example, under high-load conditions, the number of database locks that are available for the 32-bit version of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] might be exceeded, which is detrimental to the performance of the BizTalk solution. Consider housing your MessageBox database on a 64-bit version of SQL Server if you are experiencing "out of lock" errors in your test environment. The number of available locks is significantly higher on the 64-bit version of SQL Server.  

@@ -27,7 +27,7 @@ Visual Studio can generate load simulating up to 250 virtual users on a local lo
   
   Test results were stored in a remote load test results repository in a SQL Server database.  
   
-  For more information about using test controllers and test agents to distribute load tests across multiple test machines, see [Distributing Load Tests Across Multiple Test Machines Using Test Controllers and Test Agents](https://msdn.microsoft.com/library/dd728093.aspx).  
+  For more information about using test controllers and test agents to distribute load tests across multiple test machines, see [Distributing Load Tests Across Multiple Test Machines Using Test Controllers and Test Agents](/previous-versions/dd728093(v=vs.140)).  
   
 ## Install and Configure the Load Test Controller and Load Test Agents  
- To install and configure the load test controller and load test agents, see [Install and configure test agents](https://docs.microsoft.com/visualstudio/test/lab-management/install-configure-test-agents).
+ To install and configure the load test controller and load test agents, see [Install and configure test agents](/visualstudio/test/lab-management/install-configure-test-agents).
