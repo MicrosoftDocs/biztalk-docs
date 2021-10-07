@@ -18,13 +18,13 @@ manager: "anneta"
 There are multiple options for tracing, which can help to capture problems in the consumer, service components, provider, networking and host data source.
 
 ## SQL consumer tracing using SQL Server Profiler
- SQL Server Profiler is a graphical user interface to SQL Trace for monitoring an instance of the Database Engine or Analysis Services. You can capture and save data about each event to a file or table to analyze later. For more information, see [Introducing SQL Server Profiler](https://go.microsoft.com/fwlink/?LinkID=180433) (https://go.microsoft.com/fwlink/?LinkID=180433).
+ SQL Server Profiler is a graphical user interface to SQL Trace for monitoring an instance of the Database Engine or Analysis Services. You can capture and save data about each event to a file or table to analyze later. For more information, see [Introducing SQL Server Profiler](/previous-versions/sql/sql-server-2008-r2/ms181091(v=sql.105)) (https://go.microsoft.com/fwlink/?LinkID=180433).
 
 ## Data provider tracing using Provider Trace Utility
  The HIS Trace Utility captures and saves information from the Microsoft DB2 and Informix network client connections, provider interfaces and data messages. For more information, see Trace Utility Help and SNA Trace Utility.
 
 ## Network tracing using Network Monitor
- The Network Monitor captures network traffic for display and analysis. It enables you to perform tasks such as analyzing previously captured data in user-defined methods, extracting data from defined protocol parsers. It includes a Distributed Data Management (DDM) parser for use with the HIS data network clients. Contact Microsoft Customer Support Services for a copy of the DDM parser. For more information, see [Network Monitor](https://go.microsoft.com/fwlink/?LinkID=180448) (https://go.microsoft.com/fwlink/?LinkID=180448).
+ The Network Monitor captures network traffic for display and analysis. It enables you to perform tasks such as analyzing previously captured data in user-defined methods, extracting data from defined protocol parsers. It includes a Distributed Data Management (DDM) parser for use with the HIS data network clients. Contact Microsoft Customer Support Services for a copy of the DDM parser. For more information, see [Network Monitor](/windows/win32/netmon2/network-monitor) (https://go.microsoft.com/fwlink/?LinkID=180448).
 
 ## DB2 server tracing using IBM tools
  For more information, see the IBM DB2 Administration Guide for the applicable DB2 platform and version.
@@ -33,7 +33,7 @@ There are multiple options for tracing, which can help to capture problems in th
  For more information, see the IBM Informix Administration Guide for the applicable Informix platform and version.
 
 ## Windows Server events using Event Viewer
- The Event Viewer is a Microsoft Management Console (MMC) snap-in that enables you to browse and manage event logs. For more information, see [Event Viewer](https://go.microsoft.com/fwlink/?LinkID=131274) (https://go.microsoft.com/fwlink/?LinkID=131274).
+ The Event Viewer is a Microsoft Management Console (MMC) snap-in that enables you to browse and manage event logs. For more information, see [Event Viewer](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc766042(v=ws.11)) (https://go.microsoft.com/fwlink/?LinkID=131274).
 
 ## Host File Client and Data Provider Tracing
  Host File Client and ADO.NET Data Provider for Host Files (Host File Client) supports a Microsoft Host Integration Text Trace Listener that is configured using a HIDT (Host Integration Tracing Definition) configuration file that is referenced in the system diagnostics element of the data consumer app.config file.

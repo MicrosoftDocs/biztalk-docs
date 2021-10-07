@@ -31,9 +31,9 @@ BizTalk Server introduces a unit testing feature that can be enabled on the **De
 
  For more information about the unit testing feature introduced with BizTalk Server, see the following topics in the BizTalk Server Help:
 
--   [Using the Unit Testing Feature with Schemas and Maps](https://go.microsoft.com/fwlink/?LinkId=150482) (https://go.microsoft.com/fwlink/?LinkId=150482).
+-   [Using the Unit Testing Feature with Schemas and Maps](../core/using-the-unit-testing-feature-with-schemas-and-maps.md) (https://go.microsoft.com/fwlink/?LinkId=150482).
 
--   [Using the Unit Testing Feature with Pipelines](https://go.microsoft.com/fwlink/?LinkId=150483) (https://go.microsoft.com/fwlink/?LinkId=150483)
+-   [Using the Unit Testing Feature with Pipelines](../core/using-the-unit-testing-feature-with-pipelines.md) (https://go.microsoft.com/fwlink/?LinkId=150483)
 
 ## See Also
  [Implementing Automated Testing](../technical-guides/implementing-automated-testing.md)

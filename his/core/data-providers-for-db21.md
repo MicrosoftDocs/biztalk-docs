@@ -196,4 +196,4 @@ manager: "anneta"
 
 - ·sp_setdefaultdatatypemapping
 
-  For more information, see the [System Stored Procedures (Transact-SQL)](https://go.microsoft.com/fwlink/?LinkID=180765) (https://go.microsoft.com/fwlink/?LinkID=180765) topic in SQL Server Books Online.
+  For more information, see the [System Stored Procedures (Transact-SQL)](/previous-versions/sql/sql-server-2005/ms187961(v=sql.90)) (https://go.microsoft.com/fwlink/?LinkID=180765) topic in SQL Server Books Online.

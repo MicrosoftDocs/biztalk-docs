@@ -54,7 +54,7 @@ The DRDA Server logs events to the Microsoft Windows application and service log
 
    To display additional help for the eventvwr command-line tool, type the following command at a command prompt: **eventvwr /?**.
 
-   For the latest information about Event Viewer, see Event Viewer online ([https://go.microsoft.com/fwlink/?linkid=45698](https://go.microsoft.com/fwlink/?linkid=45698)).
+   For the latest information about Event Viewer, see Event Viewer online ([https://go.microsoft.com/fwlink/?linkid=45698](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc766042(v=ws.11))).
 
 ## MsDrdaService Logs
  The following DRDA Server events are recorded in the Microsoft Windows application and service log named “DrdaService”.

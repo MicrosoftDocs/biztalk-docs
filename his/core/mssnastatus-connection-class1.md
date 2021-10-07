@@ -105,7 +105,7 @@ class MsSnaStatus_Connection : MsSnaStatus_Config
 |[Start](../core/mssnastatus-connection-start-method1.md)|Starts the connection.|  
 |[Stop](../core/mssnastatus-connection-stop-method2.md)|Stops the connection.|  
   
- For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see [IWbemServices interface](https://msdn.microsoft.com/library/gg196568(v=vs.85).aspx).  
+ For more information on **GetObject**, **EnumerateInstances**, and **ExecMethod**, see [IWbemServices interface](/windows/win32/wmisdk/iwbemservices-methods).  
   
 ## Requirements  
  **Platforms**: Windows Server 2003 R2 SP2, Windows Vista SP2, Windows 7, Windows Server 2008 SP2, Windows Server 2012  

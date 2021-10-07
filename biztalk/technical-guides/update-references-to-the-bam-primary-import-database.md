@@ -17,7 +17,7 @@ manager: "anneta"
 # Update References to the BAM Primary Import Database
 If you backed up your BAM Primary Import database in the event of a system or data failure, you can restore that backup to a different computer and rename the backup.
 
- The BAM Event Bus service moves event data from the MessageBox database to the BAM Primary Import database. The BAM Event Bus service includes fault tolerance logic that enables it to recover and restart from an unexpected failure without losing any data. For more information about the BAM Event Bus service, see the topic [Managing the BAM Event Bus Service](https://go.microsoft.com/fwlink/?LinkID=154194) (https://go.microsoft.com/fwlink/?LinkID=154194).
+ The BAM Event Bus service moves event data from the MessageBox database to the BAM Primary Import database. The BAM Event Bus service includes fault tolerance logic that enables it to recover and restart from an unexpected failure without losing any data. For more information about the BAM Event Bus service, see the topic [Managing the BAM Event Bus Service](../core/managing-the-bam-event-bus-service.md) (https://go.microsoft.com/fwlink/?LinkID=154194).
 
  To restore the BAM Primary Import database, perform the steps in [How to Restore Databases in the Backup BizTalk Server Job](../technical-guides/how-to-restore-databases-in-the-backup-biztalk-server-job.md). In addition, you must update the BAM SSIS packages with the new server name and database name.
 
