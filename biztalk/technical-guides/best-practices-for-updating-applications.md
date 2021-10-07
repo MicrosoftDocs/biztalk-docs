@@ -72,7 +72,7 @@ This topic describes best practices that you should consider using when updating
 
   **Do not stop an artifact that another application depends on**
 
-- If you stop an artifact in one application (which may result from stopping the entire application) that another application depends on, the dependent application will not function correctly. For more information about stopping an application, see [How to Start and Stop a BizTalk Application](https://go.microsoft.com/fwlink/?LinkID=154729) (https://go.microsoft.com/fwlink/?LinkID=154729).
+- If you stop an artifact in one application (which may result from stopping the entire application) that another application depends on, the dependent application will not function correctly. For more information about stopping an application, see [How to Start and Stop a BizTalk Application](../core/how-to-start-and-stop-a-biztalk-application.md) (https://go.microsoft.com/fwlink/?LinkID=154729).
 
   **Add a reference to an assembly before moving an artifact**
 
@@ -81,7 +81,7 @@ This topic describes best practices that you should consider using when updating
 ## Updating Bindings
  **Automate the reconfiguration of bindings**
 
--   When you update an assembly in an application, its bindings are often overwritten or else the assembly may not be bound at all, forcing you to manually reconfigure bindings. You can automate this process by using a binding file. If you are updating the same version of an assembly, you can first export a binding file for the assembly, then update the assembly, then import the assembly into the application, and then reapply the previous bindings by importing the binding file. If you are updating an assembly with a newer version, you can export a binding file, edit the file to reflect the new assembly version, import the new assembly into the application, and then apply the new bindings by importing the binding file. For more information about binding files, see [How to Export Bindings to a Binding File](../technical-guides/how-to-export-bindings-to-a-binding-file.md). For more information about editing a binding file, see [Customizing Binding Files](https://go.microsoft.com/fwlink/?LinkID=155000) (https://go.microsoft.com/fwlink/?LinkID=155000).
+-   When you update an assembly in an application, its bindings are often overwritten or else the assembly may not be bound at all, forcing you to manually reconfigure bindings. You can automate this process by using a binding file. If you are updating the same version of an assembly, you can first export a binding file for the assembly, then update the assembly, then import the assembly into the application, and then reapply the previous bindings by importing the binding file. If you are updating an assembly with a newer version, you can export a binding file, edit the file to reflect the new assembly version, import the new assembly into the application, and then apply the new bindings by importing the binding file. For more information about binding files, see [How to Export Bindings to a Binding File](../technical-guides/how-to-export-bindings-to-a-binding-file.md). For more information about editing a binding file, see [Customizing Binding Files](../core/customizing-binding-files.md) (https://go.microsoft.com/fwlink/?LinkID=155000).
 
 ## Starting or Stopping an Application
  **Stop an application to update artifacts**

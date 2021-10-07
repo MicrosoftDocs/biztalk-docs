@@ -35,7 +35,7 @@ You use the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkse
  The following tables describe the databases used by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and identify which methods are used to back up the databases.
 
 ### Databases Backed Up by the Backup BizTalk Server Job
- The following table lists the databases that are backed up and restored as a part of the Backup BizTalk Server job. You can modify the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job to back up custom databases by adding them to the adm_OtherBackupDatabases table. For more information, see [How to Back Up Custom Databases](https://go.microsoft.com/fwlink/?LinkID=151569) (<https://go.microsoft.com/fwlink/?LinkID=151569>).
+ The following table lists the databases that are backed up and restored as a part of the Backup BizTalk Server job. You can modify the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job to back up custom databases by adding them to the adm_OtherBackupDatabases table. For more information, see [How to Back Up Custom Databases](../core/how-to-back-up-custom-databases.md) (<https://go.microsoft.com/fwlink/?LinkID=151569>).
 
 |Database|Default database name|Description|
 |--------------|---------------------------|-----------------|

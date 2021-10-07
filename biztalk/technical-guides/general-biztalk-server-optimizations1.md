@@ -43,7 +43,7 @@ To facilitate transactions between SQL Server and BizTalk Server, you must enabl
 > [!NOTE]
 >  While there are benefits to creating additional host instances, there are also potential drawbacks if too many host instances are created. Each host instance is a Windows service (BTSNTSvc.exe), which generates additional load against the MessageBox database and consumes computer resources (such as CPU, memory, threads).
 
- For more information about modifying BizTalk Server host properties, see [How to Modify Host Properties](https://go.microsoft.com/fwlink/?LinkID=154359) (https://go.microsoft.com/fwlink/?LinkID=154359) in the BizTalk Server 2010 Help.
+ For more information about modifying BizTalk Server host properties, see [How to Modify Host Properties](../core/how-to-modify-host-properties.md) (https://go.microsoft.com/fwlink/?LinkID=154359) in the BizTalk Server 2010 Help.
 
 ### Configure a dedicated tracking host
  BizTalk Server is optimized for throughput, so the main orchestration and messaging engines do not actually move messages directly to the BizTalk Tracking or BAM databases, as this would divert these engines from their primary job of executing business processes. Instead, BizTalk Server leaves the messages in the MessageBox database and marks them as requiring a move to the BizTalk Tracking database. A background process (the tracking host) then moves the messages to the BizTalk Tracking and BAM databases. Because tracking is a resource-intensive operation, a separate host should be created that is dedicated to tracking, thereby minimizing the impact that tracking has on hosts dedicated to message processing. For optimal performance, there should be least one tracking host instance per MessageBox database. The actual number of tracking host instances should be N + 1, where N = the number of MessageBox databases. The "+ 1" is for redundancy, in case one of the computers hosting tracking fails.
@@ -56,7 +56,7 @@ To facilitate transactions between SQL Server and BizTalk Server, you must enabl
 
 - Because data is not moved, it cannot be deleted from the MessageBox database.
 
-- When the Tracking Data Decode service is stopped, tracking interceptors will still fire and write tracking data to the MessageBox database. If the data is not moved, this will cause the MessageBox database to become bloated, which will impact performance over time. Even if custom properties are not tracked or BAM profiles are not set up, by default some data is tracked (such as pipeline receive / send events and orchestration events). If you do not want to run the Tracking Data Decode service, turn off all tracking so that no interceptors save data to the database. To disable global tracking, see [How to Turn Off Global Tracking](https://go.microsoft.com/fwlink/?LinkID=154193) (https://go.microsoft.com/fwlink/?LinkID=154193) in BizTalk Server 2010 Help. Use the BizTalk Server Administration console to selectively disable tracking events.
+- When the Tracking Data Decode service is stopped, tracking interceptors will still fire and write tracking data to the MessageBox database. If the data is not moved, this will cause the MessageBox database to become bloated, which will impact performance over time. Even if custom properties are not tracked or BAM profiles are not set up, by default some data is tracked (such as pipeline receive / send events and orchestration events). If you do not want to run the Tracking Data Decode service, turn off all tracking so that no interceptors save data to the database. To disable global tracking, see [How to Turn Off Global Tracking](../core/how-to-turn-off-global-tracking.md) (https://go.microsoft.com/fwlink/?LinkID=154193) in BizTalk Server 2010 Help. Use the BizTalk Server Administration console to selectively disable tracking events.
 
   The tracking host should be run on at least two computers running BizTalk Server (for redundancy in case one fails). For optimal performance, you should have at least one tracking host instance per MessageBox database. The actual number of tracking host instances should be (N + 1), where N = the number of MessageBox databases. The "+ 1" is for redundancy, in case one of the computers hosting tracking fails.
 
@@ -64,9 +64,9 @@ To facilitate transactions between SQL Server and BizTalk Server, you must enabl
 
   For more information about the BAM Event Bus service, see the following topics in BizTalk Server 2010 Help:
 
-- [Managing the BAM Event Bus Service](https://go.microsoft.com/fwlink/?LinkID=154194) (https://go.microsoft.com/fwlink/?LinkID=154194).
+- [Managing the BAM Event Bus Service](../core/managing-the-bam-event-bus-service.md) (https://go.microsoft.com/fwlink/?LinkID=154194).
 
-- [Creating Instances of the BAM Event Bus Service](https://go.microsoft.com/fwlink/?LinkID=154195) (https://go.microsoft.com/fwlink/?LinkID=154195).
+- [Creating Instances of the BAM Event Bus Service](../core/creating-instances-of-the-bam-event-bus-service.md) (https://go.microsoft.com/fwlink/?LinkID=154195).
 
 ### Do not cluster BizTalk hosts unless absolutely necessary
  While BizTalk Server 2010 allows you to configure a BizTalk host as a cluster resource, you should only consider doing this if you need to provide high availability to a resource that cannot be hosted across multiple BizTalk computers. As an example, ports using the FTP adapter should only reside on one host instance, as the FTP protocol does not provide file locking. However, this introduces a single point of failure, which would benefit from clustering. Hosts that contain adapters, such as file, SQL, HTTP or processing only hosts, can be internally load balanced across computers, and do not benefit from clustering.
@@ -98,7 +98,7 @@ To facilitate transactions between SQL Server and BizTalk Server, you must enabl
 
  **\<add address="<https://www.contoso.com>" maxconnection="24" /\>**
 **\<add address="<http://www.contoso.com:8080>" maxconnection="24" /\>**
-**\<add address="http://*IPAddress*" maxconnection="24" /\>**  For more information about tuning IIS and ASP.NET settings for Web services, see the "ASP.NET settings that can impact HTTP  Adapter performance" section of [Configuration Parameters that Affect Adapter Performance](https://go.microsoft.com/fwlink/?LinkID=154200) (<https://go.microsoft.com/fwlink/?LinkID=154200>) in BizTalk Server 2010 Help.
+**\<add address="http://*IPAddress*" maxconnection="24" /\>**  For more information about tuning IIS and ASP.NET settings for Web services, see the "ASP.NET settings that can impact HTTP  Adapter performance" section of [Configuration Parameters that Affect Adapter Performance](../core/configuration-parameters-that-affect-adapter-performance.md) (<https://go.microsoft.com/fwlink/?LinkID=154200>) in BizTalk Server 2010 Help.
 
 ## Manage ASP.NET thread usage or concurrently executing requests for Web applications that can host  isolated received locations, back-end Web services and WCF services
  The number of worker and I/O threads (IIS 7.5 and IIS 7.0 in classic mode) or the number of concurrently executing requests (IIS 7.5 and 7.0 integrated mode) for an ASP.NET Web application that hosts isolated received locations, back-end Web services and WCF services should be modified under the following conditions:
@@ -149,7 +149,7 @@ To facilitate transactions between SQL Server and BizTalk Server, you must enabl
  **To set the maxConcurrentRequestsPerCPU value in the registry**
 
 > [!WARNING]
->  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see Microsoft Knowledge Base article 256986 [Windows registry information for advanced users](https://go.microsoft.com/fwlink/?LinkId=62729) (https://go.microsoft.com/fwlink/?LinkId=62729).
+>  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see Microsoft Knowledge Base article 256986 [Windows registry information for advanced users](/troubleshoot/windows-server/performance/windows-registry-advanced-users) (https://go.microsoft.com/fwlink/?LinkId=62729).
 
 > [!NOTE]
 >  This setting is global and cannot be changed for individual application pools or applications.
@@ -184,17 +184,17 @@ To facilitate transactions between SQL Server and BizTalk Server, you must enabl
 > [!NOTE]
 >  This value overrides the value specified for **maxConcurrentRequestsPerCPU** in the registry. The requestQueueLimit setting is the same as processModel/requestQueueLimit, except that the setting in the aspnet.config file will override the setting in the machine.config file.
 
- For more information about configuring ASP.NET Thread Usage on IIS 7.0, see [Thomas Marquardt's Blog on ASP.NET Thread Usage on IIS 7.0](https://go.microsoft.com/fwlink/?LinkId=157518) (https://go.microsoft.com/fwlink/?LinkId=157518).
+ For more information about configuring ASP.NET Thread Usage on IIS 7.0, see [Thomas Marquardt's Blog on ASP.NET Thread Usage on IIS 7.0](/archive/blogs/tmarq/) (https://go.microsoft.com/fwlink/?LinkId=157518).
 
 ### Manage the number of concurrently executing requests for ASP.NET 4Web applications that can host isolated received locations, back-end Web services and WCF services on IIS 7.5 and 7.0 running in Integrated mode
- With .NET Framework 4, the default setting for maxConcurrentRequestsPerCPU is 5000, which is a very large number and therefore will allow plenty of asynchronous requests to execute concurrently. For more information, see [\<applicationPool\> Element (Web Settings)](https://go.microsoft.com/fwlink/?LinkID=205339) (https://go.microsoft.com/fwlink/?LinkID=205339).
+ With .NET Framework 4, the default setting for maxConcurrentRequestsPerCPU is 5000, which is a very large number and therefore will allow plenty of asynchronous requests to execute concurrently. For more information, see [\<applicationPool\> Element (Web Settings)](/dotnet/framework/configure-apps/file-schema/web/applicationpool-element-web-settings) (https://go.microsoft.com/fwlink/?LinkID=205339).
 
  For IIS 7.5 and IIS 7.0 Integrated mode, a DWORD named MaxConcurrentRequestsPerCPU within HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0 determines the number of concurrent requests per CPU. By default, the registry key does not exist and the number of requests per CPU is limited to 5000.
 
  **To set the maxConcurrentRequestsPerCPU value in the registry**
 
 > [!WARNING]
->  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see Microsoft Knowledge Base article 256986 [Windows registry information for advanced users](https://go.microsoft.com/fwlink/?LinkId=62729) (https://go.microsoft.com/fwlink/?LinkId=62729).
+>  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see Microsoft Knowledge Base article 256986 [Windows registry information for advanced users](/troubleshoot/windows-server/performance/windows-registry-advanced-users) (https://go.microsoft.com/fwlink/?LinkId=62729).
 
 > [!NOTE]
 >  This setting is global and cannot be changed for individual application pools or applications.
@@ -277,12 +277,12 @@ To facilitate transactions between SQL Server and BizTalk Server, you must enabl
 
     The orchestration tracking option “Shape start and end” incurs significant overhead and should not be enabled in a production environment where high throughput is necessary. Orchestration tracking options are accessible in the BizTalk Administration console on the **Tracking** page of the Orchestration Properties dialog box.
 
-  For more information about configuring tracking, see [Configuring Tracking Using the BizTalk Server Administration Console](https://go.microsoft.com/fwlink/?LinkId=158021) (https://go.microsoft.com/fwlink/?LinkId=158021).
+  For more information about configuring tracking, see [Configuring Tracking Using the BizTalk Server Administration Console](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkId=158021).
 
 ## Decrease the purging period for the DTA Purge and Archive job from 7 days to 2 days in high throughput scenarios
  By default, the purging interval for tracking data in BizTalk Server is set to 7 days. In a high throughput scenario, this can result in an excessive build up of data in the Tracking database, which will eventually impact the performance of the MessageBox and in turn negatively impact message processing throughput.
 
- In high throughput scenarios, reduce the hard and soft purging interval from the default of 7 days to 2 days. For more information about configuring the purging interval, see [How to Configure the DTA Purge and Archive Job](https://go.microsoft.com/fwlink/?LinkID=153814) (https://go.microsoft.com/fwlink/?LinkID=153814) in the BizTalk Server 2010 Help.
+ In high throughput scenarios, reduce the hard and soft purging interval from the default of 7 days to 2 days. For more information about configuring the purging interval, see [How to Configure the DTA Purge and Archive Job](../core/how-to-configure-the-dta-purge-and-archive-job.md) (https://go.microsoft.com/fwlink/?LinkID=153814) in the BizTalk Server 2010 Help.
 
 ## Configure the %temp% path for the BizTalk Service account to point to a separate disk or LUN
  This should be done because BizTalk uses the temp location to stream files to disk when performing complex mapping operations.
@@ -293,15 +293,15 @@ To facilitate transactions between SQL Server and BizTalk Server, you must enabl
 ## Performance optimizations in the BizTalk Server documentation
  Apply the following recommendations from the BizTalk Server documentation as appropriate:
 
--   [Troubleshooting MessageBox Latency Issues](https://go.microsoft.com/fwlink/?LinkId=158019) (https://go.microsoft.com/fwlink/?LinkId=158019)
+-   [Troubleshooting MessageBox Latency Issues](../core/troubleshooting-messagebox-latency-issues.md) (https://go.microsoft.com/fwlink/?LinkId=158019)
 
--   [Identifying Performance Bottlenecks](https://go.microsoft.com/fwlink/?LinkID=154238) (https://go.microsoft.com/fwlink/?LinkID=154238)
+-   [Identifying Performance Bottlenecks](../core/identifying-performance-bottlenecks.md) (https://go.microsoft.com/fwlink/?LinkID=154238)
 
--   [Avoiding DBNETLIB Exceptions](https://go.microsoft.com/fwlink/?LinkID=155308) (https://go.microsoft.com/fwlink/?LinkID=155308)
+-   [Avoiding DBNETLIB Exceptions](../core/avoiding-dbnetlib-exceptions.md) (https://go.microsoft.com/fwlink/?LinkID=155308)
 
 -   [Avoiding TCP/IP Port Exhaustion](https://go.microsoft.com/fwlink/?LinkID=153240) (https://go.microsoft.com/fwlink/?LinkID=153240)
 
--   [Setting the EPM Threadpool Size](https://go.microsoft.com/fwlink/?LinkId=158020) (https://go.microsoft.com/fwlink/?LinkId=158020)
+-   [Setting the EPM Threadpool Size](../core/setting-the-epm-threadpool-size.md) (https://go.microsoft.com/fwlink/?LinkId=158020)
 
 ## See Also
  [Optimizing BizTalk Server Performance](../technical-guides/optimizing-biztalk-server-performance.md)

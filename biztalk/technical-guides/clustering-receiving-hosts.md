@@ -38,7 +38,7 @@ BizTalk Server provides functionality that allows you to configure a BizTalk Hos
 
 - Running a receive adapter that supports ordered delivery with a clustered BizTalk host
 
-  For more information about these scenarios, see [Considerations for Running Adapter Handlers within a Clustered Host](https://go.microsoft.com/fwlink/?LinkId=151284) (https://go.microsoft.com/fwlink/?LinkId=151284).
+  For more information about these scenarios, see [Considerations for Running Adapter Handlers within a Clustered Host](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md) (https://go.microsoft.com/fwlink/?LinkId=151284).
 
 ## See Also
  [Scaling Out Receiving Hosts](../technical-guides/scaling-out-receiving-hosts.md)

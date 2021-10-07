@@ -25,4 +25,4 @@ Most vendor management packs are sealed so that you cannot change any of the ori
 
 - It is easier to track and update customizations to individual management packs.
 
-  For more information about sealed and unsealed management packs, see [Management Pack Formats](https://go.microsoft.com/fwlink/?LinkID=198193) (https://go.microsoft.com/fwlink/?LinkId=198193). For more information about management pack customizations, see [Customizing Management Packs](https://go.microsoft.com/fwlink/?LinkID=198194) (https://go.microsoft.com/fwlink/?LinkID=198194).
+  For more information about sealed and unsealed management packs, see [Management Pack Formats](/previous-versions/system-center/operations-manager-2007-r2/dd788946(v=technet.10)) (https://go.microsoft.com/fwlink/?LinkId=198193). For more information about management pack customizations, see [Customizing Management Packs](/previous-versions/system-center/operations-manager-2007-r2/cc974483(v=technet.10)) (https://go.microsoft.com/fwlink/?LinkID=198194).
