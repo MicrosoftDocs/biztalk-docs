@@ -42,7 +42,7 @@ Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md
 
   The Oracle data source is the same as specified in the connection URI.
 
-  The performance counter is initialized only after the adapter makes the first call to the Oracle database. Also, the InstanceLifetime property of the performance counter is set to 'Process', which means that the performance counter ceases to exist as soon as the program that creates the counter terminates. For more information about the `InstanceLifetime property`, see [https://go.microsoft.com/fwlink/p/?LinkId=104181](https://go.microsoft.com/fwlink/p/?LinkId=104181).
+  The performance counter is initialized only after the adapter makes the first call to the Oracle database. Also, the InstanceLifetime property of the performance counter is set to 'Process', which means that the performance counter ceases to exist as soon as the program that creates the counter terminates. For more information about the `InstanceLifetime property`, see [https://go.microsoft.com/fwlink/p/?LinkId=104181](/dotnet/api/system.diagnostics.performancecounter.instancelifetime).
 
 > [!NOTE]
 >  The precision of the LOB Time (Cumulative) performance counter is 16 milliseconds.

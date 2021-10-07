@@ -23,7 +23,7 @@ You can configure the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.m
   
  You configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] to poll and Oracle database table or view by setting binding properties on an instance of **OracleDBBinding**. In the WCF channel model, you then use this binding to build a channel listener from which you can get an **IInputChannel** channel to receive the POLLINGSTMT operation from the adapter.  
   
- For an overview of how to receive operations using an **IInputChannel** in WCF, see [Service Channel-Level Programming](https://msdn.microsoft.com/library/ms789029.aspx). 
+ For an overview of how to receive operations using an **IInputChannel** in WCF, see [Service Channel-Level Programming](/dotnet/framework/wcf/extending/service-channel-level-programming). 
   
  The sections in this topic provide information to help you perform polling on Oracle database tables and views using the WCF channel model.  
   

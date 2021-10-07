@@ -29,7 +29,7 @@ You can configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracl
 > [!CAUTION]
 >  If there is a network outage between the Oracle database and the adapter client, the notifications will not be sent to the adapter clients for the changes done on the Oracle database during the period of network outage, and thereafter. Therefore, you must use the Polling operation instead of the Notification operation for critical scenarios.
 
- The topics in this section provide information on how to configure the adapter for each of these scenarios. To start getting notifications from the Oracle database using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], you must specify certain binding properties. For more information about the binding properties related to notifications, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx). For more information about structure of notification messages, see [Message Schemas for the Notification Operation](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-the-notification-operation1.md).
+ The topics in this section provide information on how to configure the adapter for each of these scenarios. To start getting notifications from the Oracle database using the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], you must specify certain binding properties. For more information about the binding properties related to notifications, see [Working with binding properties](./read-about-the-oracle-database-adapter-binding-properties.md). For more information about structure of notification messages, see [Message Schemas for the Notification Operation](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-the-notification-operation1.md).
 
  For receiving notifications from the Oracle database, make sure:
 
@@ -41,7 +41,7 @@ You can configure the [!INCLUDE[adapteroracle_short](../../includes/adapteroracl
     grant change notification to <user name>
     ```
 
--   Decide on a TCP port you want ODP.NET to use for receiving database change notifications from Oracle database. Add that port to Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](https://go.microsoft.com/fwlink/?LinkID=196959). You must provide the same port number for the **NotificationPort** binding property. For more information about the binding property, see [Working with binding properties](https://msdn.microsoft.com/library/dd788467.aspx).
+-   Decide on a TCP port you want ODP.NET to use for receiving database change notifications from Oracle database. Add that port to Windows Firewall exceptions list. For instructions on how to add ports to Windows Firewall exceptions list, see [https://go.microsoft.com/fwlink/?LinkID=196959](/previous-versions/orphan-topics/ws.11/cc753558(v=ws.11)). You must provide the same port number for the **NotificationPort** binding property. For more information about the binding property, see [Working with binding properties](./read-about-the-oracle-database-adapter-binding-properties.md).
 
 ## In This Section
 
