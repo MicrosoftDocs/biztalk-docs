@@ -184,7 +184,7 @@ SMTP Server is included with server operating systems as a **Feature**.
 
 ## Install Excel 2019 or 2016 (optional)
 
-If you use Business Activity Monitoring (BAM), BizTalk Server requires Excel. If you don't use BAM, you can skip this section.
+If you plan to use the BAM Add-In for Excel on this computer, Excel is required. Otherwise, you can skip this section.
 
 The BAM Office Excel Workbook defines the business processes you want to monitor. You also use the BAM Excel Workbook to define the way business users see the data collected by BAM.
 
