@@ -149,8 +149,7 @@ To remove an identity setting for a send port, delete all the values of the **1.
 
 ## See Also
 
-[The \<identity\> element](https://go.microsoft.com/fwlink/?linkid=75747)
+[The \<identity\> element](/dotnet/framework/configure-apps/file-schema/wcf/identity)
 [Managing BizTalk Hosts and Host Instances](https://msdn.microsoft.com/library/aa561042\(v=bts.80\))
 [How to Change Service Accounts and Passwords](https://msdn.microsoft.com/library/aa561505\(v=bts.80\))
-[Specifying the Identity of a Service for Authentication](https://go.microsoft.com/fwlink/?linkid=88889)
-
+[Specifying the Identity of a Service for Authentication](/dotnet/framework/wcf/feature-details/service-identity-and-authentication)

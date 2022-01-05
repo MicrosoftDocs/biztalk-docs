@@ -41,7 +41,7 @@ This topic provides best practices for monitoring your Microsoft BizTalk Server 
 
   -   [Microsoft BizTalk Server Management Pack for System Center Operations Manager 2007](https://go.microsoft.com/fwlink/?LinkID=190339) (https://go.microsoft.com/fwlink/?LinkID=190339).
 
-  -   [How to Import a Management Pack in Operations Manager 2007](https://go.microsoft.com/fwlink/?LinkID=98348) (https://go.microsoft.com/fwlink/?LinkID=98348)
+  -   [How to Import a Management Pack in Operations Manager 2007](/previous-versions//bb309620(v=technet.10)) (https://go.microsoft.com/fwlink/?LinkID=98348)
 
   -   [How to Mark BizTalk Server Databases for Customized Monitoring](../technical-guides/how-to-mark-biztalk-server-databases-for-customized-monitoring.md)
 

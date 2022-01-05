@@ -33,7 +33,7 @@ You must be logged on with an account that is a member of the [!INCLUDE[btsSQLSe
 
 1. Stop any BAM cube update and data maintenance SSIS packages, or prevent them from running until you have restored the BAM Star Schema database.
 
-2. Stop all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](https://go.microsoft.com/fwlink/?LinkId=154394) (<https://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+2. Stop all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md) (<https://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
 3. Stop the IIS service.
 
@@ -45,11 +45,11 @@ You must be logged on with an account that is a member of the [!INCLUDE[btsSQLSe
 
         **Net stop NS$BamAlerts**
 
-5. Back up the BAM Star Schema database on the old server. For instructions on backing up a database, follow the instructions at [How to: Back Up a Database (SQL Server Management Studio)](https://go.microsoft.com/fwlink/?LinkId=156510) (<https://go.microsoft.com/fwlink/?LinkId=156510>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to back up a database.
+5. Back up the BAM Star Schema database on the old server. For instructions on backing up a database, follow the instructions at [How to: Back Up a Database (SQL Server Management Studio)](/sql/relational-databases/backup-restore/create-a-full-database-backup-sql-server) (<https://go.microsoft.com/fwlink/?LinkId=156510>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to back up a database.
 
 6. Copy the BAM Star Schema database to the new [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] computer.
 
-7. Restore the BAM Star Schema database on the new server. For instructions on restoring the database, follow the instructions at [How to: Restore a Database Backup (SQL Server Management Studio)](https://go.microsoft.com/fwlink/?LinkId=156511) (<https://go.microsoft.com/fwlink/?LinkId=156511>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to restore a database.
+7. Restore the BAM Star Schema database on the new server. For instructions on restoring the database, follow the instructions at [How to: Restore a Database Backup (SQL Server Management Studio)](/sql/relational-databases/backup-restore/restore-a-database-backup-using-ssms) (<https://go.microsoft.com/fwlink/?LinkId=156511>) in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Books Online on how to restore a database.
 
 ##  <a name="BKMK_StarUpdate"></a> Updating References to the New BAM Star Schema Database
  After you have moved the database, you must update all the references to the new BAM Star Schema Database. The following references must be updated:
@@ -81,7 +81,7 @@ You must be logged on with an account that is a member of the [!INCLUDE[btsSQLSe
        **Bm.exe get-config –filename:BAMConfiguration.xml -server:\<servername\> -database:\<database\>**
 
       > [!NOTE]
-      >  When running this command, substitute the actual name of the server from which to get the configuration information for \<servername\> and substitute the actual name of the database from which to get the configuration information for \<database\>. For more information about using the BAM Management (BM) utility, see [Infrastructure Management Commands](https://go.microsoft.com/fwlink/?LinkId=156516) (<https://go.microsoft.com/fwlink/?LinkId=156516>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+      >  When running this command, substitute the actual name of the server from which to get the configuration information for \<servername\> and substitute the actual name of the database from which to get the configuration information for \<database\>. For more information about using the BAM Management (BM) utility, see [Infrastructure Management Commands](../core/infrastructure-management-commands.md) (<https://go.microsoft.com/fwlink/?LinkId=156516>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
 2. Edit the BAMConfiguration.xml file and change the **ServerName** in the `<DeploymentUnit Name="StarSchemaDatabase">` section to the new server name.
 
@@ -174,7 +174,7 @@ You must be logged on with an account that is a member of the [!INCLUDE[btsSQLSe
 
 5. In the **Connection Manager** dialog box, in the **Server name** box, enter the name of the server hosting the BAMStarSchema database, click **OK**, and then click **OK**.
 
-6. Start all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](https://go.microsoft.com/fwlink/?LinkId=154394) (<https://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+6. Start all [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] services. For more information, see the topic [How To Start, Stop, Pause, Resume, or Restart BizTalk Server Services](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md) (<https://go.microsoft.com/fwlink/?LinkId=154394>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
 7. Start the IIS service.
 
@@ -186,7 +186,7 @@ You must be logged on with an account that is a member of the [!INCLUDE[btsSQLSe
 
         **Net start NS$BamAlerts**
 
-9. Resolve any incomplete trace instances.  For information about resolving incomplete BAM activity instances, see [How to Resolve Incomplete Activity Instances](https://go.microsoft.com/fwlink/?LinkId=151475) (https://go.microsoft.com/fwlink/?LinkId=151475).
+9. Resolve any incomplete trace instances.  For information about resolving incomplete BAM activity instances, see [How to Resolve Incomplete Activity Instances](../core/how-to-resolve-incomplete-activity-instances.md) (https://go.microsoft.com/fwlink/?LinkId=151475).
 
 > [!TIP]
 >  As a good practice, you should also move the BAM_AN_* SSIS packages to the server hosting the BAMStarSchema database.

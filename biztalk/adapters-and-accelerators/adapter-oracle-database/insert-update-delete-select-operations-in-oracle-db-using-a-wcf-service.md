@@ -88,7 +88,7 @@ public partial class SCOTTTableACCOUNTACTIVITYClient : System.ServiceModel.Clien
   
    For more detailed information about how to create a WCF client class and invoke operations on the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)], see [Overview of the WCF Service Model with the Oracle Database Adapter](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md).  
   
-   The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] executes each operation inside of a transaction on the Oracle database. You can control the isolation level of this transaction by setting the **TransactionIsolationLevel** binding property. For more information about the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] binding properties, see [Working with BizTalk Adapter for Oracle Database Binding Properties](https://msdn.microsoft.com/library/dd788467.aspx).  
+   The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] executes each operation inside of a transaction on the Oracle database. You can control the isolation level of this transaction by setting the **TransactionIsolationLevel** binding property. For more information about the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] binding properties, see [Working with BizTalk Adapter for Oracle Database Binding Properties](./read-about-the-oracle-database-adapter-binding-properties.md).  
   
    The following sections provide details about how to invoke each basic SQL operation in your code.  
   

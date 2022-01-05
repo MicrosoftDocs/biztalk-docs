@@ -58,11 +58,11 @@ class MSBTS_ServiceInstance : MSBTS_BTSObject
 <td>Caption (Inherited from <code>CIM_ManagedSystemElement</code><br />
 <br />
 )</td>
-<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-managedsystemelement">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td>Description (Inherited from <code>CIM_ManagedSystemElement</code>)</td>
-<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-managedsystemelement">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="even">
 <td><a href="msbts-serviceinstance-errorcategory-property-wmi.md">ErrorCategory</a></td>
@@ -82,7 +82,7 @@ class MSBTS_ServiceInstance : MSBTS_BTSObject
 </tr>
 <tr class="even">
 <td>InstallDate (Inherited from <code>CIM_ManagedSystemElement</code>)</td>
-<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-managedsystemelement">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-serviceinstance-instanceid-property-wmi.md">InstanceID</a></td>
@@ -106,7 +106,7 @@ class MSBTS_ServiceInstance : MSBTS_BTSObject
 </tr>
 <tr class="even">
 <td>Name (Inherited from <code>CIM_ManagedSystemElement</code>)</td>
-<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-managedsystemelement">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-serviceinstance-pendingoperation-property-wmi.md">PendingOperation</a></td>
@@ -138,7 +138,7 @@ class MSBTS_ServiceInstance : MSBTS_BTSObject
 </tr>
 <tr class="even">
 <td>Status (Inherited from <code>CIM_ManagedSystemElement</code>)</td>
-<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="https://go.microsoft.com/fwlink/?linkid=20245">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
+<td>For more information about the <code>CIM_ManagedSystemElement</code> class, see the Windows Management Instrumentation documentation at <a href="/windows/win32/cimwin32prov/cim-managedsystemelement">https://go.microsoft.com/fwlink/?LinkID=20245</a>.</td>
 </tr>
 <tr class="odd">
 <td><a href="msbts-serviceinstance-suspendtime-property-wmi.md">SuspendTime</a></td>

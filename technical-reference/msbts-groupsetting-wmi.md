@@ -64,6 +64,7 @@ class MSBTS\_GroupSetting : MSBTS\_Setting
 | [TrackingDBName](msbts-groupsetting-trackingdbname-property-wmi.md) | Gets the name of the tracking SQL database. |
 | [TrackingDBServerName](msbts-groupsetting-trackingdbservername-property-wmi.md) | Gets the name of the server running SQL Server where the tracking database is located. |
 
+
 **MSBTS\_GroupSetting** defines the following methods:
 
 | Method | Description |

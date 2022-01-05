@@ -68,7 +68,7 @@ To provide scale out metrics for BizTalk Server, tests were performed with one, 
 1.  The Visual Studio 2010 Ultimate edition load testing functionality generates an XML message and sends it to the computer running BizTalk Server with the NetTcp transport.
 
     > [!NOTE]
-    >  For more information about Visual Studio 2010 Ultimate edition load testing, see  HYPERLINK ""  [Testing the Application](https://go.microsoft.com/fwlink/?LinkID=208247) (https://go.microsoft.com/fwlink/?LinkID=208247).
+    >  For more information about Visual Studio 2010 Ultimate edition load testing, see  HYPERLINK ""  [Testing the Application](/previous-versions/visualstudio/visual-studio-2012/bb385901(v=vs.110)) (https://go.microsoft.com/fwlink/?LinkID=208247).
     >
     >  For more information about how we used the Visual Studio 2010 Ultimate edition load testing functionality in our test environment, see [Using Visual Studio to Facilitate Automated Testing](../technical-guides/using-visual-studio-to-facilitate-automated-testing.md).
 
@@ -164,7 +164,7 @@ To provide scale out metrics for BizTalk Server, tests were performed with one, 
 
 We used the SQLIO tool to benchmark and measure the Input/Output capacity of the storage area network (SAN) configuration used in our lab environment. As the name of the tool implies, SQLIO is a valuable tool for measuring the impact of file system I/O on SQL Server performance.
 
-To measure Input/Output capacity of the storage area network (SAN) configuration for SQL Server database applications, see [Analyzing I/O Characteristics and Sizing Storage Systems for SQL Server Database Applications](https://msdn.microsoft.com/library/ee410782(SQL.100).aspx).
+To measure Input/Output capacity of the storage area network (SAN) configuration for SQL Server database applications, see [Analyzing I/O Characteristics and Sizing Storage Systems for SQL Server Database Applications](/previous-versions/sql/sql-server-2008/ee410782(v=sql.100)).
 
 For our SQLIO test, the sqlio.exe utility issues 8K read requests from 8 threads and maintain an I/O queue depth of 8. We used the following parameters:
 

@@ -103,4 +103,4 @@ manager: "anneta"
  Create a WCF-custom send port and configure it to use the maps you created in this step, as described in [Step 2: Configure the Orchestration in Biztalk Server Administration Console using the SQL adapter](../../adapters-and-accelerators/adapter-sql/step-2-configure-the-orchestration-to-use-the-sql-adapter-in-biztalk-server.md).  
   
 ## See Also  
- [Tutorial: Migrating BizTalk Projects](https://msdn.microsoft.com/library/dd788186(v=bts.80).aspx)
+ [Tutorial: Migrating BizTalk Projects](./tutorial-migrate-biztalk-projects-to-the-oracle-database-adapter.md)

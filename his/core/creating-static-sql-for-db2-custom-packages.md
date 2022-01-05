@@ -22,7 +22,7 @@ manager: "anneta"
 >  The Data Access Tool does not offer an option for creating custom static SQL packages. The following sections of this document provide more information on these static SQL technologies.
 
 ## Create Custom Packages Class
- This section describes how to automate the creation of custom packages using the classes in the **Microsoft.HostIntegration.DataAccessLibrary** namespace. For the online version of the reference documentation, see [Microsoft.HostIntegration.DataAccessLibrary Namespace](https://go.microsoft.com/fwlink/?LinkID=180763) (https://go.microsoft.com/fwlink/?LinkID=180763).
+ This section describes how to automate the creation of custom packages using the classes in the **Microsoft.HostIntegration.DataAccessLibrary** namespace. For the online version of the reference documentation, see [Microsoft.HostIntegration.DataAccessLibrary Namespace](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=180763).
 
  **DataAccessControl.CreateCustomPackages Method**
 

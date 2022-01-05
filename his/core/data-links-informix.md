@@ -117,10 +117,10 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
  Table x. DBMS Platform values.
 
 ### Host CCSID
- The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. This required property accepts a string value. The default value is Unicode – UTF8 [1208]. For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. This required property accepts a string value. The default value is Unicode – UTF8 [1208]. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
 ### PC Code Page
- The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. This required property accepts a string value. The default value is Unicode – UTF8 [1208]. Typically, data consumers use either Unicode or ANSI (American National Standards Institute). For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) ([https://go.microsoft.com/fwlink/?LinkID=181017](https://go.microsoft.com/fwlink/?LinkID=181017)).
+ The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. This required property accepts a string value. The default value is Unicode – UTF8 [1208]. Typically, data consumers use either Unicode or ANSI (American National Standards Institute). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) ([https://go.microsoft.com/fwlink/?LinkID=181017](/previous-versions/)).
 
 ### Options
 
@@ -220,7 +220,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
  The Extended Properties is an optional property accepts a string value. The default value is an empty string. Optionally, you can specify additional comma-separated property value pairs that the consumer will pass to the Data Provider at connection time.
 
 ### Host CCSID
- The Host CCSID (Coded Character Set Identifier) property instructs the Data Provider to encode/decode character strings using based on an encoding scheme (ANSI, EBCDIC, ISO, or Unicode) that is compatible with the database server. This required property accepts a string value. The default value is Unicode – UTF8 [1208]. For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ The Host CCSID (Coded Character Set Identifier) property instructs the Data Provider to encode/decode character strings using based on an encoding scheme (ANSI, EBCDIC, ISO, or Unicode) that is compatible with the database server. This required property accepts a string value. The default value is Unicode – UTF8 [1208]. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
 ### Initial Catalog
  The Initial Catalog property instructs the Data Provider to connect to an initial catalog (database) on the Informix database server. This required property accepts a string value of up to 128 bytes. The default value is an empty string.
@@ -250,7 +250,7 @@ Data consumers, such as Visual Studio and SQL Server, use the Data Links dialog 
  The Password property instructs the Data Provider the password value to use when connecting to an Informix database server using interactive sign-on authentication. Interactive sign-on security relies on a user name and password that you enter at runtime or that is stored in a configuration file or data consumer configuration store, such as an Integration Services package. This optional property accepts a string value. The default value is an empty string. Informix running on Windows operating systems accepts a 14 character password.
 
 ### PC Code Page
- The PC Code Page property instructs the Data Provider to encode/decode character strings using based on an encoding scheme (ANSI, EBCDIC, ISO, or Unicode) that is compatible with the data consumer program. This required property accepts a string value. The default value is Unicode – UTF8 [1208]. Typically, data consumers use either Unicode or ANSI (American National Standards Institute). For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) ([https://go.microsoft.com/fwlink/?LinkID=181017](https://go.microsoft.com/fwlink/?LinkID=181017)).
+ The PC Code Page property instructs the Data Provider to encode/decode character strings using based on an encoding scheme (ANSI, EBCDIC, ISO, or Unicode) that is compatible with the data consumer program. This required property accepts a string value. The default value is Unicode – UTF8 [1208]. Typically, data consumers use either Unicode or ANSI (American National Standards Institute). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) ([https://go.microsoft.com/fwlink/?LinkID=181017](/previous-versions/)).
 
 ### Persist Security Info
  The Persist Security Info property instructs the data consumer or service component to persist security information, such as password, together with other authentication information. This optional property accepts a Boolean value. The default value is false. Choosing this option saves the user name and password in plain text. It is not possible to encrypt the user name or password using this method. Server security can be compromised if an attacker can gain access to the file share on which the UDL or text file is located.

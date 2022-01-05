@@ -116,11 +116,11 @@ You can customize the default data conversions by using the SQL Server Integrati
 
  After you edit a mapping file, you must close and reopen the SQL Server Import and Export Wizard or the Business Intelligence Development Studio, depending on the environment in which you are working.
 
- For more information about configuring SQL Server 2008 Integration Services, see the [Importing and Exporting Data by Using the SQL Server Import and Export Wizard](https://go.microsoft.com/fwlink/?LinkId=193204)) topic in SQL Server Books Online (https://go.microsoft.com/fwlink/?LinkId=193204).
+ For more information about configuring SQL Server 2008 Integration Services, see the [Importing and Exporting Data by Using the SQL Server Import and Export Wizard](/previous-versions/sql/sql-server-2008-r2/ms141209(v=sql.105))) topic in SQL Server Books Online (https://go.microsoft.com/fwlink/?LinkId=193204).
 
 ### Customizing Data Flow Components
  You can use SQL Server Integration Services Data Flow Components to perform default and customized transformations. The customized transformations are based on developer-provided custom code.
 
  The SQL Server Integration Services mapping files in XML format are for use with the Import and Export Wizard. These files are not for use with the Data Flow. SQL Server Integration Services offers a Pipeline Buffer class to allow enterprise developers to customize data mapping within the Data Flow.
 
- For more information about customizing data flow components using SQL Server 2008 Integration Services, see the [Working with Data Types in the Data Flow](https://go.microsoft.com/fwlink/?LinkId=193208) topic in SQL Server Books Online (https://go.microsoft.com/fwlink/?LinkId=193208).
+ For more information about customizing data flow components using SQL Server 2008 Integration Services, see the [Working with Data Types in the Data Flow](/previous-versions/sql/sql-server-2008-r2/ms345165(v=sql.105)) topic in SQL Server Books Online (https://go.microsoft.com/fwlink/?LinkId=193208).

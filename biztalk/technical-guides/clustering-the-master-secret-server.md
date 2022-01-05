@@ -45,7 +45,7 @@ The BizTalk Server application service maintains a hard-coded dependency upon th
 
 5. Update the master secret name in the Management database.
 
-   For detailed steps on clustering the master secret server, see [How to Cluster the Master Secret Server](https://go.microsoft.com/fwlink/?LinkId=156839) (<https://go.microsoft.com/fwlink/?LinkId=156839>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+   For detailed steps on clustering the master secret server, see [How to Cluster the Master Secret Server](../core/how-to-cluster-the-master-secret-server1.md) (<https://go.microsoft.com/fwlink/?LinkId=156839>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
 ## See Also
  [Designating a New Master Secret Server Manually](../technical-guides/designating-a-new-master-secret-server-manually.md)

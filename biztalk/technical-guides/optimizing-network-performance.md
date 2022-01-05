@@ -20,7 +20,7 @@ In a BizTalk Server environment where the BizTalk Server computer is separate fr
  This section provides some general recommendations for improving network performance and describes several registry entries that can be modified to optimize the network stack to mitigate the occurrence of bottlenecks on the network.
 
 > [!IMPORTANT]
->  Some of the recommendations in this section require modifications to the Windows registry. Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article [256896, "Windows registry information for advanced users"](https://go.microsoft.com/fwlink/?LinkId=62729) (https://go.microsoft.com/fwlink/?LinkId=62729).
+>  Some of the recommendations in this section require modifications to the Windows registry. Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article [256896, "Windows registry information for advanced users"](/troubleshoot/windows-server/performance/windows-registry-advanced-users) (https://go.microsoft.com/fwlink/?LinkId=62729).
 
 ## In This Section
 

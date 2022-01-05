@@ -69,6 +69,5 @@ The default is an empty string.</td>
 
 [How to Configure a WCF-Custom Send Port](https://msdn.microsoft.com/library/bb226446\(v=bts.80\))
 [WCF Adapters Property Schema and Properties](https://msdn.microsoft.com/library/bb245991\(v=bts.80\))
-[The \<identity\> element](https://go.microsoft.com/fwlink/?linkid=75747)
+[The \<identity\> element](/dotnet/framework/configure-apps/file-schema/wcf/identity)
 [Configuring Dynamic Send Ports Using WCF Adapters Context Properties](https://msdn.microsoft.com/library/bb727706\(v=bts.80\))
-

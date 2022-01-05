@@ -76,7 +76,7 @@ msiexec /x HIS2016_Server_EN.msi /quiet
 
  Verify the uninstallation by going to ***drive*:\Program Files\Microsoft Host Integration Server 2016**, and confirming the files are removed.
 
- For a list of MSIEXEC command line options, read the [Installer documentation](https://go.microsoft.com/fwlink/p/?LinkId=799793) (https://go.microsoft.com/fwlink/p/?LinkId=799793).
+ For a list of MSIEXEC command line options, read the [Installer documentation](/windows/win32/msi/command-line-options) (https://go.microsoft.com/fwlink/p/?LinkId=799793).
 
 ## Unattended Configuration
 **Configure using the command:**
@@ -116,4 +116,3 @@ $cs = $c | Get-HisFeature -CommonSettings
 $cs.EnableTelemetry = $false
 $c.Apply()
 ```
-

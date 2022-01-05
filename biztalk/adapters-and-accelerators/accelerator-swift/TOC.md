@@ -223,5 +223,5 @@
 #### [Miscellaneous Troubleshooting](miscellaneous-troubleshooting.md)
 ### [Known Issues](known-issues5.md)
 ## [Common terms and definitions](glossary6.md)
-## [API namespace reference](https://docs.microsoft.com/dotnet/api/?view=bts-swift-dotnet)
-## [Message Pack API namespace reference](https://docs.microsoft.com/dotnet/api/?view=bts-swift-msg-pack)
+## [API namespace reference](/dotnet/api/?view=bts-swift-dotnet)
+## [Message Pack API namespace reference](/dotnet/api/?view=bts-swift-msg-pack)

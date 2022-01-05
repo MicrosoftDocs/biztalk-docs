@@ -28,7 +28,7 @@ manager: "anneta"
 
 - Because data is not moved, it cannot be deleted from the MessageBox database.
 
-- When the Tracking Data Decode service is stopped, tracking interceptors will still run and write tracking data to the MessageBox database. If the data is not moved, this will cause the MessageBox database to become bloated, which will affect performance over time. Even if custom properties are not tracked or BAM profiles are not set up, by default some data is tracked (such as pipeline receive / send events and orchestration events). If you do not want to run the Tracking Data Decode service, turn off all tracking so that no interceptors save data to the database. To disable global tracking, see [How to Turn Off Global Tracking](https://go.microsoft.com/fwlink/?LinkId=154193) (<https://go.microsoft.com/fwlink/?LinkId=154193>) Use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to selectively disable tracking events.
+- When the Tracking Data Decode service is stopped, tracking interceptors will still run and write tracking data to the MessageBox database. If the data is not moved, this will cause the MessageBox database to become bloated, which will affect performance over time. Even if custom properties are not tracked or BAM profiles are not set up, by default some data is tracked (such as pipeline receive / send events and orchestration events). If you do not want to run the Tracking Data Decode service, turn off all tracking so that no interceptors save data to the database. To disable global tracking, see [How to Turn Off Global Tracking](../core/how-to-turn-off-global-tracking.md) (<https://go.microsoft.com/fwlink/?LinkId=154193>) Use the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console to selectively disable tracking events.
 
 ## Optimizing Performance for a Dedicated Tracking Host
  This host should be run on at least two computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] (for redundancy in case one fails). For optimal performance, you should have at least one tracking host instance per MessageBox database. The actual number of tracking host instances should be N + 1, where N = the number of MessageBox databases. The "+ 1" is for redundancy. There is no benefit to adding more than that, because only one tracking host instance can move data for a specific MessageBox database. As a result, locking should never be an issue. The one additional tracking host instance is added for fault tolerance; if one of the tracking host instances fails, the additional instance will assume the duties of the failed instance.
@@ -37,9 +37,9 @@ manager: "anneta"
 
  For more information about the BAM Event Bus service, see the following topics in BizTalk Server Help:
 
--   [Managing the BAM Event Bus Service](https://go.microsoft.com/fwlink/?LinkId=154194) (https://go.microsoft.com/fwlink/?LinkId=154194)
+-   [Managing the BAM Event Bus Service](../core/managing-the-bam-event-bus-service.md) (https://go.microsoft.com/fwlink/?LinkId=154194)
 
--   [Creating Instances of the BAM Event Bus Service](https://go.microsoft.com/fwlink/?LinkId=154195) (https://go.microsoft.com/fwlink/?LinkId=154195)
+-   [Creating Instances of the BAM Event Bus Service](../core/creating-instances-of-the-bam-event-bus-service.md) (https://go.microsoft.com/fwlink/?LinkId=154195)
 
 ## Configuring a Dedicated Tracking Host
  To perform the procedure in this section, you must have the following user rights for modifying host properties to allow host tracking:

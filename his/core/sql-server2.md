@@ -25,7 +25,7 @@ Here is an overview of the features and functionality in SQL Server.
 
 -   [SQL Server 2012 Technical Articles](https://go.microsoft.com/fwlink/?LinkId=198253) (https://go.microsoft.com/fwlink/?LinkId=198253)
 
--   [SQL Server 2012 Books Online](https://go.microsoft.com/fwlink/?LinkId=198254) (https://go.microsoft.com/fwlink/?LinkId=198254)
+-   [SQL Server 2012 Books Online](/sql/sql-server/) (https://go.microsoft.com/fwlink/?LinkId=198254)
 
 ## Integration Services
 
@@ -33,9 +33,9 @@ SQL Server Integration Services (SSIS) provides a scalable enterprise data integ
 
 **SQL Server SSIS Resources**
 
--   [Integration Services](https://docs.microsoft.com/sql/integration-services/sql-server-integration-services)
+-   [Integration Services](/sql/integration-services/sql-server-integration-services)
 
--   [What's New Integration Services](https://go.microsoft.com/fwlink/?LinkId=198256)
+-   [What's New Integration Services](/sql/integration-services/what-s-new-in-integration-services-in-sql-server-2016)
 
 ## Analysis Services
 SQL Server Analysis Services brings powerful new capabilities that allow analytical applications to scale to millions of records and thousands of users. You can use it to consolidate relational and multidimensional data that includes business entities, business logic, calculations, and metrics. It also provides an enhanced data mining engine and improved algorithms, and strengthens the powerful data mining framework represented by the extensible .NET programming model. Improved interoperability with Office 2010 enables business users to access multidimensional data directly from within Excel and SharePoint.
@@ -44,16 +44,16 @@ SQL Server Analysis Services brings powerful new capabilities that allow analyti
 
  **SQL Server Analysis Services Resources**
 
--   [What is Analysis Services](https://docs.microsoft.com/sql/analysis-services/analysis-services)
+-   [What is Analysis Services](/sql/analysis-services/analysis-services)
 
--   [SQL Server Analysis Services - Multidimensional Models](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/multidimensional-models-ssas)
+-   [SQL Server Analysis Services - Multidimensional Models](/sql/analysis-services/multidimensional-models/multidimensional-models-ssas)
 
--   [SQL Server Analysis Services - Data Mining](https://docs.microsoft.com/sql/analysis-services/data-mining/data-mining-ssas)
+-   [SQL Server Analysis Services - Data Mining](/sql/analysis-services/data-mining/data-mining-ssas)
 
 ## Reporting Services
 SQL Server Reporting Services provides a complete, server-based platform designed to support a wide variety of reporting needs across enterprise organizations. Reporting Services contains new and improved features for creating and deploying reports as well as support for consuming SharePoint lists and PowerPivot models as data sources. For more information on Reporting Services, see the resources listed below.
 
-See [What is Reporting Services](https://docs.microsoft.com/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports).
+See [What is Reporting Services](/sql/reporting-services/create-deploy-and-manage-mobile-and-paginated-reports).
 
 ## Replication
 SQL Server replication consists of a set of technologies that allow you to distribute and synchronize data to different locations and to remote or mobile users over local and wide area networks, dial-up connections, wireless connections, and the Internet.
@@ -62,9 +62,9 @@ IBM DB2 subscribers can subscribe to snapshot and transactional publications usi
 
  **SQL Server Replication Resources**
 
--   [Replication](https://docs.microsoft.com/sql/relational-databases/replication/sql-server-replication)
+-   [Replication](/sql/relational-databases/replication/sql-server-replication)
 
--   [Non-SQL Server Subscribers](https://docs.microsoft.com/sql/relational-databases/replication/non-sql/non-sql-server-subscribers)
+-   [Non-SQL Server Subscribers](/sql/relational-databases/replication/non-sql/non-sql-server-subscribers)
 
 ## Next
 

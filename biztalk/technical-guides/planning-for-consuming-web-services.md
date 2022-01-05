@@ -29,11 +29,11 @@ Planning for Web services can be divided into two categories, planning for publi
 
 - **Using XLANG/s Keywords**
 
-   A Web service name or a Web method name cannot be a keyword in an XLANG/s. If you use an XLANG/s keyword in the Web service name or Web method name, you will get a compilation error when you add the Web service. For a list of reserved words for the XLANG/s language, see the [XLANG/s Reserved Words](https://go.microsoft.com/fwlink/?LinkId=155765) (https://go.microsoft.com/fwlink/?LinkId=155765).
+   A Web service name or a Web method name cannot be a keyword in an XLANG/s. If you use an XLANG/s keyword in the Web service name or Web method name, you will get a compilation error when you add the Web service. For a list of reserved words for the XLANG/s language, see the [XLANG/s Reserved Words](../core/xlang-s-reserved-words.md) (https://go.microsoft.com/fwlink/?LinkId=155765).
 
 - **Required XLANG/s Support for Parameter Types**
 
-   Using non-XLANG/s supported Web method parameter types will cause compilation errors. For example, BizTalk Server does not support a parameter that consists of a single dimensional array of schema types. In addition, BizTalk Server does not support multidimensional arrays. For a list of words that XLANG/s language reserves in BizTalk Server, see [XLANG/s Reserved Words](https://go.microsoft.com/fwlink/?LinkId=155765) (https://go.microsoft.com/fwlink/?LinkId=155765).
+   Using non-XLANG/s supported Web method parameter types will cause compilation errors. For example, BizTalk Server does not support a parameter that consists of a single dimensional array of schema types. In addition, BizTalk Server does not support multidimensional arrays. For a list of words that XLANG/s language reserves in BizTalk Server, see [XLANG/s Reserved Words](../core/xlang-s-reserved-words.md) (https://go.microsoft.com/fwlink/?LinkId=155765).
 
 - **Avoiding Compilation Errors Caused by Adding Web References Containing C# Keywords or Identifiers**
 
@@ -47,7 +47,7 @@ Planning for Web services can be divided into two categories, planning for publi
 
 - **Support for Consuming Arrays Exposed by Web Services**
 
-   BizTalk Server can consume one dimensional and jagged arrays exposed by Web services that are not BizTalk Server Web services. For more information about how to consume Web service arrays, see [How to Consume Web Service Arrays](https://go.microsoft.com/fwlink/?LinkId=155766) (https://go.microsoft.com/fwlink/?LinkId=155766).
+   BizTalk Server can consume one dimensional and jagged arrays exposed by Web services that are not BizTalk Server Web services. For more information about how to consume Web service arrays, see [How to Consume Web Service Arrays](../core/how-to-consume-web-service-arrays.md) (https://go.microsoft.com/fwlink/?LinkId=155766).
 
   > [!NOTE]
   >  Multi dimensional array syntax is not supported. For example, *MyArray[1,5]*.
@@ -70,7 +70,7 @@ Planning for Web services can be divided into two categories, planning for publi
 
    `Failed to retrieve the message part for parameter %1`
 
-   For more information, see [How to Consume Web Services in a Messaging-Only Scenario](https://go.microsoft.com/fwlink/?LinkId=155767) (https://go.microsoft.com/fwlink/?LinkId=155767).
+   For more information, see [How to Consume Web Services in a Messaging-Only Scenario](../core/how-to-consume-web-services-in-a-messaging-only-scenario.md) (https://go.microsoft.com/fwlink/?LinkId=155767).
 
 - **Configuring a SOAP Send Port Programmatically**
 
@@ -79,7 +79,7 @@ Planning for Web services can be divided into two categories, planning for publi
   > [!NOTE]
   >  To configure the **MethodName** property for the static SOAP send port programmatically, you need to set **Method name** to **[Specify Later]** in the **Web Service** tab of the **SOAP Transport Properties** dialog box in the BizTalk Server Administration console.
 
-   For more information about the **MethodName** property, see [How to Dynamically Set the URI of a Consumed Web Service](https://go.microsoft.com/fwlink/?LinkID=155768) (https://go.microsoft.com/fwlink/?LinkID=155768).
+   For more information about the **MethodName** property, see [How to Dynamically Set the URI of a Consumed Web Service](../core/how-to-dynamically-set-the-uri-of-a-consumed-web-service.md) (https://go.microsoft.com/fwlink/?LinkID=155768).
 
 - **Property Rules**
 
@@ -95,7 +95,7 @@ Planning for Web services can be divided into two categories, planning for publi
 
   - For more information about custom pipeline components, see [Developing Custom Pipeline Components](https://go.microsoft.com/fwlink/?LinkId=155769) (https://go.microsoft.com/fwlink/?LinkId=155769).
 
-  - For more information about the configuration properties of the SOAP send adapter, see [How to Dynamically Set the URI of a Consumed Web Service](https://go.microsoft.com/fwlink/?LinkID=155768) (https://go.microsoft.com/fwlink/?LinkID=155768).
+  - For more information about the configuration properties of the SOAP send adapter, see [How to Dynamically Set the URI of a Consumed Web Service](../core/how-to-dynamically-set-the-uri-of-a-consumed-web-service.md) (https://go.microsoft.com/fwlink/?LinkID=155768).
 
 - **Adding a Web Reference to a Consumed Web Service That Contains a Multi-Rooted Schema Will Cause a Compilation Error**
 

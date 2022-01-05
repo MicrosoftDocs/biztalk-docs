@@ -36,4 +36,4 @@ The Microsoft OLE DB Provider for DB2 (Data Provider) lets you create distribute
 
 - Help through on-line user documentation.
 
-  The Data Provider is designed and tested for use with multiple versions of Microsoft SQL Server and SQL Server Data Tools. The Data Provider is based on technology in Microsoft Host Integration Server (HIS). For more information about Microsoft HIS, see [Microsoft HIS Documentation](https://go.microsoft.com/fwlink/?LinkId=799230).
+  The Data Provider is designed and tested for use with multiple versions of Microsoft SQL Server and SQL Server Data Tools. The Data Provider is based on technology in Microsoft Host Integration Server (HIS). For more information about Microsoft HIS, see [Microsoft HIS Documentation](../index.yml).

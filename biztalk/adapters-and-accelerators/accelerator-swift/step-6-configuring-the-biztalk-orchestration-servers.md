@@ -29,7 +29,7 @@ This section provides guidelines on configuring the BizTalk Orchestration server
 
    - How To Use DTCTester Tool, located at [https://go.microsoft.com/fwlink/?linkid=48871](https://go.microsoft.com/fwlink/?linkid=48871).
 
-   - If DTC is behind a firewall, see Configuring Microsoft Distributed Transaction Coordinator (DTC) to Work Through a Firewall, located at [https://go.microsoft.com/fwlink/?linkid=48872](https://go.microsoft.com/fwlink/?linkid=48872).
+   - If DTC is behind a firewall, see Configuring Microsoft Distributed Transaction Coordinator (DTC) to Work Through a Firewall, located at [https://go.microsoft.com/fwlink/?linkid=48872](/troubleshoot/windows-server/application-management/configure-dtc-to-work-through-firewalls).
 
 2. Install additional software prerequisites for BizTalk Server, and install and configure BizTalk Server, as described in [Installing and Configuring BizTalk Server on the Orchestration Servers](../../adapters-and-accelerators/accelerator-swift/installing-and-configuring-biztalk-server-on-the-orchestration-servers.md).
 

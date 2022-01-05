@@ -87,5 +87,4 @@ Default value: 200</td>
 
 [How to Configure a WCF-NetMsmq Receive Location](https://msdn.microsoft.com/library/bb259976\(v=bts.80\))
 [Ordered Delivery of Messages](https://msdn.microsoft.com/library/aa559637\(v=bts.80\))
-[Sending and Retrieving Messages within a Transaction](https://go.microsoft.com/fwlink/?linkid=75752)
-
+[Sending and Retrieving Messages within a Transaction](/documentation/)

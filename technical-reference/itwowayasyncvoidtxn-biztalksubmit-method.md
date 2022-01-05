@@ -35,5 +35,4 @@ This method throws the **NotSupportedException** if called.
 
 ## See Also
 
-[NotSupportedException Class](https://go.microsoft.com/fwlink/?linkid=88629)
-
+[NotSupportedException Class](/dotnet/api/system.notsupportedexception)

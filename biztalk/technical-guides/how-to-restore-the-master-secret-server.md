@@ -15,7 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # How to Restore the Master Secret Server
-For information about restoring the master secret server, see [How to Restore the Master Secret](https://go.microsoft.com/fwlink/?LinkId=151394) (https://go.microsoft.com/fwlink/?LinkId=151394).
+For information about restoring the master secret server, see [How to Restore the Master Secret](../core/how-to-restore-the-master-secret.md) (https://go.microsoft.com/fwlink/?LinkId=151394).
 
 > [!NOTE]
->  In order to restore the SSO master secret, you must have previously created a backup of the SSO master secret by following the steps at [How to Back Up the Master Secret](https://go.microsoft.com/fwlink/?LinkId=151395) (https://go.microsoft.com/fwlink/?LinkId=151395).
+>  In order to restore the SSO master secret, you must have previously created a backup of the SSO master secret by following the steps at [How to Back Up the Master Secret](../core/how-to-back-up-the-master-secret.md) (https://go.microsoft.com/fwlink/?LinkId=151395).

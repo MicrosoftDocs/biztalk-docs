@@ -136,7 +136,6 @@ The default is an empty string.</td>
 
 ## See Also
 
-[The \<binding\> element](https://go.microsoft.com/fwlink/?linkid=75753)
+[The \<binding\> element](/dotnet/framework/configure-apps/file-schema/wcf/bindings)
 [How to Configure a WCF-Custom Receive Location](https://msdn.microsoft.com/library/bb259941\(v=bts.80\))
 [How to Configure a WCF-CustomIsolated Receive Location](https://msdn.microsoft.com/library/bb226374\(v=bts.80\))
-

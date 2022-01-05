@@ -161,15 +161,15 @@ You can use the Data Source Wizard to guide you through the steps to configure a
  DB2 databases can be divided into multiple logical databases for administration purposes, each containing separate table spaces and index spaces. The optional database name instructs the Data Provider to use the `IN DATABASE` clause in SQL statements. DB2 for z/OS accepts an 8 byte string for database name and an 8 byte string for table space name. You can specify the database name only or database name combined with table space name, for example DBASE1.TSPACE1.
 
 ##  <a name="locale6"></a> Locale
- Optionally, to increase performance and reduce the impact on the remote database, you can select the coded character set identifier (CCSID) for the remote DB2 database (host) and local data consumer (PC). The Data Provider uses these values to convert character strings to a code page supported by these databases. The Data Provider supports a combination of single byte character sets (SBCS), mixed-byte character sets (MBCS) double-byte character sets (DBCS), and Unicode - UTF8 [1208], which is an 8-bit Unicode transformation format. For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ Optionally, to increase performance and reduce the impact on the remote database, you can select the coded character set identifier (CCSID) for the remote DB2 database (host) and local data consumer (PC). The Data Provider uses these values to convert character strings to a code page supported by these databases. The Data Provider supports a combination of single byte character sets (SBCS), mixed-byte character sets (MBCS) double-byte character sets (DBCS), and Unicode - UTF8 [1208], which is an 8-bit Unicode transformation format. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
  **Host CCSID**
 
- The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ The Data Provider requires a value for Host CCSID (Coded Character Set Identifier) with which to perform code page conversions on string data. The default Host CCSID value is EBCDIC – U.S./Canada [37]. Typically, IBM DB2 database servers for z/OS and i5/OS utilize EBCDIC (Extended Binary Coded Decimal Interchange Code). For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
  **PC Code page**
 
- The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode. For more information, see [SNA Internationalization Programmer's Reference](https://go.microsoft.com/fwlink/?LinkID=181017) (https://go.microsoft.com/fwlink/?LinkID=181017).
+ The Data Provider requires a value for PC Code Page with which to perform code page conversions on string data. The default PC code page is ANSI – Latin I [1252]. Typically, data consumers use either ANSI (American National Standards Institute) or Unicode. For more information, see [SNA Internationalization Programmer's Reference](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkID=181017).
 
 ##  <a name="sec7"></a> Security
  The Security screen enables you to configure one of three security methods: interactive sign-on, single sign-on, or Kerberos.
@@ -237,7 +237,7 @@ You can use the Data Source Wizard to guide you through the steps to configure a
 
  **Kerberos**
 
- Kerberos relies on a ticket that contains encrypted credentials. For more information, see [Microsoft Kerberos](https://go.microsoft.com/fwlink/?LinkID=180764) (https://go.microsoft.com/fwlink/?LinkID=180764).
+ Kerberos relies on a ticket that contains encrypted credentials. For more information, see [Microsoft Kerberos](/windows/win32/secauthn/microsoft-kerberos) (https://go.microsoft.com/fwlink/?LinkID=180764).
 
  **Principal name**
 
