@@ -1865,6 +1865,10 @@
         - name: MSBTS_GroupSetting (WMI)
           href: msbts-groupsetting-wmi.md
           items:
+          - name: MSBTS_GroupSetting.AllowTrackingSettingsImport Property (WMI)
+            href: msbts-groupsetting-allowtrackingsettingsimport-property-wmi.md
+          - name: MSBTS_GroupSetting.AuditingEnabled Property (WMI)
+            href: msbts-groupsetting-auditingenabled-property-wmi.md
           - name: MSBTS_GroupSetting.BamDBName Property (WMI)
             href: msbts-groupsetting-bamdbname-property-wmi.md
           - name: MSBTS_GroupSetting.BamDBServerName Property (WMI)
@@ -1875,6 +1879,8 @@
             href: msbts-groupsetting-biztalkb2boperatorgroup-property-wmi.md
           - name: MSBTS_GroupSetting.BizTalkOperatorGroup Property (WMI)
             href: msbts-groupsetting-biztalkoperatorgroup-property-wmi.md
+          - name: MSBTS_GroupSetting.BizTalkReadOnlyUserGroup Property (WMI)
+            href: msbts-groupsetting-biztalkreadonlyusergroup-property-wmi.md
           - name: MSBTS_GroupSetting.ConfigurationCacheRefreshInterval Property (WMI)
             href: msbts-groupsetting-configurationcacherefreshinterval-property-wmi.md
           - name: MSBTS_GroupSetting.GlobalTrackingOption Property (WMI)
@@ -1885,6 +1891,8 @@
             href: msbts-groupsetting-lmsthreshold-property-wmi.md
           - name: MSBTS_GroupSetting.MajorVersion Property (WMI)
             href: msbts-groupsetting-majorversion-property-wmi.md
+          - name: MSBTS_GroupSetting.MaxAuditEntries Property (WMI)
+            href: msbts-groupsetting-maxauditentries-property-wmi.md
           - name: MSBTS_GroupSetting.MgmtDbName Property (WMI)
             href: msbts-groupsetting-mgmtdbname-property-wmi.md
           - name: MSBTS_GroupSetting.MgmtDbServerName Property (WMI)
@@ -1895,6 +1903,10 @@
             href: msbts-groupsetting-name-property-wmi.md
           - name: MSBTS_GroupSetting.PerfCounterCacheRefreshInterval Property (WMI)
             href: msbts-groupsetting-perfcountercacherefreshinterval-property-wmi.md
+          - name: MSBTS_GroupSetting.ReceiverFaultToleranceEnabled Property (WMI)
+            href: msbts-groupsetting-receiverfaulttoleranceenabled-property-wmi.md
+          - name: MSBTS_GroupSetting.ReceiverFaultToleranceRetryInterval Property (WMI)
+            href: msbts-groupsetting-receiverfaulttoleranceretryinterval-property-wmi.md
           - name: MSBTS_GroupSetting.RegisterLocalServer Method (WMI)
             href: msbts-groupsetting-registerlocalserver-method-wmi.md
           - name: MSBTS_GroupSetting.RuleEngineDBName Property (WMI)

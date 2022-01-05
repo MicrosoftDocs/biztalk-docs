@@ -37,6 +37,10 @@ Use the **Customer Feedback Options** page to configure your server to collect i
 <td><strong>Send error reports directly to Microsoft</strong></td>
 <td>Select <strong>Send error reports directly to Microsoft</strong> to send error reports without reviewing.</td>
 </tr>
+<tr class="even">
+<td><strong>Yes, send feature usage reports to Microsoft</strong></td>
+<td>Select <strong>Yes, send feature usage reports to Microsoft</strong> to send feature usage data through the Customer Experience Improvement Program (CEIP).</td>
+</tr>
 </tbody>
 </table>
 

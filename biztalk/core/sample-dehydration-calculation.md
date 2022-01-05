@@ -33,7 +33,7 @@ Here is an example of a sample calculation, using private bytes, to determine if
   Since the **ActualPrivateBytes** are between **OptimalUsage** and **MaximalUsage**, alpha is calculated as:  
   
 ```  
-alpha(private) = (350 – 250) / 350 – 50)  
+alpha(private) = (350 – 250) / (350 – 50)  
 alpha(private) = 100 / 300  
 alpha(private) = 0.33  
 ```  

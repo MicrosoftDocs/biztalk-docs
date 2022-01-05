@@ -65,13 +65,13 @@ The minimum hardware and software requirements are the same as [!INCLUDE[btsBizT
 
 5. Select the **Typical** setup, and then select **Next**.
 
-6. The **Logging Service Account** page automatically gives the following groups the logging permissions:
+6. In the **Logging Service Account** page, update the textbox with correct groups that need logging permissions.  Use domain\groupname format in a multi-server environment.  The textbox is pre-populated with the following groups by default:
 
    * BizTalk Server Administrators
    * BizTalk Application Users
    * BizTalk Server B2B Operators
    * BizTalk Server Operators
-
+  
    Select **Next**.
 
 7. Review the summary, and select **Next**.
