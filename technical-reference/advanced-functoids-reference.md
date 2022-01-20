@@ -44,7 +44,7 @@ The following table shows the functoids in the **Advanced** category.
 <td>Used to explicitly indicate a looping relationship between a repeating structure in the source schema and a repeating structure in the destination schema.</td>
 </tr>
 <tr class="odd">
-<td><img src="images/Aa560018.8d9b71f3-8e19-4b2b-a393-3592b01e07f3(BTS.80).jpeg" alt=Icon that represents the Mass Copy functoid."/> <a href="mass-copy-functoid-reference.md">Mass Copy</a></td>
+<td><img src="images/Aa560018.8d9b71f3-8e19-4b2b-a393-3592b01e07f3(BTS.80).jpeg" alt="Icon that represents the Mass Copy functoid."/> <a href="mass-copy-functoid-reference.md">Mass Copy</a></td>
 <td>Recursively copies all data in an input instance message, to arbitrary depth, that corresponds to a specified node in the source schema to the specified position in an output instance message.</td>
 </tr>
 <tr class="even">

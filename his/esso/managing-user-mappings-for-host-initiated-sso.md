@@ -85,7 +85,7 @@ Use the following procedures to create mappings, set credentials (whenever the V
   
 2.  At the command prompt, go to the Enterprise Single Sign-On installation directory.  
   
-     The default is <drive>:Program FilesCommon FilesEnterprise Single Sign-On.  
+     The default is \<drive\>:\\Program Files\\Common Files\\Enterprise Single Sign-On.  
   
 3.  Type `ssomanage -disablemapping <Windows account name> <application name>`.  
   

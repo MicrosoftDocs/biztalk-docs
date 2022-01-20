@@ -93,7 +93,7 @@ Load tests run multiple instances of one or more unit tests so that you can meas
 13. Click the **File** menu and select **Save \<Load Test Name\>.loadtest As**.
 
     > [!NOTE]
-    >  In this example, <Load Test Name> will be the name assigned to the load test file by Visual Studio 2010, typically loadtestx.loadtest, unless the name of the file has already been manually changed.
+    >  In this example, \<Load Test Name\> will be the name assigned to the load test file by Visual Studio 2010, typically loadtestx.loadtest, unless the name of the file has already been manually changed.
 
 14. Save the file to the C:\Projects\LoadTest\BTSLoad\LoadTests directory created earlier. It may be useful to save the file with the name used for the scenario; in this example the scenario name is BTS_Messaging_Step so the loadtest file would be saved as C:\Projects\LoadTest\BTSLoad\LoadTests\BTS_Messaging_Step.loadtest.
 

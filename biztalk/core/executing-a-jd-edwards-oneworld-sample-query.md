@@ -344,7 +344,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
      **JDEdwards Environment:** \<enter your JDEOW environment\>  
   
-     **JDEdwards JAR files:** <enter full path of JAR files>  
+     **JDEdwards JAR files:** \<enter full path of JAR files\>  
   
      `C:JDEOWJarsBTSLIBInterop.jar; C:JDEOWJarsConnector.jar; C:JDEOWJarsKernel.jar;C:Program FilesMicrosoft BizTalk Adapters for Enterprise ApplicationsJ.D. Edwards OneWorld®ClassesJDEJAccess.jar`  
   
@@ -352,7 +352,7 @@ Next, create a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../includes/bts
   
      **Port:**  `6009`  
   
-     **User Name:** <enter your JD Edwards User Name>  
+     **User Name:** \<enter your JD Edwards User Name\>  
   
      ![Image that shows where to enter your user name.](../core/media/jdeow-transportproperties-configurebutton2.gif "JDEOW_TransportProperties_ConfigureButton2")  
   

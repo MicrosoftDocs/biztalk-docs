@@ -20,10 +20,6 @@ Service instance states and message instance states are displayed on the Group H
 The following table describes the service instance states on the Group Hub page.
 
 <table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Service Instance state value</th>
@@ -88,10 +84,6 @@ Note that when you suspend a scheduled instance and then resume it, the instance
 The following table describes the message instance states on the Group Hub page.
 
 <table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Message state value</th>

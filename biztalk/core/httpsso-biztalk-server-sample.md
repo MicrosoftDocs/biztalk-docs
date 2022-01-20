@@ -141,7 +141,7 @@ The HTTPSSO sample demonstrates how to use the Enterprise Single Sign-On (SSO) f
 
 8. Review the status messages corresponding to the IIS, SSO, and BizTalk configuration being performed. You can find the code that is run during this phase in the **IisConfigurator**, **SsoConfigurator**, and **BtsConfigurator** classes defined in the file SsoSample.cs. After configuration has completed, click **Next**.  
 
-9. On the final page of the wizard application, accept the default settings for **Start browser at** (a selected check box and a text box with the URL http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?<message/>), and then click **Finish**.  
+9. On the final page of the wizard application, accept the default settings for **Start browser at** (a selected check box and a text box with the URL http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?\<message\>), and then click **Finish**.  
 
      An instance of Internet Explorer will open, and soon display the sample employee data that you added to the Employee table of the Northwinds SQL database.  
 
@@ -170,7 +170,7 @@ The HTTPSSO sample demonstrates how to use the Enterprise Single Sign-On (SSO) f
 
 - Browse directly to the following URL in Internet Explorer:  
 
-   http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?<message/>  
+   http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll?\<message\>  
 
 - Run the wizard application again, but clear all of the configuration check boxes on the first page.  
 
