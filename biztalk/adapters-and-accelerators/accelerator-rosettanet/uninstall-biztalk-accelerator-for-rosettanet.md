@@ -33,11 +33,11 @@ We recommend backing up your BAM artifacts before undeploying.
   
     1.  At the command prompt, run the following command:  
   
-         ```cd %ProgramFiles%\\<BizTalk Server installation directory\>\Tracking```
+         ```cd %ProgramFiles%\<BizTalk Server installation directory>\Tracking```
   
     2.  At the command prompt where the tracking UI was installed, run the following command:  
   
-         ```bm remove-all DefinitionFile:"%ProgramFiles%\\<installation directory\>\BAMTracking\tracking.xml"```
+         ```bm remove-all DefinitionFile:"%ProgramFiles%\<installation directory>\BAMTracking\tracking.xml"```
   
         > [!NOTE]
         >  For more information about BAM, see [Managing Business Activity Monitoring](../../core/managing-bam.md) 
@@ -55,9 +55,9 @@ We recommend backing up your BAM artifacts before undeploying.
   
 4.  Undeploy any custom assemblies that you created and deployed.  
   
-5.  At the command prompt, go to \Program Files\Microsoft BizTalk Server <your version>\Tracking. Run the following command: 
+5.  At the command prompt, go to \Program Files\Microsoft BizTalk Server \<your version\>\Tracking. Run the following command:
 
-    ```BM UNDEPLOY ALL <drive\>:\Program Files\\<installation directory\>\BAMTracking\tracking.xml```
+    ```BM UNDEPLOY ALL <drive>:\Program Files\<installation directory>\BAMTracking\tracking.xml```
   
 ## Unconfigure BTARN
   

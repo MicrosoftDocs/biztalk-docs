@@ -87,7 +87,7 @@ You can use this procedure to move the BAM Notification Services database to ano
        **Bm.exe get-config –filename:BAMConfiguration.xml -server:\<servername\> -database:\<database\>**
 
       > [!NOTE]
-      >  When running this command, substitute the actual name of the server from which to get the configuration information for <servername> and substitute the actual name of the database from which to get the configuration information for <database>. For more information about using the BAM Management (BM) utility, see [Infrastructure Management Commands](../core/infrastructure-management-commands.md) (<https://go.microsoft.com/fwlink/?LinkId=156516>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+      >  When running this command, substitute the actual name of the server from which to get the configuration information for \<servername\> and substitute the actual name of the database from which to get the configuration information for \<database\>. For more information about using the BAM Management (BM) utility, see [Infrastructure Management Commands](../core/infrastructure-management-commands.md) (<https://go.microsoft.com/fwlink/?LinkId=156516>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
 2. Edit the BAMConfiguration.xml file and change the **DBServer** properties in the `<DeploymentUnit Name="Alert">` section to the new server name.
 
