@@ -149,11 +149,11 @@ After you complete the configuration, this sample works as follows:
 
    For comparison purposes, you can bypass BizTalk and SSO and browse directly to either of the ASPX files:  
 
-- `http://localhost/SsoSampleServerApplication/ValidateUser.aspx`  
+    - `http://localhost/SsoSampleServerApplication/ValidateUser.aspx`  
 
-- `http://localhost/SsoSampleServerApplication/EmployeeData.aspx`  
+    - `http://localhost/SsoSampleServerApplication/EmployeeData.aspx`  
 
-  In both cases, because you bypass BizTalk and SSO, you are prompted for your authentication information by IIS (use the local Windows account information you created previously).  
+   In both cases, because you bypass BizTalk and SSO, you are prompted for your authentication information by IIS (use the local Windows account information you created previously).  
 
 ## Comments
 
@@ -169,7 +169,7 @@ After you complete the configuration, this sample works as follows:
 
   You can use the SsoSample.exe wizard application to configure one or more affiliate applications. For each of these affiliate applications, you can create one or more user mappings. Each of these user mappings maps a Windows user account to an account that you use to access a specific back-end system. In this sample, that account is a local Windows account that you use to authenticate with the second IIS virtual directory that is simulating a genuine back-end system.  
 
-  To rerun this sample, you have several choices:  
+To rerun this sample, you have several choices:  
 
 - Browse directly to the following URL in Internet Explorer:  
 
@@ -179,9 +179,9 @@ After you complete the configuration, this sample works as follows:
 
 - Run the wizard application again, leave the configuration check boxes selected in the first page, but carefully and appropriately configure additional BizTalk items, affiliate applications, and so on, so that configuration errors do not occur.  
 
-  To clean up from this sample, use the following procedure.  
+To clean up from this sample, use the following procedure.  
 
-### To clean up from this sample  
+## To clean up from this sample  
 
 1. As appropriate, reverse the manual configuration that you performed, such as removing the local Windows account.  
 
