@@ -13,7 +13,7 @@ mtps_version: v=BTS.80
 
 Use **Advanced** functoids to create various types of data manipulation, such as implementing custom script, value mapping, and managing and extracting data from looping records.
 
-For conceptual information about **Advanced** functoids, see [Advanced Functoids](../biztalk/core/advanced-functoids.md).
+For conceptual information about **Advanced** functoids, see [Advanced Functoids](/biztalk/core/advanced-functoids).
 
 The following table shows the functoids in the **Advanced** category.
 
@@ -34,4 +34,4 @@ The following table shows the functoids in the **Advanced** category.
 
 ## See Also
 
-[Adding Advanced Functoids to a Map](../biztalk/core/adding-advanced-functoids-to-a-map.md)
+[Adding Advanced Functoids to a Map](/biztalk/core/adding-advanced-functoids-to-a-map)
