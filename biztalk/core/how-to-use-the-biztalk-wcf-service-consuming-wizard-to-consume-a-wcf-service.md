@@ -51,13 +51,13 @@ The BizTalk Adapter Framework provides a way to add adapter schemas and BizTalk 
     ![Metadata Endpoint page](../core/media/2b17f85a-64d0-4719-99c4-ce61c706f10c.gif "2b17f85a-64d0-4719-99c4-ce61c706f10c")  
   
    > [!NOTE]
-   >  To download the metadata for WCF services published through HTTP or HTTPS, you cannot use the MEX endpoint such as `http://localhost:8087/CalculatorService/mex` for the **Metadata Address** text box. For the WCF services, you must use the WSDL metadata to download the metadata as follows: `http://localhost:8087/CalculatorService or http://localhost:8087/CalculatorService?wsdl`
+   >  To download the metadata for WCF services published through HTTP or HTTPS, you cannot use the MEX endpoint such as `http://localhost:8087/CalculatorService/mex` for the **Metadata Address** text box. For the WCF services, you must use the WSDL metadata to download the metadata as follows: `http://localhost:8087/CalculatorService` or `http://localhost:8087/CalculatorService?wsdl`
   
 6. If you selected the **Metadata Files (WSDL and XSD)** option on the **Metadata source** page, the **Metadata Endpoint** page appears. On the **Metadata Endpoint** page, specify metadata files to import. Click **Add** to add the metadata files to import to the **Metadata Files** view. This opens the **Add metadata files** dialog box in which you can search disk locations for metadata files.  
   
     In the **Add metadata files** dialog box, select a complete set of WSDL and XSD files to use for metadata. You can generate these metadata files by typing the following command at the command prompt:  
   
-    **svcutil.exe /t:metadata http://localhost/service.svc/mex**  
+    `svcutil.exe /t:metadata http://localhost/service.svc/mex`
   
     Click **Remove** to remove the metadata files selected in the **Metadata Files** view.  
   
