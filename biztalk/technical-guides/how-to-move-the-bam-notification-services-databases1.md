@@ -18,20 +18,21 @@ manager: "anneta"
 
 You can use this procedure to move the BAM Notification Services database to another server.  From an end-to-end scenario perspective, moving the BAM Notification Services database involves two major steps:
 
--   [Moving the BAM Notification Services Database](../technical-guides/how-to-move-the-bam-notification-services-databases1.md#BKMK_NotiMoveDB)
+- [Moving the BAM Notification Services Database](../technical-guides/how-to-move-the-bam-notification-services-databases1.md#BKMK_NotiMoveDB)
 
--   [Updating References to the New BAM Notification Services Databases](../technical-guides/how-to-move-the-bam-notification-services-databases1.md#BKMK_NotiUpdate)
+- [Updating References to the New BAM Notification Services Databases](../technical-guides/how-to-move-the-bam-notification-services-databases1.md#BKMK_NotiUpdate)
 
 > [!NOTE]
->  You must move the BAM Notification Services Application (BAMAlertsApplication) database and the BAM Notification Services Instance (BAMAlertsNSMain) database together.
+> You must move the BAM Notification Services Application (BAMAlertsApplication) database and the BAM Notification Services Instance (BAMAlertsNSMain) database together.
 
 ## Prerequisites
+
  You must be logged on with an account that is a member of the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] sysadmin fixed server role to perform this procedure.
 
-##  <a name="BKMK_NotiMoveDB"></a> Moving the BAM Notification Services Database
+## <a name="BKMK_NotiMoveDB"></a> Moving the BAM Notification Services Database
  Perform the steps in the following procedure to move the BAM Notification Services database.
 
-#### To move the BAM Notification Services database
+### To move the BAM Notification Services database
 
 1. Stop any BAM cube update and data maintenance SSIS packages, or prevent them from running until you have restored the BAM Notification Services database.
 
@@ -41,9 +42,9 @@ You can use this procedure to move the BAM Notification Services database to ano
 
 4. Stop the BAM Alerts Notification service:
 
-   1.  Click **Start**, click **Run**, type **cmd**, and then click **OK**.
+   1. Click **Start**, click **Run**, type **cmd**, and then click **OK**.
 
-   2.  At the command prompt, type:
+   2. At the command prompt, type:
 
         **Net stop NS$BamAlerts**
 
@@ -59,14 +60,15 @@ You can use this procedure to move the BAM Notification Services database to ano
    > [!NOTE]
    >  Perform this step for both BAMAlertsApplication and BAMAlertsNSMain databases.
 
-##  <a name="BKMK_NotiUpdate"></a> Updating References to the New BAM Notification Services Databases
+## <a name="BKMK_NotiUpdate"></a> Updating References to the New BAM Notification Services Databases
+
  After you have moved the database, you must update all the references to the new BAM Notification Services databases. The following references must be updated:
 
 - Update the BAM configuration with the new database and server names. See [To update the BAM configuration](../technical-guides/how-to-move-the-bam-notification-services-databases1.md#BKMK_NotiUpdateBAMConfig).
 
 - Re-register the Notification Service on all computers in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] group. See [Register the Notification Services](../technical-guides/how-to-move-the-bam-notification-services-databases1.md#BKMK_NotiRegister).
 
-###  <a name="BKMK_NotiUpdateBAMConfig"></a> To update the BAM configuration
+### <a name="BKMK_NotiUpdateBAMConfig"></a> To update the BAM configuration
 
 1. Get a copy of the .xml file used for restoring BAM:
 
@@ -87,7 +89,7 @@ You can use this procedure to move the BAM Notification Services database to ano
        **Bm.exe get-config –filename:BAMConfiguration.xml -server:\<servername\> -database:\<database\>**
 
       > [!NOTE]
-      >  When running this command, substitute the actual name of the server from which to get the configuration information for <servername> and substitute the actual name of the database from which to get the configuration information for <database>. For more information about using the BAM Management (BM) utility, see [Infrastructure Management Commands](../core/infrastructure-management-commands.md) (<https://go.microsoft.com/fwlink/?LinkId=156516>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+      >  When running this command, substitute the actual name of the server from which to get the configuration information for \<servername\> and substitute the actual name of the database from which to get the configuration information for \<database\>. For more information about using the BAM Management (BM) utility, see [Infrastructure Management Commands](../core/infrastructure-management-commands.md) (<https://go.microsoft.com/fwlink/?LinkId=156516>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
 2. Edit the BAMConfiguration.xml file and change the **DBServer** properties in the `<DeploymentUnit Name="Alert">` section to the new server name.
 
@@ -109,14 +111,15 @@ You can use this procedure to move the BAM Notification Services database to ano
 
     **bm.exe update-config -FileName:BAMConfiguration.xml**
 
-###  <a name="BKMK_NotiRegister"></a> Register the Notification Services
+### <a name="BKMK_NotiRegister"></a> Register the Notification Services
+
  After you have moved the BAM Notification Services database, you must re-register the Notification Service on all computers in the BizTalk Server group that are running Notification Services (NSservice.exe). This enables Notification Services to connect to the databases in their new location. For instructions on how to register the Notification Services, follow steps 5 through 11 at [How to Update References to the BAM Notification Services Databases](../core/how-to-update-references-to-the-bam-notification-services-databases.md) (<https://go.microsoft.com/fwlink/?LinkId=156684>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
  Note the following while performing steps mentioned in the preceding link:
 
--   Steps 5 and 6 in the preceding link must be performed on the servers listed in the BAM configuration XML for the following properties:
+- Steps 5 and 6 in the preceding link must be performed on the servers listed in the BAM configuration XML for the following properties:
 
-    ```
+    ```xml
     <DeploymentUnit Name="Alert">
       <Property Name="GeneratorServerName">Server_Name</Property>
       <Property Name="ProviderServerName">Server_Name</Property>
@@ -125,7 +128,8 @@ You can use this procedure to move the BAM Notification Services database to ano
 
     ```
 
--   Step 7 through 11 must be performed on the computer that hosts the BAM portal.
+- Step 7 through 11 must be performed on the computer that hosts the BAM portal.
 
 ## See Also
+
  [Moving Databases](../technical-guides/moving-databases.md)
