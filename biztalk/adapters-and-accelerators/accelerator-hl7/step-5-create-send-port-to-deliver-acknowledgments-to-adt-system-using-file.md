@@ -22,9 +22,10 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Step 5: Create a Send Port to Deliver Acknowledgments to the ADT System Using the File Adapter
+
 In this step, you create the send port to generate acknowledgments using the File adapter.  
 
-### To create the Tutorial_sendAck_ADT send port  
+## To create the Tutorial_sendAck_ADT send port  
 
 1. Using [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Explorer, create the \<*drive*:\>\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_sendAck_ADT folder.  
 
@@ -32,22 +33,18 @@ In this step, you create the send port to generate acknowledgments using the Fil
 
 3. In the Send Port Properties dialog box, do the following:  
 
-
    |      Use this      |                                To do this                                 |
    |--------------------|---------------------------------------------------------------------------|
    |      **Name**      |                      Type **Tutorial_sendAck_ADT**.                       |
    | **Transport type** |                 Select **FILE** from the drop-down list.                  |
    |   **Configure**    | Click **Configure** to open the **File Transport Properties** dialog box. |
 
-
 4. In the FILE Transport Properties dialog box, do the following and then click **OK**.  
-
 
    |        Use this        |                                                                     To do this                                                                      |
    |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
    | **Destination folder** | Browse to **\<**<em>drive</em>**:\>\Program Files\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial\Tutorial_sendAck_ADT**. |
    |     **File name**      |                                   Type **%MessageID%.txt** (replace the .xml extension with the .txt extension).                                    |
-
 
 5. In the Send Port Properties dialog box, for **Send pipeline**, select **BTAHL72XPipelines.BTAHL72XSendPipeline**.  
 
@@ -57,7 +54,6 @@ In this step, you create the send port to generate acknowledgments using the Fil
    >  The first filter means that you are subscribing for the acknowledgment message. The second filter means that you are subscribing to the acknowledgment that is destined for the publisher Tutorial_ADTSystem.  
 
     Click **OK** when you are ready to continue.  
-
 
    |          Use this          |                                            To do this                                            |
    |----------------------------|--------------------------------------------------------------------------------------------------|
@@ -74,7 +70,7 @@ In this step, you create the send port to generate acknowledgments using the Fil
    |         **Value**          |                                   Type **Tutorial_ADTSystem**.                                   |
 
    > [!NOTE]
-   >  For the send port Tutorial_sendAck_ADT, BTAHL7 drops the acknowledgments at the file drop location \<*drive*\>:Program FilesMicrosoft BizTalk <version> Accelerator for HL7SDKEnd-to-End TutorialTutorial_sendAck_ADT.  
+   >  For the send port Tutorial_sendAck_ADT, BTAHL7 drops the acknowledgments at the file drop location \<*drive*\>:\\Program Files\\Microsoft BizTalk \<version\> Accelerator for HL7\\SDK\\End-to-End Tutorial\\Tutorial_sendAck_ADT.  
 
 7. Click **Apply**, and then click **OK.**  
 
