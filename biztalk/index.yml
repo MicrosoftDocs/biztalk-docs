@@ -36,7 +36,7 @@ conceptualContent:
         - text: What's New
           url: ./install-and-config-guides/whats-new-in-biztalk-server-2020.md
           itemType: whats-new
-        - text: get-started
+        - text: Get started
           url: ./core/getting-started-with-biztalk-server.md
           itemType: how-to-guide
         - text: Scenarios for business solutions
@@ -70,14 +70,11 @@ conceptualContent:
           itemType: overview
     - title: Announcements
       links:
-        - text: Integrate
-          url: https://www.biztalk360.com/integrate-2020/
+        - text: Integrate 2022
+          url: https://www.kovai.co/integrate-2022/
           itemType: reference
         - text: BizTalk magazine on Flipboard
           url: https://flipboard.com/@sandroasp/biztalkmagazine-hh6jepeby
-          itemType: reference
-        - text: Stay current with ConfigMgr and Windows 10
-          url: https://www.integrationbootcamp.com/
           itemType: reference
     - title: Social media
       links:
@@ -113,6 +110,9 @@ conceptualContent:
         - text: QuickLearn
           url: https://www.quicklearn.com/biztalk-training.aspx
           itemType: learn
+        - text: BizTalk360
+          url: https://www.biztalk360.com/biztalk-server-integration-training/
+          itemType: learn
 
 additionalContent:
   # Supports up to 3 sections
@@ -136,10 +136,6 @@ additionalContent:
         - title: Ignite videos on YouTube
           summary: Watch the videos that focus on integration including BizTalk Server and Logic Apps.
           url: https://www.youtube.com/channel/UCrhJmfAGQ5K81XQ8_od1iTg/search?query=integration
-        # Card
-        - title: Integrate 2019
-          summary: Watch the videos and download the presentations.
-          url: https://www.biztalk360.com/integrate-2019-resources/
         # Card
         - title: Azure Logic Apps on YouTube
           summary: Watch your Logic Apps PM team show you what's new, and what's coming.
