@@ -29,7 +29,7 @@ The `http://schemas.microsoft.com/BizTalk/2003/btf2-properties` namespace contai
 |**eps_from_address**|xs:string|Specifies the source address.|  
 |**eps_from_address_type**|xs:string|Specifies the source address type.|  
 |**prop_identity**|xs:string|A URI reference that uniquely identifies the BizTalk Framework document for purposes of logging, tracking, error handling, or other document processing and correlation requirements.|  
-|**prop_sentAt**|xs:string|The send timestamp of the BizTalk Framework document.|  
+|**prop_sentAt**|xs:dateTime|The send timestamp of the BizTalk Framework document.|  
 |**prop_topic**|xs:string|A URI reference that uniquely identifies the overall purpose of the BizTalk Framework document.|  
 |**svc_deliveryRctRqt_sendTo_address**|xs:string|Specifies the address to which the delivery receipt for the BizTalk Framework document should be sent.|  
 |**svc_deliveryRctRqt_sendTo_address_type**|xs:string|Specifies the type of address to which the delivery receipt for the BizTalk Framework document should be sent.|  
@@ -42,9 +42,12 @@ The `http://schemas.microsoft.com/BizTalk/2003/btf2-properties` namespace contai
 |**deliveryRct_receivedAt**|xs:dateTime|Specifies the receiving timestamp for the document acknowledged by this receipt. The receiving timestamp may reflect either the time when the first copy was received or the time at which the copy being acknowledged was received.|  
 |**deliveryRct_identity**|xs:string|Specifies an identity of the BizTalk Framework document acknowledged by the delivery receipt.|  
 |**commitmentRct_identity**|xs:string|Specifies the identity of a BizTalk Framework document acknowledged by the commitment receipt.|  
-|**commitmentRct_decidedAt**|xs:string|Specifies the processing decision timestamp for the document acknowledged by this receipt.|  
+|**commitmentRct_decidedAt**|xs:dateTime|Specifies the processing decision timestamp for the document acknowledged by this receipt.|  
 |**commitmentRct_decision**|xs:string|Specifies the actual decision, with possible values of positive or negative.|  
 |**commitmentRct_commitmentCode**|xs:QName|Specifies the qualified name (in XSD) that specifies a more specific status regarding the processing decision.|  
+|**fault_faultcode**|xs:QName|Error code. A hexadecimal value that is reported in the BizTalk Server Administration console.|  
+|**fault_faultstring**|xs:string|Error description. Same diagnostic text as is written to the Application Event Log regarding this messaging failure.|  
+|**fault_faultactor**|xs:string|-|  
 
 ## See Also  
 - **Message Context Properties** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
