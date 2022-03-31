@@ -41,6 +41,8 @@ The following table contains the properties in the File adapter property schema.
 |**FileCreationTime**|xs:datetime|Defines the time that the file was written to the folder that is monitored by the File receive adapter.|  
 |**Username**|xs:string|Defines the user name for the account used when specifying alternative credentials to access a network share.|  
 |**Password**|xs:string|Defines the password for the account used when specifying alternative credentials to access a network share.|  
+|**TargetFileName**|xs:string||
+|**UseTempFileOnWrite**|xs:boolean||
   
 ## See Also  
  [Configuring the File Adapter](../core/configure-the-file-adapter.md)
