@@ -98,7 +98,7 @@ The URL of this IIS application is used by the BizTalk Connector (in your logic 
 
 ##### BizTalk Server 2020 and newer
 
-1. Configure the REST APIs using the BizTalk Configuration Wizard. For help with configuration, please refer to the [Configuration Guide](../install-and-config-guides/configure-biztalk-server.md). For more details about the REST APIs, please refer to the [BizTalk REST API Reference](/rest/api/overview/biztalk/?view=rest-biztalk-2020)
+1. Configure the REST APIs using the BizTalk Configuration Wizard. For help with configuration, please refer to the [Configuration Guide](../install-and-config-guides/configure-biztalk-server.md). For more details about the REST APIs, please refer to the [BizTalk REST API Reference](/rest/api/overview/biztalk/?view=rest-biztalk-2020&preserve-view=true)
 2. Open a web browser, and go to `http://localhost/BizTalkManagementService/Schemas`. Either a list of schemas display, or you are prompted to open/save `schemas.json`. The actual result depends on your web browser. If neither of these happens, then please check your REST API configuration.
 
 ##### BizTalk Server 2016
