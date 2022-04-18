@@ -42,7 +42,7 @@ The DTA Archive and Purge SQL Server Agent job reduces the need to manually purg
   
    -   Enterprise Single Sign-On Service  
   
-        If the BizTalkServiceBizTalkGroup : BizTalkServerApplication service is running when you try to shut down the Enterprise Singe Sign-On Service, a **Stop Other Services** dialog will be displayed. Click **Yes**.  
+        If the BizTalkServiceBizTalkGroup : BizTalkServerApplication service is running when you try to shut down the Enterprise Single Sign-On Service, a **Stop Other Services** dialog will be displayed. Click **Yes**.  
   
    -   Rule Engine Update Service  
   
