@@ -64,12 +64,7 @@ The following table lists the properties in the HTTP adapter property schema.
 |**SubmissionHandle**|xs:string|Contains the BizTalk Server correlation token (GUID) for the request message.|  
 |**EnableChunkedEncoding**|xs:boolean|Specifies whether or not chunked encoding is used by the HTTP adapter.|  
 |**UserHttpHeaders**|xs:string|Contains the customized headers contained in the HTTP request or response message<br /><br /> The value of the **UserHttpHeaders** property must have the following format:<br /><br /> `Header1: value\r\nHeader2: value\r\n`<br /><br /> **Note** Put a colon (:) and a SPACE character ( ) between the header and the value. An empty header will cause the entry to be filtered out. An empty value is okay.<br /><br /> You can modify the following five standard HTTP headers by using the **UserHttpHeaders** property:<br /><br /> - Accept<br /><br /> - Referrer<br /><br /> - Expect<br /><br /> - If-Modified-Since<br /><br /> - User-Agent|  
-|**ResponseStatusCode**|xs:int|HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
-Informational responses (100–199)
-Successful responses (200–299)
-Redirection messages (300–399)
-Client error responses (400–499)
-Server error responses (500–599)|
+|**ResponseStatusCode**|xs:int|HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes: <br/><br/>- Informational responses (100–199)<br/>- Successful responses (200–299)<br/>- Redirection messages (300–399)<br/>- Client error responses (400–499)<br/>- Server error responses (500–599) |
 
 ## See Also  
  [Configuring the HTTP Adapter](../core/configuring-the-http-adapter.md)
