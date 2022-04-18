@@ -45,16 +45,20 @@ The error-handling facility allows the designer to designate automated handling 
   
 |Property name|Data type|Promoted|Description|  
 |-------------------|---------------|--------------|-----------------|  
-|FailureCode|System.String|Yes|Error code. A hexadecimal value that is reported in the BizTalk Server Administration console.|  
-|FailureCategory|System.Int32|Yes|This property is not used. Its value is undefined.|  
-|Description|System.String|No|Error description. Same diagnostic text as is written to the Application Event Log regarding this messaging failure.|  
-|MessageType|System.String|Yes|Message type of failed message, or empty if message type is indeterminate.<br /><br /> BizTalk Server uses the message type to associate messages with their XML schemas. Message type is formed by concatenating the schema namespace with the schema root node: http://mynamespace#rootnode. **Note:**  Messages that fail before their message type is determined do not have this property set.|  
-|ReceivePortName|System.String|**Promoted** if the failure happened during inbound processing (in a receive port)<br /><br /> **Not promoted** if the failure happened in a send port.|Name of the receive port where the failure happened.|  
-|InboundTransportLocation|System.String|**Promoted** if the failure happened during inbound processing (in a receive port)<br /><br /> **Not promoted** if the failure happened in a send port.|URI of the receive location where the failure happened.|  
-|SendPortName|System.String|**Promoted** if the failure happened during outbound processing (in a send port)<br /><br /> **Not promoted** if the failure happened in a receive port.|Name of the send port where the failure happened.|  
-|OutboundTransportLocation|System.String|**Promoted** if the failure happened during outbound processing (in a send port)<br /><br /> **Not promoted** if the failure happened in a receive port.|URI of the send location where the failure happened.|  
-|ErrorType|System.String|Yes|Indicates the type of message that the error contains. This property always contains the value **FailedMessage**, meaning that the error contains the original failed message.|  
-|RoutingFailureReportID|System.String|Yes|This property provides the ID of the routing failure report that BizTalk Server generates when there is a routing failure. A routing failure report is a special message that BizTalk Server generates and suspends. This message does not have a body, but it has the context of the failed message. Using this ID, an error-handling orchestration or a send port can query the MessageBox database and process the routing failure report. For example, an orchestration may want to terminate the routing failure report after it gets the failed message.|  
+|FailureCode|xs:string|Yes|Error code. A hexadecimal value that is reported in the BizTalk Server Administration console.|  
+|FailureCategory|xs:int|Yes|This property is not used. Its value is undefined.|  
+|Description|xs:string|No|Error description. Same diagnostic text as is written to the Application Event Log regarding this messaging failure.|  
+|MessageType|xs:string|Yes|Message type of failed message, or empty if message type is indeterminate.<br /><br /> BizTalk Server uses the message type to associate messages with their XML schemas. Message type is formed by concatenating the schema namespace with the schema root node: http://mynamespace#rootnode. **Note:**  Messages that fail before their message type is determined do not have this property set.|  
+|ReceivePortName|xs:string|**Promoted** if the failure happened during inbound processing (in a receive port)<br /><br /> **Not promoted** if the failure happened in a send port.|Name of the receive port where the failure happened.|  
+|InboundTransportLocation|xs:string|**Promoted** if the failure happened during inbound processing (in a receive port)<br /><br /> **Not promoted** if the failure happened in a send port.|URI of the receive location where the failure happened.|  
+|SendPortName|xs:string|**Promoted** if the failure happened during outbound processing (in a send port)<br /><br /> **Not promoted** if the failure happened in a receive port.|Name of the send port where the failure happened.|  
+|OutboundTransportLocation|xs:string|**Promoted** if the failure happened during outbound processing (in a send port)<br /><br /> **Not promoted** if the failure happened in a receive port.|URI of the send location where the failure happened.|  
+|ErrorType|xs:string|Yes|Indicates the type of message that the error contains. This property always contains the value **FailedMessage**, meaning that the error contains the original failed message.|  
+|RoutingFailureReportID|xs:string|Yes|This property provides the ID of the routing failure report that BizTalk Server generates when there is a routing failure. A routing failure report is a special message that BizTalk Server generates and suspends. This message does not have a body, but it has the context of the failed message. Using this ID, an error-handling orchestration or a send port can query the MessageBox database and process the routing failure report. For example, an orchestration may want to terminate the routing failure report after it gets the failed message.| 
+|FailureTime|xs:dateTime||Date time of the failure occurrence|
+|FailureMessageID|xs:string|||
+|FailureInstanceID|xs:string|||
+|FailureAdapter|xs:string|||
   
 ## Handling Error Messages  
  Error handling is specified by an orchestration or send-port subscription whose filter matches the properties that have been promoted to the message context of the error message.  
