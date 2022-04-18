@@ -27,7 +27,13 @@ The `http://schemas.microsoft.com/BizTalk/2003/mime-properties` namespace contai
 |**ContentDescription**|Per message part|xs:string|Sets the Content-Description header of the MIME/SMIME part.|  
 |**ContentTransferEncoding**|Per message part|xs:string|Sets the Content-Transfer-Encoding header of the generated MIME/SMIME part.<br /><br /> This value overrides the **Content transfer encoding** value configured in Pipeline Designer. For a multi-part message, you can use different encodings for different MIME/SMIME parts.|  
 |**ContentLocation**|Per message part|xs:string|Sets the Content-Location header of the generated MIME/SMIME part.|  
+|**PassThroughBTF**|Per message part|xs:boolean||  
 |**IsMIMEEncoded**|Per message part|xs:boolean|Specifies whether the message has a MIME/SMIME payload. The MIME component writes to this value, so you do not have to set it.|  
+|**IsMultipartRelated**|Per message part|xs:boolean||
+|**ContentTypeSecondaryHeader**|Per message part|xs:string||
+|**ContentTypeSecondaryHeaderValue**|Per message part|xs:string||
+|**PartContentTypeSecondaryHeader**|Per message part|xs:string||
+|**PartContentTypeSecondaryHeaderValue**|Per message part|xs:string||
   
  The MIME/SMIME Encoder also uses the following part properties from the **System** namespace.  
   
