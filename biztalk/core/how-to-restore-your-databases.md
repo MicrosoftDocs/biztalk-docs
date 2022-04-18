@@ -66,7 +66,7 @@ Sign in to SQL Server using an account that is a member of the sysadmin SQL Serv
     > [!NOTE]
     > When using a SQL Server 2016 or later environment, you may need to use MSOLEDBSQL in UpdateDatabase.vbs. In UpdateDatabase.vbs, go to `conn.Provider = "SQLOLEDB"`. Change `SQLOLEDB` to `MSOLEDBSQL`. Otherwise, the script may fail with error: `SQL Server: Invalid connection string attribute`.
     > 
-    > [Download MSOLEDBSQL 18.x](https://docs.microsoft.com/en-gb/sql/connect/oledb/release-notes-for-oledb-driver-for-sql-server?view=sql-server-ver15#previous-releases).
+    > [Download MSOLEDBSQL 18.x](/sql/connect/oledb/release-notes-for-oledb-driver-for-sql-server?view=sql-server-ver15#previous-releases).
     > 
     > This script updates all tables that store information about the location of other databases.
   
