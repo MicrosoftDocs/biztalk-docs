@@ -39,8 +39,8 @@
       "extendBreadcrumb": true
     },
     "fileMetadata": {
-      "author": {"troubleshooting/*.md": "gplarsen"},
-      "ms.author": {"troubleshooting/*.md": "plarsen"},
+      "author": {"troubleshooting/*.md": "christopherhouser"},
+      "ms.author": {"troubleshooting/*.md": "chrishou"},
       "titleSuffix": {"troubleshooting/*.md": "Host Integration Server"}
     },
     "template": [],

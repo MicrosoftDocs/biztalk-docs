@@ -12,7 +12,7 @@ f1_keywords:
   - "SNA_Server_Change"
 ms.assetid: 82fd2619-e70d-4ce7-9934-6671fe35d319
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

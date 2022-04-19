@@ -12,7 +12,7 @@ f1_keywords:
   - "SNA_Domain"
 ms.assetid: 21420c12-fa88-49c2-9b16-2abcef9823ac
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

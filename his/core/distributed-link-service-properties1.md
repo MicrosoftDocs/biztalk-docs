@@ -12,7 +12,7 @@ f1_keywords:
   - "SNA_Link_Remote"
 ms.assetid: 79335cce-3a77-467e-ab41-222f76f5f485
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

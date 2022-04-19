@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "ebiz.his.2006.tidesigner.node.BTSpipeline.libraryname"
 ms.assetid: 99373c45-afaa-4f4b-abc2-abf140bd5158
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

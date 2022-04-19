@@ -5,7 +5,7 @@ ms.custom: ""
 ms.date: 01/03/2018
 ms.prod: "host-integration-server"
 ms.topic: "article"
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

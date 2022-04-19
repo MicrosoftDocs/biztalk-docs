@@ -12,7 +12,7 @@ f1_keywords:
   - "SNA_TN3270Service"
 ms.assetid: 2d4ba716-2681-451a-b859-4e95d3fa2640
 caps.latest.revision: 4
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
