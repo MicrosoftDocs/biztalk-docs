@@ -12,7 +12,7 @@ f1_keywords:
   - "SNA_AS400TN"
 ms.assetid: ccb6fc38-ca11-4089-b085-a7eef713585c
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

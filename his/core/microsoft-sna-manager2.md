@@ -12,7 +12,7 @@ f1_keywords:
   - "SNAServer_application"
 ms.assetid: a975d360-ee79-4866-b94e-355120324924
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

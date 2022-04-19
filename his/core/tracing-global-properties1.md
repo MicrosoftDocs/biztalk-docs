@@ -12,7 +12,7 @@ f1_keywords:
   - "trace_tracing_global_properties_tab"
 ms.assetid: 7ab136bb-1a8c-430e-b460-2563404cd8fb
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

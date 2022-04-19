@@ -12,7 +12,7 @@ f1_keywords:
   - "SNA_TN5250Service"
 ms.assetid: bbf4f548-eaf2-4107-99b3-e5cfbd5d88ef
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

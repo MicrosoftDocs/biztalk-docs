@@ -13,7 +13,7 @@ f1_keywords:
   - "SNA_Folder_Workstation"
 ms.assetid: 6110c90b-3642-4a29-a0fe-01c462d9c5cd
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

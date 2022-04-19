@@ -12,7 +12,7 @@ f1_keywords:
   - "ebiz.his.2006.tidesigner.node.hostfiles.schema"
 ms.assetid: db69d272-ae3a-49d7-a318-50cc312fc5f0
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
