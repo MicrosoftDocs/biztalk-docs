@@ -12,7 +12,7 @@ f1_keywords:
   - "snaprint_server"
 ms.assetid: 7d42c85f-67f8-458d-8abb-cf60072cd471
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

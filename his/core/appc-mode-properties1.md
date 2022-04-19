@@ -12,7 +12,7 @@ f1_keywords:
   - "SNA_Mode"
 ms.assetid: 9b7f1a4e-c8bd-41a7-a447-c0e258b13ed6
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

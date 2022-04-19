@@ -12,7 +12,7 @@ f1_keywords:
   - "SNA_Folder_Servers"
 ms.assetid: 28ecd6d1-e680-44fb-9d76-d22dd65ba64e
 caps.latest.revision: 4
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

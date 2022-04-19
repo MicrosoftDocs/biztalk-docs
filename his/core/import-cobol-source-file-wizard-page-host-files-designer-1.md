@@ -12,7 +12,7 @@ f1_keywords:
   - "ebiz.his.2006.tidesigner.wizard.importcobol.selectitem.hostfiles"
 ms.assetid: b1d0c04d-b04d-4451-b97b-3f43f154de4e
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

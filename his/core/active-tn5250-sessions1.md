@@ -12,7 +12,7 @@ f1_keywords:
   - "SNA_Folder_TN5250Session"
 ms.assetid: e6baf157-5108-49d9-9fdb-e8b5b648a410
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
