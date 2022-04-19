@@ -1,5 +1,6 @@
 ---
 title: "MC_RECEIVE_IMMEDIATE2 | Microsoft Docs"
+description: See the syntax for the MC_RECEIVE_IMMEDIATE verb from the partner transaction program in Host Integration Server.
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
