@@ -1,7 +1,7 @@
 ---
 title: Popular downloads | Microsoft Docs
 description: Download editions, management packs, SDKs, best practices analyzer, migration tool, client installation packages, and whitepapers for HIS 2016 and HIS 2013
-author: "gplarsen"
+author: "christopherhouser"
 manager: "anneta"
 
 ms.date: "01/25/2018"

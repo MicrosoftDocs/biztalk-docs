@@ -1,7 +1,7 @@
 ---
 title: Update center | Microsoft Docs
 description: See all the available cumulative updates and service packs available for HIS and OLE DB Provider for DB2
-author: "gplarsen"
+author: "christopherhouser"
 manager: "dougeby"
 
 ms.date: "05/02/2019"
