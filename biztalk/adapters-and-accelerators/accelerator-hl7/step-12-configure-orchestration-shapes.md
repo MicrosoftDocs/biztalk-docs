@@ -24,7 +24,7 @@ In this step, you complete the configuration of the orchestration shapes in orde
 
  **Prerequisite:** [KB article 941261](https://support.microsoft.com/kb/941261) must be applied before setting up Orchestration Configuration.
 
-### To configure orchestration shapes
+### To configure orchestration shapes.
 
 1. On the orchestration Design view surface of Visual Studio, click the **ConstructMessage_1** shape.
 
