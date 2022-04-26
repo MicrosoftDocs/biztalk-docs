@@ -22,9 +22,7 @@ manager: "anneta"
 # Step 12: Configure Orchestration Shapes
 In this step, you complete the configuration of the orchestration shapes in order to remove the insufficient configuration smart tags. You designate **DoorbellOutputMessage** as the output of the first transform process, designating **DoorbellMap.btm** as the map used in that process. You then designate **DoorbellFinalMessage** as the output of the second transform process, and add the expression that enriches the message with additional field data.
 
- **Prerequisite:** [KB article 941261](https://support.microsoft.com/kb/941261) must be applied before setting up Orchestration Configuration.
-
-### To configure orchestration shapes.
+## To configure orchestration shapes
 
 1. On the orchestration Design view surface of Visual Studio, click the **ConstructMessage_1** shape.
 
