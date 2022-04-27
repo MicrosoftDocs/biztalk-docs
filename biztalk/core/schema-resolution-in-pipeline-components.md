@@ -24,7 +24,7 @@ Pipeline disassembler and assembler components use XSD schemas to process messag
   
  Standard disassembler and assembler components support retrieval of deployed schemas by using the schema type name and message type. Some components retrieve by using both the schema type name and the message type, while others (for example, the Flat File Disassembler) retrieve only by the schema type.  
   
- Pipeline components that receive XML messages determine the message type by examining the message root element and namespace. For example, the message type for the following XML is "<http://MyDocument.org#MyDocument>".  
+ Pipeline components that receive XML messages determine the message type by examining the message root element and namespace. For example, the message type for the following XML is "http://MyDocument.org#MyDocument".  
   
 ```  
 <ns0:MyDocument xmlns:ns0="http://MyDocument.org">  
