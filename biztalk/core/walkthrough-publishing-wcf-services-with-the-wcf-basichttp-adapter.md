@@ -113,7 +113,7 @@ manager: "anneta"
 
 8. On the **WCF Service Location** page, perform the following actions to specify the location of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] services to create, and then click **Next**:
 
-   1. In the **Location** text box, type the Web directory name where the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service runs, or click **Browse** and select the Web directory. For this walkthrough, since the assembly name is the same as the virtual directory, leave the default location (**<http://localhost/Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.BizTalkApp>**) in the **Location** text box.
+   1. In the **Location** text box, type the Web directory name where the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service runs, or click **Browse** and select the Web directory. For this walkthrough, since the assembly name is the same as the virtual directory, leave the default location (**http://localhost/Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.BizTalkApp**) in the **Location** text box.
 
    2. Select the **Allow anonymous access to WCF service** option, and then click **Next**. This option allows anonymous access to the created virtual directory. Because this walkthrough uses the Transport security mode with no authentication, this option needs to be selected to allow anonymous authentication for the Web application that this wizard will create.
 

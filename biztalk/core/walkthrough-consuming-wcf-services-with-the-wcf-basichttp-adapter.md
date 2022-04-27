@@ -53,7 +53,7 @@ manager: "anneta"
 
 - On the computer that runs the sample and imports a binding or an .msi file into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ensure the host is not a trusted host or the import will fail.
 
-- You must download the walkthrough code and extract it to your computer.  This walkthrough is a part of the entire [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapter Walkthrough package. You can download the file **WCFAdapterWalkthroughs.exe** from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Developer Center at[https://go.microsoft.com/fwlink/?LinkId=194140](https://go.microsoft.com/fwlink/?LinkId=194140).
+- You must download the walkthrough code and extract it to your computer.  This walkthrough is a part of the entire [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] Adapter Walkthrough package. You can download the file **WCFAdapterWalkthroughs.exe** from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Developer Center at [https://go.microsoft.com/fwlink/?LinkId=194140](https://go.microsoft.com/fwlink/?LinkId=194140).
 
 ## Deploy the sample WCF service
 
@@ -161,7 +161,7 @@ manager: "anneta"
 
    6. In the **Send Port Properties** dialog box, click **Configure**.
 
-   7. On the **General** tab review the **Address(URI)** field of **<http://localhost/BasicHttpWcfServiceConsuming/OrderProcess.svc>**. This is the address of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service hosted in IIS that the WCF-BasicHttp adapter will call.
+   7. On the **General** tab review the **Address(URI)** field of **http://localhost/BasicHttpWcfServiceConsuming/OrderProcess.svc**. This is the address of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service hosted in IIS that the WCF-BasicHttp adapter will call.
 
    8. Review the contents of the **SOAP Action header/Action** text box:
 
