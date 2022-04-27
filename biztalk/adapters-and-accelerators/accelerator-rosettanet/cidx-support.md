@@ -41,13 +41,10 @@ Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentv
 ## Applying a PIP to a CIDX Implementation
  To apply a PIP to a CIDX implementation, set the `Standard` property in the process configuration profile to **CIDX**. After you have finished, you will be able to enter values for the Message standard, Standard version, and Payload binding ID. You can find these values in the CIDX Chem eStandards specification.
 
-## Connecting to the Elemica Network.
+## Connecting to the Elemica Network
  You can enable an installation of Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] to connect to the Elemica [!INCLUDE[btsExchangeSvrNoVersion](../../includes/btsexchangesvrnoversion-md.md)] Provider (ESP). You can use the Elemica network for chemical-industry buying, selling, and supply-chain management using CIDX message exchange.
 
- You customize [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] to connect to Elemica using project files in the Elemica Connectivity Pack. You can download the Connectivity Pack from [https://go.microsoft.com/fwlink/?LinkId=46195](https://go.microsoft.com/fwlink/?LinkId=46195). For more information, see the “Connecting to the Elemica Network with BizTalk Accelerator for RosettaNet 3.0” white paper on MSDN at [https://go.microsoft.com/fwlink/?linkid=46539](/documentation/).
-
-> [!NOTE]
->  The information in the "Connecting to the Elemica Network with BizTalk Accelerator for RosettaNet 3.0" white paper is valid for [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)].
+ You customize [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] to connect to Elemica using project files in the Elemica Connectivity Pack. You can download the Connectivity Pack from [https://go.microsoft.com/fwlink/?LinkId=46195](https://go.microsoft.com/fwlink/?LinkId=46195). 
 
 ## CIDX Procedures
  The following sections described how to set up CIDX message exchange:
