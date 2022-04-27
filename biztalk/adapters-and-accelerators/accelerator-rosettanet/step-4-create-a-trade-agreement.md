@@ -42,8 +42,8 @@ In this step, you create a trade agreement between the home and partner organiza
 
    |    Use this    |                                         To do this                                         |
    |----------------|--------------------------------------------------------------------------------------------|
-   | **Action URL** |                   Type **<http://localhost/BTARNApp/RNIFReceive.aspx>**.                   |
-   | **Signal URL** |                   Type **<http://localhost/BTARNApp/RNIFReceive.aspx>**.                   |
+   | **Action URL** |                   Type `http://localhost/BTARNApp/RNIFReceive.aspx`                   |
+   | **Signal URL** |                   Type `http://localhost/BTARNApp/RNIFReceive.aspx`                   |
    |  **Sync URL**  | Leave blank. Sync URL is not required for the synchronous Partner Interface Process (PIP). |
 
 
