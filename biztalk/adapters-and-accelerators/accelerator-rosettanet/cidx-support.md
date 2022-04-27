@@ -46,7 +46,7 @@ Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentv
 
  You customize [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] to connect to Elemica using project files in the Elemica Connectivity Pack. You can download the Connectivity Pack at [https://go.microsoft.com/fwlink/?LinkId=46195](https://go.microsoft.com/fwlink/?LinkId=46195). 
 
-For more connection information and details, go to [https://social.technet.microsoft.com/wiki/contents/articles/232.how-to-connect-to-the-elemica-network-with-biztalk-accelerator-for-rosettanet.aspx](https://social.technet.microsoft.com/wiki/contents/articles/232.how-to-connect-to-the-elemica-network-with-biztalk-accelerator-for-rosettanet.aspx).
+For more connection information and details, go to [How to Connect to the Elemica Network with BizTalk Accelerator for RosettaNet](https://social.technet.microsoft.com/wiki/contents/articles/232.how-to-connect-to-the-elemica-network-with-biztalk-accelerator-for-rosettanet.aspx).
 
 ## CIDX Procedures
  The following sections described how to set up CIDX message exchange:
