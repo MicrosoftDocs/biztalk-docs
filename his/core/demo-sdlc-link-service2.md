@@ -12,7 +12,7 @@ f1_keywords:
   - "SNA_Link_SDLC"
 ms.assetid: 103f227e-9eed-491c-871f-1628959f3aa5
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

@@ -10,7 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cd95c5eb-8b39-4b3e-bf1e-2f8ba7496c12
 caps.latest.revision: 4
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
@@ -33,7 +33,7 @@ This topic contains the following sections relating to troubleshooting issues be
   
  **sp_setdefaultdatatypemapping**  
   
- For more information, see the [System Stored Procedures (Transact-SQL)](https://go.microsoft.com/fwlink/?LinkID=180765\)) topic in SQL Server Books Online (<https://go.microsoft.com/fwlink/?LinkID=180765>).  
+ For more information, see the [System Stored Procedures (Transact-SQL)](https://go.microsoft.com/fwlink/?LinkID=180765\).
   
 ##  <a name="datetime2"></a> Failure to replicate DATETIME2 columns to DB2 TIMESTAMP columns  
  **Problem**  
@@ -154,8 +154,8 @@ EXEC sp_changearticle @publication, @article, 'status' , 'parameters' , 0 , 0;
   
  **Step 1**. Reconfigure Data Provider connection to specify "Use Early Metadata=true" in the SQL Server Replication subscriber data source definition. 
  
- For more information, see [Configure Data Providers for DB2 Data Links (DB2) All Properties](data-links-db2-2.md) (https://docs.microsoft.com/host-integration-server/core/data-links-db2-2) in OLE DB Provider for DB2 documentation.
+ For more information, see [Configure Data Providers for DB2 Data Links (DB2) All Properties](data-links-db2-2.md) in OLE DB Provider for DB2 documentation.
  
  **Step 2** Re-configure SQL Server Replication subscription article to include option "24" ("Includes the column name in INSERT statements and uses parameterized statements."). 
 
- For more information, see [SQL Server Replication sp_addarticle (Transact-SQL)](/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) (https://docs.microsoft.com/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql?view=sql-server-2017) in SQL Server documentation.
+ For more information, see [SQL Server Replication sp_addarticle (Transact-SQL)](/sql/relational-databases/system-stored-procedures/sp-addarticle-transact-sql) in SQL Server documentation.

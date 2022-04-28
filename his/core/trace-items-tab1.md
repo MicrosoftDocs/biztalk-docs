@@ -12,7 +12,7 @@ f1_keywords:
   - "trace_trace_items_tab"
 ms.assetid: f0b38532-0fb9-47ba-941c-ff1204d3b7ad
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

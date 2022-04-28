@@ -12,7 +12,7 @@ f1_keywords:
   - "his_srvconfig_KJAR"
 ms.assetid: 208e95de-012c-4103-8b90-9f1f7db9cc03
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

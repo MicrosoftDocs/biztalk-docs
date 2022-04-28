@@ -12,7 +12,7 @@ f1_keywords:
   - "SNA_User"
 ms.assetid: 74cf4954-e154-41e5-8f0d-79cbd1e506b5
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---

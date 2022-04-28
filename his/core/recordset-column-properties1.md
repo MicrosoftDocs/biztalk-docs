@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "15433"
 ms.assetid: bbbe57e5-4781-4428-bfd9-4128d591051f
 caps.latest.revision: 3
-author: "gplarsen"
+author: "christopherhouser"
 ms.author: "hisdocs"
 manager: "anneta"
 ---
