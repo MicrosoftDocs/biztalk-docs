@@ -21,6 +21,9 @@ The Service Bus (**SB-Messaging**) adapter is used to receive and send from Serv
 
 **Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Feature Pack 2**, Service Bus Premium is supported. When configuring a send port using this adapter, you can send messages to partitioned queues and topics. 
 
+> [!IMPORTANT]
+> The BizTalk SB-Messaging Adapter uses the SBMP protocol which supports messages up to a maximum size of 1mb.  The BizTalk adapter does not support the AMQP protocol which can handle larger messages.
+
 ## Authenticating with Service Bus
 Service Bus provides two methods to authenticate: 
 
