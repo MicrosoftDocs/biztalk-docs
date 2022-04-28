@@ -43,7 +43,7 @@ The following table lists the node type and node ID for the SAP artifacts that t
 |Receive|OPERATION|[VERSION]/Idoc/[IDOC_VERSION]/[IDOC_TYPE_NAME]/[IDOC_CIMTYPE]/[IDOC_REL_NO]/Receive|  
 |ReceiveIdoc|OPERATION|[VERSION]/Idoc/ReceiveIdoc|  
   
- [VERSION] = The version string; for example, http://Microsoft.LobServices.Sap/2007/03.  
+ [VERSION] = The version string; for example, `http://Microsoft.LobServices.Sap/2007/03`.  
   
  [RFC_APPL_GROUP_NAME] = The name of an application group; for example, Sales.  
   
