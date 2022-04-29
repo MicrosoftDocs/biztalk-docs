@@ -34,7 +34,7 @@ You can use the following tools to administer BizTalk ServerBizTalk Server, to m
 
 - **Management REST APIs** are endpoints that allow user to remotely add, update, and query status of different artifacts in your BizTalk Server environment using REST APIs. BizTalk **Management REST APIs** comes with a swagger definition.
 
-   You must [Configure the REST APIs](../install-and-config-guides/configure-biztalk-server.md) for  **Management REST APIs** before you can use it. See [REST APIs reference](/rest/api/overview/biztalk/?view=rest-biztalk-2020) for more information.
+   You must [Configure the REST APIs](../install-and-config-guides/configure-biztalk-server.md) for  **Management REST APIs** before you can use it. See [REST APIs reference](/rest/api/overview/biztalk/) for more information.
 
 - **Operational Data Service** provides data on the instances and messages flowing through your BizTalk Server environment. The operational data feed is the same data you get looking at Group Hub in BizTalk Server Administration. The data can be accessed and queried using visualization tools, including Power BI.
    
