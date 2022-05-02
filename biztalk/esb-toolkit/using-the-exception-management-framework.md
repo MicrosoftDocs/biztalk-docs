@@ -23,7 +23,7 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] uses exceptions to comm
 
 - **ESB.ExceptionHandling**. This project contains all the public methods for handling fault message processing in orchestrations. You must register the assembly in this project in the global assembly cache on the local server.  
 
-- **ESB.ExceptionHandling.Schemas.Faults**. This project contains the fault message schema defined by the namespace **http://schemas.microsoft.biztalk.practices.esb.com/exceptionhandling** and the system property schema. You must deploy this project to the Microsoft.Practices.ESB application container.  
+- **ESB.ExceptionHandling.Schemas.Faults**. This project contains the fault message schema defined by the namespace `**http://schemas.microsoft.biztalk.practices.esb.com/exceptionhandling**` and the system property schema. You must deploy this project to the Microsoft.Practices.ESB application container.  
 
   All projects that use the ESB Failed Orchestration Exception Routing API must reference the core assemblies:  
 
