@@ -20,7 +20,7 @@ In this step, you create a [!INCLUDE[winazure](../includes/winazure-md.md)][!INC
   
 ### To create a [!INCLUDE[sb](../includes/sb-md.md)] namespace  
   
-1.  Log on to [https://manage.windowsazure.com](https://manage.windowsazure.com) using your Microsoft account.  
+1.  Log on to [https://portal.azure.com](https://portal.azure.com) using your Microsoft account.  
   
 2.  At the bottom of the page, click **New**, **App Services**, **Service Bus Relay**, and then **Quick Create**.  
   
