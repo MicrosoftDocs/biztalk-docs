@@ -68,7 +68,7 @@ For BizTalk Server 2016, this configuration is shown in the following image, and
 > [!div class="mx-imgBorder"]
 > ![Recommended SQL Server always on configuration on BizTalk Server 2016 and older versions](../core/media/sqlag-recommended.png)
 
-**Starting with BizTalk Server 2020 and newer**, high availablity for BAM DTS packages is supported using SSIS Catalog. Add the SSISDB database to the same availability group as the BizTalk Server databases. This configuration is shown in the following image, and recommended for BizTalk databases in Availability Groups (as mentioned above, 4 SQL instances are no longer required):  
+**Starting with BizTalk Server 2020**, high availablity for BAM DTS packages is supported using SSIS Catalog. Add the SSISDB database to the same availability group as the BizTalk Server databases. This configuration is shown in the following image, and recommended for BizTalk databases in Availability Groups (as mentioned above, 4 SQL instances are no longer required):  
 
 > [!div class="mx-imgBorder"]
 > ![Recommended SQL Server always on configuration on BizTalk Server 2020 and newer versions](../core/media/sqlag-bts2020-recommended.png)
