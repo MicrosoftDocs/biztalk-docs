@@ -63,7 +63,7 @@ In a scaled-out MessageBox scenario (a configuration with more than one MessageB
 
 BizTalk Server also depends on SQL Server Analysis Services and SQL Server Integration Services for BAM Analysis and Archiving. SQL Server doesn't provide a high availability solution for Integration Services or Analysis Services in Azure IaaS. Therefore, it's recommended to use another standalone SQL Server instance for the BAMArchive and BAMAnalysis Analysis Services databases. For on-premises installations, SQL Failover Clustering Instance can be used for setting up a high availability configuration.
 
-For BizTalk Server 2016 and older, this configuration is shown in the following image, and recommended for BizTalk databases in Availability Groups (as mentioned above, starting with SQL 2016 SP2 and BizTalk 2016 CU5, 4 SQL instances are no longer required):  
+For BizTalk Server 2016, this configuration is shown in the following image, and recommended for BizTalk databases in Availability Groups (as mentioned above, starting with SQL 2016 SP2 and BizTalk 2016 CU5, 4 SQL instances are no longer required):  
 
 > [!div class="mx-imgBorder"]
 > ![Recommended SQL Server always on configuration on BizTalk Server 2016 and older versions](../core/media/sqlag-recommended.png)
