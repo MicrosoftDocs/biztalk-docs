@@ -1,16 +1,16 @@
 ---
-title: "Set up and install prerequisites for BizTalk Server 2020 | Microsoft Docs"
+title: Set up and install prerequisites for BizTalk Server 2020 | Microsoft Docs
 description: Step-by-step instructions to install and configure the required software and settings for BizTalk Server 2020
-author: "MandiOhlinger"
-manager: "dougeby"
-ms.prod: "biztalk-server"
-ms.custom: "biztalk-2020"
-ms.date: "04/07/2020"
+author: MandiOhlinger
+manager: dougeby
+ms.prod: biztalk-server
+ms.custom: biztalk-2020
+ms.date: 04/07/2020
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.author: "mandia"
+ms.topic: article
+ms.author: mandia
 ---
 
 # Set up and install prerequisites for BizTalk Server 2020
@@ -202,7 +202,7 @@ Visual Studio Enterprise (recommended) and Professional editions are supported. 
 2. Select a **Default** installation. BizTalk Server does not require any of the optional features.
 3. Continue with the installation, and restart your computer if prompted.
 
-**SEE ALSO** : [Installing Visual Studio 2019](/visualstudio/install/install-visual-studio?view=vs-2019)
+**SEE ALSO** : [Installing Visual Studio 2019](/visualstudio/install/install-visual-studio?view=vs-2019&preserve-view=true)
 
 > [!IMPORTANT]
 > - The BizTalk Server development tools are based on Visual Studio. At a minimum, install the .NET desktop development workload before you install the BizTalk Server Developer Tools/SDK and BizTalk Server extension.

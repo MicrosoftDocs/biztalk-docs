@@ -1,19 +1,19 @@
 ---
-description: "Learn more about: Read about the BizTalk Adapter for SQL Server adapter binding properties"
-title: "Read about the BizTalk Adapter for SQL Server adapter binding properties | Microsoft Docs"
+description: Learn more about: Read about the BizTalk Adapter for SQL Server adapter binding properties
+title: BizTalk Adapter for SQL Server adapter binding properties | Microsoft Docs
 ms.custom: ""
-ms.date: "01/18/2019"
-ms.prod: "biztalk-server"
+ms.date: 01/18/2019
+ms.prod: biztalk-server
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 ms.assetid: 4606f583-da74-4a26-95cb-88915ecafe37
 caps.latest.revision: 43
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
 ---
 # Read about the BizTalk Adapter for SQL Server adapter binding properties
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces several binding properties. By setting these properties, you can control some of the adapter's behavior. This section describes the binding properties exposed by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. It also shows how you can access them by using .NET programming or by setting properties on a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] physical port binding.  
@@ -107,7 +107,7 @@ The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces several bin
 
 #### WorkstationId
 **Category**: Connection  
-**Description**: Specifies a unique ID for the workstation (client computer) that connects to the SQL Server database using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. The value for this binding property, if specified, is used for the **Workstation ID** keyword of SqlConnection.ConnectionString property. For more information, see [SqlConnection.ConnectionString Property](/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=netframework-4.7.2#System_Data_SqlClient_SqlConnection_ConnectionString).  
+**Description**: Specifies a unique ID for the workstation (client computer) that connects to the SQL Server database using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]. The value for this binding property, if specified, is used for the **Workstation ID** keyword of SqlConnection.ConnectionString property. For more information, see [SqlConnection.ConnectionString Property](/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=netframework-4.7.2#System_Data_SqlClient_SqlConnection_ConnectionStringr&preserve-view=true).  
 **.NET Type**: string
 
 #### EnablePerformanceCounters
@@ -141,7 +141,7 @@ Notice that the database name is included in the namespace when the binding prop
 **Description**: Specifies whether the adapter can insert values for identity columns during Insert and Update operations. Set this property to **True** to insert or update values for identity columns. Otherwise set this to **False** (default).
 
 > [!NOTE]
-> Setting this property to **True** translates to the adapter using `SET IDENTITY_INSERT <table_name> ON`. For more information, see [SET IDENTITY_INSERT (Transact-SQL)](/sql/t-sql/statements/set-identity-insert-transact-sql?view=sql-server-2017). 
+> Setting this property to **True** translates to the adapter using `SET IDENTITY_INSERT <table_name> ON`. For more information, see [SET IDENTITY_INSERT (Transact-SQL)](/sql/t-sql/statements/set-identity-insert-transact-sql). 
 
 While using this binding property, you must consider the following points:
 

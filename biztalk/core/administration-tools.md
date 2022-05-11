@@ -1,19 +1,19 @@
 ---
-title: "Administrative and performance tools | Microsoft Docs"
+title: Administrative and performance tools | Microsoft Docs
 description: Common tools to manage tasks, performance, and tracing in BizTalk Server
-ms.custom: "biztalk-2020"
-ms.date: "01/10/2020"
-ms.prod: "biztalk-server"
+ms.custom: biztalk-2020
+ms.date: 01/10/2020
+ms.prod: biztalk-server
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 ms.assetid: 932814f7-2ab3-45cb-8bbc-eaf00fcb24a0
 caps.latest.revision: 28
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
 ---
 # Administrative and performance tools
 
@@ -34,7 +34,7 @@ You can use the following tools to administer BizTalk ServerBizTalk Server, to m
 
 - **Management REST APIs** are endpoints that allow user to remotely add, update, and query status of different artifacts in your BizTalk Server environment using REST APIs. BizTalk **Management REST APIs** comes with a swagger definition.
 
-   You must [Configure the REST APIs](../install-and-config-guides/configure-biztalk-server.md) for  **Management REST APIs** before you can use it. See [REST APIs reference](/rest/api/biztalk/?view=rest-biztalk) for more information.
+   You must [Configure the REST APIs](../install-and-config-guides/configure-biztalk-server.md) for  **Management REST APIs** before you can use it. See [REST APIs reference](/rest/api/biztalk/) for more information.
 
 - **Operational Data Service** provides data on the instances and messages flowing through your BizTalk Server environment. The operational data feed is the same data you get looking at Group Hub in BizTalk Server Administration. The data can be accessed and queried using visualization tools, including Power BI.
    

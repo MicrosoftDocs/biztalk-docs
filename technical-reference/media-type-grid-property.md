@@ -1,5 +1,6 @@
 ﻿---
 title: Media-Type (Grid Property)
+description: Describes how to use the media-type property to specify the MIME content type that is associated with the transformed output data.
 TOCTitle: Media-Type (Grid Property)
 ms:assetid: 7dcd3cd6-779d-45e4-bfc2-88d8ece64633
 ms:mtpsurl: https://msdn.microsoft.com/library/Aa561015(v=BTS.80)

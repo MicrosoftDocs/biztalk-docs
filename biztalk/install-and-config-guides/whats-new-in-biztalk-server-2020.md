@@ -1,16 +1,16 @@
 ---
-title: "What's New in BizTalk Server 2020 | Microsoft Docs"
+title: What's New in BizTalk Server 2020 | Microsoft Docs
 description: Changes and improvements, including feature packs, adapters, security, tracking, performance, and more in BizTalk Server 2020
-ms.custom: "biztalk-2020"
+ms.custom: biztalk-2020
 ms.prod: biztalk-server
-ms.date: "02/13/2020"
+ms.date: 02/13/2020
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+ms.topic: article
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
 ---
 
 # What's New in BizTalk Server 2020
@@ -24,7 +24,7 @@ Read about what's new in BizTalk Server 2020.
 |Support for newer platforms | BizTalk Server 2020 adds support for the following Microsoft platforms:<br /><br /> -   Visual Studio 2019 (Enterprise and Professional editions are supported)<br />-   Windows Server 2019, Windows Server 2016, Windows 10<br />-   SQL Server 2019, SQL Server 2017, SQL Server 2016 SP2<br />-   Office 2019, Office 2016<br/><br/>[Hardware and Software Requirements for BizTalk Server 2020](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2020.md)|
 | Analytics | Operational Data Monitoring and Analytics. <br/>Leveraging the power of Azure (Application Insight and Event Hub) for deep data storage and Power BI for reporting and viewing of data. <br/><br/>[Send tracking data to Azure](../core/send-tracking-data-to-azure-application-insights-using-biztalk-server.md)<br />[Configure data feed for Power BI](../core/operational-data-service.md)|
 | Application Lifecycle Management with VSTS | Using Visual Studio Team Services, you can define multi-server deployments of BizTalk Server 2020, and then maintain those systems throughout the application lifecycle. <br/><br/>[Configure automatic deployment using VSTS](../core/configure-automatic-deployment-with-visual-studio-team-services-in-biztalk.md)|
-| Management APIs | Manage your environment remotely using the new REST APIs with full Swagger support. <br/><br/>[REST API reference](/rest/api/overview/biztalk/?view=rest-biztalk-2020)|
+| Management APIs | Manage your environment remotely using the new REST APIs with full Swagger support. <br/><br/>[REST API reference](/rest/api/overview/biztalk/?view=rest-biztalk-2020&preserve-view=true)|
 |Support for Always Encrypted|Use the WCF-SQL adapter to connect to SQL Server secure Always Encrypted columns. <br/><br/>[Query Always Encrypted database in SQL Server](../adapters-and-accelerators/adapter-sql/key-features-in-biztalk-adapter-for-sql-server.md)|  
 |Advanced Scheduling|New and improved scheduling capabilities in Adapters.<br/><br/>[Configure time zone and recurrence](../core/how-to-configure-scheduling-for-a-receive-location.md)|  
 |Backup to Azure Blob Storage|When deploying BizTalk Server to Azure VMs, you can backup BizTalk Server databases to Azure blob storage.<br/><br/>[Configure the Backup Job](../core/how-to-configure-the-backup-biztalk-server-job.md)|  

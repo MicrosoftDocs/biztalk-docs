@@ -1,19 +1,19 @@
 ---
-title: "Configure using Basic or Custom configuration | Microsoft Docs"
+title: Configure using Basic or Custom configuration | Microsoft Docs
 description: Steps to do a basic or custom configuration of BizTalk Server, and learn what happens with each configuration
-ms.custom: "biztalk-2020"
-ms.date: "01/14/2020"
-ms.prod: "biztalk-server"
+ms.custom: biztalk-2020
+ms.date: 01/14/2020
+ms.prod: biztalk-server
 
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 ms.assetid: 861a1237-d77a-42db-b563-d83f7930add6
 caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
 ---
 
 # Configure BizTalk Server
@@ -187,7 +187,7 @@ The Business Activity Monitoring Tools include:
 #### Before you begin
 
 - Configuring BAM tools requires certain SQL Server administrative functionality and must be performed from a machine that has Integration Services installed. The version of Integration Services must be equivalent version as your target SQL Server.
-- Starting with BizTalk Server 2020, BAM uses SSIS Catalog for deploying and managing [BAM DTS packages](../core/bam-dts-packages.md). [Create SSIS Catalog](/sql/integration-services/catalog/ssis-catalog?view=sql-server-ver15#create-the-ssis-catalog) on the target SQL Server (Primary Import and Star Schema database) before configuration. 
+- Starting with BizTalk Server 2020, BAM uses SSIS Catalog for deploying and managing [BAM DTS packages](../core/bam-dts-packages.md). [Create SSIS Catalog](/sql/integration-services/catalog/ssis-catalog?view=sql-server-ver15#create-the-ssis-catalog&preserve-view=true) on the target SQL Server (Primary Import and Star Schema database) before configuration. 
 - The BAM tools may be used by multiple BizTalk groups. When you unconfigure the BAM tools, the connection to the BizTalk group is removed. However, the BAM SQL Server infrastructure continues to work for other BizTalk groups pointing to the BAM Primary Import tables.
 - You use the Business Activity Monitoring Tools page to reconfigure the BAM database on-the-fly. For example, configure the BAM database again without removing the existing configuration. Reconfiguring these BAM databases breaks any already-deployed OLAP views and any alerts. If you have existing views and alerts that you want to keep in the newly-configured databases, then do one of the following:  
     - Undeploy the alerts and views before reconfiguring, and then redeploy them after reconfiguring. Any data that has been archived is not present in the views.
