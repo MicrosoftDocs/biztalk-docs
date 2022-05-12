@@ -37,7 +37,7 @@ The operations performed on Oracle E-Business Suite using the [!INCLUDE[adaptero
    - **Allow Remote Clients** 
    - **Allow Inbound** 
    - **Allow Outbound** 
-   - **No Authetnication Required**
+   - **No Authentication Required**
   
 4. Select **OK** to save your changes.  
   
