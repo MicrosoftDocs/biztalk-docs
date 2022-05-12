@@ -221,7 +221,7 @@ Also consider the following:
 
 -   Database Mail uses an SMTP server to send the BAM Alerts. SMTP Server can be installed locally on the BizTalk Server or on another IIS server. [Appendix D: Create the SMTP Server](../install-and-config-guides/appendix-d-create-the-smtp-server.md) lists the steps to install and configure a SMTP Server.
 
-###  <a name="BKMK_SSNS"></a> BAM Alerts using SQL Server 2008 R2 – Install SQL Server 2005 Notification Services
+<!---###  <a name="BKMK_SSNS"></a> BAM Alerts using SQL Server 2008 R2 – Install SQL Server 2005 Notification Services
 
 1. Go to the Feature Pack for Microsoft SQL Server 2005 SP4.
 
@@ -247,7 +247,7 @@ Also consider the following:
 
    **Additional**
 
--   SQL Notification Services does not need to be configured; only installed on the BizTalk Server.
+-   SQL Notification Services does not need to be configured; only installed on the BizTalk Server. --->
 
 ##  <a name="BKMK_WIF"></a> Windows Identity Foundation
 
