@@ -4,7 +4,7 @@ description: This document helps the user navigate Group Overview - New Query us
 author: msjaydeep
 ms.author: jaah
 manager: dougeby
-ms.date: 06/15/2020
+ms.date: 05/22/2022
 ms.topic: conceptual
 ms.prod: biztalk-server
 
@@ -14,7 +14,6 @@ ms.reviewer:
 ms.suite:
 ms.tgt_pltfrm:
 ms.assetid:
-ms.custom:
 ---
 
 # Use the NVDA screen reader to query group information in BizTalk Server administration
@@ -23,7 +22,7 @@ This guidance is for **Group Overview** > **New Query** tab in BizTalk Server Ad
 
 ## New Query tab
 
-Use the **New Query** tab to get the following information:
+Use the **New query** tab to get the following information:
 
 - Create query expressions to get more information on your BizTalk artifacts, such as messaging and orchestration instances. This query is created in a table.
 - Use the **Run Query**, **Save As…**, and **Open Query…** buttons to:
@@ -32,17 +31,17 @@ Use the **New Query** tab to get the following information:
   - **Save As…**: Saves your query expression to a `.btq` file stored locally on the BizTalk Server.
   - **Open Query…**: Opens the `.btq` query you saved, and shows the results in the console.
 
-- Filter data so it only shows messaging instances, orchestrations instances, suspended instances, and more. You can add more filters by adding new rows to the query expression. As you add more rows to your filter, more data options are available.
+- Filter data so that it only shows messaging instances, orchestrations instances, suspended instances, and more. You can add more filters by adding new rows to the query expression. As you add more rows to your filter, more data options are available.
 
   The output is shown as a table.
   
-- In the top right hand corner, use the menu buttons to create a new query, switch tabs, and close or collapse the query editor.
+- In the top right-hand corner, use the menu buttons to create a new query, switch tabs, and close or collapse the query editor.
 
 ## Columns in the Query table
 
 There are three columns in the Query table:
 
-- Field Name
+- Field name
 - Operator
 - Value
 
