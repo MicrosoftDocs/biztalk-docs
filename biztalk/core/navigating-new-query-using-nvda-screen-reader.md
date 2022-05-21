@@ -1,6 +1,6 @@
 ---
-title: Use NVDA screen reader to see and query group overview information
-description: Learn how to use NVDA screen reader to navigate new queries in Group Overview in the BizTalk Server Administration console.
+title: Use NVDA screen reader to create new queries in BizTalk Server Administration console
+description: Learn how to use NVDA screen reader to create new queries in BizTalk Server Administration console.
 author: msjaydeep
 ms.author: jaah
 manager: dougeby
@@ -17,7 +17,7 @@ ms.tgt_pltfrm:
 ms.assetid:
 ---
 
-# Use NVDA screen reader to query group information in BizTalk Server administration
+# Use NVDA screen reader to create new queries in BizTalk Server administration
 
 This article provides information on using NVDA screen reader to navigate the **Group Overview** > **New Query** tab in the BizTalk Server Administration console.
 
@@ -65,7 +65,7 @@ You can add filters to your queries by adding new rows. As you add filters, you 
   - When no value is selected, it states: "Combo box collapsed search for row, value selected".
   - When a value is selected, that value gets read, along with the row and column details.
 
-- Second and additional rows: The more rows you add the more you filter your results. Filters can be changed or added, depending on your query options.
+- Second and additional rows: The more rows you add to your queries, the more you filter your results. Filters can be changed or added, depending on your query options.
 
   Starting with the second and later rows, the first column lists the available filters based on the current query. By default, the **Maximum Matches** filter is selected, and set to `50`. You can change this value.
 
