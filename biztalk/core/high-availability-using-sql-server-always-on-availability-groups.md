@@ -56,17 +56,19 @@ SQL Server does not support MSDTC with AlwaysOn AG for any versions prior to 201
 ## Provide high availability for BizTalk databases using AlwaysOn Availability Groups 
 
 In the basic configuration of BizTalk Server, a minimum of 9 databases are created including Rules and BAM databases.
+
+Prior to SQL Server 2016 SP2, Availability Groups did not support MSDTC between databases on the same SQL instance so BizTalk databases had to be distributed across a minimum of 4 SQL instances.  Due to this limitation, it is recommended to use SQL Server 2016 SP2 (or above) and BizTalk Server 2016 CU5 (or above) so all the BizTalk databases can use the same SQL Server instance.  You may still consider using more than one SQL instance for performance reasons (e.g. having the MessageBox on a different SQL instance).
  
 In a scaled-out MessageBox scenario (a configuration with more than one MessageBox), there is more than one MessageBox database, and each MessageBox database must be added to availability group.
 
 BizTalk Server also depends on SQL Server Analysis Services and SQL Server Integration Services for BAM Analysis and Archiving. SQL Server doesn't provide a high availability solution for Integration Services or Analysis Services in Azure IaaS. Therefore, it's recommended to use another standalone SQL Server instance for the BAMArchive and BAMAnalysis Analysis Services databases. For on-premises installations, SQL Failover Clustering Instance can be used for setting up a high availability configuration.
 
-For BizTalk Server 2016 and older, this configuration is shown in the following image, and recommended for BizTalk databases in Availability Groups:  
+For BizTalk Server 2016, this configuration is shown in the following image, and recommended for BizTalk databases in Availability Groups (as mentioned above, starting with SQL 2016 SP2 and BizTalk 2016 CU5, 4 SQL instances are no longer required):  
 
 > [!div class="mx-imgBorder"]
 > ![Recommended SQL Server always on configuration on BizTalk Server 2016 and older versions](../core/media/sqlag-recommended.png)
 
-**Starting with BizTalk Server 2020 and newer**, high availablity for BAM DTS packages is supported using SSIS Catalog. Add the SSISDB database to the same availability group as the BizTalk Server databases. This configuration is shown in the following image, and recommended for BizTalk databases in Availability Groups:
+**Starting with BizTalk Server 2020**, high availablity for BAM DTS packages is supported using SSIS Catalog. Add the SSISDB database to the same availability group as the BizTalk Server databases. This configuration is shown in the following image, and recommended for BizTalk databases in Availability Groups (as mentioned above, 4 SQL instances are no longer required):  
 
 > [!div class="mx-imgBorder"]
 > ![Recommended SQL Server always on configuration on BizTalk Server 2020 and newer versions](../core/media/sqlag-bts2020-recommended.png)
@@ -137,7 +139,7 @@ Replace `‘dbname’` with the corresponding database name against which the jo
 9. Script Logins and SQL Agent Jobs to replicate them on corresponding replica. 
 10. Replicate SQL DBMail Profile and Account for BAM Alerts on corresponding SQL instances hosting the secondary replica. 
 11. If you are adding an additional message box database or deploying a new BAM activity/view later, then new SQL jobs are created for new message box databases or BAM Alerts database on the current primary replica. Make sure to edit it on primary replica, and then create them manually on the corresponding secondary replicas. 
-12. **Starting with BizTalk Server 2020 and newer**, BAM DTS packages are deployed to SSIS Catalog. Add the SSISDB database to the same availability group as the BizTalk databases. For more information, see [AlwaysON for SSIS Catalog](/sql/integration-services/catalog/ssis-catalog?view=sql-server-ver15#always-on-for-ssis-catalog-ssisdb&preserve-view=true).
+12. **Starting with BizTalk Server 2020 and newer**, BAM DTS packages are deployed to SSIS Catalog. Add the SSISDB database to the same availability group as the BizTalk databases. For more information, see [AlwaysON for SSIS Catalog](/sql/integration-services/catalog/ssis-catalog#always-on-for-ssis-catalog-ssisdb).
 
 This configuration can also be done using the SQL Instances hosting the primary replica. In this case, after the BizTalk configuration, run the `UpdateDatabase.vbs` and `UpdateRegistry.vbs` scripts on the BizTalk machines after the above steps. This is discussed in more detail in the next section.  
 
