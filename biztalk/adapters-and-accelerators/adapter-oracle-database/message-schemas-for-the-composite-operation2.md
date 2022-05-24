@@ -50,7 +50,7 @@ The following table shows the structure of the request and response messages of 
   
 ## Message Action for the Composite Operation
 
-The message action for the composite operation is `http://Microsoft.LobServices.OracleDB/2007/03/CompositeOperation.`  
+The message action for the composite operation is `http://Microsoft.LobServices.OracleDB/2007/03/CompositeOperation`.  
   
 ## See Also
   
