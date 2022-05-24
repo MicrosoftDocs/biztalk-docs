@@ -49,7 +49,7 @@ manager: "anneta"
 
 - On the computers that you use to perform administrative tasks, you must run as a user account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group to configure the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application settings within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. This user account must also be a member of the local Administrators group for application deployment, managing host instances, and other tasks that may be required.
 
-- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [https://go.microsoft.com/fwlink/?LinkId=135510](/dotnet/framework/wcf/samples/one-time-setup-procedure-for-the-wcf-samples).
+- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [One-Time Setup Procedure for the Windows Communication Foundation Samples](/dotnet/framework/wcf/samples/one-time-setup-procedure-for-the-wcf-samples).
 
 - On the computer that runs the sample and imports a binding or an .msi file into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ensure the host is not a trusted host or the import will fail.
 
@@ -101,7 +101,7 @@ manager: "anneta"
 
     2. In IIS Manager, in the right pane, right-click **OrderProcess.svc**, and then click **Browse**. This opens Internet Explorer to display the **OrderProcessServiceType Service** page that indicates you have successfully created a running [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service. The page also includes a full WSDL address that you can copy and use with the Service Metadata Tool (svcutil.exe) to create proxy code and a configuration file that can be used to develop a client application for the service.
 
-    3. Copy the full WSDL address to the system Clipboard. Do not copy the **“svcutil.exe”** part: **http://localhost/BasicHttpWcfServiceConsuming/OrderProcess.svc?wsdl**
+    3. Copy the full WSDL address to the system Clipboard. Do not copy the **“svcutil.exe”** part: `http://localhost/BasicHttpWcfServiceConsuming/OrderProcess.svc?wsdl`
 
 ## Add the schemas and types for the WCF-BasicHttp adapter to the sample BizTalk application
 
@@ -161,11 +161,11 @@ manager: "anneta"
 
    6. In the **Send Port Properties** dialog box, click **Configure**.
 
-   7. On the **General** tab review the **Address(URI)** field of **http://localhost/BasicHttpWcfServiceConsuming/OrderProcess.svc**. This is the address of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service hosted in IIS that the WCF-BasicHttp adapter will call.
+   7. On the **General** tab review the **Address(URI)** field of `http://localhost/BasicHttpWcfServiceConsuming/OrderProcess.svc`. This is the address of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service hosted in IIS that the WCF-BasicHttp adapter will call.
 
    8. Review the contents of the **SOAP Action header/Action** text box:
 
-      ```
+      ```xml
       <BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
         <Operation Name="Submit" Action="http://Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BasicHttpWcfServiceConsuming/IOrderProcess/Submit" />
       </BtsActionMapping>
@@ -208,7 +208,7 @@ manager: "anneta"
 
    3. In the **Send Port Properties** dialog box, in the **Transport** section next to Type, select **FILE** from the drop-down list, and then click **Configure**.
 
-   4. In the **FILE Transport Properties** dialog box, on the **General** tab, in the **Destination folder** text box, type `C:\WCFBasicHttpSendAdapter\OrderResponseOut`, and then click **OK**.
+   4. In the **FILE Transport Properties** dialog box, on the **General** tab, in the **Destination folder** text box, type **C:\WCFBasicHttpSendAdapter\OrderResponseOut**, and then click **OK**.
 
    5. In the **Send Port Properties** dialog box, on the **Filters** tab, select **BTS.MessageType** in the **Property** field, type `http://Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BasicHttpWCFServiceConsuming#OrderResponse` in the **Value** field to specify the response message type from the sample [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service, and then click **OK**. This filter expression routes response messages from the sample [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service to this FILE send port. The send port subscribes to messages of the OrderResponse type by specifying that type in the filter property. This is the message type of the response message from the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service.
 
@@ -220,7 +220,7 @@ manager: "anneta"
 
    9. In the **Send Port Properties** dialog box, in the **Transport** section next to **Type**, select **FILE** from the drop-down list, and then click **Configure**.
 
-   10. In the **FILE Transport Properties** dialog box, on the **General** tab, in the **Destination folder** text box, type `C:\WCFBasicHttpSendAdapter\WCFAdapterErrorOut\`, and then click **OK**.
+   10. In the **FILE Transport Properties** dialog box, on the **General** tab, in the **Destination folder** text box, type **C:\WCFBasicHttpSendAdapter\WCFAdapterErrorOut\**, and then click **OK**.
 
    11. In the **Send Port Properties** dialog box, on the **Filters** tab, select **WCF.IsFault** in the **Property** field, type `True` in the **Value** field, and then click **OK**. Within an application an exception or fault can be detected by checking the **WCF.IsFault** property of the message sent back to the caller. This property will be set to **True** if the message being sent is a SOAP fault message. This filter expression routes fault messages from the sample [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service to this FILE send port.
 
@@ -238,7 +238,7 @@ manager: "anneta"
 
 4. Open a command prompt, type **iisreset** to recycle IIS and its dependent services, and then press ENTER.
 
-5. At the command prompt, copy **C:\WCFBasicHttpSendAdapter\TestData\WCFBasicSendAdapter.OrderRequest.Sample.xml** to the **C:\WCFBasicHttpSendAdapter\OrderRequestIn** folder. This message is routed to the two-way **WcfSendPort_OrderProcessServiceType_ServiceEndpoint** static Solicit-Response send port.  The send side of this two-way send port calls **Submit** method on the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service hosted in IIS. The result is returned to the response port of the **WcfSendPort_OrderProcessServiceType_ServiceEndpoint** send port.  The **WCFBasicSendAdapter.SendPurchaseOrder.FILE** send port has a subscription that will be triggered when the type of the message is **http://Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BasicHttpWCFServiceConsuming#OrderResponse**.It will get the successfully processed message and write it out to the **C:\WCFBasicHttpSendAdapter\OrderResponseOut** folder.
+5. At the command prompt, copy **C:\WCFBasicHttpSendAdapter\TestData\WCFBasicSendAdapter.OrderRequest.Sample.xml** to the **C:\WCFBasicHttpSendAdapter\OrderRequestIn** folder. This message is routed to the two-way **WcfSendPort_OrderProcessServiceType_ServiceEndpoint** static Solicit-Response send port.  The send side of this two-way send port calls **Submit** method on the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service hosted in IIS. The result is returned to the response port of the **WcfSendPort_OrderProcessServiceType_ServiceEndpoint** send port.  The **WCFBasicSendAdapter.SendPurchaseOrder.FILE** send port has a subscription that will be triggered when the type of the message is `http://Microsoft.Samples.BizTalk.WCF.BasicHttpSendAdapter.BasicHttpWCFServiceConsuming#OrderResponse`. It will get the successfully processed message and write it out to the **C:\WCFBasicHttpSendAdapter\OrderResponseOut** folder.
 
 6. Check the **C:\WCFBasicHttpSendAdapter\OrderResponseOut** folder for a response message from the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service.
 

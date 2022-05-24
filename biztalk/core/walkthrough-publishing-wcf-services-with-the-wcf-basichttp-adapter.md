@@ -51,7 +51,7 @@ manager: "anneta"
 
 - On the computers that you use to perform administrative tasks, you must run as a user account that is a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators group to configure the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] application settings within the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. This user account must also be a member of the local Administrators group for application deployment, managing host instances, and other tasks that may be required.
 
-- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [https://go.microsoft.com/fwlink/?LinkId=135510](/dotnet/framework/wcf/samples/one-time-setup-procedure-for-the-wcf-samples).
+- On any computer that requires [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] capability, complete the one-time setup procedure for the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] samples at [One-Time Setup Procedure for the Windows Communication Foundation Samples](/dotnet/framework/wcf/samples/one-time-setup-procedure-for-the-wcf-samples).
 
 - On the computer that runs the sample and imports a binding or an .msi file into [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], ensure the host is not a trusted host or the import will fail.
 
@@ -82,7 +82,7 @@ manager: "anneta"
 
    2.  Make sure that the **Application Name** property is set to **WCFBasicHttpReceiveAdapter**. This is name of the BizTalk application where the BizTalk solution will be deployed.
 
-   3.  In Solution Explorer, right-click **BizTalkApp**, and then click **Deploy**. If not deploying locally you may need to configure SQL Server to allow remote connections. For more information, see [https://go.microsoft.com/fwlink/?LinkId=194141](/previous-versions/dd857537(v=vs.85)).
+   3.  In Solution Explorer, right-click **BizTalkApp**, and then click **Deploy**. If not deploying locally you may need to configure SQL Server to allow remote connections. For more information, see [How to: Enable Remote Connections on SQL Server](/previous-versions/dd857537(v=vs.85)).
 
 ### To publish the sample orchestration by using the BizTalk WCF Service Publishing Wizard
 
@@ -109,11 +109,11 @@ manager: "anneta"
 
 6. On the **Orchestrations and Ports** page, make sure that the **Port: DeliveryRequestPort** node is selected on the page, and then click **Next**. Selecting this node means that its corresponding higher-level nodes are selected as well. The port will be published with a request-response receive location hosting the WCF-BasicHttp adapter.
 
-7. On the **WCF Service Properties** page, in the **Target** namespace of the **WCF service** text box, type a URI that you want this published [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service to use, and then click **Next**. For this walkthrough, leave the default URI, "**<http://tempuri.org/>"** in the Target namespace of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service text box.
+7. On the **WCF Service Properties** page, in the **Target** namespace of the **WCF service** text box, type a URI that you want this published [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service to use, and then click **Next**. For this walkthrough, leave the default URI, "`<http://tempuri.org/>`" in the Target namespace of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service text box.
 
 8. On the **WCF Service Location** page, perform the following actions to specify the location of the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] services to create, and then click **Next**:
 
-   1. In the **Location** text box, type the Web directory name where the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service runs, or click **Browse** and select the Web directory. For this walkthrough, since the assembly name is the same as the virtual directory, leave the default location (**http://localhost/Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.BizTalkApp**) in the **Location** text box.
+   1. In the **Location** text box, type the Web directory name where the [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] service runs, or click **Browse** and select the Web directory. For this walkthrough, since the assembly name is the same as the virtual directory, leave the default location (`http://localhost/Microsoft.Samples.BizTalk.WCFBasicHttpReceiveAdapter.BizTalkApp`) in the **Location** text box.
 
    2. Select the **Allow anonymous access to WCF service** option, and then click **Next**. This option allows anonymous access to the created virtual directory. Because this walkthrough uses the Transport security mode with no authentication, this option needs to be selected to allow anonymous authentication for the Web application that this wizard will create.
 
