@@ -1,19 +1,19 @@
 ---
-title: "Restore Your Databases | Microsoft Docs"
+title: Restore Your Databases | Microsoft Docs
 description: See the steps to restore the BizTalk Server databases, including using the SQL Agent jobs, and running the UpdateDatabase.vbs and UpdateRegistry.vbs scripts. ALso see what to do after the databases are restored, including updating the SQL Server instance name in the BizTalk Administration console.
 ms.custom: ""
-ms.date: "04/22/2019"
-ms.prod: "biztalk-server"
+ms.date: 04/22/2019
+ms.prod: biztalk-server
 ms.reviewer: ""
 
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 ms.assetid: 0176932a-6b3d-4502-975b-a76296189092
 caps.latest.revision: 52
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+author: MandiOhlinger
+ms.author: mandia
+manager: anneta
 ---
 
 # Restore your databases - BizTalk Server
@@ -66,7 +66,7 @@ Sign in to SQL Server using an account that is a member of the sysadmin SQL Serv
     > [!NOTE]
     > When using a SQL Server 2016 or later environment, you may need to use MSOLEDBSQL in UpdateDatabase.vbs. In UpdateDatabase.vbs, go to `conn.Provider = "SQLOLEDB"`. Change `SQLOLEDB` to `MSOLEDBSQL`. Otherwise, the script may fail with error: `SQL Server: Invalid connection string attribute`.
     > 
-    > [Download MSOLEDBSQL 18.x](/sql/connect/oledb/release-notes-for-oledb-driver-for-sql-server?view=sql-server-ver15#previous-releases).
+    > [Download MSOLEDBSQL 18.x](/sql/connect/oledb/release-notes-for-oledb-driver-for-sql-server?view=sql-server-ver15#previous-releases&preserve-view=true).
     > 
     > This script updates all tables that store information about the location of other databases.
   

@@ -1,16 +1,16 @@
 ---
-title: "Hardware and Software Requirements for BizTalk Server 2020 | Microsoft Docs"
-description: Software prerequisites and supported version lists to install BizTalk Server 2020
-ms.custom: "biztalk-2020"
+title: Hardware and Software Requirements for BizTalk Server 2020 | Microsoft Docs
+description: Describes the software prerequisites and supported version lists in order to install BizTalk Server 2020.
+ms.custom: biztalk-2020
 ms.prod: biztalk-server
-ms.date: "04/07/2020"
+ms.date: 04/07/2020
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "dougeby"
+ms.topic: article
+author: MandiOhlinger
+ms.author: mandia
+manager: dougeby
 ---
 
 # Hardware and Software Requirements for BizTalk Server 2020
@@ -90,7 +90,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 
   Supported minimum versions:
 
-  - Microsoft OLE DB Driver 18.3.0 for SQL Server. Download at [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/download-oledb-driver-for-sql-server?view=sql-server-ver15).
+  - Microsoft OLE DB Driver 18.3.0 for SQL Server. Download at [Microsoft OLE DB Driver for SQL Server](/sql/connect/oledb/download-oledb-driver-for-sql-server?view=sql-server-ver15&preserve-view=true).
 
 - **Microsoft SQL Server**: Required for BizTalk Server Runtime, EDI, and BAM. For optimal performance, Microsoft recommends the Enterprise Edition of SQL Server. Other considerations:
 
