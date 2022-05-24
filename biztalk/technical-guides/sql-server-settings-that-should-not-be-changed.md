@@ -24,8 +24,6 @@ When setting up [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversi
 
  The [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] stored procedures provide the correct joins and lock hints wherever possible in order to try to keep the query optimizer from doing much work and changing the plan. These stored procedures provide consistent query executions by constructing the queries such that the query optimizer is taken out of the picture as much as possible.
 
- For more information, see [KB 899000: Parallelism setting for SQL Server instance used by BizTalk Server](https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/899000).
-
 ## SQL Server Statistics on the MessageBox Database
  The following options are turned off by default in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] MessageBox database when it is created:
 
@@ -37,11 +35,11 @@ When setting up [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversi
 
   In addition, the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] stored procedures have exact joins and lock hints specified on the queries. This is done to ensure that the optimal query plan is used by the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] queries in [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]. The distributions and expected results for the queries are known; the approximate number of rows returned is known. Statistics are generally not needed.
 
-  For more information, see the following Microsoft Knowledge Base articles:
+  For more information, see the following articles:
 
-- **912262**—["The auto update statistics option, the auto create statistics option, and the Parallelism setting are turned off in the SQL Server database instance that hosts the BizTalk Server BizTalkMsgBoxDB database"](https://www.betaarchive.com/wiki/index.php?title=Microsoft_KB_Archive/912262).
+- [Maintain and troubleshoot BizTalk Server databases](/troubleshoot/developer/biztalk/management-operations/maintain-troubleshoot-database)
 
-- **917845**—["You experience blocking, deadlock conditions, or other SQL Server issues when you try to connect to the BizTalkMsgBoxDb database in BizTalk Server"](/troubleshoot/developer/biztalk/management-operations/biztalkmsgboxdb-connection-issue).
+- [Blocking, deadlock conditions, or other SQL Server issues when you connect to the BizTalkMsgBoxDb database in BizTalk Server](/troubleshoot/developer/biztalk/management-operations/biztalkmsgboxdb-connection-issue).
 
 ## Changes to the MessageBox Database
  The MessageBox database should be treated like non-Microsoft application source code. That is, you should not “tweak” the MessageBox database via changes to tables, indexes, stored procedures, and most SQL Server database settings. For more information, in the BizTalk Core Engine's WebLog, see [What you can and can't do with the MessageBox Database server](/archive/blogs/biztalk_core_engine/).
@@ -49,7 +47,7 @@ When setting up [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversi
 ## Default Settings for the Database Index Rebuilds and Defragmentation
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not support defragmenting indexes. “DBCC INDEXDEFRAG” and “ALTER INDEX … REORGANIZE …” are not supported since they use page locking, which can cause blocking and deadlocks with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does support database index rebuilds (“DBCC DBREINDEX” and “ALTER INDEX … REBUILD …”), but they should only be done during maintenance windows when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is not processing data. Index rebuilds while [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is processing data are not supported.
 
- For more information, see [KB 917845: You experience blocking, deadlock conditions, or other SQL Server issues when you try to connect to the BizTalkMsgBoxDb database in BizTalk Server"](https://support.microsoft.com/help/917845/you-experience-blocking--deadlock-conditions--or-other-sql-server-issu).
+ For more information, go to [Blocking, deadlock conditions, or other SQL Server issues when you connect to the BizTalkMsgBoxDb database in BizTalk Server](/troubleshoot/developer/biztalk/management-operations/biztalkmsgboxdb-connection-issue).
 
  Index fragmentation is not as much of a performance issue for [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] as it would be for a DSS system or an OLTP system that performs index scans. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does very selective queries and updates and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] stored procedures should not cause table or index scans.
 
