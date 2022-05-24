@@ -36,7 +36,7 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
    STATIC:\\\TransportType=;  
   
-   TransportLocation=<http://localhost/ESB.CanadianServices/SubmitPOService.asmx>;  
+   TransportLocation=`http://localhost/ESB.CanadianServices/SubmitPOService.asmx`;  
   
    Action=;  
   
@@ -52,7 +52,7 @@ The Resolver and Adapter Provider Framework supports itinerary, transformation, 
   
 - **UDDI**  
   
-   UDDI:\\\serverUrl=<http://localhost:9901/rmengine>;  
+   UDDI:\\\serverUrl=`http://localhost:9901/rmengine`;  
   
    serviceName=OrderPurchaseWebService;  
   

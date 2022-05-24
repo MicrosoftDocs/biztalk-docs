@@ -19,13 +19,13 @@ manager: "anneta"
 ---
 # Message Versioning Support
 
-The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] supports versioning by including a version string component in the message actions, namespaces, and node IDs surfaced for operations. The current version is http://Microsoft.LobServices.Siebel/2007/03. This means that for an Insert operation on an Account business object in the Siebel repository, the Insert operation surfaced by the adapter has the following:  
+The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] supports versioning by including a version string component in the message actions, namespaces, and node IDs surfaced for operations. The current version is `http://Microsoft.LobServices.Siebel/2007/03`. This means that for an Insert operation on an Account business object in the Siebel repository, the Insert operation surfaced by the adapter has the following:  
   
-- Node ID: http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert  
+- Node ID: `http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert`  
   
-- Message action: http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert  
+- Message action: `http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Insert`  
   
-- Namespace: http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation  
+- Namespace: `http://Microsoft.LobServices.Siebel/2007/03/BusinessObjects/Account/Account/Operation`  
   
 > [!NOTE]
 > This feature does not provide backward compatibility with the earlier versions of the adapter.  

@@ -268,7 +268,7 @@ This topic addresses issues related to running Microsoft® [!INCLUDE[BTARN_Curre
 ## You receive "503: Service Unavailable" from Internet Explorer on 64-bit machine  
   
 ### Symptom  
- After [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] configuration is completed, when you try to access [http://localhost](http://localhost/) or [http://localhost/BtarnApp/RnifSend.aspx](http://localhost/BtarnApp/RnifSend.aspx), you may receive the following or similar error:  
+ After [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] configuration is completed, when you try to access `http://localhost` or `http://localhost/BtarnApp/RnifSend.aspx`, you may receive the following or similar error:  
   
  503: Service Unavailable  
   

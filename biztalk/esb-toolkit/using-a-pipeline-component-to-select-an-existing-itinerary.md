@@ -65,7 +65,7 @@ manager: "anneta"
     |                                           Properties                                           |
     |------------------------------------------------------------------------------------------------|
     |                                   **Name = ItineraryHeader**                                   |
-    | **Namespace = http://schemas.microsoft.biztalk.practices.esb.com/itinerary/system-properties** |
+    | **Namespace** = `http://schemas.microsoft.biztalk.practices.esb.com/itinerary/system-properties` |
 
 
   - The component promotes the four BizTalk context properties listed in the following table using the values defined in the System-Properties.xsd schema.  

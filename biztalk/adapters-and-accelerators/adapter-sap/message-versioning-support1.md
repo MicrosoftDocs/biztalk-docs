@@ -19,13 +19,13 @@ manager: "anneta"
 ---
 # Support for Message Versioning
 
-The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports versioning by including a version string component in the message actions, namespaces, and node IDs surfaced for operations. The current version is http://Microsoft.LobServices.Sap/2007/03. This means that for an RFC named "RFC_SAMPLE", the RFC operation surfaced by the adapter has the following:  
+The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] supports versioning by including a version string component in the message actions, namespaces, and node IDs surfaced for operations. The current version is `http://Microsoft.LobServices.Sap/2007/03`. This means that for an RFC named "RFC_SAMPLE", the RFC operation surfaced by the adapter has the following:  
   
-- Node ID: http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_SAMPLE  
+- Node ID: `http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_SAMPLE`  
   
-- Message action: http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_SAMPLE  
+- Message action: `http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_SAMPLE`  
   
-- Namespace: http://Microsoft.LobServices.Sap/2007/03/Rfc  
+- Namespace: `http://Microsoft.LobServices.Sap/2007/03/Rfc`  
   
 > [!NOTE]
 > This feature does not provide backward compatibility with the earlier versions of the adapter.  

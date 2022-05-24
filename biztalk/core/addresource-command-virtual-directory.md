@@ -40,7 +40,7 @@ To add a virtual directory for a Web site or Web services to a BizTalk applicati
 |    **/Database** (or **/Da**, see Remarks)    |    No    |                                                                                                                                                                                     Name of the BizTalk Management database. If not provided, the BizTalk Management database running in the local instance of SQL Server is used.                                                                                                                                                                                     |
   
 ## Sample  
- **BTSTask AddResource /ApplicationName:MyApplication /Type: System.BizTalk:WebDirectory /Overwrite /Source:<http://Host1:90/MyVirtualDirectory> /Destination:<http://Host2:90/MyVirtualDirectory> /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
+ **BTSTask AddResource /ApplicationName:MyApplication /Type: System.BizTalk:WebDirectory /Overwrite /Source:`http://Host1:90/MyVirtualDirectory` /Destination:`http://Host2:90/MyVirtualDirectory` /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
   
 ## Remarks  
  Parameters are not case-sensitive. You do not need to type the entire parameter name to specify it; you can type the first few letters of the parameter name that identify it unambiguously.  

@@ -54,7 +54,7 @@ This topic describes how to use the BTSTask command-line tool to add a virtual d
   
     Example:  
   
-    **BTSTask AddResource /ApplicationName:MyApplication /Type: System.BizTalk:WebDirectory /Overwrite /Source:<http://Host1:90/MyVirtualDirectory> /Destination:<http://Host2:90/MyVirtualDirectory> /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
+    **BTSTask AddResource /ApplicationName:MyApplication /Type: System.BizTalk:WebDirectory /Overwrite /Source:`http://Host1:90/MyVirtualDirectory` /Destination:`http://Host2:90/MyVirtualDirectory` /Server:MyDatabaseServer /Database:BizTalkMgmtDb**  
   
    |Parameter|Value|  
    |---------------|-----------|  
