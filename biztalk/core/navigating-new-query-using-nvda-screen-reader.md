@@ -16,7 +16,7 @@ ms.suite:
 ms.tgt_pltfrm:
 ms.assetid:
 ---
-
+    
 # Use the NVDA screen reader to create queries in BizTalk
 
 This article provides information on using the NonVisual Desktop Access (NVDA) screen reader to manage BizTalk Server Administration console. The following instructions will help you to navigate the **New query** tab in the **Group overview** page using NVDA.
