@@ -38,7 +38,7 @@ A message that arrives in a receive pipeline can contain metadata in its SOAP he
     |                                  Properties                                  |
     |------------------------------------------------------------------------------|
     |                             **Name = Itinerary**                             |
-    | **Namespace = http://schemas.microsoft.biztalk.practices.esb.com/itinerary** |
+    | **Namespace** = `http://schemas.microsoft.biztalk.practices.esb.com/itinerary` |
 
     > [!NOTE]
     >  By default, the Windows Communication Foundation (WCF) adapter uses the root name of the schema named ItineraryDescription.xsd (this schema is used to generate the ESB Itinerary SOAP header) as the BizTalk context **Name** argument, and it uses the target namespace of the schema as the BizTalk context **Namespace** argument.  
@@ -82,7 +82,7 @@ A message that arrives in a receive pipeline can contain metadata in its SOAP he
     |                                           Properties                                           |
     |------------------------------------------------------------------------------------------------|
     |                                   **Name = ItineraryHeader**                                   |
-    | **Namespace = http://schemas.microsoft.biztalk.practices.esb.com/itinerary/system-properties** |
+    | **Namespace** = `http://schemas.microsoft.biztalk.practices.esb.com/itinerary/system-properties` |
 
 
   - The component promotes the four BizTalk context properties listed in the following table using the values defined in the System-Properties.xsd schema.  
