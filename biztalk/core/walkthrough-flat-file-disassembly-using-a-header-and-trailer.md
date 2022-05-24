@@ -222,7 +222,7 @@ Before generating schemas, you need to create a test file.
 
 2.  From the command prompt, run FFDasm.exe as shown below.
 
-    ```
+    ```cmd
     <Samples Path>\SDK\Utilities\PipelineTools\FFDasm ErrorFile.txt  -hs header.xsd -bs body.xsd -ts Trailer.xsd
     ```
 
@@ -230,7 +230,7 @@ Before generating schemas, you need to create a test file.
 
 3.  FFDasm.exe should produce two output files named {GUID}.xml, one for each ERROR record in the test file. The high-priority error record looks like the following:
 
-    ```
+    ```xml
     <Body xmlns="http://FFDisassemblerWalkthrough.Body">
       <Error>
         <ID>102</ID>
@@ -285,7 +285,7 @@ Before generating schemas, you need to create a test file.
 
 5.  Now configure the filter. Click **Filters** and add one expression:
 
-    -   BTS.MessageType == `**http://FFDisassemblerWalkthrough.Body#Body**`
+    -   BTS.MessageType == `http://FFDisassemblerWalkthrough.Body#Body`
 
 6.  Click **OK** to complete the send port configuration. Your send port should be configured.
 
