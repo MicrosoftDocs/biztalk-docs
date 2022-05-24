@@ -45,7 +45,7 @@ There are three columns in the Query table:
 
 - Field name
 - Operator
-- Value
+- Value 
 
 ## Rows in Query Table
 
