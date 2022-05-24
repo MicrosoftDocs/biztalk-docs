@@ -27,7 +27,7 @@ Samples for [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] are categori
 - [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] samples  
 
 
- The samples are available at [BizTalk Adapter Pack 2010: SAP adapter samples](https://social.technet.microsoft.com/wiki/contents/articles/5118.biztalk-server-adapter-pack-2010.aspx). 
+ For some community guidance on creating your own samples, go to [BizTalk Server Adapter Pack 2010](https://social.technet.microsoft.com/wiki/contents/articles/5118.biztalk-server-adapter-pack-2010.aspx).
 
 > [!NOTE]
 > [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]
