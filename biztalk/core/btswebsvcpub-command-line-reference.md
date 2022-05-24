@@ -49,7 +49,7 @@ This topic provides reference information for the BTSWebSvcPub command-line tool
 |   **-ApplicationName**    |    No    | Name of the BizTalk application in which to create receive locations. If not specified, the default BizTalk application is used. |
   
 ## Sample  
- BTSWebSvcPub.exe "MyAssembly.dll" -Location:<http://localhost/MyVdir>  
+ BTSWebSvcPub.exe "MyAssembly.dll" -Location:`http://localhost/MyVdir`  
   
  -Overwrite  
   

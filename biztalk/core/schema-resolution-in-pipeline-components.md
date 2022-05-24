@@ -24,9 +24,9 @@ Pipeline disassembler and assembler components use XSD schemas to process messag
   
  Standard disassembler and assembler components support retrieval of deployed schemas by using the schema type name and message type. Some components retrieve by using both the schema type name and the message type, while others (for example, the Flat File Disassembler) retrieve only by the schema type.  
   
- Pipeline components that receive XML messages determine the message type by examining the message root element and namespace. For example, the message type for the following XML is "<http://MyDocument.org#MyDocument>".  
+ Pipeline components that receive XML messages determine the message type by examining the message root element and namespace. For example, the message type for the following XML is `http://MyDocument.org#MyDocument`.  
   
-```  
+```xml
 <ns0:MyDocument xmlns:ns0="http://MyDocument.org">  
   
 </ns0:MyDocument>  
@@ -41,7 +41,7 @@ Pipeline disassembler and assembler components use XSD schemas to process messag
 ## How Schemas Are Resolved  
  Assuming you are not specifying the schema directly in the XmlDisassembler, schemas will be resolved in the following manner:  
   
-1. First, an unqualified search on the deployed schemas is made using the root node name and namespace (for example, http://MyNamespace#MyRoot). If a unique match is found the schema is resolved. If multiple matches are found and differ only by version number and only one is active, that version is used and the schema is resolved. If the same schema is active in multiple applications, multiple active schemas will be found and the search will continue with step 2 below.  
+1. First, an unqualified search on the deployed schemas is made using the root node name and namespace (for example, `http://MyNamespace#MyRoot`). If a unique match is found the schema is resolved. If multiple matches are found and differ only by version number and only one is active, that version is used and the schema is resolved. If the same schema is active in multiple applications, multiple active schemas will be found and the search will continue with step 2 below.  
   
 2. If there are multiple matches that step 1 cannot resolve, the search is qualified by the assembly the pipeline is executing in. If a unique schema is found within the same assembly the pipeline is executing in, then the schema is resolved.  
   

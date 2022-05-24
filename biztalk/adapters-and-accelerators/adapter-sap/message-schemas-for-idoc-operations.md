@@ -63,7 +63,7 @@ Intermediate documents (IDOCS) are standardized EDI-like documents supported by 
 |     SendIdoc      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    `<SendIdoc xmlns="[MSG_VERSION]/Idoc">   <idocData>docDataString</idocData>   <guid>guid</guid> </SendIdoc>`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |                                                                   Sends a weakly-typed IDOC to SAP.<br /><br /> - IDOC schema is weakly-typed.<br /><br /> - Exposes the IDOC as a single string field that consists of the control record and data record.<br /><br /> The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] associates a GUID with the SAP TID that it uses to send the IDOC. You can choose whether to specify a GUID in the request message. If a GUID is not included in the request message, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] will generate one. The GUID is returned in the response message                                                                    |
 | SendIdoc Response |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              `<SendIdocResponse xmlns="[MSG_VERSION]/Idoc">   <guid>guid</guid> </SendIdocResponse>`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |             Indicates that the IDOC has been sent to the SAP system.<br /><br /> If the **AutoConfirmSentIdocs** binding property is **true**, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] automatically confirms the transaction on the SAP system, and you can ignore the GUID returned in the response. If the **AutoConfirmSentIdocs** binding property is **false**, you must invoke the **RfcConfirmTransID** operation with the GUID returned by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]to complete the transaction on the SAP system.<br /><br /> You can invoke the **SapAdapterUtilities.ConvertGuidToTid** method to obtain the TID associated with the LUW.             |
 
- [MSG_VERSION] = The message version string; for example, http://Microsoft.LobServices.Sap/2007/03.  
+ [MSG_VERSION] = The message version string; for example, `http://Microsoft.LobServices.Sap/2007/03`.  
 
  [VERSION] = IDOC release version (2 or 3).  
 
@@ -91,12 +91,12 @@ Intermediate documents (IDOCS) are standardized EDI-like documents supported by 
 
 |     Operation     |                                   Action                                   |                                   Example                                   |
 |-------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-|       Send        |     [MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Send      |     http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send      |
-|   Send Response   | [MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Send/response | http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send/response |
-|     SendIdoc      |                      [MESSAGE_VERSION]/Idoc/SendIdoc                       |           http://Microsoft.LobServices.Sap/2007/03/Idoc/SendIdoc            |
-| SendIdoc Response |                  [MESSAGE_VERSION]/Idoc/SendIdoc/response                  |       http://Microsoft.LobServices.Sap/2007/03/Idoc/SendIdoc/response       |
+|       Send        |     [MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Send      |     `http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send`      |
+|   Send Response   | [MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Send/response | `http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Send/response` |
+|     SendIdoc      |                      [MESSAGE_VERSION]/Idoc/SendIdoc                       |           `http://Microsoft.LobServices.Sap/2007/03/Idoc/SendIdoc`            |
+| SendIdoc Response |                  [MESSAGE_VERSION]/Idoc/SendIdoc/response                  |       `http://Microsoft.LobServices.Sap/2007/03/Idoc/SendIdoc/response`       |
 
- [MESSAGE_VERSION] = The message version string; for example, http://Microsoft.LobServices.Sap/2007/03.  
+ [MESSAGE_VERSION] = The message version string; for example, `http://Microsoft.LobServices.Sap/2007/03`.  
 
  [VERSION] = IDOC release version (2 or 3).  
 
@@ -121,7 +121,7 @@ Intermediate documents (IDOCS) are standardized EDI-like documents supported by 
 |ReceiveIdoc|`<ReceiveIdoc xmlns="[MSG_VERSION]/Idoc">   <idocData>docDataString</idocData> </ReceiveIdoc>`|Receives a weakly-typed IDOC from SAP.<br /><br /> - IDOC schema is weakly-typed.<br /><br /> - Exposes the IDOC as a single string field that consists of the control record and data record.|  
 |ReceiveIdoc Response|`<ReceiveIdocResponse xmlns="[MSG_VERSION]/Idoc"> </ReceiveIdocResponse>`|Indicates that the IDOC has been received from the SAP system.|  
 
- [MSG_VERSION] = The message version string; for example, http://Microsoft.LobServices.Sap/2007/03.  
+ [MSG_VERSION] = The message version string; for example, `http://Microsoft.LobServices.Sap/2007/03`.  
 
  [VERSION] = IDOC release version (2 or 3).  
 
@@ -182,8 +182,8 @@ Intermediate documents (IDOCS) are standardized EDI-like documents supported by 
 
 |      Operation       |                                    Action                                     |                                    Example                                     |
 |----------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-|       Receive        |     [MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Receive      |     http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Receive      |
-|   Receive Response   | [MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Receive/response | http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Receive/response |
-|     ReceiveIdoc      |                      [MESSAGE_VERSION]/Idoc/ReceiveIdoc                       |           http://Microsoft.LobServices.Sap/2007/03/Idoc/ReceiveIdoc            |
-| ReceiveIdoc Response |                  [MESSAGE_VERSION]/Idoc/ReceiveIdoc/response                  |       http://Microsoft.LobServices.Sap/2007/03/Idoc/ReceiveIdoc/response       |
+|       Receive        |     [MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Receive      |     `http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Receive`      |
+|   Receive Response   | [MESSAGE_VERSION]/Idoc/[VERSION] /[IDOCTYP]/[CIMTYP]/[RELNO]/Receive/response | `http://Microsoft.LobServices.Sap/2007/03/Idoc/3/ORDERS05//620/Receive/response` |
+|     ReceiveIdoc      |                      [MESSAGE_VERSION]/Idoc/ReceiveIdoc                       |           `http://Microsoft.LobServices.Sap/2007/03/Idoc/ReceiveIdoc`            |
+| ReceiveIdoc Response |                  [MESSAGE_VERSION]/Idoc/ReceiveIdoc/response                  |       `http://Microsoft.LobServices.Sap/2007/03/Idoc/ReceiveIdoc/response`       |
 

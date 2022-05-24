@@ -18,12 +18,12 @@ ms.author: "mandia"
 
 
 ## Martin Abbott
-[Blog](http://martinabbott.com)  |  [Twitter](https://twitter.com/martinabbott)
+[LinkedIn](https://www.linkedin.com/in/mjabbott)
 
 Martin has been "doing" Integration for over 15 years, and is one of the admin team members for the Global Integration Bootcamp, and the Global Azure Bootcamp. He doesn't do anything in his spare time because he doesn't have any. 
 
 ## Bill Chesnut
-[Blog](https://biztalkbill.com)  |  [Twitter](https://twitter.com/BizTalkBill)
+[Blog](https://www.biztalkbill.com/)  |  [Twitter](https://twitter.com/BizTalkBill)
 
 Ramblings about all things integration, including BizTalk Server, API Management, Visual Studio Team Services (VSTS), Service Bus, Logic Apps, and more.
 
@@ -73,7 +73,7 @@ Steve is an HIS and mainframe expert, and blogs about BizTalk, Host Integration 
 Notes about Enterprise Integration: BizTalk Server, Azure Service Bus, Logic Apps, API Management, and everything integration-related.
 
 ## Dave Rendón
-[Blog](https://wikiazure.com/)  |  [Twitter](https://twitter.com/DaveRndn)
+[Blog](https://blog.azinsider.net/)  |  [Twitter](https://twitter.com/DaveRndn)
 
 Get some info on resources and troubleshooting on Azure IaaS. You can also learn about Azure, hands-on labs, and general knowledge on the Microsoft cloud platform.
 
@@ -93,7 +93,7 @@ Findings while working on BizTalk, EDI, EAI, Azure and integration technologies.
 Dan is a MCSA, MCPD, MCTS (BizTalk Server 2010), a Microsoft Certified Trainer (MCT), and a published Pluralsight author. He frequently speaks at Australian community events, including the Brisbane Azure User Group (which he currently leads), and the Brisbane BizTalk User Group which he founded in 2005. 
 
 ## Kent Weare
-[Blog](http://www.MiddlewareInTheCloud.com)  |  [Twitter](https://twitter.com/wearsy)
+[Blog](https://middlewareinthe.cloud/)  |  [Twitter](https://twitter.com/wearsy)
 
 Kent has a strong focus on Microsoft Integration technologies, including Azure Logic Apps, BizTalk Server, Azure API Management, Service Bus, and Flow.
 

@@ -131,4 +131,4 @@
 ### [Troubleshoot Operational Issues](troubleshoot-operational-issues-with-the-oracle-e-business-suite-adapter.md)
 ### [Use Performance Counters](use-performance-counters-with-the-oracle-e-business-suite-adapter.md)
 ## [Terms and definitions](glossary12.md)
-## [API namespace reference](/dotnet/api/?view=bts-oracle-ebs)
+## [API namespace reference](/dotnet/api/?view=bts-oracle-ebs&preserve-view=true)

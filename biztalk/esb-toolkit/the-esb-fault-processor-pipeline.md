@@ -44,7 +44,7 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] installs a send port na
   
 - **EscapeCDATA.** This property determines whether the component will escape any **CDATA** sections found in persisted messages so that InfoPath can display them correctly.  
   
-- **FaultDocumentNamespace.** This property has a default value of **http://schemas.microsoft.biztalk.practices.esb.com/exceptionhandling**. This can be modified to use a custom outbound namespace for the persisted messages.  
+- **FaultDocumentNamespace.** This property has a default value of `http://schemas.microsoft.biztalk.practices.esb.com/exceptionhandling`. This can be modified to use a custom outbound namespace for the persisted messages.  
   
 - **ProcessingInstruction.** This property can contain any InfoPath processing instruction that complies with the ESB Exception Reporting fault schema. The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes an InfoPath template that conforms to the following processing instruction.  
   
@@ -95,7 +95,7 @@ The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] installs a send port na
   
 - **Enabled.** This property determines whether the component will process the message and write it to the BAM database. When set to **False**, the component just sends the message to the next component in the pipeline.  
   
-- **FaultDocumentNamespace.** This property has a default value of **http://schemas.microsoft.biztalk.practices.esb.com/exceptionhandling**.  
+- **FaultDocumentNamespace.** This property has a default value of `http://schemas.microsoft.biztalk.practices.esb.com/exceptionhandling`.  
   
 ## The Fault Processor Pipeline Transform Component  
  The ESB Fault Processor pipeline uses the ESB Transform pipeline component to execute a BizTalk map that translates the encoded ESB fault message into a format that matches the schema for the BizTalk SQL Adapter (ExceptionSql.xsd). The component then passes the transformed message to the SQL Adapter, which inserts the ESB fault message into the ESB Management Portal database.  

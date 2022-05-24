@@ -176,16 +176,16 @@ The number of rows deleted is returned in the DeleteResult element.
 
 |    Operation    |                    Message Action                     |                                    Example                                    |
 |-----------------|-------------------------------------------------------|-------------------------------------------------------------------------------|
-|     Insert      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Insert      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert      |
-| Insert Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Insert/response | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert/response |
-|     Select      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Select      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select      |
-| Select Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Select/response | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select/response |
-|     Update      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Update      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update      |
-| Update Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Update/response | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update/response |
-|     Delete      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Delete      |     http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete      |
-| Delete Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Delete/response | http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete/response |
+|     Insert      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Insert      |     `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert`      |
+| Insert Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Insert/response | `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert/response` |
+|     Select      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Select      |     `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select`      |
+| Select Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Select/response | `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select/response` |
+|     Update      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Update      |     `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update`      |
+| Update Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Update/response | `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Update/response` |
+|     Delete      |     [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Delete      |     `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete`      |
+| Delete Response | [VERSION]/[SCHEMA]/Table/[TABLE_NAME]/Delete/response | `http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Delete/response` |
 
- [VERSION] = The message version string; for example, http://Microsoft.LobServices.OracleDB/2007/03.  
+ [VERSION] = The message version string; for example, `http://Microsoft.LobServices.OracleDB/2007/03`.  
 
  [SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.  
 

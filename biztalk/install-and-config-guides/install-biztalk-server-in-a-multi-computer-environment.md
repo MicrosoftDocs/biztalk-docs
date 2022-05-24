@@ -1,18 +1,18 @@
 ---
-title: "Install BizTalk Server in a Multi-Computer Environment | Microsoft Docs"
+title: Install BizTalk Server in a Multi-Computer Environment | Microsoft Docs
 description: Multi-server installation and setup guidance when BizTalk and SQL Server are installed on a different computers, including BAM
-ms.custom: "biztalk-2020"
-ms.date: "01/14/2020"
-ms.prod: "biztalk-server"
+ms.custom: biztalk-2020
+ms.date: 01/14/2020
+ms.prod: biztalk-server
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: article
 ms.assetid: e4d0e707-6b9e-49e1-9f17-19b3bac1229e
 caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "dougeby"
+author: MandiOhlinger
+ms.author: mandia
+manager: dougeby
 ---
 
 # Install BizTalk Server in a Multi-Computer Environment
@@ -183,7 +183,7 @@ Open BizTalk Server Configuration and choose [Custom Configuration](configure-bi
 In [What's New, Installation, Configuration, and Upgrade](biztalk-server-what-s-new-installation-configuration-and-upgrade.md), you can:
 
 - See the supported software requirements for BizTalk Server, including the supported SQL Server versions
-- Install the prerequisite software, including SQL Server. For SQL Server-specific installation steps, see [Install SQL Server 2016](/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup) or [Install SQL Server 2014](/sql/database-engine/install-windows/installation-for-sql-server?view=sql-server-2014).
+- Install the prerequisite software, including SQL Server. For SQL Server-specific installation steps, see [Install SQL Server 2016](/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup) or [Install SQL Server 2014](/sql/database-engine/install-windows/installation-for-sql-server?view=sql-server-2014&preserve-view=true).
 
 In addition to Database Services that required by the BizTalk Server core functions, BAM also requires the following:
 
@@ -769,7 +769,7 @@ This database contains instance information that specifies how the notification 
 - **Install SQL Server Failover Clustering**: To provide high availability/fault tolerance for the BizTalk Server databases, it is recommended that the BizTalk Server databases are installed on a SQL Server failover cluster. For information on installing SQL Server failover cluster, see:
 
   * SQL Server 2016: [Always On Failover Cluster Instances (SQL Server)](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server)
-  * SQL Server 2014: [Windows Server Failover Clustering (WSFC) with SQL Server](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server?view=sql-server-2014)
+  * SQL Server 2014: [Windows Server Failover Clustering (WSFC) with SQL Server](/sql/sql-server/failover-clusters/windows/always-on-failover-cluster-instances-sql-server?view=sql-server-2014&preserve-view=true)
 
     Once SQL Server is configured for high availability/fault tolerance, then the SQL Server clustered instance can be referenced just as any other SQL Server instance by the BizTalk Server configuration.
 

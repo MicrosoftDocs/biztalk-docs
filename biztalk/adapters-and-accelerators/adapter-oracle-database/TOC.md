@@ -127,4 +127,4 @@
 ### [Use performance counters](use-performance-counters-with-the-oracle-database-adapter.md)
 ### [Exceptions and error handling](exceptions-and-error-handling-with-the-oracle-database-adapter.md)
 ## [Terms and definitions](glossary3.md)
-## [API namespace reference](/dotnet/api/?view=bts-oracle-db)
+## [API namespace reference](/dotnet/api/?view=bts-oracle-db&preserve-view=true)
