@@ -24,18 +24,15 @@ This section describes several tools and utilities that can be useful for diagno
 ## Network Monitor
  Use the Network Monitor utility to capture network traffic between BizTalk Server and remote clients or servers. Captured network traffic can then be analyzed to diagnose network related problems.
 
- Network Monitor is available on Windows Server.
-
- Network Monitor functionality is provided for Windows XP through the use of the NETCAP.exe utility that is installed with the Windows Support Tools available on the Windows XP CD. For more information about the NETCAP.exe utility see [Description of the Network Monitor Capture Utility](https://go.microsoft.com/fwlink/?LinkId=66227).
-
- For information about how to capture network traffic with Network Monitor see [How to capture network traffic with Network Monitor](https://go.microsoft.com/fwlink/?LinkId=66230).
+ Network Monitor is available on Windows Server. It's avialable to download at [Microsoft Network Monitor 3.4 (archive)](https://www.microsoft.com/download/details.aspx?id=4865).
 
 ## Fiddler Tool
- Use Fiddler to record all HTTP traffic between BizTalk Server and remote clients or servers. Fiddler is compatible with Visual Studio Team Edition for Testers and allows you to save recordings as Web test files that can be added to Visual Studio Team Edition for Testers projects.
 
- The disadvantages of Fiddler are that it does not currently support SSL, it does not automatically track hidden fields, such as ViewState, and it does not filter out dependent requests.
+Use Fiddler to record all HTTP traffic between BizTalk Server and remote clients or servers. Fiddler is compatible with Visual Studio Team Edition for Testers and allows you to save recordings as Web test files that can be added to Visual Studio Team Edition for Testers projects.
 
- Fiddler is available at [http://www.fiddlertool.com](https://go.microsoft.com/fwlink/?LinkId=119605).
+Fiddler might not support SSL, might not automatically track hidden fields, such as ViewState, and it might not filter out dependent requests.
+
+Fiddler is 3rd party/partner tool available at [Telerik Fiddler](https://www.telerik.com/fiddler).
 
 ## SQL Server Profiler
  Microsoft SQL Server Profiler can be used to capture Transact-SQL statements that are sent to SQL Server and the SQL Server result sets from these statements. Since BizTalk Server is tightly integrated with SQL Server, the analysis of a SQL Server Profile trace can be a useful tool for analyzing problems that may occur in BizTalk Server when reading from and writing to SQL Server databases.
@@ -44,10 +41,12 @@ This section describes several tools and utilities that can be useful for diagno
  SQL Server Query Editor can be used to execute SQL statements directly against SQL Server databases. This functionality may be useful for querying the BizTalk Server databases or for updating the BizTalk Server databases in certain scenarios.
 
 ## DTCTester
- Most BizTalk Server runtime operations require Microsoft Distributed Transaction Coordinator (MSDTC) support to ensure that the operations are transactionally consistent. If MSDTC transaction support is not available, then the associated BizTalk Server runtime operations cannot proceed. Use the DTCTester tool to verify distributed transaction support across firewalls or against networks. The DTCTester utility uses ODBC to verify transaction support against a SQL Server database and therefore requires that SQL Server is installed on one of the computers being tested. For more information about DTCTester see [How To Use DTCTester Tool](https://support.microsoft.com/kb/293799).
+ Most BizTalk Server runtime operations require Microsoft Distributed Transaction Coordinator (MSDTC) support to ensure that the operations are transactionally consistent. If MSDTC transaction support is not available, then the associated BizTalk Server runtime operations cannot proceed. Use the `Test-Dtc` Windows PowerShell cmdlet to verify distributed transaction support across firewalls or against networks. It verifies transaction support against a SQL Server database and therefore requires that SQL Server is installed on one of the computers being tested. 
+
+For more information, go to [Test-Dtc](/powershell/module/msdtc/test-dtc).
 
 ## DTCPing
- Use the DTCPing tool to verify distributed transaction support across firewalls or against networks. The DTCPing tool must be installed on both the client and server computer and is a good alternative to the DTCTester utility when SQL Server is not installed on either computer. For more information about using DTCPing to verify distributed transaction support see [How to troubleshoot MS DTC firewall issues](https://support.microsoft.com/help/306843/how-to-troubleshoot-ms-dtc-firewall-issues).
+ Use the DTCPing tool to verify distributed transaction support across firewalls or against networks. The DTCPing tool must be installed on both the client and server computer and is a good alternative to the DTCTester utility when SQL Server is not installed on either computer. For more information about using DTCPing to verify distributed transaction support see [How to troubleshoot MS DTC firewall issues](/biztalk/core/troubleshooting-problems-with-msdtc).
 
 ## Performance Console
  Use the Performance Console to capture performance monitoring data in your BizTalk Server environment. See [Performance Counters](../core/performance-counters.md) for a comprehensive list of the performance counters included with BizTalk Server.
