@@ -34,7 +34,7 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces SAP Remote 
 |         RfcGetAttributes<br /><br /> (RfcGetAttributes)          |                                                                                                                                                                                                                `<RfcGetAttributes> </RfcGetAttributes>`                                                                                                                                                                                                                |                                                  RfcGetAttributes is an RFC SDK API operation that is surfaced by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. The RfcGetAttributes operation enables a client program to retrieve the language, the system ID, and the partner code page that are associated with the RFC connection.                                                   |
 | RfcGetAttributes Response<br /><br /> (RfcGetAttributesResponse) |                                                                                                                                                          `<RfcGetAttributesResponse>   <Language>lang</Language>   <SysId>id</SysId>   <PartnerCodePage>pnrcp</PartnerCodePage> </RfcGetAttributesResponse>`                                                                                                                                                           |                                                                                                                              The response to the RfcGetAttributes operation returns the language, the system ID, and the partner code page that are associated with the RFC connection.                                                                                                                              |
 
- [VERSION] = The message version string; for example, http://Microsoft.LobServices.SAP/2007/03.  
+ [VERSION] = The message version string; for example, `http://Microsoft.LobServices.SAP/2007/03`.  
 
  [RFC_NAME] = Name of the RFC; for example, RFC_CUSTOMER_GET.  
 
@@ -54,19 +54,19 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces SAP Remote 
 
 |         Operation         |           Message Action           |                                Example                                 |
 |---------------------------|------------------------------------|------------------------------------------------------------------------|
-|        [RFC_NAME]         |      [VERSION]/Rfc/[RFC_NAME]      |     http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CUSTOMER_GET      |
-|    [RFC_NAME] Response    | [VERSION]/Rfc/[RFC_NAME]/response  | http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CUSTOMER_GET/response |
-|     RfcGetAttributes      |     [VERSION]/RfcGetAttributes     |       http://Microsoft.LobServices.Sap/2007/03/RfcGetAttributes        |
-| RfcGetAttributes Response | [VERSION/RfcGetAttributes/response |   http://Microsoft.LobServices.Sap/2007/03/RfcGetAttributes/response   |
+|        [RFC_NAME]         |      [VERSION]/Rfc/[RFC_NAME]      |     `http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CUSTOMER_GET`      |
+|    [RFC_NAME] Response    | [VERSION]/Rfc/[RFC_NAME]/response  | `http://Microsoft.LobServices.Sap/2007/03/Rfc/RFC_CUSTOMER_GET/response` |
+|     RfcGetAttributes      |     [VERSION]/RfcGetAttributes     |       `http://Microsoft.LobServices.Sap/2007/03/RfcGetAttributes`        |
+| RfcGetAttributes Response | [VERSION/RfcGetAttributes/response |   `http://Microsoft.LobServices.Sap/2007/03/RfcGetAttributes/response`   |
 
- [VERSION] = The message version string; for example, http://Microsoft.LobServices.Sap/2007/03.  
+ [VERSION] = The message version string; for example, `http://Microsoft.LobServices.Sap/2007/03`.  
 
  [RFC_NAME] = The name of the RFC to be invoked; for example, RFC_CUSTOMER_GET.  
 
 ## Invoking a BAPI as an RFC Operation  
  The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces BAPIs both as RFC operations and as methods of business objects. As RFC operations, BAPIs are surfaced by name. For more information about invoking BAPIs by using the business object interface, see [Operations on BAPIs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-bapis-in-sap.md).  
 
- The following XML shows the message structure for a BAPI (BAPI_CUSTOMER_GETDETAIL2) that is invoked as an RFC. The message action for this operation is: http://Microsoft.LobServices.Sap/2007/03/Rfc/BAPI_CUSTOMER_GETDETAIL2.  
+ The following XML shows the message structure for a BAPI (BAPI_CUSTOMER_GETDETAIL2) that is invoked as an RFC. The message action for this operation is: `http://Microsoft.LobServices.Sap/2007/03/Rfc/BAPI_CUSTOMER_GETDETAIL2`.  
 
 ```  
 <BAPI_CUSTOMER_GETDETAIL2 xmlns="http://Microsoft.LobServices.Sap/2007/03/Rfc/">  

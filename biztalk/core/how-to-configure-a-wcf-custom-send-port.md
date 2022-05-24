@@ -26,7 +26,6 @@ You can configure a WCF-Custom send port either programmatically or by using the
 
  The following table lists the configuration properties you can set in the BizTalk Explorer Object Model for WCF-Custom send ports.
 
-
 |           Property name           |  Type  |  Description  |
 |---|---|---|
 |           **Identity**            |  XML Blob<br /><br /> Example:<br /><br /> &lt;identity&gt;<br /><br /> &lt;userPrincipalName value="username@contoso.com" /&gt;<br /><br /> &lt;/identity&gt;  |  Specify the identity of the service that this send port expects. These settings enable this send port to authenticate the service. In the handshake process between the client and service, the WCF infrastructure will ensure that the identity of the expected service matches the values of this element. The values that can be specified for the **Identity** property differ according to the security configuration.<br /><br /> The default is an empty string.  |

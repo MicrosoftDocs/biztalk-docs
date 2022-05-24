@@ -42,7 +42,7 @@ Transactiostructnal Remote Function Calls (tRFCs) are used to execute RFC calls 
 |         RfcConfirmTransID<br /><br /> (RfcConfirmTransID)         |                                                                                                                                                                                                    `<RfcConfirmTransID xmlns="[VERSION]/Trfc/">   <TransactionalRfcOperationIdentifier>GUID   </TransactionalRfcOperationIdentifier> </RfcConfirmTransID>`                                                                                                                                                                                                    |                                                                                                                                                             The RfcConfirmTransID operation confirms the TID used in an outbound tRFC operation on the SAP system.<br /><br /> The \<TransactionalRfcOperationIdentifier\> element contains the GUID that is mapped to the TID associated with the outbound tRFC call. You should set this to the value of the GUID that was returned by the adapter in the tRFC response message.<br /><br /> For more information about the RfcConfirmTransID operation, see [Special Operations](../../adapters-and-accelerators/adapter-sap/special-operations.md).                                                                                                                                                              |
 | RfcConfirmTransIDResponse<br /><br /> (RfcConfirmTransIDResponse) |                                                                                                                                                                                                                                      `<RfcConfirmTransIDResponse xmlns="[VERSION]/Trfc/"> </RfcConfirmTransIDResponse>`                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                   Indicates that the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] has confirmed the TID on the SAP system.                                                                                                                                                                                                                                                                                                                                                                    |
 
- [VERSION] = The message version string; for example, http://Microsoft.LobServices.Sap/2007/03.  
+ [VERSION] = The message version string; for example, `http://Microsoft.LobServices.Sap/2007/03`.  
 
  [RFC_NAME] = Name of the RFC; for example, RFC_CUSTOMER_GET.  
 
@@ -62,12 +62,12 @@ Transactiostructnal Remote Function Calls (tRFCs) are used to execute RFC calls 
 
 |         Operation          |              Message Action              |                                 Example                                  |
 |----------------------------|------------------------------------------|--------------------------------------------------------------------------|
-|         [RFC_NAME]         |        [VERSION]/Trfc/[RFC_NAME]         |      http://Microsoft.LobServices.Sap/2007/03/Trfc/RFC_CUSTOMER_GET      |
-|    [RFC_NAME] Response     |    [VERSION]/Trfc/[RFC_NAME]/response    | http://Microsoft.LobServices.Sap/2007/03/Trfc/RFC_CUSTOMER_GET/response  |
-|     RfcConfirmTransID      |     [VERSION]/Trfc/RfcConfirmTransID     |     http://Microsoft.LobServices.Sap/2007/03/Trfc/RfcConfirmTransID      |
-| RfcConfirmTransID Response | [VERSION/Trfc/RfcConfirmTransID/response | http://Microsoft.LobServices.Sap/2007/03/Trfc/RfcConfirmTransID/response |
+|         [RFC_NAME]         |        [VERSION]/Trfc/[RFC_NAME]         |      `http://Microsoft.LobServices.Sap/2007/03/Trfc/RFC_CUSTOMER_GET`      |
+|    [RFC_NAME] Response     |    [VERSION]/Trfc/[RFC_NAME]/response    | `http://Microsoft.LobServices.Sap/2007/03/Trfc/RFC_CUSTOMER_GET/response`  |
+|     RfcConfirmTransID      |     [VERSION]/Trfc/RfcConfirmTransID     |     `http://Microsoft.LobServices.Sap/2007/03/Trfc/RfcConfirmTransID`      |
+| RfcConfirmTransID Response | [VERSION/Trfc/RfcConfirmTransID/response | `http://Microsoft.LobServices.Sap/2007/03/Trfc/RfcConfirmTransID/response` |
 
- [VERSION] = The message version string; for example, http://Microsoft.LobServices.Sap/2007/03.  
+ [VERSION] = The message version string; for example, `http://Microsoft.LobServices.Sap/2007/03`.  
 
  [RFC_NAME] = The name of the RFC to be invoked; for example, RFC_CUSTOMER_GET.  
 

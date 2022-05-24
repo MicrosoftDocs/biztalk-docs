@@ -15,6 +15,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Installing the BizTalk Operations Sample
+
 The Microsoft BizTalk Operations sample requires the ESB BizTalk Operations service installed and configured. ESB BizTalk Operations service is one of the core Web services that can be installed and configured using the ESB Configuration Tool. For more information, go to [Install and configure the Microsoft BizTalk ESB Toolkit](install-and-configure-the-microsoft-biztalk-esb-toolkit.md).
 
 The default location of the BizTalk Operations Web service is `http://localhost/ESB.BizTalkOperationsService/Operations.asmx`. However, you can change this in the application configuration file if you deploy the service in a different location or a remote server.  
