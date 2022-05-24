@@ -49,7 +49,7 @@ Case.xsd
 |      Property      |                                    Value                                    |
 |--------------------|-----------------------------------------------------------------------------|
 |  **XPath Field**   |               \*[local-name()='Name' and namespace-uri()='']                |
-| **XPath Selector** | /\*[local-name()='Root' and namespace-uri()='<http://LoansProcessor.Case>'] |
+| **XPath Selector** | /\*[local-name()='Root' and namespace-uri()='http://LoansProcessor.Case'] |
 
  You can change the default XPath expressions for the XML nodes before you drag the node into a rule argument, and the new binding information is placed in the policy. Note, however, that any edits that are made to the XPath expressions must be re-entered in the Business Rule Composer when the schema is reloaded.  
 
