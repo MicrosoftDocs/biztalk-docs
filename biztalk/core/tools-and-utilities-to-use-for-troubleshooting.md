@@ -46,7 +46,7 @@ Fiddler is 3rd party/partner tool available at [Telerik Fiddler](https://www.tel
 For more information, go to [Test-Dtc](/powershell/module/msdtc/test-dtc).
 
 ## DTCPing
- Use the DTCPing tool to verify distributed transaction support across firewalls or against networks. The DTCPing tool must be installed on both the client and server computer and is a good alternative to the DTCTester utility when SQL Server is not installed on either computer. For more information about using DTCPing to verify distributed transaction support see [How to troubleshoot MS DTC firewall issues](/biztalk/core/troubleshooting-problems-with-msdtc).
+ Use the DTCPing tool to verify distributed transaction support across firewalls or against networks. The DTCPing tool must be installed on both the client and server computer and is a good alternative to the DTCTester utility when SQL Server is not installed on either computer. For more information about using DTCPing to verify distributed transaction support see [How to troubleshoot MS DTC firewall issues](./troubleshooting-problems-with-msdtc.md).
 
 ## Performance Console
  Use the Performance Console to capture performance monitoring data in your BizTalk Server environment. See [Performance Counters](../core/performance-counters.md) for a comprehensive list of the performance counters included with BizTalk Server.
