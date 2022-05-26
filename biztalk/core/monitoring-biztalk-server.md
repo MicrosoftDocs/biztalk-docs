@@ -1,8 +1,8 @@
 ---
 title: "Monitor the health and performance using built-in tools | Microsoft Docs"
-description: Availability, health, and performance monitoring in BizTalk Server, and monitor SQL Agent jobs
+description: Availability, health, and performance monitoring in BizTalk Server, and monitor SQL Agent jobs. Download BizTalk Health Monitor tool, which includes the MsgBox Viewer and BizTalk Terminator tool.
 ms.custom: ""
-ms.date: "01/14/2016"
+ms.date: 05/26/2022
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -47,7 +47,7 @@ Monitoring your BizTalk Server applications and infrastructure on a regular basi
   
 |Tool|Task|  
 |----------|----------|  
-|BizTalk Health Monitor tool (BHM)|An MMC snap-in for users to monitor the health of BizTalk Server environments, detect critical and non-critical issues, and execute maintenance tasks.  [Download BizTalk Health Monitor](https://www.microsoft.com/download/details.aspx?id=43716).|  
+|BizTalk Health Monitor tool (BHM)|An MMC snap-in for users to monitor the health of BizTalk Server environments, detect critical and non-critical issues, and execute maintenance tasks.  <br/><br/>**[Download BizTalk Health Monitor](https://www.microsoft.com/download/details.aspx?id=43716)**. BizTalk Health Monitor also includes the latest versions of MsgBox Viewer and BizTalk Terminator. |  
 |BizTalk Server Administration Console|You will use the Group Hub page and query pages in the BizTalk Server Administration Console to identify application health problems and analyze their cause(s).|  
 |Event Viewer|Detect problems that occur during the processing of messages and orchestrations.|  
   
