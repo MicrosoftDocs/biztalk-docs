@@ -47,18 +47,18 @@ The adapter "MQSeries" raised an error message. Details "The adapter has encount
 
 - The host account for the MQSeries adapter does not have the required permissions for the MQSAgent COM+ application on the MQSeries server.
 
-- On a [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]-based server, the host account for the MQSeries adapter is not a member of the Distributed COM Users group on the MQSeries server.
+- On a Windows server, the host account for the MQSeries adapter is not a member of the Distributed COM Users group on the MQSeries server.
 
 ##### Resolution
  To resolve this issue, use the following methods. If a method does not resolve the issue, try the next method.
 
- **Method 1: Enable network COM+ access on the Microsoft [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]-based computer**
+ **Method 1: Enable network COM+ access on the Microsoft Server**
 
- Enable network COM+ access on a Microsoft [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]-based computer by following the steps documented in [How to enable network COM+ access in Windows Server 2003](https://go.microsoft.com/fwlink/?LinkId=67076).
+ Enable network COM+ access on the Microsoft Server. For more information, go to [enable COM+ Network Access](/troubleshoot/windows-server/application-management/0x80004027-remotely-access-com-plus-object).
 
  **Method 2: Configure MSDTC settings**
 
- Follow the steps in the **Set the appropriate MSDTC Security Configuration options on [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]** section of [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md) to configure MSDTC settings.
+ Follow the steps in the **Set the appropriate MSDTC Security Configuration options** at [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md) to configure MSDTC settings.
 
  **Method 3: Verify that the host account is added to the role in the MQSAgent COM+ application**
 
@@ -66,9 +66,9 @@ The adapter "MQSeries" raised an error message. Details "The adapter has encount
 
  **Method 4: Verify that the host account for the MQSeries adapter is a member of the Distributed COM Users group**
 
- On a Windows [!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)] or [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]-based server, examine the group memberships of the host account for the MQSeries adapter. Make sure that the account is a member of the **Distributed COM Users** group on the MQSeries server where the MQSAgent COM+ application is installed.
+ On a Windows Server, examine the group memberships of the host account for the MQSeries adapter. Make sure that the account is a member of the **Distributed COM Users** group on the MQSeries server where the MQSAgent COM+ application is installed.
 
- For more information about DCOM security enhancements in Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)], see [DCOM Security Enhancements](/previous-versions/windows/it-pro/windows-server-2003/cc738214(v=ws.10)).
+ For more information about DCOM security enhancements, see [DCOM Security Enhancements](/previous-versions/windows/it-pro/windows-server-2003/cc738214(v=ws.10)).
 
 ## See Also
  [Troubleshooting the MQSeries Adapter](../core/troubleshooting-the-mqseries-adapter.md)

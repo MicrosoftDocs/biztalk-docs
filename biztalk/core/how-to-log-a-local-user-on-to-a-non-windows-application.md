@@ -31,8 +31,6 @@ After you set up your user with an affiliate application, you can use Single Sig
 
      For more information about how to set security credentials, see [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](/dotnet/standard/security/).
 
-     For more information about passing credentials for an ASP.NET Web service, see [HOW TO: Pass Current Credentials to an ASP.NET Web Service](https://go.microsoft.com/fwlink/?LinkId=193907).
-
 ### To log a local user on to a host application
 
 1.  Receive the request to log the current user on to an application running on the host server.

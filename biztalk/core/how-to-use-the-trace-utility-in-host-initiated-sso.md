@@ -29,8 +29,7 @@ The primary method of troubleshooting is tracing.
 >
 >  \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On
 
-> [!NOTE]
->  You can download this file from the following location: [https://go.microsoft.com/fwlink/?LinkId=59534](https://go.microsoft.com/fwlink/?LinkId=59534)
+For more information on this tool, go to [Tracelog](/windows-hardware/drivers/devtest/tracelog).
 
 #### To use the trace utility
 

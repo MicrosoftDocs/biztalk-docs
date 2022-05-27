@@ -110,8 +110,6 @@ Steps to install the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknove
 
    - Data related to the enterprise application versions you are using with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].
 
-     [CEIP](https://go.microsoft.com/fwlink/p/?LinkId=144699) provides more information.
-
      Select **OK**.
 
    > [!NOTE]
@@ -124,16 +122,16 @@ Steps to install the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknove
  Use the **msiexec** command to do a silent installation. As part of the msiexec command, enter the individual components that you want to install. The following table lists the values for each component in the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. Use these values to install (or remove) specific components. To install (or remove) more than one component, you can use a combination of these values separated by a comma.
 
 
-|                                    Component name                                    |                                                                Corresponding value for command-line properties                                                                 |
-|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|        [!INCLUDE[adapteroracle_short](../includes/adapteroracle-short-md.md)]        |                                                                                   DbFeature                                                                                    |
-| [!INCLUDE[adapteroraclebusinessshort](../includes/adapteroraclebusinessshort-md.md)] |                                                                                OracleEBSFeature                                                                                |
-|           [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)]           |                                                                             SapBaseAdapterFeature                                                                              |
-|        [!INCLUDE[adaptersiebel_short](../includes/adaptersiebel-short-md.md)]        |                                                                            SiebelBaseAdapterFeature                                                                            |
-|            [!INCLUDE[adaptersqlshort](../includes/adaptersqlshort-md.md)]            |                                                                                   SqlFeature                                                                                   |
-|        [!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]        |     SapAdoFeature<br /><br /> **Note**: You must provide this value only if you are installing the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)] also.      |
-|     [!INCLUDE[adoprovidersiebelshort](../includes/adoprovidersiebelshort-md.md)]     | SiebelAdoFeature<br /><br /> **Note**: You must provide this value only if you are installing the [!INCLUDE[adaptersiebel_short](../includes/adaptersiebel-short-md.md)] also. |
-|                                    All components                                    |                                                                                      ALL                                                                                       |
+| Component name | Corresponding value for command-line properties |
+|---|---|
+| [!INCLUDE[adapteroracle_short](../includes/adapteroracle-short-md.md)]| DbFeature  |
+| [!INCLUDE[adapteroraclebusinessshort](../includes/adapteroraclebusinessshort-md.md)] | OracleEBSFeature   |
+| [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)]           |   SapBaseAdapterFeature   |
+| [!INCLUDE[adaptersiebel_short](../includes/adaptersiebel-short-md.md)]        |   SiebelBaseAdapterFeature  |
+| [!INCLUDE[adaptersqlshort](../includes/adaptersqlshort-md.md)]  |   SqlFeature  |
+| [!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]        |     SapAdoFeature<br /><br /> **Note**: You must provide this value only if you are installing the [!INCLUDE[adaptersap_short](../includes/adaptersap-short-md.md)] also.      |
+| [!INCLUDE[adoprovidersiebelshort](../includes/adoprovidersiebelshort-md.md)]     | SiebelAdoFeature<br /><br /> **Note**: You must provide this value only if you are installing the [!INCLUDE[adaptersiebel_short](../includes/adaptersiebel-short-md.md)] also. |
+| All components   |   ALL  |
 
 > [!IMPORTANT]
 >  The feature names are case-sensitive.
@@ -226,7 +224,7 @@ Steps to install the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknove
      > [!IMPORTANT]
      >  While installing the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Evaluation version in silent mode, the default option for CEIP is true.
 
-     For more information about the **msiexec** command, type `msiexec` on the command line, and press `ENTER`. Or go to [https://go.microsoft.com/fwlink/p/?LinkId=103199](https://go.microsoft.com/fwlink/p/?LinkId=103199).
+     For more information about the **msiexec** command, type `msiexec` on the command line, and press `ENTER`. [Windows command: msiexec](/windows-server/administration/windows-commands/msiexec) is also a good resource.
 
 ## Known install issue
 For a comprehensive list of installation-related issues, refer to **Troubleshooting** topics for each adapter.

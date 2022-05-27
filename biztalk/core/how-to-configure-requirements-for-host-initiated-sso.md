@@ -57,15 +57,13 @@ Although Enterprise SSO and host initiated SSO have certain aspects in common, c
 
 ### To create an SPN
 
-1. Download the **setspn** utility from the following location: [https://go.microsoft.com/fwlink/?LinkId=33178](https://go.microsoft.com/fwlink/?LinkId=33178).
+1. On the **Start** menu, click **Run**.
 
-2. On the **Start** menu, click **Run**.
+2. In the **Run** dialog box, type **cmd**, and then click **OK**.
 
-3. In the **Run** dialog box, type **cmd**, and then click **OK**.
+3. At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.
 
-4. At the command line, go to the Enterprise Single Sign-On installation directory. The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.
-
-5. Type **setpsn -a hipsvc\computername.domain.com domain\hissvc**
+4. Type **setpsn -a hipsvc\computername.domain.com domain\hissvc**
 
     where **hipsvc\computername.domain.com** is the service that will perform the operation and the computer it is running on, and **domain\hissvc** is the service account for hipsvc.
 
@@ -73,9 +71,9 @@ Although Enterprise SSO and host initiated SSO have certain aspects in common, c
 
 #### To give TCB privileges for the SSO service account
 
--   Under your **Domain Security Policy - Local Policies - User Rights Assignment**, add the SSO Service account to the **Act as part of operating system** policy.
+Under your **Domain Security Policy - Local Policies - User Rights Assignment**, add the SSO Service account to the **Act as part of operating system** policy.
 
-     For more information about Kerberos Protocol Transition and Constrained Delegation, go to [https://go.microsoft.com/fwlink/?LinkId=195484](https://go.microsoft.com/fwlink/?LinkId=195484).
+For more information about Kerberos Protocol Transition and Constrained Delegation, go to [Kerberos Constrained Delegation Overvie](/windows-server/security/kerberos/kerberos-constrained-delegation-overview).
 
 ## See Also
  [Host Initiated SSO](../core/host-initiated-sso.md)
