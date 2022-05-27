@@ -32,27 +32,25 @@ The Loans Processing Using Business Rules sample demonstrates how to use a set o
  The following table shows the files in this sample and describes their purpose.  
 
 
-|                                                                                    File(s)                                                                                    |                                                                                                                Description                                                                                                                 |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                   Case.xsd                                                                                    |                                                                                 Schema file for inbound loan applications, otherwise known as loan cases.                                                                                  |
-|                                                                                  Cleanup.bat                                                                                  |                   Used to undeploy assemblies and remove them from the global assembly cache (GAC). Removes send and receive ports. Removes Microsoft Internet Information Services (IIS) virtual directories as needed.                   |
-|                                                                           Create_CustInfo_Table.sql                                                                           |                                                                              SQL script for creating the CustInfo table in the SQL Northwind sample database.                                                                              |
-|                                                                           LoanProcessorBinding.xml                                                                            |                                                                                               Used for automated setup such as port binding.                                                                                               |
-|                                                                   LoansProcessor.btproj, LoansProcessor.sln                                                                   |                                                                                            BizTalk project and solution files for this sample.                                                                                             |
-|                                                                             My Sample Service.odx                                                                             |                                                             [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration for this sample.                                                              |
-|                                                                                sampleLoan.xml                                                                                 |                                                               Sample input file, with empty values for the four status elements at the end of the XML structure in the file.                                                               |
-|                                                                                   Setup.bat                                                                                   |                                                                                                 Used to build and initialize this sample.                                                                                                  |
-|         In the \CreateRules folder:<br /><br /> App.ico, AssemblyInfo.cs, Case.xsd, CreateLoanProcessingPolicy.csproj, CreateLoanProcessingPolicy.sln, WriteToBRL.cs          | Visual C# project, solution, source, and related files used to create the application that programmatically creates the rules in the set. For examples of programmatically building sets of rules, refer to the source file WriteToBRL.cs. |
-| In the \myFactRetriever folder:<br /><br /> AssemblyInfo.cs<br /><br /> FactRetrieverForLoansProcessing.cs<br /><br /> myFactRetriever.csproj<br /><br /> myFactRetriever.sln |                 Visual C# project, solution, source, and related files used to create an assembly that you use to retrieve information from the CustInfo table added earlier to the Northwind sample SQL Server database.                  |
+|   File(s)  |Description  |
+|---|---|
+|  Case.xsd  |   Schema file for inbound loan applications, otherwise known as loan cases.  |
+|  Cleanup.bat   |  Used to undeploy assemblies and remove them from the global assembly cache (GAC). Removes send and receive ports. Removes Microsoft Internet Information Services (IIS) virtual directories as needed.   |
+|  Create_CustInfo_Table.sql  |  SQL script for creating the CustInfo table in the SQL Northwind sample database.  |
+|  LoanProcessorBinding.xml  |  Used for automated setup such as port binding.   |
+|  LoansProcessor.btproj, LoansProcessor.sln  |   BizTalk project and solution files for this sample.   |
+|  My Sample Service.odx  |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration for this sample.  |
+|  sampleLoan.xml   |  Sample input file, with empty values for the four status elements at the end of the XML structure in the file.   |
+|  Setup.bat   |  Used to build and initialize this sample.  |
+|  In the \CreateRules folder:<br /><br /> App.ico, AssemblyInfo.cs, Case.xsd, CreateLoanProcessingPolicy.csproj, CreateLoanProcessingPolicy.sln, WriteToBRL.cs          | Visual C# project, solution, source, and related files used to create the application that programmatically creates the rules in the set. For examples of programmatically building sets of rules, refer to the source file WriteToBRL.cs. |
+| In the \myFactRetriever folder:<br /><br /> AssemblyInfo.cs<br /><br /> FactRetrieverForLoansProcessing.cs<br /><br /> myFactRetriever.csproj<br /><br /> myFactRetriever.sln |  Visual C# project, solution, source, and related files used to create an assembly that you use to retrieve information from the CustInfo table added earlier to the Northwind sample SQL Server database.  |
 
 ## Building and Initializing This Sample  
-
-#### To build and initialize the Loans Processing Using Business Rules sample  
 
 1. Make sure that you have the Northwind database on your machine.  
 
    > [!IMPORTANT]
-   >  To run this sample, you must have the Northwind SQL Server sample database. [Download](https://www.microsoft.com/download/details.aspx?id=23654), and install. 
+   >  To run this sample, you must have the Northwind SQL Server sample database. To download, go to [Northwind and pubs sample databases for Microsoft SQL Server](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs).
 
 2. In a command window, navigate to the following folder:  
 
@@ -93,16 +91,11 @@ The Loans Processing Using Business Rules sample demonstrates how to use a set o
    - Enlists and starts the orchestration.  
 
 > [!NOTE]
->  If your BizTalk host name is not BizTalkServerApplication, modify the file Setup.bat and the file LoanProcessorBinding.xml to reflect the proper host name.  
-> 
-> [!NOTE]
->  You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
-> 
-> [!NOTE]
->  If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe). Use this key pair to sign the resulting assemblies.  
-> 
-> [!NOTE]
->  To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
+>  
+> - If your BizTalk host name is not BizTalkServerApplication, modify the file Setup.bat and the file LoanProcessorBinding.xml to reflect the proper host name.  
+> - You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.  
+> - If you choose to open and build the projects in this sample without running the file Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe). Use this key pair to sign the resulting assemblies.  
+> - To undo changes made by Setup.bat, run Cleanup.bat. You must run Cleanup.bat before running Setup.bat a second time.  
 
 ## Running This Sample  
 
@@ -132,13 +125,13 @@ The Loans Processing Using Business Rules sample demonstrates how to use a set o
     The following table shows the set of rules used by this sample. Unless specifically mentioned otherwise, facts are from the incoming XML message. The string (db) indicates a database as the source of a fact.  
 
 
-   |  Rule number   |        Rule name        |                                                                             Description                                                                             |
-   |----------------|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |       1        |   Income Status Rule    |                                       IF **BasicSalary** + **OtherIncome** > 0<br /><br /> THEN **IncomeStatus** = **Valid**                                        |
-   |       2        | Commitments Status Rule | IF **ID** == **ID (db)**<br /><br /> AND<br /><br /> IF **CreditCardBalance (db)** > 500<br /><br /> THEN **CommitmentsStatus** =<br /><br /> "Compute Commitments" |
-   |       3        | Employment Status Rule  |                                  IF **EmploymentType &#124; TimeInMonths** > 18<br /><br /> THEN **EmploymentStatus** = **Valid**                                   |
-   |       4        |  Residency Status Rule  |                                  IF **PlaceOfResidence &#124; TimeInMonths** > 18<br /><br /> THEN **ResidencyStatus** = **Valid**                                  |
-   | !1, !2, !3, !4 |     Negation Rules      |    Conditions that are a logical **NOT** of the corresponding condition described in rules 1–4. Resulting actions are a change in the string that is being set.     |
+    |  Rule number   |        Rule name        |    Description     |
+    |---|---|---|
+    |       1        |   Income Status Rule    |   IF **BasicSalary** + **OtherIncome** > 0<br /><br /> THEN **IncomeStatus** = **Valid**      |
+    |       2        | Commitments Status Rule | IF **ID** == **ID (db)**<br /><br /> AND<br /><br /> IF **CreditCardBalance (db)** > 500<br /><br /> THEN **CommitmentsStatus** =<br /><br /> "Compute Commitments" |
+    |       3        | Employment Status Rule  |  IF **EmploymentType &#124; TimeInMonths** > 18<br /><br /> THEN **EmploymentStatus** = **Valid**     |
+    |       4        |  Residency Status Rule  |    IF **PlaceOfResidence &#124; TimeInMonths** > 18<br /><br /> THEN **ResidencyStatus** = **Valid**      |
+    | !1, !2, !3, !4 |     Negation Rules      |    Conditions that are a logical **NOT** of the corresponding condition described in rules 1–4. Resulting actions are a change in the string that is being set.     |
 
 
 6. Right-click the **Version 1.1(not saved)** node, and then click **Save**.  
@@ -160,7 +153,7 @@ The Loans Processing Using Business Rules sample demonstrates how to use a set o
 
  Input loan cases to this sample are XML messages that have the following structure:  
 
-```  
+``` xml
     Name  
     ID  
     Income  

@@ -186,7 +186,7 @@ Complete the following steps to do a silent installation of [!INCLUDE[adaptersql
 
     By default, the option is false.  
 
-    For more information about the `msiexec` command, type `msiexec` on the command line and press `ENTER`, or see [https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781).  
+    For more information about the `msiexec` command, type `msiexec` on the command line and press `ENTER`. [Windows command: msiexec](/windows-server/administration/windows-commands/msiexec) is also a good resource.
 
 <a name="BKMK_PostInst"></a>   
 ## Post-installation tasks  
@@ -296,7 +296,7 @@ Complete the following steps to determine the public key and version for the [!I
    > [!IMPORTANT]
    >  While modifying the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] installation in the silent mode, you cannot change your preferences for opting in or out of CEIP. The preferences will remain the same as you specified during the installation, even if you explicitly set the CEIP_OPTIN to true or false.  
 
-    For more information about the `msiexec` command type `msiexec` on the command line and press `ENTER`, or see [https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781).  
+    For more information about the `msiexec` command type `msiexec` on the command line and press `ENTER`. [Windows command: msiexec](/windows-server/administration/windows-commands/msiexec) is also a good resource.
 
 <a name="BKMK_Remove_Adap"></a>   
 ## Uninstall or remove the SQL Adapter  
@@ -333,7 +333,7 @@ Complete the following steps to determine the public key and version for the [!I
 
     This command removes the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] from the computer.  
 
-    For more information about the `msiexec` command, type `msiexec` on the command line and press `ENTER`, or see [https://support.microsoft.com/kb/230781](https://support.microsoft.com/kb/230781).  
+    For more information about the `msiexec` command, type `msiexec` on the command line and press `ENTER`. [Windows command: msiexec](/windows-server/administration/windows-commands/msiexec) is also a good resource.
 
 <a name="BKMK_PostRemove"></a>   
 ### Post-uninstall task  

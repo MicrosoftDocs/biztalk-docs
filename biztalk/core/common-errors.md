@@ -49,9 +49,7 @@ This topic lists out common error messages you may encounter while creating maps
 
 - Edit your outbound document definition to use a string datatype instead of a date datatype.
 
-- Create a custom [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsVBNoVersion](../includes/btsvbnoversion-md.md)]**Script** functoid that will convert the output of the Database **Value Extractor** functoid into the ISO 8601 format.
-
-  For more information, see KB article [278737](https://support.microsoft.com/kb/278737/en-us).
+- Create a custom [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsVBNoVersion](../includes/btsvbnoversion-md.md)] **Script** functoid that will convert the output of the Database **Value Extractor** functoid into the ISO 8601 format.
 
 ## You receive Internal Compiler Error (0xc0000005 at address 53624FD6) when compiling the maps
 
