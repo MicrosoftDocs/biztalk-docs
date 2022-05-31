@@ -251,7 +251,8 @@ Most BizTalk Server runtime operations require Microsoft Distributed Transaction
     -   After the Distributed Transaction Coordinator service has stopped, type **net start msdtc** and press **Enter**.
 
 ## Use DTCTester or DTCPing to verify MSDTC functionality over the network
- Use the DTCTester utility to verify transaction support between two computers if SQL Server is installed on one of the computers. The DTCTester utility uses ODBC to verify transaction support against a SQL Server database. For more information about DTCTester see [How to Use DTCTester Tool](https://www.microsoft.com/download/details.aspx?id=30746).
+
+ Use the Test-Dtc cmdlet to verify transaction support between two computers if SQL Server is installed on one of the computers. For more information, go to [Windows PowerShell: Test-Dtc](/powershell/module/msdtc/test-dtc).
 
  Use DTCPing to verify transaction support between two computers if SQL Server is not installed on either computer. The DTCPing tool must be run on both the client and server computer and is a good alternative to the DTCTester utility when SQL Server is not installed on either computer. For more information about DTCPing, see [How to troubleshoot MS DTC firewall issues](https://support.microsoft.com/help/918331/how-to-troubleshoot-connectivity-issues-in-ms-dtc-by-using-the-dtcping) and [Configuring Microsoft Distributed Transaction Coordinator (DTC) to work through a firewall](https://support.microsoft.com/help/250367/configuring-microsoft-distributed-transaction-coordinator-dtc-to-work).
 
@@ -266,7 +267,7 @@ Most BizTalk Server runtime operations require Microsoft Distributed Transaction
 ## Error “New transaction cannot enlist in the specified transaction coordinator (0x8004d00a)” occurs if the MSDTC connection between a client computer and a server computer is closed
  In certain scenarios, it is possible that an existing MSDTC connection between a client and server is closed and subsequent attempts to use this connection will result in the following error message:
 New transaction cannot enlist in the specified transaction coordinator (0x8004d00a)
-For more information, see [Error message when you try to start a transaction in MS DTC: "New transaction cannot enlist in the specified transaction coordinator"](https://support.microsoft.com/kb/922430).
+For more information, go to [New transaction can't enlist in the specified transaction coordinator when you try to start a transaction in MS DTC](/troubleshoot/windows/win32/cannot-start-transaction-ms-dtc).
 
 ## Consider reinstalling the Distributed Transaction Coordinator service if other troubleshooting steps are not successful
  If other attempts at troubleshooting problems with MSDTC are not successful consider uninstalling and reinstalling MSDTC. Follow these steps to uninstall and reinstall MSDTC:

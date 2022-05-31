@@ -19,26 +19,16 @@ manager: "anneta"
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] supports the use of Windows Server cluster for host cluster support, to provide high availability for the Enterprise Single Sign-On (SSO) Master Secret, and to provide high availability for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases. This topic provides some general guidelines for using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a Windows Server cluster environment and discusses some known issues that may occur when using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a Windows Server cluster environment.
 
 ## General Guidelines
- Follow these general guidelines to maximize productivity with Windows Server cluster and to troubleshoot Windows Server cluster problems that may affect [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].
 
-1. Complete [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proof of concept work with a Windows Server cluster in a virtualized server environment.
+Complete [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proof of concept work with a Windows Server cluster in a virtualized server environment.
 
-    **The Hyper-V role available with Windows Server 2008 can be used to create a virtualized server environment.**
+**The Hyper-V role available with Windows Server can be used to create a virtualized server environment**. For more information, go to[Create a failover cluster on Windows Server](/windows-server/failover-clustering/create-failover-cluster).
 
-   - For more information about Windows Server 2008 Hyper-V, see “Virtualization and Consolidation” at [https://go.microsoft.com/fwlink/?LinkID=121187](https://go.microsoft.com/fwlink/?LinkID=121187).
-
-   - For more in depth information about the benefits of leveraging virtualization technology provided with Hyper-V, see the whitepaper "Advanced Virtualization Benefits of Windows Server 2008 Editions for the Enterprise" available for download at [https://go.microsoft.com/fwlink/?LinkId=123530](https://go.microsoft.com/fwlink/?LinkId=123530).
-
-   - Steps for using Hyper-V to create a Windows Server 2008 cluster are available at [https://go.microsoft.com/fwlink/?LinkId=129680](https://go.microsoft.com/fwlink/?LinkId=129680).
-
-     Doing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proof of concept work with a Windows Server cluster in a virtualized server environment offers great flexibility and uses considerably fewer hardware resources than required for a Windows Server cluster. If this approach is used, allocate at least 512 MB of memory for each virtual machine that is concurrently running on the host computer and an additional 512 MB of memory for the host operating system. For example, for a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution with a Windows Server cluster that uses five virtual machines (two BizTalk Server cluster nodes, two Microsoft SQL Server cluster nodes, and one domain controller), you would plan to have 3 GB of memory installed on the host computer. If the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proof of concept environment requires more than 2 GB of memory, consider installing a 64-bit version of Windows on the host computer (required for the Hyper-V role) to ensure that all installed memory is accessible by the host operating system.
+Doing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proof of concept work with a Windows Server cluster in a virtualized server environment offers great flexibility and uses considerably fewer hardware resources than required for a Windows Server cluster. If this approach is used, allocate at least 512 MB of memory for each virtual machine that is concurrently running on the host computer and an additional 512 MB of memory for the host operating system. For example, for a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solution with a Windows Server cluster that uses five virtual machines (two BizTalk Server cluster nodes, two Microsoft SQL Server cluster nodes, and one domain controller), you would plan to have 3 GB of memory installed on the host computer. If the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] proof of concept environment requires more than 2 GB of memory, consider installing a 64-bit version of Windows on the host computer (required for the Hyper-V role) to ensure that all installed memory is accessible by the host operating system.
 
 ## Troubleshooting Resources
- **Resources for troubleshooting Windows Server 2008 failover clustering**
 
--   Review the [Failover Cluster Validation and Troubleshooting with Windows Server 2008](https://go.microsoft.com/fwlink/?LinkId=129729) TechNet Webcast on the Microsoft TechNet Web site. This web cast describes how to troubleshoot failover cluster validation and troubleshooting with Windows Server 2008.
-
--   For more information about analyzing problems with Windows Server 2008 failover clustering, review the topic [View Events and Logs for a Failover Cluster](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772342(v=ws.11)) on the Microsoft TechNet Web site.
+For more information about analyzing problems with Windows Server failover clustering, review the topic [View Events and Logs for a Failover Cluster](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772342(v=ws.11)) on the Microsoft TechNet Web site.
 
 ## Known Issues
 

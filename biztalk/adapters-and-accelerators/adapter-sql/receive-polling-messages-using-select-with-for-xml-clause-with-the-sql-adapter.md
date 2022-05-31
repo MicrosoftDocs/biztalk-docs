@@ -71,19 +71,22 @@ SELECT Employee_ID ,Name ,Designation FROM Employee for xml auto, xmlschema
 
 3. Open the schema in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and make the following changes.
 
-   1.  Add a node to the schema and move the existing root node under this newly added node. Give a name to the root node. For this topic, rename the root node to **Root**.
+    1. Add a node to the schema and move the existing root node under this newly added node. Give a name to the root node. For this topic, rename the root node to **Root**.
 
-   2.  The response schema generated for the SELECT statement references a sqltypes.xsd. You can get the sqltypes.xsd schema from [https://go.microsoft.com/fwlink/p/?LinkId=131087](https://go.microsoft.com/fwlink/p/?LinkId=131087). Add the sqltypes.xsd schema to the BizTalk project.
+    2. The response schema generated for the SELECT statement references a sqltypes.xsd. You can get the sqltypes.xsd schema from [https://go.microsoft.com/fwlink/?linkid=31850](https://go.microsoft.com/fwlink/?linkid=31850). Add the sqltypes.xsd schema to the BizTalk project. For more information on this schema, go to:
 
-   3.  In the schema generated for the SELECT statement, change the value of `import schemaLocation` to the following.
+        - [2.2.5.2 sqlTypes](/openspecs/sql_server_protocols/ms-ssnws/c4847774-0292-4e6a-bc3c-9f927ef99f0d)
+        - [Reference the built-in XML schema collection (sys)](/sql/relational-databases/xml/reference-the-built-in-xml-schema-collection-sys)
 
-       ```
-       import schemaLocation=”sqltypes.xsd”
-       ```
+    3. In the schema generated for the SELECT statement, change the value of `import schemaLocation` to the following.
+
+        ```
+        import schemaLocation=”sqltypes.xsd”
+        ```
 
         You do this because you have already added the sqltypes.xsd schema to your BizTalk project.
 
-   4.  Provide a target namespace for the schema. Click the **\<Schema\>** node, and in the properties pane, specify a namespace in the **Target Namespace** property. For this topic, give the namespace as `http://ForXmlPolling/namespace`.
+    4. Provide a target namespace for the schema. Click the **\<Schema\>** node, and in the properties pane, specify a namespace in the **Target Namespace** property. For this topic, give the namespace as `http://ForXmlPolling/namespace`.
 
 ## Defining Messages and Message Types
  The schema that you generated earlier describes the "types" required for the messages in the orchestration. A message is typically a variable, the type for which is defined by the corresponding schema. Once the schema is generated, you must link it to the messages from the Orchestration view of the BizTalk project.

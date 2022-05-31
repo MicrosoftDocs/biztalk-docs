@@ -27,16 +27,18 @@ manager: "anneta"
  Windows Server 2003 SP1 and SP2 implement a security feature that reduces the size of the queue for concurrent TCP/IP connections to the server. This feature helps prevent denial of service attacks. Under heavy load conditions, the TCP/IP protocol in Windows Server 2003 SP1 or later may incorrectly identify valid TCP/IP connections as a denial of service attack. This may occur when [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is under heavy load.
 
 ## Modifying the Registry Entry
- For more information, see Microsoft Knowledge Base article 899599, ["A BizTalk Server Host instance fails, and a 'General Network' error is written to the Application log when the BizTalk Server-based server processes a high volume of documents"](https://go.microsoft.com/fwlink/?LinkId=158860) (<https://go.microsoft.com/fwlink/?LinkId=158860>). Follow the instructions in this article to create the **SynAttackProtect** registry entry on computers running SQL Server that host [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases and on any computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that are running Windows Server 2003 SP1 or later.
+
+Create the **SynAttackProtect** registry entry on computers running SQL Server that host [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases and on any computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] that are running Windows Server 2003 SP1 or later.
 
 ## Tuning Registry Settings that Govern the Level of Denial of Service Attack Protection
- In certain scenarios you may want to maintain denial of service protection but reduce how aggressively the denial of service functionality is applied. It is possible to tune the default behavior of the denial of service protection feature by following these steps:
 
-1.  Ensure that the **SynAttackProtect** registry entry is set to a REG_DWORD value of **1** as described at [https://go.microsoft.com/fwlink/?LinkId=111477](/previous-versions/windows/it-pro/windows-server-2003/cc781167(v=ws.10)).
+In certain scenarios you may want to maintain denial of service protection but reduce how aggressively the denial of service functionality is applied. It is possible to tune the default behavior of the denial of service protection feature by following these steps:
 
-2.  Configure the **TcpMaxHalfOpen** registry entry as described at [https://go.microsoft.com/fwlink/?LinkId=111478](/previous-versions/windows/it-pro/windows-server-2003/cc779982(v=ws.10)).
+1. Ensure that the **SynAttackProtect** registry entry is set to a REG_DWORD value of **1** as described at [SynAttackProtect](/previous-versions/windows/it-pro/windows-server-2003/cc781167(v=ws.10)).
 
-3.  Configure the **TcpMaxHalfOpenRetried** registry entry as described at [https://go.microsoft.com/fwlink/?LinkId=111479](/previous-versions/windows/it-pro/windows-server-2003/cc779086(v=ws.10)).
+2. Configure the **TcpMaxHalfOpen** registry entry as described at [TcpMaxHalfOpen](/previous-versions/windows/it-pro/windows-server-2003/cc779982(v=ws.10)).
+
+3. Configure the **TcpMaxHalfOpenRetried** registry entry as described at [TcpMaxHalfOpenRetried](/previous-versions/windows/it-pro/windows-server-2003/cc779086(v=ws.10)).
 
 ## See Also
  [Operational Readiness Checklists](../technical-guides/operational-readiness-checklists.md)

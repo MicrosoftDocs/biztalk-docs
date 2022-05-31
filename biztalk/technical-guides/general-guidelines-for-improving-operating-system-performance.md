@@ -31,7 +31,7 @@ The following general guidelines should be followed to improve operating system 
 ## Enable the “High performance” Power Plan on all BizTalk Server and SQL Server computers.
  By default, Windows Server 2008/2008 R2 sets the Balanced (recommended) power plan, which enables energy conservation, but can cause increased latency (slower response time for some tasks) and cause performance issues with CPU-intensive applications.
 
- In order to reduce latency, you must ensure that all the servers that are running BizTalk Server and SQL Server have the Windows **Power plan** set to **High performance**. For more information about how to switch to the **High Performance**  power plan, see KB article: 2207548 [Degraded overall performance on Windows Server 2008 R2](/troubleshoot/windows-server/performance/slow-performance-when-using-power-plan) (https://go.microsoft.com/fwlink/?LinkID=219677).
+ In order to reduce latency, you must ensure that all the servers that are running BizTalk Server and SQL Server have the Windows **Power plan** set to **High performance**.
 
 ## Evaluate the usage of Intel Hyper-Threading on BizTalk Server and SQL Server computers
 
@@ -48,7 +48,7 @@ The following general guidelines should be followed to improve operating system 
 ## Assign the MSDTC log file directory to a separate dedicated drive
  In a BizTalk Server environment with multiple MessageBox databases on separate SQL Server computers, additional overhead associated with Microsoft Distributed Transaction Coordinator (MSDTC) is incurred. By default the MSDTC log files are located in the %systemdrive%\windows\system32\msdtc directory of the computers running the DTC service. To mitigate the possibility that DTC logging could become a performance bottleneck, consider moving the MSDTC log file directory to a fast disk drive.
 
- To change the MSDTC log file directory, see [Configure DTC Logging](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731659(v=ws.11)) (https://go.microsoft.com/fwlink/?LinkID=204107).
+ To change the MSDTC log file directory, see [Configure DTC Logging](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731659(v=ws.11)).
 
 ## Configure antivirus software to avoid real-time scanning of BizTalk Server executables and file drops
  Antivirus software real-time scanning of BizTalk Server executable files and any folders or file shares monitored by BizTalk Server receive locations can negatively affect BizTalk Server performance. If antivirus software is installed on the BizTalk Server computer, disable real-time scanning of non-executable file types referenced by any BizTalk Server receive locations (usually .XML, but can also be .csv, .txt, etc.) and configure antivirus software to exclude scanning of BizTalk Server executable files
@@ -62,9 +62,6 @@ The following general guidelines should be followed to improve operating system 
 1.  Defragment all disks (local and SAN/NAS) on a regular basis by scheduling off-hours disk defragmentation.
 
 2.  Defragment the Windows PageFile and pre-allocate the Master File Tables of each disk in the BizTalk Server environment to boost overall system performance.
-
-    > [!NOTE]
-    >  To pre-allocate the Master File Tables, see Knowledge Base article 961095, [“About the Master File Table zone reservation in Windows Vista and Windows Server 2008”](https://go.microsoft.com/fwlink/?LinkID=204563) (https://go.microsoft.com/fwlink/?LinkID=204563).
 
 ## If antivirus software is installed on the SQL Server computer, disable real-time scanning of data and transaction files
  Real-time scanning of the SQL Server data and transaction files (.mdf, .ndf, .ldf, .mdb) can increase disk I/O contention and reduce SQL Server performance. Note that the names of the SQL Server data and transaction files may vary between BizTalk Server environments. For more information about the data and transaction files created with a default BizTalk Server configuration, see [Optimizing Filegroups for the Databases2](../technical-guides/optimizing-filegroups-for-the-databases2.md).
@@ -127,41 +124,36 @@ The following general guidelines should be followed to improve operating system 
 
  Review the following information to configure firewall(s) for BizTalk Server:
 
-- [Required Ports for BizTalk Server](../core/required-ports-for-biztalk-server.md) (https://go.microsoft.com/fwlink/?LinkID=153238).
+- [Required Ports for BizTalk Server](../core/required-ports-for-biztalk-server.md).
 
-- To configure RPC dynamic port allocation to work with firewalls, see Knowledge Base article 929851, ["The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008"](/troubleshoot/windows-server/networking/default-dynamic-port-range-tcpip-chang) ( HYPERLINK "<https://go.microsoft.com/fwlink/?LinkID=204568>" <https://go.microsoft.com/fwlink/?LinkID=204568>). For information about how to configure Windows Firewall to accommodate the necessary ports, see [Windows Firewall and IPsec Policy Deployment Step-by-Step Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732400(v=ws.10)) (<https://go.microsoft.com/fwlink/?LinkID=204569>).
-
-## Install appropriate COM+ and MSDTC hotfix rollup packages
- Review the following information to install the appropriate COM+ and MS DTC hotfix rollup packages:
-
--   The MS DTC hotfix can be found in Microsoft Knowledge Base article978476 ["The MS DTC issue that is fixed in Windows Server 2008 R2 MS DTC Hotfix Rollup Package 1"](https://go.microsoft.com/fwlink/?LinkID=204109) (https://go.microsoft.com/fwlink/?LinkID=204109).
-
--   The latest DTC hotfix rollup package KB article can be found by searching [https://support.microsoft.com](https://go.microsoft.com/fwlink/?LinkID=96185) (https://go.microsoft.com/fwlink/?LinkID=96185) for the phrase (including the quotes):
-
-    ```
-    "MS DTC Hotfix Rollup Package"
-    ```
-
-     The following query does this search for you. Choose the latest one:
-    [https://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package"](https://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package")
+- To configure RPC dynamic port allocation to work with firewalls, see [The default dynamic port range for TCP/IP has changed in Windows Vista and in Windows Server 2008](/troubleshoot/windows-server/networking/default-dynamic-port-range-tcpip-chang). For information about how to configure Windows Firewall to accommodate the necessary ports, see [Windows Firewall and IPsec Policy Deployment Step-by-Step Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc732400(v=ws.10)).
 
 ## Use the Interrupt-Affinity Policy Tool to bind network adapter interrupts to specific processors on multiprocessor computers
- The Interrupt-Affinity Policy (IntPolicy) is a tool that allows you to “bind” or change the CPU affinity of the interrupts for a given device (such as a network adapter) to a specific processor or processors on a multiprocessor computer. This binding is also referred to as partitioning. The binding of interrupts from a specific network adapter to specific processors on a multiprocessor computer enforces running deferred procedure calls (DPCs) and interrupt service routines (ISRs) for the network adapter on the designated processors. Note that interrupt affinity cannot be configured on single processor computers.
+
+The Interrupt-Affinity Policy (IntPolicy) is a tool that allows you to “bind” or change the CPU affinity of the interrupts for a given device (such as a network adapter) to a specific processor or processors on a multiprocessor computer. This binding is also referred to as partitioning. The binding of interrupts from a specific network adapter to specific processors on a multiprocessor computer enforces running deferred procedure calls (DPCs) and interrupt service routines (ISRs) for the network adapter on the designated processors. Note that interrupt affinity cannot be configured on single processor computers.
 
 > [!NOTE]
->  A DPC is defined as a queued call to a kernel-mode function that will usually be executed at a later time. An ISR is defined as a routine whose purpose is to service a device when it generates an interrupt. For more information about deferred procedure calls and interrupt service routines, see the [Windows Driver Kit documentation](https://go.microsoft.com/fwlink/?LinkId=84418) (https://go.microsoft.com/fwlink/?LinkId=84418).
+>  A DPC is defined as a queued call to a kernel-mode function that will usually be executed at a later time. An ISR is defined as a routine whose purpose is to service a device when it generates an interrupt.
 
  ![Interrupt&#45;Affinity Policy Tool](../technical-guides/media/interrupt-affinitypolicytool.gif "Interrupt-AffinityPolicyTool")
 Interrupt-Affinity Policy Tool
 
- On Windows Server 2008 based multiprocessor computers, the default behavior of the interrupt controller is to assign device interrupts to any available processor. When network connections and file server sessions for a given network adapter are bound/partitioned to run on a specific set of processors, rather than any available processor, the performance and scalability of the associated network processing is improved. Large BizTalk Server solutions often employ the use of multi-processor SQL Server computers with multiple network adapters for which interrupt-binding may be particularly beneficial.
+On Windows Server 2008 based multiprocessor computers, the default behavior of the interrupt controller is to assign device interrupts to any available processor. When network connections and file server sessions for a given network adapter are bound/partitioned to run on a specific set of processors, rather than any available processor, the performance and scalability of the associated network processing is improved. Large BizTalk Server solutions often employ the use of multi-processor SQL Server computers with multiple network adapters for which interrupt-binding may be particularly beneficial.
+
 Interrupt-binding using IntPolicy should always be evaluated in a test environment before employing in a production environment. The hardware, operating system and application configuration of the test environment should approximate the production environment as closely as possible. This will allow you to test various permutations of interrupt-binding and determine the extent that interrupt-binding will increase performance.
- We recommend that you disable hyper-threading before configuring IntPolicy on a computer with CPUs that supports hyper-threading. This will ensure that interrupts are assigned to physical processors rather than logical processors. Assigning interrupt affinity to logical processors that refer to the same physical processor will not increase performance and could even degrade system performance.    HYPERLINK "The" The [Interrupt-Affinity Policy Tool](/windows-hardware/drivers/kernel/pnp-driver-design-guidelines) (https://go.microsoft.com/fwlink/?LinkID=204111) is available for download from the WHDC website.
+
+We recommend that you disable hyper-threading before configuring IntPolicy on a computer with CPUs that supports hyper-threading. This will ensure that interrupts are assigned to physical processors rather than logical processors. Assigning interrupt affinity to logical processors that refer to the same physical processor will not increase performance and could even degrade system performance. 
+
+The [Interrupt-Affinity Policy Tool](/windows-hardware/drivers/kernel/pnp-driver-design-guidelines) is available for download from the WHDC website.
 
 ## Use the NTFS file system on all volumes
- Windows Server offers multiple file system types for formatting drives, including NTFS, FAT, and FAT32. NTFS should always be the file system of choice for servers.
+ 
+Windows Server offers multiple file system types for formatting drives, including NTFS, FAT, and FAT32. NTFS should always be the file system of choice for servers.
+
 NTFS offers considerable performance benefits over the FAT and FAT32 file systems and should be used exclusively on Windows servers. In addition, NTFS offers many security, scalability, stability and recoverability benefits over FAT and FAT32.
+
 Under previous versions of Windows, FAT and FAT32 were often implemented for smaller volumes (say <500 MB) because they were often faster in such situations. With disk storage relatively inexpensive today and operating systems and applications pushing drive capacity to a maximum, it is unlikely that such small volumes will be in use. FAT32 scales better than FAT on larger volumes but is still not an appropriate file system for Windows servers.
+
 FAT and FAT32 have often been implemented in the past as they were seen as more easily recoverable and manageable with native DOS tools in the event of a problem with a volume. Today, with the various NTFS recoverability tools built both natively into the operating system and available as third-party utilities available, there should no longer be a valid argument for not using NTFS for file systems.
 
 ## Do not use NTFS file compression
@@ -271,7 +263,7 @@ To disable Windows Server 2008 services that are not required for a dedicated Bi
 ## Manually load Microsoft Certificate Revocation lists
  When starting a .NET application, the .NET Framework will attempt to download the Certificate Revocation list (CRL) for any signed assembly. If your system does not have direct access to the Internet, or is restricted from accessing the Microsoft.com domain, this may delay startup of BizTalk Server. To avoid this delay at application startup, you can use the following steps to manually download and install the code signing Certificate Revocation Lists on your system.
 
-1. Download the latest CRL updates from [http://crl.microsoft.com/pki/crl/products/CodeSignPCA.crl](https://go.microsoft.com/fwlink/?LinkID=117794) (https://go.microsoft.com/fwlink/?LinkID=117794) and [http://crl.microsoft.com/pki/crl/products/CodeSignPCA2.crl](https://go.microsoft.com/fwlink/?LinkId=117795) (https://go.microsoft.com/fwlink/?LinkId=117795).
+1. Download the latest CRL updates from [http://crl.microsoft.com/pki/crl/products/CodeSignPCA.crl](https://go.microsoft.com/fwlink/?LinkID=117794) and [http://crl.microsoft.com/pki/crl/products/CodeSignPCA2.crl](https://go.microsoft.com/fwlink/?LinkID=117794).
 
 2. Move the CodeSignPCA.crl and CodeSignPCA2.crl files to the isolated system.
 
@@ -284,7 +276,7 @@ To disable Windows Server 2008 services that are not required for a dedicated Bi
 ## Synchronize time on all servers
  Many operations involving tickets, receipts and logging rely on the local system clock being accurate. This is especially true in a distributed environment, where time discrepancies between systems may cause logs to be out of sync or tickets issued by one system to be rejected by another as expired or not yet valid.
 
- For more information on configuring a server to automatically synchronize time, see [Configure a client computer for automatic domain time synchronization](/previous-versions/windows/it-pro/windows-server-2003/cc758905(v=ws.10)) (https://go.microsoft.com/fwlink/?LinkId=99420).
+ For more information on configuring a server to automatically synchronize time, see [Configure a client computer for automatic domain time synchronization](/previous-versions/windows/it-pro/windows-server-2003/cc758905(v=ws.10)).
 
 ## Configure the Windows PAGEFILE for optimal performance
  Follow these guidelines to configure the Windows PAGEFILE (paging file) for optimal performance:

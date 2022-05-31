@@ -38,7 +38,7 @@ This section contains steps that can be followed to help diagnose problems with 
 
 1.  If the HTTP send adapter is generating errors when posting to the destination URL, create a client that uses the System.Net.HttpWebRequest and HttpWebResponse classes to post to the destination URL. This approach will help determine if the problem is specific to the HTTP send adapter or if there is a problem posting to the destination URL in general.
 
-2.  For more information about creating a client that uses the System.Net.HttpWebRequest and HttpWebResponse classes see [How to use the new System.Net classes to create an HTTP client](https://go.microsoft.com/fwlink/?LinkId=66987).
+2.  For more information about creating a client that uses the System.Net.HttpWebRequest and HttpWebResponse classes, go to [System.Net.Http: HttpClient Class](/dotnet/api/system.net.http.httpclient).
 
 ## See Also
  [Tools and Utilities to Use for Troubleshooting](../core/tools-and-utilities-to-use-for-troubleshooting.md)

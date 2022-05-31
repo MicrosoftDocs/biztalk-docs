@@ -83,10 +83,3 @@ Microsoft [!INCLUDE[btsSharePointSvcsNoVersion](../includes/btssharepointsvcsnov
 
 ##### Resolution
  Ensure that the user name and password specified for the SharePoint Timer service logon account are correct and that the service has been started.
-
-## See Also
- [How to configure a Windows SharePoint Services virtual server](https://support.microsoft.com/kb/832769)
- [How to back up and restore installations of Windows SharePoint Services that use Microsoft SQL Server 2000 Desktop Engine (Windows)](https://support.microsoft.com/kb/833797)
- [You receive a "Cannot connect to the configuration database" error message when you connect to your Windows SharePoint Services Web site](https://support.microsoft.com/kb/823287)
- [You Receive a "Service Unavailable" Error Message When You Browse a Windows SharePoint Services Web Site](https://support.microsoft.com/kb/823552)
- [You receive a "Database <Database_Name> already exists" error message when you manage your Windows SharePoint Services content database](https://support.microsoft.com/kb/828815)

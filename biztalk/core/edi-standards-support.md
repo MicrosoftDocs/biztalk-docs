@@ -20,10 +20,10 @@ BizTalk Server provides for design- and run-time support for four encoding stand
 
 |Encoding Standard|Industry Segment|References|
 |-----------------------|----------------------|----------------|
-|UN/EDIFACT|General Industry|[Standards Website](https://go.microsoft.com/fwlink/?LinkId=77532) (reference to payload)<br /><br /> [Encoding rule](https://go.microsoft.com/fwlink/?LinkId=77534) per ISO 9735-4.1|
-|X12|General Industry|[Standards Website](https://go.microsoft.com/fwlink/?LinkID=28673)<br /><br /> [Specifications Development](https://go.microsoft.com/fwlink/?LinkId=77535)|
+|UN/EDIFACT|General Industry|[Introducing UN/EDIFACT](https://unece.org/trade/uncefact/introducing-unedifact) (reference to payload)<br /><br /> [ISO 9735-4 encoding rule](https://www.iso.org/obp/ui/#iso:std:iso:9735:-4:ed-2:v1:en) per ISO 9735-4.1|
+|X12|General Industry|[X12.org](https://x12.org/)<br /><br /> [Specifications Development](https://go.microsoft.com/fwlink/?LinkId=77535)|
 |EANCOM|Retail|[Standards Website](https://go.microsoft.com/fwlink/?LinkId=92861)|
-|HIPAA X12N|Health Care|[HIPAA Implementation Guide](https://go.microsoft.com/fwlink/?LinkId=77541)<br /><br /> [HIPAA Specifications](https://go.microsoft.com/fwlink/?LinkId=77542)|
+|HIPAA X12N|Health Care|[CMS.gov: HIPAA Adopted Standards and Operating Rules](https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/AdoptedStandardsandOperatingRules)<br /><br /> [CMS.gov: HIPAA Adopted Standards and Operating Rules](https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/AdoptedStandardsandOperatingRules)|
 
 > [!NOTE]
 >  EANCOM schemas are a subset of EDIFACT. EANCOM follows the same encoding rules that EDIFACT follows.
@@ -63,7 +63,7 @@ BizTalk Server provides for design- and run-time support for four encoding stand
 
 - HIPAA subdocument splitting. For more information, see [Splitting HIPAA Subdocuments](../core/splitting-hipaa-subdocuments.md).
 
-- Support for the first two levels of WEDI SNIP testing: X12 syntax integrity and requirements of the [HIPAA Implementation Guide](https://go.microsoft.com/fwlink/?LinkId=77541).
+- Support for the first two levels of WEDI SNIP testing: X12 syntax integrity and requirements of the [CMS.gov: HIPAA Adopted Standards and Operating Rules](https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/HIPAA-ACA/AdoptedStandardsandOperatingRules).
 
   BizTalk Server provides HIPAA support as part of the native BizTalk Server EDI functionality. For more information, see [EDI Support in BizTalk Server](../core/edi-support-in-biztalk-server2.md).
 

@@ -90,9 +90,7 @@ Run the BAM portal as an administrator.
      `nscontrol.exe upgrade -name <instanceName>`  
   
 ## ObjectDisposedException Exception  
- If your application is using BAM WF 3.5 interceptor, you may receive the following error message: **System.ObjectDisposedException: Cannot access a disposed object**. For more information about this error message, see [ObjectDisposedException Exception](https://support.microsoft.com/help/960754). 
-
-To resolve this issue, install the [hotfix 960754](https://support.microsoft.com/help/960754). 
+ If your application is using BAM WF 3.5 interceptor, you may receive the following error message: **System.ObjectDisposedException: Cannot access a disposed object**.
   
 ## Workbook has lost its VBA project, ActiveX controls and other programmability-related features  
  When attempting to use BAM.xla in Microsoft Excel, you may get the following error:  

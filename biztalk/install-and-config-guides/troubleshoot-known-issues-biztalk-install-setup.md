@@ -121,7 +121,7 @@ Function: FieldInfoCreate
  If BizTalk Server and SQL Server are installed on different computers, then the configuration operations are performed under the context of a Microsoft Distributed Transaction Coordinator (MSDTC) transaction and MSDTC functionality must be available over the network between these computers. If MSDTC functionality is not available over the network between the computers running BizTalk Server and SQL Server, then this error can occur.
 
 **Resolution**
-Use [Troubleshooting Problems with MSDTC](/biztalk/core/troubleshooting-problems-with-msdtc) to ensure MSDTC functionality over the network between the computers running BizTalk Server and SQL Server.
+Use [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md) to ensure MSDTC functionality over the network between the computers running BizTalk Server and SQL Server.
 
 ### Antivirus software interferes with configuration and causes configuration failures
 

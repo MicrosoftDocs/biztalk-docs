@@ -52,7 +52,7 @@ This topic describes best practices for deploying a BizTalk application.
 
 1.  Deploy several smaller MSI files instead of one large MSI file.
 
-2.  Increase the default transaction timeout of 3000 seconds associated with the **Microsoft.BizTalk.ApplicationDeployment.Group** and the **Microsoft.BizTalk.Deployment.DeployerComponent** components in the **Component Services** management interface. These components belong to the **Microsoft.BizTalk.ApplicationDeployment.Engine** and **Microsoft.Biztalk.Deployment** COM+ applications respectively. For more information about how to change the transaction time out value for a COM+ component see [How To Change the Transaction Time-Out Value for MTS or COM+](https://go.microsoft.com/fwlink/?LinkId=67691).
+2.  Increase the default transaction timeout of 3000 seconds associated with the **Microsoft.BizTalk.ApplicationDeployment.Group** and the **Microsoft.BizTalk.Deployment.DeployerComponent** components in the **Component Services** management interface. These components belong to the **Microsoft.BizTalk.ApplicationDeployment.Engine** and **Microsoft.Biztalk.Deployment** COM+ applications respectively. For more information about how to change the transaction timeout value, go to [Setting the Transaction Time-Out](/windows/win32/cossdk/setting-the-transaction-time-out).
 
 ## See Also
  [Deploying and Managing BizTalk Applications](../core/deploying-and-managing-biztalk-applications.md)

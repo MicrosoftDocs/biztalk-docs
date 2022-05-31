@@ -79,13 +79,13 @@ With the Enterprise Single Sign-On (SSO) system, users can connect to different 
 
 ## Security Recommendations for an SSO Deployment
 
-- If your network supports Kerberos authentication, you should register all SSO servers. When you use Kerberos authentication between the master secret server and the SSO database, you must configure Service Principal Names (SPN) on the SQL server where the SSO database is located. For more information about configuring Service Principal Names, see Microsoft Download Web site at [https://go.microsoft.com/fwlink/?LinkId=195797](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc731241(v=ws.10)).
+- If your network supports Kerberos authentication, you should register all SSO servers. When you use Kerberos authentication between the master secret server and the SSO database, you must configure Service Principal Names (SPN) on the SQL server where the SSO database is located. For more information about configuring Service Principal Names, go to [Service principal names (SPN)](/windows/win32/ad/service-principal-names).
 
 - When running [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], if the master secret server is on a different domain from the other SSO servers and from the SSO database, you must disable RPC security (as used for Data Transaction Coordinator (DTC) authentication between computers) on the master secret server, on the SSO servers (processing computers in the processing domain), and on the SSO database. RPC security is a DTC feature in [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] and [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. When you disable RPC security, the DTC authentication security level for RPC calls goes back to one available in Microsoft Windows Server 2003.
 
 - SSO administrators should regularly monitor the event log in the master secret server and the SSO server for SSO auditing events.
 
-- In addition to firewalls, it is recommended to use Internet Protocol security (IPSec) or Secure Sockets Layer (SSL) between all the SSO servers and the SSO database. For more information about SSL, see Microsoft Help and Support Web site at [https://go.microsoft.com/fwlink/?LinkId=195798](/previous-versions/sql/sql-server-2008/cc278098(v=sql.100)). For more information about using SSL between all the SSO servers and the SSO database, see [How to Enable SSL for SSO](../core/how-to-enable-ssl-for-sso.md).
+- In addition to firewalls, it is recommended to use Internet Protocol security (IPSec) or Secure Sockets Layer (SSL) between all the SSO servers and the SSO database. For more information about using SSL, go to [Enable encrypted connections to the Database Engine](/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine). For more information about using SSL between all the SSO servers and the SSO database, see [How to Enable SSL for SSO](../core/how-to-enable-ssl-for-sso.md).
 
 ## Perimeter Network
  When running Internet Information Services (IIS) and Enterprise Single Sign-On, follow these recommendations:
@@ -95,9 +95,9 @@ With the Enterprise Single Sign-On (SSO) system, users can connect to different 
 -   Do not open the remote procedure calls (RPC) port on IIS.
 
 ## SQL Server Access
- All SSO servers access the SQL Server SSO database. For more information about how to secure SQL Server databases, see [https://go.microsoft.com/fwlink/?LinkId=33175](https://go.microsoft.com/fwlink/?LinkId=33175).
+ All SSO servers access the SQL Server SSO database. For more information about how to secure SQL Server databases, go to [Securing SQL Server](/sql/relational-databases/security/securing-sql-server).
 
- It is recommended that you use Secure Sockets Layer (SSL) and/or Internet Protocol security (IPSec) to secure the transmission of data between the SSO servers and the SSO database. For more information about using SSL, see [https://go.microsoft.com/fwlink/?LinkId=195798](/previous-versions/sql/sql-server-2008/cc278098(v=sql.100)).
+ It is recommended that you use Secure Sockets Layer (SSL) and/or Internet Protocol security (IPSec) to secure the transmission of data between the SSO servers and the SSO database. For more information about using SSL, go to [Enable encrypted connections to the Database Engine](/sql/database-engine/configure-windows/enable-encrypted-connections-to-the-database-engine).
 
  To enable SSL for only the connection between the SSO server and the SSO database, you can set SSL support on every SSO server using the ssoconfig utility. This option enables SSO to always use SSL when accessing the SSO database. For more information, see [How to Enable SSL for SSO](../core/how-to-enable-ssl-for-sso.md).
 
@@ -113,7 +113,10 @@ With the Enterprise Single Sign-On (SSO) system, users can connect to different 
 ## Kerberos
  SSO supports Kerberos, and it is recommended that you set up Kerberos for SSO. To set up Kerberos with SSO, you must register a Secure Principal Name (SPN) for the SSO service. By default, when you setup Kerberos, SSO uses that SPN to authenticate the components using the SSO Service. It is recommended you set up Kerberos authentication between the SSO administrative subservices and the SSO server. You can also user Kerberos authentication between the SSO servers and between the SSO servers and the SQL server where the SSO database is.
 
- To set up and verify Kerberos, you use the utilities setspn and kerbtray. For more information about these utilities, see [https://go.microsoft.com/fwlink/?LinkId=33178](https://go.microsoft.com/fwlink/?LinkId=33178).
+For more information, go to:
+
+- [Service principal names (SPN)](/windows/win32/ad/service-principal-names)
+- [Register a Service Principal Name for Kerberos Connections](/sql/database-engine/configure-windows/register-a-service-principal-name-for-kerberos-connections)
 
 ## Delegation
  When using [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] or [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], it is possible to use constrained delegation, but it is recommended that you do not use delegation to perform the tasks of the Single Sign-On Administrator. Similarly, it is recommended that you do not delegate additional tasks or user rights to the Single Sign-On administrator.

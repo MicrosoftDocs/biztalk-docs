@@ -45,14 +45,12 @@ An automated build process compiles, deploys and then runs build verification te
 
  Following a daily build process has many advantages for the project. First, it provides a regular heartbeat (made up of the daily build plus the automated BVTs). Second, using BVTs forces integration with systems which is a tricky task, and doing this early in and of itself reduces project risks. Due to the time required to complete them, stress and performance testing are typically performed outside of the daily build process. Stress and performance tests are typically scheduled to be performed on a milestone build in the project.
 
- The daily build process can be, and has been used, very effectively on BizTalk solutions. However, you need to ensure tasks that are typically left to the end in projects are done iteratively from the start. For example, deployment in BizTalk Server is certainly non-trivial. It is important that automated deployment scripts be developed up front. If you do not do this, you’ll end up manually deploying and un-deploying the solution many times throughout the project, which will cost you more time in the end. There are tools available to drive the daily build process; Visual Studio Team System and Team Foundation Server are the primary choice for many people. MSBuild scripts may be used to drive the steps in the build process. Another alternative is the open source [CruiseControl.NET tool](https://go.microsoft.com/fwlink/?LinkId=116093) (https://go.microsoft.com/fwlink/?LinkId=116093).
+ The daily build process can be, and has been used, very effectively on BizTalk solutions. However, you need to ensure tasks that are typically left to the end in projects are done iteratively from the start. For example, deployment in BizTalk Server is certainly non-trivial. It is important that automated deployment scripts be developed up front. If you do not do this, you’ll end up manually deploying and un-deploying the solution many times throughout the project, which will cost you more time in the end. There are tools available to drive the daily build process; Visual Studio Team System and Team Foundation Server are the primary choice for many people. MSBuild scripts may be used to drive the steps in the build process. 
 
 > [!NOTE]
 >  Use of this tool is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this programs. Use of this program is entirely at your own risk.
 
- For more information about automating testing using Microsoft Test manager, see the topic [Running Automated Tests](/previous-versions/visualstudio/visual-studio-2012/dd286580(v=vs.110)) (https://go.microsoft.com/fwlink/?LinkID=208368)  in the Visual Studio 2010 online documentation
-
- For more information about automating the build process using Visual Studio 2010, see [Building the Application](https://go.microsoft.com/fwlink/?LinkID=208369) ( HYPERLINK "<https://go.microsoft.com/fwlink/?LinkID=208369>" <https://go.microsoft.com/fwlink/?LinkID=208369>)  in the Visual Studio 2010 documentation.
+ For more information about automating testing using Microsoft Test manager, go to [Running Automated Tests](/previous-versions/visualstudio/visual-studio-2012/dd286580(v=vs.110)).
 
 ## Build verification testing
  Build verification testing usually comprises the following elements:
@@ -72,7 +70,7 @@ An automated build process compiles, deploys and then runs build verification te
 
  It is critical that functional testing is designed to cover all the possible paths through your solution. This should include not only those scenarios you expect in production, but also the failure paths and exception handling paths you have implemented but hope never to use – one phrase commonly used to describe this is testing for the “bad day scenario.” You should ensure all orchestrations, all permissible message types, and all code branches are exercised by your functional test suite. The following sections describe developing positive and negative functional test cases to cover all code paths.
 
- For more information about functional testing and the other testing categories that should be implemented before placing a BizTalk Server solution into production, see the topic [Checklist: Testing Operational Readiness](https://go.microsoft.com/fwlink/?LinkId=160138) in the BizTalk Server 2010 Operations Guide at [https://go.microsoft.com/fwlink/?LinkId=160138](https://go.microsoft.com/fwlink/?LinkId=160138).
+ For more information about functional testing and the other testing categories that should be implemented before placing a BizTalk Server solution into production, go to [Checklist: Testing Operational Readiness](checklist-testing-operational-readiness.md).
 
 ### Positive tests
 
@@ -104,7 +102,8 @@ An automated build process compiles, deploys and then runs build verification te
  It is important to minimize the development effort required to write each functional test. Usually the more expensive it is to produce something (in terms of development time), the fewer test cases you are likely to end up with. This means you will have a lower level of test coverage over your code. By using a test framework, you can develop test cases quicker and easier and, hence, make it easier to get full code coverage. Most good test frameworks use a declarative approach to defining tests. (That is, the configuration for a test is stored in a configuration file, which is typically an XML file.) Using a good test framework enables you to develop a full functional test suite in an agile and reliable manner and avoids having to “reinvent the wheel” over and over, so to speak.
 
 ## MSBUILD support for BizTalk Server projects
- BizTalk Server provides support for the Microsoft Build Engine (MSBUILD) platform, which accommodates the building of managed projects in build lab environments where Visual Studio is not installed. MSBUILD accommodates building projects from a command line and advanced functionality including MSBUILD logging and batching. For more information about MSBUILD, see [MSBuild Overview](/previous-versions/visualstudio/visual-studio-2008/ms171452(v=vs.90)) (https://go.microsoft.com/fwlink/?LinkId=131739).
+ 
+BizTalk Server provides support for the Microsoft Build Engine (MSBUILD) platform, which accommodates the building of managed projects in build lab environments where Visual Studio is not installed. MSBUILD accommodates building projects from a command line and advanced functionality including MSBUILD logging and batching. For more information about MSBUILD, see [MSBuild Overview](/previous-versions/visualstudio/visual-studio-2008/ms171452(v=vs.90)).
 
 ## See Also
  [Implementing Automated Testing](../technical-guides/implementing-automated-testing.md)

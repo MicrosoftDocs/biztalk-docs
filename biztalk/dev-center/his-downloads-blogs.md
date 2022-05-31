@@ -28,8 +28,6 @@ ms.author: "mandia"
 
 -   [HIS 2013 Evaluation Edition](https://www.microsoft.com/download/details.aspx?id=39950)
 -   HIS 2013 Enterprise Edition Download on [MSDN](https://msdn.microsoft.com/subscriptions/downloads/) and  [TechNet](https://technet.microsoft.com/subscriptions/downloads/)
--   [HIS 2010 - Evaluation](https://www.microsoft.com/download/details.aspx?id=18969)
--   [HIS 2010 - .NET Managed C++ Extensions Sample for CPI-C](https://www.microsoft.com/download/details.aspx?id=28581)
 
 #### SDKs
 

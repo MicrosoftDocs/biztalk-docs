@@ -25,7 +25,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 
 1. Update the web.config file for the Web service to set the **TRACE** compiler directive to **true** and add a **TraceSwitch** value:
 
-   ```
+   ```xml
    <?xml version="1.0"?>
    <configuration>
      <system.codedom>
@@ -52,7 +52,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 
 2. Create an instance of the **TraceSwitch** and **TextWriterTraceListener** classes and use a **try…catch** block in the Web service [WebMethod] call to trap and write errors to a trace output file. For example, the following code traps an error that is generated when attempting to set the integer variable s2 to a null instance of the object variable o2:
 
-   ```
+   ```csharp
    using System;
    using System.Web;
    using System.Web.Services;
@@ -133,18 +133,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 -   There are compilation errors in the code that XmlSerializer generated.
 
 ##### Resolution
- This error is documented in Microsoft Knowledge Base article 823196, [PRB: You Receive a "System.IO.FileNotFoundException" Error When the Client Application Calls a Web Service](/troubleshoot/aspnet/filenotfindexception-call-web-service)". Follow the steps in the Resolution section of this Knowledge Base article to resolve this error.
-
-#### Date fields are removed from documents processed by a web service generated with the BizTalk Server Web Services Publishing Wizard
-
-##### Problem
- When you process a document with a web service that was generated with the BizTalk Server Web Services Publishing Wizard, any data contained in a field with a **Data Type** of **xs:date** and a **Nillable** property of **True** is removed from the document.
-
-##### Cause
- This problem occurs because of a known issue with the XmlSerializer class that is available with the Microsoft .NET Framework Class Library namespace System.Xml.Serialization.
-
-##### Resolution
- To resolve this issue, install the .NET Framework 2.0 hotfix documented in Microsoft Knowledge Base article 925272, "[FIX: The XML serialization may lose some optional elements in an XSD schema in the .NET Framework 2.0](https://go.microsoft.com/fwlink/?LinkId=84696)".
+ This error is documented in [PRB: You Receive a "System.IO.FileNotFoundException" Error When the Client Application Calls a Web Service](/troubleshoot/aspnet/filenotfindexception-call-web-service)".
 
 ## See Also
  [Guidelines for Resolving IIS Permissions Problems](../core/guidelines-for-resolving-iis-permissions-problems.md)

@@ -68,9 +68,9 @@ maxConcurrentInstances="200" />
 </netTcpBinding>
 ```
 
- For more information about the NetTcpBinding.ListenBacklog property, see [NetTcpBinding.ListenBacklog Property](/dotnet/api/system.servicemodel.nettcpbinding.listenbacklog) (https://go.microsoft.com/fwlink/?LinkId=157752) on MSDN.
+ For more information about the NetTcpBinding.ListenBacklog property, see [NetTcpBinding.ListenBacklog Property](/dotnet/api/system.servicemodel.nettcpbinding.listenbacklog).
 
- For more information about the NetTcpBinding.MaxConnections property, see [NetTcpBinding.MaxConnections Property](/dotnet/api/system.servicemodel.nettcpbinding.maxconnections) (https://go.microsoft.com/fwlink/?LinkID=157751) on MSDN.
+ For more information about the NetTcpBinding.MaxConnections property, see [NetTcpBinding.MaxConnections Property](/dotnet/api/system.servicemodel.nettcpbinding.maxconnections).
 
 ## Eliminate ASP.NET httpModules that are not required to run WCF Web services
  By default, several ASP.NET httpModules are defined in the Request Pipeline in IIS 6.0 and in the Classic or Integrated Pipeline in IIS 7.5/7.0. These components intercept and process all incoming requests. The default modules are defined in the web.config file contained in the %windir%\Microsoft.NET\Framework\v2.0.50727\CONFIG folder for 32-bit ASP.NET applications and in the %windir%\Microsoft.NET\Framework64\v2.0.50727\CONFIG folder for 64-bit ASP.NET applications, as shown by the following snippet.
@@ -108,16 +108,7 @@ maxConcurrentInstances="200" />
 
 -   Profile
 
-## Use the WCF Module/Handler Registration tool to configure WCF modules/handlers and improve scalability of IIS 7.5/7.0 hosted WCF services
- The WCF Module/Handler Registration Tool is available for download at [https://go.microsoft.com/fwlink/?LinkId=157593](https://go.microsoft.com/fwlink/?LinkId=157593) (https://go.microsoft.com/fwlink/?LinkId=157593). This utility can be used to install, list, or configure the following WCF modules:
-
-- WCF Synchronous HTTP module and handler
-
-- WCF Asynchronous HTTP module and handler
-
-- WCF HTTP module and handler
-
-  For more information about using the asynchronous WCF HTTP modules/handlers to improve the scalability of IIS 7.5/7.0 hosted WCF services, see Wenlong Dong’s blog [Orcas SP1 Improvement: Asynchronous WCF HTTP Module/Handler for IIS7 for Better Server Scalability](/archive/blogs/wenlong/) (https://go.microsoft.com/fwlink/?LinkId=157428).
+For more information about using the asynchronous WCF HTTP modules/handlers to improve the scalability of IIS 7.5/7.0 hosted WCF services, see Wenlong Dong’s blog [Orcas SP1 Improvement: Asynchronous WCF HTTP Module/Handler for IIS7 for Better Server Scalability](/archive/blogs/wenlong/).
 
 ## See Also
  [Optimizing BizTalk Server WCF Adapter Performance](../technical-guides/optimizing-biztalk-server-wcf-adapter-performance.md)
