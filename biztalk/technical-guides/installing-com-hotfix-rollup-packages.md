@@ -37,19 +37,13 @@ manager: "anneta"
 ## Installing the COM+ Rollup Package
  COM+ is no longer releasing rollup packages. Follow this information to install the last COM+ package:
 
--   The final version of the COM+ rollup is the “Windows Server 2003 Post-Service Pack 2 COM+ 1.5 Hotfix Rollup Package 12”. This hotfix will install on any version of Windows Server 2003, even those without a service pack installed. More information about this hotfix can be found in Microsoft Knowledge Base article 934016, ["Availability of Windows Server 2003 Post-Service Pack 2 COM+ 1.5 Hotfix Rollup Package 12"](https://go.microsoft.com/fwlink/?LinkId=158756) (https://go.microsoft.com/fwlink/?LinkId=158756).
+-   The final version of the COM+ rollup is the “Windows Server 2003 Post-Service Pack 2 COM+ 1.5 Hotfix Rollup Package 12”. This hotfix will install on any version of Windows Server 2003, even those without a service pack installed. 
 
 ## Installing the DTC Rollup Package
  DTC will be releasing rollup packages independent of COM+. Follow this information to install the latest DTC package:
 
--   As of this writing, the latest DTC hotfix rollup is “Package 16”. More information about this hotfix can be found in Microsoft Knowledge Base article 958013, ["List of the MS DTC issues that are fixed in Windows Server 2003 MS DTC Hotfix Rollup Package 16"](https://support.microsoft.com/kb/979919) (https://support.microsoft.com/kb/979919).
-
-     The KB article about the latest DTC hotfix rollup package can be found by searching [https://support.microsoft.com](https://support.microsoft.com/) for the phrase (including the quotes):
+-   The information about the latest DTC hotfix rollup package can be found by searching [https://support.microsoft.com](https://support.microsoft.com/) for the phrase (including the quotes):
 
     ```
     "MS DTC Hotfix Rollup Package"
     ```
-
-     The following query does this search for you. Choose the latest one:
-
-     [https://support.microsoft.com/search/default.aspx?query="MS+DTC+Hotfix+Rollup+Package"](https://support.microsoft.com/search/default.aspx?query=%22MS+DTC+Hotfix+Rollup+Package%22)

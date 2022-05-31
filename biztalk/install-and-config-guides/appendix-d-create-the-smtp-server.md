@@ -147,7 +147,7 @@ These steps apply to:
 
 
 ## Test the SMTP Server
- Telnet can be used to test the SMTP Server configuration. The following steps send a message using your configured SMTP Server to an e-mail address. [https://support.microsoft.com/kb/153119](https://support.microsoft.com/kb/153119) provides descriptions of the telnet commands.
+ Telnet can be used to test the SMTP Server configuration. The following steps send a message using your configured SMTP Server to an e-mail address. For more information on the telnet commands, go to [Windows commands: telnet](/windows-server/administration/windows-commands/telnet).
 
 1. Open a command window as Administrator.
 

@@ -58,28 +58,28 @@ This topic provides recommendations for optimizing performance of the [!INCLUDE[
 2.  Defragment the Windows PageFile and pre-allocate the Master File Tables of each disk in the BizTalk Server environment to boost overall system performance.
 
     > [!NOTE]
-    >  Use the PageDefrag utility available at [https://go.microsoft.com/fwlink/?LinkId=108976](https://go.microsoft.com/fwlink/?LinkId=108976) to defragment the Windows PageFile and pre-allocate the Master File Tables.
+    >  Use the PageDefrag utility to defragment the Windows PageFile and pre-allocate the Master File Tables. For more information, go to [Windows commands: defrag](/windows-server/administration/windows-commands/defrag).
 
 ### If antivirus software is installed on the SQL Server computer(s), disable real-time scanning of data and transaction files
  Real-time scanning of the SQL Server data and transaction files (.mdf, .ndf, .ldf, .mdb) can increase disk I/O contention and reduce SQL Server performance. Note that the names of the SQL Server data and transaction files may vary between BizTalk Server environments. For more information about the data and transaction files created with a default BizTalk Server configuration, see[Optimizing Filegroups for the Databases](https://msdn.microsoft.com/library/ee377060\(v=bts.70\).aspx).
 
 ### Configure MSDTC for BizTalk Server
- Review the following information to configure MSDTC for BizTalk Server:
 
--   To configure MSDTC on the BizTalk Server, see “Enable DTC on the Local Host Server” section of the BizTalk Server 2010 installation guide at [https://go.microsoft.com/fwlink/?LinkID=191321](https://go.microsoft.com/fwlink/?LinkID=191321).
+Review the following information to configure MSDTC for BizTalk Server:
 
--   "Troubleshooting Problems with MSDTC" at [https://go.microsoft.com/fwlink/?LinkID=202142](https://go.microsoft.com/fwlink/?LinkID=202142).
+- Configure MSDTC on the BizTalk Server. For more information, go to [Set up and install prerequisites for BizTalk Server 2020](../install-and-config-guides/set-up-and-install-prerequisites-for-biztalk-server-2020.md).
+
+- [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md).
 
 ### Configure firewall(s) for BizTalk Server
 
 > [!NOTE]
 >  This step is only required if one or more firewalls are in place in your BizTalk Server environment.
 
- Review the following information to configure firewall(s) for BizTalk Server:
+Review the following information to configure firewall(s) for BizTalk Server:
 
--   "Required Ports for BizTalk Server" at [https://go.microsoft.com/fwlink/?LinkId=101607](/previous-versions/).
-
--   ”How to configure RPC dynamic port allocation to work with firewalls” at [https://go.microsoft.com/fwlink/?LinkID=76145](/troubleshoot/windows-server/networking/configure-rpc-dynamic-port-allocation-with-firewalls).
+-  [Required Ports for BizTalk Server](../core/required-ports-for-biztalk-server.md)
+-  [How to configure RPC dynamic port allocation to work with firewalls](/troubleshoot/windows-server/networking/configure-rpc-dynamic-port-allocation-with-firewalls)
 
 ### Use the NTFS file system on all volumes
  [!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)] offers multiple file system types for formatting drives, including NTFS, FAT, and FAT32. NTFS should always be the file system of choice for servers.[!INCLUDE[btsWinSvrNoVersion](../includes/btswinsvrnoversion-md.md)]
@@ -148,7 +148,7 @@ This topic provides recommendations for optimizing performance of the [!INCLUDE[
 ### Synchronize time on all servers
  Many operations involving tickets, receipts and logging rely on the local system clock being accurate. This is especially true in a distributed environment, where time discrepancies between systems may cause logs to be out of sync or tickets issued by one system to be rejected by another as expired or not yet valid.
 
- For more information on configuring a server to automatically synchronize time, see [https://go.microsoft.com/fwlink/?LinkId=99420](/previous-versions/windows/it-pro/windows-server-2003/cc758905(v=ws.10)).
+ For more information on configuring a server to automatically synchronize time, see [Configure a client computer for automatic domain time synchronization](/previous-versions/windows/it-pro/windows-server-2003/cc758905(v=ws.10)).
 
 ### Configure the Windows PAGEFILE for optimal performance
  Follow these guidelines to configure the Windows PAGEFILE (paging file) for optimal performance:

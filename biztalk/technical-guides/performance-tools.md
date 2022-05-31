@@ -20,7 +20,7 @@ This topic provides information on tools you can use to evaluate the performance
 ## BizUnit and BizUnit Designer
  BizUnit is a framework designed for automated testing of BizTalk solutions. BizUnit is an excellent tool for testing end-to-end BizTalk Server scenarios. Performing automated testing of BizTalk solutions with BizUnit is the primary focus of the [Implementing Automated Testing](../technical-guides/implementing-automated-testing.md) section of this guide. See [BizUnit](https://github.com/BizUnit/BizUnit).
 
- BizUnit Designer is a GUI that allows for rapid creation of BizUnit test cases that can be used for unit testing or system testing distributed applications. The tool is available at [BizUnit Designer](https://go.microsoft.com/fwlink/?LinkID=117917).
+ BizUnit Designer is a GUI that allows for rapid creation of BizUnit test cases that can be used for unit testing or system testing distributed applications. For more information on this tool, go to [BizUnit Designer](https://integrationinsights.wordpress.com/2017/01/09/bizunit-designer-v2/) (opens an external website).
 
 > [!NOTE]
 >  Use of this tool is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this programs. Use of this program is entirely at your own risk.
@@ -89,7 +89,7 @@ SQL Server Activity Monitor provides information about SQL Server processes and 
 SQL Server provides a data collector that you can use to obtain and save data that is gathered from several sources. The data collector enables you to use data collection containers, which enable you to determine the scope and frequency of data collection on a computer that is running SQL Server. See [Data Collection](/sql/relational-databases/data-collection/data-collection).
 
 ### SQLIO
- The SQLIO tool was developed by Microsoft to evaluate the I/O capacity of a given configuration. As the name of the tool implies, SQLIO is a valuable tool for measuring the impact of file system I/O on SQL Server performance. Download [SQLIO](https://www.microsoft.com/download/details.aspx?id=20163).
+ The SQLIO tool was developed by Microsoft to evaluate the I/O capacity of a given configuration. As the name of the tool implies, SQLIO is a valuable tool for measuring the impact of file system I/O on SQL Server performance. For more information, go to [Use the SQLIOSim utility to simulate SQL Server activity on a disk subsystem](/troubleshoot/sql/tools/sqliosim-utility-simulate-activity-disk-subsystem).
 
 ## See Also
- [Finding and Eliminating Bottlenecks](../technical-guides/finding-and-eliminating-bottlenecks.md)
+ [Finding and Eliminating Bottlenecks](finding-and-eliminating-bottlenecks.md)

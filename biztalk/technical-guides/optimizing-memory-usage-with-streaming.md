@@ -16,7 +16,9 @@ manager: "anneta"
 ---
 # Optimizing Memory Usage with Streaming
 This topic provides recommendations for using streaming patterns to minimize message memory footprints when sending or receiving large messages with a WCF transport or when loading messages in orchestrations.
-When using code in an orchestration to read the contents of a message, avoid using XmlDocument variables. Loading a message into an XmlDocument variable incurs significant overhead, especially for large messages. This overhead is in terms of memory usage and processing to build the in-memory structures. The use of an XmlDocument instance forces the entire message contents to be loaded into memory in order to build the object graph for the Document Object Module (DOM). The total amount of memory used by an instance of this class can be around 10 times the actual message size. For more information about the memory footprint required when loading a message into an XmlDocument variable, see [Chapter 9 – Improving XML Performance](/previous-versions/msp-n-p/ff647804(v=pandp.10)) (https://go.microsoft.com/fwlink/?LinkId=139772) on MSDN.
+
+When using code in an orchestration to read the contents of a message, avoid using XmlDocument variables. Loading a message into an XmlDocument variable incurs significant overhead, especially for large messages. This overhead is in terms of memory usage and processing to build the in-memory structures. The use of an XmlDocument instance forces the entire message contents to be loaded into memory in order to build the object graph for the Document Object Module (DOM). The total amount of memory used by an instance of this class can be around 10 times the actual message size. For more information about the memory footprint required when loading a message into an XmlDocument variable, see [Chapter 9 – Improving XML Performance](/previous-versions/msp-n-p/ff647804(v=pandp.10)).
+
 The remainder of this topic provides alternative methods for reading message contents that do not require loading a message into an XmlDocument variable.
 
 ## Use streaming when sending or receiving large messages with a WCF transport
@@ -165,13 +167,13 @@ The remainder of this topic provides alternative methods for reading message con
     ```
 
 > [!NOTE]
->  Use of the **Dispose()** method exposed by the XLANGMessage parameter before returning from the .NET code is particularly important in looping scenarios and long-running orchestrations that can accumulate instances of the XLANGMessage object without releasing them over time. For more information about calling message.Dispose() in this manner, see [Messages Represented as XLANGMessage](/previous-versions/) (https://go.microsoft.com/fwlink/?LinkId=139775) in the BizTalk Server documentation. This topic also provides best practices for using IStreamFactory to construct XLANGMessage variables in user code using a stream-based approach.
+>  Use of the **Dispose()** method exposed by the XLANGMessage parameter before returning from the .NET code is particularly important in looping scenarios and long-running orchestrations that can accumulate instances of the XLANGMessage object without releasing them over time. For more information about calling message.Dispose() in this manner, see [Messages Represented as XLANGMessage](../core/messages-represented-as-xlangmessage.md) in the BizTalk Server documentation. This topic also provides best practices for using IStreamFactory to construct XLANGMessage variables in user code using a stream-based approach.
 
  For more information about the different ways to process an XLANGMessage within an helper component invoked by an orchestration, see the following topics:
 
--   [4 Different ways to process an XLANGMessage within an helper component invoked by an orchestration Part 1](https://go.microsoft.com/fwlink/?LinkID=210420) (https://go.microsoft.com/fwlink/?LinkID=210420).
+- [4 Different ways to process an XLANGMessage within an helper component invoked by an orchestration Part 1](https://www.biztalkgurus.com/blogs/msft-biztalk-community/4-different-ways-to-process-an-xlangmessage-within-an-helper-component-invoked-by-an-orchestration-part-1/) (opens third party blog)
 
--   [4 Different ways to process an XLANGMessage within an helper component invoked by an orchestration Part 2](https://go.microsoft.com/fwlink/?LinkID=210421) (https://go.microsoft.com/fwlink/?LinkID=210421).
+- [4 Different ways to process an XLANGMessage within an helper component invoked by an orchestration Part 2](https://www.biztalkgurus.com/blogs/msft-biztalk-community/4-different-ways-to-process-an-xlangmessage-within-an-helper-component-invoked-by-an-orchestration-part-2/) (opens third party blog)
 
 ### Using XPathReader and XPathCollection to extract a value from an XLANGMessage object from a method invoked by an orchestration
  Avoid using the XMLDocument class to read the contents of XML messages from custom code, such as custom pipeline components or helper classes invoked by orchestrations. When using an XMLDocument instance to load an XML message, the entire message is loaded into memory, which is inefficient and may require memory up to 10 times the actual size of the message. A more efficient way of reading the contents of XML messages is to use a streaming technique to wrap the original stream with one of the stream classes provided by the Microsoft.BizTalk.Streaming.dll assembly. This technique is particularly useful when loading large messages.

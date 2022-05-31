@@ -26,18 +26,14 @@ manager: "anneta"
 
     If not enabled:
 
-   -   Right-click the protocol, and then click **Enable**.
+    - Right-click the protocol, and then click **Enable**.
+    - Repeat to enable the other protocol if necessary.
+    - In the left-hand pane, click **SQL Server Services**.
+    - In the right-hand pane, right-click **SQL Server (MSSQLSERVER)**, and click **Stop**.
+    - When the service has stopped, right-click **SQL Server (MSSQLSERVER)**, and click **Start**.
 
-   -   Repeat to enable the other protocol if necessary.
-
-   -   In the left-hand pane, click **SQL Server Services**.
-
-   -   In the right-hand pane, right-click **SQL Server (MSSQLSERVER)**, and click **Stop**.
-
-   -   When the service has stopped, right-click **SQL Server (MSSQLSERVER)**, and click **Start**.
-
-   > [!IMPORTANT]
-   >  If you are using [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)], the **NS$BAMAlerts** service may be stopped. Restart the service.
+    > [!IMPORTANT]
+    >  If you are using [!INCLUDE[btsSQLServer2008R2](../includes/btssqlserver2008r2-md.md)], the **NS$BAMAlerts** service may be stopped. Restart the service.
 
 4. Close the **Configuration Manager**.
 
@@ -45,11 +41,11 @@ manager: "anneta"
 
 1. Open Component Services:
 
-    **[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]** : Select the Windows button, and type **Component Services**. In the Results window, select **Component Services**.
+    - **[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]** : Select the Windows button, and type **Component Services**. In the Results window, select **Component Services**.
 
-    **Windows 8.1**: Select the Windows button, and type **Administrative Tools**. In the Search window, select **Settings**. In the Results window, click **Administrative Tools**. Double-click **Component Services**.
+    - **Windows 8.1**: Select the Windows button, and type **Administrative Tools**. In the Search window, select **Settings**. In the Results window, click **Administrative Tools**. Double-click **Component Services**.
 
-    **Windows 7 SP1**: Select **Start**. In the **Search** text box, type **Component Services**, and click it to open.
+    - **Windows 7 SP1**: Select **Start**. In the **Search** text box, type **Component Services**, and click it to open.
 
 2. In the console tree, expand **Component Services**, expand **Computers**, expand **My Computer**, expand **Distributed Transaction Coordinator**, and then click **Local DTC**.
 
@@ -59,15 +55,12 @@ manager: "anneta"
 
 5. Confirm the following options are checked:
 
-   - **Network DTC Access**
+    - **Network DTC Access**
+    - **Allow Inbound**
+    - **Allow Outbound**
+    - **No Authentication Required**
 
-   - **Allow Inbound**
-
-   - **Allow Outbound**
-
-   - **No Authentication Required**
-
-     For additional settings that may be needed, see [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md).
+    For additional settings that may be needed, see [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md).
 
 6. Select **OK** to close the **Local DTC Properties** dialog box. Restart the MSDTC service if prompted.
 
@@ -77,11 +70,11 @@ manager: "anneta"
 
 1. Open **Windows Firewall**:
 
-    **[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]** : Click the Windows button, and type **Windows Firewall**. In the Results window, click **Windows Firewall**.
+    - **[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]** : Click the Windows button, and type **Windows Firewall**. In the Results window, click **Windows Firewall**.
 
-    **Windows 8.1**: Click the Windows button, and type **Windows Firewall**. In the Search window, click **Settings**. In the Results window, click **Windows Firewall**.
+    - **Windows 8.1**: Click the Windows button, and type **Windows Firewall**. In the Search window, click **Settings**. In the Results window, click **Windows Firewall**.
 
-    **Windows 7 SP1**: Click **Start**. In the **Search** text box, type **Windows Firewall**, and click it to open.
+    - **Windows 7 SP1**: Click **Start**. In the **Search** text box, type **Windows Firewall**, and click it to open.
 
 2. Click **Advanced Settings** and click **Inbound Rules**.
 
@@ -105,21 +98,36 @@ manager: "anneta"
 
 ##  <a name="BKMK_SQLAgent"></a> Configure SQL Agent Jobs
 
-|            Job            |                                                                                                                                                                                                                                                                                                                     Description                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                 Why configure                                                                                                                                                                                                  |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Backup BizTalk Server** |                                     This SQL Agent job backs up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases and the log files. When configuring the job, you determine parameters like frequency and file location.<br /><br /> The following links describe the SQL Agent job and its parameters:<br /><br /> [Backing Up and Restoring BizTalk Server Databases](https://msdn.microsoft.com/library/aa561125\(v=bts.80\).aspx)<br /><br /> [How to Configure the Backup BizTalk Server Job](https://msdn.microsoft.com/library/aa546765\(v=bts.80\).aspx)                                      | This SQL Agent job also truncates the transaction logs, which helps improve performance.<br /><br /> The **Backup BizTalk Server** job does not remove or delete backup files, including older files. To delete backup files, refer to [The "Backup BizTalk Server" job fails when backup files accumulate over time in the Microsoft BizTalk Server database server](https://support.microsoft.com/kb/982546). |
-| **DTA Purge and Archive** | This SQL Agent job truncates and archives the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Tracking database (BizTalkDTADb). When configuring the job, you determine parameters like how many days to keep completed instances and how many to days to keep all data.<br /><br /> The following links describe the SQL Agent job and its parameters:<br /><br /> [Archiving and Purging the BizTalk Tracking Database](https://msdn.microsoft.com/library/aa560754\(v=bts.80\).aspx)<br /><br /> [How to Configure the DTA Purge and Archive Job](https://msdn.microsoft.com/library/aa558715\(v=bts.80\).aspx) |              This SQL Agent job directly impacts performance by maintaining the Tracking host and purging tracking events.<br /><br /> Performance topics include:<br /><br /> [How to maintain and troubleshoot BizTalk Server databases](https://support.microsoft.com/kb/952555)<br /><br /> [Tracking Database Sizing Guidelines](https://msdn.microsoft.com/library/aa559162\(v=bts.80\).aspx)              |
+- **Backup BizTalk Server**: This SQL Agent job backs up the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases and the log files. When configuring the job, you determine parameters like frequency and file location.
 
- **Additional**
+  The following links describe the SQL Agent job and its parameters:
+
+  - [Backing Up and Restoring BizTalk Server Databases](../core/backing-up-and-restoring-biztalk-server-databases.md)
+  - [Configure the Backup BizTalk Server Job](../core/how-to-configure-the-backup-biztalk-server-job.md)
+
+  This SQL Agent job also truncates the transaction logs, which helps improve performance. The **Backup BizTalk Server** job may not remove or delete backup files, including older files.
+
+- **DTA Purge and Archive**: This SQL Agent job truncates and archives the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Tracking database (BizTalkDTADb). When configuring the job, you determine parameters like how many days to keep completed instances and how many to days to keep all data.
+
+  The following links describe the SQL Agent job and its parameters:
+
+  - [Archive and Purge the BizTalkDTADb Database](../core/archiving-and-purging-the-biztalk-tracking-database.md)
+  - [Configure the DTA Purge and Archive Job](../core/how-to-configure-the-dta-purge-and-archive-job.md)
+
+  This SQL Agent job directly impacts performance by maintaining the Tracking host and purging tracking events. Performance topics include:
+
+  - [How to maintain and troubleshoot BizTalk Server databases](/troubleshoot/developer/biztalk/management-operations/maintain-troubleshoot-database)
+  - [Tracking Database Sizing Guidelines](../core/tracking-database-sizing-guidelines.md)
 
 - When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is installed, several SQL Agent jobs are automatically created, as described in the following links:
 
-   [Description of the SQL Server Agent jobs in BizTalk Server](https://support.microsoft.com/kb/919776)
+  - [Description of the SQL Server Agent jobs in BizTalk Server](/troubleshoot/developer/biztalk/setup-config/sql-server-agent-jobs-biztalk)
 
-   [Database Structure and Jobs](https://msdn.microsoft.com/library/aa561960\(v=bts.80\).aspx)
+  - [Database Structure and Jobs](../core/database-structure-and-jobs.md)
 
 ##  <a name="BKMK_InstallCU"></a> Install Cumulative Updates
- After you install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], install any [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cumulative updates listed in Windows Update. [KB article 2555976](https://support.microsoft.com/kb/2555976) lists available service packs and cumulative updates.
+
+After you install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], install any [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] cumulative updates listed in Windows Update. For more information, go to [Service Pack and cumulative update list for BizTalk Server](https://support.microsoft.com/topic/service-pack-and-cumulative-update-list-for-biztalk-server-108e5e94-4558-8b57-d5fb-45984506d56f).
 
 ## Next
 [Configure BizTalk Server](../install-and-config-guides/configure-biztalk-server.md)

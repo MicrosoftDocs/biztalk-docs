@@ -70,10 +70,10 @@ The following table lists the supported Edition upgrade path from BizTalk Server
 
 - **Permissions**: The user performing the upgrade must be a member of the following user groups or have the equivalent permissions:
 
-    - Administrators group on the local computer
-    - SQL Server System Administrators group on the SQL Server
-    - BizTalk Server Administrators group
-    - Single Sign-On (SSO) Administrators group
+  - Administrators group on the local computer
+  - SQL Server System Administrators group on the SQL Server
+  - BizTalk Server Administrators group
+  - Single Sign-On (SSO) Administrators group
 
 - **SSO**: The Single Sign-On Master Secret Server and the SQL Server that hosts the SSO database must be running during the upgrade.
 
@@ -83,11 +83,11 @@ The following table lists the supported Edition upgrade path from BizTalk Server
 
 - **DTC**: Enable Microsoft Distributed Transaction Coordinator (MSDTC), and then enable the Inbound/Outbound DTC rules:
 
-    1. In Server Manager, select **Tools**, and open **Windows Firewall with Advanced Security**.
-    2. Select **Inbound Rules**.
-    3. In **Inbound Rules**, right-click **Distributed Transaction Coordinator** * (as appropriate), and then **Enable Rule**.
-    4.  In Windows Firewall with Advanced Security, select **Outbound Rules**.
-    5.  In **Outbound Rules**, right-click **Distributed Transaction Coordinator** * (as appropriate), and then **Enable Rule**.
+  1. In Server Manager, select **Tools**, and open **Windows Firewall with Advanced Security**.
+  2. Select **Inbound Rules**.
+  3. In **Inbound Rules**, right-click **Distributed Transaction Coordinator** * (as appropriate), and then **Enable Rule**.
+  4. In Windows Firewall with Advanced Security, select **Outbound Rules**.
+  5. In **Outbound Rules**, right-click **Distributed Transaction Coordinator** * (as appropriate), and then **Enable Rule**.
 
   [Post-configuration steps to optimize your environment](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md) lists the steps to enable MSDTC.
 
@@ -125,14 +125,16 @@ The following table lists the supported Edition upgrade path from BizTalk Server
 - **LiveData Workbook**: If you are using BAM in BizTalk Server 2016, after the upgrade, you must manually regenerate the LiveData Workbook. To regenerate the LiveData Workbook:
 
   1. Retrieve the BAM Definition by running the following command:
-     `BM get-defxml MyDef.xml`
+
+      `BM get-defxml MyDef.xml`
   2. Re-create the PivotTable reports by opening Microsoft Office Excel, and then selecting the BAM Add-ins. Import the *MyDef.xml* file created in step (1), and recreate the PivotTable reports. Save the new BAM Workbook as *MyNewBook.xls*.
   3. Rename the PivotTable reports by finding the PivotTable names in *MyDef.xml* under `<Caption>` in the  `<BAMDefinition>\<Extension>\<OWC>\<PivotTableView>\<PivotTable>\<PivotView>\<Label>` path. Use these names to rename your PivotTable reports in *MyNewBook.xls*.
   4. Regenerate the LiveData Workbook by running the following command:
-     `BM regenerate-livedataworkbook MyNewBook.xls`
 
-     > [!NOTE]
-     > Regenerated LiveData Workbooks do not recreate the Excel artifacts (for example, charts) in the original LiveData Workbook. Manually recreate the artifacts.
+      `BM regenerate-livedataworkbook MyNewBook.xls`
+
+      > [!NOTE]
+      > Regenerated LiveData Workbooks do not recreate the Excel artifacts (for example, charts) in the original LiveData Workbook. Manually recreate the artifacts.
 
 - **BAM Tools pre-requisites**: SSIS installation is required on BAM Tools machine. Version of SSIS must be compatible to your SQL Server on machine where BAM Tools is configured. You can stop and disable SSIS windows service after installation of SSIS on this machine.
 
@@ -183,7 +185,7 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 
 - **Workgroups**: Installing and configuring BizTalk Server in a workgroup environment on a single computer is supported. In this scenario, both SQL Server and BizTalk Server features and components are installed and configured on the same computer.
 
-- **Terminal Server**: Installing BizTalk Server using Terminal Server running in application mode is not supported. See [KB 832027](https://support.microsoft.com/kb/832027).
+- **Terminal Server**: Installing BizTalk Server using Terminal Server running in application mode is not supported.
 
 - **Silent Upgrade** is not supported.
 
@@ -272,8 +274,8 @@ You cannot roll back to BizTalk Server 2016.
 
 - **SQL Agent job**: Reconfigure the following SQL Server Agent jobs:
 
-  -   DTA Purge and Archive (BizTalkDTADb): See [How to Configure the DTA Purge and Archive Job](../core/how-to-configure-the-dta-purge-and-archive-job.md)
-  -   Backup BizTalk Server (BizTalkMgmtDb): See [How to Configure the Backup BizTalk Server Job](../core/how-to-configure-the-backup-biztalk-server-job.md)
+  - DTA Purge and Archive (BizTalkDTADb): See [How to Configure the DTA Purge and Archive Job](../core/how-to-configure-the-dta-purge-and-archive-job.md)
+  - Backup BizTalk Server (BizTalkMgmtDb): See [How to Configure the Backup BizTalk Server Job](../core/how-to-configure-the-backup-biztalk-server-job.md)
 
 - **Scheduled BAM DTS packages**: If you have SQL Agent jobs to schedule BAM DTS packages, reconfigure the jobs to use SSIS packages from SSIS Catalog (SSISDB) instead of SSIS Package Store (MSDB).
 
