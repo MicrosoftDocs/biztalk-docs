@@ -15,20 +15,44 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Checklist: Configuring Internet Information Services
+
 This topic lists steps that should be followed when preparing Internet Information Services (IIS) for use in a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.
 
+- Set up IIS to publish [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services and WCF services. For more information, go to:
 
-|                                                                                                                                                     Steps                                                                                                                                                      |                                                                                                                                                                                                                        Reference                                                                                                                                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                     Set up IIS to publish [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services and WCF services                                                                                     |                                   -   See ["Enabling Web Services"](../core/enabling-web-services.md) (<https://go.microsoft.com/fwlink/?LinkId=153335>) in the BizTalk Server documentation.<br />-   See ["Configuring IIS for the Isolated WCF Receive Adapters"](https://go.microsoft.com/fwlink/?LinkId=202825)(<https://go.microsoft.com/fwlink/?LinkId=202825>) in the BizTalk Server documentation.                                   |
-|                                                                              Verify that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services and WCF services are working correctly.                                                                               | -   See ["Testing Published Web Services"](../core/testing-published-web-services.md) (<https://go.microsoft.com/fwlink/?LinkId=153336>) in the BizTalk Server documentation.<br />-   See ["How to Create a .NET Application to Test a WCF Service Published with the BizTalk WCF Service Publishing Wizard"](https://go.microsoft.com/fwlink/?LinkId=202830) (<https://go.microsoft.com/fwlink/?LinkId=202830>) in the BizTalk Server documentation. |
-|                            Lock down [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services:<br /><br /> -   Turn off the Debug switch in the web.config or machine.config file.<br />-   Configure so that POST is the only verb allowed.                            |                        -   See Microsoft Knowledge Base Article 815145, ["HOW TO: Lock Down an ASP.NET Web Application or Web Service"](https://go.microsoft.com/fwlink/?LinkId=153337) (<https://go.microsoft.com/fwlink/?LinkId=153337>).<br />-   See ["ASP.NET Edit Rule Dialog Box"](/previous-versions/dotnet/netframework-2.0/ms186183(v=vs.80)) (<https://go.microsoft.com/fwlink/?LinkID=64566>) in the .NET Framework 2.0 documentation.                         |
-|                                                                                      Configure load balancing by using NLB (or other load balancer) to balance load across BizTalk Server Web services and WCF services.                                                                                       |             -   **For Windows Server 2008**: See ["Network Load Balancing Deployment Guide"](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754833(v=ws.10)) (<https://go.microsoft.com/fwlink/?LinkId=153139>).<br />-   **For Windows Server 2003**: See ["Network Load Balancing: Configuration Best Practices for Windows 2000 and Windows Server 2003"](/previous-versions/windows/it-pro/windows-server-2003/cc786562(v=ws.10)) (<https://go.microsoft.com/fwlink/?LinkID=69529>).              |
-| Change IIS and ASP.NET settings for tuning Web services. **Note:**  ASP.NET 2.0 includes auto-tuning, so modifying these settings should not be needed for the web.config file of ASP.NET 2.0 Web sites where autoConfig is enabled in the \<processModel\> section. “autoConfig=true” is the default setting. |                                                                         Review the "ASP.NET settings that can impact HTTP or SOAP Adapter performance” section of the topic ["Configuration Parameters that Affect Adapter Performance"](../core/configuration-parameters-that-affect-adapter-performance.md) (<https://go.microsoft.com/fwlink/?LinkId=153338>) in the BizTalk Server documentation.                                                                          |
-|                                                                             Implement an approach for publishing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services and WCF services.                                                                             |                                                           -   See [Publishing Internet-facing Web Services and WCF Services](../technical-guides/publishing-internet-facing-web-services-and-wcf-services.md).<br />-   See ["Publishing WCF Services"](https://go.microsoft.com/fwlink/?LinkId=202827) (<https://go.microsoft.com/fwlink/?LinkId=202827>) in the BizTalk Server documentation.                                                           |
-|                                                                                                                             Follow best practices for optimizing IIS performance.                                                                                                                              |                                                                                                                                                    See ["Top Ten Ways To Pump Up IIS Performance"](https://go.microsoft.com/fwlink/?LinkId=109107) (<https://go.microsoft.com/fwlink/?LinkId=109107>).                                                                                                                                                    |
-|                                                                                                                  Follow best practices for writing high performance web applications for IIS.                                                                                                                  |                                                                                                                                              See ["10 Tips for Writing High-Performance Web Applications"](/archive/msdn-magazine/2005/january/asp-net-10-tips-for-writing-high-performance-web-applications) (<https://go.microsoft.com/fwlink/?LinkId=98290>).                                                                                                                                              |
+  - [Enabling Web Services](../core/enabling-web-services.md)
+  - [Configuring IIS for the Isolated WCF Receive Adapters](../core/configuring-iis-for-the-isolated-wcf-receive-adapters.md)
+
+- Verify that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services and WCF services are working correctly. For more information, go to:
+
+  - [Testing Published Web Services](../core/testing-published-web-services.md)
+  - [How to Create a .NET Application to Test a WCF Service Published with the BizTalk WCF Service Publishing Wizard](../core/use-net-application-to-test-wcf-service-published-with-wcf-service-publishing.md)
+
+- Lock down [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services:
+
+  - Turn off the Debug switch in the web.config or machine.config file.
+  - Configure so that POST is the only verb allowed.
+
+  For more information, go to:
+
+  - [Secure applications that are built on the .NET Framework](/troubleshoot/developer/dotnet/framework/general/secure-applications)
+  - [ASP.NET Edit Rule Dialog Box](/previous-versions/dotnet/netframework-2.0/ms186183(v=vs.80))
+
+- Configure load balancing by using NLB (or other load balancer) to balance load across BizTalk Server Web services and WCF services.
+
+- Change IIS and ASP.NET settings for tuning Web services. ASP.NET 2.0 includes auto-tuning, so modifying these settings should not be needed for the web.config file of ASP.NET 2.0 Web sites where autoConfig is enabled in the `<processModel>` section. `autoConfig=true` is the default setting.
+
+  Review the "ASP.NET settings that can impact HTTP or SOAP Adapter performance” section in [Configuration Parameters that Affect Adapter Performance](../core/configuration-parameters-that-affect-adapter-performance.md).
+
+- Implement an approach for publishing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services and WCF services. For more information, go to:
+
+  - [Publishing Internet-facing Web Services and WCF Services](publishing-internet-facing-web-services-and-wcf-services.md)
+  - [Publishing WCF Services](../core/publishing-wcf-services.md)
+
+- Follow best practices for optimizing IIS performance. For more information, go to [Tuning IIS 10.0](/windows-server/administration/performance-tuning/role/web-server/tuning-iis-10)
+
+- Follow best practices for writing high performance web applications for IIS. For more information, go to [10 Tips for Writing High-Performance Web Applications](/archive/msdn-magazine/2005/january/asp-net-10-tips-for-writing-high-performance-web-applications).
 
 ## In This Section
 
--   [Publishing Internet-facing Web Services and WCF Services](../technical-guides/publishing-internet-facing-web-services-and-wcf-services.md)
+- [Publishing Internet-facing Web Services and WCF Services](../technical-guides/publishing-internet-facing-web-services-and-wcf-services.md)

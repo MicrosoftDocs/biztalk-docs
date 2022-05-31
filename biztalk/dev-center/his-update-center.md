@@ -34,59 +34,20 @@ There are four BizTalk Adapters for Host Systems that are included with HIS:
 
 These adapters are updated by the cumulative updates for HIS.
 
-## HIS latest updates
+## HIS updates
 
 | Product Version | Latest Service Pack | Latest Cumulative Update |
 | --- | --- | --- |
-| HIS 2016 | n/a | CU 2 ([KB 4043569](https://support.microsoft.com/kb/4043569)) |
-| HIS 2013 | n/a | CU 4 ([KB 3108547](https://support.microsoft.com/kb/3108547)) |
-|  HIS 2010 | n/a | CU 10 ([KB 2917398](https://support.microsoft.com/kb/2917398)) |
-|  HIS 2009 | n/a | CU 7 ([KB 2975320](https://support.microsoft.com/kb/2975320)) |
-|  HIS 2006 | SP1 ([KB 979238](https://support.microsoft.com/kb/979238))  | n/a |
-|  HIS 2004 |  SP1 ([KB 940312](https://support.microsoft.com/kb/940312)) | n/a |
+| HIS 2016 | n/a | [Cumulative update 2](https://support.microsoft.com/topic/cumulative-update-package-2-for-host-integration-server-2016-7526d9ec-03c3-81f3-0efc-29acd086cde2) |
+| HIS 2013 | n/a | [Cumulative update 4](https://support.microsoft.com/topic/cumulative-update-package-4-for-host-integration-server-2013-47b40546-1d7c-dad0-9a26-297669f4bdc2) |
+|  HIS 2010 | n/a | [Cumulative update 10](https://support.microsoft.com/topic/cumulative-update-10-for-host-integration-server-2010-80589e2f-ced6-ed9b-d5e7-a9293ea08716) |
+|  HIS 2009 | n/a | [Cumulative update 7](https://support.microsoft.com/topic/cumulative-update-7-for-host-integration-server-2009-9f6f993b-58d0-6b2f-a66e-614781409a41) |
 
-## OLE DB Provider for DB2 latest updates
+## OLE DB Provider for DB2 updates
 
 | Product Version | Version | Latest Update & Version |
 | --- | --- | --- |
-| [Microsoft OLEDB Provider for DB2 v5.0 for Microsoft SQL Server 2014](https://www.microsoft.com/download/details.aspx?id=42295) | 9.0.2148.0 |[KB 3104962](https://support.microsoft.com/kb/3104962) (9.0.2343.0) <br/><br/>See Note |
-| [Microsoft OLEDB Provider for DB2 v4.0 Refresh for Microsoft SQL Server 2012 SP1](https://www.microsoft.com/download/details.aspx?id=35580) | 9.0.1390.0  | [KB 2913611](https://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
-| [Microsoft OLEDB Provider for DB2 v4.0 for Microsoft SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=29065) | 9.0.1356.0 | [KB 2913611](https://support.microsoft.com/kb/2913611) (9.0.1404.2) <br/><br/>See Note |
-| [Microsoft OLE DB Provider for DB2 Version 3.0 for Microsoft SQL Server 2008 R2](https://www.microsoft.com/download/details.aspx?id=26728) | 8.0.4294.0 | [KB 2827515](https://support.microsoft.com/kb/2827515) (8.0.4329.2) |
+| [Microsoft OLEDB Provider for DB2 v5.0 for Microsoft SQL Server 2014](https://www.microsoft.com/download/details.aspx?id=42295) | 9.0.2148.0 |[An update for the Microsoft OLE DB Provider for DB2 v5 is now available](https://support.microsoft.com/topic/an-update-for-the-microsoft-ole-db-provider-for-db2-v5-is-now-available-44cab15c-a406-5716-5ba6-4c93a7fa23ab) (9.0.2343.0) <br/><br/>See Note |
 
 > [!NOTE]
 > Updates to the Microsoft OLE DB Provider for DB2 v4.0 and later are released as new MSI installation packages. This requires that the previous version of the Microsoft OLE DB Provider for DB2 provider be removed before installing the updated version.
-
-## Cumulative update list
-
-#### HIS 2016
-[Cumulative Update 1](https://support.microsoft.com/help/3216544) 
-
-#### HIS 2013
-
--   [Cumulative update package 3 for Host Integration Server 2013](https://support.microsoft.com/kb/3019572)
--   [Cumulative update package 2 for Host Integration Server 2013](https://support.microsoft.com/kb/2929767)
--   [Cumulative update package 1 for Host Integration Server 2013](https://support.microsoft.com/kb/2908834)
-
-#### HIS 2010
-
--   [Cumulative update package 10 for Host Integration Server 2010 (2917398)](https://support.microsoft.com/kb/2917398)
--   [Cumulative update package 9 for Host Integration Server 2010 (2897923)](https://support.microsoft.com/kb/2897923)
--   [Cumulative update package 8 for Host Integration Server 2010 (2850493)](https://support.microsoft.com/kb/2850493)
--   [Cumulative update package 7 for Host Integration Server 2010 (2783797)](https://support.microsoft.com/kb/2783797)
--   [Cumulative update package 6 for Host Integration Server 2010 (2752426)](https://support.microsoft.com/kb/2752426)
--   [Cumulative update package 5 for Host Integration Server 2010 (2728515)](https://support.microsoft.com/kb/2728515)
--   [Cumulative update package 4 is available for Host Integration Server 2010 (2691943)](https://support.microsoft.com/?id=2691943)
--   [Cumulative update 3 for Host Integration Server 2010 (2654652)](https://support.microsoft.com/kb/2654652)
--   [Cumulative update 2 for Host Integration Server 2010 (2616519)](https://support.microsoft.com/kb/2616519)
--   [Cumulative update 1 for Host Integration Server 2010 (2533330)](https://support.microsoft.com/kb/2533330)
-
-#### HIS 2009
-
--   [Cumulative update package 7 for Host Integration Server 2009 (2975320)](https://support.microsoft.com/kb/2975320)
--   [Cumulative update package 6 for Host Integration Server 2009 (2851596)](https://support.microsoft.com/kb/2851596)
--   [Cumulative update package 5 for Host Integration Server 2009 (2814103)](https://support.microsoft.com/kb/2814103)
--   [Cumulative Update 4 for Host Integration Server 2009 is available (2765212)](https://support.microsoft.com/kb/2765212)
--   [Cumulative Update 3 for Host Integration Server 2009 is available (2667632)](https://support.microsoft.com/kb/2667632)
--   [Cumulative update 2 for Host Integration Server 2009 (2645939)](https://support.microsoft.com/kb/2645939)
--   [Cumulative update 1 for Host Integration Server 2009 (2587090)](https://support.microsoft.com/kb/2587090)
