@@ -29,29 +29,29 @@ Performing the following monitoring tasks on a regularly scheduled basis will as
 
   - Suspend, terminate, and resume service instances.
 
-    For more information about using the **Group Hub** page, see [https://go.microsoft.com/fwlink/?LinkId=155281](../core/using-the-group-hub-page.md).
+    For more information about using the **Group Hub** page, see [Using the Group Hub Page](../core/using-the-group-hub-page.md).
 
 - Review warnings (optional).
 
-  For more information, see [Checklist: Performing Daily Maintenance Checks](../technical-guides/checklist-performing-daily-maintenance-checks.md).
+  For more information, see [Checklist: Performing Daily Maintenance Checks](checklist-performing-daily-maintenance-checks.md).
 
 ## Weekly Monitoring Tasks
 
 - Review the event logs at least once per week. The reason for this task is to prevent issues, such as DBNetLib errors going undetected. Service interruption might go unnoticed unless you have a very low latency system. However, some of these errors can indicate a bigger issue (for example, too many hosts or BizTalk Server servers for the number of message boxes, performance issues on the SQL box, etc).
 
-  For more information, see [Checklist: Performing Weekly Maintenance Checks](../technical-guides/checklist-performing-weekly-maintenance-checks.md).
+  For more information, see [Checklist: Performing Weekly Maintenance Checks](checklist-performing-weekly-maintenance-checks.md).
 
 ## As-Needed Tasks
 
 - Modify the rules to customize the monitoring of your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] applications and infrastructure.
 
-- Run the Performance Analysis of Logs tool (PAL). If your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment is fairly constant (for example, new trading partners aren't added routinely, new code is not deployed), you might run Perfmon and PAL once a quarter or even every six months. If your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment changes more frequently, you may want to run Perfmon and PAL every couple of months to compare against a baseline. For more information on PAL, see [Using the Performance Analysis of Logs (PAL) Tool](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md).
+- Run the Performance Analysis of Logs tool (PAL). If your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment is fairly constant (for example, new trading partners aren't added routinely, new code is not deployed), you might run Perfmon and PAL once a quarter or even every six months. If your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment changes more frequently, you may want to run Perfmon and PAL every couple of months to compare against a baseline. For more information on PAL, see [Using the Performance Analysis of Logs (PAL) Tool](using-the-performance-analysis-of-logs-pal-tool.md).
 
 - Run Perfmon every few months, to once a quarter or even every six months depending on the number of changes occur in your [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment.
 
-- Run BizTalk Server Best Practices Analyzer when the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment changes (for example, the addition of new applications or creation of new hosts). You can download the BizTalk Server Best Practices Analyzer at [https://go.microsoft.com/fwlink/?LinkId=83317](https://go.microsoft.com/fwlink/?LinkId=83317).
+- Run BizTalk Server Best Practices Analyzer when the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] deployment changes (for example, the addition of new applications or creation of new hosts). You can [download the BizTalk Server Best Practices Analyzer](https://www.microsoft.com/download/details.aspx?id=43382).
 
-- Run the [BizTalk MsgBoxViewer tool](https://go.microsoft.com/fwlink/?LinkId=151930) (https://go.microsoft.com/fwlink/?LinkId=151930). This tool analyzes the BizTalk MessageBox and other databases and generates an HTML report containing warnings, if any, and other information related to the databases.
+- Run the BizTalk MsgBoxViewer tool, which is available in the [BizTalk Health Monitor](../core/monitoring-biztalk-server.md). This tool analyzes the BizTalk MessageBox and other databases and generates an HTML report containing warnings, if any, and other information related to the databases.
 
   > [!TIP]
   >  You can also save the reports for later use. These reports might be useful when troubleshooting issues with the BizTalk application.
@@ -59,7 +59,7 @@ Performing the following monitoring tasks on a regularly scheduled basis will as
   > [!NOTE]
   >  Use of this tool is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this programs. Use of this program is entirely at your own risk.
 
-- Run the [Terminator tool](https://go.microsoft.com/fwlink/?LinkId=151931) (https://go.microsoft.com/fwlink/?LinkId=151931). This tool enables users to easily resolve any issues identified by the BizTalk MsgBoxViewer tool. For more information about how the Terminator tool integrates with the BizTalk MsgBoxViewer tool, see [Using BizTalk Terminator to resolve issues identified by BizTalk MsgBoxViewer](https://go.microsoft.com/fwlink/?LinkId=151932)(https://go.microsoft.com/fwlink/?LinkId=151932).
+- Run the Terminator tool, which is available in the [BizTalk Health Monitor](../core/monitoring-biztalk-server.md). This tool enables users to easily resolve any issues identified by the BizTalk MsgBoxViewer tool.
 
   > [!NOTE]
   >  Use of this tool is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this programs. Use of this program is entirely at your own risk.
@@ -71,4 +71,4 @@ Performing the following monitoring tasks on a regularly scheduled basis will as
 - Create a plan to make any needed changes in monitoring.
 
 ## See Also
- [Routine Maintenance Checklists](../technical-guides/routine-maintenance-checklists.md)
+ [Routine Maintenance Checklists](routine-maintenance-checklists.md)

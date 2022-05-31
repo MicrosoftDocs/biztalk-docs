@@ -48,7 +48,7 @@ This topic focuses on troubleshooting the [!INCLUDE[btsWinSharePointSvcsNoVersio
 ## Enable Kerberos Authentication
  In a double-hop scenario, Kerberos authentication and enabling delegation are required. Steps include:
 
-1. Enable **Negotiate** on the IIS/SharePoint server. For more information, go to [Windows Authentication <windowsAuthentication>](/iis/configuration/system.webserver/security/authentication/windowsauthentication/).
+1. Enable **Negotiate** on the IIS/SharePoint server. For more information, go to [Windows Authentication `<windowsAuthentication>`](/iis/configuration/system.webserver/security/authentication/windowsauthentication/).
 
 2. Service Principal Names (SPNs) are required for the domain accounts executing the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] Service and the Application Pool on the IIS/SharePoint computer. For more information about configuring Service Principal Names, go to [Service principal names (SPN)](/windows/win32/ad/service-principal-names).
 

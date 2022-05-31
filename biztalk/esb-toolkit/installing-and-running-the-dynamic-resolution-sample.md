@@ -26,7 +26,7 @@ The Dynamic Resolution sample demonstrates typical usage scenarios for the ESB D
  All one-way messaging scenarios (except the one that uses the XPATH Resolver) use the file NAOrderDoc.xml, located in the \Source\Samples\DynamicResolution\Test\Data folder, as input to the receive location named DynamicResolution_FILE. There are seven one-way messaging examples, all represented by a unique binding file that you must import before you execute each example.
 
 ## Two-Way Messaging Scenarios
- All two-way messaging scenarios use the sample ESB.NorthAmericanServices Web service located at http://localhost/ESB.NorthAmericanServices/CustomerOrder.asmx to publish the request message into BizTalk. You can execute this Web service using Microsoft InfoPath or through a utility such as the Storm available from [CodePlex](https://go.microsoft.com/fwlink/?LinkID=187762&clcid=0x409).
+ All two-way messaging scenarios use the sample ESB.NorthAmericanServices Web service located at `http://localhost/ESB.NorthAmericanServices/CustomerOrder`.asmx to publish the request message into BizTalk.
 
  Each example dynamically resolves the endpoint URL to submit the message to the sample ESB.CanadianServices Web service located at http://localhost/ESB.CanadianServices/SubmitPOService.asmx. The example will execute either the **submitOrder** action or the **submitPurchase** action, depending on the results of the resolution process. The receive location for two-way messaging scenarios is DynamicResolutionReqResp_SOAP. There are 10 two-way messaging examples, all represented by a unique binding file that you must import before you execute each example.
 

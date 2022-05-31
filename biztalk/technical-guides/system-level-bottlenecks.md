@@ -26,7 +26,7 @@ This topic describes how to address common system-level bottlenecks that can imp
 ### Run the Baseline Security Analyzer
  Follow these steps to run the Baseline Security Analyzer:
 
-1.  Download the [Microsoft Baseline Security Analyzer 2.2](https://go.microsoft.com/fwlink/?LinKID=204006) (https://go.microsoft.com/fwlink/?LinkId=204006).
+1.  Use the [Microsoft Baseline Security Analyzer](/windows/security/threat-protection/mbsa-removal-and-guidance).
 
 2.  Using a domain administrator account, log on to a computer on the same network that is hosting the BizTalk Server and SQL Server computers.
 
@@ -39,7 +39,7 @@ This topic describes how to address common system-level bottlenecks that can imp
 ### Run the BizTalk Server Best Practices Analyzer
  Follow these steps to run the BizTalk Server Best Practices Analyzer:
 
-1.  Download the [BizTalk Server Best Practices Analyzer v1.2](https://go.microsoft.com/fwlink/?LinkID=83317) (https://go.microsoft.com/fwlink/?LinkID=83317).
+1.  Download the [BizTalk Server Best Practices Analyzer](https://www.microsoft.com/download/details.aspx?id=43382).
 
 2.  Using a user account that is part of the BizTalk Server Administrator security group, log on to a BizTalk Server node.
 
@@ -86,7 +86,7 @@ This topic describes how to address common system-level bottlenecks that can imp
 ### Use the BizTalk MsgBoxViewer tool to collect information about the MessageBox database
  Follow these steps to collect information about the MessageBox database using the BizTalk MsgBoxViewer tool:
 
-1.  Download the [BizTalk MsgBoxViewer tool](https://go.microsoft.com/fwlink/?LinkID=117289) (https://go.microsoft.com/fwlink/?LinkID=117289).
+1.  Download the BizTalk MsgBoxViewer tool, which is available in the [BizTalk Health Monitor](../core/monitoring-biztalk-server.md).
 
 2.  Log on to the BizTalk Server computer with a user account that is part of the BizTalk Server Administrator security group.
 
@@ -116,7 +116,7 @@ This topic describes how to address common system-level bottlenecks that can imp
 
 -   **Check the BizTalk Server and SQL Server event logs -** A cursory examination of the BizTalk Server or SQL Server event logs may reveal a problem that could otherwise take a significant amount of time to diagnose and resolve.
 
--   **Run the BizTalk Server Best Practices Analyzer -** The BizTalk Server Best Practices Analyzer examines a BizTalk Server deployment and generates a list of issues pertaining to best practices standards. The tool performs configuration-level verification by gathering data from different information sources, such as Windows Management Instrumentation (WMI) classes, SQL Server databases, and registry entries. The data is then used to evaluate the deployment configuration. The tool reads and reports only and does not modify any system settings, and is not a self-tuning tool. Download the BizTalk Server Best Practices Analyzer v1.2 from [BizTalk Server Best Practices Analyzer v1.2](https://go.microsoft.com/fwlink/?LinkID=83317) (https://go.microsoft.com/fwlink/?LinkID=83317).
+-   **Run the BizTalk Server Best Practices Analyzer -** The BizTalk Server Best Practices Analyzer examines a BizTalk Server deployment and generates a list of issues pertaining to best practices standards. The tool performs configuration-level verification by gathering data from different information sources, such as Windows Management Instrumentation (WMI) classes, SQL Server databases, and registry entries. The data is then used to evaluate the deployment configuration. The tool reads and reports only and does not modify any system settings, and is not a self-tuning tool. Download the [BizTalk Server Best Practices Analyzer](https://www.microsoft.com/download/details.aspx?id=43382).
 
 ## High-level system bottlenecks
  This section describes system-level bottlenecks that may be present in a BizTalk Server solution and possible mitigation strategies.
@@ -214,7 +214,7 @@ This topic describes how to address common system-level bottlenecks that can imp
 #### Disk I/O tuning options
  If you determine that disk I/O is a bottleneck in your environment, the following techniques may be used to alleviate the bottleneck:
 
--   **Defragment your disks -** Use the available at [PageDefrag utility](https://go.microsoft.com/fwlink/?LinkId=108976) (https://go.microsoft.com/fwlink/?LinkId=108976) to defragment the Windows paging file and pre-allocate the Master File Tables.
+-   **Defragment your disks -** Use the available at [PageDefrag utility](/windows-server/administration/windows-commands/defrag) to defragment the Windows paging file and pre-allocate the Master File Tables.
 
 -   **Use stripe sets to process I/O requests concurrently over multiple disks -** Use mirrored volumes to provide fault tolerance and increase I/O performance. If you do not require fault tolerance, implement stripe sets for fast reading and writing and improved storage capacity. When stripe sets are used, per disk utilization is reduced because work is distributed across the volumes, and overall throughput increases. If you adding additional disks in a stripe set does not increase throughput, then your system might be experiencing a bottleneck due to contention between disks by the disk controller. In this case, adding an additional disk controller will help distribute load and increase performance.
 
@@ -233,7 +233,7 @@ This topic describes how to address common system-level bottlenecks that can imp
 
 -   **Use the most efficient disk systems available -** In addition to the physical disk that is used, consider the type of disk controller and cabling that will be used. An efficient disk subsystem should also provide drivers that support interrupt moderation or interrupt avoidance to mitigate processor interrupt activity caused by disk I/O.
 
--   **Ensure that you are using the appropriate RAID configuration -** Use RAID 10 (striping and mirroring) for optimal performance and fault tolerance. The tradeoff is that using RAID 10 is expensive. Avoid using RAID 5 when you have extensive write operations. For more information about implementing RAID in a BizTalk Server environment, see the section “Disk Infrastructure” in the [BizTalk Server Database Optimization white paper](https://go.microsoft.com/fwlink/?LinkID=101578) (https://go.microsoft.com/fwlink/?LinkID=101578).
+-   **Ensure that you are using the appropriate RAID configuration -** Use RAID 10 (striping and mirroring) for optimal performance and fault tolerance. The tradeoff is that using RAID 10 is expensive. Avoid using RAID 5 when you have extensive write operations. For more information about implementing RAID in a BizTalk Server environment, see the section “Disk Infrastructure” in the [BizTalk Server Database Optimization](optimizing-database-performance.md).
 
 -   **Consider using database partitions -** If you have a database bottleneck, consider using database partitions and mapping disks to specific tables and transaction logs. The primary purpose of partitions is to overcome disk bottlenecks for large tables. If you have a table with large number of rows and you determine that it is the source of a bottleneck, consider using partitions. For SQL Server, you can use file groups to improve I/O performance. You can associate tables with file groups, and then associate the file groups with a specific hard disk. For more information about using optimizing filegroups for the BizTalk Server databases, see [Optimizing Filegroups for the Databases](~/technical-guides/optimizing-filegroups-for-the-databases2.md).
 
@@ -304,7 +304,7 @@ This topic describes how to address common system-level bottlenecks that can imp
 
 -   If you observe a high rate of context switching, consider reducing the thread count for your process before increasing the number of processors.
 
--   Analyze and tune the application that is causing high CPU utilization. You can dump the running process by using the ADPLUS utility and analyze the cause by using Windbg. These utilities are part of the Windows debugging toolkit. You can download these tools from [Debugging Tools for Windows](/windows-hardware/drivers/debugger/) (https://go.microsoft.com/fwlink/?LinkID=106624).
+-   Analyze and tune the application that is causing high CPU utilization. You can dump the running process by using the ADPLUS utility and analyze the cause by using Windbg. These utilities are part of the Windows debugging toolkit. You can download these tools from [Debugging Tools for Windows](/windows-hardware/drivers/debugger/).
 
 -   Analyze the instrumentation log generated by your application to isolate the subsystem that is taking the maximum amount of time for execution. Determine whether a code review would be more beneficial than just tuning the BizTalk Server environment.
 
@@ -405,7 +405,7 @@ This topic describes how to address common system-level bottlenecks that can imp
 -   Install additional physical memory on the computers in the BizTalk Server environment.
 
 > [!NOTE]
->  On a 32-bit system, BizTalk can use a maximum of 2GB of memory, the limit increases to 3GB with BizTalk Server 2010 and later if the /3GB switch is used. For more information on memory usage, see [Memory Limits for Windows Releases](/windows/win32/memory/memory-limits-for-windows-releases) (https://go.microsoft.com/fwlink/?LinkId=118349).
+>  On a 32-bit system, BizTalk can use a maximum of 2GB of memory, the limit increases to 3GB with BizTalk Server 2010 and later if the /3GB switch is used. For more information on memory usage, see [Memory Limits for Windows Releases](/windows/win32/memory/memory-limits-for-windows-releases).
 
 ### Network I/O bottlenecks
 
@@ -440,7 +440,7 @@ This topic describes how to address common system-level bottlenecks that can imp
 
     -   Threshold: Sustained value of more than 50 percent of network capacity.
 
-    -   Significance: This counter indicates the number of bytes sent and received over the network. Higher values indicate a network I/O bottleneck. If the sum of **Bytes Total/sec** for all servers is roughly equal to the maximum transfer rate of your network, consider subnetting the network to improve performance. For more information about subnetting a network to improve performance, see the **Subnets** section of the [BizTalk Server Database Optimization white paper](https://go.microsoft.com/fwlink/?LinkID=101578) (https://go.microsoft.com/fwlink/?LinkID=101578).
+    -   Significance: This counter indicates the number of bytes sent and received over the network. Higher values indicate a network I/O bottleneck. If the sum of **Bytes Total/sec** for all servers is roughly equal to the maximum transfer rate of your network, consider subnetting the network to improve performance. For more information about subnetting a network to improve performance, see the **Subnets** section of the [BizTalk Server Database Optimization](optimizing-database-performance.md).
 
 #### Resolving network I/O bottlenecks
  If you determine that network I/O is a bottleneck in your environment, use one or more of the following methods to resolve the bottleneck:

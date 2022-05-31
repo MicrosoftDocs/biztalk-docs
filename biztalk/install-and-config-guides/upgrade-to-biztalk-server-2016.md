@@ -232,7 +232,7 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 
 - **Save BAM Alert Definitions**: Applies only if you currently use existing BAM Alert definitions with SQL Server Notification Services. Create a definition file using BM.exe and unconfigure BAM Alerts in the [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/2013 Configuration.
 
-  **[Before the upgrade](#before-the-upgrade–what-you-need-to-know)** (in this article) lists the specific steps. Otherwise, recreate the BAM Alert definitions after you upgrade.
+  **[Before the upgrade](#before-the-upgrade--what-you-need-to-know)** (in this article) lists the specific steps. Otherwise, recreate the BAM Alert definitions after you upgrade.
 
 - **Upgrade SQL Server**: Upgrade to a supported SQL Server version. For more information, go to:
 
@@ -278,7 +278,7 @@ Using the Settings Dashboard, you can extensively tweak BizTalk Server settings 
 
 - **Configure SQL Server Database Mail**: Applies only if you use BAM Alert definitions with SQL Server Notification Services.
 
-  **[Before the upgrade](#before-the-upgrade–what-you-need-to-know)** (in this article) lists the specific steps. Otherwise, recreate the BAM Alert definitions after you upgrade.
+  **[Before the upgrade](#before-the-upgrade--what-you-need-to-know)** (in this article) lists the specific steps. Otherwise, recreate the BAM Alert definitions after you upgrade.
 
 ## Do the upgrade
 
@@ -325,7 +325,7 @@ You cannot roll back to [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/20
 
 - **If you created a BAM Alerts definition XML file**: In [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] Configuration, configure BAM Alerts. Then, deploy the saved Definitions.
 
-  **[Before the upgrade](#before-the-upgrade–what-you-need-to-know)** (in this article) lists the specific steps. Otherwise, recreate the BAM Alert definitions after you upgrade.
+  **[Before the upgrade](#before-the-upgrade--what-you-need-to-know)** (in this article) lists the specific steps. Otherwise, recreate the BAM Alert definitions after you upgrade.
 
 - **Install MQSAgent**: If the MQSAgent.dll file is installed on a remote WebSphere MQ Server, install a new version of the MQ Agent from [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] on the remote WebSphere MQ Server.
 

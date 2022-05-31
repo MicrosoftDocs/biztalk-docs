@@ -18,11 +18,10 @@ manager: "anneta"
 # Checklist: Maintaining and Troubleshooting BizTalk Server Databases
 BizTalk Server databases and their health are very important for a successful BizTalk Server database messaging environment. This topic lists the steps that you must follow when maintaining or troubleshooting the BizTalk Server databases.
 
--   [Maintaining BizTalk Server Databases](../technical-guides/checklist-maintaining-and-troubleshooting-biztalk-server-databases.md#BKMK_MaintainDB)
+- [Maintaining BizTalk Server Databases](#maintaining-biztalk-server-databases)
 
--   [Troubleshooting BizTalk Server Databases](../technical-guides/checklist-maintaining-and-troubleshooting-biztalk-server-databases.md#BKMK_Troubleshoot)
+- [Troubleshooting BizTalk Server Databases](#troubleshooting-biztalk-server-databases)
 
-<a name="BKMK_MaintainDB"></a>
 ## Maintaining BizTalk Server Databases
 
 - Disable the **Auto Update Statistics** and **Auto Create Statistics** options (applies only to BizTalk Server MessageBox databases). By default, these settings are configured as part of the BizTalk Server configuration. You should not make changes to these settings.
@@ -105,7 +104,7 @@ BizTalk Server databases and their health are very important for a successful Bi
 
   By default, tracking is enabled on the default host. BizTalk requires the **Allow Host Tracking** option be checked on a single host. When tracking is enabled, the Tracking Data Decode Service (TDDS) moves the tracking event data from the BizTalk Server MessageBox database to the BizTalk Server tracking database. If no BizTalk Server hosts are configured with the option to **Allow Host Tracking** or if the tracking host is stopped, then TDDS will not run and the TrackingData_x_x tables in the BizTalk Server MessageBox database will grow unchecked. 
 
-  Therefore, a dedicated BizTalk Server host should be configured with the option to **Allow Host Tracking**. For more information about configuring a dedicated tracking host see [Configuring a Dedicated Tracking Host](configuring-a-dedicated-tracking-host.md). 
+  Therefore, a dedicated BizTalk Server host should be configured with the option to **Allow Host Tracking**. For more information about configuring a dedicated tracking host see [Configuring a Dedicated Tracking Host](configuring-a-dedicated-tracking-host.md).
 
   To allow TDDS to maintain new tracking events in high volume scenarios, you can create multiple instances of a single tracking host but no more than one host should be configured for tracking.
 
@@ -148,7 +147,6 @@ BizTalk Server databases and their health are very important for a successful Bi
 
 - Follow best practices for BizTalk Server databases. See [Best Practices for Maintaining BizTalk Server Databases](best-practices-for-maintaining-biztalk-server-databases.md).
 
-<a name="BKMK_Troubleshoot"></a>
 ## Troubleshooting BizTalk Server Databases
 
 Perform the following tasks to troubleshoot any issues with BizTalk Server databases.
@@ -221,11 +219,12 @@ If you want help analyzing the MsgBoxViewer data or PSSDIAG output, contact Micr
 
 ## Next
 
--   [Best Practices for Maintaining BizTalk Server Databases](~/technical-guides/best-practices-for-maintaining-biztalk-server-databases.md)
+- [Best Practices for Maintaining BizTalk Server Databases](best-practices-for-maintaining-biztalk-server-databases.md)
 
--   [Large-growing BizTalk Server Database Tables](~/technical-guides/large-growing-biztalk-server-database-tables.md)
+- [Large-growing BizTalk Server Database Tables](large-growing-biztalk-server-database-tables.md)
 
--   [Tools and Utilities for Troubleshooting](../technical-guides/tools-and-utilities-for-troubleshooting.md)
+- [Tools and Utilities for Troubleshooting](tools-and-utilities-for-troubleshooting.md)
 
 ## See Also
- [SQL Server Settings That Should Not Be Changed](~/technical-guides/sql-server-settings-that-should-not-be-changed.md)
+
+[SQL Server Settings That Should Not Be Changed](sql-server-settings-that-should-not-be-changed.md)
