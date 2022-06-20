@@ -45,5 +45,5 @@ The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md
 Plug into the Host Integration Server community to connect with other developers and get answers to your questions, read the latest from bloggers, see webcasts, find out about events, and participate in the TechNet Wiki.
 
 - [Host Integration Server Blog](https://techcommunity.microsoft.com/t5/host-integration-blog/bg-p/HostIntegrationBlog)
-- [Microsoft Questions & Answers](https://docs.microsoft.com/answers)
+- [Microsoft Questions & Answers](/answers)
 - [TechNet Wiki](https://go.microsoft.com/fwlink/?LinkId=198099)
