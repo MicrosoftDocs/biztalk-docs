@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Host Integration Server to Host Problems
-[!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] SNA Services cannot connect to a host over the Microsoft Networking (Names Pipes) protocol. High Performance Routing over Internet Protocol (HPR/IP) and TCP/IP (TN3270 and TN5250) are the protocols commonly used to connect from the server to a host. If you cannot get an emulation session at the server itself, check the status of the connection using the SNA Manager. If the status is "Active", but you cannot access an emulation session, there may be a configuration problem. If the connection to an AS/400 is "Pending", it may be useful to go through the KB articles [112158](https://support.microsoft.com/kb/112158) or [112159](https://support.microsoft.com/kb/112159).
+[!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] SNA Services cannot connect to a host over the Microsoft Networking (Names Pipes) protocol. High Performance Routing over Internet Protocol (HPR/IP) and TCP/IP (TN3270 and TN5250) are the protocols commonly used to connect from the server to a host. If you cannot get an emulation session at the server itself, check the status of the connection using the SNA Manager. If the status is "Active", but you cannot access an emulation session, there may be a configuration problem.
   
  If the status is "Inactive" or "Pending", the communication between the server and the host is failing.  
   
