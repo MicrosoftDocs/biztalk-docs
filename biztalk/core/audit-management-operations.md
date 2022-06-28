@@ -46,7 +46,7 @@ Auditing isn't configured by default. To turn on auditing:
 
 ## View audit logs
 
-1. Check that the BizTalk Server Operational Data Service is configured. For more information, see [Install and configure the Operational Data Service in BizTalk Server](configure-the-operational-data-feed-for-power-bi-with-biztalk-server.md).
+1. Check that the **Operational Data Service** is configured, and is running using an account which is a member of "BizTalk Server Administrators", "BizTalk Server Operators", or "BizTalk Server Read Only Users" windows groups. For more information, see [Configure the REST APIs](../install-and-config-guides/configure-biztalk-server.md#configure-the-rest-apis). 
 1. To view audit logs, go to `http://localhost/BizTalkOperationalDataService/AuditLogs`.
 1. To see audit log entries from a specific date range, use one of these formats for the URL:
 
