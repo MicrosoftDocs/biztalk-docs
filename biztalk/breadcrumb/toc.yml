@@ -8,7 +8,7 @@
   - name: "BizTalk Server What's New, Installation, Configuration, and Upgrade"
     tocHref: /biztalk/install-and-config-guides/
     topicHref: /biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade
-  - name: BizTalk Server Core Documentation
+  - name: Core Documentation
     tocHref: /biztalk/core/
     topicHref: /biztalk/core/biztalk-server-core-documentation
   - name: 'Adapters & Accelerators'
@@ -48,6 +48,3 @@
   - name: ESB Toolkit
     tocHref: /biztalk/esb-toolkit/
     topicHref: /biztalk/esb-toolkit/microsoft-biztalk-esb-toolkit
-  - name: Feature Pack 1
-    tocHref: /biztalk/feature-pack-1/
-    topicHref: /biztalk/feature-pack-1/feature-pack-1-rest-api-reference
