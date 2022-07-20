@@ -4,7 +4,7 @@ description: Learn how to audit BizTalk Server management operations. See how to
 author: "pravagar"
 ms.author: "pravagar"
 manager: "dougeby"
-ms.date: "05/20/2022"
+ms.date: 07/20/2022
 ms.topic: conceptual
 ms.prod: biztalk-server
 
@@ -46,9 +46,12 @@ Auditing isn't configured by default. To turn on auditing:
 
 ## View audit logs
 
-1. Check that the **Operational Data Service** is configured, and is running using an account which is a member of "BizTalk Server Administrators", "BizTalk Server Operators", or "BizTalk Server Read Only Users" windows groups. For more information, see [Configure the REST APIs](../install-and-config-guides/configure-biztalk-server.md#configure-the-rest-apis). 
-1. To view audit logs, go to `http://localhost/BizTalkOperationalDataService/AuditLogs`.
-1. To see audit log entries from a specific date range, use one of these formats for the URL:
+1. Confirm that the **Operational Data Service** is configured. The service should be using an account that's a member of the **BizTalk Server Administrators**, the **BizTalk Server Operators**, or the **BizTalk Server Read Only Users** groups. 
+
+    For more information, see [Configure the REST APIs](../install-and-config-guides/configure-biztalk-server.md#configure-the-rest-apis). 
+
+2. To view audit logs, go to `http://localhost/BizTalkOperationalDataService/AuditLogs`.
+3. To see audit log entries from a specific date range, use one of these formats for the URL:
 
    - `http://localhost/BizTalkOperationalDataService/AuditLogs?fromDate=<yyyy-MM-dd>&toDate=<yyyy-MM-dd>`
    - `http://localhost/BizTalkOperationalDataService/AuditLogs?fromDate=<yyyy-MM-dd>T<hh:mm:ss>&toDate=<yyyy-MM-dd>T<hh:mm:ss>`
