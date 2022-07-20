@@ -4,7 +4,7 @@ description: See all the available cumulative updates and service packs availabl
 author: "christopherhouser"
 manager: "dougeby"
 ms.prod: "host-integration-server"
-
+ms.date: 07/20/2022
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
