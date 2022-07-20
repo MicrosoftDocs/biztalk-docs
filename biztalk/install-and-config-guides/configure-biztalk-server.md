@@ -262,19 +262,15 @@ BAM Alerts service requires SQL_AS_ADOMD client to run. Install SQL Server 2016 
 ### Configure the REST APIs
 
 This feature applies to **BizTalk Server 2020** and newer.
+* **Management Service**: REST APIs for BizTalk Server artifacts management. The default URI for **Management Service** APIs is `http(s)://localhost/BizTalkManagementService`.
+* **Operational Data Service**: Service providing information on the instances and messages flowing through your BizTalk Server environment. The operational data feed is the same data you get looking at Group Hub in BizTalk Server Administration. The default URI for **Operational Data service** APIs is `http(s)://localhost/BizTalkOperationalDataService`.
 
 1. Select **REST APIs**.
 2. Configure the following:
 
     - **Enable BizTalk REST APIs**: Check this if you want to enable BizTalk REST APIs.
-    - **Web service accounts**: Enter the account used to run the IIS services:
-
-      - **Management Service**: REST APIs for BizTalk Server artifacts management. The default URI for **Management Service** APIs is `http(s)://localhost/BizTalkManagementService`.
-      - **Operational Data Service**: Service providing information on the instances and messages flowing through your BizTalk Server environment. The operational data feed is the same data you get looking at Group Hub in BizTalk Server Administration. The default URI for **Operational Data service** APIs is `http(s)://localhost/BizTalkOperationalDataService`.
-
-    - **Windows groups**: BizTalk REST APIs use Windows authentication, specify the Windows groups allowed to access the APIs here.
-      - **Management REST APIs User Role**: Specify name of Windows group as an extra layer of security. Once specified, the requester access to BizTalk information at REST endpoint is limited to what is configured in BizTalk for the specified Windows group(s).
-      - **Operational Data REST APIs User Role**: Specify Windows group name that you wish to use to control the access.
+    - **Web service accounts**: Enter the account used to run the IIS services. 
+    - **Windows groups**: Specify the Windows groups allowed to access the APIs. The default value is `Everyone`.
     - **REST APIs website**: Select the Web site to host both the REST APIs.
 
 ### Configure BizTalk TMS
