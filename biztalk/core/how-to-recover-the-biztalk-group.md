@@ -21,7 +21,7 @@ You must rejoin the BizTalk Server to an existing BizTalk group as part of the s
 ## Prerequisites  
  You must be logged on as a member of the Administrators group to perform this procedure.  
   
- If you are recovering [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Standard Edition, you must download a script that facilitates recovery of the server. Download [RestoreConfig.vbe](https://www.microsoft.com/download/details.aspx?id=7462).  
+ If you are recovering [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Standard Edition, you must download a script that facilitates recovery of the server. Download RestoreConfig.vbe.  
   
 ## Recover the BizTalk group (Standard Edition)  
   

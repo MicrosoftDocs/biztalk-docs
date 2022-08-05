@@ -141,7 +141,7 @@ Install the BTSREL custom package to use BizTalk Adapter for JD Edwards OneWorld
 
 #### Install the BTSREL custom package
 
-Download [BTSREL](https://www.microsoft.com/download/details.aspx?id=56113). Install it on the deployment server, and then deploy it to the enterprise server.
+Download BTSREL. Install it on the deployment server, and then deploy it to the enterprise server.
 
  The existing BTSREL.exe package directly works with the B7333 version. For the package to work with the B7334 version, then:
 
