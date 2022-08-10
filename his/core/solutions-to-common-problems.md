@@ -140,7 +140,7 @@ Message No: DSQ10427.
  DRDA Client programs will bind a set of standard packages that contain basic DECLARE CURSOR statements, with which to define how to fetch and return results on SELECT and CALL statements. If the statement fails, then check to see if the package or collection is listed in the IgnoreStandardPacakges.txt file. If listed, remove the reference, rebind and re-execute the statement.
 
 ## Access Relational Database Connection Failure
- The DRDA Service will connect to a SQL Server database using the connections string in the MsDrdaService.exe.config in respose to a DRDA ACCRDB (Access Relational Database) request. In certain circumstances, the SQL Server database connection attempt may fail with the following error.
+ The DRDA Service will connect to a SQL Server database using the connections string in the MsDrdaService.exe.config in response to a DRDA ACCRDB (Access Relational Database) request. In certain circumstances, the SQL Server database connection attempt may fail with the following error.
 
 ```
 A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server).
