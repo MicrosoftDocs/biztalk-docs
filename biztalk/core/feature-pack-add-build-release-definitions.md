@@ -118,11 +118,11 @@ When the build succeeds, the release definition deploys your application to your
 
       - **Create new BizTalk Application**: Deploys a new application. If the application already exists, it uninstalls the current applications (full stop), and installs the new application. If continuous integration is enabled, it automatically redeploys the application when it is updated in the repository.   
       - **Update an existing BizTalk Application**: Appends changes, such as schemas, to an already running application. It does not require a full redeploy of the application.  
-      - **Install BizTalk Server Application**: [Install the applications](../core/how-to-install-a-biztalk-application.md), and you enter the BizTalk management computer name, and the deployment package path.  
+      - **Install BizTalk Server Application**: [Install the applications](../core/how-to-install-a-biztalk-application.md). You enter the Application Name. Make sure that the application is installed in the same Biztalk Server group where installation is being done.  
 
         :::image type="content" source="./media/feature-pack-add-build-release-definitions/vsts-deploy-operations.png" alt-text="Install the BizTalk Server application as a deployment task for Azure DevOps in Visual Studio.":::
 
-    - **Application Name**: The text you enter will be the application name in BizTalk Administration. Do **not** enter BizTalk Application 1.
+        - **Application Name**: Name of the application that needs to be installed.
 
     - **Deployment package**: Select the zip file to your application project, and select **OK**. 
 
