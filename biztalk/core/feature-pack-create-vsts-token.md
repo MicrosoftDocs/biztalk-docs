@@ -113,7 +113,7 @@ The following steps show you how to install the build agent on a single computer
 
 4. Open services.msc to see the new service. It should be running:  
 
-    :::image type="content" source="./media/feature-pack-create-vsts-token/vsts-service.png" alt-text="Services.msc shows the Azure DevOps service agent running.":::
+    ![image](https://user-images.githubusercontent.com/70714855/183795980-30a89588-3a7a-450e-ba02-c27e022cef26.png)
 
     If the service fails to start, [remove and re-configure an agent](/vsts/build-release/actions/agents/v2-windows) using an account with more privileges.
 
