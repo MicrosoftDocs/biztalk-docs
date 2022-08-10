@@ -4,7 +4,7 @@ description: Details of Line-of-Business (LOB) and Enterprise systems supported 
 author: msjaydeep
 ms.author: jaah
 manager: dougeby
-ms.date: 12/09/2020
+ms.date: 08/10/2022
 ms.topic: conceptual
 ms.prod: biztalk-server
 
@@ -58,6 +58,11 @@ This article lists the Line-of-Business (LOB) and Enterprise systems supported b
 - Oracle database 12.1
 - Oracle database 18c (18.3)
 - Oracle database 19c (19.3)
+
+> [!IMPORTANT]
+> Starting with version 18c, Oracle made some changes to the underlying metadata views that can impact clients that rely on those views, like BizTalk.  Due to these changes, there may be some scenarios where BizTalk may have consistent failures when interacting with Oracle 18c and 19c.
+> 
+> To address these scenarios, the Oracle packages used by BizTalk need to be reverted back to the Oracle 12.1 metadata format and recompiled.  Information about this metadata change and workaround are outlined in the [Oracle documentation](https://docs.oracle.com/en/database/oracle/oracle-database/18/upgrd/feature-changes-oracle-database-18c-upgrade.html#GUID-543498D6-3799-4217-9BE3-4BB8630FC32D) (opens Oracle's website).  Implementing this workaround in Oracle is fully supported by BizTalk.
 
 ### Oracle Client
 
