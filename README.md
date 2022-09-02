@@ -39,7 +39,7 @@ Contains all the installation and conceptual documentation for the BizTalk Adapt
 Contains all the conceptual documentation, including getting started, tutorials, performance, the built-in adapters, B2B, and BAM. These topics typically apply to multiple BizTalk versions.
 
 ### \dev-centers
-Contains all the stand-alone topics in [Microsoft BizTalk Server documentation](https://docs.microsoft.com/biztalk)(, including the community-written blogs.
+Contains all the stand-alone topics in [Microsoft BizTalk Server documentation](https://docs.microsoft.com/biztalk), including the community-written blogs.
 
 ### \esb-toolkit
 Contains all the topics on the ESB Toolkit, including installation.
