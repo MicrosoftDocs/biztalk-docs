@@ -4,7 +4,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 ## Contribute to your documentation
 We **want and encourage contributions** from our community (users, customers, partners) and Microsoft employees to improve your documentation. Here are some tips:
 
-* **Minor updates**: If you are making minor updates, then find the article in this repository, and make your updates. Or, go to the article in [Microsoft BizTalk Server documentation](https://docs.microsoft.com/biztalk)(, and select the **Edit** link. This opens the GitHub source for the article. Then, just use the GitHub UI within your web browser to make your updates.
+* **Minor updates**: If you are making minor updates, then find the article in this repository, and make your updates. Or, go to the article in [Microsoft BizTalk Server documentation](https://docs.microsoft.com/biztalk), and select the **Edit** link. This opens the GitHub source for the article. Then, just use the GitHub UI within your web browser to make your updates.
 
 * **Major updates**: If you are making major updates, we recommend forking the repository (making a copy to your GitHub account), and make your edits within [VS Code](https://code.visualstudio.com/download). You can then submit your changes to the Live branch, where they are reviewed, and then merged & published.
 
