@@ -33,7 +33,7 @@ These adapters are updated by the cumulative updates for HIS.
 
 | Product Version | Latest Service Pack | Latest Cumulative Update |
 | --- | --- | --- |
-| HIS 2016 | n/a | [Cumulative update 4](https://support.microsoft.com/topic/cumulative-update-package-4-for-host-integration-server-2016-0ee9c076-09fb-d890-791e-5f388a55b658) |
+| HIS 2016 | n/a | [Cumulative update 5](https://support.microsoft.com/topic/kb5012477-cumulative-update-package-5-for-host-integration-server-2016-25a3eb95-3027-448a-90b1-8193cf91b526) |
 | HIS 2013 | n/a | [Cumulative update 4](https://support.microsoft.com/topic/cumulative-update-package-4-for-host-integration-server-2013-47b40546-1d7c-dad0-9a26-297669f4bdc2) |
 |  HIS 2010 | n/a | [Cumulative update 10](https://support.microsoft.com/topic/cumulative-update-10-for-host-integration-server-2010-80589e2f-ced6-ed9b-d5e7-a9293ea08716) |
 |  HIS 2009 | n/a | [Cumulative update 7](https://support.microsoft.com/topic/cumulative-update-7-for-host-integration-server-2009-9f6f993b-58d0-6b2f-a66e-614781409a41) |
