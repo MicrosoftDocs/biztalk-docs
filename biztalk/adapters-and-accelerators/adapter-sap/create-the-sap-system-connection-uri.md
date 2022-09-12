@@ -87,8 +87,6 @@ sap://user=[USER_NAME];passwd=[PASSWORD];Client=[CLIENT];lang=[LANGUAGE];[UseSnc
 
 - D: A destination-based connection in which the connection URI specifies a destination in the saprfc.ini file that contains the connection parameters for SAP.  
 
-  > [!NOTE]
-  > Connection Type B only applies to send ports.  When configuring a receive location, choose Connection Type A or D.
 
   The following table describes how these connections are specified in the SAP connection URI.  
 
