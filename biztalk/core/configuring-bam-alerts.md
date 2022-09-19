@@ -70,9 +70,9 @@ Administrators can modify certain elements of the BAM alert framework. This topi
 
 3. Add the NS user as a member of NSRunService role in both the BAMAlerts instance and application databases.
 
-4. Grant the NS User rights on the local machine using the documentation at [https://go.microsoft.com/fwlink/?LinkId=62005](/documentation/).
+4. Grant the NS User rights on the local machine using the documentation at [https://go.microsoft.com/fwlink/?LinkId=62005](/docs/).
 
-5. Grant the NS rights to the NS database according to [https://go.microsoft.com/fwlink/?LinkId=62008](/documentation/).
+5. Grant the NS rights to the NS database according to [https://go.microsoft.com/fwlink/?LinkId=62008](/docs/).
 
 6. Grant the NS user login rights to SQL server and database access to the Primary Import database.
 
