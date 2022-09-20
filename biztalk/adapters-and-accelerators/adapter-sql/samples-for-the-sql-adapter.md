@@ -25,7 +25,7 @@ Samples for [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] are categori
   
 - WCF channel model samples  
   
-The samples are available at [BizTalk Adapter Pack 2010: SQL adapter samples](https://www.microsoft.com/download/details.aspx?id=22455). The SQL scripts for creating the objects used in the samples, such as database, tables, and procedures are included. 
+The samples are available at [BizTalk Adapter Pack 2010: SQL adapter samples](/biztalk/dev-center/biztalk-server-code-samples). The SQL scripts for creating the objects used in the samples, such as database, tables, and procedures are included. 
 
 > [!NOTE]
 > [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]

@@ -42,7 +42,6 @@ ms.author: "mandia"
 #### Best practices analyzer
 
 -   [HIS 2013 Best Practices Analyzer (BPA)](https://www.microsoft.com/download/details.aspx?id=40325)
--   [HIS 2010 Best Practices Analyzer](https://www.microsoft.com/download/details.aspx?id=1817)
 
 #### Guides and white papers
 

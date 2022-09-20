@@ -168,7 +168,7 @@ Windows Identity Foundation is included with the operating system as a **Feature
 
 ## Install SQL Server 2016 Analysis Services ADOMD.NET
 
-Download and install x86 and x64 SQL_AS_ADOMD from [Microsoft SQL Server 2016 Feature Pack download](https://www.microsoft.com/download/details.aspx?id=52676).
+Download and install x86 and x64 SQL_AS_ADOMD from [Microsoft SQL Server 2016 Feature Pack download](https://www.microsoft.com/download/details.aspx?id=56833).
 
 ## Install & configure SMTP Server (optional)
 

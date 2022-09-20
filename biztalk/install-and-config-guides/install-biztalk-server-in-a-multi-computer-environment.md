@@ -78,7 +78,7 @@ When SQL Server is installed on a remote computer:
 
 - [SQL Server Management Tools](/sql/ssms/download-sql-server-management-studio-ssms) (newer SQL versions) or SQL Server Client Tools Connectivity (older SQL versions) must be installed on the local BizTalk Server computer when SQL Server is remote. The SQL Server Tools installs the client libraries required to communicate with the remote instance of SQL Server. The version of the SQL Server tools on the local BizTalk Server computer must be the same version that is installed on the remote SQL Server.
 
-- SQL Server OLAP client must be installed on the local computer if you plan to use Analysis Services remotely. The OLAP client may be included with [SQL Server 2016 Feature Pack](https://www.microsoft.com/download/details.aspx?id=52676).
+- SQL Server OLAP client must be installed on the local computer if you plan to use Analysis Services remotely. The OLAP client may be included with [SQL Server 2016 Feature Pack](https://www.microsoft.com/download/details.aspx?id=56833).
 
 - The remote SQL Server must be running during BizTalk Server configuration.
 
@@ -110,7 +110,7 @@ See [How to maintain and troubleshoot BizTalk Server databases](https://support.
 BizTalk Server provides several tools for information workers, among them BAM. A basic understanding of the component architecture helps you plan the BizTalk Server installation to utilize the server resources available to you.
 Business Activity Monitoring (BAM) is a collection of tools used to manage aggregations, alerts, and profiles to monitor relevant business metrics, known as key performance indicators or KPIs.
 
-BAM is a module that gives you end-to-end visibility into your business processes to provides information about the status and results of various operational processes and transactions. You can use the BAM output to address problem areas and resolve issues within your business. For more information about BAM life cycle, see Business Activity Monitoring (BAM) poster at [BizTalk Server BAP posters](https://www.microsoft.com/download/details.aspx?id=56123).
+BAM is a module that gives you end-to-end visibility into your business processes to provides information about the status and results of various operational processes and transactions. You can use the BAM output to address problem areas and resolve issues within your business. For more information about BAM life cycle, see [Business Activity Monitoring (BAM)](/biztalk/core/business-activity-monitoring-bam).
 
 BAM consists of the following layers:
 

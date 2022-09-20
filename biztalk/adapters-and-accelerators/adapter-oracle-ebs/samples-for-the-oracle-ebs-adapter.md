@@ -26,7 +26,7 @@ Samples for [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleeb
   
 - Microsoft Office SharePoint Server samples  
   
-  The samples are available at [BizTalk Adapter Pack 2010: Oracle E-Business Suite adapter samples](https://www.microsoft.com/download/details.aspx?id=6464). The SQL scripts for creating the interface tables, concurrent programs, tables, and packages used in the samples are included. 
+  The samples are available at [BizTalk Adapter Pack 2010: Oracle E-Business Suite adapter samples](/biztalk/dev-center/biztalk-server-code-samples). The SQL scripts for creating the interface tables, concurrent programs, tables, and packages used in the samples are included. 
   
 > [!NOTE]
 > [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]
