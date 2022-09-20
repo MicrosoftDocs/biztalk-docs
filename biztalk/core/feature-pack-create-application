@@ -1,0 +1,36 @@
+---
+title: Operation Name : Update BizTalk application
+description: In Azure DevOps, create a release definition to deploy the BizTalk Server application
+ms.custom: ""
+ms.date: "9/20/2022"
+ms.prod: "biztalk-server"
+ms.reviewer: ""
+
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+author: MandiOhlinger
+ms.author: abkumar
+manager: "anneta"
+---
+
+
+# OperationName: Create BizTalk application
+
+
+### Create new BizTalk Server Appication
+    :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-create-operation.PNG" alt-text="Create BizTalk Server application as a deployment task for Azure DevOps in Visual Studio.":::
+
+
+    Deploys a new application. If the application already exists, it uninstalls the current applications (full stop), and installs the new application.
+
+### Parameters 
+
+**Deployment package:**  Path of the zip file to your application project
+
+## Advanced Options
+
+
+:::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-create-advanced.PNG" alt-text="Advanced options in Create BizTalk Server application as a deployment task for Azure DevOps in Visual Studio.":::
+
+**Start Application:** Lets the user decide if the application should be started. By default, the application is started once it is deployed. If this option is unchecked, application will not be started.
