@@ -26,11 +26,16 @@ manager: "anneta"
 
 ### Parameters 
 
-**Deployment package:**  Path of the zip file to your application project
+**Deployment package:**  Path of the zip file to your application project. This is a mandatory parameter.
 
 ## Advanced Options
 
 
 :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-create-advanced.PNG" alt-text="Advanced options in Create BizTalk Server application as a deployment task for Azure DevOps in Visual Studio.":::
 
+These are optional parameters:
+
 **Start Application:** Lets the user decide if the application should be started. By default, the application is started once it is deployed. If this option is unchecked, application will not be started.
+
+
+**Add application references:** Takes a comma-separated list of referenced applications. These references are created after the deployment of application is completed.
