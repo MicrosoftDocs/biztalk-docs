@@ -21,7 +21,9 @@ manager: "anneta"
 
 :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-install-operation.PNG" alt-text="Update BizTalk Server application as a deployment task for Azure DevOps in Visual Studio."::: 
 
-Installs the application MSI on the server. Please note that the application must already be deployed to the BizTalk Server Group. If it’s a new application, or is being updated, please choose either Create or Update operation as applicable
+Installs the application MSI on the server. Refer to [Install the applications](../core/how-to-install-a-biztalk-application.md) for details.
+
+Please note that the application must already be deployed to the BizTalk Server Group. If it’s a new application, or is being updated, please choose either Create or Update operation as applicable
 
 ### Parameters 
 

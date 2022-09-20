@@ -111,9 +111,8 @@ The following steps show you how to install the build agent on a single computer
 
         :::image type="content" source="./media/feature-pack-create-vsts-token/azure-devops-agent-powershell-install.png" alt-text="Agent install completes using PowerShell in Azure DevOps.":::
 
-4. Open services.msc to see the new service. It should be running:  
+4. Open services.msc to see the new service. The service **Azure Pipeline Agent** should be running.  
 
-    :::image type="content" source="./media/feature-pack-create-vsts-token/vsts-service.png" alt-text="Services.msc shows the Azure DevOps service agent running.":::
 
     If the service fails to start, [remove and re-configure an agent](/vsts/build-release/actions/agents/v2-windows) using an account with more privileges.
 
