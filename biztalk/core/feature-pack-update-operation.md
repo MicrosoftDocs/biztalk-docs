@@ -36,4 +36,4 @@ Deploys a new application. If the application already exists, it uninstalls the 
 
 
 **Stop referenced application(s):** 
-Lets the user decide if application(s) that refer to the application being updated should be stopped during the update. By default, referenced applications are stopped during the deployment and started at the end of it. This option can be unchecked if referenced application(s) need not stop.
+Lets the user decide if application(s) that refer to the application being updated should be stopped during the update. By default, referenced applications are stopped during the deployment and started at the end of it. If this option is unchecked, the referenced application(s) will not be stopped during update operation.

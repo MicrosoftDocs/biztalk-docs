@@ -122,6 +122,6 @@ You signed into your Azure DevOps account, and created a security token. This se
 
 ## Next steps
 
-[Step 3: Create the build and release definitions](feature-pack-add-build-release-definitions.md)
+[Step 3: Create the build definitions](feature-pack-add-build-definitions.md)
 
 [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md)
