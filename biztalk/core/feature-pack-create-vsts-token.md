@@ -2,7 +2,7 @@
 title: Step 2 - Create VSTS token and install agent | Microsoft Docs
 description: Create the VSTS security access token, clone your VSTS project into Visual Studio, and install the build agent to automate deployment of your BizTalk Server projects
 ms.custom: ""
-ms.date: "05/24/2021"
+ms.date: "09/20/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -66,7 +66,7 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 > [!NOTE]
 > The build agent is installed on the BizTalk development computer. If using deployment groups, the build agent is installed on all the BizTalk servers you want to deploy to. Also, use these same steps to add a build computer, which might be different than the BizTalk development computer.
 > 
-> Optionally, you can build BizTalk projects using the Azure Pipelines agent pool, instead of the Build Agent. To use the Azure Pipelines agent pool, skip this section, and go to [Step 3: Create the build and release definition](feature-pack-add-build-release-definitions.md).
+> Optionally, you can build BizTalk projects using the Azure Pipelines agent pool, instead of the Build Agent. To use the Azure Pipelines agent pool, skip this section, and go to [Step 3: Create the build and release definition](feature-pack-add-build-definitions.md).
 
 The following steps show you how to install the build agent on a single computer. For details on using deployment groups, see [Deployment groups](/vsts/build-release/concepts/definitions/release/deployment-groups/index).
 

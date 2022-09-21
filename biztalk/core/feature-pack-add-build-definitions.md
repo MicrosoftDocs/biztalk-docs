@@ -2,7 +2,7 @@
 title: Step 3 - Create the build definitions | Microsoft Docs
 description: In Azure DevOps, create a build definition to build the projects within your git or TFS repository, then create a release definition to deploy the BizTalk Server application
 ms.custom: ""
-ms.date: "9/20/2023"
+ms.date: "9/20/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

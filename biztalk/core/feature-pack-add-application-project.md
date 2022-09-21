@@ -2,7 +2,7 @@
 title: Step 1 - Add Application project and update json | Microsoft Docs
 description: Add the BizTalk Server Application project in Visual Studio, and update the BizTalkServerInventory.json file with the DLLs, binding files, and deployment sequence of your applications - Visual Studio Team Services
 ms.custom: "biztalk-2020"
-ms.date: "10/19/2020"
+ms.date: "9/20/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -159,5 +159,6 @@ In your BizTalk project, you added a BizTalk Application project (.btaproj). Thi
 ## Next steps
 
 [Step 2: Create the Azure DevOps token](feature-pack-create-vsts-token.md)  
-[Step 3: Create the build and release definitions](feature-pack-add-build-release-definitions.md)  
+[Step 3: Create the build definitions](feature-pack-add-build-definitions.md) 
+[Step 4: Create the release definitions](feature-pack-release-definitions.md) 
 [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md)

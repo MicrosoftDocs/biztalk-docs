@@ -1,5 +1,5 @@
 ---
-title: Operation Name : Update BizTalk application
+title: Operation Name : Create BizTalk application
 description: In Azure DevOps, create a release definition to deploy the BizTalk Server application
 ms.custom: ""
 ms.date: "9/20/2022"

@@ -47,6 +47,6 @@ We show you how to setup Azure DevOps with [!INCLUDE[btsBizTalkServerNoVersion_m
 
 [Step 2: Create the Azure DevOps token & install the build agent](feature-pack-create-vsts-token.md)
 
-[Step 3: Create the build and release definitions](feature-pack-add-build-release-definitions.md)
+[Step 3: Create the build definitions](feature-pack-add-build-definitions.md)
 
 [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md)

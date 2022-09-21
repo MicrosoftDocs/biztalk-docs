@@ -56,7 +56,7 @@ When the build succeeds, the release definition deploys your application to your
 
       - **Update an existing BizTalk Application**: Appends changes, such as schemas, to an already running application. It does not require a full redeploy of the application. 
 
-        Details: [Update a Biztalk applications](../core/feature-pack-update-application.md)
+        Details: [Update a Biztalk applications](../core/feature-pack-update-operation.md)
 
       - **Install BizTalk Server Application**: Installs the application MSI on the server. 
 
