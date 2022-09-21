@@ -160,5 +160,5 @@ In your BizTalk project, you added a BizTalk Application project (.btaproj). Thi
 
 [Step 2: Create the Azure DevOps token](feature-pack-create-vsts-token.md)  
 [Step 3: Create the build definitions](feature-pack-add-build-definitions.md) 
-[Step 4: Create the release definitions](feature-pack-release-definitions.md) 
+[Step 4: Create the release definitions](feature-pack-release-definition.md) 
 [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md)
