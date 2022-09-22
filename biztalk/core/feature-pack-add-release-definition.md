@@ -47,36 +47,33 @@ When the build succeeds, the release definition deploys your application to your
 
     If **BizTalk Server Application Deployment** isn't listed, then install it at [Deploy BizTalk Application](https://marketplace.visualstudio.com/items?itemName=ms-biztalk.deploy-biztalk-application).
 
-7. Select the **Deploy** task, and enter the values:
+7. Select the **Deploy** task. 
 
-    - **Operation Name**: Your options:
+8. Select the **Operation Name** from the list and configure the respective parameters. Your options are:
+
+    :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-list-of-operations.PNG" alt-text="List of operations for BizTalk deployment task for Azure DevOps in Visual Studio.":::
 
       - **Create new BizTalk Application**: Deploys a new application. If the application already exists, it uninstalls the current applications (full stop), and installs the new application. If continuous integration is enabled, it automatically redeploys the application when it is updated in the repository.   
-      Details: [Create new Biztalk applications](../core/feature-pack-create-application.md)
 
       - **Update an existing BizTalk Application**: Appends changes, such as schemas, to an already running application. It does not require a full redeploy of the application. 
 
-        Details: [Update a Biztalk applications](../core/feature-pack-update-operation.md)
-
       - **Install BizTalk Server Application**: Installs the application MSI on the server. 
 
-        Details: [Install a Biztalk applications](../core/feature-pack-install-application.md)
+        #### **Details: [List of deployment operations](../core/feature-pack-list-of-deployment-operations.md.md)**
 
-    - **Application Name**: The text you enter will be the application name in BizTalk Administration. Do **not** enter BizTalk Application 1.
 
-    - **Deployment package**: Select the zip file to your application project, and select **OK**. 
 
-8. Select the **Agent phase** task. Select the **Default** Agent queue. **Save** your changes.
+9. Select the **Agent phase** task. Select the **Default** Agent queue. **Save** your changes.
 
-9. Select **Release** > **Create release**:  
+10. Select **Release** > **Create release**:  
 
     :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-create-release.png" alt-text="Create the release for Azure DevOps in the BizTalk Server project in Visual Studio.":::
 
-10. Select **Queue**. Check the status by clicking the release link. If it fails, the error displays. If it succeeds, the application is added to the BizTalk Administration console. 
+11. Select **Queue**. Check the status by clicking the release link. If it fails, the error displays. If it succeeds, the application is added to the BizTalk Administration console. 
 
 ## What you did
 
-In VSTS, you created a build definition that builds your application within Git or Team Foundation Version Control (whatever you chose). When changes are made within the source control, the changes are automatically detected, and you can push them. After the build completes, you created a release definition that deploys the application to BizTalk Server, which you can see in BizTalk Server Administration.
+In VSTS, you created a release definition that deploys the application to BizTalk Server, which you can see in BizTalk Server Administration.
 
 ## Next steps
 
