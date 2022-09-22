@@ -1,6 +1,6 @@
 ---
 title: List of deployment operations
-description: In Azure DevOps, create a release definition to deploy the BizTalk Server application
+description: List of operations available in Azure DevOps task to deploy the BizTalk Server application
 ms.custom: ""
 ms.date: "9/20/2022"
 ms.prod: "biztalk-server"
@@ -56,7 +56,7 @@ Deploys a new application. If the application already exists, it uninstalls the 
 
 ### Advanced Options
 
-:::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-update-advanced.PNG" alt-text="Advanced options for update BizTalk Server application as a deployment task for Azure DevOps in Visual Studio.":::
+:::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-update-advanced.PNG" alt-text="Advanced options for update operation in deloyment task for Azure DevOps in Visual Studio.":::
 
 
 **Stop referenced application(s):** 
@@ -75,4 +75,6 @@ Please note that the application must already be deployed to the BizTalk Server 
 
 **Application Name:** Name of the application that needs to be installed.
 
-    Note: Deployment Package Path paramter should not be used. This parameter has been kept to maintain backward compatibility with earlier version(s). Will be removed going forward.
+```
+Note: Deployment Package Path paramter should not be used. This parameter has been kept to maintain backward compatibility with earlier version(s). Will be removed going forward.
+````

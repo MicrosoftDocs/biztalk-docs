@@ -59,7 +59,7 @@ When the build succeeds, the release definition deploys your application to your
 
       - **Install BizTalk Server Application**: Installs the application MSI on the server. 
 
-        #### **Details: [List of deployment operations](../core/feature-pack-list-of-deployment-operations.md.md)**
+        #### **Details: [List of deployment operations](../core/feature-pack-list-of-deployment-operations.md)**
 
 
 
