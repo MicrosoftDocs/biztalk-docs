@@ -92,5 +92,5 @@ In VSTS, you created a build definition that builds your application within Git 
 
 ## Next steps
 
-[Step 4 - Create Azure DevOps release definition](feature-pack-add-release-definition.md).
+[Step 4 - Create Azure DevOps release definition](feature-pack-add-release-definitions.md).
 [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md)

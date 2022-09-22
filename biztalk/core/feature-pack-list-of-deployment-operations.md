@@ -18,7 +18,7 @@ manager: "anneta"
 # List of deployment operations
 
 
-## Create new BizTalk Server Appication
+## Create new BizTalk Server Application
 
 :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-create-operation.PNG" alt-text="Create BizTalk Server application as a deployment task for Azure DevOps in Visual Studio.":::
 
@@ -42,7 +42,7 @@ manager: "anneta"
 
 
 
-## Update new BizTalk Server Appication
+## Update BizTalk Server Application
 
 :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-update-operation.PNG" alt-text="Update BizTalk Server application as a deployment task for Azure DevOps in Visual Studio.":::
 
@@ -63,9 +63,9 @@ Deploys a new application. If the application already exists, it uninstalls the 
 Lets the user decide if application(s) that refer to the application being updated should be stopped during the update. By default, referenced applications are stopped during the deployment and started at the end of it. If this option is unchecked, the referenced application(s) will not be stopped during update operation.
 
 
-## Install BizTalk Server Appication
+## Install BizTalk Server Application
 
-:::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-install-operation.PNG" alt-text="Update BizTalk Server application as a deployment task for Azure DevOps in Visual Studio."::: 
+:::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-install-operation.PNG" alt-text="Install BizTalk Server application as a deployment task for Azure DevOps in Visual Studio."::: 
 
 Installs the application MSI on the server. Refer to [Install the applications](../core/how-to-install-a-biztalk-application.md) for details.
 
