@@ -23,7 +23,7 @@ manager: "anneta"
 :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-create-operation.PNG" alt-text="Create BizTalk Server application as a deployment task for Azure DevOps in Visual Studio.":::
 
 
- Deploys a new application. If the application already exists, it uninstalls the current applications (full stop), and installs the new application.
+ Deploys a new application. If the application already exists, it uninstalls the current applications (full stop), and installs the new application. If continuous integration is enabled, it automatically redeploys the application when it is updated in the repository.  
 
 ### Parameters 
 

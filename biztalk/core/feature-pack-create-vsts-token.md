@@ -66,7 +66,7 @@ Complete [Step 1 - Add Application project and update json](feature-pack-add-app
 > [!NOTE]
 > The build agent is installed on the BizTalk development computer. If using deployment groups, the build agent is installed on all the BizTalk servers you want to deploy to. Also, use these same steps to add a build computer, which might be different than the BizTalk development computer.
 > 
-> Optionally, you can build BizTalk projects using the Azure Pipelines agent pool, instead of the Build Agent. To use the Azure Pipelines agent pool, skip this section, and go to [Step 3: Create the build and release definition](feature-pack-add-build-definitions.md).
+> Optionally, BizTalk projects can be built with the Azure Pipelines agent pool instead of the Build Agent. To use the Azure Pipelines agent pool, skip this section, and go to [Step 3: Create the build and release definition](feature-pack-add-build-definition.md).
 
 The following steps show you how to install the build agent on a single computer. For details on using deployment groups, see [Deployment groups](/vsts/build-release/concepts/definitions/release/deployment-groups/index).
 
@@ -122,6 +122,6 @@ You signed into your Azure DevOps account, and created a security token. This se
 
 ## Next steps
 
-[Step 3: Create the build definitions](feature-pack-add-build-definitions.md)
-
+[Step 3: Create the build definition](feature-pack-add-build-definition.md)
+[Step 4: Create the release definition](feature-pack-add-release-definition.md) 
 [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md)

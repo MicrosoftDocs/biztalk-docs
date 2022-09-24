@@ -53,13 +53,13 @@ When the build succeeds, the release definition deploys your application to your
 
     :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-list-of-operations.PNG" alt-text="List of operations for BizTalk deployment task for Azure DevOps in Visual Studio.":::
 
-      - **Create new BizTalk Application**: Deploys a new application. If the application already exists, it uninstalls the current applications (full stop), and installs the new application. If continuous integration is enabled, it automatically redeploys the application when it is updated in the repository.   
+      - **Create new BizTalk Application** 
 
-      - **Update an existing BizTalk Application**: Appends changes, such as schemas, to an already running application. It does not require a full redeploy of the application. 
+      - **Update an existing BizTalk Application**
 
-      - **Install BizTalk Server Application**: Installs the application MSI on the server. 
+      - **Install BizTalk Server Application**
 
-        #### **Details: [List of deployment operations](../core/feature-pack-list-of-deployment-operations.md)**
+        #### **Details of the operations : [List of deployment operations](../core/feature-pack-list-of-deployment-operations.md)**
 
 
 
@@ -73,8 +73,8 @@ When the build succeeds, the release definition deploys your application to your
 
 ## What you did
 
-In VSTS, you created a release definition that deploys the application to BizTalk Server, which you can see in BizTalk Server Administration.
+In Azure DevOps, you created a release definition that deploys the application to BizTalk Server, which you can see in BizTalk Server Administration.
 
 ## Next steps
 
-At this point, all steps are completed. If you prefer, you can create environmental tokens within your BizTalk XML binding file, and create variables within VSTS that match the environmental tokens. See [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md) for the details. 
+At this point, all steps are completed. If you prefer, you can create environmental tokens within your BizTalk XML binding file, and create variables within Azure DevOps that match the environmental tokens. See [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md) for the details. 

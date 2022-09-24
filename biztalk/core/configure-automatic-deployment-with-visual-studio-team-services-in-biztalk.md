@@ -2,7 +2,7 @@
 title: "Configure automatic deployment with Visual Studio Team Services | Microsoft Docs"
 description: Install BizTalk Feature Pack to use application lifecycle management with Azure DevOps to deploy your applications to different BizTalk environments
 ms.custom: "biztalk-2020"
-ms.date: "01/10/2020"
+ms.date: "09/20/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 
@@ -47,8 +47,8 @@ We show you how to setup Azure DevOps with [!INCLUDE[btsBizTalkServerNoVersion_m
 
 [Step 2: Create the Azure DevOps token & install the build agent](feature-pack-create-vsts-token.md)
 
-[Step 3: Create the build definitions](feature-pack-add-build-definitions.md)
+[Step 3: Create the build definition](feature-pack-add-build-definition.md)
 
-[Step 3: Create release definitions](feature-pack-add-release-definitions.md)
+[Step 4: Create the release definitions](feature-pack-add-release-definition.md)
 
 [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md)

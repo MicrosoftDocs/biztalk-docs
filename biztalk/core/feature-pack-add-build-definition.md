@@ -88,9 +88,9 @@ Complete [Step 2 - Create Azure DevOps token and install agent](feature-pack-cre
 
 ## What you did
 
-In VSTS, you created a build definition that builds your application within Git or Team Foundation Version Control (whatever you chose). When changes are made within the source control, the changes are automatically detected, and you can push them. 
+In Azure DevOps, you created a build definition that builds your application within Git or Team Foundation Version Control (whatever you chose). When changes are made within the source control, the changes are automatically detected, and you can push them. 
 
 ## Next steps
 
-[Step 4 - Create Azure DevOps release definition](feature-pack-add-release-definitions.md).
+[Step 4 - Create Azure DevOps release definition](feature-pack-add-release-definition.md).
 [Configure environmental tokens and variables](configure-environmental-tokens-and-variables-for-automatic-deployment.md)
