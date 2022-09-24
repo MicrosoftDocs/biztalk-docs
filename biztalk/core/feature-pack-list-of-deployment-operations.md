@@ -47,7 +47,7 @@ manager: "anneta"
 :::image type="content" source="./media/feature-pack-add-build-release-definitions/azure-devops-update-operation.PNG" alt-text="Update BizTalk Server application as a deployment task for Azure DevOps in Visual Studio.":::
 
 
-Deploys a new application. If the application already exists, it uninstalls the current applications (full stop), and installs the new application.
+ Appends changes, such as schemas, to an already running application. It does not require a full redeploy of the application.
 
 ### Parameters 
 
