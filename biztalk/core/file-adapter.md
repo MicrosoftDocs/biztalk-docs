@@ -27,7 +27,7 @@ The File adapter transfers files into and out of Microsoft BizTalk Server. The F
 Use the File receive adapter to read messages from files, and submit them to the server. The receive adapter reads the file, and creates a BizTalk Message object, so that BizTalk Server can process the message. While reading from the file, the adapter locks the file to ensure that no modifications can be made to the file content.  
   
 > [!NOTE] 
-> The File receive adapter does not pick up read-only files or system files.  
+> The File receive adapter does not pick up read-only files or system files. To improve performance, make sure to have file mask which does not include these files.  
   
  The File receive adapter reads the messages from files on local file systems or on network shares. When the specified location on a network share is unavailable due to network problems, the receive adapter retries the read operation (the number of retries is configurable in the BizTalk Server Administration console). After the message has been read and successfully accepted by the BizTalk Messaging Engine, the receive adapter deletes the file from the file system or network share. If the message was read but the pipeline did not successfully process the message, the adapter puts the message in the suspended queue and then deletes the file from the file system or network share. If the File receive adapter cannot submit or suspend the message to the MessageBox database, it does not delete the original file from the file system or network share.  
   
