@@ -25,7 +25,7 @@ Samples for [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] are ca
 - WCF channel model samples  
 
   
-The samples are available at [BizTalk Adapter Pack 2010: Oracle Database adapter samples](/biztalk/dev-center/biztalk-server-code-samples). The SQL scripts for creating the tables and packages used in the samples are included. 
+The samples are available at [BizTalk Adapter Pack 2010: Oracle Database adapter samples](../../dev-center/biztalk-server-code-samples.md). The SQL scripts for creating the tables and packages used in the samples are included. 
 
 > [!NOTE]
 > [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]
