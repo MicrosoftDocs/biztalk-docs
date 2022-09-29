@@ -35,7 +35,7 @@ manager: "anneta"
 - Run Visual Studio with Administrative privileges
 
 > [!TIP]
-> You can download the required tutorial files at [Tutorial 1: Enterprise Application Integration](/biztalk/core/tutorial-1-enterprise-application-integration).
+> You can download the required tutorial files at [Tutorial 1: Enterprise Application Integration](./tutorial-1-enterprise-application-integration.md).
 
 ## Open the solution with administrative rights  
   

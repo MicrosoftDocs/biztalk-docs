@@ -25,7 +25,7 @@ Samples for [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] are ca
 - [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] samples  
 
 
-The samples are available at [BizTalk Adapter Pack 2010: Siebel adapter samples](/biztalk/dev-center/biztalk-server-code-samples). 
+The samples are available at [BizTalk Adapter Pack 2010: Siebel adapter samples](../../dev-center/biztalk-server-code-samples.md). 
 
 > [!NOTE]
 > [!INCLUDE[files-need-updated](../../includes/files-need-updated.md)]

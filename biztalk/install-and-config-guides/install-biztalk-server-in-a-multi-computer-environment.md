@@ -110,7 +110,7 @@ See [How to maintain and troubleshoot BizTalk Server databases](https://support.
 BizTalk Server provides several tools for information workers, among them BAM. A basic understanding of the component architecture helps you plan the BizTalk Server installation to utilize the server resources available to you.
 Business Activity Monitoring (BAM) is a collection of tools used to manage aggregations, alerts, and profiles to monitor relevant business metrics, known as key performance indicators or KPIs.
 
-BAM is a module that gives you end-to-end visibility into your business processes to provides information about the status and results of various operational processes and transactions. You can use the BAM output to address problem areas and resolve issues within your business. For more information about BAM life cycle, see [Business Activity Monitoring (BAM)](/biztalk/core/business-activity-monitoring-bam).
+BAM is a module that gives you end-to-end visibility into your business processes to provides information about the status and results of various operational processes and transactions. You can use the BAM output to address problem areas and resolve issues within your business. For more information about BAM life cycle, see [Business Activity Monitoring (BAM)](../core/business-activity-monitoring-bam.md).
 
 BAM consists of the following layers:
 
