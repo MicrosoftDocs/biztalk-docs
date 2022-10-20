@@ -2,6 +2,9 @@
   "build": {
     "content": [
       {
+        "files": ["breadcrumb/toc.yml"]
+      },
+      {
         "files": [
           "**/**.md",
           "**/**.yml"
@@ -32,11 +35,10 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/host-integration-server/breadcrumb/toc.json",
+      "breadcrumb_path": "/his/breadcrumb/toc.json",
       "layout": "Conceptual",
       "titleSuffix": "Host Integration Server",
       "uhfHeaderId": "MSDocsHeader-His",
-      "extendBreadcrumb": true
     },
     "fileMetadata": {
       "author": {"troubleshooting/*.md": "christopherhouser"},
