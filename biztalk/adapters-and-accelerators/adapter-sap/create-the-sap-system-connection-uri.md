@@ -128,6 +128,7 @@ sap://user=[USER_NAME];passwd=[PASSWORD];Client=[CLIENT];lang=[LANGUAGE];[UseSnc
 | ListenerProgramId |          (R)          |                                                                                  Specifies the program id for an rfc server connection. This parameter is optional; however, if an rfc server connection is desired and LISTENERDEST is not specified or no gateway service is specified by the destination in the saprfc.ini file, then LISTENERPROGRAMID must contain a valid gateway service.                                                                                   |
 |    RfcSdkTrace    |          All          | Optional parameter that specifies whether RFC library tracing is enabled. The value can be True or False; if True, RFC Library tracing is enabled. The default is False.<br /><br /> The level of tracing enabled by the RfcSdkTrace parameter depends upon the environment variable RFC_TRACE.<br /><br /> -   If RFC_TRACE not present, or is set to 0, then the minimum level of tracing is enabled.<br />-   You can set RFC_TRACE to 1 or 2 to increase the level of tracing. |
 |     AbapDebug     |          All          |                                                                                             Optional parameter that specifies whether ABAP debugging from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] is enabled. The value can be True or False; if True, ABAP debugging is enabled. The default is False. If AbapDebug is True, the SAP GUI is opened.                                                                                             |
+| SAPROUTER | All | Optional parameter for SAProuter when it is used for connections through a firewall. This parameter is a list of host names and service names/port numbers in the following format: /H/hostname/S/portnumber. |
 
  The parameters in the query string are SAP parameters and their values are defined by SAP. For more information about these parameters please see your SAP documentation.  
 
@@ -156,6 +157,7 @@ sap://Client=800;lang=EN@A/YourSAPHOST/00
 |Message Server|Message Server Service|MsServ (query string)|  
 |Message Server|R/3 System Name|Conndetail2 (host information connection type B)|  
 |Misc|Connection Type|Connection Type (host information: A, B, or D)|  
+|Misc|SAP Router|SAPROUTER (query string)|  
 |RFC Server|Destination Name|ListenerDest (query string)|  
 |RFC Server|Gateway Host|ListenerGwHost (query string)|  
 |RFC Server|Gateway Service|ListenerGwServ (query string)|  
