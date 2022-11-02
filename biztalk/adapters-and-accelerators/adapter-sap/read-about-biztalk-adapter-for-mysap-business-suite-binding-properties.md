@@ -245,12 +245,12 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces several bin
   - **Typed** (default) specifies that the IDoc message should be parsed and represented as a strongly-typed [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] message.
   - **Rfc** specifies that the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] should pass the incoming RFC call as a [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] message with RFC parameters.
 
-- **UseNCoConnectionPoolSettings** binding property: Enables the control of SAP .NET Connector (NCo) connection pool parameters at a finer granularity. This property indicates whether the values that are assigned to NCoPoolSize and MaxPoolWaitTime should override the default values that are set by the adapter based on the WCF connection pool configuration properties. By default, it is set to False. If set to True, the new SAP NCo connection pool properties override the default values that are set by the adapter, and the IDLE_TIMEOUT and IDLE_CHECK_TIME NCo client parameters will be set to the IdleConnectionTimeout value.
+- **UseNCoConnectionPoolSettings** binding property: Enables the control of SAP .NET Connector (NCo) connection pool parameters at a finer granularity. This property indicates whether the values that are assigned to **NCoPoolSize** and **MaxPoolWaitTime** should override the default values that are set by the adapter based on the WCF connection pool configuration properties. By default, it is set to **false**. If set to **true**, the new SAP NCo connection pool properties override the default values that are set by the adapter, and the IDLE_TIMEOUT and IDLE_CHECK_TIME NCo client parameters will be set to the IdleConnectionTimeout value.
 
   - **Category**: SAP NCo Connection Pool
   - **.NET Type**: bool (System.Boolean)
 
-- **NCoPoolSize** binding property: Corresponds to the POOL_SIZE SAP NCo client connection parameter. It represents the maximum number of SAP NCo connections that are kept in the NCo connection pool. By default, it is set to the same value as the MaxConnectionsPerSystem property in the Connection category.
+- **NCoPoolSize** binding property: Corresponds to the POOL_SIZE SAP NCo client connection parameter. It represents the maximum number of SAP NCo connections that are kept in the NCo connection pool. By default, it is set to the same value as the **MaxConnectionsPerSystem** property in the Connection category.
 
   - **Category**: SAP NCo Connection Pool
   - **.NET Type**: int (System.Int32)
