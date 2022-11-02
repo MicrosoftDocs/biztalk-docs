@@ -174,7 +174,7 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces several bin
 
   By default, the SAP client library (librfc32u.dll) supports a maximum of 100 connections to the SAP system. If you exceed this number of connections, an exception will be thrown by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. For this reason, you should not set **MaxConnectionsPerSystem** to a value greater than the number of connections supported by the SAP client library. You can increase the number of connections that the SAP client library supports by setting the environment variable, CPIC_MAX_CONV. You must reboot your computer after setting this variable for the change to take effect.
 
-- **RfcAllowStartProgram** binding property: Specifies the external programs that the RFC client library can start, if required by an RFC partner. For example, if you are invoking an RFC that internally invokes a program on the computer running the adapter client, you must specify the name of that program for this binding property.
+- **RfcAllowStartProgram** binding property: Specifies the programs that the RFC client library can start, if required by an RFC partner. For example, if you are invoking an RFC that internally invokes a program on the computer running the adapter client, you must specify the name of that program for this binding property.
 
   - **Category**: Connection
   - **.NET Type**: String
@@ -244,6 +244,21 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces several bin
   - **String** specifies that the IDoc message should be represented as a single, string field in the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] message.
   - **Typed** (default) specifies that the IDoc message should be parsed and represented as a strongly-typed [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] message.
   - **Rfc** specifies that the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] should pass the incoming RFC call as a [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] message with RFC parameters.
+
+- **UseNCoConnectionPoolSettings** binding property: Enables the control of SAP .NET Connector (NCo) connection pool parameters at a finer granularity. This property indicates whether the values that are assigned to NCoPoolSize and MaxPoolWaitTime should override the default values that are set by the adapter based on the WCF connection pool configuration properties. By default, it is set to False. If set to True, the new SAP NCo connection pool properties override the default values that are set by the adapter, and the IDLE_TIMEOUT and IDLE_CHECK_TIME NCo client parameters will be set to the IdleConnectionTimeout value.
+
+  - **Category**: SAP NCo Connection Pool
+  - **.NET Type**: bool (System.Boolean)
+
+- **NCoPoolSize** binding property: Corresponds to the POOL_SIZE SAP NCo client connection parameter. It represents the maximum number of SAP NCo connections that are kept in the NCo connection pool. By default, it is set to the same value as the MaxConnectionsPerSystem property in the Connection category.
+
+  - **Category**: SAP NCo Connection Pool
+  - **.NET Type**: int (System.Int32)
+
+- **MaxPoolWaitTime** binding property: Corresponds to the MAX_POOL_WAIT_TIME SAP NCo connection parameter. It represents the maximum amount of time in milliseconds that an NCo connection request waits after the peak connection limit is reached. By default, it is set to 0 milliseconds.
+
+  - **Category**: SAP NCo Connection Pool
+  - **.NET Type**: int (System.Int32)
 
 - **SncLibrary** binding property: Specifies the location of the SNC library on your computer. If the PATH environment variable contains the directory in which the library resides, you only have to supply the filename of the library; otherwise you must supply the full path. The **SncLibrary** binding property surfaces an SAP connection property. For more information see the SAP documentation.
 
