@@ -174,7 +174,7 @@ The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces several bin
 
   By default, the SAP client library (librfc32u.dll) supports a maximum of 100 connections to the SAP system. If you exceed this number of connections, an exception will be thrown by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]. For this reason, you should not set **MaxConnectionsPerSystem** to a value greater than the number of connections supported by the SAP client library. You can increase the number of connections that the SAP client library supports by setting the environment variable, CPIC_MAX_CONV. You must reboot your computer after setting this variable for the change to take effect.
 
-- **RfcAllowStartProgram** binding property: Specifies the programs that the RFC client library can start, if required by an RFC partner. For example, if you are invoking an RFC that internally invokes a program on the computer running the adapter client, you must specify the name of that program for this binding property.
+- **RfcAllowStartProgram** binding property: Specifies the external programs that the RFC client library can start, if required by an RFC partner. For example, if you are invoking an RFC that internally invokes a program on the computer running the adapter client, you must specify the name of that program for this binding property.
 
   - **Category**: Connection
   - **.NET Type**: String
