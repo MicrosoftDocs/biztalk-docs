@@ -18,6 +18,7 @@ manager: "dougeby"
 # Install and configure HIS 2020
 
 This installation guide includes basic steps to use the Host Integration Server 2020 setup installation and configuration.
+Now, I can make any changes I want.
 
 ## Before you begin
 
