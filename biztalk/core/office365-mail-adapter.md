@@ -99,6 +99,26 @@ You can use a simple File receive port and location to send messages to your Off
 4. Start the File receive location and the Office 365 Outlook Email adapter send port.
 5. Copy **Office365Mail.xml** sample message into the receive folder (C:\\Temp\\In\\). The send port sends the XML file as mail body to your Office 365 Outlook Email. Files specified in the Attachments tab of the port configuration are attached to the email.
 
+### Additional configuration in the send handler
+
+By default, the Office 365 Outlook Email adapter sends 20 emails at a time across all its send ports in the host instance. You can adjust this number by setting the **Maximum concurrent sends** property in the Send handler properties for the Office 365 Outlook Email adapter. This property can be used for instance to fine-tune the message throughput when the email service provider limits the number of messages that can be sent over a period of time. Use the following procedure to change the value:
+
+1. In the BizTalk Server Administration console, expand BizTalk Server Administration, expand BizTalk Group, expand Platform Settings, and then expand Adapters.
+
+2. In the expanded adapter list, click Office365 Outlook Email. 
+
+3. In the right pane right-click the send handler that you want to configure, and then click Properties.
+
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Outlook Email Send Handler Configuration in BizTalk Server](../core/media/office365-mail-send-handler-properties.png)
+
+4. Set the **Maximum concurrent sends** property.
+
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Outlook Email Send Handler Properties Configuration in BizTalk Server](../core/media/office365-mail-send-handler-properties-parameters_cr.png)
+
+5. Select **Ok** to save your changes.
+
 ## Receive email using a receive port
 
 1. In the BizTalk Server Administration console, right-click **Receive Ports**, select **New**, and select **One-Way receive port**.
