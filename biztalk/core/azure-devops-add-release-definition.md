@@ -62,7 +62,7 @@ When the build succeeds, the release definition deploys your application to your
 
     - **Install BizTalk Server Application**
 
-9. Configure the relevant operation parameters. See: [List of deployment operations](../core/feature-pack-list-of-deployment-operations.md).
+9. Configure the relevant operation parameters. See: [List of deployment operations](../core/azure-devops-list-of-deployment-operations.md).
 
 10. Select the **Agent phase** task. Select the **Default** Agent queue. **Save** your changes.
 
