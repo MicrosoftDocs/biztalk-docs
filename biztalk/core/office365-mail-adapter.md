@@ -101,7 +101,7 @@ You can use a simple File receive port and location to send messages to your Off
 
 ### Additional configuration in the send handler
 
-By default, the Office 365 Outlook Email adapter sends 20 emails at a time across all its send ports in the host instance. You can adjust this number by setting the **Maximum concurrent sends** property in the Send handler properties for the Office 365 Outlook Email adapter. This property can be used for instance to fine-tune the message throughput when the email service provider limits the number of messages that can be sent over a period of time. Use the following procedure to change the value:
+By default, the Office 365 Outlook Email adapter sends 20 emails at a time across all its send ports in the host instance. You can adjust this number by setting the **Maximum concurrent sends** property in the Send handler properties for the Office 365 Outlook Email adapter. Use the following procedure to change the value:
 
 1. In the BizTalk Server Administration console, expand BizTalk Server Administration, expand BizTalk Group, expand Platform Settings, and then expand Adapters.
 
