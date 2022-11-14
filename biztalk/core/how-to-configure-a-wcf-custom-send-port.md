@@ -170,8 +170,7 @@ You can configure a WCF-Custom send port either programmatically or by using the
     - **XML**
     - **Base64**: Base64 encoding
     - **Hex**: Hexadecimal encoding
-    - **String**: Text encoding
-    - UTF-8
+    - **String**: Text encoding; UTF-8
     - **XML**: The WCF adapters create the BizTalk message body with the outer XML of the node selected by the body path expression in **InboundBodyPathExpression**.
   - **Description**: Specify the type of encoding that the WCF-Custom send adapter uses to decode for the node identified by the body path specified in **InboundBodyPathExpression**. This property is required if the **InboundBodyLocation** property is set to **UseBodyPath**. This property is valid only for solicit-response ports.
 
@@ -229,13 +228,13 @@ You can configure a WCF-Custom send port either programmatically or by using the
 
     The **ReferencedBinding** property must not contain the binding configuration used in the **BindingConfiguration** property.
 
-  - **Description**: Specify the binding configurations referenced by the **bindingConfiguration** attribute of the `<issuer>` element for the **wsFederationHttpBinding** and **customBinding**, which indicates the Security Token Service (STS) that issues security tokens. For more information about the `<issuer>` element, see the topic, "`<issuer>`" at [WCF configuration schema: <issuer>](/dotnet/framework/configure-apps/file-schema/wcf/issuer).
+  - **Description**: Specify the binding configurations referenced by the **bindingConfiguration** attribute of the `<issuer>` element for the **wsFederationHttpBinding** and **customBinding**, which indicates the Security Token Service (STS) that issues security tokens. For more information about the `<issuer>` element, see [WCF configuration schema: `<issuer>`](/dotnet/framework/configure-apps/file-schema/wcf/issuer).
 
     The binding information including the `<issuer>` element for the **wsFederationHttpBinding** and **customBinding** can be configured through the **BindingConfiguration** property of the WCF-Custom and the WCF-CustomIsolated adapters. All of the referenced binding configurations for this property must be placed in the form of the `<bindings>` element.
 
      You cannot configure this property on the **Binding** tab in the transport properties dialog box. You can import and export this property through the **Import/Export** tab in the transport properties dialog box of the WCF-Custom and WCF-CustomIsolated adapters.
  
-     The **bindingConfiguration** attribute of the <issuer> element must refer a valid binding name in this property.
+     The **bindingConfiguration** attribute of the `<issuer>` element must refer a valid binding name in this property.
  
      The `<issuer>` element in the referenced binding configurations can also refer to a different binding configuration in this property if this reference chain does not make a circular dependency.
 
