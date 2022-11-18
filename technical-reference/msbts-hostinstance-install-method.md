@@ -34,6 +34,9 @@ String containing the password for the host.
 *GrantLogOnAsService*  
 Boolean determining whether the 'Log On As Service' privilege should be automatically granted to the specified logon user or not. This flag only has effect when the [HostType](msbts-hostinstance-hosttype-property-wmi.md) property is set to In-process.
 
+*IsGmsaAccount*  
+Boolean determining whether the logon account is a Group Managed Service Account.  If true, the password can be empty.  This parameter is only available for BizTalk 2020 and above.
+
 ## Return Value
 
 This method returns an HRESULT indicating whether the method completed successfully.
