@@ -10,18 +10,20 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a0d310c2-4429-40b4-a36c-4b8391424cc4
 caps.latest.revision: 16
-author: "christopherhouser"
+author: "hcamposu"
 ms.author: "hisdocs"
-manager: "anneta"
+manager: "hcamposu"
 ---
 # What is HIS
 
 ## Overview
-Microsoft Host Integration Server (HIS) technologies and tools enable enterprise organizations to integrate existing IBM host systems, programs, messages and data with new Microsoft server applications. HIS allows IT administrators to securely and efficiently connect new systems to existing systems using industry-standard High Performance Routing (HPR) and Transmission Control Protocol (TCP) over Internet Protocol (IP). This reduces operating expenses and total cost of ownership while supporting existing and new computing workloads.  
+Microsoft Host Integration Server (HIS) technologies and tools enable enterprise organizations to integrate existing IBM host systems, programs, messages and data with Azure applications. HIS allows IT administrators to securely and efficiently connect new systems to existing systems using industry-standard High Performance Routing (HPR) and Transmission Control Protocol (TCP) over Internet Protocol (IP). This reduces operating expenses and total cost of ownership while supporting existing and new computing workloads.
+ 
+Host Integration Server empowers enterprise developers to deliver new applications more quickly and with less custom coding. Developers who use Visual Studio can be more productive than those who use IBM host development tools and technologies because they do not require knowledge of host systems and infrastructure. HIS empowers knowledge workers and decision-makers to analyze and report vital information faster. They can access data in host data sources using tools such as Power BI. This eliminates the need to schedule host developers to write programs to extract and convert host structures.
+
+Host Integration Server also supports enterprises who are conducting legacy modernization by providing technologies for hybrid connectivity and applications coexistence. Enterprises who decide to migrate from their Mainframes or Midranges to the Azure Cloud, can use the Azure Logic Apps connectors to support their transition to the Cloud.
   
-Host Integration Server empowers enterprise developers to deliver new applications more quickly and with less custom coding. Developers who use Visual Studio  and the .NET Framework  can be more productive than those who use IBM host development tools and technologies because they do not require knowledge of host systems and infrastructure. HIS empowers knowledge workers and decision-makers to analyze and report vital information faster. They can access data in host data sources from business intelligence tools within Microsoft Office SharePoint and SQL Server. This eliminates the need to schedule host developers to write programs to extract and convert host structures.  
-  
- The following sections provide an overview of the five HIS technology areas.  
+ The following sections provide an overview of the five HIS technology areas.
   
 -   Network Integration
   
@@ -34,10 +36,10 @@ Host Integration Server empowers enterprise developers to deliver new applicatio
 -   Security Integration
   
 ##  <a name="Network"></a> Network Integration  
- Network integration services connect Windows application infrastructure to existing IBM mainframe and midrange Systems Network Architecture (SNA). SNA Services operate as a gateway function, supporting logical unit types (LU0, LU1, LU2, LU3, and LU6.2), connecting across an SNA Advanced Peer to Peer Network (APPN), as a Low Entry Network (LEN) node using traditional Data Link Control (DLC) connectivity, or as a Branch Network node using High Performance Routing over Internet Protocol (HPR/IP). Administrators can deploy SNA applications on Windows computers using the HIS client that connects to the HIS server via TCP/IP, supporting required SNA device types.  
+ Network integration services connect Azure applications and infrastructure to existing IBM mainframe and midrange Systems Network Architecture (SNA). SNA Services operate as a gateway function, supporting logical unit types (LU0, LU1, LU2, LU3, and LU6.2), connecting across an SNA Advanced Peer to Peer Network (APPN), as a Low Entry Network (LEN) node using traditional Data Link Control (DLC) connectivity, or as a Branch Network node using High Performance Routing over Internet Protocol (HPR/IP). Administrators can deploy SNA applications on Windows computers using the HIS client that connects to the HIS server via TCP/IP, supporting required SNA device types.  
   
   
- HIS Network Integration services connect desktops, devices and servers to existing host systems, while reducing network infrastructure complexity and costs.  
+ HIS Network Integration services connect workstations, devices and virtual machines to existing host systems, while reducing network infrastructure complexity and costs.  
   
  Host Print Service provides server-based 3270 and 5250 printer emulation, allowing host applications to connect to Windows Server  printers, enabling centralized control and sharing of resources. Resynchronization Services support standard Synchronization Level 2 (Sync Level 2), also known as the Two-Phase Commit (2PC) protocol, for distributed transactions over SNA DLC, HPR/IP and TCP/IP. TN3270 Service, with Secure Sockets Layer (SSL) and Transport-Layer Security (TLS), allows deployment of simple terminal and printer emulation programs, while offloading the host system from supporting non-native TCP/IP-to-SNA protocol conversion. 
   
@@ -50,7 +52,7 @@ Host Integration Server empowers enterprise developers to deliver new applicatio
   
  HIS Data Integration solutions and technologies enable direct data access to DB2, Informix and host file systems, plus remote DB2 client access to Microsoft SQL Server.  
   
- SQL Server  tools, including Management Studio and Business Intelligence Development Studio, help IT professionals and enterprise developers to deliver data warehouse solutions based on information stored in DB2 databases, Informix databases, and host file systems, for on-line transaction processing and decision-support. SharePoint Designer helps IT professionals to integrate DB2 and host file system data with collaboration and business intelligence websites based on SharePoint Server. SQL Server PowerPivot Add-in for Excel and SQL Server Reporting Services Report Builder enable self-serve business intelligence for streamlining the integration of data from multiple sources. The BizTalk Adapter for DB2 and BizTalk Adapter for Host Files are based on the two HIS ADO.NET providers, offering intuitive wizards to configure the static solicit and response send and receive ports.  
+ SQL Server tools, including Management Studio and Business Intelligence Development Studio, help IT professionals and enterprise developers to deliver data warehouse solutions based on information stored in DB2 databases, Informix databases, and host file systems, for on-line transaction processing and decision-support. Power BI helps IT professionals to integrate DB2 and host files system data to provide coherent, visually immersive, and interactive insights. 
   
  The Microsoft Service for DRDA (Distributed Relational Database Architecture) is an Application Server (AS) that enables DRDA Application Requester (AR) clients, such as IBM DB2 for z/OS and DB2 for i5/OS, to execute static SQL statements mapped to SQL Server stored procedures. The DRDA Service provides host-initiated data integration essential to enterprises during a phased workload migration, or for daily operations in support of remote batch or business intelligence solutions.  
   
