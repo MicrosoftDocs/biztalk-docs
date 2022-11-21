@@ -5,12 +5,12 @@ ms.custom: ""
 ms.date: 01/03/2018
 ms.prod: "host-integration-server"
 ms.topic: "article"
-author: "christopherhouser"
+author: "hcamposu"
 ms.author: "hisdocs"
-manager: "anneta"
+manager: "hcamposu"
 ---
 
-# Get started with network integration - HIS
+# Getting started with network integration - HIS
 
 ## [Hardware and connectivity](hardware-connectivity-planning.md)
 
