@@ -40,7 +40,7 @@ Using standard SQL commands and a configuration wizard built into BizTalk Server
 See [BizTalk Adapter for DB2](/host-integration-server/core/biztalk-adapter-for-db2-configuration1).
 
 ## BizTalk Adapter for WebSphere MQ
-The Microsoft BizTalk Adapter for WebSphere MQ (Client-Based) uses IBM WebSphere MQ Client (Base-Client) and IBM WebSphere MQ Extended Transactional Client (Extended-Client) APIs to communicate with remote MQSeries Queue Managers. The adapter enables BizTalk Server to communicate directly with MQSeries Queue Managers deployed on non-Windows operating systems, without needing to deploy and manage WebSphere MQ Server for Windows, to efficiently exchange messages with line-of-business applications across the enterprise. 
+The Microsoft BizTalk Adapter for MQ (Client-Based) uses IBM and Microsoft's MQ Client (Base-Client) and IBM MQ Extended Transactional Client (Extended-Client) APIs to communicate with remote MQSeries Queue Managers. The adapter enables BizTalk Server to communicate directly with MQSeries Queue Managers deployed on non-Windows operating systems, without needing to deploy and manage WebSphere MQ Server for Windows, to efficiently exchange messages with line-of-business applications across the enterprise. 
 
 When used with the Base-Client, the adapter provides non-transactional message processing, guaranteeing only the delivery of messages. It is the responsibility of the application on the receiving end to handle any duplicate messages. When used with the Extended-Client, the adapter provides transactional message processing to guarantee once-and-only-once delivery of messages.
 
