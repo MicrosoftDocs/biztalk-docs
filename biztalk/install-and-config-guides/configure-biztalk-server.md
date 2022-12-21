@@ -208,7 +208,7 @@ The Business Activity Monitoring Tools include:
 
 BAM alerts require BAM tools to be enabled.
 
-BAM Alerts service requires SQL_AS_ADOMD client to run. Install SQL Server 2016 Analysis Services ADOMD from [SQL Server 2016 Feature Pack](https://www.microsoft.com/download/details.aspx?id=52676).
+BAM Alerts service requires SQL_AS_ADOMD client to run. Install SQL Server 2016 Analysis Services ADOMD from [SQL Server 2016 Feature Pack](https://www.microsoft.com/download/details.aspx?id=56833).
 
 1. Select **BAM Alerts**.
 2. Configure the following:
