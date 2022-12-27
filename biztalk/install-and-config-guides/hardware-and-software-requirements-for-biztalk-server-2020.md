@@ -36,6 +36,8 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 
 ## Software requirements & supported versions
 
+When applying a cumulative update some of the required software versions may change. Check the information in the KB article for the cumulative update to see which software versions are updated.
+
 - **Microsoft Windows**: Required. Supported versions include:
   - Windows Server 2019
   - Windows Server 2016
