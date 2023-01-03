@@ -3,7 +3,7 @@ title: Hardware and Software Requirements for BizTalk Server 2020 | Microsoft Do
 description: Describes the software prerequisites and supported version lists in order to install BizTalk Server 2020.
 ms.custom: biztalk-2020
 ms.prod: biztalk-server
-ms.date: 04/07/2020
+ms.date: 01/03/2023
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -36,7 +36,7 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 
 ## Software requirements & supported versions
 
-When applying a cumulative update some of the required software versions may change. Check the information in the KB article for the cumulative update to see which software versions are updated.
+When applying a cumulative update, some of the required software versions may change. To see the software versions that are updated, read the KB article for the cumulative update. For a list of cumulative updates, go to [Service Pack and cumulative update list for BizTalk Server](https://support.microsoft.com/topic/service-pack-and-cumulative-update-list-for-biztalk-server-108e5e94-4558-8b57-d5fb-45984506d56f).
 
 - **Microsoft Windows**: Required. Supported versions include:
   - Windows Server 2019
