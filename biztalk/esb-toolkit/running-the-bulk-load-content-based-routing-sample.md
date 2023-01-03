@@ -1,8 +1,8 @@
 ---
 description: "Learn more about: Running the Bulk Load Content-Based Routing Sample"
 title: "Running the Bulk Load Content-Based Routing Sample | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
+ms.custom: "devx-track-javaee-websphere"
+ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,8 +1,8 @@
 ---
 title: "Adapters in BizTalk Server | Microsoft Docs"
 description: Complete list of all available adapters in BizTalk Server, including built-in adapters, enterprise adapters, and the BizTalk Adapter Pack
-ms.custom: ""
-ms.date: "06/22/2018"
+ms.custom: "devx-track-javaee-websphere"
+ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

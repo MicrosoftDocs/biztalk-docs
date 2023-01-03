@@ -1,8 +1,8 @@
 ---
 description: "Learn more about: The ESB JMS Encoder and Decoder Components"
 title: "The ESB JMS Encoder and Decoder Components | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
+ms.custom: "devx-track-javaee-websphere"
+ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""

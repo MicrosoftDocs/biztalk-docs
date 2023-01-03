@@ -1,8 +1,8 @@
 ---
 description: "Learn more about: Using the MQSAgent COM+ Configuration Wizard"
 title: "Using the MQSAgent COM+ Configuration Wizard | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
+ms.custom: "devx-track-javaee-websphere"
+ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

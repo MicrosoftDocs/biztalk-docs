@@ -1,8 +1,8 @@
 ---
 description: "Learn more about: Prepare Your Computer for Installation"
 title: "Prepare Your Computer for Installation | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/15/2016"
+ms.custom: "devx-track-javaee-websphere"
+ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
