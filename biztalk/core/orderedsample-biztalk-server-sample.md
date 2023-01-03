@@ -1,8 +1,8 @@
 ---
 description: "Learn more about: OrderedSample (BizTalk Server Sample)"
 title: "OrderedSample (BizTalk Server Sample) | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
+ms.custom: "devx-track-javaee-websphere"
+ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 

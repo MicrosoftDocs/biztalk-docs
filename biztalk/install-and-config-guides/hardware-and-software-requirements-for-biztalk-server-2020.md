@@ -1,7 +1,7 @@
 ---
 title: Hardware and Software Requirements for BizTalk Server 2020 | Microsoft Docs
 description: Describes the software prerequisites and supported version lists in order to install BizTalk Server 2020.
-ms.custom: biztalk-2020
+ms.custom: biztalk-2020,devx-track-javaee-websphere
 ms.prod: biztalk-server
 ms.date: 01/03/2023
 ms.reviewer: ""
