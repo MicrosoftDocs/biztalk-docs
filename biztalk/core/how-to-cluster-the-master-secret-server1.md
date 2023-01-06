@@ -110,23 +110,23 @@ We recommended that you follow the instructions in this section to cluster the E
     net start entsso
     ```
 
-2.  Change the master secret server name in the SSO database to the cluster name by following these steps:
+2.  Change the master secret server name in the SSO database to the SSO network name configured within the cluster by following these steps:
 
     > [!NOTE]
-    >  The cluster name is the name defined for the network name resource that you have created in the cluster group / clustered service or application that will contain the clustered Enterprise SSO service. For example, the name may be *BIZTALKCLUSTER*.
+    >  Specify the network name resource that you have created in the same cluster role that will contain the clustered SSO resource. For example, the name may be *SSONETWORKNAME*.
 
     1.  Paste the following code in a text editor:
 
         ```
         <sso>
           <globalInfo>
-            <secretServer>BIZTALKCLUSTER</secretServer>
+            <secretServer>SSONETWORKNAME</secretServer>
           </globalInfo>
         </sso>
         ```
 
         > [!NOTE]
-        >  *BIZTALKCLUSTER* is a placeholder for the actual network name resource that is created in the cluster group / clustered service or application.
+        >  Replace *SSONETWORKNAME* with the actual network name that is created in the cluster role for SSO.
 
     2.  Save the file as an .xml file. For example, save the file as SSOCLUSTER.xml.
 
