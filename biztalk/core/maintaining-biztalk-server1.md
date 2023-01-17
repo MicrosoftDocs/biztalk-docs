@@ -1,6 +1,6 @@
 ---
-description: "Learn more about: Maintaining BizTalk Server1"
-title: "Maintaining BizTalk Server1 | Microsoft Docs"
+description: "Learn more about: Maintaining BizTalk Server"
+title: "Maintaining BizTalk Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
