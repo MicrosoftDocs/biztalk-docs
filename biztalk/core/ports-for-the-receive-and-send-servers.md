@@ -35,24 +35,24 @@ For complete information about securing your BizTalk Server deployment, see [Sam
 |BizTalk service account|POP3 Server|POP3 service|110|TCP|For the POP3 adapter to retrieve email from POP3 Server|  
 |BizTalk service account|Processing Server|Windows Message Queuing|1801|TCP|For the BizTalk Message Queuing adapter to receive and send messages to the BizTalk runtime|  
 |Connection string|SQL adapter target|SQL Server|1433|TCP|Retrieve and send messages from databases used by SQL adapter|  
-|Connection string|SQL adapter target|DTC|135|TCP|Transacted connection to SQL Server for SQL adapter|  
-|Connection string|SQL adapter target|DTC|50000-50200|TCP|Secondary RPC ports for SQL adapter **Note:**  You may need to open more secondary RPC ports depending on your server load.|  
+|Connection string|SQL adapter target|DTC|135|TCP|Transacted connection to SQL Server for SQL adapter. RPC Endpoint Manager.|  
+|Connection string|SQL adapter target|DTC|49152-65535|TCP|Secondary RPC ports for MSDTC on SQL adapter destinations **Note:**  You can change to larger dynamic port range or better use fixed port for MSDTC and EntSSO services.|  
 |BizTalk service account|SMTP/Exchange|SMTP|25|TCP|For the SMPT adapter to connect to SMTP server|  
 |Logged on user|BizTalk Management database|SQL Server|1433|TCP|To create and configure the BizTalk Management database|  
 |Logged on user|BizTalk Management database|DTC|135|TCP|Transacted connection to SQL Server to create, configure, and update the database|  
-|Logged on user|BizTalk Management database|DTC|50000-50200|TCP|Secondary RPC ports **Note:**  You may need to open more secondary RPC ports depending on your server load.|  
+|Logged on user|BizTalk Management database|DTC|49152-65535|TCP|Secondary RPC ports **Note:**  You can change to larger dynamic port range or better use fixed port for MSDTC and EntSSO services.|  
 |Logged on user|MessageBox database|SQL Server|1433|TCP|To create and configure the MessageBox database|  
 |Logged on user|MessageBox database|DTC|135|TCP|Transacted connection to SQL Server to create the host|  
-|Logged on user|MessageBox database|DTC|50000-50200|TCP|Secondary RPC ports **Note:**  You may need to open more secondary RPC ports depending on your server load.|  
+|Logged on user|MessageBox database|DTC|49152-65535|TCP|Secondary RPC ports **Note:**  You can change to larger dynamic port range or better use fixed port for MSDTC and EntSSO services.|  
 |SSO service account|SSO database|SQL Server|1433|TCP|For the Enterprise Single Sign-On service to connect to the SSO database|  
 |Logged on user|SSO database|DTC|135|TCP|Transacted connection to SQL Server to connect to the SSO database|  
-|Logged on user|SSO database|DTC|50000-50200|TCP|Secondary RPC ports **Note:**  You may need to open more secondary RPC ports depending on your server load.|  
+|Logged on user|SSO database|DTC|49152-65535|TCP|Secondary RPC ports **Note:**  You can change to larger dynamic port range or better use fixed port for MSDTC and EntSSO services.|  
 |Logged on user|Tracking database|SQL Server|1433|TCP|To create and configure the Tracking database|  
 |Logged on user|Tracking database|DTC|135|TCP|Transacted connection to SQL Server|  
-|Logged on user|Tracking database|DTC|50000-50200|TCP|Secondary RPC ports **Note:**  You may need to open more secondary RPC ports depending on your server load.|  
+|Logged on user|Tracking database|DTC|49152-65535|TCP|Secondary RPC ports **Note:**  You can change to larger dynamic port range or better use fixed port for MSDTC and EntSSO services.|  
 |Logged on user|Business Rule Engine database|SQL Server|1433|TCP|To create and configure the Business Rule Engine database|  
 |Logged on user|Business Rule Engine database|DTC|135|TCP|Transacted connection to SQL Server to create, configure, and update the database|  
-|Logged on user|Business Rule Engine database|DTC|50000-50200|TCP|Secondary RPC ports **Note:**  You may need to open more secondary RPC ports depending on your server load.|  
+|Logged on user|Business Rule Engine database|DTC|49152-65535|TCP|Secondary RPC ports **Note:**  You can change to larger dynamic port range or better use fixed port for MSDTC and EntSSO services.|  
 |Logged on user|BAM Analysis database|OLAP|2383 (SQL Server 2005 Analysis Services)|TCP|To update and retrieve information from the BAM Analysis database|  
 |Logged on user|BAM Analysis database|OLAP Server File system|445|TCP|To create the OLAP data file (.mdb) on the remote computer|  
 |Logged on user|BAM Analysis database|OLAP|2725|TCP|For data retrieval for analysis (PivotTable® reports)|  
@@ -60,7 +60,7 @@ For complete information about securing your BizTalk Server deployment, see [Sam
 |Logged on user|BizTalk Analysis database|OLAP Server File system|445|TCP|To create the OLAP data file (.mdb) on the remote computer **Note:**  The Processing Servers need to connect to this database only when you run the BizTalk Configuration Manager.|  
 |Logged on user|BizTalk Analysis database|OLAP|2725|TCP|To create and configure the database, and to retrieve data for analysis (PivotTable reports)|  
 |Single Sign-On service account|Master secret server|RPC|135|TCP|Transacted connection to SQL Server for the SSO service to connect to the master secret server|  
-|Single Sign-On service account|Master secret server|Secondary RPC|50000-50200|TCP|Secondary RPC ports for the SSO service to connect to the master secret server. **Note:**  You may need to open more secondary RPC ports depending on your server load.|  
+|Single Sign-On service account|Master secret server|Secondary RPC|49152-65535|TCP|Secondary RPC ports for the SSO service to connect to the master secret server. **Note:**  You can change to larger dynamic port range or better use fixed port for MSDTC and EntSSO services.|  
 |Service account for a BizTalk Host instance|MessageBox database|SQL Server|1433|TCP|To update and retrieve information from the database during run time operations|  
 |Service account for a BizTalk Host instance|BizTalk Management database|SQL Server|1433|TCP|To update and retrieve information from the database during run time operations|  
 |Service account for a BizTalk Host instance|SSO database|SQL Server|1433|TCP|To update and retrieve information from the database during run time operations|  
