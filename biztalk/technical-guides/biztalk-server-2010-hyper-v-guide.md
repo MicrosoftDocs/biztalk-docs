@@ -43,7 +43,7 @@ The purpose of this guide is to provide practical guidance for using Microsoft B
   >
   >  For information about how to use the Hyper-V Live Migration Feature available in Windows Server 2008 R2, see “Hyper-V: Step-by-Step Guide to Using Live Migration in Windows Server 2008 R2” at [https://go.microsoft.com/fwlink/?LinkID=139667](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd446679(v=ws.10)).
 
-- **Dynamic Data Center** – By combining Hyper-V with the Microsoft System Center suite of tools, organizations can automate virtual machine configuration and monitoring. For more information, see “System Center Virtual Machine Manager” at [https://go.microsoft.com/fwlink/?LinkID=111303](https://go.microsoft.com/fwlink/?LinkID=111303).
+- **Dynamic Data Center** – By combining Hyper-V with the Microsoft System Center suite of tools, organizations can automate virtual machine configuration and monitoring. For more information, [System Center Virtual Machine Manager](/system-center/vmm/whats-new-in-vmm).
 
   The information in this guide directly relates to the Server Consolidation and Testing and Development scenarios for Hyper-V. The other two were out of scope for this guide.
 

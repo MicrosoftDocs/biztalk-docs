@@ -43,7 +43,7 @@ Blogging with his head in the (hybrid) cloud, and his feet on-premises! Blog on 
 Nino blogs about Integration of Technologies, and anything and everything related to it.
 
 ## Eldert Grootenboer
-[Blog](https://blog.eldert.net/)  |  [Twitter](https://twitter.com/egrootenboer)
+[Twitter](https://twitter.com/egrootenboer)
 
 A focus on everything Microsoft integration, including IoT, Azure integration, and BizTalk Server. 
 
