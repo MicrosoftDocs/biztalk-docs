@@ -52,7 +52,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 
    Introduces several high-availability solutions for SQL Server 2008 that improve the availability of servers or databases.
 
-- [Chapter 15 - High Availability Options, SQL Server Resource Kit](https://go.microsoft.com/fwlink/?LinkId=24431)
+- Chapter 15 - High Availability Options, SQL Server Resource Kit
 
    The Microsoft SQL Server Resource Kit covers a wide range of administrative and deployment planning areas. Chapter 15 covers planning for fault tolerance and recovery.
 

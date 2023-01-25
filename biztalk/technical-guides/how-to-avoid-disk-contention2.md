@@ -41,7 +41,7 @@ BizTalk Server is designed as a persistent system. For high throughput scenarios
 
 - [Ruling Out Disk-Bound Problems](/previous-versions/tn-archive/aa997558(v=exchg.65)) (HYPERLINK "<https://go.microsoft.com/fwlink/?LinkId=120947>" \t "_blank"<https://go.microsoft.com/fwlink/?LinkId=120947>).
 
-- [SQL Server Predeployment I/O Best Practices](https://go.microsoft.com/fwlink/?LinkId=120948) (https://go.microsoft.com/fwlink/?LinkId=120948).
+- SQL Server Predeployment I/O Best Practices
 
 - “I/O Bottlenecks” section of [Troubleshooting Performance Problems in SQL Server 2008](/previous-versions/sql/sql-server-2008/dd672789(v=sql.100)) (https://go.microsoft.com/fwlink/?LinkID=153586).
 

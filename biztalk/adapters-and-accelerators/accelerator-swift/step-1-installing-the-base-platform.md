@@ -36,13 +36,13 @@ For the base platform, install Microsoft [!INCLUDE[btsWinSvr2k3](../../includes/
 
   - Microsoft BizTalk Server Online Help
 
-  - BizTalk Server Installation Instructions at [https://go.microsoft.com/fwlink/?LinkId=81041](https://go.microsoft.com/fwlink/?LinkId=81041).
+  - [BizTalk Server Installation Instructions](https://go.microsoft.com/fwlink/?LinkId=81041).
 
-  - Microsoft [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Web site at [https://go.microsoft.com/fwlink/?linkid=48685](https://go.microsoft.com/fwlink/?linkid=48685).
+  - Microsoft [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Web site
 
-  - Microsoft Download Center Web site at [https://go.microsoft.com/fwlink/?linkid=48686](https://go.microsoft.com/fwlink/?linkid=48686).
+  - [Microsoft Download Center Web site](https://www.microsoft.com/download)
 
-  - [!INCLUDE[btsWinUpdate](../../includes/btswinupdate-md.md)] Web site at [https://go.microsoft.com/fwlink/?linkid=48687](https://go.microsoft.com/fwlink/?linkid=48687).
+  - [!INCLUDE[btsWinUpdate](../../includes/btswinupdate-md.md)] [Web site](https://go.microsoft.com/fwlink/?linkid=48687).
 
 - To avoid virus attacks, install the platform from a CD and disconnect each server from the Internet by unplugging any cables and disabling any network adapters.
 
