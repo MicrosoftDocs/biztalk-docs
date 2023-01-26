@@ -28,7 +28,7 @@ For the base platform, install Microsoft [!INCLUDE[btsWinSvr2k3](../../includes/
 
 - Make sure that you enter the appropriate licensing information (maximum number of connections you have purchased per server). System performance can be affected by the number of available connections.
 
-- Make sure that you have installed all the software prerequisites required for a BizTalk Server installation. For more information, see the BizTalk Server Installation Instructions at [https://go.microsoft.com/fwlink/?LinkId=81041](https://go.microsoft.com/fwlink/?LinkId=81041). [Installation Guide for BizTalk 2013 R2 Accelerator for SWIFT](https://msdn.microsoft.com/library/d2b4a9f3-baeb-4fbc-9fda-5e4178832cd1).
+- Make sure that you have installed all the software prerequisites required for a BizTalk Server installation. For more information, see the BizTalk Server Installation Instructions at [Installation Guide for BizTalk 2013 R2 Accelerator for SWIFT](/biztalk/adapters-and-accelerators/accelerator-swift/install-biztalk-accelerator-for-swift).
 
 - Test all critical updates in an offline environment before installing them on your production servers.
 

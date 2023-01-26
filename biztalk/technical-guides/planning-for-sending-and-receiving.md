@@ -26,14 +26,14 @@ Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](
 -   **Transaction support** The ability to send and receive documents under the context of a distributed transaction coordinator (DTC) transaction. This functionality is required for maintaining ordered message delivery and to guarantee that documents are not duplicated or lost.
 
     > [!NOTE]
-    >  If you encounter problems with MSDTC, review the topic [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md) (https://go.microsoft.com/fwlink/?LinkID=154693).
+    >  If you encounter problems with MSDTC, review the topic [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md).
 
 -   **Two-way communication support (Request/Response or Solicit/Response)** The ability to send a document and process a response message from the destination or to receive a document and send a response message to the source.
 
 -   **In-order receive support.** The ability to publish received documents to the MessageBox database in the exact order that the documents were received.
 
     > [!NOTE]
-    >  Certain adapters can enforce ordered document delivery at the receive location level, while other adapters cannot. Ordered delivery can still be enforced at the send port level for those adapters which do not support ordered document delivery at the receive location level but doing so may incur a performance penalty. For more information about ordered delivery of messages, see the topic [Ordered Delivery of Messages](../core/ordered-delivery-of-messages.md) (https://go.microsoft.com/fwlink/?LinkId=155751).
+    >  Certain adapters can enforce ordered document delivery at the receive location level, while other adapters cannot. Ordered delivery can still be enforced at the send port level for those adapters which do not support ordered document delivery at the receive location level but doing so may incur a performance penalty. For more information about ordered delivery of messages, see the topic [Ordered Delivery of Messages](../core/ordered-delivery-of-messages.md).
 
 -   **SSO enabled.** The ability to use SSO authentication when sending or receiving documents with the adapter.
 
@@ -77,7 +77,7 @@ Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](
 |TIBCO Enterprise Message Service|Enables exchange of XML and binary data format messages between BizTalk Server and a TIBCO EMS server providing a tightly integrated and reliable application infrastructure.|4.2|
 |WebSphere MQ|Enables exchange of messages between BizTalk Server and IBM WebSphere MQ.|5.3 with Fix Pack 10 or later and 6.0 with Fix Pack 1.1 or later|
 
- For more information about the LOB adapters available with BizTalk Server, see [Adapters included with BizTalk Server 2010](https://go.microsoft.com/fwlink/?LinkId=152664) (https://go.microsoft.com/fwlink/?LinkId=152664).
+ For more information about the LOB adapters available with BizTalk Server, see [Adapters included with BizTalk Server 2010](https://go.microsoft.com/fwlink/?LinkId=152664).
 
 ## BizTalk Adapter Pack
  Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] contains WCF-based adapters to provide connectivity to LOB applications such as Oracle Database, Oracle E-Business Suite, SAP, Siebel, and SQL Server. For a list of adapters available with [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], see [BizTalk Adapter Pack](https://go.microsoft.com/fwlink/?LinkId=152665).
@@ -132,12 +132,12 @@ Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](
 ## High Availability Considerations
  High availability can be provided for most adapters by running adapter handler host instances on multiple BizTalk servers in a BizTalk group. That way, if one adapter handler host instance fails, another adapter handler host instance is available to continue processing. There are, however, exceptions to doing this. In some cases running multiple adapter handler host instances can cause problems with contention. For example contention problems can occur when running multiple instances of the POP3 and FTP adapters. In these circumstances, high availability can be provided for the adapter by running the adapter handler host instance in a clustered BizTalk host.
 
- For more information about providing high availability for an adapter handler host instance through host clustering, see [Considerations for Running Adapter Handlers within a Clustered Host](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md) (https://go.microsoft.com/fwlink/?LinkID=151284). For more information about providing high availability for BizTalk hosts, see [High Availability for BizTalk Hosts](../technical-guides/high-availability-for-biztalk-hosts.md).
+ For more information about providing high availability for an adapter handler host instance through host clustering, see [Considerations for Running Adapter Handlers within a Clustered Host](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md) . For more information about providing high availability for BizTalk hosts, see [High Availability for BizTalk Hosts](../technical-guides/high-availability-for-biztalk-hosts.md).
 
 ## Performance Considerations
  **SOAP Adapter Performance Considerations**
 
- For information about optimizing the performance of the SOAP adapter, see [Configuration Parameters that Affect Adapter Performance](../core/configuration-parameters-that-affect-adapter-performance.md) (https://go.microsoft.com/fwlink/?LinkID=154200).
+ For information about optimizing the performance of the SOAP adapter, see [Configuration Parameters that Affect Adapter Performance](../core/configuration-parameters-that-affect-adapter-performance.md).
 
  **MQSeries Adapter Performance Considerations**
 
@@ -164,7 +164,7 @@ Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](
 
   For a custom receive adapter to preserve the order of messages when submitting them to BizTalk Server, the adapter must be developed with the following functionality:
 
-- After submitting a batch of messages, your custom receive adapter should wait for the BatchComplete call back from BizTalk Server before submitting the next batch. For more details, see [Interfaces for a Batch-Supported Receive Adapter](../core/interfaces-for-a-batch-supported-receive-adapter.md) (https://go.microsoft.com/fwlink/?LinkId=155752).
+- After submitting a batch of messages, your custom receive adapter should wait for the BatchComplete call back from BizTalk Server before submitting the next batch. For more details, see [Interfaces for a Batch-Supported Receive Adapter](../core/interfaces-for-a-batch-supported-receive-adapter.md).
 
 - If a message fails in the pipeline, it should be suspended, preferably as non-resumable. Use the BTS.SuspendAsNonResumable message context property in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to flag the message appropriately.
 

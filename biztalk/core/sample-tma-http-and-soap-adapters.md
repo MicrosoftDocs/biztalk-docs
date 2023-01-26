@@ -103,7 +103,8 @@ This topic presents the threat model analysis (TMA) for the HTTP and SOAP (Web s
 |Read message bodies over HTTP|Information disclosure|2.8|We recommend that you use S/MIME to help secure the content of messages sent to and from BizTalk Server.<br /><br /> We recommend that you use Secure Sockets Layer (SSL) to help secure the transmission of data to and from BizTalk Server and between BizTalk Server components distributed across your environment.|
 |Read user credentials from message|Information disclosure<br /><br /> Elevation of privilege|2.6|When you use basic authentication, or when you do not use encryption at the message level, we recommend that you use SSL both to receive and send messages to make sure that an unauthorized person cannot read the user credentials.|
 
-## See Also
- [Threat Model Analysis](../core/threat-model-analysis.md)
- [Sample Scenarios for Threat Model Analysis](../core/sample-scenarios-for-threat-model-analysis.md)
- [Sample Architectures for Small & Medium-Sized Companies](../core/sample-architectures-for-small-medium-sized-companies.md)
+## See Also\
+
+[Threat Model Analysis](../core/threat-model-analysis.md)  
+[Sample Scenarios for Threat Model Analysis](../core/sample-scenarios-for-threat-model-analysis.md)  
+[Sample Architectures for Small & Medium-Sized Companies](../core/sample-architectures-for-small-medium-sized-companies.md)

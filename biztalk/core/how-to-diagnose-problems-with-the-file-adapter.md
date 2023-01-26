@@ -36,5 +36,5 @@ This section contains steps that can be followed to help diagnose problems with 
     >  FileMon is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this program. Use of this program is entirely at your own risk.
 
 ## See Also
- [Tools and Utilities to Use for Troubleshooting](../core/tools-and-utilities-to-use-for-troubleshooting.md)
- [Troubleshooting the File Adapter](../core/troubleshooting-the-file-adapter.md)
+[Tools and Utilities to Use for Troubleshooting](../core/tools-and-utilities-to-use-for-troubleshooting.md)  
+[Troubleshooting the File Adapter](../core/troubleshooting-the-file-adapter.md)

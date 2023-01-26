@@ -40,7 +40,7 @@ This section provides best practices for managing certificates in your Microsoft
 
 **Verify signing certificates**
 
-- Make sure you verify the signing certificates against the certificate revocation list. For more information about how to verify the signing certificates, see [How to Configure the MIME/SMIME Decoder Pipeline Component](../core/how-to-configure-the-mime-smime-decoder-pipeline-component.md) (<https://go.microsoft.com/fwlink/?LinkId=155145>) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
+- Make sure you verify the signing certificates against the certificate revocation list. For more information about how to verify the signing certificates, see [How to Configure the MIME/SMIME Decoder Pipeline Component](../core/how-to-configure-the-mime-smime-decoder-pipeline-component.md) in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Help.
 
 **Manage certificates with partners**
 
