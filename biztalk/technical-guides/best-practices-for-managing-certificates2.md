@@ -71,7 +71,7 @@ This section provides best practices for managing certificates in your Microsoft
 
 **Use the SSL Diagnostics tool to analyze SSL connection issues**
 
-- The SSL Diagnostics tool is an optional component of the IIS Diagnostics Toolkit. You can download the IIS Diagnostics Toolkit from the [Internet Information Services Diagnostics Tools](https://go.microsoft.com/fwlink/?LinkID=64426) page (https://go.microsoft.com/fwlink/?LinkID=64426).
+- The SSL Diagnostics tool is an optional component of the IIS Diagnostics Toolkit. You can download the IIS Diagnostics Toolkit from the Internet Information Services Diagnostics Tools.
 
 ## Exporting a Certificate from One BizTalk Group to Another
 

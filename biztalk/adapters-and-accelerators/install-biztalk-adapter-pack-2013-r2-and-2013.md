@@ -302,7 +302,7 @@ Complete the following steps to install the [!INCLUDE[adapterpacknoversion](../i
 
    - Data related to the enterprise application versions you are using with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].
 
-     Select **OK**. [CEIP](https://go.microsoft.com/fwlink/p/?LinkId=144699) provides more information.
+     Select **OK**. [CEIP](/dynamics-nav/customer-experience-improvement-program-and-microsoft-dynamics-nav-server) provides more information.
 
    > [!NOTE]
    >  You can always change this setting by running the Setup in Repair mode from **Programs**.

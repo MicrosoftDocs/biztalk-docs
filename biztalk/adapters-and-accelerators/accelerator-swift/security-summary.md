@@ -30,19 +30,12 @@ Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-curr
 ## More information
  For information about security best practices, see the following:
 
-- TechNet Security Resource Center:
+- TechNet Security Resource Center
 
-   [https://go.microsoft.com/fwlink/p/?LinkId=27741](https://go.microsoft.com/fwlink/p/?LinkId=27741)
-
-
-- Symantec security guide showing how to use their tools to implement the best practices described in Microsoft Security Operations Guide for [!INCLUDE[btsWin2kSvr](../../includes/btswin2ksvr-md.md)]:
-
-   [https://go.microsoft.com/fwlink/p/?LinkId=28274](https://go.microsoft.com/fwlink/p/?LinkId=28274)
+- Symantec security guide showing how to use their tools to implement the best practices described in Microsoft Security Operations Guide for [!INCLUDE[btsWin2kSvr](../../includes/btswin2ksvr-md.md)]: [here](https://go.microsoft.com/fwlink/p/?LinkId=28274)
 
 
-- Information about the Microsoft Security Notification Service:
-
-   [https://go.microsoft.com/fwlink/p/?LinkId=27744](https://go.microsoft.com/fwlink/p/?LinkId=27744)
+- Information about the [Microsoft Security Notification Service](/msrc/technical-security-notifications)
 
 
 ## See Also

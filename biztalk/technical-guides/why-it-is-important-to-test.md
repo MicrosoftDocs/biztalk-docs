@@ -40,7 +40,7 @@ Sample Logical BizTalk Message Flow
 2. Manually validate the correct content and structure of a message. Because multiple schemas are often present in a project, the messages may be a mixture of flat file and XML and may also contain cross field dependencies.
 
    > [!NOTE]
-   >  An example of this would be any project involving SWIFT messages. These are flat file messages that have cross field dependencies. That is, one field’s value depends on another – simple XSD validation will not do here; hence the SWIFT Accelerator makes use of the BizTalk Rules Engine for validation of the messages. For more information about the [SWIFT Accelerator](https://go.microsoft.com/fwlink/?LinkID=79657), see [SWIFT Accelerator](https://go.microsoft.com/fwlink/?LinkID=79657) (https://go.microsoft.com/fwlink/?LinkID=79657).
+   >  An example of this would be any project involving SWIFT messages. These are flat file messages that have cross field dependencies. That is, one field’s value depends on another – simple XSD validation will not do here; hence the SWIFT Accelerator makes use of the BizTalk Rules Engine for validation of the messages. For more information about the [SWIFT Accelerator](/biztalk/adapters-and-accelerators/accelerator-swift/microsoft-biztalk-accelerator-for-swift-documentation).
 
 3. Manually check the event logs on the BizTalk Server computers for errors.
 

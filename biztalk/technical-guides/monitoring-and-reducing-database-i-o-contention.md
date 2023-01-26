@@ -33,7 +33,7 @@ manager: "anneta"
 
   Separating the MessageBox and BizTalk Tracking databases and separating the database files and transaction log files on different physical disks are considered best practices for reducing disk I/O contention. Try to spread the disk I/O across as many physical spindles as possible. For more information about avoiding disk contention, see [How to Avoid Disk Contention](https://go.microsoft.com/fwlink/?LinkId=158809) in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Performance Optimization Guide.
 
-  You should separate the files manually after configuring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. For more information, see the [BizTalk Server Database Optimization white paper](https://go.microsoft.com/fwlink/?LinkId=101578).
+  You should separate the files manually after configuring [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. 
 
 ## See Also
  [Using the Performance Analysis of Logs (PAL) Tool](../technical-guides/using-the-performance-analysis-of-logs-pal-tool.md)

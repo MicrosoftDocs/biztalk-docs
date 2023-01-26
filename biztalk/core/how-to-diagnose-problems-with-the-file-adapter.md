@@ -20,7 +20,7 @@ This section contains steps that can be followed to help diagnose problems with 
 
 ### Run the FileMon Utility to diagnose errors that occur using the File Receive or File Send Adapter
 
-1.  Download the FileMon utility from [www.sysinternals.com](https://go.microsoft.com/fwlink/?LinkId=66235).
+1.  Download the FileMon utility from [www.sysinternals.com](/sysinternals/).
 
 2.  Install the Filemon utility on the server that hosts the folder or share that is being read from or written to by the File Adapter.
 
