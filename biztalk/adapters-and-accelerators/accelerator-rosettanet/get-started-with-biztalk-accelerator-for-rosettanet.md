@@ -19,7 +19,7 @@ ms.author: "mandia"
 
 ---
 # Get started with BizTalk Accelerator for RosettaNet
-The Microsoft BizTalk Accelerator for RosettaNet (BTARN) streamlines the development and deployment of RosettaNet standards-based integration solutions. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] supports the RosettaNet Implementation Framework (RNIF) versions 1.1 and 2.0.01. RNIF is an open network application framework that enables business partners to collaboratively run RosettaNet Partner Interface Processes (PIPs). See [GS1 US](https://go.microsoft.com/fwlink/?LinkID=33859) for more information about RosettaNet standard.
+The Microsoft BizTalk Accelerator for RosettaNet (BTARN) streamlines the development and deployment of RosettaNet standards-based integration solutions. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] supports the RosettaNet Implementation Framework (RNIF) versions 1.1 and 2.0.01. RNIF is an open network application framework that enables business partners to collaboratively run RosettaNet Partner Interface Processes (PIPs). See GS1 US for more information about RosettaNet standard.
 
  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] also supports the exchange of Chemical Data Exchange (CIDX) Chem eStandards.
 
@@ -51,8 +51,8 @@ Go to [Private process tutorial](private-process-tutorial.md)
 
 
 ## Tutorial Links
-[Loopback tutorial](loopback-tutorial.md)
-[Double action tutorial](double-action-tutorial.md)
+[Loopback tutorial](loopback-tutorial.md)  
+[Double action tutorial](double-action-tutorial.md)  
 [Private process tutorial](private-process-tutorial.md)
 
 ## See also

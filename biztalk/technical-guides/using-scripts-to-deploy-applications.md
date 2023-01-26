@@ -22,9 +22,9 @@ You should use scripts to deploy BizTalk applications where possible. Scripting 
 
  See the following topics for more information about scripting BizTalk application deployments:
 
--   [Deploying and Managing BizTalk Applications](../core/deploying-and-managing-biztalk-applications.md) (https://go.microsoft.com/fwlink/?LinkId=154210)
+-   [Deploying and Managing BizTalk Applications](https://go.microsoft.com/fwlink/?LinkId=154210)
 
--   [Understanding BizTalk Server Application Deployment](https://go.microsoft.com/fwlink/?LinkId=101599) (https://go.microsoft.com/fwlink/?LinkId=101599)
+-   [Understanding BizTalk Server Application Deployment](/biztalk/core/understanding-biztalk-application-deployment-and-management)
 
     > [!NOTE]
     >  This latter article also applies to BizTalk Server.

@@ -60,7 +60,7 @@ Developers working on Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../i
 
   These schemas are available at \<*drive*\>:\Program Files\\Microsoft  BizTalk \<version\> Accelerator for RosettaNet\SDK\Schemas.
 
-  You can add more schemas by downloading PIPs from the RosettaNet Web site at [https://go.microsoft.com/fwlink/?linkid=33859](https://go.microsoft.com/fwlink/?linkid=33859). For more information, see [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md).
+  You can add more schemas by downloading PIPs from the RosettaNet Web site. For more information, see [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md).
 
 ## BizTalk Mapper
  You use BizTalk Mapper to create and customize maps that define data transformations. You use BizTalk Mapper to map transformations for both inbound and outbound RosettaNet message types.
@@ -77,7 +77,7 @@ Developers working on Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../i
  You use the BizTalk Adapter Framework with end-point adapters to integrate with partners and applications.
 
 ## See Also
- [Tools and Features of BizTalk Server and BTARN](../../adapters-and-accelerators/accelerator-rosettanet/tools-and-features-of-biztalk-server-and-btarn.md)
- [Administration and Run-Time Tools](../../adapters-and-accelerators/accelerator-rosettanet/administration-and-run-time-tools.md)
- [Analysis Tools](../../adapters-and-accelerators/accelerator-rosettanet/analysis-tools1.md)
- [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md)
+ [Tools and Features of BizTalk Server and BTARN](../../adapters-and-accelerators/accelerator-rosettanet/tools-and-features-of-biztalk-server-and-btarn.md)  
+[Administration and Run-Time Tools](../../adapters-and-accelerators/accelerator-rosettanet/administration-and-run-time-tools.md)  
+[Analysis Tools](../../adapters-and-accelerators/accelerator-rosettanet/analysis-tools1.md)  
+[Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md)
