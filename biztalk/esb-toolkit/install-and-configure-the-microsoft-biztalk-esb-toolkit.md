@@ -102,7 +102,7 @@ Starting with BizTalk Server 2013 and newer versions, [!INCLUDE[esbToolkit](../i
   
 ## Upgrade ESB Toolkit – Community Addition
 
- [In-place upgrade of ESB Toolkit 2.1 to 2.2](http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html) (http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html)
+ In-place upgrade of ESB Toolkit 2.1 to 2.2
 
 ## See also
 

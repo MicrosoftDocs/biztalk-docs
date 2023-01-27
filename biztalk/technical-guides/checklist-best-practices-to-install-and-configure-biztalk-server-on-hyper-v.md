@@ -61,7 +61,7 @@ The sections below are a summary of the installation and configuration requireme
 
   **Enlightened Guests**: It may be recommended that you use Windows Server as a guest operating system. The enlightenments decrease the CPU overhead of Windows that runs in a VM. The integration services provide additional enlightenments for I/O. Depending on the server load, it can be appropriate to host a server application in a Windows Server guest for better performance.
 
-- Whenever possible, configure a 1-1 allocation of virtual processors to available logical processors. For more information about configuring a 1-to-1 allocation of virtual processors to available logical processors see the “Optimize Processor Performance” section in [Checklist: Optimizing Performance on Hyper-V](/checklist-optimizing-performance-on-hyper-v.md).
+- Whenever possible, configure a 1-1 allocation of virtual processors to available logical processors. For more information about configuring a 1-to-1 allocation of virtual processors to available logical processors see the “Optimize Processor Performance” section in [Checklist: Optimizing Performance on Hyper-V](/biztalk/technical-guides/checklist-optimizing-performance-on-hyper-v).
 
 - Convert or migrate virtual machines running on Microsoft Virtual PC, Microsoft Virtual Server, or VMWare ESX Server to run on Hyper-V.
 
@@ -87,4 +87,4 @@ When installing BizTalk Server in a virtual environment, the same practices shou
 
 - Install and run the BizTalk Health Monitor to analyze and validate the configuration of the BizTalk Server MessageBox database. Download the [BizTalk Health Monitor](https://www.microsoft.com/download/details.aspx?id=43716).
 
-- Verify that CPU is being properly allocated to guest operating systems running in Hyper-V. See **Measuring Processor Performance** at [Checklist: Measuring Performance on Hyper-V](/checklist-measuring-performance-on-hyper-v.md).
+- Verify that CPU is being properly allocated to guest operating systems running in Hyper-V. See **Measuring Processor Performance** at [Checklist: Measuring Performance on Hyper-V](/biztalk/technical-guides/checklist-measuring-performance-on-hyper-v).

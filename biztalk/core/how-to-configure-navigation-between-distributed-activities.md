@@ -37,7 +37,7 @@ Distributed navigation allows users to view activities that exist in remote BAM 
 2.  The administrator on computer 1 enables distributed navigation by running the enable reference command, as follows: **bm.exe enable-reference -TargetServer:** computer2 **-TargetDatabase:\<target database\>**
 
     > [!NOTE]
-    >  Typically the account used between departments for BAM Web services access will be different on different computers. Therefore, in this scenario the administrator of computer 1 must add the Web services Impersonation account of computer 1 to the BAM_ManagementWS role of the BAM Primary Import database for computer 2. For more information, see "Viewing and Modifying Role Memberships" at [https://go.microsoft.com/fwlink/?LinkId=66990](https://go.microsoft.com/fwlink/?LinkId=66990).
+    >  Typically the account used between departments for BAM Web services access will be different on different computers. Therefore, in this scenario the administrator of computer 1 must add the Web services Impersonation account of computer 1 to the BAM_ManagementWS role of the BAM Primary Import database for computer 2. For more information, see "Viewing and Modifying Role Memberships".
 
     > [!NOTE]
     >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.
@@ -51,5 +51,5 @@ Distributed navigation allows users to view activities that exist in remote BAM 
 >  Distributed navigation can be enabled in both directions. Following the procedure above on both computers that are sharing remote activities enables business users of the portals on either computer to use distributed navigation.
 
 ## See Also
- [Managing Distributed Navigation of Remote Activities](../core/managing-distributed-navigation-of-remote-activities.md)
- [BAM Portal](../core/bam-portal.md)
+ [Managing Distributed Navigation of Remote Activities](../core/managing-distributed-navigation-of-remote-activities.md)  
+[BAM Portal](../core/bam-portal.md)

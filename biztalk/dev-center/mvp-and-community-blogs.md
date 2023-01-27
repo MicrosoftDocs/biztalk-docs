@@ -28,7 +28,7 @@ Martin has been "doing" Integration for over 15 years, and is one of the admin t
 Ramblings about all things integration, including BizTalk Server, API Management, Visual Studio Team Services (VSTS), Service Bus, Logic Apps, and more.
 
 ## Sam Cogan
-[Blog](http://samcogan.com)  |  [Twitter](https://twitter.com/samcogan)
+[Blog](https://samcogan.com/)  |  [Twitter](https://twitter.com/samcogan)
 
 Sam's blog focuses on Microsoft Azure, and cloud technology in general. Sam also discusses new and exciting developments in the Azure space with a focus on automation, DevOps, and configuration management in the cloud. 
 
@@ -48,7 +48,7 @@ Nino blogs about Integration of Technologies, and anything and everything relate
 A focus on everything Microsoft integration, including IoT, Azure integration, and BizTalk Server. 
 
 ## Aram Koukia
-[Blog](https://koukia.ca)  |  [Twitter](https://twitter.com/aramkoukia)
+[Blog](https://koukia.ca)  
 
 Aram has been building software since 2001. And when not creating software, Aram is hiking, playing soccer, tennis, reading, and anything to do with TV shows.
 
@@ -58,12 +58,12 @@ Aram has been building software since 2001. And when not creating software, Aram
 Contains wealth of information related to Microsoft Integration technologies mainly around BizTalk Server. There are over 800 blog articles written by Microsoft MVP's and  the BizTalk360 team. 
 
 ## Edward Kuo 
-[Blog](http://edwardkuo.imas.tw/)  |  [Twitter](https://twitter.com/Chia_Chi_Kuo)
+
 
 Edward's blog is about Azure, Visual Studio Team Services (VSTS), and includes guidance on enterprise solutions.
 
 ## Steve Melan 
-[Blog](http://stevemelan.wordpress.com)  |  [Twitter](https://twitter.com/SteveMelan)
+[Blog](https://stevemelan.wordpress.com/)  |  [Twitter](https://twitter.com/SteveMelan)
 
 Steve is an HIS and mainframe expert, and blogs about BizTalk, Host Integration Server, and IBM Heritage Integration.
 
@@ -103,6 +103,6 @@ Kent has a strong focus on Microsoft Integration technologies, including Azure L
 Steef-Jan is all in on Azure, integration, and data science, and has over 15 years experience in a wide variety of scenarios. He is very active in the community as a blogger, TechNet Wiki author, book author, and global public speaker. 
 
 ## Sjoukje Zaal
-[Blog](http://sjoukjezaal.com/)  |  [Twitter](https://twitter.com/sjoukjezaal)
+[Blog](https://sjoukjezaal.com/)  |  [Twitter](https://twitter.com/sjoukjezaal)
 
-Sjoukje's blog is all about Azure, and focuses on Azure security, and application integration. Also a co-founder for [SP&C NL](http://spcnl.nl/), a Dutch community website with articles on Azure, Office 365, and SharePoint. 
+Sjoukje's blog is all about Azure, and focuses on Azure security, and application integration. Also a co-founder for SP&C NL, a Dutch community website with articles on Azure, Office 365, and SharePoint. 

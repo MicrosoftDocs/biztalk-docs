@@ -54,7 +54,7 @@ Message Flow Overview
    - The orchestration is bound to a two way solicit-response send port which invokes the downstream calculator service.
 
    > [!NOTE]
-   >  The downstream calculator service is based upon Windows Communication Foundation samples described at [https://go.microsoft.com/fwlink/?LinkId=141762](/previous-versions/dotnet/netframework-3.5/ms751450(v=vs.90)). The Windows Communication Foundation samples are available for download at [https://go.microsoft.com/fwlink/?LinkId=87352](https://go.microsoft.com/fwlink/?LinkId=87352).
+   >  The downstream calculator service is based upon Windows Communication Foundation samples described [here](/previous-versions/dotnet/netframework-3.5/ms751450(v=vs.90)).
 
 4. The calculator service consumes the request from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and returns a response to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solicit-response send port.
 

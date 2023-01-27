@@ -27,7 +27,7 @@ The first, second, and fourth tests use the **Add Namespace** component located 
 |      Property       |  Type   |                          Value                           |
 |---------------------|---------|----------------------------------------------------------|
 | ExtractionNodeXPath | Static  |                         (empty)                          |
-|    NamespaceBase    | Static  |    http://schemas.microsoft.biztalk.esb.test.com/test    |
+|    NamespaceBase    | Static  |    `http://schemas.microsoft.biztalk.esb.test.com/test`    |
 |   NamespacePrefix   | Static  |                         esbTest                          |
 |      Separator      | Static  |                            /                             |
 |       XPaths        | Dynamic | /CanonicalOrder/@OrderID&#124;/CanonicalOrder/@OrderDate |

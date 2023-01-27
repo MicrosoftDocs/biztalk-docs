@@ -91,7 +91,7 @@ In the previous step you created a [!INCLUDE[btsBizTalkServerNoVersion](../inclu
       |**Issuer key**|Specify the issuer key.|
 
       > [!NOTE]
-      >  You can get the values for the Queue URL, ACS URL, issuer name and key from the [Windows Azure CTP Management Portal](https://go.microsoft.com/fwlink/p/?LinkId=202886).
+      >  You can get the values for the Queue URL, ACS URL, issuer name and key from the Windows Azure CTP Management Portal.
 
    8. Click **OK** until you exit all the dialog boxes.
 

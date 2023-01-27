@@ -25,7 +25,7 @@ This section provides a step-by-step walkthrough on how to invoke a REST endpoin
 https://api.datamarket.azure.com/oakleaf/US_Air_Carrier_Flight_Delays_Incr/On_Time_Performance
 ```
 
- If you enter this URL in the address bar of a Web browser, you are prompted for credentials to access the resource. After you have logged into the [Windows Azure Marketplace](https://go.microsoft.com/fwlink/p/?LinkId=257913), you can get the credentials from the **My Account** tab of the web page. The credentials are listed against the **Customer ID** (user name) and **Primary Account Key** (password) labels.
+ If you enter this URL in the address bar of a Web browser, you are prompted for credentials to access the resource. After you have logged into the Windows Azure Marketplace, you can get the credentials from the **My Account** tab of the web page. The credentials are listed against the **Customer ID** (user name) and **Primary Account Key** (password) labels.
 
  In this tutorial, you use the resource URL and the credentials to configure a two-way **WCF-WebHttp** send port. The receive pipeline of the two-way send port receives the response message with the flight details and publishes the message to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] message box database. You configure a FILE send port that subscribes to all the messages published by the WCF-WebHttp send port. The FILE send port consumes the message from the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and copies it to a file location.
 

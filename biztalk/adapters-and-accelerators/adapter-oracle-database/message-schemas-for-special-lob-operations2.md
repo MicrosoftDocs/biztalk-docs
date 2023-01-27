@@ -36,7 +36,7 @@ The following table shows the structure of the request and response messages for
 |     UpdateLOB      | `<UpdateLOB xmlns="[VERSION]/[SCHEMA]/Table/[TABLE_NAME]">   <LOB_COLUMN>[COL_NAME]</LOB_COLUMN>   <FILTER>[WHERE_clause]</LOB_COLUMN>   <Stream>[LOB_DATA]</Stream> </UpdateLOB>` |                                                                                            The LOB data in the<br /><br /> - column identified by the LOB_COLUMN element, and the<br /><br /> - row that matches the where clause specified in the FILTER element<br /><br /> is updated with the base64Binary encoded data in the stream.<br /><br /> The where clause should match only a single row. If there is more than one matching row, an exception is thrown.<br /><br /> **Note** The UpdateLOB operation replaces all of the data in the specified column and row.                                                                                             |
 | UpdateLOB Response |                                              `<UpdateLOBResponse xmlns="[VERSION]/[SCHEMA]/Table/[TABLE_NAME]"> </UpdateLOBResponse>`                                              |                                                                                                                                                                                                                                                                                                                       An empty response is returned.                                                                                                                                                                                                                                                                                                                       |
 
- [VERSION] = The message version string; for example, "<http://Microsoft.LobServices/OracleDB/2007/03>".  
+ [VERSION] = The message version string; for example, "`http://Microsoft.LobServices/OracleDB/2007/03`".  
 
  [SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.  
 
@@ -61,7 +61,7 @@ The following table shows the structure of the request and response messages for
 |UpdateLOB|`[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/UpdateLOB`|`http:/Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER/UpdateLOB`|  
 |UpdateLOB Response|`[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/UpdateLOB/response`|`http:/Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER/UpdateLOB/response`|  
 
- [VERSION] = The message version string; for example, "<http://Microsoft.LobServices.OracleDB/2007/03>".  
+ [VERSION] = The message version string; for example, "`http://Microsoft.LobServices.OracleDB/2007/03`".  
 
  [SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.  
 

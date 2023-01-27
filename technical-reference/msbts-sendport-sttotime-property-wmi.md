@@ -28,7 +28,7 @@ datetime STToTime;
 
 This property is read-write.
 
-For more information about the format of the datetime value, see the Platform SDK: Windows Management Instrumentation documentation at https://go.microsoft.com/fwlink/?LinkID=24855.
+For more information about the format of the datetime value, see the Platform SDK: Windows Management Instrumentation documentation [here](/windows/win32/wmisdk/wmi-start-page).
 
 ## Requirements
 
