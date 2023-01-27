@@ -72,7 +72,7 @@ When you build your project, or solution, the results will appear in the Output 
  When you construct a message, you specify all the message variables. Then you make assignments to the message or its parts. If part of a specific message assignment is included in a separate **Construct Message** shape, you may receive the initialization error message.
 
 ### Resolution
- To resolve this behavior, make sure that you include all parts of a specific message assignment in the same **Construct Message** shape. For a related support issue, see KB article [870606](https://support.microsoft.com/?kbid=870606).
+ To resolve this behavior, make sure that you include all parts of a specific message assignment in the same **Construct Message** shape.
 
  You can also resolve this behavior by creating your message in a **Construct** shape before using an instance of it in an **Expression** shape. For example, the following code will cause an error if placed in an **Expression** shape:
 
@@ -94,7 +94,7 @@ POAckMsg = XMLDOM;
 ### Resolution
  To resolve this issue, add a **Construct Message** shape to the orchestration. Include the **Construct Message** shape before the **Send** shape that is bound to the Web service.
 
- For more information about this error and Web services, see KB article [921043](https://support.microsoft.com/?kbid=921043).
+ 
 
 ## Setting a transaction level for a scope results in an error
 

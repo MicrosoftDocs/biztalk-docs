@@ -33,7 +33,7 @@ Message Flow Overview
    - A Visual Studio 2008 project on **VSTS_TestController** is executed. The project loads an instance of the BizUnit class, loads the specified BizUnit XML configuration file, and begins executing the steps defined in the BizUnit configuration file.
 
      > [!NOTE]
-     >  For more information about the XML configuration file used by BizUnit, see the topic “Defining Tests Using an XML Configuration File” at [https://go.microsoft.com/fwlink/?LinkId=143432](https://go.microsoft.com/fwlink/?LinkId=143432).
+     >  For more information about the XML configuration file used by BizUnit, see the topic “Defining Tests Using an XML Configuration File”, [here](https://go.microsoft.com/fwlink/?LinkId=143432).
 
    - After completing the Test Setup steps, one of the steps in the BizUnit project executes a command that displays a dialog box which prompts you to start a “priming” test run to submit priming messages to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.
 

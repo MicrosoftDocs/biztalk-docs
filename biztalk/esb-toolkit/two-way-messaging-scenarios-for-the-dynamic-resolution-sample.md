@@ -65,7 +65,7 @@ This topic shows how you can run the two-way messaging scenarios for the [!INCLU
    |                 Uses the binding file named GlobalBank.ESB.DynamicResolution_SubmitOrder_To_SubmitOrder_XPATH_Bindings.xml to set the receive location and send port properties.                  |
    |                                                                           Sets the maps statically at the receive port.                                                                           |
    |                                                             Uses the ESB Dispatcher at the receive location for endpoint resolution.                                                              |
-   | The message contains the endpoint configuration ID=<http://localhost/ESB.CanadianServices/SubmitPOService.asmx> and customerName=<http://globalbank.esb.dynamicresolution.com/canadianservices/>. |
+   | The message contains the endpoint configuration ID=<`http://localhost/ESB.CanadianServices/SubmitPOService.asmx`> and customerName=<`http://globalbank.esb.dynamicresolution.com/canadianservices/`>. |
 
    |SOAP Inbound to SOAP Outbound (submitPurchase Action) Using the BRE Resolver Endpoint and Transformation Resolution|  
    |---------------------------------------------------------------------------------------------------------------------------|  

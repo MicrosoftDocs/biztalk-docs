@@ -77,7 +77,6 @@ The RosettaNet organization creates and maintains Partner Interface Processes (P
 
     -   PIP 3A6: Distribute Order Status
 
-    -   …
 
 ## See Also
  [RosettaNet and CIDX Messaging Standards](../../adapters-and-accelerators/accelerator-rosettanet/rosettanet-and-cidx-messaging-standards.md)  
