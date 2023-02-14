@@ -19,7 +19,14 @@ manager: "anneta"
 BizTalk Server includes an **SFTP** adapter to send and receive messages from a secure FTP server using the SSH file transfer protocol. This topic includes the steps to configure an **SFTP** receive location, and configure an SFTP send port to receive and send messages from a secure FTP server. It also includes common questions and answers.
 
 ## Prerequisites
-**Starting with BizTalk Server 2016**, the SFTP adapter uses WinSCP to connect to SFTP, and therefore supports a larger range of SFTP servers. **Download [WinSCP](http://winscp.net)** on the BizTalk Server runtime. Be sure to check the supported WinSCP versions in [Hardware and Software Requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)
+**Starting with BizTalk Server 2016**, the SFTP adapter uses WinSCP to connect to SFTP, and therefore supports a larger range of SFTP servers. **Download [WinSCP](http://winscp.net)** on the BizTalk Server runtime. Be sure to check the supported WinSCP versions for each BizTalk Server verison:
+ * BizTalk Server 2020 with CU1 or CU2 - WinSCP version 5.17.6
+ * BizTalk Server 2020 - WinSCP version 5.15.4
+ * BizTalk Server 2016 With CU9 - WinSCP version 5.19.2
+ * BizTalk Server 2016 With CU7 - WinSCP version 5.15.9
+ * BizTalk Server 2016 - WinSCP version 5.7.7
+
+or in [Hardware and Software Requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)
 
 BizTalk Server 2013 and BizTalk Server 2013 R2 use older ssh library instead of WinSCP with limited server compatibility.
 
