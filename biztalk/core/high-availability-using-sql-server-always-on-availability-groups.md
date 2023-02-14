@@ -32,9 +32,9 @@ Configure high availability using SQL Server AlwaysOn availability groups.
 
 BizTalk Server relies heavily on SQL Server for data persistence. Other components and hosts in BizTalk Server have specific roles when integrating disparate business applications, such as receiving, processing, or routing messages. The database computer captures this work, and persists it to disk. 
 
-BizTalk uses SQL Server Failover Clustering and Log Shipping to provide high availability, backup and restore, and disaster recovery for its on-premises databases. In Azure IaaS (Azure virtual machines), previous versions of SQL Server do not support Failover Cluster Instances (no MSDTC support). As a result, BizTalk did not have a HA solution when using Azure VMs.
+BizTalk uses SQL Server Failover Clustering and Log Shipping to provide high availability, backup and restore, and disaster recovery for its databases. In Azure IaaS (Azure virtual machines), previously, BizTalk (Windows and SQL) did not support Failover Cluster Instances as there was no supported shared disks, which is required for clustering of SQL and MSDTC. As a result, BizTalk did not have a HA solution when using Azure VMs. Since Azure Shared Disk is now available, it is possible to cluster both SQL and MSDTC in Azure VMs. SQL Failover Cluster Instance using Azure Shared Disks is the most highly available solution.
 
-Starting with SQL Server 2016, SQL Server AlwaysOn Availability Groups supports MSDTC for on-premises and using Azure VMs. As a result, the SQL Server 2016 AlwaysOn feature is supported for BizTalk databases on-premises or in Azure IaaS scenarios. 
+Starting with SQL Server 2016, SQL Server AlwaysOn Availability Groups supports MSDTC for on-premises and using Azure VMs. As a result, the SQL Server 2016 (or later) AlwaysOn feature is supported for BizTalk databases on-premises or in Azure IaaS scenarios. Since there is extra overhead with synchronous disk synchronisation when using Storage Spaces Direct (S2D) and extra time during failovers, it is less highly available compared to SQL Failover Cluster Instance. 
 
 ## SQL Server 2016 AlwaysOn Availability Groups 
 
@@ -51,7 +51,7 @@ Clients can connect to the primary replica of a given availability group using a
 > SQL Server 2016 supports MSDTC with AlwaysOn Availability Groups (AG) on Windows Server 2016 and Windows Server 2012 R2. **Windows Server 2012 R2** requires  the [3090973](https://support.microsoft.com/kb/3090973) Windows hotfix  to be installed. 
 > **Windows Server 2016** requires that the [RemoteAccessEnabled registry key](https://support.microsoft.com/kb/3182294) be enabled.
 
-SQL Server does not support MSDTC with AlwaysOn AG for any versions prior to 2016.  
+SQL Server does not support MSDTC with AlwaysOn AG for any versions prior to 2016. SQL Server 2016 SP2 improved MSDTC transaction handling so SP2 or later is recommended. 
 
 ## Provide high availability for BizTalk databases using AlwaysOn Availability Groups 
 
