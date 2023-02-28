@@ -218,9 +218,14 @@ This configuration can also be done using the SQL Instances hosting the primary 
 
 Use SQL alias on BizTalk Server machines. 
 
-### Support Availability Group Multi-Subnet Failovers 
+### Multi-Subnet Availability Groups 
 
-BizTalk Server uses Microsoft OLE DB for database connections, which does not support the **MultiSubnetFailover** connection option. BizTalk Server does not support the `MultiSubnetFailover (=TRUE)` connection option, and this may cause higher recovery time during multi-subnet failover. 
+BizTalk Server does not support the MultiSubnetFailover (=TRUE) connection option.  
+
+Please refer to SQL documentation for more information on problems that can occur when connecting a SQL client that does not support this option to a multi-subnet SQL availability group.  Some of these issues are discussed in the following links:
+
+* [Connection Timeouts in Multi-subnet Availability Group](/archive/blogs/alwaysonpro/connection-timeouts-in-multi-subnet-availability-group)  
+* [Client Recovery Latency During Failover](/sql/sql-server/failover-clusters/windows/sql-server-multi-subnet-clustering-sql-server#DNS)
 
 ### Read-Only Routing 
 
