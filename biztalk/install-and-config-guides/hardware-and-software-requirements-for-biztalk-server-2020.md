@@ -39,8 +39,8 @@ The following table lists the minimum hardware requirements for your BizTalk Ser
 When applying a cumulative update, some of the required software versions may change. To see the software versions that are updated, read the KB article for the cumulative update. For a list of cumulative updates, go to [Service Pack and cumulative update list for BizTalk Server](https://support.microsoft.com/topic/service-pack-and-cumulative-update-list-for-biztalk-server-108e5e94-4558-8b57-d5fb-45984506d56f).
 
 - **Microsoft Windows**: Required. Supported versions include:
-  - Windows Server 2019
-  - Windows Server 2016
+  - Windows Server 2019 (with Desktop Experience)
+  - Windows Server 2016 (with Desktop Experience)
   - Windows 10
 
 - **Internet Information Services (IIS)**: Provides a scalable web application infrastructure, and is required for EDI, BAM, Management REST API, and the SharePoint adapter.
@@ -124,6 +124,7 @@ When applying a cumulative update, some of the required software versions may ch
   Supported versions:
 
   - WinSCP version 5.15.4. Download at [WinSCP](http://winscp.net).
+  - BizTalk Server 2020 with CU1 or CU2 - WinSCP version 5.17.6
 
 - **MQSeries adapter**: Optional. Required only when using IBM WebSphere MQ.
 

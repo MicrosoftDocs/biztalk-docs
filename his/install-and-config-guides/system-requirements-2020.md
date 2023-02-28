@@ -24,7 +24,7 @@ These system requirements list the installation, configuration, and feature usag
 | Category |  Minimum requirement  |
 |---|---|
 | Hardware |-   Computer or virtual machine (VM) with 64-bit X64 architecture processor<br />-   6GB of available drive space<br />-   800 x 600 screen resolution for administration tools<br />-   1024 x 768 resolution for visual design tools |
-| Operating Systems | -   Windows Server 2019<br />-   Windows Server 2016<br />-   Windows 10<br />-   Virtualization with Azure and Hyper-V  |
+| Operating Systems | -   Windows Server 2022<br />-   Windows Server 2019<br />-   Windows Server 2016<br />-   Windows 10<br />-   Virtualization with Azure and Hyper-V  |
 |  .NET Framework  | Microsoft .NET Framework 4.8 (<https://dotnet.microsoft.com/download/dotnet-framework/net48>).  |
 |  Visual Studio  | The HIS designer supports the following Visual Studio versions:<br /><br /> -   Visual Studio 2019<br /> -   Visual Studio 2017 |
 | BizTalk Adapters and Tools | Supported BizTalk Server versions:<br /><br />-   BizTalk Server 2020<br />-   BizTalk Server 2016  |
