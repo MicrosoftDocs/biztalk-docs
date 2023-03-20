@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Working with the Managed Data Provider For Host Files
-The Managed Data Provider for Host Files operates in most ways as a normal data provider: you can connect to a host file system, execute commands, retrieve data, and use stored procedures.  
+The Managed Data Provider for Host Files operates in most ways as a normal data provider: you can connect to a host file system, execute commands and retrieve data.  
   
 ## In This Section  
  [How to Create a Project in Visual Studio for the Managed Provider for Host Files](../core/57a9cb3d-e542-46ec-a7e4-f37e26643610.md)  
