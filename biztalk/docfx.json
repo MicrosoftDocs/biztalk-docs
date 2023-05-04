@@ -38,7 +38,7 @@
       "layout": "Conceptual",
       "titleSuffix": "BizTalk Server",
       "uhfHeaderId": "MSDocsHeader-BizTalk",
-       "feedback_system": "None"
+       "feedback_system": "Standard"
     },
     "fileMetadata": {
       "author": {"troubleshooting/*.md": "MandiOhlinger"},
