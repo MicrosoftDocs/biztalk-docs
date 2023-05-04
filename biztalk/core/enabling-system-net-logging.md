@@ -41,7 +41,7 @@ You can enable logging for the `System.Net` and `System.Net.Sockets`[!INCLUDE[bt
   </sources>
   <sharedListeners>
     <add name="System.Net"
-          type="System Diagnostics.TextWriterTraceListener"
+          type="System.Diagnostics.TextWriterTraceListener"
           initializeData="System.Net..log"/>
   </sharedListeners>
   <trace autoflush="true" />
