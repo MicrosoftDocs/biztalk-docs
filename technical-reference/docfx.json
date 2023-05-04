@@ -46,7 +46,7 @@
                   "globalMetadata":  {
                                          "breadcrumb_path":  "/biztalk/core/technical-reference/breadcrumb/toc.json",
                                          "extendBreadcrumb":  true,
-                                         "feedback_system":  "None",
+                                         "feedback_system":  "Standard",
                                          "ROBOTS":  "INDEX,FOLLOW",
                                          "is_archived":  false,
                                          "author":  "MandiOhlinger",
