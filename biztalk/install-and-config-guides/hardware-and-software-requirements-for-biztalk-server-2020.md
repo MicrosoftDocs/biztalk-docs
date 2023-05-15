@@ -123,8 +123,9 @@ When applying a cumulative update, some of the required software versions may ch
 
   Supported versions:
 
-  - WinSCP version 5.15.4. Download at [WinSCP](http://winscp.net).
-  - BizTalk Server 2020 with CU1 or CU2 - WinSCP version 5.17.6
+  - WinSCP version [5.15.4](https://winscp.net/download/WinSCP-5.15.4-Automation.zip) . Download automation library at [WinSCP](http://winscp.net).
+  - BizTalk Server 2020 with CU1 or CU2 - WinSCP version [5.17.6](https://winscp.net/download/WinSCP-5.17.6-Automation.zip)
+  - BizTalk Server 2020 with CU3 or CU4 - WinSCP version [5.19.2](https://winscp.net/download/WinSCP-5.19.2-Automation.zip)
 
 - **MQSeries adapter**: Optional. Required only when using IBM WebSphere MQ.
 
