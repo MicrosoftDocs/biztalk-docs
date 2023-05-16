@@ -24,9 +24,11 @@ This section provides information on how to use the SQL Server Management Studio
 ## Prerequisites
  Before performing the procedures provided in this topic, make sure:
 
-- [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] is installed on the computer.
+- [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] (E.g. SAP Logon) is installed on the computer. 
 
 - SQL Server Business Intelligence Development Studio is installed on the computer.
+
+- Custom RFCs (Z_EXTRACT_DATA_OO & Z_EXECUTE_SAP_QUERY) are installed. See [Install Custom RFCs for the Data Provider for SAP](../../adapters-and-accelerators/adapter-sap/install-custom-rfcs-for-the-data-provider-for-sap.md)
 
 ### To import data using SQL Server Management Studio
 

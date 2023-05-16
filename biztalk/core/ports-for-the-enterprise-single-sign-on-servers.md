@@ -27,7 +27,7 @@ For complete information about securing your BizTalk Server deployment, see [Sam
 |------------------------------------|------------------------|-------------------------|----------|--------------|------------|  
 |Logged on user|SSO database|SQL Server|1433|TCP|To create and connect to the SSO database.|  
 |Single Sign-On service account|Master secret server|Single Sign-On service|135|TCP|Transacted connection to SQL Server for the Single Sign-On service to retrieve the master secret key from the master secret server|  
-|Single Sign-On service account|Master secret server|Single Sign-On service|50000-50200|TCP|Secondary RPC ports used to retrieve the secret key from the master secret server. **Note:**  You may need to open more secondary RPC ports depending on your server load.|  
+|Single Sign-On service account|Master secret server|Single Sign-On service|49152-65535|TCP|Secondary RPC ports used to retrieve the secret key from the master secret server. **Note:**  You can change to larger dynamic port range or better use fixed port for MSDTC and EntSSO services.|  
   
  The following table lists the ports you must configure for the Enterprise Single Sign-On (SSO) master secret server to access the services it needs. The firewall on which you need to open the ports depends on where the destination server is in your architecture. You must open these ports both for inbound and outbound traffic.  
   
@@ -35,7 +35,7 @@ For complete information about securing your BizTalk Server deployment, see [Sam
 |------------------------------------|------------------------|-------------------------|----------|--------------|------------|  
 |Logged on user|SSO database|SQL Server|1433|TCP|To create and connect to the SSO database.|  
 |Single Sign-On service account|Processing server(s)|Single Sign-On service|135|TCP|Transacted connection to SQL Server for the Single Sign-On service to retrieve the master secret key from the master secret server|  
-|Single Sign-On service account|Processing server(s)|Single Sign-On service|50000-50200|TCP|Secondary RPC ports used to retrieve the secret key from the master secret server. **Note:**  You may need to open more secondary RPC ports depending on your server load.|  
+|Single Sign-On service account|Processing server(s)|Single Sign-On service|49152-65535|TCP|Secondary RPC ports used to retrieve the secret key from the master secret server. **Note:**  You can change to larger dynamic port range or better use fixed port for MSDTC and EntSSO services.|  
   
 ## See Also  
  [Server Naming Conventions](../core/server-naming-conventions.md)   

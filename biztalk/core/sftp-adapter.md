@@ -19,9 +19,16 @@ manager: "anneta"
 BizTalk Server includes an **SFTP** adapter to send and receive messages from a secure FTP server using the SSH file transfer protocol. This topic includes the steps to configure an **SFTP** receive location, and configure an SFTP send port to receive and send messages from a secure FTP server. It also includes common questions and answers.
 
 ## Prerequisites
-**Starting with BizTalk Server 2016**, the SFTP adapter uses WinSCP to connect to SFTP, and therefore supports a larger range of SFTP servers. **Download [WinSCP](http://winscp.net)** on the BizTalk Server runtime. Be sure to check the supported WinSCP versions in [Hardware and Software Requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)
+**Starting with BizTalk Server 2016**, the SFTP adapter uses WinSCP to connect to SFTP, and therefore supports a larger range of SFTP servers. **Download [WinSCP](http://winscp.net)** on the BizTalk Server runtime. Be sure to check the supported WinSCP versions for each BizTalk Server verison:
+ * BizTalk Server 2020 with CU1 or CU2 - WinSCP version 5.17.6
+ * BizTalk Server 2020 - WinSCP version 5.15.4
+ * BizTalk Server 2016 With CU9 - WinSCP version 5.19.2
+ * BizTalk Server 2016 With CU7 - WinSCP version 5.15.9
+ * BizTalk Server 2016 - WinSCP version 5.7.7
 
-BizTalk Server 2013 R2 and previous versions do not support WinSCP.
+or in [Hardware and Software Requirements](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)
+
+BizTalk Server 2013 and BizTalk Server 2013 R2 use older ssh library instead of WinSCP with limited server compatibility.
 
 ## Configure the receive location
 
@@ -74,7 +81,7 @@ BizTalk Server 2013 R2 and previous versions do not support WinSCP.
     |Accept Any SSH Server Host Key|When **True**, the receive location accepts any SSH public host key from the server. When **False**, the receive location uses the fingerprint of the server for authentication. You enter the fingerprint in the **SSHServerHostKeyFingerPrint** property.<br /><br /> **Default value:** False|
     |Client Authentication Mode|Select the authentication method that the receive location uses for authenticating the client to the SSH Server. If set to **Password**, you must enter the value in the **Password** property. If set to **PublicKeyAuthentication**, you must enter the private key of the user in the **PrivateKey** property. If set to **MultiFactorAuthentication** you must enter **Username** with its **Password** and **PrivateKey**. Additionally, if the private key is protected by a password, enter the password as well for the **PrivateKeyPassword** property.<br /><br /> **Default value:** Password|
     |Encryption Cipher |Available starting with BizTalk Server 2013 R2. <br/><br/>Enter the kind of encryption cipher.<br/><br/>BizTalk Server 2013 R2 options: Auto, AES, and TripleDES<br/><br/>BizTalk Server 2016 options: Auto, AES, Arcfour, Blowfish, TripleDES, and DES|
-    |Key Exchange Algorithm Selection Policy |Available starting with BizTalk Server 2016 cumulative update 6. <br/><br/>Specify comma-separated list of KEX preference order. Token WARN is used to delimit substandard KEXes. Example: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1. Visit WinSCP website for latest information.|
+    |Key Exchange Algorithm Selection Policy |Available starting with BizTalk Server 2016 cumulative update 6. <br/><br/>Specify comma-separated list of KEX preference order. Token WARN is used to delimit substandard KEXes. Anything after WARN will not be used by BizTalk SFTP adapter. Example: ecdh,dh-gex-sha1,dh-group14-sha1,rsa,WARN,dh-group1-sha1. Visit WinSCP website for latest information.|
     |Password|Specify the SFTP user password if you set the **ClientAuthenticationMode** to **Password**.|
     |Private Key|Specify the private key for the SFTP user if you set the **ClientAuthenticationMode** to **PublicKeyAuthentication**.<br /><br /> **Note:** The private key file must be the specified .ppk file.|
     |Private Key Password|Specify a private key password, if required for the key specified in the **PrivateKey** property.|
@@ -86,8 +93,8 @@ BizTalk Server 2013 R2 and previous versions do not support WinSCP.
 
     |Use this|To do this|
     |--------------|----------------|
-    |File Mask|Specifies the file mask to use when retrieving files from a secure FTP server.|
-    |Folder Path|Specifies the folder path on the secure FTP server from where the receive location can retrieve files.|
+    |File Mask|Specifies the file mask to use when retrieving files from a secure FTP server. To improve performance, be more specific to avoid attempting to download other protected files.|
+    |Folder Path|Specifies the folder path on the secure FTP server from where the receive location can retrieve files. To improve performance, avoid using folders with lots of files which you don't receive.|
     |Port|Specifies the port address for the secure FTP server on which the file transfer takes place.|
     |Server Address|Specifies the server name or IP address of the secure FTP server.|
 
@@ -161,7 +168,7 @@ The following includes sample configuration syntax. Be sure to replace `%NEWVERS
   <assemblyBinding>
    <dependentAssembly>
     <assemblyIdentity name="WinSCPnet" publicKeyToken="2271ec4a3c56d0bf" culture="neutral" />
-    <bindingRedirect oldVersion="1.2.10.6257" newVersion="%NEWVERSION%"/>
+    <bindingRedirect oldVersion="1.0.0.0-1.65535.65535.65535" newVersion="%NEWVERSION%"/>
    </dependentAssembly>
   </assemblyBinding>
  </runtime>
