@@ -334,7 +334,7 @@ The PAL (Performance Analysis of Logs) tool reads in a performance monitor count
 
 ### References
 
--   [BizTalk Server Database Optimization](https://go.microsoft.com/fwlink/?linkid=104427)
+-   [Optimizing Database Performance](/biztalk/technical-guides/optimizing-database-performance)
 
 -   [Request/Response Messaging](https://go.microsoft.com/fwlink/?LinkID=155288)
 
