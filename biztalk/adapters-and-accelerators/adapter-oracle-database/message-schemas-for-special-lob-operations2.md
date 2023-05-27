@@ -61,7 +61,7 @@ The following table shows the structure of the request and response messages for
 |UpdateLOB|`[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/UpdateLOB`|`http:/Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER/UpdateLOB`|  
 |UpdateLOB Response|`[VERSION]/[SCHEMA]/Table/[TABLE_NAME]/UpdateLOB/response`|`http:/Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER/UpdateLOB/response`|  
 
- [VERSION] = The message version string; for example, "`http://Microsoft.LobServices.OracleDB/2007/03`".  
+ [VERSION] = The message version string, for example, "`http://Microsoft.LobServices.OracleDB/2007/03`".  
 
  [SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.  
 
