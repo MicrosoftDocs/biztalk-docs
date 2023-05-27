@@ -38,7 +38,7 @@ For the base platform, install Microsoft [!INCLUDE[btsWinSvr2k3](../../includes/
 
   - [BizTalk Server Installation Instructions](https://go.microsoft.com/fwlink/?LinkId=81041).
 
-  - Microsoft [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Web site
+  - Microsoft website [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]
 
   - [Microsoft Download Center Web site](https://www.microsoft.com/download)
 
