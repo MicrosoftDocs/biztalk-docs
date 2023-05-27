@@ -67,7 +67,13 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
 
         2.  For **Transport client credential type**, select **Basic**.
 
-        3.  Under the **User name credentials** box, click **Edit**. In the **Client Credentials** dialog box, select **Do no use Single-Sign On**, and enter the username and password that you retrieved from the **My Account** tab after you have logged into Windows Azure Marketplace. The credentials are listed against the **Customer ID** (user name) and **Primary Account Key** (password) labels.
+        3. Under the **User name credentials** box, select **Edit**.
+
+        4. In the **Client Credentials** box, select **Do not use Single-Sign On**.
+
+        5. Enter the username and password that you retrieved from the **My Account** tab after you signed in to [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com).
+        
+            The credentials are listed against the **Customer ID** (user name) and **Primary Account Key** (password) labels.
 
         4.  Click **OK**.
 

@@ -37,10 +37,10 @@ Distributed navigation allows users to view activities that exist in remote BAM 
 2.  The administrator on computer 1 enables distributed navigation by running the enable reference command, as follows: **bm.exe enable-reference -TargetServer:** computer2 **-TargetDatabase:\<target database\>**
 
     > [!NOTE]
-    >  Typically the account used between departments for BAM Web services access will be different on different computers. Therefore, in this scenario the administrator of computer 1 must add the Web services Impersonation account of computer 1 to the BAM_ManagementWS role of the BAM Primary Import database for computer 2. For more information, see "Viewing and Modifying Role Memberships".
+    > Typically, the account used between departments for BAM Web services access will be different on different computers. Therefore, in this scenario the administrator of computer 1 must add the Web services Impersonation account of computer 1 to the BAM_ManagementWS role of the BAM Primary Import database for computer 2. For more information, see [Access Control and Data Security](/biztalk/core/access-control-and-data-security).
 
     > [!NOTE]
-    >  On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.
+    >  On a system that supports User Account Control (UAC), you might need to run the tool with Administrative privileges.
 
 3.  The administrator of computer 2 grants the business user access to the myBusinessView view on computer 2 using the BM.exe command as noted in step 1.
 

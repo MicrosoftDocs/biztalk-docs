@@ -96,7 +96,7 @@ The following steps describe how to prepare the computer for installing the Busi
     -   `iisvdir /create "Default Web Site" BTSScn.BPM.OrderBroker_Proxy "%BTSSolutionsPath%\BPM\OrderBroker_Proxy"`
 
     > [!NOTE]
-    >  You can use Internet Information Services (IIS) Manager to create the Web Application. For more information about how to create applications in IIS 7.0, see the IIS 7.0 Documentation.
+    > You can use Internet Information Services (IIS) Manager to create the Web Application. For more information about how to create applications in IIS 7.0, see [ASP.NET Integration with IIS 7](/iis/application-frameworks/building-and-running-aspnet-applications/aspnet-integration-with-iis).
 
 7.  Create a new IIS application pool and set its identity as a user that is a member of the BizTalk Isolated Host Users group and the IIS_WPG group, as follows:
 
