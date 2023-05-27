@@ -23,7 +23,9 @@ While the majority of PIPS provided by RosettaNet.org are DTD-based, newer PIPS 
 
 ### To import an XSD-based PIP
 
-1.  Download the XSD-based PIP .zip file from RosettaNet.org or from CIDX.org. Extract the files from the .zip file. The files that you need will be in the subfolders of the XML folder.
+1.  Download the XSD-based PIP .zip file from [GS1 RosettaNet website](https://www.gs1us.org/resources/rosettanet) or the [CIDX website](https://oagi.org/pages/chem-estandards).
+
+1. Extract the files from the .zip file. The files that you need will be in the subfolders of the XML folder.
 
 2.  Open Visual Studio. Create a new BizTalk project.
 

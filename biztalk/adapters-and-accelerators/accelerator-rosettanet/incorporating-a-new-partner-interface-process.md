@@ -22,7 +22,7 @@ ms.author: "mandia"
 manager: "anneta"
 ---
 # Incorporating a New Partner Interface Process
-You can incorporate a new RosettaNet Partner Interface Process (PIP) schema in Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] assemblies. You do so by:
+You can incorporate a new RosettaNet Partner Interface Process (PIP) schema in Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] assemblies by following these steps:
 
 - Downloading the PIP schema from the RosettaNet Web site.
 
