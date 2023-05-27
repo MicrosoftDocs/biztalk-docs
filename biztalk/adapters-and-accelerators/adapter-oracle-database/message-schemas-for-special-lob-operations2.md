@@ -63,7 +63,7 @@ The following table shows the structure of the request and response messages for
 
  [VERSION] = The message version string, for example, "`http://Microsoft.LobServices.OracleDB/2007/03`".  
 
- [SCHEMA] = Collection of Oracle artifacts; for example, SCOTT.  
+ [SCHEMA] = Collection of Oracle artifacts, for example, SCOTT.  
 
  [TABLE_NAME] = The table that contains the targeted LOB column; for example, CUSTOMER. (The SCOTT.CUSTOMER table is installed by a SQL script included in the samples.)  
 
