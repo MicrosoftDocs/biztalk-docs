@@ -37,7 +37,7 @@ The primary purpose of Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../.
 
   The CIDX Chem eStandards are a widely accepted set of standards for implementing automated message exchange in chemical-industry scenarios.
 
-  For more information about standards, see the RosettaNet Web site and the CIDX Web site.
+  For more information about standards, see the [GS1 RosettaNet website](https://www.gs1us.org/resources/rosettanet) and the [CIDX website](https://oagi.org/pages/chem-estandards).
 
 ## In This Section
 

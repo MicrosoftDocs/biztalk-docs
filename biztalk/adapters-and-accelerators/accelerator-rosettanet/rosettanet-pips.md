@@ -26,7 +26,7 @@ The RosettaNet organization creates and maintains Partner Interface Processes (P
 
  Each PIP specification provides a document type definition (DTD) file and a message guideline document. The DTD file defines the service-content message structure. The message-guideline document, which is a human-readable HTML file, specifies element-level constraints. Together, they provide a complete definition of the business process.
 
- For more information about PIP specifications, see the RosettaNet Web site.
+ For more information about PIP specifications, visit the [GS1 RosettaNet website](https://www.gs1us.org/resources/rosettanet).
 
 ## PIP Contents
  A PIP specification does the following:
