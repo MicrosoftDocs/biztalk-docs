@@ -29,7 +29,7 @@ Under certain circumstances it may be necessary to capture a memory dump of a pr
 ## Installation of the IIS Diagnostics Toolkit
  Each of the topics in this section requires the use of the **Debug Diagnostics Tool** of the IIS Diagnostics Toolkit to capture a memory dump. To install the **Debug Diagnostics Tool** of the IIS Diagnostics Toolkit follow these steps:
 
-1.  Download the IIS Diagnostics Toolkit from Internet Information Services Diagnostic Tools.
+1.  Download the Internet Information Services (IIS) Diagnostics Toolkit (**iisdiag.msi**).
 
 2.  Double-click the **iisdiag.msi** package to start the IIS Diagnostics Toolkit setup program and choose the **Custom** setup type.
 

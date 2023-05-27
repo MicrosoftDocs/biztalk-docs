@@ -43,7 +43,7 @@ Blogging with his head in the (hybrid) cloud, and his feet on-premises! Blog on 
 Nino blogs about Integration of Technologies, and anything and everything related to it.
 
 ## Eldert Grootenboer
-[Twitter](https://twitter.com/egrootenboer)
+[Blog](https://www.serverless360.com/blog/author/eldert) | [Twitter](https://twitter.com/egrootenboer)
 
 A focus on everything Microsoft integration, including IoT, Azure integration, and BizTalk Server. 
 
@@ -55,7 +55,7 @@ Aram has been building software since 2001. And when not creating software, Aram
 ## Saravana Kumar
 [Blog](https://blogs.biztalk360.com/)  |  [Twitter](https://twitter.com/BizTalk360)
 
-Contains wealth of information related to Microsoft Integration technologies mainly around BizTalk Server. There are over 800 blog articles written by Microsoft MVP's and  the BizTalk360 team. 
+Contains wealth of information related to Microsoft Integration technologies mainly around BizTalk Server. There are over 800 blog articles written by Microsoft MVP's and the BizTalk360 team. 
 
 ## Edward Kuo 
 
