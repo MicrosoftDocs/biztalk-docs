@@ -99,10 +99,6 @@ Starting with BizTalk Server 2013 and newer versions, [!INCLUDE[esbToolkit](../i
    - Select **Enable ESB JMS/WMQ Components in BizTalk Server** to create the application in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. Select **Use Default Binding** to bind this application to the default host. Select **Do not use Default Binding** if you do not want to bind the application to the default host. In this scenario, you must explicitly bind the application to a host once the application is created.  
   
    - Select **Apply Configuration** to create the applications you selected. Verify that the applications are created in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
-  
-## Upgrade ESB Toolkit – Community Addition
-
- In-place upgrade of ESB Toolkit 2.1 to 2.2
 
 ## See also
 
