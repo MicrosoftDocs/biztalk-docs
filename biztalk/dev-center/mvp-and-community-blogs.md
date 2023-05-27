@@ -57,11 +57,6 @@ Aram has been building software since 2001. And when not creating software, Aram
 
 Contains wealth of information related to Microsoft Integration technologies mainly around BizTalk Server. There are over 800 blog articles written by Microsoft MVP's and the BizTalk360 team. 
 
-## Edward Kuo 
-
-
-Edward's blog is about Azure, Visual Studio Team Services (VSTS), and includes guidance on enterprise solutions.
-
 ## Steve Melan 
 [Blog](https://stevemelan.wordpress.com/)  |  [Twitter](https://twitter.com/SteveMelan)
 
