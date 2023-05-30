@@ -28,10 +28,10 @@ Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-curr
  Together, [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] and [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provide the platform, infrastructure, and tools for designing, developing, and executing secure SWIFT messaging and workflow automation systems.
 
 ## More information
- For information about security best practices, see the following resources:
+For information about security best practices, see the following resources:
 
 
-- Symantec security guide showing how to use their tools to implement the best practices described in Microsoft Security Operations Guide for [!INCLUDE[btsWin2kSvr](../../includes/btswin2ksvr-md.md)]: [here](https://go.microsoft.com/fwlink/p/?LinkId=28274)
+- Symantec security guide showing how to use their tools to implement the best practices described in [Microsoft Security Operations Guide for [!INCLUDE[btsWin2kSvr](../../includes/btswin2ksvr-md.md)]](https://go.microsoft.com/fwlink/p/?LinkId=28274).
 
 
 - [Microsoft Security Notification Service](https://www.microsoft.com/msrc/technical-security-notifications)

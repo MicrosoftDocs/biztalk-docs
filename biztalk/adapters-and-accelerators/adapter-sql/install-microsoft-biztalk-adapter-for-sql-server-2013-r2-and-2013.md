@@ -182,7 +182,7 @@ The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] can run in
 
     By default, the option is false.  
 
-    For more information about the `msiexec` command, type `msiexec` on the command line and press `ENTER`.  
+    For more information about the `msiexec` command, type `msiexec` on the command line, and press `ENTER`. Or, see [**msiexec**](/windows-server/administration/windows-commands/msiexec).
 
 <a name="BKMK_PostInst"></a>   
 ## Post-installation tasks  
@@ -295,7 +295,7 @@ Complete the following steps to determine the public key and version for the [!I
    > [!IMPORTANT]
    >  While modifying the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] installation in the silent mode, you cannot change your preferences for opting in or out of CEIP. The preferences will remain the same as you specified during the installation, even if you explicitly set the CEIP_OPTIN to true or false.  
 
-    For more information about the `msiexec` command, type `msiexec` on the command line and press `ENTER`.   
+    For more information about the `msiexec` command, type `msiexec` on the command line, and press `ENTER`. Or, see [**msiexec**](/windows-server/administration/windows-commands/msiexec).
 
 <a name="BKMK_Remove_Adap"></a>   
 ## Uninstall or remove the SQL Adapter  
@@ -332,7 +332,7 @@ Complete the following steps to determine the public key and version for the [!I
 
     This command removes the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] from the computer.  
 
-    For more information about the `msiexec` command, type `msiexec` on the command line and press `ENTER`.  
+    For more information about the `msiexec` command, type `msiexec` on the command line, and press `ENTER`. Or, see [**msiexec**](/windows-server/administration/windows-commands/msiexec).
 
 <a name="BKMK_PostRemove"></a>   
 ### Post-uninstall task  

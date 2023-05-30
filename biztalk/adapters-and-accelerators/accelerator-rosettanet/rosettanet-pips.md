@@ -79,5 +79,5 @@ The RosettaNet organization creates and maintains Partner Interface Processes (P
 
 
 ## See Also
- [RosettaNet and CIDX Messaging Standards](../../adapters-and-accelerators/accelerator-rosettanet/rosettanet-and-cidx-messaging-standards.md)  
+[RosettaNet and CIDX Messaging Standards](../../adapters-and-accelerators/accelerator-rosettanet/rosettanet-and-cidx-messaging-standards.md)  
 [RNIF Standard](../../adapters-and-accelerators/accelerator-rosettanet/rnif-standard.md)

@@ -69,12 +69,12 @@ When you build your project, or solution, the results will appear in the Output 
  When you compile your BizTalk application, you get the error "Message has not been initialized in construct statement".
 
 ### Cause
- When you construct a message, you specify all the message variables. Then you make assignments to the message or its parts. If part of a specific message assignment is included in a separate **Construct Message** shape, you may receive the initialization error message.
+When you construct a message, you specify all the message variables. Then, you make assignments to the message or its parts. If part of a specific message assignment is included in a separate **Construct Message** shape, you might receive the initialization error message.
 
 ### Resolution
- To resolve this behavior, make sure that you include all parts of a specific message assignment in the same **Construct Message** shape.
+To resolve this behavior, make sure that you include all parts of a specific message assignment in the same **Construct Message** shape.
 
- You can also resolve this behavior by creating your message in a **Construct** shape before using an instance of it in an **Expression** shape. For example, the following code will cause an error if placed in an **Expression** shape:
+You can also resolve this behavior by creating your message in a **Construct** shape before using an instance of it in an **Expression** shape. For example, the following code causes an error if placed in an **Expression** shape:
 
 ```
 XMLDOM = new System.Xml.XmlDocument();
@@ -92,7 +92,7 @@ POAckMsg = XMLDOM;
  This error occurs when an unconstructed message is used in a **Send** shape.
 
 ### Resolution
- To resolve this issue, add a **Construct Message** shape to the orchestration. Include the **Construct Message** shape before the **Send** shape that is bound to the Web service.
+To resolve this issue, add a **Construct Message** shape to the orchestration. Include the **Construct Message** shape before the **Send** shape that is bound to the Web service.
 
  
 
@@ -139,10 +139,10 @@ Failed to add resource(s). Change requests failed for some resources. BizTalkAss
 ```
 
 ### Cause
- This error can occur if the orchestration contains any objects that use C# keywords.
+This error can occur if the orchestration contains any objects that use C# keywords.
 
 ### Resolution
- Remove any C# keywords from the orchestration. For a list of C# keywords, see [here](/dotnet/csharp/language-reference/keywords/).
+Remove any C# keywords from the orchestration. For more information, see the [C# keyword list](/dotnet/csharp/language-reference/keywords/).
 
 ## You receive an "invalid property value" error when compiling your orchestration
 

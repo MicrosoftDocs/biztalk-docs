@@ -51,5 +51,5 @@ Distributed navigation allows users to view activities that exist in remote BAM 
 >  Distributed navigation can be enabled in both directions. Following the procedure above on both computers that are sharing remote activities enables business users of the portals on either computer to use distributed navigation.
 
 ## See Also
- [Managing Distributed Navigation of Remote Activities](../core/managing-distributed-navigation-of-remote-activities.md)  
+[Managing Distributed Navigation of Remote Activities](../core/managing-distributed-navigation-of-remote-activities.md)  
 [BAM Portal](../core/bam-portal.md)

@@ -130,7 +130,7 @@ The following steps describe how to prepare the computer for installing the Busi
     |ToVendorSystemQ|No|HTTP|
 
     > [!NOTE]
-    >  You can use **Computer Management** snap-in to create the queues. For more information about how to create a private queue, see the [Message Queuing documentation](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)).
+    > You can use **Computer Management** snap-in to create the queues. For more information about how to create a private queue, see the [Message Queuing documentation](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)).
 
 13. At a command prompt, change the current folder to the %BTSSolutionsPath%\BPM\Scripts, type `CreateTestDirectories.cmd`, and then press ENTER.
 

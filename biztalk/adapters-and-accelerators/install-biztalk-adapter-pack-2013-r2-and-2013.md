@@ -182,8 +182,8 @@ The following information applies only to BizTalk Adapter Pack 2013.
 
 - If you use SAP Secure Network Communications (SNC) to connect to an SAP system, you must also have the relevant DLLs from SAP. These DLLs are different for 32-bit and 64-bit platforms and are available with SNOTE<sup>1</sup> 352295. You can download the DLLs from [here](https://go.microsoft.com/fwlink/?LinkId=104032). This link has an “Attachments” option from where you can download the package. The names of the DLLs are:
 
-  - **For 32-bit**: *gsskrb5.dll, gssntlm.dll*
-  - **For 64-bit x86**: *gx64krb5.dll, gx64ntlm.dll*
+  - For 32-bit: **gsskrb5.dll**, **gssntlm.dll**
+  - For 64-bit x86: **gx64krb5.dll**, **gx64ntlm.dll**
 
 <sup>1</sup> SNOTEs are release notes that accompany fixes released by SAP.
 
@@ -429,10 +429,10 @@ Complete the following steps to install the [!INCLUDE[adapterpacknoversion](../i
 
       By default the option is false.
 
-     > [!IMPORTANT]
-     >  While installing the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Evaluation version in silent mode, the default option for CEIP is true.
+       > [!IMPORTANT]
+       > When you install the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Evaluation version in silent mode, the default option for CEIP is **true**.
 
-     For more information about the msiexec command type `msiexec` on the command line and press `ENTER`. Or go to [here](https://go.microsoft.com/fwlink/p/?LinkId=103199).
+     For more information about the `msiexec` command, type `msiexec` on the command line, and press `ENTER`. Or, see [**msiexec**](/windows-server/administration/windows-commands/msiexec).
 
 <a name="BKMK_PostInst"></a>
 ### After installing the BizTalk Adapter Pack
@@ -720,10 +720,12 @@ For the steps and guidance to install the different enterprise LOB systems, we r
    msiexec /i AdaptersSetup.msi /qn /f
    ```
 
-    You can use various different combinations with the /f option. For more information about the msiexec command type `msiexec` on the command line, and press `ENTER`. Or go to [here](https://go.microsoft.com/fwlink/p/?LinkId=103199).
+    You can use various different combinations with the /f option. For more information about the `msiexec` command, type `msiexec` on the command line, and press `ENTER`. Or, see [**msiexec**](/windows-server/administration/windows-commands/msiexec).
+    
+    
 
    > [!IMPORTANT]
-   >  While modifying the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation in the silent mode, you cannot change your preferences for opting in or out of CEIP. The preferences you chose during the installation remains, even if you explicitly set the CEIP_OPTIN to true or false.
+   > When you modify the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation in silent mode, you can't change your preferences for opting in or out of CEIP. The preferences you chose during the installation remains, even if you explicitly set the CEIP_OPTIN to true or false.
 
 <a name="BKMK_Remove_Adap"></a>
 ## Removing the BizTalk Adapter Pack
@@ -764,7 +766,7 @@ Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../in
    msiexec /x AdaptersSetup.msi /qn
    ```
 
-    For more information about the msiexec command type `msiexec` on the command line, and press `ENTER`. Or go to [here](https://go.microsoft.com/fwlink/p/?LinkId=103199).
+   For more information about the `msiexec` command, type `msiexec` on the command line, and press `ENTER`. Or, see [**msiexec**](/windows-server/administration/windows-commands/msiexec).
 
 <a name="BKMK_PostRemove"></a>
 ### After removing the BizTalk Adapter Pack

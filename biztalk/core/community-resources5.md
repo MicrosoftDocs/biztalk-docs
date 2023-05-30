@@ -20,7 +20,6 @@ Plug into the BizTalk Server community to connect with other developers and admi
 
 |Resource|Location|
 |--------------|--------------|
-|Channel 9 videos|[Shows](/shows/)|
 |TechNet Wiki|Search for BizTalk resources and more [here](https://social.technet.microsoft.com/wiki).|
 |BizTalk support team blog|[Blog for Biztalk Engineers](/archive/blogs/biztalkcpr/)|
 |BizTalk integration platform| |

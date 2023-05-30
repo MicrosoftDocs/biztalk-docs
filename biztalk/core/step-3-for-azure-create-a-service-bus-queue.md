@@ -20,7 +20,7 @@ In this topic, you create a Service Bus Queue to which the X12 sales order is se
 
 ### To create a Service Bus Queue
 
-1.  Log in to the Windows Azure CTP Management Portal using your Microsoft account.
+1.  Sign in to the Windows Azure CTP Management Portal using your Microsoft account.
 
 2.  On the lower left-hand side of the page, click **AppFabric**.
 

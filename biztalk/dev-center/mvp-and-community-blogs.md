@@ -25,7 +25,7 @@ Martin has been "doing" Integration for over 15 years, and is one of the admin t
 ## Bill Chesnut
 [Blog](https://www.biztalkbill.com/)  |  [Twitter](https://twitter.com/BizTalkBill)
 
-Ramblings about all things integration, including BizTalk Server, API Management, Visual Studio Team Services (VSTS), Service Bus, Logic Apps, and more.
+Ramblings about all things integration, including BizTalk Server, API Management, Azure DevOps, Azure Service Bus, Azure Logic Apps, and more.
 
 ## Sam Cogan
 [Blog](https://samcogan.com/)  |  [Twitter](https://twitter.com/samcogan)

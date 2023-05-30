@@ -40,7 +40,7 @@ For the base platform, install Microsoft [!INCLUDE[btsWinSvr2k3](../../includes/
 
   - Microsoft website [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]
 
-  - [Microsoft Download Center Web site](https://www.microsoft.com/download)
+  - [Microsoft Download Center](https://www.microsoft.com/download)
 
   - [!INCLUDE[btsWinUpdate](../../includes/btswinupdate-md.md)] [Web site](https://go.microsoft.com/fwlink/?linkid=48687).
 
