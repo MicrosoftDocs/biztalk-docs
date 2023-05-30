@@ -23,15 +23,6 @@ Opens Pluralsight.com.
 
 Opens QuickLearn.com.
 
-## Channel 9 videos
-
-Business Rules and Business Activity Monitoring
-
-BizTalk Integration and the Enterprise Service Bus (ESB) Toolkit
-
-Compare an integration scenario in Logic Apps and BizTalk Server
-
-
 ## Guides and Whitepapers
 
 [Whitepaper gallery on TechNet Wiki](https://social.technet.microsoft.com/wiki/contents/articles/15469.biztalk-serverbiztalk-services-white-paper-gallery.aspx)
