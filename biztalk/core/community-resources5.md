@@ -22,7 +22,6 @@ Plug into the BizTalk Server community to connect with other developers and admi
 |--------------|--------------|
 |TechNet Wiki|Search for BizTalk resources and more [here](https://social.technet.microsoft.com/wiki).|
 |BizTalk support team blog|[Blog for Biztalk Engineers](/archive/blogs/biztalkcpr/)|
-|BizTalk integration platform| |
 |BizTalk forums|[Forum](https://social.msdn.microsoft.com/Forums/home?forum=biztalkgeneral)|
 |Search the Microsoft community|Search for BizTalk questions and discussions.|
 |Get started with Azure|[What is Azure Logic Apps?](/azure/logic-apps/logic-apps-overview)|
