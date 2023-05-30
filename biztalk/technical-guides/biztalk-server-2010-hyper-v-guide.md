@@ -19,8 +19,6 @@ The purpose of this guide is to provide practical guidance for using Microsoft B
 
  To download a copy of this guide, go to [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=149267).
 
-## Introduction
-
 Server virtualization offers companies the opportunity to run multiple operating systems on a single physical machine. This capability enables the consolidation of underutilized servers onto a smaller number of fully utilized machines. By implementing virtualization, companies can minimize operational and capital expenditure costs associated with deploying and operating the servers required for enterprise applications.
 
  The potential costs savings has prompted IT departments to evaluate new and existing applications to identify candidates suitable for server virtualization. Most such evaluations seek to discover the total cost of virtualization. The total cost of virtualization is the sum of monetary costs for hardware and IT operations, and the performance cost of virtualization as compared to the performance attainable in a physical environment. This guide focuses exclusively on the performance aspect of virtualization.
