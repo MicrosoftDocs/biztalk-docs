@@ -26,7 +26,7 @@ Adjusting network settings to optimal values has been shown to effectively addre
  Just as adding additional hard drives can improve disk performance, adding additional network cards can improve network performance. If the network cards on the computers in your BizTalk Server environment are saturated and the card is a bottleneck, consider adding one or more additional network cards to improve performance.
 
 ## Implement network segmentation
- Follow the recommendations in the **Subnets** section of the "BizTalk Server Database Optimization" whitepaper.
+For more information, see [Network optimizations](/biztalk/technical-guides/network-optimizations).
 
 ## Where possible, replace hubs with switches
  Switches contain logic to directly route traffic between the source and destination whereas hubs use a broadcast model to route traffic. Therefore switches are more efficient and offer improved performance.

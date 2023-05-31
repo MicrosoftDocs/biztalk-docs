@@ -23,4 +23,4 @@ This section describes known issues using the MSMQ adapter.
 -   [Known Issues with the MSMQ Adapter](../core/known-issues-with-the-msmq-adapter.md)
 
 ## See Also
- [MSMQ Best Practices](/dotnet/framework/wcf/feature-details/best-practices-for-queued-communication)
+[MSMQ Best Practices](/dotnet/framework/wcf/feature-details/best-practices-for-queued-communication)

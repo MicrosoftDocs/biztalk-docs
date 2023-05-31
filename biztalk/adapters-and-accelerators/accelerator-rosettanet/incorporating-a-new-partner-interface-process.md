@@ -24,7 +24,7 @@ manager: "anneta"
 # Incorporating a New Partner Interface Process
 You can incorporate a new RosettaNet Partner Interface Process (PIP) schema in Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] assemblies by following these steps:
 
-1. Download the PIP schema from the website, [GS1 RosettaNet](https://www.gs1us.org/resources/rosettanet).
+1. Download the PIP schema from the [GS1 US RosettaNet Standards website](https://www.gs1us.org/resources/rosettanet).
 
 1. Deploy the schema to [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] as part of the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] RNPIPs assembly or as part of a separate [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] assembly. For more information, see [Extending BTARN with a New PIP](../../adapters-and-accelerators/accelerator-rosettanet/extending-btarn-with-a-new-pip.md).
 

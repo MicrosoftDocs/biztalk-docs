@@ -58,7 +58,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 
 - **Test your connection to the target Web site**: If you are using SSL, ensure that you can connect to the target Web site with Internet Explorer before attempting to connect to the target Web site with the HTTP or SOAP transports. Verify that no dialog boxes are displayed in Internet Explorer when you connect to the target Web site. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has no mechanism for interfacing with any dialog boxes that might be displayed when connecting to the target web site. A dialog box may be displayed by Internet Explorer if the target web site name does not match the name specified for the web site in the SSL certificate or if the Root Certificate Authority for the SSL certificate is not in the appropriate **Trusted Root Certification Authorities** store.
 
-- **Use the SSL Diagnostics tool to analyze SSL connection issues:** The SSL Diagnostics tool is an optional component of the IIS Diagnostics Toolkit.  For more information, see [IIS Diagnostics Tools](https://www.iis.net/overview/reliability/richdiagnostictools).
+- **Use the SSL Diagnostics tool to analyze SSL connection issues:** The SSL Diagnostics tool is an optional component of the IIS Diagnostics Toolkit. For more information, see [IIS Diagnostics Tools](https://www.iis.net/overview/reliability/richdiagnostictools).
 
 - **Ensure that the certificate is valid**. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] does not prompt you if the certificate has expired. Instead, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] will suspend the message.
 

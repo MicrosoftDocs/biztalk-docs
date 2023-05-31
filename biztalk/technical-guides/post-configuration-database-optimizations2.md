@@ -133,7 +133,7 @@ GO
   Separating the BizTalk MessageBox and BizTalk Tracking databases and separating the database files and transaction log files on different physical disks are considered best practices for reducing disk I/O contention. Try to spread the disk I/O across as many physical spindles as possible. You can also reduce disk I/O contention by placing the BizTalk Tracking database on a dedicated SQL Server; however, you should still follow the practices above with regards to separating data files and transaction log files.
 
 ## Optimize filegroups for the BizTalk Server databases
- Follow the steps in [Optimizing Filegroups for the Databases2](../technical-guides/optimizing-filegroups-for-the-databases2.md) and the BizTalk Server Database Optimization white paper to create additional filegroups and files for the BizTalk Server databases. This will greatly increase the performance of the BizTalk Server databases from a single disk configuration.
+ Follow the steps in [Optimizing Filegroups for the Databases2](../technical-guides/optimizing-filegroups-for-the-databases2.md) and [Optimizing Database Performance](/biztalk/technical-guides/optimizing-database-performance) to create additional filegroups and files for the BizTalk Server databases. This will greatly increase the performance of the BizTalk Server databases from a single disk configuration.
 
 ## See Also
  [Optimizing Database Performance](../technical-guides/optimizing-database-performance.md)
