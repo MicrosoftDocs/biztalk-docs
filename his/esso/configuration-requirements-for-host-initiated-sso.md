@@ -55,7 +55,7 @@ Although Enterprise Single Sign-On (SSO) and host-initiated SSO have certain asp
 
 -   Under **Domain Security Policy - Local Policies - User Rights Assignment**, add the SSO Service account to the **Act as part of operating system** policy.
 
-     For more information about Kerberos Protocol Transition and Constrained Delegation, visit [here](/windows-server/security/kerberos/kerberos-constrained-delegation-overview).
+     For more information, see [Kerberos Protocol Transition and Constrained Delegation](/windows-server/security/kerberos/kerberos-constrained-delegation-overview).
 
 ## See Also
  [Host Initiated Single Sign-On](../esso/host-initiated-single-sign-on.md)
