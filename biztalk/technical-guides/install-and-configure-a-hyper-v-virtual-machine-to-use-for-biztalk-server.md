@@ -117,7 +117,7 @@ This topic provides recommendations for installing and configuring BizTalk Serve
 - Less than 5% of free memory available = Critical, performance will be adversely affected
 
 #### Choosing Root Operating System Version
- Hyper-V is supported on a Server Core as well as a full installation of [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. To minimize the overhead of the root partition, install Hyper-V on a Server Core installation of [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. The Hyper-V role can be managed remotely from the Hyper-V Manager on a different system. Server Core provides a smaller disk and memory profile, therefore, leaving more resources available for virtual machines. For more information about the Server Core installation option available for [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], see [here](https://go.microsoft.com/fwlink/?LinkID=202439).
+ Hyper-V is supported on a Server Core as well as a full installation of [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. To minimize the overhead of the root partition, install Hyper-V on a Server Core installation of [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. The Hyper-V role can be managed remotely from the Hyper-V Manager on a different system. Server Core provides a smaller disk and memory profile, therefore, leaving more resources available for virtual machines. For more information about the Server Core installation option available for [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], see [Server Core for Windows Server 2008 R2](https://go.microsoft.com/fwlink/?LinkID=202439).
 
  If you choose to use a full installation of [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)], ensure that the root partition is dedicated only to the Hyper-V server role. Running additional server roles will consume memory, disk, processor, and network resources and will degrade performance.
 
@@ -152,9 +152,9 @@ This topic provides recommendations for installing and configuring BizTalk Serve
 - To minimize the time required to install virtual machines, create a base image consisting only of the guest operating system and software prerequisites. Use SysPrep to prepare the VHD image for reuse, and then base all your virtual machines (VMs) on this VHD.
 
   > [!NOTE]
-  >  With BizTalk Server, it is possible to run Sysprep against a base image *after*BizTalk Server has been installed and configured on the server. This can be accomplished through the use of a Sysprep answer file and scripts provided with BizTalk Server. These sample scripts are designed for use with BizTalk Server installed on   [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] . For more information see the BizTalk Server online documentation.
+  >  With BizTalk Server, it is possible to run Sysprep against a base image *after*BizTalk Server has been installed and configured on the server. This can be accomplished through the use of a Sysprep answer file and scripts provided with BizTalk Server. These sample scripts are designed for use with BizTalk Server installed on   [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. For more information, see the BizTalk Server online documentation.
   >
-  >  The Unattended Windows Setup Reference is available [here](https://go.microsoft.com/fwlink/?LinkId=142364).
+  >  For more information, see [Unattended Windows Setup Reference](https://go.microsoft.com/fwlink/?LinkId=142364).
 
 - Follow the recommendations in the “When Installing and Configuring BizTalk Server…” section of the topic [Checklist: Best Practices for Installing and Configuring BizTalk Server on Hyper-V](../technical-guides/checklist-best-practices-to-install-and-configure-biztalk-server-on-hyper-v.md).
 
