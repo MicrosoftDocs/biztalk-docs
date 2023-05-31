@@ -89,7 +89,7 @@ In a BizTalk Server environment where the BizTalk Server computer(s) are separat
  Edit the registry as described in the MSDN topic “Using Registry Values to Enable and Disable Task Offloading (NDIS 5.1)” to disable TCP offloading for the network cards on each virtual machine.
 
 > [!IMPORTANT]
->  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article "Description of the Microsoft Windows registry", [see here](https://go.microsoft.com/fwlink/?LinkId=62729).
+>  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see [Description of the Microsoft Windows registry](https://go.microsoft.com/fwlink/?LinkId=62729).
 
 ## General guidelines for improving network performance
  The following recommendations can be used to increase network performance:
