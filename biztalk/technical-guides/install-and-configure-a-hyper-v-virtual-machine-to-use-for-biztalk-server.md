@@ -20,7 +20,7 @@ This topic provides recommendations for installing and configuring BizTalk Serve
 ## Installing and Configuring Hyper-V
  Before installing Hyper-V, see [What's New in Hyper-V in Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd446676(v=ws.10)). The “Microsoft Hyper-V Server 2008 R2 Getting Started” guide provides details about how to install and configure [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V. 
 
- “The Performance Tuning Guidelines for Windows Server 2008 R2” document provides details on tuning [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] and includes a section specifically focused on Hyper-V. The document is available [here](https://go.microsoft.com/fwlink/?LinkID=202087).
+ The [Performance Tuning Guidelines for Windows Server 2008 R2](https://go.microsoft.com/fwlink/?LinkID=202087) document provides details on tuning [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] and includes a section specifically focused on Hyper-V.
 
 ### Hyper-V Platform Prerequisites
  Hyper-V is a server role available for 64-bit and all editions of  [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)] are 64-bit only. Additionally, the physical hardware must support hardware assisted virtualization. This means the processor must be compatible with Intel Virtualization Technology (Intel VT) or AMD Virtualization (AMD-V) technology, the system BIOS must support Data Execution Prevention (DEP), and DEP must be enabled. Specifically, you must enable the Intel XD bit (execute disable bit) or AMD NX bit (no execute bit).
