@@ -71,7 +71,7 @@ This section contains recommendations for how to help secure your Enterprise Sin
 ## SQL Server Access
  All SSO servers access the SQL Server Credential database.
 
- We recommend you use Secure Sockets Layer (SSL) and/or Internet Protocol security (IPsec) to help secure the transmission of data between the SSO servers and the Credential database. For more information about using SSL, see [here](https://go.microsoft.com/fwlink/?LinkId=33176).
+ We recommend you use Secure Sockets Layer (SSL) and/or Internet Protocol security (IPsec) to help secure the transmission of data between the SSO servers and the Credential database. For more information about using SSL, see [Microsoft Support](https://go.microsoft.com/fwlink/?LinkId=33176).
 
  To enable SSL for only the connection between the SSO server and the Credential database, you can set SSL support on every SSO server using the ssoconfig utility. This option enables SSO to always use SSL when accessing the Credential database. For more information, see [How to Enable SSL for Enterprise Single Sign-On](../esso/how-to-enable-ssl-for-enterprise-single-sign-on.md).
 
