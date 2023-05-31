@@ -104,7 +104,7 @@ This topic provides recommendations for installing and configuring BizTalk Serve
 
 - Number of BizTalk hosts that you plan to run within the virtual machine
 
-  For a comprehensive list of factors that affect memory, see “The Performance Factors” section of the BizTalk Server Performance Optimizations Guide [here](https://go.microsoft.com/fwlink/?LinkId=122587).
+  For a comprehensive list of factors that affect memory, see “The Performance Factors” section of the [BizTalk Server Performance Optimizations Guide](https://go.microsoft.com/fwlink/?LinkId=122587).
 
   Proactively monitor the **Memory/Available Mbytes** counter from within each virtual machine and the root partition itself. The following guidelines from [Checklist: Measuring Performance on Hyper-V](../technical-guides/checklist-measuring-performance-on-hyper-v.md) should be used to determine whether there is enough available physical memory for the virtual machine and for the root partition:
 
