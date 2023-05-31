@@ -27,7 +27,6 @@ While the majority of PIPS provided by RosettaNet.org are DTD-based, newer PIPS 
 
    The files that you need are in the subfolders of the XML folder.
 
-1. Extract the files from the .zip file. The files that you need will be in the subfolders of the XML folder.
 
 2.  Open Visual Studio. Create a new BizTalk project.
 
