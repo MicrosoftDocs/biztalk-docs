@@ -69,7 +69,7 @@ In a BizTalk Server environment where the BizTalk Server computer(s) are separat
 
     2.  Click the radio button next to **Use the following IP address**.
 
-2.  Enter a value for the **IP address** field from the range of private IP addresses identified in “RFC 1918, Address Allocation for Private IP Addresses”, [here](https://go.microsoft.com/fwlink/?LinkID=31904).
+2.  Enter a value for the **IP address** field from the range of private IP addresses identified in [RFC 1918, Address Allocation for Private IP Addresses](https://go.microsoft.com/fwlink/?LinkID=31904).
 
 3.  Make a note of the IP address that you specified; you will need to associate this value with the NetBIOS name of this computer in a HOSTS file entry later.
 
