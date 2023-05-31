@@ -33,7 +33,7 @@ Message Flow Overview
    - A Visual Studio 2008 project on **VSTS_TestController** is executed. The project loads an instance of the BizUnit class, loads the specified BizUnit XML configuration file, and begins executing the steps defined in the BizUnit configuration file.
 
      > [!NOTE]
-     >  For more information about the XML configuration file used by BizUnit, see the topic “Defining Tests Using an XML Configuration File”, [here](https://go.microsoft.com/fwlink/?LinkId=143432).
+     >  For more information about the XML configuration file used by BizUnit, see [Defining Tests Using an XML Configuration File](https://go.microsoft.com/fwlink/?LinkId=143432).
 
    - After completing the Test Setup steps, one of the steps in the BizUnit project executes a command that displays a dialog box which prompts you to start a “priming” test run to submit priming messages to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.
 
@@ -54,7 +54,7 @@ Message Flow Overview
    - The orchestration is bound to a two way solicit-response send port which invokes the downstream calculator service.
 
    > [!NOTE]
-   >  The downstream calculator service is based upon Windows Communication Foundation samples described [here](/previous-versions/dotnet/netframework-3.5/ms751450(v=vs.90)).
+   >  The downstream calculator service is based upon [Windows Communication Foundation samples](/previous-versions/dotnet/netframework-3.5/ms751450(v=vs.90)).
 
 4. The calculator service consumes the request from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and returns a response to the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] solicit-response send port.
 
