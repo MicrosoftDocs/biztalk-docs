@@ -20,9 +20,9 @@ You should use scripts to deploy BizTalk applications where possible. Scripting 
 ## Using BTSTask
  You can use BTSTask.exe to script the creation of BizTalk applications, as well as to import existing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] .msi packages. If the creation of the applications is scripted, then the packages can be automatically built using an automated process on a build server.
 
- See the following topics for more information about scripting BizTalk application deployments:
+For more information about scripting BizTalk application deployments, see the following documentation:
 
--   [Deploying and Managing BizTalk Applications](https://go.microsoft.com/fwlink/?LinkId=154210)
+- [Deploying and Managing BizTalk Applications](/biztalk/core/deploying-and-managing-biztalk-applications)
 
 -   [Understanding BizTalk Server Application Deployment](/biztalk/core/understanding-biztalk-application-deployment-and-management)
 

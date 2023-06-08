@@ -55,11 +55,11 @@ This section contains recommendations for how to help secure your Enterprise Sin
 
 -   If your network supports Kerberos authentication, you should register all SSO servers. When you use Kerberos authentication between the master secret server and the SSO database, you must configure Service Principal Names (SPN) on the SQL server where the SSO database is located.
 
--   When you are running Windows Server 2003, if the master secret server is on a different domain from the other SSO servers and from the SSO database, you must disable RPC security (as used for Data Transaction Coordinator (DTC) authentication between computers) on the master secret server, on the SSO servers (processing computers in the processing domain), and on the SSO database. RPC security is a new DTC feature in Windows Server 2003. When you disable RPC security, the DTC authentication security level for RPC calls goes back to one available in Microsoft Windows. For more information about disabling RPC security, see the [Microsoft Help and Support Web site](https://go.microsoft.com/fwlink/?LinkId=24774).
+-   When you are running Windows Server 2003, if the master secret server is on a different domain from the other SSO servers and from the SSO database, you must disable RPC security (as used for Data Transaction Coordinator (DTC) authentication between computers) on the master secret server, on the SSO servers (processing computers in the processing domain), and on the SSO database. RPC security is a new DTC feature in Windows Server 2003. When you disable RPC security, the DTC authentication security level for RPC calls goes back to one available in Microsoft Windows. For more information about disabling RPC security, see [Microsoft Help and Support](https://support.microsoft.com/).
 
 -   SSO administrators should regularly monitor the event log in the master secret server and the SSO server for SSO auditing events.
 
--   In addition to firewalls, we recommend you use Internet Protocol security (IPsec) or Secure Sockets Layer (SSL) between all the SSO servers and the SSO database. For more information about SSL, see the [Microsoft Help and Support Web site](https://go.microsoft.com/fwlink/?LinkId=16731).
+-   In addition to firewalls, we recommend you use Internet Protocol security (IPsec) or Secure Sockets Layer (SSL) between all the SSO servers and the SSO database. For more information about SSL, see [Microsoft Help and Support](https://support.microsoft.com/).
 
 ## Perimeter Network
  When running Internet Information Services (IIS) and Enterprise Single Sign-On, follow these recommendations:
@@ -71,7 +71,7 @@ This section contains recommendations for how to help secure your Enterprise Sin
 ## SQL Server Access
  All SSO servers access the SQL Server Credential database.
 
- We recommend you use Secure Sockets Layer (SSL) and/or Internet Protocol security (IPsec) to help secure the transmission of data between the SSO servers and the Credential database. For more information about using SSL, see [Microsoft Support](https://go.microsoft.com/fwlink/?LinkId=33176).
+Microsoft recommends that you use Secure Sockets Layer (SSL) and/or Internet Protocol security (IPsec) to help secure the transmission of data between the SSO servers and the Credential database. For more information about using SSL, see [Microsoft Help and Support](https://support.microsoft.com/).
 
  To enable SSL for only the connection between the SSO server and the Credential database, you can set SSL support on every SSO server using the ssoconfig utility. This option enables SSO to always use SSL when accessing the Credential database. For more information, see [How to Enable SSL for Enterprise Single Sign-On](../esso/how-to-enable-ssl-for-enterprise-single-sign-on.md).
 
@@ -136,5 +136,5 @@ This section contains recommendations for how to help secure your Enterprise Sin
 -   You must use domain groups for the application users account. The SSO applications users account does not support an individual account.
 
 ## See Also
- [How to Audit Enterprise Single Sign-On](../esso/how-to-audit-enterprise-single-sign-on.md)  
+[How to Audit Enterprise Single Sign-On](../esso/how-to-audit-enterprise-single-sign-on.md)  
 [How to Update the Credential Database](../esso/how-to-update-the-credential-database.md)

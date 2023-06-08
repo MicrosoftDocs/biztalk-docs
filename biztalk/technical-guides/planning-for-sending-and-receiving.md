@@ -26,7 +26,7 @@ Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](
 -   **Transaction support** The ability to send and receive documents under the context of a distributed transaction coordinator (DTC) transaction. This functionality is required for maintaining ordered message delivery and to guarantee that documents are not duplicated or lost.
 
     > [!NOTE]
-    >  If you encounter problems with MSDTC, review the topic [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md).
+    > If you encounter problems with MSDTC, review the topic [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md).
 
 -   **Two-way communication support (Request/Response or Solicit/Response)** The ability to send a document and process a response message from the destination or to receive a document and send a response message to the source.
 
@@ -77,13 +77,24 @@ Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](
 |TIBCO Enterprise Message Service|Enables exchange of XML and binary data format messages between BizTalk Server and a TIBCO EMS server providing a tightly integrated and reliable application infrastructure.|4.2|
 |WebSphere MQ|Enables exchange of messages between BizTalk Server and IBM WebSphere MQ.|5.3 with Fix Pack 10 or later and 6.0 with Fix Pack 1.1 or later|
 
- For more information about the LOB adapters available with BizTalk Server, see [Adapters included with BizTalk Server 2010](https://go.microsoft.com/fwlink/?LinkId=152664).
+ For more information about LOB adapters available with BizTalk Server, see the following resources: 
+ 
+  - [Adapters in BizTalk Server overview](/biztalk/core/adapters-in-biztalk-server)
+  - [Available adapters in BizTalk Server](/biztalk/core/using-adapters)
+  - [BizTalk Adapters](https://marketplace.visualstudio.com/items?itemName=nsoftwarecom.nsoftwareBizTalkAdapters)
 
 ## BizTalk Adapter Pack
- Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] contains WCF-based adapters to provide connectivity to LOB applications such as Oracle Database, Oracle E-Business Suite, SAP, Siebel, and SQL Server. For a list of adapters available with [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], see [BizTalk Adapter Pack](https://go.microsoft.com/fwlink/?LinkId=152665).
+Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] contains WCF-based adapters to provide connectivity to LOB applications such as Oracle Database, Oracle E-Business Suite, SAP, Siebel, and SQL Server. For more information and a list of adapters available with [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], see the following resources:
+
+- [BizTalk Adapter Pack overview](/biztalk/adapters-and-accelerators/biztalk-adapter-pack) 
+- [BizTalk Adapter Pack](https://marketplace.visualstudio.com/items?itemName=nsoftwarecom.nsoftwareBizTalkAdapters)
+
 
 > [!IMPORTANT]
->  You can use the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Migration Tool to migrate BizTalk projects for LOB adapters to BizTalk projects for WCF-based LOB adapters available with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. You can download the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Migration Tool from [BizTalk Adapter Pack Migration Tool](https://go.microsoft.com/fwlink/?LinkID=153328). To know more about migrating LOB adapters to WCF-based LOB adapters included with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], see the [Microsoft BizTalk Adapter 2.0 Migration Whitepaper](https://go.microsoft.com/fwlink/?LinkId=158848).
+> To migrate BizTalk projects for LOB adapters to BizTalk projects for WCF-based LOB adapters available with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], you can use the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Migration Tool.
+>
+> To download the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Migration Tool, go to the [GitHub repo for the Azure Integration Migrator BizTalk](https://github.com/Azure/aimbiztalk). 
+> For more information about migrating LOB adapters to WCF-based LOB adapters included with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], see the [Microsoft BizTalk Adapter 2.0 Migration Whitepaper](https://www.microsoft.com/download/details.aspx?id=36510).
 
 ## BizTalk Accelerators
  While BizTalk adapters accommodate sending and receiving documents with a particular protocol, BizTalk accelerators are designed to accommodate the exchange of documents in accordance with a particular industry standard. For a list of the available BizTalk accelerators, see [Microsoft BizTalk Server Accelerators](/biztalk/adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server).

@@ -47,7 +47,7 @@ In addition to following the recommendations in [Pre-Configuration Database Opti
 -   Database auto-growth should be set to a fixed number of megabytes instead of to a percentage (specify file growth **In Megabytes**). This should be done so that, if auto-growth occurs, it does so in a measured fashion. This reduces the likelihood of excessive database growth. The growth increment for BizTalk Server databases should generally be no lower than 100 MB.
 
 ## Pre-size BizTalk Server databases to appropriate size with multiple data files
- When SQL Server increases the size of a file, it must first initialize the new space before it can be used. This is a blocking operation that involves filling the new space with empty pages. SQL Server 2005 or later running on Windows Server 2003 or later supports “instant file initialization.” This can greatly reduce the performance impact of a file growth operation. For more information, see [Database File Initialization](https://go.microsoft.com/fwlink/?LinkId=132063) in the SQL Server books online. This topic provides steps for enabling instant file initialization.
+When SQL Server increases the size of a file, it must first initialize the new space before it can be used. This is a blocking operation that involves filling the new space with empty pages. SQL Server 2005 or later running on Windows Server 2003 or later supports instant file initialization. This capability can greatly reduce the performance impact of a file growth operation. For more information, see [Database Instant File Initialization](/sql/relational-databases/databases/database-instant-file-initialization), which provides steps for enabling instant file initialization.
 
  The following list describes the BizTalk Server database configurations used in our lab tests:
 
@@ -84,10 +84,14 @@ GO
 ```
 
 ## Move the Backup BizTalk Server output directory to a dedicated LUN
- Move the Backup BizTalk (Full and Log backup) output directory to a dedicated LUN, and then edit the Backup BizTalk Server job to point to the dedicated LUN. Moving the Backup BizTalk Server output directory to a dedicated LUN will reduce disk I/O contention when the job is running by writing to a different disk than the job is reading from. For more information about configuring the Backup BizTalk Server job see [How to Configure the Backup BizTalk Server Job](../core/how-to-configure-the-backup-biztalk-server-job.md) in BizTalk Server 2010 help.
+1. Move the output directory named **Backup BizTalk (Full and Log backup)** to a dedicated LUN.
+
+1. Edit the job named **Backup BizTalk Server** to point to the dedicated LUN.
+
+The first step reduces disk I/O contention when the job is running by writing to a disk that differs from where the job is reading. For more information, see [Configure the Backup BizTalk Server Job](/biztalk/core/how-to-configure-the-backup-biztalk-server-job).
 
 ## Verify that the BizTalk Server SQL Agent Jobs are running
- BizTalk Server includes several SQL Server Agent jobs that perform important functions to keep your servers operational and healthy. You should monitor the health of these jobs and ensure they are running without errors. One of the most common causes of performance problems in BizTalk Server is the BizTalk Server SQL Agent Jobs are not running, which in turn can cause the MessageBox and Tracking databases to grow unchecked. Follow these steps to ensure the BizTalk Server SQL Agent Jobs are running without problems:
+In BizTalk Server, several SQL Server Agent jobs perform important functions that keep your servers operational and healthy. Make sure that you monitor the health of these jobs and that they run without errors. One common cause of BizTalk Server performance problems is that when the BizTalk Server SQL Agent Jobs aren't running, the MessageBox and Tracking databases can grow unchecked. To make sure that the BizTalk Server SQL Agent Jobs run without problems, follow these steps:
 
 1.  **Verify that the SQL Server Agent service is running**.
 
@@ -106,15 +110,23 @@ GO
     Verify the SQL Server Agent service is configured with a **Startup type** of **Automatic** unless the SQL Server Agent service is configured as a cluster resource on a Windows Server cluster. If the SQL Server Agent service is configured as a cluster resource, then you should configure the **Startup type** as **Manual** because the service will be managed by the Cluster service.
 
 ## Configure Purging and Archiving of Tracking Data
- Follow these steps to ensure that purging and archiving of tracking data is configured correctly:
+To make sure that you correctly set up purging and archiving tracking data, follow these steps:
 
-1.  Ensure the SQL Agent job “DTA Purge and Archive” is properly configured, enabled, and successfully completing. For more information, see [How to Configure the DTA Purge and Archive Job](../core/how-to-configure-the-dta-purge-and-archive-job.md) in the BizTalk Server documentation.
+1. Make sure that the SQL Agent job named **DTA Purge and Archive** is properly configured, enabled, and successfully completing.
 
-2.  Ensure the job is able to purge the tracking data as fast as the incoming tracking data is generated. For more information, see [Measuring Maximum Sustainable Tracking Throughput](../core/measuring-maximum-sustainable-tracking-throughput.md) in the BizTalk Server documentation.
+   For more information, see [Configure the DTA Purge and Archive Job](/biztalk/core/how-to-configure-the-dta-purge-and-archive-job).
 
-3.  Review the soft purge and hard purge parameters to ensure you are keeping data for the optimal length of time. For more information, see [Archiving and Purging the BizTalk Tracking Database](../core/archiving-and-purging-the-biztalk-tracking-database.md) in the BizTalk Server documentation.
+2. Make sure that the job can purge the tracking data as fast as the incoming tracking data is generated.
 
-4.  If you only need to purge the old data and do not need to archive it first, change the SQL Agent job to call the stored procedure “dtasp_PurgeTrackingDatabase.” For more information, see [How to Purge Data from the BizTalk Tracking Database](../core/how-to-purge-data-from-the-biztalk-tracking-database.md) in the BizTalk Server documentation.
+   For more information, see [Measuring Maximum Sustainable Tracking Throughput](/biztalk/core/measuring-maximum-sustainable-tracking-throughput).
+
+3. Review the soft purge and hard purge parameters to ensure you are keeping data for the optimal length of time.
+
+   For more information, see [Archive and Purge the BizTalk Tracking Database](/biztalk/core/archiving-and-purging-the-biztalk-tracking-database).
+
+4. If you only need to purge the old data and don't need to archive first, change the SQL Agent job to call the stored procedure named **dtasp_PurgeTrackingDatabase**.
+
+   For more information, see [Purge Data from the BizTalk Tracking Database](/biztalk/core/how-to-purge-data-from-the-biztalk-tracking-database).
 
 ## Monitor and reduce DTC log file disk I/O contention
  The Distributed Transaction Coordinator (DTC) log file can become a disk I/O bottleneck in transaction-intensive environments. This is especially true when using adapters that support transactions, such as SQL Server, MSMQ, or MQSeries, or in a multi-MessageBox environment. Transactional adapters use DTC transactions, and multi-MessageBox environments make extensive use of DTC transactions. To ensure the DTC log file does not become a disk I/O bottleneck, you should monitor the disk I/O usage for the disk where the DTC log file resides on the SQL Server database servers. If disk I/O usage for the disk where the DTC log file resides becomes excessive, consider moving the DTC log file to a faster disk. In an environment where SQL Server is clustered, this is not as much of a concern because the log file will already be on a shared drive, which will likely be a fast SAN drive with multiple spindles. You should nevertheless still monitor the disk I/O usage. This is because it can become a bottleneck in non-clustered environments or when the DTC log file is on a shared disk with other disk-intensive files.

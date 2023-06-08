@@ -58,4 +58,4 @@ Although Enterprise Single Sign-On (SSO) and host-initiated SSO have certain asp
      For more information, see [Kerberos Protocol Transition and Constrained Delegation](/windows-server/security/kerberos/kerberos-constrained-delegation-overview).
 
 ## See Also
- [Host Initiated Single Sign-On](../esso/host-initiated-single-sign-on.md)
+[Host Initiated Single Sign-On](../esso/host-initiated-single-sign-on.md)

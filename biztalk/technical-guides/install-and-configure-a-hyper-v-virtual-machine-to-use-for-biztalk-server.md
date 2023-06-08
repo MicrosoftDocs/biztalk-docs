@@ -152,7 +152,9 @@ This topic provides recommendations for installing and configuring BizTalk Serve
 - To minimize the time required to install virtual machines, create a base image consisting only of the guest operating system and software prerequisites. Use SysPrep to prepare the VHD image for reuse, and then base all your virtual machines (VMs) on this VHD.
 
   > [!NOTE]
-  >  With BizTalk Server, it is possible to run Sysprep against a base image *after*BizTalk Server has been installed and configured on the server. This can be accomplished through the use of a Sysprep answer file and scripts provided with BizTalk Server. These sample scripts are designed for use with BizTalk Server installed on   [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. For more information, see the BizTalk Server online documentation.
+  > After you install and set up BizTalk Server on your server, you can run SysPrep against a base image by using 
+  > a SysPrep answer file and scripts provided with BizTalk Server. These sample scripts are designed for use with
+  > BizTalk Server and are installed on [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. For more information, see [Sysprep a BizTalk Server VHD (BizTalk Server Sample)](/biztalk/core/sysprep-a-biztalk-server-vhd-biztalk-server-sample) and [Unattended Windows Setup Reference](https://go.microsoft.com/fwlink/?LinkId=142364).
   >
   >  For more information, see [Unattended Windows Setup Reference](https://go.microsoft.com/fwlink/?LinkId=142364).
 

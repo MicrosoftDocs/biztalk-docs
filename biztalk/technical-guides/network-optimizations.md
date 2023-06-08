@@ -67,9 +67,9 @@ In a BizTalk Server environment where the BizTalk Server computer(s) are separat
 
     1.  Access the network connection properties page, select **Internet Protocol Version 4(TCP/IPv4)**, and then click **Properties**.
 
-    2.  Click the radio button next to **Use the following IP address**.
+    2.  Select **Use the following IP address**.
 
-2.  Enter a value for the **IP address** field from the range of private IP addresses identified in [RFC 1918, Address Allocation for Private IP Addresses](https://go.microsoft.com/fwlink/?LinkID=31904).
+2.  Enter a value for the **IP address** field from the range of private IP addresses identified in [RFC 1918, Address Allocation for Private IP Addresses](http://www.faqs.org/rfcs/rfc1918.html).
 
 3.  Make a note of the IP address that you specified; you will need to associate this value with the NetBIOS name of this computer in a HOSTS file entry later.
 
@@ -86,10 +86,13 @@ In a BizTalk Server environment where the BizTalk Server computer(s) are separat
     >  Because by default Windows checks the local HOSTS file first to resolve NetBIOS names, by updating the HOSTS file on each virtual machine with the unique private IP addresses of the other virtual machines, network traffic between these machine will now be routed over the private virtual network.
 
 ### Disable TCP Offloading for the Virtual Machine Network Cards
- Edit the registry as described in the MSDN topic “Using Registry Values to Enable and Disable Task Offloading (NDIS 5.1)” to disable TCP offloading for the network cards on each virtual machine.
+To disable TCP offloading for the network cards on each virtual machine, edit the registry for (NDIS 5.1) as described by [Using Registry Values to Enable and Disable Task Offloading](/windows-hardware/drivers/network/using-registry-values-to-enable-and-disable-task-offloading).
 
 > [!IMPORTANT]
->  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see [Description of the Microsoft Windows registry](https://go.microsoft.com/fwlink/?LinkId=62729).
+> When you use the Registry Editor, use extreme caution, and do so at your own risk. 
+> Problems that result from incorrectly using the Registry Editor might require you to 
+> reinstall your operating system. For more information about how to back up, restore, 
+> and modify the registry, see [Windows registry information for advanced users](/troubleshoot/windows-server/performance/windows-registry-advanced-users).
 
 ## General guidelines for improving network performance
  The following recommendations can be used to increase network performance:
@@ -97,8 +100,6 @@ In a BizTalk Server environment where the BizTalk Server computer(s) are separat
 ### Add additional network cards to computers in the BizTalk Server environment
  Just as adding additional hard drives can improve disk performance, adding additional network cards can improve network performance. If the network cards on the computers in your BizTalk Server environment are saturated and the card is a bottleneck, consider adding one or more additional network cards to improve performance.
 
-### Implement network segmentation
- Follow the recommendations in the **Subnets** section of the "BizTalk Server Database Optimization" whitepaper.
 
 ### Where possible, replace hubs with switches
  Switches contain logic to directly route traffic between the source and destination whereas hubs use a broadcast model to route traffic. Therefore switches are more efficient and offer improved performance.
