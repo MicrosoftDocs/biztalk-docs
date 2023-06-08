@@ -154,9 +154,7 @@ This topic provides recommendations for installing and configuring BizTalk Serve
   > [!NOTE]
   > After you install and set up BizTalk Server on your server, you can run SysPrep against a base image by using 
   > a SysPrep answer file and scripts provided with BizTalk Server. These sample scripts are designed for use with
-  > BizTalk Server and are installed on [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. For more information, see [Sysprep a BizTalk Server VHD (BizTalk Server Sample)](/biztalk/core/sysprep-a-biztalk-server-vhd-biztalk-server-sample) and [Unattended Windows Setup Reference](https://go.microsoft.com/fwlink/?LinkId=142364).
-  >
-  >  For more information, see [Unattended Windows Setup Reference](https://go.microsoft.com/fwlink/?LinkId=142364).
+  > BizTalk Server and are installed on [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]. For more information, see [Sysprep a BizTalk Server VHD (BizTalk Server Sample)](/biztalk/core/sysprep-a-biztalk-server-vhd-biztalk-server-sample), [Unattended Windows Setup Reference](https://go.microsoft.com/fwlink/?LinkId=142364), and [Unattended Windows Setup Reference](https://go.microsoft.com/fwlink/?LinkId=142364).
 
 - Follow the recommendations in the “When Installing and Configuring BizTalk Server…” section of the topic [Checklist: Best Practices for Installing and Configuring BizTalk Server on Hyper-V](../technical-guides/checklist-best-practices-to-install-and-configure-biztalk-server-on-hyper-v.md).
 
