@@ -36,7 +36,7 @@
     "externalReference": [],
     "globalMetadata": {
       "feedback_system": "Standard",
-      "breadcrumb_path": "/his/breadcrumb/toc.json",
+      "breadcrumb_path": "/host-integration-server/breadcrumb/toc.json",
       "layout": "Conceptual",
       "titleSuffix": "Host Integration Server",
       "uhfHeaderId": "MSDocsHeader-His",
