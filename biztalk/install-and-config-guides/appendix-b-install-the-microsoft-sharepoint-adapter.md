@@ -38,12 +38,6 @@ In BizTalk Server 2013 R2 and BizTalk Server 2013, there are two options for the
 
 *  The SharePoint SSOM and CSOM components can both be installed if BizTalk Server 2013 R2 or 2013 and SharePoint are installed on the same computer.
 
-* The BAM Portal only runs in 32-bit mode. If the BAM Portal is installed on a 64-bit machine, ensure that ASP.NET 2.0 32-bit is enabled and the IIS application pool is in 32-bit mode. To do this:
-
-    -   **ASP.NET**: Open IIS Manager, click the **BAM Portal** web site, and then double-click **Handler Mappings**. In the **Enabled** list, confirm **PageHandlerFactory-ISAPI-2.0** is listed.
-
-    -   **Application Pool**: Open IIS Manager, click **Application Pools**, click the **BAMAppPool**, and then click **Advanced Settings**. In **Enable 32-bit applications**, select **True**.
-
 * When installing SharePoint, click the **Server Farm** option, even when you are creating a single-server BizTalk Server and SharePoint installation. A **Server Farm** installation allows you to configure the SharePoint databases.
 * [CSOM: SharePoint Services Adapter](../core/csom-sharepoint-services-adapter.md) provides information on configuring a SharePoint receive location and send port.
 * BizTalk Server 2010 and previous versions use the Server Side Object Model (SSOM) to connect to SharePoint 2010.
