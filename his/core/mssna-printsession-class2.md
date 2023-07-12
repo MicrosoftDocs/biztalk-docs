@@ -270,7 +270,7 @@ class MsSna_PrintSession : MsSna_Config
 |21|Catalan[284]|  
 |22|Chinese (PRC)[935]|  
 |23|Chinese (Singapore)[935]|  
-|24|Chinese (Hong Kong)[937]|  
+|24|Chinese (Hong Kong Special Administrative Region)[937]|  
 |25|Chinese (Macau)[937]|  
 |26|Chinese (Taiwan)[937]|  
 |27|Croatian[870]|  
