@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Choosing the Appropriate Programming Model
-A TI programming model determines the method used to access and integrate host applications and TI configuration requirements depending on the specific TI programming model being used. Implementing TI may require modification to the existing mainframe TPs to be able to fit the programming models that it supports. Specifically, this may be necessary when:  
+A programming model determines the method used to access and integrate host applications and configuration requirements depending on the specific solution goals. Implementing TI or the Azure Logic Apps connectors for Mainframe and Midranges, may require modification to the existing mainframe TPs to be able to fit the programming models that it supports. Specifically, this may be necessary when:  
   
 - A TP does not expect a simple request-reply response.  
   
@@ -25,7 +25,7 @@ A TI programming model determines the method used to access and integrate host a
   
   TI supports the programming models listed in the table below. Some of the factors you should consider when choosing the appropriate programming model for your organization are:  
   
-- the network procotol  
+- the network protocol  
   
 - the maximum size of the message or data that can be sent to the host  
   
