@@ -15,11 +15,11 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Configuring LUs
-When a user configures a 5250 emulator to access an AS/400, the emulator is configured with the local and remote APPC LU alias names. The LU alias names are mapped to LU names that are used for the conversation with the AS/400.  
+When a user configures a 5250 emulator to access an AS/400, the emulator is configured with the local and remote APPC LU alias names. The LU alias names are mapped to LU names that are used for the conversation with the IBM System i.  
   
- Host Integration Server allows you to define a default local and remote APPC LU for each user group accessing the AS/400. Setting default values relieves the user from having to remember APPC LU names; these values should be specified, if possible.  
+ Host Integration Server allows you to define a default local and remote APPC LU for each user group accessing the IBM System i. Setting default values relieves the user from having to remember APPC LU names; these values should be specified, if possible.  
   
- When creating local APPC LUs, it is recommended that you use the name of a user or group as the local LU alias. When the session from a particular user or group is active, the LU alias name is displayed in SNA Manager. Matching local LU alias names with user names allows you to tell which 5250 users are connected to the AS/400. This also makes it easy to keep track of which local LU a particular user should use.  
+ When creating local APPC LUs, it is recommended that you use the name of a user or group as the local LU alias. When the session from a particular user or group is active, the LU alias name is displayed in SNA Manager. Matching local LU alias names with user names allows you to tell which 5250 users are connected to the IBM System i. This also makes it easy to keep track of which local LU a particular user should use.  
   
  To use this method, create a separate local APPC LU with an LU alias that matches the user name of each person or group being added to the SNA subdomain. After the LU is created, assign the LU to the user as the default local APPC LU along with a default remote APPC LU.  
   
