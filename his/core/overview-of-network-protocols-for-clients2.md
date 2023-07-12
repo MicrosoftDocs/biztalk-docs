@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Overview of Network Protocols for Clients
-[!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] clients can communicate with servers through the following LAN protocols:  
+[!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] clients can communicate with servers through the following protocols:  
   
 -   Microsoft Networking (Named Pipes)  
   
@@ -26,9 +26,9 @@ manager: "anneta"
   
  Correct installation of network and Host Integration Server on servers and clients ensures that two essential aspects of communication work correctly:  
   
-- The servers and clients are visible to each other on the local area network (LAN). This results when the network software is installed correctly on all affected computers.  
+- The servers and clients are visible to each other on the network. This results when the network software is installed correctly on all affected computers.  
   
-- The Host Integration Server computers communicate with clients over the correct LAN protocol, and the clients direct their communication to the correct domain name or, for some clients using Microsoft Networking or TCP/IP, to one or more correct server names. A Host Integration Server client must be set up to use the correct server or domain name or, for Microsoft Networking, set up to locate servers in the local domain. Otherwise, the client will not be able to locate a Host Integration Server computer.  
+- The Host Integration Server computers communicate with clients over the correct protocol, and the clients direct their communication to the correct domain name or, for some clients using Microsoft Networking or TCP/IP, to one or more correct server names. A Host Integration Server client must be set up to use the correct server or domain name or, for Microsoft Networking, set up to locate servers in the local domain. Otherwise, the client will not be able to locate a Host Integration Server computer.  
   
   For information about how Host Integration Server enables you to view and choose the domain and protocols to be used by Host Integration Server computers and clients, see [Important Network Options on a Host Integration Server Computer](../core/important-network-options-on-a-host-integration-server-computer2.md). For details about how each of the network protocols works on a Host Integration Server client, see the section about that specific network protocol (for example, [TCP/IP Clients](../core/tcp-ip-clients2.md)).  
   
