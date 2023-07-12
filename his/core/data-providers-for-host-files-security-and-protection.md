@@ -27,10 +27,10 @@ You can use the ADO.NET Provider for Host Files (Data Provider) to connect Windo
 ## Folder Access Control List  
  The user account requires the Folder Access Control List settings associated with the HIS Administrators Local Group and HIS Runtime Users Local Group.  
   
- Program Files\Microsoft Host Integration Server 2013  
-Program Files\Microsoft Host Integration Server 2013\system  
-Program Files\Microsoft Host Integration Server 2013\ SysWOW64  
-Program Files\Microsoft Host Integration Server 2013\traces  
+ Program Files\Microsoft Host Integration Server 2020  
+Program Files\Microsoft Host Integration Server 2020\system  
+Program Files\Microsoft Host Integration Server 2020\ SysWOW64  
+Program Files\Microsoft Host Integration Server 2020\traces  
 Documents\Host Integration Server\Data Sources  
   
 ## Protection  
@@ -39,10 +39,10 @@ Documents\Host Integration Server\Data Sources
  Data Source Wizardstores the authentication credentials (user name and password) in plain text in the connection string text (TXT) file. We recommend that you configure the Data Provider to use Enterprise Single Sign-On (ESSO), which securely stores mappings from Windows Active Directory accounts to IBM host system credentials. The Data Provider retrieves these mappings at runtime to securely authenticate Windows users to remote IBM host file system servers. You should run the Data Provider in-process with the Data Consumer and Data Tools.  
   
 ### Data Provider connects by using unencrypted, plain text, user name and password  
- Data Provider connects to remote host file system server computers over a TCP/IP or SNA network using basic authentication, where the user name and password are not encrypted and are submitted in plain text. We recommend that you configure the Data Provider to use authentication encryption by using Secure Sockets Layer (SSL) V3.0 or Transport Layer Security (TLS) V1.0 when you connect to remote host file system server computers that are running i5/OS.  
+ Data Provider connects to remote host file system server computers over a TCP/IP or SNA network using basic authentication, where the user name and password are not encrypted and are submitted in plain text. We recommend that you configure the Data Provider to use authentication encryption by using Secure Sockets Layer (SSL) V3.0 or Transport Layer Security (TLS) V2.0 when you connect to remote host file system server computers that are running i7/OS.  
   
 ## Data Provider sends and receives unencrypted data  
- Data Provider sends and receives unencrypted data. We recommend that you configure the Data Provider to use data encryption by using Secure Sockets Layer (SSL) V3.0 or Transport Layer Security (TLS) V1.0.  
+ Data Provider sends and receives unencrypted data. We recommend that you configure the Data Provider to use data encryption by using Secure Sockets Layer (SSL) V3.0 or Transport Layer Security (TLS) V2.0.  
   
 ## Data Consumers and Data Tools read and write connection files to and from unsecure folders  
  Data Consumers and Data Tools can read and write connection files to and from unsecure folders. You should store connection string (TXT) files in the Host Integration Server\Data Sources or a program directory, and then secure the folder with local administrator rights. You should store the connection string in the Data Consumer app config file, and then secure the folder with local administrator rights. You should persist the connection information into the Data Consumers and Data Tools secure stores, and then run the Data Provider in-process with the Data Consumer and Data Tools.  
