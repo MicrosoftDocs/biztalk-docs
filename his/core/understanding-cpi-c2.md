@@ -22,7 +22,7 @@ Common Programming Interface for Communications (CPI-C) is an application progra
  ![Image that shows CPI-C symbolic names.](../core/media/pln08.gif "pln08")  
 Diagram showing CPI-C symbolic names  
   
- Host Integration Server supports the CPI-C API and provides for configuration of CPI-C parameters. These parameters allow applications on the Host Integration Server systems to communicate with applications on any platform that supports APPC communications and CPI-C including mainframes, AS/400s, Windows systems, and UNIX systems.  
+ Host Integration Server supports the CPI-C API and provides for configuration of CPI-C parameters. These parameters allow applications on the Host Integration Server systems to communicate with applications on any platform that supports APPC communications and CPI-C including IBM mainframes, IBM System i, Windows systems, and UNIX systems.  
   
 ## See Also  
  [Understanding Peer-to-Peer Networking](../core/understanding-peer-to-peer-networking2.md)

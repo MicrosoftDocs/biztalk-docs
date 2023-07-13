@@ -27,10 +27,10 @@ You can use the data providers for DB2 (Data Provider) to connect Windows data c
 ## Folder Access Control List  
  The user account requires the Folder Access Control List settings associated with the HIS Administrators Local Group and HIS Runtime Users Local Group.  
   
- Program Files\Microsoft Host Integration Server 2013  
-Program Files\Microsoft Host Integration Server 2013\system  
-Program Files\Microsoft Host Integration Server 2013\ SysWOW64  
-Program Files\Microsoft Host Integration Server 2013\traces  
+ Program Files\Microsoft Host Integration Server 2020  
+Program Files\Microsoft Host Integration Server 2020\system  
+Program Files\Microsoft Host Integration Server 2020\ SysWOW64  
+Program Files\Microsoft Host Integration Server 2020\traces  
 Documents\Host Integration Server\Data Sources  
   
 ## Protection  
@@ -42,7 +42,7 @@ Documents\Host Integration Server\Data Sources
  Data Source Wizard and Data Links store the authentication credentials (user name and password) in plain text in the Universal Data Link (UDL) or connection string (TXT) file. We recommend that you configure the data providers to use Enterprise Single Sign-On (ESSO), which securely stores mappings from Windows Active Directory accounts to IBM DB2 credentials. The data providers retrieve these mappings at runtime to securely authenticate Windows users to remote IBM DB2 database servers. You should run the Data Provider in-process with the Data Consumer and Data Tools.  
   
 ### DRDA supports weak built-in encryption based on DES  
- DRDA supports built-in authentication and data encryption using weak 56-bit Data Encryption Standard (DES) technologies. We recommend that you configure the Data Provider to use strong data encryption by using Secure Sockets Layer (SSL) V3.0 or Transport Layer Security (TLS) V1.0. For encrypting authentication only, you can utilize the Advanced Encryption Standard (AES) to support strong 256-bit encryption.  
+ DRDA supports built-in authentication and data encryption using weak 56-bit Data Encryption Standard (DES) technologies. We recommend that you configure the Data Provider to use strong data encryption by using Secure Sockets Layer (SSL) V3.0 or Transport Layer Security (TLS) V2.0. For encrypting authentication only, you can utilize the Advanced Encryption Standard (AES) to support strong 256-bit encryption.  
   
 ### Data Provider connects by using unencrypted, plain text, user name and password  
  Data Provider connects to remote DB2 server computers over a TCP/IP or SNA network using basic authentication, where the user name and password are not encrypted and are submitted in plain text. We recommend that you configure the Data Provider to use authentication encryption by using Kerberos, Secure Sockets Layer (SSL) V3.0 or Transport Layer Security (TLS) V1.0, or authentication encryption using AES.  
@@ -57,7 +57,7 @@ Documents\Host Integration Server\Data Sources
 |-|-|-|  
 |Kerberos|Yes|No|  
 |SSL V3|Yes|Yes|  
-|TLS V1|Yes|Yes|  
+|TLS V2|Yes|Yes|  
 |AES|Yes|No|  
   
 ### Data Consumers and Data Tools read and write connection files to and from unsecure folders  

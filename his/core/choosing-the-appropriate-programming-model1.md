@@ -15,7 +15,7 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Choosing the Appropriate Programming Model
-A TI programming model determines the method used to access and integrate host applications and TI configuration requirements depending on the specific TI programming model being used. Implementing TI may require modification to the existing mainframe TPs to be able to fit the programming models that it supports. Specifically, this may be necessary when:  
+A programming model determines the method used to access and integrate host applications and configuration requirements depending on the specific solution goals. Implementing TI or the Azure Logic Apps connectors for Mainframe and Midranges, may require modification to the existing mainframe TPs to be able to fit the programming models that it supports. Specifically, this may be necessary when:  
   
 - A TP does not expect a simple request-reply response.  
   
@@ -25,7 +25,7 @@ A TI programming model determines the method used to access and integrate host a
   
   TI supports the programming models listed in the table below. Some of the factors you should consider when choosing the appropriate programming model for your organization are:  
   
-- the network procotol  
+- the network protocol  
   
 - the maximum size of the message or data that can be sent to the host  
   
@@ -50,8 +50,6 @@ A TI programming model determines the method used to access and integrate host a
 |[CICS LU6.2 Link](../core/cics-lu6-2-link1.md)|LU6.2|32KB|Yes|No|No|-   Server TPs are already coded to use the COMMAREA. **Note:**      CICS Link does not support multiple send-and-receive commands. Therefore, variable length recordsets are not supported, but fixed-sized recordsets are supported.<br />-   CICS TPs do not contain the necessary logic to handle issuing APPC verbs directly, but instead must rely on the CICS Mirror transaction.<br />-   The TP is coded for a simple send-and-receive sequence.|  
 |[CICS LU6.2 User Data](../core/cics-lu6-2-user-data2.md)|LU6.2|unlimited|Yes|Yes<br /><br /> (Server TPs are coded to handle all APPC and Sync Level 2  communica-tions.)|Yes|-   Existing TPs contain the proper code necessary to manage their own APPC and Sync Level 2 communications.<br />-   Can use multiple send-and-receive commands.|  
 |[IMS LU6.2 User Data](../core/ims-lu6-2-user-data1.md)|LU6.2|unlimited|Yes|No|No|-   Each server TP must have the embedded code necessary to handle all data communications using the LU6.2 protocol.|  
-|**HTTP Link**|HTTP|32 KB|No|No|No (see sample code)|-   See MSHMIRS sample Programs<br /><br /> -   1:many relationship between server application and port.|  
-|**HTTP User Data**|HTTP|unlimited|No|No|Yes (based on sample code in HTTPGetBalanceUserData.cbl)|-   See GETBALUD sample Program<br /><br /> -   1:many relationship between server application and port.|  
 |**HTTP Link**|HTTP|32 KB|No|No|No (see sample code)|-   See MSHMIRS sample Programs<br /><br /> -   1:many relationship between server application and port.|  
 |**HTTP User Data**|HTTP|unlimited|No|No|Yes (based on sample code in HTTPGetBalanceUserData.cbl)|-   See GETBALUD sample Program<br /><br /> -   1:many relationship between server application and port.|  
   
