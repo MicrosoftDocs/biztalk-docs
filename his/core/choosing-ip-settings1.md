@@ -15,6 +15,6 @@ ms.author: "hisdocs"
 manager: "anneta"
 ---
 # Choosing IP Settings
-IP settings assigned to the TN5250 definitions allow TN5250 clients to connect to the AS/400. By default, the TN5250 definition is not assigned an IP address or a subnet mask. This allows any TN5250 client to connect to the AS/400.  
+IP settings assigned to the TN5250 definitions allow TN5250 clients to connect to the IBM System i. By default, the TN5250 definition is not assigned an IP address or a subnet mask. This allows any TN5250 client to connect to the IBM System i.  
   
- You can restrict access to the TN5250 service by specifying the IP address or subnet mask of the client workstation(s). When these values are specified, only clients whose IP and/or subnet mask match those specified in the TN5250 configuration are allowed access to the AS/400 through the TN5250 service. You can also specify the workstation name in place of the IP, and use a WINS, DHCP, or other name-resolution service to resolve a friendly name to an IP address.
+ You can restrict access to the TN5250 service by specifying the IP address or subnet mask of the client workstation(s). When these values are specified, only clients whose IP and/or subnet mask match those specified in the TN5250 configuration are allowed access to the IBM System i through the TN5250 service. You can also specify the workstation name in place of the IP, and use a WINS, DHCP, or other name-resolution service to resolve a friendly name to an IP address.
