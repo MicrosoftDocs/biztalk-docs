@@ -26,7 +26,7 @@ The RosettaNet organization creates and maintains Partner Interface Processes (P
 
  Each PIP specification provides a document type definition (DTD) file and a message guideline document. The DTD file defines the service-content message structure. The message-guideline document, which is a human-readable HTML file, specifies element-level constraints. Together, they provide a complete definition of the business process.
 
- For more information about PIP specifications, see the RosettaNet Web site at [https://go.microsoft.com/FWLink/?LinkID=33859](https://go.microsoft.com/FWLink/?LinkID=33859).
+ For more information about PIP specifications, visit the [GS1 RosettaNet website](https://www.gs1us.org/resources/rosettanet).
 
 ## PIP Contents
  A PIP specification does the following:
@@ -77,8 +77,7 @@ The RosettaNet organization creates and maintains Partner Interface Processes (P
 
     -   PIP 3A6: Distribute Order Status
 
-    -   …
 
 ## See Also
- [RosettaNet and CIDX Messaging Standards](../../adapters-and-accelerators/accelerator-rosettanet/rosettanet-and-cidx-messaging-standards.md)
- [RNIF Standard](../../adapters-and-accelerators/accelerator-rosettanet/rnif-standard.md)
+[RosettaNet and CIDX Messaging Standards](../../adapters-and-accelerators/accelerator-rosettanet/rosettanet-and-cidx-messaging-standards.md)  
+[RNIF Standard](../../adapters-and-accelerators/accelerator-rosettanet/rnif-standard.md)

@@ -71,7 +71,7 @@ Service could not be started. : System.Net.Sockets.SocketException (10061): No c
  The HOSTS file is located in the %systemroot%\drivers\etc\ directory.
 
 > [!NOTE]
->  For more information about the Microsoft Malware Protection Center signature update that addresses a possible threat from SettingsModifier:Win32/PossibleHostsFileHijack, go to [https://go.microsoft.com/fwlink/?LinkId=146221](https://go.microsoft.com/fwlink/?LinkId=146221).
+> For more information about the possible threat from the malware named **SettingsModifier:Win32/PossibleHostsFileHijack**, see [Microsoft Security Intelligence page about this threat](https://www.microsoft.com/wdsi/threats/malware-encyclopedia-description?name=SettingsModifier%3AWin32%2FHostsFileHijack&threatid=265754) and [Microsoft Support page about "Hosts file is detected as malware in Windows Defender"](https://support.microsoft.com/topic/hosts-file-is-detected-as-malware-in-windows-defender-4320fa8b-0d54-1129-db85-61f095144521).
 
 ## Enlistment of an Orchestration Fails if Referenced Assemblies are Missing from the GAC/Mgmt DB
 

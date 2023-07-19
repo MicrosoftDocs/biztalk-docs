@@ -91,7 +91,7 @@ Service could not be started. : System.Net.Sockets.SocketException (10061): No c
  The HOSTS file is located in the %systemroot%\drivers\etc\ directory.
 
 > [!NOTE]
-> See the Microsoft Malware Protection Center signature update that addresses a possible threat from [SettingsModifier:Win32/PossibleHostsFileHijack](https://go.microsoft.com/fwlink/?LinkId=146221).
+For more information about the possible threat from the malware named **SettingsModifier:Win32/PossibleHostsFileHijack**, see [Microsoft Security Intelligence page about this threat](https://www.microsoft.com/wdsi/threats/malware-encyclopedia-description?name=SettingsModifier%3AWin32%2FHostsFileHijack&threatid=265754) and [Microsoft Support page about "Hosts file is detected as malware in Windows Defender"](https://support.microsoft.com/topic/hosts-file-is-detected-as-malware-in-windows-defender-4320fa8b-0d54-1129-db85-61f095144521).
 
 ## Configuration Logging
  The configuration program writes detailed information to a configuration log file which by default is located in the temp directory of the computer running BizTalk Server. To determine the folder that is specified by the TEMP environment variable open a command prompt on this computer, type the following command, and then press ENTER:

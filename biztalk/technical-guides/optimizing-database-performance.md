@@ -17,7 +17,7 @@ manager: "anneta"
 # Optimizing Database Performance
 BizTalk Server is an extremely database-intensive application that may require the creation of up to 13 databases in SQL Server. Because one of the primary design goals of BizTalk Server is to ensure that no messages are lost, BizTalk Server persists data to disk with great frequency and furthermore, does so within the context of an MSDTC transaction. Therefore, database performance is paramount to the overall performance of any BizTalk Server solution.
 
- This section describes general methods for maximizing SQL Server performance as well as methods for maximizing database performance that are specific to a BizTalk Server environment. For additional information about optimizing BizTalk database performance, see the [BizTalk Database Optimization whitepaper](https://go.microsoft.com/fwlink/?LinkId=101578) (https://go.microsoft.com/fwlink/?LinkId=101578).
+ This section describes general methods for maximizing SQL Server performance as well as methods for maximizing database performance that are specific to a BizTalk Server environment.
 
 ## In This Section
 

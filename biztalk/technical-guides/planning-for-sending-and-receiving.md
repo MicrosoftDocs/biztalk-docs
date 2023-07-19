@@ -26,14 +26,14 @@ Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](
 -   **Transaction support** The ability to send and receive documents under the context of a distributed transaction coordinator (DTC) transaction. This functionality is required for maintaining ordered message delivery and to guarantee that documents are not duplicated or lost.
 
     > [!NOTE]
-    >  If you encounter problems with MSDTC, review the topic [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md) (https://go.microsoft.com/fwlink/?LinkID=154693).
+    > If you encounter problems with MSDTC, review the topic [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md).
 
 -   **Two-way communication support (Request/Response or Solicit/Response)** The ability to send a document and process a response message from the destination or to receive a document and send a response message to the source.
 
 -   **In-order receive support.** The ability to publish received documents to the MessageBox database in the exact order that the documents were received.
 
     > [!NOTE]
-    >  Certain adapters can enforce ordered document delivery at the receive location level, while other adapters cannot. Ordered delivery can still be enforced at the send port level for those adapters which do not support ordered document delivery at the receive location level but doing so may incur a performance penalty. For more information about ordered delivery of messages, see the topic [Ordered Delivery of Messages](../core/ordered-delivery-of-messages.md) (https://go.microsoft.com/fwlink/?LinkId=155751).
+    >  Certain adapters can enforce ordered document delivery at the receive location level, while other adapters cannot. Ordered delivery can still be enforced at the send port level for those adapters which do not support ordered document delivery at the receive location level but doing so may incur a performance penalty. For more information about ordered delivery of messages, see the topic [Ordered Delivery of Messages](../core/ordered-delivery-of-messages.md).
 
 -   **SSO enabled.** The ability to use SSO authentication when sending or receiving documents with the adapter.
 
@@ -77,23 +77,34 @@ Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](
 |TIBCO Enterprise Message Service|Enables exchange of XML and binary data format messages between BizTalk Server and a TIBCO EMS server providing a tightly integrated and reliable application infrastructure.|4.2|
 |WebSphere MQ|Enables exchange of messages between BizTalk Server and IBM WebSphere MQ.|5.3 with Fix Pack 10 or later and 6.0 with Fix Pack 1.1 or later|
 
- For more information about the LOB adapters available with BizTalk Server, see [Adapters included with BizTalk Server 2010](https://go.microsoft.com/fwlink/?LinkId=152664) (https://go.microsoft.com/fwlink/?LinkId=152664).
+ For more information about LOB adapters available with BizTalk Server, see the following resources: 
+ 
+  - [Adapters in BizTalk Server overview](/biztalk/core/adapters-in-biztalk-server)
+  - [Available adapters in BizTalk Server](/biztalk/core/using-adapters)
+  - [BizTalk Adapters](https://marketplace.visualstudio.com/items?itemName=nsoftwarecom.nsoftwareBizTalkAdapters)
 
 ## BizTalk Adapter Pack
- Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] contains WCF-based adapters to provide connectivity to LOB applications such as Oracle Database, Oracle E-Business Suite, SAP, Siebel, and SQL Server. For a list of adapters available with [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], see [BizTalk Adapter Pack](https://go.microsoft.com/fwlink/?LinkId=152665) (<https://go.microsoft.com/fwlink/?LinkId=152665>).
+Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] contains WCF-based adapters to provide connectivity to LOB applications such as Oracle Database, Oracle E-Business Suite, SAP, Siebel, and SQL Server. For more information and a list of adapters available with [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], see the following resources:
+
+- [BizTalk Adapter Pack overview](/biztalk/adapters-and-accelerators/biztalk-adapter-pack) 
+- [BizTalk Adapter Pack](https://marketplace.visualstudio.com/items?itemName=nsoftwarecom.nsoftwareBizTalkAdapters)
+
 
 > [!IMPORTANT]
->  You can use the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Migration Tool to migrate BizTalk projects for LOB adapters to BizTalk projects for WCF-based LOB adapters available with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]. You can download the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Migration Tool from [BizTalk Adapter Pack Migration Tool](https://go.microsoft.com/fwlink/?LinkID=153328) (<https://go.microsoft.com/fwlink/?LinkID=153328>). To know more about migrating LOB adapters to WCF-based LOB adapters included with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], see the [Microsoft BizTalk Adapter 2.0 Migration Whitepaper](https://go.microsoft.com/fwlink/?LinkId=158848) (<https://go.microsoft.com/fwlink/?LinkId=158848>).
+> To migrate BizTalk projects for LOB adapters to BizTalk projects for WCF-based LOB adapters available with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], you can use the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Migration Tool.
+>
+> To download the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Migration Tool, go to the [GitHub repo for the Azure Integration Migrator BizTalk](https://github.com/Azure/aimbiztalk). 
+> For more information about migrating LOB adapters to WCF-based LOB adapters included with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], see the [Microsoft BizTalk Adapter 2.0 Migration Whitepaper](https://www.microsoft.com/download/details.aspx?id=36510).
 
 ## BizTalk Accelerators
- While BizTalk adapters accommodate sending and receiving documents with a particular protocol, BizTalk accelerators are designed to accommodate the exchange of documents in accordance with a particular industry standard. For a list of the available BizTalk accelerators, see [Microsoft BizTalk Server Accelerators](https://go.microsoft.com/fwlink/?LinkId=103609) (https://go.microsoft.com/fwlink/?LinkId=103609).
+ While BizTalk adapters accommodate sending and receiving documents with a particular protocol, BizTalk accelerators are designed to accommodate the exchange of documents in accordance with a particular industry standard. For a list of the available BizTalk accelerators, see [Microsoft BizTalk Server Accelerators](/biztalk/adapters-and-accelerators/adapters-and-accelerators-in-biztalk-server).
 
 ##  <a name="BKMK_InternetTrans"></a> Configuring Your Domain When Exposing Transports to the Internet
  In order to facilitate the sending and receiving of documents between your organization and external trading partners, it may be necessary to expose transports on a public facing site that is accessible from the Internet. Under these circumstances, the following domain configuration is recommended:
 
 - **Employ a perimeter network domain, (also known as a demilitarized zone (DMZ) or screened subnet), to house servers to provide Internet related services for your organization**
 
-   The perimeter network domain should contain servers which house the physical locations where Internet-facing transports route documents between computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and your trading partners. The perimeter network firewall should only open the ports required to allow communications to and from the Internet facing transports. There should be no computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive locations, or Enterprise Single Sign-On server computers in the perimeter network domain. Documents sent/received to/from transports in the perimeter network domain should be routed from the Internet-facing firewall to the firewall protecting the processing domain using Internet Security and Acceleration Server (ISA) Server Web Publishing and Server Publishing. For more information about using ISA Server Web and server publishing, see [Publishing Concepts in ISA Server 2006](https://go.microsoft.com/fwlink/?LinkID=86359) (<https://go.microsoft.com/fwlink/?LinkID=86359>).
+   The perimeter network domain should contain servers which house the physical locations where Internet-facing transports route documents between computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and your trading partners. The perimeter network firewall should only open the ports required to allow communications to and from the Internet facing transports. There should be no computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive locations, or Enterprise Single Sign-On server computers in the perimeter network domain. Documents sent/received to/from transports in the perimeter network domain should be routed from the Internet-facing firewall to the firewall protecting the processing domain using Internet Security and Acceleration Server (ISA) Server Web Publishing and Server Publishing. For more information about using ISA Server Web and server publishing, see [Publishing Concepts in ISA Server 2006](https://cloudblogs.microsoft.com/dynamics365/no-audience/2008/07/24/publishing-microsoft-crm-4-0-through-isa-server-2006/).
 
   > [!NOTE]
   >  As an added measure of security, consider using public key infrastructure (PKI) digital certificates for purposes of document encryption and decryption, document signing and verification (non-repudiation) for documents sent to or received from trading partners via Internet facing transports in this domain.
@@ -127,17 +138,17 @@ Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](
 
   - A corporate domain for servers and desktop computers to provide services to information workers in your organization.
 
-    For more information about the domain topologies recommended for various [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] architectures, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md) (<https://go.microsoft.com/fwlink/?LinkId=155750>).
+    For more information about the domain topologies recommended for various [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] architectures, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).
 
 ## High Availability Considerations
  High availability can be provided for most adapters by running adapter handler host instances on multiple BizTalk servers in a BizTalk group. That way, if one adapter handler host instance fails, another adapter handler host instance is available to continue processing. There are, however, exceptions to doing this. In some cases running multiple adapter handler host instances can cause problems with contention. For example contention problems can occur when running multiple instances of the POP3 and FTP adapters. In these circumstances, high availability can be provided for the adapter by running the adapter handler host instance in a clustered BizTalk host.
 
- For more information about providing high availability for an adapter handler host instance through host clustering, see [Considerations for Running Adapter Handlers within a Clustered Host](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md) (https://go.microsoft.com/fwlink/?LinkID=151284). For more information about providing high availability for BizTalk hosts, see [High Availability for BizTalk Hosts](../technical-guides/high-availability-for-biztalk-hosts.md).
+ For more information about providing high availability for an adapter handler host instance through host clustering, see [Considerations for Running Adapter Handlers within a Clustered Host](../core/considerations-for-running-adapter-handlers-within-a-clustered-host1.md) . For more information about providing high availability for BizTalk hosts, see [High Availability for BizTalk Hosts](../technical-guides/high-availability-for-biztalk-hosts.md).
 
 ## Performance Considerations
  **SOAP Adapter Performance Considerations**
 
- For information about optimizing the performance of the SOAP adapter, see [Configuration Parameters that Affect Adapter Performance](../core/configuration-parameters-that-affect-adapter-performance.md) (https://go.microsoft.com/fwlink/?LinkID=154200).
+ For information about optimizing the performance of the SOAP adapter, see [Configuration Parameters that Affect Adapter Performance](../core/configuration-parameters-that-affect-adapter-performance.md).
 
  **MQSeries Adapter Performance Considerations**
 
@@ -164,7 +175,7 @@ Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](
 
   For a custom receive adapter to preserve the order of messages when submitting them to BizTalk Server, the adapter must be developed with the following functionality:
 
-- After submitting a batch of messages, your custom receive adapter should wait for the BatchComplete call back from BizTalk Server before submitting the next batch. For more details, see [Interfaces for a Batch-Supported Receive Adapter](../core/interfaces-for-a-batch-supported-receive-adapter.md) (https://go.microsoft.com/fwlink/?LinkId=155752).
+- After submitting a batch of messages, your custom receive adapter should wait for the BatchComplete call back from BizTalk Server before submitting the next batch. For more details, see [Interfaces for a Batch-Supported Receive Adapter](../core/interfaces-for-a-batch-supported-receive-adapter.md).
 
 - If a message fails in the pipeline, it should be suspended, preferably as non-resumable. Use the BTS.SuspendAsNonResumable message context property in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to flag the message appropriately.
 

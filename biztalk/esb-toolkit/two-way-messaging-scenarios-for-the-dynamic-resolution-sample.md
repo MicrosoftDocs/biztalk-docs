@@ -22,7 +22,7 @@ This topic shows how you can run the two-way messaging scenarios for the [!INCLU
 1. Before you run this sample for the first time, make sure that the receive location URL points to the appropriate Web service. Specify the Web service URL /ESB.NorthAmericanServices/CustomerOrder.asmx for the DynamicResolutionReqResp_SOAP receive location. Also, make sure that the dynamic send port named DynamicResolutionSolicitResp exists.  
 
    > [!NOTE]
-   >  The Dynamic Resolution sample uses dynamic resolution to send messages to, and receive responses from, the Canadian Web service (http://localhost/ESB.CanadianServices/SubmitPOService.asmx). This is why a static send port is not defined for this sample. The dynamic resolution component retrieves the outbound URL from the Resolution and Adapter Provider Framework called by the ESBReceiveXml pipeline, which is configured within the DynamicResolutionReqResp_SOAP receive location. In some of the two-way messaging examples, the ESBMapSend pipeline resolves and executes Microsoft BizTalk maps.  
+   > The Dynamic Resolution sample uses dynamic resolution to send messages to, and receive responses from, the Canadian Web service `http://localhost/ESB.CanadianServices/SubmitPOService.asmx`. This is why a static send port is not defined for this sample. The dynamic resolution component retrieves the outbound URL from the Resolution and Adapter Provider Framework called by the ESBReceiveXml pipeline, which is configured within the DynamicResolutionReqResp_SOAP receive location. In some of the two-way messaging examples, the ESBMapSend pipeline resolves and executes Microsoft BizTalk maps.  
 
 2. If the GlobalBank.ESB application is not already running, use the BizTalk Administration Console to start it.  
 
@@ -65,7 +65,7 @@ This topic shows how you can run the two-way messaging scenarios for the [!INCLU
    |                 Uses the binding file named GlobalBank.ESB.DynamicResolution_SubmitOrder_To_SubmitOrder_XPATH_Bindings.xml to set the receive location and send port properties.                  |
    |                                                                           Sets the maps statically at the receive port.                                                                           |
    |                                                             Uses the ESB Dispatcher at the receive location for endpoint resolution.                                                              |
-   | The message contains the endpoint configuration ID=<http://localhost/ESB.CanadianServices/SubmitPOService.asmx> and customerName=<http://globalbank.esb.dynamicresolution.com/canadianservices/>. |
+   | The message contains the endpoint configuration ID=<`http://localhost/ESB.CanadianServices/SubmitPOService.asmx`> and customerName=<`http://globalbank.esb.dynamicresolution.com/canadianservices/`>. |
 
    |SOAP Inbound to SOAP Outbound (submitPurchase Action) Using the BRE Resolver Endpoint and Transformation Resolution|  
    |---------------------------------------------------------------------------------------------------------------------------|  

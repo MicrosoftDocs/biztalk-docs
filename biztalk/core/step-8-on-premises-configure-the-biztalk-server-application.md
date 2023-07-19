@@ -91,9 +91,9 @@ In the previous step you created a [!INCLUDE[btsBizTalkServerNoVersion](../inclu
       |**Issuer key**|Specify the issuer key.|
 
       > [!NOTE]
-      >  You can get the values for the Queue URL, ACS URL, issuer name and key from the [Windows Azure CTP Management Portal](https://go.microsoft.com/fwlink/p/?LinkId=202886).
+      >  You can get the values for the Queue URL, ACS URL, issuer name and key from the [Microsoft Azure portal](https://portal.azure.com).
 
-   8. Click **OK** until you exit all the dialog boxes.
+   8. Select **OK** until you exit all the dialog boxes.
 
 5. In the orchestration, you created a logical port (**SendToSQL**) to send messages to the **SalesOrder** database table. In this step, you create a physical send port to map to the logical port.
 

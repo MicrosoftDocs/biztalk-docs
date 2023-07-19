@@ -49,9 +49,9 @@ The primary deliverable associated with the requirements phase is a requirements
  For example, each transport adapter type has its own performance and scale characteristics. If the desired throughput exceeds the ability of one or more of the adapter types (either receive or send), then alternatives for scaling the adapter may need to be investigated.
 
 ## Estimate Sizing
- Based on the established goals and criteria, it is never too early to begin the process of estimating the hardware sizing that will be required to meet the goals. As with any sizing estimation efforts, one must base the estimates on actual test results. During the early phases of a project, those results must come from external sources. You can read case studies at BizTalk Server Developer Center, at [https://go.microsoft.com/fwlink/?LinkId=49339](https://go.microsoft.com/fwlink/?LinkId=49339). The case studies provide details about the scenarios tested, the hardware on which testing was done, and the configuration for the tests. You can extrapolate from the performance achieved for these test cases to get an initial sizing estimate for your system.
+Based on the established goals and criteria, it is never too early to begin the process of estimating the hardware sizing that will be required to meet the goals. As with any sizing estimation efforts, one must base the estimates on actual test results. During the early phases of a project, those results must come from external sources. For examples and case studies, see [Security Case Studies for Small to Medium-Sized Companies](/biztalk/core/security-case-studies-for-small-to-medium-sized-companies).
 
- Keep in mind that there is no predictive model or simulation that accurately predicts system size for any arbitrary application running on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is a platform on which a large variety of application solutions can be deployed, each with its own performance behavior. So, while an estimate derived using existing case study results will provide a good starting point for planning purposes, the final size of the system will most certainly need to be adjusted for all but the simplest application architectures.
+Keep in mind that there is no predictive model or simulation that accurately predicts system size for any arbitrary application running on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is a platform on which a large variety of application solutions can be deployed, each with its own performance behavior. So, while an estimate derived using existing case study results will provide a good starting point for planning purposes, the final size of the system will most certainly need to be adjusted for all but the simplest application architectures.
 
 ## Plan for Sufficient Testing
  As stated above, there is currently no model or simulation that will accurately predict the hardware required to meet performance goals. This means that the only way to actually prove a system is capable of reaching goals is to test it on production-level hardware. That is, to conduct test cases on hardware that is as close to the production setup as possible.
@@ -63,8 +63,8 @@ The primary deliverable associated with the requirements phase is a requirements
 -   [Measuring Maximum Sustainable Tracking Throughput](../core/measuring-maximum-sustainable-tracking-throughput.md)
 
 ## See Also
- [Project Planning Recommendations by Phase](../core/project-planning-recommendations-by-phase.md)
- [Design Phase Recommendations](../core/design-phase-recommendations.md)
- [Implementation Phase Recommendations](../core/implementation-phase-recommendations.md)
- [Verification Phase Recommendations](../core/verification-phase-recommendations.md)
- [Release Phase Recommendations](../core/release-phase-recommendations.md)
+[Project Planning Recommendations by Phase](../core/project-planning-recommendations-by-phase.md)  
+[Design Phase Recommendations](../core/design-phase-recommendations.md)  
+[Implementation Phase Recommendations](../core/implementation-phase-recommendations.md)  
+[Verification Phase Recommendations](../core/verification-phase-recommendations.md)  
+[Release Phase Recommendations](../core/release-phase-recommendations.md)

@@ -28,15 +28,15 @@ The planning section of the operations guide describes roles and responsibilitie
 
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] also includes several other features that facilitate business integration including a message workflow engine, a Business Rule Engine (BRE), and technologies for information workers such as Business Activity Monitoring (BAM).
 
- For more information about using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business process management functionality, see [White Paper: Microsoft and BPM—Technical Overview](https://go.microsoft.com/fwlink/?LinkId=106015) (<https://go.microsoft.com/fwlink/?LinkId=106015>). To know more about the different integration technologies offered by Microsoft and the advantages one has over the other, see [Understanding Microsoft Integration Technologies](https://go.microsoft.com/fwlink/?LinkId=158452) (<https://go.microsoft.com/fwlink/?LinkId=158452>).
+ For more information about using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] business process management functionality, see [Microsoft and BPM - A Technology Overview](https://download.microsoft.com/documents/australia/biztalk/post_event/Whitepaper_MicrosoftandBPM.pdf). To learn more about the different integration technologies offered by Microsoft and the advantages one has over the other, see [Why migrate from BizTalk Server to Azure Integration Services](/azure/logic-apps/biztalk-server-to-azure-integration-services-overview).
 
  Certain integration scenarios are better suited to other Microsoft products. If your primary focus is upon any of the following scenarios, consider using these Microsoft products instead of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]:
 
 |**Scenario**|**Product to use**|
 |------------------|------------------------|
-|User provisioning|**Microsoft Identity Lifecycle Manager 2010**<br /><br /> For more information about Microsoft Identity Lifecycle Manager 2010, see [Microsoft Identity Lifecycle Manager 2010 FP1](https://go.microsoft.com/fwlink/?LinkId=204577) (https://go.microsoft.com/fwlink/?LinkId=204577).|
-|Data replication between systems|**SQL Server Replication**<br /><br /> For more information about SQL Server replication, see [SQL Server 2008 R2 Replication](/sql/relational-databases/replication/sql-server-replication) (https://go.microsoft.com/fwlink/?LinkID=69978).|
-|Data extraction, transform, and load (ETL)|**SQL Server Integration Services (SSIS)**<br /><br /> For more information about SQL Server Integration Services, see [SQL Server 2008 R2 Integration Services](/sql/integration-services/sql-server-integration-services) (https://go.microsoft.com/fwlink/?LinkId=152044).|
+|User provisioning|**Microsoft Identity Lifecycle Manager 2010**<br /><br /> For more information about Microsoft Identity Lifecycle Manager 2010, see [Microsoft Identity Lifecycle Manager 2010 FP1](/previous-versions/windows/desktop/forefront-2010/ee652374(v=vs.100)).|
+|Data replication between systems|**SQL Server Replication**<br /><br /> For more information about SQL Server replication, see [SQL Server 2008 R2 Replication](/sql/relational-databases/replication/sql-server-replication).|
+|Data extraction, transform, and load (ETL)|**SQL Server Integration Services (SSIS)**<br /><br /> For more information about SQL Server Integration Services, see [SQL Server 2008 R2 Integration Services](/sql/integration-services/sql-server-integration-services).|
 
 ## Deciding Which Edition of BizTalk Server Is Right for the Job
  There are four different editions of BizTalk Server, each of which is targeted at specific scenarios. The four editions of BizTalk Server include:
@@ -51,12 +51,12 @@ The planning section of the operations guide describes roles and responsibilitie
 
 - **RFID Enterprise** - Designed to provide a scalable, extensible platform for development, deployment, and management of rich RFID and sensor solutions, includes BizTalk RFID Server and BizTalk RFID Mobile.
 
-  For more information about the different editions of BizTalk Server, see [Microsoft BizTalk Server Editions](https://go.microsoft.com/fwlink/?LinkId=108051) (https://go.microsoft.com/fwlink/?LinkId=108051).
+  For more information about the different versions of BizTalk Server, see [BizTalk Server What's New, Install, Configuration, and Upgrade](/biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade).
 
 ## Planning for Message Load
  Once you have determined that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] meets your business integration needs, the next thing that you should determine is the message load that the BizTalk solution will be expected to process. This is an important decision because different editions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] have different scale-up and scale-out capabilities.
 
- The key to determine message load is to perform load testing to determine the Maximum Sustainable Throughput (MST) and the Maximum Sustainable Tracking Throughput (MSTT) of the BizTalk solution. For more information about measuring maximum sustainable throughput, and performance best practices in general, see the [BizTalk Server 2009 Performance Guide](https://go.microsoft.com/fwlink/?LinkID=150492) (https://go.microsoft.com/fwlink/?LinkID=150492).
+ The key to determine message load is to perform load testing to determine the Maximum Sustainable Throughput (MST) and the Maximum Sustainable Tracking Throughput (MSTT) of the BizTalk solution. For more information about measuring maximum sustainable throughput, and performance best practices in general, see the [BizTalk Server 2009 Performance Guide](https://go.microsoft.com/fwlink/?LinkID=150492).
 
 ## Planning for Expansion
  Consider implementing a BizTalk solution using the Enterprise edition of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] if you will be adding a significant number of trading partners, will need to use host clustering, or will need to scale out to multiple computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in the BizTalk group. The Standard and Branch editions of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] do not accommodate multiple computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in a group or host clustering.

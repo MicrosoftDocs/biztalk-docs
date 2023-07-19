@@ -67,9 +67,15 @@ In this step you configure a two-way **WCF-WebHttp** send port to invoke the RES
 
         2.  For **Transport client credential type**, select **Basic**.
 
-        3.  Under the **User name credentials** box, click **Edit**. In the **Client Credentials** dialog box, select **Do no use Single-Sign On**, and enter the username and password that you retrieved from the **My Account** tab after you have logged into [Windows Azure Marketplace](https://go.microsoft.com/fwlink/p/?LinkId=257913). The credentials are listed against the **Customer ID** (user name) and **Primary Account Key** (password) labels.
+        3. Under the **User name credentials** box, select **Edit**.
 
-        4.  Click **OK**.
+        4. In the **Client Credentials** box, select **Do not use Single-Sign On**.
+
+        5. Enter the username and password that you retrieved from the **My Account** tab after you signed in to [Microsoft Azure Marketplace](https://azuremarketplace.microsoft.com).
+        
+            The credentials are listed against the **Customer ID** (user name) and **Primary Account Key** (password) labels.
+
+        4.  Select **OK**.
 
     5.  On the **Messages** tab, for **Suppress Body for Verbs**, specify the verb for which you want to strip the message payload from the request message. For this tutorial, specify this as `GET`. Here’s why: A GET method call on the US Air Carrier flight delays REST endpoint does not require a message payload; the REST resource URL is sufficient to retrieve the information. However, to trigger the **WCF-WebHttp** send port that makes the REST call, you drop a dummy message that has some message body. The send port must not send that dummy message to the REST endpoint because, as explained earlier, the endpoint does not expect a message payload. So, before invoking the REST endpoint, the adapter strips the message payload from the dummy message only for the verbs that you specify in the **Suppress Body for Verbs** text box.
 

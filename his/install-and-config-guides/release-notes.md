@@ -19,7 +19,7 @@ manager: "anneta"
 These release notes summarize the most important issues in [!INCLUDE[his2016](../includes/his2016-md.md)].  
   
 ## Software  
- A single Microsoft Installer (MSI) file contains the server software. You can download the software from the [Microsoft TechNet evaluation center](https://www.microsoft.com/evalcenter/evaluate-host-integration-server-2016).  
+ A single Microsoft Installer (MSI) file contains the server software. You can download the software from the [Microsoft TechNet evaluation center](https://www.microsoft.com/evalcenter/).  
   
 ## Upgrade  
  You cannot do an in-place upgrade to HIS 2016.  You must uninstall all existing copies of Host Integration Server, and then install HIS 2016.  A [HIS migration tool](https://www.microsoft.com/download/details.aspx?id=54950) is available to assist in upgrading from previous versions of HIS. [HIS Migration Tool](../install-and-config-guides/his-migration-tool.md) has more details.

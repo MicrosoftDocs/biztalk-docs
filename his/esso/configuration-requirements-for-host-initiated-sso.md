@@ -37,7 +37,7 @@ Although Enterprise Single Sign-On (SSO) and host-initiated SSO have certain asp
 
 ### To create an SPN
 
-1.  Download the **setspn** utility from the following location: [https://go.microsoft.com/fwlink/?LinkId=148820](/previous-versions/office/sharepoint-2007-products-and-technologies/cc263449(v=office.12))
+1.  Download the **setspn** utility from the following location: [Link](https://go.microsoft.com/fwlink/?LinkId=148820)
 
 2.  Click **Start**, click **Run**, type `cmd`, and then click **OK**.
 
@@ -55,7 +55,7 @@ Although Enterprise Single Sign-On (SSO) and host-initiated SSO have certain asp
 
 -   Under **Domain Security Policy - Local Policies - User Rights Assignment**, add the SSO Service account to the **Act as part of operating system** policy.
 
-     For more information about Kerberos Protocol Transition and Constrained Delegation, visit [https://go.microsoft.com/fwlink/?LinkId=148816](https://go.microsoft.com/fwlink/?LinkId=148816).
+     For more information, see [Kerberos Protocol Transition and Constrained Delegation](/windows-server/security/kerberos/kerberos-constrained-delegation-overview).
 
 ## See Also
- [Host Initiated Single Sign-On](../esso/host-initiated-single-sign-on.md)
+[Host Initiated Single Sign-On](../esso/host-initiated-single-sign-on.md)

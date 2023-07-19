@@ -26,7 +26,7 @@ Adjusting network settings to optimal values has been shown to effectively addre
  Just as adding additional hard drives can improve disk performance, adding additional network cards can improve network performance. If the network cards on the computers in your BizTalk Server environment are saturated and the card is a bottleneck, consider adding one or more additional network cards to improve performance.
 
 ## Implement network segmentation
- Follow the recommendations in the **Subnets** section of the ["BizTalk Server Database Optimization" whitepaper](https://go.microsoft.com/fwlink/?LinkID=101578) (https://go.microsoft.com/fwlink/?LinkID=101578).
+For more information, see [Network optimizations](/biztalk/technical-guides/network-optimizations).
 
 ## Where possible, replace hubs with switches
  Switches contain logic to directly route traffic between the source and destination whereas hubs use a broadcast model to route traffic. Therefore switches are more efficient and offer improved performance.
@@ -114,7 +114,7 @@ To see the currently installed network clients, protocols and services, follow t
 
 - **Wake On LAN disabled (unless being used)** – Configure the network adapter driver to disable wake-on lan functionality. This functionality may be useful for client computers but should seldom if ever be used on a BizTalk Server or SQL Server computer.
 
-  For more information about tuning network adapters for performance, see the **Network Device Settings** section of the ["BizTalk Server Database Optimization" whitepaper](https://go.microsoft.com/fwlink/?LinkID=101578) (https://go.microsoft.com/fwlink/?LinkID=101578).
+  For more information about tuning network adapters for performance, see the **Network Device Settings** section of the "BizTalk Server Database Optimization" whitepaper.
 
 ## See Also
  [Settings that can be Modified to Improve Network Performance](../technical-guides/settings-that-can-be-modified-to-improve-network-performance.md)
