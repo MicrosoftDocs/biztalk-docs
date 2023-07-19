@@ -62,6 +62,6 @@ This guide provides instructions on how to install BizTalk Server 2010 Feature P
 
  Microsoft, Active Directory, ActiveX, BizTalk, Excel, InfoPath, JScript, IntelliSense, Internet Explorer, MSDN, Outlook, PivotChart, PivotTable, PowerPoint, SharePoint, Tahoma, Visio, Visual Basic, Visual C++, Visual C#, Visual SourceSafe, Visual Studio, Win32, Windows, Windows NT, Windows PowerShell, Windows Server, Windows Server System, and Windows Server are trademarks of the Microsoft group of companies.
 
- SAP, R/3, mySAP, mySAP.com, xApps, xApp, SAP NetWeaver, and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP AG in Germany and in several other countries all over the world. All other product and service names mentioned are the trademarks of their respective companies. Data contained in this document serves informational purposes only. National product specifications may vary.
+ SAP, R/3, mySAP, mySAP.com, xApps, xApp, SAP NetWeaver, and other SAP products and services mentioned herein as well as their respective logos are trademarks or registered trademarks of SAP AG in Germany and in several other countries/regions all over the world. All other product and service names mentioned are the trademarks of their respective companies. Data contained in this document serves informational purposes only. National product specifications may vary.
 
  All other trademarks are property of their respective owners.
