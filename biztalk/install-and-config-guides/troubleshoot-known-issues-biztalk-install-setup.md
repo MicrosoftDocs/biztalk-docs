@@ -422,7 +422,7 @@ SSO_ERROR_SECRETS_NOT_LOADED
 |WMI_Add_MSBTS_Silent|Registers BizTalk Server namespace and classes to WMI.|
 |LaunchConfigFmk_SlashUP|Un-configures BizTalk Server|
 |CleanupComplus|Uninstalls Complus Applications and components.|
-|RemoveSKU|Removes BizTalk Server Tfailure timer data.|
+|RemoveSKU|Removes BizTalk Server failure timer data.|
 |BAM_Remove_Perf|Uninstalls performance counters for BAM.|
 |LoadBTSCounters|Loads BizTalk Server performance counters.|
 |RegisterBtprojExtn|Registers BizTalk project file (.btproj) extension.|
