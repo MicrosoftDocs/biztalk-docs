@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # Install and configure the Microsoft BizTalk Adapters for Enterprise Applications

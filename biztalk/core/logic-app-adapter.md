@@ -13,7 +13,7 @@ ms.assetid: 72f2a5ac-a1f6-4bdb-8c29-8267ede75b17
 caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
-manager: dougeby
+manager: mijacobs
 ---
 
 # Install and use the Logic App Adapter on BizTalk Server

@@ -5,7 +5,7 @@ title: XSLT Transform Engine (Grid Property)
 description: XSLT Transform Engine (Grid Property).
 author: Elvis-Shi
 ms.author: elsh
-manager: dougeby
+manager: mijacobs
 ms.date: 01/14/2020
 ms.topic: reference
 ms.prod: biztalk-server

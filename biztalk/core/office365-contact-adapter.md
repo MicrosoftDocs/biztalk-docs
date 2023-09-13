@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "MandiOhlinger"
 ms.author: "ribarua"
-manager: dougeby
+manager: mijacobs
 ---
 
 # Create a contact using the Office 365 Outlook Contact adapter - BizTalk Server

@@ -13,7 +13,7 @@ ms.assetid: a01603bd-4105-4691-819d-de43b00b40f3
 caps.latest.revision: 25
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # Windows Groups and User Accounts in BizTalk Server

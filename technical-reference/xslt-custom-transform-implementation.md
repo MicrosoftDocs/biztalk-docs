@@ -5,7 +5,7 @@ title: Custom XSLT transform implementation
 description: Custom XSLT transform implementation
 author: Elvis-Shi
 ms.author: elsh
-manager: dougeby
+manager: mijacobs
 ms.date: 01/06/2020
 ms.topic: reference
 ms.prod: biztalk-server

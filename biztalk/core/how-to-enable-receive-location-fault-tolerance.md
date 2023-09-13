@@ -3,7 +3,7 @@ title: "Enable fault tolerance in receive locations | Microsoft Docs"
 description: Use fault tolerance to help make BizTalk Server receive locations highly available. Keep processing messages, even when an error occurs.
 author: "pravagar"
 ms.author: "pravagar"
-manager: "dougeby"
+manager: "mijacobs"
 ms.date: "05/20/2022"
 ms.topic: conceptual
 ms.prod: biztalk-server

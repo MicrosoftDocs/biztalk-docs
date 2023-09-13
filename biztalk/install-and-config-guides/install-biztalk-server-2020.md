@@ -12,7 +12,7 @@ ms.assetid: 8f5ac913-0734-45b2-8e25-1db146d81858
 caps.latest.revision: 8
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # Install BizTalk Server 2020

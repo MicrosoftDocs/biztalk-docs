@@ -12,7 +12,7 @@ ms.assetid: e4d0e707-6b9e-49e1-9f17-19b3bac1229e
 caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
-manager: dougeby
+manager: mijacobs
 ---
 
 # Install BizTalk Server in a Multi-Computer Environment

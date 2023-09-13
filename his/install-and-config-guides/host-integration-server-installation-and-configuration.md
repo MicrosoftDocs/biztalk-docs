@@ -12,7 +12,7 @@ ms.assetid: 280e5698-d85a-40ec-ac80-8c84e1ed5a84
 caps.latest.revision: 4
 author: "christopherhouser"
 ms.author: "hisdocs"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # Host Integration Server Installation and Configuration

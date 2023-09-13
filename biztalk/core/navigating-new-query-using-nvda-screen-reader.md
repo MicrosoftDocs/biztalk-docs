@@ -3,7 +3,7 @@ title: Use a screen reader to create new queries
 description: Learn how to use NVDA screen reader to navigate BizTalk Server Administration console. Create new queries and add filters to results. 
 author: msjaydeep
 ms.author: jaah
-manager: dougeby
+manager: mijacobs
 ms.date: 05/22/2022
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment

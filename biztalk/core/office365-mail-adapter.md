@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "MandiOhlinger"
 ms.author: "ribarua"
-manager: dougeby
+manager: mijacobs
 ---
 
 # Send and receive email with Office 365 Outlook Email adapter - BizTalk Server

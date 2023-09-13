@@ -13,7 +13,7 @@ ms.assetid: cf6e832f-9d01-46e7-aaf5-2b402d509fac
 caps.latest.revision: 9
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 # A persistence exception has occurred during the batch submission in the batching Orchestration
 
