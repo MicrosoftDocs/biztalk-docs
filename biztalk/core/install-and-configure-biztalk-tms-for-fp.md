@@ -13,7 +13,7 @@ ms.assetid: 39442756-5886-4ddd-b700-3800a237de4a
 caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
-manager: "dougeby"
+manager: "mijacobs"
 ---
 # Install and Configure BizTalk Server TMS for Office 365 adapters in BizTalk Server
 

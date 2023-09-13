@@ -13,7 +13,7 @@ ms.assetid: 2653e1c3-ddbd-4d3f-be64-2a5fcd7cf267
 caps.latest.revision: 13
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # Configure a receive location schedule in BizTalk Server

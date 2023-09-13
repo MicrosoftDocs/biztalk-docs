@@ -2,7 +2,7 @@
 title: Update center | Microsoft Docs
 description: See all the available cumulative updates and service packs available for HIS and OLE DB Provider for DB2
 author: "christopherhouser"
-manager: "dougeby"
+manager: "mijacobs"
 ms.prod: "host-integration-server"
 ms.date: 07/20/2022
 ms.suite: ""

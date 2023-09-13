@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: MandiOhlinger
 ms.author: mandia
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # Step 2: Create the token & install the agent

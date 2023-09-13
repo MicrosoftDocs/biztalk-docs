@@ -13,7 +13,7 @@ ms.assetid: 037ae2cf-c352-4823-95df-9a723f2b5a81
 caps.latest.revision: 22
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # Schedule SQL Server Integration Services Packages in BizTalk Server

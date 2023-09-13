@@ -13,7 +13,7 @@ ms.assetid: 4511a578-77d2-49ee-99bd-f0406ad625d0
 caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
-manager: dougeby
+manager: mijacobs
 ---
 # High Availability using SQL Server Always On Availability Groups - BizTalk Server
 

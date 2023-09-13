@@ -13,7 +13,7 @@ ms.assetid: 93dd9148-4ae4-4868-b85d-66eada354f58
 caps.latest.revision: 9
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # Configure the XML Disassembler Pipeline Component in BizTalk Server

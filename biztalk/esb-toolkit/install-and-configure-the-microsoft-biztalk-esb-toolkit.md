@@ -3,7 +3,7 @@ title: "Install and configure the Microsoft BizTalk ESB Toolkit | Microsoft Docs
 description: Step-by-steps instructions to install and configure the ESB Toolkit on BizTalk Server
 caps.latest.revision: 8
 author: "MandiOhlinger"
-manager: "dougeby"
+manager: "mijacobs"
 
 ms.custom: "biztalk-2020"
 ms.date: "01/14/2020"
