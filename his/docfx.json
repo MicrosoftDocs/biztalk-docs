@@ -49,7 +49,8 @@
         "**/*.md": "mijacobs"
       },
       "ms.author": {
-        "**/*.md": "hcampos"
+        "**/*.md": "hcampos",
+        "troubleshooting/*.md": "tlsnook"
       },
       "titleSuffix": {"troubleshooting/*.md": "Host Integration Server"}
     },
