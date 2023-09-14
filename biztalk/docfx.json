@@ -41,8 +41,16 @@
        "feedback_system": "Standard"
     },
     "fileMetadata": {
-      "author": {"troubleshooting/*.md": "MandiOhlinger"},
-      "ms.author": {"troubleshooting/*.md": "mandia"},
+      "author": {
+        "**/*.md": "haroldcampos",
+        "troubleshooting/*.md": "haroldcampos"
+      },
+      "manager": {
+        "**/*.md": "mijacobs"
+      },
+      "ms.author": {
+        "**/*.md": "hcampos"
+      },
       "titleSuffix": {"troubleshooting/*.md": "BizTalk Server"}
     },
     "template": [],

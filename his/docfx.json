@@ -41,8 +41,16 @@
       "uhfHeaderId": "MSDocsHeader-His"
     },
     "fileMetadata": {
-      "author": {"troubleshooting/*.md": "tsnook"},
-      "ms.author": {"troubleshooting/*.md": "chrishou"},
+      "author": {
+        "**/*.md": "haroldcampos",
+        "troubleshooting/*.md": "tsnook"        
+      },
+      "manager": {
+        "**/*.md": "mijacobs"
+      },
+      "ms.author": {
+        "**/*.md": "hcampos"
+      },
       "titleSuffix": {"troubleshooting/*.md": "Host Integration Server"}
     },
     "template": [],
