@@ -1,22 +1,22 @@
 ---
 description: "Learn more about: Data Types"
-title: "Data Types | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Data Types"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "data types, messages"
   - "messages, data types"
 ms.assetid: 7a758289-1629-48a0-843d-6f6773bd5ba6
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Data Types
 The data type specification is an important tool for partitioning the complexity of the HL7 standard, and is critical to understanding the data contents of an HL7 field. Some data types are simple and contain only one component, and some contain many components and subcomponents. For example, PID.5 Patient Name has the data type XPN in Version 2.4. This data type supports the common subdivisions of an English language name, for example, surname, first name, middle name, as well as suffix, prefix, name type code, and name validity (date) range.  

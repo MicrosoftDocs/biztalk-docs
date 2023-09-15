@@ -1,14 +1,10 @@
 ---
-description: "Learn more about: Acknowledgment Tab"
-title: "Acknowledgment Tab | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: Acknowledgment tab
+description: Learn more about the Acknowledgment tab in BizTalk Server.
+ms.prod: biztalk-server
+ms.topic: article
+ms.date: 06/08/2017
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.acknowledgement"
 helpviewer_keywords: 
@@ -17,11 +13,11 @@ helpviewer_keywords:
   - "configuring, acknowledgements"
 ms.assetid: f00d698c-1a33-4885-853f-c6b58d49d937
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
 ---
+
 # Acknowledgment Tab
+
 You use the **Acknowledgment** tab to specify the acknowledgment properties for inbound and generated acknowledgments.  
 
  In the **BTAHL7 Configuration Explorer** dialog box, on the **Acknowledgments** tab, do the following:  

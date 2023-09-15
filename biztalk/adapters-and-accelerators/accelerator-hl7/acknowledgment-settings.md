@@ -1,23 +1,17 @@
 ---
 description: "Learn more about: Acknowledgment Settings"
-title: "Acknowledgment Settings | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Acknowledgment Settings"
+ms.prod: biztalk-server
+ms.topic: conceptual
+ms.date: 06/08/2017
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 helpviewer_keywords: 
   - "acknowledgements, configuring"
   - "acknowledgements, acknowledgement types"
   - "configuring, acknowledgements"
 ms.assetid: 99ab8caa-8788-4438-96db-8001a6523cc8
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
 ---
 # Acknowledgment Settings
 You use the **Acknowledgment** tab of [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] Configuration Explorer (under the high-level **Parties** tab) to configure acknowledgment (ACK) settings.  

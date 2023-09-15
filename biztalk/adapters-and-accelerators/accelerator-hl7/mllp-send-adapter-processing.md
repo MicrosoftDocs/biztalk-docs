@@ -1,23 +1,23 @@
 ---
 description: "Learn more about: MLLP Send Adapter Processing"
-title: "MLLP Send Adapter Processing | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "MLLP Send Adapter Processing"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "MLLP-encoded messages, send adapters"
   - "send adapters"
   - "MLLP adapters, send adapters"
 ms.assetid: b8e47c7f-4a69-4f0c-86b4-26ed9c70613c
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # MLLP Send Adapter Processing
 The Minimal Lower Layer Protocol (MLLP) send adapter supports one-way and two-way transport modes in the following configurations:  

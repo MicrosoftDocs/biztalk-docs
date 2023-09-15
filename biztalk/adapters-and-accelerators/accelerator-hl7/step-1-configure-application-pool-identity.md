@@ -1,22 +1,22 @@
 ---
 description: "Learn more about: Step 1: Configure Application Pool Identity"
-title: "Step 1: Configure Application Pool Identity | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 1: Configure Application Pool Identity"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "message enrichment tutorial, application pools"
   - "application pools"
 ms.assetid: 66286327-8580-4378-89ee-ddd7204b03c6
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 1: Configure Application Pool Identity
 In this tutorial, you use an application pool in Microsoft Internet Information Services (IIS) to process the orchestration, which you publish as a Web service. An application pool is a grouping of one or more URLs served by a worker process.  

@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Setting Filter Expressions on Send Ports"
-title: "Setting Filter Expressions on Send Ports | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Setting Filter Expressions on Send Ports"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "send ports, context properties"
   - "filtering, send ports"
@@ -18,9 +18,9 @@ helpviewer_keywords:
   - "filtering, context properties"
 ms.assetid: 48c7c83b-9464-4ed9-bd8d-cf5b75e16702
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Setting Filter Expressions on Send Ports
 You set context properties in filter expressions on the send port to control what the port sends. You can set the filter expressions with a number of operators that offer you flexibility in how you filter the property (equality or inequality, exists, greater than, great than or equal to, less than, and less than or equal to).  

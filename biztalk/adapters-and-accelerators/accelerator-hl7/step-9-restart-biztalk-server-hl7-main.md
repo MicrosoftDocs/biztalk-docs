@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Step 9: Restart BizTalk Server_hl7_main"
-title: "Step 9: Restart BizTalk Server_hl7_main | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 9: Restart BizTalk Server_hl7_main"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "interrogative tutorial, BizTalk Server"
 ms.assetid: da11b811-e4d2-462a-b80d-beb90de5f98c
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 9: Restart BizTalk Server_hl7_main
 In this step, you restart [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] in order for the changes you made in this tutorial to take effect.  

@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: HL7 Message Structure"
-title: "HL7 Message Structure | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "HL7 Message Structure"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "messages, segments"
   - "messages, fields"
@@ -18,9 +18,9 @@ helpviewer_keywords:
   - "messages, message structure"
 ms.assetid: 4dbef56d-97ae-466d-bc8a-dc96c40896f6
 caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # HL7 Message Structure
 An HL7 message is a hierarchical structure associated with a trigger event. The HL7 standard defines trigger event as "an event in the real world of health care (that) creates the need for data to flow among systems". Each trigger event is associated with an abstract message that defines the type of data that the message needs to support the trigger event. The abstract message is a collection of segments, and includes the rules of repetition and inclusion for those segments. The following table shows an example of an abstract message associated with the trigger event A04 – Register Patient.  

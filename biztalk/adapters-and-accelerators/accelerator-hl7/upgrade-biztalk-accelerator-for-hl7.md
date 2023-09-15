@@ -1,19 +1,19 @@
 ---
 description: "Learn more about: Upgrade BizTalk Accelerator for HL7"
-title: "Upgrade BizTalk Accelerator for HL7 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Upgrade BizTalk Accelerator for HL7"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 ms.assetid: 91b6747f-e560-4cf8-99b5-af0d150599bf
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Upgrade BizTalk Accelerator for HL7
 Overview of the [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] upgrade process. 

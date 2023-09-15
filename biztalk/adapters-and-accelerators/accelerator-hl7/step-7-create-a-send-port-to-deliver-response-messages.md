@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Step 7: Create a Send Port to Deliver Response Messages"
-title: "Step 7: Create a Send Port to Deliver Response Messages | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 7: Create a Send Port to Deliver Response Messages"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "interrogative tutorial, send ports"
 ms.assetid: 5edaefb6-72f2-4317-9477-f3a0d0027e0c
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 7: Create a Send Port to Deliver Response Messages
 In this step, you create the send port to deliver the query responses back to the Admissions, Discharge, and Transfer (ADT) system.  

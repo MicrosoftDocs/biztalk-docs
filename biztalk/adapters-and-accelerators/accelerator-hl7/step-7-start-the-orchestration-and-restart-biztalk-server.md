@@ -1,19 +1,19 @@
 ---
 description: "Learn more about: Step 7: Start the Orchestration and Restart BizTalk Server"
-title: "Step 7: Start the Orchestration and Restart BizTalk Server | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 7: Start the Orchestration and Restart BizTalk Server"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 ms.assetid: aa5168b0-4642-4842-a57a-ed7fa35fe161
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 7: Start the Orchestration and Restart BizTalk Server
 In this step, you start the orchestration, and then restart [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] so that the changes that you made in this tutorial will take effect.  

@@ -1,23 +1,23 @@
 ---
 description: "Learn more about: Step 17: Create the WSClient Application"
-title: "Step 17: Create the WSClient Application | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 17: Create the WSClient Application"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "WSClient application"
   - "message enrichment tutorial, WSClient application"
   - "creating, WSClient application"
 ms.assetid: 2849cd4c-30d0-47ab-8161-fab379d5a548
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 17: Create the WSClient Application
 WSClient.exe (Web service client) is a console application written in [!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)] that illustrates how to send data to the orchestration that you published as a Web service in the previous steps. The WSClient application accepts four input parameters in order: patient first name, middle name, last name, and social security number, respectively. To send patient information to your Web service, use the following command line syntax:  

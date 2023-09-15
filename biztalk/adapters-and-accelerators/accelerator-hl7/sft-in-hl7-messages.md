@@ -1,19 +1,19 @@
 ---
 description: "Learn more about: SFT in HL7 Messages"
-title: "SFT in HL7 Messages | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "SFT in HL7 Messages"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 ms.assetid: d5bf3ac5-8197-4ea3-ace8-ff59ac32313c
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # SFT in HL7 Messages
 [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] supports adding software segments (SFT) to messages. SFT segments provide additional information about the software products used as sending applications. SFT segments are primarily used for diagnostics. As a part of the HL7 v2.5 standard, SFT segments are displayed in the application acknowledgement.  

@@ -1,23 +1,23 @@
 ---
 description: "Learn more about: Part 1: Fragmented Inbound Batch Scenario"
-title: "Part 1: Fragmented Inbound Batch Scenario | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Part 1: Fragmented Inbound Batch Scenario"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "batching, fragmenting messages"
   - "batching tutorial, fragmenting messages"
   - "fragmenting messages"
 ms.assetid: 8adf2c17-5f66-408d-b30b-51b22d8e71fa
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Part 1: Fragmented Inbound Batch Scenario
 In this part of the tutorial, you receive an HL7-encoded batch, fragment it into individual messages, and send the individual messages to a destination. The following figure shows the flow of this process.  

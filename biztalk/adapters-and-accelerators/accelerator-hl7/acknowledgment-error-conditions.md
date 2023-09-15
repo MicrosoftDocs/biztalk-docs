@@ -1,24 +1,20 @@
 ---
-description: "Learn more about: Acknowledgment Error Conditions"
-title: "Acknowledgment Error Conditions | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: Acknowledgment error conditions
+description: Learn more about acknowledgment error conditions in BizTalk Server.
+ms.prod: biztalk-server
+ms.topic: article
+ms.date: 06/08/2017
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
 helpviewer_keywords: 
   - "acknowledgements, errors"
   - "errors, acknowledgements"
 ms.assetid: 605c7fa0-2365-4cb6-92fb-6df570905ca8
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
 ---
+
 # Acknowledgment Error Conditions
+
 The following conditions will result in a fatal error condition when Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) is processing acknowledgment (ACK) messages:  
   
 - Missing required fields in MSH9  

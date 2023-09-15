@@ -1,19 +1,19 @@
 ---
-title: "Glossary for HL7 accelerator in BizTalk Server | Microsoft Docs"
+title: "Glossary for HL7 accelerator in BizTalk Server"
 description: Common terms and definitions to know and learn to use the BizTalk Accelerator for HL7
-ms.custom: ""
-ms.date: "08/16/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "08/16/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 ms.assetid: ffb9c18a-5fe5-448f-b115-0973e9d12952
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Glossary - Microsoft BizTalk Accelerator for HL7
 Microsoft BizTalk Accelerator for HL7 uses the following terms and definitions.

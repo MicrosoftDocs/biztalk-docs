@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Z Segment Known Issues"
-title: "Z Segment Known Issues | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Z Segment Known Issues"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "segments, Z segments"
   - "Z segments"
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "Z segments, known issues"
 ms.assetid: bf49d66b-f0c0-4e2b-9c08-bebb8f5bbc12
 caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Z Segment Known Issues
 This section contains useful information that may help you avoid Z segment errors.  

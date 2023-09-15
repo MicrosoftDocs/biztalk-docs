@@ -1,23 +1,23 @@
 ---
 description: "Learn more about: HL7 2.3.1 Folders and Events"
-title: "HL7 2.3.1 Folders and Events | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "HL7 2.3.1 Folders and Events"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "HL7, default sub-folders"
   - "events, 2.X versions"
   - "HL7, events"
 ms.assetid: 5cab1b7e-fdce-4b4b-bbd6-1da67fcf6a74
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # HL7 2.3.1 Folders and Events
 The following table lists the subfolders created by the setup wizard within the HL7 version 2.3.1 folder for HL7-encoded messages. These subfolders contain the schemas used by Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) to validate, parse, and serialize the events listed in the Events column of this table. The subfolder names describe the types of events these schemas support.  

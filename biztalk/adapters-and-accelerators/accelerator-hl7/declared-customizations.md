@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Declared Customizations"
-title: "Declared Customizations | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Declared Customizations"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "declared customizations"
   - "Z objects, declared customizations"
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "customizing, declared customizations"
 ms.assetid: 484655e9-8bfa-4643-bbe6-4ef69cbd83ad
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Declared Customizations
 With declared customizations, you have the flexibility of modifying or adding to HL7 messages. You can even define a new type of message. You can do this in any of the following ways:  
