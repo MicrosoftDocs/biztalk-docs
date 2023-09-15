@@ -410,8 +410,8 @@ SSO_ERROR_SECRETS_NOT_LOADED
 |LaunchConfigFmk|Launches BizTalk Server Configuration Wizard|
 |CHKASPNET|Checks the install state of ASP.NET|
 |CHKIIS|Checks the install state of IIS|
-|TBExpired|Checks if the BizTalk Server TimeBomb has expired|
-|BrandSKU|Updates the value of BizTalk Server timebomb which depends on SKU installation.|
+|TBExpired|Checks if the BizTalk Server failure timer has expired|
+|BrandSKU|Updates the value of BizTalk Server failure timer which depends on SKU installation.|
 |CA_ERROR|Returns installation failure|
 |InstallComplus|Installs Complus applications and components.|
 |BAM_Add_Perf_Silent|Installs performance counters for BAM|
@@ -422,7 +422,7 @@ SSO_ERROR_SECRETS_NOT_LOADED
 |WMI_Add_MSBTS_Silent|Registers BizTalk Server namespace and classes to WMI.|
 |LaunchConfigFmk_SlashUP|Un-configures BizTalk Server|
 |CleanupComplus|Uninstalls Complus Applications and components.|
-|RemoveSKU|Removes BizTalk Server TimeBomb data.|
+|RemoveSKU|Removes BizTalk Server failure timer data.|
 |BAM_Remove_Perf|Uninstalls performance counters for BAM.|
 |LoadBTSCounters|Loads BizTalk Server performance counters.|
 |RegisterBtprojExtn|Registers BizTalk project file (.btproj) extension.|
