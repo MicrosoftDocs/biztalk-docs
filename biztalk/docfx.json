@@ -42,14 +42,20 @@
     },
     "fileMetadata": {
       "author": {
+        "*.md": "haroldcampos",
         "**/*.md": "haroldcampos",
+        "**/**/*.md": "haroldcampos",
         "troubleshooting/*.md": "haroldcampos"
       },
       "manager": {
-        "**/*.md": "mijacobs"
+        "*.md": "mijacobs",
+        "**/*.md": "mijacobs",
+        "**/**/*.md": "mijacobs"
       },
       "ms.author": {
+        "*.md": "hcampos",
         "**/*.md": "hcampos",
+        "**/**/*.md": "hcampos",
         "troubleshooting/*.md": "hcampos"        
       },
       "titleSuffix": {"troubleshooting/*.md": "BizTalk Server"}
