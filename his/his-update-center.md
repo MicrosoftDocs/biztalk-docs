@@ -1,14 +1,10 @@
 ---
-title: Update center | Microsoft Docs
-description: See all the available cumulative updates and service packs available for HIS and OLE DB Provider for DB2
-author: "christopherhouser"
-manager: "mijacobs"
-ms.prod: "host-integration-server"
+title: Update center
+description: See all the available cumulative updates and service packs available for HIS and OLE DB Provider for DB2.
+ms.prod: host-integration-server
+ms.topic: conceptual
 ms.date: 07/20/2022
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.author: "hisdocs"
+
 ---
 
 # Update Center
