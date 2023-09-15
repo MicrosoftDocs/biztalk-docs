@@ -1,8 +1,8 @@
 ---
 title: Acknowledgment error conditions
-description: Learn more about acknowledgment error conditions in BizTalk Server.
+description: Learn more about acknowledgment error conditions in BizTalk Accelerator for HL7.
 ms.prod: biztalk-server
-ms.topic: article
+ms.topic: conceptual
 ms.date: 06/08/2017
 
 helpviewer_keywords: 
@@ -13,27 +13,28 @@ caps.latest.revision: 3
 
 ---
 
-# Acknowledgment Error Conditions
+# Acknowledgment error conditions in BizTalk Accelerator for HL7
 
-The following conditions will result in a fatal error condition when Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) is processing acknowledgment (ACK) messages:  
-  
-- Missing required fields in MSH9  
-  
-- Missing required fields in MSH12  
-  
-  The following conditions result in a non-fatal error condition. In this situation, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generates the ACK, but also suspends the ACK:  
-  
-- Missing a required field in MSH11  
-  
-- Missing a MSH10 value  
-  
-- Enumeration type errors for optional fields in the header.  
-  
+The following conditions will result in a fatal error condition when Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) is processing acknowledgment (ACK) messages:
+
+- Missing required fields in MSH9
+
+- Missing required fields in MSH12
+
+  The following conditions result in a non-fatal error condition. In this situation, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generates the ACK, but also suspends the ACK:
+
+- Missing a required field in MSH11
+
+- Missing a MSH10 value
+
+- Enumeration type errors for optional fields in the header.
+
 > [!NOTE]
->  For enumeration type errors found in the header when MSH 15 is set to AL or ER, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generates a commit ACK with the status **MSA_1=CR**.  
-  
-## See Also  
- [Creating and Processing Acknowledgments](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md)   
- [ACK Message Schema Types](../../adapters-and-accelerators/accelerator-hl7/ack-message-schema-types.md)   
- [Message Acknowledgment Segment](../../adapters-and-accelerators/accelerator-hl7/message-acknowledgment-segment.md)   
- [Setting Up a Send Port for Receiving ACKs](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md)
+> For enumeration type errors found in the header when MSH 15 is set to AL or ER, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] generates a commit ACK with the status **MSA_1=CR**.
+
+## See Also
+
+[Creating and Processing Acknowledgments](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md)
+[ACK Message Schema Types](../../adapters-and-accelerators/accelerator-hl7/ack-message-schema-types.md)
+[Message Acknowledgment Segment](../../adapters-and-accelerators/accelerator-hl7/message-acknowledgment-segment.md)
+[Setting Up a Send Port for Receiving ACKs](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md)
