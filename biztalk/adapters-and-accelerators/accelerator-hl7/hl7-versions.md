@@ -1,22 +1,22 @@
 ---
 description: "Learn more about: HL7 Versions"
-title: "HL7 Versions | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "HL7 Versions"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "HL7, standards"
   - "HL7, versions"
 ms.assetid: 47299c6f-55c3-4434-8170-5ad73fe9a84c
 caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # HL7 Versions
 HL7 Version 2 is a family of closely related standards rather than a single standard. The HL7 organization has designed these standards to be upwards compatible through the application of the HL7 inter-version compatibility rules. These rules guarantee that, within the confines of Version 2, an interface defined under the rules of an HL7 version will still function within the definition of successor versions. So that a receiving system will be able to accept messages from later versions without breaking its implementation and a sending system will be able to continue to send messages to receivers who support later versions.  

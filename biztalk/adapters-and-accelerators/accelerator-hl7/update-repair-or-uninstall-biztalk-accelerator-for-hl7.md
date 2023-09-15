@@ -1,19 +1,19 @@
 ---
 description: "Learn more about: Update, repair, or uninstall BizTalk Accelerator for HL7"
-title: "Update, repair, or uninstall BizTalk Accelerator for HL7 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Update, repair, or uninstall BizTalk Accelerator for HL7"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 ms.assetid: e2fc84d2-1262-4a6e-ae9c-488a00ab4099
 caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Update, repair, or uninstall BizTalk Accelerator for HL7
 

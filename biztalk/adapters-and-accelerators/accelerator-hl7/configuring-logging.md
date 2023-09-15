@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Configuring Logging"
-title: "Configuring Logging | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Configuring Logging"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "configuring, auditing"
   - "configuring, logging"
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "auditing, configuring"
 ms.assetid: cd83acbb-337b-4448-ad43-c0b89c5c3356
 caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Configuring Logging
 Health care applications require complete logging of messages. Since these applications handle critical, time sensitive and monetary data, logging becomes a critical part of the application. System administrators need to be able to do the following:  

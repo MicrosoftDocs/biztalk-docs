@@ -1,22 +1,22 @@
 ---
 description: "Learn more about: Acknowledgments Known Issues"
-title: "Acknowledgments Known Issues | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Acknowledgments Known Issues"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "known issues, acknowledgements"
   - "acknowledgements, known issues"
 ms.assetid: cb45f80e-ba89-4b3f-a770-4b1cf9b8e220
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Acknowledgments Known Issues
 This section contains useful information that may help you avoid acknowledgment (ACK) errors.  

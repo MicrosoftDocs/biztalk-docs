@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Step 3: Create and Deploy a Trigger Event (Message) Project_hl7_main"
-title: "Step 3: Create and Deploy a Trigger Event (Message) Project_hl7_main | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 3: Create and Deploy a Trigger Event (Message) Project_hl7_main"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "interrogative tutorial, trigger events"
 ms.assetid: 90b65ad1-7953-4009-a1eb-1c2a85c7980a
 caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 3: Create and Deploy a Trigger Event (Message) Project_hl7_main
 In this step, you create the schema used by a trigger event message. For example, the Admissions Discharge and Transfer system (ADT) that sends a message to the Hospital Information System (HIS). You use this schema to define the format of your message.  

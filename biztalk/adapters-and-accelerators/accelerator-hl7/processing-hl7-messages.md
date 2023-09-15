@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Processing HL7 Messages"
-title: "Processing HL7 Messages | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Processing HL7 Messages"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "messages, processing"
 ms.assetid: 0994f2cc-1e6f-4d07-8ae1-9ee53d4b4537
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Processing HL7 Messages
 This section provides specifics about HL7 messages, including message modes, scenarios, message types, and message formatting.  

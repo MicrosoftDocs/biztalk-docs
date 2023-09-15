@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Preparing to Use the Batching Tutorial"
-title: "Preparing to Use the Batching Tutorial | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Preparing to Use the Batching Tutorial"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "batching tutorial, pre-requisites"
 ms.assetid: 27ae89ca-63f4-41d4-8228-ddc871ad041e
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Preparing to Use the Batching Tutorial
 Before you can use the Batching tutorial, you must perform the tasks in this section.  

@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: BTAHL72X Flat File Processing"
-title: "BTAHL72X Flat File Processing | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "BTAHL72X Flat File Processing"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "ACKs"
   - "2.X messages, disassembler"
@@ -37,9 +37,9 @@ helpviewer_keywords:
   - "2.X messages, parsing flat files"
 ms.assetid: c92e2f70-0bfa-4bc8-8044-4a6e62cabee3
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # BTAHL72X Flat File Processing
 The following components in Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) process HL7 2.X (HL7-encoded) messages:  

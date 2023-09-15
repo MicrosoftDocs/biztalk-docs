@@ -1,23 +1,23 @@
 ---
 description: "Learn more about: Step 6: Validate the Schemas"
-title: "Step 6: Validate the Schemas | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 6: Validate the Schemas"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "message enrichment tutorial, schemas"
   - "schemas, validating"
   - "validating, schemas"
 ms.assetid: 58cd8680-d135-485a-9463-e7701202eaf7
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 6: Validate the Schemas
 In this step, you use the validate schema command to determine if either of the schemas contains any internal inconsistencies, or has other issues that might prevent either schema from being used effectively for processing instance messages.  

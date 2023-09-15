@@ -1,22 +1,22 @@
 ---
 description: "Learn more about: Part 2: Batch In/Batch Out Scenario"
-title: "Part 2: Batch In-Batch Out Scenario | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Part 2: Batch In-Batch Out Scenario"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "batching, outbound batches"
   - "batching, inbound batches"
 ms.assetid: 36b9d927-f5b7-4c1a-9163-9e79d17c3e9e
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Part 2: Batch In/Batch Out Scenario
 In this part of the tutorial, you receive an HL7-encoded batch file, pass it through [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] without fragmentation, and send the intact batch file to the destination. The following figure shows the flow of this process, and the subsection below describes the workflow.  

@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Help Desk Tab"
-title: "Help Desk Tab | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Help Desk Tab"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.helpdesk"
 ms.assetid: 5274030d-d422-4bf3-9f04-7a16064226ad
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Help Desk Tab
 You use the Help Desk tab to enter data about the destination or source party. Having the party information in the Help Desk tab is helpful if there are any errors generated and you need to contact the party. If there is an error in a message, the party information will be in the ACK message.  

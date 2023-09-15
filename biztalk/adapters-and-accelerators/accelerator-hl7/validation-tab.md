@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Validation Tab"
-title: "Validation Tab | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Validation Tab"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.validation"
 helpviewer_keywords: 
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "configuring, validating"
 ms.assetid: 6d47d951-c70b-43f0-bde2-99978fa78709
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Validation Tab
 You use the **Validation** tab to select the message validation options for inbound and generated messages.  

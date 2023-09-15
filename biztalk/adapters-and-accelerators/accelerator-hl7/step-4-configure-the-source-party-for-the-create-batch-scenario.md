@@ -1,19 +1,19 @@
 ---
 description: "Learn more about: Step 4: Configure the Source Party for the Create-Batch Scenario"
-title: "Step 4: Configure the Source Party for the Create-Batch Scenario | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 4: Configure the Source Party for the Create-Batch Scenario"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 ms.assetid: b06b6545-4c2e-4a56-9feb-bd3f9574d4d1
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 4: Configure the Source Party for the Create-Batch Scenario
 In this step, you configure the source party for the Create-Batch scenario. You also select the acknowledgments that BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) will batch, as defined for this party. You set the scheduling for the acknowledgment batch such that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] will create the batch after the message count reaches 2.  

@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Message Batching"
-title: "Message Batching | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Message Batching"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "batching"
   - "batching, about batching"
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "batching, messages"
 ms.assetid: d852cf00-3882-4f0f-a4c3-2a39483710ee
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Message Batching
 Protocol standards, scheduling issues, or message size limitations may motivate the need to batch messages. A Health Level Seven (HL7) batch consists of messages enclosed by an HL7 batch header and batch trailer. Message separators separate the individual messages within the batch.  

@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Troubleshooting Other Issues"
-title: "Troubleshooting Other Issues | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Troubleshooting Other Issues"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "troubleshooting"
 ms.assetid: 1f115f64-45ce-445d-ab18-092f4a6a232c
 caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Troubleshooting Other Issues
 Addresses other issues related to Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].  

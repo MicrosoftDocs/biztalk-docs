@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Handling Undeclared Z Segments"
-title: "Handling Undeclared Z Segments | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Handling Undeclared Z Segments"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "Z segments, 2.X schemas"
   - "2.X schemas, undeclared Z segments"
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "Z objects, undeclared segments"
 ms.assetid: 8878bc93-1833-4bfc-b80e-305e4144739e
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Handling Undeclared Z Segments
 There are two types of Z segments: declared Z segments and undeclared Z segments. While they are similar in that you use them for local purposes, they are very different in how you use them.  

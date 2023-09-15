@@ -1,14 +1,14 @@
 ---
 description: "End-to-End Tutorial to use and configure the BizTalk Accelerator for HL7 - BTAHL7"
-title: "BizTalk Accelerator for HL7 tutorial | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "BizTalk Accelerator for HL7 tutorial"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 f1_keywords: 
   - "btahl7.endtoendtutorial"
 helpviewer_keywords: 
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "tutorials, end-to-end tutorial"
 ms.assetid: 90625edc-70a0-42c9-a2fb-8eeb5465d766
 caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # End-to-End Tutorial for BizTalk Accelerator for HL7
 This tutorial contains detailed steps that describe how you use Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to facilitate business processes in a subscriber and publisher scenario.  

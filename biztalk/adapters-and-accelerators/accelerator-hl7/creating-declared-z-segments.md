@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Creating Declared Z Segments"
-title: "Creating Declared Z Segments | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Creating Declared Z Segments"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "Z objects, creating segments"
   - "segments, creating Z segments [Z objects]"
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "creating, Z segments [Z objects]"
 ms.assetid: afd1b7b7-089e-4c6a-a063-e708431bb888
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Creating Declared Z Segments
 You can create declared Z segments at any level of a schema (unlike undeclared Z segments, which must be the last part of a multi-party message, following the body part).  
