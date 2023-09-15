@@ -10,8 +10,8 @@ metadata:
   description: Explore documentation for Microsoft BizTalk Server # Required; article description that is displayed in search results. < 160 chars.
   ms.service: biztalk-service #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
-  author: MandiOhlinger #Required; your GitHub user alias, with correct capitalization.
-  ms.author: mandia #Required; microsoft alias of author; optional team alias.
+  author: haroldcampos #Required; your GitHub user alias, with correct capitalization.
+  ms.author: hcampos #Required; microsoft alias of author; optional team alias.
   ms.date: 04/10/2020 #Required; mm/dd/yyyy format.
 
 highlightedContent: 

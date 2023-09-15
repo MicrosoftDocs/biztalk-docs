@@ -1,15 +1,10 @@
 ---
-title: Popular downloads | Microsoft Docs
-description: Download editions, management packs, SDKs, best practices analyzer, migration tool, client installation packages, and whitepapers for HIS 2016 and HIS 2013
-author: "christopherhouser"
-manager: "anneta"
+title: Popular downloads
+description: Download editions, management packs, SDKs, best practices analyzer, migration tool, client installation packages, and whitepapers for HIS 2016 and HIS 2013.
+ms.prod: host-integration-server
+ms.topic: conceptual
+ms.date: 01/25/2018
 
-ms.date: "01/25/2018"
-ms.prod: "host-integration-server"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.author: "hisdocs"
 ---
 
 # Popular downloads

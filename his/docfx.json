@@ -58,6 +58,7 @@
         "**/**/*.md": "hcampos",
         "troubleshooting/*.md": "tlsnook"
       },
+      "ms.prod": "host-integration-server",
       "titleSuffix": {"troubleshooting/*.md": "Host Integration Server"}
     },
     "template": [],
