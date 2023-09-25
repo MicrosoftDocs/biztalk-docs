@@ -1,37 +1,37 @@
 ---
 title: BizTalk Server code samples
-description: Download BizTalk Server sample collections, or browse lists of individual samples.
+description: Download BizTalk Server sample collections, or browse individual samples.
 ms.prod: biztalk-server
-ms.author: mandia
-ms.date: 11/01/2018
 ms.topic: conceptual
-
-author: MandiOhlinger
+ms.date: 09/25/2023
 
 ---
 # BizTalk Server Code Samples
 
-Download BizTalk Server sample collections, or browse lists of individual samples.
+Download BizTalk Server sample collections, or browse individual samples.
 
 ## BizTalk Server
 
-[BizTalk Server 2009 Code Samples](https://go.microsoft.com/fwlink/?LinkId=146129 "BizTalk Server 2009 Samples")
+[BizTalk Server 2009 Code Samples](https://go.microsoft.com/fwlink/?LinkId=146129)
 Download the entire collection of BizTalk Server 2009 samples in one download. The RFID samples are on the BizTalk Server media (RFID folder).
 
+[BizTalk Server Software Development Kit (SDK)](../core/samples-in-the-sdk.md)
 
-## BizTalk Adapter Pack 2010
+[Implement Design Patterns in Orchestrations](../core/implementing-design-patterns-in-orchestrations.md)
 
-[BizTalk Adapter Pack 2010: Oracle Database Adapter Samples:](https://www.microsoft.com/downloads/details.aspx?FamilyID=6cb4e1cb-6d5e-4c3d-99ce-2eb3c2df61dc "BizTalk Adapter Pack 2010: Oracle Database Adapter Samples:")
-Download the entire collection of samples for the Oracle Database adapter in BizTalk Adapter Pack 2010, or browse and download individual samples.
+## BizTalk Adapter Pack
 
-[BizTalk Adapter Pack 2010: Oracle E-Business Suite Adapter Samples:](https://www.microsoft.com/downloads/details.aspx?FamilyID=1737f531-938f-4035-beff-4059ec37a8ac "BizTalk Adapter Pack 2010: Oracle E-Business Suite Adapter Samples: ")
-Download the entire collection of samples for the Oracle E-Business Suite adapter in BizTalk Adapter Pack 2010, or browse and download individual samples.
+[BizTalk Adapter Pack: Oracle Database Adapter Samples:](https://download.microsoft.com/download/6/9/E/69EFB64E-7972-4E4D-89AF-EF78C7B1A08F/Oracle%20Database%20Adapter%20Samples.exe)
+Download the entire collection of samples for the Oracle Database adapter in BizTalk Adapter Pack.
 
-[BizTalk Adapter Pack 2010: SAP Adapter Samples:](https://www.microsoft.com/downloads/details.aspx?FamilyID=41acd511-0a62-4f72-b72d-0da8a872e3cb "BizTalk Adapter Pack 2010: SAP Adapter Samples:")
-Download the entire collection of samples for the SAP adapter in BizTalk Adapter Pack 2010, or browse and download individual samples.
+[BizTalk Adapter Pack: Oracle E-Business Suite Adapter Samples:](https://download.microsoft.com/download/8/3/6/836A5E37-2FE2-4478-BEC1-4E9D12644282/Oracle%20E-Business%20Suite%20Adapter%20Samples.exe)
+Download the entire collection of samples for the Oracle E-Business Suite adapter in BizTalk Adapter Pack.
 
-[BizTalk Adapter Pack 2010: Siebel Adapter Samples:](https://www.microsoft.com/downloads/details.aspx?FamilyID=ee0838fe-6db6-417b-8e3d-409fa3392333 "BizTalk Adapter Pack 2010: Siebel Adapter Samples:")
-Download the entire collection of samples for the Siebel adapter in BizTalk Adapter Pack 2010, or browse and download individual samples.
+[BizTalk Adapter Pack: SAP Adapter Samples:](https://download.microsoft.com/download/1/3/F/13F12985-DEBB-48FD-87B0-A8B0EDD95C26/SAP%20Adapter%20Samples.exe)
+Download the entire collection of samples for the SAP adapter in BizTalk Adapter Pack.
 
-[BizTalk Adapter Pack 2010: SQL Adapter Samples:](https://www.microsoft.com/downloads/details.aspx?FamilyID=4c05e206-b50e-4cbb-87c5-e291e87762a0 "BizTalk Adapter Pack 2010: SQL Adapter Samples:")
-Download the entire collection of samples for the SQL adapter in BizTalk Adapter Pack 2010, or browse and download individual samples.
+[BizTalk Adapter Pack: Siebel Adapter Samples:](https://download.microsoft.com/download/2/0/E/20EADDDB-6CFC-4028-B238-FE23D2EF4DC5/Siebel%20Adapter%20Samples.exe)
+Download the entire collection of samples for the Siebel adapter in BizTalk Adapter Pack.
+
+[BizTalk Adapter Pack: SQL Adapter Samples:](https://download.microsoft.com/download/C/B/1/CB11E03F-1D3D-41D1-A2F1-F31476B3DA83/SQL%20Adapter%20Samples.exe)
+Download the entire collection of samples for the SQL adapter in BizTalk Adapter Pack.
