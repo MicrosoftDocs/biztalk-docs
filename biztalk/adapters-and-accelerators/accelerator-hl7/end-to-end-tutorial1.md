@@ -32,7 +32,7 @@ This tutorial contains detailed steps that describe how you use Microsoft [!INCL
   
  ![Image showing the flow of business for the declarative scenario in BizTalk Server](../../adapters-and-accelerators/accelerator-hl7/media/hl7-e2e-wkflw.gif "hl7_e2e_wkflw")  
   
-1.  The workflow begins when the publisher, for example, an Admissions Discharge and Transfer system, sends a message to specific subscribers. The publisher in the workflow is "Tutorial_ADTSystem", and the message is called "**ADT^A103**."  
+1.  The workflow begins when the publisher, for example, an Admissions Discharge and Transfer system, sends a message to specific subscribers. The publisher in the workflow is "Tutorial_ADTSystem", and the message is called "**ADT^A03**."  
   
 2.  The message is routed to the BTAHL7 Interface Engine, which in turn receives, processes, validates, reformats, and then routes the message to subscribers.  
   
