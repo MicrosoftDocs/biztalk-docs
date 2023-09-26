@@ -1,20 +1,14 @@
 ---
-description: "Learn more about: Using the Performance Analysis of Logs (PAL) Tool"
-title: "Using the Performance Analysis of Logs (PAL) Tool | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: d563aa7d-102d-4fe6-a892-66794feaf83b
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+title: Performance Analysis of Logs (PAL) Tool
+description: Learn how to use the Performance Analysis of Logs (PAL) Tool with BizTalk Server.
+ms.prod: biztalk-server
+ms.topic: conceptual
+ms.date: 06/08/2017
+
 ---
-# Using the Performance Analysis of Logs (PAL) Tool
+
+# Generate reports and charts with performance counters with the Performance Analysis of Logs (PAL) Tool for BizTalk Server
+
 The PAL (Performance Analysis of Logs) tool reads in a performance monitor counter log (any known format) and analyzes it using complex, but known thresholds (provided). The tool generates an HTML based report that graphically charts important performance counters and throws alerts when thresholds are exceeded. The thresholds are originally based on thresholds defined by the Microsoft product teams, including [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], and members of Microsoft support. This tool is not a replacement of traditional performance analysis, but it automates the analysis of performance counter logs enough to help save you time. The PAL tool:
 
 - Analyzes performance counter logs for thresholds
@@ -120,7 +114,7 @@ The PAL (Performance Analysis of Logs) tool reads in a performance monitor count
 
 -   [How to Identify a Disk Performance Bottleneck Using the Microsoft Server Performance Advisor (SPA) Tool](https://go.microsoft.com/fwlink/?linkid=98096)
 
--   [Download Details for Microsoft Service Performance Advisor (SPA)](https://go.microsoft.com/fwlink/?linkid=57769)
+-   [Download Details for Microsoft Service Performance Advisor (SPA)](/previous-versions//dn481522(v=vs.85)?redirectedfrom=MSDN#download-server-performance-advisor)
 
 ## Logical Disk Transfers/sec
  “Disk Transfers/sec” is the rate of read and write operations on the disk. While disk transfers are not a direct correlation to disk I/O's, they do tell us how many disk operations are occurring. If you average out sequential I/O’s and random I/O's, then you end up with about 80 I/O's per second as a general rule of thumb. Therefore, we should expect a SAN drive to perform more than 80 I/O's per second when under load. The thresholds for this analysis check to see whether any of the logical disks are showing poor response times (greater than 25 ms response times for I/O operations). If this is true, then we should expect the disk transfers per second to be at or above 80. If not, then the disk architecture needs to be investigated. The most common cause of poor disk I/O is logical unit number (LUN) overloading on the SAN – meaning the condition where more than one LUN is using the small physical disk array.
@@ -144,7 +138,7 @@ The PAL (Performance Analysis of Logs) tool reads in a performance monitor count
  If you suspect a memory leak condition, then install and use the Debug Diag tool. For more information on the Debug Diag Tool, see the references section.
 
 ### Reference
- [Debug Diagnostic Tool v1.1](https://go.microsoft.com/fwlink/?linkid=106784)
+ [Debug Diagnostic Tool](https://www.microsoft.com/download/details.aspx?id=103453)
 
 ## Memory Pages/sec Analysis
  This analysis checks to see whether the “Pages/sec” is high. If it is high, then the system is likely running out of memory by trying to page the memory to the disk. “Pages/sec” is the rate at which pages are read from or written to disk to resolve hard page faults. This counter is a primary indicator of the kinds of faults that cause system-wide delays.  It is the sum of “Memory\Pages Input/sec” and “Memory\Pages Output/sec”. It is counted in numbers of pages, so it can be compared to other counts of pages, such as “Memory\Page Faults/sec”.
@@ -420,9 +414,9 @@ The PAL (Performance Analysis of Logs) tool reads in a performance monitor count
 
 ### References
 
--   [Debug Diagnostic Tool v1.1](https://go.microsoft.com/fwlink/?linkid=106784)
+- [Debug Diagnostic Tool](https://www.microsoft.com/download/details.aspx?id=103453)
 
--   [Memory Growth in BizTalk Messaging](https://go.microsoft.com/fwlink/?linkid=108788)
+- [Memory Growth in BizTalk Messaging](https://go.microsoft.com/fwlink/?linkid=108788)
 
 ## BizTalk Virtual Bytes Analysis
  This is the megabytes reserved for virtual memory for the host instance. This analysis determines whether any of the host instances are consuming a large amount of the system's memory and whether the host instance is increasing in memory consumption over time. A host instance consuming large portions of memory is fine as long as it returns the memory to the system. Look for increasing trends in the chart. An increasing trend over a long period of time could indicate a memory leak.
@@ -431,9 +425,9 @@ The PAL (Performance Analysis of Logs) tool reads in a performance monitor count
 
 ### References
 
--   [Debug Diagnostic Tool v1.1](https://go.microsoft.com/fwlink/?linkid=106784)
+- [Debug Diagnostic Tool](https://www.microsoft.com/download/details.aspx?id=103453)
 
--   [Memory Growth in BizTalk Messaging](https://go.microsoft.com/fwlink/?linkid=108788)
+- [Memory Growth in BizTalk Messaging](https://go.microsoft.com/fwlink/?linkid=108788)
 
 ## BizTalk Message Agent Database Session Throttling Analysis
  This is the number of open database connections to the MessageBox compared to its respective BizTalk throttling setting. “Database connection per CPU” is the maximum number of concurrent database sessions (per CPU) allowed before throttling begins. The idle database sessions in the common per-host session pool do not add to this count, and this check is made strictly on the number of sessions actually being used by the host instance. This option is disabled by default; typically this setting should only be enabled if the database server is a bottleneck in the BizTalk Server system. You can monitor the number of active database connections by using the database session performance counter under the BizTalk:Message Agent performance object category. This parameter only affects outbound message throttling. Enter a value of 0 to disable throttling that is based on the number of database sessions. The default value is 0.
