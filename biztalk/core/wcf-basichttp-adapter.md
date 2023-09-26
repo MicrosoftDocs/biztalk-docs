@@ -1,23 +1,13 @@
 ---
-description: "Learn more about: WCF-BasicHttp Adapter"
-title: "WCF-BasicHttp Adapter | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords:
-  - "WCF-BasicHttp adapters"
-ms.assetid: 51bc56be-3c78-4bf9-87b6-8fb1435d8cde
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+title: WCF-BasicHttp Adapter
+description: Learn about the WCF-BasicHttp Adapter in BizTalk Server.
+ms.prod: biztalk-server
+ms.topic: conceptual
+ms.date: 06/08/2017
 ---
+
 # WCF-BasicHttp Adapter
+
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the WCF-BasicHttp adapter to receive and send WCF service requests through the [BasicHttpBinding class](/dotnet/api/system.servicemodel.basichttpbinding). The WCF-BasicHttp adapter enables you to publish orchestrations and schemas as WCF services and to consume external WCF services with the **BasicHttpBinding**.
 
 You can use the WCF-BasicHttp adapter to do cross-computer communication with legacy ASMX-based Web services and clients that conform to the WS-I Basic Profile 1.1, using either the HTTP or HTTPS transport with text encoding. However, you will not be able to take advantage of features that are supported by WS-* protocols.
@@ -160,12 +150,11 @@ This receive location can be configured as one-way or request-response (two-way)
    > [!NOTE]
    >  If you specify the **https** scheme for the **Address (URI)** property, you must configure the **Security mode** property to **Transport** or **TransportWithMessageCredential**. You can use the **Security** tab to configure the **Security mode** property.
 
-   |       Use this        | To do this |
-   |---|---|
-   |   **Address (URI)**   | Required. Specify the fully qualified URI for this send port. Use the **https** or the **http** scheme depending on the security configuration.<br /><br /> Maximum length: 255<br /><br /> Default value: http://localhost/   |
+   | Use this | To do this |
+   |----------|------------|
+   | **Address (URI)** | Required. Specify the fully qualified URI for this send port. Use the **https** or the **http** scheme depending on the security configuration.<br /><br /> Maximum length: 255<br /><br /> Default value: http://localhost/ |
    | **Endpoint Identity** |  Optional. Specify the identity of the service that this send port expects. These settings enable this send port to authenticate the service. In the handshake process between the client and service, the Windows Communication Foundation (WCF) infrastructure will ensure that the identity of the expected service matches the values of this element. The values that can be specified for the **Identity** property differ according to the security configuration.<br /><br /> The default value is cleared. |
-   |      **Action**       | Specify the **SOAPAction** HTTP header field for outgoing messages. This property can also be set through the message context property **WCF.Action** in a pipeline or orchestration. You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format- for example, <http://contoso.com/Svc/Op1-> the **SOAPAction** header for outgoing messages is always set to the value specified in this property.<br /><br /> If you set this property in the action mapping format, the outgoing **SOAPAction** header is determined by the **BTS.Operation** context property. For example, if this property is set to the following XML format and the **BTS.Operation** property is set to Op1, the WCF send adapter uses <http://contoso.com/Svc/Op1> for the outgoing **SOAPAction** header.<br /><br /> \<BtsActionMapping\><br /><br /> \<Operation Name="Op1" Action="<http://contoso.com/Svc/Op1>" \><br /><br /> \<Operation Name="Op2" Action="<http://contoso.com/Svc/Op2>" \><br /><br /> \</BtsActionMapping\><br /><br /> If outgoing messages comes from an orchestration port, orchestration instances dynamically set the **BTS.Operation** property with the operation name of the port. If outgoing messages are routed with content-based routing, you can set the **BTS.Operation** property in pipeline components.<br /><br /> Minimum length: 0<br /><br /> Maximum length: 32767<br /><br /> The default is an empty string. |
-
+   | **Action** | Specify the **SOAPAction** HTTP header field for outgoing messages. This property can also be set through the message context property **WCF.Action** in a pipeline or orchestration. <br><br>You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format, for example, `http://contoso.com/Svc/Op1`, the **SOAPAction** header for outgoing messages is always set to the value specified in this property. <br><br /> If you set this property in the action mapping format, the outgoing **SOAPAction** header is determined by the **BTS.Operation** context property. For example, if this property is set to the following XML format, and the **BTS.Operation** property is set to **Op1**, the WCF send adapter uses `http://contoso.com/Svc/Op1` for the outgoing **SOAPAction** header. <br><br>`<BtsActionMapping>` <br> `<Operation Name="Op1" Action="http://contoso.com/Svc/Op1" />` <br>`<Operation Name="Op2" Action="http://contoso.com/Svc/Op2"/>` <br>`</BtsActionMapping>` <br><br> If outgoing messages comes from an orchestration port, orchestration instances dynamically set the **BTS.Operation** property with the operation name of the port. If outgoing messages are routed with content-based routing, you can set the **BTS.Operation** property in pipeline components. <br><br> Minimum length: 0 <br><br> Maximum length: 32767 <br><br>The default is an empty string. |
 
 4. In **WCF-BasicHttp Transport Properties**, on the **Binding** tab, configure the time-out and encoding properties:
 
