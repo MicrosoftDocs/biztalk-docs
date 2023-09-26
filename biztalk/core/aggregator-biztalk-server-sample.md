@@ -1,28 +1,13 @@
 ---
-description: "Learn more about: Aggregator (BizTalk Server Sample)"
-title: "Aggregator (BizTalk Server Sample) | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, examples"
-  - "examples, orchestrations"
-  - "pipelines, examples"
-  - "orchestrations, messages"
-  - "examples, pipelines"
-  - "messages, correlating to orchestrations"
-ms.assetid: eb8121df-4f5b-4f36-8228-4b5ad1abfb4e
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+title: Aggregator sample
+description: Learn about the Aggregator sample for BizTalk Server.
+ms.prod: biztalk-server
+ms.topic: article
+ms.date: 06/08/2017
 ---
+
 # Aggregator (BizTalk Server Sample)
+
 The purpose of this sample is to build a message aggregation functionality using orchestration and pipelines. Specifically we will build an orchestration that:  
   
 1.  Receives a set of correlated messages. Messages are correlated based on the destination partner URI information that is extracted from message content.  
@@ -46,7 +31,7 @@ The purpose of this sample is to build a message aggregation functionality using
 |In Aggregator folder:<br /><br /> Aggregate.odx|Orchestration that collects correlated messages together and then executes send pipeline to assemble them into a single interchange.|  
 |In Aggregate folder:<br /><br /> SuspendMessage.odx|Orchestration used for suspending messages that cannot be processed within aggregating orchestration.|  
 |In PipelinesAndSchemas folder:<br /><br /> FFReceivePipeline.btp|Receive pipeline with flat file disassembler.|  
-|In PipelinesAndSchemas folder:<br /><br /> Instance1.txt, Instance2.txt, Instance3.txt, Instance4.txt|Document instances for the sample. Instance1.txt and Instance2.txt should be added to an interchange for destination partner [http://www.contoso.com](http://www.contoso.com/) while Instance3.txt and Instance4.txt should be added to an interchange for destination partner [http://www.northwind.com](http://www.northwind.com/).|  
+|In PipelinesAndSchemas folder:<br /><br /> Instance1.txt, Instance2.txt, Instance3.txt, Instance4.txt|Document instances for the sample. Instance1.txt and Instance2.txt should be added to an interchange for destination partner `https://www.contoso.com`, while Instance3.txt and Instance4.txt should be added to an interchange for destination partner `https://www.northwind.com`.|  
 |In PipelinesAndSchemas folder:<br /><br /> Invoice.xsd, InvoiceEnvelope.xsd|Document schema and envelope schema for output interchange.|  
 |In PipelinesAndSchemas folder:<br /><br /> PipelinesAndSchemas.btproj|BizTalk project for the schemas and pipelines.|  
 |In PipelinesAndSchemas folder:<br /><br /> PropertySchema.xsd|Property schema for the sample.|  
@@ -88,9 +73,9 @@ The purpose of this sample is to build a message aggregation functionality using
   
 1.  Open Instance1.txt and Instance2.txt files located in PipelinesAndSchemas folder to inspect their content.  
   
-     Notice that in both files the DestinationPartnerURI element contains the value http://www.contoso.com. This value will be used to correlate these two messages together so that they can be added to one interchange.  
-  
-     Similarly Instance3.txt and Instance4.txt files have DestinationPatnerURI element set to http://www.northwind.com.  
+     Notice that in both files the DestinationPartnerURI element contains the value `https://www.contoso.com`. This value will be used to correlate these two messages together so that they can be added to one interchange.
+
+     Similarly Instance3.txt and Instance4.txt files have DestinationPatnerURI element set to `https://www.northwind.com`.
   
      These two messages together will be added to a different interchange.  
   

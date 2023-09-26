@@ -1,21 +1,13 @@
 ---
-description: "Learn more about: Create the receive location and send port programmatically"
-title: "Create the receive location and send port programmatically | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 47850e66-ce33-4c6a-8190-168071792c0b
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+title: Create receive location and send port
+description: Learn how to programmatically create the receive location and send port in BizTalk Server.
+ms.prod: biztalk-server
+ms.topic: how-to
+ms.date: 06/08/2017
 ---
+
 # Create the receive location and send port programmatically
+
 Configure a WCF-BasicHttp receive location and send port programmatically. To use the BizTalk Administration console, see [WCF-BasicHttp adapter](../core/wcf-basichttp-adapter.md).
 
 ## Configure the receive location programmatically
