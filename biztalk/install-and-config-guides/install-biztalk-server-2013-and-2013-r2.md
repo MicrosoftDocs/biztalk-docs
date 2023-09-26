@@ -52,7 +52,7 @@ Lists the steps to install [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
 
    [Proactivity in BizTalk Server](https://msdn.microsoft.com/library/dn393929\(v=bts.10\).aspx)
 
-   [BizTalk Server 2013 R2: Installation and Configuration – Important considerations before set up the server (Part 1)](http://sandroaspbiztalkblog.wordpress.com/2015/01/04/biztalk-server-2013-r2-installation-and-configuration-important-considerations-before-set-up-the-server-part-1/)
+   [BizTalk Server 2013 R2: Installation and Configuration – Important considerations before set up the server (Part 1)](https://sandroaspbiztalkblog.wordpress.com/2015/01/04/biztalk-server-2013-r2-installation-and-configuration-important-considerations-before-set-up-the-server-part-1/)
 
 ##  <a name="BKMK_Install"></a> Install BizTalk Server
 

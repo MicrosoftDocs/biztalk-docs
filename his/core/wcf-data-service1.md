@@ -98,7 +98,7 @@ WCF Data Services enables you to create and consume Open Data Protocol (OData) s
 
 2. In Internet Explorer, enter a URI to return all of the records from a DB2 table through the data service.
 
-    In OData, you address entity resources as an entity set that contains instances of entity types. For example, the URI http://services.odata.org/Northwind/Northwind.svc/Customers('ALFKI')/Orders returns all of the orders from the Northwind data service that are related to the customer with a CustomerID value of ALFKI.
+    In OData, you address entity resources as an entity set that contains instances of entity types. For example, the URI `http://services.odata.org/Northwind/Northwind.svc/Customers('ALFKI')/Orders` returns all of the orders from the Northwind data service that are related to the customer with a CustomerID value of ALFKI.
 
    ```
    http://localhost:36651/DynamicData/WcfDataServiceDB2.svc/DEPARTMENTs

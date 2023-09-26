@@ -1,21 +1,13 @@
 ---
-description: "Learn more about: How to Configure a WCF-WSHttp Send Port"
-title: "Configure a WCF-WSHttp Send Port | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 035d9a62-b8a3-4705-a7bc-b62676437206
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+title: Configure a WCF-WSHttp Send Port
+description: Learn how to configure a WCF-WSHttp Send Port in BizTalk Server.
+ms.prod: biztalk-server
+ms.topic: how-to
+ms.date: 06/08/2017
 ---
-# How to Configure a WCF-WSHttp Send Port
+
+# Configure a WCF-WSHttp Send Port
+
 You can configure a WCF-WSHttp send port either programmatically or by using the BizTalk Administration console.
 
 ## Configuration properties
@@ -26,11 +18,10 @@ You can configure a WCF-WSHttp send port either programmatically or by using the
 
  The following table lists the configuration properties you can set in the BizTalk Explorer Object Model for WCF-WSHttp send ports.
 
-
-| Property name | Type |  Description |
-|---|---|---|
-| **Identity**            |  XML Blob<br /><br /> Example :<br /><br /> &lt;identity&gt;<br /><br /> &lt;userPrincipalName value="username@contoso.com" /&gt;<br /><br /> &lt;/identity&gt; |  Specify the identity of the service that this send port expects. These settings enable this send port to authenticate the service. In the handshake process between the client and service, the Windows Communication Foundation (WCF) infrastructure will ensure that the identity of the expected service matches the values of this element.<br /><br /> The default is an empty string.  |
-|  **StaticAction**          |  -   String  | Specify the **SOAPAction** HTTP header field for outgoing messages. This property can also be set through the message context property **WCF.Action** in a pipeline or orchestration. You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format- for example, <`http://contoso.com/Svc/Op1-`> the **SOAPAction** header for outgoing messages is always set to the value specified in this property.<br /><br /> If you set this property in the action mapping format, the outgoing **SOAPAction** header is determined by the **BTS.Operation** context property. For example, if this property is set to the following XML format and the **BTS.Operation** property is set to Op1, the WCF send adapter uses <http://contoso.com/Svc/Op1> for the outgoing **SOAPAction** header.<br /><br /> \<BtsActionMapping\><br /><br /> \<Operation Name="Op1" Action="<http://contoso.com/Svc/Op1>" /\><br /><br /> \<Operation Name="Op2" Action="<http://contoso.com/Svc/Op2>" /\><br /><br /> \</BtsActionMapping\><br /><br /> If outgoing messages come from an orchestration port, orchestration instances dynamically set the **BTS.Operation** property with the operation name of the port. If outgoing messages are routed with content-based routing, you can set the **BTS.Operation** property in pipeline components.<br /><br /> The default is an empty string. |
+| Property name | Type | Description |
+|---------------|------|-------------|
+| **Identity** | XML Blob, for example: <br><br>`<identity>` <br>`<userPrincipalName value="username@contoso.com">` <br>`</identity>` |  Specify the identity of the service that this send port expects. These settings enable this send port to authenticate the service. In the handshake process between the client and service, the Windows Communication Foundation (WCF) infrastructure will ensure that the identity of the expected service matches the values of this element.<br /><br /> The default is an empty string.  |
+|  **StaticAction**          | - String  | Specify the **SOAPAction** HTTP header field for outgoing messages. This property can also be set through the message context property **WCF.Action** in a pipeline or orchestration. You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format, for example, `http://contoso.com/Svc/Op1`, the **SOAPAction** header for outgoing messages is always set to the value specified in this property.<br /><br /> If you set this property in the action mapping format, the outgoing **SOAPAction** header is determined by the **BTS.Operation** context property. For example, if this property is set to the following XML format and the **BTS.Operation** property is set to **Op1**, the WCF send adapter uses `http://contoso.com/Svc/Op1` for the outgoing **SOAPAction** header. <br><br>`<BtsActionMapping>` <br>`<Operation Name="Op1" Action="http://contoso.com/Svc/Op1>">` <br>`<Operation Name="Op2" Action="http://contoso.com/Svc/Op2"/>` <br>`</BtsActionMapping>` <br><br> If outgoing messages come from an orchestration port, orchestration instances dynamically set the **BTS.Operation** property with the operation name of the port. If outgoing messages are routed with content-based routing, you can set the **BTS.Operation** property in pipeline components.<br /><br /> The default is an empty string. |
 |          **OpenTimeout**          | **System.TimeSpan** |  Specify a time span value that indicates the interval of time provided for a channel open operation to complete.<br /><br /> Default value: 00:01:00  |
 |          **SendTimeout**          | **System.TimeSpan**  |  Specify a time span value that indicates the interval of time provided for a send operation to complete. If you use a solicit-response send port, this value specifies a time span for the whole interaction to complete, even if the service returns a large message.<br /><br /> Default value: 00:01:00  |
 |         **CloseTimeout**          |  **System.TimeSpan**  |  Specify a time span value that indicates the interval of time provided for a channel close operation to complete.<br /><br /> Default value: 00:01:00  |
@@ -51,7 +42,7 @@ You can configure a WCF-WSHttp send port either programmatically or by using the
 |           **UserName**            |  String  |  Specify the user name to use for authentication with the destination server when the **UseSSO** property is set to **False**. You do not have to use the domain\user format for this property.<br /><br /> The default is an empty string. |
 |           **Password**            |  String  | Specify the password to use for authentication with the destination server when the **UseSSO** property is set to **False**.<br /><br /> The default is an empty string. |
 |          **ProxyToUse**           | Enum<br /><br /> -   **None** - Do not use a proxy server for this send port.<br />-   **Default** - Use the proxy settings in the send handler hosting this send port.<br />-   **UserSpecified** - Use the proxy server specified in the **ProxyAddress** property.  | Specify which proxy server to use for outgoing HTTP traffic.<br /><br /> Default value: **None**  |
-|         **ProxyAddress**          | String |  Specify the address of the proxy server. Use the **https** or the **http** scheme depending on the security configuration. This address can be followed by a colon and the port number. For example, `http://127.0.0.1:8080`.<br /><br /> The default is an empty string. |
+|         **ProxyAddress**          | String |  Specify the address of the proxy server. Use the **https** or the **http** scheme depending on the security configuration. This address can be followed by a colon and the port number, for example, `http://127.0.0.1:8080`. <br /><br /> The default is an empty string. |
 |         **ProxyUserName**         |  String  | Specify the user name to use for the proxy. The WCF-WSHttp adapter leverages the [WSHttpBinding](/dotnet/api/system.servicemodel.wshttpbinding) in the buffered transfer mode to communicate with an endpoint. Proxy credentials of **WSHttpBinding** are applicable only when the security mode is **Transport**, or **None**. If you set the **SecurityMode** property to **Message** or **TransportWithMessageCredential**, the WCF-WSHttp adapter does not use the credential specified in the **ProxyUserName** and **ProxyPassword** properties for authentication against the proxy. **Note:**  The WCF-WSHttp send adapter uses the basic authentication for the proxy. <br /><br /> The default is an empty string.  |
 |         **ProxyPassword**         |  String  |  Specify the password to use for the proxy.<br /><br /> The default is an empty string.|
 |     **OutboundBodyLocation**      |  Enum<br /><br /> -   **UseBodyElement** - Use the BizTalk message body part to create the content of the SOAP **Body** element for an outgoing message.<br />-   **UseTemplate** - Use the template supplied in the **OutboundXMLTemplate** property to create the content of the SOAP **Body** element for an outgoing message.<br /><br /> For more information about how to use the **OutboundBodyLocation** property, see [Specifying the Message Body for the WCF Adapters](../core/specifying-the-message-body-for-the-wcf-adapters.md).  |  Specify the data selection for the SOAP **Body** element of outgoing WCF messages.<br /><br /> Default value: **UseBodyElement**  |
