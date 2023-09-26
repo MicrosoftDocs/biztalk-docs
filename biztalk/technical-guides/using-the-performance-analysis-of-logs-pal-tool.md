@@ -114,7 +114,7 @@ The PAL (Performance Analysis of Logs) tool reads in a performance monitor count
 
 -   [How to Identify a Disk Performance Bottleneck Using the Microsoft Server Performance Advisor (SPA) Tool](https://go.microsoft.com/fwlink/?linkid=98096)
 
--   [Download Details for Microsoft Service Performance Advisor (SPA)](https://learn.microsoft.com/previous-versions//dn481522(v=vs.85)?redirectedfrom=MSDN#download-server-performance-advisor)
+-   [Download Details for Microsoft Service Performance Advisor (SPA)](/previous-versions//dn481522(v=vs.85)?redirectedfrom=MSDN#download-server-performance-advisor)
 
 ## Logical Disk Transfers/sec
  “Disk Transfers/sec” is the rate of read and write operations on the disk. While disk transfers are not a direct correlation to disk I/O's, they do tell us how many disk operations are occurring. If you average out sequential I/O’s and random I/O's, then you end up with about 80 I/O's per second as a general rule of thumb. Therefore, we should expect a SAN drive to perform more than 80 I/O's per second when under load. The thresholds for this analysis check to see whether any of the logical disks are showing poor response times (greater than 25 ms response times for I/O operations). If this is true, then we should expect the disk transfers per second to be at or above 80. If not, then the disk architecture needs to be investigated. The most common cause of poor disk I/O is logical unit number (LUN) overloading on the SAN – meaning the condition where more than one LUN is using the small physical disk array.
