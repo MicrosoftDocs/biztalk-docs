@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Administration and Run Time Tools"
-title: "Administration and Run Time Tools | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Administration and Run Time Tools"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "BTAHL7, tools"
   - "Configuration Explorer"
@@ -22,9 +22,9 @@ helpviewer_keywords:
   - "runtime tools"
 ms.assetid: 6dad8451-0f77-4d62-bea5-86182c44216a
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Administration and Run Time Tools
 Microsoft BizTalk Server and Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) provides a set of tools for performing administrative and run time tasks, such as deployment, configuration management, administration, business-rule management, and monitoring. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see MicrosoftBizTalk Server Help.  

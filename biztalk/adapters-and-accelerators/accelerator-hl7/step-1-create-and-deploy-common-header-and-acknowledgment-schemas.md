@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Step 1: Create and Deploy Common Header and Acknowledgment Schemas"
-title: "Step 1: Create and Deploy Common Header and Acknowledgment Schemas | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 1: Create and Deploy Common Header and Acknowledgment Schemas"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "interrogative tutorial, headers"
 ms.assetid: e0f11f58-9a8c-4567-a537-3d182fa7dce2
 caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 1: Create and Deploy Common Header and Acknowledgment Schemas
 You use the header schema to validate the header (MSH segment) of the message instance. You use the acknowledgment schema to generate the acknowledgment for the message instance. This process is common across all HL7 schema versions.  

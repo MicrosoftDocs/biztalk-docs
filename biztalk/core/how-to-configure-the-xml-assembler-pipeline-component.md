@@ -13,7 +13,7 @@ ms.assetid: 6d883819-a1d4-4ad0-b08f-fcd7583134d6
 caps.latest.revision: 9
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # Configure the XML Assembler Pipeline Component in BizTalk Server

@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Customizing Messages through Z Objects"
-title: "Customizing Messages through Z Objects | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Customizing Messages through Z Objects"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "messages, Z objects"
   - "customizing, messages"
@@ -17,9 +17,9 @@ helpviewer_keywords:
   - "messages, customizing"
 ms.assetid: 5bf514f8-d270-42d9-80fa-f10a6f6a20ad
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Customizing Messages through Z Objects
 It is important to recognize that, as comprehensive as HL7 may be, it does not address all the particular requirements of every set of interface partners. There will be times in which the specific data requirements of an application go beyond the data definitions that HL7 provides. HL7 has provided methods that interface developers can use when their data needs go beyond the standard. Unfortunately, there are also times in which the implementers of HL7 interfaces do not fully grasp the contents of the standard, and either misuse pre-existing content or simply add new material to existing segments.  

@@ -1,23 +1,23 @@
 ---
 description: "Learn more about: MllpSend Tool"
-title: "MllpSend Tool | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "MllpSend Tool"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "MllpSend tool"
   - "MLLP-encoded messages, receive adapters"
   - "MLLP-encoded messages, MllpSend tool"
 ms.assetid: b1723d52-4909-4543-8215-4f73802b6c4f
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # MllpSend Tool
 You can use the MllpSend tool to send data to an MLLP receive location.  

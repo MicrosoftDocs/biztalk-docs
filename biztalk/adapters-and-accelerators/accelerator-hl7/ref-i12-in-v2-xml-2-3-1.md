@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: REF_I12 in V2.XML 2.3.1"
-title: "REF_I12 in V2.XML 2.3.1 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "REF_I12 in V2.XML 2.3.1"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "REF_I12 schema"
 ms.assetid: de30b128-3c70-41ea-849f-16f4c6d55430
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # REF_I12 in V2.XML 2.3.1
 You must manually change the following code in the REF_I12 schema in V2.XML 2.3.1 after running the Update2XMLSchema tool:  

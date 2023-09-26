@@ -28,7 +28,7 @@ For the base platform, install Microsoft [!INCLUDE[btsWinSvr2k3](../../includes/
 
 - Make sure that you enter the appropriate licensing information (maximum number of connections you have purchased per server). System performance can be affected by the number of available connections.
 
-- Make sure that you have installed all the software prerequisites required for a BizTalk Server installation. For more information, see the BizTalk Server Installation Instructions at [https://go.microsoft.com/fwlink/?LinkId=81041](https://go.microsoft.com/fwlink/?LinkId=81041). [Installation Guide for BizTalk 2013 R2 Accelerator for SWIFT](https://msdn.microsoft.com/library/d2b4a9f3-baeb-4fbc-9fda-5e4178832cd1).
+- Make sure that you have installed all the software prerequisites required for a BizTalk Server installation. For more information, see the [BizTalk Server What's New, Install, Configuration, and Upgrade](/biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade) and [Install BizTalk Accelerator for SWIFT](/biztalk/adapters-and-accelerators/accelerator-swift/install-biztalk-accelerator-for-swift).
 
 - Test all critical updates in an offline environment before installing them on your production servers.
 
@@ -36,13 +36,13 @@ For the base platform, install Microsoft [!INCLUDE[btsWinSvr2k3](../../includes/
 
   - Microsoft BizTalk Server Online Help
 
-  - BizTalk Server Installation Instructions at [https://go.microsoft.com/fwlink/?LinkId=81041](https://go.microsoft.com/fwlink/?LinkId=81041).
+  - [BizTalk Server What's New, Install, Configuration, and Upgrade](/biztalk/install-and-config-guides/biztalk-server-what-s-new-installation-configuration-and-upgrade)
 
-  - Microsoft [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)] Web site at [https://go.microsoft.com/fwlink/?linkid=48685](https://go.microsoft.com/fwlink/?linkid=48685).
+  - Microsoft website [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]
 
-  - Microsoft Download Center Web site at [https://go.microsoft.com/fwlink/?linkid=48686](https://go.microsoft.com/fwlink/?linkid=48686).
+  - [Microsoft Download Center](https://www.microsoft.com/download)
 
-  - [!INCLUDE[btsWinUpdate](../../includes/btswinupdate-md.md)] Web site at [https://go.microsoft.com/fwlink/?linkid=48687](https://go.microsoft.com/fwlink/?linkid=48687).
+  - [!INCLUDE[btsWinUpdate](../../includes/btswinupdate-md.md)] [Web site](https://go.microsoft.com/fwlink/?linkid=48687).
 
 - To avoid virus attacks, install the platform from a CD and disconnect each server from the Internet by unplugging any cables and disabling any network adapters.
 

@@ -1,19 +1,19 @@
 ---
 description: "Learn more about: Step 8A: Configure Party Information for the ADT System"
-title: "Step 8A: Configure Party Information for the ADT System | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 8A: Configure Party Information for the ADT System"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 ms.assetid: c0d750c2-a3c6-4571-a4e1-0d0aaaa4d400
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 8A: Configure Party Information for the ADT System
 In this step, you configure the party information for the ADT System.  

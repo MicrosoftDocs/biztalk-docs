@@ -1,19 +1,19 @@
 ---
 description: "Learn more about: Dynamic MLLP Adapter"
-title: "Dynamic MLLP Adapter | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Dynamic MLLP Adapter"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 ms.assetid: 2e22fabb-0edf-4931-b8b2-74a5daccee4a
 caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Dynamic MLLP Adapter
 Starting with [!INCLUDE[bts2013r2](../../includes/bts2013r2-md.md)], the MLLP adapter properties can be configured at Runtime using a One-Way or Two-Way (Request-Response) send port.  

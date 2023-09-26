@@ -12,7 +12,7 @@ ms.assetid: e4d0e707-6b9e-49e1-9f17-19b3bac1229e
 caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
-manager: dougeby
+manager: mijacobs
 ---
 
 # Install BizTalk Server in a Multi-Computer Environment
@@ -33,11 +33,9 @@ The single server installation guide contains important procedures and more back
 
 BizTalk Server provides a high availability solution that uses network load balancing (NLB) clustering and failover clustering, and SQL Server Always On using Availability Groups (AG). A high availability solution helps minimize the downtime if there is a hardware or software failure.
 
-**NLB and failover clusters** complement each other in complex architectures. NLB clustering is used for to load balance requests between front-end web servers. Failover clustering provides high availability for the BizTalk Server in-process hosts, the Enterprise Single Sign-On Master Secret Server and BizTalk Server databases. This is typically used for on-premises environments. The following are good resources:
+**NLB and failover clusters** complement each other in complex architectures. NLB clustering is used for to load balance requests between front-end web servers. Failover clustering provides high availability for the BizTalk Server in-process hosts, the Enterprise Single Sign-On Master Secret Server and BizTalk Server databases. This is typically used for on-premises environments. The following is a good resource:
 
-* [BizTalk Server: High Availability Survival Guide](https://social.technet.microsoft.com/wiki/contents/articles/6532.biztalk-server-high-availability-survival-guide.aspx)
-
-* [Improving Fault Tolerance in BizTalk Server by Using a Windows Server failover cluster or Windows Server cluster](https://go.microsoft.com/fwlink/p/?LinkId=154499)
+- [BizTalk Server: High Availability Survival Guide](https://social.technet.microsoft.com/wiki/contents/articles/6532.biztalk-server-high-availability-survival-guide.aspx)
 
 **SQL Server Always On AG** can be used with on-premises environments, and with Azure virtual machines. AG support starts with BizTalk Server 2016, and is supported in any newer versions of BizTalk Server. AG includes primary database replicas, and secondary database replicas. BizTalk Server connects to the primary database replicas, while the secondary database replicas provide redundancy and fail over. [Always On Availability Groups (SQL Server)](/sql/database-engine/availability-groups/windows/always-on-availability-groups-sql-server) provides details on AG works.
 

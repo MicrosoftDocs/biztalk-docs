@@ -1,19 +1,19 @@
 ---
 description: "Learn more about: Step 6: Create a Send Port to Deliver Acknowledgments"
-title: "Step 6: Create a Send Port to Deliver Acknowledgments | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 6: Create a Send Port to Deliver Acknowledgments"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 ms.assetid: 739b3e60-db56-46e9-a6b1-0acbe0c08f55
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 6: Create a Send Port to Deliver Acknowledgments
 In this step, you create a port to send acknowledgments back to the source of the batch.  

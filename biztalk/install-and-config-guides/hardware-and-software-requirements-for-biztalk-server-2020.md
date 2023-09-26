@@ -10,7 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: article
 author: MandiOhlinger
 ms.author: mandia
-manager: dougeby
+manager: mijacobs
 ---
 
 # Hardware and Software Requirements for BizTalk Server 2020

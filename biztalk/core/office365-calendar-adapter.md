@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "MandiOhlinger"
 ms.author: "ribarua"
-manager: dougeby
+manager: mijacobs
 ---
 
 # Create calendar events with the Office 365 Outlook Calendar adapter - BizTalk Server

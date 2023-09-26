@@ -1,19 +1,19 @@
 ---
-title: "Installation known issues | Microsoft Docs"
+title: "Installation known issues"
 description: See the known issues when installing the HL7 accelerator in BizTalk Server.
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 ms.assetid: b2f80ff9-b37c-49f8-8250-fcf3cec4c0fc
 caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "dougeby"
+
+
+manager: "mijacobs"
 ---
 # Installation known issues
 Useful information that may help you avoid installation problems.  

@@ -1,26 +1,17 @@
 ---
-description: "Learn more about: BizTalk Server 2010 Hyper-V Guide"
-title: "BizTalk Server 2010 Hyper-V Guide | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 3c38ecdd-de72-41d9-b639-2aa6bbfee917
-caps.latest.revision: 29
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+title: BizTalk Server 2010 Hyper-V Guide
+description: Learn more about BizTalk Server 2010 Hyper-V.
+ms.prod: biztalk-server
+ms.topic: conceptual
+ms.date: 06/08/2017
+
 ---
+
 # BizTalk Server 2010 Hyper-V Guide
+
 The purpose of this guide is to provide practical guidance for using Microsoft BizTalk Server with Microsoft [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V. The emphasis is on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], but the performance evaluation methods and performance testing scenarios are useful for analyzing the performance of virtualized server applications in general. This guidance will be of interest to both the IT Pro and Developer communities.
 
- To download a copy of this guide, go to [https://go.microsoft.com/fwlink/?LinkId=149267](https://go.microsoft.com/fwlink/?LinkId=149267).
-
-## Introduction
- Server virtualization offers companies the opportunity to run multiple operating systems on a single physical machine. This enables the consolidation of underutilized servers onto a smaller number of fully utilized machines. By implementing virtualization, companies can minimize operational and capital expenditure costs associated with deploying and operating the servers required for enterprise applications.
+Server virtualization offers companies the opportunity to run multiple operating systems on a single physical machine. This capability enables the consolidation of underutilized servers onto a smaller number of fully utilized machines. By implementing virtualization, companies can minimize operational and capital expenditure costs associated with deploying and operating the servers required for enterprise applications.
 
  The potential costs savings has prompted IT departments to evaluate new and existing applications to identify candidates suitable for server virtualization. Most such evaluations seek to discover the total cost of virtualization. The total cost of virtualization is the sum of monetary costs for hardware and IT operations, and the performance cost of virtualization as compared to the performance attainable in a physical environment. This guide focuses exclusively on the performance aspect of virtualization.
 
@@ -36,16 +27,16 @@ The purpose of this guide is to provide practical guidance for using Microsoft B
 
 - **Testing and Development** – Using virtual machines, developers and architects can quickly provision new machines to try out new technology and scenarios in a safe environment that accurately reflects the characteristics of a physical environment. Virtualization enables new machines to be provisioned running on a wide platform of operating systems without new hardware being required. This provides a great platform for testing and development environments.
 
-- **Business Continuity and Disaster Recovery** – Hyper-V includes powerful business continuity and Disaster Recovery features such as live backup and quick migration which enables businesses to meet their service level agreements.
+- **Business Continuity and Disaster Recovery**: Hyper-V includes powerful business continuity and disaster recovery features such as live backup and quick migration, which enables businesses to meet their service level agreements.
 
   > [!NOTE]
-  >  For information about how to back up Hyper-V virtual machines using Windows Server Backup, see Microsoft Knowledge Base article 958662, “How to back up Hyper-V virtual machines from the parent partition on a Windows Server 2008-based computer by using Windows Server Backup” at [https://go.microsoft.com/fwlink/?LinkId=131207](/troubleshoot/windows-server/virtualization/back-up-hyper-v-vm-from-parent-partition).
+  > For information about how to back up Hyper-V virtual machines using Windows Server Backup, see Microsoft Knowledge Base article 958662, [“How to back up Hyper-V virtual machines from the parent partition on a Windows Server 2008-based computer by using Windows Server Backup”](/troubleshoot/windows-server/virtualization/back-up-hyper-v-vm-from-parent-partition).
   >
-  >  For information about how to use the Hyper-V Live Migration Feature available in Windows Server 2008 R2, see “Hyper-V: Step-by-Step Guide to Using Live Migration in Windows Server 2008 R2” at [https://go.microsoft.com/fwlink/?LinkID=139667](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd446679(v=ws.10)).
+  > For information about how to use the Hyper-V Live Migration Feature available in Windows Server 2008 R2, see [“Hyper-V: Step-by-Step Guide to Using Live Migration in Windows Server 2008 R2”](/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/dd349801(v=ws.10)).
 
-- **Dynamic Data Center** – By combining Hyper-V with the Microsoft System Center suite of tools, organizations can automate virtual machine configuration and monitoring. For more information, see “System Center Virtual Machine Manager” at [https://go.microsoft.com/fwlink/?LinkID=111303](https://go.microsoft.com/fwlink/?LinkID=111303).
+- **Dynamic Data Center**: By combining Hyper-V with the Microsoft System Center suite of tools, organizations can automate virtual machine configuration and monitoring. For more information, see [System Center Virtual Machine Manager](/system-center/vmm/whats-new-in-vmm).
 
-  The information in this guide directly relates to the Server Consolidation and Testing and Development scenarios for Hyper-V. The other two were out of scope for this guide.
+  The information in this guide directly relates to the Server Consolidation and Testing and Development scenarios for Hyper-V. The other two scenarios are out of scope for this guide.
 
   For more information about core scenarios for Hyper-V, see [Virtualization with Hyper-V: Overview](https://go.microsoft.com/fwlink/?LinkID=202438) and the topics in the [Appendices1](../technical-guides/appendices1.md) section of this guide.
 

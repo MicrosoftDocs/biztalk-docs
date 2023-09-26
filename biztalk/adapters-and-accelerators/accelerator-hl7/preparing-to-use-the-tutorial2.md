@@ -1,21 +1,21 @@
 ---
 description: "Learn how to create an ADT^A03.txt file as a prerequisite to using the A4SWIFT adapter end-to-end tutorial."
-title: "Preparing to Use the Tutorial2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Preparing to Use the Tutorial2"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "end-to-end tutorial, pre-requisites"
 ms.assetid: 88e6c0b5-5f7d-4fee-a4de-7922cfba917f
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Prepare to Use the Tutorial
 

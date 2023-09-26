@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Miscellaneous Known Issues"
-title: "Miscellaneous Known Issues2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Miscellaneous Known Issues2"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "known issues"
 ms.assetid: 01cd896f-6c7f-4734-b953-81a92195a5c0
 caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Miscellaneous Known Issues
 This section contains useful information about miscellaneous errors.  

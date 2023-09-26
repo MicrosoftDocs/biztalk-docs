@@ -1,22 +1,22 @@
 ---
 description: "Learn more about: Message Acknowledgment Segment"
-title: "Message Acknowledgment Segment | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Message Acknowledgment Segment"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "segments, acknowledgements"
   - "acknowledgements, segments"
 ms.assetid: 6f2b9f6f-a328-4a0f-9e7d-edba32cc045a
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Message Acknowledgment Segment
 The Message Acknowledgment (MSA) segment of an acknowledgment (ACK) message identifies what type of acknowledgment the system is sending, and indicates what message the ACK is acknowledging. It consists of two required segments: an acknowledgment code and a message control ID.  

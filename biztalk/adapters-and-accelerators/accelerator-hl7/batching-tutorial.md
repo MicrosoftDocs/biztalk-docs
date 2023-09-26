@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Batching Tutorial"
-title: "Batching Tutorial | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Batching Tutorial"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "batching tutorial"
   - "tutorials, batching tutorial"
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "batching, tutorial"
 ms.assetid: e9010638-74cf-47cd-8cc9-9d6fd08a1b8d
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Batching Tutorial
 This tutorial provides step-by-step procedures for using Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] to receive and send batched messages. Batching involves receiving and/or sending a group of individual messages (or acknowledgments) as a single composite message.  

@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Acknowledgments Processing"
-title: "Acknowledgments Processing | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Acknowledgments Processing"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "acknowledgements, processing"
 ms.assetid: 705bc12d-69ac-4641-a45e-4f1fab507e4a
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Acknowledgments Processing
 The HL7 specification supports exchange of messages in two formats:  

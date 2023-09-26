@@ -1,23 +1,23 @@
 ---
 description: "Learn more about: Step 4: Create the Schemas"
-title: "Step 4: Create the Schemas | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 4: Create the Schemas"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "message enrichment tutorial, schemas"
   - "creating, schemas"
   - "schemas, creating"
 ms.assetid: 81b1f538-9743-433a-87f9-a423dcb868c8
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 4: Create the Schemas
 In this step, you create a new project (**BTAHL7 Project**) that contains the artifacts for this project: the schemas, map, and orchestration. You then create a schema (**Doorbell.xsd**) for the incoming XML-encoded message, and select an existing schema (**ADT_A04_22_GLO_DEF.xsd**) for the outgoing HL7-encoded message. You use these schemas to define the structure of the messages that you exchange within the orchestration.  

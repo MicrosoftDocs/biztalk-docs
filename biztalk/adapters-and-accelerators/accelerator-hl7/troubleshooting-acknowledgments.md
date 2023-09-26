@@ -1,22 +1,22 @@
 ---
 description: "Learn more about: Troubleshooting Acknowledgments"
-title: "Troubleshooting Acknowledgments | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Troubleshooting Acknowledgments"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "acknowledgements, troubleshooting"
   - "troubleshooting, acknowledgements"
 ms.assetid: faed356e-f5fc-4920-a9f9-82eca0ad7d67
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Troubleshooting Acknowledgments
 Addresses issues related to [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] acknowledgments.  

@@ -13,7 +13,7 @@ ms.assetid: c1960a5a-d627-42ce-8898-5df444846fea
 caps.latest.revision: 4
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # BizTalk Adapter Pack

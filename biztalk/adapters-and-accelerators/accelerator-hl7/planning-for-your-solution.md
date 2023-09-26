@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Planning for your solution"
-title: "Planning for your solution | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Planning for your solution"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "Greenfield project"
   - "security, BTAHL7"
@@ -22,9 +22,9 @@ helpviewer_keywords:
   - "Coexistence installation"
 ms.assetid: a108c6d0-dd51-4bf9-85a0-103f60fae971
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Planning for your solution
 This section provides information about what you should consider when planning for your Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)] solution.  

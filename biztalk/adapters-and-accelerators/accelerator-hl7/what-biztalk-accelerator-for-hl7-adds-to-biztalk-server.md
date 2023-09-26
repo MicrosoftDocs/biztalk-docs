@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: What BizTalk Accelerator for HL7 Adds to BizTalk Server"
-title: "What BizTalk Accelerator for HL7 Adds to BizTalk Server | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "What BizTalk Accelerator for HL7 Adds to BizTalk Server"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "batching, documents"
   - "BTAHL7, batching"
@@ -32,9 +32,9 @@ helpviewer_keywords:
   - "errors, logging"
 ms.assetid: 862e9f26-588a-4e91-8ebc-f53aab6f46c2
 caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # What BizTalk Accelerator for HL7 Adds to BizTalk Server
 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) builds a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] integration system into a health care integration system. It adds functionality that health care organizations require.  

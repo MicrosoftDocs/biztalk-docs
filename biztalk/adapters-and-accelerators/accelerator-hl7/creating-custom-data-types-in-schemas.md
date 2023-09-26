@@ -1,23 +1,23 @@
 ---
 description: "Learn more about: Creating Custom Data Types in Schemas"
-title: "Creating Custom Data Types in Schemas | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Creating Custom Data Types in Schemas"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "2.X schemas, creating Z data types [Z objects]"
   - "data types, creating [Z objects]"
   - "Z objects, creating Z data types"
 ms.assetid: e545c849-d414-4d5d-bb56-d3f9d5238c70
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Creating Custom Data Types in Schemas
 You can create a custom data type in the datatypes_\<*version*\>.xsd common schema. You can base a custom data type on an existing data type, a base data type, or on an enumeration defined in a table.  

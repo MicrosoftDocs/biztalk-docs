@@ -35,15 +35,29 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "feedback_system": "Standard",
-      "breadcrumb_path": "/his/breadcrumb/toc.json",
+      "breadcrumb_path": "/host-integration-server/breadcrumb/toc.json",
       "layout": "Conceptual",
       "titleSuffix": "Host Integration Server",
-      "uhfHeaderId": "MSDocsHeader-His",
+      "uhfHeaderId": "MSDocsHeader-His"
     },
     "fileMetadata": {
-      "author": {"troubleshooting/*.md": "christopherhouser"},
-      "ms.author": {"troubleshooting/*.md": "chrishou"},
+      "author": {
+        "*.md": "haroldcampos",
+        "**/*.md": "haroldcampos",
+        "**/**/*.md": "haroldcampos",
+        "troubleshooting/*.md": "tsnook"        
+      },
+      "manager": {
+        "*.md": "mijacobs",
+        "**/*.md": "mijacobs",
+        "**/**/*.md": "mijacobs"
+      },
+      "ms.author": {
+        "*.md": "hcampos",
+        "**/*.md": "hcampos",
+        "**/**/*.md": "hcampos",
+        "troubleshooting/*.md": "tlsnook"
+      },
       "titleSuffix": {"troubleshooting/*.md": "Host Integration Server"}
     },
     "template": [],

@@ -1,21 +1,14 @@
 ---
-title: "Install BizTalk Adapter Pack 2013 R2 and 2013 | Microsoft Docs"
-description: Prerequisites and steps to install BAP 2013 R2 and BAP 2013 included with BizTalk Server
-ms.custom: ""
-ms.date: "12/09/2015"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: Install BizTalk Adapter Pack 2013 R2 and 2013
+description: Learn how to install BAP 2013 R2 and BAP 2013 included with BizTalk Server.
+ms.prod: biztalk-server
+ms.topic: how-to
+ms.date: 12/09/2015
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 9980953a-8d38-476f-af38-4f4214ba61f2
-caps.latest.revision: 107
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
+
 # Install BizTalk Adapter Pack 2013 R2 and 2013
+
 This document lists the software requirements, and the steps to install the Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] (BAP) included with BizTalk Server 2013 or [!INCLUDE[bts2013r2](../includes/bts2013r2-md.md)].
 
 ## Change Log
@@ -64,13 +57,13 @@ When using a BizTalk Server to consume the adapters, the following software is r
 |                                                                                                                                                                                             The enterprise application clients and associated software. See [Supported Enterprise Application Versions](#BKMK_SuppLOB).                                                                                                                                                                                              |                                                                                                                                                                                             The enterprise application clients and associated software. See [Supported Enterprise Application Versions](#BKMK_SuppLOB).                                                                                                                                                                                              |
 
 ### Prerequisites when using ADO
- The **[!INCLUDE[adaptersap](../includes/adaptersap-md.md)]** and **[!INCLUDE[adaptersiebel](../includes/adaptersiebel-md.md)]** include an ADO layer (*[!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]* and *[!INCLUDE[adoprovidersiebelshort](../includes/adoprovidersiebelshort-md.md)]*). This ADO layer can be used to write an ADO.NET client to connect to an SAP system or Siebel system. You can also use the ADO layer with SQL Server Integration Services (SSIS) to import and export data from the LOB application, and SQL Server Reporting Services (SSRS) to generate reports to present data from the LOB systems.
+
+The **[!INCLUDE[adaptersap](../includes/adaptersap-md.md)]** and **[!INCLUDE[adaptersiebel](../includes/adaptersiebel-md.md)]** include an ADO layer (*[!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]* and *[!INCLUDE[adoprovidersiebelshort](../includes/adoprovidersiebelshort-md.md)]*). This ADO layer can be used to write an ADO.NET client to connect to an SAP system or Siebel system. You can also use the ADO layer with SQL Server Integration Services (SSIS) to import and export data from the LOB application, and SQL Server Reporting Services (SSRS) to generate reports to present data from the LOB systems.
 
 > [!NOTE]
 >  Using the ADO Provider with SSRS is supported only for the *[!INCLUDE[adoprovidersapshort](../includes/adoprovidersapshort-md.md)]*.
 
 The following software is required on the computer that uses the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] with an ADO interface. Install the software in the order listed.
-
 
 |                                                             BizTalk Adapter Pack 2013 R2                                                              |                                                               BizTalk Adapter Pack 2013                                                                |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -86,12 +79,12 @@ The following software is required on the computer that uses the [!INCLUDE[adapt
 
 A typical setup with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] and SharePoint can be a single computer or use different computers for different tasks. The following table summarizes the software prerequisites for each computer. If you are using a single computer, all the software is required on that computer. Install the software in the order listed.
 
-
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Computer where you run the WCF Adapter Service Development Wizard                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Computer where you host the WCF service                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Computer where you can use the SharePoint Designer to define your External Content Types |                                    Computer where you use SharePoint to present the information from an LOB application                                     |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **BAP 2013 R2**:<ul><li>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)] R2<br/>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]<br/>Windows 8.1<br/>Windows 7 SP1</li><li>[!INCLUDE[dotnet451](../includes/dotnet451-md.md)]</li><li> Visual Studio 2013</li><li>[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]</li><li>Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]</li><li>Respective enterprise application clients and associated software. See [Supported Enterprise Application Versions](#BKMK_SuppLOB).</li></ul> **BAP 2013**:<ul><li>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]<br/>[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] SP1<br/>Windows 8<br/>Windows 7 SP1</li><li>Microsoft [!INCLUDE[dotnet45](../includes/dotnet45-md.md)]</li><li>Visual Studio 2012</li><li>[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]</li><li>Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]</li><li>Respective enterprise application clients and associated software. See [Supported Enterprise Application Versions](#BKMK_SuppLOB).</li></ul> | **BAP 2013 R2**:<ul><li>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)] R2<br/>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]<br/>Windows 8.1<br/>Windows 7 SP1</li><li>[!INCLUDE[dotnet451](../includes/dotnet451-md.md)]</li><li>[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]</li><li>Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]</li><li>Respective enterprise application clients and associated software. See [Supported Enterprise Application Versions](#BKMK_SuppLOB).</li><li>Internet Information Services (IIS) version that comes with the operating system. KB 224609 lists the versions.</li></ul>**BAP 2013**:<ul><li>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]<br/>[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] SP1<br/>Windows 8<br/>Windows 7 SP1</li><li>Microsoft [!INCLUDE[dotnet45](../includes/dotnet45-md.md)]</li><li>[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]</li><li>Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]</li><li>Respective enterprise application clients and associated software. See [Supported Enterprise Application Versions](#BKMK_SuppLOB).</li><li>Internet Information Services (IIS) version that comes with the operating system. KB 224609 lists the versions.</li></ul> |            Microsoft Office SharePoint Server Software Development Kit (SDK)             | Microsoft Office Servers Infrastructure Update. Download at [https://go.microsoft.com/fwlink/?LinkId=128344](https://go.microsoft.com/fwlink/?LinkId=128344). |
+| Computer where you run the WCF Adapter Service Development Wizard | Computer where you host the WCF service | Computer where you can use the SharePoint Designer to define your External Content Types | Computer where you use SharePoint to present the information from an LOB application |
+|-------------------------------------------------------------------|-----------------------------------------|------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **BAP 2013 R2**:<ul><li>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)] R2<br/>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]<br/>Windows 8.1<br/>Windows 7 SP1</li><li>[!INCLUDE[dotnet451](../includes/dotnet451-md.md)]</li><li> Visual Studio 2013</li><li>[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]</li><li>Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]</li><li>Respective enterprise application clients and associated software. See [Supported Enterprise Application Versions](#BKMK_SuppLOB).</li></ul> **BAP 2013**:<ul><li>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]<br/>[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] SP1<br/>Windows 8<br/>Windows 7 SP1</li><li>Microsoft [!INCLUDE[dotnet45](../includes/dotnet45-md.md)]</li><li>Visual Studio 2012</li><li>[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]</li><li>Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]</li><li>Respective enterprise application clients and associated software. See [Supported Enterprise Application Versions](#BKMK_SuppLOB).</li></ul> | **BAP 2013 R2**:<ul><li>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)] R2<br/>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]<br/>Windows 8.1<br/>Windows 7 SP1</li><li>[!INCLUDE[dotnet451](../includes/dotnet451-md.md)]</li><li>[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]</li><li>Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]</li><li>Respective enterprise application clients and associated software. See [Supported Enterprise Application Versions](#BKMK_SuppLOB).</li><li>Internet Information Services (IIS) version that comes with the operating system. KB 224609 lists the versions.</li></ul>**BAP 2013**:<ul><li>[!INCLUDE[btsWinSrv2k12](../includes/btswinsrv2k12-md.md)]<br/>[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] SP1<br/>Windows 8<br/>Windows 7 SP1</li><li>Microsoft [!INCLUDE[dotnet45](../includes/dotnet45-md.md)]</li><li>[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]</li><li>Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]</li><li>Respective enterprise application clients and associated software. See [Supported Enterprise Application Versions](#BKMK_SuppLOB).</li><li>Internet Information Services (IIS) version that comes with the operating system. KB 224609 lists the versions.</li></ul> | Microsoft Office SharePoint Server Software Development Kit (SDK) | Microsoft Office Servers Infrastructure Update |
 
 <a name="BKMK_SuppLOB"></a>
+
 ## Supported enterprise application versions
 
 To see the specific LOB system versions that are supported by the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)], see **[Supported Line-of-Business (LOB) systems](https://social.technet.microsoft.com/wiki/contents/articles/17631.biztalk-server-supported-line-of-business-lob-systems.aspx)**.
@@ -132,42 +125,58 @@ This section lists any extra info for each adapter, such as any client DLLs requ
 
 #### 6.4 SAP client version required drivers
 
-Applies to BizTalk Adapter Pack 2013 only.
+The following information applies only to BizTalk Adapter Pack 2013.
 
-- **SAP RFC SDK 6.40 UNICODE**. This is available as part of SNOTE<sup>1</sup> 27517. The instructions to download the SDK are available at [https://go.microsoft.com/fwlink/?LinkId=94691](https://go.microsoft.com/fwlink/?LinkId=94691). After you have downloaded and extracted the SDK, copy all the DLLs from the \rfcsdk\bin and \rfcsdk\lib folders to the relevant location mentioned preceding this table.
+- **SAP RFC SDK 6.40 UNICODE**
 
-- DLLs are available from SAP as part of **R3DLLINST.zip**. This contains Microsoft run-time DLLs and can be downloaded from the SAP site. See SNOTE<sup>1</sup> 684106 for more information. You can download the .zip file from [https://go.microsoft.com/fwlink/?LinkId=94693](https://go.microsoft.com/fwlink/?LinkId=94693). This link has an “Attachments” option from where you can download the package.
+  This SDK is available as part of SNOTE<sup>1</sup> 27517. The instructions to download the SDK are available at the [SAP Support - Software Downloads](https://support.sap.com/en/my-support/software-downloads.html). After you download and extract the SDK, copy all the DLLs from the \rfcsdk\bin and \rfcsdk\lib folders and to the relevant location mentioned preceding this table.
 
-- If you use SAP Secure Network Communications (SNC) to connect to an SAP system, you must also have the relevant DLLs from SAP. These DLLs are different for 32-bit and 64-bit platforms and are available with SNOTE<sup>1</sup> 352295. You can download the DLLs from [https://go.microsoft.com/fwlink/?LinkId=104032](https://go.microsoft.com/fwlink/?LinkId=104032). This link has an “Attachments” option from where you can download the package. The names of the DLLs are:
 
-  - **For 32-bit**: *gsskrb5.dll, gssntlm.dll*
-  - **For 64-bit x86**: *gx64krb5.dll, gx64ntlm.dll*
+- DLLs are available from SAP as part of **R3DLLINST.zip**. 
+
+   This ZIP file contains Microsoft run-time DLLs, which you can download from the [SAP ONE Support Launchpad website (sign-in required)](https://go.microsoft.com/fwlink/?LinkId=94693). This link has an “Attachments” option from where you can download the package. For more information, see SNOTE<sup>1</sup> 684106. This link has an “Attachments” option from where you can download the package.
+
+- If you use SAP Secure Network Communications (SNC) to connect to an SAP system, you must also have the relevant DLLs from SAP, which you can find at [SAP for Me, Software Download Center (SAP sign-in required)](https://me.sap.com/softwarecenter). These DLLs are different for 32-bit and 64-bit platforms and are available with SNOTE<sup>1</sup> 352295. This link has an “Attachments” option from where you can download the package. 
+
+  These DLLs have the following names:
+
+
+  - For 32-bit: **gsskrb5.dll**, **gssntlm.dll**
+  - For 64-bit x86: **gx64krb5.dll**, **gx64ntlm.dll**
 
 #### 7.0 SAP client version required drivers
 
-- **SAP RFC SDK 7.00 UNICODE**. This is available as part of SNOTE<sup>1</sup> 27517. The instructions to download the SDK are available at [https://go.microsoft.com/fwlink/?LinkId=94691](https://go.microsoft.com/fwlink/?LinkId=94691). After you have downloaded and extracted the SDK, copy all the DLLs from the \rfcsdk\bin and \rfcsdk\lib folders and to the relevant location mentioned preceding this table.
+- **SAP RFC SDK 7.00 UNICODE**
 
-- DLLs are available from SAP as part of **R3DLLINST.zip**. This contains Microsoft run-time DLLs and can be downloaded from the SAP site. See SNOTE<sup>1</sup> 684106 for more information. You can download the .zip file from [https://go.microsoft.com/fwlink/?LinkId=94693](https://go.microsoft.com/fwlink/?LinkId=94693). This link has an “Attachments” option from where you can download the package.
+   This SDK is available as part of SNOTE<sup>1</sup> 27517. The instructions to download the SDK are available at the [SAP Support - Software Downloads](https://support.sap.com/en/my-support/software-downloads.html). After you download and extract the SDK, copy all the DLLs from the \rfcsdk\bin and \rfcsdk\lib folders and to the relevant location mentioned preceding this table.
 
-- If you use SAP Secure Network Communications (SNC) to connect to an SAP system, you must also have the relevant DLLs from SAP. These DLLs are different for 32-bit and 64-bit platforms and are available with SNOTE<sup>1</sup> 352295. You can download the DLLs from [https://go.microsoft.com/fwlink/?LinkId=104032](https://go.microsoft.com/fwlink/?LinkId=104032). This link has an “Attachments” option from where you can download the package. The names of the DLLs are:
+- DLLs are available from SAP as part of **R3DLLINST.zip**.
 
-  - **For 32-bit**: *gsskrb5.dll, gssntlm.dll*
-  - **For 64-bit x86**: *gx64krb5.dll, gx64ntlm.dll*
+   This ZIP file contains Microsoft run-time DLLs, which you can download from [SAP Support - Software Downloads](https://support.sap.com/en/my-support/software-downloads.html). For more information, see SNOTE<sup>1</sup> 684106. This link has an “Attachments” option from where you can download the package.
+
+- If you use SAP Secure Network Communications (SNC) to connect to an SAP system, you must also have the relevant DLLs from SAP. These DLLs are different for 32-bit and 64-bit platforms and are available with SNOTE<sup>1</sup> 352295. You can download the DLLs from [here](https://go.microsoft.com/fwlink/?LinkId=104032). This link has an “Attachments” option from where you can download the package. The names of the DLLs are:
+
+  - For 32-bit: **gsskrb5.dll**, **gssntlm.dll**
+  - For 64-bit x86: **gx64krb5.dll**, **gx64ntlm.dll**
 
 #### 7.1 SAP client version required drivers
 
-- **SAP RFC SDK 7.10 UNICODE**. This is available as part of SNOTE<sup>1</sup> 27517. The instructions to download the SDK are available at [https://go.microsoft.com/fwlink/?LinkId=94691](https://go.microsoft.com/fwlink/?LinkId=94691). After you have downloaded and extracted the SDK, copy all the DLLs from the \rfcsdk\bin and \rfcsdk\lib folders to the relevant location mentioned preceding this table.
+- **SAP RFC SDK 7.10 UNICODE**
 
-- DLLs are available from SAP as part of **R3DLLINST.zip**. This contains Microsoft run-time DLLs and can be downloaded from the SAP site. See SNOTE<sup>1</sup> 684106 for more information. You can download the .zip file from [https://go.microsoft.com/fwlink/?LinkId=94693](https://go.microsoft.com/fwlink/?LinkId=94693). This link has an “Attachments” option from where you can download the package.
+   This SDK is available as part of SNOTE<sup>1</sup> 27517. The instructions to download the SDK are available at the [SAP Support - Software Downloads](https://support.sap.com/en/my-support/software-downloads.html). After you download and extract the SDK, copy all the DLLs from the \rfcsdk\bin and \rfcsdk\lib folders and to the relevant location mentioned preceding this table.
 
-- Microsoft Visual C++ run-time DLLs required for SAP 7.1 client are available from the following links:
-  - **For 32-bit SAP 7.1 client**:  Vcredist_x86.exe from [https://go.microsoft.com/fwlink/?LinkId=107086](https://go.microsoft.com/fwlink/?LinkId=107086)
-  - **For 64-bit SAP 7.1 client**: Vcredist_x64.exe from [https://go.microsoft.com/fwlink/?LinkId=107087](https://go.microsoft.com/fwlink/?LinkId=107087)
+- DLLs are available from SAP as part of **R3DLLINST.zip**.
 
-- If you use SAP Secure Network Communications (SNC) to connect to an SAP system, you must also have the relevant DLLs from SAP. These DLLs are different for 32-bit and 64-bit platforms and are available with SNOTE<sup>1</sup> 352295. You can download the DLLs from [https://go.microsoft.com/fwlink/?LinkId=104032](https://go.microsoft.com/fwlink/?LinkId=104032). This link has an “Attachments” option from where you can download the package. The names of the DLLs are:
+   This ZIP file contains Microsoft run-time DLLs, which you can download from [SAP Support - Software Downloads](https://support.sap.com/en/my-support/software-downloads.html). For more information, see SNOTE<sup>1</sup> 684106. This link has an “Attachments” option from where you can download the package.
 
-  - **For 32-bit**: *gsskrb5.dll, gssntlm.dll*
-  - **For 64-bit x86**: *gx64krb5.dll, gx64ntlm.dll*
+- Microsoft Visual C++ run-time DLLs required for SAP 7.1 client:
+  - For 32-bit SAP 7.1 client: **Vcredist_x86.exe**
+  - For 64-bit SAP 7.1 client: **Vcredist_x64.exe**
+
+- If you use SAP Secure Network Communications (SNC) to connect to an SAP system, you must also have the relevant DLLs from SAP. These DLLs are different for 32-bit and 64-bit platforms and are available with SNOTE<sup>1</sup> 352295. You can download the DLLs from [here](https://go.microsoft.com/fwlink/?LinkId=104032). This link has an “Attachments” option from where you can download the package. The names of the DLLs are:
+
+  - For 32-bit: **gsskrb5.dll**, **gssntlm.dll**
+  - For 64-bit x86: **gx64krb5.dll**, **gx64ntlm.dll**
 
 <sup>1</sup> SNOTEs are release notes that accompany fixes released by SAP.
 
@@ -302,7 +311,7 @@ Complete the following steps to install the [!INCLUDE[adapterpacknoversion](../i
 
    - Data related to the enterprise application versions you are using with the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)].
 
-     Select **OK**. [CEIP](https://go.microsoft.com/fwlink/p/?LinkId=144699) provides more information.
+     Select **OK**. [CEIP](/dynamics-nav/customer-experience-improvement-program-and-microsoft-dynamics-nav-server) provides more information.
 
    > [!NOTE]
    >  You can always change this setting by running the Setup in Repair mode from **Programs**.
@@ -413,10 +422,10 @@ Complete the following steps to install the [!INCLUDE[adapterpacknoversion](../i
 
       By default the option is false.
 
-     > [!IMPORTANT]
-     >  While installing the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Evaluation version in silent mode, the default option for CEIP is true.
+       > [!IMPORTANT]
+       > When you install the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] Evaluation version in silent mode, the default option for CEIP is **true**.
 
-     For more information about the msiexec command type `msiexec` on the command line and press `ENTER`. Or go to [https://go.microsoft.com/fwlink/p/?LinkId=103199](https://go.microsoft.com/fwlink/p/?LinkId=103199).
+     For more information about the `msiexec` command, type `msiexec` on the command line, and press `ENTER`. Or, see [**msiexec**](/windows-server/administration/windows-commands/msiexec).
 
 <a name="BKMK_PostInst"></a>
 ### After installing the BizTalk Adapter Pack
@@ -704,10 +713,12 @@ For the steps and guidance to install the different enterprise LOB systems, we r
    msiexec /i AdaptersSetup.msi /qn /f
    ```
 
-    You can use various different combinations with the /f option. For more information about the msiexec command type `msiexec` on the command line, and press `ENTER`. Or go to [https://go.microsoft.com/fwlink/p/?LinkId=103199](https://go.microsoft.com/fwlink/p/?LinkId=103199).
+    You can use various different combinations with the /f option. For more information about the `msiexec` command, type `msiexec` on the command line, and press `ENTER`. Or, see [**msiexec**](/windows-server/administration/windows-commands/msiexec).
+    
+    
 
    > [!IMPORTANT]
-   >  While modifying the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation in the silent mode, you cannot change your preferences for opting in or out of CEIP. The preferences you chose during the installation remains, even if you explicitly set the CEIP_OPTIN to true or false.
+   > When you modify the [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)] installation in silent mode, you can't change your preferences for opting in or out of CEIP. The preferences you chose during the installation remains, even if you explicitly set the CEIP_OPTIN to true or false.
 
 <a name="BKMK_Remove_Adap"></a>
 ## Removing the BizTalk Adapter Pack
@@ -748,7 +759,7 @@ Complete the following steps to remove the [!INCLUDE[adapterpacknoversion](../in
    msiexec /x AdaptersSetup.msi /qn
    ```
 
-    For more information about the msiexec command type `msiexec` on the command line, and press `ENTER`. Or go to [https://go.microsoft.com/fwlink/p/?LinkId=103199](https://go.microsoft.com/fwlink/p/?LinkId=103199).
+   For more information about the `msiexec` command, type `msiexec` on the command line, and press `ENTER`. Or, see [**msiexec**](/windows-server/administration/windows-commands/msiexec).
 
 <a name="BKMK_PostRemove"></a>
 ### After removing the BizTalk Adapter Pack

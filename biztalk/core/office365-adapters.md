@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 author: "MandiOhlinger"
 ms.author: "ribarua"
-manager: dougeby
+manager: mijacobs
 ---
 
 # Office 365 Outlook adapters in BizTalk

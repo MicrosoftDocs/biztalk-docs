@@ -38,11 +38,26 @@
       "layout": "Conceptual",
       "titleSuffix": "BizTalk Server",
       "uhfHeaderId": "MSDocsHeader-BizTalk",
-       "feedback_system": "Standard"
+      "feedback_system": "Standard"
     },
     "fileMetadata": {
-      "author": {"troubleshooting/*.md": "MandiOhlinger"},
-      "ms.author": {"troubleshooting/*.md": "mandia"},
+      "author": {
+        "*.md": "haroldcampos",
+        "**/*.md": "haroldcampos",
+        "**/**/*.md": "haroldcampos",
+        "troubleshooting/*.md": "haroldcampos"
+      },
+      "manager": {
+        "*.md": "mijacobs",
+        "**/*.md": "mijacobs",
+        "**/**/*.md": "mijacobs"
+      },
+      "ms.author": {
+        "*.md": "hcampos",
+        "**/*.md": "hcampos",
+        "**/**/*.md": "hcampos",
+        "troubleshooting/*.md": "hcampos"        
+      },
       "titleSuffix": {"troubleshooting/*.md": "BizTalk Server"}
     },
     "template": [],

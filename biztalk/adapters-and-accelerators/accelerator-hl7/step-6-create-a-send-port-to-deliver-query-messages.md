@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Step 6: Create a Send Port to Deliver Query Messages"
-title: "Step 6: Create a Send Port to Deliver Query Messages | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 6: Create a Send Port to Deliver Query Messages"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "interrogative tutorial, send ports"
 ms.assetid: a3cfa2aa-888d-4a82-9eb3-2e9cc29ee582
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 6: Create a Send Port to Deliver Query Messages
 In this step, you create the send port to deliver the incoming queries (QRY^Q01 messages) to the Hospital Information System (HIS).  

@@ -14,7 +14,7 @@ ms.assetid: b0033e09-3c18-4e53-a470-e12978e61ba1
 caps.latest.revision: 17
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # Configure Transport Advanced Options for a Send Port

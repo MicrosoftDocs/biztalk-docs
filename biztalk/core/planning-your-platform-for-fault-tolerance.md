@@ -52,9 +52,9 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 
    Introduces several high-availability solutions for SQL Server 2008 that improve the availability of servers or databases.
 
-- [Chapter 15 - High Availability Options, SQL Server Resource Kit](https://go.microsoft.com/fwlink/?LinkId=24431)
+- [SQL Server - Business continuity and database recovery](/sql/database-engine/sql-server-business-continuity-dr)
 
-   The Microsoft SQL Server Resource Kit covers a wide range of administrative and deployment planning areas. Chapter 15 covers planning for fault tolerance and recovery.
+   Covers planning and designing for high availability and disaster recovery.
 
 - [Windows Deployment Services Step-by-Step Guide](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771670(v=ws.10))
 

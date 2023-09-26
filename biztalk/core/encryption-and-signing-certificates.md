@@ -31,10 +31,12 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
 
  You configure the certificates BizTalk Server uses in BizTalk Explorer and in the BizTalk Administration Console.
 
- For more information about digital certificates, see the Microsoft TechNet Web site at [https://go.microsoft.com/fwlink/?LinkId=60508](https://go.microsoft.com/fwlink/?LinkId=60508).
+ For more information about digital certificates, see [Certificates that BizTalk Server Uses for Signed Messages](/biztalk/core/certificates-that-biztalk-server-uses-for-signed-messages).
 
 > [!NOTE]
->  While processing Secure Multipurpose Internet Mail Extensions (S/MIME) messages, you can choose to have the BizTalk Server engine check the Certificate Revocation List (CRL) to ensure that a certificate has not expired and that it is trusted down to a Root Certificate Authority (CA). This verification occurs while the pipeline processes the message, in the MIME/SMIME decoder component. For more information about how to set **Check Revocation List** property, see [How to Configure the MIME-SMIME Decoder Pipeline Component](../core/how-to-configure-the-mime-smime-decoder-pipeline-component.md).
+> To make sure that a certificate hasn't expired and that the certificate is trusted down to a Root Certificate Authority (CA), you can choose to have the BizTalk Server engine check the Certificate Revocation List (CRL) while the engine processes Secure Multipurpose Internet Mail Extensions (S/MIME) messages. This verification occurs while the pipeline processes the message, in the MIME/SMIME decoder component. 
+>
+> For more information about how to set **Check Revocation List** property, see [How to Configure the MIME-SMIME Decoder Pipeline Component](../core/how-to-configure-the-mime-smime-decoder-pipeline-component.md).
 
 ## In This Section
 

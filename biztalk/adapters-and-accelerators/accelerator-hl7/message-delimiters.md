@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Message Delimiters"
-title: "Message Delimiters | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Message Delimiters"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "messages, events"
   - "messages, XML messages"
@@ -20,9 +20,9 @@ helpviewer_keywords:
   - "messages, flat files"
 ms.assetid: d25bf6db-5512-4c82-be0e-00da024c55d1
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Message Delimiters
 Message events defined by HL7 standards take the following form:  

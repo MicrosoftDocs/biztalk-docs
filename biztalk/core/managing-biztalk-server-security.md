@@ -22,7 +22,7 @@ ms.assetid: adc89b0a-9846-4c99-b0fc-a32fc56ed769
 caps.latest.revision: 31
 author: "MandiOhlinger"
 ms.author: "mandia"
-manager: "dougeby"
+manager: "mijacobs"
 ---
 
 # Managing BizTalk Server Security

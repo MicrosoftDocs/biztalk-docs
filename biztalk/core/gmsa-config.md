@@ -3,7 +3,7 @@ title: Group managed service account (gMSA) | Microsoft Docs
 description: Configure and use BizTalk Server with group managed service account (gMSA) to run BizTalk services in a custom configuration.
 author: msjaydeep
 ms.author: jaah
-manager: dougeby
+manager: mijacobs
 ms.date: 01/13/2020
 ms.topic: conceptual
 ms.prod: biztalk-server

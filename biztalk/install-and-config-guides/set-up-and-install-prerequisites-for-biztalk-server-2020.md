@@ -2,7 +2,7 @@
 title: Set up and install prerequisites for BizTalk Server 2020 | Microsoft Docs
 description: Step-by-step instructions to install and configure the required software and settings for BizTalk Server 2020
 author: MandiOhlinger
-manager: dougeby
+manager: mijacobs
 ms.prod: biztalk-server
 ms.custom: biztalk-2020
 ms.date: 04/07/2020

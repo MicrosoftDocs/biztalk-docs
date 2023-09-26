@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: DFT_P03 in V2.XML 2.4"
-title: "DFT_P03 in V2.XML 2.4 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "DFT_P03 in V2.XML 2.4"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "DFT_P03 schema"
 ms.assetid: 6735685a-2aac-4481-87d1-202b2178aeb5
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # DFT_P03 in V2.XML 2.4
 You must manually change the following code in the DFT_P03 schema in V2.XML 2.4 after running the Update2XMLSchema tool:  

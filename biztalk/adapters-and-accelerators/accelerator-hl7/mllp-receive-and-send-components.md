@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: MLLP Receive and Send Components"
-title: "MLLP Receive and Send Components | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "MLLP Receive and Send Components"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "send components"
   - "Minimal Lower Layer Protocol (MLLP)"
@@ -18,9 +18,9 @@ helpviewer_keywords:
   - "receive components"
 ms.assetid: 2f1c4099-8f52-437a-bdc1-efe707fbf347
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # MLLP Receive and Send Components
 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) supports all Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] native adapter types, including File, HTTP, SQL, and FTP. For HL7-encoded message receiving and sending, however, you typically use the MLLP adapter. This adapter is a TCP/IP socket adapter that uses the Minimal Lower Layer Protocol (MLLP). This protocol provides bi-directional message support and end-to-end health care application integration.  

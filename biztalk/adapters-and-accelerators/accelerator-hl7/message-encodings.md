@@ -1,14 +1,14 @@
 ---
 description: "Learn more about: Message Encodings"
-title: "Message Encodings | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Message Encodings"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "messages, encodings"
   - "messages, code samples"
@@ -16,9 +16,9 @@ helpviewer_keywords:
   - "code samples"
 ms.assetid: 360638c0-4094-428f-a7c7-306a5f95a6bf
 caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Message Encodings
 It is not sufficient to define message semantics in order for HL7 to be useful. Once message content has been determined, the standard has to explain how to represent that content in an actual interface. That is to say, there must be a specified "message encoding". HL7 Version 2 supports two forms of message encoding, a custom delimiter-based encoding, and an XML encoding.  

@@ -3,7 +3,7 @@ title: "Install and configure the Microsoft BizTalk ESB Toolkit | Microsoft Docs
 description: Step-by-steps instructions to install and configure the ESB Toolkit on BizTalk Server
 caps.latest.revision: 8
 author: "MandiOhlinger"
-manager: "dougeby"
+manager: "mijacobs"
 
 ms.custom: "biztalk-2020"
 ms.date: "01/14/2020"
@@ -99,10 +99,6 @@ Starting with BizTalk Server 2013 and newer versions, [!INCLUDE[esbToolkit](../i
    - Select **Enable ESB JMS/WMQ Components in BizTalk Server** to create the application in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. Select **Use Default Binding** to bind this application to the default host. Select **Do not use Default Binding** if you do not want to bind the application to the default host. In this scenario, you must explicitly bind the application to a host once the application is created.  
   
    - Select **Apply Configuration** to create the applications you selected. Verify that the applications are created in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.  
-  
-## Upgrade ESB Toolkit – Community Addition
-
- [In-place upgrade of ESB Toolkit 2.1 to 2.2](http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html) (http://www.brianloesgen.com/blog/2013/10/10/in-place-upgrade-of-esb-toolkit-21-to-22.html)
 
 ## See also
 

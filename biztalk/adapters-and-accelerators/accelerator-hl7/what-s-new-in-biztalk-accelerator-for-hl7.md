@@ -1,19 +1,19 @@
 ---
-title: "New in BizTalk Accelerator for HL7 | Microsoft Docs"
+title: "New in BizTalk Accelerator for HL7"
 description: Changes and updates with different versions of HL7 accelerator in BizTalk Server
-ms.custom: ""
-ms.date: "11/22/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "11/22/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 ms.assetid: e98595a1-2d1e-488e-8a97-7cd561948b3b
 caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # What's new in BizTalk Accelerator for HL7
 Changes and updates with the [!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)]. 

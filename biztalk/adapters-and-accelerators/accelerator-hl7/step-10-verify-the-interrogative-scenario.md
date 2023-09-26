@@ -1,21 +1,21 @@
 ---
 description: "Learn more about: Step 10: Verify the Interrogative Scenario"
-title: "Step 10: Verify the Interrogative Scenario | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Step 10: Verify the Interrogative Scenario"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "interrogative tutorial, verifying solution"
 ms.assetid: 1f28800b-4a1d-4f29-8123-5cdea4b4a365
 caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Step 10: Verify the Interrogative Scenario
 In this step, you verify the end-to-end scenario for this tutorial.  

@@ -58,7 +58,7 @@ The **Reference** element can be used to add one or more relationships to a BAM 
 </ic:Reference>
 ```
 
- The **Reference** element supports a mix of `Data` and `LongData` elements. In the following sample, the country name and note fields from a purchase order are retrieved from a WCF service and written to the relationship "Long and Short Data" as type "MyType". Because the note field supports more than 1024 characters, the expression is enclosed in a `LongData` element.
+ The **Reference** element supports a mix of `Data` and `LongData` elements. In the following sample, the country/region name and note fields from a purchase order are retrieved from a WCF service and written to the relationship "Long and Short Data" as type "MyType". Because the note field supports more than 1024 characters, the expression is enclosed in a `LongData` element.
 
 ```
 <ic:Reference Name="Long and Short Data" Type="MyType">

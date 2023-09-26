@@ -1,22 +1,22 @@
 ---
 description: "Learn how to use the utilities included in the Microsoft BizTalk Accelerator for HL7 (BTAHL7) Software Development Kit (SDK)."
-title: "Utilities2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
+title: "Utilities2"
 
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "06/08/2017"
+ms.prod: biztalk-server
+
+
+
+
+ms.topic: article
 helpviewer_keywords: 
   - "utilities"
   - "developing, utilities"
 ms.assetid: 1e43b506-921a-463c-b9ec-8da44b9d2a88
 caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
+
+
 ---
 # Utilities Overview
 

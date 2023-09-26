@@ -10,8 +10,8 @@ metadata:
   description: Explore documentation for Host Integration Server # Required; article description that is displayed in search results. < 160 chars.
   ms.service: host-integration-server #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.topic: hub-page # Required
-  author: MandiOhlinger #Required; your GitHub user alias, with correct capitalization.
-  ms.author: mandia #Required; microsoft alias of author; optional team alias.
+  author: haroldcampos #Required; your GitHub user alias, with correct capitalization.
+  ms.author: hcampos #Required; microsoft alias of author; optional team alias.
   ms.date: 05/28/2020 #Required; mm/dd/yyyy format.
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -23,7 +23,7 @@ highlightedContent:
       itemType: overview
       url: what-is-his.md
     # Card
-    - title: What’s New?
+    - title: What's New?
       itemType: whats-new
       url: install-and-config-guides/what-s-new-in-his-2020.md
     # Card
