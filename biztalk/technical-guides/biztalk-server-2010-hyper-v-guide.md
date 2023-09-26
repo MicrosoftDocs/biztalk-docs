@@ -1,23 +1,15 @@
 ---
-description: "Learn more about: BizTalk Server 2010 Hyper-V Guide"
-title: "BizTalk Server 2010 Hyper-V Guide | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 3c38ecdd-de72-41d9-b639-2aa6bbfee917
-caps.latest.revision: 29
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
----
-# BizTalk Server 2010 Hyper-V Guide
-The purpose of this guide is to provide practical guidance for using Microsoft BizTalk Server with Microsoft [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V. The emphasis is on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], but the performance evaluation methods and performance testing scenarios are useful for analyzing the performance of virtualized server applications in general. This guidance will be of interest to both the IT Pro and Developer communities.
+title: BizTalk Server 2010 Hyper-V Guide
+description: Learn more about BizTalk Server 2010 Hyper-V.
+ms.prod: biztalk-server
+ms.topic: conceptual
+ms.date: 06/08/2017
 
- To download a copy of this guide, go to [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=149267).
+---
+
+# BizTalk Server 2010 Hyper-V Guide
+
+The purpose of this guide is to provide practical guidance for using Microsoft BizTalk Server with Microsoft [!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)] Hyper-V. The emphasis is on [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], but the performance evaluation methods and performance testing scenarios are useful for analyzing the performance of virtualized server applications in general. This guidance will be of interest to both the IT Pro and Developer communities.
 
 Server virtualization offers companies the opportunity to run multiple operating systems on a single physical machine. This capability enables the consolidation of underutilized servers onto a smaller number of fully utilized machines. By implementing virtualization, companies can minimize operational and capital expenditure costs associated with deploying and operating the servers required for enterprise applications.
 

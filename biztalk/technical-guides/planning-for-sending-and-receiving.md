@@ -1,20 +1,15 @@
 ---
-description: "Learn more about: Planning for Sending and Receiving"
-title: "Planning for Sending and Receiving | Microsoft Docs"
+title: Plan for sending and receiving
+description: Learn about planning for sending and receiving in BizTalk Server.
+ms.prod: biztalk-server
+ms.topic: conceptual
+ms.date: 12/30/2022
 ms.custom: "devx-track-javaee-websphere"
-ms.date: "12/30/2022"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 3d67e5f7-5127-4c1d-be20-8d8dbb538286
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+
 ---
-# Planning for Sending and Receiving
+
+# Plan for sending and receiving in BizTalk Server
+
 Nearly every document that is processed by [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is received by a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive adapter, and sent from [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] using a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] send adapter. Because [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] adapters figure so prominently in any [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, it is important to plan ahead to determine which adapters or accelerators you will be using and how to correctly configure these adapters and/or accelerators.
 
 ## Determining Which Adapters and Accelerators You Will Use
@@ -104,7 +99,7 @@ Microsoft [!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md
 
 - **Employ a perimeter network domain, (also known as a demilitarized zone (DMZ) or screened subnet), to house servers to provide Internet related services for your organization**
 
-   The perimeter network domain should contain servers which house the physical locations where Internet-facing transports route documents between computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and your trading partners. The perimeter network firewall should only open the ports required to allow communications to and from the Internet facing transports. There should be no computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive locations, or Enterprise Single Sign-On server computers in the perimeter network domain. Documents sent/received to/from transports in the perimeter network domain should be routed from the Internet-facing firewall to the firewall protecting the processing domain using Internet Security and Acceleration Server (ISA) Server Web Publishing and Server Publishing. For more information about using ISA Server Web and server publishing, see [Publishing Concepts in ISA Server 2006](https://cloudblogs.microsoft.com/dynamics365/no-audience/2008/07/24/publishing-microsoft-crm-4-0-through-isa-server-2006/).
+   The perimeter network domain should contain servers which house the physical locations where Internet-facing transports route documents between computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] and your trading partners. The perimeter network firewall should only open the ports required to allow communications to and from the Internet facing transports. There should be no computers running [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive locations, or Enterprise Single Sign-On server computers in the perimeter network domain. Documents sent/received to/from transports in the perimeter network domain should be routed from the Internet-facing firewall to the firewall protecting the processing domain using Internet Security and Acceleration Server (ISA) Server Web Publishing and Server Publishing.
 
   > [!NOTE]
   >  As an added measure of security, consider using public key infrastructure (PKI) digital certificates for purposes of document encryption and decryption, document signing and verification (non-repudiation) for documents sent to or received from trading partners via Internet facing transports in this domain.
