@@ -140,7 +140,7 @@ IIS is included with the operating system as a **Role** or a **Feature**, depend
 
 3. Continue with the installation, and restart the computer if prompted. 
 
-**SEE ALSO** : Install IIS on [Windows 8 or Windows Server 2012](http://www.iis.net/learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012).
+**SEE ALSO** : Install IIS on [Windows 8 or Windows Server 2012](https://www.iis.net/learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012).
 
 
 ## Run 64-bit BAM portal (optional)

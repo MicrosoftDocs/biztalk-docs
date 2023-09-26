@@ -87,7 +87,7 @@ To facilitate transactions between SQL Server and BizTalk Server, you must enabl
 <configuration>
   <system.net>
     <connectionManagement>
-      <add address="http://www.contoso.com" maxconnection="24" />
+      <add address="https://www.contoso.com" maxconnection="24" />
       <add address="*" maxconnection="48" />
     </connectionManagement>
   </system.net>
@@ -97,7 +97,7 @@ To facilitate transactions between SQL Server and BizTalk Server, you must enabl
  When setting the maxconnection property, HTTP, HTTPS, the web site IP address, and the port number can be specified. Other examples include:
 
  **\<add address="<https://www.contoso.com>" maxconnection="24" /\>**
-**\<add address="<http://www.contoso.com:8080>" maxconnection="24" /\>**
+**\<add address="<https://www.contoso.com:8080>" maxconnection="24" /\>**
 **\<add address="http://*IPAddress*" maxconnection="24" /\>**  For more information about tuning IIS and ASP.NET settings for Web services, see the "ASP.NET settings that can impact HTTP  Adapter performance" section of [Configuration Parameters that Affect Adapter Performance](../core/configuration-parameters-that-affect-adapter-performance.md) (<https://go.microsoft.com/fwlink/?LinkID=154200>) in BizTalk Server 2010 Help.
 
 ## Manage ASP.NET thread usage or concurrently executing requests for Web applications that can host  isolated received locations, back-end Web services and WCF services

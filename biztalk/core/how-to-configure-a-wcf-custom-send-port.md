@@ -197,7 +197,7 @@ You can configure a WCF-Custom send port either programmatically or by using the
       <binding name="sampleBinding">
        <security mode="Message">
         <message issuedKeyType="AsymmetricKey">
-         <issuer address="http://www.contoso.com/samplests" binding="wsFederationHttpBinding" bindingConfiguration="contosoSTSBinding"/>
+         <issuer address="https://www.contoso.com/samplests" binding="wsFederationHttpBinding" bindingConfiguration="contosoSTSBinding"/>
         </message>
        </security>
       </binding>

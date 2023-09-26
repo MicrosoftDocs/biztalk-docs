@@ -30,7 +30,7 @@ You can configure the number of concurrent connections that the SOAP adapter ope
 <configuration>  
   <system.net>  
     <connectionManagement>  
-      <add address = "http://www.contoso.com" maxconnection = "20" />  
+      <add address = "https://www.contoso.com" maxconnection = "20" />  
       <add address = "http://www.northwind.com" maxconnection = "2" />  
     </connectionManagement>  
   </system.net>  

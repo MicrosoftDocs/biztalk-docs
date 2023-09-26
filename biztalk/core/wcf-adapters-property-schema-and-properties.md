@@ -718,7 +718,7 @@ WCF.BindingConfiguration = @"<wsFederationHttpBinding>
 <binding name=""sampleBinding"">
 <security mode=""Message"">
 <message issuedKeyType=""AsymmetricKey"">
-<issuer address=""http://www.contoso.com/samplests"" binding=""wsFederationHttpBinding"" bindingConfiguration=""**contosoSTSBinding**""/>
+<issuer address=""https://www.contoso.com/samplests"" binding=""wsFederationHttpBinding"" bindingConfiguration=""**contosoSTSBinding**""/>
 </message>
 </security>
 </binding>
@@ -728,7 +728,7 @@ WCF.ReferencedBinding =@"<bindings>
 <binding name=""**contosoSTSBinding**"">
 <security mode=""Message"">
 <message negotiateServiceCredential=""false"">
-<issuer address=""http://northwind.com/samplests"" bindingConfiguration=""**northwindBinding**"" binding=""wsHttpBinding"">
+<issuer address=""https://northwind.com/samplests"" bindingConfiguration=""**northwindBinding**"" binding=""wsHttpBinding"">
 </issuer>
 </message>
 </security>

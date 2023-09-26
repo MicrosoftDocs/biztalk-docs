@@ -17,7 +17,7 @@ ms.author: "mandia"
 
 ## Product team and community blogs
 -   [HIS team blog](https://blogs.msdn.microsoft.com/hostintegrationserver)
--   [Steve Melan, MVP blog](http://stevemelan.wordpress.com)
+-   [Steve Melan, MVP blog](https://stevemelan.wordpress.com)
 -   [https://blogs.msdn.microsoft.com/sjackson/](/archive/blogs/sjackson/)
 -   [https://blogs.msdn.microsoft.com/charliee/](/archive/blogs/charliee/)
 
