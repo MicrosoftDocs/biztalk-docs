@@ -1,30 +1,13 @@
 ---
-description: "Learn more about: BizTalk Design-Time Tools"
-title: "BizTalk Design-Time Tools | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords:
-  - "BizTalk Adapter Framework"
-  - "schemas, tools"
-  - "BizTalk Orchestration Designer"
-  - "schemas, BTARN schemas"
-  - "BizTalk Editor"
-  - "BizTalk Mapper"
-  - "tools, schemas"
-  - "BTARN, schemas"
-  - "BizTalk Pipeline Designer"
-ms.assetid: a981e167-f178-4fef-be0e-02fa15feffc2
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+title: BizTalk design-time tools
+description: Learn about the BizTalk design-time tools.
+ms.prod: biztalk-server
+ms.topic: conceptual
+ms.date: 06/08/2017
 ---
-# BizTalk Design-Time Tools
+
+# BizTalk design-time tools
+
 Developers working on Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] can use the set of design-time tools built into BizTalk Server. These tools are integrated into Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)][!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]. For more information about [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] tools, see MicrosoftBizTalk Server Help.
 
 ## BizTalk Editor
@@ -76,8 +59,8 @@ Developers working on Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../i
 ## BizTalk Adapter Framework
  You use the BizTalk Adapter Framework with end-point adapters to integrate with partners and applications.
 
-## See Also
-[Tools and Features of BizTalk Server and BTARN](../../adapters-and-accelerators/accelerator-rosettanet/tools-and-features-of-biztalk-server-and-btarn.md)  
-[Administration and Run-Time Tools](../../adapters-and-accelerators/accelerator-rosettanet/administration-and-run-time-tools.md)  
-[Analysis Tools](../../adapters-and-accelerators/accelerator-rosettanet/analysis-tools1.md)  
+## See also
+[Tools and Features of BizTalk Server and BTARN](../../adapters-and-accelerators/accelerator-rosettanet/tools-and-features-of-biztalk-server-and-btarn.md)
+[Administration and Run-Time Tools](../../adapters-and-accelerators/accelerator-rosettanet/administration-and-run-time-tools.md)
+[Analysis Tools](../../adapters-and-accelerators/accelerator-rosettanet/analysis-tools1.md)
 [Incorporating a New Partner Interface Process](../../adapters-and-accelerators/accelerator-rosettanet/incorporating-a-new-partner-interface-process.md)
