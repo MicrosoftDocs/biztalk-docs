@@ -1,20 +1,14 @@
 ---
-description: "Learn more about: Installing AppFabric Connect for Services"
-title: "Installing AppFabric Connect for Services | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 1de3bf49-e3cc-4d3f-9883-9a2c472f3647
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+title: Install AppFabric Connect for Services
+description: Learn about installing AppFabric Connect for Services in BizTalk Server.
+ms.prod: biztalk-server
+ms.topic: how-to
+ms.date: 06/08/2017
+
 ---
-# Installing AppFabric Connect for Services
+
+# Install AppFabric Connect for Services in BizTalk Server
+
 This guide provides instructions on how to install BizTalk Server 2010 Feature Pack (October 2010). The feature pack installs BizTalk Server 2010 AppFabric Connect for Services feature that provides enhancements to the **BizTalk WCF Service Publishing Wizard** and the **WCF Adapter Service Development Wizard**. After you have installed the feature pack, you will be able to extend the reach of your on-premises BizTalk Server artifacts or LOB applications to cloud by adding a Windows Azure AppFabric Service Bus endpoint.
 
 ## Prerequisites
@@ -27,7 +21,7 @@ This guide provides instructions on how to install BizTalk Server 2010 Feature P
 
 #### To install the feature pack
 
-1.  Download the AppFabric Connect for Services installable from [https://go.microsoft.com/fwlink/?LinkId=204701](https://go.microsoft.com/fwlink/?LinkId=204701). Run the self-extracting BizTalkServer2010_FeaturePack.exe file to launch the feature pack installer.
+1.  Download the AppFabric Connect for Services installable. Run the self-extracting BizTalkServer2010_FeaturePack.exe file to launch the feature pack installer.
 
 2.  On the **Welcome** page, click **Next**.
 
