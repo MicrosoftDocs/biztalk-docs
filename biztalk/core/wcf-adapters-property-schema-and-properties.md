@@ -728,7 +728,7 @@ WCF.ReferencedBinding =@"<bindings>
 <binding name=""**contosoSTSBinding**"">
 <security mode=""Message"">
 <message negotiateServiceCredential=""false"">
-<issuer address=""http://northwind.com/samplests"" bindingConfiguration=""**northwindBinding**"" binding=""wsHttpBinding"">
+<issuer address=""https://northwind.com/samplests"" bindingConfiguration=""**northwindBinding**"" binding=""wsHttpBinding"">
 </issuer>
 </message>
 </security>

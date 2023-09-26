@@ -43,14 +43,14 @@ You can configure a WCF-Custom send port either programmatically or by using the
 
 - **Property name**: **StaticAction**
   - **Type**: String
-  - **Description**: Specify the **SOAPAction** header field for outgoing messages. This property can also be set through the message context property **WCF.Action** in a pipeline or orchestration. You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format, like `http://contoso.com/Svc/Op1`, then the **SOAPAction** header for outgoing messages is always set to the value specified in this property.
+  - **Description**: Specify the **SOAPAction** header field for outgoing messages. This property can also be set through the message context property **WCF.Action** in a pipeline or orchestration. You can specify this value in two different ways: the single action format and the action mapping format. If you set this property in the single action format, such as `http://contoso.com/Svc/Op1`, then the **SOAPAction** header for outgoing messages is always set to the value specified in this property.
 
     If you set this property in the action mapping format, the outgoing **SOAPAction** header is determined by the **BTS.Operation** context property. For example, if this property is set to the following XML format and the **BTS.Operation** property is set to Op1, then the WCF send adapter uses `http://contoso.com/Svc/Op1` for the outgoing **SOAPAction** header.
 
     ```xml
     <BtsActionMapping>
-     <Operation Name="Op1" Action="<http://contoso.com/Svc/Op1>" />
-     <Operation Name="Op2" Action="<http://contoso.com/Svc/Op2>" />
+     <Operation Name="Op1" Action="http://contoso.com/Svc/Op1" />
+     <Operation Name="Op2" Action="http://contoso.com/Svc/Op2" />
     </BtsActionMapping>
     ```
 

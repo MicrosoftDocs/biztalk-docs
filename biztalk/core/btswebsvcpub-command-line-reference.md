@@ -39,7 +39,7 @@ This topic provides reference information for the BTSWebSvcPub command-line tool
 |      **-Anonymous**       |    No    |                                              Allow anonymous access to Web service.                                              |
 |         **-Name**         |    No    |                    Name of the solution and assembly (.sln and .dll files) that will contain the Web service.                    |
 |      **-Namespace**       |    No    |                                             Default namespace for Web service code.                                              |
-|   **-Targetnamespace**    |    No    |                        Target namespace of the Web service. (Example:'<http://www.northwindtraders.com>')                        |
+|   **-Targetnamespace**    |    No    |                        Target namespace of the Web service. (Example:`http://www.northwindtraders.com`)                        |
 |    **-UnknownHeaders**    |    No    |                                                  Support unknown SOAP headers.                                                   |
 |    **-SinglesSignon**     |    No    |                                  Support SharePoint Portal Server Single Sign-On SOAP headers.                                   |
 |    **-ParameterStyle**    |    No    |                               The SoapParameterStyle for messages: "Default", "Bare",or "Wrapped".                               |

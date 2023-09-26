@@ -1,20 +1,12 @@
 ---
-description: "Learn about general optimizations that can be used to increase BizTalk Server performance after it has been installed and configured."
-title: "General BizTalk Server Optimizations2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 41b452e9-d94c-4bcb-8ef6-e9cea28fc0ab
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+title: "General optimizations - Part 2"
+description: Learn about general optimizations that increase BizTalk Server performance after installation and configuration.
+ms.prod: biztalk-server
+ms.topic: conceptual
+ms.date: 06/08/2017
 ---
-# General Optimizations for BizTalk Server
+
+# General optimizations for BizTalk Server - Part 2
 
 The following recommendations can be used to increase [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performance. The optimizations listed in this topic are applied after [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has been installed and configured.
 
@@ -97,45 +89,51 @@ The following recommendations can be used to increase [!INCLUDE[btsBizTalkServer
  For more information about tuning parameters in the machine.config file for an ASP.NET 2.0 Web application, see Microsoft Knowledge Base article  [821268 “Contention, poor performance, and deadlocks when you make Web service requests from ASP.NET applications”](/troubleshoot/aspnet/performance-call-web-service) (https://go.microsoft.com/fwlink/?LinkID=66483).
 
 ### Manage the number of concurrently executing requests for Web applications that host orchestrations on IIS 7.0 running in Integrated mode
- When ASP.NET 2.0 is hosted on IIS 7.0 in integrated mode, the use of threads is handled differently than on IIS 6.0 or on IIS 7.0 in classic mode. When ASP.NET 2.0 is hosted on IIS 7.0 in integrated mode, ASP.NET 2.0 restricts the number of concurrently executing **requests** rather than the number of **threads** concurrently executing requests. For synchronous scenarios this will indirectly limit the number of threads but for asynchronous scenarios the number of requests and threads will likely be very different. When running ASP.NET 2.0 on IIS 7.0 in integrated mode, the **maxWorkerThreads** and **maxIoThreads** parameters in the machine.config file are not used to govern the number of running threads. Instead, the number of concurrently executing requests can be changed from the default value of 12 per CPU by modifying the value specified for **maxConcurrentThreadsPerCPU**. The **maxConcurrentThreadsPerCPU** value can be specified either in the reqistry or in the config section of an aspnet.config file. Follow these steps to change the default value for **maxConcurrentThreadsPerCPU** to govern the number of concurrently executing requests:
 
- **To set the maxConcurrentThreadsPerCPU value in the registry**
+When ASP.NET 2.0 is hosted on IIS 7.0 in integrated mode, the use of threads is handled differently than on IIS 6.0 or on IIS 7.0 in classic mode. When ASP.NET 2.0 is hosted on IIS 7.0 in integrated mode, ASP.NET 2.0 restricts the number of concurrently executing **requests** rather than the number of **threads** concurrently executing requests. For synchronous scenarios this will indirectly limit the number of threads but for asynchronous scenarios the number of requests and threads will likely be very different. When running ASP.NET 2.0 on IIS 7.0 in integrated mode, the **maxWorkerThreads** and **maxIoThreads** parameters in the machine.config file are not used to govern the number of running threads. Instead, the number of concurrently executing requests can be changed from the default value of 12 per CPU by modifying the value specified for **maxConcurrentThreadsPerCPU**. The **maxConcurrentThreadsPerCPU** value can be specified either in the reqistry or in the config section of an aspnet.config file. Follow these steps to change the default value for **maxConcurrentThreadsPerCPU** to govern the number of concurrently executing requests:
+
+##### Set the maxConcurrentThreadsPerCPU value in the registry
+
+This setting is global and cannot be changed for individual application pools or applications.
 
 > [!WARNING]
->  Incorrect use of Registry Editor may cause problems requiring you to reinstall your operating system. Use Registry Editor at your own risk. For more information about how to back up, restore, and modify the registry, see the Microsoft Knowledge Base article "Description of the Microsoft Windows registry" at [https://go.microsoft.com/fwlink/?LinkId=62729](/troubleshoot/windows-server/performance/windows-registry-advanced-users).
+>
+> Use the Registry Editor at your own risk. Incorrect use might cause problems that require you to reinstall your operating system. 
+> For more information about how to back up, restore, and modify the registry, see [Microsoft Knowledge Base article 256986 - Windows registry information for advanced users](/troubleshoot/windows-server/performance/windows-registry-advanced-users).
 
-> [!NOTE]
->  This setting is global and cannot be changed for individual application pools or applications.
-
-1. Click **Start**, click **Run**, type **regedit.exe**, and then click **OK** to start Registry Editor.
+1. From the **Start** menu, find and launch the **Run** prompt, enter **regedit.exe**, and then select **OK** to start the Registry Editor.
 
 2. Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\2.0.50727.0**
 
 3. Create the key by following these steps:
 
-   1.  On the **Edit** menu, click **New**, and then click **Key**.
+   1.  On the **Edit** menu, select **New**, and then select **Key**.
 
    2.  Type **maxConcurrentThreadsPerCPU**, and then press **ENTER**.
 
    3.  Under the **maxConcurrentThreadsPerCPU** key, create a DWORD entry with the new value for maxConcurrentThreadsPerCPU.
 
-   4.  Close Registry Editor.
+   4.  Close the Registry Editor.
 
-   **To set the maxConcurrentThreadsPerCPU value for an application pool in the config section of an aspnet.config file**
+##### Set the maxConcurrentThreadsPerCPU value for an application pool in the config section of an aspnet.config file
 
-> [!NOTE]
->  Microsoft .NET Framework 3.5 Service Pack 1 must be installed to accommodate setting the values below via configuration file. You can download Microsoft .NET Framework 3.5 Service Pack 1 from [https://go.microsoft.com/fwlink/?LinkID=136345](https://go.microsoft.com/fwlink/?LinkID=136345).
+1. Download and install [Microsoft .NET Framework 3.5 Service Pack 1](https://www.microsoft.com/download/details.aspx?id=22), 
+which is required to accommodate setting the following values in the configuration file. The [full version](https://www.microsoft.com/download/details.aspx?id=25150) is also available.
 
--   Open the aspnet.config file for the application pool, and then enter new values for the **maxConcurrentRequestsPerCPU** and **requestQueueLimit** parameters:
+1. Open the **aspnet.config** file for the application pool.
 
-```
-<system.web>
-    <applicationPool maxConcurrentRequestsPerCPU="12" requestQueueLimit="5000"/>
-</system.web>
-```
+1. Enter the new values for the **maxConcurrentRequestsPerCPU** and **requestQueueLimit** parameters.
 
-> [!NOTE]
->  This value overrides the value specified for **maxConcurrentThreadsPerCPU** in the registry. The requestQueueLimit setting is the same as processModel/requestQueueLimit, except that the setting in the aspnet.config file will override the setting in the machine.config file.
+   ```xml
+   <system.web>
+       <applicationPool maxConcurrentRequestsPerCPU="12" requestQueueLimit="5000"/>
+   </system.web>
+   ```
+   > [!NOTE]
+   >
+   > This value overrides the value specified for **maxConcurrentThreadsPerCPU** in the registry. 
+   > The **requestQueueLimit** setting is the same as **processModel/requestQueueLimit**, except the 
+   > setting in the **aspnet.config** file will override the setting in the **machine.config** file.
 
 ## Define CLR hosting thread values for BizTalk host instances
  Because a Windows thread is the most basic executable unit available to a Windows process, it is important to allocate enough threads to the .NET thread pool associated with an instance of a BizTalk host to prevent thread starvation. When thread starvation occurs, there are not enough threads available to perform the requested work that negatively impacts performance. At the same time, care should be taken to prevent allocating more threads to the.NET thread pool associated with a host than is necessary. The allocation of too many threads to the .NET thread pool associated with a host may increase context switching. Context switching occurs when the Windows kernel switches from running one thread to a different thread, which incurs a performance cost. Excessive thread allocation can cause excessive context switching, which will negatively impact overall performance.

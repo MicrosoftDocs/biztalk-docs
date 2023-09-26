@@ -41,7 +41,7 @@ In this step, you create send ports using the SQL adapter provided by BizTalk Se
   
 10. In the **Select the database on the server** box, select **Contoso**, and then click **OK**.  
   
-11. In the SQL Transport Properties dialog box, in the **Document Target Namespace** box, type **http://Contoso.com/Price**.  
+11. In the SQL Transport Properties dialog box, in the **Document Target Namespace** box, type `http://Contoso.com/Price`.
   
 12. In the **Response Document Root Element Name** box, type **rootPriceResponse**, and then click **OK**.  
   

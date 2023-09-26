@@ -59,7 +59,7 @@ In this step, you generate the schema to use to query the Contoso ERP system for
 
    |                Use this                 |              To do this              |
    |-----------------------------------------|--------------------------------------|
-   |          **Target namespace**           | Type **<http://Contoso.com/Price>**. |
+   |          **Target namespace**           | Type `http://contoso.com/Price`. |
    |        **Select the port type**         |        Select **Send port**.         |
    | **Request document root element name**  |      Type **rootPriceRequest**.      |
    | **Response document root element name** |     Type **rootPriceResponse**.      |
