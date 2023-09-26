@@ -1,20 +1,12 @@
 ---
-description: "Learn about general optimizations that can be used to increase BizTalk Server performance after it has been installed and configured."
-title: "General BizTalk Server Optimizations2 | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/08/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: 41b452e9-d94c-4bcb-8ef6-e9cea28fc0ab
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+title: "General optimizations - Part 2"
+description: Learn about general optimizations that increase BizTalk Server performance after installation and configuration.
+ms.prod: biztalk-server
+ms.topic: conceptual
+ms.date: 06/08/2017
 ---
-# General Optimizations for BizTalk Server
+
+# General optimizations for BizTalk Server - Part 2
 
 The following recommendations can be used to increase [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] performance. The optimizations listed in this topic are applied after [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has been installed and configured.
 
