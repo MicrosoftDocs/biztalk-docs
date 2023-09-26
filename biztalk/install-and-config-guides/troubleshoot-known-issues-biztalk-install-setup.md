@@ -1,39 +1,34 @@
 ---
-title: "Known install issues | Microsoft Docs"
-description: Known issues and common problems and resolutions when installing and configuring BizTalk Server
-ms.custom: ""
-ms.date: "11/30/2017"
-ms.prod: "biztalk-server"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: e4d0e707-6b9e-49e1-9f17-19b3bac1229e
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
+title: Known issues - Installation
+description: Known issues and common problems and resolutions when installing and configuring BizTalk Server.
+ms.prod: biztalk-server
+ms.topic: conceptual
+ms.date: 11/30/2017
+
 ---
+
 # Troubleshoot BizTalk Server Setup
 
 ## Introduction
- This Troubleshooting Guide lists  known issues as well as the most common problems you may encounter while installing BizTalk Server. This guide also includes Custom actions which provides details about BizTalk Server certification for the Windows Server logo program.  It provides you a list of custom actions that might be performed during BizTalk Server Setup operation.
+
+This Troubleshooting Guide lists known issues as well as the most common problems you may encounter while installing BizTalk Server. This guide also includes Custom actions which provides details about BizTalk Server certification for the Windows Server logo program. It provides you a list of custom actions that might be performed during BizTalk Server Setup operation.
 
 ## Review install steps
+
 The majority of BizTalk Server setup problems occur because the BizTalk Server computer was not properly prepared before BizTalk Server was installed, or a previous installation of BizTalk Server was not fully uninstalled before a new installation was attempted.
 
 Review the two checklists below, which you can also find in the BizTalk Server Installation Guides, to ensure that your computer(s) are properly configured to support BizTalk Server. If, after reviewing this information, your setup still does not succeed, the troubleshooting tips in the rest of this document may be useful.
 
 1. Install prerequisite software and programs:
 
-    * [BizTalk Server 2016](set-up-and-install-prerequisites-for-biztalk-server-2016.md)
-    * [BizTalk Server 2013 R2 & 2013](prepare-your-computer-for-installation.md)
+   * [BizTalk Server 2016](set-up-and-install-prerequisites-for-biztalk-server-2016.md)
+   * [BizTalk Server 2013 R2 & 2013](prepare-your-computer-for-installation.md)
 
-2. Install and configure BizTalk Server:
+1. Install and configure BizTalk Server:
 
-    1. Install BizTalk Server: [BizTalk 2016](install-biztalk-server-2016.md) , [BizTalk 2013 R2 / 2013](install-biztalk-server-2013-and-2013-r2.md)
-    2. [Configure](configure-biztalk-server.md) BizTalk Server
-    3. [Post-configuration steps](post-configuration-steps-to-optimize-your-environment.md)
+   1. Install BizTalk Server: [BizTalk 2016](install-biztalk-server-2016.md) , [BizTalk 2013 R2 / 2013](install-biztalk-server-2013-and-2013-r2.md)
+   1. [Configure](configure-biztalk-server.md) BizTalk Server
+   1. [Post-configuration steps](post-configuration-steps-to-optimize-your-environment.md)
 
 ## Some EDI/AS2 artifacts are still active after unconfiguring
 
@@ -91,34 +86,39 @@ Service could not be started. : System.Net.Sockets.SocketException (10061): No c
  The HOSTS file is located in the %systemroot%\drivers\etc\ directory.
 
 > [!NOTE]
-For more information about the possible threat from the malware named **SettingsModifier:Win32/PossibleHostsFileHijack**, see [Microsoft Security Intelligence page about this threat](https://www.microsoft.com/wdsi/threats/malware-encyclopedia-description?name=SettingsModifier%3AWin32%2FHostsFileHijack&threatid=265754) and [Microsoft Support page about "Hosts file is detected as malware in Windows Defender"](https://support.microsoft.com/topic/hosts-file-is-detected-as-malware-in-windows-defender-4320fa8b-0d54-1129-db85-61f095144521).
+> For more information about the possible threat from the malware named **SettingsModifier:Win32/PossibleHostsFileHijack**, see 
+[Microsoft Security Intelligence page about this threat](https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=SettingsModifier%3AWin32%2FHostsFileHijack) and [Microsoft Support page about "Hosts file is detected as malware in Windows Defender"](https://support.microsoft.com/topic/hosts-file-is-detected-as-malware-in-windows-defender-4320fa8b-0d54-1129-db85-61f095144521).
 
 ## Configuration Logging
- The configuration program writes detailed information to a configuration log file which by default is located in the temp directory of the computer running BizTalk Server. To determine the folder that is specified by the TEMP environment variable open a command prompt on this computer, type the following command, and then press ENTER:
 
- **echo %TEMP%**
+The configuration program writes detailed information to a configuration log file which by default is located in the temp directory of the computer running BizTalk Server. To determine the folder that is specified by the TEMP environment variable open a command prompt on this computer, type the following command, and then press ENTER:
 
- The configuration log file contains a summary of the configuration steps performed, as well as diagnostic information about any failures that may occur during the configuration process. If a configuration error occurs, open the configuration log in a text editor such as Notepad and check the log file for possible causes of the error.
+**echo %TEMP%**
+
+The configuration log file contains a summary of the configuration steps performed, as well as diagnostic information about any failures that may occur during the configuration process. If a configuration error occurs, open the configuration log in a text editor such as Notepad and check the log file for possible causes of the error.
 
 ## Troubleshooting Tools
- Use SQL Server Profiler, Filemon, or Regmon to gather additional information about configuration failures. See [Tools and Utilities to use for Troubleshooting](../core/tools-and-utilities-to-use-for-troubleshooting.md).
+
+Use SQL Server Profiler, Filemon, or Regmon to gather additional information about configuration failures. See [Tools and Utilities to use for Troubleshooting](../core/tools-and-utilities-to-use-for-troubleshooting.md).
 
 ### Configuration fails when BizTalk and SQL are installed on separate computers
 
 **Problem**
- Configuration fails with errors similar to the following when attempting to configure the Enterprise Single Sign-On (SSO) component:
+
+Configuration fails with errors similar to the following when attempting to configure the Enterprise Single Sign-On (SSO) component:
 
 ```
 An error occurred while attempting to access the SSO database.
 Function: FieldInfoCreate
 ```
 
- -or-
+-or-
 
-```Failed to enable the Single Sign-On (SSO) Service (error code 0X800706BA)```
+`Failed to enable the Single Sign-On (SSO) Service (error code 0X800706BA)`
 
 **Cause**
- If BizTalk Server and SQL Server are installed on different computers, then the configuration operations are performed under the context of a Microsoft Distributed Transaction Coordinator (MSDTC) transaction and MSDTC functionality must be available over the network between these computers. If MSDTC functionality is not available over the network between the computers running BizTalk Server and SQL Server, then this error can occur.
+
+If BizTalk Server and SQL Server are installed on different computers, then the configuration operations are performed under the context of a Microsoft Distributed Transaction Coordinator (MSDTC) transaction and MSDTC functionality must be available over the network between these computers. If MSDTC functionality is not available over the network between the computers running BizTalk Server and SQL Server, then this error can occur.
 
 **Resolution**
 Use [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-msdtc.md) to ensure MSDTC functionality over the network between the computers running BizTalk Server and SQL Server.
@@ -126,26 +126,26 @@ Use [Troubleshooting Problems with MSDTC](../core/troubleshooting-problems-with-
 ### Antivirus software interferes with configuration and causes configuration failures
 
 **Problem**
- BizTalk Server configuration fails when antivirus software incorrectly determines that the configuration program is a virus.
+BizTalk Server configuration fails when antivirus software incorrectly determines that the configuration program is a virus.
 
 **Cause**
- The antivirus software has not been updated to include the BizTalk Server configuration program as a legitimate (non-virus) program.
+The antivirus software has not been updated to include the BizTalk Server configuration program as a legitimate (non-virus) program.
 
 **Resolution**
- Configure the antivirus program to recognize the BizTalk Server configuration program as a legitimate (non-virus) program or else temporarily disable the antivirus software while the configuration program is running.
+Configure the antivirus program to recognize the BizTalk Server configuration program as a legitimate (non-virus) program or else temporarily disable the antivirus software while the configuration program is running.
 
 ### Configuration fails with a "File or assembly name FileName.dll, or one of its dependencies, was not found" error
 
 **Problem**
- An error similar to the following is displayed during the configuration process:
+An error similar to the following is displayed during the configuration process:
 
- Failed to deploy BizTalk system assembly "C:\Program Files\Microsoft\BizTalk Server 20xx\Microsoft.BizTalk.DefaultPipelines.dll. Unspecified exception: File or assembly name FileName .dll, or one of its dependencies, was not found."
+Failed to deploy BizTalk system assembly "C:\Program Files\Microsoft\BizTalk Server 20xx\Microsoft.BizTalk.DefaultPipelines.dll. Unspecified exception: File or assembly name FileName .dll, or one of its dependencies, was not found."
 
 **Cause**
- This error can occur if the Network Service account does not have write permissions to the temp folder on the computer running BizTalk Server. During configuration, BizTalk Server configuration uses Windows Management Instrumentation (WMI) to deploy .NET assemblies to the BizTalk Management database. WMI impersonates the Network Service account while deploying these assemblies to the BizTalk Management database and so the Network Service account must have write access to the temp folder on the computer running BizTalk Server.
+This error can occur if the Network Service account does not have write permissions to the temp folder on the computer running BizTalk Server. During configuration, BizTalk Server configuration uses Windows Management Instrumentation (WMI) to deploy .NET assemblies to the BizTalk Management database. WMI impersonates the Network Service account while deploying these assemblies to the BizTalk Management database and so the Network Service account must have write access to the temp folder on the computer running BizTalk Server.
 
 **Resolution**
- Grant the Network Service account write access to the temp folder on the computer running BizTalk Server and run the configuration program again. To determine the folder that is specified by the TEMP environment variable, open a command prompt on the computer, type the following command, and then press ENTER:
+Grant the Network Service account write access to the temp folder on the computer running BizTalk Server and run the configuration program again. To determine the folder that is specified by the TEMP environment variable, open a command prompt on the computer, type the following command, and then press ENTER:
 
 ```
 echo %TEMP%
@@ -154,7 +154,7 @@ echo %TEMP%
 ### Configuration fails if a SQL Server database file that has the same name as the specified database already exists in the SQL Server data folder
 
 #### Problem
- Configuration fails with an error similar to the following:
+Configuration fails with an error similar to the following:
 
 ```
 Failed to set up BAM database(s)
@@ -165,80 +165,80 @@ Logon fails. Logon failed for user '*BizTalk\BizTalkUser*'
 ```
 
 **Cause**
- This error can occur if an .mdf file or an .ldf file already exists in the \MSSQL\data folder of the computer running SQL Server that has the same name as the .mdf file or the .ldf file that the BizTalk Server configuration program is trying to create. The names of the .mdf file and the .ldf file that are created for the databases are derived from the name of the database that is specified in the BizTalk Server configuration program with an .mdf and an .ldf extension appended.
+This error can occur if an .mdf file or an .ldf file already exists in the \MSSQL\data folder of the computer running SQL Server that has the same name as the .mdf file or the .ldf file that the BizTalk Server configuration program is trying to create. The names of the .mdf file and the .ldf file that are created for the databases are derived from the name of the database that is specified in the BizTalk Server configuration program with an .mdf and an .ldf extension appended.
 
 **Resolution**
- To resolve this behavior, use one of the following methods:
+To resolve this behavior, use one of the following methods:
 
--   Delete any .mdf files or .ldf files that have names that match the names of any databases that you are creating.
+- Delete any .mdf files or .ldf files that have names that match the names of any databases that you are creating.
 
--   Choose database names that do not match the names of any .mdf files or .ldf files that already exist in the \Program Files\Microsoft SQL Server\MSSQL\data folder of your SQL server.
+- Choose database names that do not match the names of any .mdf files or .ldf files that already exist in the \Program Files\Microsoft SQL Server\MSSQL\data folder of your SQL server.
 
 ### Configuration fails on a domain controller when specifying local accounts
 
 **Problem**
- When running the BizTalk Server configuration program on a domain controller, configuration fails if you specified a local group (for example, BizTalk Host Users Group) for either the BizTalkServerApplication host or the BizTalkIsolatedHost host.
+When running the BizTalk Server configuration program on a domain controller, configuration fails if you specified a local group (for example, BizTalk Host Users Group) for either the BizTalkServerApplication host or the BizTalkIsolatedHost host.
 
 **Cause**
- A domain controller automatically treats a local Windows group as a domain Windows group (there is no such thing as local Windows group on a domain controller). If you specified a local Windows group for the host while running the configuration program, configuration will fail when trying to create a SQL Server logon for the group. The configuration program does not disable the local Windows group option when the server is a domain controller.
+A domain controller automatically treats a local Windows group as a domain Windows group (there is no such thing as local Windows group on a domain controller). If you specified a local Windows group for the host while running the configuration program, configuration will fail when trying to create a SQL Server logon for the group. The configuration program does not disable the local Windows group option when the server is a domain controller.
 
 **Resolution**
- Specify domain groups for the hosts that are created during configuration.
+Specify domain groups for the hosts that are created during configuration.
 
 ### Configuration fails to create SQL Server Analysis database if the SQL server has been renamed
 
 **Problem**
- If you have renamed the computer on which you installed SQL Server Analysis Server, the configuration program fails when it tries to create the new SQL Server Analysis database and an error similar to the following is generated:
+If you have renamed the computer on which you installed SQL Server Analysis Server, the configuration program fails when it tries to create the new SQL Server Analysis database and an error similar to the following is generated:
 
 ```
- Cannot connect to the repository.
+Cannot connect to the repository.
 
- Analysis server: <machine name\>
+Analysis server: <machine name\>
 
- Error:
+Error:
 
- '\\\\<machine name\>\MsOLAPRepository$\msmdrep.mdb' is not a valid path.
+'\\\\<machine name\>\MsOLAPRepository$\msmdrep.mdb' is not a valid path.
 
- Make sure that you correctly spell the path name and that you are
+Make sure that you correctly spell the path name and that you are
 
- connected to the server on which the file resides.
+connected to the server on which the file resides.
 ```
 
 **Cause**
- The configuration program is unable to determine the new name of the computer on which you installed SQL Server Analysis Server.
+The configuration program is unable to determine the new name of the computer on which you installed SQL Server Analysis Server.
 
 **Resolution**
- Perform the following manual steps to update Analysis Server with the new computer name:
+Perform the following manual steps to update Analysis Server with the new computer name:
 
-1.  On the SQL Server, open **Microsoft SQL Server**, select **Analysis Services**, and then click **Analysis Manager**.
+1. On the SQL Server, open **Microsoft SQL Server**, select **Analysis Services**, and then select **Analysis Manager**.
 
-2.  In the **Analysis Manager** navigation panel, double-click the **Analysis Servers** node to expand it.
+1. In the **Analysis Manager** navigation panel, double-select the **Analysis Servers** node to expand it.
 
-3.  Right-click the server with the repository connection string you want to edit, and then select **Edit Repository Connection String**.
+1. Open the shortcut menu for the server with the repository connection string that you want to edit, and select **Edit Repository Connection String**.
 
-4.  In the **Edit Repository Connection String** dialog box, verify the server name in this string and update it to the new computer name if it is incorrect.
+1. In the **Edit Repository Connection String** dialog box, verify the server name in this string and update it to the new computer name if it is incorrect.
 
-5.  Navigate to the following location: <*installation directory*>\Program Files\Microsoft Analysis Services\Bin.
+1. Navigate to the following location: <*installation directory*>\Program Files\Microsoft Analysis Services\Bin.
 
-6.  Right-click the **Bin** folder, and then click **Sharing and Security**. The **Bin Properties** dialog box appears.
+1. Open the shortcut menu for the **Bin** folder, and select **Sharing and Security**, which opens the **Bin Properties** box.
 
-7.  In the **Bin Properties** dialog box, click the **Sharing** tab to verify that all Online Analytical Processing (OLAP) administrators have full permissions to this folder.
+1. In the **Bin Properties** box, select the **Sharing** tab, and check that all Online Analytical Processing (OLAP) administrators have full permissions to this folder.
 
 ### Artifacts disappear from Configuration Database on redeployment of assemblies from Visual Studio
 
 **Problem**
- When a BizTalk Server project is redeployed at the project level within Visual Studio, all artifacts contained within the project that reference the project being redeployed will appear to vanish when the BizTalk Server MMC is refreshed.
+When a BizTalk Server project is redeployed at the project level within Visual Studio, all artifacts contained within the project that reference the project being redeployed will appear to vanish when the BizTalk Server MMC is refreshed.
 
 **Cause**
- To illustrate the cause of this problem, consider the following example based on a sample BizTalk Server solution where a user wants to redeploy the Maps project. Note that compiling projects yields individual assemblies. The following figure indicates the state of the solution before the user does a redeployment. The relationships among the artifacts are as follows:
+To illustrate the cause of this problem, consider the following example based on a sample BizTalk Server solution where a user wants to redeploy the Maps project. Note that compiling projects yields individual assemblies. The following figure indicates the state of the solution before the user does a redeployment. The relationships among the artifacts are as follows:
 
--   Orch1, Orch2, Maps, Pipelines, and Schemas are projects.
+- Orch1, Orch2, Maps, Pipelines, and Schemas are projects.
 
--   Orch1 references Maps, which in turn references Schemas.
+- Orch1 references Maps, which in turn references Schemas.
 
--   Orch2 references Schemas.
+- Orch2 references Schemas.
 
--   Pipelines references Schemas.
+- Pipelines references Schemas.
 
 ![Diagram showing the state of a sample BizTalk Server solution before a user redeploys the Maps project.](../install-and-config-guides/media/bcd_ExistingBizTalkServerSolutionc.gif)
 
@@ -246,109 +246,110 @@ If the user redeploys the Maps project using the default Visual Studio project s
 
 ![Diagram showing the state of a sample BizTalk Server solution after a user redeploys the Maps project by using the default Visual Studio project settings.](../install-and-config-guides/media/bcd_BizTalkSolutionWLostArtifactsc.gif)
 
- Redeploying Maps is a two-step process of undeploying the currently deployed Maps.dll assembly, and then deploying the new Maps.dll file. Visual Studio performs these steps automatically as part of the redeployment process.
+Redeploying Maps is a two-step process of undeploying the currently deployed Maps.dll assembly, and then deploying the new Maps.dll file. Visual Studio performs these steps automatically as part of the redeployment process.
 
 > [!NOTE]
->  The preceding sentence is not strictly correct because these are steps that Visual Studio always does so there is no notion of it being the proper way.
+> The preceding sentence is not strictly correct because these are steps that 
+> Visual Studio always does so there is no notion of it being the proper way.
 
- The key point is that in order to undeploy a BizTalk Server assembly, Visual Studio has to undeploy all assemblies that are dependent upon that assembly that have the deploy flag set. In our example, to perform the first undeployment step of the redeployment, BizTalk Server needs to undeploy Orch1.dll (which depends on Maps.dll). During the undeployment of Maps.dll, Visual Studio also undeploys Schemas.dll (assuming it has the deploy flag set). In order to undeploy Schemas.dll, Visual Studio needs to undeploy Orch2.dll and Pipelines.dll (both of which depend on Schemas.dll).
+The key point is that in order to undeploy a BizTalk Server assembly, Visual Studio has to undeploy all assemblies that are dependent upon that assembly that have the deploy flag set. In our example, to perform the first undeployment step of the redeployment, BizTalk Server needs to undeploy Orch1.dll (which depends on Maps.dll). During the undeployment of Maps.dll, Visual Studio also undeploys Schemas.dll (assuming it has the deploy flag set). In order to undeploy Schemas.dll, Visual Studio needs to undeploy Orch2.dll and Pipelines.dll (both of which depend on Schemas.dll).
 
- A problem exists in that Visual Studio redeploys only Maps.dll and the assemblies that it depends upon: in this case, Schemas.dll. So when the user refreshes the BizTalk Server MMC, the Orch1, Orch2, and Pipeline assemblies seem to have vanished, but Maps.dll and Schemas.dll are still visible.
+A problem exists in that Visual Studio redeploys only Maps.dll and the assemblies that it depends upon: in this case, Schemas.dll. So when the user refreshes the BizTalk Server MMC, the Orch1, Orch2, and Pipeline assemblies seem to have vanished, but Maps.dll and Schemas.dll are still visible.
 
 **Resolution**
- For the main project (that references other projects) do the following:
+For the main project (that references other projects), complete the following steps:
 
-1.  In Solution Explorer, right-click the solution node.
+1. In Solution Explorer, open the shortcut menu for the solution node.
 
-2.  Click **Properties** to open the **Solution Property Pages** dialog box.
+1. Select **Properties** to open the **Solution Property Pages** dialog box.
 
-3.  Click **Configuration Properties**, and then click **Configuration**.
+1. Select **Configuration Properties**, and then select **Configuration**.
 
-4.  Clear the **Deploy** check box for the referenced project.
+1. Clear the **Deploy** check box for the referenced project.
 
-5.  In Solution Explorer, execute a new solution-level deployment. To do this, right-click the solution node and then click **Deploy Solution**.
+1. In Solution Explorer, execute a new solution-level deployment. To do this, open the shortcut menu for the solution node, and then select **Deploy Solution**.
 
 ### Supported Virtual Directory Types
- When referencing Web services from an orchestration and attempting to do an MSI export, the export operation will succeed only if the associated virtual directories are of type **IIsWebVirtualDir** or **IIsWebDirectory**. **IIsWebVirtualDir** and **IIsWebDirectory** are the node types that appear in the IIS metabase. **IIsWebVirtualDir** is a virtual directory with a **Path** property that points to an absolute file folder. **IIsWebDirectory** is a virtual directory without a **Path** property and thus refers to a relative file folder, typically a subfolder of another **IIsWebVirtualDir** or **IIsWebDirectory** node. These two types are the ones typically seen in the metabase hierarchy to describe folders.
+When referencing Web services from an orchestration and attempting to do an MSI export, the export operation will succeed only if the associated virtual directories are of type **IIsWebVirtualDir** or **IIsWebDirectory**. **IIsWebVirtualDir** and **IIsWebDirectory** are the node types that appear in the IIS metabase. **IIsWebVirtualDir** is a virtual directory with a **Path** property that points to an absolute file folder. **IIsWebDirectory** is a virtual directory without a **Path** property and thus refers to a relative file folder, typically a subfolder of another **IIsWebVirtualDir** or **IIsWebDirectory** node. These two types are the ones typically seen in the metabase hierarchy to describe folders.
 
- Virtual directories of type **IIsConfigObject** are not supported and the MSI export will fail in this case. **IIsConfigObject** is an unexpected metabase node type that is either a valid node type that BizTalk Server is not handling properly or an indication of an improperly created (and thus invalid) metabase entry. In this situation BizTalk Server will display an error message something like the following: Unexpected directory entry " IIS://LM/W3SVC/1/ROOT/BadVdir/" of type IIsConfigObject.
+Virtual directories of type **IIsConfigObject** are not supported and the MSI export will fail in this case. **IIsConfigObject** is an unexpected metabase node type that is either a valid node type that BizTalk Server is not handling properly or an indication of an improperly created (and thus invalid) metabase entry. In this situation BizTalk Server will display an error message something like the following: Unexpected directory entry " IIS://LM/W3SVC/1/ROOT/BadVdir/" of type IIsConfigObject.
 
 ### Unable to view Group information after removing stale logons
 
 **Problem**
- If, during configuration, you encounter and delete stale logons, you may not be able to view Group information.
+If, during configuration, you encounter and delete stale logons, you may not be able to view Group information.
 
 **Cause**
- This is a known configuration issue.
+This is a known configuration issue.
 
 **Resolution**
- It may help to delete the Host Windows group logons and then reconfigure. If the Group information is still not available, contact Microsoft Product Support.
+It may help to delete the Host Windows group logons and then reconfigure. If the Group information is still not available, contact Microsoft Product Support.
 
 ### Cannot change computer name after BizTalk Server is installed
 
 **Problem**
- When you change the computer name on a computer running BizTalk Server, and you restart (reboot) the computer, error messages may occur.
+When you change the computer name on a computer running BizTalk Server, and you restart (reboot) the computer, error messages may occur.
 
 **Cause**
- SQL Server does not support changing the computer name, so BizTalk Server does not support changing the computer name once BizTalk Server is installed and configured.
+SQL Server does not support changing the computer name, so BizTalk Server does not support changing the computer name once BizTalk Server is installed and configured.
 
 **Resolution**
- We recommend that you do not change computer names after you install BizTalk Server.
+We recommend that you do not change computer names after you install BizTalk Server.
 
 ### Known Issues with Enterprise Single Sign-On
- This section describes setup and configuration problems that may be related to Enterprise Single Sign-On (SSO).
+This section describes setup and configuration problems that may be related to Enterprise Single Sign-On (SSO).
 
 ##### ENTSSO Service fails to start
 
 **Problem**
- The ENTSSO service fails to start.
+The ENTSSO service fails to start.
 
 **Cause**
- If the ENTSSO service is not running under a valid SSO Administrator account, it will fail to start.
+If the ENTSSO service is not running under a valid SSO Administrator account, it will fail to start.
 
 **Resolution**
- Specify a valid SSO administrator account for the ENTSSO Service and restart the service from Services Control Manager (SCM) snap-in.
+Specify a valid SSO administrator account for the ENTSSO Service and restart the service from Services Control Manager (SCM) snap-in.
 
 ##### BizTalk Services dependent on the Enterprise Single Sign-On Service (ENTSSO) fail to start after a reboot
 
 **Problem**
- BTSSvc$BizTalkServerApplication has a dependency on the Enterprise Single Sign-On Service (ENTSSO) and may timeout during start up after a reboot.
+BTSSvc$BizTalkServerApplication has a dependency on the Enterprise Single Sign-On Service (ENTSSO) and may timeout during start up after a reboot.
 
 **Cause**
- The Enterprise Single Sign-On Service may take around 3 minutes to start.
+The Enterprise Single Sign-On Service may take around 3 minutes to start.
 
 **Resolution**
- Configure the “BizTalk Service BizTalk Group: BizTalkServerApplication” service with the Automatic (Delayed Start) startup type option. This will initiate the start of the service after all Automatic services have completed their startup routines.
+Configure the “BizTalk Service BizTalk Group: BizTalkServerApplication” service with the Automatic (Delayed Start) startup type option. This will initiate the start of the service after all Automatic services have completed their startup routines.
 
 ##### Cannot access an affiliate application
 
 **Problem**
- The Enterprise Single Sign-On service disables an affiliate application if the application administrator account associated with it is not valid.
+The Enterprise Single Sign-On service disables an affiliate application if the application administrator account associated with it is not valid.
 
 **Cause**
- The SSO application administrator account is not valid.
+The SSO application administrator account is not valid.
 
 **Resolution**
- Ensure that the SSO application administrator account is valid before you create an affiliate application. You must then enable the affiliate application to use the application.
+Ensure that the SSO application administrator account is valid before you create an affiliate application. You must then enable the affiliate application to use the application.
 
 ##### RPC error occurs when connecting to a client computer
 
 **Problem**
- When you run a command such as **ssomanage -displayapp** *<applicationname\>*, where the computer attempt to connect to a remote SSO Server to retrieve the information, you receive the following error: ERROR: 0x800706BA: The RPC server is unavailable.
+When you run a command such as **ssomanage -displayapp** *<applicationname\>*, where the computer attempt to connect to a remote SSO Server to retrieve the information, you receive the following error: ERROR: 0x800706BA: The RPC server is unavailable.
 
 **Cause**
- This error occurs when you specify the wrong server information, or when the SSO Service is not available on the remote server.
+This error occurs when you specify the wrong server information, or when the SSO Service is not available on the remote server.
 
 **Resolution**
 
--   Follow the steps in [Set the SSO Server](../core/how-to-set-the-sso-server.md) to make sure you are connected to the correct SSO Server.
+- Follow the steps in [Set the SSO Server](../core/how-to-set-the-sso-server.md) to make sure you are connected to the correct SSO Server.
 
--   Make sure the SSO Service is enabled and running in the SSO Server to which you are connecting.
+- Make sure the SSO Service is enabled and running in the SSO Server to which you are connecting.
 
 ##### Master Secret is missing or corrupt
 
 **Problem**
- The master secret is missing or corrupt. It normally generates during configuration. If the secret is missing, one of the following messages will display in the event log as the Enterprise Single Sign-On service starts.
+The master secret is missing or corrupt. It normally generates during configuration. If the secret is missing, one of the following messages will display in the event log as the Enterprise Single Sign-On service starts.
 
 ```
 MessageId=10520
@@ -363,26 +364,27 @@ SSO_ERROR_SECRETS_NOT_LOADED
 ```
 
 **Cause**
- This problem can occur if a secret is generated while the Enterprise Single Sign-On service (SSO) was running under one service account, and then the service account was changed. The secret is stored in the registry in encrypted form, and is encrypted using a key based on the identity of the service account (which ENTSSO runs under).
+This problem can occur if a secret is generated while the Enterprise Single Sign-On service (SSO) was running under one service account, and then the service account was changed. The secret is stored in the registry in encrypted form, and is encrypted using a key based on the identity of the service account (which ENTSSO runs under).
 
 **Resolution**
- Change the service account ENTSSO is running under to the original service account when the master secret was created.
+Change the service account ENTSSO is running under to the original service account when the master secret was created.
 
 1.  Back up the master secret. See [Back Up the Master Secret](../core/how-to-back-up-the-master-secret.md).
 
-2.  Stop Enterprise Single Sign-On Services.
+1. Stop Enterprise Single Sign-On Services.
 
-3.  Change the service account.
+1. Change the service account.
 
-4.  Restart SSO and ignore any event log errors about a corrupted secret.
+1. Restart SSO and ignore any event log errors about a corrupted secret.
 
-5.  Restore the master secret. See [Restore the Master Secret](../core/how-to-restore-the-master-secret.md).
+1. Restore the master secret. See [Restore the Master Secret](../core/how-to-restore-the-master-secret.md).
 
 ### Custom Action
- This topic provides details about BizTalk Server certification for the Windows Server logo program. The following custom actions might be performed during BizTalk Server Setup operations.
 
-|Custom action|Description|
-|-------------------|-----------------|
+This section provides details about BizTalk Server certification for the Windows Server logo program. The following custom actions might be performed during BizTalk Server Setup operations.
+
+| Custom action | Description |
+|---------------|-------------|
 |ReadComplusData|Reads custom COM+ tables, creates XML document, and saves it in the Complus_XML_Data property.|
 |SchedXmlConfig|Used for configuring machines having RFID data.|
 |CheckBaseEDI|Checks the presence of an old version of EDI|
@@ -459,10 +461,11 @@ SSO_ERROR_SECRETS_NOT_LOADED
 |ExecXmlConfigRollback|Used to make configuration changes to machine.config for RFID related data.|
 
 #### Running BizTalk Components
- The following table lists BizTalk components that must be run using administrative privileges or with highest available privilege.
 
-|Folder path|File name|User privileges|
-|-----------------|---------------|---------------------|
+The following table lists BizTalk components that must be run using administrative privileges or with highest available privilege.
+
+| Folder path | File name | User privileges |
+|-------------|-----------|-----------------|
 |\Program Files (x86)\Common Files\Microsoft shared\Help 9\Microsoft Document Explorer 2008|Install.exe|Highest available privilege|
 |\Program Files (x86)\Microsoft BizTalk Server *your version*|BTSHatApp.exe|Highest available privilege|
 |\Program Files (x86)\Microsoft BizTalk Server *your version*|BTSMMCLauncher.exe|Highest available privilege|
