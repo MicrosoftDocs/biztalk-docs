@@ -59,7 +59,7 @@ Several configuration and tuning parameters are accessible for the HTTP adapter 
 <configuration>  
   <system.net>  
     <connectionManagement>  
-      <add address = "https://www.contoso.com" maxconnection = "20" />  
+      <add address = "http://www.contoso.com" maxconnection = "20" />  
       <add address = "http://www.northwind.com" maxconnection = "2" />  
     </connectionManagement>  
   </system.net>  

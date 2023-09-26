@@ -31,7 +31,7 @@ The purpose of this sample is to build a message aggregation functionality using
 |In Aggregator folder:<br /><br /> Aggregate.odx|Orchestration that collects correlated messages together and then executes send pipeline to assemble them into a single interchange.|  
 |In Aggregate folder:<br /><br /> SuspendMessage.odx|Orchestration used for suspending messages that cannot be processed within aggregating orchestration.|  
 |In PipelinesAndSchemas folder:<br /><br /> FFReceivePipeline.btp|Receive pipeline with flat file disassembler.|  
-|In PipelinesAndSchemas folder:<br /><br /> Instance1.txt, Instance2.txt, Instance3.txt, Instance4.txt|Document instances for the sample. Instance1.txt and Instance2.txt should be added to an interchange for destination partner `https://www.contoso.com`, while Instance3.txt and Instance4.txt should be added to an interchange for destination partner `http://www.northwind.com`.|  
+|In PipelinesAndSchemas folder:<br /><br /> Instance1.txt, Instance2.txt, Instance3.txt, Instance4.txt|Document instances for the sample. Instance1.txt and Instance2.txt should be added to an interchange for destination partner `http://www.contoso.com`, while Instance3.txt and Instance4.txt should be added to an interchange for destination partner `http://www.northwind.com`.|  
 |In PipelinesAndSchemas folder:<br /><br /> Invoice.xsd, InvoiceEnvelope.xsd|Document schema and envelope schema for output interchange.|  
 |In PipelinesAndSchemas folder:<br /><br /> PipelinesAndSchemas.btproj|BizTalk project for the schemas and pipelines.|  
 |In PipelinesAndSchemas folder:<br /><br /> PropertySchema.xsd|Property schema for the sample.|  
@@ -73,7 +73,7 @@ The purpose of this sample is to build a message aggregation functionality using
   
 1.  Open Instance1.txt and Instance2.txt files located in PipelinesAndSchemas folder to inspect their content.  
   
-     Notice that in both files the DestinationPartnerURI element contains the value `https://www.contoso.com`. This value will be used to correlate these two messages together so that they can be added to one interchange.
+     Notice that in both files the DestinationPartnerURI element contains the value `http://www.contoso.com`. This value will be used to correlate these two messages together so that they can be added to one interchange.
 
      Similarly Instance3.txt and Instance4.txt files have DestinationPatnerURI element set to `http://www.northwind.com`.
   
