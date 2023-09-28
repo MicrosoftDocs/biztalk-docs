@@ -1,18 +1,9 @@
 ---
-description: "Learn more about: System Requirements for Host Integration Server 2020"
-title: "Host Integration Server 2020 system requirements | Microsoft Docs"
-ms.custom: ""
-ms.date: "5/5/2020"
+title: Host Integration Server 2020 system requirements
+description: Learn about system requirements for Host Integration Server 2020.
 ms.prod: host-integration-server
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-ms.assetid: af7d5928-5e99-4c03-afc0-16330e5f207c
-caps.latest.revision: 9
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
+ms.topic: conceptual
+ms.date: 09/28/2023
 ---
 
 # System Requirements
@@ -29,7 +20,7 @@ These system requirements list the installation, configuration, and feature usag
 |  Visual Studio  | The HIS designer supports the following Visual Studio versions:<br /><br /> -   Visual Studio 2022 (Support included in the latest HIS patch)<br /> -   Visual Studio 2019<br /> -   Visual Studio 2017 |
 | BizTalk Adapters and Tools | Supported BizTalk Server versions:<br /><br />-   BizTalk Server 2020<br />-   BizTalk Server 2016  |
 | Data Integration |  Data integration clients and DRDA Service support the following SQL Server versions:<br /><br />-   SQL Server 2022<br />-   SQL Server 2019<br />-   SQL Server 2017<br />-   SQL Server 2016 |
-| IBM operating systems | Supported IBM OS' to use the network integration features, including SNA services and terminal emulators (Host Integration Server 2020 only supports SNA over IP direct connections to Mainframes or Midranges running IBM Enterprise Extender):<br /><br /> -   IBM z/OS 2.3<br />-   IBM z/OS 2.2<br />-   IBM z/VM 6.3<br />-   IBM z/VSE 6.2<br />-   IBM i 7.4 <br />-   IBM i 7.3 <br />-   IBM i 7.2 |
+| IBM operating systems | Supported IBM OS to use the network integration features, including SNA services and terminal emulators (Host Integration Server 2020 only supports SNA over IP direct connections to Mainframes or Midranges running IBM Enterprise Extender): <br /><br /> -   IBM z/OS 2.3<br />-   IBM z/OS 2.2<br />-   IBM z/VM 6.3<br />-   IBM z/VSE 6.2<br />-   IBM i 7.4 <br />-   IBM i 7.3 <br />-   IBM i 7.2 |
 | IBM transaction processing systems | Supported IBM transaction processing systems to use the Transaction Integrator and BizTalk Adapter for Host Applications:<br /><br /> -   IBM CICS 5.4 <br />-   IBM CICS 5.3<br />-   IBM CICS 5.2<br />-   IMS 15.1<br />-   IMS 14.1<br />-   IMS 13.1<br />-   IBM i 7.4 <br />-   IBM i 7.3 <br />-   IBM i 7.2 |
 | IBM message processing systems | Supported IBM message processing systems to use the WCF Channel for WebSphere MQ and BizTalk Adapter for MQSC:<br /><br />-   IBM MQ 9.3 <br />-   IBM MQ 9.1 <br /> -   IBM MQ 9.0 <br />-   IBM MQ 8.0|
 | IBM file systems | Supported IBM host files systems to use the ADO.NET provider for Host files and BizTalk Adapter for Host files:<br /><br /> -   IBM DFSMS DFM for z/OS 2.3 <br />-   IBM DFSMS DFM for z/OS 2.2<br />-   IBM i 7.4 <br />-   IBM i 7.3 <br />-   IBM i 7.2|
