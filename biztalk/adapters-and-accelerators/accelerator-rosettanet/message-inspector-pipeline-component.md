@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Message Inspector Pipeline Component"
-title: "Message Inspector Pipeline Component | Microsoft Docs"
+title: "Message Inspector Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "creating, pipelines"
-  - "pipelines, custom pipelines"
-  - "pipelines, Message Inspector Pipeline Component"
-  - "Message Inspector Pipeline Component"
-  - "pipelines, creating"
-ms.assetid: d9c00718-c8cd-4289-8f58-e4edc61b9a05
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Inspector Pipeline Component
 This pipeline component lets you examine all the parts of a multi-part message, and the message context, to determine whether there is a problem with the message. You use this component for troubleshooting purposes.  

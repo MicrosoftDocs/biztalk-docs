@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: BTARN Send Pipeline"
-title: "BTARN Send Pipeline | Microsoft Docs"
+title: "BTARN Send Pipeline"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "XML Assembler"
-  - "send pipelines, message flow"
-  - "DOCTYPE headers"
-  - "MIME/SMIME Encoder"
-  - "send pipelines, BTARN"
-  - "BTARN, send pipelines"
-  - "XML Preprocessor"
-  - "messages, message flow"
-ms.assetid: 88562132-0ea4-4b5a-9445-b69f6c84e5ea
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BTARN Send Pipeline
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] prepares a RosettaNet Implementation Framework (RNIF) message for transmission in the RNIFSend pipeline (RNIFSend.btp). The send pipeline includes the following:  

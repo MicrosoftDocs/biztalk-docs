@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Checklist: Measuring Performance on Hyper-V"
-title: "Checklist: Measuring Performance on Hyper-V | Microsoft Docs"
+title: "Checklist: Measuring Performance on Hyper-V"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f32c95f4-a4eb-412b-9fa7-140e80b85e5a
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Measuring Performance on Hyper-V
 While most of the principles of analyzing performance of a guest operating system installed on a Hyper-V virtual machine performance are the same as analyzing the performance of an operating system installed on a physical machine, many of the collection methods are different. The sections below should be used as a quick reference when evaluating performance of your BizTalk Server solution running on a guest operating system installed on a Hyper-V virtual machine.

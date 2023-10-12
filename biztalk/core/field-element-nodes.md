@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Field Element Nodes"
-title: "Field Element Nodes | Microsoft Docs"
+title: "Field Element Nodes"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 65b5e1f6-283f-4172-9bc2-f04a0ea6753d
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Field Element Nodes
 

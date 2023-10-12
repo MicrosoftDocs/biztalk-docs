@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: SMTP Adapter"
-title: "SMTP Adapter | Microsoft Docs"
+title: "SMTP Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SMTP adapters, about SMTP adapters"
-  - "SMTP adapters, authenticating"
-  - "send adapters, SMTP adapters"
-  - "authenticating, SMTP adapters"
-  - "SMTP adapters"
-  - "SMTP adapters, send adapters"
-ms.assetid: b712f76d-3ce4-4780-9627-951e5951bd8a
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SMTP Adapter
 You use the Simple Mail Transfer Protocol (SMTP) adapter to exchange information between a server running Microsoft BizTalk Server and other applications by means of the SMTP protocol. BizTalk Server can send messages to other applications by creating an e-mail message and delivering it to a specified e-mail address. Internally, the SMTP send adapter creates an SMTP-based e-mail message and sends it to a target e-mail address. The target e-mail address is a property of the SMTP adapter. BizTalk Explorer exposes this property when you configure the SMTP send port.  

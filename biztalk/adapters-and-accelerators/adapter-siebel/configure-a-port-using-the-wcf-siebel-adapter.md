@@ -1,19 +1,12 @@
 ---
-title: "Configure a port using the WCF-Siebel adapter | Microsoft Docs"
+title: "Configure a port using the WCF-Siebel adapter"
 description: Create WCF-Siebel send ports to use the Siebel eBusiness Applications adapter in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e6314104-c742-440c-b530-b5a82295353a
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configure a port using the WCF-Siebel adapter
 How to configure WCF-Siebel send ports to perform outbound operations on a Siebel system using the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].  

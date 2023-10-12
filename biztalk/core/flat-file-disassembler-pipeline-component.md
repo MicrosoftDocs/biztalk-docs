@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Flat File Disassembler Pipeline Component"
-title: "Flat File Disassembler Pipeline Component | Microsoft Docs"
+title: "Flat File Disassembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Flat File Disassembler [pipeline component]"
-  - "pipeline components, Flat File Disassembler"
-ms.assetid: 8d59f86e-ea16-4989-ada4-d24a51e3409a
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Flat File Disassembler Pipeline Component
 The Flat File Disassembler component parses delimited and positional flat file format messages and converts them into an XML representation. The Flat File Disassembler also removes the header and trailer structures from the flat file message, and breaks the interchange within the message into individual documents. It also promotes properties from the documents and headers.  

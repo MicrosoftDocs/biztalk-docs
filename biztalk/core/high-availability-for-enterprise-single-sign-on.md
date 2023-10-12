@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: High Availability for Enterprise Single Sign-On"
-title: "High Availability for Enterprise Single Sign-On | Microsoft Docs"
+title: "High Availability for Enterprise Single Sign-On"
 ms.custom: ""
 ms.date: "02/29/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Master Secret server, availability"
-  - "high availability, SSO"
-  - "Master Secret server, high availability"
-  - "SSO, high availability"
-ms.assetid: 6c631b5c-7147-4cc0-b58a-6749e83df9d3
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # High Availability for Enterprise Single Sign-On
 Even if you do not use the Enterprise Single-Sign-On (SSO) functionality for mapping credentials and single sign-on, SSO is a critical part of the overall Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] infrastructure, because BizTalk Server uses SSO to help secure information for the receive locations.  

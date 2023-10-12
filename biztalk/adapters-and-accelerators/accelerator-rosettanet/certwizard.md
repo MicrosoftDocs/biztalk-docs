@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: CertWizard"
-title: "CertWizard | Microsoft Docs"
+title: "CertWizard"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "certificates, CertWizard utility"
-  - "CertWizard utility"
-  - "certificates, importing"
-ms.assetid: beeab3c0-d7b1-4bb9-8b19-f79b049d5aa1
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # CertWizard
 You use the CertWizard utility to import a certificate from a .pfx or .cer file into a private or public store for use with Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].  

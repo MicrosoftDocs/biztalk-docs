@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Create New Maps"
-title: "How to Create New Maps | Microsoft Docs"
+title: "How to Create New Maps"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 43b36cd8-f28e-4349-87d5-c94b7d8761bf
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create New Maps
 

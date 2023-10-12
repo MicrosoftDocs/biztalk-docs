@@ -1,23 +1,9 @@
 ---
 description: "Learn more about: Batch Message Processing"
 title: "Batch Message Processing"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "examples, batching"
-  - "batching, examples"
-  - "batching, batch types"
-ms.assetid: 264f91b5-3e33-4b87-9da3-866eaa464b0f
-caps.latest.revision: 3
-
-
-
 ---
 # Batch Message Processing
 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) handles three types of HL7 2.X batch scenarios:  

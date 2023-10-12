@@ -1,25 +1,11 @@
 ---
 description: "Learn more about: Validation Tab"
 title: "Validation Tab"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
 f1_keywords: 
   - "btahl7.configurationexplorer.tab.validation"
-helpviewer_keywords: 
-  - "validating, configuring"
-  - "Validation tab [Configuration Explorer]"
-  - "configuring, validating"
-ms.assetid: 6d47d951-c70b-43f0-bde2-99978fa78709
-caps.latest.revision: 3
-
-
-
 ---
 # Validation Tab
 You use the **Validation** tab to select the message validation options for inbound and generated messages.  

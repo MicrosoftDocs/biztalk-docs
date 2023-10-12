@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Scaling a Production BizTalk Server Environment"
-title: "Scaling a Production BizTalk Server Environment | Microsoft Docs"
+title: "Scaling a Production BizTalk Server Environment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a972b983-5ec5-4a2a-934f-b2788ccd424e
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scaling a Production BizTalk Server Environment
 This section provides an overview of the lab environment that was used to perform load testing of a BizTalk Server solution, a summary of the load test results, and general observations and recommendations based upon the findings in the lab.  

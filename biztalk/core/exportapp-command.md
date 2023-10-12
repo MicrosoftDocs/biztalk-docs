@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: ExportApp Command"
-title: "ExportApp Command | Microsoft Docs"
+title: "ExportApp Command"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6217d0f1-cf39-4520-87c8-8d25b21865af
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # ExportApp Command
 Exports a BizTalk application to an .msi file. If an .msi file having the same file name and path already exists, the existing .msi file is overwritten.  

@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Receive Inbound Operations from the SAP System Using the WCF Channel Model"
-title: "Receive Inbound Operations from the SAP System Using the WCF Channel Model | Microsoft Docs"
+title: "Receive Inbound Operations from the SAP System Using the WCF Channel Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF channel model, streaming inbound flat-file IDOCs"
-  - "WCF channel model, receiving inbound operations from the SAP system"
-  - "WCF channel model, raising an exception"
-ms.assetid: d71d0537-fda4-44ab-85dc-6e27aad23caf
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Receive Inbound Operations from the SAP System Using the WCF Channel Model
 To act as an RFC server and receive operations invoked by the SAP system (such as sending an IDOC or invoking an RFC), you must create a channel listener that can listen for messages from a SAP Program ID over a **System.ServiceModel.Channels.IReplyChannel** channel shape.  

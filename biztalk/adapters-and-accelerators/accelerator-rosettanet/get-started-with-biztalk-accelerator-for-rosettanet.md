@@ -1,22 +1,14 @@
 ---
-title: "Get started with BizTalk Accelerator for RosettaNet | Microsoft Docs"
+title: "Get started with BizTalk Accelerator for RosettaNet"
 description: See the available tutorials to help learn and get started with the RosettaNet accelerator (BTARN) in BizTalk Server
-caps.latest.revision: 7
-author: "MandiOhlinger"
-manager: "anneta"
-
 ms.custom: ""
 ms.date: "08/09/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords:
   - "btarn.configuration.introduction"
-ms.assetid: 28a8942c-b461-4b2f-bc1f-1fc22cd08882
-ms.author: "mandia"
-
 ---
 # Get started with BizTalk Accelerator for RosettaNet
 The Microsoft BizTalk Accelerator for RosettaNet (BTARN) streamlines the development and deployment of RosettaNet standards-based integration solutions. [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] supports the RosettaNet Implementation Framework (RNIF) versions 1.1 and 2.0.01. RNIF is an open network application framework that enables business partners to collaboratively run RosettaNet Partner Interface Processes (PIPs). For more information about the RosettaNet standard, see [GS1 US](https://www.gs1us.org/resources/rosettanet).

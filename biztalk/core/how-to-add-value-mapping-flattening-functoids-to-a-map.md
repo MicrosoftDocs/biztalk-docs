@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Add Value Mapping (Flattening) Functoids to a Map"
-title: "How to Add Value Mapping (Flattening) Functoids to a Map | Microsoft Docs"
+title: "How to Add Value Mapping (Flattening) Functoids to a Map"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 00a447c3-58d0-42ab-a5c4-417ee7800a6b
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add Value Mapping (Flattening) Functoids to a Map
 The **Value Mapping (Flattening)** functoid enables you to flatten a portion of an input instance message by converting multiple records into a single record. This is a common operation in converting Microsoft Commerce Server catalogs.  

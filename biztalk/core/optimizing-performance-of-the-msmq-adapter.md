@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Optimizing Performance of the MSMQ Adapter"
-title: "Optimizing Performance of the MSMQ Adapter | Microsoft Docs"
+title: "Optimizing Performance of the MSMQ Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "MSMQ adapters, performance"
-  - "performance, MSMQ adapters"
-  - "configuring [MSMQ adapters], performance"
-ms.assetid: f8537ea8-a96e-4874-bcaf-cd1442a50bd4
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Optimizing Performance of the MSMQ Adapter
 Optimization of the MSMQ adapter differs between the send and receive sides. You control optimization on the receive side by setting a property on the receive location. On the send side, you can control optimization by using an orchestration.  

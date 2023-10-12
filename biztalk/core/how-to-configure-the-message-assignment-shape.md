@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Message Assignment Shape"
-title: "How to Configure the Message Assignment Shape | Microsoft Docs"
+title: "How to Configure the Message Assignment Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Message Assignment shape [Orchestration Designer], configuring"
-  - "Message Assignment shape [Orchestration Designer], about Message Assignment shape"
-  - "configuring [Orchestration Designer], Message Assignment shape"
-  - "Message Assignment shape [Orchestration Designer]"
-ms.assetid: 46920b49-5955-4e15-9a7c-2652e02ba1bf
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Message Assignment Shape
 ![Image that represents the Message Assignment shape.](../core/media/ebiz-orch-assign.gif "ebiz_orch_assign")  

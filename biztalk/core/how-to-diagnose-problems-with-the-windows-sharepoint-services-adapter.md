@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Diagnose Problems with the Windows SharePoint Services Adapter"
-title: "How to Diagnose Problems with the Windows SharePoint Services Adapter | Microsoft Docs"
+title: "How to Diagnose Problems with the Windows SharePoint Services Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 55c29569-3814-43a7-93f8-a39c3464a831
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Diagnose Problems with the Windows SharePoint Services Adapter
 This section contains steps that can be followed to help diagnose problems with the Windows Sharepoint Services adapter.  

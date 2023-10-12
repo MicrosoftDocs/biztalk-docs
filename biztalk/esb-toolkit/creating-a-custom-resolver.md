@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating a Custom Resolver"
-title: "Creating a Custom Resolver | Microsoft Docs"
+title: "Creating a Custom Resolver"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d2775460-8e04-40be-9557-8278336b031c
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating a Custom Resolver
 The Resolver and Adapter Provider Framework implementation in [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] uses a pipeline component named Dispatcher and pipelines named ItineraryReceive and ItinerarySend.

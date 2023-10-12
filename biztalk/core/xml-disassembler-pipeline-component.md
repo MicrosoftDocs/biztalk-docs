@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: XML Disassembler Pipeline Component"
-title: "XML Disassembler Pipeline Component | Microsoft Docs"
+title: "XML Disassembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "XML Disassembler [pipeline component], about XML Disassembler"
-  - "pipeline components, XML Disassembler"
-  - "XML Disassembler [pipeline component]"
-ms.assetid: ef39b695-6ae7-401d-be1e-b066048c34e9
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # XML Disassembler Pipeline Component
 The XML Disassembler pipeline component combines XML parsing and disassembling into one component. Its primary functions are:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Checklist: Optimizing Performance on Hyper-V"
-title: "Checklist: Optimizing Performance on Hyper-V | Microsoft Docs"
+title: "Checklist: Optimizing Performance on Hyper-V"
 ms.custom: ""
 ms.date: "06/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 942a61eb-0fdd-4c8b-b0ad-d32951f0f631
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklist: Optimizing Performance on Hyper-V
 The following considerations apply when running BizTalk Server and/or the [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] instance(s) that have the BizTalk Server databases on Hyper-V virtual machines.

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Host Environment (Pipeline Conversion Library Wizard)"
-title: "Host Environment (Pipeline Conversion Library Wizard)1 | Microsoft Docs"
+title: "Host Environment (Pipeline Conversion Library Wizard)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 551d7b04-dfa3-4ce6-86d3-9bd30bc5b6a4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Host Environment (Pipeline Conversion Library Wizard)
 Use this page to identify the data format characteristics of the host.  

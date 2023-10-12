@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Lesson 4: Adding the SWIFT Assembler and Disassembler to the Toolbox"
-title: "Lesson 4: Adding the SWIFT Assembler and Disassembler to the Toolbox | Microsoft Docs"
+title: "Lesson 4: Adding the SWIFT Assembler and Disassembler to the Toolbox"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "toolbox, adding disassembler"
-  - "assembler, adding to toolbox"
-  - "toolbox, adding assembler"
-  - "disassembler, adding to toolbox"
-ms.assetid: 8c9c9b1e-48fc-4af0-b7c5-bd54e2de9951
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Lesson 4: Adding the SWIFT Assembler and Disassembler to the Toolbox
 In this lesson, you add references to the SWIFT assembler (ASM) and disassembler (DASM) so that these components are available in the toolbox when using BizTalk Pipeline Designer.  

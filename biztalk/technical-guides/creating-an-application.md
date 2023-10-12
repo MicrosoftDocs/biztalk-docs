@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating an Application"
-title: "Creating an Application | Microsoft Docs"
+title: "Creating an Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7b6e325c-a86f-419d-9a27-864f4f035507
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating an Application
 There are three ways to create a BizTalk application. There are also several options for naming, referencing, and deploying artifacts to applications.

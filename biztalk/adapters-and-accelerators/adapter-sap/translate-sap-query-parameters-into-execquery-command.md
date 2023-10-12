@@ -1,19 +1,12 @@
 ---
-title: "Translate SAP query parameters into EXECQUERY commands in mySAP adapter in BizTalk | Microsoft Docs"
+title: "Translate SAP query parameters into EXECQUERY commands in mySAP adapter in BizTalk"
 description: Guidance to translate SAP query to EXECQUERY, with examples
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8a545e20-2607-4946-a60d-0a227b86d093
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Translate SAP query parameters into EXECQUERY command
 Explains how the parameters of a query translate into an EXECQUERY command text. This topic uses the example of a custom SAP query, ZQUERY_TST_NEW.  

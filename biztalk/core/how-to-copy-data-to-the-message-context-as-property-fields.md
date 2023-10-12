@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Copy Data to the Message Context as Property Fields"
-title: "How to Copy Data to the Message Context as Property Fields | Microsoft Docs"
+title: "How to Copy Data to the Message Context as Property Fields"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4fdfe475-d9b4-4cf9-898f-dbd7e719c27c
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Copy Data to the Message Context as Property Fields
 You can promote a property as a **Property Field** in much the same way as promoting a property as a **Distinguished Field**, and you can also use the **Quick Promotion** feature to streamline the process.  

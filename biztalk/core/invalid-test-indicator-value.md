@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid Test Indicator Value"
-title: "Invalid Test Indicator Value | Microsoft Docs"
+title: "Invalid Test Indicator Value"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5d81d501-4020-4ff9-955c-5674a99d250b
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid Test Indicator Value
 ## Details  

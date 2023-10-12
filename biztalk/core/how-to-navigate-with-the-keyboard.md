@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Navigate with the Keyboard"
-title: "How to Navigate with the Keyboard | Microsoft Docs"
+title: "How to Navigate with the Keyboard"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Pipeline Designer, keyboard shortcuts"
-  - "keyboard shortcuts, Pipeline Designer"
-ms.assetid: 2e41bdfc-98ee-45d8-9d94-8d3dbf6d1194
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Navigate with the Keyboard
 You can navigate through the design surface by using your keyboard instead of your mouse. The following table shows the keys that you can use.  

@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: ReceiveLocation (ReceiveLocations Node)"
-title: "ReceiveLocation (ReceiveLocations Node) | Microsoft Docs"
+title: "ReceiveLocation (ReceiveLocations Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ReceiveLocation node [binding file]"
-ms.assetid: 706ec5b2-c26f-428a-ad56-1c01b34aa8f8
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # ReceiveLocation (ReceiveLocations Node)
 The ReceiveLocation node of the ReceiveLocations node of a binding file contains specific information about a receive location that is exported with the binding file.  

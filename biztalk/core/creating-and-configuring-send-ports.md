@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Creating and Configuring Send Ports"
-title: "Quick links to create and configure send ports | Microsoft Docs"
+title: "Quick links to create and configure send ports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0b26ed07-b7ed-48a5-9bd9-dfba9c1d3c02
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating and Configuring Send Ports
 

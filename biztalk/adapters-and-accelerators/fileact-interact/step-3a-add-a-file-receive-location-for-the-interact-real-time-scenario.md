@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3A: Add a FILE Receive Location for the InterAct Real-Time Scenario"
-title: "Step 3A: Add a FILE Receive Location for the InterAct Real-Time Scenario | Microsoft Docs"
+title: "Step 3A: Add a FILE Receive Location for the InterAct Real-Time Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e5579375-8c05-4583-bcaa-b483ac275d8a
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3A: Add a FILE Receive Location for the InterAct Real-Time Scenario
 Set up a receive location that enables you to easily drop test files for validation. You use this location to test the scenario.  

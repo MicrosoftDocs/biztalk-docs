@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: HelloWorld (BizTalk Server Sample)"
-title: "HelloWorld (BizTalk Server Sample) | Microsoft Docs"
+title: "HelloWorld (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, examples"
-  - "examples, orchestrations"
-  - "orchestrations, messages"
-ms.assetid: 4416029a-ca76-45a4-b66c-b44cb71ded58
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # HelloWorld (BizTalk Server Sample)
 The HelloWorld sample demonstrates how to use BizTalk orchestrations to convert an XML message (a purchase order) into a related, but distinct, type of message (an invoice).  

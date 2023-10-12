@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Defining Business Activities and Views in Excel"
-title: "Defining Business Activities and Views in Excel | Microsoft Docs"
+title: "Defining Business Activities and Views in Excel"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Excel add-in [BAM], creating business activities"
-  - "monitoring business activities [BAM], creating business activities"
-ms.assetid: 000532f0-cb9a-40ac-a6c5-a8bd4e49f8d0
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Defining Business Activities and Views in Excel
 Your first step in creating any BAM solution is to identify what data you're interested in and how that data should be interpreted. To do this, you use the BAM Add-in for Excel. The add-in allows you to define a wish-list of the data of interest by defining a business activity. You can also define the way the data should be interpreted and shown to different categories of business users.  

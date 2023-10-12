@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Uninstall or repair the FileAct and InterAct adapter"
-title: "Uninstall or repair the FileAct and InterAct adapter | Microsoft Docs"
+title: "Uninstall or repair the FileAct and InterAct adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 657b6afc-1e5e-40bb-86c5-17ffbc95be8b
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Uninstall or repair the FileAct and InterAct adapter
 Steps to uninstall or repair the BizTalk FileAct and InterAct adapter.  

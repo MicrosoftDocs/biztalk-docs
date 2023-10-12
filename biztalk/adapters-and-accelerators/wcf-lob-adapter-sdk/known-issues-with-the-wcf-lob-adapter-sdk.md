@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known issues with the WCF LOB Adapter SDK"
-title: "Known issues with the WCF LOB Adapter SDK | Microsoft Docs"
+title: "Known issues with the WCF LOB Adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2cda4248-2efa-4e3d-a5ce-9a57728c51e1
-caps.latest.revision: 35
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known issues with the WCF LOB Adapter SDK
 This topic describes known issues associated with the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]. It also provides resolutions for some of these issues.  

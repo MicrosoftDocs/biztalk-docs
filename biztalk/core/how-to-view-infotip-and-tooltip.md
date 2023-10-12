@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to View Infotip and Tooltip"
-title: "How to View Infotip and Tooltip | Microsoft Docs"
+title: "How to View Infotip and Tooltip"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5621bd0a-7028-43fc-b6e8-74a528129285
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to View Infotip and Tooltip
 When you move the cursor over a map item without clicking it, a screen tip appears with useful information about that item.  

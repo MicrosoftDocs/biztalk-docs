@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Close(STATION) Request"
-title: "Close(STATION) Request2 | Microsoft Docs"
+title: "Close(STATION) Request2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 361ada8f-65e0-4b8a-af77-dd4f53d5020b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Close(STATION) Request
 Flow : NODE ------> DLC  

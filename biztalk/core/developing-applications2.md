@@ -1,19 +1,12 @@
 ---
-title: "Create application artifacts for JD Edwards EnterpriseOne | Microsoft Docs"
+title: "Create application artifacts for JD Edwards EnterpriseOne"
 description: Learn how to create BizTalk Server applications and work with the BizTalk Adapter for JD Edwards EnterpriseOne.
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a554c3bb-3613-4bb6-b627-3c1bb5265065
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create your application artifacts
 

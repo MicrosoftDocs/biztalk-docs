@@ -1,19 +1,12 @@
 ---
-title: "Create MSMQ Receive Locations and Send Ports from Code | Microsoft Docs"
+title: "Create MSMQ Receive Locations and Send Ports from Code"
 description: Programmatically create MSMQ receive locations and send ports in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6ebb4119-deeb-4287-aa65-7597ff0cc435
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create MSMQ Receive Locations and Send Ports programmatically
 This topic explains how to use WMI to create a port or location for the MSMQ adapter.  

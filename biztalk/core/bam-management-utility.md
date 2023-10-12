@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: BAM Management Utility"
-title: "BAM Management Utility | Microsoft Docs"
+title: "BAM Management Utility"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c55aabe2-f38b-4917-863c-b408a4eef98e
-caps.latest.revision: 50
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BAM Management Utility
 Administrators of Business Activity Monitoring (BAM) definitions use the BAM Management utility to manage and maintain all aspects of the BAM infrastructure.  

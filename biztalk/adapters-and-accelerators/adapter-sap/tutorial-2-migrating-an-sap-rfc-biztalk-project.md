@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Tutorial 2: Migrating an SAP RFC BizTalk Project"
-title: "Tutorial 2: Migrating an SAP RFC BizTalk Project | Microsoft Docs"
+title: "Tutorial 2: Migrating an SAP RFC BizTalk Project"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "migrating, BizTalk project from previous version of the SAP adapter"
-  - "migration"
-  - "migrating, SAP RFC BizTalk project"
-ms.assetid: b4943613-23d2-4869-b033-ec07daabfac5
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorial 2: Migrating an SAP RFC BizTalk Project
 The previous version of the SAP adapter that shipped with Microsoft BizTalk Server differs from the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in many aspects, including:  

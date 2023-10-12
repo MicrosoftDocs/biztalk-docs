@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Developing BizTalk Server Applications"
-title: "Developing BizTalk Server Applications | Microsoft Docs"
+title: "Developing BizTalk Server Applications"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 99b56f86-d8e4-4f4a-9ce9-9f476ba88ea8
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Developing BizTalk Server Applications
 This section contains information for developers who are tasked with creating BizTalk projects. Projects are created using the BizTalk project System Design Environment, which allows you to design, organize, and build the various elements of BizTalk applications. The following sections describe this process in detail.  

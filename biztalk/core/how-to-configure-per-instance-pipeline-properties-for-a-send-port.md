@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: How to Configure Per-Instance Pipeline Properties for a Send Port"
-title: "How to Configure Per-Instance Pipeline Properties for a Send Port | Microsoft Docs"
+title: "How to Configure Per-Instance Pipeline Properties for a Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipelines, properties"
-  - "managing [pipelines], properties"
-  - "configuring, send ports"
-  - "configuring, pipelines"
-  - "managing [pipelines], configuring"
-  - "managing [send ports], pipelines"
-  - "managing [send ports], configuring"
-  - "send ports, pipelines"
-  - "pipelines, configuring"
-ms.assetid: c58faa9e-0dfb-458b-8f1b-d3c91bce0436
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Per-Instance Pipeline Properties for a Send Port
 This topic describes how to use the BizTalk Server Administration console to configure pipeline properties for a send port after the pipeline has been deployed into a BizTalk group. Changes that you make overwrite the default pipeline properties for this send port only, so if you want, you can configure different pipeline properties for each send port in the BizTalk group.  

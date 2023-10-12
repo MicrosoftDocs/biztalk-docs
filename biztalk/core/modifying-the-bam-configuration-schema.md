@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Modifying the BAM Configuration Schema"
-title: "Modifying the BAM Configuration Schema | Microsoft Docs"
+title: "Modifying the BAM Configuration Schema"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuration schema [BAM]"
-  - "managing [BAM], configuration schema"
-  - "BAMConfiguration.xml file"
-ms.assetid: 8901fb05-1519-4033-8489-67a9b745ed43
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Modifying the BAM Configuration Schema
 The Configuration Wizard creates this configuration file automatically. You must modify this file manually if you change your server names or other configuration information after you complete the deployment.  

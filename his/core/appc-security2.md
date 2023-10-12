@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: APPC Security"
-title: "APPC Security2 | Microsoft Docs"
+title: "APPC Security2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5b3cc852-bcd1-4254-bb68-64beff6e9d34
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # APPC Security
 Owners of APPC transaction programs may want to allow only a limited set of users to start the program. APPC provides a mechanism, called APPC conversation security, by which the client transaction program identifies its user to the server system.  

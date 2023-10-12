@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: collationName"
-title: "collationName | Microsoft Docs"
+title: "collationName"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7b5d3f07-9ee7-472b-b160-30e5d4cdea1a
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # collationName
 The collationName element must contain a from attribute and a to attribute to define a collation name mapping.  

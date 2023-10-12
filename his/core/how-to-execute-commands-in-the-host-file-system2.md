@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Execute Commands in the Host File System"
-title: "How to Execute Commands in the Host File System2 | Microsoft Docs"
+title: "How to Execute Commands in the Host File System2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5c09dd5f-8749-4e17-8e03-f9d3ced57ca3
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Execute Commands in the Host File System
 After establishing a connection to a data source, you can execute commands and return results from the data source using `HostFileCommand`.  

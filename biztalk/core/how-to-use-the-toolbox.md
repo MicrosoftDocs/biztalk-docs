@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Use the Toolbox"
-title: "How to Use the Toolbox | Microsoft Docs"
+title: "How to Use the Toolbox"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "creating, pipelines"
-  - "pipeline components, deleting from toolbox"
-  - "pipeline components, Pipeline Designer"
-  - "pipeline components, adding to toolbox"
-  - "Pipeline Designer, toolbox"
-  - "pipelines, creating"
-ms.assetid: 7a60c590-1a38-46fe-addf-0aa2c8b63cf9
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use the Toolbox
 You create a pipeline by dragging components (shapes) from the Toolbox to the design surface. Pipeline Designer helps you assemble valid pipelines by placing certain restrictions on the creation process. You can only select Toolbox components that apply to the pipeline type you are creating. For example, a receive pipeline will show decoders, disassemblers, and validators as valid Toolbox components, while encoders and assemblers will be disabled (dimmed).  

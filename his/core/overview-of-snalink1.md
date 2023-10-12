@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Overview of SNALink"
-title: "Overview of SNALink1 | Microsoft Docs"
+title: "Overview of SNALink1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b7372d2a-e79c-48bd-9cfb-c0bc709b8b58
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Overview of SNALink
 A Host Integration Server SNALink must implement an SNA-compatible data transport mechanism capable of connecting the local type 2.1 node to remote host (PU4/5) or peer (PU2.1) systems.  

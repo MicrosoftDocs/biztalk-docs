@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: XML Information Set Elements in the XML Assembler Pipeline Component"
-title: "XML Information Set Elements in the XML Assembler Pipeline Component | Microsoft Docs"
+title: "XML Information Set Elements in the XML Assembler Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "XML Assembler [pipeline component], processing instructions"
-  - "Add XML declaration property"
-  - "XMLNorm.AddXMLDeclaration property"
-  - "pipeline components, XML Assembler"
-  - "XML Assembler [pipeline component], XML information set"
-ms.assetid: 5a262763-838e-476b-8117-30c94bc1d64a
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # XML Information Set Elements in the XML Assembler Pipeline Component
 The XML Assembler component handles XML information set elements as follows.  

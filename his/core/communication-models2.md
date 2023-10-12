@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Communication Models"
-title: "Communication Models2 | Microsoft Docs"
+title: "Communication Models2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 74c01f9f-fd00-4309-b773-89ba3c3da816
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Communication Models
 Transaction Integrator (TI) supports the following communication protocols for interacting with the host computer. These protocols are limited to singlerequest/single response. However, the request and response can consist of multiple data segments in the case of unbounded recordsets.  

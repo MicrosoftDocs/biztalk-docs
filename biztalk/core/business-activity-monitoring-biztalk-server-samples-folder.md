@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Business Activity Monitoring (BizTalk Server Samples Folder)"
-title: "Business Activity Monitoring (BizTalk Server Samples Folder) | Microsoft Docs"
+title: "Business Activity Monitoring (BizTalk Server Samples Folder)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples, BAM"
-  - "SDK examples"
-  - "BAM, examples"
-ms.assetid: 670931dd-ed00-477d-ade9-36c866f9234c
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Business Activity Monitoring (BizTalk Server Samples Folder)
 Microsoft BizTalk Server includes several Business Activity Monitoring (BAM) samples in its software development kit (SDK). This section provides detailed information about the functionality demonstrated by each BAM sample, instructions for building and running the sample, and the results you can expect.  

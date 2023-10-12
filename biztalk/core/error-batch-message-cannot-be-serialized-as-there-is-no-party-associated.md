@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Batch message cannot be serialized as there is no party associated with send port"
-title: "Batch message cannot be serialized as there is no party associated with send port | Microsoft Docs"
+title: "Batch message cannot be serialized as there is no party associated with send port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d697ff9c-a6d1-4a3c-9ec3-4cd496f7eec2
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Batch message cannot be serialized as there is no party associated with send port
 ## Details  

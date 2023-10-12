@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: WCF-NetTcpRelay Adapter"
-title: "WCF-NetTcpRelay Adapter | Microsoft Docs"
+title: "WCF-NetTcpRelay Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7f6c6afc-6aa9-4962-91e6-1fcd92744534
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # WCF-NetTcpRelay Adapter
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the **WCF-NetTcpRelay** adapter to receive and send WCF service requests through the [NetTcpRelayBinding class](/dotnet/api/microsoft.servicebus.nettcprelaybinding).  

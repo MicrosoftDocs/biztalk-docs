@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IMS LU6.2 User Data"
-title: "IMS LU6.2 User Data1 | Microsoft Docs"
+title: "IMS LU6.2 User Data1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7abcc217-664e-4c41-8860-7267fd4b7542
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IMS LU6.2 User Data
 The IMS LU6.2 programming model provides access to IMS transactions using LU6.2.  

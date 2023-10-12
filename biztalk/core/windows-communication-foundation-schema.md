@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Windows Communication Foundation Schema"
-title: "Windows Communication Foundation Schema | Microsoft Docs"
+title: "Windows Communication Foundation Schema"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e95e0e8d-82cf-4608-b54f-188cb8cdaaee
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Windows Communication Foundation Schema
 This section contains the schema for the Windows Communication Framework interceptor.  

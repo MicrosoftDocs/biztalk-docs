@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: REQUEST_TO_SEND"
-title: "REQUEST_TO_SEND1 | Microsoft Docs"
+title: "REQUEST_TO_SEND1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dde56a43-0701-4112-b8f4-218e39ab4508
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # REQUEST_TO_SEND
 The **REQUEST_TO_SEND** verb notifies the partner transaction program (TP) that the local TP wants to send data.  

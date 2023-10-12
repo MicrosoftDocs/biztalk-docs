@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Transaction Integrator Threat Mitigation"
-title: "Transaction Integrator Threat Mitigation2 | Microsoft Docs"
+title: "Transaction Integrator Threat Mitigation2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 68854feb-caab-488f-83f0-2da7d2e4cb01
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Transaction Integrator Threat Mitigation
 Product security is a top priority across Microsoft. Beginning with the Windows Security Push in 2002, Microsoft has invested additional time and resources to developing more secure code and detailed instructions for deploying and securing your computing environment. The [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] product team conducted a complete threat modeling analysis to identify and mitigate potential areas of concern. A threat model is a security-based analysis that helps you determine the highest-level security risks posed to a product or application and how attacks can manifest themselves.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Host EBCDIC Mixed SBCS and DBCS with TrnsDT"
-title: "Host EBCDIC Mixed SBCS and DBCS with TrnsDT2 | Microsoft Docs"
+title: "Host EBCDIC Mixed SBCS and DBCS with TrnsDT2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 44f187a2-cb40-46b7-be45-654c336ea6e5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Host EBCDIC Mixed SBCS and DBCS with TrnsDT
 The following table shows the character code set identifiers (CCSIDs) for EBCDIC mixed single byte character sets (SBCS) and double byte character sets (DBCS) supported by TrnsDT in Host Integration Server.  

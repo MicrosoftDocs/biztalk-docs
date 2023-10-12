@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Conditional required data element missing"
-title: "Conditional required data element missing | Microsoft Docs"
+title: "Conditional required data element missing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a5105c03-fa26-4c38-a276-c656f3076d5f
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Conditional required data element missing
 ## Details  

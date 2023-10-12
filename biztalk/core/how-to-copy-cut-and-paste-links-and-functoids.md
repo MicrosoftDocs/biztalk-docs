@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Copy, Cut, and Paste Links and Functoids"
-title: "How to Copy, Cut, and Paste Links and Functoids | Microsoft Docs"
+title: "How to Copy, Cut, and Paste Links and Functoids"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 80b4792a-5ff6-4603-96cd-b3d3d530c12f
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Copy, Cut, and Paste Links and Functoids
 The copy/cut/paste feature in the BizTalk Mapper enables the reusability of a relationship. This topic provides step-by-step instructions to copy, cut, and paste functoids and/or links in a map.  

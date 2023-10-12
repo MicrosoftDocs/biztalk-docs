@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10836"
-title: "Single Sign-On: Event 10836 | Microsoft Docs"
+title: "Single Sign-On: Event 10836"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 91286e48-5f1b-46ef-9f65-88744d6f51bc
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10836
 ## Details  

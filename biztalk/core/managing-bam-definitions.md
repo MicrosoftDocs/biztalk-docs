@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Managing BAM Definitions"
-title: "Managing BAM Definitions | Microsoft Docs"
+title: "Managing BAM Definitions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [BAM definitions]"
-  - "definitions [BAM], managing"
-  - "definition files [BAM], managing"
-  - "managing [BAM], definitions"
-  - "managing [BAM definitions], about managing BAM definitions"
-ms.assetid: 7aba0e40-b8d3-4afc-9e4c-92392f1f6269
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Managing BAM Definitions
 A BAM definition is part of the BAM infrastructure. It defines the data to track and aggregate, as well as the business end user's view on the tracking data. The topics in this section give procedures for managing the elements of BAM definitions, which include activities, views, artifacts, and alerts.  

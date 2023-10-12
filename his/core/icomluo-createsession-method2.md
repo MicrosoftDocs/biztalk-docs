@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IcomLUO.CreateSession Method"
-title: "IcomLUO.CreateSession Method2 | Microsoft Docs"
+title: "IcomLUO.CreateSession Method2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6b382107-6258-499c-b6d8-f84ae0fb289e
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IcomLUO.CreateSession Method
 Creates a new LU0 session.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Troubleshoot installation issues with the Oracle Database adapter"
-title: "Troubleshoot installation issues with the Oracle Database adapter | Microsoft Docs"
+title: "Troubleshoot installation issues with the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "installation issues, troubleshooting"
-  - "troubleshooting, installation issues"
-ms.assetid: 2054b725-d657-4039-b83b-119571935f62
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshoot installation issues with the Oracle Database adapter
 Installation of the Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] copies the product binaries on the computer and registers the bindings for each adapter. This section discusses using troubleshooting techniques to resolve installation errors, and also lists some known issues.

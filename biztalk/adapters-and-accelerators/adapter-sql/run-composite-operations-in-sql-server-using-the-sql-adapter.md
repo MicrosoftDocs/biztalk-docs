@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Run composite operations in SQL Server  using the SQL adapter"
-title: "Run composite operations in SQL Server  using the SQL adapter | Microsoft Docs"
+title: "Run composite operations in SQL Server  using the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 906c6352-44f3-4624-9e32-aea3fbb7510d
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run composite operations in SQL Server  using the SQL adapter
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] enables adapter clients to perform composite operations on the SQL Server database. A composite operation can include any number of the following operations, and in any order:  

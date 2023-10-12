@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MC_TEST_RTS"
-title: "MC_TEST_RTS2 | Microsoft Docs"
+title: "MC_TEST_RTS2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b0fe3a3f-ce17-4d71-8a70-13ee5fefdf32
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MC_TEST_RTS
 The **MC_TEST_RTS** verb determines whether a request-to-send notification has been received from the partner transaction program (TP).  

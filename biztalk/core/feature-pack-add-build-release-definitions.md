@@ -1,17 +1,12 @@
 ---
-title: Step 3 - Create the build definitions | Microsoft Docs
+title: Step 3 - Create the build definitions
 description: In Azure DevOps, create a build definition to build the projects within your git or TFS repository
 ms.custom: ""
 ms.date: "9/20/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-author: MandiOhlinger
-ms.author: mandia
-manager: "anneta"
 ---
 
 # Step 3: Create the build definition

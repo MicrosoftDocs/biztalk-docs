@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: SAPClientFactory class in the SAP adapter"
-title: "SAPClientFactory class in the SAP adapter | Microsoft Docs"
+title: "SAPClientFactory class in the SAP adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SAPClientFactory, supported methods and classes"
-ms.assetid: e64de5e4-e53f-4708-ab02-9e12774e94cd
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SAPClientFactory class in the SAP adapter
 The following section lists the methods and properties for the **SAPClientFactory** class. This is derived from **System.Data.Common.DbProviderFactory**.  

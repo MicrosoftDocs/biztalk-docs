@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Handling Externally Submitted Exceptions Using a Custom Handler"
-title: "Handling Externally Submitted Exceptions Using a Custom Handler | Microsoft Docs"
+title: "Handling Externally Submitted Exceptions Using a Custom Handler"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 53fa661e-d391-47c0-92d5-1d0c45b5963d
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Handling Externally Submitted Exceptions Using a Custom Handler
 In this use case, an external client submits an exception message through a Web service. A send port, preconfigured with the ESB Exception Encoder pipeline component, subscribes to the fault message; it processes and persists it as a disk file that you can view using Microsoft InfoPath, as shown in Figure 1.  

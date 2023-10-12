@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Trading Partner Management Using BizTalk Server"
-title: "Trading Partner Management Using BizTalk Server | Microsoft Docs"
+title: "Trading Partner Management Using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f31a5e49-ef19-41a3-9cf3-cf85d0685a59
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Trading Partner Management Using BizTalk Server
 ## Introduction to TPM

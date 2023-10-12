@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Sequential Convoys"
-title: "Sequential Convoys | Microsoft Docs"
+title: "Sequential Convoys"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "convoy sets"
-  - "correlation sets, sequential receive tasks"
-ms.assetid: f05ff42c-2236-42a3-8166-19700e0c3d97
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Sequential Convoys
 A sequential convoy enables multiple single messages to join together to achieve a required result. A sequential convoy is a set of related messages that have a predefined order. Although the messages do not have to be exactly the same, BizTalk Server must receive them in a sequential order.  

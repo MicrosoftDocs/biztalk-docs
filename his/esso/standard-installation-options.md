@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Standard Installation Options"
-title: "Standard Installation Options | Microsoft Docs"
+title: "Standard Installation Options"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cb3d7d39-39b3-4f8c-a577-67ecde7fd015
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Standard Installation Options
 Host Integration Server takes advantage of the Enterprise Single Sign-On (SSO) capabilities for securely storing critical information.  

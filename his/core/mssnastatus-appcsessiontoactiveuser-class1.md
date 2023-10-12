@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_APPCSessionToActiveUser Class"
-title: "MsSnaStatus_APPCSessionToActiveUser Class1 | Microsoft Docs"
+title: "MsSnaStatus_APPCSessionToActiveUser Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f505c0f7-57c4-441a-a97a-9ecfea867c26
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_APPCSessionToActiveUser Class
 The **MsSnaStatus_APPCSessionToActiveUser** class represents an association between a User connection and an APPC session.  

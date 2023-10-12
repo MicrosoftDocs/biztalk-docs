@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Data Clients Tracing"
-title: "Data Clients Tracing | Microsoft Docs"
+title: "Data Clients Tracing"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 54c04404-7c81-4c86-94b4-b7ef844cca85
-caps.latest.revision: 6
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Data Clients Tracing
 There are multiple options for tracing, which can help to capture problems in the consumer, service components, provider, networking and host data source.

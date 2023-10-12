@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Tracing for TN5250"
-title: "Tracing for TN52501 | Microsoft Docs"
+title: "Tracing for TN52501"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: de49e4a2-4146-4f76-83db-2fab7d78ed10
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Tracing for TN5250
 You can enable or disable tracing for TN5250 using the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Trace application. Host Integration Server Trace provides API, internal, and message tracing.  

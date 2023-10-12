@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Run Operations on Business Components Using BizTalk Server and the Siebel adapter"
-title: "Run Operations on Business Components Using BizTalk Server and the Siebel adapter | Microsoft Docs"
+title: "Run Operations on Business Components Using BizTalk Server and the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "business components, performing operations by using BizTalk Server"
-  - "how to, perform operations on a business component by using BizTalk Server"
-ms.assetid: 5bd0f4d7-60ec-42ea-84c0-618aeef9688f
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run Operations on Business Components Using BizTalk Server and the Siebel adapter
 The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces operations that can be invoked on a business component. The operations on business components can be categorized as:  

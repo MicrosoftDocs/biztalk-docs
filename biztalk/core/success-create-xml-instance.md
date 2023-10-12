@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Success - Create XML Instance"
-title: "Success - Create XML Instance | Microsoft Docs"
+title: "Success - Create XML Instance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.info.createXmlInstance"
-ms.assetid: 0eb13c4b-865e-4824-8fcf-0eee8b20024a
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Success - Create XML Instance
 **Explanation**  

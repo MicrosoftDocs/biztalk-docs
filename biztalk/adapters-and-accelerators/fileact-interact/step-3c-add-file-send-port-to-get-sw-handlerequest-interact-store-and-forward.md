@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct Store and Forward"
-title: "Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct Store and Forward | Microsoft Docs"
+title: "Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct Store and Forward"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c872b4be-ef8b-4e42-b5ef-63dfd120793f
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct Store and Forward
 Before you begin this step, you must complete [Step 3B: Add an INTERACT Receive Location for the InterAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-3b-add-interact-receive-location-for-interact-store-and-forward-scenario.md).  

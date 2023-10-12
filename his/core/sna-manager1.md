@@ -1,18 +1,12 @@
 ---
-title: "SNA Manager | Microsoft Docs"
+title: "SNA Manager"
 description: Use SNA Manager to open a subdomain, configure the HIS server properties, and configure the SNA service properties for Host Integration Server
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8c33be37-ef9b-43d6-b327-3d2da7ff120e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SNA Manager
 

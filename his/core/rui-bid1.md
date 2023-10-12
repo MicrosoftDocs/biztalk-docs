@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: RUI_BID"
-title: "RUI_BID1 | Microsoft Docs"
+title: "RUI_BID1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 601af589-2cac-4594-990c-07ed54749c47
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # RUI_BID
 The **RUI_BID** verb notifies the Request Unit Interface (RUI) application that a message is waiting to be read using [RUI_READ](../core/rui-read2.md).  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOConfigDB Members"
-title: "ISSOConfigDB Members | Microsoft Docs"
+title: "ISSOConfigDB Members"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c743aa70-611b-4f38-aeff-c5b9aa4f0f9e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOConfigDB Members
 The following table describes the **ISSOConfig DB** members.  

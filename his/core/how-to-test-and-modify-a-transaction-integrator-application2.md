@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Test and Modify a Transaction Integrator Application"
-title: "How to Test and Modify a Transaction Integrator Application2 | Microsoft Docs"
+title: "How to Test and Modify a Transaction Integrator Application2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c3598ab8-c418-45da-bd50-0bb476258665
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Test and Modify a Transaction Integrator Application
 After you have finished coding your application, you may test and modify your application. During this process, you may need to undeploy and modify the host file interface.  

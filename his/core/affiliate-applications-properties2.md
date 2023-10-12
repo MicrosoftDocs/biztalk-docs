@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Affiliate Applications Properties"
-title: "Affiliate Applications Properties2 | Microsoft Docs"
+title: "Affiliate Applications Properties2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 28ab80cf-fa8e-4ea8-84f9-ae11945e051d
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Affiliate Applications Properties
 Use these property pages to manage your Affiliate Applications.  

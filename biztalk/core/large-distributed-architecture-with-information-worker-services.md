@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Large Distributed Architecture with Information Worker Services"
-title: "Large Distributed Architecture with Information Worker Services | Microsoft Docs"
+title: "Large Distributed Architecture with Information Worker Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "architecture, examples"
-  - "architecture, large distributions"
-ms.assetid: 92f2d55c-3f51-42ca-99ef-60b23464691e
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Large Distributed Architecture with Information Worker Services
 For complete information about designing the system architecture for BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).  

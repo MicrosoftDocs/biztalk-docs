@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Finding Further Information about CPI-C"
-title: "Finding Further Information about CPI-C2 | Microsoft Docs"
+title: "Finding Further Information about CPI-C2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d7790c6f-1d35-4891-a4bd-cbdd7598e985
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Finding Further Information about CPI-C
 For information about SNA architecture, refer to your system network documentation.  

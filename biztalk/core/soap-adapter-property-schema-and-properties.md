@@ -1,43 +1,12 @@
 ---
 description: "Learn more about: SOAP Adapter Property Schema and Properties"
-title: "SOAP Adapter Property Schema and Properties | Microsoft Docs"
+title: "SOAP Adapter Property Schema and Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ProxyUsername property [SOAP adapters]"
-  - "ClientConnectionTimeout property [SOAP adapters]"
-  - "SOAP adapters, properties"
-  - "ProxyAddress property [SOAP adapters]"
-  - "UserDefined property [SOAP adapters]"
-  - "AssemblyName property [SOAP adapters]"
-  - "ClientCertificate property [SOAP adapters]"
-  - "AffiliateApplicationName property [SOAP adapters]"
-  - "schemas, SOAP adapters"
-  - "AuthenticationScheme property [SOAP adapters]"
-  - "UserName property, SOAP adapters"
-  - "UseProxy property [SOAP adapters]"
-  - "Password property [SOAP adapters]"
-  - "configuring [SOAP adapters], schemas"
-  - "UnknownHeaders property [SOAP adapters]"
-  - "configuring [SOAP adapters], properties"
-  - "UseSoap12 property [SOAP adapters]"
-  - "UseHandlerSetting property [SOAP adapters]"
-  - "SOAP adapters, schemas"
-  - "ProxyPassword property [SOAP adapters]"
-  - "UseSSO property [SOAP adapters]"
-  - "MethodName property [SOAP adapters]"
-  - "ProxyPort property [SOAP adapters]"
-ms.assetid: b471cf4b-2d87-4aa2-ae4a-f48517fd4c94
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SOAP Adapter Property Schema and Properties
 The following table lists the properties in the SOAP adapter property schema.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Assemblies and Artifacts Installed by the Multiple Web Services Sample"
-title: "Assemblies and Artifacts Installed by the Multiple Web Services Sample | Microsoft Docs"
+title: "Assemblies and Artifacts Installed by the Multiple Web Services Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d2976e7d-272a-4106-90b8-5161d71a22ce
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Assemblies and Artifacts Installed by the Multiple Web Services Sample
 The following table lists the assemblies and other artifacts installed for the Multiple Web Services sample.  

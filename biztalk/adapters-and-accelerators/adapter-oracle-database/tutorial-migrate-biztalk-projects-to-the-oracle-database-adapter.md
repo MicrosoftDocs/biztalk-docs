@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tutorial: Migrate BizTalk Projects to the Oracle Database adapter"
-title: "Tutorial: Migrate BizTalk Projects to the Oracle Database adapter | Microsoft Docs"
+title: "Tutorial: Migrate BizTalk Projects to the Oracle Database adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9a393219-bae8-4e08-acc8-76986600d0de
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorial: Migrate BizTalk Projects to the Oracle Database adapter
 The BizTalk ODBC Adapter for Oracle Database that shipped with Microsoft BizTalk Server differs from the WCF-based [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] in many aspects, including:  

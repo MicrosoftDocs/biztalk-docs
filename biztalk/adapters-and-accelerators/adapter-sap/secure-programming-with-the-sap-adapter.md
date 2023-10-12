@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Secure programming with the SAP adapter"
-title: "Secure programming with the SAP adapter | Microsoft Docs"
+title: "Secure programming with the SAP adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, considerations when programming on the adapter"
-  - "security, secure data exchange"
-  - "security, setting credentials in code"
-ms.assetid: bd5da271-90f1-4a64-9138-a51048a16648
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Secure programming with the SAP adapter
 ## How Do I Protect Credentials When I Use the Add Adapter Service Reference Visual Studio Plug-in?  

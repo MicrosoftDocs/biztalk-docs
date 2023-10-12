@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Setting up DataTable and DataColumn Mappings for a DB2 Database"
-title: "Setting up DataTable and DataColumn Mappings for a DB2 Database1 | Microsoft Docs"
+title: "Setting up DataTable and DataColumn Mappings for a DB2 Database1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 92574f33-d186-4597-a56d-b944f41c7517
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Setting up DataTable and DataColumn Mappings for a DB2 Database
 An `MsDb2DataAdapter` contains a collection of zero or more `DataTableMapping` objects in its `TableMappings` property. A `DataTableMapping` object provides a master mapping between the data returned from a query against a data source, and a `DataTable` object. The `DataTableMapping` name can be passed instead of the `DataTable` name to the `Fill` method of the `MsDb2DataAdapter`.  

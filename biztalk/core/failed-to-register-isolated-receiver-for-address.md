@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Failed to register isolated receiver for address"
-title: "Failed to register isolated receiver for address | Microsoft Docs"
+title: "Failed to register isolated receiver for address"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 313b436a-d7c5-4b46-bfe3-bbad0d8efe42
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Failed to register isolated receiver for address
 ## Details  

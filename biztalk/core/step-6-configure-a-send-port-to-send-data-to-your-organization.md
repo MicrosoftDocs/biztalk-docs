@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 6: Configure a Send Port to Send Data to Your Organization"
-title: "Step 6: Configure a Send Port to Send Data to Your Organization | Microsoft Docs"
+title: "Step 6: Configure a Send Port to Send Data to Your Organization"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 796570ca-8178-4679-9213-d67a2a189bf9
-caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 6: Configure a Send Port to Send Data to Your Organization
 ![Step 6 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-6of9.gif "Step_6of9")  

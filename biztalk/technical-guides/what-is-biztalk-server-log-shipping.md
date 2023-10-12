@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: What Is BizTalk Server Log Shipping?"
-title: "What Is BizTalk Server Log Shipping? | Microsoft Docs"
+title: "What Is BizTalk Server Log Shipping?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 79a2088a-ff36-4590-97c9-51d5bb245486
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is BizTalk Server Log Shipping?
 BizTalk Server disaster recovery procedures are built around BizTalk log shipping. BizTalk log shipping simplifies database restoration in the event of a disaster by continuously applying transaction log updates to the disaster recovery site databases.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Support for ODBC Connection Attributes"
-title: "Support for ODBC Connection Attributes | Microsoft Docs"
+title: "Support for ODBC Connection Attributes"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6df5a7ab-e911-4a19-bd17-f5f9656b3ae6
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Support for ODBC Connection Attributes
 The following table lists the ODBC connection attributes support using the Microsoft ODBC Driver for DB2. Note that the connection attributes in this list use the ODBC Version 3.0 attribute names, rather than the older ODBC 1.0 names.  

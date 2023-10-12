@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Module 2: Adding a New Schemas Project"
-title: "Module 2: Adding a New Schemas Project | Microsoft Docs"
+title: "Module 2: Adding a New Schemas Project"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "projects, schemas"
-  - "tutorial, creating new schemas"
-  - "schemas, adding to projects"
-ms.assetid: 54ecafe9-6dbf-4d06-ba47-5059432bda3d
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Module 2: Adding a New Schemas Project
 When you install Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] updates Microsoft [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] to include a basic BizTalk project. This project template gives you access to tools such as the schema designer, BizTalk Mapper, Orchestration Designer, Pipeline Designer, and BizTalk Explorer, and other tools necessary to create a BizTalk solution.  

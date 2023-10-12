@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invoking Static Members of a Class"
-title: "Invoking Static Members of a Class | Microsoft Docs"
+title: "Invoking Static Members of a Class"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3a51171c-8de0-45dd-8659-f674cf27acbe
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoking Static Members of a Class
 By default, the rule engine requires you to assert an instance of a .NET class to execute a policy that invokes a static member of the .NET class. You can modify this behavior by changing the value of the **StaticSupport** registry key under **HKEY_LOCAL_MACHINE\Software\Microsoft\BusinessRules\3.0** to one of the values in the following table.  

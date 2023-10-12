@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Cannot create binding"
-title: "Cannot create binding | Microsoft Docs"
+title: "Cannot create binding"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fbe1bd54-6031-4f90-a445-c1647b382a1a
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Cannot create binding
 ## Details  

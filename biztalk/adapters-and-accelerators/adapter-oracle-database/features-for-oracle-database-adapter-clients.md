@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: Features for Oracle Database adapter clients"
-title: "Features for Oracle Database adapter clients | Microsoft Docs"
+title: "Features for Oracle Database adapter clients"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "data streaming, support for"
-  - "binding properties"
-  - "adapter, features"
-  - "adapters, configuring"
-  - "message versioning, support for"
-  - "XML data streaming"
-  - "performance counters, support for"
-  - "dynamic ports in BizTalk, support for"
-  - "data streaming"
-ms.assetid: 63b52573-80a5-4206-95c3-478b86718fee
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Features for Oracle Database adapter clients
 In addition to the features discussed throughout the topics of [Overview of BizTalk Adapter for Oracle Database](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md), the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] also provides the following features that are useful for adapter clients:  

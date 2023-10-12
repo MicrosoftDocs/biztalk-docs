@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Monitoring Business Activities with BAM"
-title: "Monitoring Business Activities with BAM | Microsoft Docs"
+title: "Monitoring Business Activities with BAM"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [BAM], business activities"
-  - "business activities, monitoring"
-  - "business activities, managing"
-  - "monitoring business activities [BAM], about monitoring business activities"
-  - "monitoring business activities [BAM]"
-ms.assetid: 282a07b9-1fb2-4a83-a9b8-7d1df6c15a5b
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Monitoring Business Activities with BAM
 Business Analysts use Business Activity Monitoring (BAM) to monitor data about business processes. Business analysts use the BAM workbook in Microsoft Office Excel to define what data to collect from business processes and to define the way in which business users will view the collected data.  

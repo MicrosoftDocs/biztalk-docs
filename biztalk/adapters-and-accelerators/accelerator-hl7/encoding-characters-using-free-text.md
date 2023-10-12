@@ -1,19 +1,9 @@
 ---
 description: "Learn more about: Encoding Characters using Free Text"
 title: "Encoding Characters using Free Text"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-ms.assetid: a69dffe1-3fb2-4902-a9a2-093f3ea7b11f
-caps.latest.revision: 4
-
-
-
 ---
 # Encoding Characters using Free Text
 Starting with [!INCLUDE[bts2013r2](../../includes/bts2013r2-md.md)], “FreeText” can be used in a field or segment. Data in the “FreeText” field/segment is not parsed.  

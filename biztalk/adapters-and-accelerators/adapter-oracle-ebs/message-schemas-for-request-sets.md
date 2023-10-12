@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Message Schemas for Request Sets"
-title: "Message Schemas for Request Sets | Microsoft Docs"
+title: "Message Schemas for Request Sets"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bba9677d-ee94-4da5-8611-b1e47f2f3798
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schemas for Request Sets
 Each request set in an Oracle application in Oracle E-Business Suite is surfaced as an operation in [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].  

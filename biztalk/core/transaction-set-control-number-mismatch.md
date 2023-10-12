@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Transaction Set Control Number Mismatch"
-title: "Transaction Set Control Number Mismatch | Microsoft Docs"
+title: "Transaction Set Control Number Mismatch"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2c4b0c3f-f3be-4c2c-8719-8e40aa7122b9
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Transaction Set Control Number Mismatch
 ## Details  

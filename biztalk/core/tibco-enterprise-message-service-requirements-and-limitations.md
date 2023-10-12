@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: TIBCO Enterprise Message Service Requirements and Limitations"
-title: "TIBCO Enterprise Message Service Requirements and Limitations | Microsoft Docs"
+title: "TIBCO Enterprise Message Service Requirements and Limitations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6e4c022c-e6a8-4ac5-b998-b0465002a31e
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # TIBCO Enterprise Message Service Requirements and Limitations
 

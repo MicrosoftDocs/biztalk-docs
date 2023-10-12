@@ -1,19 +1,9 @@
 ---
 title: "Microsoft BizTalk Accelerator for HL7 documentation"
 description: Quick links to install, get started, learn, programming and tools, batching, and troubleshooting the HL7 accelerator in BizTalk Server
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-ms.assetid: aa333ee8-ba93-4a61-9c0a-94e64627b8cf
-caps.latest.revision: 10
-
-
-
 ---
 # Microsoft BizTalk Accelerator for HL7 documentation
 Microsoft [!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)] documentation describes what's new with the different [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)] versions, shows you how to install [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)], includes step-by-step tutorials, and provides information to learn about HL7, development tasks, and operational tasks.   

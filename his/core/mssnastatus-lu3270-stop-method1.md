@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_Lu3270.Stop Method"
-title: "MsSnaStatus_Lu3270.Stop Method1 | Microsoft Docs"
+title: "MsSnaStatus_Lu3270.Stop Method1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5bcfe083-1a6a-4736-87cb-ef813f4bd275
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_Lu3270.Stop Method
 Stops the LU.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Create a 3270 Downstream LU"
-title: "How to Create a 3270 Downstream LU2 | Microsoft Docs"
+title: "How to Create a 3270 Downstream LU2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6a9da1c6-71b4-4688-b27c-84e1f8e2f250
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Create a 3270 Downstream LU
 The following procedure details how to create a downstream LU.  

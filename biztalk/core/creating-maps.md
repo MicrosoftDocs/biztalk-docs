@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Creating Maps"
-title: "Creating Maps | Microsoft Docs"
+title: "Creating Maps"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cc9f8ad1-4aad-4866-8aa4-4877fdc5e5f9
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Maps
 The primary user interface for BizTalk Mapper is displayed on a tab within the [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] editing window. This display is divided into three panes. The left pane displays the source schema as a tree. The right pane displays the destination schema as a tree. The middle pane displays the grid as multiple pages. To indicate how you want to map data from the source schema to the destination schema, you draw lines between the records and fields you want to map. These lines are called *links*, and they are the most basic way to specify the mapping of data. For more information about linking records and fields, see [Links in Maps](../core/links-in-maps.md).  

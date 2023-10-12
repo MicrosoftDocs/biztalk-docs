@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure a Workflow Foundation Application for Interception"
-title: "How to Configure a Workflow Foundation Application for Interception | Microsoft Docs"
+title: "How to Configure a Workflow Foundation Application for Interception"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9c82e83f-9dbd-4325-9f30-778eba892296
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a Workflow Foundation Application for Interception
 

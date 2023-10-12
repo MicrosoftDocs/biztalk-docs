@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Invoke tRFCs in SAP using BizTalk Server"
-title: "Invoke tRFCs in SAP using BizTalk Server | Microsoft Docs"
+title: "Invoke tRFCs in SAP using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "tRFCs, invoking using BizTalk Server"
-ms.assetid: 9489adca-cf2c-4e15-8573-445acd7ebf73
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke tRFCs in SAP using BizTalk Server
 Transactional Remote Function Calls (tRFCs) guarantee a one and only one time execution of an RFC on a SAP system. You can invoke any of the RFCs surfaced by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] as a tRFC. Invoking a tRFC is similar to invoking an RFC (see [Invoke RFCs in SAP by Using BizTalk Server](../../adapters-and-accelerators/adapter-sap/invoke-rfcs-in-sap-using-biztalk-server.md)) with the following differences:  

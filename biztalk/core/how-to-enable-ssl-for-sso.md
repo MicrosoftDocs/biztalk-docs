@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Enable SSL for SSO"
-title: "How to Enable SSL for SSO | Microsoft Docs"
+title: "How to Enable SSL for SSO"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SSO, SSL"
-  - "managing [SSO], enabling SSL"
-  - "SSL"
-ms.assetid: 0d75962a-a0b0-4e69-8001-54e7df617006
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Enable SSL for SSO
 Use this command to enable Secure Sockets Layer (SSL) between all the Enterprise Single Sign-On (SSO) servers and the SSO database.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Server Properties: SSO Database"
-title: "Server Properties: SSO Database1 | Microsoft Docs"
+title: "Server Properties: SSO Database1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e9a9061d-20e6-40d4-b7cb-b0b8446041ad
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Server Properties: SSO Database
 This screen displays information about the SSO Database.  

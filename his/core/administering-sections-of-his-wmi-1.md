@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Administering Sections of HIS (WMI)"
-title: "Administering Sections of HIS (WMI)1 | Microsoft Docs"
+title: "Administering Sections of HIS (WMI)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 62658af5-463c-4bde-8f8c-8ea830cf5bb8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Administering Sections of HIS (WMI)
 Host Integration Server is included with Windows Management Instrumentation (WMI) providers that grant administrative access to the following areas:  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure MIIS for ENTSSO MA"
-title: "How to Configure MIIS for ENTSSO MA | Microsoft Docs"
+title: "How to Configure MIIS for ENTSSO MA"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c7820384-ff64-4628-9e35-02b13803928f
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure MIIS for ENTSSO MA
 When you install the Enterprise Single Sign-On (SSO) Administration feature (either the full version or the Admin-only version) on a computer running Microsoft Identity Integration Server (MIIS), the ENTSSO Management Agent is automatically installed. This means that when you open MIIS, nearly all of the configuration has already been done. The only part missing is the connection information.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Interceptor OnEvent Element"
-title: "Interceptor OnEvent Element | Microsoft Docs"
+title: "Interceptor OnEvent Element"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d684ac8e-61bc-410b-97a2-6fd3549e0d97
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Interceptor OnEvent Element
 The **OnEvent** element describes one real event that is mapped to the enclosing BAM activity.  

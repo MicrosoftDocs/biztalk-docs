@@ -1,19 +1,12 @@
 ---
 description: "Learn about the message schemas for the special LOB operations Read_<LOBColName> and Update_<LOBColName>."
-title: "Message Schemas for Special LOB Operations1 | Microsoft Docs"
+title: "Message Schemas for Special LOB Operations1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a2e418a6-8bc7-42d9-9672-a9c149f32778
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Schemas for Special LOB Operations
 

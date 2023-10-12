@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Installing the Namespace Component Sample"
-title: "Installing the Namespace Component Sample | Microsoft Docs"
+title: "Installing the Namespace Component Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f47b810a-6f0d-459c-98b9-6dac9f4a78b4
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing the Namespace Component Sample
 The Namespace Component sample requires the Namespace component (in the assembly Microsoft.Practices.ESB.Namespace.PipelineComponents.dll) to reside in the PipelineComponents folder of your Microsoft BizTalk Server installation folder. Installing the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] core automatically copies the assembly to the correct location.  

@@ -1,19 +1,12 @@
 ---
-title: "Add Exception Handling to TIBCO EMS | Microsoft Docs"
+title: "Add Exception Handling to TIBCO EMS"
 description: Overview of handling exceptions for your orchestrations that use the TIBCO EMS adapter in BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4471f7b7-4a50-4d99-ad01-94712ce162fe
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use BizTalk Server Exception Handling
 

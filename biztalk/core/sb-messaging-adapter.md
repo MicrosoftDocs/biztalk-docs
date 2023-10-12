@@ -1,19 +1,12 @@
 ---
-title: "Service Bus messaging adapter | Microsoft Docs"
+title: "Service Bus messaging adapter"
 description: Send and receive messages using the Azure SB-Messaging adapter in BizTalk Server
 ms.custom: ""
 ms.date: "11/21/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c06c4934-45b2-4f6f-9d19-3ebd937c32ae
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 
 # SB-Messaging Adapter

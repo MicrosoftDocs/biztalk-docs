@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Preserving JMS Headers When Routing Through an Orchestration"
-title: "Preserving JMS Headers When Routing Through an Orchestration | Microsoft Docs"
+title: "Preserving JMS Headers When Routing Through an Orchestration"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d9a59ff3-0cbf-499f-92b2-cf5b808d8b3f
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Preserving JMS Headers When Routing Through an Orchestration
 In this use case, components provided with [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] extract Java Message Service (JMS) headers from an incoming message and then reconstructs them in the outgoing message. This demonstrates JMS message header preservation and access to header context from inside an orchestration, as illustrated in Figure 1.  

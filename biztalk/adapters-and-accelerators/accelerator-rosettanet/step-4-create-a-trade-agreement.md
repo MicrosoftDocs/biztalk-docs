@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Step 4: Create a Trade Agreement"
-title: "Step 4: Create a Trade Agreement | Microsoft Docs"
+title: "Step 4: Create a Trade Agreement"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "creating, trade agreeements"
-  - "loopback tutorial, creating trade agreements"
-  - "agreements, creating"
-ms.assetid: 9bcb80b1-fefc-4f1c-ae03-fb736cdfd524
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4: Create a Trade Agreement
 In this step, you create a trade agreement between the home and partner organization using the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: TIBCO EMS Adapter Features"
-title: "TIBCO Enterprise Message Service adapter features | Microsoft Docs"
+title: "TIBCO Enterprise Message Service adapter features"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ede748ce-3f28-4942-b2bd-e38e5f1b0f54
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # TIBCO EMS Adapter Features
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) enables you to publish and subscribe to queues and topics managed by TIBCO EMS, using BizTalk Server and the TIBCO SDK. The adapter integrates TIBCO EMS messages in a fast, easy, and reliable way. It exchanges XML data formats between TIBCO EMS servers and Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to provide a tightly integrated and reliable application infrastructure. It provides transmit and receive adapter integration operations providing end-to-end business-process management using XML schemas.  

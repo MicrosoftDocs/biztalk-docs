@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Create a connection to the Oracle Database"
-title: "Create a connection to the Oracle Database | Microsoft Docs"
+title: "Create a connection to the Oracle Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adapter, connecting to the Oracle Database"
-ms.assetid: 95f7905a-abad-4841-85c4-62cf0cc1e044
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create a connection to the Oracle Database
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding. As such, it enables communication to an Oracle database through a WCF endpoint address. In WCF, the endpoint address is typically expressed as a Uniform Resource Identifier (URI), which identifies the network location of the service. The [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] expresses this location as a connection URI, which contains properties that the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] uses to establish a connection to the Oracle database.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn how to move the Business Activity Monitoring (BAM) Analysis database to another server."
-title: "How to Move the BAM Analysis Database2 | Microsoft Docs"
+title: "How to Move the BAM Analysis Database2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "migrating, Analysis database [BAM]"
-  - "Analysis database [BAM], migrating"
-ms.assetid: b0320273-4840-4573-bb82-bba95021535e
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Move the BAM Analysis Database
 

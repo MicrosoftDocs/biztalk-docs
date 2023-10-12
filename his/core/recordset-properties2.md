@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Recordset Properties"
-title: "Recordset Properties2 | Microsoft Docs"
+title: "Recordset Properties2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "15432"
-ms.assetid: 092cec85-16ec-475f-aadc-4853b178146f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Recordset Properties
 Use the **Recordset** properties page to set design and host definition properties on a recordset.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn how to add a Scope shape that contains an exception handler to the ReceiveFromIn port in BizTalk Server."
-title: "How to Add a Scope Shape4 | Microsoft Docs"
+title: "How to Add a Scope Shape4"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "adding, Scope shapes"
-  - "Scope shape, adding"
-ms.assetid: 4ed56ada-a656-40b1-b34a-0c0803c01216
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adding a Scope Shape
 Follow these steps to add a **Scope** shape.  

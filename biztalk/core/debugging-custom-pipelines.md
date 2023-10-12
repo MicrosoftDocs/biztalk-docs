@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Debugging Custom Pipelines"
-title: "Debugging Custom Pipelines | Microsoft Docs"
+title: "Debugging Custom Pipelines"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 27e5445a-6415-4c52-a450-b74a71fc4aa2
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Debugging Custom Pipelines
 When message processing fails in your custom pipeline, you can use source level debugging to identify and correct problems. Source level debugging is done using the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] debugger by attaching to BTSNTSVC.exe (if the custom pipeline is deployed) or Pipeline.exe (if using the stand-alone pipeline tool).  

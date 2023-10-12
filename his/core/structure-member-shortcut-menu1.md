@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Structure Member Shortcut Menu"
-title: "Structure Member Shortcut Menu1 | Microsoft Docs"
+title: "Structure Member Shortcut Menu1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 66407a58-2e98-4cf7-bb5e-d5d107b42bfb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Structure Member Shortcut Menu
 When you select a member from one of the structures in the **Structures** node in HIS Designer, the following shortcut menu commands are available:  

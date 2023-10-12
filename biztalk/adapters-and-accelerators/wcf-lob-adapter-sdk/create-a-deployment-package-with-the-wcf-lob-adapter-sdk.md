@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Create a deployment package with the WCF LOB Adapter SDK"
-title: "Create a deployment package with the WCF LOB Adapter SDK | Microsoft Docs"
+title: "Create a deployment package with the WCF LOB Adapter SDK"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 10022981-7944-45d6-a78a-4d680a79b010
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create a deployment package with the WCF LOB Adapter SDK
 During the development cycle, you can build, debug, and run your adapter within Visual Studio. The output of an adapter solution is a DLL assembly. You can build your adapter solution using Visual Studio IDE or use the devenv.exe scripts to create an adapter assembly. Once the adapter is developed and it is ready for use within the adapter consumer's environment, you must create a deployment package that allows the adapter to be installed in test and production environments.  

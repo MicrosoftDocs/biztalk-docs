@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SEND_DATA"
-title: "SEND_DATA1 | Microsoft Docs"
+title: "SEND_DATA1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b355bbaf-a0d2-4667-b4c4-a45a59b0bf0a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SEND_DATA
 The **SEND_DATA** verb places data in the local logical unit's (LU) send buffer for transmission to the partner transaction program (TP).  

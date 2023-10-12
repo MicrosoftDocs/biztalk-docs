@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: databaseAlias"
-title: "databaseAlias | Microsoft Docs"
+title: "databaseAlias"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6a7b3d6a-8af1-4f0d-8eda-dad0ad7461c7
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # databaseAlias
 The databaseAlias element contains a sourceLocation, sourceCollection, targetDatabase, and targetSchema to define one or more optional object name mappings.  

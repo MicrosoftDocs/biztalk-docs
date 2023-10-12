@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Overriding EDI Headers"
-title: "Overriding EDI Headers | Microsoft Docs"
+title: "Overriding EDI Headers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 16c19d3d-eab2-4d44-8752-25aeadb537a4
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Overriding EDI Headers
 When sending an EDI-encoded interchange, the EDI envelope applied to the message is normally based upon the EDI properties of the receiving agreement, or the fallback agreement properties. However it is often useful to set the EDI envelope properties based on runtime generated values.  

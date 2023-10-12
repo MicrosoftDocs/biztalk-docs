@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: How to Add a Web Port"
-title: "How to Add a Web Port | Microsoft Docs"
+title: "How to Add a Web Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Web ports, creating"
-  - "creating, Web ports"
-ms.assetid: da94d98e-10ca-437a-ba34-7aa6efc68f3d
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add a Web Port
 You add a Web port on the port surface in Orchestration Designer. Unlike other configured ports, Web ports support a mixture of request (one-way) and request/response (two-way) operations. Each operation in the Web port represents a Web method. If the Web method contains *input* and *output* parameters, BizTalk creates a request/response operation. If the Web service contains only an *input* parameter, BizTalk only creates a one-way operation.  

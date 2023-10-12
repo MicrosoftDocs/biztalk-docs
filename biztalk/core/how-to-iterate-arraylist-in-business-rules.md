@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Iterate ArrayList in Business Rules"
-title: "How to Iterate ArrayList in Business Rules | Microsoft Docs"
+title: "How to Iterate ArrayList in Business Rules"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Business Rules Framework, ArrayList"
-  - "business rules, arrays"
-  - "Business Rules Framework, programming"
-ms.assetid: 935e8648-72dc-4128-986c-72b0487bc074
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Iterate ArrayList in Business Rules
 This section provides an example of iterating through members of an **ArrayList** in business rules.  

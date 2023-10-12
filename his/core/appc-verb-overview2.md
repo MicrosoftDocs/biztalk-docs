@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: APPC Verb Overview"
-title: "APPC Verb Overview2 | Microsoft Docs"
+title: "APPC Verb Overview2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 74b11ee8-0e66-412d-92c6-5f7585d5bfef
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # APPC Verb Overview
 APPC verbs fall into three categories: management, transaction program (TP), and conversation.  

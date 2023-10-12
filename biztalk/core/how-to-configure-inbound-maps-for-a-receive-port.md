@@ -1,29 +1,12 @@
 ---
 description: "Learn more about: How to Configure Inbound Maps for a Receive Port"
-title: "How to Configure Inbound Maps for a Receive Port | Microsoft Docs"
+title: "How to Configure Inbound Maps for a Receive Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [receive ports], configuring"
-  - "configuring, maps"
-  - "configuring, inbound maps"
-  - "maps, configuring"
-  - "receive ports, configuring"
-  - "receive ports, inbound maps"
-  - "configuring, receive ports"
-  - "maps, inbound"
-  - "managing [receive ports], inbound maps"
-ms.assetid: b7448b39-f024-4353-818b-f753c2d60751
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Inbound Maps for a Receive Port
 This topic describes how to use the BizTalk Server Administration console to configure inbound maps for a receive port. You use inbound maps to transform inbound messages from one schema to another; for example to transform messages received from a partner into a schema that your company uses.  

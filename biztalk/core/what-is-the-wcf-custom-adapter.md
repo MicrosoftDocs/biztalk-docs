@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: What Is the WCF-Custom Adapter?"
-title: "What Is the WCF-Custom Adapter? | Microsoft Docs"
+title: "What Is the WCF-Custom Adapter?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "WCF-Custom adapters, about WCF-Custom adapters"
-ms.assetid: 7b2178dd-f737-4784-9bcb-e2b3979bfb0d
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is the WCF-Custom Adapter?
 The WCF-Custom adapter is used to enable the use of WCF extensibility components in BizTalk Server. The adapter enables complete flexibility of the WCF framework. It allows users to select and configure a WCF binding for the receive location and send port. It also allows users to set the endpoint behaviors and security settings.  

@@ -1,24 +1,12 @@
 ---
 description: "Learn about the MATH_NUMERIC type, exponents, invalid values, precision for operations, and currency values in JD Edwards OneWorld business functions."
-title: "Using the MATH_NUMERIC Type2 | Microsoft Docs"
+title: "Using the MATH_NUMERIC Type2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "exponents, JD Edwards OneWorld adapters"
-  - "currency, JD Edwards OneWorld adapters"
-  - "MATH_NUMERIC type"
-  - "adapters [JD Edwards OneWorld adapters], currency"
-ms.assetid: 14d04576-0028-4af4-84bd-92c4ca492126
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the MATH_NUMERIC Type
 

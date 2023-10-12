@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AS2 decoding failed while decrypting a message"
-title: "AS2 decoding failed while decrypting a message | Microsoft Docs"
+title: "AS2 decoding failed while decrypting a message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ab6f7ecd-23cf-4f6f-8f63-acc6618dc544
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AS2 decoding failed while decrypting a message
 ## Details  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Interfaces for an Isolated Receive Adapter"
-title: "Interfaces for an Isolated Receive Adapter | Microsoft Docs"
+title: "Interfaces for an Isolated Receive Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5c6b195e-76bf-4c3e-a324-5513bc24fed1
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Interfaces for an Isolated Receive Adapter
 Isolated receive adapters are hosted in a process space other than the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] process. To interact with the Messaging Engine, an isolated receive adapter registers itself on startup so that the engine can configure and control it. The adapter creates the transport proxy, queries for the interface **IBTTransportProxy**, and calls **IBTTransportProxy.RegisterIsolatedReceiver** to register its **IBTTransportConfig** callback interface with the Messaging Engine. This synchronous call occurs before the adapter submits its first message to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This allows the Messaging Engine to call back into the adapter and tell it which of its endpoints are active and should be listened on for incoming messages. Isolated adapters must implement the following interfaces:  

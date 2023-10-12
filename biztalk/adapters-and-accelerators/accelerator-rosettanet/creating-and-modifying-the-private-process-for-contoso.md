@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Creating and Modifying the Private Process for Contoso"
-title: "Creating and Modifying the Private Process for Contoso | Microsoft Docs"
+title: "Creating and Modifying the Private Process for Contoso"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "private processes, creating"
-  - "configuring, private processes"
-  - "private processes, configuring"
-  - "private process tutorial, creating private processes"
-  - "creating, private processes"
-  - "private process tutorial, configuring private processes"
-ms.assetid: 0690aaef-cd9e-46aa-8bd5-22744d5aec4c
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating and Modifying the Private Process for Contoso
 You can perform additional tasks with RosettaNet-based messages when implementing your solution by customizing the private process within Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]. This section demonstrates how to customize the private process by using the Business Rule Engine (BRE) to create policies and BizTalk Editor to customize the private process orchestration.  

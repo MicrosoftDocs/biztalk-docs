@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Message Context Properties for Receiving IDOCs"
-title: "Message Context Properties for Receiving IDOCs | Microsoft Docs"
+title: "Message Context Properties for Receiving IDOCs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "IDOCs, message context properties for receiving"
-ms.assetid: fadb2284-2f55-49c2-bae9-95325f1be539
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Context Properties for Receiving IDOCs
 For receiving an IDOC using Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] supports the following message context properties.  

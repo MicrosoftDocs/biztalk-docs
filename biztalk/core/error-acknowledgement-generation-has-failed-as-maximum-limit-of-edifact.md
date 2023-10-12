@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for global settings"
-title: "Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for global settings | Microsoft Docs"
+title: "Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for global settings"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6adc02d7-ebc4-4da0-a19a-3a423d63499d
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Acknowledgement generation has failed as maximum limit of Edifact transaction set control number has been reached for global settings
 ## Details  

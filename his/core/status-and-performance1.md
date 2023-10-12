@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Status and Performance"
-title: "Status and Performance1 | Microsoft Docs"
+title: "Status and Performance1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e7ffeb38-9862-4dd6-9a91-5ab5abd17f38
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Status and Performance
 [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] and the Windows operating system offer several tools for helping you evaluate the demand on, and performance of, [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computers and components.  

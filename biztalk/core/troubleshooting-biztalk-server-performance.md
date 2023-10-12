@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting BizTalk Server Performance"
-title: "Troubleshooting BizTalk Server Performance | Microsoft Docs"
+title: "Troubleshooting BizTalk Server Performance"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dbf21fb9-1ae1-48b5-a65a-e96839b23945
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting BizTalk Server Performance
 This section contains general guidelines for diagnosing and resolving performance problems related to the BizTalk Messaging Engine.  

@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Security Case Studies for Small to Medium-Sized Companies"
-title: "Security Case Studies for Small to Medium-Sized Companies | Microsoft Docs"
+title: "Security Case Studies for Small to Medium-Sized Companies"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "architecture, small distributions"
-  - "architecture, examples"
-  - "security, examples"
-  - "security, architecture"
-  - "architecture, medium distributions"
-ms.assetid: b33e3f2a-ddc4-47a8-92d7-511ae0cc880e
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security Case Studies for Small to Medium-Sized Companies
 Security is a concern of any company that is serious about making sure that only a select group of people or applications can access its data and resources. Companies approach and implement security in a variety of ways.  

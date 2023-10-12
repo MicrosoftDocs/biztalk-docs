@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LUA Access"
-title: "LUA Access2 | Microsoft Docs"
+title: "LUA Access2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 11bc6bb3-d539-421a-9ef6-2ea6bab05de8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LUA Access
 Logical unit application (LUA) is an application programming interface (API) that allows you to write customized applications to communicate with the host. LUA LUs enable programmable control over the SNA messages that are sent between the communications software and the host. LUA LUs can be used to communicate with LU types 0, 1, 2, or 3 at the host as long as the application sends the appropriate SNA messages required by the host.  

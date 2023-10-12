@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Hardware and Software Requirements for Deployment"
-title: "Hardware and Software Requirements for Deployment | Microsoft Docs"
+title: "Hardware and Software Requirements for Deployment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deploying, hardware requirements"
-  - "deploying, software requirements"
-ms.assetid: 1dd9c4bb-b724-4195-8496-eff95cd1548a
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Hardware and Software Requirements for Deployment
 The following table lists the hardware and software recommendations and requirements for each server in the prescribed deployment architecture. For details about configuring required software, see [Deploying Your Servers](../../adapters-and-accelerators/accelerator-swift/deploying-your-servers.md).  

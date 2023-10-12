@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: A security exception occurred while reflecting a BizTalk assembly"
-title: "A security exception occurred while reflecting a BizTalk assembly | Microsoft Docs"
+title: "A security exception occurred while reflecting a BizTalk assembly"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 301b85c7-8e67-482e-8666-67a91ca5c73d
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # A security exception occurred while reflecting a BizTalk assembly
 ## Details  

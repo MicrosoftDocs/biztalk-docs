@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How To Override Settings in the Type Library"
-title: "How To Override Settings in the Type Library2 | Microsoft Docs"
+title: "How To Override Settings in the Type Library2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 63b686be-8ec7-4ebb-b48d-20dc8ce04069
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How To Override Settings in the Type Library
 If you need to temporarily change certain data sent from the type library to the host, you can override the type library settings without changing the original file. Use the following keywords in combination with the COMTIContext parameter to override the type library setting:  

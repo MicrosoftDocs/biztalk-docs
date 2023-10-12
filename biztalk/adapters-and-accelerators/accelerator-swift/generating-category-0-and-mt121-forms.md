@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Generating Category 0 and MT121 Forms"
-title: "Generating Category 0 and MT121 Forms | Microsoft Docs"
+title: "Generating Category 0 and MT121 Forms"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1470b8e1-0008-4f15-8958-ba4c7ecbffd8
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Generating Category 0 and MT121 Forms
 Category 0 and MT121 InfoPath forms generation require different template files. Category 0 forms are divided into 5 categories. General categories messages are generated in the same way as do the rest of the MT categories. Examples of other 4 categories with their message names are given below:  

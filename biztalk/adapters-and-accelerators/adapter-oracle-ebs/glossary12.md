@@ -1,19 +1,12 @@
 ---
-title: "Glossary for the Oracle e-Business Suite adapter in BizTalk | Microsoft Docs"
+title: "Glossary for the Oracle e-Business Suite adapter in BizTalk"
 description: Common terms and definitions for the Oracle EBS adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 328b0ed2-58e2-45d5-8322-a72179ad5c8b
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Glossary - Microsoft BizTalk Adapter for Oracle E-Business Suite
 The following terms and definitions are used in [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].  

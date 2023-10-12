@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: sbpibegt"
-title: "sbpibegt2 | Microsoft Docs"
+title: "sbpibegt2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4a1321bc-ae4b-4b0c-b040-92c53b580b9b
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # sbpibegt
 The application calls the **sbpibegt** function to get a buffer element to append to an existing buffer.  

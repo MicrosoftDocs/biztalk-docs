@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Step 1: Installing the Base Platform"
-title: "Step 1: Installing the Base Platform | Microsoft Docs"
+title: "Step 1: Installing the Base Platform"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "platforms"
-  - "installing, base platform"
-  - "base platform"
-ms.assetid: 27da386f-90c7-414f-a4e3-e909f0c18371
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Installing the Base Platform
 For the base platform, install Microsoft [!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)] and [!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)] Service Pack 2 on each server using the default installation options. Follow these recommendations:

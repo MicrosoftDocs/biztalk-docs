@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to: Select an Itinerary Using a Business Rules Policy"
-title: "How to: Select an Itinerary Using a Business Rules Policy | Microsoft Docs"
+title: "Select an Itinerary Using a Business Rules Policy"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9f6373a8-d9d6-46c6-95e3-f62dd33c342a
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to: Select an Itinerary Using a Business Rules Policy
 ## Goal  

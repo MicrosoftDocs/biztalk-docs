@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invoke Table-Valued Functions in SQL Server using BizTalk Server"
-title: "Invoke Table-Valued Functions in SQL Server using BizTalk Server | Microsoft Docs"
+title: "Invoke Table-Valued Functions in SQL Server using BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0d360c15-699e-4859-8143-798c1de821db
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoke Table-Valued Functions in SQL Server using BizTalk Server
 You can use the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to invoke table-valued functions in SQL Server. The adapter exposes the table-valued functions as operations that can be invoked directly on SQL Server. For more information about how the adapter supports table-valued functions, see [Executing Table-Valued Functions in SQL Server using the SQL adapter](../../adapters-and-accelerators/adapter-sql/execute-table-valued-functions-in-sql-server-using-the-sql-adapter.md). For information about the structure of the SOAP message for invoking table-valued functions, see [Message Schemas for Procedures and Functions](../../adapters-and-accelerators/adapter-sql/message-schemas-for-procedures-and-functions.md).  

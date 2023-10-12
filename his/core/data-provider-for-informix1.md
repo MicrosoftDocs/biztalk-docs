@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Data Provider for  Informix"
-title: "Data Provider for  Informix | Microsoft Docs"
+title: "Data Provider for  Informix"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f50b553b-8dd3-4649-aa96-cfc451d442ed
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Data Provider for  Informix
 ## Platform Compatibility  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using the MQSeries Adapter"
-title: "Use the MQSeries adapter | Microsoft Docs"
+title: "Use the MQSeries adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1e70399a-a582-4808-915f-8b7da62300aa
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the MQSeries Adapter
 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Save Event Logs"
-title: "How to Save Event Logs1 | Microsoft Docs"
+title: "How to Save Event Logs1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 96f943a6-3662-4c58-b94f-d29039871752
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Save Event Logs
 You can save event logs for later reference or for historical data. Event log files can be saved as event files (*.evt), text files (\*.txt). or comma-delimited text files (\*.txt).  

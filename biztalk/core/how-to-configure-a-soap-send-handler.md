@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: How to Configure a SOAP Send Handler"
-title: "How to Configure a SOAP Send Handler | Microsoft Docs"
+title: "How to Configure a SOAP Send Handler"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "send handlers, SOAP adapters"
-  - "SOAP adapters, denial of service"
-  - "denital of service, HTTP adapters"
-  - "configuring [SOAP adapters], send handlers"
-  - "configuring [SOAP adapters], denial of service"
-  - "SOAP adapters, send handlers"
-  - "denial of service, SOAP adapters"
-ms.assetid: fd610a3f-ca10-42e0-b81e-219e07e33830
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure a SOAP Send Handler
 Use the following procedure to configure the SOAP send handler.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsHisTrace_Config Class (TN5250)"
-title: "MsHisTrace_Config Class (TN5250)2 | Microsoft Docs"
+title: "MsHisTrace_Config Class (TN5250)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4dda104f-64a7-4912-b278-eb4206e96569
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsHisTrace_Config Class (TN5250)
 The **MsHisTrace_Config** class contains tracing properties for the TN5250 service.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Querying Real-Time Aggregated Data"
-title: "Querying Real-Time Aggregated Data | Microsoft Docs"
+title: "Querying Real-Time Aggregated Data"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "queries [BAM], real-time data"
-  - "BAM, real-time data"
-ms.assetid: f60a34a1-ac64-47c7-8f83-1bc301170590
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Querying Real-Time Aggregated Data
 The real-time aggregation (RTA) data is available for queries in a dynamically created SQL View in the BAM Primary Import database.  

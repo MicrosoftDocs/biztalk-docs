@@ -1,22 +1,12 @@
 ---
-title: "Using the ServiceModel Metadata Utility Tool with the BizTalk Adapter for mySAP Business Suite | Microsoft Docs"
+title: "Using the ServiceModel Metadata Utility Tool with the BizTalk Adapter for mySAP Business Suite"
 description: Use svcutil.exe for a non-default binding, or to create a WCF Client Class or WCF Service Contract with SAP adapter - BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ServiceModel Metadata Utility Tool, creating a WCF Client Class or a WCF service contract with the tool"
-  - "ServiceModel Metadata Utility Tool, configuring the tool for the adapter"
-ms.assetid: 7ac08012-bb12-4983-9402-be84fe3997d8
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the ServiceModel Metadata Utility Tool with the BizTalk Adapter for mySAP Business Suite
 You can use the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a WCF client class or a WCF service contract (interface) for operations that the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] exposes. After you run svcutil.exe to generate either a WCF client class or a WCF service contract, you can include the generated file in your code and create instances of the generated class or implement a WCF service from the generated interface to perform operations on the SAP system.  

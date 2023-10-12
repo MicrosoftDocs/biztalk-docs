@@ -1,19 +1,12 @@
 ---
-title: "Messages and Message Schemas for BizTalk Adapter for Oracle Database | Microsoft Docs"
+title: "Messages and Message Schemas for BizTalk Adapter for Oracle Database"
 description: XML structure of messages and data types used by the Oracle Database adapter for BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fee0a531-b1e6-4b99-bb79-45368c401395
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Messages and Message Schemas for BizTalk Adapter for Oracle Database
 

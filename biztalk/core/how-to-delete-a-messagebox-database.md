@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Delete a MessageBox Database"
-title: "How to Delete a MessageBox Database | Microsoft Docs"
+title: "How to Delete a MessageBox Database"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "deleting, MessageBox database"
-  - "managing [MessageBox database], deleting"
-  - "MessageBox database, deleting"
-ms.assetid: 51f91fcb-8b97-4b00-9056-6d216c8ccb58
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Delete a MessageBox Database
 You use the BizTalk Administration Console or Windows Management Instrumentation (WMI) to remove a MessageBox database from a BizTalk group. You can remove a MessageBox database from a BizTalk group, or you can delete it from your BizTalk Server deployment entirely.  

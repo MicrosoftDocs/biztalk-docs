@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 9: Test the EDI Solution"
-title: "Step 9: Test the EDI Solution | Microsoft Docs"
+title: "Step 9: Test the EDI Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a7a44e0f-496c-462f-bf03-1c2f842d13b6
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 9: Test the EDI Solution
 ![Step 9 of 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-9of9.gif "Step_9of9")  

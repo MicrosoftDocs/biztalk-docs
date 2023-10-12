@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Developing a General Pipeline Component"
-title: "Developing a General Pipeline Component | Microsoft Docs"
+title: "Developing a General Pipeline Component"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 63f5d8d1-30fb-4a1e-b4bd-2be07b618b20
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Developing a General Pipeline Component
 

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Configure the Ports"
-title: "Step 2: Configure the Ports | Microsoft Docs"
+title: "Step 2: Configure the Ports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e804da96-26ae-482d-b6e1-67af24d639d9
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Configure the Ports
 ![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")

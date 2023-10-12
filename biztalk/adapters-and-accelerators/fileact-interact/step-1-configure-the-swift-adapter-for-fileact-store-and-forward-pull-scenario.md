@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 1: Configure the SWIFT Adapter for FileAct Store and Forward pull scenario"
-title: "Step 1: Configure the SWIFT Adapter for FileAct Store and Forward pull scenario | Microsoft Docs"
+title: "Step 1: Configure the SWIFT Adapter for FileAct Store and Forward pull scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fc271544-6bc8-4d62-aba0-3fe3295f2a2a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Configure the SWIFT Adapter for FileAct Store and Forward pull scenario
 Complete [Preparing to Use the Tutorial](../../adapters-and-accelerators/fileact-interact/preparing-to-use-the-tutorial1.md) before you begin this step.

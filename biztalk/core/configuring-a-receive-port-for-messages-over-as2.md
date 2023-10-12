@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring a Receive Port for Messages over AS2"
-title: "Configuring a Receive Port for Messages over AS2 | Microsoft Docs"
+title: "Configuring a Receive Port for Messages over AS2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 01d4d897-d12b-4de4-a86b-e6d2718470c2
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring a Receive Port for Messages over AS2
 To receive an AS2 message with an EDI or non-EDI payload, create an HTTP receive port to receive the message and return a response back to the party.  

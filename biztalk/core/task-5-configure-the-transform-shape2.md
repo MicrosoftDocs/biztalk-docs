@@ -1,19 +1,12 @@
 ---
 description: "Learn how to configure a Transform shape for BizTalk Server using the Transform Configuration dialog and mapping tool in Solution Explorer."
-title: "Task 5: Configure the Transform Shape2 | Microsoft Docs"
+title: "Task 5: Configure the Transform Shape2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3e92874e-9021-4cf6-bab6-d4173308c469
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Task 5: Configure the Transform Shape
 

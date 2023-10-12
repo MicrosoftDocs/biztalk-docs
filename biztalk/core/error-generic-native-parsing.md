@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Generic Native Parsing"
-title: "Error - Generic Native Parsing | Microsoft Docs"
+title: "Error - Generic Native Parsing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.genericNativeParsing"
-ms.assetid: a28a4c0f-b69b-448b-b305-3b06b4f061e4
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Generic Native Parsing
 **Error Code**  

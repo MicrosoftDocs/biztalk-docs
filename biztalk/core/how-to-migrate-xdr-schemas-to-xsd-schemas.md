@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Migrate XDR Schemas to XSD Schemas"
-title: "How to Migrate XDR Schemas to XSD Schemas | Microsoft Docs"
+title: "How to Migrate XDR Schemas to XSD Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 90bde0d0-bfe6-4d6c-823c-8ed9c0e15783
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Migrate XDR Schemas to XSD Schemas
 If you are migrating schemas from a previous version of BizTalk Server, you will need to convert your XML-Data Reduced (XDR) schemas into XML Schema definition (XSD) language schemas. This topic describes the necessary steps.  

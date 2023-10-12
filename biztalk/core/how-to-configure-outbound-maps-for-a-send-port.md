@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Configure Outbound Maps for a Send Port"
-title: "How to Configure Outbound Maps for a Send Port | Microsoft Docs"
+title: "How to Configure Outbound Maps for a Send Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring, outbound maps"
-  - "configuring, send ports"
-  - "managing [send ports], configuring"
-  - "send ports, outbound maps"
-  - "send ports, configuring"
-  - "managing [send ports], outbound maps"
-ms.assetid: 9f5f5504-5a7f-4b21-9a65-91dce9d35890
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Outbound Maps for a Send Port
 This topic describes how to configure outbound maps for a send port by using the BizTalk Server Administration console. You use a map to apply an XSL transformation to a message sent by the send port without processing the message through an orchestration. You can add an outbound map, remove a map, or change an existing map to a different one. You can add more than one map to a send port, but each map must have a unique source schema. For background information about maps, see [Maps](../core/maps.md).  

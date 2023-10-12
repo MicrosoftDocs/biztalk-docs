@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Excel as a data source - HIS"
-title: "Excel data sources | Microsoft Docs"
+title: "Excel data sources"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cf666c62-b34d-40f7-9824-f162bb92dafd
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Excel as a data source - HIS
 

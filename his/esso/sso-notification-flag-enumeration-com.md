@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SSO_NOTIFICATION_FLAG Enumeration (COM)"
-title: "SSO_NOTIFICATION_FLAG Enumeration (COM) | Microsoft Docs"
+title: "SSO_NOTIFICATION_FLAG Enumeration (COM)"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 04e95c91-8285-435a-8e55-fa5cc046c875
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SSO_NOTIFICATION_FLAG Enumeration (COM)
 Specifies the different types of flags used for Enterprise Single Sign-On (SSO).  

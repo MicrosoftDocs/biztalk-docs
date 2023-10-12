@@ -1,22 +1,9 @@
 ---
 description: "Learn more about: HL7 2.X Versions"
 title: "HL7 2.X Versions"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "BTAHL7, supported 2.X versions"
-  - "HL7, 2.X versions"
-ms.assetid: 289e4e1c-5215-412f-8a2a-346316e61e4b
-caps.latest.revision: 8
-
-
-
 ---
 # HL7 2.X Versions
 The following table lists the 2.X versions of the Health Level Seven (HL7) standard, the approval dates from the HL7 organization, and lists which versions Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]) supports.  

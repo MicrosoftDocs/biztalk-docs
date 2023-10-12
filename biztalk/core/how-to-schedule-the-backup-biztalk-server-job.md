@@ -1,19 +1,12 @@
 ---
-title: "Schedule the Backup BizTalk Server Job | Microsoft Docs"
+title: "Schedule the Backup BizTalk Server Job"
 description: Configure the Backup BizTalk Server job parameters, and set the schedule to run monthly, weekly, daily, or hourly
 ms.custom: ""
 ms.date: "11/02/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6e89fff4-da87-4cdc-acc4-46f03c3269fc
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Schedule the Backup BizTalk Server Job
 The Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job runs as scheduled by the SQL Server Agent service. If you want to create more frequent or less frequent backups, you can change the schedule of the Backup [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] job by using SQL Server Management Studio.  

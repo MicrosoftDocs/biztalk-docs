@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LUA Concepts"
-title: "LUA Concepts2 | Microsoft Docs"
+title: "LUA Concepts2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 21f6b576-b6fe-443c-83cf-b18d82023b85
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LUA Concepts
 The conventional logical unit application (LUA) programming interface is an application programming interface (API) that enables you to write LUA applications to communicate with host applications.  

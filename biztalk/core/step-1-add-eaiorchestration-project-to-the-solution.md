@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 1: Add EAIOrchestration Project to the Solution"
-title: "Step 1: Add EAIOrchestration Project to the Solution | Microsoft Docs"
+title: "Step 1: Add EAIOrchestration Project to the Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1c9aa0d9-2075-4c7e-8baf-1ecd2721859a
-caps.latest.revision: 42
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Add EAIOrchestration Project to the Solution
 ![Step 1 of 4](../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")  

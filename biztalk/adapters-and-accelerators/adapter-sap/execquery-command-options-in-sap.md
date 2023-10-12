@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EXECQUERY command options in SAP"
-title: "EXECQUERY command options in SAP | Microsoft Docs"
+title: "EXECQUERY command options in SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 785c615c-b766-4d05-8802-4eb694cb3500
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EXECQUERY command options in SAP
 The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] enables clients to invoke SAP queries from ADO.NET applications by using the EXECQUERY command. This section provides information on the syntax of EXECQUERY command and how to use it. This section also provides information on how to frame EXECQUERY syntax by looking at the definition of the query in the SAP system.  

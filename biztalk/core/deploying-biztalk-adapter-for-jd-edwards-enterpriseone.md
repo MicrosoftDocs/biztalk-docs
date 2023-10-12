@@ -1,19 +1,12 @@
 ---
-title: "Import JD Edwards EnterpriseOne applications | Microsoft Docs"
+title: "Import JD Edwards EnterpriseOne applications"
 description: Confirm the setup, import the application binding file, and review the limitations of the JD Edwards EnterpriseOne adapter in BizTalk 
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 852f948b-48ba-4ae2-b1eb-7c88c1542a52
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Import JD Edwards EnterpriseOne applications
   

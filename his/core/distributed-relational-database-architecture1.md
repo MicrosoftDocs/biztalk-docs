@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Distributed Relational Database Architecture"
-title: "Distributed Relational Database Architecture1 | Microsoft Docs"
+title: "Distributed Relational Database Architecture1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 551404bf-3bb2-4d7d-8064-801df8177397
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Distributed Relational Database Architecture
 The DRDA Service supports DRDA Version 5.  

@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: Message Queuing Queues"
-title: "Message Queuing Queues | Microsoft Docs"
+title: "Message Queuing Queues"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "configuring [MSMQ adapters], queue paths"
-  - "naming conventions, MSMQ adapters"
-  - "configuring [MSMQ adapters], naming conventions"
-  - "messages, queuing"
-  - "MSMQ adapters, troubleshooting"
-  - "MSMQ adapters, message queues"
-  - "configuring [MSMQ adapters], troubleshooting"
-  - "troubleshooting, queue paths [MSMQ adapters]"
-  - "naming conventions, queue paths [MSMQ adapters]"
-  - "configuring [MSMQ adapters], message queues"
-ms.assetid: b802348e-8543-4b06-a6e4-149b86139fb1
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Message Queuing Queues
 This section describes how to specify Microsoft Message Queuing (also known as MSMQ) queues when you use the MSMQ adapter. It describes the conventions for specifying paths and also describes the role that format names play in translating paths into queue designations.  

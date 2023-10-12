@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Alert Viewer Page"
-title: "Alert Viewer Page | Microsoft Docs"
+title: "Alert Viewer Page"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0734464f-1f4c-4110-876a-d3bb0d14f6c5
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Alert Viewer Page
 The Alert Viewer page, shown in Figure 1, displays all the details of a selected alert, including the conditions that match it to incoming exceptions, and a list of subscriptions defined for this alert.  

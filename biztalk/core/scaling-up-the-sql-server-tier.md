@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Scaling Up the SQL Server Tier"
-title: "Scaling Up the SQL Server Tier | Microsoft Docs"
+title: "Scaling Up the SQL Server Tier"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples, scaling"
-  - "scaling, examples"
-  - "SQL Server, scaling"
-  - "scaling, scaling up"
-  - "scaling, strategies"
-ms.assetid: 4352c4af-6861-43d9-b433-9ca25668b439
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scaling Up the SQL Server Tier
 In this pattern, the existing SQL MessageBox database is upgraded to scale according to the requirements in throughput or latency.  

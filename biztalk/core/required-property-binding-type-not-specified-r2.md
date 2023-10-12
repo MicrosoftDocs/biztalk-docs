@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Required property binding type not specified (R2)"
-title: "Required property binding type not specified (R2) | Microsoft Docs"
+title: "Required property binding type not specified (R2)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c8e45783-6454-44e2-867e-e30092725f51
-caps.latest.revision: 20
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Required property binding type not specified (R2)
 ## Details  

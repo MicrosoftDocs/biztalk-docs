@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Developing a Business Process Management Solution"
-title: "Developing a Business Process Management Solution | Microsoft Docs"
+title: "Developing a Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "developing, process management solution tutorial"
-  - "process management solution tutorial, developing"
-ms.assetid: 3b590533-2b18-4e78-b9e5-88f4a680532f
-caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Developing a Business Process Management Solution
 This section describes the basic patterns involved in the design of the solution and how those patterns translate into BizTalk components and structures. It also follows an order message through processing in the solution, provides additional implementation details, tells you how to version and scale the solution, and provides message and file references. For more information about the solution and the business requirements behind its design, see "Business Requirements" in [Understanding the Business Process Management Solution](../core/understanding-the-business-process-management-solution.md).  

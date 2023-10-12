@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Vocabularies"
-title: "Vocabularies | Microsoft Docs"
+title: "Vocabularies"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "business rules, vocabularies"
-  - "vocabularies, about vocabularies"
-  - "vocabularies"
-  - "Business Rules Engine, vocabularies"
-ms.assetid: 591673a0-2c4d-41ca-9997-b363c086dd66
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Vocabularies
 The terms used to define rule conditions and actions are usually expressed by domain or industry-specific nomenclature. For example, an e-mail user writes rules in terms of messages "received from" and messages "received after," while an insurance business analyst writes rules in terms of "risk factors" and "coverage amount."  

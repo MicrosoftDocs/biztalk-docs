@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Import COBOL Source File Wizard Page (Host Files Designer)"
-title: "Import COBOL Source File Wizard Page (Host Files Designer)1 | Microsoft Docs"
+title: "Import COBOL Source File Wizard Page (Host Files Designer)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ebiz.his.2006.tidesigner.wizard.importcobol.selectitem.hostfiles"
-ms.assetid: b1d0c04d-b04d-4451-b97b-3f43f154de4e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Import COBOL Source File Wizard Page (Host Files Designer)
 Use the **Import COBOL Source File** wizard page to identify the COBOL source file.  

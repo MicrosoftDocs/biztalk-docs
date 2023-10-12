@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Log Shipping"
-title: "Log Shipping | Microsoft Docs"
+title: "Log Shipping"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "backing up, log shipping"
-  - "log shipping"
-ms.assetid: 25bc9724-1c99-43d0-8cd1-3ed8eaa60268
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Log Shipping
 Log shipping provides standby server capabilities, sometimes called a warm backup, which reduces downtime in the event of a system failure.  

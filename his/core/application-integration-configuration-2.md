@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Application Integration (Configuration)"
-title: "Application Integration (Configuration) | Microsoft Docs"
+title: "Application Integration (Configuration)"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 78108a08-e566-433e-b71e-7297e517602a
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Application Integration (Configuration)
 

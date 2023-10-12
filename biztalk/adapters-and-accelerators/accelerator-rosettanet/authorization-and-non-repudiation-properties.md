@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Authorization and Non-Repudiation Properties"
-title: "Authorization and Non-Repudiation Properties | Microsoft Docs"
+title: "Authorization and Non-Repudiation Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "authorization properties"
-  - "non-repudiation, properties"
-ms.assetid: e752b95b-9dae-4403-8f3e-3a0a50acd519
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Authorization and Non-Repudiation Properties
 This topic describes the behavior of the `Is Authorization Required`, `Non-Repudiation of Origin and Content`, and `Non-Repudiation Required (Acknowledgement of Receipt)` properties of Partner Interface Processes (PIPs). It also describes the combinations of these properties that Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] supports.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting JD Edwards EnterpriseOne"
-title: "Troubleshooting JD Edwards EnterpriseOne adapter | Microsoft Docs"
+title: "Troubleshooting JD Edwards EnterpriseOne adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7b3e68fa-b81d-4767-ab62-3200ce89d81c
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting JD Edwards EnterpriseOne
 

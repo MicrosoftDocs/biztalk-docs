@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: New Registry Entry Page"
-title: "New Registry Entry Page | Microsoft Docs"
+title: "New Registry Entry Page"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 204c547c-ed0e-4a1f-a0b2-ce5da00d9c42
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # New Registry Entry Page
 Figure 1 shows the ESB Management Portal New Registry Entry page where you can view a list of the existing endpoints in a specified Microsoft BizTalk Server ESB application.  

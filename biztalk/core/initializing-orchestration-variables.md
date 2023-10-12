@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Initializing Orchestration Variables"
-title: "Initializing Orchestration Variables | Microsoft Docs"
+title: "Initializing Orchestration Variables"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, variables"
-ms.assetid: 770e4e55-1fb9-4b43-854c-63aec5a3c5ba
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Initializing Orchestration Variables
 You can initialize the value of a variable by setting it in the Properties window. For example, you can set the **Initial Value** to 32 to initialize the variable of type System.Int32. When adding an initial value to a variable of type string, you must enclose the initial value in quotation marks in the Properties window. If you want the string to contain a quotation mark, use the backslash as an escape character, and use consecutive backslashes when you want a literal backslash in your string. If you do not specify a value for your variables, your variables will be assigned default values as soon as an instance of your orchestration is created.  

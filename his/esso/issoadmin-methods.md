@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOAdmin Methods"
-title: "ISSOAdmin Methods | Microsoft Docs"
+title: "ISSOAdmin Methods"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5612c2b4-671b-4c28-bddf-7a5249774891
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOAdmin Methods
 The methods of the **ISSOAdmin** interface are listed in the following table. For a complete list of **ISSOAdmin** interface members, see [ISSOAdmin Members](../esso/issoadmin-members.md).  

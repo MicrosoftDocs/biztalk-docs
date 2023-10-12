@@ -1,33 +1,12 @@
 ---
 description: "Learn more about: Loopback"
-title: "Loopback | Microsoft Docs"
+title: "Loopback"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "agreements, 0A1 agreements"
-  - "loopbacks, running"
-  - "loopbacks, 0A1 agreements"
-  - "loopbacks, about loopbacks"
-  - "loopbacks, 0A1 messages"
-  - "agreements, loopback agreements"
-  - "messages, 0A1 messages"
-  - "loopbacks"
-  - "Loopback utility"
-  - "loopbacks, syntax"
-  - "0A1 messages"
-  - "loopbacks, Loopback utility"
-  - "syntax [loopbacks]"
-  - "agreements, Loopback utility"
-ms.assetid: b4ebbdac-05be-4dfc-a133-6b752994e85a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Loopback
 You use the Loopback utility to automatically generate a loopback agreement that is a mirror copy of a home-to-partner agreement. This lets you perform home-to-partner and partner-to-home message exchanges on a single computer. You can use this utility for a scenario with 0A1 messages or a scenario without 0A1 messages. You can create a loopback agreement for an action-message (non-0A1) agreement or a 0A1 agreement.  

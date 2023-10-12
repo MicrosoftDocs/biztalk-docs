@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Status-Session Message"
-title: "Status-Session Message1 | Microsoft Docs"
+title: "Status-Session Message1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7b26c8b2-7b0e-4ee8-a9f5-3325ccaebd44
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Status-Session Message
 [Status-Session](./status-session2.md) messages always flow from the local node to the application and provide information about changes in the state of the session. There are separate **Status-Session** flows for each connection between the application and the local node.  

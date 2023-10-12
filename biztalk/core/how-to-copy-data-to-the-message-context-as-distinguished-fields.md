@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Copy Data to the Message Context as Distinguished Fields"
-title: "How to Copy Data to the Message Context as Distinguished Fields | Microsoft Docs"
+title: "How to Copy Data to the Message Context as Distinguished Fields"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 004a13ca-a162-4a5e-9f72-8a5c55bbb7a6
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Copy Data to the Message Context as Distinguished Fields
 This topic provides step-by-step instructions for promoting a property as a **Distinguished Field**.  

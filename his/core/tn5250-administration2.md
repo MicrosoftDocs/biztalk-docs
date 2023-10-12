@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TN5250 Administration"
-title: "TN5250 Administration2 | Microsoft Docs"
+title: "TN5250 Administration2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 05cba61b-4a44-4ef1-a9b7-d8d45ea369a5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TN5250 Administration
 The local LU, remote LU, and mode must match the configuration information in [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)].  

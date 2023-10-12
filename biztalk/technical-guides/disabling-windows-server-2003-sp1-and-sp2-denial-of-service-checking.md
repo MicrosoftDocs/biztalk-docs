@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Disabling Windows Server 2003 SP1 and SP2 Denial of Service Checking"
-title: "Disabling Windows Server 2003 SP1 and SP2 Denial of Service Checking | Microsoft Docs"
+title: "Disabling Windows Server 2003 SP1 and SP2 Denial of Service Checking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8822c1e4-d146-4361-b25a-7b81cd5cdd3b
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Disabling Windows Server 2003 SP1 and SP2 Denial of Service Checking
 > [!NOTE]

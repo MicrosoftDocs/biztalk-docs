@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Remove BAM Views"
-title: "How to Remove BAM Views | Microsoft Docs"
+title: "How to Remove BAM Views"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM, views"
-  - "managing [BAM definitions], deleting views"
-  - "Remove-View command [BAM]"
-ms.assetid: 1a43ec81-20b1-41f7-941f-753132ac9ed2
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Remove BAM Views
 Administrators use the **remove-view** command to remove a view from the BAM Primary Import database.  

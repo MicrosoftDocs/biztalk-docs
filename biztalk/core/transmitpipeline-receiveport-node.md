@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: TransmitPipeline (ReceivePort Node)"
-title: "TransmitPipeline (ReceivePort Node) | Microsoft Docs"
+title: "TransmitPipeline (ReceivePort Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "TransmitPipeline node [binding file]"
-ms.assetid: 0f3b728f-1e4a-40e5-9ca9-f7dcdf995cbe
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # TransmitPipeline (ReceivePort Node)
 The TransmitPipeline node of the ReceivePort node of a binding file provides specific information about the send pipeline bound to a two way receive port exported with the binding file.  

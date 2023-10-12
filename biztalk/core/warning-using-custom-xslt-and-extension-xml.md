@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Warning - Using Custom XSLT and Extension XML"
-title: "Warning - Using Custom XSLT and Extension XML | Microsoft Docs"
+title: "Warning - Using Custom XSLT and Extension XML"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.warning.usingCustomXsltAndExtensionXML"
-ms.assetid: b86da5fb-6435-4e3b-89b6-d9d036b5152b
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Warning - Using Custom XSLT and Extension XML
 **Error Code**  

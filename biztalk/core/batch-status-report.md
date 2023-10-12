@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Batch Status Report"
-title: "Batch Status Report | Microsoft Docs"
+title: "Batch Status Report"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 04dad016-e7bb-45cd-b36a-a9c83d073501
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Batch Status Report
 This report shows the activity of instances of the batching orchestration. Each row in the report indicates the status of the batches being processed by a single instance of the batching orchestration.  

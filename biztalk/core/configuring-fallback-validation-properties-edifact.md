@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Fallback Validation Properties (EDIFACT)"
-title: "Configuring Fallback Validation Properties (EDIFACT) | Microsoft Docs"
+title: "Configuring Fallback Validation Properties (EDIFACT)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b925d063-e24b-4cfb-acbd-dcadb511011d
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Fallback Validation Properties (EDIFACT)
 This section provides instructions on how to prevent duplicate control numbers from being processed.  

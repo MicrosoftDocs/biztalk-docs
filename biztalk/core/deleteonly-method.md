@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: DeleteOnly Method"
-title: "DeleteOnly Method | Microsoft Docs"
+title: "DeleteOnly Method"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "DeleteOnly method"
-ms.assetid: 99e1d7af-1450-439b-882f-de677e593bee
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # DeleteOnly Method
 Allows you to delete items in a collection.  

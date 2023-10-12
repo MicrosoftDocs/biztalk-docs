@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SDLC Adapters and Link Services: Installation Pointers"
-title: "SDLC Adapters and Link Services: Installation Pointers2 | Microsoft Docs"
+title: "SDLC Adapters and Link Services: Installation Pointers2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d01dc25c-7aed-466a-a514-8f15320009e4
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SDLC Adapters and Link Services: Installation Pointers
 An SDLC link service enables the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] software to communicate with the SDLC adapter. For detailed information about using a particular SDLC adapter or a particular modem (or DCE), see the adapter, modem, or DCE documentation.  

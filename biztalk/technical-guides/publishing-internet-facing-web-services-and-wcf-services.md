@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Publishing Internet-facing Web Services and WCF Services"
-title: "Publishing Internet-facing Web Services and WCF Services | Microsoft Docs"
+title: "Publishing Internet-facing Web Services and WCF Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e7553608-f57a-470e-91d4-75504b3fd52b
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Publishing Internet-facing Web Services and WCF Services
 You can use multiple approaches for publishing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Web services and WCF services to the Internet:

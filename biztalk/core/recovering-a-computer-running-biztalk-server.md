@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Recovering a Computer Running BizTalk Server"
-title: "Recovering a Computer Running BizTalk Server | Microsoft Docs"
+title: "Recovering a Computer Running BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a55af6d6-f11a-46e4-9b8e-0a1ca35998c4
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Recovering a Computer Running BizTalk Server
 In order to recover a computer running BizTalk Server, you must be able to access the BizTalk Server databases. If necessary, restore the BizTalk Server databases. In addition, before you can recover the computer running BizTalk Server, you must reinstall BizTalk Server and all of the prerequisites.  

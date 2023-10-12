@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Defining a TCP/IP Remote Environment"
-title: "Defining a TCP-IP Remote Environment2 | Microsoft Docs"
+title: "Defining a TCP-IP Remote Environment2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c38e7c02-736d-4514-916f-aa33773e9ac5
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Defining a TCP/IP Remote Environment
 The following table shows how you can define a TCP/IP remote environment (RE) to fit each of the five mainframe-based programming models even though there are only two Transaction Integrator (TI) RE types.  

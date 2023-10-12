@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Business Rules Framework Walkthroughs"
-title: "Business Rules Framework Walkthroughs | Microsoft Docs"
+title: "Business Rules Framework Walkthroughs"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 55dfb642-c2fc-40f7-a343-41712e812041
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Business Rules Framework Walkthroughs
 This section contains the following walkthroughs for using the Business Rules Framework.  

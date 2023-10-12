@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Understand BizTalk Adapter for SQL Server"
-title: "Understand BizTalk Adapter for SQL Server | Microsoft Docs"
+title: "Understand BizTalk Adapter for SQL Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 302a7f20-ffa2-49f1-a4c4-dd713adc23e1
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Understand BizTalk Adapter for SQL Server
 The [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)] enables service-oriented programmatic access making it possible to interact with an external system. The adapters provide the following advantages to clients:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LPI Addresses"
-title: "LPI Addresses1 | Microsoft Docs"
+title: "LPI Addresses1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bca4c487-0374-47ab-ae52-72e5d50a9056
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LPI Addresses
 An LPI address is used to identify each end of a connection. It has three components: locality (L), partner (P), and index (I), as described in the following list:  

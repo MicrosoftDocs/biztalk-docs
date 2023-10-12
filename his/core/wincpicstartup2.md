@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: WinCPICStartup"
-title: "WinCPICStartup2 | Microsoft Docs"
+title: "WinCPICStartup2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1a43284b-8448-4eff-a716-2c16ad9a8e2a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # WinCPICStartup
 The **WinCPICStartup** function allows an application to specify the version of Microsoft Windows Common Programming Interface for Communications (CPI-C) required and to retrieve details of the specific Windows CPI-C implementation. This function must be called by an application to register itself with a Windows CPI-C implementation before issuing any further Windows CPI-C calls.  

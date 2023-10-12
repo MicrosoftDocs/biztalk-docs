@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Implementing BAM Solutions"
-title: "Implementing BAM Solutions | Microsoft Docs"
+title: "Implementing BAM Solutions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 18a5bc04-1b0a-4242-b599-760e696f5c06
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Implementing BAM Solutions
 This section describes ways to implement your BAM solution, including capturing data of interest, sending data to BAM, and modifying the data you send to BAM as a result of changing business requirements.  

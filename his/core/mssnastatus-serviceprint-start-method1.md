@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSnaStatus_ServicePrint.Start Method"
-title: "MsSnaStatus_ServicePrint.Start Method1 | Microsoft Docs"
+title: "MsSnaStatus_ServicePrint.Start Method1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: df812b2f-10be-4f56-946f-7620e6b4745e
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSnaStatus_ServicePrint.Start Method
 Starts the print service.  

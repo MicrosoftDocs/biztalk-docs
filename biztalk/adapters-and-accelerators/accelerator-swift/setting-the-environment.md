@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Setting the Environment"
-title: "Setting the Environment | Microsoft Docs"
+title: "Setting the Environment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 43027efc-acec-4110-96bd-cc4a19daaeab
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Setting the Environment
 **To set the environment:**  

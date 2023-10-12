@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: SWIFT Send Adapter Synchronous Mode"
-title: "SWIFT Send Adapter Synchronous Mode | Microsoft Docs"
+title: "SWIFT Send Adapter Synchronous Mode"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 90ffdfa8-908a-4f66-9e7e-36896e10f0e1
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SWIFT Send Adapter Synchronous Mode
 The following diagram shows the sequence of actions that the send adapter in synchronous mode performs to send a message over SWIFT.  

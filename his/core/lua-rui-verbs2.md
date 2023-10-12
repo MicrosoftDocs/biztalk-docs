@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LUA RUI Verbs"
-title: "LUA RUI Verbs2 | Microsoft Docs"
+title: "LUA RUI Verbs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 62fe3791-7c79-4c90-97bb-0ea482b454c2
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LUA RUI Verbs
 This section describes the Microsoft® Windows® logical unit application (LUA) Request Unit Interface (RUI) verbs. It provides the following information for each RUI verb:  

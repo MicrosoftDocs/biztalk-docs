@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Use the Oracle Database Adapter with SharePoint"
-title: "Use the Oracle Database Adapter with SharePoint | Microsoft Docs"
+title: "Use the Oracle Database Adapter with SharePoint"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 254204e5-3b5d-4e70-97ab-817660d1206a
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Use the Oracle Database Adapter with SharePoint
 The WCF Adapter Service Development Wizard for [!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)] enables the Microsoft BizTalk Adapter for Oracle Database and the Microsoft BizTalk Adapter for Oracle E-Business Suite to be directly consumed as an external datasource in Microsoft SharePoint. The Add Service Development Wizard that supports this feature is launched with the **WCF Adapter Service** template for creating a new Visual C# Web Sites in [!INCLUDE[btsVStudioNoVersion_md](../../includes/btsvstudionoversion-md.md)]. The template is included with the [!INCLUDE[adapterpacknoversion_md](../../includes/adapterpacknoversion-md.md)]. You must also install the Microsoft Windows Communication Foundation (WCF) Line of Business (LOB) Adapter SDK.  

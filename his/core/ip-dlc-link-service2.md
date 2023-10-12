@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: IP-DLC Link Service"
-title: "IP-DLC Link Service2 | Microsoft Docs"
+title: "IP-DLC Link Service2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b7b48169-97f6-4688-b949-b6f7e1199f94
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # IP-DLC Link Service
 This section describes the configuration and use of the IP-DLC Link Service.  

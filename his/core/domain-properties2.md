@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Domain Properties"
-title: "Domain Properties2 | Microsoft Docs"
+title: "Domain Properties2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "SNA_Domain"
-ms.assetid: 21420c12-fa88-49c2-9b16-2abcef9823ac
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Domain Properties
 The following tabs are available for the SNA Subdomain Properties sheet:  

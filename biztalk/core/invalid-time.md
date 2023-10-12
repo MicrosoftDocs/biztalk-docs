@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid Time"
-title: "Invalid Time | Microsoft Docs"
+title: "Invalid Time"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6942eb77-3ef1-460c-ac4f-8f1339c25d1b
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid Time
 ## Details  

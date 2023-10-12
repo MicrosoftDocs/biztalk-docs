@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Architecture overview of BizTalk Adapter for SQL Server"
-title: "Architecture overview of BizTalk Adapter for SQL Server | Microsoft Docs"
+title: "Architecture overview of BizTalk Adapter for SQL Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d31eb73f-b73e-4cd3-8b62-207b806175ee
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Architecture overview of BizTalk Adapter for SQL Server
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding. This binding contains a single custom transport binding element that enables communication with a SQL Server database. The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] is wrapped by the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] run time and is exposed to applications through the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel architecture. The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] communicates with the SQL Server database through ADO.NET.

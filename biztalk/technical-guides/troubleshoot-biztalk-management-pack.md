@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting"
-title: "Troubleshooting the BizTalk Server Management Pack | Microsoft Docs"
+title: "Troubleshooting the BizTalk Server Management Pack"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 676fd891-ee7f-49fc-a6d7-204dc6f2f382
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting
 There are a number of actions that you can take to troubleshoot BizTalk Server management pack issues:  

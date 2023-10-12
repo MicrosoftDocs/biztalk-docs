@@ -1,19 +1,12 @@
 ---
 description: "Learn how the BizTalk Editor extension performs schema validation."
-title: "Schema Validation1 | Microsoft Docs"
+title: "Schema Validation1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 599f1bbb-2af5-4278-8b0f-0e5a6517e8e3
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # About Schema Validation
 

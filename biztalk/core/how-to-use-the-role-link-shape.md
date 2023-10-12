@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Use the Role Link Shape"
-title: "How to Use the Role Link Shape | Microsoft Docs"
+title: "How to Use the Role Link Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Role Link shape [Orchestration Designer], adding links"
-  - "links [roles], adding"
-  - "Role Link shape [Orchestration Designer], about Role Link shape"
-  - "links [roles], deleting"
-  - "Role Link shape [Orchestration Designer]"
-  - "Role Link shape [Orchestration Designer], deleting links"
-ms.assetid: 857d493e-ef08-4a2f-b11d-0471932b8671
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use the Role Link Shape
 A **Role Link** shape contains placeholders for an implements role or provider role and a uses role or consumer role. It can include one of either, or one of each.  

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Tutorial 1: Presenting Data from an SAP System on a SharePoint Site"
-title: "Tutorial 1: Presenting Data from an SAP System on a SharePoint Site | Microsoft Docs"
+title: "Tutorial 1: Presenting Data from an SAP System on a SharePoint Site"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "MOSS, creating an application in"
-  - "Microsoft Office SharePoint Server"
-  - "MOSS"
-  - "Microsoft Office SharePoint Server, creating an application in"
-ms.assetid: 6e31c365-446c-4fe1-8538-fa6c869eed63
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorial 1: Presenting Data from an SAP System on a SharePoint Site
 This tutorial provides detailed instructions on using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] with Microsoft Office SharePoint Server to present business data from an SAP system on a SharePoint portal. To demonstrate how to use the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] with Office SharePoint Server, consider the two most common entities in any business: customers and sales orders. In this example, an application is created in Office SharePoint Server, which uses the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] to do the following:  

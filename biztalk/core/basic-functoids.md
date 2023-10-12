@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Basic Functoids"
-title: "Basic Functoids | Microsoft Docs"
+title: "Basic Functoids"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cd4b6924-4ad1-4297-a12f-22de11328bab
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Basic Functoids
 Any functoid not in the **Advanced** category is considered a basic functoid. Basic functoids are generally easy to use, having few and, often, straightforward input parameters to be configured. This section provides conceptual information about the basic functoids, organized by category.  

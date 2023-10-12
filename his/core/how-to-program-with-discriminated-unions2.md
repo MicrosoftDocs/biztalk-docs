@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Program with Discriminated Unions"
-title: "How to Program with Discriminated Unions2 | Microsoft Docs"
+title: "How to Program with Discriminated Unions2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5544ff73-7b3e-4e8f-a565-0b9147aca4a8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Program with Discriminated Unions
 A discriminated union is a data structure that can hold a data value of several different types. Host Integration Server uses discriminated unions with several providers, such as the Managed Provider for Host Files. When creating an application that uses Remoting or Web Services, you must satisfy the Web Services Description Language (WSDL) requirements for the discriminated union. WSDL generation constraints require that all structures in an object be used in a method call. Therefore, you need to ensure that all the structures in a discriminated union are also used, even if only in a piece of stub code.  

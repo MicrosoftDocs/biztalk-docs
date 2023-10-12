@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: FILLER for Discontiguous Output Area and Return Value"
-title: "FILLER for Discontiguous Output Area and Return Value2 | Microsoft Docs"
+title: "FILLER for Discontiguous Output Area and Return Value2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 60d0f112-18cc-49b5-a85c-905b80fd2b30
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # FILLER for Discontiguous Output Area and Return Value
 If the return value is discontiguous from the output area, you must calculate and manually specify the filler between the return value and the output area.  

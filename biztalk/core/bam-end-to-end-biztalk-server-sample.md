@@ -1,19 +1,12 @@
 ---
-title: "BAM End-to-End sample in BizTalk Server | Microsoft Docs"
+title: "BAM End-to-End sample in BizTalk Server"
 description: Scenario on how to correlate events from multiple components using Business Activity Monitoring in BizTalk Server
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 81406038-7f3f-499f-a003-12423d92c44b
-caps.latest.revision: 35
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BAM End-to-End (BizTalk Server Sample)
 The End-to-End sample demonstrates how to correlate events from multiple components (in this case, three orchestrations and a pipeline) by using BAM.  

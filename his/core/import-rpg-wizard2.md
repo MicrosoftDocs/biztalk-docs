@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Import RPG Wizard"
-title: "Import RPG Wizard2 | Microsoft Docs"
+title: "Import RPG Wizard2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bce15017-57a4-4e9c-a495-c2a501d50893
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Import RPG Wizard
 The **Import RPG Wizard** allows you to import the definitions from Report Program Generator (RPG) source code written for use by distributed program call (DPC) applications running on AS/400 computers.  

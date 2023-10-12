@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Code Page Specification for Flat File Schemas"
-title: "Code Page Specification for Flat File Schemas | Microsoft Docs"
+title: "Code Page Specification for Flat File Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 825e75f1-893c-4c61-b566-f893d732a907
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Code Page Specification for Flat File Schemas
 

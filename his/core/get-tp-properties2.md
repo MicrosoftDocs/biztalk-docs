@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: GET_TP_PROPERTIES"
-title: "GET_TP_PROPERTIES2 | Microsoft Docs"
+title: "GET_TP_PROPERTIES2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0d2ee8f7-04f4-45c9-ab63-9f668c77f328
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # GET_TP_PROPERTIES
 The **GET_TP_PROPERTIES** verb returns attributes of the transaction program (TP) and the current transaction.  

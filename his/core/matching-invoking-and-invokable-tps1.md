@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Matching Invoking and Invokable TPs"
-title: "Matching Invoking and Invokable TPs1 | Microsoft Docs"
+title: "Matching Invoking and Invokable TPs1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e968af29-a458-431f-8005-71a2d102b1d0
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Matching Invoking and Invokable TPs
 Each computer running Host Integration Server maintains a list of available invokable TP names and any LU aliases to be associated with the TP names. This information is obtained as follows:  

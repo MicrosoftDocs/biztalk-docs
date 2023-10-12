@@ -1,19 +1,12 @@
 ---
-title: "Tutorial: Integrating BizTalk Server 2013 with Salesforce | Microsoft Docs"
+title: "Tutorial: Integrating BizTalk Server 2013 with Salesforce"
 description: Use Service Bus and BIzTalk Server to integrate with Salesforce
 ms.custom: ""
 ms.date: "12/07/2015"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 06c9ae51-3f48-4086-883b-ab4d5b6e62e3
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorial: Integrating BizTalk Server 2013 with Salesforce
 Reviewers: [Nick Hauenstein](https://social.msdn.microsoft.com/profile/nick.hauenstein/), [Steef-Jan Wiggers](https://social.msdn.microsoft.com/profile/steef-jan%20wiggers)

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Required service certificate thumbprint not specified"
-title: "Required service certificate thumbprint not specified | Microsoft Docs"
+title: "Required service certificate thumbprint not specified"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ca853667-83b5-41f2-9b54-8117b87e27d3
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Required service certificate thumbprint not specified
 ## Details  

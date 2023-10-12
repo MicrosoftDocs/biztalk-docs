@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Build Errors in the Task List"
-title: "Build Errors in the Task List | Microsoft Docs"
+title: "Build Errors in the Task List"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "building, errors"
-  - "errors, building"
-ms.assetid: 05b36511-3031-4e13-ac2f-bfdbec0f48cb
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Build Errors in the Task List
 When you build your project, or solution, the results will appear in the Output window, while individual errors and warnings will appear in the task list.

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Unable to create endpoint behavior configuration element from XML configuration"
-title: "Unable to create endpoint behavior configuration element from XML configuration | Microsoft Docs"
+title: "Unable to create endpoint behavior configuration element from XML configuration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 89d906a4-ea85-42d8-8e9e-0a3a7774bcd8
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Unable to create endpoint behavior configuration element from XML configuration
 ## Details  

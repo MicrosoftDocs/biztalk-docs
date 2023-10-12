@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SSO Components"
-title: "SSO Components | Microsoft Docs"
+title: "SSO Components"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c0a13b5b-6c73-4b0d-b05e-fc9a395d6196
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SSO Components
 The sub services of the Enterprise Single Sign-On (SSO) service are as follows:  

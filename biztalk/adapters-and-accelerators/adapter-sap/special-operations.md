@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Special Operations"
-title: "Special Operations | Microsoft Docs"
+title: "Special Operations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "operations, special operations surfaced by the SAP adapter"
-ms.assetid: 8725fe63-6ff4-49c8-b386-d4c67e2be440
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Special Operations
 The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces several special operations. These operations are not based on SAP system artifacts. They are surfaced to provide functionality for adapter client applications. The special operations are:  

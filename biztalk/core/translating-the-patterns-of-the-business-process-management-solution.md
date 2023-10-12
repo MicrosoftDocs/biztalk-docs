@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Translating the Patterns of the Business Process Management Solution"
-title: "Translating the Patterns of the Business Process Management Solution | Microsoft Docs"
+title: "Translating the Patterns of the Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "artifacts, patterns"
-  - "patterns [process management solutions], orchestration boundaries"
-  - "patterns [process management solutions], translating patterns to artifacts"
-  - "orchestrations, patterns"
-  - "orchestrations, boundaries"
-ms.assetid: 69f37732-f235-4bbb-bc85-31b4971c95ce
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Translating the Patterns of the Business Process Management Solution
 This section describes how the solution translates the pattern diagram into BizTalk Server artifacts.  

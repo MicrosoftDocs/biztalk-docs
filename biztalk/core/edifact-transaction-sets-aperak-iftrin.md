@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: EDIFACT Transaction Sets APERAK-IFTRIN"
-title: "EDIFACT Transaction Sets APERAK-IFTRIN | Microsoft Docs"
+title: "EDIFACT Transaction Sets APERAK-IFTRIN"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f22e42cd-6acf-4c60-8d6e-a744f3296560
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # EDIFACT Transaction Sets APERAK-IFTRIN
 This topic lists the EDIFACT transaction sets that are supported by BizTalk Server.  

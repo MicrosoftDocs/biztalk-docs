@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Loading BAM Interceptors Using the BAM API"
-title: "Loading BAM Interceptors Using the BAM API | Microsoft Docs"
+title: "Loading BAM Interceptors Using the BAM API"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d77ea5fb-a796-48f1-8c77-173e995c5252
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Loading BAM Interceptors Using the BAM API
 This topic provides information about loading the WF and WCF interceptors from your code rather than through a configuration file.  

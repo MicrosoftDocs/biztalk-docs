@@ -1,19 +1,12 @@
 ---
 description: "Learn how to avoid disk contention in a BizTalk Server system."
-title: "How to Avoid Disk Contention1 | Microsoft Docs"
+title: "How to Avoid Disk Contention1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8b4f8e10-16b0-45f9-8787-da16266da980
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Avoid Disk Contention
 

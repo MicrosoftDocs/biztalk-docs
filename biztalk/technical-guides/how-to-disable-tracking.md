@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Disable Tracking"
-title: "How to Disable Tracking | Microsoft Docs"
+title: "How to Disable Tracking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4b1e6cdd-8266-494d-b6e7-260ac5a4f2fb
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Disable Tracking
 This topic describes how to disable tracking using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. You can configure various tracking options during runtime for orchestrations, send ports, receive ports, and pipelines using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console. You can change the tracking options for an item at any time, without interrupting the business process.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10820"
-title: "Single Sign-On: Event 10820 | Microsoft Docs"
+title: "Single Sign-On: Event 10820"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2da93a2c-d00d-4ca0-a0cf-453cee4bf3c3
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10820
 ## Details  

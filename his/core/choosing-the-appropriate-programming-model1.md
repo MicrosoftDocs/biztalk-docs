@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Choosing the Appropriate Programming Model"
-title: "Choosing the Appropriate Programming Model1 | Microsoft Docs"
+title: "Choosing the Appropriate Programming Model1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 803bb2c1-38fe-4963-a2ca-70531f43725d
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Choosing the Appropriate Programming Model
 A programming model determines the method used to access and integrate host applications and configuration requirements depending on the specific solution goals. Implementing TI or the Azure Logic Apps connectors for Mainframe and Midranges, may require modification to the existing mainframe TPs to be able to fit the programming models that it supports. Specifically, this may be necessary when:  

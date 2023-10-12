@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Step 7: Creating and Configuring Ports"
-title: "Step 7: Creating and Configuring Ports | Microsoft Docs"
+title: "Step 7: Creating and Configuring Ports"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "private process tutorial, creating ports"
-  - "private process tutorial, configuring ports"
-ms.assetid: c00344c6-506a-4560-a948-e5fed2b9fd58
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 7: Creating and Configuring Ports
 In this step, you create and configure the ports you use to communicate with business processes. Each port has a type, direction, and binding property. These properties establish the direction and pattern of communication, the location of where the message is sent or received, and how the communication occurs.  

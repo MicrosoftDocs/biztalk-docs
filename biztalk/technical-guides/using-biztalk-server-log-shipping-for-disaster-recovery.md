@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Using BizTalk Server Log Shipping for Disaster Recovery"
-title: "Using BizTalk Server Log Shipping for Disaster Recovery | Microsoft Docs"
+title: "Using BizTalk Server Log Shipping for Disaster Recovery"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5d65015c-de53-4590-b644-5c2f66f763db
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using BizTalk Server Log Shipping for Disaster Recovery
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] implements database standby capabilities through the use of database log shipping. [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] log shipping automates the backup and restore of database and transaction log files, allowing a standby server to resume database processing in the event that the production database server fails.  

@@ -1,20 +1,12 @@
 ---
 description: "Learn more about: Step 6: Creating the Fabrikam 3A4 Trading Partner Agreement"
-title: "Step 6: Creating the Fabrikam 3A4 Trading Partner Agreement | Microsoft Docs"
+title: "Step 6: Creating the Fabrikam 3A4 Trading Partner Agreement"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "double action tutorial, creating agreements"
-ms.assetid: 6ccd2414-a1d4-460e-9529-65b2d30cfca6
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 6: Creating the Fabrikam 3A4 Trading Partner Agreement
 In this step, you create a trading partner agreement between Contoso and Fabrikam using the Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console. You create a new trading partner agreement for the 3A4 Partner Interface Process (PIP).  

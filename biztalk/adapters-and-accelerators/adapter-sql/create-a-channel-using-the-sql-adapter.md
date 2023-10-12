@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Create a channel using the SQL adapter"
-title: "Create a channel using the SQL adapter | Microsoft Docs"
+title: "Create a channel using the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e86398f6-c835-46f8-814f-31e43b18970e
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create a channel using the SQL adapter
 In the WCF channel model, you invoke operations on the SQL Server database and receive the results by exchanging SOAP messages with the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] over a WCF channel.  

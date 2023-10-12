@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid Authorization Qualifier"
-title: "Invalid Authorization Qualifier | Microsoft Docs"
+title: "Invalid Authorization Qualifier"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bc2a9f83-833f-4ea0-9421-7382ee1b1a54
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid Authorization Qualifier
 ## Details  

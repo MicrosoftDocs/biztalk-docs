@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Disposition-Notification-Option is invalid"
-title: "Disposition-Notification-Option is invalid | Microsoft Docs"
+title: "Disposition-Notification-Option is invalid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a1b807a8-eec9-45a5-83cc-075c91b4bc9e
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Disposition-Notification-Option is invalid
 ## Details  

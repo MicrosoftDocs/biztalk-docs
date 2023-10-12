@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Export BPEL4WS"
-title: "How to Export BPEL4WS | Microsoft Docs"
+title: "How to Export BPEL4WS"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BPEL4WS, exporting"
-  - "BPEL4WS, restrictions"
-  - "orchestrations, BPEL4WS"
-ms.assetid: 4648dfcf-cf48-4471-b088-07252c080fb8
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Export BPEL4WS
 You can export an existing BizTalk orchestration to BPEL4WS.  

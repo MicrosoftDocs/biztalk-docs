@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Creating and Deploying Policies for New Message Types"
-title: "Creating and Deploying Policies for New Message Types | Microsoft Docs"
+title: "Creating and Deploying Policies for New Message Types"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 43343238-ec45-44ed-a230-9e234bd22d05
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating and Deploying Policies for New Message Types
 To create and deploy policies for new message types:  

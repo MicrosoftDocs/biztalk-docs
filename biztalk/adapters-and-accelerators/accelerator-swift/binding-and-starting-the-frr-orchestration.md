@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Binding and Starting the FRR Orchestration"
-title: "Binding and Starting the FRR Orchestration | Microsoft Docs"
+title: "Binding and Starting the FRR Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "FRR, binding orchestrations"
-  - "FRR, starting orchestrations"
-  - "bindings, orchestrations"
-  - "orchestrations, bindings"
-ms.assetid: b74a0116-e98b-4fec-b386-710ce421a1e2
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Binding and Starting the FRR Orchestration
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] includes the FRR orchestration as a deployed assembly (Microsoft .Solutions.FinancialServices.SWIFT.FrrOrchestration). You need to start this orchestration.  

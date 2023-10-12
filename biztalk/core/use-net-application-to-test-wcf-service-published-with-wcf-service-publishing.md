@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Create a .NET Application to Test a WCF Service Published with the BizTalk WCF Service Publishing Wizard"
-title: "How to Create a .NET Application to Test a WCF Service Published with the BizTalk WCF Service Publishing Wizard | Microsoft Docs"
+title: "How to Create a .NET Application to Test a WCF Service Published with the BizTalk WCF Service Publishing Wizard"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "WCF services, .NET applications"
-  - "WCF services, WCF Service Publishing Wizard"
-  - "creating, .NET applications [WCF services]"
-  - "WCF Service Publishing Wizard"
-ms.assetid: 17e39db2-8471-4f6f-a7f1-833023cdbc39
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create a .NET Application to Test a WCF Service Published with the BizTalk WCF Service Publishing Wizard
 To test your published WCF service, you can create a .NET application that consumes your published WCF service. This topic describes how to create a .NET application to test a published WCF service.

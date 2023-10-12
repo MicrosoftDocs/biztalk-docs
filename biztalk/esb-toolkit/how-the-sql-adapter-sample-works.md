@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How the SQL Adapter Sample Works"
-title: "How the SQL Adapter Sample Works | Microsoft Docs"
+title: "How the SQL Adapter Sample Works"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 77811152-cc8e-4090-89eb-e3a402a46e5e
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How the SQL Adapter Sample Works
 The SQL Adapter sample provides a sample two-way itinerary configured with the routing service and a transform messaging service.  

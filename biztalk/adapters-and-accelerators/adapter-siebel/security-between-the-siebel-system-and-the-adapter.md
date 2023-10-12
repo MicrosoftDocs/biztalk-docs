@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Security between the Siebel system and the adapter"
-title: "Security between the Siebel system and the adapter | Microsoft Docs"
+title: "Security between the Siebel system and the adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "security, IPsec"
-  - "connection URI"
-  - "security considerations, between the Siebel system and the adapter"
-ms.assetid: 40b03d4e-f489-4dce-ba7b-6b6f394275ac
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security between the Siebel system and the adapter
 ## Encryption and authentication

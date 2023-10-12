@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Enable a Receive Location"
-title: "How to Enable a Receive Location | Microsoft Docs"
+title: "How to Enable a Receive Location"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "enabling, receive locations"
-  - "managing [receive locations], enabling"
-  - "receive locations, enabling"
-ms.assetid: ea1647cd-7bcb-4603-a64e-23b3fb0622a5
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Enable a Receive Location
 This topic describes how to use the BizTalk Server Administration console to enable a receive location. A receive location must be enabled before it can receive messages.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Using the Resolver Components in Your Code"
-title: "Using the Resolver Components in Your Code | Microsoft Docs"
+title: "Using the Resolver Components in Your Code"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d197cb28-78a9-4c8a-872b-f61ef15e6622
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the Resolver Components in Your Code
 The following code fragment from the dynamic transformation agent shows the default just-in-time (JIT) resolution functionality. You can easily implement resolution in your own application by using similar code.  

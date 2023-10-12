@@ -1,16 +1,10 @@
 ---
-title: White papers, blogs, and downloads for Host Integration Server | Microsoft Docs
+title: White papers, blogs, and downloads for Host Integration Server
 description: Management packs, SDKs, best practices analyzer, and white paper downloads for HIS
-author: "MandiOhlinger"
-manager: "anneta"
-
 ms.date: "08/10/2017"
 ms.prod: "biztalk-server"
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.author: "mandia"
 ---
 
 # HIS popular downloads and blogs

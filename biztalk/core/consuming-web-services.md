@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Consuming Web Services"
-title: "Consuming Web Services | Microsoft Docs"
+title: "Consuming Web Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SOAP adapters, Web services"
-  - "orchestrations, Web services"
-  - "Web services, consuming"
-  - "Web services, orchestrations"
-ms.assetid: 803ba623-86e7-479a-a4b6-5b576fee8825
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Consuming Web Services
 Consuming Web services enables you to add existing Web services to your business process. You can aggregate several Web services into a single orchestration.  

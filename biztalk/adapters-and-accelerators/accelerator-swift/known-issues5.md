@@ -1,23 +1,12 @@
 ---
 description: "Learn about known issues with the Microsoft BizTalk Accelerator for SWIFT (A4SWIFT) that may help you avoid errors."
-title: "Known Issues5 | Microsoft Docs"
+title: "Known Issues5"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "troubleshooting, known issues"
-  - "BizTalk Accelerator for SWIFT, known issues"
-  - "known issues"
-ms.assetid: 0f1ec7dd-9e74-479a-bdc8-ab9c4397c992
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues for Microsoft BizTalk Accelerator for SWIFT (A4SWIFT)
 

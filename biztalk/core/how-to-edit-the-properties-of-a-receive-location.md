@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Edit the Properties of a Receive Location"
-title: "How to Edit the Properties of a Receive Location | Microsoft Docs"
+title: "How to Edit the Properties of a Receive Location"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [receive locations], properties"
-  - "managing [receive locations], editing"
-  - "receive locations, properties"
-  - "receive locations, editing"
-  - "editing, receive locations"
-  - "editing, properties"
-ms.assetid: 2b622050-a875-4896-bed6-65ca39a26dd3
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Edit the Properties of a Receive Location
 This topic describes how to use the BizTalk Server Administration console to edit properties of an existing receive location. For instructions on creating a receive location, see [How to Create a Receive Location](../core/how-to-create-a-receive-location.md).  

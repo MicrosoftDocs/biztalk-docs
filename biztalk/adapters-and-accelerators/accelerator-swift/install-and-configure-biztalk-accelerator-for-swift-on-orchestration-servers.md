@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Installing and Configuring BizTalk Accelerator for SWIFT on Orchestration Servers"
-title: "Installing and Configuring BizTalk Accelerator for SWIFT on Orchestration Servers | Microsoft Docs"
+title: "Installing and Configuring BizTalk Accelerator for SWIFT on Orchestration Servers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestration server, installing BizTalk Accelerator for SWIFT"
-  - "BizTalk Accelerator for SWIFT, installing on orchestration server"
-ms.assetid: 127113ae-46b4-4290-a2c1-6a3db04cd178
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Installing and Configuring BizTalk Accelerator for SWIFT on Orchestration Servers
 This section describes how to install and configure [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] on the orchestration servers. These servers are mainly used to run the FIN Repair and Reconciliation orchestration and the Message Repair/New Submission orchestration.  

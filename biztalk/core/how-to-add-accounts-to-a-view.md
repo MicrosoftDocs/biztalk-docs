@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Add Accounts to a View"
-title: "How to Add Accounts to a View | Microsoft Docs"
+title: "How to Add Accounts to a View"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Excel add-in [BAM], security"
-  - "Add-Account command [BAM]"
-  - "managing [BAM], adding accounts to views"
-ms.assetid: 0875796c-82a4-4165-9bed-88e8ba466548
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add Accounts to a View
 Administrators use the **add-account** command to associate users with BAM views and protect BAM Excel Spreadsheet views from unauthorized access. When users save BAM views, the views reference a SQL connection string that is hidden within the workbook. The workbook is protected, but you must ensure that the document is protected.  

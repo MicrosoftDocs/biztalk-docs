@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_Lu3270OnConnection Class"
-title: "MsSna_Lu3270OnConnection Class1 | Microsoft Docs"
+title: "MsSna_Lu3270OnConnection Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6002e765-bf21-4a71-b0a4-83b90f480afc
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_Lu3270OnConnection Class
 Associates a 3270 LU with a connection.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Status-Resource (SNADIS)"
-title: "Status-Resource (SNADIS)1 | Microsoft Docs"
+title: "Status-Resource (SNADIS)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e52cfb64-c144-403c-aef4-1c39e85e091f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Status-Resource (SNADIS)
 Flow : DLC \<------> NODE (station connection)  

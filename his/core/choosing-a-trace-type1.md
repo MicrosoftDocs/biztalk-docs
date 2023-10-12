@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Choosing a Trace Type"
-title: "Choosing a Trace Type1 | Microsoft Docs"
+title: "Choosing a Trace Type1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c10c309c-147e-4b15-ab1a-5eafbe014770
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Choosing a Trace Type
 After selecting one or more [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] components to be traced, decide the type of tracing to apply.  

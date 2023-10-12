@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Outbound Data"
-title: "Outbound Data1 | Microsoft Docs"
+title: "Outbound Data1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c8b35aee-962c-4ad1-8f45-df0135abe01a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Outbound Data
 This section describes the outbound data flows from the local node to the application. The overall structure of the protocols described applies to the system services control point (SSCP) and primary logical unit (PLU) connections, but certain features (such as the use of delayed request mode) are only applicable to the PLU connection.  

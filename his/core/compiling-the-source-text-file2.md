@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Compiling the Source Text File"
-title: "Compiling the Source Text File2 | Microsoft Docs"
+title: "Compiling the Source Text File2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 07fd0dfb-6478-473c-bc41-3883f033688c
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Compiling the Source Text File
 After you have created the source text file, the next step is to compile the file using the Pdfcomp (PDFCOMP.EXE) utility located in the \\*platform*\SYSTEM\PRINTSRV directory. To run Pdfcomp, type the following at the command prompt.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AddResource Command: Postprocessing Script"
-title: "AddResource Command: Postprocessing Script | Microsoft Docs"
+title: "AddResource Command: Postprocessing Script"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7d6d1622-1c90-4059-903e-68dcab829744
-caps.latest.revision: 27
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AddResource Command: Postprocessing Script
 To add a postprocessing script to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:PostProcessingScript** for the Type parameter. Running this command adds the script file to the BizTalk Management database. The script file is also displayed in the BizTalk Administration console, in the Resources folder of the application to which you added it. In addition, the file is listed when you use the [ListApp Command](../core/listapp-command.md).  

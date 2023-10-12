@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Additional Sync Point Return Codes"
-title: "Sync Point Return Codes | Microsoft Docs"
+title: "Sync Point Return Codes"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 814ac94d-9bc0-450c-81d1-9a6c37df35b7
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Additional Sync Point Return Codes
 When a remote transaction program (TP) issues a **BACKOUT** verb, the back out is reported to the local TP as a new primary return code value, AP_BACKED_OUT, on the next (current) verb issued. The local TP is provided access to the sense code information contained in the Backout FMH-7 by setting the **secondary_rc** field as follows:  

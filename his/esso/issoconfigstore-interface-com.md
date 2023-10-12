@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOConfigStore Interface (COM)"
-title: "ISSOConfigStore Interface (COM) | Microsoft Docs"
+title: "ISSOConfigStore Interface (COM)"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8984aafd-3449-4115-b1ea-20180caadf84
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOConfigStore Interface (COM)
 The **ISSOConfigStore** interface provides administration functions for the Enterprise Single Sign-On (SSO) config store.  

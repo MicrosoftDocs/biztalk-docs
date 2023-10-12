@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Walkthrough: Consuming WCF Services with the WCF-BasicHttp Adapter"
-title: "Walkthrough: Consuming WCF Services with the WCF-BasicHttp Adapter | Microsoft Docs"
+title: "Walkthrough: Consuming WCF Services with the WCF-BasicHttp Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2d280198-ba55-4937-91c9-19d6d0ed3194
-caps.latest.revision: 49
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Walkthrough: Consuming WCF Services with the WCF-BasicHttp Adapter
 

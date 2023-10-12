@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Invoking Business Rules in Orchestrations"
-title: "Invoking Business Rules in Orchestrations | Microsoft Docs"
+title: "Invoking Business Rules in Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Call Rules shape [Orchestration Designer], business rules"
-  - "business rules, orchestrations"
-  - "Call Rules shape [Orchestration Designer], policies"
-  - "policies, Call Rules shape [Orchestration Designer]"
-  - "orchestrations, business rules"
-ms.assetid: ac3a3277-e9ea-4f40-9326-c63076c6b90e
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoking Business Rules in Orchestrations
 You can invoke a policy (or rule set) from an orchestration by using the **Call Rules** shape. The policy invokes the rule engine, which operates on the rules in the policy.  

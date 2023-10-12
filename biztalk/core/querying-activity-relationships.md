@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Querying Activity Relationships"
-title: "Querying Activity Relationships | Microsoft Docs"
+title: "Querying Activity Relationships"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BAM, activity relationships"
-  - "queries [BAM], relationships"
-ms.assetid: e3d42b7c-cc11-4707-9095-cfc518902b26
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Querying Activity Relationships
 The activity relationship information is available in a dynamically created SQL view for each activity. The name of this view is  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Max limit of acceptable Edifact transaction set control number has reached for Guest settings"
-title: "Max limit of acceptable Edifact transaction set control number has reached for Guest settings | Microsoft Docs"
+title: "Max limit of acceptable Edifact transaction set control number has reached for Guest settings"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3924a18c-87bc-4727-b7cd-598d3e5ade2a
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Max limit of acceptable Edifact transaction set control number has reached for Guest settings
 ## Details  

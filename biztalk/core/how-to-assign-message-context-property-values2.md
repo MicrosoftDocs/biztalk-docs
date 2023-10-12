@@ -1,19 +1,12 @@
 ---
 description: "Learn how to read the context property of a message received from a port bound to the Microsoft BizTalk Adapter for JD Edwards OneWorld and assign property values to it."
-title: "How to Assign Message Context Property Values2 | Microsoft Docs"
+title: "How to Assign Message Context Property Values2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 137f82ab-f301-465d-be78-a6e67971dd3b
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Assign Message Context Property Values
 

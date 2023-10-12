@@ -1,19 +1,12 @@
 ---
-title: "Microsoft BizTalk Adapter for Oracle E-Business Suite documentation | Microsoft Docs"
+title: "Microsoft BizTalk Adapter for Oracle E-Business Suite documentation"
 description: Get started, architecture, security, develop apps, message schemas, and troubleshoot the Oracle EBS adapter in BizTalk Adapter Pack
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b1e96fd2-e632-4a07-b18d-c93c5b57e36e
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Microsoft BizTalk Adapter for Oracle E-Business Suite documentation
 The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] includes a variety of resources to help you understand how the adapter works, how to create applications that use the adapter, describes the different connection options, learn to create applications, and more.  

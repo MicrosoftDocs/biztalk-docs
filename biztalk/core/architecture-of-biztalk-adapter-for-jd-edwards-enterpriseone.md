@@ -1,19 +1,12 @@
 ---
-title: "Architecture of BizTalk Adapter for JD Edwards EnterpriseOne | Microsoft Docs"
+title: "Architecture of BizTalk Adapter for JD Edwards EnterpriseOne"
 description: Describes the inbound services at design time and run time, and outbound events at design time and run time in the JD Edwards EnterpriseOne adapter in BizTalk
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0441c5d2-6a46-45b6-8ab5-0bdac3590f56
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Architecture of BizTalk Adapter for JD Edwards EnterpriseOne
 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne provides access to JD Edwards EnterpriseOne business functions. JD Edwards EnterpriseOne communicates between client and server machines using a proprietary messaging architecture called JDENet. JDENet is implemented by the JD Edwards EnterpriseOne connector classes found in the JAR files, Connector.jar and Kernel.jar. Communication is implemented using TCP/IP as a transport protocol, with a default port of 6009 or 6010. For a description of where this value is set, see [Add the artifacts to BizTalk Administration](../core/adding-biztalk-adapter-for-jd-edwards-oneworld.md).  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Create New Mappings Wizard: Create"
-title: "Create New Mappings Wizard: Create1 | Microsoft Docs"
+title: "Create New Mappings Wizard: Create1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4a026a15-100e-4419-98bc-57b267802b31
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Create New Mappings Wizard: Create
 Use this page to create the mappings file with all of the information that has been collected.  

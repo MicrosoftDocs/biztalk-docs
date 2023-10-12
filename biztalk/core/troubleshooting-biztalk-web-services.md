@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting BizTalk Web Services"
-title: "Troubleshooting BizTalk Web Services | Microsoft Docs"
+title: "Troubleshooting BizTalk Web Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cdc86de8-e41e-4878-a66e-e242bcf3b705
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting BizTalk Web Services
 This section offers advice on how to identify and resolve common Web service issues.

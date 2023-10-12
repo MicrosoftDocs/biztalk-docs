@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Defending Against Denial-of-Service Attacks"
-title: "Defending Against Denial-of-Service Attacks | Microsoft Docs"
+title: "Defending Against Denial-of-Service Attacks"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, denial-of-service attacks"
-  - "denial-of-service attacks"
-ms.assetid: 63342d7a-a5df-4e11-9037-93175d8f7ea7
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Defending Against Denial-of-Service Attacks
 Someone could start a denial-of-service attack against an installation of Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] by stressing the RNIFReceive.aspx receive page. They could do so by sending large numbers of empty messages to that page. If left unchecked, such an attack could flood the event log with events published by the ASPX receive page.  

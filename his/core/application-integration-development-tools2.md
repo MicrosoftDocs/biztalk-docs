@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Application Integration Development Tools"
-title: "Application Integration Development Tools2 | Microsoft Docs"
+title: "Application Integration Development Tools2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9aa7c4ea-9593-4353-909d-94cf4e4df451
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Application Integration Development Tools
 This section contains the following topics:  

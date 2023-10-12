@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: How to Add Scripting Functoids to a Map"
-title: "How to Add Scripting Functoids to a Map | Microsoft Docs"
+title: "How to Add Scripting Functoids to a Map"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.mapper.functiod.script"
-ms.assetid: eb96814a-b3fb-48f6-a947-ab595a270faa
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add Scripting Functoids to a Map
 The **Scripting** functoid enables you to use custom script or code at run time to perform functions otherwise not available. For example, you can call a COM object at run time by using the **Scripting** functoid and writing your own custom script.  

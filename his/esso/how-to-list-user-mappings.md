@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to List User Mappings"
-title: "How to List User Mappings | Microsoft Docs"
+title: "How to List User Mappings"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e0af0932-c1e6-4663-897b-e86549ed1acb
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to List User Mappings
 Use the **listmappings** command to list all the existing mappings for the specified user. You must be a Single Sign-On (SSO) Administrator, Application Administrator, SSO Affiliate Administrator, or user to do this task.  

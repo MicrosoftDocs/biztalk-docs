@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues with EDI Migration"
-title: "Known Issues with EDI Migration | Microsoft Docs"
+title: "Known Issues with EDI Migration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cc5d0a7e-974d-4e3b-a406-412420779456
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with EDI Migration
 This topic describes known issues with migration from the EDI/HIPAA adapter model in [!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)] to BizTalk Server.  

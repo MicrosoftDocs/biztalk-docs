@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: bStopService"
-title: "bStopService2 | Microsoft Docs"
+title: "bStopService2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cc1ceb32-9fa4-468c-a4b5-b1bd530806d4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # bStopService
 The **bStopService** function is used to stop a service running on a computer for a link service. This utility function is used to construct an integrated link service configuration dynamic-link library (DLL).  

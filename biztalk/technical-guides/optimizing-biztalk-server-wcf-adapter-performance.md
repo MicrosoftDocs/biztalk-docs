@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Optimizing BizTalk Server WCF Adapter Performance"
-title: "Optimizing BizTalk Server WCF Adapter Performance | Microsoft Docs"
+title: "Optimizing BizTalk Server WCF Adapter Performance"
 ms.custom: "devx-track-javaee-websphere"
 ms.date: "12/30/2022"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2900c845-15be-4466-8fa0-b51b2486842f
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Optimizing BizTalk Server WCF Adapter Performance
 This topic provides recommendations for selecting the appropriate WCF adapter or binding type and guidance for applying various WCF adapter configuration options.

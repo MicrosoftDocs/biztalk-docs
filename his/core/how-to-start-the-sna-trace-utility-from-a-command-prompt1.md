@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Start the SNA Trace Utility from a Command Prompt"
-title: "How to Start the SNA Trace Utility from a Command Prompt1 | Microsoft Docs"
+title: "How to Start the SNA Trace Utility from a Command Prompt1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bdb94dbf-e665-4725-a888-d4bfb5119c44
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Start the SNA Trace Utility from a Command Prompt
 The following procedure details how to start the SNA Trace Utility from a command prompt.  

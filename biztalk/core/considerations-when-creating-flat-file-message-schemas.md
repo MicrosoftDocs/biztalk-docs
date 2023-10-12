@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Considerations When Creating Flat File Message Schemas"
-title: "Considerations When Creating Flat File Message Schemas | Microsoft Docs"
+title: "Considerations When Creating Flat File Message Schemas"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 52271b17-4f0b-4286-a462-cd5951ae49aa
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Considerations When Creating Flat File Message Schemas
 There are a number of considerations when working with flat file message schemas. This includes considerations that apply to all flat file schemas, as well as considerations that apply specifically to positional records, delimited records, positional fields, or delimited fields. There are also considerations about how to interpret otherwise special characters as regular data. This section provides information about these considerations.  

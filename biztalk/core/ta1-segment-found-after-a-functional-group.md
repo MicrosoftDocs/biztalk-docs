@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: TA1 segment found after a functional group"
-title: "TA1 segment found after a functional group | Microsoft Docs"
+title: "TA1 segment found after a functional group"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ee3d090a-0916-4a0e-82dc-2c9af9f97683
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # TA1 segment found after a functional group
 ## Details  

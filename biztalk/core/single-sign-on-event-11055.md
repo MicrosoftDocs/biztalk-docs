@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11055"
-title: "Single Sign-On: Event 11055 | Microsoft Docs"
+title: "Single Sign-On: Event 11055"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7f80d0b0-0c90-495e-8f90-1cc7d6965cdc
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 11055
 ## Details  

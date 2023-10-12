@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: AddResource Command: File"
-title: "AddResource Command: File | Microsoft Docs"
+title: "AddResource Command: File"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e9635e43-af26-48d3-af0e-df245a8955e7
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # AddResource Command: File
 To add a file to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:File** for the Type parameter. Running this command adds the file to the BizTalk Management database. The file is also displayed in the BizTalk Administration console, in the Resources folder of the application to which you added it. In addition, the file is listed when you use the [ListApp Command](../core/listapp-command.md).  

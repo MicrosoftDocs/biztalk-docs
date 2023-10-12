@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Secure programming with the SQL adapter"
-title: "Secure programming with the SQL adapter | Microsoft Docs"
+title: "Secure programming with the SQL adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5c84744a-6595-4d93-afe7-39a7ccf1b6a0
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Secure programming with the SQL adapter
 ## How Do I Protect Credentials When I Use the Add Adapter Service Reference Visual Studio Plug-in?  

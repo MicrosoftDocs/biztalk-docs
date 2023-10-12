@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Using Correlations in Orchestrations"
-title: "Using Correlations in Orchestrations | Microsoft Docs"
+title: "Using Correlations in Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "messages, orchestrations"
-  - "messages, correlation sets"
-  - "correlation sets"
-  - "orchestrations, messages"
-  - "messages, validating"
-ms.assetid: d919afa9-bada-406a-bf4b-7b46c831c6d5
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using Correlations in Orchestrations
 Correlation is the process of matching an incoming message with the appropriate instance of an orchestration. For example, orchestration sends out of a message and receives the response or responses back into the same orchestration. There are three correlated messages exchange patterns:

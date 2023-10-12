@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_LuDisplay Class"
-title: "MsSna_LuDisplay Class2 | Microsoft Docs"
+title: "MsSna_LuDisplay Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 55794ef5-94b0-4b63-b918-9984920bcbd3
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_LuDisplay Class
 Describes a 3270 LU display resource.  

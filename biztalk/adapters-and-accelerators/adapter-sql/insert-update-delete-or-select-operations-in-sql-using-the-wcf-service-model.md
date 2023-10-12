@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Insert, update, delete, or select operations in SQL using the WCF service model"
-title: "Insert, update, delete, or select operations in SQL using the WCF service model | Microsoft Docs"
+title: "Insert, update, delete, or select operations in SQL using the WCF service model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 340048ad-ce28-4acf-ae4e-f18bdb3b6f47
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Insert, update, delete, or select operations in SQL using the WCF service model
 The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] discovers a set of basic Insert, Select, Update, and Delete operations on SQL Server database tables and views. By using these operations, you can perform simple SQL Insert, Select, Update, and Delete statements qualified by a Where clause on a target table or view. This topic provides instructions on how to perform these operations using the WCF service model.  

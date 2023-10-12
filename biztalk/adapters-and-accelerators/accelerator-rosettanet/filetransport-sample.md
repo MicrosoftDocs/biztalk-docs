@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: FileTransport Sample"
-title: "FileTransport Sample | Microsoft Docs"
+title: "FileTransport Sample"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a32c8cbf-0c17-4237-b2a3-9d21faa13496
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FileTransport Sample
 The FileTransport sample demonstrates how to configure Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] to use File ports, instead of SQL ports. The FileTransport sample uses File Transport Protocol (FTP) to send and receive messages, instead of HTTP.  

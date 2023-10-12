@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsHisTrace_SNAServerManager Class"
-title: "MsHisTrace_SNAServerManager Class1 | Microsoft Docs"
+title: "MsHisTrace_SNAServerManager Class1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4d73c606-9acf-4193-b07f-c97de49b2c84
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsHisTrace_SNAServerManager Class
 The **MsHisTrace_SNAServerManager** class contains tracing properties for the SNA Manager.  

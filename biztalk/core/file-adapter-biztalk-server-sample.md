@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: File Adapter (BizTalk Server Sample)"
-title: "File Adapter (BizTalk Server Sample) | Microsoft Docs"
+title: "File Adapter (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "examples, File adapters"
-  - "File adapters, examples"
-ms.assetid: d59cecb4-6353-44d5-b8d6-316446758536
-caps.latest.revision: 46
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # File Adapter (BizTalk Server Sample)
 The File Adapter sample is written in Microsoft Visual C# .NET to work with Microsoft BizTalk Server. It provides code to build either a dynamic or a static adapter.  However, the following procedure only outlines the static adapter. A static adapter is an adapter with a static set of schemas and no custom user interface. A dynamic adapter has a custom user interface and potentially a dynamic set of schemas. Both static and dynamic adapters use the Add Adapter Wizard to add their schemas to a BizTalk project.  

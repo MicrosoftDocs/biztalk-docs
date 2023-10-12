@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How the Resolver Service Sample Works"
-title: "How the Resolver Service Sample Works | Microsoft Docs"
+title: "How the Resolver Service Sample Works"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 33b5f886-ec54-4b2b-b09d-fb4c47ad43a5
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How the Resolver Service Sample Works
 The Resolver Service sample instantiates the Resolver service and passes the message you specify to it for processing. The Resolver Service sample client application uses the first parameter as the path to the ResolverList.xml file, which contains multiple resolver requests, and sends these requests to the Resolver service. For example, the following is the XPATH request used in the sample.  

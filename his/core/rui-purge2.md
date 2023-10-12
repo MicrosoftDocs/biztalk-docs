@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: RUI_PURGE"
-title: "RUI_PURGE2 | Microsoft Docs"
+title: "RUI_PURGE2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 601b69b7-1505-4557-897a-716e0e04504f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # RUI_PURGE
 The **RUI_PURGE** verb cancels a previous [RUI_READ](../core/rui-read2.md).  

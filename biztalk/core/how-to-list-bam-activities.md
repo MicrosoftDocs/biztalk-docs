@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to List BAM Activities"
-title: "How to List BAM Activities | Microsoft Docs"
+title: "How to List BAM Activities"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Get-Activities command [BAM]"
-  - "activities [BAM], listing activities"
-  - "managing [BAM definitions], listing activities"
-ms.assetid: 29b88070-e03c-4356-a204-3df11c931781
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to List BAM Activities
 Administrators use the **get-activities** command of the BAM Management utility to list the activities in the local BAM Primary Import database.  

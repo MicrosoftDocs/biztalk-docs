@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Session Integrator for TN3270"
-title: "Session Integrator for TN32701 | Microsoft Docs"
+title: "Session Integrator for TN32701"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c5e52fe3-2f74-4cbc-b706-4a702bbb8bc9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Session Integrator for TN3270
 Session Integrator can be used to interact with TN3270 sessions. The behavior for Session Integrator using the TN3270 protocol is the same as Session Integrator for LU2 except for a different connection setting.  

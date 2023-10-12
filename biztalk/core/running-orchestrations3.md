@@ -1,25 +1,12 @@
 ---
 description: "Learn how to run an orchestration in BizTalk Server using Call and Start shapes or by receiving an activation message."
-title: "Running Orchestrations3 | Microsoft Docs"
+title: "Running Orchestrations3"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, running"
-  - "Receive shape [Orchestration Designer], starting orchestrations"
-  - "Start Orchestration shape [Orchestration Designer], starting orchestrations"
-  - "Call Orchestration shape [Orchestration Designer], starting orchestrations"
-  - "Receive shape [Orchestration Designer], activating orchestrations"
-ms.assetid: 5bfe61c9-80e0-4a0a-b6b1-ab48037e665e
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Running Orchestrations
 

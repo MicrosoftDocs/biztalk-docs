@@ -1,19 +1,12 @@
 ---
 description: "Learn about the requirements for Single Sign-On (SSO) in Microsoft BizTalk Server."
-title: "Single Sign-On requirements for BizTalk Server | Microsoft Docs"
+title: "Single Sign-On requirements for BizTalk Server"
 ms.custom: ""
 ms.date: "04/16/2021"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d1111377-2fe1-4d65-ac0d-c89d2f1740b8
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On requirements for BizTalk Server
 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to: Resolve a Service Endpoint Using a UDDI Binding Key Search"
-title: "How to: Resolve a Service Endpoint Using a UDDI Binding Key Search | Microsoft Docs"
+title: "Resolve a Service Endpoint Using a UDDI Binding Key Search"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2a685641-2beb-4153-a9ba-c766679ce48e
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to: Resolve a Service Endpoint Using a UDDI Binding Key Search
 ## Goal  

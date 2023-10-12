@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: An empty AS2 message was received and suspended"
-title: "An empty AS2 message was received and suspended | Microsoft Docs"
+title: "An empty AS2 message was received and suspended"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 349f7134-d039-44ab-b2b3-d378d38dfd38
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # An empty AS2 message was received and suspended
 ## Details  

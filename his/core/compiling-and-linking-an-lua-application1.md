@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Compiling and Linking an LUA Application"
-title: "Compiling and Linking an LUA Application1 | Microsoft Docs"
+title: "Compiling and Linking an LUA Application1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ea252b6e-bdb2-440f-adb6-a416f0905a0d
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Compiling and Linking an LUA Application
 Use the following procedure to compile and link a logical unit application (LUA) application.  

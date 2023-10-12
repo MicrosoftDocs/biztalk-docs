@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: SchemaValidator"
-title: "SchemaValidator | Microsoft Docs"
+title: "SchemaValidator"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "troubleshooting, SchemaValidator utility"
-  - "validating, SchemaValidator utility"
-  - "SchemaValidator utility"
-  - "schemas, SchemaValidator utility"
-ms.assetid: 3bd61a03-d81e-4fd1-802c-f801000002d7
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SchemaValidator
 You use the SchemaValidator utility to troubleshoot problems with a message instance. If you receive a message that fails validation, you can run the SchemaValidator utility to determine the source of the failure.  

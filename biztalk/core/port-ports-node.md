@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Port (Ports Node)"
-title: "Port (Ports Node) | Microsoft Docs"
+title: "Port (Ports Node)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Port node [binding file]"
-ms.assetid: 6c9a3e5f-0b3c-40f8-9a8d-5a83bd559021
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Port (Ports Node)
 The port node of a binding file contains specific information about a port or distribution list that is bound to a service that is exported with the binding file.  

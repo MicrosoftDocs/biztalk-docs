@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues with EDI Validation, Schemas, and Messages"
-title: "Known Issues with EDI Validation, Schemas, and Messages | Microsoft Docs"
+title: "Known Issues with EDI Validation, Schemas, and Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 417c3e18-9a97-4d59-bc2b-e96a8c33d388
-caps.latest.revision: 42
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with EDI Validation, Schemas, and Messages
 This topic describes known validation issues.  

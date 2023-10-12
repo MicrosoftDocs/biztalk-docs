@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Open(LINK) Request"
-title: "Open(LINK) Request1 | Microsoft Docs"
+title: "Open(LINK) Request1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f0b3a13e-ccd9-4294-bba6-be6f210cb7b0
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Open(LINK) Request
 Flow : NODE ------> DLC  

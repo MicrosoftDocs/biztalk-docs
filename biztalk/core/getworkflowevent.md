@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: GetWorkflowEvent"
-title: "GetWorkflowEvent | Microsoft Docs"
+title: "GetWorkflowEvent"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2534e0b8-26df-4554-b0df-742014deb64d
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # GetWorkflowEvent
 Pushes the name of the current workflow event onto the stack.

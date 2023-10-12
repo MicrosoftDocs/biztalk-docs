@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: How to Use Ports in Orchestrations"
-title: "How to Use Ports in Orchestrations | Microsoft Docs"
+title: "How to Use Ports in Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "orchestrations, adding ports"
-  - "Port Configuration Wizard [Orchestration Designer], configuring ports"
-  - "ports, operations"
-  - "operations, adding to ports"
-  - "configuring, ports"
-  - "ports, deleting"
-  - "deleting, ports"
-  - "ports, Port Configuration Wizard [Orchestration Designer]"
-  - "ports, adding to orchestrations"
-  - "ports, configuring"
-ms.assetid: da8665cd-ccde-4949-b5f5-01f9f8be5ce8
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use Ports in Orchestrations
 You add ports to an orchestration in much the same way that you add controls to a Web Form or Windows Form. You can also add ports by using the Orchestration View window.  

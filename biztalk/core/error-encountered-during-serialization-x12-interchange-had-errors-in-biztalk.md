@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Error encountered during serialization. The X12 interchange had the following errors"
-title: "Error encountered during serialization. The X12 interchange had the following errors | Microsoft Docs"
+title: "Error encountered during serialization. The X12 interchange had the following errors"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c9ca3314-6c66-4400-816a-f9c7c7915122
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error encountered during serialization. The X12 interchange had the following errors
 ## Details  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: WCF client must allow impersonation to use Single Sign-On"
-title: "WCF client must allow impersonation to use Single Sign-On | Microsoft Docs"
+title: "WCF client must allow impersonation to use Single Sign-On"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b5b9f294-4d8a-4a12-91e8-8d325db7c420
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # WCF client must allow impersonation to use Single Sign-On
 ## Details  

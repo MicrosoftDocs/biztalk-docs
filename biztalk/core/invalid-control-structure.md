@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid Control Structure"
-title: "Invalid Control Structure | Microsoft Docs"
+title: "Invalid Control Structure"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3f9bb104-7ea1-429a-8540-49f4d598fd46
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid Control Structure
 ## Details  

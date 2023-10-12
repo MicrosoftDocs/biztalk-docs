@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Function 0x64: Read Interface Record"
-title: "Function 0x64: Read Interface Record2 | Microsoft Docs"
+title: "Function 0x64: Read Interface Record2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 69a6d971-f877-44b7-82d5-4539e6d352c4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Function 0x64: Read Interface Record
 This function reads the driver's interface record and copies it into the buffer passed by the SNALink. The buffer must be allocated by the SNALink prior to making this call.  

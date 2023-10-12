@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Repairing Messages and Submitting New Messages"
-title: "Repairing Messages and Submitting New Messages | Microsoft Docs"
+title: "Repairing Messages and Submitting New Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "repairing messages"
-  - "Message Repair and New Submission"
-  - "submitting, messages"
-  - "submitting, Message Repair and New Submission"
-  - "messages, Message Repair and New Submission"
-  - "messages, submitting"
-  - "Message Repair and New Submission. about Message Repair and New Submission"
-ms.assetid: 6abcce90-f611-422a-b3c8-e25f1e75b039
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Repairing Messages and Submitting New Messages
 [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Message Repair and New Submission enables you to repair a message that has failed XML or Business Rules Engine validation. The repair process includes verification and approval steps that ensure the accuracy and appropriateness of the message repair. This process is performed using Microsoft [!INCLUDE[btsOfficeNoVersion](../../includes/btsofficenoversion-md.md)][!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)] forms within MRSR site.  

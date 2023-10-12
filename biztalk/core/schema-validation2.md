@@ -1,19 +1,12 @@
 ---
 description: "Learn how the Electronic Data Interchange (EDI) send and receive pipelines use schemas to validate a message in BizTalk Server."
-title: "Schema Validation2 | Microsoft Docs"
+title: "Schema Validation2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2f9d1576-10df-4c5a-9ae0-618f0dd54b4e
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Schema Validation
 

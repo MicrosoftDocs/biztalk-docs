@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Keyboard shortcuts in TN3270 Emulator"
-title: "TN3270 Emulator shortcuts | Microsoft Docs"
+title: "TN3270 Emulator shortcuts"
 ms.custom: ""
 ms.date: 10/24/2016
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9c75792e-f3c2-4ce0-a1ae-e8f8b8bb00a4
-caps.latest.revision: 2
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TN3270 Emulator
 As in any standard Microsoft Windows application, you can use keyboard shortcuts in TN3270 Emulator to access commands that are otherwise available by using menus. The following table describes the available keyboard shortcuts.  

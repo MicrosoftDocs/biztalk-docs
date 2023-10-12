@@ -1,22 +1,9 @@
 ---
 description: "Learn more about: Acknowledgments Known Issues"
 title: "Acknowledgments Known Issues"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "known issues, acknowledgements"
-  - "acknowledgements, known issues"
-ms.assetid: cb45f80e-ba89-4b3f-a770-4b1cf9b8e220
-caps.latest.revision: 3
-
-
-
 ---
 # Acknowledgments Known Issues
 This section contains useful information that may help you avoid acknowledgment (ACK) errors.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Scaled Down Architecture with Information Worker Services"
-title: "Scaled Down Architecture with Information Worker Services | Microsoft Docs"
+title: "Scaled Down Architecture with Information Worker Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "architecture, small distributions"
-  - "architecture, examples"
-ms.assetid: ce1217bf-84a5-4888-89ba-dce85dc38340
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scaled Down Architecture with Information Worker Services
 For complete information about the system architecture for BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).  

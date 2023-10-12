@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Sending an EDI Acknowledgment"
-title: "Sending an EDI Acknowledgment | Microsoft Docs"
+title: "Sending an EDI Acknowledgment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4a036d08-8a65-43ad-b72c-2a246d302792
-caps.latest.revision: 31
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Sending an EDI Acknowledgment
 Acknowledgments indicate the status of EDI message transmission. After [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an EDI interchange, it will return one or more acknowledgments to the sender of an EDI interchange, depending upon which acknowledgments have been enabled.  

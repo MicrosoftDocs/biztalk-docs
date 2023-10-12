@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 4D: Test a Valid Instance for the FileAct Store and Forward (Pull) Scenario"
-title: "Step 4D: Test a Valid Instance for the FileAct Store and Forward (Pull) Scenario | Microsoft Docs"
+title: "Step 4D: Test a Valid Instance for the FileAct Store and Forward (Pull) Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 33c7aabe-206f-4b89-b739-ac1e63675451
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 4D: Test a Valid Instance for the FileAct Store and Forward (Pull) Scenario
 Before you begin this step, you must complete [Step 4C: Create a Test Instance for the FileAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-4c-create-a-test-instance-for-fileact-store-and-forward-pull-scenario.md).  

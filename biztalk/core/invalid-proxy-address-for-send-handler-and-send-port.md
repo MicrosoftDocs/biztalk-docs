@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invalid proxy address (for send handler and send port)"
-title: "Invalid proxy address (for send handler and send port) | Microsoft Docs"
+title: "Invalid proxy address (for send handler and send port)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ccedd23e-7d44-4419-b519-e04511e1f176
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invalid proxy address (for send handler and send port)
 ## Details  

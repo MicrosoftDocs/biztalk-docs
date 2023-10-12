@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Configuring Acknowledgements (MDNs) (AS2)"
-title: "Configuring Acknowledgements (MDNs) (AS2) | Microsoft Docs"
+title: "Configuring Acknowledgements (MDNs) (AS2)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fb2bf98a-deb4-460f-a1fc-3d2397c39470
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring Acknowledgements (MDNs) (AS2)
 In the partner agreement, you can specify how the party receiving the AS2 message generates an MDN response and sends it to back.  

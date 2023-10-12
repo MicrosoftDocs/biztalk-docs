@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Failed Write Extension XML File"
-title: "Error - Failed Write Extension XML File | Microsoft Docs"
+title: "Error - Failed Write Extension XML File"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.failedWriteExtensionXmlFile"
-ms.assetid: eef17b86-6fd0-4507-818e-a27f197fcff1
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Failed Write Extension XML File
 **Error Code**  

@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - First Input to Table Looping Functoid Not Valid"
-title: "Error - First Input to Table Looping Functoid Not Valid | Microsoft Docs"
+title: "Error - First Input to Table Looping Functoid Not Valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.firstInputForTableLoopingNotValid"
-ms.assetid: 3ece2c0c-bcac-42d5-9536-34f073937879
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - First Input to Table Looping Functoid Not Valid
 **Error Code**  

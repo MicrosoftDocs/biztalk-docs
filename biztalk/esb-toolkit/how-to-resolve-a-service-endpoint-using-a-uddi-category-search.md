@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to: Resolve a Service Endpoint Using a UDDI Category Search"
-title: "How to: Resolve a Service Endpoint Using a UDDI Category Search | Microsoft Docs"
+title: "Resolve a Service Endpoint Using a UDDI Category Search"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 61ac5d37-5529-4509-a948-415453944e01
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to: Resolve a Service Endpoint Using a UDDI Category Search
 ## Goal  

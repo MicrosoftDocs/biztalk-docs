@@ -1,19 +1,12 @@
 ---
-title: "Create and Delete Adapter Handlers | Microsoft Docs"
+title: "Create and Delete Adapter Handlers"
 description: Links to create and delete an adapter handler in BizTalk Server Administration
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 62b33349-7a3b-4e72-9097-a8c9c7900437
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create and Delete Adapter Handlers
 

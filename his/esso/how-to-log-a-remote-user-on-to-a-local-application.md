@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Log a Remote User on to a Local Application"
-title: "Log a Remote User on to a Local Application | Microsoft Docs"
+title: "Log a Remote User on to a Local Application"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: dc743671-77f7-413d-8d6f-d23a54c37fdd
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Log a Remote User on to a Local Application
 The other main feature of Enterprise Single Sign-On service (ENTSSO) is supporting a host-initiated process (HIP). ENTSSO interacts with HIP when a remote user tries to access a local Windows resource. Using ENTSSO, you can receive the request from the host user and request access to the local Windows application.  

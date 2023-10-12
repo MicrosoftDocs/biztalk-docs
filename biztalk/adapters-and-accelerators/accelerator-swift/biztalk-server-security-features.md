@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: BizTalk Server Security Features"
-title: "BizTalk Server Security Features | Microsoft Docs"
+title: "BizTalk Server Security Features"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "authentication"
-  - "security, authentication"
-  - "security, BizTalk Server"
-  - "security, security features"
-  - "BizTalk Server, security features"
-ms.assetid: db356439-1898-4c09-86de-458a9bd21b18
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server Security Features
 Financial Services applications and integration solutions developed by using [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] are [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] applications and are secured by native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] security features. [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] applications are typically made up of messaging functionality (message processing, transformation, routing) and workflow automation (business process automation, business rules and logic evaluation). [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] provides general messaging and workflow automation security. [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] provides additional security features specific to securing end-user message entry, repair, approval, and submission. For more information about [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]-specific security, see [A4SWIFT Security Features for Message Repair and New Submission](../../adapters-and-accelerators/accelerator-swift/a4swift-security-features-for-message-repair-and-new-submission.md).  

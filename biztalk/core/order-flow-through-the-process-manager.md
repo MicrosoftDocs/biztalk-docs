@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Order Flow through the Process Manager"
-title: "Order Flow through the Process Manager | Microsoft Docs"
+title: "Order Flow through the Process Manager"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "process management solution tutorial, processing"
-  - "processing, processing logic"
-ms.assetid: e2b51eff-44b5-440f-a7d1-0872543e5f27
-caps.latest.revision: 30
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Order Flow through the Process Manager
 This section describes how the Southridge Video order process manager, the **OrderManager** orchestration, processes orders. This section follows a new order through the orchestration. The section also discusses how the orchestration handles updates to orders.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SDLC Connection Pointers"
-title: "SDLC Connection Pointers | Microsoft Docs"
+title: "SDLC Connection Pointers"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8b6ae3aa-bbaf-4135-8531-df6807192d36
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SDLC Connection Pointers
 Connections are configured through the SNA Manager. See [Make a connection](making-a-connection2.md) for guidance to configure an SDLC connection. The following pointers indicate items that require special attention:  

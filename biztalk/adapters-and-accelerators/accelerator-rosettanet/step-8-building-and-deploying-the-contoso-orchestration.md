@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Step 8: Building and Deploying the Contoso Orchestration"
-title: "Step 8: Building and Deploying the Contoso Orchestration | Microsoft Docs"
+title: "Step 8: Building and Deploying the Contoso Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "private process tutorial, building solutions"
-  - "private process tutorial, deploying solutions"
-ms.assetid: d350b87a-0e4e-4837-ad39-fb5b1fdc1532
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 8: Building and Deploying the Contoso Orchestration
 In this step, you build the Orchestration project and deploy it using the BizTalk Deployment Wizard. This adds the assembly to the Configuration database and installs the assembly in the Global Assembly Cache (GAC).  

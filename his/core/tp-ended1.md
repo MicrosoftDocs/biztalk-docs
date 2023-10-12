@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TP_ENDED"
-title: "TP_ENDED1 | Microsoft Docs"
+title: "TP_ENDED1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3f50207d-8bc2-49fd-99bb-57f68e90faa1
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TP_ENDED
 The **TP_ENDED** verb is issued by both the invoking and invoked transaction program (TP), and notifies APPC that the TP is ending.  

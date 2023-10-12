@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: How to Maintain Policy Versions"
-title: "How to Maintain Policy Versions | Microsoft Docs"
+title: "How to Maintain Policy Versions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "policies, publishing"
-  - "publishing policies"
-  - "updating, policies"
-  - "versioning, policies"
-  - "policies, versioning"
-  - "policies, updating"
-ms.assetid: 6e35b2bd-1ecd-45ea-aff3-4ad2437568a4
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Maintain Policy Versions
 After you add rules to a version of your policy, you can save the version to the rule store for further development, or you can publish it to create a well-defined, immutable set of rules that can be deployed for use in a rule-based application.  

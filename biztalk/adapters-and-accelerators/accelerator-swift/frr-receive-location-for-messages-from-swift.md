@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: FRR Receive Location for Messages from SWIFT"
-title: "FRR Receive Location for Messages from SWIFT | Microsoft Docs"
+title: "FRR Receive Location for Messages from SWIFT"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "FRR, receive locations"
-  - "receive locations, FRR"
-ms.assetid: d15989de-56f9-4d62-8394-f4fd6e971495
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FRR Receive Location for Messages from SWIFT
 To enable FIN response reconciliation (FRR), you must set up an FRR receive pipeline component to receive a message from SAA and prepare it for processing by [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]. The receive pipeline contains the following components:  

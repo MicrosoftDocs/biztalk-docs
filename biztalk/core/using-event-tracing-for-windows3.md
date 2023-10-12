@@ -1,28 +1,12 @@
 ---
 description: "Learn how to use the Event Tracing for Windows (ETW) tool to view tracing messages for the Microsoft BizTalk Adapter for TIBCO Enterprise Message Service."
-title: "Using Event Tracing for Windows3 | Microsoft Docs"
+title: "Using Event Tracing for Windows3"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "ETW"
-  - "provider"
-  - "Receiver Logging Provider"
-  - "Transmitter Logging Provider"
-  - "controller application"
-  - "consumer application"
-  - "BTATIBCOEMSTrace command"
-  - "Event Tracing for Windows"
-ms.assetid: 71954431-2015-4d50-b69e-500c883b1e04
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use Event Tracing for Windows
 

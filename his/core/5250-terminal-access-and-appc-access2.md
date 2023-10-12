@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: 5250 Terminal Access and APPC Access"
-title: "5250 Terminal Access and APPC Access2 | Microsoft Docs"
+title: "5250 Terminal Access and APPC Access2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 49bc2385-4dd0-4d0a-baf3-d05f8cce3ceb
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # 5250 Terminal Access and APPC Access
 Users who want Advanced Program-to-Program Communications (APPC) access need not be defined in the SNA subdomain, but they must be members of a Windows domain.  

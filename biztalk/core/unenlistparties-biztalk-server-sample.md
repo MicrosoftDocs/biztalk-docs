@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: UnenlistParties (BizTalk Server Sample)"
-title: "UnenlistParties (BizTalk Server Sample) | Microsoft Docs"
+title: "UnenlistParties (BizTalk Server Sample)"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "examples, parties"
-  - "parties, examples"
-  - "parties, unenlisting"
-  - "examples, administering"
-  - "administering, examples"
-ms.assetid: a751a0fc-ca94-4610-a8aa-db3a24159334
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # UnenlistParties (BizTalk Server Sample)
 The UnenlistParties sample demonstrates how to unenlist all of the parties associated with a deployed BizTalk Server assembly.

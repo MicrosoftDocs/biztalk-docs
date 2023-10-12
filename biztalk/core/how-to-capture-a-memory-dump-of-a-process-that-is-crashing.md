@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Capture a Memory Dump of a Process that is Crashing"
-title: "How to Capture a Memory Dump of a Process that is Crashing | Microsoft Docs"
+title: "How to Capture a Memory Dump of a Process that is Crashing"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5f436b72-2b6a-4519-acc3-e7ba978651fe
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Capture a Memory Dump of a Process that is Crashing
 The BizTalk process BTSNTSvc.exe is defined as **crashing** when the process is unexpectedly terminated by Windows. A crash is typically caused by an unhandled exception in the process such as an access violation or a stack overflow. In these situations, the Windows default debugger, Dr. Watson (drwtsn32.exe) catches the exception and terminates the process.  

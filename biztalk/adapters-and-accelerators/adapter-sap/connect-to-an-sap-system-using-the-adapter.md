@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Connect to an SAP system using the adapter"
-title: "Connect to an SAP system using the adapter | Microsoft Docs"
+title: "Connect to an SAP system using the adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "connection URI"
-  - "adapters, connecting to an SAP system"
-  - "connection string"
-ms.assetid: d506a948-5f4a-420b-a404-508824683099
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Connect to an SAP system using the adapter
 The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] requires adapter clients to provide a connection string, called the connection Uniform Resource Identifier (URI) to connect to the SAP system. With a connection URI, adapter clients can specify connection parameters to connect to an external system.For more information about the connection URI, see [Create a connection to the SAP system](../../adapters-and-accelerators/adapter-sap/create-a-connection-to-the-sap-system.md).  

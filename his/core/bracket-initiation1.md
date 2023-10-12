@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Bracket Initiation"
-title: "Bracket Initiation1 | Microsoft Docs"
+title: "Bracket Initiation1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: aa6e6dc5-81aa-4af2-8d27-cf5d65dc11e4
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Bracket Initiation
 While a session is in the between-bracket state, contention exists. Either the application or the host primary logical unit (PLU) can attempt to initiate a bracket, as follows:  

@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Distinguished Fields in Disassembler Pipeline Components"
-title: "Distinguished Fields in Disassembler Pipeline Components | Microsoft Docs"
+title: "Distinguished Fields in Disassembler Pipeline Components"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline components, distinquished fields"
-  - "Flat File Disassembler [pipeline component], distinquished fields"
-  - "BizTalk Framework Disassembler [pipeline component], distinquished fields"
-  - "XML Disassembler [pipeline component], distinquished fields"
-ms.assetid: 7e51d2fe-0004-4a7b-9055-bd41e8a4b7ab
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Distinguished Fields in Disassembler Pipeline Components
 Distinguished fields defined in a schema are written to the message context by the XML Disassembler, BizTalk Framework Disassembler, or Flat File Disassembler pipeline components in the following format:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Properties (TI Project)"
-title: "Properties (TI Project)2 | Microsoft Docs"
+title: "Properties (TI Project)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0fd92554-2ae7-42ec-9500-b4d8f13d1034
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Properties (TI Project)
 ## In This Section  

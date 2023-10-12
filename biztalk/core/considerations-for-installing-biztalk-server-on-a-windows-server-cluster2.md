@@ -1,30 +1,12 @@
 ---
 description: "Learn more about: Considerations for Installing BizTalk Server on a Windows Server Cluster"
-title: "Considerations for Installing BizTalk Server on a Windows Server Cluster2 | Microsoft Docs"
+title: "Considerations for Installing BizTalk Server on a Windows Server Cluster2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "Configure Your Server Wizard"
-  - "installing, Windows Server cluster"
-  - "BizTalk Server Configuration Wizard"
-  - "Windows Server cluster, warnings"
-  - "high availability, Windows Server cluster"
-  - "clustering, Windows Server cluster"
-  - "domain groups"
-  - "Windows Server cluster, Configure Your Server Wizard"
-  - "Network DTC access"
-  - "MSDTC"
-ms.assetid: 4daea7c6-7d26-440c-a2a0-fa018a25b2b3
-caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Considerations for Installing BizTalk Server on a Windows Server Cluster
 Special considerations must be made when installing [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] on a Windows Server cluster. This topic lists these considerations.

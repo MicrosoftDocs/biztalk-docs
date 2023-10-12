@@ -1,19 +1,12 @@
 ---
-title: "Add Project Items | Microsoft Docs"
+title: "Add Project Items"
 description: Add orchestrations, schemas, maps, and pipelines to your BizTalk Server project in Visual Studio
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d1b922d5-8ece-4e1a-a390-e6ae1222665a
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Add Project Items
 In the context of the BizTalk project system, a project item is a configured item, such as a map or schema. A BizTalk application might contain one or more orchestrations, schemas, maps, and pipelines.  

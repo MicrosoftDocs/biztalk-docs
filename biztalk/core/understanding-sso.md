@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Understanding SSO"
-title: "Understanding SSO | Microsoft Docs"
+title: "Understanding SSO"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SSO, about SSO"
-  - "Windows Integrated Single Sign-On"
-  - "Extranet Single Sign-On (Web SSO)"
-  - "Server-Based Intranet Single Sign-On"
-ms.assetid: 03f78a7b-4880-408f-9733-d07e19775d21
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Understanding SSO
 To understand Enterprise Single Sign-On, it is useful to look at the three types of Single Sign-On services available today: Windows integrated, extranet, and intranet. These are described below, with Enterprise Single Sign-On falling into the third category.  

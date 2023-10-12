@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10525"
-title: "Single Sign-On: Event 10525 | Microsoft Docs"
+title: "Single Sign-On: Event 10525"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3cba8ef4-4e48-44a7-b791-bab7dc4b9cc0
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10525
 ## Details  

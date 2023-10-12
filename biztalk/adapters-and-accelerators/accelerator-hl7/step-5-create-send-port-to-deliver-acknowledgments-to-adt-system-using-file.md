@@ -1,25 +1,9 @@
 ---
 description: "Learn more about: Step 5: Create a Send Port to Deliver Acknowledgments to the ADT System Using the File Adapter"
 title: "Step 5: Create a Send Port to Deliver Acknowledgments to the ADT System Using the File Adapter"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-helpviewer_keywords: 
-  - "end-to-end tutorial, send ports"
-  - "send ports, acknowledgements"
-  - "creating, send ports"
-  - "acknowledgements, send ports"
-  - "send ports, creating"
-ms.assetid: 565a2adf-fd86-46e3-8035-7e4748aefffc
-caps.latest.revision: 7
-
-
-
 ---
 # Step 5: Create a Send Port to Deliver Acknowledgments to the ADT System Using the File Adapter
 

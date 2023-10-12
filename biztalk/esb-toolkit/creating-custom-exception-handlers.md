@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Creating Custom Exception Handlers"
-title: "Creating Custom Exception Handlers | Microsoft Docs"
+title: "Creating Custom Exception Handlers"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 401aec8d-d9ca-4a88-9e5b-d3ab605dc0a1
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Custom Exception Handlers
 For an application to detect and react to exceptions, developers must provide an exception handler. This exception handler can subscribe to a single type of exception message or to exception messages generated from some or all parts of a system or an application. For example, you may require only a single handler for all messages from a particular system (such as any exceptions occurring in the payroll system), or you may instead require targeted handlers for specific failures (such as detecting if the check print process fails).  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Configuring the MSMQ Adapter"
-title: "Configuring the MSMQ Adapter | Microsoft Docs"
+title: "Configuring the MSMQ Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "MSMQ adapters, configuring"
-  - "configuring [MSMQ adapters]"
-ms.assetid: 8f873ee1-4eaa-43d2-948d-aecc406a0bfb
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Configuring the MSMQ Adapter
 This section includes information about configuring the MSMQ adapter. You can configure the MSMQ adapter for both receive locations and send ports.  

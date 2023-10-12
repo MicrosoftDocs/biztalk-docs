@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Creating and Submitting a New Message"
-title: "Creating and Submitting a New Message | Microsoft Docs"
+title: "Creating and Submitting a New Message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "creating, messages"
-  - "submitting, messages"
-  - "messages, submitting"
-  - "messages, creating"
-ms.assetid: 88b7a2d3-44a4-44e4-ba8c-527c10290925
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating and Submitting a New Message
 This section describes how to submit a new message. As with a repaired message, a new message must be verified and approved by people other than the message creator.  

@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Business Rules Framework Security"
-title: "Business Rules Framework Security | Microsoft Docs"
+title: "Business Rules Framework Security"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, code samples"
-  - "security, business rules"
-  - "artifacts, security"
-  - "security, artifacts"
-  - "business rules, security"
-ms.assetid: 86582d3a-259e-47f2-9f72-8dbbe0051503
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Business Rules Framework Security
 The Business Rule Engine operates in the security context of the hosting application. The identity of the rule engine instance during execution is that of the thread context that invokes the **Policy.Execute** method.  

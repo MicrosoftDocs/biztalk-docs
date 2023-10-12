@@ -1,22 +1,12 @@
 ---
 description: "Learn how to create BizTalk Server send ports for JD Edwards EnterpriseOne."
-title: "How to Create a Send Port1 | Microsoft Docs"
+title: "How to Create a Send Port1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "creating send ports"
-  - "send ports, creating"
-ms.assetid: bf32e9f5-ebed-43d2-b9a9-6ab91925d973
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create Send Ports
 

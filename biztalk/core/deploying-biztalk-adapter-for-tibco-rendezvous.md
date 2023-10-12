@@ -1,19 +1,12 @@
 ---
-title: "Import bindings for TIBCO Rendezvous | Microsoft Docs"
+title: "Import bindings for TIBCO Rendezvous"
 description: Deploy your BizTalk Adapter for TIBCO Rendezvous applications using Import Bindings feature in BizTalk Server
 ms.custom: ""
 ms.date: "10/24/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ec5751a9-0a08-4cf8-a3ef-e51e488a4180
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Deploy TIBCO Rendezvous ports and assemblies
   

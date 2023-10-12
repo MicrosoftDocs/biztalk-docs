@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Logical Operators"
-title: "Logical Operators | Microsoft Docs"
+title: "Logical Operators"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8aaceb64-a5a0-462a-a0eb-8352bed999e5
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Logical Operators
 The Business Rules Framework supports using the logical AND, logical OR, and logical NOT operators in creating business rules. The following table describes the logical operators.  

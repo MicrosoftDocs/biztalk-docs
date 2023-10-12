@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: X12 TA1 Acknowledgment"
-title: "X12 TA1 Acknowledgment | Microsoft Docs"
+title: "X12 TA1 Acknowledgment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 68568a1a-3669-46f4-8edc-8d057b012544
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # X12 TA1 Acknowledgment
 The X12 TA1 technical acknowledgment reports the status of the processing of an interchange header and trailer by the address receiver. When the ISA and IEA of the X12-encoded message are valid, a positive TA1 ACK is sent, whatever the status of the other content is. If not, TA1 ACK with an error code is sent.  

@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: FIN Response Reconciliation Troubleshooting"
-title: "FIN Response Reconciliation Troubleshooting | Microsoft Docs"
+title: "FIN Response Reconciliation Troubleshooting"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "FIN Response Reconciliation, troubleshooting"
-  - "troubleshooting, FIN Response Reconciliation"
-ms.assetid: f62326aa-9a4e-4941-a9bb-20bde980f99e
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # FIN Response Reconciliation Troubleshooting
 ## The FRR BAM view does not show the message type of a message  

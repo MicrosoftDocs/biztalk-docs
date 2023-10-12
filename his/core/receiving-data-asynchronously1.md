@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Receiving Data Asynchronously"
-title: "Receiving Data Asynchronously1 | Microsoft Docs"
+title: "Receiving Data Asynchronously1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fe0387e3-97ee-4053-b242-0068db2a90e0
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Receiving Data Asynchronously
 When using Windows, a TP can receive data asynchronously, without regard to other events occurring within the TP. The following table shows the methods by which a TP can receive data asynchronously. The table also indicates how asynchronous methods can be applied to actions other than receiving data.  

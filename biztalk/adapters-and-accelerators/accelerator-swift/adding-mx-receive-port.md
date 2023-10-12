@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Adding MX Receive Port"
-title: "Adding MX Receive Port | Microsoft Docs"
+title: "Adding MX Receive Port"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4818d6af-df1d-481e-becf-1af633735248
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adding MX Receive Port
 **To add an MX receive port:**  

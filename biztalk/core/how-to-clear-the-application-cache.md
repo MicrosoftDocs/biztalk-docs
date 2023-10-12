@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Clear the Application Cache"
-title: "How to Clear the Application Cache | Microsoft Docs"
+title: "How to Clear the Application Cache"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "caching, applications"
-  - "managing [SSO applications], clearing cache"
-  - "applications [SSO], caching"
-ms.assetid: 6230b9a4-c7b8-47b4-854b-12853d9bf5b0
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Clear the Application Cache
 You can use the MMC Snap-In or the command line to remove the contents of the credential cache (all the information associated with the affiliate application) for the specified application on all of the Single Sign-On Servers.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Create Role Links in Orchestrations"
-title: "How to Create Role Links in Orchestrations | Microsoft Docs"
+title: "How to Create Role Links in Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cc386ac2-a851-4342-9ceb-0b6faddf4ece
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Create Role Links in Orchestrations
 The following are the basic tasks you will need to complete to use role links in your orchestration:

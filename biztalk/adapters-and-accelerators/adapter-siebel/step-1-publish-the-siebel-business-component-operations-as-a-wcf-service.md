@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 1: Publish the Siebel Business Component Operations as a WCF Service"
-title: "Step 1: Publish the Siebel Business Component Operations as a WCF Service | Microsoft Docs"
+title: "Step 1: Publish the Siebel Business Component Operations as a WCF Service"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: acfa0c36-50f1-45c1-9fc2-e5e5cedaa6a0
-caps.latest.revision: 23
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 1: Publish the Siebel Business Component Operations as a WCF Service
 ![Step 1 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-1of4.gif "Step_1of4")

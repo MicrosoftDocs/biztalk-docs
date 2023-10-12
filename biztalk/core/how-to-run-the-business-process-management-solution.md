@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Run the Business Process Management Solution"
-title: "How to Run the Business Process Management Solution | Microsoft Docs"
+title: "How to Run the Business Process Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "process management solution tutorial, validating"
-  - "process management solution tutorial, submitting orders"
-  - "process management solution tutorial, stopping orders"
-  - "process management solution tutorial, updating orders"
-ms.assetid: cb77651e-e16c-49dc-9f8a-88584cd68a8b
-caps.latest.revision: 25
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Run the Business Process Management Solution
 The following steps describe how to run and validate the Business Process Management solution on a single computer.  

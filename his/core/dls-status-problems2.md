@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: DLS Status Problems"
-title: "DLS Status Problems2 | Microsoft Docs"
+title: "DLS Status Problems2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 01f12802-29ec-416f-8ce8-f44543478d2b
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # DLS Status Problems
 If you get a message stating that no DLS service is available for a given server, you may not have access to the Registry for that server. For DLS status (or **dlsstat** on the command line) to display the available link services, you need to have access to the Registry on the system that you specify in DLS status.  

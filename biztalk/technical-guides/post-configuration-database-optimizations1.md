@@ -1,18 +1,12 @@
 ---
 description: "Learn how to optimize BizTalk Server database performance on SQL Server after BizTalk Server has been installed and the BizTalk Server databases have been configured."
-title: "Post-Configuration Database Optimizations1 | Microsoft Docs"
+title: "Post-Configuration Database Optimizations1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 763b5358-97ed-4ada-8318-0ad07388ba89
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Post-Configuration for BizTalk Server Database Optimizations
 

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Repairing and Resubmitting a Message"
-title: "Repairing and Resubmitting a Message | Microsoft Docs"
+title: "Repairing and Resubmitting a Message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ccd720b4-44a2-4c44-bf6e-8cf5e9ded1aa
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Repairing and Resubmitting a Message
 To repair and resubmit a failed message, use the Faults page of the ESB Management Portal.  

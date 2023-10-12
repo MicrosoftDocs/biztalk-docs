@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Invoking a Policy from Another Policy"
-title: "Invoking a Policy from Another Policy | Microsoft Docs"
+title: "Invoking a Policy from Another Policy"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b5bf658a-02a1-426a-abe5-8c9de673cf0d
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Invoking a Policy from Another Policy
 You can invoke a policy (child) from another policy (parent) by using one of the following methods:  

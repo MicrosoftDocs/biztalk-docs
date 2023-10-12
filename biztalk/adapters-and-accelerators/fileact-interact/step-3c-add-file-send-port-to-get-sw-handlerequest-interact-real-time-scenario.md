@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct real-time scenario"
-title: "Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct real-time scenario | Microsoft Docs"
+title: "Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct real-time scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 31e9c942-ba74-4ae2-b6e1-5266d0fbcb14
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct real-time scenario
 When you send a message to your partner, SWIFT transforms the message header and forwards the message to your partner as a Sw:HandleRequest message. Before you begin this step, you must complete [Step 3B: Add an INTERACT Receive Location for the InterAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-3b-add-an-interact-receive-location-for-the-interact-real-time-scenario.md).  

@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: How to Add a Component to a Pipeline"
-title: "How to Add a Component to a Pipeline | Microsoft Docs"
+title: "How to Add a Component to a Pipeline"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipelines, components"
-ms.assetid: 6b1dbeab-6acc-46d7-8ddd-79b79da3591c
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Add a Component to a Pipeline
 You add components to pipelines by dragging from the Toolbox to the design surface.  

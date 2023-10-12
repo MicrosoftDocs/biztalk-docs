@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Step 2: Defining and Publishing the Vocabulary for Contoso"
-title: "Step 2: Defining and Publishing the Vocabulary for Contoso | Microsoft Docs"
+title: "Step 2: Defining and Publishing the Vocabulary for Contoso"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "vocabularies, creating"
-  - "vocabularies, publishing"
-  - "private process tutorial, creating vocabularies"
-ms.assetid: e23880c0-772c-48c6-a6b5-32eb951527c8
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Defining and Publishing the Vocabulary for Contoso
 In this scenario, Contoso implements a business policy that makes sure that inventory is always on hand if an emergency occurs. You create business policies using the Business Rule Composer in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]. In this step, you create the vocabulary to use when you define the business policy.  

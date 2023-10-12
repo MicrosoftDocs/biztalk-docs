@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TCP/IP Errors"
-title: "TCP-IP Errors1 | Microsoft Docs"
+title: "TCP-IP Errors1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f2cd398c-d558-47ab-b111-d530a394fe5f
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TCP/IP Errors
 ## TCP/IP 11004  

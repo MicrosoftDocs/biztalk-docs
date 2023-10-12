@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Multiple Connections"
-title: "Multiple Connections1 | Microsoft Docs"
+title: "Multiple Connections1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 48cf0edc-1416-4810-a09a-ca0af7bd1a9c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Multiple Connections
 For 802.2 and X.25 links, multiple connections can use the same physical link supported by a single instance of the SNALink software.  

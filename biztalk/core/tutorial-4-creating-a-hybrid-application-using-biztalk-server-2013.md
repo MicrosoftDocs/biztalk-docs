@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tutorial 4: Creating a Hybrid Application Using BizTalk Server 2013"
-title: "Tutorial 4: Creating a Hybrid Application Using BizTalk Server 2013 | Microsoft Docs"
+title: "Tutorial 4: Creating a Hybrid Application Using BizTalk Server 2013"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3a9de95f-7d2c-437d-be5b-0062592f32c6
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tutorial 4: Creating a Hybrid Application Using BizTalk Server 2013
 This section provides a step-by-step walkthrough on how to create a hybrid application involving [!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

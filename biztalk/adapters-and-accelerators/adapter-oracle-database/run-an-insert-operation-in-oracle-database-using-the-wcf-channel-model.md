@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Run an Insert Operation in Oracle Database using the WCF Channel Model"
-title: "Run an Insert Operation in Oracle Database using the WCF Channel Model | Microsoft Docs"
+title: "Run an Insert Operation in Oracle Database using the WCF Channel Model"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "inserting data, using a channel"
-  - "WCF channel model, performing an Insert operation"
-  - "how to, perform an insert operation using a channel"
-  - "channel programming, performing an insert operation"
-  - "performing an insert operation, using a channel"
-ms.assetid: 85c44507-0166-42ef-a908-6098f7a683fc
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Run an Insert Operation in Oracle Database using the WCF Channel Model
 This section shows how to insert a record into an Oracle database by using a channel. You must specify both a message body and a message action when you send a message.  

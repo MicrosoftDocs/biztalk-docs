@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: TS Profile 1"
-title: "TS Profile 12 | Microsoft Docs"
+title: "TS Profile 12"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8247f174-1404-499c-8bcf-f8d7746990e3
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # TS Profile 1
 Transmission service (TS) Profile 1 is supported on System Services Control Point physical unit (SSCP-PU) and System Services Control Point secondary logical unit (SSCP-SLU) sessions; the profile does not require a TS usage field. This profile specifies the following session rules:  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Monitoring Disk Space Usage"
-title: "Monitoring Disk Space Usage | Microsoft Docs"
+title: "Monitoring Disk Space Usage"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 3ac68022-a9c5-4eb9-8854-cd1ee849282b
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Monitoring Disk Space Usage
 As part of the monitoring process for operational readiness of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], monitor the disk space usage as follows:  

@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: How to Modify Rate Based Throttling Settings"
-title: "How to Modify Rate Based Throttling Settings | Microsoft Docs"
+title: "How to Modify Rate Based Throttling Settings"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Bts10.settings.HostRate"
-ms.assetid: a99dfb29-dee6-4a43-8d34-45179d9d0b5e
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Modify Rate Based Throttling Settings
 Rate based throttling in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] is applied to host instances that contain orchestrations or send adapters that receive and deliver or process messages that have been published to the MessageBox. Using the [!INCLUDE[btsSettingsDashboard](../includes/btssettingsdashboard-md.md)], you can modify the rate based throttling configuration settings of a given host, across a BizTalk group. These settings apply to all host instances assigned to the given host. This topic provides the step-by-step procedure to modify these settings.  

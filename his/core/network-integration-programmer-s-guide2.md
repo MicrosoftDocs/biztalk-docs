@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Network Integration Programmer's Guide"
-title: "Network Integration Programmer's Guide | Microsoft Docs"
+title: "Network Integration Programmer's Guide"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4804c3e6-1e74-4728-bdde-fab5bc2a44ba
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Network Integration Programmer's Guide
 

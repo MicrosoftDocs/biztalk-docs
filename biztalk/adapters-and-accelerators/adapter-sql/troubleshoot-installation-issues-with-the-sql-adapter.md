@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshoot Installation Issues with the SQl adapter"
-title: "Troubleshoot Installation Issues with the SQl adapter | Microsoft Docs"
+title: "Troubleshoot Installation Issues with the SQl adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 48778158-6064-4731-be72-1af855ebe373
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshoot Installation Issues with the SQl adapter
 > [!IMPORTANT]

@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Property Promotion in Disassembler Pipeline Components"
-title: "Property Promotion in Disassembler Pipeline Components | Microsoft Docs"
+title: "Property Promotion in Disassembler Pipeline Components"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "pipeline components, promoting properties"
-  - "XML Disassembler [pipeline component], properties"
-  - "pipeline components, properties"
-  - "promoting properties, disassembler pipeline components"
-  - "BizTalk Framework Assembler [pipeline component], properties"
-  - "Flat File Disassembler [pipeline component], properties"
-ms.assetid: aa37b308-8aa2-45f4-9383-aca4f2c925ce
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Property Promotion in Disassembler Pipeline Components
 Property promotion is a process by which a property value is extracted from an XML document by using an XPath expression and placed on the message context so that it can be used for message routing.  

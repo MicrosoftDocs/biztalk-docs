@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Agreement Resolution, Schema Discovery, and Authorization for Received EDI Messages"
-title: "Agreement Resolution, Schema Discovery, and Authorization for Received EDI Messages | Microsoft Docs"
+title: "Agreement Resolution, Schema Discovery, and Authorization for Received EDI Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 503e307c-4cb0-49b5-8751-82dcea203151
-caps.latest.revision: 45
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Agreement Resolution, Schema Discovery, and Authorization for Received EDI Messages
 When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an EDI message, the EDI receive pipeline performs trading partner agreement lookup, schema discovery, and authorization processes to determine how to process the message.  

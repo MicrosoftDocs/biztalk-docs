@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SNAGetConfigValue"
-title: "SNAGetConfigValue2 | Microsoft Docs"
+title: "SNAGetConfigValue2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 900f149c-fc6a-4fdf-aeb6-04dec4602eea
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SNAGetConfigValue
 SNALink calls the **SNAGetConfigValue** function to obtain the value of a specific configuration parameter.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10705"
-title: "Single Sign-On: Event 10705 | Microsoft Docs"
+title: "Single Sign-On: Event 10705"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 81456bdd-dfd8-4483-aa76-5ec72350cc70
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10705
 ## Details  

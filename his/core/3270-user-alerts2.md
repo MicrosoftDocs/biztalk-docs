@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: 3270 User Alerts"
-title: "3270 User Alerts | Microsoft Docs"
+title: "3270 User Alerts"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 091c1909-3f9c-4b68-b9e5-5058eb0a4797
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # 3270 User Alerts
 The Host Integration Server 3270 emulation program can send 3270 user alerts to the local node on the system services control point (SSCP) connection. This enables the local node to route each alert to the appropriate host for the 3270 session on which it was sent.  

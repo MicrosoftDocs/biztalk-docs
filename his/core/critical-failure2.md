@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Critical Failure"
-title: "Critical Failure2 | Microsoft Docs"
+title: "Critical Failure2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 390ea015-86eb-4803-9c14-a1e49ce79822
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Critical Failure
 When an application makes a protocol error in sending data, the local node rejects the data using a [Status-Acknowledge(Nack-2)](./status-acknowledge-nack-2-2.md) with a sense code indicating the reason for failure. This message has a critical failure flag that indicates whether the local node has marked the session as unrecoverable. The sense codes are listed in [FMI Status, Error, and Sense Codes](../core/fmi-status-error-and-sense-codes1.md).  

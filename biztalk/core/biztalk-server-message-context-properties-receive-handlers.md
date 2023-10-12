@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: BizTalk Server Message Context Properties (Receive Handlers)"
-title: "Receive Message Context Properties for TIBCO Rendezvous | Microsoft Docs"
+title: "Receive Message Context Properties for TIBCO Rendezvous"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7f47e2a0-6ac8-404a-bc0a-c7739911af74
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BizTalk Server Message Context Properties (Receive Handlers)
 In addition to the message payload, the supplementary information that composes a message must be accessible from a BizTalk Server orchestration at run time.  

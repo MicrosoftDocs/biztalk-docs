@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Missing or invalid transaction set control number"
-title: "Missing or invalid transaction set control number | Microsoft Docs"
+title: "Missing or invalid transaction set control number"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6064b974-e8cd-4486-abc2-010afe0d956e
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Missing or invalid transaction set control number
 ## Details  

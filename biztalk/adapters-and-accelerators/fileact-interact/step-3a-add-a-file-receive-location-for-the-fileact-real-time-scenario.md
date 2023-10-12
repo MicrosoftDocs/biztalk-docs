@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 3A: Add a FILE Receive Location for the FileAct Real-Time Scenario"
-title: "Step 3A: Add a FILE Receive Location for the FileAct Real-Time Scenario | Microsoft Docs"
+title: "Step 3A: Add a FILE Receive Location for the FileAct Real-Time Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 73b044b4-6611-493f-969c-02b52cb56ba7
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3A: Add a FILE Receive Location for the FileAct Real-Time Scenario
 Before you begin this step, you must complete [Step 2: Add SWIFTNet Configuration to the Paramfile for the FileAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-2-add-swiftnet-configuration-to-paramfile-for-fileact-real-time-scenario.md).  

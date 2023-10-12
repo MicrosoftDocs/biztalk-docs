@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Authorizing the Receiver of a Message"
-title: "Authorizing the Receiver of a Message | Microsoft Docs"
+title: "Authorizing the Receiver of a Message"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "security, messages"
-  - "messages, receive authorization"
-  - "receive authorization"
-  - "messages, security"
-ms.assetid: c0cdb3ef-ee8e-40a1-9362-13cd26495951
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Authorizing the Receiver of a Message
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] enables you to limit the processes and parties that you authorize to receive messages.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: OpenNlsRegistry"
-title: "OpenNlsRegistry2 | Microsoft Docs"
+title: "OpenNlsRegistry2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 63f02fdc-cdd4-4d88-9a95-71c33bf56513
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # OpenNlsRegistry
 The SNA National Language Support (SNANLS) **OpenNlsRegistry** function opens a registry key on a local or remote computer pointing to the NLS Codepage registry entries.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Maximum Buffer Sizes for Remote Environments"
-title: "Maximum Buffer Sizes for Remote Environments2 | Microsoft Docs"
+title: "Maximum Buffer Sizes for Remote Environments2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ac05c5aa-5ecd-4138-baa2-6b07797fe3e0
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Maximum Buffer Sizes for Remote Environments
 Both Transaction Integrator (TI) and mainframe applications must be designed not to exceed the following buffer size or transfer limitations:  

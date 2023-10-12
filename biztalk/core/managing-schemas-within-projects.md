@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Managing Schemas Within Projects"
-title: "Managing Schemas Within Projects | Microsoft Docs"
+title: "Managing Schemas Within Projects"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 1af8d360-ccda-4e0e-824f-4ace242b5aa7
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Managing Schemas Within Projects
 This section provides step-by-step instructions for working with entire schemas; for example, the steps involved in creating a schema, using multiple schemas together, and saving schemas. For information about working with nodes within a schema, see [Managing the Nodes Within a Schema](../core/managing-the-nodes-within-a-schema.md).  

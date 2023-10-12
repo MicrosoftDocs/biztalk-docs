@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Doctype is invalid"
-title: "Doctype is invalid | Microsoft Docs"
+title: "Doctype is invalid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 67233aae-65c0-4689-a4b3-60a48132343a
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Doctype is invalid
 ## Details  

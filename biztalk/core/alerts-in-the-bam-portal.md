@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Alerts in the BAM Portal"
-title: "Alerts in the BAM Portal | Microsoft Docs"
+title: "Alerts in the BAM Portal"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "BAM portal, alerts"
-  - "alerts, summaries"
-  - "subscriptions, alerts"
-  - "alerts, details"
-  - "Alert Management page [BAM portal]"
-  - "alerts, subscriptions"
-ms.assetid: 715a4187-aafa-46be-8b00-8eaba2e569e5
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Alerts in the BAM Portal
 Alerts allow you to define important events about your business process, such as Key Performance Indicators (KPIs), that can be delivered to users on a real-time basis. Users subscribe to alerts to receive notification of the business event that the alert monitors.

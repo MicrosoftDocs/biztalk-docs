@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The AS2 Decoder failed processing because the MDN signing did not match our request"
-title: "The AS2 Decoder failed processing because the MDN signing did not match our request | Microsoft Docs"
+title: "The AS2 Decoder failed processing because the MDN signing did not match our request"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9a42d344-fc28-4bc4-9328-46158f15a008
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The AS2 Decoder failed processing because the MDN signing did not match our request
 ## Details  

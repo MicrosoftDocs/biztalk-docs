@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Using the BizTalk ESB Toolkit Utilities"
-title: "Using the BizTalk ESB Toolkit Utilities | Microsoft Docs"
+title: "Using the BizTalk ESB Toolkit Utilities"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: c2dc05ac-831a-44e1-bd44-e41398552ab1
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the BizTalk ESB Toolkit Utilities
 This section describes various utilities included as part of the [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)].  

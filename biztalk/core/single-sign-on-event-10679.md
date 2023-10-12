@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10679"
-title: "Single Sign-On: Event 10679 | Microsoft Docs"
+title: "Single Sign-On: Event 10679"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 645f2b74-2cbe-4c6a-b0f5-7e31f93f88c6
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10679
 ## Details  

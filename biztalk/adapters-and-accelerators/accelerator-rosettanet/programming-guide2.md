@@ -1,21 +1,12 @@
 ---
 description: "View the Microsoft BizTalk Accelerator for RosettaNet (BTARN) that explains the concepts and procedures for writing code with BTARN."
-title: "Programming Guide2 | Microsoft Docs"
+title: "Programming Guide2"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "developing, programming guide"
-  - "programming guide"
-ms.assetid: 37573687-85ab-4899-bbe1-05e15637e32b
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Programming Guide
 

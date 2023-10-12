@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Support for Transactions and Two-Phase Commit"
-title: "Support for Transactions and Two-Phase Commit2 | Microsoft Docs"
+title: "Support for Transactions and Two-Phase Commit2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2ad9480e-f1a6-4ae6-8da0-d4904d1fa87c
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Support for Transactions and Two-Phase Commit
 In COM termwinology, a transaction is always a unit of work that is atomic, consistent, isolated, and durable (ACID). In mainframe terminology, a transaction may or may not be an ACID transaction; in mainframe terminology, a transaction is a set of operations or commands in a transaction program (TP). This difference in terminology can be confusing. The word transaction as it is used in TI Manager and TI Designer always refers to an ACID transaction.  

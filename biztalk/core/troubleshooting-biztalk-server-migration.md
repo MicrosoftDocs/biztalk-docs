@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting BizTalk Server Migration"
-title: "Troubleshooting BizTalk Server Migration | Microsoft Docs"
+title: "Troubleshooting BizTalk Server Migration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e6eddc0a-2403-4bcd-9327-23f51ce7d57b
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting BizTalk Server Migration
 This section provides a centralized location for information about common problems encountered while migrating BizTalk applications from [!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)] or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 2009 to BizTalk Server.  

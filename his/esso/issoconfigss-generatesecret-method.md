@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOConfigSS.GenerateSecret Method"
-title: "ISSOConfigSS.GenerateSecret Method | Microsoft Docs"
+title: "ISSOConfigSS.GenerateSecret Method"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: bccdcc12-98f6-4e4e-97d5-7c6bb9c66eec
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOConfigSS.GenerateSecret Method
 The **GenerateSecret** method generates the secret for the secret server.  

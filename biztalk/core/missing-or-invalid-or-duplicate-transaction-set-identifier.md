@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Missing or invalid or duplicate Transaction set identifier"
-title: "Missing or invalid or duplicate Transaction set identifier | Microsoft Docs"
+title: "Missing or invalid or duplicate Transaction set identifier"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8580aab2-9fa4-43fb-b643-10621926591e
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Missing or invalid or duplicate Transaction set identifier
 ## Details  

@@ -1,28 +1,12 @@
 ---
 description: "Learn more about: BTARN Receive Pipeline"
-title: "BTARN Receive Pipeline | Microsoft Docs"
+title: "BTARN Receive Pipeline"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "BTARN, receive pipelines"
-  - "RNMimeDecoder component"
-  - "ReceiveMessageNonRepudiate component"
-  - "RNDAsm component"
-  - "receive pipelines, message flow"
-  - "RNPartyRes component"
-  - "receive pipelines, BTARN"
-  - "MessageUpdater component"
-  - "messages, message flow"
-ms.assetid: 811f2a6a-ddd2-49cc-a00b-4c9d0110a0d1
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # BTARN Receive Pipeline
 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] performs RosettaNet Implementation Framework (RNIF) message reception with the RNIFReceive pipeline (RNIFReceive.btp). The receive pipeline includes the following components:  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2C: Add an INTERACT Send Port for the InterAct Store and Forward (Pull) Scenario"
-title: "Step 2C: Add an INTERACT Send Port for the InterAct Store and Forward (Pull) Scenario | Microsoft Docs"
+title: "Step 2C: Add an INTERACT Send Port for the InterAct Store and Forward (Pull) Scenario"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 57038f77-85c3-4811-ab3d-df6e2da8fbcf
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2C: Add an INTERACT Send Port for the InterAct Store and Forward (Pull) Scenario
 Before you begin this step, you must complete [Step 2B: Add FILE Send Ports to Capture the Sw:HandleRequest Message for the InterAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-2b-add-file-send-ports-to-get-sw-handlerequest-message-for-interact.md).  

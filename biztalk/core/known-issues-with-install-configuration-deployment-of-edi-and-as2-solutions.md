@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues with Installation, Configuration, and Deployment of EDI and AS2 Solutions"
-title: "Known Issues with Installation, Configuration, and Deployment of EDI and AS2 Solutions | Microsoft Docs"
+title: "Known Issues with Installation, Configuration, and Deployment of EDI and AS2 Solutions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2dee03f0-2447-4cc2-90f4-e9b73caa0f39
-caps.latest.revision: 26
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with Installation, Configuration, and Deployment of EDI and AS2 Solutions
 This topic describes known issues with deployment and management of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI and AS2 solutions.  

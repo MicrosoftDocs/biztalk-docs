@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Security with the Oracle Database adapter and BizTalk Server"
-title: "Security with the Oracle Database adapter and BizTalk Server | Microsoft Docs"
+title: "Security with the Oracle Database adapter and BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "user name password credentials"
-  - "SSO mapping"
-  - "credentials"
-  - "credentials, protecting"
-  - "credentials, security considerations"
-  - "affiliate application"
-ms.assetid: c7e0be64-4ab9-4ee3-b88a-4f8f5f07b280
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security with the Oracle Database adapter and BizTalk Server
 When you configure a send port or a receive port (location) by using the BizTalk Server Administration console or use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to retrieve message schemas for a BizTalk solution, you must provide credentials for the Oracle database. It is important to supply these credentials in a secure way to help prevent them from being revealed to potentially malicious actors. This topic discusses how to most securely supply credentials for the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] for BizTalk Server solutions.  

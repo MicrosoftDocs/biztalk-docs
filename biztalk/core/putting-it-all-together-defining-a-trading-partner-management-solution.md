@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Putting it all Together: Defining a Trading Partner Management Solution"
-title: "Putting it all Together: Defining a Trading Partner Management Solution | Microsoft Docs"
+title: "Putting it all Together: Defining a Trading Partner Management Solution"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4219312a-c4b5-45f3-b77b-d5cc4f1a1ca4
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Putting it all Together: Defining a Trading Partner Management Solution
 Now that we have understood about the different types of components in building a TPM solution, let us understand the flow of a typical TPM solution and how the different building blocks work together. This section also lists some best practices for modeling a TPM solution.  

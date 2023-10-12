@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: About Instance Messages"
-title: "About Instance Messages | Microsoft Docs"
+title: "About Instance Messages"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: de7fc3d3-57a7-4df9-b981-127e21941e22
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # About Instance Messages
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sends and receives instance messages, each of which typically represents one or more business documents such as a purchase order. An instance message is an instance of a message structure defined by one or more schemas. A schema, or a set of schemas being used together, defines what constitutes a valid instance message. For example, a purchase order might be defined to have several records within it, such as a ShipTo record, a BillTo record, an Items record, and so on. Each of these records can be defined to contain their own subrecords and fields. The corresponding schema defines the potential contents of these records and fields and the corresponding instance messages contain actual purchase orders that contain purchase order data structured according to the schema.  

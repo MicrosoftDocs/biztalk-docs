@@ -1,26 +1,12 @@
 ---
 description: "Learn more about: Operations on IDOCs in SAP"
-title: "Operations on IDOCs in SAP | Microsoft Docs"
+title: "Operations on IDOCs in SAP"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "IDOC, operations to receive an"
-  - "IDOCs"
-  - "IDOCs, operations on"
-  - "tRFC server"
-  - "IDOC, operations to send an"
-  - "RFC server"
-ms.assetid: 6abcc646-c7a3-48cf-a09e-01f516dcef97
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Operations on IDOCs in SAP
 IDOCs are standardized EDI-like documents that SAP supports for asynchronously communicating with SAP and non-SAP systems. IDOCs are used for sending and receiving “business” documents such as sales orders, for example, to or from a trading partner’s SAP system or an external program.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Required User Rights for Managing BAM Definition Files"
-title: "Required User Rights for Managing BAM Definition Files | Microsoft Docs"
+title: "Required User Rights for Managing BAM Definition Files"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fb4fb73f-b783-4a04-9bd6-a135b3dd2655
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Required User Rights for Managing BAM Definition Files
 BAM definition files can be created, managed, and viewed by users in any role. Managing BAM definition files includes deploying and removing them as well as managing the activities, views, alerts, and artifacts that are associated with the definition file.  

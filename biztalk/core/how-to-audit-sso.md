@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Audit SSO"
-title: "How to Audit SSO | Microsoft Docs"
+title: "How to Audit SSO"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [SSO], auditing"
-  - "SSO, auditing"
-  - "auditing [SSO]"
-  - "SSO database, auditing"
-ms.assetid: dc6d0726-fc31-4af2-9a23-8df9e3fc5836
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Audit SSO
 You can use the MMC Snap-In or the command line to set both the positive and negative auditing levels. Results of the auditing are stored in both the event logs and the audit logs of the database.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Configure Receive and Send Locations and Ports for BAM WCF Interception"
-title: "How to Configure Receive and Send Locations and Ports for BAM WCF Interception | Microsoft Docs"
+title: "How to Configure Receive and Send Locations and Ports for BAM WCF Interception"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 501194dc-427a-4910-88c9-19cf47daeaad
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure Receive and Send Locations and Ports for BAM WCF Interception
 In this procedure you configure the receive and send locations in a content-based routing (CBR) scenario in order to demonstrate the key concepts in a straightforward manner. The concepts demonstrated here can be applied to an orchestration that is exposed as a [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] service.  

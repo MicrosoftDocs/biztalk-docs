@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Error - Third and Fourth Parameters of the Database Lookup Functoid Must Be Constants."
-title: "Error - Third and Fourth Parameters of the Database Lookup Functoid Must Be Constants. | Microsoft Docs"
+title: "Error - Third and Fourth Parameters of the Database Lookup Functoid Must Be Constants."
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fb2b4859-2b8b-4864-8791-f8c4656f734e
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Third and Fourth Parameters of the Database Lookup Functoid Must Be Constants.
 **Error Code**  

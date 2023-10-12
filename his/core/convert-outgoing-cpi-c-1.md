@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Convert_Outgoing (CPI-C)"
-title: "Convert_Outgoing (CPI-C)1 | Microsoft Docs"
+title: "Convert_Outgoing (CPI-C)1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d35eed5f-f28c-4057-996b-834bd41eef6e
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Convert_Outgoing (CPI-C)
 The **Convert_Outgoing** call (function name **cmcnvo**) converts a string of ASCII characters into EBCDIC. Note that the return conversion can be performed using **Convert_Incoming**.  

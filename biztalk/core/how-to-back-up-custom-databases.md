@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Back Up Custom Databases"
-title: "How to Back Up Custom Databases | Microsoft Docs"
+title: "How to Back Up Custom Databases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "custom databases"
-  - "customizing, custom databases"
-  - "backing up, custom databases"
-ms.assetid: 86bebf3c-968e-4fad-9dab-ced1b04aaac7
-caps.latest.revision: 24
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Back Up Custom Databases
 Because your custom databases are not installed with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], they are not included in the default list of databases to be marked and backed up by the Backup BizTalk Server job. If you want the Backup BizTalk Server job to back up your custom databases, you must manually add the databases to the Backup BizTalk Server job.  

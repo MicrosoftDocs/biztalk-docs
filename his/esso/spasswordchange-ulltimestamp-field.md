@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SPasswordChange.ullTimeStamp Field"
-title: "SPasswordChange.ullTimeStamp Field | Microsoft Docs"
+title: "SPasswordChange.ullTimeStamp Field"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 9bcd62ab-de38-402e-a983-25cfe4ec8073
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SPasswordChange.ullTimeStamp Field
 An integer containing a UTC timestamp in FILETIME format.  

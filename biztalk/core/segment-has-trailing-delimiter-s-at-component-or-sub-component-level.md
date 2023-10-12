@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Segment has trailing delimiter(s) at component or sub-component level"
-title: "Segment has trailing delimiter(s) at component or sub-component level | Microsoft Docs"
+title: "Segment has trailing delimiter(s) at component or sub-component level"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 517f1cfc-66c1-47e6-be94-2c76c1f89230
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Segment has trailing delimiter(s) at component or sub-component level
 ## Details  

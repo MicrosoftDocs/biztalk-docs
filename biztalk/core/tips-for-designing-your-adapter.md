@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Tips for Designing Your Adapter"
-title: "Tips for Designing Your Adapter | Microsoft Docs"
+title: "Tips for Designing Your Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0bb60988-4e48-4654-9cf4-512dd7c97239
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Tips for Designing Your Adapter
 This section contains hints and tips that adapter developers have learned while designing adapters.  

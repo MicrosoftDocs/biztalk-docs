@@ -1,19 +1,12 @@
 ---
-title: "Siebel adapter samples | Microsoft Docs"
+title: "Siebel adapter samples"
 description: Siebel WCF adapter samples that can be used with BizTalk Server, WCF service model, and the Data Provider for Siebel
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 069d676e-211e-474c-9cf5-c660fdd22014
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Samples for the Siebel adapter
 Samples for [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] are categorized into:  

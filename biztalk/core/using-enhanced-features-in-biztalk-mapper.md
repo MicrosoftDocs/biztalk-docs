@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Using Enhanced Features in BizTalk Mapper"
-title: "Using Enhanced Features in BizTalk Mapper | Microsoft Docs"
+title: "Using Enhanced Features in BizTalk Mapper"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a3530281-8bb2-40a1-9632-8112cb4c7735
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using Enhanced Features in BizTalk Mapper
 The BizTalk Mapper introduces a set of usability enhancements to help you handle complex maps.  

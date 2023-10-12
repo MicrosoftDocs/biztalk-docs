@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Known Issues with Certificates in BizTalk Server"
-title: "Known Issues with Certificates in BizTalk Server | Microsoft Docs"
+title: "Known Issues with Certificates in BizTalk Server"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: ab58264b-2475-4831-9f08-bfbaa293022f
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with Certificates in BizTalk Server
 This section describes known issues with managing digital certificates used with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].

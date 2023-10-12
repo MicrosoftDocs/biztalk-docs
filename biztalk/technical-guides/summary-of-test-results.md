@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Summary of Test Results"
-title: "Summary of Test Results | Microsoft Docs"
+title: "Summary of Test Results"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d95fbaa6-0e07-4086-bea2-0577d39ae7cd
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Summary of Test Results
 This topic summarizes the results from the test scenarios.  

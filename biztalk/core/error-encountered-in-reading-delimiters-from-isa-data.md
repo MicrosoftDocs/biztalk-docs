@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Error encountered in reading delimiters from ISA data"
-title: "Error encountered in reading delimiters from ISA data | Microsoft Docs"
+title: "Error encountered in reading delimiters from ISA data"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8cb60abd-53c8-45e1-a840-d27dc974aad7
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error encountered in reading delimiters from ISA data
 ## Details  

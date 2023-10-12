@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Disable a BAM Primary Import Database Reference"
-title: "How to Disable a BAM Primary Import Database Reference | Microsoft Docs"
+title: "How to Disable a BAM Primary Import Database Reference"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 78d2d644-6ebb-4051-ae59-af7d0fb75753
-caps.latest.revision: 16
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Disable a BAM Primary Import Database Reference
 Administrators use the **disable-reference** command to disable a reference to a specified BAM Primary Import database.  

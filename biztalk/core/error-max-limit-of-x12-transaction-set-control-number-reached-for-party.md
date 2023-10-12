@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Max limit of acceptable X12 transaction set control number has reached for party"
-title: "Max limit of acceptable X12 transaction set control number has reached for party | Microsoft Docs"
+title: "Max limit of acceptable X12 transaction set control number has reached for party"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a402f6d0-4399-47c9-a39a-56d7fa1efa86
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Max limit of acceptable X12 transaction set control number has reached for party
 ## Details  

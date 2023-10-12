@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Output Instance File Not Valid"
-title: "Error - Output Instance File Not Valid | Microsoft Docs"
+title: "Error - Output Instance File Not Valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.outputInstanceFileNotValid"
-ms.assetid: 2edf1ea3-9600-424f-a9bf-a55d257046aa
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Output Instance File Not Valid
 **Explanation**  

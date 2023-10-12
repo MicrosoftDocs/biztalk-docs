@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Managing User Mappings"
-title: "Managing User Mappings | Microsoft Docs"
+title: "Managing User Mappings"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "maps [SSO], managing"
-  - "managing [SSO maps]"
-ms.assetid: bde65a51-fcba-4dee-b673-34b731766480
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Managing User Mappings
 This section provides information on how to create and configure the Enterprise Single Sign-On mappings.  

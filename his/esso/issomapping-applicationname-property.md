@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: ISSOMapping.ApplicationName Property"
-title: "ISSOMapping.ApplicationName Property | Microsoft Docs"
+title: "ISSOMapping.ApplicationName Property"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7a5be3cc-c88b-42b5-af02-539384463624
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # ISSOMapping.ApplicationName Property
 The **ApplicationName** property specifies the name of the application.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: fStringCompare"
-title: "fStringCompare2 | Microsoft Docs"
+title: "fStringCompare2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 57de188f-62a4-4543-8c44-ae7cac5a2c07
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # fStringCompare
 The **fStringCompare** function is used to determine if string exists in another string. This utility function is used to construct an integrated link service configuration DLL.  

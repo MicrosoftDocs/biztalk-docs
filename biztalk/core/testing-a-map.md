@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Testing a Map"
-title: "Testing a Map | Microsoft Docs"
+title: "Testing a Map"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 265afd62-3c1d-4b9a-9f51-176b9b079241
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Testing a Map
 You can test a map in an EDI project at design time. To do so, you use the XML Tool extensions to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] environment. This topic describes how to set up and use the **Test Map** feature of the XML Tool extension.  

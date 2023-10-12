@@ -1,32 +1,12 @@
 ---
 description: "Learn more about: Data Transformation Configuration"
-title: "Data Transformation Configuration | Microsoft Docs"
+title: "Data Transformation Configuration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "XSLT"
-  - "maps, compiling"
-  - "Source Links property"
-  - "BizTalk Mapper, compiler directives"
-  - "code samples, XSLT"
-  - "compiler directives, copy text and subcontentent value"
-  - "compiler directives, copy text value"
-  - "maps, XSLT"
-  - "compiler directives, copy name"
-  - "compiler directives"
-  - "maps, code sample [XSLT]"
-  - "XSLT, code samples"
-ms.assetid: 05abe091-5202-4590-99ec-e60ca53a4324
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Data Transformation Configuration
 When mapping from an element, a typical Extensible Stylesheet Language Transformations (XSLT) looks as follows.  

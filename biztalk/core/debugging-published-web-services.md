@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Debugging Published Web Services"
-title: "Debugging Published Web Services | Microsoft Docs"
+title: "Debugging Published Web Services"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Web services, debugging"
-ms.assetid: 65d663f3-081f-4952-8c36-afef9165dfb2
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Debugging Published Web Services
 This section provides information about debugging your published Web services.  

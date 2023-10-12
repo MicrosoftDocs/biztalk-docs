@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: The value cannot be empty or null for an operator other than Exists"
-title: "The value cannot be empty or null for an operator other than Exists | Microsoft Docs"
+title: "The value cannot be empty or null for an operator other than Exists"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 44de42c8-eab7-4b13-b55a-d33eabe75c52
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # The value cannot be empty or null for an operator other than Exists
 ## Details  

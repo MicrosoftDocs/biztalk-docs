@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Functoid Fixed Input Mismatch"
-title: "Error - Functoid Fixed Input Mismatch | Microsoft Docs"
+title: "Error - Functoid Fixed Input Mismatch"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.map.error.functoidFixedInputMismatch"
-ms.assetid: d235e7c3-efcf-4128-aef7-cdfdf1f317be
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Functoid Fixed Input Mismatch
 **Error Code**  

@@ -1,21 +1,14 @@
 ---
 description: "Learn more about: Error - Type Name Not Valid"
-title: "Error - Type Name Not Valid | Microsoft Docs"
+title: "Error - Type Name Not Valid"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bts10.edit.error.typeNameNotValid"
-ms.assetid: 4c9bceeb-b009-4279-ad16-19af09e6b091
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Error - Type Name Not Valid
 **Error Code**  

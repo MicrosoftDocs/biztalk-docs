@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Enlist an Orchestration"
-title: "How to Enlist an Orchestration | Microsoft Docs"
+title: "How to Enlist an Orchestration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "managing [orchestrations], enlisting"
-  - "orchestrations, enlisting"
-  - "enlisting, orchestrations"
-ms.assetid: b21a398b-8c9a-42ae-aac0-de35dbfd8176
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Enlist an Orchestration
 This topic describes how to use the BizTalk Server Administration console to enlist an orchestration into a host. The orchestration must be enlisted before you can start it.  

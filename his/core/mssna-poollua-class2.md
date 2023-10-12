@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_PoolLua Class"
-title: "MsSna_PoolLua Class2 | Microsoft Docs"
+title: "MsSna_PoolLua Class2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4862fc3e-bb36-4651-9868-faa979d7312f
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_PoolLua Class
 The 3270 LU LUA pool.  

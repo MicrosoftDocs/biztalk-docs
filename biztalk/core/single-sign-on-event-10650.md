@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 10650"
-title: "Single Sign-On: Event 10650 | Microsoft Docs"
+title: "Single Sign-On: Event 10650"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 311e7650-154c-46b6-b4bf-e60f466697a2
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 10650
 ## Details  

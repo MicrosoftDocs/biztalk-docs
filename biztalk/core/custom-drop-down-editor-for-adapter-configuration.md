@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Custom Drop-Down Editor for Adapter Configuration"
-title: "Custom Drop-Down Editor for Adapter Configuration | Microsoft Docs"
+title: "Custom Drop-Down Editor for Adapter Configuration"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4a1b0961-652f-42b8-a18a-17abe9542cdd
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Custom Drop-Down Editor for Adapter Configuration
 The code for the custom editor shows an editor derived from the **System.Drawing.Design.UITypeEditor** class that displays a drop-down text box for entering a password. The **GetEditStyle** override returns **UIEditorEditStyle.DropDown** to indicate a drop-down subcontrol. The service methods **DropDownControl** and **CloseDropDown** manage the control created with **CreatePassword**.  

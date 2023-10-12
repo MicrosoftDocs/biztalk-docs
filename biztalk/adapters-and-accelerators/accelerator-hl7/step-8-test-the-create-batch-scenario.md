@@ -1,19 +1,9 @@
 ---
 description: "Learn more about: Step 8: Test the Create-Batch Scenario"
 title: "Step 8: Test the Create-Batch Scenario"
-
 ms.date: "06/08/2017"
 ms.prod: biztalk-server
-
-
-
-
 ms.topic: article
-ms.assetid: fc7fac40-fd3e-413b-82cc-7ad08226094c
-caps.latest.revision: 6
-
-
-
 ---
 # Step 8: Test the Create-Batch Scenario
 In this step, you test the Create-Batch scenario by dropping test instances of the messages you want to batch into the source Tutorial_BTAHL7Pickup folder. The send port that you set up picks up the message from the source folder and sends it; the receive port receives it; and the receive pipeline processes it and drops it into the destination Tutorial_BTAHL7Drop folder.  

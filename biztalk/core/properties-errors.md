@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Properties Errors"
-title: "Properties Errors | Microsoft Docs"
+title: "Properties Errors"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d297db1a-352c-4e5a-b0aa-6edae8d74824
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Properties Errors
 This section contains detailed information for diagnosing and resolving WCF Properties errors.  

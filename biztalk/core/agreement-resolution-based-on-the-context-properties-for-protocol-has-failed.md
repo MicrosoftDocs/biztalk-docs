@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Agreement Resolution based on the context properties for Protocol has failed"
-title: "Agreement Resolution based on the context properties for Protocol has failed | Microsoft Docs"
+title: "Agreement Resolution based on the context properties for Protocol has failed"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 58fccd84-579c-4b5e-872b-33730d4079e8
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Agreement Resolution based on the context properties for Protocol has failed
 ## Details  

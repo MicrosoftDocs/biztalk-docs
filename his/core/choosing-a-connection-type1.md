@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Choosing a Connection Type"
-title: "Choosing a Connection Type1 | Microsoft Docs"
+title: "Choosing a Connection Type1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: e780e5f3-1632-434d-91a0-4e517b50ebab
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Choosing a Connection Type
 A [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] computer can use any of the types of connections described in this section. To choose a connection type for your servers, you should first contact the host administrator and find out the type of connection available to the mainframe or AS/400. If more than one type is available, choose a type based on comparisons of cost and speed.  

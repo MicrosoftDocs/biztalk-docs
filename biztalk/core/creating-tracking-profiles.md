@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Creating Tracking Profiles"
-title: "Creating Tracking Profiles | Microsoft Docs"
+title: "Creating Tracking Profiles"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "tracking profiles, creating"
-  - "creating, tracking profiles"
-ms.assetid: 62598529-9763-4c73-acbe-06ce5650134a
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Creating Tracking Profiles
 You create a new tracking profile or modify an existing one to better manage and monitor a specific business process for your organization. The Tracking Profile Editor (TPE) allows you to define the data to collect to meet the business analyst's requirement. The profile you create or modify can be as simple or as complex as you like depending on your business requirements.  

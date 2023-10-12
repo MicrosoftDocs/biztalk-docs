@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Password Sync Adapters"
-title: "Password Sync Adapters | Microsoft Docs"
+title: "Password Sync Adapters"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 696786b6-4a1b-44d0-a1b7-74fd958e2b17
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Password Sync Adapters
 A *password sync adapter* is a component that propagates password changes to and from a non-Windows system. Although password sync adapters are similar to traditional Single Sign-On applications, they have several differences:  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Troubleshooting the File Adapter"
-title: "Troubleshooting the File Adapter | Microsoft Docs"
+title: "Troubleshooting the File Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 09a8e732-714b-4ecd-9778-652fbc20fb63
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshooting the File Adapter
 This section describes troubleshooting techniques that can be used to diagnose problems with the File adapter and known issues using the File adapter.  

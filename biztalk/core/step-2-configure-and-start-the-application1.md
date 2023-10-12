@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Step 2: Configure and Start the Application"
-title: "Step 2: Configure and Start the Application1 | Microsoft Docs"
+title: "Step 2: Configure and Start the Application1"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5cb061ca-acf4-4de4-a634-b3bb98876989
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 2: Configure and Start the Application
 ![Step 2 of 3](../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")  

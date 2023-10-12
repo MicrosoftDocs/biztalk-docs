@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Cross Field-Segment Validation"
-title: "Cross Field-Segment Validation | Microsoft Docs"
+title: "Cross Field-Segment Validation"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6e757b4f-71fe-44d5-9580-c8b1c8eb2366
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Cross Field-Segment Validation
 The EDI receive pipeline and EDI send pipeline can perform cross field/segment validation on transaction-set data elements in X12-encoded messages. This validation is called relational conditions in X12. Cross field validation is expressed through annotations, and as a result, it is related to EDI validation.  

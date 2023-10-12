@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: Sample Architectures for Small &amp; Medium-Sized Companies"
-title: "Sample Architectures for Small &amp; Medium-Sized Companies | Microsoft Docs"
+title: "Sample Architectures for Small &amp; Medium-Sized Companies"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords:
-  - "architecture, examples"
-ms.assetid: fc8c2fdd-bcb1-481c-b351-03092dd48540
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Sample Architectures for Small &amp; Medium-Sized Companies
 This section provides a sample architecture to deploy Microsoft BizTalk Server when you want to help to protect the assets in a small or medium-sized company. While these architectures encourage defense in depth and separation of services to minimize the impact of an attack, they assume quantities of hardware, software, and human resources that are generally available to large companies.

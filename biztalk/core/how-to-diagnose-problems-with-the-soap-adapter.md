@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: How to Diagnose Problems with the SOAP Adapter"
-title: "How to Diagnose Problems with the SOAP Adapter | Microsoft Docs"
+title: "How to Diagnose Problems with the SOAP Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 16c93333-cb32-49bc-a1c4-9d726ab41850
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Diagnose Problems with the SOAP Adapter
 This section contains steps that can be followed to help diagnose problems with the SOAP adapter.  

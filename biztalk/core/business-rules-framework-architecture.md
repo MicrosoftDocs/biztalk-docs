@@ -1,33 +1,12 @@
 ---
 description: "Learn more about: Business Rules Framework Architecture"
-title: "Business Rules Framework Architecture | Microsoft Docs"
+title: "Business Rules Framework Architecture"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Business Rules Framework, caching"
-  - "Business Rules Framework, Rule Engine Update service"
-  - "rule store [Business Rules Framework]"
-  - "Policy class [Business Rules Engine]"
-  - "Business Rules Framework, architecture"
-  - "Business Rules Framework, RuleEngine class"
-  - "Business Rules Framework, Policy class"
-  - "Business Rules Framework, authoring tools"
-  - "RuleEngine class [Business Rules Engine]"
-  - "caching, Business Rules Framework"
-  - "Business Rules Framework, fact retrievers"
-  - "architecture, Business Rules Framework"
-  - "Business Rules Framework, rule store"
-ms.assetid: f5570cca-7664-4180-af9c-64ef90a0022b
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Business Rules Framework Architecture
 The following figure shows the component architecture of the Business Rules Framework.  

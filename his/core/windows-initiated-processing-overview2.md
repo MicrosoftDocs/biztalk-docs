@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Windows-Initiated Processing Overview"
-title: "Windows-Initiated Processing Overview2 | Microsoft Docs"
+title: "Windows-Initiated Processing Overview2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 71674e61-cc75-4721-80b2-ea0375cb6f6c
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Windows-Initiated Processing Overview
 The following topics explain how to use Windows-initiated processing (WIP) over TCP/IP and over SNA.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Interceptor Management Commands"
-title: "Interceptor Management Commands | Microsoft Docs"
+title: "Interceptor Management Commands"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a2be6460-1f81-4bc3-a831-34ff24d65d34
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Interceptor Management Commands
 To support the new BAM interceptor functionality, four new commands have been added to the BAM Management utility.  

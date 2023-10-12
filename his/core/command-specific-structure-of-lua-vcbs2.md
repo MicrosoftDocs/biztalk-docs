@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Command-Specific Structure of LUA VCBs"
-title: "Command-Specific Structure of LUA VCBs2 | Microsoft Docs"
+title: "Command-Specific Structure of LUA VCBs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4450b2a5-b63d-4c3a-820a-04a83d877d37
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Command-Specific Structure of LUA VCBs
 The following union shows the specific data structure that is included for functions that use the **LUA_SPECIFIC** part of a verb control block. The only logical unit application (LUA) verbs that use this union are [RUI_BID](../core/rui-bid1.md),[SLI_BID](../core/sli-bid2.md),[SLI_OPEN](../core/sli-open2.md), and [SLI_SEND](../core/sli-send2.md).  

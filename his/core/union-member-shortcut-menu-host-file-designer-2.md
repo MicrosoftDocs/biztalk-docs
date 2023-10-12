@@ -1,20 +1,14 @@
 ---
 description: "Learn more about: Union Member Shortcut Menu (Host File Designer)"
-title: "Union Member Shortcut Menu (Host File Designer)2 | Microsoft Docs"
+title: "Union Member Shortcut Menu (Host File Designer)2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "ebiz.his.2006.tidesigner.node.hostfiles.unionmember"
-ms.assetid: 2e07cdaf-b24f-451d-addb-a80ad703d4c8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Union Member Shortcut Menu (Host File Designer)
 When you select a union member from the Library tree, the following shortcut menu commands appear:  

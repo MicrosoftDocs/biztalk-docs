@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to Configure the Terminate Shape"
-title: "How to Configure the Terminate Shape | Microsoft Docs"
+title: "How to Configure the Terminate Shape"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Terminate shape [Orchestration Designer], about Terminate shape"
-  - "Terminate shape [Orchestration Designer], literal strings"
-  - "configuring [Orchestration Designer], Terminate shapes"
-  - "Terminate shape [Orchestration Designer], configuring"
-  - "Terminate shape [Orchestration Designer]"
-ms.assetid: 2c4f2c94-2bab-4af3-8954-7275696ca147
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure the Terminate Shape
 ![Image that represents the Terminate shape.](../core/media/ebiz-orch-terminate.gif "ebiz_orch_terminate")  

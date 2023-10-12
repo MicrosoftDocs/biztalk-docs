@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SLI_PURGE"
-title: "SLI_PURGE1 | Microsoft Docs"
+title: "SLI_PURGE1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: aa7e551c-572e-4c1e-852b-ca28a0ac27c0
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SLI_PURGE
 The **SLI_PURGE** verb cancels [SLI_RECEIVE](../core/sli-receive2.md) verbs issued with a wait condition.  

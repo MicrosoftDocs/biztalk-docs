@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Known Issues with EDI Batching"
-title: "Known Issues with EDI Batching | Microsoft Docs"
+title: "Known Issues with EDI Batching"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 510ac82b-8a02-4135-87b7-0a5f288f5317
-caps.latest.revision: 38
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Known Issues with EDI Batching
 This topic describes known issues with batching in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].  

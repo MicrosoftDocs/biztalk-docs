@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Populate a Host File Dataset from the Data Adapter"
-title: "How to Populate a Host File Dataset from the Data Adapter2 | Microsoft Docs"
+title: "How to Populate a Host File Dataset from the Data Adapter2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 808e7265-ce85-41b9-9b3f-6a9441c1c489
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # How to Populate a Host File Dataset from the Data Adapter
 The dataset is a memory-resident representation of data that provides a consistent relational programming model independent of the data source. The dataset represents a complete set of data including tables, constraints, and relationships among the tables. Because the dataset is independent of the data source, a dataset can include data local to the application, and also data from multiple data sources. Interaction with existing data sources is controlled through the `DataAdapter` object.  

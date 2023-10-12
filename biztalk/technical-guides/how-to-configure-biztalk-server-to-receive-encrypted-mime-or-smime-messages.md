@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: How to Configure BizTalk Server to Receive Encrypted MIME or SMIME Messages"
-title: "How to Configure BizTalk Server to Receive Encrypted MIME or SMIME Messages | Microsoft Docs"
+title: "How to Configure BizTalk Server to Receive Encrypted MIME or SMIME Messages"
 ms.custom: ""
 ms.date: "06/29/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: d72002c8-6bd8-458f-8149-1c0c4cbbb682
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Configure BizTalk Server to Receive Encrypted MIME or SMIME Messages
 This topic describes how to configure [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to use certificates to receive encrypted MIME/SMIME messages. The procedure below also applies to configuring the receiving of encrypted messages over AS2 transport.  

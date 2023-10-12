@@ -1,19 +1,12 @@
 ---
-title: "Create application artifacts for JD Edwards OneWorld | Microsoft Docs"
+title: "Create application artifacts for JD Edwards OneWorld"
 description: Learn how to create BizTalk Server applications and work with BizTalk Adapter for JD Edwards OneWorld.
 ms.custom: ""
 ms.date: "10/18/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 87c2b6d4-78e3-4467-af92-02feed9e48d2
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create application artifacts
 

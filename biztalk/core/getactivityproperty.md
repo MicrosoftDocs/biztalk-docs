@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: GetActivityProperty"
-title: "GetActivityProperty | Microsoft Docs"
+title: "GetActivityProperty"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2321f1ec-d98d-478f-bb1d-a11a98e60fa5
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # GetActivityProperty
 Pushes the extracted property from the activity related to the tracking event onto the stack.  

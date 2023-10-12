@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SNA Communication Tuning"
-title: "SNA Communication Tuning2 | Microsoft Docs"
+title: "SNA Communication Tuning2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2923e40f-17ca-4668-9b7a-401f3fc3ee09
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SNA Communication Tuning
 The topics in this section describe the major factors that affect Transaction Integrator (TI) throughput over the APPC/LU 6.2 SNA transport.  

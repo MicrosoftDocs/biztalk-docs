@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: MsSna_ServiceTN3270.Start Method"
-title: "MsSna_ServiceTN3270.Start Method2 | Microsoft Docs"
+title: "MsSna_ServiceTN3270.Start Method2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 05cfc60a-526b-40e1-a449-0e2151e7767a
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # MsSna_ServiceTN3270.Start Method
 Starts the service.  

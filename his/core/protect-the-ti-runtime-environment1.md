@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Protect the TI Runtime Environment"
-title: "Protect the TI Runtime Environment1 | Microsoft Docs"
+title: "Protect the TI Runtime Environment1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: de0c7dba-9754-485e-b989-5cd385e81a27
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Protect the TI Runtime Environment
 To prevent an attacker from instantiating multiple Transaction Integrator (TI) components to launch a denial of service attack on the TI runtime environment, you should:  

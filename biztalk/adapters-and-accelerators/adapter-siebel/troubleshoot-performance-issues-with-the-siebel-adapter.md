@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Troubleshoot Performance Issues with the Siebel adapter"
-title: "Troubleshoot Performance Issues with the Siebel adapter | Microsoft Docs"
+title: "Troubleshoot Performance Issues with the Siebel adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "troubleshooting, performance issues"
-  - "performance, troubleshooting"
-ms.assetid: fe413b15-f703-4148-99df-17b5be3c74c1
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Troubleshoot Performance Issues with the Siebel adapter
 This section discusses using troubleshooting techniques to resolve performance issues that you might encounter when using [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)].  

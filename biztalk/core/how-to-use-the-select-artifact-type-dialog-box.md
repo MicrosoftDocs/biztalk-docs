@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: How to Use the Select Artifact Type Dialog Box"
-title: "How to Use the Select Artifact Type Dialog Box | Microsoft Docs"
+title: "How to Use the Select Artifact Type Dialog Box"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "Select Artifact Type dialog box"
-  - "artifacts, Select Artifact Type dialog box"
-  - "Orchestration Designer, items"
-ms.assetid: f0f767f1-4130-4ff0-a898-a089343ee71f
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Use the Select Artifact Type Dialog Box
 An *item* is used to configure elements of an orchestration in Orchestration Designer. Examples of items are schemas, maps, pipelines, port types, and multi-part message types. When you develop an orchestration and its constituent parts such as port shapes, transform shapes, and messages, you may need to refer to items that do not reside in the current orchestration, but are in the current project or another project that has been compiled into a BizTalk Server assembly. You use the **Select Artifact Type** dialog box to locate and then specify items when configuring an element within an orchestration.  

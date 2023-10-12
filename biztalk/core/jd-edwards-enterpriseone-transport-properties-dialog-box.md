@@ -1,23 +1,14 @@
 ---
 description: "Learn more about: JD Edwards EnterpriseOne Transport Properties Dialog Box"
-title: "JD Edwards EnterpriseOne Transport Properties Dialog Box | Microsoft Docs"
+title: "JD Edwards EnterpriseOne Transport Properties Dialog Box"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "JDE"
-helpviewer_keywords: 
-  - "Transport Properties dialog box [JD Edwards EnterpriseOne adapters"
-ms.assetid: 6a37eeb2-af91-4f58-9699-7a7cbe296862
-caps.latest.revision: 10
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # JD Edwards EnterpriseOne Transport Properties Dialog Box
 Use the JD Edwards EnterpriseOne Transport Properties dialog box to set the adapter-required properties.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Delimiters are not unique, field and component separator are the same"
-title: "Delimiters are not unique, field and component separator are the same | Microsoft Docs"
+title: "Delimiters are not unique, field and component separator are the same"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: cba15b30-b07d-4caa-8c43-6b4d8c4ca81c
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Delimiters are not unique, field and component separator are the same
 

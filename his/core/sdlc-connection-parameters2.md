@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SDLC Connection Parameters"
-title: "SDLC Connection Parameters2 | Microsoft Docs"
+title: "SDLC Connection Parameters2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 18b7de30-6617-46ce-9a87-fcd9142171f9
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SDLC Connection Parameters
 The following table shows how [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] parameters for Synchronous Data Link Control (SDLC) connections correspond to VTAM or Network Control Program (NCP) parameters. Asterisks (*) indicate required parameters.  

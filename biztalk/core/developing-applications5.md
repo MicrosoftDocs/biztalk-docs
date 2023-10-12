@@ -1,19 +1,12 @@
 ---
-title: "Create application artifacts for TIBCO EMS | Microsoft Docs"
+title: "Create application artifacts for TIBCO EMS"
 description: Create the artifacts in BizTalk Server administration, and in Visual Studio to use the BizTalk Adapter for TIBCO Enterprise Message Service in BizTalk Server
 ms.custom: ""
 ms.date: "10/23/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0c31dad4-bf5b-4c59-9cea-431122040d9d
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Create your application
 

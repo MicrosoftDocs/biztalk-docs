@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: SOAP Send Adapter"
-title: "SOAP Send Adapter | Microsoft Docs"
+title: "SOAP Send Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4d65218d-516b-4e45-a824-272ef6ef298c
-caps.latest.revision: 12
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # SOAP Send Adapter
 You use the SOAP send adapter to call a Web service. The SOAP send adapter reads the message context on the BizTalk Message object to get the proxy name and calls the associated external Web service proxy.  

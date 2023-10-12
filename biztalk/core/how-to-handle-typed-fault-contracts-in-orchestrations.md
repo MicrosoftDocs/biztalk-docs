@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: How to Handle Typed Fault Contracts in Orchestrations"
-title: "How to Handle Typed Fault Contracts in Orchestrations | Microsoft Docs"
+title: "How to Handle Typed Fault Contracts in Orchestrations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "typed fault contracts [orchestrations]"
-  - "WCF services, orchestrations"
-  - "orchestrations, typed fault contracts"
-  - "orchestrations, WCF services"
-ms.assetid: 5a1a7d22-b0ff-4d09-bebf-4995229784b0
-caps.latest.revision: 11
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to Handle Typed Fault Contracts in Orchestrations
 This topic describes how to handle typed fault contracts when consuming WCF services from within orchestrations. To handle typed fault exceptions in orchestrations, the WCF services that you are consuming must have the **FaultContractAttribute** applied to the service operations; therefore, the faults can be thrown by using **FaultException**\<T\> where T can be any valid data contract or serializable type from the WCF services.  

@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Method Calls per Second"
-title: "Method Calls per Second2 | Microsoft Docs"
+title: "Method Calls per Second2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2aa4570e-9a87-4aea-b66b-7c9ea293bfb2
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Method Calls per Second
 The counter reports the method call volume going through the Transaction Integrator (TI) server. There are actually three counters implemented:  

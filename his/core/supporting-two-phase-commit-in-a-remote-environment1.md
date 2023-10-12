@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Supporting Two-Phase Commit in a Remote Environment"
-title: "Supporting Two-Phase Commit in a Remote Environment1 | Microsoft Docs"
+title: "Supporting Two-Phase Commit in a Remote Environment1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: a37afb7a-0f96-4095-ac49-3dbf01323491
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Supporting Two-Phase Commit in a Remote Environment
 Only the SNA protocols support two-phase commit (2PC). The TCP/IP protocol does not support 2PC. For an SNA remote environment (RE) to support 2PC, it must be set to support ACID (atomic, consistent, isolated, durable) transactions. To accomplish this, you must set the RE to support the Sync Level 2 protocol.  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Node Name Property"
-title: "Node Name Property | Microsoft Docs"
+title: "Node Name Property"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 95d9e5bf-7439-4ef4-ad14-e8d3e8eff911
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Node Name Property
 As you use BizTalk Editor to insert nodes into the schema tree, some nodes are meant to be renamed and others are not. Essentially, you can and should rename **Record** nodes, **Field Element** nodes, and **Field Attribute** nodes. The names that you give to these nodes will become the names of the XML elements and attributes in the message that the schema defines.  

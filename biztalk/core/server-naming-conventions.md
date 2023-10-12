@@ -1,23 +1,12 @@
 ---
 description: "Learn more about: Server Naming Conventions"
-title: "Server Naming Conventions | Microsoft Docs"
+title: "Server Naming Conventions"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "architecture, naming conventions"
-  - "naming conventions, servers"
-  - "installation, naming conventions"
-ms.assetid: 98989c15-51d7-4a67-b054-abe6993a98a6
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Server Naming Conventions
 For complete information about the system architecture for BizTalk Server deployment, see [Sample BizTalk Server Architectures](../core/sample-biztalk-server-architectures.md).  

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Adapter GetSchema Method"
-title: "Adapter GetSchema Method | Microsoft Docs"
+title: "Adapter GetSchema Method"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4c83340c-a775-435c-9633-3a692611e99e
-caps.latest.revision: 18
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Adapter GetSchema Method
 Suppose the referenced WSDL file contains only schema references and does not contain embedded schemas. In this case, you use the **GetSchema** method of the **IAdapterConfig** interface to load a schema referenced from within a WSDL file.  

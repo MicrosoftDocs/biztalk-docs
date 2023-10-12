@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: DataTable Column Shortcut Menu"
-title: "DataTable Column Shortcut Menu1 | Microsoft Docs"
+title: "DataTable Column Shortcut Menu1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 7063fcc6-f953-44c7-8420-fa23a6909a61
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # DataTable Column Shortcut Menu
 When you select the **DataTable** column in the tree view, the following shortcut menu items are displayed.  

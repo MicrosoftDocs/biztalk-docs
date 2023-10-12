@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Best Practices for Maintaining BizTalk Server Databases"
-title: "Best Practices for Maintaining BizTalk Server Databases | Microsoft Docs"
+title: "Best Practices for Maintaining BizTalk Server Databases"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 93333f41-ee83-4b64-b381-66584a7d5551
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Best Practices for Maintaining BizTalk Server Databases
 This topic lists some best practices for maintaining [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases.

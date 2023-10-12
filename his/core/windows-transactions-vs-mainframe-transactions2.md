@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Windows Transactions vs. Mainframe Transactions"
-title: "Windows Transactions vs. Mainframe Transactions2 | Microsoft Docs"
+title: "Windows Transactions vs. Mainframe Transactions2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: b78b5240-d421-4dc8-ba2e-9fac3316bfaa
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Windows Transactions vs. Mainframe Transactions
 In the [!INCLUDE[hisHostIntServNoVersion](../includes/hishostintservnoversion-md.md)] Help, a transaction in the Microsoft Windows .NET Framework environment does not mean the same thing as a transaction in the mainframe environment.  

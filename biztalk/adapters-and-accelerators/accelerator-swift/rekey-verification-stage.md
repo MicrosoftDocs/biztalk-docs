@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: Rekey Verification Stage"
-title: "Rekey Verification Stage | Microsoft Docs"
+title: "Rekey Verification Stage"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "rekey verification"
-  - "stages, rekey verification"
-ms.assetid: 8a2880b6-bb25-4af5-9f51-d0b090ca38c8
-caps.latest.revision: 3
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Rekey Verification Stage
 When a Rekey Verification stage occurs in the message repair workflow, a copy of the original message is maintained by Message Repair and New Submission and an exact copy of the message is sent to the verifier's inbox for rekey verification. In rekey verification, [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)] Message Repair and New Submission clears specified fields for manual re-entry.  

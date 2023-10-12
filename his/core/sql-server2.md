@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SQL Server"
-title: "SQL Server resources | Microsoft Docs"
+title: "SQL Server resources"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2e739a85-4bdc-42e2-a321-ab00c9e839f7
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SQL Server
 SQL Server includes capabilities that enable organizations to scale database operations with confidence, improve IT and developer efficiency, and empower end users with self-service Business Intelligence features in SharePoint and Excel.

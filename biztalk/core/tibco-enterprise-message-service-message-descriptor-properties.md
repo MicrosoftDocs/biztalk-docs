@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: TIBCO Enterprise Message Service Message Descriptor Properties"
-title: "TIBCO EMS Message Descriptor Properties | Microsoft Docs"
+title: "TIBCO EMS Message Descriptor Properties"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: fc164c12-6dc3-4b74-9aa9-024e18faf80a
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # TIBCO Enterprise Message Service Message Descriptor Properties
 

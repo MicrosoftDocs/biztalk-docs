@@ -4,14 +4,6 @@ description: Learn more about ACK message schema types for BizTalk Server.
 ms.prod: biztalk-server
 ms.topic: conceptual
 ms.date: 06/08/2017
-
-helpviewer_keywords: 
-  - "schemas, ACK schemas"
-  - "acknowledgements, ACK schema types"
-  - "ACK messages"
-ms.assetid: da6981a0-a70a-481e-8db4-4a6851f205f1
-caps.latest.revision: 3
-
 ---
 
 # ACK message schema types in BizTalk Server

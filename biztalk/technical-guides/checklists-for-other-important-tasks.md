@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Checklists for Other Important Tasks"
-title: "Checklists for Other Important Tasks | Microsoft Docs"
+title: "Checklists for Other Important Tasks"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 8a88a248-fcb8-44dc-896a-62f380b7a310
-caps.latest.revision: 2
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Checklists for Other Important Tasks
 This section contains checklists for other important tasks that you might need to perform on an ad-hoc basis. These include such tasks as deploying an application in [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], exporting bindings for an application, and updating an application.  

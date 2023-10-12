@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Single Sign-On: Event 11048"
-title: "Single Sign-On: Event 11048 | Microsoft Docs"
+title: "Single Sign-On: Event 11048"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: abceb5ca-f772-4cc8-8e20-2cda8765575e
-caps.latest.revision: 6
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Single Sign-On: Event 11048
 ## Details  

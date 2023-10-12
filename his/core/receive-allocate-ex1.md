@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: RECEIVE_ALLOCATE_EX"
-title: "RECEIVE_ALLOCATE_EX1 | Microsoft Docs"
+title: "RECEIVE_ALLOCATE_EX1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 704c7ad1-7e68-42af-b2ae-26e016cd6937
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # RECEIVE_ALLOCATE_EX
 The RECEIVE_ALLOCATE_EX verb accepts a new VCB structure to allow registration of an attach manager.  

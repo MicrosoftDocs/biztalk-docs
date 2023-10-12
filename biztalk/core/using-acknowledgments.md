@@ -1,41 +1,12 @@
 ---
 description: "Learn more about: Using Acknowledgments"
-title: "Using Acknowledgments | Microsoft Docs"
+title: "Using Acknowledgments"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "acknowledgements, publishing"
-  - "messages, acknowledgements"
-  - "BTS.AckSendPortID property"
-  - "BTS.AckSendPortName property"
-  - "BTS.AckType property"
-  - "BTS.AckFailureCode property"
-  - "BTS.AckID property"
-  - "acknowledgements, positive"
-  - "SOAP fault"
-  - "BTS.AckReceivePortID property"
-  - "BTS.AckReceivePortName property"
-  - "BTS.AckInboundTransportLocation property"
-  - "BTS.AckOutboundTransportLocation property"
-  - "messages, successful transmission"
-  - "BTS.AckDescription property"
-  - "orchestrations, messages"
-  - "acknowledgements, negative"
-  - "BTS.CorrelationToken property"
-  - "BTS.AckFailureCategory property"
-  - "positive acknowledgements (ACK)"
-  - "BTS.AckOwnerID property"
-ms.assetid: 2e5986d4-9633-4b7b-8ff3-fa3da93c5400
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using Acknowledgments
 The BizTalk Messaging Engine generates positive acknowledgments (ACK) and negative acknowledgments (NACK) in response to conditions encountered during the processing of a message through a port. BizTalk Server publishes a positive acknowledgment to indicate successful transmission of a message and a negative acknowledgment to indicate transmission failure and suspension of a message.  

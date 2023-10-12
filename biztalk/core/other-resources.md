@@ -1,15 +1,12 @@
 ---
 description: "Learn more about: Other Resources"
-title: "Other Resources | Microsoft Docs"
+title: "Other Resources"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
   - "policies, System.BizTalk:Rules"
   - "System.BizTalk:PostProcessingScript"
   - "System.BizTalk:Certificate"
@@ -37,11 +34,6 @@ helpviewer_keywords:
   - "System.BizTalk:BizTalkBinding"
   - "certificates, System.BizTalk:Certificate"
   - "scripts, System.BizTalk:PreProcessingScript"
-ms.assetid: 0be6834b-a562-4d1c-b8d5-43e30eba309e
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Other Resources
 The following resources are supported external artifact types that can be used in a BizTalk Application. Resources include the following:  

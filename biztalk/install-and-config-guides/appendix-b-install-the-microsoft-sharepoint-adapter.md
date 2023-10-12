@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Appendix B: Install the Microsoft SharePoint Adapter"
-title: "Appendix B: Install the SharePoint Adapter | Microsoft Docs"
+title: "Appendix B: Install the SharePoint Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f44c6e0a-dcce-4444-8cac-bd403c81a233
-caps.latest.revision: 19
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Appendix B: Install the Microsoft SharePoint Adapter
 BizTalk Server includes a SharePoint adapter that can receive messages or send messages to SharePoint.

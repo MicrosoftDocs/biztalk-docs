@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Connect to the Oracle Database Using Windows Authentication"
-title: "Connect to the Oracle Database Using Windows Authentication | Microsoft Docs"
+title: "Connect to the Oracle Database Using Windows Authentication"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 73b42a1b-1105-4278-bf8a-62cf0cffb08f
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Connect to the Oracle Database Using Windows Authentication
 The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] enables adapter clients to use Windows Authentication to establish a connection with the Oracle database. To use Windows Authentication, the adapter clients must specify “/” for user name and leave the password blank. For more information about connecting to the Oracle database using Windows Authentication, see [Connect to Oracle Database in Visual Studio using the Consume Adapter Service](../../adapters-and-accelerators/adapter-oracle-database/connect-to-oracle-database-in-visual-studio-using-the-consume-adapter-service.md).  

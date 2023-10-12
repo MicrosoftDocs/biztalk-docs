@@ -1,19 +1,12 @@
 ---
-title: "Messages and Message Schemas for BizTalk Adapter for Siebel eBusiness Applications | Microsoft Docs"
+title: "Messages and Message Schemas for BizTalk Adapter for Siebel eBusiness Applications"
 description: XML structure of messages and data types used by the Siebel adapter in BizTalk Adapter Pack (BAP)
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6b4da884-89b0-4ab1-a728-c5569088a993
-caps.latest.revision: 4
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Messages and Message Schemas for BizTalk Adapter for Siebel eBusiness Applications
 

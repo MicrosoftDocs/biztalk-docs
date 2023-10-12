@@ -1,22 +1,12 @@
 ---
 description: "Learn more about: What Happens to Artifacts During Application Deployment"
-title: "What Happens to Artifacts During Application Deployment | Microsoft Docs"
+title: "What Happens to Artifacts During Application Deployment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "artifacts, deploying"
-  - "deploying [artifacts]"
-ms.assetid: afd77251-c3bd-454b-907f-a841911abe47
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Happens to Artifacts During Application Deployment
 The topics in this section describe what happens to the artifacts associated with an application when you add and remove artifacts, export and import applications and artifacts, and install and uninstall applications. It covers subjects such as the following:  

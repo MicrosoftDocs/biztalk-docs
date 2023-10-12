@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: sepdbubl"
-title: "sepdbubl1 | Microsoft Docs"
+title: "sepdbubl1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 2237f3ab-c2e2-41da-be3b-e36b1a7a6109
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # sepdbubl
 The application calls the **sepdbubl** function to get a buffer with a requested number of elements.  

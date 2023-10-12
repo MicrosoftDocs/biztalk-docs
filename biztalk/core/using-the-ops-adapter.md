@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: Using the Ops Adapter"
-title: "Using the Ops Adapter | Microsoft Docs"
+title: "Using the Ops Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "IOpsAIC interface"
-  - "Ops adapters, configuring"
-  - "Ops adapters, IOpsAIC interface"
-  - "process management solution tutorial, Ops adapters"
-  - "Ops adapters, processing"
-ms.assetid: 331f3614-e00b-4587-b82b-3c7bc394f361
-caps.latest.revision: 13
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Using the Ops Adapter
 The business process management solution uses the Ops adapter to handle error reports from the new error reporting feature. The solution includes a sample handler to process messages from the adapter, although you can easily write your own and use the adapter in other solutions. For information about the error reporting feature, see [Using Failed Message Routing](../core/using-failed-message-routing.md).  

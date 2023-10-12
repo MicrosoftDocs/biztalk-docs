@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Configuring Service for DRDA"
-title: "Configuring Service for DRDA | Microsoft Docs"
+title: "Configuring Service for DRDA"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 09810480-754a-4f64-9c37-938ceaaf8096
-caps.latest.revision: 5
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Configuring Service for DRDA
 IT professionals can specify the basic required DRDA Service configuration settings by running the interactive or unattended installation program. The installation and configuration process registers the MsDrdaService.exe as a service.  

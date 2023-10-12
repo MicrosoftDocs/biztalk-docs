@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: Step 3: Importing Public and Private Certificates"
-title: "Step 3: Importing Public and Private Certificates | Microsoft Docs"
+title: "Step 3: Importing Public and Private Certificates"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "public certificates"
-  - "importing certificates"
-  - "private certificates"
-  - "double action tutorial, importing certificates"
-  - "certificates, importing"
-ms.assetid: 955bdd69-9fbc-4100-ab8a-8f5dd4a17cbb
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Step 3: Importing Public and Private Certificates
 In this step, you import the certificates you created in [Step 2: Creating Public and Private Certificates &#91;RN3&#93;](../../adapters-and-accelerators/accelerator-rosettanet/step-2-creating-public-and-private-certificates.md) to the Contoso and Fabrikam computers. Each computer imports its own private certificates and imports the public certificates of the other organization.  

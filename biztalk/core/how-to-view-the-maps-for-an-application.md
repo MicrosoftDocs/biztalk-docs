@@ -1,25 +1,12 @@
 ---
 description: "Learn more about: How to View the Maps for an Application"
-title: "How to View the Maps for an Application | Microsoft Docs"
+title: "How to View the Maps for an Application"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "maps, applications"
-  - "applications, maps"
-  - "managing [maps], viewing"
-  - "maps, viewing"
-  - "managing [maps], applications"
-ms.assetid: 9a8eed52-b8e1-414d-9a47-2c2be9d49cbe
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # How to View the Maps for an Application
 This topic describes how to use the BizTalk Server Administration console to view the maps contained in a BizTalk application.  

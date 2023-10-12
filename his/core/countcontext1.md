@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: CountContext"
-title: "CountContext1 | Microsoft Docs"
+title: "CountContext1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: da936a52-4a19-4475-908d-fe7a2779d68a
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # CountContext
 Use the **CountContext** method to acquire a count of the entries in a TI Context array.  

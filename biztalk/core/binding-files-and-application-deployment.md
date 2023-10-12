@@ -1,40 +1,12 @@
 ---
 description: "Learn more about: Binding Files and Application Deployment"
-title: "Binding Files and Application Deployment | Microsoft Docs"
+title: "Binding Files and Application Deployment"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "bindings"
-  - "deploying [applications], binding files"
-  - "assemblies, binding files"
-  - "bindings, applying"
-  - "groups, assemblies"
-  - "applications, binding files"
-  - "binding files, applications"
-  - "bindings, hosts"
-  - "deploying, assemblies"
-  - "updating, assemblies"
-  - "assemblies, updating"
-  - "hosts, bindings"
-  - "binding files, assemblies"
-  - "applications, moving"
-  - "assemblies, deploying"
-  - "binding files, about binding files"
-  - "bindings, about bindings"
-  - "groups, deploying"
-  - "binding files, deploying"
-  - "bindings, binding files"
-ms.assetid: 396ad021-8001-4ed8-8b28-85b72f981fae
-caps.latest.revision: 15
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Binding Files and Application Deployment
 This topic provides overview information about using binding files to make BizTalk assembly and application deployment easier. You may find that binding files speed deployment in the following scenarios by avoiding the need to manually configure bindings:  

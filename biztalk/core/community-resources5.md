@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Community Resources"
-title: "Community Resources5 | Microsoft Docs"
+title: "Community Resources5"
 ms.custom: ""
 ms.date: "03/24/2016"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 632c6dcf-c60a-4914-8df4-97ef76d22b16
-caps.latest.revision: 17
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Community Resources
 Plug into the BizTalk Server community to connect with other developers and admins and get answers to your questions, read the latest from different BizTalk community resources, watch Channel 9 videos, dive into Azure, and more.

@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Transaction Set Not Supported"
-title: "Transaction Set Not Supported | Microsoft Docs"
+title: "Transaction Set Not Supported"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5ffe8528-f34f-4189-8ee6-4ae1afb50c92
-caps.latest.revision: 9
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Transaction Set Not Supported
 ## Details  

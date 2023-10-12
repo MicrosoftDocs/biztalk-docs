@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Invoking TPs"
-title: "Invoking TPs2 | Microsoft Docs"
+title: "Invoking TPs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 858395a7-e8c8-4e46-bcd6-07dde8223996
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Invoking TPs
 An invoking TP can be located on any system on the SNA network. An invoking TP identifies itself by issuing [TP_STARTED](./tp-started2.md), which specifies the name of the invoking TP and can specify the LU alias that the TP uses. If the LU alias is not specified in **TP_STARTED**, Host Integration Server must be configured to supply it through one of two types of default local LU; otherwise, **TP_STARTED** will fail. For more information, see [Configuring Invoking TPs on Host Integration Server](../core/configuring-invoking-tps-on-host-integration-server2.md).  

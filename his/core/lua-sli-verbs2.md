@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: LUA SLI Verbs"
-title: "LUA SLI Verbs2 | Microsoft Docs"
+title: "LUA SLI Verbs2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 4133775c-9efd-4a7a-bfda-99a284c8c3c8
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # LUA SLI Verbs
 This section describes the Microsoft® Windows® logical unit application (LUA) Session Level Interface (SLI) verbs. It provides the following information for each SLI verb:  

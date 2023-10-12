@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Scheduler was unable to schedule the batch"
-title: "Scheduler was unable to schedule the batch | Microsoft Docs"
+title: "Scheduler was unable to schedule the batch"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 5ac6d79c-c995-4c95-a4da-ee2f50b9a13a
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Scheduler was unable to schedule the batch
 ## Details  

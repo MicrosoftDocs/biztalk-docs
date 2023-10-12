@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: Security Audit"
-title: "Security Audit2 | Microsoft Docs"
+title: "Security Audit2"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 98db21b1-8ec8-4b11-97cd-c2dfd1deba23
-caps.latest.revision: 4
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # Security Audit
 When you set up security auditing, you specify events for which the system will create event log entries.  

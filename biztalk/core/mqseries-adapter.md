@@ -1,21 +1,12 @@
 ---
 description: "Learn more about: MQSeries Adapter"
-title: "MQSeries Adapter | Microsoft Docs"
+title: "MQSeries Adapter"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "MQSeries adapters"
-ms.assetid: c8f52d00-e34e-41a5-9718-00469261e2c4
-caps.latest.revision: 14
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # MQSeries Adapter
 The MQSeries adapter serves as a bridge between Microsoft BizTalk Server and IBM MQSeries servers, enabling you to use a full range of options in creating your business processes.  

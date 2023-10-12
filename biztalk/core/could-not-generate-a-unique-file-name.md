@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Could not generate a unique file name"
-title: "Could not generate a unique file name | Microsoft Docs"
+title: "Could not generate a unique file name"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: f0ad4fab-66c8-4475-a345-580ff8a4bb10
-caps.latest.revision: 5
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Could not generate a unique file name
 ## Details  

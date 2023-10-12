@@ -1,18 +1,12 @@
 ---
 description: "Learn more about: SNA Print Server Data Filter Programmer&#39;s Security Guide"
-title: "SNA Print Server Data Filter Programmer&#39;s Security Guide1 | Microsoft Docs"
+title: "SNA Print Server Data Filter Programmer&#39;s Security Guide1"
 ms.custom: ""
 ms.date: "11/30/2017"
 ms.prod: "host-integration-server"
 ms.reviewer: ""
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 6a51b8b7-2d83-4276-bf20-0ab20391ccff
-caps.latest.revision: 3
-author: "christopherhouser"
-ms.author: "hisdocs"
-manager: "anneta"
 ---
 # SNA Print Server Data Filter Programmer&#39;s Security Guide
 The following topics discuss security as it applies to the APPC section of the Host Integration Server SDK.  

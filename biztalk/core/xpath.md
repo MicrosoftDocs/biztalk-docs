@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: XPath"
-title: "XPath | Microsoft Docs"
+title: "XPath"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 444b5eb9-0c00-4225-918e-b973532c67d0
-caps.latest.revision: 8
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # XPath
 Pushes the value indicated by an XPath statement.  

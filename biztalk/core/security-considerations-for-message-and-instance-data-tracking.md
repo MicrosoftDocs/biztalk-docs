@@ -1,27 +1,12 @@
 ---
 description: "Learn more about: Security Considerations for Message and Instance Data Tracking"
-title: "Security Considerations for Message and Instance Data Tracking | Microsoft Docs"
+title: "Security Considerations for Message and Instance Data Tracking"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "permissions, HAT"
-  - "MessageBox database, HAT"
-  - "Tracking database, HAT"
-  - "security, HAT"
-  - "HAT, permissions"
-  - "HAT, security"
-  - "Management database, HAT"
-ms.assetid: 83e47dc2-c8e2-42a2-9c85-d511e7dae83f
-caps.latest.revision: 21
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Security Considerations for Message and Instance Data Tracking
 For security reasons, message and service instance tracking does not use browsers or URLs as in previous releases of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]. This monitoring option is included as a part of the Group Overview page in the BizTalk Server Administration Console.  For backward compatibility, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] still hosts Microsoft Internet Explorer inside a shell for security reasons.  

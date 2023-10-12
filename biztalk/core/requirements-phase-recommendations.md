@@ -1,19 +1,12 @@
 ---
 description: "Learn more about: Requirements Phase Recommendations"
-title: "Requirements Phase Recommendations | Microsoft Docs"
+title: "Requirements Phase Recommendations"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.assetid: 0b510313-c3a7-42bc-9c9b-336c927a5d4a
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # Requirements Phase Recommendations
 The primary deliverable associated with the requirements phase is a requirements specification, or a functional specification that includes requirements including performance goals. It is very important to involve the end-users and business owners of the system when determining these goals to assure that an accurate profile for performance is derived.

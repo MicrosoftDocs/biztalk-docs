@@ -1,24 +1,12 @@
 ---
 description: "Learn more about: What Is the SOAP Adapter?"
-title: "What Is the SOAP Adapter? | Microsoft Docs"
+title: "What Is the SOAP Adapter?"
 ms.custom: ""
 ms.date: "06/08/2017"
 ms.prod: "biztalk-server"
 ms.reviewer: ""
-
 ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: "article"
-helpviewer_keywords: 
-  - "SOAP adapters"
-  - "SOAP adapters, BizTalk Web Services Publishing Wizard"
-  - "BizTalk Web Services Publishing Wizard, SOAP adapters"
-  - "SOAP adapters, about SOAP adapters"
-ms.assetid: 725e6e31-430f-49f3-b9dd-8e65b963da70
-caps.latest.revision: 7
-author: "MandiOhlinger"
-ms.author: "mandia"
-manager: "anneta"
 ---
 # What Is the SOAP Adapter?
 Web services are programs with interfaces that adhere to the standards set forth in the Web Services Description Language (WSDL). You can use a Microsoft BizTalk Server orchestration to create and use Web services to combine separate but related business functions in a manageable and intuitive way. For more information about Web services and orchestration, see [Using Web Services](../core/using-web-services.md).  
